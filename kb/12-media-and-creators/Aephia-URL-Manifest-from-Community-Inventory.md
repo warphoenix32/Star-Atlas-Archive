@@ -15,7 +15,7 @@ The supplied community URL inventory contains **75 Aephia URL records** and **64
 
 These links were discovered through historical Discord posting activity. They are not yet uniformly network-validated, and their Discord posting timestamps should not automatically be treated as article publication dates.
 
-## Numbered newsletters (13)
+## Numbered newsletters (14)
 
 - https://aephia.com/star-atlas/weekly-star-atlas-newsletter-125/
 - https://aephia.com/star-atlas/weekly-star-atlas-newsletter-135/
@@ -77,7 +77,7 @@ These links were discovered through historical Discord posting activity. They ar
 - https://aephia.com/star-atlas/star-atlas-aephia-looking-ahead-to-2026/
 - https://aephia.com/star-atlas/426love/
 
-## Analysis, reporting and other Star Atlas material (15)
+## Analysis, reporting and other Star Atlas material (14)
 
 - https://aephia.com/multi-faction-fears-addressed/
 - https://aephia.com/star-atlas-ship-firepower/
@@ -93,7 +93,6 @@ These links were discovered through historical Discord posting activity. They ar
 - https://aephia.com/star-atlas/star-atlas-to-launch-sci-fi-adventure-podcast/
 - https://aephia.com/star-atlas/the-new-galactic-marketplace-is-live/
 - https://aephia.com/star-atlas/twelve-stories-of-peace-in-the-galia-expanse/
-- https://aephia.com/star-atlas/introducing-atlasbase-your-new-star-atlas-companion/
 
 ## Processing status
 
