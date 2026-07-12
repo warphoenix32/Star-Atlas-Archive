@@ -68,6 +68,31 @@ Current official material describes the Ustur as sentient androids guided by log
 
 The Tufa are described as ancient mineral-organic hybrid beings associated with the Cataclysm zone and the defense of valuable resources.
 
+## Narrative canon
+
+### Star Atlas: CORE
+
+**Lore ID:** LORE-NARRATIVE-CORE  
+**Type:** Episodic graphic novel / primary narrative canon  
+**Canon status:** `[CANON-PRIMARY]`  
+**First public chapter:** November 7, 2022
+
+ATMTA described CORE as the first major narrative project to bring the Star Atlas universe to life beyond the original ReBirth poster lore. The story is set shortly before the Convergence War and follows a MUD protagonist after a catastrophic expedition in the High Risk Zone.
+
+Official sources currently preserve conflicting spellings of the protagonist's name: **Gyun** and **Geyung**. The archive must not silently choose one until the published chapters or a later official source resolves the discrepancy.
+
+The announced release model contemplated 18 chapters, collectible covers, supplemental lore, and an ARC Cypher puzzle spanning the series. Those production and reward plans are historical publication facts, not in-universe canon.
+
+### Voice of Iris
+
+**Lore ID:** LORE-VOICE-OF-IRIS  
+**Type:** In-universe phenomenon / mystery  
+**Canon status:** `[CANON-OFFICIAL] [CANON-AMBIGUOUS]`
+
+An official CORE release article describes a long-rumored “whisper” or transmission reported by people across civilizations, sometimes guiding them away from danger or toward treasure. The phenomenon is commonly called the **Voice of Iris**, but the same source explicitly states there was no direct evidence connecting it to the planet Iris.
+
+The uncertainty is part of the canon and must be preserved rather than resolved through inference.
+
 ## Canon handling rules
 
 - Record both in-universe chronology and real-world publication chronology.
@@ -80,7 +105,8 @@ The Tufa are described as ancient mineral-organic hybrid beings associated with 
 ## Priority ingestion queue
 
 - Original white paper lore sections.
-- CORE chapters and associated release chronology.
+- Complete CORE chapter catalog and associated publication chronology.
+- ARC Cypher history and outcome.
 - Graphic novels and narrative publications.
 - Faction histories, species profiles and manufacturer descriptions.
 - Ship and item descriptions with possible lore significance.
@@ -92,3 +118,5 @@ The Tufa are described as ancient mineral-organic hybrid beings associated with 
 
 - https://staratlas.com/game/galia/
 - https://staratlas.com/game/life-in-galia/
+- https://experience.staratlas.com/newsroom/star-atlas-news/cosmic-alpha-burst-star-atlas-unveils-roadmap-graphic-novel-sage-and-more-at
+- https://experience.staratlas.com/newsroom/star-atlas-news/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel
