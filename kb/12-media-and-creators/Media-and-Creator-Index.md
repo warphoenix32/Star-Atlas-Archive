@@ -16,11 +16,28 @@ This index tracks independent publications, recurring shows, analysts and creato
 |---|---|---|---|
 | MEDIA-HNN | Hologram News Network / The Hologram | Independent news, interviews, governance, economy, lore and community reporting | Priority recovery |
 | MEDIA-VBTV | VBTV, formerly Star Atlas TV | Large video archive of recurring and weekly Star Atlas community events; operated by ODVB / VB | Reverse-chronological inventory opened |
-| MEDIA-AEPHIA | Aephia publications | Guides, weekly reporting, economic and gameplay analysis | Profile pending |
+| MEDIA-AEPHIA | Aephia Industries publications | Numbered weekly chronology, guides, economic dashboards, SAGE and governance coverage | Source profile and newsletter index active |
 | MEDIA-INTERGALACTIC-HERALD | Intergalactic Herald | Newsletters, directories, interviews, podcasts and event coverage | Profile pending |
 | MEDIA-GALIA-CRAFTERS | Galia Crafters | Gameplay and economic explainers | Profile pending |
-| MEDIA-METAVERSE-EXPLORER | MetaVerse Explorer | Long-running numbered video updates and commentary | Profile pending |
+| MEDIA-METAVERSE-EXPLORER | MetaVerse Explorer | Long-running numbered video updates and Aephia-affiliated commentary | Profile pending |
 | MEDIA-ATLAS-BREW | Atlas Brew | Community broadcast and interview archive | Profile pending |
+
+## Aephia Industries publications
+
+**Entity ID:** `MEDIA-AEPHIA`  
+**Institutional relationship:** Aephia Industries DAC / `GUILD-AEPHIA`  
+**Principal visible newsletter author:** Funcracker  
+**Source class:** `[SRC-COMMUNITY] [SRC-GUILD] [SRC-MEDIA]`  
+**Archive value:** `[REL-MAJOR]`
+
+Aephia publishes a numbered weekly Star Atlas newsletter, gameplay and ecosystem guides, and links to economic dashboards and MetaVerse Explorer video coverage. The weekly series had reached at least issue #237 by July 6, 2026.
+
+Aephia's reporting is valuable for reconstructing contemporary development discussion because it aggregates statements and developments from official announcements, Discord, Atlas Brew, governance, and game updates. It must remain clearly identified as guild-affiliated secondary reporting. Older newsletters and guides should be interpreted as time-bounded snapshots; plans, recipes, interfaces, schedules, and token mechanics may later be superseded.
+
+Dedicated records:
+
+- [Aephia Source Profile](Aephia-Source-Profile.md)
+- [Aephia Weekly Star Atlas Newsletter Index](Aephia-Weekly-Newsletter-Index.md)
 
 ## VBTV / Star Atlas TV
 
@@ -78,6 +95,7 @@ Each media source should be evaluated for:
 - Correction practices
 - Repeated strengths and blind spots
 - Archive completeness
+- Historical staleness and superseding records
 
 ## Citation rules
 
@@ -86,3 +104,4 @@ Each media source should be evaluated for:
 - Video or podcast claims should include timestamp when practical.
 - Deleted or inaccessible content may be described from reliable archives but should be labeled incomplete.
 - A creator's guild affiliation is relevant context when covering guild competition or governance.
+- Old guides and newsletters should be cited as evidence of contemporary knowledge, not assumed to describe the current game state.
