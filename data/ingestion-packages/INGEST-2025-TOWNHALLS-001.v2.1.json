@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "repository_schema": "2.1",
+    "artifact_type": "INGESTION_PACKAGE",
+    "ingestion_id": "INGEST-2025-TOWNHALLS-001",
+    "supersedes_artifact": "INGEST-2025-TOWNHALLS-001.v2.0.json",
+    "promotion_status": "STAGED"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-2025-TOWNHALL-001",
+      "title": "Star Atlas End of Year Town Hall 2025",
+      "type": "OFFICIAL_TOWN_HALL",
+      "tier": "OFFICIAL",
+      "language": "English",
+      "artifact_chain": {
+        "raw_transcript": "Star_Atlas_End_of_Year_Town_Hall_2025.md",
+        "normalized_transcript": null
+      }
+    },
+    {
+      "source_id": "SRC-2025-TOWNHALL-002",
+      "title": "Star Atlas Townhall – Community Discussion & Development Updates",
+      "type": "OFFICIAL_TOWN_HALL",
+      "tier": "OFFICIAL",
+      "language": "English",
+      "artifact_chain": {
+        "raw_transcript": "__Star_Atlas_Townhall___Community_Discussion___Dev.md",
+        "normalized_transcript": null
+      }
+    }
+  ],
+  "entities": [
+    {"entity_id":"ENT-MICHAELWAGNER","canonical_name":"Michael Wagner","entity_type":"PERSON","aliases":[],"role":"ATMTA CEO","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-JOSE","canonical_name":"Jose","entity_type":"PERSON","aliases":[],"role":null,"resolution_confidence":"MEDIUM"},
+    {"entity_id":"ENT-SANTI","canonical_name":"Santi","entity_type":"PERSON","aliases":[],"role":null,"resolution_confidence":"MEDIUM"},
+    {"entity_id":"ENT-JOHN","canonical_name":"John","entity_type":"PERSON","aliases":[],"role":null,"resolution_confidence":"LOW"},
+    {"entity_id":"ENT-JIMCARTER","canonical_name":"Jim Carter","entity_type":"PERSON","aliases":[],"role":null,"resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-SAMVANDERWAL","canonical_name":"Sam Vanderwal","entity_type":"PERSON","aliases":[],"role":null,"resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-CHRIS","canonical_name":"Chris","entity_type":"PERSON","aliases":[],"role":null,"resolution_confidence":"LOW"},
+    {"entity_id":"ENT-TETHER","canonical_name":"Tether","entity_type":"CORPORATION","aliases":[],"role":"Strategic collaborator","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-USDT","canonical_name":"USDT","entity_type":"TOKEN","aliases":["Tether USD"],"role":"Stablecoin","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-SYNCORIGIN","canonical_name":"Sync Origin","entity_type":"PRODUCT","aliases":[],"role":"Airdrop season","resolution_confidence":"MEDIUM"},
+    {"entity_id":"ENT-ZINC","canonical_name":"Zinc","entity_type":"TECHNOLOGY","aliases":[],"role":"SVM L1 blockchain network","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-C4","canonical_name":"C4","entity_type":"GAME_SYSTEM","aliases":["SAGE C4"],"role":"Star Atlas strategy game expansion","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-UE5","canonical_name":"UE5","entity_type":"TECHNOLOGY","aliases":["Unreal Engine 5"],"role":"Game engine","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-DAO","canonical_name":"Star Atlas DAO","entity_type":"DAO","aliases":["DAO"],"role":"Governance institution","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-DOWCASTERS","canonical_name":"Dowcasters","entity_type":"COMMUNITY","aliases":[],"role":"Community content creator program","resolution_confidence":"MEDIUM"},
+    {"entity_id":"ENT-SUPERPHOENIXDAO","canonical_name":"Super Phoenix DAO","entity_type":"DAO","aliases":[],"role":"Community organization","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-IRISBLESSING","canonical_name":"Iris Blessing","entity_type":"PRODUCT","aliases":[],"role":"Community rewards program","resolution_confidence":"MEDIUM"},
+    {"entity_id":"ENT-BRADWARREN","canonical_name":"Brad Warren","entity_type":"PERSON","aliases":[],"role":"Unreal Engine developer","resolution_confidence":"HIGH"},
+    {"entity_id":"ENT-JACOBFLOYD","canonical_name":"Jacob Floyd","entity_type":"PERSON","aliases":["Brave Target"],"role":"Zinc developer","resolution_confidence":"HIGH"}
+  ],
+  "events": [
+    {
+      "event_id":"EVENT-TETHER",
+      "title":"Tether collaboration announced",
+      "status":"ANNOUNCED",
+      "tags":["Partnership","USDT"],
+      "related_entities":["ENT-TETHER","ENT-USDT","ENT-MICHAELWAGNER","ENT-SANTI"],
+      "provenance":{"source_id":"SRC-2025-TOWNHALL-001","speaker":"ENT-MICHAELWAGNER / ENT-SANTI","timestamp_start":null,"timestamp_end":null,"speaker_confidence":"HIGH","timestamp_confidence":"UNKNOWN","extraction_confidence":"HIGH"},
+      "evidence":[{"type":"TRANSCRIPT_REFERENCE","source_id":"SRC-2025-TOWNHALL-001","timestamp_start":null,"timestamp_end":null,"excerpt":null}]
+    },
+    {
+      "event_id":"EVENT-DOWCASTERS",
+      "title":"Dowcasters program announced",
+      "status":"ANNOUNCED",
+      "tags":["DAO","Community"],
+      "related_entities":["ENT-DOWCASTERS","ENT-DAO","ENT-SANTI"],
+      "provenance":{"source_id":"SRC-2025-TOWNHALL-001","speaker":"ENT-SANTI","timestamp_start":null,"timestamp_end":null,"speaker_confidence":"HIGH","timestamp_confidence":"UNKNOWN","extraction_confidence":"HIGH"},
+      "evidence":[{"type":"TRANSCRIPT_REFERENCE","source_id":"SRC-2025-TOWNHALL-001","timestamp_start":null,"timestamp_end":null,"excerpt":null}]
+    }
+  ],
+  "claims": [
+    {
+      "claim_id":"CLAIM-0001",
+      "claim_type":"ANNOUNCEMENT",
+      "status":"ANNOUNCED",
+      "summary":"Star Atlas announced a strategic collaboration with Tether and a planned marketplace migration from USDC to USDT.",
+      "tags":["Business Development","Tether","USDT","Marketplace"],
+      "related_entities":["ENT-TETHER","ENT-USDT","ENT-MICHAELWAGNER","ENT-SANTI"],
+      "provenance":{"source_id":"SRC-2025-TOWNHALL-001","speaker":"ENT-MICHAELWAGNER / ENT-SANTI","timestamp_start":null,"timestamp_end":null,"speaker_confidence":"HIGH","timestamp_confidence":"UNKNOWN","extraction_confidence":"HIGH"},
+      "evidence":[{"type":"TRANSCRIPT_REFERENCE","source_id":"SRC-2025-TOWNHALL-001","timestamp_start":null,"timestamp_end":null,"excerpt":null}]
+    }
+  ],
+  "quotes": [],
+  "relationships": [
+    {
+      "relationship_id":"REL-STARATLAS-TETHER-001",
+      "type":"PARTNERS_WITH",
+      "source":"Star Atlas",
+      "target":"ENT-TETHER",
+      "status":"ANNOUNCED",
+      "relationship_confidence":"HIGH",
+      "related_entities":["ENT-TETHER","ENT-USDT"],
+      "provenance":{"source_id":"SRC-2025-TOWNHALL-001","speaker":"ENT-MICHAELWAGNER / ENT-SANTI","timestamp_start":null,"timestamp_end":null,"speaker_confidence":"HIGH","timestamp_confidence":"UNKNOWN","extraction_confidence":"HIGH"}
+    }
+  ],
+  "timeline_updates": [],
+  "knowledge_delta": {
+    "new_partnerships":["Star Atlas ↔ Tether"],
+    "new_products":["Sync Origin","Holosim Chapter 2"],
+    "governance":["Dowcasters"],
+    "status_changes":[]
+  },
+  "research_tasks": [
+    {"task_id":"TASK-TETHER-FOLLOWUP-001","priority":"HIGH","topic":"Track future Tether integrations referenced but not disclosed","status":"OPEN","related_entities":["ENT-TETHER","ENT-USDT"]},
+    {"task_id":"TASK-HOLOSIM-CH2-VERIFY-001","priority":"MEDIUM","topic":"Verify Holosim Chapter 2 release completion","status":"OPEN","related_entities":[]}
+  ],
+  "mentioned_entities":["ENT-BRADWARREN","ENT-C4","ENT-CHRIS","ENT-DAO","ENT-DOWCASTERS","ENT-IRISBLESSING","ENT-JACOBFLOYD","ENT-JIMCARTER","ENT-JOHN","ENT-JOSE","ENT-MICHAELWAGNER","ENT-SAMVANDERWAL","ENT-SANTI","ENT-SUPERPHOENIXDAO","ENT-SYNCORIGIN","ENT-TETHER","ENT-UE5","ENT-USDT","ENT-ZINC"],
+  "search_log": {
+    "official_sources":["Star Atlas End of Year Town Hall 2025","Star Atlas Townhall – Community Discussion & Development Updates"],
+    "community_sources":[],
+    "repository_hits":[]
+  },
+  "transcript":[]
+}
