@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "repository_schema": "2.1",
+    "artifact_type": "INGESTION_PACKAGE",
+    "ingestion_id": "INGEST-EXAMPLE-0001"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-EXAMPLE-0001",
+      "title": "Example Official Town Hall",
+      "type": "TOWN_HALL",
+      "tier": "OFFICIAL",
+      "language": "English",
+      "raw_transcript": "raw/example-town-hall.md",
+      "normalized_transcript": "normalized/example-town-hall.md"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "PERSON-000001",
+      "legacy_ids": ["ACTOR-MICHAEL-WAGNER"],
+      "canonical_name": "Michael Wagner",
+      "entity_type": "PERSON",
+      "aliases": [],
+      "role": "CEO",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "ORG-000008",
+      "canonical_name": "Star Atlas",
+      "entity_type": "ORGANIZATION",
+      "aliases": [],
+      "role": "Project",
+      "confidence": 1.0
+    },
+    {
+      "entity_id": "FEATURE-000024",
+      "canonical_name": "Example Feature",
+      "entity_type": "FEATURE",
+      "aliases": [],
+      "role": "Gameplay feature",
+      "confidence": 0.98
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "CLAIM-000001",
+      "summary": "The example feature is planned for testing.",
+      "claim_type": "ANNOUNCEMENT",
+      "status": "PLANNED",
+      "related_entities": ["ORG-000008", "PERSON-000001", "FEATURE-000024"],
+      "provenance": {
+        "source_id": "SRC-EXAMPLE-0001",
+        "speaker": "PERSON-000001",
+        "timestamp_start": "00:12:14",
+        "timestamp_end": "00:12:31",
+        "confidence": 1.0
+      },
+      "evidence": [
+        {
+          "type": "quote",
+          "text": "We plan to move this feature into testing."
+        },
+        {
+          "type": "transcript_reference",
+          "timestamp": "00:12:14"
+        }
+      ],
+      "confidence": {
+        "entity_resolution": 1.0,
+        "speaker_identification": 1.0,
+        "claim_extraction": 0.99,
+        "timestamps": 0.95
+      }
+    }
+  ],
+  "events": [],
+  "quotes": [],
+  "relationships": [],
+  "timeline_updates": [],
+  "research_tasks": [],
+  "knowledge_delta": {},
+  "search_log": {},
+  "repository_health": {},
+  "transcript": []
+}
