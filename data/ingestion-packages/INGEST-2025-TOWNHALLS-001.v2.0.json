@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "repository_schema": "2.0",
+    "artifact_type": "INGESTION_PACKAGE",
+    "ingestion_id": "INGEST-2025-TOWNHALLS-001"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-2025-TOWNHALL-001",
+      "title": "Star_Atlas_End_of_Year_Town_Hall_2025(1)",
+      "type": "Official Town Hall",
+      "tier": "Official",
+      "language": "English"
+    },
+    {
+      "source_id": "SRC-2025-TOWNHALL-002",
+      "title": "__Star_Atlas_Townhall___Community_Discussion___Dev(1)",
+      "type": "Official Town Hall",
+      "tier": "Official",
+      "language": "English"
+    }
+  ],
+  "entities": [
+    {"entity_id":"ENT-MICHAELWAGNER","name":"Michael Wagner"},
+    {"entity_id":"ENT-JOSE","name":"Jose"},
+    {"entity_id":"ENT-SANTI","name":"Santi"},
+    {"entity_id":"ENT-JOHN","name":"John"},
+    {"entity_id":"ENT-JIMCARTER","name":"Jim Carter"},
+    {"entity_id":"ENT-SAMVANDERWAL","name":"Sam Vanderwal"},
+    {"entity_id":"ENT-CHRIS","name":"Chris"},
+    {"entity_id":"ENT-TETHER","name":"Tether"},
+    {"entity_id":"ENT-USDT","name":"USDT"},
+    {"entity_id":"ENT-SYNCORIGIN","name":"Sync Origin"},
+    {"entity_id":"ENT-ZINC","name":"Zinc"},
+    {"entity_id":"ENT-C4","name":"C4"},
+    {"entity_id":"ENT-UE5","name":"UE5"},
+    {"entity_id":"ENT-DAO","name":"DAO"},
+    {"entity_id":"ENT-DOWCASTERS","name":"Dowcasters"},
+    {"entity_id":"ENT-SUPERPHOENIXDAO","name":"Super Phoenix DAO"},
+    {"entity_id":"ENT-IRISBLESSING","name":"Iris Blessing"},
+    {"entity_id":"ENT-BRADWARREN","name":"Brad Warren"},
+    {"entity_id":"ENT-JACOBFLOYD","name":"Jacob Floyd"}
+  ],
+  "events": [
+    {"event_id":"EVENT-TETHER","title":"Tether partnership announced","status":"ANNOUNCED","tags":["Partnership","USDT"]},
+    {"event_id":"EVENT-DOWCASTERS","title":"Dowcasters program announced","status":"ANNOUNCED","tags":["DAO","Community"]}
+  ],
+  "claims": [
+    {
+      "claim_id":"CLAIM-0001",
+      "claim_type":"Announcement",
+      "status":"ANNOUNCED",
+      "speaker":"Michael Wagner / Santi",
+      "summary":"Strategic collaboration with Tether including planned marketplace migration to USDT.",
+      "tags":["Business Development","Tether","USDT","Marketplace"],
+      "confidence":"HIGH",
+      "source_id":"SRC-2025-TOWNHALL-001"
+    }
+  ],
+  "quotes": [],
+  "relationships": [
+    {"type":"PARTNERS_WITH","source":"Star Atlas","target":"Tether","status":"ANNOUNCED"}
+  ],
+  "timeline_updates": [],
+  "knowledge_delta": {
+    "new_partnerships":["Star Atlas ↔ Tether"],
+    "new_products":["Sync Origin","Holosim Chapter 2"],
+    "governance":["Dowcasters"],
+    "status_changes":[]
+  },
+  "research_tasks": [
+    {"priority":"HIGH","topic":"Track future Tether integrations referenced but not disclosed","status":"OPEN"},
+    {"priority":"MEDIUM","topic":"Verify Holosim Chapter 2 release completion","status":"OPEN"}
+  ],
+  "mentioned_entities":["Brad Warren","C4","Chris","DAO","Dowcasters","Iris Blessing","Jacob Floyd","Jim Carter","John","Jose","Michael Wagner","Sam Vanderwal","Santi","Super Phoenix DAO","Sync Origin","Tether","UE5","USDT","Zinc"],
+  "search_log": {
+    "official_sources":["Star_Atlas_End_of_Year_Town_Hall_2025(1)","__Star_Atlas_Townhall___Community_Discussion___Dev(1)"],
+    "community_sources":[],
+    "repository_hits":[]
+  },
+  "transcript":[]
+}
