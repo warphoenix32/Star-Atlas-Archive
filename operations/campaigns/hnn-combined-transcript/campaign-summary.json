@@ -1,0 +1,56 @@
+{
+  "campaign_id": "hnn-combined-transcript",
+  "status": "READY_FOR_REVIEW",
+  "source_file": "The Hologram News Network_combined_transcript(1).txt",
+  "coverage_dates": {
+    "start": null,
+    "end": null,
+    "reason": "Publication dates absent from combined transcript"
+  },
+  "sources_discovered": 85,
+  "sources_attempted": 85,
+  "retrieval_successes": 1,
+  "retrieval_failures": 0,
+  "duplicate_sources": 0,
+  "raw_artifacts_created": 1,
+  "normalized_artifacts_created": 87,
+  "source_records_created": 85,
+  "ingestion_packages_created": 1,
+  "claims_extracted": 0,
+  "entities_extracted": 0,
+  "reconciliation_records_created": 0,
+  "proposed_knowledge_updates": 0,
+  "proposed_graph_updates": 0,
+  "manual_review_items": 4,
+  "normalization_corrections_logged": 2907,
+  "transcript_segments_preserved": 53935,
+  "confidence_distribution": {
+    "source_identity": {
+      "HIGH": 85
+    },
+    "speaker_identity": {
+      "UNKNOWN": 53935
+    },
+    "normalization": {
+      "MEDIUM": 53935
+    }
+  },
+  "unresolved_blockers": [
+    "Original source URLs absent",
+    "Publication dates absent",
+    "Many speaker identities absent",
+    "Semantic extraction and external verification not yet performed"
+  ],
+  "validation": {
+    "json_parse": "PASS",
+    "raw_artifact_immutable_copy": "PASS",
+    "normalized_to_raw_mapping": "PASS",
+    "source_ids_unique": true,
+    "checksums_present": true,
+    "canonical_knowledge_modified": false,
+    "canonical_graph_modified": false,
+    "raw_source_overwritten": false,
+    "duplicate_title_count": 0,
+    "campaign_counts_reconcile": true
+  }
+}

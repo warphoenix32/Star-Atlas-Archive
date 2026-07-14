@@ -1,0 +1,903 @@
+{
+  "campaign_id": "hnn-combined-transcript",
+  "generated_at": "2026-07-14T04:06:48.665238+00:00",
+  "repository_schema": "2.1",
+  "raw_source_sha256": "c5bfdf095051e6c9c661429f017388280a5e868181936a961ed16d356ca6318e",
+  "artifacts": [
+    {
+      "path": "archive/ingestion-packages/hnn-combined-transcript/hnn-combined-transcript-ingestion-package.json",
+      "size_bytes": 41231580,
+      "sha256": "eba9f8f6fec17741582295374a79dcdd1a6b961b80c4adb05b707fae809dd2f6"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/2022-star-atlas-recap.md",
+      "size_bytes": 8501,
+      "sha256": "f330eb6d1421e2d2e6670b14aa752acf62fb3f0d394402b0b8c92a9d1911ebb5"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/4-things-to-expect-from-star-atlas-this-week.md",
+      "size_bytes": 4379,
+      "sha256": "2dd132a558cb7024a546a194e104011f00ae02e3fe1e157e422d068f077145e9"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/426-delayed-news-gameplay-footage-showroom-specs-in-this-week-star-atlas-metaverse.md",
+      "size_bytes": 4071,
+      "sha256": "d9c6e08022e90a9b6464c7f72f5adaa16c01b98c3d4ca0697b1f171f7169c921"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/426-live-star-atlas-event-learn-about-the-lastest-news-to-get-excited-about.md",
+      "size_bytes": 2601,
+      "sha256": "e4ea8d9a049c15fe0452335d5e5c936b8498ed0c20e827b0b020e248029c8fe0"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/The_Hologram_News_Network_combined_transcript_NORMALIZED.md",
+      "size_bytes": 2474402,
+      "sha256": "9372582a0e7a507a95619aadb483d6a13718f686c6f689076905ee451c58eed8"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/a-star-atlas-story-tales-from-the-dark-rainbow.md",
+      "size_bytes": 25304,
+      "sha256": "171f1b978689637d229ca716309e51d8246eee0bc17a537b29ce30841082deed"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-75-sage-labs-economics.md",
+      "size_bytes": 110994,
+      "sha256": "7c00623940c959aff2f74a5f4aa85c0bceb40405ec87403799d54e897f3eb25b"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-76-sage-labs-lore.md",
+      "size_bytes": 64860,
+      "sha256": "eada84b43676a9a615b7ca51d37a0405a24d8cf28c7a695b87b6a26dfe33fca8"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-77.md",
+      "size_bytes": 74877,
+      "sha256": "1899b380e495e4b5f1885198dcfd5ae2037a1ff569c1e10fce2975200ac12c46"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-80-one-week-of-sage-labs.md",
+      "size_bytes": 68822,
+      "sha256": "3fb33205fc5cf6bf840abb1c6e2a9a278d212478a9a06b6c3d22a0102ee7aa89"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-82-sage-labs-w-economics-team.md",
+      "size_bytes": 75693,
+      "sha256": "24e25ffac7331c00bebd2ae18f09f0488046501eef3cd3e01e6372931cea1e2b"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-83-sage-labs-w-chypto.md",
+      "size_bytes": 77700,
+      "sha256": "6c45eccf3d13c5c0d691529ede9cd53325b0e7193a338ee623f52a22bda3bb36"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-84.md",
+      "size_bytes": 69950,
+      "sha256": "4ab03c05b5de47d694283429faa33fdaeba58369b937cd70af4622dc67750b36"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-86-breakpoint-talk.md",
+      "size_bytes": 65448,
+      "sha256": "5131340e649e2ec193ea01db50791fe9d9221fed92c49506a28905543fb6a840"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-90-community-updates.md",
+      "size_bytes": 52220,
+      "sha256": "a996ff8beba893a203ac2d46ee5eb57b0fb8e5d1fcdcbb70bc56948df1dfaa50"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-92-the-next-10-days.md",
+      "size_bytes": 61198,
+      "sha256": "482efd947620ae848fee094fb8b626884c54ff4806fe3ab5fa8841c916cf3bc2"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-93-last-brew-of-the-year-talking-2024.md",
+      "size_bytes": 65596,
+      "sha256": "6180c7d928ad6f5ff94d8a5ace1f7114cba70b6895a3c9c46a11eb5e45509885"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/atlas-brew-96-quarterly-report-with-chris-and-gareth.md",
+      "size_bytes": 65101,
+      "sha256": "a404c284a1a45cecb281f85d73937ff0d678007e1a10f38b199bfdd75dec2408"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/blockchain-analytics-and-what-it-can-reveal-about-star-atlas-ft-star-dust-economy.md",
+      "size_bytes": 32861,
+      "sha256": "2ce8ad458fb5fa2d561402ddb1328ce47350801ca55a59f9e3e20c3901f15116"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/breaking-star-atlas-dao-supply-of-r4-ends-player-economy-begins.md",
+      "size_bytes": 10463,
+      "sha256": "9a62167fd757b6a30496def2b64f2ce109d94464b67342e652e13c22b724732a"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/core-ep-5-and-automata-pulls-usdc-from-marketplace.md",
+      "size_bytes": 6192,
+      "sha256": "1b10386dfd36a91a55de6528d250da44320f6f1743530881e04ebb1c79c9d286"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/fimbul-manufacturer-in-economic-trouble.md",
+      "size_bytes": 2276,
+      "sha256": "198e81c266021841e53843f73251b6f20b9165ce2ed2baa04079a92255fb122e"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/heroes-of-valannia.md",
+      "size_bytes": 8889,
+      "sha256": "3be24e4e9b42df27f95dcc1f4c8583065506bb32e39c2b8989e6df286bf0181d"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/how-to-burn-unwanted-nfts-in-phantom-desktop-version.md",
+      "size_bytes": 1523,
+      "sha256": "31bbcb696a19cf86e8edf7680b38b8c955961e448b2bcc504489de4e172bba3a"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/how-to-claim-a-star-atlas-memory-fragment-never-alone.md",
+      "size_bytes": 9195,
+      "sha256": "8eab30f58b8fa7f7fc7ab8dc8321980e683eef0840fbd4b610d4482c2784a19e"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/how-to-craft-in-star-atlas-labs.md",
+      "size_bytes": 5167,
+      "sha256": "b4cc1d6e93adcb4d0040e25abcb43645e9a835f1c9485a2114182f7b52e5e703"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/how-to-deposit-and-withdraw-ships-in-star-atlas.md",
+      "size_bytes": 4437,
+      "sha256": "4924f662cd993b4db14ec906de1a1d49129caea0166827b24c75065da8db2e9f"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/how-to-form-and-disband-fleets-in-star-atlas-labs.md",
+      "size_bytes": 4730,
+      "sha256": "e7c3693ddc3a07a73cc15112b80f6eff3ee77b581f8c7b1cfcedbfd11d0be3d9"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/how-to-mine-in-star-atlas-labs.md",
+      "size_bytes": 6096,
+      "sha256": "6725d9ae938d23e677607e3432d23845db734346d5088418818020bfe50b28b6"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/how-to-transfer-items-in-star-atlas-labs.md",
+      "size_bytes": 6221,
+      "sha256": "e46548a623cf16be249a1e8922e99d52d250410b4cbd7d3ecb91b3a70dbad81d"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/live-michael-wagner-ceo-at-playgg.md",
+      "size_bytes": 31856,
+      "sha256": "0d8cfae8097d0c33fe4bc1fd9e66c08e01633850967e1410b7757c48788d7ec2"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/live-star-atlas-sage-labs-update-w-chris-s-sr-dir-of-star-atlas-economy.md",
+      "size_bytes": 100315,
+      "sha256": "878d4b54e4720f48ceaee80c14a2530292a73bb35971eb7589f00d51b31ee2bb"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/massive-star-atlas-never-alone-campaign-2-million-in-prizes.md",
+      "size_bytes": 22951,
+      "sha256": "9875c624b6d6807ff1c73a6f3f625d39abede4a48b690327a94304625bda4083"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/michael-wagner-addresses-new-star-atlas-ship-configs.md",
+      "size_bytes": 9078,
+      "sha256": "ceea8e24b573bee26256ceb855b7808f5b8f06f0a73decfa64172abca16a011d"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/new-ship-community-video-contest-and-r4-ressources-update.md",
+      "size_bytes": 3679,
+      "sha256": "46cefb2b59e9e14f2742fb23538cccfda56112b441a50f7728b3d94133b7ed6a"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/normalization-corrections.json",
+      "size_bytes": 568339,
+      "sha256": "86f96f1a040782e4d9492bb97a8d2445a5441313340a3011badf3ec9790e8b67"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/pip-18-star-atlas-comet-marketing-expansion.md",
+      "size_bytes": 5175,
+      "sha256": "45d0500fdfb31a4411ce005d4a3ec57e68de8371acb7d74109c0b8a61dc8a6ce"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/showroom-leak-new-ogrika-dark-matter-guild-3-star-atlas-story-you-may-have-missed-last-wee.md",
+      "size_bytes": 3143,
+      "sha256": "f3575494f2bc61b0ad86498d0258369028e42f5889012e5f146c4e4f48700de8"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/skull-bones-gains-new-support-in-pirate-war.md",
+      "size_bytes": 2361,
+      "sha256": "03820d45ceabcb18e9e285a946219ac0b031edb8313236df8fe51b00e1ef3e11"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/spd-dao-townhall-2024-08-09.md",
+      "size_bytes": 70524,
+      "sha256": "0200509eb7847dc3e5b29607ab6d0c0dd6cb306d251a7a3176f9a8533c8ad910"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-2024-community-week-town-hall.md",
+      "size_bytes": 130455,
+      "sha256": "d9228f4b333788f2aca0563185dbdc119d2e875b4ac2d029364ba648ebbbc0a5"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-at-play-gg-and-san-diego-comic-con.md",
+      "size_bytes": 4831,
+      "sha256": "38cea29b57d636aae1c63d7c13b73ba1701a6447b4919cf5fcc81376e7ed287a"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-becoming-famous-in-galia-part-3-what-star-atlas-means-to-me.md",
+      "size_bytes": 2876,
+      "sha256": "7184e5fbee5031c71ece47233fbe8d9d793b015fdaae04014bd80f16fe2cf5ac"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-breaks-solana-web3-gaming-records-staratlas-solana.md",
+      "size_bytes": 1708,
+      "sha256": "551cf65573d3e8b3b0681be322d9e86150fe659dc99ff043a06087e4a18b7c3f"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-community-week-kickoff.md",
+      "size_bytes": 52732,
+      "sha256": "84d49f2d5e2985a88d8c8e7d21a46892fce3083f76bbbdffbacfcac252f20629"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-economic-updates-mining-ships-and-r4-prices.md",
+      "size_bytes": 2211,
+      "sha256": "cc10ae167ca25e8e55c6b948fef1bc834f50410bb05780de12385ad8d00eaac4"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-factions-and-lore-for-new-players.md",
+      "size_bytes": 72672,
+      "sha256": "b5604c24670c3b42d7ca4d9c7ff4497e0745b062a2812c33c7bce9add8ff75a8"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-feb-3rd-town-hall-recap-in-under-5-minutes-runway-and-ftx-update.md",
+      "size_bytes": 7415,
+      "sha256": "c6306ccc04a61437aa23c9d4d44804d17de37242ebea3ce900919bcaa2882f6d"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-june-23rd-town-hall-one-minute-recap.md",
+      "size_bytes": 2018,
+      "sha256": "41fc396c7af80bce898d8c3bb4e79ba6ba065320f8d6969866c3905550bc9703"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-live-michael-wagner-addresses-mass-layoffs.md",
+      "size_bytes": 102208,
+      "sha256": "74ab34a414ad202914942931debf3e63f7d8881a9a5131d2f51458fb77895c3f"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-lore-explained-part-i-ft-matt-medney.md",
+      "size_bytes": 26672,
+      "sha256": "80b43341d9609b519a7b28fe9ecd2e4e7ec180e8d9206e760c57334f417d06b8"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-lore-explained-something-worth-fighting-for-ft-head-of-star-atlas-lore-matt-med.md",
+      "size_bytes": 2677,
+      "sha256": "704dd00de4160fba05684346ee8c18fdedd209d0b01bb64c79a0b3a723ba59ac"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-lore-explained-with-matt-medney-part-ii-ustur-oni-and-photoli-oh-my.md",
+      "size_bytes": 32376,
+      "sha256": "22be9ade48fcb66be6273702ebab0a8ebbfaf55d351a708c2703cc02c0bc1572"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-makes-major-layoff-announcement.md",
+      "size_bytes": 9706,
+      "sha256": "a9d15901fb017805d15d0dc93fdf049698e633f0082c27135adfddd8f7e09f55"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-nabs-scammers-jupiter-swap-and-solana-outage.md",
+      "size_bytes": 8450,
+      "sha256": "63f06d2647cb0b46b55373c8eb4b401b6beaab874027c3d877bd26ddd38fc20a"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-never-alone-mission-2-exclusive-loot-lore-and-more.md",
+      "size_bytes": 5756,
+      "sha256": "b4232162778530e9e1e2da458dac7ecfc8ef15f639d4d0904b6fe5d71724cc11"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-news-showroom-2-1-release-and-upcoming-dao.md",
+      "size_bytes": 7621,
+      "sha256": "d3af746fccb480b6878a12a8c80d22fb4d7ceb69724e1ce1e1e5f2e454b4bc9c"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-news-the-cop-assembles-holopinion-and-small-fighters-ranking.md",
+      "size_bytes": 3293,
+      "sha256": "9586468dc57b74c03e08293cca04e901bd1a90660895e2e5e0f7ab8bdfe1f0f6"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-pip-1-part-i-constitution-and-dao.md",
+      "size_bytes": 21151,
+      "sha256": "bba4b943e007f2b2ad2bde832963f77b2f8f6f331eef2b9e8eef17075fa99d16"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-pip-19-economic-research-and-data-funding.md",
+      "size_bytes": 6226,
+      "sha256": "d65ab3f9b4f4df7163e645be4eb0a56409a7895194c0273f5dcb7176b0c078df"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-pip-20-the-dao-caster-program.md",
+      "size_bytes": 6561,
+      "sha256": "9ff85261089d2a0120f138dc573e966ec0462edf08c2f67b7e7d7a91ff0d8e5e"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-pip-21-overview-and-vote-results.md",
+      "size_bytes": 4698,
+      "sha256": "a914d7a97479d6bb75c962b10d0bf51310920e69ea58ce126aade9b2527eb9e7"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-q2-2023-econ-report-w-steven-sabol-star-dust-economy-and-viktor.md",
+      "size_bytes": 135839,
+      "sha256": "17061eae3d6ba2ab461abb8893fd64d291f58117b961b85eef92f29c483f6dd0"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-rec-new-crafting-meta.md",
+      "size_bytes": 9375,
+      "sha256": "de01bc427c9b36c66651b548b6732847b27de061a5e9189d67bf55124d3d7af1"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-runway-and-company-financial-update.md",
+      "size_bytes": 2789,
+      "sha256": "c22d107ed5c785cf578d79746814af1a5edf3fb9d58c74afaf0507dd406298b1"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-runway-ftx-fund-recovery-and-sage-updates-ft-signal.md",
+      "size_bytes": 28731,
+      "sha256": "89b757e343b370c52f604068408ca11c6b3e1aadb19cf612f4a3ddb4f7d92d93"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-sage-2023-gameplay-and-roadmap-updates.md",
+      "size_bytes": 13918,
+      "sha256": "b34f9ba297e1979436f409f14e1b4ffe2e24862bc6d99e003c9aedecec7dfa2d"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-sage-announcement-and-quarterly-econ-update-ft-courtney.md",
+      "size_bytes": 9823,
+      "sha256": "1041bc68a7bb008fa6a42684a7d5c12794c1395dc8edc762b7af455c5ab3741d"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-sage-gameplay-reveal-and-surprise-rewards-ft-the-vanguard-squadron.md",
+      "size_bytes": 32093,
+      "sha256": "5ea06aefeff4f50b926127d4e561405ebe24e50380d1769d48528a8bcf93a723"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-sage-labs-pre-launch-atlas-brew.md",
+      "size_bytes": 59544,
+      "sha256": "805265d537bfa4487e549efae6ba055bb5fb94de41819f6814d4831192e9620a"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-sage-labs-preview.md",
+      "size_bytes": 70865,
+      "sha256": "499cc73d1bff4543daee7a1f396a9bf12386116ac6ce4e617a40fb3b595e142d"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-sage-labs-secret-tips.md",
+      "size_bytes": 59608,
+      "sha256": "0a4eb3f63bf423820e23e13349a20d7faa6bc1b8f3ac9a9f017b60d7d704d2b4"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-score-reduction-and-economic-planning-w-chris-s.md",
+      "size_bytes": 74054,
+      "sha256": "43f29609f7353e993513132698f9c6d77fe0d2e36cbb88efcab41ead27d6eba5"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-shaping-the-zeitgeist-setting-the-standard-for-web3-economies.md",
+      "size_bytes": 81175,
+      "sha256": "fd63670dab11510bcdd7d7ddb36ab8ae05a66cb2cf211840c1ae0def4e450803"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-skull-bones-declaration-of-war-against-dark-matter.md",
+      "size_bytes": 2146,
+      "sha256": "26107bc4bef78efc96ba5f1515a5d7541833c14f90ff73202d80b9d0fda6a490"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-solana-breakpoint-2023-presentation-by-michael-wagner.md",
+      "size_bytes": 34528,
+      "sha256": "a1b8b2ddd73f03f25916155d6e0f106ab100f995601c8c6c7f75d9280041e515"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-townhall.md",
+      "size_bytes": 70948,
+      "sha256": "f60bf0357d39b8aac255902658b0ac72792e314f78de9c586d3124fdde08aec1"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-ultimate-sdu-scanning-tool.md",
+      "size_bytes": 6096,
+      "sha256": "abee8fa1bb49dd7c431606d372ff341e79d03a9f1ca93a6eac20b23f1ebac231"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/star-atlas-work-in-progress-ground-racing-in-unreal-engine-5.md",
+      "size_bytes": 1191,
+      "sha256": "68f698f5ef33bf6e5acd7c3b8c747d5b8da170e8fcf58b4aceecf7a33ab48ade"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/the-galactic-marketplace-updates-ft-xcode.md",
+      "size_bytes": 26036,
+      "sha256": "68d2cb5d3a0028b2c5d48c9ef6e93d5281eef88ef87256b412cd8fa4894baf20"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/the-hologram-news-network-trailer.md",
+      "size_bytes": 1268,
+      "sha256": "7698d7b626d6b66c7b0df065023cde21de9af231a23fdea0292d3bb8b9c4ca3c"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/the-state-of-star-atlas-ft-signal.md",
+      "size_bytes": 16556,
+      "sha256": "48ea2d67f24abee1308601299cb7e9701627b5b4a0cc969b414194e0faeda34e"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/valannia-partners-with-former-star-atlas-econ-team-web3-econ-labs.md",
+      "size_bytes": 5559,
+      "sha256": "22730323b060d9bc14e79911ca57761d0bfb30ba185e8952c2a894dbbbda17ad"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/valannia-tavern-meeting-01-valannium-rings-and-lore.md",
+      "size_bytes": 43237,
+      "sha256": "f8da8b4a6e2fd64d87857af29e98e26dad5d136dd92cf9104682db6040e10614"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/valannia-the-altari.md",
+      "size_bytes": 4694,
+      "sha256": "fcb2c2e83b12153ff88545b369f726da5e2953e68d20e980e6947f3a666bc22e"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/valannia-zealy-campaign-and-valannium-ring-overview.md",
+      "size_bytes": 8296,
+      "sha256": "51a9a691660259bfef2a93faf902dc16512b51913d454977068bec4e09b926a5"
+    },
+    {
+      "path": "archive/normalized/hnn-combined-transcript/will-february-be-any-different-for-star-atlas.md",
+      "size_bytes": 7661,
+      "sha256": "81f511e55c284e76b2e1ffd0cdc5a1a34dae31c351e71040c48068196b028ef7"
+    },
+    {
+      "path": "archive/proposed/graph/hnn-combined-transcript/proposed-graph-delta.json",
+      "size_bytes": 45,
+      "sha256": "2e5bfd3fb0c52d17d291b157e9bef23ff76a4775cb04374f959d33ec70d6ed2f"
+    },
+    {
+      "path": "archive/proposed/knowledge/hnn-combined-transcript/proposed-knowledge-delta.json",
+      "size_bytes": 45,
+      "sha256": "2e5bfd3fb0c52d17d291b157e9bef23ff76a4775cb04374f959d33ec70d6ed2f"
+    },
+    {
+      "path": "archive/raw/hnn-combined-transcript/The Hologram News Network_combined_transcript(1).txt",
+      "size_bytes": 2544273,
+      "sha256": "c5bfdf095051e6c9c661429f017388280a5e868181936a961ed16d356ca6318e"
+    },
+    {
+      "path": "archive/reconciliation/hnn-combined-transcript/reconciliation-index.json",
+      "size_bytes": 46,
+      "sha256": "66b3877f05bd06e9ffc533aa8ed5297c6f4dba107d6ab07dd715c0d7e582e176"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/2022-star-atlas-recap.json",
+      "size_bytes": 1371,
+      "sha256": "b9fa826eb96c9bc8628e4a563f514f394da31b93b498e5c4dace5e21bee7d426"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/4-things-to-expect-from-star-atlas-this-week.json",
+      "size_bytes": 1416,
+      "sha256": "eb98b06f2e22a0c86dff5924fe790ee4b7bb01f507d4aac5e876cecc1b82ff3c"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/426-delayed-news-gameplay-footage-showroom-specs-in-this-week-star-atlas-metaverse.json",
+      "size_bytes": 1496,
+      "sha256": "1b345e85052f2029135e8cd4f4368b5320da8d11dc748abc5d95e65a7e2a9272"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/426-live-star-atlas-event-learn-about-the-lastest-news-to-get-excited-about.json",
+      "size_bytes": 1487,
+      "sha256": "613d6117823b7ca0edf60fc3e93e1d5423faf416152ce2bcabf8e0e905a5993f"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/a-star-atlas-story-tales-from-the-dark-rainbow.json",
+      "size_bytes": 1422,
+      "sha256": "37b8cea245c0befa57f570f871e5b4933ad84bccfe2a5c2dc5d1e42e0dedf3ce"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-75-sage-labs-economics.json",
+      "size_bytes": 1399,
+      "sha256": "2102667ffd4d84125432c61084f31bedb06d3288585891d30fc9478403167552"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-76-sage-labs-lore.json",
+      "size_bytes": 1389,
+      "sha256": "a87df8fa04f6b54778a6c60b8162d2dc33b6822fa456e5597734e0316bd09b4f"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-77.json",
+      "size_bytes": 1357,
+      "sha256": "43bc1dee43e5598830d691aaa0c9d8a7a5d232106cabd863b0244ef7b2280574"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-80-one-week-of-sage-labs.json",
+      "size_bytes": 1404,
+      "sha256": "80e37da88f5bfc52b385cd14889430f9079032da7cc53c376c6834393cc0b271"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-82-sage-labs-w-economics-team.json",
+      "size_bytes": 1413,
+      "sha256": "51fa198d6b3c062636f586da3ba93d238ee51b1b132ad6ce995a23a86bbd9129"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-83-sage-labs-w-chypto.json",
+      "size_bytes": 1398,
+      "sha256": "95774cda7157f1f72a8a63b577f815cd9375672a563aac1eee7ce3c53783d8cd"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-84.json",
+      "size_bytes": 1357,
+      "sha256": "270c75c463b2ac2e6d289b159ad078dd1fa4ebc5b6a9989d69d221cee68cfb6b"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-86-breakpoint-talk.json",
+      "size_bytes": 1390,
+      "sha256": "62560db70c6e53316ad1a0d296eb4f5ca17c878493c38746e92f02a3f4391f3b"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-90-community-updates.json",
+      "size_bytes": 1395,
+      "sha256": "b652eff8a28ff69237d412f75d83e73a4b4d4e7b3ff89c6fe6da8da0eb5afc5a"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-92-the-next-10-days.json",
+      "size_bytes": 1393,
+      "sha256": "a35c1835dfa86c98481223ecc62490b3e62ae76a179ea5826751c9f4c0eb160a"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-93-last-brew-of-the-year-talking-2024.json",
+      "size_bytes": 1431,
+      "sha256": "fd099829b7058692601105caef25262abae342709ff6aa13140ababa97106123"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/atlas-brew-96-quarterly-report-with-chris-and-gareth.json",
+      "size_bytes": 1436,
+      "sha256": "1384721e981b7654322b27847a6ffb4b9c346e8494280ba740f4043873e16950"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/blockchain-analytics-and-what-it-can-reveal-about-star-atlas-ft-star-dust-economy.json",
+      "size_bytes": 1492,
+      "sha256": "9aecdcb0b8f0bb34a52328a4e59026725c39e4cf56d73702d4140c28bf6f675f"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/breaking-star-atlas-dao-supply-of-r4-ends-player-economy-begins.json",
+      "size_bytes": 1458,
+      "sha256": "e4f0a694e911fdd15853f71fb2fe45ec7218abd49731eec9deebb023fd964db8"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/core-ep-5-and-automata-pulls-usdc-from-marketplace.json",
+      "size_bytes": 1430,
+      "sha256": "d559541ee3920e1f398fd078cde52510d10eaa8b5e7c1aca2d084e01891c665b"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/fimbul-manufacturer-in-economic-trouble.json",
+      "size_bytes": 1406,
+      "sha256": "38b2b2de540d40c2704e2bd21e2a6bf8ba408fab1456d7be1e8c4be9442dde3c"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/heroes-of-valannia.json",
+      "size_bytes": 1365,
+      "sha256": "21e6b2c235c52e81657b7be50957064b3e733278b03925b7b712cb897fe4a3a8"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/how-to-burn-unwanted-nfts-in-phantom-desktop-version.json",
+      "size_bytes": 1434,
+      "sha256": "49080f5abe51627a45cc282766a5e32289e87db4c5cf2a751ff6c9697ad509b8"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/how-to-claim-a-star-atlas-memory-fragment-never-alone.json",
+      "size_bytes": 1438,
+      "sha256": "8b4686c3e4fa2dd5775bada6a93d8c04f731b74d7b8678e8ce3d19d18f4e4535"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/how-to-craft-in-star-atlas-labs.json",
+      "size_bytes": 1392,
+      "sha256": "d0b87b9b695bb60c48e75a9749e7aed467a9a7a4679df884ca78871f65f83f2d"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/how-to-deposit-and-withdraw-ships-in-star-atlas.json",
+      "size_bytes": 1422,
+      "sha256": "84491f75643a78fadd6946540462136c3b468f4c7d0deaa89a2a57469cbedd9d"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/how-to-form-and-disband-fleets-in-star-atlas-labs.json",
+      "size_bytes": 1428,
+      "sha256": "f4d729e30b463e2356180e0bfec34f11dc8d2703258f5f1fed059e0c67e31893"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/how-to-mine-in-star-atlas-labs.json",
+      "size_bytes": 1391,
+      "sha256": "b493b9a3ba9cfe91dbf6c4857d3d3dd32e65bc4a12a70506fb6ecc1fb5828afd"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/how-to-transfer-items-in-star-atlas-labs.json",
+      "size_bytes": 1411,
+      "sha256": "7fa67743595890b74045284af020e2d81f4cd192952c395127c08ebc0b28f5e8"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/live-michael-wagner-ceo-at-playgg.json",
+      "size_bytes": 1398,
+      "sha256": "1109729a40d86a74fcf463221e15d4393990675abe45361eae233719a1db2117"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/live-star-atlas-sage-labs-update-w-chris-s-sr-dir-of-star-atlas-economy.json",
+      "size_bytes": 1475,
+      "sha256": "63eafab7cfa6b80674c1b4251a56ac7a2ee0ad70b8dfef9c0061572fbceb5d47"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/massive-star-atlas-never-alone-campaign-2-million-in-prizes.json",
+      "size_bytes": 1450,
+      "sha256": "01d02a4b0bed35e05e0fa7cc899d6e08b31f465bb854c0ae52e9e2cac1518976"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/michael-wagner-addresses-new-star-atlas-ship-configs.json",
+      "size_bytes": 1433,
+      "sha256": "061ca5fa89df5ebadcab2abb7793b07ee71a738fa0c5248fa48dbf86d8a79faf"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/new-ship-community-video-contest-and-r4-ressources-update.json",
+      "size_bytes": 1444,
+      "sha256": "2d69226d10ade239038a3eaf23b77deccc3a537b0193e53cb71beced54cb4e83"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/pip-18-star-atlas-comet-marketing-expansion.json",
+      "size_bytes": 1416,
+      "sha256": "d1d9f09580aee5800508bea8950ed64239930a3a7d8147d432cd66e5f18f2181"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/showroom-leak-new-ogrika-dark-matter-guild-3-star-atlas-story-you-may-have-missed-last-wee.json",
+      "size_bytes": 1515,
+      "sha256": "c5744c46abe7d0c2a30604ee472a50c7e2a61d0a2382eeea3813de586b0f56a7"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/skull-bones-gains-new-support-in-pirate-war.json",
+      "size_bytes": 1416,
+      "sha256": "fac321c5a54baa96e275f5ca4fdcf4184f5e3e32f0fe3538332885e374ab3e84"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/spd-dao-townhall-2024-08-09.json",
+      "size_bytes": 1386,
+      "sha256": "51bafe45f440e2c7e26f8a25a1716f0532c9ce6ba222129de010747c229ae688"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-2024-community-week-town-hall.json",
+      "size_bytes": 1410,
+      "sha256": "2b27e55b86f6a9e4bbcb83bb4ef0cb17fd65466702ecb611e75a5810fed07438"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-at-play-gg-and-san-diego-comic-con.json",
+      "size_bytes": 1418,
+      "sha256": "13c69cadbbb9b8b00eb5bf5487da669429eda9cd13936aa423219cdfffc7c8cd"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-becoming-famous-in-galia-part-3-what-star-atlas-means-to-me.json",
+      "size_bytes": 1471,
+      "sha256": "ade12fe2cef0e8d38d7d0b8245497f68ba7b82d048adee67b1991b0e90e02a39"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-breaks-solana-web3-gaming-records-staratlas-solana.json",
+      "size_bytes": 1454,
+      "sha256": "b84bfeaed35b612e58e9fbf32e61e82f822fbcf5997f99e2464cecc1d3e22bf0"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-community-week-kickoff.json",
+      "size_bytes": 1396,
+      "sha256": "28922adf165c7c559d9f34fff86eb8eeab82002312a902fb3685258b64d74660"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-economic-updates-mining-ships-and-r4-prices.json",
+      "size_bytes": 1438,
+      "sha256": "987eb46ca7e726136d9b99ed7b22ff2c57459e8ba41769ff4dbac0b9db6557a5"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-factions-and-lore-for-new-players.json",
+      "size_bytes": 1418,
+      "sha256": "44f924d9ad5e1595ef268c142f8fa2e99660360d4a3bbf4e4b66d26f06d54202"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-feb-3rd-town-hall-recap-in-under-5-minutes-runway-and-ftx-update.json",
+      "size_bytes": 1481,
+      "sha256": "8e5046b576435ebf7836b9e684f14b8199d329599eafffbe0d5c4ce2f0e13a54"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-june-23rd-town-hall-one-minute-recap.json",
+      "size_bytes": 1422,
+      "sha256": "a0a5be3d10a3fa0d23cafda894118a38d5ba5eeeda0ccfcadbfe4d1f9269f047"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-live-michael-wagner-addresses-mass-layoffs.json",
+      "size_bytes": 1438,
+      "sha256": "357ac833d5fc1ba9798efae257d47ec9586dbdfcf9c74b6a6b6ce53c93cc630a"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-lore-explained-part-i-ft-matt-medney.json",
+      "size_bytes": 1424,
+      "sha256": "e49e48c1d20f5bc001a53718881e3131b61409890cf2c8ae061f2f0836c34de9"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-lore-explained-something-worth-fighting-for-ft-head-of-star-atlas-lore-matt-med.json",
+      "size_bytes": 1518,
+      "sha256": "c4f14726e73795fab13e75ccaf645ab0068904dc06eaac888520398bdc057d5e"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-lore-explained-with-matt-medney-part-ii-ustur-oni-and-photoli-oh-my.json",
+      "size_bytes": 1491,
+      "sha256": "818b32249280dfabf192b2e983b8b64f4f0a9ad946395023ec3198df2ec57be8"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-makes-major-layoff-announcement.json",
+      "size_bytes": 1413,
+      "sha256": "cd9a59bbc5928cc91b1e1b96fe6eaa9a61db1c03664cfbcfd2e05324160ca382"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-nabs-scammers-jupiter-swap-and-solana-outage.json",
+      "size_bytes": 1441,
+      "sha256": "b31507145508a0b1135c1cb5654230425926841f10aeebf5ca3437957c5a4df3"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-never-alone-mission-2-exclusive-loot-lore-and-more.json",
+      "size_bytes": 1455,
+      "sha256": "e55bf55d9dfce1c56625eced6a63ab444aafb119532141523f820d6a1fca62d8"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-news-showroom-2-1-release-and-upcoming-dao.json",
+      "size_bytes": 1437,
+      "sha256": "4cb152c9f36013537aa363b525aa72b551c7b32d391d555e5f841e6bb1aa61eb"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-news-the-cop-assembles-holopinion-and-small-fighters-ranking.json",
+      "size_bytes": 1474,
+      "sha256": "5afbbc4c91cb51cfb8ccef42fad0f4997e8ca8c390292a6a5772e63302927ada"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-pip-1-part-i-constitution-and-dao.json",
+      "size_bytes": 1419,
+      "sha256": "13411237d0a222bd992a243dfc5ed5a9614a417c544c0a46b6b852f37ddd0b97"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-pip-19-economic-research-and-data-funding.json",
+      "size_bytes": 1435,
+      "sha256": "ee60cbb305b0648c476f0187d4c724538a970d81283c41f4bb503479f6e33d84"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-pip-20-the-dao-caster-program.json",
+      "size_bytes": 1411,
+      "sha256": "57af4eba2db98c1e685fb4a8a6a11b82986e0830e338749ce5e4bb44f9352639"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-pip-21-overview-and-vote-results.json",
+      "size_bytes": 1414,
+      "sha256": "ec6e3d8ea30596f9cced980ad1ce2bd6704d7f6ea58286f7dfe2107f41061a5b"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-q2-2023-econ-report-w-steven-sabol-star-dust-economy-and-viktor.json",
+      "size_bytes": 1480,
+      "sha256": "cfb3056f84d04b33c83cba07c74b6921b73e96c83d8eeac10416970612bad897"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-rec-new-crafting-meta.json",
+      "size_bytes": 1393,
+      "sha256": "d4b997f9e61229fda626441f08688f0159812806160704cd63303f2e655eb456"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-runway-and-company-financial-update.json",
+      "size_bytes": 1421,
+      "sha256": "93846ba24e55f6802a84680ba51b545c498a81038b6d47869bf8f43bcab7867e"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-runway-ftx-fund-recovery-and-sage-updates-ft-signal.json",
+      "size_bytes": 1457,
+      "sha256": "cab12d9cd1d3a2175011fdf651f3c4f6a88bcfb436ded53db1a590d6ad1925e7"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-sage-2023-gameplay-and-roadmap-updates.json",
+      "size_bytes": 1427,
+      "sha256": "5cc359e088629e078fd6cd4766834198dfcfaa6cf17c7c10750db40a874465f4"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-sage-announcement-and-quarterly-econ-update-ft-courtney.json",
+      "size_bytes": 1462,
+      "sha256": "41926ca4fafbdda5bea62e4d16be7fa10456b4027b5067a58e513d94c5bf82bb"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-sage-gameplay-reveal-and-surprise-rewards-ft-the-vanguard-squadron.json",
+      "size_bytes": 1484,
+      "sha256": "82223f71b4dfd3ea92d038f0df2a18393b215ae9fa19db6686ce327f0417c584"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-sage-labs-pre-launch-atlas-brew.json",
+      "size_bytes": 1414,
+      "sha256": "906906e09d54c444a60bf02eee97fa99f3bc47bcc05e91c9939ca777f5d92c78"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-sage-labs-preview.json",
+      "size_bytes": 1386,
+      "sha256": "c17ba1d66b0738f47a88d37da58aa73fa22f7ae8b2611d399487f621f2808de9"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-sage-labs-secret-tips.json",
+      "size_bytes": 1394,
+      "sha256": "427cbeb4a7d4ec35287ad9fc4f056c6446523bd459afad37e53c65ab0dd6f9ab"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-score-reduction-and-economic-planning-w-chris-s.json",
+      "size_bytes": 1449,
+      "sha256": "9e5005ee88fd19ccd410f358a50bf86429b8de65ce15c6c0627b550d093215d1"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-shaping-the-zeitgeist-setting-the-standard-for-web3-economies.json",
+      "size_bytes": 1481,
+      "sha256": "0b349ce211fcbc0383a4226fb4078e2763753f83d694875afa8ac8828aac5b25"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-skull-bones-declaration-of-war-against-dark-matter.json",
+      "size_bytes": 1454,
+      "sha256": "4efa56a0a367cec63e4310c818b96b1726f3b5e3e0ecb30212a4e421fadf7e74"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-solana-breakpoint-2023-presentation-by-michael-wagner.json",
+      "size_bytes": 1457,
+      "sha256": "56584bee292957b6b2dc0b40554857ff67d35f20bb583bf8687a4a546bd40ddd"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-townhall.json",
+      "size_bytes": 1368,
+      "sha256": "a61756c1d50558ce4a16f86a25f3dcbf31e1c6f1dcf988ffdf92c06015424ffa"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-ultimate-sdu-scanning-tool.json",
+      "size_bytes": 1406,
+      "sha256": "54e0a11f6c2e2ca484ae1cd90869801fc7b36fa773854cc147412cbffc9621c3"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/star-atlas-work-in-progress-ground-racing-in-unreal-engine-5.json",
+      "size_bytes": 1447,
+      "sha256": "dc49fbda5b8dce04bcc64da0fbc752bf860008c2c07a330b5fe6b7573a5c9b58"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/the-galactic-marketplace-updates-ft-xcode.json",
+      "size_bytes": 1412,
+      "sha256": "eed6ce5b9a1f02428c53cb3ef5bdb1bd043fd2a8f9bad7f118efe502377c3608"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/the-hologram-news-network-trailer.json",
+      "size_bytes": 1393,
+      "sha256": "661f213f3a2039407bf2bc8e936e86f07763364af65de732d89dfa36ff9e1476"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/the-state-of-star-atlas-ft-signal.json",
+      "size_bytes": 1396,
+      "sha256": "57073bf259fcfa5426f46af93d92ccb648e0a02075165b453c4c81f2b98fc515"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/valannia-partners-with-former-star-atlas-econ-team-web3-econ-labs.json",
+      "size_bytes": 1460,
+      "sha256": "9465f3d48e4c89457a16fb8c7a626207612459f84947c09bb4a12a22180e38cf"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/valannia-tavern-meeting-01-valannium-rings-and-lore.json",
+      "size_bytes": 1433,
+      "sha256": "94db66592ecf669101cb2387ed9db8f3ec5d5bf3b291e0c996dc1f607fc8b550"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/valannia-the-altari.json",
+      "size_bytes": 1368,
+      "sha256": "19be1c7596776f1193e45fd52521da01141054680aaa3cf6284213def6ab79dd"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/valannia-zealy-campaign-and-valannium-ring-overview.json",
+      "size_bytes": 1433,
+      "sha256": "d1a8e94ce696f5016139a950571db5f621a74c06fcb5e677d02f8e83c75015a4"
+    },
+    {
+      "path": "archive/source-records/hnn-combined-transcript/will-february-be-any-different-for-star-atlas.json",
+      "size_bytes": 1420,
+      "sha256": "a8663f1b53543df12721008c930ec02abbfddf288b47e1576eed841250b9c6a0"
+    },
+    {
+      "path": "operations/campaigns/hnn-combined-transcript/campaign-summary.json",
+      "size_bytes": 1605,
+      "sha256": "26e683154e12e6e969f4ecb9505ebb55390d13aa3d852c27a2af5917ecdf057b"
+    },
+    {
+      "path": "operations/campaigns/hnn-combined-transcript/campaign-summary.md",
+      "size_bytes": 620,
+      "sha256": "b1cc2e013b165ef7c078ce1ed62eac7af1f99b611b8ab09ead23eed71e53174b"
+    }
+  ]
+}
