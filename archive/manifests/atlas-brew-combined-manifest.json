@@ -4,7 +4,8 @@
   "repository_revision": "main@7ae3a3c05248d2f524c4299bfe169957efbcaf09",
   "artifacts": [
     {
-      "path": "archive/extractions/atlas-brew-combined/extractions.json",
+      "path": "archive/ingestion-packages/atlas-brew-combined/extractions.json",
+      "original_package_path": "archive/extractions/atlas-brew-combined/extractions.json",
       "size_bytes": 79583,
       "sha256": "0f0b98b806d38bdd69c677dc62a0a36e4fe91ccf25415e47d3e134ac26af84e0"
     },
@@ -55,8 +56,8 @@
     },
     {
       "path": "operations/campaigns/atlas-brew-combined/validation-report.json",
-      "size_bytes": 316,
-      "sha256": "7e59d89567b983fa5fa3599c8068ed98d7075aa996f31eacad9409b1813eb0b2"
+      "size_bytes": 1977,
+      "sha256": "e4605b1c8d384f23096d92ddb37b552ec0020e25ce8771ec5884b30d4feb2e7a"
     }
   ]
 }
