@@ -1,0 +1,151 @@
+{
+  "campaign_id": "atlas-brew-semantic-retagging-001",
+  "schema_version": "1.0.0",
+  "generated_from": "archive/normalized/atlas-brew-combined/atlas-brew-combined-normalized.md",
+  "authoritative_input_sha256": "d72a34b76fcb2e9876c3e3d34e570c272552b9241eb1acf4cde07bc5dd03ca85",
+  "status": "READY_FOR_REVIEW",
+  "input_counts": {
+    "videos": 123,
+    "caption_lines": 198558
+  },
+  "output_counts": {
+    "segments": 4937,
+    "entity_link_records": 4937,
+    "canonical_entity_links": 3248,
+    "unresolved_entity_references": 1983,
+    "key_quotes": 1218,
+    "timeline_candidates": 1423,
+    "promotion_candidates": 3306,
+    "research_gaps": 148,
+    "exact_duplicate_segments": 0
+  },
+  "speaker_attribution_confidence": {
+    "UNKNOWN": 4937
+  },
+  "topic_counts": {
+    "PRODUCT": 1830,
+    "GAMEPLAY": 2216,
+    "GOVERNANCE": 553,
+    "ECONOMY": 2052,
+    "TECHNOLOGY": 748,
+    "LORE": 844,
+    "CORPORATE": 643,
+    "PEOPLE": 229,
+    "COMMUNITY": 1918,
+    "PARTNERSHIP": 90,
+    "GUILD": 205,
+    "EVENT": 403,
+    "MARKETING": 270,
+    "OPERATIONS": 392
+  },
+  "statement_counts": {
+    "ANNOUNCEMENT": 297,
+    "STATUS_UPDATE": 1745,
+    "ROADMAP": 2131,
+    "RELEASE": 550,
+    "DESIGN_INTENT": 867,
+    "TECHNICAL_EXPLANATION": 361,
+    "Q_AND_A": 960,
+    "RETROSPECTIVE": 273,
+    "CLARIFICATION": 102,
+    "CORRECTION": 20,
+    "COMMUNITY_FEEDBACK": 319,
+    "DISCUSSION": 1023,
+    "SPECULATION": 3514,
+    "THEORYCRAFTING": 59
+  },
+  "lifecycle_counts": {
+    "FIRST_MENTION": 9,
+    "PLANNED": 763,
+    "IN_DEVELOPMENT": 290,
+    "TESTING": 116,
+    "LIVE": 95,
+    "UPDATED": 266,
+    "SUPERSEDED": 0,
+    "DEPRECATED": 22,
+    "CANCELLED": 2,
+    "UNKNOWN": 492
+  },
+  "evidence_counts": {
+    "CANONICAL_KNOWLEDGE": 0,
+    "TIMELINE_EVENT": 1423,
+    "ENTITY_UPDATE": 1073,
+    "GRAPH_RELATIONSHIP": 743,
+    "RESEARCH_GAP": 4937,
+    "CONTRADICTION": 20,
+    "LOW_VALUE": 154,
+    "DUPLICATE": 0
+  },
+  "validation": {
+    "all_json_parses": true,
+    "video_ids_unique": true,
+    "segment_ids_unique": true,
+    "source_ids_reconcile": true,
+    "every_segment_has_entity_link_record": true,
+    "every_segment_references_transcript": true,
+    "transcript_line_references_valid": true,
+    "timestamps_non_decreasing": true,
+    "timestamps_within_source_bounds": true,
+    "caption_lines_reconcile": true,
+    "no_orphan_segments": true,
+    "controlled_topics_only": true,
+    "controlled_statements_only": true,
+    "controlled_evidence_only": true,
+    "duplicate_detection_completed": true,
+    "canonical_layers_untouched": true
+  },
+  "manifest": {
+    "artifact_count_excluding_quality_report": 8,
+    "artifacts": [
+      {
+        "path": "archive/semantic/atlas-brew/entity-links.json",
+        "size_bytes": 1884326,
+        "sha256": "b615e9e1fd01748733388f3c8df395d0bfa39804ae11e78dba46c805f241756b"
+      },
+      {
+        "path": "archive/semantic/atlas-brew/promotion-candidates.json",
+        "size_bytes": 2548267,
+        "sha256": "955c1183b3991ee1964f3869bd020676896b73a9b6b8f5cebb5debc7554ca1c9"
+      },
+      {
+        "path": "archive/semantic/atlas-brew/quote-index.json",
+        "size_bytes": 761090,
+        "sha256": "a67e7b3f1c77120d0fa12d6050a20ec77685b0ba7311f77d7c21945ef24c77d4"
+      },
+      {
+        "path": "archive/semantic/atlas-brew/research-gaps.json",
+        "size_bytes": 315423,
+        "sha256": "3e3a5e09f5bc37db093570a3c8f443052dc9206b7c7e232363e593cb191f070c"
+      },
+      {
+        "path": "archive/semantic/atlas-brew/segment-index.json",
+        "size_bytes": 10040963,
+        "sha256": "70bd432b1d34b4cfe92c58c117a99be7c6d9756a32f24c2dae16ba9ee75bd949"
+      },
+      {
+        "path": "archive/semantic/atlas-brew/timeline-candidates.json",
+        "size_bytes": 1680474,
+        "sha256": "cfef0b0dae0c486ff76e48b4f25b8a72097cd8175f42be4635464d98df117ca1"
+      },
+      {
+        "path": "archive/semantic/atlas-brew/topic-index.json",
+        "size_bytes": 511180,
+        "sha256": "1da4a4f30d5da09100fd75f1b2ff6ae9651a16caedda2e1c810aba71980bcf73"
+      },
+      {
+        "path": "archive/semantic/atlas-brew/video-index.json",
+        "size_bytes": 347674,
+        "sha256": "acb34783f66b252f0c427f896410260b00f23684e3bdb11b92f1141fa5cd10bd"
+      }
+    ],
+    "note": "quality-report.json is the manifest container and is excluded from its own checksum list."
+  },
+  "limitations": [
+    "The normalized transcript lacks systematic speaker labels; UNKNOWN is preserved rather than inferred.",
+    "Publication dates and original URLs remain absent for the supplied combined transcript sources.",
+    "Semantic tags and candidates are machine-assisted archival annotations and require human review before knowledge promotion.",
+    "Canonical entity links are limited to identifiers already present in repository registries; other exact-name references remain unresolved.",
+    "A lifecycle tag reflects the wording of its segment and does not independently establish release, execution, or current status.",
+    "FIRST_MENTION denotes the first appearance in normalized-corpus order, not a verified historical first-publication date."
+  ]
+}
