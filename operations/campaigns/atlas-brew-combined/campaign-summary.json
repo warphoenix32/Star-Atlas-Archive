@@ -1,0 +1,17 @@
+{
+  "campaign_id": "atlas-brew-combined",
+  "campaign_name": "Atlas Brew Combined Transcript Archival Ingestion",
+  "repository_schema": "2.1",
+  "operator_directive": "Raw Ingestion AI v4.0",
+  "repository_revision": "main@7ae3a3c05248d2f524c4299bfe169957efbcaf09",
+  "source_file": "The Atlas Brew_combined_transcript(3).txt",
+  "raw_sha256": "98a1658665774c3c2c53190a007a02a67fa8116ef196af5641ebb59502dfe38e",
+  "sources_processed": 123,
+  "segments_preserved": 198558,
+  "normalization_corrections": 4090,
+  "successes": 123,
+  "failures": 0,
+  "canonical_knowledge_modified": false,
+  "canonical_graph_modified": false,
+  "status": "READY_FOR_REVIEW"
+}

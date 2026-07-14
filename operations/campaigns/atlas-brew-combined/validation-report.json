@@ -1,0 +1,51 @@
+{
+  "validated_at": "2026-07-14",
+  "campaign_archive": {
+    "filename": "atlas-brew-combined-campaign.zip",
+    "sha256": "e0bb0ca26d4ec56ab93bffef273d166094666c9a9f63cde1c242f522ed1e0500",
+    "file_count": 12,
+    "crc_check": "PASS",
+    "unsafe_paths": 0,
+    "duplicate_paths": 0
+  },
+  "promotion": {
+    "all_artifacts_transferred": true,
+    "legacy_extraction_path_migrated": true,
+    "legacy_extraction_path": "archive/extractions/atlas-brew-combined/extractions.json",
+    "repository_extraction_path": "archive/ingestion-packages/atlas-brew-combined/extractions.json",
+    "payload_bytes_preserved": true,
+    "canonical_layers_untouched": true
+  },
+  "validation": {
+    "campaign_json_files_parsed": 9,
+    "repository_json_files_parsed": 1870,
+    "json_parse": "PASS",
+    "utf8_encoding": "PASS",
+    "campaign_markdown_nonempty": "PASS",
+    "campaign_relative_links": "PASS",
+    "manifest_paths_exist": "PASS",
+    "manifest_sizes_match": "PASS",
+    "manifest_sha256_match": "PASS",
+    "source_ids_unique": "PASS",
+    "source_ids_reconcile": "PASS",
+    "campaign_ids_unique": "PASS",
+    "duplicate_detection": "PASS",
+    "internal_paths_exist": "PASS",
+    "orphan_files": 0,
+    "git_diff_check": "PASS"
+  },
+  "counts": {
+    "source_records": 123,
+    "extractions": 123,
+    "reconciliation_records": 123,
+    "proposed_knowledge_records": 123,
+    "proposed_graph_records": 123,
+    "repository_source_records": 208
+  },
+  "repository_validator": {
+    "script": "operations/migrations/validate_wave_1_5.py",
+    "json_and_link_checks": "PASS",
+    "overall": "EXPECTED_SNAPSHOT_COUNT_MISMATCH",
+    "detail": "The historical Wave 1.5 validator requires exactly 960 reconciliation JSON files. Current main already contains 961 after the approved HNN transcript promotion; Atlas Brew adds one campaign reconciliation artifact for 962. The validator was not changed because migration tooling is outside this promotion's authorized scope."
+  }
+}

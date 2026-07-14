@@ -1,0 +1,63 @@
+{
+  "campaign_id": "atlas-brew-combined",
+  "generated_at": "2026-07-14T05:13:37.790874+00:00",
+  "repository_revision": "main@7ae3a3c05248d2f524c4299bfe169957efbcaf09",
+  "artifacts": [
+    {
+      "path": "archive/ingestion-packages/atlas-brew-combined/extractions.json",
+      "original_package_path": "archive/extractions/atlas-brew-combined/extractions.json",
+      "size_bytes": 79583,
+      "sha256": "0f0b98b806d38bdd69c677dc62a0a36e4fe91ccf25415e47d3e134ac26af84e0"
+    },
+    {
+      "path": "archive/normalized/atlas-brew-combined/atlas-brew-combined-normalized.md",
+      "size_bytes": 8907995,
+      "sha256": "d72a34b76fcb2e9876c3e3d34e570c272552b9241eb1acf4cde07bc5dd03ca85"
+    },
+    {
+      "path": "archive/normalized/atlas-brew-combined/normalization-corrections.json",
+      "size_bytes": 620631,
+      "sha256": "65f2c8006324cc7bb424928c10ac126e4300f132c2ae53ebe8c282b971c5564c"
+    },
+    {
+      "path": "archive/proposed/graph/atlas-brew-combined/proposed-graph-deltas.json",
+      "size_bytes": 12794,
+      "sha256": "b29d40703f86be3bab599172c43982a2f91fc813e0b68b5affee120a9bcaa097"
+    },
+    {
+      "path": "archive/proposed/knowledge/atlas-brew-combined/proposed-knowledge-deltas.json",
+      "size_bytes": 12794,
+      "sha256": "b29d40703f86be3bab599172c43982a2f91fc813e0b68b5affee120a9bcaa097"
+    },
+    {
+      "path": "archive/raw/atlas-brew-combined/The_Atlas_Brew_combined_transcript.txt",
+      "size_bytes": 9119898,
+      "sha256": "98a1658665774c3c2c53190a007a02a67fa8116ef196af5641ebb59502dfe38e"
+    },
+    {
+      "path": "archive/reconciliation/atlas-brew-combined/reconciliation.json",
+      "size_bytes": 37886,
+      "sha256": "df368e82be32fd5d2afd5050b715c7644d210138d7bd25c6cafb09317e65d594"
+    },
+    {
+      "path": "archive/source-records/atlas-brew-combined/source-records.json",
+      "size_bytes": 147127,
+      "sha256": "0d20486f5bfe16d4acf160a657907b6b85cc7f695c6ded29c1895cef2f456a7d"
+    },
+    {
+      "path": "operations/campaigns/atlas-brew-combined/campaign-summary.json",
+      "size_bytes": 657,
+      "sha256": "64d46225a97d84b9249468fbe011247935329c899630d5b038848de51ee61c38"
+    },
+    {
+      "path": "operations/campaigns/atlas-brew-combined/campaign-summary.md",
+      "size_bytes": 484,
+      "sha256": "2e1329029f829dced466e79077831204007f2b8c93bf9b21e6950eb645bf3ead"
+    },
+    {
+      "path": "operations/campaigns/atlas-brew-combined/validation-report.json",
+      "size_bytes": 1977,
+      "sha256": "e4605b1c8d384f23096d92ddb37b552ec0020e25ce8771ec5884b30d4feb2e7a"
+    }
+  ]
+}
