@@ -1,89 +1,69 @@
-# Star Atlas HNN Archive
+# Star Atlas Historical Archive
 
-A living historical archive and research knowledge base for **Star Atlas**, maintained for reference, reporting, and future Hologram News Network publication.
+This repository preserves the public historical record of Star Atlas and organizes it into a human-readable, evidence-grounded knowledge system. It retains original source context, attribution, uncertainty, and chronology while keeping archival evidence separate from reviewed knowledge.
 
-## Mission
+## Start here
 
-This repository preserves and organizes the history of Star Atlas as both:
+Researchers should begin with the [Knowledge overview](knowledge/README.md), then use the [Master timeline](knowledge/timeline/README.md) or a topic index:
 
-- a game, technical platform, economy, and governance system;
-- a community of guilds, creators, builders, voters, journalists, and major actors.
+- [People](knowledge/people/README.md)
+- [Organizations](knowledge/organizations/README.md)
+- [Guilds](knowledge/guilds/README.md)
+- [Governance](knowledge/governance/README.md)
+- [Economy](knowledge/economy/README.md)
+- [Gameplay and products](knowledge/gameplay/README.md)
+- [Technology](knowledge/technology/README.md)
+- [Lore](knowledge/lore/README.md)
+- [Media and creators](knowledge/media/README.md)
+- [Events](knowledge/events/README.md)
+- [Controversies and disputes](knowledge/controversies/README.md)
+- [Research backlog](knowledge/research/README.md)
 
-Raw exports are treated as source material, not finished knowledge. They should be filtered into concise, readable, source-grounded entries that preserve chronology, attribution, uncertainty, dissent, and unresolved questions.
-
-## Core principles
-
-- Separate official statements from independently verified facts.
-- Distinguish official canon lore from community-created lore.
-- Preserve contemporary understanding as well as later interpretation.
-- Avoid broad claims about community sentiment without a bounded sample.
-- Keep unverified or sensitive material clearly labeled.
-- Update conclusions when stronger evidence appears without erasing prior context.
-
-## Knowledge structure
+## Five-layer architecture
 
 ```text
-kb/
-├── 00-operating-doctrine/
-├── 01-master-index/
-├── 02-chronology/
-├── 03-atmta-and-institutions/
-├── 04-game-and-product-history/
-├── 05-economy-and-assets/
-├── 06-governance-and-dao/
-├── 07-community/
-├── 08-guilds-and-dacs/
-├── 09-major-actors/
-├── 10-lore-and-canon/
-├── 11-technology/
-├── 12-media-and-creators/
-├── 13-controversies-and-disputes/
-├── 14-events-and-culture/
-├── 15-source-registry/
-├── 16-open-questions/
-└── 17-publication-workflows/
+archive/      Preserved evidence, source records, extraction packages, and provenance
+knowledge/    Human-readable, reviewed historical knowledge and navigation
+graph/        Machine-readable entity, relationship, and timeline conventions
+operations/   Schemas, templates, pipeline code, tests, campaigns, and migrations
+publication/  Workspace for articles, briefs, reports, and datasets
 ```
 
-## Initial discovery corpus
+The [archive](archive/README.md) is the evidence layer. A record’s presence there means it was preserved; it does not mean every claim in it has been accepted as fact. The [knowledge](knowledge/README.md) layer contains reviewed synthesis and registries. Promotion from evidence to knowledge requires human review and does not erase older or conflicting evidence.
 
-The first public-source sweep established the following working files:
+## Ingestion and review flow
 
-- [Entity Registry](kb/01-master-index/Entity-Registry.md)
-- [Master Timeline](kb/02-chronology/Master-Timeline.md)
-- [Institutional Overview](kb/03-atmta-and-institutions/Institutional-Overview.md)
-- [Product Registry](kb/04-game-and-product-history/Product-Registry.md)
-- [Governance and Economy Overview](kb/06-governance-and-dao/Governance-and-Economy-Overview.md)
-- [Guild and DAC Master Index](kb/08-guilds-and-dacs/Guild-Master-Index.md)
-- [Major Actor Index](kb/09-major-actors/Actor-Master-Index.md)
-- [Official Canon Registry](kb/10-lore-and-canon/Canon-Registry.md)
-- [Technical Platform](kb/11-technology/Technical-Platform.md)
-- [Media and Creator Index](kb/12-media-and-creators/Media-and-Creator-Index.md)
-- [Public Source Registry](kb/15-source-registry/Public-Source-Registry.md)
-- [Research Backlog](kb/16-open-questions/Research-Backlog.md)
-
-## Documentation
-
-- [Knowledge architecture](docs/KNOWLEDGE-ARCHITECTURE.md)
-- [Operating doctrine](docs/OPERATING-DOCTRINE.md)
-- [Repository Schema v2.1](docs/REPOSITORY-SCHEMA-v2.1.md)
-- [Schema v2.1 migration notes](docs/SCHEMA-v2.1-MIGRATION.md)
-- [Schema v2.1 compatibility report](docs/SCHEMA-v2.1-COMPATIBILITY.md)
-- [Example v2.1 ingestion package](examples/ingestion-package-v2.1.json)
-- [Knowledge entry template](templates/knowledge-entry-template.md)
-- [Source record template](templates/source-record-template.md)
-
-## Schema compatibility
-
-Repository Schema v2.1 is additive. Existing Wave 1 v2.0 artifacts remain valid and are not destructively rewritten. New ingestions should use the raw transcript → normalized transcript → extraction package model and include provenance wherever available.
-
-Run compatibility tests with:
-
-```bash
-python -m unittest tests/test_schema_compatibility.py
+```text
+source
+  -> archive/raw
+  -> archive/normalized
+  -> archive/source-records and archive/ingestion-packages
+  -> proposed knowledge updates
+  -> proposed graph updates
+  -> human review
+  -> knowledge/ and graph/
 ```
 
-## Repository status
+Ingestion campaigns stop in the archive by default. They do not automatically update canonical knowledge or the relationship graph. Engineering instructions and commands live in [operations](operations/README.md); the active ingestion package schema is [Repository Schema v2.1](operations/schema/REPOSITORY-SCHEMA-v2.1.md).
 
-The archive has moved from initial setup into **active discovery and ingestion**. Current entries are intentionally conservative: they establish verified baselines, define unresolved questions, and avoid filling historical gaps with assumptions.
+## Evidence and operations
 
-Because this repository is public, private Discord material, personally identifying information, confidential records, and unverified allegations should not be committed here. Curated public findings may be added after source and publication review.
+- [Source records](archive/source-records/README.md)
+- [Ingestion packages](archive/ingestion-packages/README.md)
+- [Campaign summaries](archive/campaign-summaries/README.md)
+- [Reconciliation records](archive/reconciliation/README.md)
+- [Repository operations](operations/README.md)
+- [Wave 1.5 migration map](operations/migrations/WAVE-1.5-ARCHITECTURE-MIGRATION.md)
+
+## Repository principles
+
+- Separate official statements from independently verified facts.
+- Distinguish announcements, plans, approvals, releases, and execution.
+- Preserve source lineage and contemporary understanding.
+- Keep uncertainty, dissent, supersession, and open questions visible.
+- Never treat archived evidence as automatically canonical.
+- Exclude private, confidential, or improperly obtained material.
+
+## Current status
+
+Wave 1 evidence from Aephia, Intergalactic Herald, Hologram News Network, and official Star Atlas sources is preserved in `archive/`. Repository Schema v2.1 remains additive: existing Wave 1 artifacts were moved without being rewritten to the newer schema.

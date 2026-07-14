@@ -1,0 +1,21 @@
+# Knowledge Overview
+
+This is the human-first canonical knowledge layer. Entries synthesize reviewed evidence while preserving citations, uncertainty, and conflicting accounts. Start with the [master timeline](timeline/README.md), the [entity and source indexes](index/README.md), or a topic below.
+
+| Topic | Entry point |
+| --- | --- |
+| Timeline | [Master timeline](timeline/README.md) |
+| People | [People index](people/README.md) |
+| Organizations | [Organizations index](organizations/README.md) |
+| Guilds | [Guild index](guilds/README.md) |
+| Governance | [Governance index](governance/README.md) |
+| Economy | [Economy index](economy/README.md) |
+| Gameplay and products | [Gameplay index](gameplay/README.md) |
+| Technology | [Technology index](technology/README.md) |
+| Lore | [Lore index](lore/README.md) |
+| Media and creators | [Media index](media/README.md) |
+| Events | [Events index](events/README.md) |
+| Controversies | [Controversies index](controversies/README.md) |
+| Open research | [Research backlog](research/README.md) |
+
+For preserved source material, use the separate [archive](../archive/README.md).
