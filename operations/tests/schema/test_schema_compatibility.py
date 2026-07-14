@@ -2,7 +2,7 @@ import json
 import unittest
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[3]
 ENTITY_TYPES = {
     "PERSON", "ORGANIZATION", "DAO", "CORPORATION", "TOKEN", "FEATURE",
     "TECHNOLOGY", "GAME_SYSTEM", "GAME_MODE", "SHIP", "LOCATION",
@@ -56,7 +56,7 @@ class SchemaCompatibilityTests(unittest.TestCase):
         self.assertTrue(validate_package(package))
 
     def test_v21_example_is_valid(self):
-        path = ROOT / "examples" / "ingestion-package-v2.1.json"
+        path = ROOT / "operations" / "schema" / "examples" / "ingestion-package-v2.1.json"
         package = json.loads(path.read_text(encoding="utf-8"))
         self.assertTrue(validate_package(package))
 

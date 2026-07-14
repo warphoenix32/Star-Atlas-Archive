@@ -14,24 +14,23 @@ The architecture has three layers:
 
 | Path | Purpose |
 |---|---|
-| `kb/00-operating-doctrine/` | Research rules, attribution, evidence, and editorial preferences |
-| `kb/01-master-index/` | Entity, alias, topic, source, and relationship registries |
-| `kb/02-chronology/` | Master timeline and annual histories |
-| `kb/03-atmta-and-institutions/` | ATMTA, Star Atlas Foundation, DAO, councils, and related institutions |
-| `kb/04-game-and-product-history/` | Showroom, SAGE lineage, C4, Holosim, and other products |
-| `kb/05-economy-and-assets/` | ATLAS, POLIS, ships, land, resources, markets, emissions, and sinks |
-| `kb/06-governance-and-dao/` | Proposals, votes, treasury, governance systems, and precedents |
-| `kb/07-community/` | Community history, sentiment periods, political blocs, and culture |
-| `kb/08-guilds-and-dacs/` | Guild profiles, alliances, rivalries, and organizational history |
-| `kb/09-major-actors/` | Executives, developers, guild leaders, creators, analysts, and builders |
-| `kb/10-lore-and-canon/` | Official canon, chronology, factions, species, locations, and continuity |
-| `kb/11-technology-and-infrastructure/` | Solana programs, APIs, repositories, Unreal tooling, and Atlasnet |
-| `kb/12-media-and-creators/` | HNN and other publications, creators, podcasts, and broadcasts |
-| `kb/13-controversies-and-disputes/` | Major disputes, conflicting accounts, and trust events |
-| `kb/14-events-and-culture/` | Town halls, competitions, ceremonies, memes, and cultural milestones |
-| `kb/15-source-registry/` | Source records and provenance assessments |
-| `kb/16-open-questions/` | Missing evidence, disputed timelines, and research queues |
-| `kb/17-publication-workflows/` | Article, briefing, fact-check, and corrections processes |
+| `operations/docs/` | Research rules, attribution, evidence, and editorial preferences |
+| `knowledge/index/` | Entity, alias, topic, source, and relationship registries |
+| `knowledge/timeline/` | Master timeline and annual histories |
+| `knowledge/organizations/` | ATMTA, Star Atlas Foundation, DAO, councils, and related institutions |
+| `knowledge/gameplay/` | Showroom, SAGE lineage, C4, Holosim, and other products |
+| `knowledge/economy/` | ATLAS, POLIS, ships, land, resources, markets, emissions, and sinks |
+| `knowledge/governance/` | Proposals, votes, treasury, governance systems, and precedents |
+| `knowledge/research/` | Community-history gaps, disputed timelines, and research queues |
+| `knowledge/guilds/` | Guild profiles, alliances, rivalries, and organizational history |
+| `knowledge/people/` | Executives, developers, guild leaders, creators, analysts, and builders |
+| `knowledge/lore/` | Official canon, chronology, factions, species, locations, and continuity |
+| `knowledge/technology/` | Solana programs, APIs, repositories, Unreal tooling, and Atlasnet |
+| `knowledge/media/` | HNN and other publications, creators, podcasts, and broadcasts |
+| `knowledge/controversies/` | Major disputes, conflicting accounts, and trust events |
+| `knowledge/events/` | Town halls, competitions, ceremonies, memes, and cultural milestones |
+| `knowledge/index/source-registry/` | Source registries and provenance assessments |
+| `publication/` | Article, briefing, report, and dataset workspaces |
 
 ## Persistent entity IDs
 

@@ -12,7 +12,7 @@ requires-python = ">=3.11"
 star-atlas-ingest = "star_atlas_ingest.cli:main"
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["../tests/pipeline"]
 pythonpath = ["src"]
 
 [tool.setuptools.packages.find]

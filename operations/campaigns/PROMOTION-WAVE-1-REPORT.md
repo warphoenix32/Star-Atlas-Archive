@@ -33,10 +33,10 @@ Those domains require cross-source reconciliation, especially against official S
 
 ## Files added
 
-- `kb/15-source-registry/Audited-Community-Source-Profiles.md`
-- `kb/12-media-and-creators/Community-Publication-Relationship-Index.md`
-- `kb/09-major-actors/Krigs-Source-Profile.md`
-- `kb/16-open-questions/Community-Source-Attribution-Backlog.md`
+- `knowledge/index/source-registry/Audited-Community-Source-Profiles.md`
+- `knowledge/media/Community-Publication-Relationship-Index.md`
+- `knowledge/people/Krigs-Source-Profile.md`
+- `knowledge/research/Community-Source-Attribution-Backlog.md`
 
 ## Promotion decision
 
