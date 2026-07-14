@@ -2,127 +2,156 @@
 title: Star Atlas Master Timeline
 entry_type: chronology
 status: active
-updated: 2026-07-12
+updated: 2026-07-14
 publication_status: public
 ---
 
 # Star Atlas Master Timeline
 
-This is an evolving chronology. Dates are included only where supported by a cited public source or clearly labeled as a research period.
+This is the selective canonical chronology of the project's major product, governance, corporate, community, and lore milestones. The detailed domain chronologies are [Product](Product-Timeline.md), [Governance](Governance-Timeline.md), [Corporate](Corporate-Timeline.md), [Community](Community-Timeline.md), and [Lore](Lore-Timeline.md).
 
-## 2020
+## Reading rules
 
-### Star Atlas founding
+- Announcement, roadmap, proposal, vote, approval, implementation, release, retirement, and supersession are distinct event types.
+- Official sources establish what Star Atlas or ATMTA stated, not independent proof of commercial outcomes.
+- Community reports remain attributed and receive lower confidence when no matching primary record survives.
+- Current documentation is not backdated as proof of historical availability.
+- This master page is selective; intentional repetition in a domain timeline is an index/detail relationship, not a duplicate event.
 
-The official press kit lists Star Atlas's founding date as **2020** and its location as worldwide. It continues to list the full release date as awaiting announcement.
+## 2021 — Assets, markets, and first on-chain play
 
-**Markers:** `[SRC-OFFICIAL] [EV-DOCUMENTED] [CONF-HIGH]`
+### 2021-06-24 — Seed round announced
 
-## 2021
+**Description:** ATMTA announced that Star Atlas had closed a seed round led by Serum. **Significance:** Earliest archived official financing milestone. **Affected entities:** ATMTA, Star Atlas, Serum, Michael Wagner. **Sources:** [SRC-OFF-723C7D67B80744DF](../../archive/source-records/campaign-delta-official/SRC-OFF-723C7D67B80744DF.md). **Confidence:** HIGH. **Notes:** Complete financing terms are not preserved. **Superseded:** No.
 
-### 2021-06-24 — Seed-round announcement
+### 2021-08-04 — Galactic Marketplace operational release
 
-The official newsroom published **“Star Atlas closes seed round with Serum leading funding.”** Michael Wagner was identified as co-founder and CEO. The currently retrievable page does not expose the full financing terms, so investor participation and amounts require additional recovery.
+**Description:** ATMTA announced that the Solana-based Galactic Marketplace was fully operational. **Significance:** Established the project's first archived trading-layer release. **Affected entities:** Galactic Marketplace, Star Atlas, Solana. **Sources:** [SRC-OFF-A465C97640C55838](../../archive/source-records/campaign-delta-official/SRC-OFF-A465C97640C55838.md). **Confidence:** HIGH. **Notes:** Official release claim. **Superseded:** Yes; a new marketplace was announced in 2022.
 
-**Markers:** `[SRC-OFFICIAL] [EV-DOCUMENTED] [CONF-HIGH] [EV-INCOMPLETE]`
+### 2021-08-17 to 2021-09-08 — Token sale and listing cycle
 
-### 2021 research queue
+**Description:** ATMTA published token-sale details in August and announced record-setting ATLAS and POLIS sales in September. **Significance:** Established the project's dual-token economic and governance system in public markets. **Affected entities:** ATLAS, POLIS, FTX, Raydium, Apollo-X. **Sources:** [SRC-OFF-927F495C3F49A56F](../../archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md), [SRC-OFF-0333A5B22A207D88](../../archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md). **Confidence:** HIGH. **Notes:** Sale details and reported results remain separate publications. **Superseded:** No.
 
-- Initial public reveal and white-paper publication.
-- ATLAS and POLIS token-generation events.
-- Galactic Asset Offering phases and first ship sales.
-- Marketplace launch.
-- Faction-selection rollout.
-- Early DAC and media formation.
+### 2021-09-07 — Galactic Asset Offering launched
 
-## 2022
+**Description:** ATMTA launched the Galactic Asset Offering for a new generation of Star Atlas NFTs. **Significance:** Formalized the early ship-and-asset distribution program. **Affected entities:** Galactic Asset Offering, Star Atlas assets, Galactic Marketplace. **Sources:** [SRC-OFF-B2C1AA5D0C8E9D15](../../archive/source-records/campaign-delta-official/SRC-OFF-B2C1AA5D0C8E9D15.md). **Confidence:** HIGH. **Notes:** Individual sale waves are separate events. **Superseded:** No.
 
-The DAO economic-report archive begins at **Q2 2022**, establishing an official quarterly reporting series by that period.
+### 2021-12-17 — Faction Fleet / SCORE released
 
-### 2022-11-07 — Breakpoint roadmap, SAGE naming and CORE launch window
+**Description:** ATMTA announced the inaugural on-chain gameplay module; Aephia dates initial availability to December 16. **Significance:** Introduced ship enlistment and ATLAS rewards as the first sustained gameplay loop. **Affected entities:** Faction Fleet, SCORE, ships, ATLAS. **Sources:** [SRC-OFF-0AED270D51ACD552](../../archive/source-records/campaign-delta-official/SRC-OFF-0AED270D51ACD552.md), [SRC-AEPHIA-21D7FE432327A762](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-21D7FE432327A762.md). **Confidence:** HIGH. **Notes:** One-day release/publication discrepancy retained. **Superseded:** Yes; later Starbased economics wound down its role.
 
-At Solana Breakpoint 2022, ATMTA publicly announced a multi-product roadmap. Project S.C.R.E.A.M. was renamed **Star Atlas: Golden Era (SAGE)** and described as a top-down WebGL grand-strategy game. ATMTA also presented the Showroom as its UE5 module, F-KIT as an open-source Unreal/Solana toolkit, an episodic seasonal roadmap, and Star Atlas: CORE. The first CORE chapter was scheduled for November 7, 2022.
+## 2022 — Community institutions, DAO, UE5, and SAGE roadmap
 
-The same official report identified Atlas Brew as a recurring Wednesday community forum and stated that more than 60 guilds were active. The latter is preserved as an official contemporaneous claim rather than independent guild census data.
+### 2022-04-08 — HNN written archive begins
 
-**Markers:** `[SRC-OFFICIAL] [EV-DOCUMENTED] [CONF-HIGH]`
+**Description:** The earliest preserved HNN written publication entered the historical record. **Significance:** HNN became a cornerstone independent community-news source. **Affected entities:** HNN, The Hologram, Kr1gs. **Sources:** [SRC-HNN-D6CDA50BCCC8E650](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-D6CDA50BCCC8E650.md). **Confidence:** HIGH. **Notes:** Earliest preserved article, not proven founding date. **Superseded:** No.
 
-### 2022-11-09 — CORE release announcement
+### 2022-05-20 to 2022-06-17 — Inaugural COPA cycle
 
-ATMTA announced that CORE Chapter 1 had become publicly available on November 7. The project was presented as an episodic graphic novel with planned collectible covers, extra lore, an ARC Cypher puzzle and an announced 18-chapter arc.
+**Description:** ATMTA announced COPA, published finalists and event details, then published the winners. **Significance:** Established an official festival and competition for Star Atlas guilds. **Affected entities:** COPA, guilds, ATMTA, iBUYPOWER. **Sources:** [SRC-OFF-AB9BE32532D219C9](../../archive/source-records/campaign-delta-official/SRC-OFF-AB9BE32532D219C9.md), [SRC-OFF-D72CE2BCE740856F](../../archive/source-records/campaign-delta-official/SRC-OFF-D72CE2BCE740856F.md), [SRC-OFF-E89CAA2834793DCC](../../archive/source-records/campaign-delta-official/SRC-OFF-E89CAA2834793DCC.md). **Confidence:** HIGH. **Notes:** Announcement, finalist, and result stages remain distinct in the community timeline. **Superseded:** No.
 
-**Markers:** `[SRC-OFFICIAL] [EV-DOCUMENTED] [CONF-HIGH] [CANON-PRIMARY]`
+### 2022-07-21 — DAO governance and POLIS locking launched
 
-### 2022 research queue
+**Description:** ATMTA stated that the initial DAO governance and POLIS locking module had launched. **Significance:** Introduced web-accessible locking, rewards, and voting power. **Affected entities:** Star Atlas DAO, POLIS Locker, POLIS. **Sources:** [SRC-OFF-E5AEFD6B36E3CE06](../../archive/source-records/campaign-delta-official/SRC-OFF-E5AEFD6B36E3CE06.md), [SRC-AEPHIA-9625CEC37184A8ED](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-9625CEC37184A8ED.md). **Confidence:** HIGH. **Notes:** Platform release, not a proposal result. **Superseded:** No.
 
-- Faction Fleet / SCORE development and release history.
-- DAO and Foundation formation.
-- POLIS locking and proposal framework.
-- Showroom launch through Epic Games.
-- Land and Claim Stake sales.
-- FTX exposure and its financial consequences.
-- Delivery and revision history of the Breakpoint seasonal roadmap.
+### 2022-09-30 — UE5 pre-alpha Showroom launched
 
-## 2023 — research period
+**Description:** ATMTA launched the Showroom on the Epic Games Store after publishing access instructions the previous day. **Significance:** First archived public UE5 release. **Affected entities:** Showroom, UE5, Epic Games Store. **Sources:** [SRC-OFF-C6B9C26055452AF8](../../archive/source-records/campaign-delta-official/SRC-OFF-C6B9C26055452AF8.md), [SRC-OFF-340128795CCA03A9](../../archive/source-records/campaign-delta-official/SRC-OFF-340128795CCA03A9.md). **Confidence:** HIGH. **Notes:** Access documentation and launch are separate records. **Superseded:** Yes; R2.1 followed.
 
-The official economic archive contains all four quarterly reports for 2023. The Epic Games FAQ documents a development strategy using iterative web and Unreal Engine modules, with Showroom identified as the first UE5 module and SAGE as the browser-based grand-strategy branch.
+### 2022-11-07 — S.C.R.E.A.M. renamed SAGE in Breakpoint roadmap
 
-Priority topics:
+**Description:** ATMTA presented S.C.R.E.A.M. as Star Atlas: Golden Era and announced a multi-product roadmap at Solana Breakpoint. **Significance:** Defined the browser strategy line and separated it from the UE5 Showroom. **Affected entities:** S.C.R.E.A.M., SAGE, Showroom, F-KIT, CORE. **Sources:** [SRC-OFF-22181D98D7A1B870](../../archive/source-records/campaign-delta-official/SRC-OFF-22181D98D7A1B870.md). **Confidence:** HIGH. **Notes:** Roadmap, not SAGE release. **Superseded:** No.
 
-- Escape Velocity and SAGE Labs release chronology.
-- ATMTA restructuring and workforce reductions.
-- Showroom releases R2.1 and later modules.
-- Community reaction to the roadmap and funding environment.
+### 2022-11-07 — CORE Chapter 1 became public
 
-## 2024
+**Description:** ATMTA's November 9 announcement states that CORE Chapter 1 became available on November 7. **Significance:** Started the official episodic graphic-novel line. **Affected entities:** CORE, Gyun, MUD, Convergence War. **Sources:** [SRC-OFF-1336E035AB9A6C39](../../archive/source-records/campaign-delta-official/SRC-OFF-1336E035AB9A6C39.md). **Confidence:** HIGH. **Notes:** Release and announcement dates are preserved separately. **Superseded:** No.
 
-The official economic archive contains reports for Q1 through Q4 2024.
+### 2022-12-11 — Intergalactic Herald archive begins
 
-Priority topics:
+**Description:** The earliest preserved Herald records are two copies of a “How to play Star Atlas” guide. **Significance:** Begins the archive of a long-running curated community publication. **Affected entities:** Intergalactic Herald, Star Atlas community. **Sources:** [SRC-IH-73A1B12100BA1F26](../../archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-73A1B12100BA1F26.md), [SRC-IH-A30A8FE220020005](../../archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-A30A8FE220020005.md). **Confidence:** HIGH. **Notes:** Earliest archived material, not proven founding date. **Superseded:** No.
 
-- SAGE economy and gameplay expansions.
-- Unreal multiplayer, racing, combat and mining updates.
-- DAO-funded ecosystem proposals.
-- Builder and creator-program evolution.
+## 2023 — On-chain movement, racing, formal PIPs, and restructuring
 
-## 2025
+### 2023-04-26 — Escape Velocity public alpha began
 
-The official economic archive contains reports for Q1 through Q4 2025. The Star Atlas support article describing ATLAS and POLIS was updated on December 8, 2025.
+**Description:** Aephia dates the limited alpha to April 26; ATMTA described the on-chain movement technology on April 27. **Significance:** Tested real-time on-chain ship movement before SAGE Labs. **Affected entities:** Escape Velocity, SAGE, Solana. **Sources:** [SRC-AEPHIA-29A1AF8C2ABBD4D0](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-29A1AF8C2ABBD4D0.md), [SRC-OFF-C189056066EBFEA7](../../archive/source-records/campaign-delta-official/SRC-OFF-C189056066EBFEA7.md). **Confidence:** HIGH. **Notes:** Limited test; Aephia records July 7 end. **Superseded:** Yes; SAGE Labs followed.
 
-Priority topics:
+### 2023-06-02 — Showroom R2.1 released
 
-- C4 / Fleet Command development lineage.
-- Holosim release and positioning.
-- Fleet-rental and crew systems.
-- Atlasnet development.
-- Governance elections and treasury use.
+**Description:** ATMTA released R2.1 with ground racing, expanded ships, marketplace integration, and updated combat features. **Significance:** Expanded the Showroom into a broader playable UE5 module. **Affected entities:** Showroom, Volant Station, UE5. **Sources:** [SRC-OFF-FC61779037A23908](../../archive/source-records/campaign-delta-official/SRC-OFF-FC61779037A23908.md). **Confidence:** HIGH. **Notes:** Official release. **Superseded:** No.
 
-## 2026
+### 2023-07-07 — PIP-1 announced
 
-By July 2026, current official surfaces present Star Atlas as a multi-product ecosystem consisting of PLAY, SAGE, the DAO, the UE5 game, Holosim, the Galactic Marketplace and a dedicated builder platform.
+**Description:** ATMTA introduced PIP-1, the Star Atlas Constitution, proposal mechanisms, deliberation, and the Star Atlas Foundation. **Significance:** Formalized the governance proposal system after the 2022 platform launch. **Affected entities:** PIP-1, Star Atlas DAO, Foundation, Constitution, POLIS. **Sources:** [SRC-OFF-50186C400EF7CC79](../../archive/source-records/campaign-delta-official/SRC-OFF-50186C400EF7CC79.md). **Confidence:** HIGH. **Notes:** Proposal announcement, not approval or execution. **Superseded:** No.
 
-The DAO economic-report archive includes Q1 and Q2 2026. The official GitHub organization showed 43 public repositories during the July sweep, including recently updated Atlasnet, decoder and builder-documentation projects.
+### 2023-07-26 — Layoffs and runway reprioritization reported
 
-### PIP-33 period
+**Description:** HNN reported major layoffs, founder pay cuts, and a priority shift toward SAGE and a mobile application. **Significance:** Major corporate and product-strategy turning point. **Affected entities:** ATMTA, employees, SAGE, Marketplace, DAO, Faction Fleet. **Sources:** [SRC-HNN-A0BE0ADE1E7A46D5](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-A0BE0ADE1E7A46D5.md). **Confidence:** MEDIUM. **Notes:** Community reporting; exact headcount and runway remain unresolved. **Superseded:** No.
 
-A governance proposal authorizing reimbursement to ATMTA became a major treasury and governance event. A separate proposal record should preserve the official text, final vote, execution evidence and documented arguments without treating discussion samples as representative polling.
+### Estimated 2023-09 — SAGE Labs launched
 
-## Chronology standards
+**Description:** Aephia's later analysis places launch in late September, and HNN reported activity two weeks after launch. **Significance:** Established sustained on-chain mining, crafting, movement, and market gameplay. **Affected entities:** SAGE Labs, SAGE, Solana, ATLAS. **Sources:** [SRC-AEPHIA-3D6BA2ECA269970E](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D6BA2ECA269970E.md), [SRC-HNN-B7CADCEE3659B6AB](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-B7CADCEE3659B6AB.md). **Confidence:** MEDIUM. **Notes:** Exact official launch date absent. **Superseded:** Partly; Starbased revised the economy.
 
-- Announcements and releases are separate event types.
-- Product names are preserved as used at the time.
-- Later recollections are tagged `[TIME-RETROACTIVE]`.
-- A roadmap date is not a delivery date.
-- Company, game, DAO, economy and community timelines remain linked but independently maintained.
+## 2024 — Starbased, acquisition controversy, and first proposal approvals
 
-## Sources
+### 2024-04-02 — Starbased economic phase began
 
-- https://experience.staratlas.com/newsroom/press-kit
-- https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-closes-seed-round-with-serum-leading-funding
-- https://experience.staratlas.com/newsroom/star-atlas-news/cosmic-alpha-burst-star-atlas-unveils-roadmap-graphic-novel-sage-and-more-at
-- https://experience.staratlas.com/newsroom/star-atlas-news/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel
-- https://govern.staratlas.com/economy/economic-reports
-- https://store.epicgames.com/p/star-atlas-faq-fb116c
-- https://staratlas.com/
-- https://build.staratlas.com/introduction/what-is-star-atlas
-- https://github.com/staratlasmeta
+**Description:** Aephia documented an April 2 transition toward Starbased and away from passive Faction Fleet and Faction Claims rewards. **Significance:** Reoriented ATLAS emissions toward active SAGE gameplay. **Affected entities:** Starbased, Faction Fleet, Faction Claims, ATLAS. **Sources:** [SRC-AEPHIA-3D6BA2ECA269970E](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D6BA2ECA269970E.md), [SRC-AEPHIA-BF39BD68F68A5FB2](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-BF39BD68F68A5FB2.md). **Confidence:** MEDIUM. **Notes:** Community-source execution evidence. **Superseded:** No.
+
+### 2024-04-24 — Multichain Ventures acquisition controversy documented
+
+**Description:** HNN published Michael Wagner's response to community criticism surrounding ATMTA's acquisition of Multichain Ventures. **Significance:** Preserves a corporate transaction and its community-governance consequences. **Affected entities:** ATMTA, Multichain Ventures, Michael Wagner. **Sources:** [SRC-HNN-90484B730C2A24D9](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-90484B730C2A24D9.md). **Confidence:** MEDIUM. **Notes:** Primary transaction documents remain absent. **Superseded:** No.
+
+### 2024-07-23 — First two DAO proposals reported passed
+
+**Description:** HNN reported approval of the first two DAO proposals while preserving substantial opposition and procedural criticism. **Significance:** Earliest archived result evidence for formal DAO proposal votes. **Affected entities:** Star Atlas DAO, POLIS voters, first two proposals. **Sources:** [SRC-HNN-501F276BD93A900A](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-501F276BD93A900A.md). **Confidence:** MEDIUM. **Notes:** Approval does not prove implementation. **Superseded:** No.
+
+### Estimated 2024-12 — SAGE 3D launched
+
+**Description:** Aephia's year-end review reports a mid-December SAGE 3D launch intended to succeed placeholder SAGE Labs. **Significance:** Attempted the transition to a 3D SAGE interface. **Affected entities:** SAGE 3D, SAGE Labs, Starbased. **Sources:** [SRC-AEPHIA-C9AE050CD9C1886D](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md). **Confidence:** MEDIUM. **Notes:** Exact day unresolved; SAGE Labs remained relevant. **Superseded:** No.
+
+## 2025 — Holosim, C4 public discussion, and expanded governance
+
+### 2025-06-05 — C4 public discussion documented
+
+**Description:** Herald recaps documented C4-focused Economic Forum and Atlas Brew discussions. **Significance:** Establishes public product discussion a year before official PTR documentation. **Affected entities:** C4, SAGE, Atlas Brew, Economic Forum. **Sources:** [SRC-IH-0E70509CB73938D1](../../archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-0E70509CB73938D1.md), [SRC-IH-0BC8CB9C78AD008A](../../archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-0BC8CB9C78AD008A.md). **Confidence:** MEDIUM. **Notes:** Discussion, not release. **Superseded:** No.
+
+### 2025-07-23 — Holosim documented as playable
+
+**Description:** Aephia published a comprehensive guide to the free-to-play browser strategy MMO. **Significance:** Earliest dated archived guide showing community access. **Affected entities:** Holosim, fleets, starbases, SAGE Starbased. **Sources:** [SRC-AEPHIA-A26222BF7C6B58DA](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-A26222BF7C6B58DA.md). **Confidence:** MEDIUM. **Notes:** Exact launch date unresolved. **Superseded:** No.
+
+### 2025-10-06 — PIP-19 through PIP-21 tracked together
+
+**Description:** Aephia documented a concurrent three-proposal governance cycle. **Significance:** Marks expansion of numbered PIP activity beyond the foundational proposal. **Affected entities:** PIP-19, PIP-20, PIP-21, Star Atlas DAO. **Sources:** [SRC-AEPHIA-4DC76B91824F6FBE](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-4DC76B91824F6FBE.md). **Confidence:** MEDIUM. **Notes:** Proposal stage; outcomes unresolved. **Superseded:** Unknown.
+
+### 2025-11-20 — DAO Council candidate phase documented
+
+**Description:** Herald published a curated Atlas Brew recap focused on DAO Council candidates. **Significance:** Establishes candidate discussion before any election or formation result. **Affected entities:** DAO Council, candidates, POLIS community. **Sources:** [SRC-IH-EE71F71B1D80B58C](../../archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-EE71F71B1D80B58C.md). **Confidence:** MEDIUM. **Notes:** Candidate discussion only. **Superseded:** No.
+
+### 2025-12-02 to 2025-12-03 — Official support baseline published
+
+**Description:** Star Atlas Support published extensive documentation for Fleet Rentals, Holosim, Starbased, SAGE, crew, and DAO procedures. **Significance:** Provides a dated official functional and procedural snapshot across the ecosystem. **Affected entities:** Fleet Rentals, Holosim, Starbased, SAGE, crew, Star Atlas DAO. **Sources:** [SRC-OFF-7F41E99909FE23BD](../../archive/source-records/campaign-delta-official/SRC-OFF-7F41E99909FE23BD.md), [SRC-OFF-4D11337D80379C85](../../archive/source-records/campaign-delta-official/SRC-OFF-4D11337D80379C85.md), [SRC-OFF-A6A4A97A9D09AA1E](../../archive/source-records/campaign-delta-official/SRC-OFF-A6A4A97A9D09AA1E.md), [SRC-OFF-4F4F51E8572B49C7](../../archive/source-records/campaign-delta-official/SRC-OFF-4F4F51E8572B49C7.md). **Confidence:** HIGH. **Notes:** Documentation date is not first-release proof. **Superseded:** No.
+
+## 2026 — C4 PTR and unresolved treasury governance
+
+### 2026-04-27 — DAO Casters Brew series begins in archive
+
+**Description:** Herald published a recap of the first DAO Casters Brew. **Significance:** Marks a new community governance-communications format. **Affected entities:** DAO Casters, Star Atlas DAO, Atlas Brew. **Sources:** [SRC-IH-7713C1F275F0A220](../../archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-7713C1F275F0A220.md). **Confidence:** MEDIUM. **Notes:** Community program, not a governance action. **Superseded:** No.
+
+### 2026-06-02 — C4 PTR officially documented
+
+**Description:** Official support articles documented user access, profiles, test assets, maps, fleets, Claim Stakes, and bug reporting in C4 PTR. **Significance:** First archived official evidence of user-accessible C4 testing. **Affected entities:** C4 PTR, SAGE, Galia Expanse, fleets. **Sources:** [SRC-OFF-E061D3A6454697AB](../../archive/source-records/campaign-delta-official/SRC-OFF-E061D3A6454697AB.md), [SRC-OFF-DE76DDC4E8B8A28E](../../archive/source-records/campaign-delta-official/SRC-OFF-DE76DDC4E8B8A28E.md). **Confidence:** HIGH. **Notes:** PTR, not production release. **Superseded:** No.
+
+### 2026-07-06 — PIP-33 controversy enters archive
+
+**Description:** Aephia documented the PIP-33 treasury-reimbursement period. **Significance:** Preserves a major governance and institutional-finance dispute requiring separate proposal, vote, and execution records. **Affected entities:** PIP-33, DAO Treasury, ATMTA, POLIS voters. **Sources:** [SRC-AEPHIA-0E6B828A341EFBCC](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-0E6B828A341EFBCC.md). **Confidence:** MEDIUM. **Notes:** Outcome and execution remain unresolved. **Superseded:** No.
+
+## Remaining high-priority gaps
+
+- Evidence-backed 2020 founding and incorporation chronology.
+- Exact public launch dates for SAGE Labs, Starbased, SAGE 3D, and Holosim.
+- Complete UE5 build history after Showroom R2.1.
+- Official vote and execution records for numbered PIPs.
+- Primary corporate records for layoffs, runway, acquisitions, and later financing.
+- Complete CORE, *Atlas Star*, Never Alone, and later official lore-publication sequences.
+- Guild formation, merger, closure, competition, and conference history beyond the surviving articles.
