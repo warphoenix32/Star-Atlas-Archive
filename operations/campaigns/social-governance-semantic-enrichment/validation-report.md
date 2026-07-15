@@ -33,6 +33,7 @@ Overall status: **PASS**
 - **PASS — pip_17_canceled**: `True`
 - **PASS — pip_31_withdrawn**: `True`
 - **PASS — pip_source_reconciliation**: `True`
+- **PASS — council_claim_attribution**: `True`
 - **PASS — pip_23_supersedes_4**: `True`
 - **PASS — stale_status_separated**: `True`
 - **PASS — implementation_evidence_boundary**: `True`

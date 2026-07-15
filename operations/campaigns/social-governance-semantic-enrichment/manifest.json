@@ -4425,13 +4425,13 @@
     },
     {
       "path": "archive/semantic/governance/pip-registry-semantic.json",
-      "sha256": "7ec04328609f9eb08478452b17d20debefb101744dbdc8b317f2abb0cbe18d23",
-      "bytes": 642026
+      "sha256": "acb23f356932c801c986256f922f3842d0451ecf16f1d2728ce6c31ddbef00df",
+      "bytes": 678689
     },
     {
       "path": "archive/semantic/governance/pip-source-reconciliation.json",
-      "sha256": "880f476247779a282313d6d8feffab2e7a8568607549d4ee27ebe5c633165886",
-      "bytes": 30712
+      "sha256": "5263a4874bd4c498819d0889e2f4e02e814394d1c840cccee4f330c88b8c5a9d",
+      "bytes": 65457
     },
     {
       "path": "archive/semantic/governance/pip-supersession-index.json",
@@ -4495,8 +4495,8 @@
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/build_campaign.py",
-      "sha256": "8503de7ac1fd4441f75b775f769d9a1403a4aadccfbb45280f63e34370dc0f7d",
-      "bytes": 72377
+      "sha256": "daca867e9373fca11e0af28f398a8dcedef32e2eb05cb8953fecccf65b96fc56",
+      "bytes": 74917
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json",
@@ -4530,18 +4530,18 @@
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/validate_campaign.py",
-      "sha256": "ffed05139a4825af2a332af7c2156e206333457180d8171f2fb138bbc9e54fe3",
-      "bytes": 17361
+      "sha256": "c2a4ae93193dd9f979565211e88236b7c40e6dae26d7c453082e3197bd7c4de5",
+      "bytes": 17973
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/validation-report.json",
-      "sha256": "852f8b57a12e1fd890714d33f3c05f64382f5b55a10ebb4225c35e720adca071",
-      "bytes": 2946
+      "sha256": "177092c135ab09946cbe7df6b9454a2774fdb22f7e2ee56607d9387fca7dd2a7",
+      "bytes": 2986
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/validation-report.md",
-      "sha256": "60bc76380b109cb0949a4a1bf69e178576fad41a23675f0cfb68dff2d4393c5f",
-      "bytes": 3616
+      "sha256": "b933a2babb0dd610ed1a5e43464de79d970d719e182c964a32a18edfe527a0ab",
+      "bytes": 3666
     }
   ],
   "validation": {
@@ -4577,6 +4577,7 @@
       "pip_17_canceled": true,
       "pip_31_withdrawn": true,
       "pip_source_reconciliation": true,
+      "council_claim_attribution": true,
       "pip_23_supersedes_4": true,
       "stale_status_separated": true,
       "implementation_evidence_boundary": true,

@@ -653,6 +653,8 @@ def build_governance(entity_catalog):
         if number == 14: execution_state = "TERMINATED"
         elif number == 17: execution_state = "CANCELED"
         elif number == 31: execution_state = "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED"
+        payment = council.get("payment_fields", {}) if council else {}
+        council_payment_reported = any(value not in (None, "", "N/A") for value in payment.values())
         record = {
             "source_id": source["source_id"], "pip_number": number,
             "proposal_uuid": source["proposal_uuid"], "proposal_url": source["proposal_url"],
@@ -674,9 +676,20 @@ def build_governance(entity_catalog):
             "proposal_state": "PROPOSED", "vote_state": result, "result": result,
             "raw_portal_status": raw_status, "machine_computed_result": review_result["machine_result"],
             "portal_result": review_result["portal_result"],
+            "portal_winner_status": "AVAILABLE" if winners else "UNAVAILABLE_OR_INCOMPLETE" if review_result["vote_mechanism"] == "RANKED_CHOICE_ELECTION" else "NOT_APPLICABLE",
+            "council_reported_result": str(council.get("vote_result", "")).upper() if council and council.get("vote_result") else "UNKNOWN",
             "reviewed_result": result, "reviewed_table_result": review_table[number]["reviewed_table_result"], "reviewed_result_basis": review_result["reviewed_result_basis"], "decision_formula": review_result["decision_formula"],
+            "winner_identification_status": "IDENTIFIED" if winners else "UNRESOLVED" if review_result["vote_mechanism"] == "RANKED_CHOICE_ELECTION" else "NOT_APPLICABLE",
+            "cross_source_reconciliation_status": "RECONCILED_WITH_UNRESOLVED_WINNER" if review_result["vote_mechanism"] == "RANKED_CHOICE_ELECTION" and not winners else "RECONCILED",
             "approval_state": approval, "execution_state": execution_state, "execution_evidence": [],
             "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE", "election_winners": winners,
+            "council_reported_implementation_state": council.get("implementation_state") if council else "UNKNOWN",
+            "council_reported_payment_state": "COUNCIL_REPORTED" if council_payment_reported else "UNKNOWN",
+            "council_reported_paid_usdc": payment.get("paid_usdc"), "council_reported_remaining_usdc": payment.get("left_usdc"),
+            "council_reported_paid_atlas": payment.get("paid_atlas"), "council_reported_remaining_atlas": payment.get("left_atlas"),
+            "council_reported_completed_milestones": payment.get("completed_milestones"), "council_reported_total_milestones": payment.get("total_milestones"),
+            "independent_payment_verification_status": "UNKNOWN", "independent_deliverable_verification_status": "UNKNOWN",
+            "council_operational_assessment": ({"text": council.get("council_roi_assessment"), "assessment_source": "STAR_ATLAS_COUNCIL_TRACKER", "assessment_type": "COUNCIL_AUTHORED_OPERATIONAL_ASSESSMENT", "independent_verification_status": "UNKNOWN"} if council else None),
             "council_tracker": ({
                 "source_id": council["source_id"], "source_class": council["source_class"],
                 "reported_vote_result": council.get("vote_result"), "reported_phase": council.get("phase"),
@@ -736,10 +749,16 @@ def build_governance(entity_catalog):
         "council_tracker_source_id": r["council_tracker"]["source_id"] if r["council_tracker"] else None,
         "portal_result": r["portal_result"], "council_reported_result": r["council_tracker"]["reported_vote_result"] if r["council_tracker"] else None,
         "reviewed_result": r["reviewed_result"], "winner_identification": r["election_winners"],
+        "portal_winner_status": r["portal_winner_status"], "winner_identification_status": r["winner_identification_status"],
+        "cross_source_reconciliation_status": r["cross_source_reconciliation_status"],
         "execution_state": r["execution_state"], "payment_fields": r["council_tracker"]["payment_fields"] if r["council_tracker"] else {},
+        "council_reported_implementation_state": r["council_reported_implementation_state"],
+        "independent_implementation_status": r["execution_evidence_status"],
         "council_roi_assessment": r["council_tracker"]["roi_assessment"] if r["council_tracker"] else None,
         "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
         "attribution_required": bool(r["council_tracker"]), "independently_verified": False,
+        "contradictions": r["contradictions"], "unresolved_research_gaps": r["research_gaps"],
+        "chief_of_staff_corpus_review": {"reviewed_table_result": r["reviewed_table_result"], "institutional_significance": r["reviewed_institutional_significance"]},
         "manual_review_required": not bool(r["council_tracker"]) or (r["vote_mechanism"] == "RANKED_CHOICE_ELECTION" and not r["election_winners"]),
     } for r in records]
     write_json(GOV_OUT / "pip-source-reconciliation.json", {**common, "record_count": len(reconciliation), "records": reconciliation})
