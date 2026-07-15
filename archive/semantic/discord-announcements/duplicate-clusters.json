@@ -1,0 +1,390 @@
+{
+  "campaign_id": "discord-announcements-semantic-enrichment",
+  "cluster_count": 30,
+  "clusters": [
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0001",
+      "strongest_candidate_id": "SA-DISCORD-ANN-D27B5214B5BAC6AA",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-D27B5214B5BAC6AA",
+        "SA-DISCORD-ANN-AB3119CCA243BC58",
+        "SA-DISCORD-ANN-4A54EF57AB92A723",
+        "SA-DISCORD-ANN-C2427A3C6E101871",
+        "SA-DISCORD-ANN-13FACC09ECA974F3",
+        "SA-DISCORD-ANN-2E2CCCCAE15FE268",
+        "SA-DISCORD-ANN-7536B4EF2AC77D21",
+        "SA-DISCORD-ANN-7E36EB63A7DE3DCF",
+        "SA-DISCORD-ANN-3675F0DBD40C95ED",
+        "SA-DISCORD-ANN-B0B9AECCFE589F4A",
+        "SA-DISCORD-ANN-4BE7BA88BD7586A8",
+        "SA-DISCORD-ANN-D5A57298055ECF75",
+        "SA-DISCORD-ANN-89D47910F33127F5",
+        "SA-DISCORD-ANN-5B8E186B6C0C9AFD",
+        "SA-DISCORD-ANN-DA564198782AEADB",
+        "SA-DISCORD-ANN-9B8EB3B63AD8B2C8",
+        "SA-DISCORD-ANN-7D90BF0178F25F0B",
+        "SA-DISCORD-ANN-B0E00102C92DF818",
+        "SA-DISCORD-ANN-E4DE09FBB88E0E9D",
+        "SA-DISCORD-ANN-76D720786DEE38DB",
+        "SA-DISCORD-ANN-A8947FB6B1C0170F",
+        "SA-DISCORD-ANN-567B6EE6142AA69C",
+        "SA-DISCORD-ANN-31F3580F2B22E83A",
+        "SA-DISCORD-ANN-DD921166D59A98B5",
+        "SA-DISCORD-ANN-9E5E61C880EBF230",
+        "SA-DISCORD-ANN-AD2CFDDA89CA1435",
+        "SA-DISCORD-ANN-9B40D2639B70B3FF",
+        "SA-DISCORD-ANN-3958E45ED9E30095",
+        "SA-DISCORD-ANN-CBBAABB29D46B9C4",
+        "SA-DISCORD-ANN-B7AB4B14D2921236",
+        "SA-DISCORD-ANN-A36D15B52B1AE3AB",
+        "SA-DISCORD-ANN-A8B0AA732BE40EAC",
+        "SA-DISCORD-ANN-FCC95BDA051C83D7",
+        "SA-DISCORD-ANN-38233555967416AC",
+        "SA-DISCORD-ANN-197D4A44D35CD999",
+        "SA-DISCORD-ANN-916C83B6378DE509",
+        "SA-DISCORD-ANN-FB68A06C5318CF22",
+        "SA-DISCORD-ANN-ED5F4A2AA706B000",
+        "SA-DISCORD-ANN-8710396AF5AD53A9",
+        "SA-DISCORD-ANN-DC03EE9986181F0A",
+        "SA-DISCORD-ANN-718F45995BAFFE8D",
+        "SA-DISCORD-ANN-876C9C29F019C74C",
+        "SA-DISCORD-ANN-93CBE261C37ADDFA",
+        "SA-DISCORD-ANN-573B0E69243652E7",
+        "SA-DISCORD-ANN-63F52F87999BFFAE",
+        "SA-DISCORD-ANN-6AD1C630CEC8D0B8",
+        "SA-DISCORD-ANN-B2EBAAC003F32149",
+        "SA-DISCORD-ANN-7BF475C559153C8D",
+        "SA-DISCORD-ANN-20EC91B10D5B4F44",
+        "SA-DISCORD-ANN-96A9E5069B47C2B3",
+        "SA-DISCORD-ANN-F0C27D747380F78A",
+        "SA-DISCORD-ANN-0281033CF2DD6607",
+        "SA-DISCORD-ANN-679D01A479B1193B",
+        "SA-DISCORD-ANN-BC411E53CF09B3B7",
+        "SA-DISCORD-ANN-DDA1D53CC1F076B0",
+        "SA-DISCORD-ANN-FB51D3D28A4D5B3C",
+        "SA-DISCORD-ANN-61C845447B192623",
+        "SA-DISCORD-ANN-F768CEE3CCE39345",
+        "SA-DISCORD-ANN-94E6C6D0CAB5066D",
+        "SA-DISCORD-ANN-B22A62ADFA61B233",
+        "SA-DISCORD-ANN-0501CE7A1DEC4368",
+        "SA-DISCORD-ANN-6381EC5635D7404A",
+        "SA-DISCORD-ANN-95958C3E980D82A1",
+        "SA-DISCORD-ANN-2E07F9D48ED3F9E7",
+        "SA-DISCORD-ANN-C5CA5E2CC652DB28"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0002",
+      "strongest_candidate_id": "SA-DISCORD-ANN-4C79F7B440FC297C",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-4C79F7B440FC297C",
+        "SA-DISCORD-ANN-8D851C1765004BD2",
+        "SA-DISCORD-ANN-DE452D987DFE0AFE",
+        "SA-DISCORD-ANN-8D655EDEA5E278A1",
+        "SA-DISCORD-ANN-3D17BDD01BE7038D",
+        "SA-DISCORD-ANN-F8A96133A0D8FB72",
+        "SA-DISCORD-ANN-45AF95FA47DF60D4",
+        "SA-DISCORD-ANN-29E253BB44C43D40",
+        "SA-DISCORD-ANN-DF093A7EBD24F269",
+        "SA-DISCORD-ANN-905330589DDD0539",
+        "SA-DISCORD-ANN-29429439781D0F10",
+        "SA-DISCORD-ANN-A9CFF65BBAF3B520",
+        "SA-DISCORD-ANN-03251EF028CA6973",
+        "SA-DISCORD-ANN-DDBB99D317AC5C7D"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0003",
+      "strongest_candidate_id": "SA-DISCORD-ANN-14D6E125ECF2651D",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-14D6E125ECF2651D",
+        "SA-DISCORD-ANN-2253382AD5A6FE63"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0004",
+      "strongest_candidate_id": "SA-DISCORD-ANN-729D9FEA48A8BFAC",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-729D9FEA48A8BFAC",
+        "SA-DISCORD-ANN-E7B8F8B878223EAF",
+        "SA-DISCORD-ANN-AB23671AF99C3765"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0005",
+      "strongest_candidate_id": "SA-DISCORD-ANN-A41EA0FE2571343D",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-A41EA0FE2571343D",
+        "SA-DISCORD-ANN-BFFF088168A4DE0A",
+        "SA-DISCORD-ANN-2B7D8E8B46349E55",
+        "SA-DISCORD-ANN-783E7CB18D1949C4",
+        "SA-DISCORD-ANN-BB83ABD56E77937B"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0006",
+      "strongest_candidate_id": "SA-DISCORD-ANN-8EAFBF9F0F72AB2F",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-8EAFBF9F0F72AB2F",
+        "SA-DISCORD-ANN-CB9B83C583F6D201",
+        "SA-DISCORD-ANN-89559AF8BB98FE83"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0007",
+      "strongest_candidate_id": "SA-DISCORD-ANN-5788C6D3FD6E5371",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-5788C6D3FD6E5371",
+        "SA-DISCORD-ANN-352F9BBE3690C0AB"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0008",
+      "strongest_candidate_id": "SA-DISCORD-ANN-930102C9AD72759D",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-930102C9AD72759D",
+        "SA-DISCORD-ANN-006996EDE9A267AC"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0009",
+      "strongest_candidate_id": "SA-DISCORD-ANN-01165EC43CCD3FAF",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-01165EC43CCD3FAF",
+        "SA-DISCORD-ANN-7B7601C178DB97B5"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0010",
+      "strongest_candidate_id": "SA-DISCORD-ANN-06C4505DAAA8A6DB",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-06C4505DAAA8A6DB",
+        "SA-DISCORD-ANN-C6B3CF306C6584FA"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0011",
+      "strongest_candidate_id": "SA-DISCORD-ANN-6F596DCEA58D2D1C",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-6F596DCEA58D2D1C",
+        "SA-DISCORD-ANN-AFE1BF9641A9AC61"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0012",
+      "strongest_candidate_id": "SA-DISCORD-ANN-B785041CD671C1D8",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-B785041CD671C1D8",
+        "SA-DISCORD-ANN-C8C43280CBF97CE3"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0013",
+      "strongest_candidate_id": "SA-DISCORD-ANN-8AF8BEBF43B4BECE",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-8AF8BEBF43B4BECE",
+        "SA-DISCORD-ANN-8CBDBF6D638612BF"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0014",
+      "strongest_candidate_id": "SA-DISCORD-ANN-5C97B83C7098304E",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-5C97B83C7098304E",
+        "SA-DISCORD-ANN-12521C9334EBEF3A"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0015",
+      "strongest_candidate_id": "SA-DISCORD-ANN-88950718B54A3987",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-88950718B54A3987",
+        "SA-DISCORD-ANN-B82B37557F3F8DDF",
+        "SA-DISCORD-ANN-5026FE8ED52D923C",
+        "SA-DISCORD-ANN-68B8E679C1BE8F9E",
+        "SA-DISCORD-ANN-16DA7A9743517545"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0016",
+      "strongest_candidate_id": "SA-DISCORD-ANN-DDECB8FD1DDB158A",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-DDECB8FD1DDB158A",
+        "SA-DISCORD-ANN-277CCC01556436A8",
+        "SA-DISCORD-ANN-A0F3B8951004AF91"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0017",
+      "strongest_candidate_id": "SA-DISCORD-ANN-2F9278CDF8B1657A",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-2F9278CDF8B1657A",
+        "SA-DISCORD-ANN-50781717E3BADBD3"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0018",
+      "strongest_candidate_id": "SA-DISCORD-ANN-D33FA24FF54EB145",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-D33FA24FF54EB145",
+        "SA-DISCORD-ANN-2BF05CC74FA3E7A7"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0019",
+      "strongest_candidate_id": "SA-DISCORD-ANN-6DC571942A250D14",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-6DC571942A250D14",
+        "SA-DISCORD-ANN-469F7FEDFBC1C369"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0020",
+      "strongest_candidate_id": "SA-DISCORD-ANN-D8337FA27E0A550A",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-D8337FA27E0A550A",
+        "SA-DISCORD-ANN-C1259107DF39294B"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0021",
+      "strongest_candidate_id": "SA-DISCORD-ANN-3E7C1589A9255083",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-3E7C1589A9255083",
+        "SA-DISCORD-ANN-1AF4B256E2F0DA8F"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0022",
+      "strongest_candidate_id": "SA-DISCORD-ANN-59CC1A08C934455A",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-59CC1A08C934455A",
+        "SA-DISCORD-ANN-8F90AC0BCDD335D0"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0023",
+      "strongest_candidate_id": "SA-DISCORD-ANN-5E18354A17AB704A",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-5E18354A17AB704A",
+        "SA-DISCORD-ANN-87A01530C24500B0"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0024",
+      "strongest_candidate_id": "SA-DISCORD-ANN-BAFE82A0C66F2FD3",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-BAFE82A0C66F2FD3",
+        "SA-DISCORD-ANN-A3C3CE7A8EF5A42D"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0025",
+      "strongest_candidate_id": "SA-DISCORD-ANN-C0AE5EC59ED6C79D",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-C0AE5EC59ED6C79D",
+        "SA-DISCORD-ANN-DDD681BB02898A55"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0026",
+      "strongest_candidate_id": "SA-DISCORD-ANN-9B4973FC83D7E77F",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-9B4973FC83D7E77F",
+        "SA-DISCORD-ANN-CE9165908687F743"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0027",
+      "strongest_candidate_id": "SA-DISCORD-ANN-B754A4550DE7AFDE",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-B754A4550DE7AFDE",
+        "SA-DISCORD-ANN-6F4672D774AFC746"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0028",
+      "strongest_candidate_id": "SA-DISCORD-ANN-B70712BCA39D4543",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-B70712BCA39D4543",
+        "SA-DISCORD-ANN-5D6F47949D391E5C"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0029",
+      "strongest_candidate_id": "SA-DISCORD-ANN-64D8316FB8013299",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-64D8316FB8013299",
+        "SA-DISCORD-ANN-02E3050BBD5BC693"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    },
+    {
+      "duplicate_cluster_id": "DISCORD-DUP-0030",
+      "strongest_candidate_id": "SA-DISCORD-ANN-AA9B47413B9C587D",
+      "member_source_ids": [
+        "SA-DISCORD-ANN-AA9B47413B9C587D",
+        "SA-DISCORD-ANN-CFA14CCE71C5FD1C"
+      ],
+      "duplicate_reason": "NORMALIZED_EXACT_CLAIM_SIGNATURE",
+      "evidence_preserved": true
+    }
+  ]
+}

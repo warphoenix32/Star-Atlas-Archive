@@ -1,0 +1,655 @@
+{
+  "campaign_id": "discord-announcements-semantic-enrichment",
+  "record_count": 70,
+  "records": [
+    {
+      "source_id": "SA-DISCORD-ANN-D27B5214B5BAC6AA",
+      "timestamp": "2021-03-16T14:34:21",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "https://medium.com/star-atlas/the-atlassian-newsletter-issue-1-6726bcf4ee28"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-81EE04B058B06A56",
+      "timestamp": "2021-04-25T14:33:53",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "REBIRTH: GENESIS OF A METAVERSE UPDATE:\n\n1. We are aware of several issues purchasers are experiencing with the claiming/redemption process within the Star Atlas Dashboard. Please do not worry. All of these transactions were processed entirely on chain. They are all publicly accessible. We are working on resolving the UI issue, but your assets are NOT at risk. If you have purchased a poster and recieved a 'confirmation' notice, YOU WILL SEE THE POSTER IN YOUR INVENTORY SOON. The team is working through the weekend to reconcile any non-updated balances.\n\n2. There are a number of questions we have received regarding the specific mechanics of the poster series. @SW4GN3R will be recording a video later today with answers to many of those questions.\n\nMentions: @SW4GN3R"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-DD332CE3F139372C",
+      "timestamp": "2021-04-27T20:49:01",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "EVERYONE \nTeam finished working on the owned: 0 bug, everyone who had this problem should be able to claim back the 64 USDC and purchase again. There will be a 5 minute downtime on the site as Devs finish working on this\nThank you for your patience!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-C44A2DE66C61F21B",
+      "timestamp": "2021-05-01T14:09:59",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "I will once again paste this:\n\nTHE NETWORK IS CURRENTLY EXPERIENCING SOME CONGESTION CAUSING LOSS OF FUNCTIONALITY ACROSS A VARIETY OF APPLICATIONS, INCLUDING THE STAR ATLAS MARKETPLACE. ALL OF THE BEST MINDS IN THE SPACE ARE WORKING TOWARDS RESOLVING THIS. DESPITE THE INCONVENIENCE, IT MEANS THE NETWORK IS GROWING CONSIDERABLY AND CREATING THE NEED FOR NEW SOLUTIONS. THIS IS A POSITIVE. CHECK BACK THROUGHOUT THE DAY, AS OUR TEAM IS ALSO WORKING ON ALTERNATIVE ENDPOINT SOLUTIONS."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-0EF67539C385D581",
+      "timestamp": "2021-05-12T01:07:38",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "@everyone The Star Atlas Engineering team is migrating the application over to new, much more stable infrastructure right now. What this means is a little less than an hour of downtime until our nameservers can finish propagating. Sorry for the extremely short notice, but it's important to us that our community gets the best experience possible"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-3140289EAD1D3E2A",
+      "timestamp": "2021-05-18T14:19:42",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RELEASE"
+      ],
+      "content": "https://twitter.com/staratlas/status/1394733601388855299?s=21\n\nThe Atlassian Newsletter Issue #3 is out now"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-EB4F74D4148E3284",
+      "timestamp": "2021-07-15T15:42:38",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RELEASE"
+      ],
+      "content": "https://medium.com/star-atlas/the-atlas-star-newsletter-issue-4-3e13f29900bd\n\nThe Atlas Star Newsletter #4 is out now! \n Be sure to read it to stay up to date on all Star Atlas progress!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-EE4A06C4E468740F",
+      "timestamp": "2021-09-07T10:17:13",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "The Galactic Marketplace is currently experiencing capacity issues due to an extreme demand, please stand by as we work to address it."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-A0498DBA5C8D249B",
+      "timestamp": "2021-10-07T09:10:49",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "If the Star Atlas marketplace is not working for you, please follow these instructions:\n\nGo to this link: https://dex.raydium.io/#/market/CWn74XJsh98zWVYWtzqn1dGuz96KFxb18pYQQfECuCzA\n\nClick on the + symbol you have on the top left of your screen and add this:\nMarket ID: CWn74XJsh98zWVYWtzqn1dGuz96KFxb18pYQQfECuCzA\nMarket Label: PF4/USDC\nBase Label: PF4"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-07C4E2D85FE83ED8",
+      "timestamp": "2021-10-07T09:27:00",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION"
+      ],
+      "content": "https://play.staratlas.com/market/CWn74XJsh98zWVYWtzqn1dGuz96KFxb18pYQQfECuCzA is working now! We had some little issues with RPC nodes but everything's back to normal now!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-513158C90ED9675F",
+      "timestamp": "2021-11-10T15:21:35",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "RESOLUTION",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Pearce C9 Update  \n\nOur team encountered a data validation bug that prevented 17 Pearce C9 ships from getting minted, and another 35 from being listed.\n\nDirectly upon the bug being hotfixed, an additional 52 ships were listed, with 17 added to the USDC pair, and 35 to the ATLAS pair. They all went out at Wave 3 price as planned.\n\nThanks for your support and understanding!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-0B132FB4DF6F4710",
+      "timestamp": "2021-11-24T14:47:38",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Star Atlas Community Update: \n\nOur Galactic Marketplace at Play.StarAtlas.com will undergo a short capacity upgrade at 1 PM PST (9 PM UTC) today that will make it inaccessible for up to 30 minutes.\n\nThanks for bearing with us!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-AF17C310B4F5D169",
+      "timestamp": "2022-04-01T14:44:45",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@here\n\n Attention, Deep Space Explores!\n\nWe are excited to announce that the Atlas Star - The Star Atlas Newsletter is back in publication!\n\n In Atlas Star, you will be able to further engage with the many fronts of development in Star Atlas and maybe, learn some exciting Alpha  .\n\n We hope you enjoy our latest issue, Atlas Star #5! https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101 \nMedium"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-7454435B03B14F26",
+      "timestamp": "2022-04-07T11:05:32",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION"
+      ],
+      "content": "We're aware of today's issues related to the Star Atlas website. The team is working on a solution and we'll continue to provide updates. Thanks for your patience and understanding.  - Everything solved!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-06AAC4F721056A34",
+      "timestamp": "2022-04-11T09:03:51",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "We're aware of the issues related to accessing the toolkits. We realize this is an important issue and will continue to provide updates as we have them. Thanks for your understanding."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-E1F8DDD958DC4D6B",
+      "timestamp": "2022-04-13T09:28:47",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Technical community update: \n\nThis message addresses the situation with failing blockchain transactions for Toolkit purchases in the Galactic Marketplace at Play.staratlas.com that many community members are experiencing while playing SCORE.\n\nWorking with engineers at Solana, we have determined that the reason for transaction failures are difficulties in the wider blockchain network itself. \n\nMore specifically, hundreds of thousands of largely duplicate transactions per second that are being sent across the network for validation by bots, causing congestion. This causes some transactions over a certain limit of data size or requiring time-sensitive information to fail, and one such transaction is the Toolkit one. \n\nWe are working on solving the issue in two ways: \n\n We are in the process of implementing an informational banner in our Marketplace that will show users a real-time health and status of the Solana network and enable our community to receive instant feedback on the likelihood of success of their transactions.\n\n We are also in touch with the Solana network, which is working on important blockchain upgrades, the first one being rolled out in early May and aiming to bring a long-term solution to chain congestion.\n\nThank you for your continued patience and support in resolving the issue. We will keep you updated as the situation evolves.\n\nPower to the people!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-3C9F92BCDCD485C2",
+      "timestamp": "2022-04-14T23:25:44",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION"
+      ],
+      "content": "Community Technical Udate\n\nThe Toolkit purchasing bug has been addressed, we've identified and circumvented the issue so now buying supplies on the Galactic Marketplace is once again working properly. \n\nPower to the People"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-091A06941883C519",
+      "timestamp": "2022-04-21T22:48:37",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "We are aware of the issue related to accessing the Faction Fleet section / connecting your wallet and we are looking for solutions. We will continue to provide updates as we have them. Thanks for your understanding."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-6E5EE8C044D6F901",
+      "timestamp": "2022-05-01T13:21:24",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@here  Community Update  \n\nIf you're resupplying your fleet this Sunday, you're seeing $ATLAS rewards calculation as slightly out of sync with consumption of 4R resources.\n\nPlease know that ATLAS rewards & R4 burn is still being calculated correctly on #Solana's back end.\n\nThe discrepancy is due to the user interface clock being temporarily out of sync after the Solana network restart last night.\n\nThe #Solana Team has confirmed that this issue will disappear once block times across the network resyncronize. \n\nThank you for your patience!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-584D26D0C7C31658",
+      "timestamp": "2022-05-13T16:24:57",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone \n Attention, Deep Space Explorers! \n\n A new edition of The Atlas Star ✧, the Star Atlas Newsletter, is now online! \n\nRead our deep dive into the upcoming SCREAM game module and SA metaverse development as a whole! \n\nhttps://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60\n\n\n\n#WeAreStarAtlas"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-A59BB9294F2EC7ED",
+      "timestamp": "2022-06-01T13:44:22",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@here\n\n SOLANA OUTAGE \n\nHey everyone,\n\nUnfortunately since 17:00 UTC ( your local time) the Solana chain has halted. The devs over there are working hard to resolve the issue, and we will keep you updated if anything changes.\n\nThis means that both the Galactic Marketplace and SCORE are not working at the moment.\n\nYou can check the current status here: https://status.solana.com/"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-4D09C1D633BD954F",
+      "timestamp": "2022-06-03T13:41:22",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@here \n\n Attention, Deep Space Explorers!\n\nWe are excited to announce the Star Atlas Roadmap Scan #08!\n\n In this issue, you will learn more about the ustur CEO and his concerns for the future of the galaxy.\n\nhttps://medium.com/star-atlas/ustur-ceo-the-hidden-enemy-star-atlas-roadmap-scan-08-7d9573eb70aa"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-BAEBD1255849F8E3",
+      "timestamp": "2022-06-26T22:01:26",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "Attention, Explorers! \n \nWe are excited to announce our post-COPA edition of the Atlas Star with the latest project updates, the Punaab Whisperer and an epic tale about Time \n\nhttps://medium.com/star-atlas/the-atlas-star-issue-8-81161f34eb16"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-02B95128B8940F07",
+      "timestamp": "2022-07-22T17:30:13",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Attention, Space Explorers!  \n \n The #14th edition of the Weekly Roadmap is now online!\n\nIn this issue, we learn that someone tried to use the #426LIVE event as a cover for espionage, but an unusual guard was defending the secrets of the Council of Peace.\n\nhttps://link.medium.com/aD57RTDFSrb"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-F78BBD2423A1F253",
+      "timestamp": "2022-07-29T09:40:29",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "We are aware of the issue related to individual buy and sell orders not showing up in the marketplace. We realize this is an important issue and will continue to provide updates as we have them. Thanks for your understanding. \n\nUpdate: Issue was fixed!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-D7E9EA029457E7CC",
+      "timestamp": "2022-08-04T11:23:15",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "We are aware of the issue related to users not being able to buy Ammo in the marketplace and our engineering team is working on fixing this right now. We realize this is an important issue and will continue to provide updates as we have them. Thanks for your understanding. \n\nUpdate: Issues have been fixed!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-E72FFBE5607D3C1B",
+      "timestamp": "2022-08-06T13:49:39",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "Attention, Adventure-seekers of Star Atlas! \n \nHere is the latest edition of the Atlas Star - #9 - hot off the presses! \n\n Learn the latest about 426LIVE, SCREAM and a unique flower with a special power. \n\n Read it here: https://medium.com/star-atlas/the-atlas-star-issue-9-828c2b3a316d"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-3EDACD33A5E551E9",
+      "timestamp": "2022-08-29T10:16:32",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "Attention, Galactic Explorers!  \n \nThe Atlas Star #10 is out!   \n\nThe theme of this issue: the lore at the core of Star Atlas! Learn everything about it as well as the latest Star Atlas developments!\n\nRead it here: https://medium.com/star-atlas/the-atlas-star-issue-10-59630af15c91"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-FB7939A1D83F47C9",
+      "timestamp": "2022-09-23T16:09:14",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "The Weekly Star Atlas Roadmap Scan #21 is out!\n\nIn this issue, politics! Asha, captain of the Council of Peace, is invited for a curious meeting in the legendary Iris Academy.\n\nLearn everything about this and star atlas's latest developments here: https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-F2A48B5A817F99CB",
+      "timestamp": "2022-09-30T20:39:58",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Update - The Solana network is experiencing an outage and not processing transactions. Developers across the ecosystem are working on diagnosing the issue and to restart the network. More information will be provided as it becomes available.\n\nUpdate: Everything should be working now"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-B799BE5BD6D367B4",
+      "timestamp": "2022-10-28T17:06:51",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "@here The Atlas Star #12 is online!\n\nIn this edition, in preparation for Solana Breakpoint, we did an overview of the different battlefronts of the Star Atlas Metaverse! You can't miss this one.\n\nLearn everything right here: https://medium.com/star-atlas/the-atlas-star-issue-12-e74b3dcc7f0d"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-BFD46B941726CAEB",
+      "timestamp": "2022-12-16T18:51:00",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION"
+      ],
+      "content": "@here\n\nAttention\n\nWe are aware of the authentication bug and are currently working on a fix. We'll announce when it's fixed."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-C92B44927A57F2B2",
+      "timestamp": "2022-12-16T21:29:34",
+      "statement_types": [
+        "RESOLUTION"
+      ],
+      "content": "@here \n\nSingle player for R2 is fixed and ready to be enjoyed!\n\nMultiplayer is still being worked on, we’ll give further updates as we have them."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-64B8330048C2F2CD",
+      "timestamp": "2022-12-19T15:19:06",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION"
+      ],
+      "content": "@here\n\nMultiplayer is Now Online!\n\nThe multiplayer issue has now been resolved, Multiplayer mode is now online - enjoy exploring with your friends and guildmates!\n\nDISCLAIMER: Our new multiplayer functionality is currently in a testing phase and may contain bugs. We would appreciate reporting any issues that you encounter here: https://forms.clickup.com/8474754/f/82m42-37980/6X5OUPYBMKT9G4M62R\n\nBy reporting bugs and participating in our Bug Bounty Challenge, you can win Fimbul Lowbies. Learn more: ⁠No Access"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-25ECB55CB7E4A707",
+      "timestamp": "2023-01-13T17:17:50",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "@everyone\n \n The First Atlas Star of 2023 is Out!\n\nCome celebrate our long string of milestones from 2022 while we set the course for the future!\n\n | Read everything here: https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-32CC6276F0C81DEB",
+      "timestamp": "2023-02-07T15:56:46",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "@here\n\nImportant Support Updates\n\nHey Everyone, we're going to be implementing a deadline to receive support on a couple things:\n\n• If you traded Claim Stakes in the secondary markets and had issues with the Claim Stake distribution\n• Year of the Tigu skins airdrop  \n\nIf you think you haven't properly received either of the above, please ⁠No Access  BEFORE February 17th 8:00 PM UTC."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-4A817AA8BCA7B383",
+      "timestamp": "2023-02-14T11:59:36",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@here\n\nStart Sequence Reward Distribution Update\n\nHey Everyone, we appreciate the patience you guys have all shown in regards to the Start Sequence rewards. \n\nWe ran into an issue with gumdrop (the distribution contract), as we found it hasn't been maintained through Solana protocol upgrades. The team had to work on fixing that before being able to execute the drop. This is now fixed.\n\nWe're now working on: Staging all of the assets. The metadata storage, the marketplace listings, and then the actual drop.\n\nThese drops will happen as soon as the above mentioned are complete.\n\nBelow is a picture of what the drop will look like, using fuel as an example. We'll announce as soon as the rewards are claimable. Thanks everyone!\n\nAttachments:\n- Screen_Shot_2023-02-12_at_3.png — https://cdn.discordapp.com/attachments/799478132993425429/1075114100549496922/Screen_Shot_2023-02-12_at_3.png?ex=6a57ca88&is=6a567908&hm=c71bba983123bf3b8fbd6d4a8fed273e4b29947270288f7e402e29990d3f99ee&"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-4C4822B7EDBB8B60",
+      "timestamp": "2023-02-18T10:17:09",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone \n\n Attention, Galactic Explorers!  \n \nThe Atlas Star #15 is out!   \n\nIn this edition, learn more about our roadmap with the upcoming releases from all our projects, including the #UE5 Showroom and SAGE. \n\nRead it here: https://medium.com/star-atlas/atlas-star-issue-15-39d84a2030a5"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-B29F8C4349044164",
+      "timestamp": "2023-03-17T14:50:51",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nAtlas Star #16!\n\nAttention, Galactic Explorers!  \n \nThe Atlas Star #16 is hot off the press! In this edition, we go over the solid foundations of the Star Atlas economy, and provide major game roadmap updates.\n\n | Read it here: https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-C3592648FB32C68E",
+      "timestamp": "2023-04-14T13:28:04",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "RELEASE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nAtlas Star & Key Roadmap Updates!\n\nThe Atlas Star ✧ Edition #17 is out now and with it comes major project updates and a dive into the secrets of galactic supply chains!  \n\n What is the Atlas Star?\nThe Atlas Star is our monthly newsletter, where Star Atlas shares its latest developments and overall vision for the Star Atlas metaverse!\n\n Key Roadmap Highlights from the Atlas Star:\n\nSTAR ATLAS UE5 (SHOWROOM)• Improved Performance Optimization\n• Added Marketplace Integration \n• Improved ship flight models\n• Character customization tool in progress\n• First general pass of creating unique flight profiles for ships complete\n• Added unique stats and bonuses to ships\n• Upcoming: Completion of Showroom R2.1 scope\nSAGE• Completed Scavenger Hunt internal play-test \n• Polishing movement UX and UI\n• Working on high-fidelity designs for resource extraction and crafting\n• Completed SAGE program audits\n• Upcoming: Launch Scavenger Hunt\nSTAR ATLAS DAO•  STARBOARD - Our web 2.5 authentication solution that we're using for proposals discussion. It allows users to use our off-chain discussion board service by signing a message with their wallet pub key [WIP]\n• Governance Proposals designs close to final\nPLAY.STARATLAS.COM• Faction Claims Launched\n• Polished Galactic Marketplace\n• Feature in pipeline: DAC Platform\nFor more in-depth Roadmap Updates, head to the link below.  \n\n | Atlas Star: https://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-62C4F6DDFADC2CB5",
+      "timestamp": "2023-05-19T14:17:59",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "RELEASE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nAtlas Star 18 & Key Roadmap Updates!\n\nThe Atlas Star ✧ Edition #18 is out now and with it comes major project updates and a discussion around destruction and depreciation of assets! \n What is the Atlas Star?\nThe Atlas Star is our monthly newsletter, where Star Atlas shares its latest developments and overall vision for the Star Atlas metaverse!\n\n Key Roadmap Highlights from the Atlas Star #18:\n\nSTAR ATLAS UE5 (SHOWROOM)• Continued work on marketplace implementation\n• Made ship flight model improvements \n• Reworking dogfight mode\n• Polishing ground race track\n• First vehicle concept weapons ready and in progress as detached nft for future customization on each vehicle\n• Working on Mierese head tail and trinket dynamics\n• Made progress on MUD headgear\n• Made first pass on playable Punaab character\n• Animated Ted's bioluminescence \n• Continued work on playable ground racing environment\n• Working on Armstrong Asset Zoo implementation (A collection of assets to improve the fidelity of all levels)\nSTAR ATLAS: GOLDEN ERA• Reconciling blockchain programs (specifically Fleets Program) with game design requirements for upcoming Resource Extraction and Crafting release. \n• Continued work on asteroid belt resource extraction and crafting UI layer + enhancing the UI\n• Working on mining + in-space inventory UI\nSTAR ATLAS DAO• Preparing for internal testing\n• Working on proposal design components\n• Provided UX updates for subsequent release features\nPLAY.STARATLAS.COM• Added Never Alone landing page\n• Features in pipeline: DAC Platform & Orderbook history\nFor more in-depth Roadmap Updates, head to the link below.  \n\n | Atlas Star 18: https://medium.com/star-atlas/the-atlas-star-issue-18-a96964ef350b"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-121D7FFE107D47B1",
+      "timestamp": "2023-06-23T19:54:21",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "INCIDENT_UPDATE",
+        "RELEASE",
+        "RESOLUTION",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nR2.1.1 Patch Update Now Live!\n\nOur first patch for Showroom R2.1 is LIVE! Read on to learn more about what's in this new patch.  \n\nPATCH NOTES:\n\nGENERAL• Fixed an issue where players would launch the game for the first time and hadn't chosen a character, loading any game mode and ending up half underground in the hangar. \n• Added Ship Selection Screen to the Main Menu.\n• Ship Selection and Player Selection screen is now active in loadout.\n• Background Music is now persistent throughout all game modes.\n• Fixed an issue where ESC to pull up menu and interact wasn't persistent across all screens.\n• Fixed an issue where jetpack camera shake would persist after entering a ship.\n• Added the ability for clients (non host) to see their projectiles when shooting.\n• Fixed \"Use Session ID\" button.\n• Updated West Outdoor Pad teleport location to prevent character being placed in the ground \nPHOTO MODE• Fixed an issue where the wrong photo was published in the Discord forum.\n• Fixed an issue where exiting photo mode would cause a player to lose control of their ship. \n• Fixed an issue where \"Gallery\" wasn't loading photos taken.\n• Fixed a bug where the 'R' key wouldn't enable rotation mode.\n• Fixed an issue where photomode filters wouldn't work for client\nGROUND RACING• Fixed an issue where some gates were not counted when passed near the border.\n• Race can now be started by any player with the correct ship and not just the host.\n• Fixed an issue where players could fly away from the racetrack after passing a few gates. Ground race track should support only hover mode now.\n• Fixed the UI of the loading screen.\nDOGFIGHTING ARENA• Fixed an issue where the NPC ships wouldn't give a player the chance to mount a ship.\n• Fixed an issue where ships would blast off into the air when pressing F11 (Respawn).\n• Fixed an issue where enemies weren't shooting the player\nOUTPOST 39 (EXPERIMENTAL MODE)• Fixed an issue where the map would load too long during a Multiplayer session, resulting in players timing out. We extended the timeout period so the Flower Hunt game mode could be started.\nSHIPS• Performance improvements.\n• Animation fixes for the Opal Jet, Fimbul ECOS Unibomba, Pearce X4, Calico Medtech and Floyd Line Aerospace One.\n• Fixed camera issues for a variety of ships.\n• Fixed an issue where the Floyd Line Aerospace One lasers wouldn't show when firing.\n• Fixed Floyd Line Aerospace One issue where client would see the pink landing gear Skeletal Mesh\n• Fixed an issue where characters wouldn't disappear when mounting work in progress ships (Jetjet head).\n• Adjusted sound mixing on several ships.\n• Reduced interaction volumes on ships with interiors to prevent possessing the ship from outside the cockpit.\n• Fixed an issue where the VZUS Opod wasn't flyable.\n• Updated glass material to avoid flicker in 1st person camera mode for several ships.\nCHARACTERS• Fixed an issue where some players would not be able to sprint after using the jetpack.\nVOLANT AIR TRACK• Fixed several Volant air track targets that were far from their intended location\n | Play or wishlist now: https://store.epicgames.com/en-US/p/star-atlas-bead34"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-F9EDF3D624192133",
+      "timestamp": "2023-07-06T15:27:02",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nIntroducing Star Atlas DAO Proposals!\n\nIt's time to make YOUR voice heard!  \n\nIntroducing Star Atlas DAO Proposals, the first step to creating the most decentralized, player-owned economy. By you, for you!\n\nWith the introduction of DAO Proposals, you'll be able to view, comment, and vote on the very first POLIS Improvement Proposal (PIP-1)!\n\nPIP-1 contains 3 articles to define all present and future Star Atlas DAO operations:\n Blockchain Supremacy Clause, defining our DAO as autonomous programs that operate on Solana\n Star Atlas Constitution, explaining all that the governance framework pertains\n Star Atlas Foundation, ratifying the operations of the Star Atlas DAO\n\nOur roadmap for PIP-1 includes 4 phases:\n Declaration or the publication of PIP-1\n Deliberation, featuring public comments, debate and ongoing community interest voting\n Decision, the on-chain vote\n Democratic Convergence, the formal blockchain ratification of PIP-1\n\nPIP-1 is an invitation to all who have locked POLIS in the POLIS Locker and received PVP, or POLIS Voting Power. PVP is going to be needed to participate in the proposal process. Lock POLIS here: https://govern.staratlas.com/lockers\n\nTo learn more about the Star Atlas DAO & how it works: \nhttps://staratlasgame.medium.com/star-atlas-dao-foundation-pip-sustainable-governance-in-gaming-39105cc0121f\n\nPLEASE NOTE: While the Star Atlas DAO is live, we are still optimizing its performance for the high user volume. There may be possible outages upon the launch while we're improving the resilience of the infrastructure. If you experience timeout while accessing the DAO website, please refresh the page.\n\n | View PIP-1 now: https://govern.staratlas.com/proposals"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-9A3BE6622EE14605",
+      "timestamp": "2023-08-11T20:39:27",
+      "statement_types": [
+        "RESOLUTION"
+      ],
+      "content": "@everyone\n\nPatch Notes - Ship Config (V2)\n\nWe just implemented our patch to ship configs. Read on to learn more about the highlights of the patch. \n\nPATCH NOTES:• Implemented various fixes to ensure consistent adherence to V2 rule sets outlined in the Star Atlas Lore Wiki\n• Adjusted Crew, Components, and Mods across all ships to ensure consistent ordering\n• Updated ship dimensions to match latest work done in Unreal Engine 5\n• Gave the Pearce F4 and Pearce X4 a Cargo module to be more consistent with their description. Implemented other minor module tweaks\n• Adjusted Calico Guardian, VZUS Ballad, Pearce T1, and the Fimbul BYOS Tankship weapons. Adjusted some slower ships to be given turrets in lieu of fixed weapons\n• Adjusted Bombers to be more consistent in their bomb bay packages, but have reduced fixed weapons\n• Added Utility Rigs to several ships that were missing them\n• Added Janitors and other crew members that were missing from several ships\n• Made minor adjustments to the Opal Jet, Opal Jetjet, Fimbul Mamba and Pearce X5 descriptions\n• Adjusted Drone ports across all ships to be correct total class and quantity\n• Added stealth to the MFG bonus table for VZUS\n• Adjusted the VZUS opod and VZUS ambwe to no longer sport undersized heat sinks"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-519B83DE6219E896",
+      "timestamp": "2023-10-10T17:54:11",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "@everyone\n\nStarpath Issues\n\nAttention Community, \n\nThere may be issues with Starpath where rewards aren’t properly being allocated to referrers. We’re actively looking into it but we recommend not using Starpath until we can guarantee rewards are being sent out correctly.\n\nThank you for understanding and we apologize for any inconvenience."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-86F249A07D5613A3",
+      "timestamp": "2023-12-19T18:25:57",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nEverything Update\n\nThere's a lot happening right now and we don't want to bombard your notifications, so we're going to add all the updates into this one announcement! Read on for an economics pre-announcement, Starcomm update, and marketplace update.  \n\n  ECONOMICS PRE-ANNOUNCEMENT\nLike mentioned before, we're making an effort to pre-announce economic changes vaguely so everyone isn't completely caught off guard by our patches. With that being said, the economics team has big changes coming to SAGE Labs and Faction Fleet (SCORE) that will happen within the next 2 days.\n\nWe'll provide details of this update when it's live.\n\n STARCOMM UPDATE\nWe're aware many of you faced issues with Starcomm today, and we get how frustrating that can be. Good news: after collaborating with our RPC data stream provider, we identified and have a resolution coming for today's issue.\n\n GALACTIC MARKETPLACE UPDATE\nTonight we'll be launching the seasonal sale of Armstrong IMPs (111 quantity in USDC and 111 quantity in ATLAS at 25% off), along with an ATLAS repricing to bring those prices inline with the recent volatility.\n\nThis seasonal sale will last until January 8."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-78E80236AA5C10E0",
+      "timestamp": "2023-12-22T00:08:04",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone \n\nWe are aware of issues some users are experiencing related to pending ATLAS earnings in Faction Fleet following the reward rate adjustment earlier today. \n\nPrior to executing that reduction, we ran a settlement process on our end to lock in pending reward values. However, given network congestion on Solana recently, a number of those settlement transactions failed.,\nWe will be reverting the earnings reduction back to the previous rate, which will concurrently adjust previous pending rewards to their original amount,\nFollowing that adjustment, we will again downward adjust the earnings rate in Faction Fleet,\nFor now, DO NOT claim your rewards,\nWe also have logs of user claims executed within this window and will be able to provide the appropriate ATLAS rewards if they were less than the appropriate amount,\nGive us the day tomorrow to sort through this. After that time, please contact support if you feel you were impacted and uncorrected. We will resolve this before studio closure."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-2A703FDCF85CA27C",
+      "timestamp": "2024-03-23T12:21:04",
+      "statement_types": [
+        "CORRECTION_OR_CLARIFICATION",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone \n\nStar Atlas Technical Test Update\n\nHey everyone,\n\nWe regret to inform you that today's scheduled technical test for the Surge game mode has been cancelled due to an unexpected issue that is causing the live build to fail to authenticate. The dev build is running well and we can't wait for you all to try it. \n\nWe are actively working to resolve this, but at this time, we do not have a specific date for when the test will be rescheduled. \n\nWe apologize for any inconvenience this may cause and appreciate your understanding and support."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-D30F805FADCAD138",
+      "timestamp": "2024-03-30T14:29:00",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nThank you for Helping us Test!\n\nHey everyone!\n\nFirstly, we want to extend a huge thank you for your invaluable participation in our multiplayer technical test and for testing Surge! Your feedback has been immensely valuable to us. \n\nUndoubtedly, there were performance issues and bugs present, that's why we decided to conduct several Discord-only tests before we promote a public one with economic incentives. \n\nWe extensively tested Surge beforehand but there are some issues that only surface when we really put things to the test with hundreds of players. This is part of the development process and we assure you, things will only get better from here. \n\nYour patience and understanding means a lot to us, and we're going to be sharing a post mortem next week to outline our findings and lessons learned.\n\nAttachments:\n- oni_surge_image.png — https://cdn.discordapp.com/attachments/799478132993425429/1223715623369052311/oni_surge_image.png?ex=6a57df7c&is=6a568dfc&hm=118ac06e5209004545b8433007ab3aa0d5980f49c79d64f1d523d2af084cb0de&"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-76D9861DCB3FE798",
+      "timestamp": "2024-04-02T19:07:17",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "@everyone\n\nStarbased Delay\n\nHey everyone, going to rip the band-aid off and announce that we're delaying the launch of Starbased to tomorrow.\n\nThis is due to the recent uptick in failed transactions and transaction times. Our team is experiencing these challenges as we've been working on uploading our new programs for Starbased. You can read more about the issues we're facing in this message from our Head of Engineering, @Buzzec: ⁠📢┃minor-announcements⁠\n\nMentions: @Buzzec"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-B4C3816839C31880",
+      "timestamp": "2024-08-20T19:01:06",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "RESOLUTION",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nCrew Cards - Addressing Feedback and Making Changes for the Health of the Game\n\nHey everyone! Firstly, thank you for all the support you've shown for Crew Packs. We appreciate every comment, and it’s amazing to see you all having fun. We've been listening to your feedback, taking notes from our team, and heavily considering the overall health of the game. As a result, we’re making some important changes to Crew Packs and your Crew Cards. Let's get into it!  \n\nNew Traits  \nSome of you shared your passionate feedback on the MUD species, so we're adjusting accordingly and also adding some new outfits to other species! • New MUD hairstyles have been added.\n• MUD now have increased chances to roll an augment or trinket trait.\n• MUD have decreased chances to roll a helmet trait.\n• New outfits have been added to MUD, Mierese, Punaabs and Sogmians that offer a wider variety of patterns and colors.\nNew Algorithm and New \"Episode\"  \nThe rate at which higher-tier traits were rolled on lower-tier rarities and lower-tier traits were rolled on higher-tier rarities was way out of our comfort zone. Simply put, it made all the card rarities look the same. You noticed it, and we did too. We’re not exaggerating when we say that years of work from one of the best character art teams in gaming went into creating a cohesive visual language. Our goal was to ensure that each card's rarity is immediately recognizable, with distinct silhouettes, color grading, and storytelling elements to enhance immersion. Since we didn’t hit that mark, we’re making adjustments. We’re rolling out a new algorithm for Crew Pack openings that will significantly reduce the chances of cards rolling \"out of rarity\" traits. In other words, Commons will look truly Common, and Legendary crew will genuinely look Legendary. Along with this algorithm change, we're also moving from \"Episode 0\" cards to \"Episode 1\".\n• Art on previously opened cards will reroll using our new algorithm at the time of this announcement to Episode 1 art. Your old art will still be viewable as Episode 0 art. \n• Episode 1 cards will keep Rarity, Species, Sex, Aptitudes and Name. Only the art and traits are adjusting. \n• Anomaly art will be retained, you should see very little difference between your Episode 0 and Episode 1 art.\n• Episode 0 won't be UE5 compatible. The latest episode art will be used at the time of adding UE5 support. \n• Added a drop down menu to \"My Crew Cards\" that lets you select alternate art.\n• Anna Tolle, Sammy Banx and the Surge Crew will remain unchanged.\n• In the episode 0 algorithm, aptitudes had an even chance to roll. We're changing this and now certain aptitudes will be more rare than others. The good news is that we're not changing your already rolled aptitudes for Episode 1. If you rolled a rare aptitude you get to keep it. Consider it an early bonus of opening packs!\nWhat's Next for Crew Packs?  \nNow that we've gotten through all of today's changes, what's next?• Crew backstories.\n• Share feature.\n• Adding full res PFP downloads in layers, full body or headshot.\n• Adjusting Punaab eyes.\n• Updated Ustur cloak.\n• Adding the \"background\" of your cards to the \"My Crew Cards\" viewer.\n• Adding SAGE crew to the \"My Crew Cards\" viewer.\nKnown Bugs to be Fixed:  \nThe amount of Crew Cards listed on the \"My Cred Cards\" tab may not match the amount in your wallet. This will be fixed tomorrow.,You may see black boxes instead of the new art, this should fix over time leading up until tomorrow.,The drop down menu to view previous episodes isn't implemented yet.,\nNow that these changes are live, we're live on Tensor! However, the artwork might take a bit to update on their site. To ensure everything is fully updated, we recommend holding off on trading until tomorrow. We'll share the link and announce when it's ready.\n\nAttachments:\n- IMG_0831.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605560699387924/IMG_0831.png?ex=6a581f41&is=6a56cdc1&hm=a414a1f681fe61f7df88afb30f65d3f46c22011099d204bee52ab54c120e96e5&\n- IMG_0830.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605561798295552/IMG_0830.png?ex=6a581f41&is=6a56cdc1&hm=2b83d46376ceb84999e83d10f5a9cb6583d3c41c580c520f7abc35e72abf8f32&\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605562335170600/image.png?ex=6a581f41&is=6a56cdc1&hm=e0660b22d92fff357910649e86d7d1e8f3e9f7d360b25972caade5b1bf8993d7&\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605562855522406/image.png?ex=6a581f41&is=6a56cdc1&hm=fb8f9a0c4cb385fae494475641fa8087d97e60685433223286252e43938c9e32&\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605563241136210/image.png?ex=6a581f41&is=6a56cdc1&hm=dcd5225b1ad6545b1c9acfed3e0ff27abafa00516d78358e0628e10c46b94d28&\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605563652440154/image.png?ex=6a581f41&is=6a56cdc1&hm=51ed6ae9b119c91df8ff5111944a64d4f3cc347120f9f12964a338571934bdb4&\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605564038058016/image.png?ex=6a581f42&is=6a56cdc2&hm=a457ce9945e8f109cf8897a0ebba88b735f192097ed0144f48301279b2d035f9&\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605564419997796/image.png?ex=6a581f42&is=6a56cdc2&hm=81a9e2da7bfddfa47447ff7362e508b4a99b12d800b721e040d983e03403de6f&\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605564751351808/image.png?ex=6a581f42&is=6a56cdc2&hm=4fdb93fd0c8c19f7f84823aa93c8bbbdde5dcf1cec8d48d1d23e80f7b612ab6e&\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1275605565162131538/image.png?ex=6a581f42&is=6a56cdc2&hm=0cb9eaa9bc03423f3f70311b419e01f148b4b62fa985ce0a565dcea651b741ec&"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-5EF4AA395EBB174D",
+      "timestamp": "2024-09-11T17:06:21",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@All Pings @Game Pings\nInformation & Timing - Tomorrow's SAGE Update\n\nHey everyone, the Crew utility update in Star Atlas: Golden Era is happening  ()! During this time, SAGE will have a window of downtime that will last approximately 4 hours while we update the game. \n\nThis Update Includes:\nAll Crew members will become individual and unique cNFTs, functioning as autonomous units, no longer tied to specific ships.,All fleets will be disbanded and returned to your faction's Central Space Station, burning any cargo in your ships.,All open crafting processes will be cancelled.,All resource inventory at Starbases will remain at that Starbase.,\nImportant Information on the Next Epoch:\nSince the update goes live during the  -  epoch, there will be no ATLAS earnings for it. The missed earnings will be evenly distributed across the 7 epochs following the update instead.\n\n | https://based.staratlas.com/"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-CB36603E510DCD96",
+      "timestamp": "2024-09-12T10:14:19",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "@Game Pings @All Pings \n\nSAGE Downtime For Crew Update Starting Soon! \n\nHey everyone, SAGE downtime is starting in just a few minutes! We expect this to last approximately 4 hours! \n\nFor more information about what this update includes, please refer to this announcement: ⁠📢┃announcements⁠\n\nThank you for your patience!"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-76742D4A127BBE5B",
+      "timestamp": "2024-09-12T18:14:48",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RELEASE",
+        "RESOLUTION"
+      ],
+      "content": "@All Pings @Game Pings \n\nCrew Utility in Star Atlas: Golden Era - LIVE\n\nHey everyone, Crew utility in SAGE is now LIVE! Thank you for your patience as we push out the update.\n\nThat means that each of your Crew members is now a unique, individual cNFT, no longer bound to any specific ship.  \n\nKnown Issue: Passengers cannot disembark while Hotwallet is enabled. Workaround: Disable Hotwallet. (This should be fixed within the next couple hours) FIXED\n\n | https://based.staratlas.com/"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-605B113CFFEC2D25",
+      "timestamp": "2024-09-27T13:40:55",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "@All Pings \n\nPearce F4 - Complete In-game Model\n\nThis standard issue Council of Peace medium patrol vessel is ready to take on your difficult missions. \n\nThe Pearce F4 has reached its complete in-game model! Look forward to viewing yours in our next update.  \n\n | https://youtu.be/AhBwLZCp0z8?si=Cp_P3DITKc9LC7YP\n\nAttachments:\n- Pearce_f4.jpg — https://cdn.discordapp.com/attachments/799478132993425429/1289295729285795911/Pearce_f4.jpg?ex=6a57d437&is=6a5682b7&hm=465aef88ef05aca95d528af9d1bc9774507e3c6ae10ebf322224657c1b43698e&"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-184BC120A32F4C86",
+      "timestamp": "2024-12-18T15:19:34",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "RELEASE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\n\nStar Atlas Private Preseason Update - LIVE Now\n\nSURPRISE! We just launched a MASSIVE update to Star Atlas. \n\nIt's now available for download via the Epic Games Store with a game key. (Get your closed access key here: ⁠🔑┃game-access-key)   \n\nWhat's New?\nProject Galia: The universe of Star Atlas is coming to life, Galia is now live! Explore space and planets seamlessly by holding 'B' to subwarp, all with no loading screens. ,Gunplay Modes: You can now host Surge, Team Deathmatch and Deathmatch with customized rules! ,ONI CSS: Significant strides on the ONI Central Space Station, like the Sogmian District, are now viewable in Experimental Mode. ,Peer-to-peer Hosting: Host joinable sessions with friends across Volant Station, Arena Maps, ONI CSS, and Racing Tracks. ,Crew Support: See your crew in-game! Loaner models match your crew member’s species and rarity, with improvements rolling out over time. If your crew’s species isn’t fully modeled yet, it’s represented by a special material in your card's rarity color. (Example: An anomaly Tufa = clay model with green rarity.) ,Fleet Command: The first building block of Fleet Command is now live! While it's not playable yet, you can see fleet movements in SAGE Labs reflected in UE5. ,\nWe're still in pre-alpha and bugs will occur! Please report any issues here: ⁠✨┃feedback-and-bug-report-forum . We’ll continue polishing this update in January.\n\n | Redeem a code and play now: https://store.epicgames.com/en-US/p/star-atlas-bead34"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-590264FE41318E2E",
+      "timestamp": "2025-01-09T22:22:16",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Hi @everyone,\n\nIn light of recent growing frustrations with the performance of SAGE Labs onchain mechanics, I wanted to take a moment to address here publicly some recurring community questions about any concerns we have as a team about the long term viability of \"fully onchain gaming,\" as well as communicate some of the possible solutions we are, and have been, considering. I'll preface by emphasizing that there is no silver bullet, and that every potential solution comes with trade-offs. There is also no immediate solution we can implement. However, we have experienced these spikes in user activity on Solana in the past during periods of high volatility, and they tend to subside when things stabilize for a while, leading to better game performance and lower fees. But as we've seen Solana grow in popularity, there is no reason to expect we won't face similar issues going forward.\n\nSo, for full clarity, I'm going to be focusing this post on two issues:\n Transaction Settlement Reliability: do the actions you take in game settle onchain? (on the first attempt!),Transaction Fee Impact: how much do you have to pay in SOL to play? (can users play profitably?),\nIn responding to these questions, I need to talk a little bit about why we're even building game logic onchain in the first place, as well as the core ethos/philosophy of ATMTA in building Star Atlas. The entire concept of Star Atlas centers on this idea of a globally accessible, open, permissionless, and decentralized open world space adventure MMO (and metaverse integration). That's a whole lot of crypto buzzwords, but it's something I feel deeply passionate about (as does the team). If we're truly going to accomplish building a cybernation with a self sustaining, global and borderless economy, managed by a new political system and set of rules (the DAO), Star Atlas needs to be censorship resistant. It can't just run on ATMTA servers in the long run. And while it is going to take tremendous effort to accomplish that goal, building game logic via smart contracts (onchain programs) is arguably the first step towards decentralization of the Star Atlas universe.\n\nThere are other benefits to building onchain, such as composability and extensibility. This simply means that other developers, whether that be organized teams or individual contributors, can build out applications that integrate with Star Atlas seamlessly. Which is why we created https://build.staratlas.com/, to help facilitate this co-creation of Star Atlas. And we've seen a number of incredible applications come from it: SLY Tools, ATOM (up-and-coming), EveEye, Aephia dashboards, many others, and many more to come. And this extends to entrepreneurs leveraging the open Intellectual Property policy, enabling non-ATMTA companies to form and monetize products using Star Atlas IP (e.g. Galia Merchants). And finally, onchain logic in many ways makes our backend systems more secure and reliable. I'll post a little excerpt here from Jacob, our co-founder and CTO, about some of these benefits:\n\nIt's hard to fully express how awesome it is from an engineering & security perspective having the fully on-chain game systems.  Many MMO projects struggle for years to solve problems that are solved for us by default by building fully on-chain, particularly related to data security & authorizing user actions.\n\n-Jacob Floyd\n\nIn a nutshell, that's the \"why\" we're building our architecture the way that we are. And we have no intentions of changing that. We set out to build a world-changing MMO, and this blockchain integration is an integral part of that vision.\n\nWhich leads to the question of, what are we going to do to improve the user experience. Fortunately, this topic is something we have been considering for the better part of a year. Though it hasn't really been a pressing or prioritized challenge to solve until more recently. And we do intend to future proof Star Atlas."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-98F848C2273766E8",
+      "timestamp": "2025-01-09T22:22:33",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "RELEASE"
+      ],
+      "content": "I'd also like to note here that the team has been working tirelessly on infrastructure improvements to ensure that transaction issues aren't related to Star Atlas specifically. There's still room to improve, but dramatic improvements have been made, and many more are in the process of being implemented (Starcomm v2, StarFrame, IronForge, etc.). Setting that aside for the moment, we need to solve for exogenous variables outside of our control (i.e. network congestion and priority fees).\n\nThere are several potential avenues ahead of us, including:\n Apollo (likely rebranding) / AtlasNet -- ATMTA's Solana clone/fork, which we've been leveraging for internal program testing,SVM/L2 solutionsMagicBlock,Sonic,,Moving to a new layer 1,Game logic changes to reduce transactions,\nI'm going to come back to Apollo. So, starting off with some of the SVM alternatives, I'll note there are some interesting products out there. And there very well could be a short term implementation of one or several of these solutions. However, the downsides consist of additional reliance on third party solutions, as well as a general lack of true decentralization. Referring back to my comments about our core philosophy, it's imperative to us that Star Atlas can operate long into the future, without the requirement for ATMTA to provide and maintain the infrastructure (years away). \n\nConsidering a new blockchain protocol, particularly for SAGE, lacks any real viability. Given the considerable number of programs we have already deployed, and inconsistencies or incompatibility with base language, data structures, and general code logic would imply a complete re-write of every one of the programs we've created for SAGE. Years of work. And realistically, we would be moving away from the blockchain that has already captured significant mindshare and market share, alongside the interest of countless developers that can be targeted to build applications supporting the Star Atlas ecosystem. Solana is also a network that has arguably been the most stress tested and battle hardened. Any other network achieving comparable levels of success would likely succumb to the same pitfalls, and challenges for our players, that Solana is presenting to us now. Sure, ATMTA could receive a substantial grant to transition, but it would set us back years. And again, we're still moving away from a clear winner.\n\nI've seen a number of requests to make changes to game logic to reduce the number of transactions, similar to what we did with SDU mechanics. On this, all I can say is that I'm strongly opposed to making changes to game design simply because we have a short term technology limitation or challenge. Gameplay is the cornerstone of Star Atlas. If we make the game terrible just to reduce costs, we're never going to succeed. That's not to say that we won't make changes to game design over time, but I certainly do not want those decisions to be a result of protocol choice. The game needs to be fun, and needs to match what game design wants to see. Period.\n\nWhich finally leads us to Apollo. And to be honest, we weren't prepared to fully reveal any details about it. Dan is currently working on the addendum I referenced during the year-end Town Hall, and details are soon to be released. Apollo in it's most basic form, as it presently exists, is already functional. It's a fully centralized layer 1 purpose-built for Star Atlas testing. Meaning it already runs the exact same programs that we deploy on Solana mainnet, just in a private version of Solana for us. The future of Apollo could very well be a fully decentralized network, synchronous with Solana, optimized for Star Atlas. We have a significant opportunity in front of us given we already have a decentralized organization generating cash flows from gameplay -- the Star Atlas DAO. Meaning we have an avenue to compensate validators on Apollo."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-741BBDE5903C1E31",
+      "timestamp": "2025-01-09T22:22:48",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Again, I don't want to get in to specific roadmap details for Apollo in this post. And to be clear, a move in this direction would also mean years of work. But some of the potential benefits could include:\n Zero-fee network transactions for users,Initially, zero network congestion, with the DAO given authority to permit new games/projects/programs later,A network optimized for Star Atlas,Validators compensated via the DAO (perhaps the first form of revenue distribution),POLIS locking requirements for validators,Licensing/Node sales to validators,State hashes secured on Solana, further hardening Apollo security and retaining the relationship with Solana,Solana programs easily re-deployed on Apollo,\nTo be clear, Apollo would not be an L2 rollup solution. It would be an independent, fully decentralized network, over time. But it would leverage one of the most performant blockchain protocol codebases in existence today, and be potentially security hardened by Solana's network state. \n\nThis is the absolute TLDR version of what Apollo could become. More from us in the near future. But I wanted to reassure everyone that we are thinking about these issues. We do want a positive gaming experience for everyone in Star Atlas today, and all of the future players/creators/builders/entrepreneurs we see joining. And at the risk of sounding repetitive, you all are participating in the bleeding edge of innovation. Which means we're going to hit some bumps in the road. But we're going to overcome any obstacle in our way, and we're going to make this thing a reality.\n\nPower to the People."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-290FA2239C1C41FA",
+      "timestamp": "2025-01-27T13:12:12",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone\nWhat to Expect from Star Atlas in 2025,Happy Monday everyone! We hosted an Atlas Brew last week that covered some of the updates, releases, events and more that you can expect in 2025. Here's a recap:\n\nStar Atlas Game:  \nA new patch is dropping soon, focusing on bug fixes and polishing our December update,Progress and release on Surge/Gunplay, with completed Arena maps,Fleet Command reaching parity with SAGE Labs,C4 in SAGE/Fleet Command (Combat, Claim Stakes, Crafting Habs, Council Rank),Dedicated multiplayer servers, anti cheat and time-based progression,\nFleet Rentals:  \nRent or rent out Star Atlas spaceships,Coming soon,\nAtlas Locker:  \nExciting updates are coming to enhance the benefits of locking your ATLAS,\nHackathons:  \nLooking at doing more hackathons throughout the year,\nEvents:  \nWe're stepping up our event game with a bigger focus on making them better and more entertaining,Breakpoint and Impact Summit,Community Week,\nApollo  \nWe discussed the possibility of Apollo, a private version of Solana, built for Star Atlas that can help combat network congestion and fees. You can read CEO Michael Wagner's announcement about Apollo, fees and congestion here: CLICK HERE,\nStar Atlas DAO:  \nEcosystem fund and the DAO's council is live RIGHT NOW for your ideas,New council elections,\n | I also created a video that talks about the above and why it's so exciting. Check it out here: https://www.youtube.com/watch?v=GpGbzqEIovI"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-80C70E08AF00324B",
+      "timestamp": "2025-02-19T18:00:14",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "RELEASE",
+        "RESOLUTION"
+      ],
+      "content": "@everyone\n\nFIRST-EVER COMMUNITY-CREATED DAO PROPOSAL IS LIVE!\n\nStar Atlas history has been made! The first-ever community-created proposal is now live on our DAO page. It’s time to put your POLIS and POLIS Voting Power to work! \n\n This proposal requests funding from the Star Atlas DAO's ecosystem fund to support the first official Community Meetup at Gamescom 2025 in Cologne, Germany. \n\n | Vote now: https://govern.staratlas.com/proposals/62506041-933e-4b3e-a450-a2596c15a801\n | Discuss here: ⁠unknown\n\n4:13pm PT edit: We’re aware of the voting error and have reported it to the team. We’ll update this announcement as soon as it’s resolved. Thanks for your patience!\n\nAttachments:\n- dao-banner-council.png — https://cdn.discordapp.com/attachments/799478132993425429/1341922328472195153/dao-banner-council.png?ex=6a581f0e&is=6a56cd8e&hm=003c153622b164ef3a13bb455d5a459a86e511ca7245b3daf1b710c9ec950b72&"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-AAC3417463BEEE96",
+      "timestamp": "2025-08-20T23:29:35",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "RESOLUTION",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Note: Battle Pass bonuses are currently not functioning properly. Any bonuses you earn will be airdropped to your account tomorrow once the issue is fixed."
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-B42BC174E4F0A9A5",
+      "timestamp": "2025-08-27T15:59:24",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "INCIDENT_UPDATE",
+        "RELEASE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "Town Hall Important Announcements/Recap,Thank you all so much for joining us today for the last Town Hall of Star Atlas Summer! If you weren't able to join, we have you covered.\n\nNEW PATCH + EXCLUSIVE RESOURECE IN UE5  \nWe’re introducing Ink, a brand-new exclusive resource tied to XP earnings in our UE5 game. For the first time, you’ll be able to earn inside our immersive experience!\n\nAlongside Ink, this update also brings weapon balance changes, a fix for hard wallet authentication issues, and more. Full patch notes will drop with the release coming later this week.\n\nTo celebrate, we’re running a Double XP Weekend from August 29–31 meaning... DOUBLE THE INK EARNINGS!  \n\nFew important notes on Ink:\nXP Conversion: 100 XP = 1 Ink,Distribution: Ink won’t appear instantly in your wallet. It will be airdropped periodically to help us manage distribution and prevent bad actors.,Utility: Ink can be used in SAGE Labs. You’ll be able to deposit it into Phantom Starbases as an upgrading resource, valued at 100,000 LP per Ink. This connects our experiences like never before.,\n SAGE LABS: NEW PHANTOM STARBASES  \nWe’re introducing \"Phantom Starbases\" to SAGE Labs, designed to serve as an infinite sink. These bases will always remain at Tier 1 and will never progress to Tier 2.\n\nPhantom Starbases are ephemeral, meaning they won’t carry over into C4. However, all materials normally required to upgrade a starbase from Tier 1 through Tier 5 can still be deposited into them.\n\nSAGE EDITOR SUITE (C4 DEVELOPMENT TOOLS EDITOR)  \nWe've just released an interactive tool for the Star Atlas Community that gives a look behind the curtain of C4 with development tools that we, the ATMTA team, use ourselves.\n\n | https://ses.staratlas.com/\n\nOPEN SOURCING STAR FRAME  \nWe're proud to give back to Solana by open-sourcing Star Frame!\n\nStar Frame is a new framework built on Pinocchio to help developers builds complex, secure, and scalable programs, unlock even more innovation on Solana. \n\n | Learn more: https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338\n\nMISSED THE TOWN HALL? WATCH THE RECORDING HERE: https://www.youtube.com/watch?v=AKvbmSHZNgo\n\n@everyone\n\nAttachments:\n- INK_ANNOUNCEMENT_16x9.png — https://cdn.discordapp.com/attachments/799478132993425429/1410368127228838028/INK_ANNOUNCEMENT_16x9.png?ex=6a57f4ac&is=6a56a32c&hm=3302f5abe96def4ce5e44accc6e251c1bbd442e099f579484498294171838586&"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-BB097FC62E8CE286",
+      "timestamp": "2026-01-27T13:03:17",
+      "statement_types": [
+        "INCIDENT_UPDATE"
+      ],
+      "content": "Starcomm Removal Update - LIVE NOW\n\nHey everyone! \n\nToday, we're introducing a significant overhaul to our backend infrastructure. We have replaced Starcomm (v2) with a direct-to-RPC solution. While this has been tested internally and stress tested in Holosim, we are requesting that you submit any bug reports to us should you identify any issues with data accuracy across the ecosystem. We're continuing to work on improvements for a new version of Starcomm (v3).\n\nHere's what's changed:\n\nStarcomm removed from Claim Stakes\nStarcomm removed from Galactic Marketplace\nStarcomm removed from Fleet Rentals\nStarcomm removed from SAGE Labs\n\nWe've tested everything thoroughly and consider this ready for release. If you notice any issues with loading or data refreshing, please report them to the team so we can patch quickly.  \n\n@everyone"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-035F7B8A6954C669",
+      "timestamp": "2026-01-30T15:38:16",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone,\n\nWe are here to stay, but I have some difficult and important news to share today.\n\nIn response to the ongoing market conditions and the need to align our expenses more closely with current revenues, we've made the tough decision to restructure parts of the team. These steps are essential to extend our runway and keep pushing forward on the long-term vision of Star Atlas; something we've done in prior cycles to reach where we are now.\n\nThis round hits the community especially hard. With a heavy heart, I'm announcing that we've had to eliminate several key front-facing roles, including those held by @DominicVain and @⪛⦿⫺ZeSKK. These departures follow @Santi's recent decision to start his own venture (completely unrelated to this restructuring).\n\nDominic, Jose, and Santi have been among our most passionate voices, representing Star Atlas publicly every day with energy and dedication. Their contributions over the years have been immense, and words can't fully express my gratitude for their tireless efforts. These were not easy decisions; if the opportunity arises, I'd welcome them back in a heartbeat.\n\nOn a brighter note:Jose remains fully committed to our weekly community events, including Atlas Brew and Lorekeepers. (Also, keep an eye out for his upcoming PIP which he will be posting shortly).,We're also preparing a couple of new economics-focused events to roll out soon.,We have a number of team members who will continue contributing to the project for a time in an unpaid capacity.,\nThe team is now leaner, but intensely focused. We're pouring everything into delivering considerable updates for Holosim, C4, and z.ink in the coming weeks. A tremendous amount of work has already gone into these and I'm genuinely excited about their potential to reignite growth and bring more energy to the ecosystem. \n\nThis journey has never been easy, and we never expected it to be. We're incredibly fortunate to still have some of the brightest talent in the industry driving Star Atlas forward.\n\nSo today we say farewell (for now) to friends, colleagues, and true dreamers. But the mission continues. There's significant potential for momentum building, and a lot to look forward to very soon.\n\nThank you for your continued support and belief in what we're building together.\n\n-Michael\n\nMentions: @DominicVain, @⪛⦿⫺ZeSKK, @Santi"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-6DC571942A250D14",
+      "timestamp": "2026-03-04T22:21:52",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone \n\nVery excited to announce the launch of Holosim Season 1: Chapter 2. \n\nComing next Tuesday, March 10. Countdown tracking on https://holosim.staratlas.com/\n\nWe’re anticipating a smooth launch. \n\nThe team has put in incredible work, and this chapter has seen some massive improvements. We appreciate your patience as we put the final polish on the release. And a big thank you to the playtesters who helped us identify some last minute issues that needed to be addressed!\n\nA few additional details available here: https://x.com/staratlas/status/2029346545821467120?s=46&t=jQd7Ns0F0BtlP8SMckcU3A"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-469F7FEDFBC1C369",
+      "timestamp": "2026-03-04T22:21:53",
+      "statement_types": [
+        "GOVERNANCE_UPDATE",
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone   Very excited to announce the launch of Holosim Season 1: Chapter 2.   Coming next Tuesday, March 10. Countdown tracking on https://holosim.staratlas.com/  We’re anticipating a smooth launch.   The team has put in incredible work, and this chapter has seen some massive improvements. We appreciate your patience as we put the final polish on the release. And a big thank you to the playtesters who helped us identify some last minute issues that needed to be addressed!  A few additional details available here: https://x.com/staratlas/status/2029346545821467120?s=46&t=jQd7Ns0F0BtlP8SMckcU3A"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-ACCB4262697DE5E2",
+      "timestamp": "2026-04-28T14:59:16",
+      "statement_types": [
+        "EVENT_NOTICE",
+        "INCIDENT_UPDATE",
+        "RESOLUTION",
+        "ROADMAP_OR_FORWARD_LOOKING"
+      ],
+      "content": "@everyone  We are aware of some ongoing issues with discord, preventing some peoples access to this server. I trust the issues will be resolved very soon. Please let your guild mates know its a technical issue on discords side. \n\nhttps://downdetector.ca/status/discord/\n\nAttachments:\n- image.png — https://cdn.discordapp.com/attachments/799478132993425429/1498775630018515034/image.png?ex=6a57e694&is=6a569514&hm=df02bd944e79fe1712fca0dd0417aee7d1086997dbd9ad3d032b256acf905203&"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-840263705E4A4A08",
+      "timestamp": "2026-05-26T12:55:26",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING",
+        "SECURITY_ALERT"
+      ],
+      "content": "NEW DISCORD SCAM ,SCAM AWARENESS\nOur team has become aware of yet another new discord scam. This post is simply to let our community know. @everyone\n\nHow It Works\nRandom users will reply to you with a \"Show More\" at the bottom of their msg.,Clicking this links you to another discord (DISCORD WARNS YOU AT THIS POINT),The scammers will, \"assist\" you in the new discord server you have joined.,\nThe Star Atlas discord and z.INK discord will most likely not encounter this issue as we have proper security measures in place already. \n\nAS ALWAYS, STAY SAFE, DO NOT TAKE EXTERNAL LINKS FROM UNTRUSTED SOURCES \nAll support for Star Atlas and Zink will be handled through our official channels. Always ask a Mod or Team member if you have questions.\n\nAttachments:\n- Screenshot_2026-05-26_124319.png — https://cdn.discordapp.com/attachments/799478132993425429/1508891327306137783/Screenshot_2026-05-26_124319.png?ex=6a57c98e&is=6a56780e&hm=8d29628875f7654c81a39473cd89011af62bdf1a8acf8da69804d4089554f255&"
+    },
+    {
+      "source_id": "SA-DISCORD-ANN-420DB7E0F3020F58",
+      "timestamp": "2026-05-26T12:55:26",
+      "statement_types": [
+        "INCIDENT_UPDATE",
+        "ROADMAP_OR_FORWARD_LOOKING",
+        "SECURITY_ALERT"
+      ],
+      "content": "NEW DISCORD SCAM ,SCAM AWARENESS Our team has become aware of yet another new discord scam. This post is simply to let our community know. @everyone  How It Works Random users will reply to you with a \"Show More\" at the bottom of their msg.,Clicking this links you to another discord (DISCORD WARNS YOU AT THIS POINT),The scammers will, \"assist\" you in the new discord server you have joined., The Star Atlas discord and z.INK discord will most likely not encounter this issue as we have proper security measures in place already.   AS ALWAYS, STAY SAFE, DO NOT TAKE EXTERNAL LINKS FROM UNTRUSTED SOURCES  All support for Star Atlas and Zink will be handled through our official channels. Always ask a Mod or Team member if you have questions."
+    }
+  ]
+}

@@ -1,0 +1,815 @@
+{
+  "campaign_id": "discord-announcements-semantic-enrichment",
+  "record_count": 72,
+  "records": [
+    {
+      "discord_source_id": "SA-DISCORD-ANN-1A6BD5BBAD5491A2",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-386846AA41E9C751",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-BE8633E2B2EF5D56",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907",
+        "SRC-X-STARATLAS-1986192592946839613"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-EC8B9FDD1912A54D",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-6E76DB87680EC4CE",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-5AFEDA7B18B8AF58",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907",
+        "SRC-X-STARATLAS-1966580434256400876"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-F9EDF3D624192133",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1986192592946839613"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-D21C927D12CDDF79",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-6E973B547DC6FADF",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-7F87509024DBE864",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-E17F7EBCDBAF81A7",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-EC4853BF52E7473F",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-3885E17AE9171835",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-A2C10BBDC660491F",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-06DB78EE9C65C7C5",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-4F1ABB2348B19714",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-BEA8EC9F1FB1C7E6",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1966580434256400876"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-08845799E329A8E2",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-D9B7FFA866734777",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1866950174695633291",
+        "SRC-X-STARATLAS-1882915908252991502"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-EABB3B420404BB9B",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1866950174695633291",
+        "SRC-X-STARATLAS-1882915908252991502"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-EFE68521F202A0D0",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-D7A6CB849432A2CE",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1908640538179625443"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-26D6DB46DBD57818",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-2AD2B8E5F1206F7E",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-56C1C7BDF8BA0C7F",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1868435215884136747",
+        "SRC-X-STARATLAS-1877446845166739618",
+        "SRC-X-STARATLAS-1883997425171587464"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-459B5D14E58946AF",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1866950174695633291",
+        "SRC-X-STARATLAS-1882915908252991502"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-5EF4AA395EBB174D",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1866950174695633291",
+        "SRC-X-STARATLAS-1882915908252991502"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-76742D4A127BBE5B",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1866950174695633291",
+        "SRC-X-STARATLAS-1882915908252991502"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-C67C3F874298BA2E",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-1687ECC1B7C1857A",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-010C03F9C9C73D7A",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-6F907AC724C744CE",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-E2C73B5048D33DEC",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-95EE9621F6B94AC1",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-9BD62D7BB087A11A",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1866950174695633291",
+        "SRC-X-STARATLAS-1882915908252991502"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-9CA0CA4D467F8816",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1866950174695633291",
+        "SRC-X-STARATLAS-1882915908252991502"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-ED2BEAE0719DC007",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1854249032874446937",
+        "SRC-X-STARATLAS-1856447637815472514",
+        "SRC-X-STARATLAS-1857149221348241676",
+        "SRC-X-STARATLAS-1857543750920147001",
+        "SRC-X-STARATLAS-1859975123601863114",
+        "SRC-X-STARATLAS-1860076258098577637",
+        "SRC-X-STARATLAS-1862511850350682358",
+        "SRC-X-STARATLAS-1864053286510133528",
+        "SRC-X-STARATLAS-1869494673028587907",
+        "SRC-X-STARATLAS-1872762898076057778"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-B5A04053FCBF7FE5",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-22679B5B2EB4F49C",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-5372BA157F750FB2",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870594706436190647",
+        "SRC-X-STARATLAS-1879989079842124019",
+        "SRC-X-STARATLAS-1880730268715384953",
+        "SRC-X-STARATLAS-1885990993863848278"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-0CC09D7D7DF9936D",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-290FA2239C1C41FA",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1883937534746783967"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-6B1DCCBFC9B9422B",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1885091648457072796",
+        "SRC-X-STARATLAS-1887189397537161652",
+        "SRC-X-STARATLAS-1887235389779537994"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-C0BFFE5E63E9C97E",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-5CEB73D549CF4F5E",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-DDDE4617851C6D2B",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1890480309348479341",
+        "SRC-X-STARATLAS-1896990845301350518",
+        "SRC-X-STARATLAS-1897351029609652348"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-CC40CA56BE11EF74",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-F52394AC74F3DAED",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-5C3FF14B253FFD23",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1891598560489079233"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-169B930BC5DA88BD",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1890480309348479341",
+        "SRC-X-STARATLAS-1896990845301350518",
+        "SRC-X-STARATLAS-1897351026166165542",
+        "SRC-X-STARATLAS-1897351029609652348"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-79383E8F3AE928E6",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1902433675138232598"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-B049D735C02507D2",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1904678439850041412"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-4857334329D3BC55",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1904678439850041412"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-AD02878A38D8E0F1",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-F055209A5B65F7F4",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1908229238375031255"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-CD04F348F6B7A4E7",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1922699571810992196"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-2918D05D311447F0",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1862586297488916518",
+        "SRC-X-STARATLAS-1930373804632748058",
+        "SRC-X-STARATLAS-1931787445689008532"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-4654A85830EC213B",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1930380671010385958",
+        "SRC-X-STARATLAS-1932187258515546518",
+        "SRC-X-STARATLAS-1958322079927079252"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-1AC36CD59A00CC24",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1862586297488916518",
+        "SRC-X-STARATLAS-1930373804632748058",
+        "SRC-X-STARATLAS-1931787445689008532"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-9ED99A8100BD8150",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1870230409423802507",
+        "SRC-X-STARATLAS-1906797754946568440",
+        "SRC-X-STARATLAS-1939788431741333684"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-C4F1FE7227D8C1EA",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1948853560034406489"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-F8AA7FB6BD7781D7",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1930380671010385958",
+        "SRC-X-STARATLAS-1932187258515546518",
+        "SRC-X-STARATLAS-1958322079927079252"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-911D505E1E273D14",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1930380671010385958",
+        "SRC-X-STARATLAS-1932187258515546518",
+        "SRC-X-STARATLAS-1958322079927079252"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-B42BC174E4F0A9A5",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1960798682594599012"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-91263497D12A891A",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1966580434256400876"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-AFD5963296B49799",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1973458897294991709"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-CF52342B578991DA",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1976716206054031435"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-10268CB640A87C41",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1866950174695633291",
+        "SRC-X-STARATLAS-1882915908252991502"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-6DC571942A250D14",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1930380671010385958",
+        "SRC-X-STARATLAS-1932187258515546518",
+        "SRC-X-STARATLAS-1958322079927079252"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-469F7FEDFBC1C369",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-1930380671010385958",
+        "SRC-X-STARATLAS-1932187258515546518",
+        "SRC-X-STARATLAS-1958322079927079252"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-59CC1A08C934455A",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-2057567566802137462"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-8F90AC0BCDD335D0",
+      "social_source_ids": [
+        "SRC-X-STARATLAS-2057567566802137462"
+      ],
+      "relationship": "DUPLICATES",
+      "basis": "EXACT_SHARED_URL",
+      "canonical_graph_status": "REVIEW_ONLY"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "campaign_id": "discord-announcements-semantic-enrichment",
+  "status": "PASS",
+  "counts": {
+    "semantic_records": 1071,
+    "promotion_candidates": 148,
+    "timeline_candidates": 136,
+    "duplicate_clusters": 30
+  },
+  "checks": {
+    "deterministic_regeneration": {
+      "status": "PASS",
+      "detail": "generator must reproduce every output byte-for-byte"
+    },
+    "record_and_decision_coverage": {
+      "status": "PASS",
+      "detail": "exactly 1,071 unique messages and two complete decision layers"
+    },
+    "date_coverage": {
+      "status": "PASS",
+      "detail": "earliest 2021-03-16 and latest 2026-07-12"
+    },
+    "promotion_decisions_supported": {
+      "status": "PASS",
+      "detail": "every inclusion/exclusion has exact source text and reasons"
+    },
+    "timeline_decisions_supported": {
+      "status": "PASS",
+      "detail": "every timeline decision has exact text plus event/date basis or exclusion"
+    },
+    "candidate_reconciliation": {
+      "status": "PASS",
+      "detail": "candidate indexes equal eligible decisions"
+    },
+    "provenance_warnings": {
+      "status": "PASS",
+      "detail": "collection and authorship warnings preserved on every record"
+    },
+    "no_orphan_messages": {
+      "status": "PASS",
+      "detail": "every semantic message has a source record"
+    },
+    "duplicate_clusters": {
+      "status": "PASS",
+      "detail": "clusters reference preserved evidence and a strongest member"
+    },
+    "raw_export_checksum": {
+      "status": "PASS",
+      "detail": "original Discord export byte-for-byte checksum"
+    },
+    "json_utf8_parse": {
+      "status": "PASS",
+      "detail": "parsed 1094 JSON/JSONL artifacts"
+    },
+    "manifest_reconciliation": {
+      "status": "PASS",
+      "detail": "all recorded bytes and SHA-256 values match"
+    },
+    "canonical_layers_unchanged": {
+      "status": "PASS",
+      "detail": "knowledge, graph, and publication are untouched"
+    },
+    "discord_not_duplicated": {
+      "status": "PASS",
+      "detail": "nested Discord ZIP is not ingested"
+    },
+    "git_diff_check": {
+      "status": "PASS",
+      "detail": "no whitespace errors"
+    }
+  },
+  "warnings": [
+    "Source export states Collection complete: no.",
+    "Author grouping is not independently verified.",
+    "Candidate confidence is extraction quality, not factual truth."
+  ],
+  "failures": []
+}

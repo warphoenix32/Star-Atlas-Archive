@@ -1,0 +1,62 @@
+{
+  "campaign_id": "discord-announcements-semantic-enrichment",
+  "record_count": 7,
+  "records": [
+    {
+      "discord_source_id": "SA-DISCORD-ANN-24BD0BFCDB6F73B4",
+      "pip_source_id": "SRC-PIP-01-BC8475E4",
+      "pip_number": 1,
+      "relationship": "REQUIRES_RECONCILIATION",
+      "basis": "EXPLICIT_PIP_IDENTIFIER",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-0FCD71C58F991CE0",
+      "pip_source_id": "SRC-PIP-01-BC8475E4",
+      "pip_number": 1,
+      "relationship": "ANNOUNCES_VOTE",
+      "basis": "EXPLICIT_PIP_IDENTIFIER",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-F9EDF3D624192133",
+      "pip_source_id": "SRC-PIP-01-BC8475E4",
+      "pip_number": 1,
+      "relationship": "ANNOUNCES_VOTE",
+      "basis": "EXPLICIT_PIP_IDENTIFIER",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-BD11E56693BB4607",
+      "pip_source_id": "SRC-PIP-01-BC8475E4",
+      "pip_number": 1,
+      "relationship": "ANNOUNCES_VOTE",
+      "basis": "EXPLICIT_PIP_IDENTIFIER",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-BD11E56693BB4607",
+      "pip_source_id": "SRC-PIP-02-1E2D7066",
+      "pip_number": 2,
+      "relationship": "ANNOUNCES_VOTE",
+      "basis": "EXPLICIT_PIP_IDENTIFIER",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-AA9B47413B9C587D",
+      "pip_source_id": "SRC-PIP-33-397FEE39",
+      "pip_number": 33,
+      "relationship": "ANNOUNCES_VOTE",
+      "basis": "EXPLICIT_PIP_IDENTIFIER",
+      "canonical_graph_status": "REVIEW_ONLY"
+    },
+    {
+      "discord_source_id": "SA-DISCORD-ANN-CFA14CCE71C5FD1C",
+      "pip_source_id": "SRC-PIP-33-397FEE39",
+      "pip_number": 33,
+      "relationship": "ANNOUNCES_VOTE",
+      "basis": "EXPLICIT_PIP_IDENTIFIER",
+      "canonical_graph_status": "REVIEW_ONLY"
+    }
+  ]
+}

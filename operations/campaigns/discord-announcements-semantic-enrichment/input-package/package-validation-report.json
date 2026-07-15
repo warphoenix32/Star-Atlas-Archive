@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "source_file": "discord-Compromised-Discord-Account-of-EX-Team-Member,-2026-07-15T06-52-33-671Z.md",
+  "source_sha256": "568ac1560e76f60eb908515caef3ca35e84931313eb2ce65c5316759c85da335",
+  "declared_message_count": 1071,
+  "parsed_message_count": 1071,
+  "unique_source_ids": 1071,
+  "earliest_message": "2021-03-16T14:34:21",
+  "latest_message": "2026-07-12T15:18:19",
+  "semantic_record_count": 1071,
+  "promotion_decision_count": 1071,
+  "promotion_candidate_count": 454,
+  "timeline_decision_count": 1071,
+  "timeline_candidate_count": 284,
+  "entity_link_count": 1233,
+  "security_alert_count": 31,
+  "incident_or_resolution_count": 70,
+  "all_json_serializable": true,
+  "limitations": [
+    "The supplied export header says 'Collection complete: no' because a historical acquisition runtime limit was reached.",
+    "The user has designated this export as the totality of Star Atlas Discord announcements beginning with the earliest recorded message.",
+    "Attachments are indexed by exported metadata and URL; binaries were not independently downloaded or validated.",
+    "Semantic annotations are deterministic and machine-assisted. Canonical promotion still requires human review.",
+    "Author-inferred grouping metadata is preserved and must not be treated as independently verified authorship."
+  ]
+}

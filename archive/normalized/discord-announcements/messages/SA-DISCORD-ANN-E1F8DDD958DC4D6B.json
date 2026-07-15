@@ -1,0 +1,12 @@
+{
+  "sequence": 430,
+  "source_id": "SA-DISCORD-ANN-E1F8DDD958DC4D6B",
+  "author": "SantiMod",
+  "timestamp_raw": "4/13/2022, 9:28:47 AM",
+  "timestamp_iso": "2022-04-13T09:28:47",
+  "metadata": [],
+  "content": "Technical community update: \n\nThis message addresses the situation with failing blockchain transactions for Toolkit purchases in the Galactic Marketplace at Play.staratlas.com that many community members are experiencing while playing SCORE.\n\nWorking with engineers at Solana, we have determined that the reason for transaction failures are difficulties in the wider blockchain network itself. \n\nMore specifically, hundreds of thousands of largely duplicate transactions per second that are being sent across the network for validation by bots, causing congestion. This causes some transactions over a certain limit of data size or requiring time-sensitive information to fail, and one such transaction is the Toolkit one. \n\nWe are working on solving the issue in two ways: \n\n We are in the process of implementing an informational banner in our Marketplace that will show users a real-time health and status of the Solana network and enable our community to receive instant feedback on the likelihood of success of their transactions.\n\n We are also in touch with the Solana network, which is working on important blockchain upgrades, the first one being rolled out in early May and aiming to bring a long-term solution to chain congestion.\n\nThank you for your continued patience and support in resolving the issue. We will keep you updated as the situation evolves.\n\nPower to the people!",
+  "urls": [],
+  "attachments": [],
+  "content_sha256": "4c644e12e5fa5c1946e43b228feb4a7aab7d76d00df278c9b437619c0f9d72a7"
+}

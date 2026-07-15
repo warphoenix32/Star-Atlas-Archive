@@ -1,0 +1,12 @@
+{
+  "sequence": 677,
+  "source_id": "SA-DISCORD-ANN-B0C107F976A3199E",
+  "author": "DominicVainMod",
+  "timestamp_raw": "3/13/2023, 8:42:01 PM",
+  "timestamp_iso": "2023-03-13T20:42:01",
+  "metadata": [],
+  "content": "@everyone\n\nAs you may know, earlier today select CSS Land & ships were listed on the Galactic Marketplace at extremely low prices.  This was an inadvertent error in the listing process that we have taken steps to correct.\n\nWe caught the error internally shortly after the incorrect listings went live.  We immediately disabled the further trading of affected, already-purchased assets.\n\nAlthough our investigation (conducted with the assistance of Kudelski Security) is still underway, it appears that a formatting error in a listing script caused prices above 1000 USDC to become truncated.  Our internal quality controls did not catch this error before deployment because it was tested on an asset priced at less than 1000 USDC.  This error is limited to the listing script for primary sales and does not affect other aspects of the Galactic Marketplace, which otherwise is functioning normally.\n\nTomorrow, we will re-enable all disabled markets and re-list assets at the correct prices.  Once we have completed our investigation, we will provide another update if any further steps are necessary.\n\nAll other aspects of the Galactic Marketplace, SCORE, the DAO, and other Star Atlas services remain fully operational and unaffected by this isolated error.\n\nMoving forward, we will continue working with our internal task force to ensure this does not happen again.  Thank you to our incredible team that caught the anomaly in almost real-time and sprinted to rectify it.  And as always, thank you to our ever supportive community.",
+  "urls": [],
+  "attachments": [],
+  "content_sha256": "18d0b49fa8c818c6bf3969df5a22a8cbea76e5935ba490ac35e56a050a4251f7"
+}
