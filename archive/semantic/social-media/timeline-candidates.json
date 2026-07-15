@@ -2,91 +2,28 @@
   "campaign_id": "social-governance-semantic-enrichment",
   "schema_version": "1.0.0",
   "generated_from": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
-  "candidate_count": 65,
+  "candidate_count": 26,
   "candidates": [
-    {
-      "source_id": "SRC-X-STARATLAS-1855693911726916049",
-      "post_id": "1855693911726916049",
-      "date": "2024-11-10",
-      "topics": [
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "MEDIUM"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1861892993533288835",
-      "post_id": "1861892993533288835",
-      "date": "2024-11-27",
-      "topics": [
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1863350851261136949",
-      "post_id": "1863350851261136949",
-      "date": "2024-12-01",
-      "topics": [
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "MEDIUM"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1866150822301864384",
-      "post_id": "1866150822301864384",
-      "date": "2024-12-09",
-      "topics": [
-        "GAMEPLAY",
-        "LORE",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "MEDIUM"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1866950174695633291",
-      "post_id": "1866950174695633291",
-      "date": "2024-12-11",
-      "topics": [
-        "ECONOMY",
-        "TECHNOLOGY",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
     {
       "source_id": "SRC-X-STARATLAS-1870594706436190647",
       "post_id": "1870594706436190647",
-      "date": "2024-12-21",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2024-12-21",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Knowledge is power in Galia.   Our economics team just released a Community Ecosystem Dashboard test, providing key insights into: 🔹 SAGE Labs active users 🔹 ATLAS emissions 🔹 Resource production 🔹 Warping  🔗: https://govern.staratlas.com/ecosystem-dashboard https://pbs.twimg.com/media/GfWv-GNWcAAst_w.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1870594706436190647",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "ECONOMY",
         "GAMEPLAY",
@@ -100,221 +37,28 @@
       ],
       "lifecycle_states": [
         "LIVE"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1871239345601925139",
-      "post_id": "1871239345601925139",
-      "date": "2024-12-23",
-      "topics": [
-        "COMMUNITY",
-        "MARKETING"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1872371806989934861",
-      "post_id": "1872371806989934861",
-      "date": "2024-12-26",
-      "topics": [
-        "GAMEPLAY",
-        "LORE"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1872553009139548584",
-      "post_id": "1872553009139548584",
-      "date": "2024-12-27",
-      "topics": [
-        "GAMEPLAY",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1872734199142334704",
-      "post_id": "1872734199142334704",
-      "date": "2024-12-27",
-      "topics": [
-        "GAMEPLAY"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1872762896033230882",
-      "post_id": "1872762896033230882",
-      "date": "2024-12-27",
-      "topics": [
-        "GAMEPLAY"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1872762898076057778",
-      "post_id": "1872762898076057778",
-      "date": "2024-12-27",
-      "topics": [
-        "ECONOMY",
-        "GAMEPLAY",
-        "COMMUNITY",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1872915394161422732",
-      "post_id": "1872915394161422732",
-      "date": "2024-12-28",
-      "topics": [
-        "GAMEPLAY",
-        "LORE"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1873096583920926966",
-      "post_id": "1873096583920926966",
-      "date": "2024-12-28",
-      "topics": [
-        "GAMEPLAY"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE",
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1873277781267857431",
-      "post_id": "1873277781267857431",
-      "date": "2024-12-29",
-      "topics": [
-        "ECONOMY",
-        "GAMEPLAY",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1873458970846970185",
-      "post_id": "1873458970846970185",
-      "date": "2024-12-29",
-      "topics": [
-        "GAMEPLAY",
-        "LORE"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1873640168709660868",
-      "post_id": "1873640168709660868",
-      "date": "2024-12-30",
-      "topics": [
-        "GAMEPLAY",
-        "LORE"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1873821357915754822",
-      "post_id": "1873821357915754822",
-      "date": "2024-12-30",
-      "topics": [
-        "GAMEPLAY"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1874002561021456581",
-      "post_id": "1874002561021456581",
-      "date": "2024-12-31",
-      "topics": [
-        "GAMEPLAY",
-        "LORE"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1882915908252991502",
       "post_id": "1882915908252991502",
-      "date": "2025-01-24",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "MATERIAL_UPDATE",
+      "event_date": "2025-01-24",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "SAGE Labs earners, a new update is live!   We’ve made some changes to Faction Infrastructure Contracts. Check out the patch notes below! 👇  🔹 Each faction now gets 1 new recipe. The new recipe replaces Frameworks with Crystal Lattice and reduces the recipe value from SDUs.  🔹 FICs will now only refill when all sectors have no remaining buy orders. If one sector runs out but others still have orders, the empty sector will not be refilled until the rest are also depleted.  🔹 Each faction’s two FIC recipes will now spawn in 2 locations each (4 total per faction). These locations will be randomly re-assigned every Thursday at 17:00:00 UTC.  🔗: https://based.staratlas.com/",
+      "timeline_confidence": "HIGH",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1882915908252991502",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "TECHNOLOGY",
         "LORE",
@@ -326,13 +70,28 @@
       ],
       "lifecycle_states": [
         "UPDATED"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1885091648457072796",
       "post_id": "1885091648457072796",
-      "date": "2025-01-30",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "MATERIAL_UPDATE",
+      "event_date": "2025-01-30",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Polishing and bug fixes and updates, oh my!  A new Star Atlas patch lands on February 5. 💥  🔗 Read the patch notes: https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d https://video.twimg.com/ext_tw_video/1885091000940466176/pu/vid/avc1/480x270/hiNlDDwpcKu8gZ3F.mp4?tag=14",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1885091648457072796",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "OPERATIONS",
         "PRODUCT"
@@ -342,50 +101,28 @@
       ],
       "lifecycle_states": [
         "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1886882334806564910",
-      "post_id": "1886882334806564910",
-      "date": "2025-02-04",
-      "topics": [
-        "GAMEPLAY",
-        "COMMUNITY",
-        "OPERATIONS",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1886912622509097140",
-      "post_id": "1886912622509097140",
-      "date": "2025-02-04",
-      "topics": [
-        "GAMEPLAY",
-        "LORE",
-        "COMMUNITY",
-        "OPERATIONS",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1887189397537161652",
       "post_id": "1887189397537161652",
-      "date": "2025-02-05",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-02-05",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "The Cosmic Currents have brought change to Galia. February's patch is now LIVE!  🔗 Read the full patch notes: https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d https://video.twimg.com/ext_tw_video/1887180396309118977/pu/vid/avc1/484x270/zbtLt9OGuXHSrPBx.mp4?tag=14",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1887189397537161652",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "LORE",
         "OPERATIONS"
@@ -397,13 +134,28 @@
       "lifecycle_states": [
         "LIVE",
         "UPDATED"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1887235389779537994",
       "post_id": "1887235389779537994",
-      "date": "2025-02-05",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "MATERIAL_UPDATE",
+      "event_date": "2025-02-05",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "A new update landed today! Stay in the loop with a patch rundown. 📄  🔗 Full patch notes: https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d https://video.twimg.com/ext_tw_video/1887221202302713856/pu/vid/avc1/480x270/j4nmEcgPrQVPtSaI.mp4?tag=14",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1887235389779537994",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "OPERATIONS"
       ],
@@ -412,122 +164,28 @@
       ],
       "lifecycle_states": [
         "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1889431970385391934",
-      "post_id": "1889431970385391934",
-      "date": "2025-02-11",
-      "topics": [
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "MEDIUM"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1890150364193935766",
-      "post_id": "1890150364193935766",
-      "date": "2025-02-13",
-      "topics": [
-        "GOVERNANCE"
-      ],
-      "statement_types": [
-        "ANNOUNCEMENT"
-      ],
-      "lifecycle_states": [],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1899872738266976707",
-      "post_id": "1899872738266976707",
-      "date": "2025-03-12",
-      "topics": [
-        "TECHNOLOGY",
-        "CORPORATE",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "ANNOUNCEMENT"
-      ],
-      "lifecycle_states": [],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1899915637125964053",
-      "post_id": "1899915637125964053",
-      "date": "2025-03-12",
-      "topics": [
-        "OPERATIONS"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "MEDIUM"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1900648446421594384",
-      "post_id": "1900648446421594384",
-      "date": "2025-03-14",
-      "topics": [
-        "GAMEPLAY",
-        "OPERATIONS"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1901370008548368537",
-      "post_id": "1901370008548368537",
-      "date": "2025-03-16",
-      "topics": [
-        "GAMEPLAY",
-        "OPERATIONS",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1902083908453466221",
-      "post_id": "1902083908453466221",
-      "date": "2025-03-18",
-      "topics": [
-        "COMMUNITY",
-        "MARKETING",
-        "OPERATIONS",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1902433675138232598",
       "post_id": "1902433675138232598",
-      "date": "2025-03-19",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-03-19",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Today's Star Atlas update is now LIVE. 🚨  🔗 Read the full patch notes: https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7 https://video.twimg.com/ext_tw_video/1902412075307327488/pu/vid/avc1/480x270/4F3Mtnrp6gZid2zL.mp4?tag=14",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1902433675138232598",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "GAMEPLAY",
         "OPERATIONS",
@@ -540,13 +198,57 @@
       "lifecycle_states": [
         "LIVE",
         "UPDATED"
+      ]
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1904678439850041412",
+      "post_id": "1904678439850041412",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "GOVERNANCE_VOTE",
+      "event_date": "2025-03-25",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "POLIS holders, your voice is needed to decide the next Star Atlas DAO Council! 🏛️  Vote now to decide which 5 of the 7 candidates will lead. Voting is open until April 6. Check the next tweet to learn more about each candidate!  🔗 Vote here: https://govern.staratlas.com/proposals/7b48a62d-13c3-4a1e-8565-6ea7bfb4b4dc https://pbs.twimg.com/media/Gm7Fy3obYAAji_o.png",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
       ],
-      "confidence": "MEDIUM"
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1904678439850041412",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "topics": [
+        "GOVERNANCE",
+        "PRODUCT"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "lifecycle_states": []
     },
     {
       "source_id": "SRC-X-STARATLAS-1906797754946568440",
       "post_id": "1906797754946568440",
-      "date": "2025-03-31",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-03-31",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "The latest Star Atlas Quarterly Economic Report is LIVE! 📊  This quarter, our newly released Fleet Rental program generated over 1,000,000 ATLAS per days for lenders! 🤯  🔗 | Download and read the full report: https://staratlas.com/newsroom/economic-reports https://pbs.twimg.com/media/GnZN1D0aoAAZMTx.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1906797754946568440",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "ECONOMY",
         "GAMEPLAY",
@@ -557,60 +259,28 @@
       ],
       "lifecycle_states": [
         "LIVE"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1907108697220042981",
-      "post_id": "1907108697220042981",
-      "date": "2025-04-01",
-      "topics": [
-        "TECHNOLOGY",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "ANNOUNCEMENT"
-      ],
-      "lifecycle_states": [],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1908229238375031255",
-      "post_id": "1908229238375031255",
-      "date": "2025-04-04",
-      "topics": [
-        "COMMUNITY",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1908640538179625443",
-      "post_id": "1908640538179625443",
-      "date": "2025-04-05",
-      "topics": [
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "ROADMAP",
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "PLANNED",
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1917309880115027975",
       "post_id": "1917309880115027975",
-      "date": "2025-04-29",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-04-29",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "The official Star Atlas Telegram community is now live! 🗣️  Join fellow pioneers to connect, share your thoughts, ask questions, and stay up to date on everything Star Atlas.  🔗: https://t.me/staratlasgame",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1917309880115027975",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "COMMUNITY",
         "PRODUCT"
@@ -621,13 +291,28 @@
       ],
       "lifecycle_states": [
         "LIVE"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1920944282438942971",
       "post_id": "1920944282438942971",
-      "date": "2025-05-09",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "MATERIAL_UPDATE",
+      "event_date": "2025-05-09",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Get ready for a new patch coming on May 14! 🧑‍🚀   ☑️ Completed in-game Pearce X5 model ☑️ New Shotgun ☑️ CO-OP Dogfighting ☑️ Dedicated servers for shooter game modes  🔗 Get early access to Star Atlas by joining our Discord: http://Discord.gg/StarAtlas https://pbs.twimg.com/media/GqiO7wZb0AACxGt.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1920944282438942971",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "COMMUNITY",
         "OPERATIONS",
@@ -638,58 +323,28 @@
       ],
       "lifecycle_states": [
         "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1921310820547412145",
-      "post_id": "1921310820547412145",
-      "date": "2025-05-10",
-      "topics": [
-        "OPERATIONS"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1922379348482330856",
-      "post_id": "1922379348482330856",
-      "date": "2025-05-13",
-      "topics": [
-        "OPERATIONS"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "MEDIUM"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1922699549908353445",
-      "post_id": "1922699549908353445",
-      "date": "2025-05-14",
-      "topics": [
-        "OPERATIONS"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "MEDIUM"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1922699571810992196",
       "post_id": "1922699571810992196",
-      "date": "2025-05-14",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "MATERIAL_UPDATE",
+      "event_date": "2025-05-14",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "🔗 Read the full detailed patch notes: https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d  🔗 Need access? Join our Discord: http://Discord.gg/StarAtlas",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1922699571810992196",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "GAMEPLAY",
         "COMMUNITY",
@@ -700,28 +355,28 @@
       ],
       "lifecycle_states": [
         "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1922756216939245853",
-      "post_id": "1922756216939245853",
-      "date": "2025-05-14",
-      "topics": [
-        "OPERATIONS"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
       "source_id": "SRC-X-STARATLAS-1930380671010385958",
       "post_id": "1930380671010385958",
-      "date": "2025-06-04",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-06-04",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Introducing Holosim, the Free to Play version of our browser-based game where your mission is to manage fleets and dominate Galia.  The test phase is live and is perfect for new Galians. Play now!  🔗: https://holosim.staratlas.com/ https://pbs.twimg.com/media/GsoWX9_asAI0NvM.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1930380671010385958",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "GAMEPLAY",
         "LORE",
@@ -732,252 +387,358 @@
       ],
       "lifecycle_states": [
         "LIVE"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
-      "source_id": "SRC-X-STARATLAS-1931787442555879867",
-      "post_id": "1931787442555879867",
-      "date": "2025-06-08",
+      "source_id": "SRC-X-STARATLAS-1930380673174647013",
+      "post_id": "1930380673174647013",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-06-04",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Holosim lets us test new features before they go live on mainnet. New features in Holosim include:  🔹 Combat — Engage in battles for the first time. Ships are permanently destroyed for now  🔹 SAGE — Your personal AI assistant trained to help you with all things Star Atlas  🔹 Route Manager — Automation tools to streamline your operations  🔹 Tutorial System — Learn the ropes faster than ever  🔹 Questing System — Take on new challenges and progress through missions.",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1930380673174647013",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "topics": [
+        "GAMEPLAY",
+        "OPERATIONS",
+        "PRODUCT"
+      ],
+      "statement_types": [
+        "STATUS_UPDATE"
+      ],
+      "lifecycle_states": []
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1939788431741333684",
+      "post_id": "1939788431741333684",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-06-30",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "A new Star Atlas Quarterly Economic Report is LIVE! 📊  The XS ship class saw 12% appreciation this quarter as one of the most dominant ship classes used in Fleet Rental compositions! 🤔  🔗 Download and read the full report: https://staratlas.com/newsroom/economic-reports https://pbs.twimg.com/media/GuuDDmObYAAA2mU.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1939788431741333684",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "ECONOMY",
         "GAMEPLAY",
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1932187258515546518",
-      "post_id": "1932187258515546518",
-      "date": "2025-06-09",
-      "topics": [
-        "GAMEPLAY",
         "PRODUCT"
       ],
       "statement_types": [
-        "ROADMAP"
+        "DISCUSSION"
       ],
-      "lifecycle_states": [
-        "PLANNED"
-      ],
-      "confidence": "HIGH"
+      "lifecycle_states": []
     },
     {
-      "source_id": "SRC-X-STARATLAS-1935088390342647873",
-      "post_id": "1935088390342647873",
-      "date": "2025-06-17",
+      "source_id": "SRC-X-STARATLAS-1946274388359426385",
+      "post_id": "1946274388359426385",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "FUNDING_ACTION",
+      "event_date": "2025-07-18",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "The Star Atlas DAO now has $1,666,316 in its treasury, all under the control of $POLIS holders. https://pbs.twimg.com/media/GwKN9b6W8AANYiq.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1946274388359426385",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
-        "OPERATIONS"
+        "GOVERNANCE",
+        "ECONOMY",
+        "PRODUCT"
       ],
       "statement_types": [
         "DISCUSSION"
       ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "MEDIUM"
+      "lifecycle_states": []
     },
     {
-      "source_id": "SRC-X-STARATLAS-1936861749942292748",
-      "post_id": "1936861749942292748",
-      "date": "2025-06-22",
+      "source_id": "SRC-X-STARATLAS-1948853560034406489",
+      "post_id": "1948853560034406489",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "GOVERNANCE_VOTE",
+      "event_date": "2025-07-25",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Star Atlas Community, it's time to vote for who YOU think should win a Joni Awards Trophy! 🏆  📅 Vote until July 31 📅 Find out who wins on August 1 at 11am PT // 2pm ET in the Star Atlas Discord.  🗳️ Vote now: https://forms.gle/KKpeK22u7oJQhEJ49 https://pbs.twimg.com/media/Gwu37hWbgAEqMRb.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1948853560034406489",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
-        "GAMEPLAY"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1949915373731737922",
-      "post_id": "1949915373731737922",
-      "date": "2025-07-28",
-      "topics": [
-        "GAMEPLAY",
-        "MARKETING"
-      ],
-      "statement_types": [
-        "STATUS_UPDATE"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1950254823133368728",
-      "post_id": "1950254823133368728",
-      "date": "2025-07-29",
-      "topics": [
+        "GOVERNANCE",
         "COMMUNITY",
-        "GUILD",
         "PRODUCT"
       ],
       "statement_types": [
         "DISCUSSION"
       ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "HIGH"
+      "lifecycle_states": []
     },
     {
-      "source_id": "SRC-X-STARATLAS-1953151225261900241",
-      "post_id": "1953151225261900241",
-      "date": "2025-08-06",
+      "source_id": "SRC-X-STARATLAS-1949877748790677648",
+      "post_id": "1949877748790677648",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "EVENT_OCCURRENCE",
+      "event_date": "2025-07-28",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "The Star Atlas Summer kickoff event starts in one hour!  Join us for a look at what’s coming over the next 4 weeks, earn tickets for your shot at the $15,000 Community Carnival, and unlock the first code to claim your exclusive Community Week badge!  🔗: http://Discord.gg/StarAtlas https://pbs.twimg.com/media/Gw9bZ6ragAAlV44.png",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1949877748790677648",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
+        "ECONOMY",
+        "COMMUNITY",
         "EVENT",
         "PRODUCT"
       ],
       "statement_types": [
-        "ANNOUNCEMENT",
         "DISCUSSION"
       ],
-      "lifecycle_states": [],
-      "confidence": "HIGH"
+      "lifecycle_states": []
     },
     {
-      "source_id": "SRC-X-STARATLAS-1960798682594599012",
-      "post_id": "1960798682594599012",
-      "date": "2025-08-27",
+      "source_id": "SRC-X-STARATLAS-1958322079927079252",
+      "post_id": "1958322079927079252",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-08-20",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Holosim Season 1 | Chapter 1 is live NOW with $35,000 in seasonal prizes, powered by @solflare.  Load into our new FREE browser space game and lead your faction to victory in Galia!  🔗 Play: https://holosim.staratlas.com/ https://pbs.twimg.com/media/Gy1bRFUa8AAqi0w.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1958322079927079252",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
-        "TECHNOLOGY",
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "ANNOUNCEMENT"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-1964042710446461333",
-      "post_id": "1964042710446461333",
-      "date": "2025-09-05",
-      "topics": [
+        "GAMEPLAY",
+        "LORE",
         "PRODUCT"
       ],
       "statement_types": [
-        "RETROSPECTIVE",
-        "ROADMAP"
+        "DISCUSSION"
       ],
-      "lifecycle_states": [
-        "PLANNED"
-      ],
-      "confidence": "HIGH"
+      "lifecycle_states": []
     },
     {
-      "source_id": "SRC-X-STARATLAS-1964042722370867503",
-      "post_id": "1964042722370867503",
-      "date": "2025-09-05",
+      "source_id": "SRC-X-STARATLAS-1961157103542018407",
+      "post_id": "1961157103542018407",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-08-28",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "EARN for the first time while playing Star Atlas UE5!  We've introduced the exclusive resource, Ink, tied to earning XP in official shooter and racing matches.  To celebrate, we're starting double XP weekend in 4 hours for DOUBLE INK EARNINGS!  🔗 Access: http://StarAtlas.com https://pbs.twimg.com/media/GzdZI01a4AAm8E3.jpg",
+      "timeline_confidence": "HIGH",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1961157103542018407",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
-        "COMMUNITY"
+        "ECONOMY",
+        "GAMEPLAY",
+        "TECHNOLOGY",
+        "PRODUCT"
       ],
       "statement_types": [
-        "RELEASE",
+        "DISCUSSION"
+      ],
+      "lifecycle_states": []
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1973458897294991709",
+      "post_id": "1973458897294991709",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-10-01",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "The latest Star Atlas Quarterly Economic Report is LIVE! 📊  Daily ATLAS emissions dropped by an average of 10.5%, with simultaneous record high volatility observed throughout the quarter. ‼️  🔗 Download and read the full report: https://experience.staratlas.com/newsroom/economic-reports https://pbs.twimg.com/media/G2MiVB1aIAIh011.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1973458897294991709",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "topics": [
+        "ECONOMY",
+        "PRODUCT"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "lifecycle_states": []
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2002095320138666249",
+      "post_id": "2002095320138666249",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2025-12-19",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "The latest Star Atlas Quarterly Economic Report is LIVE! 📊  Q4 2025 was a stress test for web3 gaming as token prices fell 70%+ marketwide. Star Atlas stayed resilient with 850+ daily SAGE users, 3,000+ MAU, ~$14.5M projected 2025 GDP, and ~$36.5M in ecosystem assets. OTC trading hit ATHs, and Open Market Operations in 2026 are set to unlock new revenue and strengthen stability.  🔗 Download and read the full report: https://govern.staratlas.com/economy/economic-reports",
+      "timeline_confidence": "HIGH",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2002095320138666249",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "topics": [
+        "ECONOMY",
+        "OPERATIONS",
+        "PRODUCT"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "lifecycle_states": []
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2014759139621400619",
+      "post_id": "2014759139621400619",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2026-01-23",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "Double XP weekend is live NOW!  Progress through prestige faster. Earn fresh skins. Double your @ZinkSVM airdrop zXP. And earn entries into the Iris' Blessing prize draw. https://pbs.twimg.com/media/G_XcvRAWAAALqzX.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2014759139621400619",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "topics": [
+        "ECONOMY"
+      ],
+      "statement_types": [
         "STATUS_UPDATE"
       ],
-      "lifecycle_states": [
-        "LIVE"
-      ],
-      "confidence": "HIGH"
+      "lifecycle_states": []
     },
     {
-      "source_id": "SRC-X-STARATLAS-2001348929829679143",
-      "post_id": "2001348929829679143",
-      "date": "2025-12-17",
+      "source_id": "SRC-X-STARATLAS-2024197285215948920",
+      "post_id": "2024197285215948920",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "DELAY_OR_STATUS_CHANGE",
+      "event_date": "2026-02-18",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "HOLOSIM BROADCAST: 📢  Status - Signal Lost!  Galians, we're experiencing technical difficulties within the Holosim. Launch plans are delayed. We will miss the launch event tomorrow (2/19).   Stay tuned. We will update you on status shortly. We're expecting a quick resolution. https://video.twimg.com/amplify_video/2024182422817165313/vid/avc1/320x568/n2YSfDR1ukYBXIKR.mp4?tag=21",
+      "timeline_confidence": "HIGH",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2024197285215948920",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
-        "PARTNERSHIP",
+        "TECHNOLOGY",
+        "EVENT",
         "PRODUCT"
       ],
       "statement_types": [
-        "ROADMAP",
-        "ANNOUNCEMENT"
+        "STATUS_UPDATE",
+        "TECHNICAL_EXPLANATION"
       ],
-      "lifecycle_states": [
-        "PLANNED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-2021363175242027258",
-      "post_id": "2021363175242027258",
-      "date": "2026-02-10",
-      "topics": [
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "ROADMAP"
-      ],
-      "lifecycle_states": [
-        "PLANNED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-2022083296612729267",
-      "post_id": "2022083296612729267",
-      "date": "2026-02-12",
-      "topics": [
-        "GAMEPLAY",
-        "LORE",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "TECHNICAL_EXPLANATION",
-        "ANNOUNCEMENT"
-      ],
-      "lifecycle_states": [],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-2026084780576805099",
-      "post_id": "2026084780576805099",
-      "date": "2026-02-23",
-      "topics": [
-        "COMMUNITY"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "MEDIUM"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-2032199899052487159",
-      "post_id": "2032199899052487159",
-      "date": "2026-03-12",
-      "topics": [
-        "GAMEPLAY",
-        "LORE",
-        "PRODUCT"
-      ],
-      "statement_types": [
-        "DISCUSSION"
-      ],
-      "lifecycle_states": [
-        "IN_DEVELOPMENT"
-      ],
-      "confidence": "HIGH"
+      "lifecycle_states": []
     },
     {
       "source_id": "SRC-X-STARATLAS-2040190030313062502",
       "post_id": "2040190030313062502",
-      "date": "2026-04-03",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PUBLIC_TEST",
+      "event_date": "2026-04-03",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "We’re making huge progress on our next SAGE (RTS MMO in browser) update. “C4” adds Combat, Council Rank (skill tree), Crafting and Cultivation Claims, and Crafting Habs. Playtest coming soon. https://video.twimg.com/amplify_video/2040188453573574656/vid/avc1/468x270/K9iJ6d6hUPncbJAn.mp4?tag=21",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2040190030313062502",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
         "GOVERNANCE",
         "GAMEPLAY",
@@ -990,73 +751,67 @@
       "lifecycle_states": [
         "TESTING",
         "PLANNED"
-      ],
-      "confidence": "HIGH"
+      ]
     },
     {
-      "source_id": "SRC-X-STARATLAS-2042377135848112129",
-      "post_id": "2042377135848112129",
-      "date": "2026-04-09",
+      "source_id": "SRC-X-STARATLAS-2047415788471238923",
+      "post_id": "2047415788471238923",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "CORRECTION",
+      "event_date": "2026-04-23",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "SCAM ALERT - \"Annual Access Pass\" We want to bring awareness to a new scam email some users have been receiving.  This email congratulates the user for staying loyal to Star Atlas.  This email offers the \"Annual Access Pass.\"  This email is not from the Star Atlas team or anyone affiliated with the Star Atlas team.  If you receive an email similar or the same as the one shown in the images here, BLOCK AND DELETE.  If you aren't sure about an email from us, always check the sender address, or join us on http://discord.gg/staratlas to speak to a mod or admin.",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
+      ],
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2047415788471238923",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
-        "LORE",
+        "CORPORATE",
         "COMMUNITY",
-        "OPERATIONS"
-      ],
-      "statement_types": [
-        "SPECULATION"
-      ],
-      "lifecycle_states": [
-        "UPDATED"
-      ],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-2056907297981661436",
-      "post_id": "2056907297981661436",
-      "date": "2026-05-19",
-      "topics": [
-        "LORE",
         "PRODUCT"
       ],
       "statement_types": [
         "DISCUSSION"
       ],
-      "lifecycle_states": [
-        "TESTING"
-      ],
-      "confidence": "HIGH"
+      "lifecycle_states": []
     },
     {
-      "source_id": "SRC-X-STARATLAS-2060120668705071433",
-      "post_id": "2060120668705071433",
-      "date": "2026-05-28",
-      "topics": [
-        "TECHNOLOGY",
-        "PRODUCT"
+      "source_id": "SRC-X-STARATLAS-2072427112053846335",
+      "post_id": "2072427112053846335",
+      "eligible": true,
+      "decision": "TIMELINE_CANDIDATE",
+      "event_type": "PRODUCT_RELEASE",
+      "event_date": "2026-07-01",
+      "date_precision": "DAY",
+      "date_basis": "OFFICIAL_POST_PUBLICATION_DATE",
+      "supporting_text": "The Q2 2026 Quarterly State of the Economy report is live! Highlights include:  #1 Macro headwinds continue #2 Per-capita emissions ticked up #3 Trade &amp; autarky watch #4 C4 is the turning point  https://storage.googleapis.com/sa-cdn-prod/dao/economy/2026/q2.pdf https://pbs.twimg.com/media/HMK9cHzbQAA3UVH.jpg",
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "CONCRETE_EVENT_STATE_LANGUAGE",
+        "IDENTIFIABLE_ENTITY_OR_SYSTEM",
+        "DATE_FROM_OFFICIAL_POST"
       ],
-      "statement_types": [
-        "ANNOUNCEMENT"
-      ],
-      "lifecycle_states": [],
-      "confidence": "HIGH"
-    },
-    {
-      "source_id": "SRC-X-STARATLAS-2061867633499312182",
-      "post_id": "2061867633499312182",
-      "date": "2026-06-02",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2072427112053846335",
+      "manual_review_required": true,
+      "exclusion_reason": null,
       "topics": [
+        "GOVERNANCE",
         "ECONOMY",
-        "LORE",
-        "COMMUNITY",
         "PRODUCT"
       ],
       "statement_types": [
-        "RELEASE"
+        "DISCUSSION"
       ],
-      "lifecycle_states": [
-        "LIVE"
-      ],
-      "confidence": "HIGH"
+      "lifecycle_states": []
     }
   ]
 }

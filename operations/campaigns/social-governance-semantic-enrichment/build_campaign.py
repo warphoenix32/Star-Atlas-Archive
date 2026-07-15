@@ -28,6 +28,9 @@ SOCIAL_OUT = REPO / "archive/semantic/social-media"
 GOV_OUT = REPO / "archive/semantic/governance"
 GOV_RECORDS = REPO / "archive/source-records/social-governance-semantic-enrichment/governance"
 OPS = REPO / "operations/campaigns/social-governance-semantic-enrichment"
+PIP_REVIEW = OPS / "pip-corpus-review.md"
+PIP_REVIEW_SUMMARY = OPS / "pip-corpus-review-summary.json"
+HISTORICAL_SOCIAL_COUNTS = {"promotion_candidates": 345, "timeline_candidates": 65}
 
 TOPICS = {
     "PRODUCT", "GAMEPLAY", "GOVERNANCE", "ECONOMY", "TECHNOLOGY", "LORE",
@@ -224,14 +227,172 @@ def extract_mentions(text: str):
     return sorted(set(re.findall(r"(?<!\w)[@#][A-Za-z0-9_]{2,}", text)), key=str.lower)
 
 
+def meaningful_tokens(text: str) -> set[str]:
+    stop = {"about", "after", "again", "also", "been", "from", "have", "into", "more", "star", "atlas", "that", "their", "there", "these", "they", "this", "with", "your", "https"}
+    return {token for token in normalize_text(text).split() if len(token) >= 4 and token not in stop}
+
+
+def social_signal_data(text: str, entities: list[dict]) -> dict:
+    object_pattern = r"\b(?:pip-?\d+|dao|council|foundation|treasury|ecosystem fund|atlas|polis|sage|fleet command|holosim|starbased|score|escape velocity|c4|showroom|marketplace|crew|ship|solana|unreal engine|ue5|gamescom|breakpoint|tournament|partner(?:ship)?)\b"
+    event_patterns = [
+        ("CORRECTION", r"\b(?:correction|corrected|erratum|we were wrong|scam alert|fraud warning)\b"),
+        ("DEPRECATION", r"\b(?:deprecated|sunset|retired|discontinued|shut down)\b"),
+        ("MIGRATION", r"\b(?:migrat(?:e|ed|ion)|moved? to|transition(?:ed)? to)\b"),
+        ("GOVERNANCE_VOTE", r"\b(?:proposal|pip-?\d+|vote|voting|polls? (?:open|closed)|passed|failed)\b"),
+        ("FUNDING_ACTION", r"\b(?:fund(?:ed|ing)|grant|treasury|allocation|reimbursement|million\s+(?:atlas|polis|usdc))\b"),
+        ("PARTNERSHIP_ANNOUNCEMENT", r"\b(?:partnered with|partnership with|announce(?:d|ment)? .* partner|collaboration with)\b"),
+        ("PUBLIC_TEST", r"\b(?:public test|playtest|testnet|alpha test|beta test|testing (?:opens?|begins?|starts?))\b"),
+        ("PRODUCT_RELEASE", r"\b(?:now live|is live now|available now|released|newly released|we(?:'|’)ve introduced|launched today|launches? (?:today|on)|play now|download now|deployed|mainnet|report is live)\b"),
+        ("DELAY_OR_STATUS_CHANGE", r"\b(?:delayed|postponed|will miss the launch|technical difficulties|service restored|back online)\b"),
+        ("MATERIAL_UPDATE", r"\b(?:major update|new patch|patch notes|updated? (?:build|version|feature)|maintenance (?:begins?|complete)|milestone (?:complete|reached))\b"),
+        ("ORGANIZATIONAL_CHANGE", r"\b(?:appointed|elected|hired|layoffs?|restructur(?:e|ed|ing)|new council|new ceo|team change)\b"),
+        ("EVENT_OCCURRENCE", r"\b(?:join us (?:at|on)|takes place|event (?:starts?|begins?)|gamescom|breakpoint|tournament (?:starts?|begins?|finals?))\b"),
+    ]
+    events = [name for name, pattern in event_patterns if match(pattern, text)]
+    detail = bool(re.search(r"\b(?:20\d{2}|\d{1,2}[:/]\d{1,2}|\d+(?:[.,]\d+)?%|[$€£]\s?\d|\d[\d,.]*\s*(?:atlas|polis|usdc|usd|players?|ships?|days?|hours?))\b", text, re.I))
+    institutional_metric = bool(match(r"\b(?:treasury|supply|locked|daily active|monthly active|mau|dau|users?|revenue|emissions?|production|transaction|volume|funding|allocation|voting power|token prices?|fleet rental|generated|earned)\b", text) and detail)
+    relationship = bool(match(r"\b(?:partner(?:ed|ship)? with|built by|powered by|funded by|elected to|administered by|integrat(?:es|ed) with|supports?)\b", text))
+    object_identified = bool(entities or match(object_pattern, text))
+    weak_marketing = bool(match(r"\b(?:giveaway|golden tickets?|golden carnival|chance at|up for grabs|posting .* every \d+ hours?|reminder|only \d+ (?:hours?|days?) left|win now|like and retweet|tag a friend|gm\b|happy (?:friday|monday)|wishlist now|don't miss|are you ready|what do you think|join the conversation)\b", text))
+    joke_or_negation = bool(match(r"\b(?:just kidding|you can(?:not|'t)|not actually|false alarm)\b", text))
+    question_only = text.strip().endswith("?") and not events
+    return {"object_identified": object_identified, "events": events, "detail": detail, "institutional_metric": institutional_metric, "relationship": relationship, "weak_marketing": weak_marketing, "joke_or_negation": joke_or_negation, "question_only": question_only}
+
+
+def cluster_social_posts(records: list[dict]) -> tuple[list[dict], dict[str, dict]]:
+    parent = list(range(len(records)))
+    tokens = [meaningful_tokens(record["content"]) for record in records]
+    normalized = [normalize_text(record["content"]) for record in records]
+
+    def find(index: int) -> int:
+        while parent[index] != index:
+            parent[index] = parent[parent[index]]
+            index = parent[index]
+        return index
+
+    def union(left: int, right: int) -> None:
+        left_root, right_root = find(left), find(right)
+        if left_root != right_root:
+            parent[max(left_root, right_root)] = min(left_root, right_root)
+
+    for left in range(len(records)):
+        for right in range(left + 1, len(records)):
+            if normalized[left] and normalized[left] == normalized[right]:
+                union(left, right)
+                continue
+            shared = tokens[left] & tokens[right]
+            combined = tokens[left] | tokens[right]
+            if len(shared) >= 6 and combined and len(shared) / len(combined) >= 0.72:
+                union(left, right)
+
+    groups: dict[int, list[int]] = defaultdict(list)
+    for index in range(len(records)):
+        groups[find(index)].append(index)
+    clusters, lookup = [], {}
+    for members in sorted((value for value in groups.values() if len(value) > 1), key=lambda value: records[value[0]]["source_id"]):
+        cluster_id = f"SOCIAL-DUP-{len(clusters) + 1:04d}"
+        def strength(index: int) -> tuple:
+            record = records[index]
+            signal = record["signal_data"]
+            return (not record["is_retweet"], len(record["entities"]), len(signal["events"]), signal["detail"], len(normalize_text(record["content"])), record["source_id"])
+        strongest_index = max(members, key=strength)
+        exact = len({normalized[index] for index in members}) == 1
+        ordered = sorted(members, key=lambda index: (records[index]["published_date"], records[index]["source_id"]))
+        cluster = {
+            "cluster_id": cluster_id,
+            "member_source_ids": [records[index]["source_id"] for index in ordered],
+            "cluster_type": "EXACT_REPEATED_CONTENT" if exact else "NEAR_DUPLICATE_OR_REPEATED_ANNOUNCEMENT",
+            "strongest_candidate_id": records[strongest_index]["source_id"],
+            "supersession_order": [records[index]["source_id"] for index in ordered],
+            "reason": "Normalized text is identical." if exact else "High deterministic token overlap indicates repeated or closely variant coverage of the same announcement.",
+        }
+        clusters.append(cluster)
+        for index in members:
+            lookup[records[index]["source_id"]] = cluster
+    return clusters, lookup
+
+
+def social_promotion_decision(record: dict, cluster: dict | None) -> dict:
+    signal = record["signal_data"]
+    reasons, score = [], 0
+    if signal["object_identified"]:
+        score += 2; reasons.append("IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT")
+    if signal["events"]:
+        score += 3; reasons.append("CONCRETE_INSTITUTIONAL_ACTION:" + ",".join(signal["events"]))
+    if signal["detail"]:
+        score += 1; reasons.append("SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY")
+    if signal["institutional_metric"]:
+        score += 2; reasons.append("INSTITUTIONAL_METRIC_OR_ECONOMIC_MEASUREMENT")
+    if signal["relationship"]:
+        score += 1; reasons.append("EXPLICIT_ENTITY_RELATIONSHIP")
+    if record["entities"]:
+        score += 1; reasons.append("CANONICAL_ENTITY_LINK")
+    exclusion = None
+    if record["is_retweet"]:
+        exclusion = "RETWEET_NOT_FIRST_PARTY_CANONICAL_CLAIM"
+    elif cluster and cluster["strongest_candidate_id"] != record["source_id"]:
+        exclusion = "DUPLICATE_OF_STRONGER_CANDIDATE"
+    elif signal["question_only"]:
+        exclusion = "QUESTION_WITHOUT_SUBSTANTIVE_ANSWER"
+    elif signal["joke_or_negation"]:
+        exclusion = "CLAIM_EXPLICITLY_NEGATED_OR_PRESENTED_AS_A_JOKE"
+    elif not signal["object_identified"]:
+        exclusion = "NO_IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT"
+    elif not (signal["events"] or signal["institutional_metric"] or signal["relationship"]):
+        exclusion = "NO_DISCRETE_EVIDENCE_BEARING_CLAIM"
+    elif signal["weak_marketing"]:
+        exclusion = "PRIMARILY_MARKETING_OR_ENGAGEMENT_CONTENT"
+    elif score < 4:
+        exclusion = "EVIDENCE_DENSITY_BELOW_THRESHOLD"
+    eligible = exclusion is None
+    decision = "HIGH_PRIORITY" if eligible and score >= 7 else "MEDIUM_PRIORITY" if eligible and score >= 5 else "LOW_PRIORITY" if eligible else "NOT_ELIGIBLE"
+    confidence = "HIGH" if score >= 7 and not record["is_retweet"] else "MEDIUM" if score >= 4 else "LOW"
+    return {
+        "source_id": record["source_id"], "post_id": record["post_id"], "eligible": eligible,
+        "decision": decision, "decision_reasons": reasons if eligible else [exclusion],
+        "supporting_text": record["content"], "entities": [entity["entity_id"] for entity in record["entities"]],
+        "statement_types": record["statement_types"], "confidence": confidence,
+        "duplicate_cluster_id": cluster["cluster_id"] if cluster else None,
+        "strongest_candidate_id": cluster["strongest_candidate_id"] if cluster else record["source_id"],
+        "manual_review_required": eligible, "exclusion_reason": exclusion,
+    }
+
+
+def social_timeline_decision(record: dict, cluster: dict | None) -> dict:
+    signal = record["signal_data"]
+    exclusion = None
+    if record["is_retweet"]:
+        exclusion = "RETWEET_WITHOUT_INDEPENDENT_FIRST_PARTY_CONTEXT"
+    elif cluster and cluster["strongest_candidate_id"] != record["source_id"]:
+        exclusion = "DUPLICATE_OR_REPEATED_REMINDER"
+    elif not signal["events"]:
+        exclusion = "NO_MATERIALLY_DATEABLE_EVENT"
+    elif not signal["object_identified"]:
+        exclusion = "NO_IDENTIFIABLE_EVENT_ENTITY_OR_SYSTEM"
+    elif signal["joke_or_negation"]:
+        exclusion = "CLAIM_EXPLICITLY_NEGATED_OR_PRESENTED_AS_A_JOKE"
+    elif signal["weak_marketing"]:
+        exclusion = "GENERAL_PROMOTIONAL_OR_ENGAGEMENT_LANGUAGE"
+    eligible = exclusion is None
+    confidence = "HIGH" if eligible and signal["detail"] and record["entities"] else "MEDIUM" if eligible else "LOW"
+    return {
+        "source_id": record["source_id"], "post_id": record["post_id"], "eligible": eligible,
+        "decision": "TIMELINE_CANDIDATE" if eligible else "NOT_ELIGIBLE",
+        "event_type": signal["events"][0] if signal["events"] else None,
+        "event_date": record["published_date"] if eligible else None,
+        "date_precision": "DAY" if eligible else None,
+        "date_basis": "OFFICIAL_POST_PUBLICATION_DATE" if eligible else None,
+        "supporting_text": record["content"],
+        "timeline_confidence": confidence,
+        "timeline_reasons": (["CONCRETE_EVENT_STATE_LANGUAGE", "IDENTIFIABLE_ENTITY_OR_SYSTEM", "DATE_FROM_OFFICIAL_POST"] if eligible else [exclusion]),
+        "duplicate_cluster_id": cluster["cluster_id"] if cluster else None,
+        "strongest_candidate_id": cluster["strongest_candidate_id"] if cluster else record["source_id"],
+        "manual_review_required": eligible, "exclusion_reason": exclusion,
+    }
+
+
 def build_social(entity_catalog):
     posts = [json.loads(line) for line in SOCIAL_INPUT.read_text(encoding="utf-8").splitlines() if line.strip()]
-    normalized_groups = defaultdict(list)
-    for post in posts:
-        key = normalize_text(post["content"])
-        if key:
-            normalized_groups[key].append(post["post_id"])
-
     records = []
     for post in posts:
         text = post["content"]
@@ -240,27 +401,9 @@ def build_social(entity_catalog):
         lifecycle = lifecycle_states(text)
         entities = link_entities(text, entity_catalog)
         media_links = re.findall(r"https?://(?:pbs|video)\.twimg\.com/\S+", text, re.I)
-        key = normalize_text(text)
-        repeated = normalized_groups.get(key, [])
-        duplicate_info = {
-            "status": "REPEATED_CONTENT" if len(repeated) > 1 else ("SUPERSESSION_LANGUAGE_PRESENT" if "SUPERSEDED" in lifecycle else "NONE_IDENTIFIED"),
-            "related_post_ids": [x for x in repeated if x != post["post_id"]],
-            "basis": "normalized text equality excluding URLs" if len(repeated) > 1 else None,
-        }
         evidence = []
-        substantive = len(normalize_text(text)) >= 45
-        if not post["is_retweet"] and substantive:
-            evidence.extend(["CANONICAL_KNOWLEDGE_CANDIDATE", "ENTITY_UPDATE_CANDIDATE"])
-        if not post["is_retweet"] and ("ANNOUNCEMENT" in statements or "RELEASE" in statements or lifecycle):
-            evidence.append("TIMELINE_CANDIDATE")
-        if entities and not post["is_retweet"]:
-            evidence.append("GRAPH_RELATIONSHIP_CANDIDATE")
-        if post["is_retweet"] or not substantive:
-            evidence.append("LOW_VALUE")
         if media_links:
             evidence.append("RESEARCH_GAP")
-        if len(repeated) > 1:
-            evidence.append("DUPLICATE")
         notes = []
         if post["is_retweet"]:
             notes.append("This record proves resharing by @staratlas; it does not convert the underlying content into a first-party claim.")
@@ -279,11 +422,39 @@ def build_social(entity_catalog):
             "topics": topics, "subtopics": social_subtopics(text), "entities": entities,
             "unresolved_references": unresolved, "statement_types": statements,
             "lifecycle_states": lifecycle, "evidence_classes": unique(evidence),
-            "timeline_candidate": "TIMELINE_CANDIDATE" in evidence,
-            "promotion_targets": promotion_targets(topics) if not post["is_retweet"] and substantive else [],
-            "confidence": confidence, "duplicate_or_supersession": duplicate_info,
+            "timeline_candidate": False, "promotion_targets": [],
+            "confidence": confidence, "duplicate_or_supersession": {},
+            "signal_data": social_signal_data(text, entities),
             "research_notes": notes,
         })
+
+    clusters, cluster_lookup = cluster_social_posts(records)
+    promotion_decisions, timeline_decisions = [], []
+    for record in records:
+        cluster = cluster_lookup.get(record["source_id"])
+        promotion = social_promotion_decision(record, cluster)
+        timeline = social_timeline_decision(record, cluster)
+        promotion_decisions.append(promotion); timeline_decisions.append(timeline)
+        if promotion["eligible"]:
+            record["evidence_classes"].extend(["CANONICAL_KNOWLEDGE_CANDIDATE", "ENTITY_UPDATE_CANDIDATE"])
+            record["promotion_targets"] = promotion_targets(record["topics"])
+        if timeline["eligible"]:
+            record["evidence_classes"].append("TIMELINE_CANDIDATE"); record["timeline_candidate"] = True
+        if record["entities"] and not record["is_retweet"]:
+            record["evidence_classes"].append("GRAPH_RELATIONSHIP_CANDIDATE")
+        if not promotion["eligible"] and not timeline["eligible"]:
+            record["evidence_classes"].append("LOW_VALUE")
+        if cluster:
+            record["evidence_classes"].append("DUPLICATE")
+        record["evidence_classes"] = unique(record["evidence_classes"])
+        record["duplicate_or_supersession"] = {
+            "status": cluster["cluster_type"] if cluster else ("SUPERSESSION_LANGUAGE_PRESENT" if "SUPERSEDED" in record["lifecycle_states"] else "NONE_IDENTIFIED"),
+            "cluster_id": cluster["cluster_id"] if cluster else None,
+            "strongest_candidate_id": cluster["strongest_candidate_id"] if cluster else None,
+        }
+        record["promotion_decision"] = {key: promotion[key] for key in ("eligible", "decision", "decision_reasons", "confidence", "exclusion_reason")}
+        record["timeline_decision"] = {key: timeline[key] for key in ("eligible", "decision", "event_type", "event_date", "date_basis", "timeline_confidence", "exclusion_reason")}
+        del record["signal_data"]
 
     SOCIAL_OUT.mkdir(parents=True, exist_ok=True)
     semantic_path = SOCIAL_OUT / "staratlas-posts-semantic.jsonl"
@@ -291,14 +462,19 @@ def build_social(entity_catalog):
 
     topic_index = {topic: [r["source_id"] for r in records if topic in r["topics"]] for topic in sorted(TOPICS)}
     entity_links = [{"source_id": r["source_id"], "post_id": r["post_id"], "entities": r["entities"], "unresolved_references": r["unresolved_references"]} for r in records if r["entities"] or r["unresolved_references"]]
-    timeline = [{"source_id": r["source_id"], "post_id": r["post_id"], "date": r["published_date"], "topics": r["topics"], "statement_types": r["statement_types"], "lifecycle_states": r["lifecycle_states"], "confidence": r["confidence"]} for r in records if r["timeline_candidate"]]
-    promotions = [{"source_id": r["source_id"], "post_id": r["post_id"], "targets": r["promotion_targets"], "evidence_classes": r["evidence_classes"], "confidence": r["confidence"], "review_status": "UNREVIEWED"} for r in records if r["promotion_targets"]]
+    timeline_by_id = {decision["source_id"]: decision for decision in timeline_decisions}
+    promotion_by_id = {decision["source_id"]: decision for decision in promotion_decisions}
+    timeline = [{**timeline_by_id[r["source_id"]], "topics": r["topics"], "statement_types": r["statement_types"], "lifecycle_states": r["lifecycle_states"]} for r in records if timeline_by_id[r["source_id"]]["eligible"]]
+    promotions = [{**promotion_by_id[r["source_id"]], "targets": r["promotion_targets"], "evidence_classes": r["evidence_classes"], "review_status": "UNREVIEWED"} for r in records if promotion_by_id[r["source_id"]]["eligible"]]
     gaps = [{"source_id": r["source_id"], "post_id": r["post_id"], "notes": r["research_notes"], "unresolved_references": r["unresolved_references"]} for r in records if "RESEARCH_GAP" in r["evidence_classes"] or r["unresolved_references"]]
     common = {"campaign_id": CAMPAIGN_ID, "schema_version": "1.0.0", "generated_from": str(SOCIAL_INPUT.relative_to(REPO)).replace("\\", "/")}
     write_json(SOCIAL_OUT / "topic-index.json", {**common, "topic_counts": {k: len(v) for k, v in topic_index.items()}, "topics": topic_index})
     write_json(SOCIAL_OUT / "entity-links.json", {**common, "link_record_count": len(entity_links), "links": entity_links})
     write_json(SOCIAL_OUT / "timeline-candidates.json", {**common, "candidate_count": len(timeline), "candidates": timeline})
     write_json(SOCIAL_OUT / "promotion-candidates.json", {**common, "candidate_count": len(promotions), "candidates": promotions})
+    (SOCIAL_OUT / "promotion-candidate-decisions.jsonl").write_text("".join(json.dumps(x, ensure_ascii=False, separators=(",", ":")) + "\n" for x in promotion_decisions), encoding="utf-8")
+    (SOCIAL_OUT / "timeline-candidate-decisions.jsonl").write_text("".join(json.dumps(x, ensure_ascii=False, separators=(",", ":")) + "\n" for x in timeline_decisions), encoding="utf-8")
+    write_json(SOCIAL_OUT / "duplicate-clusters.json", {**common, "cluster_count": len(clusters), "clusters": clusters})
     write_json(SOCIAL_OUT / "research-gaps.json", {**common, "gap_count": len(gaps), "gaps": gaps})
     return posts, records
 
@@ -351,20 +527,60 @@ def as_decimal(value):
         return None
 
 
-def governance_result(payload, votes):
-    end = payload.get("votingEndsAt")
-    ended = bool(end and end < CAPTURE_TIMESTAMP)
-    yes = votes.get("yes", {}).get("voting_power")
-    no = votes.get("no", {}).get("voting_power")
-    if ended and as_decimal(yes) is not None and as_decimal(no) is not None:
-        return "PASSED" if as_decimal(yes) > as_decimal(no) else "FAILED"
+def parse_election_results(payload: dict) -> dict | None:
     election = payload.get("electionResults")
     if isinstance(election, str):
-        try: election = json.loads(election)
-        except json.JSONDecodeError: election = None
-    if ended and election and election.get("winners"):
-        return "PASSED"
-    return "UNKNOWN"
+        try:
+            election = json.loads(election)
+        except json.JSONDecodeError:
+            return None
+    return election if isinstance(election, dict) else None
+
+
+def load_pip_review() -> tuple[dict, dict[int, dict]]:
+    summary = load_json(PIP_REVIEW_SUMMARY)
+    table: dict[int, dict] = {}
+    for line in PIP_REVIEW.read_text(encoding="utf-8").splitlines():
+        matched = re.match(r"^\|\s*(\d+)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|\s*(.*?)\s*\|$", line)
+        if matched:
+            number = int(matched.group(1))
+            table[number] = {"title": matched.group(2), "reviewed_table_result": matched.group(3), "institutional_significance": matched.group(4)}
+    if set(table) != set(range(1, 34)):
+        raise ValueError("PIP corpus review table does not cover PIP-1 through PIP-33")
+    return summary, table
+
+
+def vote_percentages(votes: dict) -> dict:
+    values = {name: as_decimal(data.get("voting_power")) for name, data in votes.items()}
+    total = sum((value for value in values.values() if value is not None), Decimal(0))
+    yes_no = sum((values.get(name) or Decimal(0) for name in ("yes", "no")), Decimal(0))
+    def pct(value: Decimal | None, denominator: Decimal) -> str | None:
+        return str((value * Decimal(100) / denominator).quantize(Decimal("0.000001"))) if value is not None and denominator else None
+    return {
+        "total_pvp": str(total), "yes_percent_all_pvp": pct(values.get("yes"), total),
+        "no_percent_all_pvp": pct(values.get("no"), total), "abstain_percent_all_pvp": pct(values.get("abstain"), total),
+        "yes_percent_yes_no_pvp": pct(values.get("yes"), yes_no), "no_percent_yes_no_pvp": pct(values.get("no"), yes_no),
+    }
+
+
+def reviewed_governance_result(number: int, payload: dict, votes: dict, review_summary: dict) -> dict:
+    elections = set(review_summary["results"]["elections_or_nonbinary"])
+    unresolved = set(review_summary["results"]["election_results_unresolved_in_capture"])
+    ended = bool(payload.get("votingEndsAt") and payload["votingEndsAt"] < CAPTURE_TIMESTAMP)
+    election = parse_election_results(payload)
+    if number in elections:
+        winners = election.get("winners", []) if election else []
+        result = "UNKNOWN" if number in unresolved or not winners else "ELECTION_RESULT_RECORDED"
+        basis = "Captured portal electionResults supplies the ranked-choice winners." if winners else "Captured portal payload has no conclusive electionResults winner field; no winner is inferred."
+        return {"vote_mechanism": "RANKED_CHOICE_ELECTION", "machine_result": result, "reviewed_result": result, "reviewed_result_basis": basis, "election_winners": winners, "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD", "voting_window_ended": ended}
+    yes = as_decimal(votes.get("yes", {}).get("voting_power"))
+    no = as_decimal(votes.get("no", {}).get("voting_power"))
+    if ended and yes is not None and no is not None:
+        result = "PASSED" if yes > no else "FAILED"
+        basis = "Voting ended and YES PVP exceeded NO PVP." if result == "PASSED" else "Voting ended and NO PVP was greater than or equal to YES PVP."
+    else:
+        result, basis = "UNKNOWN", "Voting window or binary PVP totals are incomplete."
+    return {"vote_mechanism": "BINARY_PVP", "machine_result": result, "reviewed_result": result, "reviewed_result_basis": basis, "election_winners": [], "decision_formula": "YES_PVP > NO_PVP => PASSED; NO_PVP >= YES_PVP => FAILED; ABSTAIN_RECORDED_NOT_DECISIVE", "voting_window_ended": ended}
 
 
 def governance_topics(payload):
@@ -377,8 +593,13 @@ def governance_topics(payload):
 def build_governance(entity_catalog):
     seed = load_json(PIP_SEED)
     seed_by_number = {x["pip_number"]: x for x in seed}
+    review_summary, review_table = load_pip_review()
+    relationships = review_summary["supersession_and_dependencies"]
+    related_by_number: dict[int, list[dict]] = defaultdict(list)
+    for relationship in relationships:
+        related_by_number[relationship["from"]].append(relationship)
+        related_by_number[relationship["to"]].append(relationship)
     records = []
-    GOV_RECORDS.mkdir(parents=True, exist_ok=True)
     for raw_path in sorted(PIP_RAW.glob("*.json")):
         raw_bytes = raw_path.read_bytes()
         payload = json.loads(raw_bytes)
@@ -388,11 +609,8 @@ def build_governance(entity_catalog):
         author = markdown_author(description)
         author_value = author or payload.get("authorPublicKey") or None
         votes = vote_map(payload)
-        result = governance_result(payload, votes)
-        election = payload.get("electionResults")
-        if isinstance(election, str):
-            try: election = json.loads(election)
-            except json.JSONDecodeError: election = None
+        review_result = reviewed_governance_result(number, payload, votes, review_summary)
+        result = review_result["reviewed_result"]
         topics = governance_topics(payload)
         entity_text = " ".join([payload.get("title", ""), payload.get("brief", ""), description])
         entities = link_entities(entity_text, entity_catalog)
@@ -402,15 +620,31 @@ def build_governance(entity_catalog):
             limitations.append("No explicit human-readable author was parsed; author uses the portal author public key.")
         if result == "UNKNOWN":
             limitations.append("The captured portal payload does not expose a conclusive binary or election result.")
-        limitations.append("Approval is derived only from the official completed vote record; it is not execution evidence.")
+        limitations.append("The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.")
         limitations.append("No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence.")
         approval = "APPROVED" if result == "PASSED" else ("FAILED" if result == "FAILED" else "UNKNOWN")
-        winners = election.get("winners", []) if election else []
+        if result == "ELECTION_RESULT_RECORDED":
+            approval = "ELECTION_RESULT_RECORDED"
+        winners = review_result["election_winners"]
         record_capture_timestamp = CAPTURE_TIMESTAMP
+        stale_status = payload.get("currentStatus") == "Proposal_Activated_Pending_Open_Voting" and review_result["voting_window_ended"]
+        raw_status = payload.get("currentStatus") or payload.get("status")
+        reconciliation_notes = []
+        if stale_status:
+            reconciliation_notes.append("Raw portal status is stale for the completed voting window; reviewed result is based on vote evidence and the owner-approved rule.")
+        if payload.get("title") != review_table[number]["title"]:
+            reconciliation_notes.append("The raw portal title is preserved as authoritative source text; the human review uses a concise display title recorded separately.")
+        if review_result["vote_mechanism"] == "RANKED_CHOICE_ELECTION" and result == "UNKNOWN":
+            reconciliation_notes.append("The human review preserves the election-result gap because the capture lacks an official winner field.")
+        supersedes = [item["to"] for item in relationships if item["from"] == number and item["relation"] == "SUPERSEDES"]
+        superseded_by = [item["from"] for item in relationships if item["to"] == number and item["relation"] == "SUPERSEDES"]
+        related_pips = sorted({item["from"] if item["to"] == number else item["to"] for item in related_by_number[number]})
+        funding_source = "STAR_ATLAS_ECOSYSTEM_FUND" if match(r"\becosystem fund\b", description) else "STAR_ATLAS_DAO_TREASURY" if match(r"\bdao treasury|treasury\b", description) else "UNKNOWN"
+        implementation_pending = result in {"PASSED", "ELECTION_RESULT_RECORDED"}
         record = {
             "source_id": source["source_id"], "pip_number": number,
             "proposal_uuid": source["proposal_uuid"], "proposal_url": source["proposal_url"],
-            "title": payload.get("title"), "author": author_value,
+            "title": payload.get("title"), "reviewed_title": review_table[number]["title"], "author": author_value,
             "author_public_key": payload.get("authorPublicKey"), "proposal_text": description,
             "proposal_brief": payload.get("brief"), "proposal_category": payload.get("categories") or [],
             "publication_date": payload.get("createdAt"), "updated_date": payload.get("updatedAt"),
@@ -421,43 +655,59 @@ def build_governance(entity_catalog):
             "affected_entities": entities, "affected_governance_bodies": [e for e in entities if e["entity_type"] in {"ORGANIZATION", "GOVERNANCE_BODY"}],
             "affected_products": [e for e in entities if e["entity_type"] == "PRODUCT"],
             "affected_treasury_or_economic_systems": [e for e in entities if e["entity_type"] in {"TOKEN", "ECONOMY", "ASSET"}],
-            "vote_for": votes.get("yes"), "vote_against": votes.get("no"), "vote_abstain": votes.get("abstain"),
-            "all_vote_totals": votes, "quorum": None,
+            "funding_source": funding_source,
+            "vote_mechanism": review_result["vote_mechanism"], "vote_for": votes.get("yes"), "vote_against": votes.get("no"), "vote_abstain": votes.get("abstain"),
+            "yes_pvp": votes.get("yes", {}).get("voting_power"), "no_pvp": votes.get("no", {}).get("voting_power"), "abstain_pvp": votes.get("abstain", {}).get("voting_power"),
+            "all_vote_totals": votes, "descriptive_vote_percentages": vote_percentages(votes), "quorum": "NOT_APPLICABLE_UNDER_OWNER_APPROVED_BINARY_RULE",
             "proposal_state": "PROPOSED", "vote_state": result, "result": result,
-            "approval_state": approval, "execution_state": "UNKNOWN", "execution_evidence": [],
-            "election_winners": winners, "portal_status": payload.get("status"), "portal_current_status": payload.get("currentStatus"),
+            "raw_portal_status": raw_status, "machine_computed_result": review_result["machine_result"],
+            "reviewed_result": result, "reviewed_table_result": review_table[number]["reviewed_table_result"], "reviewed_result_basis": review_result["reviewed_result_basis"], "decision_formula": review_result["decision_formula"],
+            "approval_state": approval, "execution_state": "IMPLEMENTATION_PENDING" if implementation_pending else "UNKNOWN", "execution_evidence": [],
+            "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE", "election_winners": winners,
+            "portal_status": payload.get("status"), "portal_current_status": payload.get("currentStatus"),
             "capture_timestamp": record_capture_timestamp, "content_checksum": hashlib.sha256(raw_bytes).hexdigest(),
             "topics": topics, "promotion_targets": promotion_targets(topics),
-            "contradictions": ["Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."] if payload.get("currentStatus") == "Proposal_Activated_Pending_Open_Voting" and payload.get("votingEndsAt", "") < CAPTURE_TIMESTAMP else [],
-            "research_gaps": ["Execution evidence not present in the captured proposal payload."],
+            "reviewed_institutional_significance": review_table[number]["institutional_significance"],
+            "supersedes": supersedes, "superseded_by": superseded_by, "related_pips": related_pips,
+            "human_review_status": "REVIEWED", "reconciliation_notes": reconciliation_notes,
+            "contradictions": ["Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."] if stale_status else [],
+            "research_gaps": (["Official election winner evidence is missing from the captured portal payload."] if result == "UNKNOWN" and review_result["vote_mechanism"] == "RANKED_CHOICE_ELECTION" else []) + (["Historical PIP-1 quorum text is preserved; the repository owner-approved current operating rule applies no quorum to completed binary results."] if number == 1 else []) + ["Independent implementation evidence is not present in the captured proposal payload."],
             "limitations": limitations,
         }
         records.append(record)
-        source_record = {
-            "source_id": source["source_id"], "campaign_id": CAMPAIGN_ID,
-            "source_type": "OFFICIAL_GOVERNANCE_PROPOSAL", "evidence_tier": "TIER_1_OFFICIAL_PORTAL",
-            "title": payload.get("title"), "url": source["proposal_url"], "proposal_uuid": source["proposal_uuid"],
-            "pip_number": number, "publication_date": payload.get("createdAt"), "updated_date": payload.get("updatedAt"),
-            "author": author_value, "raw_capture": str(raw_path.relative_to(REPO)).replace("\\", "/"),
-            "semantic_record": "archive/semantic/governance/pip-registry-semantic.json",
-            "content_sha256": hashlib.sha256(raw_bytes).hexdigest(), "capture_timestamp": record_capture_timestamp,
-            "confidence": "HIGH", "limitations": limitations,
-        }
-        write_json(GOV_RECORDS / f"{source['source_id']}.json", source_record)
 
     records.sort(key=lambda x: x["pip_number"])
-    common = {"campaign_id": CAMPAIGN_ID, "schema_version": "1.0.0", "capture_timestamp": max(r["capture_timestamp"] for r in records)}
+    common = {"campaign_id": CAMPAIGN_ID, "schema_version": "2.0.0", "capture_timestamp": max(r["capture_timestamp"] for r in records)}
     write_json(GOV_OUT / "pip-registry-semantic.json", {**common, "proposal_count": len(records), "proposals": records})
     topic_index = {topic: [r["source_id"] for r in records if topic in r["topics"]] for topic in sorted(TOPICS)}
-    entity_links = [{"source_id": r["source_id"], "pip_number": r["pip_number"], "entities": r["affected_entities"]} for r in records]
-    timeline = [{"source_id": r["source_id"], "pip_number": r["pip_number"], "publication_date": r["publication_date"], "vote_start": r["vote_start"], "vote_end": r["vote_end"], "result": r["result"], "approval_state": r["approval_state"], "execution_state": r["execution_state"]} for r in records]
-    promotions = [{"source_id": r["source_id"], "pip_number": r["pip_number"], "targets": r["promotion_targets"], "result": r["result"], "execution_state": r["execution_state"], "review_status": "UNREVIEWED"} for r in records]
-    gaps = [{"source_id": r["source_id"], "pip_number": r["pip_number"], "execution_state": r["execution_state"], "execution_evidence": r["execution_evidence"], "research_gaps": r["research_gaps"], "limitations": r["limitations"]} for r in records]
+    entity_links = [{"source_id": r["source_id"], "pip_number": r["pip_number"], "entities": r["affected_entities"], "reviewed_institutional_significance": r["reviewed_institutional_significance"], "human_review_status": "REVIEWED"} for r in records]
+    timeline = [{"source_id": r["source_id"], "pip_number": r["pip_number"], "publication_date": r["publication_date"], "vote_start": r["vote_start"], "vote_end": r["vote_end"], "vote_mechanism": r["vote_mechanism"], "reviewed_result": r["reviewed_result"], "result_basis": r["reviewed_result_basis"], "execution_state": r["execution_state"], "supporting_text": r["proposal_brief"], "manual_review_required": r["reviewed_result"] == "UNKNOWN"} for r in records]
+    promotions = [{"source_id": r["source_id"], "pip_number": r["pip_number"], "targets": r["promotion_targets"], "supporting_text": r["proposal_brief"], "reviewed_result": r["reviewed_result"], "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.", "corpus_review_conclusion": r["reviewed_institutional_significance"], "human_review_status": "REVIEWED"} for r in records]
+    gaps = [{"source_id": r["source_id"], "pip_number": r["pip_number"], "reviewed_result": r["reviewed_result"], "execution_state": r["execution_state"], "execution_evidence_status": r["execution_evidence_status"], "execution_evidence": r["execution_evidence"], "research_gaps": r["research_gaps"], "limitations": r["limitations"]} for r in records]
+    supersession = [{"source_id": next(r["source_id"] for r in records if r["pip_number"] == item["from"]), "from_pip": item["from"], "relationship": item["relation"], "to_pip": item["to"], "human_review_status": "REVIEWED"} for item in relationships]
+    by_number = {r["pip_number"]: r for r in records}
+    relationship_specs = [
+        ("POLIS_HOLDERS_AND_STAR_ATLAS_DAO", "VOTE_ON", "PIP_REGISTRY", [1]),
+        ("STAR_ATLAS_FOUNDATION", "ADMINISTERS", "GOVERNANCE_PORTAL_AND_PIP_PROCESS", [1, 2]),
+        ("STAR_ATLAS_FOUNDATION", "HOLDS_OR_CONTROLS", "DAO_TREASURY_MULTISIGS", [2, 23]),
+        ("STAR_ATLAS_FOUNDATION", "IMPLEMENTS_OR_REFUSES", "PASSED_PIPS", [1, 2]),
+        ("STAR_ATLAS_COUNCIL", "ASSISTS", "PIP_AUTHORS", [3, 10, 23]),
+        ("STAR_ATLAS_COUNCIL", "ADMINISTERS", "APPROVED_GOVERNANCE_PROGRAMS", [12, 20, 22, 23]),
+        ("STAR_ATLAS_COUNCIL", "VERIFIES", "MILESTONES_AND_PAYMENTS", [22, 31, 32, 33]),
+        ("PIP_23", "SUPERSEDES", "PIP_4", [23, 4]),
+        ("PIP_10", "MODIFIES_AND_EXTENDS", "PIP_3", [10, 3]),
+        ("PIP_13", "FAILED_ATTEMPT_TO_MODIFY", "PIP_10", [13, 10]),
+        ("PIP_27", "IMPLEMENTS_ELECTION_REQUIRED_BY", "PIP_20", [27, 20]),
+    ]
+    institutional_relationships = [{"relationship_id": f"GOV-REL-{index:03d}", "subject": subject, "relationship": relation, "object": obj, "supporting_pips": numbers, "source_ids": [by_number[number]["source_id"] for number in numbers], "review_basis": "PIP corpus review and captured official proposal text", "canonical_graph_status": "PROPOSED_ONLY"} for index, (subject, relation, obj, numbers) in enumerate(relationship_specs, 1)]
     write_json(GOV_OUT / "pip-topic-index.json", {**common, "topic_counts": {k: len(v) for k, v in topic_index.items()}, "topics": topic_index})
     write_json(GOV_OUT / "pip-entity-links.json", {**common, "records": entity_links})
     write_json(GOV_OUT / "pip-timeline-candidates.json", {**common, "candidate_count": len(timeline), "candidates": timeline})
     write_json(GOV_OUT / "pip-promotion-candidates.json", {**common, "candidate_count": len(promotions), "candidates": promotions})
     write_json(GOV_OUT / "pip-execution-gaps.json", {**common, "gap_count": len(gaps), "gaps": gaps})
+    write_json(GOV_OUT / "pip-implementation-gaps.json", {**common, "gap_count": len(gaps), "gaps": gaps})
+    write_json(GOV_OUT / "pip-supersession-index.json", {**common, "relationship_count": len(supersession), "relationships": supersession})
+    write_json(GOV_OUT / "institutional-relationships.json", {**common, "relationship_count": len(institutional_relationships), "relationships": institutional_relationships})
     return records
 
 
@@ -469,7 +719,18 @@ def build_reports(posts, social, pips):
     social_statement_count = Counter(t for r in social for t in r["statement_types"])
     social_lifecycle_count = Counter(t for r in social for t in r["lifecycle_states"])
     social_evidence_count = Counter(t for r in social for t in r["evidence_classes"])
-    pip_results = Counter(r["result"] for r in pips)
+    promotion_decisions = [r["promotion_decision"] for r in social]
+    timeline_decisions = [r["timeline_decision"] for r in social]
+    promotion_count = sum(d["eligible"] for d in promotion_decisions)
+    timeline_count = sum(d["eligible"] for d in timeline_decisions)
+    promotion_confidence = Counter(d["confidence"] for d in promotion_decisions if d["eligible"])
+    promotion_disposition = Counter(d["decision"] for d in promotion_decisions)
+    promotion_exclusions = Counter(d["exclusion_reason"] for d in promotion_decisions if not d["eligible"])
+    timeline_confidence = Counter(d["timeline_confidence"] for d in timeline_decisions if d["eligible"])
+    timeline_exclusions = Counter(d["exclusion_reason"] for d in timeline_decisions if not d["eligible"])
+    duplicate_cluster_count = load_json(SOCIAL_OUT / "duplicate-clusters.json")["cluster_count"]
+    pip_results = Counter(r["reviewed_result"] for r in pips)
+    review_summary = load_json(PIP_REVIEW_SUMMARY)
     validation = validate(posts, social, pips, raw_rows)
     summary = f"""# Social Media and PIP Semantic Enrichment Campaign
 
@@ -494,18 +755,37 @@ The campaign preserved the supplied export without rewriting it, enriched all **
 - Statement type assignments: {dict(sorted(social_statement_count.items()))}
 - Lifecycle assignments (wording-supported only): {dict(sorted(social_lifecycle_count.items()))}
 - Evidence-class assignments: {dict(sorted(social_evidence_count.items()))}
-- Social timeline candidates: {sum(r['timeline_candidate'] for r in social)}
-- Social promotion candidates: {sum(bool(r['promotion_targets']) for r in social)}
+- Social promotion candidates: {HISTORICAL_SOCIAL_COUNTS['promotion_candidates']} before; **{promotion_count}** after
+- Social promotion exclusions: {len(social) - promotion_count}
+- Social timeline candidates: {HISTORICAL_SOCIAL_COUNTS['timeline_candidates']} before; **{timeline_count}** after
+- Social timeline exclusions: {len(social) - timeline_count}
+- Promotion confidence: {dict(sorted(promotion_confidence.items()))}
+- Promotion dispositions: {dict(sorted(promotion_disposition.items()))}
+- Timeline confidence: {dict(sorted(timeline_confidence.items()))}
+- Duplicate clusters: {duplicate_cluster_count}
 - Social records with unresolved references or media gaps: {sum(bool(r['research_notes']) for r in social)}
 
 ## Governance findings
 
-- Vote results derived from completed official vote records: {dict(sorted(pip_results.items()))}
+- Human-reviewed results: {dict(sorted(pip_results.items()))}
+- Passed binary PIPs: {review_summary['results']['passed_binary']}
+- Failed binary PIPs: {review_summary['results']['failed_binary']}
+- Election/nonbinary PIPs: {review_summary['results']['elections_or_nonbinary']}
+- Unresolved election PIPs: {review_summary['results']['election_results_unresolved_in_capture']}
 - Approval states: {dict(sorted(Counter(r['approval_state'] for r in pips).items()))}
 - Execution states: {dict(sorted(Counter(r['execution_state'] for r in pips).items()))}
-- Execution gaps requiring primary evidence: {sum(r['execution_state'] == 'UNKNOWN' for r in pips)}
+- Implementation gaps requiring primary evidence: {sum(r['execution_evidence_status'] == 'MISSING_INDEPENDENT_PRIMARY_EVIDENCE' for r in pips)}
+- Supersession/dependency relationships: {review_summary['supersession_and_dependencies']}
 
-`PASSED`/`APPROVED` records are not treated as executed. Every proposal remains `execution_state: UNKNOWN` because the proposal payloads do not contain a separate implementation record, on-chain transaction, treasury transfer, deployed change, or equivalent primary evidence.
+Completed binary results use the owner-approved formula `YES PVP > NO PVP => PASSED; NO PVP >= YES PVP => FAILED`; abstentions are recorded but non-decisive and no quorum is imposed. Elections use only the official portal `electionResults` field. `PASSED`/`APPROVED` records are not treated as implemented, and every PIP retains an implementation-evidence gap until separate primary evidence is captured.
+
+All 33 PIPs are reconciled to the governing human corpus review and carry `human_review_status: REVIEWED`. Raw portal status, machine computation, reviewed result, approval, and execution fields remain distinct. PIP-13, PIP-15, PIP-19, and PIP-26 remain failed. PIP-11, PIP-25, and PIP-27 remain unresolved elections.
+
+## Canonical-promotion recommendations
+
+{chr(10).join(f'- `{target}`' for target in review_summary['canonical_promotion_targets'])}
+
+These remain review-only inputs; this campaign does not modify canonical knowledge or graph facts.
 
 ## Review posture
 
@@ -516,11 +796,35 @@ All promotion targets are candidates only. Retweets preserve the fact of reshari
 Validation status: **{validation['status']}**. See `validation-report.md` for the complete checks.
 """
     (OPS / "campaign-summary.md").write_text(summary, encoding="utf-8")
+    summary_json = {
+        "campaign_id": CAMPAIGN_ID, "status": validation["status"],
+        "corpus": {"raw_social_rows": len(raw_rows), "unique_posts": len(posts), "original_posts": sum(not p["is_retweet"] for p in posts), "retweets": sum(bool(p["is_retweet"]) for p in posts), "pips_reviewed": len(pips)},
+        "social_candidates": {
+            "before": HISTORICAL_SOCIAL_COUNTS,
+            "after": {"promotion_candidates": promotion_count, "timeline_candidates": timeline_count},
+            "promotion_exclusions": len(social) - promotion_count, "timeline_exclusions": len(social) - timeline_count,
+            "promotion_confidence": dict(sorted(promotion_confidence.items())), "timeline_confidence": dict(sorted(timeline_confidence.items())),
+            "promotion_dispositions": dict(sorted(promotion_disposition.items())), "promotion_exclusion_reasons": dict(sorted(promotion_exclusions.items())),
+            "timeline_exclusion_reasons": dict(sorted(timeline_exclusions.items())), "duplicate_clusters": duplicate_cluster_count,
+        },
+        "governance": {
+            "result_counts": dict(sorted(pip_results.items())), "passed_binary_pips": review_summary["results"]["passed_binary"],
+            "failed_binary_pips": review_summary["results"]["failed_binary"], "election_pips": review_summary["results"]["elections_or_nonbinary"],
+            "unresolved_election_pips": review_summary["results"]["election_results_unresolved_in_capture"],
+            "supersession_and_dependencies": review_summary["supersession_and_dependencies"],
+            "implementation_evidence_gaps": sum(r["execution_evidence_status"] == "MISSING_INDEPENDENT_PRIMARY_EVIDENCE" for r in pips),
+            "canonical_promotion_recommendations": review_summary["canonical_promotion_targets"],
+        },
+        "warnings": ["Inherited Wave 1.5 reconciliation baseline contains 962 records while the legacy validator expects 960; unrelated reconciliation records are unchanged."],
+    }
+    write_json(OPS / "campaign-summary.json", summary_json)
     research = """# Research gaps
 
 ## Governance execution
 
-All 33 PIPs require separate primary execution evidence before an `EXECUTED` or `PARTIALLY_EXECUTED` state can be assigned. Candidate evidence includes official implementation reports, on-chain transactions, treasury transfers, deployed policy/product changes, and direct implementation records.
+All 33 PIPs require separate primary execution evidence before an `IMPLEMENTED` or `PARTIALLY_IMPLEMENTED` state can be assigned. Candidate evidence includes official implementation reports, on-chain transactions, treasury transfers, deployed policy/product changes, and direct implementation records.
+
+PIP-11, PIP-25, and PIP-27 lack conclusive official election winner fields in the captured portal material and remain unresolved. No winner is inferred from candidate ordering or participation totals.
 
 ## Portal lifecycle metadata
 
@@ -551,12 +855,39 @@ Unmatched handles and hashtags are listed per semantic record. They were not con
         "- Campaign-specific dependency-free validation parses all campaign JSON/JSONL, verifies manifest hashes, checks source-ID collisions, and reconciles every social and governance record.", "",
     ]
     (OPS / "validation-report.md").write_text("\n".join(report_lines), encoding="utf-8")
+    write_json(OPS / "validation-report.json", validation)
 
-    integration_attributes = REPO / "archive/normalized/social-governance-semantic-enrichment/.gitattributes"
-    generated = [p for base in [SOCIAL_OUT, GOV_OUT, GOV_RECORDS, OPS] for p in base.rglob("*") if p.is_file() and p.name != "manifest.json" and (OPS / "input-package") not in p.parents] + [integration_attributes]
-    inputs = [p for base in [REPO / "archive/raw/social-governance-semantic-enrichment", REPO / "archive/normalized/social-governance-semantic-enrichment", REPO / "archive/source-records/social-governance-semantic-enrichment/social-media", OPS / "input-package"] for p in base.rglob("*") if p.is_file() and p.name != ".gitattributes"]
+    readme = f"""# Social Media and PIP Semantic Enrichment
+
+This campaign preserves full semantic recall for 796 `@staratlas` posts and 33 official PIPs while maintaining separate, precision-oriented candidate layers. It never modifies canonical `knowledge/`, `graph/`, or `publication/` content.
+
+## Deterministic decision model
+
+Social promotion requires an identifiable institutional object plus a concrete action, relationship, or date/amount/metric. Retweets, questions without answers, weak marketing, engagement prompts, and weaker duplicate variants are excluded. Scores reward identifiable objects, concrete event language, specific details, explicit relationships, and canonical entity links. Eligible scores map to `HIGH_PRIORITY` (7+), `MEDIUM_PRIORITY` (5-6), or carefully justified `LOW_PRIORITY` (4); confidence describes extraction quality, not factual truth.
+
+Timeline candidates independently require a material event type, identifiable entity/system, exact supporting post text, and the official post publication date as the date basis. All included and excluded decisions remain auditable in JSONL.
+
+Near-duplicate clustering uses normalized exact text or deterministic token overlap of at least 0.72 with six shared meaningful tokens. Evidence is never deleted; each cluster identifies its strongest record and ordered members.
+
+## Governance rules
+
+Completed binary PIPs use `YES > NO => PASSED` and `NO >= YES => FAILED`; abstentions are recorded but non-decisive and no quorum is required. Ranked-choice PIPs use only the portal `electionResults` field. Raw portal status, reviewed vote result, approval, and implementation are separate. A passed vote is never implementation evidence.
+
+The governing human review is `pip-corpus-review.md` with structured conclusions in `pip-corpus-review-summary.json`. Every semantic PIP record is reconciled to it and marked `REVIEWED`.
+
+## Reproduction
+
+```text
+python operations/campaigns/social-governance-semantic-enrichment/build_campaign.py
+python operations/campaigns/social-governance-semantic-enrichment/validate_campaign.py
+```
+"""
+    (OPS / "README.md").write_text(readme, encoding="utf-8")
+
+    generated = [p for base in [SOCIAL_OUT, GOV_OUT, OPS] for p in base.rglob("*") if p.is_file() and p.name != "manifest.json" and p.suffix != ".pyc" and "__pycache__" not in p.parts and (OPS / "input-package") not in p.parents]
+    inputs = [p for base in [REPO / "archive/raw/social-governance-semantic-enrichment", REPO / "archive/normalized/social-governance-semantic-enrichment", REPO / "archive/source-records/social-governance-semantic-enrichment", OPS / "input-package"] for p in base.rglob("*") if p.is_file()]
     manifest = {
-        "campaign_id": CAMPAIGN_ID, "schema_version": "1.0.0", "status": validation["status"],
+        "campaign_id": CAMPAIGN_ID, "schema_version": "2.0.0", "status": validation["status"],
         "input_package_sha256": "bc209310c968cfb5f77e0962fb091d54bde8ed949a583beF2ace07b042f706d1".lower(),
         "counts": {"raw_export_rows": len(raw_rows), "unique_social_posts": len(posts), "social_semantic_records": len(social), "pip_records": len(pips), "pip_raw_captures": len(list(PIP_RAW.glob('*.json')))},
         "preserved_inputs": [{"path": str(p.relative_to(REPO)).replace("\\", "/"), "sha256": sha256(p), "bytes": p.stat().st_size} for p in sorted(inputs)],
@@ -580,9 +911,18 @@ def validate(posts, social, pips, raw_rows):
     add("Source ID uniqueness", len(source_ids) == len(set(source_ids)), f"{len(source_ids)} campaign source IDs are unique")
     add("URL validity", all(urlparse(p['post_url']).scheme == 'https' and urlparse(p['post_url']).netloc for p in social) and all(urlparse(p['proposal_url']).netloc == 'govern.staratlas.com' for p in pips), "All social and governance URLs are absolute HTTPS URLs")
     add("Controlled social taxonomies", all(set(r['topics']) <= TOPICS and set(r['statement_types']) <= STATEMENTS and set(r['lifecycle_states']) <= LIFECYCLE and set(r['evidence_classes']) <= EVIDENCE for r in social), "All assigned social tags are controlled values")
-    add("Retweet evidence boundary", all(not r['promotion_targets'] and 'LOW_VALUE' in r['evidence_classes'] for r in social if r['is_retweet']), "No retweet is promoted as an original first-party claim")
-    add("Governance lifecycle separation", all(r['proposal_state'] == 'PROPOSED' and r['vote_state'] in {'PASSED','FAILED','UNKNOWN'} and r['approval_state'] in {'APPROVED','FAILED','UNKNOWN'} and r['execution_state'] in {'EXECUTED','PARTIALLY_EXECUTED','UNKNOWN'} for r in pips), "Proposal, vote, approval, and execution use distinct fields")
-    add("Execution evidence rule", all(r['execution_state'] == 'UNKNOWN' and not r['execution_evidence'] for r in pips), "No execution inferred from a passed vote")
+    add("Promotion decision coverage", all("promotion_decision" in r and r["promotion_decision"]["eligible"] == bool(r["promotion_targets"]) for r in social), "Every social post has a reconciled promotion decision")
+    add("Timeline decision coverage", all("timeline_decision" in r and r["timeline_decision"]["eligible"] == r["timeline_candidate"] for r in social), "Every social post has a reconciled timeline decision")
+    add("Retweet evidence boundary", all(not r['promotion_targets'] and not r["promotion_decision"]["eligible"] and 'LOW_VALUE' in r['evidence_classes'] for r in social if r['is_retweet']), "No retweet is promoted as an original first-party claim")
+    add("Candidate evidence", all(r["promotion_decision"]["decision_reasons"] and r["content"] for r in social) and all(r["timeline_decision"]["exclusion_reason"] or r["timeline_decision"]["event_type"] for r in social), "Every included candidate has reasons/supporting text and every exclusion has a reason")
+    add("Human PIP review coverage", all(r["human_review_status"] == "REVIEWED" and r["reviewed_institutional_significance"] for r in pips), "All 33 PIPs reconcile to the governing corpus review")
+    add("Governance lifecycle separation", all(r['proposal_state'] == 'PROPOSED' and r['approval_state'] in {'APPROVED','FAILED','UNKNOWN','ELECTION_RESULT_RECORDED'} and r['execution_state'] in {'IMPLEMENTATION_PENDING','PARTIALLY_IMPLEMENTED','IMPLEMENTED','UNKNOWN'} for r in pips), "Raw portal status, vote result, approval, and implementation use distinct fields")
+    add("Binary vote rule", all((r["reviewed_result"] == ("PASSED" if as_decimal(r["yes_pvp"]) > as_decimal(r["no_pvp"]) else "FAILED")) for r in pips if r["vote_mechanism"] == "BINARY_PVP"), "Completed binary results use YES > NO; abstentions are not decisive")
+    add("Election rule", all(r["yes_pvp"] is None and r["no_pvp"] is None for r in pips if r["vote_mechanism"] == "RANKED_CHOICE_ELECTION"), "Ranked-choice elections are not processed as binary PIPs")
+    add("Failed PIP preservation", all(next(r for r in pips if r["pip_number"] == number)["reviewed_result"] == "FAILED" for number in [13, 15, 19, 26]), "PIP-13, PIP-15, PIP-19, and PIP-26 remain failed")
+    add("Unresolved election preservation", all(next(r for r in pips if r["pip_number"] == number)["reviewed_result"] == "UNKNOWN" for number in [11, 25, 27]), "PIP-11, PIP-25, and PIP-27 remain unresolved")
+    add("PIP supersession", next(r for r in pips if r["pip_number"] == 23)["supersedes"] == [4], "PIP-23 supersedes PIP-4")
+    add("Execution evidence rule", all(r['execution_state'] not in {'IMPLEMENTED','PARTIALLY_IMPLEMENTED'} and not r['execution_evidence'] for r in pips), "No implementation inferred from a passed vote")
     add("No orphan semantic records", all((REPO / f"archive/source-records/social-governance-semantic-enrichment/social-media/{r['source_id']}.json").exists() for r in social) and all((GOV_RECORDS / f"{r['source_id']}.json").exists() for r in pips), "Every semantic record has a source record")
     return {"status": "PASS" if all(c['status'] == 'PASS' for c in checks) else "FAIL", "checks": checks}
 

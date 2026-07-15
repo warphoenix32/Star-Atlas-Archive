@@ -1,0 +1,192 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "2.0.0",
+  "capture_timestamp": "2026-07-15T03:41:40Z",
+  "relationship_count": 11,
+  "relationships": [
+    {
+      "relationship_id": "GOV-REL-001",
+      "subject": "POLIS_HOLDERS_AND_STAR_ATLAS_DAO",
+      "relationship": "VOTE_ON",
+      "object": "PIP_REGISTRY",
+      "supporting_pips": [
+        1
+      ],
+      "source_ids": [
+        "SRC-PIP-01-BC8475E4"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-002",
+      "subject": "STAR_ATLAS_FOUNDATION",
+      "relationship": "ADMINISTERS",
+      "object": "GOVERNANCE_PORTAL_AND_PIP_PROCESS",
+      "supporting_pips": [
+        1,
+        2
+      ],
+      "source_ids": [
+        "SRC-PIP-01-BC8475E4",
+        "SRC-PIP-02-1E2D7066"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-003",
+      "subject": "STAR_ATLAS_FOUNDATION",
+      "relationship": "HOLDS_OR_CONTROLS",
+      "object": "DAO_TREASURY_MULTISIGS",
+      "supporting_pips": [
+        2,
+        23
+      ],
+      "source_ids": [
+        "SRC-PIP-02-1E2D7066",
+        "SRC-PIP-23-0ECF2928"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-004",
+      "subject": "STAR_ATLAS_FOUNDATION",
+      "relationship": "IMPLEMENTS_OR_REFUSES",
+      "object": "PASSED_PIPS",
+      "supporting_pips": [
+        1,
+        2
+      ],
+      "source_ids": [
+        "SRC-PIP-01-BC8475E4",
+        "SRC-PIP-02-1E2D7066"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-005",
+      "subject": "STAR_ATLAS_COUNCIL",
+      "relationship": "ASSISTS",
+      "object": "PIP_AUTHORS",
+      "supporting_pips": [
+        3,
+        10,
+        23
+      ],
+      "source_ids": [
+        "SRC-PIP-03-F5E7CDE1",
+        "SRC-PIP-10-ED887A4E",
+        "SRC-PIP-23-0ECF2928"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-006",
+      "subject": "STAR_ATLAS_COUNCIL",
+      "relationship": "ADMINISTERS",
+      "object": "APPROVED_GOVERNANCE_PROGRAMS",
+      "supporting_pips": [
+        12,
+        20,
+        22,
+        23
+      ],
+      "source_ids": [
+        "SRC-PIP-12-F15380C9",
+        "SRC-PIP-20-159CB743",
+        "SRC-PIP-22-D5D61E64",
+        "SRC-PIP-23-0ECF2928"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-007",
+      "subject": "STAR_ATLAS_COUNCIL",
+      "relationship": "VERIFIES",
+      "object": "MILESTONES_AND_PAYMENTS",
+      "supporting_pips": [
+        22,
+        31,
+        32,
+        33
+      ],
+      "source_ids": [
+        "SRC-PIP-22-D5D61E64",
+        "SRC-PIP-31-E71FB1A7",
+        "SRC-PIP-32-0B04FF9B",
+        "SRC-PIP-33-397FEE39"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-008",
+      "subject": "PIP_23",
+      "relationship": "SUPERSEDES",
+      "object": "PIP_4",
+      "supporting_pips": [
+        23,
+        4
+      ],
+      "source_ids": [
+        "SRC-PIP-23-0ECF2928",
+        "SRC-PIP-04-AD1945D8"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-009",
+      "subject": "PIP_10",
+      "relationship": "MODIFIES_AND_EXTENDS",
+      "object": "PIP_3",
+      "supporting_pips": [
+        10,
+        3
+      ],
+      "source_ids": [
+        "SRC-PIP-10-ED887A4E",
+        "SRC-PIP-03-F5E7CDE1"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-010",
+      "subject": "PIP_13",
+      "relationship": "FAILED_ATTEMPT_TO_MODIFY",
+      "object": "PIP_10",
+      "supporting_pips": [
+        13,
+        10
+      ],
+      "source_ids": [
+        "SRC-PIP-13-B721D8E7",
+        "SRC-PIP-10-ED887A4E"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    },
+    {
+      "relationship_id": "GOV-REL-011",
+      "subject": "PIP_27",
+      "relationship": "IMPLEMENTS_ELECTION_REQUIRED_BY",
+      "object": "PIP_20",
+      "supporting_pips": [
+        27,
+        20
+      ],
+      "source_ids": [
+        "SRC-PIP-27-064D252C",
+        "SRC-PIP-20-159CB743"
+      ],
+      "review_basis": "PIP corpus review and captured official proposal text",
+      "canonical_graph_status": "PROPOSED_ONLY"
+    }
+  ]
+}

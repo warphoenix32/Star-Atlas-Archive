@@ -1,0 +1,152 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "status": "PASS",
+  "corpus": {
+    "raw_social_rows": 799,
+    "unique_posts": 796,
+    "original_posts": 528,
+    "retweets": 268,
+    "pips_reviewed": 33
+  },
+  "social_candidates": {
+    "before": {
+      "promotion_candidates": 345,
+      "timeline_candidates": 65
+    },
+    "after": {
+      "promotion_candidates": 28,
+      "timeline_candidates": 26
+    },
+    "promotion_exclusions": 768,
+    "timeline_exclusions": 770,
+    "promotion_confidence": {
+      "HIGH": 7,
+      "MEDIUM": 21
+    },
+    "timeline_confidence": {
+      "HIGH": 4,
+      "MEDIUM": 22
+    },
+    "promotion_dispositions": {
+      "HIGH_PRIORITY": 7,
+      "LOW_PRIORITY": 1,
+      "MEDIUM_PRIORITY": 20,
+      "NOT_ELIGIBLE": 768
+    },
+    "promotion_exclusion_reasons": {
+      "CLAIM_EXPLICITLY_NEGATED_OR_PRESENTED_AS_A_JOKE": 1,
+      "DUPLICATE_OF_STRONGER_CANDIDATE": 19,
+      "NO_DISCRETE_EVIDENCE_BEARING_CLAIM": 220,
+      "NO_IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT": 256,
+      "PRIMARILY_MARKETING_OR_ENGAGEMENT_CONTENT": 2,
+      "QUESTION_WITHOUT_SUBSTANTIVE_ANSWER": 2,
+      "RETWEET_NOT_FIRST_PARTY_CANONICAL_CLAIM": 268
+    },
+    "timeline_exclusion_reasons": {
+      "CLAIM_EXPLICITLY_NEGATED_OR_PRESENTED_AS_A_JOKE": 1,
+      "DUPLICATE_OR_REPEATED_REMINDER": 19,
+      "GENERAL_PROMOTIONAL_OR_ENGAGEMENT_LANGUAGE": 2,
+      "NO_IDENTIFIABLE_EVENT_ENTITY_OR_SYSTEM": 6,
+      "NO_MATERIALLY_DATEABLE_EVENT": 474,
+      "RETWEET_WITHOUT_INDEPENDENT_FIRST_PARTY_CONTEXT": 268
+    },
+    "duplicate_clusters": 25
+  },
+  "governance": {
+    "result_counts": {
+      "ELECTION_RESULT_RECORDED": 2,
+      "FAILED": 4,
+      "PASSED": 24,
+      "UNKNOWN": 3
+    },
+    "passed_binary_pips": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+    ],
+    "failed_binary_pips": [
+      13,
+      15,
+      19,
+      26
+    ],
+    "election_pips": [
+      6,
+      7,
+      11,
+      25,
+      27
+    ],
+    "unresolved_election_pips": [
+      11,
+      25,
+      27
+    ],
+    "supersession_and_dependencies": [
+      {
+        "from": 23,
+        "relation": "SUPERSEDES",
+        "to": 4
+      },
+      {
+        "from": 10,
+        "relation": "MODIFIES_AND_EXTENDS",
+        "to": 3
+      },
+      {
+        "from": 13,
+        "relation": "FAILED_ATTEMPT_TO_MODIFY",
+        "to": 10
+      },
+      {
+        "from": 20,
+        "relation": "ESTABLISHES_PROGRAM_FOR",
+        "to": 27
+      },
+      {
+        "from": 9,
+        "relation": "GOVERNS_STV_METHOD_USED_BY",
+        "to": 27
+      },
+      {
+        "from": 8,
+        "relation": "EXPANDED_BY",
+        "to": 18
+      }
+    ],
+    "implementation_evidence_gaps": 33,
+    "canonical_promotion_recommendations": [
+      "knowledge/governance/Star-Atlas-DAO.md",
+      "knowledge/governance/Star-Atlas-Foundation.md",
+      "knowledge/governance/Star-Atlas-Council.md",
+      "knowledge/economy/Ecosystem-Fund.md",
+      "knowledge/governance/PIP-Registry.md",
+      "knowledge/governance/Governance-Programs.md",
+      "knowledge/timeline/"
+    ]
+  },
+  "warnings": [
+    "Inherited Wave 1.5 reconciliation baseline contains 962 records while the legacy validator expects 960; unrelated reconciliation records are unchanged."
+  ]
+}

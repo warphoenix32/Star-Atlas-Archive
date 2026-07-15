@@ -4,26 +4,80 @@ Overall status: **PASS**
 
 ## Checks
 
-- **PASS — Raw and normalized counts**: 799 raw rows; 796 normalized posts
-- **PASS — Unique post IDs reconcile**: 796 unique evidence IDs and 796 semantic IDs
-- **PASS — Duplicate rows remain documented**: Three duplicate export rows remain in the preserved raw CSV
-- **PASS — Original/retweet counts**: 528 originals and 268 explicit retweets
-- **PASS — PIP sequence and UUIDs**: PIP-1 through PIP-33; 33 unique UUIDs
-- **PASS — Source ID uniqueness**: 829 campaign source IDs are unique
-- **PASS — URL validity**: All social and governance URLs are absolute HTTPS URLs
-- **PASS — Controlled social taxonomies**: All assigned social tags are controlled values
-- **PASS — Retweet evidence boundary**: No retweet is promoted as an original first-party claim
-- **PASS — Governance lifecycle separation**: Proposal, vote, approval, and execution use distinct fields
-- **PASS — Execution evidence rule**: No execution inferred from a passed vote
-- **PASS — No orphan semantic records**: Every semantic record has a source record
+- **PASS — deterministic_regeneration**: `True`
+- **PASS — campaign_files_checked**: `904`
+- **PASS — json_documents_parsed**: `885`
+- **PASS — jsonl_records_parsed**: `3184`
+- **PASS — raw_rows**: `True`
+- **PASS — social_decision_coverage**: `True`
+- **PASS — unique_post_ids_reconcile**: `True`
+- **PASS — original_retweet_counts**: `True`
+- **PASS — semantic_text_preserved**: `True`
+- **PASS — retweets_not_promoted**: `True`
+- **PASS — promotion_decisions_complete**: `True`
+- **PASS — timeline_decisions_complete**: `True`
+- **PASS — promotion_candidates_reconcile**: `True`
+- **PASS — timeline_candidates_reconcile**: `True`
+- **PASS — duplicate_clusters_reconcile**: `True`
+- **PASS — social_urls_valid**: `True`
+- **PASS — pip_sequence**: `True`
+- **PASS — pip_uuids**: `True`
+- **PASS — pip_required_metadata**: `True`
+- **PASS — pip_human_review_complete**: `True`
+- **PASS — binary_result_rule**: `True`
+- **PASS — abstention_non_decisive**: `True`
+- **PASS — elections_not_binary**: `True`
+- **PASS — required_failed_pips**: `True`
+- **PASS — unresolved_elections**: `True`
+- **PASS — pip_23_supersedes_4**: `True`
+- **PASS — stale_status_separated**: `True`
+- **PASS — implementation_evidence_boundary**: `True`
+- **PASS — pip_promotion_inputs**: `True`
+- **PASS — no_orphan_pips**: `True`
+- **PASS — no_orphan_social_records**: `True`
+- **PASS — pip_1_checksum**: `True`
+- **PASS — pip_2_checksum**: `True`
+- **PASS — pip_3_checksum**: `True`
+- **PASS — pip_4_checksum**: `True`
+- **PASS — pip_5_checksum**: `True`
+- **PASS — pip_6_checksum**: `True`
+- **PASS — pip_7_checksum**: `True`
+- **PASS — pip_8_checksum**: `True`
+- **PASS — pip_9_checksum**: `True`
+- **PASS — pip_10_checksum**: `True`
+- **PASS — pip_11_checksum**: `True`
+- **PASS — pip_12_checksum**: `True`
+- **PASS — pip_13_checksum**: `True`
+- **PASS — pip_14_checksum**: `True`
+- **PASS — pip_15_checksum**: `True`
+- **PASS — pip_16_checksum**: `True`
+- **PASS — pip_17_checksum**: `True`
+- **PASS — pip_18_checksum**: `True`
+- **PASS — pip_19_checksum**: `True`
+- **PASS — pip_20_checksum**: `True`
+- **PASS — pip_21_checksum**: `True`
+- **PASS — pip_22_checksum**: `True`
+- **PASS — pip_23_checksum**: `True`
+- **PASS — pip_24_checksum**: `True`
+- **PASS — pip_25_checksum**: `True`
+- **PASS — pip_26_checksum**: `True`
+- **PASS — pip_27_checksum**: `True`
+- **PASS — pip_28_checksum**: `True`
+- **PASS — pip_29_checksum**: `True`
+- **PASS — pip_30_checksum**: `True`
+- **PASS — pip_31_checksum**: `True`
+- **PASS — pip_32_checksum**: `True`
+- **PASS — pip_33_checksum**: `True`
+- **PASS — source_ids_unique**: `True`
+- **PASS — no_source_id_collisions**: `True`
+- **PASS — schema_tests**: `True`
+- **PASS — pipeline_tests**: `True`
+- **PASS — canonical_layers_unchanged**: `True`
+- **PASS — revision_allowed_paths_only**: `True`
+- **PASS — git_diff_check**: `True`
 
-## Scope
+## Warnings
 
-Only `archive/` and `operations/campaigns/social-governance-semantic-enrichment/` are changed by this campaign. Canonical knowledge, graph facts, and publication outputs remain untouched.
-
-## Repository validation context
-
-- The three standalone schema compatibility tests pass.
-- The five pipeline test functions pass when invoked directly; `pytest` is not installed in the available runtimes.
-- The legacy `validate_wave_1_5.py` validator reports a baseline mismatch: it expects 960 reconciliation files while current `main` contains 962. This campaign does not add or modify reconciliation files.
-- Campaign-specific dependency-free validation parses all campaign JSON/JSONL, verifies manifest hashes, checks source-ID collisions, and reconciles every social and governance record.
+- Inherited Wave 1.5 reconciliation baseline contains 962 records while the legacy validator expects 960; unrelated reconciliation records are unchanged.
+- Confidence measures extraction quality, not factual truth.
+- Linked social-media binaries remain outside the supplied package.

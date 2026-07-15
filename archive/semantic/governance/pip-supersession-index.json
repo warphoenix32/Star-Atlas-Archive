@@ -1,0 +1,50 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "2.0.0",
+  "capture_timestamp": "2026-07-15T03:41:40Z",
+  "relationship_count": 6,
+  "relationships": [
+    {
+      "source_id": "SRC-PIP-23-0ECF2928",
+      "from_pip": 23,
+      "relationship": "SUPERSEDES",
+      "to_pip": 4,
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-10-ED887A4E",
+      "from_pip": 10,
+      "relationship": "MODIFIES_AND_EXTENDS",
+      "to_pip": 3,
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-13-B721D8E7",
+      "from_pip": 13,
+      "relationship": "FAILED_ATTEMPT_TO_MODIFY",
+      "to_pip": 10,
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-20-159CB743",
+      "from_pip": 20,
+      "relationship": "ESTABLISHES_PROGRAM_FOR",
+      "to_pip": 27,
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-09-1CC4BB6F",
+      "from_pip": 9,
+      "relationship": "GOVERNS_STV_METHOD_USED_BY",
+      "to_pip": 27,
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-08-62506041",
+      "from_pip": 8,
+      "relationship": "EXPANDED_BY",
+      "to_pip": 18,
+      "human_review_status": "REVIEWED"
+    }
+  ]
+}
