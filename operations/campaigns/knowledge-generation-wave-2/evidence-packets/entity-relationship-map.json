@@ -1,0 +1,75 @@
+{
+  "page_id": "entity-relationship-map",
+  "proposed_path": "knowledge/Entity-Relationship-Map.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 4,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Star Atlas ecosystem",
+    "Star Atlas DAO",
+    "Star Atlas Foundation",
+    "Star Atlas Council",
+    "ATMTA",
+    "Ecosystem Fund",
+    "SAGE",
+    "SCORE / Faction Fleet",
+    "UE5 Showroom",
+    "Galactic Marketplace"
+  ],
+  "aliases": [
+    "Star Atlas institutional map",
+    "Star Atlas knowledge ontology"
+  ],
+  "scope": "Human-readable navigation and relationship map across reviewed institutional, governance, product, economy, technology, and source-profile knowledge pages.",
+  "material_claims": [
+    {
+      "claim_id": "ERM-001",
+      "claim_text": "The DAO, Foundation, Council, ATMTA, and Ecosystem Fund are related but institutionally distinct entities or instruments.",
+      "claim_type": "INSTITUTIONAL_RELATIONSHIP",
+      "temporal_scope": "As of 2026-07-15",
+      "lifecycle_state": "CURRENT_REVIEWED_MODEL",
+      "supporting_sources": [
+        "knowledge/governance/PIP-Registry.md",
+        "knowledge/governance/Governance-and-Economy-Overview.md",
+        "knowledge/organizations/Institutional-Overview.md"
+      ],
+      "source_authority": "A1/A3 REVIEWED KNOWLEDGE SYNTHESIS",
+      "corroboration_status": "CORROBORATED",
+      "contradiction_status": "NO_MATERIAL_CONTRADICTION_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ERM-002",
+      "claim_text": "The principal gameplay pages are related through fleet, strategy, marketplace, asset, and client-surface functions, but product relationships do not prove delivery of every roadmap feature.",
+      "claim_type": "PRODUCT_RELATIONSHIP",
+      "temporal_scope": "Historical and current through 2026-07-15",
+      "lifecycle_state": "MIXED",
+      "supporting_sources": [
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/gameplay/SAGE.md",
+        "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+        "knowledge/gameplay/UE5-Showroom.md",
+        "knowledge/gameplay/Galactic-Marketplace.md"
+      ],
+      "source_authority": "A2 REVIEWED KNOWLEDGE SYNTHESIS",
+      "corroboration_status": "CORROBORATED_WITH_PAGE_LEVEL_QUALIFICATIONS",
+      "contradiction_status": "NO_MATERIAL_CONTRADICTION_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "This page is a navigational ontology, not a canonical graph export.",
+    "Each linked page's evidence qualifications control interpretation of the summarized relationship."
+  ],
+  "research_gaps": [
+    "Current staff, service-provider, and product relationships require periodic review.",
+    "Discord-dependent source profiles remain deferred until PR #15 is merged."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}
