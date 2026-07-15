@@ -1,6 +1,6 @@
 {
   "campaign_id": "star-atlas-transcripts-semantic-2026-07",
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "generated_from": "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
   "source_count": 36,
   "sources": [
@@ -99,18 +99,12 @@
         "TECHNOLOGY": 8
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 1,
-        "CLARIFICATION": 6,
-        "COMMUNITY_FEEDBACK": 8,
+        "CLARIFICATION": 2,
+        "COMMUNITY_FEEDBACK": 4,
         "CORRECTION": 1,
-        "DESIGN_INTENT": 6,
-        "DISCUSSION": 3,
-        "Q_AND_A": 9,
-        "RETROSPECTIVE": 2,
-        "ROADMAP": 28,
-        "SPECULATION": 55,
-        "STATUS_UPDATE": 18,
-        "TECHNICAL_EXPLANATION": 5
+        "DISCUSSION": 49,
+        "Q_AND_A": 5,
+        "RETROSPECTIVE": 2
       }
     },
     {
@@ -177,18 +171,9 @@
         "TECHNOLOGY": 5
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 3,
-        "COMMUNITY_FEEDBACK": 1,
         "CORRECTION": 1,
-        "DESIGN_INTENT": 4,
-        "DISCUSSION": 1,
-        "Q_AND_A": 3,
-        "RELEASE": 1,
-        "RETROSPECTIVE": 2,
-        "ROADMAP": 17,
-        "SPECULATION": 25,
-        "STATUS_UPDATE": 16,
-        "TECHNICAL_EXPLANATION": 2,
+        "DISCUSSION": 29,
+        "Q_AND_A": 2,
         "THEORYCRAFTING": 1
       }
     },
@@ -269,14 +254,8 @@
         "TECHNOLOGY": 2
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 1,
-        "COMMUNITY_FEEDBACK": 3,
-        "DESIGN_INTENT": 11,
-        "Q_AND_A": 12,
-        "ROADMAP": 37,
-        "SPECULATION": 35,
-        "STATUS_UPDATE": 8,
-        "TECHNICAL_EXPLANATION": 2
+        "DISCUSSION": 43,
+        "Q_AND_A": 1
       }
     },
     {
@@ -385,18 +364,11 @@
         "TECHNOLOGY": 14
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 3,
-        "CLARIFICATION": 2,
-        "COMMUNITY_FEEDBACK": 8,
         "CORRECTION": 2,
-        "DESIGN_INTENT": 9,
-        "DISCUSSION": 1,
-        "Q_AND_A": 16,
-        "RETROSPECTIVE": 5,
-        "ROADMAP": 50,
-        "SPECULATION": 64,
-        "STATUS_UPDATE": 37,
-        "TECHNICAL_EXPLANATION": 8
+        "DISCUSSION": 66,
+        "Q_AND_A": 4,
+        "RETROSPECTIVE": 1,
+        "STATUS_UPDATE": 1
       }
     },
     {
@@ -489,18 +461,10 @@
         "TECHNOLOGY": 21
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 7,
-        "CLARIFICATION": 6,
-        "COMMUNITY_FEEDBACK": 5,
-        "DESIGN_INTENT": 6,
-        "Q_AND_A": 6,
-        "RELEASE": 1,
-        "RETROSPECTIVE": 1,
-        "ROADMAP": 34,
-        "SPECULATION": 46,
-        "STATUS_UPDATE": 13,
-        "TECHNICAL_EXPLANATION": 15,
-        "THEORYCRAFTING": 1
+        "CLARIFICATION": 2,
+        "DISCUSSION": 47,
+        "Q_AND_A": 7,
+        "RELEASE": 1
       }
     },
     {
@@ -605,17 +569,9 @@
         "TECHNOLOGY": 8
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 3,
-        "CLARIFICATION": 1,
-        "COMMUNITY_FEEDBACK": 9,
-        "DESIGN_INTENT": 12,
-        "Q_AND_A": 5,
-        "RELEASE": 1,
-        "RETROSPECTIVE": 4,
-        "ROADMAP": 38,
-        "SPECULATION": 66,
-        "STATUS_UPDATE": 23,
-        "TECHNICAL_EXPLANATION": 2
+        "DISCUSSION": 62,
+        "Q_AND_A": 3,
+        "RETROSPECTIVE": 3
       }
     },
     {
@@ -717,19 +673,12 @@
         "TECHNOLOGY": 9
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 6,
-        "CLARIFICATION": 4,
-        "COMMUNITY_FEEDBACK": 6,
+        "CLARIFICATION": 2,
+        "COMMUNITY_FEEDBACK": 3,
         "CORRECTION": 1,
-        "DESIGN_INTENT": 14,
-        "DISCUSSION": 4,
-        "Q_AND_A": 8,
-        "RELEASE": 1,
-        "RETROSPECTIVE": 10,
-        "ROADMAP": 39,
-        "SPECULATION": 51,
-        "STATUS_UPDATE": 24,
-        "TECHNICAL_EXPLANATION": 4
+        "DISCUSSION": 52,
+        "Q_AND_A": 5,
+        "RETROSPECTIVE": 4
       }
     },
     {
@@ -794,17 +743,8 @@
         "TECHNOLOGY": 15
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 2,
-        "CLARIFICATION": 3,
-        "COMMUNITY_FEEDBACK": 6,
-        "DESIGN_INTENT": 4,
-        "Q_AND_A": 7,
-        "RELEASE": 2,
-        "RETROSPECTIVE": 1,
-        "ROADMAP": 16,
-        "SPECULATION": 28,
-        "STATUS_UPDATE": 5,
-        "TECHNICAL_EXPLANATION": 13
+        "CLARIFICATION": 1,
+        "DISCUSSION": 29
       }
     },
     {
@@ -893,17 +833,9 @@
         "TECHNOLOGY": 11
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 4,
-        "CLARIFICATION": 3,
-        "COMMUNITY_FEEDBACK": 7,
-        "DESIGN_INTENT": 11,
-        "DISCUSSION": 1,
-        "Q_AND_A": 9,
-        "RETROSPECTIVE": 2,
-        "ROADMAP": 30,
-        "SPECULATION": 49,
-        "STATUS_UPDATE": 5,
-        "TECHNICAL_EXPLANATION": 6
+        "CLARIFICATION": 2,
+        "DISCUSSION": 52,
+        "RETROSPECTIVE": 1
       }
     },
     {
@@ -965,16 +897,9 @@
         "TECHNOLOGY": 5
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 1,
-        "DESIGN_INTENT": 3,
-        "DISCUSSION": 2,
+        "DISCUSSION": 27,
         "Q_AND_A": 1,
-        "RELEASE": 1,
-        "RETROSPECTIVE": 1,
-        "ROADMAP": 23,
-        "SPECULATION": 22,
-        "STATUS_UPDATE": 10,
-        "TECHNICAL_EXPLANATION": 2
+        "RETROSPECTIVE": 1
       }
     },
     {
@@ -1038,15 +963,8 @@
         "TECHNOLOGY": 7
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 4,
-        "COMMUNITY_FEEDBACK": 1,
-        "CORRECTION": 1,
-        "DESIGN_INTENT": 2,
-        "Q_AND_A": 5,
-        "ROADMAP": 19,
-        "SPECULATION": 28,
-        "STATUS_UPDATE": 11,
-        "TECHNICAL_EXPLANATION": 4
+        "DISCUSSION": 30,
+        "Q_AND_A": 1
       }
     },
     {
@@ -1114,18 +1032,11 @@
         "TECHNOLOGY": 2
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 6,
         "CLARIFICATION": 1,
-        "COMMUNITY_FEEDBACK": 1,
-        "DESIGN_INTENT": 7,
-        "DISCUSSION": 1,
-        "Q_AND_A": 9,
-        "RELEASE": 2,
-        "RETROSPECTIVE": 3,
-        "ROADMAP": 23,
-        "SPECULATION": 28,
-        "STATUS_UPDATE": 6,
-        "TECHNICAL_EXPLANATION": 1,
+        "DISCUSSION": 29,
+        "Q_AND_A": 1,
+        "ROADMAP": 1,
+        "SPECULATION": 1,
         "THEORYCRAFTING": 1
       }
     },
@@ -1197,17 +1108,10 @@
         "TECHNOLOGY": 7
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 2,
-        "CLARIFICATION": 2,
-        "DESIGN_INTENT": 14,
-        "DISCUSSION": 2,
-        "Q_AND_A": 10,
-        "RELEASE": 7,
-        "RETROSPECTIVE": 2,
-        "ROADMAP": 22,
-        "SPECULATION": 27,
-        "STATUS_UPDATE": 22,
-        "TECHNICAL_EXPLANATION": 4
+        "DISCUSSION": 34,
+        "Q_AND_A": 1,
+        "RELEASE": 1,
+        "RETROSPECTIVE": 1
       }
     },
     {
@@ -1275,16 +1179,8 @@
         "TECHNOLOGY": 6
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 7,
-        "COMMUNITY_FEEDBACK": 3,
-        "DESIGN_INTENT": 11,
-        "Q_AND_A": 12,
-        "RELEASE": 7,
-        "RETROSPECTIVE": 3,
-        "ROADMAP": 30,
-        "SPECULATION": 29,
-        "STATUS_UPDATE": 22,
-        "TECHNICAL_EXPLANATION": 4
+        "DISCUSSION": 30,
+        "RETROSPECTIVE": 3
       }
     },
     {
@@ -1349,16 +1245,12 @@
         "TECHNOLOGY": 10
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 6,
-        "CLARIFICATION": 3,
-        "COMMUNITY_FEEDBACK": 3,
-        "Q_AND_A": 7,
-        "RELEASE": 6,
-        "RETROSPECTIVE": 2,
-        "ROADMAP": 22,
-        "SPECULATION": 27,
-        "STATUS_UPDATE": 12,
-        "TECHNICAL_EXPLANATION": 1
+        "CLARIFICATION": 1,
+        "COMMUNITY_FEEDBACK": 1,
+        "DISCUSSION": 23,
+        "Q_AND_A": 3,
+        "RELEASE": 3,
+        "RETROSPECTIVE": 2
       }
     },
     {
@@ -1428,15 +1320,10 @@
         "TECHNOLOGY": 2
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 7,
-        "DESIGN_INTENT": 4,
-        "Q_AND_A": 7,
-        "RELEASE": 5,
-        "RETROSPECTIVE": 5,
-        "ROADMAP": 26,
-        "SPECULATION": 31,
-        "STATUS_UPDATE": 13,
-        "TECHNICAL_EXPLANATION": 1
+        "DISCUSSION": 28,
+        "Q_AND_A": 2,
+        "RELEASE": 3,
+        "RETROSPECTIVE": 3
       }
     },
     {
@@ -1510,18 +1397,11 @@
         "TECHNOLOGY": 15
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 2,
-        "CLARIFICATION": 1,
-        "COMMUNITY_FEEDBACK": 3,
-        "DESIGN_INTENT": 9,
-        "DISCUSSION": 1,
-        "Q_AND_A": 12,
-        "RELEASE": 7,
-        "RETROSPECTIVE": 5,
-        "ROADMAP": 17,
-        "SPECULATION": 35,
-        "STATUS_UPDATE": 16,
-        "TECHNICAL_EXPLANATION": 6,
+        "DISCUSSION": 34,
+        "Q_AND_A": 3,
+        "RELEASE": 2,
+        "RETROSPECTIVE": 1,
+        "SPECULATION": 1,
         "THEORYCRAFTING": 1
       }
     },
@@ -1592,19 +1472,11 @@
         "TECHNOLOGY": 8
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 11,
-        "CLARIFICATION": 2,
-        "COMMUNITY_FEEDBACK": 1,
+        "CLARIFICATION": 1,
         "CORRECTION": 1,
-        "DESIGN_INTENT": 4,
-        "DISCUSSION": 1,
-        "Q_AND_A": 6,
-        "RELEASE": 7,
-        "RETROSPECTIVE": 2,
-        "ROADMAP": 28,
-        "SPECULATION": 28,
-        "STATUS_UPDATE": 10,
-        "TECHNICAL_EXPLANATION": 4
+        "DISCUSSION": 34,
+        "Q_AND_A": 1,
+        "RETROSPECTIVE": 1
       }
     },
     {
@@ -1672,18 +1544,13 @@
         "TECHNOLOGY": 7
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 2,
-        "CLARIFICATION": 3,
-        "COMMUNITY_FEEDBACK": 1,
+        "CLARIFICATION": 2,
         "CORRECTION": 1,
-        "DESIGN_INTENT": 7,
-        "Q_AND_A": 8,
-        "RELEASE": 6,
+        "DISCUSSION": 25,
+        "Q_AND_A": 4,
+        "RELEASE": 2,
         "RETROSPECTIVE": 2,
-        "ROADMAP": 22,
-        "SPECULATION": 28,
-        "STATUS_UPDATE": 7,
-        "TECHNICAL_EXPLANATION": 3
+        "SPECULATION": 1
       }
     },
     {
@@ -1755,18 +1622,10 @@
         "TECHNOLOGY": 10
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 9,
         "CLARIFICATION": 2,
-        "COMMUNITY_FEEDBACK": 1,
-        "DESIGN_INTENT": 10,
-        "DISCUSSION": 1,
-        "Q_AND_A": 6,
-        "RELEASE": 3,
-        "RETROSPECTIVE": 2,
-        "ROADMAP": 23,
-        "SPECULATION": 29,
-        "STATUS_UPDATE": 17,
-        "TECHNICAL_EXPLANATION": 2,
+        "DISCUSSION": 28,
+        "Q_AND_A": 5,
+        "SPECULATION": 2,
         "THEORYCRAFTING": 1
       }
     },
@@ -1841,18 +1700,10 @@
         "TECHNOLOGY": 14
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 6,
-        "COMMUNITY_FEEDBACK": 2,
         "CORRECTION": 1,
-        "DESIGN_INTENT": 6,
-        "DISCUSSION": 1,
-        "Q_AND_A": 7,
-        "RELEASE": 8,
-        "RETROSPECTIVE": 3,
-        "ROADMAP": 27,
-        "SPECULATION": 29,
-        "STATUS_UPDATE": 14,
-        "TECHNICAL_EXPLANATION": 8
+        "DISCUSSION": 33,
+        "Q_AND_A": 2,
+        "RETROSPECTIVE": 1
       }
     },
     {
@@ -1922,18 +1773,10 @@
         "TECHNOLOGY": 11
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 1,
         "CLARIFICATION": 1,
-        "COMMUNITY_FEEDBACK": 3,
-        "DESIGN_INTENT": 10,
-        "DISCUSSION": 3,
-        "Q_AND_A": 7,
-        "RELEASE": 5,
-        "RETROSPECTIVE": 1,
-        "ROADMAP": 19,
-        "SPECULATION": 27,
-        "STATUS_UPDATE": 20,
-        "TECHNICAL_EXPLANATION": 3
+        "DISCUSSION": 34,
+        "Q_AND_A": 2,
+        "RETROSPECTIVE": 1
       }
     },
     {
@@ -2062,19 +1905,15 @@
         "TECHNOLOGY": 35
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 15,
-        "CLARIFICATION": 4,
-        "COMMUNITY_FEEDBACK": 5,
+        "CLARIFICATION": 1,
+        "COMMUNITY_FEEDBACK": 2,
         "CORRECTION": 1,
-        "DESIGN_INTENT": 17,
-        "DISCUSSION": 1,
-        "Q_AND_A": 12,
-        "RELEASE": 14,
-        "RETROSPECTIVE": 12,
-        "ROADMAP": 79,
-        "SPECULATION": 70,
-        "STATUS_UPDATE": 34,
-        "TECHNICAL_EXPLANATION": 25,
+        "DISCUSSION": 73,
+        "Q_AND_A": 6,
+        "RELEASE": 4,
+        "RETROSPECTIVE": 3,
+        "ROADMAP": 1,
+        "SPECULATION": 2,
         "THEORYCRAFTING": 2
       }
     },
@@ -2181,18 +2020,12 @@
         "TECHNOLOGY": 19
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 7,
-        "CLARIFICATION": 3,
-        "COMMUNITY_FEEDBACK": 9,
-        "DESIGN_INTENT": 17,
-        "DISCUSSION": 2,
-        "Q_AND_A": 16,
-        "RELEASE": 17,
+        "COMMUNITY_FEEDBACK": 1,
+        "DISCUSSION": 54,
+        "Q_AND_A": 7,
+        "RELEASE": 4,
         "RETROSPECTIVE": 2,
-        "ROADMAP": 43,
-        "SPECULATION": 40,
-        "STATUS_UPDATE": 17,
-        "TECHNICAL_EXPLANATION": 8
+        "SPECULATION": 1
       }
     },
     {
@@ -2283,17 +2116,15 @@
         "TECHNOLOGY": 27
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 7,
-        "CLARIFICATION": 3,
-        "COMMUNITY_FEEDBACK": 3,
-        "DESIGN_INTENT": 21,
-        "Q_AND_A": 21,
-        "RELEASE": 23,
-        "RETROSPECTIVE": 8,
-        "ROADMAP": 41,
-        "SPECULATION": 48,
-        "STATUS_UPDATE": 22,
-        "TECHNICAL_EXPLANATION": 9,
+        "CLARIFICATION": 1,
+        "DESIGN_INTENT": 1,
+        "DISCUSSION": 37,
+        "Q_AND_A": 6,
+        "RELEASE": 6,
+        "RETROSPECTIVE": 2,
+        "ROADMAP": 1,
+        "SPECULATION": 1,
+        "STATUS_UPDATE": 1,
         "THEORYCRAFTING": 1
       }
     },
@@ -2355,17 +2186,8 @@
         "TECHNOLOGY": 4
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 6,
-        "COMMUNITY_FEEDBACK": 1,
-        "DESIGN_INTENT": 5,
-        "DISCUSSION": 2,
-        "Q_AND_A": 13,
-        "RELEASE": 2,
-        "RETROSPECTIVE": 3,
-        "ROADMAP": 14,
-        "SPECULATION": 23,
-        "STATUS_UPDATE": 13,
-        "TECHNICAL_EXPLANATION": 3
+        "DISCUSSION": 27,
+        "RETROSPECTIVE": 1
       }
     },
     {
@@ -2445,18 +2267,11 @@
         "TECHNOLOGY": 14
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 6,
-        "CLARIFICATION": 1,
-        "COMMUNITY_FEEDBACK": 2,
-        "DESIGN_INTENT": 16,
-        "DISCUSSION": 4,
-        "Q_AND_A": 18,
-        "RELEASE": 12,
-        "RETROSPECTIVE": 7,
-        "ROADMAP": 19,
-        "SPECULATION": 28,
-        "STATUS_UPDATE": 11,
-        "TECHNICAL_EXPLANATION": 8
+        "COMMUNITY_FEEDBACK": 1,
+        "DISCUSSION": 37,
+        "Q_AND_A": 2,
+        "RELEASE": 1,
+        "RETROSPECTIVE": 2
       }
     },
     {
@@ -2556,18 +2371,13 @@
         "TECHNOLOGY": 16
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 10,
-        "CLARIFICATION": 5,
-        "COMMUNITY_FEEDBACK": 4,
-        "DESIGN_INTENT": 9,
-        "DISCUSSION": 3,
-        "Q_AND_A": 13,
-        "RELEASE": 18,
-        "RETROSPECTIVE": 4,
-        "ROADMAP": 55,
-        "SPECULATION": 54,
-        "STATUS_UPDATE": 33,
-        "TECHNICAL_EXPLANATION": 8
+        "CLARIFICATION": 2,
+        "COMMUNITY_FEEDBACK": 1,
+        "DISCUSSION": 43,
+        "Q_AND_A": 16,
+        "RELEASE": 5,
+        "RETROSPECTIVE": 1,
+        "SPECULATION": 2
       }
     },
     {
@@ -2702,18 +2512,14 @@
         "TECHNOLOGY": 25
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 24,
         "CLARIFICATION": 2,
-        "COMMUNITY_FEEDBACK": 13,
-        "DESIGN_INTENT": 17,
-        "DISCUSSION": 4,
-        "Q_AND_A": 5,
-        "RELEASE": 9,
-        "RETROSPECTIVE": 9,
-        "ROADMAP": 75,
-        "SPECULATION": 66,
-        "STATUS_UPDATE": 34,
-        "TECHNICAL_EXPLANATION": 11
+        "COMMUNITY_FEEDBACK": 1,
+        "DISCUSSION": 85,
+        "Q_AND_A": 6,
+        "RELEASE": 2,
+        "RETROSPECTIVE": 1,
+        "SPECULATION": 1,
+        "STATUS_UPDATE": 1
       }
     },
     {
@@ -2788,17 +2594,12 @@
         "TECHNOLOGY": 17
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 7,
-        "CLARIFICATION": 5,
-        "COMMUNITY_FEEDBACK": 1,
-        "DESIGN_INTENT": 11,
-        "Q_AND_A": 12,
-        "RELEASE": 11,
-        "RETROSPECTIVE": 2,
-        "ROADMAP": 31,
-        "SPECULATION": 33,
-        "STATUS_UPDATE": 19,
-        "TECHNICAL_EXPLANATION": 8
+        "CLARIFICATION": 2,
+        "DISCUSSION": 33,
+        "Q_AND_A": 3,
+        "RELEASE": 3,
+        "RETROSPECTIVE": 1,
+        "ROADMAP": 1
       }
     },
     {
@@ -2923,17 +2724,13 @@
         "TECHNOLOGY": 28
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 9,
-        "CLARIFICATION": 5,
-        "COMMUNITY_FEEDBACK": 4,
-        "DESIGN_INTENT": 24,
-        "Q_AND_A": 6,
-        "RELEASE": 14,
-        "RETROSPECTIVE": 5,
-        "ROADMAP": 69,
-        "SPECULATION": 63,
-        "STATUS_UPDATE": 29,
-        "TECHNICAL_EXPLANATION": 18,
+        "CLARIFICATION": 2,
+        "DISCUSSION": 76,
+        "Q_AND_A": 1,
+        "RELEASE": 5,
+        "RETROSPECTIVE": 2,
+        "ROADMAP": 1,
+        "TECHNICAL_EXPLANATION": 1,
         "THEORYCRAFTING": 1
       }
     },
@@ -3013,19 +2810,11 @@
         "TECHNOLOGY": 20
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 11,
         "CLARIFICATION": 2,
-        "COMMUNITY_FEEDBACK": 4,
-        "DESIGN_INTENT": 8,
-        "DISCUSSION": 2,
-        "Q_AND_A": 5,
-        "RELEASE": 4,
-        "RETROSPECTIVE": 3,
-        "ROADMAP": 29,
-        "SPECULATION": 24,
-        "STATUS_UPDATE": 12,
-        "TECHNICAL_EXPLANATION": 17,
-        "THEORYCRAFTING": 1
+        "DISCUSSION": 37,
+        "Q_AND_A": 2,
+        "RETROSPECTIVE": 1,
+        "TECHNICAL_EXPLANATION": 1
       }
     },
     {
@@ -3138,18 +2927,11 @@
         "TECHNOLOGY": 21
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 19,
         "CLARIFICATION": 1,
-        "COMMUNITY_FEEDBACK": 2,
-        "DESIGN_INTENT": 16,
-        "DISCUSSION": 3,
-        "Q_AND_A": 4,
-        "RELEASE": 13,
-        "RETROSPECTIVE": 4,
-        "ROADMAP": 44,
-        "SPECULATION": 50,
-        "STATUS_UPDATE": 24,
-        "TECHNICAL_EXPLANATION": 19
+        "DISCUSSION": 72,
+        "Q_AND_A": 1,
+        "RELEASE": 2,
+        "RETROSPECTIVE": 1
       }
     },
     {
@@ -3266,18 +3048,13 @@
         "TECHNOLOGY": 34
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 11,
-        "CLARIFICATION": 5,
-        "COMMUNITY_FEEDBACK": 6,
-        "DESIGN_INTENT": 19,
-        "DISCUSSION": 2,
-        "Q_AND_A": 16,
-        "RELEASE": 12,
-        "RETROSPECTIVE": 7,
-        "ROADMAP": 52,
-        "SPECULATION": 57,
-        "STATUS_UPDATE": 21,
-        "TECHNICAL_EXPLANATION": 19
+        "CLARIFICATION": 2,
+        "COMMUNITY_FEEDBACK": 1,
+        "DISCUSSION": 67,
+        "Q_AND_A": 3,
+        "RELEASE": 2,
+        "RETROSPECTIVE": 4,
+        "STATUS_UPDATE": 1
       }
     },
     {
@@ -3397,18 +3174,12 @@
         "TECHNOLOGY": 28
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 7,
-        "CLARIFICATION": 2,
-        "COMMUNITY_FEEDBACK": 8,
-        "DESIGN_INTENT": 17,
-        "DISCUSSION": 1,
-        "Q_AND_A": 10,
-        "RELEASE": 17,
-        "RETROSPECTIVE": 9,
-        "ROADMAP": 58,
-        "SPECULATION": 68,
-        "STATUS_UPDATE": 39,
-        "TECHNICAL_EXPLANATION": 8
+        "DISCUSSION": 74,
+        "Q_AND_A": 3,
+        "RELEASE": 2,
+        "RETROSPECTIVE": 3,
+        "SPECULATION": 1,
+        "STATUS_UPDATE": 1
       }
     },
     {
@@ -3556,19 +3327,16 @@
         "TECHNOLOGY": 30
       },
       "statement_counts": {
-        "ANNOUNCEMENT": 17,
-        "CLARIFICATION": 7,
-        "COMMUNITY_FEEDBACK": 9,
-        "DESIGN_INTENT": 28,
-        "DISCUSSION": 2,
-        "Q_AND_A": 6,
-        "RELEASE": 23,
-        "RETROSPECTIVE": 9,
-        "ROADMAP": 88,
-        "SPECULATION": 85,
-        "STATUS_UPDATE": 52,
-        "TECHNICAL_EXPLANATION": 23,
-        "THEORYCRAFTING": 1
+        "CLARIFICATION": 6,
+        "COMMUNITY_FEEDBACK": 1,
+        "DESIGN_INTENT": 1,
+        "DISCUSSION": 77,
+        "Q_AND_A": 19,
+        "RELEASE": 6,
+        "RETROSPECTIVE": 1,
+        "SPECULATION": 2,
+        "STATUS_UPDATE": 1,
+        "TECHNICAL_EXPLANATION": 1
       }
     }
   ]

@@ -1,8 +1,14 @@
 {
   "campaign_id": "star-atlas-transcripts-semantic-2026-07",
-  "schema_version": "1.0.0",
+  "schema_version": "2.0.0",
   "generated_from": "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
   "status": "READY_FOR_REVIEW",
+  "methodology_revision": {
+    "previous_promotion_candidates": 1909,
+    "previous_timeline_candidates": 1590,
+    "previous_quote_candidates": 526,
+    "tag_detection_separated_from_candidate_eligibility": true
+  },
   "input_counts": {
     "collections": 3,
     "sources": 36,
@@ -10,135 +16,250 @@
   },
   "output_counts": {
     "segments": 1910,
-    "entity_link_records": 1910,
     "canonical_entity_links": 1022,
     "unresolved_entity_references": 334,
-    "key_quotes": 526,
-    "timeline_candidates": 1590,
-    "promotion_candidates": 1909,
-    "research_gaps": 36,
-    "exact_duplicate_segments": 0
+    "key_quotes": 41,
+    "timeline_candidates": 83,
+    "promotion_candidates": 76,
+    "promotion_exclusions": 1834,
+    "timeline_exclusions": 1827,
+    "duplicate_clusters": 3,
+    "source_research_gaps": 36,
+    "candidate_research_gaps": 357
+  },
+  "confidence_distributions": {
+    "promotion": {
+      "HIGH": 3,
+      "LOW": 26,
+      "MEDIUM": 47
+    },
+    "timeline": {
+      "HIGH": 1,
+      "MEDIUM": 82
+    },
+    "quotes": {
+      "MEDIUM": 41
+    }
+  },
+  "promotion_priority_distribution": {
+    "HIGH_PRIORITY": 3,
+    "LOW_PRIORITY": 26,
+    "MEDIUM_PRIORITY": 47
+  },
+  "exclusion_counts": {
+    "promotion": {
+      "EVIDENCE_DENSITY_BELOW_THRESHOLD": 8,
+      "GENERIC_DISCUSSION_OR_QUESTION": 10,
+      "NO_DISCRETE_INSTITUTIONAL_CLAIM": 869,
+      "NO_IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT": 947
+    },
+    "timeline": {
+      "EVENT_EVIDENCE_DENSITY_BELOW_THRESHOLD": 8,
+      "NO_CONCRETE_EVENT_STATE_LANGUAGE": 1819
+    }
+  },
+  "candidate_counts": {
+    "promotion_by_collection": {
+      "dao": 4,
+      "economic-forum": 18,
+      "townhall": 54
+    },
+    "promotion_by_topic": {
+      "COMMUNITY": 31,
+      "CORPORATE": 22,
+      "ECONOMY": 32,
+      "EVENT": 10,
+      "GAMEPLAY": 54,
+      "GOVERNANCE": 19,
+      "GUILD": 3,
+      "LORE": 10,
+      "MARKETING": 12,
+      "OPERATIONS": 12,
+      "PARTNERSHIP": 5,
+      "PEOPLE": 2,
+      "PRODUCT": 56,
+      "TECHNOLOGY": 29
+    },
+    "promotion_by_statement_type": {
+      "CLARIFICATION": 5,
+      "COMMUNITY_FEEDBACK": 1,
+      "CORRECTION": 4,
+      "Q_AND_A": 17,
+      "RELEASE": 50,
+      "RETROSPECTIVE": 9,
+      "ROADMAP": 5,
+      "SPECULATION": 1,
+      "STATUS_UPDATE": 5,
+      "TECHNICAL_EXPLANATION": 3,
+      "THEORYCRAFTING": 1
+    },
+    "promotion_by_entity": {
+      "ACTOR-MICHAEL-WAGNER": 1,
+      "ASSET-CLAIM-STAKES": 6,
+      "ASSET-CREW": 15,
+      "ASSET-SHIPS": 19,
+      "ORG-ATMTA": 1,
+      "ORG-SA-DAO": 6,
+      "ORG-SA-FOUNDATION": 6,
+      "PRODUCT-FLEET-COMMAND": 2,
+      "PRODUCT-MARKETPLACE": 1,
+      "PRODUCT-SAGE": 47,
+      "PRODUCT-UE5": 6,
+      "TOKEN-POLIS": 2
+    },
+    "timeline_by_collection": {
+      "dao": 9,
+      "economic-forum": 16,
+      "townhall": 58
+    },
+    "timeline_by_event_type": {
+      "DEPRECATION": 6,
+      "GOVERNANCE_PROPOSAL": 2,
+      "GOVERNANCE_VOTE": 1,
+      "MIGRATION": 10,
+      "ORGANIZATIONAL_CHANGE": 2,
+      "PARTNERSHIP": 1,
+      "PUBLIC_OR_LIMITED_TESTING": 9,
+      "RELEASE_OR_DEPLOYMENT": 50,
+      "TREASURY_OR_FUNDING_ACTION": 2
+    }
+  },
+  "top_unresolved_research_gaps": {
+    "SPEAKER_ATTRIBUTION_MISSING": 159,
+    "OFFICIAL_CONFIRMATION_MISSING": 113,
+    "EVENT_DATE_UNRESOLVED": 44,
+    "EVENT_DATE_IMPRECISE": 34,
+    "EXECUTION_EVIDENCE_MISSING": 4,
+    "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY": 3
   },
   "speaker_attribution_confidence": {
     "UNKNOWN": 1910
   },
   "topic_counts": {
-    "PRODUCT": 585,
     "GAMEPLAY": 795,
+    "EVENT": 471,
     "GOVERNANCE": 596,
-    "ECONOMY": 493,
-    "TECHNOLOGY": 515,
+    "COMMUNITY": 824,
+    "OPERATIONS": 340,
+    "PRODUCT": 585,
     "LORE": 222,
     "CORPORATE": 520,
     "PEOPLE": 66,
-    "COMMUNITY": 824,
+    "TECHNOLOGY": 515,
     "PARTNERSHIP": 88,
-    "GUILD": 40,
-    "EVENT": 471,
     "MARKETING": 179,
-    "OPERATIONS": 340
+    "ECONOMY": 493,
+    "GUILD": 40
   },
   "statement_counts": {
-    "ANNOUNCEMENT": 250,
-    "CLARIFICATION": 85,
-    "COMMUNITY_FEEDBACK": 143,
-    "CORRECTION": 10,
-    "DESIGN_INTENT": 389,
-    "DISCUSSION": 48,
-    "Q_AND_A": 329,
-    "RELEASE": 259,
-    "RETROSPECTIVE": 142,
-    "ROADMAP": 1287,
-    "SPECULATION": 1496,
-    "STATUS_UPDATE": 689,
-    "TECHNICAL_EXPLANATION": 284,
-    "THEORYCRAFTING": 11
+    "CLARIFICATION": 38,
+    "COMMUNITY_FEEDBACK": 16,
+    "CORRECTION": 9,
+    "DESIGN_INTENT": 2,
+    "DISCUSSION": 1610,
+    "Q_AND_A": 128,
+    "RELEASE": 54,
+    "RETROSPECTIVE": 52,
+    "ROADMAP": 5,
+    "SPECULATION": 15,
+    "STATUS_UPDATE": 6,
+    "TECHNICAL_EXPLANATION": 3,
+    "THEORYCRAFTING": 8
   },
   "lifecycle_counts": {
-    "DEPRECATED": 12,
-    "IN_DEVELOPMENT": 86,
-    "LIVE": 41,
-    "PLANNED": 326,
-    "TESTING": 41,
-    "UNKNOWN": 89,
-    "UPDATED": 44
+    "DEPRECATED": 6,
+    "IN_DEVELOPMENT": 1,
+    "LIVE": 54,
+    "PLANNED": 5,
+    "TESTING": 17,
+    "UPDATED": 1
   },
   "evidence_counts": {
-    "CONTRADICTION": 10,
+    "CANONICAL_KNOWLEDGE": 76,
+    "CONTRADICTION": 9,
     "ENTITY_UPDATE": 772,
     "GRAPH_RELATIONSHIP": 274,
-    "LOW_VALUE": 1,
+    "LOW_VALUE": 1787,
     "RESEARCH_GAP": 1910,
-    "TIMELINE_EVENT": 1590
+    "TIMELINE_EVENT": 83
   },
   "validation": {
-    "all_json_parses": true,
     "source_ids_unique": true,
     "segment_ids_unique": true,
-    "source_ids_reconcile": true,
-    "every_segment_has_entity_link_record": true,
-    "every_segment_references_transcript": true,
-    "timestamps_non_decreasing": true,
-    "timestamps_within_source_bounds": true,
     "caption_lines_reconcile": true,
-    "no_orphan_segments": true,
-    "controlled_topics_only": true,
-    "controlled_statements_only": true,
-    "controlled_evidence_only": true,
+    "all_promotion_candidates_have_support": true,
+    "all_timeline_candidates_have_support_and_date_basis": true,
+    "all_exclusions_record_reasons": true,
+    "speaker_identity_not_inferred": true,
     "canonical_layers_untouched": true
   },
   "manifest": {
-    "artifact_count_excluding_quality_report": 10,
+    "artifact_count_excluding_quality_report": 13,
     "artifacts": [
       {
         "path": "archive/semantic/star-atlas-transcripts/collection-index.json",
         "size_bytes": 2029,
-        "sha256": "2d9e2b36d8d7964dd93f19eb6f584f5451ffe41c30be3c08537609f01837273f"
+        "sha256": "d5d2f2052bce9ff5d47d6b23c19b6a96e1dce6eaed16ab168b11537d583fb635"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/concept-index.json",
         "size_bytes": 30561,
-        "sha256": "67808fa23343fcdcfcf6ce0603f1fa091cfd5092f14b8ed734c742544e4d0d4c"
+        "sha256": "f52ed6e38a30491c240476277a7e940d8b4bb2e85cde082a07393c9fb5b12ed4"
+      },
+      {
+        "path": "archive/semantic/star-atlas-transcripts/duplicate-clusters.json",
+        "size_bytes": 1966,
+        "sha256": "4248da05a570901f7333ada6548588b6f903ce67f23a24b8159b4850348a6939"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/entity-links.json",
         "size_bytes": 721619,
-        "sha256": "360f84dafb18da46867979a28fec705aa7a313eca64599d61c4b1ad80a49e701"
+        "sha256": "f60181777fe79f8a3493f13bc2e3c9927202eac0384858294babfce47cde4cfe"
+      },
+      {
+        "path": "archive/semantic/star-atlas-transcripts/promotion-candidate-decisions.json",
+        "size_bytes": 1970946,
+        "sha256": "88b49ddb27903bb60ff81ccbc5e48632648db6d23eec19fa1a1ba3dd5b01c1e7"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/promotion-candidates.json",
-        "size_bytes": 1806742,
-        "sha256": "6f231abecde4a43726c5c1fa8d60952fe02c9aa10b1c95dcee5b8afdfc7283a3"
+        "size_bytes": 165449,
+        "sha256": "b842f558e27f676435505004acda7c01ddb57907d2d58869a13742fe9179e0ae"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/quote-index.json",
-        "size_bytes": 198570,
-        "sha256": "f4abddac1891ff90bfaa78da2aed2e67ff22360bea68c557969c662dcf7880b0"
+        "size_bytes": 45466,
+        "sha256": "ae1f96383466ff177029a128e282337d2b79306919a57f6361114d62a0ce6a3e"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/research-gaps.json",
-        "size_bytes": 11793,
-        "sha256": "0b1ecc38d5a35c37762186bb4a2f06f6da04425707df2e1acfc2921e9ee1b59a"
+        "size_bytes": 106711,
+        "sha256": "7da07bea465b1bf60f90349946907925c04bb21f360d9169ce6068610d2593b2"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/segment-index.json",
-        "size_bytes": 4505173,
-        "sha256": "3c6bae24d74fcfb99e4a1439ef6923e75436bc05946de221104db7791e506b4e"
+        "size_bytes": 6701555,
+        "sha256": "e8c0be6332b6dd193b8cd1595f4e1483bed9665c5b3275c6531248299b5cc836"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/source-index.json",
-        "size_bytes": 143089,
-        "sha256": "0db104ce4ae74aabb817311ad59ea3ec533cf6768855f393a102f3e59836bfb7"
+        "size_bytes": 136191,
+        "sha256": "7309b3b9e8b7cc3fa1a31c6ad22066cdc9bd3ec158a329c6392ea4060a8ad92a"
+      },
+      {
+        "path": "archive/semantic/star-atlas-transcripts/timeline-candidate-decisions.json",
+        "size_bytes": 1388592,
+        "sha256": "9591cea90c7e99c99e3134236ba198ac6e7f4b32ad2440fc2c1ca2061451816d"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/timeline-candidates.json",
-        "size_bytes": 1276822,
-        "sha256": "7ef2ff3e15dc238aabd6fcd1b48dd824f0142ae71928d6a24b39941e8c3b373b"
+        "size_bytes": 109687,
+        "sha256": "b7fa0ca337559bb603bc45276f84ff12458ffbc8d0afb49475b4861c65db673f"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/topic-index.json",
         "size_bytes": 265350,
-        "sha256": "f7b423b6545e4b295bc991ae25c401d24c7ce4479c250e0368c29883ba6aed22"
+        "sha256": "9af0b2254ae89722f6d15e7cb421b9dca07386a0dec4dab325cf123fbae33924"
       }
     ],
     "note": "quality-report.json is the manifest container and is excluded from its own checksum list."
@@ -146,10 +267,9 @@
   "limitations": [
     "All normalized transcripts lack systematic speaker labels; UNKNOWN is preserved rather than inferred.",
     "Original URLs are absent and publication dates are missing or partial for 33 sources.",
-    "Semantic tags are deterministic machine-assisted annotations and require human review before knowledge promotion.",
-    "Canonical entity links use only identifiers already present in repository registries; other references remain unresolved.",
-    "A lifecycle tag reflects wording in a segment and does not independently establish release, execution, or current status.",
-    "No FIRST_MENTION tag is assigned because corpus order and partial dates cannot establish historical priority.",
+    "Candidate confidence measures extraction quality, not factual truth.",
+    "Lifecycle tags are wording-based and do not establish release, approval, execution, or current status.",
+    "No FIRST_MENTION tag is assigned because corpus ordering and partial dates cannot establish historical priority.",
     "Automated transcript text may contain recognition errors."
   ]
 }

@@ -1,29 +1,48 @@
-# Star Atlas Transcript Semantic Enrichment — Validation
+# Semantic Validation Report — Revised
 
-## Passed
+Status: **PASS**
 
-- All 11 semantic JSON artifacts parse.
-- All 36 Source IDs reconcile to preserved source records and remain unique.
-- All 1,910 segment IDs are unique.
-- Segment coverage reconciles all 78,752 captions.
-- Transcript paths, exact line ranges, caption counts, and timestamps reconcile.
-- Segment ranges do not overlap within a source.
-- Every segment has one entity-link record.
-- Every canonical entity ID appears in an existing repository knowledge registry or page.
-- All 526 key-quote candidates occur verbatim at their recorded timestamps.
-- All 1,590 timeline candidates and 1,909 promotion candidates reconcile to source segments.
-- All 36 sources have a research-gap record.
-- Quality-manifest sizes and SHA-256 values reconcile.
-- Re-running the generator produces byte-identical semantic artifacts.
-- Both Python campaign scripts compile.
-- Controlled topic, statement, lifecycle, and evidence taxonomies validate.
-- No canonical knowledge, graph, or publication file is modified.
+## Checks
 
-## Review warnings
+- `json_documents_parsed`: 14
+- `source_ids_reconciled`: 36
+- `source_ids_unique`: True
+- `segment_ids_reconciled`: 1910
+- `segment_ids_unique`: True
+- `caption_lines_covered`: 78752
+- `segment_line_ranges_valid`: True
+- `segment_timestamps_valid`: True
+- `segment_ranges_non_overlapping`: True
+- `controlled_taxonomies_only`: True
+- `no_speaker_identity_inferred`: True
+- `entity_link_records_reconciled`: 1910
+- `canonical_entity_ids_registered`: True
+- `quotes_verbatim`: 41
+- `promotion_candidates_reconciled`: 76
+- `timeline_candidates_reconciled`: 83
+- `every_promotion_candidate_has_support`: True
+- `every_timeline_candidate_has_support_and_date_basis`: True
+- `promotion_decisions_reconciled`: 1910
+- `timeline_decisions_reconciled`: 1910
+- `every_exclusion_has_reason`: True
+- `all_candidate_ids_reconcile`: True
+- `duplicate_clusters_reconciled`: 3
+- `clustered_candidates`: 6
+- `research_gap_sources_reconciled`: 36
+- `candidate_research_gaps_typed`: 357
+- `quality_manifest_checksums_match`: True
+- `generator_deterministic`: True
+- `python_sources_compile`: True
+- `schema_tests_pass`: True
+- `pipeline_tests_pass`: True
+- `allowed_paths_only`: True
+- `canonical_layers_modified`: False
+- `git_diff_check_pass`: True
 
-- Speaker attribution is unknown for every segment.
-- Original source URLs are absent.
-- Publication dates are incomplete for 33 sources.
-- Semantic tags are machine-assisted research aids, not canonical conclusions.
-- Roadmap, release, testing, and execution language must be reconciled against official evidence before promotion.
-- The Wave 1.5 repository validator retains its pre-existing 962-versus-960 reconciliation-count warning; this semantic campaign does not modify reconciliation evidence.
+## Warnings
+
+- All speaker attribution remains UNKNOWN.
+- Original URLs are absent and publication dates are incomplete for 33 sources.
+- Candidate confidence measures extraction quality, not factual truth.
+- Automated transcript text may contain recognition errors.
+- Repository Wave 1.5 validation has inherited fixed-count drift: 962 reconciliation records versus an expected 960.

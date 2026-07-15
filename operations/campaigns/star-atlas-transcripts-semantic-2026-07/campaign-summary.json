@@ -2,19 +2,41 @@
   "campaign_id": "star-atlas-transcripts-semantic-2026-07",
   "status": "READY_FOR_SEMANTIC_REVIEW",
   "base_campaign_id": "star-atlas-transcripts-ingestion-2026-07",
+  "dependency_status": "PR_11_MERGED_INTO_MAIN",
   "collections": 3,
   "sources": 36,
   "caption_lines": 78752,
   "segments": 1910,
+  "previous_promotion_candidates": 1909,
+  "promotion_candidates": 76,
+  "promotion_exclusions": 1834,
+  "previous_timeline_candidates": 1590,
+  "timeline_candidates": 83,
+  "timeline_exclusions": 1827,
+  "previous_key_quotes": 526,
+  "key_quotes": 41,
+  "duplicate_clusters": 3,
+  "promotion_confidence": {
+    "HIGH": 3,
+    "LOW": 26,
+    "MEDIUM": 47
+  },
+  "timeline_confidence": {
+    "HIGH": 1,
+    "MEDIUM": 82
+  },
+  "quote_confidence": {
+    "MEDIUM": 41
+  },
+  "promotion_priorities": {
+    "HIGH_PRIORITY": 3,
+    "LOW_PRIORITY": 26,
+    "MEDIUM_PRIORITY": 47
+  },
   "canonical_entity_links": 1022,
   "unresolved_entity_references": 334,
-  "key_quotes": 526,
-  "timeline_candidates": 1590,
-  "promotion_candidates": 1909,
-  "research_gaps": 36,
-  "exact_duplicate_segments": 0,
-  "semantic_artifacts": 11,
-  "semantic_artifact_bytes": 8967265,
+  "semantic_artifacts": 14,
+  "semantic_artifact_bytes": 11654849,
   "knowledge_promotions": 0,
   "graph_modifications": 0,
   "publication_modifications": 0

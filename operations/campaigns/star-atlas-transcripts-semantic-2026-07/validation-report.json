@@ -2,7 +2,7 @@
   "campaign_id": "star-atlas-transcripts-semantic-2026-07",
   "status": "PASS",
   "checks": {
-    "json_documents_parsed": 11,
+    "json_documents_parsed": 14,
     "source_ids_reconciled": 36,
     "source_ids_unique": true,
     "segment_ids_reconciled": 1910,
@@ -11,22 +11,38 @@
     "segment_line_ranges_valid": true,
     "segment_timestamps_valid": true,
     "segment_ranges_non_overlapping": true,
+    "controlled_taxonomies_only": true,
+    "no_speaker_identity_inferred": true,
     "entity_link_records_reconciled": 1910,
     "canonical_entity_ids_registered": true,
-    "quotes_verbatim": 526,
-    "timeline_candidates_reconciled": 1590,
-    "promotion_candidates_reconciled": 1909,
+    "quotes_verbatim": 41,
+    "promotion_candidates_reconciled": 76,
+    "timeline_candidates_reconciled": 83,
+    "every_promotion_candidate_has_support": true,
+    "every_timeline_candidate_has_support_and_date_basis": true,
+    "promotion_decisions_reconciled": 1910,
+    "timeline_decisions_reconciled": 1910,
+    "every_exclusion_has_reason": true,
+    "all_candidate_ids_reconcile": true,
+    "duplicate_clusters_reconciled": 3,
+    "clustered_candidates": 6,
     "research_gap_sources_reconciled": 36,
+    "candidate_research_gaps_typed": 357,
     "quality_manifest_checksums_match": true,
     "generator_deterministic": true,
     "python_sources_compile": true,
-    "canonical_layers_modified": false
+    "schema_tests_pass": true,
+    "pipeline_tests_pass": true,
+    "allowed_paths_only": true,
+    "canonical_layers_modified": false,
+    "git_diff_check_pass": true
   },
   "warnings": [
     "All speaker attribution remains UNKNOWN.",
     "Original URLs are absent and publication dates are incomplete for 33 sources.",
-    "Semantic and lifecycle tags require human review before knowledge promotion.",
+    "Candidate confidence measures extraction quality, not factual truth.",
     "Automated transcript text may contain recognition errors.",
-    "Repository Wave 1.5 validation has a pre-existing fixed-count drift: 962 reconciliation records versus an expected 960."
-  ]
+    "Repository Wave 1.5 validation has inherited fixed-count drift: 962 reconciliation records versus an expected 960."
+  ],
+  "errors": []
 }
