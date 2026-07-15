@@ -2,7 +2,7 @@
 title: Star Atlas Product Registry
 entry_type: product-registry
 status: active
-updated: 2026-07-12
+updated: 2026-07-14
 publication_status: public
 ---
 
@@ -30,6 +30,10 @@ Officially listed capabilities include managing ships, crew, DAC membership and 
 
 Official documentation describes mining, crafting, resource transport and faction-based economic competition. Gameplay actions are signed and settled on Solana. The system is presented as modular and available for third-party builder expansion. The 2026-07-12 homepage specifically described fleet management, mining, crafting, and SDU scanning.
 
+The archive supports a qualified lifecycle statement: Atlas Brew discussed SAGE Labs as released, while a later official support record documents it as an available browser-based 4X surface. The Atlas Brew transcript does not identify speakers, so it supports the public discussion and release framing but not attribution to a particular guest. [SRC-ATLAS-BREW-0034, 00:02:33–00:04:33; SEG-ATLAS-BREW-0034-0002](../../archive/semantic/atlas-brew/segment-index.json) [SRC-OFF-0A646AE069AFFBA5](../../archive/source-records/campaign-delta-official/SRC-OFF-0A646AE069AFFBA5.md)
+
+Earlier official material described the renamed SAGE program as upcoming roadmap work. That 2022 roadmap statement must not be treated as evidence that SAGE Labs had already shipped. [SRC-OFF-22181D98D7A1B870](../../archive/source-records/campaign-delta-official/SRC-OFF-22181D98D7A1B870.md) [SRC-ATLAS-BREW-0034, 00:02:33–00:04:33; SEG-ATLAS-BREW-0034-0002](../../archive/semantic/atlas-brew/segment-index.json)
+
 ### Unreal Engine 5 game
 
 **Entity ID:** PRODUCT-UE5  
@@ -41,10 +45,13 @@ Official materials describe ship flight, space exploration, racing, multiplayer 
 ### Fleet Command
 
 **Entity ID:** PRODUCT-FLEET-COMMAND  
-**Status:** Announced / coming soon as of 2026-07-12  
+**Status:** In development in the current captured official record
+
 **Function:** Planned top-down real-time-strategy fleet-management layer.
 
-The official homepage described Fleet Command as a mode for mass-managing fleets, territorial competition, and faction strategy, and explicitly labeled it “Coming soon.” This distinguishes the announced Unreal-integrated feature from Holosim, which was presented as an available browser simulation.
+The official homepage described Fleet Command as a mode for mass-managing fleets, territorial competition, and faction strategy, and explicitly labeled it “Coming soon.” A separately archived official Fleet Command page describes it as currently in development. Atlas Brew contains a design-and-control discussion while mechanics were still being developed. Together these records support development status, not a general release claim. [SRC-OFF-7375CE6619CF2B43](../../archive/source-records/campaign-delta-official/SRC-OFF-7375CE6619CF2B43.md) [SRC-ATLAS-BREW-0069, 01:32:25–01:35:24; SEG-ATLAS-BREW-0069-0043](../../archive/semantic/atlas-brew/segment-index.json)
+
+An Atlas Brew segment that appears to expose a “Play Now” build is deferred pending build and access-path verification; it is not used here as evidence of public release. [SRC-ATLAS-BREW-0080, 00:14:08–00:17:41; SEG-ATLAS-BREW-0080-0007](../../archive/semantic/atlas-brew/segment-index.json)
 
 ### Holosim
 
@@ -53,6 +60,20 @@ The official homepage described Fleet Command as a mode for mass-managing fleets
 **Function:** Free-to-play browser fleet simulation.
 
 Official copy positions Holosim as a way to experience strategic fleet gameplay without high-end hardware, asset ownership or a crypto wallet.
+
+Atlas Brew later referred to a recent Holosim release and active leaderboard play, while the preserved official page documents browser availability. Because the transcript source has no normalized publication date, the relative phrase “last week” cannot establish a calendar launch date. [SRC-ATLAS-BREW-0101, 00:09:55–00:10:58; SEG-ATLAS-BREW-0101-0005](../../archive/semantic/atlas-brew/segment-index.json) [SRC-OFF-4850F98FBD1F1541](../../archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md)
+
+### C4 / C4 PTR
+
+**Entity ID:** Not assigned in the current entity registry
+
+**Status:** Testing in the documented PTR; broader release not established
+
+**Function:** Developing Unreal Engine gameplay surface encompassing fleet, movement, scanning, mining and related systems.
+
+Atlas Brew preserved a C4 deep-dive and question-and-answer discussion about planned systems, including intended asteroid-mining behavior. Those statements are design and roadmap evidence, not proof of implementation. [SRC-ATLAS-BREW-0101, 00:02:35–00:06:35; SEG-ATLAS-BREW-0101-0002](../../archive/semantic/atlas-brew/segment-index.json) [SRC-ATLAS-BREW-0101, 00:38:07–00:39:04; SEG-ATLAS-BREW-0101-0024](../../archive/semantic/atlas-brew/segment-index.json)
+
+Official support documentation dated June 2026 establishes a C4 Public Test Realm and describes mining implemented in that test environment, while warning that the feature remained in development and could change. This supports testing availability only; it does not establish mainnet execution or a general product release. [SRC-OFF-E061D3A6454697AB](../../archive/source-records/campaign-delta-official/SRC-OFF-E061D3A6454697AB.md) [SRC-OFF-952AB5D6D09DD6BF](../../archive/source-records/campaign-delta-official/SRC-OFF-952AB5D6D09DD6BF.md)
 
 ### Galactic Marketplace
 

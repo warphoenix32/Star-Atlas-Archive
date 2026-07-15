@@ -2,7 +2,7 @@
 title: Star Atlas Institutional Overview
 entry_type: institution-overview
 status: active
-updated: 2026-07-12
+updated: 2026-07-14
 publication_status: public
 ---
 
@@ -30,6 +30,12 @@ The DAO is the POLIS-based governance structure through which token holders part
 ## Star Atlas Foundation
 
 The Foundation is a separate institutional entity involved in DAO support and proposal execution. Its formation, directors, registered-office arrangements, operating costs, legal authority and relationship to ATMTA require a dedicated documentary record.
+
+## Documented authority boundary
+
+The official PIP-1 publication proposed a governance framework involving the DAO and Foundation; as a proposal publication, it establishes the requested structure and official terminology, not approval or implementation by itself. Atlas Brew discussed the Foundation as an operating legal body, but the normalized transcript lacks speaker attribution. That discussion is supporting community context and cannot independently establish legal authority. [SRC-OFF-50186C400EF7CC79](../../archive/source-records/campaign-delta-official/SRC-OFF-50186C400EF7CC79.md) [SRC-ATLAS-BREW-0060, 00:17:53–00:19:02; SEG-ATLAS-BREW-0060-0009](../../archive/semantic/atlas-brew/segment-index.json)
+
+A later official support record states that ATMTA safeguarded the DAO Treasury at the 2025-12-02 publication snapshot while a multisignature structure was being prepared. This is evidence of declared custody at that date, not proof that a later transfer or any specific PIP disbursement executed. An Atlas Brew statement about a PIP-2 allocation moving remains deferred until transaction or official execution evidence is preserved. [SRC-OFF-BFA6D14D54A9AA6A](../../archive/source-records/campaign-delta-official/SRC-OFF-BFA6D14D54A9AA6A.md) [SRC-ATLAS-BREW-0075, 00:38:06–00:40:24; SEG-ATLAS-BREW-0075-0025](../../archive/semantic/atlas-brew/segment-index.json)
 
 ## Institutional-boundary rules
 

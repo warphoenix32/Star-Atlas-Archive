@@ -2,7 +2,7 @@
 title: Star Atlas Economic Report Catalog
 entry_type: source-catalog
 status: active
-updated: 2026-07-12
+updated: 2026-07-14
 publication_status: public
 ---
 
@@ -42,6 +42,10 @@ The archive states that the papers are academic publications intended to inform 
 ## Current infrastructure status
 
 The DAO economic-report page states that community dashboards are offline while the project moves to an internal data solution powered by Star Atlas infrastructure. This status is time-sensitive and was observed on 2026-07-12.
+
+## Policy chronology anchor: R4 liberalization
+
+An official announcement dated 2023-06-08 described a planned transition toward player-driven R4 supply: Escape Velocity loot was to rise to nearly eight times its baseline and unlimited DAO R4 sales were to end after a finite 30-day supply. Atlas Brew discussed the same transition as an economy change affecting Claim Stakes and Escape Velocity. These sources establish an announced policy and contemporaneous community discussion; they do not, without later measurement or transaction evidence, establish the exact execution date or economic effect. [SRC-OFF-D023F6DAFA12F9AA](../../archive/source-records/campaign-delta-official/SRC-OFF-D023F6DAFA12F9AA.md) [SRC-ATLAS-BREW-0026, 00:11:21–00:13:08; SEG-ATLAS-BREW-0026-0009](../../archive/semantic/atlas-brew/segment-index.json)
 
 ## Ingestion requirements
 

@@ -1,0 +1,263 @@
+{
+  "campaign_id": "knowledge-promotion-campaign-003-institutional-expansion",
+  "issue": 9,
+  "reviewed_at": "2026-07-14",
+  "input": "archive/semantic/atlas-brew/promotion-candidates.json",
+  "input_candidate_count": 3306,
+  "disposition_counts": {
+    "ACCEPTED": 10,
+    "DEFERRED": 3289,
+    "DUPLICATE": 4,
+    "REJECTED": 3
+  },
+  "individually_reviewed_count": 24,
+  "entries": [
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-00989",
+      "segment_id": "SEG-ATLAS-BREW-0034-0002",
+      "source_id": "SRC-ATLAS-BREW-0034",
+      "timestamp": "00:02:33-00:04:33",
+      "disposition": "ACCEPTED",
+      "finding": "Supports SAGE Labs release framing and public discussion, but not speaker-specific attribution.",
+      "corroborating_source_ids": ["SRC-OFF-0A646AE069AFFBA5", "SRC-OFF-22181D98D7A1B870"],
+      "destinations": ["knowledge/gameplay/Product-Registry.md", "knowledge/people/Actor-Master-Index.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-01896",
+      "segment_id": "SEG-ATLAS-BREW-0069-0043",
+      "source_id": "SRC-ATLAS-BREW-0069",
+      "timestamp": "01:32:25-01:35:24",
+      "disposition": "ACCEPTED",
+      "finding": "Supports Fleet Command design and development discussion, not public release.",
+      "corroborating_source_ids": ["SRC-OFF-7375CE6619CF2B43"],
+      "destinations": ["knowledge/gameplay/Product-Registry.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02678",
+      "segment_id": "SEG-ATLAS-BREW-0101-0005",
+      "source_id": "SRC-ATLAS-BREW-0101",
+      "timestamp": "00:09:55-00:10:58",
+      "disposition": "ACCEPTED",
+      "finding": "Supports Holosim availability and release discussion without establishing a calendar launch date.",
+      "corroborating_source_ids": ["SRC-OFF-4850F98FBD1F1541"],
+      "destinations": ["knowledge/gameplay/Product-Registry.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02676",
+      "segment_id": "SEG-ATLAS-BREW-0101-0002",
+      "source_id": "SRC-ATLAS-BREW-0101",
+      "timestamp": "00:02:35-00:06:35",
+      "disposition": "ACCEPTED",
+      "finding": "Supports C4 design and roadmap discussion only.",
+      "corroborating_source_ids": ["SRC-OFF-E061D3A6454697AB", "SRC-OFF-952AB5D6D09DD6BF"],
+      "destinations": ["knowledge/gameplay/Product-Registry.md", "knowledge/technology/Technical-Platform.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02695",
+      "segment_id": "SEG-ATLAS-BREW-0101-0024",
+      "source_id": "SRC-ATLAS-BREW-0101",
+      "timestamp": "00:38:07-00:39:04",
+      "disposition": "ACCEPTED",
+      "finding": "Supports intended C4 mining behavior as roadmap evidence, not implementation.",
+      "corroborating_source_ids": ["SRC-OFF-952AB5D6D09DD6BF"],
+      "destinations": ["knowledge/gameplay/Product-Registry.md", "knowledge/technology/Technical-Platform.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-00754",
+      "segment_id": "SEG-ATLAS-BREW-0026-0009",
+      "source_id": "SRC-ATLAS-BREW-0026",
+      "timestamp": "00:11:21-00:13:08",
+      "disposition": "ACCEPTED",
+      "finding": "Supports contemporaneous discussion of the announced player-driven R4 transition; execution and effects remain separate.",
+      "corroborating_source_ids": ["SRC-OFF-D023F6DAFA12F9AA"],
+      "destinations": ["knowledge/economy/Economic-Report-Catalog.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-00684",
+      "segment_id": "SEG-ATLAS-BREW-0024-0008",
+      "source_id": "SRC-ATLAS-BREW-0024",
+      "timestamp": "00:13:14-00:15:09",
+      "disposition": "ACCEPTED",
+      "finding": "Supports PIP-1 proposal-stage discussion, not approval or execution.",
+      "corroborating_source_ids": ["SRC-OFF-50186C400EF7CC79", "SRC-HNN-501F276BD93A900A"],
+      "destinations": ["knowledge/governance/Governance-and-Economy-Overview.md", "knowledge/governance/PIP-Registry.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02521",
+      "segment_id": "SEG-ATLAS-BREW-0094-0005",
+      "source_id": "SRC-ATLAS-BREW-0094",
+      "timestamp": "00:09:46-00:11:25",
+      "disposition": "ACCEPTED",
+      "finding": "Supports public discussion of a PIP-14 proposal; numbering and final result remain unresolved.",
+      "corroborating_source_ids": [],
+      "destinations": ["knowledge/governance/PIP-Registry.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02843",
+      "segment_id": "SEG-ATLAS-BREW-0106-0033",
+      "source_id": "SRC-ATLAS-BREW-0106",
+      "timestamp": "00:48:36-00:50:52",
+      "disposition": "ACCEPTED",
+      "finding": "Supports a conditional PIP-19 roadmap discussion; vote result and delivery are unresolved.",
+      "corroborating_source_ids": [],
+      "destinations": ["knowledge/governance/PIP-Registry.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-01662",
+      "segment_id": "SEG-ATLAS-BREW-0060-0009",
+      "source_id": "SRC-ATLAS-BREW-0060",
+      "timestamp": "00:17:53-00:19:02",
+      "disposition": "ACCEPTED",
+      "finding": "Supports documentation of a public Foundation-role discussion; unknown speaker prevents treating it as authority proof.",
+      "corroborating_source_ids": ["SRC-OFF-50186C400EF7CC79", "SRC-OFF-BFA6D14D54A9AA6A"],
+      "destinations": ["knowledge/governance/Governance-and-Economy-Overview.md", "knowledge/organizations/Institutional-Overview.md"]
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02037",
+      "segment_id": "SEG-ATLAS-BREW-0075-0025",
+      "source_id": "SRC-ATLAS-BREW-0075",
+      "timestamp": "00:38:06-00:40:24",
+      "disposition": "DEFERRED",
+      "finding": "PIP-2 transfer or allocation claim requires a treasury address, transaction, or official execution record.",
+      "corroborating_source_ids": ["SRC-OFF-BFA6D14D54A9AA6A"],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-01138",
+      "segment_id": "SEG-ATLAS-BREW-0040-0014",
+      "source_id": "SRC-ATLAS-BREW-0040",
+      "timestamp": "00:27:25-00:29:42",
+      "disposition": "DEFERRED",
+      "finding": "Stress-test participation and infrastructure claim lacks dated first-party corroboration.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-01139",
+      "segment_id": "SEG-ATLAS-BREW-0040-0015",
+      "source_id": "SRC-ATLAS-BREW-0040",
+      "timestamp": "00:29:45-00:31:41",
+      "disposition": "DEFERRED",
+      "finding": "MetaGravity test context requires first-party technical and date evidence.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-00877",
+      "segment_id": "SEG-ATLAS-BREW-0030-0018",
+      "source_id": "SRC-ATLAS-BREW-0030",
+      "timestamp": "00:30:44-00:32:01",
+      "disposition": "DEFERRED",
+      "finding": "Starbased migration detail needs a dated build or official migration record.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02157",
+      "segment_id": "SEG-ATLAS-BREW-0080-0007",
+      "source_id": "SRC-ATLAS-BREW-0080",
+      "timestamp": "00:14:08-00:17:41",
+      "disposition": "DEFERRED",
+      "finding": "A visible Fleet Command play path conflicts with current in-development documentation and needs build and access verification.",
+      "corroborating_source_ids": ["SRC-OFF-7375CE6619CF2B43"],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-03161",
+      "segment_id": "SEG-ATLAS-BREW-0117-0038",
+      "source_id": "SRC-ATLAS-BREW-0117",
+      "timestamp": "01:00:51-01:02:50",
+      "disposition": "DEFERRED",
+      "finding": "Holosim-to-C4 architecture transfer claim lacks speaker attribution and technical documentation.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02549",
+      "segment_id": "SEG-ATLAS-BREW-0095-0008",
+      "source_id": "SRC-ATLAS-BREW-0095",
+      "timestamp": "00:13:22-00:14:41",
+      "disposition": "DEFERRED",
+      "finding": "PIP-13 rejection claim lacks an archived official proposal and vote record.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-00493",
+      "segment_id": "SEG-ATLAS-BREW-0019-0006",
+      "source_id": "SRC-ATLAS-BREW-0019",
+      "timestamp": "00:09:28-00:11:54",
+      "disposition": "DUPLICATE",
+      "finding": "Overlaps the better-bounded SAGE lifecycle evidence in PROMOTION-CANDIDATE-00989.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-00507",
+      "segment_id": "SEG-ATLAS-BREW-0019-0021",
+      "source_id": "SRC-ATLAS-BREW-0019",
+      "timestamp": "00:37:07-00:39:41",
+      "disposition": "DUPLICATE",
+      "finding": "Escape Velocity supply discussion is superseded by the official R4 announcement and accepted candidate 00754.",
+      "corroborating_source_ids": ["SRC-OFF-D023F6DAFA12F9AA"],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-00761",
+      "segment_id": "SEG-ATLAS-BREW-0026-0016",
+      "source_id": "SRC-ATLAS-BREW-0026",
+      "timestamp": "00:24:11-00:26:01",
+      "disposition": "DUPLICATE",
+      "finding": "Repeats the R4 supply-policy cluster represented by accepted candidate 00754.",
+      "corroborating_source_ids": ["SRC-OFF-D023F6DAFA12F9AA"],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02807",
+      "segment_id": "SEG-ATLAS-BREW-0105-0009",
+      "source_id": "SRC-ATLAS-BREW-0105",
+      "timestamp": "00:14:12-00:15:21",
+      "disposition": "DUPLICATE",
+      "finding": "General Holosim discussion adds no stronger lifecycle evidence than accepted candidate 02678.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-00879",
+      "segment_id": "SEG-ATLAS-BREW-0030-0022",
+      "source_id": "SRC-ATLAS-BREW-0030",
+      "timestamp": "00:37:07-00:39:07",
+      "disposition": "REJECTED",
+      "finding": "Automated lifecycle tags mix announcement, development, and release states without sufficient evidence.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-02216",
+      "segment_id": "SEG-ATLAS-BREW-0082-0018",
+      "source_id": "SRC-ATLAS-BREW-0082",
+      "timestamp": "00:31:52-00:32:53",
+      "disposition": "REJECTED",
+      "finding": "Hypothetical community discussion does not establish an institutional fact.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-03155",
+      "segment_id": "SEG-ATLAS-BREW-0117-0028",
+      "source_id": "SRC-ATLAS-BREW-0117",
+      "timestamp": "00:45:38-00:46:46",
+      "disposition": "REJECTED",
+      "finding": "Community opinion about gameplay value is not a promotable institutional claim.",
+      "corroborating_source_ids": [],
+      "destinations": []
+    }
+  ],
+  "batch_disposition": {
+    "disposition": "DEFERRED",
+    "candidate_count": 3282,
+    "selection_rule": "Every candidate in the input not named in entries[].candidate_id.",
+    "review_state": "NOT_INDIVIDUALLY_ADJUDICATED",
+    "reason": "Outside the priority evidence clusters reviewed in Campaign 003; no candidate in this batch is implicitly accepted or rejected."
+  }
+}

@@ -2,7 +2,7 @@
 title: Star Atlas Major Actor Index
 entry_type: actor-registry
 status: active
-updated: 2026-07-12
+updated: 2026-07-14
 publication_status: public
 ---
 
@@ -39,6 +39,10 @@ This registry identifies people and public identities requiring dedicated histor
 - Community reputation belongs in a bounded, sourced section and must not be converted into an asserted character judgment.
 - Anonymous or pseudonymous identities must not be linked to real-world identities without public self-identification or strong documentary evidence.
 - Conflicts of interest, financial interests and organizational affiliations should be dated and sourced.
+
+## Atlas Brew attribution boundary
+
+The current Atlas Brew semantic layer identifies speakers as `UNKNOWN`, even when an episode introduction names a guest. For example, the SAGE discussion introduces Michael Wagner but does not label each subsequent utterance. Campaign 003 therefore promotes the existence and content of supported discussions, but no quotation or operational claim from these transcripts is attributed to Michael Wagner or another participant without speaker-level evidence. [SRC-ATLAS-BREW-0034, 00:02:33–00:04:33; SEG-ATLAS-BREW-0034-0002](../../archive/semantic/atlas-brew/segment-index.json)
 
 ## Michael Wagner priority file requirements
 

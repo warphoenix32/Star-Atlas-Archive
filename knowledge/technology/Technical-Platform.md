@@ -2,7 +2,7 @@
 title: Star Atlas Technical Platform
 entry_type: technical-overview
 status: active
-updated: 2026-07-12
+updated: 2026-07-14
 publication_status: public
 ---
 
@@ -42,6 +42,12 @@ Star Atlas Build identifies APIs and data resources, including the Galaxy API, a
 ### Unreal Engine tooling
 
 The builder hub references F-Kit, blueprint support and Unreal Engine production workflows. These tools should be indexed separately from the consumer UE5 client.
+
+### C4 public test surface
+
+Atlas Brew preserved a C4 deep-dive and question-and-answer discussion about intended systems, including asteroid mining. Because that material describes design intent and carries no normalized speaker labels, it is roadmap evidence rather than proof of a deployed system. [SRC-ATLAS-BREW-0101, 00:02:35–00:06:35; SEG-ATLAS-BREW-0101-0002](../../archive/semantic/atlas-brew/segment-index.json) [SRC-ATLAS-BREW-0101, 00:38:07–00:39:04; SEG-ATLAS-BREW-0101-0024](../../archive/semantic/atlas-brew/segment-index.json)
+
+Official support records dated June 2026 document a C4 Public Test Realm and mining implemented in that test environment, with explicit warnings that requirements could change during development. The supported lifecycle state is therefore **testing**; the records do not prove a general release or production-network execution. [SRC-OFF-E061D3A6454697AB](../../archive/source-records/campaign-delta-official/SRC-OFF-E061D3A6454697AB.md) [SRC-OFF-952AB5D6D09DD6BF](../../archive/source-records/campaign-delta-official/SRC-OFF-952AB5D6D09DD6BF.md)
 
 ### Developer infrastructure
 

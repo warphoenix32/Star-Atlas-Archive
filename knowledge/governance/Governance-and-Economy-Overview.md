@@ -2,7 +2,7 @@
 title: Star Atlas Governance and Economy Overview
 entry_type: governance-overview
 status: active
-updated: 2026-07-12
+updated: 2026-07-14
 publication_status: public
 ---
 
@@ -27,6 +27,14 @@ The governance portal exposes four major public categories:
 - Treasury
 
 The proposal system should be indexed independently with proposal ID, author, dates, requested authority or funding, vote totals, quorum rules, execution status and conflicts of interest.
+
+The initial evidence-qualified proposal index is maintained in the [PIP Registry](PIP-Registry.md). Atlas Brew discussed PIP-1 while it was still upcoming, and the official publication later introduced it as a proposal. Neither record alone proves approval or execution. [SRC-ATLAS-BREW-0024, 00:13:14–00:15:09; SEG-ATLAS-BREW-0024-0008](../../archive/semantic/atlas-brew/segment-index.json) [SRC-OFF-50186C400EF7CC79](../../archive/source-records/campaign-delta-official/SRC-OFF-50186C400EF7CC79.md)
+
+## Treasury custody and execution boundary
+
+An official support record published 2025-12-02 states that marketplace and SAGE fees fund the DAO Treasury and that ATMTA safeguarded the treasury at that publication snapshot while a multisignature structure was being prepared. This establishes the official description of custody at that date; it does not prove later transfer, audit completion, or proposal execution. Atlas Brew separately discussed Foundation operations in a transcript without normalized speaker attribution, so that discussion is retained as community context rather than authority evidence. [SRC-OFF-BFA6D14D54A9AA6A](../../archive/source-records/campaign-delta-official/SRC-OFF-BFA6D14D54A9AA6A.md) [SRC-ATLAS-BREW-0060, 00:17:53–00:19:02; SEG-ATLAS-BREW-0060-0009](../../archive/semantic/atlas-brew/segment-index.json)
+
+An Atlas Brew claim that a PIP-2 allocation moved after approval remains deferred until a treasury address, transaction, or official execution record is linked. It must not be converted from a discussion of execution into confirmed execution. [SRC-ATLAS-BREW-0075, 00:38:06–00:40:24; SEG-ATLAS-BREW-0075-0025](../../archive/semantic/atlas-brew/segment-index.json)
 
 ## Economic reporting
 
