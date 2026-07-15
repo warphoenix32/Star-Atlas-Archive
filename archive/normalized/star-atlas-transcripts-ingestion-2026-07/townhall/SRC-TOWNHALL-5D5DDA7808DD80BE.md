@@ -1,0 +1,3619 @@
+---
+
+source_id: SRC-TOWNHALL-5D5DDA7808DD80BE
+
+title: "Star Atlas Town Hall"
+
+collection: townhall
+
+source_type: transcript
+
+publication_date: unknown
+
+publication_date_basis: unknown
+
+speaker_attribution: unknown
+
+raw_sha256: 5d5dda7808dd80bea9ce6d1465313ec32dcd56ea8818c62fcc000afa16d6e2c5
+
+caption_count: 1792
+
+last_timestamp: 01:17:42
+
+normalization: caption-lines joined; wording preserved
+
+---
+
+
+
+# Star Atlas Town Hall
+
+
+
+> Speaker identities, original URL, and exact publication date remain unresolved unless stated in metadata.
+
+
+
+[00:00:00] Caution.
+
+[00:00:01] [Music]
+
+[00:00:10] The energy levels should go.
+
+[00:00:24] Full energy levels reached. We're ready
+
+[00:00:27] to go.
+
+[00:00:31] [Music]
+
+[00:00:39] [Applause]
+
+[00:00:40] [Music]
+
+[00:00:57] This is the energy.
+
+[00:01:00] [Music]
+
+[00:01:03] [Applause]
+
+[00:01:11] [Music]
+
+[00:01:13] switch.
+
+[00:01:15] [Music]
+
+[00:01:25] Yeah.
+
+[00:01:26] Heat.
+
+[00:01:35] [Music]
+
+[00:01:43] Heat.
+
+[00:01:57] This is the energy.
+
+[00:02:00] [Music]
+
+[00:02:02] [Applause]
+
+[00:02:06] [Music]
+
+[00:02:27] This is the energy.
+
+[00:02:31] [Music]
+
+[00:02:31] [Applause]
+
+[00:02:33] Heat.
+
+[00:02:41] [Applause]
+
+[00:02:42] [Music]
+
+[00:02:43] Heat.
+
+[00:02:44] [Music]
+
+[00:02:47] [Applause]
+
+[00:02:53] Heat.
+
+[00:02:57] [Music]
+
+[00:03:16] Heat.
+
+[00:03:22] [Music]
+
+[00:03:47] Ready
+
+[00:03:50] [Music]
+
+[00:04:01] or not, here I come. You can't hide
+
+[00:04:06] and take it slow. Ready or not, here I
+
+[00:04:10] come. You can't hide. Going to find you
+
+[00:04:14] and make you want me. Ready.
+
+[00:04:23] [Music]
+
+[00:04:26] Ready or not. Ready or not.
+
+[00:04:32] [Music]
+
+[00:04:41] Heat. Heat. N.
+
+[00:04:44] [Music]
+
+[00:05:01] like
+
+[00:05:07] [Music]
+
+[00:05:09] here I come
+
+[00:05:12] to find you and make you want me or not
+
+[00:05:17] here I come you can't hide to Find you
+
+[00:05:21] and make you want me. Make you want me.
+
+[00:05:25] Make you want me.
+
+[00:05:32] [Music]
+
+[00:05:37] [Applause]
+
+[00:05:39] Heat. Heat.
+
+[00:05:41] [Music]
+
+[00:05:49] Heat. Heat. N.
+
+[00:05:51] [Music]
+
+[00:06:28] with it.
+
+[00:07:42] I'm tired of being
+
+[00:07:45] [Music]
+
+[00:07:46] so faithless. Lost under the surface.
+
+[00:07:50] Don't know what you're expecting of me.
+
+[00:07:53] Put under the pressure of walk me in
+
+[00:07:57] your shoes.
+
+[00:07:58] [Music]
+
+[00:08:00] toe.
+
+[00:08:01] Every step that I take is enough
+
+[00:08:04] to
+
+[00:08:06] just toe.
+
+[00:08:08] And every second I waste is more than I
+
+[00:08:11] can take. I become so numb. I can't feel
+
+[00:08:16] you become so much more. The word I'm
+
+[00:08:21] becoming this all I want to do is be
+
+[00:08:24] more like me. Every last
+
+[00:08:28] [Music]
+
+[00:09:53] [Music]
+
+[00:09:57] I do the same thing. I told you that I
+
+[00:10:00] never would. Told you I changed. Even
+
+[00:10:03] when I knew I never could know that I
+
+[00:10:06] can't find nobody else as good as you. I
+
+[00:10:08] need you to stay. I need you to stay.
+
+[00:10:13] [Music]
+
+[00:10:14] I told you that I never told you
+
+[00:10:19] I never could
+
+[00:10:22] as good as you used to.
+
+[00:10:26] [Music]
+
+[00:10:32] Oh,
+
+[00:10:34] [Music]
+
+[00:10:39] I [ __ ] up if you gave me license
+
+[00:10:45] breaking down.
+
+[00:10:48] [Music]
+
+[00:11:12] I do the same thing. I told you that I
+
+[00:11:15] never would
+
+[00:11:17] see when I knew I never could. Know that
+
+[00:11:20] I can't find nobody else as good as you.
+
+[00:11:23] I'm used to
+
+[00:11:27] I get strong. Wake up. I'm wasting still
+
+[00:11:32] realize time that I wasted. Cuz I feel
+
+[00:11:36] like you can't feel the way. I'll be
+
+[00:11:39] [ __ ] up if you can't be right.
+
+[00:11:45] [Music]
+
+[00:11:54] I'll be [ __ ] up if you get me right. I
+
+[00:11:58] do the same thing I told you that I
+
+[00:12:00] never would. I told you I changed even
+
+[00:12:03] when I knew I never could. Know that I
+
+[00:12:06] can't nobody else as good as you. I need
+
+[00:12:09] you to stay. for you to stay.
+
+[00:12:23] [Music]
+
+[00:12:30] Break it down.
+
+[00:12:35] [Music]
+
+[00:12:45] You're breaking down.
+
+[00:12:50] [Music]
+
+[00:13:06] All right. All right. Hello everyone and
+
+[00:13:08] welcome to the Star Atlas town hall. We
+
+[00:13:12] are here I think this is town hall
+
+[00:13:13] number 31. So I'm really happy to be
+
+[00:13:16] here again on stage with the one and
+
+[00:13:19] only Michael the Swag Swagner. How are
+
+[00:13:22] you Michael?
+
+[00:13:24] Hey good afternoon Santi. How are you
+
+[00:13:26] doing man?
+
+[00:13:27] How doing good? I'm doing really good.
+
+[00:13:29] How are you feeling?
+
+[00:13:30] Yeah uh well pretty good overall. It's a
+
+[00:13:34] fantastic week. very energizing week
+
+[00:13:36] following uh last week's COPA event. As
+
+[00:13:39] you know, I've been traveling quite a
+
+[00:13:41] bit. I was in Austin two weeks ago for
+
+[00:13:44] Consensus. I'm currently out in New York
+
+[00:13:47] uh representing SAR Atlas for NFT NYC.
+
+[00:13:51] Um, I did pick up a little bit of a a
+
+[00:13:54] bug uh in these travels. So, I'm kind of
+
+[00:13:57] under the weather today, but you know,
+
+[00:13:59] fortunately, uh, we have a couple of
+
+[00:14:02] great guests joining us today, so you
+
+[00:14:04] won't be hearing as much from me, but
+
+[00:14:06] uh, some really amazing content from Jim
+
+[00:14:08] Carter. He's a distinguished engineer
+
+[00:14:10] with us. Uh, he's been with us for over
+
+[00:14:12] a year now. Uh, and he leads up the web,
+
+[00:14:15] uh, he's a senior leader in web and game
+
+[00:14:17] development teams. And then we also have
+
+[00:14:19] Christopher Smith joining us and and
+
+[00:14:22] he's a lead game designer with
+
+[00:14:24] Spearsoft. It's the fantastic
+
+[00:14:26] co-development studio that we've been
+
+[00:14:28] working with for about 9 months now and
+
+[00:14:30] their focus has been on developing out
+
+[00:14:32] and and getting uh the Volant Studio
+
+[00:14:35] showroom prepared for release. So more
+
+[00:14:37] updates to come on all of that. But you
+
+[00:14:39] know Santi as always I'm I'm happy to be
+
+[00:14:40] here with you and with everybody in the
+
+[00:14:42] audience.
+
+[00:14:43] Yeah, man. Thank you for joining me as
+
+[00:14:45] always. And as you said, we have a very,
+
+[00:14:47] very interesting town hall. We had a
+
+[00:14:50] super intense week last week with Copa.
+
+[00:14:52] I think it was a great event. Hope that
+
+[00:14:55] everybody enjoyed it as much as we did.
+
+[00:14:57] It was a lot of coordination. And just
+
+[00:15:01] to address something, uh we decided to
+
+[00:15:03] do it in Discord like on purpose. Uh we
+
+[00:15:06] felt like it it was uh the Satlas
+
+[00:15:10] community lives in Discord in some way
+
+[00:15:12] and we wanted to be as close as we can
+
+[00:15:15] to you and I think we actually achieved
+
+[00:15:18] that with Discord. We knew that it
+
+[00:15:20] wasn't the the easiest path to follow to
+
+[00:15:23] do an event like like Copa but actually
+
+[00:15:26] like I I fel I think it felt really nice
+
+[00:15:29] and we felt really close to you. all the
+
+[00:15:31] people raving during the the base
+
+[00:15:34] trackers uh set and everything. So yeah,
+
+[00:15:38] I loved it. I loved it. What about you,
+
+[00:15:40] Michael? How did you feel about it?
+
+[00:15:42] I thought it was world class. I mean, we
+
+[00:15:44] described it as a historic event uh for
+
+[00:15:47] Star Atlas community and I believe that
+
+[00:15:49] to be true. I I think it was a historic
+
+[00:15:51] event for the web 3 community as well.
+
+[00:15:54] So uh for anyone out there that actually
+
+[00:15:57] isn't familiar, um we had a great
+
+[00:15:59] turnout. COPA though uh stands for the
+
+[00:16:02] Council of Peace assembly. It was an all
+
+[00:16:04] day festival and celebration of
+
+[00:16:07] community uh across the Star Atlas
+
+[00:16:09] ecosystem. And maybe just to provide a
+
+[00:16:11] little additional context, it was it was
+
+[00:16:14] 7 hours uh of of non-stop content with
+
+[00:16:18] multiple tracks, multiple rooms where
+
+[00:16:20] people were um engaging. The emphasis of
+
+[00:16:23] this event was to highlight the guild or
+
+[00:16:26] the DAC ecosystem uh within Star Atlas
+
+[00:16:29] and and uh a request was sent out back
+
+[00:16:32] in May, May 20th um for uh presentations
+
+[00:16:37] uh a proposal for presentations and we
+
+[00:16:39] had 39 applicants uh who submitted a
+
+[00:16:41] presentation to us from guilds all
+
+[00:16:43] around the world. Uh from that list, we
+
+[00:16:45] had to curate that down given the the
+
+[00:16:47] time constraint of one full day. And so
+
+[00:16:49] we selected 15 uh guilds to present
+
+[00:16:52] their vision. Um and there was some
+
+[00:16:54] criteria that was used to determine who
+
+[00:16:56] who got selected. But as you all know,
+
+[00:16:58] as guilds, you're not just here playing
+
+[00:17:00] a video game. You're participants and
+
+[00:17:02] builders and developers and
+
+[00:17:03] entrepreneurs yourselves. And so, uh, we
+
+[00:17:06] wanted to showcase that and celebrate
+
+[00:17:08] again community, uh, particularly given
+
+[00:17:11] a lot of the upcoming exciting releases
+
+[00:17:13] that we have coming. Um, and to some
+
+[00:17:16] extent, you know, as a way to celebrate
+
+[00:17:18] one another in the hardest of times.
+
+[00:17:20] And, you know, when when we think about
+
+[00:17:22] where the the market is today, sure,
+
+[00:17:24] it's not great, but the reality is and
+
+[00:17:27] what I've seen in all of the traveling
+
+[00:17:29] that I've been doing is that the
+
+[00:17:30] builders are still building. We're still
+
+[00:17:32] here creating great products. And the
+
+[00:17:34] energy across the blockchain and crypto
+
+[00:17:36] ecosystem is massive. And so if we
+
+[00:17:40] ignore price for the moment, which is
+
+[00:17:41] really insignificant, if we ignore that
+
+[00:17:43] and just attribute it to being
+
+[00:17:44] short-term noise, what you realize is
+
+[00:17:47] that this industry industry is truly
+
+[00:17:49] impressive and truly growing and
+
+[00:17:51] reaching mainstream. And so, uh, it was
+
+[00:17:53] a celebration of all of that. We had
+
+[00:17:55] some fantastic guests join us. Justin
+
+[00:17:58] Khan, um, formerly of Twitch, co-founder
+
+[00:18:01] of Twitch, and and current founder of
+
+[00:18:03] Fractal. Uh, we had the Marlin, uh, of
+
+[00:18:07] Bassjackers, as you pointed out, Santi,
+
+[00:18:09] and we had a really cool DJ set for
+
+[00:18:11] lunch. We had Vivian Rosenthal, uh,
+
+[00:18:14] founder of Frequency. We did a breath
+
+[00:18:16] work session. We all got an opportunity
+
+[00:18:18] to to take a deep breath, relax, and,
+
+[00:18:21] uh, kind of get high on our own own
+
+[00:18:23] supply, if you will. um alongside many
+
+[00:18:27] members of our team as well. Uh we had
+
+[00:18:30] Estfan on, he's head of growth. Uh
+
+[00:18:32] Anthony is our head of marketing
+
+[00:18:34] intelligence. Luchiano gave a fantastic
+
+[00:18:37] presentation on uh the upcoming
+
+[00:18:39] marketplace release that we have uh
+
+[00:18:41] rolling out. and uh Mo uh fan favorite
+
+[00:18:45] Mo gave a an overview of the progress
+
+[00:18:48] that we've been making on Scream, the
+
+[00:18:50] upcoming 3Dbased uh web game coming out
+
+[00:18:53] later this year. Um and I'd be remiss
+
+[00:18:57] not to mention King of uh I by Power.
+
+[00:19:00] They were sponsors on the event. Uh they
+
+[00:19:03] provided five sets of headphones and
+
+[00:19:05] they also provided a monster PC that we
+
+[00:19:07] gave away to somebody uh in the
+
+[00:19:09] community that was part uh participating
+
+[00:19:11] on the day. So big thanks again to I by
+
+[00:19:13] Power for participating in that.
+
+[00:19:15] Lucky guy. Lucky guy killed from the
+
+[00:19:17] globe. Lucky guy.
+
+[00:19:19] Yeah. Yeah. I'm I'm a little bit
+
+[00:19:21] jealous. Uh
+
+[00:19:25] it was a beautiful machine and it was
+
+[00:19:26] all, you know, custom built and custom
+
+[00:19:29] designed um as a one of one Star Atlas
+
+[00:19:32] PC. So really cool prize. But overall,
+
+[00:19:34] what a fantastic day, Santi. And you
+
+[00:19:36] know, I think to me what was most
+
+[00:19:38] important is is just, you know, I think
+
+[00:19:40] the community was was reinvigorated. Um,
+
+[00:19:43] if the vigor wasn't already there, but
+
+[00:19:45] uh, a lot of passion, a lot of
+
+[00:19:47] excitement, a lot of good times. Uh, uh,
+
+[00:19:50] a lot of people spamming Santi in the
+
+[00:19:52] chat. But it was a great day. I was
+
+[00:19:54] super happy just to be, you know,
+
+[00:19:56] spending the time with the community
+
+[00:19:57] like that and listening in and seeing
+
+[00:19:58] all the development that's going on uh,
+
+[00:20:00] throughout Star Atlas, not just from
+
+[00:20:02] Automata, but also from the community.
+
+[00:20:05] Yeah. Yeah. Also, shout out to the
+
+[00:20:06] winners. Uh, shout out to the club Dark
+
+[00:20:09] Matter and Coexist. And I see Coexis
+
+[00:20:12] coming here with the profile picks. They
+
+[00:20:15] they have like the same profile pick
+
+[00:20:17] from Copa Champion, all the Coexis
+
+[00:20:20] members. So, if you scroll down here,
+
+[00:20:22] you actually will see all the Coaxis
+
+[00:20:24] profile picks. That's really cool.
+
+[00:20:26] That's really cool.
+
+[00:20:27] Yes.
+
+[00:20:28] Yes. Yes.
+
+[00:20:30] Yeah.
+
+[00:20:30] You know, I did forget to mention big
+
+[00:20:32] shout out to them for sure. And and we
+
+[00:20:33] should just announce the uh you know the
+
+[00:20:35] the order uh of the winners as well. It
+
+[00:20:38] was uh Coexist came in first place. You
+
+[00:20:40] know again Landmark event for them as
+
+[00:20:42] well. Making history first ever COPA
+
+[00:20:45] Dark Matter came in second place. The
+
+[00:20:46] club came in third place. Everybody I
+
+[00:20:49] think was really a winner. um just
+
+[00:20:51] having participated and everybody that
+
+[00:20:53] um submitted a a presentation to us,
+
+[00:20:56] whether they, you know, took home one of
+
+[00:20:58] the prizes or not, we'll be working
+
+[00:20:59] closely with them one-on-one to ensure
+
+[00:21:02] that we're uh helping facilitate their
+
+[00:21:04] own development objectives and bringing
+
+[00:21:06] the tools and the the infrastructure to
+
+[00:21:07] them uh that's necessary to succeed in
+
+[00:21:10] the metaverse of Star Atlas. But I did
+
+[00:21:12] also uh just quickly want to mention I I
+
+[00:21:14] uh I don't want to forget Matt Sword
+
+[00:21:17] from Salana also joined us right at the
+
+[00:21:19] beginning of the of the festival and uh
+
+[00:21:22] gave some insights as to uh state of
+
+[00:21:24] gaming within Salana and uh and
+
+[00:21:27] blockchain gaming in general and you
+
+[00:21:29] know he's um he's a guy that's deeply
+
+[00:21:31] experienced in game development formerly
+
+[00:21:33] working at Riot Games. So he's uh he's
+
+[00:21:36] got a good pulse on the way the game
+
+[00:21:38] development industry works and and it's
+
+[00:21:39] amazing to see talent like that come
+
+[00:21:41] over to the blockchain space and web3
+
+[00:21:43] space.
+
+[00:21:44] Yeah, really happy to have someone from
+
+[00:21:48] from Solana Foundation supporting us as
+
+[00:21:50] well during Copa. And I have a quick
+
+[00:21:53] question for you Michael before we move
+
+[00:21:54] to the next topic. Uh you gave a a
+
+[00:21:57] really good speech at the beginning of
+
+[00:21:59] Copa. What inspired you when you were
+
+[00:22:02] writing that or was it like spontaneous?
+
+[00:22:05] You know, Santi, it was um I guess it
+
+[00:22:08] was relatively spontaneous. The reality
+
+[00:22:10] is it it came from the heart and that
+
+[00:22:12] that inspiration is, you know, and that
+
+[00:22:14] passion is what I believe and and feel
+
+[00:22:17] every single day for what we're
+
+[00:22:19] building. So, um what I did want to do,
+
+[00:22:22] what I what I hopefully accomplished was
+
+[00:22:25] invoking the imagination. as we're still
+
+[00:22:27] very early here, a lot of it is
+
+[00:22:28] conceptual. Um, a main reason we love
+
+[00:22:32] sci-fi and we love space and and you
+
+[00:22:34] know, we love the ability to build a
+
+[00:22:38] better future uh is because we can
+
+[00:22:40] imagine things and if we can imagine
+
+[00:22:41] things, we can manifest them and that's
+
+[00:22:43] what we have to do every day as as
+
+[00:22:45] builders, right? As innovators. So, um,
+
+[00:22:47] that was my goal, but really it was just
+
+[00:22:49] sharing my thoughts from the heart and
+
+[00:22:52] hopefully people took that as
+
+[00:22:53] inspirational and and empowering and
+
+[00:22:55] and, uh, you know, felt good about it.
+
+[00:22:58] Yeah. Yeah, definitely. It felt really
+
+[00:23:00] good, man. Not going to lie. I think
+
+[00:23:01] everybody loved the the speech. So,
+
+[00:23:04] great job, man. Great job.
+
+[00:23:06] Yeah. Thanks so much, man. Um, I know we
+
+[00:23:08] have some content uh of our own that
+
+[00:23:10] will be released. I I happened to catch
+
+[00:23:12] a sneak peek of um of a cut that uh the
+
+[00:23:15] RevOps team is working on of that uh of
+
+[00:23:18] that intro keynote. Um if you want to
+
+[00:23:22] watch the whole um raw recording, uh I
+
+[00:23:26] know we had one of the guilds uh out
+
+[00:23:29] there was Rome, I think that uh uh
+
+[00:23:31] stream streamed the whole thing. So they
+
+[00:23:34] have the full seven-hour recording on
+
+[00:23:35] YouTube. If you haven't seen it, haven't
+
+[00:23:38] listened in, I' i'd encourage you to
+
+[00:23:39] spend some time and go check it out
+
+[00:23:41] because it was such a cool event.
+
+[00:23:43] Yeah. And they're streaming the town
+
+[00:23:44] hall now. So big shout out to Rome for
+
+[00:23:46] always covering everything related to
+
+[00:23:49] Star Atlas.
+
+[00:23:50] Yeah. Thank you guys.
+
+[00:23:53] So, so, so, so I think we can move to
+
+[00:23:56] the next topic. Something that also is
+
+[00:23:58] um that I want to ask you Michael with
+
+[00:24:01] the the we announced the I by power
+
+[00:24:03] partnership during the during COPA but
+
+[00:24:05] we also have other partnerships like
+
+[00:24:07] would you like to touch on on a few of
+
+[00:24:08] them?
+
+[00:24:09] Sure. Uh I mean you know just quickly on
+
+[00:24:12] I by Power um clearly these guys build
+
+[00:24:15] top-of-the-line gaming equipment. We're
+
+[00:24:17] building AAA quality gaming. So, you
+
+[00:24:20] know, it was important for us to reach
+
+[00:24:21] out to that that uh traditional hardware
+
+[00:24:23] community and and find somebody who
+
+[00:24:25] could help us deliver uh best-in-class
+
+[00:24:28] gaming products um to, you know, to our
+
+[00:24:31] community, to our user base. And so, um
+
+[00:24:33] you know, one cool thing coming from
+
+[00:24:35] that is that you will in the in the very
+
+[00:24:37] short term be able to purchase Star
+
+[00:24:39] Atlas branded PCs directly from I by
+
+[00:24:42] Power. I think it's such a cool way to
+
+[00:24:44] get that exposure out there again to the
+
+[00:24:46] mainstream. And for those of you that
+
+[00:24:48] are looking to upgrade, uh here's your
+
+[00:24:50] opportunity to buy a Star Atlas PC,
+
+[00:24:52] which is really neat. Um some of the
+
+[00:24:54] other big announcements, and there there
+
+[00:24:55] have been many, but uh some of the more
+
+[00:24:57] recent ones were an announcement of a
+
+[00:25:00] Moonay integration. This is, you know,
+
+[00:25:02] they're um they're a leading fiat
+
+[00:25:06] on-ramp for uh mainstream users into
+
+[00:25:10] crypto, enabling, you know, the purchase
+
+[00:25:12] of NFTts and cryptocurrencies with a
+
+[00:25:14] credit card and debit card. So this is
+
+[00:25:16] all part of the process of simplifying
+
+[00:25:18] the user experience and and making it
+
+[00:25:20] easier for people all over the world to
+
+[00:25:23] get involved in this ecosystem. And then
+
+[00:25:25] one that um maybe isn't totally
+
+[00:25:28] understood but it's this relationship
+
+[00:25:30] that uh that we formed with Kadellski.
+
+[00:25:33] Now, Kadellski is a leading uh security
+
+[00:25:37] digital security firm. Uh one of the
+
+[00:25:40] oldest in the world, self-described as
+
+[00:25:43] the biggest company that you've never
+
+[00:25:44] heard of. Uh which is an interesting way
+
+[00:25:47] to describe oneself. But what's
+
+[00:25:49] important about this relationship is um
+
+[00:25:52] two twofold. First and foremost, you
+
+[00:25:54] know, this is a crypto can be a scary
+
+[00:25:57] place and uh as we know, there's a lot
+
+[00:25:59] of exploits, there's been a lot of
+
+[00:26:00] vulnerabilities. Um, Star Atlas has
+
+[00:26:03] never been exposed to an exploit or a
+
+[00:26:05] vulnerability because we put such
+
+[00:26:06] emphasis on ensuring the the security of
+
+[00:26:10] our users but also the security of the
+
+[00:26:12] programs that we develop. And so uh
+
+[00:26:14] we'll be working closely with Kadellski
+
+[00:26:17] on every onchain program that we release
+
+[00:26:19] on Salana or at least as many as
+
+[00:26:21] possible within their pipeline while
+
+[00:26:23] working with additional auditing uh
+
+[00:26:25] firms. But uh working closely with them
+
+[00:26:27] to ensure that our programs are safe and
+
+[00:26:29] secure and that you know users that are
+
+[00:26:31] depositing assets there are safe and
+
+[00:26:33] secure. um don't want to say too much
+
+[00:26:36] about the next part, but I will say that
+
+[00:26:38] we're we're looking at working very
+
+[00:26:39] closely with them on building uh
+
+[00:26:42] foundational frameworks and intellectual
+
+[00:26:44] property uh for onchain gaming because
+
+[00:26:48] of this position that we take and the
+
+[00:26:50] develop development methodology that we
+
+[00:26:52] use to actually produce Star Atlas's
+
+[00:26:54] game with a lot of the logic abstracted
+
+[00:26:57] from game the game engine and delivered
+
+[00:26:59] on the blockchain. really truly using
+
+[00:27:01] the blockchain as a backend um for our
+
+[00:27:04] gaming product which um not very many
+
+[00:27:07] people are doing whatsoever. So very
+
+[00:27:10] important relationship for us. It's
+
+[00:27:11] really about you the community and the
+
+[00:27:13] users. Um and that's why we're working
+
+[00:27:15] with best-in-class companies all over
+
+[00:27:16] the world.
+
+[00:27:18] Yeah, thank you for covering this man. I
+
+[00:27:20] know that there was uh there was
+
+[00:27:23] probably some clarity needed on on what
+
+[00:27:25] the relationships are and why. So so
+
+[00:27:27] thanks for covering it. Now we can jump
+
+[00:27:30] on on a new topic. Uh just a quick
+
+[00:27:34] updates for the community. We just
+
+[00:27:36] launched the new faction channels and
+
+[00:27:39] they are oh man they are moving. Not
+
+[00:27:42] sure Michael if you saw the faction
+
+[00:27:43] propaganda and how it's going but this
+
+[00:27:45] is this is getting this is getting
+
+[00:27:48] interesting man.
+
+[00:27:49] Oh I I tried to uh stimulate that fire a
+
+[00:27:52] little bit. I've I've absolutely seen
+
+[00:27:54] it. I I love the content that's coming
+
+[00:27:56] out and um you know, COPA was about uh
+
+[00:27:59] bringing people together, but I I think
+
+[00:28:02] there's a definite cloak and dagger in
+
+[00:28:04] there somewhere because um yeah, the
+
+[00:28:07] controversy seems to have been stirred
+
+[00:28:08] up a bit.
+
+[00:28:10] Yeah, man. So, for everyone listening
+
+[00:28:12] now, I just dropped the the the link to
+
+[00:28:14] the chat to go and pick your faction so
+
+[00:28:17] you can get access to the private
+
+[00:28:18] faction channels uh which are they're
+
+[00:28:21] starting to get interesting. uh people
+
+[00:28:23] are starting to get organized and
+
+[00:28:26] because it's it's going to be the same
+
+[00:28:28] especially once Scream is out the
+
+[00:28:30] coordination needed is going to be
+
+[00:28:32] really really important to be able to
+
+[00:28:33] play so and to and to do a good job at
+
+[00:28:36] it. So that's really important. Another
+
+[00:28:39] update that we have is that we launched
+
+[00:28:41] the Stratlas official community account
+
+[00:28:45] called we are Stratlas. Uh Dominic just
+
+[00:28:48] dropped the link on the town hall chat.
+
+[00:28:50] So, if you want, I mean, you should give
+
+[00:28:52] it a follow right now because we know
+
+[00:28:55] that we have like a huge huge community.
+
+[00:28:58] Everybody's building. We see new stuff
+
+[00:29:00] every day and we had to create it mainly
+
+[00:29:03] because you guys are putting so much
+
+[00:29:05] content out that we can't just keep up
+
+[00:29:08] with one account. So, that that's how
+
+[00:29:12] that's why uh we love seeing the content
+
+[00:29:14] and we want to give it the exposure that
+
+[00:29:16] it deserves. So go follow the We are
+
+[00:29:19] Star Atlas Twitter community account.
+
+[00:29:22] And now I think if I'm not missing
+
+[00:29:25] anything, Michael, we can jump right
+
+[00:29:27] into the interviews. Any last comments?
+
+[00:29:30] No, you know, let me just uh let me just
+
+[00:29:32] say I I am going to hold back on any
+
+[00:29:34] major updates today on uh on project
+
+[00:29:38] progress. Uh so COPA was filled uh with
+
+[00:29:44] alpha. In fact, it could be short for
+
+[00:29:45] just copious amounts of alpha uh that
+
+[00:29:48] was released and that was again just
+
+[00:29:49] last Thursday. Uh we also have the new
+
+[00:29:52] Atlas Star edition coming out today with
+
+[00:29:54] some updates on projects. But you know,
+
+[00:29:56] one of the big pieces of alpha that I
+
+[00:29:58] had the opportunity and pleasure to to
+
+[00:29:59] drop is is uh kind of why Santi you have
+
+[00:30:03] a new trademarked handle here in
+
+[00:30:05] Discord, but it's that uh four to six
+
+[00:30:08] four to six meme is is uh truly back on
+
+[00:30:11] the table here. We are planning for five
+
+[00:30:13] to six major feature releases to come
+
+[00:30:14] out within the next four to six weeks.
+
+[00:30:16] Uh the marketplace will be kicking all
+
+[00:30:18] of that off, followed by the DAO. Um we
+
+[00:30:21] have the Volant Studios showroom coming
+
+[00:30:23] up in there. Um alongside that, uh maybe
+
+[00:30:26] a little bit after is uh the first time
+
+[00:30:28] ever announced a prequel graphic novel,
+
+[00:30:31] which is a comic book format of the the
+
+[00:30:35] um the story and lore preceding current
+
+[00:30:38] era Star Atlas. And it's looking really
+
+[00:30:41] cool. I know there's some uh some shots
+
+[00:30:43] that we've released out there as well of
+
+[00:30:45] that content. And then um a couple of
+
+[00:30:47] like supplementary programs is uh we'll
+
+[00:30:50] have a new referral program coming out
+
+[00:30:51] associated with the marketplace. And uh
+
+[00:30:54] this is where you can recruit new people
+
+[00:30:55] into Star Atlas and and you can actually
+
+[00:30:58] use the points, the loyalty points
+
+[00:30:59] earned there to purchase ships. So a way
+
+[00:31:01] to earn yourself some free ships. And
+
+[00:31:04] then also um uh what I did want to
+
+[00:31:07] distinguish is there's really two parts
+
+[00:31:09] of the DAO that are coming out shortly.
+
+[00:31:11] It's it's the DAO framework um and
+
+[00:31:13] application which is necessary for us to
+
+[00:31:15] integrate multiple features coming in
+
+[00:31:17] the future. And so the first feature
+
+[00:31:19] that we're including along with that DAO
+
+[00:31:21] framework is the polus locker program.
+
+[00:31:24] So your ability to lock uh tokens and
+
+[00:31:27] earn emissions from the from the DAO
+
+[00:31:30] itself. And um you know the next feature
+
+[00:31:34] in the pipeline for the DAO uh is Atlas
+
+[00:31:37] staking and Atlas staking will provide
+
+[00:31:39] you some benefits uh on the marketplace
+
+[00:31:42] as well. So I just wanted to mention
+
+[00:31:44] that quickly. Uh we won't get into the
+
+[00:31:46] detail here. Let's definitely save time.
+
+[00:31:47] We have some amazing guests. So I'm just
+
+[00:31:49] going to turn it over to you Santi.
+
+[00:31:51] Thank you man. Thank you. You dropped
+
+[00:31:53] some some little alpha. I love it. Uh so
+
+[00:31:55] now we moving to Jim for the first our
+
+[00:31:59] first guest of the day. Hello Jim. How
+
+[00:32:01] are you doing my friend?
+
+[00:32:03] I'm good Santi. How are you
+
+[00:32:06] doing? Really good man. Really happy to
+
+[00:32:07] have you here on stage. We have been
+
+[00:32:09] chatting for a long time. You are one of
+
+[00:32:11] the OGs of Star Atlas. Actually, we
+
+[00:32:14] joined pretty much at the same time back
+
+[00:32:16] in March, April 2021.
+
+[00:32:19] Yeah. Yeah. It's uh it's interesting
+
+[00:32:22] that Yeah. OG. It's a year. But there
+
+[00:32:24] you go. I agree. It's fun to be on here.
+
+[00:32:26] Thank you for for everybody for having
+
+[00:32:27] me. And I'll try to imagine there's not
+
+[00:32:29] 300 more people listening to me right
+
+[00:32:31] now.
+
+[00:32:34] Yeah, man. You will do great. I'm super
+
+[00:32:36] sure about that. So, let's start easy.
+
+[00:32:39] Like, tell us a little bit. People want
+
+[00:32:40] to know you. Tell us a little bit about
+
+[00:32:42] who you are. What's your background?
+
+[00:32:45] Sure. Yeah. So, I'm a a software
+
+[00:32:47] engineer.
+
+[00:32:49] Been doing software engineering for 26
+
+[00:32:52] years professionally. Um, primarily my
+
+[00:32:56] history, my background is in in video
+
+[00:32:58] games, uh, with Activision, Activision
+
+[00:33:01] Value. Um and then uh that was back in
+
+[00:33:06] the 90s, early 2000s. And then after
+
+[00:33:09] that moving into uh visual simul visual
+
+[00:33:14] visual simulations, visual rendering
+
+[00:33:17] systems um basically like military
+
+[00:33:20] planning systems. So soldiers that were
+
+[00:33:22] being deployed could see and go uh see
+
+[00:33:25] where they were being deployed in 3D,
+
+[00:33:27] could walk around, could um so a lot of
+
+[00:33:30] GIS and again a lot of 3D rendering, a
+
+[00:33:32] lot of volume rendering, so you know big
+
+[00:33:35] cities um you know being able to be
+
+[00:33:37] deployed in Baghdad for example and
+
+[00:33:39] being able to walk around and know where
+
+[00:33:41] hospitals and mosques and all that kind
+
+[00:33:42] of stuff was. And then from there moved
+
+[00:33:44] into flight simulators
+
+[00:33:46] again really focusing on on on visual
+
+[00:33:49] systems. So everything you see outside
+
+[00:33:51] the windows uh of flight simulators and
+
+[00:33:53] I don't I don't mean XPlane or or
+
+[00:33:55] Microsoft Flight Simulator but but fully
+
+[00:33:57] approved FAA motion and non-motion
+
+[00:34:00] visual rendering systems. Um and then
+
+[00:34:03] from there into mobile gaming um and uh
+
+[00:34:07] and then now Star Atlas. So
+
+[00:34:10] yeah man that that's what I was about to
+
+[00:34:12] say like everything is super related to
+
+[00:34:15] a lot of projects that we actually have
+
+[00:34:18] inside Star Atlas.
+
+[00:34:20] Yeah. Yeah. It was you know when I was
+
+[00:34:22] fortunate enough to to meet Michael Luen
+
+[00:34:24] online and began to to kind of interview
+
+[00:34:26] that was one of the things that was
+
+[00:34:27] really attracted me to Star Atlas you
+
+[00:34:28] know the the idea of you know flying a
+
+[00:34:31] spaceship from celestial bodies down
+
+[00:34:33] onto planets and and you know the
+
+[00:34:36] challenge that comes with rendering that
+
+[00:34:37] stuff. um uh was absolutely just kind of
+
+[00:34:42] exciting. Some of the best times I've
+
+[00:34:44] had in my career uh was working in the
+
+[00:34:46] flight simulator space. Uh so
+
+[00:34:49] yeah, that was one of the things that
+
+[00:34:50] was really exciting for me about coming
+
+[00:34:52] to Star Atlas. So
+
+[00:34:53] yeah, man, we're happy to have you with
+
+[00:34:55] us, not going to lie.
+
+[00:34:57] So
+
+[00:34:57] thank you.
+
+[00:34:59] Tell us what you do in Star Atlas.
+
+[00:35:01] What's uh what does your day-to-day look
+
+[00:35:03] like?
+
+[00:35:04] Yeah, besides keeping Michael Lu in
+
+[00:35:06] line, um, just kidding. Um,
+
+[00:35:10] uh, fundamentally, uh, I work with the
+
+[00:35:12] teams, the game team and the web team,
+
+[00:35:15] and I I I
+
+[00:35:20] kind of just either work on kind of some
+
+[00:35:23] of the bigger, deeper challenges, um,
+
+[00:35:26] you know, down kind of the the the core
+
+[00:35:29] levels. Um and and the other thing that
+
+[00:35:31] I do is I just I I help them to
+
+[00:35:34] understand the the bigger picture of
+
+[00:35:35] what we're of what we're doing and how
+
+[00:35:37] we want to implement that. Um, so you
+
+[00:35:40] know when it comes to scream you how are
+
+[00:35:43] we integr how you know how do we work
+
+[00:35:44] with with WebGL and how do we build uh
+
+[00:35:47] video games which you know a lot of web
+
+[00:35:49] developers have built web apps but
+
+[00:35:51] building a video game with a a real-time
+
+[00:35:53] update loop and and and physics and and
+
+[00:35:57] networking code happening in real time
+
+[00:35:59] it's a it's a different uh ball game and
+
+[00:36:01] so just kind of helping all the
+
+[00:36:04] developers build that uh in a solid uh
+
+[00:36:08] structure is one of the things that I
+
+[00:36:09] do. Um the one team that I don't really
+
+[00:36:12] work with uh more direct I work with
+
+[00:36:14] them from an outside but I don't
+
+[00:36:16] actually write any code is on the
+
+[00:36:17] blockchain. Uh but if it's it's web,
+
+[00:36:19] it's gaming, it's Unreal 5, it's it's
+
+[00:36:23] Scream, all of them. Um my my fingers my
+
+[00:36:26] hands are in juggling kind of all of
+
+[00:36:28] those things.
+
+[00:36:29] Yeah, I mean for your background and
+
+[00:36:31] experience like I say you're able to add
+
+[00:36:33] a lot of value to a lot of different
+
+[00:36:35] projects that we have inside Stratlas.
+
+[00:36:37] So you also kind of do like some kind of
+
+[00:36:40] connection between blockchain and the
+
+[00:36:42] game as well for what you said.
+
+[00:36:46] Yeah. Yeah. So so you know we've got
+
+[00:36:48] great blockchain developers and you know
+
+[00:36:50] Jacob I kind of call him a blockchain
+
+[00:36:52] native. You know Jacob Floyd our CTO has
+
+[00:36:54] been working in blockchains for forever.
+
+[00:36:56] Um but what I what I one of the places
+
+[00:36:58] that I really focus on um is is is how
+
+[00:37:02] do we make our web apps how do we make
+
+[00:37:03] our games connect to the blockchain and
+
+[00:37:05] work with the blockchain. Um, and how do
+
+[00:37:07] you take the the concept of, you know,
+
+[00:37:10] games, as we were talking about the
+
+[00:37:12] other day, games are are basically a
+
+[00:37:15] series of of choices and those choices
+
+[00:37:17] have cause and effect. Um, and that is
+
+[00:37:21] what a game loop is and that what's
+
+[00:37:23] creates fun. And so how do we do this
+
+[00:37:26] distributed system of cause and effect
+
+[00:37:29] where a cause is happening on the game
+
+[00:37:31] client or cause is happening on the web
+
+[00:37:33] client like the marketplace and then how
+
+[00:37:35] do you have the effect come from the
+
+[00:37:36] blockchain um that really hasn't been
+
+[00:37:40] done uh you know as we're such kind of a
+
+[00:37:42] new era in the blockchain that really
+
+[00:37:44] hasn't been done um in the gaming space.
+
+[00:37:47] So being able to work on those kind of
+
+[00:37:49] things are what I do. I don't that's too
+
+[00:37:51] technical or too abstract there, but
+
+[00:37:53] that's that's primarily what I focus on
+
+[00:37:55] when it comes to the blockchain.
+
+[00:37:57] Yeah, it's okay. It's okay to be a
+
+[00:37:59] little technical, man. We have some
+
+[00:38:01] really technical people as well in the
+
+[00:38:02] audience. So, it's cool. So, following
+
+[00:38:05] up to to what you said, like I have an
+
+[00:38:08] interesting question. Uh what do you
+
+[00:38:11] think that are the biggest challenges
+
+[00:38:13] for a company like Stratlas in terms of
+
+[00:38:16] engineering?
+
+[00:38:18] Yeah. Wow, that's a great question. Um,
+
+[00:38:21] besides finding developers, uh,
+
+[00:38:24] but, um, yeah, worldwide short, right?
+
+[00:38:26] So, um, I I think there's there two the
+
+[00:38:29] two big challenges as I see them and
+
+[00:38:31] and, uh, in in in a game like Star
+
+[00:38:34] Atlas. Uh,
+
+[00:38:36] one, and we kind of talked about it, is,
+
+[00:38:38] you know, the cause and effect and the
+
+[00:38:40] distributed system. The other that I'll
+
+[00:38:42] kind of touch in maybe later is is
+
+[00:38:44] density. Um, but if we just think about
+
+[00:38:46] kind of blockchain,
+
+[00:38:48] um, like I was talking about games,
+
+[00:38:50] games run in this this what they call a
+
+[00:38:53] game loop, right? Uh, you know, if
+
+[00:38:55] you're trying to get 60 frames a second,
+
+[00:38:57] you know, every 16 milliseconds, the
+
+[00:38:59] game is updating the world. Whether the
+
+[00:39:01] player is doing anything or not, the the
+
+[00:39:02] monster is doing its, you know, it's a
+
+[00:39:05] star search to find where the sound was.
+
+[00:39:07] It's uh, you know, the other players are
+
+[00:39:09] moving, things are happening in this
+
+[00:39:11] this real-time game loop. Um, and one of
+
+[00:39:15] the challenges of a block of the
+
+[00:39:16] blockchain is the blockchain is ondemand
+
+[00:39:19] computing, you know, and again again to
+
+[00:39:21] get a little abstract and a little
+
+[00:39:22] technical, that means it it requires
+
+[00:39:24] somebody outside of it to trigger the
+
+[00:39:26] compute to happen. Um, versus a game,
+
+[00:39:29] you know, when you're playing uh, you
+
+[00:39:31] know, Halo, whatever, you playing it and
+
+[00:39:34] it's it's the the CPU is just running
+
+[00:39:36] and and doing all the processing. It's
+
+[00:39:38] not the blockchain. If you do one you
+
+[00:39:40] you make one request to it, it does a
+
+[00:39:42] bit of compute and then it basically
+
+[00:39:43] stops until the next request comes in.
+
+[00:39:46] Um and that creates complexity. Um and
+
+[00:39:50] and you know even Salana which is a to
+
+[00:39:53] me the best blockchain out there having
+
+[00:39:55] worked with Ethereum and Polygon which I
+
+[00:39:58] think Polygon's good but uh then getting
+
+[00:40:00] into Salana you still can't necessarily
+
+[00:40:03] build a system that's that's sending
+
+[00:40:06] requests to drive the game forward every
+
+[00:40:08] 16 milliseconds right um because it's
+
+[00:40:12] just they're not really designed for
+
+[00:40:13] that. So, how can we build a system that
+
+[00:40:16] still continues to drive the game
+
+[00:40:19] forward um and not basically require it
+
+[00:40:22] to be, you know, clickfy, right? Where
+
+[00:40:25] you, you know, you're not requiring that
+
+[00:40:27] the user doesn't just sit there and
+
+[00:40:28] click click click click to drive the the
+
+[00:40:30] game forward. Um and and I think from a
+
+[00:40:35] from a industry pu uh standard from what
+
+[00:40:38] I can tell from the industry we this is
+
+[00:40:41] very new and there hasn't been a lot of
+
+[00:40:43] stuff that's been developed yet and and
+
+[00:40:45] um I think because you can't drive the
+
+[00:40:49] game forward very easily that's created
+
+[00:40:51] game loops that are are really very
+
+[00:40:55] basic and ultimately what creates fun in
+
+[00:40:58] games is complexity right how do
+
+[00:41:01] you know, how do you start to build
+
+[00:41:02] complex decision trees and how do you
+
+[00:41:04] start to build complex um game systems?
+
+[00:41:08] But again, if you have this fundamental
+
+[00:41:09] problem of not being able to drive your
+
+[00:41:11] your your game world forward without a
+
+[00:41:14] user taking an interaction, it begins to
+
+[00:41:17] to to really make it a big struggle to
+
+[00:41:19] drive games forward. And I think so
+
+[00:41:21] that's one of the things that that that
+
+[00:41:22] I'm I'm working on with the other
+
+[00:41:24] talented people uh at Star Atlas is how
+
+[00:41:27] do we do that? Um, and how do we do that
+
+[00:41:29] in a way that again will work and not
+
+[00:41:32] necessarily just, you know, crush a
+
+[00:41:35] blockchain. Um, and then the other issue
+
+[00:41:39] that that I'm working on a lot with
+
+[00:41:40] other talented people is is density. And
+
+[00:41:42] whether it's a blockchain game or not,
+
+[00:41:44] if you know, how do you have 5,000
+
+[00:41:45] people
+
+[00:41:47] running around the same uh central star
+
+[00:41:49] base? You know, how do you have 800
+
+[00:41:51] ships, you know, all fighting for the
+
+[00:41:53] same spot in the in in a in a solar
+
+[00:41:55] system? And uh you know not only do you
+
+[00:41:58] have visual rendering uh density issues
+
+[00:42:00] there you have player you have noise you
+
+[00:42:03] know I've watched a Twitch stream and
+
+[00:42:05] you know bazillion chats are going by
+
+[00:42:06] you can't read a single one of them so
+
+[00:42:08] you got visual noise there but then you
+
+[00:42:09] also have this concept what's called
+
+[00:42:11] quadratic network effect where every
+
+[00:42:14] player has to get the update from every
+
+[00:42:16] other player. Um, and so the other thing
+
+[00:42:19] that that we're working on, um, and
+
+[00:42:22] sometimes why we can't just win game,
+
+[00:42:25] um, here with Star Atlas is we're
+
+[00:42:26] working on that density because one of
+
+[00:42:28] the one of the things that really
+
+[00:42:29] attracted me to Star Atlas and is is the
+
+[00:42:32] fact that it's an it's really wants to
+
+[00:42:33] be a big open MMO where it's not
+
+[00:42:36] instance where 50 people are only
+
+[00:42:38] playing with each other on one server
+
+[00:42:39] and 100 people only playing with each
+
+[00:42:41] other on other server, but instead it it
+
+[00:42:43] really has this this big goal of being
+
+[00:42:48] massive world universe, massive galaxy
+
+[00:42:50] with hundreds of thousands of people all
+
+[00:42:52] playing with each other. Um, which will
+
+[00:42:55] also then of course drive the economy
+
+[00:42:57] which is kind of the game within a game
+
+[00:42:59] when it comes to to blockchain games or
+
+[00:43:01] web 3 games.
+
+[00:43:02] Yeah, definitely. I'm really really glad
+
+[00:43:05] that we are able to to speak about this
+
+[00:43:07] and even get a little technical on it
+
+[00:43:10] because this has been asked by the
+
+[00:43:13] community a lot of time like we receive
+
+[00:43:16] a lot of questions on this front. So
+
+[00:43:18] thank you for covering it Jim and I have
+
+[00:43:20] a last question for you also difficult
+
+[00:43:22] one but uh how confident are you that we
+
+[00:43:25] are going to be able to do to deliver
+
+[00:43:27] something like that? Yeah. Uh hopefully
+
+[00:43:31] not overly confident, but very
+
+[00:43:33] confident. Um it's kind of interesting.
+
+[00:43:36] I think you and I you and I were were
+
+[00:43:37] talking the other day, someone was
+
+[00:43:39] talking, you know, I was watching on
+
+[00:43:41] Disney Plus kind of the making of the
+
+[00:43:42] Star Wars series, you know, and before
+
+[00:43:44] before Lucas started making the original
+
+[00:43:46] Star Wars, like you know, Star War space
+
+[00:43:48] movies were like Buck Rogers and and
+
+[00:43:50] part of it being so cheesy was that they
+
+[00:43:53] didn't have the technology to do that
+
+[00:43:55] realistic stuff. and he hired some of
+
+[00:43:57] the best people and they they put their
+
+[00:43:59] minds together and they figured out, you
+
+[00:44:00] know, not only how to make the Star Wars
+
+[00:44:02] movie, but how to make THX and Lucasfilm
+
+[00:44:04] and Industrial Light and Magic, right?
+
+[00:44:06] And Ed Catmo is one of my my heroes of
+
+[00:44:09] the industry, like figured out how to
+
+[00:44:11] make a computer render textures and do
+
+[00:44:13] 3D models, right? So, um, and that all
+
+[00:44:17] kind of, uh, not only making that movie,
+
+[00:44:19] so I I feel like one of the really
+
+[00:44:22] awesome things about having such a great
+
+[00:44:23] community, um, and such a great team at
+
+[00:44:26] Star Atlas is we're going to be able to
+
+[00:44:28] to do that. you know, we're going to be
+
+[00:44:30] able to build these tools, build these
+
+[00:44:31] systems that drive blockchain games to
+
+[00:44:34] be able to do ever more complex um uh
+
+[00:44:37] you know, game loops on the that that
+
+[00:44:40] are blockchain native and not just use
+
+[00:44:41] the blockchain as an inventory
+
+[00:44:43] management and a microtransaction
+
+[00:44:45] payment system, but actually put game
+
+[00:44:46] loops that are again blockchain native.
+
+[00:44:49] I think Star Atlas, we really have the
+
+[00:44:51] ability to do that. And and those are
+
+[00:44:53] the again when I look at why I'm not
+
+[00:44:55] retired yet at 26 years doing this. Um,
+
+[00:44:58] it's this exciting opportunity to to one
+
+[00:45:01] day maybe be look back 15 years from now
+
+[00:45:03] and be like, "Yeah, I I helped create
+
+[00:45:06] the the industrial light and magic, if
+
+[00:45:08] you will, of of the blockchain gaming
+
+[00:45:10] space, of the web 3 gaming space." Um,
+
+[00:45:13] and so, um, I'm I'm very confident and
+
+[00:45:16] I'm super excited.
+
+[00:45:18] Yeah, man. Thank you so much for the
+
+[00:45:20] answer. It was a great example and truly
+
+[00:45:22] truly inspiring. And I think I speak in
+
+[00:45:25] the in the name of the whole Stratlas
+
+[00:45:26] team that we are very very happy to have
+
+[00:45:28] you with us, man.
+
+[00:45:30] Well, thank you. I I appreciate it very
+
+[00:45:32] much.
+
+[00:45:32] Yeah. So, thank you for coming today,
+
+[00:45:34] man.
+
+[00:45:36] Thank you're welcome.
+
+[00:45:38] Fun fact about Jim. Uh want to share
+
+[00:45:40] this with the community is that he can
+
+[00:45:42] often be seen walking on his treadmill
+
+[00:45:44] during calls. So, great multitasker.
+
+[00:45:47] Thanks, Jim. Really appreciate you, man.
+
+[00:45:49] You've been doing an amazing job for us.
+
+[00:45:51] Thank you, Michael. I appreciate it.
+
+[00:45:55] So now now now we have Christopher as
+
+[00:45:58] well with us. Christopher are you here?
+
+[00:46:00] How are you doing?
+
+[00:46:02] Greetings navigator.
+
+[00:46:05] Doing good man.
+
+[00:46:06] Good. Doing great. Thanks for having me.
+
+[00:46:09] No thank thank you for coming. So
+
+[00:46:11] Christopher he's senior game designer
+
+[00:46:14] for Sparasoft with Star Atlas. And let's
+
+[00:46:17] let's start easy as well with you
+
+[00:46:19] Christopher. So, uh, tell tell me a
+
+[00:46:22] little bit about you, about your
+
+[00:46:23] background, what have you been doing in
+
+[00:46:25] in your life.
+
+[00:46:27] Yeah. Um, been, uh, designing games for
+
+[00:46:29] about 20 years now. Uh, started in the
+
+[00:46:32] industry as a game tester at Nintendo.
+
+[00:46:34] Worked on cool titles like Pikmin and,
+
+[00:46:37] uh, Luigi's Mansion on the Gamecube.
+
+[00:46:39] Nice.
+
+[00:46:39] And, um, got my foot in the door. Worked
+
+[00:46:42] my way up through the industry. I was an
+
+[00:46:43] assistant producer at Surreal Software
+
+[00:46:45] for a while on The Suffering Ties That
+
+[00:46:47] Bind. I got entry level game design
+
+[00:46:50] position at handheld games working on
+
+[00:46:52] children's titles um Nintendo DS titles
+
+[00:46:56] um and then from there um started doing
+
+[00:47:00] a lot of work at Microsoft because I'm
+
+[00:47:01] originally from the Seattle area so
+
+[00:47:04] that's where Microsoft's based out of
+
+[00:47:05] and uh worked at like turn 10 um I
+
+[00:47:09] worked at Minecraft um I also moved to
+
+[00:47:12] Thailand for a couple years worked on a
+
+[00:47:14] bunch of mobile games so um I've like a
+
+[00:47:17] wide breadth different types of titles
+
+[00:47:19] and consoles and all that kind of stuff.
+
+[00:47:21] And so now here I am working on Star
+
+[00:47:24] Island.
+
+[00:47:25] Oh yeah. Again, like same with Jim. Uh
+
+[00:47:28] we are really happy to have you here.
+
+[00:47:30] But you told me you told me a good story
+
+[00:47:32] about Minecraft and and and what you
+
+[00:47:34] what you did there.
+
+[00:47:37] Yeah.
+
+[00:47:38] With the community as well.
+
+[00:47:40] Yeah. Yeah. I worked at Minecraft for
+
+[00:47:41] about six years and uh about halfway
+
+[00:47:44] through that um I ended up uh working on
+
+[00:47:48] uh the VR experience for Minecraft. So
+
+[00:47:50] um it was kind of like the Wild West um
+
+[00:47:54] uh VR. The Oculus Rift hadn't come out
+
+[00:47:56] yet. So I was working with the MK1 and
+
+[00:47:58] uh doing a lot of research trying
+
+[00:48:00] different types of games like demos that
+
+[00:48:02] were out there and stuff and designing
+
+[00:48:04] the experience for VR for that. Um,
+
+[00:48:08] also, uh, before that I worked a lot
+
+[00:48:10] with mashup packs. So, like, um, for
+
+[00:48:13] example, the Halo mashup pack. Um, it
+
+[00:48:15] had been on the marketplace for quite
+
+[00:48:17] some time. It wasn't really selling the
+
+[00:48:18] greatest. And they handed it to me and
+
+[00:48:20] was like, add a bunch of gameplay to it.
+
+[00:48:22] So, I spent about six months working
+
+[00:48:24] with Redstone and um, command blocks and
+
+[00:48:28] um, adding gameplay to all the different
+
+[00:48:30] elements. So, I don't know if if any of
+
+[00:48:31] you are aware of the Halo Mashup Pack,
+
+[00:48:33] but it's it's one big giant world that
+
+[00:48:35] was created by 343, and it it features
+
+[00:48:37] various different areas of uh Halo from
+
+[00:48:41] different Halo levels. And there was
+
+[00:48:44] nothing to do except just explore and
+
+[00:48:45] look at stuff. And so when I got in
+
+[00:48:47] there, um I started adding gameplay to
+
+[00:48:50] each of the different areas and adding
+
+[00:48:51] gates. And so like it became more of a
+
+[00:48:53] linear gameplay experience, adding spawn
+
+[00:48:55] points for enemies and all that kind of
+
+[00:48:57] fun stuff. And uh after we released it,
+
+[00:49:00] Halo Mashup Pack 2.0 is what I called
+
+[00:49:02] it, um it became one of the top selling
+
+[00:49:04] mashup packs. So that was kind of cool.
+
+[00:49:06] Yeah, man. That's a that's a great
+
+[00:49:08] story. I love it. I love it. I wanted
+
+[00:49:10] you to share with the community as well.
+
+[00:49:12] Yeah.
+
+[00:49:13] Yeah.
+
+[00:49:14] Yeah. I have another another one. Uh
+
+[00:49:16] what are your favorite games of all
+
+[00:49:17] time? Like where do you take inspiration
+
+[00:49:19] from or something like that?
+
+[00:49:21] Oh man. Ever since I designed the VR
+
+[00:49:24] experience for Minecraft, I've been
+
+[00:49:26] hooked on VR. And like I've been a VR
+
+[00:49:28] fan, like ever since I was a little kid,
+
+[00:49:31] my dad took me to the arcade and I
+
+[00:49:33] played Dactyl, which was like back in
+
+[00:49:35] the, you know, what is it early 90s
+
+[00:49:37] where it was like those big like booths
+
+[00:49:39] that you stood in with the big giant
+
+[00:49:40] clunky plastic VR headsets and you had a
+
+[00:49:44] little gun in the game and a little like
+
+[00:49:45] plunger that you shot out and there was
+
+[00:49:46] a pterodactyl that flew around. I'm sure
+
+[00:49:48] some of you guys are aware of that, but
+
+[00:49:50] like yeah, I mean like I've been a VR
+
+[00:49:52] fan my whole life, you know, Lawnmower
+
+[00:49:54] Man, love that movie, all that kind of
+
+[00:49:56] stuff. So, when it finally a chance to
+
+[00:50:00] actually work on VR was amazing and um
+
+[00:50:02] being able to work on like the cutting
+
+[00:50:04] edge of that type of stuff and it was
+
+[00:50:05] the wild west and all that kind of
+
+[00:50:07] stuff. So, ever since then, to answer
+
+[00:50:09] your question, I've been hooked on VR.
+
+[00:50:10] Been playing a lot of stuff like Onward,
+
+[00:50:12] Population One. I'm a huge Echo Arena
+
+[00:50:15] fan. Um Echo Combat even more so. A lot
+
+[00:50:18] of times you guys will find me in the
+
+[00:50:20] hub um bugging everyone, come on, let's
+
+[00:50:22] do combat instead of arena. Come on,
+
+[00:50:23] let's do combat. So, I'm like that
+
+[00:50:24] annoying guy that's begging everyone to
+
+[00:50:26] do combat as opposed to arena. Um but
+
+[00:50:29] you know, I mean what Eve Valkyrie, I
+
+[00:50:32] freaking love dog fighting in space.
+
+[00:50:35] It's it's amazing. I just wish I could
+
+[00:50:36] feel the G-forces. I mean, that would be
+
+[00:50:38] epic. And then also a Spark, which is a
+
+[00:50:41] really good one. Not many people are
+
+[00:50:42] playing it lately. Um, but like it's
+
+[00:50:45] like the disc of Tron and like I mean
+
+[00:50:47] it's just amazing and it's a great
+
+[00:50:48] workout. I mean it's just so much fun.
+
+[00:50:51] So much fun. So like I love those kinds
+
+[00:50:52] of games. Um I've been playing a lot of
+
+[00:50:54] VR but also you know like I've been
+
+[00:50:57] playing video games my whole life,
+
+[00:50:58] right? Like uh what is it? Uh
+
+[00:51:01] gosh. So, like there's a lot of stuff
+
+[00:51:04] like recently and even over the years
+
+[00:51:06] that I love, you know, like Red Dead of
+
+[00:51:08] course, you know, like let's see,
+
+[00:51:10] Halflife, huge HalfLife fan. Team
+
+[00:51:12] Fortress Classic all the way, you know,
+
+[00:51:14] like Commander Keem back in the 90s. Uh
+
+[00:51:17] gosh, fighting against Killer Instinct,
+
+[00:51:18] Orchids, my player, you know, like I
+
+[00:51:20] mean, like I can go on and on. It's like
+
+[00:51:22] being a game, you have to play every
+
+[00:51:24] game. So,
+
+[00:51:25] Oh, that that's great, man. And
+
+[00:51:26] actually, I know that I can feel it and
+
+[00:51:29] I'm sure the community as well, but you
+
+[00:51:31] can really feel the passion when you
+
+[00:51:33] speak about it, man. Like, you can
+
+[00:51:34] really feel it.
+
+[00:51:36] Yeah,
+
+[00:51:36] my dream job. I love it.
+
+[00:51:38] Yeah, I love that. So, I I have another
+
+[00:51:41] question. Moving moving from the from
+
+[00:51:43] from game, but not not from gaming, but
+
+[00:51:46] what is your role at Stratlas? What do
+
+[00:51:48] you do at Stratlas?
+
+[00:51:50] Yeah. Yeah. Well, my official title is
+
+[00:51:52] senior game designer, but I I'm pretty
+
+[00:51:54] much the lead. Um, that's here at uh
+
+[00:51:57] Sparosoft. Um, I got a team uh very
+
+[00:51:59] talented designers, got a couple
+
+[00:52:01] technical designers and, you know, level
+
+[00:52:03] designers and game designers and we're
+
+[00:52:06] focused on making currently been focused
+
+[00:52:09] a lot on making the Balent uh studio,
+
+[00:52:11] the showroom, great and amazing. And I
+
+[00:52:14] can't wait for everyone to check it out.
+
+[00:52:16] Oh man, we can't wait either. Don't
+
+[00:52:18] worry about that.
+
+[00:52:20] Yeah. Yeah, also um a large part of my
+
+[00:52:22] role is I'm kind of like you would call
+
+[00:52:24] the liaison between Automa and Sparoft.
+
+[00:52:28] So like you know the Floyd's Danny Floyd
+
+[00:52:31] you know coming up with these great
+
+[00:52:32] ideas and we get all this great stuff
+
+[00:52:34] from Automa and then I kind of
+
+[00:52:36] assimilate that information into
+
+[00:52:38] documentation and then work closely
+
+[00:52:41] between constantly bugging Danny and
+
+[00:52:43] other people on the Automa side and then
+
+[00:52:46] making sure that things are clear
+
+[00:52:47] throwing in my input giving feedback
+
+[00:52:49] taking feedback from from Spearsoft's
+
+[00:52:52] side going back and forth with design
+
+[00:52:53] and making sure that things are scoped
+
+[00:52:55] correctly and then uh making sure that
+
+[00:52:58] our team, you know, rolls out the end
+
+[00:53:01] product.
+
+[00:53:02] Nice parts of
+
+[00:53:03] nice.
+
+[00:53:04] Yeah. Yeah. Sounds like fun, man. I
+
+[00:53:06] actually do do the same sometimes when
+
+[00:53:08] you when you mention bugging Danny.
+
+[00:53:11] H I'm the guy who who bugs Danny as
+
+[00:53:14] well. So, yeah.
+
+[00:53:16] Yeah, Danny's great to work with.
+
+[00:53:18] Yeah, Danny is super responsive. Really
+
+[00:53:19] good.
+
+[00:53:19] I love his vision, too.
+
+[00:53:21] Yeah. So, I have another question, man.
+
+[00:53:25] uh something that has been in the
+
+[00:53:26] community like Sparasoft is like a major
+
+[00:53:29] topic in the community and everybody's
+
+[00:53:32] speaking about Sparasoft you know but
+
+[00:53:34] what is the Sparasoft tell us
+
+[00:53:36] yeah well Sparosoft is a huge global
+
+[00:53:39] company like we currently got you know
+
+[00:53:42] thousands of experts worldwide around uh
+
+[00:53:45] working on various different separate
+
+[00:53:47] projects we're separated into teams each
+
+[00:53:50] team is involved in different projects
+
+[00:53:53] um mostly all game development
+
+[00:53:55] Um and also you know when a team is you
+
+[00:53:58] know been assigned to a project you know
+
+[00:54:00] we don't jump from project to project we
+
+[00:54:02] stay on one project until the we we
+
+[00:54:04] release it. So currently right now you
+
+[00:54:07] know uh we have our Star Atlas team.
+
+[00:54:09] We're fully invested with our time
+
+[00:54:11] knowledge and passion into Star Atlas.
+
+[00:54:14] Like we're definitely focused and
+
+[00:54:16] dedicated. It's great. Uh we're also
+
+[00:54:18] expanding our attendance worldwide um
+
+[00:54:20] and in and more into Europe as well I
+
+[00:54:22] guess um by opening new offices in
+
+[00:54:25] Europe. So we're expanding. It's a great
+
+[00:54:27] opportunity to make our team the
+
+[00:54:29] greatest that Sparoft has ever been
+
+[00:54:31] because of the involvement. We have so
+
+[00:54:33] many talented people across art,
+
+[00:54:35] engineering and design and all that kind
+
+[00:54:37] of stuff and countries that we have
+
+[00:54:40] never even been in before. Also um we'll
+
+[00:54:43] be coming out soon with an announcement
+
+[00:54:45] will be really great about Sparoft. So
+
+[00:54:47] you'll see we got new stuff coming.
+
+[00:54:49] Nice. Nice. Building building the hype
+
+[00:54:51] as well for Espresso. I love it, man. I
+
+[00:54:52] love it.
+
+[00:54:53] So I just dropped the link of uh the
+
+[00:54:56] Spursoft web page on the town hall chat
+
+[00:54:58] if if anyone wants to go and check it.
+
+[00:55:00] Uh it's there. So uh another question,
+
+[00:55:04] uh tell us some games that Espresso
+
+[00:55:06] actually developed.
+
+[00:55:09] Yeah. Um gosh, they've done so many. Um,
+
+[00:55:12] like I can think of like Rage, Rainbow
+
+[00:55:14] 6, like what's featured on the website,
+
+[00:55:16] you know, Assassin's Creed, Valhalla.
+
+[00:55:18] Um, um, Halo Infinite. Done a lot of
+
+[00:55:21] level work for that title.
+
+[00:55:24] Um, Call of Duty, Formula 1, which is
+
+[00:55:27] great. I love racing. I actually worked
+
+[00:55:29] on Forza 4 and five at turn 10 at
+
+[00:55:31] Microsoft, so that's right up my alley.
+
+[00:55:34] Um, yeah. Um, got and we even have uh
+
+[00:55:37] like a big love for sci-fi as well. So
+
+[00:55:40] like you can even like back in the day
+
+[00:55:42] like we worked on stuff like Knights of
+
+[00:55:44] the Old Republic for Star Wars.
+
+[00:55:46] We did stuff for Battlefront and even
+
+[00:55:48] Mass Effect. So there's a lot of sci-fi
+
+[00:55:50] stuff we've done as well. So there's a
+
+[00:55:52] lot of talented sci-fi um passion going
+
+[00:55:55] into Star Atlas and I mean it definitely
+
+[00:55:58] shows.
+
+[00:56:00] Yeah. Yeah, man. And then you actually
+
+[00:56:02] keep keep naming stuff where you worked
+
+[00:56:04] on man. That's great. That's great. Like
+
+[00:56:08] you have more and more. So also another
+
+[00:56:11] question is like how does I know you
+
+[00:56:13] covered it a little bit but how does
+
+[00:56:15] Sparrowsoft actually work together with
+
+[00:56:17] Star Atlas? Like the the the Sparasoft
+
+[00:56:20] team like do they have full-time workers
+
+[00:56:23] with Star Atlas?
+
+[00:56:26] Yeah. Yeah, definitely. Yeah, we're all
+
+[00:56:27] dedicated. Our team for Star Atlas at
+
+[00:56:30] Sparesoft is focused solely on Star
+
+[00:56:32] Atlas. So, we've been spending all our
+
+[00:56:34] time on the volunt Studio showroom right
+
+[00:56:36] now. So, um like you know, like I
+
+[00:56:40] mentioned earlier, you know, there's
+
+[00:56:41] just a lot of stuff coming from
+
+[00:56:43] Automotive Sign from Automide from
+
+[00:56:45] Starless side and it's like, hey, you
+
+[00:56:48] know, let's we're thinking this, let's
+
+[00:56:50] do this. I work with them. Okay, cool.
+
+[00:56:51] Maybe this is possible. let's scope it
+
+[00:56:53] and then the team rolls forward and we
+
+[00:56:55] got a lot of talented artists and
+
+[00:56:57] engineers working on all that type of
+
+[00:56:59] stuff along with my design team. So, um
+
+[00:57:01] that's what we do just it's it's
+
+[00:57:03] basically like an iterative process
+
+[00:57:04] where we work together and um make sure
+
+[00:57:07] that we have a great you know project.
+
+[00:57:10] So, and pretty much uh you know everyone
+
+[00:57:13] will see that. So, I'm excited. I can't
+
+[00:57:16] wait.
+
+[00:57:17] Oh, yeah. We can't wait as well and it's
+
+[00:57:20] great to have you from speaking from the
+
+[00:57:22] SPRO side because we never had anyone
+
+[00:57:24] any guest from Sparosoft and I think
+
+[00:57:27] it's it's super interesting and the
+
+[00:57:28] community really wanted to to hear a
+
+[00:57:30] little bit about Sparosoft and how
+
+[00:57:32] actually our two companies work
+
+[00:57:35] together. So I think this gives uh
+
+[00:57:37] everyone like a good a good view on on
+
+[00:57:40] how everything is being developed.
+
+[00:57:42] Yeah, totally. Yeah, of course. We we
+
+[00:57:45] are we can't go a lot into detail, but
+
+[00:57:48] yeah, man, like thank you so much. Thank
+
+[00:57:50] you so much for coming. I'm sure that uh
+
+[00:57:52] we will have you again in the future if
+
+[00:57:55] you want. And yeah, man, really enjoyed
+
+[00:57:57] the the conversation.
+
+[00:58:00] Sure thing. Yeah, thanks again for
+
+[00:58:01] having me.
+
+[00:58:02] You know, Christopher, that was such a
+
+[00:58:04] great job, man. Before you jump, I just
+
+[00:58:05] have one question um I wanted to pose
+
+[00:58:08] for you. Um and it and it kind of speaks
+
+[00:58:10] to the level of quality and fidelity
+
+[00:58:12] that AAA is representative of. Um and
+
+[00:58:14] Danny says this often kind of refers to
+
+[00:58:17] the Pareto principle which is the 8020
+
+[00:58:20] rule for anyone who's ever heard that.
+
+[00:58:21] But you know Danny often refers to 90%
+
+[00:58:24] of the work taking place in really the
+
+[00:58:26] last 10% of development. It's the fine
+
+[00:58:28] detail. It's the minutia. It's like
+
+[00:58:30] every corner, every pixel needs to be
+
+[00:58:32] perfect. Um, and we've seen some great
+
+[00:58:35] content coming out from the community,
+
+[00:58:37] but people do often ask us like why is
+
+[00:58:38] it, you know, why is it taking as long
+
+[00:58:40] as it's taking? But can you maybe just
+
+[00:58:41] elaborate a little bit on, you know,
+
+[00:58:43] that level of detail that you guys put
+
+[00:58:45] into everything that that gets produced?
+
+[00:58:49] Yeah. Gosh, you know, I mean, the
+
+[00:58:51] artists, they're they're so focused on
+
+[00:58:53] making things look great and and we keep
+
+[00:58:54] going through various different
+
+[00:58:56] iterative processes of like, oh, this
+
+[00:58:58] looks good. Oh, but we can do it better.
+
+[00:59:00] Okay, let's try this. Oh, this looks
+
+[00:59:01] better. And then from a design
+
+[00:59:04] standpoint, it's like, well, you know,
+
+[00:59:05] this is fun, but can we do this? This
+
+[00:59:08] would make it better. It's always like,
+
+[00:59:09] how can we make it better? And so since
+
+[00:59:12] this is like kind of the wild west of
+
+[00:59:13] gaming with crypto, and we want to make
+
+[00:59:15] sure that our audience is, you know, our
+
+[00:59:17] community loves the game, it's their
+
+[00:59:19] first time seeing a their ships and
+
+[00:59:21] being able to run around and explore
+
+[00:59:23] that. We really want to make it as best
+
+[00:59:24] as we can. And so it's always how can we
+
+[00:59:27] make it better? So it's it's very
+
+[00:59:28] iterative. We're always constantly
+
+[00:59:30] finding new things that we could do to
+
+[00:59:32] improve and because this is going to be
+
+[00:59:34] a great, you know, example, a great
+
+[00:59:36] showroom for everyone to experience.
+
+[00:59:39] Does that answer your question?
+
+[00:59:42] Yeah, man. It does. I appreciate that.
+
+[00:59:44] Uh, Christopher, thanks again. Really
+
+[00:59:46] appreciate you coming on and and uh Jim,
+
+[00:59:49] I think we still have him on. Jim,
+
+[00:59:50] thanks so much for joining us as well.
+
+[00:59:52] You guys are welcome to hang out a
+
+[00:59:53] little bit. Uh we have 10 minutes or so
+
+[00:59:55] of questions uh coming up and I'm sure
+
+[00:59:57] some people have some questions for you
+
+[00:59:59] guys. So uh Santi should we should we
+
+[01:00:01] roll into questions now?
+
+[01:00:02] Oh yeah yeah yeah. If you have any
+
+[01:00:04] question and you're you're in the
+
+[01:00:05] audience and you have any question uh
+
+[01:00:07] please raise your hand and I will be
+
+[01:00:10] letting people in shortly on stage.
+
+[01:00:15] So please feel free to raise your hand.
+
+[01:00:20] I invited Bod and old friend. Oh, I I
+
+[01:00:24] see some names, some some well-known
+
+[01:00:26] names popping up here. Uh let's uh get
+
+[01:00:30] uh somebody on stage.
+
+[01:00:33] Comparator, welcome to stage. How are
+
+[01:00:37] you doing, friend?
+
+[01:00:40] Oops, push the talk. Sorry, forgot.
+
+[01:00:43] Thanks for the invitation and uh thanks
+
+[01:00:45] to uh our hosts and guests uh for
+
+[01:00:48] coming. Um well um I've heard from other
+
+[01:00:53] from um other games communities the
+
+[01:00:57] question uh often whether Spirusoft is a
+
+[01:01:00] company which rather contributes to the
+
+[01:01:02] development of games. uh you have uh for
+
+[01:01:05] example listed games like uh the other
+
+[01:01:08] worlds on your uh product page which is
+
+[01:01:11] um if I if I remember correct the
+
+[01:01:14] product of um Obsidian Entertainment and
+
+[01:01:17] so I often heard the question uh whether
+
+[01:01:20] Spirasoft is uh
+
+[01:01:23] doing uh rather contribut contributing
+
+[01:01:26] to development or is doing major parts
+
+[01:01:28] of development for games. Uh
+
+[01:01:31] uh yeah.
+
+[01:01:35] Yeah. Contributing.
+
+[01:01:38] So Oh, I'm sorry.
+
+[01:01:40] Answering that.
+
+[01:01:41] Go ahead. Yeah.
+
+[01:01:45] Yeah. Yeah. No, I mean like uh we we
+
+[01:01:47] contribute and uh we also do major parts
+
+[01:01:49] depending on the project. So um yeah, I
+
+[01:01:52] hope that kind of sums it up.
+
+[01:01:55] Yeah. Thank you a lot. Uh this was just
+
+[01:01:57] uh something uh so I can uh this was
+
+[01:02:00] just a question so I can get back to my
+
+[01:02:02] uh other communities to uh well tell
+
+[01:02:05] them um about Spirrosoft and their
+
+[01:02:07] contribution and work and so on. Thank
+
+[01:02:09] you a lot for uh answering. Um yeah have
+
+[01:02:12] a good evening or day.
+
+[01:02:15] Yeah, thank you
+
+[01:02:17] Christopher. You guys might be picking
+
+[01:02:18] up some additional business uh as a
+
+[01:02:20] result from this, but you know, ju just
+
+[01:02:22] to add a little uh clarity from the
+
+[01:02:24] Automata side as well. And again, for
+
+[01:02:26] everyone who isn't familiar, Automata is
+
+[01:02:29] the studio, the lab behind Star Atlas.
+
+[01:02:31] We're the creators and builders. But um
+
+[01:02:33] we we have a dedicated internal game
+
+[01:02:36] development and design team. Uh we've
+
+[01:02:38] been working with Spiroft as as uh
+
+[01:02:40] alongside a number of additional
+
+[01:02:42] code-development studios now for many
+
+[01:02:44] months. And the logic from our
+
+[01:02:47] perspective was we're building a a team
+
+[01:02:50] from scratch here. You know, we started
+
+[01:02:51] with four people back in January of 2021
+
+[01:02:54] and we we now I can proudly say, you
+
+[01:02:56] know, over 220 people collectively
+
+[01:02:59] across the company and a large part of
+
+[01:03:01] that um I think some 64 people now
+
+[01:03:03] full-time dedicated personnel from
+
+[01:03:05] Spiroft working on Star Atlas. Now, we
+
+[01:03:08] will continue to scale and grow our
+
+[01:03:09] internal team and continue to to
+
+[01:03:12] leverage those resources and and those
+
+[01:03:14] people um to coordinate with code
+
+[01:03:16] development studios. It allows us to
+
+[01:03:17] scale more rapidly and develop quicker
+
+[01:03:19] and bring great products to you sooner,
+
+[01:03:21] which I'm I'm sure everybody is uh on
+
+[01:03:23] board with. So, just wanted to clarify
+
+[01:03:26] um uh you know, we work great with the
+
+[01:03:29] uh with the code development studios,
+
+[01:03:30] but we are continuing to scale our team
+
+[01:03:32] as well.
+
+[01:03:37] Okay, thanks for the answer Michael as
+
+[01:03:39] well and thanks comparator for the for
+
+[01:03:41] the great question.
+
+[01:03:44] Thanks for answering and giving me the
+
+[01:03:46] opportunity to ask. Thank you a lot.
+
+[01:03:48] Yeah, I will move now back to audience.
+
+[01:03:50] Thank you a lot. Yeah,
+
+[01:03:51] see you my friend. Bye-bye.
+
+[01:03:53] We have uh Signal as well on stage.
+
+[01:03:56] Hello Signal. How are you doing today?
+
+[01:04:00] I'm doing wonderful. How are you my
+
+[01:04:01] friend?
+
+[01:04:02] Doing good as well. Thanks for asking.
+
+[01:04:07] Um, yeah, my question was, and I
+
+[01:04:09] absolutely love Michael's statement of,
+
+[01:04:12] you know, how meticulous everyone is in
+
+[01:04:15] production, how much attention to detail
+
+[01:04:17] there is, how every little pixel needs
+
+[01:04:20] to be perfect, as he said. um with
+
+[01:04:24] showroom, you know, kind of around the
+
+[01:04:27] corner and for us getting our first
+
+[01:04:29] glimpse and exposure to it. Um could you
+
+[01:04:33] expand a little bit on how that
+
+[01:04:34] philosophy extends to the product that
+
+[01:04:37] we're about to interact with? How polish
+
+[01:04:41] should we expect to see showroom in our
+
+[01:04:44] first glance? Just to set expectations.
+
+[01:04:50] All right. Well, Christopher, you might
+
+[01:04:52] want to jump in and respond to this as
+
+[01:04:53] well from your side. Um, I'll just say,
+
+[01:04:56] uh, Signal, I I think I work for you
+
+[01:04:59] pretty much full-time given the
+
+[01:05:00] questions that come in through
+
+[01:05:01] Foundation Room and and here on here on
+
+[01:05:05] the town hall, but um, you know what
+
+[01:05:07] what I will note before Christopher
+
+[01:05:09] jumps in is that this is also an
+
+[01:05:10] iterative release schedule. Now, I would
+
+[01:05:13] anticipate and you should expect an
+
+[01:05:15] incredibly high quality of detail for uh
+
+[01:05:18] V0ero of the showroom release. More
+
+[01:05:21] content will be coming, which will
+
+[01:05:22] include extensions and additions to the
+
+[01:05:25] map itself, to the environment, but also
+
+[01:05:27] the introduction of more fully polished
+
+[01:05:30] and fully refined ships. So, you know,
+
+[01:05:32] there's an entire art pipeline uh that
+
+[01:05:35] takes concept art all the way through a
+
+[01:05:37] fully modeled and polished and and
+
+[01:05:39] textured and rendered ship. And so given
+
+[01:05:42] the quantity of ships that we have and
+
+[01:05:44] different distinct ship models, it will
+
+[01:05:46] take us some time to get all of those
+
+[01:05:48] prepared um to fully load in in full
+
+[01:05:51] fidelity in the showroom. But um even on
+
+[01:05:54] this V0ero release, uh we have all of
+
+[01:05:56] the gray box models with some cool
+
+[01:05:57] texturing on it. So they'll at least be
+
+[01:05:59] able to be pulled into the showroom uh
+
+[01:06:01] just not finalized. But Christopher,
+
+[01:06:03] anything you want to add on to that with
+
+[01:06:05] respect to detail and quality of
+
+[01:06:07] showroom?
+
+[01:06:10] Yeah. Um, really the biggest thing is uh
+
+[01:06:13] like uh this is the first taste of like
+
+[01:06:15] what to expect and so you know I hate
+
+[01:06:18] spoilers so I really don't want to spoil
+
+[01:06:20] it for you guys. Um I'm excited. I can't
+
+[01:06:23] wait for everyone to experience it. Um
+
+[01:06:25] but really it's all about this is the
+
+[01:06:28] first this is the first taste. This is
+
+[01:06:29] you're going to get to see your ships.
+
+[01:06:31] So we want this to be a great experience
+
+[01:06:33] and this is just uh the beginning. So
+
+[01:06:40] awesome. Thank you guys so much.
+
+[01:06:42] Michael, I absolutely love you. Thank
+
+[01:06:44] you so much for taking so much of your
+
+[01:06:46] time to answer my questions. You know,
+
+[01:06:48] it's it's not lost on me how much work
+
+[01:06:51] you've spent responding to the things
+
+[01:06:52] that I bring up. Santi, you're amazing.
+
+[01:06:55] Love you guys. Have an incredible day.
+
+[01:06:57] Thank you, Signal.
+
+[01:06:59] Yeah, big virtual hugs, man. I
+
+[01:07:00] appreciate it. And uh you know, I love
+
+[01:07:02] responding to the questions as well, so
+
+[01:07:04] keep them coming.
+
+[01:07:07] What a love signal that he was so kind.
+
+[01:07:11] We have as well Lucius here with us.
+
+[01:07:14] Hello my friend. How are you doing?
+
+[01:07:16] Hello. Hello. Hello everybody. Thank you
+
+[01:07:17] very much. I'm very honored to be here.
+
+[01:07:19] Um it's it's ex super exciting to be to
+
+[01:07:23] be part of this and I want to thank you
+
+[01:07:25] all uh the entire Statlas team. uh
+
+[01:07:28] you're delivering something incredible
+
+[01:07:30] to us and I for one uh representing the
+
+[01:07:33] entire Kimra community really appreciate
+
+[01:07:35] it and I have just one question. Um um
+
+[01:07:39] I'm wondering whether or not there's
+
+[01:07:40] going to be and I know this is a long
+
+[01:07:42] time away. Uh there's still a lot of
+
+[01:07:44] things to do, but I'm wondering if uh by
+
+[01:07:46] any chance when everything is uh up and
+
+[01:07:49] running when it comes to Scream and the
+
+[01:07:50] showroom, if what happens in Scream
+
+[01:07:52] somehow will be reflected in the
+
+[01:07:53] showroom. Like if for instance our
+
+[01:07:56] assets or our bases get to be attacked
+
+[01:07:59] or or or something like that, if it's
+
+[01:08:02] going to be reflected in our our living
+
+[01:08:04] quarters and in in in the in the place
+
+[01:08:07] in which we have our assets. if it's
+
+[01:08:09] something that you have thought about or
+
+[01:08:11] or it's something that might become
+
+[01:08:13] later in the in the development phase.
+
+[01:08:15] Thank you very much.
+
+[01:08:19] Yeah, thanks man. That's a great
+
+[01:08:20] question and um you know kudos to you
+
+[01:08:22] guys by the way uh for your presentation
+
+[01:08:24] on on COPA. Uh was it was one of my
+
+[01:08:28] personal favorites. So well well done
+
+[01:08:30] there.
+
+[01:08:33] Thank you.
+
+[01:08:33] Uh of course. So uh we we put a ton of
+
+[01:08:37] thought into this actually and the
+
+[01:08:39] original concept of uh you know what we
+
+[01:08:41] were calling the miniame which is really
+
+[01:08:43] now more expansive than a miniame given
+
+[01:08:45] the the level of fidelity building in
+
+[01:08:47] webgl you know fully 3D enabled browser
+
+[01:08:50] uh based video game uh when we made that
+
+[01:08:53] decision the current thinking is that
+
+[01:08:56] most likely it's going to be a
+
+[01:08:57] distinguished product line now um we
+
+[01:09:00] originally were planning on having a
+
+[01:09:02] close intersection so that activities in
+
+[01:09:04] the in the web-based game uh would
+
+[01:09:07] correspond to activities and and um uh
+
+[01:09:11] kind of like resolution in the uh in the
+
+[01:09:14] Unreal Engine game as well. Again, given
+
+[01:09:17] the direction that we're taking right
+
+[01:09:18] now, it's it's less likely that they'll
+
+[01:09:20] be fully integrated, although we are
+
+[01:09:22] thinking through different paths right
+
+[01:09:24] now where certain actions or certain
+
+[01:09:27] consequences or certain activities uh
+
+[01:09:29] will relate to both. and and we do still
+
+[01:09:31] want to create this unified sense of
+
+[01:09:33] gaming throughout all things Star Atlas.
+
+[01:09:36] So, we will be working hard on that. To
+
+[01:09:38] your point, um still very far down the
+
+[01:09:40] line. So, uh while we don't have a
+
+[01:09:43] definitive direction on it right at the
+
+[01:09:44] moment, it is something that we're
+
+[01:09:46] thinking through.
+
+[01:09:49] Thank you very much. I I really
+
+[01:09:50] appreciate it. And again, you guys are
+
+[01:09:52] doing an amazing job. It's very hard to
+
+[01:09:54] find a team with such communication and
+
+[01:09:57] uh with such amazing uh people
+
+[01:10:00] interacting with us in the community and
+
+[01:10:02] we never take it for granted. Thank you.
+
+[01:10:06] Thanks so much, man.
+
+[01:10:08] That's great. Right.
+
+[01:10:11] It is.
+
+[01:10:12] I kind of I kind of want to put Jim in
+
+[01:10:14] the hot seat here. I wish somebody would
+
+[01:10:16] uh give him one of the tough questions.
+
+[01:10:19] Okay. Okay.
+
+[01:10:19] Jim, let let's do something. Let's do
+
+[01:10:22] something. I will dismiss everyone who's
+
+[01:10:24] raising the hand now and only raise your
+
+[01:10:26] hand if you have a question for Jim.
+
+[01:10:30] Jim putting you on the spot, you know.
+
+[01:10:33] Thanks. I I appreciate that uh so much.
+
+[01:10:37] Okay. Okay. So, let's get I see Lumina
+
+[01:10:42] raising his hand.
+
+[01:10:44] In case you couldn't tell, Jim is also
+
+[01:10:46] our resident in-house uh sarcasm expert.
+
+[01:10:51] So, as he's been come to be known,
+
+[01:10:53] entitled,
+
+[01:10:55] senior director of sarcasm, I think it'd
+
+[01:10:58] be my official title.
+
+[01:11:00] Hey, Jim. Hey, Christopher. Hey, Santi.
+
+[01:11:03] Hey, Michael. Um, I have a question for
+
+[01:11:06] Jim and I have a question for
+
+[01:11:08] Christopher, if you don't mind. Uh, for
+
+[01:11:10] Jim, uh, what's the hardest thing that
+
+[01:11:13] you came across in terms of programming
+
+[01:11:15] in the game? Um, and also for Chris, um,
+
+[01:11:20] as we know with the Unreal Engine 5,
+
+[01:11:22] it's really big and Lumen is really
+
+[01:11:25] heavy too with the graphics card. So,
+
+[01:11:27] what type of optimization are you guys
+
+[01:11:29] thinking about for the sort of a
+
+[01:11:31] lower-end graphic cards and if you're
+
+[01:11:34] going to do a DLSS Nvidia or are you
+
+[01:11:37] going to use anal engines uh TSR for the
+
+[01:11:40] optimization?
+
+[01:11:41] Thanks.
+
+[01:11:44] Uh, wow. Yeah, great great question. Um,
+
+[01:11:48] so most difficult thing besides working
+
+[01:11:50] with Sparosoft. Um, just kidding.
+
+[01:11:54] There's the sarcasm. Um,
+
+[01:11:55] there you go. There you go. That's why
+
+[01:11:57] he's the director of sir.
+
+[01:11:58] There you go.
+
+[01:11:59] Exactly. Uh,
+
+[01:12:02] yeah. We won't talk about uh making
+
+[01:12:04] jokes about Putin. Um so um but uh you
+
+[01:12:09] know some of the the the more difficult
+
+[01:12:11] things like I kind of was talking about
+
+[01:12:13] for for me coming from from gaming uh
+
+[01:12:16] from traditional gaming from traditional
+
+[01:12:18] rendering um kind of learning to work
+
+[01:12:22] with the blockchain uh and and and
+
+[01:12:24] working with with uh web 3 um you know I
+
+[01:12:28] I really wasn't interested in blockchain
+
+[01:12:31] at all or or crypto at all at all before
+
+[01:12:34] coming on. I mean, my real excitement
+
+[01:12:35] about coming on board with Star Atlas
+
+[01:12:37] was was space games and planet side
+
+[01:12:39] rendering and um uh you know, talking
+
+[01:12:42] through with with Jacob and Danny kind
+
+[01:12:44] of the just the highest level of
+
+[01:12:46] rendering and and you talked about
+
+[01:12:47] Nanite and Lumens and the the kind of
+
+[01:12:50] leap forward that Unreal 5 is doing with
+
+[01:12:52] graphics um in the fact that you know
+
+[01:12:55] Danny comes from such a good pedigree of
+
+[01:12:58] of art and and game design. Those were
+
+[01:13:00] the things that really attracted me. Um
+
+[01:13:04] but but really so so so far, if you
+
+[01:13:08] will. Um
+
+[01:13:09] [Music]
+
+[01:13:11] the one of the most biggest challenges
+
+[01:13:12] been learning to work with the
+
+[01:13:14] blockchain and uh and to throw some more
+
+[01:13:16] sarcasm to really try to apply solid
+
+[01:13:18] development principles to this kind of
+
+[01:13:20] wild wild west young uh environment that
+
+[01:13:23] just likes to sling code and get it
+
+[01:13:25] done. um but but ultimately doesn't mean
+
+[01:13:28] ma doesn't build maintainable uh
+
+[01:13:30] extendable systems necessarily as well.
+
+[01:13:33] So those are one of the things but but
+
+[01:13:35] really kind of talking about the two
+
+[01:13:36] things that I talked about before um you
+
+[01:13:39] know every day how do we build a game
+
+[01:13:41] where the game universe doesn't
+
+[01:13:43] automatically tick forward um and do
+
+[01:13:46] that in a distributed system where
+
+[01:13:48] hundreds of thousands of people um are
+
+[01:13:51] are are all interacting with it. Those
+
+[01:13:53] are going to be huge. And and yeah, very
+
+[01:13:55] much working on the the MMO Starcom
+
+[01:13:59] stuff
+
+[01:14:00] uh h how are we gonna have a thousand
+
+[01:14:03] ships all in the same star system,
+
+[01:14:06] right? How are we going to do that? Um
+
+[01:14:09] those are the big challenges that that
+
+[01:14:10] we're working on and they're not they're
+
+[01:14:12] not easily solved. Um but but we're
+
+[01:14:15] working on them. Does that answer your
+
+[01:14:16] your question? So
+
+[01:14:18] yeah. Yeah. Well, to some extent. Yes.
+
+[01:14:20] Well, thank you so much.
+
+[01:14:21] No problem.
+
+[01:14:25] Oh boy, I was hoping no one would ask me
+
+[01:14:28] detailed technical questions about UE5,
+
+[01:14:30] but uh uh here I go. Um really um as far
+
+[01:14:35] as optim optimization goes, we're doing
+
+[01:14:37] a lot of optimizing and um all those uh
+
+[01:14:41] visual tools and all that new stuff that
+
+[01:14:43] comes with UE5, the artists, the
+
+[01:14:45] technical artists, the technical
+
+[01:14:46] designers are working a lot with that
+
+[01:14:48] kind of stuff. Um there's a lot of
+
+[01:14:50] ambition where we'll do something and
+
+[01:14:52] then be like ah we got to dial it back
+
+[01:14:53] or oh it looks awesome. Oh but we can't
+
+[01:14:56] we got to try this or you know
+
+[01:14:57] especially for lower-end machines like
+
+[01:14:59] you mentioned. So um that's part of it.
+
+[01:15:01] That's part of the iterative process is
+
+[01:15:04] uh really just uh we want to make
+
+[01:15:06] something the best experience we can
+
+[01:15:07] possible for this new great experience.
+
+[01:15:10] And and it's like what can we do? We're
+
+[01:15:13] always pushing the edge. We're always
+
+[01:15:14] pushing it and pushing it even for
+
+[01:15:16] lowends. like what can we run on it? Oh,
+
+[01:15:18] we're going to have to dial it back
+
+[01:15:19] again. Okay, let's try this. Oh,
+
+[01:15:21] optimize this. Let's try that. So, it's
+
+[01:15:23] it's a constant flux of making sure what
+
+[01:15:27] we can do and what's possible, but at
+
+[01:15:28] the same time, what's feasible for
+
+[01:15:30] lower-end machines. So, that's that's
+
+[01:15:32] the best way I can answer that one.
+
+[01:15:36] All right. Well, well, thank you so
+
+[01:15:37] much. Really appreciate it. And thanks a
+
+[01:15:39] lot for hitting us tonight.
+
+[01:15:41] Thank you, Lumina, for coming on stage
+
+[01:15:43] and congratulations for winning Copa.
+
+[01:15:46] Thank you so much.
+
+[01:15:49] So now I think we are five minutes ahead
+
+[01:15:53] of the of the schedule time. So I think
+
+[01:15:58] it's a good moment to to close this town
+
+[01:16:01] hall. I think it was a great one. I
+
+[01:16:03] really appreciate you Christopher and
+
+[01:16:05] Jim coming here with me as always. You
+
+[01:16:07] you too, Michael. Don't don't be
+
+[01:16:09] jealous. But uh yeah, so I think it was
+
+[01:16:12] a great one. Thank you Christopher.
+
+[01:16:13] Thank you Jim for coming. Sure
+
+[01:16:17] thing. Thanks for having me.
+
+[01:16:18] Yeah, thank you.
+
+[01:16:19] Yeah, just just want to echo that
+
+[01:16:21] sentiment. You guys did a fantastic job.
+
+[01:16:23] Thanks for hopping up on stage with us.
+
+[01:16:25] Jim, you know, despite the nervousness
+
+[01:16:27] of 300 people. You you killed it,
+
+[01:16:29] Christopher. You killed it. Thank you
+
+[01:16:30] guys. And Santi, it's hard to believe
+
+[01:16:32] that we've been doing this now for
+
+[01:16:35] a year. Um what what town hall number
+
+[01:16:37] did you say we were on? Something like
+
+[01:16:38] 31.
+
+[01:16:39] 31. 31.
+
+[01:16:40] That's That's wild, man. Time flies. Uh
+
+[01:16:43] we've been having a lot of fun building
+
+[01:16:44] and so much more to come. Uh as always,
+
+[01:16:47] really appreciate all of you out there
+
+[01:16:48] in the community for continuously
+
+[01:16:50] supporting us and and just being with us
+
+[01:16:52] on this journey. So so much more to
+
+[01:16:54] come.
+
+[01:16:55] Yeah, definitely. It's it has been a
+
+[01:16:58] wild ride, not going to lie. It's been
+
+[01:17:00] awesome. And we actually have more than
+
+[01:17:02] 300 people because we have, for example,
+
+[01:17:04] Kimera, big shout out to Kimera. They
+
+[01:17:06] are translating the town hall live to
+
+[01:17:08] the for the Spanish speaking audience.
+
+[01:17:11] And I see currently they have over 60
+
+[01:17:13] people. So big shout out to Kimra.
+
+[01:17:16] Wow. Amazing.
+
+[01:17:18] And we're also live streaming on Tw on
+
+[01:17:20] Twitter. So yeah, I think this is a good
+
+[01:17:22] moment to close. Thank you all for
+
+[01:17:24] coming to the Star Atlas uh town hall
+
+[01:17:27] and power to the people
+
+[01:17:30] and 426.
+
+[01:17:33] Nice.
+
+[01:17:37] See you everybody in the Twitter spaces
+
+[01:17:39] right now. the afterparty. Everybody go
+
+[01:17:42] to Twitter right

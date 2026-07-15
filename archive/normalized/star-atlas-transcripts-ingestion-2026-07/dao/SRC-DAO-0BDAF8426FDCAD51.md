@@ -1,0 +1,6325 @@
+---
+
+source_id: SRC-DAO-0BDAF8426FDCAD51
+
+title: "DAO Council Weekly Tag-Up 19 04 2025"
+
+collection: dao
+
+source_type: transcript
+
+publication_date: 2025-04-19
+
+publication_date_basis: filename-exact
+
+speaker_attribution: unknown
+
+raw_sha256: 0bdaf8426fdcad51c81daf2b09be51ea824617d33c63d87a79e6a4838ff7a693
+
+caption_count: 3145
+
+last_timestamp: 02:10:07
+
+normalization: caption-lines joined; wording preserved
+
+---
+
+
+
+# DAO Council Weekly Tag-Up 19 04 2025
+
+
+
+> Speaker identities, original URL, and exact publication date remain unresolved unless stated in metadata.
+
+
+
+[00:00:01] Yeah, I was I was really surprised at
+
+[00:00:03] the the voicecom discipline last week.
+
+[00:00:08] Yeah, I think VB or somebody kept muting
+
+[00:00:10] people if they were unmuted. Um Oh, is
+
+[00:00:13] that what happened? Okay. Yeah. Yeah, I
+
+[00:00:14] muted a couple that by mistake were on.
+
+[00:00:20] And and this will work really well too
+
+[00:00:22] for you know the first hour will be the
+
+[00:00:24] the meeting and then the second hour is
+
+[00:00:26] the council office hours where people
+
+[00:00:28] can ask questions. So, um I think it
+
+[00:00:31] should work just just wonderful. So,
+
+[00:00:34] cool. Yeah, you should.
+
+[00:00:36] All right, two more minutes and we're
+
+[00:00:38] starting.
+
+[00:00:39] How's your weekend going, guys? Any of
+
+[00:00:41] you celebrate Easter?
+
+[00:00:44] Yep, we're doing it tomorrow. We got to
+
+[00:00:46] drive all the way back an hour and a
+
+[00:00:48] half to to have a bunch of delicious
+
+[00:00:49] food. So yeah, I drove three hours today
+
+[00:00:53] to to do the same.
+
+[00:00:57] But I fly from here to work on Monday.
+
+[00:01:00] So
+
+[00:01:02] hey, signal. We see you. Hey, everybody.
+
+[00:01:05] Hey,
+
+[00:01:09] gorgeous. Look who's talking. King of
+
+[00:01:11] the mustaches.
+
+[00:01:15] I don't I don't have a good background
+
+[00:01:17] setup yet at my new place, so I'm not
+
+[00:01:20] doing my camera. You don't have a sauna
+
+[00:01:22] in your house to to record videos in.
+
+[00:01:28] See, I'm not technologically literate
+
+[00:01:30] enough to figure that out. How to do
+
+[00:01:32] that background. But you have good
+
+[00:01:33] friends, so we can work on that next
+
+[00:01:35] time. It's true.
+
+[00:01:41] I'm just a weird guy from the family in
+
+[00:01:43] a call in a bedroom while everyone is in
+
+[00:01:46] the living room watching more.
+
+[00:01:55] I did get some noise cancelling earbuds
+
+[00:01:57] so I don't have to sound like
+
+[00:01:59] a a robot or anything. So hopefully I'm
+
+[00:02:02] doing that just then. I'm going to be
+
+[00:02:04] yelling.
+
+[00:02:06] Oh, we're turn on cameras now. You don't
+
+[00:02:09] have to. You don't have to. Just the
+
+[00:02:11] beautiful people for so far. Yeah.
+
+[00:02:14] Oh, yeah. I definitely can't join that
+
+[00:02:16] club then.
+
+[00:02:19] There you go. I'll keep it off this time
+
+[00:02:21] because I've got multiple windows
+
+[00:02:25] going. Maybe I'll figure that part out
+
+[00:02:27] next week. Of course. Of course. Wink
+
+[00:02:30] wink. Yeah, that's that's crazy though.
+
+[00:02:33] I am just going to say this. Out of all
+
+[00:02:34] the people that didn't turn their
+
+[00:02:36] cameras on, it's the content creator of
+
+[00:02:38] the group. Let that let that be on the
+
+[00:02:40] record. It's way way easier.
+
+[00:02:45] Totally true though.
+
+[00:02:48] And Bod is not going to make it today.
+
+[00:02:50] Um, okay. Cool. Traveling or something.
+
+[00:02:54] It's start time. Let's do it. Let's
+
+[00:02:57] [ __ ] go, man.
+
+[00:03:00] All right. Which one are we on now? This
+
+[00:03:03] is meeting number two. Two.
+
+[00:03:07] Hello, everybody. We are the Star Atlas
+
+[00:03:10] Council number two. I'm calling it sack
+
+[00:03:13] two now. And thanks to Bohemian for
+
+[00:03:16] figuring that one out for us, I think.
+
+[00:03:19] Yeah. Whenever you think of sack or
+
+[00:03:21] number two, just think of this council.
+
+[00:03:24] Yeah. Sack 2. So reminder, if you are in
+
+[00:03:28] the Dow Council with us right now live,
+
+[00:03:31] please keep your mics muted and your
+
+[00:03:33] cameras off for now. And over over the
+
+[00:03:37] weeks, we may find some ways to to
+
+[00:03:40] optimize, but right now we're we're
+
+[00:03:43] slowly adding capability to our weekly
+
+[00:03:47] stream. So, I'm I'm streaming this live
+
+[00:03:49] right now and also it will be voded onto
+
+[00:03:52] YouTube Star Atlas TV after. So, whether
+
+[00:03:55] you're watching live VOD or you are in
+
+[00:03:58] the Discord, you're you're watching the
+
+[00:04:00] same thing. So, Star Atlas Council
+
+[00:04:03] number two for this slide. Same thing as
+
+[00:04:06] last week where we
+
+[00:04:08] have all five council members. I added
+
+[00:04:10] time zone to the so now you know PST EST
+
+[00:04:15] CST
+
+[00:04:16] est. And we're still working on our
+
+[00:04:19] little taglines, but this is what we I
+
+[00:04:21] came up with or versus we all came up
+
+[00:04:24] with last week. And we will eventually
+
+[00:04:26] put a mission statement right there when
+
+[00:04:28] we figure that one out. [ __ ] my
+
+[00:04:31] description.
+
+[00:04:35] Yeah. So, here's our
+
+[00:04:38] quad up in the top left. Uh the the new
+
+[00:04:42] additions from last week were that we
+
+[00:04:45] concluded the council elections,
+
+[00:04:48] completed the transition meeting, we
+
+[00:04:50] started the term, we held our first
+
+[00:04:51] public tag up, and then voting initiated
+
+[00:04:54] for PIP 121314. Thank you very much to
+
+[00:04:57] SAC 1 for for seeing us off on that.
+
+[00:05:00] And then we adjusted the council hours.
+
+[00:05:02] We determined our own weekly tagups,
+
+[00:05:05] both uh internal and the the tagup
+
+[00:05:08] itself. And then created sac 2 meeting
+
+[00:05:11] minutes uh based on our internal meeting
+
+[00:05:14] the other
+
+[00:05:15] day. Does anyone have anything they'd
+
+[00:05:18] like to add to accomplishments? Yeah, I
+
+[00:05:21] put down there um at the bottom because
+
+[00:05:23] we were running out of space and I
+
+[00:05:24] wasn't sure of your formatting. We did
+
+[00:05:26] create um a Gmail to at least get things
+
+[00:05:28] rolling. Thank you, Lancer, for doing
+
+[00:05:30] that. We can at least post stuff that
+
+[00:05:32] all five of us can have access to. I
+
+[00:05:35] don't that's appropriate for that spot,
+
+[00:05:37] but it is something that Where'd you put
+
+[00:05:40] it? On the bottom under the
+
+[00:05:43] um the
+
+[00:05:45] speaker, it's completely separate from
+
+[00:05:48] your documents. Speaker notes down at
+
+[00:05:50] the bottom. Oh, speaker notes. Yeah. Go
+
+[00:05:51] ahead. In the future, just put it here
+
+[00:05:53] in this top left tab. Each time that we
+
+[00:05:56] brief an accomplishment, I move it to
+
+[00:05:58] our accomplishment slide and that's like
+
+[00:06:01] our here. I'll do it right now. So, one
+
+[00:06:03] through six
+
+[00:06:06] or it looks Yeah, one through six we got
+
+[00:06:09] last week. So, I'm going to copy, cut
+
+[00:06:13] it, put it into
+
+[00:06:15] slide. Where's our accomplishment slide?
+
+[00:06:18] Right around here somewhere. Fun.
+
+[00:06:24] What's here? Oh, here it is. Slide 14.
+
+[00:06:29] So, that that's our overflow. And I'll
+
+[00:06:31] just probably each left hand, right hand
+
+[00:06:34] will be a whole
+
+[00:06:37] month. And free you to put stuff in
+
+[00:06:41] however you like. Perfect. I just added
+
+[00:06:44] it. Cool. So, a new accomplishment was
+
+[00:06:47] create a Gmail account, right? I don't
+
+[00:06:50] remember when I did that. I think it was
+
+[00:06:51] like a week ago. We can have a go. Yeah.
+
+[00:06:54] As soon as you got elected.
+
+[00:06:58] Yeah. Five minutes before he was
+
+[00:07:00] elected.
+
+[00:07:03] All right. Anyone else? What other
+
+[00:07:05] accomplishments do we have?
+
+[00:07:06] Accomplishments. Um, let me see. Already
+
+[00:07:10] 12, 13, and 14. And in voting process
+
+[00:07:14] uh
+
+[00:07:15] number 15 has been given to the
+
+[00:07:20] foundation for review which is the Matt
+
+[00:07:22] uh meetup platform. Okay. When was that
+
+[00:07:25] delivered to us? Yeah that that I sent
+
+[00:07:28] that already to to Glenn to approve. So
+
+[00:07:31] we should have a be next week we should
+
+[00:07:33] have that voting started.
+
+[00:07:39] So sent PIT 15 to foundation director
+
+[00:07:42] for review before
+
+[00:07:43] initiating voting. Wait, we we did our
+
+[00:07:46] own review of it, didn't we? Or at least
+
+[00:07:47] you all we did the review. We approved
+
+[00:07:49] the review and and now we're sending to
+
+[00:07:52] to the foundation just to to make sure
+
+[00:07:54] everything is fine and then I'll send it
+
+[00:07:56] to the team to to get it up for voting.
+
+[00:07:58] Okay. When was that? And the rest now?
+
+[00:08:01] Yeah, I did that. Actually, I send it
+
+[00:08:04] over today. So, it's Eastern weekend.
+
+[00:08:05] So, I'm expecting Tuesday that will be
+
+[00:08:07] ready and I can pass to the team and
+
+[00:08:09] hopefully by Thursday we will be
+
+[00:08:11] starting the voting. Okay. There was
+
+[00:08:13] three there was three of us that
+
+[00:08:14] reviewed that. Correct. That's the goal.
+
+[00:08:17] Yeah.
+
+[00:08:18] Okay. I did not review that one, I don't
+
+[00:08:21] think. Are you all doing that in the the
+
+[00:08:23] sack kitchen in our internal um console
+
+[00:08:27] forum?
+
+[00:08:29] Oh, the council forum. Okay. Gosh darn
+
+[00:08:31] it. Yeah. which is like our private
+
+[00:08:33] thread. So, so we can get together our
+
+[00:08:36] thoughts there. All right. Gotcha. All
+
+[00:08:38] right. I'll I'll try and pay attention
+
+[00:08:39] to that future.
+
+[00:08:42] Yeah. There's internal channels tied to
+
+[00:08:44] the pips that um are up for like final
+
+[00:08:47] review and um we kind of hop in there
+
+[00:08:50] and share notes back and forth of what
+
+[00:08:53] questions to ask, what types of things
+
+[00:08:55] to clarify. uh Drum linked it in our
+
+[00:08:58] primary council channel, but um I think
+
+[00:09:02] each individual PIP, correct me if I'm
+
+[00:09:04] wrong, Drum, uh winds up having its own
+
+[00:09:07] channel for those types of discussions.
+
+[00:09:09] Once once we have the draft live and
+
+[00:09:11] it's ready to be uh reviewed, I create
+
+[00:09:14] normally a another thread in the forum
+
+[00:09:16] so we can all gather our ideas uh there
+
+[00:09:19] before giving back to the to the author.
+
+[00:09:21] And then um I don't know if we put here
+
+[00:09:24] already but we agreed on our internal
+
+[00:09:27] meeting that the reviewing process for a
+
+[00:09:30] submitted draft should for the first you
+
+[00:09:32] know feedback should be a week within a
+
+[00:09:35] week. Got it. Oh, I see. Now and in the
+
+[00:09:38] form it says review inerson community
+
+[00:09:40] meetups platform. I got you. All right.
+
+[00:09:43] I'm tracking. and and you know there
+
+[00:09:45] it's a little it's a little overwhelming
+
+[00:09:47] because there's too many threads there
+
+[00:09:48] but you can group them by pips or by
+
+[00:09:51] appointments or by internal and and it's
+
+[00:09:53] easier to see what's there. Okay, sounds
+
+[00:09:56] good.
+
+[00:09:57] Uh, I changed the right hand right top
+
+[00:09:59] right of the quad. Instead of it being
+
+[00:10:02] future tasks, it kind of was redundant
+
+[00:10:04] with the bottom left. I made it about
+
+[00:10:05] scope. So, what we're actually
+
+[00:10:07] responsible for doing. The only thing I
+
+[00:10:09] I saw someone said Star Atlas is a
+
+[00:10:11] thousand strong. That seemed really low.
+
+[00:10:12] Is that true? Um, that's the really
+
+[00:10:15] active community in Sage at the moment.
+
+[00:10:18] Okay. How do we find the actual number
+
+[00:10:21] of players? There's a thousand1 ways
+
+[00:10:25] that you could do it. Um, you could
+
+[00:10:27] totalize daily active people in Sage.
+
+[00:10:29] You could um add that to the people
+
+[00:10:31] currently in score and faction fleet,
+
+[00:10:34] but there's also people um kind of like
+
+[00:10:37] you that like uh you're not like active
+
+[00:10:39] in either of those things right now, but
+
+[00:10:41] you're active in the DAO. We would
+
+[00:10:42] certainly count you again as a community
+
+[00:10:45] member. Um, so you'd have to take a
+
+[00:10:48] couple of different types of activities
+
+[00:10:49] and um and benchmark them against each
+
+[00:10:52] other for like repeating
+
+[00:10:54] wallets. But uh if if you have links in
+
+[00:10:58] the chat where I can do that because
+
+[00:11:00] what I end up doing is I will link that
+
+[00:11:04] here in the slide and then I don't know
+
+[00:11:05] do a manual calculation every month or
+
+[00:11:07] something. I I need to get a beat on
+
+[00:11:09] what number am I putting here. For
+
+[00:11:12] practical purposes, that 1K is very
+
+[00:11:14] accurate. Um, okay. Yeah. Plus or minus
+
+[00:11:18] a margin of error. Yeah. It's it's
+
+[00:11:20] really we're only a thousand strong. I
+
+[00:11:22] thought we were It seems so much bigger
+
+[00:11:24] than that. I mean, if you look at Yeah.
+
+[00:11:27] If you look at YouTube views for
+
+[00:11:29] content, right? You know, if you look at
+
+[00:11:31] engagement followers for major content
+
+[00:11:34] creators and stuff like that and sort of
+
+[00:11:35] the
+
+[00:11:36] ecosystem, Discord activity, the ways
+
+[00:11:39] that we've benchmarked the fact that
+
+[00:11:41] we're saying you have sufficient
+
+[00:11:43] community sentiment and support on a
+
+[00:11:45] proposal if it gets more than 25 thumbs
+
+[00:11:49] up in the idea section. Um, that all
+
+[00:11:52] kind of points from different
+
+[00:11:54] directions, too. Uh, gotcha. It's not
+
+[00:11:57] 20,000 people. Vivv says that with the
+
+[00:12:00] score is about 2K.
+
+[00:12:03] Again, that's that's the average active
+
+[00:12:05] users. That doesn't mean that is the
+
+[00:12:06] community. The community is probably
+
+[00:12:08] 10,000 strong, but yeah, technically the
+
+[00:12:11] community anyone holding assets.
+
+[00:12:15] Yeah. Like if you collecting dust,
+
+[00:12:18] you're still technically a part of this
+
+[00:12:19] community. I think Eli should also be
+
+[00:12:22] able to give us an approximate.
+
+[00:12:26] I'm on I'm on the flip side. Crypto.
+
+[00:12:27] Where do I go from here?
+
+[00:12:33] Market data.
+
+[00:12:35] I'm trying to look it up in real time.
+
+[00:12:37] My friend says click on mark VB says
+
+[00:12:40] click on market.
+
+[00:12:45] Okay.
+
+[00:12:47] And maybe this could be something that
+
+[00:12:49] you got the number
+
+[00:12:51] of 2000. Okay. We'll go with that number
+
+[00:12:53] for now.
+
+[00:12:56] And but I do I do probably want the
+
+[00:12:58] manual calculation
+
+[00:13:01] of actual token holders because that
+
+[00:13:03] that would be the community and and 886
+
+[00:13:08] player profiles. So, it means there's
+
+[00:13:10] only 886 people that have actually taken
+
+[00:13:14] the time to like go to the website and
+
+[00:13:16] associate with their wallet and say, um,
+
+[00:13:20] this is VB or this is Viking Benny or
+
+[00:13:23] this is, uh, Signal. Um,
+
+[00:13:32] yeah, we can figure out a way to
+
+[00:13:33] quantify it. Um, I think between
+
+[00:13:37] probably between you guys
+
+[00:13:39] Okay. All right. Upcoming events. Has
+
+[00:13:43] has everyone signed the NDA and done the
+
+[00:13:45] KYC? Yes, I think we all have at this
+
+[00:13:48] point. Yeah. Everyone that got added to
+
+[00:13:52] the internal space is because they
+
+[00:13:54] accomplish.
+
+[00:13:56] Yeah.
+
+[00:13:58] All right. And we did we review these
+
+[00:14:02] new
+
+[00:14:03] pips? We Okay, we did that one.
+
+[00:14:05] Community community meetup platform. Um,
+
+[00:14:09] Ryden Systems,
+
+[00:14:11] I don't know. Uh, creation outcaster
+
+[00:14:14] role. I don't know. Yeah, Ryden System
+
+[00:14:17] hasn't got the the review since they
+
+[00:14:20] resubmitted a different version of it.
+
+[00:14:23] Gotcha. So, that that we're late on that
+
+[00:14:25] one. We can definitely knock that out
+
+[00:14:27] this week.
+
+[00:14:31] Yeah, I think this week we should catch
+
+[00:14:33] up with anything that we have delayed
+
+[00:14:35] and start the the within a week of
+
+[00:14:37] business days like like we won't count
+
+[00:14:39] Saturday and Sunday even though our time
+
+[00:14:42] here is Saturdays, but absolutely.
+
+[00:14:45] All right. Yeah. Create a new
+
+[00:14:47] expectation that if you get to the draft
+
+[00:14:49] stage, you're going to hear from us
+
+[00:14:51] inside of a week of you posting your
+
+[00:14:53] draft. Gotcha. All right. So I have I
+
+[00:14:57] have a few addition I have a few
+
+[00:14:58] additions for the scope of
+
+[00:14:59] responsibility that I made some notes
+
+[00:15:01] but I think it's too much to put it
+
+[00:15:03] there. Okay, great. I can share it or
+
+[00:15:06] read it right now if you want to have an
+
+[00:15:09] idea what I I'm talking about. Okay,
+
+[00:15:11] I'll put a I'll put a little placeholder
+
+[00:15:13] here for us to talk offline on in the
+
+[00:15:15] chat.
+
+[00:15:19] Yeah, we I don't want to burn up too
+
+[00:15:21] much time with some of this stuff, but
+
+[00:15:24] no, this is this is part of our our
+
+[00:15:26] scope uh as council members and things
+
+[00:15:30] that we should be kind of uh either
+
+[00:15:32] distributing among all of us or doing
+
+[00:15:35] among all of us. But mean for the time
+
+[00:15:38] moment I've been doing it uh and I'm
+
+[00:15:40] fine with it. It's not it's not too bad.
+
+[00:15:43] I service agreement for those three
+
+[00:15:46] things right there. I just summarized
+
+[00:15:47] them. Yeah.
+
+[00:15:49] And then I got that number from the Dow
+
+[00:15:51] dashboard or the govern dashboard. I got
+
+[00:15:54] that number also from the Treasury
+
+[00:15:55] dashboard.
+
+[00:15:58] All right. And this is honestly a great
+
+[00:15:59] way to kick things off. It's it's what
+
+[00:16:01] did we do for you over the course of the
+
+[00:16:03] past week that we said we were going to
+
+[00:16:04] do in the week prior. Yeah. Yeah. Let me
+
+[00:16:07] read really quick um the points I was
+
+[00:16:10] talking about.
+
+[00:16:13] So the first one the first section that
+
+[00:16:15] I I started making notes of stuff that
+
+[00:16:18] we need to you know keep updated among
+
+[00:16:20] all of us is the pit process by the
+
+[00:16:22] console which is check the ideas section
+
+[00:16:25] to update any ideas that may have passed
+
+[00:16:27] the temperature check and apply the
+
+[00:16:28] correct sticker if needed. Um the
+
+[00:16:32] responsibility to start the draft is
+
+[00:16:33] 100% on the author signal that's with
+
+[00:16:36] you not only to avoid dumping a massive
+
+[00:16:39] task on the console but also to help uh
+
+[00:16:42] filter the people who will actually do
+
+[00:16:44] the work which uh is something that we
+
+[00:16:47] kind of came with a conclusion
+
+[00:16:48] conclusion last last uh term that if you
+
+[00:16:53] don't find the energy and the drive to
+
+[00:16:55] to to work on a on a draft it's you know
+
+[00:16:58] it's unlikely that you're you're going
+
+[00:17:00] to work in in a big project and take it
+
+[00:17:01] on your own. But anyway, um the second
+
+[00:17:05] point would be ideas will stay open
+
+[00:17:07] until a draft have been submitted. When
+
+[00:17:09] a draft has been submitted, we will log
+
+[00:17:11] the idea thread, post a link to the
+
+[00:17:13] draft and then continue the conversation
+
+[00:17:15] from there and then we also apply the
+
+[00:17:18] right stickers um like the the approved
+
+[00:17:21] stick community approved sticker on the
+
+[00:17:22] idea and then we start
+
+[00:17:24] the the draft. Uh once the draft is
+
+[00:17:27] submitted and reviewed, feedback has
+
+[00:17:29] been comparated comparated and um and we
+
+[00:17:32] have approved the PIP, we will format it
+
+[00:17:34] in markdown and send the PDF to Glenn
+
+[00:17:36] for foundation approval approval, I'm
+
+[00:17:38] sorry. Usually we will answer within a
+
+[00:17:40] couple he will answer within a couple
+
+[00:17:42] hours if it's a business day and um so
+
+[00:17:46] far all beeps have passed. Um we need to
+
+[00:17:49] add the proper tickets where were
+
+[00:17:51] available like in review or approved. Um
+
+[00:17:55] our internal review will be performed
+
+[00:17:57] individually and posted in a thread
+
+[00:17:58] created in the private console forum.
+
+[00:18:01] The next item is as soon as Glenn
+
+[00:18:02] confirms we will send the the markdown
+
+[00:18:04] file uh to the kitchen team, wait for
+
+[00:18:07] the PEIP to be up, check any formatting
+
+[00:18:10] issues and prepare for voting. We will
+
+[00:18:12] look the draft thread, post the link in
+
+[00:18:15] the pip voting and from for the B voting
+
+[00:18:18] and apply the the correct sticker so the
+
+[00:18:20] conversation continues there.
+
+[00:18:23] um gbook knowledge base. We need to keep
+
+[00:18:26] the knowledge base up to date especially
+
+[00:18:28] when we get new information based on on
+
+[00:18:30] a pit submission like every new pip uh
+
+[00:18:32] you know we we're finding different
+
+[00:18:34] situations and we have to go and ask the
+
+[00:18:36] foundation for guidance on how to um you
+
+[00:18:40] know board those those particular
+
+[00:18:42] issues. Uh for example, we decided with
+
+[00:18:45] the team that dispersements would be
+
+[00:18:46] made in Atlas because that's what we
+
+[00:18:48] have in the vault and other options are
+
+[00:18:51] not
+
+[00:18:51] impossible but they will require
+
+[00:18:53] specific authorization and input from
+
+[00:18:55] the foundation and we need to remember
+
+[00:18:57] that they will be outside of the
+
+[00:18:59] consil's control. That's just another
+
+[00:19:01] Carlos. Carlos, what are you reading
+
+[00:19:02] from? I'm reading from my notes that I
+
+[00:19:05] told you that were too big to put in
+
+[00:19:07] that section. I will pass them and and
+
+[00:19:09] then you can put them where you Okay,
+
+[00:19:11] got it. Um uh next po point once the
+
+[00:19:15] update has been created in the knowledge
+
+[00:19:16] base at least three council members are
+
+[00:19:18] expected to approve it before merging
+
+[00:19:19] into the live document. Uh the knowledge
+
+[00:19:22] base is one of the only tools uh funded
+
+[00:19:25] by funded by the foundation in in the
+
+[00:19:28] sense that you know we acquired that uh
+
+[00:19:30] service and they they reimburse actually
+
+[00:19:32] funracker did that and we have to
+
+[00:19:35] communicate with the community and you
+
+[00:19:37] know make sure that this is the
+
+[00:19:38] reference because that's the only live
+
+[00:19:39] tool that we have uh other than this
+
+[00:19:42] PowerPoint internal meetings uh well
+
+[00:19:45] this we took care already and then pip
+
+[00:19:48] administration and potention potential
+
+[00:19:50] workload road because some peeps will
+
+[00:19:52] delegate a degree of management and
+
+[00:19:54] budgetary requirements and organization
+
+[00:19:56] task. Right now, um, iris bounty is
+
+[00:20:00] likely to pass. If it passes, we're
+
+[00:20:02] going to have to create a multi-y wallet
+
+[00:20:04] and transfer the funds there and start
+
+[00:20:06] managing all that. And as more pips are
+
+[00:20:08] introduced that requiring console
+
+[00:20:10] management, we just got to keep track of
+
+[00:20:12] all that workload so we can distribute
+
+[00:20:14] it and we can make sure that we comply
+
+[00:20:16] with the promise made when we approve
+
+[00:20:18] the BIP. And that's all I have to add.
+
+[00:20:21] Awesome. That's it. That's that's all
+
+[00:20:24] Dr. That's all we have to do. That's all
+
+[00:20:27] we're responsible I've been doing every
+
+[00:20:28] day.
+
+[00:20:31] Just got to look at all the things and
+
+[00:20:33] run and operate all the stuff and um be
+
+[00:20:36] responsible for everything. That's all.
+
+[00:20:38] Yeah. And I'm just passing the
+
+[00:20:39] information and we'll make sure that we
+
+[00:20:41] all have it available so so slowly but
+
+[00:20:43] surely everyone can be part of this.
+
+[00:20:46] Okay. Awesome. Thank you. Events
+
+[00:20:50] Uh, probably need to put a date. When
+
+[00:20:52] when do we think we're going to review
+
+[00:20:53] all these PIP drafts? Like by the end of
+
+[00:20:55] the month or what? Um, this is all this
+
+[00:20:58] week. Yeah, we we should catch up this
+
+[00:21:01] week. Uh, hopefully. All right. We will.
+
+[00:21:03] We will one way or another. We're going
+
+[00:21:05] to make it. All right. And then
+
+[00:21:07] finalized process. The real answer if
+
+[00:21:09] you're ambitious is after this call.
+
+[00:21:12] What about this working groups and Theo?
+
+[00:21:15] What who was doing that one? That is
+
+[00:21:17] done. that is already in voting stage.
+
+[00:21:19] Yeah, they're live and active votes at
+
+[00:21:20] this point. Yeah, that's 14. That's P 14
+
+[00:21:22] that we have section. And the next one
+
+[00:21:25] is when we get to if we can get to it,
+
+[00:21:27] the the agenda item on the sack segment,
+
+[00:21:30] which is the Salana Grants writing team.
+
+[00:21:33] I'm excited to get an agenda item. I
+
+[00:21:36] think we also did the um working groups
+
+[00:21:40] uh markup thing. Is that what um you
+
+[00:21:43] guys were working on, Drum? And um yeah,
+
+[00:21:45] Buddy Buddy finished that. that was his
+
+[00:21:47] baby. Uh he he was the one that, you
+
+[00:21:50] know, we we came with idea, but he was
+
+[00:21:52] the one that wrote the the draft.
+
+[00:21:53] Actually, I think that was Brian's idea,
+
+[00:21:55] the working groups. Uh but it's ready.
+
+[00:21:58] He did the markdown. I think I'm going
+
+[00:22:00] to fix a couple formatting things just
+
+[00:22:02] to make sure it it looks the same as the
+
+[00:22:04] other pips uh that got approved by the
+
+[00:22:06] foundation already. So that's that's
+
+[00:22:08] about to go live next week.
+
+[00:22:11] Nice. Okay. All right. But for the
+
+[00:22:14] goals, I changed mine up because my
+
+[00:22:16] goal, my first goal was met on our first
+
+[00:22:18] meeting, which was establish the
+
+[00:22:20] process. Now, I changed my goal to
+
+[00:22:22] improve our operability,
+
+[00:22:24] interoperability among all of our
+
+[00:22:25] different ecosystem people, gamers,
+
+[00:22:29] business owners,
+
+[00:22:30] creators. I listen to I listen to
+
+[00:22:33] Signal's interview with uh I can't
+
+[00:22:37] recall right now, VB.
+
+[00:22:40] No, no. Um, oh, Pac. Pac. That's right.
+
+[00:22:44] And he called he he called himself a
+
+[00:22:46] polistician.
+
+[00:22:48] I I think I am a politician as well. And
+
+[00:22:52] then different third party stuff.
+
+[00:22:55] Signal. What goal do you want to
+
+[00:22:56] achieve? Give me your oneliner.
+
+[00:22:59] Um, yeah. I just want to be a greater
+
+[00:23:02] resource for people with cool ideas that
+
+[00:23:04] are looking to get things done in the
+
+[00:23:06] DAO and bring more people into Discord.
+
+[00:23:09] So mainly engagement, adoption and
+
+[00:23:12] support.
+
+[00:23:13] There you go.
+
+[00:23:17] Engage, adopt and support community
+
+[00:23:21] ideas. You are the community incubator.
+
+[00:23:27] That's what I hope to be.
+
+[00:23:30] Cool. Emperor, are you still good with
+
+[00:23:32] the verbiage process and procedure
+
+[00:23:34] improvement? More rob. Yeah, that that's
+
+[00:23:36] yeah, that's one of the things I updated
+
+[00:23:38] earlier that those are kind of my my
+
+[00:23:40] current um goals. I've got an entire
+
+[00:23:44] page of goals that you guys have seen,
+
+[00:23:46] but
+
+[00:23:47] those are my those are my lowhanging
+
+[00:23:50] ones right now. One of these meetings
+
+[00:23:51] we're going to be to get to go over that
+
+[00:23:54] successful transition to new roles
+
+[00:23:56] maintaining consistency.
+
+[00:23:58] That's part of what what I spoke earlier
+
+[00:24:00] and and you guys have been added now to
+
+[00:24:02] the kitchen. you have been added to the
+
+[00:24:04] G Telegram um group with Glenn and I
+
+[00:24:08] we're and you are on the knowledge base
+
+[00:24:10] already. Uh so so far we're we're doing
+
+[00:24:12] good with that. Cool. Do you want to
+
+[00:24:15] keep that your goal or do you want to
+
+[00:24:16] update to a new goal? Keep it for a
+
+[00:24:18] little longer. Okay. And Bod is not here
+
+[00:24:21] right now, but uh we're getting close to
+
+[00:24:23] knocking this one down, especially now
+
+[00:24:26] that we've listened to the sack
+
+[00:24:30] one. Well, I'm sure we'll get into that.
+
+[00:24:32] signal.
+
+[00:24:35] Yeah, it's all you. All right. Uh here's
+
+[00:24:37] the action
+
+[00:24:38] item sheet. I just copy pasted it from
+
+[00:24:42] the the Excel. And the first one was
+
+[00:24:44] transfer ownership of Star Atlas DAO
+
+[00:24:48] account signal. Did you get around yet
+
+[00:24:51] to reaching out to X support to initiate
+
+[00:24:53] that? I So there's a couple of things
+
+[00:24:57] here. Um Okay. one uh I had a discussion
+
+[00:25:01] with Michael um about that account. I
+
+[00:25:04] believe it might have been created or
+
+[00:25:06] owned by Automata. Um so I think they
+
+[00:25:09] have control over it and they can use
+
+[00:25:11] it. I'm not sure if us officially
+
+[00:25:14] utilizing that channel um is their goal,
+
+[00:25:17] desire, or intention. as of our last
+
+[00:25:21] conversations, uh, we were talking about
+
+[00:25:23] spinning up a, um, more unofficial
+
+[00:25:26] councilbased X account. Um, I wouldn't I
+
+[00:25:31] wouldn't bake a whole plan around
+
+[00:25:32] getting that individual Twitter X
+
+[00:25:34] account shifted to us. Um, is where it's
+
+[00:25:37] at right now. I think we should just
+
+[00:25:40] spin something up and get it done. We
+
+[00:25:43] can do both at the same time. It's easy
+
+[00:25:44] to create an execute.
+
+[00:25:46] Absolutely. Uh but um contacting yeah
+
+[00:25:51] but contacting X support to say hey this
+
+[00:25:54] is a faulty account this isn't us um we
+
+[00:25:57] represent the DAO not this account when
+
+[00:26:00] it's actually an automata owned property
+
+[00:26:03] um it's a niche it's not
+
+[00:26:07] good wait you confirm that they own it
+
+[00:26:10] or not
+
+[00:26:12] yes Michael does own this account dang
+
+[00:26:15] it this thing keeps jumping out around
+
+[00:26:16] on
+
+[00:26:17] Michael does own the account.
+
+[00:26:20] They suspect that. Yeah, they don't know
+
+[00:26:22] who has the keys though. Carlos is
+
+[00:26:25] saying they suspect that signal. Do they
+
+[00:26:27] or do they not own it? Um, so I'm going
+
+[00:26:30] to say a couple of things real quick
+
+[00:26:32] right here. Um, we should respect things
+
+[00:26:35] that if we say them in DMs or private
+
+[00:26:37] conversations. So, like if uh I have a
+
+[00:26:39] conversation with Michael and I give
+
+[00:26:41] feedback to the group, I don't want to
+
+[00:26:42] immediately be um this thing where I'm
+
+[00:26:45] asked
+
+[00:26:46] publicly on on recording things about
+
+[00:26:49] that conversation. But yes, Michael
+
+[00:26:52] believes it's an automata owned account
+
+[00:26:54] and he's not sure whether or not he
+
+[00:26:56] actually wants to shift that um to the
+
+[00:26:59] council or whether or not it's going to
+
+[00:27:00] be used for another function.
+
+[00:27:03] the path that we're looking at is
+
+[00:27:04] rolling up our own individual X account
+
+[00:27:07] as a council. So, exactly what I started
+
+[00:27:10] saying is what I'm still saying. Um, we
+
+[00:27:13] shouldn't be pushing for that individual
+
+[00:27:14] address and we should just be rolling up
+
+[00:27:16] an X account. And just to complement on
+
+[00:27:19] that, we did have this conversation with
+
+[00:27:21] Dan Partika months ago. He actually
+
+[00:27:25] asked Lane also to see if he can reach
+
+[00:27:27] out and try to contact uh X to try to
+
+[00:27:30] recover that because Dan Practica didn't
+
+[00:27:32] know the the details either. So I'm
+
+[00:27:34] starting to fear that uh that might be
+
+[00:27:37] misplaced for a while. Uh, so he also
+
+[00:27:41] had the opinion that we could just run
+
+[00:27:43] with a council account and and and just
+
+[00:27:46] avoid all these. I think that's
+
+[00:27:49] I listened to that episode
+
+[00:27:52] and gosh, I think I need to figure out
+
+[00:27:54] what what part of that is are we not
+
+[00:27:56] allowed to talk about because it it
+
+[00:27:58] wasn't just as simple
+
+[00:28:00] as Michael would Yeah. I would advise
+
+[00:28:02] you very early on to be very careful
+
+[00:28:04] about where you receive information from
+
+[00:28:07] and then what what gets just thrown out
+
+[00:28:10] here. Sure. This is why part of the
+
+[00:28:13] reason on the first term we didn't do
+
+[00:28:15] too many of these public because we all
+
+[00:28:17] the the teams we had with the all the
+
+[00:28:19] meetings we had with the foundation was
+
+[00:28:21] new important information honesty on
+
+[00:28:24] their side reality versus expectation
+
+[00:28:27] and sure as everything was being created
+
+[00:28:30] it was just easier to to report
+
+[00:28:33] afterwards. Uh but I I like this this
+
+[00:28:36] new method but we just got to be
+
+[00:28:38] mindful. Yeah. I'll I'll ask um I ask in
+
+[00:28:41] the telegram or or whatever. I'll ask
+
+[00:28:43] somebody try and figure that out cuz it
+
+[00:28:45] was it was pretty clear that the group
+
+[00:28:48] wanted
+
+[00:28:50] to to transfer ownership of that account
+
+[00:28:54] into its possession and all parties were
+
+[00:28:58] represented and saying that they didn't
+
+[00:28:59] have ownership of it.
+
+[00:29:03] Yeah, I think we should roll with our
+
+[00:29:04] own. I think at this point we're burning
+
+[00:29:07] time.
+
+[00:29:10] We're kind of we're kind of looping our
+
+[00:29:11] conversation right now. Um Yeah. Yeah.
+
+[00:29:14] It's because we had it as a record
+
+[00:29:15] action item signal. That's why. Yeah.
+
+[00:29:19] But I gave I gave you an answer on it.
+
+[00:29:21] Um including a conversation directly
+
+[00:29:23] with Michael and we're looping back to
+
+[00:29:25] it still.
+
+[00:29:27] Yeah. Because it's there's a disconnect.
+
+[00:29:29] There's a I think there's a clear
+
+[00:29:31] disconnect with what you're talking
+
+[00:29:33] about in DMs with Michael versus what
+
+[00:29:35] the group talked about sack one and now
+
+[00:29:38] what we're pursuing here
+
+[00:29:42] telling me to move on Lancer.
+
+[00:29:50] All right. Did you create the new X
+
+[00:29:53] account? We were just talking about this
+
+[00:29:55] the other day. Um, people haven't agreed
+
+[00:29:58] yet on what they want to call the
+
+[00:29:59] account. If you want me to go rogue and
+
+[00:30:01] just make an X account without everybody
+
+[00:30:03] agreeing on it, I could do that. Um, we
+
+[00:30:07] were just talking about this the other
+
+[00:30:08] day and people still hadn't agreed on
+
+[00:30:11] what they wanted to call the account or
+
+[00:30:12] what it was going to be. Oh, I thought
+
+[00:30:15] we had a poll that
+
+[00:30:17] we that we sent out to everyone and that
+
+[00:30:20] that poll's over.
+
+[00:30:22] I'm really confused on if you just
+
+[00:30:24] weren't in this conversation. Um, but we
+
+[00:30:32] also council account, whether or not
+
+[00:30:35] we're calling it the DAO council
+
+[00:30:36] account, what the name of the Twitter
+
+[00:30:38] handle is going to be. If you want me to
+
+[00:30:40] just pick all of that and do it, I'm
+
+[00:30:42] happy to do it. So, we did a I I I had
+
+[00:30:45] done that poll, the one you're referring
+
+[00:30:47] to, that was like a week and a half ago.
+
+[00:30:49] Um, but we needed to kind of make it
+
+[00:30:51] official and then we talked about it. I
+
+[00:30:52] think it was Friday when we had our
+
+[00:30:54] other meeting, our other other meeting.
+
+[00:30:56] And um, I think what we'll do is just do
+
+[00:30:58] one more poll for all five of us to be
+
+[00:31:01] completely 100% on the same page. I
+
+[00:31:03] think we're really close. Um, and we we
+
+[00:31:07] wanted to have a meeting with um the
+
+[00:31:09] team to see if we could go ahead and get
+
+[00:31:12] our own domain and and do a a web page
+
+[00:31:15] for us. If we do that and we get the
+
+[00:31:16] domain and we get the hosting, we can
+
+[00:31:18] create our email and we can use a
+
+[00:31:20] generic email amount account from the
+
+[00:31:22] council to create the socials. So this
+
+[00:31:25] is just uh something we need to keep uh
+
+[00:31:28] debating outside of this call and try to
+
+[00:31:30] fix by next week. But it's a team
+
+[00:31:33] discussion. It can't be my individual
+
+[00:31:35] action. Correct. Yeah. Yeah. Yeah. And
+
+[00:31:36] and same thing, I would like uh input
+
+[00:31:38] from from Automata because I know they
+
+[00:31:40] were working on a domain at some point.
+
+[00:31:43] Uh but you know with Dan on a on a
+
+[00:31:46] medical leave I think we we need to be a
+
+[00:31:48] little patient for a couple answers
+
+[00:31:49] because uh Santi is in Dubai and Michael
+
+[00:31:52] can only be in so many places at the
+
+[00:31:54] same time. That's fine. I'm just I'm
+
+[00:31:56] trying to update the the actual progress
+
+[00:31:59] here. The update would be we're still
+
+[00:32:02] working on it. It will be done this
+
+[00:32:04] week. Okay. You said you want to put out
+
+[00:32:07] a new poll and then we've got to confer
+
+[00:32:09] with Automata on something. Yeah, we'll
+
+[00:32:13] just verify meeting with them. Correct.
+
+[00:32:18] Or is that the What's our Thursday one?
+
+[00:32:21] That's Are they internal? Yeah. So,
+
+[00:32:25] Emperor, are you going to put a new
+
+[00:32:26] poll? Is that what I heard? Yeah. Yep.
+
+[00:32:30] Okay. The biggest debates is do we need
+
+[00:32:33] some kind of blessing to make this thing
+
+[00:32:34] officially recognized or my school of
+
+[00:32:37] thought is rather than waiting for all
+
+[00:32:40] of that we should just spin up something
+
+[00:32:41] use the word unofficial and that kind of
+
+[00:32:44] solves everything and we can start using
+
+[00:32:46] as a means to communicate but if we want
+
+[00:32:49] to call something official um it's a
+
+[00:32:51] larger group conversation not just with
+
+[00:32:54] our individual group but between our
+
+[00:32:56] group and the team trust me I'd love
+
+[00:32:58] nothing more than hey signal just spin
+
+[00:33:00] up an ex account represent the DAO. But
+
+[00:33:03] um I think I think it's a little bigger
+
+[00:33:05] than that for sure. Yeah. If we're
+
+[00:33:08] representing the DAO, it's one
+
+[00:33:09] conversation. If we're representing the
+
+[00:33:11] council, well, we're much much more
+
+[00:33:13] nimble. I think what um um what Drum was
+
+[00:33:17] saying, somebody all already purchased a
+
+[00:33:20] a DAO council domain and that's what
+
+[00:33:22] we're just trying to figure out so we're
+
+[00:33:24] not duplicating that. I think we're all
+
+[00:33:25] on the same page. Um I really do. Yeah.
+
+[00:33:29] Okay.
+
+[00:33:30] All
+
+[00:33:31] right. Uh, determine determine the
+
+[00:33:34] status of Oh, man. I didn't copy paste
+
+[00:33:36] the new one in here. My bad. So,
+
+[00:33:38] determine the status of the doubt
+
+[00:33:40] council. That one's done. Uh, got that
+
+[00:33:42] back from uh the email chain from the
+
+[00:33:45] director on what our status is. And then
+
+[00:33:48] determine how to support GBA. I've been
+
+[00:33:50] talking quite a bit with Falkor and then
+
+[00:33:52] we erected the the Salana Grants writing
+
+[00:33:56] team that I want to get the team's
+
+[00:34:00] blessing on so that we can move out on
+
+[00:34:02] that starting this
+
+[00:34:05] week. Uh, obtain access to revenue
+
+[00:34:09] tracking
+
+[00:34:10] stuff. I didn't I didn't get a PC for
+
+[00:34:13] any of these other ones, so I don't know
+
+[00:34:14] what the status is.
+
+[00:34:16] What what what exactly do you need?
+
+[00:34:21] Uh deter we talked about determining how
+
+[00:34:24] to share a link we shared a link that
+
+[00:34:26] had all that information last week.
+
+[00:34:29] Yeah. But okay. Yeah. What to do with
+
+[00:34:31] that information is a bigger question.
+
+[00:34:34] Um Stephen Sab has an awesome resource
+
+[00:34:37] for tracking all of this stuff, but
+
+[00:34:39] where we areing it or what we're doing
+
+[00:34:42] with it is a bigger one.
+
+[00:34:43] So you're saying the point of contact is
+
+[00:34:45] one of us five to So who's going to like
+
+[00:34:48] spearhead that stuff? Is that what
+
+[00:34:49] you're saying, Laser? Yeah, I think
+
+[00:34:51] that's up in the air right now. That's a
+
+[00:34:53] big
+
+[00:34:56] No. Yeah, any of us can take it, but we
+
+[00:34:58] don't have a domain yet. We don't have a
+
+[00:34:59] website yet. So, it's a little premature
+
+[00:35:01] to take it from that angle. We just need
+
+[00:35:05] to find out if we're going to get our
+
+[00:35:07] own domain or not. Uh so we can make
+
+[00:35:09] stuff happen.
+
+[00:35:11] Oh.
+
+[00:35:12] They know how to access it. Maybe I'm
+
+[00:35:15] confused. This one doesn't actually seem
+
+[00:35:16] like that big of an ask. You're just
+
+[00:35:18] trying to figure out individual bits of
+
+[00:35:20] revenue information. Lenser.
+
+[00:35:23] Yeah, at the council we were trying to
+
+[00:35:24] figure out what the revenue sources
+
+[00:35:26] were. I can get that. No problem at all.
+
+[00:35:29] Yeah, we have that.
+
+[00:35:33] Okay. So, yeah, the point of contact.
+
+[00:35:37] So, signal you'll take that most of
+
+[00:35:40] these on. Yeah, I mean that's that's we
+
+[00:35:44] already have a tool for looking at it.
+
+[00:35:45] Um it gets into a pretty good amount of
+
+[00:35:47] detail and we can get clarity beyond
+
+[00:35:49] that. Obviously, it's worth noting that
+
+[00:35:51] those things change on weekly, daily,
+
+[00:35:54] and monthly basis. So on any given
+
+[00:35:57] 30-day period, it's not going to be like
+
+[00:35:59] this much comes from rentals
+
+[00:36:01] permanently. Um any given week or month
+
+[00:36:05] depending on asset sales, rentals, game
+
+[00:36:07] activity, all of those different things
+
+[00:36:09] are going to move. But we do have good
+
+[00:36:11] ways of tracking them.
+
+[00:36:13] Yeah, it all came down to when we were
+
+[00:36:15] trying to list out the here the treasury
+
+[00:36:17] slide. What did we want to start
+
+[00:36:19] tracking? They were that website appears
+
+[00:36:22] to have stopped in the chat if you want
+
+[00:36:24] to check it. Uh, Lancer
+
+[00:36:28] I just reach in the chat. Uh, if you
+
+[00:36:30] want to check it because there's a lot
+
+[00:36:33] of but that wasn't sufficient for what
+
+[00:36:35] we were after.
+
+[00:36:37] What
+
+[00:36:38] the items you listed there? Are there
+
+[00:36:42] What I would be interested in though is
+
+[00:36:43] just um who or what has been responsible
+
+[00:36:46] in the past for updating revenue on the
+
+[00:36:49] Dow site. Um and just figuring out um is
+
+[00:36:53] that something we can take on? Um is
+
+[00:36:55] someone else doing that lift? Uh because
+
+[00:36:57] the last reported data that the official
+
+[00:36:59] site has is of course December.
+
+[00:37:02] Yeah. So that's number nine on planser's
+
+[00:37:05] list. determine who to coordinate with
+
+[00:37:07] to ensure we get that. Gotcha. Like we
+
+[00:37:10] could easily provide the data to them
+
+[00:37:12] and they could just post it. Um yeah,
+
+[00:37:15] I'm sure that we're not getting
+
+[00:37:16] individual access to uh
+
+[00:37:18] govern.starwist.com.
+
+[00:37:21] I think for these I'm sure it would be
+
+[00:37:23] really valuable if we could make it so
+
+[00:37:25] people didn't have to go to flip side,
+
+[00:37:28] you know, to get this information. They
+
+[00:37:30] could get it while they're voting on
+
+[00:37:31] proposals and looking at others. I mean,
+
+[00:37:33] there's nothing wrong with flip side.
+
+[00:37:35] can just uh post the the link in the
+
+[00:37:37] same place where everyone is getting all
+
+[00:37:38] the information. So, so it's easier.
+
+[00:37:41] Yeah, a lot of this ties to the tools
+
+[00:37:43] that that is under my some of my things
+
+[00:37:47] um to tie it all together in a prettier
+
+[00:37:49] package. And that also ties back into
+
+[00:37:50] the domain that um Drum was talking
+
+[00:37:53] about. So these are this is pretty broad
+
+[00:37:56] still, but I I I think if we put signal
+
+[00:37:59] for all of these for now. Um or and we
+
+[00:38:04] can all we can all work on them too
+
+[00:38:06] because this is a pretty big big thing
+
+[00:38:10] to to actually do in a pretty way that
+
+[00:38:13] everyone has access to easily enough.
+
+[00:38:16] Okay. Yeah, I'm h I'm happy to to poke
+
+[00:38:19] around and uh get answers on these
+
+[00:38:21] things. Okay. And then we can take those
+
+[00:38:24] answers and the other information we
+
+[00:38:26] have and then also like the domain when
+
+[00:38:28] when we buy it or we figure out who
+
+[00:38:30] already has it for the council or
+
+[00:38:32] whatever then we can conglomerate all of
+
+[00:38:34] that. But here I I screenshotted the
+
+[00:38:36] dial revenue for the last month.
+
+[00:38:41] And you can see exactly what is coming
+
+[00:38:43] from
+
+[00:38:44] where more detail than that I don't
+
+[00:38:46] know. Yeah, there's something like 50k
+
+[00:38:49] right in the past four weeks. Yeah, we
+
+[00:38:52] we
+
+[00:38:55] Yeah, what we were saying is that it
+
+[00:38:58] didn't it didn't give it to us in the
+
+[00:39:00] way that we were we were wanting to have
+
+[00:39:04] it. That's what I'm saying. Yeah, I'm
+
+[00:39:05] sure we could work with Stephen and get
+
+[00:39:07] some clarity. I bet. Yeah, that would be
+
+[00:39:09] a big lift for him. Again, that that
+
+[00:39:11] will be on us. The the data is on the on
+
+[00:39:14] the chain. We just need to code whatever
+
+[00:39:16] we want to see in a specific way.
+
+[00:39:20] Yep. And that's part of
+
+[00:39:21] team is not going to do that for us.
+
+[00:39:23] Yeah, that's part of my RFP um stuff for
+
+[00:39:26] the tools that I would like us to.
+
+[00:39:29] It's again, it's super easy. None of
+
+[00:39:32] this is rocket science. We just need a
+
+[00:39:33] domain and and and a hosting size and
+
+[00:39:36] then we can make it happen super quick.
+
+[00:39:38] Absolutely.
+
+[00:39:39] Uh maybe the only request I would have
+
+[00:39:41] of the team in this is um if the Dow
+
+[00:39:44] website's not updating this information
+
+[00:39:46] anymore, like if if they're not going to
+
+[00:39:48] post what the revenue was in April or
+
+[00:39:52] March for the Dow, um and if it is going
+
+[00:39:55] to stop in December, maybe just take the
+
+[00:39:57] graph down, you know, that uh tracks it
+
+[00:40:00] just so it doesn't look like um anything
+
+[00:40:03] stopped. like someone looking at it
+
+[00:40:05] right now for like signs of life of or
+
+[00:40:07] activity might see well last update was
+
+[00:40:10] December and it might just be a bad look
+
+[00:40:12] in terms of optics. So if we're going to
+
+[00:40:14] track it elsewhere, it might be worth
+
+[00:40:17] um somehow noting it on the DAO website
+
+[00:40:21] that uh there's a different place to
+
+[00:40:23] track it or just take the graph down or
+
+[00:40:26] I don't know. Uh it's probably not the
+
+[00:40:28] best optic in the world that
+
+[00:40:31] uh we're we're four months past where
+
+[00:40:34] the last update was. Yeah. And that's
+
+[00:40:37] not saying the team shouldn't fix it.
+
+[00:40:38] Yeah. Yeah. We have no control over the
+
+[00:40:41] government because we are leaning on
+
+[00:40:42] automata for all that because we don't
+
+[00:40:44] have employees. We don't we haven't
+
+[00:40:45] hired anyone to do any of that. Yeah. I
+
+[00:40:48] just mean giving them a heads up like,
+
+[00:40:50] "Hey, if you guys just aren't going to
+
+[00:40:52] do this each month, and it's not a big
+
+[00:40:53] deal if you aren't, but if you're not
+
+[00:40:55] going to do it, maybe we should just get
+
+[00:40:57] something updated so there's some
+
+[00:40:59] clarity there."
+
+[00:41:03] Okay. Uh, coordinate working groups for
+
+[00:41:05] PIP reviews. I think Carlos, you've been
+
+[00:41:08] doing that one. Um, buddy was doing that
+
+[00:41:11] one. That's already marked down. We need
+
+[00:41:13] to maybe fix a couple things in the
+
+[00:41:14] formatting and that will be done uh next
+
+[00:41:17] week. at
+
+[00:41:18] least. Okay. I I think there's I need a
+
+[00:41:21] little bit of clarification when you say
+
+[00:41:22] working group. That would to me that's
+
+[00:41:25] all five of us. No, for the PIP review.
+
+[00:41:29] I know. But number 11 says coordinate
+
+[00:41:31] working group for PIP reviews. I know
+
+[00:41:33] there's a PIP for creating working
+
+[00:41:35] groups, but I don't think that's what
+
+[00:41:37] number 11 mean, right? So, it's just
+
+[00:41:40] kind of a not a poor choice of words,
+
+[00:41:43] but is that would that be correct? Uh,
+
+[00:41:45] Lancer, how this got put on here. Number
+
+[00:41:47] 11, coordinate working group for PIP
+
+[00:41:49] review. He's not for PIP reviews. Yeah.
+
+[00:41:52] Uh, I put a bunch of question marks
+
+[00:41:54] because I'm not exactly sure what the
+
+[00:41:55] action item was
+
+[00:41:57] beyond doing working groups for PIP.
+
+[00:42:00] Working groups is a PIP uh that we're
+
+[00:42:02] going to send to vote. Uh and if it
+
+[00:42:04] passes, uh we're going to be able to um
+
+[00:42:07] appoint uh community members that want
+
+[00:42:09] to reach out in the name of the team to
+
+[00:42:11] any contacts that they have in other
+
+[00:42:13] places to list tokens or to do
+
+[00:42:16] partnership with other projects. So in
+
+[00:42:18] that case, they are involving us in the
+
+[00:42:20] conversation. We're g giving them an
+
+[00:42:22] official role in in Discord. So they can
+
+[00:42:25] show that they are in communication with
+
+[00:42:27] us and there's that channel of
+
+[00:42:28] communication and that way they can
+
+[00:42:29] represent us uh going and dealing trying
+
+[00:42:32] to make stuff happen for Star Atlas. So
+
+[00:42:34] there is called working groups is what
+
+[00:42:37] I'm Yeah, I think you just you need to
+
+[00:42:40] to just rephrase coordinate working
+
+[00:42:42] group PIP review. Delete that one then
+
+[00:42:44] because it if it's just a PIP review
+
+[00:42:45] then it's part of our workload. But if
+
+[00:42:47] if we are doing a working group then
+
+[00:42:49] okay but it sounds like we're
+
+[00:42:52] not. All right, got it. Then I mis
+
+[00:42:55] misinterpreted. Okay. When is good
+
+[00:42:57] links? I sent those out. That's all
+
+[00:42:58] done. We came to an agreement on when we
+
+[00:43:00] want to do them and send out community
+
+[00:43:03] poll and dow chat and screenshot blasted
+
+[00:43:06] the first tweet. We don't have our X
+
+[00:43:08] account yet. So, we are still
+
+[00:43:11] awaiting X account then.
+
+[00:43:17] Correct.
+
+[00:43:19] And I did add
+
+[00:43:22] one a number 14 um on there earlier. Oh
+
+[00:43:27] yeah, I see that now. Yeah, I forgot to
+
+[00:43:29] copy paste the the table back in here. I
+
+[00:43:32] did it like 10 minutes for tool
+
+[00:43:35] creation. Okay.
+
+[00:43:38] Yeah, to create some of these tools that
+
+[00:43:40] we want um and to send out an a proposal
+
+[00:43:44] or um a bounty or something. Um, but we
+
+[00:43:48] need to know some of the technical stuff
+
+[00:43:51] like the programming language or or some
+
+[00:43:53] of that stuff. But it it's a pretty
+
+[00:43:55] broad statement at this point, but okay.
+
+[00:43:58] So, what what can I put down is who is
+
+[00:44:01] waiting on what to do what? Um, we're
+
+[00:44:03] waiting on me to do everything.
+
+[00:44:06] Okay. So, waiting
+
+[00:44:08] emperor to
+
+[00:44:10] initiate like create the creation of the
+
+[00:44:12] language. Yeah. Yeah.
+
+[00:44:17] All
+
+[00:44:23] right. Okay. Stakehold diagram. I added
+
+[00:44:27] GBA GIA business association. Yeah. I
+
+[00:44:31] think they're going to be very important
+
+[00:44:32] in the near future. Yep. For the
+
+[00:44:35] Treasury, I kept it the way it is till
+
+[00:44:37] we have something that we can put in
+
+[00:44:39] here that's more what we're after that
+
+[00:44:41] shows like kind of like a balance sheet
+
+[00:44:43] of sorts. Yeah. I think you should copy
+
+[00:44:46] from that link that I posted that is
+
+[00:44:47] more updated because it's it's current.
+
+[00:44:52] I
+
+[00:44:53] mean I can go to the link with the cash
+
+[00:44:55] flow in it like we've been doing. Yeah.
+
+[00:44:59] And if you scroll down you can see all
+
+[00:45:02] the Dow
+
+[00:45:03] revenue. Scroll down
+
+[00:45:05] more. Dow revenue. There you go. In the
+
+[00:45:09] bottom you have those two parts. Those
+
+[00:45:10] are the most important. That's that's
+
+[00:45:12] the income in the last month and divided
+
+[00:45:14] by Yeah, that that'll work. Yeah, I
+
+[00:45:18] think that's more important that Yeah,
+
+[00:45:21] yeah, that's revenue and then expenses.
+
+[00:45:25] Huh. Okay, that's that's the whole
+
+[00:45:27] project.
+
+[00:45:29] That's
+
+[00:45:31] automaty. I will paste that in here for
+
+[00:45:34] next time.
+
+[00:45:38] and our medium
+
+[00:45:40] minutes which we already
+
+[00:45:45] started. Okay, I think I already show
+
+[00:45:47] and tell most of that stuff. Uh, Star
+
+[00:45:49] Atlas TV uploaded the VOD from our first
+
+[00:45:52] meeting. Thank you Viv for doing that.
+
+[00:45:55] And I need to create a
+
+[00:45:58] a meeting minute
+
+[00:46:01] playlist and made some updates to the
+
+[00:46:04] org chart, the quad and stuff we already
+
+[00:46:05] talked about. So, that one's done
+
+[00:46:07] with. Emperor, you want to talk about
+
+[00:46:10] subcommittees?
+
+[00:46:12] Yeah, it um it ties into uh Bod's PIP on
+
+[00:46:16] the working groups and then it also ties
+
+[00:46:18] in to your Solana grants writing team.
+
+[00:46:21] Um I think they all kind of run in the
+
+[00:46:25] same thing. So, in my world, we deal a
+
+[00:46:28] lot in subcommittees and um that's just
+
+[00:46:31] the the term I use. So, I I I just
+
+[00:46:34] wanted to bring it up.
+
+[00:46:36] uh in at least a public discussion to
+
+[00:46:39] kind of see, you know, if if if
+
+[00:46:43] uh like you and Falco are going to start
+
+[00:46:46] working kind of together on this Salana
+
+[00:46:49] grant writing thing, you know, it would
+
+[00:46:51] be a subcommittee that's kind of
+
+[00:46:53] separate of a council that can't make
+
+[00:46:55] any decisions or anything, but it's that
+
+[00:46:57] same working group idea um that Bod
+
+[00:47:00] proposed. So, I just want to make sure
+
+[00:47:02] we're uh talking about it and I think it
+
+[00:47:05] could the subcommittee thing can is very
+
+[00:47:08] handy in the world that I live in and
+
+[00:47:10] come from. So, I just kind of wanted to
+
+[00:47:12] talk about it publicly and see what you
+
+[00:47:14] thought. Perfect case example for the
+
+[00:47:16] for the workg groupoups.
+
+[00:47:21] Yeah. So, I would I would say we would
+
+[00:47:23] propose to create a working group
+
+[00:47:25] subcommittee. We just call it working
+
+[00:47:27] groups. I can just change myacular.
+
+[00:47:29] That's fine. um to do things and one of
+
+[00:47:32] the first things might be the Salana
+
+[00:47:33] Grant writing um deal. Does everyone
+
+[00:47:36] kind of what anyone have any thoughts be
+
+[00:47:40] beyond me and drum and
+
+[00:47:43] um signal? Did you have any
+
+[00:47:44] subcommittee? Yeah,
+
+[00:47:47] they're just there we all do things. We
+
+[00:47:49] knock stuff out.
+
+[00:47:51] Um I don't I'm not a fan of creating a
+
+[00:47:53] committee just to create a committee but
+
+[00:47:55] um I was speaking more broadly but the
+
+[00:47:58] first one would probably be the grant
+
+[00:47:59] committee.
+
+[00:48:01] So oh you you propose like the framework
+
+[00:48:04] of creating subcommittees to do things
+
+[00:48:08] correct which is what Bod's PIP is
+
+[00:48:10] exactly and we should probably not call
+
+[00:48:13] it subcommittee and call it working
+
+[00:48:15] group. Yeah.
+
+[00:48:18] Yeah. So, I propose a framework to
+
+[00:48:20] create a working
+
+[00:48:23] group. And the first one we may as well
+
+[00:48:25] just put grant um a grant writing
+
+[00:48:29] working group. The
+
+[00:48:32] segwana grant writing team.
+
+[00:48:36] There you go. Yeah. Yeah. in Bohemian.
+
+[00:48:38] I'm trying to go back to here.
+
+[00:48:42] Uh so that
+
+[00:48:44] is that is a a small nent
+
+[00:48:50] project. Right now it's just Falkor and
+
+[00:48:53] I. Um, but we I would like to expand
+
+[00:48:55] that to other volunteers who would like
+
+[00:48:58] to and we
+
+[00:49:00] basically are from our action item last
+
+[00:49:04] week about me looking into what Falor
+
+[00:49:07] posted about the grants that turned into
+
+[00:49:09] a whole thing of we could be submitting
+
+[00:49:12] lots of grants that are applicable to
+
+[00:49:14] our DAO that fall within the Sena Salana
+
+[00:49:18] grant writing uh dang it the Salana
+
+[00:49:21] grant system. They have a number of
+
+[00:49:25] different avenues that you could apply
+
+[00:49:26] grants to and a number of them apply to
+
+[00:49:30] us.
+
+[00:49:33] So, I propose
+
+[00:49:36] that that I uh host a separate meeting.
+
+[00:49:41] You all don't have to come if you don't
+
+[00:49:42] want to, but I'll publish it out in the
+
+[00:49:44] DAO for anyone who's willing to help us
+
+[00:49:48] write grants and and we leverage the GBA
+
+[00:49:52] to
+
+[00:49:55] start well submitting grants and
+
+[00:49:57] obtaining funding to do stuff within our
+
+[00:49:59] ecosystem.
+
+[00:50:01] And I think what would be fairest is if
+
+[00:50:06] when we get grants grant money from the
+
+[00:50:09] ecosystem that we convert it into an RFP
+
+[00:50:11] that then we have competitive bids from
+
+[00:50:14] the DAO and then the DAO gets to select
+
+[00:50:17] a winner.
+
+[00:50:21] Can you give an example?
+
+[00:50:23] Sure. So let's say we get a grant for uh
+
+[00:50:27] the first one I want to hit is DAL 2.0.
+
+[00:50:30] um where
+
+[00:50:32] we look at developing a discord
+
+[00:50:34] integration into govern atlas or
+
+[00:50:38] tip.cc. We get an API hook into the the
+
+[00:50:41] dowo reputation systems like
+
+[00:50:43] dowbase.ai and maybe investigate a
+
+[00:50:46] snapshot versus tally integration into
+
+[00:50:48] discord depending on if that's way we
+
+[00:50:51] want to go. So we would
+
+[00:50:54] submit a grant for that after writing it
+
+[00:50:57] up and then if we get the funds then we
+
+[00:51:02] will so Salana will be giving us the
+
+[00:51:05] grant money then we will create a
+
+[00:51:07] request for proposal that we post out in
+
+[00:51:09] the DAO itself. It'll have instructions
+
+[00:51:12] of the proposers. It'll have how we're
+
+[00:51:13] going to evaluate. And then when we
+
+[00:51:15] publish that for, I don't know, 14 days
+
+[00:51:17] maybe in the DAO, our DAO, we receive a
+
+[00:51:21] bunch of proposals for people who want
+
+[00:51:23] to try and accomplish that mission. And
+
+[00:51:25] then whatever, you know, three or 20
+
+[00:51:28] proposals we get, we we submit that to
+
+[00:51:32] as a PIP for people to rank order, just
+
+[00:51:35] like the elections. And the the top
+
+[00:51:37] rated one gets to complete the work.
+
+[00:51:46] Tada. Sounds good.
+
+[00:51:50] Yeah. and and um I would definitely call
+
+[00:51:53] it you know creating it creating a
+
+[00:51:55] working group and that it's very I think
+
+[00:51:58] um according to Bod's PIP a working
+
+[00:52:02] group is ultimately underneath the
+
+[00:52:06] council would that it's been a minute
+
+[00:52:09] since I read it but to me that's that's
+
+[00:52:12] the way it it sounds like this would
+
+[00:52:14] fall under that so it's like a smaller
+
+[00:52:17] more focused group of council people and
+
+[00:52:20] external community members and external
+
+[00:52:23] even from the community that ultimately
+
+[00:52:26] comes back to the council or anything.
+
+[00:52:28] So, it's not like anyone's bypassing any
+
+[00:52:30] rules or anything like that. Um, yeah,
+
+[00:52:34] I'm I'm I'm go I'll go with that. Right
+
+[00:52:36] now, it's I Falor is the would be the
+
+[00:52:41] deputy program manager because he's he's
+
+[00:52:43] put the sweat equity in to help make
+
+[00:52:44] sure this is success. I headed up as the
+
+[00:52:47] program manager and then we build out
+
+[00:52:49] the team for whoever wants to volunteer
+
+[00:52:52] and and help pursue grants.
+
+[00:52:59] I'm fine with it being underneath the
+
+[00:53:03] um a working group underneath the the
+
+[00:53:06] council. Um cool.
+
+[00:53:09] And and if something doesn't work, we
+
+[00:53:11] always just be like, "No, uh it's not
+
+[00:53:13] under the council. this is too much or
+
+[00:53:15] this isn't working. You guys, the
+
+[00:53:17] business association, this is all on
+
+[00:53:19] you. We're washing our hands of it.
+
+[00:53:21] That's entirely possible for us to do.
+
+[00:53:23] Yeah, agreed. We'll make sure we have
+
+[00:53:25] the the open channels of communication,
+
+[00:53:27] the feedback, the the support with the
+
+[00:53:30] team. We'll make sure we're we're there
+
+[00:53:31] for you guys for whatever you need.
+
+[00:53:34] Signal, what do you think? You hate the
+
+[00:53:36] idea or you okay with it? Feels like a
+
+[00:53:38] big lift. Um,
+
+[00:53:41] uh, I'm not super, uh, educated on the
+
+[00:53:45] Salana grants program. Um, but off of
+
+[00:53:48] all the things that I know is coming for
+
+[00:53:50] the council and the things that we're
+
+[00:53:51] going to have to manage, I'm just seeing
+
+[00:53:54] administrative tasks, um, bandwidth. Um,
+
+[00:53:58] I think if uh the Gallia Business
+
+[00:54:02] Association is is looking to take the
+
+[00:54:05] leads on some of these things, I think
+
+[00:54:06] as much as possible, we should be trying
+
+[00:54:08] to figure out, well, how can we take
+
+[00:54:10] some of our effort and some of our
+
+[00:54:12] energy and empower you guys um more than
+
+[00:54:15] making this something that falls
+
+[00:54:17] directly under council, but um yeah, I I
+
+[00:54:22] think it's a cool idea. I'm just I'm
+
+[00:54:24] just thinking about bandwidth.
+
+[00:54:28] I feel okay right now with the bandwidth
+
+[00:54:30] I can give it and it Falor has been a
+
+[00:54:34] huge huge help in doing the due
+
+[00:54:36] diligence. We've got like a whole
+
+[00:54:38] research document that we that we put
+
+[00:54:40] together. We're going to we'll share
+
+[00:54:42] that. It's I mean it's no secret anyone
+
+[00:54:44] can read it and it just basically lays
+
+[00:54:46] it out you know what are the paths
+
+[00:54:48] pathways what are some of the grants
+
+[00:54:50] that are being proposed and what are
+
+[00:54:51] their dollar figures. So some of them
+
+[00:54:53] average about 100 grand a grant. Some of
+
+[00:54:56] them are micro grants. There's there's a
+
+[00:54:59] lot that we can do this Salana grants
+
+[00:55:03] and it's all funded by their foundation,
+
+[00:55:05] Salana Foundation. Yeah. To expand on I
+
+[00:55:08] think on on Signal's point of view, what
+
+[00:55:10] he's trying to say is that we we need to
+
+[00:55:12] let the working group take the lead and
+
+[00:55:14] we'll support them, but it shouldn't be
+
+[00:55:16] on us to pursue grants because it's not
+
+[00:55:18] part of our scope. That's all I'm
+
+[00:55:21] saying.
+
+[00:55:22] work on not in for lack of a better
+
+[00:55:25] term. We'll give the support and and all
+
+[00:55:28] the information and and connection with
+
+[00:55:29] the team that they need but beyond that
+
+[00:55:31] we shouldn't be taking too much of a
+
+[00:55:32] load in our back uh regarding grant
+
+[00:55:35] processes in Solana because it's a
+
+[00:55:36] convoluted thing.
+
+[00:55:39] Okay. It doesn't I don't it doesn't feel
+
+[00:55:41] convoluted to me. They they've got a
+
+[00:55:44] pretty clear process for applying
+
+[00:55:46] receiving
+
+[00:55:47] funds doing the work. But you're asking
+
+[00:55:49] us our opinions. Yeah. Okay. You ask.
+
+[00:55:52] That's fair. That's true. True. You
+
+[00:55:53] asked me David.
+
+[00:55:55] True. All right. What do you think?
+
+[00:55:57] Okay. Here's what I think. I don't like
+
+[00:55:59] that. I disagree.
+
+[00:56:02] All right. No, that's fair. Okay. So,
+
+[00:56:05] does anyone object to me p starting up
+
+[00:56:07] the initial meeting and seeing what
+
+[00:56:09] happens? Go for it. On the topic of
+
+[00:56:12] bandwidth, Lancer, um, how long do you
+
+[00:56:14] have before it's back to work? I am off
+
+[00:56:18] next week. I took another week off
+
+[00:56:20] because of baby appointments and stuff.
+
+[00:56:22] So, it's the week after that I go back
+
+[00:56:24] to it. Perfect. Awesome.
+
+[00:56:28] Yeah.
+
+[00:56:30] Okay. I
+
+[00:56:31] will note the the the
+
+[00:56:36] views and I don't want to I don't want
+
+[00:56:38] to type, but VV had a question about it.
+
+[00:56:40] It that's all up in the up in the air
+
+[00:56:42] and unknown that we're just kind of
+
+[00:56:43] making this up as we go. So, we won't
+
+[00:56:45] have super like detailed answers to
+
+[00:56:47] these questions.
+
+[00:56:49] Yeah, drums typing. Maybe you could do
+
+[00:56:50] it. So, would it be grants now or
+
+[00:56:53] projects within the DAO? Could be
+
+[00:56:55] anything
+
+[00:56:56] VBY, right? Some of the grants are DAO
+
+[00:56:59] related. Some of them are marketing
+
+[00:57:02] related. That's part of what the the
+
+[00:57:05] writing team will pursue. We should not
+
+[00:57:08] get involved with marketing at all.
+
+[00:57:10] That's Francesca's territory. And we
+
+[00:57:12] should include with internal team as
+
+[00:57:14] much as well any film would be marketing
+
+[00:57:17] then like the short films.
+
+[00:57:22] Okay. But that that's also not the DAO.
+
+[00:57:24] If it's a BIP, we'll support the BIP.
+
+[00:57:28] I can't tell if agreeing with each other
+
+[00:57:30] or what. I think we just need to
+
+[00:57:32] continue to to communicate before
+
+[00:57:34] anybody does anything like real big or
+
+[00:57:38] like representing
+
+[00:57:41] any just I I think if we just continue
+
+[00:57:44] to communicate it some of this stuff
+
+[00:57:45] will come out and we'll you know what
+
+[00:57:47] maybe we'll have arguments and signal
+
+[00:57:48] get all all frustrated and um I'll I'll
+
+[00:57:53] rage quit again or something but I think
+
+[00:57:54] it's going to have to be a little
+
+[00:57:56] squishy as we go just if everyone agrees
+
+[00:57:58] to not make decisions on behalf of
+
+[00:58:00] anybody without running it past the
+
+[00:58:04] group. I fully agree. If nothing else,
+
+[00:58:06] it's important to remember that as
+
+[00:58:08] council, even if you said we didn't
+
+[00:58:10] represent the DAO, which of course in
+
+[00:58:12] many ways and in many people's minds
+
+[00:58:14] that we do, um at a minimum, we all
+
+[00:58:17] represent each other. Uh what I do
+
+[00:58:20] represents you amp, it represents you
+
+[00:58:22] drum, it represents you, Lancer, it
+
+[00:58:24] represents Bod. Um so if nothing else,
+
+[00:58:27] being aligned just for the sake of that.
+
+[00:58:30] Um, I wouldn't want to jump out the
+
+[00:58:32] window and do something that you guys
+
+[00:58:33] disagree with. Um, and then you're like,
+
+[00:58:35] man, you really went rogue. Um, and I
+
+[00:58:39] know that things make it gets things to
+
+[00:58:41] be a little bit slower. Um, getting
+
+[00:58:44] aligned, but uh, I think just getting
+
+[00:58:47] five basic people aligned is a
+
+[00:58:50] worthwhile investment. I know we're all
+
+[00:58:52] gung-ho and, you know, we want to run
+
+[00:58:54] out and take over the world, but uh, I
+
+[00:58:57] just want to make sure we're taking it
+
+[00:58:58] over together.
+
+[00:59:00] Yeah, that's the important
+
+[00:59:02] part. And then we're all we're also
+
+[00:59:05] doing it out in the public as we are
+
+[00:59:06] doing right now. So nobody's hiding
+
+[00:59:08] anything or or any of that.
+
+[00:59:11] So yeah, it's going to be a little
+
+[00:59:13] squishy. It's going to be a little messy
+
+[00:59:14] still, but I think as long as we keep
+
+[00:59:16] going, we're going to be good. Yeah,
+
+[00:59:17] we're going to have a a more acting role
+
+[00:59:20] managing now that people are starting to
+
+[00:59:22] come out. like I'm I'm dealing now with
+
+[00:59:24] the funding for the for the Cologne
+
+[00:59:27] comet meetup and it's nothing is easy,
+
+[00:59:30] you know, everything is a a back and
+
+[00:59:31] forth and information here and
+
+[00:59:33] information there and we're a little
+
+[00:59:35] dearticulated because we are the console
+
+[00:59:37] but we need approval from the foundation
+
+[00:59:38] but we would that got that through
+
+[00:59:40] automata and then to get the exact
+
+[00:59:42] numbers we need to go to the author and
+
+[00:59:44] then it's just it's complex. um we're
+
+[00:59:46] going to have a multi-sec if the Iris
+
+[00:59:49] bounty gets approved and then we're
+
+[00:59:50] going to have to manage the application
+
+[00:59:52] and those small grants and um then we
+
+[00:59:55] have to the group the working groups
+
+[00:59:57] we're going to have to manage that and
+
+[00:59:59] as more pips come up that that require
+
+[01:00:02] assistance you know it's fine we can al
+
+[01:00:05] we can submit a new pip that will
+
+[01:00:07] replace pip 10 and have seven calling
+
+[01:00:09] members for the next one if if we have
+
+[01:00:11] too much work uh or stuff like that but
+
+[01:00:13] uh yeah we just got to be conscientious
+
+[01:00:15] that the fact we have time this week
+
+[01:00:18] doesn't mean that we're going to have
+
+[01:00:19] time next month. 100%. That's all I'm
+
+[01:00:22] saying. And I'm just looking at the
+
+[01:00:23] stuff that we already have on the table
+
+[01:00:25] that I know is coming. Like that Iris
+
+[01:00:27] bounty like that is going to be a task
+
+[01:00:29] to manage. Everybody trying to
+
+[01:00:31] coordinate their individual events,
+
+[01:00:32] trying to get payments for them, figure
+
+[01:00:34] out event information. Working groups
+
+[01:00:37] sounds like a heck of a lift. um like
+
+[01:00:40] just looking at how how some of the ways
+
+[01:00:42] that it could operate, I'm like, "Okay,
+
+[01:00:44] there's there's a lot here." Um then if
+
+[01:00:47] you have something like Downcasters and
+
+[01:00:49] that passes, um Lord knows what else.
+
+[01:00:52] Like every single one of these
+
+[01:00:54] proposals, it's I holy [ __ ] I mean, if
+
+[01:00:57] Polish for pizza passes, like I just
+
+[01:01:01] It's true. Like you look at each one of
+
+[01:01:02] these things and it's a it's a
+
+[01:01:04] cumulative load, right? you know, that
+
+[01:01:07] keeps growing and increasing and there
+
+[01:01:09] isn't really a designated person outside
+
+[01:01:11] of us right now is like, well, who's
+
+[01:01:12] going to manage all this [ __ ] Like, uh,
+
+[01:01:15] it's going to be five
+
+[01:01:17] volunteers, you know, doing everything
+
+[01:01:19] they can to squeeze all this stuff in.
+
+[01:01:21] And, uh, that's all my question was like
+
+[01:01:23] with you, Lancer, too, especially with
+
+[01:01:25] um the Salana grants. That's awesome.
+
+[01:01:28] Like, like all of it's awesome. I just
+
+[01:01:30] want to make sure that you know um how
+
+[01:01:34] it feels with like your baby time right
+
+[01:01:36] now um versus how it might feel two
+
+[01:01:38] weeks from now when like you're
+
+[01:01:40] scrambling around work and dealing with
+
+[01:01:41] all the other stuff. Um I just want to
+
+[01:01:44] make sure anything we do take on we can
+
+[01:01:46] actually drive it all the way to
+
+[01:01:47] completion and do it well. Um because
+
+[01:01:50] it's very easy at this stage as
+
+[01:01:52] ambitious as all of us are and as eager
+
+[01:01:54] as all of us um to build off too much
+
+[01:01:57] and not deliver it. I was talking about
+
+[01:01:59] when we started this is a marathon and
+
+[01:02:01] not a race and we all you know everyone
+
+[01:02:03] come to the beginning of the of the term
+
+[01:02:05] with a lot of ideas and drive is seven
+
+[01:02:08] months from now when you have time a
+
+[01:02:10] week and and you are you know revising
+
+[01:02:13] and and and sending feedback at three at
+
+[01:02:15] two in the morning and then your wife is
+
+[01:02:17] angry because you are again in a
+
+[01:02:19] Saturday night on on a call and all that
+
+[01:02:21] stuff that's when it starts to
+
+[01:02:22] cumulative so we need to make sure that
+
+[01:02:25] we can handle it and we can keep doing a
+
+[01:02:27] good consistent job. That's all.
+
+[01:02:31] Okay.
+
+[01:02:32] Fair. Fair.
+
+[01:02:35] And mind you, I want to take over the
+
+[01:02:37] [ __ ] world, man. Like, I want us to
+
+[01:02:38] do everything. So, like, if I'm
+
+[01:02:40] exercising caution, something's there
+
+[01:02:43] really should be a flag up like, well,
+
+[01:02:45] just wait one second.
+
+[01:02:48] The other the other thing we have to
+
+[01:02:49] keep in mind, we don't have any kind of
+
+[01:02:51] accounting that that I imagine is going
+
+[01:02:53] to be one of the first things that Dow
+
+[01:02:54] is going to hire the day they start
+
+[01:02:56] hiring people. But that means that we
+
+[01:02:58] are responsible for reporting, for
+
+[01:03:00] transparency, for accounting and for
+
+[01:03:03] answering all questions related. Uh
+
+[01:03:05] right now we already have about four
+
+[01:03:06] pips that that are ending the voting
+
+[01:03:09] stage. Uh and two more, three more the
+
+[01:03:12] next week and the next week there's
+
+[01:03:13] going to be a couple more. So it's going
+
+[01:03:14] to it's going to keep building up. It's
+
+[01:03:17] going to be wild. This is definitely the
+
+[01:03:19] first council that's ever going to be
+
+[01:03:21] managing all of these active proposals.
+
+[01:03:24] like the first council had the
+
+[01:03:26] double-sided um obligation, but also
+
+[01:03:29] luxury. An obligation that they had to
+
+[01:03:32] build all of this infrastructure and get
+
+[01:03:34] it to work, but also the luxury of a
+
+[01:03:37] whole bunch of [ __ ] hadn't happened yet.
+
+[01:03:39] You're not passed yet. And they didn't
+
+[01:03:41] have to manage like this swarm of all
+
+[01:03:44] these recurring things that are
+
+[01:03:45] happening um and have to be actively
+
+[01:03:48] managed and administrated. Uh that's
+
+[01:03:50] something that we're going to have to
+
+[01:03:51] take on. don't have to build all the
+
+[01:03:53] infrastructure um that some of the first
+
+[01:03:55] council did, but we're going to have to
+
+[01:03:57] manage a hell of a lot of [ __ ] um that
+
+[01:04:00] makes it across the finish line. Having
+
+[01:04:02] Dan Partika on a leave also put us in a
+
+[01:04:05] very precarious position because then
+
+[01:04:06] Sandi is stepping Santis is stepping up,
+
+[01:04:08] but he's just the community director and
+
+[01:04:11] then Michael is stepping up, but he's
+
+[01:04:13] the CEO. He has plenty of things. So, we
+
+[01:04:15] have to figure out and get all these
+
+[01:04:17] answers and get all this information.
+
+[01:04:18] He's going to start getting really
+
+[01:04:20] active soon.
+
+[01:04:23] And we're we're getting close to
+
+[01:04:25] overtime, do you think? Are we done?
+
+[01:04:28] We're pretty much done with that last
+
+[01:04:29] one, weren't we? Yeah, we Yeah, we're
+
+[01:04:31] done with six, two, and one. Yeah. Um,
+
+[01:04:36] we can leave off four. Um, I think uh I
+
+[01:04:40] guess I'm not going to speak for signal,
+
+[01:04:42] but um just number three, I do think
+
+[01:04:44] it's really important. There's it's been
+
+[01:04:46] in the chat and it will be in the chat.
+
+[01:04:48] Um, I think all of us are on board with
+
+[01:04:52] speaking on behalf of the council at
+
+[01:04:55] this point versus the DAO. Um, that's
+
+[01:04:58] those are two very distinct and
+
+[01:05:00] important things and I think we need to
+
+[01:05:02] be very clear about it as a group that
+
+[01:05:05] some of the things we're talking about
+
+[01:05:06] is council. So just the five people, not
+
+[01:05:09] the DAO as a whole. Is that how you guys
+
+[01:05:12] see it? Yeah, absolutely.
+
+[01:05:15] Yes. Agreed. And that's that's been a a
+
+[01:05:18] legitimate concern from the foundation
+
+[01:05:21] foundation automata because Dan is part
+
+[01:05:23] of both that you know maybe it's better
+
+[01:05:26] if we speak in in behalf of the council
+
+[01:05:28] only and and that way we can say
+
+[01:05:29] whatever we want and we don't need the
+
+[01:05:31] automata to keep an eye on it. All
+
+[01:05:33] right. So, everyone in the chat heard
+
+[01:05:35] Yeah, everyone in the chat heard that VB
+
+[01:05:37] and Bohemian and everybody, we're only
+
+[01:05:39] speaking on behalf of US5 when we're
+
+[01:05:41] doing these things and creating social
+
+[01:05:43] media accounts and email addresses and
+
+[01:05:46] everything. Absolutely. Just wanted to
+
+[01:05:48] make that very clear. Yeah. Another
+
+[01:05:51] reason why um an account that says Star
+
+[01:05:54] Atlas down that's owned by
+
+[01:05:57] Automa maybe doesn't have any business
+
+[01:06:00] being turned over to us anyway. Um cuz
+
+[01:06:03] we aren't you know the DA
+
+[01:06:09] us five are the council
+
+[01:06:11] and we are DAO members. The DAO is
+
+[01:06:14] separate from the foundation.
+
+[01:06:18] Correct.
+
+[01:06:19] Yeah. Okay. And then the DAO council is
+
+[01:06:22] separate from the DAO.
+
+[01:06:27] Yeah. Yeah, I guess I'm that's one of
+
+[01:06:28] the questions I want to ask the
+
+[01:06:31] director. He he specified in that email
+
+[01:06:34] what I showed you all
+
+[01:06:37] and it didn't Okay, I put a pin in that.
+
+[01:06:41] Yeah. Again, I would just uh I'd be
+
+[01:06:45] careful of where you got a piece of
+
+[01:06:46] information.
+
+[01:06:49] I see on it so you could see it. I'm not
+
+[01:06:52] saying that. I'm saying if the team or
+
+[01:06:54] the foundation didn't make an
+
+[01:06:56] announcement to everyone in the world
+
+[01:06:57] about something, um I wouldn't just
+
+[01:06:59] naturally assume that it's for everyone.
+
+[01:07:02] Fair. Yeah, that's fair. Okay. Um that's
+
+[01:07:06] me. That's me for you. That's not me.
+
+[01:07:09] I'm trying to keep you out of I'm taking
+
+[01:07:11] I'm picking up what you're putting down.
+
+[01:07:13] So, swim lanes. I really want to get
+
+[01:07:14] into that one. Can we do that one next
+
+[01:07:16] week? Absolutely. And you know,
+
+[01:07:18] obviously the point of it is just people
+
+[01:07:20] should know um they should be able to
+
+[01:07:23] see all of us and just go, "Hey, this is
+
+[01:07:25] what this person does. This is what this
+
+[01:07:27] person does." That makes it very easy
+
+[01:07:29] from a distance to see who's doing what
+
+[01:07:31] and whether or not they're measuring up
+
+[01:07:33] to what they were supposed to be doing.
+
+[01:07:36] Half of that could even be discussed
+
+[01:07:37] offline and like we could after
+
+[01:07:40] discussing it offline like present more
+
+[01:07:42] to people about, hey, we talked about
+
+[01:07:44] swim lanes. Here's what we came up with.
+
+[01:07:46] Um, we maybe don't have to have that
+
+[01:07:48] entire like hourlong conversation about
+
+[01:07:51] breaking out all these tasks publicly.
+
+[01:07:53] We could we could do a poll if people
+
+[01:07:54] would be interested in it, but I could
+
+[01:07:57] see it taking a ton of time. Um, well,
+
+[01:08:00] that's fine. This is this is our meeting
+
+[01:08:01] to do with what we need to to talk it
+
+[01:08:03] out. I like that though because we were
+
+[01:08:06] talking about it last term that it would
+
+[01:08:07] be good if any council member had a
+
+[01:08:10] responsibility like this guy is the
+
+[01:08:11] financial guy that is going to be in
+
+[01:08:13] charge of reporting. This guy is for
+
+[01:08:14] transparency. That guy is for community,
+
+[01:08:17] this guy for format and process, you
+
+[01:08:19] know, and we can do that easily and and
+
+[01:08:21] just define a few umbrellas so people
+
+[01:08:23] know where to go uh to ask questions and
+
+[01:08:26] it's more efficient. I I like Yeah, you
+
+[01:08:28] can see all the different parts of the
+
+[01:08:29] machine and you can see what's working
+
+[01:08:31] and what's not. So, for next week's
+
+[01:08:34] agenda, I'll put swim lanes at the top
+
+[01:08:36] and then after that, Emperor, do you
+
+[01:08:37] think we'll be ready to start talking
+
+[01:08:38] about council goals, each of us?
+
+[01:08:42] Um, that's going to be a big one. think
+
+[01:08:44] what like for all of my goals, I'm just
+
+[01:08:46] going to keep breaking them into small
+
+[01:08:47] ones. So like the the my two uh agenda
+
+[01:08:50] items I put on there were from my um my
+
+[01:08:54] goals list. But I yeah, I think if if
+
+[01:08:58] and you know, honestly, one of um
+
+[01:09:02] signals goals was exactly what he just
+
+[01:09:04] talked about. So yeah, I think we're
+
+[01:09:05] we're doing it in tandem with with
+
+[01:09:08] already um what we're doing. So yeah,
+
+[01:09:11] right on. All right, I'll I'll put those
+
+[01:09:13] two as a surviving agenda items. We just
+
+[01:09:16] knocked out one, two, three, and six. I
+
+[01:09:19] think we're good. Transition to office
+
+[01:09:22] hours now. There you
+
+[01:09:27] Okay. Yeah, if you guys if you have
+
+[01:09:28] questions, just unmute. Just everyone
+
+[01:09:32] does pretty good. And Lord Rapsidity, I
+
+[01:09:33] don't know if I I was trying to mute
+
+[01:09:35] people and unmute them. I don't really
+
+[01:09:36] know what I'm doing. So, I'm gonna
+
+[01:09:38] unmute you because I don't know if
+
+[01:09:39] you're like permanently muted, but they
+
+[01:09:41] should be able to unmute themselves.
+
+[01:09:43] Okay. I just don't know what all these
+
+[01:09:44] little little things mean. So, can
+
+[01:09:48] anyone do a quick test?
+
+[01:09:52] Want to buy rainbow chi at $80 looking?
+
+[01:09:58] You sound like a man.
+
+[01:10:04] Funny.
+
+[01:10:05] So, I know there was some questions in
+
+[01:10:07] the in the chat, but does
+
+[01:10:11] anyone have anything that we didn't
+
+[01:10:13] address or anything new? Yeah. Don't be
+
+[01:10:16] shy. Nobody here bites. Well, hard. Look
+
+[01:10:20] for yourself. At least not remotely.
+
+[01:10:26] What's up, Valkor here? What's up,
+
+[01:10:28] Valkor? No, I just got to say I'm loving
+
+[01:10:30] this uh building in the open thing.
+
+[01:10:34] Um, I'll spare you the video. I'm just
+
+[01:10:36] sitting here eating pistachios in my
+
+[01:10:38] bathroom.
+
+[01:10:39] But yeah, no, it's been amazing, you
+
+[01:10:42] know, connecting the GBA with Lanzer and
+
+[01:10:44] just sort of feeling out the potential.
+
+[01:10:46] So, we'll kind of see what happens. But,
+
+[01:10:49] I appreciate you guys. Right on, man.
+
+[01:10:53] Yeah, absolutely. Do you have any
+
+[01:10:54] thoughts on um just since you mentioned
+
+[01:10:56] it um and you're like the dude for this
+
+[01:11:00] um the Salana grant proposals and the
+
+[01:11:03] GBA um how you would see that structured
+
+[01:11:07] capacity? How much support the GBA has
+
+[01:11:09] to like
+
+[01:11:11] um I guess how much of a lift do you see
+
+[01:11:14] the GBA being able to handle like
+
+[01:11:16] dayto-day for this stuff? And uh how
+
+[01:11:18] much of it do you think maybe the
+
+[01:11:20] council needs to take on or um do you
+
+[01:11:24] have any feedback, thoughts, opinions on
+
+[01:11:27] how we would divide that workload and
+
+[01:11:29] while we're trying to take care of
+
+[01:11:30] everybody else and everything else?
+
+[01:11:33] Well, you know, from my perspective, I'm
+
+[01:11:35] kind of just a grassroots guy uh in real
+
+[01:11:38] life and and uh in in Gallia. you know,
+
+[01:11:41] I did uh several successful grants uh
+
+[01:11:44] here in Nova Scotia with my small
+
+[01:11:45] business, but in talking to Lancer, you
+
+[01:11:48] know, he he's got this, you know, bigger
+
+[01:11:51] picture experience. So, all this stuff
+
+[01:11:53] that he puts together that's obviously
+
+[01:11:55] super organized and, you know, I've been
+
+[01:11:57] learning a ton from him. You know, I I
+
+[01:12:00] don't know how that's going to work with
+
+[01:12:02] the, you know, with the RFPs and money
+
+[01:12:04] coming into the DAO and then being
+
+[01:12:05] dispersed by voting and all that, but I
+
+[01:12:07] do know that I was able to do a kick-ass
+
+[01:12:11] grant proposal for for my personal
+
+[01:12:14] project quickly. like I use Grock and
+
+[01:12:17] then you know I had to go through and
+
+[01:12:18] fix a bunch of stuff but all the
+
+[01:12:20] documentation behind this thing that
+
+[01:12:21] you're seeing here I I did you know to
+
+[01:12:25] because he is you know he's going to go
+
+[01:12:27] back to his job 9 to5 but I am like this
+
+[01:12:29] guy with like you know no life to speak
+
+[01:12:32] of outside of Star Atlas to be honest
+
+[01:12:34] you know I found Star Atlas at a time
+
+[01:12:37] when when uh you know my business was
+
+[01:12:40] going away and divorced and all these
+
+[01:12:41] things but it was it was like my new
+
+[01:12:43] family and I'm I'm running with it. So
+
+[01:12:46] to answer your question on that, I I
+
+[01:12:49] take that seriously, whatever, what was
+
+[01:12:51] the title you put in there for me as
+
+[01:12:52] like deputy something? Deputy program
+
+[01:12:55] manager. Yeah. Yeah. So I don't know
+
+[01:12:57] what all this means and like how that's
+
+[01:12:59] going to play out, but I do know that
+
+[01:13:01] I've been looking to sort of build at
+
+[01:13:04] the ecosystem level for a very long
+
+[01:13:06] time. And when you know uh FAC and I
+
+[01:13:10] guess it was hasht attackis you know
+
+[01:13:11] they started up the um you know the GBA
+
+[01:13:14] it was just like an instant kind of
+
+[01:13:16] epiphany like holy smokes these are my
+
+[01:13:18] people because we have all these
+
+[01:13:20] projects you know the ecosystem you know
+
+[01:13:22] with the the um creators IP businesses
+
+[01:13:26] developers now they're all in one place
+
+[01:13:28] they're all listed you know in the
+
+[01:13:30] documentation of this thing that we're
+
+[01:13:32] seeing here and yeah I I don't know what
+
+[01:13:35] that all means but I know that it's it's
+
+[01:13:37] uh it's going to be awesome program
+
+[01:13:41] right now. We'll figure it out, man. You
+
+[01:13:42] know, but I'm I'm I'm all in. And I
+
+[01:13:45] think the next step, you know, Lancer
+
+[01:13:46] was suggesting, you know, putting it
+
+[01:13:48] this out publicly and looking for people
+
+[01:13:51] to to sort of volunteer for that that
+
+[01:13:53] working group and uh because I
+
+[01:13:55] understand it's a lot you guys are
+
+[01:13:57] dealing with. So, it's like if it's a
+
+[01:13:58] heavy lift, then let's delegate it to
+
+[01:14:01] where it's like it's not, you know? So,
+
+[01:14:04] that's that's just my thoughts on it.
+
+[01:14:06] Deputy program manager means that if it
+
+[01:14:08] doesn't go well, it's your fault. And if
+
+[01:14:10] it goes well, great job. DAO.
+
+[01:14:12] Absolutely.
+
+[01:14:14] Yeah. Well, good. I
+
+[01:14:18] got and I talked about how we get the
+
+[01:14:21] blame as program managers if it goes
+
+[01:14:22] wrong.
+
+[01:14:25] Yeah. I think the biggest thing um that
+
+[01:14:27] we're going to have to focus on early on
+
+[01:14:28] is scalability uh for the Dow and
+
+[01:14:31] administrative efforts. That might just
+
+[01:14:33] look like like Trump said, it might look
+
+[01:14:36] like just more councils of people. It
+
+[01:14:38] might look like uh getting some kind of
+
+[01:14:40] administrative assistance. Um the
+
+[01:14:43] biggest thing is just making sure that
+
+[01:14:46] anything that we're taking on we can
+
+[01:14:47] actually deliver really well. We can
+
+[01:14:49] push through to its conclusion. Um it
+
+[01:14:51] feels like it's high quality. It's
+
+[01:14:53] moving fast. It's efficient. um that
+
+[01:14:55] everything that you would expect to
+
+[01:14:57] happen in Starless like what's Mike
+
+[01:14:59] Wagner talk about all the time like a
+
+[01:15:01] AAA product like what our standards
+
+[01:15:04] should be um we don't want this thing to
+
+[01:15:07] start looking like a falling apart like
+
+[01:15:09] apple cart you know going down the road
+
+[01:15:11] just because we put too much in the
+
+[01:15:13] wagon um doesn't mean I think we should
+
+[01:15:16] take on all kinds of things I think we
+
+[01:15:19] have to like the Dow's supposed to be
+
+[01:15:21] this massive thing that's incorporating
+
+[01:15:24] massive changes and doing all kinds of
+
+[01:15:25] stuff in the Star Atlas ecosystem, the
+
+[01:15:27] Salana ecosystem. Um, I just want to
+
+[01:15:30] make sure that as we're doing it, like
+
+[01:15:32] we're we're adding some extra wheels to
+
+[01:15:34] that cart or we're getting an additional
+
+[01:15:35] wagon or we're building out the
+
+[01:15:37] infrastructure so it's it's sustainable
+
+[01:15:39] growth and it's scalable. Um, it's not
+
+[01:15:42] just we take on a whole bunch of [ __ ]
+
+[01:15:43] and the council like just gets
+
+[01:15:45] bottlenecked and implodes and people are
+
+[01:15:47] wondering what the hell happened to us.
+
+[01:15:50] You know, you know what what I would
+
+[01:15:51] like to see like we also like all this I
+
+[01:15:55] call it bureaucracy and everything but I
+
+[01:15:58] think at some point the DA should also
+
+[01:16:01] focus on user growth. You know that fund
+
+[01:16:05] we have this funding like the atlas we
+
+[01:16:07] we get for the community fund like we we
+
+[01:16:11] should try to use it like to get more
+
+[01:16:14] people in because the numbers are
+
+[01:16:15] depressing. You saw the thing I posted.
+
+[01:16:17] I check it every morning. I wake up and
+
+[01:16:19] then it's like two or three or five
+
+[01:16:22] people less every time and that's going
+
+[01:16:24] on for past two years or something. So
+
+[01:16:29] it's from that perspective it's looking
+
+[01:16:31] totally grim you know like everything
+
+[01:16:33] else like the the updates we get from
+
+[01:16:36] the team and V5 and all cool you know
+
+[01:16:39] everything is cool but somehow we we we
+
+[01:16:42] losing people every day you know and I
+
+[01:16:45] don't know why or how but I don't think
+
+[01:16:48] that's a problem that you can fix with
+
+[01:16:49] money to be honest we need a game we
+
+[01:16:51] need a better market and that's all
+
+[01:16:53] coming so I think that's going to change
+
+[01:16:55] eventually and the only reason
+
+[01:16:57] fundamentals and the fundamentals right
+
+[01:16:59] now are kind of estagnated.
+
+[01:17:01] It's looking good. You know, everybody
+
+[01:17:03] I'm talking to here when I talk to you
+
+[01:17:05] or everybody loves it. We get a new
+
+[01:17:07] updates and it's coming and this is
+
+[01:17:08] coming that and coming and that update
+
+[01:17:10] and it's all looking so good. But why we
+
+[01:17:12] losing people all the time, you know,
+
+[01:17:15] like a little bit in the camp I am a
+
+[01:17:18] little bit in the camp of um one I do
+
+[01:17:21] think every single thing that we spend
+
+[01:17:22] Atlas on, first think about what Atlas
+
+[01:17:25] is. Atlas is the value of our ecosystem
+
+[01:17:28] at any given moment. If we're going to
+
+[01:17:30] spend Atlas, then that means we're going
+
+[01:17:32] to put downward pressure on the token.
+
+[01:17:34] Um, we're pressuring our we're
+
+[01:17:37] pressuring the financials of our
+
+[01:17:38] ecosystem every time we pass an
+
+[01:17:40] initiative that requires funding. So,
+
+[01:17:42] the first thing we should be asking of
+
+[01:17:44] just about any initiative is um, does
+
+[01:17:46] this have the potential to grow the
+
+[01:17:48] ecosystem? Does this have the potential
+
+[01:17:49] to expand? Is there's more people that
+
+[01:17:51] would actually be buying Atlas or assets
+
+[01:17:54] um, that would prop it back up again?
+
+[01:17:55] Otherwise, it's only down and you know,
+
+[01:17:58] it's only uh well, this doesn't grow the
+
+[01:18:00] pie, but we're going to spend money
+
+[01:18:01] anyway. So, the token suffers more, then
+
+[01:18:04] we have less money to spend. Um I think
+
+[01:18:07] it's really really important that we are
+
+[01:18:10] investing in at least trying to get a
+
+[01:18:12] little more visibility, a little more
+
+[01:18:13] excitement, reaching out to more people.
+
+[01:18:15] I think Lord Raspby is a great example.
+
+[01:18:18] Um, I'm not going to talk out of pocket
+
+[01:18:20] for him, but meaning as someone who
+
+[01:18:22] onboarded to this ecosystem not that
+
+[01:18:25] long ago, um, fell in love with this
+
+[01:18:28] place, he has spent a [ __ ] ton of money
+
+[01:18:32] inside this ecosystem off of what we are
+
+[01:18:35] right now today, off of being excited
+
+[01:18:37] about where we're at right now today.
+
+[01:18:39] Um, there's plenty of other examples
+
+[01:18:42] like him that people that are coming
+
+[01:18:44] here right now, um, getting excited
+
+[01:18:46] right now. uh about what we currently
+
+[01:18:48] have. I do think if we could increase uh
+
+[01:18:52] visibility adoption outreach drive
+
+[01:18:55] more people into this Discord to have
+
+[01:18:57] conversations with our great community,
+
+[01:18:59] um I think not only could we could we
+
+[01:19:01] grow that base, but uh it's also
+
+[01:19:04] financially responsible for
+
+[01:19:07] Atlas. Sorry for my No, no, it's good.
+
+[01:19:11] Like, you know, that should be always
+
+[01:19:15] the the focus. You know what? What can
+
+[01:19:17] we do like to get more people in? Like
+
+[01:19:20] if we spend the Atlas, do do we get like
+
+[01:19:23] something out of it? VB, shut up. We're
+
+[01:19:26] paying for your party. Shut up. That's
+
+[01:19:29] It wasn't even my party. I just helped
+
+[01:19:31] out there. So you can I'm coming by the
+
+[01:19:33] way. I already registration. I'll be
+
+[01:19:36] there. I don't know if that I I was
+
+[01:19:38] talking to Kibi and he said you got some
+
+[01:19:41] updates. Is that public conversation or
+
+[01:19:44] should that be talked in private? Well,
+
+[01:19:46] it is. We're just in the back and forth.
+
+[01:19:48] He's waiting for an email to send the
+
+[01:19:50] information
+
+[01:19:51] for Automata, which is Santi right now,
+
+[01:19:54] is helping us, you know,
+
+[01:19:56] middling and trying to get the then we
+
+[01:19:59] have the Got a little nervous. We have
+
+[01:20:01] the structure of the beach and we need
+
+[01:20:03] to decide how we're going to handle
+
+[01:20:05] those phones and but Santi is in Dubai,
+
+[01:20:08] so it's just a cluster [ __ ] but we're
+
+[01:20:10] getting there. um you will have those
+
+[01:20:12] funds quickly because uh the No, I got
+
+[01:20:15] it. But I was a little bit surprised the
+
+[01:20:18] way uh now it was proposed like
+
+[01:20:22] u yeah maybe is that a public can I
+
+[01:20:25] speak or No, no, no, no. But um we we'll
+
+[01:20:28] keep meeting we're talking with them. We
+
+[01:20:31] we figured out but what I would love to
+
+[01:20:34] see when we have figured out we we need
+
+[01:20:37] that I don't know uh it was 0.9 or
+
+[01:20:40] something in the previous talk like that
+
+[01:20:42] we get the a letter or something you
+
+[01:20:45] know okay we I can check on chain what
+
+[01:20:47] the DO spend but I I see a transaction
+
+[01:20:52] like $5,000 or $10,000 and then I don't
+
+[01:20:55] know ah that is for this pip or that
+
+[01:20:57] pip. So I I would really love to see we
+
+[01:21:00] we have somewhere where can everyone can
+
+[01:21:03] see the expenses of the DO, you know.
+
+[01:21:05] Yeah. Well, that's part of what I was
+
+[01:21:07] talking a little while ago that that we
+
+[01:21:09] don't have an accountant. So we're going
+
+[01:21:10] to have to fill in this position where
+
+[01:21:12] we need to account for all of that, keep
+
+[01:21:14] record of all of that, make it public so
+
+[01:21:16] it's transparent and everyone can go and
+
+[01:21:18] check. So yeah, that's that's something
+
+[01:21:20] that we Did Did you guys I know I was
+
+[01:21:23] asking this before. Did you guys ever
+
+[01:21:25] did you guys ever figure out the Nabaton
+
+[01:21:28] winners who who was that who won
+
+[01:21:29] everything because on the side I never
+
+[01:21:31] got the full list from all the project
+
+[01:21:33] who participated who who
+
+[01:21:37] so no that money and so that was that
+
+[01:21:42] happened right right before the election
+
+[01:21:44] of the council so we were not there and
+
+[01:21:46] that was led by Dan Partika who is on
+
+[01:21:48] America leave so we are kind of on on
+
+[01:21:51] waiting for that for a little longer but
+
+[01:21:54] I was knowledge at some point. Yeah, I
+
+[01:21:57] was pushing Zanti a few times like for
+
+[01:21:59] the I would like to see at least the
+
+[01:22:02] website updated or a list or document.
+
+[01:22:04] Okay, these 20 project participated,
+
+[01:22:07] these were the winners. These were the
+
+[01:22:09] guys behind it. They made that and that
+
+[01:22:11] because it never really got I never got
+
+[01:22:13] really a fully list or anything about
+
+[01:22:15] that, right? Or did I miss it? No. Was
+
+[01:22:18] just like okay, we paid. Yeah, I don't
+
+[01:22:19] think anyone missed it. Yeah. And it's
+
+[01:22:22] kind of sad, you know, and and for
+
+[01:22:25] history reasons, it was the first
+
+[01:22:27] expense of the DA. Uh so we have the PE
+
+[01:22:30] so we know exactly how much it was. Uh
+
+[01:22:33] and we know they paid because I'm using
+
+[01:22:35] their system and it's awesome. Uh we
+
+[01:22:37] only need a more formal uh report of
+
+[01:22:40] everything so people can easily go and
+
+[01:22:42] trace, go back to the wallet and see,
+
+[01:22:44] okay, this makes sense. Okay, good.
+
+[01:22:47] Yeah. But as far as payments, I mean one
+
+[01:22:49] thing we definitely could do is um
+
+[01:22:51] informally and you know before we have
+
+[01:22:53] like an infrastructure uh for all this
+
+[01:22:55] stuff, we could uh use the DAO
+
+[01:22:57] announcements
+
+[01:22:59] channel if the DAO has an expenditure
+
+[01:23:02] and we can just list
+
+[01:23:05] we can create a section and knowledge
+
+[01:23:06] base as well. We have full control of
+
+[01:23:08] that. So that that's an important tool
+
+[01:23:10] to have. Yeah. Yeah. It would be nice to
+
+[01:23:12] have everything. So I think a section of
+
+[01:23:14] the knowledge base should be a more
+
+[01:23:16] interactive part when we are updating
+
+[01:23:19] all the time and people can go and check
+
+[01:23:20] at least while we have a domain and we
+
+[01:23:22] put everything together in the same web
+
+[01:23:25] page. Absolutely.
+
+[01:23:28] And uh just to communicate for for at
+
+[01:23:30] least 10 minutes I'm going to um I'm
+
+[01:23:33] going to officially shut the hell up
+
+[01:23:35] because we have multiple other council
+
+[01:23:37] members here and uh I could be guilty of
+
+[01:23:40] um taking up too much oxygen. So, uh,
+
+[01:23:43] start start the timers. What? Wait, one
+
+[01:23:46] more signal. Do we have a watch party on
+
+[01:23:48] Wednesday for the free new Andor
+
+[01:23:51] episode?
+
+[01:23:54] Somebody could watch it. We can have a
+
+[01:23:57] watch party for Andor on Wednesday.
+
+[01:24:00] Very nice. Very nice. Oh, that's not a
+
+[01:24:02] bad idea. I like that.
+
+[01:24:05] Okay. No, I I appreciate all your all of
+
+[01:24:09] these questions especially from you and
+
+[01:24:11] Bohemian. Um we are actively working on
+
+[01:24:14] all of this and I mean there's just so
+
+[01:24:16] much there's so much that we have going
+
+[01:24:20] on. Um but yeah, money in money out is
+
+[01:24:22] very very important. Um and me also
+
+[01:24:25] myself just like um signal I'm I'm a
+
+[01:24:28] move forward, break [ __ ] jump out of
+
+[01:24:30] the airplane and build it as you go guy.
+
+[01:24:33] But you do still have to be a little
+
+[01:24:35] like when when people like Rome or when
+
+[01:24:38] Signal and me are pulling back and
+
+[01:24:41] honestly all of us are go type people.
+
+[01:24:43] When we're pulling back it's pretty
+
+[01:24:45] important um because we're putting
+
+[01:24:47] limitations on ourselves but yeah the
+
+[01:24:49] the financials are are really important.
+
+[01:24:52] They're they're really high up
+
+[01:24:55] there. What we're also trying to avoid
+
+[01:24:57] is recreating any wheels that like even
+
+[01:25:00] just getting an email address. Do we,
+
+[01:25:03] you know, you can sign up for all these
+
+[01:25:05] X accounts and do all this and that with
+
+[01:25:07] an email, but then when and you know,
+
+[01:25:10] you just move forward and break stuff.
+
+[01:25:12] Well, when you have to transfer it after
+
+[01:25:14] you've just, you know, done it on your
+
+[01:25:17] own, it could just be a frigin
+
+[01:25:19] nightmare. So, we're trying to be a
+
+[01:25:21] little um do it, you know, do the
+
+[01:25:24] process. Yeah. So, we can as well
+
+[01:25:27] afterwards. Yeah. Yeah. And like if Drum
+
+[01:25:30] just goes and she's crazy. Yeah. If Drum
+
+[01:25:33] just goes and buys a domain because uh
+
+[01:25:36] Emperor was all in a mood after a
+
+[01:25:38] meeting and just was like, "Fuck it,
+
+[01:25:40] just go buy it." Well, that's not
+
+[01:25:42] exactly the best way to do that. Let's
+
+[01:25:44] let's not use Drum's credit card. Let's
+
+[01:25:47] see the proper way to do it. So, we're
+
+[01:25:49] trying to avoid that.
+
+[01:25:52] Hey, what we can do, what we should do
+
+[01:25:54] among the five of us is commit to have
+
+[01:25:57] that sold by the 1 of May.
+
+[01:26:00] So, first of May, we should have uh our
+
+[01:26:03] social accounts. What is next? Moving.
+
+[01:26:05] What is it?
+
+[01:26:07] Um to to um solving the issue of the
+
+[01:26:10] domain/ emails uh this month. So, next
+
+[01:26:13] month we have our social accounts and
+
+[01:26:15] and other stuff working because we can
+
+[01:26:18] forever.
+
+[01:26:19] I also was talking to Lenser. I would
+
+[01:26:21] see like you guys also creating a
+
+[01:26:23] YouTube account for example and upload
+
+[01:26:26] these uh meetings there. You know, I
+
+[01:26:28] mean I can record him for for you or
+
+[01:26:30] Lancer can record him for you, but I
+
+[01:26:32] would always love to see that stuff on
+
+[01:26:36] official sites, not on private entities,
+
+[01:26:38] you know. So, yeah. And that's something
+
+[01:26:41] that that I I've been thinking about a
+
+[01:26:43] lot, too. And and I was say telling the
+
+[01:26:45] guys the other day, it like um if if we
+
+[01:26:50] have everything under one person's name
+
+[01:26:52] and heaven forbid they pass away, you
+
+[01:26:54] know, we're just like screwed. So having
+
+[01:26:56] it centralized under one person, as much
+
+[01:26:59] as that gets stuff going, um it's not
+
+[01:27:02] the the best way to to store stuff. So
+
+[01:27:04] I'm totally in support of of having it
+
+[01:27:06] at least in the control of the five
+
+[01:27:09] people. Um, so if something happens,
+
+[01:27:12] it's not just centralized.
+
+[01:27:15] Yeah. And maybe when I'm talking about
+
+[01:27:17] different view on that one, we already
+
+[01:27:19] have a startless TV.
+
+[01:27:22] Yeah, but that's like Yeah. But I'm, you
+
+[01:27:25] know, as I said before, like I'm in a
+
+[01:27:28] bad mood. Me and Signal renting, I leave
+
+[01:27:30] Star Atlas, then I delete Starlas TV and
+
+[01:27:33] all the history would be gone, you know.
+
+[01:27:35] So I would love you have a backup of
+
+[01:27:38] everything. Yeah. Yeah. I I know just
+
+[01:27:40] for like to make it perfect, you know. I
+
+[01:27:44] always like the DAO if if there's a DAO,
+
+[01:27:47] they should have their own YouTube on
+
+[01:27:49] their own whatever platforms they need
+
+[01:27:51] to publish information.
+
+[01:27:54] I mean, we help them and I I still will
+
+[01:27:57] record it and put it on Statas TV, but
+
+[01:27:59] it's always better like the DAO has
+
+[01:28:02] their own stuff, you know.
+
+[01:28:04] I wasn't too concerned about the
+
+[01:28:06] bandwidth thing right now that that
+
+[01:28:08] signal was referring to because we do
+
+[01:28:11] have some things that we put on
+
+[01:28:12] ourselves but right now it's
+
+[01:28:15] mostly it's manageable. Yeah. But I
+
+[01:28:19] always for these for the history books,
+
+[01:28:22] you know, in in five years somebody
+
+[01:28:24] says, uh, what did the first council do
+
+[01:28:26] or what the drum callers do? And then it
+
+[01:28:28] would be nice the DAO has an archive of
+
+[01:28:32] videos or something like that, you know,
+
+[01:28:34] in their knowledge base or whatever. And
+
+[01:28:37] you know, yeah, just
+
+[01:28:39] for Yeah,
+
+[01:28:44] that's that's a lot of work for me to do
+
+[01:28:46] in addition to No, no, no,
+
+[01:28:49] no. Yeah. As I said, like you can
+
+[01:28:52] delegate. We can make a working group. I
+
+[01:28:54] record the videos. I send it to you or
+
+[01:28:58] and council member. he up uploads it to
+
+[01:29:00] the council to the DA YouTube and it's
+
+[01:29:03] good you know just um so it's more more
+
+[01:29:07] um
+
+[01:29:09] yeah I mean I believe that the word that
+
+[01:29:13] the word you're looking for is
+
+[01:29:15] decentralized you know decentralized
+
+[01:29:17] autonomous organization thank thank you
+
+[01:29:20] thank you signal just what the [ __ ] are
+
+[01:29:23] you gonna say just stop what you got 30
+
+[01:29:26] seconds you got 30 and signal. I just
+
+[01:29:30] think VB's completely nailed it. Um, uh,
+
+[01:29:33] if you want to look at this stuff
+
+[01:29:35] historically, if you want to go back and
+
+[01:29:37] try to educate yourself, um, the fact
+
+[01:29:39] that Lanzer is on council right now and
+
+[01:29:41] he's hosting things, the fact that VB
+
+[01:29:44] attends meetings right now and he's
+
+[01:29:45] recording things, um, and that we have
+
+[01:29:48] copies of these things in different
+
+[01:29:50] people's individual YouTube accounts or
+
+[01:29:52] things like that. That's probably not
+
+[01:29:54] the best or most sustainable way for us
+
+[01:29:56] to create a record of everything that
+
+[01:29:57] this DAO or council has ever done. Um,
+
+[01:30:00] we should probably be taking these
+
+[01:30:01] videos like VB says, um, and putting
+
+[01:30:04] them somewhere centrally at least for
+
+[01:30:06] historical reference. Um, probably once
+
+[01:30:08] we upload the, uh, DA, Twitter, or X
+
+[01:30:11] account, um, every single time we finish
+
+[01:30:13] one of these and have a recording, it
+
+[01:30:15] should probably be a post. Uh, that way
+
+[01:30:17] there's at least some sense of history
+
+[01:30:19] and people can come back and reference
+
+[01:30:20] these things. Pretty easy tasking and it
+
+[01:30:24] makes a lot of sense about your case.
+
+[01:30:27] I've I've got an off-the-wall question.
+
+[01:30:29] Unless you wanted to ask something,
+
+[01:30:30] Lancer. Yeah, I don't I don't think it's
+
+[01:30:33] as easy as that. I think that's when we
+
+[01:30:35] really do start overtasking ourselves
+
+[01:30:37] because I always think when you say that
+
+[01:30:39] or who anyone says that, who's doing it?
+
+[01:30:41] Who's doing the button clicking? Which
+
+[01:30:43] one of us is going to hit the record
+
+[01:30:46] button and then hit the upload
+
+[01:30:49] button and then publish it on YouTube,
+
+[01:30:52] then blast it out on social media.
+
+[01:30:56] That's that's a lot of work in addition
+
+[01:31:00] to screen record.
+
+[01:31:04] But we we could make a pip and create a
+
+[01:31:06] working group for that or something you
+
+[01:31:08] know
+
+[01:31:09] like three or four content creators and
+
+[01:31:12] they can share the task and you know
+
+[01:31:15] that that would work. Yeah. I don't that
+
+[01:31:18] should be our second working group then.
+
+[01:31:21] Yeah. So if I like do like a little
+
+[01:31:23] exercise right now. There's I'm at my
+
+[01:31:26] right. I mean how how you how you expect
+
+[01:31:28] for example now account. Yeah. But your
+
+[01:31:32] ex account who who would do that like
+
+[01:31:34] signal posting tweets every day or how
+
+[01:31:37] you I think we agreed signal is going to
+
+[01:31:38] do it. Yeah. But, uh, there there should
+
+[01:31:42] be like a a process, a setup, you know,
+
+[01:31:45] for the process, something like that.
+
+[01:31:47] Cuz yeah, I'm I'm going to jump I'm I'm
+
+[01:31:50] going to jump in and tell you kind of my
+
+[01:31:53] thoughts and um sort of some of the
+
+[01:31:55] stuff that I see us moving towards. Um,
+
+[01:31:58] uh, hiring staff is one thing, but just
+
+[01:32:01] like you said just now, um, you can also
+
+[01:32:03] have a freelancer do some of this stuff.
+
+[01:32:05] And we could we could, you know,
+
+[01:32:08] designate some funds to to pay somebody
+
+[01:32:11] to do some of that um, as a a
+
+[01:32:14] freelancer. And that's something that's
+
+[01:32:15] entirely possible because a a lot of
+
+[01:32:17] this is going to get too much. Honestly,
+
+[01:32:20] it already is. We're going to make it
+
+[01:32:23] work and make it happen. But it should
+
+[01:32:25] be a resting assumption that we're going
+
+[01:32:27] to get help. I mean, we should just
+
+[01:32:28] assume that's going to happen. Yeah, it
+
+[01:32:30] can't not happen. Put that down as our
+
+[01:32:32] agenda item. I think when it gets to it,
+
+[01:32:35] we should we should create the position
+
+[01:32:36] description and and hand it to the
+
+[01:32:38] foundation if they want it. So, all that
+
+[01:32:41] being said, I wanted to get some
+
+[01:32:43] people's opinion and any of you guys um
+
+[01:32:46] if you can talk and you want to feel
+
+[01:32:47] free to to chime in. We definitely want
+
+[01:32:49] opinions. Whether we like them or agree
+
+[01:32:51] with them, it doesn't matter. But I'm
+
+[01:32:54] I'm more of a real life I I like being
+
+[01:32:57] prepared and I don't like centralization
+
+[01:33:00] and I don't want somebody having control
+
+[01:33:02] of me at all. So autonomy, right? What
+
+[01:33:06] are our thoughts on and I don't know the
+
+[01:33:09] technicalities of any of this, but like
+
+[01:33:11] I have a a start 9 server at my home
+
+[01:33:14] instead of using Dropbox. I I have
+
+[01:33:17] everything stored on my literal hard
+
+[01:33:19] hard drive um and my start 9 server, but
+
+[01:33:22] I also back it up to uh Dropbox. Are
+
+[01:33:25] there What are you guys thoughts on the
+
+[01:33:27] decentralization of some of that stuff?
+
+[01:33:30] And maybe not necessarily council
+
+[01:33:31] members because we could talk about it,
+
+[01:33:32] but should we have like um a physical
+
+[01:33:36] server sitting in a rack somewhere
+
+[01:33:38] versus like um being on Amazon Web
+
+[01:33:42] Services? No. question is does having a
+
+[01:33:45] physical server actually decentralize us
+
+[01:33:48] more or less? I desperately had the
+
+[01:33:50] idea the topic came up like two years
+
+[01:33:54] ago or in the beginning of the to we had
+
+[01:33:56] the idea couldn't there be a solution
+
+[01:33:58] like filecoin or something where we get
+
+[01:34:00] a decentralized account for the dowo
+
+[01:34:03] where we store this stuff I don't know
+
+[01:34:06] there should be options options are
+
+[01:34:11] wasn't that salana was using back in the
+
+[01:34:13] day
+
+[01:34:15] completely decentralized is really hard
+
+[01:34:17] because uh information is really storage
+
+[01:34:19] is really expensive in blockchain. Uh so
+
+[01:34:22] you normally have some kind of
+
+[01:34:24] blockchain mechanism tied to a
+
+[01:34:26] centralized server place when it comes
+
+[01:34:28] to videos and storage of large amounts
+
+[01:34:30] of information. So I don't know if we're
+
+[01:34:32] there yet. It might be a technological
+
+[01:34:35] uh barrier right now and we may just
+
+[01:34:37] have to be happy sharing a cloud system.
+
+[01:34:41] Yeah. But that that that's kind of my
+
+[01:34:43] point like where where I'm thinking in
+
+[01:34:45] my head and these are some of the
+
+[01:34:47] questions I have for the technology
+
+[01:34:49] portion of it. But does like Autonom do
+
+[01:34:53] they have like an actual literal server
+
+[01:34:55] rack somewhere physically in a location
+
+[01:34:58] that we could just like put our own in
+
+[01:35:00] there to do backups of like all the
+
+[01:35:03] Discord conversations and and just back
+
+[01:35:05] it up at least in in like text form or
+
+[01:35:09] something like is that even a a thing? I
+
+[01:35:12] know it's centralized in the sense that
+
+[01:35:13] it's in autonomous rack, but that's way
+
+[01:35:16] better than having it in in Amazon Web
+
+[01:35:19] Services rack and then you know what
+
+[01:35:22] happens when like the trucker strike
+
+[01:35:24] thing happens and oh this is a
+
+[01:35:25] blockchain game I'm going to shut them
+
+[01:35:28] down. You can't host or what was that
+
+[01:35:30] that social media one like it wasn't
+
+[01:35:32] Signal was it was that the social media
+
+[01:35:35] company that got shut down because they
+
+[01:35:36] were hosting stuff basically just trying
+
+[01:35:40] to avoid that. No, I think we're over.
+
+[01:35:43] We just need a Google Drive. Yeah, the
+
+[01:35:46] way I see it, we we should definitely
+
+[01:35:48] have a few backups. And if you want to
+
+[01:35:50] make it like really decentralized, just
+
+[01:35:51] create a torrent or something and a few
+
+[01:35:54] community members host a torrent or
+
+[01:35:56] something, you know, but maybe we should
+
+[01:35:58] explore something like firecoin. I would
+
+[01:36:00] say like some decentralized service for
+
+[01:36:03] that. I don't know. I never looked too
+
+[01:36:05] much into it. Yeah. And drums are
+
+[01:36:08] important. So, if you have it on your on
+
+[01:36:11] your
+
+[01:36:12] uh server, there's a few other people
+
+[01:36:14] here. I think Quinda for example, they
+
+[01:36:17] have their own uh tech and their own
+
+[01:36:20] servers and stuff. And the more people
+
+[01:36:22] the better, but I'm not sure what's the
+
+[01:36:24] best way. And see, Drum, I I agree
+
+[01:36:27] having it really uh easy to use like a
+
+[01:36:30] Google Drive. I totally agree with that.
+
+[01:36:32] I guess I'm talking more of like the
+
+[01:36:33] backup of of that, you know, the
+
+[01:36:36] redundancy. One is none, two is one,
+
+[01:36:39] three is for me like
+
+[01:36:42] as I guess some of it is also maybe just
+
+[01:36:45] a little bit
+
+[01:36:47] um when we think about some of these
+
+[01:36:49] things uh what scenario are we actually
+
+[01:36:53] planning for like are we planning for a
+
+[01:36:55] scenario where like nuclear war broke
+
+[01:36:57] out and like uh like uh that Amazon Web
+
+[01:37:01] Services is gone, you know, like all
+
+[01:37:03] these other things like shut down.
+
+[01:37:05] they're not here anymore. And um No, but
+
+[01:37:08] I guess my next question would just be
+
+[01:37:10] in a world like none of those things can
+
+[01:37:12] be relied upon um who's looking for
+
+[01:37:15] videos about what the council was doing
+
+[01:37:19] in Star Atlas right now looking to play
+
+[01:37:21] games. Yeah. Right. Um I don't know, but
+
+[01:37:25] uh Drum Drum I think is probably right.
+
+[01:37:28] Decentralized storage is expensive. Um,
+
+[01:37:31] like we could we could raise it up to
+
+[01:37:34] the community if that's something they
+
+[01:37:35] wanted like ARWeave and stuff like that
+
+[01:37:37] that like Salana used to use to like
+
+[01:37:39] back up its data. Um, there's
+
+[01:37:41] decentralized products. We could open a
+
+[01:37:43] folder there and drop a bunch of stuff
+
+[01:37:45] in there. Um, maybe maybe if we gave the
+
+[01:37:48] community a dollar figure of what that
+
+[01:37:50] looked like, they wouldn't care about it
+
+[01:37:51] anymore,
+
+[01:37:52] right? We'll take the Google Drive.
+
+[01:37:55] Yeah. And and I I I I cut myself off. I
+
+[01:37:58] I don't know how long I was talking to
+
+[01:37:59] myself, but I was agreeing with Drum
+
+[01:38:01] having a a Google drive like it's super
+
+[01:38:04] convenient. But I'm more talking about
+
+[01:38:05] like the backup the RAID like the just
+
+[01:38:08] the backup of that one is none, two is
+
+[01:38:10] one, three is for me that whole prepper
+
+[01:38:13] mentality. So if we have if if we have
+
+[01:38:16] YouTube, we have Discord, we have Google
+
+[01:38:18] Drive, and we lose all three, we
+
+[01:38:20] probably have more things to be worried
+
+[01:38:22] about.
+
+[01:38:23] We're probably all [ __ ] dead. Then
+
+[01:38:26] they're out in a video game, right?
+
+[01:38:29] Well, here's the other here's the other
+
+[01:38:30] thing. If we have all that and it's and
+
+[01:38:32] it's backed up, it's it's in one central
+
+[01:38:35] spot. You have the the videos, the text,
+
+[01:38:38] the text, all of it. Um, you have the
+
+[01:38:41] the knowledge base backed up to it.
+
+[01:38:44] Imagine what you could do if you had
+
+[01:38:46] your also had your own language learning
+
+[01:38:48] model. like I think who who's putting
+
+[01:38:50] out their own the Nvidia or somebody. So
+
+[01:38:53] you put that LLM in in the rack as well
+
+[01:38:56] and then you have all these backups and
+
+[01:38:58] you have one data point that that LLM
+
+[01:39:00] can pull from um and again it's out of
+
+[01:39:04] the box and I'm I'm just looking for
+
+[01:39:06] feedback. So I'm I'm I'm I'm more
+
+[01:39:08] concerned about other things like uh
+
+[01:39:10] from the law things like what what if
+
+[01:39:13] the USA outlaws Dow and uh um Cayman
+
+[01:39:18] Islands is not safe anymore or they make
+
+[01:39:20] a deal with the Cayman Simon. What
+
+[01:39:22] happens to the people here like signal
+
+[01:39:24] or the colors live on stream? And then
+
+[01:39:27] you know we do things that might be
+
+[01:39:30] illegal you know or the things we did
+
+[01:39:33] here like we could uh be responsible
+
+[01:39:35] like because the thing we did in the
+
+[01:39:37] past two years here with the DAO would
+
+[01:39:39] be illegal somewhere or something you
+
+[01:39:42] know that's more concerning to me. We'll
+
+[01:39:45] blame Jose. Remember in the beginning
+
+[01:39:48] with the foundation when they said uh
+
+[01:39:51] the three foundation members they could
+
+[01:39:53] not be Americans or something. It was in
+
+[01:39:55] the very beginning of the like that
+
+[01:39:58] already made me thinking okay if if the
+
+[01:40:00] foundation members can't be American
+
+[01:40:02] citizens that's already something weird
+
+[01:40:04] you know like that sense
+
+[01:40:07] yeah we've all collectively agreed that
+
+[01:40:09] if any [ __ ] goes down we're just going
+
+[01:40:11] to blame Dom. Oh wow. We We've got a
+
+[01:40:15] plan.
+
+[01:40:17] Tom made us do it. It's all him. The
+
+[01:40:20] world turned into a suck. Yeah.
+
+[01:40:25] No, I think I think we shouldn't be too
+
+[01:40:27] worried about that and more worried
+
+[01:40:29] about efficiency and engagement and live
+
+[01:40:32] chats. Uh, and it's always nice to to
+
+[01:40:34] leave proof and and enough reporting
+
+[01:40:36] that you can go back to and and and
+
+[01:40:39] check where things happen. you know, it
+
+[01:40:41] might be interesting in the future.
+
+[01:40:43] Maybe for historical reference if
+
+[01:40:45] someone's wants to write a book like,
+
+[01:40:46] you know, the empires of Eve or
+
+[01:40:48] something like that related to Star
+
+[01:40:49] Atlas. Uh, but yeah, I think we
+
+[01:40:52] shouldn't be too concerned about it. Um,
+
+[01:40:54] and but but it would be nice. Well, I
+
+[01:40:56] think we already do have a a a Google
+
+[01:40:58] Drive where we're trying to accumulate
+
+[01:41:00] console material and stuff so we can
+
+[01:41:02] pass over later.
+
+[01:41:06] Yeah. And I definitely don't think it
+
+[01:41:07] would be like super high priority. And
+
+[01:41:09] I'm thinking I try to think four or five
+
+[01:41:12] steps ahead. Um, and I don't want to go
+
+[01:41:15] and read Bohemian.
+
+[01:41:18] Well, I do. I do because he's the
+
+[01:41:21] villain, right? Bohemian, do you know
+
+[01:41:23] why? Bohemian's had some really
+
+[01:41:25] interesting chats lately. I don't know.
+
+[01:41:27] People might come back 40 years from now
+
+[01:41:29] just to just to see all the back and
+
+[01:41:31] forths with Bohemian and Brian talking
+
+[01:41:34] about the future of Star Atlas. He
+
+[01:41:36] normally speaks in the
+
+[01:41:40] He just posted a rockpool like I think
+
+[01:41:42] Shadow was a rockpool. They struggled
+
+[01:41:45] for I always thought they super cool. I
+
+[01:41:47] remember when they first made the NFT
+
+[01:41:49] and then all this decentralized storage
+
+[01:41:51] on Salana and infrastructure, but didn't
+
+[01:41:54] they rack pull like a few months back
+
+[01:41:57] the token got like wrecked and
+
+[01:41:59] everything? I'm not sure. It's not good
+
+[01:42:04] anymore. that shadow for a long time.
+
+[01:42:08] Oh, that's nice. Do we have any should
+
+[01:42:10] asked at the beginning, do we have any
+
+[01:42:11] pre-reviewed pip authors
+
+[01:42:15] here that want to discuss their pips?
+
+[01:42:17] Oh, yeah. Does anyone want to hang out?
+
+[01:42:19] Uh, anybody got a draft up right now
+
+[01:42:21] that's up for review? I know Bohemian
+
+[01:42:24] has one voting that has been
+
+[01:42:25] controversial.
+
+[01:42:27] We have 20 minutes before we end.
+
+[01:42:30] I know. Yeah. Like there's some bunny
+
+[01:42:32] rabbit in here on on Easter weekend that
+
+[01:42:36] may have just put up a draft an hour and
+
+[01:42:38] a half ago. It's true. Yeah.
+
+[01:42:43] Accounting I'm accounted for. Present
+
+[01:42:45] and accounted for. Yeah.
+
+[01:42:48] Now, mind you, of course, none of that
+
+[01:42:51] the few instances that we have, none of
+
+[01:42:54] them would actually qualify in this
+
+[01:42:56] particular audience Lancer. So, like
+
+[01:42:58] we've got Bohemian, he's active. Like,
+
+[01:43:00] his votes up. Um, we have Raspby who
+
+[01:43:04] submitted a draft, but we haven't
+
+[01:43:06] pre-reviewed it. Like, it literally just
+
+[01:43:07] happened while we were hanging out, but
+
+[01:43:10] I'd still be happy to talk.
+
+[01:43:13] Yeah, show us your pips.
+
+[01:43:16] Uh, yeah, totally. So, um, yeah, I I
+
+[01:43:20] mean, this is so exciting, guys. In all
+
+[01:43:22] seriousness, what what what can we talk
+
+[01:43:23] about? You said we've got like 20
+
+[01:43:25] minutes. Mhm. Yep. Yeah. Tell us yours
+
+[01:43:29] is a yours is a pip that's up. You take
+
+[01:43:32] precedent over me bullshitting about
+
+[01:43:34] decentralized servers. Our views are
+
+[01:43:36] going to go through the roof raspby if
+
+[01:43:38] you talk about your pip in this because
+
+[01:43:40] then we can advertise it to people like
+
+[01:43:42] listen maybe you're not but the star
+
+[01:43:46] Atlas documentary guy was in here so
+
+[01:43:48] tune in for that. And just like a proper
+
+[01:43:50] teaser it only happens the last 20
+
+[01:43:52] minutes of the show.
+
+[01:43:54] Oh yeah that's right. That's like uh you
+
+[01:43:56] know when you go to some political
+
+[01:43:57] leaders rallies, they only show up like
+
+[01:43:59] uh you know an hour into it and you're
+
+[01:44:01] just like sitting and waiting like a
+
+[01:44:04] five minute video on X that just goes
+
+[01:44:05] wait till the end. You know that'll be
+
+[01:44:08] this. So what have you got my friend?
+
+[01:44:12] Uh say that again. So what have you got
+
+[01:44:15] my friend?
+
+[01:44:16] Um what would you like to say about your
+
+[01:44:19] proposal to all the people who are going
+
+[01:44:20] to listen to this?
+
+[01:44:22] Okay. Uh well, I mean, I think it's very
+
+[01:44:25] ambitious and it's very exciting. And
+
+[01:44:28] you know, I should probably, you know,
+
+[01:44:30] start off by saying uh that on Monday in
+
+[01:44:33] the Star Atlas uh Discord uh at 3 p.m.
+
+[01:44:37] PST is the live stream of the season
+
+[01:44:40] finale of, you know, season 1 of Raspy's
+
+[01:44:44] Rundown. So, there's a lot a lot has
+
+[01:44:46] gone into this. It's a slightly longer
+
+[01:44:49] piece. It has some a lot of surprises.
+
+[01:44:52] Uh, and I hope everyone likes it. I
+
+[01:44:54] mean, you know, I realize that this live
+
+[01:44:56] stream, this one that we're currently in
+
+[01:44:58] right now, will probably go up after
+
+[01:45:00] that one. So, it's like time travel, but
+
+[01:45:03] I I hope everyone loves it. Um, a lot of
+
+[01:45:05] love has gone into it. And I think this
+
+[01:45:07] kind of leads us into the the bigger
+
+[01:45:09] story of um, oh my gosh, you know,
+
+[01:45:14] there's a lot, you know, when Santi told
+
+[01:45:16] me that I needed to be in the Discord,
+
+[01:45:18] uh, and I really was reticent to join. I
+
+[01:45:20] just wanted to play this game by myself.
+
+[01:45:22] And and then he kept saying, "Come to
+
+[01:45:24] Discord. You really need to be there."
+
+[01:45:25] And I really downplayed it for a long
+
+[01:45:27] time. I think 3 months into, you know,
+
+[01:45:29] the game is when I joined Discord or
+
+[01:45:31] maybe a little more even. And that's
+
+[01:45:34] changed everything. It's so much more
+
+[01:45:37] dramatic really. Um, and there is
+
+[01:45:41] unlimited content, uh, in my opinion. We
+
+[01:45:44] can go in so many directions. We'll have
+
+[01:45:46] more content than we know what to do
+
+[01:45:48] with. And I am very hopeful that we can
+
+[01:45:51] weave together a story that is
+
+[01:45:54] compelling uh following the lives of
+
+[01:45:57] some of the most you know notorious or
+
+[01:46:00] interesting or you know um different
+
+[01:46:02] characters within uh Galia in real life
+
+[01:46:05] though.
+
+[01:46:07] Yeah, absolutely. It's a really really
+
+[01:46:09] exciting proposal. Um, other than Rising
+
+[01:46:12] Sun's proposal for
+
+[01:46:14] Evi, I can't think of any other proposal
+
+[01:46:16] that reached 25 plus likes, you know, as
+
+[01:46:20] quickly as yours did, uh, for community
+
+[01:46:22] support. 24 hours hadn't gone by and you
+
+[01:46:25] were in the 30s, which is pretty
+
+[01:46:27] incredible.
+
+[01:46:29] Yeah, that's great. Uh I mean I really
+
+[01:46:32] hope to I'm I mean I'm
+
+[01:46:34] I'm I really hope to bring a lot of
+
+[01:46:37] value uh to Star Atlas and I think we're
+
+[01:46:41] just starting to ramp up now and this
+
+[01:46:43] can accelerate and and you know we have
+
+[01:46:46] the the benefit of Star Atlas game is
+
+[01:46:49] gaining momentum now. So we're we're all
+
+[01:46:51] moving like you know in in tandem and I
+
+[01:46:54] think it's going to you know culminate
+
+[01:46:56] in a parabolic rise.
+
+[01:46:59] No, I I think that amount of exposure
+
+[01:47:02] could be absolutely amazing for us. Um,
+
+[01:47:05] even
+
+[01:47:07] if.1% of the people that saw this wound
+
+[01:47:10] up just hanging out in Discord for a
+
+[01:47:13] week or two, um, I think that would be
+
+[01:47:15] huge. Now, I've talked to ASPI a lot
+
+[01:47:18] about this proposal, so um I want to
+
+[01:47:21] recuse myself a little from this
+
+[01:47:22] conversation, but I mean there's no way
+
+[01:47:25] that in this huge audience, we don't
+
+[01:47:27] have people with a bunch of different
+
+[01:47:28] questions for him. So, uh why is
+
+[01:47:31] somebody shoot one?
+
+[01:47:41] You are all going to have questions
+
+[01:47:43] literally five hours from now in the
+
+[01:47:46] draft in the draft board. Someone's got
+
+[01:47:49] to want to have questions about a Star
+
+[01:47:51] Atlas short film being submitted to
+
+[01:47:53] Sundance or these content packages or
+
+[01:47:55] anything like that. I know you've got
+
+[01:47:57] tons of questions, Lance. I'm sure you
+
+[01:47:59] do. AMP Bohemian, you've never been
+
+[01:48:02] quiet, so I'll push you, too. One of
+
+[01:48:05] you's got to have something. I will
+
+[01:48:07] definitely say you you've done a really
+
+[01:48:09] good job.
+
+[01:48:11] um in in your PIP ideas um responding to
+
+[01:48:16] people. So maybe that's that's I mean
+
+[01:48:18] every question I ever have it it seems
+
+[01:48:20] to get
+
+[01:48:21] answered.
+
+[01:48:23] Um so I like I've just been following it
+
+[01:48:26] and I think it's so cool. And then you
+
+[01:48:29] know we jumped in the voice chat as we
+
+[01:48:31] were driving the other day and I I don't
+
+[01:48:34] I just think it's cool as [ __ ] So no I
+
+[01:48:36] don't have I don't have questions. I'm
+
+[01:48:37] just watching
+
+[01:48:42] That's so fantastic uh to hear. I mean I
+
+[01:48:44] I also don't mind answering the
+
+[01:48:46] questions because I have to think about
+
+[01:48:47] it and I'm uh pursuing all of this uh
+
+[01:48:51] whether it's the you know the collection
+
+[01:48:53] of air of ships or whether it's the
+
+[01:48:56] interaction on um social media whether
+
+[01:48:59] it's the creation of content or uh you
+
+[01:49:01] know we have some other initiatives
+
+[01:49:03] we're doing in the background. And I
+
+[01:49:04] I've shared quite a bit of it with uh
+
+[01:49:06] some folks. Uh it's around building
+
+[01:49:09] tools and toolkits for Star Atlas. All
+
+[01:49:11] of these things I really am putting my
+
+[01:49:14] full like authenticity into it and
+
+[01:49:17] calling on favors from friends over the
+
+[01:49:20] years um to support this. So I think we
+
+[01:49:23] have a good shot at all of it. So let's
+
+[01:49:26] uh you know rock and roll.
+
+[01:49:31] No one's going to ask a question. Uh,
+
+[01:49:34] I'll ask questions of you while we're
+
+[01:49:36] talking about this. Um, so one thing on
+
+[01:49:40] this proposal is obviously it requires
+
+[01:49:42] an incredible amount of experience. Um,
+
+[01:49:45] it's no small thing uh when we say we're
+
+[01:49:47] going to create a short film that's
+
+[01:49:49] getting submitted to Sundance. Um, but
+
+[01:49:52] the other big thing is um the timeline.
+
+[01:49:56] Holy [ __ ] man. Crazy crazy compressed.
+
+[01:49:59] You're going to have to get you're going
+
+[01:50:01] to have to like fly around, interview
+
+[01:50:03] people, do all this stuff, and you're
+
+[01:50:05] going to have to do it all in time, get
+
+[01:50:06] through editing, get through production,
+
+[01:50:08] get through everything uh to be able to
+
+[01:50:10] submit by what is it, September 23rd. Um
+
+[01:50:13] why don't you talk us through one your
+
+[01:50:16] background in doing this type of work so
+
+[01:50:18] that people know a little bit more about
+
+[01:50:20] you and your qualifications and two what
+
+[01:50:23] it's going to look like for you the
+
+[01:50:24] moment that this thing passes and gets
+
+[01:50:27] approval and you've got funding like
+
+[01:50:31] we're firing the gun go what does it
+
+[01:50:33] look like?
+
+[01:50:36] Okay. Uh well firstly it is it is a very
+
+[01:50:41] daunting um uh timeline for September
+
+[01:50:45] 23rd that it is intimidating. However
+
+[01:50:48] the mitigating factors um are that um
+
+[01:50:53] you know I I've kind of testrun a lot of
+
+[01:50:55] production stuff and we can move much
+
+[01:50:58] more efficiently. Um and so systems
+
+[01:51:01] internally are now way more efficient.
+
+[01:51:04] Secondly, please you cannot underrate um
+
+[01:51:08] the advance um advancements in AI at
+
+[01:51:11] this point. It c it's making um you know
+
+[01:51:15] big studios are are are going bankrupt.
+
+[01:51:18] In fact, Technicolor, I don't know if
+
+[01:51:19] you guys saw that. Technicolor went
+
+[01:51:20] bankrupt. Oldest, you know, sort of
+
+[01:51:23] movie studio type place in Hollywood,
+
+[01:51:25] and they auctioned off all of their gear
+
+[01:51:27] in like a 24-hour period, like computers
+
+[01:51:30] and everything you would imagine these
+
+[01:51:32] kind of studios would have all was sold
+
+[01:51:34] within a very short period. And uh so
+
+[01:51:37] the other thing is, yes, um you say,
+
+[01:51:40] okay, it's approved, go. uh we would
+
+[01:51:42] need to identify very quickly say top
+
+[01:51:45] five people that need that are like
+
+[01:51:47] mandatory need to be interviewed and we
+
+[01:51:49] should follow them and if they're in the
+
+[01:51:51] US we can travel to them um and spend
+
+[01:51:55] you know 5 six days however long we want
+
+[01:51:56] to do but we need to immediately capture
+
+[01:51:59] that raw footage and any raw footage we
+
+[01:52:02] want from the surrounding area
+
+[01:52:04] environment in-game stuff we'll have to
+
+[01:52:06] start collecting that and and um put you
+
+[01:52:09] know organizing it and then Um, I mean
+
+[01:52:12] ultimately it would need to be you would
+
+[01:52:15] we would need to be editing and have the
+
+[01:52:19] the sort of skeleton and then um and
+
+[01:52:23] then fill in uh so if if we we can't
+
+[01:52:26] interview someone that we were hoping to
+
+[01:52:28] talk to like a certain expert then we
+
+[01:52:30] would uh use a backup expert but all of
+
+[01:52:32] this needs to move pretty seamlessly.
+
+[01:52:34] However, another mitigating factor I
+
+[01:52:36] should just add is that, you know, there
+
+[01:52:39] is a distinction between a short film
+
+[01:52:41] and a featurelength film. And the
+
+[01:52:43] featurelength film is what we're going
+
+[01:52:45] to shoot for. We've said that we'll do a
+
+[01:52:47] short film. Uh, you know, to be able to
+
+[01:52:49] do that is much more doable. Um, and we
+
+[01:52:52] have to consider music composition and
+
+[01:52:54] uh, you know, color correction,
+
+[01:52:56] post-production, all of this stuff is
+
+[01:52:58] also required for that September 23rd
+
+[01:53:01] deadline.
+
+[01:53:03] So yeah, that's that's the pathway.
+
+[01:53:08] So once you get through the process of
+
+[01:53:11] voting, let's let's just say for for an
+
+[01:53:14] instant that you you do get the
+
+[01:53:17] approval, how soon do you start
+
+[01:53:20] executing on that idea and will it be
+
+[01:53:22] enough time if it's a month from now?
+
+[01:53:30] Yeah, that that's a good question. So
+
+[01:53:31] that would put us in like sort of mid to
+
+[01:53:34] last part of May. So we'd have, you
+
+[01:53:37] know, June, July, August, and then, you
+
+[01:53:40] know, a bit of September. Um, so it's
+
+[01:53:43] it's like a very quick turnaround time.
+
+[01:53:46] I would, you know, if it as soon as we
+
+[01:53:49] know that that's that puts a lot of
+
+[01:53:51] stress on you and it might you might
+
+[01:53:53] need more time. No, I think we can
+
+[01:53:55] achieve it. um we kind of need to meet
+
+[01:53:57] that deadline uh regardless um because
+
+[01:54:02] uh otherwise we're going to be pushed
+
+[01:54:05] off a whole you know sort of season and
+
+[01:54:07] I have you know some good indications
+
+[01:54:09] that this type of content is going to be
+
+[01:54:11] in demand like and that's why I'm also
+
+[01:54:14] really ramped to to do it. So I want to
+
+[01:54:17] meet the deadline because I know what
+
+[01:54:19] people are buying for next season and so
+
+[01:54:22] I want to have you know I want to have
+
+[01:54:23] this ready basically. Got it. Okay.
+
+[01:54:28] Yeah. And I think when we were talking
+
+[01:54:30] previously maybe
+
+[01:54:31] um before this was ever a proposal you
+
+[01:54:34] were considering doing it just um
+
+[01:54:37] yourself.
+
+[01:54:39] Yeah. Actually I should probably say
+
+[01:54:40] that I mean in all you know in all
+
+[01:54:42] seriousness we already doing doing it
+
+[01:54:45] actually. The only thing that's not
+
+[01:54:46] being activated is major expenses like
+
+[01:54:49] traveling somewhere and you know having
+
+[01:54:51] all the camera gear and ready to go and
+
+[01:54:53] then and and organizing the logistics of
+
+[01:54:55] okay hey you know we're doing this shoot
+
+[01:54:57] and this shoot and this shoot but as far
+
+[01:54:58] as preliminary work I mean we're already
+
+[01:55:00] definitely doing it and I would be doing
+
+[01:55:02] this anyway and so even after something
+
+[01:55:05] gets approved in the DAO part um you
+
+[01:55:08] know it's just kind of we're still going
+
+[01:55:09] to move forward as we are um you know so
+
+[01:55:13] it wouldn't even be dependent on when We
+
+[01:55:15] received uh the Atlas tokens.
+
+[01:55:18] Got
+
+[01:55:19] it.
+
+[01:55:21] Okay. Thank you. Appreciate your time.
+
+[01:55:24] But can I also uh you know they say you
+
+[01:55:26] know everybody likes you so shut up. But
+
+[01:55:29] I just have to add um you know the
+
+[01:55:31] website part is really it's really quite
+
+[01:55:34] exciting to me to have like you know
+
+[01:55:37] this um analytics into the specific
+
+[01:55:39] wallet that is the film and then its
+
+[01:55:41] activities you know so that it's like
+
+[01:55:44] both transparent for very veteran game
+
+[01:55:47] players that are part of Star Atlas for
+
+[01:55:49] a long time but it's also um like it's a
+
+[01:55:52] nice draw for people that have no idea
+
+[01:55:54] where to begin.
+
+[01:55:57] Yeah, that's the sort of thing that I
+
+[01:55:58] could see I myself screenshotting into
+
+[01:56:01] our our tag up charts here what you
+
+[01:56:04] described it.
+
+[01:56:07] Yeah, and I I think we have a really
+
+[01:56:10] good UI. He's a dear friend of mine.
+
+[01:56:12] He's working on something else uh Star
+
+[01:56:14] Atlas related just internally and we're
+
+[01:56:16] just testing it. But uh I I I'm hoping
+
+[01:56:19] to that he's going to, you know, build
+
+[01:56:21] this for me.
+
+[01:56:24] Okay, great. Thank you, Raspby.
+
+[01:56:28] My pleasure. Six minutes left. Does
+
+[01:56:31] Marshall want to come up and speak
+
+[01:56:33] about this pip? Sure. Yeah, I can.
+
+[01:56:38] But um have you seen my idea or I need
+
+[01:56:40] to like present it first?
+
+[01:56:43] Pardon? No, we're just super casual.
+
+[01:56:46] Just
+
+[01:56:48] about it. Yeah. Like I think everyone
+
+[01:56:51] everyone saw my post. It's been like a
+
+[01:56:53] while. just maybe people have questions
+
+[01:56:55] about it or want me to tell more because
+
+[01:56:57] I some people did not really understand
+
+[01:56:59] what I was doing. It was maybe too
+
+[01:57:01] complex for people um because there's a
+
+[01:57:04] lot of things. Yep. That's one.
+
+[01:57:09] Yeah. Talk about it, my friend.
+
+[01:57:13] You
+
+[01:57:13] feel right now, right? Like uh you're in
+
+[01:57:16] the pip. Yeah, I'll give a I'll try to
+
+[01:57:19] make a brief point, but it's really
+
+[01:57:21] true. So basically for a year I was
+
+[01:57:23] working on a crafting system which was
+
+[01:57:26] like allowing me to see the best routes
+
+[01:57:28] to craft and make the most profit and
+
+[01:57:31] then I just started expanding and
+
+[01:57:32] expanding. So it went to ships and now
+
+[01:57:35] I'm thinking of making a whole new
+
+[01:57:37] system to
+
+[01:57:39] uh to see what ships to buy which have
+
+[01:57:42] the best
+
+[01:57:43] Roy should they take. So like the people
+
+[01:57:45] will just press a button it will tell
+
+[01:57:47] what to mine what to craft and they can
+
+[01:57:50] just sit and relax and probably if I
+
+[01:57:52] have time I'll start working uh
+
+[01:57:55] integration with uh Sly maybe atom maybe
+
+[01:57:59] actually I think atom will be better
+
+[01:58:01] because it has a server support or I'll
+
+[01:58:04] just make my own system so you can just
+
+[01:58:06] press and it will do everything itself
+
+[01:58:08] you can just relax on the beach or
+
+[01:58:11] something and yeah and after the words
+
+[01:58:14] maybe even support for SDU scanning. So
+
+[01:58:16] right now you like EI shows you where to
+
+[01:58:20] scan but like you cannot like scan it
+
+[01:58:22] all the time yourself. You just set it
+
+[01:58:24] and hope for the best. But maybe I can
+
+[01:58:27] make it so it will automatically AI will
+
+[01:58:29] see the best SDU places to scan and
+
+[01:58:33] expand on this way or something else.
+
+[01:58:35] But that's the whole idea like I want
+
+[01:58:38] integrate AI to do all the job and we
+
+[01:58:40] just relax. M that's right. So I do
+
+[01:58:44] remember this idea now and I do have a
+
+[01:58:46] really good question for you and maybe
+
+[01:58:47] we won't have enough time to answer it
+
+[01:58:49] but um
+
+[01:58:51] really cool idea. The idea of an AI that
+
+[01:58:55] essentially here's what ship to buy.
+
+[01:58:57] Here's what it needs to go do where it's
+
+[01:59:00] going to seek the most optimal path at
+
+[01:59:03] any given moment in the meta of Star
+
+[01:59:05] Atlas. It's going to pursue it. It's
+
+[01:59:06] going to automate it essentially just
+
+[01:59:08] like this hyper intelligent. it's going
+
+[01:59:10] to solve all your problems in Star
+
+[01:59:12] Atlas.
+
+[01:59:13] Um, question one uh would probably be is
+
+[01:59:17] it going to be open to everyone and
+
+[01:59:20] available as a community tool? But yes,
+
+[01:59:22] more so question two at any given moment
+
+[01:59:26] there only is one meta. If there's an
+
+[01:59:28] individual tool that's guiding everybody
+
+[01:59:31] to that meta in this ecosystem, that
+
+[01:59:34] means that meta will change tomorrow. it
+
+[01:59:36] could change 12 hours from now because
+
+[01:59:39] the tool is essentially guiding people
+
+[01:59:40] to whatever's hot at that exact instant,
+
+[01:59:43] which by the crux of it, it's not going
+
+[01:59:45] to be hot anymore very quickly. Um, I
+
+[01:59:48] could see a lot of potential volatility
+
+[01:59:51] and erratic behavior um as the meta
+
+[01:59:55] keeps rapidly changing as more and more
+
+[01:59:57] people pile into this, this, this, this,
+
+[01:59:59] moving around to that. Um, and I could
+
+[02:00:02] see that really really kind of damaging
+
+[02:00:04] the individual value prop for using it
+
+[02:00:06] as a tool. Um, can I?
+
+[02:00:10] Yeah, please. So, yeah, I thought about
+
+[02:00:13] it even like when I do it myself, I
+
+[02:00:16] can't really go for the top one product
+
+[02:00:18] because by the time you get there, you
+
+[02:00:20] have like competition who overtakes. So,
+
+[02:00:22] I go for second best or third best so
+
+[02:00:24] people don't compete. That's what
+
+[02:00:26] happens right now every day. And what
+
+[02:00:29] I'm thinking of doing probably uh two
+
+[02:00:31] things. One that maybe I may do like a
+
+[02:00:35] special subscription for like people who
+
+[02:00:38] want to get the best deal so there's
+
+[02:00:40] less competition or uh potential it will
+
+[02:00:44] just like provide great information. But
+
+[02:00:47] this is probably
+
+[02:00:49] like one of the things I want to do is
+
+[02:00:52] actually monitor the wallets what people
+
+[02:00:54] are doing. So,
+
+[02:00:56] uh, it could sort of spy who's doing
+
+[02:00:59] what. So, like it will automatically
+
+[02:01:01] detect if there's a lot of people doing
+
+[02:01:03] this thing. So, it's going to be meta.
+
+[02:01:04] So, it's probably not the meta. And see
+
+[02:01:06] who's buying because I do trade with a
+
+[02:01:09] lot of people. I have like 150 wallets
+
+[02:01:11] of people I'm trading with. So, I kind
+
+[02:01:13] of know who's doing what and and if
+
+[02:01:16] yeah, I can do that. That'll be just
+
+[02:01:18] insane. Like, at at some point somebody
+
+[02:01:20] will do it. I just I'm already doing so
+
+[02:01:23] kind and we're going to get there
+
+[02:01:25] anyway. So, Gotcha. And the only thing
+
+[02:01:28] I'm asking is like for the funding and
+
+[02:01:30] that's so I can do it more like make it
+
+[02:01:34] more available to people then have to
+
+[02:01:36] make subscriptions. I I don't want to
+
+[02:01:37] make subscriptions. So like only whales
+
+[02:01:40] have access to this tool. I want most
+
+[02:01:41] people have access to this tool. So
+
+[02:01:44] that's the reason, right? This is you
+
+[02:01:46] creating a a software program that will
+
+[02:01:49] automate, right? Yeah, you're right.
+
+[02:01:52] Because with AI,
+
+[02:01:54] uh AI is basically used for something
+
+[02:01:56] else. It's more like a chatbot. If you
+
+[02:01:58] want to make LM model, it has
+
+[02:02:00] hallucinations and you cannot make
+
+[02:02:01] hallucinations. It's something which is
+
+[02:02:03] super precise. This is super precise.
+
+[02:02:05] This is rocket science basically because
+
+[02:02:06] I have to analyze everything like the
+
+[02:02:09] our game is a bit
+
+[02:02:14] complicated. So AI will hallucinate and
+
+[02:02:17] break everything. We cannot use AI
+
+[02:02:19] unless we can integrate like the sorry
+
+[02:02:22] what's the guy was doing
+
+[02:02:23] it. Uh, I think John John
+
+[02:02:29] my one second. That's okay. I think I
+
+[02:02:32] get what you're ask John. Yeah. Yeah.
+
+[02:02:33] John making already. That's one. Yeah.
+
+[02:02:37] Yeah. Yeah. That's one who'll be like
+
+[02:02:39] telling people but he's he's using the
+
+[02:02:42] program to calculate like you will still
+
+[02:02:45] need the program to calculate everything
+
+[02:02:46] because AI cannot do that yet. We're not
+
+[02:02:48] or you're going to have to pay millions
+
+[02:02:50] or billions billions probably like Shajp
+
+[02:02:53] is doing. We don't have that money to
+
+[02:02:55] make. What I notic is that you have a
+
+[02:02:56] revenue share. You would like to pay the
+
+[02:02:59] Dow back 20% of your monthly profits
+
+[02:03:03] until you until I pay everything. Yeah.
+
+[02:03:05] But so you're not really you're just
+
+[02:03:08] basically it's a loan at this point.
+
+[02:03:09] It's a loan which I will repay and and
+
+[02:03:12] after that you'll start that will start
+
+[02:03:14] getting 4% of the profit.
+
+[02:03:17] Yeah, I like that. So it's win. Yeah,
+
+[02:03:20] it's a win-win situation for Starless.
+
+[02:03:22] So what what sort of metrics do you have
+
+[02:03:24] or do you have any metrics right now on
+
+[02:03:28] uh what do you mean by metrics? Sorry
+
+[02:03:32] like
+
+[02:03:35] yeah so we have like a thousand daily
+
+[02:03:36] active users right
+
+[02:03:39] how is there any sort of projection
+
+[02:03:41] model that you have or is that even
+
+[02:03:42] possible to figure out what its usage
+
+[02:03:45] would be? You mean how many people will
+
+[02:03:47] be using it? Sure. Yeah. I could say
+
+[02:03:51] probably more and less than sly probably
+
+[02:03:54] less at the beginning but it's like you
+
+[02:03:56] can probably see the same projection
+
+[02:03:58] because people need to see the crafting
+
+[02:04:00] pro and roots. I've been a I had a lot
+
+[02:04:02] of requests for that. I've been doing it
+
+[02:04:04] myself. I've been calculating roots for
+
+[02:04:06] people and doubling their income daily.
+
+[02:04:08] So like well I doubled his income by
+
+[02:04:11] $2,000. So uh but that was like
+
+[02:04:15] yeah I was doing it for a year already.
+
+[02:04:17] I just thought it's better to make AI
+
+[02:04:19] because I got tired of calculating it
+
+[02:04:21] myself every day. So, I'm just trying
+
+[02:04:23] toize the process. So, I could just work
+
+[02:04:25] something else. How how does this app
+
+[02:04:28] make money? How how does it make the 20%
+
+[02:04:30] you're giving back?
+
+[02:04:33] Um, so one of the idea was to make
+
+[02:04:37] special deals available for whales or
+
+[02:04:40] something like a subscription with with
+
+[02:04:42] EI like currently they have like special
+
+[02:04:44] subscription but something like that.
+
+[02:04:47] Perhaps I could ask more if I get more
+
+[02:04:52] things like fly thing
+
+[02:04:55] like fly analog. Maybe I can charge more
+
+[02:04:58] for that. I don't know. Subscription
+
+[02:05:00] service. What was the second thing?
+
+[02:05:03] Uh like the one that Atom is using right
+
+[02:05:06] now. You're familiar with ATM, right?
+
+[02:05:09] No, not. Uh yeah, also at my heard is
+
+[02:05:12] charging for their system which is uh
+
+[02:05:15] basically like Sly, but they have
+
+[02:05:16] servers so you don't have to turn your
+
+[02:05:18] computer on all the time. So perhaps I
+
+[02:05:20] can do that as well. All right. But
+
+[02:05:23] yeah, probably how does it how does that
+
+[02:05:25] earn money? Who's paying what? Uh people
+
+[02:05:29] just pay for the service. So their ships
+
+[02:05:31] are automatic. Yeah, pretty much
+
+[02:05:34] subscriptions. Yeah, I I mean I if
+
+[02:05:37] people have old ideas, I'll probably
+
+[02:05:38] implement that, but like right now I
+
+[02:05:40] think subscriptions if I can avoid
+
+[02:05:41] subscriptions, but probably can't avoid
+
+[02:05:44] them. Adam's a web- based automation
+
+[02:05:47] tool. So like Sly requires you to like
+
+[02:05:52] understand how to get into like uh
+
+[02:05:54] GitHub and then like upload a script
+
+[02:05:56] into like Tamper Monkey and download
+
+[02:05:59] extensions and do all this other stuff.
+
+[02:06:01] Adam takes that portion of the work out
+
+[02:06:04] of it. uh into like a web- based
+
+[02:06:06] application that will automate for you
+
+[02:06:08] tied to a uh subscription model for
+
+[02:06:11] payment. Got it. Okay. Now, you would
+
+[02:06:15] essentially be a competitor to EVI uh
+
+[02:06:19] with this product.
+
+[02:06:21] Um I guess we'll have a lot of similar
+
+[02:06:26] functionality if that's your Yeah,
+
+[02:06:27] basically. Yeah, I don't mean that in a
+
+[02:06:29] negative way. Um, but before that then
+
+[02:06:32] like maybe your closest revenue comp
+
+[02:06:34] would be Evise since they had published
+
+[02:06:36] some of that. Like um I think their
+
+[02:06:39] premium subscription model right now is
+
+[02:06:41] generating somewhere around $250 a month
+
+[02:06:43] for them. So if you and EVI are
+
+[02:06:46] competitors in the same space, I would
+
+[02:06:49] wager
+
+[02:06:51] um you could probably take half of that
+
+[02:06:53] market maybe with a good product. So
+
+[02:06:56] maybe 125 a month, maybe 200 a month.
+
+[02:07:00] Well, if we compare like uh like if I
+
+[02:07:02] the user base grows, a lot of things
+
+[02:07:04] become possible. I just mean we at least
+
+[02:07:07] know what their numbers are, you know,
+
+[02:07:09] for revenue right now. Yeah. Because
+
+[02:07:12] been on the market for a while, but I
+
+[02:07:15] check I I do some like quick search, but
+
+[02:07:18] uh it's very it's not that configurable.
+
+[02:07:21] Like I cannot uh put my numbers in to
+
+[02:07:25] see exact how much I'll get in the deals
+
+[02:07:27] I'm making. Like if I want to do private
+
+[02:07:29] deal, I have to uh run it through my own
+
+[02:07:31] calculator because I cannot trust Eva's
+
+[02:07:34] prices and Right. So if you took their
+
+[02:07:37] entire market share right now, that
+
+[02:07:39] might be worth uh I don't know $350,
+
+[02:07:43] $400 a month just for forecasting
+
+[02:07:45] purposes. Well, I'm sure they'll be
+
+[02:07:48] improving. If they see some something
+
+[02:07:50] that they have, they'll probably
+
+[02:07:51] implement it as well since right now
+
+[02:07:53] they don't have any competitors. They
+
+[02:07:54] they're kind of chill on that. But they
+
+[02:07:57] see information, they'll probably do
+
+[02:07:59] more active work. That happened in my
+
+[02:08:00] older businesses, so I know how it
+
+[02:08:02] works. So maybe 200 a month, right? You
+
+[02:08:05] know, but just since we actually know
+
+[02:08:07] their numbers, it's nice. You're you're
+
+[02:08:09] comparables. We know the market. We know
+
+[02:08:11] what a competitor is making uh doing
+
+[02:08:14] some version of this. So then we can
+
+[02:08:16] just say, well, there's only one person
+
+[02:08:17] doing this, and here's what they're
+
+[02:08:18] making off of premium subscriptions. uh
+
+[02:08:21] we can model if you're coming in with a
+
+[02:08:23] competing product. Okay, here's the
+
+[02:08:25] ceiling, here's the floor, here's what
+
+[02:08:27] 50% of that looks like. Uh so you're
+
+[02:08:30] probably looking at maybe like with the
+
+[02:08:32] existing community size, which maybe it
+
+[02:08:34] grows like a three-year payback
+
+[02:08:37] if 100% of revenue went to the DAO um
+
+[02:08:40] until it was paid back. Yeah, perhaps.
+
+[02:08:43] But there'll be more services. Like I'm
+
+[02:08:46] saying, if I compete with more more
+
+[02:08:48] companies, there'll be more revenue
+
+[02:08:50] coming in. But yeah, we'll see. We're
+
+[02:08:53] not there yet.
+
+[02:08:55] Done. But I'm still working on a lot of
+
+[02:08:58] exciting stuff, my friend.
+
+[02:09:01] Thank you for your time.
+
+[02:09:04] Thank you, D. I do want to I do want to
+
+[02:09:06] apologize. Yeah, real quick. Lanzer
+
+[02:09:08] pointed it out. We were supposed to do
+
+[02:09:10] that in the very beginning. Sorry for
+
+[02:09:12] the folks who are here. I we we all
+
+[02:09:14] totally spaced it off and I was just
+
+[02:09:16] rambling. So, thanks for pointing that
+
+[02:09:17] out and I apologize. Um if there's we
+
+[02:09:20] should have done it next time. I put the
+
+[02:09:24] whole one, two, three what we
+
+[02:09:25] prioritized. I didn't think about it.
+
+[02:09:26] I'm like, did we ask the PIP authors?
+
+[02:09:30] Technically, we did fit our format
+
+[02:09:31] because there were no pre-reviewed PIP
+
+[02:09:34] authors. Fair. Yeah, that that's
+
+[02:09:36] technically. So, we wound up soliciting
+
+[02:09:39] people who didn't fit that category, but
+
+[02:09:41] still had something that they were
+
+[02:09:43] working on. Yeah.
+
+[02:09:46] Okay, I'm good to wrap up. Does anyone
+
+[02:09:48] else have on the council? Anything that
+
+[02:09:50] we'd like to say before we close? No, I
+
+[02:09:53] think we've talked enough. Yeah, I sure
+
+[02:09:56] as hell have.
+
+[02:09:58] Thank you guys. Great hanging out with
+
+[02:10:01] you guys.
+
+[02:10:03] All right, everybody. Have a great day.
+
+[02:10:05] concludes Zack number two. Meeting
+
+[02:10:07] number two.

@@ -1,0 +1,24 @@
+{
+  "campaign_id": "star-atlas-transcripts-ingestion-2026-07",
+  "status": "PASS",
+  "checks": {
+    "zip_integrity": true,
+    "utf8_files": 127,
+    "json_documents_parsed": 43,
+    "manifest_artifacts_reconciled": 127,
+    "manifest_bytes_reconciled": 7687006,
+    "raw_checksums_match": 36,
+    "normalized_checksums_match": 36,
+    "source_ids_unique": 36,
+    "repository_source_id_collisions": 0,
+    "caption_counts_match": 36,
+    "caption_lines_reconciled": 78752,
+    "timestamp_regressions": 0,
+    "prohibited_paths_modified": 0
+  },
+  "warnings": [
+    "Original URLs and speaker labels are unresolved by the source package.",
+    "Publication dates are incomplete for 33 of 36 records.",
+    "Repository Wave 1.5 validation has a pre-existing fixed-count drift in reconciliation records."
+  ]
+}

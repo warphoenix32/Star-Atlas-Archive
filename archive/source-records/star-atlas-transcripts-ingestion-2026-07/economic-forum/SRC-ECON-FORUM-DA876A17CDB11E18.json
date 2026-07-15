@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+  "collection": "economic-forum",
+  "title": "Star Atlas Economic Forum January 2026",
+  "original_filename": "Star_Atlas_Economic_Forum_January_2026.txt",
+  "source_type": "transcript",
+  "publication_date": "2026-01",
+  "publication_date_basis": "filename-month",
+  "publisher": "Star Atlas ecosystem; exact publisher unresolved",
+  "author_or_speakers": [],
+  "speaker_attribution": "UNKNOWN",
+  "original_url": null,
+  "evidence_tier": "UNRESOLVED_PENDING_SOURCE_RECONCILIATION",
+  "raw_path": "economic-forum/raw/SRC-ECON-FORUM-DA876A17CDB11E18.txt",
+  "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-DA876A17CDB11E18.md",
+  "raw_sha256": "da876a17cdb11e18b84ae86d2ef94a604181f5c3444a936f794906f5dcba81be",
+  "normalized_sha256": "bd62953ee474b61d1d32085455f6921b7787c7a87e4cffd66319771071b65ee3",
+  "caption_count": 1468,
+  "first_timestamp": "00:00:10",
+  "last_timestamp": "01:01:44",
+  "duplicate_of": null,
+  "normalization_actions": [
+    "Decoded as UTF-8 with replacement for invalid bytes",
+    "Normalized line endings",
+    "Joined wrapped caption text belonging to the same timestamp",
+    "Collapsed repeated whitespace within captions",
+    "Preserved transcript wording and timestamp order"
+  ],
+  "limitations": [
+    "Original URL not supplied",
+    "Speaker labels not supplied",
+    "Publication date may be partial or unknown",
+    "Automated transcript text may contain recognition errors",
+    "Lifecycle or factual claims require later semantic review before canonical promotion"
+  ],
+  "ingestion_status": "READY_FOR_ARCHIVAL_INGESTION"
+}

@@ -1,0 +1,9649 @@
+---
+
+source_id: SRC-TOWNHALL-E3A7BCDC12B3EFEE
+
+title: "Star Atlas Town Hall June 2025"
+
+collection: townhall
+
+source_type: transcript
+
+publication_date: 2025-06
+
+publication_date_basis: filename-month
+
+speaker_attribution: unknown
+
+raw_sha256: e3a7bcdc12b3efeec8cfc3f0e7ada9a8ca7a077c68b58d2ade473ea77e12c283
+
+caption_count: 4807
+
+last_timestamp: 03:25:17
+
+normalization: caption-lines joined; wording preserved
+
+---
+
+
+
+# Star Atlas Town Hall June 2025
+
+
+
+> Speaker identities, original URL, and exact publication date remain unresolved unless stated in metadata.
+
+
+
+[00:00:25] I'm going to call on Darwin to bring
+
+[00:00:27] that song back. We need to finish that
+
+[00:00:33] track. And we lost Santi.
+
+[00:00:47] Can anyone hear Santi? Yo, did Santi get
+
+[00:00:51] muted? Is he Is he gone?
+
+[00:00:54] The one time in history, man. We We
+
+[00:00:56] actually aren't
+
+[00:00:59] joking. All right, he's back.
+
+[00:01:09] Santi's rugging everyone right
+
+[00:01:31] now. All right, guys. Listen. This is
+
+[00:01:34] the less handsome and tall version of
+
+[00:01:37] Santi making its way to stage right now.
+
+[00:01:41] GM everybody. Thank you guys so much for
+
+[00:01:43] joining us. First town hall of
+
+[00:01:46] 2025. I'm I'm I'm up here filibustering
+
+[00:01:49] until uh Santi gets back and then we'll
+
+[00:01:52] we'll kick off this town hall. But GM
+
+[00:01:54] everybody. I see everybody in the air. I
+
+[00:01:56] see Atlas Theory, Torrender,
+
+[00:01:59] Info, Fire Knight, Drum, Carlos. GM
+
+[00:02:03] everybody. GM GM GM first town hall of
+
+[00:02:06] 2025. You guys are not going to want to
+
+[00:02:08] miss this whole town hall. It's going to
+
+[00:02:10] be a long one. I'm not going to lie.
+
+[00:02:11] It's definitely going to be a long one,
+
+[00:02:12] but I think you guys are are in for uh
+
+[00:02:14] in for a treat. Talking about a whole
+
+[00:02:17] bunch of good
+
+[00:02:19] stuff. It's 7 It's not It's not 7 p.m.
+
+[00:02:23] It's uh It's 11:00 a.m. here. 11 a.m.
+
+[00:02:25] here. Ghost Cat. Yeah, this is the first
+
+[00:02:26] time you've been here on time. Crazy.
+
+[00:02:33] here for it. Nice.
+
+[00:02:36] Nice. Even ghost. Yep.
+
+[00:02:39] Exactly. Dom, can I just say, man, you
+
+[00:02:42] make a a a beautiful bear. Uh we've seen
+
+[00:02:46] the images. We've seen the post. We've
+
+[00:02:48] seen the AI. Oh my god. Where's that
+
+[00:02:51] image? I
+
+[00:02:54] had I show I I showed that image to my
+
+[00:02:57] mom and she it was not good. There's one
+
+[00:03:03] there. Dude, wait. Let me find that. Let
+
+[00:03:05] me find that. I have to find that
+
+[00:03:10] now. Guys, if you're just joining us,
+
+[00:03:12] we're having slight technical
+
+[00:03:14] difficulties with Santi on Discord. We
+
+[00:03:18] are figuring it out. We are figuring it
+
+[00:03:20] out. I promise. Oh, Santi's on stage.
+
+[00:03:22] Hello, Santi. Hello. Hello.
+
+[00:03:26] He's there. Oh, man. Santi, you're
+
+[00:03:29] saving me because I was about to tell a
+
+[00:03:30] really bad dad joke. Oh, really? Yes. I
+
+[00:03:35] was dying to hear that actually. And we
+
+[00:03:36] were going to lose. You've been saving
+
+[00:03:38] that one for a while. I have been saving
+
+[00:03:40] that one for a while. All right, good
+
+[00:03:41] luck. Have fun everybody. Get
+
+[00:03:45] excited. Oh man, I'm scared of turning
+
+[00:03:47] my camera on now in case I crash. Well,
+
+[00:03:50] I I'll try one more time. If not, I will
+
+[00:03:52] just join from my phone. This PC, man.
+
+[00:03:55] That's why I didn't compete in the Dyson
+
+[00:03:57] sphere, guys. It's not because of a
+
+[00:03:58] skill issue. It's It's because of
+
+[00:04:03] this. Let's see. Can you guys see me
+
+[00:04:06] now? Am I? Wait, we can't hear Santi.
+
+[00:04:09] Can anyone hear Santi? No, no, no, no,
+
+[00:04:11] no, no. Don't do that. Look at the
+
+[00:04:14] t-shirt that I'm rocking today.
+
+[00:04:16] the metaverse
+
+[00:04:18] nomads. They're back. They're back. The
+
+[00:04:22] legends. It's great to have them back,
+
+[00:04:25] man. Part of history. Part of history
+
+[00:04:28] for sure. Uh but yeah, Michael, how are
+
+[00:04:31] you feeling today, sir?
+
+[00:04:34] Feeling good as always. We've got a huge
+
+[00:04:37] huge update today for everyone. So, uh
+
+[00:04:40] stoked to jump in, stoked to get
+
+[00:04:42] started, but things are going well, man.
+
+[00:04:45] Yeah, it's it's the first town hall
+
+[00:04:47] since almost or more than six months
+
+[00:04:50] actually. First town hall of 2025 as a
+
+[00:04:52] whole. And Michael, we've been busy this
+
+[00:04:54] year. We've been super busy. Like three
+
+[00:04:57] UEFI releases. The team has been
+
+[00:05:00] shipping like never before.
+
+[00:05:03] The the velocity is probably the highest
+
+[00:05:05] it's ever been on the team. Yeah, we we
+
+[00:05:07] got out three Unreal Engine releases. We
+
+[00:05:09] rolled out fleet rentals in March. We've
+
+[00:05:12] had a number of smaller iterative
+
+[00:05:15] updates to Starbased. Those are just the
+
+[00:05:18] things that people are seeing on the
+
+[00:05:19] front end. Uh what we'll be getting in
+
+[00:05:21] today is obviously everything else that
+
+[00:05:24] we've been working on behind the scenes.
+
+[00:05:26] Uh again, it is action-packed and
+
+[00:05:28] information-packed agenda today. But
+
+[00:05:31] super proud of the team. I mean, it it's
+
+[00:05:33] incredible to uh just see the momentum
+
+[00:05:36] that that we're bringing right now in
+
+[00:05:39] the face of what is really pretty
+
+[00:05:41] negative sentiment out there generally
+
+[00:05:43] in gaming. You're seeing a lot of
+
+[00:05:45] projects shut down and and markets are
+
+[00:05:47] just kind of flat and stalling. But, uh
+
+[00:05:50] for us that doesn't really matter. You
+
+[00:05:52] know, we've got our vision. We have our
+
+[00:05:53] goals and our objectives. And we've just
+
+[00:05:55] been diligently working through those
+
+[00:05:56] and working towards those over the last
+
+[00:05:59] what four and a half years now. So,
+
+[00:06:01] again, feeling really good about all of
+
+[00:06:03] the progress we've made. Uh, excited to
+
+[00:06:05] share all of that with you guys. There's
+
+[00:06:07] so much stuff behind the scenes that's
+
+[00:06:09] been going on. Um, yeah. Yeah, we'll get
+
+[00:06:13] right on it. Uh, just so everyone knows,
+
+[00:06:15] uh, this is going to be information
+
+[00:06:18] packed as Michael was saying. I know I
+
+[00:06:20] teased it on X and we've been saying it
+
+[00:06:21] in the announcements as well, but pen
+
+[00:06:23] and paper ready guys because we're
+
+[00:06:26] sharing everything about C4, everything
+
+[00:06:28] the team knows so far. Literally, we're
+
+[00:06:31] being completely open today. But don't
+
+[00:06:35] don't stress out. We got you. We will
+
+[00:06:37] also be publishing a town hall summary,
+
+[00:06:40] a written town hall summary article, so
+
+[00:06:42] you guys can read everything that we go
+
+[00:06:44] through later. So, pen and paper, but
+
+[00:06:47] don't stress out. We We got you. we got
+
+[00:06:49] you. Uh then also another thing is if
+
+[00:06:52] you don't really understand English or
+
+[00:06:55] English is not your native uh language,
+
+[00:06:58] don't worry. If you go to the top of the
+
+[00:07:01] Discord server, there are events and in
+
+[00:07:03] this week and next week we're going to
+
+[00:07:05] have Bruce in French, German, Italian,
+
+[00:07:10] Turkish, Spanish, and Portuguese to
+
+[00:07:14] break down everything that we're talking
+
+[00:07:16] about uh today. So you can if you don't
+
+[00:07:18] really understand English and it's not
+
+[00:07:21] your native language, you can find your
+
+[00:07:24] community in Star Atlas, go to the top
+
+[00:07:25] of the server, pick your language, and
+
+[00:07:27] there will be a brew in your specific
+
+[00:07:30] language with the community leaders
+
+[00:07:32] explaining everything we're about to
+
+[00:07:34] talk uh here. So don't worry, we got
+
+[00:07:37] you. Um, also be careful posting gifts
+
+[00:07:40] in the chat. If you're not level three,
+
+[00:07:42] uh there's a permissions issue that if
+
+[00:07:44] you're not level three and you post a
+
+[00:07:45] gift, you may get banned. So, be careful
+
+[00:07:48] with the gifts. Make sure you're level
+
+[00:07:50] three before posting anything. I saw a
+
+[00:07:52] couple. Is that a feature or is that a
+
+[00:07:54] bug? It's a bug. We we don't want that
+
+[00:07:57] to happen. But we have like many
+
+[00:07:59] security layers. So, uh yeah, it
+
+[00:08:02] happens. We we'll play it as a feature.
+
+[00:08:05] Um but yeah, one last thing is that we
+
+[00:08:08] are also live streaming on X. So I don't
+
+[00:08:11] know Dom if you have the link, but if
+
+[00:08:15] you have the link and can post it in the
+
+[00:08:17] chat, you can go retweet our live stream
+
+[00:08:19] on X and comment and we'll be giving
+
+[00:08:23] away a Fimu loby for someone who
+
+[00:08:27] comments and retweets
+
+[00:08:29] the the X link that don't just share it
+
+[00:08:32] in the chat. So go do that now. you have
+
+[00:08:35] a chance to win a fimol lovi if you go
+
+[00:08:38] retweet and comment. And I see Kepler in
+
+[00:08:41] the chat saying that he's actually
+
+[00:08:42] translating to Spanish live right now.
+
+[00:08:45] So if you speak Spanish and you want to
+
+[00:08:48] get the news live, Kepleret will be live
+
+[00:08:51] streaming literally right now. He's
+
+[00:08:53] live. So make sure to tune in to his
+
+[00:08:56] stream. But with that said, I think we
+
+[00:08:59] can get straight to business. Michael.
+
+[00:09:01] Uh, this is likely a twohour plus town
+
+[00:09:05] hall. We also have Daniel on stage. So,
+
+[00:09:08] first topic, something everyone wants to
+
+[00:09:11] know more about. We'll be straight into
+
+[00:09:14] business. We'll be talking about C4. So,
+
+[00:09:17] Michael, do you want to give a brief
+
+[00:09:19] introduction for people who may be
+
+[00:09:20] joining on X or who are not in touch
+
+[00:09:24] daily with the Stratus community on what
+
+[00:09:26] is C4 and what we're doing with that
+
+[00:09:28] product?
+
+[00:09:30] I do. But uh before actually getting
+
+[00:09:32] into business, and this will be a long
+
+[00:09:33] town hall, but I I want to mention we
+
+[00:09:35] have a couple of great guests with us
+
+[00:09:37] today. Uh they'll be doing a lot of the
+
+[00:09:39] heavy lifting here. You mentioned Danny
+
+[00:09:41] already uh co-founder, chief product
+
+[00:09:43] officer. We have Brett, VP of
+
+[00:09:45] engineering. We have Chip, uh VP of
+
+[00:09:48] game, uh Jose, John Reeve. They're all
+
+[00:09:51] going to be joining us to share uh some
+
+[00:09:55] do some screen share of various
+
+[00:09:56] products, things that we'll be talking
+
+[00:09:57] about over the course of the day. I
+
+[00:09:59] think we're going to keep a little
+
+[00:10:01] mystery in in the actual agenda itself,
+
+[00:10:04] right? I mean, we know we're getting
+
+[00:10:05] into C4 first, but we won't be sharing
+
+[00:10:07] too much about what's coming later. I do
+
+[00:10:09] recommend everybody stays until the end
+
+[00:10:11] because we uh great content throughout.
+
+[00:10:14] I just want to start with with one
+
+[00:10:16] comment which is really just goals and
+
+[00:10:18] objectives that we had over the course
+
+[00:10:20] of this year and um a lot of the
+
+[00:10:23] planning and and items that we're
+
+[00:10:25] executing on now uh were formulated back
+
+[00:10:28] in Q4 of last year following uh
+
+[00:10:30] Breakpoint and the impact summit. uh we
+
+[00:10:33] we pulled leadership together for a
+
+[00:10:36] retreat over in Singapore and we started
+
+[00:10:38] putting some consideration into what
+
+[00:10:40] what would you know what does a solid
+
+[00:10:43] 2025 look like for us? What do we want
+
+[00:10:46] to build? What do we think is going to
+
+[00:10:47] have the largest impact and what are the
+
+[00:10:50] timelines around those things? Now,
+
+[00:10:51] we've we've pulled back heavily on
+
+[00:10:53] sharing any types of dates. Uh it's it's
+
+[00:10:57] kind of bittersweet. Uh I personally
+
+[00:11:00] love sharing information about what our
+
+[00:11:02] projections are. That has come back to
+
+[00:11:04] bite us in times past and so uh our
+
+[00:11:07] philosophy has largely just been you
+
+[00:11:09] know what let's just build in the
+
+[00:11:10] shadows and when when it's ready we're
+
+[00:11:12] just going to roll it out. Uh we haven't
+
+[00:11:14] been hyping things up much and I think
+
+[00:11:16] that that's actually the appropriate
+
+[00:11:18] approach. It's not about building hype.
+
+[00:11:20] It's about execution and quality of the
+
+[00:11:23] products that are being released. And I
+
+[00:11:25] I think beyond that, just the pace that
+
+[00:11:28] the team is moving, we mentioned the
+
+[00:11:29] Unreal Engine patches over the course of
+
+[00:11:31] this this year, you know, rolling out
+
+[00:11:33] products like fleet rentals, which I
+
+[00:11:35] think has significant impact, especially
+
+[00:11:38] over the long term, uh, to satisfy a lot
+
+[00:11:42] of different user demographics. This is
+
+[00:11:45] new player acquisition, lower barrier to
+
+[00:11:47] entry, uh as well as catering to a an
+
+[00:11:51] investor mentality, people that might
+
+[00:11:53] not have any interest in actually
+
+[00:11:55] playing in Star Atlas, but see the
+
+[00:11:58] potential in investing in capital assets
+
+[00:12:01] that have cash flow or revenue
+
+[00:12:02] generating potential and they they see
+
+[00:12:05] this market which I might add has proven
+
+[00:12:08] to
+
+[00:12:10] uh have significant demand. In fact,
+
+[00:12:13] demand right now on fleet rentals
+
+[00:12:16] significantly outpaces the supply that's
+
+[00:12:18] available. And we're seeing that in the
+
+[00:12:19] data with uh I don't have the latest
+
+[00:12:22] numbers, but uh the number that I am
+
+[00:12:24] familiar with is more than 80% of all of
+
+[00:12:26] the fleets that get listed on the fleet
+
+[00:12:28] rental platform are being rented out. Uh
+
+[00:12:32] I think there's a strong case that could
+
+[00:12:33] be made that the remaining 20% are are
+
+[00:12:36] simply mispriced, perhaps overpriced. Uh
+
+[00:12:39] and we're seeing 1.2 2 million Atlas per
+
+[00:12:41] day change hands on a pure peer-to-peer
+
+[00:12:44] basis. That's users that are paying to
+
+[00:12:46] rent these fleets out and use them
+
+[00:12:48] within Sage. Uh that's extremely
+
+[00:12:50] powerful. A big shout out to Anthony by
+
+[00:12:53] the way. He's here in the audience. I
+
+[00:12:55] see him. And uh it it was uh Groove and
+
+[00:12:58] Anthony from Sly alongside a couple of
+
+[00:13:01] additional partners that really built
+
+[00:13:02] out the fleet rental platform and worked
+
+[00:13:05] with us on security and audit auditing
+
+[00:13:07] analysis and then uh implementation into
+
+[00:13:10] portal or that play.star.com platform.
+
+[00:13:12] So that was a lot actually just on fleet
+
+[00:13:14] rentals but I am really excited about
+
+[00:13:17] the potential for this feature and this
+
+[00:13:19] product on the platform and seeing where
+
+[00:13:21] it goes in the future. But generally
+
+[00:13:24] speaking, uh our philosophy over the
+
+[00:13:26] course of this year was really about
+
+[00:13:28] simplifying user onboarding, creating
+
+[00:13:30] great experiences, uh and reducing the
+
+[00:13:33] barrier to entry overall. Uh as well as
+
+[00:13:36] elevating all of the products that we
+
+[00:13:38] have available today to create, uh
+
+[00:13:41] deeply engaging, deeply immersive,
+
+[00:13:42] really fun experiences. And I I think
+
+[00:13:45] we've already succeeded in that uh with
+
+[00:13:48] some of the Unreal Engine releases. What
+
+[00:13:50] we'll get in today with with uh C4 and
+
+[00:13:53] beyond, I think will uh kind of confirm
+
+[00:13:57] that that that approach is uh
+
+[00:14:00] successful. And we did, you know, in in
+
+[00:14:03] Q4 of last year, we did make the
+
+[00:14:05] strategic decision. We're going to
+
+[00:14:08] extend the timeline a little bit on the
+
+[00:14:11] release so that we can incorporate more
+
+[00:14:13] features. And you know, with that said,
+
+[00:14:15] I think that's probably a nice segue
+
+[00:14:17] into C4.
+
+[00:14:19] Now for anyone who you know to Santi's
+
+[00:14:22] point has not been following along with
+
+[00:14:23] us closely C4 is just a project name
+
+[00:14:26] that's internal working title uh that uh
+
+[00:14:32] describes the next major update to our
+
+[00:14:35] Sage Star Atlas Golden Era product
+
+[00:14:37] suite. Now Sage today exists largely in
+
+[00:14:41] browser. It's 2D RTS MMO and the
+
+[00:14:45] star-based release is is centered
+
+[00:14:47] largely on collective effort of factions
+
+[00:14:50] to upgrade star bases with some other
+
+[00:14:52] earnings avenues in the game. Uh now we
+
+[00:14:55] do have some early stage of fleet
+
+[00:14:56] command which is the fully immersive 3D
+
+[00:14:59] version of the sage feature set that
+
+[00:15:02] lives inside Unreal Engine. Now C4 is
+
+[00:15:05] the expansion of this. It's uh it's
+
+[00:15:08] council rank. So that is your
+
+[00:15:09] progression XP and skill tree system.
+
+[00:15:13] It's claim stakes and cultivation
+
+[00:15:15] claims. You'll see the deprecation of
+
+[00:15:17] faction claims in portal and the
+
+[00:15:20] transition of full claim state
+
+[00:15:22] construction buildout and uh development
+
+[00:15:26] within Sage itself and will be
+
+[00:15:29] introducing cultivation claims alongside
+
+[00:15:31] the release. It is uh uh crafting habs,
+
+[00:15:37] which is a way that players can leverage
+
+[00:15:39] the uh crafting benches and crafting
+
+[00:15:43] habs that they've acquired through
+
+[00:15:45] owning CSS land plots and be able to
+
+[00:15:47] operate those in a very similar fashion
+
+[00:15:49] to how claim stakes work, but operating
+
+[00:15:51] directly off of star bases. And then the
+
+[00:15:54] big one that a lot of people have been
+
+[00:15:56] begging for for a long time, and that's
+
+[00:15:58] combat systems. And um
+
+[00:16:02] uh a lot of thought has gone into this.
+
+[00:16:04] I think it's incredibly important that
+
+[00:16:07] we execute combat in a way that creates
+
+[00:16:10] uh a fun and rewarding experience and
+
+[00:16:12] not a punishing experience. And so um I
+
+[00:16:16] the team has done a tremendous job
+
+[00:16:18] designing this out uh laying out the
+
+[00:16:20] regions, laying out territories, but
+
+[00:16:22] this is going to open up the door for
+
+[00:16:24] people to capture uh enemy territory
+
+[00:16:27] across factions. And I can't wait to see
+
+[00:16:30] the space battles that take place uh as
+
+[00:16:33] we as we get into uh the C4 release.
+
+[00:16:36] There's a lot more here, but we do have
+
+[00:16:38] a phenomenal couple of guests with us
+
+[00:16:40] here. Santi, let me turn it back over to
+
+[00:16:42] you maybe to bring them up and and kick
+
+[00:16:44] this off. For sure. Just to to piggy
+
+[00:16:47] back from what you were saying, Michael,
+
+[00:16:48] it can also be said that C4 is likely
+
+[00:16:51] one of the if not the uh biggest real
+
+[00:16:55] game economy ever created. And that also
+
+[00:16:59] we are doubling down on blockchain tech
+
+[00:17:02] at the same time. Well, you see like the
+
+[00:17:05] web 3 gaming market and some people just
+
+[00:17:09] getting out of it. Some projects uh
+
+[00:17:11] getting out of the market. The Star
+
+[00:17:13] Atlas believes in blockchain tech and in
+
+[00:17:15] fact is doubling down on blockchain tech
+
+[00:17:18] uh leveraging it for C4. But we can get
+
+[00:17:22] into the topic so people really
+
+[00:17:24] understand what we're building here.
+
+[00:17:26] Since you mentioned it, I I do just want
+
+[00:17:28] to elaborate on that. Uh it's a bold
+
+[00:17:30] statement, but I would go so far as to
+
+[00:17:32] say there is not a single team that
+
+[00:17:34] embraces blockchain tech with the
+
+[00:17:36] integration of gaming to the extent that
+
+[00:17:40] we do. And I would argue we're an order
+
+[00:17:42] of magnitude beyond the next closest
+
+[00:17:44] team that looks at integrating crypto
+
+[00:17:48] and and blockchain into any of the
+
+[00:17:49] products that we're releasing. So yes,
+
+[00:17:51] we've absolutely doubled down on that.
+
+[00:17:53] Uh that has been our ethos. That has
+
+[00:17:55] been our philosophy from the beginning.
+
+[00:17:57] We've seen the benefits of ecosystem
+
+[00:17:59] expansion from different groups and
+
+[00:18:01] different teams and developers building
+
+[00:18:03] out uh building out their own tooling
+
+[00:18:06] that are of incredible benefit to our
+
+[00:18:09] own community. Uh Santi, we didn't
+
+[00:18:11] mention it. We don't have much to talk
+
+[00:18:13] about on it today, but the DAO has been
+
+[00:18:15] absolutely chugging along. uh we had uh
+
+[00:18:19] another, you know, the second council
+
+[00:18:21] election and uh five council members
+
+[00:18:23] that got brought in earlier this year
+
+[00:18:26] and I think we're on uh I I should have
+
+[00:18:28] checked this actually, but I think we're
+
+[00:18:29] on PIP 17 or 18 right now. 17 I believe.
+
+[00:18:32] Yeah, 18 coming. Mhm. So, and
+
+[00:18:36] and the DAO and the council are
+
+[00:18:39] achieving exactly what we would want to
+
+[00:18:41] see right now, which is a relatively
+
+[00:18:44] restricted uh set of objectives and
+
+[00:18:48] authority, but that is to take advantage
+
+[00:18:51] of this financial mechanic that we've
+
+[00:18:54] built into
+
+[00:18:56] uh uh kind of our our overall corporate
+
+[00:18:59] structure, which is the DAO is able to
+
+[00:19:01] capture revenue via taxation off of gain
+
+[00:19:04] game systems and that taxation is
+
+[00:19:06] largely driven right now through Sage uh
+
+[00:19:09] and supplemented by a share of the
+
+[00:19:12] marketplace fees that are going to the
+
+[00:19:14] DAO as well. Uh but taking advantage of
+
+[00:19:17] this treasury and of this ecosystem fund
+
+[00:19:19] to support those developers and creators
+
+[00:19:24] um and other people that are building
+
+[00:19:25] alongside us here financially via PIPS
+
+[00:19:28] and and um distribution of funds to
+
+[00:19:31] them. So all of that's been going on as
+
+[00:19:34] well and and fortunately is working
+
+[00:19:36] largely autonomously which is what you
+
+[00:19:38] would expect and hope for out of the
+
+[00:19:41] DAO. For sure. For sure. So yeah, if
+
+[00:19:44] you're a builder or trying to build
+
+[00:19:45] something in Star Atlas, don't hesitate
+
+[00:19:48] to reach out to a council member and
+
+[00:19:50] they will help you prepare a polish
+
+[00:19:53] improvement proposal so you can leverage
+
+[00:19:55] the ecosystem fund and start building
+
+[00:19:57] using this ratless uh tools, programs
+
+[00:20:00] and IP. So yeah, I like that you
+
+[00:20:03] mentioned that, Michael. Um, okay. Is
+
+[00:20:07] everyone ready? Do you guys have your
+
+[00:20:09] drinks next to you? Some snacks? Is
+
+[00:20:12] everyone ready? I want to make sure that
+
+[00:20:13] everybody's comfortable and feeling good
+
+[00:20:15] before we get on the main topics for
+
+[00:20:18] today.
+
+[00:20:19] I'm sorry. One more thing,
+
+[00:20:22] one more thing. One more thing. Uh,
+
+[00:20:26] somebody out there did place a bet that
+
+[00:20:27] we wouldn't clear a hundred attendees in
+
+[00:20:31] this town hall. And I just want to
+
+[00:20:33] proudly point out we have 302 people in
+
+[00:20:35] the audience in the depths of the bare
+
+[00:20:37] market right now. So I think that as
+
+[00:20:40] well.
+
+[00:20:42] Someone's going to need to pay out on
+
+[00:20:44] that.
+
+[00:20:45] [Music]
+
+[00:20:47] Uh, but yeah, we can get started. We
+
+[00:20:49] have two wonderful guests on stage. I'll
+
+[00:20:52] be introducing them right now. First,
+
+[00:20:54] Danny Floyd, CPO at Star Atlas. Danny,
+
+[00:20:57] how are you doing, man?
+
+[00:21:00] Santi, doing well. Apologies in advance.
+
+[00:21:03] I'm currently at an Airbnb in Greece, so
+
+[00:21:08] the connection might be up and down.
+
+[00:21:11] Just heads up. But, um, yeah, if things
+
+[00:21:15] start going, just interrupt me.
+
+[00:21:20] Um, good, man. I appreciate you joining.
+
+[00:21:22] I appreciate you joining the town hall,
+
+[00:21:24] guys. Danny has some pretty cool things
+
+[00:21:26] prepared for us. We'll be turning the
+
+[00:21:28] cameras off just because of stream
+
+[00:21:30] bandwidth and we'll be screen sharing
+
+[00:21:32] some of the things also so you guys
+
+[00:21:34] don't make any more gifts uh of us. So
+
+[00:21:37] yeah, uh we appreciate that. I'm joking.
+
+[00:21:40] We love those. And then we have also
+
+[00:21:43] Brett on stage. Brett, my friend, how
+
+[00:21:47] are you doing? Doing well. Looking
+
+[00:21:49] forward to this something we've been
+
+[00:21:50] working on for a while. So really
+
+[00:21:52] excited to share it. Yes, we've been uh
+
+[00:21:56] we haven't been sharing anything about
+
+[00:21:58] C4 and you know how hard that was on
+
+[00:22:01] Michael guys. He didn't share well he
+
+[00:22:04] was sharing something here and there but
+
+[00:22:06] we never really got into the real
+
+[00:22:08] details for C4 and that's what we're
+
+[00:22:11] going to be doing now. So I know Brett
+
+[00:22:14] you and Danny have uh some things uh
+
+[00:22:18] prepared for us. I don't know if you
+
+[00:22:19] want to give a brief intro from your
+
+[00:22:21] end, Brad, Danny, on C4 and then we can
+
+[00:22:24] get on the specifics.
+
+[00:22:27] Yeah, we can kind of kick this off by
+
+[00:22:29] just saying what C4 means. Um, how's my
+
+[00:22:32] connection?
+
+[00:22:35] Yes, we can hear you. I think you may
+
+[00:22:37] have a little bit of delay, but we can
+
+[00:22:38] hear you.
+
+[00:22:42] All right. Sorry. Yeah, big
+
+[00:22:45] delay. Um, yeah. So, just wanted to kind
+
+[00:22:48] of give a a quick uh prep on this what
+
+[00:22:52] we're about to share. But C4, if um
+
+[00:22:55] anyone doesn't know, is kind of finally
+
+[00:22:59] where Sage Sage Labs turns into a full
+
+[00:23:03] Forex game. And what that means is um
+
+[00:23:08] well, Forex game like a usually
+
+[00:23:11] a in in space games it's a exploration
+
+[00:23:16] which we kind of already have, but you
+
+[00:23:18] know, we're going to have some more
+
+[00:23:19] things with with scanning and the amount
+
+[00:23:22] of systems that the map is turning into.
+
+[00:23:24] Uh expansion, which uh also we kind of
+
+[00:23:28] have, but we're just turning it up like
+
+[00:23:33] orders of magnitude more um with the
+
+[00:23:36] claim stakes and the habs. Uh and then
+
+[00:23:40] exploitation which is uh again with the
+
+[00:23:43] claim stakes and being able to like
+
+[00:23:45] exploit the resources crafting and and
+
+[00:23:49] um and you'll see the crafting it's it's
+
+[00:23:53] again gone up order of magnitudes. Um
+
+[00:23:56] and then the biggest one is
+
+[00:23:59] extermination which is the combat
+
+[00:24:01] system. So C4 is meant to turn Sage into
+
+[00:24:05] a 4X. Um, and we'll kind of get into
+
+[00:24:08] that and see a little bit behind the
+
+[00:24:10] curtain. I don't know, Brett, do you
+
+[00:24:12] want to mention anything before we hop
+
+[00:24:14] in? No, the the big thing is why I call
+
+[00:24:17] it C4. It's just the the big items here
+
+[00:24:20] are um claim stakes, crafting habs,
+
+[00:24:24] combat, and council rank. So, four big
+
+[00:24:26] C's that we're going to be releasing all
+
+[00:24:28] together.
+
+[00:24:31] Nice. Nice. I think that was a perfect
+
+[00:24:34] intro and I know you guys have some map
+
+[00:24:37] updates that we teased a little bit
+
+[00:24:40] before. We shared a little sneak peek
+
+[00:24:42] with the community, but I think that
+
+[00:24:44] will be a great starting point if you
+
+[00:24:46] guys want on what is changing from the
+
+[00:24:49] current Sage map.
+
+[00:24:52] Yeah, want to show
+
+[00:24:56] Yeah, I'll pull that up. So, I want to
+
+[00:24:58] give a little bit of a primer here, too.
+
+[00:25:01] Um let's
+
+[00:25:03] see. Here we
+
+[00:25:06] go. Um,
+
+[00:25:09] so as we saw, it's already kind of out
+
+[00:25:12] there that the map has just gotten much
+
+[00:25:15] much bigger.
+
+[00:25:16] Um and before you know in Sage Labs and
+
+[00:25:21] even Starbased we tooling
+
+[00:25:25] wasn't available to us as accessible as
+
+[00:25:28] it is now. Um with AI now tooling is
+
+[00:25:33] trivial. Um so we're taking full
+
+[00:25:36] advantage of that. Like before we'd had
+
+[00:25:38] to use Google Sheets and it quickly
+
+[00:25:41] would even make the Google Sheets
+
+[00:25:44] um slow down with so much data and all
+
+[00:25:47] these like custom formulas that are
+
+[00:25:49] everywhere. Um it would actually start
+
+[00:25:51] hitting like performance issues in
+
+[00:25:54] Google
+
+[00:25:55] Sheets. So with this new C4 effort um we
+
+[00:26:02] just wanted to scale up insanely. And so
+
+[00:26:05] one of the things I've been doing is is
+
+[00:26:07] creating tools to to help that. And then
+
+[00:26:10] and it it's similar to
+
+[00:26:13] like as an artist, you want if you're
+
+[00:26:16] making a character or something, you
+
+[00:26:17] want to see what it looks like in in the
+
+[00:26:19] game, right? So you make the character,
+
+[00:26:21] you put in the game, you run around with
+
+[00:26:23] it, test, does the silhouette look good?
+
+[00:26:24] Does it read? How does it feel from a a
+
+[00:26:26] gamer's perspective? Um and so so this
+
+[00:26:30] is kind of what the tools are great for.
+
+[00:26:32] you know, it's it's hard to get that
+
+[00:26:33] sense when you're just looking at a
+
+[00:26:34] spreadsheet and you try to make it look
+
+[00:26:36] as close as possible, but um instead
+
+[00:26:40] having these custom tools, which would
+
+[00:26:42] take weeks or months to get to this
+
+[00:26:44] level of fidelity, um just to start
+
+[00:26:47] spitting out content
+
+[00:26:49] now, AI assistance, coding, you can do
+
+[00:26:53] it in a couple days with one person. Um,
+
+[00:26:57] and then you have a full editor and
+
+[00:26:58] you're spitting out like actual content
+
+[00:27:00] that goes directly into the game and
+
+[00:27:03] it's just a nice clean pipeline. Um, so
+
+[00:27:06] you know, I've been kind of showing
+
+[00:27:07] these tools to the team uh as we give
+
+[00:27:10] updates and and they thought it was a
+
+[00:27:12] good idea that to maybe show the the
+
+[00:27:14] community as well and get a nice peak
+
+[00:27:17] behind the curtain. So that's where this
+
+[00:27:19] whole Sage editor suite kind of came in.
+
+[00:27:21] And again, this even this landing page
+
+[00:27:23] took an hour to put together.
+
+[00:27:25] uh to tie the tools together. Um so
+
+[00:27:28] we're we're using this to to to our
+
+[00:27:31] benefit for uh Star Atlas
+
+[00:27:36] and output because the amount of output
+
+[00:27:39] now that we're seeing with the amount of
+
+[00:27:41] new systems and
+
+[00:27:43] resources, I I don't know if a tiny team
+
+[00:27:48] like this could even manage. Um, I don't
+
+[00:27:51] I don't even know if it it's possible
+
+[00:27:53] for a brain to put all that in your
+
+[00:27:55] head. So, we need these systems. So,
+
+[00:27:57] anyway, pop into the map. I mean, that's
+
+[00:28:00] kind of like the coolest biggest. Sorry
+
+[00:28:02] to interrupt you, Danny. Just a
+
+[00:28:04] clarification for the audience. U, this
+
+[00:28:07] is not the Sage C4 UI, but we're showing
+
+[00:28:11] you guys a sneak peek behind the
+
+[00:28:12] curtains on how the editor tools look
+
+[00:28:15] like. This is not the UI that you will
+
+[00:28:17] see with C4.
+
+[00:28:20] Exactly right. Yeah, this is just uh be
+
+[00:28:23] behind the scenes raw development tools.
+
+[00:28:26] Um not a lot of care into like the
+
+[00:28:28] looks, just enough to get the the right
+
+[00:28:31] impression or uh any of us on the team
+
+[00:28:35] to quickly make edits um and and to see
+
+[00:28:38] what it looks like just, you know, from
+
+[00:28:41] top down. Um, so yeah. So we have this
+
+[00:28:44] uh
+
+[00:28:46] um map editor tool and I'll load in the
+
+[00:28:49] map. It's a little bit crazy, but let me
+
+[00:28:53] just uh turn off some of these filters.
+
+[00:28:57] Um, so the biggest thing obviously is
+
+[00:29:03] the amount of systems. So every dot here
+
+[00:29:05] is now a new system.
+
+[00:29:09] Um and and we're breaking them into
+
+[00:29:12] regions. So So the
+
+[00:29:14] difference we we you go from 51 systems
+
+[00:29:18] to now 69 regions. Um so you kind of can
+
+[00:29:22] think of regions the same way as systems
+
+[00:29:24] now uh in the current map. And uh uh
+
+[00:29:28] we'll get into more details later, but
+
+[00:29:30] you can see um how we're kind of setting
+
+[00:29:33] it up. And I was able to manually place
+
+[00:29:35] all these systems and then check to see
+
+[00:29:38] if um you know system counts match up
+
+[00:29:41] and we have a nice even distribution
+
+[00:29:43] between the uh the different factions.
+
+[00:29:46] But the point is also to not
+
+[00:29:51] uh well with combat and and the way the
+
+[00:29:53] systems are coming out most of them will
+
+[00:29:55] be will be neutral from the start. So
+
+[00:29:58] there's going to be plenty of place to
+
+[00:29:59] go and and find and take over new
+
+[00:30:04] territory. Um and so so another crazy
+
+[00:30:08] thing is and you saw all those labels
+
+[00:30:10] when I first dropped it. Um but those
+
+[00:30:12] are all the
+
+[00:30:14] um the new resources. So if I were to
+
+[00:30:16] zoom in starting to lag now with the
+
+[00:30:18] things and we turn off this. So like I
+
+[00:30:21] said there's all these tools now we can
+
+[00:30:22] just throw in there. Like I even have a
+
+[00:30:25] a heat map uh checker. So you can see um
+
+[00:30:29] certain
+
+[00:30:31] um like say if I wanted to see a heat
+
+[00:30:33] map of hydrogen, you could see it
+
+[00:30:36] getting hot in the middle. So So one of
+
+[00:30:38] the things we wanted to do
+
+[00:30:41] um was the very outskirts where the the
+
+[00:30:45] safe zones are will have low richness.
+
+[00:30:49] Um, and then as you get closer to the
+
+[00:30:52] middle to 00, we'll have high richness.
+
+[00:30:55] Um, and and so I'm I'm working with
+
+[00:30:59] Chris and you know, we're talking about
+
+[00:31:01] how to distribute things. Um, but the
+
+[00:31:05] point is to like, you know, let
+
+[00:31:07] people want to come in and take over
+
+[00:31:10] territories of different richnesses and
+
+[00:31:12] and and collide in the middle with
+
+[00:31:13] combat. Becomes very interesting, you
+
+[00:31:15] know, to to want to do that. Um, so
+
+[00:31:19] anyway, if I zoom in like say here, you
+
+[00:31:23] can kind of see
+
+[00:31:25] um the amount of new resources that
+
+[00:31:29] are this is I don't I don't think this
+
+[00:31:32] is all of them. This isn't the final
+
+[00:31:33] list. There's we're tailing we're
+
+[00:31:35] tailoring it every day. So, um yeah,
+
+[00:31:39] things will update and change and
+
+[00:31:48] linked together with these new things,
+
+[00:31:50] these these warp lanes. Um, and then
+
+[00:31:53] core systems comes into the the combat
+
+[00:31:56] um, and owning a territory. So, we'll
+
+[00:31:59] get into all that, but I just kind of
+
+[00:32:00] wanted
+
+[00:32:01] to show throw a quick overview of like
+
+[00:32:04] the new map that we're working with and
+
+[00:32:07] the the stats are crazy. Let me pull
+
+[00:32:10] that up. So, we
+
+[00:32:11] got
+
+[00:32:13] 945 total systems. Um, like I said, I I
+
+[00:32:18] evenly distributed it between the
+
+[00:32:20] different factions as if we were, you
+
+[00:32:21] know, taking the current map and and
+
+[00:32:24] swapping it over. Um,
+
+[00:32:27] 3,656 total
+
+[00:32:29] planets, stars, and everything like
+
+[00:32:31] there's a bunch of stats. You know,
+
+[00:32:33] again, the great thing about AI is it's
+
+[00:32:36] automating a lot of this stuff. Um, and
+
+[00:32:40] there's even some binary systems. And if
+
+[00:32:44] you're lucky, you can find a trinary
+
+[00:32:46] system. Let me
+
+[00:32:48] see.
+
+[00:32:50] Uh, no, no trinaries right now. Anyway,
+
+[00:32:55] um, I'll let Brett take over and and
+
+[00:32:58] stop for now. We can keep that up if you
+
+[00:33:01] can, just to give people a reference as
+
+[00:33:03] well.
+
+[00:33:05] Um, just be able to point it. But yeah,
+
+[00:33:08] so couple of big things there that you
+
+[00:33:12] may have noticed. So starting getting
+
+[00:33:13] into more of the mechanics of how all
+
+[00:33:15] this is working. So there's no longer
+
+[00:33:17] what we called sectors where like
+
+[00:33:19] currently in Sage there's a big grid
+
+[00:33:22] right on the map that uh you and your
+
+[00:33:23] ship is like in a grid square or it's
+
+[00:33:25] moving. Now we're basically going to a
+
+[00:33:27] decimal point number system. Um and it's
+
+[00:33:30] 64bit. If you look at the numbers on uh
+
+[00:33:33] out that means there's enough there's
+
+[00:33:35] enough points basically across the
+
+[00:33:37] entire real world galaxy for us to
+
+[00:33:40] differentiate each ship by a nanometer.
+
+[00:33:42] It 64-bit numbers are crazy. So we can
+
+[00:33:45] basically increase the density of the
+
+[00:33:47] galaxy infinitely now just by increasing
+
+[00:33:50] each um by putting more things in
+
+[00:33:52] between slowing ships down like you can
+
+[00:33:53] make the galaxy feel bigger. So we we've
+
+[00:33:56] got a ton more variation there. Um, that
+
+[00:33:58] also means ships inter no longer
+
+[00:34:01] interact like within the same sector.
+
+[00:34:02] They have a range of interaction. We
+
+[00:34:04] call the interaction range. That'll come
+
+[00:34:05] up more with combat later on. Um, so
+
+[00:34:09] couple of those numbers there that Danny
+
+[00:34:10] was saying like all the all the 69
+
+[00:34:12] regions, all the systems planets, like
+
+[00:34:14] multiple different types of planets all
+
+[00:34:16] over the place.
+
+[00:34:18] Um, Danny, could you pull up the like
+
+[00:34:20] region map again just to show off I know
+
+[00:34:24] what you're going to mention, Brett. Are
+
+[00:34:26] we going to tell people how they can own
+
+[00:34:28] a region? Yes, we are.
+
+[00:34:32] This is important. Pay attention.
+
+[00:34:39] It's loading.
+
+[00:34:43] Yeah, here we go. Um, just a bit laggy.
+
+[00:34:49] Still loading a little
+
+[00:34:51] bit. Yeah. So, little bit of preface
+
+[00:34:54] here then.
+
+[00:34:56] Um, still loading on still. Oh, there it
+
+[00:34:59] goes. Oh, now it works. Yep. So, you'll
+
+[00:35:02] notice that all the systems are
+
+[00:35:04] organized into regions. Um, the region.
+
+[00:35:07] Sorry, guys. So, you'll So, each system
+
+[00:35:10] has a singular star base basically on
+
+[00:35:13] it. Um, you can conquer each one of
+
+[00:35:15] those star bases through the combat
+
+[00:35:16] system and we'll talk about that a bit
+
+[00:35:17] later. But the the biggest thing is how
+
+[00:35:21] the we kind of have um border regions
+
+[00:35:24] and um safe regions. So the regions are
+
+[00:35:28] connected together by those um by the
+
+[00:35:30] star paths there. Uh war planes, forget
+
+[00:35:33] what we're calling them now. Um so that
+
+[00:35:36] kind of tells you what what regions
+
+[00:35:37] neighbor each other. So the so for to
+
+[00:35:40] own a region, you need to own all of the
+
+[00:35:43] core systems. So all those little like
+
+[00:35:44] castles that Danny has here, um those
+
+[00:35:46] are the core systems. Those are the ones
+
+[00:35:48] you want to protect, the ones you want
+
+[00:35:49] to build up, right? If if somebody comes
+
+[00:35:51] in and conquers those systems, they can
+
+[00:35:53] steal your uh region from you, right? So
+
+[00:35:56] owning the whole region, what that does
+
+[00:35:58] is it allows you to make regions behind
+
+[00:36:00] it safe. So the rules are a region is a
+
+[00:36:03] border region if it's if it has any
+
+[00:36:06] neighboring regions that are not owned
+
+[00:36:07] by you or if there's any systems inside
+
+[00:36:10] of it that are owned by an opposing
+
+[00:36:11] faction as well. Um,
+
+[00:36:13] so the advantages of having a safe
+
+[00:36:16] region are that you enemies cannot enter
+
+[00:36:19] those regions. They cannot attack. They
+
+[00:36:21] can't come in and try and mine their
+
+[00:36:22] asteroids. They can't do anything,
+
+[00:36:24] right? So they want so you're going to
+
+[00:36:27] have these kind of like safe regions
+
+[00:36:29] that can become border regions again as
+
+[00:36:31] they start conquering closer and closer
+
+[00:36:32] to you. So you've got to so you get that
+
+[00:36:35] option of do you want to participate in
+
+[00:36:36] that PvP or not, right? Um I I'll let
+
+[00:36:39] Danny talk about it anymore that if he
+
+[00:36:41] wants to but like kind of the logic
+
+[00:36:42] behind it.
+
+[00:36:48] Um yeah I mean so so one of the coolest
+
+[00:36:52] thing is first off you have your every
+
+[00:36:55] faction has their five star which are
+
+[00:36:58] permanently safe. Um and then you know
+
+[00:37:02] as you move
+
+[00:37:04] out you have the op option to expand
+
+[00:37:08] that safe region essent essentially as
+
+[00:37:10] long as you have these like border lines
+
+[00:37:13] or or front lines that are also owned
+
+[00:37:17] completely then you essentially expand
+
+[00:37:20] this is like a entire safe region um
+
+[00:37:25] and you know just what I've been
+
+[00:37:27] jokingly calling a culde-sac is say if
+
+[00:37:29] All you have to do is own that one and
+
+[00:37:32] then this one's completely safe just as
+
+[00:37:34] an easy way to understand it. Um, so
+
+[00:37:36] yeah, that's going to be a nice because
+
+[00:37:39] then you can just, you know, send out
+
+[00:37:40] things and fleets without having to
+
+[00:37:43] worry about like security exports and
+
+[00:37:44] stuff like that. So yeah, it strikes a
+
+[00:37:47] nice balance between there there is
+
+[00:37:49] still options for people to attack. So
+
+[00:37:51] it's not just like the first few star
+
+[00:37:52] bases that you can attack. You can still
+
+[00:37:54] have tactical like if there's a border
+
+[00:37:56] there, you can go around and attack the
+
+[00:37:58] back of their region, right? So you can
+
+[00:37:59] still have these tactical plays going
+
+[00:38:01] around and um still being able to like
+
+[00:38:03] cut off supplies to the very front
+
+[00:38:04] lines, but it it also allows players to
+
+[00:38:08] kind of feel safe by staying in the safe
+
+[00:38:09] regions where um get having their assets
+
+[00:38:12] still productive out there. But of
+
+[00:38:14] course, the borders are going to be
+
+[00:38:16] where the richest resources are. So
+
+[00:38:17] you're going to want to go out there and
+
+[00:38:18] take the risk, right? Protect your
+
+[00:38:21] assets, conquer all of that.
+
+[00:38:24] So, lots lots of trade-offs there that
+
+[00:38:25] you get to play around with and
+
+[00:38:27] coordinate with your faction
+
+[00:38:30] on.
+
+[00:38:33] So, mentioned before we have the warp
+
+[00:38:35] lanes now. Um, so the the biggest
+
+[00:38:37] movement changes, so like now that we
+
+[00:38:39] have a decimal point system on the map,
+
+[00:38:41] you can click anywhere on the map and go
+
+[00:38:42] there, right down to effectively
+
+[00:38:44] nanometer scale on the map, you're
+
+[00:38:45] you're not going to care that much about
+
+[00:38:47] going that far. Um but now we have warp
+
+[00:38:51] lanes as a third type of movement. So we
+
+[00:38:53] still have subwarp uh fuel efficient
+
+[00:38:56] very slow um can be and the other part
+
+[00:38:58] about that is you can be attacked while
+
+[00:38:59] you're subwarping if you're um in a
+
+[00:39:01] region in an area. We we still have
+
+[00:39:04] warping. We've added a warp spool at the
+
+[00:39:06] beginning. So basically your ships stays
+
+[00:39:08] idle for a little bit then goes into
+
+[00:39:10] warp and then arrives right and then
+
+[00:39:12] there's a warp cool down as well. The
+
+[00:39:14] warp spool is basically you can't just
+
+[00:39:15] warp to get out of an attack range. they
+
+[00:39:17] can still attack you while you're warp
+
+[00:39:18] spooling. So, you got to be careful
+
+[00:39:19] there. And then there's the warp lanes.
+
+[00:39:22] So, the warp lanes, you have to own both
+
+[00:39:24] ends, both star bases on both ends of
+
+[00:39:25] it, but then they just charge you an
+
+[00:39:27] atlas fee to travel on the warp lane
+
+[00:39:29] rather than you having to spend fuel.
+
+[00:39:31] So, it's kind of the highways of the of
+
+[00:39:33] the galaxy. So, and it's also the great
+
+[00:39:35] beach heads, right? So, if you're
+
+[00:39:36] attacking a sector, you want to take the
+
+[00:39:38] warp lane on the other side so your
+
+[00:39:39] ships can get in there much more easily.
+
+[00:39:44] Mhm. But there was a question Brett on
+
+[00:39:46] it and it was if uh you can only travel
+
+[00:39:50] through warp lanes or you can get
+
+[00:39:51] anywhere however you want basically like
+
+[00:39:54] just traveling there. Yeah. So the you
+
+[00:39:56] can still travel anywhere you want using
+
+[00:39:58] subwarp warp like when you're if you
+
+[00:40:00] don't if you're trying to go from like
+
+[00:40:01] say that orange one to the green one
+
+[00:40:03] over there that I'm looking at. Um you
+
+[00:40:05] you don't own the uh warp plane on the
+
+[00:40:08] other side yet. So you need to go take
+
+[00:40:09] the warp plane on the other side to be
+
+[00:40:11] able to actually or take the star base
+
+[00:40:12] on the other side to be able to activate
+
+[00:40:14] that. Right. So, you do have to travel
+
+[00:40:17] across the void there and can be
+
+[00:40:19] attacked and while you're in there, all
+
+[00:40:20] of that can still happen, right? Um, and
+
+[00:40:22] it's a trade-off, right? You spend atlas
+
+[00:40:24] to pay for the warp planes and they're
+
+[00:40:25] faster versus spending fuel to
+
+[00:40:28] um, warp or subwarp yourself, right? So,
+
+[00:40:31] there's a bunch of options there that
+
+[00:40:32] you get to pick.
+
+[00:40:35] Nice. I also saw another question about
+
+[00:40:37] is this in Solana Code yet? Yeah, it is.
+
+[00:40:40] We've got the the map is done. We're
+
+[00:40:42] still working on some other parts of it
+
+[00:40:43] for C4, but yeah, the map is map part is
+
+[00:40:46] done. The movement is actually was
+
+[00:40:48] relatively easy to convert over.
+
+[00:40:51] So, and I just want to make a quick
+
+[00:40:53] comment on the warplane fees. Those are
+
+[00:40:56] will be consistent with the rest of the
+
+[00:40:58] systems of taxation within Sage, which
+
+[00:41:01] is to say that any of the revenue
+
+[00:41:03] collected via warplane or Star Path fees
+
+[00:41:06] will go directly to the DAO as well.
+
+[00:41:11] Yep.
+
+[00:41:14] So,
+
+[00:41:16] um yeah, other things on the map. Um may
+
+[00:41:20] have noticed all of these resources. So,
+
+[00:41:22] updated numbers, most recent numbers
+
+[00:41:24] still subject to change. 86 different
+
+[00:41:26] raw resources, 229 intermediate
+
+[00:41:28] components, and 145 ingredients um are
+
+[00:41:32] currently what we're looking at on the
+
+[00:41:33] map. Um so, those raw resources are
+
+[00:41:35] spread across the map everywhere. Um
+
+[00:41:37] then everything else is going to be
+
+[00:41:39] craftable. So, of course, subject to
+
+[00:41:41] change. They're changing it a lot
+
+[00:41:42] depending on what new things need to be
+
+[00:41:44] supported and all of that. Um, another
+
+[00:41:47] big thing that I think everybody will be
+
+[00:41:48] happy about, Starbase Upkeep, no longer
+
+[00:41:50] a thing. Neither tool kits nor food. So,
+
+[00:41:54] that's all going to be handled in other
+
+[00:41:55] ways. Um, no more no more just everybody
+
+[00:41:58] having to pay food or follow the whales
+
+[00:42:00] around and paying food there.
+
+[00:42:05] Nice. Nice. I think that covers most for
+
+[00:42:09] when it comes to the map bread, right?
+
+[00:42:12] Yeah. Are we missing anything? I think
+
+[00:42:14] that's the major things on here. Um,
+
+[00:42:16] yeah. Uh, there's not going to be a high
+
+[00:42:18] res zone. We're not going to enable that
+
+[00:42:19] just yet. Just want to mention that it's
+
+[00:42:21] all going to be medium risk zone or low
+
+[00:42:23] zone.
+
+[00:42:25] So, yeah, maybe we'll turn it on
+
+[00:42:28] eventually, but we we we have the
+
+[00:42:30] ability to. It just won't be yet.
+
+[00:42:34] Yeah. Uh but should we transition to
+
+[00:42:38] combat? I think people want to learn
+
+[00:42:40] about combat and how that will work.
+
+[00:42:43] Yeah. So we can start out with a little
+
+[00:42:46] bit of just um some of the details about
+
+[00:42:48] how combat works. So it's not going to
+
+[00:42:51] be like tactical type of battles or like
+
+[00:42:53] flying around ships flying over each
+
+[00:42:55] other. Um it's going to be rather
+
+[00:42:56] simplified to start out here. Um just to
+
+[00:42:58] kind of get us started and make make it
+
+[00:43:01] easier for development. Like we want to
+
+[00:43:02] get this actually out at some point,
+
+[00:43:03] right? Um, so the combat's going to be
+
+[00:43:06] what we call atomic. Um, the idea being
+
+[00:43:10] you basically a a ship chooses a target
+
+[00:43:12] to attack. They attack instantly and um
+
+[00:43:15] the results are calculated there. That's
+
+[00:43:16] it. Results meaning not meaning like one
+
+[00:43:18] ship will always die and like we're
+
+[00:43:20] going to run 50 attacks in that instant.
+
+[00:43:21] It's like ships will take damage, maybe
+
+[00:43:24] one of them dies, maybe both of them
+
+[00:43:25] die, right? Um, but it's going to it's
+
+[00:43:28] going to be a ship chooses another ship
+
+[00:43:30] or ship chooses a star base to attack,
+
+[00:43:32] right?
+
+[00:43:32] So, that's how that works. Um, there's
+
+[00:43:36] going to be loot. So, when you when you
+
+[00:43:38] blow up a ship, you will their um cargo
+
+[00:43:41] pod will drop. So, all of their cargo
+
+[00:43:43] items and you'll be able to take a
+
+[00:43:44] portion of those items. Some of them
+
+[00:43:45] will get burned, of course, but um
+
+[00:43:47] you'll get a portion of those items and
+
+[00:43:49] salvage ships will be able to get more
+
+[00:43:51] of those items. So, there's a very good
+
+[00:43:53] reason to have salvage ships, right?
+
+[00:43:55] Um
+
+[00:43:57] so there's also there um for all of this
+
+[00:44:01] there's an action range. Um so now that
+
+[00:44:05] we are in a floatingoint system like
+
+[00:44:07] before how you would do it is basically
+
+[00:44:08] say okay if you're in the same square
+
+[00:44:10] you're allowed to attack anybody else in
+
+[00:44:11] the same square. Now what it is is
+
+[00:44:13] there's a global action range or
+
+[00:44:16] um interaction range whatever you want
+
+[00:44:18] to call it there. But that um that
+
+[00:44:21] global range you can kind of think of it
+
+[00:44:22] right now as 0.5 AU which is the one
+
+[00:44:25] square is 1 AU. So basically if you draw
+
+[00:44:27] a circle around that any anything within
+
+[00:44:29] that range of your ship you can interact
+
+[00:44:30] with and everybody has the same one. So
+
+[00:44:32] there's not like ranging with each other
+
+[00:44:33] like you're not one ship doesn't have
+
+[00:44:35] higher range and it's just kiting like
+
+[00:44:36] that gets a little complicated on chain.
+
+[00:44:38] So we just want to avoid that
+
+[00:44:39] completely.
+
+[00:44:40] Um so the as long as you're within that
+
+[00:44:43] range you can attack, you can loot and
+
+[00:44:45] uh you can repair as well. repair ships
+
+[00:44:47] can also um actively repair allied ships
+
+[00:44:50] and star bases.
+
+[00:44:54] Yeah. Nice.
+
+[00:44:57] So, another system that's um I'm not
+
+[00:45:00] going to go too far into details cuz
+
+[00:45:01] pretty complicated and like implications
+
+[00:45:03] and everything, but basically there's an
+
+[00:45:04] action point system that basically says
+
+[00:45:06] how um how much can you attack? Are you
+
+[00:45:09] reloading? If you loot something,
+
+[00:45:11] basically your weapons get reset. So
+
+[00:45:12] like you have you have to take that
+
+[00:45:14] trade-off of you'll be vulnerable if you
+
+[00:45:16] try to loot something but and so you
+
+[00:45:17] need to clear out other um enemies
+
+[00:45:19] around you. Um also forgot to mention it
+
+[00:45:22] like loot will be locked to the last
+
+[00:45:24] hitter. So if you hit if you are the one
+
+[00:45:27] that kills the ship, you get the loot
+
+[00:45:28] locked to yourself for at least a period
+
+[00:45:30] and then it'll be open open season for
+
+[00:45:32] that. Um, but there there's a a AP
+
+[00:45:36] system that it it also plays into
+
+[00:45:38] preventing like large ships aren't going
+
+[00:45:40] to be just blasting small ships, but a
+
+[00:45:42] small ships blast a large ship. It'll be
+
+[00:45:43] able to defend itself. That that sort of
+
+[00:45:45] thing. So, you can kind of think of it
+
+[00:45:47] more as just like there's an energy bar.
+
+[00:45:48] It gets spent up if you repair or loot,
+
+[00:45:50] and it gets partially spent if you
+
+[00:45:52] attack or
+
+[00:45:54] defend. Um, another part about this as
+
+[00:45:56] well on the atomic combat, it doesn't
+
+[00:45:58] really matter who starts the attack. um
+
+[00:46:01] it both ships will shoot back at each
+
+[00:46:03] other. So there's not just a clickfest
+
+[00:46:05] and like whoever gets the click first,
+
+[00:46:07] right? It's um if both ships attack each
+
+[00:46:09] other will attack each other whenever
+
+[00:46:11] you um hit each other. So yeah, I think
+
+[00:46:16] the next big thing is the ship
+
+[00:46:18] configurator to kind of tell you about
+
+[00:46:20] some of the stats that are being worked
+
+[00:46:22] on. And I think the community is going
+
+[00:46:24] to love this part, Brad.
+
+[00:46:26] Absolutely.
+
+[00:46:28] Yeah. This is where things get very
+
+[00:46:30] interesting. You needed that combat
+
+[00:46:31] preface to understand where this goes.
+
+[00:46:33] But yeah.
+
+[00:46:36] Yeah. Combat is kind of the the next big
+
+[00:46:38] tool. As you see, I have like a coming
+
+[00:46:40] soon section. So, I want to bring
+
+[00:46:43] basically what we build in these tools
+
+[00:46:47] leading up to the combat simulator. Um,
+
+[00:46:50] and and you mentioned loot. So, so
+
+[00:46:53] that's where we start. we start with
+
+[00:46:54] loop because this is um kind of the the
+
+[00:46:58] basis of everything. So I have this this
+
+[00:47:01] tool that um we can I can easily um list
+
+[00:47:07] out every single individual component uh
+
+[00:47:10] you know in the size and tiers and each
+
+[00:47:12] one needs to be its own like individual
+
+[00:47:14] item right and this was not I couldn't
+
+[00:47:19] use notion I couldn't use Google sheets
+
+[00:47:20] so I just built this thing to handle
+
+[00:47:23] this volume of data and there's we ended
+
+[00:47:26] up with about 3900 items and these are
+
+[00:47:30] the all the all the crafts that we're
+
+[00:47:31] going to going to be craftable uh in
+
+[00:47:35] C4 and um and then I can export this out
+
+[00:47:40] and use it in these other tools and I'll
+
+[00:47:43] show you how that that works. Um so this
+
+[00:47:46] on the back end too we have like you
+
+[00:47:49] know all the different items um in a in
+
+[00:47:53] a sheet and that's referenced here in a
+
+[00:47:55] conditional sort of format. Um, so then
+
+[00:47:58] I export it out of the loot matrix and
+
+[00:48:01] then I bring it into the ship
+
+[00:48:04] configurator now. Um, let me just load
+
+[00:48:08] that
+
+[00:48:11] up. So the ship
+
+[00:48:14] config takes all that
+
+[00:48:19] um components, modules,
+
+[00:48:22] uh ship
+
+[00:48:23] weapons, um countermeasures, missiles,
+
+[00:48:27] and this all goes towards configuring
+
+[00:48:29] your ship. And each each one of these
+
+[00:48:32] uh
+
+[00:48:35] components, you know, is a positive or
+
+[00:48:37] negative. and to a certain degree
+
+[00:48:40] um the the actual stats um and kind of
+
+[00:48:44] show you how that looks like. So now you
+
+[00:48:47] can take every ship and bring it into
+
+[00:48:49] this comparison table. And here's a a
+
+[00:48:52] set of the stats. It's not totally final
+
+[00:48:54] like all the stats that go into what
+
+[00:48:57] will eventually be the combat simulator,
+
+[00:48:59] but uh a lot of these base stats are
+
+[00:49:01] already live and then we're you know
+
+[00:49:04] upgrading them with these configs. So
+
+[00:49:07] right now every ship just has like
+
+[00:49:10] a a configuration and what that looks
+
+[00:49:14] like is say okay I'm on a
+
+[00:49:17] grenadator is these are all
+
+[00:49:26] even
+
+[00:49:27] Joseph uh oh oh we're losing see my
+
+[00:49:31] screen we we can still see the screen we
+
+[00:49:35] can still see the screen Now, now we
+
+[00:49:36] hear you. You can continue. You can
+
+[00:49:38] continue.
+
+[00:49:40] Big I have really bad ping. It's like
+
+[00:49:43] going into the the
+
+[00:49:46] um so yeah. So what I'll do is I'll take
+
+[00:49:48] a ship. I'll create a configuration.
+
+[00:49:50] I'll I actually load in the CSV from
+
+[00:49:53] notion. So it's the same information
+
+[00:49:55] that we've already planned on. Um and
+
+[00:49:58] then slot in weapons and countermeasures
+
+[00:50:02] uh to match the ship. You know, let me
+
+[00:50:04] know if I'm getting lost again.
+
+[00:50:06] Um and and so painstakingly went in
+
+[00:50:11] brought in all that data into this
+
+[00:50:12] editor and set these all up and and and
+
+[00:50:16] you can see in in real time if I were to
+
+[00:50:20] change any of them. Let's uh let's add
+
+[00:50:24] a let's see not that the ship can
+
+[00:50:26] support it but the large kinetic and
+
+[00:50:29] then you'll see the um the kinetic
+
+[00:50:32] energy kind of or kinetic damage update
+
+[00:50:35] in real time. Um, so I'll go through
+
+[00:50:38] that. And so this is basically a
+
+[00:50:41] shopping list now or a crafting list.
+
+[00:50:44] Um,
+
+[00:50:45] that for this specific config, Calico
+
+[00:50:49] evac tier 1 config. What you'll need to
+
+[00:50:52] do is go through the crafting process or
+
+[00:50:56] buy it on the secondary market um, and
+
+[00:50:58] get each one of these upgraded
+
+[00:51:01] components. And a lot of people, you
+
+[00:51:03] know, already with those component
+
+[00:51:04] bundles, you're going to get some of
+
+[00:51:05] these or at least,
+
+[00:51:07] yeah, we'll do the airdrop. Um, and
+
+[00:51:11] then, um, you'll be able to slot these
+
+[00:51:14] in and activate this tier one
+
+[00:51:17] configuration. Um, and so you get these
+
+[00:51:20] upgraded stats if you apply that
+
+[00:51:23] specific configuration.
+
+[00:51:25] Now, I did the one through five, and
+
+[00:51:28] these are just like scaling up. So, it's
+
+[00:51:30] all the same items um and they're
+
+[00:51:32] scaling up. And then what that looks
+
+[00:51:35] like is we have a couple of scaling
+
+[00:51:37] formulas um that apply to class scale
+
+[00:51:40] and then um tier scale. And you can
+
+[00:51:43] actually see that when you go into like
+
+[00:51:45] how is how is fuel capacity affected
+
+[00:51:47] here? Oh, I got a fuel module. And
+
+[00:51:49] here's the formula that actually, you
+
+[00:51:52] know, takes the base value that I input
+
+[00:51:54] and then multiplies by class and then
+
+[00:51:57] multiplies it by tier. And then you're
+
+[00:51:59] ending up with plus 244. And these
+
+[00:52:02] aren't final stats. These aren't final
+
+[00:52:04] values. Um, so now that I've got
+
+[00:52:08] everything
+
+[00:52:10] imported and slotted in, now's where
+
+[00:52:13] where we go in and we do some compar. I
+
+[00:52:17] also put together this like these ship
+
+[00:52:19] scores that show like okay how does it
+
+[00:52:21] do on cargo compared to other ships and
+
+[00:52:24] how does it do on uh uh the support
+
+[00:52:28] utility aspect the the mobility combat
+
+[00:52:33] uh mining score and then it shows you
+
+[00:52:35] like what stats and how awesome they are
+
+[00:52:39] and they're all weighted separately goes
+
+[00:52:42] towards giving you that score and then
+
+[00:52:44] I'll go through and and you know take
+
+[00:52:46] different classes of ships and compare
+
+[00:52:48] these scores to each other. Um, also a
+
+[00:52:52] bunch of analysis tools um to make sure
+
+[00:52:55] I'm um
+
+[00:52:59] um so yeah, lots going on here.
+
+[00:53:03] Um again, it's a work in progress, but
+
+[00:53:06] oh, so my the last thing I wanted to do
+
+[00:53:09] here, well, two two more things. Get all
+
+[00:53:12] the stats between all the we got 61
+
+[00:53:14] ships.
+
+[00:53:18] um get all the configs are working
+
+[00:53:22] nicely and would be as
+
+[00:53:23] expected and then
+
+[00:53:26] um build a bunch more configs. So right
+
+[00:53:30] now we have a bunch of different damage
+
+[00:53:32] types um or now we're able to turn on a
+
+[00:53:35] bunch of different damage types. So with
+
+[00:53:36] all the different weapons we can turn on
+
+[00:53:38] different damage types and how how I'm
+
+[00:53:40] anticipating that's going to work is you
+
+[00:53:42] have all these different damage types
+
+[00:53:43] but all these different counter types.
+
+[00:53:45] Um, and each type of damage has a
+
+[00:53:47] counter. And so you do something like,
+
+[00:53:49] and just to simplify, um, you know, gray
+
+[00:53:53] goo has a certain damage amount and then
+
+[00:53:57] the, uh, healing nanobots is the counter
+
+[00:53:59] to gray goo. So if you have a counter
+
+[00:54:02] measure of healing nanobots and someone
+
+[00:54:04] shoots some gray goo at you, then you're
+
+[00:54:05] blocking it just probably just one to
+
+[00:54:07] one. um and then any remainder
+
+[00:54:13] uh and then your whole points um
+
+[00:54:16] something like that just to understand
+
+[00:54:18] basics of combat. So there's a lot more
+
+[00:54:19] opportunity for us
+
+[00:54:22] to dynamite sticks whatever you know
+
+[00:54:25] just keep going
+
+[00:54:27] um and and make it a more
+
+[00:54:30] interesting combat battlefield
+
+[00:54:33] basically. Um, I want to do like, you
+
+[00:54:37] know, Grrey Goo heavy
+
+[00:54:40] uh config or something where you just
+
+[00:54:41] like slot in all the Grrey Goo weapons,
+
+[00:54:43] something like that. Or if you want to
+
+[00:54:45] just, you know, now you're in, you have
+
+[00:54:46] this expanded safe zone region, so you
+
+[00:54:49] just want to focus purely on mining and
+
+[00:54:51] you have no
+
+[00:54:55] just here's the mining that just like
+
+[00:54:57] maximizes everything for and then you go
+
+[00:54:59] and you you uh create that configuration
+
+[00:55:02] and then you get all these parts and you
+
+[00:55:04] slot them in and boom, now you're
+
+[00:55:06] activating all these different
+
+[00:55:07] configurations. And and just for fun,
+
+[00:55:10] let's look at the um uh let's look at
+
+[00:55:14] the Wait a second. I loaded all ships
+
+[00:55:17] and now now it's lagging. Hang
+
+[00:55:19] on. Let me remove them.
+
+[00:55:23] Danny, people are asking what happens
+
+[00:55:24] with components if a ship is destroyed.
+
+[00:55:30] Okay.
+
+[00:55:31] Um, so I just wanted to show this is
+
+[00:55:35] this is just
+
+[00:55:36] funny to see the difference in weapon
+
+[00:55:41] counts and types of weapons and
+
+[00:55:43] countermeasures when you go all the way
+
+[00:55:45] up to Titan. Anyway, so that's the fun
+
+[00:55:48] part about all this crafting and and
+
+[00:55:51] components is uh permanent loss. Oh, not
+
+[00:55:56] permanent. Actually, some of it will be
+
+[00:55:59] dropped as loot, but you lose it. Um,
+
+[00:56:03] yeah. So, you're you're going to respawn
+
+[00:56:05] without any of this. So, that's the risk
+
+[00:56:07] you take with the configs. And it sounds
+
+[00:56:09] like a lot of of it sounds like a lot of
+
+[00:56:12] pain, but you'll quickly realize how
+
+[00:56:16] beneficial it is to have these slotted
+
+[00:56:19] and upgraded. So, you're going to want
+
+[00:56:20] to do it despite the risk of losing it.
+
+[00:56:25] Can I can I just jump in here for one
+
+[00:56:27] second? I don't want to steal thunder,
+
+[00:56:28] but man, I do want to emphasize the
+
+[00:56:32] economic implications of this new
+
+[00:56:35] system. Uh, all of these components are
+
+[00:56:39] going to have recipes. Uh, and they will
+
+[00:56:41] be purely craftable by players. So, we
+
+[00:56:44] do have the ship parts bundles. There's
+
+[00:56:46] going to be a process to convert those
+
+[00:56:48] into raw resources which go into
+
+[00:56:50] crafting these components, but
+
+[00:56:53] ultimately this is such a massive
+
+[00:56:56] enhancement to the way that the player
+
+[00:56:58] economy is going to work because it's
+
+[00:57:00] it's very conceivable that an individual
+
+[00:57:02] player is not able to craft all of these
+
+[00:57:04] underlying components that they want to
+
+[00:57:06] equip on their assets. And then on top
+
+[00:57:08] of this when the war machine is rolling
+
+[00:57:10] and you have combat and you have uh you
+
+[00:57:13] know faction conflict all of these
+
+[00:57:16] components are just getting regularly
+
+[00:57:18] destroyed and there will be a
+
+[00:57:20] requirement to rebuild reconstruct those
+
+[00:57:22] and and I'm just thinking about the way
+
+[00:57:24] that that is going to enhance trade and
+
+[00:57:27] drive peer-to-peer trade and and revenue
+
+[00:57:29] opportunities for players.
+
+[00:57:32] um absolutely massive as a sync and also
+
+[00:57:34] as a new way for players to participate
+
+[00:57:36] in the economy and and uh pick up some
+
+[00:57:39] some revenue by servicing those that
+
+[00:57:42] require these components. I also just
+
+[00:57:44] want to take one moment here, Danny, uh
+
+[00:57:46] and perhaps pull Brett in to talk a
+
+[00:57:49] little bit about how um the ship
+
+[00:57:53] configuration system is going to work.
+
+[00:57:56] Uh because it's not it's not necessarily
+
+[00:57:58] full customizability right now. Uh there
+
+[00:58:02] are precon prefab
+
+[00:58:04] um configurations that people can target
+
+[00:58:07] and they will have to craft all of the
+
+[00:58:09] underlying components and then uh Brett
+
+[00:58:12] m maybe you can jump in here. Once you
+
+[00:58:14] craft the components you essentially
+
+[00:58:15] form a new asset with all of the
+
+[00:58:18] components applied. Uh can you expand on
+
+[00:58:20] that?
+
+[00:58:21] Yeah. So, as Michael was saying here, um
+
+[00:58:25] it's a bit complicated to do where you
+
+[00:58:27] have every ship can be configured
+
+[00:58:29] infinitely, right? That's eventually
+
+[00:58:30] what's going to be happening, but to get
+
+[00:58:32] C4 in a reasonable amount of time so
+
+[00:58:34] that you guys could actually play it. Um
+
+[00:58:36] it's going to be just the preset configs
+
+[00:58:38] where we're talking about like 15 to 20
+
+[00:58:40] um configs per ship. So, as Danny was
+
+[00:58:43] shown here, like you have tier one
+
+[00:58:44] through five, he's wanting to do some of
+
+[00:58:45] the uh more specialist configs as well.
+
+[00:58:48] Um, so you could do there could be
+
+[00:58:49] configs like mining config for a ship
+
+[00:58:51] that takes off the weapons, puts on
+
+[00:58:52] drills or something like that, right?
+
+[00:58:54] Um, so there there's going to be a bunch
+
+[00:58:56] of preset configs and we can add more
+
+[00:58:57] over time if there's a lot of demand for
+
+[00:58:59] certain ones or if Santi wants to do
+
+[00:59:01] some fun things.
+
+[00:59:02] Um, so the um that those presets
+
+[00:59:06] basically what what'll happen is um
+
+[00:59:10] we're not going to have like the
+
+[00:59:11] configured ship as a token that makes
+
+[00:59:13] the that blows up the marketplace like
+
+[00:59:15] crazy. Um, and we don't have that kind
+
+[00:59:17] of NFT style right now. It would be in
+
+[00:59:19] an individual token per and you
+
+[00:59:20] basically have a separate market for
+
+[00:59:22] each of 20 different ships. Like 20xing
+
+[00:59:23] our ship market is that would reduce the
+
+[00:59:26] liquidity far too much. So, what we're
+
+[00:59:27] looking at here is that um you still
+
+[00:59:30] have the base ship token. When you add a
+
+[00:59:31] ship to a fleet, you pick which config
+
+[00:59:34] you want to add to that fleet and it
+
+[00:59:35] takes a certain amount of tokens
+
+[00:59:36] depending on what you do. So, let's say
+
+[00:59:38] you have an X4 that takes four guns. Um,
+
+[00:59:41] it takes some more stuff, too, but um
+
+[00:59:42] and you pick the configuration that has
+
+[00:59:44] four guns on it. you need to have those
+
+[00:59:45] four guns in your in your star base when
+
+[00:59:47] you add it to the fleet and then it's
+
+[00:59:48] added to the fleet in that configuration
+
+[00:59:50] and each configuration is completely
+
+[00:59:51] separate stats. They can have full they
+
+[00:59:54] have full control um on Danny's side of
+
+[00:59:56] what each config does from every single
+
+[00:59:58] value that a ship can have, right?
+
+[01:00:01] Um
+
+[01:00:02] so when the at the moment you put your
+
+[01:00:05] ship into the fleet, that's when you
+
+[01:00:07] decide what config it is. when it comes
+
+[01:00:08] out of the fleet, it comes out um when
+
+[01:00:10] you disband the fleet, it comes out with
+
+[01:00:12] the ship and the tokens that formed that
+
+[01:00:14] ship. Should the fleet die um from
+
+[01:00:17] self-destruct or from uh hostile action,
+
+[01:00:21] then that the components will be burned
+
+[01:00:24] and your fleet and your ships will
+
+[01:00:25] respawn back at the CSS. So, fleets no
+
+[01:00:28] longer respond, ships respawn, right?
+
+[01:00:30] Um, also on the bundles, um, the
+
+[01:00:34] probably what's going to happen here is
+
+[01:00:35] that the bundles are going to result in
+
+[01:00:37] multiple sets of components since they
+
+[01:00:39] are a bit more usable now. Um, to kind
+
+[01:00:42] of keep in line with how we communicated
+
+[01:00:43] the bundles as this is enough components
+
+[01:00:45] to out your ship, right? Um, so result
+
+[01:00:49] in multiple multiple there or higher
+
+[01:00:51] level than um, but we'll we'll make that
+
+[01:00:53] correct with how we communicated it when
+
+[01:00:55] we originally launched the ship bundles.
+
+[01:00:59] Um yeah, I'll I'll mention one
+
+[01:01:02] additional consequence here of this
+
+[01:01:04] extensive ship configuration is uh
+
+[01:01:08] particularly given we have these atomic
+
+[01:01:11] combat systems. One of the concerns
+
+[01:01:12] early on was that you know big player
+
+[01:01:15] big fleet can just easily destroy small
+
+[01:01:17] fleet. Uh this this configurability
+
+[01:01:20] actually does make combat more dynamic
+
+[01:01:22] and it does make it feasible that if a
+
+[01:01:25] you know a player strategically
+
+[01:01:26] configures a a smaller fleet um and and
+
+[01:01:30] perhaps focuses on uh combat a combat
+
+[01:01:34] configuration versus a player that has a
+
+[01:01:36] larger you know or higher VWAP fleet but
+
+[01:01:39] is misconfigured for combat or defense
+
+[01:01:42] that uh that smaller player can actually
+
+[01:01:44] win this engagement. So, uh it kind of
+
+[01:01:47] evens the playing field to some extent
+
+[01:01:50] uh in uh in this mode.
+
+[01:01:55] Yeah. And there's also an element of
+
+[01:01:56] randomness in here. So, when when that
+
+[01:01:58] combat's happening, there will be some
+
+[01:02:00] random rolls that occur. So, it's not
+
+[01:02:02] always I know I'm going to win. Like
+
+[01:02:04] there there's some random chance that
+
+[01:02:06] they get a critical hit, blow you up, or
+
+[01:02:08] um you get a critical hit, blow them up,
+
+[01:02:10] or you have many ships attacking them.
+
+[01:02:12] And there's a lot more strategy involved
+
+[01:02:14] than just is my stat lot
+
+[01:02:18] bigger.
+
+[01:02:20] So yeah, the um I think we saw there,
+
+[01:02:24] but it was like 3,900 components is what
+
+[01:02:27] they currently have. Um so all of those
+
+[01:02:30] are going to be craftable. All of those
+
+[01:02:31] are new tokens basically in the game and
+
+[01:02:33] are going to take various resources
+
+[01:02:35] across everything. So there's going to
+
+[01:02:37] be some markets for that and then um
+
+[01:02:39] building up all of those things.
+
+[01:02:43] Um, yeah. And then the the
+
+[01:02:46] the next step from here for me, like I
+
+[01:02:50] said, this was the editor, get all the
+
+[01:02:51] stats together, and now I can export
+
+[01:02:54] this out as another JSON that goes into
+
+[01:02:57] um the um combat simulator. So without
+
+[01:03:01] the editing capabilities and as as much
+
+[01:03:04] of the editing capabilities then I can
+
+[01:03:07] pit them against each other and and see
+
+[01:03:09] if it's balanced and you
+
+[01:03:14] know yeah you can see the steps as
+
+[01:03:17] they're leading to this big thing here.
+
+[01:03:20] Um, so cool. Also want to be clear that
+
+[01:03:24] the combat numbers are like the combat
+
+[01:03:26] damage types and all those numbers,
+
+[01:03:27] those are the biggest influx um items.
+
+[01:03:30] Like we can do since we're doing atomic
+
+[01:03:32] combat, we can make it very complicated
+
+[01:03:34] um inside of that atomic equation. Like
+
+[01:03:36] we can do a lot of different math as
+
+[01:03:37] long as it's all solvable instantly. So
+
+[01:03:40] there can be a number of changes that we
+
+[01:03:42] can do um very easily in there. So,
+
+[01:03:47] and I saw uh Chris make a comment in the
+
+[01:03:49] chat, by the way. And we all know Chris
+
+[01:03:51] is is the uh most evil economist on the
+
+[01:03:55] planet, but does some really incredible
+
+[01:03:57] work for us. And uh there is a heavy
+
+[01:04:00] waiting in LP uh loyalty uh points,
+
+[01:04:04] which will still be a factor in how in
+
+[01:04:07] the daily epoch emissions of Atlas out
+
+[01:04:09] to players, but combat systems will be
+
+[01:04:11] heavily weighted in LP. uh further
+
+[01:04:14] encouraging uh those engagements and
+
+[01:04:17] also there's um it's less rewarding to
+
+[01:04:20] go attack smaller fleets than it is for
+
+[01:04:23] a smaller fleet to destroy a larger
+
+[01:04:25] fleet. So trying to maintain some
+
+[01:04:27] balance there and avoid some some
+
+[01:04:30] griefing uh to the extent that that's
+
+[01:04:32] possible with the blockade and region
+
+[01:04:33] system.
+
+[01:04:38] Uh Brad, I think could be cool to talk
+
+[01:04:40] about attacking a star
+
+[01:04:42] base and how that would Yeah. So fleets
+
+[01:04:46] attack fleets. Um that's kind of a given
+
+[01:04:49] here, but the next big thing is
+
+[01:04:51] attacking a star base, right? So that's
+
+[01:04:53] actual territory conquest. Um basically
+
+[01:04:56] it's uh what it is is you just choose
+
+[01:04:58] the star base as another target. Um it
+
+[01:05:01] pulls up a different equation because
+
+[01:05:02] star bases are not the same as ships,
+
+[01:05:04] right? like um bombers may have uh
+
+[01:05:07] higher damage against star bases or
+
+[01:05:08] ships. All that all that sort of thing
+
+[01:05:10] all goes into the combat equation that
+
+[01:05:12] Danny's designing here. Um but star
+
+[01:05:16] bases are basically just giant stat
+
+[01:05:17] blocks is the idea here. Um what happens
+
+[01:05:20] is when you blow up say a a tier four
+
+[01:05:23] star base, everybody's attacking that
+
+[01:05:24] the health gets down to zero. The star
+
+[01:05:27] base becomes tier three, right? So it's
+
+[01:05:29] you can kind of think of it as a
+
+[01:05:30] segmented health bar. So, you knock a
+
+[01:05:31] tier four down to tier three, tier three
+
+[01:05:33] down to tier two, tier one, uh, tier two
+
+[01:05:35] down to tier one, and then one goes to
+
+[01:05:37] zero. Um, tier zero, if you if you blow
+
+[01:05:41] up a star base and it becomes tier zero
+
+[01:05:43] after the attack, you conquer it
+
+[01:05:45] basically. So, it becomes your star
+
+[01:05:46] base, your ships can dock there, you can
+
+[01:05:47] do upgrades on it, you can do everything
+
+[01:05:49] a star base can do, everything that's at
+
+[01:05:51] least available at that level of star
+
+[01:05:52] base in that system. So, like local
+
+[01:05:54] markets may not be available until a
+
+[01:05:55] certain starbase level.
+
+[01:05:57] Um, so that that's really the like that
+
+[01:06:02] that's the um main territory control
+
+[01:06:05] aspect. The system itself is not owned
+
+[01:06:07] until you upgrade that to level one. So,
+
+[01:06:09] you do have to get it upgraded, right?
+
+[01:06:11] Um, if you blow up a tier zero, it
+
+[01:06:12] becomes a tier zero of yours.
+
+[01:06:14] Um, yeah, I think that's that's the main
+
+[01:06:17] things to have to do there. So, there's
+
+[01:06:19] a lot of strategy involved of do you
+
+[01:06:21] attack the star base and while the other
+
+[01:06:22] ships are attacking you, do you like
+
+[01:06:23] come in and try to strike it real quick?
+
+[01:06:25] um doing all of those sorts of actions.
+
+[01:06:28] The other part about this is repair
+
+[01:06:30] ships. So repair ships can target ships
+
+[01:06:32] or star bases and they choose to say um
+
+[01:06:35] but that's basically what you do to
+
+[01:06:37] repair. Um you can pay toolkits to
+
+[01:06:41] repair a ship in space or repair star
+
+[01:06:43] base. Um it adds to basically a pending
+
+[01:06:46] pool. So if you've ever played um I
+
+[01:06:48] think it's Diablo is a good example here
+
+[01:06:49] where you take a potion, it says, "Okay,
+
+[01:06:51] your health's going to go up to here,
+
+[01:06:52] but you heal at a rate." The same thing
+
+[01:06:54] happens with the star base and the
+
+[01:06:55] ships. So you it's not like an instant
+
+[01:06:58] repair that you can just like dump a ton
+
+[01:06:59] of repair on. It has to repair over
+
+[01:07:01] time, but it has a repair value that
+
+[01:07:03] it's going to go up
+
+[01:07:05] to. Um so you can outdamage a star
+
+[01:07:08] base's possible repairs if you have
+
+[01:07:10] enough ships, right? Or outdamage a
+
+[01:07:11] fleet as well.
+
+[01:07:14] Um, another cool part about this, if
+
+[01:07:17] someone if the if another faction is
+
+[01:07:19] upgrading from tier 0 to tier one and
+
+[01:07:21] you blow up the tier zero, you get a
+
+[01:07:22] portion of that upgrade. So, if they're
+
+[01:07:26] like 99%, you blow them up, you might
+
+[01:07:28] get 80 you you conquer it and you have
+
+[01:07:30] 80% upgrade progress. So, comes a lot
+
+[01:07:33] cheaper for
+
+[01:07:35] you. Um, anything else here?
+
+[01:07:39] Did you mention what happens uh when a
+
+[01:07:43] when a star base is basically when it
+
+[01:07:45] changes hands to the resources that are
+
+[01:07:47] in there? Oh yeah. Um when the star base
+
+[01:07:50] changes hands, any resources that are
+
+[01:07:52] within that star base are burned. So um
+
+[01:07:55] local markets, crafting, um any any
+
+[01:07:59] storage, all that's burned. So I'm
+
+[01:08:02] really looking forward to see the local
+
+[01:08:03] market prices as a star base is about to
+
+[01:08:05] blow up.
+
+[01:08:07] So see see those ships that come in to
+
+[01:08:10] try to get those super cheap prices and
+
+[01:08:11] get out before they get blown up
+
+[01:08:12] themselves, right? That's going to be
+
+[01:08:14] super cool to
+
+[01:08:15] watch. So yeah, protect your star.
+
+[01:08:20] Protect your star bases. not just for
+
+[01:08:22] the resources on I'm realizing here in
+
+[01:08:24] our agenda we don't actually have any
+
+[01:08:27] coverage specifically of the implication
+
+[01:08:30] of starbased tiers and the features that
+
+[01:08:32] that unlocks um and the benefits that a
+
+[01:08:36] faction receives for having a leveled up
+
+[01:08:38] star basease. I might also take an
+
+[01:08:40] opportunity just to confirm here that
+
+[01:08:43] any of the Starbase upgrades that exist
+
+[01:08:46] in Starbase within those regions. Now,
+
+[01:08:49] the map is expanding as you guys have
+
+[01:08:50] seen, but for any of those Starbase
+
+[01:08:53] upgrades that have taken place in
+
+[01:08:54] Starbase, those will persist through
+
+[01:08:57] into C4. So, uh you will actually
+
+[01:09:00] receive those benefits. Brett or Danny,
+
+[01:09:03] can one of you guys maybe speak to just
+
+[01:09:05] some of the benefits that you get by
+
+[01:09:08] having a leveled up Starbase?
+
+[01:09:10] Yeah. So, well, one of the
+
+[01:09:12] things Brett just quick, one of the
+
+[01:09:15] things I wanted to mention there is part
+
+[01:09:17] of the uh owning a region is owning all
+
+[01:09:20] the the core systems. And um I was
+
+[01:09:24] actually talking with Funcracker just a
+
+[01:09:26] little bit ago, but about the amount of
+
+[01:09:28] systems, you know, blooming insanely
+
+[01:09:32] um what we're what we're talking about,
+
+[01:09:35] and this isn't totally final, but I
+
+[01:09:37] think everyone's kind of aligned with
+
+[01:09:38] this, is even within a region, there's
+
+[01:09:42] there's a few core systems, but we want
+
+[01:09:45] to make one, which I'm just calling a
+
+[01:09:47] king system right now, and that's where
+
+[01:09:49] the local market only one local market
+
+[01:09:52] for the entire region. Um, and we're
+
+[01:09:56] going to test it to see if that if that
+
+[01:09:58] works. But the the point is to not
+
+[01:09:59] dilute. So, every single um system and
+
+[01:10:02] every Starbase has its own local market.
+
+[01:10:05] So, you'll still want to like, you know,
+
+[01:10:07] stay within close contact with that one
+
+[01:10:09] King system that is also a core system.
+
+[01:10:12] And I that's the one I'm thinking will
+
+[01:10:14] also
+
+[01:10:15] transfer over from current Star Bases
+
+[01:10:18] and then you own that one. Of course,
+
+[01:10:20] there's more more regions per
+
+[01:10:24] um faction. So, there's new totally
+
+[01:10:26] neutral ones, but the ones that
+
+[01:10:28] currently are there transfer over and
+
+[01:10:31] you'll get the king system with the the
+
+[01:10:33] local market. So, that's all I want to
+
+[01:10:35] say.
+
+[01:10:37] Yeah. And this is all dynamic as well.
+
+[01:10:40] It's going to be very easy for us to say
+
+[01:10:42] we have an increase in number of
+
+[01:10:43] players. We need more local markets
+
+[01:10:45] because we're not too worried about
+
+[01:10:45] liquidity anymore. can create uh we can
+
+[01:10:48] add more local market systems, right? We
+
+[01:10:50] can we can change a lot of this uh on
+
+[01:10:52] the fly as well. So on the on the
+
+[01:10:55] benefits of creating a Starbase, um
+
+[01:10:57] there's LP benefits. I think Chris is
+
+[01:10:58] still hamming those numbers out. I don't
+
+[01:11:00] want to uh step on him there because
+
+[01:11:03] it's not finalized.
+
+[01:11:05] Um, but you do unlock the the local
+
+[01:11:08] markets and you also unlock um a either
+
+[01:11:13] a a deferring fee on the um on the war
+
+[01:11:18] plananes. Uh so if you leave from a
+
+[01:11:20] higher level star basease, you it's less
+
+[01:11:22] expensive. And then
+
+[01:11:24] um you also get more claim stake and
+
+[01:11:28] crafting hab plots as the star base
+
+[01:11:30] levels up um and unlocking even more
+
+[01:11:33] tiers as well. I believe Danny, you had
+
+[01:11:34] a few of those that were like zero until
+
+[01:11:36] they get a certain level, right? So,
+
+[01:11:39] there's quite a bit um that you get by
+
+[01:11:40] upgrading a star base.
+
+[01:11:46] Cool. Uh I think Brett, this is uh well,
+
+[01:11:51] I'll let you add that that you were
+
+[01:11:53] going to add and then we can transition
+
+[01:11:54] to the next C. Yeah. Yeah. You also get
+
+[01:11:57] the higher stat block, right? So, um, as
+
+[01:11:59] you upgrade the star base, you get,
+
+[01:12:01] okay, I've leveled from level three to
+
+[01:12:02] level four. Now, you get the higher stat
+
+[01:12:04] block. It's more defended, right? Takes,
+
+[01:12:06] it's much harder to crack a larger star
+
+[01:12:08] base.
+
+[01:12:12] Mhm. Cool. I think it's a good
+
+[01:12:15] transition into We're only at the first
+
+[01:12:17] C of C4, by the way, but we can go to
+
+[01:12:21] claim stakes now and how that's going to
+
+[01:12:23] work.
+
+[01:12:28] Yeah.
+
+[01:12:31] Yeah. Next tool is
+
+[01:12:35] uh claim stakes and this one was done by
+
+[01:12:39] Joseph. Uh it's not fully done, but you
+
+[01:12:41] can definitely get see a lot of how it
+
+[01:12:43] works.
+
+[01:12:45] Um and like like Brad was saying, you
+
+[01:12:47] know, you you own the star base. Uh now
+
+[01:12:51] you're unlocking plots across that
+
+[01:12:54] system.
+
+[01:12:55] uh plots across the whole region, I
+
+[01:12:58] guess. Yeah. No, no, no. Starbase. Yeah.
+
+[01:13:01] System. Yeah.
+
+[01:13:03] It's within the system and then you
+
+[01:13:05] still have to own the region though to
+
+[01:13:07] even start that.
+
+[01:13:09] Um so, so yeah, this is kind of what
+
+[01:13:13] it's going to be like. you have all
+
+[01:13:15] these different planets um and these
+
+[01:13:19] different claim well claim stakes that
+
+[01:13:22] you know unlock different things on
+
+[01:13:24] different planets and you can see like
+
+[01:13:26] what resources are available um and like
+
+[01:13:30] slots and and tier and all that um and
+
+[01:13:33] the types of buildings that can be built
+
+[01:13:36] on
+
+[01:13:37] that particular claim stake.
+
+[01:13:41] Um, so the simulator actually lets you
+
+[01:13:43] play through it. So you purchase that
+
+[01:13:45] claim stake and then it starts
+
+[01:13:47] producing. Um, again we're still
+
+[01:13:50] refining all these uh numbers and and
+
+[01:13:54] resources that are actually being uh
+
+[01:13:57] extracted during this process. Um, but
+
+[01:14:01] nice to have a simulator where you can
+
+[01:14:03] go in and and and build these out.
+
+[01:14:06] Currently, um, if I wanted to build
+
+[01:14:09] this, it would cost 50 steel and 25
+
+[01:14:13] electronics, but I don't have that. And
+
+[01:14:16] that's what, you know, the we have the
+
+[01:14:20] feature that you can just like give
+
+[01:14:22] yourself that so you can build it. But
+
+[01:14:25] it's not currently in right now. So, you
+
+[01:14:27] just kind of take a look at um like what
+
+[01:14:29] it produces, what it consumes, and then
+
+[01:14:31] what it would cost to build and the
+
+[01:14:34] different upgrades as well. Um,
+
+[01:14:37] so there are a ton of buildings
+
+[01:14:42] um and a ton of um things that can be
+
+[01:14:45] crafted and the biggest thing with claim
+
+[01:14:47] stakes is the autocrafting. So as long
+
+[01:14:50] as you're in a safe region, you can
+
+[01:14:52] basically set it and forget it and uh at
+
+[01:14:54] a certain point become sustainable.
+
+[01:14:57] Um, but yeah, you're going to want to
+
+[01:15:00] keep these safe because pretty
+
+[01:15:03] destructive if you uh if you lose that
+
+[01:15:05] star
+
+[01:15:07] base. Um, yeah, that's just kind of a
+
+[01:15:10] quick overview as you can see
+
+[01:15:14] um the different things that would be uh
+
+[01:15:18] producing for this partic particular
+
+[01:15:20] claim stake. And then just kind of, you
+
+[01:15:24] know, in the at some point we do want to
+
+[01:15:27] make this available so people can theory
+
+[01:15:30] craft all the different things you can
+
+[01:15:31] do. Um, but we want to get everything
+
+[01:15:34] nailed down. So there's a lot of craft
+
+[01:15:37] recipes that are still in progress.
+
+[01:15:41] Um, so it's not ready to send out yet,
+
+[01:15:44] unfortunately. Um, anything else you
+
+[01:15:46] want to go over while I have this?
+
+[01:15:49] probably worth mentioning here. And
+
+[01:15:51] Chris, you're out there in the audience.
+
+[01:15:52] If you, you know, feel free to jump up
+
+[01:15:54] on stage if you'd like to comment on any
+
+[01:15:56] of these uh any of the economic design
+
+[01:15:59] elements, but worth noting that if a a
+
+[01:16:02] star base and region is captured, any of
+
+[01:16:06] the claim stakes within that region are
+
+[01:16:08] effectively destroyed as well. Now, all
+
+[01:16:12] of the buildings and structures that you
+
+[01:16:14] place on the claim stake will be
+
+[01:16:15] destroyed. the claim stakes themselves
+
+[01:16:18] will be returned to um uh Brett maybe
+
+[01:16:21] correct me if I'm wrong here but go back
+
+[01:16:23] to the CSS so you do not lose your claim
+
+[01:16:26] stake but any of the effort and
+
+[01:16:28] resources that you put into constructing
+
+[01:16:30] that claim stake will be destroyed yes
+
+[01:16:32] that that's correct CSS
+
+[01:16:36] um so even more reason to protect
+
+[01:16:39] regions and protect star bases because
+
+[01:16:42] it's very likely that you have
+
+[01:16:44] logistical operations established just
+
+[01:16:46] using claim stakes and if that region is
+
+[01:16:48] gone that whole operation is gone as
+
+[01:16:51] well. Yeah, there there's also ways you
+
+[01:16:53] can lose even on a down level because
+
+[01:16:55] basically each planet has a um table of
+
+[01:16:58] starbased level versus claims stake tier
+
+[01:17:00] of how many slots are available and
+
+[01:17:03] assuming increase, right? Um so a tier
+
+[01:17:05] one has 100 and a tier two has 200. If
+
+[01:17:09] you're the number 10 and two and you're
+
+[01:17:11] um or not tier two, sorry, a level two
+
+[01:17:13] star base has 200. If you're number 102
+
+[01:17:17] um and the star base goes from level two
+
+[01:17:19] to level one, then your claim stake is
+
+[01:17:21] lost and uh that will return to the
+
+[01:17:24] local star base. Um it's it'll respond
+
+[01:17:26] at the CSS if it's completely lost.
+
+[01:17:30] Yeah, thank you. And then uh so on top
+
+[01:17:32] of that there are now the claim stakes
+
+[01:17:35] also give you an option to Danny I might
+
+[01:17:37] have missed it if you covered this but
+
+[01:17:39] it's not only extracting resources but
+
+[01:17:41] you can have structures that autocraft
+
+[01:17:43] various outputs now not everything you
+
+[01:17:45] will still need to go uh to star bases
+
+[01:17:48] to craft certain components but that's
+
+[01:17:50] right
+
+[01:17:53] yeah um you'll you'll have automation of
+
+[01:17:56] crafting now with that crafting you
+
+[01:17:58] don't have to pay crafting fees because
+
+[01:17:59] you own the claim stake itself, you're
+
+[01:18:02] not using the Starbase facility. Uh so
+
+[01:18:04] therefore, you avoid that 7% fee.
+
+[01:18:06] However, your claim stakes are subject
+
+[01:18:09] to varying degrees of rent uh that
+
+[01:18:12] you'll have to pay periodically. The
+
+[01:18:13] rent is a function of the tier of the
+
+[01:18:16] claim stake itself as well as the tier
+
+[01:18:18] of the star base that it's operating
+
+[01:18:21] within. Um anything you want to add to
+
+[01:18:23] that, Brett? Yeah. Um I could just start
+
+[01:18:27] going down my list of all the mechanics
+
+[01:18:29] here as well cuz you're jumping on me.
+
+[01:18:32] But uh no um I'm just so excited.
+
+[01:18:36] Yeah. So the like I'll just kind of go
+
+[01:18:38] down this list here, but the claim
+
+[01:18:40] stakes you put them on planets, right?
+
+[01:18:42] So claim stakes go on planets. Um
+
+[01:18:44] they're player owned extraction and
+
+[01:18:45] production facilities. So they um
+
+[01:18:47] there's a bunch of different mining
+
+[01:18:48] drills that can mine resources from the
+
+[01:18:50] planets depending on the planet's
+
+[01:18:51] richness, right? So a planet as we saw
+
+[01:18:52] earlier could have like krypton um or
+
+[01:18:55] rokenol um richness and you build an
+
+[01:18:59] extractor on that it'll get multiplied
+
+[01:19:00] by that richness basically. So at 15 per
+
+[01:19:02] second that Danny's showing there that
+
+[01:19:04] if the planet has two richness it would
+
+[01:19:05] get 30 per second for example or if it
+
+[01:19:07] has five richness it would have 7.5 per
+
+[01:19:08] second.
+
+[01:19:10] Um so and then you got production which
+
+[01:19:13] there's kind of two different outputs.
+
+[01:19:15] There's extractive output and then just
+
+[01:19:16] normal output. So if you have like a
+
+[01:19:18] farm that would just have normal output
+
+[01:19:19] of food or something like that. Um, and
+
+[01:19:21] then you can also have a negative input
+
+[01:19:22] where like a power generator maybe needs
+
+[01:19:24] to take fuel or something. Um, so you're
+
+[01:19:27] you kind of build up this balancing of
+
+[01:19:29] all of your um different stats. Anything
+
+[01:19:31] that you're negative on, you need to
+
+[01:19:32] supply the claim steak with by sending
+
+[01:19:34] your ships down to supply um things to.
+
+[01:19:36] So like if you're if he needs to take
+
+[01:19:38] fuel to power it, then you need to
+
+[01:19:40] supply some fuel. Or uh there where he
+
+[01:19:41] has consumes, if it takes 10
+
+[01:19:43] electromagnets and you're not locally
+
+[01:19:44] producing those, then you need to um uh
+
+[01:19:47] deliver those to the claim stake, right?
+
+[01:19:49] um for it to keep
+
+[01:19:51] functioning. So there's there's a ton of
+
+[01:19:53] different resource in and outputs there.
+
+[01:19:56] Um
+
+[01:19:57] so the um there's a bunch of different
+
+[01:20:00] stats as well that are not just
+
+[01:20:02] resources. So there's power you need to
+
+[01:20:03] have um certain buildings consume power,
+
+[01:20:05] certain buildings produce power. You
+
+[01:20:07] need need to stay positive or zero
+
+[01:20:09] power, right? Net neutral. Um so either
+
+[01:20:11] building like solar farms or power
+
+[01:20:13] generators or whatever else that take up
+
+[01:20:15] a certain number of slots on the claim.
+
+[01:20:17] uh buildings take slots and you're
+
+[01:20:18] depending on the size of your claim
+
+[01:20:19] stake, you only have so many building
+
+[01:20:20] slots, right? Um so like a solar panel
+
+[01:20:23] may produce some power for free, but it
+
+[01:20:25] takes more space than a gas generator or
+
+[01:20:28] something like that.
+
+[01:20:30] Um then there's also crew number. So
+
+[01:20:32] like your crew need to live, so you got
+
+[01:20:35] to build barracks, but also some things
+
+[01:20:37] then take crew or maybe there's a low
+
+[01:20:39] crew variant of a building that um is a
+
+[01:20:42] little less efficient but takes no crew.
+
+[01:20:44] like there's a whole bunch of different
+
+[01:20:45] trade-offs you're able to take in here.
+
+[01:20:47] Um, and there to be clear, I'm not
+
+[01:20:50] saying what we're going to be launching
+
+[01:20:51] with, but that's more on Danny's side of
+
+[01:20:52] like what the designs are, but these are
+
+[01:20:54] all things that can be done and can be
+
+[01:20:55] added later as well. Um, so the other
+
+[01:21:00] part, uh, so when you place your claim
+
+[01:21:01] stake, you basically you put your claim
+
+[01:21:02] stake, you claim that spot, um, and that
+
+[01:21:06] that's like the initial point. You have
+
+[01:21:08] no buildings on it. It's not really
+
+[01:21:09] doing anything. Then you go into the
+
+[01:21:10] design phase where you can design, add
+
+[01:21:12] in buildings, subtract buildings, all of
+
+[01:21:14] that. And you can redesign at any time.
+
+[01:21:16] It takes some time for it to construct
+
+[01:21:17] before it starts producing depending on
+
+[01:21:18] how many changes you're making. But you
+
+[01:21:20] can swap in buildings, swap out um tra
+
+[01:21:24] trade out for things, add more storage
+
+[01:21:26] so it can store more before it has to be
+
+[01:21:27] picked up or delivered, right? Um
+
+[01:21:30] there's a a ton of different uh options
+
+[01:21:33] you have there. It's meant to be like
+
+[01:21:35] something you could spend a lot of time
+
+[01:21:36] on designing out the perfect claim stake
+
+[01:21:38] for all these things. Especially on the
+
+[01:21:39] tier fives. Like there's going to be a
+
+[01:21:41] ton of building slots on those that
+
+[01:21:42] you're going to be there's a ton of
+
+[01:21:44] different ways you could design these
+
+[01:21:45] out and the suddenly we release a new
+
+[01:21:47] release that has more buildings and now
+
+[01:21:49] you got to redo all that work. It's
+
+[01:21:50] going to be great.
+
+[01:21:53] Brett, can I can I just interrupt you
+
+[01:21:54] for one second? I I actually saw a
+
+[01:21:56] comment from Santi and I do think it's
+
+[01:21:57] pretty important because there might be
+
+[01:21:59] some impulse behavior taking place. We
+
+[01:22:02] we're going to mention this at the end
+
+[01:22:03] of claim stakes, but uh there was a
+
+[01:22:06] question on whether or not there that
+
+[01:22:07] you can craft claim stakes. No, you will
+
+[01:22:09] not be able to craft claim stakes. We're
+
+[01:22:11] also not going to allow you to upgrade
+
+[01:22:14] the tier of a claim stake. Of course,
+
+[01:22:16] you can select the various tiers of
+
+[01:22:19] buildings and structures that you place
+
+[01:22:20] on there, but they will be confined to
+
+[01:22:23] the amount of slots available. But I I I
+
+[01:22:25] just want to mention here, we are going
+
+[01:22:28] to list and sell another trunch of claim
+
+[01:22:31] stakes as we approach approach the
+
+[01:22:33] release of uh C4. More on that release
+
+[01:22:36] strategy later, but um don't the
+
+[01:22:39] recommendation is not to go out and
+
+[01:22:41] purchase claim stakes at a premium right
+
+[01:22:43] now because we will be introducing more
+
+[01:22:46] inventory later. So that's a fair
+
+[01:22:48] warning. Again, don't go purchase above
+
+[01:22:50] origination price. We'll have another
+
+[01:22:52] sale at some point. uh in the not too
+
+[01:22:55] distant future. Back to you. Yeah. So,
+
+[01:22:59] what do you do with all the resources
+
+[01:23:00] and all the consumptions? As I said,
+
+[01:23:02] your fleets have to go there. Bas fleets
+
+[01:23:04] are going to basically be nursing these
+
+[01:23:06] claim stakes to deliver and um take
+
+[01:23:08] resources back. And as these fleets are
+
+[01:23:11] delivering things, if you're not in a
+
+[01:23:12] safe zone, you can be blown up, right?
+
+[01:23:14] So, there's cargo ships that are picking
+
+[01:23:16] up and delivering from claim stakes. You
+
+[01:23:17] can blow them up. Attack-wise, though,
+
+[01:23:20] you can't directly attack a claim stake.
+
+[01:23:22] Um the real way to attack the claim
+
+[01:23:23] stake is down leveling the starbase and
+
+[01:23:24] that will kick the claim stake out
+
+[01:23:26] right. So
+
+[01:23:29] um yeah then so the other part to talk
+
+[01:23:33] about here is rent. Um so by having your
+
+[01:23:36] claim stake on the planet you will be
+
+[01:23:37] having to pay rent to the DAO. Um the
+
+[01:23:40] rent is based on as Michael was saying
+
+[01:23:42] the tier and of the claim stake and the
+
+[01:23:44] level of the star base. Um each each
+
+[01:23:46] planet has a different um rent value
+
+[01:23:49] like based on that table. Each planet
+
+[01:23:50] can have a unique table. So, you'll have
+
+[01:23:51] to look at the specific planets and
+
+[01:23:53] evaluate um for yourself what the best
+
+[01:23:55] place to put your claim stake is. Um if
+
+[01:23:59] you run out if if you run out of rent,
+
+[01:24:01] basically you're kind of supplying a
+
+[01:24:02] bank of rent. If you run out of rent,
+
+[01:24:03] you have a grace period. Um haven't
+
+[01:24:05] decided how long that is yet, but um
+
+[01:24:08] there will be a grace period where your
+
+[01:24:09] claim stake is not producing or act
+
+[01:24:11] actively working, but you still hold the
+
+[01:24:13] slot and you're not immediately evicted,
+
+[01:24:15] right? Um, but if you have not played
+
+[01:24:17] your paid your rent by the time the
+
+[01:24:20] claim stake um, but if you haven't paid
+
+[01:24:22] your rent by the time your grace
+
+[01:24:23] period's over, you can be evicted by
+
+[01:24:25] someone else trying to take your
+
+[01:24:30] spot. So the planets do have limited
+
+[01:24:32] spots, right? So got to pay for your
+
+[01:24:36] spot. Um, I think that's all the major
+
+[01:24:39] things on claim stakes. Were there any
+
+[01:24:41] other major questions, Santi, that I
+
+[01:24:42] missed?
+
+[01:24:44] I think you covered pretty much
+
+[01:24:46] everything, Brett. There's a lot. Just
+
+[01:24:48] so people know, next week at the brew on
+
+[01:24:51] Wednesday, we will we'll have you,
+
+[01:24:54] Brett, I'm formally inviting you to
+
+[01:24:57] the to the stage. So, we will cover C4
+
+[01:25:01] at that brew. And honestly, I think Bob
+
+[01:25:04] just tagged me. Yeah, we'll need a
+
+[01:25:06] couple brews just to go over everything.
+
+[01:25:08] before, but don't worry, like we we'll
+
+[01:25:10] have team members joining the Bruce
+
+[01:25:12] and replying to questions from you guys.
+
+[01:25:15] So, yeah, I did see one about ship
+
+[01:25:17] mining. Ship mining is still a thing.
+
+[01:25:18] There are asteroids. Um, this is another
+
+[01:25:20] way to mine. I think I believe that the
+
+[01:25:22] design is calling for like ship mining
+
+[01:25:24] to be reduced quite a bit. Um, fighters
+
+[01:25:25] now have other things to do besides
+
+[01:25:27] mining. So, um, there there is still
+
+[01:25:31] asteroids out there. Um, the other thing
+
+[01:25:33] now is that you can mine asteroids at
+
+[01:25:34] hostile areas if you can access them.
+
+[01:25:37] Um, that's up to you. You can take that
+
+[01:25:39] risk. So,
+
+[01:25:44] cool. Uh, all right. We're at the second
+
+[01:25:47] sea now. So, we can keep moving, Brett,
+
+[01:25:49] if you want. Uh, we can get on crafting
+
+[01:25:53] habs now. Yeah, crafting habs are very
+
+[01:25:56] similar to claim stakes. Um, the they
+
+[01:26:00] have a the very similar building system,
+
+[01:26:02] very similar rent system. They're just
+
+[01:26:04] on a star-based level. So, you build
+
+[01:26:06] crafting habs on star bases instead of
+
+[01:26:08] on planets um like you do with claim
+
+[01:26:10] stakes. And instead of extracting, they
+
+[01:26:12] have um crafting effects that allow you
+
+[01:26:14] that um adjust your crafting
+
+[01:26:16] capabilities. So, it's it's still the
+
+[01:26:20] same slot system. It's just per
+
+[01:26:21] Starbase. It's still the same rent
+
+[01:26:22] system just on Starbase. Um and instead
+
+[01:26:25] of extraction, also there's no power
+
+[01:26:27] because the Starbase provides the power.
+
+[01:26:28] So, you don't have to worry about power
+
+[01:26:29] generation. Um, the main effect of a
+
+[01:26:32] crafting hab is when you when you go
+
+[01:26:34] into choose a craft, you can choose a
+
+[01:26:36] crafting hab to use on that on that
+
+[01:26:38] craft. Um, so crafting habs can affect
+
+[01:26:40] things like efficiency, um, crew
+
+[01:26:43] required, new recipes,
+
+[01:26:46] um, fee reductions, things like that.
+
+[01:26:49] Um, so the real stats that you have to
+
+[01:26:52] adjust are all of those things, as well
+
+[01:26:54] as um, capacity for the crafting hab. So
+
+[01:26:56] a crafting hab can only affect so many
+
+[01:26:57] jobs at the same time, right? So, if
+
+[01:26:59] you're crafting, so you need to build
+
+[01:27:01] more storage. So, you got to do that
+
+[01:27:02] trade-off of if you have a big crafting
+
+[01:27:04] hab, you um add more uh you can add more
+
+[01:27:07] storage or add more effects, right? And
+
+[01:27:09] which one um do you want? So, you have a
+
+[01:27:12] big trade-off there. And some effects
+
+[01:27:13] may be negative, right? Like they they
+
+[01:27:14] go in both directions. So, you may take
+
+[01:27:16] one negative effect and exchange for
+
+[01:27:18] another effect, right? Um it also can
+
+[01:27:20] unlock new recipes. May you may require
+
+[01:27:22] certain buildings to even build a
+
+[01:27:24] recipe. like there's a special recipe
+
+[01:27:25] that allows you to turn iron ore into
+
+[01:27:28] copper plates, something like that. It
+
+[01:27:30] you have to have the alchemist building
+
+[01:27:32] or something, right? Um so the recipes
+
+[01:27:35] can be unlocked by certain uh by certain
+
+[01:27:38] buildings on crafting
+
+[01:27:40] apps.
+
+[01:27:42] Um other than that, it's very similar to
+
+[01:27:44] claim stakes. Um so it's but it's has
+
+[01:27:47] much more effect than we're spending
+
+[01:27:49] time on here by changing up crafting.
+
+[01:27:52] crafting itself is like wildly different
+
+[01:27:54] now with how many recipes there are and
+
+[01:27:56] how much effects you can get out of just
+
+[01:27:58] certain uh crafting
+
+[01:28:00] facilities.
+
+[01:28:06] So,
+
+[01:28:08] okay. Did we cover everything there?
+
+[01:28:10] That was a speedrun for crafting house.
+
+[01:28:13] Yeah, they they share a lot of stuff.
+
+[01:28:15] They share a lot of code, too, which is
+
+[01:28:16] also very nice.
+
+[01:28:19] Nice. Nice. Nice. Okay, we're moving.
+
+[01:28:22] We're moving. And you guys are missing
+
+[01:28:25] one last C, which is council rank. And
+
+[01:28:29] we can get on council rank right now.
+
+[01:28:32] Yeah. So council rank also encompasses
+
+[01:28:34] research notes. That's what Danny has
+
+[01:28:35] here of um of a 2B to be designed. It's
+
+[01:28:39] still in the design process, but council
+
+[01:28:41] rank is kind of now the entire
+
+[01:28:43] progression system for the game. So
+
+[01:28:44] we've talked about it before being like
+
+[01:28:46] for okay, you need a certain rank to fly
+
+[01:28:48] certain ships and all of that sort of
+
+[01:28:49] thing.
+
+[01:28:50] Um it's also applying to basically
+
+[01:28:53] unlock everything across the game now.
+
+[01:28:56] So it's you earn certain you earn XP in
+
+[01:29:00] um in different categories like we have
+
+[01:29:02] now. There's more categories that are
+
+[01:29:03] also going to be showing up such as like
+
+[01:29:05] mining and building um I think mining is
+
+[01:29:08] already thing building and um combat or
+
+[01:29:12] no combat was pilot I forget there's
+
+[01:29:14] there's some other categories that are
+
+[01:29:15] coming in with it. Um you also earn
+
+[01:29:17] renown which is your overall council
+
+[01:29:19] rank here. So that and um all of these
+
+[01:29:22] points can be spent to unlock new
+
+[01:29:24] research nodes. So research nodes could
+
+[01:29:25] cost can have dependencies on each
+
+[01:29:27] other. They can cost resources, they can
+
+[01:29:29] cost um renown or XP to be researched
+
+[01:29:33] and they can unlock all of these things.
+
+[01:29:34] So like buildings will be um behind
+
+[01:29:37] research nodes, ship configs will be
+
+[01:29:39] behind research nodes. Um uh different
+
+[01:29:42] tiers of claim stay you need to get to
+
+[01:29:44] certain uh research node levels. Um ship
+
+[01:29:47] size can be behind is behind research
+
+[01:29:49] nodes.
+
+[01:29:51] Um ship like how big of a ship you can
+
+[01:29:53] pilot. So piloting skill is behind
+
+[01:29:55] research nodes. How many fleets you can
+
+[01:29:57] have on a single account that's behind a
+
+[01:29:59] research node. All of the all of these
+
+[01:30:01] can be unlocked. Um do want to cover
+
+[01:30:03] that.
+
+[01:30:04] all the XP you are getting. Um, it will
+
+[01:30:07] you you will have access to a majority
+
+[01:30:10] of your stuff if you've been playing for
+
+[01:30:11] a very while a long time. So, don't
+
+[01:30:14] don't worry too much there about
+
+[01:30:15] starting out.
+
+[01:30:18] Yeah, we well Chris specifically and
+
+[01:30:20] Gareth are working through the mapping
+
+[01:30:22] of XP, but I I'm glad you brought that
+
+[01:30:25] up. I think it's important to emphasize
+
+[01:30:27] people who are OGs who have been playing
+
+[01:30:29] Sage for, you know, since the beginning
+
+[01:30:31] or even recently, any of the XP that you
+
+[01:30:35] get now, uh, both on the, uh, kind of
+
+[01:30:39] global level as well as on the
+
+[01:30:41] individual sublicens level will carry
+
+[01:30:43] over. Um, the goal is to structure that
+
+[01:30:47] in a way so that players who have been
+
+[01:30:49] actively engaged in pre-leveling do get
+
+[01:30:52] the benefit of that and in most cases
+
+[01:30:54] should be able to bring most of their
+
+[01:30:56] assets into the game. We don't want to
+
+[01:30:58] punish people uh that have been playing
+
+[01:31:01] for a long time and prevent them from uh
+
+[01:31:04] taking advantage of all the assets they
+
+[01:31:05] own.
+
+[01:31:08] Yeah. And on rentals as well, you'll
+
+[01:31:09] you'll be able to form fleets that you
+
+[01:31:12] can't fly. Um the limitation is on
+
+[01:31:14] whether or not you can actually use
+
+[01:31:15] those fleets, right? So you can still
+
+[01:31:17] form the fleets and rent them out. So if
+
+[01:31:18] you want to go buy a Titan and you have
+
+[01:31:20] no no account yet, you can still build
+
+[01:31:23] that Titan into a fleet and rent that
+
+[01:31:24] out to other people that can fly a
+
+[01:31:25] Titan, for example. Um which is huge,
+
+[01:31:28] which I mean that is such a big audience
+
+[01:31:30] for us. I mentioned it at the beginning,
+
+[01:31:31] but I I think the fleet rental system
+
+[01:31:33] over time, given how much demand is
+
+[01:31:35] there, uh we could see people come into
+
+[01:31:38] the ecosystem just to buy a large
+
+[01:31:40] quantity of game assets with the pure
+
+[01:31:42] intent of renting it out to other
+
+[01:31:44] players. This makes sure that they're
+
+[01:31:46] not restricted from forming fleets
+
+[01:31:47] within the game, just from using them if
+
+[01:31:49] they don't have the sufficient uh rank
+
+[01:31:52] in game to do so.
+
+[01:31:56] Yeah, another big change here. Um we're
+
+[01:31:59] introducing new scanning patterns as
+
+[01:32:01] another thing that can be unlocked um
+
+[01:32:02] through the council rank system and the
+
+[01:32:04] research nodes. So right now we just is
+
+[01:32:06] we basically have one scanning pattern
+
+[01:32:08] um and it has its own galactic winds map
+
+[01:32:11] and everything that people have noticed.
+
+[01:32:12] Um it has its own like basically loot
+
+[01:32:14] table, right? Um oh Danny's leaking even
+
+[01:32:20] more. But uh the it has it now we can
+
+[01:32:23] have more scanning patterns with more um
+
+[01:32:26] uh with more types of loot that will be
+
+[01:32:28] unlocked and takes different resources
+
+[01:32:31] than just um
+
+[01:32:33] toolkits. Yeah, food. We changed that so
+
+[01:32:37] much. Um but it there's going to be more
+
+[01:32:39] scanning patterns, different costs,
+
+[01:32:41] different maps behind them. So there may
+
+[01:32:43] be wildly different areas that you need
+
+[01:32:45] to scan for certain things. So scanning
+
+[01:32:48] is going to become even more
+
+[01:32:49] interesting.
+
+[01:32:53] Nice. Nice. Yeah, more scanning patterns
+
+[01:32:56] for scanners. That's actually And more
+
+[01:32:59] loot for data runners as
+
+[01:33:02] well. Pretty cool. And the good news is
+
+[01:33:06] if you're in a a a blockaded region,
+
+[01:33:09] which is effectively a safe zone, you
+
+[01:33:11] can still have those passively scanning
+
+[01:33:14] in that region without fear of
+
+[01:33:16] loss. Sure.
+
+[01:33:20] Although low risk, low reward, right?
+
+[01:33:30] Anything else on council rank? Anything
+
+[01:33:32] we missed?
+
+[01:33:36] Yeah. Um, I see one question on the co
+
+[01:33:38] Yeah, different cosmic currents
+
+[01:33:39] depending on your scanning pattern. So,
+
+[01:33:41] there'll be it's not just one giant
+
+[01:33:43] cosmic currents. There's a bunch of
+
+[01:33:44] different ones going on.
+
+[01:33:47] I love it. Cosmic currents.
+
+[01:33:51] Uh uh uh. Anything else, Brett, before
+
+[01:33:54] we keep moving? Um one question on the
+
+[01:33:57] border regions that I see too. Um the a
+
+[01:34:00] if a region is safe, enemy ships cannot
+
+[01:34:02] enter it. You need to take over a
+
+[01:34:04] region, but um the definition of a safe
+
+[01:34:06] region is all regions neighboring it are
+
+[01:34:08] also owned by you, right? So you need to
+
+[01:34:11] take over one of the regions neighboring
+
+[01:34:12] it, then you can go into that region.
+
+[01:34:14] So, just want to be clear on that.
+
+[01:34:21] Okay. Uh, Michael, I think we have an
+
+[01:34:24] announcement to make. Are we
+
+[01:34:28] begrudgingly? begrudgingly, but by
+
+[01:34:30] popular demand, uh given all of the
+
+[01:34:32] changes that have taken place to data
+
+[01:34:34] runners uh in Starbased recently, as
+
+[01:34:37] well as these upand cominging features
+
+[01:34:39] and enhancements to data runners as we
+
+[01:34:42] get into C4 uh by popular demand and by
+
+[01:34:45] request of the community, we have
+
+[01:34:47] decided to launch a sale of data
+
+[01:34:51] runners. So that'll consist of both the
+
+[01:34:53] rangers and the ray fam right now for
+
+[01:34:55] which we have primary inventory. Uh
+
+[01:34:57] we're going to be offering a 50%
+
+[01:35:00] discount for both a limited time and
+
+[01:35:02] limited quantities. So right now data
+
+[01:35:04] that data runner sale at 50% off will
+
+[01:35:07] run um to the earliest of either Monday
+
+[01:35:11] of next week. Uh we'll probably dial in
+
+[01:35:14] a specific time, but I assume it'll be
+
+[01:35:16] something like 9 or 10 a.m. PST. Uh so
+
+[01:35:18] that'll run through the weekend
+
+[01:35:20] effectively. Uh the quantities are
+
+[01:35:22] limited. We have
+
+[01:35:23] 280 rangers on the market. We have 400
+
+[01:35:27] Rayfams that will be eligible for that
+
+[01:35:30] 50% discount. So, if you've been holding
+
+[01:35:32] out wanting to pick up a data runner or
+
+[01:35:34] two, uh that uh that discount is applied
+
+[01:35:37] and live on the marketplace right now.
+
+[01:35:41] Do we have the link there? Anyone maybe
+
+[01:35:44] Dom, our official link
+
+[01:35:47] poster can link it in the chat so people
+
+[01:35:49] can go um check that out right now. I
+
+[01:35:52] think it's live already on the
+
+[01:35:53] marketplace.
+
+[01:35:55] So yeah, no I I see someone asking for
+
+[01:35:59] the gu the guardian. The guardian is not
+
+[01:36:00] the data runner. Um this is ray fams and
+
+[01:36:06] rangers. So you guys can go check that
+
+[01:36:09] out right now if you want.
+
+[01:36:13] Okay, that's right. Yeah, the the only
+
+[01:36:16] other data runner specialized ship is is
+
+[01:36:18] the Visus OPOD, but the OPOD right now
+
+[01:36:20] is uh well was sold out many many years
+
+[01:36:25] ago. So, uh this is primary market
+
+[01:36:27] inventory from our team.
+
+[01:36:32] Mhm. So, yeah, sale is live right now.
+
+[01:36:36] Limited time, limited quantity. So, link
+
+[01:36:39] has been posted on the minor on the
+
+[01:36:42] announcements channel. So you can go
+
+[01:36:44] check that
+
+[01:36:45] out. Uh should we keep moving here? I
+
+[01:36:50] think we wanted to cover a bit of the
+
+[01:36:53] infrastructure improvements that we're
+
+[01:36:55] making and then we can get on the C4
+
+[01:36:57] rollout
+
+[01:37:00] approach. Yeah. Can start talking a
+
+[01:37:03] little bit about more of the backend
+
+[01:37:05] technical type of stuff going u on
+
+[01:37:08] behind this. So Starcom has gone through
+
+[01:37:11] uh a major rewrite to support C4. So
+
+[01:37:13] especially with the basically over
+
+[01:37:16] 100xing of the amount of stuff going on
+
+[01:37:18] in C4, um we really need something that
+
+[01:37:21] can support that. So it's far more
+
+[01:37:23] scalable now. Um we written it in a a
+
+[01:37:27] different way now where we have
+
+[01:37:29] basically like a database that kind of
+
+[01:37:31] stores the current state. Then we
+
+[01:37:32] initialize a bunch of servers off of
+
+[01:37:34] that and the servers are live listening
+
+[01:37:35] to a stream of data that we have. Um and
+
+[01:37:37] those each of those servers is running a
+
+[01:37:40] SQLite database internally. So we can
+
+[01:37:42] actually run some very complicated
+
+[01:37:44] queries. Um and it also changes our dev
+
+[01:37:47] workflow from being where like Starcom
+
+[01:37:49] specifies here's all the things that a
+
+[01:37:50] client can request to being the client
+
+[01:37:52] says I want to request these things and
+
+[01:37:55] we can um starcom can effectively serve
+
+[01:37:58] those requests much more easily. So the
+
+[01:38:00] client code becomes a lot simpler. The
+
+[01:38:02] starcom code just becomes hey we need to
+
+[01:38:03] write these queries. um the whole thing
+
+[01:38:05] flows a lot better and it's already a
+
+[01:38:08] lot uh a lot easier to work in as we're
+
+[01:38:10] building out C4 here. So it it should
+
+[01:38:13] perform a ton better um than the current
+
+[01:38:15] Starcom system. They're a lot more
+
+[01:38:17] observability in there. A lot more able
+
+[01:38:19] to observe like or able to see like oh
+
+[01:38:21] this this was missed um we can catch
+
+[01:38:24] that. We can compare like each each one
+
+[01:38:26] of the client facing servers to the like
+
+[01:38:28] main database and see where the issues
+
+[01:38:30] are coming between the two. So, it's a
+
+[01:38:32] lot we we've had a lot of issues with
+
+[01:38:34] observability that now we have now we're
+
+[01:38:36] fixing. So, we're able to find these
+
+[01:38:37] issues a lot more easily. Um, used to be
+
+[01:38:40] a ton of work to or still is a ton of
+
+[01:38:42] work to tr to trace any of those
+
+[01:38:44] issues. Um, not live yet that's coming
+
+[01:38:48] still working on that, but it's coming
+
+[01:38:49] with
+
+[01:38:50] C4. Um, another big thing, um, we've
+
+[01:38:54] talked about it a bit in like the
+
+[01:38:55] community developers channel, but
+
+[01:38:56] something we call Starframe. Um, so if
+
+[01:38:58] you know how programs are developed on
+
+[01:39:01] Salana, the general system that's used
+
+[01:39:03] is something called Ankor or it's a
+
+[01:39:04] library. Um, Ankor is great. It works
+
+[01:39:07] well. Uh, we ended up with writing Sage
+
+[01:39:10] adding about three times as much code on
+
+[01:39:12] top of Ankor's library of our own
+
+[01:39:13] library stuff to get just Sage working.
+
+[01:39:16] Um, and so finally got to the point
+
+[01:39:18] where we need to rewrite like basically
+
+[01:39:21] tear out anchor, make our own thing that
+
+[01:39:22] works a ton better with Starframe. So,
+
+[01:39:25] it allows us to have much more
+
+[01:39:28] complicated account structures, much
+
+[01:39:29] more complicated data going on. Um, we
+
+[01:39:32] we were able to get rid of a ton of like
+
+[01:39:34] things that I bet people have noticed
+
+[01:39:36] like redundant token accounts, redundant
+
+[01:39:37] cargo pods. Those are just gone now.
+
+[01:39:39] Cargo pods are just in the fleet
+
+[01:39:41] account. If you're a developer, you
+
+[01:39:43] probably don't want to deal with all of
+
+[01:39:45] the token accounts that are all over the
+
+[01:39:46] place and all the cargo bods. It's it's
+
+[01:39:48] a ton of work on our client and on our
+
+[01:39:51] um on our dev team, too. So now we're
+
+[01:39:54] able to reduce all of that. Um, a lot of
+
+[01:39:56] accounts have been merged. So there's
+
+[01:39:58] now just we can have lists of lists
+
+[01:40:00] inside of accounts and they're super
+
+[01:40:02] fast to access. So um, a lot of
+
+[01:40:04] development has been streamlined like
+
+[01:40:06] crazy. We we were basically able to
+
+[01:40:08] rewrite Sage um, with reference but able
+
+[01:40:10] to rewrite all of the things we've done
+
+[01:40:12] in Sage over the past like year um, in
+
+[01:40:15] about a couple weeks, right? So
+
+[01:40:17] Starframe is a massive speed up for us
+
+[01:40:18] and it's what's letting us do all of
+
+[01:40:20] these things in C4 that in this short
+
+[01:40:22] amount of time. Um there's a lot of a
+
+[01:40:25] lot of instructions are also heavily
+
+[01:40:26] simplified due to that. Like a lot of
+
+[01:40:28] things have gone from like 14 accounts
+
+[01:40:29] to four. Like transferring cargo is no
+
+[01:40:31] longer like 20 different accounts just
+
+[01:40:33] to transfer things or mining is not
+
+[01:40:34] doesn't need to be split into two
+
+[01:40:36] transactions. We're able to do that all
+
+[01:40:37] in one and like transactions can
+
+[01:40:39] compress a ton more. So it's going to be
+
+[01:40:41] a lot easier. Um, IDL is also compatible
+
+[01:40:43] now where it wasn't before like the
+
+[01:40:46] there was a bunch there's a section
+
+[01:40:47] missing that made it harder on like
+
+[01:40:49] developers on Sly and everything. So we
+
+[01:40:52] will the IDL is now actually compatible.
+
+[01:40:55] You're able to read that. It's becomes a
+
+[01:40:56] lot easier to interact
+
+[01:40:58] with. So um another big thing that we've
+
+[01:41:01] done is we've integrated something
+
+[01:41:03] called coherent UI into our Unreal
+
+[01:41:05] workflow. Um, and what that is is
+
+[01:41:07] basically allows us to put web code as
+
+[01:41:10] um as like UI elements in Unreal. So
+
+[01:41:12] there's actually quite a lot of UI
+
+[01:41:14] sharing that is happening now between
+
+[01:41:15] Unreal and web that makes it a lot
+
+[01:41:18] easier all over all over. We can do a we
+
+[01:41:20] make a lot more progress with a lot less
+
+[01:41:22] work, right? So we're able to like right
+
+[01:41:24] now there's components in Unreal that
+
+[01:41:26] are being pulled into the UI right now
+
+[01:41:28] that are literally pointing to the same
+
+[01:41:30] code. So makes it a lot easier on us.
+
+[01:41:34] It's a It's very common too in the game
+
+[01:41:36] industry to have something like that to
+
+[01:41:38] uh do your UI
+
+[01:41:40] in. So some big improvements coming.
+
+[01:41:44] Mhm. People are already seeing also
+
+[01:41:47] better success with Starcom and
+
+[01:41:50] transactions and everything. So I saw a
+
+[01:41:53] couple guys pointing that out in the
+
+[01:41:55] chat.
+
+[01:41:57] Yeah, there's still work going on, but
+
+[01:41:58] the a large portion of the team is
+
+[01:42:00] working on these um these big changes
+
+[01:42:02] that are going to be coming out with C4.
+
+[01:42:08] Nice. Nice. Uh and we can get on the C4
+
+[01:42:13] roll rollout approach. I don't know
+
+[01:42:14] Brett or Michael who wants to cover
+
+[01:42:18] it so the committee can know how this is
+
+[01:42:21] going to be phased out.
+
+[01:42:24] Yeah. Uh I mean pretty straightforward.
+
+[01:42:26] We've we've touched on this, but uh this
+
+[01:42:29] is going to roll out initially as a PTR,
+
+[01:42:31] player test range, or we've also used
+
+[01:42:34] player test realm, but it it's
+
+[01:42:37] essentially a uh a beta version of this
+
+[01:42:40] that's going to be accessible to the
+
+[01:42:42] community u to play test through without
+
+[01:42:45] having any of the mainet uh or you know,
+
+[01:42:47] live economic rewards while we go
+
+[01:42:50] through that testing, refinement, polish
+
+[01:42:52] um and gather feedback from players on
+
+[01:42:55] how it's performing. in functionality
+
+[01:42:57] and any rebalancing requests that might
+
+[01:42:59] exist in there. So, it's it's going to
+
+[01:43:01] start uh as a PTR. We anticipate a
+
+[01:43:05] couple of months of testing on that.
+
+[01:43:07] Could be quicker, could be longer. Just
+
+[01:43:10] depends on how the play test goes. And
+
+[01:43:13] from there, it will roll out as uh Sage.
+
+[01:43:18] We're actually dropping the labs moniker
+
+[01:43:20] from this once we get to C4. We think
+
+[01:43:22] it's at a state of maturity that we've
+
+[01:43:24] evolved beyond the labs uh denotation
+
+[01:43:27] and just moving direct into Sage and
+
+[01:43:29] that'll be in browser as uh as you
+
+[01:43:32] access Sage Starbased today and then
+
+[01:43:35] ultimately we'll be working uh over the
+
+[01:43:38] course of the year on a full integration
+
+[01:43:40] and feature parody in Fleet Command as
+
+[01:43:42] well. So, if you prefer to access uh the
+
+[01:43:47] Sage feature set in a more immersive 3D
+
+[01:43:50] environment in Unreal Engine 5, you'll
+
+[01:43:52] be able to do that as well. I think
+
+[01:43:54] probably worth noting here. Uh and more
+
+[01:43:58] to come on this later. We won't share
+
+[01:43:59] too much, but this is going to be
+
+[01:44:02] launching on our own dedicated network.
+
+[01:44:05] You guys have heard us refer to that as
+
+[01:44:06] Atlas Net. Brett, if um there's anything
+
+[01:44:09] you'd like to expand upon with Atlas Net
+
+[01:44:11] and and how this is going to launch
+
+[01:44:13] initially uh as a C4 PTR, happy to hear
+
+[01:44:16] from you now. Yeah, we're we're looking
+
+[01:44:19] at this as a test where we can do like
+
+[01:44:22] it's very similar to like um the
+
+[01:44:24] Blizzard concept of like start uh deploy
+
+[01:44:27] it, try a whole bunch of different crazy
+
+[01:44:29] numbers, try a bunch of different ways
+
+[01:44:30] of um how things work, see what works
+
+[01:44:32] best, um see which areas people really
+
+[01:44:34] like and improve on those areas, that
+
+[01:44:36] sort of thing. So, it's meant to be as a
+
+[01:44:38] big test. There's a ton of changes, of
+
+[01:44:40] course. I mean, I saw a bunch of people
+
+[01:44:41] worried about certain changes and like
+
+[01:44:43] this is why we released this as a PTR,
+
+[01:44:45] so we can try these things out. See,
+
+[01:44:47] hey, this actually doesn't work um when
+
+[01:44:48] we have a lot of players.
+
+[01:44:51] So, yeah, it'll be fully on Atlaset
+
+[01:44:53] full. Um it'll be free. So, completely
+
+[01:44:56] free for everybody to participate in.
+
+[01:44:59] I think we probably still need to sort
+
+[01:45:01] out how we'll be distributing assets to
+
+[01:45:04] players uh on Atlas Net for C4 PTR. Uh
+
+[01:45:08] most likely just a fixed bundle of game
+
+[01:45:10] assets, I would think. But it's possible
+
+[01:45:12] that we could just uh replicate whatever
+
+[01:45:15] assets you have on mainet and bring
+
+[01:45:17] those into the separate network as well.
+
+[01:45:23] There are longer term
+
+[01:45:27] Yeah, no worries. Just quickly here,
+
+[01:45:28] there are some longer term implications
+
+[01:45:31] for Atlas Net. We had a discussion about
+
+[01:45:33] this pretty early in the year, but uh I
+
+[01:45:37] won't share too much more about that. We
+
+[01:45:39] still have a long town hall ahead of us.
+
+[01:45:41] Uh I'll just say we are already
+
+[01:45:43] preparing for another big town hall and
+
+[01:45:45] we'll be talking more about the future
+
+[01:45:47] of Atlaset in that town hall, the next
+
+[01:45:49] one that's up and coming. So uh but this
+
+[01:45:52] is also going to give us a lot of data
+
+[01:45:54] about the performance of that network
+
+[01:45:56] itself and and how we potentially
+
+[01:45:58] utilize that going for forward.
+
+[01:46:02] Mhm. And one question that people were
+
+[01:46:05] asking is if they are going to need to
+
+[01:46:07] migrate to a new game ID like it
+
+[01:46:10] happened before. I don't know if we have
+
+[01:46:12] that answer already but saw it a couple
+
+[01:46:14] times in the chat. We're not going to go
+
+[01:46:16] too into detail on the actual release
+
+[01:46:18] time. We'll as we get closer there,
+
+[01:46:20] we'll talk more about it. But right now,
+
+[01:46:21] we're just just talking about the PTR,
+
+[01:46:23] which is freet. So,
+
+[01:46:26] sounds good.
+
+[01:46:28] And but it it absolutely will be a new
+
+[01:46:31] game ID when we get to C4 mainet launch.
+
+[01:46:40] All right. All right. I think with that
+
+[01:46:42] we covered everything C4 related. I
+
+[01:46:45] think we will skip the Q&A at this town
+
+[01:46:47] hall and we will keep it for tomorrow at
+
+[01:46:49] Eon Forum and next week at the Atlas
+
+[01:46:51] Brew because we're literally just at
+
+[01:46:54] one/ird of the town hall. So, we have to
+
+[01:46:57] keep moving. Uh but uh Brett, man, thank
+
+[01:47:00] you so much for joining us on stage.
+
+[01:47:03] It's always a pleasure to have you. A
+
+[01:47:06] lot of fun. Have a good rest of your
+
+[01:47:07] town hall, guys. Yeah, thanks Brad.
+
+[01:47:10] Incredible work on the on the Yeah, on
+
+[01:47:13] the engineering side. I was going to say
+
+[01:47:14] the same thing. Santi Danny dropped. It
+
+[01:47:16] is probably getting late for him, but
+
+[01:47:18] really appreciate him jumping up and
+
+[01:47:20] sharing insights as well.
+
+[01:47:23] Yes, thank you Danny for joining as well
+
+[01:47:26] and sharing all the all the dev tools
+
+[01:47:28] there or the game design tools. You guys
+
+[01:47:31] got a real sneak peek behind the
+
+[01:47:33] curtains. Uh but Michael, we have to
+
+[01:47:36] keep moving. I think this is a good
+
+[01:47:37] moment for the audience to go grab a
+
+[01:47:40] glass of water, some beer, whatever you
+
+[01:47:43] want, some snacks because we still have
+
+[01:47:45] Star Atlas stonehole. We still have at
+
+[01:47:47] least one more hour, I think. So, we'll
+
+[01:47:51] keep going. But the next thing that we
+
+[01:47:53] will be talking about is our Unreal
+
+[01:47:55] Engine 5 uh product. And for that, we
+
+[01:48:00] want to get Chipto on stage and also
+
+[01:48:03] Dominic Bane.
+
+[01:48:08] Welcome fellas. Welcome to the stage.
+
+[01:48:10] Chip, how are you doing, friend? Hello.
+
+[01:48:12] Hello. How do I sound? You sound good.
+
+[01:48:16] Okay, good. Yeah, I'm I'm amped. I I
+
+[01:48:20] hadn't gotten my own full rundown of all
+
+[01:48:22] the C4 stuff and I'm just blown away.
+
+[01:48:23] So, like really, really tough act to
+
+[01:48:26] follow, but I think I have some cool
+
+[01:48:27] stuff to share today. So, okay.
+
+[01:48:31] Yeah. Yeah. Nice. Nice. Uh, I think
+
+[01:48:33] people are saying that you sound a bit
+
+[01:48:36] bad. Um, but it may be just uh I don't
+
+[01:48:39] know if you're using the right mic, but
+
+[01:48:41] you still you still we can still
+
+[01:48:43] understand.
+
+[01:48:46] Let me double check my mic. One sec.
+
+[01:48:50] Yeah. Uh, Dominic Bane, how are you
+
+[01:48:52] doing friend?
+
+[01:48:54] Dude, this town hall this town hall is
+
+[01:48:57] epic. It's going to be like Is this the
+
+[01:48:59] longest town hall ever? Three hours?
+
+[01:49:00] It's probably going to be three hours.
+
+[01:49:01] For sure. For sure. The longest sound
+
+[01:49:03] hole ever. Yes,
+
+[01:49:05] dude. My favorite thing my favorite
+
+[01:49:07] thing about what was just happening is
+
+[01:49:09] he said, "How do I sound?" You were
+
+[01:49:11] like, "You sound good." Everyone else
+
+[01:49:13] was like, "Man, he sounds like trash."
+
+[01:49:17] Oh man, that's hilarious. If I can
+
+[01:49:19] understand what people are saying,
+
+[01:49:21] that's good enough for me, you know?
+
+[01:49:24] Oh, man. I'm just here to stream.
+
+[01:49:29] I'm just here to stream, sir. I am I'm
+
+[01:49:32] Trypto's assistant here. I I switched
+
+[01:49:35] mics. Is it better? Oh, yeah. Oh, yeah.
+
+[01:49:38] Way better. Okay. Yeah. All right. Wait,
+
+[01:49:41] can anyone hear Chip?
+
+[01:49:44] We should should have dry ran this. Um,
+
+[01:49:46] all right. Oh, cool.
+
+[01:49:50] Loud and clear, Chip though. We can get
+
+[01:49:52] on what is coming for UI.
+
+[01:49:59] All right, we are we hopping over to my
+
+[01:50:00] segment or any other comments? Uh, yeah,
+
+[01:50:04] I think we can we can get on your
+
+[01:50:05] segment. All right. So, um, yeah, I just
+
+[01:50:08] want to briefly mention and we've we've
+
+[01:50:10] said it before that we the velocity at
+
+[01:50:13] which the UEE team has been developing
+
+[01:50:15] has is significantly increased this year
+
+[01:50:17] and we've we've opted for a more um
+
+[01:50:21] higher cadence um frequent release
+
+[01:50:24] schedule with the with the caveat that
+
+[01:50:26] we do take some times and uh maybe
+
+[01:50:28] extend the releases out a month or so
+
+[01:50:32] farther out just to accommodate chunkier
+
+[01:50:34] features.
+
+[01:50:35] And what I want to do today is talk
+
+[01:50:37] about our next major um midyear release
+
+[01:50:40] coming up in the uh coming months. Um I
+
+[01:50:45] want to go through the the scope and uh
+
+[01:50:48] some some thing some just updates that
+
+[01:50:50] we we have planned. So before I I dive
+
+[01:50:52] into that
+
+[01:50:54] um I want to mention that this m major
+
+[01:50:58] release is going to be our next major
+
+[01:51:01] strong push surrounding our multiplayer
+
+[01:51:02] gameplay. or arena racing um before we
+
+[01:51:07] kind of recalibrate the latter half of
+
+[01:51:10] the year and
+
+[01:51:11] and put a lot more dev effort on fleet
+
+[01:51:14] command. So, expect another big chunky
+
+[01:51:16] update as you'll see polishing and
+
+[01:51:19] updating arena and multiplayer and
+
+[01:51:21] dedicated server support. And then
+
+[01:51:23] you'll see the team um after this next
+
+[01:51:26] committee release start to really focus
+
+[01:51:27] and show the love towards fleet command
+
+[01:51:29] because you guys saw what's coming with
+
+[01:51:31] C4. We want to get Fleet Command caught
+
+[01:51:33] up as quickly as possible. So, that's
+
+[01:51:34] the strategy going into the rest of the
+
+[01:51:36] year. Um, just wanted to to lay that out
+
+[01:51:38] there. And the other thing I want to
+
+[01:51:40] mention before we get into it is that
+
+[01:51:42] what I'm about to talk about for
+
+[01:51:43] mid-release, um, it's all it's all
+
+[01:51:45] tentative. It's all work in progress. I
+
+[01:51:48] don't don't take it all as gospel yet.
+
+[01:51:50] Things can change in the next between
+
+[01:51:51] now and and the release, but we thought
+
+[01:51:53] we might as well show it for to you and
+
+[01:51:55] um, get you excited. So, without further
+
+[01:51:57] ado, let's hop into it.
+
+[01:52:00] Um, the first that I think the focus of
+
+[01:52:03] this next midyear release is
+
+[01:52:05] progression. Right now, we have some
+
+[01:52:07] pretty sticky, pretty fun game modes. We
+
+[01:52:10] even have grassroots esports tournaments
+
+[01:52:12] going on. People are really enjoying our
+
+[01:52:13] our arena gameplay. Um, and but we want
+
+[01:52:16] to we want to give players a reason to
+
+[01:52:18] come back and a player and give players
+
+[01:52:22] um a sense of progression um and and a
+
+[01:52:24] way to even kind of express the amount
+
+[01:52:27] of time they put into the game. And the
+
+[01:52:28] way we're going to do that is what we're
+
+[01:52:30] calling uh preseason character group
+
+[01:52:32] rank. Uh so Don, why don't you go ahead
+
+[01:52:35] and share your screen and and and we we
+
+[01:52:37] have we want to show our our current
+
+[01:52:39] mockups for some of the UI elements that
+
+[01:52:42] that show this
+
+[01:52:45] progression. Just giving it a second to
+
+[01:52:47] load there, Dom. Loading. Loading.
+
+[01:52:56] Uh, Dom, time for the joke.
+
+[01:53:02] Oh, he dropped. He dropped. I think he
+
+[01:53:04] crashed. I think he crashed. No way.
+
+[01:53:07] Well, while Dom's um wrestling with with
+
+[01:53:10] that, I'm just going to go ahead and
+
+[01:53:11] start outlining what progression is in
+
+[01:53:15] the release. So, we have this concept of
+
+[01:53:18] pre-season character group rank. And
+
+[01:53:21] what that means is we we're splitting up
+
+[01:53:24] your your crew into character groups by
+
+[01:53:28] species and gender.
+
+[01:53:32] So for instance, high pun males or
+
+[01:53:36] sagian females or human males all the
+
+[01:53:39] you will
+
+[01:53:41] progress your character group ranks um
+
+[01:53:43] based on that category. And the reason
+
+[01:53:46] why we're doing that is because um until
+
+[01:53:49] we have the concept of onchain crew like
+
+[01:53:52] individual crew progression, we wanted a
+
+[01:53:55] way for you to capt like still uh we
+
+[01:53:57] wanted a way for you to still be able to
+
+[01:53:59] progress um at the crew level. And um we
+
+[01:54:04] didn't want to build out this whole like
+
+[01:54:06] server infrastructure that is like
+
+[01:54:09] offchain that that that is like a proxy
+
+[01:54:12] for crew leveling up. So, what we're
+
+[01:54:13] doing is we're using Epic Online
+
+[01:54:15] Services stats, which limits it to like
+
+[01:54:17] 1,000 stats per account um and
+
+[01:54:22] leveraging that so that you just level
+
+[01:54:24] up the the human male track uh or the
+
+[01:54:27] pun high punam female track as one
+
+[01:54:30] collective group. So, if you if you play
+
+[01:54:32] with a a high punam female, um any of
+
+[01:54:36] the any any of them that you own, they
+
+[01:54:37] will all XP that's earned while playing
+
+[01:54:39] with them will go towards that track.
+
+[01:54:41] So, that's the that's the context of
+
+[01:54:43] what preseason character group rank is.
+
+[01:54:45] There's going to be 20
+
+[01:54:47] levels. Um, and you're going to and when
+
+[01:54:50] you hit level 20 with a character group
+
+[01:54:51] rank, we're going to allow you to
+
+[01:54:52] prestige it up to 10 times. So, you'll
+
+[01:54:55] be able to reset the rank and keep going
+
+[01:54:57] and you'll be able to show your your
+
+[01:54:59] prestige badge flare in game. And we
+
+[01:55:02] have mockups showing you what that looks
+
+[01:55:03] like, but waiting for Don to get back in
+
+[01:55:05] here. Um yeah because they are they
+
+[01:55:08] already posting crazy pictures on in the
+
+[01:55:10] chat.
+
+[01:55:12] So so I'm I I explained um preseason
+
+[01:55:17] character group ranked 20 levels uh uh
+
+[01:55:20] prestige it up to 10 times you get and
+
+[01:55:22] the way you're going to get XP is by
+
+[01:55:24] playing matches on dedicated servers. So
+
+[01:55:27] we we aren't going to allow you to just
+
+[01:55:28] boot up your own lobby uh go kill your
+
+[01:55:31] friend a 100 times and get a bunch of
+
+[01:55:32] XP. We're we're you're going to need to,
+
+[01:55:35] you know, get in an official dedicated
+
+[01:55:37] server match and uh
+
+[01:55:39] kills, weapon upgrades and gun game,
+
+[01:55:42] capturing a zone and zones, depositing
+
+[01:55:45] tags and surge, all those will have XP
+
+[01:55:48] events associated with them. Um, and
+
+[01:55:51] another cool thing
+
+[01:55:52] is you'll be able to um get bonus XP B
+
+[01:55:56] from different different avenues. So,
+
+[01:55:59] rarity of your of the crew that you're
+
+[01:56:01] currently playing with will matter. And
+
+[01:56:03] higher rarity will mean just um mean
+
+[01:56:05] higher um XP rates. You will also be
+
+[01:56:08] able to uh do daily check-ins. And as
+
+[01:56:12] you play consecutive days um in a row,
+
+[01:56:16] you you will build up a an XP boost
+
+[01:56:19] streak. Um and then let's see, is there
+
+[01:56:23] any other ones? And then as you
+
+[01:56:25] prestige, you'll also get more uh higher
+
+[01:56:26] XP rates. So So we have some XP boosts
+
+[01:56:29] that we're we're planning for. Let's
+
+[01:56:32] see. But then, um, I talked about
+
+[01:56:35] character group rank. Now, why do you
+
+[01:56:36] want to why do you want to rank up?
+
+[01:56:38] Like, what's the point? Um, so there
+
+[01:56:40] there's a there's several things.
+
+[01:56:43] First, we have this concept of
+
+[01:56:47] uh your jetpack um slots. So, you have a
+
+[01:56:51] jetpack hand slot and a jetpack souls
+
+[01:56:54] slot. And then you have a shield or what
+
+[01:56:57] we're calling a bubby slot. So jet
+
+[01:56:59] jetpacks in our games are called
+
+[01:57:00] jetties. Shields are called bubbies. So
+
+[01:57:02] you have a jetty soul slot, a jetty palm
+
+[01:57:04] slot, and a bubby slot. You'll be able
+
+[01:57:07] to unlock different variants of those
+
+[01:57:09] equipables as you level up a character
+
+[01:57:12] group rank. So as you hit, say you hit
+
+[01:57:14] level 10 um and you unlock a new bubby,
+
+[01:57:17] a new shield. Oh, here we go. I think
+
+[01:57:20] we're online now. Okay, we I see it. I
+
+[01:57:23] see it. Okay, let me take a step back.
+
+[01:57:25] Let me take a step back and just talk
+
+[01:57:27] about what you're seeing here. So, these
+
+[01:57:28] are our current work in progress
+
+[01:57:30] mockups. Um, you can see if you like at
+
+[01:57:33] the top, if you zoom in on that right
+
+[01:57:36] there, those are the prestige. Well, our
+
+[01:57:38] current work in progress prestige flare.
+
+[01:57:41] We're we're we're going to those up a
+
+[01:57:43] bit and make them a bit poppier when you
+
+[01:57:45] as you get higher up in rank. But you
+
+[01:57:47] can see um that you'll you'll be able to
+
+[01:57:51] showcase your your prestige. And then
+
+[01:57:54] the the second number. So that 1.10 is a
+
+[01:57:56] prestige one rank 10 in character group
+
+[01:57:58] rank. Two is prestige two rank 10 goes
+
+[01:58:01] all the way up to rank 20. Um so and
+
+[01:58:04] then zoom back out and go down a little
+
+[01:58:05] bit.
+
+[01:58:06] Um and then as you're as you're
+
+[01:58:08] navigating through your your crew in
+
+[01:58:10] your game, you can you'll be able to see
+
+[01:58:12] the the XP boosts on the card there
+
+[01:58:16] based on the rarity as well as um so
+
+[01:58:19] based on the rarity prestige, you can
+
+[01:58:21] see like plus 45% XP there.
+
+[01:58:24] Um, and I think that's all I want to
+
+[01:58:28] show there. Can you zoom out and see if
+
+[01:58:29] there's anything else we want to talk
+
+[01:58:32] about? Yeah. Let's go over to the end of
+
+[01:58:34] match flow real quick. So, at the end of
+
+[01:58:36] a match, we also here's here's mock-ups
+
+[01:58:38] on like, okay, I got a bunch of XP. Um,
+
+[01:58:42] you know, here we there's just going to
+
+[01:58:44] be a really nice and sticky kind of uh
+
+[01:58:48] end of match progression flow where
+
+[01:58:50] where you you get some nice animations.
+
+[01:58:52] You see what XP you get, you see your
+
+[01:58:54] progress towards the next uh group,
+
+[01:58:56] character group rank. So, um yeah,
+
+[01:59:00] really great job from our UI team there.
+
+[01:59:02] So and
+
+[01:59:03] then what's neat about this page right
+
+[01:59:07] here is we we are planning for some
+
+[01:59:10] onchain rewards based on your
+
+[01:59:11] progression here. what what we're gonna
+
+[01:59:13] what the current plan is we're going to
+
+[01:59:15] be
+
+[01:59:17] um setting thresholds for say I think
+
+[01:59:21] we're leaning towards total number of
+
+[01:59:23] character group rank prestiges um and
+
+[01:59:26] you'll be able to um hit thresholds for
+
+[01:59:30] getting air dropped to your wallet uh
+
+[01:59:33] crew packs we're even thinking about um
+
+[01:59:36] a and I don't know if if this changed
+
+[01:59:39] but last I heard we're thinking about a
+
+[01:59:40] different a different tier of crew pack
+
+[01:59:42] or a typer crew pack for this um for
+
+[01:59:44] these rewards. And we're also um
+
+[01:59:48] planning for a Unreal Engine specific
+
+[01:59:51] resource. Uh and we're it's we're we're
+
+[01:59:54] calling it internally the uh nanobot
+
+[01:59:56] goo, but it's that black goo you see
+
+[01:59:59] around the weapon spawners. That's
+
+[02:00:01] that's its own resource. And that
+
+[02:00:03] resource will be earned exclusively in
+
+[02:00:05] Unreal, but will be used um in recipes
+
+[02:00:08] in C4. So you can there's going to be
+
+[02:00:11] some crossovers uh some economic
+
+[02:00:13] crossovers between UEIE gameplay and C4
+
+[02:00:16] stage economy. So um that's exciting.
+
+[02:00:20] Let's see.
+
+[02:00:22] Okay, so I showed this
+
+[02:00:25] very exciting and I mean you ran over
+
+[02:00:28] that one quickly, but uh I'm really
+
+[02:00:31] stoked both on the progression as well
+
+[02:00:33] as this idea that there is an exotic
+
+[02:00:36] resource that creates a crossover
+
+[02:00:38] between gameplay of both Sage and and uh
+
+[02:00:42] and our Unreal Engine client. I I think
+
+[02:00:44] it's super cool. It's a way to create
+
+[02:00:46] the economic integration and again
+
+[02:00:47] crossover between play. I also think
+
+[02:00:50] that it it probably in a lot of ways
+
+[02:00:52] encourages those players who have been
+
+[02:00:54] engaged in say arena shooter matches
+
+[02:00:57] earning this exotic resource to maybe
+
+[02:01:00] purchase some some other ship assets or
+
+[02:01:02] other you know claim stakes any of the
+
+[02:01:03] other asset categories we have and start
+
+[02:01:06] participating in C4 or fleet command
+
+[02:01:09] maybe even in between matches um to kind
+
+[02:01:12] of further enhance their ability to take
+
+[02:01:14] advantage of that resource that they're
+
+[02:01:15] earning.
+
+[02:01:20] 100%. I mean it the implications are
+
+[02:01:23] huge here and just the cross-pollination
+
+[02:01:25] between UEIE and Sage is something we
+
+[02:01:28] haven't seen yet and it's something that
+
+[02:01:30] is going to be extremely powerful tool
+
+[02:01:32] for us as we build out content in both.
+
+[02:01:34] So um yeah totally
+
+[02:01:36] agreed. Um Dom I right now is a good
+
+[02:01:40] time to bring up the table. I want to
+
+[02:01:44] explain what the preseason group
+
+[02:01:47] rank is like what what the unlock
+
+[02:01:50] schedule looks like.
+
+[02:01:54] Bringing it up. Yep. Let's do it. I
+
+[02:01:56] think this will really help kind of
+
+[02:01:58] solidify this nebulous concept into
+
+[02:02:01] something more stable. So start you. So
+
+[02:02:03] I'll explain it. You start at level one,
+
+[02:02:05] right? For say your human
+
+[02:02:08] female track. And you start out, we're
+
+[02:02:11] switching to a loadout system where you
+
+[02:02:12] have weapon slots. So you have four
+
+[02:02:14] weapon slots. And imagine that a pistol
+
+[02:02:16] takes up one slot. A auto rifle takes up
+
+[02:02:20] two slots. Um, a sniper will take up
+
+[02:02:24] four slots, right? But you don't have a
+
+[02:02:26] sniper unlocked yet. So you'll start out
+
+[02:02:27] with just having the kinetic pistol and
+
+[02:02:28] the auto rifle unlocked. And you'll use
+
+[02:02:31] up three of those four slots. And then
+
+[02:02:33] at level two, you unlock a a starter
+
+[02:02:36] grenade. And now you can equip for human
+
+[02:02:38] females in matches a starting grenade.
+
+[02:02:41] And now you're using all four of your
+
+[02:02:43] weapon slots. And then at level three,
+
+[02:02:46] and before we get to level three, you
+
+[02:02:47] you already have default equipment. So
+
+[02:02:49] you have the
+
+[02:02:50] basic jetty souls, jetty jetty palms,
+
+[02:02:54] and b and bubble shields. So essentially
+
+[02:02:56] like what you are used to playing with
+
+[02:02:58] now, consider that default equipment.
+
+[02:03:01] Okay? And you're already equipped that.
+
+[02:03:03] And those don't take up slots. What what
+
+[02:03:05] takes up weapon or config slots are
+
+[02:03:07] weapons and
+
+[02:03:09] grenades, but you can only have one
+
+[02:03:11] jetty soul equipped at any given time or
+
+[02:03:13] one jetty palm equipped at any given
+
+[02:03:15] time. And I'll show that in game here in
+
+[02:03:17] a sec. But level three, you unlock a
+
+[02:03:19] soul jetty uh we're calling it dasher.
+
+[02:03:23] And imagine that that allows you to um
+
+[02:03:27] dash and uh and slide at for lower cost.
+
+[02:03:31] So you can dash and slide more often.
+
+[02:03:33] but maybe it has less um less speed for
+
+[02:03:38] hovering. Right? So, we're going to what
+
+[02:03:41] we want to do is we want to create these
+
+[02:03:42] variants that are have trade-offs where
+
+[02:03:43] where you you gain some, you lose some.
+
+[02:03:45] We don't want to make it so that um
+
+[02:03:47] we'll try to make it so that one isn't
+
+[02:03:49] like dominant or better than the other.
+
+[02:03:51] So, you can see just going all the way
+
+[02:03:53] down to level 20, you continue to unlock
+
+[02:03:55] weapons for your um weapon slots. you
+
+[02:03:59] unlock uh different jetties, bubbies. Um
+
+[02:04:03] and then at level 10 or at level where
+
+[02:04:07] at level five you unlock two more weapon
+
+[02:04:08] slots, so you have six and then at level
+
+[02:04:10] 10 you have eight total. So now you can
+
+[02:04:13] probably you can equip that
+
+[02:04:15] um you can equip those heavier weapons
+
+[02:04:18] um at once you have those larger weapon
+
+[02:04:21] slots. Now, if players don't like this
+
+[02:04:25] or we find that we have tournament
+
+[02:04:26] rules, you know, don't mesh well with
+
+[02:04:28] this, we are making it a match setting
+
+[02:04:30] to turn the system on and off. So, if we
+
+[02:04:33] turn the system off, players will just
+
+[02:04:36] start out with the default two weapons
+
+[02:04:39] and there will be weapon pickups in in
+
+[02:04:42] the uh arena and you can and it'll
+
+[02:04:44] essentially play this the way it plays
+
+[02:04:45] now. But in the context of turning this
+
+[02:04:48] on, um, we'll remove the weapon pickups
+
+[02:04:51] on the map. Players will have their
+
+[02:04:53] their starter weapon configs and they'll
+
+[02:04:55] need to pick up ammo for their weapon.
+
+[02:04:57] So, if I have a shotgun in my config,
+
+[02:05:00] um, I don't start out with just 12 shots
+
+[02:05:01] from my shotgun. Um, I'll have to go
+
+[02:05:04] pick up uh the ammo and the ammo will
+
+[02:05:07] respawn on the arena um, over certain
+
+[02:05:10] intervals. So, we're we're currently
+
+[02:05:12] prototyping this. We're play testing it
+
+[02:05:14] as of this week. U it'll be exciting
+
+[02:05:17] because it it plays well with our our
+
+[02:05:19] current progression system we're laying
+
+[02:05:20] out here. Okay, so I think that's enough
+
+[02:05:23] on this. Um I hope that paints a better
+
+[02:05:25] picture on like what it means to
+
+[02:05:29] progress at character group rank. The
+
+[02:05:31] last thing I'll mention is when you
+
+[02:05:32] prestige from level 20 got reset to back
+
+[02:05:34] to level one, you keep everything you've
+
+[02:05:37] unlocked. Um you but you just reset your
+
+[02:05:40] your um your level. So, you'll still
+
+[02:05:43] have your sniper rifle unlocked for that
+
+[02:05:44] group rank. And well, as we as we add
+
+[02:05:47] more content, new weapons, new jetties,
+
+[02:05:49] things like that, we'll add new drops to
+
+[02:05:52] the prestige levels. So, maybe you
+
+[02:05:55] unlock something new at prestige 2 rank
+
+[02:05:57] five,
+
+[02:05:58] right?
+
+[02:06:00] Okay, Chip, take a breather for a
+
+[02:06:02] second. Yeah, go ahead. Yeah, I just
+
+[02:06:04] want to jump in. I just want to jump in.
+
+[02:06:06] I'm I'm really really excited about this
+
+[02:06:10] uh progression element. I've played a
+
+[02:06:12] bunch of looter shooters. I mean,
+
+[02:06:13] Division 2 and uh we all played Destiny
+
+[02:06:16] 2 fairly recently. I guess it's been a
+
+[02:06:18] little while now, but um you know, I
+
+[02:06:21] think this this new mechanic uh and
+
+[02:06:25] feature
+
+[02:06:26] introduces it's kind of a a separate
+
+[02:06:29] track you from an esports style arena
+
+[02:06:33] shooter gameplay where everyone is on
+
+[02:06:35] level footing, right? And then you have
+
+[02:06:38] uh more of the MMO style looter shooter
+
+[02:06:41] where your progression in game actually
+
+[02:06:44] contributes to your performance in some
+
+[02:06:46] way. Okay. And for a guy like me that
+
+[02:06:48] needs to get good, you know, might not
+
+[02:06:50] be as good at clicking on heads, I love
+
+[02:06:52] the idea that I can build a load out
+
+[02:06:54] based on my progression
+
+[02:06:56] um and even customize my performance and
+
+[02:06:59] specialize in different facets of
+
+[02:07:00] gameplay that just uh that that makes it
+
+[02:07:04] makes me more competitive, you know, and
+
+[02:07:06] I know that the time that I put into the
+
+[02:07:08] game to leveling up uh is actually
+
+[02:07:10] contributing to my success in these
+
+[02:07:12] modes as well. Super exciting for me. Uh
+
+[02:07:15] really stoked to see this.
+
+[02:07:17] Yeah. And and we're building the
+
+[02:07:18] foundation for MMOs still. We're not
+
+[02:07:20] like deviating extremely far and
+
+[02:07:22] deciding we are now the next big arena
+
+[02:07:24] shooter. What we're still doing is
+
+[02:07:26] building out our foundational
+
+[02:07:28] um game systems and with loadouts
+
+[02:07:32] uh those will be used in our open world
+
+[02:07:34] um MMO elements. But imagine that maybe
+
+[02:07:36] arenas you you cap out at eight weapon
+
+[02:07:39] slots, but open world as you continue to
+
+[02:07:43] level up your crew you can get like 30
+
+[02:07:45] weapon slots. But that's some that's
+
+[02:07:47] like broken in an arena, but in open
+
+[02:07:49] world it feels great because you can
+
+[02:07:51] carry around a lot more weapons, right?
+
+[02:07:53] So that that's the direction we're going
+
+[02:07:54] with. And we're just continuing to build
+
+[02:07:56] these foundational game systems while
+
+[02:07:58] still creating, you know, compelling and
+
+[02:08:01] repeatable and fun game experiences like
+
+[02:08:04] now, right, with with the arena shooter.
+
+[02:08:06] So yeah, a lot of exciting stuff with
+
+[02:08:08] with um with implementing these systems.
+
+[02:08:12] Okay. Um, I'm gonna keep pressing
+
+[02:08:14] because uh still got more to get
+
+[02:08:16] through. So, we heard your feedback on
+
+[02:08:19] on our scoreboards in our matches,
+
+[02:08:23] especially with the recent tournaments,
+
+[02:08:24] and just wanted to show you guys that we
+
+[02:08:26] are took a chance to redesign our
+
+[02:08:28] scoreboards, and this is what they're
+
+[02:08:29] going to look like now in game. So now
+
+[02:08:32] when you hold tab in game, you'll have a
+
+[02:08:34] a a translucent scoreboard overlay and
+
+[02:08:37] it'll give you a much more detailed
+
+[02:08:40] uh you know up-to-date stats including
+
+[02:08:44] you know all of the players on on the
+
+[02:08:46] team. Uh and we're we'll also support an
+
+[02:08:49] assists now and assist will get you XP.
+
+[02:08:52] So we're we're adding an assist system
+
+[02:08:55] and there you can see red versus blue
+
+[02:08:57] team. you'll see everybody on the same
+
+[02:08:59] screen instead of just like the top
+
+[02:09:00] three players or only your team. So, um
+
+[02:09:04] yeah, I think this will be a really
+
+[02:09:06] welcomed uh uh refinement to our
+
+[02:09:09] existing
+
+[02:09:10] scoreboard system. Okay, I I think
+
+[02:09:14] that's that's good there. Kudos to the
+
+[02:09:17] UI team. A really great job on that.
+
+[02:09:20] Okay. Uh let's see. We we talked about
+
+[02:09:24] the the the ammo pickups. I think now is
+
+[02:09:27] yeah the next the next thing I wanted to
+
+[02:09:29] talk about I wanted to do a live demo.
+
+[02:09:31] Uh so let me open up
+
+[02:09:34] my Unreal
+
+[02:09:36] Engine and I'm going to segue into just
+
+[02:09:40] something I'm really excited about and
+
+[02:09:42] some some of our Ventara um play testers
+
+[02:09:46] could like shout out to them. They're
+
+[02:09:48] really excited about they've got us
+
+[02:09:50] they've been able to play test and sneak
+
+[02:09:52] peek on what I'm about to show you.
+
+[02:09:54] But what
+
+[02:09:56] I in talking about our current arena
+
+[02:09:59] shooter, one of our
+
+[02:10:01] um one of our unique selling points is
+
+[02:10:04] our movement, right? People really love
+
+[02:10:06] the jetpacking, the dashing, um the
+
+[02:10:10] freedom that comes with just being able
+
+[02:10:12] to hover everywhere, right? So, we're
+
+[02:10:14] leaning into that a bit more and we
+
+[02:10:16] added some new um mechanics to our
+
+[02:10:19] movement and I want to showcase that.
+
+[02:10:21] So, I'm sharing my screen now. Let me
+
+[02:10:22] know if the screen stream quality is
+
+[02:10:24] good. Let me just log into my dev
+
+[02:10:27] wallet. Looks good. Looks good. Okay.
+
+[02:10:30] All right. So, um, here I am with my
+
+[02:10:33] crew member, my my trusty air bike. Let
+
+[02:10:36] me just showcase real quick. So, just to
+
+[02:10:39] kind of reinforce what I showed
+
+[02:10:42] earlier here. Here you can see the new
+
+[02:10:45] slots, right? And so this is still work
+
+[02:10:47] in progress and I just have, you know,
+
+[02:10:49] numbers there. But you can see I can
+
+[02:10:50] slot in different different um bubbies,
+
+[02:10:54] you know, different souls. So I'm going
+
+[02:10:56] to give myself the runner souls, which I
+
+[02:10:58] I'm pretty sure that gives me faster
+
+[02:10:59] running speed. Um thirsty. I'll I'll let
+
+[02:11:02] you guys on what that one does. Um okay.
+
+[02:11:06] So I just wanted to show that real
+
+[02:11:07] quick. We're already play testing the
+
+[02:11:09] different jetty variants, but I want to
+
+[02:11:12] show you guys
+
+[02:11:14] um our new movement
+
+[02:11:16] mechanics and we're leaning into
+
+[02:11:20] um momentum conservation, momentum
+
+[02:11:22] preservation. So, let me So, once we
+
+[02:11:25] load in here, I want to showcase these
+
+[02:11:31] live demo alert.
+
+[02:11:34] Yeah, I don't know why Valance Station's
+
+[02:11:35] taking so long to load here. Classic. Oh
+
+[02:11:39] my gosh.
+
+[02:11:41] I swear this didn't happen earlier. Let
+
+[02:11:43] me uh classic.
+
+[02:11:46] One
+
+[02:11:48] sec. Apologies, guys. I'm probably gonna
+
+[02:11:51] I'm probably going to switch choose a
+
+[02:11:53] different level to load. I think it's
+
+[02:11:56] cuz I'm streaming is why I didn't
+
+[02:11:58] practice streaming earlier.
+
+[02:12:02] One sec.
+
+[02:12:05] It's all part of the town hall
+
+[02:12:07] experience. It's all good,
+
+[02:12:11] man. All right, I'm getting back in. One
+
+[02:12:13] second. I think if I get into the level
+
+[02:12:17] first and then start streaming, it'll be
+
+[02:12:19] a bit more stable since a lot happens
+
+[02:12:21] when you first load into a level. So,
+
+[02:12:23] that's my at least that's my suspicion.
+
+[02:12:29] It makes sense. It does make sense.
+
+[02:12:32] wouldn't be a town hall with at least
+
+[02:12:34] four crashes. True. I think everyone who
+
+[02:12:37] was on stream already crashed except
+
+[02:12:40] Michael so far. You will need to you'll
+
+[02:12:43] need to fulfill the prophecy. Michael,
+
+[02:12:50] I'll be streaming my actual Sage
+
+[02:12:53] Starbased account at the end of the town
+
+[02:12:55] hall.
+
+[02:12:58] We're at half the town hall, by the way.
+
+[02:13:02] Okay. Please, please don't crash. I'm
+
+[02:13:04] going to share my screen now. Let's
+
+[02:13:07] go. All
+
+[02:13:10] right. You guys see my Let's see. We
+
+[02:13:13] good. We see. Mhm. Okay. I'm at a launch
+
+[02:13:16] station. All right. Um, so yeah, I want
+
+[02:13:18] to a couple things have have changed
+
+[02:13:21] mostly
+
+[02:13:22] around momentum preservation. First
+
+[02:13:24] thing I'll point out is well, first off,
+
+[02:13:27] I'm like I'm running way faster because
+
+[02:13:28] I got my runners on. Check that out. I
+
+[02:13:31] think I'm I don't know. I think it's
+
+[02:13:33] like 20 30% faster. But anyways,
+
+[02:13:37] um when you release hover now, one of
+
+[02:13:40] one of our polish items is you you get a
+
+[02:13:42] bit of uh momentum there at the end. So
+
+[02:13:44] you keep going upward and it just has a
+
+[02:13:46] better feel. And that's one of our
+
+[02:13:47] smaller kind of
+
+[02:13:49] refinements. Um but I think one of our
+
+[02:13:52] ma bigger refinements is around slide.
+
+[02:13:54] And we we just
+
+[02:13:55] completely reworked the uh the impulse
+
+[02:13:58] around slide. So now it
+
+[02:14:01] it's very much faster and
+
+[02:14:05] um and just takes better uh just is is
+
+[02:14:09] much more um fluid and and much more
+
+[02:14:12] what you expect. And the other thing we
+
+[02:14:14] did was with sliding is the knees don't
+
+[02:14:17] steer as much on the on the slope and
+
+[02:14:19] you just continue in the direction of
+
+[02:14:21] motion. So like here
+
+[02:14:26] um you saw that instead of the knees you
+
+[02:14:29] know starting to steer me down the slope
+
+[02:14:32] I I just continue at an angle. So
+
+[02:14:35] sliding feels a lot better, feels a lot
+
+[02:14:37] more fluid and there there will be jetty
+
+[02:14:40] variants that um you know enhance your
+
+[02:14:43] slide in a way. But another thing we
+
+[02:14:44] added is um bunny hopping.
+
+[02:14:48] So you can see here now I'm able to keep
+
+[02:14:51] that momentum
+
+[02:14:54] um with jumping. Before you would slow
+
+[02:14:56] down immediately, but now I'm keeping
+
+[02:14:59] some of my momentum with each bunny
+
+[02:15:01] hop. So it's really fun. And then here's
+
+[02:15:04] this other interesting thing is I can
+
+[02:15:05] farm momentum by doing a bunch of slide
+
+[02:15:08] cancels, which is intentional. Um so we
+
+[02:15:12] anticipate players that are really into
+
+[02:15:13] the movement, they're going to be
+
+[02:15:15] playing and having a
+
+[02:15:17] you know, having a time with with
+
+[02:15:19] with um this enhanced movement
+
+[02:15:22] preservation or momentum
+
+[02:15:23] preservation. So, yeah. Yeah. High high
+
+[02:15:26] level recaping things now. Yeah. High
+
+[02:15:29] level recap. Just uh better feel with
+
+[02:15:31] ending uh hover and and jetty boost and
+
+[02:15:35] then uh sliding is improved and then
+
+[02:15:38] bunny hopping was added.
+
+[02:15:40] So, yeah, that's live demo I wanted to
+
+[02:15:43] showcase there.
+
+[02:15:46] Okay, let's get back into the rest of
+
+[02:15:49] the July um updates
+
+[02:15:54] leak. Okay. Uh
+
+[02:15:57] okay. Yeah. Um we're also working on
+
+[02:16:00] persistent regional dedicated server
+
+[02:16:02] lobbies. So, and those are the going to
+
+[02:16:04] be the ones that are XP enabled. And
+
+[02:16:06] with those, so they we will have game
+
+[02:16:10] modes rotating on a weekly basis. We'll
+
+[02:16:11] call those like spotlight game modes.
+
+[02:16:14] Um, we're integrating easy antiche the
+
+[02:16:17] and actually I think easy antiche was
+
+[02:16:20] already enabled in the build I was just
+
+[02:16:22] showcasing now. So we're pretty I think
+
+[02:16:24] we're we're we have it integrated. If
+
+[02:16:26] not, we're really
+
+[02:16:27] close. Um, next bullet item, spectator
+
+[02:16:31] mode. So we heard you. We we love the
+
+[02:16:34] the grassroots esports tournaments that
+
+[02:16:37] are emerging from the community and we
+
+[02:16:40] want to prioritize spectator mode in our
+
+[02:16:42] next release. So, we're we're we're
+
+[02:16:44] working on that. We're going to get it
+
+[02:16:46] in. Um we're and we're going to make it
+
+[02:16:48] so that the cameraman can can really
+
+[02:16:51] follow along with with the action. Um
+
+[02:16:54] so, that's a big feature that we're
+
+[02:16:56] we're adding next with Pisules Arena.
+
+[02:16:59] We're going to take that to 100%. So,
+
+[02:17:01] right now, consider it 80%. We're going
+
+[02:17:03] to we're going to add that last 20 bit
+
+[02:17:05] of polish.
+
+[02:17:07] things like the crowd's going to throw
+
+[02:17:09] like little confetti and and like trash
+
+[02:17:12] at you. So, there's going to be like
+
+[02:17:14] you're going to see you're going to see
+
+[02:17:15] like things raining from the crowds kind
+
+[02:17:17] of like an actual gladiatory arena.
+
+[02:17:19] You're going to see moss, vegetation on
+
+[02:17:21] the walls. You're going to see scum in
+
+[02:17:22] the water. You're going to see um you're
+
+[02:17:24] going to hear waterfall sounds outside
+
+[02:17:26] and flyby sounds from the from the ships
+
+[02:17:29] that are flying around in the um up in
+
+[02:17:32] the atmosphere.
+
+[02:17:34] uh better transition between like
+
+[02:17:35] outside sounds versus inside crowd
+
+[02:17:38] chanting sounds but just a general
+
+[02:17:41] polish pass because what we want to do
+
+[02:17:42] is we want to show off to what level of
+
+[02:17:45] fidelity we can we can really build our
+
+[02:17:47] environments. So um we're prioritizing
+
+[02:17:49] Pisel's arena the you know as Dom likes
+
+[02:17:52] to say the instant classic. We're going
+
+[02:17:53] to get that to show it um to show in all
+
+[02:17:56] its glory. Um, the other thing we're
+
+[02:17:58] doing is we're replacing track B with a
+
+[02:18:00] fully brand new track called Xenonate.
+
+[02:18:03] Um, and it's going to be it's going to
+
+[02:18:06] be Soian themed. And um, we're already
+
+[02:18:10] play testing an early block out of it
+
+[02:18:12] now. So, really excited about
+
+[02:18:15] that. Main menu refresh. So, we're we're
+
+[02:18:17] going to be refreshing the salt flats
+
+[02:18:19] background scene with a with an updated
+
+[02:18:22] um, more visually compelling scene. And
+
+[02:18:25] al we're also going to be restyling some
+
+[02:18:27] of the
+
+[02:18:28] UI and then uh joystick gamepad support.
+
+[02:18:32] So we got most of the way there with our
+
+[02:18:34] last release, but we're still not 100%.
+
+[02:18:36] We we recognize that you know some of
+
+[02:18:38] you that tried hooking up your your
+
+[02:18:40] hotel um or joysticks it wasn't fully
+
+[02:18:44] compatible yet. So we're working on
+
+[02:18:46] that. U we made significant progress.
+
+[02:18:49] And with that we want to show off um
+
+[02:18:51] just a a demo of of it working already.
+
+[02:18:54] So, go ahead and and and play the uh
+
+[02:18:56] Brad's clip,
+
+[02:18:59] the legend.
+
+[02:19:09] So, kudos to Brad for uh for recording
+
+[02:19:12] this for us yesterday. But yeah, this is
+
+[02:19:14] him playing the latest on his own uh
+
+[02:19:17] setup.
+
+[02:19:31] Right on. Uh, really cool to see.
+
+[02:19:34] Very cool. Yeah. And then legend. Yeah.
+
+[02:19:37] Thank you, Brad, for for that. And thank
+
+[02:19:39] you in advance for this next video we're
+
+[02:19:41] going to show. But let me let me preface
+
+[02:19:42] it by saying that um you guys love what
+
+[02:19:45] we're doing in Galia, especially with
+
+[02:19:47] the with the mining game play. So,
+
+[02:19:51] um, we decided we want to we want to
+
+[02:19:56] prototype and lean into another career
+
+[02:19:58] path. So, we've been spending some time
+
+[02:20:00] on our scanning gameplay in Galia. And,
+
+[02:20:03] um, what we've done is we prototyped
+
+[02:20:05] this concept of scanning while you're
+
+[02:20:07] subworping and finding a, you know, a a
+
+[02:20:11] signal and what can happen when you find
+
+[02:20:13] that signal and investigate it. So, go
+
+[02:20:15] ahead and play uh, the video and
+
+[02:20:21] Can you raise the volume on it if
+
+[02:20:23] possible?
+
+[02:20:26] That's the loudest it could be right
+
+[02:20:27] now. Great. So, Brad just scanned um in
+
+[02:20:32] scanning mode in subwarp and he found a
+
+[02:20:34] uh a distress signal and he's
+
+[02:20:35] approaching it as we
+
+[02:20:37] speak. As it got closer, we we got more
+
+[02:20:40] details and it looks like assistance is
+
+[02:20:43] required.
+
+[02:22:56] super generous
+
+[02:22:57] there. All right, guys. Um, yeah, big
+
+[02:23:00] shout out to Brad. He put this put this
+
+[02:23:02] whole prototype together himself. And
+
+[02:23:04] not only is it an excellent prototype,
+
+[02:23:06] he's a comedian cuz he I think he wrote
+
+[02:23:08] all of that text um and the script and
+
+[02:23:12] voice acted it himself. So, um, yeah,
+
+[02:23:15] Dub's in chat for Brad. That amazing
+
+[02:23:17] work there.
+
+[02:23:18] Yeah. So, you can see where we're going.
+
+[02:23:20] We're we're prototyping, scanning, but
+
+[02:23:22] also,
+
+[02:23:24] um, random encounters and, uh, and
+
+[02:23:28] different mini quests you can engage
+
+[02:23:30] with. And that's that's just one of the
+
+[02:23:31] ones he's he's done. I think we have
+
+[02:23:33] several others that he's already
+
+[02:23:34] created. So, we want to get these in for
+
+[02:23:36] the next release so that you can players
+
+[02:23:38] can have fun with them.
+
+[02:23:40] Um, Chip, the burning question though is
+
+[02:23:42] what what is the uh what is the credit
+
+[02:23:43] to Atlas exchange rate?
+
+[02:23:46] 6.5 to uh one. I don't know. We won't
+
+[02:23:51] overcommit here. Oh, six 6.5 Atlas.
+
+[02:23:53] Okay, so that was a score. Yeah, super
+
+[02:23:57] generous. All right. Um I think that's
+
+[02:23:58] it for uh my segment. Um yeah, a lot
+
+[02:24:02] planned for this upcoming release. I'm
+
+[02:24:03] really excited to to get this in the
+
+[02:24:05] hands of of the community and the
+
+[02:24:07] players, but um but yeah, I hope you
+
+[02:24:09] guys are excited as I am because because
+
+[02:24:12] we got really great momentum and our the
+
+[02:24:14] UI dev team is killing it lately. So,
+
+[02:24:17] we're we're continuing to to press and
+
+[02:24:20] and um just deliver. So, thanks for
+
+[02:24:24] having me, guys. I think that's it for
+
+[02:24:25] me. Great stuff, Chip. Fantastic. Yeah,
+
+[02:24:29] Chip. Chip, thanks for coming up and
+
+[02:24:30] sharing all of that, man. a lot of
+
+[02:24:32] exciting updates coming here. You guys
+
+[02:24:35] are absolutely crushing it on the on the
+
+[02:24:38] product side and
+
+[02:24:40] uh you know we announced it well gez I
+
+[02:24:44] don't even remember how long ago many
+
+[02:24:45] months ago but uh moving you over into
+
+[02:24:48] that uh VP of of game production role
+
+[02:24:51] was was a a great transition and you've
+
+[02:24:54] done a great job leading that team man
+
+[02:24:55] well done. Appreciate it. Thanks guys.
+
+[02:24:58] All right. Well, good luck for the rest
+
+[02:24:59] of the town hall. We're twothirds of the
+
+[02:25:00] way through. So, uh, I'll hop off now.
+
+[02:25:03] Cheers. Thank you, Chip. Crushing it,
+
+[02:25:06] man. W's in the chat for Chip, everyone.
+
+[02:25:08] W in the chat for Chip, the
+
+[02:25:12] legend. Oh, swag, man. We're still
+
+[02:25:15] going. We're still going. Yeah, I think
+
+[02:25:18] it's only uh an hour and a half left.
+
+[02:25:23] Yes. But yeah, if you made it to this
+
+[02:25:25] part, guys, you won't be disappointed.
+
+[02:25:28] Let me tell you that.
+
+[02:25:29] you won't be disappointed because we are
+
+[02:25:32] now
+
+[02:25:33] moving into the last part of this town
+
+[02:25:36] hall which is about
+
+[02:25:39] holosim. So we I think Michael for the
+
+[02:25:44] people that have no idea I think we
+
+[02:25:46] probably need to preface a little bit
+
+[02:25:48] what holosim is and what is it about.
+
+[02:25:53] Yeah, abs. I mean, people have heard us
+
+[02:25:54] talking about this. If you're a member
+
+[02:25:56] of the community, we've kind of teased a
+
+[02:25:58] little bit of it. I think we've sk
+
+[02:25:59] shared some screenshots. Uh uh obviously
+
+[02:26:03] we've revealed the name previously, but
+
+[02:26:06] Hollow Sim is our full free-to-play
+
+[02:26:10] simulated universe implementation of the
+
+[02:26:13] Sage feature set. Now we have a demo for
+
+[02:26:16] you guys today and so there will you
+
+[02:26:19] will uh actually get to see some of the
+
+[02:26:21] stark differences that are uh already
+
+[02:26:25] integrated into this hollow sim product.
+
+[02:26:27] But uh I I noted at the very start of
+
+[02:26:31] the town hall that we had a you know
+
+[02:26:33] corporatewide objectives and goals that
+
+[02:26:35] we wanted to accomplish this year. And
+
+[02:26:37] you know by and large uh many of those
+
+[02:26:39] were tailored towards reducing the
+
+[02:26:42] barrier to entry simplifying the
+
+[02:26:44] onboarding experience and really trying
+
+[02:26:46] to achieve and target um casting a wide
+
+[02:26:50] net and building this large top offunnel
+
+[02:26:52] user acquisition uh pipeline for Star
+
+[02:26:56] Atlas. Now um internally we've kind of
+
+[02:27:00] had this theme of breaking out of the
+
+[02:27:01] echo chamber. one of the challenges that
+
+[02:27:04] we've faced over the years. And I I will
+
+[02:27:07] attribute a good portion of this to just
+
+[02:27:09] market dynamics that we're all
+
+[02:27:11] navigating here as we build towards a
+
+[02:27:14] more mature product that will um be
+
+[02:27:17] attractive to an audience outside of
+
+[02:27:19] this native web 3 crypto
+
+[02:27:21] user. Um and you know, I say that and
+
+[02:27:25] and we genuinely love you guys, our
+
+[02:27:29] community. Well, most of you guys, but
+
+[02:27:31] uh
+
+[02:27:34] uh joking, of course. But uh you know,
+
+[02:27:37] in order for us to achieve success and
+
+[02:27:39] and to uh truly see the fruits of all of
+
+[02:27:43] the labor here blossom, it's important
+
+[02:27:45] for us to grow the the user base, the
+
+[02:27:48] community, the ecosystem substantially.
+
+[02:27:50] And uh without going off on too far of a
+
+[02:27:53] tangent here, I see the the total
+
+[02:27:55] addressable market, the TAM uh or
+
+[02:27:58] potential audience for Star Atlas, not
+
+[02:28:01] like I don't benchmark it against any
+
+[02:28:03] traditional video game or even web 3
+
+[02:28:06] game. I think with everything that we
+
+[02:28:07] have to offer and this idea of a cyber
+
+[02:28:10] nation, the global borderless digital
+
+[02:28:12] economy and real labor markets that
+
+[02:28:14] exist, I see this as being um something
+
+[02:28:18] that can attract potentially hundreds of
+
+[02:28:20] millions of participants over time. Now,
+
+[02:28:22] that's a very ambitious goal and
+
+[02:28:24] something that would, you know, take
+
+[02:28:25] quite a while to achieve, but how do we
+
+[02:28:27] make progress towards that? And uh part
+
+[02:28:30] of it is recognizing that you know
+
+[02:28:32] something like Sage is is quite a
+
+[02:28:34] challenging product to get into. It has
+
+[02:28:36] a steep learning curve. that also has a
+
+[02:28:39] pretty significant um cost of entry to
+
+[02:28:42] get into. And alternatively, we have uh
+
+[02:28:45] our our very immersive Unreal Engine
+
+[02:28:47] product that's still pretty early stage.
+
+[02:28:49] And you know, a major focus there was
+
+[02:28:52] working on a core gameplay loop or a
+
+[02:28:54] couple of loops that really consist of
+
+[02:28:56] arena shooter and racing modules that
+
+[02:29:00] can create a deep level of engagement
+
+[02:29:02] and replayability and fun. But we also
+
+[02:29:05] know we're, you know, uh, some of the
+
+[02:29:07] things we're lacking there are economic
+
+[02:29:09] integrations and character progression.
+
+[02:29:10] And as Chip just discussed, those are a
+
+[02:29:13] couple of the core features that we're
+
+[02:29:15] focused on going into, uh, midyear here
+
+[02:29:18] for the next major release of of that
+
+[02:29:19] Unreal Engine client. But, um, as we
+
+[02:29:22] assess all of that and we think about
+
+[02:29:24] our goals, uh, we kind of had the
+
+[02:29:26] fortunate circumstance of a free-to-play
+
+[02:29:30] product getting developed. I do want to
+
+[02:29:32] give a special mention here to Jacob,
+
+[02:29:34] our CTO and co-founder for largely Vive
+
+[02:29:39] Coding Hollow Sim. Uh on nights and
+
+[02:29:43] weekends, I think he got the product 50
+
+[02:29:46] or 60% of the way to where it is now.
+
+[02:29:48] Now, it's seen a significant amount of
+
+[02:29:51] development and contributions from uh
+
+[02:29:54] people like Xcode, that's John Reeve,
+
+[02:29:56] Michael Kaine, Jeff Wagner, Jose
+
+[02:29:59] participating in polishing this out and
+
+[02:30:01] bringing it to where it is now. But um I
+
+[02:30:04] mentioned that specifically because I as
+
+[02:30:07] we we've talked about hollow sim there
+
+[02:30:09] have been some questions about uh how
+
+[02:30:12] many resources this is consuming from
+
+[02:30:14] the team and how much is it pulling away
+
+[02:30:16] from some of our other development
+
+[02:30:17] efforts. And the reality is is that that
+
+[02:30:20] this hollow sim product has actually
+
+[02:30:23] required minimal resources relative to
+
+[02:30:26] everything else that we work on and and
+
+[02:30:28] really proud of what the team has
+
+[02:30:30] accomplished with it. uh accomplished
+
+[02:30:32] with it already. But in essence, our
+
+[02:30:36] product goals on Hollow Sim were first
+
+[02:30:39] of all to create a fun experience. Um it
+
+[02:30:42] is free to play. It doesn't require any
+
+[02:30:43] capital investment. Um and we want to
+
+[02:30:47] make sure that what we release here is
+
+[02:30:49] fun and engaging because it also doesn't
+
+[02:30:51] have the benefits of a live uh real cash
+
+[02:30:54] economy like we have in uh Sage for
+
+[02:30:57] example. Fun experience was number one.
+
+[02:31:01] wanted uh um as I noted a a very low
+
+[02:31:05] resource cost from the team side so we
+
+[02:31:07] can continue to focus on our other major
+
+[02:31:09] product lines and and uh feature
+
+[02:31:11] releases and importantly that we wanted
+
+[02:31:14] to create an experience that essentially
+
+[02:31:16] created zero barrier to entry for any
+
+[02:31:19] new participant. And so in the case of
+
+[02:31:21] HollowSim that means that you're not
+
+[02:31:24] burdened with creating a wallet.
+
+[02:31:25] Although a wallet is technically created
+
+[02:31:28] in the background, it's it's in browser.
+
+[02:31:31] Um but uh the user isn't exposed to that
+
+[02:31:34] wallet creation process because there's
+
+[02:31:36] no asset requirement either, which means
+
+[02:31:39] we've eliminated the financial cost of
+
+[02:31:41] barrier to play. And then otherwise
+
+[02:31:43] there's no uh there's no user user
+
+[02:31:46] registration process on this either. You
+
+[02:31:48] simply go to the website, you go to the
+
+[02:31:50] domain and you're immediately ready to
+
+[02:31:53] start playing. Um, now what we see this
+
+[02:31:55] creating is a way for us to ultimately
+
+[02:31:58] start to expand and reach out to a
+
+[02:32:00] mainstream user or a web 2 user. Uh,
+
+[02:32:02] because we're eliminating uh those those
+
+[02:32:05] those friction points and we're also uh
+
+[02:32:08] creating a fun free-to-play product uh
+
+[02:32:10] that we certainly hope is engaging. Now
+
+[02:32:13] along the way, assuming we can capture
+
+[02:32:16] this audience, we're also
+
+[02:32:18] uh we've also integrated tutorial
+
+[02:32:20] systems and uh and mission systems that
+
+[02:32:24] really familiarize the these new users
+
+[02:32:27] with the way that Sage works. Now, we
+
+[02:32:29] see an opportunity here to ultimately
+
+[02:32:31] bridge some of these free-to-play users
+
+[02:32:33] into Sage and and into the live economy,
+
+[02:32:36] but at least as a starting point, we're
+
+[02:32:38] teaching them how to play with really no
+
+[02:32:41] risk whatsoever. uh so that uh that will
+
+[02:32:44] let them test uh all of the features of
+
+[02:32:46] Sage and and again teach them how to
+
+[02:32:48] play. Now, in the meantime, we're also
+
+[02:32:50] able to leverage this platform as a way
+
+[02:32:53] for us to introduce new mechanics and
+
+[02:32:56] features and test that out for ourselves
+
+[02:32:59] and gather feedback on that. Now, a lot
+
+[02:33:02] of the systems that they're going to
+
+[02:33:03] demo today on the
+
+[02:33:05] call, I I am quite confident there will
+
+[02:33:09] be demand for. I I think immediately
+
+[02:33:11] following this town hall, we're actually
+
+[02:33:12] going to get requests from people to
+
+[02:33:14] port those features and that
+
+[02:33:16] functionality into Sage. Um, and in many
+
+[02:33:18] cases, we will be doing that. But this
+
+[02:33:20] is an opportunity for us to test out new
+
+[02:33:23] features. Um, uh, almost like a PTR
+
+[02:33:26] environment. So it's a kind of a test of
+
+[02:33:28] a test which Sage Labs really was in the
+
+[02:33:31] first place. Um we also are testing new
+
+[02:33:36] infrastructure here. We talked about
+
+[02:33:39] Atlaset earlier on as as where C4 PTR
+
+[02:33:43] will be launched. And in uh in the same
+
+[02:33:46] way we're actually using that same clone
+
+[02:33:48] of the Salana SVM that we've been
+
+[02:33:51] working off of to test all of our
+
+[02:33:53] onchain programs internally. We're
+
+[02:33:55] leveraging that network now as the
+
+[02:33:58] network that will host Hollow Sim as
+
+[02:34:00] well as C4 PTR. Again, pretty big
+
+[02:34:03] implications for how that resolves going
+
+[02:34:06] into the future. But in the near term,
+
+[02:34:09] it means very fast transactions, high
+
+[02:34:12] network reliability, and zero cost for
+
+[02:34:14] anybody who's uh transaction cost for
+
+[02:34:16] anybody who's on that network.
+
+[02:34:19] And finally, I'll finish with this
+
+[02:34:21] because I'm sure everybody's eager to to
+
+[02:34:22] to jump in and uh see these demos from
+
+[02:34:26] uh both John and Jose here, but uh for
+
+[02:34:29] us, this actually creates a a a new
+
+[02:34:32] revenue stream potential as well. uh
+
+[02:34:34] treating it more as a web 2 product with
+
+[02:34:37] web two monetization means we can couple
+
+[02:34:40] this with things like a battle pass or
+
+[02:34:42] subscription fee that's a monthly
+
+[02:34:44] service as well as adding various
+
+[02:34:46] degrees of microtransactions
+
+[02:34:48] um uh to this and if it's a really fun
+
+[02:34:51] product which we think it will be and it
+
+[02:34:53] attracts uh this web 2 uh mainstream
+
+[02:34:57] audience in and we can secure some uh
+
+[02:35:00] new cash flows as a result of this with
+
+[02:35:02] potential for large user acquisition and
+
+[02:35:05] growth, then that obviously supports
+
+[02:35:07] Automata. It supports the studio. Um,
+
+[02:35:10] and it gives us a lot more flexibility
+
+[02:35:12] and decision-m that we make uh around
+
+[02:35:15] things like asset release structure,
+
+[02:35:17] strategy, and the other ways that we
+
+[02:35:19] monetize uh all of our web 3 products.
+
+[02:35:22] So, I think this is an incredibly
+
+[02:35:24] powerful product. Uh really excited just
+
+[02:35:26] to introduce the team here and and turn
+
+[02:35:28] it over to them to show off what we've
+
+[02:35:31] been building. Michael, before before we
+
+[02:35:34] do that and while you get a sip of
+
+[02:35:36] water, um I think people are losing the
+
+[02:35:40] steadiness in the chat and they want to
+
+[02:35:41] know a release date for this.
+
+[02:35:47] Well, should we How about we do this?
+
+[02:35:50] How about we go through the demo first?
+
+[02:35:52] Don't tell. Okay, makes sense. We don't
+
+[02:35:55] tell them yet. Yeah. Yeah. Yeah. Yeah.
+
+[02:35:57] Makes sense. They won't believe us
+
+[02:35:58] anyways.
+
+[02:36:00] You can lose you can lose the
+
+[02:36:02] steadiness. You can lose the steadiness.
+
+[02:36:04] We'll keep going.
+
+[02:36:06] [Laughter]
+
+[02:36:07] I will I will address one question
+
+[02:36:09] really quickly here. So Krabby in the in
+
+[02:36:11] the chat mentioned, you know, put this
+
+[02:36:13] freeto play on phone and you'll get a
+
+[02:36:15] ton of new folks. Well, part of the
+
+[02:36:17] benefit of this obfuscation of wallette,
+
+[02:36:20] for example, and transactions taking
+
+[02:36:22] place in the background on Atlaset is
+
+[02:36:25] that it is a lot easier for us to port
+
+[02:36:28] over to mobile. And we've actually been
+
+[02:36:29] preparing for that and there is the
+
+[02:36:32] possibility for us to have this as a you
+
+[02:36:34] know standalone app on both the uh app
+
+[02:36:37] store and Google play store. So um part
+
+[02:36:40] of the bigger uh operational objective
+
+[02:36:43] of securing new user acquisition
+
+[02:36:46] deploying this product to mobile is very
+
+[02:36:49] much in the road map.
+
+[02:36:53] Nice.
+
+[02:36:54] Nice. Jose Xcode, you guys are ready for
+
+[02:36:58] a live demo alert.
+
+[02:37:00] Oh my god. Let's do it. Santi GM GM.
+
+[02:37:05] Everyone, my penguin bones are
+
+[02:37:07] trembling. I am super excited to be here
+
+[02:37:11] talking about Holene. And while John
+
+[02:37:14] pulls out the the string, I would like
+
+[02:37:17] to do a very brief introduction to
+
+[02:37:20] another side of Holene. Michael did a
+
+[02:37:23] great uh presentation on the many
+
+[02:37:26] aspects of this product. It is indeed a
+
+[02:37:29] product with many different levels for
+
+[02:37:32] our company. It's an on boarding
+
+[02:37:34] product. It is
+
+[02:37:36] a tutorial mechanism to get people
+
+[02:37:39] familiar with Sage, but also and I think
+
+[02:37:43] this is the most important aspect of
+
+[02:37:45] holing. It's a space for us to
+
+[02:37:48] experiment and go wild.
+
+[02:37:51] So what is holosine? Holosine is a
+
+[02:37:55] simulator of realities in Star Atlas.
+
+[02:37:59] Every season of hollow scene will be
+
+[02:38:01] based on a scenario where we automata
+
+[02:38:05] will define a specific set of rules for
+
+[02:38:09] the game to play out and the players you
+
+[02:38:12] guys will compete in those scenarios
+
+[02:38:15] according to the rules of that season of
+
+[02:38:17] that scenario and we'll try to perform
+
+[02:38:20] across the leaderboards. You guys will
+
+[02:38:22] try the new mechanics. you guys will
+
+[02:38:24] experiment the different factions,
+
+[02:38:27] elements, and uh many cool stuff that we
+
+[02:38:30] have reserved for you guys. So, for
+
+[02:38:32] example, in one season of the hol scene,
+
+[02:38:35] we could go back all the way to the days
+
+[02:38:38] of the convergence war and replay the
+
+[02:38:40] battle that you guys read about in core
+
+[02:38:44] in another season of Holene. We could
+
+[02:38:46] have an entirely different logic from
+
+[02:38:49] what we have on stage right now. And we
+
+[02:38:52] have all the factions being in the same
+
+[02:38:55] side under the console of peace and
+
+[02:38:58] fighting uh threats from the high-risisk
+
+[02:39:02] zone. And well, there are some even more
+
+[02:39:06] exotic scenarios, but I'm not going to
+
+[02:39:08] talk about those now. I am going
+
+[02:39:10] immediately give you guys some
+
+[02:39:12] highlights about the scenario that we
+
+[02:39:15] have developed for you guys in this soft
+
+[02:39:18] early access of hollow sim.
+
+[02:39:23] uh we have prepared for this scenario uh
+
+[02:39:28] a race between the factions. The logic
+
+[02:39:32] of this first scenario of holosim is
+
+[02:39:35] that every faction every player is
+
+[02:39:37] competing to fulfill uh faction
+
+[02:39:41] contracts of different types across all
+
+[02:39:44] star bases in g expense.
+
+[02:39:48] It it looks simple. Yeah, John is
+
+[02:39:50] showcasing this on the on the interface
+
+[02:39:54] right now. We have aerogel contracts, we
+
+[02:39:57] have crystal contracts, we have data
+
+[02:39:59] contracts. And even though it seems
+
+[02:40:02] simple on the surface, well, we never do
+
+[02:40:05] things that people expect here in Star
+
+[02:40:07] Atlas. So, we added a couple of rules, a
+
+[02:40:11] a couple of twists that will make the
+
+[02:40:14] experience a lot more interesting. The
+
+[02:40:17] first of one, the first one of those is
+
+[02:40:19] that hollow scene incorporates into Star
+
+[02:40:23] Atlas a quest system. And this quest
+
+[02:40:27] system allows players to specialize in
+
+[02:40:31] four different in-game careers. So while
+
+[02:40:34] you play Holene, you'll be able to
+
+[02:40:36] become a soldier, a data runner, a
+
+[02:40:39] minor, or a merchant.
+
+[02:40:42] And the way that we designed the game is
+
+[02:40:44] that while you progress, while you do
+
+[02:40:47] the quests, you choose one
+
+[02:40:49] specialization path and this will unlock
+
+[02:40:53] recipes for you in that specialization
+
+[02:40:56] path.
+
+[02:40:57] And the cool thing about this system is
+
+[02:40:59] that every
+
+[02:41:01] specialization is necessary for you to
+
+[02:41:04] fulfill parts of the game in order for
+
+[02:41:07] your faction to keep keep advancing
+
+[02:41:09] towards the end goal of the
+
+[02:41:12] game. Um, sorry if I'm going a little
+
+[02:41:16] too fast, John. I'm getting super hyped
+
+[02:41:18] here. But John is showing right now, for
+
+[02:41:20] example, one of the ship crafting
+
+[02:41:23] recipes that we get from specializing
+
+[02:41:26] combat. So, for example, if you become a
+
+[02:41:28] soldier, you open up the Ogria Mik, you
+
+[02:41:32] open up uh the the trip, you open up
+
+[02:41:36] capital ships that are specialized in
+
+[02:41:39] combat. If you go for example to the
+
+[02:41:42] miners career, you have access to to the
+
+[02:41:44] Armstrong line of ships each and as you
+
+[02:41:48] guys have guessed each one of them will
+
+[02:41:50] excel at their different gameplay loops.
+
+[02:41:55] This is a very important topic here
+
+[02:41:57] because we have played with the ship
+
+[02:42:01] stats in game. So whenever you guys pick
+
+[02:42:04] a ship in holos scene, you guys will
+
+[02:42:06] notice that they are widely different
+
+[02:42:10] from your normal sage ships. The the
+
+[02:42:14] merchant ships, their cargo will be
+
+[02:42:18] absurdly better. They will perform
+
+[02:42:21] really well on hauling cargo trading. uh
+
+[02:42:26] minor ships will be extremely good at
+
+[02:42:28] mining, but their com combat abilities
+
+[02:42:31] will be very very low. So, the game is
+
+[02:42:35] designed to highlight the differences
+
+[02:42:37] between ships and allow them to thrive
+
+[02:42:40] in their specializations. Of course, you
+
+[02:42:43] still have access to normal ships that
+
+[02:42:46] perform other tasks, but you can't you
+
+[02:42:50] can't compete in terms of quality and
+
+[02:42:54] efficiency with the ships that comes
+
+[02:42:56] from the specializations in their
+
+[02:42:58] specific tasks.
+
+[02:43:00] There is another
+
+[02:43:02] uh very cool feature of holosene that
+
+[02:43:06] the players of Star Atlas have been
+
+[02:43:08] desiring from day zero on Sage. Uh John,
+
+[02:43:12] can you show them the chat
+
+[02:43:15] system? I think this is something that
+
+[02:43:18] we have been waiting for for a long time
+
+[02:43:21] to
+
+[02:43:21] coordinate. Yes, we'll have chats. We'll
+
+[02:43:25] be able to talk with our members of our
+
+[02:43:27] faction. And this is vital. This is
+
+[02:43:30] vital for the faction success in Hollow
+
+[02:43:33] Sync because many of the quests revolves
+
+[02:43:36] around upgrading star bases, deploying
+
+[02:43:39] resources coordinating
+
+[02:43:42] attacks. So yeah, you can see in the
+
+[02:43:45] chat it's live now. So players will be
+
+[02:43:48] talking with each other. Uh they will be
+
+[02:43:51] chat
+
+[02:43:52] system, they will be deciding their
+
+[02:43:55] strategies. They will be defending their
+
+[02:43:59] fellow members of their factions. This
+
+[02:44:02] [Laughter]
+
+[02:44:03] is this is super exciting and yeah, this
+
+[02:44:07] opens up a whole new level of game play.
+
+[02:44:11] Another thing that I not noticed during
+
+[02:44:14] this town hall is that players have been
+
+[02:44:16] saying, "Man, C4 is growing so big, so
+
+[02:44:21] complex that I might need an AI to play
+
+[02:44:25] the game." And well, Holene got this
+
+[02:44:29] covered for you. Now, Holene introduces
+
+[02:44:33] artificial intelligence technology to
+
+[02:44:37] Sage. During the game play of Hollow
+
+[02:44:39] Sim, one of your crew members is your
+
+[02:44:43] ship personal AI. You unlock it through
+
+[02:44:46] the quest system and she will be there
+
+[02:44:50] providing you with resources,
+
+[02:44:53] informations general
+
+[02:44:56] uh information about Star Atlas, about
+
+[02:44:59] the lore, about the game mechanisms,
+
+[02:45:02] gameplay loops. Sage will be your loyal
+
+[02:45:06] and
+
+[02:45:09] uh your loyal crew member and she will
+
+[02:45:12] help you go through the game and perform
+
+[02:45:17] the best way
+
+[02:45:19] possible.
+
+[02:45:20] Finally finally
+
+[02:45:23] uh this wouldn't be
+
+[02:45:27] uh com complete without combat, right?
+
+[02:45:32] Holosene uh introduces the combat v0ero
+
+[02:45:38] mechanic to the Star Atlas
+
+[02:45:41] ecosystem. So if Star Atlas Sage was
+
+[02:45:45] already interesting, now we have
+
+[02:45:48] mechanics uh that allows us to ambush
+
+[02:45:52] other players uh to attack other fleets.
+
+[02:45:57] And there's a very interesting thing
+
+[02:45:59] about combat in in hollow scene is that
+
+[02:46:03] in this season in this season combat is
+
+[02:46:07] high risk zone. So this is one of the
+
+[02:46:10] twists that we added to this scenario of
+
+[02:46:14] hollowosene combat is completely
+
+[02:46:18] obliteration. If you die, if your fleet
+
+[02:46:21] dies, you lose the fleet, you lose the
+
+[02:46:25] crew, and you need to build another
+
+[02:46:29] thing. You need to regroup. You need to
+
+[02:46:32] rethink your strategy because it's
+
+[02:46:35] totally on. And remember when I said
+
+[02:46:38] that holosene is based on the delivery
+
+[02:46:41] of contracts. When you kill players from
+
+[02:46:44] opposing factions and they have for
+
+[02:46:46] example
+
+[02:46:48] uh faction contracts in their loot box
+
+[02:46:51] in their cargo holds. Those contracts
+
+[02:46:55] they will be dropped in game.
+
+[02:46:58] And when they are dropped, you can loot
+
+[02:47:01] those contracts and redeem you for your
+
+[02:47:05] faction benefits. So this creates a very
+
+[02:47:08] interesting dynamic. You need miners in
+
+[02:47:11] game to gather the resources for your
+
+[02:47:14] faction to then craft the the contracts.
+
+[02:47:19] You need the merchants to be able to
+
+[02:47:21] haul cargo across the different systems
+
+[02:47:24] and provide liquidity and resources to
+
+[02:47:27] support your starbased operations to
+
+[02:47:30] support your battles in the fronts of
+
+[02:47:32] Galia expense. You need data runners to
+
+[02:47:36] acquire
+
+[02:47:37] SDUs and to be able to craft data
+
+[02:47:42] contracts. That's one of the types of
+
+[02:47:43] contracts that we'll have. And finally,
+
+[02:47:47] we'll have the combat people that will
+
+[02:47:50] defend their fellow crew members and
+
+[02:47:53] will attack the enemies to steal their
+
+[02:47:56] contracts. So, right now on stage, you
+
+[02:47:59] see
+
+[02:48:01] um one of my fleets. Uh this is not what
+
+[02:48:04] we planned.
+
+[02:48:08] I'll send you something. I'll send you
+
+[02:48:09] something.
+
+[02:48:13] Is Jose getting destroyed? Yeah, John
+
+[02:48:16] turned the tables on me. He said, "Jose,
+
+[02:48:19] I'm going to let you destroy on stage a
+
+[02:48:22] very noob ship. Don't worry, you look
+
+[02:48:25] nice." But then I see that he ambushed
+
+[02:48:27] my penguin's
+
+[02:48:30] refra the dream of orcas and the badger
+
+[02:48:34] fleet. No, you can't destroy my fleet,
+
+[02:48:35] John. It's for the people. I want them
+
+[02:48:37] to see live how the I want I want you to
+
+[02:48:41] I want you to engage this fleet in
+
+[02:48:44] Subwarp first with the first N
+
+[02:48:46] newtopia cuz I I have a transport
+
+[02:48:48] passing you and I want people to see
+
+[02:48:51] that they can attack. They can be
+
+[02:48:53] ambushed while in subwarp. Yeah, this is
+
+[02:48:56] something really important. Movement is
+
+[02:48:58] super important in hollow scene. If you
+
+[02:49:02] are warping, you can't be attacked.
+
+[02:49:06] But if you are subwarping and someone
+
+[02:49:08] warps over you, they can go and do
+
+[02:49:13] this. You guys see I destroyed his
+
+[02:49:16] shield with just the first heat of my
+
+[02:49:18] Feast of Nootopia. And then I'll go and
+
+[02:49:21] attack him
+
+[02:49:23] again. His life is decreasing. He's
+
+[02:49:26] trying to flee the system, but he's too
+
+[02:49:28] slow to flee in time. And finally, I
+
+[02:49:32] have destroyed his fleet.
+
+[02:49:35] It is victor for the penguin. Uh, our
+
+[02:49:40] cargo loot
+
+[02:49:41] here will show it to me. You know what?
+
+[02:49:44] I I think I think it left the system
+
+[02:49:46] just as you were about to destroy it. No
+
+[02:49:50] way, John. It had like It had like one
+
+[02:49:52] hit point and it got out. Really?
+
+[02:49:54] Really? I'll hunt you now. Hold on. You
+
+[02:49:56] caught me at the tail end.
+
+[02:49:59] Are you guys literally fighting live?
+
+[02:50:01] Like this is live. Yeah. Um I'll hunt
+
+[02:50:05] him down. Hold on. I'll I'll I'll
+
+[02:50:07] demonstrate an actual this how a ship
+
+[02:50:10] should get destroyed with the dream of
+
+[02:50:11] workers here. So I'm going to choose
+
+[02:50:13] attack and I'm going to attack Penguin's
+
+[02:50:17] Wrath. Hopefully attack. Choose. No.
+
+[02:50:20] Maybe. Maybe not. Maybe he's immune to
+
+[02:50:22] me.
+
+[02:50:25] He's protected by the cosmic currents.
+
+[02:50:26] He might actually Iris might be uh
+
+[02:50:29] protecting him. Let me see if I can add
+
+[02:50:31] something to it.
+
+[02:50:34] Yeah. You know what I'm going to do? I'm
+
+[02:50:36] going to escape you. People can escape.
+
+[02:50:39] Yeah. Yeah. Yeah.
+
+[02:50:43] Hold on. Hang on. Let me
+
+[02:50:49] refresh. Can't give away too much here.
+
+[02:50:52] Let's refresh. Yeah.
+
+[02:50:58] I'll give you some time otherwise I'll
+
+[02:51:00] escape.
+
+[02:51:05] not
+
+[02:51:07] working. Maybe not. Maybe not.
+
+[02:51:11] It's happening. Live demo alert. Yeah,
+
+[02:51:13] live demo alert. Yeah, but don't worry,
+
+[02:51:16] it is working. Like this is a minor bug.
+
+[02:51:19] But the thing is the thing the
+
+[02:51:21] interesting thing about combat in hollow
+
+[02:51:23] sim is that if you are subwarping, you
+
+[02:51:26] can be intercepted by other players. And
+
+[02:51:30] what happens is that they can attack you
+
+[02:51:33] as long as you are in that system. The
+
+[02:51:36] thing is if you warp to engage them, you
+
+[02:51:40] have of course your warp cool down when
+
+[02:51:42] you I needed to reload. That was the
+
+[02:51:45] problem. Oh, you didn't have ammo. I
+
+[02:51:48] see. No. Yeah. There you go. Now I've
+
+[02:51:50] destroyed the noot and I have his loot.
+
+[02:51:54] He had 800 food on board. So I'm going
+
+[02:51:56] to loot that wreckage.
+
+[02:52:00] And I now have should have 800 food in
+
+[02:52:05] addition to the 2,000 that I had on
+
+[02:52:07] board.
+
+[02:52:10] And that's the cool thing, guys. Like
+
+[02:52:12] for example, you can be ambushed, but
+
+[02:52:15] ambushed, but if you have your cooldown,
+
+[02:52:19] if you have the warp free, you can
+
+[02:52:22] escape after the first heat. So you need
+
+[02:52:25] to understand the movements of the
+
+[02:52:27] fleets going
+
+[02:52:29] around. And one important thing after
+
+[02:52:32] you warp there's a cool down to dock in
+
+[02:52:35] star bases. So you can't just escape to
+
+[02:52:38] our star base. There will be a time
+
+[02:52:40] where you are still vulnerable and you
+
+[02:52:43] can still be attacked by this logic. So,
+
+[02:52:46] we created all this system in order to
+
+[02:52:49] foster combat, in order to enable you
+
+[02:52:52] guys to test this mechanic, to give us
+
+[02:52:56] feedback, and really go after your
+
+[02:52:59] friends for the first time in Status
+
+[02:53:01] history. You'll be able to kill each
+
+[02:53:03] other, loot each other, and have fun
+
+[02:53:06] together. Uh, but there's a lot more to
+
+[02:53:10] Hollow Sing. like this is barely
+
+[02:53:11] scratching the the the surface of the
+
+[02:53:15] game. As I as we spoke before, we also
+
+[02:53:18] have quests, right, John? Can you show
+
+[02:53:20] them the quest interface real quick?
+
+[02:53:22] Yes, sir. Yes, sir.
+
+[02:53:27] So, here we go. The way awesome. The way
+
+[02:53:30] that this work, guys, is that we have a
+
+[02:53:32] tutorial first where we teach players,
+
+[02:53:35] the newcomers and people that don't
+
+[02:53:38] know, for example, one of the gameplay
+
+[02:53:40] loops in Star Atlas, every single aspect
+
+[02:53:44] of the game. So, for example, when you
+
+[02:53:48] go to the first quest, uh they teach you
+
+[02:53:52] uh the concepts like space station. Uh,
+
+[02:53:56] as you can see, there is a summary of
+
+[02:53:58] the quest you are currently on. In the
+
+[02:54:01] right side of the screen, the tutorial
+
+[02:54:04] step, click expand to details. Uh, click
+
+[02:54:07] expand details to progress. John, if you
+
+[02:54:09] want to show them how this
+
+[02:54:12] work. Once John clicked this button, uh,
+
+[02:54:16] it open up the quest he so you can loot
+
+[02:54:18] it and it moves automatically to the
+
+[02:54:21] next quest. So Joe next quest is to form
+
+[02:54:24] a fleet. And we also have some
+
+[02:54:26] surprises. Guys, turn on the volume so
+
+[02:54:29] you guys can hear this the voice of your
+
+[02:54:32] assistant Sage in the
+
+[02:54:35] transmission. And it is time we create
+
+[02:54:37] your first fleet to start your
+
+[02:54:39] adventures in this
+
+[02:54:41] scenario. On the left side of your
+
+[02:54:43] screen, you will see your sector
+
+[02:54:45] interface. It will show your fleets once
+
+[02:54:48] we form them and all other fleets in the
+
+[02:54:51] sector. On the bottom of this interface,
+
+[02:54:53] there is the hanger button. Click it and
+
+[02:54:56] on this new window that popped, hit form
+
+[02:54:59] a
+
+[02:55:00] fleet. Everyone starts the scenario, one
+
+[02:55:02] humble air bike as per the standard
+
+[02:55:05] configuration. Name your fleet, select
+
+[02:55:07] the ship, and click
+
+[02:55:11] confirm. It's a small start, captain,
+
+[02:55:14] but this is the foundation of your
+
+[02:55:16] galactic empire.
+
+[02:55:19] Let's go.
+
+[02:55:21] This is super cool. Yeah. So, every
+
+[02:55:24] quest has this voice over. Uh, this is
+
+[02:55:27] the tutorial environment. So, you learn
+
+[02:55:30] the basics of the game. Sage will walk
+
+[02:55:32] you through and we have lots of quests.
+
+[02:55:36] Like at this point, just for the soft
+
+[02:55:40] release that we are doing now, we
+
+[02:55:42] already have 20 72 quests lined up. And
+
+[02:55:46] the idea is to take you guys from
+
+[02:55:49] forming your first fleet all the way to
+
+[02:55:52] building Titan ships. But we're not sure
+
+[02:55:56] you guys are going to reach there
+
+[02:55:58] because the trial condition to finish
+
+[02:56:00] this first season of Hollow Sim is
+
+[02:56:04] the is the depletion the redemption of
+
+[02:56:08] all the contracts in the major ring
+
+[02:56:10] zone. So I am really looking forward to
+
+[02:56:14] let you guys explore this product. Uh to
+
+[02:56:17] see the different quests, to specialize
+
+[02:56:18] in different thing things in different
+
+[02:56:21] careers, to try the gameplay loops that
+
+[02:56:25] we have designed and to see for
+
+[02:56:28] yourselves the possibilities, the
+
+[02:56:30] endless possibilities that we have for
+
+[02:56:34] Sage Holene freeto play. Uh anything
+
+[02:56:38] else, John, that you'd like to Oh. Oh,
+
+[02:56:40] we had Yeah. Yeah. Yeah. Yeah. I can go.
+
+[02:56:44] So many things. I thought I'll take I'll
+
+[02:56:46] take you guys through a couple of the
+
+[02:56:47] really uh the departures from the Sage
+
+[02:56:51] uh Starbased UI things that we've taken
+
+[02:56:55] advantage of because transaction fees
+
+[02:56:57] aren't a thing and because transactions
+
+[02:56:58] are instantaneous. Uh one of the big
+
+[02:57:00] ones is every fleet you form can be
+
+[02:57:03] given
+
+[02:57:05] basic instructions. Um, and you could
+
+[02:57:08] see when when docking. And so that is
+
+[02:57:10] this settings cog wheel at the top here.
+
+[02:57:12] Um, I'm telling this fleet every time
+
+[02:57:15] you dock, refuel, rearm, make sure you
+
+[02:57:18] have food, and then you can set how much
+
+[02:57:20] food as a percentage of your cargo hold.
+
+[02:57:22] Um, and and reload or unload the cargo,
+
+[02:57:25] sorry. Um, and so every fleet that you
+
+[02:57:28] move
+
+[02:57:29] um for mining purposes will
+
+[02:57:32] automatically just unload and re refuel
+
+[02:57:34] itself every time it docks at a nearby
+
+[02:57:36] location. So, if I start at the central
+
+[02:57:39] space station and I send it to mine and
+
+[02:57:42] then I bring it back in dock, there's no
+
+[02:57:44] more like unloading cargo and managing
+
+[02:57:45] cargo. It just empties everything out
+
+[02:57:47] and fills itself back up again and then
+
+[02:57:48] you can send it off to mine again.
+
+[02:57:52] Um, so that that basic automation kind
+
+[02:57:55] of there's I don't know there's about
+
+[02:57:57] six actions that are taken there and
+
+[02:57:59] normally you'd have to to pay for those
+
+[02:58:01] on mainet and we're not sure if
+
+[02:58:02] everybody wants those things but here on
+
+[02:58:06] uh on Atlas net there's no cost so we
+
+[02:58:07] figured we'd provide that as a as an
+
+[02:58:11] option right off the bat.
+
+[02:58:14] Um that leads us into the uh the what
+
+[02:58:18] we're calling the route manager. Um, so
+
+[02:58:20] once you've completed the tutorial, you
+
+[02:58:22] reach level five and you unlock the
+
+[02:58:24] route manager. And you can see that in
+
+[02:58:26] the fleet menu, um, there's a new icon
+
+[02:58:29] here. And, um, if I select that airbike
+
+[02:58:32] fleet that I just created at the central
+
+[02:58:34] space station and I enable a route, I
+
+[02:58:36] can choose a mining or a transport loop.
+
+[02:58:39] Um, and I can just tell it I want
+
+[02:58:42] to mine at Aurora. I can choose the
+
+[02:58:46] resource that's at Aurora, which is
+
+[02:58:47] carbon. And then I can tell it to bring
+
+[02:58:49] it back to Exodus, the much central
+
+[02:58:52] space station. And I assign that role.
+
+[02:58:54] The route manager will kick in. You'll
+
+[02:58:56] see this little yellow light here. And
+
+[02:59:00] uh whenever it gets into the queue, I've
+
+[02:59:03] got all these other uh routes going on.
+
+[02:59:05] But whenever it gets into the queue,
+
+[02:59:06] that one airbike will fill itself up.
+
+[02:59:09] It'll undock and it'll head to
+
+[02:59:12] um Aurora to begin mining. And then
+
+[02:59:14] it'll bring it back and it'll unload
+
+[02:59:15] itself. So um yeah John and just to
+
+[02:59:19] highlight something all the names in the
+
+[02:59:22] map are lore names. So we are forcing
+
+[02:59:24] you guys to learn the lore names deal
+
+[02:59:27] with it. Get lified. Exactly. We still
+
+[02:59:32] have the the old names very small under
+
+[02:59:34] the lore names but it is lore based.
+
+[02:59:37] It's a scenario we want the lore to be
+
+[02:59:39] expanded across gameplay loops. So yeah,
+
+[02:59:43] we are focusing on delivering the the
+
+[02:59:46] best game with the most lore integration
+
+[02:59:48] possible. So it starts here with Hollow
+
+[02:59:51] Sing.
+
+[02:59:53] Yep. Um, a couple other lowhanging
+
+[02:59:56] things. Uh, the the crafting interface
+
+[02:59:58] got a nice um a nice upgrade. You can
+
+[03:00:01] now search for recipes.
+
+[03:00:03] Um, I don't know what's a nice one, the
+
+[03:00:06] hero. Like the Calico Hero. Uh, you get
+
+[03:00:09] stats about the ships and how they
+
+[03:00:10] perform against other ships in their
+
+[03:00:12] category. Um, the ship stats are
+
+[03:00:16] specific to their class. So, you you're
+
+[03:00:20] you're not going to be mining with your
+
+[03:00:21] multi-roll ship as effectively as you
+
+[03:00:24] would with a minor. Uh, you're not going
+
+[03:00:25] to be mining at all with your your
+
+[03:00:27] fighters because they actually
+
+[03:00:29] burn you're you're basically going to
+
+[03:00:31] trade a full bank of ammo for an equal
+
+[03:00:34] number of of whatever you're mining.
+
+[03:00:36] It's it's very inefficient. Um, your
+
+[03:00:39] miners are vulnerable to attack, though,
+
+[03:00:41] and so you're going to want to pair them
+
+[03:00:43] with fighters as escorts. Otherwise,
+
+[03:00:46] your miners and your your transport
+
+[03:00:48] ships that that are not uh robust
+
+[03:00:51] fighters that don't have the shields,
+
+[03:00:52] that don't have the the fighting
+
+[03:00:54] capabilities, they're going to be
+
+[03:00:55] vulnerable to attack. So, it's not just
+
+[03:00:58] uh everybody specializes in their own
+
+[03:00:59] role. Um, when you come in here and you
+
+[03:01:02] want to craft something, you can now
+
+[03:01:04] click on click on the item that you
+
+[03:01:06] don't have. Like in this case, I don't
+
+[03:01:07] have enough frameworks. And it will
+
+[03:01:09] autopop populate that framework
+
+[03:01:12] requirement for you. And then you can
+
+[03:01:13] assign the number of crew that you want
+
+[03:01:15] to it. And you can click start. And then
+
+[03:01:17] you can go back to what you were doing
+
+[03:01:19] before and say, okay, maybe I need
+
+[03:01:20] electronics now. If I want enough
+
+[03:01:23] electronics for a full uh full ship, I'd
+
+[03:01:25] need more polymer. Come here and assign
+
+[03:01:28] a few crew to that that job as well.
+
+[03:01:31] And um yeah, then you can go about go
+
+[03:01:35] about your objectives. Uh I think I
+
+[03:01:37] created a few new ships here. You'll
+
+[03:01:39] notice everything's super smooth. Uh
+
+[03:01:41] there's no there's no delay in anything
+
+[03:01:43] getting approved. Um everything's pretty
+
+[03:01:46] pretty much
+
+[03:01:48] instant. And uh what else do we have
+
+[03:01:50] here? That's pretty awesome.
+
+[03:01:55] Another thing, John, is about the crew,
+
+[03:01:57] right? Let's tell them about the crew
+
+[03:01:59] system. Sure.
+
+[03:02:02] Who starts the game? Yeah. No, go on. Go
+
+[03:02:04] on, Joe. Yeah, sure. Uh, so everybody
+
+[03:02:06] starts with 21 crew.
+
+[03:02:10] Um, you get a daily airdrop of an
+
+[03:02:12] additional 21
+
+[03:02:14] crew. Um, these numbers aren't set in
+
+[03:02:17] stone. You'll notice none of these
+
+[03:02:18] numbers are set in stone. So, you may
+
+[03:02:20] wake up tomorrow and and your your ship
+
+[03:02:22] might get you might it might get
+
+[03:02:24] changed. Like the whole point of this
+
+[03:02:26] sandbox is first to have fun and second
+
+[03:02:29] to like see provide our community with
+
+[03:02:32] something that they can interact with
+
+[03:02:34] with us in while we're doing
+
+[03:02:36] development. Um it's
+
+[03:02:40] um all all the mechanics are here. all
+
+[03:02:42] the underlying systems are the same, but
+
+[03:02:44] uh we we've we've either added something
+
+[03:02:46] that we've dreamed about doing for a
+
+[03:02:48] long time that we wanted um you know
+
+[03:02:50] your opinion on or we wanted to test or
+
+[03:02:54] uh yeah
+
+[03:02:57] um the the crew actually uh they're
+
+[03:03:00] they're they're
+
+[03:03:02] also different than you don't need as
+
+[03:03:05] many crew as you would on mainet. Um,
+
+[03:03:06] but your crew die when your ships die.
+
+[03:03:09] Uh, so be very careful with with your
+
+[03:03:11] crew. If if your crew are blown up, you
+
+[03:03:13] you're going to be you're going to be
+
+[03:03:15] losing those crew, right? So, um, you
+
+[03:03:19] can get them through the quest. Uh,
+
+[03:03:20] there's a daily check-in quest. You come
+
+[03:03:22] to the dailies tab and check in, you'll
+
+[03:03:24] get your 100 Atlas and your 21 crew.
+
+[03:03:27] And,
+
+[03:03:28] um, yeah, they're they're um a big
+
+[03:03:32] they're a big part of this equation, so
+
+[03:03:34] use them wisely. Uh, don't get them
+
+[03:03:36] blown up. Yeah, it's surely the
+
+[03:03:39] bottleneck of holosene. The resource
+
+[03:03:41] that's most precious in the game, it's
+
+[03:03:43] crew for sure. Yeah. So, take care of
+
+[03:03:46] them.
+
+[03:03:48] Yep. Yeah. Power power power levels are
+
+[03:03:50] are roughly 3 to one. So, like you'd
+
+[03:03:54] need three medium ships in a fleet to
+
+[03:03:55] challenge a large uh of the same class.
+
+[03:03:58] Like three medium fighters are are a
+
+[03:04:00] match for a large fighter. The large
+
+[03:04:02] fighter has an advantage. uh three small
+
+[03:04:05] ships, small fighters versus a medium
+
+[03:04:07] fighter. The the medium fighter has the
+
+[03:04:09] advantage, but that's roughly that's
+
+[03:04:12] roughly the the stats. And then
+
+[03:04:15] um you know, sub subw speed is nice and
+
+[03:04:19] slow. That gives people opportunity to
+
+[03:04:20] participate in combat in many different
+
+[03:04:22] ways. Uh warp cool downs are
+
+[03:04:24] significantly reduced. uh warp ranges
+
+[03:04:28] are are different than they are in
+
+[03:04:30] mainet and they're I think they're
+
+[03:04:32] they're they're a little bit less but
+
+[03:04:34] the cool down is is also significantly
+
+[03:04:36] less. We we want you to be able to warp
+
+[03:04:38] around and um and burn fuel without
+
+[03:04:42] without thinking about it. Your your
+
+[03:04:43] your range your ultimate range is what
+
+[03:04:46] should limit you during combat as a
+
+[03:04:48] fighter. Um you should be warping in
+
+[03:04:51] doing combat and getting back out. If
+
+[03:04:52] you if you want to loot really valuable
+
+[03:04:55] cargo, you're going to need to bring a
+
+[03:04:57] transport ship with you to loot that
+
+[03:04:58] cargo. Um otherwise, you're just going
+
+[03:05:00] to leave it there in space and some
+
+[03:05:02] other uh some other person can come
+
+[03:05:06] along and they can they can loot it
+
+[03:05:08] instead. So John, uh there's one last
+
+[03:05:12] thing that I think it's important. We
+
+[03:05:13] talk about XP as well, right? Sure. Yep.
+
+[03:05:17] Yep. Uh okay. So we just reset the the
+
+[03:05:20] global leaderboard. Um, and I'm gaining
+
+[03:05:23] XP here now, but I think I think the
+
+[03:05:25] reset actually uh threw a bug in there.
+
+[03:05:28] So, the leaderboard, which was working
+
+[03:05:31] quite well, has only just a few people
+
+[03:05:33] on it. So, we'll have to get the we'll
+
+[03:05:34] have to get that sorted out. But, um,
+
+[03:05:37] yeah, you guys come in and
+
+[03:05:40] um you'll be you'll be able to
+
+[03:05:43] participate in the leaderboard. Uh,
+
+[03:05:45] you'll get the majority of your quests
+
+[03:05:47] through sorry, you'll get the majority
+
+[03:05:48] of your XP through questing. uh for the
+
+[03:05:51] tutorial and for um for the whole story
+
+[03:05:54] line. I don't know if we touched on the
+
+[03:05:56] story line, but um after your tutorial,
+
+[03:05:58] you go into your your career
+
+[03:06:01] specialization. Um yeah, and the
+
+[03:06:03] majority of the XP comes to your
+
+[03:06:04] questing, and that's to allow the
+
+[03:06:06] automations to run in the background
+
+[03:06:08] without really affecting without really
+
+[03:06:10] affecting your your progression. Yeah.
+
+[03:06:13] And and your level gates the resources
+
+[03:06:15] and recipes that you can access in game.
+
+[03:06:19] So, you need to level up to to get
+
+[03:06:22] access to higher level resources, ships,
+
+[03:06:26] and etc. You need to grind. You need to
+
+[03:06:29] grind. Yeah. So, I can cover that a
+
+[03:06:31] little bit. Um, loosely. The tiers line
+
+[03:06:34] up with the levels that you need. Um,
+
+[03:06:36] starbased upgrading is going to be a
+
+[03:06:37] thing. Uh, we'll we'll sort out the
+
+[03:06:39] Atlas emissions for that in a couple
+
+[03:06:42] days. Um, tier level five unlocks the
+
+[03:06:46] route manager. it unlocks extra small
+
+[03:06:48] ships and then every five levels after
+
+[03:06:51] that unlocks um the infrastructure
+
+[03:06:55] contract for the next zone. And so at
+
+[03:06:59] level level five, you unlock
+
+[03:07:00] infrastructure contracts for the safe
+
+[03:07:02] zone and medium zone, early medium zone.
+
+[03:07:04] And then at level 10, you can refine the
+
+[03:07:06] resources that are necessary to make
+
+[03:07:08] those contracts and you unlock ships at
+
+[03:07:10] level 10 for small ships. And then at
+
+[03:07:12] level 15, you have access to the medium
+
+[03:07:15] risk zone
+
+[03:07:16] contracts. Uh, and th those are the same
+
+[03:07:19] raw resources that you need to make
+
+[03:07:21] large and medium ships. And then at
+
+[03:07:24] level
+
+[03:07:26] um, so that's at level 15. And then at
+
+[03:07:29] level 20, you unlock medium ships. And
+
+[03:07:32] 25, you unlock higher contracts, which
+
+[03:07:34] are the the basis for the large and
+
+[03:07:36] capital ships. And then at level 20, you
+
+[03:07:38] unlock the the large ships. 25 higher
+
+[03:07:41] resources, level 30 commander ships, and
+
+[03:07:43] so on. Capital ships, sorry, and so on.
+
+[03:07:46] So, all right, I think that's it, John,
+
+[03:07:48] because we don't want to disclose
+
+[03:07:50] everything. Let them figure out the rest
+
+[03:07:52] of the things by themselves by playing
+
+[03:07:54] hing when it's released, right? I've got
+
+[03:07:57] I've got two things.
+
+[03:07:59] Uh, make sure you update your browser.
+
+[03:08:02] We're using a version of one of these
+
+[03:08:04] Salana packages for our wallet adapter
+
+[03:08:07] that requires a really up-to-date
+
+[03:08:08] version of your browser. That's uh sort
+
+[03:08:11] of one of the one of the problems with
+
+[03:08:14] leading edge tech. So, got to do that.
+
+[03:08:17] Um, make sure you do your daily
+
+[03:08:19] check-in. If for whatever reason you
+
+[03:08:21] don't have crew, the daily check-in will
+
+[03:08:22] give it to you. Um, try not to give away
+
+[03:08:26] anything else here. And I do I do I
+
+[03:08:28] actually wanted to say thank you um to
+
+[03:08:30] Jacob, our CTO, for putting the energy
+
+[03:08:34] in uh taking like like this this this
+
+[03:08:38] game came about through community
+
+[03:08:40] feedback. We want to be part of testing
+
+[03:08:43] uh to render you you made that pip
+
+[03:08:44] request uh the the for the DAO um last
+
+[03:08:49] year in August I think it was uh and it
+
+[03:08:51] was like okay well this is the highest
+
+[03:08:53] upvoted request that we have. what can
+
+[03:08:57] we do with this? It's not really DAO
+
+[03:08:58] related, but but our community really
+
+[03:09:00] wants to be more involved in testing.
+
+[03:09:02] So, um this is us inviting you to Atlas
+
+[03:09:04] Net to be part of testing. No wallet
+
+[03:09:07] required, no fees, just fun, just like
+
+[03:09:11] experimenting with new new features. Um
+
+[03:09:13] so, thank you for to Jacob for doing
+
+[03:09:15] that. Uh to Michael Kane for putting in
+
+[03:09:18] hours and hours and days and days on the
+
+[03:09:21] on the questing system and Jose on the
+
+[03:09:23] lore. uh couldn't this wouldn't have
+
+[03:09:25] existed without them uh for with uh to
+
+[03:09:28] Jim for the uh for the faction chat and
+
+[03:09:31] the agentic AI stuff and um yeah and to
+
+[03:09:36] to Wagner for letting us do it. It's
+
+[03:09:38] been pretty awesome working on this for
+
+[03:09:39] the last couple months. So, and to you
+
+[03:09:41] as well, you pushed this so hard. This
+
+[03:09:44] only happened, guys, because John was
+
+[03:09:46] there pushing everyone forward. Double
+
+[03:09:49] in the chat for John. This is a huge
+
+[03:09:50] achievement for the company.
+
+[03:09:54] values
+
+[03:09:56] team's done a really good job rallying
+
+[03:09:58] around this and I I just I couldn't be
+
+[03:10:01] more impressed with how far along this
+
+[03:10:04] pro this project has progressed in a
+
+[03:10:07] very short period of time with virtually
+
+[03:10:08] no resources you know and a I say
+
+[03:10:11] virtually no I mean there team effort
+
+[03:10:13] has gone into it but again relative to
+
+[03:10:15] the big picture of everything that we're
+
+[03:10:17] building and all the people we have on
+
+[03:10:18] the team like a lot was done here in a
+
+[03:10:20] very short period of time so a really
+
+[03:10:22] great job. And a big thank you to play
+
+[03:10:24] testers as well. Um, this was opened up
+
+[03:10:27] a couple weeks ago to uh to play testers
+
+[03:10:30] in a dedicated discord server and uh the
+
+[03:10:33] feedback and and uh responses from them
+
+[03:10:37] has informed how this has evolved over
+
+[03:10:39] time. So many thanks for that as well.
+
+[03:10:44] Now, are we going to tell them the
+
+[03:10:45] launch date? You do it, John. You do it.
+
+[03:10:49] Yeah, we're doing it. Doing it live.
+
+[03:10:53] Well, before you do that. Okay,
+
+[03:10:58] actually, go ahead, John. Go ahead.
+
+[03:11:00] Share the date. It's live. It's live.
+
+[03:11:04] There's the URL there.
+
+[03:11:05] hollowosim.staratlas.com. We've been
+
+[03:11:07] playing on the live server. So, uh,
+
+[03:11:09] that's open to everybody. Come and take
+
+[03:11:12] my crown of leaderboard level 19.
+
+[03:11:17] Let's go, guys. And Darwin. Yeah,
+
+[03:11:19] Darwin's pretty high on the leaderboard,
+
+[03:11:20] too. Be careful with Darwin on call. Dar
+
+[03:11:23] Yeah, Darwin's the last. He's reckless.
+
+[03:11:25] He's reckless.
+
+[03:11:28] Yeah, I I have a few more things I want
+
+[03:11:29] to talk about on this just as we as we
+
+[03:11:32] round it out. Um want to address some of
+
+[03:11:34] the questions that are out there in the
+
+[03:11:36] community as as well. But um first thing
+
+[03:11:40] to note on this is that the the UI here
+
+[03:11:43] is a little bit behind what you see in
+
+[03:11:46] Sage. and Sage is act that UI is
+
+[03:11:48] actually behind on um some of the work
+
+[03:11:51] that we've been doing with coherent uh
+
+[03:11:53] tool set that Brett referenced much much
+
+[03:11:55] earlier in the town hall now. But
+
+[03:11:58] ultimately there will be a goal to um
+
+[03:12:01] bring consistency across all of the game
+
+[03:12:05] UIs from Fleet Command and Unreal Engine
+
+[03:12:08] and the UI elements there into Sage C4
+
+[03:12:11] and then ultimately into Hollow Sim as
+
+[03:12:14] well. So that's work that's going to be
+
+[03:12:15] taking place over the course of the
+
+[03:12:17] year. So little bit desperate right now,
+
+[03:12:19] a little bit spread out right now, but
+
+[03:12:20] everything converges onto a single
+
+[03:12:22] unified design language as we get uh
+
+[03:12:25] into the later part of the
+
+[03:12:26] year. I would also note that hollow sim
+
+[03:12:30] uh Jose touched on this, but the concept
+
+[03:12:33] here is that it is a holographic
+
+[03:12:35] simulated virgin version of the uh Galia
+
+[03:12:40] uh expanse. And so this this is a meta
+
+[03:12:45] game that exists within and across Star
+
+[03:12:48] Atlas. And so when you're in Unreal
+
+[03:12:50] Engine and as we you know work on
+
+[03:12:52] feature parody of C4 into Fleet Command,
+
+[03:12:55] players will have that option of
+
+[03:12:57] selecting the hollow sim and engaging in
+
+[03:13:00] this play uh um this game directly
+
+[03:13:02] within uh Thank you Brad. Thank you for
+
+[03:13:06] calling that out. Really appreciate it.
+
+[03:13:08] Uh well that is the target audience. So,
+
+[03:13:11] um, but, uh, you'll be able to engage in
+
+[03:13:14] hollow sim directly within fleet command
+
+[03:13:17] as well. And that's, you know, we we'll
+
+[03:13:18] figure out exactly what the UX is there,
+
+[03:13:21] but this is another opportunity to
+
+[03:13:23] expose players to 4X RTS style gameplay
+
+[03:13:28] uh, in Unreal Engine and something that
+
+[03:13:30] they could even do in their downtime.
+
+[03:13:32] Again, I'm thinking uh to whatever
+
+[03:13:34] extent there's any time in between
+
+[03:13:36] matches um say in arena shooter, we've
+
+[03:13:40] talked about this idea that you can very
+
+[03:13:42] quickly toggle between macro management
+
+[03:13:45] down to the micro level and maybe you're
+
+[03:13:47] engaged in uh some arena shooter
+
+[03:13:49] matches. You're earning your XP. You're
+
+[03:13:51] leveling up your characters. You're
+
+[03:13:53] getting some uh some
+
+[03:13:55] nano goo that is an exotic resource. And
+
+[03:13:59] while you wait for that instance to
+
+[03:14:00] load, you just go into macro map view,
+
+[03:14:03] pull up hollow sim, and you start uh and
+
+[03:14:06] you play this in between. So, kind of a
+
+[03:14:08] time killer and a and a gap. Now, I will
+
+[03:14:11] say I don't think that our community is
+
+[03:14:14] necessarily the target audience for
+
+[03:14:15] this, although this is going to be the
+
+[03:14:18] first opportunity that you have to
+
+[03:14:19] engage in combat. Uh, now the combat
+
+[03:14:22] systems are going to operate a bit
+
+[03:14:23] different in C4, so you'll definitely
+
+[03:14:25] want to engage in C4 PTR, but um, at
+
+[03:14:29] least this is a chance for you guys to
+
+[03:14:30] get that first experience and first
+
+[03:14:32] taste of combat in a game. What this is
+
+[03:14:36] really about is again casting that wide
+
+[03:14:38] net and reaching a new audience,
+
+[03:14:40] breaking outside of the echo chamber,
+
+[03:14:42] bringing more people into Star Atlas in
+
+[03:14:45] a way that has zero friction and zero
+
+[03:14:48] cost and zero financial investment.
+
+[03:14:50] Um, I think that's appropriate for a web
+
+[03:14:53] 2 audience. I think that we could go
+
+[03:14:55] after mainstream gamer. We could go
+
+[03:14:57] after the mobile space exploration gamer
+
+[03:15:00] when we get this implemented into the
+
+[03:15:01] mobile app stores. But I also think that
+
+[03:15:04] this is a great opportunity for us to
+
+[03:15:07] reach other communities across web 3 and
+
+[03:15:10] introduce them into Star Atlas. And part
+
+[03:15:13] of the way that we'll be encouraging
+
+[03:15:15] that type of activity um is that that
+
+[03:15:19] hollow sim is probably going to be the
+
+[03:15:21] first time where there's kind of a play
+
+[03:15:23] to airdrop concept that is introduced in
+
+[03:15:26] Star Atlas. Since inception, uh we have
+
+[03:15:29] always coupled
+
+[03:15:32] uh
+
+[03:15:33] financial and capital investment into
+
+[03:15:36] the game with your earnings potential.
+
+[03:15:38] Now what that means is eventually we are
+
+[03:15:42] going to add some incentives and rewards
+
+[03:15:45] to this and we can do that do that
+
+[03:15:46] through a couple of different tracks. It
+
+[03:15:49] could be leaderboard based uh with
+
+[03:15:51] seasonal content and those who place
+
+[03:15:53] highest on the leaderboard get some
+
+[03:15:55] mainet asset reward. Um, it could also
+
+[03:15:59] be
+
+[03:16:01] uh kind of randomness-based, which would
+
+[03:16:04] be uh introducing something like the
+
+[03:16:07] Golden Carnival where progression earns
+
+[03:16:10] you tickets and then those tickets can
+
+[03:16:12] be used during uh a periodic drawing
+
+[03:16:16] like we did with Golden Carnival. Again,
+
+[03:16:18] uh it could also be uh progressionbased.
+
+[03:16:21] And so for somebody that completes all
+
+[03:16:24] of the underlying objectives and
+
+[03:16:25] missions, including the tutorial,
+
+[03:16:28] there's a welcome bundle that they
+
+[03:16:30] receive. Now, part of the purpose of
+
+[03:16:31] doing that is bridging them then over to
+
+[03:16:35] mainet because they will need to have a
+
+[03:16:37] Salana wallet at that point uh to
+
+[03:16:40] receive the assets and the goal is to
+
+[03:16:42] bridge them over into the live economy.
+
+[03:16:45] Now we see a big opportunity here in
+
+[03:16:48] eventually communicating and converting
+
+[03:16:50] people into mainet economy users well
+
+[03:16:53] mainet game users because this potential
+
+[03:16:57] for real earnings which just simply
+
+[03:17:00] doesn't exist at least not at the scale
+
+[03:17:02] that it does in Sage and and broader
+
+[03:17:04] Star Atlas ecosystem. So, um, really
+
+[03:17:09] excited about, uh, all of those things.
+
+[03:17:12] And again, I I think it's super cool
+
+[03:17:14] that we've been able to integrate, uh,
+
+[03:17:16] the chat system. Jim Carter, big shout
+
+[03:17:19] out there, as well as, uh, on the Sage
+
+[03:17:22] AI system. Jim Carter's also been
+
+[03:17:24] pivotal in the development of those. Uh,
+
+[03:17:27] also want to shout out Chris. I don't
+
+[03:17:29] think we actually mentioned him, but
+
+[03:17:30] Chris was obviously involved on on
+
+[03:17:32] economic uh, design elements of this
+
+[03:17:35] game as well. And so worth calling him
+
+[03:17:37] out there. But
+
+[03:17:39] uh I think that was I I think that was
+
+[03:17:42] everything I wanted to cover. But again,
+
+[03:17:45] really excited about the potential for
+
+[03:17:47] this to attract both a web 3 audience
+
+[03:17:49] that's maybe interested in mainet
+
+[03:17:51] incentives and rewards and getting them
+
+[03:17:53] integrated into Star Atlas engaged in
+
+[03:17:55] this product and then ultimately moving
+
+[03:17:57] over into
+
+[03:17:59] uh o over into Sage itself. And then
+
+[03:18:03] largely even if even if all of that
+
+[03:18:05] failed guys, one of the big things to
+
+[03:18:07] note here is even if all of that failed,
+
+[03:18:09] but it was successful at attracting uh a
+
+[03:18:12] mainstream gamer audience, we still have
+
+[03:18:15] these separate monetization hooks that
+
+[03:18:17] we're going to be integrating into it.
+
+[03:18:19] That's really good for the studio and
+
+[03:18:21] anything that's good for the studio is
+
+[03:18:22] good for our future and is, you know,
+
+[03:18:25] can help us grow and scale and continue
+
+[03:18:27] building this dream of Star Atlas. So, a
+
+[03:18:29] lot of promising stuff here. John, Jose,
+
+[03:18:31] great job presenting all of this. Um,
+
+[03:18:34] amazing work across the board and across
+
+[03:18:36] the team.
+
+[03:18:38] Thank you, Michael. Thank you, everyone.
+
+[03:18:40] Excellent. See you guys. Thank you,
+
+[03:18:43] guys. Thanks, everyone. Thank you, guys.
+
+[03:18:50] Dude, crazy town hall, Michael, huh?
+
+[03:18:54] Crazy town hall, man. Crazy town hall. I
+
+[03:18:57] think we downplayed it as much as we
+
+[03:19:00] could too.
+
+[03:19:03] We did. We did. It's night time already
+
+[03:19:06] for
+
+[03:19:07] me. There was sunlight when we started.
+
+[03:19:11] Started in the morning and you missed
+
+[03:19:13] your gym session. I bet I missed my gym
+
+[03:19:16] session. Yes, that's true. That's true.
+
+[03:19:19] But it's very well worth it. For sure.
+
+[03:19:21] Very well worth it. I think this was one
+
+[03:19:24] of the best town halls that we ever
+
+[03:19:26] hosted. Again, as Michael was saying,
+
+[03:19:29] we're not hyping anything up, but we
+
+[03:19:31] could have done it for this one for
+
+[03:19:33] sure. Uh we estimated over two hours,
+
+[03:19:36] what is it? 3 hours and 20 minutes now
+
+[03:19:39] of pure information drop and even a
+
+[03:19:42] product release.
+
+[03:19:44] So, I think uh it was a fantastic one.
+
+[03:19:47] Thanks to all the Stratlas team members
+
+[03:19:50] that joined the stage and helped us
+
+[03:19:52] explain everything we have going on and
+
+[03:19:55] also to all the Stratus team members as
+
+[03:19:57] a whole. Even if they didn't join the
+
+[03:19:59] stage they're
+
+[03:20:00] working every single day, every single
+
+[03:20:03] hour almost to get this vision uh
+
+[03:20:06] further along. So, and thanks to
+
+[03:20:09] everyone who joined and who was here
+
+[03:20:10] also for the for the three hours for the
+
+[03:20:14] three full hours. We love you guys. over
+
+[03:20:17] 200 people here, over 220 people for the
+
+[03:20:20] whole show for three hours, plus I think
+
+[03:20:23] like 3,000 views or more on X and I saw
+
+[03:20:28] around 50 people looking live watching
+
+[03:20:30] live on Stratus TV on YouTube. So that's
+
+[03:20:34] uh pretty amazing. It's unbelievable and
+
+[03:20:37] I hope you guys are happy with
+
+[03:20:39] everything that we shared. Michael, how
+
+[03:20:41] are you feeling?
+
+[03:20:43] I'm good. I I mean uh really great to
+
+[03:20:46] get all of this out. We've
+
+[03:20:49] uh we've had to fight hard to keep this
+
+[03:20:51] all under wraps, but I I think you make
+
+[03:20:53] a great point. We're not focused on
+
+[03:20:54] hyping anything up. We're really letting
+
+[03:20:56] our work speak for itself, and it's
+
+[03:21:00] shouting from the rooftops right now.
+
+[03:21:02] So, uh incredible progress over the
+
+[03:21:06] course of this year in spite of what is
+
+[03:21:09] otherwise, you know, chaos out there and
+
+[03:21:12] graveyards out there. But we're here to
+
+[03:21:14] stay. Um I I would go so far as to say I
+
+[03:21:19] there's no potential future where this
+
+[03:21:21] idea of Star Atlas doesn't exist. And um
+
+[03:21:24] the team's just uh extremely passionate
+
+[03:21:27] and dedicated to achieving those goals
+
+[03:21:29] and and uh you know again the work
+
+[03:21:31] really speaks for itself. So great town
+
+[03:21:34] hall.
+
+[03:21:37] Great town hall man and nothing to add
+
+[03:21:39] to that. I think uh it's been fantastic.
+
+[03:21:42] I think everyone is super excited about
+
+[03:21:44] it and this is it's been a lot of
+
+[03:21:47] information but don't worry we got you
+
+[03:21:49] covered. There will be many ways in
+
+[03:21:51] which you can digest everything that we
+
+[03:21:53] shared. First I see someone already
+
+[03:21:55] shared that link but tomorrow we have
+
+[03:21:58] the Satlas economic forum where we will
+
+[03:22:01] we'll have Chris and Gareth on stage and
+
+[03:22:03] they will be doing a C4 Q&A for
+
+[03:22:05] economic. So, if you're into Sage at
+
+[03:22:09] all, I think you should definitely join
+
+[03:22:11] that one. Don't miss it. And then next
+
+[03:22:14] week, we'll have uh Brett on stage with
+
+[03:22:17] us at the brew for a C4 specific brew
+
+[03:22:20] where he will be replying also Q&A
+
+[03:22:23] fashion probably. And also there are
+
+[03:22:26] brews in many many languages uh over the
+
+[03:22:28] course of this week and the next one as
+
+[03:22:31] well. So if you either speak Spanish,
+
+[03:22:34] Portuguese French
+
+[03:22:36] um I think Turkish as well, Italian,
+
+[03:22:39] there's probably a brew in your
+
+[03:22:41] respective Discord uh chat, your Discord
+
+[03:22:45] language community. So stay tuned for
+
+[03:22:48] that. And yeah, we'll be posting we will
+
+[03:22:51] also be posting a Medium article that
+
+[03:22:54] summarizes everything that we shared
+
+[03:22:57] here today.
+
+[03:22:59] So, thanks everyone for joining. Thank
+
+[03:23:02] you for staying with us for the three
+
+[03:23:03] full hours and for supporting Star Atlas
+
+[03:23:05] as always. And hope you enjoyed this as
+
+[03:23:09] much as we did. It's been amazing.
+
+[03:23:12] Yeah. Uh just to close out, um we're not
+
+[03:23:16] giving any dates on on C4. We are still
+
+[03:23:19] anticipating probably a couple more
+
+[03:23:21] months before we um before we roll out
+
+[03:23:24] the C4 PTR. So, I I mentioned that
+
+[03:23:27] because a couple of people are talking
+
+[03:23:28] about, you know, transferring assets
+
+[03:23:30] back to the CSS. Uh I I do want to
+
+[03:23:34] emphasize we have a transition plan. I'd
+
+[03:23:36] actually encourage you to continue
+
+[03:23:39] playing Sage Starbased and wait until we
+
+[03:23:41] announce what that migration or
+
+[03:23:42] transition plan looks like before uh
+
+[03:23:45] making any any critical decisions there
+
+[03:23:48] so as to save yourself some time and
+
+[03:23:50] avoid some frustration. Um, we're
+
+[03:23:52] already planning on another big town
+
+[03:23:55] hall. Not not to downplay this one. It
+
+[03:23:58] was absolutely massive, but we're
+
+[03:23:59] already preparing for that. Um, and and
+
+[03:24:02] future releases. And, uh, thinking about
+
+[03:24:04] the latter half of the year, we didn't
+
+[03:24:06] touch on anything surrounding
+
+[03:24:07] tokconomics on this. I think we have
+
+[03:24:10] fundamentally some of the best
+
+[03:24:11] tokconomics that exist in any web 3
+
+[03:24:14] game. And, uh, uh, seeing the traction
+
+[03:24:16] and success of that largely relies on
+
+[03:24:19] some growth. And so beyond our other
+
+[03:24:22] objectives this year around simplifying
+
+[03:24:24] onboarding and creating those fun and
+
+[03:24:26] engaging products, it's about growing
+
+[03:24:28] the user base. And uh as we get into the
+
+[03:24:31] latter half of the year, we have some
+
+[03:24:32] thoughts on pullless integration into
+
+[03:24:35] C4. We also have some thoughts around uh
+
+[03:24:38] getting work put into the Atlas Locker
+
+[03:24:40] addendum and bringing some of those
+
+[03:24:42] benefits for having atlas locked. So uh
+
+[03:24:44] we think comprehensively about the
+
+[03:24:46] entire ecosystem, about every asset and
+
+[03:24:48] every token. Uh but uh those are you
+
+[03:24:51] know those are all to come and uh just
+
+[03:24:55] uh just going to take a little bit of
+
+[03:24:56] time but otherwise hope you guys enjoy
+
+[03:24:58] hollowosim santi thanks for being my
+
+[03:25:00] host up here as always and thank you for
+
+[03:25:02] the team for all of the hard work. Thank
+
+[03:25:04] you guys for tuning in until the next
+
+[03:25:06] one. Yeah, take advantage of the data
+
+[03:25:08] runner sale right now guys and we'll
+
+[03:25:11] close with some music for you guys.
+
+[03:25:15] Nice. Byebye.
+
+[03:25:17] Thank you.

@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-DAO-B31D1D3DC9276AA1",
+  "collection": "dao",
+  "title": "Council stuff",
+  "original_filename": "Council_stuff.txt",
+  "source_type": "transcript",
+  "publication_date": null,
+  "publication_date_basis": "unknown",
+  "publisher": "Star Atlas ecosystem; exact publisher unresolved",
+  "author_or_speakers": [],
+  "speaker_attribution": "UNKNOWN",
+  "original_url": null,
+  "evidence_tier": "UNRESOLVED_PENDING_SOURCE_RECONCILIATION",
+  "raw_path": "dao/raw/SRC-DAO-B31D1D3DC9276AA1.txt",
+  "normalized_path": "dao/normalized/SRC-DAO-B31D1D3DC9276AA1.md",
+  "raw_sha256": "b31d1d3dc9276aa124814a4bdaee98567fb25d1793b54c587c783f2a8da3da2a",
+  "normalized_sha256": "0b77063c22a66ec2c2fb94b8ed59ab1296adbc1d5ea0baa562513b0d1225e074",
+  "caption_count": 2505,
+  "first_timestamp": "00:00:00",
+  "last_timestamp": "01:52:51",
+  "duplicate_of": null,
+  "normalization_actions": [
+    "Decoded as UTF-8 with replacement for invalid bytes",
+    "Normalized line endings",
+    "Joined wrapped caption text belonging to the same timestamp",
+    "Collapsed repeated whitespace within captions",
+    "Preserved transcript wording and timestamp order"
+  ],
+  "limitations": [
+    "Original URL not supplied",
+    "Speaker labels not supplied",
+    "Publication date may be partial or unknown",
+    "Automated transcript text may contain recognition errors",
+    "Lifecycle or factual claims require later semantic review before canonical promotion"
+  ],
+  "ingestion_status": "READY_FOR_ARCHIVAL_INGESTION"
+}

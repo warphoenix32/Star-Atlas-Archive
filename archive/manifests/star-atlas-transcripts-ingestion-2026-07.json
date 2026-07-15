@@ -1,0 +1,778 @@
+{
+    "campaign_id":  "star-atlas-transcripts-ingestion-2026-07",
+    "repository_base":  "main@23255f1c4403bf252a855a8f73449effa1bb7d92",
+    "source_package":  "Star_Atlas_Transcript_Ingestion_Package.zip",
+    "source_package_sha256":  "15c15f306aff69cd3b595c602f444726d80dd31edf10c59ea49a166ae0c66d1c",
+    "artifact_count":  127,
+    "total_size_bytes":  7687006,
+    "mappings":  {
+                     "raw":  "archive/raw/star-atlas-transcripts-ingestion-2026-07",
+                     "normalized":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
+                     "source_records":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07",
+                     "operations":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07"
+                 },
+    "artifacts":  [
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-005092573D403B3E.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-005092573D403B3E.md",
+                          "size_bytes":  122278,
+                          "sha256":  "46ebe3dbbd67fd4e7635b2f7a984c08ad5904a65e35aa02bced6f648d5639637"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-042BD1DEEF5A9727.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-042BD1DEEF5A9727.md",
+                          "size_bytes":  70718,
+                          "sha256":  "b430470582e94434b94aa54d7fddd9cdd4734ad3009942019664f8970f62234f"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-095E2702036E90EE.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-095E2702036E90EE.md",
+                          "size_bytes":  84139,
+                          "sha256":  "12bf6f50402e02adb5e894e73456890f2bb4eec553d4461b913036fbd5100b92"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-0BDAF8426FDCAD51.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-0BDAF8426FDCAD51.md",
+                          "size_bytes":  152486,
+                          "sha256":  "2eb5935b04fdbfddd26ba97ff4e1e497e38305d7d4f3ff1aeae61d587e7109e0"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-1335B91689A5B7E2.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-1335B91689A5B7E2.md",
+                          "size_bytes":  124403,
+                          "sha256":  "34542027e5c0c66dc20600bdfa6bc62c083447dcbbe825ef173fc5c712e69c45"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-24AC378F245F78EF.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-24AC378F245F78EF.md",
+                          "size_bytes":  129124,
+                          "sha256":  "3600d3fe931ea6752e5c0b76b3915b42d1ca16e575153adb5711a13d9aeb0ecd"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-32627F5FB9FADE39.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-32627F5FB9FADE39.md",
+                          "size_bytes":  141104,
+                          "sha256":  "a7396d664e4d67d309bdaa47cb146fe27f64c144bc8a467d4f6f413888377252"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-6BCF7DC0DB9C9720.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-6BCF7DC0DB9C9720.md",
+                          "size_bytes":  59348,
+                          "sha256":  "185c06da0d7df90b74e0757458ef88d4c3ef29c1e29da83888615e0c799cc048"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-B31D1D3DC9276AA1.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-B31D1D3DC9276AA1.md",
+                          "size_bytes":  116568,
+                          "sha256":  "0b77063c22a66ec2c2fb94b8ed59ab1296adbc1d5ea0baa562513b0d1225e074"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-F42107614D29DBD4.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-F42107614D29DBD4.md",
+                          "size_bytes":  56239,
+                          "sha256":  "3605bb723e0e716ca7af8a14522fb2eb1702f3fd1c872acfef77d2bdba4ca451"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-FE10693BD2263236.md",
+                          "original_package_path":  "dao/normalized/SRC-DAO-FE10693BD2263236.md",
+                          "size_bytes":  67753,
+                          "sha256":  "b97874884f4d325f0ffefd7969235d3fafa1dba63e18a509b8b0727934e7fcb3"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-04D03390B487E480.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-04D03390B487E480.md",
+                          "size_bytes":  71428,
+                          "sha256":  "c1fd858732c9e2cbb44edc8fabc33b4f9dd999196b280c5709eb3afb90368fd1"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-354A7F51B559ED47.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-354A7F51B559ED47.md",
+                          "size_bytes":  74853,
+                          "sha256":  "c845ecee879c3a98e39222896922e06f88dfd04f3bfcb0d9949268d64ce3ca68"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-7367D0DF38E859F4.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-7367D0DF38E859F4.md",
+                          "size_bytes":  73364,
+                          "sha256":  "1811d22898b5b6335c8a1c990dd350e09ac0ef933e7004a70bbabc3779f1e648"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-8C1707C5C9C6EFEB.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-8C1707C5C9C6EFEB.md",
+                          "size_bytes":  66527,
+                          "sha256":  "8f29a25f82eb1b4f812fc92811a0c88aeb9e65767b42777eccef94b90575aec6"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-9AF39A87A80EDB8E.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-9AF39A87A80EDB8E.md",
+                          "size_bytes":  69446,
+                          "sha256":  "b9abdc9c29fa146745c9cac181bd7c6d077a8527483173aefe6a879c65ec07d1"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-C53DD05B1A9D234D.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-C53DD05B1A9D234D.md",
+                          "size_bytes":  76311,
+                          "sha256":  "17ad9331483e976f5e0a5912dd0aed5ba684f9af9d0b4735eced90472720bf93"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-C6A57BFABC570218.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-C6A57BFABC570218.md",
+                          "size_bytes":  72244,
+                          "sha256":  "a5397eb476299643f55966f3d9826648fcd1cf26fc148abd05629420aa8bbd49"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-DA876A17CDB11E18.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-DA876A17CDB11E18.md",
+                          "size_bytes":  71484,
+                          "sha256":  "bd62953ee474b61d1d32085455f6921b7787c7a87e4cffd66319771071b65ee3"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-DDFDE4F3A1FDEF29.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-DDFDE4F3A1FDEF29.md",
+                          "size_bytes":  77028,
+                          "sha256":  "2cdc26eaa1a69a628e9772e7d61efb43c32fea14942da2f05f0ded72118b498a"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-ECEE879933D7FEFE.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-ECEE879933D7FEFE.md",
+                          "size_bytes":  78717,
+                          "sha256":  "2421c6d24b8f53a5552ed1b8431d9655e0058dc8217a9989b9714b46eb33e2bb"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-F67474243EB194BE.md",
+                          "original_package_path":  "economic-forum/normalized/SRC-ECON-FORUM-F67474243EB194BE.md",
+                          "size_bytes":  71290,
+                          "sha256":  "596bebea8e9105fdc7d5d1f84a8072e1e4c9c7bcee6f25d729585f4763430fab"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-000B2F372F9AEDDD.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-000B2F372F9AEDDD.md",
+                          "size_bytes":  172463,
+                          "sha256":  "3b5df931c9532e07256645e7dfe1132522a153493399aba0d7ea76384fc6ea72"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-114A7F2FE199FAD1.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-114A7F2FE199FAD1.md",
+                          "size_bytes":  124302,
+                          "sha256":  "7733dc55fd3d9aa17ad45a91879e55cceb2b332fad47fc3ab5859e24fee839f5"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-49B158AA5F9C993B.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-49B158AA5F9C993B.md",
+                          "size_bytes":  100755,
+                          "sha256":  "2e52f6ed3b14ead9fc5c6aa31579515cdf78643b3347fa73f552a2e8bb874f5e"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-4DA964D308D5B294.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-4DA964D308D5B294.md",
+                          "size_bytes":  47953,
+                          "sha256":  "9b26ae99256b2bfac9fdf7a3ee2c5e77c3c04bbae08e5372c53a3704b5254ac7"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-5D5DDA7808DD80BE.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-5D5DDA7808DD80BE.md",
+                          "size_bytes":  85438,
+                          "sha256":  "a9bb3cffcb35e1c2643c262df827e46b1e798c1caee135a8ccfd1f1932776520"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-5F69263457814B5C.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-5F69263457814B5C.md",
+                          "size_bytes":  131555,
+                          "sha256":  "275b83d8081620812600802e5aa9c6628f4c9c03c08eda1604f83f35106795c0"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-731A3D5664AB3C72.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-731A3D5664AB3C72.md",
+                          "size_bytes":  195506,
+                          "sha256":  "4da0fdb36e4f2b2b14430caa4c98bca553b233200f24be5f3f1470528c9f3743"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-83FFB1A89990BFC6.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-83FFB1A89990BFC6.md",
+                          "size_bytes":  78897,
+                          "sha256":  "e2be7110b92ecbb07e43680737784f499a45446b34e3871b12fc285b5bc26841"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-8B81AF8298EC775C.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-8B81AF8298EC775C.md",
+                          "size_bytes":  157997,
+                          "sha256":  "f7d36928396f17cb513cd6d2991a727ae7e0f038380acce741f37d6960bc8848"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-A1103FA71FF764D1.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-A1103FA71FF764D1.md",
+                          "size_bytes":  83039,
+                          "sha256":  "e65f388d5d30e822b8d4b83914f121ba4196e6d64fda0c3af98cfaf9305bfe0d"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-B66F8586AA2FCB90.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-B66F8586AA2FCB90.md",
+                          "size_bytes":  128268,
+                          "sha256":  "39d95f46b46bdc633dec334de9f04894e79ab1944fb950b3a99ca0b6037d5482"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-C6E705CEC7F99DB8.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-C6E705CEC7F99DB8.md",
+                          "size_bytes":  140526,
+                          "sha256":  "408d5cc82663f193e4463eb4d134a474f409f315f4fc158db0c3f05d927008fc"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-D6CAD785061FF76C.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-D6CAD785061FF76C.md",
+                          "size_bytes":  171364,
+                          "sha256":  "954bbdbb0ccd80ddc38f2d9a401d0e703e0179d985a47688db0392926bc1d3cf"
+                      },
+                      {
+                          "path":  "archive/normalized/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-E3A7BCDC12B3EFEE.md",
+                          "original_package_path":  "townhall/normalized/SRC-TOWNHALL-E3A7BCDC12B3EFEE.md",
+                          "size_bytes":  233662,
+                          "sha256":  "f1904f21ce06cfb140c710b7059379aa41a01e2568f3e2643494575c9d20ff4f"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-005092573D403B3E.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-005092573D403B3E.txt",
+                          "size_bytes":  121707,
+                          "sha256":  "005092573d403b3eb257389a2bd0102045f3fcd79adf6eec90b65e0f40c7dd5c"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-042BD1DEEF5A9727.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-042BD1DEEF5A9727.txt",
+                          "size_bytes":  70157,
+                          "sha256":  "042bd1deef5a9727f1793a659afef56ddf30bbc1c0835c92681314b59113182d"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-095E2702036E90EE.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-095E2702036E90EE.txt",
+                          "size_bytes":  83598,
+                          "sha256":  "095e2702036e90ee940ad8d41e33b4d2ece81fc260a68bbd62b8c70dfc74dff9"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-0BDAF8426FDCAD51.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-0BDAF8426FDCAD51.txt",
+                          "size_bytes":  151945,
+                          "sha256":  "0bdaf8426fdcad51c81daf2b09be51ea824617d33c63d87a79e6a4838ff7a693"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-1335B91689A5B7E2.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-1335B91689A5B7E2.txt",
+                          "size_bytes":  123848,
+                          "sha256":  "1335b91689a5b7e2b03bfc75959f0cedb778fca784a0fcf6ea8e1acbae1545e2"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-24AC378F245F78EF.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-24AC378F245F78EF.txt",
+                          "size_bytes":  128557,
+                          "sha256":  "24ac378f245f78ef626f981c46c466b479453fcf7a428f3d26e95e4009326eef"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-32627F5FB9FADE39.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-32627F5FB9FADE39.txt",
+                          "size_bytes":  140555,
+                          "sha256":  "32627f5fb9fade394feaf916758e316396e3895110bb5875fe421298a375111d"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-6BCF7DC0DB9C9720.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-6BCF7DC0DB9C9720.txt",
+                          "size_bytes":  58763,
+                          "sha256":  "6bcf7dc0db9c9720feb2d013423b03c44521b8ca9a21d3695cd940398344d6d2"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-B31D1D3DC9276AA1.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-B31D1D3DC9276AA1.txt",
+                          "size_bytes":  116051,
+                          "sha256":  "b31d1d3dc9276aa124814a4bdaee98567fb25d1793b54c587c783f2a8da3da2a"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-F42107614D29DBD4.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-F42107614D29DBD4.txt",
+                          "size_bytes":  55659,
+                          "sha256":  "f42107614d29dbd45b9757d1795f69ccc3d2278b2427fcedbd5d65340b147518"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-FE10693BD2263236.txt",
+                          "original_package_path":  "dao/raw/SRC-DAO-FE10693BD2263236.txt",
+                          "size_bytes":  67190,
+                          "sha256":  "fe10693bd2263236147bafb8d5c08436d87c298c2a235fc55c7d68a5b29253dd"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-04D03390B487E480.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-04D03390B487E480.txt",
+                          "size_bytes":  70834,
+                          "sha256":  "04d03390b487e4800b6bd478826200b91b7d73c29cea7043dc2738407cf7aece"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-354A7F51B559ED47.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-354A7F51B559ED47.txt",
+                          "size_bytes":  74261,
+                          "sha256":  "354a7f51b559ed47865fe4c2e879e51c32407a811f58799268688bb411dbf34d"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-7367D0DF38E859F4.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-7367D0DF38E859F4.txt",
+                          "size_bytes":  72770,
+                          "sha256":  "7367d0df38e859f4ba0f0e342551bacb4561136a6ad6befc02187250b03197c8"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-8C1707C5C9C6EFEB.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-8C1707C5C9C6EFEB.txt",
+                          "size_bytes":  65933,
+                          "sha256":  "8c1707c5c9c6efeb57717fda4deea1594210c79db7fad05ad0967ad3c08052b8"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-9AF39A87A80EDB8E.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-9AF39A87A80EDB8E.txt",
+                          "size_bytes":  68854,
+                          "sha256":  "9af39a87a80edb8ed9f34aa41c3780e26776843c1a24c957e59afc30e9130c1c"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-C53DD05B1A9D234D.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-C53DD05B1A9D234D.txt",
+                          "size_bytes":  75723,
+                          "sha256":  "c53dd05b1a9d234d2bfa9242d1f4c7ed2362412d76dfe8a0646f0a4ab2aa55cc"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-C6A57BFABC570218.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-C6A57BFABC570218.txt",
+                          "size_bytes":  71650,
+                          "sha256":  "c6a57bfabc570218529400b624deca247381c80e9c273e6e96dafdafc5ba0971"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-DA876A17CDB11E18.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-DA876A17CDB11E18.txt",
+                          "size_bytes":  70892,
+                          "sha256":  "da876a17cdb11e18b84ae86d2ef94a604181f5c3444a936f794906f5dcba81be"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-DDFDE4F3A1FDEF29.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-DDFDE4F3A1FDEF29.txt",
+                          "size_bytes":  76426,
+                          "sha256":  "ddfde4f3a1fdef29af9f2133c26a8b45674c4f906710952a2f4586cf1227c544"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-ECEE879933D7FEFE.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-ECEE879933D7FEFE.txt",
+                          "size_bytes":  78127,
+                          "sha256":  "ecee879933d7fefe7af22e482acd5f3f8d98e4b5833aa40ea57b8b4db2bba134"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-F67474243EB194BE.txt",
+                          "original_package_path":  "economic-forum/raw/SRC-ECON-FORUM-F67474243EB194BE.txt",
+                          "size_bytes":  70688,
+                          "sha256":  "f67474243eb194bea39e6bace10384fdedafd05580b23d5edb8cec0ee9305853"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-000B2F372F9AEDDD.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-000B2F372F9AEDDD.txt",
+                          "size_bytes":  171918,
+                          "sha256":  "000b2f372f9aedddfa17b264be1e3943f21a267f7b9107c117a5a0893884e9c4"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-114A7F2FE199FAD1.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-114A7F2FE199FAD1.txt",
+                          "size_bytes":  123777,
+                          "sha256":  "114a7f2fe199fad17caf1ccb008438205c847047808e3ac311c5747c0277dce2"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-49B158AA5F9C993B.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-49B158AA5F9C993B.txt",
+                          "size_bytes":  100232,
+                          "sha256":  "49b158aa5f9c993b122291f22179b6e6b7ef51c2f1f8590fe22713d843b19c72"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-4DA964D308D5B294.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-4DA964D308D5B294.txt",
+                          "size_bytes":  47416,
+                          "sha256":  "4da964d308d5b294f61392d03bce46cb7d880b704a9f0429513d2e8cfc8c467b"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-5D5DDA7808DD80BE.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-5D5DDA7808DD80BE.txt",
+                          "size_bytes":  84903,
+                          "sha256":  "5d5dda7808dd80bea9ce6d1465313ec32dcd56ea8818c62fcc000afa16d6e2c5"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-5F69263457814B5C.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-5F69263457814B5C.txt",
+                          "size_bytes":  130986,
+                          "sha256":  "5f69263457814b5c1485074069156f58d64a97724a044bfe451601b37ca03668"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-731A3D5664AB3C72.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-731A3D5664AB3C72.txt",
+                          "size_bytes":  194930,
+                          "sha256":  "731a3d5664ab3c72ab8dd7a14bdb03042e82870f7b04b60f76f80e6b793e97d4"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-83FFB1A89990BFC6.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-83FFB1A89990BFC6.txt",
+                          "size_bytes":  78374,
+                          "sha256":  "83ffb1a89990bfc60f03e03629ff5c5336ec9e88221ab363c91a82e5530b48b6"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-8B81AF8298EC775C.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-8B81AF8298EC775C.txt",
+                          "size_bytes":  157438,
+                          "sha256":  "8b81af8298ec775c058e9407e416fd28e049be0559fb0c642e155e403b7067c2"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-A1103FA71FF764D1.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-A1103FA71FF764D1.txt",
+                          "size_bytes":  82498,
+                          "sha256":  "a1103fa71ff764d16dffdaf8f4aadbd61e8281b9f30e9e0f270b0972cf9d3dc9"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-B66F8586AA2FCB90.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-B66F8586AA2FCB90.txt",
+                          "size_bytes":  127732,
+                          "sha256":  "b66f8586aa2fcb90be18cede1be81e9b446b77c1fc36dddacd25f2f5843b8999"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-C6E705CEC7F99DB8.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-C6E705CEC7F99DB8.txt",
+                          "size_bytes":  139979,
+                          "sha256":  "c6e705cec7f99db8a8855b136e299a4be78681805d04293b5278b2f59388d008"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-D6CAD785061FF76C.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-D6CAD785061FF76C.txt",
+                          "size_bytes":  170773,
+                          "sha256":  "d6cad785061ff76c1fd0912d21d7d6b26edc6226b1253468327bea236b682da0"
+                      },
+                      {
+                          "path":  "archive/raw/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-E3A7BCDC12B3EFEE.txt",
+                          "original_package_path":  "townhall/raw/SRC-TOWNHALL-E3A7BCDC12B3EFEE.txt",
+                          "size_bytes":  233094,
+                          "sha256":  "e3a7bcdc12b3efeec8cfc3f0e7ada9a8ca7a077c68b58d2ade473ea77e12c283"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-005092573D403B3E.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-005092573D403B3E.json",
+                          "size_bytes":  1591,
+                          "sha256":  "cf5e5fd8cab39bc659fbac9f1de8a3afc6f97bf5951f2d9aa594408d9c79768f"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-042BD1DEEF5A9727.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-042BD1DEEF5A9727.json",
+                          "size_bytes":  1570,
+                          "sha256":  "adccf50601df0d7350a57c13b5e801d48777ef127523eaf7d14ce3e35a31782b"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-095E2702036E90EE.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-095E2702036E90EE.json",
+                          "size_bytes":  1545,
+                          "sha256":  "1888c1f5728205d6a2aaf970617ec9a76cb90bd0412d349d17b1d4a6573858b5"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-0BDAF8426FDCAD51.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-0BDAF8426FDCAD51.json",
+                          "size_bytes":  1582,
+                          "sha256":  "4ef2468abe30d82e229ea5315d0c6308feb574a20f64d1164c62122a6753d7e6"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-1335B91689A5B7E2.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-1335B91689A5B7E2.json",
+                          "size_bytes":  1560,
+                          "sha256":  "bb8e0a4d418e8e7e7aca003d3fd253057cfbc02f942c677849f8093f4d048b9e"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-24AC378F245F78EF.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-24AC378F245F78EF.json",
+                          "size_bytes":  1585,
+                          "sha256":  "4cfac6b0cf1f8464f55b5543745ae2f9ced3f7b95238e4925d129d7f6777ddea"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-32627F5FB9FADE39.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-32627F5FB9FADE39.json",
+                          "size_bytes":  1586,
+                          "sha256":  "a28321358653b9fea8cf84c9b2f4c1041039891888d6ce2ca6bcfb17fdca7b99"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-6BCF7DC0DB9C9720.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-6BCF7DC0DB9C9720.json",
+                          "size_bytes":  1586,
+                          "sha256":  "0a156fcf145ab7bca7f3235d7ff6e30b23aa5c234f6a38d8cd1733a1e4556660"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-B31D1D3DC9276AA1.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-B31D1D3DC9276AA1.json",
+                          "size_bytes":  1517,
+                          "sha256":  "c35effbc1bd85d4555df77cb9b53f7545e4f7bb1c38ddaa872c08e71bcb324b2"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-F42107614D29DBD4.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-F42107614D29DBD4.json",
+                          "size_bytes":  1589,
+                          "sha256":  "d811586858e269ba997bfd0050ec3d9961065b7ddc74b7411e36f5cd10fa288f"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/dao/SRC-DAO-FE10693BD2263236.json",
+                          "original_package_path":  "dao/source-records/SRC-DAO-FE10693BD2263236.json",
+                          "size_bytes":  1586,
+                          "sha256":  "158a2344769d70399cbd5cfed5ceade035edc565b59b3f2b778254683d60b47f"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-04D03390B487E480.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-04D03390B487E480.json",
+                          "size_bytes":  1643,
+                          "sha256":  "28c8c09bb516268581cb4589d0cc3df2acc7382b10140464dfd0351abc0c3369"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-354A7F51B559ED47.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-354A7F51B559ED47.json",
+                          "size_bytes":  1639,
+                          "sha256":  "8ac077427eaa6ddef914fcd1d15cda3e07b0c41121216f4f1e3d205fd826aa1d"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-7367D0DF38E859F4.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-7367D0DF38E859F4.json",
+                          "size_bytes":  1641,
+                          "sha256":  "7983028d4b641126920ffec68e37bcbfe1dd396db73bd7800968e3b43bf68a37"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-8C1707C5C9C6EFEB.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-8C1707C5C9C6EFEB.json",
+                          "size_bytes":  1637,
+                          "sha256":  "8afd132a9599cb06ac8d22bd4939277735eef31d52d6cc91cf454d983a21c950"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-9AF39A87A80EDB8E.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-9AF39A87A80EDB8E.json",
+                          "size_bytes":  1635,
+                          "sha256":  "5e255e579a87b4a874111ba00da0944e62b7433e58312a30cef029b5df193baf"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-C53DD05B1A9D234D.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-C53DD05B1A9D234D.json",
+                          "size_bytes":  1634,
+                          "sha256":  "b76ebb5b0f82081ba24e136e71a2f32cfd0a508faae753a81b7d7b9979ac352a"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-C6A57BFABC570218.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-C6A57BFABC570218.json",
+                          "size_bytes":  1641,
+                          "sha256":  "9affbde20a60fa235e1657abac27a1b083d85b397525fa247ff5fdcb2b112cfa"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-DA876A17CDB11E18.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-DA876A17CDB11E18.json",
+                          "size_bytes":  1633,
+                          "sha256":  "ce6e2d5b801988983252eb194baee46e9134db744eb7b395044703512ce73249"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-DDFDE4F3A1FDEF29.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-DDFDE4F3A1FDEF29.json",
+                          "size_bytes":  1650,
+                          "sha256":  "1c16e40b47c5560606c3b162f5fdfa4de73c3f01cffdceb3271e6f85642f6be8"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-ECEE879933D7FEFE.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-ECEE879933D7FEFE.json",
+                          "size_bytes":  1639,
+                          "sha256":  "f14a8990c77b9628ff284d76ba8b55287a8ee5a805d12f3ea8e82a5b6fc42dd5"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/economic-forum/SRC-ECON-FORUM-F67474243EB194BE.json",
+                          "original_package_path":  "economic-forum/source-records/SRC-ECON-FORUM-F67474243EB194BE.json",
+                          "size_bytes":  1650,
+                          "sha256":  "2f819e39cdb3382b2e9e428968597e9dcb4c9317e045c0fe617391a98b00fcd7"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-000B2F372F9AEDDD.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-000B2F372F9AEDDD.json",
+                          "size_bytes":  1571,
+                          "sha256":  "2a0ad7e5909a8be45d20419d8252e64a763bf2439a437ff5abe2c12e5aea1479"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-114A7F2FE199FAD1.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-114A7F2FE199FAD1.json",
+                          "size_bytes":  1546,
+                          "sha256":  "edfe83829b5217945d8c74ba4d0d5e5d00ea3711f89a95aa53645ea5a3732447"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-49B158AA5F9C993B.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-49B158AA5F9C993B.json",
+                          "size_bytes":  1543,
+                          "sha256":  "cc578b02dff92d3b15412158b268cfc184f1edd11f815a20fba809afd04f2b47"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-4DA964D308D5B294.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-4DA964D308D5B294.json",
+                          "size_bytes":  1557,
+                          "sha256":  "115f1138c225dd96dc9dbd6bed2d8a9f6a4df09ad15a303267cfa2d9472a819f"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-5D5DDA7808DD80BE.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-5D5DDA7808DD80BE.json",
+                          "size_bytes":  1560,
+                          "sha256":  "38cee2dc7f95d234fd04c934a4c14a2990fddc5af49898f84499b03056e17f71"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-5F69263457814B5C.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-5F69263457814B5C.json",
+                          "size_bytes":  1590,
+                          "sha256":  "1a27e6518e231cb24f9eec546aa29fdeccf96c08b293f1d277a42217f69515f5"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-731A3D5664AB3C72.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-731A3D5664AB3C72.json",
+                          "size_bytes":  1603,
+                          "sha256":  "f303dbacbd014df7e5bf02777388e000b4b565b688df20a46434eb7de3778c36"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-83FFB1A89990BFC6.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-83FFB1A89990BFC6.json",
+                          "size_bytes":  1544,
+                          "sha256":  "7411387182028945bbd8409cfe74e444a6511cf1506a5bc5d026634f8d6ecf19"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-8B81AF8298EC775C.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-8B81AF8298EC775C.json",
+                          "size_bytes":  1585,
+                          "sha256":  "014ab5b02d2bbeb39de58109c2dc54d58645a8eef7fecd13f34f5ee1bc733d87"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-A1103FA71FF764D1.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-A1103FA71FF764D1.json",
+                          "size_bytes":  1561,
+                          "sha256":  "4326acb66976b0ae2478226b44d8fde4cd01f789f37aff396b2057e1199998a5"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-B66F8586AA2FCB90.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-B66F8586AA2FCB90.json",
+                          "size_bytes":  1561,
+                          "sha256":  "0c2ee2c3e4f7976f6b7660ae029aeb382f603af56676aa717dd37f3cbf0795e4"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-C6E705CEC7F99DB8.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-C6E705CEC7F99DB8.json",
+                          "size_bytes":  1567,
+                          "sha256":  "656461a83ffd3cb43837c5988e2e71134788d5ca58e418d2e3b872171cefd234"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-D6CAD785061FF76C.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-D6CAD785061FF76C.json",
+                          "size_bytes":  1616,
+                          "sha256":  "7ca9961ad00ea31bf5c9d752cdd32b1a3d3974a76528e5bf42a626d97cc203a5"
+                      },
+                      {
+                          "path":  "archive/source-records/star-atlas-transcripts-ingestion-2026-07/townhall/SRC-TOWNHALL-E3A7BCDC12B3EFEE.json",
+                          "original_package_path":  "townhall/source-records/SRC-TOWNHALL-E3A7BCDC12B3EFEE.json",
+                          "size_bytes":  1603,
+                          "sha256":  "1886882dbd112a745435adf13a1ad0996bfc83fe2bf3434e4fac609d86c0f597"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/campaign-manifest.json",
+                          "original_package_path":  "campaign-manifest.json",
+                          "size_bytes":  13822,
+                          "sha256":  "f6208658a739a8bec1b0f4de269c20d8d34c170500117ed1af6c65d4b07b95fc"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/CODEX-INGESTION-INSTRUCTIONS.md",
+                          "original_package_path":  "CODEX-INGESTION-INSTRUCTIONS.md",
+                          "size_bytes":  1175,
+                          "sha256":  "10a9705209c9a02d74af101255b0bc3ce0b4192ca9a650032d53435da3277182"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/dao/manifest.json",
+                          "original_package_path":  "dao/manifest.json",
+                          "size_bytes":  19239,
+                          "sha256":  "46c6d7e00f5d2939b8a2837058035b4f9e212175adab10dd3ebd2a3c9209f5cd"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/dao/operations/normalization-ledger.md",
+                          "original_package_path":  "dao/operations/normalization-ledger.md",
+                          "size_bytes":  577,
+                          "sha256":  "48be87a2282fbc6d1db6ea54fe9b59897dd0b825d9d327ece4ef85d3474b2f14"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/dao/operations/validation-report.json",
+                          "original_package_path":  "dao/operations/validation-report.json",
+                          "size_bytes":  322,
+                          "sha256":  "8b8b7a99e89f55b947218daa361a99ad6baefc053bd3e1db58a5c599cf566951"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/dao/operations/validation-report.md",
+                          "original_package_path":  "dao/operations/validation-report.md",
+                          "size_bytes":  472,
+                          "sha256":  "905dbad7b6fdd8416a3449ac4f638fba76f94f77d187d177146fa1c4ebe7b7fa"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/dao/README.md",
+                          "original_package_path":  "dao/README.md",
+                          "size_bytes":  771,
+                          "sha256":  "ad75d8acaf827236bc94379a6c8e7353ea1f6fe8bd9aef1e894f365db5ca3fa1"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/economic-forum/manifest.json",
+                          "original_package_path":  "economic-forum/manifest.json",
+                          "size_bytes":  20006,
+                          "sha256":  "e5502449f14582336801ee94cba4a707703e1e273c3eae490689c60f3c1f51ca"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/economic-forum/operations/normalization-ledger.md",
+                          "original_package_path":  "economic-forum/operations/normalization-ledger.md",
+                          "size_bytes":  577,
+                          "sha256":  "48be87a2282fbc6d1db6ea54fe9b59897dd0b825d9d327ece4ef85d3474b2f14"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/economic-forum/operations/validation-report.json",
+                          "original_package_path":  "economic-forum/operations/validation-report.json",
+                          "size_bytes":  334,
+                          "sha256":  "8bcd743c512c087845bf5bf8c952ad9b7802e37e6ec05466d062f82d29dde3a2"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/economic-forum/operations/validation-report.md",
+                          "original_package_path":  "economic-forum/operations/validation-report.md",
+                          "size_bytes":  473,
+                          "sha256":  "64821d529ee2d2ec562fbc27f01c1ccb1e5581f7687f65d780ce621c6502829d"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/economic-forum/README.md",
+                          "original_package_path":  "economic-forum/README.md",
+                          "size_bytes":  782,
+                          "sha256":  "681210a172adc1c4f49e7714d45afbea46d87b33ede767036159c60dd5fba12c"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/README.md",
+                          "original_package_path":  "README.md",
+                          "size_bytes":  1243,
+                          "sha256":  "7d7f549a036c6d1ef7b30629a1208b94ebf6e6327ee3db53f65c1ecc8d691065"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/source-index.csv",
+                          "original_package_path":  "source-index.csv",
+                          "size_bytes":  6492,
+                          "sha256":  "e2ec65c32d5219ee443d234b88dab3fc1d8ca00774758d3e1b8ec06b33fd6cce"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/townhall/manifest.json",
+                          "original_package_path":  "townhall/manifest.json",
+                          "size_bytes":  24406,
+                          "sha256":  "85452e10126828da7de188002718b1e75c8c8e1ecba7a45ff006952f758bf93c"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/townhall/operations/normalization-ledger.md",
+                          "original_package_path":  "townhall/operations/normalization-ledger.md",
+                          "size_bytes":  577,
+                          "sha256":  "48be87a2282fbc6d1db6ea54fe9b59897dd0b825d9d327ece4ef85d3474b2f14"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/townhall/operations/validation-report.json",
+                          "original_package_path":  "townhall/operations/validation-report.json",
+                          "size_bytes":  328,
+                          "sha256":  "0caef33d9a73da169f72605f06000be6065862cf6a7d362bb7e51c015d731e20"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/townhall/operations/validation-report.md",
+                          "original_package_path":  "townhall/operations/validation-report.md",
+                          "size_bytes":  473,
+                          "sha256":  "e8e47eb601c987905eb6c6fe017ad77c157aa5511e98f9f7c5ea7b3c46c29ea1"
+                      },
+                      {
+                          "path":  "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/townhall/README.md",
+                          "original_package_path":  "townhall/README.md",
+                          "size_bytes":  776,
+                          "sha256":  "64a60ba60433ac75ade2a3a6dfecbbd7f67fa54c0baa49b63571f23e242d3b6e"
+                      }
+                  ]
+}

@@ -1,0 +1,3145 @@
+---
+
+source_id: SRC-ECON-FORUM-DDFDE4F3A1FDEF29
+
+title: "Star Atlas Economic Forum May 2025 Econ Tea"
+
+collection: economic-forum
+
+source_type: transcript
+
+publication_date: 2025-05
+
+publication_date_basis: filename-month
+
+speaker_attribution: unknown
+
+raw_sha256: ddfde4f3a1fdef29af9f2133c26a8b45674c4f906710952a2f4586cf1227c544
+
+caption_count: 1555
+
+last_timestamp: 01:05:46
+
+normalization: caption-lines joined; wording preserved
+
+---
+
+
+
+# Star Atlas Economic Forum May 2025 Econ Tea
+
+
+
+> Speaker identities, original URL, and exact publication date remain unresolved unless stated in metadata.
+
+
+
+[00:00:00] Ojiseros
+
+[00:00:02] drill
+
+[00:00:05] katier. How is everyone feeling
+
+[00:00:10] today? Did you guys see the sneak peek
+
+[00:00:14] that was shared with us by the gods of
+
+[00:00:23] Glexpense? Everyone knows what I'm
+
+[00:00:25] talking about, right?
+
+[00:00:30] ether. I was mind
+
+[00:00:34] blown.
+
+[00:00:40] Like I gave you the hand, Bodie, and you
+
+[00:00:43] already want my arm as well,
+
+[00:00:46] bro. You want the
+
+[00:00:53] alpha, guys? C4 is going to be
+
+[00:01:00] insane. Yeah. No, I I'm just joking with
+
+[00:01:03] you, Bodie. I I have been expressly
+
+[00:01:07] forbidden on giving more information on
+
+[00:01:11] that
+
+[00:01:12] topic and I'm just talking about this
+
+[00:01:15] because Chris and Gareth are still
+
+[00:01:17] coming. Oh, I see them. Hey, GM,
+
+[00:01:21] gentlemen. Chris, G, how are you guys
+
+[00:01:24] doing? Hey, hey, sorry for tardiness.
+
+[00:01:29] No, no, no worries, my friend. We were
+
+[00:01:32] discussing the the leak that Denny
+
+[00:01:37] dropped. Oh, man. It was insane.
+
+[00:01:41] uh we are not allowed to talk to give
+
+[00:01:44] more context on that. But if I were you,
+
+[00:01:48] I would start looking at that picture
+
+[00:01:50] and trying to decode the
+
+[00:01:52] secrets that Danny has shared there
+
+[00:01:55] because there's a lot of stuff to to
+
+[00:01:58] digest over there.
+
+[00:02:01] But
+
+[00:02:02] yeah, having said that, welcome everyone
+
+[00:02:05] to another episode of the Status
+
+[00:02:08] Economic Forum where the legendary
+
+[00:02:12] Chris and Gareth Raph come and decode
+
+[00:02:17] the state of our economy and share their
+
+[00:02:20] insights about how things are going, how
+
+[00:02:23] the future looks like.
+
+[00:02:26] And sometimes if we behave properly,
+
+[00:02:29] they share some alpha as well. Um, as
+
+[00:02:32] you guys can see today, I'll be the
+
+[00:02:35] host. Uh, Santi and Dominic Vain, they
+
+[00:02:38] are both in a very important meeting
+
+[00:02:40] right now, but I'll do my best to make
+
+[00:02:45] up for their
+
+[00:02:48] absence. Chris, how are things going, my
+
+[00:02:51] friend?
+
+[00:02:53] Uh, they are going well. We have so many
+
+[00:02:57] different projects going on right now.
+
+[00:02:59] It is uh kind of overwhelming, but yeah,
+
+[00:03:02] things are going super well. I I'm
+
+[00:03:04] loving the progress that I'm seeing on
+
+[00:03:06] our different products. And uh I don't
+
+[00:03:08] know how much alpha there will be today.
+
+[00:03:10] Uh we've got a bunch of kind of data
+
+[00:03:12] updates to go over and different uh
+
+[00:03:14] topics that have been popular over the
+
+[00:03:16] last couple of weeks um uh within the
+
+[00:03:19] community. So, yeah, it'll be it'll be
+
+[00:03:22] hopefully a good uh 12th uh monthly
+
+[00:03:26] forum. So, this is officially our our
+
+[00:03:28] our oneyear anniversary of the forum,
+
+[00:03:30] which is kind of crazy to think about,
+
+[00:03:32] but uh yeah, I'm I'm excited. Uh Gareth,
+
+[00:03:35] how are you doing?
+
+[00:03:37] I'm doing well. I'm doing well. Um for
+
+[00:03:40] those of you that missed the brew
+
+[00:03:41] yesterday, um there is alpha coming.
+
+[00:03:44] There was a bit Michael dropped a bit,
+
+[00:03:46] but
+
+[00:03:47] um uh Jose, I'm not sure how much people
+
+[00:03:51] have been talking about it, but a a town
+
+[00:03:54] hall is on the horizon. Um four to six
+
+[00:03:58] year was specified.
+
+[00:04:01] Year wasn't specified, but uh
+
+[00:04:06] Gareth G is is going over, bro. I like
+
+[00:04:10] it, Gareth. Yes, we have we are planning
+
+[00:04:12] a town hall. It's coming. Yes. Yeah. If
+
+[00:04:14] Michael said it, I feel that I uh Yeah.
+
+[00:04:17] Yeah. We feel I can say it. So if the
+
+[00:04:20] CEO said it, then anybody can talk about
+
+[00:04:22] it. It's totally fine. Exactly. That's
+
+[00:04:24] the company. The only company that we
+
+[00:04:26] have regarding
+
+[00:04:28] our Yeah. Yeah. year again year wasn't
+
+[00:04:31] specified. Could be 2040 for all we
+
+[00:04:34] know. But uh if it's rest assured it is
+
+[00:04:38] coming.
+
+[00:04:40] No, it's it's uh yeah, there's there's
+
+[00:04:44] there's tons of different uh topics. I
+
+[00:04:45] mean, most of the the broad, you know,
+
+[00:04:48] the the big things people are aware of.
+
+[00:04:50] Um you know, the the C4 details are are
+
+[00:04:54] starting to disseminate.
+
+[00:04:57] Um there are actually a couple sometimes
+
+[00:05:00] I'm I'm I forget what the community
+
+[00:05:02] knows about. I'm going to send a real
+
+[00:05:05] quick message. They they know little
+
+[00:05:06] very little about C4 besides that it
+
+[00:05:10] refers to claim stakes
+
+[00:05:13] combat crafting
+
+[00:05:15] habs. Yeah, they basically know the
+
+[00:05:17] name. Yeah. The product entails.
+
+[00:05:21] I just sent a message. Jose, can you do
+
+[00:05:24] you know if
+
+[00:05:26] Yeah. Yeah. Yeah. Yeah. Yeah. Yeah.
+
+[00:05:27] Yeah. Yeah. Yeah. Yeah. Yeah. So, oh
+
+[00:05:29] that I already talked about that. I
+
+[00:05:31] talked about this in a forum. Yeah.
+
+[00:05:32] Yeah. No. Free to play. uh or at least
+
+[00:05:34] what we're, you know, internally calling
+
+[00:05:36] freeto play, but it's got a it's got an
+
+[00:05:38] official name. I don't think we've come
+
+[00:05:40] out officially with the name yet, but um
+
+[00:05:43] yeah, it's it's been very busy around uh
+
+[00:05:47] around the Automata headquarters, uh
+
+[00:05:50] which is everybody's, you know, home
+
+[00:05:53] office. But yeah, let's uh let's hop
+
+[00:05:55] into it. I think there's no reason to
+
+[00:05:58] delay. Um absolutely, Chris, go for it.
+
+[00:06:02] Let's Let's just outline some of the
+
+[00:06:05] topics for today. Um Gareth has a couple
+
+[00:06:09] of really interesting topics. Well,
+
+[00:06:11] first of all, it's just a community
+
+[00:06:13] dashboard update. I think there maybe
+
+[00:06:14] just a few features that he's improved
+
+[00:06:17] uh there and then a faction fleet
+
+[00:06:19] discussion. Uh basically talking about
+
+[00:06:21] the faction fleet transition to um fleet
+
+[00:06:25] rentals and that is uh that's looking
+
+[00:06:28] really promising. So, we're excited to
+
+[00:06:29] talk about that and the potential
+
+[00:06:32] potential deprecation of score that
+
+[00:06:34] we've been talking about for two years.
+
+[00:06:36] And then I've got a couple of Sage
+
+[00:06:37] topics that I want to go over. Some
+
+[00:06:39] data, some uh some discussion uh as well
+
+[00:06:43] regarding um fix sniping, potential new
+
+[00:06:46] ship recipes, and a couple of other uh
+
+[00:06:49] things. And then if we have time, we'll
+
+[00:06:52] go into a little bit of C4. I've started
+
+[00:06:55] my process of onboarding to the C4
+
+[00:06:58] product and and really starting to nail
+
+[00:06:59] down the economics and and understanding
+
+[00:07:02] how it will integrate with uh the
+
+[00:07:04] current Sage
+
+[00:07:05] product and then we can go into a Q&A
+
+[00:07:08] though I think with the different Sage
+
+[00:07:10] topics in C4 we'll probably address a
+
+[00:07:12] lot of questions that have come up over
+
+[00:07:13] the the last month but uh yeah always
+
+[00:07:16] happy to jump into a Q&A at the end. Um,
+
+[00:07:19] as we all know, this is an opportunity
+
+[00:07:20] for everyone to get their say in, have
+
+[00:07:23] their questions answered, and get access
+
+[00:07:25] to information that, um, you know, they
+
+[00:07:27] otherwise might, uh, have missed out on.
+
+[00:07:30] So, without further ado, uh, pass it
+
+[00:07:32] over to Gareth for the community
+
+[00:07:34] dashboard
+
+[00:07:35] update. Sweet. Thanks, Chris. Um, yeah,
+
+[00:07:38] no major releases this month. Uh, the,
+
+[00:07:42] as some of you may know, we transitioned
+
+[00:07:44] to a new backend. Um a lot of this month
+
+[00:07:47] was um mostly QA and optimization. Um
+
+[00:07:51] some of you did mention as well you
+
+[00:07:52] noticed it was faster um last forum and
+
+[00:07:56] that will remain the case now.
+
+[00:07:59] Uh one of the main things uh with this
+
+[00:08:02] optimization is that as these data sets
+
+[00:08:04] grow um which they will grow quite
+
+[00:08:07] substantially especially um with C4 um
+
+[00:08:10] you know the speed should hopefully
+
+[00:08:12] remain uh the same. We've also fixed uh
+
+[00:08:16] well within that QA there were a bunch
+
+[00:08:18] of um under underestimated um Atlas
+
+[00:08:21] emissions for example and a few other
+
+[00:08:23] data issues that have now been resolved
+
+[00:08:24] with the new backend. So um we're going
+
+[00:08:27] to put out a minor announcement just
+
+[00:08:29] pointing to it letting people know but
+
+[00:08:31] uh yeah a a lot of the um smaller
+
+[00:08:36] uh data errors have been resolved. Um,
+
+[00:08:38] we still have a tool tip bug. Again,
+
+[00:08:41] very, very weird. And the tool tips, you
+
+[00:08:44] know, those are popups when you hover
+
+[00:08:46] over data. Um, some show zero values,
+
+[00:08:48] others show accurate values. But if
+
+[00:08:50] you're just looking at the axes, um, the
+
+[00:08:53] x and y axis, those are, um, those are
+
+[00:08:55] accurate. is just when you hover over
+
+[00:08:57] some uh data points across
+
+[00:09:00] um a few of the different dashboards um
+
+[00:09:04] it'll either won't show up or uh will
+
+[00:09:07] only show up for certain values. It's
+
+[00:09:09] very weird. Um I'm convinced it's a
+
+[00:09:11] Looker Studio bug, which is the platform
+
+[00:09:13] we're using. Um um and their forums and
+
+[00:09:16] stuff have have pointed to it being a
+
+[00:09:18] bug. So I'm going to trust that uh and
+
+[00:09:22] hopefully they resolve that on their
+
+[00:09:23] end. But uh yeah, for now that's the
+
+[00:09:25] biggest outstanding bug. Um this new
+
+[00:09:28] backend allows us to work through um
+
+[00:09:30] bigger tasks like fleet activity lookup,
+
+[00:09:33] Dowo, Treasury, and game activity wallet
+
+[00:09:35] lookup which um have been in the road
+
+[00:09:37] map now for about uh um about the last
+
+[00:09:41] quarter. Um those are massive data sets.
+
+[00:09:44] So um we did have to wait for this
+
+[00:09:46] backend to finish uh being deployed and
+
+[00:09:48] then um the QA and optimization to be
+
+[00:09:51] done. So I think finally those are
+
+[00:09:53] things that can continue to move along.
+
+[00:09:55] Um so you can look forward to that in
+
+[00:09:56] the short term. I also um have a a
+
+[00:10:01] locker summary view um that I want to
+
+[00:10:03] push relatively soon. So that might be
+
+[00:10:05] coming within the next week or so.
+
+[00:10:08] Actually I'll say yeah that that's
+
+[00:10:10] definitely coming in the next week or
+
+[00:10:11] so. Um, that's just been something uh
+
+[00:10:14] I've used internally which um I think
+
+[00:10:17] would be beneficial for you guys to see
+
+[00:10:20] uh just what's going on with the Atlas
+
+[00:10:21] locker specifically. Um and yeah, that's
+
+[00:10:24] about it for the community dashboard
+
+[00:10:26] update. Um again, if you guys have any
+
+[00:10:28] suggestions or things that you want to
+
+[00:10:30] see, feel free to drop them in the chat.
+
+[00:10:32] Um there are a few that aren't on this
+
+[00:10:34] road map just because they're a bit
+
+[00:10:35] farther down the line, but um uh yeah,
+
+[00:10:38] if you have any anything you want to see
+
+[00:10:40] specifically, feel free to drop them.
+
+[00:10:41] And uh yeah, we can move on to the next
+
+[00:10:44] slide if there aren't any major
+
+[00:10:45] questions. Jose
+
+[00:10:47] um G B suggested something. The council
+
+[00:10:52] has been talking about writing a pip to
+
+[00:10:54] pay someone to make D related related
+
+[00:10:56] infographs and host them. I suggested
+
+[00:10:58] that we reach out to you since you
+
+[00:11:00] already have the dashboard and you said
+
+[00:11:02] you might be open to suggestions as far
+
+[00:11:04] as specific charts. Can we figure out
+
+[00:11:07] what types of graphs we are looking for
+
+[00:11:10] and reach out to you about potentially
+
+[00:11:12] adding them to the dashboard?
+
+[00:11:14] Uh yeah. Yeah, that's very doable
+
+[00:11:16] actually. Um the the current goal for
+
+[00:11:20] the dashboard and it's it's like 95%
+
+[00:11:22] there. We just need a few more
+
+[00:11:25] uh things to be pulled in from our data
+
+[00:11:27] provider side. But uh we're in this
+
+[00:11:30] current state, it's basically a one to
+
+[00:11:32] one um with with obviously a few
+
+[00:11:33] benefits of uh interactability and um
+
+[00:11:37] like time period restrictions and
+
+[00:11:39] filtering, but basically onetoone with
+
+[00:11:41] the current view. um the current view
+
+[00:11:43] doesn't update that much and uh you know
+
+[00:11:45] it's it's not unreliable to per se, but
+
+[00:11:49] this this new view is is much more um
+
+[00:11:51] consistent and up to date. So that's its
+
+[00:11:54] current state. If you guys have things
+
+[00:11:56] you want to specifically reach out about
+
+[00:11:58] that aren't on there already, um
+
+[00:12:00] definitely yeah, that's that's very much
+
+[00:12:02] something we can uh work out and have
+
+[00:12:05] pushed. Um again very open to basically
+
+[00:12:09] meeting your needs uh in terms of data
+
+[00:12:11] that you guys want to see. So very very
+
+[00:12:18] doable in terms of the point of contact.
+
+[00:12:21] I would I would say Gareth is probably
+
+[00:12:23] the correct one. Um, so I think within
+
+[00:12:26] the
+
+[00:12:27] council community channel where let me
+
+[00:12:31] make sure that
+
+[00:12:32] I'm there's a community chat for council
+
+[00:12:36] members. Correct.
+
+[00:12:39] Yes. I would say just ping uh Gareth
+
+[00:12:43] within that chat is probably the best
+
+[00:12:45] way to um yeah, best way to communicate
+
+[00:12:49] those.
+
+[00:12:51] Uh yeah, and just I guess just a note uh
+
+[00:12:53] try to consolidate it into you know uh a
+
+[00:12:58] summary message um just just so I don't
+
+[00:13:00] miss it. Uh sometimes when um you know
+
+[00:13:03] details are added below a ping they get
+
+[00:13:05] lost or and you know that's probably my
+
+[00:13:07] fault but uh yeah just um if you ping me
+
+[00:13:11] in there I can definitely take a look
+
+[00:13:13] and respond and uh we can get something
+
+[00:13:16] going.
+
+[00:13:21] Sweet. Um, yeah, we can move on, Jose,
+
+[00:13:24] if that's all you uh all you saw. No,
+
+[00:13:27] friend. Please keep going.
+
+[00:13:30] Awesome. Yeah, so uh thanks for
+
+[00:13:32] switching the slide there, Chris. I did
+
+[00:13:34] just want to briefly talk about uh a
+
+[00:13:37] couple of these visuals we I threw
+
+[00:13:38] together as well as some of these data
+
+[00:13:40] points. Um, one thing we've been
+
+[00:13:41] interested in in watching and uh, making
+
+[00:13:45] note of is the transition from faction
+
+[00:13:47] fleet um, to the rental program. So, um,
+
+[00:13:52] we don't include Armstrong um, and the
+
+[00:13:56] faction claims program in this um,
+
+[00:13:58] specifically looking at uh, score or
+
+[00:14:01] faction fleet um, because of its its
+
+[00:14:04] relation to Atlas emissions. um
+
+[00:14:06] Armstrongs that are staked in faction
+
+[00:14:08] fleet though they will be counted here.
+
+[00:14:10] Um so about and this is pretty cool
+
+[00:14:13] these are some transition figures so
+
+[00:14:15] about 9 million in VWOP um from
+
+[00:14:18] non-starbased players have and sorry
+
+[00:14:22] uniquely score players have now entered
+
+[00:14:25] um score or star-based and uh committed
+
+[00:14:30] contracts uh to the rental program. Now
+
+[00:14:32] that 9 million does not include
+
+[00:14:34] acceptance. Um that is specifically
+
+[00:14:38] uh ships that have entered and have
+
+[00:14:40] either interacted with a contract aka
+
+[00:14:43] they've been a part of a contract or
+
+[00:14:45] have um just interacted with the with
+
+[00:14:48] the program in general. So these this
+
+[00:14:51] VWOP basically has never been in
+
+[00:14:53] Starbase before. Um these players that
+
+[00:14:57] are um bringing these this VWOP over has
+
+[00:14:59] never been in Starbase before. this is
+
+[00:15:02] this is just all this residual score
+
+[00:15:04] value
+
+[00:15:05] um coming over and uh interacting with
+
+[00:15:08] the program. So that's pretty cool. Um
+
+[00:15:11] we love to see that. And as you can see
+
+[00:15:13] it's it's picking up um if we put a line
+
+[00:15:15] of best fit or a trend line there um it
+
+[00:15:18] would be trending up over time. Um and
+
+[00:15:20] that's the top graph you see in the
+
+[00:15:22] orange. Um then we also have another
+
+[00:15:25] figure um and that's the uh basically
+
+[00:15:29] earning potential of a single um VWOP
+
+[00:15:32] unit. So um what I have on that second
+
+[00:15:35] data point is approximately 20x more
+
+[00:15:37] Atlas per single VWOP unit is earned uh
+
+[00:15:41] in faction uh fleet rentals at the
+
+[00:15:44] moment comp compared to score. Um, and
+
+[00:15:47] that's also coupled with uh 1.5 million
+
+[00:15:50] in rental payments going out uh to uh uh
+
+[00:15:55] I'm getting the names mixed up already.
+
+[00:15:57] Uh rental program users compared to less
+
+[00:15:59] than 1 million in emissions going out to
+
+[00:16:01] score users. So um there is some skew
+
+[00:16:04] here. Obviously, you know, bigger
+
+[00:16:06] players with bigger fleets um are going
+
+[00:16:08] to be the ones transitioning over the
+
+[00:16:10] more active user base. Um but that that
+
+[00:16:13] earning potential in uh rentals compared
+
+[00:16:16] to faction fleet is is becoming quite
+
+[00:16:19] increasingly more attractive. So um for
+
+[00:16:22] the most part especially because over
+
+[00:16:24] half of the ships are I believe uh quote
+
+[00:16:28] unquote negatively yielding um given the
+
+[00:16:30] current resource prices uh in in the
+
+[00:16:34] markets right now. We uh we don't see
+
+[00:16:36] any reason at least uh from the ecom
+
+[00:16:39] side why people would want to stay in
+
+[00:16:40] score except for the slight uh slight
+
+[00:16:45] increase in in passive behavior I guess
+
+[00:16:48] you can exhibit still in score. Um fleet
+
+[00:16:51] rentals is is you know argue is is just
+
+[00:16:55] as passive in practice. there are a few
+
+[00:16:57] more buttons to click, but um getting
+
+[00:16:59] that last I guess hump of people over um
+
+[00:17:03] will probably be based on um just
+
+[00:17:06] matching that level of ease and that'll
+
+[00:17:08] probably be done through you know
+
+[00:17:09] tutorials and um things like that. So um
+
+[00:17:14] that's that's a major point. I'm sure
+
+[00:17:16] most of you guys uh if you were in score
+
+[00:17:19] have at least partially transitioned
+
+[00:17:21] over to rentals or if you haven't you
+
+[00:17:23] know this might be a reason for you to
+
+[00:17:25] to do that. Um and of those faction
+
+[00:17:28] fleet users remaining only about 5% uh
+
+[00:17:32] of total resource volume in the
+
+[00:17:34] marketplace and on most days less than
+
+[00:17:36] 5% uh is attributed to those faction
+
+[00:17:39] fleet players you know refilling um
+
+[00:17:42] their ships or or uh stockpiling up our
+
+[00:17:45] force. So, it's such
+
+[00:17:48] a minimal portion of both volume and
+
+[00:17:51] players that uh we're pretty happy with
+
+[00:17:54] the transition at this point. So, um you
+
+[00:17:57] know, Chris mentioned the deprecation of
+
+[00:17:59] score. That's something that's um you
+
+[00:18:02] know, been a topic discussed internally
+
+[00:18:04] and I I believe to the community pretty
+
+[00:18:07] um pretty spottily or I guess
+
+[00:18:10] inconsistently over the ne over the last
+
+[00:18:12] two years or so. um it's becoming more
+
+[00:18:15] and more of a uh an option for us uh as
+
+[00:18:19] we see these players decrease. Now,
+
+[00:18:21] obviously, you know, it's kind of a
+
+[00:18:23] fallback for some people if either
+
+[00:18:25] they're having inconsistency with
+
+[00:18:26] Starbase um or connection issues or
+
+[00:18:29] something. You know, we have seen people
+
+[00:18:31] flip-flop. Um so, you know, maybe it's
+
+[00:18:34] not totally deprecated, but at least
+
+[00:18:36] um having it as a legacy program would
+
+[00:18:39] be uh the minimum we'd want to be doing.
+
+[00:18:41] So, um, yeah, some pretty cool
+
+[00:18:45] transition facts there. Again, if any of
+
+[00:18:46] you guys are still in score, it's it's
+
+[00:18:49] it's very much worthwhile for you to
+
+[00:18:51] switch over to the rental market,
+
+[00:18:52] especially because it's only been
+
+[00:18:53] growing since launch. So, PSA for you
+
+[00:18:57] all out there. Yeah, I mean, just to
+
+[00:19:01] piggy back on you, Gar, I don't think it
+
+[00:19:02] actually makes sense to be on score
+
+[00:19:05] right now, at least from the ACOM
+
+[00:19:07] perspective.
+
+[00:19:09] like it that this those graphics those
+
+[00:19:12] metrics show how successful the lit
+
+[00:19:15] rental system is right now. Even if even
+
+[00:19:18] in this v 0ero stage I mean the benefits
+
+[00:19:22] are pretty obvious like we see how this
+
+[00:19:26] works. We see the atlas moving between
+
+[00:19:30] people. I I'm super excited about this
+
+[00:19:34] and I see a very good future future for
+
+[00:19:39] this system at all and yeah G you
+
+[00:19:42] touched on something very important the
+
+[00:19:45] closing score Jindo is asking the chat
+
+[00:19:47] like when when we are closing but yeah I
+
+[00:19:51] think every day we are one step more
+
+[00:19:53] comfortable with
+
+[00:19:56] uh closing score for good I don't think
+
+[00:19:59] this is something that it will make it
+
+[00:20:02] to the future of Status, right, with the
+
+[00:20:05] systems that we have right now. Yeah.
+
+[00:20:08] Now, you know, score is a very simple
+
+[00:20:11] platform. Um, lock your ship, maintain
+
+[00:20:15] it, earn some atlas. Um, systems like
+
+[00:20:18] that can be reintroduced in the future
+
+[00:20:22] in more niche uh, you know, specialized
+
+[00:20:27] uh, um, I guess gameplay loops. But
+
+[00:20:30] yeah, in terms of just
+
+[00:20:32] uh a a legacy program as a whole and
+
+[00:20:36] just having all of the inactive VWOP
+
+[00:20:38] stuck in there, um you know, deprecating
+
+[00:20:41] it would would sort of force um
+
+[00:20:43] activation there uh of that VWOP and
+
+[00:20:46] productive capability of that VWOP. Um
+
+[00:20:49] and then, you know, if it if it was
+
+[00:20:50] really a problem, um we can introduce it
+
+[00:20:53] in some other way. Um, you know, maybe
+
+[00:20:56] you're uh you're manning a star base
+
+[00:21:00] with your ships um in order to defend
+
+[00:21:03] against Tufa and you know, you earn some
+
+[00:21:06] some yield from that um by parking it at
+
+[00:21:08] a star base. But uh that's cool. That's
+
+[00:21:11] really cool. Yeah, something like that
+
+[00:21:13] makes sense. Exactly. Yeah, but in in
+
+[00:21:16] its current form, we're definitely
+
+[00:21:17] interested in um in deprecating as a
+
+[00:21:20] program. Um but yeah, no no no timeline
+
+[00:21:24] on that, no details. Just given how
+
+[00:21:26] minim given how minimal uh of an impact
+
+[00:21:29] it has and how many players are
+
+[00:21:31] currently relying on it, it seems like
+
+[00:21:33] uh seems like something that'll be
+
+[00:21:35] coming uh you know, relatively soon.
+
+[00:21:38] Again, zero zero timeline to back that
+
+[00:21:41] up. Um but the success of the rental
+
+[00:21:45] market has just been incredible to see
+
+[00:21:47] and this transition just cements that.
+
+[00:21:50] So
+
+[00:21:52] yeah, we have been talking about closing
+
+[00:21:55] score pretty much since the launch of
+
+[00:21:58] Sage and we were really waiting for that
+
+[00:22:02] catalyst moment in Sage where we felt
+
+[00:22:04] like there was a way to uh for for
+
+[00:22:07] people with large fleets to effectively
+
+[00:22:12] um rent out but also just utilize the
+
+[00:22:16] capital in some way, right? We didn't
+
+[00:22:17] want to have somebody with a $2 million
+
+[00:22:21] portfolio of ships all of a sudden with
+
+[00:22:24] no way to employ those ships in the
+
+[00:22:26] game. So, what you would end up with is
+
+[00:22:28] obviously like this mass exodus of
+
+[00:22:30] volume or or of uh VWAP because hey, I
+
+[00:22:34] don't really have any way to use these
+
+[00:22:35] ships anymore. I don't want to commit to
+
+[00:22:37] this Sage thing. And while it is true,
+
+[00:22:40] we don't really want those people like
+
+[00:22:43] we're looking for the people who want to
+
+[00:22:45] play Star Atlas and who want to engage
+
+[00:22:48] in the Star Atlas universe, not
+
+[00:22:50] necessarily these like idol people,
+
+[00:22:53] though there is a place now for that
+
+[00:22:57] kind of idol type of uh of of asset
+
+[00:22:59] allocation. So what we wanted
+
+[00:23:02] was we wanted we're not we're not
+
+[00:23:05] against this idle form of uh capital use
+
+[00:23:09] but what we were against was not
+
+[00:23:11] utilizing the product suite that we want
+
+[00:23:14] to push. We don't want score to be kind
+
+[00:23:15] of the end all beall. Um it's not the
+
+[00:23:18] most elegant program. Uh another big
+
+[00:23:20] issue with it is there's no plan for
+
+[00:23:23] self-sufficiency and uh basically like
+
+[00:23:26] score doesn't work without the token
+
+[00:23:27] emissions curve. Sage can work without
+
+[00:23:30] the token emissions curve which will
+
+[00:23:31] which is planned to run out you know in
+
+[00:23:33] like 2030 or something like that uh that
+
+[00:23:37] maybe it's 2035 I can't remember the
+
+[00:23:38] exact date but that that curve that
+
+[00:23:42] emission will turn off someday and we
+
+[00:23:44] need a way to uh provide you know to to
+
+[00:23:47] keep the game sustainable we have Sage
+
+[00:23:49] so score wasn't really uh going to be
+
+[00:23:51] sustainable in the super long term it
+
+[00:23:53] was more of a stop gap um and now the
+
+[00:23:56] fleet rentals is beautiful because it
+
+[00:23:57] provides it's kind of that idle uh you
+
+[00:24:00] know usage the or use case while also
+
+[00:24:04] supporting the larger ecosystem. So
+
+[00:24:06] really happy with the performance of of
+
+[00:24:08] fleet rentals. The the engagement rate
+
+[00:24:11] is like 80%. Uh so you know eight out of
+
+[00:24:15] every 10 fleets that get listed get
+
+[00:24:18] um rented out uh by a potential you know
+
+[00:24:22] somebody on the other end of that. So,
+
+[00:24:24] um, yeah, I I think it's realistic that
+
+[00:24:27] we we see score shut down in the next,
+
+[00:24:29] uh, within the year. We still are doing
+
+[00:24:32] research to try and figure out, okay,
+
+[00:24:34] how much volume, how much VWAP is still
+
+[00:24:37] stuck in score and, uh, you know, what's
+
+[00:24:39] kind of the what's the profile of the
+
+[00:24:42] player who's still stuck in score. Um,
+
+[00:24:45] you know, as you can see, lots of volume
+
+[00:24:47] has moved from score to sage. So, you
+
+[00:24:49] know, if we're talking about, let's say
+
+[00:24:51] that there's $10 million of VWAP sitting
+
+[00:24:54] in score and those people engage with
+
+[00:24:56] the Star Atlas ecosystem in in in, you
+
+[00:24:59] know, this like 5% per day, then we're
+
+[00:25:01] probably okay potentially pushing those
+
+[00:25:04] users out or pushing them into Sage, uh,
+
+[00:25:07] best case
+
+[00:25:08] scenario. So, yeah, thank you uh, for
+
+[00:25:11] those numbers, Gareth. Uh, sorry I went
+
+[00:25:14] on and on about the score transition,
+
+[00:25:16] but probably soon. Uh, we're not in a
+
+[00:25:19] huge rush to be completely honest with
+
+[00:25:21] you guys. We're working on a lot of
+
+[00:25:22] different stuff. And other than the
+
+[00:25:25] Atlas emissions, running score is kind
+
+[00:25:28] of a it's not really hurting us right
+
+[00:25:31] now. So, it's I would say it's a low
+
+[00:25:34] priority. Uh, but it is something we're
+
+[00:25:36] interested in doing.
+
+[00:25:39] Makes total sense, Chris.
+
+[00:25:42] So, let's uh uh move on to uh hot topic
+
+[00:25:48] uh thick sniping. So, faction
+
+[00:25:51] infrastructure contracts. Um these are
+
+[00:25:54] the new kind of Atlas earnings mechanic.
+
+[00:25:57] They're super super popular. Um much
+
+[00:26:00] more popular than LP. And as you can see
+
+[00:26:03] from this chart, the amount of uh Atlas
+
+[00:26:07] that is being redeemed via FIX has been
+
+[00:26:10] climbing slowly over time. Um since
+
+[00:26:13] their introduction and and indeed with
+
+[00:26:15] the addition of the Gen 2 FIC, which are
+
+[00:26:18] uh the second kind of release of uh
+
+[00:26:20] faction infrastructure contracts, those
+
+[00:26:22] we call them the named Fix or the Gen 2
+
+[00:26:25] fix or FIC 2. Uh these are basically the
+
+[00:26:28] three fix that came out after the
+
+[00:26:30] original three fix. And you can see that
+
+[00:26:32] the the redemption rates and and the
+
+[00:26:34] amount of Atlas being uh being redeemed
+
+[00:26:38] via the gen 2s is far greater than it
+
+[00:26:40] was for gen one. Um we are pretty this
+
+[00:26:45] is one of my highest priorities right
+
+[00:26:47] now. I've been involved in the data um
+
+[00:26:50] for the last week and well for the last
+
+[00:26:52] month just trying to spend all of my
+
+[00:26:54] spare time trying to understand this
+
+[00:26:56] this issue and how we can potentially
+
+[00:26:58] resolve it. Um, one thing that we did
+
+[00:27:01] recently to try and and curb emissions,
+
+[00:27:03] which actually worked in order to
+
+[00:27:07] um in order to curb the emission rate of
+
+[00:27:10] Atlas, we introduced a new condition
+
+[00:27:13] for FIC uh fick refills. We said before
+
+[00:27:18] that if a single gin runs out at a
+
+[00:27:21] single with within a faction, um, then
+
+[00:27:23] we'll just refill that gin. Now we have
+
+[00:27:25] a condition that both generations need
+
+[00:27:27] to run out before we'll refill both
+
+[00:27:30] either generation. So if gen two runs
+
+[00:27:32] out, as you can see in the later part of
+
+[00:27:34] that top graph, uh it just runs out. And
+
+[00:27:37] until gen one runs out, which is that
+
+[00:27:39] blue part, uh the the blue blue
+
+[00:27:42] stacks, Gen 2 is not going to refill. So
+
+[00:27:45] what you see are these massive spikes,
+
+[00:27:48] absolutely astronomical spikes. And
+
+[00:27:50] what's happening is that all of the Gen
+
+[00:27:52] 2 emissions that used to happen
+
+[00:27:54] throughout the week are now happening on
+
+[00:27:56] one and two days because those fix do
+
+[00:27:59] not get refilled when they run out. And
+
+[00:28:02] what we're ending up with is everybody
+
+[00:28:05] is crafting Gen 2s uh to begin with
+
+[00:28:07] because they're a better deal and then
+
+[00:28:09] there's a slow trickle of Gen 1 uh but
+
+[00:28:12] very low interest level in Gen 1. Most
+
+[00:28:15] of the interest is in Gen 2 and it's
+
+[00:28:16] pretty much run out by the second or
+
+[00:28:19] third day of uh emissions. I anticipate
+
+[00:28:22] this problem will become more and more
+
+[00:28:24] pronounced over time and by the time you
+
+[00:28:26] know 2 3 months has gone by we'll end up
+
+[00:28:29] with every single gen 2 f being claimed
+
+[00:28:32] on Thursday which is when the refill
+
+[00:28:34] happens uh and then zero Gen 2s being
+
+[00:28:37] claimed on the days after. So you can
+
+[00:28:39] see the breakdown here in this top chart
+
+[00:28:41] of Gen one and Gen two claims on each
+
+[00:28:43] day. So what we're measuring here is
+
+[00:28:46] when you go and sell a FIC to the Atlas
+
+[00:28:50] or sorry to the Dow buy order. So the B
+
+[00:28:52] the Dow puts out a a buy order
+
+[00:28:55] um for uh you know for a single FIC for
+
+[00:29:00] 2.2 if it's a gen two and for two Atlas
+
+[00:29:03] if it's gen one. Um and then that bottom
+
+[00:29:06] bottom uh chart shows us the total
+
+[00:29:09] redemptions and I this isn't not all
+
+[00:29:11] time. I forget what it is. cuz I think
+
+[00:29:13] it's like uh since the introduction of
+
+[00:29:15] Gen 2, but don't quote me on that. But
+
+[00:29:18] this is going to be pretty consistent
+
+[00:29:20] for your uh breakdown in terms of total
+
+[00:29:23] amount of Atlas claimed by wallet. And
+
+[00:29:26] you can see I've got the top uh what is
+
+[00:29:28] that? 20
+
+[00:29:29] wallets. 4 5 6 7 8 9 10. Yeah, I think
+
+[00:29:33] it's the top 20 wallets. Um and then
+
+[00:29:35] there's a typo. It should say less than
+
+[00:29:37] top 20, not less than top 10. So you've
+
+[00:29:40] got the top 20 wallets and then all
+
+[00:29:42] other wallets. And what you can see is
+
+[00:29:43] there's a massive massive inequality
+
+[00:29:45] here where the top two players account
+
+[00:29:48] for pretty much the entirety of the
+
+[00:29:50] emissions for the bottom uh in minus 20
+
+[00:29:55] players which is roughly you know let's
+
+[00:29:58] call it of people who participate in the
+
+[00:30:00] Atlas program since uh the introduction
+
+[00:30:02] of Gen 2. Let's call it 800 players uh
+
+[00:30:06] 800 uh people. So this is a pretty, you
+
+[00:30:10] know, this is a pretty dramatic uh, you
+
+[00:30:12] know, wealth distribution. It's not
+
+[00:30:14] unexpected. This is pretty typical um,
+
+[00:30:17] of uh, honestly, it's pretty typical of
+
+[00:30:20] video games, but it's spec especially
+
+[00:30:22] typical in crypto and and in financial
+
+[00:30:25] markets uh, to see this kind of a a
+
+[00:30:27] wealth distribution. So extreme wealth
+
+[00:30:29] distribution, not to be unexpected. So
+
+[00:30:32] the question that I had is okay well
+
+[00:30:33] let's let's investigate this. who is
+
+[00:30:35] claiming in the first couple of hours.
+
+[00:30:38] Are there people who are getting uh cut
+
+[00:30:40] out of this market? Are there specific
+
+[00:30:42] people who are literally claiming
+
+[00:30:43] everything? Uh that's what we want to uh
+
+[00:30:47] that's what we want to investigate is
+
+[00:30:48] okay who are the biggest culprits and
+
+[00:30:50] you know how does this claiming on these
+
+[00:30:52] Thursdays which is when the refill
+
+[00:30:54] happens how's that looking and how's it
+
+[00:30:56] working? Uh today is a Thursday, today's
+
+[00:30:58] a refill. So we're going to see tomorrow
+
+[00:31:00] we're going to see the same exact spike
+
+[00:31:02] that we saw today.
+
+[00:31:04] Uh so what I wanted to do was literally
+
+[00:31:05] just plot out every single transaction
+
+[00:31:08] for um the first uh basically over the
+
+[00:31:11] span of one week. So you can see I I cut
+
+[00:31:13] the data at April 25th uh which was the
+
+[00:31:16] last refill. And I just look at the last
+
+[00:31:18] last week of claim actions. And this is
+
+[00:31:21] not this is not broken out by player or
+
+[00:31:23] by time period. This is every hour every
+
+[00:31:25] single claim that happened. Uh what was
+
+[00:31:28] the breakdown? And you can see this is a
+
+[00:31:29] stacked bar chart. And so you can see
+
+[00:31:31] like the number one claim was by a
+
+[00:31:33] wallet called uh
+
+[00:31:35] 5D65PR and they claimed 5.3 million
+
+[00:31:38] Atlas um in one transaction. Now I need
+
+[00:31:42] to investigate this because I was under
+
+[00:31:44] the impression that this this this
+
+[00:31:46] amount literally should not be possible
+
+[00:31:48] but um it's showing up here in our
+
+[00:31:51] onchain data as um as a as a single
+
+[00:31:55] transaction of 5.3 million um uh atlas.
+
+[00:32:00] So, we do need to kind of figure out
+
+[00:32:01] what's going on here. Uh, it's possible
+
+[00:32:03] there's a program issue, but it's also
+
+[00:32:05] possible that there's some sort of
+
+[00:32:06] functional thing that we can do to
+
+[00:32:08] change the the the game play in order to
+
+[00:32:10] make it more kind of uh a little bit
+
+[00:32:13] more consistent and fair for some of
+
+[00:32:15] those smaller players. So, the question
+
+[00:32:16] here is, okay, well, we've got these big
+
+[00:32:18] big claimers, but as long as people
+
+[00:32:21] aren't literally being cut out from
+
+[00:32:23] being able to claim Gen 2, as long as
+
+[00:32:25] mostly everybody is able to participate,
+
+[00:32:27] then it's not a huge issue. And you can
+
+[00:32:29] see in the bottom visual I have broken
+
+[00:32:32] down the number of unique takers, the
+
+[00:32:35] number of unique claimers
+
+[00:32:37] um uh by week for each generation type.
+
+[00:32:43] So you have gen one in blue and gen two
+
+[00:32:44] in red. So what this is showing us is
+
+[00:32:46] that on March 28th there were about 25
+
+[00:32:49] people who claimed the gen one recipe
+
+[00:32:51] and about 40 who claimed the Gen 2
+
+[00:32:53] recipe. Um, so you can see there are
+
+[00:32:57] more Gen 2 claimers and fewer Gen One
+
+[00:33:00] claimers. What that means is that more
+
+[00:33:01] people are claiming uh the the more
+
+[00:33:05] attractive recipe than there are people
+
+[00:33:07] who are claiming the less attractive
+
+[00:33:09] recipe. And that's actually like that's
+
+[00:33:11] kind of a good thing. Uh we don't mind
+
+[00:33:13] seeing that. But you can see that that
+
+[00:33:15] trend or that relationship I should say
+
+[00:33:17] reverses around April 11th. And while we
+
+[00:33:21] don't have data for today, you can see
+
+[00:33:24] the week of April 25th. We're just going
+
+[00:33:26] through yesterday. We're going to we're
+
+[00:33:28] going to still need uh to finish out the
+
+[00:33:31] week. We don't have the last day of data
+
+[00:33:33] for um for the week of April 25th. So,
+
+[00:33:37] it's a little bit more dramatic, but you
+
+[00:33:39] can see that the portion of people who
+
+[00:33:41] are claiming Gen 1 compared to those who
+
+[00:33:43] are claiming Gen 2 is starting to uh
+
+[00:33:46] that that difference is starting to open
+
+[00:33:48] up.
+
+[00:33:49] So what's happening is there are more
+
+[00:33:53] people who are you could say having to
+
+[00:33:55] claim the less attractive recipe than
+
+[00:33:58] those who are claiming the more
+
+[00:34:00] attractive recipe. And this is not a
+
+[00:34:01] trend that we'd like to see. We want to
+
+[00:34:03] see this mostly even. Basically, okay,
+
+[00:34:06] it looks like the same number of people
+
+[00:34:07] are getting access to Gen 2 that are
+
+[00:34:09] getting access to Gen 1. And what that
+
+[00:34:11] tells us is that yes, maybe you didn't
+
+[00:34:14] quite get as it's possible you didn't
+
+[00:34:15] quite get as much as you would have
+
+[00:34:17] liked. Um and we can measure that as
+
+[00:34:19] well uh the amount per user between the
+
+[00:34:22] two the two recipes but at least
+
+[00:34:24] everybody's kind of getting to part able
+
+[00:34:26] to participate. Um now if we see this
+
+[00:34:29] this ratio start to go down even more
+
+[00:34:32] such that let's say only 10 people are
+
+[00:34:34] accounting for all of the uh gen one or
+
+[00:34:37] sorry the gen 2 uh transactions which
+
+[00:34:40] you know I I don't know how this April
+
+[00:34:42] 25th week is going to play out but it's
+
+[00:34:44] looking a little bit rough. I'd be very
+
+[00:34:46] surprised if we were able to get above
+
+[00:34:47] 40 unique users. What this if we were to
+
+[00:34:49] just take this April 25th week, this
+
+[00:34:51] bottom right uh week at face value, this
+
+[00:34:54] is telling us that less than 20 people
+
+[00:34:56] are making up for the entirety of all of
+
+[00:34:58] the emissions of the Gen 2 recipe, which
+
+[00:35:00] is more attractive and everybody else is
+
+[00:35:02] being forced into Gen 1. So, that would
+
+[00:35:05] be an undesirable impact. Okay, so I've
+
+[00:35:08] kind of outlined some of the issues. Um,
+
+[00:35:10] I also wanted to uh take this
+
+[00:35:12] opportunity to point out
+
+[00:35:13] over-the-counter trading. Um, and it's
+
+[00:35:15] kind of interesting because one of our
+
+[00:35:16] our largest over-the-counter trader uh
+
+[00:35:20] 6BQ uh who accounts for about $40,000 of
+
+[00:35:24] over-the-counter trade since the
+
+[00:35:25] beginning of Sage or Starbased, I should
+
+[00:35:28] say. Uh or the introduction of local
+
+[00:35:31] markets, sorry. Um uh that person also
+
+[00:35:34] happens to be one of our biggest um
+
+[00:35:37] culprits here. You can see they're
+
+[00:35:38] number three in terms of uh in terms of
+
+[00:35:40] the amount of Atlas that they've
+
+[00:35:41] claimed. So, we've kind of got this, you
+
+[00:35:43] know, this scary thing where people are
+
+[00:35:45] just uh completely dominating the market
+
+[00:35:48] and we have to ask ourselves, what are
+
+[00:35:49] some solutions that we can implement to
+
+[00:35:51] try and uh to try and combat this? So,
+
+[00:35:54] here's a list of four potential
+
+[00:35:55] solutions. Uh there are other solutions
+
+[00:35:58] but um and if you guys want to see that
+
+[00:36:00] OTC chart again uh since I know that's
+
+[00:36:02] probably not something that anybody has
+
+[00:36:04] seen um the xaxis on the left hand side
+
+[00:36:09] is a bit rough. It's just that is
+
+[00:36:10] basically just a small sample of the
+
+[00:36:12] different wallet. That's the first um
+
+[00:36:14] five digits of the wallet ID. Now as you
+
+[00:36:18] can see there are dozens and dozens and
+
+[00:36:20] dozens of lines um and there are only a
+
+[00:36:23] couple like maybe two dozen uh IDs. So,
+
+[00:36:26] uh kind of ignore the ID uh thing, but
+
+[00:36:28] you can kind of get a sense of the
+
+[00:36:30] number of uh OTC trades per profile and
+
+[00:36:33] the value of those trades per profile.
+
+[00:36:36] And you can see we've been trending up
+
+[00:36:38] on our value uh over time. It seems to
+
+[00:36:41] maybe be stabilizing, but the number of
+
+[00:36:43] of the count of trades has also seemed
+
+[00:36:45] to be seemingly increasing over time.
+
+[00:36:48] So, uh kind of interesting to see that.
+
+[00:36:50] will not tell you how I identify
+
+[00:36:52] over-the-counter trades, though I
+
+[00:36:54] imagine there are some very smart people
+
+[00:36:56] in our audience who could probably
+
+[00:36:57] deduce that. Um, let's go through some
+
+[00:36:59] of the solutions that we're thinking
+
+[00:37:00] about for fixed sniping and how to solve
+
+[00:37:03] this issue. To be clear, people claiming
+
+[00:37:06] the fix is not a problem. We're not
+
+[00:37:08] upset with these whales who just happen
+
+[00:37:10] to have uh yeah, the OTC combination
+
+[00:37:13] with sniping uh Bod is is actually a
+
+[00:37:15] really interesting point. Um I I think
+
+[00:37:19] that you know there's there's an
+
+[00:37:20] argument to be made that you're
+
+[00:37:21] potentially uh combining your OTC
+
+[00:37:24] activity, your trading activity uh with
+
+[00:37:26] this sniping activity. Um anyway,
+
+[00:37:29] uh I just uh I just wanted to to show
+
+[00:37:32] that relationship. Um not necessarily
+
+[00:37:36] making any sort of causal uh you know
+
+[00:37:39] declaration here,
+
+[00:37:43] but yeah. So, so let's move uh on to
+
+[00:37:47] solutions. So, there are a couple of
+
+[00:37:49] easy solutions and a couple of more
+
+[00:37:51] difficult solutions. So, the first one
+
+[00:37:52] would be to just adjust the refresh
+
+[00:37:54] schedule and this would basically be to
+
+[00:37:57] eliminate the refresh schedule. So, the
+
+[00:37:59] the the uh fix would only refresh when
+
+[00:38:02] all fixs are uh out. Now, this one is
+
+[00:38:05] easy to implement, but it doesn't really
+
+[00:38:07] get at the main problem. Now there there
+
+[00:38:11] are two primary issues I would say uh
+
+[00:38:14] from my point of view there's an
+
+[00:38:15] emissions issue I want uh I
+
+[00:38:20] want I want um sorry I'm simultaneously
+
+[00:38:24] reading the comments. I'll return to
+
+[00:38:25] your guys' comments uh in a moment. Um
+
+[00:38:28] but uh so so I want emissions to be
+
+[00:38:31] around we want emissions to be about 8.5
+
+[00:38:33] million per day of Atlas. That's kind of
+
+[00:38:36] what our uh original model you know 2021
+
+[00:38:39] that was the original projection was was
+
+[00:38:41] roughly 8.5 million atlas per day uh
+
+[00:38:44] especially around this time. Now we are
+
+[00:38:47] currently sitting at around 10.8 million
+
+[00:38:51] per day on average. Um, now that was
+
+[00:38:54] accelerating and then we put in this new
+
+[00:38:56] change that I talked about earlier about
+
+[00:38:59] okay, now you can only claim uh now fix
+
+[00:39:02] only refill once both gen one and gen
+
+[00:39:04] two are are uh completely uh claimed.
+
+[00:39:08] Now another way that we can further
+
+[00:39:11] lower the emissions rate is to add an
+
+[00:39:14] additional constraint that says hey we
+
+[00:39:15] don't actually auto refresh on Thursdays
+
+[00:39:17] anymore. We auto refresh whenever the
+
+[00:39:19] fix run out. Now, this definitely is
+
+[00:39:22] going to help curb emissions because
+
+[00:39:24] it's going to slow down. It's going to
+
+[00:39:27] spread out the claiming over time. It's
+
+[00:39:31] not going to spread out here. And here's
+
+[00:39:33] where the kind of issue lies. It's not
+
+[00:39:35] going to spread out how quickly people
+
+[00:39:36] are able to claim. So, the moment those
+
+[00:39:39] recipes refill, those whales are going
+
+[00:39:41] to come in and they're going to claim
+
+[00:39:42] them immediately. So, it solves one
+
+[00:39:44] problem, Atlas emissions, or at least it
+
+[00:39:46] helps to mitigate Atlas emissions. Uh,
+
+[00:39:48] which I still think we need to pull down
+
+[00:39:51] even with this change. We still are we
+
+[00:39:54] need to pull real uh Atlas emissions
+
+[00:39:56] back in. Um, but that's a that's a
+
+[00:39:59] that's a different discussion. So, this
+
+[00:40:01] auto refresh um adjustment will solve
+
+[00:40:05] the Atlas emissions problem, but it
+
+[00:40:07] doesn't really address the problem of uh
+
+[00:40:09] it doesn't really address the problem of
+
+[00:40:11] whales coming in and claiming all of the
+
+[00:40:13] Gen 2 recipes before anybody gets a say.
+
+[00:40:16] Uh so, that is not necessarily a a a
+
+[00:40:19] perfect solution, although I think it's
+
+[00:40:21] an interesting uh kind of stop gap
+
+[00:40:24] measure. It also adds in randomness to
+
+[00:40:26] the refresh. If you know that the
+
+[00:40:28] refresh is going to happen at exactly
+
+[00:40:30] 2:00 a.m. on Thursday morning, well,
+
+[00:40:32] it's much easier for you to snipe than
+
+[00:40:34] it is if you're like, "Oh, I think that
+
+[00:40:36] the refresh is going to happen, you
+
+[00:40:38] know, because people are crafting them
+
+[00:40:39] at this rate or they're claiming them at
+
+[00:40:41] this rate." Um, it makes it a little bit
+
+[00:40:43] more interesting and a little bit more
+
+[00:40:45] strategic perhaps. Um, so that's the
+
+[00:40:48] first option. Very easy. Um to be honest
+
+[00:40:51] with you guys, unless there's like a
+
+[00:40:52] massive, you know, unless people are
+
+[00:40:54] completely uh uh against this, this is
+
+[00:40:58] something that I I would be very
+
+[00:40:59] interested in implementing. The second
+
+[00:41:01] option here, which I like uh quite a
+
+[00:41:05] lot, and it was actually supposed to be
+
+[00:41:06] a part of the original design. You can
+
+[00:41:08] see I've got the difficulty level there
+
+[00:41:10] is pretty hard. This is a difficult one
+
+[00:41:12] to implement.
+
+[00:41:14] And so this would be to force the craft
+
+[00:41:18] uh locations to be all nonredemption
+
+[00:41:21] locations. So the problem right now is
+
+[00:41:22] you can craft a thick at the same spot
+
+[00:41:24] that you can sell it. Um now this isn't
+
+[00:41:27] like going to solve all of our problems
+
+[00:41:28] in the entire universe, but it does help
+
+[00:41:30] us to slow down the rate at which people
+
+[00:41:33] are able to liquidate fix into those
+
+[00:41:36] into those buy orders. Okay, so this one
+
+[00:41:39] again, this is none of these are like
+
+[00:41:41] clearcut, you know, solutions to the
+
+[00:41:42] problem. Um, except for maybe uh number
+
+[00:41:45] three there, but you guys aren't going
+
+[00:41:47] to like number three. So, uh, anyway,
+
+[00:41:49] back to number two here. Uh, if we could
+
+[00:41:51] if we could possibly prevent people from
+
+[00:41:54] being able to craft the fix at the
+
+[00:41:57] recipe, the redemption locations, that
+
+[00:41:59] would help to Okay, all of a sudden, um,
+
+[00:42:02] you need some sort of freighting
+
+[00:42:03] operation in order to get those fixed to
+
+[00:42:05] the new location. you do have to
+
+[00:42:06] transport stuff. You can't just It makes
+
+[00:42:09] stockpiling just a little bit more
+
+[00:42:12] difficult. Um, are there ways to get
+
+[00:42:14] around this? Absolutely. And that's why,
+
+[00:42:16] if I'm being honest, this is probably
+
+[00:42:18] not a solution that we're looking to
+
+[00:42:20] implement anytime soon, just because it
+
+[00:42:22] is difficult. Right now, the only way
+
+[00:42:24] that we can limit the number of or
+
+[00:42:26] sorry, limit the recipes available for
+
+[00:42:28] crafting at a specific star base are
+
+[00:42:30] through the starbases tier. Now, most
+
+[00:42:32] places have a star base that's over, you
+
+[00:42:34] know, tier three. Um, and it also varies
+
+[00:42:38] by the location. So, it's not like we
+
+[00:42:41] can easily use starbased tier in order
+
+[00:42:42] to to mitigate where you can craft a
+
+[00:42:45] fix. So, number two, probably not a
+
+[00:42:48] great option. Number three, and this is
+
+[00:42:50] probably the most controversial one,
+
+[00:42:53] um, number three would be to basically
+
+[00:42:57] try to bring Gen 2 in line with Gen One.
+
+[00:43:01] We launched with Gen One originally.
+
+[00:43:03] There wasn't really a whole lot of uh
+
+[00:43:05] conflict there. There wasn't a whole lot
+
+[00:43:06] of um negativity. People liked the new
+
+[00:43:09] system. They liked the fact that they
+
+[00:43:11] could earn Atlas in one of two different
+
+[00:43:13] ways. They could do LP and they could do
+
+[00:43:15] the FIC. Um now, a couple of conditions
+
+[00:43:18] have changed since we launched that Gen
+
+[00:43:20] One. namely LP is getting a pretty
+
+[00:43:23] mundane because now the only uh the only
+
+[00:43:26] LP uh resources are pretty much upkeep
+
+[00:43:29] materials and SDUs. Um we have a similar
+
+[00:43:32] issue with LP contribution that we have
+
+[00:43:35] with the FIC 2 where you know you come
+
+[00:43:37] in and you have a whale who contributes
+
+[00:43:40] 100% of the supply and then there's
+
+[00:43:42] nothing left for anybody else. Um again
+
+[00:43:44] that's another issue that we could
+
+[00:43:46] address. So, uh, number three here would
+
+[00:43:49] basically just be to nerf Gen two. Gen
+
+[00:43:52] two is a is a really, really, uh,
+
+[00:43:55] aggressive. It's a much more, um, high,
+
+[00:44:00] uh, yield kind of asset compared to Gen
+
+[00:44:02] One. Fewer crafting steps. It's faster
+
+[00:44:05] to make. It requires less crafting time.
+
+[00:44:08] Uh, so, you know, to to be honest with
+
+[00:44:10] you guys, this is one of my uh certainly
+
+[00:44:12] one of my favorite options. Um,
+
+[00:44:14] obviously I want a cooler economy. I
+
+[00:44:17] want things to cool off a little bit.
+
+[00:44:18] It's just a bit hot. Um, so that's one
+
+[00:44:22] thing that I'm thinking about is is to
+
+[00:44:25] just readjust the uh Gen 2 recipe or to
+
+[00:44:29] de deactivate the Gen 2 recipe
+
+[00:44:30] altogether. Uh, cuz where we were with
+
+[00:44:32] Gen 1 in terms of uh the tokens emission
+
+[00:44:35] was highly attract I mean it was a very
+
+[00:44:37] good place. We were emissions were right
+
+[00:44:39] where we wanted them. We seemed to have
+
+[00:44:41] a lot of control. emissions were
+
+[00:44:43] happening every day. We didn't have this
+
+[00:44:45] massive blasty, you know, okay,
+
+[00:44:47] everybody contributes everything all at
+
+[00:44:49] once. We had a much smoother kind of
+
+[00:44:52] emissions uh schedule. So that's that's
+
+[00:44:54] definitely a desirable uh effect. So
+
+[00:44:56] number three is highly um attractive to
+
+[00:44:59] us. And then number four is a much more
+
+[00:45:04] is is similar to number two in that it's
+
+[00:45:07] pretty difficult to implement, but this
+
+[00:45:08] would be to change the mint each cycle.
+
+[00:45:12] So each time we refresh we would change
+
+[00:45:15] the meant. So this would this would uh
+
+[00:45:18] require quite a lot of uh communication
+
+[00:45:21] on our part to communicate hey each week
+
+[00:45:24] any unspent fix are worthless is
+
+[00:45:27] basically what would have to happen. The
+
+[00:45:29] other thing it does is all of a sudden
+
+[00:45:31] we've got tons of useless assets
+
+[00:45:33] floating around which is again not super
+
+[00:45:35] desirable. Um, but what it what it does
+
+[00:45:38] help us do is it it kind of eliminates
+
+[00:45:40] the ability to stockpile. Now, you could
+
+[00:45:42] still stockpile resources and then
+
+[00:45:44] convert those resources, yada yada. Um,
+
+[00:45:47] I get that, but this would potentially
+
+[00:45:50] help to mitigate kind of that blastiness
+
+[00:45:52] that we see. Um, so that's definitely an
+
+[00:45:56] attractive option. Uh, but I think that
+
+[00:45:58] in terms of the implementation and to be
+
+[00:46:01] honest, the communication, it would be
+
+[00:46:03] pretty tough. Um because then we'd have
+
+[00:46:05] to communicate this to new players and
+
+[00:46:07] we'd have to communicate it to you guys.
+
+[00:46:09] That's pretty that's pretty tough. Um
+
+[00:46:12] and yeah, and again like if there's no
+
+[00:46:14] way to offload those old recipes like
+
+[00:46:16] Larenoi just mentioned, um that's pretty
+
+[00:46:18] tough because what are you just going to
+
+[00:46:20] have a bunch of dead recipes in your
+
+[00:46:21] account? Um we tried to avoid that with
+
+[00:46:24] uh the golden tickets, but you know,
+
+[00:46:26] still people have golden tickets and
+
+[00:46:27] they're kind of these fun things. We
+
+[00:46:29] don't want like, you know, by the end of
+
+[00:46:31] the year we'd have 52 different uh fixs
+
+[00:46:34] uh if we were to do it this way. Um so
+
+[00:46:38] Bodie, uh what about adding a new FIC? I
+
+[00:46:40] I like this idea a lot. And this would
+
+[00:46:42] basically um this would basically be the
+
+[00:46:45] I if we were to add a new FIC, we would
+
+[00:46:47] replace Gen 2. Um, Gen 2, you know, I'm
+
+[00:46:51] going to I'm going to be pretty candid,
+
+[00:46:53] is is a little bit uh I don't like to
+
+[00:46:56] use the word broken, but it's it's
+
+[00:46:58] broken compared to Gen One, and we it
+
+[00:47:00] could be greatly improved in terms of
+
+[00:47:02] the sustainability of the game economy.
+
+[00:47:04] So, uh, by change Gen 2, uh, we could
+
+[00:47:08] also just replace that with, uh, get rid
+
+[00:47:10] of Gen 2 and replace it with another,
+
+[00:47:12] uh, a Gen 3. Um, and to be honest with
+
+[00:47:14] you guys, the original plan was to kind
+
+[00:47:17] of have these uh fix cycling and
+
+[00:47:19] creating new new uh fix on a regular
+
+[00:47:22] basis, a regular cadence. Um, which, you
+
+[00:47:25] know, I I'm happy to to kind of uh
+
+[00:47:28] introduce that. It's a tough balance
+
+[00:47:30] because we know that people pref we know
+
+[00:47:32] that people like um consistency, right?
+
+[00:47:36] If you if you show up uh to work every
+
+[00:47:38] day, you want to know that you're going
+
+[00:47:39] to get like this paycheck at the end of
+
+[00:47:41] the day or you know you're going to do
+
+[00:47:42] this specific task. Uh it's not fun when
+
+[00:47:45] you show up to, you know, a place and
+
+[00:47:47] you you show up to a restaurant and
+
+[00:47:48] they're like, "Oh, uh this is actually,
+
+[00:47:50] you know, a Mexican restaurant. It's no
+
+[00:47:52] longer an Indian restaurant." It's like,
+
+[00:47:53] "Okay, great. I was looking forward to
+
+[00:47:55] Indian food and I got Mexican food in
+
+[00:47:57] instead." Uh so anywh who, those are our
+
+[00:48:00] four potential solutions. Um, I think
+
+[00:48:03] that one and three are the most likely
+
+[00:48:05] uh to be implemented in the in the
+
+[00:48:08] medium term. Um, there are some other
+
+[00:48:11] notes here at the bottom that I'm uh
+
+[00:48:14] that I'm that I want to bring up. We're
+
+[00:48:16] also considering we've been talking
+
+[00:48:18] about this for a while, introducing an
+
+[00:48:20] extra extra small recipe into the
+
+[00:48:22] redemption recipes. And this would
+
+[00:48:24] basically
+
+[00:48:26] um and this this would basically be
+
+[00:48:31] a a new ship, new recipe. We would have
+
+[00:48:34] never sold it before. And one thing that
+
+[00:48:38] I know we would get some push back on is
+
+[00:48:40] we would need to make it um less
+
+[00:48:43] competitive than the current recipes.
+
+[00:48:44] And there's a reason for that. The first
+
+[00:48:46] reason is we want to try and support the
+
+[00:48:49] price of the of the ship. Uh the second
+
+[00:48:52] reason is
+
+[00:48:54] uh as much as it pains me to say if we
+
+[00:48:56] were to launch this thing such that it
+
+[00:48:58] was a more attractive option to whales
+
+[00:49:01] than the Mamba X and the Calico Maxhog,
+
+[00:49:05] then these things would be minted out
+
+[00:49:07] pretty much instantaneously. Um so we
+
+[00:49:09] kind of need to make them less
+
+[00:49:10] attractive. Uh and and that's like
+
+[00:49:13] that's not great, but there is
+
+[00:49:15] obviously, you know, there's there's
+
+[00:49:16] gains to be had when you scale.
+
+[00:49:19] Um yeah, please define less competitive.
+
+[00:49:21] So we would we would probably price this
+
+[00:49:23] asset uh in its crafting recipe to the
+
+[00:49:26] value to the origination value was was
+
+[00:49:29] the idea. Um so do with that information
+
+[00:49:33] what you will. Um but that's that's a
+
+[00:49:36] pretty interesting option. You know, I
+
+[00:49:38] was chatting with uh Santi. We were
+
+[00:49:40] chatting yesterday and yeah, I was like
+
+[00:49:42] I don't know if I don't know if this is
+
+[00:49:43] a good idea. I'm not sure how the
+
+[00:49:45] community will uh react. And yeah, he
+
+[00:49:48] was like, "Well, you can add it. You no
+
+[00:49:50] harm." So, I don't know. Um, sometimes
+
+[00:49:54] sometimes there is harm just in adding
+
+[00:49:56] stuff. Uh, you know, it's
+
+[00:49:58] like I don't want to I don't want to put
+
+[00:50:00] a big middle finger out there, but at
+
+[00:50:02] the same time, I want to give people
+
+[00:50:03] interesting stuff to do in the economy
+
+[00:50:05] that's not just uh thick grinding and LP
+
+[00:50:08] grinding. So, definitely something we're
+
+[00:50:10] we're interested in doing. I would love
+
+[00:50:12] to get a gauge from the community,
+
+[00:50:13] especially the guys here, the people
+
+[00:50:15] here uh in this audience. Uh you know,
+
+[00:50:17] this these are the most committed uh
+
+[00:50:19] people. Yeah. Earther says, "Give us
+
+[00:50:21] C4." And we can chat about C4. And and I
+
+[00:50:24] think that that's actually kind of
+
+[00:50:25] looming over all of this is this
+
+[00:50:27] question of okay, well, why do all this
+
+[00:50:30] if there's C4 coming out soon? Um
+
+[00:50:34] uh yeah, let's see. How do we feel about
+
+[00:50:36] this proposal?
+
+[00:50:41] I see lots of people typing. Let's wait
+
+[00:50:44] for a little
+
+[00:50:50] bit. So, Ager, the the one thing I will
+
+[00:50:53] say is like adding this recipe is
+
+[00:50:56] virtually no lift. This is like we can
+
+[00:50:58] get this added in 15 minutes. Uh so
+
+[00:51:01] would not be taking away from uh C4
+
+[00:51:04] development.
+
+[00:51:08] Yeah, Chris, I see lots of different
+
+[00:51:10] opinions. Learn think
+
+[00:51:13] it's Yeah, I see I see some common
+
+[00:51:16] ground saying that maybe if it's
+
+[00:51:17] something unique like a new ship, a new
+
+[00:51:20] vessel that was not sold. Y it would be
+
+[00:51:22] cool. Yeah. Yeah, I like that.
+
+[00:51:25] Collection. Yeah, for collection sake. I
+
+[00:51:27] like this as well. I see Ether says that
+
+[00:51:29] he likes proposal one and number three.
+
+[00:51:32] Um and I just I I love that. And when
+
+[00:51:35] they come after us, you're going to have
+
+[00:51:37] to defend me and be on my side. Exactly.
+
+[00:51:41] You're going to have to be there. Be my
+
+[00:51:43] field. Exactly.
+
+[00:51:46] Let's see. Why do I iron only one side
+
+[00:51:48] of the map compared to Oni and Mud?
+
+[00:51:52] Okay, that is an interesting question.
+
+[00:51:54] So, uh, Takerats, I I'm just going to
+
+[00:51:57] answer this real quick just because, um,
+
+[00:52:00] it's topical. With C4 coming out, I'm
+
+[00:52:03] pretty sure any map uh changes will not
+
+[00:52:06] be probably addressed before C4 because
+
+[00:52:09] the map is going to change so
+
+[00:52:10] dramatically in
+
+[00:52:11] C4. Um there was a suggestion for fix
+
+[00:52:14] above. What about this? Yeah. Yeah. Is
+
+[00:52:17] it Lenor? Okay, he just posted it again.
+
+[00:52:20] An idea. What if we create FIC 3, which
+
+[00:52:23] is FIC 1 plus FIC 2 and sell price of
+
+[00:52:25] 4.2 Alice? That's interesting. So just
+
+[00:52:28] combine the two. Would we still have FIC
+
+[00:52:31] one and
+
+[00:52:37] two? So if we if we still have FIC two
+
+[00:52:40] co so so you can think of like I would
+
+[00:52:43] think of the the yield of these fixs as
+
+[00:52:46] being additive. So FIC one let's call it
+
+[00:52:49] on a scale of 1 to 10 it's a it's a
+
+[00:52:51] three and then FC 2 on a scale of 1 to
+
+[00:52:54] 10 it's an eight. you combine those, the
+
+[00:52:56] resulting asset is going to be a lower
+
+[00:52:58] yield and so it'll necessarily be less
+
+[00:53:00] attracted than FC 2, so we're still kind
+
+[00:53:02] of in the same uh I think we're still in
+
+[00:53:05] kind of the same territory. I I do like
+
+[00:53:08] the idea. I would be um I would be in
+
+[00:53:10] favor of just doing a a FIC 3 recipe,
+
+[00:53:13] which is just FIC 1 plus FIC 2 is equal
+
+[00:53:16] to FIC 3, and replace the current
+
+[00:53:19] emissions with that because then that
+
+[00:53:21] also solves the issue of idle fix. So,
+
+[00:53:24] if for example, if we were to shut down
+
+[00:53:26] FIC 1 and FIC 2 buy orders and people
+
+[00:53:29] have millions of FICS saved up and they
+
+[00:53:32] go, "What the heck? Now I can't trade
+
+[00:53:33] this in." What this introduces is the
+
+[00:53:36] ability for players to
+
+[00:53:39] um uh to to still burn those, which is
+
+[00:53:42] kind of cool. Um Earther says if you
+
+[00:53:45] keep I I would I I will say like no
+
+[00:53:48] matter what we do, it's going to involve
+
+[00:53:50] having to do something with Vic 2. like
+
+[00:53:52] we're not going to just be able to keep
+
+[00:53:53] FIC 2 stable uh the way it is. It'll
+
+[00:53:55] have or static. It'll have to change.
+
+[00:53:57] So, we could do FIC 1 and then FIC 3 is
+
+[00:54:00] FIC 1 plus FIC 2. That could be an
+
+[00:54:02] interesting uh
+
+[00:54:10] dynamic. Messages are rolling in supply
+
+[00:54:13] two to force effect three. And finally,
+
+[00:54:16] so I I I kind of disagree here.
+
+[00:54:20] um to reduce the supply of fick 2. I
+
+[00:54:24] think that that's just going to end up
+
+[00:54:26] causing
+
+[00:54:29] um people to I think that just kind of
+
+[00:54:32] exacerbates this issue of uh whales
+
+[00:54:34] sniping the the
+
+[00:54:39] recipes. But uh yeah, no, this is a
+
+[00:54:42] really this is really interesting idea,
+
+[00:54:43] Lenor. I think uh I think considering we
+
+[00:54:47] want to do three, I think that's an
+
+[00:54:49] interesting way to implement it. Um but
+
+[00:54:53] yeah, the one thing I do like about the
+
+[00:54:55] comments I'm seeing is like it seems
+
+[00:54:56] like everybody's kind of on the same
+
+[00:54:58] page that we do need to figure something
+
+[00:55:00] out with the emissions. Um uh they're
+
+[00:55:03] they're definitely running too hot. And
+
+[00:55:04] if that means like, hey, Atlas emissions
+
+[00:55:08] per user is going to have to go down a
+
+[00:55:09] little bit, then then that's just what
+
+[00:55:11] we're going to do. Now, one thing to
+
+[00:55:13] keep in mind is that this
+
+[00:55:14] disproportionately impacts uh larger
+
+[00:55:16] players. And to be honest, our larger
+
+[00:55:18] players have uh really good yields
+
+[00:55:20] already, so I'm less worried about that.
+
+[00:55:23] Um
+
+[00:55:24] so,
+
+[00:55:26] yeah. Is there anything else? We have
+
+[00:55:28] some other topics um that I wanted to
+
+[00:55:31] touch on. We got five minutes. I did see
+
+[00:55:33] a quick question above um which I think
+
+[00:55:36] I could address. It's um where are you
+
+[00:55:38] going to put the atlas of score assuming
+
+[00:55:40] it's deprecated um that you know we're
+
+[00:55:44] not we're not directly looking at a
+
+[00:55:48] onetoone swap like we wouldn't deprecate
+
+[00:55:50] and say okay there was 600,000 atlas
+
+[00:55:52] being emitted in score how do we move
+
+[00:55:54] that into Sage it would more so be
+
+[00:55:58] um by design or integrated into Sage
+
+[00:56:02] already um a fix in that discrepancy or
+
+[00:56:04] we just completely shut off that uh tap
+
+[00:56:07] as a whole. So um you know 600,000 atlas
+
+[00:56:12] a day is per the example that's that's
+
+[00:56:14] not a huge amount obviously compared to
+
+[00:56:16] what we're seeing now. So um very
+
+[00:56:18] minimal but uh if we were to completely
+
+[00:56:20] shut it off but again the you know we
+
+[00:56:23] could always
+
+[00:56:25] um account for that um in in future Sage
+
+[00:56:29] updates before score is is deprecated.
+
+[00:56:31] But um that atlas would just it's all
+
+[00:56:34] part of the same emissions curve. So,
+
+[00:56:36] it's more just, you know, where those
+
+[00:56:38] taps are turned on versus where they're
+
+[00:56:40] not. So, hopefully that answers your
+
+[00:56:43] question.
+
+[00:56:46] Yeah, we can always give it to the
+
+[00:56:48] community team, right? I mean, good use
+
+[00:56:51] of the residual atlas emissions. You'll
+
+[00:56:55] have to take that up with uh with the
+
+[00:56:57] big guys.
+
+[00:57:01] Any plans to use pulis inside the game?
+
+[00:57:04] That's a cool question.
+
+[00:57:05] Um, I mean obviously we want the voting
+
+[00:57:10] mechanism to be more kind
+
+[00:57:11] of would be cool if that was more
+
+[00:57:14] integrated uh with the game itself, but
+
+[00:57:17] um no no plans for like direct Polus
+
+[00:57:21] usage in the game as of right now as far
+
+[00:57:24] as I'm aware. That's uh that's
+
+[00:57:27] definitely more of a uh a Dan question I
+
+[00:57:31] think. Um,
+
+[00:57:33] Dan isn't here, but uh, yeah, there's
+
+[00:57:35] there's I know there are
+
+[00:57:37] um, plans for Polus. I don't think we've
+
+[00:57:41] been uh, made aware of them yet, but
+
+[00:57:44] yeah, nothing for Starbase at the
+
+[00:57:45] moment.
+
+[00:57:47] All right, we've got two minutes left. I
+
+[00:57:49] do want to just address a few other
+
+[00:57:51] topics real quick. And this is probably
+
+[00:57:53] another 30-minut discussion, so I
+
+[00:57:55] apologize for the speed here. We kind of
+
+[00:57:57] packed a little bit too much into this
+
+[00:57:58] presentation, but I did want to um we
+
+[00:58:01] are going to make an official
+
+[00:58:02] announcement, but I did want to just
+
+[00:58:04] bring this up to you. We are planning a
+
+[00:58:05] food update to the game right now. Uh
+
+[00:58:08] it's in the works, and this will be to
+
+[00:58:10] remove food upkeep requirement.
+
+[00:58:13] Um I don't know why I didn't finish that
+
+[00:58:15] sentence. Um, you can still redeem uh LP
+
+[00:58:19] for food contribution, but you'll end up
+
+[00:58:22] um but but there won't be a reduction in
+
+[00:58:25] the speed of crafting due to uh food
+
+[00:58:28] upkeep. So, basically, we're removing
+
+[00:58:30] food upkeep. Um there was some kind of
+
+[00:58:32] undesirable effects. First of all, it
+
+[00:58:34] was really difficult to plan. Uh second
+
+[00:58:36] of all, most of the food upkeep landed
+
+[00:58:38] on literally like a handful of players.
+
+[00:58:40] So, it just kind of seemed like a moot
+
+[00:58:42] point. uh small players can't do
+
+[00:58:45] anything. Um you know, if you're a small
+
+[00:58:48] player and you contribute like a day's
+
+[00:58:49] worth of food, it's going to last 30,
+
+[00:58:51] you know, two seconds. Um so it was a
+
+[00:58:53] really cool idea and and we're still
+
+[00:58:55] going to try to you know, return to
+
+[00:58:57] this, of course, but
+
+[00:58:58] um but you know, I think I think that uh
+
+[00:59:02] it's pretty well established at this
+
+[00:59:03] point that the food upkeep mechanic uh
+
+[00:59:05] isn't really working as as uh design had
+
+[00:59:08] intended it to work. So, uh, we're going
+
+[00:59:10] to plan on red basically reducing that
+
+[00:59:13] to the upkeep requirement to zero. Uh,
+
+[00:59:15] so you can still upkeep, you can still
+
+[00:59:18] contribute food to get LP, but you're
+
+[00:59:20] not going it's not going to like speed
+
+[00:59:21] up the star base. Star bases will
+
+[00:59:23] basically have uh base 100% efficiency.
+
+[00:59:27] Um, and you guys can thank me for that
+
+[00:59:29] 100%. I think uh Michael was was uh
+
+[00:59:33] fight he was like, uh, we could do we
+
+[00:59:35] could do like, you know, half half of
+
+[00:59:37] the initial reduction. Um, but I just
+
+[00:59:40] figured because I'm gonna have part B
+
+[00:59:42] coming in here, I wanted to get you guys
+
+[00:59:45] in my good graces. Uh, we are going to
+
+[00:59:47] be increasing food consumption for
+
+[00:59:48] ships. So, the way that there was an
+
+[00:59:51] update a couple of this was this was
+
+[00:59:53] months ago. Um, we shut up,
+
+[00:59:56] Victor. Um,
+
+[00:59:59] uh, um, sorry, get getting back to the
+
+[01:00:03] task at hand. the way that there was an
+
+[01:00:06] update to the game that happened a
+
+[01:00:08] couple of months ago. This was this was
+
+[01:00:09] honestly probably six months ago to a
+
+[01:00:11] year ago. I can't remember when we put
+
+[01:00:12] this through, but basically was like a
+
+[01:00:14] refactoring of how food works. And food
+
+[01:00:16] was basically scaled to the number of
+
+[01:00:19] crew that you had. Um while I think that
+
+[01:00:22] the intention of this was was good, it
+
+[01:00:24] had a detrimental impact uh in that food
+
+[01:00:27] is basically worthless. If you are a
+
+[01:00:30] commander ship, for example, if you Yes,
+
+[01:00:34] Lenor, we are planning on hopefully
+
+[01:00:35] fixing the max hogs food consumption in
+
+[01:00:37] this update. Um, if you are a um if
+
+[01:00:41] you're a commander, for example, on a
+
+[01:00:44] successful scan for SDUs, you're paying
+
+[01:00:47] about half a percent of the value of
+
+[01:00:49] those SDUs in food. If you're an extra
+
+[01:00:52] extra small, you're paying more like
+
+[01:00:54] 20%. So this discrepancy basically
+
+[01:00:57] causes it's it's basically a commander
+
+[01:01:00] can mine the amount of food that they
+
+[01:01:01] need for a year in you know a matter of
+
+[01:01:04] minutes or a matter of a matter of hours
+
+[01:01:07] versus an extra extra small who
+
+[01:01:09] basically has to constantly be refilling
+
+[01:01:11] you know mining for food in order to
+
+[01:01:13] keep up with their food costs. The food
+
+[01:01:15] cost proportion is completely out of
+
+[01:01:18] whack. So we're trying to fix that with
+
+[01:01:19] this update. Now, it's not going to
+
+[01:01:22] scale um it's not going to scale as
+
+[01:01:24] aggressively as a mission scale with
+
+[01:01:26] ship class, but it will scale
+
+[01:01:28] significantly more aggressively. So, um
+
+[01:01:30] we're going to see about a 20x increase
+
+[01:01:33] in the food consumption for a commander,
+
+[01:01:35] a 0x or a 1x increase or no increase in
+
+[01:01:39] the uh food consumption for an extra
+
+[01:01:42] extra small, and then everything else
+
+[01:01:43] will be kind of in the middle. So, uh
+
+[01:01:45] that is something that we're we're going
+
+[01:01:46] to do. So, I've been wanting to do that
+
+[01:01:48] for a while, and I felt like it was a
+
+[01:01:49] good time to do it in combination with
+
+[01:01:51] the food upkeep requirement deprecation.
+
+[01:01:53] Um,
+
+[01:01:55] uh, oh, one other thing that's going to
+
+[01:01:57] happen with this update is we, uh, we're
+
+[01:02:00] going to add for scanning ships, they're
+
+[01:02:03] they're currently have no advantage when
+
+[01:02:05] it comes to scan cool down, and we felt
+
+[01:02:08] like that didn't really make sense. So,
+
+[01:02:09] we're going to basically all scan ships
+
+[01:02:11] are now going to have a 50% uh,
+
+[01:02:13] reduction in scan cool down with this
+
+[01:02:15] update. So, I should have added that as
+
+[01:02:17] point C. Um, fleet fleet scoring. We're
+
+[01:02:20] over two minutes, so I'm not really
+
+[01:02:22] going to talk about um all of this
+
+[01:02:24] stuff. I know you guys wanted to talk
+
+[01:02:26] about C4. To be honest with you guys, I
+
+[01:02:28] think that next month will be a better
+
+[01:02:30] time to talk about C4 because we really,
+
+[01:02:33] um, we really have just started to get
+
+[01:02:35] really deep into C4 planning, uh,
+
+[01:02:38] especially on the economy. If we thought
+
+[01:02:40] transitioning from the score economy to
+
+[01:02:42] the Sage economy was hard, then uh
+
+[01:02:44] transitioning from the Sage economy to
+
+[01:02:46] the C4 economy is going to be even um
+
+[01:02:49] even more difficult. So, lots of
+
+[01:02:51] interesting stuff happening with C4 uh
+
+[01:02:53] with this the fleet rentals. I want to
+
+[01:02:55] make one quick comment. We've we've had
+
+[01:02:57] a lot of great feedback in terms of hey,
+
+[01:02:59] there's these are the variables we think
+
+[01:03:00] are important. Here's the variables we
+
+[01:03:02] don't think are important. Here's the
+
+[01:03:04] waiting you should use. Um and I will
+
+[01:03:07] try to get that uh update through where
+
+[01:03:09] we adjust to vari to a limited number of
+
+[01:03:13] variables per fleet score um per per the
+
+[01:03:16] you know mining score, scanning score
+
+[01:03:18] and cargo score and adjust the weights
+
+[01:03:20] according to the feedback we've
+
+[01:03:21] received. So hopefully those fleet
+
+[01:03:23] scores will reflective be more
+
+[01:03:25] reflective of of kind of what you guys
+
+[01:03:26] are expecting. Um I'd also like to add
+
+[01:03:31] um I'd like to add all the fleet stats
+
+[01:03:33] to the rentals page. This is a much
+
+[01:03:34] bigger lift. I'm not sure how likely we
+
+[01:03:36] are to get that in. Um and then uh yeah,
+
+[01:03:40] point C here. We have limited resources
+
+[01:03:42] right now working on C4. So we have
+
+[01:03:44] limited resources for other projects
+
+[01:03:46] because we're so focused on on C4. So uh
+
+[01:03:48] TBD on on how quickly we're able to get
+
+[01:03:50] this out, guys. Uh but it is definitely,
+
+[01:03:53] you know, it's something that we want to
+
+[01:03:54] do. It's it's feedback we've received,
+
+[01:03:56] but just know that it's um not
+
+[01:03:59] something that is I mean it's nowhere
+
+[01:04:02] near as high priority as C4. Uh but
+
+[01:04:04] yeah, I think we've answered quite a few
+
+[01:04:06] questions. We're four minutes over. This
+
+[01:04:08] was a packed uh chat. Sorry for the
+
+[01:04:11] chaos and how quickly we had to whip
+
+[01:04:12] through this, but uh yeah, hopefully you
+
+[01:04:14] guys feel um feel good about things. I'm
+
+[01:04:18] feeling really good. I I'm really
+
+[01:04:20] wanting to pull uh Atlas emissions down,
+
+[01:04:23] but other than that, I I feel like we're
+
+[01:04:24] in a really good place. We've seen even
+
+[01:04:26] in this turbulent environment, we've
+
+[01:04:28] seen relatively stable or more stable
+
+[01:04:32] user growth uh user uh numbers than we
+
+[01:04:35] have seen in previous downturns. So
+
+[01:04:37] that's really cool to see. So just know
+
+[01:04:39] that the economy is in a good place. Um
+
+[01:04:41] we have lots of participants in our in
+
+[01:04:44] our economy and I I think that things
+
+[01:04:45] are just going to uh get better from
+
+[01:04:47] here probably. Uh so yeah. Awesome.
+
+[01:04:51] Awesome. Awesome. Uh since we are way
+
+[01:04:54] over the hour, Gareth, any last last
+
+[01:04:58] comments, my friend, before we close.
+
+[01:05:01] Uh no, I mean, thanks Chris for going
+
+[01:05:04] over all that. I think it's super
+
+[01:05:06] valuable. Oh, there goes the fire alarm
+
+[01:05:08] in my building. So, perfect time to end.
+
+[01:05:12] Stop running, G. Dang.
+
+[01:05:16] Thank you guys. It's usually some kids
+
+[01:05:18] messing around, but yeah, thank you
+
+[01:05:19] guys.
+
+[01:05:21] Thank you everyone. This was the Ecom
+
+[01:05:23] forum number 12. One year of Eon Forum.
+
+[01:05:26] I'm super happy and proud of the work
+
+[01:05:28] that the Ecom team is doing. So yeah,
+
+[01:05:32] we'll see you guys next month probably
+
+[01:05:34] with some C4 GC theory crafting and
+
+[01:05:38] updates. Thank you everyone and have a
+
+[01:05:40] great day. See you all on the next Ecom
+
+[01:05:43] forum. Bye-bye. Bye guys. Thanks guys.
+
+[01:05:46] See you.

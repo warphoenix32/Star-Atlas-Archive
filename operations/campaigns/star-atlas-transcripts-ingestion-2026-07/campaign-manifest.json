@@ -1,0 +1,370 @@
+{
+  "campaign_id": "star-atlas-transcripts-ingestion-2026-07",
+  "prepared_on": "2026-07-15",
+  "status": "READY_FOR_ARCHIVAL_INGESTION",
+  "collections": {
+    "economic-forum": {
+      "records": 11,
+      "captions": 16295,
+      "duplicates": 0,
+      "unresolved_dates": 0,
+      "partial_dates": 11
+    },
+    "dao": {
+      "records": 11,
+      "captions": 23713,
+      "duplicates": 0,
+      "unresolved_dates": 8,
+      "partial_dates": 0
+    },
+    "townhall": {
+      "records": 14,
+      "captions": 38744,
+      "duplicates": 0,
+      "unresolved_dates": 11,
+      "partial_dates": 3
+    }
+  },
+  "total_records": 36,
+  "total_captions": 78752,
+  "source_ids_unique": true,
+  "scope": {
+    "allowed": [
+      "archive/raw",
+      "archive/normalized",
+      "archive/source-records",
+      "operations/campaigns"
+    ],
+    "prohibited": [
+      "knowledge",
+      "graph",
+      "publication"
+    ]
+  },
+  "records": [
+    {
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum February 2026",
+      "publication_date": "2026-02",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-9AF39A87A80EDB8E.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-9AF39A87A80EDB8E.md",
+      "caption_count": 1419
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum January 2026",
+      "publication_date": "2026-01",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-DA876A17CDB11E18.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-DA876A17CDB11E18.md",
+      "caption_count": 1468
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum February 2025",
+      "publication_date": "2025-02",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-8C1707C5C9C6EFEB.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-8C1707C5C9C6EFEB.md",
+      "caption_count": 1348
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-ECEE879933D7FEFE",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum October 2024",
+      "publication_date": "2024-10",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-ECEE879933D7FEFE.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-ECEE879933D7FEFE.md",
+      "caption_count": 1590
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-04D03390B487E480",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum September 2024",
+      "publication_date": "2024-09",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-04D03390B487E480.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-04D03390B487E480.md",
+      "caption_count": 1449
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-7367D0DF38E859F4",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum December 2024",
+      "publication_date": "2024-12",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-7367D0DF38E859F4.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-7367D0DF38E859F4.md",
+      "caption_count": 1486
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum January 2025",
+      "publication_date": "2025-01",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-354A7F51B559ED47.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-354A7F51B559ED47.md",
+      "caption_count": 1513
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-C6A57BFABC570218",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum November 2024",
+      "publication_date": "2024-11",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-C6A57BFABC570218.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-C6A57BFABC570218.md",
+      "caption_count": 1461
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum April 2025",
+      "publication_date": "2025-04",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-C53DD05B1A9D234D.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-C53DD05B1A9D234D.md",
+      "caption_count": 1548
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-F67474243EB194BE",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum March 2025 Shapin",
+      "publication_date": "2025-03",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-F67474243EB194BE.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-F67474243EB194BE.md",
+      "caption_count": 1458
+    },
+    {
+      "source_id": "SRC-ECON-FORUM-DDFDE4F3A1FDEF29",
+      "collection": "economic-forum",
+      "title": "Star Atlas Economic Forum May 2025 Econ Tea",
+      "publication_date": "2025-05",
+      "raw_path": "economic-forum/raw/SRC-ECON-FORUM-DDFDE4F3A1FDEF29.txt",
+      "normalized_path": "economic-forum/normalized/SRC-ECON-FORUM-DDFDE4F3A1FDEF29.md",
+      "caption_count": 1555
+    },
+    {
+      "source_id": "SRC-DAO-B31D1D3DC9276AA1",
+      "collection": "dao",
+      "title": "Council stuff",
+      "publication_date": null,
+      "raw_path": "dao/raw/SRC-DAO-B31D1D3DC9276AA1.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-B31D1D3DC9276AA1.md",
+      "caption_count": 2505
+    },
+    {
+      "source_id": "SRC-DAO-0BDAF8426FDCAD51",
+      "collection": "dao",
+      "title": "DAO Council Weekly Tag-Up 19 04 2025",
+      "publication_date": "2025-04-19",
+      "raw_path": "dao/raw/SRC-DAO-0BDAF8426FDCAD51.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-0BDAF8426FDCAD51.md",
+      "caption_count": 3145
+    },
+    {
+      "source_id": "SRC-DAO-1335B91689A5B7E2",
+      "collection": "dao",
+      "title": "Star Atlas DAO Public PIP Review 2",
+      "publication_date": null,
+      "raw_path": "dao/raw/SRC-DAO-1335B91689A5B7E2.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-1335B91689A5B7E2.md",
+      "caption_count": 2594
+    },
+    {
+      "source_id": "SRC-DAO-6BCF7DC0DB9C9720",
+      "collection": "dao",
+      "title": "Star Atlas DAO Public PIP Review 2 5 extra time",
+      "publication_date": null,
+      "raw_path": "dao/raw/SRC-DAO-6BCF7DC0DB9C9720.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-6BCF7DC0DB9C9720.md",
+      "caption_count": 1258
+    },
+    {
+      "source_id": "SRC-DAO-095E2702036E90EE",
+      "collection": "dao",
+      "title": "DAO workshop pip creation",
+      "publication_date": null,
+      "raw_path": "dao/raw/SRC-DAO-095E2702036E90EE.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-095E2702036E90EE.md",
+      "caption_count": 1719
+    },
+    {
+      "source_id": "SRC-DAO-042BD1DEEF5A9727",
+      "collection": "dao",
+      "title": "Council Weekly Tag-Up Star Atlas DAO",
+      "publication_date": null,
+      "raw_path": "dao/raw/SRC-DAO-042BD1DEEF5A9727.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-042BD1DEEF5A9727.md",
+      "caption_count": 1447
+    },
+    {
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "collection": "dao",
+      "title": "DAO Council Weekly Tag-Up Star Atlas Communit",
+      "publication_date": null,
+      "raw_path": "dao/raw/SRC-DAO-32627F5FB9FADE39.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-32627F5FB9FADE39.md",
+      "caption_count": 2971
+    },
+    {
+      "source_id": "SRC-DAO-F42107614D29DBD4",
+      "collection": "dao",
+      "title": "Star Atlas DAO Council Meeting January 10th",
+      "publication_date": null,
+      "raw_path": "dao/raw/SRC-DAO-F42107614D29DBD4.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-F42107614D29DBD4.md",
+      "caption_count": 1368
+    },
+    {
+      "source_id": "SRC-DAO-FE10693BD2263236",
+      "collection": "dao",
+      "title": "Star Atlas DAO Tag-Up October 18 2025",
+      "publication_date": "2025-10-18",
+      "raw_path": "dao/raw/SRC-DAO-FE10693BD2263236.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-FE10693BD2263236.md",
+      "caption_count": 1458
+    },
+    {
+      "source_id": "SRC-DAO-005092573D403B3E",
+      "collection": "dao",
+      "title": "Star Atlas DAO Weekly Tag-Up June 7 2025",
+      "publication_date": "2025-06-07",
+      "raw_path": "dao/raw/SRC-DAO-005092573D403B3E.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-005092573D403B3E.md",
+      "caption_count": 2527
+    },
+    {
+      "source_id": "SRC-DAO-24AC378F245F78EF",
+      "collection": "dao",
+      "title": "Star Atlas DAO Inaugural Council Meeting Sec",
+      "publication_date": null,
+      "raw_path": "dao/raw/SRC-DAO-24AC378F245F78EF.txt",
+      "normalized_path": "dao/normalized/SRC-DAO-24AC378F245F78EF.md",
+      "caption_count": 2721
+    },
+    {
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "collection": "townhall",
+      "title": "2022 Joni awards",
+      "publication_date": "2022",
+      "raw_path": "townhall/raw/SRC-TOWNHALL-B66F8586AA2FCB90.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-B66F8586AA2FCB90.md",
+      "caption_count": 2785
+    },
+    {
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "collection": "townhall",
+      "title": "Star Atlas End of Year Town Hall 2025",
+      "publication_date": "2025",
+      "raw_path": "townhall/raw/SRC-TOWNHALL-731A3D5664AB3C72.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-731A3D5664AB3C72.md",
+      "caption_count": 4204
+    },
+    {
+      "source_id": "SRC-TOWNHALL-A1103FA71FF764D1",
+      "collection": "townhall",
+      "title": "Star Atlas Town Hall",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-A1103FA71FF764D1.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-A1103FA71FF764D1.md",
+      "caption_count": 1705
+    },
+    {
+      "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
+      "collection": "townhall",
+      "title": "Star Atlas Town Hall",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-5D5DDA7808DD80BE.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-5D5DDA7808DD80BE.md",
+      "caption_count": 1792
+    },
+    {
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "collection": "townhall",
+      "title": "Star Atlas Town Hall 38",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-C6E705CEC7F99DB8.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-C6E705CEC7F99DB8.md",
+      "caption_count": 2968
+    },
+    {
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "collection": "townhall",
+      "title": "Team update",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-49B158AA5F9C993B.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-49B158AA5F9C993B.md",
+      "caption_count": 2138
+    },
+    {
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "collection": "townhall",
+      "title": "Town Hall 39",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-114A7F2FE199FAD1.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-114A7F2FE199FAD1.md",
+      "caption_count": 2574
+    },
+    {
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "collection": "townhall",
+      "title": "Star Atlas Town Hall 43",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-000B2F372F9AEDDD.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-000B2F372F9AEDDD.md",
+      "caption_count": 3507
+    },
+    {
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "collection": "townhall",
+      "title": "Star Atlas Town Hall Community Discussion Dev",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-D6CAD785061FF76C.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-D6CAD785061FF76C.md",
+      "caption_count": 3664
+    },
+    {
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "collection": "townhall",
+      "title": "Town Hall State of Star Atlas",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-8B81AF8298EC775C.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-8B81AF8298EC775C.md",
+      "caption_count": 3266
+    },
+    {
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "collection": "townhall",
+      "title": "Star Atlas Town Hall June 2025",
+      "publication_date": "2025-06",
+      "raw_path": "townhall/raw/SRC-TOWNHALL-E3A7BCDC12B3EFEE.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-E3A7BCDC12B3EFEE.md",
+      "caption_count": 4807
+    },
+    {
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "collection": "townhall",
+      "title": "community week part 2 Town Hall 42",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-5F69263457814B5C.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-5F69263457814B5C.md",
+      "caption_count": 2659
+    },
+    {
+      "source_id": "SRC-TOWNHALL-4DA964D308D5B294",
+      "collection": "townhall",
+      "title": "emergency townhall",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-4DA964D308D5B294.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-4DA964D308D5B294.md",
+      "caption_count": 1026
+    },
+    {
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "collection": "townhall",
+      "title": "townhall 40",
+      "publication_date": null,
+      "raw_path": "townhall/raw/SRC-TOWNHALL-83FFB1A89990BFC6.txt",
+      "normalized_path": "townhall/normalized/SRC-TOWNHALL-83FFB1A89990BFC6.md",
+      "caption_count": 1649
+    }
+  ]
+}

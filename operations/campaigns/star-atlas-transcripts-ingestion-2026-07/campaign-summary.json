@@ -1,0 +1,20 @@
+{
+  "campaign_id": "star-atlas-transcripts-ingestion-2026-07",
+  "status": "READY_FOR_ARCHIVAL_REVIEW",
+  "source_package": "Star_Atlas_Transcript_Ingestion_Package.zip",
+  "source_package_sha256": "15c15f306aff69cd3b595c602f444726d80dd31edf10c59ea49a166ae0c66d1c",
+  "collections": {
+    "economic-forum": 11,
+    "dao": 11,
+    "townhall": 14
+  },
+  "source_records": 36,
+  "caption_lines": 78752,
+  "package_artifacts_preserved": 127,
+  "repository_files_added": 132,
+  "source_id_collisions": 0,
+  "exact_content_duplicates": 0,
+  "semantic_enrichment_included": false,
+  "semantic_enrichment_disposition": "SEPARATE_STACKED_CAMPAIGN",
+  "prohibited_paths_modified": []
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+  "collection": "townhall",
+  "title": "Star Atlas End of Year Town Hall 2025",
+  "original_filename": "Star_Atlas_End_of_Year_Town_Hall_2025.txt",
+  "source_type": "transcript",
+  "publication_date": "2025",
+  "publication_date_basis": "filename-year",
+  "publisher": "Star Atlas ecosystem; exact publisher unresolved",
+  "author_or_speakers": [],
+  "speaker_attribution": "UNKNOWN",
+  "original_url": null,
+  "evidence_tier": "UNRESOLVED_PENDING_SOURCE_RECONCILIATION",
+  "raw_path": "townhall/raw/SRC-TOWNHALL-731A3D5664AB3C72.txt",
+  "normalized_path": "townhall/normalized/SRC-TOWNHALL-731A3D5664AB3C72.md",
+  "raw_sha256": "731a3d5664ab3c72ab8dd7a14bdb03042e82870f7b04b60f76f80e6b793e97d4",
+  "normalized_sha256": "4da0fdb36e4f2b2b14430caa4c98bca553b233200f24be5f3f1470528c9f3743",
+  "caption_count": 4204,
+  "first_timestamp": "00:00:00",
+  "last_timestamp": "03:07:26",
+  "duplicate_of": null,
+  "normalization_actions": [
+    "Decoded as UTF-8 with replacement for invalid bytes",
+    "Normalized line endings",
+    "Joined wrapped caption text belonging to the same timestamp",
+    "Collapsed repeated whitespace within captions",
+    "Preserved transcript wording and timestamp order"
+  ],
+  "limitations": [
+    "Original URL not supplied",
+    "Speaker labels not supplied",
+    "Publication date may be partial or unknown",
+    "Automated transcript text may contain recognition errors",
+    "Lifecycle or factual claims require later semantic review before canonical promotion"
+  ],
+  "ingestion_status": "READY_FOR_ARCHIVAL_INGESTION"
+}

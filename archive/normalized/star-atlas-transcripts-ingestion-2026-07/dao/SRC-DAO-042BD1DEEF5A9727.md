@@ -1,0 +1,2929 @@
+---
+
+source_id: SRC-DAO-042BD1DEEF5A9727
+
+title: "Council Weekly Tag-Up Star Atlas DAO"
+
+collection: dao
+
+source_type: transcript
+
+publication_date: unknown
+
+publication_date_basis: unknown
+
+speaker_attribution: unknown
+
+raw_sha256: 042bd1deef5a9727f1793a659afef56ddf30bbc1c0835c92681314b59113182d
+
+caption_count: 1447
+
+last_timestamp: 01:01:32
+
+normalization: caption-lines joined; wording preserved
+
+---
+
+
+
+# Council Weekly Tag-Up Star Atlas DAO
+
+
+
+> Speaker identities, original URL, and exact publication date remain unresolved unless stated in metadata.
+
+
+
+[00:00:00] Rasby's uh multimedia content generation
+
+[00:00:04] blitz up to a live vote, you know, which
+
+[00:00:07] is a very exciting and uh much
+
+[00:00:09] anticipated proposal. And uh we've got
+
+[00:00:12] the advertising and um kind of like um
+
+[00:00:15] content promotion push for Gamescom in
+
+[00:00:18] Germany. And uh yeah, it's it's been an
+
+[00:00:23] interesting week. So we've got a lot of
+
+[00:00:24] things happening in terms of both um
+
+[00:00:27] infrastructure setting up back and
+
+[00:00:29] things like multisigs so we can make
+
+[00:00:31] Iris bounty work that's happening now.
+
+[00:00:34] Um all the council members are getting
+
+[00:00:35] their uh individual wallet addresses and
+
+[00:00:38] information to the team for setting up
+
+[00:00:39] the multisig. Uh Bod's been doing um
+
+[00:00:43] backend payment stuff and KYC things uh
+
+[00:00:46] for uh individual people that were
+
+[00:00:48] paying out and there's now a live
+
+[00:00:49] channel for that. Uh so um pretty much
+
+[00:00:53] if you wind up getting approved for
+
+[00:00:54] payments uh you're going to go into this
+
+[00:00:57] uh special access chat that's pretty
+
+[00:01:00] much um there just for your purposes and
+
+[00:01:03] uh we'll have it for all of your
+
+[00:01:05] information for the payments so we can
+
+[00:01:07] coordinate when we're going to send
+
+[00:01:09] things to you, what address we're
+
+[00:01:10] sending it to, etc. Um and then just
+
+[00:01:13] after it's all coordinated and you've
+
+[00:01:15] been paid, you just lose access to the
+
+[00:01:17] chat. Um but yeah, exciting week in Star
+
+[00:01:20] Atlas governance. I I apologize. Our
+
+[00:01:23] usual people with the
+
+[00:01:24] um
+
+[00:01:26] slideshows, you know, and things like
+
+[00:01:28] that. Uh weren't here, but um with that,
+
+[00:01:31] I'll pass it over to Bod and uh
+
+[00:01:34] depending on what he has, we can kind of
+
+[00:01:36] just open it up into council office
+
+[00:01:38] hours early uh if anyone has topics,
+
+[00:01:40] things they want to discuss or things
+
+[00:01:42] they want to push.
+
+[00:01:46] Yeah, we just had our meeting yesterday,
+
+[00:01:47] so basically covered all that um I
+
+[00:01:51] needed to talk about there.
+
+[00:01:54] Um so yeah, not not really much on the
+
+[00:01:57] docket right now. I was kind of hoping
+
+[00:01:59] to have a PIP to review.
+
+[00:02:03] Um but it's been a little slow going on
+
+[00:02:06] that front.
+
+[00:02:09] Yeah. So, um, do you want to take people
+
+[00:02:11] through what you've been setting up for
+
+[00:02:12] like KYC's and payments?
+
+[00:02:16] Yeah, basically just,
+
+[00:02:18] um, it's kind of twofold. Like, number
+
+[00:02:21] one,
+
+[00:02:22] streamlining the whole payment system.
+
+[00:02:25] It's, you know, it's not overly
+
+[00:02:28] complicated, but if you make a mistake,
+
+[00:02:31] it's, you know, it's an area where you
+
+[00:02:33] can't really make a mistake. Um, so,
+
+[00:02:37] best to just have it, you know, dialed
+
+[00:02:39] dialed in super good, but then also it
+
+[00:02:41] can get complicated if you have a lot of
+
+[00:02:43] pips. So, it's good to kind of do that
+
+[00:02:47] before it does get complicated if you're
+
+[00:02:51] juggling, you know, a handful of
+
+[00:02:52] different pips and different pace, you
+
+[00:02:54] know, payment schedules. And um it's
+
+[00:02:59] nice to have a, you know, not only a
+
+[00:03:01] system, but kind of have like a habit of
+
+[00:03:03] doing that. But then, so that's one
+
+[00:03:06] aspect. And then the other aspect is
+
+[00:03:09] uh there's just a ton of different ways
+
+[00:03:12] that
+
+[00:03:14] um it can go wrong
+
+[00:03:16] like either just honest you know uh
+
+[00:03:20] mistakes or even nefarious things you
+
+[00:03:23] know like um there's just a ton of
+
+[00:03:26] different ways that you can it's it's
+
+[00:03:27] it's similar to like an OTC you know
+
+[00:03:31] like we have KYC so that there's we know
+
+[00:03:34] kind of who they are but at the same
+
+[00:03:36] time like we're sending money over the
+
+[00:03:39] blockchain, right? Like directly to
+
+[00:03:41] their wallet. So,
+
+[00:03:44] um there's just a level of there's a lot
+
+[00:03:47] of different ways that that can go
+
+[00:03:48] wrong. So, kind of anticipating all
+
+[00:03:51] those different avenues where something
+
+[00:03:52] could fall through the cracks and
+
+[00:03:54] plugging those holes before anything
+
+[00:03:57] ever does fall through. Um kind of
+
+[00:04:00] trying to cover both those bases. And
+
+[00:04:01] then it's it's kind of a balance between
+
+[00:04:03] the two because you can you can be like
+
+[00:04:06] overly cautious to the point of where
+
+[00:04:09] it's like it's like
+
+[00:04:12] uh you know you're
+
+[00:04:15] definitely going to get scammed like it
+
+[00:04:17] you're super super safe but then you're
+
+[00:04:21] like also redundantly checking things.
+
+[00:04:24] So it's kind of trying to find the
+
+[00:04:25] balance to where it's like streamlined
+
+[00:04:27] but airing on the side of caution.
+
+[00:04:30] That's basically it. Um, a little bit
+
+[00:04:33] more complicated than I thought. I tend
+
+[00:04:36] to do a lot of those things naturally on
+
+[00:04:39] my, you know, just over the years I've
+
+[00:04:41] just gotten my own rhythm. So, writing
+
+[00:04:44] it down on paper to like standardize
+
+[00:04:47] those methods and actually write it all
+
+[00:04:51] out, it's it's uh it's kind of funny how
+
+[00:04:55] like complicated that process is because
+
+[00:04:57] it's kind of like imagine if you had to
+
+[00:04:59] write down
+
+[00:05:00] like how to put on a shirt, you know?
+
+[00:05:02] You just tell somebody, "Oh, put on your
+
+[00:05:04] shirt." But then when you actually have
+
+[00:05:05] to like write it in words, it's like
+
+[00:05:07] actually kind of complicated to explain,
+
+[00:05:09] you know?
+
+[00:05:11] No, it's funny. And it's um it depends
+
+[00:05:13] on people's skill sets and personality
+
+[00:05:15] types. So like uh I'm like uh very
+
+[00:05:18] intuitive. Um, I'm not very good, um,
+
+[00:05:22] I'm not the person you would want if you
+
+[00:05:24] wanted someone to create a bunch of
+
+[00:05:25] structure or a very orderly rule-based
+
+[00:05:29] process. Um, I'm much more kind of like
+
+[00:05:32] reflexive and intuitive and just um, you
+
+[00:05:35] know, I come up with things and just do
+
+[00:05:36] them. So it's uh I I totally get that
+
+[00:05:41] there's all kinds of things that I do
+
+[00:05:42] every day that it once I have to like
+
+[00:05:44] codify them or break it out so it's a
+
+[00:05:47] system that other people can follow it's
+
+[00:05:49] uh it becomes a totally different type
+
+[00:05:50] of challenge.
+
+[00:05:53] Yeah question. Yeah. Yeah. Um first so
+
+[00:05:59] you set up a multi- signal body or does
+
+[00:06:01] one council member use this or you get
+
+[00:06:04] the funds from the DAO and then send it
+
+[00:06:06] to somebody else. How does the process
+
+[00:06:08] work?
+
+[00:06:10] Yeah. So, we basically have we basically
+
+[00:06:13] have a channel in Discord. Um, and that
+
+[00:06:17] channel is visible by all the council
+
+[00:06:20] members and the mod team as well. Um,
+
+[00:06:24] and lastly, the
+
+[00:06:27] um the automata team, right? So those
+
+[00:06:30] three parties can view the channel and
+
+[00:06:34] type there technically, but generally
+
+[00:06:36] only the council would be typing there.
+
+[00:06:39] And then pretty much what it is, it's a
+
+[00:06:41] landing page. So it's just a channel, a
+
+[00:06:44] normal channel,
+
+[00:06:46] um, but it's read only. So, you show up
+
+[00:06:49] at the channel and it just has one
+
+[00:06:51] message that goes over every single
+
+[00:06:53] detail that that you would need um what
+
+[00:06:57] to expect
+
+[00:06:59] um just everything. And that will that
+
+[00:07:01] will incorporate more information as as
+
+[00:07:05] we you know learn as we go, right? So,
+
+[00:07:09] um it's got like the foundation's email,
+
+[00:07:11] what kind of documents you're going to
+
+[00:07:13] need, if you need a KYC,
+
+[00:07:16] um all of it, everything basically. And
+
+[00:07:19] then in that channel, we use private
+
+[00:07:22] threads. So, um that way that channel
+
+[00:07:26] stays really clean. But then within that
+
+[00:07:28] channel, there's private threads, which
+
+[00:07:30] is a pretty nifty uh tool that Discord
+
+[00:07:33] has, which basically allows us to kind
+
+[00:07:36] of similar to the forum style. But the
+
+[00:07:38] problem with the forum style is it
+
+[00:07:39] doesn't really give you a good like
+
+[00:07:42] landing page. It kind of breaks
+
+[00:07:44] everything up equally instead of having
+
+[00:07:46] like a central page and then like
+
+[00:07:48] offshoots from there.
+
+[00:07:50] Um, so the the threads kind of make that
+
+[00:07:53] that main landing page that that
+
+[00:07:55] everybody gets to see and then you got
+
+[00:07:57] the offshoots from there. And each each
+
+[00:07:59] private channel is made
+
+[00:08:02] for each author and that way the authors
+
+[00:08:07] have a spot where they can well the
+
+[00:08:10] author has a spot where he can
+
+[00:08:12] communicate with the council or the team
+
+[00:08:13] or whoever
+
+[00:08:15] um and we can have that back and forth
+
+[00:08:17] conversation. but it's private between
+
+[00:08:22] one author and another. So that way that
+
+[00:08:25] channel can exist and continue to scale
+
+[00:08:27] and people won't be able to like look
+
+[00:08:29] back and you know if you're an author
+
+[00:08:31] coming in getting funded you're not
+
+[00:08:33] going to be able to like see other
+
+[00:08:34] people's all the channels and it also
+
+[00:08:37] kind of makes it nice so that it's just
+
+[00:08:39] that main landing page and your private
+
+[00:08:41] thread. So it kind of keeps those
+
+[00:08:44] important details right up front and
+
+[00:08:46] center. And then from there we basically
+
+[00:08:49] figure out if we need a KYC.
+
+[00:08:53] Um so the team, you know, lets us know.
+
+[00:08:57] We don't really have a specific number
+
+[00:08:59] on when a KYC is needed. So right now
+
+[00:09:02] it's it's just up to their discretion
+
+[00:09:04] and they tell us they need a KYC. If
+
+[00:09:06] they do, then they
+
+[00:09:08] have, you know, the email address. They
+
+[00:09:10] send the documents over to the
+
+[00:09:12] foundation.
+
+[00:09:14] Um, and that's nice because then we're
+
+[00:09:16] not sending the email address. It's
+
+[00:09:18] it's, you know, it's uh on like a on a
+
+[00:09:22] channel within Discord, right? So, that
+
+[00:09:25] helps.
+
+[00:09:27] Um, after they send the KYC, then the
+
+[00:09:31] foundation gets back to us and says,
+
+[00:09:33] "Okay, the KYC is completed." And then
+
+[00:09:36] the council basically well myself
+
+[00:09:39] um unless I'm not available um will
+
+[00:09:44] basically do the calculate well so I'll
+
+[00:09:47] I'll reach out to the author at that
+
+[00:09:49] point ask them to send me the address
+
+[00:09:52] that they want to send the money to so
+
+[00:09:55] they'll send me the public address and
+
+[00:09:57] then I will send them a small
+
+[00:09:59] transaction of like 0.1 soul or whatever
+
+[00:10:03] to test it and then say okay did you get
+
+[00:10:05] that transaction and I'll it's kind of
+
+[00:10:08] like due diligence stuff like stuff that
+
+[00:10:10] you do when you're doing OTC you know so
+
+[00:10:11] that you don't get wrecked things like
+
+[00:10:14] that um and then once they confirm the
+
+[00:10:17] address then I calculate the amount of
+
+[00:10:22] Atlas send it to the team say okay send
+
+[00:10:25] this much atlas to this
+
+[00:10:28] address and then the team sends it um
+
+[00:10:32] there's a couple more things in there
+
+[00:10:33] but that's basically the gist of it. One
+
+[00:10:37] thing we're trying to work on because
+
+[00:10:38] I've been I've been somewhat concerned
+
+[00:10:40] about like volatility. Like sometimes it
+
+[00:10:44] can take a couple hours for the team or
+
+[00:10:47] maybe even longer for the team to like I
+
+[00:10:50] could send the message say, "Okay, hey,
+
+[00:10:52] this guy like this is the current rate
+
+[00:10:54] of Atlas. You got to send this many
+
+[00:10:55] tokens to this guy." And then by the
+
+[00:10:58] time the team gets it, it's a couple
+
+[00:11:00] hours later. And then maybe when they
+
+[00:11:04] send it, it's like 900 p.m. for the
+
+[00:11:07] author, the author's time, and then they
+
+[00:11:09] don't get they don't actually see the
+
+[00:11:11] atlas till the next morning. And by that
+
+[00:11:12] time, the the dollar amount could like
+
+[00:11:16] drastically change. So, one of the
+
+[00:11:18] things we we discussed cuz I've been
+
+[00:11:20] kind of bringing this up the past couple
+
+[00:11:22] weeks, Signal had a great idea to um I
+
+[00:11:26] think it was you, Signal, wasn't it? To
+
+[00:11:28] coordinate the times. Yeah. to prevent
+
+[00:11:31] Atlas slippage being like a concern.
+
+[00:11:34] Yeah. And the volat Well, it's mostly
+
+[00:11:36] the volatility, right? Because sometimes
+
+[00:11:38] there's like big swings. I mean, within
+
+[00:11:40] an hour or two, it's not that bad, but
+
+[00:11:42] if you go like 12 plus hours, you know,
+
+[00:11:46] and you just happen to get one of those
+
+[00:11:48] really bad days. I mean, it can go in
+
+[00:11:50] your favor, too. But it, you know, we
+
+[00:11:53] start getting into these longer periods
+
+[00:11:55] of time, which are totally possible,
+
+[00:11:57] just if things don't line up right. And
+
+[00:12:00] if that happens to line up on one of
+
+[00:12:01] those particularly bad days, like it
+
+[00:12:03] could it could really be an issue, you
+
+[00:12:06] know. So, basically what Signal came up
+
+[00:12:09] with was we're hoping, we haven't got
+
+[00:12:11] confirmation from the team yet, but
+
+[00:12:12] we're going to try and see if there's a
+
+[00:12:14] window like maybe every Thursday or
+
+[00:12:18] every Friday and every Monday
+
+[00:12:21] between this o'clock and that o'clock,
+
+[00:12:24] you know, maybe like a 6 hour window
+
+[00:12:25] twice a week that we can tell the author
+
+[00:12:28] like, "Hey, this is about when they're
+
+[00:12:29] going to send the payments out.
+
+[00:12:31] So if you're, you know, while you're
+
+[00:12:34] waiting for pay your payment, just keep
+
+[00:12:35] an eye during these times. So that way
+
+[00:12:38] we're not getting those kind of like,
+
+[00:12:41] you
+
+[00:12:42] know, more so like random or
+
+[00:12:44] uncoordinated payments, right? That
+
+[00:12:46] could lead to some of those like big
+
+[00:12:48] price discrepancies. So yeah, that's
+
+[00:12:50] little stuff like that we're still
+
+[00:12:52] working on, but for the most part, the
+
+[00:12:54] foundation is set and it's safe. Um, but
+
+[00:12:58] no, we're not personally handling it.
+
+[00:13:00] We're just we're just kind of greasing
+
+[00:13:02] the wheels as far as like giving the
+
+[00:13:06] authors the information that they need
+
+[00:13:08] and then giving the team the information
+
+[00:13:11] that they need as far as like okay hey
+
+[00:13:12] this is what the this like we have to go
+
+[00:13:14] and read the PIP and say okay this is
+
+[00:13:17] how
+
+[00:13:18] much like it it's being sent in three
+
+[00:13:21] payments one right now one in two months
+
+[00:13:23] and then another one in 6 months like we
+
+[00:13:25] kind of and you know we write all that
+
+[00:13:28] down and keep all that information and
+
+[00:13:30] all that kind of stuff so that it's kind
+
+[00:13:33] of more seamless for everyone else, but
+
+[00:13:36] we're not being like trusted with
+
+[00:13:37] anything other
+
+[00:13:39] than I guess information, right? Like
+
+[00:13:42] we're being trusted to facilitate that
+
+[00:13:44] process. That's that's it. Not with the
+
+[00:13:45] money itself. Yeah. The big thing we
+
+[00:13:48] wanted to avoid, which was coming up
+
+[00:13:50] recently, um, with like a couple of the
+
+[00:13:52] PIP authors who had like approved PIPs
+
+[00:13:54] requiring payment, was um, scenarios
+
+[00:13:58] where we would pay someone and, um, in,
+
+[00:14:02] let's say, a less than coordinated way
+
+[00:14:05] where they know they're awaiting
+
+[00:14:06] payment. Um, and then they do get
+
+[00:14:09] payments sent to them, but it takes them
+
+[00:14:13] maybe a couple of hours to access the
+
+[00:14:15] funds or maybe a day or so to be able to
+
+[00:14:18] get to where they need to to be able to
+
+[00:14:20] access them. And then let's say Atlas,
+
+[00:14:22] you know, goes down 10%. You know, or
+
+[00:14:25] 20%. And then they go, well, you didn't
+
+[00:14:27] really pay me. Well, we did, you know,
+
+[00:14:29] but now the market did its thing. The
+
+[00:14:32] thing that we're looking to line up and
+
+[00:14:34] create is um we want you inside a window
+
+[00:14:37] of predefined time to then tell us when
+
+[00:14:40] would you like to receive these funds.
+
+[00:14:43] So that way we know the exact moment
+
+[00:14:45] that we send them uh is coordinated with
+
+[00:14:47] you. You're on the other side of the
+
+[00:14:49] payment. You're there to either convert
+
+[00:14:52] to USDC or hold an atlas and just you
+
+[00:14:55] know you take on the risks of the market
+
+[00:14:57] at that point. But what we want to avoid
+
+[00:15:00] is people taking on the risks of the
+
+[00:15:01] market unintentionally uh just because
+
+[00:15:04] it took them too long to get to their
+
+[00:15:06] funds or to be able to access them. Um
+
+[00:15:09] just lining things up in a more
+
+[00:15:11] coordinated way that work for individual
+
+[00:15:13] PIP authors.
+
+[00:15:15] Yeah, that's definitely necessary
+
+[00:15:18] because um because um for example in the
+
+[00:15:22] first pip with the meetup um like you
+
+[00:15:25] have to pay the bills and then if you go
+
+[00:15:28] outlast and you make minus and then if
+
+[00:15:30] you really get wrecked like that like
+
+[00:15:32] with the 12 hours later or something and
+
+[00:15:34] then you lose 10% or something it's like
+
+[00:15:37] yeah then you know it's not nice. So I I
+
+[00:15:41] I like the idea with the with the time
+
+[00:15:44] uh
+
+[00:15:45] time schedules or whatever. So yeah,
+
+[00:15:49] that uh goes u seamless. Um question to
+
+[00:15:53] the to all uh I don't know it's
+
+[00:15:56] basically done probably with the
+
+[00:15:58] foundation. Do they keep a record of all
+
+[00:16:01] the like uh the bookings and stuff and
+
+[00:16:04] the people? So basically you do a KYC
+
+[00:16:08] you you the author you do a KYC and then
+
+[00:16:11] they have this in their books on the
+
+[00:16:13] Bahamas or on the Cayman or how how does
+
+[00:16:16] that work like
+
+[00:16:18] yeah that information gets stored long
+
+[00:16:20] term by the team meaning like so it's
+
+[00:16:23] not like um it's not like they burn it
+
+[00:16:26] after the fact you know if you did
+
+[00:16:28] receive funds from the foundation they
+
+[00:16:31] they do they do know who they paid long
+
+[00:16:34] in case something pops up later where
+
+[00:16:36] there's a need you know to be able to
+
+[00:16:39] identify the person. Well, I think it's
+
+[00:16:41] the foundation, right? Not the team. I
+
+[00:16:43] think the I don't think the team has
+
+[00:16:45] those KYCs. They might have be able to
+
+[00:16:48] get access to them if they needed to
+
+[00:16:50] claw something back or, you know,
+
+[00:16:52] something weird were to happen. But but
+
+[00:16:55] the but the KYC itself goes to the
+
+[00:16:58] foundation and the foundation is not
+
+[00:17:02] like as long as your information checks
+
+[00:17:05] out then you're good. You know they're
+
+[00:17:07] not like I don't think they're you know
+
+[00:17:10] unless your passport is from like North
+
+[00:17:12] Korea or something. I don't think
+
+[00:17:13] they're even going to look twice. Just
+
+[00:17:15] as long as it's valid ID they're going
+
+[00:17:17] to be good to go. you know, also for for
+
+[00:17:20] the future like with the foundation the
+
+[00:17:24] thing is like it's basically one person
+
+[00:17:28] now one foundation member it was free
+
+[00:17:30] before and so do they share like the is
+
+[00:17:34] it the multisc do they share it with the
+
+[00:17:36] team do you have any information with
+
+[00:17:37] that or is it solely in the foundation's
+
+[00:17:41] director's hand at the moment and is
+
+[00:17:44] like what's the plan for the future with
+
+[00:17:46] this you know because it's like yeah for
+
+[00:17:49] payments.
+
+[00:17:50] Yeah. and everything like with the
+
+[00:17:52] foundation and do we get more foundation
+
+[00:17:56] members or because weird like when you
+
+[00:17:59] think about it decentralized and all
+
+[00:18:02] this and then
+
+[00:18:04] one guy you know what I mean this kind
+
+[00:18:06] of I think right now every single
+
+[00:18:09] transaction or payment that happens is
+
+[00:18:12] um I think it's like a uh it's a
+
+[00:18:15] twoperson multisig between the
+
+[00:18:18] foundation director and Michael Wag
+
+[00:18:22] I don't I don't think I'm spoiling any
+
+[00:18:24] trade secrets that you know with that.
+
+[00:18:26] But meaning it's impossible for the
+
+[00:18:28] foundation director to just randomly rug
+
+[00:18:30] the treasury. And it's it's also it's
+
+[00:18:34] also physically impossible for someone
+
+[00:18:36] like Michael to. Meaning it it takes an
+
+[00:18:39] independent legal entity and also the
+
+[00:18:41] highest ranking person of Star Atlas, I
+
+[00:18:43] think, to both turn the keys for that
+
+[00:18:45] nuclear missile launch of anything
+
+[00:18:48] leaving um the Treasury. just uh like
+
+[00:18:51] it's important for the DO members to
+
+[00:18:54] know how it works somehow, you know. And
+
+[00:18:57] then the other thought, I I brought it
+
+[00:18:59] up a few times here, is like uh does the
+
+[00:19:02] council or the the the DAO blank
+
+[00:19:05] guidelines on on for people who receive
+
+[00:19:08] these payments? Because right now with
+
+[00:19:10] our PIP, it's not that much of an issue.
+
+[00:19:13] But if you look at them for
+
+[00:19:16] rest PIP, that's like u more than
+
+[00:19:19] $10,000. And then you get into all sorts
+
+[00:19:23] of legal issues. I don't know how he
+
+[00:19:26] does his stuff. It's his personal thing.
+
+[00:19:29] But like we for example, we have to pay
+
+[00:19:32] bills. So we transfer this money to a to
+
+[00:19:36] a exchange and then to a bank condo to
+
+[00:19:40] pay the bills with that and stuff. So
+
+[00:19:43] that this triggers certain things like
+
+[00:19:46] taxes if it's more than $10,000 like
+
+[00:19:48] some weird you know other things like uh
+
+[00:19:53] all these money laundering laws and all
+
+[00:19:57] kinds of stuff. So maybe it would be
+
+[00:19:59] advisable like to give uh um PIP writers
+
+[00:20:03] or autos some sort of guideline in the
+
+[00:20:06] future. I don't know like we probably
+
+[00:20:08] not run into an issue by now but I guess
+
+[00:20:12] in the future this will come up a few
+
+[00:20:14] times or something like that. You know
+
+[00:20:16] what I mean? Yeah. No, it's good
+
+[00:20:18] guidance and it's a good idea.
+
+[00:20:21] That's that's largely what the
+
+[00:20:22] foundation is for is, you know, avoiding
+
+[00:20:24] those legal pitfalls, right? Like we're
+
+[00:20:27] not we're not lawyers. And so we don't
+
+[00:20:29] we wouldn't even really be able to know
+
+[00:20:31] like, you know, I I know that different
+
+[00:20:34] countries have different laws and
+
+[00:20:36] thresholds as far as dollar amounts, but
+
+[00:20:38] I wouldn't even know where to begin
+
+[00:20:39] navigating that. But the foundation
+
+[00:20:41] does. Like that's basically what we pay
+
+[00:20:43] them to do.
+
+[00:20:46] Um but uh that's pretty much the
+
+[00:20:48] foundation's entire responsibility is to
+
+[00:20:52] make it so council doesn't have to be
+
+[00:20:53] lawyers for one and two to be an
+
+[00:20:56] independent legal entity um which uh
+
+[00:21:00] essentially acts as a point of
+
+[00:21:02] neutrality and for the DAO for handling
+
+[00:21:04] transactions. But I fully agree in the
+
+[00:21:07] case of Rasp specifically. I think he's
+
+[00:21:11] probably good just because I don't think
+
+[00:21:13] anything that he's getting, it's in the
+
+[00:21:15] PIP itself that none of it's leaving the
+
+[00:21:17] ecosystem. So I don't think it'll ever
+
+[00:21:20] hit any kind of traditional bank
+
+[00:21:22] account. Um, but that being said, it's
+
+[00:21:25] it's 100% I think there's going to be
+
+[00:21:27] regulations in all kinds of different
+
+[00:21:28] areas. It's going to evolve in crypto. I
+
+[00:21:31] mean, it's not going to just be banking
+
+[00:21:32] anymore. it'll start being onchain
+
+[00:21:34] things, especially if there's any way
+
+[00:21:36] that anyone can identify, you know,
+
+[00:21:39] onchain ownership or addresses or who
+
+[00:21:41] owns what. Um, no, super good questions.
+
+[00:21:45] Uh, we can bounce that to foundation and
+
+[00:21:48] try to get some kind of guidance on it,
+
+[00:21:50] but um, yeah, definitely definitely out
+
+[00:21:52] of my depth legally. Rising's pip is
+
+[00:21:56] also a good example for this. I I'm
+
+[00:21:58] super curious how he handles that or he
+
+[00:22:01] maybe creates some kind of company or
+
+[00:22:04] some freelancer job and then receives
+
+[00:22:07] payment from the Cayman. So it's it's
+
+[00:22:10] super interesting like how people handle
+
+[00:22:12] this is like usually you would say you
+
+[00:22:14] do it like the you know the
+
+[00:22:17] decentralized way and whatever but it's
+
+[00:22:19] kind
+
+[00:22:20] of some they probably more legit you
+
+[00:22:24] know and so it's kind of curious how to
+
+[00:22:27] make it legit and like uh you know
+
+[00:22:29] everything like bulletproof uh in terms
+
+[00:22:33] of stuff. Yeah. Yeah. I can tell you at
+
+[00:22:37] least for my experience um with the
+
+[00:22:40] council in DA so far and like I don't
+
+[00:22:44] again I don't think I'm saying anything
+
+[00:22:46] like trade secret here but like um when
+
+[00:22:48] we talk about like legitimacy and legal
+
+[00:22:51] foundations and all this other stuff and
+
+[00:22:53] you know how we're structured um like
+
+[00:22:56] the DAO on our side you know the players
+
+[00:22:59] the council etc. Um, it's kind of like
+
+[00:23:03] this, uh, it was really just created by
+
+[00:23:06] Xenor, you know, it was just people were
+
+[00:23:09] bored and they wanted to just start the
+
+[00:23:11] DAO up and give it some kind of
+
+[00:23:12] functionality. So, Xenor like updated
+
+[00:23:15] some stuff on the website to make it
+
+[00:23:16] possible for us to run and operate. Um,
+
+[00:23:19] Dan Park like rolled up a couple of pips
+
+[00:23:22] for us to have like a structure to work
+
+[00:23:23] with. But like um I can tell you at
+
+[00:23:26] least on our side of the equation uh uh
+
+[00:23:30] you guys participating in governance, us
+
+[00:23:32] participating in governance as council
+
+[00:23:34] and individual voters. Um it's pretty
+
+[00:23:38] much um it's about as legitimate as a
+
+[00:23:41] bunch of kids playing in a
+
+[00:23:43] treehouse. Like we've um it's uh the
+
+[00:23:47] only thing that gives it the legitimacy
+
+[00:23:48] is like the foundation itself. um that's
+
+[00:23:51] a real organization like in the Cayman's
+
+[00:23:54] with like a neutral legal director and
+
+[00:23:55] all this other stuff. Um the fact that
+
+[00:23:58] like um their authority then ties back
+
+[00:24:00] to high level team leadership so like
+
+[00:24:03] they can't do anything nefarious
+
+[00:24:05] individually. But um it's all it's all
+
+[00:24:09] kind of in this state of like forming
+
+[00:24:10] and coalesing and you know like uh I
+
+[00:24:14] think Mike Wagner and other people would
+
+[00:24:16] be the first to tell you as well that
+
+[00:24:17] like uh the Dow is nowhere even close to
+
+[00:24:21] like a finished project in its current
+
+[00:24:23] state. We're like we're like in um we're
+
+[00:24:26] like in what was it like the Empire
+
+[00:24:27] Strikes Back or whatever when the Death
+
+[00:24:29] Star is like half built. Do you see it
+
+[00:24:31] in the background? It's going to be be
+
+[00:24:34] interesting at that point if the DAO
+
+[00:24:36] really gets bigger and got more money.
+
+[00:24:38] When the DAO starts to hire someone, you
+
+[00:24:41] know, hire people, I guess then it's uh
+
+[00:24:43] going to be like more even more
+
+[00:24:46] important all these stuff. Oh, 100%. and
+
+[00:24:49] building out that infrastructure is
+
+[00:24:50] going to be critical and huge,
+
+[00:24:52] especially if this whole thing is meant
+
+[00:24:54] to be able to like take over SA one day
+
+[00:24:57] and you know and like be able to handle
+
+[00:24:59] that kind of stuff and you know right
+
+[00:25:01] now like um we approve like uh a picnic
+
+[00:25:06] happening somewhere like we still have
+
+[00:25:09] so many different hurdles and
+
+[00:25:10] inefficiencies and things that we have
+
+[00:25:12] to work through, right? You know, just
+
+[00:25:14] to be able to get people paid and taken
+
+[00:25:15] care of. Um, it's very much so building
+
+[00:25:19] the spaceship while we're flying it in
+
+[00:25:21] the form of the DAO at this current
+
+[00:25:23] stage. I mean, it's cool. I mean, the
+
+[00:25:26] first the first council kind of built
+
+[00:25:27] the foundation and gave us like the
+
+[00:25:30] framework to be able to work with along
+
+[00:25:32] with Dan Park and the team. Um, now
+
+[00:25:34] we're actually getting things done.
+
+[00:25:36] People are getting paid. They're
+
+[00:25:37] starting to do stuff. That's super cool.
+
+[00:25:38] But we are still so much in our infancy,
+
+[00:25:41] it's crazy in terms of how we're
+
+[00:25:43] formally set up and operating.
+
+[00:25:47] Yeah. And honestly, it's it's not that
+
+[00:25:50] it's not it's actually kind of a good
+
+[00:25:53] thing that things are slower right now
+
+[00:25:54] as far as pips
+
+[00:25:56] because there's so we're like there's
+
+[00:25:59] you know there we didn't really have any
+
+[00:26:01] pips pass in the first uh council. You
+
+[00:26:04] know, it was all like super foundational
+
+[00:26:06] stuff like like the most basic things.
+
+[00:26:10] Um so we had a we had a lot to do. It
+
+[00:26:13] was like a a lot of quantity of things
+
+[00:26:15] to do relative to right now. Like right
+
+[00:26:18] now there's not a lot to do, but the
+
+[00:26:21] stuff that we are doing now is like so
+
+[00:26:23] much more consequential as far as like
+
+[00:26:26] things could go wrong, you know? Like
+
+[00:26:28] we're starting to send out we're
+
+[00:26:29] starting to send money out. So it's like
+
+[00:26:31] it's got to be dialed in. We got to we
+
+[00:26:33] have to like keep track of how much
+
+[00:26:36] money is in the Dow, like stuff like
+
+[00:26:37] that, you know? It's like that we have
+
+[00:26:41] to learn how to do, you know, stuff that
+
+[00:26:44] we haven't really had to worry about yet
+
+[00:26:45] is now just becoming a thing that we
+
+[00:26:47] have to think about. So, it's kind of a
+
+[00:26:49] good thing in a way that there's not a
+
+[00:26:51] ton to process so that we can really
+
+[00:26:54] dial in like the, you know, h kind of
+
+[00:26:57] how we navigate through these these new
+
+[00:26:59] developments so that when it does get
+
+[00:27:01] more busy, we're we have good systems in
+
+[00:27:04] place, you know.
+
+[00:27:07] Yeah. Each pip right now is kind of like
+
+[00:27:09] a new lesson. It's like um it's like if
+
+[00:27:12] you bought one of those new like 20
+
+[00:27:14] $30,000 Tesla robots like okay cool you
+
+[00:27:17] have this thing but like every new task
+
+[00:27:20] that you kind of want to teach it you
+
+[00:27:22] really have to teach it. So like every
+
+[00:27:24] new PIP right now that kind of gets
+
+[00:27:25] issued makes it through the voting
+
+[00:27:28] threshold and becomes like a successful
+
+[00:27:30] yes vote enacted PIP. It passes through
+
+[00:27:34] everything. Um, creates an entirely new
+
+[00:27:37] set of lessons based off of what it's
+
+[00:27:39] asking for. Um, what it's trying to
+
+[00:27:41] accomplish, how payments have to be
+
+[00:27:43] structured, what new things the Dow is
+
+[00:27:46] going to have to be capable of
+
+[00:27:48] supporting or doing or enacting just to
+
+[00:27:51] make that PIP viable and functional. Um,
+
+[00:27:54] so it's like it's very interesting right
+
+[00:27:56] now where like every single thing that's
+
+[00:27:58] going across the finish line is like
+
+[00:28:01] it's a new lesson that creates all new
+
+[00:28:03] questions about, you know, what's the
+
+[00:28:05] legality of this? How do we handle that?
+
+[00:28:07] You know, how is this going to be
+
+[00:28:08] approached? Okay, this one has like a
+
+[00:28:11] multi-tered payment structure. How do we
+
+[00:28:13] even begin to navigate that? Like how
+
+[00:28:15] should it be written? You know, how
+
+[00:28:16] should it be enacted? Um, so yeah, Bod's
+
+[00:28:19] right that like uh if all of a sudden it
+
+[00:28:22] was like a shotgun blast and we had just
+
+[00:28:24] had like um a hundred pips out of
+
+[00:28:27] nowhere flying across the finish line
+
+[00:28:29] like um yeah, we just wouldn't have the
+
+[00:28:32] scaler capacity, you know, to handle it
+
+[00:28:35] anyway. But like more so we wouldn't
+
+[00:28:38] have the experience as a DAO ecosystem
+
+[00:28:41] in terms of we'd be making mistakes left
+
+[00:28:44] and right, you know, all over the place
+
+[00:28:45] because these are all new things. These
+
+[00:28:48] are all new things that like the Dow
+
+[00:28:50] hasn't processed before, hasn't
+
+[00:28:51] encountered before. So, it's kind of
+
+[00:28:53] cool like if you think of it like um
+
+[00:28:56] like a diet, you know, and like each uh
+
+[00:28:59] each new pip is like, "Okay, here's a
+
+[00:29:01] carrot, here's a hot dog, here's a
+
+[00:29:03] hamburger, you know, like each one of
+
+[00:29:05] these is like the first time the DAO has
+
+[00:29:07] eaten that kind of food, for lack of a
+
+[00:29:10] better term. It's um it's all very new
+
+[00:29:13] and we're learning from each one of
+
+[00:29:14] them. that we're learning, the
+
+[00:29:17] foundation is learning, automata is
+
+[00:29:19] learning every single time a new PIP
+
+[00:29:22] gets approved right now because none of
+
+[00:29:23] them are quite exactly alike and they
+
+[00:29:26] all have these different requirements.
+
+[00:29:32] Yeah, we went through a lot of the
+
+[00:29:33] hypotheticals in the first council of
+
+[00:29:35] like the different PIP structures and
+
+[00:29:38] how to accommodate them as far as like a
+
+[00:29:41] um you know processing the PIP and like
+
+[00:29:45] you know getting it to a
+
+[00:29:48] vote, but now we're actually getting
+
+[00:29:51] them voted on and like having them pass
+
+[00:29:53] and you know
+
+[00:29:55] like I I don't know. It's just it's it's
+
+[00:29:59] uh yeah, I definitely feel like it's
+
+[00:30:01] it's honestly a pretty good thing that
+
+[00:30:03] it's kind of being a little slow right
+
+[00:30:04] now because I I think I've said in the
+
+[00:30:07] la I think I've said like three times in
+
+[00:30:08] the last couple weeks like well there's
+
+[00:30:11] another lesson, you know, like I've it's
+
+[00:30:13] it's been a pretty common occurrence
+
+[00:30:15] actually.
+
+[00:30:20] It feels like daily it comes up as like
+
+[00:30:23] a new thing that we've learned and we
+
+[00:30:24] lock into a process. It's okay. Well,
+
+[00:30:28] now we're going to need to accomplish
+
+[00:30:30] this instead of that. What makes this
+
+[00:30:32] one different? You know, what new
+
+[00:30:34] process do we need? What new standard do
+
+[00:30:36] we need? How do we need to opt update
+
+[00:30:39] the knowledge base or the code base or
+
+[00:30:41] the standards being given to people?
+
+[00:30:43] while at the same time making sure that,
+
+[00:30:45] you know, we're getting people good
+
+[00:30:46] results at a reasonable pace, making
+
+[00:30:49] sure people are being paid well, things
+
+[00:30:51] are progressing forward, and we're still
+
+[00:30:53] driving activity, you know, and getting
+
+[00:30:55] people participating.
+
+[00:30:58] I also thought about all this like
+
+[00:31:00] there's a difference between net and um
+
+[00:31:03] I don't know the English word uh before
+
+[00:31:05] tax and after tax. So if you're creating
+
+[00:31:07] a PIP, you know, and then uh you don't
+
+[00:31:11] know what you're doing and then you put
+
+[00:31:13] a lot of work in and then you get the
+
+[00:31:15] money and then you realize you have to
+
+[00:31:17] pay taxes on that and then you know you
+
+[00:31:19] should have known before you create the
+
+[00:31:21] PIP and everything you know. So all this
+
+[00:31:23] kind of stuff probably going to
+
+[00:31:25] interesting to see like how people going
+
+[00:31:27] to handle it, you know.
+
+[00:31:29] Yeah, delivery of these things is going
+
+[00:31:30] to be really interesting too. And yeah,
+
+[00:31:33] like um like for instance like uh you
+
+[00:31:37] brought up like Raspberry P like that
+
+[00:31:39] content
+
+[00:31:41] creation. It's more than $10,000. It
+
+[00:31:43] also has like this multi-tiered payment
+
+[00:31:45] structure thing where
+
+[00:31:48] essentially he's going to seek funding
+
+[00:31:50] extensions via future proposals.
+
+[00:31:53] um is like how it works out like 60 days
+
+[00:31:57] after if it passes um 60 days after that
+
+[00:32:01] he would then come to the community with
+
+[00:32:03] a new proposal for funding extension
+
+[00:32:06] showing everything he's created so far
+
+[00:32:08] what's happening get ideas and feedback
+
+[00:32:11] from the community um support criticism
+
+[00:32:15] whatever have you and um he would need
+
+[00:32:18] the community to vote for like a new
+
+[00:32:20] extension so he can keep moving forward
+
+[00:32:23] doing what he's doing. But um there's a
+
+[00:32:26] lot of interesting things that pop up
+
+[00:32:28] when you have proposals or ideas that
+
+[00:32:31] have um costs beyond just 5% of the
+
+[00:32:36] ecosystem fund or 10 million Atlas or
+
+[00:32:39] they're more complex than that. They
+
+[00:32:41] create these um really interesting
+
+[00:32:44] conversations about how that all has to
+
+[00:32:46] be structured, made to
+
+[00:32:48] work. In the case of his, the conclusion
+
+[00:32:51] was all of this future stuff has to be
+
+[00:32:54] its own
+
+[00:32:55] proposal. So if he's seeking additional
+
+[00:32:57] funding um to continue making this
+
+[00:33:01] documentary or all these other things in
+
+[00:33:03] 60 days, he'll have to present a whole
+
+[00:33:05] new thing to the community essentially
+
+[00:33:07] showing here's everything I've done so
+
+[00:33:09] far. Here's all the progress. Um here's
+
+[00:33:12] how funds have been spent. You know,
+
+[00:33:14] here's what we're seeking, you know, for
+
+[00:33:16] the next stage of it.
+
+[00:33:18] Is there a limit like for example like
+
+[00:33:21] the 5% of the ecosystem or like if
+
+[00:33:24] there's long-term u pips like um is
+
+[00:33:28] there like let's say you get funding
+
+[00:33:30] like uh 1 million Atlas a month or
+
+[00:33:33] something is there a limit for how long
+
+[00:33:36] this can go or yes it's currently one
+
+[00:33:39] year it's impossible for any recurring
+
+[00:33:43] payment style proposal to operate for
+
+[00:33:47] beyond on the year without some kind of
+
+[00:33:50] additional new
+
+[00:33:52] vote. So um even like Dow like we
+
+[00:33:56] encountered this like uh if we created
+
+[00:33:59] like Dowcasters as a role and we had
+
+[00:34:01] paid content creators and this whole
+
+[00:34:03] program set up. Um, one of the problems
+
+[00:34:06] that came up with it was, uh, okay,
+
+[00:34:09] cool. Well, we create this role and
+
+[00:34:11] we've got these content creators and,
+
+[00:34:13] um, they get paid, you know, to do these
+
+[00:34:16] different things to help grow the
+
+[00:34:17] ecosystem and do promotion. Like, that's
+
+[00:34:20] all well and good and cool, but there's
+
+[00:34:22] nothing in here that actually, if this
+
+[00:34:25] PIP got enacted, there's nothing that
+
+[00:34:26] actually ends it. So, it's in violation
+
+[00:34:30] of that one year, right? You know, um,
+
+[00:34:33] structure. So then you have to like bake
+
+[00:34:35] all these I don't want to say convoluted
+
+[00:34:38] but more complex things into the pip to
+
+[00:34:42] make it compliant with that. So in the
+
+[00:34:44] case of Dowcasters
+
+[00:34:46] um it can't just keep running on its own
+
+[00:34:49] it will like every six months um a new
+
+[00:34:54] proposal will have to go up for funding
+
+[00:34:56] to continue the program. So if people if
+
+[00:34:59] the community ever decides not to extend
+
+[00:35:00] it, it'll just stop
+
+[00:35:03] because we can't create anything that
+
+[00:35:04] goes forever.
+
+[00:35:06] But it's not possible like um you create
+
+[00:35:09] a pip for six months and it got voted on
+
+[00:35:12] and then after 3 months I come in and
+
+[00:35:14] create a pip to stop that pip. That's
+
+[00:35:16] not possible, right?
+
+[00:35:19] No, not that. Well, put it this way. I
+
+[00:35:22] haven't seen it and I'd have to we'd
+
+[00:35:23] have to consider even the consequences
+
+[00:35:25] of that. So if you had a
+
+[00:35:29] pit to do something, it's actually a
+
+[00:35:33] pretty wild thing to theory craft about
+
+[00:35:35] like uh you essentially got approval for
+
+[00:35:38] it to be doing work for six months. Uh
+
+[00:35:41] so the community supported you doing it.
+
+[00:35:44] Someone else submits a PIP to stop what
+
+[00:35:47] you're
+
+[00:35:47] doing. I I'm trying to think of a
+
+[00:35:51] scenario where the community would vote
+
+[00:35:53] for your thing to be stopped. Yeah. For
+
+[00:35:55] example, like we see the guy just
+
+[00:35:57] leaves, but he he still has the PIP, so
+
+[00:36:00] he still gets paid every month, right?
+
+[00:36:02] So then people could I think it would
+
+[00:36:04] work. I think you could file a PIP to
+
+[00:36:07] stop shut down.
+
+[00:36:10] I don't think that's good because then
+
+[00:36:11] you could like uh also like somebody
+
+[00:36:15] like who doesn't like you or got enough
+
+[00:36:18] friends and then they could say, "No, we
+
+[00:36:19] don't like the videos you do or
+
+[00:36:21] something. We we want you to stop."
+
+[00:36:24] Does that make sense? And does I don't
+
+[00:36:26] know. It does. The only thing that I'm
+
+[00:36:28] hanging on to in it that makes me think
+
+[00:36:30] it would work is at the end of the day,
+
+[00:36:33] the community decides both. You know,
+
+[00:36:36] like the same way that a PIP gets
+
+[00:36:37] approved, if someone got something
+
+[00:36:40] approved and then another PIP was raised
+
+[00:36:42] up later to shut it down and then the
+
+[00:36:45] community approves to shut it down,
+
+[00:36:47] then, you know, then it seems like to
+
+[00:36:51] some degree that's the Dow working. You
+
+[00:36:53] know, that's that's the will of the
+
+[00:36:54] voters.
+
+[00:36:58] That's interesting. But it's but it's
+
+[00:37:00] interesting because right, you would
+
+[00:37:01] need the community to approve the first
+
+[00:37:03] one first. So, first the community
+
+[00:37:05] agreed that they wanted to do this and
+
+[00:37:08] then in the second case, you would need
+
+[00:37:11] the community to also fully support
+
+[00:37:13] shutting down the thing that they just
+
+[00:37:14] approve. It's not it's not a community,
+
+[00:37:16] it's a police power, you know, and what
+
+[00:37:19] says like later on like I don't know if
+
+[00:37:21] we get regional dollars at some point
+
+[00:37:23] and all this, you know, but um it's it's
+
+[00:37:26] interesting like to if you could
+
+[00:37:28] overturn something or if a pip if the
+
+[00:37:31] pip is there for six months, it's solid
+
+[00:37:33] or it can be like take down by another
+
+[00:37:36] pip. Kind of interesting. It is
+
+[00:37:38] interesting. Yeah, I haven't really
+
+[00:37:40] thought about it, but um in at least my
+
+[00:37:43] preliminary thoughts would be if a
+
+[00:37:46] community votes yes and then later
+
+[00:37:49] decides to vote no, um who are we to say
+
+[00:37:53] they're not allowed to vote no, you
+
+[00:37:55] know,
+
+[00:37:57] later? I think I think it's something
+
+[00:37:59] that could be viable.
+
+[00:38:02] Well, and if if an author is, you know,
+
+[00:38:05] putting themselves in a position to
+
+[00:38:08] um you know, if they're going to just if
+
+[00:38:10] they're going to break payments up over
+
+[00:38:13] the course of six months like
+
+[00:38:15] that, you would you would hope that they
+
+[00:38:18] would be doing that for
+
+[00:38:20] the benefit of the ecos, you know, to
+
+[00:38:24] not because they need it, right? Like if
+
+[00:38:26] they're like, "Oh, I'm spending this
+
+[00:38:28] money out of pocket today and go ahead
+
+[00:38:31] and get me back in six months." Like
+
+[00:38:33] that's irresponsible on their part. So,
+
+[00:38:35] if they end up getting something ends up
+
+[00:38:37] happening, you know, that's that's on
+
+[00:38:39] them, you know, like if they're if
+
+[00:38:41] they're doing it to make the pit more
+
+[00:38:43] attractive and they're fine with, you
+
+[00:38:46] know, they have the margin or they're
+
+[00:38:48] holding the Atlas or whatever, like
+
+[00:38:50] they're not worried about, you know,
+
+[00:38:52] getting the money right now to pay back
+
+[00:38:54] like a contractor that they just paid
+
+[00:38:56] yesterday or something like that, then
+
+[00:38:59] that's then that's great. You know what
+
+[00:39:00] I mean? But they shouldn't be doing that
+
+[00:39:03] to to a point where they're putting
+
+[00:39:05] themselves at risk in the first place.
+
+[00:39:06] You know what I
+
+[00:39:09] mean? Cuz that's not, you know, the PIP
+
+[00:39:13] getting voted to to a halt isn't the
+
+[00:39:16] only thing that could go wrong over the
+
+[00:39:17] course of a six-month period. You know,
+
+[00:39:19] I'm more asking like if there are some
+
+[00:39:21] rules like because our foundation thing,
+
+[00:39:24] you know, the the first pips and stuff
+
+[00:39:26] that that is all like um it's the
+
+[00:39:29] constitution. It's not like it's not
+
+[00:39:31] like finished, right? Like we have to
+
+[00:39:33] add more things in the future to that.
+
+[00:39:36] And so it's going to be interesting like
+
+[00:39:38] if something like
+
+[00:39:39] that would would made it instead this
+
+[00:39:42] thing. So things like cuz it's really
+
+[00:39:46] weird like
+
+[00:39:49] I would imagine that anything
+
+[00:39:52] that was prohibitively difficult to stop
+
+[00:39:56] like you're saying like took more than
+
+[00:39:59] 51% for example to stop it. Um, it would
+
+[00:40:03] also I mean it makes sense. It would be
+
+[00:40:06] reasonable in my opinion to also have it
+
+[00:40:08] be required to have more than 51% to get
+
+[00:40:12] it started in the first place. Like if
+
+[00:40:14] you're going to make a PIP that says,
+
+[00:40:15] "Okay, I'm getting paid no matter what
+
+[00:40:17] for the next 6 months."
+
+[00:40:20] Um, and you can't stop it, you know what
+
+[00:40:23] I mean? Then you should probably have a
+
+[00:40:26] like a super majority to begin with to
+
+[00:40:28] even get that thing going. You know what
+
+[00:40:30] I'm saying? Like you shouldn't
+
+[00:40:33] it like that's basically what a
+
+[00:40:35] constitution is. It's difficult to get
+
+[00:40:37] the laws into place and it's difficult
+
+[00:40:39] for to change them after the fact as
+
+[00:40:41] well. Yeah, you you could ask for the
+
+[00:40:43] full payment beforehand, you know, or
+
+[00:40:45] something like that. But uh I I I just
+
+[00:40:48] wanted to ask if it's possible that like
+
+[00:40:50] we could stop something like that like
+
+[00:40:52] if uh signal said one year is the
+
+[00:40:55] maximum. So after 3 months we see uh
+
+[00:40:58] nothing happens or something and could
+
+[00:41:00] we then create a pip to cancel that
+
+[00:41:04] payment? That's the question. I think we
+
+[00:41:08] could.
+
+[00:41:10] Yeah, it's good to know. I I didn't
+
+[00:41:12] know. I never like Yeah. But uh Yeah.
+
+[00:41:16] Yeah. I didn't think about it, but like
+
+[00:41:18] theoretically, I mean, pretty much
+
+[00:41:20] anything that we can pass with like a
+
+[00:41:22] proposal that could happen. Like you
+
+[00:41:24] could file a PIP and it could like it
+
+[00:41:26] could amend other PIPs. Like we talked
+
+[00:41:29] about that when we founded the
+
+[00:41:30] Constitution, right? Like um in the
+
+[00:41:32] founding pips, we're like, well, this
+
+[00:41:35] isn't super clear. We could change this
+
+[00:41:36] or we could change that.
+
+[00:41:38] Everyone said at that time like, "Well,
+
+[00:41:40] okay, if we need to change something,
+
+[00:41:42] we'll just file a PIP for like an
+
+[00:41:43] amendment later, you know." Um, so
+
+[00:41:46] theoretically, if you can do
+
+[00:41:49] that, there should be such a thing as
+
+[00:41:51] like an
+
+[00:41:53] anti-PIP where you could file a proposal
+
+[00:41:55] that essentially is meant to terminate
+
+[00:41:58] another proposal. I don't see any reason
+
+[00:42:00] why you couldn't. just comes down to uh
+
+[00:42:03] what the circumstances are that people
+
+[00:42:05] would approve something and right then
+
+[00:42:07] they would unapprove it. But yeah, could
+
+[00:42:10] could I make could I make a pip to get a
+
+[00:42:12] new uh um council election for example?
+
+[00:42:16] I could not right. Yeah, I I think you
+
+[00:42:19] could.
+
+[00:42:20] It's interesting. There there there are
+
+[00:42:24] limitations. Why you
+
+[00:42:26] couldn't? Well, it would it would be at
+
+[00:42:30] some point if you start brushing up
+
+[00:42:32] against
+
+[00:42:34] um pips that affect the uh what's it
+
+[00:42:38] called? Like the not the process, what
+
+[00:42:42] what's the word for it? It's
+
+[00:42:45] um it's like the way things the way like
+
+[00:42:49] like for example uh the ecosystem fund.
+
+[00:42:52] like that's like a very fundamental pip
+
+[00:42:55] that greatly impacts the overall way
+
+[00:42:59] that the Dow
+
+[00:43:00] is, you know, works, right? So you those
+
+[00:43:05] pips
+
+[00:43:06] generally, you know, they just if if
+
+[00:43:09] it's if it's brushing up against
+
+[00:43:11] something like that, like it that can
+
+[00:43:12] just be vetoed by the team essentially
+
+[00:43:15] right off the bat. So it's not like
+
+[00:43:17] every pip every idea can go through.
+
+[00:43:20] Like if you just wanted to say, "Hey, we
+
+[00:43:23] just want to get rid of counsel tomorrow
+
+[00:43:26] um and that's it, then that's probably
+
+[00:43:29] not going to happen." You know what I
+
+[00:43:30] mean? But I mean, if you have a genuine
+
+[00:43:33] grievance and there's an issue and like,
+
+[00:43:36] you know, it be it it does become kind
+
+[00:43:38] of a gray area in some things. But um as
+
+[00:43:42] far as like funding like ecosystem fund
+
+[00:43:45] stuff or stopping ecosystem fund stuff
+
+[00:43:50] um yeah that's that's all fair game.
+
+[00:43:56] Yeah. I also thought in in terms of if
+
+[00:43:59] he hire people can be fired and you know
+
+[00:44:02] it's also something like if we hire a
+
+[00:44:06] programmer or something or artist or
+
+[00:44:09] whatever you know like that's always the
+
+[00:44:13] contract would be always limited to one
+
+[00:44:14] year right anyway. Yeah. Yeah. I just
+
+[00:44:18] keep coming back to the fact that, you
+
+[00:44:20] know, really theoretically when you
+
+[00:44:22] think about it,
+
+[00:44:23] like the Dow only
+
+[00:44:26] exists because a series of pips were
+
+[00:44:28] introduced and the community voted on
+
+[00:44:30] them and approved them. Like
+
+[00:44:32] theoretically, now we could just say
+
+[00:44:35] that some things are practical and some
+
+[00:44:37] things are not practical, but um
+
+[00:44:40] theoretically the only reason that we
+
+[00:44:41] have a Dow at all is because some
+
+[00:44:43] proposals were submitted and the
+
+[00:44:45] community and the team voted for them,
+
+[00:44:48] you know, to happen. Um and I don't
+
+[00:44:51] know, I I think you could do any of
+
+[00:44:53] that. You could, now granted, you might
+
+[00:44:56] get push back or also you might like um
+
+[00:45:00] the team has like a pretty large
+
+[00:45:02] percentage of like locked polus in PVP,
+
+[00:45:05] you know, like they might have like 30%
+
+[00:45:07] of the vote, you know, or something.
+
+[00:45:09] That's a lot to overcome if they didn't
+
+[00:45:12] want something to pass. But
+
+[00:45:15] um the only reason we have a DAO at all
+
+[00:45:17] is because all of you voted to have a
+
+[00:45:20] DAO and for it to work the way that it
+
+[00:45:22] currently works.
+
+[00:45:24] I think theoretically you could propose
+
+[00:45:26] just about anything. You could you could
+
+[00:45:28] propose to amend the things that you
+
+[00:45:30] know um founded the DAO. You could
+
+[00:45:33] propose new council elections. I mean
+
+[00:45:36] maybe they don't actually pass or maybe
+
+[00:45:38] the team actually votes against it
+
+[00:45:41] because right now I think they stay out
+
+[00:45:43] of things with their locked PVP. They
+
+[00:45:45] could just show up and nuke you know one
+
+[00:45:47] side of the vote, you know, and uh shut
+
+[00:45:50] things down that way. But theoretically,
+
+[00:45:52] the the whole DAO, it only exists
+
+[00:45:54] because we voted for it to exist and we
+
+[00:45:57] voted for it to exist the way that it
+
+[00:45:58] does. Um, I'm intrigued by a lot of
+
+[00:46:02] these things. I think theoretically you
+
+[00:46:04] could vote for there not to be a DAO at
+
+[00:46:06] all. You could you could you could
+
+[00:46:08] introduce a a proposal. I don't think
+
+[00:46:10] anyone would vote for it because why
+
+[00:46:12] what would be the point of all their
+
+[00:46:14] locked bolis you know um if there's no
+
+[00:46:17] doubt
+
+[00:46:19] uh like uh it's always 51% or 50 plus%
+
+[00:46:23] right or is it like 2/3 or something in
+
+[00:46:26] certain situations or this everything is
+
+[00:46:30] uh 50% right every vote
+
+[00:46:34] I'm not sure we actually have one yeah
+
+[00:46:37] it
+
+[00:46:38] is Yeah. So, in theory, like uh if there
+
+[00:46:43] was a vote and 41% of people like or
+
+[00:46:49] let's say 30% of people said yes and 10%
+
+[00:46:54] of people said no and 60% of people
+
+[00:46:58] abstained, the vote wouldn't pass even
+
+[00:47:01] though. Yes. Oh, yeah. Yeah. It's a
+
+[00:47:03] majority majority uh in on the yes or no
+
+[00:47:07] side wins. Yeah. So, it's weird. It's
+
+[00:47:10] like not that you would think in a big
+
+[00:47:12] thing that you'd have that big of an
+
+[00:47:14] abstaining, but technically if 2% said
+
+[00:47:17] yes and 1% said no and uh 3% or 97% said
+
+[00:47:24] abstain, then the 2% would win, right?
+
+[00:47:27] Yeah. If you have a constitution, would
+
+[00:47:29] it make sense like to to write something
+
+[00:47:32] like in the constitution? So you need
+
+[00:47:33] like three fours or 75% like to change
+
+[00:47:38] the constitution or something. Would
+
+[00:47:40] that make sense? Or you could generally
+
+[00:47:43] it could just show a lot of things.
+
+[00:47:46] generally with the constitution you you
+
+[00:47:49] well I was just saying you you
+
+[00:47:52] normally you don't you don't really uh
+
+[00:47:55] it's it's very fundamental stuff like um
+
+[00:47:59] so you you wouldn't put a lot of things
+
+[00:48:02] through the process and you would make
+
+[00:48:03] it prohibitively difficult to avoid a
+
+[00:48:06] lot of things going through that process
+
+[00:48:08] because once they're once they're in the
+
+[00:48:09] constitution they're by design supposed
+
+[00:48:12] to be stuck right like that's the whole
+
+[00:48:14] point of of a constitution. Um so
+
+[00:48:17] generally the way that it's done like
+
+[00:48:20] in you know like government is it
+
+[00:48:24] requires both a supermajority so it
+
+[00:48:27] requires you know let's call it 75% it's
+
+[00:48:31] not exactly that in politics but it's
+
+[00:48:33] it's similar it's akin to that but it
+
+[00:48:36] also requires a minimum amount of votes
+
+[00:48:39] too. So just because you have
+
+[00:48:41] 75% if only half the people show up to
+
+[00:48:45] vote that doesn't matter. You have to
+
+[00:48:48] have both. Um so that's generally the
+
+[00:48:51] way it works. So yeah normally I'm
+
+[00:48:54] asking if you have something like that
+
+[00:48:56] or if it would make sense to to have
+
+[00:48:58] some things in the DA make like more
+
+[00:49:01] bulletproof like or something like that.
+
+[00:49:03] I don't know if that makes sense.
+
+[00:49:06] Well, my my idea was just, you know, I
+
+[00:49:09] I've been wanting to do this for a
+
+[00:49:11] while. I I wanted to, you know, instead
+
+[00:49:14] of
+
+[00:49:14] making a whole
+
+[00:49:17] um you know, a bunch of
+
+[00:49:21] uh a whole
+
+[00:49:23] like bunch of, you know, policies that
+
+[00:49:27] went into this, right? I just wanted to
+
+[00:49:29] make a single policy that
+
+[00:49:33] said this is the this is the
+
+[00:49:36] constitution and um anything that goes
+
+[00:49:39] into this
+
+[00:49:40] constitution requires a supermajority
+
+[00:49:44] and a minimum amount of you know I
+
+[00:49:46] forget the name you know a minimum
+
+[00:49:48] amount percentage of the votes to to get
+
+[00:49:51] in to this uh
+
+[00:49:54] constitution and it similarly like
+
+[00:49:57] whatever is in there. If you want to
+
+[00:49:59] bypass it or take it away or change it
+
+[00:50:02] like we're talking about, it would
+
+[00:50:03] require the same level of of voting. Um,
+
+[00:50:07] and that would be and that the
+
+[00:50:09] Constitution would be the first example
+
+[00:50:12] of requiring that level, but that would
+
+[00:50:14] be it. That would be that those
+
+[00:50:18] specifications. Um, and that that
+
+[00:50:21] ability to put items into that list
+
+[00:50:25] would be the only thing that I would put
+
+[00:50:27] in the list initially rather than
+
+[00:50:29] saying, "Okay, this is constitutional
+
+[00:50:31] member number 1 2 3 4 and five right off
+
+[00:50:33] the bat." Just say, "Hey, this is this
+
+[00:50:37] is an area that's this is a a part of
+
+[00:50:40] the Dow that's hard to get into and it's
+
+[00:50:41] hard to get out of." And that's it. Like
+
+[00:50:44] that's the first vote. Um, I think that
+
+[00:50:46] could be beneficial. Um because then if
+
+[00:50:49] somebody did have an idea that was you
+
+[00:50:52] know very foundational they could vote
+
+[00:50:55] for that particular idea separately um
+
+[00:50:59] to go through you
+
+[00:51:01] know like for example
+
+[00:51:04] um uh the ecosystem fund for example you
+
+[00:51:09] know could could get passed into that
+
+[00:51:11] vote. we can say, okay,
+
+[00:51:13] um uh that's that's not really the best
+
+[00:51:15] example because it's already kind
+
+[00:51:18] of locked in to to an extent, but
+
+[00:51:21] something like
+
+[00:51:24] um something like if somebody had
+
+[00:51:28] uh trying to think of an example. It's
+
+[00:51:31] hard to even come up with an example,
+
+[00:51:33] but that's how it should be. It's a good
+
+[00:51:35] example. Like could I create a PIP and
+
+[00:51:37] say stop the ecosystem fund and like
+
+[00:51:41] save all the money or something?
+
+[00:51:44] Well, right now, no. I think you could.
+
+[00:51:46] I just don't think anybody would want to
+
+[00:51:47] vote for it. Like I And granted, maybe
+
+[00:51:50] that's philosophy because we haven't we
+
+[00:51:52] haven't defined these things or said
+
+[00:51:54] that you can't do them officially in our
+
+[00:51:56] founding pips. So, they're they're
+
+[00:51:59] definitely I don't know if it's
+
+[00:52:03] in the pips themselves, like we put into
+
+[00:52:07] our pips that you're not allowed to
+
+[00:52:08] create a proposal that changes these
+
+[00:52:11] proposals or how the Dow works. In fact,
+
+[00:52:14] weed the Dow with proposals,
+
+[00:52:16] right? But what I'm saying is
+
+[00:52:18] um you know, we're not fully
+
+[00:52:21] decentralized, right? there there's a
+
+[00:52:23] level of centralization
+
+[00:52:25] um in VA control and there there are
+
+[00:52:28] things
+
+[00:52:30] um that are you know just off the table
+
+[00:52:34] completely like it it wouldn't matter if
+
+[00:52:36] you had everybody in the community in
+
+[00:52:38] support of it like it's just not going
+
+[00:52:40] to happen like like for example gameplay
+
+[00:52:42] you can't put a pip that says release
+
+[00:52:45] whatever we have for combat right now
+
+[00:52:48] and however good it is we want it today
+
+[00:52:51] you know like you
+
+[00:52:52] We don't have the we don't have the
+
+[00:52:54] authority as the Dow to do it at all
+
+[00:52:56] anyway. Like even if we went to our
+
+[00:52:58] founding pips, the founding pips make it
+
+[00:52:59] clear that we don't have any authority
+
+[00:53:01] to do that. Yeah, there's a couple of
+
+[00:53:04] them. And the pro I forget the name, but
+
+[00:53:06] I think it's like the processes or
+
+[00:53:08] something like that. Like very
+
+[00:53:10] fundamental ways that the like the the
+
+[00:53:12] Dow works. Like for example, you
+
+[00:53:13] couldn't say uh we only need 30%
+
+[00:53:18] um of the vote to pass a PIP or or we
+
+[00:53:20] need 75% for every single PIP to pass.
+
+[00:53:24] Um you know, you can't change the
+
+[00:53:26] fundamental way that the Dow works
+
+[00:53:29] um with a PIP, you know. So even doing
+
+[00:53:32] something like a constitution is
+
+[00:53:33] borderline because you're introducing a
+
+[00:53:36] totally new mechanic
+
+[00:53:39] um that changes the way that the Dow
+
+[00:53:41] works. generally speaking, those things
+
+[00:53:43] are off the table, but there are certain
+
+[00:53:45] things that, you know, are an
+
+[00:53:48] improvement just objectively. Um, so
+
+[00:53:52] there there is some gray area, but for
+
+[00:53:54] the most part, you can't you you know,
+
+[00:53:57] you can't change
+
+[00:53:59] like the way that it the way that it
+
+[00:54:01] works under the underlying way that the
+
+[00:54:03] Dow works. You can within the confines
+
+[00:54:06] of how the Dow works, you can you can do
+
+[00:54:09] whatever you want basically.
+
+[00:54:12] It would be cool though. Now, now off of
+
+[00:54:14] talking with VB, I've got all kinds of
+
+[00:54:16] crazy ideas. I want to see some really
+
+[00:54:18] wild proposals.
+
+[00:54:20] It's interesting like just I know the
+
+[00:54:23] team has the majority still and they
+
+[00:54:25] always can wait and stuff like that, but
+
+[00:54:27] for the future it's like kind of
+
+[00:54:29] interesting like uh to uh yeah, maybe
+
+[00:54:32] some things uh some aspects of the DA
+
+[00:54:36] should be locked behind a higher
+
+[00:54:38] threshold or something. Maybe that's in
+
+[00:54:40] the future. It's interesting for sure.
+
+[00:54:43] Yeah, I think about it sometimes where
+
+[00:54:45] like um you could do something like
+
+[00:54:48] that. You could try to create voting
+
+[00:54:50] measures and like supermajorities and
+
+[00:54:52] all this other stuff, but like I think
+
+[00:54:54] the end result of it would be that um
+
+[00:54:58] everybody would lose more often, you
+
+[00:55:00] know, is just um you've got a
+
+[00:55:02] contentious pip. One group of people
+
+[00:55:04] really really wants to see something
+
+[00:55:06] happen. another group really really
+
+[00:55:08] doesn't want to see it happen. They're
+
+[00:55:09] battling back and forth. They're
+
+[00:55:11] campaigning against each other. They
+
+[00:55:13] vote and then one group wins at like uh
+
+[00:55:17] 50% to like 45% or something like that
+
+[00:55:20] and 5% abstain, but it didn't hit like a
+
+[00:55:24] 65% super majority. Both sides, you
+
+[00:55:28] know, like essentially like nobody
+
+[00:55:29] nobody really got it just invalidated
+
+[00:55:32] the whole outcome. Okay, maybe you know
+
+[00:55:34] of the battle or like imagine if we did
+
+[00:55:37] that with like president in the United
+
+[00:55:38] States like um someone at 51% someone at
+
+[00:55:42] 49% so there's no president. Yeah, it's
+
+[00:55:46] just what what Falco said like does our
+
+[00:55:48] DAO like the the startless Dow then
+
+[00:55:50] trickle down to the other Dows like if
+
+[00:55:53] we get regional Dows and faction Dows or
+
+[00:55:55] whatever does that trickle down the the
+
+[00:55:58] rules I I say because in the like we
+
+[00:56:01] going to if we get the Dow that we're
+
+[00:56:04] currently participating in is the
+
+[00:56:06] highest DO you know that affects like
+
+[00:56:09] the whole ecosystem but um no I believe
+
+[00:56:12] I believe in-game Dows and things like
+
+[00:56:14] that later will be able to uh they'll
+
+[00:56:17] essentially be created with their own
+
+[00:56:19] rules and their own things and it it
+
+[00:56:21] wouldn't be common or make any sense for
+
+[00:56:24] at least not often for anything to
+
+[00:56:27] really come up at this level that
+
+[00:56:30] impacts you might like set rules for how
+
+[00:56:32] those Dows operate at this level like
+
+[00:56:35] general frameworks but um no I don't
+
+[00:56:38] think I don't think it's um I don't
+
+[00:56:40] think it's just that the framework of
+
+[00:56:42] this is going to carry to in-game Dws I
+
+[00:56:44] think they'll have their own rules and
+
+[00:56:45] setups. Um, largely created by
+
+[00:56:50] if you get enough bullets, then you
+
+[00:56:53] could like change the in-game Dows with
+
+[00:56:57] this D, right? With the D we have now.
+
+[00:57:00] Yeah. Right. I think the end goal is
+
+[00:57:03] eventually you could change anything
+
+[00:57:05] everything control everything with this
+
+[00:57:08] DAO that we have now. It's not there
+
+[00:57:10] today. But meaning yeah, I would I would
+
+[00:57:13] imagine and like the future that I
+
+[00:57:15] imagine is um there's nothing in this
+
+[00:57:17] game that can't be decided, changed, or
+
+[00:57:20] altered later by polus and voting. So,
+
+[00:57:25] uh last I checked it's like five cents
+
+[00:57:28] before I looked out the window. You
+
+[00:57:29] know, scoop some up,
+
+[00:57:32] guys. Don't complain. Don't complain
+
+[00:57:35] later when it's a dollar and you know
+
+[00:57:36] you don't have much voting power you
+
+[00:57:38] know about how the Dow decided to change
+
+[00:57:41] something.
+
+[00:57:42] Imagine like the the pips we see now and
+
+[00:57:45] then imagine Atlas at 10 cents and then
+
+[00:57:47] you think like oh be paying 25 million
+
+[00:57:50] or something. It'd be like Bitcoin for
+
+[00:57:52] pizza. People would look back at it like
+
+[00:57:55] um like people did like Iris Bounty the
+
+[00:57:58] Feast and they'd be like oh my god. I
+
+[00:58:00] mean it's kind of sad to see you know
+
+[00:58:02] like I thought like oh my god 20 million
+
+[00:58:05] atlas that's like the German meetup cost
+
+[00:58:08] $10 million
+
+[00:58:10] something like that and I'm like oh [ __ ]
+
+[00:58:12] maybe it's available to spend it now you
+
+[00:58:14] know that's why I said like it's like
+
+[00:58:16] yeah
+
+[00:58:18] yeah I mean there's different schools of
+
+[00:58:19] thought in that like it that came up
+
+[00:58:21] with like pipex back in the day like
+
+[00:58:23] everyone said like don't spend Atlas
+
+[00:58:25] because it's low right now so it doesn't
+
+[00:58:27] make any sense but like also So like
+
+[00:58:29] here we are two years later and it's
+
+[00:58:31] even lower. So um my personal school of
+
+[00:58:35] thought on it is I think if we just sit
+
+[00:58:38] on tokens and don't do anything with
+
+[00:58:40] them and don't try to grow things uh
+
+[00:58:43] expand the ecosystem, get in front of
+
+[00:58:45] people, make an impact, do stuff, um I
+
+[00:58:48] think if we just sit here and wait for
+
+[00:58:49] the tokens to save us by themselves, um
+
+[00:58:53] I don't think that's a good strategy
+
+[00:58:55] because the tokens could just keep going
+
+[00:58:56] lower. They could, you know, and then
+
+[00:58:59] later the treasury is worth like
+
+[00:59:00] $100,000,
+
+[00:59:03] right? Then later the treasury is worth
+
+[00:59:04] like $100,000 and now you really can't
+
+[00:59:07] do anything with it and you wish that
+
+[00:59:09] you did something when it was worth two
+
+[00:59:10] million.
+
+[00:59:13] No, it's it was just a funny funny, you
+
+[00:59:16] know, it's not like Oh, no. 100%.
+
+[00:59:19] Yeah. I I'm big on like um right now at
+
+[00:59:23] like I think I pulled up like the uh the
+
+[00:59:26] revenue and financials for like the Dow
+
+[00:59:28] trailing four months. So Dow took in
+
+[00:59:31] like roughly $60,000 in the past four
+
+[00:59:33] weeks. We are so far away from even
+
+[00:59:36] coming close to just spending the money
+
+[00:59:38] that we're taking in every month. like
+
+[00:59:40] we're not even close to scratching the
+
+[00:59:42] surface of we're not spending anywhere
+
+[00:59:44] near enough money just to spend what
+
+[00:59:46] we're earning, you know, let alone let
+
+[00:59:49] alone touching our treasury balance. The
+
+[00:59:50] treasury is growing while we're
+
+[00:59:52] approving things. Um I think I think the
+
+[00:59:56] biggest risk to the Dow and to Star
+
+[00:59:58] Atlas in terms of what poll holders are
+
+[01:00:01] doing and what voters are doing
+
+[01:00:02] personally is um I think the biggest
+
+[01:00:05] risk is that we don't do enough things.
+
+[01:00:07] you know, not that we do too much right
+
+[01:00:09] now because I'm just I'm just not seeing
+
+[01:00:11] enough proposals, enough measures,
+
+[01:00:13] enough people with big ideas where it's
+
+[01:00:15] like, wow, we really got to watch our
+
+[01:00:18] spending. I think it's it's more the
+
+[01:00:20] other way, like, man, we need to kick
+
+[01:00:22] some people in the butt, you know, and
+
+[01:00:24] get some ideas out there, you know, how
+
+[01:00:27] we're going to do things.
+
+[01:00:42] With that guys, we're coming up on uh
+
+[01:00:44] just after 4 o'clock. We didn't have our
+
+[01:00:46] usual slideshows, so we kind of just
+
+[01:00:48] bounced right into office hours. Um does
+
+[01:00:51] anybody have anything else to uh bring
+
+[01:00:54] up, rap about, you know, talk about, you
+
+[01:00:56] know, while we're here?
+
+[01:01:06] I'm good personally.
+
+[01:01:08] Okay. Well, in that case, thank you
+
+[01:01:10] everyone for showing up. Uh this was our
+
+[01:01:13] weekly governance live stream for May
+
+[01:01:15] 31st, uh Saturday. And uh thank you all
+
+[01:01:19] for being here. Thanks so much and have
+
+[01:01:21] an incredible day.
+
+[01:01:23] See you guys. Thanks.
+
+[01:01:32] Yep. See you.

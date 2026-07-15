@@ -1,0 +1,3061 @@
+---
+
+source_id: SRC-ECON-FORUM-354A7F51B559ED47
+
+title: "Star Atlas Economic Forum January 2025"
+
+collection: economic-forum
+
+source_type: transcript
+
+publication_date: 2025-01
+
+publication_date_basis: filename-month
+
+speaker_attribution: unknown
+
+raw_sha256: 354a7f51b559ed47865fe4c2e879e51c32407a811f58799268688bb411dbf34d
+
+caption_count: 1513
+
+last_timestamp: 01:03:24
+
+normalization: caption-lines joined; wording preserved
+
+---
+
+
+
+# Star Atlas Economic Forum January 2025
+
+
+
+> Speaker identities, original URL, and exact publication date remain unresolved unless stated in metadata.
+
+
+
+[00:00:00] something of value so exactly pretty and
+
+[00:00:04] this is this is super valuable I mean
+
+[00:00:07] what other project in web three has
+
+[00:00:09] something like that what what other game
+
+[00:00:13] has something like this this level of
+
+[00:00:14] death this level of planning of vision
+
+[00:00:18] of you know uh n this is co I I think
+
+[00:00:24] like one of the key distinguishing uh
+
+[00:00:28] variables for St is just like the uh the
+
+[00:00:32] importance and level of respect that we
+
+[00:00:34] have for the community and you know I
+
+[00:00:37] think a lot of other projects might not
+
+[00:00:38] feel that sense of obligation towards
+
+[00:00:42] the community to give them this level of
+
+[00:00:44] transparency and you know who knows
+
+[00:00:46] maybe maybe it isn't the best strategic
+
+[00:00:49] decision but um from where we're sitting
+
+[00:00:52] it just seems like a no-brainer to have
+
+[00:00:54] these types of uh events so uh yeah
+
+[00:00:58] we're going to just keep doing them um
+
+[00:00:59] and then you know in 10 years maybe
+
+[00:01:01] we'll realize that it was either an
+
+[00:01:04] amazing thing to do or you know maybe it
+
+[00:01:06] was uh it was it was silly and that's
+
+[00:01:08] why nobody else but we're for now we're
+
+[00:01:11] proud to Bear the badge as the only
+
+[00:01:13] people who or the only project that that
+
+[00:01:15] does something like this yeah I
+
+[00:01:18] think I think it's great and much
+
+[00:01:21] appreciated by all the community so yeah
+
+[00:01:24] want to say hi to the people in the chat
+
+[00:01:26] I see iser T there barar Roa
+
+[00:01:30] 420 King Brian Neo arther Bob Harriet
+
+[00:01:37] Dominic pay Donovan Groove Beyond the
+
+[00:01:41] Horizon C all legends all
+
+[00:01:44] legends AAR yeah they're all here
+
+[00:01:47] they're all here
+
+[00:01:49] so uh Chris
+
+[00:01:52] Gareth I'll let you guys uh take it away
+
+[00:01:55] I don't want to spoil uh anything just
+
+[00:01:58] one clarification as you guys know we
+
+[00:02:00] were on break so that's why um this uh
+
+[00:02:04] forum is happening on a different date
+
+[00:02:06] but uh starting next month we will go
+
+[00:02:09] back to the first Thursday of every
+
+[00:02:12] month just so everybody knows yeah yeah
+
+[00:02:16] thanks for that uh clarification yeah it
+
+[00:02:18] was it was a bit crazy getting back into
+
+[00:02:19] things last week as you guys might
+
+[00:02:21] imagine so we figured we would wait uh
+
+[00:02:23] we also have some additional content to
+
+[00:02:25] share with you uh having waited a week
+
+[00:02:28] uh if we had done last week it would
+
+[00:02:29] have just been more of a like data
+
+[00:02:31] update like here's here's what happened
+
+[00:02:33] this this this way we have actually
+
+[00:02:34] quite a bit of content to get through so
+
+[00:02:36] uh super excited for let me share my
+
+[00:02:40] screen the eth uh Monthly Star Atlas
+
+[00:02:43] economic Forum I'm starting to realize
+
+[00:02:45] that this numbering system is probably
+
+[00:02:47] not the best way to go about this but uh
+
+[00:02:50] you know it's exciting in four months
+
+[00:02:51] we'll have uh we'll have reached or in
+
+[00:02:52] three months we'll have reached our our
+
+[00:02:55] anniversary uh so that's a really cool
+
+[00:02:57] um uh yeah the the econom IC Forum of
+
+[00:03:00] course is an opportunity for the
+
+[00:03:02] economics team to uh to lend insights to
+
+[00:03:06] the entire Community uh in a in an equal
+
+[00:03:08] way right it's
+
+[00:03:10] it's difficult to stay up to date if
+
+[00:03:12] your primary news source is the
+
+[00:03:15] economics Channel or the foundation room
+
+[00:03:17] and some of those channels like the
+
+[00:03:19] Foundation Room are actually restricted
+
+[00:03:21] to certain players so we don't like the
+
+[00:03:23] idea that some players get access to
+
+[00:03:24] information and others don't so this is
+
+[00:03:26] an opportunity for us to kind of do most
+
+[00:03:29] of our communication
+
+[00:03:30] um you know I I still answer the
+
+[00:03:32] occasional question but as you've all
+
+[00:03:34] noticed I've been doing a lot less of
+
+[00:03:36] that so uh without further Ado let's
+
+[00:03:39] jump into the forum we're gonna go
+
+[00:03:41] through a community dashboard update
+
+[00:03:43] which is super sick and absolutely
+
+[00:03:46] phenomenal uh thing that Gareth put
+
+[00:03:48] together in this first week um back and
+
+[00:03:51] then we will also do a data dump for
+
+[00:03:53] local markets I'll just kind of go
+
+[00:03:54] through uh some of the relevant metrics
+
+[00:03:56] that I've been paying attention to these
+
+[00:03:57] are all macro metrics um very broad very
+
+[00:04:00] general metrics that I've been looking
+
+[00:04:01] at as we uh you know look at the economy
+
+[00:04:05] after the local markets update we had a
+
+[00:04:07] massive massive update uh since the last
+
+[00:04:11] Forum added every single star base now
+
+[00:04:14] has a Marketplace so this has been just
+
+[00:04:16] a completely it is probably the biggest
+
+[00:04:19] I think I said this last time it's the
+
+[00:04:20] biggest update to the sage game uh and
+
+[00:04:23] potentially to star atas economy since
+
+[00:04:26] um the release of sage so it's a really
+
+[00:04:28] really big uh big important update and
+
+[00:04:31] then I'll go through some additional
+
+[00:04:33] updates that are going to come to the
+
+[00:04:35] sage economy next week um and then we'll
+
+[00:04:37] finish with a Q&A uh at the end I'm sure
+
+[00:04:40] that there are some concerns and
+
+[00:04:42] questions that people would like to have
+
+[00:04:43] voiced uh so let's get into the
+
+[00:04:45] community dashboard
+
+[00:04:48] update excuse me yeah that thanks for
+
+[00:04:51] the uh intro there Chris um yeah before
+
+[00:04:53] we get into uh the local markets data
+
+[00:04:56] and Sage updates I did want to uh touch
+
+[00:04:58] base you guys on the community dashboard
+
+[00:05:01] um so as some of you guys probably know
+
+[00:05:03] or maybe all of you um we did release a
+
+[00:05:06] community dashboard located in the Dow
+
+[00:05:09] website under the mo category um there
+
+[00:05:12] right now you can see it well previous
+
+[00:05:14] to today you could see active users
+
+[00:05:17] production consumption um LP Atlas
+
+[00:05:20] emissions uh and a warping map all fully
+
+[00:05:24] interactable um which was one of the
+
+[00:05:27] main things we wanted to get out uh as a
+
+[00:05:29] test before we went on break uh and if
+
+[00:05:33] you read the last quarterly report you'd
+
+[00:05:34] know that we've sort of started to
+
+[00:05:36] integrate some of those views um with
+
+[00:05:38] insights in the quarterly report um so
+
+[00:05:42] coming back into the swing of things uh
+
+[00:05:44] we did uh start to uh continue work on
+
+[00:05:47] this um patch notes uh since we got back
+
+[00:05:51] include uh fixing the Starbase warping
+
+[00:05:55] uh dashboard axis scaling you'd notice
+
+[00:05:57] the uh axes uh were a bit off off and
+
+[00:06:00] did not show accurate coordinates um at
+
+[00:06:03] least uh uh on a magnitude level they
+
+[00:06:08] were still all positioned correctly
+
+[00:06:09] relative to one another it was just a uh
+
+[00:06:12] a poor scaling there so now those are
+
+[00:06:14] fixed um we also uh fixed missing
+
+[00:06:17] resource production there was some
+
+[00:06:18] downtime while we were away um so that
+
+[00:06:21] was backfilled and
+
+[00:06:22] updated uh the consumption data is fixed
+
+[00:06:27] uh there is just a uh uh a current
+
+[00:06:31] backfill SL update problem that's going
+
+[00:06:33] on that'll be reflected in the active
+
+[00:06:36] users uh dashboard and it'll just it
+
+[00:06:38] just pertains to showing the active
+
+[00:06:40] users uh performing each consumption
+
+[00:06:43] action um that will be that will be uh
+
+[00:06:47] fixed before end of day but that is
+
+[00:06:48] another adjustment uh and finally
+
+[00:06:51] adjusted labeling there was some
+
+[00:06:52] labeling that was a bit unclear that uh
+
+[00:06:55] we went back and uh just clarified for
+
+[00:06:57] people um making a more you know obvious
+
+[00:07:00] if a chart screenshotted what it's
+
+[00:07:02] actually showing um but yeah sifting
+
+[00:07:07] through those data issues um uh we
+
+[00:07:11] should now pretty much have a fully uh
+
+[00:07:14] 100% accurate uh view on all the
+
+[00:07:16] released uh dashboards currently and in
+
+[00:07:19] terms of updates we've added a local
+
+[00:07:21] markets prices and volume dashboard
+
+[00:07:23] you'll see that screenshot on the right
+
+[00:07:26] um what this is is basically a uh
+
+[00:07:29] interact able click to display um map of
+
+[00:07:32] the local markets and the associated
+
+[00:07:35] resource name uh price and Atlas and
+
+[00:07:38] volume in Atlas within the date range um
+
+[00:07:41] specified in the top left so if you're
+
+[00:07:44] an Arbitrage player who likes to take
+
+[00:07:46] advantage of uh changes in prices across
+
+[00:07:48] uh different Freight Lanes or you're
+
+[00:07:51] just interested you know what you can
+
+[00:07:53] get for your resources um at each star
+
+[00:07:55] base you can you can look at this and um
+
+[00:07:58] get an idea
+
+[00:08:00] uh before you maybe uh you know commit
+
+[00:08:02] to a change in production or frating or
+
+[00:08:07] operations in general
+
+[00:08:10] um one thing that's also uh pretty cool
+
+[00:08:13] about this is that um you're kind of
+
+[00:08:16] able specific to faction infrastructure
+
+[00:08:19] contracts you're able to see where
+
+[00:08:22] there's opportunity to actually craft uh
+
+[00:08:26] fix and sell them to someone else at one
+
+[00:08:28] of the Redemption St basis so an
+
+[00:08:31] Arbitrage opportunity that's
+
+[00:08:33] almost uh hacking the faction
+
+[00:08:36] infrastructure contract system where
+
+[00:08:38] instead of just crafting to redeem
+
+[00:08:40] you're actually crafting them uh to sell
+
+[00:08:43] to another player who's interested in
+
+[00:08:46] maybe uh selling them at they at the
+
+[00:08:49] margin offered um from maybe Fring at a
+
+[00:08:53] more using a more efficient ship or um
+
+[00:08:56] you know just having a more uh I guess
+
+[00:08:59] higher wealth uh operation that allow
+
+[00:09:01] them to take advantage of that margin so
+
+[00:09:04] super cool opportunities that can be
+
+[00:09:06] derived uh from this map uh Chris did
+
+[00:09:09] you want to say something
+
+[00:09:10] there
+
+[00:09:12] uh yeah I just wanted to point out the
+
+[00:09:16] the default did you did you want to
+
+[00:09:18] explain the uh the size of the bubbles
+
+[00:09:20] what what is the default view and um the
+
+[00:09:24] kind of different ways that that you can
+
+[00:09:26] interact with it yeah sure so the size
+
+[00:09:29] of the bubbles is just trade count so
+
+[00:09:32] the uh you're basically looking at
+
+[00:09:34] highest activity within the date range
+
+[00:09:37] um so for example if we did if if you
+
+[00:09:39] set the date range to Jan 1st to Jan 15
+
+[00:09:42] uh you and there are you know a larger
+
+[00:09:45] bubbles uh well we see here a massive
+
+[00:09:48] bubble in Oni that just indicates that
+
+[00:09:50] there's more trade occurring uh at that
+
+[00:09:52] local market um in aggregate if no local
+
+[00:09:56] market is selected you're seeing on the
+
+[00:09:58] left chart
+
+[00:09:59] all of the um all of the basically
+
+[00:10:03] average prices of each resource across
+
+[00:10:05] the entire system um one actually cool
+
+[00:10:07] thing that I didn't mention is if you
+
+[00:10:09] click a resource I believe it'll show
+
+[00:10:12] all of the local markets that uh that
+
+[00:10:15] resource is being traded at within the
+
+[00:10:16] date range so another thing you know if
+
+[00:10:19] if you want to see where you're where
+
+[00:10:20] you can sell your Frameworks or your
+
+[00:10:22] fuel or um some you know one resource
+
+[00:10:26] that you specialize in you can easily
+
+[00:10:27] see which Market um has the highest
+
+[00:10:30] liquidity uh by just clicking on the
+
+[00:10:32] left uh without selecting any of the
+
+[00:10:35] local markets so that's another cool
+
+[00:10:37] thing you guys can dive in and check
+
+[00:10:39] that out right now as I mentioned uh the
+
+[00:10:42] consumption uh active users section will
+
+[00:10:45] be updated before end of day uh that's
+
+[00:10:48] just one of those things that's just
+
+[00:10:50] been a thorn in our side trying to get
+
+[00:10:52] that uh fixed but end of day that should
+
+[00:10:55] definitely be pushed and finally the
+
+[00:10:58] road map um we've mentioned this in the
+
+[00:11:01] past but this these dashboards will be
+
+[00:11:03] pumped out at a rate you know much
+
+[00:11:06] faster than uh that of game updates Sage
+
+[00:11:09] updates and uh other star Atlas releases
+
+[00:11:13] um what's coming up soon is Council uh
+
+[00:11:16] infrastructure contract Atlas emissions
+
+[00:11:18] and production fleets and I have a
+
+[00:11:20] question mark here because I want to
+
+[00:11:22] hear what you guys want to see um we
+
+[00:11:26] want these generalized views of all of
+
+[00:11:28] the different action and um uh primary
+
+[00:11:31] game Loops but then we also want to get
+
+[00:11:34] into more micro uh dashboards or lookup
+
+[00:11:37] dashboards or um simulation dashboards
+
+[00:11:41] where a player can maybe enter values
+
+[00:11:43] and see a uh the an output in return so
+
+[00:11:48] if you guys have any preferences um feel
+
+[00:11:52] free to drop them in the chat while
+
+[00:11:53] Chris goes through uh the rest of the
+
+[00:11:56] data follow-ups here um if you see
+
+[00:11:58] something that someone else mentioned uh
+
+[00:12:01] please react to that chat so I can kind
+
+[00:12:04] of see a compounding um interest in a
+
+[00:12:07] suggestion uh but yeah we we are fully
+
+[00:12:11] open to integrating Community preference
+
+[00:12:14] uh in terms of dashboards and I'm really
+
+[00:12:16] personally looking forward to seeing
+
+[00:12:18] what you guys are most interested in
+
+[00:12:19] seeing so with that I'll pass it off to
+
+[00:12:23] Chris for the local markets updates just
+
+[00:12:26] really quick Chris uh I think what guys
+
+[00:12:29] just said is it's pretty big uh the econ
+
+[00:12:32] team can provide the community with the
+
+[00:12:34] data they need if possible of course but
+
+[00:12:38] it's important that you share it in the
+
+[00:12:41] in the chat if you have any suggestions
+
+[00:12:42] for the for the dashboard guys so we'll
+
+[00:12:46] be taking a look yeah yeah the the tool
+
+[00:12:49] we're using is uh is pretty flexible so
+
+[00:12:53] most things can be visualized and uh you
+
+[00:12:56] know if there's a if there's a metric
+
+[00:12:57] that you guys also care about uh feel
+
+[00:12:59] free to throw that as well um I wanted
+
+[00:13:01] to add one thing to the road map we are
+
+[00:13:03] going to change the location of this
+
+[00:13:06] dashboard um we ended up uh putting it
+
+[00:13:09] in a part of the website that would not
+
+[00:13:11] obstruct or you know involve any changes
+
+[00:13:15] to the rest of the website but that kind
+
+[00:13:17] of basic that ended up putting it in the
+
+[00:13:19] back of the website in like the you know
+
+[00:13:22] the broom closet so it's really hard to
+
+[00:13:24] find this uh dashboard and what we want
+
+[00:13:27] to do is basically when you go go to
+
+[00:13:29] govern. Star Atlas it will be one of the
+
+[00:13:31] top tabs at the at the very top of the
+
+[00:13:33] website so I believe you have like um
+
+[00:13:36] your own locking Behavior you have the
+
+[00:13:38] treasury uh for the Dow and then and
+
+[00:13:40] then there's one there's two other tabs
+
+[00:13:42] one of those tabs is more to get to this
+
+[00:13:44] dashboard you have to click on more and
+
+[00:13:46] then you have to go into the like
+
+[00:13:48] economics section of the more it's a
+
+[00:13:50] very weird thing we want to basically
+
+[00:13:52] create a new tab at the very top of the
+
+[00:13:55] Govern website that's just going to be
+
+[00:13:56] called e uh economy
+
+[00:13:59] and involve all
+
+[00:14:03] things the community dashboard it's
+
+[00:14:05] going to also have um it Dow treasury uh
+
+[00:14:10] information that those those statistics
+
+[00:14:12] will be located there as well so it'll
+
+[00:14:14] be kind of an
+
+[00:14:17] all-in-one valuable to be kind of
+
+[00:14:19] sitting in the back of the website so
+
+[00:14:21] that's one thing that will be coming
+
+[00:14:22] hopefully soon in the next month or so
+
+[00:14:25] um we're going to try and figure out the
+
+[00:14:27] best way to structure the the new page
+
+[00:14:31] one final little note I wanted to point
+
+[00:14:33] out because Central space stations are
+
+[00:14:37] considered actually to happen on the
+
+[00:14:39] galactic Marketplace the play. star
+
+[00:14:41] Atlas uh Marketplace the trades that you
+
+[00:14:44] see in this dashboard will not include
+
+[00:14:47] Central space stations these will not
+
+[00:14:49] include csss so you'll notice you don't
+
+[00:14:51] even see a DOT for each of the csses
+
+[00:14:53] because right now there is no
+
+[00:14:55] distinguishable difference between a CSS
+
+[00:14:58] trade and kind of trade that happens on
+
+[00:15:00] play. Atlas um now from a Telemetry
+
+[00:15:03] point of view that is something we're
+
+[00:15:04] trying to work on so we can actually
+
+[00:15:06] separate those out because from a from a
+
+[00:15:08] data science point of view that is an
+
+[00:15:09] important distinction but from a
+
+[00:15:11] blockchain uh point of view that there
+
+[00:15:13] are there is no difference between those
+
+[00:15:15] two actions on chain so just something
+
+[00:15:18] to keep in
+
+[00:15:20] mind um yeah good points Chris thanks
+
+[00:15:23] for that so so let's let's jump into uh
+
+[00:15:26] little local markets update um um the
+
+[00:15:30] charts here are going to be pulled from
+
+[00:15:31] all sorts of different sources some of
+
+[00:15:33] them are dashboards that I use some of
+
+[00:15:34] them are are personal you know output
+
+[00:15:37] from my my own personal uh scripts uh
+
+[00:15:40] but you can see I've I've I'm going to
+
+[00:15:42] plot a bunch of different metrics um and
+
+[00:15:43] we're just going to go through each one
+
+[00:15:44] of those I plotted the um the date that
+
+[00:15:47] we released the local markets uh in that
+
+[00:15:49] little red dotted line hopefully that's
+
+[00:15:52] visible does not look super straw it
+
+[00:15:54] doesn't show up very pronounced but it's
+
+[00:15:56] right here um and you can see that daily
+
+[00:15:59] active user count in Starbase um SB is
+
+[00:16:03] is what Starbase stands for I have
+
+[00:16:05] speaker notes for the exact numbers but
+
+[00:16:07] it's not showing up um right now uh but
+
+[00:16:10] anyway the the exact number is about I
+
+[00:16:12] want to say it's 1273 is the number that
+
+[00:16:15] comes to mind so we actually saw a spike
+
+[00:16:16] up to 1,273 players on the day we
+
+[00:16:19] released the local markets update um
+
+[00:16:22] that was also uh that was also shared
+
+[00:16:27] with a pretty pretty substantial Spike
+
+[00:16:30] up in reactivated users uh so these are
+
+[00:16:33] profiles that haven't shown up in 7 days
+
+[00:16:35] 30 days and 90 days uh are showing back
+
+[00:16:38] up on this day um relatively not a huge
+
+[00:16:41] change in first-time user uh firsttime
+
+[00:16:43] profiles uh so but anyway really good uh
+
+[00:16:46] showing for the metrics when we released
+
+[00:16:48] the local markets update now there's
+
+[00:16:50] been a bunch of uh kind of turmoil uh in
+
+[00:16:53] the the uh larger Salon ecosystem since
+
+[00:16:57] then that's kind of caused a decline in
+
+[00:16:59] our our daily active user metrics since
+
+[00:17:01] then but we're actually starting to see
+
+[00:17:03] a reversal of that of that decline but
+
+[00:17:05] anyway good strong user numbers um after
+
+[00:17:07] following the local markets update
+
+[00:17:09] that's exactly what we want to see when
+
+[00:17:11] we're releasing new content we want an
+
+[00:17:14] update to result in more people getting
+
+[00:17:17] more engaged in the game um if we're
+
+[00:17:19] releasing these these updates and
+
+[00:17:20] they're not doing anything to make the
+
+[00:17:22] start out economy better um then then we
+
+[00:17:25] need to look in the mirror and say you
+
+[00:17:27] know and evaluate whether not we're
+
+[00:17:29] focusing on the right stuff so you know
+
+[00:17:30] this is really good uh confirmation for
+
+[00:17:33] me or affirmation for me that we focused
+
+[00:17:35] on the right thing here and and local
+
+[00:17:37] markets were a very big value at uh in
+
+[00:17:40] terms of volume I've plotted the uh the
+
+[00:17:43] secondary trade volume excluding ships
+
+[00:17:46] uh in usdc equivalent uh and I've
+
+[00:17:49] plotted whether it's a local market or
+
+[00:17:51] Not Sorry a local market true or not
+
+[00:17:54] local market false so you can see
+
+[00:17:55] obviously before the 11th there was
+
+[00:17:57] never any local market trade um and we
+
+[00:18:00] released it later in the day I actually
+
+[00:18:02] I probably should have set this to to be
+
+[00:18:04] the 10th but it was fully released on
+
+[00:18:06] the 11th um uh but anyway um you can see
+
+[00:18:11] there's a quite a bit of local market
+
+[00:18:15] trade activity this is all items except
+
+[00:18:17] for ships so this is in-game resources
+
+[00:18:19] we saw a 14% uplift in our mean trade
+
+[00:18:23] volume on a daily basis and a 28% uplift
+
+[00:18:25] in our median trade volume on the day uh
+
+[00:18:28] so this is really cool because it means
+
+[00:18:30] that the the the update is leading to
+
+[00:18:34] more trade volume which is exactly what
+
+[00:18:36] we wanted to have happen right we want
+
+[00:18:38] this to encourage people to participate
+
+[00:18:40] in the star Atlas economy not the you
+
+[00:18:43] know like defi economy that's not stalis
+
+[00:18:46] because while that's awesome that trade
+
+[00:18:48] happens outside of our economy it's not
+
+[00:18:51] good for our long-term uh growth as as a
+
+[00:18:53] as a as an ecosystem we will not grow if
+
+[00:18:56] trade doesn't happen in the stess
+
+[00:18:57] economy uh so that's that's why I'm
+
+[00:18:59] super happy to see this you can see some
+
+[00:19:01] pretty substantial spikes in volume um
+
+[00:19:04] and and we've just been steadily
+
+[00:19:05] inclining obviously you can see I
+
+[00:19:06] haven't updated this in a while since I
+
+[00:19:07] put this presentation together a couple
+
+[00:19:09] days ago um now again this does not
+
+[00:19:12] include CSS trade if we were to include
+
+[00:19:15] CSS trade um we would probably see these
+
+[00:19:17] red marks uh dig into these blue marks a
+
+[00:19:20] little bit um so keep that in mind this
+
+[00:19:22] is an underestimation of the total
+
+[00:19:23] impact of secondary Market trade in
+
+[00:19:26] local markets on volume but this is
+
+[00:19:28] excellent you know you look at this guys
+
+[00:19:30] we're doing $20,000 a day in just like
+
+[00:19:32] in-game resources in our game that's
+
+[00:19:35] hundreds of thousands of dollars a trade
+
+[00:19:37] every month um that's that's insane um
+
+[00:19:40] not as much as it was last March but
+
+[00:19:42] still really really healthy especially
+
+[00:19:44] when you compare us to other gaming
+
+[00:19:46] ecosystems this is this puts every other
+
+[00:19:50] gaming ecosystem to Absolute shame the
+
+[00:19:52] fact that we're doing $20,000 a day uh
+
+[00:19:54] so be proud of yourselves for that um I
+
+[00:19:57] did want to revisit this is not
+
+[00:19:59] necessarily A A A Metric that I was
+
+[00:20:01] paying much attention to for local
+
+[00:20:03] markets but um you know we could we
+
+[00:20:06] could imagine there would be a
+
+[00:20:07] substantial change a potential change to
+
+[00:20:09] market prices as we introduced local
+
+[00:20:11] markets and let me explain why I kind of
+
+[00:20:14] explained the economic impact of having
+
+[00:20:16] local markets last time it all of a
+
+[00:20:18] sudden becomes much easier to trade the
+
+[00:20:21] effort required to put a uh trade on the
+
+[00:20:23] marketplace goes down because now I can
+
+[00:20:25] put it on the marketplace that I
+
+[00:20:27] initially crafted the at rather than
+
+[00:20:29] having to transport it to the CSS and
+
+[00:20:31] extract it from my wallet so we could
+
+[00:20:33] actually honestly anticipate a slight
+
+[00:20:37] dip I would expect a slight dip in
+
+[00:20:39] prices just purely from a pure econ
+
+[00:20:41] Theory point of view um no we don't
+
+[00:20:45] really see that um in fact around the
+
+[00:20:47] update which is which is around this
+
+[00:20:48] point I don't know why I didn't plot it
+
+[00:20:50] on this one but uh around right here is
+
+[00:20:53] when we we had that update we've seen a
+
+[00:20:54] pretty steady incline in most assets
+
+[00:20:57] except for sdus uh it's a little hard to
+
+[00:20:59] see the sdu prices though because they
+
+[00:21:02] this was uh this was like when sdus were
+
+[00:21:04] at their like most valuable and then we
+
+[00:21:06] basically destroyed the value of them on
+
+[00:21:08] purpose In fairness uh so we will
+
+[00:21:11] eventually reset the price index um once
+
+[00:21:14] maybe a couple months have gone by uh we
+
+[00:21:16] probably want to reset the price index
+
+[00:21:18] on a yearly basis uh right now we
+
+[00:21:20] obviously you can see the start date the
+
+[00:21:22] p is um January 1st 2024 but anyway
+
+[00:21:27] substantial increases in all the prices
+
+[00:21:29] uh over the last couple of uh weeks
+
+[00:21:31] since the update and that's likely just
+
+[00:21:34] due to the fact that infrastructure
+
+[00:21:35] contracts are becoming pretty prevalent
+
+[00:21:38] um as those kind of increase in their
+
+[00:21:41] value uh or sorry as those as those
+
+[00:21:43] become redeemable uh the value that's
+
+[00:21:46] that's uh you know able to be extracted
+
+[00:21:49] uh should increase in fact this is
+
+[00:21:50] probably mechanical because the value of
+
+[00:21:52] the IC was mechanically designed to be
+
+[00:21:56] worth more than the sum of the its parts
+
+[00:21:59] so um I anticipate we'll see a little
+
+[00:22:01] bit of growth there but hopefully we
+
+[00:22:03] should start to see uh you know prices
+
+[00:22:05] stable out you can see we've been really
+
+[00:22:07] consistent all of our assets have been
+
+[00:22:09] uh bouncing between uh 0.5 and one in
+
+[00:22:12] terms of the price index um uh
+
+[00:22:14] throughout the entire last 13
+
+[00:22:17] months um and then just locations this
+
+[00:22:20] is kind of a moot point since uh Gareth
+
+[00:22:22] already pointed this out but you can
+
+[00:22:23] kind of see General trade volume uh uh
+
+[00:22:27] of assets throughout local markets and
+
+[00:22:29] then IC uh uh IC uh redemptions um
+
+[00:22:33] throughout the the the galactic Market
+
+[00:22:35] or the G the Galaxy one thing I want to
+
+[00:22:38] point out over here is that you could
+
+[00:22:39] see there are a couple of trade hubs
+
+[00:22:41] especially in Oni we have like one one
+
+[00:22:44] location that really is dominating all
+
+[00:22:46] the other ones and not a lot of trade in
+
+[00:22:48] the other ones as a game Economist one
+
+[00:22:50] of my goals is to try to make sure that
+
+[00:22:52] there's substantial trade in several of
+
+[00:22:55] these markets not every Market is going
+
+[00:22:57] to have as much trade volum as the
+
+[00:22:58] others that's not a realistic
+
+[00:23:00] expectation but we don't want it to be
+
+[00:23:02] the case there's basically one place
+
+[00:23:03] where everything happens uh we want this
+
+[00:23:05] trade to be kind of spread out we want
+
+[00:23:07] there to be liquidity because if there's
+
+[00:23:11] liquidity it makes it so that it allows
+
+[00:23:14] opportunity for players um right it's
+
+[00:23:16] like oh I want to operate out of this
+
+[00:23:18] this location but I have no liquidity to
+
+[00:23:20] sell things uh so I'm not going to be
+
+[00:23:22] able to operate out of that so uh the
+
+[00:23:24] more volume there is the the better um
+
+[00:23:26] again we don't need it to be like
+
+[00:23:28] perfectly equal between the uh the
+
+[00:23:31] locations you can see mud and one one
+
+[00:23:34] thing that the IC release and local
+
+[00:23:35] markets release has really solidified
+
+[00:23:37] for me is that mud is one of the most um
+
+[00:23:40] in terms of wealth distribution one of
+
+[00:23:42] the most equal uh factions of all in
+
+[00:23:45] fact it is the most equal faction of all
+
+[00:23:47] um the top five wallets for mud that are
+
+[00:23:50] redeeming ic's are about equal in terms
+
+[00:23:53] of the number of IC they've redeemed Oni
+
+[00:23:55] and user
+
+[00:23:58] oni's top IC redeeming wallet does about
+
+[00:24:01] 5x the number the second most high
+
+[00:24:05] Redemption wallet so the top wallet is
+
+[00:24:07] five times bigger than the the second
+
+[00:24:09] highest wallet um in Oni um in terms of
+
+[00:24:13] IC redemptions that is insane so T what
+
+[00:24:15] mud is looking like a very like natural
+
+[00:24:19] um organization it's looking like a very
+
+[00:24:21] real place where like uh you know
+
+[00:24:24] there's there's there's definitely
+
+[00:24:25] wealth distribution which is great to
+
+[00:24:27] see but there's also like there's a lot
+
+[00:24:30] more equal Redemption of ic's I want to
+
+[00:24:32] point out this this chart over here the
+
+[00:24:34] ic's Redemption Oni and mud have very
+
+[00:24:38] consistent Redemption quantities across
+
+[00:24:40] all the different star bases you can see
+
+[00:24:42] mud prefers this one in terms of
+
+[00:24:44] redemption quantities they've been at
+
+[00:24:46] this one far less they they've redeemed
+
+[00:24:47] F fewer here now this doesn't account
+
+[00:24:50] for the fact that some of these uh star
+
+[00:24:52] bases have not been selected as much as
+
+[00:24:54] other ones so if you got a star base
+
+[00:24:56] that's never been selected it will have
+
+[00:24:58] zero
+
+[00:24:59] uh you know redemptions in that location
+
+[00:25:00] which is totally fine um but you know
+
+[00:25:05] you see a much more equal distribution
+
+[00:25:07] of redemptions across Oni and mud and
+
+[00:25:09] then you've got Oster over here that
+
+[00:25:11] pretty much exclusively redeems at these
+
+[00:25:13] three star bases now again it could be
+
+[00:25:16] the case that these are just star bases
+
+[00:25:17] that have been repeatedly chosen in the
+
+[00:25:19] Oster faction over and over and over
+
+[00:25:21] again um I haven't actually investigated
+
+[00:25:22] that yet uh tons and tons of data inter
+
+[00:25:25] to interpret and only two uh you know
+
+[00:25:28] people on the econ team whose job it is
+
+[00:25:29] to analyze data uh but this is something
+
+[00:25:32] that's very interesting to see in fact I
+
+[00:25:35] expected to see this phenomenon that's
+
+[00:25:37] happening in Oster across the other
+
+[00:25:39] factions and what I wanted to do um what
+
+[00:25:43] I wanted to do was potentially and this
+
+[00:25:46] is this is something we will almost
+
+[00:25:47] entirely likely do is incentivize
+
+[00:25:51] unattractive starbases by increasing the
+
+[00:25:53] atlas Redemption value at that star base
+
+[00:25:56] um we'll get to that point in a moment
+
+[00:25:59] though but yeah really interesting
+
+[00:26:00] behavioral differences between uster Oni
+
+[00:26:02] and
+
+[00:26:03] mud
+
+[00:26:05] um Chris there are two questions if I
+
+[00:26:10] may sure uh first one coming from Groove
+
+[00:26:15] how do you guys calculate the value of
+
+[00:26:17] raw in ingredient of a raw ingredient or
+
+[00:26:20] component you mentioned that the price
+
+[00:26:22] of fic's was said to be more than the
+
+[00:26:25] sum of its parts I'm curious how you
+
+[00:26:26] determine the value of those part s in
+
+[00:26:28] the first
+
+[00:26:29] place I am going to actually have to
+
+[00:26:32] defer to uh just like some legales there
+
+[00:26:36] probably not appropriate to talk about
+
+[00:26:38] that um okay that's I would I would
+
+[00:26:40] throw that under company you know
+
+[00:26:42] secrets and you know while we are a
+
+[00:26:45] decentralized platform at least for the
+
+[00:26:46] time being the operations and how I
+
+[00:26:48] calculate things as a as a practitioner
+
+[00:26:51] um are not necessarily public
+
+[00:26:54] information so um yeah sense it may not
+
+[00:26:57] always be that way you know there there
+
+[00:26:58] may be other you know in the
+
+[00:27:00] decentralized future of star Atlas the
+
+[00:27:02] these types of calculations the way
+
+[00:27:04] these things are determined will be
+
+[00:27:05] different but for now I'm GNA keep that
+
+[00:27:08] as a to myself yeah sounds good uh
+
+[00:27:13] there's another question from Brian he
+
+[00:27:16] says I got a point out that only got
+
+[00:27:19] absolutely shafted by starve selection
+
+[00:27:22] only two and only three have not been
+
+[00:27:24] selected for fic redemptions for over 3
+
+[00:27:27] weeks so how can you expect small
+
+[00:27:30] players to
+
+[00:27:32] participate yeah I mean um unfortunately
+
+[00:27:36] it we do do it uh in a probabilistic way
+
+[00:27:39] right it's a fully random process um if
+
+[00:27:42] if this turns out to be like a really
+
+[00:27:44] seriously huge problem um which it may
+
+[00:27:48] be and and you know we can investigate
+
+[00:27:50] of course um we did notice that you know
+
+[00:27:53] On's uh hasn't hasn't had the most kind
+
+[00:27:57] of equal distribution
+
+[00:27:58] of fix although the Redemption uh
+
+[00:28:01] numbers would suggest something
+
+[00:28:02] different but
+
+[00:28:04] um uh yeah that's not ideal obviously we
+
+[00:28:06] want the whole point of choosing Oni one
+
+[00:28:09] and two or Oni two and three was so that
+
+[00:28:11] smaller players had access to them um
+
+[00:28:14] I'll provide a few kind of uh counters
+
+[00:28:17] to this a it's a fully random process so
+
+[00:28:19] just as likely it's just as likely that
+
+[00:28:21] mud will get screwed Aon will get
+
+[00:28:23] screwed and booster will get screwed so
+
+[00:28:25] let's try to keep that in mind um the
+
+[00:28:28] other thing that I would point out is
+
+[00:28:30] with local markets I'm my goal is for
+
+[00:28:34] this focus and this obsession with the
+
+[00:28:36] CSS is to start to decline um the whole
+
+[00:28:39] point you know the CSS is obviously the
+
+[00:28:42] point the Port of Entry but now with
+
+[00:28:44] full marketplace is available at every
+
+[00:28:45] single star base it shouldn't be the
+
+[00:28:48] case or it should be the case that
+
+[00:28:49] anybody can go and set up camp at one of
+
+[00:28:51] the the local star bases they might have
+
+[00:28:54] more expensive iron or more expensive
+
+[00:28:56] hydrogen than they would if they were at
+
+[00:28:58] the CSS for example um but my my one of
+
+[00:29:02] the
+
+[00:29:03] key features of the local markets
+
+[00:29:06] release is that it does allow smaller
+
+[00:29:08] players to Branch out and more easily um
+
+[00:29:11] you know base their operations away from
+
+[00:29:13] the CSS so um yes not ideal but you know
+
+[00:29:19] hopefully hopefully we start to see some
+
+[00:29:21] branching out and then of course you
+
+[00:29:23] know if it becomes a serious problem
+
+[00:29:24] where it's like okay these bouts of you
+
+[00:29:27] know it's almost like in mat you like a
+
+[00:29:30] game that I like to play as match
+
+[00:29:32] Gathering you know you can get Mana
+
+[00:29:33] screw like just you know you draw from
+
+[00:29:35] the deck and you just don't get any mana
+
+[00:29:37] and that allow it doesn't allow you to
+
+[00:29:39] play any spells which is no no good um
+
+[00:29:43] so you know there have been attempts to
+
+[00:29:46] fix that game so that Mana is not as big
+
+[00:29:48] of an issue um and so it's you know it
+
+[00:29:51] is random uh but there's definitely a
+
+[00:29:53] potential for us to try to to to fix it
+
+[00:29:55] if we determine that it's a big enough
+
+[00:29:57] issue
+
+[00:29:59] MH makes
+
+[00:30:00] sense I'll let you continue Chris um
+
+[00:30:04] yeah I think I think we're jumping into
+
+[00:30:06] Sage updates so
+
+[00:30:09] um actually this might be a little out
+
+[00:30:11] of date but uh a couple of updates that
+
+[00:30:13] are going into Sage next week I say this
+
+[00:30:16] week but um we decided to throw in some
+
+[00:30:19] some additional recipes and uh there was
+
+[00:30:22] some complication with the upgrade
+
+[00:30:23] install time change
+
+[00:30:25] um uh such that we wanted to delay until
+
+[00:30:28] next week so we could release all the
+
+[00:30:30] updates as one package as opposed to a
+
+[00:30:32] bunch of different updates um like
+
+[00:30:33] scattered throughout the week um Dominic
+
+[00:30:36] vain uh was like we can't we can't be
+
+[00:30:39] doing this to our players we can't be
+
+[00:30:41] like doing 10 different updates and then
+
+[00:30:42] like you know posting them as little
+
+[00:30:44] tiny announcements so uh you guys can
+
+[00:30:46] think Dom we're gonna uh we're gonna
+
+[00:30:48] release one big update next week um so I
+
+[00:30:51] would call it a medium-sized update um
+
+[00:30:54] basically what we're going to do is a
+
+[00:30:55] couple of things there's there's three
+
+[00:30:57] things uh one of them is not listed here
+
+[00:30:59] the first thing this is the big big
+
+[00:31:01] change um we going to in uh we're going
+
+[00:31:04] to we're going to increase the seu
+
+[00:31:06] upgrade install time uh it's currently 1
+
+[00:31:09] second we are going to increase it to x
+
+[00:31:14] amount of time I'm not going to release
+
+[00:31:16] that exact number uh uh in fact I was a
+
+[00:31:19] little hesitant to to even mention this
+
+[00:31:20] just because it can have a pretty
+
+[00:31:22] substantial impact on the market and I
+
+[00:31:25] don't want to have impacts to the market
+
+[00:31:27] before an actual update is you know
+
+[00:31:29] released because um you know let's say
+
+[00:31:32] you announce that like you're going to
+
+[00:31:34] cut the supply of a of a token for
+
+[00:31:35] example um the emission rate you could
+
+[00:31:38] see the market respond to that before
+
+[00:31:40] that that cut actually happens and that
+
+[00:31:43] can cause bad things because what
+
+[00:31:45] happens is people are behaving as if the
+
+[00:31:47] environment is one way when it's
+
+[00:31:49] actually still another way you know it's
+
+[00:31:51] like if somebody told you like hey you
+
+[00:31:53] are you know a professional athlete um
+
+[00:31:55] and you need to jump off this this roof
+
+[00:31:57] you're going to jump off the roof but
+
+[00:31:59] you're not a professional athlete you're
+
+[00:32:00] going to break your legs um that is a
+
+[00:32:02] terrible analogy but uh you get the
+
+[00:32:05] point so we don't want to front run that
+
+[00:32:07] too much so I'm not announcing the exact
+
+[00:32:08] timing there um but there will be an sdu
+
+[00:32:12] upgrade installed time change and um I
+
+[00:32:15] will I will give this little tipit it's
+
+[00:32:17] going to be substantial um it's going to
+
+[00:32:19] be a substantial
+
+[00:32:20] increase um okay
+
+[00:32:24] um number two we are going to add some
+
+[00:32:27] new f recipes so faction infrastructure
+
+[00:32:29] contracts um these are pretty these are
+
+[00:32:31] going to be similar to the old recipes
+
+[00:32:34] there's going to be a few changes um my
+
+[00:32:36] goal for these ones is they're going to
+
+[00:32:37] be a little bit more complicated a
+
+[00:32:39] little bit more difficult to build um
+
+[00:32:41] they are going to be uh so I have new
+
+[00:32:44] locations here they're going to be
+
+[00:32:46] available at the same six locations
+
+[00:32:48] because those six locations were chosen
+
+[00:32:50] very very meticulously um but we are
+
+[00:32:53] going to uh so we're going to have two
+
+[00:32:57] sets of fix live in the game and each
+
+[00:33:00] will have its own Redemption locations
+
+[00:33:02] that are drawn separately so what we're
+
+[00:33:04] going to do is we're going to have each
+
+[00:33:06] recipe is going to be available for sale
+
+[00:33:09] at two star bases at the same time so
+
+[00:33:12] fck one will be available to sell at two
+
+[00:33:15] different star bases and pck two will be
+
+[00:33:16] a available to sell at two star bases
+
+[00:33:19] now it is possible because this is all
+
+[00:33:21] random process that those two star bases
+
+[00:33:23] line up to be the same two star bases um
+
+[00:33:26] but it could be three star bases it
+
+[00:33:27] could be four star bases uh so that's
+
+[00:33:29] how we're going to roll this out so it's
+
+[00:33:30] going to be available to sell to the Dow
+
+[00:33:33] uh at two different star uh two
+
+[00:33:35] different locations um we're going to
+
+[00:33:37] upgrade the current F recipe to only be
+
+[00:33:40] available to sell at two at a time as
+
+[00:33:42] well uh so that's that's the location
+
+[00:33:44] thing there the recipe will be slightly
+
+[00:33:46] more complex I think or or at least a
+
+[00:33:48] little bit more difficult to acquire
+
+[00:33:50] than the current one and then um uh
+
+[00:33:53] finally I do want to experiment with new
+
+[00:33:55] Redemption values for these recipes so
+
+[00:33:57] they're going to be worth a different
+
+[00:33:59] amount of Atlas I have not come down on
+
+[00:34:01] a final amount for that but um yeah it
+
+[00:34:05] probably won't be the typical two Atlas
+
+[00:34:07] uh that you're currently redeeming for
+
+[00:34:09] might be more might be less I haven't
+
+[00:34:11] really figured that out um one comments
+
+[00:34:13] on the recipes um I know you guys aren't
+
+[00:34:17] going to like this but because of the um
+
+[00:34:20] governing nature of sdus there will be
+
+[00:34:23] sdus in the recipe this is purely
+
+[00:34:25] because there's we we we've got a
+
+[00:34:28] cryptocurrency that does not disappear
+
+[00:34:30] it it once it's out it's out we don't
+
+[00:34:32] run a regular game economy so we can't
+
+[00:34:34] afford to accidentally emit 30 million
+
+[00:34:37] Atlas in a day uh we have to have a
+
+[00:34:39] governor it is painful I you know I
+
+[00:34:41] understand the pain but it's just really
+
+[00:34:44] essential um are there improvements we
+
+[00:34:46] can make 100% we could improve um but
+
+[00:34:48] there will be sdus it will be in a
+
+[00:34:50] smaller proportion of the recipe than
+
+[00:34:53] the current uh thick recipes so right
+
+[00:34:56] now the recipes are basically equally
+
+[00:34:58] balanced so if you think about like this
+
+[00:35:00] value concept that was being asked about
+
+[00:35:02] earlier um each of the inputs has equal
+
+[00:35:05] weight in the recipe in this new recipe
+
+[00:35:08] I will weight the sdus a little bit less
+
+[00:35:10] so they'll have what will hopefully feel
+
+[00:35:13] like a slightly uh lower kind of sdu
+
+[00:35:17] requirement uh relatively speaking
+
+[00:35:19] relatively speaking if I make the recipe
+
+[00:35:21] worth 10 Atlas uh then it could be the
+
+[00:35:23] case that there's like you know 15 sdus
+
+[00:35:27] required ired um in the recipe and so
+
+[00:35:29] you might look at it and say what the
+
+[00:35:30] hell the old recipe only required five
+
+[00:35:32] sdus and this one requires 15 um that's
+
+[00:35:35] just because you know we're talking
+
+[00:35:36] about relative values um so do keep that
+
+[00:35:39] in mind when you see the new recipe the
+
+[00:35:41] uh third update here that I don't have
+
+[00:35:43] listed is we are going to try something
+
+[00:35:47] new with the way that recipes are
+
+[00:35:51] refilled what we're going to do um I
+
+[00:35:54] think this going to be controversial um
+
+[00:35:56] is we're going to not refill recipes
+
+[00:36:00] once they run out at a single star
+
+[00:36:03] base so long as there is another recipe
+
+[00:36:06] available in the Galaxy so uh within the
+
+[00:36:09] factions uh set so let's say Vick one
+
+[00:36:13] runs out and these are going to have new
+
+[00:36:14] names so I apologize for this like one
+
+[00:36:16] two naming but suppose fi one runs out
+
+[00:36:20] at um at Oni 2 it will be and it's still
+
+[00:36:25] available at Oni 3 for example
+
+[00:36:28] um we're not going to refill it we're
+
+[00:36:30] going to only refill it once they're
+
+[00:36:31] both out they're not supposed to be
+
+[00:36:34] they're not supposed to be um Limited in
+
+[00:36:37] terms of quantities at any given time
+
+[00:36:39] they're supposed to be unlimited amounts
+
+[00:36:41] to be redeemed but we also want to
+
+[00:36:43] encourage people to have to yeah keep
+
+[00:36:46] people moving uh as as Brian just said
+
+[00:36:49] um so that's that's that was one of the
+
+[00:36:51] whole points of this was like okay we
+
+[00:36:52] want people to be we want them to be
+
+[00:36:55] reacting to a living breathing economy
+
+[00:36:57] not this simple you know like oh I take
+
+[00:37:00] this and I go there I take this I go
+
+[00:37:02] there same this and there every single
+
+[00:37:04] day it's kind of boring and and it
+
+[00:37:06] doesn't allow for a lot of different um
+
+[00:37:09] uh it doesn't allow for a lot of
+
+[00:37:10] different you know play Styles uh it
+
+[00:37:12] will include the different contracts so
+
+[00:37:14] the the the new contracts will also
+
+[00:37:15] abide by this rule we're basically just
+
+[00:37:17] not refilling at a star base until all
+
+[00:37:21] the fixs are out at all star bases um so
+
+[00:37:25] hopefully not you know hopefully
+
+[00:37:27] everybody hates uh doesn't hate that but
+
+[00:37:30] we'll see how it goes um we'll be we
+
+[00:37:32] have a couple of metrics we're going to
+
+[00:37:33] be keeping track of when we do that
+
+[00:37:35] update but yeah that's the three updates
+
+[00:37:37] that are planned for sage next week um
+
+[00:37:40] you can plan on those going out along
+
+[00:37:42] with the Starbase reset so when we go
+
+[00:37:45] and we redo the thick uh Redemption
+
+[00:37:47] locations uh when we reroll those we
+
+[00:37:49] will also try to simultaneously uh redo
+
+[00:37:53] or put this update out I believe that's
+
+[00:37:56] Sunday um I'm sorry I believe that's
+
+[00:37:59] Wednesday uh during the day for us uh
+
+[00:38:02] people in the US but I believe it's
+
+[00:38:05] midnight Thursday is when it happens UTC
+
+[00:38:09] uh which is which is in the middle of
+
+[00:38:10] the day for us uh in the in those US
+
+[00:38:14] time zones and and North America time
+
+[00:38:17] zones and South America time
+
+[00:38:21] zones is there still plans to move oh
+
+[00:38:24] interesting new Doane address when that
+
+[00:38:27] comes um it's a lot of complexity with
+
+[00:38:30] combat probably not worth getting into
+
+[00:38:33] it right now um I don't know if the
+
+[00:38:37] domain you mean like the domain like the
+
+[00:38:39] the website domain that probably won't
+
+[00:38:41] change um maybe I'm guessing he's
+
+[00:38:44] talking about the game ID like we did
+
+[00:38:46] last time yeah um I really hope I really
+
+[00:38:52] hope not I can just tell you that from
+
+[00:38:54] my perspective I would be fighting for
+
+[00:38:56] that to not be the case but um we are
+
+[00:38:59] you know uh beholden to the technology
+
+[00:39:02] that we're building on so it's entirely
+
+[00:39:04] possible that because of the limits of
+
+[00:39:06] blockchain technology or at least maybe
+
+[00:39:08] not the limits but the constraints of
+
+[00:39:09] blockchain Technology we will be forced
+
+[00:39:11] to change
+
+[00:39:13] IDs yeah that is more of an engineering
+
+[00:39:16] question right
+
+[00:39:19] yeah uh let's see if there are any
+
+[00:39:22] questions I saw some above I'm trying to
+
+[00:39:25] scroll generated by LP
+
+[00:39:28] um there is no plan to reduce LP further
+
+[00:39:30] with these new fix um the idea being
+
+[00:39:34] these are substitutes people just
+
+[00:39:36] because we add new recipes doesn't mean
+
+[00:39:38] that people are able to produce twice as
+
+[00:39:40] many uh assets so they'll still have to
+
+[00:39:43] choose whether they produce thick one or
+
+[00:39:45] thick two or LP um the reason we reduced
+
+[00:39:48] LP was to make room for this new way to
+
+[00:39:50] earn Alice and um I'll be honest with
+
+[00:39:53] you guys looking at how quickly ic's are
+
+[00:39:56] being produced
+
+[00:39:59] um it it yeah we we want to be really uh
+
+[00:40:02] cognizant of of the um the atlas
+
+[00:40:05] emissions curve um I'm becoming more and
+
+[00:40:08] more consci conscientious uh you know
+
+[00:40:12] when it comes to the atlas emissions
+
+[00:40:14] curve and and what what a big play role
+
+[00:40:16] that plays in the uh the
+
+[00:40:19] macro and it's entirely possible we
+
+[00:40:22] could see um some additional changes to
+
+[00:40:24] the to the emissions curve um now mind
+
+[00:40:26] you this is is all in an effort to
+
+[00:40:28] reduce the outstanding supply of the
+
+[00:40:30] token or at least the inflation rate of
+
+[00:40:31] the token um because we do have targets
+
+[00:40:34] that we need to to meet um and that is
+
+[00:40:36] only for the benefit of the token itself
+
+[00:40:39] is only for the health of the token in
+
+[00:40:41] the long
+
+[00:40:45] run there's question from Bodi um about
+
+[00:40:51] the the new mechanism for the
+
+[00:40:55] infrastructure contracts he's asking if
+
+[00:40:57] both the locations are gone for a
+
+[00:41:00] contract it won't feel until the other
+
+[00:41:03] contract is gone
+
+[00:41:05] too yeah so the idea and and I will uh
+
+[00:41:10] triple check this with the engineers but
+
+[00:41:11] the idea is um sorry mechanic as I
+
+[00:41:15] understand it is that the as the way and
+
+[00:41:17] the way that it should work is that the
+
+[00:41:19] um refill schedules will be independent
+
+[00:41:22] of one another so that means that if the
+
+[00:41:26] total quantity
+
+[00:41:28] is is you know is soaked up for one
+
+[00:41:31] recipe that that recipe will refill um
+
+[00:41:35] the other one will not so let's say f
+
+[00:41:39] one runs out at all star bases will'll
+
+[00:41:41] refill that one um we won't refill thick
+
+[00:41:44] 2 uh and
+
+[00:41:48] if uh yeah I think that answers the
+
+[00:41:50] question
+
+[00:41:52] mhm it
+
+[00:41:55] does um there's some comments on the
+
+[00:41:58] effect of this in the small player since
+
+[00:42:01] they
+
+[00:42:02] have less chances to adapt effectively
+
+[00:42:05] to the movement I don't know Chris if
+
+[00:42:07] you want to comment on that I know it's
+
+[00:42:08] a wide topic but yeah um so
+
+[00:42:12] so the idea I'm assuming is like it's a
+
+[00:42:16] little bit hard if you've got a smaller
+
+[00:42:18] Fleet it's more difficult to um move
+
+[00:42:22] your operations from one location to
+
+[00:42:24] another than it is if you've got a big
+
+[00:42:25] giant Fleet that's more distribut
+
+[00:42:27] um and so when things change it's harder
+
+[00:42:29] to react um I definitely can appreciate
+
+[00:42:32] that um you know
+
+[00:42:35] I so a couple of things first there's
+
+[00:42:39] there's definitely never going to be a
+
+[00:42:41] scenar there's definitely never going to
+
+[00:42:42] be a scenario where like the big player
+
+[00:42:45] is worse off than the small player I I
+
+[00:42:47] just hate to say it but this is just
+
+[00:42:48] kind of the way of the the natural world
+
+[00:42:51] this is the way things work um so it'll
+
+[00:42:53] be difficult to be to ever create a
+
+[00:42:55] situation where like small players have
+
+[00:42:57] a strict advantage over large players um
+
+[00:43:00] because you can almost think of these
+
+[00:43:01] like imagine people are able to change
+
+[00:43:04] their form at any given time take an
+
+[00:43:07] evolutionary approach here and if all of
+
+[00:43:10] a sudden it's advantageous to be small
+
+[00:43:12] then the big guys are going to convert
+
+[00:43:14] themselves into being a small person uh
+
+[00:43:16] you know a small player and they're
+
+[00:43:17] going to do their their darnest try and
+
+[00:43:20] become small in order to take advantage
+
+[00:43:22] so it it's really very difficult to
+
+[00:43:25] fully account for this small player
+
+[00:43:27] disparity um you know it's it's the
+
+[00:43:30] harsh reality and it's something that we
+
+[00:43:31] are constantly it's a battle we're
+
+[00:43:33] constantly dealing with I I think it's
+
+[00:43:36] probably not well understood among the
+
+[00:43:38] community how much um especially Michael
+
+[00:43:41] Wagner you know the CEO pushes for small
+
+[00:43:44] players um inside the company so uh all
+
+[00:43:47] I can say is that we're you know we work
+
+[00:43:49] our hardest to try to make the game as
+
+[00:43:52] um as pleasant as possible for small
+
+[00:43:55] players but yeah definitely always going
+
+[00:43:56] to be a dispar
+
+[00:43:57] um now with respect to the EXA the the
+
+[00:44:00] uh the timing we were originally going
+
+[00:44:03] to make it on a daily basis but we just
+
+[00:44:05] felt that that kind of defeated the
+
+[00:44:07] purpose what we want is um the game to
+
+[00:44:10] have a sense of of um freshness and
+
+[00:44:14] excitement and we felt that a week long
+
+[00:44:17] was was a a good time for that now if
+
+[00:44:19] you look at like the timing for a season
+
+[00:44:23] in a live service game like fortnite
+
+[00:44:25] those Seasons typically last like multip
+
+[00:44:27] weeks um sometimes multiple months so uh
+
+[00:44:30] it's definitely possible that we would
+
+[00:44:31] go to a more broad uh time frame but uh
+
+[00:44:36] right now I'm feeling pretty comfortable
+
+[00:44:38] with the the weekl long uh time frame if
+
+[00:44:41] it's longer you know these issues that
+
+[00:44:44] Brian pointed out with respect to on
+
+[00:44:47] getting screwed over because of the die
+
+[00:44:49] roll um those become even more
+
+[00:44:51] pronounced because it's like oh geez we
+
+[00:44:53] don't get a refill next week we get a
+
+[00:44:54] refill next month um so that was one of
+
+[00:44:57] the reasons we decided not to go with
+
+[00:44:58] the even longer time Horizon um I know
+
+[00:45:02] that probably was not a satisfying
+
+[00:45:03] answer but those are
+
+[00:45:05] the that I
+
+[00:45:07] can R we hear a little bit low I don't
+
+[00:45:11] know if that's just me but I don't know
+
+[00:45:14] if you're away from the mic a little bit
+
+[00:45:17] really uh I got maybe that was just me I
+
+[00:45:19] don't know um let me just now I hear you
+
+[00:45:22] better now I hear you better it's
+
+[00:45:24] possible I was just kind of going into a
+
+[00:45:26] quieter tone uh could be could be it
+
+[00:45:30] says that I'm I'm hooked up on on the
+
+[00:45:31] right mic and it's in front of my face
+
+[00:45:33] so I'll just be a little bit louder um
+
+[00:45:36] yeah no you're good you're good you're
+
+[00:45:37] good you're good um a real quick address
+
+[00:45:39] to hiring Crafters question or wait is
+
+[00:45:41] hiring Crafters bod now that's
+
+[00:45:45] bod you guys with your names like it is
+
+[00:45:47] how do you yeah it is B okay um it was a
+
+[00:45:51] joke I'm kidding what a lovely name
+
+[00:45:53] beautiful name bod uh the third update
+
+[00:45:57] yeah sorry I should I'll update this
+
+[00:45:59] slide is is that we're going to it's
+
+[00:46:02] that refill thing we were talking about
+
+[00:46:04] uh bod so suu up update new fi recipes
+
+[00:46:09] and then that refill uh where we are not
+
+[00:46:12] going to refill at each star base when
+
+[00:46:14] they run out but rather we're going to
+
+[00:46:15] refill only when all the fix of a
+
+[00:46:17] specific type run out and so like right
+
+[00:46:20] now we refill if any Starbase hits zero
+
+[00:46:23] orders we reput we put new orders in um
+
+[00:46:26] in this new world we would only put new
+
+[00:46:28] orders in we would refill all orders
+
+[00:46:30] once all star bases run out of orders um
+
+[00:46:34] and then that's within each
+
+[00:46:37] um within each um
+
+[00:46:43] thick I see a a question from uh from
+
+[00:46:46] Bob 6% fees on local markets are
+
+[00:46:50] absolutely fair from a trade point of
+
+[00:46:51] view but it limits opportunities for
+
+[00:46:53] profitable cargo Arbitrage is there any
+
+[00:46:56] realistic Solution that's a really uh
+
+[00:46:59] really cool question um you know you can
+
+[00:47:03] almost think of this an analogy is uh
+
+[00:47:06] you know when when firms used to when
+
+[00:47:09] trading platforms used to charge uh like
+
+[00:47:11] Brokers used to charge like a $5 trading
+
+[00:47:14] fee uh when when you'd make a trade so
+
+[00:47:17] let's say you were doing a, trade you
+
+[00:47:19] were automatically losing half% on that
+
+[00:47:21] trade no matter what um this was before
+
+[00:47:24] like the big Robin Hood uh Revolution
+
+[00:47:26] where where no longer are any of these
+
+[00:47:29] Brokers charging U uh these these fees
+
+[00:47:34] anymore uh so it is it is a similar
+
+[00:47:37] problem where it's like okay um there's
+
+[00:47:40] there's a 5% gap between these two
+
+[00:47:42] prices and I would love to be able to
+
+[00:47:43] exploit that Gap it's only going to cost
+
+[00:47:45] me 2% to transport but then I've got
+
+[00:47:48] that freaking 6% fee so every single
+
+[00:47:51] time I trade there's going to be this
+
+[00:47:52] you know this feed um it is a really
+
+[00:47:55] good point I I think theoretically the
+
+[00:47:58] 6% fee would post up the prices
+
+[00:48:01] appropriately um such that it would
+
+[00:48:03] basically cancel out because just like
+
+[00:48:05] you had to pay the 6% fee to sell
+
+[00:48:07] somebody else had to pay the 6% fee to
+
+[00:48:10] to to sell it to you um but yeah I I
+
+[00:48:14] would love to uh get to a place where
+
+[00:48:18] once once we have enough scale and we're
+
+[00:48:19] doing enough volume in the marketplace
+
+[00:48:21] it'd be lovely for the the marketplace
+
+[00:48:23] fee this is me just kind of speaking out
+
+[00:48:26] L on or thinking out loud but it would
+
+[00:48:28] be lovely to have that as a lever
+
+[00:48:32] something that we can change something
+
+[00:48:33] we can adjust um such that like it
+
+[00:48:37] encourages this type of you know trade
+
+[00:48:38] this type of Arbitrage um you know if if
+
+[00:48:41] the fee right now the fee is is U
+
+[00:48:43] honestly pretty moderate uh in terms of
+
+[00:48:45] like as far as crypto nfts uh are
+
+[00:48:49] markets are concerned and in the broad
+
+[00:48:51] context but um yeah ideally we'd be able
+
+[00:48:55] to lower this um
+
+[00:48:57] at our discretion at at at kind of the
+
+[00:48:59] discretion uh you know of whoever is
+
+[00:49:01] managing this um such that it you know
+
+[00:49:05] makes trade as as uh as attractive as
+
+[00:49:09] possible we don't want the 6% fee to be
+
+[00:49:11] a hindrance but we also do realize like
+
+[00:49:14] uh the star Atlas economy needs to
+
+[00:49:16] produce income for the Dow and other
+
+[00:49:18] decentralized entities that that are you
+
+[00:49:21] know that that hold ownership over it um
+
+[00:49:24] and in the very very very long term
+
+[00:49:27] the marketplace transaction fee is the
+
+[00:49:30] primary earning mechanic that is planned
+
+[00:49:32] for the the actual company itself right
+
+[00:49:36] um we're not just building St Outlets
+
+[00:49:38] like for fun I mean we are building it
+
+[00:49:39] for fun but like ultimately the company
+
+[00:49:41] does need to make money um in order to
+
+[00:49:43] keep building things and doing and doing
+
+[00:49:45] great things so you know that's the
+
+[00:49:47] point of the fee I'd love for it to you
+
+[00:49:49] know if we had a million dollar of trade
+
+[00:49:51] every single day we could lower that fee
+
+[00:49:53] um because you know we're making $30
+
+[00:49:56] million
+
+[00:49:57] dollar of volume every day and maybe we
+
+[00:50:00] turn our fee in maybe the only fee is
+
+[00:50:01] like 1% of what onest so then it's um
+
+[00:50:05] you know $3 million in revenue from the
+
+[00:50:07] stas economy goes to autom in the long
+
+[00:50:09] term something like that it's certainly
+
+[00:50:12] feasible again very much like thinking
+
+[00:50:14] all
+
+[00:50:15] out don't forget there is the outlas
+
+[00:50:17] locker currently
+
+[00:50:19] that'll give you a discount on your fees
+
+[00:50:22] so just a Shameless plug for that if you
+
+[00:50:25] guys are uh oh aware of that good point
+
+[00:50:28] you're such a good
+
+[00:50:33] salesman yeah the yeah the the crafting
+
+[00:50:36] fees are another um pain point so
+
+[00:50:38] obviously like 7% um is is substantial
+
+[00:50:43] um totally agree with that uh and then
+
+[00:50:46] it's even less ideal when those don't
+
+[00:50:48] adjust in real time um ideally those
+
+[00:50:50] would adjust like in in a an algorithmic
+
+[00:50:54] way um but but it's just not something
+
+[00:50:58] that I don't think we've had the
+
+[00:50:59] engineering capacity to be able to uh
+
+[00:51:02] get a live updating fee uh in place
+
+[00:51:06] definitely would be ideal if it was
+
+[00:51:08] floating so that that fee was fixed at
+
+[00:51:09] 7% as opposed to 10% for some Assets Now
+
+[00:51:12] with respect to the crafting fee and and
+
+[00:51:14] honestly the marketplace fee as well
+
+[00:51:16] those are the way that the Dow makes
+
+[00:51:17] money and um the long term is that the
+
+[00:51:21] Dow is the primary kind of Revenue uh
+
+[00:51:25] generating entity it's the thing that is
+
+[00:51:27] is getting the money and then ideally
+
+[00:51:28] it's the thing that's redistributing uh
+
+[00:51:31] money into the economy would would kind
+
+[00:51:33] of be like my I dream um so it is
+
+[00:51:36] important that the Dow makes money uh so
+
+[00:51:38] I definitely agree it's tough um it's
+
+[00:51:41] tough that there is this crouching fee
+
+[00:51:43] but remember you know that goes
+
+[00:51:46] exclusively to uh token holders that
+
+[00:51:48] goes exclusive to people who are who
+
+[00:51:50] locked in the Dow or who are locked in
+
+[00:51:52] the post Locker so um no like direct
+
+[00:51:55] utility just uh yet but
+
+[00:51:59] um I did not say uh we aren't building
+
+[00:52:03] star atas for fun I amended my statement
+
+[00:52:06] almost immediately we are building it
+
+[00:52:08] for fun but we're also building it to
+
+[00:52:11] make a
+
+[00:52:12] living
+
+[00:52:14] um there's there's a really interesting
+
+[00:52:16] question uh that just popped into my
+
+[00:52:18] head with respect to fees and the Dow
+
+[00:52:22] um I can't remember what it was oh yeah
+
+[00:52:26] yeah um I I I'm gonna just kind of throw
+
+[00:52:29] this out there because it's something um
+
+[00:52:31] I know all good all
+
+[00:52:33] good it's something that I've been
+
+[00:52:35] thinking about a lot lately and it's
+
+[00:52:37] something that we're actually really
+
+[00:52:39] seriously uh considering there's a
+
+[00:52:43] potential opportunity or at least there
+
+[00:52:45] was for quite a while to use the Dow
+
+[00:52:48] Revenue to subsidize Atlas uh or sorry
+
+[00:52:52] Soul transaction fees in the game the
+
+[00:52:54] idea being that this would help smaller
+
+[00:52:56] players and grow the ecosystem by
+
+[00:53:00] allowing people to basically
+
+[00:53:02] um uh allowing people to basically play
+
+[00:53:05] the game for free in terms of the the
+
+[00:53:08] transaction cost they'd obviously still
+
+[00:53:09] need to ship and all that stuff but
+
+[00:53:12] um yeah that's something I I know we've
+
+[00:53:15] been talking a lot about Apollo code
+
+[00:53:17] name Apollo um you know this like this
+
+[00:53:20] atas side chain this salana uh uh fork
+
+[00:53:25] and then also this idea of paying fees I
+
+[00:53:28] think it's uh probably the number one
+
+[00:53:30] thing that's on my mind right now
+
+[00:53:32] because I just don't really see how we
+
+[00:53:33] can practically scale the economy in in
+
+[00:53:36] the current state um because you
+
+[00:53:40] know it's important to realize that like
+
+[00:53:43] if the economy was composed of a bunch
+
+[00:53:45] of people that were all identical no
+
+[00:53:47] matter what their size and in this case
+
+[00:53:50] I'm talking about Wales um it wouldn't
+
+[00:53:52] work the reason that economies function
+
+[00:53:54] is because people are different and
+
+[00:53:55] people have different preferences and
+
+[00:53:57] they have different capabilities they're
+
+[00:53:58] good at some things and bad at others
+
+[00:54:00] it's the only reason economies function
+
+[00:54:02] in and that markets exist so we need
+
+[00:54:05] small players we need big players we
+
+[00:54:08] need medium-sized players and that's why
+
+[00:54:11] figuring this fee thing out is so
+
+[00:54:14] important to me because if we don't
+
+[00:54:16] figure it out then we're isolating a
+
+[00:54:18] massive massive portion of our player
+
+[00:54:20] population that are those smaller
+
+[00:54:22] players that for for them the fee is you
+
+[00:54:24] know it's exorbitant
+
+[00:54:26] um honestly I I just like I I I went
+
+[00:54:31] into Sage um a couple days ago just for
+
+[00:54:35] fun because I you know I'm studying this
+
+[00:54:37] stuff right now and it's it's on the top
+
+[00:54:38] of my mind I was like okay how much does
+
+[00:54:40] it cost me to start over and I started
+
+[00:54:43] um literally with nothing well okay
+
+[00:54:45] obviously Atlas in my in my wallet um
+
+[00:54:48] soen Atlas in my wallet I just started
+
+[00:54:50] from nothing and then all of a sudden I
+
+[00:54:51] realized like oh my gosh like um there's
+
+[00:54:54] a lot of um there's a lot of gloss
+
+[00:54:56] associated with his game and even the
+
+[00:54:58] transaction fees with the priority fees
+
+[00:55:00] are you know it used to be a fraction of
+
+[00:55:02] a penny and now it's like oh that's like
+
+[00:55:05] actually like the tenth of a penny or a
+
+[00:55:07] penny just to do this thing it's
+
+[00:55:10] uh it's a huge problem and it's
+
+[00:55:12] something we need to solve I think it's
+
+[00:55:13] probably the most in important problem
+
+[00:55:17] that we need to solve um because without
+
+[00:55:20] players we don't have an economy uh
+
+[00:55:22] without without economic agents I should
+
+[00:55:25] say we don't have an economy um and you
+
+[00:55:29] know having a couple of really
+
+[00:55:30] interesting conversations with the
+
+[00:55:32] community team this week has made me
+
+[00:55:34] realize just how uh how unique our
+
+[00:55:38] player base is and uh yeah this is like
+
+[00:55:41] it's a it's a shame because the
+
+[00:55:42] technology is kind of biting Us in the
+
+[00:55:44] butt right now and we want to figure out
+
+[00:55:46] how to overcome it um but anyway I'm
+
+[00:55:49] rambling I should stop rambling don't
+
+[00:55:52] let me
+
+[00:55:53] ramble just leak everything Chris
+
+[00:55:57] people will appreciate
+
+[00:55:59] it no no uh maybe not Michael but people
+
+[00:56:03] here will
+
+[00:56:04] appreciate no I'm I'm the last person
+
+[00:56:07] that that
+
+[00:56:09] week I've got I've got I don't purposely
+
+[00:56:13] leak I leak on accident so that's the
+
+[00:56:15] one kind of difference between me and
+
+[00:56:18] other
+
+[00:56:18] leakers that's what they all say
+
+[00:56:23] Chris yeah there's a question there's a
+
+[00:56:25] question for from Brian uh I don't know
+
+[00:56:28] if you can answer it or or you prefer to
+
+[00:56:31] not answer it but or if there's even an
+
+[00:56:33] answer at this moment uh about the u5
+
+[00:56:38] economics if there are any updates
+
+[00:56:40] on u5 related
+
+[00:56:43] economics
+
+[00:56:45] um let me
+
+[00:56:49] think there are
+
+[00:56:53] um there are it's
+
+[00:56:56] it's tough because the first thing the
+
+[00:56:59] the first thing we need to be able to do
+
+[00:57:00] is um implement the ue5 environment
+
+[00:57:04] onchain and the earliest version of that
+
+[00:57:08] is going to be see I don't even know
+
+[00:57:11] what I'm I don't know what's public let
+
+[00:57:13] me send you guys a DM real
+
+[00:57:17] quick
+
+[00:57:21] is somebody somebody say yes or no let
+
+[00:57:25] me say
+
+[00:57:28] yes yes yes oh okay okay sorry I I've
+
+[00:57:31] been uh I've been out of the out of the
+
+[00:57:32] community chat for too long but um you
+
+[00:57:35] know so the first implementation of
+
+[00:57:37] economy in u5 I'm going to be honest is
+
+[00:57:39] going to be Fleet command um it's going
+
+[00:57:41] to be the ue5 implementation of sage um
+
+[00:57:44] that is going to be the first use case
+
+[00:57:46] once we have that infrastructure in
+
+[00:57:48] place we then will have an established
+
+[00:57:51] test case for how do onchain mechanics
+
+[00:57:53] work in ue5 because right now we don't
+
+[00:57:55] really have that we have the ability to
+
+[00:57:58] read your wallet information and figure
+
+[00:58:00] out what your Fleet looks like or what
+
+[00:58:02] ships are in your wallet in ue5 but in
+
+[00:58:04] terms of trade and executing
+
+[00:58:06] transactions via ue5 that's a totally
+
+[00:58:09] different story allowing someone to
+
+[00:58:11] click a button in ue5 and have it
+
+[00:58:12] execute a transaction on chain is
+
+[00:58:14] different than just reading your wallet
+
+[00:58:16] information uh and and your onchain data
+
+[00:58:19] so once we get that that's when we'll be
+
+[00:58:22] able to um
+
+[00:58:26] uh oh you can you know the KC type based
+
+[00:58:29] on how close no we're joking we're
+
+[00:58:32] joking um well yeah once we have that
+
+[00:58:36] you know that that'll be where we can
+
+[00:58:37] start to explore the ue5 uh the the the
+
+[00:58:43] oh my god um the flagship product you
+
+[00:58:46] know the the open world uh
+
+[00:58:48] Etc um but you know I think like
+
+[00:58:51] realistically the first implementation
+
+[00:58:52] of of economy in ue5 and and really the
+
+[00:58:55] one that I'm pushing for uh internally
+
+[00:58:58] is is just some sort of competitive
+
+[00:59:00] component um I really would love uh the
+
+[00:59:03] value ad I think right now would be to
+
+[00:59:06] allow uh competitions to yield uh star
+
+[00:59:10] Atlas economic assets this could be
+
+[00:59:13] Atlas this could be ic's this could be
+
+[00:59:15] in-game resources um there's some tricky
+
+[00:59:18] economic work that needs to be done
+
+[00:59:19] there in terms of the design but uh but
+
+[00:59:22] really like just add adding a layer to
+
+[00:59:25] the economy involves uh skill would be
+
+[00:59:28] very very big there are some huge
+
+[00:59:31] challenges that come with that not just
+
+[00:59:33] on the blockchain side but on the
+
+[00:59:34] anti-che side you know I think there's
+
+[00:59:37] been a pretty a decent amount of
+
+[00:59:39] criticism of uh Off the Grid in terms of
+
+[00:59:42] botting you know when you have money on
+
+[00:59:44] the line there's the money is the
+
+[00:59:47] heaviest incentive in the world to cheat
+
+[00:59:50] uh so you know we would have to have
+
+[00:59:51] that under control before we allow
+
+[00:59:53] seriously you know big Stakes uh to to
+
+[00:59:58] to be
+
+[01:00:02] online
+
+[01:00:05] nice nice
+
+[01:00:08] um there's one question from bod and I
+
+[01:00:11] think we can close Chris we're over the
+
+[01:00:15] hour he's asking besides the reduction
+
+[01:00:18] you are one of the two recipes going to
+
+[01:00:21] have the same ingredients as the current
+
+[01:00:24] one
+
+[01:00:28] uh they they will they'll be pretty
+
+[01:00:30] similar to be honest um what needs to
+
+[01:00:33] happen uh and this is probably a little
+
+[01:00:36] bit of alpha but we we are planning on
+
+[01:00:37] blowing up the scope of the number of
+
+[01:00:40] resources in game by quite a bit um and
+
+[01:00:43] hopefully soon so once we've done that
+
+[01:00:45] we can start to get more creative with
+
+[01:00:47] the pick right now the ic's are pretty
+
+[01:00:49] limited because I'm I'm selecting them
+
+[01:00:52] uh based on a bunch of different
+
+[01:00:54] constraints and when you only have like
+
+[01:00:56] you know 32 options um or 33 options in
+
+[01:01:00] terms of like potential inputs um you
+
+[01:01:03] know that really kind of limits what you
+
+[01:01:05] can do um and one of those inputs needs
+
+[01:01:08] to be sdus uh so I'm really looking
+
+[01:01:11] forward to exploding the the the space
+
+[01:01:13] of of inputs and material um now I can't
+
+[01:01:18] there's no guarantee that that's going
+
+[01:01:19] to happen like as soon as I would like
+
+[01:01:22] it to happen um but that definitely is a
+
+[01:01:25] part of the plan uh there's there's
+
+[01:01:27] concerns about whether or not that would
+
+[01:01:29] make the game too difficult to uh play
+
+[01:01:32] for new players and and make it
+
+[01:01:33] unattracted to a new player coming in uh
+
+[01:01:36] that said I I don't think so I I think
+
+[01:01:38] if somebody sees you know oh okay
+
+[01:01:40] there's you know
+
+[01:01:42] there's 200 resources instead of 32
+
+[01:01:45] that's not going to you know that's not
+
+[01:01:46] going to deter them I think 32 it
+
+[01:01:48] already is pretty overwhelming so uh
+
+[01:01:50] anyway I will stop talking uh because
+
+[01:01:52] we're getting into ter territory uh yeah
+
+[01:01:55] you know but
+
+[01:01:56] um I'm also I'm I'm in like 18 hours of
+
+[01:02:00] of fast right now so I need to go get
+
+[01:02:02] some food wow congrats dude gota gotta
+
+[01:02:06] stay
+
+[01:02:07] healthy yeah well done cool thank you
+
+[01:02:11] guys so much this has been uh this has
+
+[01:02:12] been a blast I'm always just one of the
+
+[01:02:15] highlights of my month is uh is giving
+
+[01:02:17] these these chats and uh interacting
+
+[01:02:19] with the community yeah and I know
+
+[01:02:22] they're much appreciated by all the
+
+[01:02:24] community so thanks and G for coming
+
+[01:02:27] here to share all the details and your
+
+[01:02:31] thought process as well so thank
+
+[01:02:34] you sweet yeah guys thank you I did see
+
+[01:02:38] your suggestions regarding the community
+
+[01:02:40] dashboard um any more come to mind um I
+
+[01:02:44] trust Sant Santi Jose and Dom to forward
+
+[01:02:48] them to me uh you put them in the econ
+
+[01:02:50] Channel or something
+
+[01:02:52] so yeah thanks for having us for another
+
+[01:02:54] month and uh we'll actually see you guys
+
+[01:02:56] pretty soon uh in the first week of
+
+[01:02:59] February so not a huge
+
+[01:03:01] break true yeah all right thanks
+
+[01:03:05] everyone thanks Eon team again for
+
+[01:03:08] joining and for sharing everything and
+
+[01:03:11] we'll see you the next one tomorrow
+
+[01:03:12] golden Carnival be there CH chow or B
+
+[01:03:15] Square bye bye bye guys see you
+
+[01:03:24] guys for
