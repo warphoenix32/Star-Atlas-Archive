@@ -1,6 +1,6 @@
 {
   "campaign_id": "social-governance-semantic-enrichment",
-  "status": "PASS",
+  "status": "FAIL",
   "corpus": {
     "raw_social_rows": 799,
     "unique_posts": 796,
@@ -54,10 +54,8 @@
   },
   "governance": {
     "result_counts": {
-      "ELECTION_RESULT_RECORDED": 2,
       "FAILED": 4,
-      "PASSED": 24,
-      "UNKNOWN": 3
+      "PASSED": 29
     },
     "passed_binary_pips": [
       1,
@@ -103,6 +101,12 @@
       25,
       27
     ],
+    "council_tracker_records_reconciled": 33,
+    "attributed_lifecycle_findings": {
+      "PIP-14": "TERMINATED",
+      "PIP-17": "CANCELED",
+      "PIP-31": "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED"
+    },
     "supersession_and_dependencies": [
       {
         "from": 23,

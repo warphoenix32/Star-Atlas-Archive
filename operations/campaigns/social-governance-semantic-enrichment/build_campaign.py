@@ -30,6 +30,7 @@ GOV_RECORDS = REPO / "archive/source-records/social-governance-semantic-enrichme
 OPS = REPO / "operations/campaigns/social-governance-semantic-enrichment"
 PIP_REVIEW = OPS / "pip-corpus-review.md"
 PIP_REVIEW_SUMMARY = OPS / "pip-corpus-review-summary.json"
+COUNCIL_TRACKER = OPS / "input-council-tracker/council-pip-tracker-semantic-records.jsonl"
 HISTORICAL_SOCIAL_COUNTS = {"promotion_candidates": 345, "timeline_candidates": 65}
 
 TOPICS = {
@@ -563,16 +564,20 @@ def vote_percentages(votes: dict) -> dict:
     }
 
 
-def reviewed_governance_result(number: int, payload: dict, votes: dict, review_summary: dict) -> dict:
+def reviewed_governance_result(number: int, payload: dict, votes: dict, review_summary: dict, council: dict | None) -> dict:
     elections = set(review_summary["results"]["elections_or_nonbinary"])
     unresolved = set(review_summary["results"]["election_results_unresolved_in_capture"])
     ended = bool(payload.get("votingEndsAt") and payload["votingEndsAt"] < CAPTURE_TIMESTAMP)
     election = parse_election_results(payload)
     if number in elections:
         winners = election.get("winners", []) if election else []
-        result = "UNKNOWN" if number in unresolved or not winners else "ELECTION_RESULT_RECORDED"
-        basis = "Captured portal electionResults supplies the ranked-choice winners." if winners else "Captured portal payload has no conclusive electionResults winner field; no winner is inferred."
-        return {"vote_mechanism": "RANKED_CHOICE_ELECTION", "machine_result": result, "reviewed_result": result, "reviewed_result_basis": basis, "election_winners": winners, "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD", "voting_window_ended": ended}
+        portal_result = "UNKNOWN" if number in unresolved or not winners else "ELECTION_RESULT_RECORDED"
+        result = "PASSED" if council and str(council.get("vote_result", "")).upper() == "PASSED" else portal_result
+        basis = ("Council-maintained PIP Tracker reports the election PIP as Passed; the captured portal does not identify winners, so winner identification remains unresolved."
+                 if result == "PASSED" and portal_result == "UNKNOWN" else
+                 "Captured portal electionResults supplies the ranked-choice winners." if winners else
+                 "Captured portal payload has no conclusive electionResults winner field; no winner is inferred.")
+        return {"vote_mechanism": "RANKED_CHOICE_ELECTION", "machine_result": portal_result, "portal_result": portal_result, "reviewed_result": result, "reviewed_result_basis": basis, "election_winners": winners, "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD_FOR_WINNERS; COUNCIL_TRACKER_MAY_ESTABLISH_REPORTED_PASSAGE", "voting_window_ended": ended}
     yes = as_decimal(votes.get("yes", {}).get("voting_power"))
     no = as_decimal(votes.get("no", {}).get("voting_power"))
     if ended and yes is not None and no is not None:
@@ -580,7 +585,7 @@ def reviewed_governance_result(number: int, payload: dict, votes: dict, review_s
         basis = "Voting ended and YES PVP exceeded NO PVP." if result == "PASSED" else "Voting ended and NO PVP was greater than or equal to YES PVP."
     else:
         result, basis = "UNKNOWN", "Voting window or binary PVP totals are incomplete."
-    return {"vote_mechanism": "BINARY_PVP", "machine_result": result, "reviewed_result": result, "reviewed_result_basis": basis, "election_winners": [], "decision_formula": "YES_PVP > NO_PVP => PASSED; NO_PVP >= YES_PVP => FAILED; ABSTAIN_RECORDED_NOT_DECISIVE", "voting_window_ended": ended}
+    return {"vote_mechanism": "BINARY_PVP", "machine_result": result, "portal_result": result, "reviewed_result": result, "reviewed_result_basis": basis, "election_winners": [], "decision_formula": "YES_PVP > NO_PVP => PASSED; NO_PVP >= YES_PVP => FAILED; ABSTAIN_RECORDED_NOT_DECISIVE", "voting_window_ended": ended}
 
 
 def governance_topics(payload):
@@ -594,6 +599,8 @@ def build_governance(entity_catalog):
     seed = load_json(PIP_SEED)
     seed_by_number = {x["pip_number"]: x for x in seed}
     review_summary, review_table = load_pip_review()
+    council_records = [json.loads(line) for line in COUNCIL_TRACKER.read_text(encoding="utf-8").splitlines() if line.strip()]
+    council_by_number = {item["pip_number"]: item for item in council_records}
     relationships = review_summary["supersession_and_dependencies"]
     related_by_number: dict[int, list[dict]] = defaultdict(list)
     for relationship in relationships:
@@ -609,7 +616,8 @@ def build_governance(entity_catalog):
         author = markdown_author(description)
         author_value = author or payload.get("authorPublicKey") or None
         votes = vote_map(payload)
-        review_result = reviewed_governance_result(number, payload, votes, review_summary)
+        council = council_by_number.get(number)
+        review_result = reviewed_governance_result(number, payload, votes, review_summary, council)
         result = review_result["reviewed_result"]
         topics = governance_topics(payload)
         entity_text = " ".join([payload.get("title", ""), payload.get("brief", ""), description])
@@ -641,6 +649,10 @@ def build_governance(entity_catalog):
         related_pips = sorted({item["from"] if item["to"] == number else item["to"] for item in related_by_number[number]})
         funding_source = "STAR_ATLAS_ECOSYSTEM_FUND" if match(r"\becosystem fund\b", description) else "STAR_ATLAS_DAO_TREASURY" if match(r"\bdao treasury|treasury\b", description) else "UNKNOWN"
         implementation_pending = result in {"PASSED", "ELECTION_RESULT_RECORDED"}
+        execution_state = "IMPLEMENTATION_PENDING" if implementation_pending else "UNKNOWN"
+        if number == 14: execution_state = "TERMINATED"
+        elif number == 17: execution_state = "CANCELED"
+        elif number == 31: execution_state = "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED"
         record = {
             "source_id": source["source_id"], "pip_number": number,
             "proposal_uuid": source["proposal_uuid"], "proposal_url": source["proposal_url"],
@@ -661,9 +673,20 @@ def build_governance(entity_catalog):
             "all_vote_totals": votes, "descriptive_vote_percentages": vote_percentages(votes), "quorum": "NOT_APPLICABLE_UNDER_OWNER_APPROVED_BINARY_RULE",
             "proposal_state": "PROPOSED", "vote_state": result, "result": result,
             "raw_portal_status": raw_status, "machine_computed_result": review_result["machine_result"],
+            "portal_result": review_result["portal_result"],
             "reviewed_result": result, "reviewed_table_result": review_table[number]["reviewed_table_result"], "reviewed_result_basis": review_result["reviewed_result_basis"], "decision_formula": review_result["decision_formula"],
-            "approval_state": approval, "execution_state": "IMPLEMENTATION_PENDING" if implementation_pending else "UNKNOWN", "execution_evidence": [],
+            "approval_state": approval, "execution_state": execution_state, "execution_evidence": [],
             "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE", "election_winners": winners,
+            "council_tracker": ({
+                "source_id": council["source_id"], "source_class": council["source_class"],
+                "reported_vote_result": council.get("vote_result"), "reported_phase": council.get("phase"),
+                "reported_implementation_state": council.get("implementation_state"),
+                "reported_lifecycle_states": council.get("lifecycle_states", []),
+                "payment_fields": council.get("payment_fields", {}),
+                "roi_assessment": council.get("council_roi_assessment"), "note": council.get("note"),
+                "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+                "independent_verification": False,
+            } if council else None),
             "portal_status": payload.get("status"), "portal_current_status": payload.get("currentStatus"),
             "capture_timestamp": record_capture_timestamp, "content_checksum": hashlib.sha256(raw_bytes).hexdigest(),
             "topics": topics, "promotion_targets": promotion_targets(topics),
@@ -671,7 +694,7 @@ def build_governance(entity_catalog):
             "supersedes": supersedes, "superseded_by": superseded_by, "related_pips": related_pips,
             "human_review_status": "REVIEWED", "reconciliation_notes": reconciliation_notes,
             "contradictions": ["Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."] if stale_status else [],
-            "research_gaps": (["Official election winner evidence is missing from the captured portal payload."] if result == "UNKNOWN" and review_result["vote_mechanism"] == "RANKED_CHOICE_ELECTION" else []) + (["Historical PIP-1 quorum text is preserved; the repository owner-approved current operating rule applies no quorum to completed binary results."] if number == 1 else []) + ["Independent implementation evidence is not present in the captured proposal payload."],
+            "research_gaps": (["Official election winner evidence is missing from the captured portal payload."] if not winners and review_result["vote_mechanism"] == "RANKED_CHOICE_ELECTION" else []) + (["Historical PIP-1 quorum text is preserved; the repository owner-approved current operating rule applies no quorum to completed binary results."] if number == 1 else []) + ["Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified." if council else "Council tracker has no matching record.", "Independent implementation evidence is not present in the captured proposal payload."],
             "limitations": limitations,
         }
         records.append(record)
@@ -708,6 +731,18 @@ def build_governance(entity_catalog):
     write_json(GOV_OUT / "pip-implementation-gaps.json", {**common, "gap_count": len(gaps), "gaps": gaps})
     write_json(GOV_OUT / "pip-supersession-index.json", {**common, "relationship_count": len(supersession), "relationships": supersession})
     write_json(GOV_OUT / "institutional-relationships.json", {**common, "relationship_count": len(institutional_relationships), "relationships": institutional_relationships})
+    reconciliation = [{
+        "pip_number": r["pip_number"], "official_portal_source_id": r["source_id"],
+        "council_tracker_source_id": r["council_tracker"]["source_id"] if r["council_tracker"] else None,
+        "portal_result": r["portal_result"], "council_reported_result": r["council_tracker"]["reported_vote_result"] if r["council_tracker"] else None,
+        "reviewed_result": r["reviewed_result"], "winner_identification": r["election_winners"],
+        "execution_state": r["execution_state"], "payment_fields": r["council_tracker"]["payment_fields"] if r["council_tracker"] else {},
+        "council_roi_assessment": r["council_tracker"]["roi_assessment"] if r["council_tracker"] else None,
+        "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+        "attribution_required": bool(r["council_tracker"]), "independently_verified": False,
+        "manual_review_required": not bool(r["council_tracker"]) or (r["vote_mechanism"] == "RANKED_CHOICE_ELECTION" and not r["election_winners"]),
+    } for r in records]
+    write_json(GOV_OUT / "pip-source-reconciliation.json", {**common, "record_count": len(reconciliation), "records": reconciliation})
     return records
 
 
@@ -777,9 +812,9 @@ The campaign preserved the supplied export without rewriting it, enriched all **
 - Implementation gaps requiring primary evidence: {sum(r['execution_evidence_status'] == 'MISSING_INDEPENDENT_PRIMARY_EVIDENCE' for r in pips)}
 - Supersession/dependency relationships: {review_summary['supersession_and_dependencies']}
 
-Completed binary results use the owner-approved formula `YES PVP > NO PVP => PASSED; NO PVP >= YES PVP => FAILED`; abstentions are recorded but non-decisive and no quorum is imposed. Elections use only the official portal `electionResults` field. `PASSED`/`APPROVED` records are not treated as implemented, and every PIP retains an implementation-evidence gap until separate primary evidence is captured.
+Completed binary results use the owner-approved formula `YES PVP > NO PVP => PASSED; NO PVP >= YES PVP => FAILED`; abstentions are recorded but non-decisive and no quorum is imposed. Election winners use only the official portal `electionResults` field. The Council tracker may establish an attributed reported passage result without identifying a winner. `PASSED`/`APPROVED` records are not treated as implemented, and every PIP retains an independent implementation-evidence gap.
 
-All 33 PIPs are reconciled to the governing human corpus review and carry `human_review_status: REVIEWED`. Raw portal status, machine computation, reviewed result, approval, and execution fields remain distinct. PIP-13, PIP-15, PIP-19, and PIP-26 remain failed. PIP-11, PIP-25, and PIP-27 remain unresolved elections.
+All 33 PIPs are reconciled to the governing human corpus review and Council-maintained operational tracker. Raw portal status, Council-reported result, reviewed result, approval, and execution remain distinct. PIP-11, PIP-25, and PIP-27 are Council-reported as passed while portal winner identification remains unresolved. PIP-14 is Council-reported terminated after 1/2 milestones; PIP-17 canceled after 0/1 milestones with zero ATLAS paid; PIP-31 withdrawn after passage and not implemented. These operational fields are attributed, not independently verified.
 
 ## Canonical-promotion recommendations
 
@@ -811,6 +846,8 @@ Validation status: **{validation['status']}**. See `validation-report.md` for th
             "result_counts": dict(sorted(pip_results.items())), "passed_binary_pips": review_summary["results"]["passed_binary"],
             "failed_binary_pips": review_summary["results"]["failed_binary"], "election_pips": review_summary["results"]["elections_or_nonbinary"],
             "unresolved_election_pips": review_summary["results"]["election_results_unresolved_in_capture"],
+            "council_tracker_records_reconciled": sum(bool(r["council_tracker"]) for r in pips),
+            "attributed_lifecycle_findings": {"PIP-14": "TERMINATED", "PIP-17": "CANCELED", "PIP-31": "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED"},
             "supersession_and_dependencies": review_summary["supersession_and_dependencies"],
             "implementation_evidence_gaps": sum(r["execution_evidence_status"] == "MISSING_INDEPENDENT_PRIMARY_EVIDENCE" for r in pips),
             "canonical_promotion_recommendations": review_summary["canonical_promotion_targets"],
@@ -824,7 +861,7 @@ Validation status: **{validation['status']}**. See `validation-report.md` for th
 
 All 33 PIPs require separate primary execution evidence before an `IMPLEMENTED` or `PARTIALLY_IMPLEMENTED` state can be assigned. Candidate evidence includes official implementation reports, on-chain transactions, treasury transfers, deployed policy/product changes, and direct implementation records.
 
-PIP-11, PIP-25, and PIP-27 lack conclusive official election winner fields in the captured portal material and remain unresolved. No winner is inferred from candidate ordering or participation totals.
+PIP-11, PIP-25, and PIP-27 are reported Passed by the Council tracker but lack conclusive official election winner fields in the captured portal material. Passage and winner identification remain separate; no winner is inferred.
 
 ## Portal lifecycle metadata
 
@@ -871,7 +908,9 @@ Near-duplicate clustering uses normalized exact text or deterministic token over
 
 ## Governance rules
 
-Completed binary PIPs use `YES > NO => PASSED` and `NO >= YES => FAILED`; abstentions are recorded but non-decisive and no quorum is required. Ranked-choice PIPs use only the portal `electionResults` field. Raw portal status, reviewed vote result, approval, and implementation are separate. A passed vote is never implementation evidence.
+Completed binary PIPs use `YES > NO => PASSED` and `NO >= YES => FAILED`; abstentions are recorded but non-decisive and no quorum is required. Ranked-choice winners use only the portal `electionResults` field. The Council tracker may establish an attributed reported passage result without resolving winners. Raw portal status, Council-reported result, reviewed result, approval, and execution are separate. A passed vote is never implementation evidence.
+
+`pip-source-reconciliation.json` reconciles every portal capture with the Council tracker. Council ROI, payment, milestone, termination, cancellation, and withdrawal fields remain attributed operational evidence and are never labeled independently verified. PIP-11/25/27 retain `PASSED` with unresolved winners; PIP-14 is `TERMINATED`; PIP-17 is `CANCELED`; and PIP-31 is `WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED`.
 
 The governing human review is `pip-corpus-review.md` with structured conclusions in `pip-corpus-review-summary.json`. Every semantic PIP record is reconciled to it and marked `REVIEWED`.
 
@@ -884,8 +923,8 @@ python operations/campaigns/social-governance-semantic-enrichment/validate_campa
 """
     (OPS / "README.md").write_text(readme, encoding="utf-8")
 
-    generated = [p for base in [SOCIAL_OUT, GOV_OUT, OPS] for p in base.rglob("*") if p.is_file() and p.name != "manifest.json" and p.suffix != ".pyc" and "__pycache__" not in p.parts and (OPS / "input-package") not in p.parents]
-    inputs = [p for base in [REPO / "archive/raw/social-governance-semantic-enrichment", REPO / "archive/normalized/social-governance-semantic-enrichment", REPO / "archive/source-records/social-governance-semantic-enrichment", OPS / "input-package"] for p in base.rglob("*") if p.is_file()]
+    generated = [p for base in [SOCIAL_OUT, GOV_OUT, OPS] for p in base.rglob("*") if p.is_file() and p.name != "manifest.json" and p.suffix != ".pyc" and "__pycache__" not in p.parts and (OPS / "input-package") not in p.parents and (OPS / "input-council-tracker") not in p.parents]
+    inputs = [p for base in [REPO / "archive/raw/social-governance-semantic-enrichment", REPO / "archive/normalized/social-governance-semantic-enrichment", REPO / "archive/source-records/social-governance-semantic-enrichment", OPS / "input-package", OPS / "input-council-tracker"] for p in base.rglob("*") if p.is_file()]
     manifest = {
         "campaign_id": CAMPAIGN_ID, "schema_version": "2.0.0", "status": validation["status"],
         "input_package_sha256": "bc209310c968cfb5f77e0962fb091d54bde8ed949a583beF2ace07b042f706d1".lower(),
@@ -916,7 +955,7 @@ def validate(posts, social, pips, raw_rows):
     add("Retweet evidence boundary", all(not r['promotion_targets'] and not r["promotion_decision"]["eligible"] and 'LOW_VALUE' in r['evidence_classes'] for r in social if r['is_retweet']), "No retweet is promoted as an original first-party claim")
     add("Candidate evidence", all(r["promotion_decision"]["decision_reasons"] and r["content"] for r in social) and all(r["timeline_decision"]["exclusion_reason"] or r["timeline_decision"]["event_type"] for r in social), "Every included candidate has reasons/supporting text and every exclusion has a reason")
     add("Human PIP review coverage", all(r["human_review_status"] == "REVIEWED" and r["reviewed_institutional_significance"] for r in pips), "All 33 PIPs reconcile to the governing corpus review")
-    add("Governance lifecycle separation", all(r['proposal_state'] == 'PROPOSED' and r['approval_state'] in {'APPROVED','FAILED','UNKNOWN','ELECTION_RESULT_RECORDED'} and r['execution_state'] in {'IMPLEMENTATION_PENDING','PARTIALLY_IMPLEMENTED','IMPLEMENTED','UNKNOWN'} for r in pips), "Raw portal status, vote result, approval, and implementation use distinct fields")
+    add("Governance lifecycle separation", all(r['proposal_state'] == 'PROPOSED' and r['approval_state'] in {'APPROVED','FAILED','UNKNOWN','ELECTION_RESULT_RECORDED'} and r['execution_state'] in {'IMPLEMENTATION_PENDING','PARTIALLY_IMPLEMENTED','IMPLEMENTED','UNKNOWN','TERMINATED','CANCELED','WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED'} for r in pips), "Raw portal status, vote result, approval, and implementation use distinct fields")
     add("Binary vote rule", all((r["reviewed_result"] == ("PASSED" if as_decimal(r["yes_pvp"]) > as_decimal(r["no_pvp"]) else "FAILED")) for r in pips if r["vote_mechanism"] == "BINARY_PVP"), "Completed binary results use YES > NO; abstentions are not decisive")
     add("Election rule", all(r["yes_pvp"] is None and r["no_pvp"] is None for r in pips if r["vote_mechanism"] == "RANKED_CHOICE_ELECTION"), "Ranked-choice elections are not processed as binary PIPs")
     add("Failed PIP preservation", all(next(r for r in pips if r["pip_number"] == number)["reviewed_result"] == "FAILED" for number in [13, 15, 19, 26]), "PIP-13, PIP-15, PIP-19, and PIP-26 remain failed")

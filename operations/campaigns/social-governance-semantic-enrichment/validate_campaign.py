@@ -48,7 +48,7 @@ def main() -> None:
     ]
     checks: dict[str, object] = {}
 
-    deterministic_paths = sorted([p for root in (SOCIAL, GOVERNANCE, OPS) for p in root.rglob("*") if p.is_file() and p.suffix != ".pyc" and "__pycache__" not in p.parts and p.name not in {"manifest.json", "validation-report.json", "validation-report.md"} and (OPS / "input-package") not in p.parents])
+    deterministic_paths = sorted([p for root in (SOCIAL, GOVERNANCE, OPS) for p in root.rglob("*") if p.is_file() and p.suffix != ".pyc" and "__pycache__" not in p.parts and p.name not in {"manifest.json", "validation-report.json", "validation-report.md"} and (OPS / "input-package") not in p.parents and (OPS / "input-council-tracker") not in p.parents])
     before = {p.relative_to(REPO).as_posix(): digest(p) for p in deterministic_paths}
     generated = command([sys.executable, str(GENERATOR)])
     after = {p.relative_to(REPO).as_posix(): digest(p) for p in deterministic_paths}
@@ -82,6 +82,7 @@ def main() -> None:
     timelines = json.loads((SOCIAL / "timeline-candidates.json").read_text(encoding="utf-8"))["candidates"]
     clusters = json.loads((SOCIAL / "duplicate-clusters.json").read_text(encoding="utf-8"))["clusters"]
     pips = json.loads((GOVERNANCE / "pip-registry-semantic.json").read_text(encoding="utf-8"))["proposals"]
+    reconciliation = json.loads((GOVERNANCE / "pip-source-reconciliation.json").read_text(encoding="utf-8"))["records"]
     seed = json.loads((REPO / "archive/normalized/social-governance-semantic-enrichment/governance/pip-1-33-registry-seed.json").read_text(encoding="utf-8"))
 
     def require(condition: bool, name: str, failure: str) -> None:
@@ -114,10 +115,14 @@ def main() -> None:
     require(all("ABSTAIN_RECORDED_NOT_DECISIVE" in x["decision_formula"] for x in binary), "abstention_non_decisive", "binary formula does not preserve abstention boundary")
     require({x["pip_number"] for x in elections} == {6, 7, 11, 25, 27} and all(x["yes_pvp"] is None and x["no_pvp"] is None for x in elections), "elections_not_binary", "an election was processed as binary")
     require(all(next(x for x in pips if x["pip_number"] == n)["reviewed_result"] == "FAILED" for n in [13, 15, 19, 26]), "required_failed_pips", "PIP-13, 15, 19, or 26 is not failed")
-    require(all(next(x for x in pips if x["pip_number"] == n)["reviewed_result"] == "UNKNOWN" and not next(x for x in pips if x["pip_number"] == n)["election_winners"] for n in [11, 25, 27]), "unresolved_elections", "PIP-11, 25, or 27 improperly has a winner")
+    require(all(next(x for x in pips if x["pip_number"] == n)["reviewed_result"] == "PASSED" and next(x for x in pips if x["pip_number"] == n)["portal_result"] == "UNKNOWN" and not next(x for x in pips if x["pip_number"] == n)["election_winners"] for n in [11, 25, 27]), "council_reported_election_passage", "PIP-11, 25, or 27 does not preserve Council-reported passage separately from unresolved portal winners")
+    require(next(x for x in pips if x["pip_number"] == 14)["execution_state"] == "TERMINATED" and next(x for x in pips if x["pip_number"] == 14)["council_tracker"]["payment_fields"]["completed_milestones"] == "1.0" and next(x for x in pips if x["pip_number"] == 14)["council_tracker"]["payment_fields"]["total_milestones"] == "2.0", "pip_14_terminated", "PIP-14 Council termination or milestone evidence is missing")
+    require(next(x for x in pips if x["pip_number"] == 17)["execution_state"] == "CANCELED" and next(x for x in pips if x["pip_number"] == 17)["council_tracker"]["payment_fields"]["paid_atlas"] == "0.0", "pip_17_canceled", "PIP-17 cancellation or zero-payment evidence is missing")
+    require(next(x for x in pips if x["pip_number"] == 31)["execution_state"] == "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED", "pip_31_withdrawn", "PIP-31 withdrawal-after-passage state is missing")
+    require(len(reconciliation) == 33 and {x["pip_number"] for x in reconciliation} == set(range(1, 34)) and all(not x["independently_verified"] for x in reconciliation), "pip_source_reconciliation", "PIP source reconciliation is incomplete or overstates verification")
     require(next(x for x in pips if x["pip_number"] == 23)["supersedes"] == [4], "pip_23_supersedes_4", "PIP-23 does not supersede PIP-4")
     require(all(x["raw_portal_status"] == "Proposal_Activated_Pending_Open_Voting" and x["reviewed_result"] != x["raw_portal_status"] for x in pips), "stale_status_separated", "stale portal status was treated as final result")
-    require(all(x["execution_state"] not in {"IMPLEMENTED", "PARTIALLY_IMPLEMENTED"} and not x["execution_evidence"] and x["execution_evidence_status"] == "MISSING_INDEPENDENT_PRIMARY_EVIDENCE" for x in pips), "implementation_evidence_boundary", "implementation was inferred without independent evidence")
+    require(all(x["execution_state"] not in {"IMPLEMENTED", "PARTIALLY_IMPLEMENTED"} and not x["execution_evidence"] and x["execution_evidence_status"] == "MISSING_INDEPENDENT_PRIMARY_EVIDENCE" and (not x["council_tracker"] or not x["council_tracker"]["independent_verification"]) for x in pips), "implementation_evidence_boundary", "implementation was inferred without independent evidence")
     require(len(json.loads((GOVERNANCE / "pip-promotion-candidates.json").read_text(encoding="utf-8"))["candidates"]) == 33, "pip_promotion_inputs", "not all PIPs have promotion inputs")
     require(all((REPO / f"archive/source-records/social-governance-semantic-enrichment/governance/{x['source_id']}.json").exists() for x in pips), "no_orphan_pips", "a PIP source record is missing")
     require(all((REPO / f"archive/source-records/social-governance-semantic-enrichment/social-media/{x['source_id']}.json").exists() for x in semantic), "no_orphan_social_records", "a social source record is missing")

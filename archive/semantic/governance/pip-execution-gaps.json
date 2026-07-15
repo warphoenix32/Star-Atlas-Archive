@@ -13,6 +13,7 @@
       "execution_evidence": [],
       "research_gaps": [
         "Historical PIP-1 quorum text is preserved; the repository owner-approved current operating rule applies no quorum to completed binary results.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -28,6 +29,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -43,6 +45,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -58,6 +61,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -73,6 +77,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -83,11 +88,12 @@
     {
       "source_id": "SRC-PIP-06-1B792551",
       "pip_number": 6,
-      "reviewed_result": "ELECTION_RESULT_RECORDED",
+      "reviewed_result": "PASSED",
       "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -99,11 +105,12 @@
     {
       "source_id": "SRC-PIP-07-91652743",
       "pip_number": 7,
-      "reviewed_result": "ELECTION_RESULT_RECORDED",
+      "reviewed_result": "PASSED",
       "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -120,6 +127,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -135,6 +143,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -150,6 +159,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -160,17 +170,17 @@
     {
       "source_id": "SRC-PIP-11-7B48A62D",
       "pip_number": 11,
-      "reviewed_result": "UNKNOWN",
-      "execution_state": "UNKNOWN",
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
         "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
         "No explicit human-readable author was parsed; author uses the portal author public key.",
-        "The captured portal payload does not expose a conclusive binary or election result.",
         "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
         "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
       ]
@@ -183,6 +193,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -198,6 +209,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -209,10 +221,11 @@
       "source_id": "SRC-PIP-14-FED98016",
       "pip_number": 14,
       "reviewed_result": "PASSED",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "TERMINATED",
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -228,6 +241,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -243,6 +257,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -254,10 +269,11 @@
       "source_id": "SRC-PIP-17-4DF4C199",
       "pip_number": 17,
       "reviewed_result": "PASSED",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "CANCELED",
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -273,6 +289,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -288,6 +305,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -303,6 +321,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -318,6 +337,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -333,6 +353,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -348,6 +369,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -363,6 +385,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -373,17 +396,17 @@
     {
       "source_id": "SRC-PIP-25-91CC73FA",
       "pip_number": 25,
-      "reviewed_result": "UNKNOWN",
-      "execution_state": "UNKNOWN",
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
         "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
         "No explicit human-readable author was parsed; author uses the portal author public key.",
-        "The captured portal payload does not expose a conclusive binary or election result.",
         "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
         "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
       ]
@@ -396,6 +419,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -406,16 +430,16 @@
     {
       "source_id": "SRC-PIP-27-064D252C",
       "pip_number": 27,
-      "reviewed_result": "UNKNOWN",
-      "execution_state": "UNKNOWN",
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
         "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
-        "The captured portal payload does not expose a conclusive binary or election result.",
         "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
         "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
       ]
@@ -428,6 +452,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -443,6 +468,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -458,6 +484,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -469,10 +496,11 @@
       "source_id": "SRC-PIP-31-E71FB1A7",
       "pip_number": 31,
       "reviewed_result": "PASSED",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED",
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -488,6 +516,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -503,6 +532,7 @@
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "execution_evidence": [],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [

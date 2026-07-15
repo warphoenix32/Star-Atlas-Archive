@@ -4,7 +4,7 @@
 
 All 33 PIPs require separate primary execution evidence before an `IMPLEMENTED` or `PARTIALLY_IMPLEMENTED` state can be assigned. Candidate evidence includes official implementation reports, on-chain transactions, treasury transfers, deployed policy/product changes, and direct implementation records.
 
-PIP-11, PIP-25, and PIP-27 lack conclusive official election winner fields in the captured portal material and remain unresolved. No winner is inferred from candidate ordering or participation totals.
+PIP-11, PIP-25, and PIP-27 are reported Passed by the Council tracker but lack conclusive official election winner fields in the captured portal material. Passage and winner identification remain separate; no winner is inferred.
 
 ## Portal lifecycle metadata
 

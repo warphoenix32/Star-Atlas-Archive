@@ -5,9 +5,9 @@ Overall status: **PASS**
 ## Checks
 
 - **PASS — deterministic_regeneration**: `True`
-- **PASS — campaign_files_checked**: `904`
-- **PASS — json_documents_parsed**: `885`
-- **PASS — jsonl_records_parsed**: `3184`
+- **PASS — campaign_files_checked**: `907`
+- **PASS — json_documents_parsed**: `887`
+- **PASS — jsonl_records_parsed**: `3223`
 - **PASS — raw_rows**: `True`
 - **PASS — social_decision_coverage**: `True`
 - **PASS — unique_post_ids_reconcile**: `True`
@@ -28,7 +28,11 @@ Overall status: **PASS**
 - **PASS — abstention_non_decisive**: `True`
 - **PASS — elections_not_binary**: `True`
 - **PASS — required_failed_pips**: `True`
-- **PASS — unresolved_elections**: `True`
+- **PASS — council_reported_election_passage**: `True`
+- **PASS — pip_14_terminated**: `True`
+- **PASS — pip_17_canceled**: `True`
+- **PASS — pip_31_withdrawn**: `True`
+- **PASS — pip_source_reconciliation**: `True`
 - **PASS — pip_23_supersedes_4**: `True`
 - **PASS — stale_status_separated**: `True`
 - **PASS — implementation_evidence_boundary**: `True`

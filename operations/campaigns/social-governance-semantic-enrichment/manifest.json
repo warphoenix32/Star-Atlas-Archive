@@ -4367,6 +4367,16 @@
       "bytes": 810
     },
     {
+      "path": "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl",
+      "sha256": "7a5e16e46d05afca0ed04ba01292366524e23eeba5ab42fa954127d898ef7263",
+      "bytes": 107245
+    },
+    {
+      "path": "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/source-package-manifest.json",
+      "sha256": "eec5eb1d52a066c7e8f09a2c24c9722620c4bf385e61a06f4f1acc7b6c995311",
+      "bytes": 3518
+    },
+    {
       "path": "operations/campaigns/social-governance-semantic-enrichment/input-package/campaign-manifest.json",
       "sha256": "9dc4b16eae251012568f313fa9280689aec32fec570c54b05ee2d7e764bec31c",
       "bytes": 1726
@@ -4400,23 +4410,28 @@
     },
     {
       "path": "archive/semantic/governance/pip-execution-gaps.json",
-      "sha256": "7ba4c026067e0aba9eaf5ce6aa08aa66046c1e567a306de3e267c9674f8a99f1",
-      "bytes": 26268
+      "sha256": "f13e6b5824dfc4866b30a64abecf52721a3a253eacc86a901bc0db821331f723",
+      "bytes": 30399
     },
     {
       "path": "archive/semantic/governance/pip-implementation-gaps.json",
-      "sha256": "7ba4c026067e0aba9eaf5ce6aa08aa66046c1e567a306de3e267c9674f8a99f1",
-      "bytes": 26268
+      "sha256": "f13e6b5824dfc4866b30a64abecf52721a3a253eacc86a901bc0db821331f723",
+      "bytes": 30399
     },
     {
       "path": "archive/semantic/governance/pip-promotion-candidates.json",
-      "sha256": "9cf039f5528f207381b6856cd323a3f763a519727109c87a3af4f6fa504a7e40",
-      "bytes": 39920
+      "sha256": "b604805c9bd4fe0080f188e46bd526ffaa196276ed3c8f40368d50efc6bd5e24",
+      "bytes": 39881
     },
     {
       "path": "archive/semantic/governance/pip-registry-semantic.json",
-      "sha256": "0c2657345ec032202eab4e2e9c4f26855bea9fb167120077cca4f8f9294de1b1",
-      "bytes": 606538
+      "sha256": "7ec04328609f9eb08478452b17d20debefb101744dbdc8b317f2abb0cbe18d23",
+      "bytes": 642026
+    },
+    {
+      "path": "archive/semantic/governance/pip-source-reconciliation.json",
+      "sha256": "880f476247779a282313d6d8feffab2e7a8568607549d4ee27ebe5c633165886",
+      "bytes": 30712
     },
     {
       "path": "archive/semantic/governance/pip-supersession-index.json",
@@ -4425,8 +4440,8 @@
     },
     {
       "path": "archive/semantic/governance/pip-timeline-candidates.json",
-      "sha256": "811acbfd8dacbd38fea9b9c3365eb0159a7ea0562604a5df7aaaf1d497395789",
-      "bytes": 29134
+      "sha256": "e5fa53db7b5711d988462b6e367c19f4c8932d36827870a1628df0e7194bfbe7",
+      "bytes": 29326
     },
     {
       "path": "archive/semantic/governance/pip-topic-index.json",
@@ -4480,18 +4495,18 @@
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/build_campaign.py",
-      "sha256": "6ea7756d89734a05b90c70cb0aa98f04d5b48e23d096c1d13c738392da872be7",
-      "bytes": 67816
+      "sha256": "8503de7ac1fd4441f75b775f769d9a1403a4aadccfbb45280f63e34370dc0f7d",
+      "bytes": 72377
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json",
-      "sha256": "ba124e6bebb7d832f0a4b92421588e8a3113684344b08d3a139d118d21dec974",
-      "bytes": 3596
+      "sha256": "89b45675aa08234f38397ed263bf367f13acbe450ce9473fc43240176492df83",
+      "bytes": 3751
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.md",
-      "sha256": "2c11255285e54a6027f71ae72afce0fb6fc2cd2e68563576c8b8b83e75025de4",
-      "bytes": 4627
+      "sha256": "56dc2ed80af28b604ee5cb805996563d5aee8daba143c94cda8277d6ebbdae5c",
+      "bytes": 4937
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/pip-corpus-review-summary.json",
@@ -4505,28 +4520,28 @@
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/README.md",
-      "sha256": "406bb7b5594ca6220f696582f58739585bcd9c23d68229bfde4d3d759f6a481e",
-      "bytes": 2107
+      "sha256": "f065ecc8367a5036bde6eac00116af9df3badb937974c7f6a37f71a0851c2e57",
+      "bytes": 2642
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/research-gaps.md",
-      "sha256": "203c9a77224ba78adc4bc4eb6bb35d860b3babbb5467f7b51d17ec522d1fd451",
-      "bytes": 1504
+      "sha256": "36db1e29cca3c50a942401c5a9fe4a134e2554a124690e777776946ee851596e",
+      "bytes": 1532
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/validate_campaign.py",
-      "sha256": "6710195fa6723c2590e9d7d1394a136f30a993cca380b9c4c61b68461178f46b",
-      "bytes": 15783
+      "sha256": "ffed05139a4825af2a332af7c2156e206333457180d8171f2fb138bbc9e54fe3",
+      "bytes": 17361
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/validation-report.json",
-      "sha256": "dc35ff48ccaad3f370850a3cc2cb9b9540b9caebfaadbbb2662e3ff9db370d9d",
-      "bytes": 2800
+      "sha256": "852f8b57a12e1fd890714d33f3c05f64382f5b55a10ebb4225c35e720adca071",
+      "bytes": 2946
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/validation-report.md",
-      "sha256": "3ca34cbef09076423d9b5b7c3929c8547c631d1405f70c1bdc77955250f0abc9",
-      "bytes": 3430
+      "sha256": "60bc76380b109cb0949a4a1bf69e178576fad41a23675f0cfb68dff2d4393c5f",
+      "bytes": 3616
     }
   ],
   "validation": {
@@ -4534,9 +4549,9 @@
     "status": "PASS",
     "checks": {
       "deterministic_regeneration": true,
-      "campaign_files_checked": 904,
-      "json_documents_parsed": 885,
-      "jsonl_records_parsed": 3184,
+      "campaign_files_checked": 907,
+      "json_documents_parsed": 887,
+      "jsonl_records_parsed": 3223,
       "raw_rows": true,
       "social_decision_coverage": true,
       "unique_post_ids_reconcile": true,
@@ -4557,7 +4572,11 @@
       "abstention_non_decisive": true,
       "elections_not_binary": true,
       "required_failed_pips": true,
-      "unresolved_elections": true,
+      "council_reported_election_passage": true,
+      "pip_14_terminated": true,
+      "pip_17_canceled": true,
+      "pip_31_withdrawn": true,
+      "pip_source_reconciliation": true,
       "pip_23_supersedes_4": true,
       "stale_status_separated": true,
       "implementation_evidence_boundary": true,

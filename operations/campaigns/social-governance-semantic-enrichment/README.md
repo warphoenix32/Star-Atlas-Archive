@@ -12,7 +12,9 @@ Near-duplicate clustering uses normalized exact text or deterministic token over
 
 ## Governance rules
 
-Completed binary PIPs use `YES > NO => PASSED` and `NO >= YES => FAILED`; abstentions are recorded but non-decisive and no quorum is required. Ranked-choice PIPs use only the portal `electionResults` field. Raw portal status, reviewed vote result, approval, and implementation are separate. A passed vote is never implementation evidence.
+Completed binary PIPs use `YES > NO => PASSED` and `NO >= YES => FAILED`; abstentions are recorded but non-decisive and no quorum is required. Ranked-choice winners use only the portal `electionResults` field. The Council tracker may establish an attributed reported passage result without resolving winners. Raw portal status, Council-reported result, reviewed result, approval, and execution are separate. A passed vote is never implementation evidence.
+
+`pip-source-reconciliation.json` reconciles every portal capture with the Council tracker. Council ROI, payment, milestone, termination, cancellation, and withdrawal fields remain attributed operational evidence and are never labeled independently verified. PIP-11/25/27 retain `PASSED` with unresolved winners; PIP-14 is `TERMINATED`; PIP-17 is `CANCELED`; and PIP-31 is `WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED`.
 
 The governing human review is `pip-corpus-review.md` with structured conclusions in `pip-corpus-review-summary.json`. Every semantic PIP record is reconciled to it and marked `REVIEWED`.
 

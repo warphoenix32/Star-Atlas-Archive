@@ -33,19 +33,19 @@ The campaign preserved the supplied export without rewriting it, enriched all **
 
 ## Governance findings
 
-- Human-reviewed results: {'ELECTION_RESULT_RECORDED': 2, 'FAILED': 4, 'PASSED': 24, 'UNKNOWN': 3}
+- Human-reviewed results: {'FAILED': 4, 'PASSED': 29}
 - Passed binary PIPs: [1, 2, 3, 4, 5, 8, 9, 10, 12, 14, 16, 17, 18, 20, 21, 22, 23, 24, 28, 29, 30, 31, 32, 33]
 - Failed binary PIPs: [13, 15, 19, 26]
 - Election/nonbinary PIPs: [6, 7, 11, 25, 27]
 - Unresolved election PIPs: [11, 25, 27]
-- Approval states: {'APPROVED': 24, 'ELECTION_RESULT_RECORDED': 2, 'FAILED': 4, 'UNKNOWN': 3}
-- Execution states: {'IMPLEMENTATION_PENDING': 26, 'UNKNOWN': 7}
+- Approval states: {'APPROVED': 29, 'FAILED': 4}
+- Execution states: {'CANCELED': 1, 'IMPLEMENTATION_PENDING': 26, 'TERMINATED': 1, 'UNKNOWN': 4, 'WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED': 1}
 - Implementation gaps requiring primary evidence: 33
 - Supersession/dependency relationships: [{'from': 23, 'relation': 'SUPERSEDES', 'to': 4}, {'from': 10, 'relation': 'MODIFIES_AND_EXTENDS', 'to': 3}, {'from': 13, 'relation': 'FAILED_ATTEMPT_TO_MODIFY', 'to': 10}, {'from': 20, 'relation': 'ESTABLISHES_PROGRAM_FOR', 'to': 27}, {'from': 9, 'relation': 'GOVERNS_STV_METHOD_USED_BY', 'to': 27}, {'from': 8, 'relation': 'EXPANDED_BY', 'to': 18}]
 
-Completed binary results use the owner-approved formula `YES PVP > NO PVP => PASSED; NO PVP >= YES PVP => FAILED`; abstentions are recorded but non-decisive and no quorum is imposed. Elections use only the official portal `electionResults` field. `PASSED`/`APPROVED` records are not treated as implemented, and every PIP retains an implementation-evidence gap until separate primary evidence is captured.
+Completed binary results use the owner-approved formula `YES PVP > NO PVP => PASSED; NO PVP >= YES PVP => FAILED`; abstentions are recorded but non-decisive and no quorum is imposed. Election winners use only the official portal `electionResults` field. The Council tracker may establish an attributed reported passage result without identifying a winner. `PASSED`/`APPROVED` records are not treated as implemented, and every PIP retains an independent implementation-evidence gap.
 
-All 33 PIPs are reconciled to the governing human corpus review and carry `human_review_status: REVIEWED`. Raw portal status, machine computation, reviewed result, approval, and execution fields remain distinct. PIP-13, PIP-15, PIP-19, and PIP-26 remain failed. PIP-11, PIP-25, and PIP-27 remain unresolved elections.
+All 33 PIPs are reconciled to the governing human corpus review and Council-maintained operational tracker. Raw portal status, Council-reported result, reviewed result, approval, and execution remain distinct. PIP-11, PIP-25, and PIP-27 are Council-reported as passed while portal winner identification remains unresolved. PIP-14 is Council-reported terminated after 1/2 milestones; PIP-17 canceled after 0/1 milestones with zero ATLAS paid; PIP-31 withdrawn after passage and not implemented. These operational fields are attributed, not independently verified.
 
 ## Canonical-promotion recommendations
 
@@ -65,4 +65,4 @@ All promotion targets are candidates only. Retweets preserve the fact of reshari
 
 ## Validation
 
-Validation status: **PASS**. See `validation-report.md` for the complete checks.
+Validation status: **FAIL**. See `validation-report.md` for the complete checks.

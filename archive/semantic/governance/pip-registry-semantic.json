@@ -231,6 +231,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -240,6 +241,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-3A72A64665973D86",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Created Star Atlas DAO initiative, expectations, and participation venue by community members.",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -277,6 +301,7 @@
       ],
       "research_gaps": [
         "Historical PIP-1 quorum text is preserved; the repository owner-approved current operating rule applies no quorum to completed binary results.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -461,6 +486,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -470,6 +496,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-3B6FF16E8888387B",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": "?",
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Created company that acted as legal representation to protect the DAO",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -506,6 +555,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -659,6 +709,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -668,6 +719,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-843EC13C8D2C1893",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Created SA DAO Council voting ability and community representation at leadership level.",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -706,6 +780,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -861,6 +936,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -870,6 +946,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-884FB504E29CF455",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Expedited 20 PIPs to for funding. Expedited low-ATLAS/Dollar projects related to SA community for execution",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -915,6 +1014,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -1160,6 +1260,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -1169,6 +1270,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-224F9EA0B3F8FE9A",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "6000000.0",
+          "left_atlas": "0.0",
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Created ATOM Service",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -1205,6 +1329,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -1399,15 +1524,16 @@
       },
       "quorum": "NOT_APPLICABLE_UNDER_OWNER_APPROVED_BINARY_RULE",
       "proposal_state": "PROPOSED",
-      "vote_state": "ELECTION_RESULT_RECORDED",
-      "result": "ELECTION_RESULT_RECORDED",
+      "vote_state": "PASSED",
+      "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "ELECTION_RESULT_RECORDED",
-      "reviewed_result": "ELECTION_RESULT_RECORDED",
+      "portal_result": "ELECTION_RESULT_RECORDED",
+      "reviewed_result": "PASSED",
       "reviewed_table_result": "Election",
       "reviewed_result_basis": "Captured portal electionResults supplies the ranked-choice winners.",
-      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD",
-      "approval_state": "ELECTION_RESULT_RECORDED",
+      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD_FOR_WINNERS; COUNCIL_TRACKER_MAY_ESTABLISH_REPORTED_PASSAGE",
+      "approval_state": "APPROVED",
       "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
@@ -1425,6 +1551,29 @@
         "dmark",
         "xalexus"
       ],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-8A0D54840904E271",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "See PIP-3 impact",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -1468,6 +1617,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -1645,15 +1795,16 @@
       },
       "quorum": "NOT_APPLICABLE_UNDER_OWNER_APPROVED_BINARY_RULE",
       "proposal_state": "PROPOSED",
-      "vote_state": "ELECTION_RESULT_RECORDED",
-      "result": "ELECTION_RESULT_RECORDED",
+      "vote_state": "PASSED",
+      "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "ELECTION_RESULT_RECORDED",
-      "reviewed_result": "ELECTION_RESULT_RECORDED",
+      "portal_result": "ELECTION_RESULT_RECORDED",
+      "reviewed_result": "PASSED",
       "reviewed_table_result": "Election complete",
       "reviewed_result_basis": "Captured portal electionResults supplies the ranked-choice winners.",
-      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD",
-      "approval_state": "ELECTION_RESULT_RECORDED",
+      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD_FOR_WINNERS; COUNCIL_TRACKER_MAY_ESTABLISH_REPORTED_PASSAGE",
+      "approval_state": "APPROVED",
       "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
@@ -1664,6 +1815,29 @@
         "bodhi_tree",
         "drumcarl05"
       ],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-C55CF1ACB8A1AE70",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Elected 5 volunteers giving ~260 hours to SA DAO of 53K tokenholders, established knowledgebase and enacted voting mechanic improvements",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -1706,6 +1880,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -1861,6 +2036,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -1870,6 +2046,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-60F0DFB7B83F33B1",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "7723034.0",
+          "left_atlas": "0.0",
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "70 SA community members attended, built camaraderie of SA community, celebration post had ## impression on X",
+        "note": "First PIP that had SAC-1 involvement",
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -1915,6 +2114,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -2062,6 +2262,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -2071,6 +2272,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-2029FBB84DEE4835",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Improved voting mechanic by nullifying \"supercharged\" votes that imbalance voting outcomes of PIPs",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -2108,6 +2332,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -2267,6 +2492,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -2276,6 +2502,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-8374AD9310B8BF76",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "See PIP-3 impact",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -2317,6 +2566,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -2452,19 +2702,43 @@
       },
       "quorum": "NOT_APPLICABLE_UNDER_OWNER_APPROVED_BINARY_RULE",
       "proposal_state": "PROPOSED",
-      "vote_state": "UNKNOWN",
-      "result": "UNKNOWN",
+      "vote_state": "PASSED",
+      "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "UNKNOWN",
-      "reviewed_result": "UNKNOWN",
+      "portal_result": "UNKNOWN",
+      "reviewed_result": "PASSED",
       "reviewed_table_result": "Election result unresolved in captured payload",
-      "reviewed_result_basis": "Captured portal payload has no conclusive electionResults winner field; no winner is inferred.",
-      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD",
-      "approval_state": "UNKNOWN",
-      "execution_state": "UNKNOWN",
+      "reviewed_result_basis": "Council-maintained PIP Tracker reports the election PIP as Passed; the captured portal does not identify winners, so winner identification remains unresolved.",
+      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD_FOR_WINNERS; COUNCIL_TRACKER_MAY_ESTABLISH_REPORTED_PASSAGE",
+      "approval_state": "APPROVED",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-459923480193D5A2",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "5 SAC-3 council members volunteered ~675+ hours over 9 months, completing 147 accomplishments positively affecting the SA DAO ecosystem, paying out 61.5M ATLAS for PIP authors, facilitating voting process for 14 PIPs with 2.2K votes cast, achieving average voter participation rate of 19%, publishing 48 DAO transparency reports",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -2494,19 +2768,18 @@
       "related_pips": [],
       "human_review_status": "REVIEWED",
       "reconciliation_notes": [
-        "Raw portal status is stale for the completed voting window; reviewed result is based on vote evidence and the owner-approved rule.",
-        "The human review preserves the election-result gap because the capture lacks an official winner field."
+        "Raw portal status is stale for the completed voting window; reviewed result is based on vote evidence and the owner-approved rule."
       ],
       "contradictions": [
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
         "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
         "No explicit human-readable author was parsed; author uses the portal author public key.",
-        "The captured portal payload does not expose a conclusive binary or election result.",
         "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
         "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
       ]
@@ -2703,6 +2976,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -2712,6 +2986,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-68D922D48304122A",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Closed",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "CLOSED",
+          "PASSED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "7429420.0",
+          "left_atlas": "0.0",
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "## Feast events funded, ## total SA community members attended, built camaraderie of SA community, total celebration post had ## impression on X",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -2754,6 +3051,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -2890,6 +3188,7 @@
       "result": "FAILED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "FAILED",
+      "portal_result": "FAILED",
       "reviewed_result": "FAILED",
       "reviewed_table_result": "Failed",
       "reviewed_result_basis": "Voting ended and NO PVP was greater than or equal to YES PVP.",
@@ -2899,6 +3198,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-BDD4663CBF60EF34",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Failed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "FAILED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "left_atlas": null,
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "N/A",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -2932,6 +3254,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -3132,15 +3455,40 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
       "decision_formula": "YES_PVP > NO_PVP => PASSED; NO_PVP >= YES_PVP => FAILED; ABSTAIN_RECORDED_NOT_DECISIVE",
       "approval_state": "APPROVED",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "TERMINATED",
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-5AA7278EA3F455A3",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Closed",
+        "reported_implementation_state": "TERMINATED",
+        "reported_lifecycle_states": [
+          "CLOSED",
+          "PASSED",
+          "TERMINATED_OR_CANCELED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "4462301.0",
+          "left_atlas": "2.512562814E7",
+          "completed_milestones": "1.0",
+          "total_milestones": "2.0"
+        },
+        "roi_assessment": "None. PIP was terminated due non-performance of PIP deliverables",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -3186,6 +3534,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -3366,6 +3715,7 @@
       "result": "FAILED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "FAILED",
+      "portal_result": "FAILED",
       "reviewed_result": "FAILED",
       "reviewed_table_result": "Failed",
       "reviewed_result_basis": "Voting ended and NO PVP was greater than or equal to YES PVP.",
@@ -3375,6 +3725,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-980C5E7D52F017F8",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Failed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "FAILED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "left_atlas": null,
+          "completed_milestones": "N/A",
+          "total_milestones": "N/A"
+        },
+        "roi_assessment": "N/A",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -3413,6 +3786,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -3568,6 +3942,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -3577,6 +3952,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-C754D122079C4938",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": "8464.79",
+          "left_usdc": null,
+          "paid_atlas": "7985657.0",
+          "left_atlas": "0.0",
+          "completed_milestones": "1.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Funded widely used Eveeye project that makes playing SAGE easy with superior information.",
+        "note": "Transitioning from Eveeye Star Atlas",
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -3617,6 +4015,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -3759,15 +4158,40 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
       "decision_formula": "YES_PVP > NO_PVP => PASSED; NO_PVP >= YES_PVP => FAILED; ABSTAIN_RECORDED_NOT_DECISIVE",
       "approval_state": "APPROVED",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "CANCELED",
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-BA1C2F2A01C7D040",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Closed",
+        "reported_implementation_state": "TERMINATED",
+        "reported_lifecycle_states": [
+          "CLOSED",
+          "PASSED",
+          "TERMINATED_OR_CANCELED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "0.0",
+          "left_atlas": null,
+          "completed_milestones": "0.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "None. PIP was canceled due to non-performance of PIP deliverables.",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -3808,6 +4232,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -3947,6 +4372,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -3956,6 +4382,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-931DDBA869764C56",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "5781393.0",
+          "left_atlas": "0.0",
+          "completed_milestones": "2.0",
+          "total_milestones": "2.0"
+        },
+        "roi_assessment": "Expanded success of PIP-8 by giving more merch out",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -4000,6 +4449,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -4167,6 +4617,7 @@
       "result": "FAILED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "FAILED",
+      "portal_result": "FAILED",
       "reviewed_result": "FAILED",
       "reviewed_table_result": "Failed",
       "reviewed_result_basis": "Voting ended and NO PVP was greater than or equal to YES PVP.",
@@ -4176,6 +4627,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-789A6FEBBEEA489E",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Failed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "FAILED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "left_atlas": null,
+          "completed_milestones": "N/A",
+          "total_milestones": "N/A"
+        },
+        "roi_assessment": "N/A",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -4214,6 +4688,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -4376,6 +4851,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -4385,6 +4861,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-D42AEB27C99E0915",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "PARTIAL_OR_IN_PROGRESS",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "4320000.0",
+          "left_atlas": "5400000.0",
+          "completed_milestones": "0.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Elected 5 content creators producing 4 content pieces a month on social media. Earned ## impressions on X and ## views on YouTube.",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -4431,6 +4930,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -4588,6 +5088,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -4597,6 +5098,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-B0501DB4E8A23BD5",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "PARTIAL_OR_IN_PROGRESS",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": "2083.0",
+          "left_usdc": null,
+          "paid_atlas": "7317073.0",
+          "left_atlas": "3.52251309E7",
+          "completed_milestones": "?",
+          "total_milestones": "2.0"
+        },
+        "roi_assessment": "Funded website that indexes and processes 20 programs (smart contracts) of on-chain Star Atlas data",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -4636,6 +5160,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -4837,6 +5362,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -4846,6 +5372,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-D0B52D04E2596FC6",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "PARTIAL_OR_IN_PROGRESS",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "2000000.0",
+          "left_atlas": "9000000.0",
+          "completed_milestones": "0.0",
+          "total_milestones": "1.0"
+        },
+        "roi_assessment": "Funded 3 self-organized community tournaments which earned top 1% Twitch/10% YouTube livestream channels for 2 months",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -4888,6 +5437,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -5058,6 +5608,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -5067,6 +5618,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-54C7FCAA869A0208",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "left_atlas": null,
+          "completed_milestones": "N/A",
+          "total_milestones": "N/A"
+        },
+        "roi_assessment": "Clarified and improved upon Ecosystem Fund process and procedures",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -5113,6 +5687,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -5215,6 +5790,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -5224,6 +5800,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-F45405F0BDBEF113",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "?",
+          "left_atlas": "?",
+          "completed_milestones": "3.0",
+          "total_milestones": "3.0"
+        },
+        "roi_assessment": "Funded the SLY Assistant automation tool, which enabled players to run SLY accounts autonomously without user interaction. Improved accessibility and uptime for ## Star Atlas players.",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -5259,6 +5858,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -5408,19 +6008,43 @@
       },
       "quorum": "NOT_APPLICABLE_UNDER_OWNER_APPROVED_BINARY_RULE",
       "proposal_state": "PROPOSED",
-      "vote_state": "UNKNOWN",
-      "result": "UNKNOWN",
+      "vote_state": "PASSED",
+      "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "UNKNOWN",
-      "reviewed_result": "UNKNOWN",
+      "portal_result": "UNKNOWN",
+      "reviewed_result": "PASSED",
       "reviewed_table_result": "Election result unresolved in captured payload",
-      "reviewed_result_basis": "Captured portal payload has no conclusive electionResults winner field; no winner is inferred.",
-      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD",
-      "approval_state": "UNKNOWN",
-      "execution_state": "UNKNOWN",
+      "reviewed_result_basis": "Council-maintained PIP Tracker reports the election PIP as Passed; the captured portal does not identify winners, so winner identification remains unresolved.",
+      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD_FOR_WINNERS; COUNCIL_TRACKER_MAY_ESTABLISH_REPORTED_PASSAGE",
+      "approval_state": "APPROVED",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-4CD3441957C5E548",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "left_atlas": null,
+          "completed_milestones": "N/A",
+          "total_milestones": "N/A"
+        },
+        "roi_assessment": "5 SAC-3 council members volunteered ~8+ hours per month, completing 20 accomplishments positively affecting the SA DAO ecosystem, paying out 1.2M+ ATLAS for PIP authors, facilitating voting process for 6 PIPs with 871 votes cast, achieving average voter participation rate of 23%, publishing 21 DAO transparency reports",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -5450,19 +6074,18 @@
       "related_pips": [],
       "human_review_status": "REVIEWED",
       "reconciliation_notes": [
-        "Raw portal status is stale for the completed voting window; reviewed result is based on vote evidence and the owner-approved rule.",
-        "The human review preserves the election-result gap because the capture lacks an official winner field."
+        "Raw portal status is stale for the completed voting window; reviewed result is based on vote evidence and the owner-approved rule."
       ],
       "contradictions": [
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
         "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
         "No explicit human-readable author was parsed; author uses the portal author public key.",
-        "The captured portal payload does not expose a conclusive binary or election result.",
         "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
         "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
       ]
@@ -5607,6 +6230,7 @@
       "result": "FAILED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "FAILED",
+      "portal_result": "FAILED",
       "reviewed_result": "FAILED",
       "reviewed_table_result": "Failed",
       "reviewed_result_basis": "Voting ended and NO PVP was greater than or equal to YES PVP.",
@@ -5616,6 +6240,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-037DB26F286929AB",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Failed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "FAILED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "left_atlas": null,
+          "completed_milestones": "N/A",
+          "total_milestones": "N/A"
+        },
+        "roi_assessment": "N/A",
+        "note": "First PIP that had SAC-3 involvement",
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -5655,6 +6302,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -5872,19 +6520,43 @@
       },
       "quorum": "NOT_APPLICABLE_UNDER_OWNER_APPROVED_BINARY_RULE",
       "proposal_state": "PROPOSED",
-      "vote_state": "UNKNOWN",
-      "result": "UNKNOWN",
+      "vote_state": "PASSED",
+      "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "UNKNOWN",
-      "reviewed_result": "UNKNOWN",
+      "portal_result": "UNKNOWN",
+      "reviewed_result": "PASSED",
       "reviewed_table_result": "Election result unresolved in captured payload",
-      "reviewed_result_basis": "Captured portal payload has no conclusive electionResults winner field; no winner is inferred.",
-      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD",
-      "approval_state": "UNKNOWN",
-      "execution_state": "UNKNOWN",
+      "reviewed_result_basis": "Council-maintained PIP Tracker reports the election PIP as Passed; the captured portal does not identify winners, so winner identification remains unresolved.",
+      "decision_formula": "USE_OFFICIAL_ELECTION_RESULTS_FIELD_FOR_WINNERS; COUNCIL_TRACKER_MAY_ESTABLISH_REPORTED_PASSAGE",
+      "approval_state": "APPROVED",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-213BEC9D6122966A",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "left_atlas": null,
+          "completed_milestones": "N/A",
+          "total_milestones": "N/A"
+        },
+        "roi_assessment": "See PIP-20 ROI",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -5928,18 +6600,17 @@
       ],
       "human_review_status": "REVIEWED",
       "reconciliation_notes": [
-        "Raw portal status is stale for the completed voting window; reviewed result is based on vote evidence and the owner-approved rule.",
-        "The human review preserves the election-result gap because the capture lacks an official winner field."
+        "Raw portal status is stale for the completed voting window; reviewed result is based on vote evidence and the owner-approved rule."
       ],
       "contradictions": [
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
         "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
-        "The captured portal payload does not expose a conclusive binary or election result.",
         "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
         "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
       ]
@@ -6130,6 +6801,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -6139,6 +6811,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-023002BD814CC43D",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "PARTIAL_OR_IN_PROGRESS",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": "?",
+          "total_milestones": "6.0"
+        },
+        "roi_assessment": "Retained key SA company member (Jose) from employee layoffs, supporting 7 critical components of the SA ecosystem.",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -6180,6 +6875,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -6337,6 +7033,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -6346,6 +7043,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-E4BC6834AFF20097",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "UNKNOWN",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": "1.3143639E7",
+          "left_atlas": "0.0",
+          "completed_milestones": null,
+          "total_milestones": null
+        },
+        "roi_assessment": "Funded platform that showcases and rewards quality SA content created by community members. Incentivizes participation to enhance social media presence and engagement with web3 community.",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -6386,6 +7106,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -6540,6 +7261,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -6549,6 +7271,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-B81AFEC5FD385C64",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "UNKNOWN",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": "1650.0",
+          "left_usdc": null,
+          "paid_atlas": "6433164.0",
+          "left_atlas": "6710475.0",
+          "completed_milestones": null,
+          "total_milestones": null
+        },
+        "roi_assessment": "Funded widely used ATOM Cloud, made free for all users until C4. Processes ~100,000 transactions/day for 104 daily active accounts.",
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -6586,6 +7331,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -6771,15 +7517,40 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
       "decision_formula": "YES_PVP > NO_PVP => PASSED; NO_PVP >= YES_PVP => FAILED; ABSTAIN_RECORDED_NOT_DECISIVE",
       "approval_state": "APPROVED",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED",
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-84B04A340610C0C9",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Withdrawn",
+        "reported_implementation_state": "NOT_IMPLEMENTED",
+        "reported_lifecycle_states": [
+          "NOT_IMPLEMENTED",
+          "PASSED",
+          "WITHDRAWN"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": null,
+          "total_milestones": null
+        },
+        "roi_assessment": "N/A",
+        "note": "PIP passed, but withdrawn by PIP Author, will not be implemented",
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -6825,6 +7596,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -7034,6 +7806,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -7043,6 +7816,29 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-0421BF7765A5B59D",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": "Passed",
+        "reported_phase": "Voting",
+        "reported_implementation_state": "UNKNOWN",
+        "reported_lifecycle_states": [
+          "PASSED",
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": null,
+          "total_milestones": null
+        },
+        "roi_assessment": null,
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -7085,6 +7881,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [
@@ -7337,6 +8134,7 @@
       "result": "PASSED",
       "raw_portal_status": "Proposal_Activated_Pending_Open_Voting",
       "machine_computed_result": "PASSED",
+      "portal_result": "PASSED",
       "reviewed_result": "PASSED",
       "reviewed_table_result": "Passed",
       "reviewed_result_basis": "Voting ended and YES PVP exceeded NO PVP.",
@@ -7346,6 +8144,28 @@
       "execution_evidence": [],
       "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
       "election_winners": [],
+      "council_tracker": {
+        "source_id": "SA-COUNCIL-TRACKER-D1DADF7EB8437119",
+        "source_class": "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+        "reported_vote_result": null,
+        "reported_phase": "Voting",
+        "reported_implementation_state": "UNKNOWN",
+        "reported_lifecycle_states": [
+          "VOTE_COMPLETED"
+        ],
+        "payment_fields": {
+          "paid_usdc": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "left_atlas": null,
+          "completed_milestones": null,
+          "total_milestones": null
+        },
+        "roi_assessment": null,
+        "note": null,
+        "attribution": "STAR_ATLAS_COUNCIL_MAINTAINED_TRACKER",
+        "independent_verification": false
+      },
       "portal_status": "Proposal_Activated_Pending_Open_Voting",
       "portal_current_status": "Proposal_Activated_Pending_Open_Voting",
       "capture_timestamp": "2026-07-15T03:41:40Z",
@@ -7386,6 +8206,7 @@
         "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
       ],
       "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
         "Independent implementation evidence is not present in the captured proposal payload."
       ],
       "limitations": [

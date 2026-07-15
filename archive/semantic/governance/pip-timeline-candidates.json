@@ -76,7 +76,7 @@
       "vote_start": "2024-09-14T16:00:00.000Z",
       "vote_end": "2024-09-21T05:00:00.000Z",
       "vote_mechanism": "RANKED_CHOICE_ELECTION",
-      "reviewed_result": "ELECTION_RESULT_RECORDED",
+      "reviewed_result": "PASSED",
       "result_basis": "Captured portal electionResults supplies the ranked-choice winners.",
       "execution_state": "IMPLEMENTATION_PENDING",
       "supporting_text": "The first round of the first Star Atlas Council election. From 22 candidates and through ranked choice voting, the top 12 will continue to the second round of the election. In the second round of the election, the top 5 are officially elected Star Atlas Council members.",
@@ -89,7 +89,7 @@
       "vote_start": "2024-09-27T16:00:00.000Z",
       "vote_end": "2024-10-11T16:00:00.000Z",
       "vote_mechanism": "RANKED_CHOICE_ELECTION",
-      "reviewed_result": "ELECTION_RESULT_RECORDED",
+      "reviewed_result": "PASSED",
       "result_basis": "Captured portal electionResults supplies the ranked-choice winners.",
       "execution_state": "IMPLEMENTATION_PENDING",
       "supporting_text": "The second round of the first Star Atlas Council election. From 12 remaining candidates and through ranked choice voting, the top 5 will officially be elected Star Atlas Council members.",
@@ -141,11 +141,11 @@
       "vote_start": "2025-03-23T23:59:59.999Z",
       "vote_end": "2025-04-06T23:59:59.999Z",
       "vote_mechanism": "RANKED_CHOICE_ELECTION",
-      "reviewed_result": "UNKNOWN",
-      "result_basis": "Captured portal payload has no conclusive electionResults winner field; no winner is inferred.",
-      "execution_state": "UNKNOWN",
+      "reviewed_result": "PASSED",
+      "result_basis": "Council-maintained PIP Tracker reports the election PIP as Passed; the captured portal does not identify winners, so winner identification remains unresolved.",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "supporting_text": "This proposal determines who will serve on the Star Atlas DAO Council for its second term (April 11, 2025 - January 11, 2026). As outlined in PIP-10, there will be only one round of voting. Seven candidates nominated themselves during the nomination period. The top five candidates, selected through ranked-choice voting using the Single Transferable Vote (STV) method, will become officially elected Star Atlas Council members on April 11th, 2025.",
-      "manual_review_required": true
+      "manual_review_required": false
     },
     {
       "source_id": "SRC-PIP-12-F15380C9",
@@ -182,7 +182,7 @@
       "vote_mechanism": "BINARY_PVP",
       "reviewed_result": "PASSED",
       "result_basis": "Voting ended and YES PVP exceeded NO PVP.",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "TERMINATED",
       "supporting_text": "This proposal requests 10,000 USDC as a one-time development cost for a focused, fixed-term 6-week project aimed at enhancing Star Atlas’s economic ecosystem.",
       "manual_review_required": false
     },
@@ -221,7 +221,7 @@
       "vote_mechanism": "BINARY_PVP",
       "reviewed_result": "PASSED",
       "result_basis": "Voting ended and YES PVP exceeded NO PVP.",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "CANCELED",
       "supporting_text": "This proposal seeks 10 million ATLAS to begin funding an expansive, DAO-aligned content initiative including short-form video, music integration, educational one-pagers, player engagement, and a professional short film tied to the Star Atlas metaverse over the next four months. All ATLAS will be held within the ecosystem and not converted into USDC. The funding will directly support content creation, in-game activity, and long-term value generation for the DAO.",
       "manual_review_required": false
     },
@@ -323,11 +323,11 @@
       "vote_start": "2025-11-26T23:59:59.999Z",
       "vote_end": "2025-12-10T23:59:59.999Z",
       "vote_mechanism": "RANKED_CHOICE_ELECTION",
-      "reviewed_result": "UNKNOWN",
-      "result_basis": "Captured portal payload has no conclusive electionResults winner field; no winner is inferred.",
-      "execution_state": "UNKNOWN",
+      "reviewed_result": "PASSED",
+      "result_basis": "Council-maintained PIP Tracker reports the election PIP as Passed; the captured portal does not identify winners, so winner identification remains unresolved.",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "supporting_text": "This proposal determines who will serve on the Star Atlas DAO Council for its third term (January 11, 2026 - October 11, 2026). As outlined in PIP-10, there will be only one round of voting. Six candidates nominated themselves during the nomination period. The top five candidates, selected through ranked-choice voting using the Single Transferable Vote (STV) method, will become officially elected Star Atlas Council members on January 11th, 2026.",
-      "manual_review_required": true
+      "manual_review_required": false
     },
     {
       "source_id": "SRC-PIP-26-B70AC545",
@@ -349,11 +349,11 @@
       "vote_start": "2026-02-20T23:59:59.999Z",
       "vote_end": "2026-03-06T23:59:59.999Z",
       "vote_mechanism": "RANKED_CHOICE_ELECTION",
-      "reviewed_result": "UNKNOWN",
-      "result_basis": "Captured portal payload has no conclusive electionResults winner field; no winner is inferred.",
-      "execution_state": "UNKNOWN",
+      "reviewed_result": "PASSED",
+      "result_basis": "Council-maintained PIP Tracker reports the election PIP as Passed; the captured portal does not identify winners, so winner identification remains unresolved.",
+      "execution_state": "IMPLEMENTATION_PENDING",
       "supporting_text": "Per the requirements of PIP-20: Establishment of the DAO Casters Program — Elected Content Creators for Star Atlas Ecosystem Promotion, this is the election PIP for a structured program of 5 elected content creators dedicated to promoting the entire Star Atlas ecosystem.",
-      "manual_review_required": true
+      "manual_review_required": false
     },
     {
       "source_id": "SRC-PIP-28-D0A5DC75",
@@ -403,7 +403,7 @@
       "vote_mechanism": "BINARY_PVP",
       "reviewed_result": "PASSED",
       "result_basis": "Voting ended and YES PVP exceeded NO PVP.",
-      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_state": "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED",
       "supporting_text": "This proposal requests 13,000,000 ATLAS from the Star Atlas DAO Ecosystem Fund to complete and launch Star Seekers 2, a cross-platform mobile space-combat game inspired by the Star Atlas universe, on both iOS App Store and Google Play Store.",
       "manual_review_required": false
     },
