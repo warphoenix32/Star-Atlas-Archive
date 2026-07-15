@@ -16,6 +16,7 @@ This is the human-first canonical knowledge layer. Entries synthesize reviewed e
 | Lore | [Lore index](lore/README.md) |
 | Media and creators | [Media index](media/README.md) |
 | Events | [Events index](events/README.md) |
+| Controversies | [Controversies index](controversies/README.md) |
 | Open research | [Research backlog](research/README.md) |
 
 For preserved source material, use the separate [archive](../archive/README.md).
