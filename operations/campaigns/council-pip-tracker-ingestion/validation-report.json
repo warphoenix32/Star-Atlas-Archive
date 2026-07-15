@@ -1,0 +1,61 @@
+{
+  "campaign_id": "council-pip-tracker-ingestion",
+  "status": "PASS",
+  "counts": {
+    "source_sheets": 5,
+    "tracker_records": 39,
+    "rubric_records": 80,
+    "source_records": 119
+  },
+  "checks": {
+    "deterministic_regeneration": {
+      "status": "PASS",
+      "detail": "Council generator reproduces all outputs"
+    },
+    "tracker_records": {
+      "status": "PASS",
+      "detail": "39 operational tracker records"
+    },
+    "rubric_records": {
+      "status": "PASS",
+      "detail": "80 review-guidance records"
+    },
+    "source_record_reconciliation": {
+      "status": "PASS",
+      "detail": "119 unique source records"
+    },
+    "operational_attribution": {
+      "status": "PASS",
+      "detail": "all tracker claims retain Council attribution"
+    },
+    "rubric_authority_boundary": {
+      "status": "PASS",
+      "detail": "rubrics remain nonbinding review guidance"
+    },
+    "workbook_checksums": {
+      "status": "PASS",
+      "detail": "raw and normalized workbook hashes match package"
+    },
+    "five_sheets_preserved": {
+      "status": "PASS",
+      "detail": "CSV and JSON for all five sheets"
+    },
+    "manifest_reconciliation": {
+      "status": "PASS",
+      "detail": "all bytes and checksums reconcile"
+    },
+    "discord_not_duplicated": {
+      "status": "PASS",
+      "detail": "no nested Discord ZIP archived"
+    },
+    "git_diff_check": {
+      "status": "PASS",
+      "detail": "no whitespace errors"
+    }
+  },
+  "warnings": [
+    "Modified timestamp is not preserved in the supplied package.",
+    "Artifact-tool import could not render the workbook because an embedded person entry lacks displayName; preserved normalized exports were used without rewriting the workbook."
+  ],
+  "failures": []
+}

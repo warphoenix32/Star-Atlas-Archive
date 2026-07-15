@@ -1,0 +1,32 @@
+{
+  "campaign_id": "star-atlas-latest-documents-ingestion",
+  "generated_at": "2026-07-15T11:26:23.262446+00:00",
+  "sources": {
+    "council_tracker": {
+      "title": "Star Atlas DAO Council -- PIP Tracker & Grading Rubric",
+      "source_url": "https://docs.google.com/spreadsheets/d/1QWkFjcLwhw4GHqk5Stz72H3WRwIb52f-UDnKne7hTtY/edit",
+      "raw_sha256": "6a477ee0ce428df4f04cd32b4a24bfb21b80bfa23341be38b192d2e4b0dadc24",
+      "sheets": [
+        "Tracker",
+        "Accomplishment Numbers",
+        "PIP Step Process",
+        "Lanzer Grading Rubric",
+        "Carlos Grading Rubric"
+      ],
+      "semantic_tracker_records": 39,
+      "rubric_records": 80
+    },
+    "discord_announcements": {
+      "package_included": true,
+      "package_name": "Star_Atlas_Discord_Announcements_Semantic_Enrichment.zip",
+      "role": "Previously completed 1,071-message announcement enrichment corpus"
+    }
+  },
+  "validation": {
+    "tracker_header_found": true,
+    "pip_records": 33,
+    "non_pip_draft_or_withdrawn_records": 6,
+    "normalized_workbook_created": true,
+    "status": "PASS"
+  }
+}

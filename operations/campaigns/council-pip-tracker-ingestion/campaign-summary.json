@@ -1,0 +1,22 @@
+{
+  "campaign_id": "council-pip-tracker-ingestion",
+  "status": "GENERATED",
+  "source_sheets": 5,
+  "sheet_names": [
+    "Tracker",
+    "Accomplishment Numbers",
+    "PIP Step Process",
+    "Lanzer Grading Rubric",
+    "Carlos Grading Rubric"
+  ],
+  "tracker_records": 39,
+  "rubric_guidance_records": 80,
+  "source_records": 119,
+  "raw_workbook_sha256": "6a477ee0ce428df4f04cd32b4a24bfb21b80bfa23341be38b192d2e4b0dadc24",
+  "normalized_workbook_sha256": "222aea1425fb358717a14d0a55e118b773ce09a22b6176087dc5d850e1cbb982",
+  "discord_package_duplicates_ingested": 0,
+  "source_authority": [
+    "TIER_1_COUNCIL_OPERATIONAL_TRACKER",
+    "TIER_1_COUNCIL_REVIEW_GUIDANCE"
+  ]
+}

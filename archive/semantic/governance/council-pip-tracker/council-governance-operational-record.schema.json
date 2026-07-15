@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Star Atlas Council Governance Operational Record",
+  "type": "object",
+  "required": [
+    "source_id",
+    "source_class",
+    "title",
+    "lifecycle_states",
+    "implementation_state",
+    "raw"
+  ],
+  "properties": {
+    "source_id": {
+      "type": "string"
+    },
+    "source_class": {
+      "enum": [
+        "TIER_1_COUNCIL_OPERATIONAL_TRACKER"
+      ]
+    },
+    "pip_number": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "pip_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "phase": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "vote_result": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lifecycle_states": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "implementation_state": {
+      "enum": [
+        "UNKNOWN",
+        "NOT_IMPLEMENTED",
+        "TERMINATED",
+        "PARTIAL_OR_IN_PROGRESS",
+        "MILESTONES_REPORTED_COMPLETE"
+      ]
+    },
+    "council_roi_assessment": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "payment_fields": {
+      "type": "object"
+    },
+    "promotion_targets": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "research_gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "attribution_required": {
+      "type": "boolean"
+    },
+    "raw": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,728 @@
+{
+  "campaign_id": "council-pip-tracker-ingestion",
+  "status": "GENERATED",
+  "preserved_inputs": [
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/accomplishment_numbers.csv",
+      "bytes": 985,
+      "sha256": "700a51ba000921790a5a1ff95821abfe8fbf4351b09585e37437572463c1273f"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/accomplishment_numbers.json",
+      "bytes": 7898,
+      "sha256": "95cfc280f65d340323150e0f15dbc5e77024ae225bfee917bf69827f7c4a0dfe"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/carlos_grading_rubric.csv",
+      "bytes": 29148,
+      "sha256": "3d591b6689ba7c4bf40e27226cd6e359d51c7035c6615139d8bff18b07e85381"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/carlos_grading_rubric.json",
+      "bytes": 274198,
+      "sha256": "b747e9f30ecc21c28421423a919b0a309a42264e35d478325e989466c4fb588c"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/lanzer_grading_rubric.csv",
+      "bytes": 27239,
+      "sha256": "8bb0cabb8de8b38f9720092aa6cb53eee3e433ebd2fe8626773ffe8c58d3138e"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/lanzer_grading_rubric.json",
+      "bytes": 236687,
+      "sha256": "201f18a1a5dd2b9adf7a51f949874f71a775dfa5d523be6e410696877d3ca029"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/pip_step_process.csv",
+      "bytes": 85,
+      "sha256": "ee2c703e6726a0221c9065f833d322dafed2b5e696355af798365bf42b18377d"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/pip_step_process.json",
+      "bytes": 154,
+      "sha256": "4b172bd519e8eec25e11bd583ea65b4f97b67f725b70b9396c56d0b58c580620"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/Star_Atlas_DAO_Council_Tracker_Normalized.xlsx",
+      "bytes": 117272,
+      "sha256": "222aea1425fb358717a14d0a55e118b773ce09a22b6176087dc5d850e1cbb982"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/tracker.csv",
+      "bytes": 12454,
+      "sha256": "2faf95353247dcb613240af3c32b4939fcf8ca88a22567564f5ddb9e4276fc6f"
+    },
+    {
+      "path": "archive/normalized/governance/council-pip-tracker/tracker.json",
+      "bytes": 35030,
+      "sha256": "6eb509d8300e8d9bf74162f7bfb1526184d50defe0f8d74a609cdf3f7132502e"
+    },
+    {
+      "path": "archive/raw/governance/council-pip-tracker/Star_Atlas_DAO_Council_PIP_Tracker_and_Grading_Rubric.xlsx",
+      "bytes": 1251239,
+      "sha256": "6a477ee0ce428df4f04cd32b4a24bfb21b80bfa23341be38b192d2e4b0dadc24"
+    },
+    {
+      "path": "operations/campaigns/council-pip-tracker-ingestion/input-package/package-campaign-summary.json",
+      "bytes": 1097,
+      "sha256": "002fde67f36cec5db94368240e727fc90106d2ec070ce7bcd408ac1b1b78d834"
+    },
+    {
+      "path": "operations/campaigns/council-pip-tracker-ingestion/input-package/package-manifest.json",
+      "bytes": 3518,
+      "sha256": "eec5eb1d52a066c7e8f09a2c24c9722620c4bf385e61a06f4f1acc7b6c995311"
+    },
+    {
+      "path": "operations/campaigns/council-pip-tracker-ingestion/input-package/package-README.md",
+      "bytes": 1601,
+      "sha256": "89a4d39e9b331c79eacba7ce41e995c9ec79b12ebbf129fd4642660dab0a17b1"
+    }
+  ],
+  "generated_outputs": [
+    {
+      "path": "archive/semantic/governance/council-pip-tracker/council-governance-operational-record.schema.json",
+      "bytes": 1628,
+      "sha256": "400f0041d71554c9cc3ef573af05cb559ad04b3d0b0900f73cd29b1336b83008"
+    },
+    {
+      "path": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+      "bytes": 107245,
+      "sha256": "7a5e16e46d05afca0ed04ba01292366524e23eeba5ab42fa954127d898ef7263"
+    },
+    {
+      "path": "archive/semantic/governance/council-pip-tracker/cross-corpus-semantic-schema.md",
+      "bytes": 1172,
+      "sha256": "f4a22d8015d4a26b4478f4e7b2963907dae613360be84513028c8209479db985"
+    },
+    {
+      "path": "archive/semantic/governance/council-pip-tracker/pip-evaluation-rubric-records.jsonl",
+      "bytes": 33033,
+      "sha256": "d50666175178669c09e7e5cf9bf13e096b430294de9b482d5e60bab6a3e82496"
+    },
+    {
+      "path": "archive/semantic/governance/council-pip-tracker/source-metadata.json",
+      "bytes": 997,
+      "sha256": "2cf216251404ad0a28d2f252d0405c20dd9105f895b3ff3ffaf8a3713690e035"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-023002BD814CC43D.json",
+      "bytes": 776,
+      "sha256": "e168daba58f6015efc4e67b1defd47669ad39f48ce8555b0df47ccb8c20ef451"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-037DB26F286929AB.json",
+      "bytes": 754,
+      "sha256": "7b2a4f9dcc7c52f91a72a76982ae675d022a2005f08e7f27341a564ecaaf4b10"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-0421BF7765A5B59D.json",
+      "bytes": 792,
+      "sha256": "f10f725405641efe4a592b04ae59bb4d69b8df9622c8bf444151c8b07eadec52"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-2029FBB84DEE4835.json",
+      "bytes": 772,
+      "sha256": "4e09e666e0df1c9e1e46f19537686504dd8188fa1e3317a33e650c9b9ddb6f89"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-213BEC9D6122966A.json",
+      "bytes": 728,
+      "sha256": "e41bfb98e5c35a29c2d1a9f61f4a0b877747f03d749ff7f64e495c8ba25be49d"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-224F9EA0B3F8FE9A.json",
+      "bytes": 722,
+      "sha256": "207a470bb20c792fa009c2eba8406530d4f155caf4f45a22fe80b51d0fbd9538"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-3A72A64665973D86.json",
+      "bytes": 712,
+      "sha256": "79fce49494633897bdd741b37cab1621f16598a287a8cf2f003136c2b726c10a"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-3B6FF16E8888387B.json",
+      "bytes": 708,
+      "sha256": "b9e0fcf9ae99199a32928609fea3e7ef38015a820f57c045698ad8f511b02043"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-459923480193D5A2.json",
+      "bytes": 719,
+      "sha256": "27df5f82724970fd3e4a394fac235e029c9ec33a351e8dc341711e1d8c3f7411"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-4CD3441957C5E548.json",
+      "bytes": 719,
+      "sha256": "e0ba409faebc2ed8d8db661ae1d03d6fb474c05803de91801d9558bd74bdd14c"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-54C7FCAA869A0208.json",
+      "bytes": 735,
+      "sha256": "6d43f7c2c028f4fc2093748e9e5f34da9e77581cc64c8196d379de4ccbd1b6e1"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-5AA7278EA3F455A3.json",
+      "bytes": 754,
+      "sha256": "ba2947dab00e0dc7b82ff93d0a54e662a439c97c7dfe19e81ea61533b3b6d56d"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-5CF4B60E52EDD8D6.json",
+      "bytes": 714,
+      "sha256": "e05a2f111617f820bf94a9fb264641bd88ed429558bd0d8224d970f484ebdc30"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-60F0DFB7B83F33B1.json",
+      "bytes": 750,
+      "sha256": "01bd86b916932316015fbd32ab7dc6ad4bef711b06d926cf390aae310a59a995"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-68D922D48304122A.json",
+      "bytes": 726,
+      "sha256": "143e7184d2ea015fda727923d27f93791ee9c42529764a3be352d69f4e447345"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-6DC302F3A882C13B.json",
+      "bytes": 745,
+      "sha256": "bf6899ad474fd0f2e3b6413fa5a831c187999803e30534de296a87244bfe5b75"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-789A6FEBBEEA489E.json",
+      "bytes": 800,
+      "sha256": "5ac7090d685251df8817bf009703ee1403adf57602dac83f4cb8ad264d3c3208"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-8374AD9310B8BF76.json",
+      "bytes": 740,
+      "sha256": "39ce90af149d642923c596d5d96adefc80abc4b7c94b3517eaf1819b1e8c6031"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-843EC13C8D2C1893.json",
+      "bytes": 716,
+      "sha256": "493a21b56a6b87ac35612fda601747448ff16948cfe591125e3387238ccd786c"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-8496C05B78803C1C.json",
+      "bytes": 728,
+      "sha256": "80da2e6d5f0e487633117decf03b29beff770f194cfaa4704991cd5324580ea0"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-84B04A340610C0C9.json",
+      "bytes": 740,
+      "sha256": "bf71408cacddab3672f56b7729fe74bdf3c42f28ed7ca4816c29ace81553298b"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-884FB504E29CF455.json",
+      "bytes": 723,
+      "sha256": "1a576479c5a0723ac733d634c34403faf3ea1e7d0e6d84df7945e64a80a08027"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-8A0D54840904E271.json",
+      "bytes": 731,
+      "sha256": "12624a5226dab74a0d2323fc6ec38dd8f1200cc83d8897bdd207c05c80262233"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-90F13841F13B6E16.json",
+      "bytes": 780,
+      "sha256": "bf31a39c908494448f32d808b9643fdf20edf1669278deaa51aa481241c845a6"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-931DDBA869764C56.json",
+      "bytes": 745,
+      "sha256": "be32c6762be2f2538cb0b3d454cc4a6f82e7ddf57bdc9bea1ed052496c1ed326"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-980C5E7D52F017F8.json",
+      "bytes": 736,
+      "sha256": "5ef983612fa738d18e21ef9e36bc4f93d63e9804628028557544041848b17f61"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-B0501DB4E8A23BD5.json",
+      "bytes": 720,
+      "sha256": "438e83ffa39c319af375d607850bac18671bc69513b4cc7b2e1ec423d0f67a1e"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-B357F16563064FAA.json",
+      "bytes": 731,
+      "sha256": "89e93c8cbaa7051d9d126a4c4e0c57b43b3d777f453ad257fe8ee3777db9b62a"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-B81AFEC5FD385C64.json",
+      "bytes": 770,
+      "sha256": "32a5c811911c5134cfef3346eb3d3d7ebfc8f48ad30d178e9b3040734ede7690"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-BA1C2F2A01C7D040.json",
+      "bytes": 763,
+      "sha256": "999c4ad269a04c86277ce38e14543700ce23e4f46cbbfc7b9dfa1e476ece7bf8"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-BDD4663CBF60EF34.json",
+      "bytes": 759,
+      "sha256": "80b94df4ff831a1f1cce35630c7a7062f77e1774f05443a4413b535535b988eb"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-C55CF1ACB8A1AE70.json",
+      "bytes": 732,
+      "sha256": "1f2d53cbf5943f1407dd548e1d4847580eb89d9dbf398a78c6721651187348e8"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-C754D122079C4938.json",
+      "bytes": 713,
+      "sha256": "255ecf60f1ef776e92052188912b7a39906422bce16ebd51dbe708c7937e2609"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D0B52D04E2596FC6.json",
+      "bytes": 723,
+      "sha256": "8e8ffe1173a91bc5ffbe529252cd714f31a23c2b5ec02e088dd2c18dddb8c991"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+      "bytes": 744,
+      "sha256": "26c00db35277b2a2739ebddc9c85a602ebaf4eaad1de23b8d8fc99ed1e29e23e"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D42AEB27C99E0915.json",
+      "bytes": 727,
+      "sha256": "451fd46e7cd9ec8cbfe0a3142756ba49ad41fa86ddfca147666530c4e34b296d"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-E4BC6834AFF20097.json",
+      "bytes": 740,
+      "sha256": "60aa09e7e425277c3cdcc0580a2143cb649b420dd0429f862f813ae33ac7aca0"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-E95EE706614E43D9.json",
+      "bytes": 737,
+      "sha256": "a23f04bee4d6cdbe5ee0c066c45978639701e1be4dd804034c597dd52a16b410"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-F45405F0BDBEF113.json",
+      "bytes": 729,
+      "sha256": "42bbb1faf76d36734ec0723696126a8f934cc74431d9f4e099b4c9b6c4a3cb9f"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-0014EF77FED827A3.json",
+      "bytes": 523,
+      "sha256": "1aa7fdede5445a4d368194c86e619fa391f6fcc292cdb00430c78973517d5784"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-022D5416F7144537.json",
+      "bytes": 522,
+      "sha256": "a879a6b12acd2a7dd50908f9b62739fb0460aadb5fabec3069239b60a41bb98e"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-0283486CBEE73F03.json",
+      "bytes": 523,
+      "sha256": "777972c87ec88b06f29e91b32ff94106ec57edaface61ac22b1bfeb4945e7220"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-09E1DA79708CF955.json",
+      "bytes": 523,
+      "sha256": "cec683a79acd905aa7cfdd0c24cf6dfff59f9e2a7b00ec9f5f33e0c2dc8612ad"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-0FA86DD6238FB575.json",
+      "bytes": 523,
+      "sha256": "38c56a436e046ac6309fb222a444ec30267a25f0c5fcbd22f8532245053a31aa"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-110ADC900ED35AD2.json",
+      "bytes": 523,
+      "sha256": "11925994a8f8c71ca1ba94f6a3d19bcd77cef3d8521b8f4011d1d044fdc2f67a"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-11D834D9213E917F.json",
+      "bytes": 523,
+      "sha256": "0b3705780a40e3b5cdc21318020d9199cdd2608289a19948f39a1bb90a919291"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-145F1E6A87B5824F.json",
+      "bytes": 523,
+      "sha256": "0bc5c2587ba3003bb3057e5fd8e96558273fc8fe1f1e0ead3e301cc5e9b2387d"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-18F465152C1EA2F4.json",
+      "bytes": 522,
+      "sha256": "c6707169a32952d258c1f230171f83bffc4109689eaea4f48d29abd054b8ce3a"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-199786F277902A07.json",
+      "bytes": 523,
+      "sha256": "184765554025d7660b48d058249cb76c3238a2ff3bf97533f6d814087b97adfb"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-1C2ED6AEEE2E40EE.json",
+      "bytes": 523,
+      "sha256": "caf06d24bc7e720e966a352ce8b6625141f21cbbd9c5ae6d79d5be7de8c71884"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-1DADFCAA4BEC8D0F.json",
+      "bytes": 523,
+      "sha256": "b30aa3f463cbc41e76eaade2e7175b650b39c81337ae28341d84134b3a23a5a6"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-20446B3EF4F42168.json",
+      "bytes": 523,
+      "sha256": "cf0240675dfa0a3b4d58160d3923141f49fc05d86fe4abfadd43d6232623d4bf"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-22823A9984171AAE.json",
+      "bytes": 523,
+      "sha256": "947a2bf54dbd8696743038fd208dc65a399892b2c3c9dc47fed85a0a96423297"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-28D01FCE6757E646.json",
+      "bytes": 522,
+      "sha256": "21f3af2d7e2973069008bab0685980cc038f8626243ac34838de5ad6d64a6186"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-2AF96A96340707A8.json",
+      "bytes": 523,
+      "sha256": "d7bc2ec0bd92b11091a27d465177662aa92ca31c2b24d6b7b3f602cb0b61bb01"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-32981968F181063D.json",
+      "bytes": 523,
+      "sha256": "d541a647ea019d3806200d20885be9b572baa7da913e5365bf7f721efa310b09"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-34F2B48038962D94.json",
+      "bytes": 523,
+      "sha256": "cca68f403babed8913a022822a61ccc89a99f9308db4f08e823dc0cd69ff8617"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-3720959B15568718.json",
+      "bytes": 523,
+      "sha256": "a866bd28fe18828f0d133ec21640a955ad38e3b0ff31c932fd4cf3cf72c4b0c0"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-392E4D09DBD834A1.json",
+      "bytes": 523,
+      "sha256": "a2f79ff4dcc0ed522cd1ae7f0c2c25e457efbb93684f8758fa42b6513ba22b36"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-3A190FCF32A6C93E.json",
+      "bytes": 523,
+      "sha256": "b521170a2ad7395af4cd539a860b83804120482163a3ff2e2278981a3fd0366c"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-3D7D898AFBD5758B.json",
+      "bytes": 523,
+      "sha256": "194da8aa673514aff5a2f05a9405ca23a2d512064cb9c2e05b94382e0c2e5ee0"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-40A0C56F31FE17CA.json",
+      "bytes": 522,
+      "sha256": "4257b170410edcda3861a1587aee2b20350ebac4a764e35ff0ddcff71912010c"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-417A6E0FD04EEC7A.json",
+      "bytes": 522,
+      "sha256": "3f7cd04187534cd61b6e82f8f5a144bdddb4d55912935218b97753b00dc5281f"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-447FD2BF8000A5D1.json",
+      "bytes": 523,
+      "sha256": "5728ab30f623cc21969aa764ba8494ec2f81df4f30b11935c210285badcac1e6"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-49D2A7FAFBD05D38.json",
+      "bytes": 523,
+      "sha256": "ad360b73d2f4b429a75bfdf0d392293be293ea1eb86db39645c37edd4ba98c41"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-4BAE767BDE739EDE.json",
+      "bytes": 523,
+      "sha256": "be0285f1bf2d68d013c0663c5a97f696f459cbf677fecc1b68fca9c46f111ec7"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-4C744315BA50E3D7.json",
+      "bytes": 523,
+      "sha256": "cc753fbf48db5ab204d853770ec600ea163a749b731f0c4cbfdfbf8de04216e0"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-4E35F32B1C611947.json",
+      "bytes": 523,
+      "sha256": "75e5ccafff894ea6e0247e71f6c84152a7accf00e1dc4d8058f297cc8847597d"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-4EB040D8F5293EC1.json",
+      "bytes": 523,
+      "sha256": "be5f331ad96189bb6e68c4e781074b3706722026b6053d94f7bdc3e34888d1a9"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-51697D7AE4F92E22.json",
+      "bytes": 523,
+      "sha256": "f0edda4ebf01212941cef11512c61921dc68c6302342fa7c7d1176ec9c37ea97"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-51B344CDFC1FA2FC.json",
+      "bytes": 523,
+      "sha256": "8813c9664b5f4064af94ba1b531a9b6e452e8da56dfb1384f1ccfd224dea274f"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-51EA854F30F7A36B.json",
+      "bytes": 523,
+      "sha256": "9f875f67121ade905d5f7fce53a1c60df478e9bad983cc3548e200b9947aa915"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-58020C96F1C54C18.json",
+      "bytes": 523,
+      "sha256": "820f30c6777e13df0b6daed6df530699712eee21479ac23ba324719186557f10"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-5CD1284503183A85.json",
+      "bytes": 523,
+      "sha256": "c1b0aad0374cc84aa2441b13b43033c1de6e67deddfdb3b9806c9116403d7883"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-5CE48EB2CFC731FC.json",
+      "bytes": 523,
+      "sha256": "18d940d8de701d18e2b924eeb4874aeccef58db9481cd1f81a6f233455bc148d"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-5F0F8FE40E64BBB5.json",
+      "bytes": 523,
+      "sha256": "02097f0b9d48f78ecd59e36fbc57d0842e0bbfabed4c1084101d52c7b0b67dba"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-6A220DFF121FA011.json",
+      "bytes": 523,
+      "sha256": "1dfde1aab97ba8fd869266444f6590cde8b30216c4b044afd22c7e494fd77a5c"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-6DFCADBA6E71F112.json",
+      "bytes": 523,
+      "sha256": "5b014d3add6bb11c16d6bedb568303091891487bc0b0306d7250939da56fae74"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-701DCFA9476DA8D4.json",
+      "bytes": 523,
+      "sha256": "3e8404d3946f546be3884e660b266a7688976d95979474102ff5aa68008611f4"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-7146C2CD14BBD462.json",
+      "bytes": 523,
+      "sha256": "e19f4b2d115115de1c044c1698719aab0a2667153c2e20cd9371784c1c637a02"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-7E9CBB370EC0BEF7.json",
+      "bytes": 523,
+      "sha256": "48b36163e70c6c5476657b0d6cac71d1fce90d76d5905db3fae15a1372dbbf08"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-7FFB739E13CB18AF.json",
+      "bytes": 523,
+      "sha256": "18012d5b9bbbd28750a83b61c219e22ec4051780d461d50dc9215f23b47e0e84"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-8345533B7667D132.json",
+      "bytes": 522,
+      "sha256": "c722786e751107e658f1e2a8c3d65a44327942b521db0f0fd5b49389b1c7bc1f"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-8FA6717253BA7770.json",
+      "bytes": 523,
+      "sha256": "207582935219e15e55081d2928b5100a3685554e2df676c9bc79dc099f9d0c37"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-946BBB3D709B8FF2.json",
+      "bytes": 523,
+      "sha256": "483f432abc9351a41c55904877d547752d07f624dfcdc6b71151aa1a81ed5008"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-94F77F6D60980452.json",
+      "bytes": 523,
+      "sha256": "197446e8c4f54cb585545d9bbb3c508859b6ab77db3cf4157d0bb2a6ef332f87"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-9606800016460B3A.json",
+      "bytes": 522,
+      "sha256": "9e9bbc96767f66eeca0ecbb8ac38e555513f0cdbdf118e57fa44d2ad0d05435c"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-9DFBE6738D886705.json",
+      "bytes": 522,
+      "sha256": "c9af0280a9098590d76734f73e6c7ec16893f1226a4795984c1eab0a4a312ca9"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-A116FB4033443D5F.json",
+      "bytes": 523,
+      "sha256": "62233a5ee1014f4ec815caea1707c6f5bb63ca5c6db80de55dbd251b3b320297"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-A827AFBD6B1172C3.json",
+      "bytes": 523,
+      "sha256": "0ed2b583d4c691aa128c4e049f5a85f916811eaac29f754e49627049b713233a"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-ADCAD9749BE86DB5.json",
+      "bytes": 523,
+      "sha256": "5ad4da55ee64535eca57fe7317c0abf236719a2c1c2a2bcf2d94d00d69ac4ee3"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-B372DF4E3C8F9989.json",
+      "bytes": 523,
+      "sha256": "031bc084b7cc4dd760e458ef4c56d87fe1e77de80e7fc304ed8de87500bc13f0"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-B47DBE294907975C.json",
+      "bytes": 523,
+      "sha256": "a1e77de4eb580856e68bb034e700f92bfbb02a062f5f7bcd2b371e9153b5cc7d"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-B6EABD4E2D3B9124.json",
+      "bytes": 523,
+      "sha256": "26f49fa1e7e883ba5eeb9748d154abd4d680f8bb50675b5ca5eb3f96b1b98ebb"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-B6F78D9C2A42B6DF.json",
+      "bytes": 523,
+      "sha256": "0e2cffb620092498333ccb9851c575e83e0ce1f0a89989c7edf8544ef83bb945"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-B76A74D276CC3B03.json",
+      "bytes": 522,
+      "sha256": "34390cbd953a4c3705f77d4d92c0f555c22cb5adeca85a1395aa0d3c6c73726f"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-BA7CF6074B30C387.json",
+      "bytes": 523,
+      "sha256": "9306ff1b3dcfc2ac800294cbb11fd620fc190f9d6f1fb49d71bb4907db623fa6"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-BAB336C7FBF65C86.json",
+      "bytes": 523,
+      "sha256": "3b4627bb8d1c50b0b177592262f16ae35628e2b2034a9abbf4f84ca312d8986c"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-BCCA5C5E0F49A116.json",
+      "bytes": 522,
+      "sha256": "393c7c8f7779656def662010b5f8f70366e3bd1cc85cdeb7546a9d28a2d8c35f"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-BEC5DCF1DA963341.json",
+      "bytes": 523,
+      "sha256": "21d71e655c0a853b49679cbeb3b2518438a005929f9276d166802d541a8b3272"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-BEEC1A1F474016C7.json",
+      "bytes": 523,
+      "sha256": "e252e7efdb9aadbf5adeb6240861cd5df047c8f645357de156587dc017ab3444"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-BFE05E7F48F3E07C.json",
+      "bytes": 523,
+      "sha256": "2c0a84b86ec62f915b812cd19a9b9632b64265e92dc51bec006840bb16afb240"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-C3CE3CEB520A8F07.json",
+      "bytes": 522,
+      "sha256": "7360e07a0960c20a608aaba866f9b194154bc7ade5d00a15cfe677203ac34fe9"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-CA9B60114B4EAC95.json",
+      "bytes": 523,
+      "sha256": "bc15c5e4e7db565c6299ddf0364e222a075976262b766876796ade90b8ce5494"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-CD054899C9416E65.json",
+      "bytes": 522,
+      "sha256": "3ace9b5f92f3e586327815567d873730736032b95dd359cd39b62b806e60ad8f"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-CD4EC1BF353AB04C.json",
+      "bytes": 523,
+      "sha256": "7702a572b52104ffe4909c796cfaa4b5f34fdac48f8ab193dc10898d7da99434"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-D02666A3DF769834.json",
+      "bytes": 522,
+      "sha256": "88815e07a327211e5c82c66af3d15041089f875d924e034cb6d08049082fd3b7"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-D07AC46D10F688A2.json",
+      "bytes": 523,
+      "sha256": "ccb125e6b75fa927885ff3459a3908dfa9cdf6d50d342708d40096256d31f882"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-DA7C45BA55446F44.json",
+      "bytes": 523,
+      "sha256": "78d65131036f0f353c3ac5b9af2d7313ef0d5b12451ef2a5178ca80f102aff7b"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-E109B126A3AF55A1.json",
+      "bytes": 523,
+      "sha256": "4388a1ee20a106805a1456db22e659ee0e440b27a25e27051fa5c29559522b14"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-E85613E0B9711565.json",
+      "bytes": 523,
+      "sha256": "d93e9fb3421d8344d5a5e2dbd2294dc45665b09dd81a43c881ed56f3fef6e189"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-EE4FB7980FF63762.json",
+      "bytes": 523,
+      "sha256": "df0a7c18c75426b37a63cbe43ca62dcbfe0fd8ca46f276af733a4217bbb38bed"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-EFC220511CC7F44F.json",
+      "bytes": 523,
+      "sha256": "a16b3f8b68872be40fab47682fd705978130b07d6be9a72c1c19b3bfbbbcddb1"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-F4131CAAEB3E8E47.json",
+      "bytes": 522,
+      "sha256": "68ca104194ef9e38ef8ca0cf46de4bad56e49e6260c54182373699b1e4819518"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-F84CBF0DF991C6BC.json",
+      "bytes": 523,
+      "sha256": "183e3efc6baed1c3d62c31e18c12e84cf78cce6d36ffbd2a36177955ab045349"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-F88381C83D86CD4D.json",
+      "bytes": 522,
+      "sha256": "5c165bbcf40ae30a16a4385b6a7c6fc53ee91152e7209e03b8788adb26b17333"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-F8F452ED5AC3BD3B.json",
+      "bytes": 523,
+      "sha256": "6eebcce5f322050a231abe8aea394c9d928ba90cbc0499367e4dc0b1cfc3bc75"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-F946BC64686A1578.json",
+      "bytes": 523,
+      "sha256": "54e887f1497b7377aa2919ecea295eeb969e3995069263f78dd76be842179d90"
+    },
+    {
+      "path": "archive/source-records/governance/council-pip-tracker/SA-PIP-RUBRIC-FC98ECAAFCB8DA24.json",
+      "bytes": 523,
+      "sha256": "dc9f2e2b9edf8540efc17baa3a9b6cb7826b750f3788dd77c6cb7fb2cbe654e9"
+    },
+    {
+      "path": "operations/campaigns/council-pip-tracker-ingestion/build_campaign.py",
+      "bytes": 6061,
+      "sha256": "813d0464a0f9384bc3db6996cde4b91110eac3abf9cff47ca74e26b123671981"
+    },
+    {
+      "path": "operations/campaigns/council-pip-tracker-ingestion/campaign-summary.json",
+      "bytes": 700,
+      "sha256": "1ee825b165e6fad8d15df5c256f27488f027b7f9a2ba3c9d0d7d352e639e4463"
+    },
+    {
+      "path": "operations/campaigns/council-pip-tracker-ingestion/campaign-summary.md",
+      "bytes": 722,
+      "sha256": "6b3f03a01bc94d0b715aa4ee488897679bf58a0501ec582d0c3e441e6f85f670"
+    },
+    {
+      "path": "operations/campaigns/council-pip-tracker-ingestion/README.md",
+      "bytes": 474,
+      "sha256": "fc14de6773b78a4c4e77922a445f4d99d89a978e6df9f44274d6542469db2236"
+    },
+    {
+      "path": "operations/campaigns/council-pip-tracker-ingestion/validate_campaign.py",
+      "bytes": 4539,
+      "sha256": "4d91276c23a608415912ae061b9a166e1beab3c336c7e43987bcf885f7fde417"
+    }
+  ]
+}
