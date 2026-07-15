@@ -18,7 +18,6 @@ Create or substantially expand:
 4. `knowledge/governance/Ecosystem-Fund.md`
 5. `knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md`
 6. `knowledge/governance/Council-Elections.md`
-7. `knowledge/governance/Governance-Timeline.md`
 8. `knowledge/governance/Governance-Implementation-and-Evidence-States.md`
 
 Expand:
@@ -26,6 +25,7 @@ Expand:
 - `knowledge/governance/PIP-Registry.md`
 - `knowledge/governance/Governance-and-Economy-Overview.md`
 - `knowledge/governance/README.md`
+- `knowledge/timeline/Governance-Timeline.md` (existing timeline-domain page; do not create a duplicate under `knowledge/governance/`)
 
 Required content:
 
@@ -77,21 +77,18 @@ Priority: high. Expected risk: R1–R3.
 Create or substantially expand:
 
 1. `knowledge/organizations/ATMTA.md`
-2. `knowledge/organizations/Star-Atlas-Foundation.md`
-3. `knowledge/organizations/Star-Atlas-DAO.md`
-4. `knowledge/organizations/Star-Atlas-Council.md`
-5. `knowledge/organizations/ATOM.md`
-6. `knowledge/organizations/Ryden-Systems-and-Eveeye.md`
-7. `knowledge/organizations/Rogue-Data-Hub.md`
-8. `knowledge/organizations/SLY-Assistant.md`
-9. `knowledge/organizations/Ecosystem-Service-Provider-Registry.md`
+2. `knowledge/organizations/ATOM.md`
+3. `knowledge/organizations/Ryden-Systems-and-Eveeye.md`
+4. `knowledge/organizations/Rogue-Data-Hub.md`
+5. `knowledge/organizations/SLY-Assistant.md`
+6. `knowledge/organizations/Ecosystem-Service-Provider-Registry.md`
 
 Expand:
 
 - `knowledge/organizations/Institutional-Overview.md`
 - `knowledge/organizations/README.md`
 
-Do not duplicate governance pages verbatim. Organization pages should focus on identity, role, relationships, lifecycle, and evidence; governance pages should focus on authority and policy.
+Do not create duplicate organization-domain pages for the DAO, Foundation, or Council. Their canonical entity pages belong under `knowledge/governance/`; the organization overview and index should link to those pages and summarize identity/relationships without repeating their authority and policy content. Other organization pages should focus on identity, role, relationships, lifecycle, and evidence.
 
 ### Group 4 — Economy, tokens, treasury, and funding programs
 
@@ -291,7 +288,7 @@ A page may enter `knowledge/` when:
 7. page risk is R1, R2, or approved R3;
 8. no R5 claim is promoted;
 9. all internal links resolve;
-10. semantic review is complete.
+10. semantic review is complete before merge; drafting in a review-only implementation PR is permitted after the evidence-packet gate passes.
 
 ## Campaign success criteria
 

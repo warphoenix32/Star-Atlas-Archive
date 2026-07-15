@@ -72,6 +72,8 @@ proposed_knowledge_status:
 page_risk_score:
 page_risk_class:
 subject_entities:
+aliases:
+scope:
 material_claims:
   - claim_id:
     claim_text:
@@ -88,6 +90,7 @@ material_claims:
 known_limitations:
 research_gaps:
 review_required:
+review_after:
 ```
 
 Store evidence packets under:
@@ -204,7 +207,9 @@ knowledge/
 operations/campaigns/knowledge-generation-wave-2/
 ```
 
-Update `graph/` or `publication/` only in a later separately authorized campaign. This campaign creates human-first knowledge pages and their campaign records.
+`archive/`, `archive/semantic/`, `graph/`, and `publication/` are prohibited implementation paths. Update them only in a later separately authorized campaign. This campaign creates human-first knowledge pages and their campaign records under the two allowed path roots above.
+
+When evidence required for a page exists only on an unmerged PR, either stack explicitly on the narrowest evidence branch or defer the page. The default for Wave 2A is current `main`; do not stack on this planning branch.
 
 Do not rewrite archive or semantic source evidence unless a genuine integrity defect is found and separately documented.
 

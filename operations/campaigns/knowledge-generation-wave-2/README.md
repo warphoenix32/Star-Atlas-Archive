@@ -73,4 +73,6 @@ review_after: YYYY-MM-DD | null
 
 ## Current dependency posture
 
-PR #12 and PR #13 remain open semantic-enrichment inputs. This planning PR may merge independently because it changes only campaign framework files. The later knowledge-generation implementation branch must inventory the merged state of `main` and any still-open semantic PRs before execution, and must not silently depend on unmerged evidence.
+As of 2026-07-15, PR #12 and PR #13 are merged into `main`; PR #15 remains an open draft stacked evidence PR. This planning PR may merge independently because it changes only campaign framework files. Wave 2A should therefore branch from current `main`, use the merged transcript, social, and governance evidence, and defer Discord/Council-archive-dependent pages that require PR #15. It must not silently copy evidence from an unmerged branch.
+
+Human semantic review is a merge gate for implementation PRs, not a prerequisite to drafting reviewable files. Wave pages may be written under `knowledge/` on a draft implementation branch after evidence packets exist, but they are not approved canonical repository knowledge until human review and merge approval.

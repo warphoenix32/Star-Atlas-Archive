@@ -1,0 +1,55 @@
+{
+  "campaign_id": "knowledge-generation-wave-2-planning",
+  "validated_as_of": "2026-07-15",
+  "planning_validation_result": "PASS_WITH_DOCUMENTED_DEFERRALS",
+  "proposed_page_count": {
+    "explicit_repository_paths": 75,
+    "conceptual_lore_outputs_without_final_paths": 5,
+    "total_candidates": 80
+  },
+  "proposed_expansions": 19,
+  "duplicate_or_overlapping_page_risks": [
+    {
+      "entities": ["Star Atlas DAO", "Star Atlas Foundation", "Star Atlas Council"],
+      "status": "RESOLVED_IN_PLAN",
+      "resolution": "Use governance-domain canonical pages and link from organization indexes; do not create duplicate organization-domain pages."
+    },
+    {
+      "entity": "Governance Timeline",
+      "status": "RESOLVED_IN_PLAN",
+      "resolution": "Expand knowledge/timeline/Governance-Timeline.md; do not create knowledge/governance/Governance-Timeline.md."
+    }
+  ],
+  "unresolved_path_decisions": [
+    "Five lore candidate outputs remain conceptual and require final canonical paths after canon-source review.",
+    "Scoped incident pages remain unnamed and require event-identity and evidence review before path assignment."
+  ],
+  "dependencies": {
+    "pr_12": "MERGED_IN_MAIN",
+    "pr_13": "MERGED_IN_MAIN",
+    "pr_15": "OPEN_DRAFT_NOT_IN_MAIN",
+    "wave_2a_base": "main",
+    "dependency_rule": "Defer pages requiring PR #15; do not silently copy unmerged Discord or Council archival evidence."
+  },
+  "allowed_implementation_paths": [
+    "knowledge/",
+    "operations/campaigns/knowledge-generation-wave-2/"
+  ],
+  "prohibited_paths": [
+    "archive/",
+    "archive/semantic/",
+    "graph/",
+    "publication/"
+  ],
+  "wave_2a_page_target": {
+    "minimum": 12,
+    "maximum": 18,
+    "preflight_portfolio_target": 17
+  },
+  "acceptance_clarifications": [
+    "Evidence packets are required before drafting.",
+    "Human semantic review is required before merge, not before draft-branch authoring.",
+    "At least 70 percent of Wave 2A outputs must be R1 or R2.",
+    "No R4 page is authorized for Wave 2A and no R5 material may enter knowledge/."
+  ]
+}
