@@ -1,0 +1,4615 @@
+{
+  "campaign_id": "star-atlas-transcripts-semantic-2026-07",
+  "schema_version": "2.0.0",
+  "generated_from": "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
+  "candidate_count": 76,
+  "candidates": [
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00001",
+      "segment_id": "SEG-DAO-0BDAF8426FDCAD51-0005",
+      "source_id": "SRC-DAO-0BDAF8426FDCAD51",
+      "timestamp": "00:08:31-00:10:41",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "ORG-SA-DAO",
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "STATUS_UPDATE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of SCORE_FACTION_FLEET framed as status update, q and a. The transcript addresses it. Yeah. which is like our private thread. So, so we can get together our thoughts there. All right. Gotcha. All right. I'll I'll try and pay attention to that future. Yeah. There's internal channels tied to the pips that um are up for…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:10:12",
+          "line": 501,
+          "text": "Is that true? Um, that's the really"
+        },
+        {
+          "timestamp": "00:10:18",
+          "line": 505,
+          "text": "Okay. How do we find the actual number"
+        },
+        {
+          "timestamp": "00:10:29",
+          "line": 513,
+          "text": "You could um add that to the people"
+        },
+        {
+          "timestamp": "00:10:31",
+          "line": 515,
+          "text": "currently in score and faction fleet,"
+        },
+        {
+          "timestamp": "00:10:15",
+          "line": 503,
+          "text": "active community in Sage at the moment."
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: STATUS_UPDATE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00002",
+      "segment_id": "SEG-DAO-1335B91689A5B7E2-0031",
+      "source_id": "SRC-DAO-1335B91689A5B7E2",
+      "timestamp": "01:01:55-01:03:26",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/governance/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of TREASURY framed as release. The transcript addresses course sales pitchy like sort of but yeah that's that's sort of fine I think we have to think well there is a negative so we do need the negative stakeholders fair point oh actually I realized now glossed over that when we came to the…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:03:26",
+          "line": 3143,
+          "text": "Sage Labs launched, Rising Sun leveraged"
+        },
+        {
+          "timestamp": "01:03:24",
+          "line": 3141,
+          "text": "hobbyist's Eve online mapping tool. When"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00003",
+      "segment_id": "SEG-DAO-32627F5FB9FADE39-0019",
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "timestamp": "00:32:25-00:34:47",
+      "promotion_targets": [
+        "knowledge/governance/",
+        "knowledge/organizations/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "Q_AND_A",
+        "CORRECTION"
+      ],
+      "summary": "Discussion of PIP, PIP-17 framed as q and a, correction. The transcript addresses not enough to complete one of these linear projects uh which is completely within the rules as well because the the rules only say that not not more than 5% at a time for the same pip and same person. Um so the way I envision this…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:32:40",
+          "line": 1515,
+          "text": "should work is that we there should be"
+        },
+        {
+          "timestamp": "00:32:43",
+          "line": 1517,
+          "text": "um a pip 17 that is an umbrella pip and"
+        },
+        {
+          "timestamp": "00:34:47",
+          "line": 1619,
+          "text": "a correction or something like that, but"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: CORRECTION",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
+        "EXECUTION_EVIDENCE_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00004",
+      "segment_id": "SEG-DAO-6BCF7DC0DB9C9720-0021",
+      "source_id": "SRC-DAO-6BCF7DC0DB9C9720",
+      "timestamp": "00:33:53-00:36:56",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/organizations/"
+      ],
+      "entity_ids": [
+        "ORG-SA-DAO"
+      ],
+      "statement_classifications": [
+        "CLARIFICATION"
+      ],
+      "summary": "Discussion of GAMEPLAY, GOVERNANCE, ECONOMY framed as clarification. The transcript addresses like afterwards I prefer to pay people afterwards. Yeah, always if I could. It's safer just more risk adverse. So if Yeah. should be the default and then there can be exceptions that are made to it but that should be the default. Yes.…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:35:27",
+          "line": 1745,
+          "text": "Atlas DAO ecosystem fund USDC preferred"
+        },
+        {
+          "timestamp": "00:34:40",
+          "line": 1705,
+          "text": "lines need to be clear. for people to"
+        },
+        {
+          "timestamp": "00:35:01",
+          "line": 1721,
+          "text": "knowledgebased integration only $2,000"
+        },
+        {
+          "timestamp": "00:35:26",
+          "line": 1743,
+          "text": "requesting allocation from the Star"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "EXECUTION_EVIDENCE_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00005",
+      "segment_id": "SEG-ECON-FORUM-04D03390B487E480-0027",
+      "source_id": "SRC-ECON-FORUM-04D03390B487E480",
+      "timestamp": "00:46:57-00:48:23",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "ROADMAP"
+      ],
+      "summary": "Discussion of SCORE_FACTION_FLEET framed as roadmap. The transcript addresses know or at least re uh ramp re refill the the Calico uh and the Mamba uh recipes so yeah that's that's the idea this is something that's been in the back of my head for quite some time um kind of wanted to get the the community's vibe…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:47:42",
+          "line": 2193,
+          "text": "of course that's coming soon"
+        },
+        {
+          "timestamp": "00:47:37",
+          "line": 2189,
+          "text": "there um some love some people saying"
+        },
+        {
+          "timestamp": "00:47:40",
+          "line": 2191,
+          "text": "crew should be working first of course"
+        },
+        {
+          "timestamp": "00:47:45",
+          "line": 2195,
+          "text": "um more things to do in Sage is always"
+        },
+        {
+          "timestamp": "00:47:48",
+          "line": 2197,
+          "text": "good BB says that's that's"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: ROADMAP",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00006",
+      "segment_id": "SEG-ECON-FORUM-354A7F51B559ED47-0004",
+      "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
+      "timestamp": "00:04:01-00:05:29",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/products/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, COMMUNITY, EVENT framed as release. The transcript addresses at as we uh you know look at the economy after the local markets update we had a massive massive update uh since the last Forum added every single star base now has a Marketplace so this has been just a completely it is probably the…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:04:26",
+          "line": 247,
+          "text": "um the release of sage so it's a really"
+        },
+        {
+          "timestamp": "00:04:20",
+          "line": 243,
+          "text": "biggest update to the sage game uh and"
+        },
+        {
+          "timestamp": "00:04:28",
+          "line": 249,
+          "text": "really big uh big important update and"
+        },
+        {
+          "timestamp": "00:04:33",
+          "line": 253,
+          "text": "updates that are going to come to the"
+        },
+        {
+          "timestamp": "00:04:56",
+          "line": 273,
+          "text": "and Sage updates I did want to uh touch"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00007",
+      "segment_id": "SEG-ECON-FORUM-7367D0DF38E859F4-0030",
+      "source_id": "SRC-ECON-FORUM-7367D0DF38E859F4",
+      "timestamp": "00:55:30-00:58:14",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of PRODUCT, ECONOMY, TECHNOLOGY framed as retrospective. The transcript addresses right so um that is a good idea um I'm not sure that I'll make it into the V1 uh just because we want to do the least amount of Transformations possible um right now but uh that is something I will note uh to consider because again…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:55:52",
+          "line": 2673,
+          "text": "quickly than you guys are used to with"
+        },
+        {
+          "timestamp": "00:55:54",
+          "line": 2675,
+          "text": "sage updates and uh things like that so"
+        },
+        {
+          "timestamp": "00:57:27",
+          "line": 2739,
+          "text": "guess I'll just have to add my ships"
+        },
+        {
+          "timestamp": "00:55:58",
+          "line": 2677,
+          "text": "uh yeah thanks for that we'll not that"
+        },
+        {
+          "timestamp": "00:57:23",
+          "line": 2737,
+          "text": "not no taking away sent will provide I"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RETROSPECTIVE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0009",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "timestamp": "00:10:42-00:11:56",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "PRODUCT-MARKETPLACE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, ECONOMY framed as release. The transcript addresses provide some more um you know foresight in terms of predicting you know where you think prices will go in the future relative to Trends and things like that but in the meantime at least you know Saving Time clicking around in the sage…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:11:54",
+          "line": 575,
+          "text": "remember like when we first released"
+        },
+        {
+          "timestamp": "00:10:51",
+          "line": 533,
+          "text": "but in the meantime at least you know"
+        },
+        {
+          "timestamp": "00:10:53",
+          "line": 535,
+          "text": "Saving Time clicking around in the sage"
+        },
+        {
+          "timestamp": "00:10:55",
+          "line": 537,
+          "text": "UI or you know seeing even over a period"
+        },
+        {
+          "timestamp": "00:11:22",
+          "line": 553,
+          "text": "utility-wise this new Galactic"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0001",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "duplicate_reason": "strongest member"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00009",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0010",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "timestamp": "00:11:59-00:14:24",
+      "promotion_targets": [
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of PRODUCT, TECHNOLOGY, CORPORATE framed as release, retrospective. The transcript addresses um for the quarterly report was warping data and the main reason was it was one of the cleanest transactions that was coming through that that required the least amount of um you know excuse me manipulation on our part to go find other…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:12:44",
+          "line": 617,
+          "text": "when Sage first released back in 2022 or"
+        },
+        {
+          "timestamp": "00:12:40",
+          "line": 615,
+          "text": "first visuals that I remember making um"
+        },
+        {
+          "timestamp": "00:12:48",
+          "line": 619,
+          "text": "three"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE, RETROSPECTIVE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0001",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "duplicate_reason": "near-duplicate of stronger candidate"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00010",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0014",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "timestamp": "00:19:13-00:22:22",
+      "promotion_targets": [
+        "knowledge/gameplay/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of CRAFTING, MINING framed as retrospective. The transcript addresses compared to the new contracts um okay any chance I see a comment this seems like a good time to to answer a question any chance you get you are zalex asks any chance you are going to re re relook at the fix especially for uster as it's…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:21:05",
+          "line": 1005,
+          "text": "hadn't previously seen the crafting"
+        },
+        {
+          "timestamp": "00:19:56",
+          "line": 951,
+          "text": "additional crafting time to create an"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: RETROSPECTIVE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00011",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0016",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "timestamp": "00:25:19-00:27:06",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of CRAFTING framed as release. The transcript addresses that these massive players rely on the small the small people to create the the economy and keep the economy churning you keep you can't just have 10 super mega uh whales and nobody else you need a nice distribution of of players at all…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:26:24",
+          "line": 1249,
+          "text": "release Sage but um interesting uh a"
+        },
+        {
+          "timestamp": "00:26:22",
+          "line": 1247,
+          "text": "uh that Gap was present before we even"
+        },
+        {
+          "timestamp": "00:26:29",
+          "line": 1251,
+          "text": "comment okay uh so I I want to talk to"
+        },
+        {
+          "timestamp": "00:26:36",
+          "line": 1255,
+          "text": "you know kind of introductory way about"
+        },
+        {
+          "timestamp": "00:26:39",
+          "line": 1257,
+          "text": "um about Sage freeto play um this is a"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00012",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0023",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "timestamp": "00:43:53-00:45:01",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of C4, CRAFTING, MINING framed as release. The transcript addresses significantly with the release of C4. Um and then a kind of a cor corlary to that or you know kind of a side uh side effect of that actually this is the main effect is many of you know the number of unique items in C4 is going to…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:43:53",
+          "line": 2023,
+          "text": "significantly with the release of C4. Um"
+        },
+        {
+          "timestamp": "00:44:42",
+          "line": 2057,
+          "text": "about someone with hundreds of ships or"
+        },
+        {
+          "timestamp": "00:44:47",
+          "line": 2061,
+          "text": "of ships and their whole entire focus is"
+        },
+        {
+          "timestamp": "00:44:39",
+          "line": 2055,
+          "text": "explode the space. When you're talking"
+        },
+        {
+          "timestamp": "00:44:45",
+          "line": 2059,
+          "text": "hundreds of thousands of dollars worth"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00013",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0029",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "timestamp": "00:52:17-00:53:18",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of MINING framed as release, retrospective. The transcript addresses redeem Max's for ship credit. Not even just Atlas or USD, just the ability to convert them to higher, larger ships. We're just gonna create we're gonna create a secondary currency which which which is very interesting um Krabby but um I…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:53:06",
+          "line": 2467,
+          "text": "Start making us used to losing 20% a"
+        },
+        {
+          "timestamp": "00:53:12",
+          "line": 2473,
+          "text": "power when a new project is launched."
+        },
+        {
+          "timestamp": "00:52:23",
+          "line": 2435,
+          "text": "convert them to higher, larger ships."
+        },
+        {
+          "timestamp": "00:52:20",
+          "line": 2433,
+          "text": "just Atlas or USD, just the ability to"
+        },
+        {
+          "timestamp": "00:52:26",
+          "line": 2437,
+          "text": "We're just gonna create we're gonna"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE, RETROSPECTIVE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00014",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0033",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "timestamp": "00:57:36-00:58:56",
+      "promotion_targets": [
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of C4 framed as release. The transcript addresses where, you know, Bitcoin news has kind of hit my radar. I have eyes only for Solana and Atlas and Zinc. So, or Atlas Polus and Zinc. So, you know, I don't really pay attention to the the larger uh coins. You know, Bitcoin is is a very,…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:58:56",
+          "line": 2733,
+          "text": "release C4. I'm almost not uh as as"
+        },
+        {
+          "timestamp": "00:58:13",
+          "line": 2697,
+          "text": "hour, but it's been going wild all"
+        },
+        {
+          "timestamp": "00:58:14",
+          "line": 2699,
+          "text": "morning. Sage users are continuing to"
+        },
+        {
+          "timestamp": "00:58:17",
+          "line": 2701,
+          "text": "trend downwards. We're seeing uh Dow"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00015",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0030",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "timestamp": "00:48:41-00:51:15",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of MINING, SCORE_FACTION_FLEET framed as release, q and a. The transcript addresses come to him with a question and he's like yeah I'll do that uh so anyway one of these exciting things is the fleet scoring system um how it's going to work is this is kind of the the way it looks right now um I just took a screenshot as…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:49:34",
+          "line": 2331,
+          "text": "going to release we're going to release"
+        },
+        {
+          "timestamp": "00:48:55",
+          "line": 2301,
+          "text": "release but we're going to have what"
+        },
+        {
+          "timestamp": "00:49:00",
+          "line": 2305,
+          "text": "are are um swapped but we're going to"
+        },
+        {
+          "timestamp": "00:49:02",
+          "line": 2307,
+          "text": "have what's a raw score and an adjusted"
+        },
+        {
+          "timestamp": "00:49:31",
+          "line": 2329,
+          "text": "of All Ships on the market um again I'm"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00016",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0014",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "timestamp": "00:17:47-00:19:35",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "ASSET-SHIPS",
+        "ASSET-CREW",
+        "ASSET-CLAIM-STAKES"
+      ],
+      "statement_classifications": [
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as retrospective. The transcript addresses a new pricing model for ships and and for uh automata more generally. Previously uh what we had done with assets ships and claim stakes uh because that's the analysis that we're doing. We're not including crew. This entire analysis…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:17:53",
+          "line": 901,
+          "text": "Previously uh what we had done with"
+        },
+        {
+          "timestamp": "00:17:47",
+          "line": 897,
+          "text": "a new pricing model for ships and and"
+        },
+        {
+          "timestamp": "00:17:56",
+          "line": 903,
+          "text": "assets ships and claim stakes uh because"
+        },
+        {
+          "timestamp": "00:18:46",
+          "line": 943,
+          "text": "selling ships for uh prices that are"
+        },
+        {
+          "timestamp": "00:18:49",
+          "line": 945,
+          "text": "closer to the equilibrium price, the"
+        }
+      ],
+      "candidate_confidence": "HIGH",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RETROSPECTIVE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "HIGH_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00017",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0015",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "timestamp": "00:19:38-00:22:40",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "ASSET-SHIPS",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of GAMEPLAY, ECONOMY, EVENT framed as release. The transcript addresses some more uh explicit uh data. Oh um will you briefly discuss the influence of other variables in the analysis for example zinc. Um, so in terms of variables in the econometric equation, I don't have like a zinc uh launch like one could…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:20:21",
+          "line": 1013,
+          "text": "launched Zinc, uh, Crew did see an"
+        },
+        {
+          "timestamp": "00:20:49",
+          "line": 1037,
+          "text": "Zinc was active, we only sold $130 worth"
+        },
+        {
+          "timestamp": "00:20:51",
+          "line": 1039,
+          "text": "of ships and and structures. So, uh that"
+        },
+        {
+          "timestamp": "00:20:14",
+          "line": 1009,
+          "text": "model that would account for that. Um, I"
+        },
+        {
+          "timestamp": "00:20:17",
+          "line": 1011,
+          "text": "also exclude uh Crew and when we first"
+        }
+      ],
+      "candidate_confidence": "HIGH",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "HIGH_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00018",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0023",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "timestamp": "00:38:08-00:40:51",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/people/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "ASSET-SHIPS",
+        "ACTOR-MICHAEL-WAGNER"
+      ],
+      "statement_classifications": [
+        "Q_AND_A",
+        "SPECULATION"
+      ],
+      "summary": "Discussion of GAMEPLAY, ECONOMY, TECHNOLOGY framed as q and a, speculation. The transcript addresses for Larenor, but that's for the Q&A. So, let's try and save that for Q&A if we can. Uh, self-referral discount. Uh, some people were able to still use Oh, interesting. This my sorry, I'm just going to address this right now. The…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:40:13",
+          "line": 1965,
+          "text": "just maybe there's too many of the ships"
+        },
+        {
+          "timestamp": "00:40:14",
+          "line": 1967,
+          "text": "or maybe it's not a very good ship. we"
+        },
+        {
+          "timestamp": "00:40:18",
+          "line": 1971,
+          "text": "up ships using some of our revenue. So"
+        },
+        {
+          "timestamp": "00:40:16",
+          "line": 1969,
+          "text": "can kind of control supply by purchasing"
+        },
+        {
+          "timestamp": "00:40:36",
+          "line": 1985,
+          "text": "So, we went from $130 worth of ships and"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00019",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0029",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "timestamp": "00:50:38-00:52:41",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of C4 framed as release, q and a. The transcript addresses that took, but, uh, probably a non-trivial amount. Um I don't know if you had any other thoughts uh chose or if anybody else had any other thoughts. I'm happy to invite people on on the stage honestly to to chat. Yeah, not sure if…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:51:26",
+          "line": 2503,
+          "text": "the release date of zinc like holos"
+        },
+        {
+          "timestamp": "00:52:26",
+          "line": 2545,
+          "text": "be launched on zinc. Like that is an"
+        },
+        {
+          "timestamp": "00:51:52",
+          "line": 2521,
+          "text": "Chris? Zinc, C4, PTR, all of this."
+        },
+        {
+          "timestamp": "00:51:56",
+          "line": 2523,
+          "text": "Yeah, I would say C4 can't come fast"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00020",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0031",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "timestamp": "00:53:45-00:55:33",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "Q_AND_A",
+        "CORRECTION"
+      ],
+      "summary": "Discussion of C4 framed as q and a, correction. The transcript addresses the best, you know, the the like the most enjoyable uh gameplay experience. But we also had a serious problem where was it I mean it was really came down to a decision of okay we we don't have the resources to we don't want to sink…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:55:16",
+          "line": 2685,
+          "text": "is it's almost scary how different it is"
+        },
+        {
+          "timestamp": "00:55:19",
+          "line": 2687,
+          "text": "um from from from Sage. Um, so I've"
+        },
+        {
+          "timestamp": "00:54:02",
+          "line": 2621,
+          "text": "deprecated. So the question is okay"
+        },
+        {
+          "timestamp": "00:54:10",
+          "line": 2627,
+          "text": "implementable because the alternative is"
+        },
+        {
+          "timestamp": "00:53:58",
+          "line": 2617,
+          "text": "resources into developing new game game"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: CORRECTION",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00021",
+      "segment_id": "SEG-ECON-FORUM-ECEE879933D7FEFE-0031",
+      "source_id": "SRC-ECON-FORUM-ECEE879933D7FEFE",
+      "timestamp": "00:55:39-00:58:10",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "CORRECTION"
+      ],
+      "summary": "Discussion of STARBASED framed as correction. The transcript addresses excited that LP will remain and we'll have RRS and we'll have potentially other things so this is going to be a big um feature I believe of 2025 where we start to grow and comp make the star Atlas economy more complex it's not as simple…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:56:01",
+          "line": 2627,
+          "text": "to say that LP was any sort of mistake"
+        },
+        {
+          "timestamp": "00:57:28",
+          "line": 2699,
+          "text": "without having to do like a huge"
+        },
+        {
+          "timestamp": "00:57:30",
+          "line": 2701,
+          "text": "migration the migration from Sage to or"
+        },
+        {
+          "timestamp": "00:57:34",
+          "line": 2703,
+          "text": "sorry Sage labs to Starbase for example"
+        },
+        {
+          "timestamp": "00:57:37",
+          "line": 2705,
+          "text": "um now there was obviously a lot of"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: CORRECTION",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00022",
+      "segment_id": "SEG-ECON-FORUM-F67474243EB194BE-0010",
+      "source_id": "SRC-ECON-FORUM-F67474243EB194BE",
+      "timestamp": "00:16:38-00:19:29",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RETROSPECTIVE",
+        "CLARIFICATION"
+      ],
+      "summary": "Discussion of MINING, SCORE_FACTION_FLEET framed as retrospective, clarification. The transcript addresses we're very aware people are currently running the numbers uh see if transition is even uh is even worth it with current demand um we currently think it is uh at least for a select subset of of fet compositions um and you know what's…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:18:14",
+          "line": 853,
+          "text": "used to the real numbers this is just"
+        },
+        {
+          "timestamp": "00:17:28",
+          "line": 817,
+          "text": "combat ships currently combat fleets"
+        },
+        {
+          "timestamp": "00:17:14",
+          "line": 805,
+          "text": "uh what that means"
+        },
+        {
+          "timestamp": "00:17:26",
+          "line": 815,
+          "text": "significantly more in demand than uh"
+        },
+        {
+          "timestamp": "00:17:30",
+          "line": 819,
+          "text": "currently um even though you know combat"
+        }
+      ],
+      "candidate_confidence": "HIGH",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RETROSPECTIVE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "HIGH_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00023",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0027",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "timestamp": "00:47:47-00:49:52",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/organizations/"
+      ],
+      "entity_ids": [
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "COMMUNITY_FEEDBACK"
+      ],
+      "summary": "Discussion of GAMEPLAY, LORE, CORPORATE framed as release, community feedback. The transcript addresses on this also want to mention uh one of the benefits to us delaying this a little bit is that we are going to have all species all factions um all art will be completed so previously we had mentioned it would be mud only means you um…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:49:01",
+          "line": 2217,
+          "text": "about Crew release on the team uh any"
+        },
+        {
+          "timestamp": "00:48:48",
+          "line": 2207,
+          "text": "adds a lot to the experience and overall"
+        },
+        {
+          "timestamp": "00:48:50",
+          "line": 2209,
+          "text": "the the crew cards themselves"
+        },
+        {
+          "timestamp": "00:48:54",
+          "line": 2211,
+          "text": "so yeah D I would love to get some uh"
+        },
+        {
+          "timestamp": "00:48:57",
+          "line": 2213,
+          "text": "some feedback from you as well I know"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00024",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0031",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "timestamp": "00:53:55-00:56:48",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as release. The transcript addresses that could be thousands or tens of thousands of crew so uh the nature of cnfs is that they are uh oneof ones so you're not able to really batch them together there might be some efficiency where you can get two or three in uh but…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:56:04",
+          "line": 2563,
+          "text": "to be um uh released alongside the crew"
+        },
+        {
+          "timestamp": "00:54:16",
+          "line": 2477,
+          "text": "at the time of opening uh I also wanted"
+        },
+        {
+          "timestamp": "00:54:26",
+          "line": 2485,
+          "text": "ships would be priced following the"
+        },
+        {
+          "timestamp": "00:54:37",
+          "line": 2493,
+          "text": "bonus on top of your ships you're"
+        },
+        {
+          "timestamp": "00:54:44",
+          "line": 2501,
+          "text": "ships has always been set based on our"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00025",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0033",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "timestamp": "00:58:16-00:59:20",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of GAMEPLAY, LORE, COMMUNITY framed as release. The transcript addresses Danny's uh brainchild here and so just one of the things that we're able to include as we as we strategically time the official release of crew cards I wanted to note here um uh this is slightly new information came in this morning but…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:58:22",
+          "line": 2671,
+          "text": "the official release of crew cards I"
+        },
+        {
+          "timestamp": "00:58:20",
+          "line": 2669,
+          "text": "include as we as we strategically time"
+        },
+        {
+          "timestamp": "00:58:24",
+          "line": 2673,
+          "text": "wanted to note here um uh this is"
+        },
+        {
+          "timestamp": "00:58:50",
+          "line": 2691,
+          "text": "we're essentially providing um uh office"
+        },
+        {
+          "timestamp": "00:58:54",
+          "line": 2693,
+          "text": "space for or again crew these faction"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00026",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0087",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "timestamp": "02:29:53-02:30:53",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "ROADMAP"
+      ],
+      "summary": "Discussion of GAMEPLAY, TECHNOLOGY, COMMUNITY framed as roadmap. The transcript addresses or poist that's locked from a wallet that you've previously used if you need to uh transfer that to a new key I believe our uh profile system and star atas account architecture is going to uh resolve that I'm not sure specifically where…",
+      "supporting_captions": [
+        {
+          "timestamp": "02:30:40",
+          "line": 6779,
+          "text": "player profile there's crew coming soon"
+        },
+        {
+          "timestamp": "02:30:38",
+          "line": 6777,
+          "text": "accounts and there's been talks about"
+        },
+        {
+          "timestamp": "02:30:42",
+          "line": 6781,
+          "text": "there's going to be multiplayer coming"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: ROADMAP",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00027",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0088",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "timestamp": "02:30:59-02:31:59",
+      "promotion_targets": [
+        "knowledge/governance/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "CORRECTION"
+      ],
+      "summary": "Discussion of PRODUCT, GOVERNANCE, TECHNOLOGY framed as correction. The transcript addresses now uh what specifically is the is so so when whener profiles coming all that functionality um being plan is it for this year uh Brett can probably give us another comment on that one I think maybe a Q4 thing maybe um you've seen so…",
+      "supporting_captions": [
+        {
+          "timestamp": "02:31:23",
+          "line": 6815,
+          "text": "implementations of profile working in"
+        },
+        {
+          "timestamp": "02:31:25",
+          "line": 6817,
+          "text": "Sage right now uh where you can kind of"
+        },
+        {
+          "timestamp": "02:31:27",
+          "line": 6819,
+          "text": "delegate uh those permissions to various"
+        },
+        {
+          "timestamp": "02:31:53",
+          "line": 6847,
+          "text": "correct that is correct yeah so I mean"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: CORRECTION",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "EXECUTION_EVIDENCE_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00028",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0090",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "timestamp": "02:33:05-02:34:05",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of GAMEPLAY, GUILD, EVENT framed as release. The transcript addresses covered a lot we got some econ in there we talked about breakpoint again uh guys please let us know if you're interested in attending in participating in uh displaying your deck uh or otherwise just showing up maybe having a…",
+      "supporting_captions": [
+        {
+          "timestamp": "02:33:44",
+          "line": 6945,
+          "text": "release date uh relatively soon um uh"
+        },
+        {
+          "timestamp": "02:33:33",
+          "line": 6933,
+          "text": "we're rolling out we talked a little bit"
+        },
+        {
+          "timestamp": "02:33:35",
+          "line": 6935,
+          "text": "about crew packs stay tuned uh this Dow"
+        },
+        {
+          "timestamp": "02:33:37",
+          "line": 6937,
+          "text": "announcement was what I was referring to"
+        },
+        {
+          "timestamp": "02:33:40",
+          "line": 6941,
+          "text": "announcement today so stay tuned we'll"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00029",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "timestamp": "00:36:04-00:39:01",
+      "promotion_targets": [
+        "knowledge/governance/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "ORG-SA-DAO",
+        "ORG-SA-FOUNDATION"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, GOVERNANCE, CORPORATE framed as release. The transcript addresses functionality to come online. We obviously have the pus locker there, the Atlas locker there, both with their individual economic benefits. um uh whether that's through, you know, earning tokens through participation or discounts on…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:36:22",
+          "line": 1695,
+          "text": "that the DAO is the very next release"
+        },
+        {
+          "timestamp": "00:36:25",
+          "line": 1697,
+          "text": "after our upcoming release. Um so coming"
+        },
+        {
+          "timestamp": "00:38:40",
+          "line": 1799,
+          "text": "DAO to open the discussion. User"
+        },
+        {
+          "timestamp": "00:36:18",
+          "line": 1693,
+          "text": "that nature. But very excited to confirm"
+        },
+        {
+          "timestamp": "00:36:35",
+          "line": 1703,
+          "text": "past, but I just want to um reinforce"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "EXECUTION_EVIDENCE_MISSING",
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00030",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0068",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "timestamp": "01:47:39-01:49:09",
+      "promotion_targets": [
+        "knowledge/governance/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, GOVERNANCE framed as release. The transcript addresses a half. So, it's a good moment to close here. Um before we close, just a quick recap. Um we went through some news, some metrics on there alone, metrics on scape velocity, learnings from scape velocity, what's coming next for Sage, uh…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:49:08",
+          "line": 5119,
+          "text": "release and then the next release after"
+        },
+        {
+          "timestamp": "01:47:52",
+          "line": 5059,
+          "text": "scape velocity, learnings from scape"
+        },
+        {
+          "timestamp": "01:47:54",
+          "line": 5061,
+          "text": "velocity, what's coming next for Sage,"
+        },
+        {
+          "timestamp": "01:47:58",
+          "line": 5063,
+          "text": "uh what's coming for the DA, which are a"
+        },
+        {
+          "timestamp": "01:48:53",
+          "line": 5105,
+          "text": "question come up a couple times. Dates"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00031",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0010",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "00:15:27-00:16:28",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/products/",
+        "knowledge/technology/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, TECHNOLOGY, EVENT framed as release. The transcript addresses back in 2021 but again all of the real mechanics on mainnet with real economic outcomes delivered to you guys and we're looking to do that within three weeks maybe one or two more points here and then maybe turn it over to Jacob to…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:16:02",
+          "line": 833,
+          "text": "release what we're looking at doing is"
+        },
+        {
+          "timestamp": "00:15:57",
+          "line": 829,
+          "text": "all time uh when I said that I was"
+        },
+        {
+          "timestamp": "00:16:00",
+          "line": 831,
+          "text": "referring specifically to the sage Labs"
+        },
+        {
+          "timestamp": "00:16:07",
+          "line": 837,
+          "text": "promo event that will include asset"
+        },
+        {
+          "timestamp": "00:16:11",
+          "line": 839,
+          "text": "distribution for participation in Sage"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00032",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0012",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "00:17:34-00:18:52",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "THEORYCRAFTING"
+      ],
+      "summary": "Discussion of CRAFTING, ESCAPE_VELOCITY, MINING, STARBASED framed as release, theorycrafting. The transcript addresses what you're going to see um and also how we want to frame this release is is important understanding that it's it's not going to be that uh uh sort of previewed gameplay experience that we put out there um uh what you saw in escape…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:17:58",
+          "line": 927,
+          "text": "star-based release the sage lab"
+        },
+        {
+          "timestamp": "00:18:02",
+          "line": 929,
+          "text": "um is sort of a back-end test right it's"
+        },
+        {
+          "timestamp": "00:18:34",
+          "line": 951,
+          "text": "Theory craft around Supply chains and"
+        },
+        {
+          "timestamp": "00:18:41",
+          "line": 957,
+          "text": "um using your ships and much more"
+        },
+        {
+          "timestamp": "00:17:53",
+          "line": 923,
+          "text": "was you know isometric warping your ship"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00033",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0015",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "00:21:11-00:23:31",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of CRAFTING, ESCAPE_VELOCITY, SCORE_FACTION_FLEET framed as release. The transcript addresses on mainnet but it's going to change a lot so pretty exciting great uh great clarification there Jacob there's been a bunch of questions we have a ton of questions to get through here but there's been a few that have come through chat so…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:21:39",
+          "line": 1115,
+          "text": "asteroids in this release uh those will"
+        },
+        {
+          "timestamp": "00:22:58",
+          "line": 1189,
+          "text": "the release of faction Fleet which was"
+        },
+        {
+          "timestamp": "00:22:02",
+          "line": 1137,
+          "text": "R4 and sell that to other players you're"
+        },
+        {
+          "timestamp": "00:22:04",
+          "line": 1139,
+          "text": "going to be consuming R4 during Sage"
+        },
+        {
+          "timestamp": "00:22:07",
+          "line": 1141,
+          "text": "there are Atlas sinks baked into all of"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00034",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0018",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "00:25:44-00:27:22",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, CORPORATE framed as release. The transcript addresses and factions are uh really incentivized to compete against each other it's gonna it's going to be very interesting so keep that in mind as you're sort of uh getting into these uh initial Sage releases yeah you know I actually will ask…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:26:23",
+          "line": 1379,
+          "text": "after the sage Labs release to focus"
+        },
+        {
+          "timestamp": "00:25:56",
+          "line": 1351,
+          "text": "releases"
+        },
+        {
+          "timestamp": "00:25:52",
+          "line": 1347,
+          "text": "keep that in mind as you're sort of uh"
+        },
+        {
+          "timestamp": "00:25:53",
+          "line": 1349,
+          "text": "getting into these uh initial Sage"
+        },
+        {
+          "timestamp": "00:26:21",
+          "line": 1377,
+          "text": "now is whether or not we spend some time"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00035",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0019",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "00:27:25-00:28:54",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, GOVERNANCE framed as release. The transcript addresses fact those users are all integrated into the economy because they're leveling up crew members they're able to trade and sell those crew members after the mint from a company perspective effective it actually gives us an opportunity to…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:27:58",
+          "line": 1461,
+          "text": "mobile and then on the rec release we"
+        },
+        {
+          "timestamp": "00:28:30",
+          "line": 1489,
+          "text": "go and vote"
+        },
+        {
+          "timestamp": "00:27:27",
+          "line": 1433,
+          "text": "the economy because they're leveling up"
+        },
+        {
+          "timestamp": "00:27:28",
+          "line": 1435,
+          "text": "crew members they're able to trade and"
+        },
+        {
+          "timestamp": "00:27:31",
+          "line": 1437,
+          "text": "sell those crew members after the mint"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00036",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0028",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "00:38:50-00:40:48",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "STATUS_UPDATE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as status update, q and a. The transcript addresses uh next question what version of sage does the new Runway get us to from Hollywood spider so this one is it's kind of difficult to answer without you know there's a lot of uh unknown unknowns that we just I can't necessarily project…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:39:15",
+          "line": 2047,
+          "text": "why why is Sage taking as long as it's"
+        },
+        {
+          "timestamp": "00:39:25",
+          "line": 2057,
+          "text": "have the status of sage of sage labs and"
+        },
+        {
+          "timestamp": "00:39:18",
+          "line": 2051,
+          "text": "in the systems that we're building so I"
+        },
+        {
+          "timestamp": "00:38:50",
+          "line": 2027,
+          "text": "uh next question"
+        },
+        {
+          "timestamp": "00:38:55",
+          "line": 2031,
+          "text": "get us to from Hollywood spider"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: STATUS_UPDATE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00037",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0034",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "00:47:06-00:48:07",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/governance/",
+        "knowledge/lore/",
+        "knowledge/organizations/"
+      ],
+      "entity_ids": [
+        "TOKEN-POLIS"
+      ],
+      "statement_classifications": [
+        "ROADMAP"
+      ],
+      "summary": "Discussion of TREASURY framed as roadmap. The transcript addresses governance structure in gain I think to some extent with the DAC platform as that rolls out uh we'll probably see some Polish integration there I'm I'm a bit of ahead of myself on that because it's also not in the DAC platform roadmap…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:48:04",
+          "line": 2515,
+          "text": "roadmap it will be some time I I don't"
+        },
+        {
+          "timestamp": "00:48:07",
+          "line": 2517,
+          "text": "know that we would even add polis to"
+        },
+        {
+          "timestamp": "00:47:34",
+          "line": 2489,
+          "text": "releases or use of the treasury assets"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: ROADMAP",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00038",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0053",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "01:15:47-01:16:57",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of SCORE_FACTION_FLEET framed as release. The transcript addresses system you can craft these golden tickets but if you're referring people and they're making purchases then you'd also Not only would you get the revenue share component but you'd also get a golden ticket so then you can go in and…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:16:40",
+          "line": 4015,
+          "text": "time for the release of sage Labs so"
+        },
+        {
+          "timestamp": "01:16:02",
+          "line": 3981,
+          "text": "tank ship"
+        },
+        {
+          "timestamp": "01:16:37",
+          "line": 4013,
+          "text": "um nevertheless having that online in"
+        },
+        {
+          "timestamp": "01:16:42",
+          "line": 4017,
+          "text": "coupling it again I think we've got a"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00039",
+      "segment_id": "SEG-TOWNHALL-5D5DDA7808DD80BE-0030",
+      "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
+      "timestamp": "00:53:18-00:54:27",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/organizations/"
+      ],
+      "entity_ids": [
+        "ORG-ATMTA"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of CORPORATE, COMMUNITY framed as release. The transcript addresses Yeah, Danny is super responsive. Really good. I love his vision, too. Yeah. So, I have another question, man. uh something that has been in the community like Sparasoft is like a major topic in the community and everybody's speaking…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:54:04",
+          "line": 2409,
+          "text": "release it. So currently right now you"
+        },
+        {
+          "timestamp": "00:54:07",
+          "line": 2411,
+          "text": "know uh we have our Star Atlas team."
+        },
+        {
+          "timestamp": "00:54:09",
+          "line": 2413,
+          "text": "We're fully invested with our time"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00040",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0006",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "timestamp": "00:11:03-00:13:56",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "PRODUCT-UE5",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of CRAFTING, SCORE_FACTION_FLEET, STARBASED framed as release, q and a. The transcript addresses about Sage we're going to talk about Dak we're going to talk about da we'll talk about Unreal Engine the crew mobile app Etc we'll discuss all of these things independently understanding that uh there is overlap in when uh various…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:12:14",
+          "line": 499,
+          "text": "is the very next release is um"
+        },
+        {
+          "timestamp": "00:12:24",
+          "line": 507,
+          "text": "faction Fleet so we are going to be"
+        },
+        {
+          "timestamp": "00:11:03",
+          "line": 439,
+          "text": "about Sage we're going to talk about Dak"
+        },
+        {
+          "timestamp": "00:11:05",
+          "line": 441,
+          "text": "we're going to talk about da we'll talk"
+        },
+        {
+          "timestamp": "00:11:07",
+          "line": 443,
+          "text": "about Unreal Engine the crew mobile app"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00041",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0031",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "timestamp": "00:53:09-00:54:50",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY framed as release, q and a. The transcript addresses future when we release combat and all these other new mechanics it's going to become every single time more and more important nice so you heard the guys get those spreadsheets ready get that data flowing exactly you're going to need uh…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:54:27",
+          "line": 2571,
+          "text": "will develop as we see this new release"
+        },
+        {
+          "timestamp": "00:54:29",
+          "line": 2573,
+          "text": "come out you know when we release Sage"
+        },
+        {
+          "timestamp": "00:53:26",
+          "line": 2525,
+          "text": "you're going to need that new chat GPT"
+        },
+        {
+          "timestamp": "00:53:28",
+          "line": 2527,
+          "text": "uh model that came out for sage"
+        },
+        {
+          "timestamp": "00:53:31",
+          "line": 2529,
+          "text": "Labs yeah yeah absolutely um and Chris"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00042",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0037",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "timestamp": "01:01:27-01:04:13",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A",
+        "CLARIFICATION"
+      ],
+      "summary": "Discussion of CRAFTING framed as release, q and a, clarification. The transcript addresses might be coming uh soon well uh I'm going to be uh very vague on this but I some of you are aware that I made a comment about uh a face melting feature that's going to be coming this year just to be clear that feature is uh is Sage…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:03:21",
+          "line": 3007,
+          "text": "release of sage Star based um"
+        },
+        {
+          "timestamp": "01:01:43",
+          "line": 2933,
+          "text": "year just to be clear that feature is uh"
+        },
+        {
+          "timestamp": "01:01:47",
+          "line": 2935,
+          "text": "is Sage related um it's actually with"
+        },
+        {
+          "timestamp": "01:01:52",
+          "line": 2939,
+          "text": "sage in 3D um not going to share"
+        },
+        {
+          "timestamp": "01:01:50",
+          "line": 2937,
+          "text": "respect to the next big evolution of"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00043",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0039",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "timestamp": "01:07:13-01:10:12",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "PRODUCT-UE5",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, TECHNOLOGY framed as release, q and a. The transcript addresses with these uh so the existing ship liability is is something like 2.1 million crew now uh I expect that we'll probably see a liability of upwards of 2.5 million crew uh by the time we get to what everyone is referring to is a snapshot…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:07:37",
+          "line": 3209,
+          "text": "is release a total of something like 10"
+        },
+        {
+          "timestamp": "01:07:48",
+          "line": 3217,
+          "text": "million crew now a lot of those crew the"
+        },
+        {
+          "timestamp": "01:07:24",
+          "line": 3199,
+          "text": "2.5 million crew uh by the time we get"
+        },
+        {
+          "timestamp": "01:07:43",
+          "line": 3213,
+          "text": "discussion all subject to change uh but"
+        },
+        {
+          "timestamp": "01:08:17",
+          "line": 3237,
+          "text": "10 million crew these are rough"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00044",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0040",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "timestamp": "01:05:21-01:06:29",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as release, q and a. The transcript addresses origination quantity minus current outstanding. That's what's remaining. So, we're not going to mint new ship quantities for, for example, the Fimble Airbike. We're not going to mint new ship quantities for something that has already…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:05:34",
+          "line": 3165,
+          "text": "release new ships. For example, we're"
+        },
+        {
+          "timestamp": "01:06:29",
+          "line": 3209,
+          "text": "ship in Sage and then you're able to"
+        },
+        {
+          "timestamp": "01:06:17",
+          "line": 3201,
+          "text": "are either um strategically weak in the"
+        },
+        {
+          "timestamp": "01:06:16",
+          "line": 3199,
+          "text": "strategically choose ships that we feel"
+        },
+        {
+          "timestamp": "01:05:32",
+          "line": 3163,
+          "text": "already sold out. We will, however,"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00045",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0054",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "timestamp": "01:27:40-01:28:56",
+      "promotion_targets": [
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "PRODUCT-UE5"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of C4 framed as release. The transcript addresses topics. We have C4 and we have UE5. So I think we can get into the C4 part right now and then we can probably talk about U5. We have a huge segment on UE5. I know people are uh desperate for information about C4. It's kind of the…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:28:36",
+          "line": 4341,
+          "text": "suite that Danny released and just the"
+        },
+        {
+          "timestamp": "01:28:20",
+          "line": 4327,
+          "text": "actually to release this in June of this"
+        },
+        {
+          "timestamp": "01:27:40",
+          "line": 4299,
+          "text": "topics. We have C4 and we have UE5."
+        },
+        {
+          "timestamp": "01:27:46",
+          "line": 4301,
+          "text": "So I think we can get into the C4 part"
+        },
+        {
+          "timestamp": "01:27:50",
+          "line": 4305,
+          "text": "and then we can probably talk about U5."
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00046",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0060",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "timestamp": "01:39:04-01:42:08",
+      "promotion_targets": [
+        "knowledge/gameplay/"
+      ],
+      "entity_ids": [
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "STATUS_UPDATE"
+      ],
+      "summary": "Discussion of GAMEPLAY framed as status update. The transcript addresses lots of new character stuff um in the lunar matrix. So, let me just show some of that actually. Um, so we're we're I'm sorry to interrupt Andy and I and I don't want to break anything. The stream quality is coming through low for me.…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:39:45",
+          "line": 4863,
+          "text": "crew cards. And we're making progress on"
+        },
+        {
+          "timestamp": "01:39:41",
+          "line": 4859,
+          "text": "loner skin until we build it up to the"
+        },
+        {
+          "timestamp": "01:39:34",
+          "line": 4855,
+          "text": "See if it kicks in. Um, yeah. So, as you"
+        },
+        {
+          "timestamp": "01:39:39",
+          "line": 4857,
+          "text": "guys know, with crew cards, you get a a"
+        },
+        {
+          "timestamp": "01:39:43",
+          "line": 4861,
+          "text": "actual version of uh what you see in the"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: STATUS_UPDATE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00047",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0009",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "timestamp": "00:10:37-00:13:09",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS",
+        "ASSET-CLAIM-STAKES"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of CRAFTING, MINING, STARBASED framed as release, q and a. The transcript addresses exciting stuff the photo mode is is a big deal and I'm really looking forward to like I said seeing everyone's photos and having competitions around it uh but yeah yeah moving on um I've seen a couple of people have been curious on what…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:11:48",
+          "line": 627,
+          "text": "coming in the next release of sage which"
+        },
+        {
+          "timestamp": "00:12:00",
+          "line": 637,
+          "text": "um in the very next release and so"
+        },
+        {
+          "timestamp": "00:12:11",
+          "line": 647,
+          "text": "this next release it will use the Fleet"
+        },
+        {
+          "timestamp": "00:11:52",
+          "line": 629,
+          "text": "is currently under the operating title"
+        },
+        {
+          "timestamp": "00:11:56",
+          "line": 633,
+          "text": "this is going to be the central gameplay"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00048",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "timestamp": "00:14:21-00:16:37",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/lore/"
+      ],
+      "entity_ids": [
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A",
+        "CLARIFICATION"
+      ],
+      "summary": "Discussion of MINING, SCORE_FACTION_FLEET framed as release, q and a, clarification. The transcript addresses itself is that these are the first chip assets that have dual function utility across the existing programs that we have available on on the play portal set right which is faction Fleet and faction claims and what that means is you will…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:16:25",
+          "line": 867,
+          "text": "Thursday is the plan to release these"
+        },
+        {
+          "timestamp": "00:15:26",
+          "line": 815,
+          "text": "did see a question uh asking can normal"
+        },
+        {
+          "timestamp": "00:15:31",
+          "line": 819,
+          "text": "faction Fleet and no it is just these"
+        },
+        {
+          "timestamp": "00:14:34",
+          "line": 767,
+          "text": "claims and what that means is you will"
+        },
+        {
+          "timestamp": "00:15:14",
+          "line": 803,
+          "text": "ships out we've been holding them back"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0002",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "duplicate_reason": "near-duplicate of stronger candidate"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0012",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "timestamp": "00:16:41-00:18:18",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of CRAFTING framed as release. The transcript addresses and then I'm going to show the next one this is the Armstrong imp tap and then here's the Armstrong and man that looks insane I'm not gonna lie that looks crazy these ships are at absolutely insane I'm very much looking forward to it…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:17:27",
+          "line": 917,
+          "text": "so Rec is just the next uh release that"
+        },
+        {
+          "timestamp": "00:16:52",
+          "line": 889,
+          "text": "looks crazy these ships are at"
+        },
+        {
+          "timestamp": "00:17:09",
+          "line": 905,
+          "text": "but yeah these ships are looking"
+        },
+        {
+          "timestamp": "00:17:42",
+          "line": 933,
+          "text": "um so players are going to be deploying"
+        },
+        {
+          "timestamp": "00:16:50",
+          "line": 887,
+          "text": "that looks insane I'm not gonna lie that"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0002",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "duplicate_reason": "strongest member"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00050",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0016",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "timestamp": "00:22:21-00:24:46",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/organizations/",
+        "knowledge/technology/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "ORG-SA-DAO",
+        "TOKEN-POLIS"
+      ],
+      "statement_classifications": [
+        "ROADMAP"
+      ],
+      "summary": "Discussion of PIP, PIP-1, TREASURY framed as roadmap. The transcript addresses there were literally every meeting that I was in there was probably about five or six other people named Mike so it was easier for me to just go by BCM than trying to figure out like who's Mike and who's Michael and who's that kind of…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:23:11",
+          "line": 1237,
+          "text": "we will make fundamental decisions about"
+        },
+        {
+          "timestamp": "00:23:43",
+          "line": 1263,
+          "text": "our roadmap for pip1 includes four"
+        },
+        {
+          "timestamp": "00:23:05",
+          "line": 1233,
+          "text": "within and outside of the game itself"
+        },
+        {
+          "timestamp": "00:23:08",
+          "line": 1235,
+          "text": "the Dao in essence is the way in which"
+        },
+        {
+          "timestamp": "00:23:25",
+          "line": 1249,
+          "text": "talk about our declaration next slide"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: ROADMAP",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00051",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0017",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "timestamp": "00:24:49-00:26:57",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/organizations/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "ORG-SA-DAO",
+        "ORG-SA-FOUNDATION"
+      ],
+      "statement_classifications": [
+        "CLARIFICATION"
+      ],
+      "summary": "Discussion of PIP, PIP-1 framed as clarification. The transcript addresses early 2024 we'll be opening the door to Citizen proposals through the app now I know we've got a couple citizen proposals already that Dan will talk about after I wrap up here um but just to be clear like we're not opening that through…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:24:49",
+          "line": 1315,
+          "text": "early 2024 we'll be opening the door to"
+        },
+        {
+          "timestamp": "00:25:01",
+          "line": 1325,
+          "text": "um but just to be clear like we're not"
+        },
+        {
+          "timestamp": "00:25:23",
+          "line": 1341,
+          "text": "supremacy clause underscores that the"
+        },
+        {
+          "timestamp": "00:25:25",
+          "line": 1343,
+          "text": "Dao is bound to a set of programs and"
+        },
+        {
+          "timestamp": "00:25:59",
+          "line": 1373,
+          "text": "foundation that Dan just talked about"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00052",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0038",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "timestamp": "00:59:40-01:01:22",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/governance/"
+      ],
+      "entity_ids": [
+        "ORG-SA-FOUNDATION"
+      ],
+      "statement_classifications": [
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of TREASURY framed as retrospective. The transcript addresses given we had this Global community and there's many languages to translate to but Dom I think you're probably uh one of the best people that can speak to the fact that even within the Discord itself we have these channels that are…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:01:08",
+          "line": 3199,
+          "text": "that could be used to cover the"
+        },
+        {
+          "timestamp": "01:00:58",
+          "line": 3191,
+          "text": "operating costs associated with the"
+        },
+        {
+          "timestamp": "01:00:59",
+          "line": 3193,
+          "text": "foundation although the Dow right now"
+        },
+        {
+          "timestamp": "01:01:09",
+          "line": 3201,
+          "text": "foundation costs but nevertheless drop"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RETROSPECTIVE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00053",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0005",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "timestamp": "00:06:27-00:07:43",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "PRODUCT-UE5"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as release, retrospective. The transcript addresses when you when you go through and kind of count all of these substantial feature releases we've had a product release or feature release come out almost every single month uh o over the last year um a and by no means is this a fully…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:07:09",
+          "line": 315,
+          "text": "of last year we had a big release of our"
+        },
+        {
+          "timestamp": "00:07:12",
+          "line": 317,
+          "text": "Unreal Engine product that was R"
+        },
+        {
+          "timestamp": "00:07:14",
+          "line": 319,
+          "text": "2.19 um I left everybody highly"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE, RETROSPECTIVE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00054",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0011",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "timestamp": "00:15:24-00:16:58",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of CRAFTING framed as release. The transcript addresses napon we roll update coming they may be launching soon Adam yep yep there is some testing going on uh and so for anyone that isn't aware Adam is a is another form of Route manager or automation service that allows you to pre-plan routes…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:16:32",
+          "line": 789,
+          "text": "Atlas so we also launched uh star Atlas"
+        },
+        {
+          "timestamp": "00:15:43",
+          "line": 747,
+          "text": "allows you to pre-plan routes and"
+        },
+        {
+          "timestamp": "00:15:44",
+          "line": 749,
+          "text": "activity within Sage I I'm going to go"
+        },
+        {
+          "timestamp": "00:15:48",
+          "line": 751,
+          "text": "out on on a limb here and say I fully"
+        },
+        {
+          "timestamp": "00:16:35",
+          "line": 791,
+          "text": "crew over the course of the Year these"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00055",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0014",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "timestamp": "00:20:04-00:21:14",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, COMMUNITY, MARKETING framed as release. The transcript addresses getting a message here we have some breaking news Santi I I hear it as well Michael I think uh we have something special to share right now we do uh we may need some help yeah I think we need to get Dom up on stage for a special…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:21:14",
+          "line": 1021,
+          "text": "recently released a huge update to Sage"
+        },
+        {
+          "timestamp": "00:21:12",
+          "line": 1019,
+          "text": "stuff out of the way most of you know we"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0003",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "duplicate_reason": "near-duplicate of stronger candidate"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0016",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "timestamp": "00:22:45-00:23:51",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, CORPORATE framed as release. The transcript addresses I just got my the only Christmas present I I need this year uh this is huge a big shout out to Gary on our team he's our uh vehicle art director pulling that skin together um on short notice I might add but really really awesome skin…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:23:26",
+          "line": 1117,
+          "text": "map that was released as a work in"
+        },
+        {
+          "timestamp": "00:23:03",
+          "line": 1099,
+          "text": "inventory yeah big reward for being a"
+        },
+        {
+          "timestamp": "00:23:06",
+          "line": 1101,
+          "text": "sage player so congratulations guys and"
+        },
+        {
+          "timestamp": "00:23:09",
+          "line": 1103,
+          "text": "I hope you like it it's a sick skin it's"
+        },
+        {
+          "timestamp": "00:23:28",
+          "line": 1119,
+          "text": "progress for sage um but I think it's a"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0003",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "duplicate_reason": "strongest member"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00057",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0031",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "timestamp": "01:00:02-01:02:37",
+      "promotion_targets": [
+        "knowledge/community/"
+      ],
+      "entity_ids": [
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of MARKETING framed as release. The transcript addresses that the F4 has missile base and counter measure systems in the HUD up there so we got those attached previously uh those you know in previous in the previous release ships didn't have missile Bays or countermeasure systems working but…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:00:12",
+          "line": 2467,
+          "text": "previous release ships didn't have"
+        },
+        {
+          "timestamp": "01:00:10",
+          "line": 2465,
+          "text": "those you know in previous in the"
+        },
+        {
+          "timestamp": "01:00:13",
+          "line": 2469,
+          "text": "missile Bays or countermeasure systems"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00058",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0067",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "timestamp": "01:57:47-01:59:16",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-CREW"
+      ],
+      "statement_classifications": [
+        "TECHNICAL_EXPLANATION"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as technical explanation. The transcript addresses soon that's great that's great huge and I see I saw a question Michael saying are all fleets going to cost $10 no no that was placeholder purely placeholder I actually thought it was too high but we left it in there um and I see Groove…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:58:18",
+          "line": 5181,
+          "text": "uses our uh player profile architecture"
+        },
+        {
+          "timestamp": "01:59:02",
+          "line": 5219,
+          "text": "future uh ship configuration including"
+        },
+        {
+          "timestamp": "01:58:14",
+          "line": 5177,
+          "text": "the fleet this needs to be a fleet that"
+        },
+        {
+          "timestamp": "01:58:42",
+          "line": 5201,
+          "text": "um and so your assets are secure but"
+        },
+        {
+          "timestamp": "01:58:44",
+          "line": 5203,
+          "text": "they need to be locked into sage and the"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: TECHNICAL_EXPLANATION",
+        "concrete date, metric, quantity, or funding detail",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00059",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0080",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "timestamp": "02:13:30-02:14:40",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "PRODUCT-UE5",
+        "PRODUCT-FLEET-COMMAND"
+      ],
+      "statement_classifications": [
+        "ROADMAP"
+      ],
+      "summary": "Discussion of C4 framed as roadmap. The transcript addresses I'll let you guys plant the bomb C disabled the soundboard um uh our Counterstrike fans out there uh you'll know that one uh I'm going to largely turn this over to Brett I I just want to and say that um I know there were concerns in the…",
+      "supporting_captions": [
+        {
+          "timestamp": "02:14:11",
+          "line": 6009,
+          "text": "roadmap development for uh all things"
+        },
+        {
+          "timestamp": "02:14:03",
+          "line": 6001,
+          "text": "we're building in Unreal Engine in Fleet"
+        },
+        {
+          "timestamp": "02:14:18",
+          "line": 6013,
+          "text": "We've simply paused the feature releases"
+        },
+        {
+          "timestamp": "02:13:54",
+          "line": 5993,
+          "text": "were concerns in the community when we"
+        },
+        {
+          "timestamp": "02:13:55",
+          "line": 5995,
+          "text": "talked about a feature lock on Sage as"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: ROADMAP",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00060",
+      "segment_id": "SEG-TOWNHALL-A1103FA71FF764D1-0013",
+      "source_id": "SRC-TOWNHALL-A1103FA71FF764D1",
+      "timestamp": "00:21:25-00:22:38",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/organizations/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "ORG-SA-FOUNDATION"
+      ],
+      "statement_classifications": [
+        "TECHNICAL_EXPLANATION",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of F_KIT framed as technical explanation, q and a. The transcript addresses standalone dog fighting arena also on the X4 and now this is pure PVE a player versus environment but it's an opportunity for players to hone in their maneuverability their skills their shooting their targeting and dodging and evading…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:22:14",
+          "line": 869,
+          "text": "architecture at Star Atlas with an"
+        },
+        {
+          "timestamp": "00:22:16",
+          "line": 871,
+          "text": "emphasis on the foundation kit or the F"
+        },
+        {
+          "timestamp": "00:22:06",
+          "line": 863,
+          "text": "will have seen in the 426 F kit"
+        },
+        {
+          "timestamp": "00:22:18",
+          "line": 873,
+          "text": "kit as you all know I think"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: TECHNICAL_EXPLANATION",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00061",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0019",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "timestamp": "00:24:22-00:25:27",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-CLAIM-STAKES"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of SCORE_FACTION_FLEET framed as release, q and a. The transcript addresses claim stake functionality into faction Fleet or AKA score um so when those claim Stakes uh um go live on the 20th sometime in January you'll be able to leverage those claim Stakes to offset uh resource consumption if you're…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:25:22",
+          "line": 1315,
+          "text": "platform launch alongside the release of"
+        },
+        {
+          "timestamp": "00:24:45",
+          "line": 1283,
+          "text": "utility ad to the claim Stakes as we"
+        },
+        {
+          "timestamp": "00:24:39",
+          "line": 1277,
+          "text": "will emit the four different resources"
+        },
+        {
+          "timestamp": "00:24:48",
+          "line": 1285,
+          "text": "continue working towards integrating"
+        },
+        {
+          "timestamp": "00:24:22",
+          "line": 1263,
+          "text": "claim stake functionality into faction"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00062",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0021",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "timestamp": "00:27:33-00:28:54",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of CRAFTING framed as release. The transcript addresses water as always and we just have a few minutes left so I would say let's go straight into into business now so I can yeah a few cool things that are dropping today Save The Best For Last um so let's talk about Sage first uh the big…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:27:51",
+          "line": 1449,
+          "text": "big release of today and we're going to"
+        },
+        {
+          "timestamp": "00:27:47",
+          "line": 1447,
+          "text": "so let's talk about Sage first uh the"
+        },
+        {
+          "timestamp": "00:27:53",
+          "line": 1451,
+          "text": "be dropping this right now is we do have"
+        },
+        {
+          "timestamp": "00:27:55",
+          "line": 1453,
+          "text": "the sage game manual uh that's going out"
+        },
+        {
+          "timestamp": "00:27:59",
+          "line": 1455,
+          "text": "um you know big shout outs to chip here"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00063",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0014",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "timestamp": "00:18:30-00:20:11",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of ESCAPE_VELOCITY framed as retrospective. The transcript addresses um now let's move to the next topic this is definitely one of the main topics for today for sure um which is Sage movement test um Michael how are you feeling about the movement test well um I mean I couldn't be more excited because we…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:18:39",
+          "line": 953,
+          "text": "um which is Sage movement test"
+        },
+        {
+          "timestamp": "00:19:41",
+          "line": 999,
+          "text": "to as the sage movement test this is a"
+        },
+        {
+          "timestamp": "00:19:48",
+          "line": 1005,
+          "text": "and December of last year and we are"
+        },
+        {
+          "timestamp": "00:18:36",
+          "line": 951,
+          "text": "today for sure"
+        },
+        {
+          "timestamp": "00:18:42",
+          "line": 955,
+          "text": "um Michael how are you feeling about the"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RETROSPECTIVE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00064",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0031",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "timestamp": "00:44:28-00:45:54",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of ESCAPE_VELOCITY framed as release. The transcript addresses in space just to make this test a bit more polished and then um you know within those grids we've added in different colors to show how dense that given sector is um and yeah I'd just like to highlight that this isn't actually the…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:44:40",
+          "line": 2327,
+          "text": "that this isn't actually the release of"
+        },
+        {
+          "timestamp": "00:44:42",
+          "line": 2329,
+          "text": "sage but more so a test and"
+        },
+        {
+          "timestamp": "00:44:45",
+          "line": 2331,
+          "text": "um another thing to highlight is you"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00065",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0043",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "timestamp": "01:02:21-01:03:21",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of ESCAPE_VELOCITY framed as release. The transcript addresses um now let's move to the next segment we covered everything related to scoundrel hunt so now let's move to our 2.1 updates well we can't miss the social campaign oh yes true you want to mention that Michael I do I do um you know a lot…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:02:55",
+          "line": 3287,
+          "text": "this feature release in the sage product"
+        },
+        {
+          "timestamp": "01:02:50",
+          "line": 3285,
+          "text": "went into uh this branding behind uh"
+        },
+        {
+          "timestamp": "01:02:57",
+          "line": 3289,
+          "text": "line this idea of escape velocity and as"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00066",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0056",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "timestamp": "01:19:03-01:20:17",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "ORG-SA-FOUNDATION",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "STATUS_UPDATE"
+      ],
+      "summary": "Discussion of GAMEPLAY, GOVERNANCE, TECHNOLOGY framed as status update. The transcript addresses and building out these content production pipelines and establishing the foundation that allows us to speed up and expedite development going into the future without over promising anything what we expect internally is the ability to…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:19:37",
+          "line": 4029,
+          "text": "the client has been updated and that's"
+        },
+        {
+          "timestamp": "01:19:40",
+          "line": 4031,
+          "text": "going to support more ships so you know"
+        },
+        {
+          "timestamp": "01:19:45",
+          "line": 4035,
+          "text": "pick and choose from the ships that you"
+        },
+        {
+          "timestamp": "01:19:06",
+          "line": 4005,
+          "text": "pipelines and establishing the"
+        },
+        {
+          "timestamp": "01:19:08",
+          "line": 4007,
+          "text": "foundation that allows us to speed up"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: STATUS_UPDATE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00067",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0052",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "timestamp": "01:44:29-01:47:29",
+      "promotion_targets": [
+        "knowledge/gameplay/"
+      ],
+      "entity_ids": [
+        "ASSET-SHIPS",
+        "ASSET-CLAIM-STAKES"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of CRAFTING, STARBASED framed as release. The transcript addresses we'll we'll get those kinds of reports and um and and then copy paste and and uh fix them as they come along. But I successfully launched the laser into Starbase. Uh that was super cool, man. But we'll get the the starting ribbon. I…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:44:41",
+          "line": 4711,
+          "text": "successfully launched the laser into"
+        },
+        {
+          "timestamp": "01:45:50",
+          "line": 4771,
+          "text": "there's lots to go still. Um, ships I"
+        },
+        {
+          "timestamp": "01:45:53",
+          "line": 4773,
+          "text": "also added recently. They're much"
+        },
+        {
+          "timestamp": "01:45:47",
+          "line": 4769,
+          "text": "Uh, okay. Back to the CSS. Like I said,"
+        },
+        {
+          "timestamp": "01:47:06",
+          "line": 4825,
+          "text": "want to pay attention to if you're"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00068",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0074",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "timestamp": "02:25:23-02:26:33",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/governance/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "ORG-SA-DAO",
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, GOVERNANCE, TECHNOLOGY framed as release. The transcript addresses not necessarily in the PTR but in the next stages maybe you could very quickly very briefly touch on this again to talk about some polless utility as well. Yeah and uh just to set context I mean Danny mentioned with the release of this…",
+      "supporting_captions": [
+        {
+          "timestamp": "02:26:33",
+          "line": 6621,
+          "text": "release the DAO and give utility the"
+        },
+        {
+          "timestamp": "02:25:46",
+          "line": 6581,
+          "text": "that said this is you know this is not"
+        },
+        {
+          "timestamp": "02:25:48",
+          "line": 6583,
+          "text": "the final form of the Sage product."
+        },
+        {
+          "timestamp": "02:25:50",
+          "line": 6585,
+          "text": "There's still a lot of things that we're"
+        },
+        {
+          "timestamp": "02:26:25",
+          "line": 6613,
+          "text": "our like tokconomic development things"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00069",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0011",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "timestamp": "00:15:05-00:16:07",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/lore/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "ASSET-CLAIM-STAKES"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of CRAFTING framed as release. The transcript addresses the expansion of this. It's uh it's council rank. So that is your progression XP and skill tree system. It's claim stakes and cultivation claims. You'll see the deprecation of faction claims in portal and the transition of full claim…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:15:31",
+          "line": 721,
+          "text": "the release. It is uh uh crafting habs,"
+        },
+        {
+          "timestamp": "00:15:15",
+          "line": 709,
+          "text": "claims. You'll see the deprecation of"
+        },
+        {
+          "timestamp": "00:15:22",
+          "line": 715,
+          "text": "construction buildout and uh development"
+        },
+        {
+          "timestamp": "00:15:09",
+          "line": 705,
+          "text": "progression XP and skill tree system."
+        },
+        {
+          "timestamp": "00:15:13",
+          "line": 707,
+          "text": "It's claim stakes and cultivation"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00070",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "timestamp": "00:16:10-00:17:48",
+      "promotion_targets": [
+        "knowledge/economy/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of C4 framed as release. The transcript addresses uh a fun and rewarding experience and not a punishing experience. And so um I the team has done a tremendous job designing this out uh laying out the regions, laying out territories, but this is going to open up the door for people to…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:16:33",
+          "line": 767,
+          "text": "we as we get into uh the C4 release."
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: RELEASE",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00071",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0020",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "timestamp": "00:31:48-00:33:19",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "STATUS_UPDATE"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY framed as status update. The transcript addresses linked together with these new things, these these warp lanes. Um, and then core systems comes into the the combat um, and owning a territory. So, we'll get into all that, but I just kind of wanted to show throw a quick overview of like…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:33:19",
+          "line": 1513,
+          "text": "currently in Sage there's a big grid"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: STATUS_UPDATE",
+        "source carries date metadata"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00072",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0043",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "timestamp": "01:21:33-01:22:33",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "entity_ids": [
+        "ASSET-CLAIM-STAKES"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of C4 framed as release. The transcript addresses you have there. It's meant to be like something you could spend a lot of time on designing out the perfect claim stake for all these things. Especially on the tier fives. Like there's going to be a ton of building slots on those that…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:22:33",
+          "line": 3983,
+          "text": "release of uh C4. More on that release"
+        },
+        {
+          "timestamp": "01:21:35",
+          "line": 3923,
+          "text": "something you could spend a lot of time"
+        },
+        {
+          "timestamp": "01:21:36",
+          "line": 3925,
+          "text": "on designing out the perfect claim stake"
+        },
+        {
+          "timestamp": "01:21:38",
+          "line": 3927,
+          "text": "for all these things. Especially on the"
+        },
+        {
+          "timestamp": "01:22:02",
+          "line": 3955,
+          "text": "we're going to mention this at the end"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00073",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0063",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "timestamp": "01:50:15-01:53:07",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-FLEET-COMMAND"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of C4 framed as release. The transcript addresses has is significantly increased this year and we've we've opted for a more um higher cadence um frequent release schedule with the with the caveat that we do take some times and uh maybe extend the releases out a month or so farther out…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:51:26",
+          "line": 5423,
+          "text": "committee release start to really focus"
+        },
+        {
+          "timestamp": "01:51:11",
+          "line": 5411,
+          "text": "and put a lot more dev effort on fleet"
+        },
+        {
+          "timestamp": "01:51:14",
+          "line": 5413,
+          "text": "command. So, expect another big chunky"
+        },
+        {
+          "timestamp": "01:51:27",
+          "line": 5425,
+          "text": "and show the love towards fleet command"
+        },
+        {
+          "timestamp": "01:51:29",
+          "line": 5427,
+          "text": "because you guys saw what's coming with"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00074",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0080",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "timestamp": "02:28:18-02:29:19",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE",
+        "PRODUCT-UE5"
+      ],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of PRODUCT, GAMEPLAY, TECHNOLOGY framed as release. The transcript addresses that can attract potentially hundreds of millions of participants over time. Now, that's a very ambitious goal and something that would, you know, take quite a while to achieve, but how do we make progress towards that? And uh part of…",
+      "supporting_captions": [
+        {
+          "timestamp": "02:29:18",
+          "line": 7115,
+          "text": "for the next major release of of that"
+        },
+        {
+          "timestamp": "02:28:30",
+          "line": 7075,
+          "text": "of it is recognizing that you know"
+        },
+        {
+          "timestamp": "02:28:32",
+          "line": 7077,
+          "text": "something like Sage is is quite a"
+        },
+        {
+          "timestamp": "02:28:34",
+          "line": 7079,
+          "text": "challenging product to get into. It has"
+        },
+        {
+          "timestamp": "02:28:42",
+          "line": 7085,
+          "text": "get into. And alternatively, we have uh"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00075",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0083",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "timestamp": "02:32:50-02:34:26",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/products/",
+        "knowledge/technology/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of C4 framed as release, q and a. The transcript addresses able to leverage this platform as a way for us to introduce new mechanics and features and test that out for ourselves and gather feedback on that. Now, a lot of the systems that they're going to demo today on the call, I I am quite…",
+      "supporting_captions": [
+        {
+          "timestamp": "02:33:43",
+          "line": 7321,
+          "text": "will be launched. And in uh in the same"
+        },
+        {
+          "timestamp": "02:33:26",
+          "line": 7311,
+          "text": "environment. So it's a kind of a test of"
+        },
+        {
+          "timestamp": "02:33:28",
+          "line": 7313,
+          "text": "a test which Sage Labs really was in the"
+        },
+        {
+          "timestamp": "02:33:31",
+          "line": 7315,
+          "text": "first place. Um we also are testing new"
+        },
+        {
+          "timestamp": "02:33:51",
+          "line": 7327,
+          "text": "working off of to test all of our"
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "OFFICIAL_CONFIRMATION_MISSING",
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00076",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0095",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "timestamp": "02:55:11-02:58:14",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [
+        "ORG-SA-FOUNDATION",
+        "PRODUCT-SAGE",
+        "ASSET-SHIPS"
+      ],
+      "statement_classifications": [
+        "TECHNICAL_EXPLANATION"
+      ],
+      "summary": "Discussion of MINING, STARBASED framed as technical explanation. The transcript addresses confirm. It's a small start, captain, but this is the foundation of your galactic empire. Let's go. This is super cool. Yeah. So, every quest has this voice over. Uh, this is the tutorial environment. So, you learn the basics of the…",
+      "supporting_captions": [
+        {
+          "timestamp": "02:56:55",
+          "line": 8281,
+          "text": "advantage of because transaction fees"
+        },
+        {
+          "timestamp": "02:55:52",
+          "line": 8239,
+          "text": "building Titan ships. But we're not sure"
+        },
+        {
+          "timestamp": "02:55:11",
+          "line": 8211,
+          "text": "confirm. It's a small start, captain,"
+        },
+        {
+          "timestamp": "02:55:14",
+          "line": 8213,
+          "text": "but this is the foundation of your"
+        },
+        {
+          "timestamp": "02:55:16",
+          "line": 8215,
+          "text": "galactic empire."
+        }
+      ],
+      "candidate_confidence": "MEDIUM",
+      "candidate_reasons": [
+        "named canonical entity",
+        "explicit institutional claim language: TECHNICAL_EXPLANATION",
+        "multiple exact supporting captions",
+        "identifiable entity relationship",
+        "source carries date metadata"
+      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "research_gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    }
+  ]
+}

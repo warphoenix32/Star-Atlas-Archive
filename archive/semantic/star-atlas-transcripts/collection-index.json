@@ -1,0 +1,62 @@
+{
+  "campaign_id": "star-atlas-transcripts-semantic-2026-07",
+  "schema_version": "2.0.0",
+  "generated_from": "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
+  "collection_count": 3,
+  "collections": [
+    {
+      "collection": "dao",
+      "source_count": 11,
+      "source_ids": [
+        "SRC-DAO-005092573D403B3E",
+        "SRC-DAO-042BD1DEEF5A9727",
+        "SRC-DAO-095E2702036E90EE",
+        "SRC-DAO-0BDAF8426FDCAD51",
+        "SRC-DAO-1335B91689A5B7E2",
+        "SRC-DAO-24AC378F245F78EF",
+        "SRC-DAO-32627F5FB9FADE39",
+        "SRC-DAO-6BCF7DC0DB9C9720",
+        "SRC-DAO-B31D1D3DC9276AA1",
+        "SRC-DAO-F42107614D29DBD4",
+        "SRC-DAO-FE10693BD2263236"
+      ]
+    },
+    {
+      "collection": "economic-forum",
+      "source_count": 11,
+      "source_ids": [
+        "SRC-ECON-FORUM-04D03390B487E480",
+        "SRC-ECON-FORUM-354A7F51B559ED47",
+        "SRC-ECON-FORUM-7367D0DF38E859F4",
+        "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+        "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+        "SRC-ECON-FORUM-C53DD05B1A9D234D",
+        "SRC-ECON-FORUM-C6A57BFABC570218",
+        "SRC-ECON-FORUM-DA876A17CDB11E18",
+        "SRC-ECON-FORUM-DDFDE4F3A1FDEF29",
+        "SRC-ECON-FORUM-ECEE879933D7FEFE",
+        "SRC-ECON-FORUM-F67474243EB194BE"
+      ]
+    },
+    {
+      "collection": "townhall",
+      "source_count": 14,
+      "source_ids": [
+        "SRC-TOWNHALL-000B2F372F9AEDDD",
+        "SRC-TOWNHALL-114A7F2FE199FAD1",
+        "SRC-TOWNHALL-49B158AA5F9C993B",
+        "SRC-TOWNHALL-4DA964D308D5B294",
+        "SRC-TOWNHALL-5D5DDA7808DD80BE",
+        "SRC-TOWNHALL-5F69263457814B5C",
+        "SRC-TOWNHALL-731A3D5664AB3C72",
+        "SRC-TOWNHALL-83FFB1A89990BFC6",
+        "SRC-TOWNHALL-8B81AF8298EC775C",
+        "SRC-TOWNHALL-A1103FA71FF764D1",
+        "SRC-TOWNHALL-B66F8586AA2FCB90",
+        "SRC-TOWNHALL-C6E705CEC7F99DB8",
+        "SRC-TOWNHALL-D6CAD785061FF76C",
+        "SRC-TOWNHALL-E3A7BCDC12B3EFEE"
+      ]
+    }
+  ]
+}

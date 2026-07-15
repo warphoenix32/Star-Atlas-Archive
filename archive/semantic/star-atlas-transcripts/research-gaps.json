@@ -1,0 +1,2911 @@
+{
+  "campaign_id": "star-atlas-transcripts-semantic-2026-07",
+  "schema_version": "2.0.0",
+  "generated_from": "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
+  "source_gap_count": 36,
+  "candidate_gap_count": 357,
+  "source_gaps": [
+    {
+      "gap_id": "RESEARCH-GAP-SA-0001",
+      "source_id": "SRC-DAO-005092573D403B3E",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0002",
+      "source_id": "SRC-DAO-042BD1DEEF5A9727",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0003",
+      "source_id": "SRC-DAO-095E2702036E90EE",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0004",
+      "source_id": "SRC-DAO-0BDAF8426FDCAD51",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0005",
+      "source_id": "SRC-DAO-1335B91689A5B7E2",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0006",
+      "source_id": "SRC-DAO-24AC378F245F78EF",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0007",
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0008",
+      "source_id": "SRC-DAO-6BCF7DC0DB9C9720",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0009",
+      "source_id": "SRC-DAO-B31D1D3DC9276AA1",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0010",
+      "source_id": "SRC-DAO-F42107614D29DBD4",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0011",
+      "source_id": "SRC-DAO-FE10693BD2263236",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0012",
+      "source_id": "SRC-ECON-FORUM-04D03390B487E480",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0013",
+      "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0014",
+      "source_id": "SRC-ECON-FORUM-7367D0DF38E859F4",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0015",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0016",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0017",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0018",
+      "source_id": "SRC-ECON-FORUM-C6A57BFABC570218",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0019",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0020",
+      "source_id": "SRC-ECON-FORUM-DDFDE4F3A1FDEF29",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0021",
+      "source_id": "SRC-ECON-FORUM-ECEE879933D7FEFE",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0022",
+      "source_id": "SRC-ECON-FORUM-F67474243EB194BE",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0023",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0024",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0025",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0026",
+      "source_id": "SRC-TOWNHALL-4DA964D308D5B294",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0027",
+      "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0028",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0029",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0030",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0031",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0032",
+      "source_id": "SRC-TOWNHALL-A1103FA71FF764D1",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0033",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0034",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0035",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_MISSING"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    },
+    {
+      "gap_id": "RESEARCH-GAP-SA-0036",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "gap_types": [
+        "SPEAKER_ATTRIBUTION_MISSING",
+        "ORIGINAL_URL_MISSING",
+        "PUBLICATION_DATE_PARTIAL_OR_FILENAME_DERIVED"
+      ],
+      "status": "OPEN",
+      "manual_review_required": true
+    }
+  ],
+  "candidate_gaps": [
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00001",
+      "segment_id": "SEG-DAO-005092573D403B3E-0002",
+      "source_id": "SRC-DAO-005092573D403B3E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00001",
+      "segment_id": "SEG-DAO-005092573D403B3E-0002",
+      "source_id": "SRC-DAO-005092573D403B3E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00002",
+      "segment_id": "SEG-DAO-005092573D403B3E-0003",
+      "source_id": "SRC-DAO-005092573D403B3E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00003",
+      "segment_id": "SEG-DAO-042BD1DEEF5A9727-0014",
+      "source_id": "SRC-DAO-042BD1DEEF5A9727",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00003",
+      "segment_id": "SEG-DAO-042BD1DEEF5A9727-0014",
+      "source_id": "SRC-DAO-042BD1DEEF5A9727",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00001",
+      "segment_id": "SEG-DAO-0BDAF8426FDCAD51-0005",
+      "source_id": "SRC-DAO-0BDAF8426FDCAD51",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00001",
+      "segment_id": "SEG-DAO-0BDAF8426FDCAD51-0005",
+      "source_id": "SRC-DAO-0BDAF8426FDCAD51",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00004",
+      "segment_id": "SEG-DAO-0BDAF8426FDCAD51-0011",
+      "source_id": "SRC-DAO-0BDAF8426FDCAD51",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00004",
+      "segment_id": "SEG-DAO-0BDAF8426FDCAD51-0011",
+      "source_id": "SRC-DAO-0BDAF8426FDCAD51",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00002",
+      "segment_id": "SEG-DAO-1335B91689A5B7E2-0031",
+      "source_id": "SRC-DAO-1335B91689A5B7E2",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00002",
+      "segment_id": "SEG-DAO-1335B91689A5B7E2-0031",
+      "source_id": "SRC-DAO-1335B91689A5B7E2",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00005",
+      "segment_id": "SEG-DAO-1335B91689A5B7E2-0031",
+      "source_id": "SRC-DAO-1335B91689A5B7E2",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00005",
+      "segment_id": "SEG-DAO-1335B91689A5B7E2-0031",
+      "source_id": "SRC-DAO-1335B91689A5B7E2",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00005",
+      "segment_id": "SEG-DAO-1335B91689A5B7E2-0031",
+      "source_id": "SRC-DAO-1335B91689A5B7E2",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00006",
+      "segment_id": "SEG-DAO-24AC378F245F78EF-0026",
+      "source_id": "SRC-DAO-24AC378F245F78EF",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00006",
+      "segment_id": "SEG-DAO-24AC378F245F78EF-0026",
+      "source_id": "SRC-DAO-24AC378F245F78EF",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00007",
+      "segment_id": "SEG-DAO-32627F5FB9FADE39-0006",
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00007",
+      "segment_id": "SEG-DAO-32627F5FB9FADE39-0006",
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00003",
+      "segment_id": "SEG-DAO-32627F5FB9FADE39-0019",
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "candidate_type": "PROMOTION",
+      "gap_type": "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00003",
+      "segment_id": "SEG-DAO-32627F5FB9FADE39-0019",
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "candidate_type": "PROMOTION",
+      "gap_type": "EXECUTION_EVIDENCE_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00003",
+      "segment_id": "SEG-DAO-32627F5FB9FADE39-0019",
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00004",
+      "segment_id": "SEG-DAO-6BCF7DC0DB9C9720-0021",
+      "source_id": "SRC-DAO-6BCF7DC0DB9C9720",
+      "candidate_type": "PROMOTION",
+      "gap_type": "EXECUTION_EVIDENCE_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00004",
+      "segment_id": "SEG-DAO-6BCF7DC0DB9C9720-0021",
+      "source_id": "SRC-DAO-6BCF7DC0DB9C9720",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00008",
+      "segment_id": "SEG-DAO-FE10693BD2263236-0019",
+      "source_id": "SRC-DAO-FE10693BD2263236",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00008",
+      "segment_id": "SEG-DAO-FE10693BD2263236-0019",
+      "source_id": "SRC-DAO-FE10693BD2263236",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00009",
+      "segment_id": "SEG-DAO-FE10693BD2263236-0028",
+      "source_id": "SRC-DAO-FE10693BD2263236",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00010",
+      "segment_id": "SEG-ECON-FORUM-04D03390B487E480-0022",
+      "source_id": "SRC-ECON-FORUM-04D03390B487E480",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00010",
+      "segment_id": "SEG-ECON-FORUM-04D03390B487E480-0022",
+      "source_id": "SRC-ECON-FORUM-04D03390B487E480",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00005",
+      "segment_id": "SEG-ECON-FORUM-04D03390B487E480-0027",
+      "source_id": "SRC-ECON-FORUM-04D03390B487E480",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00005",
+      "segment_id": "SEG-ECON-FORUM-04D03390B487E480-0027",
+      "source_id": "SRC-ECON-FORUM-04D03390B487E480",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00006",
+      "segment_id": "SEG-ECON-FORUM-354A7F51B559ED47-0004",
+      "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00006",
+      "segment_id": "SEG-ECON-FORUM-354A7F51B559ED47-0004",
+      "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00011",
+      "segment_id": "SEG-ECON-FORUM-354A7F51B559ED47-0004",
+      "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00011",
+      "segment_id": "SEG-ECON-FORUM-354A7F51B559ED47-0004",
+      "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00011",
+      "segment_id": "SEG-ECON-FORUM-354A7F51B559ED47-0004",
+      "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00007",
+      "segment_id": "SEG-ECON-FORUM-7367D0DF38E859F4-0030",
+      "source_id": "SRC-ECON-FORUM-7367D0DF38E859F4",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0009",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0009",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00012",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0009",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00012",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0009",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00012",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0009",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00009",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0010",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00009",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0010",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00013",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0010",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00013",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0010",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00013",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0010",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00010",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0014",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00011",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0016",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00011",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0016",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00014",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0016",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00014",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0016",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00014",
+      "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0016",
+      "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00012",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0023",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00012",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0023",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00015",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0023",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00015",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0023",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00015",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0023",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00013",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0029",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00013",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0029",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00016",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0029",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00016",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0029",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00016",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0029",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00014",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0033",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00014",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0033",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00017",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0033",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00017",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0033",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00017",
+      "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0033",
+      "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00018",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0029",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00018",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0029",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00018",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0029",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00015",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0030",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00015",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0030",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00019",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0030",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00019",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0030",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00019",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0030",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00016",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0014",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00017",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0015",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00017",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0015",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00020",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0015",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00020",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0015",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00020",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0015",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00018",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0023",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00019",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0029",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "PROMOTION",
+      "gap_type": "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00019",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0029",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00019",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0029",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00021",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0029",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00021",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0029",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00021",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0029",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00020",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0031",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00022",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0031",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00022",
+      "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0031",
+      "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00023",
+      "segment_id": "SEG-ECON-FORUM-DDFDE4F3A1FDEF29-0016",
+      "source_id": "SRC-ECON-FORUM-DDFDE4F3A1FDEF29",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00023",
+      "segment_id": "SEG-ECON-FORUM-DDFDE4F3A1FDEF29-0016",
+      "source_id": "SRC-ECON-FORUM-DDFDE4F3A1FDEF29",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00024",
+      "segment_id": "SEG-ECON-FORUM-DDFDE4F3A1FDEF29-0032",
+      "source_id": "SRC-ECON-FORUM-DDFDE4F3A1FDEF29",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00024",
+      "segment_id": "SEG-ECON-FORUM-DDFDE4F3A1FDEF29-0032",
+      "source_id": "SRC-ECON-FORUM-DDFDE4F3A1FDEF29",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00021",
+      "segment_id": "SEG-ECON-FORUM-ECEE879933D7FEFE-0031",
+      "source_id": "SRC-ECON-FORUM-ECEE879933D7FEFE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00025",
+      "segment_id": "SEG-ECON-FORUM-ECEE879933D7FEFE-0031",
+      "source_id": "SRC-ECON-FORUM-ECEE879933D7FEFE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00025",
+      "segment_id": "SEG-ECON-FORUM-ECEE879933D7FEFE-0031",
+      "source_id": "SRC-ECON-FORUM-ECEE879933D7FEFE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00022",
+      "segment_id": "SEG-ECON-FORUM-F67474243EB194BE-0010",
+      "source_id": "SRC-ECON-FORUM-F67474243EB194BE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00023",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0027",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00023",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0027",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00026",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0027",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00026",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0027",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00026",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0027",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00024",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0031",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00024",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0031",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00027",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0031",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00027",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0031",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00027",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0031",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00025",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0033",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00025",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0033",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00028",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0033",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00028",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0033",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00028",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0033",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00029",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0039",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00029",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0039",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00026",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0087",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00026",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0087",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00027",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0088",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "EXECUTION_EVIDENCE_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00027",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0088",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00028",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0090",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00028",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0090",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00030",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0090",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00030",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0090",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00030",
+      "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0090",
+      "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00029",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "PROMOTION",
+      "gap_type": "EXECUTION_EVIDENCE_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00029",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00029",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00031",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00031",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00031",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00030",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0068",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00030",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0068",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00032",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0068",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00032",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0068",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00032",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0068",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00031",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0010",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00031",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0010",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00033",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0010",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00033",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0010",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00033",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0010",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00032",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0012",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00032",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0012",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00034",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0012",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00034",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0012",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00034",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0012",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00033",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0015",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00033",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0015",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00035",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0015",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00035",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0015",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00035",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0015",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00034",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0018",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00034",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0018",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00036",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0018",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00036",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0018",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00036",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0018",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00035",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0019",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00035",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0019",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00037",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0019",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00037",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0019",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00036",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0028",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00036",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0028",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00037",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0034",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00037",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0034",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00038",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0037",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00038",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0037",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00038",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0053",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00038",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0053",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00039",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0053",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00039",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0053",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00039",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0053",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00039",
+      "segment_id": "SEG-TOWNHALL-5D5DDA7808DD80BE-0030",
+      "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00039",
+      "segment_id": "SEG-TOWNHALL-5D5DDA7808DD80BE-0030",
+      "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00040",
+      "segment_id": "SEG-TOWNHALL-5D5DDA7808DD80BE-0030",
+      "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00040",
+      "segment_id": "SEG-TOWNHALL-5D5DDA7808DD80BE-0030",
+      "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00040",
+      "segment_id": "SEG-TOWNHALL-5D5DDA7808DD80BE-0030",
+      "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00040",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0006",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00040",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0006",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00041",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0006",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00041",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0006",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00041",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0006",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00042",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0007",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00042",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0007",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00043",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0009",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00043",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0009",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00044",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0019",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00044",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0019",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00041",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0031",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00041",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0031",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00045",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0031",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00045",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0031",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00045",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0031",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00042",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0037",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00042",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0037",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00046",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0037",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00046",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0037",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00046",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0037",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00043",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0039",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00043",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0039",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00047",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0039",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00047",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0039",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00047",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0039",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00048",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0059",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00048",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0059",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00049",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0030",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00049",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0030",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00050",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0031",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00050",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0031",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00051",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0032",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00051",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0032",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00044",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0040",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00044",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0040",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00052",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0040",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00052",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0040",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00052",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0040",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00045",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0054",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00045",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0054",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00053",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0054",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00053",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0054",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00053",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0054",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00054",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0057",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00054",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0057",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00046",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0060",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00046",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0060",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00055",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0089",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00055",
+      "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0089",
+      "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00047",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0009",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00047",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0009",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00056",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0009",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00056",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0009",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00056",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0009",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00048",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00048",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00057",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00057",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00057",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0012",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0012",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00058",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0012",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00058",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0012",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00058",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0012",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00050",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0016",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00050",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0016",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00051",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0017",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00052",
+      "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0038",
+      "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00053",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0005",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00053",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0005",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00059",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0005",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00059",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0005",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00059",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0005",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00054",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0011",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00054",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0011",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00060",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0011",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00060",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0011",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00060",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0011",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00055",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0014",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00055",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0014",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00061",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0014",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00061",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0014",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00061",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0014",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0016",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0016",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00062",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0016",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00062",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0016",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00062",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0016",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00057",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0031",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00057",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0031",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00063",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0031",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00063",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0031",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00063",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0031",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00058",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0067",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00059",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0080",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00059",
+      "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0080",
+      "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00060",
+      "segment_id": "SEG-TOWNHALL-A1103FA71FF764D1-0013",
+      "source_id": "SRC-TOWNHALL-A1103FA71FF764D1",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00061",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0019",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00061",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0019",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00064",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0019",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00064",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0019",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00064",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0019",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00062",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0021",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00062",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0021",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00065",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0021",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00065",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0021",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00065",
+      "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0021",
+      "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00063",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0014",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00064",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0031",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00064",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0031",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00066",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0031",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00066",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0031",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00066",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0031",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00067",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0033",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00067",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0033",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00065",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0043",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00065",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0043",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00068",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0043",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00068",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0043",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00068",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0043",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00066",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0056",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00066",
+      "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0056",
+      "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00069",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0004",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00069",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0004",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00067",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0052",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00067",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0052",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00070",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0052",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00070",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0052",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00070",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0052",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00068",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0074",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00068",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0074",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00071",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0074",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00071",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0074",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00071",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0074",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00072",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0075",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00072",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0075",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00073",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0079",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00073",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0079",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00074",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0082",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_UNRESOLVED"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00074",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0082",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00069",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0011",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00069",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0011",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00075",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0011",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00075",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0011",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00075",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0011",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00070",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00070",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00070",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00076",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00076",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00076",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00071",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0020",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00071",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0020",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00072",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0043",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00072",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0043",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00077",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0043",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00077",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0043",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00077",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0043",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00078",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0058",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00078",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0058",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00073",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0063",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00073",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0063",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00079",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0063",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00079",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0063",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00079",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0063",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00074",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0080",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00074",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0080",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00080",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0080",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00080",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0080",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00080",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0080",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00075",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0083",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00075",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0083",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00081",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0083",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00081",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0083",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "OFFICIAL_CONFIRMATION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00081",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0083",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00076",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0095",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "PROMOTION",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00082",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0105",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00082",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0105",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00083",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0111",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "EVENT_DATE_IMPRECISE"
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00083",
+      "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0111",
+      "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+      "candidate_type": "TIMELINE",
+      "gap_type": "SPEAKER_ATTRIBUTION_MISSING"
+    }
+  ],
+  "top_candidate_gap_types": {
+    "SPEAKER_ATTRIBUTION_MISSING": 159,
+    "OFFICIAL_CONFIRMATION_MISSING": 113,
+    "EVENT_DATE_UNRESOLVED": 44,
+    "EVENT_DATE_IMPRECISE": 34,
+    "EXECUTION_EVIDENCE_MISSING": 4,
+    "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY": 3
+  }
+}

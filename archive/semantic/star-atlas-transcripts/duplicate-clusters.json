@@ -1,0 +1,50 @@
+{
+  "campaign_id": "star-atlas-transcripts-semantic-2026-07",
+  "schema_version": "2.0.0",
+  "generated_from": "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
+  "cluster_count": 3,
+  "clusters": [
+    {
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0001",
+      "candidate_type": "PROMOTION",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "member_candidate_ids": [
+        "PROMOTION-CANDIDATE-SA-00008",
+        "PROMOTION-CANDIDATE-SA-00009"
+      ],
+      "member_segment_ids": [
+        "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0009",
+        "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0010"
+      ],
+      "duplicate_reason": "Same recording, shared entity/concept and statement class, with high normalized supporting-caption token overlap."
+    },
+    {
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0002",
+      "candidate_type": "PROMOTION",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "member_candidate_ids": [
+        "PROMOTION-CANDIDATE-SA-00048",
+        "PROMOTION-CANDIDATE-SA-00049"
+      ],
+      "member_segment_ids": [
+        "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
+        "SEG-TOWNHALL-83FFB1A89990BFC6-0012"
+      ],
+      "duplicate_reason": "Same recording, shared entity/concept and statement class, with high normalized supporting-caption token overlap."
+    },
+    {
+      "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0003",
+      "candidate_type": "PROMOTION",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "member_candidate_ids": [
+        "PROMOTION-CANDIDATE-SA-00055",
+        "PROMOTION-CANDIDATE-SA-00056"
+      ],
+      "member_segment_ids": [
+        "SEG-TOWNHALL-8B81AF8298EC775C-0014",
+        "SEG-TOWNHALL-8B81AF8298EC775C-0016"
+      ],
+      "duplicate_reason": "Same recording, shared entity/concept and statement class, with high normalized supporting-caption token overlap."
+    }
+  ]
+}
