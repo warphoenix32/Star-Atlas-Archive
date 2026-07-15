@@ -1,64 +1,42 @@
 ---
-title: Star Atlas Institutional Overview
-entry_type: institution-overview
-status: active
-updated: 2026-07-14
-publication_status: public
+title: "Star Atlas Institutional Overview"
+knowledge_status: QUALIFIED
+as_of: 2026-07-15
+confidence: MEDIUM
+page_risk_score: 5
+page_risk_class: R2
+evidence_basis:
+  - "archive/semantic/governance/pip-registry-semantic.json"
+  - "archive/source-records/campaign-delta-official/"
+known_limitations:
+  - "Current-state statements are date-bound."
+  - "Absence of evidence is not evidence of non-occurrence."
+research_gaps:
+  - "Independent execution evidence remains incomplete where explicitly noted."
+review_after: 2027-01-15
 ---
 
 # Star Atlas Institutional Overview
+Star Atlas is represented in the archive by several related institutions with different roles. Treating them as one actor obscures who proposed, voted, administered, developed, or assessed an action.
 
-## ATMTA, Inc.
+## Institutional map
 
-ATMTA is the primary company associated with developing and operating Star Atlas. Public reporting and governance records commonly distinguish ATMTA from the Star Atlas DAO and Star Atlas Foundation. Those distinctions must be preserved in all reporting.
+| Institution | Identity and principal role | Boundary |
+|---|---|---|
+| [ATMTA, Inc.](ATMTA.md) | Operating company associated with Star Atlas product development and official publications | Not identical to the DAO electorate |
+| [Star Atlas DAO](../governance/Star-Atlas-DAO.md) | POLIS-locking and PVP-weighted governance system | Passage does not prove execution |
+| [Star Atlas Foundation](../governance/Star-Atlas-Foundation.md) | Legal and administrative implementation body in the captured framework | Administrative discretion is not separate legislative sovereignty |
+| [Star Atlas Council](../governance/Star-Atlas-Council.md) | Elected governance-process steward and delegated program administrator | Council assessments are not independent verification |
 
-### Research requirements
+## Relationships
 
-- Incorporation and corporate-history records
-- Founder and leadership chronology
-- Funding and treasury history
-- Workforce growth, contractions and contractor relationships
-- Product ownership and intellectual-property rights
-- Relationship to the DAO and Foundation
-- Public statements on runway, financing and development priorities
-- Subsidiaries, partner studios and major vendors
+ATMTA may develop products or publish official statements while the DAO considers policy and treasury proposals. The Foundation administers the legal and procedural framework described in PIPs. The Council assists authors, operates governance processes, and may verify milestones or payments where delegated. These roles can interact without merging institutional identity.
 
-## Star Atlas DAO
+## Current state
 
-The DAO is the POLIS-based governance structure through which token holders participate in proposals, treasury decisions and economic policy. Current official support materials describe extensive governance authority, but actual control must be evaluated through program permissions, legal arrangements and executed decisions.
+As of 2026-07-15, the strongest institutional evidence is the captured PIP corpus and official source archive. Current officeholders, corporate structure, and delegated authority can change; claims should be dated and linked to the governing record.
 
-## Star Atlas Foundation
+## Evidence references
 
-The Foundation is a separate institutional entity involved in DAO support and proposal execution. Its formation, directors, registered-office arrangements, operating costs, legal authority and relationship to ATMTA require a dedicated documentary record.
-
-## Documented authority boundary
-
-The official PIP-1 publication proposed a governance framework involving the DAO and Foundation; as a proposal publication, it establishes the requested structure and official terminology, not approval or implementation by itself. Atlas Brew discussed the Foundation as an operating legal body, but the normalized transcript lacks speaker attribution. That discussion is supporting community context and cannot independently establish legal authority. [SRC-OFF-50186C400EF7CC79](../../archive/source-records/campaign-delta-official/SRC-OFF-50186C400EF7CC79.md) [SRC-ATLAS-BREW-0060, 00:17:53–00:19:02; SEG-ATLAS-BREW-0060-0009](../../archive/semantic/atlas-brew/segment-index.json)
-
-A later official support record states that ATMTA safeguarded the DAO Treasury at the 2025-12-02 publication snapshot while a multisignature structure was being prepared. This is evidence of declared custody at that date, not proof that a later transfer or any specific PIP disbursement executed. An Atlas Brew statement about a PIP-2 allocation moving remains deferred until transaction or official execution evidence is preserved. [SRC-OFF-BFA6D14D54A9AA6A](../../archive/source-records/campaign-delta-official/SRC-OFF-BFA6D14D54A9AA6A.md) [SRC-ATLAS-BREW-0075, 00:38:06–00:40:24; SEG-ATLAS-BREW-0075-0025](../../archive/semantic/atlas-brew/segment-index.json)
-
-## Institutional-boundary rules
-
-- Do not use “Star Atlas,” “ATMTA,” “the DAO” and “the Foundation” interchangeably.
-- Attribute statements and obligations to the correct legal or governance entity.
-- Distinguish asset ownership, development control, intellectual-property ownership and treasury custody.
-- A shared executive, sponsor or service provider does not erase institutional separation, but it may create a conflict of interest.
-- Record formal authority separately from practical influence.
-
-## Priority documents
-
-- Corporate registrations and leadership announcements
-- Star Atlas white paper and economics paper
-- Sustainable Governance framework
-- Foundation formation documents
-- DAO proposals establishing institutional authority
-- Treasury addresses and program upgrade authorities
-- Major service-provider and reimbursement disclosures
-- IP and creator-license documentation
-
-## Sources
-
-- https://experience.staratlas.com/newsroom/press-kit
-- https://govern.staratlas.com/proposals
-- https://support.staratlas.com/hc/en-us/articles/47061439814547-What-are-the-Star-Atlas-tokens
-- https://build.staratlas.com/
+- [Governance semantic registry](../../archive/semantic/governance/pip-registry-semantic.json)
+- [Official source-record collection](../../archive/source-records/campaign-delta-official/)
