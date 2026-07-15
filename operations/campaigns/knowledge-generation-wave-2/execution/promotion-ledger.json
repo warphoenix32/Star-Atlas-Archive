@@ -1,0 +1,132 @@
+{
+  "campaign_id": "knowledge-generation-wave-2a",
+  "accepted": [
+    {
+      "path": "knowledge/organizations/ATMTA.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/atmta.json"
+    },
+    {
+      "path": "knowledge/governance/Ecosystem-Fund.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/ecosystem-fund.json"
+    },
+    {
+      "path": "knowledge/gameplay/Galactic-Marketplace.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/galactic-marketplace.json"
+    },
+    {
+      "path": "knowledge/gameplay/README.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/gameplay-index.json"
+    },
+    {
+      "path": "knowledge/governance/Governance-and-Economy-Overview.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/governance-economy-overview.json"
+    },
+    {
+      "path": "knowledge/governance/Governance-Implementation-and-Evidence-States.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/governance-evidence-states.json"
+    },
+    {
+      "path": "knowledge/governance/README.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/governance-index.json"
+    },
+    {
+      "path": "knowledge/organizations/Institutional-Overview.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/institutional-overview.json"
+    },
+    {
+      "path": "knowledge/organizations/README.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/organizations-index.json"
+    },
+    {
+      "path": "knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/pip-lifecycle.json"
+    },
+    {
+      "path": "knowledge/governance/PIP-Registry.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/pip-registry.json"
+    },
+    {
+      "path": "knowledge/gameplay/Product-Registry.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/product-registry.json"
+    },
+    {
+      "path": "knowledge/gameplay/SAGE.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/sage.json"
+    },
+    {
+      "path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/score-faction-fleet.json"
+    },
+    {
+      "path": "knowledge/governance/Star-Atlas-Council.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/star-atlas-council.json"
+    },
+    {
+      "path": "knowledge/governance/Star-Atlas-DAO.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/star-atlas-dao.json"
+    },
+    {
+      "path": "knowledge/governance/Star-Atlas-Foundation.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/star-atlas-foundation.json"
+    },
+    {
+      "path": "knowledge/gameplay/UE5-Showroom.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/ue5-showroom.json"
+    }
+  ],
+  "deferred": [
+    {
+      "path": "knowledge/media/Official-Discord-Announcements-Profile.md",
+      "reason": "PR #15 evidence is unmerged"
+    },
+    {
+      "path": "knowledge/media/Official-X-Account-Profile.md",
+      "reason": "Deferred to remain within the 18-output ceiling"
+    },
+    {
+      "path": "knowledge/events/README.md",
+      "reason": "Deferred to remain within the 18-output ceiling"
+    }
+  ],
+  "duplicate": [
+    {
+      "candidate": "knowledge/organizations/Star-Atlas-DAO.md",
+      "canonical_path": "knowledge/governance/Star-Atlas-DAO.md",
+      "reason": "Governance authority belongs in governance domain"
+    },
+    {
+      "candidate": "knowledge/organizations/Star-Atlas-Foundation.md",
+      "canonical_path": "knowledge/governance/Star-Atlas-Foundation.md",
+      "reason": "Avoid duplicate institutional authority page"
+    },
+    {
+      "candidate": "knowledge/organizations/Star-Atlas-Council.md",
+      "canonical_path": "knowledge/governance/Star-Atlas-Council.md",
+      "reason": "Avoid duplicate institutional authority page"
+    }
+  ],
+  "rejected": [
+    {
+      "path": "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+      "reason": "Complete article-by-article corpus review is absent; retain as research-only"
+    }
+  ]
+}

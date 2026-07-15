@@ -1,0 +1,108 @@
+{
+  "campaign_id": "knowledge-generation-wave-2a",
+  "as_of": "2026-07-15",
+  "branch": "knowledge/wave-2a-foundation-pages",
+  "base": "origin/main",
+  "outputs": 18,
+  "created_pages": [
+    "knowledge/organizations/ATMTA.md",
+    "knowledge/governance/Ecosystem-Fund.md",
+    "knowledge/gameplay/Galactic-Marketplace.md",
+    "knowledge/governance/Governance-Implementation-and-Evidence-States.md",
+    "knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md",
+    "knowledge/gameplay/SAGE.md",
+    "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+    "knowledge/governance/Star-Atlas-Council.md",
+    "knowledge/governance/Star-Atlas-DAO.md",
+    "knowledge/governance/Star-Atlas-Foundation.md",
+    "knowledge/gameplay/UE5-Showroom.md"
+  ],
+  "expanded_pages": [
+    "knowledge/gameplay/README.md",
+    "knowledge/governance/Governance-and-Economy-Overview.md",
+    "knowledge/governance/README.md",
+    "knowledge/organizations/Institutional-Overview.md",
+    "knowledge/organizations/README.md",
+    "knowledge/governance/PIP-Registry.md",
+    "knowledge/gameplay/Product-Registry.md"
+  ],
+  "deferred": [
+    {
+      "path": "knowledge/media/Official-Discord-Announcements-Profile.md",
+      "reason": "PR #15 evidence is unmerged"
+    },
+    {
+      "path": "knowledge/media/Official-X-Account-Profile.md",
+      "reason": "Deferred to remain within the 18-output ceiling"
+    },
+    {
+      "path": "knowledge/events/README.md",
+      "reason": "Deferred to remain within the 18-output ceiling"
+    }
+  ],
+  "rejected": [
+    {
+      "path": "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+      "reason": "Complete article-by-article corpus review is absent; retain as research-only"
+    }
+  ],
+  "knowledge_status_distribution": {
+    "CANONICAL": 6,
+    "HISTORICAL": 1,
+    "QUALIFIED": 11
+  },
+  "risk_class_distribution": {
+    "R1": 6,
+    "R2": 12
+  },
+  "single_authority_class_pages": [
+    {
+      "path": "knowledge/gameplay/Galactic-Marketplace.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/gameplay/README.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/governance/README.md",
+      "authority_class": "A1"
+    },
+    {
+      "path": "knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md",
+      "authority_class": "A1"
+    },
+    {
+      "path": "knowledge/gameplay/Product-Registry.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/gameplay/SAGE.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/governance/Star-Atlas-DAO.md",
+      "authority_class": "A1"
+    },
+    {
+      "path": "knowledge/governance/Star-Atlas-Foundation.md",
+      "authority_class": "A1"
+    },
+    {
+      "path": "knowledge/gameplay/UE5-Showroom.md",
+      "authority_class": "A2"
+    }
+  ],
+  "unresolved_contradictions": [
+    "Portal status strings remain stale relative to reviewed vote results in the captured governance corpus.",
+    "Council-reported completion may lack independent transaction or deliverable verification."
+  ],
+  "unresolved_dependencies": [
+    "PR #15 for Official Discord source-profile evidence"
+  ],
+  "validation_result": "PASS"
+}

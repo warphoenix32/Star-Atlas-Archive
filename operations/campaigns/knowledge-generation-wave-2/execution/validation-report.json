@@ -1,0 +1,78 @@
+{
+  "campaign_id": "knowledge-generation-wave-2a",
+  "validation_result": "PASS",
+  "outputs": 18,
+  "created": 11,
+  "expanded": 7,
+  "knowledge_status_distribution": {
+    "CANONICAL": 6,
+    "HISTORICAL": 1,
+    "QUALIFIED": 11
+  },
+  "risk_class_distribution": {
+    "R1": 6,
+    "R2": 12
+  },
+  "low_risk_percentage": 100.0,
+  "single_authority_class_pages": [
+    {
+      "path": "knowledge/gameplay/Galactic-Marketplace.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/gameplay/README.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/governance/README.md",
+      "authority_class": "A1"
+    },
+    {
+      "path": "knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md",
+      "authority_class": "A1"
+    },
+    {
+      "path": "knowledge/gameplay/Product-Registry.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/gameplay/SAGE.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+      "authority_class": "A2"
+    },
+    {
+      "path": "knowledge/governance/Star-Atlas-DAO.md",
+      "authority_class": "A1"
+    },
+    {
+      "path": "knowledge/governance/Star-Atlas-Foundation.md",
+      "authority_class": "A1"
+    },
+    {
+      "path": "knowledge/gameplay/UE5-Showroom.md",
+      "authority_class": "A2"
+    }
+  ],
+  "r3_or_r4_pages": [],
+  "broken_internal_links": [],
+  "prohibited_path_changes": [],
+  "checks": {
+    "evidence_packets": true,
+    "required_metadata": true,
+    "source_references_resolve": true,
+    "internal_links_resolve": true,
+    "risk_constraints": true,
+    "archive_evidence_untouched": true,
+    "graph_untouched": true,
+    "publication_untouched": true,
+    "json_parses": true,
+    "yaml_front_matter_schema_parses": true,
+    "markdown_lint": "NOT_AVAILABLE; structural checks passed",
+    "repository_schema_checks": "NO_REPOSITORY-WIDE_SUITE_PRESENT"
+  },
+  "errors": [],
+  "warnings": []
+}
