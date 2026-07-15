@@ -1,0 +1,60 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "review_type": "institutional_pip_corpus_review",
+  "corpus": {
+    "first_pip": 1,
+    "last_pip": 33,
+    "proposal_count": 33,
+    "official_source": "govern.staratlas.com"
+  },
+  "voting_rule": {
+    "binary_pass": "YES_PVP_GT_NO_PVP",
+    "binary_fail": "NO_PVP_GTE_YES_PVP",
+    "abstention_effect": "REPORTED_NOT_DECISIVE",
+    "ranked_choice": "USE_OFFICIAL_ELECTION_RESULT_WHERE_AVAILABLE"
+  },
+  "institutional_model": [
+    "POLIS_HOLDERS_AND_STAR_ATLAS_DAO",
+    "STAR_ATLAS_FOUNDATION",
+    "STAR_ATLAS_COUNCIL",
+    "ATMTA_AND_COMMUNITY_SERVICE_PROVIDERS"
+  ],
+  "governance_phases": [
+    {"phase": 1, "name": "CONSTITUTIONAL_FORMATION", "pips": "1-4"},
+    {"phase": 2, "name": "FIRST_OPERATIONS_AND_ELECTIONS", "pips": "5-11"},
+    {"phase": 3, "name": "PROGRAMMATIC_COMMUNITY_FUNDING", "pips": "12-24"},
+    {"phase": 4, "name": "OPERATIONAL_CONTINUITY", "pips": "25-33"}
+  ],
+  "results": {
+    "passed_binary": [1,2,3,4,5,8,9,10,12,14,16,17,18,20,21,22,23,24,28,29,30,31,32,33],
+    "failed_binary": [13,15,19,26],
+    "elections_or_nonbinary": [6,7,11,25,27],
+    "election_results_unresolved_in_capture": [11,25,27]
+  },
+  "supersession_and_dependencies": [
+    {"from": 23, "relation": "SUPERSEDES", "to": 4},
+    {"from": 10, "relation": "MODIFIES_AND_EXTENDS", "to": 3},
+    {"from": 13, "relation": "FAILED_ATTEMPT_TO_MODIFY", "to": 10},
+    {"from": 20, "relation": "ESTABLISHES_PROGRAM_FOR", "to": 27},
+    {"from": 9, "relation": "GOVERNS_STV_METHOD_USED_BY", "to": 27},
+    {"from": 8, "relation": "EXPANDED_BY", "to": 18}
+  ],
+  "canonical_promotion_targets": [
+    "knowledge/governance/Star-Atlas-DAO.md",
+    "knowledge/governance/Star-Atlas-Foundation.md",
+    "knowledge/governance/Star-Atlas-Council.md",
+    "knowledge/economy/Ecosystem-Fund.md",
+    "knowledge/governance/PIP-Registry.md",
+    "knowledge/governance/Governance-Programs.md",
+    "knowledge/timeline/"
+  ],
+  "research_gaps": [
+    "PIP_11_ELECTION_WINNERS",
+    "PIP_25_ELECTION_WINNERS",
+    "PIP_27_ELECTION_WINNERS",
+    "IMPLEMENTATION_EVIDENCE_FOR_MOST_PASSED_PIPS",
+    "PORTAL_STATUS_IS_STALE_FOR_COMPLETED_VOTES",
+    "RECONCILE_HISTORICAL_PIP_1_QUORUM_TEXT_WITH_CURRENT_OPERATING_RULE"
+  ],
+  "canonical_status": "REVIEWED_NOT_PROMOTED"
+}

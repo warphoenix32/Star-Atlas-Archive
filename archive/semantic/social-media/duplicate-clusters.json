@@ -1,0 +1,372 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "1.0.0",
+  "generated_from": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+  "cluster_count": 25,
+  "clusters": [
+    {
+      "cluster_id": "SOCIAL-DUP-0001",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1865335445976187025",
+        "SRC-X-STARATLAS-1866574344484225261"
+      ],
+      "cluster_type": "NEAR_DUPLICATE_OR_REPEATED_ANNOUNCEMENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1865335445976187025",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1865335445976187025",
+        "SRC-X-STARATLAS-1866574344484225261"
+      ],
+      "reason": "High deterministic token overlap indicates repeated or closely variant coverage of the same announcement."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0002",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1866513213384474972",
+        "SRC-X-STARATLAS-1866574366185755025"
+      ],
+      "cluster_type": "NEAR_DUPLICATE_OR_REPEATED_ANNOUNCEMENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1866513213384474972",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1866513213384474972",
+        "SRC-X-STARATLAS-1866574366185755025"
+      ],
+      "reason": "High deterministic token overlap indicates repeated or closely variant coverage of the same announcement."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0003",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1866915525785161996",
+        "SRC-X-STARATLAS-1905700261437546523"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1905700261437546523",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1866915525785161996",
+        "SRC-X-STARATLAS-1905700261437546523"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0004",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1869822646705369583",
+        "SRC-X-STARATLAS-1870031309373895015"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1869822646705369583",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1869822646705369583",
+        "SRC-X-STARATLAS-1870031309373895015"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0005",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1872371806989934861",
+        "SRC-X-STARATLAS-1874463704366059928"
+      ],
+      "cluster_type": "NEAR_DUPLICATE_OR_REPEATED_ANNOUNCEMENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1872371806989934861",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1872371806989934861",
+        "SRC-X-STARATLAS-1874463704366059928"
+      ],
+      "reason": "High deterministic token overlap indicates repeated or closely variant coverage of the same announcement."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0006",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1872553009139548584",
+        "SRC-X-STARATLAS-1874463706220011640"
+      ],
+      "cluster_type": "NEAR_DUPLICATE_OR_REPEATED_ANNOUNCEMENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1872553009139548584",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1872553009139548584",
+        "SRC-X-STARATLAS-1874463706220011640"
+      ],
+      "reason": "High deterministic token overlap indicates repeated or closely variant coverage of the same announcement."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0007",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1872915394161422732",
+        "SRC-X-STARATLAS-1874463709726416921"
+      ],
+      "cluster_type": "NEAR_DUPLICATE_OR_REPEATED_ANNOUNCEMENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1872915394161422732",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1872915394161422732",
+        "SRC-X-STARATLAS-1874463709726416921"
+      ],
+      "reason": "High deterministic token overlap indicates repeated or closely variant coverage of the same announcement."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0008",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1873277781267857431",
+        "SRC-X-STARATLAS-1874463713266385079"
+      ],
+      "cluster_type": "NEAR_DUPLICATE_OR_REPEATED_ANNOUNCEMENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1873277781267857431",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1873277781267857431",
+        "SRC-X-STARATLAS-1874463713266385079"
+      ],
+      "reason": "High deterministic token overlap indicates repeated or closely variant coverage of the same announcement."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0009",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1877446845166739618",
+        "SRC-X-STARATLAS-1883997425171587464"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1883997425171587464",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1877446845166739618",
+        "SRC-X-STARATLAS-1883997425171587464"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0010",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1886497997967536493",
+        "SRC-X-STARATLAS-1896253916461007158"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1896253916461007158",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1886497997967536493",
+        "SRC-X-STARATLAS-1896253916461007158"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0011",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1891909412081561721",
+        "SRC-X-STARATLAS-1891935166580322361",
+        "SRC-X-STARATLAS-1891954163229065521",
+        "SRC-X-STARATLAS-1891957164299657487",
+        "SRC-X-STARATLAS-1891970981133979987",
+        "SRC-X-STARATLAS-1891977960141287818",
+        "SRC-X-STARATLAS-1892014269333418492",
+        "SRC-X-STARATLAS-1892292309217112328"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1891935166580322361",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1891909412081561721",
+        "SRC-X-STARATLAS-1891935166580322361",
+        "SRC-X-STARATLAS-1891954163229065521",
+        "SRC-X-STARATLAS-1891957164299657487",
+        "SRC-X-STARATLAS-1891970981133979987",
+        "SRC-X-STARATLAS-1891977960141287818",
+        "SRC-X-STARATLAS-1892014269333418492",
+        "SRC-X-STARATLAS-1892292309217112328"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0012",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1894517074682105865",
+        "SRC-X-STARATLAS-1923847567126954050"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1923847567126954050",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1894517074682105865",
+        "SRC-X-STARATLAS-1923847567126954050"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0013",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1913317954529407054",
+        "SRC-X-STARATLAS-1915826035108810840"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1915826035108810840",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1913317954529407054",
+        "SRC-X-STARATLAS-1915826035108810840"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0014",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1921996611099509031",
+        "SRC-X-STARATLAS-1965527304219852974"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1965527304219852974",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1921996611099509031",
+        "SRC-X-STARATLAS-1965527304219852974"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0015",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1927475057602781242",
+        "SRC-X-STARATLAS-1960077958573654398"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1960077958573654398",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1927475057602781242",
+        "SRC-X-STARATLAS-1960077958573654398"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0016",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1930373804632748058",
+        "SRC-X-STARATLAS-1931787445689008532"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1931787445689008532",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1930373804632748058",
+        "SRC-X-STARATLAS-1931787445689008532"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0017",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1938320469704462833",
+        "SRC-X-STARATLAS-1977837825233170740",
+        "SRC-X-STARATLAS-2046671478578614620"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-2046671478578614620",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1938320469704462833",
+        "SRC-X-STARATLAS-1977837825233170740",
+        "SRC-X-STARATLAS-2046671478578614620"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0018",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1945209506658705847",
+        "SRC-X-STARATLAS-1945254807498830013"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1945209506658705847",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1945209506658705847",
+        "SRC-X-STARATLAS-1945254807498830013"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0019",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1947781180872659146",
+        "SRC-X-STARATLAS-1951334858397278577"
+      ],
+      "cluster_type": "NEAR_DUPLICATE_OR_REPEATED_ANNOUNCEMENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1951334858397278577",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1947781180872659146",
+        "SRC-X-STARATLAS-1951334858397278577"
+      ],
+      "reason": "High deterministic token overlap indicates repeated or closely variant coverage of the same announcement."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0020",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1949915373731737922",
+        "SRC-X-STARATLAS-1949977666276172039"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1949915373731737922",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1949915373731737922",
+        "SRC-X-STARATLAS-1949977666276172039"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0021",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1950639031991378313",
+        "SRC-X-STARATLAS-1951402992554614816"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1950639031991378313",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1950639031991378313",
+        "SRC-X-STARATLAS-1951402992554614816"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0022",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1954976229293166739",
+        "SRC-X-STARATLAS-1955113578853486661"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1954976229293166739",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1954976229293166739",
+        "SRC-X-STARATLAS-1955113578853486661"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0023",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1955333224617611484",
+        "SRC-X-STARATLAS-1955468744844873862"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1955333224617611484",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1955333224617611484",
+        "SRC-X-STARATLAS-1955468744844873862"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0024",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1978886959079546997",
+        "SRC-X-STARATLAS-2065192358044393657"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-2065192358044393657",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1978886959079546997",
+        "SRC-X-STARATLAS-2065192358044393657"
+      ],
+      "reason": "Normalized text is identical."
+    },
+    {
+      "cluster_id": "SOCIAL-DUP-0025",
+      "member_source_ids": [
+        "SRC-X-STARATLAS-1981418602688631161",
+        "SRC-X-STARATLAS-1981433076988473592"
+      ],
+      "cluster_type": "EXACT_REPEATED_CONTENT",
+      "strongest_candidate_id": "SRC-X-STARATLAS-1981418602688631161",
+      "supersession_order": [
+        "SRC-X-STARATLAS-1981418602688631161",
+        "SRC-X-STARATLAS-1981433076988473592"
+      ],
+      "reason": "Normalized text is identical."
+    }
+  ]
+}

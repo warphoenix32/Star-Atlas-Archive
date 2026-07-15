@@ -1,0 +1,101 @@
+{
+  "campaign_id": "star-atlas-latest-documents-ingestion",
+  "artifact_count": 19,
+  "entries": [
+    {
+      "path": "README.md",
+      "size_bytes": 1601,
+      "sha256": "89a4d39e9b331c79eacba7ce41e995c9ec79b12ebbf129fd4642660dab0a17b1"
+    },
+    {
+      "path": "normalized/Star_Atlas_DAO_Council_Tracker_Normalized.xlsx",
+      "size_bytes": 117272,
+      "sha256": "222aea1425fb358717a14d0a55e118b773ce09a22b6176087dc5d850e1cbb982"
+    },
+    {
+      "path": "normalized/accomplishment_numbers.csv",
+      "size_bytes": 985,
+      "sha256": "700a51ba000921790a5a1ff95821abfe8fbf4351b09585e37437572463c1273f"
+    },
+    {
+      "path": "normalized/accomplishment_numbers.json",
+      "size_bytes": 7898,
+      "sha256": "95cfc280f65d340323150e0f15dbc5e77024ae225bfee917bf69827f7c4a0dfe"
+    },
+    {
+      "path": "normalized/carlos_grading_rubric.csv",
+      "size_bytes": 29148,
+      "sha256": "3d591b6689ba7c4bf40e27226cd6e359d51c7035c6615139d8bff18b07e85381"
+    },
+    {
+      "path": "normalized/carlos_grading_rubric.json",
+      "size_bytes": 274198,
+      "sha256": "b747e9f30ecc21c28421423a919b0a309a42264e35d478325e989466c4fb588c"
+    },
+    {
+      "path": "normalized/lanzer_grading_rubric.csv",
+      "size_bytes": 27239,
+      "sha256": "8bb0cabb8de8b38f9720092aa6cb53eee3e433ebd2fe8626773ffe8c58d3138e"
+    },
+    {
+      "path": "normalized/lanzer_grading_rubric.json",
+      "size_bytes": 236687,
+      "sha256": "201f18a1a5dd2b9adf7a51f949874f71a775dfa5d523be6e410696877d3ca029"
+    },
+    {
+      "path": "normalized/pip_step_process.csv",
+      "size_bytes": 85,
+      "sha256": "ee2c703e6726a0221c9065f833d322dafed2b5e696355af798365bf42b18377d"
+    },
+    {
+      "path": "normalized/pip_step_process.json",
+      "size_bytes": 154,
+      "sha256": "4b172bd519e8eec25e11bd583ea65b4f97b67f725b70b9396c56d0b58c580620"
+    },
+    {
+      "path": "normalized/tracker.csv",
+      "size_bytes": 12454,
+      "sha256": "2faf95353247dcb613240af3c32b4939fcf8ca88a22567564f5ddb9e4276fc6f"
+    },
+    {
+      "path": "normalized/tracker.json",
+      "size_bytes": 35030,
+      "sha256": "6eb509d8300e8d9bf74162f7bfb1526184d50defe0f8d74a609cdf3f7132502e"
+    },
+    {
+      "path": "operations/campaign-summary.json",
+      "size_bytes": 1097,
+      "sha256": "002fde67f36cec5db94368240e727fc90106d2ec070ce7bcd408ac1b1b78d834"
+    },
+    {
+      "path": "raw/Star_Atlas_DAO_Council_PIP_Tracker_and_Grading_Rubric.xlsx",
+      "size_bytes": 1251239,
+      "sha256": "6a477ee0ce428df4f04cd32b4a24bfb21b80bfa23341be38b192d2e4b0dadc24"
+    },
+    {
+      "path": "raw/Star_Atlas_Discord_Announcements_Semantic_Enrichment.zip",
+      "size_bytes": 2613807,
+      "sha256": "837f8d680cca390d91aed89ea393292a1e6165dcc1fb837805164ce536beb9d8"
+    },
+    {
+      "path": "schemas/council-governance-operational-record.schema.json",
+      "size_bytes": 1628,
+      "sha256": "400f0041d71554c9cc3ef573af05cb559ad04b3d0b0900f73cd29b1336b83008"
+    },
+    {
+      "path": "schemas/cross-corpus-semantic-schema.md",
+      "size_bytes": 1172,
+      "sha256": "f4a22d8015d4a26b4478f4e7b2963907dae613360be84513028c8209479db985"
+    },
+    {
+      "path": "semantic/council-pip-tracker-semantic-records.jsonl",
+      "size_bytes": 107245,
+      "sha256": "7a5e16e46d05afca0ed04ba01292366524e23eeba5ab42fa954127d898ef7263"
+    },
+    {
+      "path": "semantic/pip-evaluation-rubric-records.jsonl",
+      "size_bytes": 33033,
+      "sha256": "d50666175178669c09e7e5cf9bf13e096b430294de9b482d5e60bab6a3e82496"
+    }
+  ]
+}

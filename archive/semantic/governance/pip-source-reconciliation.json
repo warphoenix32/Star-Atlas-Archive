@@ -1,0 +1,1318 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "2.0.0",
+  "capture_timestamp": "2026-07-15T03:41:40Z",
+  "record_count": 33,
+  "records": [
+    {
+      "pip_number": 1,
+      "official_portal_source_id": "SRC-PIP-01-BC8475E4",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-3A72A64665973D86",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Created Star Atlas DAO initiative, expectations, and participation venue by community members.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Historical PIP-1 quorum text is preserved; the repository owner-approved current operating rule applies no quorum to completed binary results.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Foundational charter. Defines DAO scope, PIP categories and drafting requirements, Foundation administration, POLIS/PVP voting, treasury programs, and implementation referral."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 2,
+      "official_portal_source_id": "SRC-PIP-02-1E2D7066",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-3B6FF16E8888387B",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": "?",
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Created company that acted as legal representation to protect the DAO",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Ratifies the Cayman Foundation as the DAO's legal and operational agent; delegates screening, implementation, contracting, multisig, and maintenance authority; approves up to $100,000 annual operating budget."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 3,
+      "official_portal_source_id": "SRC-PIP-03-F5E7CDE1",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-843EC13C8D2C1893",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Created SA DAO Council voting ability and community representation at leadership level.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Creates a five-seat community administrative council, initially for six months, to guide PIP drafting and governance participation."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 4,
+      "official_portal_source_id": "SRC-PIP-04-AD1945D8",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-884FB504E29CF455",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Expedited 20 PIPs to for funding. Expedited low-ATLAS/Dollar projects related to SA community for execution",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Creates the principal community-funding mechanism using 20% of eligible treasury assets and a 5% per-recipient/proposal ceiling. Later replaced by PIP-23."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 5,
+      "official_portal_source_id": "SRC-PIP-05-C248D280",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-224F9EA0B3F8FE9A",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "6000000.0",
+        "left_atlas": "0.0",
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Created ATOM Service",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "First major applied ecosystem grant: 6,000,000 ATLAS for hackathon prizes and DAO sponsorship visibility."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 6,
+      "official_portal_source_id": "SRC-PIP-06-1B792551",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-8A0D54840904E271",
+      "portal_result": "ELECTION_RESULT_RECORDED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [
+        "king_bryan",
+        "funcracker",
+        "krigs",
+        "bodhi_tree",
+        "rome_i_emperor",
+        "ajota_lrnr",
+        "notcatz",
+        "jp",
+        "jith_blade",
+        "drumcarl05",
+        "dmark",
+        "xalexus"
+      ],
+      "portal_winner_status": "AVAILABLE",
+      "winner_identification_status": "IDENTIFIED",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "See PIP-3 impact",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Election",
+        "institutional_significance": "First-stage ranked-choice election reducing 22 candidates to 12. Procedural election record rather than policy."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 7,
+      "official_portal_source_id": "SRC-PIP-07-91652743",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-C55CF1ACB8A1AE70",
+      "portal_result": "ELECTION_RESULT_RECORDED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [
+        "jp",
+        "funcracker",
+        "king_bryan",
+        "bodhi_tree",
+        "drumcarl05"
+      ],
+      "portal_winner_status": "AVAILABLE",
+      "winner_identification_status": "IDENTIFIED",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Elected 5 volunteers giving ~260 hours to SA DAO of 53K tokenholders, established knowledgebase and enacted voting mechanic improvements",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Election complete",
+        "institutional_significance": "Elects JP, Funcracker, King Bryan, Bodhi TREE, and DRUMCARL05 to the first Council."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 8,
+      "official_portal_source_id": "SRC-PIP-08-62506041",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-60F0DFB7B83F33B1",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "7723034.0",
+        "left_atlas": "0.0",
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "70 SA community members attended, built camaraderie of SA community, celebration post had ## impression on X",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Funds a community-led physical event in Cologne, establishing real-world event sponsorship as a recurring DAO use case."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 9,
+      "official_portal_source_id": "SRC-PIP-09-1CC4BB6F",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-2029FBB84DEE4835",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Improved voting mechanic by nullifying \"supercharged\" votes that imbalance voting outcomes of PIPs",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Technical governance reform correcting vote-transfer amplification in the STV implementation; linked to a concrete GitHub PR."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 10,
+      "official_portal_source_id": "SRC-PIP-10-ED887A4E",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-8374AD9310B8BF76",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "See PIP-3 impact",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Establishes five seats, nine-month terms, single-round STV elections, and a one-month member-elect overlap beginning with Term 3."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 11,
+      "official_portal_source_id": "SRC-PIP-11-7B48A62D",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-459923480193D5A2",
+      "portal_result": "UNKNOWN",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "UNAVAILABLE_OR_INCOMPLETE",
+      "winner_identification_status": "UNRESOLVED",
+      "cross_source_reconciliation_status": "RECONCILED_WITH_UNRESOLVED_WINNER",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "5 SAC-3 council members volunteered ~675+ hours over 9 months, completing 147 accomplishments positively affecting the SA DAO ecosystem, paying out 61.5M ATLAS for PIP authors, facilitating voting process for 14 PIPs with 2.2K votes cast, achieving average voter participation rate of 19%, publishing 48 DAO transparency reports",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Election result unresolved in captured payload",
+        "institutional_significance": "Elects the second Council for April 2025–January 2026, but the captured portal payload lacks the conclusive winner field. Requires reconciliation from another official record."
+      },
+      "manual_review_required": true
+    },
+    {
+      "pip_number": 12,
+      "official_portal_source_id": "SRC-PIP-12-F15380C9",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-68D922D48304122A",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "7429420.0",
+        "left_atlas": "0.0",
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "## Feast events funded, ## total SA community members attended, built camaraderie of SA community, total celebration post had ## impression on X",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Creates a Council-administered microgrant program for local social events using a dedicated multisig and simplified applications."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 13,
+      "official_portal_source_id": "SRC-PIP-13-B721D8E7",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-BDD4663CBF60EF34",
+      "portal_result": "FAILED",
+      "council_reported_result": "Failed",
+      "reviewed_result": "FAILED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "UNKNOWN",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "N/A",
+        "left_atlas": null,
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "N/A",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Failed",
+        "institutional_significance": "Attempted to replace unlimited re-election with a two-consecutive-term limit and one-term break. Failure leaves PIP-10's no-term-limit rule intact."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 14,
+      "official_portal_source_id": "SRC-PIP-14-FED98016",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-5AA7278EA3F455A3",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "TERMINATED",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "4462301.0",
+        "left_atlas": "2.512562814E7",
+        "completed_milestones": "1.0",
+        "total_milestones": "2.0"
+      },
+      "council_reported_implementation_state": "TERMINATED",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "None. PIP was terminated due non-performance of PIP deliverables",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Funds AI economic-assistant development, DAO knowledge-base RAG, integration readiness, repayment from transaction fees, and long-term revenue share."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 15,
+      "official_portal_source_id": "SRC-PIP-15-BD065AD2",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-980C5E7D52F017F8",
+      "portal_result": "FAILED",
+      "council_reported_result": "Failed",
+      "reviewed_result": "FAILED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "UNKNOWN",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "N/A",
+        "left_atlas": null,
+        "completed_milestones": "N/A",
+        "total_milestones": "N/A"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "N/A",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Failed",
+        "institutional_significance": "Proposed a privately operated global meetup and ticketing platform. Rejection is important evidence that the DAO distinguishes direct event funding from platform/business-model funding."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 16,
+      "official_portal_source_id": "SRC-PIP-16-B11CED4B",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-C754D122079C4938",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": "8464.79",
+        "left_usdc": null,
+        "paid_atlas": "7985657.0",
+        "left_atlas": "0.0",
+        "completed_milestones": "1.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Funded widely used Eveeye project that makes playing SAGE easy with superior information.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Supports continued development of Eveeye/Ryden Systems with 5% of the Ecosystem Fund, reflecting willingness to subsidize proven community infrastructure."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 17,
+      "official_portal_source_id": "SRC-PIP-17-4DF4C199",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-BA1C2F2A01C7D040",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "CANCELED",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "0.0",
+        "left_atlas": null,
+        "completed_milestones": "0.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "TERMINATED",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "None. PIP was canceled due to non-performance of PIP deliverables.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Initial 10,000,000 ATLAS tranche for media, educational assets, music integrations, community activity, and a film project; later tranches required separate votes."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 18,
+      "official_portal_source_id": "SRC-PIP-18-18750A6A",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-931DDBA869764C56",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "5781393.0",
+        "left_atlas": "0.0",
+        "completed_milestones": "2.0",
+        "total_milestones": "2.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Expanded success of PIP-8 by giving more merch out",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Extends PIP-8 with merchandise, print, onboarding keys, banners, and professional media documentation."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 19,
+      "official_portal_source_id": "SRC-PIP-19-1EB3D15E",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-789A6FEBBEEA489E",
+      "portal_result": "FAILED",
+      "council_reported_result": "Failed",
+      "reviewed_result": "FAILED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "UNKNOWN",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "N/A",
+        "left_atlas": null,
+        "completed_milestones": "N/A",
+        "total_milestones": "N/A"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "N/A",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Failed",
+        "institutional_significance": "Proposed 44.8M ATLAS over four phases, with the first 11.2M tranche for economic research and data migration. Failure shows resistance to high recurring research/infrastructure commitments."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 20,
+      "official_portal_source_id": "SRC-PIP-20-159CB743",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-D42AEB27C99E0915",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "4320000.0",
+        "left_atlas": "5400000.0",
+        "completed_milestones": "0.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "PARTIAL_OR_IN_PROGRESS",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Elected 5 content creators producing 4 content pieces a month on social media. Earned ## impressions on X and ## views on YouTube.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Establishes five elected content creators for a three-month term, combining compensation with controlled promotional budgets."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 21,
+      "official_portal_source_id": "SRC-PIP-21-49CAD7E4",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-B0501DB4E8A23BD5",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": "2083.0",
+        "left_usdc": null,
+        "paid_atlas": "7317073.0",
+        "left_atlas": "3.52251309E7",
+        "completed_milestones": "?",
+        "total_milestones": "2.0"
+      },
+      "council_reported_implementation_state": "PARTIAL_OR_IN_PROGRESS",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Funded website that indexes and processes 20 programs (smart contracts) of on-chain Star Atlas data",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Funds an open, community-operated Star Atlas data indexer/API as replacement infrastructure after Flipside discontinuation."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 22,
+      "official_portal_source_id": "SRC-PIP-22-D5D61E64",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-D0B52D04E2596FC6",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "2000000.0",
+        "left_atlas": "9000000.0",
+        "completed_milestones": "0.0",
+        "total_milestones": "1.0"
+      },
+      "council_reported_implementation_state": "PARTIAL_OR_IN_PROGRESS",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Funded 3 self-organized community tournaments which earned top 1% Twitch/10% YouTube livestream channels for 2 months",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Creates a tournament co-funding program using a 2:1 DAO match, post-event validation, sponsorship requirements, and Council administration."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 23,
+      "official_portal_source_id": "SRC-PIP-23-0ECF2928",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-54C7FCAA869A0208",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "N/A",
+        "left_atlas": null,
+        "completed_milestones": "N/A",
+        "total_milestones": "N/A"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Clarified and improved upon Ecosystem Fund process and procedures",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Replaces PIP-4. Clarifies refill formulas, wallet addresses, 5% ceiling, ATLAS-only payment, USDC conversion, 12-month maximum duration, and Council responsibilities. Includes direct on-chain evidence of prior fund refills."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 24,
+      "official_portal_source_id": "SRC-PIP-24-8CC6B298",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-F45405F0BDBEF113",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "?",
+        "left_atlas": "?",
+        "completed_milestones": "3.0",
+        "total_milestones": "3.0"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Funded the SLY Assistant automation tool, which enabled players to run SLY accounts autonomously without user interaction. Improved accessibility and uptime for ## Star Atlas players.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Funds a three-month, usage-based hosting subsidy pilot, with monthly reporting and renewal contingent on adoption."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 25,
+      "official_portal_source_id": "SRC-PIP-25-91CC73FA",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-4CD3441957C5E548",
+      "portal_result": "UNKNOWN",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "UNAVAILABLE_OR_INCOMPLETE",
+      "winner_identification_status": "UNRESOLVED",
+      "cross_source_reconciliation_status": "RECONCILED_WITH_UNRESOLVED_WINNER",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "N/A",
+        "left_atlas": null,
+        "completed_milestones": "N/A",
+        "total_milestones": "N/A"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "5 SAC-3 council members volunteered ~8+ hours per month, completing 20 accomplishments positively affecting the SA DAO ecosystem, paying out 1.2M+ ATLAS for PIP authors, facilitating voting process for 6 PIPs with 871 votes cast, achieving average voter participation rate of 23%, publishing 21 DAO transparency reports",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Election result unresolved in captured payload",
+        "institutional_significance": "Election for January–October 2026 Council term. Portal payload lists six candidates but lacks conclusive winners; reconcile from an official Council or Foundation announcement."
+      },
+      "manual_review_required": true
+    },
+    {
+      "pip_number": 26,
+      "official_portal_source_id": "SRC-PIP-26-B70AC545",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-037DB26F286929AB",
+      "portal_result": "FAILED",
+      "council_reported_result": "Failed",
+      "reviewed_result": "FAILED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "UNKNOWN",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "N/A",
+        "left_atlas": null,
+        "completed_milestones": "N/A",
+        "total_milestones": "N/A"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "N/A",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Failed",
+        "institutional_significance": "Requests the Ecosystem Fund ceiling for an AI-generated lore video season. Failure is relevant to policy around creator compensation, AI media, IP alignment, and maximum-fund asks."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 27,
+      "official_portal_source_id": "SRC-PIP-27-064D252C",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-213BEC9D6122966A",
+      "portal_result": "UNKNOWN",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "UNAVAILABLE_OR_INCOMPLETE",
+      "winner_identification_status": "UNRESOLVED",
+      "cross_source_reconciliation_status": "RECONCILED_WITH_UNRESOLVED_WINNER",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "N/A",
+        "left_atlas": null,
+        "completed_milestones": "N/A",
+        "total_milestones": "N/A"
+      },
+      "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "See PIP-20 ROI",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Election result unresolved in captured payload",
+        "institutional_significance": "Elects five of thirteen creators under PIP-20 and PIP-9 STV rules. Portal winner data requires reconciliation."
+      },
+      "manual_review_required": true
+    },
+    {
+      "pip_number": 28,
+      "official_portal_source_id": "SRC-PIP-28-D0A5DC75",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-023002BD814CC43D",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": "?",
+        "total_milestones": "6.0"
+      },
+      "council_reported_implementation_state": "PARTIAL_OR_IN_PROGRESS",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Retained key SA company member (Jose) from employee layoffs, supporting 7 critical components of the SA ecosystem.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Exceptional direct treasury support for a former ATMTA contributor to remain embedded at ATMTA for six months. Establishes a precedent for DAO-funded preservation of core company capacity during layoffs."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 29,
+      "official_portal_source_id": "SRC-PIP-29-8E761702",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-E4BC6834AFF20097",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": "1.3143639E7",
+        "left_atlas": "0.0",
+        "completed_milestones": null,
+        "total_milestones": null
+      },
+      "council_reported_implementation_state": "UNKNOWN",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Funded platform that showcases and rewards quality SA content created by community members. Incentivizes participation to enhance social media presence and engagement with web3 community.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Funds a bounded community gameplay-video incentive and distribution pilot; Aephia supplies the platform and hosting at no cost during the pilot."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 30,
+      "official_portal_source_id": "SRC-PIP-30-3BA029F2",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-B81AFEC5FD385C64",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": "1650.0",
+        "left_usdc": null,
+        "paid_atlas": "6433164.0",
+        "left_atlas": "6710475.0",
+        "completed_milestones": null,
+        "total_milestones": null
+      },
+      "council_reported_implementation_state": "UNKNOWN",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "Funded widely used ATOM Cloud, made free for all users until C4. Processes ~100,000 transactions/day for 104 daily active accounts.",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Four-month operating-cost pilot preserving community automation infrastructure through C4, with early termination and return of funds if C4 releases first."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 31,
+      "official_portal_source_id": "SRC-PIP-31-E71FB1A7",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-84B04A340610C0C9",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": null,
+        "total_milestones": null
+      },
+      "council_reported_implementation_state": "NOT_IMPLEMENTED",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": "N/A",
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Funds completion and dual-store launch of an independently owned mobile game used as a Star Atlas onboarding channel; milestone payments but private ownership retained."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 32,
+      "official_portal_source_id": "SRC-PIP-32-0B04FF9B",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-0421BF7765A5B59D",
+      "portal_result": "PASSED",
+      "council_reported_result": "Passed",
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": null,
+        "total_milestones": null
+      },
+      "council_reported_implementation_state": "UNKNOWN",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": null,
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Funds professional production of a three-mode UE5 esports event, with milestone payments, conflict recusals, post-event reporting, and 1% revenue return to the DAO."
+      },
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 33,
+      "official_portal_source_id": "SRC-PIP-33-397FEE39",
+      "council_tracker_source_id": "SA-COUNCIL-TRACKER-D1DADF7EB8437119",
+      "portal_result": "PASSED",
+      "council_reported_result": null,
+      "reviewed_result": "PASSED",
+      "winner_identification": [],
+      "portal_winner_status": "NOT_APPLICABLE",
+      "winner_identification_status": "NOT_APPLICABLE",
+      "cross_source_reconciliation_status": "RECONCILED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "payment_fields": {
+        "paid_usdc": null,
+        "left_usdc": null,
+        "paid_atlas": null,
+        "left_atlas": null,
+        "completed_milestones": null,
+        "total_milestones": null
+      },
+      "council_reported_implementation_state": "UNKNOWN",
+      "independent_implementation_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "council_roi_assessment": null,
+      "relationship": "COUNCIL_TRACKER_SUPPLEMENTS_PORTAL_CAPTURE",
+      "attribution_required": true,
+      "independently_verified": false,
+      "contradictions": [
+        "Portal status remains Proposal_Activated_Pending_Open_Voting although the vote window has ended."
+      ],
+      "unresolved_research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "chief_of_staff_corpus_review": {
+        "reviewed_table_result": "Passed",
+        "institutional_significance": "Extraordinary $469,513.53 treasury reimbursement to ATMTA for taxes and professional services, split 75% USDC/25% ATLAS across two tranches with treasury reserve protection and direct conflict disclosure."
+      },
+      "manual_review_required": false
+    }
+  ]
+}

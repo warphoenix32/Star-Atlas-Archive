@@ -1,0 +1,978 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "1.0.0",
+  "generated_from": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+  "candidate_count": 28,
+  "candidates": [
+    {
+      "source_id": "SRC-X-STARATLAS-1870594706436190647",
+      "post_id": "1870594706436190647",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "Knowledge is power in Galia.   Our economics team just released a Community Ecosystem Dashboard test, providing key insights into: 🔹 SAGE Labs active users 🔹 ATLAS emissions 🔹 Resource production 🔹 Warping  🔗: https://govern.staratlas.com/ecosystem-dashboard https://pbs.twimg.com/media/GfWv-GNWcAAst_w.jpg",
+      "entities": [
+        "LORE-GALIA",
+        "PRODUCT-SAGE"
+      ],
+      "statement_types": [
+        "RELEASE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1870594706436190647",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1882915908252991502",
+      "post_id": "1882915908252991502",
+      "eligible": true,
+      "decision": "HIGH_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:MATERIAL_UPDATE",
+        "SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "SAGE Labs earners, a new update is live!   We’ve made some changes to Faction Infrastructure Contracts. Check out the patch notes below! 👇  🔹 Each faction now gets 1 new recipe. The new recipe replaces Frameworks with Crystal Lattice and reduces the recipe value from SDUs.  🔹 FICs will now only refill when all sectors have no remaining buy orders. If one sector runs out but others still have orders, the empty sector will not be refilled until the rest are also depleted.  🔹 Each faction’s two FIC recipes will now spawn in 2 locations each (4 total per faction). These locations will be randomly re-assigned every Thursday at 17:00:00 UTC.  🔗: https://based.staratlas.com/",
+      "entities": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_types": [
+        "STATUS_UPDATE"
+      ],
+      "confidence": "HIGH",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1882915908252991502",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1885091648457072796",
+      "post_id": "1885091648457072796",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:MATERIAL_UPDATE"
+      ],
+      "supporting_text": "Polishing and bug fixes and updates, oh my!  A new Star Atlas patch lands on February 5. 💥  🔗 Read the patch notes: https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d https://video.twimg.com/ext_tw_video/1885091000940466176/pu/vid/avc1/480x270/hiNlDDwpcKu8gZ3F.mp4?tag=14",
+      "entities": [],
+      "statement_types": [
+        "STATUS_UPDATE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1885091648457072796",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1887189397537161652",
+      "post_id": "1887189397537161652",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE,MATERIAL_UPDATE",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "The Cosmic Currents have brought change to Galia. February's patch is now LIVE!  🔗 Read the full patch notes: https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d https://video.twimg.com/ext_tw_video/1887180396309118977/pu/vid/avc1/484x270/zbtLt9OGuXHSrPBx.mp4?tag=14",
+      "entities": [
+        "LORE-GALIA"
+      ],
+      "statement_types": [
+        "RELEASE",
+        "STATUS_UPDATE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1887189397537161652",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/lore/",
+        "knowledge/operations/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1887235389779537994",
+      "post_id": "1887235389779537994",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:MATERIAL_UPDATE"
+      ],
+      "supporting_text": "A new update landed today! Stay in the loop with a patch rundown. 📄  🔗 Full patch notes: https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d https://video.twimg.com/ext_tw_video/1887221202302713856/pu/vid/avc1/480x270/j4nmEcgPrQVPtSaI.mp4?tag=14",
+      "entities": [],
+      "statement_types": [
+        "STATUS_UPDATE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1887235389779537994",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/operations/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1902433675138232598",
+      "post_id": "1902433675138232598",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE,MATERIAL_UPDATE"
+      ],
+      "supporting_text": "Today's Star Atlas update is now LIVE. 🚨  🔗 Read the full patch notes: https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7 https://video.twimg.com/ext_tw_video/1902412075307327488/pu/vid/avc1/480x270/4F3Mtnrp6gZid2zL.mp4?tag=14",
+      "entities": [],
+      "statement_types": [
+        "RELEASE",
+        "STATUS_UPDATE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1902433675138232598",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/gameplay/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1904678439850041412",
+      "post_id": "1904678439850041412",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:GOVERNANCE_VOTE",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "POLIS holders, your voice is needed to decide the next Star Atlas DAO Council! 🏛️  Vote now to decide which 5 of the 7 candidates will lead. Voting is open until April 6. Check the next tweet to learn more about each candidate!  🔗 Vote here: https://govern.staratlas.com/proposals/7b48a62d-13c3-4a1e-8565-6ea7bfb4b4dc https://pbs.twimg.com/media/Gm7Fy3obYAAji_o.png",
+      "entities": [
+        "ORG-SA-DAO",
+        "ORG-STAR-ATLAS-DAO",
+        "TOKEN-POLIS"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1904678439850041412",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1906797754946568440",
+      "post_id": "1906797754946568440",
+      "eligible": true,
+      "decision": "HIGH_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY",
+        "INSTITUTIONAL_METRIC_OR_ECONOMIC_MEASUREMENT"
+      ],
+      "supporting_text": "The latest Star Atlas Quarterly Economic Report is LIVE! 📊  This quarter, our newly released Fleet Rental program generated over 1,000,000 ATLAS per days for lenders! 🤯  🔗 | Download and read the full report: https://staratlas.com/newsroom/economic-reports https://pbs.twimg.com/media/GnZN1D0aoAAZMTx.jpg",
+      "entities": [],
+      "statement_types": [
+        "RELEASE"
+      ],
+      "confidence": "HIGH",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1906797754946568440",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1917309880115027975",
+      "post_id": "1917309880115027975",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE"
+      ],
+      "supporting_text": "The official Star Atlas Telegram community is now live! 🗣️  Join fellow pioneers to connect, share your thoughts, ask questions, and stay up to date on everything Star Atlas.  🔗: https://t.me/staratlasgame",
+      "entities": [],
+      "statement_types": [
+        "Q_AND_A",
+        "RELEASE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1917309880115027975",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/community/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1920944282438942971",
+      "post_id": "1920944282438942971",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:MATERIAL_UPDATE"
+      ],
+      "supporting_text": "Get ready for a new patch coming on May 14! 🧑‍🚀   ☑️ Completed in-game Pearce X5 model ☑️ New Shotgun ☑️ CO-OP Dogfighting ☑️ Dedicated servers for shooter game modes  🔗 Get early access to Star Atlas by joining our Discord: http://Discord.gg/StarAtlas https://pbs.twimg.com/media/GqiO7wZb0AACxGt.jpg",
+      "entities": [],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1920944282438942971",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1922699571810992196",
+      "post_id": "1922699571810992196",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:MATERIAL_UPDATE",
+        "SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY"
+      ],
+      "supporting_text": "🔗 Read the full detailed patch notes: https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d  🔗 Need access? Join our Discord: http://Discord.gg/StarAtlas",
+      "entities": [],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1922699571810992196",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/gameplay/",
+        "knowledge/community/",
+        "knowledge/operations/"
+      ],
+      "evidence_classes": [
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1930380671010385958",
+      "post_id": "1930380671010385958",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "Introducing Holosim, the Free to Play version of our browser-based game where your mission is to manage fleets and dominate Galia.  The test phase is live and is perfect for new Galians. Play now!  🔗: https://holosim.staratlas.com/ https://pbs.twimg.com/media/GsoWX9_asAI0NvM.jpg",
+      "entities": [
+        "LORE-GALIA",
+        "PRODUCT-HOLOSIM"
+      ],
+      "statement_types": [
+        "RELEASE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1930380671010385958",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1930380673174647013",
+      "post_id": "1930380673174647013",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "Holosim lets us test new features before they go live on mainnet. New features in Holosim include:  🔹 Combat — Engage in battles for the first time. Ships are permanently destroyed for now  🔹 SAGE — Your personal AI assistant trained to help you with all things Star Atlas  🔹 Route Manager — Automation tools to streamline your operations  🔹 Tutorial System — Learn the ropes faster than ever  🔹 Questing System — Take on new challenges and progress through missions.",
+      "entities": [
+        "PRODUCT-HOLOSIM",
+        "PRODUCT-SAGE"
+      ],
+      "statement_types": [
+        "STATUS_UPDATE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1930380673174647013",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/gameplay/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1939788431741333684",
+      "post_id": "1939788431741333684",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE"
+      ],
+      "supporting_text": "A new Star Atlas Quarterly Economic Report is LIVE! 📊  The XS ship class saw 12% appreciation this quarter as one of the most dominant ship classes used in Fleet Rental compositions! 🤔  🔗 Download and read the full report: https://staratlas.com/newsroom/economic-reports https://pbs.twimg.com/media/GuuDDmObYAAA2mU.jpg",
+      "entities": [],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1939788431741333684",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1946274388359426385",
+      "post_id": "1946274388359426385",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:FUNDING_ACTION",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "The Star Atlas DAO now has $1,666,316 in its treasury, all under the control of $POLIS holders. https://pbs.twimg.com/media/GwKN9b6W8AANYiq.jpg",
+      "entities": [
+        "ORG-SA-DAO",
+        "ORG-STAR-ATLAS-DAO",
+        "TOKEN-POLIS"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1946274388359426385",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1948853560034406489",
+      "post_id": "1948853560034406489",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:GOVERNANCE_VOTE"
+      ],
+      "supporting_text": "Star Atlas Community, it's time to vote for who YOU think should win a Joni Awards Trophy! 🏆  📅 Vote until July 31 📅 Find out who wins on August 1 at 11am PT // 2pm ET in the Star Atlas Discord.  🗳️ Vote now: https://forms.gle/KKpeK22u7oJQhEJ49 https://pbs.twimg.com/media/Gwu37hWbgAEqMRb.jpg",
+      "entities": [],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1948853560034406489",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/community/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1949877748790677648",
+      "post_id": "1949877748790677648",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:EVENT_OCCURRENCE"
+      ],
+      "supporting_text": "The Star Atlas Summer kickoff event starts in one hour!  Join us for a look at what’s coming over the next 4 weeks, earn tickets for your shot at the $15,000 Community Carnival, and unlock the first code to claim your exclusive Community Week badge!  🔗: http://Discord.gg/StarAtlas https://pbs.twimg.com/media/Gw9bZ6ragAAlV44.png",
+      "entities": [],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1949877748790677648",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/economy/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1958322079927079252",
+      "post_id": "1958322079927079252",
+      "eligible": true,
+      "decision": "HIGH_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "EXPLICIT_ENTITY_RELATIONSHIP",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "Holosim Season 1 | Chapter 1 is live NOW with $35,000 in seasonal prizes, powered by @solflare.  Load into our new FREE browser space game and lead your faction to victory in Galia!  🔗 Play: https://holosim.staratlas.com/ https://pbs.twimg.com/media/Gy1bRFUa8AAqi0w.jpg",
+      "entities": [
+        "LORE-GALIA",
+        "PRODUCT-HOLOSIM"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "HIGH",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1958322079927079252",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/gameplay/",
+        "knowledge/lore/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1961157103542018407",
+      "post_id": "1961157103542018407",
+      "eligible": true,
+      "decision": "HIGH_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "EARN for the first time while playing Star Atlas UE5!  We've introduced the exclusive resource, Ink, tied to earning XP in official shooter and racing matches.  To celebrate, we're starting double XP weekend in 4 hours for DOUBLE INK EARNINGS!  🔗 Access: http://StarAtlas.com https://pbs.twimg.com/media/GzdZI01a4AAm8E3.jpg",
+      "entities": [
+        "PRODUCT-UE5"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "HIGH",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1961157103542018407",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1973458897294991709",
+      "post_id": "1973458897294991709",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE"
+      ],
+      "supporting_text": "The latest Star Atlas Quarterly Economic Report is LIVE! 📊  Daily ATLAS emissions dropped by an average of 10.5%, with simultaneous record high volatility observed throughout the quarter. ‼️  🔗 Download and read the full report: https://experience.staratlas.com/newsroom/economic-reports https://pbs.twimg.com/media/G2MiVB1aIAIh011.jpg",
+      "entities": [],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1973458897294991709",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/economy/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-1987984357991256224",
+      "post_id": "1987984357991256224",
+      "eligible": true,
+      "decision": "LOW_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "EXPLICIT_ENTITY_RELATIONSHIP",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "Over 36% of the total POLIS supply is now locked by the Star Atlas community.  Thank you for your continued belief and support.",
+      "entities": [
+        "TOKEN-POLIS"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-1987984357991256224",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2002095320138666249",
+      "post_id": "2002095320138666249",
+      "eligible": true,
+      "decision": "HIGH_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY",
+        "INSTITUTIONAL_METRIC_OR_ECONOMIC_MEASUREMENT",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "The latest Star Atlas Quarterly Economic Report is LIVE! 📊  Q4 2025 was a stress test for web3 gaming as token prices fell 70%+ marketwide. Star Atlas stayed resilient with 850+ daily SAGE users, 3,000+ MAU, ~$14.5M projected 2025 GDP, and ~$36.5M in ecosystem assets. OTC trading hit ATHs, and Open Market Operations in 2026 are set to unlock new revenue and strengthen stability.  🔗 Download and read the full report: https://govern.staratlas.com/economy/economic-reports",
+      "entities": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "HIGH",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2002095320138666249",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/economy/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2014759139621400619",
+      "post_id": "2014759139621400619",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "Double XP weekend is live NOW!  Progress through prestige faster. Earn fresh skins. Double your @ZinkSVM airdrop zXP. And earn entries into the Iris' Blessing prize draw. https://pbs.twimg.com/media/G_XcvRAWAAALqzX.jpg",
+      "entities": [
+        "LORE-IRIS"
+      ],
+      "statement_types": [
+        "STATUS_UPDATE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2014759139621400619",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/economy/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2024197285215948920",
+      "post_id": "2024197285215948920",
+      "eligible": true,
+      "decision": "HIGH_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:DELAY_OR_STATUS_CHANGE",
+        "SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "HOLOSIM BROADCAST: 📢  Status - Signal Lost!  Galians, we're experiencing technical difficulties within the Holosim. Launch plans are delayed. We will miss the launch event tomorrow (2/19).   Stay tuned. We will update you on status shortly. We're expecting a quick resolution. https://video.twimg.com/amplify_video/2024182422817165313/vid/avc1/320x568/n2YSfDR1ukYBXIKR.mp4?tag=21",
+      "entities": [
+        "PRODUCT-HOLOSIM"
+      ],
+      "statement_types": [
+        "STATUS_UPDATE",
+        "TECHNICAL_EXPLANATION"
+      ],
+      "confidence": "HIGH",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2024197285215948920",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/technology/",
+        "knowledge/timeline/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2039802551043055822",
+      "post_id": "2039802551043055822",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY",
+        "INSTITUTIONAL_METRIC_OR_ECONOMIC_MEASUREMENT"
+      ],
+      "supporting_text": "Q1 2026 Star Atlas Economy Report is out. $502K USD in Q1 GDP. 8,109 quarterly active users. Most asset prices stable or increasing in ATLAS terms. Open Market Operations pulling OTC volume from 12% → 7.2%. Bear market. Bull fundamentals.  Full report: https://storage.googleapis.com/sa-cdn-prod/dao/economy/2026/q1.pdf",
+      "entities": [],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2039802551043055822",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2040190030313062502",
+      "post_id": "2040190030313062502",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PUBLIC_TEST",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "We’re making huge progress on our next SAGE (RTS MMO in browser) update. “C4” adds Combat, Council Rank (skill tree), Crafting and Cultivation Claims, and Crafting Habs. Playtest coming soon. https://video.twimg.com/amplify_video/2040188453573574656/vid/avc1/468x270/K9iJ6d6hUPncbJAn.mp4?tag=21",
+      "entities": [
+        "PRODUCT-SAGE"
+      ],
+      "statement_types": [
+        "ROADMAP",
+        "STATUS_UPDATE"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2040190030313062502",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/gameplay/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2047415788471238923",
+      "post_id": "2047415788471238923",
+      "eligible": true,
+      "decision": "MEDIUM_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:CORRECTION,EVENT_OCCURRENCE",
+        "CANONICAL_ENTITY_LINK"
+      ],
+      "supporting_text": "SCAM ALERT - \"Annual Access Pass\" We want to bring awareness to a new scam email some users have been receiving.  This email congratulates the user for staying loyal to Star Atlas.  This email offers the \"Annual Access Pass.\"  This email is not from the Star Atlas team or anyone affiliated with the Star Atlas team.  If you receive an email similar or the same as the one shown in the images here, BLOCK AND DELETE.  If you aren't sure about an email from us, always check the sender address, or join us on http://discord.gg/staratlas to speak to a mod or admin.",
+      "entities": [
+        "ORG-ATMTA"
+      ],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "MEDIUM",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2047415788471238923",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE",
+        "GRAPH_RELATIONSHIP_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-X-STARATLAS-2072427112053846335",
+      "post_id": "2072427112053846335",
+      "eligible": true,
+      "decision": "HIGH_PRIORITY",
+      "decision_reasons": [
+        "IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT",
+        "CONCRETE_INSTITUTIONAL_ACTION:PRODUCT_RELEASE",
+        "SPECIFIC_DATE_AMOUNT_METRIC_OR_QUANTITY",
+        "INSTITUTIONAL_METRIC_OR_ECONOMIC_MEASUREMENT"
+      ],
+      "supporting_text": "The Q2 2026 Quarterly State of the Economy report is live! Highlights include:  #1 Macro headwinds continue #2 Per-capita emissions ticked up #3 Trade &amp; autarky watch #4 C4 is the turning point  https://storage.googleapis.com/sa-cdn-prod/dao/economy/2026/q2.pdf https://pbs.twimg.com/media/HMK9cHzbQAA3UVH.jpg",
+      "entities": [],
+      "statement_types": [
+        "DISCUSSION"
+      ],
+      "confidence": "HIGH",
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": "SRC-X-STARATLAS-2072427112053846335",
+      "manual_review_required": true,
+      "exclusion_reason": null,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/products/"
+      ],
+      "evidence_classes": [
+        "RESEARCH_GAP",
+        "CANONICAL_KNOWLEDGE_CANDIDATE",
+        "ENTITY_UPDATE_CANDIDATE",
+        "TIMELINE_CANDIDATE"
+      ],
+      "review_status": "UNREVIEWED"
+    }
+  ]
+}

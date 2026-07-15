@@ -1,0 +1,1868 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "2.0.0",
+  "capture_timestamp": "2026-07-15T03:41:40Z",
+  "records": [
+    {
+      "source_id": "SRC-PIP-01-BC8475E4",
+      "pip_number": 1,
+      "entities": [
+        {
+          "entity_id": "LORE-FACTION-MUD",
+          "entity_name": "MUD / Manus Ultima Divina",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "mud"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "LORE-FACTION-ONI",
+          "entity_name": "ONI Consortium",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "oni"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "LORE-GALIA",
+          "entity_name": "Galia Expanse",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "galia",
+            "galia expanse"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Foundational charter. Defines DAO scope, PIP categories and drafting requirements, Foundation administration, POLIS/PVP voting, treasury programs, and implementation referral.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-02-1E2D7066",
+      "pip_number": 2,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Ratifies the Cayman Foundation as the DAO's legal and operational agent; delegates screening, implementation, contracting, multisig, and maintenance authority; approves up to $100,000 annual operating budget.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-03-F5E7CDE1",
+      "pip_number": 3,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Creates a five-seat community administrative council, initially for six months, to guide PIP drafting and governance participation.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-04-AD1945D8",
+      "pip_number": 4,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Creates the principal community-funding mechanism using 20% of eligible treasury assets and a 5% per-recipient/proposal ceiling. Later replaced by PIP-23.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-05-C248D280",
+      "pip_number": 5,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-MARKETPLACE",
+          "entity_name": "Galactic Marketplace",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "galactic marketplace",
+            "marketplace"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-SAGE",
+          "entity_name": "SAGE / SAGE Labs",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "sage"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "First major applied ecosystem grant: 6,000,000 ATLAS for hackathon prizes and DAO sponsorship visibility.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-06-1B792551",
+      "pip_number": 6,
+      "entities": [
+        {
+          "entity_id": "LORE-GALIA",
+          "entity_name": "Galia Expanse",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "galia"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-STARBASED",
+          "entity_name": "Starbased",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "starbased"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "First-stage ranked-choice election reducing 22 candidates to 12. Procedural election record rather than policy.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-07-91652743",
+      "pip_number": 7,
+      "entities": [
+        {
+          "entity_id": "LORE-GALIA",
+          "entity_name": "Galia Expanse",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "galia"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-STARBASED",
+          "entity_name": "Starbased",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "starbased"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Elects JP, Funcracker, King Bryan, Bodhi TREE, and DRUMCARL05 to the first Council.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-08-62506041",
+      "pip_number": 8,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas team"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Funds a community-led physical event in Cologne, establishing real-world event sponsorship as a recurring DAO use case.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-09-1CC4BB6F",
+      "pip_number": 9,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Technical governance reform correcting vote-transfer amplification in the STV implementation; linked to a concrete GitHub PR.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-10-ED887A4E",
+      "pip_number": 10,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Establishes five seats, nine-month terms, single-round STV elections, and a one-month member-elect overlap beginning with Term 3.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-11-7B48A62D",
+      "pip_number": 11,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Elects the second Council for April 2025–January 2026, but the captured portal payload lacks the conclusive winner field. Requires reconciliation from another official record.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-12-F15380C9",
+      "pip_number": 12,
+      "entities": [
+        {
+          "entity_id": "LORE-IRIS",
+          "entity_name": "Iris",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "iris"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-ATLAS",
+          "entity_name": "ATLAS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "atlas token"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Creates a Council-administered microgrant program for local social events using a dedicated multisig and simplified applications.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-13-B721D8E7",
+      "pip_number": 13,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Attempted to replace unlimited re-election with a two-consecutive-term limit and one-term break. Failure leaves PIP-10's no-term-limit rule intact.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-14-FED98016",
+      "pip_number": 14,
+      "entities": [
+        {
+          "entity_id": "ACTOR-MICHAEL-WAGNER",
+          "entity_name": "Michael Wagner",
+          "entity_type": "PERSON",
+          "matched_aliases": [
+            "michael wagner"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas team"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PERSON-MICHAEL-WAGNER",
+          "entity_name": "Michael Wagner",
+          "entity_type": "PERSON",
+          "matched_aliases": [
+            "michael wagner"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-MARKETPLACE",
+          "entity_name": "Galactic Marketplace",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "galactic marketplace",
+            "marketplace"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Funds AI economic-assistant development, DAO knowledge-base RAG, integration readiness, repayment from transaction fees, and long-term revenue share.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-15-BD065AD2",
+      "pip_number": 15,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Proposed a privately operated global meetup and ticketing platform. Rejection is important evidence that the DAO distinguishes direct event funding from platform/business-model funding.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-16-B11CED4B",
+      "pip_number": 16,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-SAGE",
+          "entity_name": "SAGE / SAGE Labs",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "sage",
+            "sage labs"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Supports continued development of Eveeye/Ryden Systems with 5% of the Ecosystem Fund, reflecting willingness to subsidize proven community infrastructure.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-17-4DF4C199",
+      "pip_number": 17,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Initial 10,000,000 ATLAS tranche for media, educational assets, music integrations, community activity, and a film project; later tranches required separate votes.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-18-18750A6A",
+      "pip_number": 18,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-UE5",
+          "entity_name": "Star Atlas Unreal Engine 5 game",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "ue5"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Extends PIP-8 with merchandise, print, onboarding keys, banners, and professional media documentation.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-19-1EB3D15E",
+      "pip_number": 19,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-STARBASED",
+          "entity_name": "Starbased",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "starbased"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Proposed 44.8M ATLAS over four phases, with the first 11.2M tranche for economic research and data migration. Failure shows resistance to high recurring research/infrastructure commitments.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-20-159CB743",
+      "pip_number": 20,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Establishes five elected content creators for a three-month term, combining compensation with controlled promotional budgets.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-21-49CAD7E4",
+      "pip_number": 21,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-MARKETPLACE",
+          "entity_name": "Galactic Marketplace",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "marketplace"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Funds an open, community-operated Star Atlas data indexer/API as replacement infrastructure after Flipside discontinuation.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-22-D5D61E64",
+      "pip_number": 22,
+      "entities": [
+        {
+          "entity_id": "LORE-IRIS",
+          "entity_name": "Iris",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "iris"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-ATLAS",
+          "entity_name": "ATLAS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "atlas token"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Creates a tournament co-funding program using a 2:1 DAO match, post-event validation, sponsorship requirements, and Council administration.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-23-0ECF2928",
+      "pip_number": 23,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Replaces PIP-4. Clarifies refill formulas, wallet addresses, 5% ceiling, ATLAS-only payment, USDC conversion, 12-month maximum duration, and Council responsibilities. Includes direct on-chain evidence of prior fund refills.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-24-8CC6B298",
+      "pip_number": 24,
+      "entities": [
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Funds a three-month, usage-based hosting subsidy pilot, with monthly reporting and renewal contingent on adoption.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-25-91CC73FA",
+      "pip_number": 25,
+      "entities": [
+        {
+          "entity_id": "GUILD-ROME",
+          "entity_name": "ROME",
+          "entity_type": "GUILD",
+          "matched_aliases": [
+            "rome guild"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-SAGE",
+          "entity_name": "SAGE / SAGE Labs",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "sage",
+            "sage labs"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Election for January–October 2026 Council term. Portal payload lists six candidates but lacks conclusive winners; reconcile from an official Council or Foundation announcement.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-26-B70AC545",
+      "pip_number": 26,
+      "entities": [
+        {
+          "entity_id": "ASSET-CREW",
+          "entity_name": "Crew",
+          "entity_type": "ASSET",
+          "matched_aliases": [
+            "crew"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Requests the Ecosystem Fund ceiling for an AI-generated lore video season. Failure is relevant to policy around creator compensation, AI media, IP alignment, and maximum-fund asks.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-27-064D252C",
+      "pip_number": 27,
+      "entities": [
+        {
+          "entity_id": "LORE-GALIA",
+          "entity_name": "Galia Expanse",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "galia"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "LORE-IRIS",
+          "entity_name": "Iris",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "iris"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-HOLOSIM",
+          "entity_name": "Holosim",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "holosim"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-SAGE",
+          "entity_name": "SAGE / SAGE Labs",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "sage"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-UE5",
+          "entity_name": "Star Atlas Unreal Engine 5 game",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "ue5"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Elects five of thirteen creators under PIP-20 and PIP-9 STV rules. Portal winner data requires reconciliation.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-28-D0A5DC75",
+      "pip_number": 28,
+      "entities": [
+        {
+          "entity_id": "LORE-GALIA",
+          "entity_name": "Galia Expanse",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "galia"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "LORE-IRIS",
+          "entity_name": "Iris",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "iris"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-HOLOSIM",
+          "entity_name": "Holosim",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "holosim"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-UE5",
+          "entity_name": "Star Atlas Unreal Engine 5 game",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "ue5"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Exceptional direct treasury support for a former ATMTA contributor to remain embedded at ATMTA for six months. Establishes a precedent for DAO-funded preservation of core company capacity during layoffs.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-29-8E761702",
+      "pip_number": 29,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Funds a bounded community gameplay-video incentive and distribution pilot; Aephia supplies the platform and hosting at no cost during the pilot.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-30-3BA029F2",
+      "pip_number": 30,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas team"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-SAGE",
+          "entity_name": "SAGE / SAGE Labs",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "sage"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TECH-SOLANA",
+          "entity_name": "Solana",
+          "entity_type": "TECHNOLOGY",
+          "matched_aliases": [
+            "solana"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Four-month operating-cost pilot preserving community automation infrastructure through C4, with early termination and return of funds if C4 releases first.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-31-E71FB1A7",
+      "pip_number": 31,
+      "entities": [
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Funds completion and dual-store launch of an independently owned mobile game used as a Star Atlas onboarding channel; milestone payments but private ownership retained.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-32-0B04FF9B",
+      "pip_number": 32,
+      "entities": [
+        {
+          "entity_id": "LORE-IRIS",
+          "entity_name": "Iris",
+          "entity_type": "LORE",
+          "matched_aliases": [
+            "iris"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PRODUCT-UE5",
+          "entity_name": "Star Atlas Unreal Engine 5 game",
+          "entity_type": "PRODUCT",
+          "matched_aliases": [
+            "ue5"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Funds professional production of a three-mode UE5 esports event, with milestone payments, conflict recusals, post-event reporting, and 1% revenue return to the DAO.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-33-397FEE39",
+      "pip_number": 33,
+      "entities": [
+        {
+          "entity_id": "ACTOR-MICHAEL-WAGNER",
+          "entity_name": "Michael Wagner",
+          "entity_type": "PERSON",
+          "matched_aliases": [
+            "michael wagner"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-ATMTA",
+          "entity_name": "ATMTA, Inc.",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "atmta"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao",
+            "the dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-SA-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "foundation",
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-DAO",
+          "entity_name": "Star Atlas DAO",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas dao"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "ORG-STAR-ATLAS-FOUNDATION",
+          "entity_name": "Star Atlas Foundation",
+          "entity_type": "ORGANIZATION",
+          "matched_aliases": [
+            "star atlas foundation"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "PERSON-MICHAEL-WAGNER",
+          "entity_name": "Michael Wagner",
+          "entity_type": "PERSON",
+          "matched_aliases": [
+            "michael wagner"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-ATLAS",
+          "entity_name": "ATLAS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "atlas token"
+          ],
+          "link_confidence": "HIGH"
+        },
+        {
+          "entity_id": "TOKEN-POLIS",
+          "entity_name": "POLIS",
+          "entity_type": "TOKEN",
+          "matched_aliases": [
+            "polis"
+          ],
+          "link_confidence": "HIGH"
+        }
+      ],
+      "reviewed_institutional_significance": "Extraordinary $469,513.53 treasury reimbursement to ATMTA for taxes and professional services, split 75% USDC/25% ATLAS across two tranches with treasury reserve protection and direct conflict disclosure.",
+      "human_review_status": "REVIEWED"
+    }
+  ]
+}

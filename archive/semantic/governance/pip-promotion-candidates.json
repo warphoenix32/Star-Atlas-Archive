@@ -1,0 +1,671 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "2.0.0",
+  "capture_timestamp": "2026-07-15T03:41:40Z",
+  "candidate_count": 33,
+  "candidates": [
+    {
+      "source_id": "SRC-PIP-01-BC8475E4",
+      "pip_number": 1,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks the ratification of the decentralized, on-chain governance processes of the Star Atlas Decentralized Autonomous Organization (the “Star Atlas DAO”). Through the Star Atlas DAO, players and community members can propose, consider, and vote on changes that will steer the future of Star Atlas.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Foundational charter. Defines DAO scope, PIP categories and drafting requirements, Foundation administration, POLIS/PVP voting, treasury programs, and implementation referral.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-02-1E2D7066",
+      "pip_number": 2,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks to ratify the operations of the Star Atlas Foundation as the legal entity necessary to support the mission and decisions of the Star Atlas DAO.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Ratifies the Cayman Foundation as the DAO's legal and operational agent; delegates screening, implementation, contracting, multisig, and maintenance authority; approves up to $100,000 annual operating budget.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-03-F5E7CDE1",
+      "pip_number": 3,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks to initiate the process to establish the first Star Atlas Council. The Star Atlas Council will serve as administrators that guide the governance processes of the Star Atlas DAO and ensure that PIPs adhere to the requirements set forth in PIP-1.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Creates a five-seat community administrative council, initially for six months, to guide PIP drafting and governance participation.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-04-AD1945D8",
+      "pip_number": 4,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks to create the Star Atlas Ecosystem Fund, seed it with a budget of 20% of the Star Atlas DAO’s treasury (subject to limitations below), and establish a process by which community members may apply to the Star Atlas DAO for grants from the fund to develop various aspects of Star Atlas.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Creates the principal community-funding mechanism using 20% of eligible treasury assets and a 5% per-recipient/proposal ceiling. Later replaced by PIP-23.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-05-C248D280",
+      "pip_number": 5,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks to allocate 6,000,000 ATLAS from the DAO treasury to co-sponsor the first Star Atlas ecosystem hackathon, the Naabathon. The proposed allocation would increase the prize pool for winners, who also will be receiving prizes from other hackathon co-sponsors.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "First major applied ecosystem grant: 6,000,000 ATLAS for hackathon prizes and DAO sponsorship visibility.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-06-1B792551",
+      "pip_number": 6,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "The first round of the first Star Atlas Council election. From 22 candidates and through ranked choice voting, the top 12 will continue to the second round of the election. In the second round of the election, the top 5 are officially elected Star Atlas Council members.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "First-stage ranked-choice election reducing 22 candidates to 12. Procedural election record rather than policy.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-07-91652743",
+      "pip_number": 7,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "The second round of the first Star Atlas Council election. From 12 remaining candidates and through ranked choice voting, the top 5 will officially be elected Star Atlas Council members.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Elects JP, Funcracker, King Bryan, Bodhi TREE, and DRUMCARL05 to the first Council.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-08-62506041",
+      "pip_number": 8,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "The Star Atlas community plans to host the Star Atlas Comet meetup during Gamescom 2025 in Cologne, Germany. Scheduled for Saturday, August 23, 2025, from 16:00 to 24:00 (UTC+1) at Quater1, a central event location, this gathering aims to strengthen the community, attract new players, and increase Star Atlas’s visibility in the global gaming ecosystem. The event will bring together blockchain gaming enthusiasts and existing and potential community members for a memorable experience. Funding is requested for the venue and catering (finger food and drinks), with a maximum budget of €7,472.25 covered by the DAO.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Funds a community-led physical event in Cologne, establishing real-world event sponsorship as a recurring DAO use case.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-09-1CC4BB6F",
+      "pip_number": 9,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal calls for an adjustment to the Single Transferable Vote (STV) system used by the Star Atlas DAO. Under the current rules, if only some voters list backup candidates while others do not, the votes from those who did list backups can be “supercharged.” To address this imbalance, the proposed change ensures that when votes are redistributed, only those ballots with a valid backup candidate move on to the next candidate. All ballots without a backup are removed from the total pool, and the quota is recalculated accordingly. This prevents any unintended vote “boost” and ensures a more accurate representation of voter intent.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Technical governance reform correcting vote-transfer amplification in the STV implementation; linked to a concrete GitHub PR.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-10-ED887A4E",
+      "pip_number": 10,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal defines the structure and timeline for the second (Term 2) and all future Star Atlas Council elections.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Establishes five seats, nine-month terms, single-round STV elections, and a one-month member-elect overlap beginning with Term 3.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-11-7B48A62D",
+      "pip_number": 11,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal determines who will serve on the Star Atlas DAO Council for its second term (April 11, 2025 - January 11, 2026). As outlined in PIP-10, there will be only one round of voting. Seven candidates nominated themselves during the nomination period. The top five candidates, selected through ranked-choice voting using the Single Transferable Vote (STV) method, will become officially elected Star Atlas Council members on April 11th, 2025.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Elects the second Council for April 2025–January 2026, but the captured portal payload lacks the conclusive winner field. Requires reconciliation from another official record.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-12-F15380C9",
+      "pip_number": 12,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal introduces \"Iris’s Bounty: The Feast,\" a program designed to allow Star Atlas community members to apply for funding from the Star Atlas Ecosystem Fund to host small-scale social events. These events aim to strengthen the community and foster deeper connections among players. The program allocates $10,000 of Atlas from the Star Atlas Ecosystem Fund, with a maximum of $500 per request. Applicants will be required to provide event details, expected attendance, and estimated costs to receive funding, streamlining the process compared to drafting a full PIP.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Creates a Council-administered microgrant program for local social events using a dedicated multisig and simplified applications.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-13-B721D8E7",
+      "pip_number": 13,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal establishes term limits for Star Atlas Council members to ensure fair turnover, prevent governance stagnation, and encourage fresh perspectives in DAO decision-making. It updates the existing election framework by introducing a two-term limit after which a Council member must sit out at least one full term before running again. This is accomplished by replacing Section 4.4, \"Term Limits,\" of PIP-10 (Star Atlas: Council: Second Term & Beyond) with a new set of term limit rules outlined in Section 4.2. This proposal ensures that governance remains dynamic, decentralized, and resistant to entrenched influence, aligning with the DAO’s principles of transparency and equitable representation.",
+      "reviewed_result": "FAILED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Attempted to replace unlimited re-election with a two-consecutive-term limit and one-term break. Failure leaves PIP-10's no-term-limit rule intact.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-14-FED98016",
+      "pip_number": 14,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal requests 10,000 USDC as a one-time development cost for a focused, fixed-term 6-week project aimed at enhancing Star Atlas’s economic ecosystem.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Funds AI economic-assistant development, DAO knowledge-base RAG, integration readiness, repayment from transaction fees, and long-term revenue share.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-15-BD065AD2",
+      "pip_number": 15,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "The proposal aims to strengthen the Star Atlas community by facilitating and promoting local connections and events. It will create a website-based platform for organizing Star Atlas community in-person meetups worldwide. The platform will handle event organization, ticketing, and host support, inspired by the Star Citizen community’s \"Bar Citizen\" initiative. Funding is requested to create the platform for a total of $9540 USD.",
+      "reviewed_result": "FAILED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Proposed a privately operated global meetup and ticketing platform. Rejection is important evidence that the DAO distinguishes direct event funding from platform/business-model funding.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-16-B11CED4B",
+      "pip_number": 16,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "Risingson has been developing Eveeye for 1.5+ years while living off savings account providing gaming depth and real economic value to the Star Atlas community for free. While loving working on the tools he cannot continue without a sustainable income and therefore will convert to a paid system. This funding request supports Eveeye to keep running until a sustainable income can be generated hopefully.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Supports continued development of Eveeye/Ryden Systems with 5% of the Ecosystem Fund, reflecting willingness to subsidize proven community infrastructure.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-17-4DF4C199",
+      "pip_number": 17,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks 10 million ATLAS to begin funding an expansive, DAO-aligned content initiative including short-form video, music integration, educational one-pagers, player engagement, and a professional short film tied to the Star Atlas metaverse over the next four months. All ATLAS will be held within the ecosystem and not converted into USDC. The funding will directly support content creation, in-game activity, and long-term value generation for the DAO.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Initial 10,000,000 ATLAS tranche for media, educational assets, music integrations, community activity, and a film project; later tranches required separate votes.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-18-18750A6A",
+      "pip_number": 18,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks funding of up to 5,775 EUR (in ATLAS equivalent) from the DAO Treasury to expand the reach and impact of the already approved PIP 8 (Star Atlas Comet Meetup at Gamescom 2025). The event will take place on August 23, 2025, in Cologne, Germany, during Europe’s largest gaming convention.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Extends PIP-8 with merchandise, print, onboarding keys, banners, and professional media documentation.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-19-1EB3D15E",
+      "pip_number": 19,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal requests 44,800,000 ATLAS over the period of 360 days in funding from the Star Atlas Ecosystem Fund to provide investors and players with transparent economic and financial information surrounding the Star Atlas Ecosystem. This amount will be distributed in four 11,200,000 ATLAS increments over four sub-PIPs, each with a span of 90 days. The funding is meant to ensure that the Star ATLAS community continues to have economic data resources, even in the face of structural breaks in data resources and in the face of uncertainty from rising costs.",
+      "reviewed_result": "FAILED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Proposed 44.8M ATLAS over four phases, with the first 11.2M tranche for economic research and data migration. Failure shows resistance to high recurring research/infrastructure commitments.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-20-159CB743",
+      "pip_number": 20,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal introduces the DAO Casters—a structured program of five elected content creators dedicated to promoting the entire Star Atlas ecosystem, including the DAO, the game, and broader community initiatives. DAO Casters will be elected through a formal election process (self-nomination, 1 STV round) as a once off measure (any further extension of this program would require a new proposal). Each Caster will receive a monthly stipend of 360,000 ATLAS, plus an additional 360,000 ATLAS per month to fund giveaways, contests, and promotions.  Caster responsibilities will include weekly content, monthly community livestreams, and regular collaborations. This program provides the ecosystem with consistent, engaging, and professional media representation.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Establishes five elected content creators for a three-month term, combining compensation with controlled promotional budgets.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-21-49CAD7E4",
+      "pip_number": 21,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "We request $8,820 USDC for Year 1 from the DAO treasury to fund the Rogue Data Hub (RDH) — a community-operated Software-as-a-Service (SaaS) product that indexes, processes, and exposes on-chain Star Atlas data.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Funds an open, community-operated Star Atlas data indexer/API as replacement infrastructure after Flipside discontinuation.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-22-D5D61E64",
+      "pip_number": 22,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks 11,000,000 ATLAS and introduces Iris’s Bounty: The Arena, a program that empowers Star Atlas community members to host tournaments and gaming events by co-funding them with the DAO. Instead of flat grants, the DAO provides a 2:1 funding match for organizer-secured contributions, with DAO matching funds split between prize pools and organizer compensation.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Creates a tournament co-funding program using a 2:1 DAO match, post-event validation, sponsorship requirements, and Council administration.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-23-0ECF2928",
+      "pip_number": 23,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal continues the Star Atlas Ecosystem Fund and establishes a budget of 20% of the Star Atlas DAO’s Treasury.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Replaces PIP-4. Clarifies refill formulas, wallet addresses, 5% ceiling, ATLAS-only payment, USDC conversion, 12-month maximum duration, and Council responsibilities. Includes direct on-chain evidence of prior fund refills.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-24-8CC6B298",
+      "pip_number": 24,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal introduces a DAO-Supported Hosting Service developed and operated by community member Arty, specifically dedicated to hosting the SLY Assistant automation tool.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Funds a three-month, usage-based hosting subsidy pilot, with monthly reporting and renewal contingent on adoption.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-25-91CC73FA",
+      "pip_number": 25,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal determines who will serve on the Star Atlas DAO Council for its third term (January 11, 2026 - October 11, 2026). As outlined in PIP-10, there will be only one round of voting. Six candidates nominated themselves during the nomination period. The top five candidates, selected through ranked-choice voting using the Single Transferable Vote (STV) method, will become officially elected Star Atlas Council members on January 11th, 2026.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Election for January–October 2026 Council term. Portal payload lists six candidates but lacks conclusive winners; reconcile from an official Council or Foundation announcement.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-26-B70AC545",
+      "pip_number": 26,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "The Star Atlas Crew Adventure Series is an ongoing cinematic storytelling project that produces AI content rooted directly in Star Atlas lore.",
+      "reviewed_result": "FAILED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Requests the Ecosystem Fund ceiling for an AI-generated lore video season. Failure is relevant to policy around creator compensation, AI media, IP alignment, and maximum-fund asks.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-27-064D252C",
+      "pip_number": 27,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "Per the requirements of PIP-20: Establishment of the DAO Casters Program — Elected Content Creators for Star Atlas Ecosystem Promotion, this is the election PIP for a structured program of 5 elected content creators dedicated to promoting the entire Star Atlas ecosystem.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Elects five of thirteen creators under PIP-20 and PIP-9 STV rules. Portal winner data requires reconciliation.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-28-D0A5DC75",
+      "pip_number": 28,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "In an effort to boost our runway and ensure Star Atlas can fulfill the roadmap and deliver the releases planned for this year, ATMTA (the leading developer of Star Atlas) was forced to make painful cuts to its talent. Unfortunately, my position as a lore writer and community team member was terminated as part of this process. Despite this, I remain confident in Star Atlas and in the incredible game modes that still have the potential to turn this situation around, such as Holosim, C4, Z.ink, and Siege Mode. This PIP exists because I want to continue fighting alongside this community and contributing to Star Atlas during this critical period.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Exceptional direct treasury support for a former ATMTA contributor to remain embedded at ATMTA for six months. Establishes a precedent for DAO-funded preservation of core company capacity during layoffs.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-29-8E761702",
+      "pip_number": 29,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks up to 13,143,639 ATLAS in Ecosystem Fund funding to run a time- and budget-bounded pilot that incentivizes authentic, player-created short-form Star Atlas gameplay videos and distributes the strongest submissions through official/community social channels, using a human review process and a lightweight web platform for submissions, scoring, and weekly leaderboards.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Funds a bounded community gameplay-video incentive and distribution pilot; Aephia supplies the platform and hosting at no cost during the pilot.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-30-3BA029F2",
+      "pip_number": 30,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks $2,200 USDC or up to 13,143,639 in ATLAS ($550/month × 4 months) from the DAO Ecosystem fund to keep ATOM Cloud operational through C4. ATOM Cloud currently processes ~100,000 transactions/day for 104 daily active accounts. Users currently pay 0.000005 SOL per taxable transaction (~half of all operations). If this proposal passes, ATOM Cloud becomes completely free for all users until C4. Without funding, the service shuts down in 30 days. This is a pure sustainability request — no new features, no profit of any kind for ATOM Team.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Four-month operating-cost pilot preserving community automation infrastructure through C4, with early termination and return of funds if C4 releases first.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-31-E71FB1A7",
+      "pip_number": 31,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal requests 13,000,000 ATLAS from the Star Atlas DAO Ecosystem Fund to complete and launch Star Seekers 2, a cross-platform mobile space-combat game inspired by the Star Atlas universe, on both iOS App Store and Google Play Store.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Funds completion and dual-store launch of an independently owned mobile game used as a Star Atlas onboarding channel; milestone payments but private ownership retained.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-32-0B04FF9B",
+      "pip_number": 32,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks funding of the Ecosystem Fund limit (currently 13,576,392 ATLAS) for the production and broadcast of the Star Atlas Triad Tournament in June 2026, a first-ever combined competitive event spanning all three UE5 game modes: Racing Mode (Star Racer), Gun Mode (Star Shooter), Siege Mode (Star Fighter). Funding is to compensate the team only, it is not funding a prize pool.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Funds professional production of a three-mode UE5 esports event, with milestone payments, conflict recusals, post-event reporting, and 1% revenue return to the DAO.",
+      "human_review_status": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-33-397FEE39",
+      "pip_number": 33,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "supporting_text": "This proposal seeks reimbursement of $469,513.53 USD from the Star Atlas DAO Treasury for verified historic expenditures paid by ATMTA on behalf of the Star Atlas DAO covering 2021 tax obligations and payments to two professional services providers.",
+      "reviewed_result": "PASSED",
+      "implementation_caveat": "Vote result does not establish implementation; independent primary evidence is missing.",
+      "corpus_review_conclusion": "Extraordinary $469,513.53 treasury reimbursement to ATMTA for taxes and professional services, split 75% USDC/25% ATLAS across two tranches with treasury reserve protection and direct conflict disclosure.",
+      "human_review_status": "REVIEWED"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "campaign_id": "star-atlas-social-governance-ingestion",
+  "prepared_on": "2026-07-15",
+  "status": "READY_FOR_CODEX_INGESTION",
+  "social_media": {
+    "campaign_id": "official-star-atlas-social-media-ingestion",
+    "status": "READY_FOR_ARCHIVAL_INGESTION",
+    "source_file": "sorsa_export_1784085327119.csv",
+    "source_file_sha256": "7c56a6dac40d225ae2869cdd55d0f811470fb5f2dae0ea9a023e5d7eeb958b1d",
+    "export_rows": 799,
+    "unique_posts": 796,
+    "duplicate_export_rows": 3,
+    "duplicate_post_ids": [
+      "1866574325933109510",
+      "1901859103561199811",
+      "1964042710446461333"
+    ],
+    "duplicate_row_conflicts": [],
+    "original_posts": 528,
+    "retweets": 268,
+    "date_range": {
+      "start": "2024-11-05",
+      "end": "2026-07-14"
+    },
+    "account": "@staratlas",
+    "validation": {
+      "unique_post_ids": true,
+      "unique_source_ids": true,
+      "post_urls_reconcile_to_ids": true,
+      "jsonl_generated": true
+    }
+  },
+  "governance": {
+    "campaign_id": "pip-1-33-official-link-registry",
+    "status": "READY_FOR_PORTAL_CAPTURE",
+    "source_workbook": "Pip Links.xlsx",
+    "source_workbook_sha256": "6ff783c0c4ea96e7d774093d003cbd4be0a94fa9d90ad754fabaf5d776de1a20",
+    "pip_count": 33,
+    "number_sequence_complete": true,
+    "proposal_uuids_unique": true,
+    "official_domain": "govern.staratlas.com",
+    "next_stage": "Capture official proposal text, metadata, vote result, and execution evidence as separate lifecycle records."
+  },
+  "scope": {
+    "allowed": [
+      "archive",
+      "operations/campaigns"
+    ],
+    "prohibited": [
+      "knowledge",
+      "graph",
+      "publication"
+    ]
+  }
+}

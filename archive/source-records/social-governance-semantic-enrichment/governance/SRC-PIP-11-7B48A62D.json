@@ -1,0 +1,24 @@
+{
+  "source_id": "SRC-PIP-11-7B48A62D",
+  "campaign_id": "social-governance-semantic-enrichment",
+  "source_type": "OFFICIAL_GOVERNANCE_PROPOSAL",
+  "evidence_tier": "TIER_1_OFFICIAL_PORTAL",
+  "title": "Council Election #2",
+  "url": "https://govern.staratlas.com/proposals/7b48a62d-13c3-4a1e-8565-6ea7bfb4b4dc",
+  "proposal_uuid": "7b48a62d-13c3-4a1e-8565-6ea7bfb4b4dc",
+  "pip_number": 11,
+  "publication_date": "2025-03-21T16:02:25.537Z",
+  "updated_date": "2025-03-21T16:02:25.537Z",
+  "author": "BVJESvrDeXZcSX5UVdK2Tt57Lur9gyakgCfdX45pVQ1V",
+  "raw_capture": "archive/raw/social-governance-semantic-enrichment/governance/pip-captures/pip-11-7b48a62d-13c3-4a1e-8565-6ea7bfb4b4dc.json",
+  "semantic_record": "archive/semantic/governance/pip-registry-semantic.json",
+  "content_sha256": "dc6c0035c9b32a630631e2da1fd2e493f4b49aa741c8a8d6c3d1a2682964f55a",
+  "capture_timestamp": "2026-07-15T03:41:40Z",
+  "confidence": "HIGH",
+  "limitations": [
+    "No explicit human-readable author was parsed; author uses the portal author public key.",
+    "The captured portal payload does not expose a conclusive binary or election result.",
+    "Approval is derived only from the official completed vote record; it is not execution evidence.",
+    "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+  ]
+}

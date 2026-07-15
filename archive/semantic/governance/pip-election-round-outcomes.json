@@ -1,0 +1,42 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "1.0.0",
+  "records": [
+    {
+      "pip_number": 6,
+      "election_stage": "FIRST_ROUND",
+      "outcome_type": "ADVANCEMENT_TO_FINAL_ROUND",
+      "advanced_candidates": [
+        "king_bryan",
+        "funcracker",
+        "krigs",
+        "bodhi_tree",
+        "rome_i_emperor",
+        "ajota_lrnr",
+        "notcatz",
+        "jp",
+        "jith_blade",
+        "drumcarl05",
+        "dmark",
+        "xalexus"
+      ],
+      "elected_officeholders": [],
+      "semantic_correction": "The 12 portal-listed PIP-6 names are first-round advancing candidates, not elected Council winners.",
+      "supersedes_field_interpretation": "pip-source-reconciliation.json#PIP-6/winner_identification",
+      "manual_review_required": false
+    },
+    {
+      "pip_number": 7,
+      "election_stage": "FINAL_ROUND",
+      "outcome_type": "ELECTED_COUNCIL_MEMBERS",
+      "elected_officeholders": [
+        "jp",
+        "funcracker",
+        "king_bryan",
+        "bodhi_tree",
+        "drumcarl05"
+      ],
+      "manual_review_required": false
+    }
+  ]
+}

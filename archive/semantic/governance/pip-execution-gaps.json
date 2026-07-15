@@ -1,0 +1,544 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "2.0.0",
+  "capture_timestamp": "2026-07-15T03:41:40Z",
+  "gap_count": 33,
+  "gaps": [
+    {
+      "source_id": "SRC-PIP-01-BC8475E4",
+      "pip_number": 1,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Historical PIP-1 quorum text is preserved; the repository owner-approved current operating rule applies no quorum to completed binary results.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-02-1E2D7066",
+      "pip_number": 2,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-03-F5E7CDE1",
+      "pip_number": 3,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-04-AD1945D8",
+      "pip_number": 4,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-05-C248D280",
+      "pip_number": 5,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-06-1B792551",
+      "pip_number": 6,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "No explicit human-readable author was parsed; author uses the portal author public key.",
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-07-91652743",
+      "pip_number": 7,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "No explicit human-readable author was parsed; author uses the portal author public key.",
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-08-62506041",
+      "pip_number": 8,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-09-1CC4BB6F",
+      "pip_number": 9,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-10-ED887A4E",
+      "pip_number": 10,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-11-7B48A62D",
+      "pip_number": 11,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "No explicit human-readable author was parsed; author uses the portal author public key.",
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-12-F15380C9",
+      "pip_number": 12,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-13-B721D8E7",
+      "pip_number": 13,
+      "reviewed_result": "FAILED",
+      "execution_state": "UNKNOWN",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-14-FED98016",
+      "pip_number": 14,
+      "reviewed_result": "PASSED",
+      "execution_state": "TERMINATED",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-15-BD065AD2",
+      "pip_number": 15,
+      "reviewed_result": "FAILED",
+      "execution_state": "UNKNOWN",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-16-B11CED4B",
+      "pip_number": 16,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-17-4DF4C199",
+      "pip_number": 17,
+      "reviewed_result": "PASSED",
+      "execution_state": "CANCELED",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-18-18750A6A",
+      "pip_number": 18,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-19-1EB3D15E",
+      "pip_number": 19,
+      "reviewed_result": "FAILED",
+      "execution_state": "UNKNOWN",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-20-159CB743",
+      "pip_number": 20,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-21-49CAD7E4",
+      "pip_number": 21,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-22-D5D61E64",
+      "pip_number": 22,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-23-0ECF2928",
+      "pip_number": 23,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-24-8CC6B298",
+      "pip_number": 24,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-25-91CC73FA",
+      "pip_number": 25,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "No explicit human-readable author was parsed; author uses the portal author public key.",
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-26-B70AC545",
+      "pip_number": 26,
+      "reviewed_result": "FAILED",
+      "execution_state": "UNKNOWN",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-27-064D252C",
+      "pip_number": 27,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Official election winner evidence is missing from the captured portal payload.",
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-28-D0A5DC75",
+      "pip_number": 28,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-29-8E761702",
+      "pip_number": 29,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-30-3BA029F2",
+      "pip_number": 30,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-31-E71FB1A7",
+      "pip_number": 31,
+      "reviewed_result": "PASSED",
+      "execution_state": "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-32-0B04FF9B",
+      "pip_number": 32,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-PIP-33-397FEE39",
+      "pip_number": 33,
+      "reviewed_result": "PASSED",
+      "execution_state": "IMPLEMENTATION_PENDING",
+      "execution_evidence_status": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+      "execution_evidence": [],
+      "research_gaps": [
+        "Council operational assessments, payment fields, and lifecycle reports are attributed and are not independently verified.",
+        "Independent implementation evidence is not present in the captured proposal payload."
+      ],
+      "limitations": [
+        "The reviewed vote result follows the repository-owner rule for binary PIPs or the official electionResults field for elections; it is not execution evidence.",
+        "No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence."
+      ]
+    }
+  ]
+}
