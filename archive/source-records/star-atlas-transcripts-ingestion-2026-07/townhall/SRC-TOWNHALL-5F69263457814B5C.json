@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+  "collection": "townhall",
+  "title": "community week part 2 Town Hall 42",
+  "original_filename": "community_week_part_2__Townhall__42.txt",
+  "source_type": "transcript",
+  "publication_date": null,
+  "publication_date_basis": "unknown",
+  "publisher": "Star Atlas ecosystem; exact publisher unresolved",
+  "author_or_speakers": [],
+  "speaker_attribution": "UNKNOWN",
+  "original_url": null,
+  "evidence_tier": "UNRESOLVED_PENDING_SOURCE_RECONCILIATION",
+  "raw_path": "townhall/raw/SRC-TOWNHALL-5F69263457814B5C.txt",
+  "normalized_path": "townhall/normalized/SRC-TOWNHALL-5F69263457814B5C.md",
+  "raw_sha256": "5f69263457814b5c1485074069156f58d64a97724a044bfe451601b37ca03668",
+  "normalized_sha256": "275b83d8081620812600802e5aa9c6628f4c9c03c08eda1604f83f35106795c0",
+  "caption_count": 2659,
+  "first_timestamp": "00:00:00",
+  "last_timestamp": "01:52:48",
+  "duplicate_of": null,
+  "normalization_actions": [
+    "Decoded as UTF-8 with replacement for invalid bytes",
+    "Normalized line endings",
+    "Joined wrapped caption text belonging to the same timestamp",
+    "Collapsed repeated whitespace within captions",
+    "Preserved transcript wording and timestamp order"
+  ],
+  "limitations": [
+    "Original URL not supplied",
+    "Speaker labels not supplied",
+    "Publication date may be partial or unknown",
+    "Automated transcript text may contain recognition errors",
+    "Lifecycle or factual claims require later semantic review before canonical promotion"
+  ],
+  "ingestion_status": "READY_FOR_ARCHIVAL_INGESTION"
+}

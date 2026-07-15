@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
+  "collection": "townhall",
+  "title": "2022 Joni awards",
+  "original_filename": "2022_Joni_awards.txt",
+  "source_type": "transcript",
+  "publication_date": "2022",
+  "publication_date_basis": "filename-year",
+  "publisher": "Star Atlas ecosystem; exact publisher unresolved",
+  "author_or_speakers": [],
+  "speaker_attribution": "UNKNOWN",
+  "original_url": null,
+  "evidence_tier": "UNRESOLVED_PENDING_SOURCE_RECONCILIATION",
+  "raw_path": "townhall/raw/SRC-TOWNHALL-B66F8586AA2FCB90.txt",
+  "normalized_path": "townhall/normalized/SRC-TOWNHALL-B66F8586AA2FCB90.md",
+  "raw_sha256": "b66f8586aa2fcb90be18cede1be81e9b446b77c1fc36dddacd25f2f5843b8999",
+  "normalized_sha256": "39d95f46b46bdc633dec334de9f04894e79ab1944fb950b3a99ca0b6037d5482",
+  "caption_count": 2785,
+  "first_timestamp": "00:00:16",
+  "last_timestamp": "02:02:51",
+  "duplicate_of": null,
+  "normalization_actions": [
+    "Decoded as UTF-8 with replacement for invalid bytes",
+    "Normalized line endings",
+    "Joined wrapped caption text belonging to the same timestamp",
+    "Collapsed repeated whitespace within captions",
+    "Preserved transcript wording and timestamp order"
+  ],
+  "limitations": [
+    "Original URL not supplied",
+    "Speaker labels not supplied",
+    "Publication date may be partial or unknown",
+    "Automated transcript text may contain recognition errors",
+    "Lifecycle or factual claims require later semantic review before canonical promotion"
+  ],
+  "ingestion_status": "READY_FOR_ARCHIVAL_INGESTION"
+}

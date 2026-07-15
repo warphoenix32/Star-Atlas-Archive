@@ -1,0 +1,5183 @@
+---
+
+source_id: SRC-TOWNHALL-114A7F2FE199FAD1
+
+title: "Town Hall 39"
+
+collection: townhall
+
+source_type: transcript
+
+publication_date: unknown
+
+publication_date_basis: unknown
+
+speaker_attribution: unknown
+
+raw_sha256: 114a7f2fe199fad17caf1ccb008438205c847047808e3ac311c5747c0277dce2
+
+caption_count: 2574
+
+last_timestamp: 01:50:17
+
+normalization: caption-lines joined; wording preserved
+
+---
+
+
+
+# Town Hall 39
+
+
+
+> Speaker identities, original URL, and exact publication date remain unresolved unless stated in metadata.
+
+
+
+[00:02:55] All right, welcome everyone. Welcome to
+
+[00:02:57] the Star Atlas Stonehole. Thank you
+
+[00:02:59] Darwin as always for the great beats.
+
+[00:03:02] Darwin DJ as always. W's in the chat
+
+[00:03:05] please for Darwin DJ guys. I think uh
+
+[00:03:08] that we deserve some W's in the chat.
+
+[00:03:11] Some sick music played there. Um and
+
+[00:03:14] today we have the Star Atlas stonehole
+
+[00:03:16] number 39. It's going to be as always
+
+[00:03:19] action-packed and the agenda for today
+
+[00:03:22] is never alone and scale velocity
+
+[00:03:25] metrics and learnings, Sage updates, DAO
+
+[00:03:29] updates and R2.1 in general UE5 updates.
+
+[00:03:34] And if you want to follow the chat
+
+[00:03:36] today, we will be using the chat that is
+
+[00:03:37] inside the Atlas Amphitheater. So, make
+
+[00:03:40] sure to chat in there so we can read as
+
+[00:03:42] we
+
+[00:03:44] as we speak. And as always, here on
+
+[00:03:47] stage, I have uh Michael today with me.
+
+[00:03:50] How are you doing, Michael?
+
+[00:03:52] What do you think about the agenda?
+
+[00:03:54] I don't know if I'm in the right place,
+
+[00:03:56] but I heard if I attended this, I would
+
+[00:03:58] get some free XP for this thing called
+
+[00:04:00] Never Alone. Is that true?
+
+[00:04:02] You are in the right place, sir. You're
+
+[00:04:03] in the right place.
+
+[00:04:05] Excellent. Well, feeling better already,
+
+[00:04:07] guys. Honestly, feeling phenomenal
+
+[00:04:08] today. Really excited about the lineup
+
+[00:04:10] that we have and the updates that we're
+
+[00:04:12] about to provide. Um, welcome everyone
+
+[00:04:14] to town hall number 39. And let's get
+
+[00:04:17] rolling. Santi,
+
+[00:04:18] yeah, it's always great to have a town
+
+[00:04:20] hall. Uh, I know that not a lot of
+
+[00:04:23] people expecting to have one town hall
+
+[00:04:25] so soon, but we told you. We told you
+
+[00:04:27] guys we're moving fast here at Star
+
+[00:04:29] Atlas. So, yeah. And we also will be
+
+[00:04:32] joined by a very special guest later
+
+[00:04:34] today. Uh CPO at Star Atlas, Danny
+
+[00:04:37] Floyd. So stay tuned for that. Let's get
+
+[00:04:41] started. Michael,
+
+[00:04:42] the the VV VIP. We haven't haven't heard
+
+[00:04:44] from Danny in in a while now. I'm super
+
+[00:04:46] excited. Love the guy. He's absolutely
+
+[00:04:48] crushing it. Um in fact, the whole team
+
+[00:04:51] is. But uh really appreciate Danny
+
+[00:04:53] joining us today. I'm sure everyone's
+
+[00:04:55] going to love hearing what he has to say
+
+[00:04:57] and and seeing some of the beautiful
+
+[00:04:59] content that we're about to share today.
+
+[00:05:02] For sure. For sure. It's been over nine
+
+[00:05:03] months since we had Daniel on a town
+
+[00:05:05] hall. So, definitely a special occasion
+
+[00:05:08] every time we can have him here on
+
+[00:05:10] stage.
+
+[00:05:12] So, now Michael, let's get started.
+
+[00:05:15] Let's go to some Let's talk a little bit
+
+[00:05:18] about Never Alone first. So, for
+
+[00:05:19] everyone who doesn't know what Never
+
+[00:05:21] Alone is, Never Alone is our social
+
+[00:05:24] campaign uh that gives you exclusive
+
+[00:05:26] loot and other very juicy Star Atlas
+
+[00:05:29] items. So, we partnered with Cely to do
+
+[00:05:32] that and you can find all the
+
+[00:05:34] information in the Never Alone FAQ
+
+[00:05:38] channel here. Uh, Michael, what are your
+
+[00:05:42] thoughts uh so far about Never Alone?
+
+[00:05:44] Are there any key metrics that we want
+
+[00:05:46] to highlight here in the town hall?
+
+[00:05:48] There are. There definitely are. And I
+
+[00:05:50] don't want to keep this dry. So let me
+
+[00:05:52] do what I normally do, which is take us
+
+[00:05:54] on a little meandering journey through
+
+[00:05:56] uh the internal thinking of the team
+
+[00:05:58] here at Automata and and uh just
+
+[00:06:01] reiterate what the philosophy going into
+
+[00:06:03] this year was. That was um one of the
+
+[00:06:07] pivots, if you will, was to continue to
+
+[00:06:10] distill the product releases into
+
+[00:06:13] smaller and smaller versions. um
+
+[00:06:15] specifically with the intention of being
+
+[00:06:17] able to release uh more content more
+
+[00:06:19] frequently and then more frequently
+
+[00:06:21] update that content. Now, on top of
+
+[00:06:23] that, we had been ideulating around this
+
+[00:06:25] idea of a social campaign, a a a method
+
+[00:06:29] of being able to incorporate not only
+
+[00:06:31] engagement and interactions with our
+
+[00:06:33] gaming products, but also create a a a
+
+[00:06:37] form of virality and and uh reward our
+
+[00:06:41] existing community members who are
+
+[00:06:43] already talking so much about Star Atlas
+
+[00:06:45] and sharing all of this content, which
+
+[00:06:47] we're sincerely appreciative of, by the
+
+[00:06:49] way. But we wanted to to tie all of
+
+[00:06:51] these things together given how many
+
+[00:06:53] product releases we have anticipated
+
+[00:06:55] through the course of this year and
+
+[00:06:57] there are many across multiple product
+
+[00:06:59] lines and um and tie it into the gaming
+
+[00:07:02] products and also um tie that social
+
+[00:07:05] element together and thus the idea of
+
+[00:07:08] never alone was conceived. And so we do
+
+[00:07:12] have some great numbers here to kind of
+
+[00:07:14] demonstrate the traction and success of
+
+[00:07:15] that um at at its early phase. And
+
+[00:07:20] Santi, I'll be happy to get into those.
+
+[00:07:22] But overall, I would just say that we
+
+[00:07:24] are um pleasantly surprised with the
+
+[00:07:27] performance of both Escape Velocity and
+
+[00:07:29] Never Alone, given we knew that these
+
+[00:07:31] were uh well, we knew that that Escape
+
+[00:07:34] Velocity specifically was a a fairly
+
+[00:07:38] minor or limited feature set, I would
+
+[00:07:40] say, although incredibly powerful from
+
+[00:07:44] the technology innovation lens and what
+
+[00:07:46] we were able to do with this Cartisian
+
+[00:07:48] coordinate system and movement action
+
+[00:07:51] fully on chain. I won't go down the
+
+[00:07:53] rabbit hole of why that philosophy, why
+
+[00:07:56] onchain development and and why that
+
+[00:07:58] philosophy is so important to us
+
+[00:07:59] internally right now, but nevertheless,
+
+[00:08:02] suffice to say, um, we we think that
+
+[00:08:04] both of these have been a phenomenal
+
+[00:08:06] success out of the gate, and we're very
+
+[00:08:07] much looking forward to where Never
+
+[00:08:09] Alone goes throughout the course of the
+
+[00:08:10] year. And um big kudos to our writing
+
+[00:08:14] team uh Jose in particular, Matt
+
+[00:08:17] Mednate, and really the whole RevOps
+
+[00:08:19] team as well for uh working
+
+[00:08:21] collaboratively on this Never Alone
+
+[00:08:23] campaign and bringing a fun story. It
+
+[00:08:25] gets you engaged in content, tells you a
+
+[00:08:27] little bit of the narrative and lore
+
+[00:08:28] background of Star Atlas and um gives
+
+[00:08:31] you an opportunity to get engaged in
+
+[00:08:34] Star Atlas gameplay at this phase and
+
+[00:08:36] still earn some achievements um along
+
+[00:08:38] the way. So you were all the earliest
+
+[00:08:40] explorers. So uh congratulations to you
+
+[00:08:43] all and and yes auntie with that we can
+
+[00:08:45] run some numbers
+
+[00:08:46] just uh from a community side it's cool
+
+[00:08:48] to have a product like this because you
+
+[00:08:50] basically just engage with all the
+
+[00:08:51] products that we have and get loot and
+
+[00:08:54] get rewarded. So also you're helping
+
+[00:08:57] sand recover his memories. That's very
+
+[00:09:00] important. So there's a lot lot lot of
+
+[00:09:03] lore content in there and yeah huge
+
+[00:09:06] shout out to Jose again. He has been
+
+[00:09:08] crushing it. Let's get into the numbers.
+
+[00:09:10] Michael, if you want.
+
+[00:09:11] Yeah. Yeah. So, we just pulled together
+
+[00:09:13] a few um a few metrics that we've been
+
+[00:09:16] tracking. This was, you know, one of the
+
+[00:09:18] big objectives for us was not only to
+
+[00:09:20] test the tech, uh test the gameplay, but
+
+[00:09:23] also from a marketing and and uh data
+
+[00:09:26] collection lens. We wanted to analyze
+
+[00:09:28] the tools that we've developed. A lot of
+
+[00:09:29] these were built internally or otherwise
+
+[00:09:31] are integrated across multiple
+
+[00:09:33] platforms. And and so uh we've pulled
+
+[00:09:35] some numbers together that we thought
+
+[00:09:37] were uh were meaningful to share. And
+
+[00:09:39] I'll just kind of run through those with
+
+[00:09:41] the first of those being um total quest
+
+[00:09:44] uh claims that have been completed.
+
+[00:09:47] We've seen 42,000 uh quests completed so
+
+[00:09:50] far across the community. Uh we've also
+
+[00:09:53] had 3,700 unique questers participating
+
+[00:09:56] in this program which is really cool. I
+
+[00:09:58] mean these um you know good numbers uh
+
+[00:10:01] again given where we're at. And really
+
+[00:10:04] the last thing here as the the first
+
+[00:10:07] mission of Never Alone does um uh
+
+[00:10:11] introduce the engagement in Escape
+
+[00:10:13] Velocity. Um what we've seen in Escape
+
+[00:10:16] Velocity attributed specifically to
+
+[00:10:18] Never Alone is um at least 550,000
+
+[00:10:22] warp and scan transactions. Now again
+
+[00:10:26] the warps are entirely onchain. The scan
+
+[00:10:29] system is technically off-chain though
+
+[00:10:31] it does use wallet verification. Um uh
+
+[00:10:33] the scans do not count as as uh Salana
+
+[00:10:36] transactions but we'll share some more
+
+[00:10:38] details on these numbers when we get
+
+[00:10:40] into escape velocity but again 550,000
+
+[00:10:43] transactions um or or combined warps and
+
+[00:10:47] scan transactions on Salana as a direct
+
+[00:10:50] result of never alone.
+
+[00:10:52] That's awesome. And just here Michael I
+
+[00:10:54] wanted to give another shout out to our
+
+[00:10:56] BI team as well. uh they have been
+
+[00:10:59] working really hard to get those scripts
+
+[00:11:01] those verifications going and also to
+
+[00:11:03] Dom and Arthur since he they have been
+
+[00:11:05] doing a lot of manual work here on the
+
+[00:11:07] manual verification quests so I just
+
+[00:11:10] wanted to make sure to get that in
+
+[00:11:12] 100%.
+
+[00:11:15] We've told we've told Dom and Arthur
+
+[00:11:17] they're not allowed to sleep until all
+
+[00:11:19] of the quests are approved.
+
+[00:11:22] Right. Yeah. Yeah. That's that's the
+
+[00:11:24] policy.
+
+[00:11:26] Yeah. Yeah,
+
+[00:11:27] I think we got something for the
+
+[00:11:28] audience, Michael. Right.
+
+[00:11:29] Yeah, we do. We do. So, speaking of the
+
+[00:11:31] uh Never Alone Quest XP. Um
+
+[00:11:35] hopefully you guys stick around for the
+
+[00:11:37] whole show. You didn't come just for
+
+[00:11:38] this uh part of it, but we did. Uh but
+
+[00:11:40] we are sharing the uh code for the town
+
+[00:11:43] hall participation right now. Santi, why
+
+[00:11:45] don't you tell them what it is?
+
+[00:11:47] It's sip of water 426 altogether. Lower
+
+[00:11:51] no caps. So,
+
+[00:11:53] Dominic just posted it in the chat
+
+[00:11:55] there.
+
+[00:11:56] Sip of water. Sip of water. 46.
+
+[00:12:00] And thanks for the reminder, Santi. I do
+
+[00:12:02] have my glass of water here. So, uh,
+
+[00:12:04] looking good.
+
+[00:12:06] Feeling hydrated.
+
+[00:12:08] Um, and, uh, the last thing to share on
+
+[00:12:09] that code, and Santi, you can confirm
+
+[00:12:11] for me, but this will be good for 24
+
+[00:12:14] hours.
+
+[00:12:14] So, is this, uh, 2:30 p.m. Eastern time
+
+[00:12:17] tomorrow is when the code will not uh,
+
+[00:12:20] no longer work. Is that right?
+
+[00:12:22] Yeah. You have 24 hours to get that in
+
+[00:12:24] on on Zilly. Correct.
+
+[00:12:28] After that, it's it's gone. It's a time
+
+[00:12:31] limited uh quest. So, after that, it's
+
+[00:12:33] not possible to get that in. So, make
+
+[00:12:36] sure to get the XP now.
+
+[00:12:41] Cool.
+
+[00:12:42] Anything else here on on alone, Michael,
+
+[00:12:44] that you want to cover?
+
+[00:12:45] Nope. That's all we'll cover for now. A
+
+[00:12:47] lot more coming throughout the course of
+
+[00:12:48] the year. Uh for anyone that is new
+
+[00:12:50] there, this is going to be a uh four
+
+[00:12:52] mission um uh game system that is going
+
+[00:12:56] to take place over the remainder of the
+
+[00:12:58] year concluding in December. So stick
+
+[00:13:00] around with us. Um there are there is
+
+[00:13:03] loot associ associated with each of the
+
+[00:13:05] missions. There's a uh a collective loot
+
+[00:13:08] kind of an exotic system if you combine
+
+[00:13:10] these memories um towards the end of the
+
+[00:13:13] year and there's also a DAC competition.
+
+[00:13:15] If you're not a member of a DAC, I'm
+
+[00:13:17] sure there's a lot out here uh in
+
+[00:13:19] attendance today that are actively
+
+[00:13:21] recruiting and uh very passionate,
+
+[00:13:23] diehard Star Atlas enthusiasts and you
+
+[00:13:26] can probably find a nice home here and a
+
+[00:13:28] nice community that um that aligns with
+
+[00:13:31] your personal thinking and gameplay
+
+[00:13:33] style. So I'll close there and I think
+
+[00:13:36] we can move on to escape velocity here.
+
+[00:13:38] Totally. Let's do it. Uh just before
+
+[00:13:41] Michael again I wanted to clarify that
+
+[00:13:42] we are using to follow the chat if you
+
+[00:13:45] want to type we are using the chat that
+
+[00:13:47] is in the Atlas amphitheater. We are not
+
+[00:13:49] using the one that is called town hall.
+
+[00:13:51] We use the one that it's here in the
+
+[00:13:53] Atlas amphitheater. So you join the
+
+[00:13:56] amphitheater at the top right you will
+
+[00:13:58] see the chat. So make sure to get that
+
+[00:14:01] to be there. But now yeah Michael let's
+
+[00:14:04] move to skate velocity. Um, I think
+
+[00:14:06] everyone knows that we released the Star
+
+[00:14:09] Atlas golden era movement test called
+
+[00:14:12] scape velocity. Um, so yeah, Michael,
+
+[00:14:14] any any comments before we we hop to the
+
+[00:14:17] stats?
+
+[00:14:18] Um, just one thing really quickly just
+
+[00:14:20] because I saw a a question in the
+
+[00:14:23] amphitheater chat, Dom, maybe we can
+
+[00:14:25] post a link to the Never Alone campaign
+
+[00:14:28] page and the Zeli um, Active Quest page
+
+[00:14:32] for people in case they're not familiar,
+
+[00:14:34] don't know how to find it yet. So, we'll
+
+[00:14:36] do that. Um, back to Escape Velocity. I
+
+[00:14:41] I guess I just want to reiterate and I
+
+[00:14:43] kind of mentioned this in the opening
+
+[00:14:44] comment, but Escape Velocity for us is
+
+[00:14:46] not a we we don't uh envision this as a
+
+[00:14:50] gaming product per se. This was really a
+
+[00:14:53] a tech demo and test environment for us.
+
+[00:14:55] It was an opportunity to stress test one
+
+[00:14:57] of our onchain systems and that was
+
+[00:14:59] movement. Um
+
+[00:15:02] elaborating a bit more. Uh again, in
+
+[00:15:04] case there's anyone new in the audience
+
+[00:15:05] that isn't very familiar with Star
+
+[00:15:07] Atlas, um our ethos is to build as much
+
+[00:15:11] of the game logic on Salana as possible,
+
+[00:15:13] which essentially uses Salana as our
+
+[00:15:15] back-end game engine. Um this does have
+
+[00:15:18] enormous long-term benefits in the
+
+[00:15:20] ability for people to compose their own
+
+[00:15:22] applications, their DAPs, um their
+
+[00:15:25] products, their services, um companies
+
+[00:15:27] that integrate seamlessly and
+
+[00:15:29] permissionlessly into our gaming
+
+[00:15:31] ecosystem itself. Star Atlas um while
+
+[00:15:34] it's this phenomenal gaming concept is
+
+[00:15:36] also bigger than that. It is a gaming
+
+[00:15:39] platform and our vision is to create a
+
+[00:15:41] world where people can uh develop out
+
+[00:15:44] all of their own products and build
+
+[00:15:45] within the universe of Star Atlas as
+
+[00:15:49] seamlessly as possible. Um, so coming in
+
+[00:15:51] the future in Escape Velocity, we also
+
+[00:15:54] have things like your your player
+
+[00:15:55] profile, your character progression, the
+
+[00:15:58] inventory management systems, combat
+
+[00:16:00] systems, uh, resource extraction,
+
+[00:16:02] crafting systems, these are all being
+
+[00:16:05] executed directly on chain and this is
+
+[00:16:07] absolutely pioneering work that the team
+
+[00:16:09] is doing. We're really excited about
+
+[00:16:10] getting these online. All of that said,
+
+[00:16:13] escape velocity, we did turn this into a
+
+[00:16:15] bit of a gamified experience in that
+
+[00:16:17] people are able to uh move around uh
+
+[00:16:20] this map by processing salon
+
+[00:16:22] transactions, scan the sectors that they
+
+[00:16:24] are um uh currently present in, and have
+
+[00:16:27] the opportunity to discover loot from
+
+[00:16:30] across the board. And this is this was
+
+[00:16:32] developed uh kind of as a scavenger
+
+[00:16:34] scavenger hunt of sorts, but no cost to
+
+[00:16:37] the player. just come in and try it out
+
+[00:16:39] and um get an opportunity to to find
+
+[00:16:42] some Star Atlas loot that you can use in
+
+[00:16:44] our up upcoming releases.
+
+[00:16:46] Yeah. And for it being just a test that
+
+[00:16:49] as you said, Michael, it we had quite
+
+[00:16:52] incredible results honestly like people
+
+[00:16:54] seem to be very engaged with the product
+
+[00:16:57] even if it's literally the first thing
+
+[00:16:59] we ever launched of our onchain logic.
+
+[00:17:02] Exactly. this it's I'm going to jump
+
+[00:17:06] into some of the numbers here behind it
+
+[00:17:08] just to uh fortify your statement there
+
+[00:17:11] which is that this has been very
+
+[00:17:13] successful for us beyond our
+
+[00:17:14] expectations but uh I guess quickly just
+
+[00:17:17] to note that this has
+
+[00:17:20] uh created tangential benefits for us
+
+[00:17:23] specifically within the Salana ecosystem
+
+[00:17:26] I I don't know if we kicked this off
+
+[00:17:28] maybe you do Santi but we started using
+
+[00:17:30] the only possible on Salana uh phrase is
+
+[00:17:33] uh around the time we launched Escape
+
+[00:17:35] Velocity and I've seen that used quite a
+
+[00:17:37] bit in the ecosystem but um I've had
+
+[00:17:40] personal outreach from a number of
+
+[00:17:42] projects within the ecosystem itself
+
+[00:17:45] looking to do something with us um um a
+
+[00:17:48] lot of support from the Salana
+
+[00:17:49] Foundation and the Salana Labs team
+
+[00:17:52] themselves and and so it just feels good
+
+[00:17:54] uh it feels good to get their support
+
+[00:17:56] and and and uh to hear their excitement
+
+[00:17:59] about what we're building and it it
+
+[00:18:02] reinforces versus that this you know
+
+[00:18:04] this approach we're taking onchain
+
+[00:18:06] gaming um has real potential. Yeah, and
+
+[00:18:09] I don't know if we studied that trend,
+
+[00:18:11] Michael, but I think we are clearly one
+
+[00:18:12] of the best examples of only possible on
+
+[00:18:14] Salena. I mean, in real time movement on
+
+[00:18:17] chain only possible on Salena.
+
+[00:18:20] Yeah. And let let me just I'll jump
+
+[00:18:22] right into the numbers now, Santi, just
+
+[00:18:23] again to demonstrate that. So uh topline
+
+[00:18:27] metrics that we're looking at is how
+
+[00:18:28] many transactions have been processed as
+
+[00:18:30] a result of Escape Velocity to date
+
+[00:18:32] which launch launched uh one month ago
+
+[00:18:34] actually exactly uh April 26th and there
+
+[00:18:38] were over 20 million successful
+
+[00:18:41] transactions on Salana. That is an
+
+[00:18:43] absolutely huge number for one month. Um
+
+[00:18:46] this uh came from 7,500 unique wallets
+
+[00:18:51] connected. We while we don't have a user
+
+[00:18:53] registration process whatsoever and
+
+[00:18:56] that's that's again core to our ethos uh
+
+[00:18:58] what we do look at are unique wallet
+
+[00:19:00] connects as a way of identifying uh um
+
+[00:19:03] individual users even if a user can
+
+[00:19:06] connect with multiple wallets that's
+
+[00:19:08] difficult to distinguish but 70 over
+
+[00:19:10] 7500 wallets have connected to uh to
+
+[00:19:13] Escape Velocity since launch there have
+
+[00:19:15] been 25 million scans for loot um over
+
+[00:19:20] this month And there's two metrics here
+
+[00:19:23] that I think are are really cool. Um,
+
+[00:19:26] one is that Star Atlas actually this is
+
+[00:19:30] just escape velocity but escape velocity
+
+[00:19:33] has made up 3% of the daily transaction
+
+[00:19:35] volume. This is a rough average um since
+
+[00:19:38] inception and we did have a peak value
+
+[00:19:41] of Salana transactions of 8% and that
+
+[00:19:43] was during uh a brew that you guys
+
+[00:19:46] hosted Santi.
+
+[00:19:48] Yeah man, it was incredible. I think
+
+[00:19:50] that that was totally totally kudos to
+
+[00:19:52] to the community because that was a
+
+[00:19:55] coordinated effort between uh the
+
+[00:19:57] community committee members guilds
+
+[00:19:59] coordination. It was awesome. And during
+
+[00:20:02] that period, we basically said, "Okay,
+
+[00:20:05] guys, let's go. Let's everyone go to the
+
+[00:20:08] bottom left of the map." And we all
+
+[00:20:10] started moving at the same time. And
+
+[00:20:12] during that moment, we reached over 8%
+
+[00:20:16] of the total Solana transactions, which
+
+[00:20:19] is madness. And it it it shows the power
+
+[00:20:22] of the community. So,
+
+[00:20:24] definitely.
+
+[00:20:25] Yeah. Incredible. And and while I do
+
+[00:20:28] fully anticipate some changes to the
+
+[00:20:30] structure of movement, partially
+
+[00:20:32] informed by this movement test itself, I
+
+[00:20:35] again will just say this is one program
+
+[00:20:38] of probably eight different programs
+
+[00:20:40] that we have coming online. And that's
+
+[00:20:41] in addition to the myriad of uh programs
+
+[00:20:45] that we're running for our marketplace
+
+[00:20:46] which we built from the ground up the
+
+[00:20:48] DAO itself um uh faction fleet faction
+
+[00:20:52] claims you know I think we'll have 12 to
+
+[00:20:55] 15 programs running on Salana by the end
+
+[00:20:58] of the year and I fully anticipate that
+
+[00:21:02] our uh consumption of transaction volume
+
+[00:21:05] of the network is only going to
+
+[00:21:07] increase.
+
+[00:21:10] Yep. And I and I don't know if I'm going
+
+[00:21:11] out of order here, Santi, but I'm
+
+[00:21:13] actively reading the chat as we go here.
+
+[00:21:15] Um, and uh I I am notorious for leaking.
+
+[00:21:21] Uh, stay tuned for an announcement next
+
+[00:21:24] week um about an upcoming surge event.
+
+[00:21:27] So, you guys aren't aware of the surge
+
+[00:21:30] events. Uh the econ team does some great
+
+[00:21:33] work at modifying the probability tables
+
+[00:21:36] uh to uh improve your chances of finding
+
+[00:21:38] a variety of higherend loot. And uh we
+
+[00:21:41] do have something coming next week for
+
+[00:21:43] that.
+
+[00:21:44] So and then let me just close here with
+
+[00:21:46] um some social media uh uh stats and
+
+[00:21:48] metrics that we've been tracking. I
+
+[00:21:50] would say this is a it's difficult to
+
+[00:21:52] attribute this specifically to escape
+
+[00:21:54] velocity. I think a combination of
+
+[00:21:55] escape velocity, never alone, and some
+
+[00:21:58] of the other announcements that we've
+
+[00:21:59] made. But um just say since the this the
+
+[00:22:03] middle part, end of uh April, we've seen
+
+[00:22:06] a 3x increase in our growth rate. Uh and
+
+[00:22:09] this is measured as unique uh daily
+
+[00:22:12] connected wallets to the ecosystem. So
+
+[00:22:14] we're seeing new people come into the
+
+[00:22:16] ecosystem, which is great. One of our
+
+[00:22:18] objectives this year and why uh I think
+
+[00:22:21] it's very beneficial that we've been
+
+[00:22:22] having this positive impact on Salana is
+
+[00:22:25] that we can target specifically uh
+
+[00:22:28] continue to target the the what I would
+
+[00:22:30] call cryptonative or at least
+
+[00:22:31] cryptofamiliar user and specifically the
+
+[00:22:34] Salana user. Now, one of the the um
+
+[00:22:36] metrics that was shared with me
+
+[00:22:38] previously from our BI team is that of
+
+[00:22:41] all of the wallets on Salana,
+
+[00:22:44] only 1% of those hold a Star Atlas
+
+[00:22:46] asset. And so to me, what that
+
+[00:22:48] demonstrates is is not a failure. That
+
+[00:22:50] demonstrates an opportunity to reach a
+
+[00:22:53] significantly bigger audience within
+
+[00:22:55] this rapidly growing ecosystem that is
+
+[00:22:57] Salana. Um, so before we even talk about
+
+[00:23:00] going to, you know, get Ethereum users
+
+[00:23:02] or getting other protocol users or even
+
+[00:23:04] getting the traditional gamer, which I
+
+[00:23:06] know a lot of you are, you know, and and
+
+[00:23:07] and what we're building in this AAA game
+
+[00:23:09] is what attracts you to this, but we
+
+[00:23:11] also know that there's a huge
+
+[00:23:13] opportunity in front of us directly in
+
+[00:23:15] Salana and we are spending a lot of our
+
+[00:23:16] time this year collaborating with them
+
+[00:23:18] directly um to to further our exposure
+
+[00:23:22] to that audience. So, it's great that
+
+[00:23:23] we've seen the 3x increase there. Um our
+
+[00:23:26] average daily mentions across social
+
+[00:23:28] media have 7xed um seven times increase.
+
+[00:23:32] Our social um uh engagement score and
+
+[00:23:36] sentiment score is at a 17-month high
+
+[00:23:39] that this I find somewhat surprising.
+
+[00:23:41] So, you know, this goes all the way back
+
+[00:23:43] to the beginning of 2022. We're actually
+
+[00:23:46] at the highest scores we've been. And
+
+[00:23:49] uh yeah, the last uh note here is that
+
+[00:23:52] April 2023 mentions were the highest
+
+[00:23:54] we've seen since January of 2022. So I I
+
+[00:23:58] uh big credit again to the team, big
+
+[00:24:00] credit to all of you out there in the
+
+[00:24:02] community who are proactively engaged in
+
+[00:24:04] this, supporting us and helping spread
+
+[00:24:06] the me message and vision of Star Atlas.
+
+[00:24:09] Yeah, man. Uh social score at the 17
+
+[00:24:12] month high is actually quite wild. It's
+
+[00:24:15] quite wild. And I wanted to give a
+
+[00:24:16] special special mention here to Clara
+
+[00:24:18] from our social media team. We know
+
+[00:24:21] there's a lot to communicate about Star
+
+[00:24:23] Atlas, a lot of products that we have, a
+
+[00:24:26] lot of launches. So Sun's in the chat
+
+[00:24:28] for Clara. She I don't even know how she
+
+[00:24:30] keeps track of everything. So So Sav's
+
+[00:24:34] in the chat for Clara, please.
+
+[00:24:37] Claire's doing a phenomenal job and she
+
+[00:24:39] did um transition her role into director
+
+[00:24:43] of social production. So congrats on
+
+[00:24:45] that. That was a couple of months ago,
+
+[00:24:47] but um yeah, she's doing great work.
+
+[00:24:49] Love to see the W's in the chat.
+
+[00:24:52] That's awesome.
+
+[00:24:55] Cool. Uh Michael, I have a followup to
+
+[00:24:57] all this. Um so let's move from stats
+
+[00:25:00] and let's get a little bit more into
+
+[00:25:02] into product. So what did we learn from
+
+[00:25:05] this launch that can directly impact
+
+[00:25:07] future development for um Sage?
+
+[00:25:12] I think so what we'll do here Santi is
+
+[00:25:14] just focus a little bit on the
+
+[00:25:16] engineering again this was
+
+[00:25:17] comprehensively valuable for us on
+
+[00:25:19] economics on the tech on the gameplay on
+
+[00:25:22] data collection itself and informing our
+
+[00:25:24] decisions moving forward but
+
+[00:25:26] specifically on the engineering side um
+
+[00:25:28] we were able to get a really great sense
+
+[00:25:31] of um what the scalability of the system
+
+[00:25:34] looks like so how many users our systems
+
+[00:25:37] are capable of handling um and in fact I
+
+[00:25:40] already know there have been a number of
+
+[00:25:41] improvements ments on the infrastructure
+
+[00:25:43] side ensuring greater stability. I think
+
+[00:25:46] for those of you that have been
+
+[00:25:47] participating since the beginning um we
+
+[00:25:50] know that there was some downtime there
+
+[00:25:52] was some server resets uh we discovered
+
+[00:25:54] a memory leak issue um that wasn't a
+
+[00:25:57] security risk but but did lead to
+
+[00:25:59] instability in the function of escape
+
+[00:26:01] velocity that has since all been
+
+[00:26:03] smoothed out. This is really really
+
+[00:26:06] important guys because um while we don't
+
+[00:26:09] intend for escape velocity to be here
+
+[00:26:11] for a long time these um these exact
+
+[00:26:14] same systems and pieces of
+
+[00:26:15] infrastructure are what Sage is going to
+
+[00:26:18] be operating on and what integrates
+
+[00:26:20] directly into functionality with Star
+
+[00:26:22] Atlas um in Unreal Engine. So it's very
+
+[00:26:26] critical that we get these systems
+
+[00:26:27] right. Thank you again for joining us in
+
+[00:26:29] the test and helping us stress test
+
+[00:26:31] these systems out because it's led to
+
+[00:26:33] improvements that should lead to more
+
+[00:26:35] enjoyable and um uh and stable gameplay
+
+[00:26:38] in the future. Um you know there's
+
+[00:26:41] there's uh some other notes here from
+
+[00:26:44] the engineering team. We we managed to
+
+[00:26:47] find several issues in our server
+
+[00:26:49] systems that led to slowdowns. That's
+
+[00:26:50] kind of what I was just referring to. A
+
+[00:26:53] lot of those have been fixed now. I
+
+[00:26:54] think just the simple fact that we were
+
+[00:26:57] able to identify specifically what they
+
+[00:26:58] are even if those things aren't solved
+
+[00:27:00] yet um is a big win and uh we've also
+
+[00:27:04] discovered some limitations with
+
+[00:27:05] external services that we were using to
+
+[00:27:08] uh to power our system. So a lot of what
+
+[00:27:11] we build uh is kind of the unfortunate
+
+[00:27:14] reality. A lot of what we build has to
+
+[00:27:16] be built entirely in-house as a custom
+
+[00:27:18] solution because nobody's done what
+
+[00:27:20] we've done what we're doing before. Um
+
+[00:27:23] uh to whatever extent possible. We do
+
+[00:27:25] try to leverage those external services
+
+[00:27:26] to help expedite the development process
+
+[00:27:29] itself. But um you can think of this as
+
+[00:27:32] a highly complex uh um machine here that
+
+[00:27:37] needs to be orchestrated beautifully.
+
+[00:27:39] And um and this this testing process has
+
+[00:27:44] allowed us to figure out where weak
+
+[00:27:46] points were and improve on those. So uh
+
+[00:27:48] o overall again big win for us on this
+
+[00:27:51] release. Hopefully people have enjoyed
+
+[00:27:53] the content and a lot more to come.
+
+[00:27:56] Yeah. And again we we wouldn't be able
+
+[00:27:58] to test all this and discover uh new
+
+[00:28:00] things and improve on our tech if it
+
+[00:28:02] wasn't for the Star Atlas community
+
+[00:28:05] helping to test all this. So thank you
+
+[00:28:08] everyone. Just wanted to to get that in
+
+[00:28:10] as well. Um, so yeah, Michael, I just
+
+[00:28:14] also another thing that I want to say is
+
+[00:28:15] uh I know I'm giving a lot of shout
+
+[00:28:18] outs, but I also wanted to give a shout
+
+[00:28:20] out to the builders who created programs
+
+[00:28:22] that help uh track escape velocity loot
+
+[00:28:25] and stats. U so shout out to school and
+
+[00:28:28] bones, tool so long from the unseen to
+
+[00:28:30] coexist and to Star Atlas Italia. Uh,
+
+[00:28:34] thank you guys for building uh products
+
+[00:28:36] that help the community and help Star
+
+[00:28:38] Atlas become um a bigger ecosystem. So,
+
+[00:28:42] and I'm sure I missed I'm missing a lot
+
+[00:28:44] of of projects here and of products. So,
+
+[00:28:48] I apologize if we if we missed anyone.
+
+[00:28:51] We really really appreciate you. And
+
+[00:28:55] anything else, Michael, before we
+
+[00:28:56] continue moving?
+
+[00:28:59] And that's not all Santi just back on
+
+[00:29:01] the surge event. Um, as I said, keep an
+
+[00:29:03] eye out for the announcement coming from
+
+[00:29:05] us. We have not one but two next week.
+
+[00:29:08] Two two Surge events next week. So,
+
+[00:29:10] everyone get excited.
+
+[00:29:12] Okay. Okay. There you have it. Michael
+
+[00:29:14] has a new role at Star Atlas. He's the
+
+[00:29:16] CL CLO, Chief League officer, and he's
+
+[00:29:21] officially assuming that role now. So,
+
+[00:29:23] congratulations, Michael. Live
+
+[00:29:25] promotion.
+
+[00:29:26] Is that a new role or is that one that
+
+[00:29:28] I've held since inception?
+
+[00:29:30] I think you had it forever, man. But now
+
+[00:29:32] we officialize it.
+
+[00:29:34] Okay, got it.
+
+[00:29:37] Cool. Uh, so Michael, we just learned
+
+[00:29:40] everything about the escape velocity,
+
+[00:29:42] uh, the success, some stats,
+
+[00:29:44] improvements, but uh, just for everyone
+
+[00:29:47] to be on the same page. Uh, what's
+
+[00:29:49] coming next in for Sage?
+
+[00:29:52] Right. So, the next gameplay uh
+
+[00:29:55] iterative release or or I guess a test
+
+[00:29:57] environment, I should probably position
+
+[00:29:59] it as is an extraction and crafting
+
+[00:30:02] loop. So, you'll see some considerable
+
+[00:30:04] improvement to um to the UI itself. Uh
+
+[00:30:09] but also the mechanics that you're
+
+[00:30:11] engaged in. I I know there is a question
+
+[00:30:14] out there in the community about whether
+
+[00:30:16] or not this is going to be using real
+
+[00:30:17] assets. And I just want to reassure
+
+[00:30:19] everyone that yes, this next version of
+
+[00:30:21] Sage will be using the fleet management
+
+[00:30:24] program. And so your ships that you own
+
+[00:30:26] are going to be usable in Sage. And in
+
+[00:30:29] fact, that will be the only way to
+
+[00:30:30] access um the the resource extraction
+
+[00:30:33] and crafting gameplay loop that's coming
+
+[00:30:35] next. This is also really exciting uh
+
+[00:30:38] for the econ team, for me in particular,
+
+[00:30:41] seeing the continuous evolution of the
+
+[00:30:43] economics in game and the ability now uh
+
+[00:30:46] uh very soon for users to start actively
+
+[00:30:50] engaging in uh in the crafting system
+
+[00:30:52] that leads to things like R4 as well as
+
+[00:30:56] um other uh resources that can be
+
+[00:30:58] refined. Um also would note here we are
+
+[00:31:02] tying this together with a separate loot
+
+[00:31:04] table. So, there will be ways to earn
+
+[00:31:06] loot from the next version uh coming out
+
+[00:31:09] from Sage as well, and that loot table
+
+[00:31:11] has largely been crafted, but it's going
+
+[00:31:14] to function different from Escape
+
+[00:31:16] Velocity. I I guess I would say this, I
+
+[00:31:19] probably shouldn't, but I I would say
+
+[00:31:20] that it's going to be more difficult. Uh
+
+[00:31:23] it's going to be more involved to earn
+
+[00:31:25] loot in the next version. So maybe take
+
+[00:31:27] advantage of escape velocity while it's
+
+[00:31:29] around. But um because it doesn't get
+
+[00:31:32] too much easier than uh than clicking a
+
+[00:31:34] scan function and and uh getting
+
+[00:31:36] yourself a nice ship. But I I think it's
+
+[00:31:38] going to be a lot more fun because um it
+
+[00:31:41] just pulls a lot more of the real gaming
+
+[00:31:43] dynamics into what Sage is ultimately
+
+[00:31:45] going to become. And um yeah, I'm I'm
+
+[00:31:49] really excited about sharing some of the
+
+[00:31:52] UI content. I don't think we're doing
+
+[00:31:53] any of that today. Are we Santi?
+
+[00:31:57] um for Sage. You said
+
+[00:31:58] yes. Yes. Putting you on the spot.
+
+[00:32:00] We don't we don't have any content for
+
+[00:32:02] Sage and no interest today.
+
+[00:32:04] Thank you for putting me on the spot
+
+[00:32:05] though. I appreciate it.
+
+[00:32:07] Well, I've seen it and it looks amazing
+
+[00:32:09] and really excited about getting it out.
+
+[00:32:10] You guys will all be seeing it soon. Um
+
+[00:32:12] I guess one of the biggest lifts for us
+
+[00:32:14] right now on the Sage side is making
+
+[00:32:16] sure we get the end toend communication
+
+[00:32:18] layer working. For people that have been
+
+[00:32:21] around, you've heard us talk about um
+
+[00:32:23] systems like Fuzzy Lemur, like Starcom.
+
+[00:32:26] That's the middleware MMO uh game server
+
+[00:32:29] layer. It connects the blockchain to our
+
+[00:32:31] frontends. So, making sure that those
+
+[00:32:33] systems are all functioning seamlessly,
+
+[00:32:35] they're performant, and we're able to um
+
+[00:32:38] uh manage scale of users in game is very
+
+[00:32:42] important. Um, I actually
+
+[00:32:46] I should have asked Mo about this
+
+[00:32:48] beforehand, but I I imagine in the next
+
+[00:32:51] release you're also going to see other
+
+[00:32:53] players on the map. So, in Escape
+
+[00:32:54] Velocity, you only see your ships,
+
+[00:32:56] although you can see based on the heat
+
+[00:32:58] map where other ships are, as well as
+
+[00:33:00] the visual indicator in the bottom right
+
+[00:33:02] of one of those sectors. But, um, you I
+
+[00:33:05] believe you'll be able to see everyone's
+
+[00:33:07] ships in this next version of Sage as
+
+[00:33:09] well. Um uh one one quick
+
+[00:33:14] uh uh two quick points here actually. So
+
+[00:33:17] one is that this is not a mining loop uh
+
+[00:33:20] as we define it. This is not uh mining
+
+[00:33:24] and crafting. This won't be using your
+
+[00:33:26] claim stakes. We still have faction
+
+[00:33:28] claims for that uh in terms of leaks. We
+
+[00:33:31] have a little change coming to that
+
+[00:33:33] that's going to be proposed as well. I
+
+[00:33:35] won't share too much more, but uh keep
+
+[00:33:38] your your eyes out. uh and your ears
+
+[00:33:41] open for an announcement from us very
+
+[00:33:43] soon about some changes to the R4
+
+[00:33:45] economy, but uh it doesn't use claim
+
+[00:33:49] stakes. You'll still be using faction
+
+[00:33:50] claims to produce R4. What this modal
+
+[00:33:54] gameplay is is what we call extraction
+
+[00:33:56] crafting, excuse me. And so ships are uh
+
+[00:33:59] you're actually using you're consuming
+
+[00:34:01] ammunition to destroy asteroids and
+
+[00:34:04] you're harvesting the materials from
+
+[00:34:05] those asteroids. And then you'll be
+
+[00:34:07] taking those materials using uh crafting
+
+[00:34:10] tables and um and through that process
+
+[00:34:14] creating these material these these
+
+[00:34:15] refined materials which again um uh
+
+[00:34:18] compound into your ability to do things
+
+[00:34:20] like uh earn loot through participation.
+
+[00:34:26] I kind of combined those two things into
+
+[00:34:27] one, but uh not using claim stakes and
+
+[00:34:30] that this is an extraction and crafting
+
+[00:34:32] loop.
+
+[00:34:34] Cool.
+
+[00:34:36] Uh I will let you get the sip of water
+
+[00:34:39] and tell everyone that the code for
+
+[00:34:42] silly um is sip of water 4 to6 guys. So
+
+[00:34:46] if you want to claim the XP, sip of
+
+[00:34:48] water 4 to6 is the code. Um,
+
+[00:34:51] I am
+
+[00:34:52] anything anything else, Michael? Shan
+
+[00:34:54] Sage,
+
+[00:34:54] I am furiously looking like Furiosa's
+
+[00:34:57] image there, which is the raccoon uh
+
+[00:35:00] guzzling that that that pint of water.
+
+[00:35:05] Oh man, cool, man. Anything else on Sage
+
+[00:35:09] before we continue?
+
+[00:35:10] That's it on Sage. Um, we do have some
+
+[00:35:13] exciting updates on the DAO here as
+
+[00:35:14] well. And then really the the the
+
+[00:35:18] highlight of the show I think as great
+
+[00:35:19] as all of these uh updates are highlight
+
+[00:35:22] of the show coming after that. So um
+
+[00:35:25] should we jump into some DAO content?
+
+[00:35:27] Let's do it Michael for sure.
+
+[00:35:28] Okay. And I do think we have um we have
+
+[00:35:31] an image here to share on the DAO. Is
+
+[00:35:34] that right?
+
+[00:35:34] Yeah. Let's put Dom on the spot. Let's
+
+[00:35:36] see if he's um Look at that. Fast.
+
+[00:35:41] Nice.
+
+[00:35:42] Beautiful. Uh thank you Dom. So what
+
+[00:35:45] we're sharing here is a bit of the
+
+[00:35:48] upcoming road map for how the DAO is
+
+[00:35:50] going to operate. Decentralized
+
+[00:35:52] autonomous organization. This is the
+
+[00:35:54] voice, the governance, the power to the
+
+[00:35:56] people of Star Atlas. Um this is highly
+
+[00:35:59] anticipated. People have been waiting
+
+[00:36:01] for um full DAO proposal and voting
+
+[00:36:04] functionality to come online. We
+
+[00:36:06] obviously have the pus locker there, the
+
+[00:36:08] Atlas locker there, both with their
+
+[00:36:10] individual economic benefits. um uh
+
+[00:36:13] whether that's through, you know,
+
+[00:36:14] earning tokens through participation or
+
+[00:36:16] discounts on marketplace fees, things of
+
+[00:36:18] that nature. But very excited to confirm
+
+[00:36:22] that the DAO is the very next release
+
+[00:36:25] after our upcoming release. Um so coming
+
+[00:36:29] soon, PM. Um but what I do want to
+
+[00:36:32] clarify here, and we've said this in the
+
+[00:36:35] past, but I just want to um reinforce
+
+[00:36:37] this again. The first version of the DAO
+
+[00:36:40] will be uh PIP one uh that's the polus
+
+[00:36:43] improvement proposal pip one will be
+
+[00:36:46] coming from the automata team will be
+
+[00:36:48] submitting that directly to the DAO and
+
+[00:36:51] through that process that is where we
+
+[00:36:53] engage in discourse conversation debate
+
+[00:36:57] and this outlines the framework uh of
+
+[00:37:00] how this decentralized governance system
+
+[00:37:03] will operate going into the future. It
+
+[00:37:06] it uh ratifies things like the Star
+
+[00:37:08] Atlas Foundation as the uh legal
+
+[00:37:12] jurisdictional representation
+
+[00:37:14] um acting on behalf of DAO participants
+
+[00:37:17] or polless stakeholders. It also
+
+[00:37:19] introduces the Star Atlas constitution
+
+[00:37:21] and again the framework for how things
+
+[00:37:23] should operate. Now what we believe is
+
+[00:37:25] that this conversation is going to take
+
+[00:37:27] some time. you know, this is effectively
+
+[00:37:30] the Declaration of Independence and um
+
+[00:37:34] and we need to bring everyone together
+
+[00:37:36] to get into consensus to get into
+
+[00:37:38] alignment on how we want this new form
+
+[00:37:40] of governance to operate. And so um
+
+[00:37:44] through what users will be able to do is
+
+[00:37:47] submit public comments. They'll be able
+
+[00:37:48] to respond to the to the proposal
+
+[00:37:51] itself. Um there will be live debate
+
+[00:37:53] sessions and then ultimately not right
+
+[00:37:56] away but going into the future as it
+
+[00:37:58] goes through this process of of approval
+
+[00:38:01] and ratification uh the onchain voting
+
+[00:38:04] mechanism will come online and it will
+
+[00:38:06] be based on your PVP your polus voting
+
+[00:38:08] power will determine your weight in the
+
+[00:38:11] vote on what gets approved what doesn't
+
+[00:38:13] get approved and how this thing operates
+
+[00:38:15] in the future after all of that once we
+
+[00:38:18] get through the initial PIP or PIPS If
+
+[00:38:21] there are um subcomponents to this then
+
+[00:38:25] the uh the the function of user
+
+[00:38:29] submitted proposals will come online. So
+
+[00:38:31] just want to state this emphatically.
+
+[00:38:33] You will not be able to submit your own
+
+[00:38:34] proposal at inception. It is us
+
+[00:38:38] submitting the proposal on behalf of the
+
+[00:38:40] DAO to open the discussion. User
+
+[00:38:43] generated proposals will come in the
+
+[00:38:45] future. Um, so I guess that's it on the
+
+[00:38:49] Dow, but it is coming. It is coming
+
+[00:38:50] soon. Again, you guys know we're not
+
+[00:38:52] sharing dates right at the moment, but
+
+[00:38:54] it is the very next release following,
+
+[00:38:58] and I don't want to spoil anything, but
+
+[00:38:59] following the conversation today.
+
+[00:39:01] Steady, steady, Michael. Keep it steady.
+
+[00:39:06] Um, but I'm super excited for the debate
+
+[00:39:08] sessions that we're going to hold. Uh,
+
+[00:39:10] that's going to be awesome. That's going
+
+[00:39:11] to be a lot of fun. And yeah, we're
+
+[00:39:14] shaping the future of the of the Star
+
+[00:39:16] Atlas. Now, as you said, Michael, a
+
+[00:39:18] declaration of independence. I think
+
+[00:39:20] that's that's incredible. Frame it like
+
+[00:39:22] that.
+
+[00:39:23] That's right.
+
+[00:39:25] Cool. Um, again, just asking just in
+
+[00:39:28] case, is there anything else, Michael,
+
+[00:39:30] here on the DA before we move to the
+
+[00:39:33] next uh topic?
+
+[00:39:36] Just uh just a big thank you to the to
+
+[00:39:39] the team over there as well, BCM, Mark
+
+[00:39:41] Jackson, Jeff Wagner, Nick Lopez. Um I'm
+
+[00:39:45] sorry if I'm missing anyone, but uh
+
+[00:39:47] team's been doing incredible work. I'm
+
+[00:39:49] I'm um extremely excited about the
+
+[00:39:52] progress that they've been making and
+
+[00:39:53] and uh yeah, great work to the DAO team.
+
+[00:39:57] I know this is really a critical piece
+
+[00:39:59] of infrastructure for the way that this
+
+[00:40:01] ecosystem will will operate not only in
+
+[00:40:03] the near future but in the uh um
+
+[00:40:06] perpetual future that we envision here
+
+[00:40:08] behind Star Atlas. So uh thanks again to
+
+[00:40:11] that team and yeah without further ado
+
+[00:40:13] Santi I think we move along in the
+
+[00:40:14] agenda.
+
+[00:40:16] Yeah let's move now we're moving to
+
+[00:40:18] showroom R 2.1 and UFI updates. That's
+
+[00:40:22] why we have Daniel on stage. But before
+
+[00:40:25] before we hop on the interview uh and
+
+[00:40:28] the talk with Denny, we have a really
+
+[00:40:31] really cool video that we want to show
+
+[00:40:33] you guys. So Dominic Bane, please
+
+[00:40:36] get hyped, guys. This is massive. This
+
+[00:40:39] is
+
+[00:41:05] heat.
+
+[00:41:07] Heat. Heat. N.
+
+[00:41:17] Heat. Heat.
+
+[00:42:18] Come
+
+[00:42:18] [Music]
+
+[00:42:26] [Music]
+
+[00:42:36] on.
+
+[00:42:42] Hey. Hey.
+
+[00:42:44] [Music]
+
+[00:43:00] Let's go.
+
+[00:43:02] Well,
+
+[00:43:03] it gives me the chills, Mike.
+
+[00:43:05] Yeah.
+
+[00:43:07] Uh before Danny starts, just a big thank
+
+[00:43:09] you to the to James and the Vert Paint
+
+[00:43:11] team as well for producing that. That
+
+[00:43:12] one came in hot in the last minute, but
+
+[00:43:17] man was it worth it.
+
+[00:43:19] Yeah, I'm going rogue and unmuting. I I
+
+[00:43:21] actually I actually almost cried when I
+
+[00:43:24] first saw this video. So,
+
+[00:43:27] absolute chills. Absolute chills. It's
+
+[00:43:29] uh it's incredible the quality. And that
+
+[00:43:32] was the Pierce X6, guys. Uh insane. Like
+
+[00:43:36] insane.
+
+[00:43:39] Uh, so I think that's the perfect way uh
+
+[00:43:42] to welcome our CPO, chief product
+
+[00:43:44] officer, uh, Danny Floyd to stage. How
+
+[00:43:48] are you doing, Danny?
+
+[00:43:50] Hey, thanks Die. Yeah, man. I'm still a
+
+[00:43:52] little taken back, too, because like
+
+[00:43:54] Mike said, we just got that video in
+
+[00:43:56] like just before this uh town hall, so
+
+[00:43:59] I'm kind of still in awe how cool it
+
+[00:44:01] looks.
+
+[00:44:03] It's incredible, Danny. Uh, it's
+
+[00:44:05] incredible. Uh any any comments you want
+
+[00:44:08] to make? That's that's in game, right?
+
+[00:44:10] Oh, yeah. Yeah, that's totally in game.
+
+[00:44:12] I forget about that question because
+
+[00:44:13] almost everything we've shown in like
+
+[00:44:16] feels like the past year has been all in
+
+[00:44:18] game. Um so it's like Yeah, that's what
+
+[00:44:21] we we show these days is it's all
+
+[00:44:23] totally in game. That's what it looks
+
+[00:44:24] like. Pretty awesome. Um, what's to me
+
+[00:44:29] what's so impressive is this is like
+
+[00:44:31] setting a new industry standard as far
+
+[00:44:34] as quality uh for like spaceships in
+
+[00:44:37] game. Uh, I don't know if anyone caught
+
+[00:44:40] the the Unreal Engine 5.2 stuff where
+
+[00:44:43] they showed the Rivian like how they
+
+[00:44:45] built that Rivian truck. It's like 70
+
+[00:44:48] million polies, right? It's like, oh,
+
+[00:44:50] we're doing that for for spaceships,
+
+[00:44:53] which is even cooler. But I mean, yeah,
+
+[00:44:55] it's it's it's the new kind of industry
+
+[00:44:57] standard and Unreal Engine 5 gives us
+
+[00:45:00] that gives us the tools to do that. And
+
+[00:45:02] and like Mike said, yeah, shout out to
+
+[00:45:05] to Vert Paint. They put a lot of work
+
+[00:45:07] into this ship. It's been kind of like
+
+[00:45:10] our ship to push the the fidelity as far
+
+[00:45:14] as we possibly can using every single
+
+[00:45:16] trick that we possibly can out of this
+
+[00:45:18] engine. And it shows. I mean, I don't
+
+[00:45:21] even have to talk about it. Just watch
+
+[00:45:22] the video.
+
+[00:45:24] It's amazing.
+
+[00:45:24] Yeah. Amazing. Amazing. Thank you for
+
+[00:45:27] for sharing the video, Danny, for giving
+
+[00:45:29] us
+
+[00:45:30] um the chance to shed here in the town
+
+[00:45:32] hall. And guys in the audience, if you
+
+[00:45:34] want to check it out again, it's on
+
+[00:45:35] Twitter now. Um so make sure I just
+
+[00:45:38] posted the link in the Atlas
+
+[00:45:40] Amphitheater chat. Make sure to go give
+
+[00:45:42] it some love, some retweets. Uh it's
+
+[00:45:45] it's crazy. So I just posted the link in
+
+[00:45:48] case you want to see that again. Um, but
+
+[00:45:50] yeah,
+
+[00:45:52] Danny, Danny, Danny, I'm happy to have
+
+[00:45:54] you on stage. I think I said this like
+
+[00:45:56] 10 times, but it's good to have you.
+
+[00:45:58] It's Yeah,
+
+[00:45:59] Santi, can I interrupt just really
+
+[00:46:00] quickly? The
+
+[00:46:02] I I never ask this, but the Star Atlas
+
+[00:46:05] uh Twitter just posted this video, too.
+
+[00:46:07] I'm just going to request, guys, help us
+
+[00:46:10] share that that tweet. If you have
+
+[00:46:12] Twitter, post this out there. Like Danny
+
+[00:46:14] said, this is driving the standards in
+
+[00:46:16] game in the games industry. So, please
+
+[00:46:18] help us share that content. Anyway, back
+
+[00:46:21] to you, Santi. Back to you, Tom.
+
+[00:46:24] Thank you, Michael. Yeah. Uh, we just
+
+[00:46:26] posted the link again in the Atlas
+
+[00:46:28] Amphitheater. So, go give it a retweet,
+
+[00:46:31] guys. Some love, some comments, likes. I
+
+[00:46:33] think it deserves it. You can tell
+
+[00:46:35] there's a lot of effort behind that. Um,
+
+[00:46:37] so yeah. And Danny, this is not the only
+
+[00:46:42] good news that you have for us today,
+
+[00:46:44] right? How about we we share the other
+
+[00:46:45] news now? Oh yeah, sure. So, cool thing
+
+[00:46:50] for next week. We plan to release
+
+[00:46:53] showroom R2.1 on June 1st. So, we're
+
+[00:46:59] just cranking right now, crunching. The
+
+[00:47:02] whole team's scrunching to get, you
+
+[00:47:03] know, wrapping up a few little bugs here
+
+[00:47:05] and there, but small things. Um, yeah,
+
+[00:47:08] having fun playing it internally. But,
+
+[00:47:11] uh, to me, this is kind of like, um, a
+
+[00:47:14] snapshot in development of where we're
+
+[00:47:16] at. We actually had to cut out some
+
+[00:47:18] things, but there's a lot of the things
+
+[00:47:20] that we've been working on and and keep
+
+[00:47:22] being a little,
+
+[00:47:24] you know, quiet about, but, you know,
+
+[00:47:26] it's time to come out and and let
+
+[00:47:27] everyone else jump in and and take part
+
+[00:47:30] in the development. I think that's one
+
+[00:47:31] of the fun parts of of developing with
+
+[00:47:33] this community is now this release gets
+
+[00:47:36] you all the ability to kind of see what
+
+[00:47:38] we've been working on. Get a peek behind
+
+[00:47:40] the curtain. Even though I try not to
+
+[00:47:42] have too much of a curtain, but you
+
+[00:47:44] know, it's a game, so we want things to
+
+[00:47:45] be fun and and have some surprises, but
+
+[00:47:48] but also to reassure everyone that we're
+
+[00:47:51] working incredibly hard.
+
+[00:47:54] Yeah. Awesome, man. Awesome. So, we have
+
+[00:47:57] a date, guys. Uh the team is going
+
+[00:47:59] through uh trying to fix some bugs and
+
+[00:48:02] label changes as we speak, but it's uh
+
+[00:48:06] June 1st, guys. You heard it here first
+
+[00:48:08] on the town hall. So,
+
+[00:48:10] Yep.
+
+[00:48:11] Yeah. And Danny, let's uh what if we do
+
+[00:48:14] like a quick recap on what people can
+
+[00:48:16] expect from our 2.1. Uh we have a couple
+
+[00:48:19] videos here as well.
+
+[00:48:21] Yeah. I don't know how quick it'll be.
+
+[00:48:22] There's a lot of stuff here, but um
+
+[00:48:24] yeah,
+
+[00:48:26] I'll just start from the top. We got a
+
+[00:48:27] lot of stuff going. Um, so one of the
+
+[00:48:30] biggest things, and we still have to
+
+[00:48:33] remember this is, like I said, it's a
+
+[00:48:35] snapshot of development. There's still
+
+[00:48:37] optimization coming, but uh, uh, a lot
+
+[00:48:40] of stuff is very playable and so we want
+
+[00:48:43] to get into your hands. We still don't
+
+[00:48:45] have the full multiplayer back end, so
+
+[00:48:47] it's still like P2P as it was before.
+
+[00:48:50] There were some enhancements there, but
+
+[00:48:51] uh, just to manage expectations, there's
+
+[00:48:54] there's still a lot you can do. And even
+
+[00:48:56] even so, um, and one of the biggest
+
+[00:48:59] things is now every ship that's on the
+
+[00:49:02] marketplace is flyable and shootable.
+
+[00:49:05] And so that means you can get in and fly
+
+[00:49:07] your ships if you own anything. Um,
+
+[00:49:10] yeah. Yeah. There's like 49 ships. And
+
+[00:49:13] so like the last update we had three and
+
+[00:49:15] so now we're going with 49. And yes,
+
+[00:49:18] every single ship that's on the
+
+[00:49:20] marketplace. Um, so as I said, like some
+
+[00:49:23] of this stuff is work in progress. You
+
+[00:49:25] can see like the clay uh material on the
+
+[00:49:28] envoy, for example. Yeah. Hop in.
+
+[00:49:31] There's a brand new HUD as you can see.
+
+[00:49:34] Um I don't know if you're shooting in
+
+[00:49:35] this video, but yeah, you can see your
+
+[00:49:37] your load out there in the bottom left.
+
+[00:49:39] The um the weapons that you've got on
+
+[00:49:42] for this default configuration.
+
+[00:49:45] Um
+
+[00:49:47] and and yeah, it's
+
+[00:49:49] that's feeling good. It's looking
+
+[00:49:51] awesome. We totally reworked the physics
+
+[00:49:55] of uh flight. Oh, you saw some
+
+[00:49:57] jetpacking too.
+
+[00:49:59] We spoiled the jetpack already.
+
+[00:50:02] We got some um yeah, the flight has
+
+[00:50:04] totally changed. We refined a lot of the
+
+[00:50:06] cameras. There's still tiny little
+
+[00:50:08] things you all noticed, but there's we
+
+[00:50:10] want to get it out. We don't want to
+
+[00:50:12] like hold back every single thing. So,
+
+[00:50:14] uh happy to help or h have your help in
+
+[00:50:17] getting feedback on all the little
+
+[00:50:18] things that uh will make things fun. Um,
+
+[00:50:22] and there's one more thing I want to say
+
+[00:50:24] about that, but that's all right. We can
+
+[00:50:25] move on to the next one. Um,
+
+[00:50:27] yeah, Danny, just a just a quick recap
+
+[00:50:29] here. Uh, you said 49 ships uh playable,
+
+[00:50:33] right?
+
+[00:50:34] Yeah. Yeah, that means everything. Um,
+
+[00:50:37] if you're asking about individual ships,
+
+[00:50:38] it's a yes. Uh, that there will be three
+
+[00:50:42] very big ones that probably won't be
+
+[00:50:44] flyable because nobody owns them. Um,
+
+[00:50:48] but they are technically flyable if if
+
+[00:50:50] someone were to purchase it.
+
+[00:50:52] Yeah.
+
+[00:50:54] Are we accepting Are we accepting offers
+
+[00:50:56] for Titans right now? Is that what
+
+[00:50:57] you're implying?
+
+[00:50:58] I'm just saying it's playable in game
+
+[00:51:00] now. So,
+
+[00:51:02] wait, wait, wait. So, the Titans are
+
+[00:51:03] playable in game right now if if if
+
+[00:51:06] someone owned one.
+
+[00:51:07] Yeah, I was just flying the Super
+
+[00:51:09] Phoenix yesterday and it's just
+
+[00:51:10] encompassing the entire showroom. Was
+
+[00:51:12] hilarious. Um, the C11 is Yes. Yes. Yes.
+
+[00:51:16] I've seen that question a few times
+
+[00:51:19] and it's a beast. Tank ship is a beast,
+
+[00:51:21] too. Like crazy.
+
+[00:51:24] But I don't want to spoil too much.
+
+[00:51:25] Yeah.
+
+[00:51:26] Yeah. And the video we saw is the Amway.
+
+[00:51:28] We were flying the the Amway. And just
+
+[00:51:30] to clarify again, like some of them are
+
+[00:51:33] in in clay state, right?
+
+[00:51:35] Notable.
+
+[00:51:37] Several of them that have like more
+
+[00:51:38] final looking materials and textures.
+
+[00:51:41] You saw like the X6. So there's there's
+
+[00:51:43] several of those that look almost final.
+
+[00:51:47] Um and and the rest we you know this is
+
+[00:51:50] something I was going to get into later,
+
+[00:51:51] but we we laying the groundwork for for
+
+[00:51:54] ships and their flight models. And so
+
+[00:51:57] once we had that to a certain point, now
+
+[00:51:59] we can just quickly add in all the ships
+
+[00:52:01] and and every ship has got blockout
+
+[00:52:04] models and that's how we did some of the
+
+[00:52:05] concepts and stuff. So we can bring
+
+[00:52:07] those in. They're not optimized, but
+
+[00:52:10] switching them on to Nani, even though
+
+[00:52:12] they're like, you know, 10 million
+
+[00:52:13] polies, it's not the cleanest geometry.
+
+[00:52:15] We can still use that model as a
+
+[00:52:17] placeholder and people can actually fly
+
+[00:52:19] their ships and shoot each other
+
+[00:52:22] actually.
+
+[00:52:22] Awesome. Awesome. And just for the
+
+[00:52:25] community, I want to give we keep giving
+
+[00:52:28] shoutouts, but people in the team
+
+[00:52:29] deserve it. So, I wanted to give a huge
+
+[00:52:31] huge shout out to Chip. Chip and the
+
+[00:52:34] team. So, if we can get some W's in the
+
+[00:52:35] chat for Chip. They have been working
+
+[00:52:38] really, really hard to get this ships to
+
+[00:52:40] be flyable for everyone. So, uh, some
+
+[00:52:44] W's, guys, for Chip. Chip and the and
+
+[00:52:46] the team. It's been massive, massive
+
+[00:52:48] progress.
+
+[00:52:49] Chip won't even play Destiny with me
+
+[00:52:51] over the weekend because he's too busy
+
+[00:52:53] working on the game.
+
+[00:52:55] And by the way, I I just want to
+
+[00:52:56] comment. It's not that he's forced to.
+
+[00:52:58] He's like, "No, I'm having too much fun
+
+[00:53:00] working on the game right now, so I'm
+
+[00:53:01] just going to spend time on my weekend
+
+[00:53:03] doing that.
+
+[00:53:04] Yeah, dude. It's a blast. Yeah. Putting
+
+[00:53:06] in this much effort and we're at the
+
+[00:53:08] point now where you put in a little
+
+[00:53:10] effort and you see this big win in game.
+
+[00:53:11] It's just it's totally rewarding to to
+
+[00:53:14] keep adding to the project.
+
+[00:53:17] Yeah. Yeah.
+
+[00:53:19] Um so yeah, and and the next point, like
+
+[00:53:21] you said, you already kind of blew it in
+
+[00:53:23] the first video, but jetpacks are in in
+
+[00:53:26] the base tier of Jet Jetack. So So it's
+
+[00:53:29] just a foot thruster. See? Um, and it's
+
+[00:53:33] still a little placeholder VFX, but you
+
+[00:53:36] can see the blends in between the
+
+[00:53:37] motions.
+
+[00:53:39] Really refined now, and it's feeling
+
+[00:53:41] great. It's very responsive. Um,
+
+[00:53:45] um, yeah, I can't wait for you guys to
+
+[00:53:47] play it. Actually, it totally changes
+
+[00:53:49] the feel of the showroom. It adds a new
+
+[00:53:52] dimension. It adds like better pacing.
+
+[00:53:55] Uh, here's another fun moment. I'll let
+
+[00:53:58] the video play.
+
+[00:54:04] So, so that was one of the one of the
+
+[00:54:08] reasons to for getting jetpacks in here
+
+[00:54:10] is like say, hey, you're flying a ship
+
+[00:54:12] around and you get booted for some
+
+[00:54:14] reason. You get blasted out, you fall
+
+[00:54:15] out, whatever. You got to get back up to
+
+[00:54:17] it. The jetpacks are one way that you
+
+[00:54:19] don't just get stranded, got to go get
+
+[00:54:21] another ship or something like that. Um,
+
+[00:54:24] these ships are also massive. like try
+
+[00:54:27] bringing a Thrip onto a large pad and
+
+[00:54:29] then you you got to walk all the way to
+
+[00:54:31] the uh to the ramp. So now you just
+
+[00:54:34] boost on over. It makes things so much
+
+[00:54:36] quicker. Um
+
+[00:54:39] and like I said, this is the base tier.
+
+[00:54:40] So we got the the foot thrusters and
+
+[00:54:43] then later on when we have like some
+
+[00:54:45] character progression and upgrading your
+
+[00:54:47] character, we'll have additional
+
+[00:54:48] upgrades that add like hand thrusters
+
+[00:54:50] and it's it's an extra boost to it. um
+
+[00:54:54] and cosmetics and fun things. So, that's
+
+[00:54:57] all coming. But again, I can't wait for
+
+[00:54:59] everyone to get their hands on it
+
+[00:55:00] because this is like really fun.
+
+[00:55:02] Yeah. Danny, just a quick quick comment
+
+[00:55:04] on the the stamina. I don't know if we
+
+[00:55:06] pointed that out at the bottom, but uh
+
+[00:55:08] you don't have infinite jetpack,
+
+[00:55:10] right? Yeah. So, it's it's
+
+[00:55:13] working on Splitgate for so long and
+
+[00:55:15] having the jetpack always there. I got
+
+[00:55:17] so used to it. So, the mechanics
+
+[00:55:19] actually feel fairly similar for a
+
+[00:55:21] reason because it it it really was
+
+[00:55:23] fine-tuned to perfection, I feel. Um,
+
+[00:55:26] and there's that that bar there which
+
+[00:55:28] helps you to it becomes more skill-based
+
+[00:55:31] like landing your spot, you know, you'll
+
+[00:55:35] feel but but that's part of the upgrade
+
+[00:55:37] too. So, like if you have like a higher
+
+[00:55:39] tier foot thruster, a higher tier hand
+
+[00:55:41] thruster, the stamina grows. Um, and
+
+[00:55:45] then a note with fall damage. These are
+
+[00:55:47] smart thrusters, too. So, it it'll sense
+
+[00:55:49] if you reach the ground too quickly, and
+
+[00:55:52] it'll do a little boost with your exo
+
+[00:55:53] suit on, and it saves you from fall
+
+[00:55:55] damage. So, uh, future magic.
+
+[00:56:01] Really nice.
+
+[00:56:03] In the future, do we all land on our
+
+[00:56:04] feet like cats?
+
+[00:56:06] I mean, yeah, sure.
+
+[00:56:10] Can we take some time to appreciate the
+
+[00:56:12] ballad? how beautiful Dalad is. What a
+
+[00:56:14] ship. What a ship. It's a community
+
+[00:56:17] favorite as well.
+
+[00:56:18] You get a nice view of how big the the
+
+[00:56:21] map has gotten to from that from that
+
+[00:56:23] angle. And it's actually really fun to
+
+[00:56:26] fly around and find all the different
+
+[00:56:28] areas you can go now. But uh that's one
+
+[00:56:30] of the fun things to discover in this
+
+[00:56:32] release. Um,
+
+[00:56:35] we didn't um we didn't get a we didn't
+
+[00:56:38] prioritize Kotas or Hosas for this
+
+[00:56:41] release, but Gamepad um has got a lot of
+
+[00:56:44] love. So, um it's still technically
+
+[00:56:48] doable, but we didn't we didn't put it
+
+[00:56:51] in yet official support.
+
+[00:56:55] Cool.
+
+[00:56:56] Yeah,
+
+[00:56:56] let's move to some next update.
+
+[00:57:00] Yeah. So, so the next one, talk about
+
+[00:57:02] the train station really quick. I know
+
+[00:57:03] it seems like kind of like an ancillary
+
+[00:57:05] feature with the train station, but it's
+
+[00:57:07] going to be absolutely necessary when we
+
+[00:57:08] do like proper multiplayer. Uh we don't
+
+[00:57:11] want people to just be spawning in
+
+[00:57:13] randomly just appearing out of nowhere
+
+[00:57:16] uh when joining these like mass these
+
+[00:57:18] these instances with a lot of people in
+
+[00:57:20] them. Um, and so the train serves a
+
+[00:57:23] purpose where say if you're sitting at
+
+[00:57:25] the arrival station and then the train
+
+[00:57:27] like zips off to you, that would be an
+
+[00:57:30] indicator, hey, somebody's coming in. So
+
+[00:57:32] what you'll do is you'll queue in in the
+
+[00:57:34] lobby and that means you're joining a
+
+[00:57:38] train. So when when you hop in the train
+
+[00:57:39] in multiplayer, eventually you'll be
+
+[00:57:42] taken through the the the the track and
+
+[00:57:44] get to the showroom. Um, and then what's
+
+[00:57:48] cool about too is you can open the door.
+
+[00:57:50] um while it's traveling and just hop out
+
+[00:57:52] and jetpack if you if you want to pick a
+
+[00:57:55] specific place, you know, the pros know
+
+[00:57:57] where they're going. You don't have to
+
+[00:57:58] just sit and wait for the train to
+
+[00:57:59] finish. Um and then
+
+[00:58:03] uh
+
+[00:58:05] since it's not totally functional in
+
+[00:58:06] this release, we're still we still have
+
+[00:58:08] it in there and it's like just a little
+
+[00:58:10] quick ride that you'll be able to play
+
+[00:58:12] on. So go ahead and like test it out.
+
+[00:58:15] Uh, you can open the doors and start it
+
+[00:58:17] and and and ride it to the the origin in
+
+[00:58:22] the tunnel and then come back. And it's
+
+[00:58:25] actually an experience all its own
+
+[00:58:26] because of how big this map is and all
+
+[00:58:29] the the the major volumes that you see
+
+[00:58:31] like there's some like crowd stands and
+
+[00:58:34] these these big like cliff walls now and
+
+[00:58:38] just watching that go by it's kind of
+
+[00:58:41] jaw-dropping. It's really fun
+
+[00:58:42] experience. So even for that, like we we
+
+[00:58:45] kept it in here just so people can test
+
+[00:58:47] it even before it's totally functional.
+
+[00:58:50] So have fun with that.
+
+[00:58:52] Um and next item is the photographer
+
+[00:58:56] career. So this one's an interesting
+
+[00:58:57] thing because it's technically the first
+
+[00:59:01] onchain career path. It's not actually
+
+[00:59:04] like onchain um like immediate rewards,
+
+[00:59:08] but I I'll explain how it's going to
+
+[00:59:10] work. So the philosophy behind the game,
+
+[00:59:15] all our products, is like if you put in
+
+[00:59:17] energy, we want you to capture that
+
+[00:59:19] energy and own it in some way. And we've
+
+[00:59:22] already built some mechanics. So walking
+
+[00:59:25] around, for example, we could at some
+
+[00:59:27] point, you know, whatever you're looking
+
+[00:59:29] at, we can give you somebody can offer
+
+[00:59:31] you money to look at something. That's
+
+[00:59:33] an energy that someone's putting into
+
+[00:59:35] the game. With photo mode, we already
+
+[00:59:38] have that working. It's a it's it's a
+
+[00:59:40] time drain. You know, people like it,
+
+[00:59:42] but it's a time drain. So, how do we
+
+[00:59:45] capture that energy that you put into
+
+[00:59:47] it? So, with photographer career, what
+
+[00:59:50] we're doing is like if you go into your
+
+[00:59:51] photo gallery now, you'll be able to
+
+[00:59:53] publish and directly from the game and
+
+[00:59:56] it'll publish into a a forum on the
+
+[00:59:59] community Discord. And so, we'll have
+
+[01:00:01] like uh once a month or once every two
+
+[01:00:04] weeks, I don't know if we figured it out
+
+[01:00:05] yet, a competition. Um, so whoever is
+
+[01:00:09] the winner of that competition, it'll
+
+[01:00:11] post your your public address and it
+
+[01:00:14] it's it won't post your name. It just
+
+[01:00:17] post your public address and your photo.
+
+[01:00:19] People will upvote it and then once a
+
+[01:00:21] month we'll we'll mint uh that as a
+
+[01:00:24] poster and send it to that wallet
+
+[01:00:26] address.
+
+[01:00:28] So, no middleman there. We just send
+
+[01:00:30] send you all the inventory and you can
+
+[01:00:31] do whatever you want with it. Don't have
+
+[01:00:33] to sell it, put it on the marketplace,
+
+[01:00:34] whatever. Um, but that would be the
+
+[01:00:37] onchain reward. So, that's a cool step.
+
+[01:00:40] It's the first um onchain thing that
+
+[01:00:42] we're doing in Unreal. So, it's pretty
+
+[01:00:44] cool.
+
+[01:00:45] Awesome. Awesome.
+
+[01:00:46] Um,
+
+[01:00:47] and uh, next is the u the ground racing.
+
+[01:00:52] So, ground racing is only working like
+
+[01:00:54] as a single player kind of thing right
+
+[01:00:56] now with a leaderboard same as before.
+
+[01:00:58] But, I said we we've totally reworked
+
+[01:01:01] the physics of like hover mode and it's
+
+[01:01:03] really fun. Um, and it's the the the
+
+[01:01:08] racetrack is is pretty huge. Um, there's
+
+[01:01:11] a lot of things that play in it. So,
+
+[01:01:13] yeah, have fun playing with that,
+
+[01:01:15] getting some leaderboard. Um, I think it
+
+[01:01:17] the the gate support up to um extra
+
+[01:01:21] small ships. So, like uh lobies and X4
+
+[01:01:25] um ships in those class can can run
+
+[01:01:27] through the gates um in any anything
+
+[01:01:30] with hover mode. Nice. I heard Danny
+
+[01:01:34] that you really like the Loi, right?
+
+[01:01:36] Oh, the Loy's come along so great. I
+
+[01:01:38] think it's one of our iconic ships. Um,
+
+[01:01:41] you'll see because it's like it's kind
+
+[01:01:43] of like the fun of fly uh of of having
+
+[01:01:45] like a muscle car. Um, but you're flying
+
+[01:01:48] and you got guns and sounds crunchy and
+
+[01:01:52] it's got this cool like uh cockpit where
+
+[01:01:56] it just looks like you're driving a car.
+
+[01:01:58] It's It's really cool. I think people
+
+[01:01:59] are going to really like it. Um, yeah,
+
+[01:02:02] it's a beautiful it's a beautiful show.
+
+[01:02:04] Nice. Nice.
+
+[01:02:06] But, uh, but yeah, the experience just
+
+[01:02:08] playing the race is is totally different
+
+[01:02:10] than what we've had before. We also have
+
+[01:02:12] a a new air track, the the current air
+
+[01:02:14] track or the Yeah, the one in R2 in the
+
+[01:02:17] showroom has been changed to fit the new
+
+[01:02:20] landscape, and that's really fun, too.
+
+[01:02:22] So, yeah, have fun with the new races.
+
+[01:02:25] Um, and then the dog fighting arena has
+
+[01:02:29] been completely
+
+[01:02:31] changed. Uh, big improvement there
+
+[01:02:34] visually. And, uh, with the new HUD and
+
+[01:02:37] the
+
+[01:02:37] this is the old one we're showing,
+
+[01:02:39] right, Danny? It's just
+
+[01:02:41] before after. You can see the massive
+
+[01:02:44] change. Um, so
+
+[01:02:49] another big change about this. You see
+
+[01:02:50] all the landing pads? those are
+
+[01:02:52] functional and you can bring up any of
+
+[01:02:54] the ships that fit on it um into the dog
+
+[01:02:58] fight and play the dog fight waves with
+
+[01:03:03] um with any of those ships. So
+
+[01:03:06] this is unfair. So people who have got
+
+[01:03:09] like the bigger ships with stronger
+
+[01:03:11] firepower will have an advantage. Sure.
+
+[01:03:14] But uh we wanted to also apply that as
+
+[01:03:18] like a way to test the different ships
+
+[01:03:19] like what becomes the meta and what are
+
+[01:03:21] people like using and and having fun
+
+[01:03:23] with. Um and so that's all that's all
+
+[01:03:26] part of the design. So so don't worry if
+
+[01:03:28] you can't compete with like an airbike
+
+[01:03:30] versus a Omboy or or Herb or something
+
+[01:03:33] like that, you know. So um we want to
+
+[01:03:36] gather those numbers. But anyway, it's
+
+[01:03:39] pretty it's a pretty map now. Uh, new
+
+[01:03:42] lighting, new set. Everything's brand
+
+[01:03:44] new. It's It looks great. Uh, and these
+
+[01:03:47] landing pads, this uh you can kind of
+
+[01:03:49] see everywhere. It's like this Armstrong
+
+[01:03:52] environment environment set. Um, and
+
+[01:03:55] these are modular, so we can put them
+
+[01:03:58] anywhere. Um, add as many pads as we
+
+[01:04:00] want and different sizes um that we
+
+[01:04:03] want. So, and and a quick look at the
+
+[01:04:06] the current state of the C9. Um,
+
+[01:04:10] it's it's still changing obviously, but
+
+[01:04:13] looks really cool to see it uh in scene
+
+[01:04:16] there. So, we just left it.
+
+[01:04:18] Uh, okay, cool. And then obviously the
+
+[01:04:20] the race has been updated for that same
+
+[01:04:23] level.
+
+[01:04:25] Um, next is the marketplace in
+
+[01:04:27] integration. Now,
+
+[01:04:30] uh have all the functionality of the web
+
+[01:04:34] marketplace. We we did filter it so just
+
+[01:04:36] ships, but now you can do everything
+
+[01:04:38] right there in Unreal. It works great.
+
+[01:04:42] Um, and it's a pretty big innovation for
+
+[01:04:47] Unreal based games. They have this like
+
+[01:04:49] total web 3 onchain marketplace. So, buy
+
+[01:04:51] and sell, check your orders, and you can
+
+[01:04:54] um
+
+[01:04:56] uh activate it anytime. you just hit I
+
+[01:04:58] uh it goes to an inventory tab so it's
+
+[01:05:00] filtered by what you own but it it has
+
+[01:05:02] all the same functionality of of the
+
+[01:05:04] marketplace. So then just tab over to
+
+[01:05:05] marketplace and yeah it's awesome. It's
+
+[01:05:08] all native in in UE5. A lot of work's
+
+[01:05:10] been put into that and uh totally
+
+[01:05:14] integrated now and it's beautiful. I I
+
+[01:05:17] think what not not even because it's
+
+[01:05:18] like web 3, but it's one of the most
+
+[01:05:20] beautiful in-game
+
+[01:05:22] stores I've ever seen. Yeah. So looking
+
+[01:05:26] forward to that. And
+
+[01:05:28] someone just just commented it and just
+
+[01:05:30] made me think. This is uh it was uh VB
+
+[01:05:34] said Salana market in UE5. This is the
+
+[01:05:37] another first, right? World's first
+
+[01:05:39] Oh yeah.
+
+[01:05:40] marketplace integration into Unreal
+
+[01:05:42] Engine 5.
+
+[01:05:43] Yeah. And it's it's beefy. There's a lot
+
+[01:05:45] of stuff in it. Um team has done a great
+
+[01:05:48] job.
+
+[01:05:50] Um and then just a few more points. Um
+
+[01:05:53] the and now when you go into the main
+
+[01:05:56] menu, you not only be able to change
+
+[01:05:57] your character, but you'll be able to
+
+[01:05:59] change your ship. So you'll see um not
+
+[01:06:02] all the ships because not all ships look
+
+[01:06:03] great right now. So we're just kind of
+
+[01:06:04] showing the really nice ones. So if your
+
+[01:06:07] wallet's connected and then you you can
+
+[01:06:08] see the ships to choose from and they'll
+
+[01:06:10] set up in your in your background there.
+
+[01:06:12] Um that also uh applies to like right
+
+[01:06:15] now when you select a character and
+
+[01:06:16] that's the character you play in the
+
+[01:06:18] game. Um so for stuff like dogfight. Um,
+
+[01:06:21] so you set up the ship and your
+
+[01:06:23] character and then you jump into dog
+
+[01:06:25] fight or race or any any future game
+
+[01:06:28] modes that we do where you want a ship
+
+[01:06:29] to just be right there. Um, you're able
+
+[01:06:32] to set it as your default ship and it's
+
+[01:06:34] a cool little like, you know, lobby for
+
+[01:06:36] yourself and eventually be expanded. Um,
+
+[01:06:41] yeah. So, those are those are a lot of
+
+[01:06:43] the big fun things. Um there are other
+
+[01:06:45] things that I wanted to leave uh private
+
+[01:06:49] that um
+
+[01:06:52] um don't want to mention now but u just
+
+[01:06:55] in general too that we've been working
+
+[01:06:57] we have the LSS3 now in there so any
+
+[01:06:59] within um Nvidia card will see some
+
+[01:07:02] boost there um it's working actually
+
+[01:07:05] really nice I like it um yeah we did
+
+[01:07:09] general optimizations like uh material
+
+[01:07:11] libraries the hlot systems now help with
+
+[01:07:14] the world partition map. So, it's like
+
+[01:07:17] more of these like we had to convert the
+
+[01:07:20] showroom to world partition and and and
+
+[01:07:23] now that allows like streaming of these
+
+[01:07:25] big levels, it allows us to grow the
+
+[01:07:27] level much much bigger. Um, because it's
+
+[01:07:32] all streaming open world, like I said,
+
+[01:07:33] go like 88 kilometers squared now. Um,
+
+[01:07:38] so that'll definitely support the entire
+
+[01:07:40] MUD CSS at some point. Um and uh and uh
+
+[01:07:46] and yeah so so there are things we are
+
+[01:07:50] hiding behind experimental mode. So when
+
+[01:07:52] you when you jump in now you'll see an
+
+[01:07:55] experimental mode toggle. So that will
+
+[01:07:57] open up some maps that aren't done uh
+
+[01:08:00] but we want to get feedback from the
+
+[01:08:02] community. um some modes that aren't
+
+[01:08:05] totally done, but we want to again get
+
+[01:08:07] feedback from the community and and and
+
+[01:08:10] let people see what we see and to play
+
+[01:08:13] around. And so now we have the
+
+[01:08:15] flexibility to just dump a bunch of cool
+
+[01:08:17] stuff um uh behind experimental mode. Um
+
+[01:08:22] and so that also prevents people from
+
+[01:08:25] just coming in without any education.
+
+[01:08:27] They don't click experimental mode.
+
+[01:08:29] they'll be able to see the more nicer
+
+[01:08:31] like polishes polished things. Um, so I
+
+[01:08:34] feel like the community here will will
+
+[01:08:37] want to see experimental mode, but it's
+
+[01:08:39] an optin.
+
+[01:08:41] Uh, yeah, that's kind of all the
+
+[01:08:45] the big things. Um, there's still big
+
+[01:08:48] things that you'll you'll all see. We'll
+
+[01:08:51] uh next week when
+
+[01:08:52] Yeah, Danny. Um, I wanted to tease a
+
+[01:08:55] little bit with that guys. There are
+
+[01:08:57] surprises as well that we're not
+
+[01:08:59] mentioning here that we we just don't
+
+[01:09:02] want to spoil everything for everyone,
+
+[01:09:04] you know. Let me test a little bit here.
+
+[01:09:06] There are surprises, guys, that you
+
+[01:09:08] literally don't even expect that are
+
+[01:09:11] coming with 2.1. But that that's all I'm
+
+[01:09:13] going to say. That's all I'm going to
+
+[01:09:14] say.
+
+[01:09:16] Cool. Danny, uh, anything else before
+
+[01:09:19] moving to next question, Danny?
+
+[01:09:21] Uh, no. I don't think so. There's so
+
+[01:09:24] much I want to say about those things
+
+[01:09:25] and I I wish I could but it's hard. I'll
+
+[01:09:28] keep my I'll keep my tongue tight.
+
+[01:09:31] Sounds good. Sounds good. Um so Daddy,
+
+[01:09:34] now um a question that I have uh for you
+
+[01:09:38] is uh what are some of the foundational
+
+[01:09:41] changes that we have made inside the U5
+
+[01:09:43] game uh that will actually help to build
+
+[01:09:46] into the future that will help improve
+
+[01:09:49] overall?
+
+[01:09:50] Yeah. So first thing is the gas system
+
+[01:09:54] and we kind of mentioned it before. We a
+
+[01:09:57] lot of the work in the this year has
+
+[01:09:59] been converting stuff from the previous
+
+[01:10:01] year into a more scalable system and and
+
+[01:10:05] more uh in line with like the the
+
+[01:10:07] network abilities and the replication
+
+[01:10:10] over the network. And so the gas system
+
+[01:10:13] like attributes for ships and um and the
+
+[01:10:16] stuff that we brought in for the
+
+[01:10:17] animation graph for characters uh makes
+
+[01:10:19] it easy for us to add more animations
+
+[01:10:21] like the jetpacking stuff and makes it
+
+[01:10:23] easier to replicating it uh that to
+
+[01:10:26] replicate it as as well for the for the
+
+[01:10:28] ships like all the attributes that the
+
+[01:10:30] designers can put in now um for how
+
+[01:10:34] powerful the weapons are, how powerful
+
+[01:10:35] your shields are and that kind of thing.
+
+[01:10:36] and on a component level um is easy for
+
+[01:10:40] us to put in input and then replicate
+
+[01:10:42] over the network. Um that's a huge
+
+[01:10:45] thing. Uh it was a a major effort from
+
+[01:10:47] the team um building out foundational
+
+[01:10:50] systems for like openable interactable
+
+[01:10:53] objects doors ramps desks toilets
+
+[01:10:59] seats, uh on ships. Um these kinds of
+
+[01:11:02] things. uh setting up the pipeline for
+
+[01:11:05] all of that u to be easy to add for for
+
+[01:11:07] artists and designers to tweak and get
+
+[01:11:10] them to work. Uh having to you know do
+
+[01:11:12] bespoke things for every ship. Um
+
+[01:11:16] and then another thing is we because the
+
+[01:11:19] interactables have been reworked as
+
+[01:11:22] well. So we just have like this giant
+
+[01:11:23] like F to interact thing and kind of
+
+[01:11:25] like invasive on your screen. That's
+
+[01:11:28] much more minimal now. Um, you can have
+
+[01:11:31] multiple things in the same spot where
+
+[01:11:34] you can F to interact like in a uh in
+
+[01:11:37] the in the elevator. Um, for example,
+
+[01:11:40] you hit you can hit F and then and then
+
+[01:11:43] choose a a level. So now there's like
+
+[01:11:45] extra just extra quality of life stuff
+
+[01:11:48] like that. Um, like I said, the the
+
+[01:11:51] physics refactor was also another big
+
+[01:11:53] effort. Um, setting up all those um um
+
+[01:11:57] systems, so it's easy to add new ships
+
+[01:12:00] quickly. Uh, so hover mode. Yeah, really
+
+[01:12:03] interested to hear some feedback there
+
+[01:12:04] because it's it's quite polished and
+
+[01:12:07] really fun to just get around and and
+
+[01:12:10] fly in hover mode. It's cool. And and
+
+[01:12:13] flight mode 2 has had some improvements
+
+[01:12:14] and the the cameras have improved the
+
+[01:12:16] experience a lot. uh performance
+
+[01:12:19] improvements across the board make it
+
+[01:12:21] obviously more enjoyable and the systems
+
+[01:12:23] work more appropriately when there's
+
+[01:12:25] higher performance. Um um stuff like one
+
+[01:12:30] of the things you'll be able to see too
+
+[01:12:31] in in the experimental mode toggle is um
+
+[01:12:34] while you won't be able to play with all
+
+[01:12:36] of them. you'll be able to see some of
+
+[01:12:37] the different sized characters um um in
+
+[01:12:42] just kind of like a teasing sort of way
+
+[01:12:44] but getting that retargeting for
+
+[01:12:46] different size characters cuz we have
+
+[01:12:48] really big range from very tiny to like
+
+[01:12:51] giant u characters and so making that
+
+[01:12:54] all work. There's been some work on the
+
+[01:12:56] secondary motion for like the tentacles
+
+[01:12:59] on the Maurice and like straps. So
+
+[01:13:02] getting that whole system working like
+
+[01:13:04] dangly bits is what we called it. Um and
+
+[01:13:08] then yeah for environments too like
+
+[01:13:12] right now the ability to create
+
+[01:13:14] different environments and have them
+
+[01:13:16] also be multiplayer and different maps
+
+[01:13:18] and selectable maps um uh with different
+
+[01:13:21] modes. That's something we put in. So
+
+[01:13:24] now we can like well I get into that
+
+[01:13:27] later but um yeah never mind that. So
+
+[01:13:30] the uh like we'll be able to release
+
+[01:13:33] maps if want to get feedback on a
+
+[01:13:35] certain mode uh and a certain block out
+
+[01:13:38] of a map early on that uh we might want
+
+[01:13:42] to get yeah feedback before we start
+
+[01:13:44] putting into full production um and so
+
+[01:13:47] we can yeah align with your
+
+[01:13:48] expectations.
+
+[01:13:50] Yeah, one of the coolest thing uh that
+
+[01:13:52] you mentioned, Danny, I think it's um
+
+[01:13:55] the gas system and how it could interact
+
+[01:13:57] with different environments and maps and
+
+[01:13:59] the possibility that it opens up for,
+
+[01:14:02] for example, different game modes,
+
+[01:14:03] right? You can create many different
+
+[01:14:05] game modes using those configurations.
+
+[01:14:07] If I'm not mistaken, please correct me
+
+[01:14:09] if I'm wrong, Danny.
+
+[01:14:10] Yeah. Yeah, that was kind of something I
+
+[01:14:11] was going to mention a little bit. Um
+
+[01:14:13] but but yeah, this setting up that kind
+
+[01:14:16] of a system
+
+[01:14:18] um allows us to to be more experimental.
+
+[01:14:22] It's kind of the whole idea behind
+
+[01:14:24] experimental mode.
+
+[01:14:26] Nice, nice, nice, nice. Um so Daniel, I
+
+[01:14:29] have a follow-up question for all this.
+
+[01:14:31] Uh and it's a it's a very important one.
+
+[01:14:33] I really want to emphasize on this one.
+
+[01:14:35] uh because it's kind of like a followup
+
+[01:14:37] to the question to a question that I
+
+[01:14:39] that I made you in the last stone hall
+
+[01:14:41] kind of like 10 months ago. So when when
+
+[01:14:45] you joined the last stone hole and you
+
+[01:14:47] were speaking about UFI development, you
+
+[01:14:50] compared the process of UFI development
+
+[01:14:53] that it's like going from crawling to
+
+[01:14:55] walking to running and at that moment
+
+[01:14:58] you said we were barely crawling. What
+
+[01:15:00] we all want to know now is where we are
+
+[01:15:04] at now.
+
+[01:15:06] Yeah, my response to that is that we're
+
+[01:15:08] jogging now. Um, we've gotten so much of
+
+[01:15:12] these fundamental
+
+[01:15:14] uh pipelines worked out and the refactor
+
+[01:15:19] um the the major features that we need
+
+[01:15:21] like interior gravity on ships for
+
+[01:15:25] example. So like one person can fly a
+
+[01:15:27] ship, another player can can be in the
+
+[01:15:29] ship and fly with it, you know, and not
+
+[01:15:31] just get tossed around like a ping-pong
+
+[01:15:33] ball inside there. Um, so we have all
+
+[01:15:35] these systems and and pipelines set up
+
+[01:15:38] now. Um, there's really not many more uh
+
+[01:15:43] questions about the future development
+
+[01:15:46] for us to get to where we're going with
+
+[01:15:48] our vision um in Unreal. And so we're at
+
+[01:15:52] that point now that like I said with the
+
+[01:15:55] with the ships, we have the ship flight
+
+[01:15:59] model in there and we can quickly add
+
+[01:16:01] even if it's just a placeholder model, a
+
+[01:16:03] way for players to interact with it, fly
+
+[01:16:05] around and and shoot and get shot and
+
+[01:16:08] get blown up and respawn. you know,
+
+[01:16:11] there's all these different things that
+
+[01:16:14] um once they're in place, it allows us
+
+[01:16:17] to create like extra game modes like I
+
+[01:16:18] was saying with experimental and just
+
+[01:16:21] just have fun with it, you know? I mean,
+
+[01:16:24] I was talking with Brad about a
+
+[01:16:27] deathmatch mode and he did it like a day
+
+[01:16:30] and he's got a playable because we
+
+[01:16:32] already have the system set up and yeah,
+
+[01:16:34] there's there's extra work to get it
+
+[01:16:35] like in the full production, but if we
+
+[01:16:37] can squeeze things out really quickly
+
+[01:16:39] and let people see that, then we get
+
+[01:16:42] feedback. Um, and then, uh, the other
+
+[01:16:47] part about like jogging is like, hey,
+
+[01:16:51] people were asking about the the X6,
+
+[01:16:53] like how long does it take the X6? Takes
+
+[01:16:55] a long time the first time you do it.
+
+[01:16:57] But now we've got other ships in the
+
+[01:16:59] same manufacturer line where like the R
+
+[01:17:01] six come. We're doing a refactor on the
+
+[01:17:04] F4 and we're using items like shelves
+
+[01:17:07] and kitchenet even the table uh lockers,
+
+[01:17:11] drawers, beds, doors, uh seats for like
+
+[01:17:16] the the pilot seat. And those are all
+
+[01:17:19] being used in our R six uh and the F4.
+
+[01:17:22] And it's going so much faster. And it's
+
+[01:17:25] like head spinning, right? It's going so
+
+[01:17:27] quick. Um and we're doing that with all
+
+[01:17:30] the manufacturers. the the uni bomb has
+
+[01:17:33] got a lot now we're seeing the grenaders
+
+[01:17:35] like speeding up um and and we'll just
+
+[01:17:39] continue to see that we got the pack
+
+[01:17:40] light pack light could be used for some
+
+[01:17:42] stuff in the in the her you know um so
+
+[01:17:45] that's the the jogging and and and
+
+[01:17:49] there's there's only really a couple of
+
+[01:17:51] big things left like the the the server
+
+[01:17:53] backend is a big thing that we're
+
+[01:17:56] working on it's tracking great
+
+[01:17:58] tech coming um holding back some some
+
+[01:18:01] some fun things. But uh once we're able
+
+[01:18:04] to quickly add modes and and spin up
+
+[01:18:07] like servers around these game modes,
+
+[01:18:10] then
+
+[01:18:11] we start running. That's when we start
+
+[01:18:13] running. Um
+
+[01:18:16] some other things like the teams
+
+[01:18:18] throughout this year uh and the
+
+[01:18:20] departments have really settled into a
+
+[01:18:22] stride. Um all of our vendors, we don't
+
+[01:18:26] really see them as like individual
+
+[01:18:28] vendors that we just outsource things
+
+[01:18:29] to. We take all the individuals in those
+
+[01:18:33] vendors and we work them into our teams
+
+[01:18:36] as if it was team extension and they
+
+[01:18:38] they it's all top down from the the
+
+[01:18:40] directors of each of the departments and
+
+[01:18:43] every every day there's dailies for all
+
+[01:18:45] the different departments and they they
+
+[01:18:47] catch up and they're all just little
+
+[01:18:48] teams. It's all just everybody working
+
+[01:18:51] uh basically as automata. Um and and
+
+[01:18:55] yeah, it's it's been going really well
+
+[01:18:57] this year. We have a like internally we
+
+[01:18:59] have this really comfortable like video
+
+[01:19:01] chat system uh where it's kind of a
+
+[01:19:04] bunch of like glass conference rooms and
+
+[01:19:06] everyone gets to see everyone else
+
+[01:19:07] working. Uh it's this really great
+
+[01:19:09] energy that uh you get when you see
+
+[01:19:12] sometimes every single room is full of
+
+[01:19:16] people just like jamming away. Uh and
+
+[01:19:18] we've got like 25 rooms in there and um
+
+[01:19:22] big groups and it's it's really fun. Um,
+
+[01:19:25] so the the remote work and and the time
+
+[01:19:29] zone differences has kind of been helped
+
+[01:19:31] out because of that. Um, allows for like
+
+[01:19:34] really quick collaboration. Like
+
+[01:19:36] Discourse is great for that. Um, and and
+
+[01:19:41] yeah. Yeah, that's uh I think there's a
+
+[01:19:44] lot I can go into, but um but that's
+
+[01:19:46] basically the the overview. Yeah, we're
+
+[01:19:49] team is killing it. It's just it's just
+
+[01:19:51] going to keep compounding from here with
+
+[01:19:53] all the stuff that we've already done.
+
+[01:19:55] That's awesome. And I just wanted to
+
+[01:19:57] emphasize on that, Danny. Um, and to
+
+[01:20:00] explain to the community what we say
+
+[01:20:02] when we do this analogy of going from
+
+[01:20:05] crawling to walking to running is how
+
+[01:20:07] all the different things we're building
+
+[01:20:10] start to compound on each other to make
+
+[01:20:13] the the UFI development and the overall
+
+[01:20:15] stratas development a lot faster. Right,
+
+[01:20:18] Danny?
+
+[01:20:19] Yeah. Yeah, like I said with the the X6,
+
+[01:20:22] that was one very clear example where
+
+[01:20:24] you get a kit, a kit bash library of of,
+
+[01:20:28] you know, new objects that you built for
+
+[01:20:30] that and then you don't want to remake
+
+[01:20:33] another the same like weapons locker.
+
+[01:20:35] You're just going to put in another
+
+[01:20:36] ship, use the same one. Makes sense. Um,
+
+[01:20:40] yeah. And it looks looks really great. I
+
+[01:20:44] can't wait to show the the new F4
+
+[01:20:46] rework, too. That was a fun one.
+
+[01:20:49] Yeah,
+
+[01:20:50] it's it's awesome. It's incredible. And
+
+[01:20:52] so Danny, now that we said we're
+
+[01:20:54] jogging, uh let's look forward a little
+
+[01:20:56] bit into the future kind of like more uh
+
+[01:20:59] bigger picture for the Stratas future,
+
+[01:21:01] the the the Stratlas products in the
+
+[01:21:04] future. Um we wanted to get your take
+
+[01:21:06] here since you're the chief product
+
+[01:21:09] officer. Uh how are all the things we
+
+[01:21:11] are building now going to tie into each
+
+[01:21:14] other? What's what's your vision on
+
+[01:21:15] that? Sure. Yeah. This um it seems like
+
+[01:21:20] there's a lot of products here, but it's
+
+[01:21:23] all Star Atlas. It's all using the same
+
+[01:21:28] economic layer on the blockchain and our
+
+[01:21:30] market. Everything that you earn or
+
+[01:21:34] purchase um on the marketplace is going
+
+[01:21:37] to be supported in all these different
+
+[01:21:39] um clients basically. So if we have
+
+[01:21:42] something in mobile and and web and
+
+[01:21:45] Unreal and say for example you take a a
+
+[01:21:49] crew member um from one of them and you
+
+[01:21:52] activate it in in the client. Now that
+
+[01:21:56] onchain progression no matter where you
+
+[01:21:58] are playing with that crew member will
+
+[01:22:01] have a progressive effect while using
+
+[01:22:05] any of the clients. And so that's kind
+
+[01:22:08] of the the quick way of saying like,
+
+[01:22:11] hey, if you want to play on Unreal, you
+
+[01:22:13] get a more immersive experience, you're
+
+[01:22:14] going to progress on chain, that's your
+
+[01:22:17] jam, do it. If you if you're on the move
+
+[01:22:19] and you're you're only have access to a
+
+[01:22:22] web, maybe you can do some like supply
+
+[01:22:24] chain movements, more grand strategy
+
+[01:22:27] type stuff uh in the web and maybe
+
+[01:22:30] that's all you ever want to play. That's
+
+[01:22:32] fine. Everyone works together. Let's
+
+[01:22:35] take for example season zero. That's
+
+[01:22:39] going to be a big event where not only
+
+[01:22:42] do we have like onchain progression and
+
+[01:22:44] and uh it it's a fully polished public
+
+[01:22:49] game. Um, we essentially by getting a
+
+[01:22:53] lot of people who don't even care about
+
+[01:22:55] the galactic economy, the the supply
+
+[01:22:58] chain of, you know, freighters going
+
+[01:23:00] from planet to planet that are bringing
+
+[01:23:02] you these objects that create a local
+
+[01:23:05] market for you. You may not even know
+
+[01:23:07] that you go into a shop in in season
+
+[01:23:09] zero and unreal that that supply
+
+[01:23:12] actually comes from a real ship that you
+
+[01:23:15] know we can follow the history um from
+
+[01:23:18] from one planet to another. It was
+
+[01:23:20] crafted and then turned into this object
+
+[01:23:21] and then delivered to this store and on
+
+[01:23:24] planet side where you go and upgrade
+
+[01:23:26] your your shield generator or something.
+
+[01:23:29] Um but that planet creates it's a local
+
+[01:23:33] market, right? So people in Sage uh
+
+[01:23:37] would see that, wow, why is there all of
+
+[01:23:39] a sudden like a lot of market activity
+
+[01:23:40] right here? I want to start bringing my
+
+[01:23:43] things here, right? Um and say you get
+
+[01:23:46] totally bored of both or you just want
+
+[01:23:48] to get out of the house. Um there's
+
+[01:23:51] other ways of capturing energy there. Um
+
+[01:23:54] and and so we don't want
+
+[01:23:57] we don't want people to feel so tied
+
+[01:24:00] down to one thing. And with this uh with
+
+[01:24:03] the blockchain, it makes it possible. So
+
+[01:24:07] um yeah,
+
+[01:24:07] that's awesome.
+
+[01:24:08] I don't want to leak too much there, but
+
+[01:24:10] it's it's it's it's all one giant thing
+
+[01:24:12] and it's all Star Atlas.
+
+[01:24:14] Yeah. Uh I love that vision.
+
+[01:24:17] Are you saying we are Star Atlas? That's
+
+[01:24:19] right.
+
+[01:24:20] We are Star Atlas, guys. Um and yeah, so
+
+[01:24:24] long-term basically everything ties into
+
+[01:24:27] each other across all the different uh
+
+[01:24:30] Stratus programs and this is something
+
+[01:24:32] that hasn't really been done before,
+
+[01:24:34] right? Using the the power of the
+
+[01:24:36] blockchain as well for this. Um not sure
+
+[01:24:39] Michael putting you on the spot if you
+
+[01:24:41] want to comment anything on this. No,
+
+[01:24:43] I just want to know when do we get
+
+[01:24:45] slide.
+
+[01:24:47] That's uh that's the top requested
+
+[01:24:50] feature, right? Yeah,
+
+[01:24:51] according to the chat,
+
+[01:24:55] it's coming.
+
+[01:24:55] Awesome.
+
+[01:24:56] It's coming.
+
+[01:24:59] Yeah,
+
+[01:25:01] so before we hop into some um Q&A, just
+
+[01:25:04] a recap, guys. We have uh R2.1
+
+[01:25:08] coming on June 1st.
+
+[01:25:12] So, that's awesome news that Danny
+
+[01:25:15] dropped here. We also um tweeted the
+
+[01:25:18] video for the Pierce X6, so make sure to
+
+[01:25:22] go give it some love. And we also just
+
+[01:25:25] tweeted the showroom R2.1
+
+[01:25:29] uh date announcement, so make sure I'm
+
+[01:25:32] posting it. Well, Dominic, you're fast,
+
+[01:25:34] bro. Nice. Nice. So, Dominic posted it
+
+[01:25:36] in the Atlas Amphitheater chat. Uh make
+
+[01:25:38] sure to also go give it some love. Uh
+
+[01:25:40] the picture for that looks incredible.
+
+[01:25:44] The picture for that announcement is
+
+[01:25:46] just clean clean.
+
+[01:25:48] Little call out to Jonathan Barubi for
+
+[01:25:50] pulling that one together. That is uh
+
+[01:25:54] that looks like a uh a movie poster. It
+
+[01:25:57] looks so cool.
+
+[01:25:58] Yeah, looks super cool. Uh so yeah, uh I
+
+[01:26:02] think we can do some Q&A now. But uh
+
+[01:26:05] before we go to the committee Q&A, guys,
+
+[01:26:08] if you want to ask any questions, uh
+
+[01:26:10] raise your hands and I will let we'll
+
+[01:26:12] let one or two uh people on stage to ask
+
+[01:26:15] some questions.
+
+[01:26:16] Man, do we do we even do we even need
+
+[01:26:18] Q&A? Just like Danny mic drop and let's
+
+[01:26:20] walk out of here.
+
+[01:26:23] Just keep the tradition, man. Just to
+
+[01:26:24] keep the tradition.
+
+[01:26:26] No, I'm sure there's a lot of people
+
+[01:26:27] that have some some questions, comments,
+
+[01:26:28] so we want to bring them up.
+
+[01:26:30] Yeah. But before we we hop on the Q&A, I
+
+[01:26:32] think I'm going to ask the difficult
+
+[01:26:34] question that it's on some people's
+
+[01:26:37] mind. Uh Michael, uh is Stratus going to
+
+[01:26:41] be around in the future.
+
+[01:26:45] Thanks, Auntie. Um
+
+[01:26:47] no problem.
+
+[01:26:48] It is a question. It is a question
+
+[01:26:49] that's out there, of course. And uh it's
+
+[01:26:51] really unfortunate that this u kind of
+
+[01:26:53] perception and the level of confidence
+
+[01:26:55] is overshadowing everything that we're
+
+[01:26:57] accomplishing this year. I I'm just
+
+[01:27:00] going to uh kind of reverse the question
+
+[01:27:02] and position it this way. Ask a bit of a
+
+[01:27:04] rhetorical. Um have you seen us slow
+
+[01:27:08] down in any way in any capacity over the
+
+[01:27:11] course of the year?
+
+[01:27:13] And if I answer that question directly,
+
+[01:27:14] it's no. It's been the opposite. Our
+
+[01:27:16] pace has increased. Our our um
+
+[01:27:19] excitement, our enthusiasm, and our
+
+[01:27:21] executables have only improved
+
+[01:27:24] throughout the year. Nothing slowing
+
+[01:27:26] down on our side. We have 100%
+
+[01:27:29] confidence in the future of this vision,
+
+[01:27:31] in the future of Automata, and the
+
+[01:27:33] future of this decentralized ecosystem
+
+[01:27:35] that is Star Atlas. Um, I personally
+
+[01:27:38] have the utmost confidence that we are
+
+[01:27:39] not only going to be around in the
+
+[01:27:41] immediate future, but into the
+
+[01:27:43] indefinite future. The vision here again
+
+[01:27:46] for anyone who'd never heard um me or us
+
+[01:27:49] say this at sometime some point in the
+
+[01:27:51] past is we are building here a new
+
+[01:27:54] digital society that has the potential
+
+[01:27:56] to self-evolve and that is because of
+
+[01:27:58] the way that the entire system is being
+
+[01:28:00] architected. Um it's because of the way
+
+[01:28:02] that we are opening up access to IP and
+
+[01:28:05] developing on blockchain that allows
+
+[01:28:07] other people to build their version of
+
+[01:28:08] this and their extension of this going
+
+[01:28:10] forward. So I have again 100% confidence
+
+[01:28:14] that we are going to be around. We've
+
+[01:28:16] produced far too much valid uh value. We
+
+[01:28:19] are uh we are a top project not only in
+
+[01:28:24] web 3, not only in crypto, but in
+
+[01:28:26] Danny's words, we are we are setting the
+
+[01:28:28] standards in the gaming industry today.
+
+[01:28:30] That is recognized. Let me reassure all
+
+[01:28:32] of you that people recognize the value
+
+[01:28:34] that we've created here. And you as the
+
+[01:28:37] community are the biggest asset of this
+
+[01:28:40] ecosystem. How passionate you are, how
+
+[01:28:42] much you love this, the fact that you
+
+[01:28:44] attend all the time, that you
+
+[01:28:45] participate in our events, you
+
+[01:28:46] participate in our releases, that is
+
+[01:28:48] incredibly meaningful and and Star Atlas
+
+[01:28:51] will be around. Do I know what that
+
+[01:28:53] looks like next year or the year beyond
+
+[01:28:56] that? No, I don't. But Star Atlas is not
+
+[01:28:58] going away. I can't put it any more
+
+[01:29:01] succinctly than that. But we're here,
+
+[01:29:03] guys, and we're here to stay. and we're
+
+[01:29:05] we're going to push this thing and
+
+[01:29:06] innovate and operate on the bleeding
+
+[01:29:08] edge. Um, and this is not going away.
+
+[01:29:14] Awesome, Michael. Uh, nothing to add
+
+[01:29:16] there. Just, uh, as always, a huge shout
+
+[01:29:18] out to the community and nothing would
+
+[01:29:21] be possible without you guys and thank
+
+[01:29:23] you for joining everything, every event
+
+[01:29:25] we do. Thank you for supporting us
+
+[01:29:26] everywhere retweeting liking
+
+[01:29:28] anything. All the support uh, really
+
+[01:29:31] matters. So, just uh, appreciate you
+
+[01:29:33] all. I appreciate you all and sorry
+
+[01:29:35] Michael for putting you on the spot like
+
+[01:29:37] that. You know that was revenge for the
+
+[01:29:40] for the sneak peeks.
+
+[01:29:43] Yeah, I I'll remember that Santi I'll
+
+[01:29:45] remember that this weekend. But uh look,
+
+[01:29:47] it needed to be addressed. I I I I
+
+[01:29:51] don't think there's anything else to be
+
+[01:29:52] said, but I I'm very much looking
+
+[01:29:54] forward to when we can just get past
+
+[01:29:56] this point, get past that concern that's
+
+[01:29:58] out there because you all you all see
+
+[01:30:00] what's here right now and you all know
+
+[01:30:02] what's coming. So, and we're not going
+
+[01:30:04] anywhere.
+
+[01:30:05] Awesome. Awesome. Uh, let's take uh one
+
+[01:30:09] or two questions here. I see Puck the
+
+[01:30:11] Pirate raised his hand. So, Puck, I
+
+[01:30:14] invited you to stage, my friend.
+
+[01:30:20] Hey, Puck, welcome to stage.
+
+[01:30:27] Oh, I'm not sure if I'm the only one who
+
+[01:30:29] can't hear him.
+
+[01:30:30] I can't hear him either. And and as we
+
+[01:30:33] wait for his uh audio to come on, I I
+
+[01:30:36] think obviously prudent anytime we have
+
+[01:30:38] a guest on stage, we do like to have the
+
+[01:30:39] questions directed at them. We have a
+
+[01:30:41] very special guest today with Danny. So
+
+[01:30:43] I'm sure there's questions about UEE,
+
+[01:30:45] but if you can uh tailor your question
+
+[01:30:47] to Danny specifically, that would be
+
+[01:30:49] appreciated. Of course, I'm here and
+
+[01:30:50] Santi's here. Dom's here to answer
+
+[01:30:52] questions as well.
+
+[01:30:54] Cool.
+
+[01:30:55] Uh I will invite some Oh, look. Yeah,
+
+[01:30:58] sorry about that. But I was still on
+
+[01:30:59] push to talk from the last chat we were
+
+[01:31:02] in.
+
+[01:31:03] No problem, my friend.
+
+[01:31:05] Um, I've got
+
+[01:31:06] Thank you. I appreciate it. Um, I've got
+
+[01:31:09] two uh I guess kind of pressing
+
+[01:31:11] questions.
+
+[01:31:13] Um, is there a mechanic in Never Alone
+
+[01:31:15] that accounts for the guild size at the
+
+[01:31:17] end of the year or is it just going to
+
+[01:31:18] be the biggest guild with the most
+
+[01:31:20] memories wins?
+
+[01:31:22] I can jump in on that one. uh
+
+[01:31:24] specifically there are going to be tiers
+
+[01:31:26] of uh various guild sizes. So I don't
+
+[01:31:29] think we've shared what the uh the loot
+
+[01:31:32] table looks like or any details on on
+
+[01:31:35] deck participation yet, but yes, there
+
+[01:31:37] will be multiple categories based on
+
+[01:31:38] size of the deck.
+
+[01:31:41] All right, thank you. Um and then what
+
+[01:31:44] avenues are the team actively working on
+
+[01:31:46] to obtain funding that isn't from the
+
+[01:31:48] current player base?
+
+[01:31:51] Yeah, we we continue to engage in
+
+[01:31:54] conversations with uh with a variety of
+
+[01:31:56] VCs, with family offices, uh with
+
+[01:31:59] strategic partners looking at debt
+
+[01:32:02] facilities available to us as well. And
+
+[01:32:04] um as I alluded to in an earlier town
+
+[01:32:08] hall, I think it might have even been
+
+[01:32:09] the January town hall of this year, we
+
+[01:32:11] are and have been in advanced
+
+[01:32:13] negotiations with uh with one such
+
+[01:32:16] partner as well as having conversations
+
+[01:32:18] with um uh
+
+[01:32:22] again sensitive to how I answer this but
+
+[01:32:24] you know within the Salana ecosystem
+
+[01:32:26] itself having direct conversations as
+
+[01:32:28] well.
+
+[01:32:30] Okay. Um, I really
+
+[01:32:32] trust me that that it is number one
+
+[01:32:35] priority on my mind. But nevertheless,
+
+[01:32:37] all of that being said, even outside of
+
+[01:32:40] external funding options, I have
+
+[01:32:42] absolute confidence in the success of
+
+[01:32:43] Star Atlas.
+
+[01:32:45] Um, I do as well. I mentioned it in the
+
+[01:32:48] amphitheater prior to the um, town hall
+
+[01:32:53] that you guys survived FTX when most
+
+[01:32:56] places would have been like, "Sorry,
+
+[01:32:58] major loss. we're we're done and you
+
+[01:33:02] guys continued. You're still here in a
+
+[01:33:04] bare market. I mean, people keep asking
+
+[01:33:08] like the only thing I'm asking about is
+
+[01:33:10] where the funding is coming from, but as
+
+[01:33:12] far as if Star Atlas is going to be
+
+[01:33:14] here, that question's already answered
+
+[01:33:16] to me. Um, so with that, based on my
+
+[01:33:22] last question, I'd also like to know if
+
+[01:33:25] you guys are planning on a next uh
+
+[01:33:28] Galactic Assets offering event.
+
+[01:33:31] We do. We do. And and uh I will be vague
+
+[01:33:34] on uh any detail of that. We'll be we'll
+
+[01:33:37] be sharing some details uh actually
+
+[01:33:40] coming up very soon on um
+
+[01:33:45] I I am notorious for the leak. So I'm
+
+[01:33:47] just trying to to uh uh kind of think
+
+[01:33:50] before I speak here but some details.
+
+[01:33:53] Yeah, just trying to think through some
+
+[01:33:55] or or uh we'll be sharing some details
+
+[01:33:57] on a transition of the economy. So that
+
+[01:33:59] is coming. Um and this is these are
+
+[01:34:01] items that we've talked about for over a
+
+[01:34:04] year now. Um, so you can expect um some
+
+[01:34:07] information from us on that soon. We
+
+[01:34:09] also have a few um uh kind of upcoming
+
+[01:34:16] asset categories that we're looking at
+
+[01:34:18] as well. So we're we're we're very
+
+[01:34:21] sensitive internally to the demand for
+
+[01:34:23] assets presently and we do want to
+
+[01:34:25] ensure that we roll this out in a stable
+
+[01:34:27] format when demand for for certain
+
+[01:34:29] assets does exist. But nevertheless, uh
+
+[01:34:32] we have quite a comprehensive plan
+
+[01:34:34] that's already formed and uh you can
+
+[01:34:36] expect some details of that plan, the
+
+[01:34:38] earliest stages of it to be coming out
+
+[01:34:40] soon. Um and this is something that
+
+[01:34:42] would continue on for uh several months
+
+[01:34:46] at a minimum and really likely to go on
+
+[01:34:48] through the course of the year.
+
+[01:34:50] Okay. And then my final thing is more of
+
+[01:34:52] just um a yes or a no, I guess. Um, one
+
+[01:34:56] of the issues that has plagued Star
+
+[01:34:58] Atlas has been the communication between
+
+[01:35:02] the team and the community. And this is
+
+[01:35:05] the second time in a row that a major
+
+[01:35:07] event has been scheduled to be released
+
+[01:35:11] or announced within roughly two days.
+
+[01:35:15] Um, it doesn't give us a whole lot of
+
+[01:35:17] time to be here and to actually
+
+[01:35:18] participate.
+
+[01:35:20] So, is there any way that the Star Atlas
+
+[01:35:22] team can work on a more structured and
+
+[01:35:27] more communityfriendly communication
+
+[01:35:30] system?
+
+[01:35:32] While I appreciate the feedback, with
+
+[01:35:34] all due respect, I completely disagree.
+
+[01:35:35] I think our communications have been uh
+
+[01:35:38] uh um absolutely best-in-class uh
+
+[01:35:41] particularly within the web 3 space. I
+
+[01:35:43] think we share more information on a
+
+[01:35:46] regular basis with our community than
+
+[01:35:48] just about any any other project that's
+
+[01:35:51] community oriented and most uh
+
+[01:35:54] wellestablished companies. So I think
+
+[01:35:56] we're doing a fantastic job on
+
+[01:35:58] communications personally. Um, and we
+
+[01:36:00] have taken a bit of an approach this
+
+[01:36:02] year of shortening the timeline between
+
+[01:36:04] announcements because, um, as you might
+
+[01:36:06] appreciate, we also get criticism when
+
+[01:36:08] we make announcements well in advance
+
+[01:36:10] and people think that we're just
+
+[01:36:11] constantly building up anticipation. So,
+
+[01:36:13] our approach this year is be ready and
+
+[01:36:16] be present because we're going to roll
+
+[01:36:17] stuff out. We're going to roll stuff out
+
+[01:36:18] quickly and we hope you're here for it.
+
+[01:36:21] Okay. And I I would like to apologize. I
+
+[01:36:23] didn't have that question written down.
+
+[01:36:25] You guys do a fairly good job of
+
+[01:36:27] communication. It's just with product
+
+[01:36:29] releases and people getting to
+
+[01:36:31] participate in these to find out as soon
+
+[01:36:33] as possible to prepare as soon as
+
+[01:36:35] possible. Spread the word for Star
+
+[01:36:37] Atlas. It's just been rough the last two
+
+[01:36:40] months, but you guys are actually very
+
+[01:36:42] good in this space compared actually
+
+[01:36:44] just in general compared to most people.
+
+[01:36:47] Yeah. Thank you.
+
+[01:36:49] And I and I'm not trying to be uh
+
+[01:36:51] abrasive in my response. I I what I also
+
+[01:36:54] believe just to um kind of reinforce the
+
+[01:36:59] approach for this year is that even if
+
+[01:37:02] it is not significant lead time to a
+
+[01:37:05] release to an event, you know, not
+
+[01:37:07] hosting, excuse me, not hosting say 426
+
+[01:37:11] events where we hold back content um and
+
+[01:37:14] we we pair all of these things together
+
+[01:37:16] with a big launch day. Instead of doing
+
+[01:37:18] that, we're just shipping. uh and that
+
+[01:37:20] is that is the philosophy for this year.
+
+[01:37:22] We are shipping as quickly as possible
+
+[01:37:25] iteratively and also staggering releases
+
+[01:37:27] so that there's always something new
+
+[01:37:29] coming out across product lines uh
+
+[01:37:31] within the company and that's across the
+
+[01:37:33] game environments. So whether that's in
+
+[01:37:34] Unreal Engine or in browser um I know
+
+[01:37:37] people are are very excited about the
+
+[01:37:39] mobile application coming online but
+
+[01:37:41] also things like the graphic novel um
+
+[01:37:44] things like never alone. So, um, we it's
+
+[01:37:48] not imperative for us, in my opinion,
+
+[01:37:50] that we, um, proceed any of those events
+
+[01:37:54] with a big marketing push because there
+
+[01:37:56] will be plenty of time in between and
+
+[01:37:58] following the event for people to
+
+[01:38:00] actually experience it themselves and
+
+[01:38:02] help us um, share that virally.
+
+[01:38:06] Thank you. And you're not abrasive in
+
+[01:38:07] your responses. You're actually very
+
+[01:38:09] structured and I appreciate that. Um, my
+
+[01:38:12] last comment is simply, can you make Dom
+
+[01:38:14] give me some content or Santi? I'd
+
+[01:38:18] appreciate that.
+
+[01:38:19] I'll have to talk to a supervisor.
+
+[01:38:21] All right. Thank you. Thank you.
+
+[01:38:23] Cool. Cool. Thank you, Puck. Uh, those
+
+[01:38:27] were quite some questions, Michael. Uh,
+
+[01:38:30] I think, uh, you replied very well. I
+
+[01:38:32] think uh it's difficult also to
+
+[01:38:34] understand externally sometimes how fast
+
+[01:38:37] we are actually moving internally and
+
+[01:38:41] that we we like to ship product for the
+
+[01:38:43] community right Michael
+
+[01:38:45] that is the name of the game this year
+
+[01:38:48] so
+
+[01:38:49] well star star Atlas is the name of the
+
+[01:38:51] game but yes we are we are transitioning
+
+[01:38:53] our approach to releases this year and
+
+[01:38:56] and uh we're trying this out and if it
+
+[01:38:58] you know depending on how it goes we'll
+
+[01:39:00] make adjustments as necessary but what
+
+[01:39:02] we're quite good at is is being nimble
+
+[01:39:04] and adapting and and uh working in an
+
+[01:39:07] agile fashion. And uh hopefully everyone
+
+[01:39:10] appreciates what we're putting in here.
+
+[01:39:13] Mhm. And just for for the next uh person
+
+[01:39:17] that joins the stage, if we can please
+
+[01:39:19] keep it to one question. Uh we all want
+
+[01:39:23] to to ask a lot of question. I know
+
+[01:39:24] everyone has a lot of questions for for
+
+[01:39:26] Michael. So when you guys are on stage,
+
+[01:39:29] I'll appreciate uh if we can keep it to
+
+[01:39:31] to one question. I just I don't like to
+
+[01:39:34] move anyone from stage to audience. Uh
+
+[01:39:38] so yeah, just wanted to have that. And
+
+[01:39:41] Michael, what if um I'm going to drop
+
+[01:39:44] the people that had their hands raised
+
+[01:39:46] now and let's get one for Danny right
+
+[01:39:48] before we close.
+
+[01:39:49] Yeah please.
+
+[01:39:50] So raise your hand, guys, if you have
+
+[01:39:52] any questions for Danny in specific.
+
+[01:39:55] Cool.
+
+[01:39:58] I see Mandalorian raising his hand.
+
+[01:40:03] Hey Mandalorian, welcome to stage.
+
+[01:40:12] I don't think we can hear him. Probably
+
+[01:40:14] push.
+
+[01:40:15] Yeah, you might also be on push to talk.
+
+[01:40:16] Yeah, probably push to talk.
+
+[01:40:22] Cool. Okay, we'll let someone else in.
+
+[01:40:25] Uh, I might Oh, okay.
+
+[01:40:28] Yeah, we can we can hear you now.
+
+[01:40:30] I didn't have it on push to talk, but I
+
+[01:40:32] guess it switched uh something back. But
+
+[01:40:35] hey everybody
+
+[01:40:36] welcome to Stage Mandalorian.
+
+[01:40:39] Danny the man. We miss you.
+
+[01:40:43] Hey man, it's good to be back.
+
+[01:40:45] I just got to say that was uh that was a
+
+[01:40:49] content overload in a good way.
+
+[01:40:53] Yeah, so much stuff.
+
+[01:40:56] I got a question for you.
+
+[01:40:57] Yeah.
+
+[01:40:59] With the optimizations of uh 2.1, have
+
+[01:41:03] you guys made adjustments to uh
+
+[01:41:07] customizing settings, keybinds,
+
+[01:41:10] sensitivity for flying and stuff like
+
+[01:41:12] that?
+
+[01:41:14] Um yeah, I mean all the the key binds
+
+[01:41:16] for for keyboard
+
+[01:41:19] you can you can adjust. Um gamepad, no
+
+[01:41:23] unfortunately. Um not yet, but uh but
+
+[01:41:28] it's it's all coming. But yeah, not not
+
+[01:41:30] quite there. Hopefully you can rely on
+
+[01:41:32] your uh if you have a good gaming mouse
+
+[01:41:35] to quickly change sensitivity for now.
+
+[01:41:40] Yeah, fair enough.
+
+[01:41:42] Well, we appreciate all the content you
+
+[01:41:44] guys are putting out and uh I don't know
+
+[01:41:47] what in the fkit uh buddy was talking
+
+[01:41:50] about, but I think you guys are doing a
+
+[01:41:51] bangup job and we love you.
+
+[01:41:54] Yeah, thanks man.
+
+[01:41:57] Thank you.
+
+[01:41:58] Yeah, thanks Mendo. No, no hard feelings
+
+[01:42:00] at all. We That's why we're here and
+
+[01:42:02] that's why we take questions at the end
+
+[01:42:04] because we are we're an open book.
+
+[01:42:08] Cool. Uh, one more one more question. I
+
+[01:42:11] I think we got to get, you know, because
+
+[01:42:13] we haven't had enough hard questions.
+
+[01:42:14] Our good buddy Signal is out there with
+
+[01:42:16] his hand raised. So,
+
+[01:42:20] we invited you to stage Signal. Hey,
+
+[01:42:22] Signal friend. Welcome.
+
+[01:42:27] There's probably something.
+
+[01:42:28] Can you guys hear me?
+
+[01:42:29] Yeah. Yeah. Perfect, man. Welcome to
+
+[01:42:31] stage, my friend.
+
+[01:42:32] Holy cow, man. Pac. Jesus. That was that
+
+[01:42:37] was incredible. I was about to say, you
+
+[01:42:39] know, Michael probably thought I was
+
+[01:42:41] tough, you know, until he called on
+
+[01:42:43] Bach. That was that was amazing. But,
+
+[01:42:46] uh, I had a question for Danny. Clearly,
+
+[01:42:49] there's been a ton of updates in 2.1.
+
+[01:42:52] Uh, the game mode that I'm most excited
+
+[01:42:55] about, of course, is dog fighting. Could
+
+[01:42:57] you speak to some of the changes in the
+
+[01:43:00] waves and mechanics for the NPC enemies
+
+[01:43:03] that we're going to be encountering in
+
+[01:43:04] the dog fighting mode?
+
+[01:43:08] Yeah, sure. Um, let's see. So, I
+
+[01:43:11] mentioned earlier that you can play like
+
+[01:43:13] with any ship. Now, there is still some
+
+[01:43:16] Yeah, the bigger ships have more
+
+[01:43:18] firepower, but they also don't maneuver
+
+[01:43:19] as quickly. So, there's some balancing
+
+[01:43:21] mechanisms there. Um, the the there's a
+
+[01:43:25] lot of new feedback on the HUD. So, you
+
+[01:43:29] the way you target and and send off
+
+[01:43:31] missiles and and the hit feedback has
+
+[01:43:34] changed. um the targeting
+
+[01:43:37] um element is now like you actually see
+
+[01:43:40] the 3D ship and it's not just an image
+
+[01:43:44] and you'll see it like turning around
+
+[01:43:45] which is cool. Um the waves are are
+
+[01:43:49] actually much harder.
+
+[01:43:52] Um but but again we wanted to see that
+
+[01:43:55] uh you know how different ships of
+
+[01:43:57] different strength performed. But uh off
+
+[01:44:01] the top of my head I I actually haven't
+
+[01:44:03] beaten it yet. So, I I don't know how
+
+[01:44:05] many waves there are. Chip will be able
+
+[01:44:07] to answer that. Um, it was just recently
+
+[01:44:09] changed from Brad, so I haven't actually
+
+[01:44:12] been able to go and and beat everything
+
+[01:44:14] yet. And we don't have a god mode, so I
+
+[01:44:17] have to play it normally. Um, Chip says
+
+[01:44:20] 10, he thinks. See, it's it's new to
+
+[01:44:23] him, too. So, it's all like fresh
+
+[01:44:25] changes. Um, so yeah, that's that's
+
+[01:44:29] primarily it. We we tried to get um we
+
+[01:44:32] tried to get it to be co-op and to
+
+[01:44:35] enable it for PvP as well. Didn't quite
+
+[01:44:38] make it into this cut, but but we're
+
+[01:44:40] we're we're trying to at least use that
+
+[01:44:42] as a quick way to test those kinds of
+
+[01:44:43] things.
+
+[01:44:45] That's awesome. I can't wait for, you
+
+[01:44:47] know, two foot attack essentially at
+
+[01:44:49] UE5.
+
+[01:44:51] Um if I could ask one one quick little
+
+[01:44:54] tweak on top of that. Um,
+
+[01:44:58] you said there were going to be
+
+[01:44:59] enhancements to multiplayer for 2.1. Not
+
+[01:45:03] that everything was fixed, but some
+
+[01:45:04] things had been tweaked or optimized, I
+
+[01:45:07] believe. Um, could you speak to that a
+
+[01:45:10] little more on what we could expect just
+
+[01:45:11] so we're not marching off a cliff going,
+
+[01:45:14] "Oh my god, the multiplayer has been
+
+[01:45:16] optimized, you know, and uh what should
+
+[01:45:19] we expect realistically walking into
+
+[01:45:21] that day one, June 1st on 2.1?"
+
+[01:45:26] Sure. Yeah. Um yeah, the the thing is we
+
+[01:45:28] still have to do the the P2P like player
+
+[01:45:30] hosting uh which means ping is usually
+
+[01:45:34] high and that leads to just issues by
+
+[01:45:36] itself. But we have made some uh
+
+[01:45:39] improvements for example like the the
+
+[01:45:42] draw distance of of characters is is
+
+[01:45:44] much further and 12 waves. Thanks Chip.
+
+[01:45:48] Um and uh and and so
+
+[01:45:53] we've been able to like sync up that
+
+[01:45:54] kind of replication better. Uh just a
+
+[01:45:58] lot more items that are replicated. Um
+
+[01:46:00] there were issues where like the host
+
+[01:46:02] can do things but the people who join
+
+[01:46:05] can't see it or they can't do it. Like
+
+[01:46:07] hopping on ships even was an issue. Um
+
+[01:46:11] so a lot of that stuff has been fixed.
+
+[01:46:12] There are still things that are present
+
+[01:46:15] because
+
+[01:46:17] um we're in parallel working on a proper
+
+[01:46:20] back-end server architecture that all
+
+[01:46:23] that stuff is being worked into that
+
+[01:46:25] system. And so we want to give you
+
+[01:46:28] enough so it's not like a totally broken
+
+[01:46:30] experience. But that's, you know, in the
+
+[01:46:32] next big updates, that's when
+
+[01:46:35] everything's going to be really smoothed
+
+[01:46:36] out and and properly structured. Um so
+
+[01:46:40] yeah, I do want to manage expectations
+
+[01:46:42] there. There's still going to be some
+
+[01:46:43] hiccups, but it's playable.
+
+[01:46:48] Awesome. Really excited for what you
+
+[01:46:49] guys built. Obviously, you blew us all
+
+[01:46:51] away with saying that every single ship
+
+[01:46:54] was going to be flyable as of June 1st.
+
+[01:46:56] I mean, we're talking the other side the
+
+[01:46:58] weekend. Um, this is amazing. Thank you
+
+[01:47:00] guys so much and thank you for your
+
+[01:47:02] time.
+
+[01:47:03] Signal, um, we have we have one question
+
+[01:47:05] for you because the community wants to
+
+[01:47:07] know um
+
+[01:47:08] let's do it. When are you going to buy a
+
+[01:47:10] ship that you don't sell a week later?
+
+[01:47:15] Probably around the same time that I
+
+[01:47:16] switched from an iPad to a PC.
+
+[01:47:20] I' I'd say in 426.
+
+[01:47:23] Okay. Uh, fair enough. Fair enough.
+
+[01:47:25] Good answer. Good answer.
+
+[01:47:28] Have a good one, guys.
+
+[01:47:29] Thank you, Signal Man.
+
+[01:47:33] Awesome. So, I think we're over an hour
+
+[01:47:37] and a half. very well past our hour and
+
+[01:47:39] a half. So, it's a good moment to close
+
+[01:47:43] here. Um before we close, just a quick
+
+[01:47:47] recap. Um we went through some news,
+
+[01:47:50] some metrics on there alone, metrics on
+
+[01:47:52] scape velocity, learnings from scape
+
+[01:47:54] velocity, what's coming next for Sage,
+
+[01:47:58] uh what's coming for the DA, which are a
+
+[01:48:00] lot of updates on that front and looking
+
+[01:48:04] forward to the debates. uh lots of
+
+[01:48:06] updates on R2.1 and we actually have
+
+[01:48:08] showroom R2.1
+
+[01:48:11] uh coming very very soon. So next week
+
+[01:48:14] June 1st for showroom R2.1. So big news.
+
+[01:48:19] We also had some little conversation
+
+[01:48:21] about the future with Danny and I think
+
+[01:48:25] overall it was one of the best stone
+
+[01:48:27] holes we ever had. Uh we shared the
+
+[01:48:30] video of the Pier X6 that we just uh
+
+[01:48:33] posted on Twitter. I'll post the link uh
+
+[01:48:35] again in the Atlas Amphitheater. So,
+
+[01:48:37] make sure to give it a retweet, a like,
+
+[01:48:40] comment. Uh it really helps and just to
+
+[01:48:43] spread the word of Star Atlas. And I
+
+[01:48:46] don't think I missed anything, Michael,
+
+[01:48:48] right? Please let me know if I missed
+
+[01:48:50] anything.
+
+[01:48:51] Nope, that was great. Uh I've seen the
+
+[01:48:53] question come up a couple times. Dates
+
+[01:48:54] for Sage. Again, we're really not
+
+[01:48:56] sharing any dates. Uh what I what I will
+
+[01:48:59] uh just restate here very excited about
+
+[01:49:01] the we're sharing a date for 2.1 because
+
+[01:49:04] that is coming next week. But um the
+
+[01:49:06] next release from that will be a DAO
+
+[01:49:08] release and then the next release after
+
+[01:49:09] that will be um the subsequent Sage
+
+[01:49:12] release. So at least you guys kind of
+
+[01:49:13] know the order of operations, but um I'm
+
+[01:49:16] going to leave it at that. I think this
+
+[01:49:18] was a fantastic town hall. Danny, thanks
+
+[01:49:21] for joining us. Uh Dom, thanks for for
+
+[01:49:23] supporting with all of the content
+
+[01:49:24] sharing. and Santi, always a pleasure
+
+[01:49:27] being up here with you uh hosting this
+
+[01:49:29] event.
+
+[01:49:30] Pleasure is mine, Michael. And yeah,
+
+[01:49:33] anything to close anything you want to
+
+[01:49:35] say to close uh Danny, my friend.
+
+[01:49:38] No, thanks. Yeah, feelings mutual. This
+
+[01:49:41] is awesome. Thanks everybody.
+
+[01:49:43] Thank you for joining, man. It's always
+
+[01:49:44] a pleasure to have you on stage and the
+
+[01:49:46] community loves hearing from you.
+
+[01:49:49] I love the community. Thanks, guys.
+
+[01:49:52] Yeah. Awesome. And thanks and thanks to
+
+[01:49:54] everyone in the audience for uh for
+
+[01:49:56] showing up with us. You stuck around to
+
+[01:49:58] the end, so I assume you you were not
+
+[01:49:59] just here for the never alone code.
+
+[01:50:02] Yeah,
+
+[01:50:04] thank you guys. Uh so this was a
+
+[01:50:06] Stratler Stonehole 39. Lots of content
+
+[01:50:09] to be digested. Looking forward to all
+
+[01:50:11] the videos from the creators. See you on
+
+[01:50:13] the next one, guys. Have a great weekend
+
+[01:50:15] everyone. Power to the people and
+
+[01:50:17] stick it to the man. See you everyone.

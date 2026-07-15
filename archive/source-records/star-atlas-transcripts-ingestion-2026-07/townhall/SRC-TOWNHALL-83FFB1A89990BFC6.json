@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
+  "collection": "townhall",
+  "title": "townhall 40",
+  "original_filename": "townhall__40.txt",
+  "source_type": "transcript",
+  "publication_date": null,
+  "publication_date_basis": "unknown",
+  "publisher": "Star Atlas ecosystem; exact publisher unresolved",
+  "author_or_speakers": [],
+  "speaker_attribution": "UNKNOWN",
+  "original_url": null,
+  "evidence_tier": "UNRESOLVED_PENDING_SOURCE_RECONCILIATION",
+  "raw_path": "townhall/raw/SRC-TOWNHALL-83FFB1A89990BFC6.txt",
+  "normalized_path": "townhall/normalized/SRC-TOWNHALL-83FFB1A89990BFC6.md",
+  "raw_sha256": "83ffb1a89990bfc60f03e03629ff5c5336ec9e88221ab363c91a82e5530b48b6",
+  "normalized_sha256": "e2be7110b92ecbb07e43680737784f499a45446b34e3871b12fc285b5bc26841",
+  "caption_count": 1649,
+  "first_timestamp": "00:01:03",
+  "last_timestamp": "01:03:35",
+  "duplicate_of": null,
+  "normalization_actions": [
+    "Decoded as UTF-8 with replacement for invalid bytes",
+    "Normalized line endings",
+    "Joined wrapped caption text belonging to the same timestamp",
+    "Collapsed repeated whitespace within captions",
+    "Preserved transcript wording and timestamp order"
+  ],
+  "limitations": [
+    "Original URL not supplied",
+    "Speaker labels not supplied",
+    "Publication date may be partial or unknown",
+    "Automated transcript text may contain recognition errors",
+    "Lifecycle or factual claims require later semantic review before canonical promotion"
+  ],
+  "ingestion_status": "READY_FOR_ARCHIVAL_INGESTION"
+}

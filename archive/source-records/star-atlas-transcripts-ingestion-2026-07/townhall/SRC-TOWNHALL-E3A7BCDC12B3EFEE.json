@@ -1,0 +1,37 @@
+{
+  "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
+  "collection": "townhall",
+  "title": "Star Atlas Town Hall June 2025",
+  "original_filename": "____Star_Atlas_Town_Hall___June_2025____.txt",
+  "source_type": "transcript",
+  "publication_date": "2025-06",
+  "publication_date_basis": "filename-month",
+  "publisher": "Star Atlas ecosystem; exact publisher unresolved",
+  "author_or_speakers": [],
+  "speaker_attribution": "UNKNOWN",
+  "original_url": null,
+  "evidence_tier": "UNRESOLVED_PENDING_SOURCE_RECONCILIATION",
+  "raw_path": "townhall/raw/SRC-TOWNHALL-E3A7BCDC12B3EFEE.txt",
+  "normalized_path": "townhall/normalized/SRC-TOWNHALL-E3A7BCDC12B3EFEE.md",
+  "raw_sha256": "e3a7bcdc12b3efeec8cfc3f0e7ada9a8ca7a077c68b58d2ade473ea77e12c283",
+  "normalized_sha256": "f1904f21ce06cfb140c710b7059379aa41a01e2568f3e2643494575c9d20ff4f",
+  "caption_count": 4807,
+  "first_timestamp": "00:00:25",
+  "last_timestamp": "03:25:17",
+  "duplicate_of": null,
+  "normalization_actions": [
+    "Decoded as UTF-8 with replacement for invalid bytes",
+    "Normalized line endings",
+    "Joined wrapped caption text belonging to the same timestamp",
+    "Collapsed repeated whitespace within captions",
+    "Preserved transcript wording and timestamp order"
+  ],
+  "limitations": [
+    "Original URL not supplied",
+    "Speaker labels not supplied",
+    "Publication date may be partial or unknown",
+    "Automated transcript text may contain recognition errors",
+    "Lifecycle or factual claims require later semantic review before canonical promotion"
+  ],
+  "ingestion_status": "READY_FOR_ARCHIVAL_INGESTION"
+}
