@@ -1,0 +1,605 @@
+{
+  "campaign_id": "social-governance-semantic-enrichment",
+  "schema_version": "1.0.0",
+  "capture_timestamp": "2026-07-15T03:41:40.385169Z",
+  "candidate_count": 33,
+  "candidates": [
+    {
+      "source_id": "SRC-PIP-01-BC8475E4",
+      "pip_number": 1,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-02-1E2D7066",
+      "pip_number": 2,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-03-F5E7CDE1",
+      "pip_number": 3,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-04-AD1945D8",
+      "pip_number": 4,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-05-C248D280",
+      "pip_number": 5,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-06-1B792551",
+      "pip_number": 6,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-07-91652743",
+      "pip_number": 7,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-08-62506041",
+      "pip_number": 8,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-09-1CC4BB6F",
+      "pip_number": 9,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-10-ED887A4E",
+      "pip_number": 10,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-11-7B48A62D",
+      "pip_number": 11,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/products/"
+      ],
+      "result": "UNKNOWN",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-12-F15380C9",
+      "pip_number": 12,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-13-B721D8E7",
+      "pip_number": 13,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/gameplay/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/products/"
+      ],
+      "result": "FAILED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-14-FED98016",
+      "pip_number": 14,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-15-BD065AD2",
+      "pip_number": 15,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "FAILED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-16-B11CED4B",
+      "pip_number": 16,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-17-4DF4C199",
+      "pip_number": 17,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-18-18750A6A",
+      "pip_number": 18,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-19-1EB3D15E",
+      "pip_number": 19,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "FAILED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-20-159CB743",
+      "pip_number": 20,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-21-49CAD7E4",
+      "pip_number": 21,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-22-D5D61E64",
+      "pip_number": 22,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-23-0ECF2928",
+      "pip_number": 23,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-24-8CC6B298",
+      "pip_number": 24,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-25-91CC73FA",
+      "pip_number": 25,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "UNKNOWN",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-26-B70AC545",
+      "pip_number": 26,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "FAILED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-27-064D252C",
+      "pip_number": 27,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "UNKNOWN",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-28-D0A5DC75",
+      "pip_number": 28,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-29-8E761702",
+      "pip_number": 29,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-30-3BA029F2",
+      "pip_number": 30,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-31-E71FB1A7",
+      "pip_number": 31,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/lore/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-32-0B04FF9B",
+      "pip_number": 32,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/timeline/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    },
+    {
+      "source_id": "SRC-PIP-33-397FEE39",
+      "pip_number": 33,
+      "targets": [
+        "knowledge/governance/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/technology/",
+        "knowledge/organizations/",
+        "knowledge/people/",
+        "knowledge/community/",
+        "knowledge/partnerships/",
+        "knowledge/operations/",
+        "knowledge/products/"
+      ],
+      "result": "PASSED",
+      "execution_state": "UNKNOWN",
+      "review_status": "UNREVIEWED"
+    }
+  ]
+}
