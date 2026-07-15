@@ -1,5 +1,12 @@
 {
   "campaign_id": "discord-announcements-semantic-enrichment",
-  "record_count": 0,
-  "records": []
+  "automated_rule_conflict_count": 0,
+  "records": [],
+  "review_status": "NOT_EXHAUSTIVELY_HUMAN_REVIEWED",
+  "interpretation": "The deterministic rules found no explicit conflicts in the relationships they evaluated. This is not evidence that the corpora contain no contradictions.",
+  "remaining_work": [
+    "claim-level review of lifecycle and current-state differences",
+    "review of corrections, delays, cancellations, and supersession",
+    "manual comparison where dates, names, metrics, or implementation states differ"
+  ]
 }
