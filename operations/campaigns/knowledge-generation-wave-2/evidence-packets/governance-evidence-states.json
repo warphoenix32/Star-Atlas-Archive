@@ -1,0 +1,62 @@
+{
+  "page_id": "governance-evidence-states",
+  "proposed_path": "knowledge/governance/Governance-Implementation-and-Evidence-States.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "CANONICAL",
+  "page_risk_score": 3,
+  "page_risk_class": "R1",
+  "subject_entities": [
+    "PIPs",
+    "evidence states"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "EVID-1",
+      "claim_text": "Proposal, vote, passage, announced implementation, execution, payment, and verified completion are distinct evidence states.",
+      "claim_type": "EVIDENCE_MODEL",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "EVID-2",
+      "claim_text": "Council operational assessments are attributable records and do not constitute independent verification.",
+      "claim_type": "EVIDENCE_MODEL",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json"
+      ],
+      "source_authority": [
+        "A3"
+      ],
+      "corroboration_status": "ATTRIBUTED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-07-15"
+}

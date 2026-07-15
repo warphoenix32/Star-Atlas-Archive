@@ -1,0 +1,64 @@
+{
+  "page_id": "atmta",
+  "proposed_path": "knowledge/organizations/ATMTA.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "ATMTA, Inc.",
+    "Star Atlas"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "ATMTA-1",
+      "claim_text": "ATMTA is the operating company identified in official Star Atlas publications and product records.",
+      "claim_type": "ORGANIZATION_IDENTITY",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/",
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md"
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ATMTA-2",
+      "claim_text": "ATMTA's product-development role does not make it identical to the DAO, Foundation, or Council.",
+      "claim_type": "INSTITUTIONAL_BOUNDARY",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/campaign-delta-official/"
+      ],
+      "source_authority": [
+        "A1",
+        "A2"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}

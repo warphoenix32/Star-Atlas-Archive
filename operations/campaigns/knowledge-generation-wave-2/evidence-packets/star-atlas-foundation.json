@@ -1,0 +1,60 @@
+{
+  "page_id": "star-atlas-foundation",
+  "proposed_path": "knowledge/governance/Star-Atlas-Foundation.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Star Atlas Foundation"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "FOUND-1",
+      "claim_text": "PIP-1 assigns proposal-compliance review and advancement duties to the Foundation or a delegated administrator.",
+      "claim_type": "INSTITUTIONAL_ROLE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "FOUND-2",
+      "claim_text": "The Foundation's implementation discretion is bounded by legal, safety, compliance, and public-reasoning language in the captured governance text.",
+      "claim_type": "INSTITUTIONAL_BOUNDARY",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}

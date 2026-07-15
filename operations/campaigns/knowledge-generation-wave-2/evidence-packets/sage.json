@@ -1,0 +1,62 @@
+{
+  "page_id": "sage",
+  "proposed_path": "knowledge/gameplay/SAGE.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "SAGE",
+    "SAGE Labs",
+    "Starbased"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "SAGE-1",
+      "claim_text": "Official support material documents SAGE Labs as a browser-based, on-chain 4X economic strategy surface.",
+      "claim_type": "PRODUCT_IDENTITY",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-0A646AE069AFFBA5.md"
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "SAGE-2",
+      "claim_text": "The 2022 renamed-SAGE roadmap is planning evidence, not proof that later SAGE phases were delivered.",
+      "claim_type": "LIFECYCLE_EVENT",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "PLANNED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-22181D98D7A1B870.md"
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}

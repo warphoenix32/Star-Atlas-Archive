@@ -1,0 +1,43 @@
+{
+  "page_id": "gameplay-index",
+  "proposed_path": "knowledge/gameplay/README.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "CANONICAL",
+  "page_risk_score": 2,
+  "page_risk_class": "R1",
+  "subject_entities": [
+    "gameplay knowledge domain"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "GAMEINDEX-1",
+      "claim_text": "The gameplay index distinguishes product identity, lifecycle history, and current-state snapshots.",
+      "claim_type": "INFORMATION_ARCHITECTURE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "archive/source-records/campaign-delta-official/"
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-07-15"
+}

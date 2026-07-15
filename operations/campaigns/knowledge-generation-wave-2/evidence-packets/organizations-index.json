@@ -1,0 +1,44 @@
+{
+  "page_id": "organizations-index",
+  "proposed_path": "knowledge/organizations/README.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "CANONICAL",
+  "page_risk_score": 2,
+  "page_risk_class": "R1",
+  "subject_entities": [
+    "organization knowledge domain"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "ORGINDEX-1",
+      "claim_text": "The organization index links identities to governance pages without duplicating procedural authority.",
+      "claim_type": "INFORMATION_ARCHITECTURE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/campaign-delta-official/"
+      ],
+      "source_authority": [
+        "A1",
+        "A2"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-07-15"
+}

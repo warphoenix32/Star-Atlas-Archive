@@ -1,0 +1,62 @@
+{
+  "page_id": "star-atlas-dao",
+  "proposed_path": "knowledge/governance/Star-Atlas-DAO.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "CANONICAL",
+  "page_risk_score": 3,
+  "page_risk_class": "R1",
+  "subject_entities": [
+    "Star Atlas DAO",
+    "POLIS"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "DAO-1",
+      "claim_text": "PIP-1 defines the DAO as the program-based system through which persons locking and voting POLIS form consensus.",
+      "claim_type": "INSTITUTIONAL_ROLE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "DAO-2",
+      "claim_text": "A passing vote is not itself evidence that an approved action was implemented.",
+      "claim_type": "EVIDENCE_RULE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-07-15"
+}

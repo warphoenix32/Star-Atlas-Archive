@@ -1,0 +1,62 @@
+{
+  "page_id": "score-faction-fleet",
+  "proposed_path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "HISTORICAL",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "SCORE",
+    "Faction Fleet"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "SCORE-1",
+      "claim_text": "SCORE/Faction Fleet was an asset-management and emissions program exposed through PLAY.",
+      "claim_type": "PRODUCT_IDENTITY",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "HISTORICAL",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md",
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md"
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "SCORE-2",
+      "claim_text": "Aephia reported that Faction Fleet ATLAS emissions ended in April 2024; this remains attributed community chronology rather than direct transaction proof.",
+      "claim_type": "LIFECYCLE_EVENT",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "DEPRECATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md"
+      ],
+      "source_authority": [
+        "B2"
+      ],
+      "corroboration_status": "ATTRIBUTED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}

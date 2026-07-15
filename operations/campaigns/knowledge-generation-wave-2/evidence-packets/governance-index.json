@@ -1,0 +1,42 @@
+{
+  "page_id": "governance-index",
+  "proposed_path": "knowledge/governance/README.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "CANONICAL",
+  "page_risk_score": 2,
+  "page_risk_class": "R1",
+  "subject_entities": [
+    "governance knowledge domain"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "GOVINDEX-1",
+      "claim_text": "The governance knowledge domain separates institutions, process, evidence states, registry, and economic policy.",
+      "claim_type": "INFORMATION_ARCHITECTURE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-07-15"
+}

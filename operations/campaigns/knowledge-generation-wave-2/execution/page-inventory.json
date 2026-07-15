@@ -1,0 +1,243 @@
+{
+  "campaign_id": "knowledge-generation-wave-2a",
+  "inventory_as_of": "2026-07-15",
+  "base": "origin/main",
+  "existing_knowledge_file_count": 48,
+  "existing_knowledge_files": [
+    "knowledge/README.md",
+    "knowledge/controversies/README.md",
+    "knowledge/economy/Economic-Report-Catalog.md",
+    "knowledge/economy/README.md",
+    "knowledge/events/README.md",
+    "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+    "knowledge/gameplay/Product-Registry.md",
+    "knowledge/gameplay/README.md",
+    "knowledge/governance/Governance-and-Economy-Overview.md",
+    "knowledge/governance/PIP-Registry.md",
+    "knowledge/governance/README.md",
+    "knowledge/guilds/Guild-Master-Index.md",
+    "knowledge/guilds/README.md",
+    "knowledge/index/Entity-Registry.md",
+    "knowledge/index/README.md",
+    "knowledge/index/source-registry/Audited-Community-Source-Profiles.md",
+    "knowledge/index/source-registry/Community-Content-URL-Inventory-2026-07-12.md",
+    "knowledge/index/source-registry/Official-Newsroom-Extraction-Batch-001.md",
+    "knowledge/index/source-registry/Official-Newsroom-Index.md",
+    "knowledge/index/source-registry/Public-Source-Registry.md",
+    "knowledge/lore/Canon-Registry.md",
+    "knowledge/lore/README.md",
+    "knowledge/media/Aephia-Crawl-Ledger.md",
+    "knowledge/media/Aephia-Source-Profile.md",
+    "knowledge/media/Aephia-URL-Manifest-from-Community-Inventory.md",
+    "knowledge/media/Aephia-Weekly-Newsletter-Index.md",
+    "knowledge/media/Community-Publication-Relationship-Index.md",
+    "knowledge/media/Media-and-Creator-Index.md",
+    "knowledge/media/README.md",
+    "knowledge/media/VBTV-Star-Atlas-TV-Recording-Index.md",
+    "knowledge/organizations/Institutional-Overview.md",
+    "knowledge/organizations/README.md",
+    "knowledge/people/Actor-Master-Index.md",
+    "knowledge/people/Krigs-Source-Profile.md",
+    "knowledge/people/README.md",
+    "knowledge/research/Community-Source-Attribution-Backlog.md",
+    "knowledge/research/README.md",
+    "knowledge/research/Research-Backlog.md",
+    "knowledge/technology/Official-Technical-Surface-Inventory.md",
+    "knowledge/technology/README.md",
+    "knowledge/technology/Technical-Platform.md",
+    "knowledge/timeline/Community-Timeline.md",
+    "knowledge/timeline/Corporate-Timeline.md",
+    "knowledge/timeline/Governance-Timeline.md",
+    "knowledge/timeline/Lore-Timeline.md",
+    "knowledge/timeline/Master-Timeline.md",
+    "knowledge/timeline/Product-Timeline.md",
+    "knowledge/timeline/README.md"
+  ],
+  "proposed_pages": [
+    {
+      "proposed_path": "knowledge/governance/PIP-Registry.md",
+      "page_action": "EXPAND",
+      "exists_on_main": true,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1/A3"
+    },
+    {
+      "proposed_path": "knowledge/governance/Star-Atlas-DAO.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1"
+    },
+    {
+      "proposed_path": "knowledge/governance/Star-Atlas-Foundation.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1"
+    },
+    {
+      "proposed_path": "knowledge/governance/Star-Atlas-Council.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1/A3"
+    },
+    {
+      "proposed_path": "knowledge/governance/Ecosystem-Fund.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1/A3"
+    },
+    {
+      "proposed_path": "knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1"
+    },
+    {
+      "proposed_path": "knowledge/governance/Governance-Implementation-and-Evidence-States.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1/A3"
+    },
+    {
+      "proposed_path": "knowledge/governance/Governance-and-Economy-Overview.md",
+      "page_action": "EXPAND",
+      "exists_on_main": true,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1/A2"
+    },
+    {
+      "proposed_path": "knowledge/governance/README.md",
+      "page_action": "EXPAND",
+      "exists_on_main": true,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1"
+    },
+    {
+      "proposed_path": "knowledge/organizations/Institutional-Overview.md",
+      "page_action": "EXPAND",
+      "exists_on_main": true,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1/A2"
+    },
+    {
+      "proposed_path": "knowledge/organizations/ATMTA.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A2"
+    },
+    {
+      "proposed_path": "knowledge/organizations/README.md",
+      "page_action": "EXPAND",
+      "exists_on_main": true,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A1/A2"
+    },
+    {
+      "proposed_path": "knowledge/gameplay/Product-Registry.md",
+      "page_action": "EXPAND",
+      "exists_on_main": true,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A2/B1"
+    },
+    {
+      "proposed_path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A2/B2"
+    },
+    {
+      "proposed_path": "knowledge/gameplay/SAGE.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A2/B1"
+    },
+    {
+      "proposed_path": "knowledge/gameplay/UE5-Showroom.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A2/B1"
+    },
+    {
+      "proposed_path": "knowledge/gameplay/Galactic-Marketplace.md",
+      "page_action": "CREATE",
+      "exists_on_main": false,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A2"
+    },
+    {
+      "proposed_path": "knowledge/gameplay/README.md",
+      "page_action": "EXPAND",
+      "exists_on_main": true,
+      "disposition_reason": "Wave 2A",
+      "evidence_packet_status": "REQUIRED",
+      "evidence_availability": "A2"
+    },
+    {
+      "proposed_path": "knowledge/media/Official-Discord-Announcements-Profile.md",
+      "page_action": "DEFER",
+      "exists_on_main": false,
+      "disposition_reason": "PR #15 evidence is unmerged",
+      "evidence_packet_status": "NOT_DRAFTED",
+      "evidence_availability": "unavailable"
+    },
+    {
+      "proposed_path": "knowledge/media/Official-X-Account-Profile.md",
+      "page_action": "DEFER",
+      "exists_on_main": false,
+      "disposition_reason": "Page cap; retain for later source-profile wave",
+      "evidence_packet_status": "NOT_DRAFTED",
+      "evidence_availability": "A2 available"
+    },
+    {
+      "proposed_path": "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+      "page_action": "RESEARCH_ONLY",
+      "exists_on_main": false,
+      "disposition_reason": "Complete article-level corpus review is absent",
+      "evidence_packet_status": "NOT_DRAFTED",
+      "evidence_availability": "partial"
+    },
+    {
+      "proposed_path": "knowledge/events/README.md",
+      "page_action": "DEFER",
+      "exists_on_main": true,
+      "disposition_reason": "Foundation portfolio uses the 18-output ceiling",
+      "evidence_packet_status": "NOT_DRAFTED",
+      "evidence_availability": "A2/B2 available"
+    }
+  ],
+  "wave_2a_output_count": 18,
+  "actions": {
+    "CREATE": 11,
+    "EXPAND": 7,
+    "MERGE": 0,
+    "REDIRECT": 0,
+    "DEFER": 3,
+    "RESEARCH_ONLY": 1
+  }
+}

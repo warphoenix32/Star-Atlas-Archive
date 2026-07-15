@@ -1,0 +1,64 @@
+{
+  "page_id": "ue5-showroom",
+  "proposed_path": "knowledge/gameplay/UE5-Showroom.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Unreal Engine 5 game",
+    "Showroom"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "UE5-1",
+      "claim_text": "Official records present the Unreal Engine 5 client as an early-access, evolving game surface.",
+      "claim_type": "PRODUCT_IDENTITY",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "TESTING",
+      "supporting_sources": [
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "archive/source-records/campaign-delta-official/"
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "UE5-2",
+      "claim_text": "Roadmap feature lists and test events do not establish general delivery of every described feature.",
+      "claim_type": "EVIDENCE_RULE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/",
+        "archive/semantic/atlas-brew/segment-index.json"
+      ],
+      "source_authority": [
+        "A2",
+        "B1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}

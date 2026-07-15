@@ -1,0 +1,62 @@
+{
+  "page_id": "pip-registry",
+  "proposed_path": "knowledge/governance/PIP-Registry.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Star Atlas DAO",
+    "PIPs"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "PIPREG-1",
+      "claim_text": "The captured corpus contains 33 numbered PIPs with proposal and vote states kept separate.",
+      "claim_type": "REGISTRY_SCOPE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "HISTORICAL",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PIPREG-2",
+      "claim_text": "Council-reported lifecycle and payment fields are attributed assessments, not independent verification.",
+      "claim_type": "EVIDENCE_QUALIFICATION",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json"
+      ],
+      "source_authority": [
+        "A3"
+      ],
+      "corroboration_status": "ATTRIBUTED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}

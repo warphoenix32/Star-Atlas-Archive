@@ -1,0 +1,70 @@
+{
+  "as_of": "2026-07-15",
+  "available_on_main": [
+    {
+      "path": "archive/semantic/governance/pip-registry-semantic.json",
+      "authority": [
+        "A1",
+        "A3"
+      ],
+      "use": "33 captured PIPs, vote/result separation, Council-attributed operational fields"
+    },
+    {
+      "path": "archive/semantic/governance/pip-source-reconciliation.json",
+      "authority": [
+        "A1",
+        "A3"
+      ],
+      "use": "portal and Council reconciliation"
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/",
+      "authority": [
+        "A1"
+      ],
+      "use": "captured PIP texts and provenance"
+    },
+    {
+      "path": "archive/source-records/campaign-delta-official/",
+      "authority": [
+        "A2"
+      ],
+      "use": "official product, support, and institutional publications"
+    },
+    {
+      "path": "archive/semantic/atlas-brew/",
+      "authority": [
+        "B1",
+        "C1"
+      ],
+      "use": "timestamped product discussion; unknown speakers remain unattributed"
+    },
+    {
+      "path": "archive/source-records/campaign-alpha-aephia/",
+      "authority": [
+        "B2"
+      ],
+      "use": "sourced community chronology used only with attribution"
+    },
+    {
+      "path": "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+      "authority": [
+        "A2"
+      ],
+      "use": "dated synthesis of captured official product positioning"
+    }
+  ],
+  "unavailable_or_deferred": [
+    {
+      "dependency": "PR #15",
+      "state": "OPEN_DRAFT",
+      "impact": "Official Discord source profile deferred"
+    },
+    {
+      "dependency": "complete Medium corpus review",
+      "state": "ABSENT",
+      "impact": "Medium profile remains research-only"
+    }
+  ],
+  "rule": "No Wave 2A page relies on C1 or C2 evidence alone."
+}

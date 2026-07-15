@@ -1,0 +1,63 @@
+{
+  "page_id": "governance-economy-overview",
+  "proposed_path": "knowledge/governance/Governance-and-Economy-Overview.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Star Atlas DAO",
+    "POLIS",
+    "Ecosystem Fund"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "GEO-1",
+      "claim_text": "POLIS voting authority and treasury policy connect governance decisions to economic administration.",
+      "claim_type": "INSTITUTIONAL_RELATIONSHIP",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GEO-2",
+      "claim_text": "Economic proposals must keep requested funding, approval, payment, and outcome separate.",
+      "claim_type": "EVIDENCE_RULE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}

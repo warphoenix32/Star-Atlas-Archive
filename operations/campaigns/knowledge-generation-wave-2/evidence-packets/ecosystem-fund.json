@@ -1,0 +1,82 @@
+{
+  "page_id": "ecosystem-fund",
+  "proposed_path": "knowledge/governance/Ecosystem-Fund.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Ecosystem Fund",
+    "Star Atlas DAO",
+    "Star Atlas Council"
+  ],
+  "aliases": [],
+  "scope": "Foundation synthesis constrained to evidence available on main as of 2026-07-15.",
+  "material_claims": [
+    {
+      "claim_id": "FUND-1",
+      "claim_text": "PIP-23 continues the Ecosystem Fund, replaces PIP-4, and establishes a 20% treasury budget subject to its terms.",
+      "claim_type": "GOVERNANCE_POLICY",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "UPDATED",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "FUND-2",
+      "claim_text": "Approval of a grant proposal remains separate from payment, milestone acceptance, and completed delivery.",
+      "claim_type": "EVIDENCE_RULE",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "FUND-3",
+      "claim_text": "PIP-23 requires funding requests to be denominated in USDC, payments in ATLAS, a 5% last-refill-balance ceiling, and a maximum 12-month duration.",
+      "claim_type": "GOVERNANCE_POLICY",
+      "temporal_scope": "historical/institutional",
+      "lifecycle_state": "LIVE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "DIRECT_PRIMARY",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": false,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state statements are date-bound.",
+    "Absence of evidence is not evidence of non-occurrence."
+  ],
+  "research_gaps": [
+    "Independent execution evidence remains incomplete where explicitly noted."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-15"
+}
