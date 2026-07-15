@@ -4219,34 +4219,39 @@
   ],
   "generated_outputs": [
     {
+      "path": "archive/normalized/social-governance-semantic-enrichment/.gitattributes",
+      "sha256": "930ec3ff0fa218b15c9d00b5b545d3aab5c3f305d34ce0444b0907fe16ac189e",
+      "bytes": 139
+    },
+    {
       "path": "archive/semantic/governance/pip-entity-links.json",
-      "sha256": "b812f11fe086acc13b6dee678689323dcdd63531bde4eca851aaa7707d4f5809",
-      "bytes": 49424
+      "sha256": "030c9f5e811f2842e1f43d84f26c4d997581fe07d013909e8981ebe546de9a47",
+      "bytes": 49417
     },
     {
       "path": "archive/semantic/governance/pip-execution-gaps.json",
-      "sha256": "b0aabb1eda58cccd96942ae0ee60ef39d2b06f0add97982ac046897f8f00fb88",
-      "bytes": 19016
+      "sha256": "c7759b15c5f65eab442d435a7c79b254a62834f36f31e01c2334eef91f3be9f3",
+      "bytes": 19009
     },
     {
       "path": "archive/semantic/governance/pip-promotion-candidates.json",
-      "sha256": "1683c26740b6a9254c825a68b6b0c17fa9046c8647d72c13eeab60dc8bdfff19",
-      "bytes": 17147
+      "sha256": "0a3073367d103cc6881c2932537df355ea025cbde056d35497679209368cb256",
+      "bytes": 17140
     },
     {
       "path": "archive/semantic/governance/pip-registry-semantic.json",
-      "sha256": "5cf2cbf2d3beb9e30497fe08061fd9956ba46c7d0328d97d8a8442362491f042",
-      "bytes": 546244
+      "sha256": "36296e37bdf3cc75be4dafbd511676c178d907a8b6472545334a6fcdb5b412a4",
+      "bytes": 546006
     },
     {
       "path": "archive/semantic/governance/pip-timeline-candidates.json",
-      "sha256": "17f94a87ed07a755152294b800fe61bf4b2143f98ea3516ab3257b043b2e150d",
-      "bytes": 11204
+      "sha256": "af413c6b8633ef4b56db2bde84f013c5dc3698a2997644277725b2e31e42ac2c",
+      "bytes": 11197
     },
     {
       "path": "archive/semantic/governance/pip-topic-index.json",
-      "sha256": "40d1ca10364f08957321477084f39c0771270e10b4e0f64e535131cc06dcc1eb",
-      "bytes": 10568
+      "sha256": "63c294dfb2c161b1d2b3ac0e17b8bb1d02c4eeea967c7719e9e1da735ebd56cf",
+      "bytes": 10561
     },
     {
       "path": "archive/semantic/social-media/entity-links.json",
@@ -4280,173 +4285,173 @@
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
-      "sha256": "39bce948eacebdf63c583497be8aa68a04d128beac44c8c41db9b67bc8e2996d",
-      "bytes": 1201
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
-      "sha256": "216ad6b93132ea57a827e2cc3751f870f0e41ef7e9eaf01aa443e7177212a1f7",
-      "bytes": 1208
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
-      "sha256": "ff7a078edcecc3406b9511222015cb7f51f09ce017095a938e0a7014526b9566",
-      "bytes": 1205
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-04-AD1945D8.json",
-      "sha256": "2f38f2f4f68b013093be8fbaed4f9dc50cdf86e58658c7451feba253816dabf0",
-      "bytes": 1212
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-05-C248D280.json",
-      "sha256": "e2fb97ed212c02f767dc9524f7e595151d43dbe3bf902d25057d13a462056dd5",
-      "bytes": 1211
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-06-1B792551.json",
-      "sha256": "904e9e4b38d83115280c66b922445e6b828e97d12670c3afb07532d5829cd3f4",
-      "bytes": 1335
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-07-91652743.json",
-      "sha256": "c7f2eff437bdd9c57216520121d2ec9162074e116884d12fc8abdda05dae2ca3",
-      "bytes": 1336
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-08-62506041.json",
-      "sha256": "b6f334f26f4040c8779dd3fcd80f19340be441ab106543695d53543fe6d4e5b6",
-      "bytes": 1232
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-09-1CC4BB6F.json",
-      "sha256": "506650bc20b315250fab93ff3fca035d37a9d870c404ee1f1bcf84b5ff20648f",
-      "bytes": 1245
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-10-ED887A4E.json",
-      "sha256": "cedb5dccf581f1f4e726dbd00c7fa25a42cbc6fb3381226553b49dc4b0402f8c",
-      "bytes": 1225
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-11-7B48A62D.json",
-      "sha256": "fc07e3826b867dee458f221a4275566d5be47c2b30aaaefefe483f502605a079",
-      "bytes": 1414
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-12-F15380C9.json",
-      "sha256": "eb06c7d51f26cdf1cb3575f8b8defed8d4c2e39687276a5a26b117b5853a5b86",
-      "bytes": 1211
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-13-B721D8E7.json",
-      "sha256": "2900fac9ab3f49c1d5c9742c49ec0ecb7aaed033e3211b33fca575121423a1f1",
-      "bytes": 1230
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-14-FED98016.json",
-      "sha256": "37eff13ce799f9ec6268514c03ef6a98fd27a33367c2eb8d9cdd3d6ec55a91db",
-      "bytes": 1265
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-15-BD065AD2.json",
-      "sha256": "6ce82fc8bc6aa331c0ae07f34e4fc4c2c785878f2cb2516e0cc965b01a43fdee",
-      "bytes": 1226
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-16-B11CED4B.json",
-      "sha256": "502068c928304f42b3e146d9a98a9f5de4e9e2165f761d027164add2c6bec618",
-      "bytes": 1204
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-17-4DF4C199.json",
-      "sha256": "09087ac1699da0e4c6f48fe277ece7aa359d00642b3762de79cef240440bce68",
-      "bytes": 1211
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-18-18750A6A.json",
-      "sha256": "632628d064cb1dcaad7a1cec5ade972a28663b96e8c245154c648b1c18e9dd16",
-      "bytes": 1227
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-19-1EB3D15E.json",
-      "sha256": "ce300d12881ddc844a0670fbb511acb31837b7c06b6f469343dcf61f4448526f",
-      "bytes": 1255
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-20-159CB743.json",
-      "sha256": "89d1fc16f34f5d98d7b03a44bed867b8a04d5aa31ca5d3cd3404d530bed08659",
-      "bytes": 1273
-    },
-    {
-      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-21-49CAD7E4.json",
-      "sha256": "8da57d38171095e60fb37965130e2976d297802217654e3e8fec8f788dda3b0f",
+      "sha256": "fc27143f3bd9281c7d99c40ad04f2e78511f00ae46469cc1de8138e4e8df48fa",
       "bytes": 1194
     },
     {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+      "sha256": "74e3e965ebc1e6c2259b4e8e4beff6ce08ed479dcf73935606e19db9da9590e7",
+      "bytes": 1201
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+      "sha256": "cb8bd96c2c3f6a4f0cc5c222fdfceed01961512e67b11caf1107983bab091b08",
+      "bytes": 1198
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-04-AD1945D8.json",
+      "sha256": "235f3485095e786fd603e58ddb4136277e1d2148ef51add9a10c198c5e4b4fa9",
+      "bytes": 1205
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-05-C248D280.json",
+      "sha256": "11694f161fbe8883cc0f94a259ce8dc4f0090d09c84707ff1fc51278679833fc",
+      "bytes": 1204
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-06-1B792551.json",
+      "sha256": "4beba4335ab7760c1fce4923e16ac28829d43fc4115fe0b09a880976696d9608",
+      "bytes": 1328
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-07-91652743.json",
+      "sha256": "8469995b80fd10e5762345bf17a45daabf5ffc9e2875a8eb078adbbf5121b2a5",
+      "bytes": 1329
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-08-62506041.json",
+      "sha256": "790091ab4e18206069efe9a29d2b986caaa20e580ffa5c432fa4cd421fb097ae",
+      "bytes": 1225
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-09-1CC4BB6F.json",
+      "sha256": "bddf0aeb1a79650d10a57dd79de572a2932df6df3fde7d567d5d1bf578b7661c",
+      "bytes": 1238
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-10-ED887A4E.json",
+      "sha256": "582e61fe56a6e34082172a4f1bf7175f7c76df7f27db49da7a978e41d39e81e6",
+      "bytes": 1218
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-11-7B48A62D.json",
+      "sha256": "dbdbed1cce8a3764bcee1e4edd40521b280ae5c4043b294dbee5132fd4f33958",
+      "bytes": 1407
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-12-F15380C9.json",
+      "sha256": "39e3a76a6122234a35d03c0686dd2a980c55aa37d5312573c6be0738e07a3eab",
+      "bytes": 1204
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-13-B721D8E7.json",
+      "sha256": "94a1b17221cce8f76b357e201001eb5756a701b793181d2f0581b59eca44885a",
+      "bytes": 1223
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-14-FED98016.json",
+      "sha256": "ac25088095871a6aca1e9b14b9191d3a91dbe044c585f68001e97ad1e2ba8b0c",
+      "bytes": 1258
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-15-BD065AD2.json",
+      "sha256": "bbd98a2ace911138632091bf4877cec1d1ffc3e5b7b5114b55b6d7c4399c5f71",
+      "bytes": 1219
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-16-B11CED4B.json",
+      "sha256": "bf6be8bcd2fab5eaa8e70453370512c5113b7354061bec27c5e163ee2a35becc",
+      "bytes": 1197
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-17-4DF4C199.json",
+      "sha256": "1ffe8a03e6ae14411fde9d7dfd28ed9a8b86b0b28da07716c99fb365171d91c0",
+      "bytes": 1204
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-18-18750A6A.json",
+      "sha256": "bc139774986ee1f28476845b069a0d169ece1055de22561466b43acdab8cd271",
+      "bytes": 1220
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-19-1EB3D15E.json",
+      "sha256": "706ed389542c7920dd9becc0ec74eb1792f0310181a797d24e3b968bd185856d",
+      "bytes": 1248
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-20-159CB743.json",
+      "sha256": "0999a08cfb81d999019cbb0974cb0224a9e9234161febd590f517a8a86e1cfe1",
+      "bytes": 1266
+    },
+    {
+      "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-21-49CAD7E4.json",
+      "sha256": "1550f5f50ab3ebfc49c9bd88c2f8693f28f40f332e184872cee822d60294cd99",
+      "bytes": 1187
+    },
+    {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-22-D5D61E64.json",
-      "sha256": "2c7fd5380b5c96cf05066f566e220344211f0b1a40fe08b79f8014d36c5df0a6",
-      "bytes": 1211
+      "sha256": "1dd1e29909783de1f323246af78b3a833fb66f9c5b5d3b62476afdf002592eae",
+      "bytes": 1204
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
-      "sha256": "dda8ea0475dbc8f67134c45e7b845b079cafa30f47d40890fed849cd9784e39d",
-      "bytes": 1275
+      "sha256": "e9ff367c6e1ffe1a71c261c709a8559fb0fda8f854e0d10bb54fb7340ad0dc0c",
+      "bytes": 1268
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-24-8CC6B298.json",
-      "sha256": "55cd422ba23f12cf88e8edfa50d8f294d84d3f71479948f7add86a10e678f842",
-      "bytes": 1214
+      "sha256": "f497c4797209a44b6879630f3da817846c8a91dbf3689edc552b21278513a951",
+      "bytes": 1207
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-25-91CC73FA.json",
-      "sha256": "cfd8f7cd12142f2d22b19212171ed69a6eee9ae1a56d1a615a8f67b6398efafb",
-      "bytes": 1414
+      "sha256": "70c2cc43607f39d907445b26456e35258a7d0ed35df0f0b175dbb0d88661a23a",
+      "bytes": 1407
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-26-B70AC545.json",
-      "sha256": "718aec7a5c8e0706dcad0cedc81d09ab76c258465aa84e63bf2df8fdd5769b33",
-      "bytes": 1228
+      "sha256": "ce7791deda43b2e77e836994f3ea2e4657434c415d7e5b326ca0b5c925e4bc16",
+      "bytes": 1221
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-27-064D252C.json",
-      "sha256": "9ef09a21fd7629f81e1526228be91ead8d37f261a63410338f46c8e2a66d0822",
-      "bytes": 1313
+      "sha256": "d5e389cb7f7c16ffb96d20a663345da92507b05e4b7c644c8e41fe9aa529bbb9",
+      "bytes": 1306
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-28-D0A5DC75.json",
-      "sha256": "d187441f15aece30bd708cb2e2079527a7473cf7e53b1fccb7918a59bfaad4a9",
-      "bytes": 1251
+      "sha256": "d3d08fda3a0c00b58dd41001aa806461ed8cc0bfd1c0dbf7788d648f93841125",
+      "bytes": 1244
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-29-8E761702.json",
-      "sha256": "b3c2350c2a01a0aecc61130cb0d3be46de91ca4ba9915a261b3ae5ede215a3ff",
-      "bytes": 1265
+      "sha256": "c3060b115b09b3844b484a04e07a20dc73722bfc9f945a5b9385a6b772fb5af2",
+      "bytes": 1258
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-30-3BA029F2.json",
-      "sha256": "86323ad8adfdd37ce6c6bea08e663e63462cf9ee0b4ec66b11dcfc57fcb3881c",
-      "bytes": 1276
+      "sha256": "c6866daa36f98a9d4f782efd9af1fcda90ccd0f17dd4c9e37616f3eea139e8b7",
+      "bytes": 1269
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-31-E71FB1A7.json",
-      "sha256": "d83a6d106ba6ca6f232ca91ca69478e6b1ce72139c112e3028743e398436e22a",
-      "bytes": 1229
+      "sha256": "482a547909a4574df24d77b21b1546428be3490e01cec2c863768f7cecab0e48",
+      "bytes": 1222
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-32-0B04FF9B.json",
-      "sha256": "6e4f4bf0b48461cde816c05769554627190852c09f4a29cd13608e2f5524705d",
-      "bytes": 1267
+      "sha256": "5dbae4d5da81069e6bc569be9b22216e975ea614f7871224971ca36bc833564c",
+      "bytes": 1260
     },
     {
       "path": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
-      "sha256": "04d908ff66b1c4d918c731ae56c9ab60fdb6f695fcac2610d55fdad0904f0852",
-      "bytes": 1239
+      "sha256": "fa01e0d2f86ee409666be0c40fa4697a2350a8829f789839386e9ee30ca74b36",
+      "bytes": 1232
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/build_campaign.py",
-      "sha256": "fe3d4a2712f91f9697f9310198b10fea751ea7b3d59491f792fefef162aaa011",
-      "bytes": 37868
+      "sha256": "bcc43574d455223a7e9a9e1894605f1eaed8e4bbbf36544d298c59ca82524243",
+      "bytes": 37909
     },
     {
       "path": "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.md",

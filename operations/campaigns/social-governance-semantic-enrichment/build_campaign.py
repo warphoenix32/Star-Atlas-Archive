@@ -13,7 +13,6 @@ import hashlib
 import json
 import re
 from collections import Counter, defaultdict
-from datetime import datetime, timezone
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from urllib.parse import urlparse
@@ -21,7 +20,7 @@ from urllib.parse import urlparse
 
 REPO = Path(__file__).resolve().parents[3]
 CAMPAIGN_ID = "social-governance-semantic-enrichment"
-CAPTURE_TIMESTAMP = "2026-07-15T00:00:00Z"  # comparison boundary; per-record timestamps come from capture files
+CAPTURE_TIMESTAMP = "2026-07-15T03:41:40Z"  # completion time of the 33-record official API capture batch
 SOCIAL_INPUT = REPO / "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"
 PIP_SEED = REPO / "archive/normalized/social-governance-semantic-enrichment/governance/pip-1-33-registry-seed.json"
 PIP_RAW = REPO / "archive/raw/social-governance-semantic-enrichment/governance/pip-captures"
@@ -407,7 +406,7 @@ def build_governance(entity_catalog):
         limitations.append("No execution claim is made without a separate official implementation record, transaction, transfer, or equivalent primary evidence.")
         approval = "APPROVED" if result == "PASSED" else ("FAILED" if result == "FAILED" else "UNKNOWN")
         winners = election.get("winners", []) if election else []
-        record_capture_timestamp = datetime.fromtimestamp(raw_path.stat().st_mtime, timezone.utc).isoformat().replace("+00:00", "Z")
+        record_capture_timestamp = CAPTURE_TIMESTAMP
         record = {
             "source_id": source["source_id"], "pip_number": number,
             "proposal_uuid": source["proposal_uuid"], "proposal_url": source["proposal_url"],
@@ -553,8 +552,9 @@ Unmatched handles and hashtags are listed per semantic record. They were not con
     ]
     (OPS / "validation-report.md").write_text("\n".join(report_lines), encoding="utf-8")
 
-    generated = [p for base in [SOCIAL_OUT, GOV_OUT, GOV_RECORDS, OPS] for p in base.rglob("*") if p.is_file() and p.name != "manifest.json" and (OPS / "input-package") not in p.parents]
-    inputs = [p for base in [REPO / "archive/raw/social-governance-semantic-enrichment", REPO / "archive/normalized/social-governance-semantic-enrichment", REPO / "archive/source-records/social-governance-semantic-enrichment/social-media", OPS / "input-package"] for p in base.rglob("*") if p.is_file()]
+    integration_attributes = REPO / "archive/normalized/social-governance-semantic-enrichment/.gitattributes"
+    generated = [p for base in [SOCIAL_OUT, GOV_OUT, GOV_RECORDS, OPS] for p in base.rglob("*") if p.is_file() and p.name != "manifest.json" and (OPS / "input-package") not in p.parents] + [integration_attributes]
+    inputs = [p for base in [REPO / "archive/raw/social-governance-semantic-enrichment", REPO / "archive/normalized/social-governance-semantic-enrichment", REPO / "archive/source-records/social-governance-semantic-enrichment/social-media", OPS / "input-package"] for p in base.rglob("*") if p.is_file() and p.name != ".gitattributes"]
     manifest = {
         "campaign_id": CAMPAIGN_ID, "schema_version": "1.0.0", "status": validation["status"],
         "input_package_sha256": "bc209310c968cfb5f77e0962fb091d54bde8ed949a583beF2ace07b042f706d1".lower(),
