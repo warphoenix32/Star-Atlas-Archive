@@ -41,7 +41,7 @@ known_limitations:
   - "Relationships are summarized from reviewed knowledge pages and remain subject to each linked page's evidence qualifications."
 research_gaps:
   - "Current staff, service-provider, and product relationships require periodic review."
-  - "Discord-dependent source profiles remain deferred until PR #15 is merged."
+  - "The official Discord source profile remains to be generated from the now-merged announcement corpus."
 review_after: 2027-01-15
 ---
 
@@ -110,7 +110,7 @@ The [Product Registry](gameplay/Product-Registry.md) is the canonical navigation
 | Council PIP tracker | attributed operational status, milestone, payment, and accomplishment assessments |
 | Official social posts | announcement, release, event, and lifecycle evidence after semantic review |
 | Reviewed transcripts | contextual explanation and attributed statements when speaker identity is known |
-| Official Discord announcements | deferred source profile pending completion and merge of PR #15 |
+| Official Discord announcements | merged archive and semantic corpus; dedicated knowledge profile remains future work |
 | Official Medium publication | qualified source profile only until an exhaustive article-level corpus review is completed |
 
 ## Navigation by question
