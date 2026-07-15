@@ -1,61 +1,19 @@
 {
   "campaign_id": "knowledge-generation-wave-2a",
-  "validation_result": "PASS",
-  "outputs": 18,
-  "created": 11,
+  "validation_result": "PASS_WITH_CURATOR_APPROVED_SCOPE_EXTENSION",
+  "outputs": 19,
+  "created": 12,
   "expanded": 7,
   "knowledge_status_distribution": {
     "CANONICAL": 6,
     "HISTORICAL": 1,
-    "QUALIFIED": 11
+    "QUALIFIED": 12
   },
   "risk_class_distribution": {
     "R1": 6,
-    "R2": 12
+    "R2": 13
   },
   "low_risk_percentage": 100.0,
-  "single_authority_class_pages": [
-    {
-      "path": "knowledge/gameplay/Galactic-Marketplace.md",
-      "authority_class": "A2"
-    },
-    {
-      "path": "knowledge/gameplay/README.md",
-      "authority_class": "A2"
-    },
-    {
-      "path": "knowledge/governance/README.md",
-      "authority_class": "A1"
-    },
-    {
-      "path": "knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md",
-      "authority_class": "A1"
-    },
-    {
-      "path": "knowledge/gameplay/Product-Registry.md",
-      "authority_class": "A2"
-    },
-    {
-      "path": "knowledge/gameplay/SAGE.md",
-      "authority_class": "A2"
-    },
-    {
-      "path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
-      "authority_class": "A2"
-    },
-    {
-      "path": "knowledge/governance/Star-Atlas-DAO.md",
-      "authority_class": "A1"
-    },
-    {
-      "path": "knowledge/governance/Star-Atlas-Foundation.md",
-      "authority_class": "A1"
-    },
-    {
-      "path": "knowledge/gameplay/UE5-Showroom.md",
-      "authority_class": "A2"
-    }
-  ],
   "r3_or_r4_pages": [],
   "broken_internal_links": [],
   "prohibited_path_changes": [],
@@ -70,9 +28,22 @@
     "publication_untouched": true,
     "json_parses": true,
     "yaml_front_matter_schema_parses": true,
+    "entity_relationship_map_present": true,
+    "entity_relationship_map_evidence_packet_present": true,
+    "knowledge_overview_links_relationship_map": true,
     "markdown_lint": "NOT_AVAILABLE; structural checks passed",
     "repository_schema_checks": "NO_REPOSITORY-WIDE_SUITE_PRESENT"
   },
+  "scope_extension": {
+    "original_output_ceiling": 18,
+    "revised_output_count": 19,
+    "authorized_by": "Chief of Staff / Institutional Knowledge Curator",
+    "reason": "Add a human-readable entity relationship map as the repository ontology and navigation layer.",
+    "risk_class": "R2",
+    "knowledge_status": "QUALIFIED"
+  },
   "errors": [],
-  "warnings": []
+  "warnings": [
+    "The final output count exceeds the original Wave 2A ceiling by one through explicit curator authorization."
+  ]
 }
