@@ -145,6 +145,38 @@ def main() -> int:
         "pip33_payment_unverified": "PAYMENT_UNVERIFIED" in (ROOT / "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md").read_text(encoding="utf-8"),
         "refills_remain_attributed": "not independently reconciled" in (ROOT / "knowledge/governance/Ecosystem-Fund.md").read_text(encoding="utf-8"),
     }
+    sage_text = (ROOT / "knowledge/gameplay/SAGE.md").read_text(encoding="utf-8")
+    sage_meta = meta(sage_text)
+    semantic_checks["sage_aliases_are_true_aliases"] = sage_meta.get("aliases") == ["Star Atlas: Golden Era"]
+    semantic_checks["sage_lifecycle_surfaces_are_not_aliases"] = all(
+        name in " ".join(sage_meta.get("lifecycle_surfaces", []) + sage_meta.get("related_products", []))
+        for name in ("Project S.C.R.E.A.M.", "SAGE Labs", "Starbased", "SAGE 3D", "C4 PTR")
+    )
+    registry_text = (ROOT / "knowledge/gameplay/Product-Registry.md").read_text(encoding="utf-8")
+    semantic_checks["product_registry_narrow_lifecycle_rows"] = all(value in registry_text for value in (
+        "Faction Fleet application surface", "Faction Fleet reward-emissions program",
+        "SAGE umbrella identity", "SAGE Labs browser release", "Starbased update", "SAGE 3D",
+        "2021 Project Serum-era surface", "2022 replacement",
+    )) and all(value not in registry_text for value in (
+        "[SCORE / Faction Fleet]", "[SAGE / SAGE Labs]", "| [Galactic Marketplace](",
+        "`LIVE / UPDATED`", "`TESTING / UPDATED`",
+    ))
+    treasury_text = (ROOT / "knowledge/economy/DAO-Treasury-Architecture.md").read_text(encoding="utf-8")
+    treasury_meta = meta(treasury_text)
+    semantic_checks["treasury_architecture_and_account_distinct"] = (
+        treasury_meta.get("canonical_entity") == "SYSTEM-STAR-ATLAS-TREASURY-ARCHITECTURE"
+        and "DAO Treasury" not in treasury_meta.get("aliases", [])
+        and "DAO Treasury account" in treasury_text
+        and "must not be merged into that account's canonical identity" in treasury_text
+    )
+    pvp_text = (ROOT / "knowledge/economy/PVP-Voting-Power.md").read_text(encoding="utf-8")
+    adjudications = parsed_json.get(HERE / "review-adjudications.json", {}).get("adjudications", [])
+    semantic_checks["binary_rule_is_editorial_adjudication"] = (
+        "owner-approved repository editorial adjudication" in pvp_text
+        and "not source-native governance text" in pvp_text
+        and len(adjudications) == 1
+        and adjudications[0].get("source_native_status") == "NOT_ASSERTED_AS_PIP_1_TEXT"
+    )
     product = (ROOT / "knowledge/timeline/Product-Timeline.md").read_text(encoding="utf-8")
     master = (ROOT / "knowledge/timeline/Master-Timeline.md").read_text(encoding="utf-8")
     semantic_checks["product_event_order"] = product.index("2025-06-04 — Holosim") < product.index("2025-06-05 — C4")
@@ -153,7 +185,7 @@ def main() -> int:
         if not passed:
             errors.append(f"Semantic lifecycle check failed: {name}")
 
-    generated = sorted((HERE / "evidence-packets").glob("*.json")) + [HERE / x for x in ("archival-depth-review.json", "archival-depth-review.md", "campaign-summary.json", "campaign-summary.md", "promotion-ledger.json", "promotion-ledger.md")]
+    generated = sorted((HERE / "evidence-packets").glob("*.json")) + [HERE / x for x in ("archival-depth-review.json", "archival-depth-review.md", "campaign-summary.json", "campaign-summary.md", "promotion-ledger.json", "promotion-ledger.md", "review-adjudications.json", "review-adjudications.md")]
     before = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in generated}
     rebuild = subprocess.run(["python", str(HERE / "build_campaign.py")], cwd=ROOT, text=True, capture_output=True)
     after = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in generated}

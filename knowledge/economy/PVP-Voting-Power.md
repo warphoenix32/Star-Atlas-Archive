@@ -28,6 +28,10 @@ evidence_basis:
   - "archive/source-records/campaign-delta-official/SRC-OFF-45B0F6196BC7966E.md"
   - "archive/source-records/campaign-delta-official/SRC-OFF-4312E3B0005E60A3.md"
   - "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json"
+editorial_adjudications:
+  - "COMPLETED_BINARY_VOTE_RULE — owner-approved repository interpretation; not asserted as text contained in PIP-1"
+adjudication_basis:
+  - "operations/campaigns/knowledge-context-refresh-2026-07-17/review-adjudications.json"
 known_limitations:
   - "The reviewed sources describe the inputs and decay behavior but do not provide a complete independently verified implementation formula."
   - "Current interface instructions and reward parameters may change."
@@ -67,7 +71,9 @@ The archive does not yet establish the live multiplier curve, rounding behavior,
 
 ## Decision boundaries
 
-PVP measures voting weight. It does not by itself establish proposal passage, implementation, or execution. PIP-1 contains historical quorum language but does not specify a numeric quorum threshold in the captured text. The repository's reviewed completed-binary rule compares YES and NO PVP, while abstentions are preserved as non-decisive; elections use their separate ranked-choice mechanism. This distinction is preserved rather than silently replacing the charter language. See the [PIP Registry](../governance/PIP-Registry.md) and [PIP lifecycle](../governance/PIP-Lifecycle-and-Legislative-Process.md).
+PVP measures voting weight. It does not by itself establish proposal passage, implementation, or execution. PIP-1 contains historical quorum language but does not specify a numeric quorum threshold in the captured text.
+
+The **completed-binary vote rule is an owner-approved repository editorial adjudication**, not source-native governance text and not a rule asserted to appear in PIP-1. For completed captured binary votes, the repository compares YES and NO PVP and preserves abstentions as non-decisive; elections use their separate ranked-choice mechanism. This curatorial rule is recorded as `COMPLETED_BINARY_VOTE_RULE` in the campaign's [review adjudications](../../operations/campaigns/knowledge-context-refresh-2026-07-17/review-adjudications.json) so later editors and graph work can distinguish source-derived mechanics from repository interpretation. See the [PIP Registry](../governance/PIP-Registry.md) and [PIP lifecycle](../governance/PIP-Lifecycle-and-Legislative-Process.md).
 
 For binary proposals, raw ballot count and PVP weight can tell different stories. The official captures retain both `count` and `pvp`; the governing result is weight-based. Abstaining PVP contributes to participation reporting but is not silently added to either YES or NO. For elections, advancing candidates, final winners, and ranked-choice mechanics must be interpreted from the specific PIP rather than forced into the binary rule.
 

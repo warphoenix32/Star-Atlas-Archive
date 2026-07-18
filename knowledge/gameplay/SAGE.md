@@ -8,9 +8,13 @@ page_risk_class: R2
 canonical_entity: PRODUCT-SAGE
 aliases:
   - "Star Atlas: Golden Era"
-  - "SAGE Labs"
-  - "SAGE Labs Starbased"
-  - "Project S.C.R.E.A.M."
+lifecycle_surfaces:
+  - "Project S.C.R.E.A.M. — predecessor development identity"
+  - "SAGE Labs — 2023 browser release"
+  - "Starbased — 2024 SAGE Labs update"
+related_products:
+  - "SAGE 3D — later community-reported build or interface"
+  - "C4 PTR — related later testing surface"
 first_seen: 2022-04-29
 last_reviewed: 2026-07-17
 source_priority:
@@ -45,7 +49,7 @@ SAGE—Star Atlas: Golden Era—is the browser-based, on-chain strategy product 
 
 Official late-2025 support documentation describes SAGE Labs as a browser-based 4X strategy game built on Solana. Its stated loop includes fleet formation, exploration, mining, crafting, transport, faction competition, and an on-chain economy using ATLAS. This is first-party documentation of the supported product at the capture date; it does not independently verify economic outcomes, uninterrupted availability, or the first appearance of each mechanic. [SRC-OFF-0A646AE069AFFBA5](../../archive/source-records/campaign-delta-official/SRC-OFF-0A646AE069AFFBA5.md)
 
-SAGE is best treated as a product family rather than an immutable build:
+SAGE is best treated as a product family rather than an immutable build. The following names are lifecycle surfaces, predecessor identities, or related products—not aliases of the canonical SAGE entity:
 
 - **Project S.C.R.E.A.M.** is the early development name preserved in 2022 prototype and roadmap evidence.
 - **SAGE / Star Atlas: Golden Era** is the umbrella identity announced in November 2022.
@@ -89,7 +93,7 @@ Late-2025 official support documentation describes the mature Starbased surface 
 
 ## Current state
 
-As of 2026-07-17, first-party archived material supports `LIVE / UPDATED` for the SAGE product family: SAGE Labs was stated live on 2023-09-21, Starbased was stated live on 2024-04-04, and official support documentation described a functioning Starbased surface in December 2025. C4 is supported only as `TESTING` in PTR evidence. The corpus does not establish that every roadmap phase, interoperability claim, announced economic transition, or proposed mechanic has shipped or remains active.
+As of 2026-07-17, no single lifecycle label is assigned to the SAGE product family. The narrow findings are: SAGE Labs was stated `LIVE` on 2023-09-21; the Starbased update was stated `LIVE` on 2024-04-04 and described in official support documentation in December 2025; SAGE 3D remains `UNKNOWN` pending an exact official release record; and C4 PTR is supported only as `TESTING`. These dated records do not independently establish uninterrupted present availability. The corpus also does not establish that every roadmap phase, interoperability claim, announced economic transition, or proposed mechanic has shipped or remains active.
 
 ## Historical value
 

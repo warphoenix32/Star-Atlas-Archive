@@ -4,7 +4,7 @@
   "evidence_packets": 14,
   "material_claims_reviewed": 42,
   "archival_depth_pages_checked": 14,
-  "campaign_json_files_parsed": 18,
+  "campaign_json_files_parsed": 19,
   "broken_internal_links": [],
   "prohibited_path_changes": [],
   "checks": {
@@ -25,6 +25,11 @@
       "pip33_direct_treasury": true,
       "pip33_payment_unverified": true,
       "refills_remain_attributed": true,
+      "sage_aliases_are_true_aliases": true,
+      "sage_lifecycle_surfaces_are_not_aliases": true,
+      "product_registry_narrow_lifecycle_rows": true,
+      "treasury_architecture_and_account_distinct": true,
+      "binary_rule_is_editorial_adjudication": true,
       "product_event_order": true,
       "master_event_order": true
     },

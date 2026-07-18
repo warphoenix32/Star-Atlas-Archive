@@ -5,10 +5,11 @@ as_of: 2026-07-17
 confidence: HIGH
 page_risk_score: 6
 page_risk_class: R2
-canonical_entity: SYSTEM-STAR-ATLAS-DAO-TREASURY
+canonical_entity: SYSTEM-STAR-ATLAS-TREASURY-ARCHITECTURE
 aliases:
-  - "DAO Treasury"
-  - "Star Atlas treasury"
+  - "Star Atlas DAO treasury architecture"
+named_accounts:
+  - "DAO Treasury account — CuwnarNh7FEqZMmffFjRyWj54RecyS7zwFg1CxfzNudi"
 first_seen: 2024-07-08
 last_reviewed: 2026-07-17
 source_priority:
@@ -44,7 +45,9 @@ review_after: 2027-01-17
 
 # Star Atlas DAO Treasury Architecture
 
-The Star Atlas DAO treasury is the set of governed accounts, programs, and institutional responsibilities used to authorize and execute DAO financial actions. A proposal can authorize spending without proving that a transfer occurred or that funded work was completed.
+The **Star Atlas DAO treasury architecture** is the wider system of governed accounts, programs, and institutional responsibilities used to authorize and execute DAO financial actions. Within that architecture, the **DAO Treasury account** is one specific named Solana account: `CuwnarNh7FEqZMmffFjRyWj54RecyS7zwFg1CxfzNudi`. The POLIS Locker, DAO Emissions account, DAO Sales Account, ATLAS Locker, and Ecosystem Fund wallet are separate components and must not be merged into that account's canonical identity.
+
+A proposal can authorize spending from or through the treasury architecture without proving that a transfer occurred or that funded work was completed.
 
 This page documents the architecture represented in the repository's captured sources. It is not a balance sheet, transaction ledger, or legal opinion. Wallet labels and program descriptions are source-attributed; the repository has not independently proved present-day control, upgrade authority, or custody.
 
@@ -65,7 +68,7 @@ PIP-1 names the following Solana mainnet components. The table records the propo
 | POLIS Locker | `Lock7kBijGCQLEFAmXcengzXKA88iDNQPriQ7TbgeyG` | Locks POLIS used to derive voting weight. |
 | POLIS Locker Snapshots | `snapNQkxsiqDWdbNfz8KVB7e3NPzLwtHHA6WV8kKgUc` | Snapshot component named by the charter. |
 | DAO Proxy Rewarder | `gateVwTnKyFrE8nxUUgfzoZTPKgJQZUbLsEidpG4Dp2` | Rewarder component named by the charter. |
-| DAO Treasury | `CuwnarNh7FEqZMmffFjRyWj54RecyS7zwFg1CxfzNudi` | General treasury account named by PIP-1 and PIP-23. |
+| DAO Treasury account | `CuwnarNh7FEqZMmffFjRyWj54RecyS7zwFg1CxfzNudi` | Specific general treasury account named by PIP-1 and PIP-23; not a label for the entire architecture. |
 | DAO Emissions | `5MPLVoZ2cJHy8gkvFu9tCTuqu9P8Fm8xz8Swpo6TfjDu` | Emissions account named by the charter. |
 | DAO Sales Account | `NPCxfjPxh6pvRJbGbWZjxfkqWfGBvKkqPbtiJar3mom` | Sales account named by PIP-1; also referenced in PIP-33's R4-sales appendix. |
 | ATLAS Locker | `ATLocKpzDbTokxgvnLew3d7drZkEzLzDpzwgrgWKDbmc` | ATLAS locking component named by the charter. |
@@ -90,9 +93,9 @@ PIP-1 and PIP-2 allow the Foundation to decline unsafe, unlawful, misleading, or
 
 ## Ecosystem Fund relationship
 
-PIP-23 is the controlling captured Ecosystem Fund framework. It specifies the DAO Treasury and Ecosystem Fund wallets, allocation and refill formulas, the USDC reserve threshold, USDC-denominated requests, ATLAS payments, and Council stewardship boundaries. The proposal includes transaction references for prior refills, but each transaction and later payment still requires claim-specific reconciliation. [PIP-23; SRC-PIP-23-0ECF2928](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json)
+PIP-23 is the controlling captured Ecosystem Fund framework. It specifies the named DAO Treasury account and the separate Ecosystem Fund wallet, allocation and refill formulas, the USDC reserve threshold, USDC-denominated requests, ATLAS payments, and Council stewardship boundaries. The proposal includes transaction references for prior refills, but each transaction and later payment still requires claim-specific reconciliation. [PIP-23; SRC-PIP-23-0ECF2928](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json)
 
-The Ecosystem Fund is a bounded treasury suballocation, not the only route by which POLIS holders may authorize a treasury obligation. PIP-33 expressly presents its reimbursement request as a direct, extraordinary DAO Treasury measure outside the standard Ecosystem Fund cap. The Council tracker semantic record also marks the proposal as not using the Ecosystem Fund. The semantic registry's contrary `STAR_ATLAS_ECOSYSTEM_FUND` funding-source label is therefore not promoted into knowledge. [PIP-33; SRC-PIP-33-397FEE39](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json) [Council tracker semantic records](../../operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl)
+The Ecosystem Fund is a bounded suballocation within the wider treasury architecture, not the only route by which POLIS holders may authorize a treasury obligation. PIP-33 expressly presents its reimbursement request as a direct, extraordinary measure against the named DAO Treasury account outside the standard Ecosystem Fund cap. The Council tracker semantic record also marks the proposal as not using the Ecosystem Fund. The semantic registry's contrary `STAR_ATLAS_ECOSYSTEM_FUND` funding-source label is therefore not promoted into knowledge. [PIP-33; SRC-PIP-33-397FEE39](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json) [Council tracker semantic records](../../operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl)
 
 ## Evidence states
 
@@ -108,10 +111,10 @@ For treasury research, the minimum evidentiary chain is therefore: proposal text
 
 ## Known source conflicts
 
-- The PIP registry semantic layer labels PIP-33 with an Ecosystem Fund funding source, while the primary proposal says `DAO Treasury`, states that the request exceeds the Ecosystem Fund cap, and the Council tracker marks `ecosystem_fund: NO`. This page follows the primary proposal and preserves the semantic label as a rejected conflict.
+- The PIP registry semantic layer labels PIP-33 with an Ecosystem Fund funding source, while the primary proposal names the DAO Treasury account, states that the request exceeds the Ecosystem Fund cap, and the Council tracker marks `ecosystem_fund: NO`. This page follows the primary proposal and preserves the semantic label as a rejected conflict.
 - The governance portal capture's generic status fields do not by themselves encode implementation. Vote totals, proposal text, Council operational assessments, and transfer evidence must be evaluated separately.
 - Council tracker milestone counts are Council-authored operational assessments. A value such as `1/1` is not automatically a transaction receipt or independent proof of completion.
 
 ## Current state
 
-As of 2026-07-17, the archive supports the institutional and program architecture above. It does not establish live balances, current signers, or transaction-level verification of every disbursement. See [PIP-33 ATMTA Historic Expense Reimbursement](../governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md) for the direct-treasury case and its unresolved payment state.
+As of 2026-07-17, the archive supports the institutional and program architecture above and the identity of the named DAO Treasury account. It does not establish live balances, current signers, or transaction-level verification of every disbursement. See [PIP-33 ATMTA Historic Expense Reimbursement](../governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md) for the direct-account case and its unresolved payment state.

@@ -66,9 +66,9 @@
     {
       "page_id": "pvp",
       "path": "knowledge/economy/PVP-Voting-Power.md",
-      "word_count": 849,
+      "word_count": 904,
       "section_count": 5,
-      "reference_link_count": 6,
+      "reference_link_count": 7,
       "review_result": "PASS",
       "dimensions_verified": [
         "scope",
@@ -82,7 +82,7 @@
     {
       "page_id": "dao-treasury",
       "path": "knowledge/economy/DAO-Treasury-Architecture.md",
-      "word_count": 1123,
+      "word_count": 1211,
       "section_count": 7,
       "reference_link_count": 9,
       "review_result": "PASS",
@@ -130,7 +130,7 @@
     {
       "page_id": "sage",
       "path": "knowledge/gameplay/SAGE.md",
-      "word_count": 1252,
+      "word_count": 1321,
       "section_count": 7,
       "reference_link_count": 12,
       "review_result": "PASS",
@@ -146,7 +146,7 @@
     {
       "page_id": "product-registry",
       "path": "knowledge/gameplay/Product-Registry.md",
-      "word_count": 936,
+      "word_count": 1136,
       "section_count": 6,
       "reference_link_count": 9,
       "review_result": "PASS",
@@ -244,7 +244,8 @@
     "Governance pages now preserve proposal, vote, passage, authorization, payment, and execution as separate evidence states.",
     "Product pages now distinguish first mention, plan, development, testing, live release, delay, supersession, and deprecation.",
     "Source profiles now distinguish supplied-corpus completeness from historical-publication completeness and preserve authorship boundaries.",
-    "Indexes and timelines retain qualified summaries and resolve all internal repository links."
+    "Indexes and timelines retain qualified summaries and resolve all internal repository links.",
+    "Approval-review corrections separate lifecycle surfaces from aliases, narrow product lifecycle rows, distinguish the named DAO Treasury account from the wider architecture, and identify the completed-binary rule as an editorial adjudication."
   ],
   "remaining_limitations": [
     "PIP-33 payment execution remains unverified.",

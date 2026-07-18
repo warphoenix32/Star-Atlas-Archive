@@ -14,7 +14,7 @@ SPECS = [
     ("official-x", "knowledge/media/Official-X-Account-Profile.md", "CREATE", "QUALIFIED", 4, "R2", ["operations/campaigns/social-governance-semantic-enrichment/validation-report.json", "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"], "The captured official account corpus contains 796 unique posts; originals and retweets have different authority."),
     ("official-medium", "knowledge/media/Star-Atlas-Medium-Publication-Profile.md", "CREATE", "QUALIFIED", 6, "R2", ["archive/semantic/discord-announcements/announcement-semantic-records.jsonl"], "The official Medium publication is a discoverable source family, but complete article-by-article review is absent."),
     ("pvp", "knowledge/economy/PVP-Voting-Power.md", "CREATE", "QUALIFIED", 4, "R2", ["archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json", "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json"], "PVP is time-weighted POLIS voting power; the 2022 reward target remains historical announced intent."),
-    ("dao-treasury", "knowledge/economy/DAO-Treasury-Architecture.md", "CREATE", "QUALIFIED", 6, "R2", ["archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json", "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json", "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json", "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl"], "The DAO Treasury is broader than the bounded Ecosystem Fund; authorization does not prove transfer."),
+    ("dao-treasury", "knowledge/economy/DAO-Treasury-Architecture.md", "CREATE", "QUALIFIED", 6, "R2", ["archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json", "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json", "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json", "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl"], "The wider treasury architecture contains multiple distinct accounts and programs; the named DAO Treasury account and bounded Ecosystem Fund wallet must not be collapsed."),
     ("holosim", "knowledge/gameplay/Holosim.md", "CREATE", "QUALIFIED", 4, "R2", ["archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md", "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl", "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json"], "Official records establish test, Chapter 1, delay, and Chapter 2 release states without implying mainnet delivery."),
     ("pip-33", "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md", "CREATE", "PROVISIONAL", 7, "R3", ["archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json", "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json", "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl"], "PIP-33 passed as a direct DAO Treasury measure; payment remains unverified."),
     ("sage", "knowledge/gameplay/SAGE.md", "EXPAND", "QUALIFIED", 5, "R2", ["archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6DF1790F1F2402FA.json", "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json", "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json", "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-76D9861DCB3FE798.json", "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json"], "Official records establish exact SAGE Labs and Starbased live dates while retaining planned dates and delays."),
@@ -43,7 +43,7 @@ EXTRA_CLAIMS = {
     ],
     "pvp": [
         "PVP derives from locked POLIS amount and lock duration, with voting power declining as the remaining lock period decays.",
-        "A ballot count is not equivalent to PVP-weighted voting power, and the preserved evidence does not establish a repository-approved formula for reconstructing historical PVP.",
+        "A ballot count is not equivalent to PVP-weighted voting power, and the preserved evidence does not establish a repository-approved formula for reconstructing historical PVP. The completed-binary rule is separately identified as an owner-approved editorial adjudication, not PIP-1 text.",
     ],
     "dao-treasury": [
         "The general DAO Treasury, PIP-2 annual funding authority, and the PIP-23 Ecosystem Fund are related but institutionally distinct mechanisms.",
@@ -58,12 +58,12 @@ EXTRA_CLAIMS = {
         "The official proposal, vote record, and Council tracker establish passage and reported administration but do not independently verify payment execution.",
     ],
     "sage": [
-        "The SAGE lineage runs from the Project S.C.R.E.A.M. prototype through SAGE Labs and Starbased toward later SAGE 3D and C4 plans.",
+        "The SAGE historical sequence includes the Project S.C.R.E.A.M. predecessor, SAGE Labs release, Starbased update, and later related SAGE 3D and C4 surfaces; these are not aliases of one entity.",
         "SAGE Labs and Starbased have dated live evidence; later roadmap surfaces remain separately classified until release or execution evidence exists.",
     ],
     "product-registry": [
-        "The registry uses controlled lifecycle states and records historical qualification in prose rather than inventing undeclared lifecycle tokens.",
-        "Repeated announcements do not independently corroborate release, and test, live, superseded, deprecated, and planned states remain distinct.",
+        "The registry assigns controlled lifecycle states to the narrowest evidence-bearing surface, update, or program and does not assign one state to an aggregate successor chain.",
+        "Faction Fleet software and emissions, SAGE-family surfaces, and the 2021 and 2022 marketplaces receive separate lifecycle rows; repeated announcements do not independently corroborate release.",
     ],
     "product-timeline": [
         "The timeline preserves the 2022 Project S.C.R.E.A.M. development milestone as a precursor rather than backdating a SAGE release.",
@@ -185,6 +185,7 @@ def main() -> None:
         "material_claims_reviewed": sum(1 + len(EXTRA_CLAIMS[i]) for i, *_ in SPECS),
         "archival_depth_reviewed_pages": len(SPECS), "archival_standard_files_updated": len(STANDARD_UPDATES),
         "archival_depth_validation": "PASS",
+        "semantic_review_corrections": 4, "editorial_adjudications_recorded": 1,
         "knowledge_status_distribution": {"QUALIFIED": 13, "PROVISIONAL": 1},
         "risk_class_distribution": {"R2": 13, "R3": 1},
         "deferred": len(ledger["deferred"]), "duplicate": len(ledger["duplicate"]), "rejected": len(ledger["rejected"])
@@ -197,7 +198,29 @@ def main() -> None:
         "# Campaign Summary\n\nCreated 7 knowledge pages, substantively expanded 7, and updated 7 indexes. "
         "A second archival-depth review expanded chronology, institutional context, provenance boundaries, contradictions, and research gaps across all 14 substantive outputs. "
         "The 14 evidence packets now record 42 material claim decisions. No page relies on C1 or C2 alone; 13 outputs are R2/QUALIFIED and PIP-33 is R3/PROVISIONAL. "
+        "The approval review corrected entity aliases, aggregate product lifecycles, treasury-account terminology, and the provenance of the completed-binary editorial rule. "
         "The repository knowledge architecture and entry template now codify this durable archival standard. No archive, graph, or publication evidence was rewritten.\n", encoding="utf-8")
+
+    adjudications = {
+        "campaign_id": ledger["campaign_id"],
+        "adjudications": [{
+            "adjudication_id": "ADJ-COMPLETED-BINARY-VOTE-RULE-001",
+            "status": "OWNER_APPROVED_REPOSITORY_INTERPRETATION",
+            "rule_name": "COMPLETED_BINARY_VOTE_RULE",
+            "rule_text": "For completed captured binary votes, compare YES and NO PVP and preserve abstentions as non-decisive.",
+            "scope": "Repository interpretation of completed captured binary proposal results.",
+            "source_native_status": "NOT_ASSERTED_AS_PIP_1_TEXT",
+            "source_native_gap": "Captured PIP-1 text contains historical quorum language but no numeric quorum threshold.",
+            "exclusions": ["Elections", "ranked-choice contests", "incomplete votes", "implementation or execution determinations"],
+            "adjudication_source": "Repository owner approval review for draft PR #17",
+            "recorded_at": "2026-07-17",
+        }],
+    }
+    write(HERE / "review-adjudications.json", adjudications)
+    (HERE / "review-adjudications.md").write_text(
+        "# Review Adjudications\n\n## COMPLETED_BINARY_VOTE_RULE\n\nStatus: **OWNER_APPROVED_REPOSITORY_INTERPRETATION**\n\nFor completed captured binary votes, compare YES and NO PVP and preserve abstentions as non-decisive. This is a curator/editorial rule for repository interpretation. It is not asserted as language contained in PIP-1, does not supply a numeric quorum threshold, and does not apply to elections, ranked-choice contests, incomplete votes, or execution determinations.\n",
+        encoding="utf-8",
+    )
 
     page_reviews = []
     for page_id, relative, *_ in SPECS:
@@ -227,6 +250,7 @@ def main() -> None:
             "Product pages now distinguish first mention, plan, development, testing, live release, delay, supersession, and deprecation.",
             "Source profiles now distinguish supplied-corpus completeness from historical-publication completeness and preserve authorship boundaries.",
             "Indexes and timelines retain qualified summaries and resolve all internal repository links.",
+            "Approval-review corrections separate lifecycle surfaces from aliases, narrow product lifecycle rows, distinguish the named DAO Treasury account from the wider architecture, and identify the completed-binary rule as an editorial adjudication.",
         ],
         "remaining_limitations": [
             "PIP-33 payment execution remains unverified.",

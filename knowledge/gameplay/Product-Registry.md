@@ -36,15 +36,20 @@ Each row identifies the strongest state supported for the named surface, not the
 | Product | Entity ID | Supported lifecycle | Earliest or decisive evidence | Qualification |
 |---|---|---|---|---|
 | PLAY | PRODUCT-PLAY | `LIVE` | Dated current-state capture, 2026-07-12 | Official account and asset hub. Capture confirms discoverability, not continuous historical uptime. |
-| [SCORE / Faction Fleet](SCORE-and-Faction-Fleet.md) | PRODUCT-SCORE | `DEPRECATED` | Official release publication, 2021-12-17; Aephia reports 2021-12-16 availability | Historical fleet-staking surface. Its economic role was later wound down during Starbased; software and emissions deprecation should remain distinct. |
-| [SAGE / SAGE Labs](SAGE.md) | PRODUCT-SAGE | `LIVE / UPDATED` | SAGE Labs stated live, 2023-09-21; Starbased stated live, 2024-04-04 | S.C.R.E.A.M., SAGE Labs, Starbased, SAGE 3D and C4 are separate lifecycle stages or surfaces. |
-| [UE5 / Showroom](UE5-Showroom.md) | PRODUCT-UE5 | `TESTING / UPDATED` | Pre-alpha access 2022-09-29; launch statement 2022-09-30; R2.1 release 2023-06-02 | Early-access client with build-specific capabilities. Planned features are not assumed delivered. |
+| [SCORE / Faction Fleet application surface](SCORE-and-Faction-Fleet.md) | PRODUCT-SCORE | `UNKNOWN` | Official release publication, 2021-12-17; Aephia reports 2021-12-16 availability | Historical fleet-staking application. Residual software availability and functionality after the emissions transition are unresolved. |
+| Faction Fleet reward-emissions program | unresolved | `DEPRECATED` | Starbased transition records describe reduction and subsequent ending of the earlier emissions role | The supported deprecation attaches to the emissions program, not automatically to every residual Faction Fleet interface or contract. |
+| [SAGE umbrella identity](SAGE.md) | PRODUCT-SAGE | `UNKNOWN` | S.C.R.E.A.M.-to-SAGE naming record, 2022-11-07 | Product-family identity only. No aggregate lifecycle is assigned across SAGE Labs, Starbased, SAGE 3D, and C4. |
+| SAGE Labs browser release | unresolved | `LIVE` | First-party live statement, 2023-09-21; support documentation captured in late 2025 | Dated release and later documentation support this named surface; uninterrupted current availability is not independently verified. |
+| Starbased update | unresolved | `LIVE` | First-party live statement, 2024-04-04 | Named SAGE Labs update. Launch evidence does not prove every announced economic transition executed on that date. |
+| SAGE 3D | unresolved | `UNKNOWN` | Community-reported mid-December 2024 release | Exact official release date, canonical identity, and current lifecycle remain unresolved. |
+| [UE5 / Showroom](UE5-Showroom.md) | PRODUCT-UE5 | `UPDATED` | Pre-alpha access 2022-09-29; launch statement 2022-09-30; R2.1 release 2023-06-02 | The current row records a later named revision; the 2022 pre-alpha and launch remain earlier lifecycle events, not coequal current labels. |
 | Fleet Command | PRODUCT-FLEET-COMMAND | `IN_DEVELOPMENT` | Undated official page in 2026-07-12 capture | Official page describes development and the product registry labels it coming soon. No general release is asserted. |
-| [Holosim](Holosim.md) | PRODUCT-HOLOSIM | `LIVE / UPDATED` | Public test live 2025-06-04; Chapter 1 live 2025-08-20; Chapter 2 live 2026-03-10 | A browser simulation and pre-mainnet test environment. It is related to, but does not prove release of, Fleet Command. |
+| [Holosim](Holosim.md) | PRODUCT-HOLOSIM | `UPDATED` | Public test live 2025-06-04; Chapter 1 live 2025-08-20; Chapter 2 live 2026-03-10 | The current row records the Chapter 2 revision; test and Chapter 1 availability remain earlier lifecycle events. Holosim does not prove release of Fleet Command. |
 | C4 / C4 PTR | unresolved | `TESTING` | Official PTR documentation, 2026-06-02 | Support records establish user-accessible PTR mining and test systems, not mainnet or general release. |
 | Escape Velocity | unresolved | `SUPERSEDED` | Limited public alpha reported 2023-04-26; official technology description 2023-04-27 | Historical, time-bounded on-chain movement test. It preceded SAGE Labs and is not a current SAGE release. |
-| [Galactic Marketplace](Galactic-Marketplace.md) | PRODUCT-MARKETPLACE | `LIVE / UPDATED` | Operational release claimed 2021-08-04; replacement marketplace announced 2022-07-22 | The 2021 marketplace and 2022 replacement are separate lifecycle events. |
-| DAO portal | PRODUCT-DAO-PORTAL | `LIVE / UPDATED` | Governance and locking platform launched 2022-07-21; formal PIP system followed in 2023 | Portal availability does not establish proposal passage, implementation, or payment. |
+| Galactic Marketplace — 2021 Project Serum-era surface | unresolved | `SUPERSEDED` | Operational release claimed 2021-08-04 | Legacy trading surface; the archive records a distinct replacement in 2022. |
+| [Galactic Marketplace — 2022 replacement](Galactic-Marketplace.md) | PRODUCT-MARKETPLACE | `LIVE` | Replacement publication, 2022-07-22; official current access path captured 2026-07-12 | Current canonical marketplace surface. The announcement/publication date and exact deployment instant remain distinct. |
+| DAO portal | PRODUCT-DAO-PORTAL | `UPDATED` | Governance and locking platform launched 2022-07-21; formal PIP system followed in 2023 | The row records the later formal-governance revision. Portal availability does not establish proposal passage, implementation, or payment. |
 | Star Atlas Build | PRODUCT-BUILD | `LIVE` | Official developer documentation in current corpus | Documentation and resource hub; documentation dates do not prove historical feature availability. |
 
 ## Lifecycle rules
@@ -54,8 +59,9 @@ The controlled states are FIRST_MENTION, PLANNED, IN_DEVELOPMENT, TESTING, LIVE,
 For products with multiple surfaces, the lifecycle attaches to the narrowest named object supported by evidence. For example:
 
 - SAGE Labs can be `LIVE` while SAGE 3D's exact release date remains unresolved and C4 remains `TESTING`.
+- Faction Fleet reward emissions can be `DEPRECATED` while the residual application surface remains `UNKNOWN`.
 - Holosim Chapter 2 can be `LIVE` without making Fleet Command or Holosim-tested features `LIVE` on mainnet.
-- A marketplace replacement can be `ANNOUNCED` even though the preceding marketplace was already `LIVE`.
+- The 2021 marketplace can be `SUPERSEDED` while the 2022 replacement is evaluated on its own release and current-state evidence.
 - A support article can document a feature as of late 2025 without proving that it shipped at the product's first release.
 
 ## Historical relationships
