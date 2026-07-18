@@ -69,7 +69,7 @@
     "resolved_excluded": 278
   },
   "scope": {
-    "changed_paths": 1574,
+    "changed_paths": 1572,
     "prohibited": []
   }
 }
