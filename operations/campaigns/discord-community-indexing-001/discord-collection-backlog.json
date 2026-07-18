@@ -1,0 +1,102 @@
+{
+  "campaign_id": "discord-community-indexing-001",
+  "items": [
+    {
+      "priority": "P0",
+      "required_artifact": "Completed history export reaching the requested start",
+      "target": "Imported announcements export before 2021-03-16",
+      "type": "historical_backfill"
+    },
+    {
+      "priority": "P0",
+      "required_artifact": "Native server/channel IDs and official channel-name export",
+      "target": "Imported announcements export",
+      "type": "missing_channel_identification"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Attachment metadata or corrected export",
+      "target": "14 no-text placeholders",
+      "type": "empty_or_attachment_only_records"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "Atlas Amphitheater",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "Atlas Brew Lounge",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "dao-announcements",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "economics",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "faction channels",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "Foudnation Room",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "Foundation Room",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "Foundation Room Chat",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "general",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "governance",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "guild channels",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P1",
+      "required_artifact": "Native channel export with message timestamps and IDs",
+      "target": "support",
+      "type": "mentioned_channel_not_imported"
+    },
+    {
+      "priority": "P2",
+      "required_artifact": "Privacy-reviewed ID-bearing export",
+      "target": "All imported messages",
+      "type": "native_identifiers"
+    }
+  ],
+  "schema_version": "2.0.0"
+}

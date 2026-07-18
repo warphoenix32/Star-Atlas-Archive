@@ -1,0 +1,25 @@
+{
+  "campaign_id": "discord-community-indexing-001",
+  "channel_gap_count": 0,
+  "gaps": [
+    {
+      "coverage_id": "DISCORD-COVERAGE-919F0AB7195C9A5A",
+      "findings": [
+        "Native channel and server identity are unresolved.",
+        "Historical acquisition reached its 180-minute limit before the requested start time.",
+        "All native message, channel, and author IDs are absent.",
+        "Message timestamps contain no captured timezone offset.",
+        "14 no-text placeholders and attachment-only records require review."
+      ],
+      "missing_months": [],
+      "months_without_available_export": [],
+      "partial_years": [
+        "2021",
+        "2026"
+      ],
+      "zero_message_months": []
+    }
+  ],
+  "schema_version": "2.0.0",
+  "unresolved_channel_exports": 1
+}

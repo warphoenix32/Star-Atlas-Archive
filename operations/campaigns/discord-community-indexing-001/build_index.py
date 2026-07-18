@@ -25,24 +25,57 @@ from typing import Any, Iterable
 
 
 CAMPAIGN_ID = "discord-community-indexing-001"
-SCHEMA_VERSION = "1.0.0"
+SCHEMA_VERSION = "2.0.0"
+AS_OF = "2026-07-18"
 SUPPORTED_SUFFIXES = {".json", ".jsonl", ".csv", ".html", ".htm", ".txt", ".md"}
 ROLE_TERMS = ("founder", "officer", "organizer", "builder", "creator", "diplomat", "competitor", "leader")
-SEEDS = [
-    ("guild", "Aephia", ["AEP", "Aephia Industries"]),
-    ("guild", "The Club Guild", ["The Club"]),
-    ("guild", "The Vanguard", []),
-    ("guild", "BULK", []),
-    ("person", "Eoganacht", []),
-    ("guild", "Rome", ["ROME"]),
-    ("person", "Funcracker", []),
-    ("person", "Agent Solace", []),
-    ("person", "Witticus", []),
-    ("person", "ReyVeezy", []),
-    ("person", "FancyHat", []),
-    ("person", "King Bryan", []),
-    ("person", "Virtuwaal", []),
-    ("person", "Bohdi", []),
+EVIDENCE_CLASSES = {
+    "observed_authorship", "direct_self_identification", "explicit_third_party_attribution",
+    "repeated_independent_attribution", "display_name_guild_tag", "operator_confirmed_alias",
+    "inferred_alias", "unresolved_similarity",
+}
+ORGANIZATION_TYPES = {
+    "guild", "guild_alliance", "community_organization", "official_team",
+    "informal_group", "community_meme", "unresolved_tag",
+}
+REVIEW_STATUSES = {
+    "READY_FOR_HUMAN_PROMOTION_REVIEW", "EVIDENCE_SUPPORTED_PROFILE_CANDIDATE",
+    "REQUIRES_IDENTITY_RESOLUTION", "REQUIRES_ROLE_CORROBORATION", "DISCOVERY_ONLY", "DEFERRED",
+}
+ENTITY_SEEDS = [
+    {"entity_type": "guild", "canonical_name": "Aephia", "aliases": ["AEP", "Aephia Industries"], "resolution_status": "OPERATOR_CONFIRMED"},
+    {"entity_type": "guild", "canonical_name": "BULK", "aliases": [], "resolution_status": "OPERATOR_CONFIRMED"},
+    {"entity_type": "community_organization", "canonical_name": "Star Atlas Italia", "aliases": ["SAI"], "resolution_status": "OPERATOR_CONFIRMED"},
+    {"entity_type": "guild_alliance", "canonical_name": "Intergalactic Alliance", "aliases": ["IA"], "resolution_status": "OPERATOR_CONFIRMED"},
+    {"entity_type": "community_meme", "canonical_name": "426", "aliases": [], "resolution_status": "OPERATOR_CONFIRMED", "meaning": "A community gag derived from ‘4 to 6 weeks,’ used in response to repeatedly missed product-delivery timelines."},
+    {"entity_type": "unresolved_tag", "canonical_name": "The Club Guild / The Club", "aliases": ["The Club Guild", "The Club"], "resolution_status": "HUMAN_REVIEW_REQUIRED"},
+    {"entity_type": "unresolved_tag", "canonical_name": "The Vanguard", "aliases": [], "resolution_status": "HUMAN_REVIEW_REQUIRED"},
+    {"entity_type": "unresolved_tag", "canonical_name": "Rome", "aliases": ["ROME"], "resolution_status": "HUMAN_REVIEW_REQUIRED"},
+]
+PERSON_SEEDS = [
+    {"preferred_display_name": "King Bryan", "confirmed_aliases": ["King Bryan-Titan Analytics"]},
+    {"preferred_display_name": "Bodhi", "confirmed_aliases": ["Bodhitree", "BodhiTree"]},
+    {"preferred_display_name": "Michael Wagner", "confirmed_aliases": ["Wagner", "SW4GNER", "SW4GN3R", "SW4GN3R [STAR]"]},
+    {"preferred_display_name": "Jose", "confirmed_aliases": ["Zesk", "ZeSKK", "⪛⦿⫺ZeSKK [STAR]"]},
+    {"preferred_display_name": "Funcracker", "confirmed_aliases": []},
+    {"preferred_display_name": "Eoganacht", "confirmed_aliases": []},
+    {"preferred_display_name": "Agent Solace", "confirmed_aliases": []},
+    {"preferred_display_name": "Witticus", "confirmed_aliases": []},
+    {"preferred_display_name": "ReyVeezy", "confirmed_aliases": []},
+    {"preferred_display_name": "FancyHat", "confirmed_aliases": []},
+    {"preferred_display_name": "Virtuwaal", "confirmed_aliases": []},
+]
+# Compatibility view used by term matching helpers.
+SEEDS = [(entry["entity_type"], entry["canonical_name"], entry["aliases"]) for entry in ENTITY_SEEDS] + [
+    ("person", entry["preferred_display_name"], entry["confirmed_aliases"]) for entry in PERSON_SEEDS
+]
+TAG_REGISTRY_SEEDS = [
+    {"tag": "AEP", "canonical_entity": "Aephia", "entity_type": "guild", "resolution_status": "OPERATOR_CONFIRMED", "resolution_basis": "repository_operator_confirmation"},
+    {"tag": "BULK", "canonical_entity": "BULK", "entity_type": "guild", "resolution_status": "OPERATOR_CONFIRMED", "resolution_basis": "repository_operator_confirmation"},
+    {"tag": "IA", "canonical_entity": "Intergalactic Alliance", "entity_type": "guild_alliance", "resolution_status": "OPERATOR_CONFIRMED", "resolution_basis": "repository_operator_confirmation"},
+    {"tag": "SAI", "canonical_entity": "Star Atlas Italia", "entity_type": "community_organization", "resolution_status": "OPERATOR_CONFIRMED", "resolution_basis": "repository_operator_confirmation"},
+    {"tag": "426", "canonical_entity": "426", "entity_type": "community_meme", "resolution_status": "OPERATOR_CONFIRMED", "resolution_basis": "repository_operator_confirmation"},
+    {"tag": "ROME", "canonical_entity": "Rome", "entity_type": "unresolved_tag", "resolution_status": "HUMAN_REVIEW_REQUIRED", "resolution_basis": "observed_display_tag_only"},
 ]
 GENERIC_MENTIONS = {
     "all", "atlas", "community", "communitymoderator", "deleted", "event",
@@ -111,6 +144,31 @@ def normalize_timestamp(value: Any) -> str | None:
     return text
 
 
+def collection_context(path: str, record: dict[str, Any] | None = None) -> dict[str, Any]:
+    record = record or {}
+    lower = path.casefold()
+    if "discord-announcements" in lower:
+        inferred = {
+            "server_or_community_name": "Star Atlas Discord",
+            "canonical_channel_name": "announcements",
+            "channel_category": "announcements",
+        }
+    else:
+        inferred = {
+            "server_or_community_name": None,
+            "canonical_channel_name": None,
+            "channel_category": "uncategorized",
+        }
+    return {
+        "server_or_community_name": first(record, ("server_or_community_name", "server_name", "guild_name", "community_name")) or inferred["server_or_community_name"],
+        "observed_channel_name": first(record, ("observed_channel_name", "channel_name", "conversation", "conversation_name")),
+        "canonical_channel_name": first(record, ("canonical_channel_name",)) or inferred["canonical_channel_name"],
+        "channel_category": first(record, ("channel_category",)) or inferred["channel_category"],
+        "collection_complete": first(record, ("collection_complete",)),
+        "collection_notes": first(record, ("collection_notes", "collection_warnings")) or [],
+    }
+
+
 @dataclass
 class Message:
     source_id: str
@@ -120,6 +178,13 @@ class Message:
     display_name: str | None
     timestamp: str | None
     content: str
+    server_or_community_name: str | None = None
+    observed_channel_name: str | None = None
+    canonical_channel_name: str | None = None
+    channel_category: str | None = None
+    collection_complete: bool | None = None
+    collection_notes: list[str] = field(default_factory=list)
+    content_variants: list[dict[str, Any]] = field(default_factory=list)
     metadata: list[str] = field(default_factory=list)
     source_paths: list[str] = field(default_factory=list)
     source_formats: list[str] = field(default_factory=list)
@@ -129,16 +194,43 @@ class Message:
         return hashlib.sha256(key.encode("utf-8")).hexdigest()
 
     def merge(self, other: "Message") -> None:
+        self_is_archive = not self.source_id.startswith("DISCORD-SOURCE-")
+        other_is_archive = not other.source_id.startswith("DISCORD-SOURCE-")
+        self.content_variants.append({"content_sha256": hashlib.sha256(other.content.encode("utf-8")).hexdigest(), "source_paths": other.source_paths})
         if self.source_id.startswith("DISCORD-SOURCE-") and not other.source_id.startswith("DISCORD-SOURCE-"):
             self.source_id = other.source_id
-        for attr in ("message_id", "channel_id", "author_id", "display_name", "timestamp"):
+            self.content = other.content
+        for attr in ("message_id", "channel_id", "author_id", "display_name", "timestamp", "server_or_community_name", "observed_channel_name", "canonical_channel_name", "channel_category", "collection_complete"):
             if getattr(self, attr) is None and getattr(other, attr) is not None:
                 setattr(self, attr, getattr(other, attr))
-        if len(other.content) > len(self.content):
+        if not self_is_archive and other_is_archive:
             self.content = other.content
         self.metadata = sorted(set(self.metadata + other.metadata))
         self.source_paths = sorted(set(self.source_paths + other.source_paths))
         self.source_formats = sorted(set(self.source_formats + other.source_formats))
+        self.collection_notes = sorted(set(self.collection_notes + other.collection_notes))
+        variants = self.content_variants + other.content_variants
+        self.content_variants = sorted({(item["content_sha256"], tuple(item["source_paths"])): item for item in variants}.values(), key=lambda item: (item["content_sha256"], item["source_paths"]))
+
+
+def compatible_raw_normalized(left: Message, right: Message) -> bool:
+    if normalized(left.display_name) != normalized(right.display_name) or left.timestamp != right.timestamp:
+        return False
+    left_raw = any(path.startswith("archive/raw/") for path in left.source_paths)
+    right_raw = any(path.startswith("archive/raw/") for path in right.source_paths)
+    left_normalized = any(path.startswith("archive/normalized/") for path in left.source_paths)
+    right_normalized = any(path.startswith("archive/normalized/") for path in right.source_paths)
+    if not ((left_raw and right_normalized) or (right_raw and left_normalized)):
+        return False
+    def representation_core(value: str) -> str:
+        # Markdown exports can retain a terminal block delimiter that the
+        # normalized record omits (or vice versa).  Removing only that framing
+        # marker lets the two representations reconcile without using
+        # author+timestamp as a deduplication key.
+        return clean_space(re.sub(r"(?:\s*---\s*)+$", "", value))
+
+    a, b = representation_core(left.content), representation_core(right.content)
+    return a == b or (min(len(a), len(b)) >= 20 and (a in b or b in a))
 
 
 def message_from_mapping(record: dict[str, Any], path: str, suffix: str, ordinal: int) -> Message | None:
@@ -163,6 +255,13 @@ def message_from_mapping(record: dict[str, Any], path: str, suffix: str, ordinal
     metadata = first(record, ("metadata", "notes", "flags")) or []
     if not isinstance(metadata, list):
         metadata = [str(metadata)]
+    context = collection_context(path, record)
+    notes = context["collection_notes"]
+    if not isinstance(notes, list):
+        notes = [str(notes)]
+    complete = context["collection_complete"]
+    if isinstance(complete, str):
+        complete = complete.strip().casefold() in {"yes", "true", "1", "complete"}
     return Message(
         source_id=source_id,
         message_id=str(message_id) if message_id is not None else None,
@@ -171,6 +270,12 @@ def message_from_mapping(record: dict[str, Any], path: str, suffix: str, ordinal
         display_name=display_name,
         timestamp=timestamp,
         content=content,
+        server_or_community_name=clean_space(context["server_or_community_name"]) or None,
+        observed_channel_name=clean_space(context["observed_channel_name"]) or None,
+        canonical_channel_name=clean_space(context["canonical_channel_name"]) or None,
+        channel_category=clean_space(context["channel_category"]) or "uncategorized",
+        collection_complete=complete if isinstance(complete, bool) else None,
+        collection_notes=[clean_space(item) for item in notes if clean_space(item)],
         metadata=[str(item) for item in metadata],
         source_paths=[path],
         source_formats=[suffix.lstrip(".")],
@@ -241,6 +346,20 @@ class DiscordHTMLParser(HTMLParser):
 
 def parse_text_export(text: str, path: str, suffix: str) -> list[Message]:
     messages: list[Message] = []
+    conversation = re.search(r"(?im)^Conversation:\s*(.+?)\s*$", text)
+    complete_match = re.search(r"(?im)^Collection complete:\s*(yes|no|true|false)\s*$", text)
+    warning_match = re.search(r"(?ms)^## Collection Warnings\s*\n\s*(.*?)(?=\n---|\n## )", text)
+    context = {
+        "server_or_community_name": "Star Atlas Discord" if "discord-announcements" in path.casefold() else None,
+        # Preserve the export header verbatim after whitespace normalization.
+        # The trailing comma is part of the observed value and is not silently
+        # promoted into a canonical native channel name.
+        "observed_channel_name": clean_space(conversation.group(1)) if conversation else None,
+        "canonical_channel_name": "announcements" if "discord-announcements" in path.casefold() else None,
+        "channel_category": "announcements" if "discord-announcements" in path.casefold() else "uncategorized",
+        "collection_complete": complete_match.group(1).casefold() in {"yes", "true"} if complete_match else None,
+        "collection_notes": [clean_space(line.lstrip("- ")) for line in warning_match.group(1).splitlines() if clean_space(line.lstrip("- "))] if warning_match else [],
+    }
     # Markdown conversation exports used by the archive.
     block_pattern = re.compile(
         r"(?ms)^###\s+(?P<author>[^\r\n]+)\r?\n(?P<timestamp>\d{1,2}/\d{1,2}/\d{4},?\s+\d{1,2}:\d{2}:\d{2}\s+[AP]M)\r?\n(?P<body>.*?)(?=\r?\n---(?:\r?\n|$))"
@@ -255,6 +374,7 @@ def parse_text_export(text: str, path: str, suffix: str) -> list[Message]:
             "timestamp": match.group("timestamp"),
             "content": "\n".join(body_lines).strip(),
             "metadata": metadata,
+            **context,
         }
         message = message_from_mapping(mapping, path, suffix, ordinal)
         if message:
@@ -325,16 +445,21 @@ def discover_sources(repo_root: Path) -> list[Path]:
     return sorted(paths, key=lambda p: p.relative_to(repo_root).as_posix().casefold())
 
 
-def load_messages(repo_root: Path) -> tuple[list[Message], list[dict[str, Any]]]:
+def load_messages(repo_root: Path, include_duplicate_reviews: bool = False) -> tuple[Any, ...]:
     by_fingerprint: dict[str, Message] = {}
-    by_source_id: dict[str, Message] = {}
-    by_author_time: dict[tuple[str, str], Message] = {}
+    by_source_id: defaultdict[str, list[Message]] = defaultdict(list)
+    by_message_id: defaultdict[str, list[Message]] = defaultdict(list)
+    unique: list[Message] = []
+    duplicate_reviews: list[dict[str, Any]] = []
     inventory = []
     for path in discover_sources(repo_root):
         rel = path.relative_to(repo_root).as_posix()
         classification = source_class(rel)
+        if rel.endswith("announcement-index.csv"):
+            classification = "derived_index"
         ingested = classification in {"raw", "normalized"}
         parsed = parse_source(path, repo_root) if ingested else []
+        representation_role = "raw_aggregate_export" if classification == "raw" else ("normalized_aggregate" if rel.endswith("messages.jsonl") else ("normalized_per_message" if "/messages/" in rel else "derived_index"))
         inventory.append({
             "path": rel,
             "classification": classification,
@@ -342,32 +467,54 @@ def load_messages(repo_root: Path) -> tuple[list[Message], list[dict[str, Any]]]
             "bytes": path.stat().st_size,
             "sha256": sha256_file(path),
             "ingested": ingested,
+            "representation_role": representation_role,
             "parsed_message_occurrences": len(parsed),
-            "reason": "raw_or_normalized_discord_export" if ingested else "derived_or_context_artifact_not_reingested",
+            "reason": "raw_or_normalized_discord_export" if ingested else "derived_index_not_reingested_as_messages",
         })
         for message in parsed:
-            author_time = (normalized(message.display_name), message.timestamp or "")
-            existing = by_source_id.get(message.source_id) or by_fingerprint.get(message.fingerprint())
-            if existing is None and all(author_time):
-                existing = by_author_time.get(author_time)
+            candidates = list(by_source_id.get(message.source_id, []))
+            if message.message_id:
+                candidates.extend(by_message_id.get(message.message_id, []))
+            fingerprint_match = by_fingerprint.get(message.fingerprint())
+            if fingerprint_match:
+                candidates.append(fingerprint_match)
+            candidates = list({id(item): item for item in candidates}.values())
+            existing = next((item for item in candidates if item.fingerprint() == message.fingerprint() or compatible_raw_normalized(item, message)), None)
+            if existing is None:
+                # Author/time is only a compatibility lead for an exact raw-vs-
+                # normalized representation; it is never a deduplication key.
+                existing = next((item for item in unique if compatible_raw_normalized(item, message)), None)
             if existing:
                 existing.merge(message)
-                by_source_id[message.source_id] = existing
-                by_source_id[existing.source_id] = existing
+                if existing not in by_source_id[message.source_id]:
+                    by_source_id[message.source_id].append(existing)
+                if message.message_id and existing not in by_message_id[message.message_id]:
+                    by_message_id[message.message_id].append(existing)
                 by_fingerprint[existing.fingerprint()] = existing
-                if all(author_time):
-                    by_author_time[author_time] = existing
             else:
-                by_source_id[message.source_id] = message
+                incompatible = [item for item in candidates if item.source_id == message.source_id or (message.message_id and item.message_id == message.message_id)]
+                for item in incompatible:
+                    duplicate_reviews.append({
+                        "review_id": stable_id("DUP-REVIEW", "\x1f".join(sorted((item.fingerprint(), message.fingerprint())))),
+                        "review_type": "likely_duplicate_message",
+                        "source_id": message.source_id,
+                        "native_message_id": message.message_id,
+                        "author": message.display_name,
+                        "timestamp": message.timestamp,
+                        "observed_contents": sorted({clean_space(item.content), clean_space(message.content)}),
+                        "reason_human_review_required": "A shared source or native message ID has incompatible normalized content; both records were retained.",
+                    })
+                unique.append(message)
+                by_source_id[message.source_id].append(message)
+                if message.message_id:
+                    by_message_id[message.message_id].append(message)
                 by_fingerprint[message.fingerprint()] = message
-                if all(author_time):
-                    by_author_time[author_time] = message
-    unique_by_object = {id(message): message for message in by_fingerprint.values()}
-    unique = sorted(unique_by_object.values(), key=lambda m: ((m.timestamp or ""), m.source_id))
-    return unique, inventory
+    unique = sorted({id(message): message for message in unique}.values(), key=lambda m: ((m.timestamp or ""), m.source_id, m.fingerprint()))
+    duplicate_reviews = sorted({item["review_id"]: item for item in duplicate_reviews}.values(), key=lambda item: item["review_id"])
+    return (unique, inventory, duplicate_reviews) if include_duplicate_reviews else (unique, inventory)
 
 
-def evidence(message: Message, quote: str | None = None, attribution: str = "third_party_attribution") -> dict[str, Any]:
+def evidence(message: Message, quote: str | None = None, attribution: str = "observed_authorship") -> dict[str, Any]:
     excerpt = clean_space(quote if quote is not None else message.content)[:500]
     return {
         "source_id": message.source_id,
@@ -379,6 +526,19 @@ def evidence(message: Message, quote: str | None = None, attribution: str = "thi
         "source_paths": message.source_paths,
         "quoted_text": excerpt,
         "attribution_class": attribution,
+        "evidence_location": "display_name" if attribution in {"observed_authorship", "inferred_alias"} else "message_content",
+        "evidence_channel": "archive_evidence",
+        "operator_assertion": False,
+    }
+
+
+def operator_evidence(note: str, attribution: str = "operator_confirmed_alias") -> dict[str, Any]:
+    return {
+        "source_id": None, "message_id": None, "channel_id": None, "timestamp": None,
+        "author_id": None, "display_name": None, "source_paths": [], "quoted_text": None,
+        "attribution_class": attribution, "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "operator_assertion": True, "review_note": note,
     }
 
 
@@ -386,7 +546,10 @@ def extract_mentions(content: str) -> list[str]:
     results = []
     sections = re.findall(r"(?im)^Mentions:\s*(.+)$", content)
     for section in sections:
-        results.extend(part.strip() for part in section.split(","))
+        # Exporters commonly delimit footer handles with commas, while some
+        # use an ``and @next`` join.  Split only at explicit mention
+        # boundaries so pipe components remain attached to their handle.
+        results.extend(part.strip() for part in re.split(r",\s*|\s+and\s+(?=@)", section))
     if not sections:
         # Conservative inline fallback for exporters without a Mentions footer.
         # It intentionally avoids consuming prose after @everyone/@here.
@@ -428,39 +591,74 @@ def build_alias_registry(messages: list[Message]) -> tuple[dict[str, Any], list[
     entries = []
     conflicts = []
     alias_owners: defaultdict[str, list[str]] = defaultdict(list)
-    for entity_type, canonical, aliases in SEEDS:
+    for seed in ENTITY_SEEDS:
+        entity_type, canonical, aliases = seed["entity_type"], seed["canonical_name"], seed["aliases"]
         terms = [canonical, *aliases]
-        refs = []
-        for message in messages:
-            for _, matched_canonical, term in matched_seed_terms(message):
-                if matched_canonical == canonical:
-                    refs.append(evidence(message, term, "repeated_community_attribution"))
-                    break
+        refs = [
+            evidence(message, term, "explicit_third_party_attribution")
+            for message in messages for term in terms
+            if re.search(rf"(?<![\w]){re.escape(term)}(?![\w])", message.content, re.I)
+        ]
         for term in terms:
             alias_owners[normalized(term)].append(canonical)
         entries.append({
             "entity_type": entity_type,
             "canonical_name": canonical,
             "aliases": aliases,
+            "preferred_display_name": canonical,
+            "observed_handles": sorted({ref["quoted_text"] for ref in refs if ref.get("quoted_text")}, key=str.casefold),
+            "confirmed_aliases": aliases,
+            "alias_basis": "operator_confirmed" if aliases else None,
             "normalized_terms": sorted(set(normalized(term) for term in terms)),
-            "registry_status": "seeded_supported" if refs else "seeded_unresolved",
-            "identity_merge_authorized": False,
+            "registry_status": "operator_confirmed_with_archive_observations" if refs else seed["resolution_status"].casefold(),
+            "resolution_status": seed["resolution_status"],
+            "identity_merge_authorized": True,
+            "meaning": seed.get("meaning"),
             "evidence": refs[:25],
+            "operator_confirmation": operator_evidence("Confirmed by repository operator during PR review"),
+        })
+    for seed in PERSON_SEEDS:
+        canonical, aliases = seed["preferred_display_name"], seed["confirmed_aliases"]
+        terms = [canonical, *aliases]
+        refs = []
+        observed = set()
+        for message in messages:
+            if message.display_name and normalized(message.display_name) in {normalized(term) for term in terms}:
+                refs.append(evidence(message, message.display_name, "observed_authorship"))
+                observed.add(message.display_name)
+            for handle in extract_mentions(message.content):
+                if normalized(person_name_from_handle(handle)) in {normalized(term) for term in terms}:
+                    refs.append(evidence(message, handle, "explicit_third_party_attribution"))
+                    observed.add(handle)
+        for term in terms:
+            alias_owners[normalized(term)].append(canonical)
+        entries.append({
+            "entity_type": "person", "canonical_name": canonical,
+            "preferred_display_name": canonical, "aliases": aliases,
+            "observed_handles": sorted(observed, key=str.casefold),
+            "confirmed_aliases": aliases, "alias_basis": "operator_confirmed" if aliases else None,
+            "normalized_terms": sorted({normalized(term) for term in terms}),
+            "registry_status": "operator_confirmed_with_archive_observations" if refs else "seeded_unresolved",
+            "resolution_status": "OPERATOR_CONFIRMED" if aliases or canonical in {"Funcracker", "Eoganacht"} else "HUMAN_REVIEW_REQUIRED",
+            "identity_merge_authorized": bool(aliases), "meaning": None,
+            "evidence": refs[:25],
+            "operator_confirmation": operator_evidence("Confirmed by repository operator during PR review") if aliases else None,
         })
     for term, owners in sorted(alias_owners.items()):
         if len(set(owners)) > 1:
             conflicts.append({"type": "alias_collision", "normalized_term": term, "canonical_names": sorted(set(owners))})
     # This fuzzy resemblance is deliberately reported, never merged.
-    observed = {person_name_from_handle(h) for m in messages for h in extract_mentions(m.content)}
-    for entity_type, canonical, _ in SEEDS:
-        if entity_type != "person":
-            continue
+    observed = {person_name_from_handle(h) for m in messages for h in extract_mentions(m.content)} | {m.display_name for m in messages if m.display_name}
+    confirmed_terms = {normalized(term) for seed in PERSON_SEEDS for term in [seed["preferred_display_name"], *seed["confirmed_aliases"]]}
+    for seed in PERSON_SEEDS:
+        canonical = seed["preferred_display_name"]
         for handle in observed:
             ratio = SequenceMatcher(None, normalized(canonical), normalized(handle)).ratio()
             shared_prefix = normalized(canonical)[:2] == normalized(handle)[:2] and ratio >= 0.55
-            if canonical.casefold() != handle.casefold() and (ratio >= 0.68 or shared_prefix):
+            if normalized(handle) not in confirmed_terms and canonical.casefold() != handle.casefold() and (ratio >= 0.68 or shared_prefix):
                 conflicts.append({
-                    "type": "unresolved_fuzzy_identity",
+                    "type": "unresolved_similarity",
+                    "attribution_class": "unresolved_similarity",
                     "seeded_name": canonical,
                     "observed_handle": handle,
                     "similarity": round(ratio, 3),
@@ -473,21 +671,36 @@ def build_indexes(messages: list[Message], alias_registry: dict[str, Any]) -> tu
     identities: dict[str, dict[str, Any]] = {}
     relationships: list[dict[str, Any]] = []
     relationship_keys = set()
+    person_aliases = {
+        term: entry for entry in alias_registry["entries"] if entry["entity_type"] == "person"
+        for term in entry["normalized_terms"]
+    }
+    organization_entries = {entry["canonical_name"]: entry for entry in alias_registry["entries"] if entry["entity_type"] != "person"}
+    organization_by_term = {term: entry for entry in organization_entries.values() for term in entry["normalized_terms"]}
+    tag_registry = {entry["tag"].casefold(): entry for entry in TAG_REGISTRY_SEEDS}
 
     def add_identity(name: str, message: Message, observed_as: str, attribution: str, author_id: str | None = None) -> str:
         name = clean_handle(name)
-        key = f"id:{author_id}" if author_id else f"handle:{normalized(name)}"
+        alias_entry = person_aliases.get(normalized(name))
+        preferred = alias_entry["preferred_display_name"] if alias_entry and alias_entry["identity_merge_authorized"] else name
+        key = f"confirmed:{normalized(preferred)}" if alias_entry and alias_entry["identity_merge_authorized"] else (f"id:{author_id}" if author_id else f"handle:{normalized(name)}")
         identity_id = stable_id("PERSON", key)
         record = identities.setdefault(identity_id, {
             "identity_id": identity_id,
-            "canonical_handle": name,
+            "record_type": "resolved_person_identity" if alias_entry and alias_entry["identity_merge_authorized"] else ("observed_author_identity" if author_id else "observed_handle_cluster"),
+            "canonical_handle": preferred,
+            "preferred_display_name": preferred,
             "author_ids": [],
             "observed_handles": [],
+            "confirmed_aliases": list(alias_entry["confirmed_aliases"]) if alias_entry else [],
+            "alias_basis": "operator_confirmed" if alias_entry and alias_entry["identity_merge_authorized"] else None,
             "roles": [],
+            "operator_confirmed_roles": [],
             "first_seen": message.timestamp,
             "last_seen": message.timestamp,
             "evidence": [],
-            "identity_confidence": "author_id_supported" if author_id else "handle_only_not_merged",
+            "operator_confirmations": [alias_entry["operator_confirmation"]] if alias_entry and alias_entry.get("operator_confirmation") else [],
+            "identity_confidence": "operator_confirmed_alias" if alias_entry and alias_entry["identity_merge_authorized"] else ("author_id_supported" if author_id else "handle_only_not_merged"),
         })
         if author_id and author_id not in record["author_ids"]:
             record["author_ids"].append(author_id)
@@ -514,17 +727,18 @@ def build_indexes(messages: list[Message], alias_registry: dict[str, Any]) -> tu
             "object_name": object_name,
             "valid_at": message.timestamp,
             "confidence": confidence,
+            "evidence_channel": "archive_evidence",
             "evidence": [evidence(message, quote, attribution)],
         }
         relationships.append(record)
-        if role and subject_id in identities and role not in identities[subject_id]["roles"]:
+        if role and confidence in {"high", "operator_confirmed"} and attribution != "display_name_guild_tag" and subject_id in identities and role not in identities[subject_id]["roles"]:
             identities[subject_id]["roles"].append(role)
 
     for message in messages:
         if message.display_name:
             author_id = add_identity(
                 message.display_name, message, message.display_name,
-                "inferred_alias" if any("author inferred" in item.casefold() for item in message.metadata) else "third_party_attribution",
+                "inferred_alias" if any("author inferred" in item.casefold() for item in message.metadata) else "observed_authorship",
                 message.author_id,
             )
             if re.search(r"\bmod(?:erator)?\b", message.display_name, re.I):
@@ -536,35 +750,49 @@ def build_indexes(messages: list[Message], alias_registry: dict[str, Any]) -> tu
             person = person_name_from_handle(handle)
             if not person or normalized(person) in GENERIC_MENTIONS:
                 continue
-            mention_ids[handle] = add_identity(person, message, handle, "third_party_attribution")
+            mention_ids[handle] = add_identity(person, message, handle, "explicit_third_party_attribution")
+            observed_components: list[tuple[str, str]] = []
             tag = re.match(r"@?\[([^\]]+)\]", handle)
-            guild = None
             if tag:
-                guild = "Aephia" if tag.group(1).casefold() == "aep" else tag.group(1)
-            elif "|" in handle:
-                left, right = [part.strip(" @") for part in handle.split("|", 1)]
-                if left.casefold() == "rome":
-                    guild = "Rome"
-                elif right.casefold() in {"bulk", "rome"}:
-                    guild = right.upper() if right.casefold() == "bulk" else "Rome"
-            if guild:
-                add_relationship(mention_ids[handle], person, "member_of", "guild", guild, message,
-                                 "inferred_alias", handle, "low", "guild_member")
+                observed_components.append((tag.group(1), "bracket_tag"))
+            if "|" in handle:
+                observed_components.extend((part.strip(" @[]"), "pipe_component") for part in handle.split("|")[1:] if part.strip(" @[]"))
+            for component, component_context in observed_components:
+                resolved = tag_registry.get(component.casefold())
+                if not resolved:
+                    add_relationship(mention_ids[handle], person, "has_display_tag", "unresolved_tag", component, message,
+                                     "display_name_guild_tag", handle, "low")
+                    continue
+                entity_type = resolved["entity_type"]
+                if entity_type == "guild":
+                    # A pipe-separated guild token (for example
+                    # ``[IA] Dodger | BULK``) is association evidence only.
+                    # A leading bracket tag may enter the membership-review
+                    # queue, but it is never accepted as membership directly.
+                    predicate, role = ("associated_with_guild", "guild_association") if component_context == "pipe_component" else ("possible_member_of", "guild_member_candidate")
+                elif entity_type == "guild_alliance":
+                    predicate, role = "associated_with_alliance", "alliance_association"
+                elif entity_type == "community_organization":
+                    predicate, role = "associated_with_organization", "community_organization_association"
+                else:
+                    predicate, role = "has_display_tag", None
+                add_relationship(mention_ids[handle], person, predicate, entity_type, resolved["canonical_entity"], message,
+                                 "display_name_guild_tag", handle, "low", role)
 
         # Official council roster attribution.
         if re.search(r"first\s+(?:star atlas dao\s+)?council", message.content, re.I):
             for handle, identity_id in mention_ids.items():
                 person = person_name_from_handle(handle)
                 add_relationship(identity_id, person, "served_as", "organization", "Star Atlas DAO Council", message,
-                                 "third_party_attribution", handle, "high", "council_member")
+                                 "explicit_third_party_attribution", handle, "high", "dao_council_service")
 
         # Explicit creator attribution (not generic mentions of creators).
         for match in re.finditer(r"(?i)(thanks\s+)(?P<handle>@(?:\[[^\]]+\]\s*)?[^\n,()]{2,80}?)(?=\s+for\s+creat(?:ing|ed))", message.content):
             handle = clean_handle(match.group("handle"))
             person = person_name_from_handle(handle)
-            identity_id = mention_ids.get(handle) or add_identity(person, message, handle, "third_party_attribution")
+            identity_id = mention_ids.get(handle) or add_identity(person, message, handle, "explicit_third_party_attribution")
             add_relationship(identity_id, person, "contributed_as", "role", "creator", message,
-                             "third_party_attribution", match.group(0), "high", "creator")
+                             "explicit_third_party_attribution", match.group(0), "high", "creator_or_builder")
 
         # Direct self-identification statements receive their own evidence class.
         if message.display_name:
@@ -574,35 +802,27 @@ def build_indexes(messages: list[Message], alias_registry: dict[str, Any]) -> tu
                 add_relationship(identity_id, message.display_name, "served_as", "organization", organization, message,
                                  "direct_self_identification", match.group(0), "high", role)
 
-        # Guild placement is an event, not a permanent hierarchy assertion.
-        for match in re.finditer(r"(?im)^\s*(1st|2nd|3rd)(?:\s+Place)?\s*[-:]\s*([^\r\n,]+)", message.content):
-            guild = clean_space(match.group(2))
-            relationships.append({
-                "relationship_id": stable_id("REL", f"{message.source_id}:{match.group(0)}"),
-                "subject_id": stable_id("GUILD", normalized(guild)),
-                "subject_name": guild,
-                "predicate": "placed_in_competition",
-                "object_type": "placement",
-                "object_name": match.group(1).casefold(),
-                "valid_at": message.timestamp,
-                "confidence": "high",
-                "evidence": [evidence(message, match.group(0), "third_party_attribution")],
-            })
+        # Competition placements are parsed in a dedicated typed pass after
+        # organization resolution. No generic placement line creates a guild.
 
         # Conservative dated guild transition extraction.
         transition = re.search(r"(?i)\b([^.!?\n]{2,80}?)\s+(renamed|merged|split|became|succeeded)\s+(?:into|from|as|by|to)?\s*([^.!?\n]{2,80})", message.content)
         if transition:
             left, verb, right = clean_space(transition.group(1)), transition.group(2).casefold(), clean_space(transition.group(3))
+            left_entry, right_entry = organization_by_term.get(normalized(left)), organization_by_term.get(normalized(right))
+            if not left_entry or not right_entry:
+                continue
             relationships.append({
                 "relationship_id": stable_id("REL", f"{message.source_id}:{transition.group(0)}"),
-                "subject_id": stable_id("GUILD", normalized(left)),
-                "subject_name": left,
+                "subject_id": stable_id("ORG", normalized(left_entry["canonical_name"])),
+                "subject_name": left_entry["canonical_name"],
                 "predicate": {"renamed": "renamed_to", "merged": "merged_into", "split": "split_into", "became": "became", "succeeded": "succeeded_by"}[verb],
-                "object_type": "guild",
-                "object_name": right,
+                "object_type": right_entry["entity_type"],
+                "object_name": right_entry["canonical_name"],
                 "valid_at": message.timestamp,
                 "confidence": "medium",
-                "evidence": [evidence(message, transition.group(0), "third_party_attribution")],
+                "evidence_channel": "archive_evidence",
+                "evidence": [evidence(message, transition.group(0), "explicit_third_party_attribution")],
             })
 
     # Ensure every seeded person is discoverable even when unresolved.
@@ -610,148 +830,402 @@ def build_indexes(messages: list[Message], alias_registry: dict[str, Any]) -> tu
         if entry["entity_type"] != "person":
             continue
         canonical = entry["canonical_name"]
-        identity_id = stable_id("PERSON", f"seed:{normalized(canonical)}")
+        identity_id = stable_id("PERSON", f"confirmed:{normalized(canonical)}") if entry["identity_merge_authorized"] else stable_id("PERSON", f"seed:{normalized(canonical)}")
         if not any(normalized(record["canonical_handle"]) == normalized(canonical) for record in identities.values()):
             identities[identity_id] = {
                 "identity_id": identity_id,
+                "record_type": "resolved_person_identity" if entry["identity_merge_authorized"] else "seeded_unresolved_identity",
                 "canonical_handle": canonical,
+                "preferred_display_name": canonical,
                 "author_ids": [],
                 "observed_handles": [],
+                "confirmed_aliases": entry["confirmed_aliases"],
+                "alias_basis": entry["alias_basis"],
                 "roles": [],
+                "operator_confirmed_roles": [],
                 "first_seen": None,
                 "last_seen": None,
                 "evidence": entry["evidence"],
-                "identity_confidence": "seeded_unresolved",
+                "operator_confirmations": [entry["operator_confirmation"]] if entry.get("operator_confirmation") else [],
+                "identity_confidence": "operator_confirmed_alias" if entry["identity_merge_authorized"] else "seeded_unresolved",
             }
 
-    guilds = []
+    operator_roles = {
+        "Funcracker": [
+            ("co-founder of Aephia", "co_founder_of", "guild", "Aephia", "guild_founder", None),
+            ("current leader of Aephia", "leader_of", "guild", "Aephia", "guild_leader", AS_OF),
+            ("community creator", "contributed_as", "role", "community creator", "creator_or_builder", None),
+        ],
+        "Eoganacht": [
+            ("founder of BULK", "founder_of", "guild", "BULK", "guild_founder", None),
+            ("leader of BULK", "leader_of", "guild", "BULK", "guild_leader", AS_OF),
+        ],
+    }
+    for preferred, roles in operator_roles.items():
+        identity = next(record for record in identities.values() if normalized(record["canonical_handle"]) == normalized(preferred))
+        confirmation = operator_evidence("Confirmed by repository operator during PR review", "operator_confirmed_alias")
+        for label, predicate, object_type, object_name, role_dimension, valid_at in roles:
+            if role_dimension not in identity["operator_confirmed_roles"]:
+                identity["operator_confirmed_roles"].append(role_dimension)
+            relationships.append({
+                "relationship_id": stable_id("REL", f"operator:{preferred}:{predicate}:{object_name}"),
+                "subject_id": identity["identity_id"], "subject_name": preferred,
+                "predicate": predicate, "object_type": object_type, "object_name": object_name,
+                "valid_at": valid_at, "confidence": "operator_confirmed",
+                "evidence_channel": "operator_confirmation", "evidence": [],
+                "operator_confirmation": confirmation, "operator_assertion": True,
+                "review_note": f"Operator-confirmed role: {label}. Archive corroboration remains separate.",
+            })
+
+    organizations = []
     for entry in alias_registry["entries"]:
-        if entry["entity_type"] != "guild":
+        if entry["entity_type"] == "person":
             continue
         canonical = entry["canonical_name"]
         refs = entry["evidence"]
         dated = sorted(ref["timestamp"] for ref in refs if ref.get("timestamp"))
-        guild_relationships = [r["relationship_id"] for r in relationships if r["object_type"] == "guild" and normalized(r["object_name"]) == normalized(canonical)]
-        guild_relationships += [r["relationship_id"] for r in relationships if normalized(r["subject_name"]) == normalized(canonical)]
-        guilds.append({
-            "guild_id": stable_id("GUILD", normalized(canonical)),
+        organization_relationships = [r["relationship_id"] for r in relationships if normalized(r["object_name"]) == normalized(canonical)]
+        organization_relationships += [r["relationship_id"] for r in relationships if normalized(r["subject_name"]) == normalized(canonical)]
+        organizations.append({
+            "organization_id": stable_id("ORG", normalized(canonical)),
+            "guild_id": stable_id("GUILD", normalized(canonical)) if entry["entity_type"] == "guild" else None,
             "canonical_name": canonical,
+            "entity_type": entry["entity_type"],
             "aliases": entry["aliases"],
+            "meaning": entry.get("meaning"),
             "first_seen": dated[0] if dated else None,
             "last_seen": dated[-1] if dated else None,
-            "relationship_ids": sorted(set(guild_relationships)),
+            "relationship_ids": sorted(set(organization_relationships)),
             "evidence": refs,
-            "status": "evidence_supported" if refs else "seeded_unresolved",
+            "operator_confirmation": entry.get("operator_confirmation"),
+            "status": "evidence_supported" if refs else entry["resolution_status"].casefold(),
         })
 
     for record in identities.values():
         record["author_ids"].sort()
         record["observed_handles"].sort(key=str.casefold)
+        record["confirmed_aliases"].sort(key=str.casefold)
         record["roles"].sort()
+        record["operator_confirmed_roles"].sort()
         seen_refs = {}
         for ref in record["evidence"]:
             seen_refs[(ref["source_id"], ref["quoted_text"], ref["attribution_class"])] = ref
         record["evidence"] = list(seen_refs.values())
     relationships.sort(key=lambda r: (r.get("valid_at") or "", r["relationship_id"]))
-    return sorted(identities.values(), key=lambda r: (r["canonical_handle"].casefold(), r["identity_id"])), guilds, relationships
+    organizations.sort(key=lambda item: (item["canonical_name"].casefold(), item["organization_id"]))
+    return sorted(identities.values(), key=lambda r: (r["canonical_handle"].casefold(), r["identity_id"])), organizations, relationships
 
 
-def promotion_candidates(identities: list[dict[str, Any]], guilds: list[dict[str, Any]], relationships: list[dict[str, Any]]) -> dict[str, Any]:
+def promotion_candidates(identities: list[dict[str, Any]], organizations: list[dict[str, Any]], relationships: list[dict[str, Any]]) -> dict[str, Any]:
     candidates = []
     rel_by_subject: defaultdict[str, list[dict[str, Any]]] = defaultdict(list)
     for relationship in relationships:
         rel_by_subject[relationship["subject_id"]].append(relationship)
     for identity in identities:
         refs = identity["evidence"]
-        source_ids = {r["source_id"] for r in refs}
-        authors = {r.get("display_name") for r in refs if r.get("display_name")}
-        channels = {r.get("channel_id") for r in refs if r.get("channel_id")}
-        roles = set(identity["roles"])
-        if len(source_ids) < 2:
-            continue
-        direct = any(r["attribution_class"] == "direct_self_identification" for r in refs)
-        leadership = bool(roles & {"founder", "officer", "organizer", "leader", "council_member"})
-        dates = sorted(r["timestamp"] for r in refs if r.get("timestamp"))
-        duration_days = 0
-        if len(dates) > 1:
-            try:
-                duration_days = (datetime.fromisoformat(dates[-1].replace("Z", "+00:00")) - datetime.fromisoformat(dates[0].replace("Z", "+00:00"))).days
-            except ValueError:
-                duration_days = 0
-        components = {
-            "evidence_strength": 20 if direct else (15 if len(authors) >= 2 else 10),
-            "independent_mentions": min(15, len(source_ids) * 3),
-            "activity_duration": min(10, duration_days // 180),
-            "leadership_or_founder": 15 if leadership and (direct or len(authors) >= 2) else (5 if leadership else 0),
-            "contribution_type": min(10, len(roles) * 4),
-            "cross_channel_corroboration": min(10, len(channels) * 5),
-            "identity_confidence": 10 if identity["author_ids"] else 6,
-            "historical_significance": min(10, len(rel_by_subject[identity["identity_id"]]) * 3),
+        source_ids = {ref["source_id"] for ref in refs if ref.get("source_id")}
+        authors = {ref.get("display_name") for ref in refs if ref.get("display_name")}
+        rels = rel_by_subject[identity["identity_id"]]
+        archive_roles = set(identity["roles"])
+        operator_roles = set(identity["operator_confirmed_roles"])
+        role_set = archive_roles | operator_roles
+        dimensions = {
+            "guild_founder": int("guild_founder" in role_set),
+            "guild_leader": int("guild_leader" in role_set),
+            "guild_officer": int("guild_officer" in role_set or "officer" in role_set),
+            "alliance_leader": int("alliance_leader" in role_set),
+            "dao_council_service": int("dao_council_service" in role_set),
+            "official_team_member": int("official_team_member" in role_set),
+            "creator_or_builder": int(bool(role_set & {"creator_or_builder", "builder", "creator"})),
+            "community_organizer": int(bool(role_set & {"community_organizer", "organizer"})),
+            "historical_significance": min(5, len(rels)),
+            "identity_confidence": 3 if identity["alias_basis"] == "operator_confirmed" else (2 if identity["author_ids"] else 1),
+            "evidence_strength": 3 if any(ref["attribution_class"] == "direct_self_identification" for ref in refs) else (2 if len(authors) >= 2 else (1 if source_ids else 0)),
         }
-        total = sum(components.values())
-        volume_guard = bool(roles or rel_by_subject[identity["identity_id"]])
-        recommendation = "defer"
-        if volume_guard and total >= 65 and (not leadership or direct or len(authors) >= 2):
-            recommendation = "promote"
-        elif volume_guard and total >= 40:
-            recommendation = "review"
+        substantive = bool(role_set or rels)
+        if identity["identity_confidence"] == "seeded_unresolved":
+            status = "REQUIRES_IDENTITY_RESOLUTION"
+        elif substantive and (dimensions["evidence_strength"] >= 2 or operator_roles):
+            status = "READY_FOR_HUMAN_PROMOTION_REVIEW"
+        elif substantive:
+            status = "REQUIRES_ROLE_CORROBORATION"
+        elif source_ids:
+            status = "EVIDENCE_SUPPORTED_PROFILE_CANDIDATE"
+        else:
+            status = "DISCOVERY_ONLY"
         candidates.append({
-            "entity_type": "person",
-            "entity_id": identity["identity_id"],
-            "name": identity["canonical_handle"],
-            "score": total,
-            "score_components": components,
-            "independent_message_count": len(source_ids),
-            "independent_author_count": len(authors),
-            "duration_days": duration_days,
-            "roles": sorted(roles),
-            "recommendation": recommendation,
-            "volume_only_guard_passed": volume_guard,
-            "evidence": refs[:25],
+            "entity_type": "person", "entity_id": identity["identity_id"], "name": identity["canonical_handle"],
+            "review_status": status, "score_dimensions": dimensions,
+            "archive_roles": sorted(archive_roles), "operator_confirmed_roles": sorted(operator_roles),
+            "independent_message_count": len(source_ids), "independent_author_count": len(authors),
+            "council_service_excluded_from_guild_leadership": True,
+            "evidence": refs[:25], "operator_confirmations": identity["operator_confirmations"],
         })
-    for guild in guilds:
-        refs = guild["evidence"]
-        source_ids = {r["source_id"] for r in refs}
-        authors = {r.get("display_name") for r in refs if r.get("display_name")}
-        if len(source_ids) < 2:
-            continue
-        rel_count = len(guild["relationship_ids"])
-        components = {
-            "evidence_strength": 15 if len(authors) >= 2 else 10,
-            "independent_mentions": min(15, len(source_ids) * 3),
-            "activity_duration": 5 if guild["first_seen"] != guild["last_seen"] else 0,
-            "leadership_or_founder": 0,
-            "contribution_type": min(10, rel_count * 3),
-            "cross_channel_corroboration": 0,
-            "identity_confidence": 8,
-            "historical_significance": min(10, rel_count * 3),
-        }
-        total = sum(components.values())
+    for organization in organizations:
+        refs = organization["evidence"]
+        source_ids = {ref["source_id"] for ref in refs if ref.get("source_id")}
+        status = "EVIDENCE_SUPPORTED_PROFILE_CANDIDATE" if len(source_ids) >= 2 and organization["entity_type"] != "unresolved_tag" else ("REQUIRES_IDENTITY_RESOLUTION" if organization["entity_type"] == "unresolved_tag" else "DISCOVERY_ONLY")
         candidates.append({
-            "entity_type": "guild", "entity_id": guild["guild_id"], "name": guild["canonical_name"],
-            "score": total, "score_components": components, "independent_message_count": len(source_ids),
-            "independent_author_count": len(authors), "recommendation": "promote" if total >= 65 else ("review" if total >= 40 else "defer"),
-            "volume_only_guard_passed": rel_count > 0, "evidence": refs[:25],
+            "entity_type": organization["entity_type"], "entity_id": organization["organization_id"],
+            "name": organization["canonical_name"], "review_status": status,
+            "score_dimensions": {"historical_significance": min(5, len(organization["relationship_ids"])), "identity_confidence": 3 if organization.get("operator_confirmation") else 1, "evidence_strength": 2 if len(source_ids) >= 2 else (1 if source_ids else 0)},
+            "independent_message_count": len(source_ids), "evidence": refs[:25],
+            "operator_confirmation": organization.get("operator_confirmation"),
         })
-    candidates.sort(key=lambda c: (-c["score"], c["name"].casefold()))
+    candidates.sort(key=lambda item: (item["review_status"], item["name"].casefold(), item["entity_id"]))
     return {
-        "schema_version": SCHEMA_VERSION,
-        "campaign_id": CAMPAIGN_ID,
-        "scoring_note": "Message volume is not a scoring component; independent evidence, time, roles, contribution, corroboration, confidence, and significance are scored.",
-        "thresholds": {"promote": 65, "review": 40},
-        "candidates": candidates,
+        "schema_version": SCHEMA_VERSION, "campaign_id": CAMPAIGN_ID,
+        "decision_boundary": "Review-oriented discovery only; no automated candidate is promoted into canonical knowledge.",
+        "allowed_review_statuses": sorted(REVIEW_STATUSES), "candidates": candidates,
     }
 
 
+def tag_registry(messages: list[Message]) -> dict[str, Any]:
+    entries = {entry["tag"].casefold(): dict(entry) for entry in TAG_REGISTRY_SEEDS}
+    for message in messages:
+        for handle in extract_mentions(message.content):
+            match = re.match(r"@?\[([^\]]+)\]", handle)
+            if match and match.group(1).casefold() not in entries:
+                tag = match.group(1)
+                entries[tag.casefold()] = {
+                    "tag": tag, "canonical_entity": tag, "entity_type": "unresolved_tag",
+                    "resolution_status": "HUMAN_REVIEW_REQUIRED", "resolution_basis": "observed_display_tag_only",
+                }
+    return {"schema_version": SCHEMA_VERSION, "campaign_id": CAMPAIGN_ID, "entries": sorted(entries.values(), key=lambda item: item["tag"].casefold())}
+
+
+def event_name(content: str) -> str | None:
+    if re.search(r"\bCOPA\b|Council of Peace Assembly", content, re.I):
+        return "Council of Peace Assembly (COPA)"
+    if re.search(r"Color The Stars", content, re.I):
+        return "Color The Stars"
+    if re.search(r"Tufa Attack", content, re.I):
+        return "Tufa Attack Tournament"
+    if re.search(r"CORE Trivia", content, re.I):
+        return "CORE Trivia"
+    return None
+
+
+def extract_competition_records(messages: list[Message], alias_registry: dict[str, Any]) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    organization_terms = {
+        term: entry for entry in alias_registry["entries"] if entry["entity_type"] != "person"
+        for term in entry["normalized_terms"]
+    }
+    person_terms = {
+        term: entry for entry in alias_registry["entries"] if entry["entity_type"] == "person"
+        for term in entry["normalized_terms"]
+    }
+    records, relationships, reviews = [], [], []
+    pattern = re.compile(r"(?i)(?<!\w)(1st|2nd|3rd)(?:\s+Place)?\s*[-:]\s*([^,\r\n]+)")
+    for message in messages:
+        for match in pattern.finditer(message.content):
+            placement = {"1st": 1, "2nd": 2, "3rd": 3}[match.group(1).casefold()]
+            raw_value = clean_space(match.group(2)).strip(" .")
+            participant = re.sub(r"\s*\([^)]*\)\s*$", "", raw_value).strip()
+            looks_like_prize = bool(re.search(r"\$|\b(?:prize|tier|origination price|receive|poster|land)\b", raw_value, re.I)) and not re.search(r"\b(?:winner|congratulations)\b", message.content, re.I)
+            organization = organization_terms.get(normalized(participant))
+            person = person_terms.get(normalized(participant))
+            if looks_like_prize:
+                participant_type, status, category, prize = "unresolved", "REVIEW_REQUIRED_PRIZE_OR_CATEGORY", raw_value, raw_value
+            elif organization:
+                participant_type, status, category, prize = organization["entity_type"], "RESOLVED", None, None
+            elif person:
+                participant_type, status, category, prize = "individual", "RESOLVED", None, None
+            else:
+                participant_type, status, category, prize = "unresolved", "REVIEW_REQUIRED_PARTICIPANT_TYPE", None, None
+            competition_id = stable_id("COMP", f"{message.source_id}:{match.start()}:{raw_value}")
+            record = {
+                "competition_record_id": competition_id, "source_id": message.source_id,
+                "event": event_name(message.content), "placement": placement,
+                "participant": participant if not looks_like_prize else None,
+                "participant_type": participant_type, "category": category, "prize": prize,
+                "unresolved_text": raw_value if status != "RESOLVED" else None,
+                "resolution_status": status, "timestamp": message.timestamp,
+                "evidence": [evidence(message, match.group(0), "explicit_third_party_attribution")],
+            }
+            records.append(record)
+            if status == "RESOLVED":
+                entity_name = organization["canonical_name"] if organization else person["preferred_display_name"]
+                entity_id = stable_id("ORG", normalized(entity_name)) if organization else stable_id("PERSON", f"confirmed:{normalized(entity_name)}")
+                relationships.append({
+                    "relationship_id": stable_id("REL", f"competition:{competition_id}"),
+                    "subject_id": entity_id, "subject_name": entity_name,
+                    "predicate": "placed_in_competition", "object_type": "event",
+                    "object_name": record["event"] or "UNRESOLVED_EVENT", "valid_at": message.timestamp,
+                    "confidence": "high" if record["event"] else "medium", "evidence_channel": "archive_evidence",
+                    "evidence": record["evidence"], "placement": placement,
+                })
+            else:
+                reviews.append({
+                    "review_type": "malformed_competition_result" if looks_like_prize else "unresolved_participant_type",
+                    "subject": participant or raw_value, "observed_values": [raw_value],
+                    "candidate_resolution": None, "confidence": "LOW", "evidence": record["evidence"],
+                    "reason_human_review_required": "Placement-like text is a prize/category fragment." if looks_like_prize else "Participant is not a resolved person or reviewed organization.",
+                    "allowed_decisions": ["RESOLVE_PARTICIPANT", "CLASSIFY_AS_PRIZE_OR_CATEGORY", "REJECT_EXTRACTION", "DEFER"],
+                })
+    records.sort(key=lambda item: (item["timestamp"] or "", item["competition_record_id"]))
+    relationships.sort(key=lambda item: (item["valid_at"] or "", item["relationship_id"]))
+    return records, relationships, reviews
+
+
+def month_range(first_month: str, last_month: str) -> list[str]:
+    year, month = map(int, first_month.split("-"))
+    end_year, end_month = map(int, last_month.split("-"))
+    values = []
+    while (year, month) <= (end_year, end_month):
+        values.append(f"{year:04d}-{month:02d}")
+        month += 1
+        if month == 13:
+            year, month = year + 1, 1
+    return values
+
+
+def build_channel_coverage(messages: list[Message], inventory: list[dict[str, Any]]) -> tuple[dict[str, Any], dict[str, Any], dict[str, Any]]:
+    dated = sorted((message for message in messages if message.timestamp and re.match(r"^\d{4}-\d{2}", message.timestamp)), key=lambda item: (item.timestamp or "", item.source_id))
+    timestamps = [message.timestamp for message in dated]
+    represented_months = sorted({value[:7] for value in timestamps})
+    expected_months = month_range(represented_months[0], represented_months[-1]) if represented_months else []
+    missing_months = sorted(set(expected_months) - set(represented_months))
+    years = sorted({month[:4] for month in represented_months})
+    observed_names = sorted({message.observed_channel_name for message in messages if message.observed_channel_name}, key=str.casefold)
+    all_paths = sorted({path for message in messages for path in message.source_paths})
+    anchor_paths = [path for path in all_paths if path.endswith("star-atlas-discord-announcements.md") or path.endswith("messages.jsonl")]
+    anchor_paths.append("archive/normalized/discord-announcements/messages/")
+    collection_notes = sorted({note for message in messages for note in message.collection_notes})
+    no_text_count = sum(clean_space(message.content).casefold() == "[no text content]" for message in messages)
+    coverage_id = stable_id("DISCORD-COVERAGE", "archive/raw/discord-announcements/star-atlas-discord-announcements.md")
+    entry = {
+        "coverage_id": coverage_id,
+        "server_or_community_name": "Star Atlas Discord (repository-designated; native server unresolved)",
+        "native_server_id": None, "server_identity_status": "REPOSITORY_DESIGNATED_NATIVE_IDENTITY_UNRESOLVED",
+        "canonical_channel_name": None, "repository_designated_channel_name": "announcements",
+        "observed_channel_names": observed_names, "channel_category": "announcements",
+        "channel_identity_basis": "repository collection path plus raw export header; no native channel ID",
+        "source_paths": anchor_paths, "formats": ["json", "jsonl", "md"],
+        "earliest_message_timestamp": timestamps[0] if timestamps else None,
+        "earliest_message_source_id": dated[0].source_id if dated else None,
+        "latest_message_timestamp": timestamps[-1] if timestamps else None,
+        "latest_message_source_id": dated[-1].source_id if dated else None,
+        "message_count": len(messages), "months_present": represented_months,
+        "years_present": years, "missing_months": missing_months,
+        "missing_month_interpretation": "INDETERMINATE_NO_EXPORT_EVIDENCE" if missing_months else "NO_INTERNAL_MONTH_GAPS_OBSERVED_NOT_A_COMPLETENESS_CLAIM",
+        "coverage_status": "UNRESOLVED_CHANNEL", "temporal_freshness": "ACTIVE_CURRENT_TO_LAST_CAPTURE",
+        "historical_completeness": "PARTIAL_ACQUISITION_RUNTIME_LIMIT_REACHED",
+        "last_ingested_archive_message": {"source_id": dated[-1].source_id, "timestamp": timestamps[-1]} if dated else None,
+        "native_channel_id": None, "native_message_ids_present": False, "native_author_ids_present": False,
+        "timezone_status": "OFFSET_NOT_CAPTURED", "collection_complete": False,
+        "notes": collection_notes + ["All represented months contain at least one message; this does not prove complete monthly history."],
+    }
+    parsed_occurrences = sum(item["parsed_message_occurrences"] for item in inventory if item["ingested"])
+    representations = {
+        "raw_aggregate_exports": sum(item["path"].startswith("archive/raw/") and item["parsed_message_occurrences"] > 1 for item in inventory),
+        "normalized_aggregate_exports": sum(item["path"].endswith("messages.jsonl") for item in inventory),
+        "normalized_per_message_files": sum("/messages/" in item["path"] and item["format"] == "json" for item in inventory),
+        "derived_indexes": sum(item["path"].endswith("announcement-index.csv") for item in inventory),
+    }
+    coverage = {
+        "schema_version": SCHEMA_VERSION, "campaign_id": CAMPAIGN_ID,
+        "scope_statement": "Rolling coverage ledger for imported exports; not a completed Discord corpus declaration.",
+        "summary": {
+            "source_files_inventoried": len(inventory), "independent_export_units": 1,
+            "parsed_message_occurrences": parsed_occurrences, "unique_messages": len(messages),
+            "repository_designated_communities": 1, "native_servers_identified": 0,
+            "canonical_native_channels_identified": 0, "unresolved_channel_exports": 1,
+            "earliest_message_timestamp": timestamps[0] if timestamps else None,
+            "latest_message_timestamp": timestamps[-1] if timestamps else None,
+            "internal_month_gaps": len(missing_months), "representation_counts": representations,
+        },
+        "channels": [entry],
+    }
+    gap_report = {
+        "schema_version": SCHEMA_VERSION, "campaign_id": CAMPAIGN_ID,
+        "channel_gap_count": len(missing_months), "unresolved_channel_exports": 1,
+        "gaps": [{
+            "coverage_id": coverage_id, "missing_months": missing_months,
+            "partial_years": [years[0], years[-1]] if years else [],
+            "zero_message_months": [], "months_without_available_export": missing_months,
+            "findings": [
+                "Native channel and server identity are unresolved.",
+                "Historical acquisition reached its 180-minute limit before the requested start time.",
+                "All native message, channel, and author IDs are absent.",
+                "Message timestamps contain no captured timezone offset.",
+                f"{no_text_count} no-text placeholders and attachment-only records require review.",
+            ],
+        }],
+    }
+    backlog = {
+        "schema_version": SCHEMA_VERSION, "campaign_id": CAMPAIGN_ID,
+        "items": [
+            {"priority": "P0", "type": "missing_channel_identification", "target": "Imported announcements export", "required_artifact": "Native server/channel IDs and official channel-name export"},
+            {"priority": "P0", "type": "historical_backfill", "target": "Imported announcements export before 2021-03-16", "required_artifact": "Completed history export reaching the requested start"},
+        ] + [
+            {"priority": "P1", "type": "mentioned_channel_not_imported", "target": name, "required_artifact": "Native channel export with message timestamps and IDs"}
+            for name in ["Foundation Room", "Foundation Room Chat", "Foudnation Room", "Atlas Amphitheater", "Atlas Brew Lounge", "dao-announcements", "guild channels", "faction channels", "economics", "governance", "general", "support"]
+        ] + [
+            {"priority": "P1", "type": "empty_or_attachment_only_records", "target": f"{no_text_count} no-text placeholders", "required_artifact": "Attachment metadata or corrected export"},
+            {"priority": "P2", "type": "native_identifiers", "target": "All imported messages", "required_artifact": "Privacy-reviewed ID-bearing export"},
+        ],
+    }
+    backlog["items"] = sorted(backlog["items"], key=lambda item: (item["priority"], item["type"], item["target"].casefold()))
+    return coverage, gap_report, backlog
+
+
+def build_human_resolution_queue(duplicate_reviews: list[dict[str, Any]], alias_conflicts: list[dict[str, Any]], tags: dict[str, Any], organizations: list[dict[str, Any]], relationships: list[dict[str, Any]], competition_reviews: list[dict[str, Any]], coverage: dict[str, Any]) -> dict[str, Any]:
+    items: list[dict[str, Any]] = []
+    def add(review_type: str, subject: str, observed_values: list[Any], candidate: Any, confidence: str, evidence_refs: list[dict[str, Any]], reason: str, decisions: list[str]) -> None:
+        items.append({
+            "review_id": stable_id("REVIEW", f"{review_type}:{subject}:{json.dumps(observed_values, sort_keys=True, ensure_ascii=False)}"),
+            "review_type": review_type, "subject": subject, "observed_values": observed_values,
+            "candidate_resolution": candidate, "confidence": confidence, "evidence": evidence_refs,
+            "reason_human_review_required": reason, "allowed_decisions": decisions,
+            "operator_decision": None, "decision_status": "OPEN",
+        })
+    for item in duplicate_reviews:
+        add("likely_duplicate_message", item["source_id"], item["observed_contents"], None, "LOW", [], item["reason_human_review_required"], ["MERGE_AS_SAME_MESSAGE", "KEEP_DISTINCT", "DEFER"])
+    for item in alias_conflicts:
+        if item.get("type") == "unresolved_similarity":
+            add("possible_alias", item["observed_handle"], [item["seeded_name"], item["observed_handle"]], item["seeded_name"], "LOW", [], "Fuzzy resemblance is not identity evidence.", ["CONFIRM_ALIAS", "REJECT_ALIAS", "DEFER"])
+    for entry in tags["entries"]:
+        if entry["resolution_status"] == "HUMAN_REVIEW_REQUIRED":
+            add("unknown_display_tag", entry["tag"], [entry["tag"]], None, "LOW", [], "Display tag has no confirmed organization classification.", ["RESOLVE_TAG", "MARK_INFORMAL", "REJECT_ORGANIZATION", "DEFER"])
+    for organization in organizations:
+        if organization["entity_type"] == "unresolved_tag":
+            add("uncertain_organization_type", organization["canonical_name"], [organization["canonical_name"], *organization["aliases"]], None, "LOW", organization["evidence"][:5], "Organization type is not confirmed.", ["GUILD", "GUILD_ALLIANCE", "COMMUNITY_ORGANIZATION", "INFORMAL_GROUP", "NOT_AN_ORGANIZATION", "DEFER"])
+    for relation in relationships:
+        if relation["predicate"] == "possible_member_of":
+            add("possible_guild_membership", relation["subject_name"], [relation["object_name"]], relation["object_name"], "LOW", relation["evidence"], "Display-name tag is association evidence, not confirmed membership.", ["CONFIRM_MEMBERSHIP", "ASSOCIATION_ONLY", "REJECT", "DEFER"])
+    for item in competition_reviews:
+        add(item["review_type"], item["subject"], item["observed_values"], item["candidate_resolution"], item["confidence"], item["evidence"], item["reason_human_review_required"], item["allowed_decisions"])
+    for target in ["Agent Solace", "The Vanguard", "The Club Guild / The Club", "Rome", "Witticus", "ReyVeezy", "FancyHat", "Virtuwaal"]:
+        add("seeded_unresolved_identity_or_organization", target, [target], None, "UNKNOWN", [], "Seeded by operator for the next resolution pass; no resolution is manufactured.", ["RESOLVE", "REJECT", "DEFER"])
+    if coverage["summary"]["unresolved_channel_exports"]:
+        add("unresolved_channel_name", "Imported announcements export", coverage["channels"][0]["observed_channel_names"], "announcements", "MEDIUM", [], "Repository designation exists but native channel identity is absent.", ["CONFIRM_CANONICAL_CHANNEL", "RENAME", "DEFER"])
+    add("source_gap", "Announcements historical lower bound", [coverage["summary"]["earliest_message_timestamp"]], None, "HIGH", [], "Acquisition runtime limit prevented complete historical backfill.", ["ACQUIRE_BACKFILL", "ACCEPT_PARTIAL", "DEFER"])
+    items = sorted({item["review_id"]: item for item in items}.values(), key=lambda item: (item["review_type"], item["subject"].casefold(), item["review_id"]))
+    return {"schema_version": SCHEMA_VERSION, "campaign_id": CAMPAIGN_ID, "item_count": len(items), "items": items}
+
+
 def validate_outputs(messages: list[Message], alias_registry: dict[str, Any], identities: list[dict[str, Any]],
-                     guilds: list[dict[str, Any]], relationships: list[dict[str, Any]], inventory: list[dict[str, Any]]) -> dict[str, Any]:
+                     organizations: list[dict[str, Any]], relationships: list[dict[str, Any]], inventory: list[dict[str, Any]],
+                     promotions: dict[str, Any] | None = None, tags: dict[str, Any] | None = None,
+                     competition_records: list[dict[str, Any]] | None = None, coverage: dict[str, Any] | None = None,
+                     human_queue: dict[str, Any] | None = None) -> dict[str, Any]:
     source_ids = {message.source_id for message in messages}
-    all_claim_records: list[dict[str, Any]] = identities + guilds + relationships
+    all_claim_records: list[dict[str, Any]] = identities + organizations + relationships + (competition_records or [])
     unresolved_refs = []
+    evidence_class_failures = []
+    operator_channel_failures = []
     for record in all_claim_records:
         for ref in record.get("evidence", []):
-            if ref["source_id"] not in source_ids:
+            if ref.get("evidence_channel") == "archive_evidence" and ref.get("source_id") not in source_ids:
                 unresolved_refs.append({"record": record.get("identity_id") or record.get("guild_id") or record.get("relationship_id"), "source_id": ref["source_id"]})
+            if ref.get("attribution_class") not in EVIDENCE_CLASSES:
+                evidence_class_failures.append(ref.get("attribution_class"))
+            if ref.get("evidence_channel") == "operator_confirmation" and (ref.get("source_id") is not None or not ref.get("operator_assertion")):
+                operator_channel_failures.append(record.get("identity_id") or record.get("relationship_id"))
+        confirmation = record.get("operator_confirmation")
+        if confirmation and (confirmation.get("evidence_channel") != "operator_confirmation" or confirmation.get("source_id") is not None or not confirmation.get("operator_assertion")):
+            operator_channel_failures.append(record.get("identity_id") or record.get("organization_id") or record.get("relationship_id"))
     terms = defaultdict(list)
     for entry in alias_registry["entries"]:
         for term in entry["normalized_terms"]:
@@ -762,27 +1236,54 @@ def validate_outputs(messages: list[Message], alias_registry: dict[str, Any], id
         for author_id in identity["author_ids"]:
             id_owners[author_id].add(identity["identity_id"])
     merged_ids = {key: sorted(value) for key, value in id_owners.items() if len(value) > 1}
-    undated_relationships = [r["relationship_id"] for r in relationships if not r.get("valid_at")]
+    undated_relationships = [r["relationship_id"] for r in relationships if r.get("evidence_channel") == "archive_evidence" and not r.get("valid_at")]
     missing_quotes = [
         ref["source_id"] for record in all_claim_records for ref in record.get("evidence", [])
         if not ref.get("quoted_text")
     ]
     duplicate_provenance_preserved = all(message.source_paths for message in messages)
+    relationship_426 = [r["relationship_id"] for r in relationships if normalized(r.get("object_name")) == "426" and r.get("predicate") in {"member_of", "possible_member_of"}]
+    bad_tag_memberships = [r["relationship_id"] for r in relationships if r.get("predicate") in {"member_of", "possible_member_of"} and r.get("object_type") != "guild"]
+    ia_bad = [r["relationship_id"] for r in relationships if normalized(r.get("object_name")) == "ia" or (r.get("object_name") == "Intergalactic Alliance" and r.get("predicate") != "associated_with_alliance")]
+    prize_false_positives = [r["relationship_id"] for r in relationships if "csstier" in normalized(r.get("subject_name"))]
+    bare_promotions = [item["entity_id"] for item in (promotions or {}).get("candidates", []) if item.get("recommendation") == "promote" or item.get("review_status") not in REVIEW_STATUSES]
+    council_score_failures = [item["entity_id"] for item in (promotions or {}).get("candidates", []) if item.get("score_dimensions", {}).get("dao_council_service") and any(item.get("score_dimensions", {}).get(key) for key in ("guild_founder", "guild_leader", "guild_officer")) and not set(item.get("operator_confirmed_roles", [])) & {"guild_founder", "guild_leader", "guild_officer"}]
+    organization_types = [item["entity_type"] for item in organizations if item["entity_type"] not in ORGANIZATION_TYPES]
+    coverage_dates_ok = True
+    if coverage and messages:
+        dated = sorted(message.timestamp for message in messages if message.timestamp and re.match(r"^\d{4}-\d{2}", message.timestamp))
+        coverage_dates_ok = coverage["summary"]["earliest_message_timestamp"] == dated[0] and coverage["summary"]["latest_message_timestamp"] == dated[-1]
+    source_record_dir = Path(__file__).resolve().parents[3] / "archive/source-records/discord-announcements"
+    source_record_reconciliation = True
+    if source_record_dir.exists() and all(source_id.startswith("SA-DISCORD-ANN-") for source_id in source_ids):
+        record_ids = {path.stem for path in source_record_dir.glob("*.json")}
+        source_record_reconciliation = source_ids == record_ids
     checks = [
         {"name": "every_indexed_claim_resolves_to_source_message", "passed": not unresolved_refs, "details": unresolved_refs},
+        {"name": "controlled_evidence_taxonomy", "passed": not evidence_class_failures, "details": sorted(set(evidence_class_failures))},
+        {"name": "operator_confirmation_separate_from_archive_evidence", "passed": not operator_channel_failures, "details": operator_channel_failures},
         {"name": "aliases_non_circular_and_conflict_aware", "passed": not alias_collisions, "details": alias_collisions},
         {"name": "user_ids_not_merged_without_evidence", "passed": not merged_ids, "details": merged_ids},
-        {"name": "guild_relationships_dated_where_possible", "passed": not undated_relationships, "details": undated_relationships},
+        {"name": "archive_relationships_are_dated", "passed": not undated_relationships, "details": undated_relationships},
         {"name": "duplicate_messages_collapsed_with_provenance", "passed": duplicate_provenance_preserved, "details": {"unique_messages": len(messages), "source_occurrences": sum(i["parsed_message_occurrences"] for i in inventory if i["ingested"])}},
         {"name": "quoted_text_preserved", "passed": not missing_quotes, "details": missing_quotes},
-        {"name": "deterministic_ordering", "passed": True, "details": "All paths and records use stable sorting and hash-based identifiers."},
+        {"name": "organization_types_controlled", "passed": not organization_types, "details": organization_types},
+        {"name": "community_meme_426_never_membership", "passed": not relationship_426, "details": relationship_426},
+        {"name": "non_guild_tags_never_guild_membership", "passed": not bad_tag_memberships, "details": bad_tag_memberships},
+        {"name": "ia_is_alliance_association", "passed": not ia_bad, "details": ia_bad},
+        {"name": "competition_prize_fragments_not_participants", "passed": not prize_false_positives, "details": prize_false_positives},
+        {"name": "review_oriented_promotion_statuses_only", "passed": not bare_promotions, "details": bare_promotions},
+        {"name": "council_service_not_guild_leadership_evidence", "passed": not council_score_failures, "details": council_score_failures},
+        {"name": "coverage_dates_derive_from_messages", "passed": coverage_dates_ok, "details": None},
+        {"name": "source_ids_reconcile_to_source_records", "passed": source_record_reconciliation, "details": None},
+        {"name": "human_resolution_queue_present", "passed": human_queue is None or human_queue.get("item_count", 0) > 0, "details": human_queue.get("item_count") if human_queue else "fixture_not_supplied"},
     ]
     return {
         "schema_version": SCHEMA_VERSION,
         "campaign_id": CAMPAIGN_ID,
         "status": "pass" if all(check["passed"] for check in checks) else "fail",
         "checks": checks,
-        "counts": {"sources": len(inventory), "unique_messages": len(messages), "identities": len(identities), "guilds": len(guilds), "relationships": len(relationships)},
+        "counts": {"sources": len(inventory), "unique_messages": len(messages), "identities": len(identities), "organizations": len(organizations), "guilds": sum(item["entity_type"] == "guild" for item in organizations), "relationships": len(relationships), "competition_records": len(competition_records or [])},
         "external_validation": {
             "json_and_jsonl_parse": "run validate_campaign.py",
             "regeneration_determinism": "run validate_campaign.py",
@@ -801,10 +1302,16 @@ def serialize_jsonl(records: list[dict[str, Any]]) -> str:
 
 
 def build(repo_root: Path) -> dict[str, str]:
-    messages, inventory = load_messages(repo_root)
+    messages, inventory, duplicate_reviews = load_messages(repo_root, include_duplicate_reviews=True)
     alias_registry, seed_conflicts = build_alias_registry(messages)
-    identities, guilds, relationships = build_indexes(messages, alias_registry)
-    promotions = promotion_candidates(identities, guilds, relationships)
+    identities, organizations, relationships = build_indexes(messages, alias_registry)
+    competition_records, competition_relationships, competition_reviews = extract_competition_records(messages, alias_registry)
+    relationships.extend(competition_relationships)
+    relationships = sorted({item["relationship_id"]: item for item in relationships}.values(), key=lambda item: (item.get("valid_at") or "", item["relationship_id"]))
+    promotions = promotion_candidates(identities, organizations, relationships)
+    tags = tag_registry(messages)
+    coverage, gap_report, collection_backlog = build_channel_coverage(messages, inventory)
+    human_queue = build_human_resolution_queue(duplicate_reviews, seed_conflicts, tags, organizations, relationships, competition_reviews, coverage)
     missing_identifier_counts = {
         "message_id": sum(message.message_id is None for message in messages),
         "channel_id": sum(message.channel_id is None for message in messages),
@@ -814,6 +1321,7 @@ def build(repo_root: Path) -> dict[str, str]:
         "schema_version": SCHEMA_VERSION,
         "campaign_id": CAMPAIGN_ID,
         "unresolved_conflicts": seed_conflicts,
+        "duplicate_review_candidates": duplicate_reviews,
         "source_limitations": [{
             "type": "missing_discord_identifiers",
             "counts": missing_identifier_counts,
@@ -821,7 +1329,7 @@ def build(repo_root: Path) -> dict[str, str]:
         }],
         "identity_merge_policy": "No identities are merged from name or fuzzy similarity alone.",
     }
-    unresolved_seeds = [entry["canonical_name"] for entry in alias_registry["entries"] if entry["registry_status"] == "seeded_unresolved"]
+    unresolved_seeds = [entry["canonical_name"] for entry in alias_registry["entries"] if entry["resolution_status"] == "HUMAN_REVIEW_REQUIRED"]
     transition_count = sum(r["predicate"] in {"renamed_to", "merged_into", "split_into", "became", "succeeded_by"} for r in relationships)
     backlog = {
         "schema_version": SCHEMA_VERSION,
@@ -833,24 +1341,44 @@ def build(repo_root: Path) -> dict[str, str]:
             {"priority": "medium", "topic": "Leadership corroboration", "reason": "A single official announcement is still one independent reference.", "next_evidence": "Require direct self-identification or a second independently authored message before promotion."},
         ],
     }
-    validation = validate_outputs(messages, alias_registry, identities, guilds, relationships, inventory)
+    validation = validate_outputs(messages, alias_registry, identities, organizations, relationships, inventory, promotions, tags, competition_records, coverage, human_queue)
+    parsed_occurrences = sum(item["parsed_message_occurrences"] for item in inventory if item["ingested"])
     source_inventory = {
         "schema_version": SCHEMA_VERSION,
         "campaign_id": CAMPAIGN_ID,
         "discovery_rule": "Supported files below archive/raw or archive/normalized whose repository path contains 'discord'.",
         "supported_formats": sorted(suffix.lstrip(".") for suffix in SUPPORTED_SUFFIXES),
         "files": inventory,
-        "summary": dict(sorted(Counter(item["classification"] for item in inventory).items())),
+        "summary": {
+            "source_files_inventoried": len(inventory),
+            "parsed_message_occurrences": parsed_occurrences,
+            "unique_messages": len(messages),
+            "independent_export_units": 1,
+            "channels_represented_native_confirmed": 0,
+            "servers_represented_native_confirmed": 0,
+            "repository_designated_communities": 1,
+            "date_range": {"earliest": coverage["summary"]["earliest_message_timestamp"], "latest": coverage["summary"]["latest_message_timestamp"]},
+            "classification_counts": dict(sorted(Counter(item["classification"] for item in inventory).items())),
+            "representation_counts": dict(sorted(Counter(item["representation_role"] for item in inventory).items())),
+        },
     }
+    guilds = [item for item in organizations if item["entity_type"] == "guild"]
     return {
         "source-inventory.json": serialize_json(source_inventory),
         "alias-registry.json": serialize_json(alias_registry),
         "identity-index.jsonl": serialize_jsonl(identities),
         "guild-index.jsonl": serialize_jsonl(guilds),
+        "organization-index.jsonl": serialize_jsonl(organizations),
         "relationship-index.jsonl": serialize_jsonl(relationships),
+        "competition-index.jsonl": serialize_jsonl(competition_records),
+        "tag-registry.json": serialize_json(tags),
         "promotion-candidates.json": serialize_json(promotions),
         "conflict-report.json": serialize_json(conflicts),
         "research-backlog.json": serialize_json(backlog),
+        "discord-channel-coverage.json": serialize_json(coverage),
+        "discord-channel-gap-report.json": serialize_json(gap_report),
+        "discord-collection-backlog.json": serialize_json(collection_backlog),
+        "human-resolution-queue.json": serialize_json(human_queue),
         "validation-report.json": serialize_json(validation),
     }
 
@@ -864,7 +1392,7 @@ def write_outputs(repo_root: Path, output_dir: Path) -> dict[str, str]:
 
 
 def search(output_dir: Path, query: str, threshold: float) -> list[dict[str, Any]]:
-    targets = (("identity", "identity-index.jsonl", "canonical_handle"), ("guild", "guild-index.jsonl", "canonical_name"))
+    targets = (("identity", "identity-index.jsonl", "canonical_handle"), ("organization", "organization-index.jsonl", "canonical_name"))
     needle = normalized(query)
     results = []
     for kind, filename, name_field in targets:

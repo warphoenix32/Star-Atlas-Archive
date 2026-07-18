@@ -2,19 +2,27 @@
   "campaign_id": "discord-community-indexing-001",
   "entries": [
     {
+      "alias_basis": "operator_confirmed",
       "aliases": [
         "AEP",
         "Aephia Industries"
       ],
       "canonical_name": "Aephia",
+      "confirmed_aliases": [
+        "AEP",
+        "Aephia Industries"
+      ],
       "entity_type": "guild",
       "evidence": [
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "AEP",
           "source_id": "SA-DISCORD-ANN-078D433ED26F0708",
           "source_paths": [
@@ -25,11 +33,14 @@
           "timestamp": "2021-06-11T10:32:19"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "AEP",
           "source_id": "SA-DISCORD-ANN-0CF5D160E6BC736F",
           "source_paths": [
@@ -40,11 +51,14 @@
           "timestamp": "2021-06-25T17:05:31"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "AEP",
           "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
           "source_paths": [
@@ -55,11 +69,14 @@
           "timestamp": "2021-07-20T19:23:43"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Aephia",
           "source_id": "SA-DISCORD-ANN-E23C7F68BCB47B62",
           "source_paths": [
@@ -70,11 +87,14 @@
           "timestamp": "2021-08-14T09:39:50"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "AEP",
           "source_id": "SA-DISCORD-ANN-3E355EAA4AEFC48C",
           "source_paths": [
@@ -85,11 +105,14 @@
           "timestamp": "2022-09-01T16:35:37"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Aephia",
           "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
           "source_paths": [
@@ -100,11 +123,32 @@
           "timestamp": "2024-02-21T16:25:12"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "Aephia Industries",
+          "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FDD03373197A63F8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-21T16:25:12"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Aephia",
           "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
           "source_paths": [
@@ -115,11 +159,32 @@
           "timestamp": "2024-02-29T11:34:00"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "Aephia Industries",
+          "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-17A149D561A1C7B8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-29T11:34:00"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Aephia",
           "source_id": "SA-DISCORD-ANN-586297837C293719",
           "source_paths": [
@@ -130,11 +195,14 @@
           "timestamp": "2024-09-25T14:10:51"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Aephia",
           "source_id": "SA-DISCORD-ANN-590264FE41318E2E",
           "source_paths": [
@@ -145,11 +213,14 @@
           "timestamp": "2025-01-09T22:22:16"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "AEP",
           "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
           "source_paths": [
@@ -160,11 +231,14 @@
           "timestamp": "2025-03-14T12:09:18"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "AEP",
           "source_id": "SA-DISCORD-ANN-B049D735C02507D2",
           "source_paths": [
@@ -175,11 +249,14 @@
           "timestamp": "2025-03-21T15:29:31"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Aephia",
           "source_id": "SA-DISCORD-ANN-B2CC149D95323E77",
           "source_paths": [
@@ -190,11 +267,14 @@
           "timestamp": "2025-07-29T15:48:51"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Aephia",
           "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
           "source_paths": [
@@ -205,12 +285,51 @@
           "timestamp": "2025-08-01T15:20:46"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "AEP",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "AEP",
           "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
           "source_paths": [
             "archive/normalized/discord-announcements/messages.jsonl",
@@ -220,81 +339,53 @@
           "timestamp": "2025-08-01T15:25:03"
         }
       ],
-      "identity_merge_authorized": false,
+      "identity_merge_authorized": true,
+      "meaning": null,
       "normalized_terms": [
         "aep",
         "aephia",
         "aephiaindustries"
       ],
-      "registry_status": "seeded_supported"
+      "observed_handles": [
+        "AEP",
+        "Aephia",
+        "Aephia Industries"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "Aephia",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
     },
     {
-      "aliases": [
-        "The Club"
-      ],
-      "canonical_name": "The Club Guild",
-      "entity_type": "guild",
-      "evidence": [
-        {
-          "attribution_class": "repeated_community_attribution",
-          "author_id": null,
-          "channel_id": null,
-          "display_name": "SantiMod",
-          "message_id": null,
-          "quoted_text": "The Club",
-          "source_id": "SA-DISCORD-ANN-AEA0A5B1BDC8EED8",
-          "source_paths": [
-            "archive/normalized/discord-announcements/messages.jsonl",
-            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AEA0A5B1BDC8EED8.json",
-            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
-          ],
-          "timestamp": "2022-05-14T15:38:47"
-        },
-        {
-          "attribution_class": "repeated_community_attribution",
-          "author_id": null,
-          "channel_id": null,
-          "display_name": "DominicVainMod",
-          "message_id": null,
-          "quoted_text": "The Club",
-          "source_id": "SA-DISCORD-ANN-34920EEC55E65F73",
-          "source_paths": [
-            "archive/normalized/discord-announcements/messages.jsonl",
-            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-34920EEC55E65F73.json",
-            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
-          ],
-          "timestamp": "2022-06-16T16:03:42"
-        }
-      ],
-      "identity_merge_authorized": false,
-      "normalized_terms": [
-        "theclub",
-        "theclubguild"
-      ],
-      "registry_status": "seeded_supported"
-    },
-    {
-      "aliases": [],
-      "canonical_name": "The Vanguard",
-      "entity_type": "guild",
-      "evidence": [],
-      "identity_merge_authorized": false,
-      "normalized_terms": [
-        "thevanguard"
-      ],
-      "registry_status": "seeded_unresolved"
-    },
-    {
+      "alias_basis": null,
       "aliases": [],
       "canonical_name": "BULK",
+      "confirmed_aliases": [],
       "entity_type": "guild",
       "evidence": [
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "BULK",
           "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
           "source_paths": [
@@ -305,11 +396,14 @@
           "timestamp": "2021-07-20T19:23:43"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "BULK",
           "source_id": "SA-DISCORD-ANN-6874FBD61A6743D1",
           "source_paths": [
@@ -320,11 +414,14 @@
           "timestamp": "2021-11-12T11:15:14"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "BULK",
           "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
           "source_paths": [
@@ -335,11 +432,14 @@
           "timestamp": "2024-02-21T16:25:12"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "BULK",
           "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
           "source_paths": [
@@ -350,11 +450,14 @@
           "timestamp": "2024-02-29T11:34:00"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "BULK",
           "source_id": "SA-DISCORD-ANN-B2CC149D95323E77",
           "source_paths": [
@@ -365,52 +468,532 @@
           "timestamp": "2025-07-29T15:48:51"
         }
       ],
-      "identity_merge_authorized": false,
+      "identity_merge_authorized": true,
+      "meaning": null,
       "normalized_terms": [
         "bulk"
       ],
-      "registry_status": "seeded_supported"
+      "observed_handles": [
+        "BULK"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "BULK",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
     },
     {
-      "aliases": [],
-      "canonical_name": "Eoganacht",
-      "entity_type": "person",
+      "alias_basis": "operator_confirmed",
+      "aliases": [
+        "SAI"
+      ],
+      "canonical_name": "Star Atlas Italia",
+      "confirmed_aliases": [
+        "SAI"
+      ],
+      "entity_type": "community_organization",
       "evidence": [
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
-          "quoted_text": "Eoganacht",
-          "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
+          "operator_assertion": false,
+          "quoted_text": "SAI",
+          "source_id": "SA-DISCORD-ANN-36683956F5EA12B0",
           "source_paths": [
             "archive/normalized/discord-announcements/messages.jsonl",
-            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9A891CCE759BA2B0.json",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-36683956F5EA12B0.json",
             "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
           ],
-          "timestamp": "2021-07-20T19:23:43"
+          "timestamp": "2022-03-14T18:08:16"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "Star Atlas Italia",
+          "source_id": "SA-DISCORD-ANN-AEA0A5B1BDC8EED8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AEA0A5B1BDC8EED8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-05-14T15:38:47"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "Star Atlas Italia",
+          "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FDD03373197A63F8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-21T16:25:12"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SAI",
+          "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FDD03373197A63F8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-21T16:25:12"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "Star Atlas Italia",
+          "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-17A149D561A1C7B8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-29T11:34:00"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SAI",
+          "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-17A149D561A1C7B8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-29T11:34:00"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "Star Atlas Italia",
+          "source_id": "SA-DISCORD-ANN-B2CC149D95323E77",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B2CC149D95323E77.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-07-29T15:48:51"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SAI",
+          "source_id": "SA-DISCORD-ANN-B2CC149D95323E77",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B2CC149D95323E77.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-07-29T15:48:51"
         }
       ],
-      "identity_merge_authorized": false,
+      "identity_merge_authorized": true,
+      "meaning": null,
       "normalized_terms": [
-        "eoganacht"
+        "sai",
+        "staratlasitalia"
       ],
-      "registry_status": "seeded_supported"
+      "observed_handles": [
+        "SAI",
+        "Star Atlas Italia"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "Star Atlas Italia",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
     },
     {
+      "alias_basis": "operator_confirmed",
+      "aliases": [
+        "IA"
+      ],
+      "canonical_name": "Intergalactic Alliance",
+      "confirmed_aliases": [
+        "IA"
+      ],
+      "entity_type": "guild_alliance",
+      "evidence": [
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "IA",
+          "source_id": "SA-DISCORD-ANN-6874FBD61A6743D1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6874FBD61A6743D1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-11-12T11:15:14"
+        }
+      ],
+      "identity_merge_authorized": true,
+      "meaning": null,
+      "normalized_terms": [
+        "ia",
+        "intergalacticalliance"
+      ],
+      "observed_handles": [
+        "IA"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "Intergalactic Alliance",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
+    },
+    {
+      "alias_basis": null,
+      "aliases": [],
+      "canonical_name": "426",
+      "confirmed_aliases": [],
+      "entity_type": "community_meme",
+      "evidence": [
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "426",
+          "source_id": "SA-DISCORD-ANN-65D8DF9CB1B409C5",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-65D8DF9CB1B409C5.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-25T08:29:20"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "426",
+          "source_id": "SA-DISCORD-ANN-9CC22515588DC9DA",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9CC22515588DC9DA.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-28T09:47:48"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "426",
+          "source_id": "SA-DISCORD-ANN-35C4F6B1A1CD9160",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-35C4F6B1A1CD9160.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-07-07T11:45:13"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "426",
+          "source_id": "SA-DISCORD-ANN-B5CF230B69F2C801",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B5CF230B69F2C801.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-10-04T13:54:54"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "426",
+          "source_id": "SA-DISCORD-ANN-7721D2AB7F4FA043",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7721D2AB7F4FA043.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-10-05T13:55:50"
+        }
+      ],
+      "identity_merge_authorized": true,
+      "meaning": "A community gag derived from ‘4 to 6 weeks,’ used in response to repeatedly missed product-delivery timelines.",
+      "normalized_terms": [
+        "426"
+      ],
+      "observed_handles": [
+        "426"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "426",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
+    },
+    {
+      "alias_basis": "operator_confirmed",
+      "aliases": [
+        "The Club Guild",
+        "The Club"
+      ],
+      "canonical_name": "The Club Guild / The Club",
+      "confirmed_aliases": [
+        "The Club Guild",
+        "The Club"
+      ],
+      "entity_type": "unresolved_tag",
+      "evidence": [
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "The Club",
+          "source_id": "SA-DISCORD-ANN-AEA0A5B1BDC8EED8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AEA0A5B1BDC8EED8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-05-14T15:38:47"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "The Club",
+          "source_id": "SA-DISCORD-ANN-34920EEC55E65F73",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-34920EEC55E65F73.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-16T16:03:42"
+        }
+      ],
+      "identity_merge_authorized": true,
+      "meaning": null,
+      "normalized_terms": [
+        "theclub",
+        "theclubguild",
+        "theclubguildtheclub"
+      ],
+      "observed_handles": [
+        "The Club"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "The Club Guild / The Club",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "alias_basis": null,
+      "aliases": [],
+      "canonical_name": "The Vanguard",
+      "confirmed_aliases": [],
+      "entity_type": "unresolved_tag",
+      "evidence": [],
+      "identity_merge_authorized": true,
+      "meaning": null,
+      "normalized_terms": [
+        "thevanguard"
+      ],
+      "observed_handles": [],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "The Vanguard",
+      "registry_status": "human_review_required",
+      "resolution_status": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "alias_basis": "operator_confirmed",
       "aliases": [
         "ROME"
       ],
       "canonical_name": "Rome",
-      "entity_type": "guild",
+      "confirmed_aliases": [
+        "ROME"
+      ],
+      "entity_type": "unresolved_tag",
       "evidence": [
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Rome",
           "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
           "source_paths": [
@@ -421,11 +1004,32 @@
           "timestamp": "2024-02-21T16:25:12"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "ROME",
+          "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FDD03373197A63F8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-21T16:25:12"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Rome",
           "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
           "source_paths": [
@@ -436,12 +1040,51 @@
           "timestamp": "2024-02-29T11:34:00"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "ROME",
+          "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-17A149D561A1C7B8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-29T11:34:00"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
           "quoted_text": "Rome",
+          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-14T12:09:18"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "ROME",
           "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
           "source_paths": [
             "archive/normalized/discord-announcements/messages.jsonl",
@@ -451,24 +1094,950 @@
           "timestamp": "2025-03-14T12:09:18"
         }
       ],
-      "identity_merge_authorized": false,
+      "identity_merge_authorized": true,
+      "meaning": null,
       "normalized_terms": [
         "rome"
       ],
-      "registry_status": "seeded_supported"
+      "observed_handles": [
+        "ROME",
+        "Rome"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "Rome",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "HUMAN_REVIEW_REQUIRED"
     },
     {
-      "aliases": [],
-      "canonical_name": "Funcracker",
+      "alias_basis": "operator_confirmed",
+      "aliases": [
+        "King Bryan-Titan Analytics"
+      ],
+      "canonical_name": "King Bryan",
+      "confirmed_aliases": [
+        "King Bryan-Titan Analytics"
+      ],
       "entity_type": "person",
       "evidence": [
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "ROME|King Bryan-Titan Analytics",
+          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-14T12:09:18"
+        }
+      ],
+      "identity_merge_authorized": true,
+      "meaning": null,
+      "normalized_terms": [
+        "kingbryan",
+        "kingbryantitananalytics"
+      ],
+      "observed_handles": [
+        "ROME|King Bryan-Titan Analytics"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "King Bryan",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
+    },
+    {
+      "alias_basis": "operator_confirmed",
+      "aliases": [
+        "Bodhitree",
+        "BodhiTree"
+      ],
+      "canonical_name": "Bodhi",
+      "confirmed_aliases": [
+        "Bodhitree",
+        "BodhiTree"
+      ],
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "[AEP] Bodhitree",
+          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-14T12:09:18"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "[AEP] Bodhitree",
+          "source_id": "SA-DISCORD-ANN-B049D735C02507D2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B049D735C02507D2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-21T15:29:31"
+        }
+      ],
+      "identity_merge_authorized": true,
+      "meaning": null,
+      "normalized_terms": [
+        "bodhi",
+        "bodhitree"
+      ],
+      "observed_handles": [
+        "[AEP] Bodhitree"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "Bodhi",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
+    },
+    {
+      "alias_basis": "operator_confirmed",
+      "aliases": [
+        "Wagner",
+        "SW4GNER",
+        "SW4GN3R",
+        "SW4GN3R [STAR]"
+      ],
+      "canonical_name": "Michael Wagner",
+      "confirmed_aliases": [
+        "Wagner",
+        "SW4GNER",
+        "SW4GN3R",
+        "SW4GN3R [STAR]"
+      ],
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-8EEE151D609F1980",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8EEE151D609F1980.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:12:12"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-7207824574F7744C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7207824574F7744C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:13:24"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-AB3119CCA243BC58",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AB3119CCA243BC58.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:51:29"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-4A54EF57AB92A723",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4A54EF57AB92A723.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:52:31"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-C2427A3C6E101871",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C2427A3C6E101871.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:53:50"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-13FACC09ECA974F3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-13FACC09ECA974F3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:54:42"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-2E2CCCCAE15FE268",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2E2CCCCAE15FE268.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-21T00:51:51"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-BBABC6CF30CF481B",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-BBABC6CF30CF481B.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-22T10:36:46"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-7536B4EF2AC77D21",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7536B4EF2AC77D21.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-29T14:14:15"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-3675F0DBD40C95ED",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-3675F0DBD40C95ED.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-02T10:49:25"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-B0B9AECCFE589F4A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B0B9AECCFE589F4A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-02T12:06:48"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
-          "quoted_text": "Funcracker",
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-E1D151B1D752D823",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-E1D151B1D752D823.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-16T09:33:54"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-81EE04B058B06A56",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-81EE04B058B06A56.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-25T14:33:53"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-1280074168CF641F",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1280074168CF641F.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-26T21:38:25"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-164F57DE5998CE20",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-164F57DE5998CE20.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-27T19:08:13"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-9E5E61C880EBF230",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9E5E61C880EBF230.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-27T20:02:49"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-14D6E125ECF2651D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-14D6E125ECF2651D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-04T19:19:51"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-BC925AF654CF5A73",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-BC925AF654CF5A73.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-04T21:00:59"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-2253382AD5A6FE63",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2253382AD5A6FE63.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-05T11:50:02"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-A528C871ECE38CDD",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A528C871ECE38CDD.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-17T16:55:04"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-2010755ADA146F0D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2010755ADA146F0D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-01T09:44:33"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-57F7EA35B313FAE1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-57F7EA35B313FAE1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-02T16:53:17"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-DC1B6F7E7B9A1CA1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-DC1B6F7E7B9A1CA1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-30T16:54:04"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-8341522C45804ED1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8341522C45804ED1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-17T10:33:23"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-AD8CBA978A07722B",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AD8CBA978A07722B.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-18T13:48:37"
+        }
+      ],
+      "identity_merge_authorized": true,
+      "meaning": null,
+      "normalized_terms": [
+        "michaelwagner",
+        "sw4gn3r",
+        "sw4gn3rstar",
+        "sw4gner",
+        "wagner"
+      ],
+      "observed_handles": [
+        "SW4GN3R",
+        "SW4GN3R [STAR]"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "Michael Wagner",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
+    },
+    {
+      "alias_basis": "operator_confirmed",
+      "aliases": [
+        "Zesk",
+        "ZeSKK",
+        "⪛⦿⫺ZeSKK [STAR]"
+      ],
+      "canonical_name": "Jose",
+      "confirmed_aliases": [
+        "Zesk",
+        "ZeSKK",
+        "⪛⦿⫺ZeSKK [STAR]"
+      ],
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK",
+          "source_id": "SA-DISCORD-ANN-4680CBB3330347DA",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4680CBB3330347DA.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-03-15T09:02:33"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-139DFCC35856A5E3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-139DFCC35856A5E3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-03-31T16:59:55"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-AF17C310B4F5D169",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AF17C310B4F5D169.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-04-01T14:44:45"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-8FC1F4355787DE86",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8FC1F4355787DE86.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-05-06T12:13:53"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-584D26D0C7C31658",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-584D26D0C7C31658.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-05-13T16:24:57"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK",
+          "source_id": "SA-DISCORD-ANN-91D5361736F52EF8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-91D5361736F52EF8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-11-01T16:55:17"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-911D505E1E273D14",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-911D505E1E273D14.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-20T19:10:13"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-BB097FC62E8CE286",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-BB097FC62E8CE286.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-01-27T13:03:17"
+        },
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK",
+          "source_id": "SA-DISCORD-ANN-035F7B8A6954C669",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-035F7B8A6954C669.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-01-30T15:38:16"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-59CC1A08C934455A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-59CC1A08C934455A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-21T12:59:46"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-BAFE82A0C66F2FD3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-BAFE82A0C66F2FD3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-28T15:33:40"
+        },
+        {
+          "attribution_class": "observed_authorship",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "display_name",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-B70712BCA39D4543",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B70712BCA39D4543.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-06-10T14:42:08"
+        }
+      ],
+      "identity_merge_authorized": true,
+      "meaning": null,
+      "normalized_terms": [
+        "jose",
+        "zesk",
+        "zeskk",
+        "zeskkstar"
+      ],
+      "observed_handles": [
+        "⪛⦿⫺ZeSKK",
+        "⪛⦿⫺ZeSKK [STAR]"
+      ],
+      "operator_confirmation": {
+        "attribution_class": "operator_confirmed_alias",
+        "author_id": null,
+        "channel_id": null,
+        "display_name": null,
+        "evidence_channel": "operator_confirmation",
+        "evidence_location": "operator_review_record",
+        "message_id": null,
+        "operator_assertion": true,
+        "quoted_text": null,
+        "review_note": "Confirmed by repository operator during PR review",
+        "source_id": null,
+        "source_paths": [],
+        "timestamp": null
+      },
+      "preferred_display_name": "Jose",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
+    },
+    {
+      "alias_basis": null,
+      "aliases": [],
+      "canonical_name": "Funcracker",
+      "confirmed_aliases": [],
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "explicit_third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
+          "message_id": null,
+          "operator_assertion": false,
+          "quoted_text": "[AEP] Funcracker",
           "source_id": "SA-DISCORD-ANN-078D433ED26F0708",
           "source_paths": [
             "archive/normalized/discord-announcements/messages.jsonl",
@@ -478,12 +2047,15 @@
           "timestamp": "2021-06-11T10:32:19"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
-          "quoted_text": "Funcracker",
+          "operator_assertion": false,
+          "quoted_text": "[AEP] Funcracker",
           "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
           "source_paths": [
             "archive/normalized/discord-announcements/messages.jsonl",
@@ -493,12 +2065,15 @@
           "timestamp": "2021-07-20T19:23:43"
         },
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
           "display_name": "DominicVainMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
-          "quoted_text": "Funcracker",
+          "operator_assertion": false,
+          "quoted_text": "[AEP] Funcracker",
           "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
           "source_paths": [
             "archive/normalized/discord-announcements/messages.jsonl",
@@ -509,104 +2084,147 @@
         }
       ],
       "identity_merge_authorized": false,
+      "meaning": null,
       "normalized_terms": [
         "funcracker"
       ],
-      "registry_status": "seeded_supported"
-    },
-    {
-      "aliases": [],
-      "canonical_name": "Agent Solace",
-      "entity_type": "person",
-      "evidence": [],
-      "identity_merge_authorized": false,
-      "normalized_terms": [
-        "agentsolace"
+      "observed_handles": [
+        "[AEP] Funcracker"
       ],
-      "registry_status": "seeded_unresolved"
+      "operator_confirmation": null,
+      "preferred_display_name": "Funcracker",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
     },
     {
+      "alias_basis": null,
       "aliases": [],
-      "canonical_name": "Witticus",
-      "entity_type": "person",
-      "evidence": [],
-      "identity_merge_authorized": false,
-      "normalized_terms": [
-        "witticus"
-      ],
-      "registry_status": "seeded_unresolved"
-    },
-    {
-      "aliases": [],
-      "canonical_name": "ReyVeezy",
-      "entity_type": "person",
-      "evidence": [],
-      "identity_merge_authorized": false,
-      "normalized_terms": [
-        "reyveezy"
-      ],
-      "registry_status": "seeded_unresolved"
-    },
-    {
-      "aliases": [],
-      "canonical_name": "FancyHat",
-      "entity_type": "person",
-      "evidence": [],
-      "identity_merge_authorized": false,
-      "normalized_terms": [
-        "fancyhat"
-      ],
-      "registry_status": "seeded_unresolved"
-    },
-    {
-      "aliases": [],
-      "canonical_name": "King Bryan",
+      "canonical_name": "Eoganacht",
+      "confirmed_aliases": [],
       "entity_type": "person",
       "evidence": [
         {
-          "attribution_class": "repeated_community_attribution",
+          "attribution_class": "explicit_third_party_attribution",
           "author_id": null,
           "channel_id": null,
-          "display_name": "DominicVainMod",
+          "display_name": "SantiMod",
+          "evidence_channel": "archive_evidence",
+          "evidence_location": "message_content",
           "message_id": null,
-          "quoted_text": "King Bryan",
-          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "operator_assertion": false,
+          "quoted_text": "Eoganacht | BULK",
+          "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
           "source_paths": [
             "archive/normalized/discord-announcements/messages.jsonl",
-            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9A891CCE759BA2B0.json",
             "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
           ],
-          "timestamp": "2025-03-14T12:09:18"
+          "timestamp": "2021-07-20T19:23:43"
         }
       ],
       "identity_merge_authorized": false,
+      "meaning": null,
       "normalized_terms": [
-        "kingbryan"
+        "eoganacht"
       ],
-      "registry_status": "seeded_supported"
+      "observed_handles": [
+        "Eoganacht | BULK"
+      ],
+      "operator_confirmation": null,
+      "preferred_display_name": "Eoganacht",
+      "registry_status": "operator_confirmed_with_archive_observations",
+      "resolution_status": "OPERATOR_CONFIRMED"
     },
     {
+      "alias_basis": null,
       "aliases": [],
-      "canonical_name": "Virtuwaal",
+      "canonical_name": "Agent Solace",
+      "confirmed_aliases": [],
       "entity_type": "person",
       "evidence": [],
       "identity_merge_authorized": false,
+      "meaning": null,
+      "normalized_terms": [
+        "agentsolace"
+      ],
+      "observed_handles": [],
+      "operator_confirmation": null,
+      "preferred_display_name": "Agent Solace",
+      "registry_status": "seeded_unresolved",
+      "resolution_status": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "alias_basis": null,
+      "aliases": [],
+      "canonical_name": "Witticus",
+      "confirmed_aliases": [],
+      "entity_type": "person",
+      "evidence": [],
+      "identity_merge_authorized": false,
+      "meaning": null,
+      "normalized_terms": [
+        "witticus"
+      ],
+      "observed_handles": [],
+      "operator_confirmation": null,
+      "preferred_display_name": "Witticus",
+      "registry_status": "seeded_unresolved",
+      "resolution_status": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "alias_basis": null,
+      "aliases": [],
+      "canonical_name": "ReyVeezy",
+      "confirmed_aliases": [],
+      "entity_type": "person",
+      "evidence": [],
+      "identity_merge_authorized": false,
+      "meaning": null,
+      "normalized_terms": [
+        "reyveezy"
+      ],
+      "observed_handles": [],
+      "operator_confirmation": null,
+      "preferred_display_name": "ReyVeezy",
+      "registry_status": "seeded_unresolved",
+      "resolution_status": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "alias_basis": null,
+      "aliases": [],
+      "canonical_name": "FancyHat",
+      "confirmed_aliases": [],
+      "entity_type": "person",
+      "evidence": [],
+      "identity_merge_authorized": false,
+      "meaning": null,
+      "normalized_terms": [
+        "fancyhat"
+      ],
+      "observed_handles": [],
+      "operator_confirmation": null,
+      "preferred_display_name": "FancyHat",
+      "registry_status": "seeded_unresolved",
+      "resolution_status": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "alias_basis": null,
+      "aliases": [],
+      "canonical_name": "Virtuwaal",
+      "confirmed_aliases": [],
+      "entity_type": "person",
+      "evidence": [],
+      "identity_merge_authorized": false,
+      "meaning": null,
       "normalized_terms": [
         "virtuwaal"
       ],
-      "registry_status": "seeded_unresolved"
-    },
-    {
-      "aliases": [],
-      "canonical_name": "Bohdi",
-      "entity_type": "person",
-      "evidence": [],
-      "identity_merge_authorized": false,
-      "normalized_terms": [
-        "bohdi"
-      ],
-      "registry_status": "seeded_unresolved"
+      "observed_handles": [],
+      "operator_confirmation": null,
+      "preferred_display_name": "Virtuwaal",
+      "registry_status": "seeded_unresolved",
+      "resolution_status": "HUMAN_REVIEW_REQUIRED"
     }
   ],
-  "schema_version": "1.0.0"
+  "schema_version": "2.0.0"
 }
