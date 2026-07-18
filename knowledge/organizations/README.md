@@ -23,6 +23,7 @@ This domain records institutional identity, history, aliases, relationships, and
 
 - [Institutional Overview](Institutional-Overview.md)
 - [ATMTA, Inc.](ATMTA.md)
+- [Organization and Role Registry](Organization-and-Role-Registry.md)
 - Community-publication identity remains preserved in the archive until dedicated organization pages receive evidence packets.
 
 ## Governance institutions

@@ -1,0 +1,141 @@
+{
+  "page_id": "technology-program-registry",
+  "proposed_path": "knowledge/technology/Official-Technical-Surface-Inventory.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Star Atlas mainnet programs",
+    "Star Atlas game IDs",
+    "SFT",
+    "F-KIT",
+    "Build API",
+    "Unreal Engine tooling"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for Star Atlas mainnet programs, Star Atlas game IDs, SFT, F-KIT, Build API, Unreal Engine tooling from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "TECHNOLOGY-PROGRAM-REGISTRY-01",
+      "claim_text": "Programs, game IDs, APIs, frameworks, repositories, and support initiatives are separate technical surfaces.",
+      "claim_type": "TECHNICAL_REGISTRY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-3974380BE9CB23D7.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-3974380BE9CB23D7.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "TECHNOLOGY-PROGRAM-REGISTRY-02",
+      "claim_text": "Documented and decoder-supported states do not prove deployment.",
+      "claim_type": "TECHNICAL_REGISTRY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-3974380BE9CB23D7.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-3974380BE9CB23D7.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "TECHNOLOGY-PROGRAM-REGISTRY-03",
+      "claim_text": "Atlas Prime naming and Holosim program coverage remain unresolved conflicts.",
+      "claim_type": "TECHNICAL_REGISTRY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-3974380BE9CB23D7.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-3974380BE9CB23D7.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Acquire deployment and upgrade transactions, authorities, versioned IDLs, deployed hashes, program-specific audits, findings, and remediation evidence."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

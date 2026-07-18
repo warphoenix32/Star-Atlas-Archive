@@ -1,5 +1,5 @@
 ---
-title: "SAGE"
+title: "SAGE Product-Family History"
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: MEDIUM
@@ -41,7 +41,7 @@ research_gaps:
 review_after: 2027-01-17
 ---
 
-# SAGE
+# SAGE Product-Family History
 
 SAGE—Star Atlas: Golden Era—is the browser-based, on-chain strategy product family developed from the earlier Project S.C.R.E.A.M. concept. The archive documents several distinguishable stages: a prototype-era S.C.R.E.A.M. presentation, the SAGE roadmap and naming transition, the 2023 SAGE Labs release, the 2024 Starbased economic and faction-infrastructure update, a community-reported SAGE 3D release, and later C4 testing. These labels must not be collapsed into a single release event or assumed to describe the same interface and feature set.
 
@@ -69,7 +69,7 @@ SAGE is best treated as a product family rather than an immutable build. The fol
 | 2024-03-26 | `ANNOUNCEMENT` / Starbased | Official Discord announced Starbased for April 2 as a SAGE Labs update introducing starbase upgrading and upkeep, Loyalty Points and revised emissions (`SA-DISCORD-ANN-9FFFF91025488D09`). |
 | 2024-04-02 | `DELAYED` | Official Discord delayed the launch to the following day because of failed transactions and transaction times during program deployment (`SA-DISCORD-ANN-76D9861DCB3FE798`). The announced next-day target is not itself proof of release. |
 | 2024-04-04 | `LIVE / UPDATED` / Starbased | Official Discord stated that Starbased was live (`SA-DISCORD-ANN-CCF4600A4C08F697`). The release began with zero ATLAS in its first epoch and no LP deposits, an important limitation on what "live" meant at launch. |
-| estimated 2024-12 | community-reported release / SAGE 3D | Aephia's year-end review reports a mid-December SAGE 3D launch while also describing missing quality-of-life features and continuing relevance for SAGE Labs. [SRC-AEPHIA-C9AE050CD9C1886D](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md) The exact day and official release record remain unresolved. |
+| estimated 2023-12 | community-reported release / SAGE 3D | Aephia's 2024 year-end review places the passage under December 2023 and reports a mid-December 2023 SAGE 3D launch, followed about one week later by SAGE Labs V2. [SRC-AEPHIA-C9AE050CD9C1886D](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md) The report is community-authored; exact days and first-party release records remain unresolved. |
 | 2026-06-02 | `TESTING` / C4 PTR documentation | Official support records document user-accessible C4 PTR mechanics. PTR evidence is not mainnet or general-release evidence. [SRC-OFF-E061D3A6454697AB](../../archive/source-records/campaign-delta-official/SRC-OFF-E061D3A6454697AB.md) |
 
 Atlas Brew also discussed SAGE Labs in release language at `SRC-ATLAS-BREW-0034`, 00:02:33–00:04:33 (`SEG-ATLAS-BREW-0034-0002`). Because speaker identity is not normalized, the segment supports public discussion and chronology but no named-speaker attribution. [Segment evidence](../../archive/semantic/atlas-brew/segment-index.json)
@@ -90,6 +90,27 @@ Late-2025 official support documentation describes the mature Starbased surface 
 - **Testing is not production.** Escape Velocity and C4 PTR are related experiments or testing surfaces, not evidence that every SAGE system was generally available.
 - **Documentation is not historical proof.** December 2025 support pages establish a dated functional baseline without backdating mechanics to 2023 or 2024.
 - **Product naming is not architecture.** The public labels reveal institutional product positioning but do not prove code inheritance or shared technical architecture.
+
+## Program and build registry
+
+Official Mainnet Program IDs documentation updated 2026-04-16 distinguishes a current SAGE program (`SAGE2...` in the captured source), a legacy SAGE program (`SAGEqq...`), an active Starbased game ID (`GAMEz...`), and a legacy game ID (`GameY...`). These labels are a dated technical-documentation snapshot; they do not establish deployment dates, migration completion, upgrade authority, or current user activity. [SRC-OFF-F217B64FD0342839](../../archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md)
+
+| Axis | Narrowest supported objects | Evidence need |
+|---|---|---|
+| Public identity | S.C.R.E.A.M., SAGE, SAGE Labs, SAGE 3D, Starbased, C4 PTR | Announcement, release, or test record for each name |
+| User-facing build | SAGE Labs V1/V2, SAGE 3D, Starbased interface, C4 PTR | Versioned release notes and dated access evidence |
+| On-chain program | Current SAGE program, legacy SAGE program | Deployment/upgrade transactions, program data, authorities |
+| Game configuration | Active Starbased game ID, legacy game ID | Creation/migration/deactivation records and parameter history |
+
+No aggregate `LIVE` or `DEPRECATED` state is assigned to the family.
+
+## Conflicts and missing artifacts
+
+- The SAGE 3D date is supported only by a later Aephia retrospective and remains month-level.
+- The repository lacks first-party SAGE 3D and SAGE Labs V2 release records.
+- Current/legacy program labels do not supply their migration dates or prove deactivation.
+- C4 PTR documentation establishes `TESTING`, not a production or mainnet release.
+- A build changelog, program deployment and upgrade transactions, upgrade authorities, versioned IDLs, and feature-by-build matrix remain missing.
 
 ## Current state
 

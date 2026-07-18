@@ -1,0 +1,145 @@
+{
+  "page_id": "score-starbased-transition",
+  "proposed_path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "HISTORICAL",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "SCORE",
+    "Faction Fleet",
+    "Faction Fleet emissions",
+    "Starbased"
+  ],
+  "aliases": [
+    "SCORE",
+    "Faction Fleet"
+  ],
+  "scope": "Evidence-qualified history for SCORE, Faction Fleet, Faction Fleet emissions, Starbased from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "SCORE-STARBASED-TRANSITION-01",
+      "claim_text": "SCORE application, on-chain program, ATLAS emissions, and residual functionality are separate objects.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-0AED270D51ACD552.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-0AED270D51ACD552.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "SCORE-STARBASED-TRANSITION-02",
+      "claim_text": "April 2024 sources announce emissions deprecation but do not prove execution.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-0AED270D51ACD552.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-0AED270D51ACD552.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "SCORE-STARBASED-TRANSITION-03",
+      "claim_text": "SCORE remains documented as a mainnet program in April 2026 without proving active rewards.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-0AED270D51ACD552.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-0AED270D51ACD552.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Recover post-April-16 execution confirmation, final reward block, parameter-change transaction, current UI test, and program authority."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

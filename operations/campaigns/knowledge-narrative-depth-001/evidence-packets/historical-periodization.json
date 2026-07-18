@@ -1,0 +1,136 @@
+{
+  "page_id": "historical-periodization",
+  "proposed_path": "knowledge/timeline/Star-Atlas-Historical-Periodization.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 7,
+  "page_risk_class": "R3",
+  "subject_entities": [
+    "Star Atlas institutional history"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for Star Atlas institutional history from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "HISTORICAL-PERIODIZATION-01",
+      "claim_text": "Historical periods are curator synthesis rather than source-native events.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "knowledge/timeline/Master-Timeline.md",
+        "knowledge/timeline/Product-Timeline.md",
+        "knowledge/timeline/Governance-Timeline.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "knowledge/timeline/Master-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "knowledge/timeline/Product-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "knowledge/timeline/Governance-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        }
+      ],
+      "source_authority": [
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "HISTORICAL-PERIODIZATION-02",
+      "claim_text": "Boundaries are proposed where product, economy, governance, and communications change together.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "knowledge/timeline/Master-Timeline.md",
+        "knowledge/timeline/Product-Timeline.md",
+        "knowledge/timeline/Governance-Timeline.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "knowledge/timeline/Master-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "knowledge/timeline/Product-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "knowledge/timeline/Governance-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        }
+      ],
+      "source_authority": [
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "HISTORICAL-PERIODIZATION-03",
+      "claim_text": "Alternative periods remain research hypotheses pending stronger primary evidence.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "knowledge/timeline/Master-Timeline.md",
+        "knowledge/timeline/Product-Timeline.md",
+        "knowledge/timeline/Governance-Timeline.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "knowledge/timeline/Master-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "knowledge/timeline/Product-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "knowledge/timeline/Governance-Timeline.md",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        }
+      ],
+      "source_authority": [
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Test proposed period boundaries against a more complete official and community publication corpus and document competing curator models."
+  ],
+  "review_required": true,
+  "review_after": "2026-10-17"
+}

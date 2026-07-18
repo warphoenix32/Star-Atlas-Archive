@@ -20,6 +20,10 @@ This domain documents Star Atlas governance institutions, procedures, proposal h
 
 ## Foundations
 
+- [Governance Constitutional History](Governance-Constitutional-History.md) — evidence-qualified development of authority, institutions, and implementation boundaries.
+- [Council Election History](Council-Election-History.md) — election-stage records that distinguish advancing candidates from final winners.
+- [Governance Failure and Termination Casebook](Governance-Failure-and-Termination-Casebook.md) — failed, terminated, canceled, withdrawn, and unimplemented proposals.
+- [Ecosystem Fund Award History](Ecosystem-Fund-Award-History.md) — proposal, authorization, milestone, payment-report, and verification states for fund activity.
 - [Star Atlas DAO](Star-Atlas-DAO.md) — POLIS electorate and formal voting authority.
 - [Star Atlas Foundation](Star-Atlas-Foundation.md) — legal and administrative implementation body.
 - [Star Atlas Council](Star-Atlas-Council.md) — elected process steward and delegated administrator.

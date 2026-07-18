@@ -1,0 +1,184 @@
+{
+  "page_id": "treasury-authorization-payment-ledger",
+  "proposed_path": "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 8,
+  "page_risk_class": "R3",
+  "subject_entities": [
+    "DAO Treasury account",
+    "Ecosystem Fund wallet",
+    "Star Atlas Council",
+    "Star Atlas Foundation"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for DAO Treasury account, Ecosystem Fund wallet, Star Atlas Council, Star Atlas Foundation from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "TREASURY-AUTHORIZATION-PAYMENT-LEDGER-01",
+      "claim_text": "Proposal passage and Council-reported payment are separate evidence states.",
+      "claim_type": "ECONOMIC_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "TREASURY-AUTHORIZATION-PAYMENT-LEDGER-02",
+      "claim_text": "Mixed ATLAS and USDC tracker values cannot be summed without transaction reconciliation.",
+      "claim_type": "ECONOMIC_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "TREASURY-AUTHORIZATION-PAYMENT-LEDGER-03",
+      "claim_text": "PIP-33 is a direct DAO Treasury authorization whose payment remains unverified.",
+      "claim_type": "ECONOMIC_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "TREASURY-AUTHORIZATION-PAYMENT-LEDGER-04",
+      "claim_text": "PIP-33 displays two approximately equal USD 234,756.76 tranches, each composed of USD 176,067.57 USDC (75%) and USD 58,689.19 in ATLAS-equivalent value (25%); tranche 2 is scheduled 180 days later and reserve-conditional. The two displayed tranche totals sum to USD 469,513.52 rather than the stated USD 469,513.53 total, and their USDC portions sum to USD 352,135.14 rather than the stated USD 352,135.15 USDC total.",
+      "claim_type": "ECONOMIC_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Reconcile every reported amount to transaction signatures, block times, wallets, mints, decimals, recipients, conversion bases, milestones, and acceptance records."
+  ],
+  "review_required": true,
+  "review_after": "2026-10-17"
+}

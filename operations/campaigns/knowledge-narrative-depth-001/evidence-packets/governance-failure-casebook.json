@@ -1,0 +1,127 @@
+{
+  "page_id": "governance-failure-casebook",
+  "proposed_path": "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "PIP-13",
+    "PIP-14",
+    "PIP-15",
+    "PIP-17",
+    "PIP-19",
+    "PIP-26",
+    "PIP-31"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for PIP-13, PIP-14, PIP-15, PIP-17, PIP-19, PIP-26, PIP-31 from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "GOVERNANCE-FAILURE-CASEBOOK-01",
+      "claim_text": "Failed PIPs supply no implementation authority.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A3",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GOVERNANCE-FAILURE-CASEBOOK-02",
+      "claim_text": "PIPs 14 and 17 passed before Council-reported termination or cancellation.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A3",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GOVERNANCE-FAILURE-CASEBOOK-03",
+      "claim_text": "PIP-31 passed before author withdrawal and reported non-implementation.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A3",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Recover proposal-specific termination, withdrawal, payment, deliverable, and implementation records for every terminal case."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

@@ -23,11 +23,11 @@ This domain documents product identity, build-specific lifecycle history, and ev
 
 - [Product Registry](Product-Registry.md)
 - [Official Current-State Snapshot — 2026-07-12](Official-Current-State-Snapshot-2026-07-12.md)
-- [SCORE and Faction Fleet](SCORE-and-Faction-Fleet.md)
-- [SAGE](SAGE.md)
+- [SCORE-to-Starbased Transition](SCORE-and-Faction-Fleet.md)
+- [SAGE Product-Family History](SAGE.md)
 - [UE5 Showroom](UE5-Showroom.md)
 - [Galactic Marketplace](Galactic-Marketplace.md)
-- [Holosim](Holosim.md)
+- [Holosim Release and Feature History](Holosim.md)
 - Fleet Command and C4 remain qualified registry entries pending dedicated-page evidence packets.
 
 ## Lifecycle rule

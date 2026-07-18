@@ -1,0 +1,145 @@
+{
+  "campaign_id": "knowledge-narrative-depth-001",
+  "validated_at": "2026-07-17",
+  "result": "PASS",
+  "checks": [
+    {
+      "check": "portfolio_count",
+      "result": "PASS",
+      "detail": "17 outputs"
+    },
+    {
+      "check": "evidence_packet_count",
+      "result": "PASS",
+      "detail": "17 packets for 17 outputs"
+    },
+    {
+      "check": "campaign_json",
+      "result": "PASS",
+      "detail": "22 files parsed"
+    },
+    {
+      "check": "required_metadata",
+      "result": "PASS",
+      "detail": "all 17 pages contain required metadata"
+    },
+    {
+      "check": "material_claims",
+      "result": "PASS",
+      "detail": "all packets contain source-linked material claims"
+    },
+    {
+      "check": "evidence_references",
+      "result": "PASS",
+      "detail": "all packet source paths resolve"
+    },
+    {
+      "check": "internal_links",
+      "result": "PASS",
+      "detail": "31 changed knowledge files checked"
+    },
+    {
+      "check": "risk_portfolio",
+      "result": "PASS",
+      "detail": "R1/R2=12/17 (70.6%); R3=5 (29.4%); R4/R5=0"
+    },
+    {
+      "check": "repository_scope",
+      "result": "PASS",
+      "detail": "archive, graph, and publication untouched"
+    },
+    {
+      "check": "semantic_boundaries",
+      "result": "PASS",
+      "detail": "required state distinctions preserved"
+    },
+    {
+      "check": "git_diff_check",
+      "result": "PASS",
+      "detail": "clean"
+    },
+    {
+      "check": "repository_tests",
+      "result": "PASS",
+      "detail": "........                                                                 [100%]\n8 passed in 0.02s"
+    }
+  ],
+  "output_count": 17,
+  "risk_distribution": {
+    "R2": 12,
+    "R3": 5
+  },
+  "knowledge_status_distribution": {
+    "HISTORICAL": 1,
+    "QUALIFIED": 16
+  },
+  "changed_paths": [
+    ".github/workflows/repository-consolidation.yml",
+    "knowledge/README.md",
+    "knowledge/economy/ATLAS-Token-History.md",
+    "knowledge/economy/POLIS-Token-History.md",
+    "knowledge/economy/README.md",
+    "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
+    "knowledge/events/Event-Evidence-Registry.md",
+    "knowledge/events/README.md",
+    "knowledge/gameplay/Holosim.md",
+    "knowledge/gameplay/Product-Registry.md",
+    "knowledge/gameplay/README.md",
+    "knowledge/gameplay/SAGE.md",
+    "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+    "knowledge/governance/Council-Election-History.md",
+    "knowledge/governance/Ecosystem-Fund-Award-History.md",
+    "knowledge/governance/Governance-Constitutional-History.md",
+    "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+    "knowledge/governance/README.md",
+    "knowledge/media/Atlas-Brew-History.md",
+    "knowledge/media/Media-and-Creator-Index.md",
+    "knowledge/media/README.md",
+    "knowledge/media/Star-Atlas-Town-Hall-History.md",
+    "knowledge/organizations/Organization-and-Role-Registry.md",
+    "knowledge/organizations/README.md",
+    "knowledge/research/README.md",
+    "knowledge/technology/Official-Technical-Surface-Inventory.md",
+    "knowledge/technology/README.md",
+    "knowledge/timeline/Master-Timeline.md",
+    "knowledge/timeline/Official-Communications-Chronology.md",
+    "knowledge/timeline/Product-Timeline.md",
+    "knowledge/timeline/README.md",
+    "knowledge/timeline/Star-Atlas-Historical-Periodization.md",
+    "operations/campaigns/knowledge-narrative-depth-001/README.md",
+    "operations/campaigns/knowledge-narrative-depth-001/build_campaign.py",
+    "operations/campaigns/knowledge-narrative-depth-001/campaign-summary.json",
+    "operations/campaigns/knowledge-narrative-depth-001/campaign-summary.md",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/atlas-brew-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/atlas-token-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/council-election-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/ecosystem-fund-award-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/event-evidence-registry.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/governance-constitutional-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/governance-failure-casebook.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/historical-periodization.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/holosim-release-feature-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/official-communications-chronology.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/organization-role-registry.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/polis-token-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/sage-product-family-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/score-starbased-transition.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/technology-program-registry.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/town-hall-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/evidence-packets/treasury-authorization-payment-ledger.json",
+    "operations/campaigns/knowledge-narrative-depth-001/page-inventory.json",
+    "operations/campaigns/knowledge-narrative-depth-001/page-inventory.md",
+    "operations/campaigns/knowledge-narrative-depth-001/promotion-ledger.json",
+    "operations/campaigns/knowledge-narrative-depth-001/promotion-ledger.md",
+    "operations/campaigns/knowledge-narrative-depth-001/research-backlog.json",
+    "operations/campaigns/knowledge-narrative-depth-001/research-backlog.md",
+    "operations/campaigns/knowledge-narrative-depth-001/risk-register.md",
+    "operations/campaigns/knowledge-narrative-depth-001/validate_campaign.py",
+    "operations/campaigns/knowledge-narrative-depth-001/validation-report.json",
+    "operations/campaigns/knowledge-narrative-depth-001/validation-report.md",
+    "operations/ci/README.md",
+    "operations/ci/validate_repository.py"
+  ],
+  "errors": [],
+  "warnings": []
+}

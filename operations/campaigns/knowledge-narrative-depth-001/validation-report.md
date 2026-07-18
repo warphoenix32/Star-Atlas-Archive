@@ -1,0 +1,28 @@
+# Validation Report
+
+**Result:** `PASS`
+
+## Checks
+
+- **PASS — portfolio_count:** 17 outputs
+- **PASS — evidence_packet_count:** 17 packets for 17 outputs
+- **PASS — campaign_json:** 22 files parsed
+- **PASS — required_metadata:** all 17 pages contain required metadata
+- **PASS — material_claims:** all packets contain source-linked material claims
+- **PASS — evidence_references:** all packet source paths resolve
+- **PASS — internal_links:** 31 changed knowledge files checked
+- **PASS — risk_portfolio:** R1/R2=12/17 (70.6%); R3=5 (29.4%); R4/R5=0
+- **PASS — repository_scope:** archive, graph, and publication untouched
+- **PASS — semantic_boundaries:** required state distinctions preserved
+- **PASS — git_diff_check:** clean
+- **PASS — repository_tests:** ........                                                                 [100%]
+8 passed in 0.02s
+
+## Portfolio
+
+- Outputs: 17
+- Risk distribution: {'R2': 12, 'R3': 5}
+- Knowledge-status distribution: {'HISTORICAL': 1, 'QUALIFIED': 16}
+- Archive evidence rewritten: no
+- Graph modified: no
+- Publication modified: no

@@ -121,13 +121,13 @@ This is the selective canonical chronology of the project's major product, gover
 
 **Description:** HNN published Michael Wagner's response to community criticism surrounding ATMTA's acquisition of Multichain Ventures. **Significance:** Preserves a corporate transaction and its community-governance consequences. **Affected entities:** ATMTA, Multichain Ventures, Michael Wagner. **Sources:** [SRC-HNN-90484B730C2A24D9](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-90484B730C2A24D9.md). **Confidence:** MEDIUM. **Notes:** Primary transaction documents remain absent. **Superseded:** No.
 
-### 2024-07-23 — First two DAO proposals reported passed
+### 2024-07-23 — PIP-1 and PIP-2 completed votes support passage
 
-**Description:** HNN reported approval of the first two DAO proposals while preserving substantial opposition and procedural criticism. **Significance:** Earliest archived result evidence for formal DAO proposal votes. **Affected entities:** Star Atlas DAO, POLIS voters, first two proposals. **Sources:** [SRC-HNN-501F276BD93A900A](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-501F276BD93A900A.md). **Confidence:** MEDIUM. **Notes:** Approval does not prove implementation. **Superseded:** No.
+**Description:** The captured official PIP-1 and PIP-2 records preserve completed vote windows and reviewed passing results; HNN provides contemporaneous community context and criticism. **Significance:** Formal ratification of the DAO and Foundation instruments. **Affected entities:** Star Atlas DAO, Star Atlas Foundation, POLIS voters. **Sources:** [PIP-1](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json), [PIP-2](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json), [HNN context](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-501F276BD93A900A.md). **Confidence:** HIGH. **Notes:** Passage does not prove implementation; community criticism remains attributed. **Superseded:** No.
 
-### Estimated 2024-12 — SAGE 3D launched
+### Estimated 2023-12 — SAGE 3D launch reported by Aephia
 
-**Description:** Aephia's year-end review reports a mid-December SAGE 3D launch intended to succeed placeholder SAGE Labs. **Significance:** Attempted the transition to a 3D SAGE interface. **Affected entities:** SAGE 3D, SAGE Labs, Starbased. **Sources:** [SRC-AEPHIA-C9AE050CD9C1886D](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md). **Confidence:** MEDIUM. **Notes:** Exact day unresolved; SAGE Labs remained relevant. **Superseded:** No.
+**Description:** Aephia's later year-end review places the passage under December 2023 and reports a mid-December 2023 SAGE 3D launch, followed about one week later by SAGE Labs V2. **Significance:** Community-reported transition to a 3D SAGE interface. **Affected entities:** SAGE 3D, SAGE Labs V2, Starbased. **Sources:** [SRC-AEPHIA-C9AE050CD9C1886D](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md). **Confidence:** MEDIUM. **Notes:** Exact days and first-party release records unresolved. **Superseded:** No.
 
 ## 2025 — Holosim, C4 public discussion, and expanded governance
 

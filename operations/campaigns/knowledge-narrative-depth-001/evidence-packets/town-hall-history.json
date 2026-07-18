@@ -1,0 +1,144 @@
+{
+  "page_id": "town-hall-history",
+  "proposed_path": "knowledge/media/Star-Atlas-Town-Hall-History.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 7,
+  "page_risk_class": "R3",
+  "subject_entities": [
+    "Star Atlas Town Hall"
+  ],
+  "aliases": [
+    "Star Atlas Town Hall"
+  ],
+  "scope": "Evidence-qualified history for Star Atlas Town Hall from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "TOWN-HALL-HISTORY-01",
+      "claim_text": "Official publications establish Town Hall as a recurring format by May 2021.",
+      "claim_type": "COMMUNICATIONS_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/star-atlas-transcripts/source-index.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-DD9175EF794C1F8D.md",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/star-atlas-transcripts/source-index.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-DD9175EF794C1F8D.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "TOWN-HALL-HISTORY-02",
+      "claim_text": "The 14-source transcript package is incomplete and largely undated.",
+      "claim_type": "COMMUNICATIONS_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/star-atlas-transcripts/source-index.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-DD9175EF794C1F8D.md",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/star-atlas-transcripts/source-index.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-DD9175EF794C1F8D.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "TOWN-HALL-HISTORY-03",
+      "claim_text": "Transcript names do not establish speaker attribution without diarization.",
+      "claim_type": "COMMUNICATIONS_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/semantic/star-atlas-transcripts/source-index.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-DD9175EF794C1F8D.md",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/semantic/star-atlas-transcripts/source-index.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-DD9175EF794C1F8D.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Recover original URLs, video IDs, dates, hosts, guests, agendas, speaker diarization, and complete episode numbering."
+  ],
+  "review_required": true,
+  "review_after": "2026-10-17"
+}

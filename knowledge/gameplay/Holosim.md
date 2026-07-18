@@ -1,5 +1,5 @@
 ---
-title: "Holosim"
+title: "Holosim Release and Feature History"
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: HIGH
@@ -38,7 +38,7 @@ research_gaps:
 review_after: 2027-01-17
 ---
 
-# Holosim
+# Holosim Release and Feature History
 
 Holosim is an official browser-based Star Atlas fleet simulation introduced publicly in June 2025 as a free-to-play test environment. First-party records distinguish that public test from later seasonal releases and from deployment to Star Atlas mainnet systems. The archived evidence supports a live browser product as of 2026-07-17; it does not support treating Holosim as the release of Fleet Command, C4, or every system tested within it.
 
@@ -75,6 +75,18 @@ The December 2025 support corpus is a dated operational snapshot, not proof that
 
 The Chapter 2 launch record adds faction-specific storylines, territory control measured through Dominion Points, mining achievements, NPC marketplace orders, notifications, a battle log and revised combat interface. It also reports a technical migration from the Starcomm v2 relay to direct RPC data. These are first-party release claims for the March 10 build; the archive does not independently benchmark reliability or verify every claimed behavior. [SA-DISCORD-ANN-D8337FA27E0A550A](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json)
 
+## Build-qualified feature ledger
+
+| Feature or claim | Earliest supported surface in this archive | State and limitation |
+|---|---|---|
+| Browser/no-wallet entry | Official product and support copy | Documented by late 2025; not necessarily present in every earlier test build. |
+| Combat, routes, tutorial, quests, SAGE-branded assistant | June 2025 public test statement | `TESTING`; does not prove later mainnet delivery or relationship to the SAGE product family. |
+| Season 1 rewards | Chapter 1 announcement | USD 35,000 advertised; payout completion unverified. |
+| Fleet, mining, crafting, transport, automation | December 2025 support suite | Dated functional snapshot; first availability unresolved. |
+| Dominion Points, faction storylines, NPC marketplace orders | Chapter 2 live statement | `LIVE` in the March 10 build as officially stated; behavior not independently benchmarked. |
+| Starcomm v2 to direct RPC migration | Chapter 2 Discord release statement | Publisher-reported technical migration; code/deployment evidence absent. |
+| `sage-holosim` decoder and program mapping | First-party decoder repository record | Decoder support does not prove current deployment or mainnet status. [SRC-OFF-B3E826AFA52FB19B](../../archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md) |
+
 ## Economic and persistence boundary
 
 `zATLAS` is documented as an in-simulation currency. It must not be conflated with the on-chain ATLAS token or treated as evidence of transferable value. Likewise, the June 2025 statement that Holosim tests features "before mainnet" makes the simulation/mainnet boundary explicit. The archived sources support a route from a no-wallet entry experience toward the wider Star Atlas ecosystem, but not a claim that Holosim progress, assets, or rewards universally transfer on-chain.
@@ -88,6 +100,14 @@ As of 2026-07-17, the supported lifecycle state is `LIVE / UPDATED` for the brow
 ## Historical value
 
 Holosim records a distinct institutional strategy: a no-wallet browser simulation used both as a public acquisition surface and as a pre-mainnet test environment. Its sequence is unusually well preserved because the archive contains a first-party test announcement, a later chapter release, a documented delay and reschedule, a second release, and dated support documentation. That sequence permits future researchers to distinguish product availability from promised integration and advertised outcomes.
+
+## Conflicts and missing artifacts
+
+The decoder repository maps a `sage-holosim` program, but the captured Mainnet Program IDs page does not list that address. This is an unresolved documentation mismatch, not evidence that the program is absent or live. Required artifacts include versioned release notes, deployment and upgrade transactions, program authority, reward payment records, the Starcomm retirement/migration record, feature telemetry, and an authoritative product relationship among Holosim, Fleet Command, SAGE, and C4.
+
+## Review status
+
+`QUALIFIED`. The public test, Chapter 1, delay, reschedule, and Chapter 2 release chronology is strong. Mainnet relationship, reward outcomes, and technical deployment remain unresolved.
 
 ## Evidence references
 

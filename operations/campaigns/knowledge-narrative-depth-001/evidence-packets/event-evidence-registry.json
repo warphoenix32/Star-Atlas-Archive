@@ -1,0 +1,145 @@
+{
+  "page_id": "event-evidence-registry",
+  "proposed_path": "knowledge/events/Event-Evidence-Registry.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "COPA Festival",
+    "Community Week",
+    "426LIVE",
+    "Town Hall",
+    "Atlas Brew",
+    "Gamescom",
+    "Joni Awards"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for COPA Festival, Community Week, 426LIVE, Town Hall, Atlas Brew, Gamescom, Joni Awards from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "EVENT-EVIDENCE-REGISTRY-01",
+      "claim_text": "Event announcement, schedule, occurrence, recording, and result are distinct states.",
+      "claim_type": "EVENT_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-AB9BE32532D219C9.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-E89CAA2834793DCC.md",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-AB9BE32532D219C9.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-E89CAA2834793DCC.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "EVENT-EVIDENCE-REGISTRY-02",
+      "claim_text": "COPA 2022 has a staged official announcement-to-result record.",
+      "claim_type": "EVENT_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-AB9BE32532D219C9.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-E89CAA2834793DCC.md",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-AB9BE32532D219C9.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-E89CAA2834793DCC.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "EVENT-EVIDENCE-REGISTRY-03",
+      "claim_text": "Community Week and 426LIVE remain source-qualified case studies with missing artifacts.",
+      "claim_type": "EVENT_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-AB9BE32532D219C9.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-E89CAA2834793DCC.md",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-AB9BE32532D219C9.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-E89CAA2834793DCC.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D3AC774A6A30EE3.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Recover occurrence pages, agendas, rosters, recordings, results, prize transactions, cancellations, reschedules, and correction notices."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

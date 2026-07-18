@@ -1,0 +1,55 @@
+{
+  "campaign_id": "knowledge-narrative-depth-001",
+  "items": [
+    {
+      "priority": "P0",
+      "research_area": "Treasury transaction reconciliation",
+      "required_artifacts": "Transaction signatures, block times, source/recipient wallets, token mints/decimals, payment dates, conversion basis, and signer authority for every Council-reported amount."
+    },
+    {
+      "priority": "P0",
+      "research_area": "Council elections 2 and 3",
+      "required_artifacts": "Official final tallies, winner announcements, seating, resignations, replacements, and term-end evidence."
+    },
+    {
+      "priority": "P0",
+      "research_area": "SCORE emissions execution",
+      "required_artifacts": "Post-April-16 confirmation, final reward transaction/block, parameter-change transaction, current UI test, and program authority."
+    },
+    {
+      "priority": "P0",
+      "research_area": "Program deployment and security",
+      "required_artifacts": "Deployment/upgrade transactions, authorities, versioned IDLs, program-specific audit reports, findings, remediation, and deployed hashes."
+    },
+    {
+      "priority": "P1",
+      "research_area": "SAGE 3D and SAGE Labs V2",
+      "required_artifacts": "First-party release artifacts, exact dates, build/version history, migration records, and feature matrix."
+    },
+    {
+      "priority": "P1",
+      "research_area": "Atlas Brew and Town Hall provenance",
+      "required_artifacts": "Original URLs/video IDs, dates, complete episode ledgers, hosts/guests, speaker diarization, and replay lineage."
+    },
+    {
+      "priority": "P1",
+      "research_area": "Official Medium dependency",
+      "required_artifacts": "Review and merge the separate article-level ingestion campaign before knowledge promotion; reconcile revisions and redirects."
+    },
+    {
+      "priority": "P1",
+      "research_area": "ATLAS and POLIS ledgers",
+      "required_artifacts": "Economics paper, genesis/mint transactions, vesting, emissions, burns, holders, treasury balances, and sale settlement records."
+    },
+    {
+      "priority": "P2",
+      "research_area": "Organization and role chronology",
+      "required_artifacts": "Corporate filings, Foundation officers, current Council roster, staff appointments/departures, and delegation instruments."
+    },
+    {
+      "priority": "P2",
+      "research_area": "Event occurrence and results",
+      "required_artifacts": "Complete COPA, Community Week, 426LIVE, Gamescom, Town Hall, Atlas Brew, and Joni Awards evidence chains."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "page_id": "sage-product-family-history",
+  "proposed_path": "knowledge/gameplay/SAGE.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "SAGE",
+    "SAGE Labs",
+    "SAGE 3D",
+    "Starbased",
+    "C4",
+    "Project S.C.R.E.A.M."
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for SAGE, SAGE Labs, SAGE 3D, Starbased, C4, Project S.C.R.E.A.M. from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "SAGE-PRODUCT-FAMILY-HISTORY-01",
+      "claim_text": "SAGE family stages and technical identifiers receive separate lifecycle states.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "SAGE-PRODUCT-FAMILY-HISTORY-02",
+      "claim_text": "Aephia places the community-reported SAGE 3D release in December 2023, not 2024.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "SAGE-PRODUCT-FAMILY-HISTORY-03",
+      "claim_text": "Current and legacy program labels do not establish migration or deactivation dates.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-C9AE050CD9C1886D.md",
+          "source_authority": "B2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "B2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Recover first-party SAGE 3D and SAGE Labs V2 release artifacts, exact dates, build matrix, migrations, deployment transactions, authorities, and versioned IDLs."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

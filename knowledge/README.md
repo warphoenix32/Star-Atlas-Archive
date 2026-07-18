@@ -20,3 +20,7 @@ This is the human-first canonical knowledge layer. Entries synthesize reviewed e
 | Open research | [Research backlog](research/README.md) |
 
 For preserved source material, use the separate [archive](../archive/README.md).
+
+## Narrative-depth collections
+
+The first narrative-depth campaign adds source-linked constitutional, election, treasury, token, product-family, communications, media, technology, organization, event, and historical-periodization records. Its [campaign summary](../operations/campaigns/knowledge-narrative-depth-001/campaign-summary.md), [promotion ledger](../operations/campaigns/knowledge-narrative-depth-001/promotion-ledger.md), and [research backlog](../operations/campaigns/knowledge-narrative-depth-001/research-backlog.md) preserve the supporting decisions and unresolved evidence needs.

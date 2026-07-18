@@ -20,7 +20,9 @@ This index tracks independent publications, recurring shows, analysts and creato
 | MEDIA-INTERGALACTIC-HERALD | Intergalactic Herald | Newsletters, directories, interviews, podcasts and event coverage | Profile pending |
 | MEDIA-GALIA-CRAFTERS | Galia Crafters | Gameplay and economic explainers | Profile pending |
 | MEDIA-METAVERSE-EXPLORER | MetaVerse Explorer | Long-running numbered video updates and Aephia-affiliated commentary | Profile pending |
-| MEDIA-ATLAS-BREW | Atlas Brew | Community broadcast and interview archive | Profile pending |
+| MEDIA-ATLAS-BREW | Atlas Brew | Community broadcast and interview archive | [Evidence-qualified history active](Atlas-Brew-History.md) |
+
+The official recurring-recording corpus is described in the [Star Atlas Town Hall History](Star-Atlas-Town-Hall-History.md). Its preserved transcripts establish discussion content, but unresolved dates, URLs, and speaker identities limit event-level chronology.
 
 Official publication surfaces are indexed separately because their authority and completeness boundaries differ from community media:
 

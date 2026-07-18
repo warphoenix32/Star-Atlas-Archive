@@ -1,0 +1,124 @@
+{
+  "page_id": "ecosystem-fund-award-history",
+  "proposed_path": "knowledge/governance/Ecosystem-Fund-Award-History.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 7,
+  "page_risk_class": "R3",
+  "subject_entities": [
+    "Ecosystem Fund",
+    "PIP-4",
+    "PIP-23",
+    "Star Atlas Council"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for Ecosystem Fund, PIP-4, PIP-23, Star Atlas Council from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "ECOSYSTEM-FUND-AWARD-HISTORY-01",
+      "claim_text": "An award is defined as a passed eligible authorization rather than payment or completion.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECOSYSTEM-FUND-AWARD-HISTORY-02",
+      "claim_text": "Failed applications are excluded from the award registry.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECOSYSTEM-FUND-AWARD-HISTORY-03",
+      "claim_text": "PIP-23 is policy and PIP-33 is a direct treasury measure, so neither is a recipient award.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+          "source_authority": "A3",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Recover transaction and deliverable chains for every passed authorization, including mixed-denomination accounting conventions."
+  ],
+  "review_required": true,
+  "review_after": "2026-10-17"
+}

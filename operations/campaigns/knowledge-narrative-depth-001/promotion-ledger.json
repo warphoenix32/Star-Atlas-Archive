@@ -1,0 +1,215 @@
+{
+  "campaign_id": "knowledge-narrative-depth-001",
+  "accepted": [
+    {
+      "candidate": "governance-constitutional-history",
+      "path": "knowledge/governance/Governance-Constitutional-History.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/governance-constitutional-history.json"
+    },
+    {
+      "candidate": "council-election-history",
+      "path": "knowledge/governance/Council-Election-History.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/council-election-history.json"
+    },
+    {
+      "candidate": "governance-failure-casebook",
+      "path": "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/governance-failure-casebook.json"
+    },
+    {
+      "candidate": "treasury-authorization-payment-ledger",
+      "path": "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/treasury-authorization-payment-ledger.json"
+    },
+    {
+      "candidate": "ecosystem-fund-award-history",
+      "path": "knowledge/governance/Ecosystem-Fund-Award-History.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/ecosystem-fund-award-history.json"
+    },
+    {
+      "candidate": "atlas-token-history",
+      "path": "knowledge/economy/ATLAS-Token-History.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/atlas-token-history.json"
+    },
+    {
+      "candidate": "polis-token-history",
+      "path": "knowledge/economy/POLIS-Token-History.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/polis-token-history.json"
+    },
+    {
+      "candidate": "sage-product-family-history",
+      "path": "knowledge/gameplay/SAGE.md",
+      "action": "EXPAND",
+      "evidence_packet": "evidence-packets/sage-product-family-history.json"
+    },
+    {
+      "candidate": "score-starbased-transition",
+      "path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+      "action": "EXPAND",
+      "evidence_packet": "evidence-packets/score-starbased-transition.json"
+    },
+    {
+      "candidate": "holosim-release-feature-history",
+      "path": "knowledge/gameplay/Holosim.md",
+      "action": "EXPAND",
+      "evidence_packet": "evidence-packets/holosim-release-feature-history.json"
+    },
+    {
+      "candidate": "official-communications-chronology",
+      "path": "knowledge/timeline/Official-Communications-Chronology.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/official-communications-chronology.json"
+    },
+    {
+      "candidate": "historical-periodization",
+      "path": "knowledge/timeline/Star-Atlas-Historical-Periodization.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/historical-periodization.json"
+    },
+    {
+      "candidate": "town-hall-history",
+      "path": "knowledge/media/Star-Atlas-Town-Hall-History.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/town-hall-history.json"
+    },
+    {
+      "candidate": "atlas-brew-history",
+      "path": "knowledge/media/Atlas-Brew-History.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/atlas-brew-history.json"
+    },
+    {
+      "candidate": "technology-program-registry",
+      "path": "knowledge/technology/Official-Technical-Surface-Inventory.md",
+      "action": "EXPAND",
+      "evidence_packet": "evidence-packets/technology-program-registry.json"
+    },
+    {
+      "candidate": "organization-role-registry",
+      "path": "knowledge/organizations/Organization-and-Role-Registry.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/organization-role-registry.json"
+    },
+    {
+      "candidate": "event-evidence-registry",
+      "path": "knowledge/events/Event-Evidence-Registry.md",
+      "action": "CREATE",
+      "evidence_packet": "evidence-packets/event-evidence-registry.json"
+    },
+    {
+      "path": "knowledge/gameplay/Product-Registry.md",
+      "action": "CORRECT",
+      "reason": "Narrow SAGE 3D date and Faction Fleet deprecation state."
+    },
+    {
+      "path": "knowledge/timeline/Product-Timeline.md",
+      "action": "CORRECT",
+      "reason": "Correct community-reported SAGE 3D year to 2023."
+    },
+    {
+      "path": "knowledge/timeline/Master-Timeline.md",
+      "action": "CORRECT",
+      "reason": "Correct SAGE 3D year and ground first PIP results in official captures."
+    },
+    {
+      "path": "knowledge/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/governance/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/economy/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/gameplay/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/media/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/timeline/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/technology/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/organizations/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/events/README.md",
+      "action": "INDEX_UPDATE"
+    },
+    {
+      "path": "knowledge/research/README.md",
+      "action": "INDEX_UPDATE"
+    }
+  ],
+  "deferred": [
+    {
+      "candidate": "Later Council winner rosters",
+      "reason": "Official final-result artifacts missing."
+    },
+    {
+      "candidate": "Verified recipient payment ledger",
+      "reason": "Council values lack transaction reconciliation."
+    },
+    {
+      "candidate": "Complete Medium communications history",
+      "reason": "PR #19 is unmerged and excluded from this main-based campaign."
+    },
+    {
+      "candidate": "Joni Awards results",
+      "reason": "Recording/prediction evidence does not establish a complete result ledger."
+    }
+  ],
+  "duplicate": [
+    {
+      "candidate": "Standalone SAGE-family entity page",
+      "canonical_path": "knowledge/gameplay/SAGE.md",
+      "reason": "Existing canonical page expanded."
+    },
+    {
+      "candidate": "Standalone Holosim history entity",
+      "canonical_path": "knowledge/gameplay/Holosim.md",
+      "reason": "Existing canonical page expanded."
+    },
+    {
+      "candidate": "Second technical registry",
+      "canonical_path": "knowledge/technology/Official-Technical-Surface-Inventory.md",
+      "reason": "Existing inventory retitled and expanded."
+    }
+  ],
+  "rejected": [
+    {
+      "candidate": "Faction Fleet emissions confirmed ended",
+      "reason": "Only future-tense deprecation announcements are preserved; execution unverified."
+    },
+    {
+      "candidate": "SAGE 3D released December 2024",
+      "reason": "Cited Aephia source places the report under December 2023."
+    },
+    {
+      "candidate": "Council tracker completion for failed PIPs",
+      "reason": "Failed votes supplied no implementation authority."
+    },
+    {
+      "candidate": "PIP-33 as Ecosystem Fund award",
+      "reason": "Primary proposal and tracker identify a direct DAO Treasury measure."
+    }
+  ]
+}

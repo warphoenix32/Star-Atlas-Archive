@@ -1,0 +1,140 @@
+{
+  "page_id": "organization-role-registry",
+  "proposed_path": "knowledge/organizations/Organization-and-Role-Registry.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "ATMTA, Inc.",
+    "Star Atlas DAO",
+    "Star Atlas Foundation",
+    "Star Atlas Council",
+    "Ecosystem Fund"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for ATMTA, Inc., Star Atlas DAO, Star Atlas Foundation, Star Atlas Council, Ecosystem Fund from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "ORGANIZATION-ROLE-REGISTRY-01",
+      "claim_text": "ATMTA, DAO, Foundation, and Council are distinct institutions.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ORGANIZATION-ROLE-REGISTRY-02",
+      "claim_text": "Election, service, intended term, and current role are distinct states.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ORGANIZATION-ROLE-REGISTRY-03",
+      "claim_text": "Publisher, event originator, and replay publisher are separate provenance roles.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Acquire corporate filings, Foundation officers, current Council roster, staff appointment and departure records, and delegation instruments."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

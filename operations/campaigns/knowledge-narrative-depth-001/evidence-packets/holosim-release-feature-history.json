@@ -1,0 +1,139 @@
+{
+  "page_id": "holosim-release-feature-history",
+  "proposed_path": "knowledge/gameplay/Holosim.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Holosim",
+    "Holosim Chapter 1",
+    "Holosim Chapter 2",
+    "zATLAS"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for Holosim, Holosim Chapter 1, Holosim Chapter 2, zATLAS from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "HOLOSIM-RELEASE-FEATURE-HISTORY-01",
+      "claim_text": "Holosim public test, Chapter 1, delay, reschedule, and Chapter 2 are distinct lifecycle events.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "HOLOSIM-RELEASE-FEATURE-HISTORY-02",
+      "claim_text": "Feature claims are assigned to dated builds rather than the product for all time.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "HOLOSIM-RELEASE-FEATURE-HISTORY-03",
+      "claim_text": "Decoder support and publisher-reported RPC migration are not deployment audits.",
+      "claim_type": "PRODUCT_LIFECYCLE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Acquire build manifests, release notes, deployment identifiers, decoder version history, RPC migration evidence, and incident-resolution records."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

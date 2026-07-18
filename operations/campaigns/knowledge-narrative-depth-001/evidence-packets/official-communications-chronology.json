@@ -1,0 +1,161 @@
+{
+  "page_id": "official-communications-chronology",
+  "proposed_path": "knowledge/timeline/Official-Communications-Chronology.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Star Atlas newsroom",
+    "Official Discord",
+    "Official X account",
+    "Official Medium",
+    "governance portal"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for Star Atlas newsroom, Official Discord, Official X account, Official Medium, governance portal from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "OFFICIAL-COMMUNICATIONS-CHRONOLOGY-01",
+      "claim_text": "Official communication spans multiple incomplete publication surfaces.",
+      "claim_type": "COMMUNICATIONS_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/campaign-summaries/campaign-delta-official/campaign-summary.json",
+        "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-2A930EF6763F8490.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D27B5214B5BAC6AA.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/campaign-summaries/campaign-delta-official/campaign-summary.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-2A930EF6763F8490.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D27B5214B5BAC6AA.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-COMMUNICATIONS-CHRONOLOGY-02",
+      "claim_text": "Cross-surface repetition is not independent execution evidence.",
+      "claim_type": "COMMUNICATIONS_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/campaign-summaries/campaign-delta-official/campaign-summary.json",
+        "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-2A930EF6763F8490.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D27B5214B5BAC6AA.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/campaign-summaries/campaign-delta-official/campaign-summary.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-2A930EF6763F8490.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D27B5214B5BAC6AA.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-COMMUNICATIONS-CHRONOLOGY-03",
+      "claim_text": "The unmerged Medium campaign is excluded from this main-based knowledge campaign.",
+      "claim_type": "COMMUNICATIONS_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/campaign-summaries/campaign-delta-official/campaign-summary.json",
+        "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-2A930EF6763F8490.md",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D27B5214B5BAC6AA.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/campaign-summaries/campaign-delta-official/campaign-summary.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+          "source_authority": "DERIVED_REVIEWED",
+          "source_role": "DERIVED_RESEARCH_AID"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-2A930EF6763F8490.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D27B5214B5BAC6AA.json",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "DERIVED_REVIEWED"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Complete Medium review after PR #19 merges and recover deleted or edited posts, attachments, correction chains, and pre-2024 X history."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

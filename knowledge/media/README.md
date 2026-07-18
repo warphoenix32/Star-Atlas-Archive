@@ -6,6 +6,8 @@ This domain documents the publications, channels, shows, creators, and source li
 
 - [Media and Creator Index](Media-and-Creator-Index.md)
 - [Community Publication Relationship Index](Community-Publication-Relationship-Index.md)
+- [Star Atlas Town Hall History](Star-Atlas-Town-Hall-History.md)
+- [Atlas Brew History](Atlas-Brew-History.md)
 
 ## Community publication records
 

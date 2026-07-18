@@ -1,0 +1,189 @@
+{
+  "campaign_id": "knowledge-narrative-depth-001",
+  "as_of": "2026-07-17",
+  "output_count": 17,
+  "outputs": [
+    {
+      "page_id": "governance-constitutional-history",
+      "path": "knowledge/governance/Governance-Constitutional-History.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 6,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/governance-constitutional-history.json"
+    },
+    {
+      "page_id": "council-election-history",
+      "path": "knowledge/governance/Council-Election-History.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 6,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/council-election-history.json"
+    },
+    {
+      "page_id": "governance-failure-casebook",
+      "path": "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 6,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/governance-failure-casebook.json"
+    },
+    {
+      "page_id": "treasury-authorization-payment-ledger",
+      "path": "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 8,
+      "risk_class": "R3",
+      "evidence_packet": "evidence-packets/treasury-authorization-payment-ledger.json"
+    },
+    {
+      "page_id": "ecosystem-fund-award-history",
+      "path": "knowledge/governance/Ecosystem-Fund-Award-History.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 7,
+      "risk_class": "R3",
+      "evidence_packet": "evidence-packets/ecosystem-fund-award-history.json"
+    },
+    {
+      "page_id": "atlas-token-history",
+      "path": "knowledge/economy/ATLAS-Token-History.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 5,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/atlas-token-history.json"
+    },
+    {
+      "page_id": "polis-token-history",
+      "path": "knowledge/economy/POLIS-Token-History.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 5,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/polis-token-history.json"
+    },
+    {
+      "page_id": "sage-product-family-history",
+      "path": "knowledge/gameplay/SAGE.md",
+      "action": "EXPAND",
+      "status": "QUALIFIED",
+      "risk_score": 5,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/sage-product-family-history.json"
+    },
+    {
+      "page_id": "score-starbased-transition",
+      "path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+      "action": "EXPAND",
+      "status": "HISTORICAL",
+      "risk_score": 6,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/score-starbased-transition.json"
+    },
+    {
+      "page_id": "holosim-release-feature-history",
+      "path": "knowledge/gameplay/Holosim.md",
+      "action": "EXPAND",
+      "status": "QUALIFIED",
+      "risk_score": 5,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/holosim-release-feature-history.json"
+    },
+    {
+      "page_id": "official-communications-chronology",
+      "path": "knowledge/timeline/Official-Communications-Chronology.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 5,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/official-communications-chronology.json"
+    },
+    {
+      "page_id": "historical-periodization",
+      "path": "knowledge/timeline/Star-Atlas-Historical-Periodization.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 7,
+      "risk_class": "R3",
+      "evidence_packet": "evidence-packets/historical-periodization.json"
+    },
+    {
+      "page_id": "town-hall-history",
+      "path": "knowledge/media/Star-Atlas-Town-Hall-History.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 7,
+      "risk_class": "R3",
+      "evidence_packet": "evidence-packets/town-hall-history.json"
+    },
+    {
+      "page_id": "atlas-brew-history",
+      "path": "knowledge/media/Atlas-Brew-History.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 7,
+      "risk_class": "R3",
+      "evidence_packet": "evidence-packets/atlas-brew-history.json"
+    },
+    {
+      "page_id": "technology-program-registry",
+      "path": "knowledge/technology/Official-Technical-Surface-Inventory.md",
+      "action": "EXPAND",
+      "status": "QUALIFIED",
+      "risk_score": 6,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/technology-program-registry.json"
+    },
+    {
+      "page_id": "organization-role-registry",
+      "path": "knowledge/organizations/Organization-and-Role-Registry.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 6,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/organization-role-registry.json"
+    },
+    {
+      "page_id": "event-evidence-registry",
+      "path": "knowledge/events/Event-Evidence-Registry.md",
+      "action": "CREATE",
+      "status": "QUALIFIED",
+      "risk_score": 6,
+      "risk_class": "R2",
+      "evidence_packet": "evidence-packets/event-evidence-registry.json"
+    }
+  ],
+  "corrections": [
+    {
+      "path": "knowledge/gameplay/Product-Registry.md",
+      "action": "CORRECT",
+      "reason": "Narrow SAGE 3D date and Faction Fleet deprecation state."
+    },
+    {
+      "path": "knowledge/timeline/Product-Timeline.md",
+      "action": "CORRECT",
+      "reason": "Correct community-reported SAGE 3D year to 2023."
+    },
+    {
+      "path": "knowledge/timeline/Master-Timeline.md",
+      "action": "CORRECT",
+      "reason": "Correct SAGE 3D year and ground first PIP results in official captures."
+    }
+  ],
+  "index_updates": [
+    "knowledge/README.md",
+    "knowledge/governance/README.md",
+    "knowledge/economy/README.md",
+    "knowledge/gameplay/README.md",
+    "knowledge/media/README.md",
+    "knowledge/timeline/README.md",
+    "knowledge/technology/README.md",
+    "knowledge/organizations/README.md",
+    "knowledge/events/README.md",
+    "knowledge/research/README.md"
+  ]
+}

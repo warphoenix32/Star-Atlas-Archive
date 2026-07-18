@@ -1,0 +1,29 @@
+{
+  "campaign_id": "knowledge-narrative-depth-001",
+  "status": "VALIDATED",
+  "as_of": "2026-07-17",
+  "outputs": 17,
+  "created": 13,
+  "expanded": 4,
+  "corrections": 3,
+  "risk_distribution": {
+    "R1": 0,
+    "R2": 12,
+    "R3": 5,
+    "R4": 0,
+    "R5": 0
+  },
+  "knowledge_status_distribution": {
+    "HISTORICAL": 1,
+    "QUALIFIED": 16
+  },
+  "evidence_packets": 17,
+  "archive_evidence_modified": false,
+  "graph_modified": false,
+  "publication_modified": false,
+  "unmerged_dependencies_used": false,
+  "excluded_dependency": "PR #19 Medium ingestion remains unmerged and was not used.",
+  "validation_result": "PASS",
+  "validation_checks": 12,
+  "validation_failures": 0
+}

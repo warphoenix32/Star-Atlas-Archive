@@ -1,0 +1,141 @@
+{
+  "page_id": "atlas-token-history",
+  "proposed_path": "knowledge/economy/ATLAS-Token-History.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "ATLAS",
+    "ATLAS Locker",
+    "DAO Treasury account",
+    "zATLAS"
+  ],
+  "aliases": [
+    "Star Atlas utility token"
+  ],
+  "scope": "Evidence-qualified history for ATLAS, ATLAS Locker, DAO Treasury account, zATLAS from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "ATLAS-TOKEN-HISTORY-01",
+      "claim_text": "Historical sale terms are source-dated and not present-supply facts.",
+      "claim_type": "ECONOMIC_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-D07F401D77E9CA13.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-D07F401D77E9CA13.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ATLAS-TOKEN-HISTORY-02",
+      "claim_text": "ATLAS token, ATLAS Locker, DAO Treasury holdings, and Holosim zATLAS are distinct.",
+      "claim_type": "ECONOMIC_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-D07F401D77E9CA13.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-D07F401D77E9CA13.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ATLAS-TOKEN-HISTORY-03",
+      "claim_text": "Official emissions and utility statements do not replace an on-chain supply and transaction history.",
+      "claim_type": "ECONOMIC_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-D07F401D77E9CA13.md"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-D07F401D77E9CA13.md",
+          "source_authority": "A2",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Acquire the economics paper, genesis and mint records, emissions and burn ledger, vesting history, sale settlement, and dated treasury balances."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

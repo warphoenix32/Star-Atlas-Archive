@@ -1,0 +1,140 @@
+{
+  "page_id": "council-election-history",
+  "proposed_path": "knowledge/governance/Council-Election-History.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "subject_entities": [
+    "Star Atlas Council",
+    "PIP-6",
+    "PIP-7",
+    "PIP-11",
+    "PIP-25"
+  ],
+  "aliases": [],
+  "scope": "Evidence-qualified history for Star Atlas Council, PIP-6, PIP-7, PIP-11, PIP-25 from artifacts merged on main.",
+  "material_claims": [
+    {
+      "claim_id": "COUNCIL-ELECTION-HISTORY-01",
+      "claim_text": "PIP-6 identifies first-round advancing candidates rather than elected members.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-06-1B792551.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-07-91652743.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-11-7B48A62D.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-06-1B792551.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-07-91652743.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-11-7B48A62D.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "COUNCIL-ELECTION-HISTORY-02",
+      "claim_text": "PIP-7 identifies the five final first-Council winners.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-06-1B792551.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-07-91652743.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-11-7B48A62D.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-06-1B792551.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-07-91652743.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-11-7B48A62D.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "COUNCIL-ELECTION-HISTORY-03",
+      "claim_text": "Later Council-election winners remain unresolved in the captured portal records.",
+      "claim_type": "INSTITUTIONAL_HISTORY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "EXPLICITLY_SEPARATED_WHERE_APPLICABLE",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-06-1B792551.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-07-91652743.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-11-7B48A62D.json"
+      ],
+      "supporting_source_details": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-06-1B792551.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-07-91652743.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-11-7B48A62D.json",
+          "source_authority": "A1",
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Source authority does not imply independent factual verification.",
+    "Current-state claims are date-bound.",
+    "Missing evidence is preserved as a gap and is not resolved by inference."
+  ],
+  "research_gaps": [
+    "Acquire official final tallies, winner announcements, seating, resignations, replacements, and term-end evidence for later Council elections."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}
