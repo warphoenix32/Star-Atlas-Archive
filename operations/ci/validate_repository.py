@@ -202,12 +202,19 @@ def validate_knowledge_campaign() -> None:
     env.setdefault("GITHUB_BASE_REF", "main")
     command = [sys.executable, str(campaign / "build_campaign.py")]
     validate = [sys.executable, str(campaign / "validate_campaign.py")]
+
+    # Establish a platform-local fixed point before comparing cycles. The
+    # campaign manifest observes validator-generated reports, so a Linux CI
+    # checkout may need one pass to normalize files produced on Windows.
+    run(*command, check=True, env=env)
+    run(*validate, check=True, env=env)
     run(*command, check=True, env=env)
     first = run_cycle(validate, campaign, {"build_campaign.py", "validate_campaign.py", "README.md"}, env)
     run(*command, check=True, env=env)
     second = run_cycle(validate, campaign, {"build_campaign.py", "validate_campaign.py", "README.md"}, env)
     if first != second:
-        raise ValidationFailure("knowledge campaign output is not deterministic")
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("knowledge campaign output is not deterministic: " + ", ".join(differing))
     diff = run("git", "diff", "--exit-code", "--", str(campaign.relative_to(ROOT)))
     if diff.returncode:
         raise ValidationFailure("knowledge campaign generated artifacts do not reconcile with committed files:\n" + diff.stdout)

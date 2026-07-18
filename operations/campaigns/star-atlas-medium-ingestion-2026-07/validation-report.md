@@ -15,7 +15,7 @@
     "included": 173,
     "validated_successes": 173
   },
-  "campaign_manifest_artifacts": 1566,
+  "campaign_manifest_artifacts": 1567,
   "candidate_dispositions": {
     "invalid": 0,
     "total": 686
@@ -69,7 +69,7 @@
     "resolved_excluded": 278
   },
   "scope": {
-    "changed_paths": 1573,
+    "changed_paths": 1574,
     "prohibited": []
   }
 }

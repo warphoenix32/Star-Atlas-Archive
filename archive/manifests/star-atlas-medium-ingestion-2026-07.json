@@ -1,6 +1,11 @@
 {
-  "artifact_count": 1567,
+  "artifact_count": 1568,
   "artifacts": [
+    {
+      "path": "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "size_bytes": 14
+    },
     {
       "path": "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
       "sha256": "bfcb479fd84940247f9f56beed978878a503b8b38d661aa57bda4eed08922094",
@@ -6963,8 +6968,8 @@
     },
     {
       "path": "operations/campaigns/star-atlas-medium-ingestion-2026-07/campaign-manifest.json",
-      "sha256": "6c90772d78ae7e237c1c94fba4f30c0703485259d6a6ff6fae69a5421428c3df",
-      "size_bytes": 350715
+      "sha256": "b1c3613d71cf683103f80a5e206a57c21a3b64e6c9467178f07abfd90f998e11",
+      "size_bytes": 350930
     },
     {
       "path": "operations/campaigns/star-atlas-medium-ingestion-2026-07/determinism-report.json",
@@ -7847,5 +7852,5 @@
     "summary": "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07"
   },
   "repository_base": "main",
-  "total_size_bytes": 71563826
+  "total_size_bytes": 71564055
 }
