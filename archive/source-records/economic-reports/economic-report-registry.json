@@ -1,0 +1,339 @@
+{
+  "campaign_id": "economic-reports-complete-ingestion-2026-07-18",
+  "generated_at": "2026-07-18",
+  "official_index": "https://govern.staratlas.com/economy/economic-reports",
+  "report_count": 17,
+  "coverage": {
+    "first": "2022 Q2",
+    "last": "2026 Q2"
+  },
+  "raw_binary_preservation": "BLOCKED_IN_CURRENT_CONNECTOR_RUNTIME",
+  "records": [
+    {
+      "source_id": "SRC-ECON-2022-Q2",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2022 Q2",
+      "year": 2022,
+      "quarter": "Q2",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2022/q2.pdf",
+      "page_count": 27,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2022-Q3",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2022 Q3",
+      "year": 2022,
+      "quarter": "Q3",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2022/q3.pdf",
+      "page_count": 17,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "PARSER_FAILED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review.",
+        "Automated text parsing returned unusable text; render/OCR review is required."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2022-Q4",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2022 Q4",
+      "year": 2022,
+      "quarter": "Q4",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2022/q4.pdf",
+      "page_count": 19,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "PARSER_FAILED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review.",
+        "Automated text parsing returned unusable text; render/OCR review is required."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2023-Q1",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2023 Q1",
+      "year": 2023,
+      "quarter": "Q1",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2023/q1.pdf",
+      "page_count": 22,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "PARSER_FAILED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review.",
+        "Automated text parsing returned unusable text; render/OCR review is required."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2023-Q2",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2023 Q2",
+      "year": 2023,
+      "quarter": "Q2",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2023/q2.pdf",
+      "page_count": 17,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2023-Q3",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2023 Q3",
+      "year": 2023,
+      "quarter": "Q3",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2023/q3.pdf",
+      "page_count": 14,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2023-Q4",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2023 Q4",
+      "year": 2023,
+      "quarter": "Q4",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2023/q4.pdf",
+      "page_count": 12,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2024-Q1",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2024 Q1",
+      "year": 2024,
+      "quarter": "Q1",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2024/q1.pdf",
+      "page_count": 11,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2024-Q2",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2024 Q2",
+      "year": 2024,
+      "quarter": "Q2",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2024/q2.pdf",
+      "page_count": 13,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2024-Q3",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2024 Q3",
+      "year": 2024,
+      "quarter": "Q3",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2024/q3.pdf",
+      "page_count": 12,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2024-Q4",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2024 Q4",
+      "year": 2024,
+      "quarter": "Q4",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2024/q4.pdf",
+      "page_count": 13,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2025-Q1",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2025 Q1",
+      "year": 2025,
+      "quarter": "Q1",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2025/q1.pdf",
+      "page_count": 14,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2025-Q2",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2025 Q2",
+      "year": 2025,
+      "quarter": "Q2",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2025/q2.pdf",
+      "page_count": 12,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2025-Q3",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2025 Q3",
+      "year": 2025,
+      "quarter": "Q3",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2025/q3.pdf",
+      "page_count": 13,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2025-Q4",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2025 Q4",
+      "year": 2025,
+      "quarter": "Q4",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2025/q4.pdf",
+      "page_count": 14,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2026-Q1",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2026 Q1",
+      "year": 2026,
+      "quarter": "Q1",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2026/q1.pdf",
+      "page_count": 13,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    },
+    {
+      "source_id": "SRC-ECON-2026-Q2",
+      "source_type": "OFFICIAL_ECONOMIC_REPORT",
+      "evidence_tier": "A2_OFFICIAL_PUBLICATION",
+      "series": "Star Atlas Economic Quarterly",
+      "period": "2026 Q2",
+      "year": 2026,
+      "quarter": "Q2",
+      "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2026/q2.pdf",
+      "page_count": 13,
+      "retrieved_on": "2026-07-18",
+      "raw_preservation_status": "EXTERNAL_CANONICAL_URL_ONLY",
+      "text_extraction_status": "TEXT_PARSED",
+      "semantic_review_status": "PENDING",
+      "limitations": [
+        "The repository record currently preserves the canonical public URL and metadata, but not the PDF binary checksum.",
+        "Metrics and methodology must remain period-bound and report-attributed until semantic review."
+      ]
+    }
+  ]
+}
