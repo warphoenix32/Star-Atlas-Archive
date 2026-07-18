@@ -1,22 +1,24 @@
 {
   "campaign_id": "starbased-ship-states-ingestion-2026-07",
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "columns": [
     {
       "ordinal": 1,
       "source_header": "",
-      "normalized_field": "ship_code",
+      "normalized_field": "ship_shorthand_code",
       "data_type": "string",
       "unit": null,
-      "semantic_status": "PENDING_HEADER_CONFIRMATION"
+      "semantic_status": "SOURCE_SHORTHAND_PRESERVED_MARKETPLACE_ALIGNMENT_UNVERIFIED",
+      "disposition": "include_identity"
     },
     {
       "ordinal": 2,
       "source_header": "NameLinks to Marketplace",
-      "normalized_field": "ship_name",
+      "normalized_field": "ship_name_observed",
       "data_type": "string",
       "unit": null,
-      "semantic_status": "PENDING_LINK_AND_NAME_CONFIRMATION"
+      "semantic_status": "TEXT_PRESERVED_EXACTLY_MARKETPLACE_LINK_MISSING",
+      "disposition": "include_identity"
     },
     {
       "ordinal": 3,
@@ -24,191 +26,221 @@
       "normalized_field": "specialization_observed",
       "data_type": "string",
       "unit": null,
-      "semantic_status": "OBSERVED_TAXONOMY"
+      "semantic_status": "TEXT_PRESERVED_EXACTLY",
+      "disposition": "include_identity"
     },
     {
       "ordinal": 4,
       "source_header": "CargoCapacity",
       "normalized_field": "cargo_capacity",
       "data_type": "number",
-      "unit": "source_unit_unresolved",
-      "semantic_status": "PENDING_UNIT_AND_MODULE_CONFIRMATION"
+      "unit": "source unit unresolved",
+      "semantic_status": "SOURCE_VALUE_PRESERVED_UNIT_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 5,
       "source_header": "USDC /Cargo Capacity",
       "normalized_field": "usdc_per_cargo_capacity",
       "data_type": "number",
-      "unit": "USDC per source cargo unit",
-      "semantic_status": "PENDING_DERIVATION_CONFIRMATION"
+      "unit": "unresolved",
+      "semantic_status": "SEMANTICALLY_UNKNOWN_DUPLICATE",
+      "disposition": "omit_from_concise_normalized",
+      "omission_rationale": "Semantically unknown duplicate/derived field; exact source values remain in immutable raw CSV.",
+      "curator_decision": "OMIT_WITH_PROVENANCE"
     },
     {
       "ordinal": 6,
       "source_header": "FuelCapacity",
       "normalized_field": "fuel_capacity",
       "data_type": "number",
-      "unit": "source_unit_unresolved",
-      "semantic_status": "PENDING_UNIT_AND_MODULE_CONFIRMATION"
+      "unit": "source unit unresolved",
+      "semantic_status": "SOURCE_VALUE_PRESERVED_UNIT_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 7,
       "source_header": "AmmoCapacity",
       "normalized_field": "ammo_capacity",
       "data_type": "number",
-      "unit": "source_unit_unresolved",
-      "semantic_status": "PENDING_UNIT_AND_MODULE_CONFIRMATION"
+      "unit": "source unit unresolved",
+      "semantic_status": "SOURCE_VALUE_PRESERVED_UNIT_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 8,
       "source_header": "Food / sec(Mining)",
       "normalized_field": "mining_food_per_second",
       "data_type": "number",
-      "unit": "food per second",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "food per second as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 9,
       "source_header": "Ammo / sec(Mining)",
       "normalized_field": "mining_ammo_per_second",
       "data_type": "number",
-      "unit": "ammo per second",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "ammo per second as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 10,
       "source_header": "Mining Rate[Resource/sec]",
       "normalized_field": "mining_rate_resource_per_second",
       "data_type": "number",
-      "unit": "resource per second",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "resource per second as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 11,
       "source_header": "USDC /Mining Rate",
       "normalized_field": "usdc_per_mining_rate",
       "data_type": "number",
-      "unit": "USDC per source mining-rate unit",
-      "semantic_status": "PENDING_DERIVATION_CONFIRMATION"
+      "unit": "unresolved",
+      "semantic_status": "SEMANTICALLY_UNKNOWN_DUPLICATE",
+      "disposition": "omit_from_concise_normalized",
+      "omission_rationale": "Semantically unknown duplicate/derived field; exact source values remain in immutable raw CSV.",
+      "curator_decision": "OMIT_WITH_PROVENANCE"
     },
     {
       "ordinal": 12,
       "source_header": "Subwarp Speed[AU/sec]",
       "normalized_field": "subwarp_speed_au_per_second",
       "data_type": "number",
-      "unit": "AU per second",
-      "semantic_status": "PENDING_SCALE_AND_MODULE_CONFIRMATION"
+      "unit": "AU per second as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 13,
       "source_header": "Warp Speed[AU/sec]",
       "normalized_field": "warp_speed_au_per_second",
       "data_type": "number",
-      "unit": "AU per second",
-      "semantic_status": "PENDING_SCALE_AND_MODULE_CONFIRMATION"
+      "unit": "astronomical units per second",
+      "semantic_status": "LITERAL_VALUE_AND_UNIT_RESOLVED_BY_OPERATOR",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 14,
       "source_header": "Max WarpDistance [AU]",
       "normalized_field": "max_warp_distance_au",
       "data_type": "number",
-      "unit": "AU",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "astronomical units as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 15,
       "source_header": "Warp Cooldown[sec]",
       "normalized_field": "warp_cooldown_seconds",
       "data_type": "number",
-      "unit": "seconds",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "seconds as captured",
+      "semantic_status": "SOURCE_VALUE_PRESERVED_SHIP_SPECIFIC",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 16,
       "source_header": "Fuel /AU Warp",
       "normalized_field": "warp_fuel_per_au",
       "data_type": "number",
-      "unit": "fuel per AU",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "fuel per AU as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 17,
       "source_header": "Cargo /Warp Fuel",
       "normalized_field": "cargo_per_warp_fuel",
       "data_type": "number",
-      "unit": "cargo per warp fuel",
-      "semantic_status": "PENDING_DERIVATION_CONFIRMATION"
+      "unit": "unresolved",
+      "semantic_status": "SEMANTICALLY_UNKNOWN_DUPLICATE",
+      "disposition": "omit_from_concise_normalized",
+      "omission_rationale": "Semantically unknown duplicate/derived field; exact source values remain in immutable raw CSV.",
+      "curator_decision": "OMIT_WITH_PROVENANCE"
     },
     {
       "ordinal": 18,
       "source_header": "Fuel /AU Subwarp",
       "normalized_field": "subwarp_fuel_per_au",
       "data_type": "number",
-      "unit": "fuel per AU",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "fuel per AU as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 19,
       "source_header": "Asteroid ExitFuel",
       "normalized_field": "asteroid_exit_fuel",
       "data_type": "number",
-      "unit": "fuel",
-      "semantic_status": "PENDING_DEFINITION_AND_MODULE_CONFIRMATION"
+      "unit": "fuel as captured",
+      "semantic_status": "SOURCE_VALUE_PRESERVED_DEFINITION_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 20,
       "source_header": "Crew ",
       "normalized_field": "crew",
       "data_type": "number",
-      "unit": "persons",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "persons as captured",
+      "semantic_status": "SOURCE_VALUE_PRESERVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 21,
       "source_header": "Passengers ",
       "normalized_field": "passengers",
       "data_type": "number",
-      "unit": "persons",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "persons as captured",
+      "semantic_status": "SOURCE_VALUE_PRESERVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 22,
       "source_header": "Respawn Time[sec]",
       "normalized_field": "respawn_time_seconds",
       "data_type": "number",
-      "unit": "seconds",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "seconds as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 23,
       "source_header": "Scan Cooldown[sec]",
       "normalized_field": "scan_cooldown_seconds",
       "data_type": "number",
-      "unit": "seconds",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "seconds as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 24,
       "source_header": "Food /Scan",
       "normalized_field": "food_per_scan",
       "data_type": "number",
-      "unit": "food per scan",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "food per scan as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 25,
       "source_header": "SDU /Scan",
       "normalized_field": "sdu_per_scan",
       "data_type": "number",
-      "unit": "SDU per scan",
-      "semantic_status": "PENDING_MODULE_CONFIRMATION"
+      "unit": "SDU per scan as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     },
     {
       "ordinal": 26,
       "source_header": "Food /SDU",
       "normalized_field": "food_per_sdu",
       "data_type": "number",
-      "unit": "food per SDU",
-      "semantic_status": "PENDING_DERIVATION_CONFIRMATION"
+      "unit": "food per SDU as captured",
+      "semantic_status": "SOURCE_LABEL_UNIT_PRESERVED_SCALE_UNRESOLVED",
+      "disposition": "include_metric"
     }
   ]
 }

@@ -1,10 +1,13 @@
 {
   "campaign_id": "starbased-ship-states-ingestion-2026-07",
   "as_of": "2026-07-18",
-  "status": "RAW_PRESERVED_NORMALIZATION_PREVIEW_READY_CONTEXT_REQUIRED",
+  "status": "QUALIFIED_NORMALIZATION_WRITTEN_MANUAL_REVIEW_RETAINED",
   "raw_artifacts_preserved": 1,
   "preview_records": 63,
-  "open_context_questions": 8,
-  "archive_normalized_outputs_written": 0,
-  "promotion_gate": "BLOCKED_PENDING_SEMANTIC_CONTEXT"
+  "normalized_records": 63,
+  "open_context_questions": 0,
+  "answered_context_questions": 8,
+  "remaining_research_gaps": 4,
+  "archive_normalized_outputs_written": 2,
+  "promotion_gate": "PASSED_QUALIFIED_RECORD_LEVEL_NORMALIZATION"
 }

@@ -1,0 +1,85 @@
+{
+  "dataset_id": "starbased-base-ships-2026-07-18",
+  "schema_version": "1.1.0",
+  "snapshot_date": "2026-07-18",
+  "record_count": 63,
+  "record_type": "base_ship_template",
+  "collection_scope": "63 base-ship rows included in the 2026-07-18 Ryden export",
+  "collection_completeness": "UNKNOWN",
+  "current_availability": "UNKNOWN",
+  "applicability": {
+    "SAGE_and_C4": "OPERATOR_SUPPLIED_CONTEXT_BASE_VALUES_INTENDED_COMMON",
+    "holosim": "OUT_OF_SCOPE_DIFFERENT_VALUE_SYSTEM",
+    "future_rebasing": "POSSIBLE",
+    "component_modified_instances": "SEPARATE_FUTURE_VERSIONED_DATASET_REQUIRED"
+  },
+  "source_lineage": {
+    "observed_distributor": "Ryden Systems",
+    "asserted_upstream_authority": "Star Atlas",
+    "upstream_document_url": "UNKNOWN",
+    "upstream_document_version": "UNKNOWN",
+    "independently_verified": false,
+    "basis": "OPERATOR_SUPPLIED_CONTEXT"
+  },
+  "field_disposition_ledger": [
+    {
+      "ordinal": 5,
+      "source_header": "USDC /Cargo Capacity",
+      "normalized_field": "usdc_per_cargo_capacity",
+      "data_type": "number",
+      "unit": "unresolved",
+      "semantic_status": "SEMANTICALLY_UNKNOWN_DUPLICATE",
+      "disposition": "omit_from_concise_normalized",
+      "omission_rationale": "Semantically unknown duplicate/derived field; exact source values remain in immutable raw CSV.",
+      "curator_decision": "OMIT_WITH_PROVENANCE"
+    },
+    {
+      "ordinal": 11,
+      "source_header": "USDC /Mining Rate",
+      "normalized_field": "usdc_per_mining_rate",
+      "data_type": "number",
+      "unit": "unresolved",
+      "semantic_status": "SEMANTICALLY_UNKNOWN_DUPLICATE",
+      "disposition": "omit_from_concise_normalized",
+      "omission_rationale": "Semantically unknown duplicate/derived field; exact source values remain in immutable raw CSV.",
+      "curator_decision": "OMIT_WITH_PROVENANCE"
+    },
+    {
+      "ordinal": 17,
+      "source_header": "Cargo /Warp Fuel",
+      "normalized_field": "cargo_per_warp_fuel",
+      "data_type": "number",
+      "unit": "unresolved",
+      "semantic_status": "SEMANTICALLY_UNKNOWN_DUPLICATE",
+      "disposition": "omit_from_concise_normalized",
+      "omission_rationale": "Semantically unknown duplicate/derived field; exact source values remain in immutable raw CSV.",
+      "curator_decision": "OMIT_WITH_PROVENANCE"
+    }
+  ],
+  "manual_review_flags": [
+    {
+      "gap_id": "RG01_UPSTREAM_DOCUMENT",
+      "description": "Upstream Star Atlas document URL/version and independent lineage verification remain unavailable.",
+      "manual_review": true
+    },
+    {
+      "gap_id": "RG02_COLLECTION_COMPLETENESS",
+      "description": "The export does not establish completeness or current availability beyond its 63 included rows.",
+      "manual_review": true
+    },
+    {
+      "gap_id": "RG03_MARKETPLACE_IDENTITY",
+      "description": "Marketplace IDs and URLs are missing; shorthand-code alignment is unverified per row.",
+      "manual_review": true
+    },
+    {
+      "gap_id": "RG04_UNRESOLVED_UNITS",
+      "description": "Units/scales other than the explicitly resolved warp speed/AU context remain as captured and require future documentation.",
+      "manual_review": true
+    }
+  ],
+  "raw_source": {
+    "path": "archive/raw/starbased-ship-states/rydn_starbased_ships_20260718.csv",
+    "sha256": "7b90513e578998b8e763dd440984268000efed91c95feb047e81a19817a82dc9"
+  }
+}

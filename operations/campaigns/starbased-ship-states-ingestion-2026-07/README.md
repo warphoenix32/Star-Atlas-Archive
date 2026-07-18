@@ -1,28 +1,42 @@
 # Starbased Ship States Ingestion 2026-07
 
-This campaign preserves and profiles the operator-submitted `rydn_starbased_ships_20260718.csv` dataset and prepares a deterministic normalization preview. It does not yet publish a derivative under `archive/normalized/` because several source semantics require human clarification.
+This campaign preserves the operator-submitted `rydn_starbased_ships_20260718.csv` byte-for-byte and publishes a qualified normalization of the 63 base-ship rows included in that export. It does not claim the export is complete, current, or independently verified against its asserted upstream Star Atlas document.
 
-## Campaign boundary
+## Evidence and scope
 
-- The original CSV is preserved byte-for-byte at `archive/raw/starbased-ship-states/rydn_starbased_ships_20260718.csv`.
-- Custody and checksum metadata live at `archive/provenance/starbased-ship-states/rydn_starbased_ships_20260718.json`.
-- `normalized-preview.jsonl` is a typed staging derivative inside this campaign, not canonical game data.
-- Source labels and values are never silently corrected. Canonical names, game-module applicability, and derived-metric semantics remain pending where the CSV does not establish them.
-- No files under `knowledge/`, `graph/`, `publication/`, or `archive/normalized/` are changed by this phase.
+- The immutable CSV is at `archive/raw/starbased-ship-states/rydn_starbased_ships_20260718.csv`.
+- Custody and qualified lineage metadata are at `archive/provenance/starbased-ship-states/rydn_starbased_ships_20260718.json`.
+- Ryden Systems is the observed distributor and derivative source. Star Atlas is the upstream authority asserted by the repository operator. The upstream document URL/version remain `UNKNOWN`; this lineage is not independently verified.
+- The normalized collection is only “the 63 base-ship rows included in the 2026-07-18 Ryden export.” Collection completeness and current availability remain `UNKNOWN`.
+- Captured values are modeled as base-template values intended to be common across SAGE and C4 on the basis of `OPERATOR_SUPPLIED_CONTEXT`. Future rebasing is possible.
+- Holosim uses a different value system and is out of scope.
+- Future component modifiers belong to individual ship instances. No hypothetical modifier is applied to these base templates.
 
-## Current source profile
+## Normalization policy
 
-The CSV contains 63 unique ship rows and 26 columns. The first column has a blank header and contains unique ship codes. The remaining columns contain ship names, specialization labels, capacity and consumption values, movement values, mining and scanning values, crew/passenger counts, and respawn timing.
+Ship shorthand codes, ship names, and specialization labels are preserved exactly as captured. Shorthand codes usually align with marketplace ship IDs according to operator context, but exact per-row equivalence is unverified. Marketplace hyperlinks are missing and remain unrecovered; no URLs are invented.
 
-All cells are populated, all metric cells parse as numbers, and there are no duplicate complete rows, ship codes, or ship names. Thirteen observed specialization labels are retained as supplied.
+The concise normalized record includes 20 captured metric fields. Three semantically unknown duplicate/derived fields are omitted:
 
-Three column pairs contain identical values in all 63 rows:
+- `USDC /Cargo Capacity`;
+- `USDC /Mining Rate`;
+- `Cargo /Warp Fuel`.
 
-- `CargoCapacity` and `USDC /Cargo Capacity`;
-- `Mining Rate[Resource/sec]` and `USDC /Mining Rate`;
-- `Fuel /AU Warp` and `Cargo /Warp Fuel`.
+Their exact values remain in the immutable raw CSV, and each omission appears in `normalization-map.json` and the normalized metadata field-disposition ledger.
 
-The campaign does not decide whether these equalities are intentional, formula/export artifacts, or evidence of missing price inputs. That question blocks promotion into the normalized archive.
+Warp speed is interpreted literally as `100000` astronomical units per second for all 63 rows under operator-supplied context. Ship-specific warp cooldowns are retained. Other unit labels and values are preserved as captured where their native scales remain unresolved.
+
+## Outputs
+
+- `archive/normalized/starbased-ship-states/base-ships.jsonl`: 63 qualified base-template records.
+- `archive/normalized/starbased-ship-states/metadata.json`: collection scope, lineage qualifications, field-disposition ledger, and review gaps.
+- `normalized-preview.jsonl`: deterministic campaign-local copy of the qualified records.
+- `source-profile.json`: structural, lineage, scope, and data-quality profile.
+- `normalization-map.json`: complete 26-column mapping and disposition ledger.
+- `context-questions.json`: all eight curator answers, decision authority, status, and retained gaps.
+- `manifest.json`, `campaign-summary.json`, and `validation-report.json`: reproducibility and validation evidence.
+
+No files under `knowledge/`, `graph/`, or `publication/` are changed.
 
 ## Reproduction
 
@@ -33,16 +47,11 @@ python operations/campaigns/starbased-ship-states-ingestion-2026-07/build_campai
 python operations/campaigns/starbased-ship-states-ingestion-2026-07/validate_campaign.py
 ```
 
-## Outputs
+## Retained research gaps
 
-- `source-profile.json`: structural and data-quality profile of the preserved CSV.
-- `normalization-map.json`: exact source-header mapping, normalized names, data types, units, and semantic status.
-- `normalized-preview.jsonl`: one typed, evidence-linked staging record per ship.
-- `context-questions.json`: human questions that must be answered before archive normalization.
-- `manifest.json`: checksums and record counts for the campaign inputs and outputs.
-- `campaign-summary.json`: machine-readable campaign status.
-- `validation-report.json`: deterministic validation results.
+Qualified record-level normalization is allowed, but manual review remains required for:
 
-## Promotion gate
-
-Promotion to `archive/normalized/starbased-ship-states/` requires resolution of the source-authority, ship-code, game-module, metric-definition, marketplace-link, unit/scale, and name-canonicalization questions. Until then, every preview record is `SEMANTIC_REVIEW_REQUIRED`.
+1. the missing upstream Star Atlas document URL/version and unverified lineage;
+2. unknown collection completeness/current availability;
+3. unverified marketplace ID alignment and missing hyperlinks;
+4. unresolved units/scales outside the explicit warp-speed/AU decision.

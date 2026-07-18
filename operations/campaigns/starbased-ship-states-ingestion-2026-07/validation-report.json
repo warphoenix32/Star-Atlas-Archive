@@ -19,6 +19,23 @@
       }
     },
     {
+      "name": "qualified_lineage_is_nonassertive",
+      "passed": true,
+      "detail": {
+        "acquired_at": "2026-07-18",
+        "acquisition_method": "submitted directly by repository operator",
+        "original_filename": "rydn_starbased_ships_20260718.csv",
+        "preservation_policy": "byte-for-byte raw preservation",
+        "observed_distributor": "Ryden Systems",
+        "distributor_name_resolution": "RYDN means Ryden",
+        "asserted_upstream_authority": "Star Atlas",
+        "lineage_basis": "OPERATOR_SUPPLIED_CONTEXT",
+        "lineage_verification": "NOT_INDEPENDENTLY_VERIFIED",
+        "upstream_document_url": "UNKNOWN",
+        "upstream_document_version": "UNKNOWN"
+      }
+    },
+    {
       "name": "provenance_excludes_local_personal_path",
       "passed": true,
       "detail": "rydn_starbased_ships_20260718.csv"
@@ -94,45 +111,57 @@
       "detail": []
     },
     {
-      "name": "generated_source-profile.json_fixed_point",
+      "name": "generated_operations_campaigns_starbased-ship-states-ingestion-2026-07_source-profile.json_fixed_point",
       "passed": true,
-      "detail": "source-profile.json"
+      "detail": "operations/campaigns/starbased-ship-states-ingestion-2026-07/source-profile.json"
     },
     {
-      "name": "generated_normalization-map.json_fixed_point",
+      "name": "generated_operations_campaigns_starbased-ship-states-ingestion-2026-07_normalization-map.json_fixed_point",
       "passed": true,
-      "detail": "normalization-map.json"
+      "detail": "operations/campaigns/starbased-ship-states-ingestion-2026-07/normalization-map.json"
     },
     {
-      "name": "generated_normalized-preview.jsonl_fixed_point",
+      "name": "generated_operations_campaigns_starbased-ship-states-ingestion-2026-07_normalized-preview.jsonl_fixed_point",
       "passed": true,
-      "detail": "normalized-preview.jsonl"
+      "detail": "operations/campaigns/starbased-ship-states-ingestion-2026-07/normalized-preview.jsonl"
     },
     {
-      "name": "generated_context-questions.json_fixed_point",
+      "name": "generated_operations_campaigns_starbased-ship-states-ingestion-2026-07_context-questions.json_fixed_point",
       "passed": true,
-      "detail": "context-questions.json"
+      "detail": "operations/campaigns/starbased-ship-states-ingestion-2026-07/context-questions.json"
     },
     {
-      "name": "generated_campaign-summary.json_fixed_point",
+      "name": "generated_operations_campaigns_starbased-ship-states-ingestion-2026-07_campaign-summary.json_fixed_point",
       "passed": true,
-      "detail": "campaign-summary.json"
+      "detail": "operations/campaigns/starbased-ship-states-ingestion-2026-07/campaign-summary.json"
     },
     {
-      "name": "generated_manifest.json_fixed_point",
+      "name": "generated_operations_campaigns_starbased-ship-states-ingestion-2026-07_manifest.json_fixed_point",
       "passed": true,
-      "detail": "manifest.json"
+      "detail": "operations/campaigns/starbased-ship-states-ingestion-2026-07/manifest.json"
+    },
+    {
+      "name": "generated_archive_normalized_starbased-ship-states_base-ships.jsonl_fixed_point",
+      "passed": true,
+      "detail": "archive/normalized/starbased-ship-states/base-ships.jsonl"
+    },
+    {
+      "name": "generated_archive_normalized_starbased-ship-states_metadata.json_fixed_point",
+      "passed": true,
+      "detail": "archive/normalized/starbased-ship-states/metadata.json"
     },
     {
       "name": "deterministic_build",
       "passed": true,
       "detail": [
-        "campaign-summary.json",
-        "context-questions.json",
-        "manifest.json",
-        "normalization-map.json",
-        "normalized-preview.jsonl",
-        "source-profile.json"
+        "archive/normalized/starbased-ship-states/base-ships.jsonl",
+        "archive/normalized/starbased-ship-states/metadata.json",
+        "operations/campaigns/starbased-ship-states-ingestion-2026-07/campaign-summary.json",
+        "operations/campaigns/starbased-ship-states-ingestion-2026-07/context-questions.json",
+        "operations/campaigns/starbased-ship-states-ingestion-2026-07/manifest.json",
+        "operations/campaigns/starbased-ship-states-ingestion-2026-07/normalization-map.json",
+        "operations/campaigns/starbased-ship-states-ingestion-2026-07/normalized-preview.jsonl",
+        "operations/campaigns/starbased-ship-states-ingestion-2026-07/source-profile.json"
       ]
     },
     {
@@ -141,12 +170,22 @@
       "detail": 63
     },
     {
-      "name": "preview_record_ids_unique",
+      "name": "normalized_record_count",
       "passed": true,
       "detail": 63
     },
     {
-      "name": "preview_source_rows_resolve",
+      "name": "preview_exactly_reconciles_to_normalized",
+      "passed": true,
+      "detail": 63
+    },
+    {
+      "name": "normalized_record_ids_unique",
+      "passed": true,
+      "detail": 63
+    },
+    {
+      "name": "normalized_source_rows_resolve",
       "passed": true,
       "detail": {
         "first": 2,
@@ -154,9 +193,39 @@
       }
     },
     {
-      "name": "preview_remains_semantic_review_required",
+      "name": "base_template_scope_and_module_qualifications",
       "passed": true,
       "detail": 63
+    },
+    {
+      "name": "manual_review_flags_retained",
+      "passed": true,
+      "detail": 4
+    },
+    {
+      "name": "captured_identity_text_preserved",
+      "passed": true,
+      "detail": 63
+    },
+    {
+      "name": "concise_metrics_and_omissions",
+      "passed": true,
+      "detail": {
+        "included_metrics": 20,
+        "omitted_metrics": [
+          "cargo_per_warp_fuel",
+          "usdc_per_cargo_capacity",
+          "usdc_per_mining_rate"
+        ]
+      }
+    },
+    {
+      "name": "literal_warp_speed_and_variable_cooldowns",
+      "passed": true,
+      "detail": {
+        "warp_speed": 100000,
+        "distinct_cooldowns": 8
+      }
     },
     {
       "name": "mapping_is_complete_and_non_circular",
@@ -164,17 +233,39 @@
       "detail": 26
     },
     {
-      "name": "context_questions_are_open",
+      "name": "omitted_field_ledger_exact",
+      "passed": true,
+      "detail": [
+        "USDC /Cargo Capacity",
+        "USDC /Mining Rate",
+        "Cargo /Warp Fuel"
+      ]
+    },
+    {
+      "name": "curator_answers_complete",
       "passed": true,
       "detail": {
-        "questions": 8,
-        "blocking": 6
+        "answered": 8,
+        "blocking": 0
       }
     },
     {
-      "name": "normalized_archive_not_prematurely_written",
+      "name": "research_gaps_retained",
       "passed": true,
-      "detail": "archive/normalized/starbased-ship-states"
+      "detail": [
+        "RG01_UPSTREAM_DOCUMENT",
+        "RG02_COLLECTION_COMPLETENESS",
+        "RG03_MARKETPLACE_IDENTITY",
+        "RG04_UNRESOLVED_UNITS"
+      ]
+    },
+    {
+      "name": "normalized_metadata_qualifies_scope",
+      "passed": true,
+      "detail": {
+        "records": 63,
+        "research_gaps": 4
+      }
     },
     {
       "name": "manifest_checksums_resolve",
@@ -183,10 +274,13 @@
     }
   ],
   "summary": {
-    "checks_passed": 26,
-    "checks_total": 26,
+    "checks_passed": 37,
+    "checks_total": 37,
     "raw_artifacts": 1,
     "preview_records": 63,
-    "open_context_questions": 8
+    "normalized_records": 63,
+    "answered_context_questions": 8,
+    "blocking_context_questions": 0,
+    "remaining_research_gaps": 4
   }
 }

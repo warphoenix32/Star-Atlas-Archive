@@ -165,6 +165,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
     ship_campaign = any(path.startswith((
         "archive/raw/starbased-ship-states/",
         "archive/provenance/starbased-ship-states/",
+        "archive/normalized/starbased-ship-states/",
         "operations/campaigns/starbased-ship-states-ingestion-2026-07/",
         "operations/tests/starbased_ship_states/",
     )) for path in changes)
@@ -198,6 +199,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         allowed = common + (
             "archive/raw/starbased-ship-states/",
             "archive/provenance/starbased-ship-states/",
+            "archive/normalized/starbased-ship-states/",
             "operations/campaigns/starbased-ship-states-ingestion-2026-07/",
             "operations/tests/starbased_ship_states/",
         )
@@ -293,6 +295,7 @@ def validate_starbased_ship_campaign() -> None:
         str(campaign.relative_to(ROOT)),
         "archive/raw/starbased-ship-states",
         "archive/provenance/starbased-ship-states",
+        "archive/normalized/starbased-ship-states",
         "operations/tests/starbased_ship_states",
     )
     if diff.returncode:

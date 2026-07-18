@@ -109,10 +109,33 @@
     "Salvage": 1,
     "Transport": 5
   },
+  "scope_assessment": {
+    "normalized_scope": "63 base-ship rows included in the 2026-07-18 Ryden export",
+    "collection_completeness": "UNKNOWN",
+    "current_availability": "UNKNOWN",
+    "base_template_scope": true,
+    "instance_component_modifiers_applied": false,
+    "holosim_in_scope": false
+  },
+  "lineage_assessment": {
+    "observed_distributor": "Ryden Systems",
+    "asserted_upstream_authority": "Star Atlas",
+    "upstream_document_url": "UNKNOWN",
+    "upstream_document_version": "UNKNOWN",
+    "independently_verified": false,
+    "basis": "OPERATOR_SUPPLIED_CONTEXT"
+  },
+  "field_disposition_summary": {
+    "source_columns": 26,
+    "identity_fields": 3,
+    "included_metrics": 20,
+    "omitted_metrics": 3
+  },
   "exact_equality_checks": {
     "CargoCapacity_equals_USDC_per_Cargo_Capacity": 63,
     "Mining_Rate_equals_USDC_per_Mining_Rate": 63,
     "Warp_Fuel_per_AU_equals_Cargo_per_Warp_Fuel": 63,
-    "Warp_Speed_100000": 63
+    "Warp_Speed_literal_100000_AU_per_second": 63,
+    "distinct_warp_cooldowns": 8
   }
 }

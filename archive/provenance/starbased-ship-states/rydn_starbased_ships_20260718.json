@@ -7,7 +7,13 @@
     "acquisition_method": "submitted directly by repository operator",
     "original_filename": "rydn_starbased_ships_20260718.csv",
     "preservation_policy": "byte-for-byte raw preservation",
-    "submitted_source_attribution": "RYDN / Ryden; exact authorship and export origin require operator confirmation"
+    "observed_distributor": "Ryden Systems",
+    "distributor_name_resolution": "RYDN means Ryden",
+    "asserted_upstream_authority": "Star Atlas",
+    "lineage_basis": "OPERATOR_SUPPLIED_CONTEXT",
+    "lineage_verification": "NOT_INDEPENDENTLY_VERIFIED",
+    "upstream_document_url": "UNKNOWN",
+    "upstream_document_version": "UNKNOWN"
   },
   "raw_artifact": {
     "byte_length": 10296,
@@ -16,6 +22,7 @@
     "path": "archive/raw/starbased-ship-states/rydn_starbased_ships_20260718.csv",
     "sha256": "7b90513e578998b8e763dd440984268000efed91c95feb047e81a19817a82dc9"
   },
-  "scope_as_submitted": "Every currently available Star Atlas ship and associated game states for SAGE and the future C4 module.",
-  "status": "RAW_PRESERVED_SEMANTIC_CONTEXT_PENDING"
+  "scope_as_submitted": "Star Atlas ship states for SAGE and the future C4 module.",
+  "curated_scope": "The 63 base-ship rows included in the 2026-07-18 Ryden export; collection completeness and current availability are UNKNOWN.",
+  "status": "RAW_PRESERVED_LINEAGE_QUALIFIED"
 }
