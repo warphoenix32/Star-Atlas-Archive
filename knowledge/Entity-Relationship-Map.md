@@ -1,7 +1,7 @@
 ---
 title: "Star Atlas Entity Relationship Map"
 knowledge_status: QUALIFIED
-as_of: 2026-07-15
+as_of: 2026-07-17
 confidence: HIGH
 page_risk_score: 4
 page_risk_class: R2
@@ -10,7 +10,7 @@ aliases:
   - "Star Atlas institutional map"
   - "Star Atlas knowledge ontology"
 first_seen: 2026-07-15
-last_reviewed: 2026-07-15
+last_reviewed: 2026-07-17
 source_priority:
   - A1
   - A2
@@ -25,6 +25,9 @@ related_entities:
   - SCORE / Faction Fleet
   - UE5 Showroom
   - Galactic Marketplace
+  - Holosim
+  - DAO Treasury
+  - PVP
 depends_on:
   - knowledge/governance/PIP-Registry.md
   - knowledge/organizations/Institutional-Overview.md
@@ -41,7 +44,7 @@ known_limitations:
   - "Relationships are summarized from reviewed knowledge pages and remain subject to each linked page's evidence qualifications."
 research_gaps:
   - "Current staff, service-provider, and product relationships require periodic review."
-  - "The official Discord source profile remains to be generated from the now-merged announcement corpus."
+  - "Official social collections remain incomplete outside their captured date ranges and linked media binaries."
 review_after: 2027-01-15
 ---
 
@@ -92,12 +95,14 @@ The [PIP Lifecycle and Legislative Process](governance/PIP-Lifecycle-and-Legisla
 | [SAGE](gameplay/SAGE.md) | strategy and economic gameplay family; related to fleet, resource, marketplace, and progression systems |
 | [UE5 Showroom](gameplay/UE5-Showroom.md) | Unreal Engine client surface for ship and environment experiences |
 | [Galactic Marketplace](gameplay/Galactic-Marketplace.md) | asset and economic exchange surface connected to ships, resources, and the broader token economy |
+| [Holosim](gameplay/Holosim.md) | browser fleet simulation with dated test, Chapter 1, and Chapter 2 lifecycle evidence |
 
 The [Product Registry](gameplay/Product-Registry.md) is the canonical navigation layer for product identities, aliases, and lifecycle states. Product relationships do not imply that all announced integrations or roadmap features were delivered.
 
 ## Economy and infrastructure relationships
 
 - The [Governance and Economy Overview](governance/Governance-and-Economy-Overview.md) connects POLIS voting, treasury policy, and ecosystem funding while preserving evidence boundaries.
+- [PVP Voting Power](economy/PVP-Voting-Power.md) defines vote weight; [DAO Treasury Architecture](economy/DAO-Treasury-Architecture.md) distinguishes the general treasury from the bounded Ecosystem Fund.
 - The [Economy index](economy/README.md) contains economic reports and token-focused knowledge.
 - The [Technology index](technology/README.md) contains platform and infrastructure surfaces supporting products and services.
 - Council-reported payments and milestones remain attributed operational records unless independently reconciled to transactions or deliverables.
@@ -110,8 +115,9 @@ The [Product Registry](gameplay/Product-Registry.md) is the canonical navigation
 | Council PIP tracker | attributed operational status, milestone, payment, and accomplishment assessments |
 | Official social posts | announcement, release, event, and lifecycle evidence after semantic review |
 | Reviewed transcripts | contextual explanation and attributed statements when speaker identity is known |
-| Official Discord announcements | merged archive and semantic corpus; dedicated knowledge profile remains future work |
-| Official Medium publication | qualified source profile only until an exhaustive article-level corpus review is completed |
+| [Official Discord announcements](media/Official-Discord-Announcements-Profile.md) | qualified profile of the merged archive and semantic corpus; author inference and missing attachments remain visible limitations |
+| [Official X account](media/Official-X-Account-Profile.md) | official statements within the captured period; retweets retain secondary-source attribution |
+| [Official Medium publication](media/Star-Atlas-Medium-Publication-Profile.md) | qualified source profile only until an exhaustive article-level corpus review is completed |
 
 ## Navigation by question
 

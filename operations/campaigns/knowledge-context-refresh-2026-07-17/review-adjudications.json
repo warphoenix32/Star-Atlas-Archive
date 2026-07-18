@@ -1,0 +1,22 @@
+{
+  "campaign_id": "knowledge-context-refresh-2026-07-17",
+  "adjudications": [
+    {
+      "adjudication_id": "ADJ-COMPLETED-BINARY-VOTE-RULE-001",
+      "status": "OWNER_APPROVED_REPOSITORY_INTERPRETATION",
+      "rule_name": "COMPLETED_BINARY_VOTE_RULE",
+      "rule_text": "For completed captured binary votes, compare YES and NO PVP and preserve abstentions as non-decisive.",
+      "scope": "Repository interpretation of completed captured binary proposal results.",
+      "source_native_status": "NOT_ASSERTED_AS_PIP_1_TEXT",
+      "source_native_gap": "Captured PIP-1 text contains historical quorum language but no numeric quorum threshold.",
+      "exclusions": [
+        "Elections",
+        "ranked-choice contests",
+        "incomplete votes",
+        "implementation or execution determinations"
+      ],
+      "adjudication_source": "Repository owner approval review for draft PR #17",
+      "recorded_at": "2026-07-17"
+    }
+  ]
+}

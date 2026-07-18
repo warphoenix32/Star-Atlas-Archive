@@ -1,0 +1,122 @@
+{
+  "page_id": "governance-economy",
+  "proposed_path": "knowledge/governance/Governance-and-Economy-Overview.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "scope": "Evidence-qualified refresh from material merged on main as of 2026-07-17.",
+  "material_claims": [
+    {
+      "claim_id": "GOVERNANCE-ECONOMY-1",
+      "claim_text": "PVP, the general DAO Treasury, and the bounded Ecosystem Fund are distinct institutional concepts.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GOVERNANCE-ECONOMY-2",
+      "claim_text": "POLIS-holder voting authority, Foundation administration, Council process stewardship, and treasury execution are separate institutional functions.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GOVERNANCE-ECONOMY-3",
+      "claim_text": "Proposal, vote, passage, implementation authorization, transfer, and execution are distinct evidence states throughout the synthesis.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state claims are date-bound.",
+    "Source authority does not imply independent factual verification."
+  ],
+  "research_gaps": [
+    "Resolve the page-specific limitations recorded in knowledge front matter."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

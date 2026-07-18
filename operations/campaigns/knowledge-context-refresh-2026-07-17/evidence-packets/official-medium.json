@@ -1,0 +1,104 @@
+{
+  "page_id": "official-medium",
+  "proposed_path": "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "scope": "Evidence-qualified refresh from material merged on main as of 2026-07-17.",
+  "material_claims": [
+    {
+      "claim_id": "OFFICIAL-MEDIUM-1",
+      "claim_text": "The official Medium publication is a discoverable source family, but complete article-by-article review is absent.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/semantic/discord-announcements/announcement-semantic-records.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/semantic/discord-announcements/announcement-semantic-records.jsonl",
+          "authority": [
+            "A2",
+            "C1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "C1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-MEDIUM-2",
+      "claim_text": "The Medium publication is documented as a discoverable official source family, not as a completed article corpus.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/semantic/discord-announcements/announcement-semantic-records.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/semantic/discord-announcements/announcement-semantic-records.jsonl",
+          "authority": [
+            "A2",
+            "C1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "C1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-MEDIUM-3",
+      "claim_text": "Discovery references alone cannot support article-level authorship, chronology, or substantive claims without retrieval of the cited publication.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/semantic/discord-announcements/announcement-semantic-records.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/semantic/discord-announcements/announcement-semantic-records.jsonl",
+          "authority": [
+            "A2",
+            "C1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "C1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state claims are date-bound.",
+    "Source authority does not imply independent factual verification."
+  ],
+  "research_gaps": [
+    "Resolve the page-specific limitations recorded in knowledge front matter."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

@@ -1,0 +1,164 @@
+{
+  "campaign_id": "knowledge-context-refresh-2026-07-17",
+  "accepted": [
+    {
+      "path": "knowledge/media/Official-Discord-Announcements-Profile.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/official-discord.json"
+    },
+    {
+      "path": "knowledge/media/Official-X-Account-Profile.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/official-x.json"
+    },
+    {
+      "path": "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/official-medium.json"
+    },
+    {
+      "path": "knowledge/economy/PVP-Voting-Power.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/pvp.json"
+    },
+    {
+      "path": "knowledge/economy/DAO-Treasury-Architecture.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/dao-treasury.json"
+    },
+    {
+      "path": "knowledge/gameplay/Holosim.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/holosim.json"
+    },
+    {
+      "path": "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md",
+      "action": "CREATE",
+      "packet": "evidence-packets/pip-33.json"
+    },
+    {
+      "path": "knowledge/gameplay/SAGE.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/sage.json"
+    },
+    {
+      "path": "knowledge/gameplay/Product-Registry.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/product-registry.json"
+    },
+    {
+      "path": "knowledge/timeline/Product-Timeline.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/product-timeline.json"
+    },
+    {
+      "path": "knowledge/timeline/Master-Timeline.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/master-timeline.json"
+    },
+    {
+      "path": "knowledge/governance/PIP-Registry.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/pip-registry.json"
+    },
+    {
+      "path": "knowledge/governance/Ecosystem-Fund.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/ecosystem-fund.json"
+    },
+    {
+      "path": "knowledge/governance/Governance-and-Economy-Overview.md",
+      "action": "EXPAND",
+      "packet": "evidence-packets/governance-economy.json"
+    },
+    {
+      "path": "knowledge/Entity-Relationship-Map.md",
+      "action": "INDEX_LINK_MAINTENANCE",
+      "packet": null
+    },
+    {
+      "path": "knowledge/economy/README.md",
+      "action": "INDEX_LINK_MAINTENANCE",
+      "packet": null
+    },
+    {
+      "path": "knowledge/gameplay/README.md",
+      "action": "INDEX_LINK_MAINTENANCE",
+      "packet": null
+    },
+    {
+      "path": "knowledge/governance/README.md",
+      "action": "INDEX_LINK_MAINTENANCE",
+      "packet": null
+    },
+    {
+      "path": "knowledge/index/source-registry/Public-Source-Registry.md",
+      "action": "INDEX_LINK_MAINTENANCE",
+      "packet": null
+    },
+    {
+      "path": "knowledge/media/Media-and-Creator-Index.md",
+      "action": "INDEX_LINK_MAINTENANCE",
+      "packet": null
+    },
+    {
+      "path": "knowledge/media/README.md",
+      "action": "INDEX_LINK_MAINTENANCE",
+      "packet": null
+    },
+    {
+      "path": "operations/docs/KNOWLEDGE-ARCHITECTURE.md",
+      "action": "ARCHIVAL_STANDARD_UPDATE",
+      "packet": null
+    },
+    {
+      "path": "operations/templates/knowledge-entry-template.md",
+      "action": "ARCHIVAL_STANDARD_UPDATE",
+      "packet": null
+    }
+  ],
+  "deferred": [
+    {
+      "candidate": "knowledge/gameplay/StarPath.md",
+      "reason": "Sunset execution requires independent confirmation."
+    },
+    {
+      "candidate": "knowledge/technology/Technical-Platform.md",
+      "reason": "Starcomm-to-direct-RPC migration deferred to a focused technical review."
+    },
+    {
+      "candidate": "knowledge/gameplay/ATOM.md",
+      "reason": "Current evidence establishes an award, not stable product identity or lifecycle."
+    },
+    {
+      "candidate": "knowledge/governance/Recipient-Payment-Ledger.md",
+      "reason": "Council amounts are not yet reconciled to primary transactions."
+    },
+    {
+      "candidate": "SAGE 3D exact release date",
+      "reason": "Only month-level reviewed community evidence is available."
+    }
+  ],
+  "duplicate": [
+    {
+      "candidate": "knowledge/gameplay/SCREAM.md",
+      "canonical_path": "knowledge/gameplay/SAGE.md",
+      "reason": "SCREAM is retained as SAGE development history, not a duplicate canonical product page."
+    },
+    {
+      "candidate": "knowledge/governance/DAO-Treasury.md",
+      "canonical_path": "knowledge/economy/DAO-Treasury-Architecture.md",
+      "reason": "Treasury identity and evidence boundaries belong in the economy domain."
+    }
+  ],
+  "rejected": [
+    {
+      "candidate": "Classify PIP-33 as Ecosystem Fund",
+      "reason": "Official proposal and Council tracker identify a direct DAO Treasury measure."
+    },
+    {
+      "candidate": "Promote completion state for failed PIPs 13, 15, 19, and 26",
+      "reason": "Failure supplies no PIP authorization; tracker-derived N/A normalization is not an implementation milestone."
+    }
+  ]
+}

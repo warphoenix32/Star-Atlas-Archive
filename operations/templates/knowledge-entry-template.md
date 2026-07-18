@@ -16,9 +16,15 @@ tags: []
 
 # Entry title
 
+> **Editorial standard:** Write this as a durable archival research record. Cover every applicable section with enough evidence and context for a future reader to understand the subject without reconstructing the source corpus. Do not pad for length, omit material uncertainty for brevity, or convert semantic confidence into factual certainty.
+
 ## Executive summary
 
 A concise description of what the entry is and why it matters.
+
+## Scope and terminology
+
+Define the subject, aliases, boundaries, and terms that could otherwise be conflated.
 
 ## Key facts
 
@@ -40,6 +46,10 @@ Record what relevant participants understood or believed at the time. Bound sent
 ## Later interpretation
 
 Explain how subsequent events changed or clarified the original understanding.
+
+## Current state
+
+State the best-supported present status with an explicit `as_of` date. Keep announcement, testing, release, implementation, and completion separate.
 
 ## Relationships
 
@@ -63,6 +73,10 @@ Explain the basis and limits of the current conclusion.
 
 - Unresolved issue.
 - Missing document or evidence.
+
+## Known limitations
+
+Explain what the source corpus cannot establish and how that limits use of the page.
 
 ## Revision notes
 

@@ -1,0 +1,125 @@
+{
+  "page_id": "pvp",
+  "proposed_path": "knowledge/economy/PVP-Voting-Power.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 4,
+  "page_risk_class": "R2",
+  "scope": "Evidence-qualified refresh from material merged on main as of 2026-07-17.",
+  "material_claims": [
+    {
+      "claim_id": "PVP-1",
+      "claim_text": "PVP is time-weighted POLIS voting power; the 2022 reward target remains historical announced intent.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PVP-2",
+      "claim_text": "PVP derives from locked POLIS amount and lock duration, with voting power declining as the remaining lock period decays.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PVP-3",
+      "claim_text": "A ballot count is not equivalent to PVP-weighted voting power, and the preserved evidence does not establish a repository-approved formula for reconstructing historical PVP. The completed-binary rule is separately identified as an owner-approved editorial adjudication, not PIP-1 text.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state claims are date-bound.",
+    "Source authority does not imply independent factual verification."
+  ],
+  "research_gaps": [
+    "Resolve the page-specific limitations recorded in knowledge front matter."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

@@ -2,8 +2,23 @@
 title: Star Atlas Product Timeline
 entry_type: chronology
 status: active
-updated: 2026-07-14
+updated: 2026-07-17
 publication_status: public
+knowledge_status: QUALIFIED
+as_of: 2026-07-17
+confidence: HIGH
+page_risk_score: 6
+page_risk_class: R2
+evidence_basis:
+  - "archive/source-records/campaign-delta-official/"
+  - "archive/normalized/discord-announcements/messages/"
+  - "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"
+known_limitations:
+  - "The chronology is selective and does not represent every build or announcement."
+  - "Community-only dates remain explicitly qualified."
+research_gaps:
+  - "Resolve the exact SAGE 3D launch date and post-Showroom UE5 build chronology."
+review_after: 2027-01-17
 ---
 
 # Product Timeline
@@ -29,6 +44,10 @@ This chronology separates product announcements, roadmap statements, releases, r
 **Description:** ATMTA published instructions for pledging ships to factional fleet service. **Significance:** The publication documents the operational phase following the release announcement. **Affected entities:** Faction Fleet, SCORE, ships, ATLAS. **Sources:** [SRC-OFF-CFB3A87BF1E48DDE](../../archive/source-records/campaign-delta-official/SRC-OFF-CFB3A87BF1E48DDE.md). **Confidence:** HIGH. **Notes:** Implementation guidance, not a second release. **Superseded:** Yes.
 
 ## 2022
+
+### 2022-04-29 — S.C.R.E.A.M. prototype publicly previewed
+
+**Description:** An official Discord announcement invited the public to a preview of what S.C.R.E.A.M. would look like and explicitly identified the project as being in the "PROTOTYPING" stage. **Significance:** This is the earliest dated first-party S.C.R.E.A.M./SAGE-family development-state record currently promoted into the knowledge layer. **Affected entities:** Project S.C.R.E.A.M., SAGE. **Sources:** [SA-DISCORD-ANN-F863D82FBAF30DF9](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-F863D82FBAF30DF9.json). **Confidence:** HIGH. **Notes:** Public preview and prototyping evidence; no playable release is asserted. **Superseded:** Yes; S.C.R.E.A.M. was presented as SAGE in November 2022.
 
 ### 2022-07-22 — Replacement Galactic Marketplace announced
 
@@ -76,15 +95,15 @@ This chronology separates product announcements, roadmap statements, releases, r
 
 **Description:** ATMTA announced Claim Stake sales in ATLAS pairs, increased Escape Velocity resource generation, and the planned end of unlimited DAO R4 sales. **Significance:** This marks a deliberate shift from administrator-supplied resources toward player-generated inputs. **Affected entities:** Claim Stakes, R4, Escape Velocity, Faction Fleet, Galactic Marketplace. **Sources:** [SRC-OFF-D023F6DAFA12F9AA](../../archive/source-records/campaign-delta-official/SRC-OFF-D023F6DAFA12F9AA.md). **Confidence:** HIGH. **Notes:** Announcement and confirmed sale listing are distinguished from completion of the wider economic transition. **Superseded:** No.
 
-### Estimated 2023-09 — SAGE Labs launched
+### 2023-09-21 — SAGE Labs launched
 
-**Description:** Later Aephia reporting places the launch of SAGE Labs in late September 2023; HNN reported two weeks after launch that the alpha had generated unusually high Solana transaction activity. **Significance:** SAGE Labs introduced sustained on-chain mining, crafting, transport, and market gameplay. **Affected entities:** SAGE Labs, SAGE, Solana, ATLAS. **Sources:** [SRC-AEPHIA-3D6BA2ECA269970E](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D6BA2ECA269970E.md), [SRC-HNN-B7CADCEE3659B6AB](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-B7CADCEE3659B6AB.md). **Confidence:** MEDIUM. **Notes:** Exact release day is not established by the archived official corpus. **Superseded:** Partly; Starbased revised the economic loop.
+**Description:** Official Discord announced September 21 as the launch date on September 15 and stated on September 21 that SAGE Labs was live. Later Aephia and HNN records add community context. **Significance:** SAGE Labs introduced sustained on-chain mining, crafting, transport, and market gameplay. **Affected entities:** SAGE Labs, SAGE, Solana, ATLAS. **Sources:** [SA-DISCORD-ANN-6DF1790F1F2402FA](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6DF1790F1F2402FA.json), [SA-DISCORD-ANN-A37A8B7B245E7776](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json), [SRC-AEPHIA-3D6BA2ECA269970E](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D6BA2ECA269970E.md), [SRC-HNN-B7CADCEE3659B6AB](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-B7CADCEE3659B6AB.md). **Confidence:** HIGH. **Notes:** Announcement and release evidence remain separate. **Superseded:** Partly; Starbased revised the economic loop.
 
 ## 2024
 
-### 2024-04-02 — Starbased economic phase scheduled and community-observed
+### 2024-04-04 — Starbased economic phase launched after delay
 
-**Description:** Aephia reported Starbased for April 2 as a replacement economic engine and documented the expected end of Faction Fleet emissions and removal of mining ships from Faction Claims. **Significance:** Starbased shifted rewards toward active SAGE play and materially revised the prior passive-reward economy. **Affected entities:** Starbased, SAGE Labs, Faction Fleet, Faction Claims, ATLAS. **Sources:** [SRC-AEPHIA-3D6BA2ECA269970E](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-3D6BA2ECA269970E.md), [SRC-AEPHIA-BF39BD68F68A5FB2](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-BF39BD68F68A5FB2.md). **Confidence:** MEDIUM. **Notes:** Community-source release evidence; no matching dated official release page survives in Campaign Delta. **Superseded:** No.
+**Description:** Official Discord planned the Starbased transition for April 2, reported a delay on that date, and stated on April 4 that the update was live. Aephia documented the associated shift away from passive Faction Fleet and Faction Claims rewards. **Significance:** Starbased shifted rewards toward active SAGE play and materially revised the prior passive-reward economy. **Affected entities:** Starbased, SAGE Labs, Faction Fleet, Faction Claims, ATLAS. **Sources:** [SA-DISCORD-ANN-9FFFF91025488D09](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json), [SA-DISCORD-ANN-76D9861DCB3FE798](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-76D9861DCB3FE798.json), [SA-DISCORD-ANN-CCF4600A4C08F697](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json), [SRC-AEPHIA-BF39BD68F68A5FB2](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-BF39BD68F68A5FB2.md). **Confidence:** HIGH. **Notes:** April 2 is the planned date; April 4 is the supported live date. The release post states that the first epoch had zero ATLAS and LP deposits disabled, so public availability did not mean every announced economic function was active. **Superseded:** No.
 
 ### Estimated 2024-12 — SAGE 3D launched
 
@@ -92,13 +111,17 @@ This chronology separates product announcements, roadmap statements, releases, r
 
 ## 2025
 
+### 2025-06-04 — Holosim public test phase live
+
+**Description:** The official X account stated that Holosim's test phase was live and described it as an environment for testing features before mainnet. **Significance:** This is the earliest dated first-party release-state record in the merged corpus. **Affected entities:** Holosim, fleets, mainnet. **Sources:** `SRC-X-STARATLAS-1930380671010385958`, `SRC-X-STARATLAS-1930380673174647013` in the [official X normalized corpus](../../archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl). **Confidence:** HIGH. **Notes:** Test access is not mainnet deployment. **Superseded:** No.
+
 ### 2025-06-05 — C4 publicly discussed as a product evolution
 
 **Description:** Intergalactic Herald published a curated recap of a Star Atlas Economic Forum focused on C4, followed by Atlas Brew recaps describing C4 as the next evolution of Star Atlas. **Significance:** These records establish public discussion of C4 before the official PTR documentation appeared. **Affected entities:** C4, SAGE, Star Atlas Economic Forum, Atlas Brew. **Sources:** [SRC-IH-0E70509CB73938D1](../../archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-0E70509CB73938D1.md), [SRC-IH-0BC8CB9C78AD008A](../../archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-0BC8CB9C78AD008A.md). **Confidence:** MEDIUM. **Notes:** Curated summaries of linked community events; discussion is not release evidence. **Superseded:** No.
 
-### 2025-07-23 — Holosim documented as playable by Aephia
+### 2025-08-20 — Holosim Season 1, Chapter 1 live
 
-**Description:** Aephia published a player guide describing Holosim as a free-to-play browser strategy MMO with fleet, starbase, mining, transport, crafting, and combat systems. **Significance:** This is the earliest dated archived guide demonstrating community access to Holosim. **Affected entities:** Holosim, SAGE Starbased, fleets, starbases. **Sources:** [SRC-AEPHIA-A26222BF7C6B58DA](../../archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-A26222BF7C6B58DA.md). **Confidence:** MEDIUM. **Notes:** Guide-publication date; exact first release date remains unresolved. **Superseded:** No.
+**Description:** The official X account stated that Season 1, Chapter 1 was live. **Significance:** Establishes a dated Holosim product update after the June test record. **Affected entities:** Holosim. **Sources:** `SRC-X-STARATLAS-1958322079927079252` in the [official X normalized corpus](../../archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl). **Confidence:** HIGH. **Notes:** Official release statement; reward outcomes are not independently measured. **Superseded:** No.
 
 ### 2025-12-02 — Official Fleet Rentals documentation published
 
@@ -114,6 +137,10 @@ This chronology separates product announcements, roadmap statements, releases, r
 
 ## 2026
 
+### 2026-02-18 to 2026-03-10 — Holosim Chapter 2 delayed, rescheduled, and released
+
+**Description:** The official account delayed a planned February 19 release, Discord later rescheduled it for March 10, and official X and Discord records stated on March 10 that Chapter 2 was live. The release record describes faction storylines, territory control, mining achievements, NPC marketplace orders, notifications, revised combat interfaces, and migration from Starcomm v2 to direct RPC data. **Significance:** Preserves planned date, delay, reschedule, and release as separate lifecycle events while providing a build-specific feature snapshot. **Affected entities:** Holosim Chapter 2, Dominion Points, Galactic Marketplace, Starcomm v2. **Sources:** `SRC-X-STARATLAS-2024197285215948920`, `SRC-X-STARATLAS-2031445052623606253` in the [official X corpus](../../archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl), [SA-DISCORD-ANN-6DC571942A250D14](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6DC571942A250D14.json), [SA-DISCORD-ANN-D8337FA27E0A550A](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json). **Confidence:** HIGH. **Notes:** The February date was not a release. Feature and reliability claims are first-party descriptions of the March 10 build, not independent performance verification. **Superseded:** No.
+
 ### 2026-06-02 — C4 PTR access officially documented
 
 **Description:** Star Atlas Support published instructions for entering the C4 public test environment, creating a profile, importing test assets, navigating the map, creating fleets, and reporting bugs. **Significance:** This is the first archived official evidence of user-accessible C4 testing. **Affected entities:** C4 PTR, SAGE, Galia Expanse, Claim Stakes, fleets. **Sources:** [SRC-OFF-E061D3A6454697AB](../../archive/source-records/campaign-delta-official/SRC-OFF-E061D3A6454697AB.md), [SRC-OFF-DE76DDC4E8B8A28E](../../archive/source-records/campaign-delta-official/SRC-OFF-DE76DDC4E8B8A28E.md). **Confidence:** HIGH. **Notes:** PTR implementation, not mainnet or production release. **Superseded:** No.
@@ -128,7 +155,7 @@ This chronology separates product announcements, roadmap statements, releases, r
 
 ## Open chronology questions
 
-- Exact public launch days for SAGE Labs, SAGE 3D, Holosim, and Starbased beyond the archived community evidence.
+- Exact public launch day for SAGE 3D.
 - Version-by-version UE5 chronology after Showroom R2.1.
 - Whether Fleet Command, Holosim, and C4 share code or naming lineage beyond public positioning.
 - Exact retirement date and final state of Faction Fleet rewards.

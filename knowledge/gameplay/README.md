@@ -1,7 +1,7 @@
 ---
 title: "Gameplay and Product Knowledge"
 knowledge_status: CANONICAL
-as_of: 2026-07-15
+as_of: 2026-07-17
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
@@ -27,7 +27,8 @@ This domain documents product identity, build-specific lifecycle history, and ev
 - [SAGE](SAGE.md)
 - [UE5 Showroom](UE5-Showroom.md)
 - [Galactic Marketplace](Galactic-Marketplace.md)
-- Fleet Command, Holosim, and C4 remain qualified registry entries pending dedicated-page evidence packets.
+- [Holosim](Holosim.md)
+- Fleet Command and C4 remain qualified registry entries pending dedicated-page evidence packets.
 
 ## Lifecycle rule
 

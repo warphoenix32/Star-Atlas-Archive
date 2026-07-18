@@ -1,0 +1,128 @@
+{
+  "page_id": "pip-registry",
+  "proposed_path": "knowledge/governance/PIP-Registry.md",
+  "page_action": "EXPAND",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 6,
+  "page_risk_class": "R2",
+  "scope": "Evidence-qualified refresh from material merged on main as of 2026-07-17.",
+  "material_claims": [
+    {
+      "claim_id": "PIP-REGISTRY-1",
+      "claim_text": "Failed PIPs do not acquire implementation milestones, and PIP-33 is not an Ecosystem Fund proposal.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "authority": [
+            "A1",
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+          "authority": [
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PIP-REGISTRY-2",
+      "claim_text": "Failed PIPs 13, 15, 19, and 26 cannot acquire implementation status merely because a derived tracker record contains milestone language.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "authority": [
+            "A1",
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+          "authority": [
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PIP-REGISTRY-3",
+      "claim_text": "PIP-33 is recorded as a direct DAO Treasury reimbursement measure and not as an Ecosystem Fund proposal.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/semantic/governance/pip-registry-semantic.json",
+          "authority": [
+            "A1",
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+          "authority": [
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state claims are date-bound.",
+    "Source authority does not imply independent factual verification."
+  ],
+  "research_gaps": [
+    "Resolve the page-specific limitations recorded in knowledge front matter."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

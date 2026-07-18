@@ -2,13 +2,19 @@
 title: Star Atlas Public Source Registry
 entry_type: source-registry
 status: active
-updated: 2026-07-12
+updated: 2026-07-17
 publication_status: public
 ---
 
 # Star Atlas Public Source Registry
 
 This registry records public source families and individual high-value sources discovered during open-source sweeps. Each major source should eventually receive an individual record with capture date, author, completeness, archival status and the claims it supports.
+
+## Registry method
+
+Registry inclusion means that a source has research or discovery value; it does not mean the source has been exhaustively captured, independently verified, or approved as sole support for a canonical claim. Reliability notes define what a source can establish and where corroboration or later-state evidence is required.
+
+For every preserved item, researchers should distinguish publication date from capture date, current content from historically captured wording, original authorship from resharing, and announcement from release or execution. Source-family profiles summarize collection coverage. Claim citations should resolve to the individual source record whenever one exists rather than citing this registry alone.
 
 ## Official project sources
 
@@ -22,6 +28,9 @@ This registry records public source families and individual high-value sources d
 | SRC-OFF-PRESS-KIT | https://experience.staratlas.com/newsroom/press-kit | Founding date, white papers, economics paper, visual assets | Strong official index; linked documents require separate ingestion |
 | SRC-OFF-SUPPORT-TOKENS | https://support.staratlas.com/hc/en-us/articles/47061439814547-What-are-the-Star-Atlas-tokens | Current ATLAS and POLIS descriptions | Official support language; updated Dec. 8, 2025 |
 | SRC-OFF-EPIC-FAQ | https://store.epicgames.com/p/star-atlas-faq-fb116c | UE5 product description, iterative release strategy and historical feature snapshot | Official storefront content but may contain stale roadmap language |
+| SRC-OFF-DISCORD | Official Star Atlas Discord announcements | Dated operational announcements, launches, delays, governance notices, and corrections | [Qualified corpus profile](../../media/Official-Discord-Announcements-Profile.md); exported authors are inferred and attachments are incomplete |
+| SRC-OFF-X | https://x.com/staratlas | Dated official social statements and source discovery | [Qualified corpus profile](../../media/Official-X-Account-Profile.md); originals and retweets have different authority |
+| SRC-OFF-MEDIUM | https://medium.com/star-atlas | Official long-form publication surface | [Qualified source-family profile](../../media/Star-Atlas-Medium-Publication-Profile.md); complete article-level review not yet performed |
 
 ## Governance and economy
 
@@ -62,19 +71,27 @@ Additional approved source families requiring individual assessment:
 - Atlas Brew recordings
 - Guild websites, Discord announcements and public governance statements
 - Podcast directories and preserved RSS feeds
-- Reddit, X, Medium, YouTube, Facebook and Instagram archives
+- Reddit, YouTube, Facebook and Instagram archives
 - Solana explorers and independent analytics dashboards
 
 Community sources are especially valuable for chronology, reaction and institutional memory, but claims should be attributed and cross-checked where practical.
 
+## Completeness vocabulary
+
+- **Validated corpus** means the supplied artifacts and derived records reconcile under the campaign validator; it does not by itself mean the public source was exhaustively captured.
+- **Complete supplied export** means every item present in the received export was preserved, while upstream omissions may remain.
+- **Partial-period corpus** means the collection has known date boundaries and makes no claim about earlier or later publication history.
+- **Discovery-only source family** means links or references identify the source, but article-level content and metadata have not been comprehensively preserved.
+- **Profile pending** means the source is known but its ownership, coverage, provenance, and authority boundaries have not yet received a dedicated review.
+
 ## Completed index artifacts
 
-- `Official-Newsroom-Index.md`
-- `../05-economy-and-assets/Economic-Report-Catalog.md`
-- `../11-technology-and-infrastructure/Official-Technical-Surface-Inventory.md`
-- `../04-game-and-product-history/Official-Current-State-Snapshot-2026-07-12.md`
-- `../12-media-and-creators/Aephia-Source-Profile.md`
-- `../12-media-and-creators/Aephia-Weekly-Newsletter-Index.md`
+- [Official Newsroom Index](Official-Newsroom-Index.md)
+- [Economic Report Catalog](../../economy/Economic-Report-Catalog.md)
+- [Official Technical Surface Inventory](../../technology/Official-Technical-Surface-Inventory.md)
+- [Official Current-State Snapshot, 2026-07-12](../../gameplay/Official-Current-State-Snapshot-2026-07-12.md)
+- [Aephia Source Profile](../../media/Aephia-Source-Profile.md)
+- [Aephia Weekly Star Atlas Newsletter Index](../../media/Aephia-Weekly-Newsletter-Index.md)
 
 ## Archival priorities
 
@@ -87,4 +104,5 @@ Community sources are especially valuable for chronology, reaction and instituti
 - Enumerate the complete Aephia weekly newsletter archive and preserve issue metadata.
 - Reconcile Aephia forecasts against later releases and official records.
 - Recover HNN article URLs, podcast feeds and video metadata.
-- Create source records for major Discord exports without publishing sensitive raw content.
+- Reconcile remaining Discord and X candidates against longer-form official and execution evidence.
+- Complete article-by-article preservation and review of the official Medium publication.

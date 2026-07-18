@@ -2,7 +2,7 @@
 title: Star Atlas Media and Creator Index
 entry_type: media-registry
 status: active
-updated: 2026-07-12
+updated: 2026-07-17
 publication_status: public
 ---
 
@@ -21,6 +21,16 @@ This index tracks independent publications, recurring shows, analysts and creato
 | MEDIA-GALIA-CRAFTERS | Galia Crafters | Gameplay and economic explainers | Profile pending |
 | MEDIA-METAVERSE-EXPLORER | MetaVerse Explorer | Long-running numbered video updates and Aephia-affiliated commentary | Profile pending |
 | MEDIA-ATLAS-BREW | Atlas Brew | Community broadcast and interview archive | Profile pending |
+
+Official publication surfaces are indexed separately because their authority and completeness boundaries differ from community media:
+
+| Source family | Preserved coverage | Archival status | Principal boundary |
+|---|---|---|---|
+| [Official Discord Announcements](Official-Discord-Announcements-Profile.md) | 1,071 messages, 2021-03-16 through 2026-07-12 | Qualified, validated supplied export | Export reports incomplete collection; author grouping is inferred |
+| [Official Star Atlas X Account](Official-X-Account-Profile.md) | 796 unique posts, 2024-11-05 through 2026-07-14 | Qualified, validated partial-period corpus | Retweets preserve resharing, not first-party authorship; linked media absent |
+| [Star Atlas Medium Publication](Star-Atlas-Medium-Publication-Profile.md) | Discovery links only; no article-level coverage claim | Qualified source-family profile | Complete article-by-article corpus review has not been performed |
+
+The date ranges above describe preserved repository coverage, not the lifetime of each publication surface. Official publication proves what the institution stated at a given time; it does not automatically prove delivery, execution, economic accuracy, or event occurrence.
 
 ## Aephia Industries publications
 
@@ -96,6 +106,14 @@ Each media source should be evaluated for:
 - Repeated strengths and blind spots
 - Archive completeness
 - Historical staleness and superseding records
+
+## Cross-source research method
+
+Source profiles should be used to identify authority, provenance, and completeness before individual claims are compared. Cross-source agreement is meaningful only when records independently support the same material proposition. A Discord post, X post, and Medium article produced from the same announcement may establish dissemination across three surfaces without providing three independent confirmations.
+
+For interviews, reporting, summaries, and republished material, retain the source lineage: publication, original creator, speaker, linked primary source, and relationship. Community reporting may preserve context absent from an official announcement, but that context should remain attributed. Official posts may establish institutional wording while still requiring transaction, release, vote, or operational evidence for later-state claims.
+
+Every source-specific assertion should preserve, when available, a stable source ID, canonical URL, publication date, capture provenance, author or speaker attribution status, and any correction or supersession relationship. Unknown or unresolved fields should remain explicit rather than being inferred from familiarity with the publication.
 
 ## Citation rules
 

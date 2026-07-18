@@ -1,0 +1,146 @@
+{
+  "page_id": "holosim",
+  "proposed_path": "knowledge/gameplay/Holosim.md",
+  "page_action": "CREATE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 4,
+  "page_risk_class": "R2",
+  "scope": "Evidence-qualified refresh from material merged on main as of 2026-07-17.",
+  "material_claims": [
+    {
+      "claim_id": "HOLOSIM-1",
+      "claim_text": "Official records establish test, Chapter 1, delay, and Chapter 2 release states without implying mainnet delivery.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "HOLOSIM-2",
+      "claim_text": "Holosim evidence distinguishes the June 2025 test environment, Chapter 1 availability, a documented Chapter 2 delay, and the March 2026 Chapter 2 release.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "HOLOSIM-3",
+      "claim_text": "Holosim release evidence does not establish mainnet deployment or delivery of every roadmap feature associated with the product.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current-state claims are date-bound.",
+    "Source authority does not imply independent factual verification."
+  ],
+  "research_gaps": [
+    "Resolve the page-specific limitations recorded in knowledge front matter."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-17"
+}

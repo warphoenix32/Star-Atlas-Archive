@@ -1,7 +1,7 @@
 ---
 title: "Governance Knowledge"
 knowledge_status: CANONICAL
-as_of: 2026-07-15
+as_of: 2026-07-17
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
@@ -26,6 +26,7 @@ This domain documents Star Atlas governance institutions, procedures, proposal h
 - [PIP Lifecycle and Legislative Process](PIP-Lifecycle-and-Legislative-Process.md) — proposal-to-result sequence.
 - [Governance Implementation and Evidence States](Governance-Implementation-and-Evidence-States.md) — passage, payment, implementation, and verification boundaries.
 - [PIP Registry](PIP-Registry.md) — evidence-qualified captured proposal corpus.
+- [PIP-33 — ATMTA Historic Expense Reimbursement](PIP-33-ATMTA-Historic-Expense-Reimbursement.md) — qualified direct-treasury case preserving passage, conflict, schedule, and unverified payment state.
 - [Ecosystem Fund](Ecosystem-Fund.md) — PIP-23 policy and funding boundaries.
 - [Governance and Economy Overview](Governance-and-Economy-Overview.md) — treasury and economic relationship.
 - The [Governance and Economy Overview](Governance-and-Economy-Overview.md) records POLIS and treasury relationships without creating unsupported duplicate entity pages.
