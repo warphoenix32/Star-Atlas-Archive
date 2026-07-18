@@ -41,6 +41,8 @@ review_after: 2027-01-17
 
 POLIS Voting Power, abbreviated PVP, is the voting-weight measure used by the Star Atlas DAO. It is obtained by locking POLIS, and its weight depends on both the amount locked and the lock duration.
 
+PVP is a governance measurement, not a separate transferable token. A person's wallet balance, locked POLIS amount, PVP at a snapshot, ballot selection, and a proposal's final result are distinct records.
+
 ## Governance role
 
 PIP-1 defines the DAO as a system in which people lock and vote with POLIS and states that voting weight is based on the amount controlled and the duration of the lock. This establishes PVP as the formal weight used in PIP voting; it does not establish that every interface or reward parameter has remained unchanged since ratification. [PIP-1; SRC-PIP-01-BC8475E4](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json)
@@ -53,9 +55,31 @@ An official Discord announcement dated 2022-07-31 said PVP locking rewards would
 
 The official DAO-program overview describes the Tribeca locked-voter component as calculating PVP from locked amount and duration, with voting power decaying linearly over time. It separately describes a snapshot component that records historical voting-power states. These descriptions are A2 technical documentation, not a substitute for code-level verification of the deployed version. [SRC-OFF-4312E3B0005E60A3](../../archive/source-records/campaign-delta-official/SRC-OFF-4312E3B0005E60A3.md)
 
+The reviewed evidence supports the following model without supporting a complete formula:
+
+- **principal:** more locked POLIS contributes more voting weight;
+- **duration:** a longer selected lock receives more PVP per POLIS;
+- **time:** official documentation says voting power decays linearly as the remaining lock period shortens;
+- **snapshot:** voting records can use a historical voting-power state rather than an unqualified present balance;
+- **custody constraint:** locked POLIS is unavailable for withdrawal until its selected lock period ends.
+
+The archive does not yet establish the live multiplier curve, rounding behavior, maximum duration, program version, or whether historical user-interface displays always matched the deployed program. Those details must come from versioned code and on-chain state, not extrapolation from explanatory prose.
+
 ## Decision boundaries
 
 PVP measures voting weight. It does not by itself establish proposal passage, implementation, or execution. PIP-1 contains historical quorum language but does not specify a numeric quorum threshold in the captured text. The repository's reviewed completed-binary rule compares YES and NO PVP, while abstentions are preserved as non-decisive; elections use their separate ranked-choice mechanism. This distinction is preserved rather than silently replacing the charter language. See the [PIP Registry](../governance/PIP-Registry.md) and [PIP lifecycle](../governance/PIP-Lifecycle-and-Legislative-Process.md).
+
+For binary proposals, raw ballot count and PVP weight can tell different stories. The official captures retain both `count` and `pvp`; the governing result is weight-based. Abstaining PVP contributes to participation reporting but is not silently added to either YES or NO. For elections, advancing candidates, final winners, and ranked-choice mechanics must be interpreted from the specific PIP rather than forced into the binary rule.
+
+## Historical development
+
+| Date | Evidence | What it establishes | What it does not establish |
+|---|---|---|---|
+| 2022-07-31 | Official Discord announcement `SA-DISCORD-ANN-0D4A8B8F235B43B8` | ATMTA announced PVP locking rewards for 2022-08-02 and described an intended near-term team-position target. | Continuous attainment of the target, present team voting weight, or unchanged reward terms. |
+| 2024-07-08 | PIP-1 publication `SRC-PIP-01-BC8475E4` | Formal proposal language defining amount-and-duration-weighted PVP in the PIP process. | A numeric quorum threshold or full deployed formula. |
+| 2025-12 update | Official support records `SRC-OFF-45B0F6196BC7966E` and `SRC-OFF-4312E3B0005E60A3` | Official user-facing and technical descriptions of locks, duration weighting, decay, and snapshots. | Independent code audit or proof that every historical deployment used identical parameters. |
+
+The 2022 announcement's approximate 65% near-term target is an attributed ATMTA intention. It should not be used as evidence of governance capture at a later date without snapshot or on-chain data.
 
 ## Current state
 

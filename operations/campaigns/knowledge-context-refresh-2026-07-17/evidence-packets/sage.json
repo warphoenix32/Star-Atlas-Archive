@@ -64,6 +64,122 @@
       "attribution_required": true,
       "confidence": "HIGH",
       "allowed_in_page": true
+    },
+    {
+      "claim_id": "SAGE-2",
+      "claim_text": "The SAGE lineage runs from the Project S.C.R.E.A.M. prototype through SAGE Labs and Starbased toward later SAGE 3D and C4 plans.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6DF1790F1F2402FA.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-76D9861DCB3FE798.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6DF1790F1F2402FA.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-76D9861DCB3FE798.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "SAGE-3",
+      "claim_text": "SAGE Labs and Starbased have dated live evidence; later roadmap surfaces remain separately classified until release or execution evidence exists.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6DF1790F1F2402FA.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-76D9861DCB3FE798.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6DF1790F1F2402FA.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-76D9861DCB3FE798.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
     }
   ],
   "known_limitations": [

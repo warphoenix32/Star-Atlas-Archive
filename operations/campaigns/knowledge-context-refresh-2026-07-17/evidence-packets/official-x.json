@@ -38,6 +38,70 @@
       "attribution_required": true,
       "confidence": "HIGH",
       "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-X-2",
+      "claim_text": "The normalized collection contains 799 captured rows and 796 unique posts, including 528 original posts and 268 retweets.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "operations/campaigns/social-governance-semantic-enrichment/validation-report.json",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "operations/campaigns/social-governance-semantic-enrichment/validation-report.json",
+          "authority": [],
+          "source_role": "DERIVED_OPERATIONAL_VALIDATION"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-X-3",
+      "claim_text": "A retweet proves publication by the official account but does not transfer authorship or first-party authority for the underlying claim.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "operations/campaigns/social-governance-semantic-enrichment/validation-report.json",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "operations/campaigns/social-governance-semantic-enrichment/validation-report.json",
+          "authority": [],
+          "source_role": "DERIVED_OPERATIONAL_VALIDATION"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
     }
   ],
   "known_limitations": [

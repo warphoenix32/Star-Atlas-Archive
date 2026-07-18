@@ -4,6 +4,25 @@
 
 This repository is a living research system rather than a static encyclopedia. It supports historical reconstruction, current reporting, governance analysis, community intelligence, and official lore research.
 
+## Archival depth standard
+
+Knowledge pages are durable research records, not short summaries. Each page should preserve enough context that a future reader can understand the subject, its chronology, its institutional or product role, the evidence behind material conclusions, and the limits of the surviving record without first reconstructing the entire source corpus.
+
+Thoroughness is substantive rather than length-based. A complete page should address every applicable dimension of its subject:
+
+- identity, aliases, scope, and terminology;
+- historical origin and chronological development;
+- institutional, economic, technical, social, or product function;
+- dated lifecycle states and present status;
+- relationships to other entities, systems, proposals, and publications;
+- contemporary understanding and later interpretation where they differ;
+- disputes, contradictions, corrections, supersessions, and abandoned plans;
+- claim-level provenance and source-authority boundaries;
+- known limitations, missing evidence, and a concrete research queue;
+- revision context when a later source changes an earlier conclusion.
+
+Concise prose is welcome, but brevity must never remove material context or conceal uncertainty. Semantic records may accelerate discovery; they do not substitute for source review or human synthesis. A page may remain incomplete only when its missing evidence and consequences are stated plainly.
+
 The architecture has three layers:
 
 1. **Source layer** — what was said or recorded, where, when, and by whom.

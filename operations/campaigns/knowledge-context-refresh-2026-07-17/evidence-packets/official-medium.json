@@ -34,6 +34,62 @@
       "attribution_required": true,
       "confidence": "HIGH",
       "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-MEDIUM-2",
+      "claim_text": "The Medium publication is documented as a discoverable official source family, not as a completed article corpus.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/semantic/discord-announcements/announcement-semantic-records.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/semantic/discord-announcements/announcement-semantic-records.jsonl",
+          "authority": [
+            "A2",
+            "C1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "C1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-MEDIUM-3",
+      "claim_text": "Discovery references alone cannot support article-level authorship, chronology, or substantive claims without retrieval of the cited publication.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/semantic/discord-announcements/announcement-semantic-records.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/semantic/discord-announcements/announcement-semantic-records.jsonl",
+          "authority": [
+            "A2",
+            "C1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2",
+        "C1"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
     }
   ],
   "known_limitations": [

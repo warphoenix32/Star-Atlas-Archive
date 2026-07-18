@@ -49,6 +49,92 @@
       "attribution_required": true,
       "confidence": "MEDIUM",
       "allowed_in_page": true
+    },
+    {
+      "claim_id": "PIP-33-2",
+      "claim_text": "PIP-33 authorized a 75 percent immediate and 25 percent deferred reimbursement structure for documented historic ATMTA expenses.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+        "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+        "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+          "authority": [
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl",
+          "authority": [
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PIP-33-3",
+      "claim_text": "The official proposal, vote record, and Council tracker establish passage and reported administration but do not independently verify payment execution.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+        "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+        "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+          "authority": [
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl",
+          "authority": [
+            "A3"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A3"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
     }
   ],
   "known_limitations": [

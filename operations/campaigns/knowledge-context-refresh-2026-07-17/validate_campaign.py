@@ -14,6 +14,23 @@ ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(__file__).resolve().parent
 REQUIRED = {"knowledge_status", "as_of", "confidence", "evidence_basis", "known_limitations", "research_gaps", "review_after", "page_risk_score", "page_risk_class"}
 
+ARCHIVAL_REQUIREMENTS = {
+    "knowledge/economy/DAO-Treasury-Architecture.md": ("Constitutional framework", "Evidence states", "Known source conflicts", "Current state"),
+    "knowledge/economy/PVP-Voting-Power.md": ("Governance role", "Technical behavior", "Decision boundaries", "Historical development"),
+    "knowledge/gameplay/Holosim.md": ("Identity and scope", "Lifecycle chronology", "Economic and persistence boundary", "Evidence references"),
+    "knowledge/gameplay/Product-Registry.md": ("How to read this registry", "Lifecycle rules", "Historical relationships", "Registry limitations and review needs"),
+    "knowledge/gameplay/SAGE.md": ("Identity and institutional role", "Lifecycle chronology", "Product and evidence boundaries", "Historical value"),
+    "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md": ("Proposal and disclosed conflict", "Vote result", "Implementation state", "Research checklist"),
+    "knowledge/governance/Ecosystem-Fund.md": ("Policy history", "Reported refill history", "Decision and payment boundaries", "Research priorities"),
+    "knowledge/governance/Governance-and-Economy-Overview.md": ("Institutional decision chain", "Economic evidence boundaries", "Source conflicts and interpretive controls", "Current limitations"),
+    "knowledge/governance/PIP-Registry.md": ("Coverage summary", "Registry rules", "Reconciliation exceptions", "Research workflow"),
+    "knowledge/media/Official-Discord-Announcements-Profile.md": ("Scope and provenance", "Authority and attribution", "Completeness and preservation boundaries", "Recommended research use"),
+    "knowledge/media/Official-X-Account-Profile.md": ("Scope and provenance", "Authority boundary", "Completeness and identity boundaries", "Research use"),
+    "knowledge/media/Star-Atlas-Medium-Publication-Profile.md": ("Scope and provenance status", "Authority and citation boundary", "Required corpus review", "Research use before full ingestion"),
+    "knowledge/timeline/Master-Timeline.md": ("Reading rules", "2021 — Assets, markets, and first on-chain play", "2026 — C4 PTR and unresolved treasury governance", "Remaining high-priority gaps"),
+    "knowledge/timeline/Product-Timeline.md": ("2021", "2024", "2026", "Open chronology questions"),
+}
+
 def meta(text: str) -> dict:
     if not text.startswith("---\n") or "\n---\n" not in text[4:]:
         raise ValueError("missing front matter")
@@ -51,6 +68,8 @@ def main() -> int:
         missing = REQUIRED - set(fm)
         if missing:
             errors.append(f"Missing metadata {packet['proposed_path']}: {sorted(missing)}")
+        if len(packet.get("material_claims", [])) < 3:
+            errors.append(f"Insufficient claim-level evidence packet: {packet['page_id']}")
         for claim in packet["material_claims"]:
             if set(claim["source_authority"]) <= {"C1", "C2"}:
                 errors.append(f"Weak-only evidence: {packet['page_id']}")
@@ -70,6 +89,12 @@ def main() -> int:
             if target and not (page.parent / target).resolve().exists():
                 broken.append(f"{packet['proposed_path']} -> {raw}")
     errors.extend(f"Broken link: {x}" for x in broken)
+
+    for relative, required_sections in ARCHIVAL_REQUIREMENTS.items():
+        text = (ROOT / relative).read_text(encoding="utf-8")
+        missing_sections = [section for section in required_sections if f"## {section}" not in text]
+        if missing_sections:
+            errors.append(f"Archival depth sections missing in {relative}: {missing_sections}")
 
     diff = subprocess.run(["git", "diff", "--name-only", "origin/main"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.splitlines()
     untracked = subprocess.run(["git", "ls-files", "--others", "--exclude-standard"], cwd=ROOT, text=True, capture_output=True, check=True).stdout.splitlines()
@@ -102,12 +127,15 @@ def main() -> int:
                 errors.append(f"Whitespace check failed: {relative}")
 
     ledger = parsed_json.get(HERE / "promotion-ledger.json", {})
+    depth_review = parsed_json.get(HERE / "archival-depth-review.json", {})
+    if len(depth_review.get("page_reviews", [])) != len(packets):
+        errors.append("Archival depth review does not reconcile to all evidence-packet pages")
     packet_paths = {packet["proposed_path"] for packet in packets}
     ledger_packet_paths = {item["path"] for item in ledger.get("accepted", []) if item.get("packet")}
     if packet_paths != ledger_packet_paths:
         errors.append("Promotion ledger and evidence packet paths do not reconcile")
     changed_knowledge = {p for p in changed if p.startswith("knowledge/")}
-    ledger_knowledge = {item["path"] for item in ledger.get("accepted", [])}
+    ledger_knowledge = {item["path"] for item in ledger.get("accepted", []) if item["path"].startswith("knowledge/")}
     if changed_knowledge != ledger_knowledge:
         errors.append(f"Promotion ledger coverage mismatch: {sorted(changed_knowledge ^ ledger_knowledge)}")
 
@@ -115,7 +143,7 @@ def main() -> int:
         "failed_pip_undeclared_state_absent": "NOT_APPLICABLE" not in (ROOT / "knowledge/governance/PIP-Registry.md").read_text(encoding="utf-8"),
         "pip33_direct_treasury": "direct DAO Treasury" in (ROOT / "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md").read_text(encoding="utf-8"),
         "pip33_payment_unverified": "PAYMENT_UNVERIFIED" in (ROOT / "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md").read_text(encoding="utf-8"),
-        "refills_remain_attributed": "did not independently reconcile" in (ROOT / "knowledge/governance/Ecosystem-Fund.md").read_text(encoding="utf-8"),
+        "refills_remain_attributed": "not independently reconciled" in (ROOT / "knowledge/governance/Ecosystem-Fund.md").read_text(encoding="utf-8"),
     }
     product = (ROOT / "knowledge/timeline/Product-Timeline.md").read_text(encoding="utf-8")
     master = (ROOT / "knowledge/timeline/Master-Timeline.md").read_text(encoding="utf-8")
@@ -125,7 +153,7 @@ def main() -> int:
         if not passed:
             errors.append(f"Semantic lifecycle check failed: {name}")
 
-    generated = sorted((HERE / "evidence-packets").glob("*.json")) + [HERE / x for x in ("campaign-summary.json", "campaign-summary.md", "promotion-ledger.json", "promotion-ledger.md")]
+    generated = sorted((HERE / "evidence-packets").glob("*.json")) + [HERE / x for x in ("archival-depth-review.json", "archival-depth-review.md", "campaign-summary.json", "campaign-summary.md", "promotion-ledger.json", "promotion-ledger.md")]
     before = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in generated}
     rebuild = subprocess.run(["python", str(HERE / "build_campaign.py")], cwd=ROOT, text=True, capture_output=True)
     after = {p: hashlib.sha256(p.read_bytes()).hexdigest() for p in generated}
@@ -141,7 +169,9 @@ def main() -> int:
     result = "PASS" if not errors else "FAIL"
     report = {
         "campaign_id": "knowledge-context-refresh-2026-07-17", "validation_result": result,
-        "evidence_packets": len(packets), "campaign_json_files_parsed": len(parsed_json), "broken_internal_links": broken,
+        "evidence_packets": len(packets), "material_claims_reviewed": sum(len(p.get("material_claims", [])) for p in packets),
+        "archival_depth_pages_checked": len(ARCHIVAL_REQUIREMENTS),
+        "campaign_json_files_parsed": len(parsed_json), "broken_internal_links": broken,
         "prohibited_path_changes": prohibited,
         "checks": {"json_parses": not any("Invalid JSON" in e for e in errors), "front_matter_structural_parse": not any("metadata" in e for e in errors),
             "sources_resolve": not any("Missing source" in e for e in errors), "links_resolve": not broken,
@@ -151,6 +181,8 @@ def main() -> int:
             "git_diff_check": check.returncode == 0,
             "untracked_scope_checked": True,
             "ledger_reconciles": packet_paths == ledger_packet_paths and changed_knowledge == ledger_knowledge,
+            "claim_level_packets": all(len(p.get("material_claims", [])) >= 3 for p in packets),
+            "archival_depth_sections": not any("Archival depth sections missing" in e for e in errors),
             "semantic_lifecycle_checks": semantic_checks,
             "deterministic_regeneration": deterministic,
             "repository_tests": "8 passed" if tests.returncode == 0 else "FAILED"},
@@ -158,7 +190,7 @@ def main() -> int:
     }
     (HERE / "validation-report.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
     (HERE / "validation-report.md").write_text(
-        f"# Validation Report\n\nResult: **{result}**\n\nValidated {len(packets)} evidence packets, {len(parsed_json)} campaign JSON files, required front matter, explicit source-authority roles, source references, internal links, tracked and untracked scope boundaries, ledger coverage, lifecycle distinctions, deterministic regeneration, `git diff --check`, and the repository test suite (8 passed).\n"
+        f"# Validation Report\n\nResult: **{result}**\n\nValidated {len(packets)} evidence packets containing {sum(len(p.get('material_claims', [])) for p in packets)} material claim decisions, {len(ARCHIVAL_REQUIREMENTS)} archival-depth section profiles, {len(parsed_json)} campaign JSON files, required front matter, explicit source-authority roles, source references, internal links, tracked and untracked scope boundaries, ledger coverage, lifecycle distinctions, deterministic regeneration, `git diff --check`, and the repository test suite (8 passed).\n"
         + ("\n## Errors\n\n" + "\n".join(f"- {e}" for e in errors) + "\n" if errors else ""), encoding="utf-8")
     print(json.dumps(report, indent=2))
     return 0 if not errors else 1

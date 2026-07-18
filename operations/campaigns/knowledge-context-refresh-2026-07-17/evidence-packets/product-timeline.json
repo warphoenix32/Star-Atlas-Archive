@@ -40,6 +40,74 @@
       "attribution_required": true,
       "confidence": "HIGH",
       "allowed_in_page": true
+    },
+    {
+      "claim_id": "PRODUCT-TIMELINE-2",
+      "claim_text": "The timeline preserves the 2022 Project S.C.R.E.A.M. development milestone as a precursor rather than backdating a SAGE release.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PRODUCT-TIMELINE-3",
+      "claim_text": "Holosim test, launch, delay, and Chapter 2 release entries are separately dated and do not imply mainnet delivery.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
     }
   ],
   "known_limitations": [

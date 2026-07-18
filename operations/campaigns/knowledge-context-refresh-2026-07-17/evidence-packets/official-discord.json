@@ -50,6 +50,94 @@
       "attribution_required": true,
       "confidence": "HIGH",
       "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-DISCORD-2",
+      "claim_text": "The 1,071-record count describes the supplied export, not the complete historical Discord publication record.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/raw/discord-announcements/star-atlas-discord-announcements.md",
+        "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+        "operations/campaigns/discord-announcements-semantic-enrichment/validation-report.json",
+        "operations/campaigns/discord-announcements-semantic-enrichment/review-correction-status.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/raw/discord-announcements/star-atlas-discord-announcements.md",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+          "authority": [],
+          "source_role": "DERIVED_OPERATIONAL_SUMMARY"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/validation-report.json",
+          "authority": [],
+          "source_role": "DERIVED_OPERATIONAL_VALIDATION"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/review-correction-status.json",
+          "authority": [],
+          "source_role": "DERIVED_CURATOR_CORRECTION_STATUS"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "OFFICIAL-DISCORD-3",
+      "claim_text": "Discord announcement records are first-party publication evidence, while author identity, deleted posts, attachments, edits, and reactions remain outside the captured corpus.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/raw/discord-announcements/star-atlas-discord-announcements.md",
+        "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+        "operations/campaigns/discord-announcements-semantic-enrichment/validation-report.json",
+        "operations/campaigns/discord-announcements-semantic-enrichment/review-correction-status.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/raw/discord-announcements/star-atlas-discord-announcements.md",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json",
+          "authority": [],
+          "source_role": "DERIVED_OPERATIONAL_SUMMARY"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/validation-report.json",
+          "authority": [],
+          "source_role": "DERIVED_OPERATIONAL_VALIDATION"
+        },
+        {
+          "source": "operations/campaigns/discord-announcements-semantic-enrichment/review-correction-status.json",
+          "authority": [],
+          "source_role": "DERIVED_CURATOR_CORRECTION_STATUS"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
     }
   ],
   "known_limitations": [

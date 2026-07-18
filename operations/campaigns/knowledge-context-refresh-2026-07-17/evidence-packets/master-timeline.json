@@ -41,6 +41,76 @@
       "attribution_required": true,
       "confidence": "HIGH",
       "allowed_in_page": true
+    },
+    {
+      "claim_id": "MASTER-TIMELINE-2",
+      "claim_text": "The master timeline records PIP-33 passage as an authorization event, not as proof of payment or execution.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "MASTER-TIMELINE-3",
+      "claim_text": "Product chronology distinguishes development announcements, public tests, releases, delays, and successor states.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+          "authority": [
+            "A1"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A1",
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
     }
   ],
   "known_limitations": [

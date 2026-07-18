@@ -48,6 +48,90 @@
       "attribution_required": true,
       "confidence": "HIGH",
       "allowed_in_page": true
+    },
+    {
+      "claim_id": "PRODUCT-REGISTRY-2",
+      "claim_text": "The registry uses controlled lifecycle states and records historical qualification in prose rather than inventing undeclared lifecycle tokens.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PRODUCT-REGISTRY-3",
+      "claim_text": "Repeated announcements do not independently corroborate release, and test, live, superseded, deprecated, and planned states remain distinct.",
+      "claim_type": "INSTITUTIONAL_OR_LIFECYCLE_SYNTHESIS",
+      "temporal_scope": "DATE_BOUND",
+      "supporting_sources": [
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+        "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json",
+        "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl"
+      ],
+      "supporting_source_authorities": [
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A37A8B7B245E7776.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        },
+        {
+          "source": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+          "authority": [
+            "A2"
+          ],
+          "source_role": "EVIDENCE_SOURCE"
+        }
+      ],
+      "source_authority": [
+        "A2"
+      ],
+      "corroboration_status": "REVIEWED",
+      "contradiction_status": "DISCLOSED_WHERE_PRESENT",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
     }
   ],
   "known_limitations": [

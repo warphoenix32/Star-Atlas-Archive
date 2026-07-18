@@ -2,7 +2,9 @@
   "campaign_id": "knowledge-context-refresh-2026-07-17",
   "validation_result": "PASS",
   "evidence_packets": 14,
-  "campaign_json_files_parsed": 17,
+  "material_claims_reviewed": 42,
+  "archival_depth_pages_checked": 14,
+  "campaign_json_files_parsed": 18,
   "broken_internal_links": [],
   "prohibited_path_changes": [],
   "checks": {
@@ -16,6 +18,8 @@
     "git_diff_check": true,
     "untracked_scope_checked": true,
     "ledger_reconciles": true,
+    "claim_level_packets": true,
+    "archival_depth_sections": true,
     "semantic_lifecycle_checks": {
       "failed_pip_undeclared_state_absent": true,
       "pip33_direct_treasury": true,
