@@ -1,0 +1,279 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "canonical-pip-governance-ledger.schema.json",
+  "title": "Canonical PIP and Governance Ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ledger_id", "schema_version", "as_of", "ledger_status", "review_status",
+    "knowledge_status", "scope", "interpretation_policy",
+    "controlled_treasury_state_values", "source_inputs", "summary", "records"
+  ],
+  "properties": {
+    "ledger_id": {"const": "CANONICAL-PIP-GOVERNANCE-LEDGER"},
+    "schema_version": {"const": "1.0.0"},
+    "as_of": {"type": "string", "format": "date"},
+    "ledger_status": {"const": "DRAFT_FOR_REVIEW"},
+    "review_status": {"const": "HUMAN_REVIEW_REQUIRED"},
+    "knowledge_status": {"const": "QUALIFIED"},
+    "scope": {
+      "type": "object", "additionalProperties": false,
+      "required": ["first_pip", "last_pip", "record_count"],
+      "properties": {
+        "first_pip": {"const": 1}, "last_pip": {"const": 33}, "record_count": {"const": 33}
+      }
+    },
+    "interpretation_policy": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "completed_binary_rule", "completed_binary_rule_authority",
+        "completed_binary_rule_is_source_native_pip_1_text", "election_rule",
+        "candidate_level_pvp_in_capture", "onchain_verification_performed",
+        "council_tracker_attribution", "independent_verification_status"
+      ],
+      "properties": {
+        "completed_binary_rule": {"type": "string", "minLength": 1},
+        "completed_binary_rule_authority": {"const": "REPOSITORY_OWNER_APPROVED_EDITORIAL_ADJUDICATION"},
+        "completed_binary_rule_is_source_native_pip_1_text": {"const": false},
+        "election_rule": {"type": "string", "minLength": 1},
+        "candidate_level_pvp_in_capture": {"const": false},
+        "onchain_verification_performed": {"const": false},
+        "council_tracker_attribution": {"const": "COUNCIL_AUTHORED_OPERATIONAL_ASSESSMENT"},
+        "independent_verification_status": {"const": "UNKNOWN"}
+      }
+    },
+    "controlled_treasury_state_values": {
+      "type": "array", "minItems": 5, "maxItems": 5, "uniqueItems": true,
+      "items": {"enum": ["REQUESTED", "AUTHORIZED", "COUNCIL_REPORTED", "UNVERIFIED", "MISSING_ONCHAIN_EVIDENCE"]}
+    },
+    "source_inputs": {"type": "array", "minItems": 7, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "summary": {"type": "object"},
+    "records": {
+      "type": "array", "minItems": 33, "maxItems": 33,
+      "items": {"$ref": "#/$defs/pipRecord"}
+    }
+  },
+  "$defs": {
+    "nullableString": {"type": ["string", "null"]},
+    "stringArray": {"type": "array", "items": {"type": "string"}},
+    "treasuryState": {
+      "type": ["string", "null"],
+      "enum": ["REQUESTED", "AUTHORIZED", "COUNCIL_REPORTED", "UNVERIFIED", "MISSING_ONCHAIN_EVIDENCE", null]
+    },
+    "candidate": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "candidate_id", "display_name", "wallet_public_key", "captured_wallet_value",
+        "wallet_identification_status", "candidate_ballots", "candidate_pvp",
+        "candidate_total_status", "outcome"
+      ],
+      "properties": {
+        "candidate_id": {"type": "string", "minLength": 1},
+        "display_name": {"$ref": "#/$defs/nullableString"},
+        "wallet_public_key": {"$ref": "#/$defs/nullableString"},
+        "captured_wallet_value": {"$ref": "#/$defs/nullableString"},
+        "wallet_identification_status": {"enum": ["IDENTIFIED_FROM_CAPTURE", "PLACEHOLDER_IN_CAPTURE", "MISSING_FROM_CAPTURE"]},
+        "candidate_ballots": {"type": "null"},
+        "candidate_pvp": {"type": "null"},
+        "candidate_total_status": {"const": "MISSING_FROM_CAPTURE"},
+        "outcome": {"enum": ["ADVANCED_TO_FINAL_ROUND", "ELECTED", "NOT_SELECTED", "UNRESOLVED"]}
+      }
+    },
+    "binaryVote": {
+      "type": "object", "additionalProperties": false,
+      "required": ["yes_ballots", "no_ballots", "abstain_ballots", "yes_pvp", "no_pvp", "abstain_pvp", "abstain_capture_status"],
+      "properties": {
+        "yes_ballots": {"type": "integer", "minimum": 0},
+        "no_ballots": {"type": "integer", "minimum": 0},
+        "abstain_ballots": {"type": ["integer", "null"], "minimum": 0},
+        "yes_pvp": {"type": "string", "pattern": "^[0-9]+(?:\\.[0-9]+)?$"},
+        "no_pvp": {"type": "string", "pattern": "^[0-9]+(?:\\.[0-9]+)?$"},
+        "abstain_pvp": {"type": ["string", "null"], "pattern": "^[0-9]+(?:\\.[0-9]+)?$"},
+        "abstain_capture_status": {"enum": ["CAPTURED", "NOT_CAPTURED_OR_NOT_OFFERED"]}
+      }
+    },
+    "electionVote": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "stage", "outcome_type", "winner_count_configured", "max_choices", "candidate_count",
+        "candidate_totals_status", "candidates", "official_outcome_names",
+        "outcome_identification_status", "aggregate_ballots", "aggregate_pvp"
+      ],
+      "properties": {
+        "stage": {"enum": ["FIRST_ROUND", "FINAL_ROUND", "SINGLE_ROUND"]},
+        "outcome_type": {"enum": ["ADVANCEMENT_TO_FINAL_ROUND", "ELECTED_COUNCIL_MEMBERS", "WINNERS_UNRESOLVED"]},
+        "winner_count_configured": {"type": "integer", "minimum": 1},
+        "max_choices": {"type": "integer", "minimum": 1},
+        "candidate_count": {"type": "integer", "minimum": 1},
+        "candidate_totals_status": {"const": "MISSING_FROM_CAPTURE"},
+        "candidates": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/candidate"}},
+        "official_outcome_names": {"$ref": "#/$defs/stringArray"},
+        "outcome_identification_status": {"enum": ["IDENTIFIED", "UNRESOLVED"]},
+        "aggregate_ballots": {"type": "integer", "minimum": 0},
+        "aggregate_pvp": {"type": "string", "pattern": "^[0-9]+(?:\\.[0-9]+)?$"}
+      }
+    },
+    "pipRecord": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "pip_id", "pip_number", "source_id", "proposal_uuid", "title", "reviewed_title",
+        "author", "category", "dates", "sources", "vote", "result", "relationships",
+        "authorization", "implementation", "funding_scope", "treasury_states", "financial_terms",
+        "reconciliation", "conflict_ids", "research_backlog_ids", "known_limitations", "review_status"
+      ],
+      "properties": {
+        "pip_id": {"type": "string", "pattern": "^PIP-[0-9]{2}$"},
+        "pip_number": {"type": "integer", "minimum": 1, "maximum": 33},
+        "source_id": {"type": "string", "minLength": 1},
+        "proposal_uuid": {"type": "string", "minLength": 1},
+        "title": {"type": "string", "minLength": 1},
+        "reviewed_title": {"$ref": "#/$defs/nullableString"},
+        "author": {
+          "type": "object", "additionalProperties": false,
+          "required": ["display_name", "captured_value", "public_key", "identification_status"],
+          "properties": {
+            "display_name": {"$ref": "#/$defs/nullableString"},
+            "captured_value": {"$ref": "#/$defs/nullableString"},
+            "public_key": {"$ref": "#/$defs/nullableString"},
+            "identification_status": {"enum": ["IDENTIFIED", "PUBLIC_KEY_ONLY"]}
+          }
+        },
+        "category": {
+          "type": "object", "additionalProperties": false,
+          "required": ["source_values", "normalized"],
+          "properties": {
+            "source_values": {"$ref": "#/$defs/stringArray"},
+            "normalized": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["COUNCIL", "DAO", "FUNDING", "GOVERNANCE", "PROCESS", "UNKNOWN"]}}
+          }
+        },
+        "dates": {
+          "type": "object", "additionalProperties": false,
+          "required": ["publication", "updated", "vote_start", "vote_end"],
+          "properties": {
+            "publication": {"type": "string", "format": "date-time"},
+            "updated": {"type": "string", "format": "date-time"},
+            "vote_start": {"type": "string", "format": "date-time"},
+            "vote_end": {"type": "string", "format": "date-time"}
+          }
+        },
+        "sources": {
+          "type": "object", "additionalProperties": false,
+          "required": ["portal_url", "full_text_source_path", "source_record_path", "semantic_record_path", "reconciliation_path", "council_tracker_source_id", "council_tracker_source_path", "raw_content_sha256"],
+          "properties": {
+            "portal_url": {"type": "string", "minLength": 1},
+            "full_text_source_path": {"type": "string", "minLength": 1},
+            "source_record_path": {"type": "string", "minLength": 1},
+            "semantic_record_path": {"type": "string", "minLength": 1},
+            "reconciliation_path": {"type": "string", "minLength": 1},
+            "council_tracker_source_id": {"$ref": "#/$defs/nullableString"},
+            "council_tracker_source_path": {"$ref": "#/$defs/nullableString"},
+            "raw_content_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+          }
+        },
+        "vote": {
+          "oneOf": [
+            {
+              "type": "object", "additionalProperties": false,
+              "required": ["mechanism", "ballot_count", "total_pvp", "binary", "election"],
+              "properties": {
+                "mechanism": {"const": "BINARY_PVP"},
+                "ballot_count": {"type": "integer", "minimum": 0},
+                "total_pvp": {"type": "string", "pattern": "^[0-9]+(?:\\.[0-9]+)?$"},
+                "binary": {"$ref": "#/$defs/binaryVote"},
+                "election": {"type": "null"}
+              }
+            },
+            {
+              "type": "object", "additionalProperties": false,
+              "required": ["mechanism", "ballot_count", "total_pvp", "binary", "election"],
+              "properties": {
+                "mechanism": {"const": "RANKED_CHOICE_ELECTION"},
+                "ballot_count": {"type": "integer", "minimum": 0},
+                "total_pvp": {"type": "string", "pattern": "^[0-9]+(?:\\.[0-9]+)?$"},
+                "binary": {"type": "null"},
+                "election": {"$ref": "#/$defs/electionVote"}
+              }
+            }
+          ]
+        },
+        "result": {
+          "type": "object", "additionalProperties": false,
+          "required": ["reviewed_result", "portal_result", "council_reported_result", "basis", "decision_rule", "adjudication_source", "source_native_rule", "source_native_quorum_threshold"],
+          "properties": {
+            "reviewed_result": {"enum": ["PASSED", "FAILED", "FIRST_ROUND_ADVANCEMENT_RECORDED", "ELECTED_OFFICEHOLDERS_RECORDED", "COUNCIL_REPORTED_PASSAGE_WINNERS_UNRESOLVED"]},
+            "portal_result": {"$ref": "#/$defs/nullableString"},
+            "council_reported_result": {"$ref": "#/$defs/nullableString"},
+            "basis": {"type": "string", "minLength": 1},
+            "decision_rule": {"type": "string", "minLength": 1},
+            "adjudication_source": {"type": "string", "minLength": 1},
+            "source_native_rule": {"const": false},
+            "source_native_quorum_threshold": {"type": "null"}
+          }
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "type": "object", "additionalProperties": false,
+            "required": ["relationship", "from_pip", "to_pip", "evidence_source_id", "evidence_path", "review_status"],
+            "properties": {
+              "relationship": {"type": "string", "minLength": 1},
+              "from_pip": {"type": "integer", "minimum": 1, "maximum": 33},
+              "to_pip": {"type": "integer", "minimum": 1, "maximum": 33},
+              "evidence_source_id": {"type": "string", "minLength": 1},
+              "evidence_path": {"type": "string", "minLength": 1},
+              "review_status": {"type": "string", "minLength": 1}
+            }
+          }
+        },
+        "authorization": {
+          "type": "object", "additionalProperties": false,
+          "required": ["state", "basis"],
+          "properties": {
+            "state": {"enum": ["AUTHORIZED", "NOT_AUTHORIZED", "NOT_APPLICABLE_ELECTION"]},
+            "basis": {"enum": ["REVIEWED_BINARY_RESULT", "NOT_APPLICABLE_TO_ELECTION_OUTCOME"]}
+          }
+        },
+        "implementation": {
+          "type": "object", "additionalProperties": false,
+          "required": ["state", "council_reported_state", "attribution", "independent_verification_state"],
+          "properties": {
+            "state": {"enum": ["NOT_APPLICABLE_NO_AUTHORIZATION", "NOT_APPLICABLE_ELECTION", "COUNCIL_REPORTED_TERMINATED", "COUNCIL_REPORTED_CANCELED", "COUNCIL_REPORTED_WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED", "COUNCIL_REPORTED_PARTIAL_OR_IN_PROGRESS", "COUNCIL_REPORTED_MILESTONES_COMPLETE", "IMPLEMENTATION_UNVERIFIED"]},
+            "council_reported_state": {"$ref": "#/$defs/nullableString"},
+            "attribution": {"type": ["string", "null"], "enum": ["STAR_ATLAS_COUNCIL_TRACKER", null]},
+            "independent_verification_state": {"const": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"}
+          }
+        },
+        "funding_scope": {"type": "string", "minLength": 1},
+        "treasury_states": {
+          "type": "object", "additionalProperties": false,
+          "required": ["request_state", "authorization_state", "payment_state", "onchain_verification_state"],
+          "properties": {
+            "request_state": {"$ref": "#/$defs/treasuryState"},
+            "authorization_state": {"$ref": "#/$defs/treasuryState"},
+            "payment_state": {"$ref": "#/$defs/treasuryState"},
+            "onchain_verification_state": {"$ref": "#/$defs/treasuryState"}
+          }
+        },
+        "financial_terms": {"type": ["object", "null"]},
+        "reconciliation": {
+          "type": "object", "additionalProperties": false,
+          "required": ["overall_status", "vote_result_reconciliation_status", "portal_current_status", "portal_status_interpretation", "council_result", "contradictions", "notes", "independently_verified"],
+          "properties": {
+            "overall_status": {"enum": ["OPEN_DOCUMENTED_CONFLICTS", "RECONCILED_NO_OPEN_CONFLICTS"]},
+            "vote_result_reconciliation_status": {"type": "string", "minLength": 1},
+            "portal_current_status": {"type": "string", "minLength": 1},
+            "portal_status_interpretation": {"const": "STALE_COMPLETED_VOTE_WINDOW"},
+            "council_result": {"$ref": "#/$defs/nullableString"},
+            "contradictions": {"$ref": "#/$defs/stringArray"},
+            "notes": {"$ref": "#/$defs/stringArray"},
+            "independently_verified": {"const": false}
+          }
+        },
+        "conflict_ids": {"$ref": "#/$defs/stringArray"},
+        "research_backlog_ids": {"$ref": "#/$defs/stringArray"},
+        "known_limitations": {"$ref": "#/$defs/stringArray"},
+        "review_status": {"const": "HUMAN_REVIEW_REQUIRED"}
+      }
+    }
+  }
+}

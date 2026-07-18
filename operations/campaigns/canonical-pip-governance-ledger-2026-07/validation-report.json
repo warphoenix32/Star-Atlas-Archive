@@ -1,0 +1,200 @@
+{
+  "campaign_id": "canonical-pip-governance-ledger-2026-07",
+  "status": "PASS",
+  "as_of": "2026-07-18",
+  "checks": {
+    "json_parse": {
+      "passed": true,
+      "detail": 5
+    },
+    "schema_contract": {
+      "passed": true,
+      "detail": null
+    },
+    "json_schema_validation": {
+      "passed": true,
+      "detail": []
+    },
+    "pip_sequence": {
+      "passed": true,
+      "detail": 33
+    },
+    "required_fields": {
+      "passed": true,
+      "detail": null
+    },
+    "unique_identifiers": {
+      "passed": true,
+      "detail": null
+    },
+    "draft_status": {
+      "passed": true,
+      "detail": null
+    },
+    "binary_rule_attribution": {
+      "passed": true,
+      "detail": null
+    },
+    "no_onchain_verification": {
+      "passed": true,
+      "detail": null
+    },
+    "source_paths": {
+      "passed": true,
+      "detail": []
+    },
+    "raw_source_checksums": {
+      "passed": true,
+      "detail": []
+    },
+    "date_integrity": {
+      "passed": true,
+      "detail": []
+    },
+    "mechanism_partition": {
+      "passed": true,
+      "detail": null
+    },
+    "category_precision": {
+      "passed": true,
+      "detail": null
+    },
+    "binary_vote_reconciliation": {
+      "passed": true,
+      "detail": []
+    },
+    "pip_9_abstain_gap": {
+      "passed": true,
+      "detail": null
+    },
+    "elections_not_binary_or_inferred": {
+      "passed": true,
+      "detail": []
+    },
+    "pip_6_advancement": {
+      "passed": true,
+      "detail": null
+    },
+    "pip_7_winners": {
+      "passed": true,
+      "detail": null
+    },
+    "unresolved_elections": {
+      "passed": true,
+      "detail": null
+    },
+    "election_lifecycle_separation": {
+      "passed": true,
+      "detail": null
+    },
+    "candidate_wallet_placeholders": {
+      "passed": true,
+      "detail": null
+    },
+    "pip_27_configuration": {
+      "passed": true,
+      "detail": null
+    },
+    "failed_no_authorization": {
+      "passed": true,
+      "detail": null
+    },
+    "terminal_states": {
+      "passed": true,
+      "detail": null
+    },
+    "pip_23_supersedes_4": {
+      "passed": true,
+      "detail": null
+    },
+    "treasury_vocabulary": {
+      "passed": true,
+      "detail": []
+    },
+    "failed_treasury_separation": {
+      "passed": true,
+      "detail": null
+    },
+    "council_payments_attributed": {
+      "passed": true,
+      "detail": null
+    },
+    "unreported_payments_not_inferred": {
+      "passed": true,
+      "detail": [
+        2,
+        3,
+        4,
+        23,
+        24,
+        28,
+        31,
+        32
+      ]
+    },
+    "pip_33_treasury_boundary": {
+      "passed": true,
+      "detail": null
+    },
+    "pip_33_terms": {
+      "passed": true,
+      "detail": null
+    },
+    "cross_references": {
+      "passed": true,
+      "detail": null
+    },
+    "open_conflicts_artifacts": {
+      "passed": true,
+      "detail": null
+    },
+    "open_conflicts_backlogged": {
+      "passed": true,
+      "detail": []
+    },
+    "overall_reconciliation_status": {
+      "passed": true,
+      "detail": null
+    },
+    "tracker_source_input": {
+      "passed": true,
+      "detail": null
+    },
+    "implementation_backlog_scope": {
+      "passed": true,
+      "detail": null
+    },
+    "markdown_ledger_reconciliation": {
+      "passed": true,
+      "detail": 33
+    },
+    "internal_links": {
+      "passed": true,
+      "detail": []
+    },
+    "deterministic_regeneration": {
+      "passed": true,
+      "detail": ""
+    },
+    "source_and_prohibited_layers_unchanged": {
+      "passed": true,
+      "detail": []
+    },
+    "allowed_paths_only": {
+      "passed": true,
+      "detail": []
+    },
+    "git_diff_check": {
+      "passed": true,
+      "detail": ""
+    }
+  },
+  "warnings": [
+    "Validation confirms structural and evidence reconciliation only; it does not establish implementation, payment, or on-chain execution.",
+    "The ledger remains QUALIFIED and DRAFT_FOR_REVIEW pending human governance review."
+  ],
+  "failures": [],
+  "records_validated": 33,
+  "documented_conflicts": 11,
+  "research_backlog_items": 7
+}

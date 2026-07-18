@@ -29,7 +29,8 @@ This domain documents Star Atlas governance institutions, procedures, proposal h
 - [Star Atlas Council](Star-Atlas-Council.md) — elected process steward and delegated administrator.
 - [PIP Lifecycle and Legislative Process](PIP-Lifecycle-and-Legislative-Process.md) — proposal-to-result sequence.
 - [Governance Implementation and Evidence States](Governance-Implementation-and-Evidence-States.md) — passage, payment, implementation, and verification boundaries.
-- [PIP Registry](PIP-Registry.md) — evidence-qualified captured proposal corpus.
+- [Canonical PIP and Governance Ledger](PIP-Registry.md) — human-readable, evidence-qualified PIP-1 through PIP-33 ledger.
+- [Machine-readable PIP Ledger](PIP-Registry.json) — structured companion with mechanism-aware votes, lifecycle states, conflicts, and research links.
 - [PIP-33 — ATMTA Historic Expense Reimbursement](PIP-33-ATMTA-Historic-Expense-Reimbursement.md) — qualified direct-treasury case preserving passage, conflict, schedule, and unverified payment state.
 - [Ecosystem Fund](Ecosystem-Fund.md) — PIP-23 policy and funding boundaries.
 - [Governance and Economy Overview](Governance-and-Economy-Overview.md) — treasury and economic relationship.

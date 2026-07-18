@@ -1,0 +1,246 @@
+{
+  "ledger_id": "CANONICAL-PIP-GOVERNANCE-LEDGER",
+  "as_of": "2026-07-18",
+  "conflict_count": 11,
+  "conflicts": [
+    {
+      "conflict_id": "GOV-CONFLICT-PORTAL-STATUS-001",
+      "pip_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "field_path": "reconciliation.portal_current_status",
+      "classification": "STALE_PORTAL_STATE",
+      "severity": "MATERIAL",
+      "finding": "Every captured portal object remains Proposal_Activated_Pending_Open_Voting after its recorded vote end.",
+      "treatment": "Preserve the portal value as source metadata; derive no result or implementation state from it.",
+      "status": "OPEN_DOCUMENTED",
+      "required_artifacts": [
+        "Timestamped official portal history or corrected proposal-state exports for PIP-1 through PIP-33."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-ELECTION-WALLET-PLACEHOLDERS-001",
+      "pip_numbers": [
+        25,
+        27
+      ],
+      "field_path": "vote.election.candidates[].wallet_public_key",
+      "classification": "PLACEHOLDER_WALLET_VALUE_IN_CAPTURE",
+      "severity": "MATERIAL",
+      "finding": "The portal captures repeat the Solana sentinel value 11111111111111111111111111111111 across candidate wallet fields; it is not treated as a candidate identity.",
+      "treatment": "Preserve the captured value separately, set normalized wallet_public_key to null, and require an official candidate-to-wallet mapping.",
+      "status": "OPEN_DOCUMENTED",
+      "required_artifacts": [
+        "Official candidate-to-wallet mapping for PIP-25 and PIP-27."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-FAILED-MILESTONES-001",
+      "pip_numbers": [
+        13,
+        15,
+        19,
+        26
+      ],
+      "field_path": "implementation.council_reported_state",
+      "classification": "NO_AUTHORIZATION_VS_TRACKER_MILESTONES",
+      "severity": "MATERIAL",
+      "finding": "The Council tracker reports milestone completion for four failed proposals that supplied no authorization.",
+      "treatment": "Preserve the attributed tracker value but set ledger implementation to NOT_APPLICABLE_NO_AUTHORIZATION.",
+      "status": "RESOLVED_BY_ADJUDICATION",
+      "required_artifacts": [
+        "Corrected Council tracker rows or Council-authored explanation for the milestone values."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-ELECTION-WINNERS-001",
+      "pip_numbers": [
+        11,
+        25,
+        27
+      ],
+      "field_path": "vote.election.official_outcome_names",
+      "classification": "ELECTION_OUTCOME_MISSING",
+      "severity": "MATERIAL",
+      "finding": "Council-reported passage exists, but the preserved portal captures contain no electionResults winner list.",
+      "treatment": "Retain aggregate ballots/PVP and unresolved winner identity; infer no officeholder or program winner.",
+      "status": "OPEN_DOCUMENTED",
+      "required_artifacts": [
+        "Official final ranked-choice result export identifying winners and candidate-level totals for PIP-11, PIP-25, and PIP-27."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-ELECTION-CANDIDATE-PVP-001",
+      "pip_numbers": [
+        6,
+        7,
+        11,
+        25,
+        27
+      ],
+      "field_path": "vote.election.candidates[].candidate_pvp",
+      "classification": "CANDIDATE_TOTALS_MISSING",
+      "severity": "MATERIAL",
+      "finding": "The portal captures preserve only aggregate ranked-choice ballots and PVP, not candidate-level PVP.",
+      "treatment": "List captured candidates and set every candidate PVP field to null with MISSING_FROM_CAPTURE status.",
+      "status": "OPEN_DOCUMENTED",
+      "required_artifacts": [
+        "Official per-candidate ranked-choice result exports for all five election PIPs."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-PIP-027-BALLOT-CONFIG-001",
+      "pip_numbers": [
+        27
+      ],
+      "field_path": "vote.election.max_choices",
+      "classification": "PORTAL_BALLOT_CONFIGURATION_DISCREPANCY",
+      "severity": "MATERIAL",
+      "finding": "PIP-27 records five winners, six maximum choices, and thirteen candidates while the proposal text describes five winners.",
+      "treatment": "Preserve all captured values and do not normalize the maximum-choice field.",
+      "status": "OPEN_DOCUMENTED",
+      "required_artifacts": [
+        "Official PIP-27 ballot configuration and final STV tabulation export."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-PIP-033-FUNDING-SOURCE-001",
+      "pip_numbers": [
+        33
+      ],
+      "field_path": "funding_scope",
+      "classification": "DERIVED_SOURCE_MISCLASSIFICATION",
+      "severity": "MATERIAL",
+      "finding": "The semantic source labels PIP-33 as Ecosystem Fund, while the proposal identifies an extraordinary direct DAO Treasury measure and the Council tracker marks ecosystem_fund NO.",
+      "treatment": "Use DIRECT_DAO_TREASURY_MEASURE and retain the semantic label as a rejected conflict.",
+      "status": "RESOLVED_BY_ADJUDICATION",
+      "required_artifacts": [],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-PIP-033-RESULT-001",
+      "pip_numbers": [
+        33
+      ],
+      "field_path": "result.council_reported_result",
+      "classification": "TRACKER_RESULT_MISSING",
+      "severity": "MATERIAL",
+      "finding": "The Council tracker result is null, while completed portal PVP supports the repository-reviewed PASSED result.",
+      "treatment": "Preserve the tracker null and use the explicitly labeled repository editorial vote adjudication.",
+      "status": "OPEN_DOCUMENTED",
+      "required_artifacts": [
+        "Corrected Council tracker result or an official final result record linked to PIP-33."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-PIP-033-ARITHMETIC-001",
+      "pip_numbers": [
+        33
+      ],
+      "field_path": "financial_terms.arithmetic_discrepancies",
+      "classification": "SOURCE_ARITHMETIC_DISCREPANCY",
+      "severity": "MATERIAL",
+      "finding": "Two displayed tranches sum to $469,513.52 versus the stated $469,513.53 total; displayed USDC portions sum to $352,135.14 versus the stated $352,135.15 aggregate.",
+      "treatment": "Preserve both one-cent discrepancies without silent correction.",
+      "status": "OPEN_DOCUMENTED",
+      "required_artifacts": [
+        "Author or Foundation correction identifying controlling PIP-33 payment amounts."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-TREASURY-VERIFICATION-001",
+      "pip_numbers": [
+        5,
+        8,
+        12,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        29,
+        30,
+        33
+      ],
+      "field_path": "treasury_states.onchain_verification_state",
+      "classification": "MISSING_ONCHAIN_DATASET",
+      "severity": "MATERIAL",
+      "finding": "Council-reported payment values and PIP-33 authorization lack transaction-level on-chain evidence in the repository.",
+      "treatment": "Use COUNCIL_REPORTED only for attributed tracker values and MISSING_ONCHAIN_EVIDENCE for verification; never mark paid or verified.",
+      "status": "OPEN_DOCUMENTED",
+      "required_artifacts": [
+        "Transaction signatures, token-account addresses, mint/decimals metadata, block times, and proposal-to-transfer mapping."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    },
+    {
+      "conflict_id": "GOV-CONFLICT-PIP-001-QUORUM-001",
+      "pip_numbers": [
+        1
+      ],
+      "field_path": "result.decision_rule",
+      "classification": "EDITORIAL_RULE_NOT_SOURCE_NATIVE",
+      "severity": "MATERIAL",
+      "finding": "PIP-1 mentions quorum but supplies no numeric threshold; the completed-binary YES-versus-NO rule is an owner-approved repository editorial adjudication.",
+      "treatment": "Label the adjudication as repository-editorial and never assert that it appears in PIP-1.",
+      "status": "RESOLVED_BY_ADJUDICATION",
+      "required_artifacts": [
+        "Source-native numeric quorum rule, if one governed these historical votes."
+      ],
+      "blocks_validation": false,
+      "manual_review_required": true
+    }
+  ]
+}

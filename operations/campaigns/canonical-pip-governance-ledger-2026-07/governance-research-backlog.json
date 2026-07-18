@@ -1,0 +1,274 @@
+{
+  "ledger_id": "CANONICAL-PIP-GOVERNANCE-LEDGER",
+  "as_of": "2026-07-18",
+  "item_count": 7,
+  "items": [
+    {
+      "research_id": "GOV-RESEARCH-001",
+      "priority": "P0",
+      "pip_numbers": [
+        11,
+        25,
+        27
+      ],
+      "question": "Who won the unresolved Council and DAO Casters elections, and what were the candidate-level totals?",
+      "blocked_fields": [
+        "vote.election.official_outcome_names",
+        "vote.election.candidates[].candidate_pvp"
+      ],
+      "missing_artifacts": [
+        "Official STV tabulation export",
+        "Official final winner announcement",
+        "Per-candidate PVP and transfer-round data"
+      ],
+      "acceptance_criteria": [
+        "Winner identities reconcile to an official artifact",
+        "Candidate totals preserve the election mechanism",
+        "No candidate is inferred from later role occupancy"
+      ],
+      "status": "OPEN",
+      "onchain_dataset_required": false,
+      "prohibited_inference": "Do not infer winners from later Council membership, social posts, or tracker passage alone.",
+      "related_conflict_ids": [
+        "GOV-CONFLICT-ELECTION-WINNERS-001",
+        "GOV-CONFLICT-ELECTION-CANDIDATE-PVP-001",
+        "GOV-CONFLICT-PIP-027-BALLOT-CONFIG-001"
+      ]
+    },
+    {
+      "research_id": "GOV-RESEARCH-002",
+      "priority": "P0",
+      "pip_numbers": [
+        5,
+        8,
+        12,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        29,
+        30,
+        33
+      ],
+      "question": "Which authorized or Council-reported payments occurred on-chain?",
+      "blocked_fields": [
+        "treasury_states.onchain_verification_state",
+        "treasury_states.payment_state"
+      ],
+      "missing_artifacts": [
+        "Transaction signatures",
+        "DAO/Foundation source accounts",
+        "Recipient token accounts",
+        "Mint and decimals metadata",
+        "Block timestamps",
+        "Proposal-to-transfer mapping"
+      ],
+      "acceptance_criteria": [
+        "Every asserted transfer resolves to a transaction",
+        "Token amounts are decoded using the correct mint decimals",
+        "PIP authorization is not conflated with payment"
+      ],
+      "status": "OPEN",
+      "onchain_dataset_required": true,
+      "prohibited_inference": "Do not treat Council tracker amounts, vote passage, or a payment schedule as proof of transfer.",
+      "related_conflict_ids": [
+        "GOV-CONFLICT-TREASURY-VERIFICATION-001"
+      ]
+    },
+    {
+      "research_id": "GOV-RESEARCH-003",
+      "priority": "P1",
+      "pip_numbers": [
+        14,
+        17,
+        31
+      ],
+      "question": "What primary records establish termination, cancellation, or withdrawal after passage?",
+      "blocked_fields": [
+        "implementation.state",
+        "implementation.independent_verification_state"
+      ],
+      "missing_artifacts": [
+        "Council or Foundation termination notice",
+        "Author withdrawal notice",
+        "Contract or milestone closeout record"
+      ],
+      "acceptance_criteria": [
+        "Terminal state has a dated primary record",
+        "Passage remains historically preserved",
+        "Payment and implementation remain separate"
+      ],
+      "status": "OPEN",
+      "onchain_dataset_required": false,
+      "prohibited_inference": "Do not convert Council tracker terminology into independently verified completion or non-performance findings.",
+      "related_conflict_ids": []
+    },
+    {
+      "research_id": "GOV-RESEARCH-004",
+      "priority": "P1",
+      "pip_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        12,
+        14,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        23,
+        24,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "question": "What independent evidence supports implementation or deliverable completion for each authorized non-election proposal?",
+      "blocked_fields": [
+        "implementation.independent_verification_state"
+      ],
+      "missing_artifacts": [
+        "Proposal-specific deliverables",
+        "Foundation execution notices",
+        "Contracts or releases",
+        "Independent outcome evidence"
+      ],
+      "acceptance_criteria": [
+        "Each implementation claim links to a primary artifact",
+        "Milestone reporting remains attributed",
+        "Failed proposals remain not authorized"
+      ],
+      "status": "OPEN",
+      "onchain_dataset_required": false,
+      "prohibited_inference": "Do not equate 1/1 tracker milestones with independent implementation verification.",
+      "related_conflict_ids": [
+        "GOV-CONFLICT-FAILED-MILESTONES-001"
+      ]
+    },
+    {
+      "research_id": "GOV-RESEARCH-007",
+      "priority": "P1",
+      "pip_numbers": [
+        25,
+        27
+      ],
+      "question": "Which candidate wallet belongs to each captured PIP-25 and PIP-27 candidate?",
+      "blocked_fields": [
+        "vote.election.candidates[].wallet_public_key"
+      ],
+      "missing_artifacts": [
+        "Official candidate-to-wallet mapping",
+        "Signed candidate registration record or official ballot export"
+      ],
+      "acceptance_criteria": [
+        "Each normalized wallet resolves to an official candidate record",
+        "The repeated sentinel remains preserved only as a captured placeholder"
+      ],
+      "status": "OPEN",
+      "onchain_dataset_required": false,
+      "prohibited_inference": "Do not assign the repeated Solana sentinel value to any candidate and do not infer wallets from names or later officeholding.",
+      "related_conflict_ids": [
+        "GOV-CONFLICT-ELECTION-WALLET-PLACEHOLDERS-001"
+      ]
+    },
+    {
+      "research_id": "GOV-RESEARCH-005",
+      "priority": "P2",
+      "pip_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "question": "Can historical portal state transitions be recovered?",
+      "blocked_fields": [
+        "reconciliation.portal_current_status"
+      ],
+      "missing_artifacts": [
+        "Timestamped proposal-state snapshots",
+        "Portal event log",
+        "Official lifecycle export"
+      ],
+      "acceptance_criteria": [
+        "Publication, voting, result, and later lifecycle states have dated evidence",
+        "Portal state is not used as implementation proof"
+      ],
+      "status": "OPEN",
+      "onchain_dataset_required": false,
+      "prohibited_inference": "Do not infer state-transition dates solely from vote windows.",
+      "related_conflict_ids": [
+        "GOV-CONFLICT-PORTAL-STATUS-001"
+      ]
+    },
+    {
+      "research_id": "GOV-RESEARCH-006",
+      "priority": "P1",
+      "pip_numbers": [
+        33
+      ],
+      "question": "Which PIP-33 figures control the authorized and conditional tranche payments?",
+      "blocked_fields": [
+        "financial_terms.arithmetic_discrepancies"
+      ],
+      "missing_artifacts": [
+        "Author or Foundation arithmetic correction",
+        "Executed payment instruction",
+        "Second-tranche reserve assessment"
+      ],
+      "acceptance_criteria": [
+        "Both one-cent discrepancies are explicitly resolved",
+        "Each tranche remains 75% USDC and 25% ATLAS",
+        "Second-tranche reserve condition is preserved",
+        "Resolution does not imply payment"
+      ],
+      "status": "OPEN",
+      "onchain_dataset_required": true,
+      "prohibited_inference": "Do not silently choose a corrected cent value or infer that either tranche was paid.",
+      "related_conflict_ids": [
+        "GOV-CONFLICT-PIP-033-ARITHMETIC-001",
+        "GOV-CONFLICT-PIP-033-RESULT-001"
+      ]
+    }
+  ]
+}
