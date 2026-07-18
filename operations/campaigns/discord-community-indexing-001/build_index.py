@@ -42,6 +42,15 @@ REVIEW_STATUSES = {
     "READY_FOR_HUMAN_PROMOTION_REVIEW", "EVIDENCE_SUPPORTED_PROFILE_CANDIDATE",
     "REQUIRES_IDENTITY_RESOLUTION", "REQUIRES_ROLE_CORROBORATION", "DISCOVERY_ONLY", "DEFERRED",
 }
+COVERAGE_STATUSES = {
+    "ACTIVE_PARTIAL", "ACTIVE_CURRENT_TO_LAST_CAPTURE", "HISTORICAL_PARTIAL",
+    "HISTORICAL_COMPLETE_AS_CAPTURED", "UNRESOLVED_CHANNEL", "EMPTY_OR_UNPARSED",
+}
+CHANNEL_CATEGORIES = {
+    "announcements", "general", "foundation-room", "foundation-room-chat",
+    "economics", "dao-chat", "governance", "guild", "event", "product",
+    "support", "uncategorized",
+}
 ENTITY_SEEDS = [
     {"entity_type": "guild", "canonical_name": "Aephia", "aliases": ["AEP", "Aephia Industries"], "resolution_status": "OPERATOR_CONFIRMED"},
     {"entity_type": "guild", "canonical_name": "BULK", "aliases": [], "resolution_status": "OPERATOR_CONFIRMED"},
@@ -1140,6 +1149,8 @@ def build_channel_coverage(messages: list[Message], inventory: list[dict[str, An
     coverage = {
         "schema_version": SCHEMA_VERSION, "campaign_id": CAMPAIGN_ID,
         "scope_statement": "Rolling coverage ledger for imported exports; not a completed Discord corpus declaration.",
+        "supported_coverage_statuses": sorted(COVERAGE_STATUSES),
+        "supported_channel_categories": sorted(CHANNEL_CATEGORIES),
         "summary": {
             "source_files_inventoried": len(inventory), "independent_export_units": 1,
             "parsed_message_occurrences": parsed_occurrences, "unique_messages": len(messages),
@@ -1264,9 +1275,15 @@ def validate_outputs(messages: list[Message], alias_registry: dict[str, Any], id
     council_score_failures = [item["entity_id"] for item in (promotions or {}).get("candidates", []) if item.get("score_dimensions", {}).get("dao_council_service") and any(item.get("score_dimensions", {}).get(key) for key in ("guild_founder", "guild_leader", "guild_officer")) and not set(item.get("operator_confirmed_roles", [])) & {"guild_founder", "guild_leader", "guild_officer"}]
     organization_types = [item["entity_type"] for item in organizations if item["entity_type"] not in ORGANIZATION_TYPES]
     coverage_dates_ok = True
+    coverage_taxonomy_ok = True
     if coverage and messages:
         dated = sorted(message.timestamp for message in messages if message.timestamp and re.match(r"^\d{4}-\d{2}", message.timestamp))
         coverage_dates_ok = coverage["summary"]["earliest_message_timestamp"] == dated[0] and coverage["summary"]["latest_message_timestamp"] == dated[-1]
+        coverage_taxonomy_ok = (
+            set(coverage.get("supported_coverage_statuses", [])) == COVERAGE_STATUSES
+            and set(coverage.get("supported_channel_categories", [])) == CHANNEL_CATEGORIES
+            and all(item.get("coverage_status") in COVERAGE_STATUSES and item.get("channel_category") in CHANNEL_CATEGORIES for item in coverage.get("channels", []))
+        )
     source_record_dir = Path(__file__).resolve().parents[3] / "archive/source-records/discord-announcements"
     source_record_reconciliation = True
     if source_record_dir.exists() and all(source_id.startswith("SA-DISCORD-ANN-") for source_id in source_ids):
@@ -1289,6 +1306,7 @@ def validate_outputs(messages: list[Message], alias_registry: dict[str, Any], id
         {"name": "review_oriented_promotion_statuses_only", "passed": not bare_promotions, "details": bare_promotions},
         {"name": "council_service_not_guild_leadership_evidence", "passed": not council_score_failures, "details": council_score_failures},
         {"name": "coverage_dates_derive_from_messages", "passed": coverage_dates_ok, "details": None},
+        {"name": "coverage_status_and_channel_category_taxonomies", "passed": coverage_taxonomy_ok, "details": None},
         {"name": "source_ids_reconcile_to_source_records", "passed": source_record_reconciliation, "details": None},
         {"name": "human_resolution_queue_present", "passed": human_queue is None or human_queue.get("item_count", 0) > 0, "details": human_queue.get("item_count") if human_queue else "fixture_not_supplied"},
     ]

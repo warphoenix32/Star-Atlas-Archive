@@ -143,5 +143,27 @@
     "source_files_inventoried": 1074,
     "unique_messages": 1071,
     "unresolved_channel_exports": 1
-  }
+  },
+  "supported_channel_categories": [
+    "announcements",
+    "dao-chat",
+    "economics",
+    "event",
+    "foundation-room",
+    "foundation-room-chat",
+    "general",
+    "governance",
+    "guild",
+    "product",
+    "support",
+    "uncategorized"
+  ],
+  "supported_coverage_statuses": [
+    "ACTIVE_CURRENT_TO_LAST_CAPTURE",
+    "ACTIVE_PARTIAL",
+    "EMPTY_OR_UNPARSED",
+    "HISTORICAL_COMPLETE_AS_CAPTURED",
+    "HISTORICAL_PARTIAL",
+    "UNRESOLVED_CHANNEL"
+  ]
 }

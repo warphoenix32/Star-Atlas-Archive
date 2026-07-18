@@ -221,6 +221,8 @@ def test_coverage_is_export_scoped_and_preserves_observed_header(tmp_path):
     assert coverage["summary"]["canonical_native_channels_identified"] == 0
     assert coverage["channels"][0]["observed_channel_names"] == ["Compromised Discord Account of EX Team Member,"]
     assert coverage["channels"][0]["coverage_status"] == "UNRESOLVED_CHANNEL"
+    assert set(coverage["supported_coverage_statuses"]) == indexer.COVERAGE_STATUSES
+    assert set(coverage["supported_channel_categories"]) == indexer.CHANNEL_CATEGORIES
     assert gaps["gaps"][0]["zero_message_months"] == []
     assert any(item["target"] == "Foudnation Room" for item in backlog["items"])
 

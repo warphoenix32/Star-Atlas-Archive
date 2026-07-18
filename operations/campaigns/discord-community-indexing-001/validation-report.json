@@ -86,6 +86,11 @@
     },
     {
       "details": null,
+      "name": "coverage_status_and_channel_category_taxonomies",
+      "passed": true
+    },
+    {
+      "details": null,
       "name": "source_ids_reconcile_to_source_records",
       "passed": true
     },
@@ -144,7 +149,7 @@
           "alias-registry.json": "66b37ddafceebf0f531534f79e90712458e08950682ed212378797842554830e",
           "competition-index.jsonl": "104aba072826567c7ce39a7659ce052eb7ad17d9d82bf339fb3183b665ddf8e8",
           "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
-          "discord-channel-coverage.json": "66fda2cf9e9581b4c744aa8fa21b0847c0c6806000dd0d51ebe8d0b0a0c20613",
+          "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
           "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
           "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
           "guild-index.jsonl": "a2de0ce8a9c2ff708a34c65f7f0177e442ceff0fe78714c68776ae1b687d02d0",
@@ -161,7 +166,7 @@
           "alias-registry.json": "66b37ddafceebf0f531534f79e90712458e08950682ed212378797842554830e",
           "competition-index.jsonl": "104aba072826567c7ce39a7659ce052eb7ad17d9d82bf339fb3183b665ddf8e8",
           "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
-          "discord-channel-coverage.json": "66fda2cf9e9581b4c744aa8fa21b0847c0c6806000dd0d51ebe8d0b0a0c20613",
+          "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
           "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
           "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
           "guild-index.jsonl": "a2de0ce8a9c2ff708a34c65f7f0177e442ceff0fe78714c68776ae1b687d02d0",
@@ -194,7 +199,7 @@
         "alias-registry.json": "66b37ddafceebf0f531534f79e90712458e08950682ed212378797842554830e",
         "competition-index.jsonl": "104aba072826567c7ce39a7659ce052eb7ad17d9d82bf339fb3183b665ddf8e8",
         "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
-        "discord-channel-coverage.json": "66fda2cf9e9581b4c744aa8fa21b0847c0c6806000dd0d51ebe8d0b0a0c20613",
+        "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
         "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
         "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
         "guild-index.jsonl": "a2de0ce8a9c2ff708a34c65f7f0177e442ceff0fe78714c68776ae1b687d02d0",
