@@ -1,0 +1,68 @@
+{
+  "campaign_id": "canonical-pip-governance-ledger-2026-07",
+  "as_of": "2026-07-18",
+  "artifact_count": 12,
+  "artifact_normalization": "UTF8_TEXT_CRLF_NORMALIZED_TO_LF_BEFORE_SHA256_AND_SIZE",
+  "artifacts": [
+    {
+      "path": "knowledge/governance/PIP-Registry.json",
+      "sha256": "0ffbd900c416e5aa64c75a0b3db1a86e7e66f30ea138419779cdc12556b7ff66",
+      "size_bytes": 214423
+    },
+    {
+      "path": "knowledge/governance/PIP-Registry.md",
+      "sha256": "82c7ac16c16eb8f40d23a2256568c14e3aa1f2a23eb72e19f59aa5e873554db0",
+      "size_bytes": 45031
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/build_ledger.py",
+      "sha256": "06d020562d3185df49b134c1e343410afb9b275122ab77515b08196a2b2ce800",
+      "size_bytes": 57741
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/campaign-summary.json",
+      "sha256": "3a88f52ae28d0a05f13ca8a22a0cbda02b917229129a9938abff2c91c7ae83ac",
+      "size_bytes": 685
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/campaign-summary.md",
+      "sha256": "9d0dbbf1ce47f909771a9480951e5351ef03eac9be6ce435340f514834c6bab3",
+      "size_bytes": 631
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/canonical-pip-governance-ledger.schema.json",
+      "sha256": "cea42c1b6404ad9f9c4b621c6acf5de3d7e2cb97fb93a4db63e048353827d388",
+      "size_bytes": 15418
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/conflict-report.json",
+      "sha256": "9ef3233593c530ebdd820988ea22ed349786787737fde3f12386a0cf2d148366",
+      "size_bytes": 9368
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/conflict-report.md",
+      "sha256": "eda4d24a23723a23a35385e1dbbba5d84d2be9a9bb7777616271b4570628ddc2",
+      "size_bytes": 6394
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/governance-research-backlog.json",
+      "sha256": "32f09fbac64460bff1d2b414c5a3f82c24a289dd98786c4f48291c16e3b98528",
+      "size_bytes": 8083
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/governance-research-backlog.md",
+      "sha256": "210b101331cc299883d65c789828eb56a28c47b91811825f236c6a286508a2fc",
+      "size_bytes": 4840
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/README.md",
+      "sha256": "c14b76a8622af89abe05399a94e909935e4b7d68618f27bf2338ee81869d3d43",
+      "size_bytes": 3348
+    },
+    {
+      "path": "operations/campaigns/canonical-pip-governance-ledger-2026-07/validate_ledger.py",
+      "sha256": "346f2dbc5c7bb301e6fbf9f554dc3be908f91e84e12396724ebad5d6d4ff31f8",
+      "size_bytes": 37763
+    }
+  ]
+}
