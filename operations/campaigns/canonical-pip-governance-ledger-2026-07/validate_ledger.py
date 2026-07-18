@@ -48,6 +48,21 @@ def digest(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def manifest_digest(path: Path) -> str:
+    """Hash text artifacts with canonical LF endings for cross-platform stability."""
+    data = path.read_bytes()
+    if path.suffix.lower() in {".json", ".md", ".py"}:
+        data = data.replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()
+
+
+def manifest_size(path: Path) -> int:
+    data = path.read_bytes()
+    if path.suffix.lower() in {".json", ".md", ".py"}:
+        data = data.replace(b"\r\n", b"\n")
+    return len(data)
+
+
 def run(args: list[str]) -> subprocess.CompletedProcess[str]:
     return subprocess.run(args, cwd=ROOT, text=True, capture_output=True, encoding="utf-8", errors="replace")
 
@@ -338,7 +353,7 @@ def main() -> int:
 
     paths = changed_paths()
     prohibited = [path for path in paths if path.startswith(("archive/", "graph/", "publication/"))]
-    unrelated = [path for path in paths if not path.startswith(("knowledge/governance/PIP-Registry.", "knowledge/governance/README.md", "operations/campaigns/canonical-pip-governance-ledger-2026-07/"))]
+    unrelated = [path for path in paths if not path.startswith(("knowledge/governance/PIP-Registry.", "knowledge/governance/README.md", "operations/campaigns/canonical-pip-governance-ledger-2026-07/", "operations/ci/validate_repository.py"))]
     require(not prohibited, "source_and_prohibited_layers_unchanged", "archive evidence, graph, or publication changed", prohibited)
     require(not unrelated, "allowed_paths_only", "campaign changed an unrelated path", unrelated)
     diff_check = run(["git", "diff", "--check"])
@@ -362,7 +377,8 @@ def main() -> int:
         "campaign_id": "canonical-pip-governance-ledger-2026-07",
         "as_of": "2026-07-18",
         "artifact_count": len(manifest_paths),
-        "artifacts": [{"path": path.relative_to(ROOT).as_posix(), "sha256": digest(path), "size_bytes": path.stat().st_size} for path in sorted(manifest_paths)],
+        "artifact_normalization": "UTF8_TEXT_CRLF_NORMALIZED_TO_LF_BEFORE_SHA256_AND_SIZE",
+        "artifacts": [{"path": path.relative_to(ROOT).as_posix(), "sha256": manifest_digest(path), "size_bytes": manifest_size(path)} for path in sorted(manifest_paths)],
     }
     write_json(HERE / "manifest.json", manifest)
 

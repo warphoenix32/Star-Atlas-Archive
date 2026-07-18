@@ -156,10 +156,22 @@ def validate_markdown_links() -> int:
 
 
 def validate_forbidden_paths(changes: list[str]) -> str:
+    ledger_campaign = any(path.startswith((
+        "operations/campaigns/canonical-pip-governance-ledger-2026-07/",
+        "knowledge/governance/PIP-Registry.",
+    )) for path in changes)
     knowledge_campaign = any(path.startswith(("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")) for path in changes)
     medium_campaign = any("star-atlas-medium" in path or path.startswith(("archive/raw/medium/", "archive/normalized/medium/", "archive/source-records/medium/")) for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    if knowledge_campaign and not medium_campaign:
+    if ledger_campaign and not medium_campaign:
+        allowed = common + (
+            "knowledge/governance/PIP-Registry.md",
+            "knowledge/governance/PIP-Registry.json",
+            "knowledge/governance/README.md",
+            "operations/campaigns/canonical-pip-governance-ledger-2026-07/",
+        )
+        label = "canonical-pip-governance-ledger-2026-07"
+    elif knowledge_campaign and not medium_campaign:
         allowed = common + ("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")
         label = "knowledge-narrative-depth-001"
     elif medium_campaign and not knowledge_campaign:
@@ -232,6 +244,26 @@ def validate_medium_campaign() -> None:
         raise ValidationFailure("Medium campaign validation artifacts do not reconcile with committed files:\n" + diff.stdout)
 
 
+def validate_pip_ledger_campaign() -> None:
+    campaign = ROOT / "operations/campaigns/canonical-pip-governance-ledger-2026-07"
+    command = [sys.executable, str(campaign / "validate_ledger.py")]
+    exclusions = {"build_ledger.py", "validate_ledger.py", "README.md", "canonical-pip-governance-ledger.schema.json"}
+    run(*command, check=True)
+    first = run_cycle(command, campaign, exclusions)
+    second = run_cycle(command, campaign, exclusions)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("PIP ledger campaign output is not deterministic: " + ", ".join(differing))
+    diff = run(
+        "git", "diff", "--exit-code", "--",
+        str(campaign.relative_to(ROOT)),
+        "knowledge/governance/PIP-Registry.json",
+        "knowledge/governance/PIP-Registry.md",
+    )
+    if diff.returncode:
+        raise ValidationFailure("PIP ledger generated artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
 def repository_mode(base_ref: str) -> None:
     documents, records = parse_json_corpus()
     schemas = validate_declared_schemas()
@@ -252,6 +284,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_knowledge_campaign()
     elif contract == "star-atlas-medium-ingestion-2026-07":
         validate_medium_campaign()
+    elif contract == "canonical-pip-governance-ledger-2026-07":
+        validate_pip_ledger_campaign()
     print(f"PASS campaign-contracts: {contract}")
 
 
