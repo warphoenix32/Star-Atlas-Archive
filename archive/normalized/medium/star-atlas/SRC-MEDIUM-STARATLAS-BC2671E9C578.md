@@ -1,0 +1,386 @@
+---
+source_id: SRC-MEDIUM-STARATLAS-BC2671E9C578
+medium_post_id: bc2671e9c578
+title: "The Atlas Star ✧ Issue #14 — Special Edition: 2022 in Review"
+publisher: "Star Atlas"
+published_at: 2023-01-13T22:57:36Z
+updated_at: 2023-01-13T22:57:36Z
+canonical_url: https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578
+document_type: WRITTEN_PUBLICATION
+---
+
+# The Atlas Star ✧ Issue #14 — Special Edition: 2022 in Review
+
+The Atlas Star ✧ Issue #14 — Special Edition: 2022 in Review A tale about building a new world… a look back at the road traveled before stepping into the third year of Star Atlas Happy new …
+
+- Author: Star Atlas
+- Publisher: Star Atlas
+- Published: 2023-01-13T22:57:36Z
+- Updated: 2023-01-13T22:57:36Z
+- Canonical URL: https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578
+
+## Preserved Article
+
+A tale about building a new world… a look back at the road traveled before stepping into the third year of Star Atlas
+
+*The MUD continues to build… and the galaxy moves. /// A Metaverse in expansion in The Showroom /// We Are Star Atlas*
+
+Happy new beginning to the valiant members of the factions of the Council of Peace — MUD, ONI and Ustur alike!
+
+A new cycle of development begins, and Star Atlas is looking towards the many new exciting developments that await in 2023. So, to start out this solar year, we have this special edition of the metaverse publication of record ready for your viewing pleasure.
+
+In this Atlas Star ✧, we look in the rear view mirror at everything we’ve zoomed by, recapping everything of note that happened in the Star Atlas galaxy in 2022. This edition will give you a sense of how far we’ve come over the last 12 months.
+
+As we march into our third year, we prepare for the new milestones within our reach.
+
+In this walkthrough, you will learn about every notable product, partnership, and event that Star Atlas participated in 2022. If you weren’t able to follow it closely, this is the time to catch up with the vibrant development of our ecosystem.
+
+Another spotlight of this edition is the Joni Awards, our community celebration that took place at the end of last year, introducing the winners of the awards.
+
+As in every regular edition, we also got you covered with the most recent developments in Star Atlas:
+
+- The latest roadmap updates for all Star Atlas products — SAGE, Showroom, the DAO, and more.
+- The Punaab Whisper, with the latest news and gossip in the Star Atlas metaverse
+So, find yourself a comfortable seat, a soothing beverage, and prepare to enjoy an uplifting journey into the materialization of your metaverse dreams from the past 12 months.
+
+
+## The Last Farewell to 2022: An Annual Recap
+
+*Traveling through new worlds, exploring an endless galaxy. /// A Metaverse in Light Speed Expansion /// We Are Star Atlas*
+
+
+## Introduction
+
+All the different milestones achieved last year are divided into two sections, Products and Events and Partnerships. Every topic is also equipped with links to in-depth content.
+
+Let’s start by taking a look at the many products deployed by Star Atlas in 2022.
+
+
+## The Product — A Tale of Light-speed 2022 Development
+
+*The Pearce X6 in the Showroom /// A Metaverse in expansion /// We Are Star Atlas*
+
+At the beginning of 2022, Faction Fleet (also known as SCORE) was the only form of gameplay in Star Atlas. While we worked on its successors, the community was dreaming of the exciting features that were detailed in the Star Atlas Economic Paper and the White Paper .
+
+Since then, we have delivered a lot of things. Many products from different venues came together, ranging from game design and blockchain architecture to lore and economic analysis. The Star Atlas team put their heads down and laid down the foundations of our metaverse.
+
+The State of The Economy Report
+
+Arguably the most detailed economic analysis in the game industry, this collection of quarterly articles gives an in-depth explanation of all economic movements in the Star Atlas ecosystem, from faction activities in SCORE to citizenship and wages.
+
+This analysis was available for the community starting in July 2022, and a new version has been released every four months. If you are interested in a deep dive into the Star Atlas economy, this publication is for you.
+
+The Showroom R1 Release
+
+July 2022 brought the First entry into the beautifully rendered Unreal Engine 5 Metaverse, available in the Epic Games Store .
+
+The first time players landed in the Volant Station and summoned their fleets was a pivotal moment in Star Atlas history.
+
+It had proven that it’s possible for a blockchain-based game to create a triple-A quality environment, and although we’re just getting started, this was a major milestone accomplished by Star Atlas.
+
+The New Galactic Marketplace
+
+The Star Atlas dream required us to develop a state-of-the-art marketplace, an in-game galactic hub which could cater to the many specific demands and operations of the vibrant and rich Star Atlas environment. With that in mind, we launched the new galactic marketplace, an agile interface that allows you to easily engage with all components of the economic system from anywhere in the world, offering a fast and smooth experience for our community.
+
+The F-KIT
+
+The Star Atlas Foundation Kit , or the F-KIT for short, was the biggest development tool that Star Atlas created for the Solana ecosystem, completely open and free to use.
+
+Integrating a Solana wallet within the Unreal Engine 5 interface, the F-KIT enables developers to bridge their programs to the Solana blockchain with ease by offering a variety of applications, such as enabling Unreal Engine 5 to interact with on-chain data. We estimate that this saves up to 80% of the development process necessary to create the infrastructure necessary to bridge any Unreal Engine 5 application to Solana.
+
+The SA DAO and The Polis and Atlas lockers
+
+One of the most awaited features of our ecosystem, the foundation of the Star Atlas DAO , our on-chain governance and political interface, was also laid in 2022, enabling our community to lock their POLIS for different durations to participate in the Star Atlas political gameplay features and claim daily rewards in exchange. Around 20% of the circulating supply of POLIS is locked on the protocol, most of it for five years lock, showing the community has a long-term belief in Star Atlas.
+
+SAGE WebGL Fleet Viewer
+
+Akin to Showroom R1, the Star Atlas: Galactic Era (SAGE) fleet viewer in 2022 became the first interactive environment for our players with the SAGE gameplay structure. This module enables our community to see their ships in the beautiful play canvas design of a SAGE hangar while they wait for the not-so-far future when they will be exploring the different star systems of Galia Expanse with them.
+
+CORE — The Episodic Star Atlas Graphic Novel
+
+Another very successful release of 2022, reaching the top of charts, was our first graphic novel, Star Atlas CORE, which tells the story of Gyun, a MUD explorer, and his crew members Osia, an Ustur, and Moda, a Mieresian alien, on their journey through the Galia Expanse and the destiny that awaits them.
+
+Currently, on its third episode, the Star Atlas community is in love with the great work done by lead authors Tim McBurnie and Matt Medney.
+
+The SAGE Game Manuals
+
+The galaxy that we are creating for our community in the web-based SAGE is a very rich ecosystem, filled with hard choices that directly impact your in-game results.
+
+To prepare the community for what is to come, our team starting with the Economics and the Game Design departments published game manuals of the mechanics that explorers will encounter once warping into the SAGE galaxy.
+
+These 2022 reads are still fresh in 2023 and allow you to perceive how much care, thinking, and detail go into every product released by Star Atlas.
+
+The Showroom R2 Release
+
+The grand finale of 2022 game development was the Showroom R2 release.
+
+The Volant Station was no longer the fortress of solitude but has become a vibrant world where you and your friends can have fun flying around, racing, and test your skills on the dog fighting simulator amidst the asteroid belt that surrounds the Showroom.
+
+Start honing your skills because the next iteration of the Showroom will surely put them to the test…
+
+Product Epilogue
+
+It is clear that we have a foundation-building year behind us. Many key doors to the Star Atlas metaverse have opened through products launched in 2022, from gameplay to the economic and political frameworks.
+
+We are thrilled about how our product development was able to achieve so many important milestones last year, general market conditions notwithstanding, and we are excited for what is to come in 2023.
+
+
+## The Journey — A Tale of Star Atlas Partnerships and Events in 2022
+
+*A Theatre Inside the ECOS Superphoenix. /// A Metaverse in expansion /// We Are Star Atlas*
+
+Highlights in Numbers
+
+The year of 2022 was prolific for Star Atlas communication. Our Ustur archivists have run the numbers to provide you with the highlights:
+
+- Star Atlas published 72 articles, an average of six per month.
+- Of all publications, 9 were the Atlas Star, with an average total estimated reading time of 204 minutes.
+- The main Twitter account posted 1.855 tweets, totaling 348.420.441 million impressions.
+- The Voice of Iris revealed the first two chapters of CORE, and 21 entries of weekly lore and roadmap updates.
+- The ONI, Ustur, and MUD members of the Star Atlas Discord participated in 44 Atlas Brew theorycrafting sessions, not missing a single week since its start.
+- CEO Michael Wagner has written 4500 messages in the community Discord, answering community questions, theorycrafting, and sharing exciting news about Star Atlas.
+- The “Count With Us” channel group reached number 146414, with the last entry of the year being posted by our prominent community member Arktype. This is a true passion for counting that exceeds even that of most fervent Ustur mathematicians.
+- Finally, the all-star gathering of the Star Atlas team with its core community, the Town Hall, had nothing short of 12 editions, allowing our members to come and speak directly and openly with the team, making suggestions, asking questions and providing feedback.
+Partnerships in the metaverse
+
+Star Atlas knows that the vision of a metaverse isn’t being created by a single entity alone, so we have been joining forces with amazing partners keen on driving the whole web3 industry forward — here’s an overview of those who joined us in 2022.
+
+Community Events
+
+A Metaverse Collision: Star Atlas and Sandbox Partner Up
+
+One of the most notable partnerships of 2022 was a deepened partnership with The Sandbox through competitions we sponsored and organized together. In two different opportunities, Star Atlas and Sandbox joined forces to reward their users and bring our communities closer together. In one of them, members competed to create the best Star Atlas NPC character in VoxEdit. In the second, the competition grew to another level, tasking players with designing their own Star Atlas game in Sandbox! Both metaverse environments were thrilled with the community’s dedication and gave away hefty prizes for the winners. And not only that, BLOND:ISH joined in with a metaverse contest of her own.
+
+Solana Hacker Houses
+
+As one of the biggest projects on Solana by any standard, Star Atlas always makes sure to support the ecosystem by helping develop the blockchain and support developers to the best of our abilities. With that in mind, Star Atlas has participated in nearly all Solana Hacker Houses that happened this year, sharing experiences with other developers in our ecosystem and providing support for the Solana blockchain.
+
+The OMA3 Alliance for Web3
+
+Together with Animoca Brands and other prominent metaverse platform creators, we have founded OMA3, the Open Metaverse Alliance for Web3, bringing to life our vision of an inclusive, transparent, and decentralized interconnected infrastructure with interoperable assets and services.
+
+Star Atlas COPA
+
+Another first-ever event that happened in 2022 was the Council of Peace Assembly or COPA for short. In this Star Atlas community event, the ones on stage were not Star Atlas team members, but the very guilds that populate the ecosystem, sharing their projects and ideas. It was a great moment of witnessing the strength of the Star Atlas dream, with passion emanating from every single guild and their own plans, ideas and projects.
+
+The 426LIVE Events
+
+After a fantastic show by the community, it was time for Star Atlas to deliver the company’s continued effort on the game development side. That was the motto of the two 426LIVE Events in July and September.
+
+On those two occasions, Star Atlas delivered huge product releases, such as the WebGL fleet viewer of SAGE, the UE5 Showroom (R1) in the Epic Games Store, the upgraded Star Atlas DAO, with an ATLAS locker, and the F-KIT.
+
+Those were moments of celebration for the milestones conquered by Star Atlas, and together with the community, it became an immense fun playing Star Atlas.
+
+Last but not least, we also had the last event of our year, a day dedicated to recognizing the amazing community members that Star Atlas has, and celebrating their many contributions to the sprawling ecosystem. This was the Joni Awards, an event so special that it deserves a spotlight of its own. Let’s dive in.
+
+
+## Joni Awards
+
+*The Grand Community Finale of the Year /// A Metaverse in Expansion /// We Are Star Atlas*
+
+One of the biggest moments in 2022 was celebrating our community’s passion for the Star Atlas metaverse at the Joni Awards. Members of all guilds and groups that make up our community joined together to have fun and celebrate a year of hard work.
+
+There were 12 prize categories, ranging from individual winners to the guilds.
+
+
+## Categories
+
+Community Member of the Year
+
+And the winner was… the legendary Funcracker, a nearly omnipresent existence that is always doing his best to super his guild Aephia and the overall Star Atlas community — what a privilege to have him on board — complete with congratulations.
+
+Most Knowledgeable Star Atlas Community Member of the Year
+
+Prometheus, another Aephian and a powerhouse in the Star Atlas galaxy, was the rightful winner of the most knowledgeable member of the Star Atlas ecosystem. His knowledge about Star Atlas is indeed impressive, and it inspires other members to deep dive into our galaxy secrets. Congratulations!
+
+Community Helper of the Year
+
+The Community Helper of The Year Award went to the renowned space frog, francophone Morpheus! Congratulations on providing so much value and support to the community, especially in the francophone sphere. Félicitations!
+
+Community-Created Project of the Year
+
+The Community Project of The Year Award winner was the equally retro and epic arcade game Tufa Attack. This project took the Star Atlas community like a storm, leading up to an incredible tournament with many prizes. We thank the team behind Tufa Attack for the awesome moments and look forward to their new ideas in 2023.
+
+Meme of the year
+
+This winner came as a surprise to a total of zero people in the Star Atlas community. The “SANTI!!!!” Prairie dog is the most iconic meme ever created, and the community can’t help but smile whenever it appears in the general chat. Congratulations to the marmot whose scream is echoing across the galaxy.
+
+Small Guild of the Year
+
+The winners of the Small Guild of The Year prize were the Ustur pirates of Dark Matter. This group of outlaws has captivated the hearts of many community members and created a great ecosystem. Thank you for being vibrant members of Star Atlas and congratulations on the recognition.
+
+Medium Guild of the Year
+
+The Medium Guild of The Year Award went to the representatives of the eternal city of Rome. This cohort of fierce defenders of the ONI faction is known throughout the ecosystem by their great work in spreading knowledge and awareness of Star Atlas through their podcast, the Metaverse Nomads. Space centurions, congratulations!
+
+Large Guild of the Year
+
+The Large Guild of The Year Award went to the powerhouse that represents the Spanish community in Star Atlas, the explorers of Quimera. Quimera has been all over the place in the Star Atlas ecosystem, promoting inclusion, spreading knowledge, and training their members for the future of the Star Atlas metaverse. We are grateful for all the work done by Quimera as well as other guilds, and are looking forward to all the content they will share in 2023.
+
+Best Guild Website
+
+When talking about guild websites, we can’t help but be excited by what Aephia has created. Should you want to learn about the best deals in the galaxy, or overall information and guides to Star Atlas, you will find it all at Aephia.com. Congratulations on the excellent work, Aephians.
+
+Star Atlas Video of the Year
+
+DAOCaster has been a very active voice in the Star Atlas community, and he also compiled a video that is famous for onboarding hundreds if not thousands of players to Star Atlas. His Full Star Atlas Walkthrough has been recognized by all the community and we appreciate his dedication to Star Atlas. Thank you Tony, and congratulations on the award.
+
+Content Creator of the Year
+
+The Content Creator of The Year prize was awarded to a relentless worker of the Star Atlas dream, a man whose passion for Star Atlas is translated into hundreds of educational and funny videos, the Metaverse Explorer. Thanks for the dedication to Star Atlas. Congratulations for the incredible video opus and to many videos ahead.
+
+Favorite Solana Project
+
+The winner of the favorite community Solana project was the friendly ghost safekeeping our assets, the most popular Solana wallet, Phantom. Congratulations to their team for the victory.
+
+With the 2022 highlights and the annual Jonis behind us, our focus shifts to the affairs of the present day, out on the Galia Expanse, where our reporters from the Punaab Whisper seem to have found a very curious being…
+
+
+## The Punaab Whisper — The Atlas Star Tabloid
+
+*Ohn’s Spaceship /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience.*
+
+Welcome back, Dear Readers, for one more edition of your favorite news channel in the entire galaxy, the Punaab Whisper!
+
+In this edition, your favorite Punaab and his assistant Libra.Iddt will report to you a curious fable that has been reported by Mierese travelers across the space stations of the medium-risk zone. It’s the tale of Ohn — The Thinker.
+
+Although we have yet to find the subject of this story, your Punaab decided to share this unconventional story in order to harness our reader’s help in assessing the truth of the tale.
+
+While the written form is a poor vessel to share a story told by a Mierese, I will relay the content to the best of my ability.
+
+Here it goes:
+
+“The universe is full of an enormous variety of curious beings, yet, Ohn, known as the Thinker, surprises even the most seasoned explorer.
+
+Ohn has been drifting across space on a small spherical ship, which resembles a small garden. While he is not in his private quarters, you will often find Ohn gazing at the stars.
+
+Should you approach Ohn, he will welcome you with a warm smile and probably offer you some fruits from his garden while inviting you for a conversation.
+
+Then, you will learn why he is called Ohn, the Thinker.
+
+Ohn seems to be physically incapable of concluding his opinions regarding any topic of Creation. He will go back and forth, trying to add complexity even to the most trivial of questions.
+
+There exists a report that once upon a time a very famous philosopher went crazy after three days of discussion with Ohn regarding the taste of one of his fruits.
+
+That discussion was started twenty years ago, and Ohn has yet to give a final verdict on the quality of his products.
+
+Even with all his complexity, Ohn has made many friends during his long life due to his innate good nature. Those friends have often invited Ohn to come to live with them, out of his small ship, but he is still debating whether that’s a good idea.”
+
+One of the Mieresians that told us about Ohn said that this “Character” knows many secrets about Galia’s Expanse, but it’s nearly impossible to have him reveal them due to his innate inability to conclude his thoughts.
+
+If any of our readers manage to meet Ohn, please, contact the office of the Punaab Whisper as soon as possible, and we will speedily warp to your location.
+
+We hope you enjoyed this edition, and keep your eyes open for our next issue!
+
+2023 Updates
+
+In the second part of the Atlas Star, we summarize the latest updates and events since the last publication.
+
+
+## CORE — Episode 3 is Out!
+
+*The Third Episode of Core is out! /// A Metaverse in expansion /// We Are Star Atlas*
+
+A new, third edition of the Star Atlas CORE Graphic Novel is out for our fans of lore and adventure! As Gyun and Moda have gotten into trouble with the hurricane group, new characters flock to take advantage of the situation.
+
+Are they friends or foes? And what is this Festival of Light that is about to start in the Mondra 7 space station? You can learn the answer to these questions in chapter three of CORE!
+
+As always, keep an open eye on the ARC cipher and unlock the mysteries hidden within Star Atlas. If you haven’t checked out Episodes #1 and #2, be sure to do so. You can sign up for the newsletter here .
+
+
+## The Atlas Brew
+
+The Atlas Brew has been on fire with the SAGE game analysis. If you missed the wild theorycrafting that the Star Atlas Community has been doing around our next game module, you must hurry and check the links below!
+
+Episode # 41 — Special Brew:
+
+The Atlas Brew #41 Special
+
+Episode # 42 — Economics — Theorycraft around scientific research in SA:
+
+The Atlas Brew #42 — Economics
+
+Episode # 43 — Politics — Theorycraft around DAC platform and politics in SA:
+
+The Atlas Brew #43 — Politics
+
+Episode #44 — SAGE Game Structure:
+
+The Atlas Brew #44 Game Structure
+
+Episode # 45 — SAGE Economy:
+
+The Atlas Brew #45 economics
+
+Episode # 46 — SAGE Politics — Multi-Faction Guilds:
+
+The Atlas Brew #46 politics
+
+
+## Project Report
+
+
+## Project: UE5 Showroom — R2.1
+
+General: R&D /// Art: R&D /// UX/UI: R&D /// VEH: BUILDING /// Sound: R&D /// VFX: R&D /// Animation: R&D /// Engineering: R&D
+
+Updates: R 2.1 planned Q2 2023 Most important bugs from R2 defined. /// Level Art and Props: Railway Station updates, Energy fence gates updated, Ground race track — in progressProps: Added blockout of new props for dressing the updated railway station Vegetation: Some landscaping work, the road to the exit to the racetrack was cleared and decorated Tech art: performance optimization. /// Marketplace implementation in Showroom — TBD. /// VSUS Solo updates Calico Scud exterior updates Pearce C11 greybox updates BOYS Pack Lite (props in progress, Kitchen Interior updates) VZUS Opod — meshes for some interior parts, Meshes for exterior Pearce R6 — greybox Pearce F4 updates ECOS Unibomba — updates BP Lowbie upgrades ECOS Greenader paneling in progress Pearce X4 — interior and exterior updates. /// UE updated up to 5.1 EOS updates, Converting Volant Station into World Partition — in progress Marketplace Functionality in Showroom — in progress Score implementation in Showroom — in progress Ship Blue Prints converting into C++ — in progress Multiplayer replication fixes — in progress Colyseus Plugin for text chat — in progress
+
+Upcoming activities: Fixing highest priority bugs R2.2 TBD. /// LD for Train experience and Ground Race Track All nanite foliage Extend Area to Fly in Showroom. ///Create GDD. /// Check scale on Opal Jet and Opal Jetjet Convert decals meshes to nanite (now that transparency is supported in 5.1) Opod exterior materials. /// Floydliner — Thrusters, Boost sounds Pearce — Weapons, Engine, Shields sounds Incidentals sounds Laser impact sounds for different surfaces. /// Level Art VFX. /// Sitting on all chairs and benches. /// Proximity Voice Chat, Group Chat Further Gamepad support (incl PS5) DLSS 3.0 implementation X4/Floydliner Flight Controls updated to reduce mouse dragging Bring back freelook with HOLD Z while flying.
+
+
+## Project: SAGE v0
+
+Game Design: BUILDING /// Blockchain: BUILDING /// UX/UI Design: BUILDING /// Web: BUILDING /// Game Economics: BUILDING
+
+Updates : Continued to define explicit requirements for core gameplay mechanics and game systems design. Finalized Council Rank Progression system. /// Integrating programs to a thin client, a simplified text-based UI, to test the programs while the playcanvas team continues development. /// Updated station/base landing screens. Continuing development on Item and Ship Inventory UI./// Establishing the end-end communication pipeline between the blockchain and front end for movement. Galaxy entities are now being generated from Blockchain data as opposed to a static JSON file. Started working on mining UI layer. Continuing polishing the galaxy. Working on AudioManager. /// Finalizing LP to ATLAS emissions. Designing algorithm for Star Base R4 consumption
+
+Upcoming activities : Continue to define explicit requirements for core gameplay mechanics and incorporate feedback from SAGE stakeholders. /// Build, peer review, and test programs on testnet, then audit. /// Review wireframes with Project Stakeholders. Continue to iterate until wireframes are approved. Hand over wireframes to the UI team. /// Focus heavily on the hooking up of blockchain data to the client side. Continue to add key functionality to the UI.
+
+Note: all on-chain programs associated with SAGE will undergo cybersecurity and threat modeling prior to the official launch.
+
+
+## Project: Star Atlas DAO — Usability Improvements
+
+Product Design: R&D /// UX design: R&D /// Web Team: BUILDING /// Blockchain: R&D
+
+Updates: Q1 release strategy; requirements gathering process for proposals. /// Building proposals flows. /// Building new wallet connect flow and treasury views. /// Code cleanup and pipeline refinements
+
+Upcoming activities : Revisions of proposal requirements. /// Revisions of proposal flows
+
+
+## Project: Graphic Novel
+
+ART: BUILDING /// UX/UI: BUILDING
+
+Updates: Episode 3 done Episode 4 in progress. /// Episode 3 released.
+
+Upcoming activities: Finish all promotional materials. /// Make next Episode available.
+
+
+## Project: Play.staratlas.com
+
+Features/Bug fixes: Star-atlas-portal Live updated to v0.5.175 PRE-ALPHA. /// Added DAO Link. /// [BUG] Ship enlistment fails — In review. /// CORE Episode 3 launched. /// Build a method to call Amplitude and SignalFox at the same time. /// [Ongoing] Bug fixes for the new landing page. /// [Design] Score claim stakes app. /// [Blockchain] App is in audit with Kudelski.
+
+Features in pipeline: Star-atlas-portal: — [Feature] Create Player Profile. /// [Feature] SCORE Claim Stakes. /// Sorting and Orderbook changes. /// Migrate CORE assets to a storage bucket, away from github repo. /// MoonPay and Jupiter integration — Finishing UX/UI. /// Orderbook History — Hooking up live data. /// [Build] UX/UI on play.staratlas.com.
+
+
+## ABOUT STAR ATLAS
+
+Star Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain, real-time graphics, multiplayer video games, and decentralized financial technologies.
+
+Using Unreal Engine 5’s Nanite, real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using the Solana protocol establishes a largely serverless and secured gameplay experience. Non-fungible tokens obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership. To learn more, visit StarAtlas.com , join a faction at Play.StarAtlas.com , send your spaceships on a deep space mission by enrolling them in a Faction Fleet and download the Showroom on your PC.
+
+
+## JOIN OUR COMMUNITY
+
+Twitter | Discord | YouTube | Instagram | Reddit | Facebook | LinkedIn | Twitch | Tik Tok | Telegram | Medium
+
+
+## Disclaimer
+
+The updates in this report are provided for informational purposes only about the Star Atlas game and metaverse, for which ATMTA, Inc. is the lead developer. Except for statements of historical fact, the statements included herein are forward-looking statements that are based on the beliefs of ATMTA, Inc.’s management as well as assumptions made by and information currently available to ATMTA, Inc.’s management. Although ATMTA, Inc.’s management believes these forward-looking statements are based on reasonable assumptions, there can be no assurance that forward-looking statements will prove to be accurate, as actual results and future events could differ materially from those anticipated in such statements. ATMTA, Inc. undertakes no obligation to update forward-looking statements if circumstances or management’s estimates or opinions should change except as required under applicable law. These forward-looking statements are, by their nature, subject to significant risks and uncertainties and include, without limitation, statements about ATMTA, Inc.’s business prospects, future developments, industry and market trends and conditions, strategies, objectives, and goals. These statements are not guarantees of future performance and undue reliance should not be placed on them. No financial, tax, or legal advice is given or implied.
+
+## Referenced Article Images
+
+- Star Atlas: https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png (URL only; binary not downloaded)

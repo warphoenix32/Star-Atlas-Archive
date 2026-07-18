@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "byte_count": 306357,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/mud-recollection-of-the-past-star-atlas-roadmap-scan-03-a3eb0356023e",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-04-08T21:17:02Z",
+          "dateModified": "2022-04-08T21:17:02Z",
+          "datePublished": "2022-04-08T21:17:02Z",
+          "description": "Star Atlas Weekly Development Report based on the official Roadmap. Recorded conversation of Lieutenant Wenn and Agent M4 aboard Unity BTOL x4: Memories of the past and updated field report for the mission.",
+          "headline": "MUD Recollection of the Past: Star Atlas Roadmap Scan #03",
+          "identifier": "a3eb0356023e",
+          "image": [
+            "https://miro.medium.com/0*0nWo62Nnw08qcaDy"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/mud-recollection-of-the-past-star-atlas-roadmap-scan-03-a3eb0356023e",
+          "name": "MUD Recollection of the Past: Star Atlas Roadmap Scan #03",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/mud-recollection-of-the-past-star-atlas-roadmap-scan-03-a3eb0356023e"
+        },
+        "text_length": 17806
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-weekly-development-report-mud-recollection-of-the-past-a3eb0356023e",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-weekly-development-report-mud-recollection-of-the-past-a3eb0356023e",
+      "sha256": "2f734bc42049cfaed727201cfa69e91e3b39d620a06d28b82139694c35b79dfd",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:06Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-81AC1295ED8D5F75.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-weekly-development-report-mud-recollection-of-the-past-a3eb0356023e",
+  "http_status": 200,
+  "raw_byte_count": 306357,
+  "raw_sha256": "2f734bc42049cfaed727201cfa69e91e3b39d620a06d28b82139694c35b79dfd",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-A8112C11DAE70AAB"
+  ],
+  "requested_url": "https://medium.com/star-atlas/star-atlas-weekly-development-report-mud-recollection-of-the-past-a3eb0356023e",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A3EB0356023E/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

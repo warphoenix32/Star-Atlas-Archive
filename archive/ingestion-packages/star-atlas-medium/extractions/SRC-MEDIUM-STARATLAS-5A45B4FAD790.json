@@ -1,0 +1,133 @@
+{
+  "article": {
+    "block_count": 77,
+    "content_sha256": "80dc5ec63590860d963da90d3e80f1bb7b8b0f60c3820264395ebd66758fe8ec",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F5a45b4fad790&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F5a45b4fad790&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F5a45b4fad790&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790"
+      },
+      {
+        "placement_block": null,
+        "text": "Listen",
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D5a45b4fad790&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790"
+      },
+      {
+        "placement_block": null,
+        "text": "A Sustainable Governance Framework for Star Atlas",
+        "url": "https://staratlas.com/assets/pdfs/sustainable-governance.pdf"
+      },
+      {
+        "placement_block": null,
+        "text": "detailed 30-page document.",
+        "url": "https://staratlas.com/assets/pdfs/sustainable-governance.pdf"
+      },
+      {
+        "placement_block": null,
+        "text": "announced the launch",
+        "url": "https://medium.com/star-atlas/the-star-atlas-dao-the-game-of-polis-fd3798aa6ebe"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas Economics Paper",
+        "url": "https://staratlas.com/assets/pdfs/economics-paper.pdf"
+      },
+      {
+        "placement_block": null,
+        "text": "govern.staratlas.com",
+        "url": "https://govern.staratlas.com/"
+      }
+    ],
+    "published_at_normalized": "2022-09-29T17:24:29Z",
+    "published_at_original": "2022-09-29T17:24:29Z",
+    "updated_at_normalized": "2022-09-29T17:24:29Z",
+    "updated_at_original": "2022-09-29T17:24:29Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-5A45B4FAD790",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C6B9C26055452AF8.json",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": []
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-5A45B4FAD790.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-5A45B4FAD790.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-5A45B4FAD790/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-5A45B4FAD790.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-5A45B4FAD790.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-5A45B4FAD790",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "The Star Atlas DAO Releases its Sustainable Governance Framework",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/the-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

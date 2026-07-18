@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "byte_count": 320255,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-04-29T22:01:33Z",
+          "dateModified": "2022-04-30T00:35:57Z",
+          "datePublished": "2022-04-29T22:01:33Z",
+          "description": "Battle log of Unity BTOL x4 against TUFA Scourge Ambush in the High-Risk Zone — Status of the Agents — MIA “Lesson nº 10 — Never go through an asteroid belt. ",
+          "headline": "TUFA ATTACK: Star Atlas Roadmap Scan #05",
+          "identifier": "65e22130f775",
+          "image": [
+            "https://miro.medium.com/0*Q66b_eIEdQ3mwGZZ"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775",
+          "name": "TUFA ATTACK: Star Atlas Roadmap Scan #05",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775"
+        },
+        "text_length": 21047
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775",
+      "sha256": "f6d0d97e51cdfb7810fe25d81b07ff1a71ec7a87af336022c024736f1006ffe6",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:48Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A2F14F878C41366F.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775",
+  "http_status": 200,
+  "raw_byte_count": 320255,
+  "raw_sha256": "f6d0d97e51cdfb7810fe25d81b07ff1a71ec7a87af336022c024736f1006ffe6",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-65E22130F775/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

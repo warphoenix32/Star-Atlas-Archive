@@ -1,0 +1,663 @@
+{
+  "article_text": "Fellow galactic explorers!\n\nYou’ve heard about the first UE5 module in Star Atlas — the Showroom. You’ve perhaps even seen clips of the epic, fractured landscape, the wondrous interiors, and the range of ships rendered in incredible detail.\n\nYou’re ready to experience all of this yourself, so you have only one question: How do I get in?\n\nFear not! You’ve come to the right place.\n\nHow to enter the Showroom\n\nWe’ve officially kicked off our partnership with Epic Games. To enter the Star Atlas pre-alpha Showroom, take the following steps:\n\nHead to play.staratlas.com\n\nClick on the link that will direct you to the Epic Games Launcher\n\nDownload Showroom and open it\n\nOnce you reach the Showroom landing page, you’ll need to connect a wallet (instructions below)\n\nGo to your player profile page\n\nIf you qualify for access, you’ll see your game key listed on your profile page\n\nIf not, there are ways anyone can earn admittance with a small amount of effort and time\n\nHow to connect an existing wallet to retrieve owned ships\n\nThere are two ways you can import your existing wallet into Showroom: Use your seed phrase or the private key for your wallet.\n\nALWAYS make sure you’re doing this the safest way possible (avoid doing this in public places, make sure that if you use copy/paste you clear your clipboard as soon as you’re done).\n\nOnce you reach the Showroom landing page, do the following:\n\nClick on import wallet\n\nSelect if you want to import using your mnemonic phrase (seed) or your private key\n\nEnter your 12 or 24 words if you chose mnemonic phrase or paste your private key if you chose the latter option\n\nName your wallet and protect it with a password. This password is local only and helps you protect your wallet on your machine. If you lose your password, you’ll have to reimport your wallet.\n\nDISCLAIMER: You should never import a hardware wallet seed phrase into a software wallet.\n\nHow to create a new wallet\n\nAn alternative to importing your existing wallet is to create a new one and send your assets to the new wallet.\n\nTo create a new wallet directly in Showroom, do the following:\n\nClick on “Create Wallet”\n\nSave the series of words that is provided to you in a safe place\n\nName your wallet and protect it with a password. This password is local only and helps you protect your wallet on your machine. If you lose your password, you’ll have to import your wallet with the seed phrase that was provided to you in the previous step so it is extremely important you save it in a safe place (otherwise your wallet will be lost with no possible way to retrieve your assets)\n\nGetting your game key\n\nNot just anyone can walk into the Showroom to get a first glimpse of this marvel of technology.\n\nThe first step to gain access is to redeem your pre-alpha game key and download the Showroom from the Epic Games Store.\n\nKeep in mind that if you’re in the Epic Games Store and you see the term “beta key”, “product code” or “game code”, that’s the same as a game key — all are synonyms referring to the same 20-digit number.\n\nPlayers will gain entry based on their earned badge status:\n\nOn September 29, 2022, players who have at least one Seasoned Badge or higher enrolled in the Faction Fleet gain instant access to the Showroom. Players with higher tiered badges will be given additional game keys which can be given away to other players.\n\nAfterwards, players will gain access automatically when they earn their first badge. If you don’t have a ship in your wallet, you can still visit the Showroom and view a sample spaceship.\n\nHead here for instructions on redeeming your pre-alpha game key (called “beta key” or “product code” on the Epic Games Store), or simply enter it in your Epic Games Store user account options.\n\nConnecting a Wallet\n\nThe next step is to set up your Solana wallet. You can create a new wallet directly in Showroom or import an existing wallet. ATMTA recently released a wallet that connects Unreal Engine 5 with the Solana blockchain.\n\nWallet Creation 101\n\nHow to create a wallet\n\nFrom the Showroom landing page, click “Create Wallet”\n\nAgree with the Terms and Agreement\n\nSave your secret Mnemonic Phrase\n\nFill out your new wallet information\n\nEnter the Showroom\n\nHow to import an existing wallet (1st way) by Private Key\n\nClick Import Wallet\n\nEnter your Private Key and confirm\n\nFill out your wallet information\n\nClick Enter the Showroom\n\nWait for assets and token check\n\nHow to import an existing wallet (2nd way) by Mnemonic Phrase\n\nClick Import Wallet\n\nEnter your Mnemonic Phrase and confirm\n\nSelect the wallet accounts to import\n\nFill out your wallet information\n\nClick Enter the Showroom\n\nWait for assets and token check\n\nImportant safety step — How to lock your current wallet\n\nStep 1: Select wallet Step 2: Click Lock Current Wallet\n\nNeed more help?\n\nIf you need further instruction, watch this How to Connect a Wallet in the Showroom video . You can also head to our Showroom help or open a ticket in our Discord server support channel and a moderator will walk you through it.\n\nSafety tip: Don’t accept support from direct messages. No star atlas Moderator will direct message you first.\n\nSecurity\n\nThe wallet software in Showroom has been found to be secure but is still in a pre-alpha test phase and cannot eliminate all risks if your computer’s security is already compromised. Therefore, it is advised to be conservative when importing assets into Showroom, and to use a new or temporary wallet when possible, especially if your main wallet is a hardware device. The Showroom currently does not support Ledger/hardware wallet connections.\n\nIf you’re using your ships in the Faction Fleet\n\nIf you are using your ships in the Faction Fleet, you will still be able to see them in the Showroom. There is no need to remove them. However, if you use your main wallet for Faction Fleet (SCORE) and Showroom, you may want to move your ships to a temporary hot wallet.\n\nAssets should be moved back to cold storage or a permanent hot wallet after use until further wallet support in Showroom is developed.\n\nComputer/hardware requirements for the Showroom\n\nFirst of all, in order to have a pleasant experience in the Showroom, you’ll need a computer that at a minimum meets these technical specs (along with 20 GB of clear storage):\n\nCPU: Quad-core intel or AMD, 2.5GHz or faster\n\nMemory: 8 GB RAM\n\nGraphics Card: Nvidia 1080, AMD 5700RX or faster\n\nTo experience the Showroom in its full glory and high fidelity, we recommend the following:\n\nCPU: 8 core Intel or AMD, 3.5GHz or faster\n\nMemory: 32 GB RAM\n\nGraphics Card: Nvidia 2070 or faster\n\nNote: Mac computers are currently not supported in the Unreal Engine 5 environment. You will need to use a PC or other compatible hardware to enter the Showroom.\n\nFor more information and answers to related topics, head to our Knowledge Base .\n\nRead more about the Showroom on the Epic Games website .",
+  "blocks": [
+    {
+      "level": null,
+      "text": "Fellow galactic explorers!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "You’ve heard about the first UE5 module in Star Atlas — the Showroom. You’ve perhaps even seen clips of the epic, fractured landscape, the wondrous interiors, and the range of ships rendered in incredible detail.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "You’re ready to experience all of this yourself, so you have only one question: How do I get in?",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Fear not! You’ve come to the right place.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "How to enter the Showroom",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "We’ve officially kicked off our partnership with Epic Games. To enter the Star Atlas pre-alpha Showroom, take the following steps:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Head to play.staratlas.com",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Click on the link that will direct you to the Epic Games Launcher",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Download Showroom and open it",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Once you reach the Showroom landing page, you’ll need to connect a wallet (instructions below)",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Go to your player profile page",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "If you qualify for access, you’ll see your game key listed on your profile page",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "If not, there are ways anyone can earn admittance with a small amount of effort and time",
+      "type": "list_item"
+    },
+    {
+      "level": 3,
+      "text": "How to connect an existing wallet to retrieve owned ships",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "There are two ways you can import your existing wallet into Showroom: Use your seed phrase or the private key for your wallet.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "ALWAYS make sure you’re doing this the safest way possible (avoid doing this in public places, make sure that if you use copy/paste you clear your clipboard as soon as you’re done).",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Once you reach the Showroom landing page, do the following:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Click on import wallet",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Select if you want to import using your mnemonic phrase (seed) or your private key",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Enter your 12 or 24 words if you chose mnemonic phrase or paste your private key if you chose the latter option",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Name your wallet and protect it with a password. This password is local only and helps you protect your wallet on your machine. If you lose your password, you’ll have to reimport your wallet.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "DISCLAIMER: You should never import a hardware wallet seed phrase into a software wallet.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "How to create a new wallet",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "An alternative to importing your existing wallet is to create a new one and send your assets to the new wallet.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "To create a new wallet directly in Showroom, do the following:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Click on “Create Wallet”",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Save the series of words that is provided to you in a safe place",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Name your wallet and protect it with a password. This password is local only and helps you protect your wallet on your machine. If you lose your password, you’ll have to import your wallet with the seed phrase that was provided to you in the previous step so it is extremely important you save it in a safe place (otherwise your wallet will be lost with no possible way to retrieve your assets)",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Getting your game key",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Not just anyone can walk into the Showroom to get a first glimpse of this marvel of technology.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The first step to gain access is to redeem your pre-alpha game key and download the Showroom from the Epic Games Store.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Keep in mind that if you’re in the Epic Games Store and you see the term “beta key”, “product code” or “game code”, that’s the same as a game key — all are synonyms referring to the same 20-digit number.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Players will gain entry based on their earned badge status:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "On September 29, 2022, players who have at least one Seasoned Badge or higher enrolled in the Faction Fleet gain instant access to the Showroom. Players with higher tiered badges will be given additional game keys which can be given away to other players.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Afterwards, players will gain access automatically when they earn their first badge. If you don’t have a ship in your wallet, you can still visit the Showroom and view a sample spaceship.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Head here for instructions on redeeming your pre-alpha game key (called “beta key” or “product code” on the Epic Games Store), or simply enter it in your Epic Games Store user account options.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Connecting a Wallet",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "The next step is to set up your Solana wallet. You can create a new wallet directly in Showroom or import an existing wallet. ATMTA recently released a wallet that connects Unreal Engine 5 with the Solana blockchain.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Wallet Creation 101",
+      "type": "heading"
+    },
+    {
+      "level": 3,
+      "text": "How to create a wallet",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "From the Showroom landing page, click “Create Wallet”",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Agree with the Terms and Agreement",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Save your secret Mnemonic Phrase",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fill out your new wallet information",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Enter the Showroom",
+      "type": "list_item"
+    },
+    {
+      "level": 3,
+      "text": "How to import an existing wallet (1st way) by Private Key",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Click Import Wallet",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Enter your Private Key and confirm",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fill out your wallet information",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Click Enter the Showroom",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Wait for assets and token check",
+      "type": "list_item"
+    },
+    {
+      "level": 3,
+      "text": "How to import an existing wallet (2nd way) by Mnemonic Phrase",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Click Import Wallet",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Enter your Mnemonic Phrase and confirm",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Select the wallet accounts to import",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fill out your wallet information",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Click Enter the Showroom",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Wait for assets and token check",
+      "type": "list_item"
+    },
+    {
+      "level": 3,
+      "text": "Important safety step — How to lock your current wallet",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Step 1: Select wallet Step 2: Click Lock Current Wallet",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Need more help?",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "If you need further instruction, watch this How to Connect a Wallet in the Showroom video . You can also head to our Showroom help or open a ticket in our Discord server support channel and a moderator will walk you through it.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Safety tip: Don’t accept support from direct messages. No star atlas Moderator will direct message you first.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Security",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "The wallet software in Showroom has been found to be secure but is still in a pre-alpha test phase and cannot eliminate all risks if your computer’s security is already compromised. Therefore, it is advised to be conservative when importing assets into Showroom, and to use a new or temporary wallet when possible, especially if your main wallet is a hardware device. The Showroom currently does not support Ledger/hardware wallet connections.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "If you’re using your ships in the Faction Fleet",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "If you are using your ships in the Faction Fleet, you will still be able to see them in the Showroom. There is no need to remove them. However, if you use your main wallet for Faction Fleet (SCORE) and Showroom, you may want to move your ships to a temporary hot wallet.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Assets should be moved back to cold storage or a permanent hot wallet after use until further wallet support in Showroom is developed.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Computer/hardware requirements for the Showroom",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "First of all, in order to have a pleasant experience in the Showroom, you’ll need a computer that at a minimum meets these technical specs (along with 20 GB of clear storage):",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "CPU: Quad-core intel or AMD, 2.5GHz or faster",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Memory: 8 GB RAM",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Graphics Card: Nvidia 1080, AMD 5700RX or faster",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "To experience the Showroom in its full glory and high fidelity, we recommend the following:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "CPU: 8 core Intel or AMD, 3.5GHz or faster",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Memory: 32 GB RAM",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Graphics Card: Nvidia 2070 or faster",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Note: Mac computers are currently not supported in the Unreal Engine 5 environment. You will need to use a PC or other compatible hardware to enter the Showroom.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "For more information and answers to related topics, head to our Knowledge Base .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Read more about the Showroom on the Epic Games website .",
+      "type": "paragraph"
+    }
+  ],
+  "content_sha256": "1c9af3a908f5079454ac3a12b578b1023b1b8f81c969cf8647b4ad226254a167",
+  "embeds": [],
+  "images": [
+    {
+      "alt_text": "Star Atlas",
+      "article_order": 1,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png",
+      "placement_block": null,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    }
+  ],
+  "outbound_links": [
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas",
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F757a54ed134c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fhow-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F757a54ed134c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fhow-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F757a54ed134c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fhow-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c"
+    },
+    {
+      "placement_block": null,
+      "text": "Listen",
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D757a54ed134c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fhow-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c"
+    },
+    {
+      "placement_block": null,
+      "text": "play.staratlas.com",
+      "url": "http://play.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "here for instructions on redeeming your pre-alpha game key",
+      "url": "https://store.epicgames.com/en-US/redeem"
+    },
+    {
+      "placement_block": null,
+      "text": "How to Connect a Wallet in the Showroom video",
+      "url": "https://vimeo.com/754730682/8f43592b98"
+    },
+    {
+      "placement_block": null,
+      "text": "Showroom help",
+      "url": "https://discord.gg/7HsqWctHGN"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord server support channel",
+      "url": "https://discord.gg/KwSmemPCDm"
+    },
+    {
+      "placement_block": null,
+      "text": "Knowledge Base",
+      "url": "https://support.staratlas.com/knowledge/showroom"
+    },
+    {
+      "placement_block": null,
+      "text": "Epic Games website",
+      "url": "https://store.epicgames.com/en-US/news/star-atlas-the-dawn-of-a-space-themed-triple-a-gaming-metaverse"
+    }
+  ],
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "retrieval": {
+    "attempts": [
+      {
+        "byte_count": 274986,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2022-09-29T18:07:13Z",
+            "dateModified": "2022-10-02T19:41:38Z",
+            "datePublished": "2022-09-29T18:07:13Z",
+            "description": "How to enter the Star Atlas Pre-Alpha Showroom Fellow galactic explorers! You’ve heard about the first UE5 module in Star Atlas — the Showroom. You’ve perhaps even seen clips of the epic …",
+            "headline": "How to enter the Star Atlas Pre-Alpha Showroom",
+            "identifier": "757a54ed134c",
+            "image": [
+              "https://miro.medium.com/0*SnIzxJxeOYaCskLA"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+            "name": "How to enter the Star Atlas Pre-Alpha Showroom",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c"
+          },
+          "text_length": 7012
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+        "http_status": 200,
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c"
+          }
+        ],
+        "requested_url": "http://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+        "sha256": "7c46ca394571752e6d0f8f6f66e1753cd431e68c2760c0b86b934ad91737b376",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "captured_at": "2026-07-18T04:28:52Z",
+    "content_type": "text/html; charset=utf-8",
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BD0CD688817291A3.json",
+      "web_archive:wayback-publication"
+    ],
+    "final_url": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+    "http_status": 200,
+    "raw_byte_count": 274986,
+    "raw_sha256": "7c46ca394571752e6d0f8f6f66e1753cd431e68c2760c0b86b934ad91737b376",
+    "redirect_chain": [
+      {
+        "from": "http://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+        "status": 301,
+        "to": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c"
+      }
+    ],
+    "referrer_source_ids": [],
+    "requested_url": "http://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+    "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-757A54ED134C/article.html",
+    "selected_tier": "LIVE_DIRECT_HTML"
+  },
+  "source": {
+    "authors": [
+      "Star Atlas"
+    ],
+    "canonical_url": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+    "document_type": "WRITTEN_PUBLICATION",
+    "language": "English",
+    "medium_post_id": "757a54ed134c",
+    "observed_urls": [
+      "http://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+      "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F757a54ed134c&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fhow-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c&source=---------74-------------5ed69ff9cfb0----bookmark_preview------------------",
+      "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c",
+      "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c?source=rss----a97f09b411f1---4",
+      "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c?source=rss-5ed69ff9cfb0------2",
+      "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c?source=user_profile---------3----------------------------",
+      "https://staratlasgame.medium.com/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c?source=user_profile_page---------74-------------5ed69ff9cfb0----------------------"
+    ],
+    "publication_identity": {
+      "@context": "https://schema.org",
+      "@id": "https://medium.com/star-atlas",
+      "@type": "Organization",
+      "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+      "logo": {
+        "@type": "ImageObject",
+        "height": 1215,
+        "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+        "width": 1485
+      },
+      "name": "Star Atlas",
+      "sameAs": [
+        "https://twitter.com/StarAtlas",
+        "https://facebook.com/staratlasmmo",
+        "https://instagram.com/staratlasgame/"
+      ],
+      "url": "https://medium.com/star-atlas"
+    },
+    "published_at_normalized": "2022-09-29T18:07:13Z",
+    "published_at_original": "2022-09-29T18:07:13Z",
+    "publisher": "Star Atlas",
+    "reading_time_original": "5 min read",
+    "retrieved_at": "2026-07-18T04:28:52Z",
+    "source_id": "SRC-MEDIUM-STARATLAS-757A54ED134C",
+    "source_role": "OFFICIAL_MEDIUM_ARTICLE",
+    "subtitle": "How to enter the Star Atlas Pre-Alpha Showroom Fellow galactic explorers! You’ve heard about the first UE5 module in Star Atlas — the Showroom. You’ve perhaps even seen clips of the epic …",
+    "tags": [],
+    "title": "How to enter the Star Atlas Pre-Alpha Showroom",
+    "updated_at_normalized": "2022-10-02T19:41:38Z",
+    "updated_at_original": "2022-10-02T19:41:38Z",
+    "url": "https://medium.com/star-atlas/how-to-enter-the-star-atlas-pre-alpha-showroom-757a54ed134c"
+  },
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  }
+}

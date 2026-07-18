@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "byte_count": 5925,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d",
+      "sha256": "ded73feb7eddaa6af325e2670097bba0b99bf076cc32891dc7bb35d55a48fb23",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27593,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d",
+      "sha256": "248ccacc191f656bd9e006f56e237b14e20ff7825484da7e9bd8fd143ba43dc8",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 147111,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2022-05-20T15:25:14.779Z",
+          "dateModified": "2022-05-21T02:17:29.683Z",
+          "datePublished": "2022-05-20T15:25:14.779Z",
+          "description": "The first-ever Council of Peace Assembly brings together Star Atlas guilds from across the galaxy — and you are invited. “I’ll take the Jorvik fist.” - Ustur expression implying that it’s better to…",
+          "headline": "Introducing COPA — a Festival of Guilds - Star Atlas - Medium",
+          "identifier": "dc57df0f088d",
+          "image": [
+            "https://miro.medium.com/max/1200/0*Mq9eb-hYF48QrIUS.png"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d",
+          "name": "Introducing COPA — a Festival of Guilds - Star Atlas - Medium",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d"
+        },
+        "text_length": 3139
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20220717151523id_/https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d?_branch_match_id=1077234404485497829&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1XfKMjPJNykPCS5MAgAV9ARGIwAAAA%3D%3D",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20220717151523id_/https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d?_branch_match_id=1077234404485497829&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1XfKMjPJNykPCS5MAgAV9ARGIwAAAA%3D%3D",
+      "sha256": "a541aff9c1a809b69913d3135ffdf30b5fa54c2ff8112e3de41a9410f2e373ac",
+      "snapshot": {
+        "digest": "6G4VNXDTJA4WVP324TP5S3PHLEDMB6NH",
+        "original_url": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d?_branch_match_id=1077234404485497829&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1XfKMjPJNykPCS5MAgAV9ARGIwAAAA%3D%3D",
+        "timestamp": "20220717151523"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:33:38Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D72CE2BCE740856F.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F9654AA6FF1D8010.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20220717151523id_/https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d?_branch_match_id=1077234404485497829&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1XfKMjPJNykPCS5MAgAV9ARGIwAAAA%3D%3D",
+  "http_status": 200,
+  "raw_byte_count": 147111,
+  "raw_sha256": "a541aff9c1a809b69913d3135ffdf30b5fa54c2ff8112e3de41a9410f2e373ac",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20220717151523id_/https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d?_branch_match_id=1077234404485497829&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1XfKMjPJNykPCS5MAgAV9ARGIwAAAA%3D%3D",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-DC57DF0F088D/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

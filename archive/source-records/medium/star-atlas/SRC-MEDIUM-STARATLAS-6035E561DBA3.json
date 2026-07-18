@@ -1,0 +1,148 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3",
+  "collected": "2026-07-18T04:28:47Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "dccccb6ea5068889c277993d8e23392ed1fe06db99d4287fb0cb644e0404cbf0",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-6035E561DBA3.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-6035E561DBA3.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6035e561dba3&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fpunaab-howl-star-atlas-roadmap-scan-06-6035e561dba3&source=---------113-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3",
+    "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3?source=social.tw&_branch_match_id=1051188556220505926&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1fevNIqKCCpx8i9IAgAhDhhUIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3?source=topics_v2---------14-84--------------------b341fdb7_bde8_4212_bcef_5594dde9ee68-------19",
+    "https://staratlasgame.medium.com/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3?source=user_profile_page---------113-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A2F14F878C41366F.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-8FC1F4355787DE86"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 301551,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2022-05-06T16:59:43Z",
+            "dateModified": "2022-05-06T16:59:43Z",
+            "datePublished": "2022-05-06T16:59:43Z",
+            "description": "Punaab Howl: Star Atlas Roadmap Scan #06 Diary of Agent M4 — Memories of planet Gerio with Lieutenant Wenn in the High-Risk Zone “The punaabs are a fascinating species, as diverse as the many …",
+            "headline": "Punaab Howl: Star Atlas Roadmap Scan #06",
+            "identifier": "6035e561dba3",
+            "image": [
+              "https://miro.medium.com/0*FSouelvkZmujDykv"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3",
+            "name": "Punaab Howl: Star Atlas Roadmap Scan #06",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3"
+          },
+          "text_length": 16333
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3",
+        "sha256": "85b12947ae44b87ca3b28f04c4d501296e96b6548a429e3280bd8cafeb227ee1",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-05-06T16:59:43Z",
+  "published_at_original": "2022-05-06T16:59:43Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-6035E561DBA3/article.html",
+  "raw_sha256": "85b12947ae44b87ca3b28f04c4d501296e96b6548a429e3280bd8cafeb227ee1",
+  "source_id": "SRC-MEDIUM-STARATLAS-6035E561DBA3",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Punaab Howl: Star Atlas Roadmap Scan #06",
+  "updated_at_normalized": "2022-05-06T16:59:43Z",
+  "updated_at_original": "2022-05-06T16:59:43Z"
+}

@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "byte_count": 299194,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-05-20T17:45:36Z",
+          "dateModified": "2022-05-20T17:51:52Z",
+          "datePublished": "2022-05-20T17:45:36Z",
+          "description": "Our race is an ancient one and has reached as far as light itself. Yet, some places are beyond our reach. There, true darkness lives.",
+          "headline": "Mierese Dance in the Blizzard: Star Atlas Roadmap Scan #07",
+          "identifier": "e4408dbb3114",
+          "image": [
+            "https://miro.medium.com/0*mA3ufFa7hassDg_q"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114",
+          "name": "Mierese Dance in the Blizzard: Star Atlas Roadmap Scan #07",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114"
+        },
+        "text_length": 18949
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114",
+      "sha256": "51883c83e604cf211e43067af41ff92007dfbd360ea1e352f29a330bb8268bef",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:41:12Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F9654AA6FF1D8010.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114",
+  "http_status": 200,
+  "raw_byte_count": 299194,
+  "raw_sha256": "51883c83e604cf211e43067af41ff92007dfbd360ea1e352f29a330bb8268bef",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E4408DBB3114/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

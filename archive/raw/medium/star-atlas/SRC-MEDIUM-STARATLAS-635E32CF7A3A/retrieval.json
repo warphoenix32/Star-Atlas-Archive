@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "byte_count": 236081,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse-635e32cf7a3a",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-06-08T01:08:20Z",
+          "dateModified": "2022-06-08T01:38:30Z",
+          "datePublished": "2022-06-08T01:08:20Z",
+          "description": "Star Atlas and iBUYPOWER Partner to Onboard Gamers to the Metaverse The leading Solana metaverse and the leading gaming hardware are partnering on custom hardware, unique giveaways and events Star …",
+          "headline": "Star Atlas and iBUYPOWER Partner to Onboard Gamers to the Metaverse",
+          "identifier": "635e32cf7a3a",
+          "image": [
+            "https://miro.medium.com/1*wPW2vf5_4Ruq2GixI1G-gQ.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse-635e32cf7a3a",
+          "name": "Star Atlas and iBUYPOWER Partner to Onboard Gamers to the Metaverse",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse-635e32cf7a3a"
+        },
+        "text_length": 4117
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse-635e32cf7a3a",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse-635e32cf7a3a",
+      "sha256": "e468e2028ae3fdde30a531a00681767162fe4cc940738a772b97f0ad7c1e7072",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:47Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F9654AA6FF1D8010.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse-635e32cf7a3a",
+  "http_status": 200,
+  "raw_byte_count": 236081,
+  "raw_sha256": "e468e2028ae3fdde30a531a00681767162fe4cc940738a772b97f0ad7c1e7072",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse-635e32cf7a3a",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-635E32CF7A3A/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

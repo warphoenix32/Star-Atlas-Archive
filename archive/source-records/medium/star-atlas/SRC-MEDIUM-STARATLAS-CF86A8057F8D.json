@@ -1,0 +1,159 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d",
+  "collected": "2026-07-18T04:29:25Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 2,
+  "media_successes": 0,
+  "normalized_content_sha256": "42b806262a11e61782ef4216919102bd684e75e58cae07c69107897693d6c79e",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-CF86A8057F8D.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-CF86A8057F8D.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fcf86a8057f8d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-animoca-brands-3-million-investment-cf86a8057f8d&source=---------130-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d",
+    "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d?source=read_next_recirc---------1---------------------a77439fa_6b61_4787_a67b_ec70c76ff285----------",
+    "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d?source=social.tw&_branch_match_id=1002340397011304366&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1U%2F3jwgJzw0PTs5NAgDj%2BPZyIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d?source=twitterShare-6b8ef75a2ed1-1641486007&_branch_match_id=1007673938742327534&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1fczTvaq9CvMcspNAgCwJZBCIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d?source=twitterShare-f9ba49f42333-1640416149&_branch_match_id=1003348909891919770&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Tf29w%2FPTE3xSc9NAgA%2FD0IBIwAAAA%3D%3D",
+    "https://staratlasgame.medium.com/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d?source=user_profile_page---------130-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 5974,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d",
+        "sha256": "c8c30f0afb3d933d5cd509ad6f5d6d4015e6619fb3b65a77863495c4dac8a617",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27620,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d",
+        "sha256": "cdacad0471025e44e2a55f1d3f41c7693a46ad0e0ed9d457fe430aacabfaf17a",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 163091,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2021-12-22T14:01:05.422Z",
+            "dateModified": "2022-01-04T00:23:31.741Z",
+            "datePublished": "2021-12-22T14:01:05.422Z",
+            "description": "Star Atlas, the AAA-quality next-gen gaming metaverse built on the Solana blockchain, today announced Animoca Brands has committed to purchasing over $3 million worth of Star Atlas NFT spaceships.",
+            "headline": "Star Atlas Completes over $3 Million NFT Sale to Animoca Brands",
+            "identifier": "cf86a8057f8d",
+            "image": [
+              "https://miro.medium.com/max/1200/1*9zsfCX9ui9-MlU7RGdN0DQ.jpeg"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d",
+            "name": "Star Atlas Completes over $3 Million NFT Sale to Animoca Brands",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d"
+          },
+          "text_length": 4941
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20220527152422id_/https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d?source=read_next_recirc---------1---------------------a77439fa_6b61_4787_a67b_ec70c76ff285----------",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20220527152422id_/https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d?source=read_next_recirc---------1---------------------a77439fa_6b61_4787_a67b_ec70c76ff285----------",
+        "sha256": "7db4805c11000abe2e4b3b624ef81c0765ea80fc4a1ca0989b9a9387c830aedc",
+        "snapshot": {
+          "digest": "WBSLLXYCCS4FAN2YUDGU6OLQFRSQ2ZC4",
+          "original_url": "https://medium.com/star-atlas/star-atlas-animoca-brands-3-million-investment-cf86a8057f8d?source=read_next_recirc---------1---------------------a77439fa_6b61_4787_a67b_ec70c76ff285----------",
+          "timestamp": "20220527152422"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2021-12-22T14:01:05.422000Z",
+  "published_at_original": "2021-12-22T14:01:05.422Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-CF86A8057F8D/article.html",
+  "raw_sha256": "7db4805c11000abe2e4b3b624ef81c0765ea80fc4a1ca0989b9a9387c830aedc",
+  "source_id": "SRC-MEDIUM-STARATLAS-CF86A8057F8D",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Completes over $3 Million NFT Sale to Animoca Brands",
+  "updated_at_normalized": "2022-01-04T00:23:31.741000Z",
+  "updated_at_original": "2022-01-04T00:23:31.741Z"
+}

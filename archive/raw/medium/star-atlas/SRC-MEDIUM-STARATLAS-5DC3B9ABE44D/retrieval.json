@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "byte_count": 273719,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/announcing-starbased-a-new-chapter-in-the-star-atlas-sage-saga-5dc3b9abe44d",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2024-03-26T22:29:32Z",
+          "dateModified": "2024-03-26T22:29:32Z",
+          "datePublished": "2024-03-26T22:29:32Z",
+          "description": "Announcing “Starbased” — A New Chapter in the Star Atlas SAGE Saga The people of Galia watch in awe as gray points start appearing in the skies. Star Atlas Golden Era starts a new chapter, and …",
+          "headline": "Announcing “Starbased” — A New Chapter in the Star Atlas SAGE Saga",
+          "identifier": "5dc3b9abe44d",
+          "image": [
+            "https://miro.medium.com/0*w7w-2nE-Jc1eX-Hb"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/announcing-starbased-a-new-chapter-in-the-star-atlas-sage-saga-5dc3b9abe44d",
+          "name": "Announcing “Starbased” — A New Chapter in the Star Atlas SAGE Saga",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/announcing-starbased-a-new-chapter-in-the-star-atlas-sage-saga-5dc3b9abe44d"
+        },
+        "text_length": 9258
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/announcing-starbased-a-new-chapter-in-the-star-atlas-sage-saga-5dc3b9abe44d",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/announcing-starbased-a-new-chapter-in-the-star-atlas-sage-saga-5dc3b9abe44d",
+      "sha256": "9b2ff7eb64c7ea24f7ae55cd16f3f08449409c2fde4a70d194f07bbc9923e3cb",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:46Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/announcing-starbased-a-new-chapter-in-the-star-atlas-sage-saga-5dc3b9abe44d",
+  "http_status": 200,
+  "raw_byte_count": 273719,
+  "raw_sha256": "9b2ff7eb64c7ea24f7ae55cd16f3f08449409c2fde4a70d194f07bbc9923e3cb",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-9FFFF91025488D09",
+    "SA-DISCORD-ANN-CCF4600A4C08F697"
+  ],
+  "requested_url": "https://medium.com/star-atlas/announcing-starbased-a-new-chapter-in-the-star-atlas-sage-saga-5dc3b9abe44d",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-5DC3B9ABE44D/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

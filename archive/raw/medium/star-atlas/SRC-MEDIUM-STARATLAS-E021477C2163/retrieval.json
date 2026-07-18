@@ -1,0 +1,106 @@
+{
+  "attempts": [
+    {
+      "byte_count": 5974,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+      "http_status": 429,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+      "sha256": "bf1149eff4d117a367a1ec30b4ecb9de9be077852ede3d13431df9f1eb72834a",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27642,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "http://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+      "sha256": "c69c90ca9ac0fc243621ab11096a5cd80c029656080454bcfaf36e518b730559",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 98543,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-08-12T22:59:43.378Z",
+          "dateModified": "2021-08-12T23:00:49.737Z",
+          "datePublished": "2021-08-12T22:59:43.378Z",
+          "description": "Star Atlas is ushering in the future of video games with an immersive metaverse where players are rewarded for the time spent exploring the deepest regions of outer space. Things have changed a lot…",
+          "headline": "How Money is Made in a Metaverse - Star Atlas - Medium",
+          "identifier": "e021477c2163",
+          "image": [
+            "https://miro.medium.com/max/1200/1*spNj1GIR7vS1c7v5uBxGdw.png"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+          "name": "How Money is Made in a Metaverse - Star Atlas - Medium",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163"
+        },
+        "text_length": 5808
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20210813000925id_/http://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20210813000925id_/http://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+      "sha256": "c746e13628d38da1c499f3a5931550388b317a30acf890ee15260e8b3329cf80",
+      "snapshot": {
+        "digest": "XZWHURTYZSMJZ5KECJVCK7ZBIEMWNEVL",
+        "original_url": "http://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+        "timestamp": "20210813000925"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:33:46Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "web_archive:wayback-custom-domain",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20210813000925id_/http://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+  "http_status": 200,
+  "raw_byte_count": 98543,
+  "raw_sha256": "c746e13628d38da1c499f3a5931550388b317a30acf890ee15260e8b3329cf80",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20210813000925id_/http://medium.com/star-atlas/money-metaverse-play-to-earn-crypto-star-atlas-e021477c2163",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E021477C2163/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

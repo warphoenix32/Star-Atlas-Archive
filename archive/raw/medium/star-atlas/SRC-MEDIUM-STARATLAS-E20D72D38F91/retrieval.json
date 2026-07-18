@@ -1,0 +1,99 @@
+{
+  "attempts": [
+    {
+      "byte_count": 259321,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-09-29T18:08:37Z",
+          "dateModified": "2022-10-02T19:39:43Z",
+          "datePublished": "2022-09-29T18:08:37Z",
+          "description": "The Showroom — A Journey Through a Handcrafted Metaverse Learn about the new pre-alpha version of the Showroom and how you can enter and explore Star Atlas’s first Unreal Engine 5 …",
+          "headline": "The Showroom — A Journey Through a Handcrafted Metaverse",
+          "identifier": "e20d72d38f91",
+          "image": [
+            "https://miro.medium.com/0*sEbMqu7Z9GEFPyMP"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91",
+          "name": "The Showroom — A Journey Through a Handcrafted Metaverse",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91"
+        },
+        "text_length": 9293
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91",
+      "sha256": "25efc59be62b73b787e7c6c20f53664f5a28805f03a9f27a6430009e8ec4ab74",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:41:03Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91",
+  "http_status": 200,
+  "raw_byte_count": 259321,
+  "raw_sha256": "25efc59be62b73b787e7c6c20f53664f5a28805f03a9f27a6430009e8ec4ab74",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/the-showroom-a-journey-through-a-handcrafted-metaverse-e20d72d38f91",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E20D72D38F91/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

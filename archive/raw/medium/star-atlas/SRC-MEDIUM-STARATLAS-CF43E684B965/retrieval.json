@@ -1,0 +1,103 @@
+{
+  "attempts": [
+    {
+      "byte_count": 5974,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965",
+      "sha256": "36f71f25f076da9b6b9af38e12f9653051981c9ce2a65db1476a3af5e31c3aed",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27620,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965",
+      "sha256": "1c40742cbca533e5a189576457522d8a407c654a5887110cd4bb2b0b1c047413",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 123630,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2023-06-08T00:09:20.636Z",
+          "dateModified": "2023-06-08T06:18:24.997Z",
+          "datePublished": "2023-06-08T00:09:20.636Z",
+          "description": "Player-owned assets such as mining claim stakes, and on-chain gameplay like SAGE: Escape Velocity are becoming a new source for economic prosperity.",
+          "headline": "Claim Your Destiny: The Dawn of the Player-Driven Star Atlas Economy",
+          "identifier": "cf43e684b965",
+          "image": [
+            "https://miro.medium.com/v2/resize:fit:1200/1*HZGyZSY2GCoJEB3yowORBg.jpeg"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965",
+          "name": "Claim Your Destiny: The Dawn of the Player-Driven Star Atlas Economy",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965"
+        },
+        "text_length": 7250
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20230608224505id_/https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965?source=social.tw&_branch_match_id=1195486023453765153&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcJDHd1dkwKKnZMAgAk6fDSIwAAAA%3D%3D",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20230608224505id_/https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965?source=social.tw&_branch_match_id=1195486023453765153&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcJDHd1dkwKKnZMAgAk6fDSIwAAAA%3D%3D",
+      "sha256": "93c7218a142a2ce446c98ed2d8683b2f1bc5aefab6e020dbaba6496b7cf18342",
+      "snapshot": {
+        "digest": "HECNQCZDLHV4VXUQ2VKRMJLNLRVSW437",
+        "original_url": "https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965?source=social.tw&_branch_match_id=1195486023453765153&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcJDHd1dkwKKnZMAgAk6fDSIwAAAA%3D%3D",
+        "timestamp": "20230608224505"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:24Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20230608224505id_/https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965?source=social.tw&_branch_match_id=1195486023453765153&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcJDHd1dkwKKnZMAgAk6fDSIwAAAA%3D%3D",
+  "http_status": 200,
+  "raw_byte_count": 123630,
+  "raw_sha256": "93c7218a142a2ce446c98ed2d8683b2f1bc5aefab6e020dbaba6496b7cf18342",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-83D13B56D552D028"
+  ],
+  "requested_url": "https://web.archive.org/web/20230608224505id_/https://medium.com/star-atlas/claim-stakes-atlas-gameplay-star-atlas-economy-cf43e684b965?source=social.tw&_branch_match_id=1195486023453765153&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcJDHd1dkwKKnZMAgAk6fDSIwAAAA%3D%3D",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-CF43E684B965/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

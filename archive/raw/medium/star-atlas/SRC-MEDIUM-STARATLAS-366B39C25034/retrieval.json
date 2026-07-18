@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 331359,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atas-x-solana-ama-transcript-366b39c25034",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-03-18T23:48:14Z",
+          "dateModified": "2021-04-01T22:22:46Z",
+          "datePublished": "2021-03-18T23:48:14Z",
+          "description": "Star Atlas x Solana AMA Transcript A recap of the Q&A session with the Solana community follows: Chris: Welcome everyone, thank you for joining us today. I’m really excited to be joined today by …",
+          "headline": "Star Atlas x Solana AMA Transcript",
+          "identifier": "366b39c25034",
+          "image": [
+            "https://miro.medium.com/1*TV2aYWmUzgj9hnmo4vvybQ.png"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atas-x-solana-ama-transcript-366b39c25034",
+          "name": "Star Atlas x Solana AMA Transcript",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atas-x-solana-ama-transcript-366b39c25034"
+        },
+        "text_length": 19738
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atas-x-solana-ama-transcript-366b39c25034",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atas-x-solana-ama-transcript-366b39c25034",
+      "sha256": "baca8db43c5437e3da4a007e495bedd16497e92afaeed75855934e759d690509",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:38Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atas-x-solana-ama-transcript-366b39c25034",
+  "http_status": 200,
+  "raw_byte_count": 331359,
+  "raw_sha256": "baca8db43c5437e3da4a007e495bedd16497e92afaeed75855934e759d690509",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-8EEE151D609F1980"
+  ],
+  "requested_url": "https://medium.com/star-atlas/star-atas-x-solana-ama-transcript-366b39c25034",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-366B39C25034/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

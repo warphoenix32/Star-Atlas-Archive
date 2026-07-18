@@ -1,0 +1,113 @@
+{
+  "attempts": [
+    {
+      "byte_count": 158870,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 410",
+      "final_url": "https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9",
+      "http_status": 410,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9",
+      "sha256": "48bf53edeb846b19aec78b74037c76ba15e29ebf426d4650283959a4dfb1ee1e",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 161080,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9",
+      "http_status": 410,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9",
+      "sha256": "f6d316e34375bb71f67976a3eb3fd7c76c578ff0cacfcb9b1f192843212e43ed",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 169543,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Michael Wagner, CFA",
+            "url": "https://at-mwagner.medium.com"
+          },
+          "creator": [
+            "Michael Wagner, CFA"
+          ],
+          "dateCreated": "2021-01-29T00:01:31.447Z",
+          "dateModified": "2021-03-11T05:41:51.118Z",
+          "datePublished": "2021-01-29T00:01:31.447Z",
+          "description": "Star Atlas, the AAA space exploration strategy game and blockchain-driven virtual metaverse development company announces the closing of its seed round led by Serum and MoonWhale Ventures. Star Atlas…",
+          "headline": "STAR ATLAS CLOSES SEED ROUND WITH SERUM LEADING FUNDING",
+          "identifier": "a5cf1c6bd7c9",
+          "image": [
+            "https://miro.medium.com/max/1200/1*t0mFYBXeoTVIpvk9-t3E2w.png"
+          ],
+          "keywords": [
+            "Lite:true",
+            "Tag:Star Atlas",
+            "Tag:Blockchain",
+            "Tag:Gaming",
+            "Tag:Cryptocurrency",
+            "Tag:Technology",
+            "Publication:star-atlas",
+            "Elevated:false",
+            "LockedPostSource:LOCKED_POST_SOURCE_NONE",
+            "LayerCake:0"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9",
+          "name": "STAR ATLAS CLOSES SEED ROUND WITH SERUM LEADING FUNDING",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9"
+        },
+        "text_length": 7801
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20210311060351id_/https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9?source=social.tw&_branch_match_id=898438391213842843",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20210311060351id_/https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9?source=social.tw&_branch_match_id=898438391213842843",
+      "sha256": "4d5c00e0e7cd153abf9f1ddd405ae049b7bc7503459a377c365a2d5870cca3a2",
+      "snapshot": {
+        "digest": "25TCNHMIE6U3WI76E4JSTNKTSZ5BE6TP",
+        "original_url": "https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9?source=social.tw&_branch_match_id=898438391213842843",
+        "timestamp": "20210311060351"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:09Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0333A5B22A207D88.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4EAAA31A80812F1F.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20210311060351id_/https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9?source=social.tw&_branch_match_id=898438391213842843",
+  "http_status": 200,
+  "raw_byte_count": 169543,
+  "raw_sha256": "4d5c00e0e7cd153abf9f1ddd405ae049b7bc7503459a377c365a2d5870cca3a2",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20210311060351id_/https://medium.com/star-atlas/star-atlas-closes-seed-round-with-serum-leading-funding-a5cf1c6bd7c9?source=social.tw&_branch_match_id=898438391213842843",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A5CF1C6BD7C9/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

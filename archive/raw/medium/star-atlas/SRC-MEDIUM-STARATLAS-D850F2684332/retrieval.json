@@ -1,0 +1,101 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6010,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332",
+      "sha256": "0a4387b65e4b9dd6efd446f118f34c0d3549d00d5562fc8a5a13e9f612d0584d",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27678,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332",
+      "sha256": "030241019794b89fb28a0343e3291c25cec93c048fd3cf51059841cf71a7a648",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 113400,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-05-07T05:43:14.749Z",
+          "dateModified": "2022-01-21T17:06:36.040Z",
+          "datePublished": "2021-05-07T05:43:14.749Z",
+          "description": "On May 7th at 9 am PST (6am EDT), Star Atlas is launching a live NFT workshop on Twitch as part of the Solana Season Hackathon. With grand prizes and seed funding available to all registrants, and…",
+          "headline": "Star Atlas Is Hosting an NFT Workshop at Solana’s Hackathon",
+          "identifier": "d850f2684332",
+          "image": [
+            "https://miro.medium.com/v2/resize:fit:1200/0*_uJ_Ln9EwGe0cNsT"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332",
+          "name": "Star Atlas Is Hosting an NFT Workshop at Solana’s Hackathon",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332"
+        },
+        "text_length": 4100
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20230326175152id_/https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332?source=post_internal_links---------1----------------------------",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20230326175152id_/https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332?source=post_internal_links---------1----------------------------",
+      "sha256": "f0300047892aeeefc41c088869b92e6ff20a97188bf41515222ff0e577c48d18",
+      "snapshot": {
+        "digest": "DGITRSS3H627XTJYEL747RG6362BATGN",
+        "original_url": "https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332?source=post_internal_links---------1----------------------------",
+        "timestamp": "20230326175152"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:44Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DD9175EF794C1F8D.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20230326175152id_/https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332?source=post_internal_links---------1----------------------------",
+  "http_status": 200,
+  "raw_byte_count": 113400,
+  "raw_sha256": "f0300047892aeeefc41c088869b92e6ff20a97188bf41515222ff0e577c48d18",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20230326175152id_/https://medium.com/star-atlas/star-atlas-is-hosting-an-nft-workshop-at-solanas-hackathon-d850f2684332?source=post_internal_links---------1----------------------------",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-D850F2684332/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

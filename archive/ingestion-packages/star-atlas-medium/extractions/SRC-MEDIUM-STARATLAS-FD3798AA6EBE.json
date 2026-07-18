@@ -1,0 +1,117 @@
+{
+  "article": {
+    "block_count": 78,
+    "content_sha256": "e7f935aeadf583824133be1047a6ced4fe95052d740450e4e9e58383e5cac662",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "The POLIS locker",
+        "url": "https://govern.staratlas.com/"
+      },
+      {
+        "placement_block": null,
+        "text": "here",
+        "url": "https://govern.staratlas.com/"
+      },
+      {
+        "placement_block": null,
+        "text": "how-to video",
+        "url": "https://vimeo.com/732240220/a47e918fee"
+      },
+      {
+        "placement_block": null,
+        "text": "here",
+        "url": "https://vimeo.com/732240220/a47e918fee"
+      },
+      {
+        "placement_block": null,
+        "text": "Knowledge Base.",
+        "url": "https://support.staratlas.com/knowledge/dao"
+      }
+    ],
+    "published_at_normalized": "2022-07-21T20:22:10.136000Z",
+    "published_at_original": "2022-07-21T20:22:10.136Z",
+    "updated_at_normalized": "2022-09-09T18:58:45.772000Z",
+    "updated_at_original": "2022-09-09T18:58:45.772Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-FD3798AA6EBE",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-68D126528852339E.json",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-D1D135983A563775"
+    ]
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-FD3798AA6EBE.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-FD3798AA6EBE.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-FD3798AA6EBE/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-FD3798AA6EBE.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-FD3798AA6EBE.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-FD3798AA6EBE",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "The Star Atlas DAO — The Game of POLIS - Star Atlas - Medium",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/the-star-atlas-dao-the-game-of-polis-fd3798aa6ebe"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

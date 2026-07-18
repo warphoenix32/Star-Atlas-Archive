@@ -1,0 +1,99 @@
+{
+  "attempts": [
+    {
+      "byte_count": 248158,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-intergalactic-economy-101-welcome-to-the-real-world-f42d1889aea7",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-08-26T17:06:14Z",
+          "dateModified": "2021-08-26T23:54:27Z",
+          "datePublished": "2021-08-26T17:06:14Z",
+          "description": "Star Atlas is a gaming metaverse powered and secured by the Solana blockchain. Its economy relies on two cryptocrrency tokens, ATLAS and POLIS.",
+          "headline": "Star Atlas Intergalactic Economy 101: Welcome to the Real World",
+          "identifier": "f42d1889aea7",
+          "image": [
+            "https://miro.medium.com/1*DZLCySLWjECjFcEeWSr9eg.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-intergalactic-economy-101-welcome-to-the-real-world-f42d1889aea7",
+          "name": "Star Atlas Intergalactic Economy 101: Welcome to the Real World",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-intergalactic-economy-101-welcome-to-the-real-world-f42d1889aea7"
+        },
+        "text_length": 6496
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7",
+      "sha256": "5e155ecf2fe74515a6b316255306bb5092992b5259db186804b6e03753ba1f73",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:41:22Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7",
+  "http_status": 200,
+  "raw_byte_count": 248158,
+  "raw_sha256": "5e155ecf2fe74515a6b316255306bb5092992b5259db186804b6e03753ba1f73",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F42D1889AEA7/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

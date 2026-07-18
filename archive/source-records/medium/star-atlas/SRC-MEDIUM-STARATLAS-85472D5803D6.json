@@ -1,0 +1,145 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-announces-breakthrough-feature-atlas-prime-for-paying-solana-network-fees-in-atlas-85472d5803d6",
+  "collected": "2026-07-18T04:28:59Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "98e1cc6c94bd3df64326621f20f473ee3711bb8c2a977ecbb3c5a5b2606c25bc",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-85472D5803D6.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-85472D5803D6.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F85472d5803d6&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-atlas-prime-pay-solana-network-fees-in-atlas-85472d5803d6&source=---------28-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-atlas-prime-pay-solana-network-fees-in-atlas-85472d5803d6",
+    "https://staratlasgame.medium.com/star-atlas-atlas-prime-pay-solana-network-fees-in-atlas-85472d5803d6?source=user_profile_page---------28-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-8C9ADE699F93C1D1"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 236552,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/star-atlas-announces-breakthrough-feature-atlas-prime-for-paying-solana-network-fees-in-atlas-85472d5803d6",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2023-09-20T14:02:23Z",
+            "dateModified": "2023-09-20T14:02:23Z",
+            "datePublished": "2023-09-20T14:02:23Z",
+            "description": "Star Atlas Announces Breakthrough Feature Atlas PRIME for Paying Solana Network Fees in ATLAS In-game currency ATLAS is now a base currency on Solana with ecosystem-wide adoption potential, allowing …",
+            "headline": "Star Atlas Announces Breakthrough Feature Atlas PRIME for Paying Solana Network Fees in ATLAS",
+            "identifier": "85472d5803d6",
+            "image": [
+              "https://miro.medium.com/0*ncBI1jRLd2rYBQpS"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-announces-breakthrough-feature-atlas-prime-for-paying-solana-network-fees-in-atlas-85472d5803d6",
+            "name": "Star Atlas Announces Breakthrough Feature Atlas PRIME for Paying Solana Network Fees in ATLAS",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-announces-breakthrough-feature-atlas-prime-for-paying-solana-network-fees-in-atlas-85472d5803d6"
+          },
+          "text_length": 4341
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-atlas-prime-pay-solana-network-fees-in-atlas-85472d5803d6",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-atlas-prime-pay-solana-network-fees-in-atlas-85472d5803d6",
+        "sha256": "be93579798390ee39e64034003885bb9a8015deeba8c78040637fe1874705e74",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2023-09-20T14:02:23Z",
+  "published_at_original": "2023-09-20T14:02:23Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-85472D5803D6/article.html",
+  "raw_sha256": "be93579798390ee39e64034003885bb9a8015deeba8c78040637fe1874705e74",
+  "source_id": "SRC-MEDIUM-STARATLAS-85472D5803D6",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Announces Breakthrough Feature Atlas PRIME for Paying Solana Network Fees in ATLAS",
+  "updated_at_normalized": "2023-09-20T14:02:23Z",
+  "updated_at_original": "2023-09-20T14:02:23Z"
+}

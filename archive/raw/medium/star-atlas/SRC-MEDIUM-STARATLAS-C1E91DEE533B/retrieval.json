@@ -1,0 +1,99 @@
+{
+  "attempts": [
+    {
+      "byte_count": 241012,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/building-a-next-gen-metaverse-economy-wtih-solana-serum-and-metaplex-c1e91dee533b",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-08-19T00:15:14Z",
+          "dateModified": "2021-08-26T23:55:32Z",
+          "datePublished": "2021-08-19T00:15:14Z",
+          "description": "Star Atlas is building a thriving, self-sustainable, player-owned gaming metaverse with fast, intuitive tools enabling the humanity to reimagine its own future.",
+          "headline": "Building a Next-Gen Metaverse Economy with Solana, Serum and Metaplex",
+          "identifier": "c1e91dee533b",
+          "image": [
+            "https://miro.medium.com/1*LyIL35gn08_9wmIAZUaahw.png"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/building-a-next-gen-metaverse-economy-wtih-solana-serum-and-metaplex-c1e91dee533b",
+          "name": "Building a Next-Gen Metaverse Economy with Solana, Serum and Metaplex",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/building-a-next-gen-metaverse-economy-wtih-solana-serum-and-metaplex-c1e91dee533b"
+        },
+        "text_length": 5750
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/next-gen-metaverse-economy-solana-serum-metaplex-c1e91dee533b",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/next-gen-metaverse-economy-solana-serum-metaplex-c1e91dee533b",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/next-gen-metaverse-economy-solana-serum-metaplex-c1e91dee533b"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/next-gen-metaverse-economy-solana-serum-metaplex-c1e91dee533b",
+      "sha256": "6aa729a22c2305da242449b2eff6a44726850e707a6d6e1e933aedc634a047ab",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:40:43Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/next-gen-metaverse-economy-solana-serum-metaplex-c1e91dee533b",
+  "http_status": 200,
+  "raw_byte_count": 241012,
+  "raw_sha256": "6aa729a22c2305da242449b2eff6a44726850e707a6d6e1e933aedc634a047ab",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/next-gen-metaverse-economy-solana-serum-metaplex-c1e91dee533b",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/next-gen-metaverse-economy-solana-serum-metaplex-c1e91dee533b"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/next-gen-metaverse-economy-solana-serum-metaplex-c1e91dee533b",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-C1E91DEE533B/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

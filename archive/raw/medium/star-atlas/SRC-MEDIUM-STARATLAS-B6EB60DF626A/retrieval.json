@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 261453,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-rise-of-corporations-star-atlas-launches-dac-platform-v0-b6eb60df626a",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2024-02-02T01:10:02Z",
+          "dateModified": "2024-02-05T14:04:42Z",
+          "datePublished": "2024-02-02T01:10:02Z",
+          "description": "The Rise of Corporations — Star Atlas Launches DAC Platform V0 In a new development, Star Atlas is proud to announce the launch of its Decentralized Autonomous Corporations (DACs) platform. This …",
+          "headline": "The Rise of Corporations — Star Atlas Launches DAC Platform V0",
+          "identifier": "b6eb60df626a",
+          "image": [
+            "https://miro.medium.com/0*-3OXaeinYIItaqZR"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-rise-of-corporations-star-atlas-launches-dac-platform-v0-b6eb60df626a",
+          "name": "The Rise of Corporations — Star Atlas Launches DAC Platform V0",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-rise-of-corporations-star-atlas-launches-dac-platform-v0-b6eb60df626a"
+        },
+        "text_length": 6780
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-rise-of-corporations-star-atlas-launches-dac-platform-v0-b6eb60df626a",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-rise-of-corporations-star-atlas-launches-dac-platform-v0-b6eb60df626a",
+      "sha256": "a6310c4e0b9c8682ddb6be02897654d6cdd9fa1c29f6d9df3678c348458345b2",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:11Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-rise-of-corporations-star-atlas-launches-dac-platform-v0-b6eb60df626a",
+  "http_status": 200,
+  "raw_byte_count": 261453,
+  "raw_sha256": "a6310c4e0b9c8682ddb6be02897654d6cdd9fa1c29f6d9df3678c348458345b2",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-A2C10BBDC660491F"
+  ],
+  "requested_url": "https://medium.com/star-atlas/the-rise-of-corporations-star-atlas-launches-dac-platform-v0-b6eb60df626a",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-B6EB60DF626A/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

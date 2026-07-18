@@ -1,0 +1,145 @@
+{
+  "article": {
+    "block_count": 127,
+    "content_sha256": "fcc7714c8c50578fa45179d1d0ecd959c3af85ec56607c36dded2ae3344ef6e3",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F366b39c25034&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atas-x-solana-ama-transcript-366b39c25034&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F366b39c25034&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atas-x-solana-ama-transcript-366b39c25034&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F366b39c25034&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atas-x-solana-ama-transcript-366b39c25034"
+      },
+      {
+        "placement_block": null,
+        "text": "Listen",
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D366b39c25034&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atas-x-solana-ama-transcript-366b39c25034"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas: Calico Guardian Cockpit",
+        "url": "https://staratlas.com/"
+      },
+      {
+        "placement_block": null,
+        "text": "Solana",
+        "url": "https://solana.com/"
+      },
+      {
+        "placement_block": null,
+        "text": "Stardust",
+        "url": "https://www.stardust.gg/"
+      },
+      {
+        "placement_block": null,
+        "text": "Audius",
+        "url": "https://audius.co/"
+      },
+      {
+        "placement_block": null,
+        "text": "Raydium",
+        "url": "https://raydium.io/"
+      },
+      {
+        "placement_block": null,
+        "text": "https://twitter.com/staratlas",
+        "url": "https://twitter.com/staratlas"
+      },
+      {
+        "placement_block": null,
+        "text": "https://t.me/staratlasgame",
+        "url": "https://t.me/staratlasgame"
+      }
+    ],
+    "published_at_normalized": "2021-03-18T23:48:14Z",
+    "published_at_original": "2021-03-18T23:48:14Z",
+    "updated_at_normalized": "2021-04-01T22:22:46Z",
+    "updated_at_original": "2021-04-01T22:22:46Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-366B39C25034",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-8EEE151D609F1980"
+    ]
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-366B39C25034.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-366B39C25034.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-366B39C25034/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-366B39C25034.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-366B39C25034.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-366B39C25034",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "Star Atlas x Solana AMA Transcript",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/star-atas-x-solana-ama-transcript-366b39c25034"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

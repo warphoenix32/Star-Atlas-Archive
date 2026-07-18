@@ -1,0 +1,134 @@
+---
+source_id: SRC-MEDIUM-STARATLAS-835589BA28E7
+medium_post_id: 835589ba28e7
+title: "Cosmic Alpha Burst: Star Atlas Unveils Roadmap, Graphic Novel, SAGE, and More at Solana Breakpoint"
+publisher: "Star Atlas"
+published_at: 2022-11-07T17:42:08Z
+updated_at: 2022-11-07T19:10:06Z
+canonical_url: https://medium.com/star-atlas/cosmic-alpha-burst-star-atlas-unveils-roadmap-graphic-novel-sage-and-more-at-solana-breakpoint-835589ba28e7
+document_type: WRITTEN_PUBLICATION
+---
+
+# Cosmic Alpha Burst: Star Atlas Unveils Roadmap, Graphic Novel, SAGE, and More at Solana Breakpoint
+
+Cosmic Alpha Burst: Star Atlas Unveils Roadmap, Graphic Novel, SAGE, and More at Solana Breakpoint The grand strategy game hosted a mini-racing tournament, wowed devs with its F-KIT, and made several …
+
+- Author: Star Atlas
+- Publisher: Star Atlas
+- Published: 2022-11-07T17:42:08Z
+- Updated: 2022-11-07T19:10:06Z
+- Canonical URL: https://medium.com/star-atlas/cosmic-alpha-burst-star-atlas-unveils-roadmap-graphic-novel-sage-and-more-at-solana-breakpoint-835589ba28e7
+
+## Preserved Article
+
+The grand strategy game hosted a mini-racing tournament, wowed devs with its F-KIT, and made several major announcements, including its first Showroom multiplayer interaction and the upcoming web browser game ‘Star Atlas: Golden Era’.
+
+The coast of Portugal may be known as a surfer’s paradise but it was Star Atlas making waves and grabbing the attention at Solana Breakpoint this weekend in Lisbon.
+
+ATMTA Inc., the lead developer of Star Atlas, unveiled a plethora of announcements related to the development and new features of Star Atlas, including the future roadmap of the gaming project, the release date for the Star Atlas: CORE graphic novel, and the next evolution of the playable triple-A quality demo gaming experience in UE5.
+
+At Games Day, a parallel event also held in Lisbon during the same weekend, Star Atlas had the crowd buzzing with a gaming booth, tech presentations given by senior team members and a thrilling e-sports racing mini-tournament held on the main stage.
+
+ATMTA made all of these announcements under the theme “Building on Star Atlas is building on Solana”.
+
+Wagner ushers in a ‘Golden Era’
+
+As part of his keynote presented on the Breakpoint Stage, Star Atlas co-founder and ATMTA, Inc. CEO Michael Wagner outlined where the project has been and where it’s heading in the coming years. He began with the vision that has guided the project since its inception:
+
+Star Atlas is a ship that navigates the immensity of the unknown future before us, riding on the waves of technological and sociological innovation, picking up the next billion users along the way.
+
+Wagner emphasized that Star Atlas embodies the essence of Web3 gaming at a truly unique moment in history. “The latest in gameplay technology has created an opportunity for a futuristic science fiction experience that is entirely new and groundbreaking,” said Wagner. “Meanwhile, advancements in NFT standards allow for true digital ownership and new incentive alignments between all stakeholders, while the blockchain provides the base layer for a truly permissionless Metaverse.”
+
+Star Atlas brings all of that technology together with Unreal Engine 5 graphics and community-driven content. At the same time, Star Atlas fully embraces the decentralized ethos of web3, empowering the community to not only be a spectator and receiver of technologies, but also to participate in the expansion of the project itself.
+
+Wagner pointed out that Breakpoint is only the latest milestone in a busy ‘Star Atlas Summer’ full of events and product launches. Beginning in May, the team held a raucous and competitive Copa event that celebrated the many guilds already operating within the Star Atlas metaverse. This was followed by two “426LIVE” product launch events in July and September that saw the introduction of the Star Atlas DAO, POLIS and ATLAS locking, the first-ever open source Foundation Software Development Kit (F-KIT) (more information below), and a sustainable government framework that will gradually turn control of the game over to the community via the Star Atlas DAO.
+
+For many players, the highlight of the September 426LIVE was the release of the demo version of the Showroom , offering the first glimpse of a real-time Unreal Engine 5 (UE5) game environment with lifelike, triple-A quality graphics. The downloadable pre-alpha demo client combines state-of-the-art blockchain with UE5’s Nanite, Lumen and other cutting edge graphics technology to deliver cinematic quality video game visuals. It also allows for a display of in-game assets fully owned by the players, and is the first triple-A quality blockchain game available on the Epic Games Store. The full Showroom with expanded functionality is aimed for release in Q4 2022.
+
+Download the Showroom via the Epic Games Store and learn about Game Keys that allow access.
+
+Seasonal Development
+
+Wagner also revealed a multi-year roadmap for development of the Star Atlas game that ensures the ecosystem will continue to be a nexus of innovation in the blockchain and beyond.
+
+The game will evolve episodically over “seasons” ensuring the community will enjoy fun and exciting gameplay as the project continues to expand in breadth and functionality.
+
+Pre-Season and Season 0
+
+The Showroom Pre-Season will begin soon and will consist of 4 phases:
+
+Seasons 1–8
+
+An additional eight seasons were also outlined. These will include everything from mining careers and the first faction central station in Season 1 to rescue, refueler, and politician careers and a fully decentralized game in Season 8.
+
+The release of such a detailed, transparent and overarching roadmap answers many questions, including some that haven’t even been asked yet. The existing community, new players, the media and the world at large all now know — and can all get excited about — the plan moving forward.
+
+To get more information, be sure to join the Star Atlas Discord and check out the Atlas Brew , a live Discord audio chat where the core community can ask questions and discuss topics related to the Star Atlas game. The Brew goes live every Wednesday at 3PM ET.
+
+Games Day
+
+If Games Day was one of the most anticipated side events taking place during Solana Breakpoint weekend, then the Star Atlas contributions to the program were high points for players and developers alike. At the Star Atlas booth, anyone could watch gameplay from the recently dropped demo of the Showroom.
+
+In addition, members of the team were given time on stage to make presentations on stage.
+
+F-KIT
+
+Principal Engineer Jim Carter gave a talk showcasing details and benefits of the fully open source Foundation Software Development Kit (F-KIT), the ultimate tool for all web3 builders. The F-KIT enables player ownership and participation in the greater economy by connecting them quickly and easily to the Solana blockchain from inside Unreal Engine 5. It also brings developers the blueprints for UI and visual coding ability to integrate with any Solana Program.
+
+SAGE (formerly known as Project SCREAM)
+
+It was also announced this weekend that Project S.C.R.E.A.M has received an official name: “Star Atlas: Golden Era”, or S.A.G.E. for short. Sage will be a top-down, webGL-based, grand strategy game with some of the same game loops that will take place in later seasons of Star Atlas. Blockchain Architect Brett Etter gave a presentation on blockchain MMO architecture, including the mechanics and structure behind SAGE.
+
+Racing Tournament
+
+As part of their presentation on the Games Day stage, the ATMTA team hosted a Star Atlas racing tournament using UE5 technology. Two teams of four preselected gamers faced off in the first ever competitive Star Atlas mini-tournament.
+
+Introducing Star Atlas: CORE
+
+The ATMTA team also unveiled the details of Star Atlas: CORE, an exciting new graphic novel and accompanying partnership.
+
+CORE will immerse new and existing players in the rich tapestry of lore that lies at the heart of the Star Atlas universe. The episodic tale will be released by ATMTA Studios in chapters, one per month for the next 18 months.
+
+The narrative is set just before the start of the Convergence War and focuses on Geyung, a MUD protagonist still reeling after a visit to a planet in the High Risk Zone ends with a catastrophic blow to his team. It’s a tale of heroism, heartbreak, and epic adventure from a team of award-winning creatives that will be released later this year. Readers can also hunt for clues that can be used to solve a mystery with a prize at the end that spans the entire CORE catalog.
+
+The first chapter of CORE will be released November 7th. You can access it Here .
+
+Quarterly economic reports
+
+As a play-and-earn game, Star Atlas has long been focused on constructing an economic framework that is both flexible and resilient to changing conditions. Wagner pointed to the economic reports which ATMTA publishes quarterly. The most recent edition, the Star Atlas State of the Economy Q3 2022, shares and unpacks data that helps define citizenship in digital worlds.
+
+Community Gathering
+
+Members of the Star Atlas community held their own event on the Sunday evening of Solana Breakpoint. Community members and ATMTA team members met up at a local brewery, then walked to a restaurant for dinner, with many excited to be meeting their ‘virtual’ friends in person for the first time.
+
+An end… and a beginning
+
+As Solana Breakpoint 2022 comes to a close, the Star Atlas community remains as passionate and committed as ever. With over 315,000 followers on Twitter and active participation by over 60 player guilds, the buzz is palpable. And with alpha dropped here in Lisbon, explorers across the globe can now look toward the future with heightened anticipation as the ever expanding Star Atlas metaverse comes further into focus with every passing day.
+
+
+## About Star Atlas
+
+Star Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain, real-time graphics, multiplayer video games, and decentralized financial technologies.
+
+Using Unreal Engine 5’s Nanite, real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using the Solana protocol establishes a largely serverless and secured gameplay experience. Non-fungible tokens obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership. To learn more, visit StarAtlas.com , join a faction at Play.StarAtlas.com and send your spaceships on a deep space mission by enrolling them in a Faction Fleet .
+
+Other points of interest
+
+Govern.staratlas.com
+
+Build.staratlas.com (for developers)
+
+
+## JOIN OUR COMMUNITY
+
+Twitter | Discord | YouTube | Instagram | Reddit | Facebook | LinkedIn | Twitch | Tik Tok | Telegram | Audius | Medium
+
+Media Contacts
+
+Matej.Mavec@staratlas.com
+
+David.Boerger@staratlas.com
+
+## Referenced Article Images
+
+- Star Atlas: https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png (URL only; binary not downloaded)

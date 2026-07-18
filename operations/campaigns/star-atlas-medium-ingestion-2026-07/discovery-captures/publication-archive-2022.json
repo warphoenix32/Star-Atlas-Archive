@@ -1,0 +1,19 @@
+{
+  "body_path": "operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/publication-archive-2022.html",
+  "byte_count": 162765,
+  "capture_label": "publication-archive-2022",
+  "captured_at": "2026-07-18T04:22:47Z",
+  "content_type": "text/html; charset=utf-8",
+  "error": null,
+  "final_url": "https://medium.com/star-atlas/all?year=2022",
+  "http_status": 200,
+  "redirect_chain": [
+    {
+      "from": "https://medium.com/star-atlas/archive/2022",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/all?year=2022"
+    }
+  ],
+  "requested_url": "https://medium.com/star-atlas/archive/2022",
+  "sha256": "b8f83fcb7af2d6ec9944b24040ff529cacd797032ececc6e5855b73ffe1500db"
+}

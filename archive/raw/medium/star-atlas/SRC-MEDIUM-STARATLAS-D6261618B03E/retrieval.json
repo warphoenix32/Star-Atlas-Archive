@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6001,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e",
+      "sha256": "085154c70ae9d867304b99195c99699ff36b3808f3222d5157143530c762b713",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27551,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e",
+      "sha256": "d2e8bc521be84d9430a7438a03ae6ffdd011d1fa25b754577ca1af1f0aab9d0a",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 206424,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2023-07-05T21:42:50.966Z",
+          "dateModified": "2023-07-06T04:16:19.241Z",
+          "datePublished": "2023-07-05T21:42:50.966Z",
+          "description": "Hello Moon will provide Star Atlas gaming products with real-time scalable access to Solana blockchain data, enabling seamless player-owned gaming experience Star Atlas, the highly popular…",
+          "headline": "Star Atlas and Hello Moon Partner to Level Up Gaming with Live Data Streaming",
+          "identifier": "d6261618b03e",
+          "image": [
+            "https://miro.medium.com/v2/resize:fit:1200/1*abH8hfi72OinR3ZXANyXew.jpeg"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e",
+          "name": "Star Atlas and Hello Moon Partner to Level Up Gaming with Live Data Streaming",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e"
+        },
+        "text_length": 3260
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20230707001721id_/https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e?source=topic_portal_recommended_stories---------6-84----------technology----------4ba07ba3_6dd0_4794_b951_474f11aefa26-------&responsesOpen=true&sortBy=REVERSE_CHRON",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20230707001721id_/https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e?source=topic_portal_recommended_stories---------6-84----------technology----------4ba07ba3_6dd0_4794_b951_474f11aefa26-------&responsesOpen=true&sortBy=REVERSE_CHRON",
+      "sha256": "59ecfbd57d7fb2f74c58af5cf2555d2a500c18e71a63ea2384c7888747e73296",
+      "snapshot": {
+        "digest": "6GZGT2PEGJFHONJTVR5HXUHVRK3NWWTH",
+        "original_url": "https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e?source=topic_portal_recommended_stories---------6-84----------technology----------4ba07ba3_6dd0_4794_b951_474f11aefa26-------&responsesOpen=true&sortBy=REVERSE_CHRON",
+        "timestamp": "20230707001721"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:29Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20230707001721id_/https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e?source=topic_portal_recommended_stories---------6-84----------technology----------4ba07ba3_6dd0_4794_b951_474f11aefa26-------&responsesOpen=true&sortBy=REVERSE_CHRON",
+  "http_status": 200,
+  "raw_byte_count": 206424,
+  "raw_sha256": "59ecfbd57d7fb2f74c58af5cf2555d2a500c18e71a63ea2384c7888747e73296",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20230707001721id_/https://medium.com/star-atlas/star-atlas-hello-moon-solana-gaming-live-data-streaming-d6261618b03e?source=topic_portal_recommended_stories---------6-84----------technology----------4ba07ba3_6dd0_4794_b951_474f11aefa26-------&responsesOpen=true&sortBy=REVERSE_CHRON",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-D6261618B03E/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

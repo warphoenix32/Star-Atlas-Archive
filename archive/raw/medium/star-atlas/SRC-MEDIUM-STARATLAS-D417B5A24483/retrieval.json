@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 265968,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-announces-first-ever-web3-space-economy-simulation-game-for-solana-and-p2e-gamers-d417b5a24483",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2023-08-16T17:04:30Z",
+          "dateModified": "2023-08-21T17:18:00Z",
+          "datePublished": "2023-08-16T17:04:30Z",
+          "description": "Star Atlas Announces First Ever Web3 Space Economy Simulation Game for Solana and P2E Gamers SAGE Labs is an early access browser-based open-world game with real-time gameplay, total freedom of …",
+          "headline": "Star Atlas Announces First Ever Web3 Space Economy Simulation Game for Solana and P2E Gamers",
+          "identifier": "d417b5a24483",
+          "image": [
+            "https://miro.medium.com/1*0X9XeEK6mgfPc-x06OjLBg.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-announces-first-ever-web3-space-economy-simulation-game-for-solana-and-p2e-gamers-d417b5a24483",
+          "name": "Star Atlas Announces First Ever Web3 Space Economy Simulation Game for Solana and P2E Gamers",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-announces-first-ever-web3-space-economy-simulation-game-for-solana-and-p2e-gamers-d417b5a24483"
+        },
+        "text_length": 10523
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-star-labs-first-ever-web3-space-economy-simulation-game-solana-p2e-gamers-d417b5a24483",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-star-labs-first-ever-web3-space-economy-simulation-game-solana-p2e-gamers-d417b5a24483",
+      "sha256": "1575a2e136f581bb94526beb9f7cf1c14ba6171773ff2219941867e9effa6df1",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:40:57Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-star-labs-first-ever-web3-space-economy-simulation-game-solana-p2e-gamers-d417b5a24483",
+  "http_status": 200,
+  "raw_byte_count": 265968,
+  "raw_sha256": "1575a2e136f581bb94526beb9f7cf1c14ba6171773ff2219941867e9effa6df1",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-FFAE1108C76C18C0"
+  ],
+  "requested_url": "https://medium.com/star-atlas/star-atlas-star-labs-first-ever-web3-space-economy-simulation-game-solana-p2e-gamers-d417b5a24483",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-D417B5A24483/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

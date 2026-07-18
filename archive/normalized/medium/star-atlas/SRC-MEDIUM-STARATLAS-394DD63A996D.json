@@ -1,0 +1,1026 @@
+{
+  "article_text": "Patch day is here! Bringing a visually complete Pearce X5, a Paizul’s Arena level up, the long-desired dedicated servers, and shiploads more! There’s also a bunch of quality-of-life tweaks and bug fixes.\n\nWith this update, our monthly patch cycle is taking a short break as we gear up for a major mid-year release featuring gunplay matchmaking and the first version of progression.\n\nMAJOR HIGHLIGHTS\n\nDedicated servers for gunplay lobbies with 4 or more players\n\nNew multiplayer hosting/joining lobby flow\n\nPaizul’s Arena overhaul & Gateway redesign\n\nPearce X5 in-game model completion\n\nCustom keybind remapping and improved controller support\n\nCo-op Dogfighting\n\nMultiplayer racing improvements\n\nMining minigame improvements\n\nGUNPLAY\n\nBalance Changes\n\nAdjusted melee, jettie boost, fall and weapon damage values: People should die a lot more quickly now!\n\nReduced firearm swap cooldown from .75s to .1s\n\nFixed accuracy values of sighted weapon in and out of ADS: Sorry, no more easy sniper no scopes\n\nGunplay Trainer bots no longer spawn with a grenade\n\nWeapon Changes\n\nAdded new shotgun model\n\nAdded new optimized weapon models that support weapon skinning\n\nAdded Gatling Gun Spin Up and Spin Down delay when firing\n\nAdded increased bounciness to grenades\n\nChanged Auto Rifle pickups to be Scout Rifle pickups: you now spawn with Auto Rifles, so we’re switching old Auto Rifle pickups to be Scout Rifles now\n\nAdded lag compensation support for melee hit detection\n\nIncreased pickup radius on weapon spawners\n\nHUD Changes\n\nRefactored the minimap: Supports building interiors, added new mini-map icons for vehicle/trains/race gates/zones, added new states alive/dead, damage direction indicators and increased enemy visibility radius in the minimap\n\nAdded crosshair aim obstructor indicator “X” on player HUD when your bullets hit a wall\n\nAdded kills/points in the match HUD\n\nAdded team population when in team selection\n\nAdded new icon for Gun Game winner\n\nAdjusted Shield, Health, and Jettie Juice HUD bars\n\nAdded killstreak callouts in game feed\n\nAdded zone capture callouts in game feed\n\nAdded crosshair animations and damage numbers for Grenades and Jettie Melee\n\nAdded incoming missile indicator on Ship HUD\n\nGALIA (OPEN WORLD)\n\nAdded new vehicle modes: Combat, Tractor Beam, Scanning, and Mining\n\nAdded new tractor beam tether/vacuum mode\n\nAdded different-sized asteroids for a variety of difficulties in the mining minigame\n\nAdded “Mock-Credits” that can be earned through gameplay and saved between sessions\n\nAdded mineables on planet surfaces\n\nAdjusted vehicles to now use gravity volumes instead of portals\n\nOptimized API logic for getting gravity on an actor\n\nImproved character movement transitions between different gravity directions\n\nMAPS AND ENVIRONMENT\n\nPaizul’s Arena (Arena Map)\n\nUpdated Paizul’s Arena with new textures and a higher resolution blockout\n\nUpdated exterior environment of Paizul’s Arena with atmospheric ship traffic and references to the ONI CSS\n\nAdded new lighting\n\nAdded destructible pillars\n\nGateway (Arena Map)\n\nUpdated map layout based on community feedback: Some players expressed their feelings of the map feeling bigger than it was, so we’re adding more ways to get into the action quicker\n\nUpdated the map with various optimization improvements\n\nAdded new lighting\n\nFixed various collision issues\n\nUru (Arena Map)\n\nUpdated the map with additional progress on the white box phase\n\nAdded new lighting\n\nFixed various collision issues\n\nGunplay Trainer Map\n\nAdded the ability to shoot through railings and other smaller holes\n\nAdded the ability to fly/mantle through the wider gaps in the building walls\n\nAdjusted the stairs to be smoother\n\nMULTIPLAYER\n\nAdded new multiplayer lobby support\n\nAdded dedicated servers for lobbies that start a gunplay match with 4 or more players\n\nImproved multiplayer support for vehicles: Replicated vehicle animations, reduced rubber banding, fixed vehicle visibility issues and fixed floating characters\n\nRACING AND DOGFIGHTING\n\nRacing\n\nImproved user experience for starting a multiplayer race\n\nAdded support for reverse direction races (and leaderboards)\n\nAdded jump pads to scale heights in tracks\n\nFixed a variety of issues surrounding vehicle race times on a leaderboard\n\nAdded a wrong-way/missed checkpoint HUD indicator\n\nDogfighting\n\nAdded a CO-OP version of the dogfighting minigame\n\nAdded drop pickups after you destroy enemy AI spaceships\n\nImproved enemy AI bots logic\n\nAdded new leaderboard\n\nVEHICLES\n\nAdded the Pearce X5 with final art\n\nFixed a variety of issues with the Pearce R6\n\nAdjusted the handling of various XXS ships\n\nImproved nametag support for possessed vehicles\n\nRestored the ability to customize equipment groups in vehicle configurator\n\nAdded new HUD notification when trying to subwarp with insufficient fuel\n\nCHARACTER\n\nImproved jettie dashing while hovering\n\nAdded the ability to chain movement abilities: you can now chain a slide after a dash as well as instantly slide when landing if you held a slide input\n\nFixed a character’s knees to point in the direction of motion during a slide\n\nAdjusted camera for all species: playing a Punaab has never felt this good\n\nSpecial Effects\n\nSFX\n\nAdded new sounds: Game mod voice-overs, weapon swaps, Cockpit wind, Ragdoll Impacts, and states of character (alive/dead)\n\nVFX\n\nChanged VFX on vehicle thruster\n\nImproved Jettie VFX and adjusted size/location by species\n\nAdded grenade sparks on bounces\n\nAdded new waterfall VFX\n\nDecreased lifetime of weapon tracers\n\nOPTIMIZATION\n\nRefactored galaxy requests system\n\nUpgraded to Unreal Engine 5.5.4\n\nMigrated and refactored all Weapon Effects logic to C++\n\nImproved character/vehicle possession logic\n\nMISCELLANEOUS BUGS AND FIXES\n\nFixed an issue where traveling to edges of arenas in photomode would create weapon spawner icon visual artifacts\n\nFixed scroll box height for accounts list\n\nFixed a bug where some players would experience the lighting breaking in the configurator screen\n\nFixed an issue where the HUD leaderboard wouldn’t reset correctly\n\nFixed an issue where missiles would sometimes not apply damage\n\nFixed an issue where kills/points/deaths would accrue between matches\n\nFixed an issue where a character wouldn’t be facing the correct direction on respawn\n\nFixed an issue where a player couldn’t back out of changing their team\n\nUpdated celebration test from “Defeat” to “Match Over”\n\nFixed an incorrect celebration screen when ONI wins in Surge\n\nImproved network reliability of character weapon drawing/holstering/swapping events\n\nFixed an issue where players would pop/teleport when loading into a gunplay match\n\nFixed team tile highlighting logic on the team select screen\n\nAdded a way for players to switch teams mid match by pressing F2\n\nFixed an issue causing some players to t-pose\n\nAdded FX to melee hits\n\nFixed toggled crouch desync on death while crouch\n\nAdjusted camera shakes to stop when a ship/character is destroyed\n\nFixed an issue where players would sometimes take fall damage on respawn\n\nAdded missing seat slots to double benches\n\nFixed a memory leak where bots wouldn’t get fully destroyed on death\n\nFixed an issue with max craning height in Photo Mode\n\nFixed various edge cases around zone indicators disappearing or not displaying the correct state\n\nFixed vehicle cruise control issues when a player would alt-tab\n\nFixed an issue where header menu elements didn’t work in the vehicle configurator\n\nAdjusted scroll bars to be easier to use\n\nFixed an issue where a ship would remain in a leaned orientation when exiting a ship during leans\n\nAdded teleport FX that plays during multiplayer respawns\n\nFixed an issue where grenade FX would not sync correctly in local clients\n\nAdjusted the ship configurator screen to not have the component selection menu automatically open\n\nFixed an issue where crosshair animations would play immediately after respawn\n\nFixed an issue where Photo Gallery drop down sorting filters wouldn’t work\n\nABOUT STAR ATLAS\n\nStar Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain technologies, real-time graphics, and multiplayer video games.\n\nUsing Unreal Engine 5’s Nanite real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using Solana establishes a largely serverless and secured gameplay experience. Player assets obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership.\n\nTo learn more, join a faction at Play.StarAtlas.com , get a spaceship in the Galactic Marketplace , and start playing the SAGE Labs browser game to explore, gather, craft and prosper on the galactic frontier.\n\nThen, download the UE5 PC Game from the Epic Games Store.\n\nParticipate in governance of the Star Atlas DAO . Send your spaceships on a deep space mission by enrolling them in a Faction Fleet and harvest resources with Faction Claims .\n\nJoin the Star Atlas community on: Twitter | Discord | YouTube | YouTube Clips | Reddit | Medium | LinkedIn",
+  "blocks": [
+    {
+      "level": null,
+      "text": "Patch day is here! Bringing a visually complete Pearce X5, a Paizul’s Arena level up, the long-desired dedicated servers, and shiploads more! There’s also a bunch of quality-of-life tweaks and bug fixes.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "With this update, our monthly patch cycle is taking a short break as we gear up for a major mid-year release featuring gunplay matchmaking and the first version of progression.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "MAJOR HIGHLIGHTS",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Dedicated servers for gunplay lobbies with 4 or more players",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "New multiplayer hosting/joining lobby flow",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Paizul’s Arena overhaul & Gateway redesign",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Pearce X5 in-game model completion",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Custom keybind remapping and improved controller support",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Co-op Dogfighting",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Multiplayer racing improvements",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Mining minigame improvements",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "GUNPLAY",
+      "type": "heading"
+    },
+    {
+      "level": 2,
+      "text": "Balance Changes",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Adjusted melee, jettie boost, fall and weapon damage values: People should die a lot more quickly now!",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Reduced firearm swap cooldown from .75s to .1s",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed accuracy values of sighted weapon in and out of ADS: Sorry, no more easy sniper no scopes",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Gunplay Trainer bots no longer spawn with a grenade",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Weapon Changes",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Added new shotgun model",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new optimized weapon models that support weapon skinning",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added Gatling Gun Spin Up and Spin Down delay when firing",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added increased bounciness to grenades",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Changed Auto Rifle pickups to be Scout Rifle pickups: you now spawn with Auto Rifles, so we’re switching old Auto Rifle pickups to be Scout Rifles now",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added lag compensation support for melee hit detection",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Increased pickup radius on weapon spawners",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "HUD Changes",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Refactored the minimap: Supports building interiors, added new mini-map icons for vehicle/trains/race gates/zones, added new states alive/dead, damage direction indicators and increased enemy visibility radius in the minimap",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added crosshair aim obstructor indicator “X” on player HUD when your bullets hit a wall",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added kills/points in the match HUD",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added team population when in team selection",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new icon for Gun Game winner",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Adjusted Shield, Health, and Jettie Juice HUD bars",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added killstreak callouts in game feed",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added zone capture callouts in game feed",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added crosshair animations and damage numbers for Grenades and Jettie Melee",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added incoming missile indicator on Ship HUD",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "GALIA (OPEN WORLD)",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Added new vehicle modes: Combat, Tractor Beam, Scanning, and Mining",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new tractor beam tether/vacuum mode",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added different-sized asteroids for a variety of difficulties in the mining minigame",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added “Mock-Credits” that can be earned through gameplay and saved between sessions",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added mineables on planet surfaces",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Adjusted vehicles to now use gravity volumes instead of portals",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Optimized API logic for getting gravity on an actor",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Improved character movement transitions between different gravity directions",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "MAPS AND ENVIRONMENT",
+      "type": "heading"
+    },
+    {
+      "level": 2,
+      "text": "Paizul’s Arena (Arena Map)",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Updated Paizul’s Arena with new textures and a higher resolution blockout",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Updated exterior environment of Paizul’s Arena with atmospheric ship traffic and references to the ONI CSS",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new lighting",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added destructible pillars",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Gateway (Arena Map)",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Updated map layout based on community feedback: Some players expressed their feelings of the map feeling bigger than it was, so we’re adding more ways to get into the action quicker",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Updated the map with various optimization improvements",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new lighting",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed various collision issues",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Uru (Arena Map)",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Updated the map with additional progress on the white box phase",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new lighting",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed various collision issues",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Gunplay Trainer Map",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Added the ability to shoot through railings and other smaller holes",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added the ability to fly/mantle through the wider gaps in the building walls",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Adjusted the stairs to be smoother",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "MULTIPLAYER",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Added new multiplayer lobby support",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added dedicated servers for lobbies that start a gunplay match with 4 or more players",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Improved multiplayer support for vehicles: Replicated vehicle animations, reduced rubber banding, fixed vehicle visibility issues and fixed floating characters",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "RACING AND DOGFIGHTING",
+      "type": "heading"
+    },
+    {
+      "level": 2,
+      "text": "Racing",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Improved user experience for starting a multiplayer race",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added support for reverse direction races (and leaderboards)",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added jump pads to scale heights in tracks",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed a variety of issues surrounding vehicle race times on a leaderboard",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added a wrong-way/missed checkpoint HUD indicator",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Dogfighting",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Added a CO-OP version of the dogfighting minigame",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added drop pickups after you destroy enemy AI spaceships",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Improved enemy AI bots logic",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new leaderboard",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "VEHICLES",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Added the Pearce X5 with final art",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed a variety of issues with the Pearce R6",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Adjusted the handling of various XXS ships",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Improved nametag support for possessed vehicles",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Restored the ability to customize equipment groups in vehicle configurator",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new HUD notification when trying to subwarp with insufficient fuel",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "CHARACTER",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Improved jettie dashing while hovering",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added the ability to chain movement abilities: you can now chain a slide after a dash as well as instantly slide when landing if you held a slide input",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed a character’s knees to point in the direction of motion during a slide",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Adjusted camera for all species: playing a Punaab has never felt this good",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Special Effects",
+      "type": "heading"
+    },
+    {
+      "level": 3,
+      "text": "SFX",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Added new sounds: Game mod voice-overs, weapon swaps, Cockpit wind, Ragdoll Impacts, and states of character (alive/dead)",
+      "type": "list_item"
+    },
+    {
+      "level": 3,
+      "text": "VFX",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Changed VFX on vehicle thruster",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Improved Jettie VFX and adjusted size/location by species",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added grenade sparks on bounces",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added new waterfall VFX",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Decreased lifetime of weapon tracers",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "OPTIMIZATION",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Refactored galaxy requests system",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Upgraded to Unreal Engine 5.5.4",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Migrated and refactored all Weapon Effects logic to C++",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Improved character/vehicle possession logic",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "MISCELLANEOUS BUGS AND FIXES",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where traveling to edges of arenas in photomode would create weapon spawner icon visual artifacts",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed scroll box height for accounts list",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed a bug where some players would experience the lighting breaking in the configurator screen",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where the HUD leaderboard wouldn’t reset correctly",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where missiles would sometimes not apply damage",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where kills/points/deaths would accrue between matches",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where a character wouldn’t be facing the correct direction on respawn",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where a player couldn’t back out of changing their team",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Updated celebration test from “Defeat” to “Match Over”",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an incorrect celebration screen when ONI wins in Surge",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Improved network reliability of character weapon drawing/holstering/swapping events",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where players would pop/teleport when loading into a gunplay match",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed team tile highlighting logic on the team select screen",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added a way for players to switch teams mid match by pressing F2",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue causing some players to t-pose",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added FX to melee hits",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed toggled crouch desync on death while crouch",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Adjusted camera shakes to stop when a ship/character is destroyed",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where players would sometimes take fall damage on respawn",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added missing seat slots to double benches",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed a memory leak where bots wouldn’t get fully destroyed on death",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue with max craning height in Photo Mode",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed various edge cases around zone indicators disappearing or not displaying the correct state",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed vehicle cruise control issues when a player would alt-tab",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where header menu elements didn’t work in the vehicle configurator",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Adjusted scroll bars to be easier to use",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where a ship would remain in a leaned orientation when exiting a ship during leans",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added teleport FX that plays during multiplayer respawns",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where grenade FX would not sync correctly in local clients",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Adjusted the ship configurator screen to not have the component selection menu automatically open",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where crosshair animations would play immediately after respawn",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fixed an issue where Photo Gallery drop down sorting filters wouldn’t work",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "ABOUT STAR ATLAS",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain technologies, real-time graphics, and multiplayer video games.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Using Unreal Engine 5’s Nanite real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using Solana establishes a largely serverless and secured gameplay experience. Player assets obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "To learn more, join a faction at Play.StarAtlas.com , get a spaceship in the Galactic Marketplace , and start playing the SAGE Labs browser game to explore, gather, craft and prosper on the galactic frontier.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Then, download the UE5 PC Game from the Epic Games Store.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Participate in governance of the Star Atlas DAO . Send your spaceships on a deep space mission by enrolling them in a Faction Fleet and harvest resources with Faction Claims .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Join the Star Atlas community on: Twitter | Discord | YouTube | YouTube Clips | Reddit | Medium | LinkedIn",
+      "type": "paragraph"
+    }
+  ],
+  "content_sha256": "d77e21befb302557f6907473e16c9a7ee0cc3cc57543060200d8cb65e0b790ac",
+  "embeds": [],
+  "images": [
+    {
+      "alt_text": "Star Atlas",
+      "article_order": 1,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png",
+      "placement_block": null,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    }
+  ],
+  "outbound_links": [
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas",
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F394dd63a996d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F394dd63a996d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F394dd63a996d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d"
+    },
+    {
+      "placement_block": null,
+      "text": "Listen",
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D394dd63a996d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d"
+    },
+    {
+      "placement_block": null,
+      "text": "Solana",
+      "url": "http://solana.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Play.StarAtlas.com",
+      "url": "http://play.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Galactic Marketplace",
+      "url": "http://play.staratlas.com/market"
+    },
+    {
+      "placement_block": null,
+      "text": "SAGE Labs browser game",
+      "url": "http://labs.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "download the UE5 PC Game",
+      "url": "https://store.epicgames.com/en-US/p/star-atlas-bead34"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas DAO",
+      "url": "https://govern.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Faction Fleet",
+      "url": "https://play.staratlas.com/fleet"
+    },
+    {
+      "placement_block": null,
+      "text": "Faction Claims",
+      "url": "https://play.staratlas.com/claims"
+    },
+    {
+      "placement_block": null,
+      "text": "Twitter",
+      "url": "https://twitter.com/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord",
+      "url": "https://discord.gg/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube",
+      "url": "https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube Clips",
+      "url": "https://www.youtube.com/@StarAtlasClips"
+    },
+    {
+      "placement_block": null,
+      "text": "Reddit",
+      "url": "https://www.reddit.com/r/StarAtlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Medium",
+      "url": "https://medium.com/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/company/star-atlas"
+    }
+  ],
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "retrieval": {
+    "attempts": [
+      {
+        "byte_count": 343327,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2025-05-14T17:01:45Z",
+            "dateModified": "2025-05-14T17:01:45Z",
+            "datePublished": "2025-05-14T17:01:45Z",
+            "description": "Star Atlas May 2025 Patch — Dedicated Servers, Pearce X5, and Paizul’s Arena Gets a Level Up Patch day is here! Bringing a visually complete Pearce X5, a Paizul’s Arena level up, the …",
+            "headline": "Star Atlas May 2025 Patch — Dedicated Servers, Pearce X5, and Paizul’s Arena Gets a Level Up",
+            "identifier": "394dd63a996d",
+            "image": [
+              "https://miro.medium.com/0*qU_TSJlMnR9A76YK"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d",
+            "name": "Star Atlas May 2025 Patch — Dedicated Servers, Pearce X5, and Paizul’s Arena Gets a Level Up",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d"
+          },
+          "text_length": 9331
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d",
+        "sha256": "eeeeecf666ee2ae18786a4ca94402b2d2f57806d8e1316d43e135df2820eed07",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "captured_at": "2026-07-18T04:28:40Z",
+    "content_type": "text/html; charset=utf-8",
+    "discovery_sources": [
+      "profile_page",
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+      "rss:profile",
+      "rss:publication",
+      "web_archive:wayback-publication"
+    ],
+    "final_url": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d",
+    "http_status": 200,
+    "raw_byte_count": 343327,
+    "raw_sha256": "eeeeecf666ee2ae18786a4ca94402b2d2f57806d8e1316d43e135df2820eed07",
+    "redirect_chain": [],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-CD04F348F6B7A4E7",
+      "SRC-X-STARATLAS-1922699571810992196"
+    ],
+    "requested_url": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d",
+    "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-394DD63A996D/article.html",
+    "selected_tier": "LIVE_DIRECT_HTML"
+  },
+  "source": {
+    "authors": [
+      "Star Atlas"
+    ],
+    "canonical_url": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d",
+    "document_type": "WRITTEN_PUBLICATION",
+    "language": "English",
+    "medium_post_id": "394dd63a996d",
+    "observed_urls": [
+      "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F394dd63a996d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d&source=---------9-------------5ed69ff9cfb0----bookmark_preview------------------",
+      "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d",
+      "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d?source=rss----a97f09b411f1---4",
+      "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d?source=rss-5ed69ff9cfb0------2",
+      "https://staratlasgame.medium.com/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d?source=user_profile_page---------9-------------5ed69ff9cfb0----------------------"
+    ],
+    "publication_identity": {
+      "@context": "https://schema.org",
+      "@id": "https://medium.com/star-atlas",
+      "@type": "Organization",
+      "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+      "logo": {
+        "@type": "ImageObject",
+        "height": 1215,
+        "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+        "width": 1485
+      },
+      "name": "Star Atlas",
+      "sameAs": [
+        "https://twitter.com/StarAtlas",
+        "https://facebook.com/staratlasmmo",
+        "https://instagram.com/staratlasgame/"
+      ],
+      "url": "https://medium.com/star-atlas"
+    },
+    "published_at_normalized": "2025-05-14T17:01:45Z",
+    "published_at_original": "2025-05-14T17:01:45Z",
+    "publisher": "Star Atlas",
+    "reading_time_original": "7 min read",
+    "retrieved_at": "2026-07-18T04:28:40Z",
+    "source_id": "SRC-MEDIUM-STARATLAS-394DD63A996D",
+    "source_role": "OFFICIAL_MEDIUM_ARTICLE",
+    "subtitle": "Star Atlas May 2025 Patch — Dedicated Servers, Pearce X5, and Paizul’s Arena Gets a Level Up Patch day is here! Bringing a visually complete Pearce X5, a Paizul’s Arena level up, the …",
+    "tags": [],
+    "title": "Star Atlas May 2025 Patch — Dedicated Servers, Pearce X5, and Paizul’s Arena Gets a Level Up",
+    "updated_at_normalized": "2025-05-14T17:01:45Z",
+    "updated_at_original": "2025-05-14T17:01:45Z",
+    "url": "https://medium.com/star-atlas/star-atlas-may-2025-patch-dedicated-servers-pearce-x5-and-paizuls-arena-gets-a-level-up-394dd63a996d"
+  },
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  }
+}

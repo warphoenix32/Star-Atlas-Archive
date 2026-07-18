@@ -1,0 +1,163 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f",
+  "collected": "2026-07-18T04:30:25Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "da53ee0c65d453b88406c2c846c0e18c2cd3765bf4b73c8d902eb4697279315b",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-F3E4D0E6134F.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-F3E4D0E6134F.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff3e4d0e6134f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-11-f3e4d0e6134f&source=---------70-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f",
+    "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=collection_home---------0----------------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=rss----a97f09b411f1---4",
+    "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=rss-5ed69ff9cfb0------2",
+    "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=social.tw&_branch_match_id=1079178738787787705&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcvCa909krLCS9JAgCY9MIiIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=social.tw&_branch_match_id=1079178738787787705&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcvCa909krLCS9JAgCY9MIiIwAAAA%3D%3D%0A",
+    "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=social.tw&_branch_match_id=1107026079030892685&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TcvCa909krLCS9JAgCY9MIiIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=user_profile---------7----------------------------",
+    "https://staratlasgame.medium.com/the-atlas-star-issue-11-f3e4d0e6134f?source=user_profile_page---------70-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7FFFCA6E3EFC320C.json",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 5862,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f",
+        "sha256": "f0147c5feb06d2b6da115f8720581210d959823b13e6c2be2da0b5b5a9ff6af6",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27530,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f",
+        "sha256": "c42b804a6bd1c3cd01984e41190a88604dc6de76769aaa137fefecdce260bab3",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 322917,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2022-10-07T20:03:35.647Z",
+            "dateModified": "2022-10-10T14:46:01.736Z",
+            "datePublished": "2022-10-07T20:03:35.647Z",
+            "description": "This edition is the first one from a new Star Atlas publishing schedule, where you receive a comprehensive development update wrapped in Atlas Star every three weeks, instead of a weekly roadmap…",
+            "headline": "The Atlas Star ✧ Issue #11 - Star Atlas - Medium",
+            "identifier": "f3e4d0e6134f",
+            "image": [
+              "https://miro.medium.com/max/1200/0*M2uj8BTSrBgK6N1r"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f",
+            "name": "The Atlas Star ✧ Issue #11 - Star Atlas - Medium",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f"
+          },
+          "text_length": 36630
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20230131174742id_/https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=user_profile---------7----------------------------",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20230131174742id_/https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=user_profile---------7----------------------------",
+        "sha256": "bcc23fb2d3af31b960a6e11c02410de7e798da4a65dfcab49f3c88fa586e146f",
+        "snapshot": {
+          "digest": "ZGJDI3APCOQNVEZ2HT3LWGRJVFXHVINM",
+          "original_url": "https://medium.com/star-atlas/the-atlas-star-issue-11-f3e4d0e6134f?source=user_profile---------7----------------------------",
+          "timestamp": "20230131174742"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-10-07T20:03:35.647000Z",
+  "published_at_original": "2022-10-07T20:03:35.647Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F3E4D0E6134F/article.html",
+  "raw_sha256": "bcc23fb2d3af31b960a6e11c02410de7e798da4a65dfcab49f3c88fa586e146f",
+  "source_id": "SRC-MEDIUM-STARATLAS-F3E4D0E6134F",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "The Atlas Star ✧ Issue #11 - Star Atlas - Medium",
+  "updated_at_normalized": "2022-10-10T14:46:01.736000Z",
+  "updated_at_original": "2022-10-10T14:46:01.736Z"
+}

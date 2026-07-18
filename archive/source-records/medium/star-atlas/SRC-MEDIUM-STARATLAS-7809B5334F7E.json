@@ -1,0 +1,150 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+  "collected": "2026-07-18T04:28:53Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "e716b2f7a11a403648374c51f90d47eb635baec85106c725125110b478e30022",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-7809B5334F7E.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-7809B5334F7E.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7809b5334f7e&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fcopa-guild-finalists-announced-7809b5334f7e&source=---------103-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+    "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e?source=post_internal_links---------2----------------------------",
+    "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e?source=rss----a97f09b411f1---4",
+    "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e?source=rss-5ed69ff9cfb0------2",
+    "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e?source=social.tw&_branch_match_id=1064228866985277607&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1c8pSXa3LEjJ8S1MAgBEVDhhIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e?source=user_profile---------8----------------------------",
+    "https://staratlasgame.medium.com/copa-guild-finalists-announced-7809b5334f7e?source=user_profile_page---------103-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-49A5B318389905C1"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 276002,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2022-06-11T17:17:17Z",
+            "dateModified": "2022-06-15T17:57:29Z",
+            "datePublished": "2022-06-11T17:17:17Z",
+            "description": "Today, ATMTA Inc., in association with the Council of Peace and backed by the unbreakable union of the three factions, announced the names of the 15 guilds that are moving on to the final round.",
+            "headline": "COPA Intergalactic Competition: Guild Finalists and Event Details Announced",
+            "identifier": "7809b5334f7e",
+            "image": [
+              "https://miro.medium.com/0*j0fZCl2olVIibUo3"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+            "name": "COPA Intergalactic Competition: Guild Finalists and Event Details Announced",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e"
+          },
+          "text_length": 6260
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+        "sha256": "47401bc13aa3499351f78c07079d2822439a396ab5beace0757c6a2ecd25b3a8",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-06-11T17:17:17Z",
+  "published_at_original": "2022-06-11T17:17:17Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-7809B5334F7E/article.html",
+  "raw_sha256": "47401bc13aa3499351f78c07079d2822439a396ab5beace0757c6a2ecd25b3a8",
+  "source_id": "SRC-MEDIUM-STARATLAS-7809B5334F7E",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "COPA Intergalactic Competition: Guild Finalists and Event Details Announced",
+  "updated_at_normalized": "2022-06-15T17:57:29Z",
+  "updated_at_original": "2022-06-15T17:57:29Z"
+}

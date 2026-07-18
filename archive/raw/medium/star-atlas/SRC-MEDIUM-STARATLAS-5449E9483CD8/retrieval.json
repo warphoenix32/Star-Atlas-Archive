@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "byte_count": 251230,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-a-mud-explorer-5449e9483cd8",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-10-18T11:52:59Z",
+          "dateModified": "2021-10-18T11:52:59Z",
+          "datePublished": "2021-10-18T11:52:59Z",
+          "description": "The vastness of Star Atlas offers grand scale discoveries and valuable riches for the explorers - those who are willing to brave the unknown.",
+          "headline": "Star Atlas In-Game Play: Adventures as a MUD Explorer",
+          "identifier": "5449e9483cd8",
+          "image": [
+            "https://miro.medium.com/1*bVZS-mhDmTRMxWFJd8HgeA.png"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-a-mud-explorer-5449e9483cd8",
+          "name": "Star Atlas In-Game Play: Adventures as a MUD Explorer",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-a-mud-explorer-5449e9483cd8"
+        },
+        "text_length": 6579
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-mud-explorer-5449e9483cd8",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/star-atlas-in-game-play-adventures-mud-explorer-5449e9483cd8",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-mud-explorer-5449e9483cd8"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-in-game-play-adventures-mud-explorer-5449e9483cd8",
+      "sha256": "40f038bab70bb550293df562901dc0969c4023be867faa0cd6661d14247835c8",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:44Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-mud-explorer-5449e9483cd8",
+  "http_status": 200,
+  "raw_byte_count": 251230,
+  "raw_sha256": "40f038bab70bb550293df562901dc0969c4023be867faa0cd6661d14247835c8",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/star-atlas-in-game-play-adventures-mud-explorer-5449e9483cd8",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-mud-explorer-5449e9483cd8"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-97816A2F1FB333F0"
+  ],
+  "requested_url": "http://medium.com/star-atlas/star-atlas-in-game-play-adventures-mud-explorer-5449e9483cd8",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-5449E9483CD8/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

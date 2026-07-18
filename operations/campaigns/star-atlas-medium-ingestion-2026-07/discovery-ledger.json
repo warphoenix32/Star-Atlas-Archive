@@ -1,0 +1,2123 @@
+{
+  "campaign_id": "star-atlas-medium-ingestion-2026-07",
+  "surfaces": [
+    {
+      "browser_item_count": 4,
+      "browser_scroll_passes": 3,
+      "browser_sha256": "c3cf443bfb2f569e68688b42880d44d433a6a09e0f3b17c417b26bb166dbd2e4",
+      "direct_sha256": "33162d3f7faadcd7b9450c38ce1fca2aaed1746518a7283ca70151d7571f4992",
+      "final_url": "https://medium.com/star-atlas/all?year=2020",
+      "http_status": 200,
+      "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
+      "requested_url": "https://medium.com/star-atlas/archive/2020",
+      "status": "QUERIED",
+      "surface": "publication_archive",
+      "year": 2020
+    },
+    {
+      "browser_item_count": 4,
+      "browser_scroll_passes": 3,
+      "browser_sha256": "993885827feffba4bcea116bc2f0c66c623fb0ce8a48a82c0117372baaa23da5",
+      "direct_sha256": "cd34e07f36630fb22556546cd889d3e49615b4de89311cf06e11e4a533ce7aea",
+      "final_url": "https://medium.com/star-atlas/all?year=2021",
+      "http_status": 200,
+      "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
+      "requested_url": "https://medium.com/star-atlas/archive/2021",
+      "status": "QUERIED",
+      "surface": "publication_archive",
+      "year": 2021
+    },
+    {
+      "browser_item_count": 4,
+      "browser_scroll_passes": 3,
+      "browser_sha256": "fb1e9513a451115b4a305d4aba8e9b03c994257ad95b07c9aad5b713d6cd4fcd",
+      "direct_sha256": "b8f83fcb7af2d6ec9944b24040ff529cacd797032ececc6e5855b73ffe1500db",
+      "final_url": "https://medium.com/star-atlas/all?year=2022",
+      "http_status": 200,
+      "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
+      "requested_url": "https://medium.com/star-atlas/archive/2022",
+      "status": "QUERIED",
+      "surface": "publication_archive",
+      "year": 2022
+    },
+    {
+      "browser_item_count": 4,
+      "browser_scroll_passes": 3,
+      "browser_sha256": "c52311ac9b61ae9ef8288c01d6e67c50b2ce1608acd109950b8a824c3ed0a800",
+      "direct_sha256": "9369db816f21333bdf0f2fa910440eabb3155815e37bc4ddc1458b2a95d84918",
+      "final_url": "https://medium.com/star-atlas/all?year=2023",
+      "http_status": 200,
+      "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
+      "requested_url": "https://medium.com/star-atlas/archive/2023",
+      "status": "QUERIED",
+      "surface": "publication_archive",
+      "year": 2023
+    },
+    {
+      "browser_item_count": 4,
+      "browser_scroll_passes": 3,
+      "browser_sha256": "989be4ff2e4732d02090eb4ab07974ed4b3abba7814240bab5bf13c22f4263b1",
+      "direct_sha256": "55a7c248acddcb8c4fb5f1af98ac625cc74d98d81bc6a8fb135031d09b3f14b4",
+      "final_url": "https://medium.com/star-atlas/archive/2024",
+      "http_status": 403,
+      "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
+      "requested_url": "https://medium.com/star-atlas/archive/2024",
+      "status": "QUERIED",
+      "surface": "publication_archive",
+      "year": 2024
+    },
+    {
+      "browser_item_count": 4,
+      "browser_scroll_passes": 3,
+      "browser_sha256": "7cb46d4d398bf3f37ad06039e2655e865d13877358a1b9241985205fa3132ec6",
+      "direct_sha256": "d6c0779e52a1455ba1524172b35365e6d258a33690841006bd3256aa3178f9d5",
+      "final_url": "https://medium.com/star-atlas/all?year=2025",
+      "http_status": 200,
+      "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
+      "requested_url": "https://medium.com/star-atlas/archive/2025",
+      "status": "QUERIED",
+      "surface": "publication_archive",
+      "year": 2025
+    },
+    {
+      "browser_item_count": 4,
+      "browser_scroll_passes": 3,
+      "browser_sha256": "e2fad7b73a2665d6353fe67d1ac8381e0f2c2c3e92d634a4324cce5921d74199",
+      "direct_sha256": "d6d2ac32aed50a9752249b081904515a70cf1049eda927ae9c60e0438071557a",
+      "final_url": "https://medium.com/star-atlas/all?year=2026",
+      "http_status": 403,
+      "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
+      "requested_url": "https://medium.com/star-atlas/archive/2026",
+      "status": "QUERIED",
+      "surface": "publication_archive",
+      "year": 2026
+    },
+    {
+      "browser_item_count": 4,
+      "direct_item_count": 0,
+      "http_status": 403,
+      "requested_url": "https://medium.com/star-atlas",
+      "status": "QUERIED",
+      "surface": "publication_page"
+    },
+    {
+      "browser_item_count": 4,
+      "direct_item_count": 3,
+      "http_status": 200,
+      "requested_url": "https://medium.com/star-atlas/all",
+      "status": "QUERIED",
+      "surface": "publication_page"
+    },
+    {
+      "browser_item_count": 34,
+      "direct_item_count": 24,
+      "http_status": 200,
+      "requested_url": "https://medium.com/@staratlasgame",
+      "status": "QUERIED",
+      "surface": "profile_page"
+    },
+    {
+      "browser_item_count": 170,
+      "direct_item_count": 24,
+      "http_status": 200,
+      "requested_url": "https://staratlasgame.medium.com/",
+      "status": "QUERIED",
+      "surface": "profile_page"
+    },
+    {
+      "http_status": 200,
+      "item_count": 10,
+      "requested_url": "https://medium.com/feed/star-atlas",
+      "status": "QUERIED",
+      "surface": "rss:publication"
+    },
+    {
+      "http_status": 200,
+      "item_count": 10,
+      "requested_url": "https://staratlasgame.medium.com/feed",
+      "status": "QUERIED",
+      "surface": "rss:profile"
+    },
+    {
+      "http_status": 200,
+      "item_count": 10,
+      "requested_url": "https://medium.com/feed/@staratlasgame",
+      "status": "QUERIED",
+      "surface": "rss:profile"
+    },
+    {
+      "http_status": 200,
+      "item_count": 7,
+      "label": "custom-sitemap",
+      "limitations": "Sitemap is additive and not treated as exhaustive.",
+      "requested_url": "https://staratlasgame.medium.com/sitemap/sitemap.xml",
+      "status": "QUERIED",
+      "surface": "sitemap"
+    },
+    {
+      "http_status": 200,
+      "item_count": 0,
+      "label": "publication-sitemap",
+      "limitations": "Sitemap is additive and not treated as exhaustive.",
+      "requested_url": "https://medium.com/star-atlas/sitemap.xml",
+      "status": "QUERIED",
+      "surface": "sitemap"
+    },
+    {
+      "path": "archive/normalized/discord-announcements/messages.jsonl",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 216
+    },
+    {
+      "path": "archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 26
+    },
+    {
+      "path": "archive/normalized/manifests/normalized-urls.jsonl",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 581
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-00B89A6A600890BE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-02F1D8A8DA169206.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-032B4723627B456C.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0333A5B22A207D88.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 10
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0373ACC08A613B85.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0449B94A36A8B803.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-05CC4589C03B3475.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-076F496F0A6CA989.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-084B9B05C94EBDDB.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-09585A56D6560A93.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-096C3D09D2F1D2C2.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0A102A194CADD521.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0A646AE069AFFBA5.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0AED270D51ACD552.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 8
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0B296BC2BA36B3D6.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0BFA050EF12E2E17.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0C0365583D4B60FB.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0C5AA46E01E189EC.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0CD11E0E506A5BFC.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0DAD393CE1D6C2D7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0DD935082DF1090F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0E22684F68D016E0.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-107509DD696BC573.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1206858B54C3E67E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1336E035AB9A6C39.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1365677CDCD2670F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-137411269AFC6A24.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-15568A1F07385E5A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-167C2FD266A1C3E9.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-17012CC0302537A1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 8
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-17C770884734231A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-187A8E889198C5D3.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1903C036D200376C.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1943EB02EECEDABB.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1AD18A7FE6CC32F1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1AFD97FC4E315273.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1CEBF63F67BBD918.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1DE2A3F4B9BB117C.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1E258CA232737785.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-1EE2242A6F7844FF.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-213FD29A1BA6ABB1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-22181D98D7A1B870.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-229871D015FAA800.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-23BCB996AAE5DEA0.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-24D1FA9D56188F71.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-269BEC52917B0546.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-274E23FFC1846B8A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-276913D514D4F26A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-27E4FE1DA4DC69D7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-28FD08D8C041C9DA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-292F4D8D8E88EA09.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2A076CDCA845BB86.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2A930EF6763F8490.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2AC4925BB2D5E646.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2BC7D317600C6107.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2E4DE78B3C355FA9.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2E975D439DBCF20C.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2EB620F81DD3A4E1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2EE519344E7C47AC.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2F5BB71C2BA09657.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-31C9A684FD37FA07.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-33EB7E4F547E8501.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-340128795CCA03A9.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3471FBD517D5CD7F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-34D7C5B461DD88BE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-352ACE3DC60AEFA4.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-35ABC47FBF297A8A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-35BD997A8113B07D.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3767A165D63DF723.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3974380BE9CB23D7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-39E9207320B5141F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3B56F80661EC7068.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3C54D3AF9675D4AF.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3C5A5254EAC9E639.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3CAA5C3F438BBA22.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3D17848194168DD5.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3D9435B57A6B6E1A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3E00F39D5D112494.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3E660B0FDC1AF7CA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-419B0D2BAC24A9CD.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4212F2396373E4E1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4312E3B0005E60A3.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-44DE029022F88A60.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-45B0F6196BC7966E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4850F98FBD1F1541.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4A9FCC4E28487231.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 10
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4D11337D80379C85.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4E9E0D35A253DF51.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4EAAA31A80812F1F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4F4170FA1199794B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4F4F51E8572B49C7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4F78671802CD2C44.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5008A83ECD9C48EC.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-50186C400EF7CC79.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-50C11FFE40CE676F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5242148279562884.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-527949C216ECEDEE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-53044660BCD43164.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5326920AFE5D0592.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-542DEEE0FB7F90C2.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-555CAC4267FC734E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-55AABF6C02F3F53E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-55E521D11DFF210A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5648276C58CD3600.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-566C6B5E5258E7ED.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-57027457FD1317B4.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5776419FBD76E9FD.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-579237853CBD891D.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-585BABA910AC9649.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-58CAA243BD4690DF.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5A3F7E05FA593B9F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5A8CBF667AD201EF.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5C04CF2AA3580D72.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5D05309B045A6A76.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5DE1FDD0B561C11E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5E3C884FBE440C33.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5ED7C7E87D1335ED.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-601DB73CC99402B0.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-61C2E976FF41FD91.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-62677061BED32848.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-64B7DF6E3AD0E36C.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-660199AB6CAC990A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-671EF3C385D75F64.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-674D5FD2E8A89D9B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-678621BE1998176D.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-68CBB7E8522D8A74.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-68CCF56035993E33.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-68D126528852339E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-69412F7FAE16DF25.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-69C74ED09DCF4088.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6A20C318BFBA5E14.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6A56B5D30E7EBCA4.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6A9A3D6A006E3C8E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6AF49351907F1069.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6D877A93C3669C23.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6DC12D8B73ABA5A3.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6E6ECFFABAF364F1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6ED05065C68E4947.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6F3376857CE48236.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6F7F7BF686064526.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-6FB2232270EDDAA1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-707BAD732E32BEAE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7102D44F3A9B9DB6.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7120B37A2981335D.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-723C7D67B80744DF.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7375CE6619CF2B43.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-74B5B70B06711742.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7649C89B8CCEE60B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-77C95E5F33593A5B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-796279D2583C5239.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-79F7FFA485E5BFC2.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7A4C3924BE52B1A6.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7A4EBB356B1E7BF1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7C434B73A808D5E7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7D67A0C21FF6CA05.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7D74702BDE1CE3DA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7DA438676F8CE583.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7E2651A64522DACE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7E820F10A355A1FE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7EB2192021729405.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7F41E99909FE23BD.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7FFFCA6E3EFC320C.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 8
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-803587BAB681C79A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-80FD92B53B0F7452.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-81AC1295ED8D5F75.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-82E77398A899FBD8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 8
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8346008176FB13C8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-84B53B1AE4084FC2.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-854CB512DFE80EA1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-85A2BC7ED64B2EAC.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-86E9294F62D1A386.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8882149416E54B8B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 8
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-88D5E291890076FD.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8917A64EB222FB1E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8AC8EED8F9A8B82E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8C3F18E4BEFF48B2.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8D764B8E4E2A0E2F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8EAE98F8F7712E82.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9181BEEEF9F2F96C.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-91B2D272DB2003FD.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9215EB0D04AE77F8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9243918EDFE0EC78.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-926F4D9B4FD056CD.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-927F495C3F49A56F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-92912CC09853EF08.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-93860527690EB75B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-952AB5D6D09DD6BF.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9626A1F9027B8C1C.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-96818E7C47F82CD6.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9A02CD416A9E0A34.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9B647EF49E49FB58.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9B84BA9492C41150.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9C47F3E7D9676D81.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9D526883C47C68C8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9D838688CE7692B2.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9D986E9EE2455C6E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9E1CC8743E15D465.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9EC06F03BD9B1998.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9F4AFD0238C8E17B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9F8AA620349CF5A1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A021979A621E6BE1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A2F14F878C41366F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A465C97640C55838.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A49DE58EC808D004.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A51F2D22DAE3C382.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A5D64DE1191E1208.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A6A4A97A9D09AA1E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A8666129E94E5181.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-A887A417A8066E37.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-AB11BF8E61BDB201.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-AB9BE32532D219C9.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-AC23D0459AB9A1AC.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-AD99A9BB2DDC4F0A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-AE8A2FB7CBCE296A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B0DF140E00EB2196.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B19E0D091A8449AB.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B263E0E5565CB9ED.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B2C1AA5D0C8E9D15.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B32669924F083C41.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B38AFD8A2122994F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B3E826AFA52FB19B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B43F5E2C9A505669.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B4C5F178762DC6F4.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B4F9EB92DD60A7A8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B7F11CD1E84CA317.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B97303EC3962DFAD.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BA774D181F1BEA70.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BABE51E0880FD385.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BCBE8698B8C9B03D.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BD0CD688817291A3.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 16
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BE3F6F5D62BE9688.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BE6BD1DC05B4F3F6.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BED0C7C1B6E2E923.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BFA6D14D54A9AA6A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C189056066EBFEA7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C1F706C02AECEE23.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C382E9B30652DDBA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C38C56C97A26AB91.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 20
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C550641C23773119.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C6773EB8AD8C3A16.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C6B9C26055452AF8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C81D51BDAC31D7EA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C973FDEE44BE9B0A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C97D8D6F62B7D1B7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-CB741B9A3E4E7104.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-CB82A1B778C57ED7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-CFB3A87BF1E48DDE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 6
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D023F6DAFA12F9AA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 8
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D07F401D77E9CA13.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D1961379033AAEE1.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D35D412DB78A8641.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D3FB59C687BA3D7E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D4EF1A241BAD9BBE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D54B8742891B39BD.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D5772C68493593AA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D6F7E5EE3520E6EE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D72CE2BCE740856F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D73BB61E750F9C5D.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D81D250D1E34A25A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DB4057D863B6BB7B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DC12E0C2EDC1DC22.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DD0FB6FFDD5F5762.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DD9175EF794C1F8D.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DDA966BE82FEDCA3.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DE76DDC4E8B8A28E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DFAC68CA1C476E50.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-DFB2C89AA6D125C5.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E061D3A6454697AB.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E096D3725E00BC22.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E0B18BA53BE669C8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E258CC8F566D5F64.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E38E55EE3566069A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E4ED405826A89D9B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E505A7F5A50C1B52.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E5AEFD6B36E3CE06.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E6314609D04235FE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E6B4CD3C8CC15371.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E7DB29C6A8D06CD0.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E7E78243A0DE9C1B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E81A9082347AF533.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E86CA86FF92C3AEE.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E89CAA2834793DCC.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E934B90D2A82BDAA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E987400F2C22D83E.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E9E5AB15C5DECE43.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 4
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E9EF08EB073BEDD6.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E9F028FC7B518290.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-EA72DB41419EB7A3.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-EC1007E4869C790B.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-ECA45CEC453E8364.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-ED7AD490CF12BFA6.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-EF4F170FCDBC4B94.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-EFE5625D15BEFEA7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F05B48E5CEE409BA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F16EDE163D73ECE2.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F2037ECDC1494C46.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F217B64FD0342839.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F2263ECD65B0488A.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F2DB36AA8D69DDC8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F31A03A826213BF7.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F33E1ABAD1C6D6E8.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F36B881D3997AD36.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F3FA340D29AD6F70.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F4C930CC2EBD2777.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F546F327C3C9B727.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F58B0AB5D35EF8FC.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F5E8D885F87B4B27.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F6BFD210BB78F1B3.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F846A4C9BCA4D2AA.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F9654AA6FF1D8010.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 18
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FA07F79C3878A4E5.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FBD99B79F9DD0637.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FC61779037A23908.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 2
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FCAD0FED23CA625F.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FD1A85930C740204.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 5
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FE77BA0D81A68A42.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FED32042E37BFB38.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FF570FFF4150E6A2.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-FF9C3616DFC41388.json",
+      "status": "QUERIED",
+      "surface": "repository",
+      "url_occurrences": 0
+    },
+    {
+      "error": null,
+      "http_status": 200,
+      "label": "wayback-custom-domain",
+      "result_count": 256,
+      "status": "QUERIED",
+      "surface": "web_archive",
+      "url": "https://web.archive.org/cdx/search/cdx?url=staratlasgame.medium.com/*&output=json&filter=statuscode:200&filter=mimetype:text/html&fl=timestamp,original,digest&collapse=urlkey"
+    },
+    {
+      "error": null,
+      "http_status": 200,
+      "label": "wayback-publication",
+      "result_count": 1076,
+      "status": "QUERIED",
+      "surface": "web_archive",
+      "url": "https://web.archive.org/cdx/search/cdx?url=medium.com/star-atlas/*&output=json&filter=statuscode:200&filter=mimetype:text/html&fl=timestamp,original,digest&collapse=urlkey"
+    }
+  ]
+}

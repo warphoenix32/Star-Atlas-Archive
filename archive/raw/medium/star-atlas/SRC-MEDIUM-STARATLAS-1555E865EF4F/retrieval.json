@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "byte_count": 253547,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-nft-cosmos-the-hunt-for-an-ancient-artifact-1555e865ef4f",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-10-25T11:42:25Z",
+          "dateModified": "2021-11-05T01:10:05Z",
+          "datePublished": "2021-10-25T11:42:25Z",
+          "description": "A Star Atlas deep dive into how a single intergalactic relic NFT can inspire epic adventures in the metaverse and bitter betrayals on the edge of the cosmos.",
+          "headline": "Star Atlas NFT Cosmos: The Hunt for an Ancient Artifact",
+          "identifier": "1555e865ef4f",
+          "image": [
+            "https://miro.medium.com/1*hOceDpaqDPaXkCaaxnrCzw.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-nft-cosmos-the-hunt-for-an-ancient-artifact-1555e865ef4f",
+          "name": "Star Atlas NFT Cosmos: The Hunt for an Ancient Artifact",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-nft-cosmos-the-hunt-for-an-ancient-artifact-1555e865ef4f"
+        },
+        "text_length": 5629
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-nft-cosmos-gameplay-hunt-ancient-artifact-nft-1555e865ef4f",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/star-atlas-nft-cosmos-gameplay-hunt-ancient-artifact-nft-1555e865ef4f",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/star-atlas-nft-cosmos-gameplay-hunt-ancient-artifact-nft-1555e865ef4f"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-nft-cosmos-gameplay-hunt-ancient-artifact-nft-1555e865ef4f",
+      "sha256": "e65bf4d2ad4b8370e5d74e5ee4c7c05bd095388b9b34adb991e0f554035dcee6",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:32Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-nft-cosmos-gameplay-hunt-ancient-artifact-nft-1555e865ef4f",
+  "http_status": 200,
+  "raw_byte_count": 253547,
+  "raw_sha256": "e65bf4d2ad4b8370e5d74e5ee4c7c05bd095388b9b34adb991e0f554035dcee6",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/star-atlas-nft-cosmos-gameplay-hunt-ancient-artifact-nft-1555e865ef4f",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/star-atlas-nft-cosmos-gameplay-hunt-ancient-artifact-nft-1555e865ef4f"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-F9A2787C5854E07F"
+  ],
+  "requested_url": "http://medium.com/star-atlas/star-atlas-nft-cosmos-gameplay-hunt-ancient-artifact-nft-1555e865ef4f",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-1555E865EF4F/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

@@ -1,0 +1,162 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33",
+  "collected": "2026-07-18T04:30:31Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 4,
+  "media_successes": 0,
+  "normalized_content_sha256": "49089ab0daafc69ab54d1977ea12fb0ea91e948dfc0d7c2a879e1b3fb4adb74b",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-F7D9336ABD33.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-F7D9336ABD33.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff7d9336abd33&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33&source=---------123-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33",
+    "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33?_branch_match_id=1036317453788347676&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Q%2FM9s43LEgsLstPAgASYtNIIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33?_branch_match_id=1036560701715977278&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Tf0yDWqsiwqLstPAgCyxr7KIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33?source=social.tw&_branch_match_id=1035683189533100279&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1XfJ965KTkkqLstPAgBtV2%2FBIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33?source=topics_v2---------0-84--------------------8656b312_d6a4_4101_acc6_14c4a5e9cd35-------19---",
+    "https://staratlasgame.medium.com/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33?source=user_profile_page---------123-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-EFD191403F5C0783"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 6010,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33",
+        "sha256": "4241be9094222c4bf009d0952ab2171365ae528a1de862fd279c1518a2d0e3cb",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27678,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33",
+        "sha256": "728685914cff80cbbc1d28feb4904c8715eb614f4672cac2adfa078ada7fcaef",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 209929,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2022-03-18T20:32:18.670Z",
+            "dateModified": "2022-03-19T02:29:53.234Z",
+            "datePublished": "2022-03-18T20:32:18.670Z",
+            "description": "Star Atlas Block Entanglement No. ###OMITTED###: A transmission recovered from the Cosmic Hypergraph is chronicling the status of the development progress of Star Atlas and its various projects… It…",
+            "headline": "Ustur Executive Surveyor Report: Star Atlas Roadmap Scan #01",
+            "identifier": "f7d9336abd33",
+            "image": [
+              "https://miro.medium.com/max/1200/1*aUv615s-6AfqOXNO3bpm8A.jpeg"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33",
+            "name": "Ustur Executive Surveyor Report: Star Atlas Roadmap Scan #01",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33"
+          },
+          "text_length": 14977
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20220327093236id_/https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33?_branch_match_id=1036560701715977278&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Tf0yDWqsiwqLstPAgCyxr7KIwAAAA%3D%3D",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20220327093236id_/https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33?_branch_match_id=1036560701715977278&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Tf0yDWqsiwqLstPAgCyxr7KIwAAAA%3D%3D",
+        "sha256": "f142f0c24600a9c61fb768b8a9ab79ef4df6e2a71450f8a13a8a9ed2f4dba457",
+        "snapshot": {
+          "digest": "54CRODMBWTDAKLYMHPLI6O2HDS3TVQX6",
+          "original_url": "https://medium.com/star-atlas/ustur-executive-surveyor-report-star-atlas-roadmap-scan-01-f7d9336abd33?_branch_match_id=1036560701715977278&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Tf0yDWqsiwqLstPAgCyxr7KIwAAAA%3D%3D",
+          "timestamp": "20220327093236"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-03-18T20:32:18.670000Z",
+  "published_at_original": "2022-03-18T20:32:18.670Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F7D9336ABD33/article.html",
+  "raw_sha256": "f142f0c24600a9c61fb768b8a9ab79ef4df6e2a71450f8a13a8a9ed2f4dba457",
+  "source_id": "SRC-MEDIUM-STARATLAS-F7D9336ABD33",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Ustur Executive Surveyor Report: Star Atlas Roadmap Scan #01",
+  "updated_at_normalized": "2022-03-19T02:29:53.234000Z",
+  "updated_at_original": "2022-03-19T02:29:53.234Z"
+}

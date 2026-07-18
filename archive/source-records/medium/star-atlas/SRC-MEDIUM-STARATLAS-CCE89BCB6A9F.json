@@ -1,0 +1,164 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f",
+  "collected": "2026-07-18T04:29:23Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 2,
+  "media_successes": 0,
+  "normalized_content_sha256": "751ca1fbdab4de32dbb35270096358ebf1efd0390738328cde0a14bf2338ded8",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-CCE89BCB6A9F.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-CCE89BCB6A9F.md",
+  "observed_urls": [
+    "http://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f",
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fcce89bcb6a9f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Foctober-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f&source=---------145-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f?_branch_match_id=974287692204523465",
+    "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f?source=social.tw&_branch_match_id=972963678618941307&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1c82LE6pSHcpMsxKAgAPs9ySIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f?source=social.tw&_branch_match_id=973837620185821535&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1S%2FPLcgxTanIMctKAgAMoWANIwAAAA%3D%3D",
+    "https://staratlasgame.medium.com/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f?source=user_profile_page---------145-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 6004,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f",
+        "http_status": 429,
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f"
+          }
+        ],
+        "requested_url": "http://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f",
+        "sha256": "bdfc806240c7ee9133283138f67cc2f74408a863d05f5fef245ad7eb71deea90",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27672,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "http://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f",
+        "sha256": "d4f03e087036a096272b503a25c0aa97553eac26b0b5b21ca66c967433fbb5ab",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 127916,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2021-10-01T23:09:56.943Z",
+            "dateModified": "2021-10-05T05:03:54.053Z",
+            "datePublished": "2021-10-01T23:09:56.943Z",
+            "description": "In the most intense feature release week yet, the doors to the blockchain gaming metaverse will begin opening with a new faction selection release on October 5 2021.",
+            "headline": "High-Octane October: Star Atlas Set to Release Player Factions, New Trailer and Ships [Updated]",
+            "identifier": "cce89bcb6a9f",
+            "image": [
+              "https://miro.medium.com/max/1200/1*6I3xVDYSA0QaetXNQlLBPw.jpeg"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f",
+            "name": "High-Octane October: Star Atlas Set to Release Player Factions, New Trailer and Ships [Updated]",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f"
+          },
+          "text_length": 3773
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20211006132153id_/https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f?_branch_match_id=974287692204523465",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20211006132153id_/https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f?_branch_match_id=974287692204523465",
+        "sha256": "b4666ed74383d26fff729ad5f07b7b685107a255f39998157dba2e2f857cafa7",
+        "snapshot": {
+          "digest": "O7RD2NGZGYIU55C2L3YCM4EPOADLFSTQ",
+          "original_url": "https://medium.com/star-atlas/october-star-atlas-release-player-factions-trailer-ships-cce89bcb6a9f?_branch_match_id=974287692204523465",
+          "timestamp": "20211006132153"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2021-10-01T23:09:56.943000Z",
+  "published_at_original": "2021-10-01T23:09:56.943Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-CCE89BCB6A9F/article.html",
+  "raw_sha256": "b4666ed74383d26fff729ad5f07b7b685107a255f39998157dba2e2f857cafa7",
+  "source_id": "SRC-MEDIUM-STARATLAS-CCE89BCB6A9F",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "High-Octane October: Star Atlas Set to Release Player Factions, New Trailer and Ships [Updated]",
+  "updated_at_normalized": "2021-10-05T05:03:54.053000Z",
+  "updated_at_original": "2021-10-05T05:03:54.053Z"
+}

@@ -1,0 +1,93 @@
+{
+  "article": {
+    "block_count": 24,
+    "content_sha256": "2669c1bf3add9f266fd74a69a5ba0eeaff0ee61f670271b8476e597493eb4d31",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "iBUYPOWER website",
+        "url": "https://www.ibuypower.com/community/partners/star-atlas"
+      }
+    ],
+    "published_at_normalized": "2022-07-21T17:43:46.875000Z",
+    "published_at_original": "2022-07-21T17:43:46.875Z",
+    "updated_at_normalized": "2022-09-09T18:59:09.578000Z",
+    "updated_at_original": "2022-09-09T18:59:09.578Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-E6E5044C495B",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": []
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-E6E5044C495B.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-E6E5044C495B.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E6E5044C495B/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-E6E5044C495B.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-E6E5044C495B.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-E6E5044C495B",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "iBUYPOWER to Offer Custom Star Atlas-Branded Gaming Gear",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

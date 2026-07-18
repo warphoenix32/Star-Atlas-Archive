@@ -1,0 +1,19 @@
+{
+  "body_path": "operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/publication-archive-2021.html",
+  "byte_count": 162767,
+  "capture_label": "publication-archive-2021",
+  "captured_at": "2026-07-18T04:22:38Z",
+  "content_type": "text/html; charset=utf-8",
+  "error": null,
+  "final_url": "https://medium.com/star-atlas/all?year=2021",
+  "http_status": 200,
+  "redirect_chain": [
+    {
+      "from": "https://medium.com/star-atlas/archive/2021",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/all?year=2021"
+    }
+  ],
+  "requested_url": "https://medium.com/star-atlas/archive/2021",
+  "sha256": "cd34e07f36630fb22556546cd889d3e49615b4de89311cf06e11e4a533ce7aea"
+}

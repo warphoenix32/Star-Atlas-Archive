@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "byte_count": 326370,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/shipmas-season-approaches-countdown-to-9-new-star-atlas-spaceships-f24afc7956b1",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-12-10T01:08:51Z",
+          "dateModified": "2021-12-10T07:00:22Z",
+          "datePublished": "2021-12-10T01:08:51Z",
+          "description": "New gravity-defying spaceship drops coming up in December 2021 will accompany the upcoming SCORE feature release, enabling players to earn ATLAS during their ship missions.",
+          "headline": "The SHIPMAS Season Approaches: Countdown to 9 New Star Atlas Spaceships",
+          "identifier": "f24afc7956b1",
+          "image": [
+            "https://miro.medium.com/1*udOB1QmECJoXoQ-DFhtJKw.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/shipmas-season-approaches-countdown-to-9-new-star-atlas-spaceships-f24afc7956b1",
+          "name": "The SHIPMAS Season Approaches: Countdown to 9 New Star Atlas Spaceships",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/shipmas-season-approaches-countdown-to-9-new-star-atlas-spaceships-f24afc7956b1"
+        },
+        "text_length": 12214
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/shipmas-9-new-star-atlas-spaceships-f24afc7956b1",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/shipmas-9-new-star-atlas-spaceships-f24afc7956b1",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/shipmas-9-new-star-atlas-spaceships-f24afc7956b1"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/shipmas-9-new-star-atlas-spaceships-f24afc7956b1",
+      "sha256": "17d1ac5aac74ce1ef6effac943823e448448cd7834b9296df03e44a916c5a22c",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:41:17Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0AED270D51ACD552.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/shipmas-9-new-star-atlas-spaceships-f24afc7956b1",
+  "http_status": 200,
+  "raw_byte_count": 326370,
+  "raw_sha256": "17d1ac5aac74ce1ef6effac943823e448448cd7834b9296df03e44a916c5a22c",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/shipmas-9-new-star-atlas-spaceships-f24afc7956b1",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/shipmas-9-new-star-atlas-spaceships-f24afc7956b1"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/shipmas-9-new-star-atlas-spaceships-f24afc7956b1",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F24AFC7956B1/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

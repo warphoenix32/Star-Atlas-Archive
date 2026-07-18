@@ -1,0 +1,145 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+  "collected": "2026-07-18T04:28:36Z",
+  "completeness": "complete",
+  "creator": [
+    "ZeSKK"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "e03cd369b757e5eb76c4e8d495cadc53463789d410da4558267985398556d0ea",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-27A0CEEC31E9.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-27A0CEEC31E9.md",
+  "observed_urls": [
+    "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+    "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9?source=read_next_recirc---------0---------------------13a7af98_e4dd_4bce_bf54_8635c47f2ee9-------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9?source=read_next_recirc---------0---------------------29c85859_7c0f_4422_82a8_5cede4035eb8-------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9?source=read_next_recirc---------0---------------------d4a897f0_74a7_4da2_ab17_05311ed81c88-------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9?source=read_next_recirc---------0---------------------e1f11137_0abc_46a7_87f2_4c3bae3e59cd-------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9?source=read_next_recirc---------2---------------------3c594b5b_560a_4838_964c_e2bc02236cb7-------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7FFFCA6E3EFC320C.json",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 401883,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@jose_eduardosiqueira",
+              "@type": "Person",
+              "identifier": "jose_eduardosiqueira",
+              "name": "ZeSKK",
+              "url": "https://medium.com/@jose_eduardosiqueira"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@jose_eduardosiqueira",
+              "@type": "Person",
+              "identifier": "jose_eduardosiqueira",
+              "name": "ZeSKK",
+              "url": "https://medium.com/@jose_eduardosiqueira"
+            },
+            "dateCreated": "2022-04-22T22:25:03Z",
+            "dateModified": "2022-06-06T15:16:36Z",
+            "datePublished": "2022-04-22T22:25:03Z",
+            "description": "The Atlas Star ✧ Issue #6 A tale about building a new world… Attention, Deep Space Explorers! We are back for another epic Atlas Star ✧, the official Star Atlas newsletter wherein you find all …",
+            "headline": "The Atlas Star ✧ Issue #6",
+            "identifier": "27a0ceec31e9",
+            "image": [
+              "https://miro.medium.com/0*RRtSVdCjNvc0B52s"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+            "name": "The Atlas Star ✧ Issue #6",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9"
+          },
+          "text_length": 29977
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+        "sha256": "590d320075db8c332efe0e0894ad53e4ca3bf3bbda06f21c1a1dfcb9a9f79a10",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-04-22T22:25:03Z",
+  "published_at_original": "2022-04-22T22:25:03Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-27A0CEEC31E9/article.html",
+  "raw_sha256": "590d320075db8c332efe0e0894ad53e4ca3bf3bbda06f21c1a1dfcb9a9f79a10",
+  "source_id": "SRC-MEDIUM-STARATLAS-27A0CEEC31E9",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "ZeSKK",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "ZeSKK"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "The Atlas Star ✧ Issue #6",
+  "updated_at_normalized": "2022-06-06T15:16:36Z",
+  "updated_at_original": "2022-06-06T15:16:36Z"
+}

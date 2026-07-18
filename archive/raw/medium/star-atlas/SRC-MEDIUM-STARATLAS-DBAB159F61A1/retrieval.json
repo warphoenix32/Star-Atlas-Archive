@@ -1,0 +1,105 @@
+{
+  "attempts": [
+    {
+      "byte_count": 5868,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1",
+      "sha256": "c06725ff42ed674458102387868fc7f9bdf8a6f9cd07730f611fec5c846572e7",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27536,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1",
+      "sha256": "74cd6c7524551c47c8770b3d1a3ffe373b1179b4effe3fd545788a255adb77bb",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 197459,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2022-09-22T17:16:43.782Z",
+          "dateModified": "2022-09-23T16:46:28.388Z",
+          "datePublished": "2022-09-22T17:16:43.782Z",
+          "description": "Artificial Intelligence Art Contest Invites Worldwide Community to Get Inspired By Star Atlas and Create A.I. Derivative Art While you’re waiting for the 426LIVE: NYK event, here is an exciting Star…",
+          "headline": "Star Atlas Launches A.I.-Generated Art Contest - Star Atlas - Medium",
+          "identifier": "dbab159f61a1",
+          "image": [
+            "https://miro.medium.com/max/1200/0*IhEN6Id5LlNLwMrF"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1",
+          "name": "Star Atlas Launches A.I.-Generated Art Contest - Star Atlas - Medium",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1"
+        },
+        "text_length": 16367
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20221128091301id_/https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1?source=user_profile---------8----------------------------",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20221128091301id_/https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1?source=user_profile---------8----------------------------",
+      "sha256": "1835e9623c0c27abb5f77ac548ea0e43b5849683bb93e1eeed23a83f8ddd000b",
+      "snapshot": {
+        "digest": "6Z4KZEEMGIJQXJIRWQZG2BIFTIB42C6Y",
+        "original_url": "https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1?source=user_profile---------8----------------------------",
+        "timestamp": "20221128091301"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:33:31Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BD0CD688817291A3.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-custom-domain",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20221128091301id_/https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1?source=user_profile---------8----------------------------",
+  "http_status": 200,
+  "raw_byte_count": 197459,
+  "raw_sha256": "1835e9623c0c27abb5f77ac548ea0e43b5849683bb93e1eeed23a83f8ddd000b",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-782D71677F35C5B8"
+  ],
+  "requested_url": "https://web.archive.org/web/20221128091301id_/https://medium.com/star-atlas/star-atlas-ai-art-contest-dbab159f61a1?source=user_profile---------8----------------------------",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-DBAB159F61A1/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

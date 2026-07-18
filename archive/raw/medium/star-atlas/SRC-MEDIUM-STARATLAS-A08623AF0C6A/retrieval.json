@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "byte_count": 251540,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/starpath-the-official-star-atlas-referral-program-a08623af0c6a",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-07-22T15:16:29Z",
+          "dateModified": "2022-07-22T15:16:29Z",
+          "datePublished": "2022-07-22T15:16:29Z",
+          "description": "StarPath — The Official Star Atlas Referral Program The next-gen web3 recruitment system opens the gates to the ultimate metaverse gaming experience for all Star Atlas players. “After the dread …",
+          "headline": "StarPath — The Official Star Atlas Referral Program",
+          "identifier": "a08623af0c6a",
+          "image": [
+            "https://miro.medium.com/0*z4pqwSOe792Cgs-8"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/starpath-the-official-star-atlas-referral-program-a08623af0c6a",
+          "name": "StarPath — The Official Star Atlas Referral Program",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/starpath-the-official-star-atlas-referral-program-a08623af0c6a"
+        },
+        "text_length": 5994
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/starpath-the-official-star-atlas-referral-program-a08623af0c6a",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/starpath-the-official-star-atlas-referral-program-a08623af0c6a",
+      "sha256": "8d484f1bc9f7b9a8d39fb1575d40d0a9ebb0994012b53c63aeead4c8b32672c4",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:05Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/starpath-the-official-star-atlas-referral-program-a08623af0c6a",
+  "http_status": 200,
+  "raw_byte_count": 251540,
+  "raw_sha256": "8d484f1bc9f7b9a8d39fb1575d40d0a9ebb0994012b53c63aeead4c8b32672c4",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-C2D5827CBB84972D"
+  ],
+  "requested_url": "https://medium.com/star-atlas/starpath-the-official-star-atlas-referral-program-a08623af0c6a",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A08623AF0C6A/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

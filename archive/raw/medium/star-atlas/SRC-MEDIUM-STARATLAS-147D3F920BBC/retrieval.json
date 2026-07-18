@@ -1,0 +1,89 @@
+{
+  "attempts": [
+    {
+      "byte_count": 258853,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-f-kit-a-bridge-to-web3-for-game-developers-147d3f920bbc",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-09-29T17:51:29Z",
+          "dateModified": "2022-09-29T17:51:29Z",
+          "datePublished": "2022-09-29T17:51:29Z",
+          "description": "The F-KIT: A Bridge to Web3 for Game Developers Star Atlas announces an in-game wallet that connects the Solana blockchain to Unreal Engine 5, as well as F-KIT, a free version of the software for …",
+          "headline": "The F-KIT: A Bridge to Web3 for Game Developers",
+          "identifier": "147d3f920bbc",
+          "image": [
+            "https://miro.medium.com/0*5OB1RcrKEW6jitfg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-f-kit-a-bridge-to-web3-for-game-developers-147d3f920bbc",
+          "name": "The F-KIT: A Bridge to Web3 for Game Developers",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-f-kit-a-bridge-to-web3-for-game-developers-147d3f920bbc"
+        },
+        "text_length": 7626
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-f-kit-a-bridge-to-web3-for-game-developers-147d3f920bbc",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-f-kit-a-bridge-to-web3-for-game-developers-147d3f920bbc",
+      "sha256": "60a065d49b741e45c65515b0f2ecd787421bf7dfc2ef736993bfeadfcb73ff1f",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:31Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4A9FCC4E28487231.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BD0CD688817291A3.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-f-kit-a-bridge-to-web3-for-game-developers-147d3f920bbc",
+  "http_status": 200,
+  "raw_byte_count": 258853,
+  "raw_sha256": "60a065d49b741e45c65515b0f2ecd787421bf7dfc2ef736993bfeadfcb73ff1f",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/the-f-kit-a-bridge-to-web3-for-game-developers-147d3f920bbc",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-147D3F920BBC/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

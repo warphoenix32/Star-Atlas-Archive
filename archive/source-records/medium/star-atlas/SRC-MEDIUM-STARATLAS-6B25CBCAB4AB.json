@@ -1,0 +1,147 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab",
+  "collected": "2026-07-18T04:28:50Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "084a40da7f38a86f277de321837701cb74843b14e0b099d2b886535c644fac68",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-6B25CBCAB4AB.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-6B25CBCAB4AB.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6b25cbcab4ab&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab&source=---------83-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab",
+    "https://medium.com/star-atlas/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab?source=rss-5ed69ff9cfb0------2",
+    "https://staratlasgame.medium.com/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab?source=user_profile_page---------83-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BD0CD688817291A3.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-6094197A6B96C0ED"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 310841,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2022-09-02T21:02:11Z",
+            "dateModified": "2022-09-09T20:18:34Z",
+            "datePublished": "2022-09-02T21:02:11Z",
+            "description": "The Truth about Gerio — Part III: Star Atlas Roadmap Scan #18 Truth surfaces as the group hear the last message of Arfrentos Silver Claws. An old injustice demands reparation. With an entire planet …",
+            "headline": "The Truth about Gerio — Part III: Star Atlas Roadmap Scan #18",
+            "identifier": "6b25cbcab4ab",
+            "image": [
+              "https://miro.medium.com/1*CB_YKzKGmwUQOXycATzZyg.png"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab",
+            "name": "The Truth about Gerio — Part III: Star Atlas Roadmap Scan #18",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab"
+          },
+          "text_length": 20814
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-iii-star-atlas-roadmap-scan-18-6b25cbcab4ab",
+        "sha256": "3414fd222ad0d70f20cdb213f3af23f265a6a2a331c791ba9d3f402d34f7104f",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-09-02T21:02:11Z",
+  "published_at_original": "2022-09-02T21:02:11Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-6B25CBCAB4AB/article.html",
+  "raw_sha256": "3414fd222ad0d70f20cdb213f3af23f265a6a2a331c791ba9d3f402d34f7104f",
+  "source_id": "SRC-MEDIUM-STARATLAS-6B25CBCAB4AB",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "The Truth about Gerio — Part III: Star Atlas Roadmap Scan #18",
+  "updated_at_normalized": "2022-09-09T20:18:34Z",
+  "updated_at_original": "2022-09-09T20:18:34Z"
+}

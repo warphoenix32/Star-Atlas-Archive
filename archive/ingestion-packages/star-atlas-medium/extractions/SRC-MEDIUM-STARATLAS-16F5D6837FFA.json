@@ -1,0 +1,127 @@
+{
+  "article": {
+    "block_count": 33,
+    "content_sha256": "9208c270c35160548085c8fb9a37f1ca9880e592cae5158e6d3af41116447cbc",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F16f5d6837ffa&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-dao-releases-atlas-locker-16f5d6837ffa&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F16f5d6837ffa&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-dao-releases-atlas-locker-16f5d6837ffa&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F16f5d6837ffa&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-dao-releases-atlas-locker-16f5d6837ffa"
+      },
+      {
+        "placement_block": null,
+        "text": "Listen",
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D16f5d6837ffa&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-dao-releases-atlas-locker-16f5d6837ffa"
+      },
+      {
+        "placement_block": null,
+        "text": "The full rewards schedule can be found here",
+        "url": "https://gist.github.com/dahifi/20797afed6de5167446edf54dd33407b"
+      },
+      {
+        "placement_block": null,
+        "text": "How to Lock ATLAS video",
+        "url": "https://vimeo.com/manage/videos/752308415/aae937b0ae"
+      },
+      {
+        "placement_block": null,
+        "text": "govern.staratlas.com",
+        "url": "https://govern.staratlas.com/lockers/atlas"
+      },
+      {
+        "placement_block": null,
+        "text": "knowledge base",
+        "url": "https://support.staratlas.com/knowledge/dao"
+      }
+    ],
+    "published_at_normalized": "2022-09-29T17:30:46Z",
+    "published_at_original": "2022-09-29T17:30:46Z",
+    "updated_at_normalized": "2022-10-03T15:47:53Z",
+    "updated_at_original": "2022-10-03T15:47:53Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-16F5D6837FFA",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": []
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-16F5D6837FFA.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-16F5D6837FFA.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-16F5D6837FFA/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-16F5D6837FFA.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-16F5D6837FFA.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-16F5D6837FFA",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "Star Atlas DAO Releases ATLAS Locker",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/star-atlas-dao-releases-atlas-locker-16f5d6837ffa"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

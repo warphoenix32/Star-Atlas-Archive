@@ -1,0 +1,92 @@
+{
+  "attempts": [
+    {
+      "byte_count": 275638,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/into-the-shipyard-exploring-the-ships-framework-in-star-atlas-270f41e5b1be",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2024-08-08T01:10:29Z",
+          "dateModified": "2024-08-12T16:30:56Z",
+          "datePublished": "2024-08-08T01:10:29Z",
+          "description": "Into The Shipyard — Exploring The Ships Framework in Star Atlas The time to receive your ship’s airdrop is near, and alongside its crew members, your vessel will also receive a special Ship Parts …",
+          "headline": "Into The Shipyard — Exploring The Ships Framework in Star Atlas",
+          "identifier": "270f41e5b1be",
+          "image": [
+            "https://miro.medium.com/0*FygoOsx-s8T7WAmS"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/into-the-shipyard-exploring-the-ships-framework-in-star-atlas-270f41e5b1be",
+          "name": "Into The Shipyard — Exploring The Ships Framework in Star Atlas",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/into-the-shipyard-exploring-the-ships-framework-in-star-atlas-270f41e5b1be"
+        },
+        "text_length": 8756
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/into-the-shipyard-exploring-the-ships-framework-in-star-atlas-270f41e5b1be",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/into-the-shipyard-exploring-the-ships-framework-in-star-atlas-270f41e5b1be",
+      "sha256": "96cb2d3462b4bef05090e0eb1f78f491c5cc70a4bc690a74f9682a83ea6c31b0",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:35Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/into-the-shipyard-exploring-the-ships-framework-in-star-atlas-270f41e5b1be",
+  "http_status": 200,
+  "raw_byte_count": 275638,
+  "raw_sha256": "96cb2d3462b4bef05090e0eb1f78f491c5cc70a4bc690a74f9682a83ea6c31b0",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-ED2BEAE0719DC007",
+    "SRC-X-STARATLAS-1872762898076057778"
+  ],
+  "requested_url": "https://medium.com/star-atlas/into-the-shipyard-exploring-the-ships-framework-in-star-atlas-270f41e5b1be",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-270F41E5B1BE/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

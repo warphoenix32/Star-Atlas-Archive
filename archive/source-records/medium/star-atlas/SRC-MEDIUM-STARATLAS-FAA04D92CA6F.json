@@ -1,0 +1,123 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+  "collected": "2026-07-18T04:30:32Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 13,
+  "media_successes": 0,
+  "normalized_content_sha256": "36fd4b52714b722c05c2ca7e92bbc807a81411135a5cf0d098d1a118e33af6ee",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-FAA04D92CA6F.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-FAA04D92CA6F.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffaa04d92ca6f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f&source=---------8-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+    "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f?source=rss----a97f09b411f1---4",
+    "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f?source=rss-5ed69ff9cfb0------2",
+    "https://staratlasgame.medium.com/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f?source=user_profile_page---------8-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page",
+      "profile_page_browser",
+      "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+      "rss:profile",
+      "rss:publication"
+    ],
+    "referrer_source_ids": [
+      "SRC-X-STARATLAS-1930755384341639415"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 5998,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "sha256": "09acfb1f9c401e78f184e680aad712f65926cdd46f0f28fc0fb40163397fa542",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27520,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "sha256": "0637753503a160ac9fa69dc37ce8af7cef03c65bd511c6f57b2a75aac3606ef3",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 15492,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {},
+          "text_length": 11534
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "sha256": "c721e0ccaaff5bcd2037c1129d9dc3dce98ddb5dc36a0ac6f84cde3b136aa46d",
+        "tier": "RSS_CONTENT_ENCODED"
+      }
+    ],
+    "retrieval_tier": "RSS_CONTENT_ENCODED"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2025-06-05T22:30:14Z",
+  "published_at_original": "Thu, 05 Jun 2025 22:30:14 GMT",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-FAA04D92CA6F/article.html",
+  "raw_sha256": "c721e0ccaaff5bcd2037c1129d9dc3dce98ddb5dc36a0ac6f84cde3b136aa46d",
+  "source_id": "SRC-MEDIUM-STARATLAS-FAA04D92CA6F",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Town Hall Recap: The New Web3 Era Is Upon Us",
+  "updated_at_normalized": null,
+  "updated_at_original": null
+}

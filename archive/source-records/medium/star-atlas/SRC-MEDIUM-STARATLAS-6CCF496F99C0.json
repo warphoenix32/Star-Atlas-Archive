@@ -1,0 +1,142 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-teams-up-with-award-winning-studio-audio-up-to-create-sci-adventure-podcast-6ccf496f99c0",
+  "collected": "2026-07-18T04:28:50Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "1bc0053d8aa991e6a6e922f985e84326d0fb6da142974708b2b83c63367fe709",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-6CCF496F99C0.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-6CCF496F99C0.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6ccf496f99c0&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-audio-up-sci-adventure-podcast-6ccf496f99c0&source=---------118-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-audio-up-sci-adventure-podcast-6ccf496f99c0",
+    "https://staratlasgame.medium.com/star-atlas-audio-up-sci-adventure-podcast-6ccf496f99c0?source=user_profile_page---------118-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 245751,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/star-atlas-teams-up-with-award-winning-studio-audio-up-to-create-sci-adventure-podcast-6ccf496f99c0",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2022-04-21T13:02:54Z",
+            "dateModified": "2022-04-21T13:02:54Z",
+            "datePublished": "2022-04-21T13:02:54Z",
+            "description": "Audio Up, the award-winning audio brand, has announced a first-of-its-kind partnership with gaming metaverse Star Atlas on an original podcasting series.",
+            "headline": "Star Atlas Teams Up with Award-winning Studio Audio Up to Create Sci-adventure Podcast",
+            "identifier": "6ccf496f99c0",
+            "image": [
+              "https://miro.medium.com/1*XAL-pEFQN8fOsK4qpJ-47w.jpeg"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-teams-up-with-award-winning-studio-audio-up-to-create-sci-adventure-podcast-6ccf496f99c0",
+            "name": "Star Atlas Teams Up with Award-winning Studio Audio Up to Create Sci-adventure Podcast",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-teams-up-with-award-winning-studio-audio-up-to-create-sci-adventure-podcast-6ccf496f99c0"
+          },
+          "text_length": 7294
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-audio-up-sci-adventure-podcast-6ccf496f99c0",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-audio-up-sci-adventure-podcast-6ccf496f99c0",
+        "sha256": "8760e026c0f57023059f16fcacc70d5a8a412fe4c7a26b442069727433307d43",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-04-21T13:02:54Z",
+  "published_at_original": "2022-04-21T13:02:54Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-6CCF496F99C0/article.html",
+  "raw_sha256": "8760e026c0f57023059f16fcacc70d5a8a412fe4c7a26b442069727433307d43",
+  "source_id": "SRC-MEDIUM-STARATLAS-6CCF496F99C0",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Teams Up with Award-winning Studio Audio Up to Create Sci-adventure Podcast",
+  "updated_at_normalized": "2022-04-21T13:02:54Z",
+  "updated_at_original": "2022-04-21T13:02:54Z"
+}

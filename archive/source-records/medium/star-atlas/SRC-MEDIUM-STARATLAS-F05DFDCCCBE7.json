@@ -1,0 +1,155 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7",
+  "collected": "2026-07-18T04:30:20Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 3,
+  "media_successes": 0,
+  "normalized_content_sha256": "d135a4e1bb63e039e44f7778ba4d1b23054ba76e0105cdd650021dcb587149ac",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-F05DFDCCCBE7.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-F05DFDCCCBE7.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff05dfdcccbe7&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fhow-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7&source=---------110-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7?source=post_internal_links---------5----------------------------",
+    "https://staratlasgame.medium.com/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7?source=user_profile_page---------110-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 5983,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7",
+        "sha256": "c26970955db541ad8b2bb9ec9b8ea5b1a4311224f2a6e61cb92c01374f3d7829",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27651,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7",
+        "sha256": "1cd20f9fc87f196e7c4ce77a38e322d1a0ce8eeefe500f67a42feba5720b5661",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 143365,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2022-05-20T15:26:36.375Z",
+            "dateModified": "2022-06-17T18:36:55.345Z",
+            "datePublished": "2022-05-20T15:26:36.375Z",
+            "description": "Does this sound familiar? You’re interested in joining a Star Atlas guild but aren’t sure which one to join — or — you’re considering starting your own guild but aren’t sure how. Guilds are not as…",
+            "headline": "How to Join a Star Atlas Guild or Create Your Own - Star Atlas - Medium",
+            "identifier": "f05dfdcccbe7",
+            "image": [
+              "https://miro.medium.com/max/1200/0*SFKhzY3xbp-pwNwL"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7",
+            "name": "How to Join a Star Atlas Guild or Create Your Own - Star Atlas - Medium",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7"
+          },
+          "text_length": 3358
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20221005180206id_/https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7?source=post_internal_links---------5----------------------------",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20221005180206id_/https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7?source=post_internal_links---------5----------------------------",
+        "sha256": "07909f05657300be247b89e763300071e11a0158a0a77729cea6e832cfdb8e33",
+        "snapshot": {
+          "digest": "BTJRROEZATQZWXHRYZ7EEJHRK2SZNUYB",
+          "original_url": "https://medium.com/star-atlas/how-to-join-a-star-atlas-guild-or-create-your-own-f05dfdcccbe7?source=post_internal_links---------5----------------------------",
+          "timestamp": "20221005180206"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-05-20T15:26:36.375000Z",
+  "published_at_original": "2022-05-20T15:26:36.375Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F05DFDCCCBE7/article.html",
+  "raw_sha256": "07909f05657300be247b89e763300071e11a0158a0a77729cea6e832cfdb8e33",
+  "source_id": "SRC-MEDIUM-STARATLAS-F05DFDCCCBE7",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "How to Join a Star Atlas Guild or Create Your Own - Star Atlas - Medium",
+  "updated_at_normalized": "2022-06-17T18:36:55.345000Z",
+  "updated_at_original": "2022-06-17T18:36:55.345Z"
+}

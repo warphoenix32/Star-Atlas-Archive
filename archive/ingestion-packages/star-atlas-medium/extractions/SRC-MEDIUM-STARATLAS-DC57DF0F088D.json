@@ -1,0 +1,94 @@
+{
+  "article": {
+    "block_count": 27,
+    "content_sha256": "ec546b287455c4ccf663318e53574f69ffc1e1c2212402906587dc70ffe7b681",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "GO HERE",
+        "url": "https://staratlas.com/partnerships/copa22"
+      }
+    ],
+    "published_at_normalized": "2022-05-20T15:25:14.779000Z",
+    "published_at_original": "2022-05-20T15:25:14.779Z",
+    "updated_at_normalized": "2022-05-21T02:17:29.683000Z",
+    "updated_at_original": "2022-05-21T02:17:29.683Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-DC57DF0F088D",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D72CE2BCE740856F.json",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F9654AA6FF1D8010.json",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": []
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-DC57DF0F088D.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-DC57DF0F088D.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-DC57DF0F088D/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-DC57DF0F088D.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-DC57DF0F088D.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-DC57DF0F088D",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "Introducing COPA — a Festival of Guilds - Star Atlas - Medium",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

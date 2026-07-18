@@ -1,0 +1,142 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-and-moonpay-join-forces-to-lead-millions-of-players-into-web3-gaming-a1ec06819509",
+  "collected": "2026-07-18T04:29:05Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "b1de3bf61b22a929cfc4a97c6477192d5aa13ad3a5b1ef0e8d5cf74a3e44806f",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-A1EC06819509.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-A1EC06819509.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa1ec06819509&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-moonpay-millions-players-web3-gaming-a1ec06819509&source=---------32-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-moonpay-millions-players-web3-gaming-a1ec06819509",
+    "https://staratlasgame.medium.com/star-atlas-moonpay-millions-players-web3-gaming-a1ec06819509?source=user_profile_page---------32-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 237425,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/star-atlas-and-moonpay-join-forces-to-lead-millions-of-players-into-web3-gaming-a1ec06819509",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2023-08-15T16:01:56Z",
+            "dateModified": "2023-08-15T16:01:56Z",
+            "datePublished": "2023-08-15T16:01:56Z",
+            "description": "Today, Star Atlas, the cutting-edge gaming metaverse with an Unreal Engine 5 pre-alpha game on the Epic Games Store, announced its crypto payments on-ramp partnership with MoonPay.",
+            "headline": "Star Atlas and MoonPay Join Forces to Lead Millions of Players into Web3 Gaming",
+            "identifier": "a1ec06819509",
+            "image": [
+              "https://miro.medium.com/1*asuZOYmj2dwrxmiha0NAeQ.jpeg"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-and-moonpay-join-forces-to-lead-millions-of-players-into-web3-gaming-a1ec06819509",
+            "name": "Star Atlas and MoonPay Join Forces to Lead Millions of Players into Web3 Gaming",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-and-moonpay-join-forces-to-lead-millions-of-players-into-web3-gaming-a1ec06819509"
+          },
+          "text_length": 4558
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-moonpay-millions-players-web3-gaming-a1ec06819509",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-moonpay-millions-players-web3-gaming-a1ec06819509",
+        "sha256": "6fe73d2a38b78a2d5133cbe6b65bcfef68ac2bd4809601894d7e608586e384ab",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2023-08-15T16:01:56Z",
+  "published_at_original": "2023-08-15T16:01:56Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A1EC06819509/article.html",
+  "raw_sha256": "6fe73d2a38b78a2d5133cbe6b65bcfef68ac2bd4809601894d7e608586e384ab",
+  "source_id": "SRC-MEDIUM-STARATLAS-A1EC06819509",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas and MoonPay Join Forces to Lead Millions of Players into Web3 Gaming",
+  "updated_at_normalized": "2023-08-15T16:01:56Z",
+  "updated_at_original": "2023-08-15T16:01:56Z"
+}

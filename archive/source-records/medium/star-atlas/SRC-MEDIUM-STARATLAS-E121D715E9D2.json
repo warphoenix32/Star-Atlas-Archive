@@ -1,0 +1,176 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+  "collected": "2026-07-18T04:34:00Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 2,
+  "media_successes": 0,
+  "normalized_content_sha256": "3b23a53c917475dd36860bb345476105225eced1af0df05535725b49d215ec05",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-E121D715E9D2.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-E121D715E9D2.md",
+  "observed_urls": [
+    "http://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe121d715e9d2&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-16-e121d715e9d2&source=---------52-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?source=publication_recirc-----39d84a2030a5----0----------------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?source=publication_recirc-----39d84a2030a5----1----------------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?source=publication_recirc-----cb7d51f19c84----0----------------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?source=publication_recirc-----cb7d51f19c84----1----------------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?source=rss----a97f09b411f1---4",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?source=rss-5ed69ff9cfb0------2",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?source=topics_v2---------6-84--------------------86e69ed8_0449_4fcb_b1f1_8e709b7cfae1-------17",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?source=user_profile---------0----------------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?utm_medium=email&utm_campaign=sendgrid&utm_source=sendgrid.com",
+    "https://staratlasgame.medium.com/the-atlas-star-issue-16-e121d715e9d2?source=user_profile_page---------52-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3471FBD517D5CD7F.json",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-D023F6DAFA12F9AA.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-B29F8C4349044164"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 5862,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+        "http_status": 429,
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2"
+          }
+        ],
+        "requested_url": "http://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+        "sha256": "4624e357c4bf5cf6a2f5ec13da0c6c7a9efa581d86dfb160487c684d9c8ea364",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27530,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "http://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+        "sha256": "51ae56cf1ee0f72422f0ae01f9c57bd3318a7896683345998d4e64cf953b7af5",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 314270,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2023-03-17T19:32:55.292Z",
+            "dateModified": "2023-06-07T02:27:46.465Z",
+            "datePublished": "2023-03-17T19:32:55.292Z",
+            "description": "Welcome, Explorers from all corners of the galaxy! Your galactic news source of record is back with another epic edition to discuss one of our community’s favorite topics: The economy. In this issue…",
+            "headline": "The Atlas Star ✧ Issue #16 - Star Atlas - Medium",
+            "identifier": "e121d715e9d2",
+            "image": [
+              "https://miro.medium.com/v2/resize:fit:1200/0*H0o7Hu3b9OWUWa_1"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2",
+            "name": "The Atlas Star ✧ Issue #16 - Star Atlas - Medium",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2"
+          },
+          "text_length": 22885
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20230725072229id_/https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?utm_medium=email&utm_campaign=sendgrid&utm_source=sendgrid.com",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20230725072229id_/https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?utm_medium=email&utm_campaign=sendgrid&utm_source=sendgrid.com",
+        "sha256": "de57b532213a9892eb66042828fcf4fa3f290dc6d8337c1c87460cd5cdcb7f77",
+        "snapshot": {
+          "digest": "Y5QHQYM5Q2AVLN763INRK4YXKVSMPDEJ",
+          "original_url": "https://medium.com/star-atlas/the-atlas-star-issue-16-e121d715e9d2?utm_medium=email&utm_campaign=sendgrid&utm_source=sendgrid.com",
+          "timestamp": "20230725072229"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2023-03-17T19:32:55.292000Z",
+  "published_at_original": "2023-03-17T19:32:55.292Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E121D715E9D2/article.html",
+  "raw_sha256": "de57b532213a9892eb66042828fcf4fa3f290dc6d8337c1c87460cd5cdcb7f77",
+  "source_id": "SRC-MEDIUM-STARATLAS-E121D715E9D2",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "The Atlas Star ✧ Issue #16 - Star Atlas - Medium",
+  "updated_at_normalized": "2023-06-07T02:27:46.465000Z",
+  "updated_at_original": "2023-06-07T02:27:46.465Z"
+}

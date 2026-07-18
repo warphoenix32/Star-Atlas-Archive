@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "byte_count": 270758,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-new-galactic-marketplace-a-small-step-for-trading-a-huge-leap-for-the-star-atlas-metaverse-a7c4a44ee7f8",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-07-22T01:25:58Z",
+          "dateModified": "2022-07-22T12:48:57Z",
+          "datePublished": "2022-07-22T01:25:58Z",
+          "description": "The New Galactic Marketplace — A Small Step for Trading, a Huge Leap For The Star Atlas Metaverse As the foundation of Star Atlas continues to be built, our players will experience more exciting …",
+          "headline": "The New Galactic Marketplace — A Small Step for Trading, a Huge Leap For The Star Atlas Metaverse",
+          "identifier": "a7c4a44ee7f8",
+          "image": [
+            "https://miro.medium.com/0*BttIEj5ObHMwPrgA"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-new-galactic-marketplace-a-small-step-for-trading-a-huge-leap-for-the-star-atlas-metaverse-a7c4a44ee7f8",
+          "name": "The New Galactic Marketplace — A Small Step for Trading, a Huge Leap For The Star Atlas Metaverse",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-new-galactic-marketplace-a-small-step-for-trading-a-huge-leap-for-the-star-atlas-metaverse-a7c4a44ee7f8"
+        },
+        "text_length": 9124
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-new-galactic-marketplace-a-small-step-for-trading-a-huge-leap-for-the-star-atlas-metaverse-a7c4a44ee7f8",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-new-galactic-marketplace-a-small-step-for-trading-a-huge-leap-for-the-star-atlas-metaverse-a7c4a44ee7f8",
+      "sha256": "acf0d7c3ff1de154f703525bb933a5da1ff172b855a0e8c46fdef733095f55d3",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:07Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-new-galactic-marketplace-a-small-step-for-trading-a-huge-leap-for-the-star-atlas-metaverse-a7c4a44ee7f8",
+  "http_status": 200,
+  "raw_byte_count": 270758,
+  "raw_sha256": "acf0d7c3ff1de154f703525bb933a5da1ff172b855a0e8c46fdef733095f55d3",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/the-new-galactic-marketplace-a-small-step-for-trading-a-huge-leap-for-the-star-atlas-metaverse-a7c4a44ee7f8",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A7C4A44EE7F8/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

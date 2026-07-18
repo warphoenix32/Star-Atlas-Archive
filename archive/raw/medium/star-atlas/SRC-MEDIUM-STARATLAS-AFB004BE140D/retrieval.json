@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "byte_count": 311447,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-07-29T19:58:48Z",
+          "dateModified": "2022-08-04T14:13:06Z",
+          "datePublished": "2022-07-29T19:58:48Z",
+          "description": "Punaabs Secrets — Star Atlas Roadmap Scan #15 As Yago has finally recovered his health, the group is now on a quest to leave planet Gerio. Without a ship, Wenn and Yago have no choice but to ally …",
+          "headline": "Punaabs Secrets — Star Atlas Roadmap Scan #15",
+          "identifier": "afb004be140d",
+          "image": [
+            "https://miro.medium.com/0*ElWrUx2VHSPy-O8A"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d",
+          "name": "Punaabs Secrets — Star Atlas Roadmap Scan #15",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d"
+        },
+        "text_length": 22063
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d",
+      "sha256": "d99e389deed6a6df98f41dfc67cc29b403a97023c43ad276b62d5eb4eeff9523",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:10Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d",
+  "http_status": 200,
+  "raw_byte_count": 311447,
+  "raw_sha256": "d99e389deed6a6df98f41dfc67cc29b403a97023c43ad276b62d5eb4eeff9523",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/punaabs-secrets-roadmap-scan-15-afb004be140d",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-AFB004BE140D/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

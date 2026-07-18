@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "byte_count": 242861,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-in-a-partnership-to-revolutionize-the-future-of-entertainment-b0fc33e9e8a5",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-08-24T02:47:45Z",
+          "dateModified": "2021-08-24T02:47:45Z",
+          "datePublished": "2021-08-24T02:47:45Z",
+          "description": "Animoca Brands, a world-class leader in digital entertainment, blockchain, and gamification, has officially joined the Solana-powered Star Atlas metaverse community as a stakeholder.",
+          "headline": "Animoca Brands Joins Star Atlas in a Partnership to Revolutionize the Future of Entertainment",
+          "identifier": "b0fc33e9e8a5",
+          "image": [
+            "https://miro.medium.com/1*tnki6DjPPWjkHKXeWkOyZw.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-in-a-partnership-to-revolutionize-the-future-of-entertainment-b0fc33e9e8a5",
+          "name": "Animoca Brands Joins Star Atlas in a Partnership to Revolutionize the Future of Entertainment",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-in-a-partnership-to-revolutionize-the-future-of-entertainment-b0fc33e9e8a5"
+        },
+        "text_length": 5861
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-partnership-revolutionize-future-entertainment-b0fc33e9e8a5",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-partnership-revolutionize-future-entertainment-b0fc33e9e8a5",
+      "sha256": "eb8079353af8785118fe11153066f3ad6ed6aa0a0699488ffa3a7abfc530dca4",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:10Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0333A5B22A207D88.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-partnership-revolutionize-future-entertainment-b0fc33e9e8a5",
+  "http_status": 200,
+  "raw_byte_count": 242861,
+  "raw_sha256": "eb8079353af8785118fe11153066f3ad6ed6aa0a0699488ffa3a7abfc530dca4",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-partnership-revolutionize-future-entertainment-b0fc33e9e8a5",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-B0FC33E9E8A5/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

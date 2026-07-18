@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 268760,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-opens-doors-to-free-development-for-solana-builders-and-creators-in-sage-labs-and-beyond-1d6cbcdd33d7",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2023-10-03T22:25:41Z",
+          "dateModified": "2023-10-04T16:01:43Z",
+          "datePublished": "2023-10-03T22:25:41Z",
+          "description": "Star Atlas Opens Doors to Free Development for Solana Builders and Creators in SAGE Labs and Beyond Open-platforming of developer tools and documentation opens doors to the most advanced web3 gaming …",
+          "headline": "Star Atlas Opens Doors to Free Development for Solana Builders and Creators in SAGE Labs and Beyond",
+          "identifier": "1d6cbcdd33d7",
+          "image": [
+            "https://miro.medium.com/1*aj2iWeSCdAH9dBlsXY35dg.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-opens-doors-to-free-development-for-solana-builders-and-creators-in-sage-labs-and-beyond-1d6cbcdd33d7",
+          "name": "Star Atlas Opens Doors to Free Development for Solana Builders and Creators in SAGE Labs and Beyond",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-opens-doors-to-free-development-for-solana-builders-and-creators-in-sage-labs-and-beyond-1d6cbcdd33d7"
+        },
+        "text_length": 8917
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-opens-free-development-solana-builders-creators-sage-labs-programs-1d6cbcdd33d7",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-opens-free-development-solana-builders-creators-sage-labs-programs-1d6cbcdd33d7",
+      "sha256": "d5f1590d627bcc64c99f8b3265464ec0f49bb0f1444f75ca01d41f3b9db41bdf",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:33Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-opens-free-development-solana-builders-creators-sage-labs-programs-1d6cbcdd33d7",
+  "http_status": 200,
+  "raw_byte_count": 268760,
+  "raw_sha256": "d5f1590d627bcc64c99f8b3265464ec0f49bb0f1444f75ca01d41f3b9db41bdf",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-C8C594919E5AA157"
+  ],
+  "requested_url": "https://medium.com/star-atlas/star-atlas-opens-free-development-solana-builders-creators-sage-labs-programs-1d6cbcdd33d7",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-1D6CBCDD33D7/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

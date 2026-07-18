@@ -1,0 +1,797 @@
+{
+  "article_text": "Star Atlas\n\nStar Atlas\n\nWelcome back, explorers! We’re excited to share the latest patch notes for February’s update. Before diving into the new enhancements, let’s quickly revisit the highlights from last December.\n\nLast December’s Highlights\n\nAs 2024 came to a close, we launched the Star Atlas Unreal Engine 5 Private Preseason — our most significant update yet. It introduced new game modes, enhancements, and multiplayer features, making the Galia Expanse more accessible and enjoyable for our players.\n\nHere’s a glance at the major updates:\n\nCrewcards V0 Integration\n\nWe introduced a crew system to the Unreal Engine 5 client, enabling players to interact with their crew members for the first time. Though character arts are still under development, this initial step offers a sneak peek at the unique, customized experiences awaiting in Galia Expanse.\n\nDeathmatch Modes in Paizul’s Arena\n\nThis new exciting map allows players to engage in quick, intense three-way team and free-for-all battles in public lobbies, using unique species, accessories, and weapons from Star Atlas.\n\nMultiplayer Racing Tracks\n\nWe’ve added two thrilling maps on Planet Ioki’s sands for self-hosted racing lobbies. These high-speed tracks are designed to enhance our community’s competitive spirit.\n\nNew Single-Player Test Modes\n\nPlayers can now explore two new environments in the Galia Expanse universe:\n\nONI Faction Central Space Station : Navigate the expansive capital of the ONI Consortium and discover its district-by-district intricacies as it grows to be an economic metropolis of the Star Atlas metaverse\n\nProject Galia : This experimental mode invites players to fly through space, exploring sectors and discovering planets, previewing the future of Star Atlas.\n\nFleet Command Test Mode\n\nThe Unreal Engine 5 iteration of our blockchain SAGE game, Fleet Command, offers a real-time view of SAGE fleets across the galaxy, with feature parity expected later this year.\n\nWhat’s New in This Patch\n\nGeneral Updates\n\nThis patch adds a series of new features, which we will break down by topic. First, let’s look at the general updates that affect many game modes.\n\nSpecies Specifics Stats: The system now supports species-specific HP (health points) and Movement Speed. All characters currently equip the same shield.\n\nKill Animation: New crosshair animations on hit-and-kill.\n\nShips HUD: New Ship HUD notification when failing to switch to hover mode in microgravity.\n\nHit animation: New damage direction indicators in Player HUD\n\nDeath VFX: New death, kills, hit sounds.\n\nWaypoint Markers: Waypoint markers now have screen edge persistence.\n\nSpectator: Improved camera behavior on player death.\n\nBots Spawn points: Bots in Gunplay Trainer no longer spawn randomly but at the furthest spawn point from existing players.\n\nBot Racing: Remove Racing bots from time trials until they are more performant/competitive.\n\nEnvironment Refactoring: Refactor Openable Objects (doors, ramps, elevators) for better multiplayer support and easier interactions.\n\nGrenade Refactoring: Refactor grenades for better performance during multiplayer latency.\n\nGrenade Effects: New grenade explosion VFX.\n\nRagdolls Animation: Animation update on ragdolls for better visuals.\n\nShip Steering Animation: Polish pass on movement and steering animations for all XXS and XS ships.\n\nArt and Physics Enhancement: Various art, collision, and performance improvements across all Maps.\n\nCollision: Various art/collision/camera issues on spawnable ships.\n\nOptimization of The UI: Optimization pass on most UI screens/elements.\n\nWallet UX Enhancements\n\nWe’ve addressed several issues to improve the blockchain wallet experience:\n\nNo Wallet Login: Logging into your wallet is now optional for Unreal Engine 5 game modes, simplifying onboarding for those new to blockchain.\n\nMnemonic Recovery : Issues preventing mnemonic recovery have been resolved.\n\nPassword Recognition : Fixed password recognition problems.\n\nWallet Creation : Streamlined the wallet creation process. Players won’t be prompted to create a new wallet every time they log in.\n\nAuto Login : Enhanced auto-login for quicker access to previously used wallets.\n\nFleet Command Visualization Enhancements\n\nWe’ve made significant progress in the Fleet Command visualization game mode, improving ship displays UI/UX, and adding quality-of-life features for better gameplay. The improvements include:\n\nOptimized Ship VFX : thrusters, scanning, mining, warping.\n\nUpdated Cataclysm hero asset: New art for the area on the center of the map, where the secrets of the Cataclysm lay hidden.\n\nMap enhancement : Updated lighting and art in galaxy and sector views.\n\nCelestial Bodies Art: Planet shader improvements.\n\nUser Interface and User Experience Quality of Life: Updated UI screens with more data and improved UX.\n\nNew Camera System: Augmentation of the user experience while exploring the map.\n\nModularity: Decoupled various asset classes for better interface.\n\nPrivate & Friend Lobbies\n\nPlayers can now create private or friend-only lobbies for exclusive multiplayer experiences in Unreal Engine 5. The new updates incorporate:\n\nPrivate Gameplay: Add support for Private, Friends Only P2P session\n\nMultiplayer Sessions ID: Add support for joining P2P sessions by Session ID\n\nDeathmatch Ranking: Add Rank screen at the end of a Deathmatch.\n\nMinimap updates: Deathmatch minimap no longer shows all players as friendly\n\nOptimization: General networking optimizations for characters and ships\n\nFleet Controls: Enable Power Triangle and Ship Boost in Multiplayer.\n\nMounting ships: Clean up replication visuals when mounting ships\n\nOptimizations, Polish, and Bug Fixes\n\nThis patch also introduces optimizations and bug fixes, improving performance and gameplay as we prepare for the public release later this year, such as:\n\nRestore the ability to link a wallet using 12-word pneumonic.\n\nRestore the ability to post Photos to discord from UE Client.\n\nFix the issue where previously used wallets would not unlock given the correct password.\n\nFix the issue where the player would not respawn correctly in Galia.\n\nFix Pickups Invisible on Track B.\n\nFix the issue where the HVT Crystal minimap marker would persist as a static gray icon.\n\nFix the issue where race pickup sounds were loud and didn’t adhere to the volume settings.\n\nFix the issue where the player can lose the ability to shoot after throwing a grenade.\n\nFix issues where the ship can drift during a racing countdown.\n\nFix Racing results screen “new record” and rank indicators.\n\nFix the issue where the character would not enter the correct animation state when running and shooting automatic weapons.\n\nFix the issue where the holstered weapon would appear on the hip when ADSing a sighted weapon after swapping.\n\nFix the issue where the player could sometimes respawn in T-pose.\n\nFix the issue where a free look in certain camera angles would not restore the default camera position when released.\n\nBots can now correctly aim at species of shorter stature.\n\nRemove unused Ship model text from racing leaderboards\n\nRemove the change team option in the pause menu during a death match.\n\nFix sound attenuation issues in certain corners of the Paizul map.\n\nAdded Compakt Hero proxy mesh when viewing at a distance.\n\nThe Play Now menu button works when the selected mode is Volant Exp.\n\nFix an issue where grenade explosion could cause damage through walls/obstacles.\n\nWhat’s Next\n\nThis patch kicks off a series of exciting updates planned for Star Atlas Unreal Engine 5 game modes in 2025. These updates will pave the way for our public preseason, aiming to introduce the Star Atlas universe to a broader audience. For a sneak peek at upcoming features, please check our roadmap here . Please remember that patch features can be changed at any moment’s notice as we strive to provide the best support for our users.\n\nThank you for your continued support in building the future of gaming with us!\n\nABOUT STAR ATLAS\n\nStar Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain technologies, real-time graphics and multiplayer video games.\n\nUsing Unreal Engine 5’s Nanite real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using Solana establishes a largely serverless and secured gameplay experience. Player assets obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership.\n\nTo learn more, join a faction at Play.StarAtlas.com , get a spaceship in the Galactic Marketplace , and start playing the SAGE Labs browser game to explore, gather, craft and prosper on the galactic frontier.\n\nThen, download the UE5 PC Game from the Epic Games Store.\n\nParticipate in governance of the Star Atlas DAO . Send your spaceships on a deep space mission by enrolling them in a Faction Fleet and harvest resources with Faction Claims .\n\nJoin the Star Atlas community on: Twitter | Discord | YouTube | YouTube Clips | Reddit | Medium | LinkedIn",
+  "blocks": [
+    {
+      "level": null,
+      "text": "Star Atlas",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Welcome back, explorers! We’re excited to share the latest patch notes for February’s update. Before diving into the new enhancements, let’s quickly revisit the highlights from last December.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Last December’s Highlights",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "As 2024 came to a close, we launched the Star Atlas Unreal Engine 5 Private Preseason — our most significant update yet. It introduced new game modes, enhancements, and multiplayer features, making the Galia Expanse more accessible and enjoyable for our players.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Here’s a glance at the major updates:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Crewcards V0 Integration",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We introduced a crew system to the Unreal Engine 5 client, enabling players to interact with their crew members for the first time. Though character arts are still under development, this initial step offers a sneak peek at the unique, customized experiences awaiting in Galia Expanse.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Deathmatch Modes in Paizul’s Arena",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This new exciting map allows players to engage in quick, intense three-way team and free-for-all battles in public lobbies, using unique species, accessories, and weapons from Star Atlas.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Multiplayer Racing Tracks",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We’ve added two thrilling maps on Planet Ioki’s sands for self-hosted racing lobbies. These high-speed tracks are designed to enhance our community’s competitive spirit.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "New Single-Player Test Modes",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Players can now explore two new environments in the Galia Expanse universe:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "ONI Faction Central Space Station : Navigate the expansive capital of the ONI Consortium and discover its district-by-district intricacies as it grows to be an economic metropolis of the Star Atlas metaverse",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Project Galia : This experimental mode invites players to fly through space, exploring sectors and discovering planets, previewing the future of Star Atlas.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fleet Command Test Mode",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The Unreal Engine 5 iteration of our blockchain SAGE game, Fleet Command, offers a real-time view of SAGE fleets across the galaxy, with feature parity expected later this year.",
+      "type": "paragraph"
+    },
+    {
+      "level": 1,
+      "text": "What’s New in This Patch",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "General Updates",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This patch adds a series of new features, which we will break down by topic. First, let’s look at the general updates that affect many game modes.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Species Specifics Stats: The system now supports species-specific HP (health points) and Movement Speed. All characters currently equip the same shield.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Kill Animation: New crosshair animations on hit-and-kill.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Ships HUD: New Ship HUD notification when failing to switch to hover mode in microgravity.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Hit animation: New damage direction indicators in Player HUD",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Death VFX: New death, kills, hit sounds.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Waypoint Markers: Waypoint markers now have screen edge persistence.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Spectator: Improved camera behavior on player death.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Bots Spawn points: Bots in Gunplay Trainer no longer spawn randomly but at the furthest spawn point from existing players.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Bot Racing: Remove Racing bots from time trials until they are more performant/competitive.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Environment Refactoring: Refactor Openable Objects (doors, ramps, elevators) for better multiplayer support and easier interactions.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Grenade Refactoring: Refactor grenades for better performance during multiplayer latency.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Grenade Effects: New grenade explosion VFX.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Ragdolls Animation: Animation update on ragdolls for better visuals.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Ship Steering Animation: Polish pass on movement and steering animations for all XXS and XS ships.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Art and Physics Enhancement: Various art, collision, and performance improvements across all Maps.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Collision: Various art/collision/camera issues on spawnable ships.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Optimization of The UI: Optimization pass on most UI screens/elements.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Wallet UX Enhancements",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We’ve addressed several issues to improve the blockchain wallet experience:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "No Wallet Login: Logging into your wallet is now optional for Unreal Engine 5 game modes, simplifying onboarding for those new to blockchain.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Mnemonic Recovery : Issues preventing mnemonic recovery have been resolved.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Password Recognition : Fixed password recognition problems.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Wallet Creation : Streamlined the wallet creation process. Players won’t be prompted to create a new wallet every time they log in.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Auto Login : Enhanced auto-login for quicker access to previously used wallets.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fleet Command Visualization Enhancements",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We’ve made significant progress in the Fleet Command visualization game mode, improving ship displays UI/UX, and adding quality-of-life features for better gameplay. The improvements include:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Optimized Ship VFX : thrusters, scanning, mining, warping.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Updated Cataclysm hero asset: New art for the area on the center of the map, where the secrets of the Cataclysm lay hidden.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Map enhancement : Updated lighting and art in galaxy and sector views.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Celestial Bodies Art: Planet shader improvements.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "User Interface and User Experience Quality of Life: Updated UI screens with more data and improved UX.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "New Camera System: Augmentation of the user experience while exploring the map.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Modularity: Decoupled various asset classes for better interface.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Private & Friend Lobbies",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Players can now create private or friend-only lobbies for exclusive multiplayer experiences in Unreal Engine 5. The new updates incorporate:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Private Gameplay: Add support for Private, Friends Only P2P session",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Multiplayer Sessions ID: Add support for joining P2P sessions by Session ID",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Deathmatch Ranking: Add Rank screen at the end of a Deathmatch.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Minimap updates: Deathmatch minimap no longer shows all players as friendly",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Optimization: General networking optimizations for characters and ships",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fleet Controls: Enable Power Triangle and Ship Boost in Multiplayer.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Mounting ships: Clean up replication visuals when mounting ships",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Optimizations, Polish, and Bug Fixes",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This patch also introduces optimizations and bug fixes, improving performance and gameplay as we prepare for the public release later this year, such as:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Restore the ability to link a wallet using 12-word pneumonic.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Restore the ability to post Photos to discord from UE Client.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where previously used wallets would not unlock given the correct password.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where the player would not respawn correctly in Galia.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix Pickups Invisible on Track B.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where the HVT Crystal minimap marker would persist as a static gray icon.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where race pickup sounds were loud and didn’t adhere to the volume settings.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where the player can lose the ability to shoot after throwing a grenade.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix issues where the ship can drift during a racing countdown.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix Racing results screen “new record” and rank indicators.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where the character would not enter the correct animation state when running and shooting automatic weapons.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where the holstered weapon would appear on the hip when ADSing a sighted weapon after swapping.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where the player could sometimes respawn in T-pose.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix the issue where a free look in certain camera angles would not restore the default camera position when released.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Bots can now correctly aim at species of shorter stature.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Remove unused Ship model text from racing leaderboards",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Remove the change team option in the pause menu during a death match.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix sound attenuation issues in certain corners of the Paizul map.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Added Compakt Hero proxy mesh when viewing at a distance.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "The Play Now menu button works when the selected mode is Volant Exp.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fix an issue where grenade explosion could cause damage through walls/obstacles.",
+      "type": "list_item"
+    },
+    {
+      "level": 1,
+      "text": "What’s Next",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "This patch kicks off a series of exciting updates planned for Star Atlas Unreal Engine 5 game modes in 2025. These updates will pave the way for our public preseason, aiming to introduce the Star Atlas universe to a broader audience. For a sneak peek at upcoming features, please check our roadmap here . Please remember that patch features can be changed at any moment’s notice as we strive to provide the best support for our users.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Thank you for your continued support in building the future of gaming with us!",
+      "type": "paragraph"
+    },
+    {
+      "level": 1,
+      "text": "ABOUT STAR ATLAS",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain technologies, real-time graphics and multiplayer video games.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Using Unreal Engine 5’s Nanite real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using Solana establishes a largely serverless and secured gameplay experience. Player assets obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "To learn more, join a faction at Play.StarAtlas.com , get a spaceship in the Galactic Marketplace , and start playing the SAGE Labs browser game to explore, gather, craft and prosper on the galactic frontier.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Then, download the UE5 PC Game from the Epic Games Store.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Participate in governance of the Star Atlas DAO . Send your spaceships on a deep space mission by enrolling them in a Faction Fleet and harvest resources with Faction Claims .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Join the Star Atlas community on: Twitter | Discord | YouTube | YouTube Clips | Reddit | Medium | LinkedIn",
+      "type": "paragraph"
+    }
+  ],
+  "content_sha256": "ea5f302c0516c17f0a9d54632f4ffeddbb274d47b46f2ba4c4d2ad34621b6048",
+  "embeds": [],
+  "images": [
+    {
+      "alt_text": "Star Atlas",
+      "article_order": 1,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://miro.medium.com/v2/resize:fill:88:88/1*NUmmYROVLt19ikAbCunjXQ.png",
+      "placement_block": null,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": "Star Atlas",
+      "article_order": 2,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://miro.medium.com/v2/resize:fill:48:48/1*NUmmYROVLt19ikAbCunjXQ.png",
+      "placement_block": null,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    }
+  ],
+  "outbound_links": [
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas",
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Follow",
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fsubscribe%2Fuser%2F5ed69ff9cfb0&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas",
+      "url": "https://medium.com/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2Ff3b2ebd6f74d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff3b2ebd6f74d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d"
+    },
+    {
+      "placement_block": null,
+      "text": "here",
+      "url": "https://portal.productboard.com/staratlas/1-star-atlas-roadmap/tabs/2-preseason"
+    },
+    {
+      "placement_block": null,
+      "text": "Solana",
+      "url": "http://solana.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Play.StarAtlas.com",
+      "url": "http://play.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Galactic Marketplace",
+      "url": "http://play.staratlas.com/market"
+    },
+    {
+      "placement_block": null,
+      "text": "SAGE Labs browser game",
+      "url": "http://labs.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "download the UE5 PC Game",
+      "url": "https://store.epicgames.com/en-US/p/star-atlas-bead34"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas DAO",
+      "url": "https://govern.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Faction Fleet",
+      "url": "https://play.staratlas.com/fleet"
+    },
+    {
+      "placement_block": null,
+      "text": "Faction Claims",
+      "url": "https://play.staratlas.com/claims"
+    },
+    {
+      "placement_block": null,
+      "text": "Twitter",
+      "url": "https://twitter.com/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord",
+      "url": "https://discord.gg/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube",
+      "url": "https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube Clips",
+      "url": "https://www.youtube.com/@StarAtlasClips"
+    },
+    {
+      "placement_block": null,
+      "text": "Reddit",
+      "url": "https://www.reddit.com/r/StarAtlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Medium",
+      "url": "https://medium.com/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/company/star-atlas"
+    }
+  ],
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "retrieval": {
+    "attempts": [
+      {
+        "byte_count": 6055,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+        "sha256": "2d2970e7555a5a0647260c42eb495da21a084e7f08a32565986288a0d7c67479",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27723,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+        "sha256": "dd02b55ee12226172062d7966fcc000427efcfc60a5dee05fda4a10c76fb8ddc",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 169827,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2025-01-30T21:40:38.475Z",
+            "dateModified": "2025-01-30T23:26:23.006Z",
+            "datePublished": "2025-01-30T21:40:38.475Z",
+            "description": "Welcome back, explorers! We’re excited to share the latest patch notes for February’s update. Before diving into the new enhancements, let’s quickly revisit the highlights from last December. As 2024…",
+            "headline": "Game Update — Star Atlas Releases New Patch with Enhanced Game Modes",
+            "identifier": "f3b2ebd6f74d",
+            "image": [
+              "https://miro.medium.com/v2/da:true/resize:fit:1200/0*oiKUiGw_b5S3XBVQ"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+            "name": "Game Update — Star Atlas Releases New Patch with Enhanced Game Modes",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d"
+          },
+          "text_length": 9083
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20250130234936id_/https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20250130234936id_/https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+        "sha256": "f85c2e671a01c6bbb1740350acd225b3cb9db2f849cd6df3018cd2ff63a8a99d",
+        "snapshot": {
+          "digest": "LU4ZZHZUFDRO4EFGKWHPOT5HZDDHFXT3",
+          "original_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+          "timestamp": "20250130234936"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "captured_at": "2026-07-18T04:30:26Z",
+    "content_type": "text/html; charset=utf-8",
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "final_url": "https://web.archive.org/web/20250130234936id_/https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+    "http_status": 200,
+    "raw_byte_count": 169827,
+    "raw_sha256": "f85c2e671a01c6bbb1740350acd225b3cb9db2f849cd6df3018cd2ff63a8a99d",
+    "redirect_chain": [],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-6B1DCCBFC9B9422B",
+      "SRC-X-STARATLAS-1885091648457072796",
+      "SRC-X-STARATLAS-1887189397537161652",
+      "SRC-X-STARATLAS-1887235389779537994"
+    ],
+    "requested_url": "https://web.archive.org/web/20250130234936id_/https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+    "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F3B2EBD6F74D/article.html",
+    "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "source": {
+    "authors": [
+      "Star Atlas"
+    ],
+    "canonical_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+    "document_type": "WRITTEN_PUBLICATION",
+    "language": "English",
+    "medium_post_id": "f3b2ebd6f74d",
+    "observed_urls": [
+      "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ff3b2ebd6f74d&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d&source=---------16-------------5ed69ff9cfb0----bookmark_preview------------------",
+      "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+      "https://staratlasgame.medium.com/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d?source=user_profile_page---------16-------------5ed69ff9cfb0----------------------"
+    ],
+    "publication_identity": {
+      "@type": "Organization",
+      "logo": {
+        "@type": "ImageObject",
+        "height": 60,
+        "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+        "width": 73
+      },
+      "name": "Star Atlas",
+      "url": "https://medium.com/star-atlas"
+    },
+    "published_at_normalized": "2025-01-30T21:40:38.475000Z",
+    "published_at_original": "2025-01-30T21:40:38.475Z",
+    "publisher": "Star Atlas",
+    "reading_time_original": "6 min read",
+    "retrieved_at": "2026-07-18T04:30:26Z",
+    "source_id": "SRC-MEDIUM-STARATLAS-F3B2EBD6F74D",
+    "source_role": "OFFICIAL_MEDIUM_ARTICLE",
+    "subtitle": "Welcome back, explorers! We’re excited to share the latest patch notes for February’s update. Before diving into the new enhancements, let’s quickly revisit the highlights from last December. As 2024…",
+    "tags": [],
+    "title": "Game Update — Star Atlas Releases New Patch with Enhanced Game Modes",
+    "updated_at_normalized": "2025-01-30T23:26:23.006000Z",
+    "updated_at_original": "2025-01-30T23:26:23.006Z",
+    "url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d"
+  },
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  }
+}

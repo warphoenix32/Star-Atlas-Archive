@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "byte_count": 248391,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-a-landowner-63f9bd789027",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-10-03T06:08:28Z",
+          "dateModified": "2021-10-03T06:08:28Z",
+          "datePublished": "2021-10-03T06:08:28Z",
+          "description": "Between the vast spaceships, advanced weapon tech, and political power available in Star Atlas, perhaps the most coveted resource of all is often the most overlooked — land.",
+          "headline": "Star Atlas In-Game Play: Adventures as a Landowner",
+          "identifier": "63f9bd789027",
+          "image": [
+            "https://miro.medium.com/1*MOUjbh16qsSiFAFrILAbsA.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-a-landowner-63f9bd789027",
+          "name": "Star Atlas In-Game Play: Adventures as a Landowner",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-a-landowner-63f9bd789027"
+        },
+        "text_length": 5894
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-in-game-land-landowner-63f9bd789027",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/star-atlas-in-game-land-landowner-63f9bd789027",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/star-atlas-in-game-land-landowner-63f9bd789027"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-in-game-land-landowner-63f9bd789027",
+      "sha256": "4d0a8d7b2a3bf0e5bbceb85d14d92f6a84fd3ac48dbec288b63b191001b9bec5",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:48Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-167C2FD266A1C3E9.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-82E77398A899FBD8.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9626A1F9027B8C1C.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-in-game-land-landowner-63f9bd789027",
+  "http_status": 200,
+  "raw_byte_count": 248391,
+  "raw_sha256": "4d0a8d7b2a3bf0e5bbceb85d14d92f6a84fd3ac48dbec288b63b191001b9bec5",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/star-atlas-in-game-land-landowner-63f9bd789027",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/star-atlas-in-game-land-landowner-63f9bd789027"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/star-atlas-in-game-land-landowner-63f9bd789027",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-63F9BD789027/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

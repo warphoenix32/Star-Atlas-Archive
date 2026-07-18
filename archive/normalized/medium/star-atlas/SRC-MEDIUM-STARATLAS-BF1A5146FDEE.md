@@ -1,0 +1,105 @@
+---
+source_id: SRC-MEDIUM-STARATLAS-BF1A5146FDEE
+medium_post_id: bf1a5146fdee
+title: "Shoot for the Stars — Star Atlas Launches Metaverse Photography Career Contest"
+publisher: "Star Atlas"
+published_at: 2023-07-14T18:01:47Z
+updated_at: 2023-07-14T18:01:47Z
+canonical_url: https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee
+document_type: WRITTEN_PUBLICATION
+---
+
+# Shoot for the Stars — Star Atlas Launches Metaverse Photography Career Contest
+
+Shoot for the Stars — Star Atlas Launches Metaverse Photography Career Contest Galactic Explorers! Another legendary worldwide community challenge is about to begin. This time, you will let the …
+
+- Author: Star Atlas
+- Publisher: Star Atlas
+- Published: 2023-07-14T18:01:47Z
+- Updated: 2023-07-14T18:01:47Z
+- Canonical URL: https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee
+
+## Preserved Article
+
+*Moments in Galia, Immortalized By Your Digital Lens /// Worldwide Community Art Contest /// We Are Star Atlas*
+
+Galactic Explorers!
+
+Another legendary worldwide community challenge is about to begin. This time, you will let the photographer that lives within you capture the most beautiful angles of the Galia Expanse and compete for your spot over our universe hall of fame, entitling your work to be featured on the Star Atlas Galactic Marketplace, where it can be sold to art connoisseurs from all corners of the known space.
+
+Excited? Let us walk you through how this is going to work.
+
+Starting on July 14th, 2023, we will give our Galactic Explorers a specific theme that participants must do their best to capture using the photo mode tools available in the Star Atlas Pre-Alpha Showroom.
+
+Each theme will be announced on Star Atlas Twitter and through our community’s Discord announcement channel, lasting for four weeks. In the fifth week, four Finalists will be selected from submissions presented during the eligible period. It’s important to note that the odds of winning also depend on the number of entries submitted.
+
+Both the finalists and the final grand winner will be selected by a combination of popular vote from the Star Atlas community and a panel of judges selected by the Sponsor. Each of the community votes, and the panel vote will account for 50% of the total vote. The panel of judges selected by the Sponsor will judge Entries based on their determination of (1) creativity, (2) originality, (3) ability to inspire, and (4) photo composition.
+
+Finally, should you manage to win this prestigious event, you will be entitled to a unique prize. Your winning photo is going to be made into a poster, usable in Star Atlas Pre-Alpha Showroom, but also open to be negotiated in the Star Atlas Galactic Marketplace.
+
+Needless to say, this is a great honor, as your work will live forever in the Solana blockchain and in Star Atlas history.
+
+If you have any questions at all about this grand event, make sure to see the following video and read the detailed rule list below or reach out to us on our social media or Discord.
+
+We wish you the best of luck, hoping the cosmic currents inspire you in your shots!
+
+
+## Contest Detailed Rules
+
+Contest Rules: Please read the full Contest Rules below. By joining this contest, you recognize your acceptance of this Contest Rules.
+
+ELIGIBILITY: Open to all persons of legal age and with a Solana wallet address, except for employees or contractors of ATMTA, Inc. (“Sponsor”), its affiliates, subsidiaries, and agencies, and members of their immediate family or persons living in the same household. Minors under the age of 18 may not participate. Void where prohibited.
+
+CONTEST PERIOD: The Contest will start on July 14, 2023, at 12:00 PM EST. It shall end on October 19, 2023, at 12:PM EST.
+
+CONTEST CHALLENGE: Every five weeks during the Contest Period, Participants will have the opportunity to engage in a Themed Photography Competition using the photo mode tools in the Star Atlas Pre-Alpha Showroom. The theme of each Themed Photography Competition will be announced via Twitter (@staratlas) and the #announcements channel on the Star Atlas Discord prior to the Start Date for each Themed Photography Competition listed in the Contest Timeline below.
+
+HOW TO ENTER: No purchase necessary. To enter, follow the steps below:
+
+- Download the Star Atlas Pre-Alpha Showroom. For more information on downloading and getting started, please visit the following links: Showroom guide , or the tutorial video .
+- Using only the photo mode tools in the Star Atlas Pre-Alpha Showroom, take a photo that fits the theme for the current Themed Photography Competition.
+- Post your original, unedited photo on Discord by clicking “Publish” in the Showroom Gallery. Your Entry must be received by the End Date for the current Themed Photography Competition listed in the Contest Timeline below.
+CONTEST RULES: Entries must consist of Participants’ original, unedited photos captured using only the photo mode tools in the Star Atlas Pre-Alpha Showroom. Any Entry which has been modified in any way (including by using editing software such as Adobe Photoshop, artificial intelligence tools, or any other editing software) will result in automatic disqualification of the Entry.
+
+Participants acknowledge that Sponsor reserves the right to, at its discretion, reschedule the Contest and/or any start and/or end dates, modify the entry procedures, or cancel the Contest, with or without prior notice or consent. Prize(s) are not redeemable for cash. Substitution or transfer of a prize by the Winner is not permitted. Sponsor reserves the right to substitute a prize of equal or greater value. Sponsor reserves the right to disqualify any Entry for any reason, in its sole and absolute discretion.
+
+CONTEST TIMELINE: Each Themed Photography Competition will last four weeks, according to the timeline set forth below. The cutoff time for each date listed below is 12:00 PM EST. We might have more special events beyond the ones scheduled below, so keep your eyes open!
+
+WINNER SELECTION & JUDGING CRITERIA: Four Finalists will be selected from Participants during each Themed Photography Competition. At the end of each Themed Photography Competition, one Winner will be selected from the four Finalists. The odds of winning depend on the number of entries received. Finalists and Winners will be selected by a combination of popular vote from the Star Atlas community and a panel of judges selected by the Sponsor. Each of the community votes, and the panel vote will account for 50% of the total vote. The panel of judges selected by the Sponsor will judge Entries based on their determination of (1) creativity, (2) originality, (3) ability to inspire, and (4) photo composition.
+
+WINNER NOTIFICATION: Winners will be notified by Discord direct message and/or by email. Winners will be required to provide a valid email address, mailing address, and Solana wallet address, which will be used to fulfill the prize and ensure eligibility to receive the prize. At the discretion of Sponsor, a Winner may be disqualified if not eligible based on the eligibility requirements set forth above. In the event it is determined that a Winner has not complied with these Contest Rules, has failed to execute and return any required documents within the specified time period, has made false statements or a prize notification is returned as undeliverable, then the winner will be disqualified and at Sponsor’s sole discretion, the Entry with the next highest score may then be declared an alternate Winner.
+
+PRIZE: The Winner of each Themed Photography Competition will receive their winning Entry as a poster minted by Star Atlas. At the time of award, the poster will have an Approximate Retail Value of $0.00. The Winner may choose to list the poster on the Star Atlas Marketplace for sale. Winner is solely responsible for all expenses, costs, or fees associated with transportation and acceptance and/or use of the prize not specified herein as being awarded, including without limitation, any and all taxes (if any). Winner is not a recipient of a prize until s/he has been verified as the Winner by the Sponsor or judges. Upon fulfilling prize delivery, Sponsor will be deemed to have awarded the prize to the Winner and such Winner assumes full responsibility for the prize. All prize details are at Sponsor’s sole discretion.
+
+GENERAL CONDITIONS: Winning constitutes permission (except where prohibited by law) to use Winner’s Solana wallet address for future advertising, publicity in any and all media now or hereafter devised throughout the world in perpetuity, without additional compensation, notification or permission. Sponsor and its officers, directors, agents, representatives, and employees (collectively, “Released Parties”) are not responsible for lost, late, misdirected, damaged, stolen, altered, garbled, incorrect, incomplete, or delayed Contest Entries, all of which will be void. Released Parties are also not responsible for problems related to technical malfunctions of electronic equipment, computer online systems, servers, or providers, computer hardware or software failures, phone lines, failure of any Contest Entry to be received by Sponsor on account of technical problems, traffic, congestion on the internet or the website, or for any other technical problems including telecommunication, miscommunication or failure, and failed, lost, delayed, incomplete, garbled, or misdirected communications which may limit a Participant’s ability to participate in this Contest. Released Parties are not responsible for any other errors or malfunctions of any kind, whether network, printing, typographical, human, or otherwise relating to or in connection with the Contest, including, without limitation, errors or malfunctions with may occur in connection with the administration of the Contest, the processing or judging of Contest Entries, the announcement of the prize, or in any Contest-related materials. Mass entries generated by a script, macro, or use of automated devices will be disqualified. Sponsor reserves the right to modify, suspend, or terminate the Contest in the event it becomes technically impaired, and to cancel or suspend the Contest in its entirety should tampering, unauthorized intervention, fraud, technical failures, or other causes corrupt the administration, security, fairness, integrity, or proper play of the Contest and, if terminated, at Sponsor’s discretion, determine the Winner using all non-suspect, eligible Entries received up to time of cancellation using the judging procedure outlined above. Sponsor reserves the right at its sole discretion to disqualify any individual (and void his/her Contest Entries) it finds to be tampering with the Entry process or the operation of this Contest or website, intending to annoy, abuse, threaten, or harass any other Participant, Sponsor, or any of its representatives or to otherwise be acting in violation of these Official Rules. CAUTION: Any attempt by a Participant to deliberately damage any website or undermine the legitimate operations of the Contest is a violation of criminal and civil laws. Should such an attempt be made, the Sponsor reserves the right to seek damages from any such Participant to the fullest extent permitted by the law and to disqualify such Participant from the Contest.
+
+ASSIGNMENT OF RIGHTS: Entrant hereby acknowledges that each Entry and all other materials of every kind whatsoever created by Participant relating to the Contest (collectively, the “Work”) are a “work made for hire” (as that term is used in the United States Copyright Act) for Sponsor, and assigns to Sponsor (or, if any applicable law prohibits or restricts such assignment, Participant hereby grants to Sponsor an irrevocable, perpetual, royalty-free, transferable license of) limited right, title and interest in and to such Work, including, without limitation, all rights of every kind and nature (whether now known or hereafter devised, including all copyrights therein and thereto and all renewals and extensions thereof), throughout the universe, in perpetuity, for all purposes, in any and all media, whether now known or hereafter devised. By submitting an Entry, Participant acknowledges and agrees that Sponsor may obtain many submissions under this Contest and that such Entries may be similar or identical in theme, idea, format or other respects to others submitted under this Contest and/or other contests staged and/or sponsored by the Sponsor, and waive any and all claims Participant may have had, may have, and/or may have in the future, that any composition, design, video, and/or other works accepted, reviewed and/or used by the Sponsor (or its respective designees) may be similar to his/her Entry. Participant acknowledges and agrees that the Sponsor does not have now, nor shall any of them have in the future, any duty or liability, direct or indirect, vicarious, contributory, or otherwise, with respect to the infringement or protection of any copyright in and to Participant’s Entry.
+
+MISCELLANEOUS CONDITIONS: Failure to comply with these Official Rules may result in disqualification from the Contest. Sponsor reserves the right to permanently disqualify any person it believes has intentionally violated these Official Rules. Contest is subject to all federal, state, and local laws and regulations. Void where prohibited by law.
+
+RELEASES: Information submitted with an Entry is subject to the Star Atlas Privacy Policy located at https://staratlas.com/privacy-policy. Please review the Privacy Policy.
+
+ARBITRATION & CHOICE OF LAW: Except where prohibited by law, as a condition of participating in this Contest, Participant agrees that (1) any and all disputes and causes of action arising out of or connected with this Contest, or any prizes awarded, shall be resolved individually, without resort to any form of class action lawsuit, and exclusively by final and binding arbitration under the rules of the American Arbitration Association and held at the AAA regional office nearest the Participant; (2) the Federal Arbitration Act shall govern the interpretation, enforcement and all proceedings at such arbitration; and (3) judgment upon such arbitration award may be entered in any court having jurisdiction. Under no circumstances will Participant be permitted to obtain awards for, and Participant hereby waives all rights to claim, punitive, incidental, or consequential damages, or any other damages, including attorneys’ fees, other than Participant’s actual out-of-pocket expenses (i.e., costs associated with entering this Contest), and Participant (or, if an eligible minor, his/her parent or legal guardian) further waives all rights to have damages multiplied or increased. All issues and questions concerning the construction, validity, interpretation, and enforceability of these Official Rules, or the rights and obligations of Participants and Sponsor in connection with this Contest, shall be governed by, and construed in accordance with, the substantive laws of the State of New York, USA without regard to New York choice of law rules.
+
+SPONSOR: ATMTA, Inc., 10845 Griffith Peak Dr. Ste. 2, Las Vegas, NV 89135.
+
+
+## ABOUT STAR ATLAS
+
+Star Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain, real-time graphics, multiplayer video games, and decentralized financial technologies.
+
+Using Unreal Engine 5’s Nanite, real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using the Solana protocol establishes a largely serverless and secured gameplay experience. Non-fungible tokens obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership. To learn more, visit StarAtlas.com , join a faction at Play.StarAtlas.com , send your spaceships on a deep space mission by enrolling them in a Faction Fleet , harvesting resources with Faction Claims and download the Showroom on your PC. Hunt for treasures by playing Escape Velocity . Participate in governance of the Star Atlas DAO .
+
+
+## JOIN OUR COMMUNITY
+
+Twitter | Discord | YouTube | Instagram | Reddit | Facebook | LinkedIn | Twitch | Tik Tok | Medium
+
+
+## Disclaimer
+
+The updates in this report are provided for informational purposes only about the Star Atlas game and metaverse, for which ATMTA, Inc. is the lead developer. Except for statements of historical fact, the statements included herein are forward-looking statements that are based on the beliefs of ATMTA, Inc.’s management as well as assumptions made by and information currently available to ATMTA, Inc.’s management. Although ATMTA, Inc.’s management believes these forward-looking statements are based on reasonable assumptions, there can be no assurance that forward-looking statements will prove to be accurate, as actual results and future events could differ materially from those anticipated in such statements. ATMTA, Inc. undertakes no obligation to update forward-looking statements if circumstances or management’s estimates or opinions should change except as required under applicable law. These forward-looking statements are, by their nature, subject to significant risks and uncertainties and include, without limitation, statements about ATMTA, Inc.’s business prospects, future developments, industry and market trends and conditions, strategies, objectives, and goals. These statements are not guarantees of future performance and undue reliance should not be placed on them. No financial, tax, or legal advice is given or implied.
+
+## Referenced Article Images
+
+- Star Atlas: https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png (URL only; binary not downloaded)

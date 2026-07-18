@@ -1,0 +1,145 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-giving-1-35-million-in-loot-to-players-of-revolutionary-browser-game-on-solana-b3d01930e9dc",
+  "collected": "2026-07-18T04:29:11Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "60351afb5bca509f870056163caaf6c5b8687cc431a3dfdd6988cf5815619f0c",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-B3D01930E9DC.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-B3D01930E9DC.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fb3d01930e9dc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgolden-tickets-star-atlas-giving-million-loot-revolutionary-game-solana-b3d01930e9dc&source=---------26-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/golden-tickets-star-atlas-giving-million-loot-revolutionary-game-solana-b3d01930e9dc",
+    "https://staratlasgame.medium.com/golden-tickets-star-atlas-giving-million-loot-revolutionary-game-solana-b3d01930e9dc?source=user_profile_page---------26-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-7F949A30B02B3613"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 260506,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/star-atlas-giving-1-35-million-in-loot-to-players-of-revolutionary-browser-game-on-solana-b3d01930e9dc",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2023-10-26T19:35:20Z",
+            "dateModified": "2023-10-26T19:35:20Z",
+            "datePublished": "2023-10-26T19:35:20Z",
+            "description": "Star Atlas Giving $1.35 Million in Loot to Players of Revolutionary Browser Game on Solana Worldwide Golden Ticket event is the biggest Star Atlas reward campaign yet with players competing for a new …",
+            "headline": "Star Atlas Giving $1.35 Million in Loot to Players of Revolutionary Browser Game on Solana",
+            "identifier": "b3d01930e9dc",
+            "image": [
+              "https://miro.medium.com/1*lOyh3rgfWVrgxndP0iWmTA.png"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-giving-1-35-million-in-loot-to-players-of-revolutionary-browser-game-on-solana-b3d01930e9dc",
+            "name": "Star Atlas Giving $1.35 Million in Loot to Players of Revolutionary Browser Game on Solana",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-giving-1-35-million-in-loot-to-players-of-revolutionary-browser-game-on-solana-b3d01930e9dc"
+          },
+          "text_length": 6881
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/golden-tickets-star-atlas-giving-million-loot-revolutionary-game-solana-b3d01930e9dc",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/golden-tickets-star-atlas-giving-million-loot-revolutionary-game-solana-b3d01930e9dc",
+        "sha256": "32f0698ff738bd70f866f2318c3c2f56fd562d83180ae07b43f9c5a6a9e5dea8",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2023-10-26T19:35:20Z",
+  "published_at_original": "2023-10-26T19:35:20Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-B3D01930E9DC/article.html",
+  "raw_sha256": "32f0698ff738bd70f866f2318c3c2f56fd562d83180ae07b43f9c5a6a9e5dea8",
+  "source_id": "SRC-MEDIUM-STARATLAS-B3D01930E9DC",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Giving $1.35 Million in Loot to Players of Revolutionary Browser Game on Solana",
+  "updated_at_normalized": "2023-10-26T19:35:20Z",
+  "updated_at_original": "2023-10-26T19:35:20Z"
+}

@@ -1,0 +1,136 @@
+{
+  "article": {
+    "block_count": 47,
+    "content_sha256": "d2ccf08704f311761fcee4c185c29add1208f0b26d75a21c31128f1c5ff35bd4",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2Fa08623af0c6a&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstarpath-the-official-star-atlas-referral-program-a08623af0c6a&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2Fa08623af0c6a&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstarpath-the-official-star-atlas-referral-program-a08623af0c6a&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa08623af0c6a&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstarpath-the-official-star-atlas-referral-program-a08623af0c6a"
+      },
+      {
+        "placement_block": null,
+        "text": "Listen",
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3Da08623af0c6a&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstarpath-the-official-star-atlas-referral-program-a08623af0c6a"
+      },
+      {
+        "placement_block": null,
+        "text": "ONI, MUD, and USTUR",
+        "url": "https://play.staratlas.com/leaderboards?tab=factions"
+      },
+      {
+        "placement_block": null,
+        "text": "sign up",
+        "url": "https://staratlas.com/starpath"
+      },
+      {
+        "placement_block": null,
+        "text": "walkthrough video",
+        "url": "https://vimeo.com/732197131/56957bd43d"
+      },
+      {
+        "placement_block": null,
+        "text": "right here!",
+        "url": "https://vimeo.com/732197131/56957bd43d"
+      },
+      {
+        "placement_block": null,
+        "text": "Knowledge Base",
+        "url": "https://support.staratlas.com/knowledge/starpath"
+      }
+    ],
+    "published_at_normalized": "2022-07-22T15:16:29Z",
+    "published_at_original": "2022-07-22T15:16:29Z",
+    "updated_at_normalized": "2022-07-22T15:16:29Z",
+    "updated_at_original": "2022-07-22T15:16:29Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-A08623AF0C6A",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-C2D5827CBB84972D"
+    ]
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-A08623AF0C6A.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-A08623AF0C6A.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A08623AF0C6A/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-A08623AF0C6A.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-A08623AF0C6A.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-A08623AF0C6A",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "StarPath — The Official Star Atlas Referral Program",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/starpath-the-official-star-atlas-referral-program-a08623af0c6a"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

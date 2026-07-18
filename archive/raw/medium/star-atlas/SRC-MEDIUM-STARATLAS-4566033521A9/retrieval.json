@@ -1,0 +1,103 @@
+{
+  "attempts": [
+    {
+      "byte_count": 355328,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2023-04-14T18:15:02Z",
+          "dateModified": "2023-04-15T12:16:59Z",
+          "datePublished": "2023-04-14T18:15:02Z",
+          "description": "The Atlas Star ✧ Issue #17 Galactic news source of record ✧ A tale about building a new world… It’s time for another edition of the Atlas Star: The Galaxy’s most famous newspaper of record …",
+          "headline": "The Atlas Star ✧ Issue #17",
+          "identifier": "4566033521a9",
+          "image": [
+            "https://miro.medium.com/0*OujQMRTCxGArr-rW"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9",
+          "name": "The Atlas Star ✧ Issue #17",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9"
+        },
+        "text_length": 23518
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9",
+      "sha256": "964fd9883a8ea37aa792dd8ba9c5e0f2362d35dac148b568424312b298bf8d04",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:42Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-3471FBD517D5CD7F.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9",
+  "http_status": 200,
+  "raw_byte_count": 355328,
+  "raw_sha256": "964fd9883a8ea37aa792dd8ba9c5e0f2362d35dac148b568424312b298bf8d04",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-C3592648FB32C68E"
+  ],
+  "requested_url": "http://medium.com/star-atlas/the-atlas-star-issue-17-4566033521a9",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-4566033521A9/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

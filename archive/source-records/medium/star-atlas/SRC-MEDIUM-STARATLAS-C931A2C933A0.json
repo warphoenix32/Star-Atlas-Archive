@@ -1,0 +1,162 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0",
+  "collected": "2026-07-18T04:29:19Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 2,
+  "media_successes": 0,
+  "normalized_content_sha256": "631de77c75502b2aab768bc2cbe69f19c2f2a5e5c12251756b2d79204d06e4e6",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-C931A2C933A0.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-C931A2C933A0.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fc931a2c933a0&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0&source=---------59-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0",
+    "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=rss----a97f09b411f1---4",
+    "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=social.tw&_branch_match_id=1136363747527232103&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1XdJjnIqS0ouNStLAgDZq%2B4mIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=social.tw&_branch_match_id=1136472284909504244&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1XdJjnIqS0ouNStLAgDZq%2B4mIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=topics_v2---------1-84--------------------96a9059d_1508_4f05_9e13_1c87d253b387-------17",
+    "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=topics_v2---------3-84--------------------bffe506b_33e8_4ba1_8dff_7a30dad83609-------17",
+    "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=twitterShare-1e4c023199c9-1671212046&_branch_match_id=1134735697133313664&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1U%2B2NA%2F1C3LN8S9LAgA7BGtbIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=user_profile---------7----------------------------",
+    "https://staratlasgame.medium.com/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=user_profile_page---------59-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 6013,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0",
+        "sha256": "112a3e6437e1cb39d4dad2a5db5803b68c963eb017b005662acddfbfbca26b88",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27681,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0",
+        "sha256": "f77bd4a41a38e06fc451f200206601e41cfe901edb07f22e83f3a7932d1cee93",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 127474,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2022-12-16T17:30:41.958Z",
+            "dateModified": "2022-12-16T17:47:08.112Z",
+            "datePublished": "2022-12-16T17:30:41.958Z",
+            "description": "Change is coming to the galaxy and with it many questions; take a deep dive into the vault of answers with Vol. II of the SAGE Game Manual The frisson is tangible in the air. A Mierese astrobard…",
+            "headline": "Star Atlas Golden Era Game Manual Vol. II — The Game Structure",
+            "identifier": "c931a2c933a0",
+            "image": [
+              "https://miro.medium.com/v2/resize:fit:1200/0*Im7YxtusOdkd-zJb"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0",
+            "name": "Star Atlas Golden Era Game Manual Vol. II — The Game Structure",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0"
+          },
+          "text_length": 9087
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20230604144658id_/https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=user_profile---------7----------------------------",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20230604144658id_/https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=user_profile---------7----------------------------",
+        "sha256": "3156bf0853c5c7a288ab1eee5a59bdb5efe8a408b5afdbf32b82b9bd8a40cff5",
+        "snapshot": {
+          "digest": "R6WAEF2THA4KT5IPO7PZH65FIY23VSKQ",
+          "original_url": "https://medium.com/star-atlas/star-atlas-golden-era-game-manual-vol-ii-the-game-structure-c931a2c933a0?source=user_profile---------7----------------------------",
+          "timestamp": "20230604144658"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-12-16T17:30:41.958000Z",
+  "published_at_original": "2022-12-16T17:30:41.958Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-C931A2C933A0/article.html",
+  "raw_sha256": "3156bf0853c5c7a288ab1eee5a59bdb5efe8a408b5afdbf32b82b9bd8a40cff5",
+  "source_id": "SRC-MEDIUM-STARATLAS-C931A2C933A0",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Golden Era Game Manual Vol. II — The Game Structure",
+  "updated_at_normalized": "2022-12-16T17:47:08.112000Z",
+  "updated_at_original": "2022-12-16T17:47:08.112Z"
+}

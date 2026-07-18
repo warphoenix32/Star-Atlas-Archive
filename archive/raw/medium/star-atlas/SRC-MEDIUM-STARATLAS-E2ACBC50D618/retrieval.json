@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6118,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618",
+      "sha256": "acd0555bdbd358816479b1642a694be1f6f1a79d301666c9fbc006964aee501a",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27646,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618",
+      "sha256": "4956776ca76a5636c0349526f9a910ec62509312bb7069e6beead44676975fba",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 173414,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-06-04T13:04:05.695Z",
+          "dateModified": "2022-01-06T15:45:54.418Z",
+          "datePublished": "2021-06-04T13:04:05.695Z",
+          "description": "Star Atlas is teleporting a dancing alien into the homes and streets around the world. With advanced distributed AR technology, anyone can now teleport an alien android to dance with to any location…",
+          "headline": "Star Atlas Metaverse Expands to Every Street and Screen of the World with Aliens",
+          "identifier": "e2acbc50d618",
+          "image": [
+            "https://miro.medium.com/max/1200/0*ZV2nOolHkzShCXbL"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618",
+          "name": "Star Atlas Metaverse Expands to Every Street and Screen of the World with Aliens",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618"
+        },
+        "text_length": 6047
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20220527163515id_/https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618?source=post_internal_links---------3-------------------------------",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20220527163515id_/https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618?source=post_internal_links---------3-------------------------------",
+      "sha256": "dcd6f7d2d797de02d5af7e75312c5af45c06a79c7e1501fc9f4736bcfbc76c51",
+      "snapshot": {
+        "digest": "5KYOIHFR7Q66UJMTCKYGTKE2TKGKJ25Q",
+        "original_url": "https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618?source=post_internal_links---------3-------------------------------",
+        "timestamp": "20220527163515"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:30:00Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20220527163515id_/https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618?source=post_internal_links---------3-------------------------------",
+  "http_status": 200,
+  "raw_byte_count": 173414,
+  "raw_sha256": "dcd6f7d2d797de02d5af7e75312c5af45c06a79c7e1501fc9f4736bcfbc76c51",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20220527163515id_/https://medium.com/star-atlas/star-atlas-metaverse-expands-to-every-street-and-screen-of-the-world-with-aliens-e2acbc50d618?source=post_internal_links---------3-------------------------------",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E2ACBC50D618/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

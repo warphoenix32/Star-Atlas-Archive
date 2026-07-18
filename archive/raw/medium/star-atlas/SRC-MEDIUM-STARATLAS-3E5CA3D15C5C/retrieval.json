@@ -1,0 +1,105 @@
+{
+  "attempts": [
+    {
+      "byte_count": 372822,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-11-29T18:03:47Z",
+          "dateModified": "2022-12-02T08:45:21Z",
+          "datePublished": "2022-11-29T18:03:47Z",
+          "description": "The Path Towards Tomorrow: Phase 2 — CSS Land Plot and Claim Stake Sales As a successful first week of the Golden Era Start Sequence draws to a close, two experts share all the information for …",
+          "headline": "The Path Towards Tomorrow: Phase 2 — CSS Land Plot and Claim Stake Sales",
+          "identifier": "3e5ca3d15c5c",
+          "image": [
+            "https://miro.medium.com/0*aCskolvB-Vlbvbj2"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c",
+          "name": "The Path Towards Tomorrow: Phase 2 — CSS Land Plot and Claim Stake Sales",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c"
+        },
+        "text_length": 22959
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c",
+      "sha256": "8ada3018d78ec2979cb9d61d356b51d8aaf36f97d1f8addd41d80ae9ebfe1786",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:42Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8882149416E54B8B.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9F8AA620349CF5A1.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-custom-domain",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c",
+  "http_status": 200,
+  "raw_byte_count": 372822,
+  "raw_sha256": "8ada3018d78ec2979cb9d61d356b51d8aaf36f97d1f8addd41d80ae9ebfe1786",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-D3A61302797F8D37"
+  ],
+  "requested_url": "http://medium.com/star-atlas/the-path-towards-tomorrow-phase-2-css-land-plot-and-claim-stake-sales-3e5ca3d15c5c",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-3E5CA3D15C5C/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

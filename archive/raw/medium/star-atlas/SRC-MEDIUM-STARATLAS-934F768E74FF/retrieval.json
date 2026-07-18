@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "byte_count": 250814,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-08-06T02:29:50Z",
+          "dateModified": "2021-08-18T23:18:13Z",
+          "datePublished": "2021-08-06T02:29:50Z",
+          "description": "How one milestone in the gaming world and computer generated reality led to another, and a new disruptive paradigm with play-to-earn NFT marketplaces was born.",
+          "headline": "The Secret Core of NFT Gaming Future",
+          "identifier": "934f768e74ff",
+          "image": [
+            "https://miro.medium.com/1*J6Xf_rZy4qr6OxLM-nq7YQ.png"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff",
+          "name": "The Secret Core of NFT Gaming Future",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff"
+        },
+        "text_length": 7384
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff",
+      "sha256": "4563a64db2de8cf2c2c18387abbdac4372a2df8e84632c916e50166f9023d46a",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:03Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff",
+  "http_status": 200,
+  "raw_byte_count": 250814,
+  "raw_sha256": "4563a64db2de8cf2c2c18387abbdac4372a2df8e84632c916e50166f9023d46a",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-A1961395C56AFF82"
+  ],
+  "requested_url": "http://medium.com/star-atlas/the-secret-core-of-nft-gaming-future-934f768e74ff",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-934F768E74FF/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

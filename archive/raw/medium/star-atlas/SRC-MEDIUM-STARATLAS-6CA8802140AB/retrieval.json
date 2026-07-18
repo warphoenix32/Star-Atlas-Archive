@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "byte_count": 252549,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-02-08T21:41:20Z",
+          "dateModified": "2022-02-09T04:37:02Z",
+          "datePublished": "2022-02-08T21:41:20Z",
+          "description": "Intergalactic Transmission to the Star Atlas Community: Encouraging Creativity in the Star Atlas Metaverse A deep dive into intellectual property for content creators in the Star Atlas metaverse To …",
+          "headline": "Intergalactic Transmission to the Star Atlas Community: Encouraging Creativity in the Star Atlas…",
+          "identifier": "6ca8802140ab",
+          "image": [
+            "https://miro.medium.com/1*07VNNtx3Laa9fCf_mhi_wQ.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab",
+          "name": "Intergalactic Transmission to the Star Atlas Community: Encouraging Creativity in the Star Atlas…",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab"
+        },
+        "text_length": 6112
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab",
+      "sha256": "d1fa6c35a3dcb07831bee951ab9e0f9f1572a0c4bed94ead95a17a96ca2a1b9d",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:50Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab",
+  "http_status": 200,
+  "raw_byte_count": 252549,
+  "raw_sha256": "d1fa6c35a3dcb07831bee951ab9e0f9f1572a0c4bed94ead95a17a96ca2a1b9d",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-6381EC5635D7404A"
+  ],
+  "requested_url": "http://medium.com/star-atlas/intergalactic-transmission-to-the-star-atlas-community-encouraging-creativity-in-the-star-atlas-6ca8802140ab",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-6CA8802140AB/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

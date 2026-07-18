@@ -1,0 +1,103 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6016,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220",
+      "sha256": "07cad21b780ae8476187b508a48b0fb4bda6ba983b8463c4ca8c26ed971e1c3a",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27560,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220",
+      "sha256": "dfe2a8bd7012949ba6e1ae9b54df263212dbff43d25818a0dad0c9687789e7e8",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 96174,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-08-30T18:15:46.727Z",
+          "dateModified": "2021-08-30T18:15:51.968Z",
+          "datePublished": "2021-08-30T18:15:46.727Z",
+          "description": "Star Atlas fans should stay vigilant and beware of Internet scams preying on them by always verifying the source and validity of the message.",
+          "headline": "Community Alert: Always Double-Check Official Origin of Star Atlas Accounts and Messages",
+          "identifier": "fc92ace1c220",
+          "image": [
+            "https://miro.medium.com/max/1200/1*GvX5HmcH_o_tsKY3tLQrTg.jpeg"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220",
+          "name": "Community Alert: Always Double-Check Official Origin of Star Atlas Accounts and Messages",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220"
+        },
+        "text_length": 4035
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20210830183544id_/https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220?source=rss------blockchain-5",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20210830183544id_/https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220?source=rss------blockchain-5",
+      "sha256": "0c663a5f69b810c6a3a13e68ba461cb842e80755769435fa3c44e26e3c3e7c37",
+      "snapshot": {
+        "digest": "GIMR6OTJCVP6MPHSQHJGP4UCDC63ZKNZ",
+        "original_url": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220?source=rss------blockchain-5",
+        "timestamp": "20210830183544"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:30:48Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20210830183544id_/https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220?source=rss------blockchain-5",
+  "http_status": 200,
+  "raw_byte_count": 96174,
+  "raw_sha256": "0c663a5f69b810c6a3a13e68ba461cb842e80755769435fa3c44e26e3c3e7c37",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-1ED333F1F027BE27"
+  ],
+  "requested_url": "https://web.archive.org/web/20210830183544id_/https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220?source=rss------blockchain-5",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-FC92ACE1C220/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

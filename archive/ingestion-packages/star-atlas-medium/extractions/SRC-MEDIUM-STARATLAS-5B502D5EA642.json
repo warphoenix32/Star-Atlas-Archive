@@ -1,0 +1,125 @@
+{
+  "article": {
+    "block_count": 38,
+    "content_sha256": "39811c70d06440cefa5b1f2d88e0785cd078e8556ec000cb0a2840be5a414907",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F5b502d5ea642&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fa-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F5b502d5ea642&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fa-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F5b502d5ea642&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fa-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642"
+      },
+      {
+        "placement_block": null,
+        "text": "Listen",
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D5b502d5ea642&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fa-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642"
+      },
+      {
+        "placement_block": null,
+        "text": "Welcome to Never Alone, Mission 2, Captain!",
+        "url": "http://zealy.io/c/staratlas-never-alone"
+      },
+      {
+        "placement_block": null,
+        "text": "Never Alone announcement article",
+        "url": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy-89cd90627234"
+      },
+      {
+        "placement_block": null,
+        "text": "here",
+        "url": "http://zealy.io/c/staratlas-never-alone"
+      }
+    ],
+    "published_at_normalized": "2023-07-18T19:48:42Z",
+    "published_at_original": "2023-07-18T19:48:42Z",
+    "updated_at_normalized": "2023-07-18T19:48:42Z",
+    "updated_at_original": "2023-07-18T19:48:42Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-5B502D5EA642",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-A7160F13FB9A6894"
+    ]
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-5B502D5EA642.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-5B502D5EA642.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-5B502D5EA642/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-5B502D5EA642.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-5B502D5EA642.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-5B502D5EA642",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "A New Chapter Begins — Never Alone Mission 2: The Search for Etira is now live!",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/a-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

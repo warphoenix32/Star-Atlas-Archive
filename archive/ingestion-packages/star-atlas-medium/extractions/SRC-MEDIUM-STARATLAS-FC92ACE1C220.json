@@ -1,0 +1,120 @@
+{
+  "article": {
+    "block_count": 30,
+    "content_sha256": "ba55916c36949ff0592600981019a2daad4fd5e2aa07bd4380adb5242f22c96b",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://staratlasgame.medium.com/"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://staratlasgame.medium.com/"
+      },
+      {
+        "placement_block": null,
+        "text": "Just now · 3 min read",
+        "url": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220"
+      },
+      {
+        "placement_block": null,
+        "text": "StarAtlas.com",
+        "url": "http://staratlas.com/"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas community on Discord",
+        "url": "http://discord.gg/staratlas"
+      },
+      {
+        "placement_block": null,
+        "text": "https://t.me/staratlasgame",
+        "url": "https://t.me/staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "https://t.me/staratlasgames",
+        "url": "https://t.me/staratlasgames"
+      },
+      {
+        "placement_block": null,
+        "text": "https://discord.gg/staratlas",
+        "url": "https://discord.gg/staratlas"
+      }
+    ],
+    "published_at_normalized": "2021-08-30T18:15:46.727000Z",
+    "published_at_original": "2021-08-30T18:15:46.727Z",
+    "updated_at_normalized": "2021-08-30T18:15:51.968000Z",
+    "updated_at_original": "2021-08-30T18:15:51.968Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-FC92ACE1C220",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-1ED333F1F027BE27"
+    ]
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-FC92ACE1C220.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-FC92ACE1C220.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-FC92ACE1C220/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-FC92ACE1C220.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-FC92ACE1C220.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-FC92ACE1C220",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "Community Alert: Always Double-Check Official Origin of Star Atlas Accounts and Messages",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/community-phishing-alert-check-official-origin-of-star-atlas-fc92ace1c220"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "byte_count": 311082,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-sogmian-and-the-proposal-roadmap-scan-13-a59f9f96f2f0",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-07-15T19:39:47Z",
+          "dateModified": "2022-07-16T09:17:04Z",
+          "datePublished": "2022-07-15T19:39:47Z",
+          "description": "The Sogmian and The Proposal — Roadmap Scan #13 The galaxy is flaring with speculations from all sides regarding the #426LIVE event. As the factions attempt to decipher the currents of change, some …",
+          "headline": "The Sogmian and The Proposal — Roadmap Scan #13",
+          "identifier": "a59f9f96f2f0",
+          "image": [
+            "https://miro.medium.com/0*n9hu3GV7RKuD9W6q"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-sogmian-and-the-proposal-roadmap-scan-13-a59f9f96f2f0",
+          "name": "The Sogmian and The Proposal — Roadmap Scan #13",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-sogmian-and-the-proposal-roadmap-scan-13-a59f9f96f2f0"
+        },
+        "text_length": 21035
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-sogmian-and-the-proposal-roadmap-scan-13-a59f9f96f2f0",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-sogmian-and-the-proposal-roadmap-scan-13-a59f9f96f2f0",
+      "sha256": "95602c09c10c3aca300b3c13792fc123c55d516bf4e10223732639d2060e7523",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:06Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-sogmian-and-the-proposal-roadmap-scan-13-a59f9f96f2f0",
+  "http_status": 200,
+  "raw_byte_count": 311082,
+  "raw_sha256": "95602c09c10c3aca300b3c13792fc123c55d516bf4e10223732639d2060e7523",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/the-sogmian-and-the-proposal-roadmap-scan-13-a59f9f96f2f0",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A59F9F96F2F0/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

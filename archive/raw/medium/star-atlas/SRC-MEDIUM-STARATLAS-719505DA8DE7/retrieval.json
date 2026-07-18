@@ -1,0 +1,108 @@
+{
+  "attempts": [
+    {
+      "byte_count": 158720,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 410",
+      "final_url": "https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7",
+      "http_status": 410,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7",
+      "sha256": "f8e885ee1a2119cdd0928f44ff30edc42b755354211a716e24735dfe04af7e25",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 161074,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7",
+      "http_status": 410,
+      "redirect_chain": [],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7",
+      "sha256": "ea2cb72bf88a6f221664b6d22cb428186f2ba336d4ab0db8def9c59341982b71",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 100065,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-09-09T01:05:35.024Z",
+          "dateModified": "2021-09-09T01:05:44.810Z",
+          "datePublished": "2021-09-09T01:05:35.024Z",
+          "description": "Solana-powered next-gen blockchain metaverse with pioneering economics system brings decentralized ownership opportunities to the gaming community.",
+          "headline": "Star Atlas Launches a New Era of Gaming with Record-shattering Token Sales",
+          "identifier": "719505da8de7",
+          "image": [
+            "https://miro.medium.com/max/1200/1*g802EQWHYRDA4EY2CkHghA.jpeg"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7",
+          "name": "Star Atlas Launches a New Era of Gaming with Record-shattering Token Sales",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7"
+        },
+        "text_length": 4873
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20210909094343id_/https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7?source=twitterShare-9b7b6254e97b-1631159894&_branch_match_id=964448291771411225",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20210909094343id_/https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7?source=twitterShare-9b7b6254e97b-1631159894&_branch_match_id=964448291771411225",
+      "sha256": "8893465c377ddb123d216e3da16c7c964ac4fce7208a38f6b83f98777ef55942",
+      "snapshot": {
+        "digest": "A43XZUSLUMEJRREOIO5KAFGQUIL4VGPB",
+        "original_url": "https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7?source=twitterShare-9b7b6254e97b-1631159894&_branch_match_id=964448291771411225",
+        "timestamp": "20210909094343"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:55Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20210909094343id_/https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7?source=twitterShare-9b7b6254e97b-1631159894&_branch_match_id=964448291771411225",
+  "http_status": 200,
+  "raw_byte_count": 100065,
+  "raw_sha256": "8893465c377ddb123d216e3da16c7c964ac4fce7208a38f6b83f98777ef55942",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-4A982209AF952B4B"
+  ],
+  "requested_url": "https://web.archive.org/web/20210909094343id_/https://medium.com/star-atlas/star-atlas-new-era-gaming-record-shattering-token-sales-719505da8de7?source=twitterShare-9b7b6254e97b-1631159894&_branch_match_id=964448291771411225",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-719505DA8DE7/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "byte_count": 273490,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-09-29T17:24:29Z",
+          "dateModified": "2022-09-29T17:24:29Z",
+          "datePublished": "2022-09-29T17:24:29Z",
+          "description": "The Star Atlas DAO Releases its Sustainable Governance Framework Players are encouraged to read and discuss the document that serves as a blueprint for sustainable self-governance Prepare yourselves …",
+          "headline": "The Star Atlas DAO Releases its Sustainable Governance Framework",
+          "identifier": "5a45b4fad790",
+          "image": [
+            "https://miro.medium.com/0*qEpaC5b460BfU0oN"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790",
+          "name": "The Star Atlas DAO Releases its Sustainable Governance Framework",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790"
+        },
+        "text_length": 11438
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790",
+      "sha256": "f68373872fc9165068d32f075b88f1c3a9b00797e519626254bfb4e485c5d82b",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:45Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C6B9C26055452AF8.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790",
+  "http_status": 200,
+  "raw_byte_count": 273490,
+  "raw_sha256": "f68373872fc9165068d32f075b88f1c3a9b00797e519626254bfb4e485c5d82b",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/the-star-atlas-dao-releases-its-sustainable-governance-framework-5a45b4fad790",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-5A45B4FAD790/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

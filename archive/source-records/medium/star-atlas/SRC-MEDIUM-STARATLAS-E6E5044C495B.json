@@ -1,0 +1,158 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b",
+  "collected": "2026-07-18T04:30:11Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 2,
+  "media_successes": 0,
+  "normalized_content_sha256": "2669c1bf3add9f266fd74a69a5ba0eeaff0ee61f670271b8476e597493eb4d31",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-E6E5044C495B.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-E6E5044C495B.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fe6e5044c495b&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b&source=---------94-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b",
+    "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b?source=rss-5ed69ff9cfb0------2",
+    "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b?source=user_profile---------1----------------------------",
+    "https://staratlasgame.medium.com/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b?source=user_profile_page---------94-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 6004,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b",
+        "sha256": "a53a07106e5245e78ff65d6f454794f450c4c3a0925a0a09bd641d28d8346714",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27672,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b",
+        "sha256": "ec72449d25d66d1cb3e2e4d5de3b547e6bab9a446bfacdec381b5aec7422d946",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 137515,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2022-07-21T17:43:46.875Z",
+            "dateModified": "2022-09-09T18:59:09.578Z",
+            "datePublished": "2022-07-21T17:43:46.875Z",
+            "description": "The best-in-class gaming experience in web3 meets the best-in-class hardware manufacturer, making the metaverse accessible to all. If you’re a fan of the Star Atlas game and metaverse and the growing…",
+            "headline": "iBUYPOWER to Offer Custom Star Atlas-Branded Gaming Gear",
+            "identifier": "e6e5044c495b",
+            "image": [
+              "https://miro.medium.com/max/1200/0*dmhmTEm-s5yg5Xn_.jpg"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b",
+            "name": "iBUYPOWER to Offer Custom Star Atlas-Branded Gaming Gear",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b"
+          },
+          "text_length": 3132
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20221005184329id_/https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b?source=user_profile---------1----------------------------",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20221005184329id_/https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b?source=user_profile---------1----------------------------",
+        "sha256": "ac4a5fe7102567bf6475c344f84c7c32109e306917c007c649274afaf40e6e7a",
+        "snapshot": {
+          "digest": "B7PVL3TEJJSJE7SH2IYNZFJBAWMDXCD5",
+          "original_url": "https://medium.com/star-atlas/ibuypower-to-offer-custom-star-atlas-branded-gaming-gear-e6e5044c495b?source=user_profile---------1----------------------------",
+          "timestamp": "20221005184329"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-07-21T17:43:46.875000Z",
+  "published_at_original": "2022-07-21T17:43:46.875Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E6E5044C495B/article.html",
+  "raw_sha256": "ac4a5fe7102567bf6475c344f84c7c32109e306917c007c649274afaf40e6e7a",
+  "source_id": "SRC-MEDIUM-STARATLAS-E6E5044C495B",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "iBUYPOWER to Offer Custom Star Atlas-Branded Gaming Gear",
+  "updated_at_normalized": "2022-09-09T18:59:09.578000Z",
+  "updated_at_original": "2022-09-09T18:59:09.578Z"
+}

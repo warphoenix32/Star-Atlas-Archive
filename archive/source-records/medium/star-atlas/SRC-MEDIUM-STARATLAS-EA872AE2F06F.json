@@ -1,0 +1,161 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f",
+  "collected": "2026-07-18T04:30:19Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "db8ef41d5916789f73c9e16c28cdaf963402c9e0cfdd72bf1fdf4493db3b02a9",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-EA872AE2F06F.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-EA872AE2F06F.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fea872ae2f06f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f&source=---------72-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f",
+    "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=rss-5ed69ff9cfb0------2",
+    "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=social.tw&_branch_match_id=1079178738787787705&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Q8tNQ71TTXM9i5JAgAmqvPOIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=social.tw&_branch_match_id=1079178738787787705&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Q8tNQ71TTXM9i5JAgAmqvPOIwAAAA%3D%3D%0A",
+    "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=social.tw&_branch_match_id=1104406056406828212&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Q8tNQ71TTXM9i5JAgAmqvPOIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=user_profile---------1----------------------------",
+    "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=user_profile---------9----------------------------",
+    "https://staratlasgame.medium.com/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=user_profile_page---------72-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 6136,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f",
+        "sha256": "6e553a9469de0c6ac98f4e8607b7fa0c7ddc0c3575aacf2e56a1134a47053bdf",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27804,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f",
+        "sha256": "17ebe95fcdcfe440c2a84549dd7b2e66ac7ea2234ef41d95c1385552ccafefa3",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 170114,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2022-09-30T14:21:07.371Z",
+            "dateModified": "2022-10-02T19:38:11.309Z",
+            "datePublished": "2022-09-30T14:21:07.371Z",
+            "description": "Open-sourcing of its UE5 SDK for Solana, ATLAS Locking, and a Star Atlas\nGraphic Novel among the latest updates unveiled by the Star Atlas team Star Atlas, a next-gen gaming experience with triple-A…",
+            "headline": "Star Atlas Launches Unreal Engine 5-powered Pre-Alpha Showroom on the Epic Games Store",
+            "identifier": "ea872ae2f06f",
+            "image": [
+              "https://miro.medium.com/max/1200/0*4ypfeW1Oev8-TBDA.png"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f",
+            "name": "Star Atlas Launches Unreal Engine 5-powered Pre-Alpha Showroom on the Epic Games Store",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f"
+          },
+          "text_length": 8785
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20230131173020id_/https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=user_profile---------9----------------------------",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20230131173020id_/https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=user_profile---------9----------------------------",
+        "sha256": "f5c6a60a18e4e0ca44b12f4f58f7c2396c453c505ff73c3d0875c0c7f5b092fb",
+        "snapshot": {
+          "digest": "TTHXLXELGUSDWO4S2VJIB4N4J63J4K7I",
+          "original_url": "https://medium.com/star-atlas/star-atlas-launches-unreal-engine-5-powered-pre-alpha-showroom-on-the-epic-games-store-ea872ae2f06f?source=user_profile---------9----------------------------",
+          "timestamp": "20230131173020"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-09-30T14:21:07.371000Z",
+  "published_at_original": "2022-09-30T14:21:07.371Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-EA872AE2F06F/article.html",
+  "raw_sha256": "f5c6a60a18e4e0ca44b12f4f58f7c2396c453c505ff73c3d0875c0c7f5b092fb",
+  "source_id": "SRC-MEDIUM-STARATLAS-EA872AE2F06F",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Launches Unreal Engine 5-powered Pre-Alpha Showroom on the Epic Games Store",
+  "updated_at_normalized": "2022-10-02T19:38:11.309000Z",
+  "updated_at_original": "2022-10-02T19:38:11.309Z"
+}

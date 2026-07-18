@@ -1,0 +1,95 @@
+{
+  "attempts": [
+    {
+      "byte_count": 281439,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/iris-blessing-has-arrived-double-xp-weekends-and-5-000-in-monthly-prizes-a84375dfaa5c",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2025-10-10T17:57:17Z",
+          "dateModified": "2025-10-10T17:57:17Z",
+          "datePublished": "2025-10-10T17:57:17Z",
+          "description": "Iris’ Blessing Has Arrived: Double XP Weekends and $5,000 in Monthly Prizes! Iris’ Blessing calls out to citizens all over Galia. Riches, luck and fun are in everyone’s future and you’re not …",
+          "headline": "Iris’ Blessing Has Arrived: Double XP Weekends and $5,000 in Monthly Prizes!",
+          "identifier": "a84375dfaa5c",
+          "image": [
+            "https://miro.medium.com/1*PM4u6PYnWy4cRJe9Z02BWg.png"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/iris-blessing-has-arrived-double-xp-weekends-and-5-000-in-monthly-prizes-a84375dfaa5c",
+          "name": "Iris’ Blessing Has Arrived: Double XP Weekends and $5,000 in Monthly Prizes!",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/iris-blessing-has-arrived-double-xp-weekends-and-5-000-in-monthly-prizes-a84375dfaa5c"
+        },
+        "text_length": 4917
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/iris-blessing-has-arrived-double-xp-weekends-and-5-000-in-monthly-prizes-a84375dfaa5c",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/iris-blessing-has-arrived-double-xp-weekends-and-5-000-in-monthly-prizes-a84375dfaa5c",
+      "sha256": "b26b3a2c990058fc6dd4743f7768dbbb61ba1f0244d1f01272e89b0560a0ba43",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:09Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page",
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+    "rss:profile",
+    "rss:publication",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/iris-blessing-has-arrived-double-xp-weekends-and-5-000-in-monthly-prizes-a84375dfaa5c",
+  "http_status": 200,
+  "raw_byte_count": 281439,
+  "raw_sha256": "b26b3a2c990058fc6dd4743f7768dbbb61ba1f0244d1f01272e89b0560a0ba43",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-CF52342B578991DA",
+    "SRC-X-STARATLAS-1976716206054031435"
+  ],
+  "requested_url": "https://medium.com/star-atlas/iris-blessing-has-arrived-double-xp-weekends-and-5-000-in-monthly-prizes-a84375dfaa5c",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A84375DFAA5C/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

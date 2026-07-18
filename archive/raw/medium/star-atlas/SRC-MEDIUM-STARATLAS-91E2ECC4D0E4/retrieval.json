@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "byte_count": 251879,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/inaugural-copa-festival-winners-make-history-91e2ecc4d0e4",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-06-17T18:28:12Z",
+          "dateModified": "2022-06-18T19:34:08Z",
+          "datePublished": "2022-06-17T18:28:12Z",
+          "description": "Inaugural COPA Festival Winners Make History Crowning of COEXIST as the guild champion caps a celebratory full day of events. Across the galaxy and across the ages, June 16, 2022, will go down as a …",
+          "headline": "Inaugural COPA Festival Winners Make History",
+          "identifier": "91e2ecc4d0e4",
+          "image": [
+            "https://miro.medium.com/1*pnnNBmmzYUm-4AOqLBdNwQ.png"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/inaugural-copa-festival-winners-make-history-91e2ecc4d0e4",
+          "name": "Inaugural COPA Festival Winners Make History",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/inaugural-copa-festival-winners-make-history-91e2ecc4d0e4"
+        },
+        "text_length": 7999
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/inaugural-copa-festival-winners-make-history-91e2ecc4d0e4",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/inaugural-copa-festival-winners-make-history-91e2ecc4d0e4",
+      "sha256": "5e56699d78b9ec26a001130d054130567b20bc53120654ff192d9dbb9c20f637",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:02Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4A9FCC4E28487231.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/inaugural-copa-festival-winners-make-history-91e2ecc4d0e4",
+  "http_status": 200,
+  "raw_byte_count": 251879,
+  "raw_sha256": "5e56699d78b9ec26a001130d054130567b20bc53120654ff192d9dbb9c20f637",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/inaugural-copa-festival-winners-make-history-91e2ecc4d0e4",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-91E2ECC4D0E4/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

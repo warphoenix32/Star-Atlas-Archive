@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 251744,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/a-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2023-07-18T19:48:42Z",
+          "dateModified": "2023-07-18T19:48:42Z",
+          "datePublished": "2023-07-18T19:48:42Z",
+          "description": "A New Chapter Begins — Never Alone Mission 2: The Search for Etira is now live! The dark expanse of the cosmos enveloped the imposing MUD Central Space Station. From behind a viewport, a Punaab sat …",
+          "headline": "A New Chapter Begins — Never Alone Mission 2: The Search for Etira is now live!",
+          "identifier": "5b502d5ea642",
+          "image": [
+            "https://miro.medium.com/0*K6-B6ZMHGPy5jhTs"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/a-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642",
+          "name": "A New Chapter Begins — Never Alone Mission 2: The Search for Etira is now live!",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/a-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642"
+        },
+        "text_length": 7050
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/a-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/a-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642",
+      "sha256": "39728614dfd06d04671d0d84c3b10b0ee394e4a07f3ed59991684025d09f8b57",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:45Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/a-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642",
+  "http_status": 200,
+  "raw_byte_count": 251744,
+  "raw_sha256": "39728614dfd06d04671d0d84c3b10b0ee394e4a07f3ed59991684025d09f8b57",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-A7160F13FB9A6894"
+  ],
+  "requested_url": "https://medium.com/star-atlas/a-new-chapter-begins-never-alone-mission-2-the-search-for-etira-is-now-alive-5b502d5ea642",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-5B502D5EA642/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

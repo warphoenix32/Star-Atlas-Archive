@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 276002,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-06-11T17:17:17Z",
+          "dateModified": "2022-06-15T17:57:29Z",
+          "datePublished": "2022-06-11T17:17:17Z",
+          "description": "Today, ATMTA Inc., in association with the Council of Peace and backed by the unbreakable union of the three factions, announced the names of the 15 guilds that are moving on to the final round.",
+          "headline": "COPA Intergalactic Competition: Guild Finalists and Event Details Announced",
+          "identifier": "7809b5334f7e",
+          "image": [
+            "https://miro.medium.com/0*j0fZCl2olVIibUo3"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+          "name": "COPA Intergalactic Competition: Guild Finalists and Event Details Announced",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e"
+        },
+        "text_length": 6260
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+      "sha256": "47401bc13aa3499351f78c07079d2822439a396ab5beace0757c6a2ecd25b3a8",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:53Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+  "http_status": 200,
+  "raw_byte_count": 276002,
+  "raw_sha256": "47401bc13aa3499351f78c07079d2822439a396ab5beace0757c6a2ecd25b3a8",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-49A5B318389905C1"
+  ],
+  "requested_url": "https://medium.com/star-atlas/copa-guild-finalists-announced-7809b5334f7e",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-7809B5334F7E/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

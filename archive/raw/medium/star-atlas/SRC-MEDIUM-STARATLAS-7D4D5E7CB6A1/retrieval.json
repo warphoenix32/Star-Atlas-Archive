@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 259210,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/dawn-of-the-freighter-expanding-the-boundaries-of-sage-labs-gameplay-7d4d5e7cb6a1",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2024-12-11T20:35:06Z",
+          "dateModified": "2024-12-11T20:35:06Z",
+          "datePublished": "2024-12-11T20:35:06Z",
+          "description": "Dawn of the Freighter: Expanding the Boundaries of SAGE Labs Gameplay The latest update to Star Atlas’ SAGE Labs, titled Dawn of The Freighter, brings two transformative mechanics to the forefront …",
+          "headline": "Dawn of the Freighter: Expanding the Boundaries of SAGE Labs Gameplay",
+          "identifier": "7d4d5e7cb6a1",
+          "image": [
+            "https://miro.medium.com/0*cyp3zCvK6Nqq-Pox"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/dawn-of-the-freighter-expanding-the-boundaries-of-sage-labs-gameplay-7d4d5e7cb6a1",
+          "name": "Dawn of the Freighter: Expanding the Boundaries of SAGE Labs Gameplay",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/dawn-of-the-freighter-expanding-the-boundaries-of-sage-labs-gameplay-7d4d5e7cb6a1"
+        },
+        "text_length": 5316
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/dawn-of-the-freighter-expanding-the-boundaries-of-sage-labs-gameplay-7d4d5e7cb6a1",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/dawn-of-the-freighter-expanding-the-boundaries-of-sage-labs-gameplay-7d4d5e7cb6a1",
+      "sha256": "f94d9241abcb658985e6d3a6bf9e5de275b437760fdd2eeed0b098c2390ff6f9",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:54Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/dawn-of-the-freighter-expanding-the-boundaries-of-sage-labs-gameplay-7d4d5e7cb6a1",
+  "http_status": 200,
+  "raw_byte_count": 259210,
+  "raw_sha256": "f94d9241abcb658985e6d3a6bf9e5de275b437760fdd2eeed0b098c2390ff6f9",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SRC-X-STARATLAS-1866950181738201377"
+  ],
+  "requested_url": "https://medium.com/star-atlas/dawn-of-the-freighter-expanding-the-boundaries-of-sage-labs-gameplay-7d4d5e7cb6a1",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-7D4D5E7CB6A1/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

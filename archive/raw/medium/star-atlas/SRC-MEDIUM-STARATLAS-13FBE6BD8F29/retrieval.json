@@ -1,0 +1,87 @@
+{
+  "attempts": [
+    {
+      "byte_count": 396506,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-atlassian-13fbe6bd8f29",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-05-18T17:42:45Z",
+          "dateModified": "2021-08-11T00:26:27Z",
+          "datePublished": "2021-05-18T17:42:45Z",
+          "description": "The Atlas Star ✧ Issue #3 The Official Star Atlas Newsletter Delivering you original long-form updates covering our latest news and backstage sneak peeks. This edition of The Atlas Star ✧ is …",
+          "headline": "The Atlas Star ✧ Issue #3",
+          "identifier": "13fbe6bd8f29",
+          "image": [
+            "https://miro.medium.com/0*qZ1TqBpuT-1KPouo"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-atlassian-13fbe6bd8f29",
+          "name": "The Atlas Star ✧ Issue #3",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-atlassian-13fbe6bd8f29"
+        },
+        "text_length": 32198
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-atlassian-13fbe6bd8f29",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-atlassian-13fbe6bd8f29",
+      "sha256": "8f8ac75daea4e1dc3938caa0962112b438f2895e27928755d9a3f98092ee55af",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:31Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-atlassian-13fbe6bd8f29",
+  "http_status": 200,
+  "raw_byte_count": 396506,
+  "raw_sha256": "8f8ac75daea4e1dc3938caa0962112b438f2895e27928755d9a3f98092ee55af",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/the-atlassian-13fbe6bd8f29",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-13FBE6BD8F29/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

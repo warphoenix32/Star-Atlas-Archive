@@ -1,0 +1,103 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6151,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3",
+      "sha256": "d2556d73d7514350a7698a731b1c7faea716f6f3c8c0a2695446cdc7d89f6126",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27673,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3",
+      "sha256": "3de266edea8bc8f3b1aaa2a887d011432e5f1f2361a9f960dd753916bbe9b56a",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 119731,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2022-12-16T23:47:05.564Z",
+          "dateModified": "2022-12-20T21:58:17.319Z",
+          "datePublished": "2022-12-16T23:47:05.564Z",
+          "description": "The second phase of the Golden Era Start Sequence begins on December 20, 2022 when explorers from every corner of the galaxy will be able to acquire exclusive habitats and mining claim stakes for…",
+          "headline": "Cosmic Overture Begins: Land and Claim Stakes Up for Grabs in Phase 2 of SAGE Start Sequence",
+          "identifier": "f47fa9f2f6c3",
+          "image": [
+            "https://miro.medium.com/v2/resize:fit:1200/0*JqF72GqJg3huF1UN"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3",
+          "name": "Cosmic Overture Begins: Land and Claim Stakes Up for Grabs in Phase 2 of SAGE Start Sequence",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3"
+        },
+        "text_length": 5256
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20230604130359id_/https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3?source=user_profile---------6----------------------------",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20230604130359id_/https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3?source=user_profile---------6----------------------------",
+      "sha256": "5d18047d182a7b19f9ccbd6832a58b799d642a6cb76ecd180f3a6646555cc776",
+      "snapshot": {
+        "digest": "27WCVDPNCOUO26344PQNOC6CTVI46RD2",
+        "original_url": "https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3?source=user_profile---------6----------------------------",
+        "timestamp": "20230604130359"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:30:29Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20230604130359id_/https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3?source=user_profile---------6----------------------------",
+  "http_status": 200,
+  "raw_byte_count": 119731,
+  "raw_sha256": "5d18047d182a7b19f9ccbd6832a58b799d642a6cb76ecd180f3a6646555cc776",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-D9EB17645A4C9245"
+  ],
+  "requested_url": "https://web.archive.org/web/20230604130359id_/https://medium.com/star-atlas/cosmic-overture-begins-land-and-claim-stakes-up-for-grabs-in-phase-2-of-sage-start-sequence-f47fa9f2f6c3?source=user_profile---------6----------------------------",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F47FA9F2F6C3/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

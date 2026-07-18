@@ -1,0 +1,155 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6",
+  "collected": "2026-07-18T04:29:01Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "a0e10aaa86740d82a9e952f938ea53bf3e2cef3585f6b2a80d3e6bfa1ee5be06",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-8DE3C7909FC6.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-8DE3C7909FC6.md",
+  "observed_urls": [
+    "http://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6",
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8de3c7909fc6&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6&source=---------156-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6",
+    "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6?source=rss------blockchain-5",
+    "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6?source=social.tw&_branch_match_id=953525285186697134",
+    "https://staratlasgame.medium.com/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6?source=user_profile_page---------156-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-5A8CBF667AD201EF.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-3800129644B19208"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 241286,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2021-08-03T15:05:27Z",
+            "dateModified": "2021-08-25T17:37:48Z",
+            "datePublished": "2021-08-03T15:05:27Z",
+            "description": "Holders of full Tiers of Meta-Posters now have a path to claiming in-game metaverse NFTs, including state-of-the-art intergalactic spaceships and Tigu.",
+            "headline": "Star Atlas Announces NFT Loot Box Rewards Drop for ReBirth Meta-Poster Collectors [Updated]",
+            "identifier": "8de3c7909fc6",
+            "image": [
+              "https://miro.medium.com/1*evc0EiHHGhy1lrwj0wz19w.png"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6",
+            "name": "Star Atlas Announces NFT Loot Box Rewards Drop for ReBirth Meta-Poster Collectors [Updated]",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6"
+          },
+          "text_length": 4400
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6",
+        "http_status": 200,
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6"
+          }
+        ],
+        "requested_url": "http://medium.com/star-atlas/star-atlas-announces-nft-loot-box-rewards-drop-for-rebirth-meta-poster-collectors-8de3c7909fc6",
+        "sha256": "fa7c8238021a6727f9aedf691040377ae463b680aa508261cb5c2a1765232e34",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2021-08-03T15:05:27Z",
+  "published_at_original": "2021-08-03T15:05:27Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-8DE3C7909FC6/article.html",
+  "raw_sha256": "fa7c8238021a6727f9aedf691040377ae463b680aa508261cb5c2a1765232e34",
+  "source_id": "SRC-MEDIUM-STARATLAS-8DE3C7909FC6",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Announces NFT Loot Box Rewards Drop for ReBirth Meta-Poster Collectors [Updated]",
+  "updated_at_normalized": "2021-08-25T17:37:48Z",
+  "updated_at_original": "2021-08-25T17:37:48Z"
+}

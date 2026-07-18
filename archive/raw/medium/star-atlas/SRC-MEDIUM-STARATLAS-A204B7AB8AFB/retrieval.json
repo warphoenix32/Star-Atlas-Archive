@@ -1,0 +1,94 @@
+{
+  "attempts": [
+    {
+      "byte_count": 263905,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-building-a-gaming-cybernation-from-the-ground-up-a204b7ab8afb",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2025-04-04T16:56:47Z",
+          "dateModified": "2025-04-04T16:56:47Z",
+          "datePublished": "2025-04-04T16:56:47Z",
+          "description": "Star Atlas: Building a Gaming Cybernation from the Ground Up The gaming industry has spent the last decade refining a formula: polished graphics, familiar mechanics, and predictable revenue streams …",
+          "headline": "Star Atlas: Building a Gaming Cybernation from the Ground Up",
+          "identifier": "a204b7ab8afb",
+          "image": [
+            "https://miro.medium.com/0*NOyrb-Sfbq5xczoq"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-building-a-gaming-cybernation-from-the-ground-up-a204b7ab8afb",
+          "name": "Star Atlas: Building a Gaming Cybernation from the Ground Up",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-building-a-gaming-cybernation-from-the-ground-up-a204b7ab8afb"
+        },
+        "text_length": 8658
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-building-a-gaming-cybernation-from-the-ground-up-a204b7ab8afb",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-building-a-gaming-cybernation-from-the-ground-up-a204b7ab8afb",
+      "sha256": "e95beb5cf0c2120ba820930b0ff46a1dc8755c51002ede70c9c7ce346952631e",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:05Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+    "rss:profile",
+    "rss:publication",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-building-a-gaming-cybernation-from-the-ground-up-a204b7ab8afb",
+  "http_status": 200,
+  "raw_byte_count": 263905,
+  "raw_sha256": "e95beb5cf0c2120ba820930b0ff46a1dc8755c51002ede70c9c7ce346952631e",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-F055209A5B65F7F4",
+    "SRC-X-STARATLAS-1908229238375031255"
+  ],
+  "requested_url": "https://medium.com/star-atlas/star-atlas-building-a-gaming-cybernation-from-the-ground-up-a204b7ab8afb",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A204B7AB8AFB/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

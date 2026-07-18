@@ -1,0 +1,89 @@
+{
+  "attempts": [
+    {
+      "byte_count": 284223,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2023-07-14T18:01:47Z",
+          "dateModified": "2023-07-14T18:01:47Z",
+          "datePublished": "2023-07-14T18:01:47Z",
+          "description": "Shoot for the Stars — Star Atlas Launches Metaverse Photography Career Contest Galactic Explorers! Another legendary worldwide community challenge is about to begin. This time, you will let the …",
+          "headline": "Shoot for the Stars — Star Atlas Launches Metaverse Photography Career Contest",
+          "identifier": "bf1a5146fdee",
+          "image": [
+            "https://miro.medium.com/0*Qb8mq9Ya25TwRTDq"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee",
+          "name": "Shoot for the Stars — Star Atlas Launches Metaverse Photography Career Contest",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee"
+        },
+        "text_length": 16961
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee",
+      "sha256": "0e76250cc026d7f394dab07c8aae9ee24215d06eba4c272721ef85c7827b8e98",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:40:38Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl"
+  ],
+  "final_url": "https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee",
+  "http_status": 200,
+  "raw_byte_count": 284223,
+  "raw_sha256": "0e76250cc026d7f394dab07c8aae9ee24215d06eba4c272721ef85c7827b8e98",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-C8E69FF5D1CEAE36"
+  ],
+  "requested_url": "https://medium.com/star-atlas/shoot-for-the-stars-star-atlas-launches-metaverse-photography-career-contest-bf1a5146fdee",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-BF1A5146FDEE/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

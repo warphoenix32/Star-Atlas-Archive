@@ -1,0 +1,87 @@
+{
+  "attempts": [
+    {
+      "byte_count": 401883,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@jose_eduardosiqueira",
+            "@type": "Person",
+            "identifier": "jose_eduardosiqueira",
+            "name": "ZeSKK",
+            "url": "https://medium.com/@jose_eduardosiqueira"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@jose_eduardosiqueira",
+            "@type": "Person",
+            "identifier": "jose_eduardosiqueira",
+            "name": "ZeSKK",
+            "url": "https://medium.com/@jose_eduardosiqueira"
+          },
+          "dateCreated": "2022-04-22T22:25:03Z",
+          "dateModified": "2022-06-06T15:16:36Z",
+          "datePublished": "2022-04-22T22:25:03Z",
+          "description": "The Atlas Star ✧ Issue #6 A tale about building a new world… Attention, Deep Space Explorers! We are back for another epic Atlas Star ✧, the official Star Atlas newsletter wherein you find all …",
+          "headline": "The Atlas Star ✧ Issue #6",
+          "identifier": "27a0ceec31e9",
+          "image": [
+            "https://miro.medium.com/0*RRtSVdCjNvc0B52s"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+          "name": "The Atlas Star ✧ Issue #6",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9"
+        },
+        "text_length": 29977
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+      "sha256": "590d320075db8c332efe0e0894ad53e4ca3bf3bbda06f21c1a1dfcb9a9f79a10",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:36Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7FFFCA6E3EFC320C.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+  "http_status": 200,
+  "raw_byte_count": 401883,
+  "raw_sha256": "590d320075db8c332efe0e0894ad53e4ca3bf3bbda06f21c1a1dfcb9a9f79a10",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-6-27a0ceec31e9",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-27A0CEEC31E9/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

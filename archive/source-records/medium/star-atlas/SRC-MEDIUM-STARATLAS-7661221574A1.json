@@ -1,0 +1,150 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1",
+  "collected": "2026-07-18T04:28:52Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "279d9e0e97ca0949a2cda99730691c8aa003dfb37292664a17f6734016fe19a5",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-7661221574A1.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-7661221574A1.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F7661221574a1&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fjoin-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1&source=---------131-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1",
+    "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1?source=social.tw&_branch_match_id=1000490435839588876&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Y%2BqdIw0zw9LNslJAgD32F4UIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1?source=social.tw&_branch_match_id=1004352187282233334&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1TfMScrLy64yy8lNAgCL%2BtI8IwAAAA%3D%3D",
+    "https://medium.com/star-atlas/join-thehttps://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1",
+    "https://staratlasgame.medium.com/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1?source=user_profile_page---------131-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8AC8EED8F9A8B82E.json",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-CFB3A87BF1E48DDE.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-965AB748BDCB7781"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 258834,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2021-12-17T16:28:28Z",
+            "dateModified": "2021-12-20T10:40:54Z",
+            "datePublished": "2021-12-17T16:28:28Z",
+            "description": "Join the Fleet: Star Atlas Launches its Inaugural On-chain Gameplay Experience Blockchain gaming metaverse on Solana fires up the mainnet with the launch of SCORE, the first playable browser-based …",
+            "headline": "Join the Fleet: Star Atlas Launches its Inaugural On-chain Gameplay Experience",
+            "identifier": "7661221574a1",
+            "image": [
+              "https://miro.medium.com/1*TAgNsChwbrHR-p2BxnhGtg.jpeg"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1",
+            "name": "Join the Fleet: Star Atlas Launches its Inaugural On-chain Gameplay Experience",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1"
+          },
+          "text_length": 5277
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1",
+        "sha256": "143f65a0e2094a5d15de6312b0da0bbb8a0e51992c0ca2ad4097f99a37270dd1",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2021-12-17T16:28:28Z",
+  "published_at_original": "2021-12-17T16:28:28Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-7661221574A1/article.html",
+  "raw_sha256": "143f65a0e2094a5d15de6312b0da0bbb8a0e51992c0ca2ad4097f99a37270dd1",
+  "source_id": "SRC-MEDIUM-STARATLAS-7661221574A1",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Join the Fleet: Star Atlas Launches its Inaugural On-chain Gameplay Experience",
+  "updated_at_normalized": "2021-12-20T10:40:54Z",
+  "updated_at_original": "2021-12-20T10:40:54Z"
+}

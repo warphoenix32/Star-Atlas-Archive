@@ -1,0 +1,159 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+  "collected": "2026-07-18T04:29:23Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 2,
+  "media_successes": 0,
+  "normalized_content_sha256": "a4bbf3ba4cbf02a3e7582db0828f2356bf3b043bca408664949106a507133ca7",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-CD0634B6C3FC.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-CD0634B6C3FC.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fcd0634b6c3fc&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-community-week-a-galactic-celebration-cd0634b6c3fc&source=---------25-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+    "https://staratlasgame.medium.com/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc?source=user_profile_page---------25-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-049D95D9AB79E26A",
+      "SA-DISCORD-ANN-0D9EF087020E3CCB"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 5980,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+        "sha256": "dba5d4c111d940e1344a1cf0b4b0a1dbcb9b593ff5d1989f9ddc89f9e15f692f",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27648,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+        "sha256": "c329598984840ab242092793f195f8ac0f3f121dbe36213157cf0b49b3552904",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 130798,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2024-01-25T22:36:52.120Z",
+            "dateModified": "2024-01-25T22:36:52.506Z",
+            "datePublished": "2024-01-25T22:36:52.120Z",
+            "description": "The esteemed community of Star Atlas is cordially invited to partake in an extraordinary celebration — the Star Atlas Community Week. This event marks a significant occasion, uniting ONIs, Usturs…",
+            "headline": "Star Atlas Community Week: A Galactic Celebration - Star Atlas - Medium",
+            "identifier": "cd0634b6c3fc",
+            "image": [
+              "https://miro.medium.com/v2/da:true/resize:fit:1200/0*E4WZJXUqlgs2m72N"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+            "name": "Star Atlas Community Week: A Galactic Celebration - Star Atlas - Medium",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc"
+          },
+          "text_length": 5535
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20240126115447id_/https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20240126115447id_/https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+        "sha256": "4d0a4e839333ce7dd3e57cd55469640b46445cedcde54e6aaf17da40c8bbea44",
+        "snapshot": {
+          "digest": "6W5ROWLS7PCX4D23FTGAQRWFDS5IKRU7",
+          "original_url": "https://medium.com/star-atlas/star-atlas-community-week-a-galactic-celebration-cd0634b6c3fc",
+          "timestamp": "20240126115447"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2024-01-25T22:36:52.120000Z",
+  "published_at_original": "2024-01-25T22:36:52.120Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-CD0634B6C3FC/article.html",
+  "raw_sha256": "4d0a4e839333ce7dd3e57cd55469640b46445cedcde54e6aaf17da40c8bbea44",
+  "source_id": "SRC-MEDIUM-STARATLAS-CD0634B6C3FC",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Community Week: A Galactic Celebration - Star Atlas - Medium",
+  "updated_at_normalized": "2024-01-25T22:36:52.506000Z",
+  "updated_at_original": "2024-01-25T22:36:52.506Z"
+}

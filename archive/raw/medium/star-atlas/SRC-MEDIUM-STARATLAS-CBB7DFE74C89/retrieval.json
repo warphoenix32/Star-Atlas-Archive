@@ -1,0 +1,101 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6115,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+      "sha256": "36d24c001366da7cc8e04858bef9d641639732d66cb461f6dd84eafcd5f350e0",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27762,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+      "sha256": "51d9de6015b179156207bd9bf8debb57960273e14bd1f462b979e9ae04f81286",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 138811,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2022-04-28T00:54:33.411Z",
+          "dateModified": "2022-04-28T00:54:42.151Z",
+          "datePublished": "2022-04-28T00:54:33.411Z",
+          "description": "Gamers can be rewarded for bringing their favorite faction from the leading Solana metaverse to The Sandbox on Ethereum via the Star Atlas VoxEdit Contest Star Atlas, a next-gen metaverse with…",
+          "headline": "A Metaverse Collision: Star Atlas and The SandBox Collaborate for the First Time",
+          "identifier": "cbb7dfe74c89",
+          "image": [
+            "https://miro.medium.com/max/1200/1*xp8EktK65RU34_3Wukj6oA.png"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+          "name": "A Metaverse Collision: Star Atlas and The SandBox Collaborate for the First Time",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89"
+        },
+        "text_length": 7096
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20220428021216id_/https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20220428021216id_/https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+      "sha256": "1d7697b017abd48ce97cf1a65dad99b6c10c718bd350e49f56a442bda51384b7",
+      "snapshot": {
+        "digest": "YOHASCTYS5JYHQYTJMCN376Z3JYOXZ2J",
+        "original_url": "https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+        "timestamp": "20220428021216"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:21Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4A9FCC4E28487231.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20220428021216id_/https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+  "http_status": 200,
+  "raw_byte_count": 138811,
+  "raw_sha256": "1d7697b017abd48ce97cf1a65dad99b6c10c718bd350e49f56a442bda51384b7",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20220428021216id_/https://medium.com/star-atlas/a-metaverse-collision-star-atlas-and-the-sandbox-collaborate-for-the-first-time-cbb7dfe74c89",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-CBB7DFE74C89/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

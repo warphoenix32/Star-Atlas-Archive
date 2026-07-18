@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 427223,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-atlas-star-issue-8-81161f34eb16",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-06-24T21:31:26Z",
+          "dateModified": "2022-07-21T20:13:54Z",
+          "datePublished": "2022-06-24T21:31:26Z",
+          "description": "The Atlas Star ✧ Issue #8 A tale about building a new world… Heed the Call of Summer, Space Explorers! From all across the galaxy, the people of the stars gathered together in the Council of …",
+          "headline": "The Atlas Star ✧ Issue #8",
+          "identifier": "81161f34eb16",
+          "image": [
+            "https://miro.medium.com/0*yeJnpvWPVr6mYAvK"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-8-81161f34eb16",
+          "name": "The Atlas Star ✧ Issue #8",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-atlas-star-issue-8-81161f34eb16"
+        },
+        "text_length": 32779
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-8-81161f34eb16",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-8-81161f34eb16",
+      "sha256": "f15f344ff2bd9c986ce6cc7be762ab47c127fca7439591445555ee284eff9e0a",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:56Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-8-81161f34eb16",
+  "http_status": 200,
+  "raw_byte_count": 427223,
+  "raw_sha256": "f15f344ff2bd9c986ce6cc7be762ab47c127fca7439591445555ee284eff9e0a",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-BAEBD1255849F8E3"
+  ],
+  "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-8-81161f34eb16",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-81161F34EB16/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

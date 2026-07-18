@@ -1,0 +1,13 @@
+{
+  "body_path": "operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/wayback-custom-domain.html",
+  "byte_count": 41927,
+  "capture_label": "wayback-custom-domain",
+  "captured_at": "2026-07-18T04:24:45Z",
+  "content_type": "application/json",
+  "error": null,
+  "final_url": "https://web.archive.org/cdx/search/cdx?url=staratlasgame.medium.com/*&output=json&filter=statuscode:200&filter=mimetype:text/html&fl=timestamp,original,digest&collapse=urlkey",
+  "http_status": 200,
+  "redirect_chain": [],
+  "requested_url": "https://web.archive.org/cdx/search/cdx?url=staratlasgame.medium.com/*&output=json&filter=statuscode:200&filter=mimetype:text/html&fl=timestamp,original,digest&collapse=urlkey",
+  "sha256": "3c5642e976259e7f27acc9f0181b779b0b4f3acbe6b37a484421731634d492cb"
+}

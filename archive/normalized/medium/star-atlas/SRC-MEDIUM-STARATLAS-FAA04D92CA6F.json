@@ -1,0 +1,752 @@
+{
+  "article_text": "Today, we mark a turning point in the Star Atlas journey. Our Town Hall revealed some of the most ambitious updates ever released in the Galia Expanse, starting with C4 (an update that introduces Combat, Claim Stakes, Cultivation Claims, Council Rank and Crafting Habs), a new phase in SAGE that elevates the game into a fully fledged 4X experience. On another development front, Star Atlas also announced Holosim release, a free-to-play frictionless onboarding experience to web3 filled with new content. But that’s not all: From Unreal Engine 5 gameplay mid-year patch to a surprise ship sale, this Town Hall was packed with major news.\n\nHere’s everything you need to know.\n\nC4 — Turning Star Atlas Into a Fully Fledged 4X Gaming Experience\n\nWork in Progress — Developer Tool Art\n\nC4 introduces Claim Stakes & Cultivation Claims, Crafting Habs, Combat, Council Rank, and more to the Star Atlas ecosystem, transforming SAGE into a deep and strategic economy. This release brings hundreds of new game systems online, all interacting across an expansive galactic map with thousands of planets.\n\nThese are the updates coming into SAGE with C4 (Subject to change before release):\n\nMap & Movement Updates\n\nDeveloper Tool Art\n\nA New Galia : C4 replaces the old sector system with 69 regions, 900+ star systems, and over 3,000 planets (including asteroid belts).\n\nConquest : Map control becomes one of the most important mechanics in the game. Players can conquer regions by capturing all their core star systems.\n\nSafe Havens : Safe Zones can be created by a faction that controls an entire region, blocking enemy combat while still allowing scanning.\n\nStarpath : Warp lanes are introduced as ATLAS-paid, high-speed routes across regions.\n\nResources\n\nDeveloper Tool Art\n\nMore Elements : We are introducing eight different types of celestial bodies, 140 raw resources, 236 components, and 157 ingredients (subject to change, under economics review).\n\nNew Supply Chains : The resources available on a planet are dependent on its type, the system’s starbase tier, and the Claim Stakes structures implemented on that planet.\n\nCombat System\n\nDeveloper Tool Art\n\nFull Ship Configuration System : Players will be able to craft various components that affect ship performance across multiple areas, enabling customized builds for ships and fleets. When a ship is destroyed in battle, its components are burned.\n\nAtomic Combat : Combat will consist of instant, atomic battles with lootable wreckage in this first version. Damage types, countermeasures, and ship builds all influence outcomes.\n\nLoot Rules : Loot is locked to the fleet that lands the final hit. A random portion of the destroyed fleet’s cargo is burned. Self-destruction opens the loot to all.\n\nMechanics : Combat actions — attacking, looting, repairing — are governed by an Action Point (AP) system.\n\nNearly Endless Options : Upon release, we expect over 3,800 components, 2,000 weapons, and more than 500 countermeasures, all craftable through in-game mechanics.\n\nGalactic Siege : Starbases can be attacked and down-leveled to zero. If a base is captured, all resources stored within are destroyed. Bases can be repaired by players.\n\nClaim Stakes\n\nGalactic Customizable Colonization : Claim Stakes are the foundation of galactic colonization in C4, enabling on-ground resource production and planetary infrastructure. Players will be able to fully configure their Claim Stakes to produce the resources and crafts that they require.\n\nSpecialization is the Soul of the Business : Every planet and resource requires different infrastructure for extraction and processing. Starbase and Claim Stake tiers determine the availability of infrastructure and resources.\n\nStarbase Surveillance : Starbases control Claim Stakes within a system. Claim Stakes, in turn, supply starbases. Resources must be delivered and extracted via fleets.\n\nLand Taxation : Claim Stakes can be evicted if their rent isn’t paid or if the system’s starbase is downgraded. Evicted stakes are deconstructed and returned to inventory or the CSS.\n\nCrafting Habs\n\nDeveloper Tool Art\n\nCrafting Facilities : Crafting Habs offer higher crafting efficiency, exclusive recipes, personal storage space, and freedom from crafting fees.\n\nCustomization: Crafting Habs will also allow players to customize their constructions and configurations, allowing for a personalized crafting experience.\n\nPowered by Starbase : Crafting Habs function similarly to Claim Stakes. Players must allocate crew, pay rent, and develop the habitat to place work orders. They rely on the local starbase for power.\n\nCouncil Rank (SAGE Progression)\n\nA Skill Tree Progression System : Council Rank is a skill tree progression system powered by XP and ATLAS. It allows players to unlock in-game benefits and specialize in careers and mechanics within C4.\n\nRenown : Renown is the key to career progression. Earned through career-specific XP (e.g. Pilot, Miner, Builder), renown unlocks new ships, mechanics, and abilities within a chosen role.\n\nFleet Rental Will Not Be Impacted : Investors don’t need to worry. XP is only required for using vessels in-game, not for renting them.\n\nRollout Strategy\n\nC4 will first launch as a browser-based Public Test Realm (PTR) for testing purposes..\n\nNext, it will be deployed to mainnet in a live browser-based release .\n\nFinally, C4 will be fully integrated into Fleet Command , our Unreal Engine 5 experience.\n\nUnreal Engine 5 — Mid-Year Update\n\nStar Atlas has already released three Unreal Engine 5 updates this year, and development continues at full speed. The upcoming mid-year patch introduces significant improvements in progression, gameplay loops, and technical polish.\n\nPlayer Progression\n\nLeveling Up : Players will be able to progress across 20 levels and 10 prestige per character group rank by earning XP through matches on dedicated servers. A character group is categorized as a specific species/gender. For example, a female Punaab or Male Human.\n\nRewards : XP gained in UE5 modes will be tied to airdropped rewards, including crew packs, exclusive resources, and unique loadout items (weapons, jetties, bubbies).\n\nPersistent Servers & Matchmaking\n\nPersistent Servers : In the mid-year update, we are introducing persistent servers, allowing players to engage in dedicated matches at any time of the day with higher XP rates. Custom/private lobbies will still be available, but will provide XP at a reduced rate.\n\nRotating Game Modes : Every week, persistent servers will rotate game modes, offering different experiences and encouraging varied playstyles.\n\nGameplay & Tech\n\nAnti-Cheat : Easy Anti-Cheat integration ensures a fair and secure competitive environment.\n\nNew Load-Out : A new system allows players to pre-select weapons for matches. Weapons will no longer be picked up during play; only ammo will.\n\nNew Game Mechanics to Project Galia : Following the mining mini-game, data running gameplay loops will be added to Project Galia, giving players a chance to test new mechanics and explore the lore.\n\nGeneral Improvements : This patch also includes Spectator Mode, full joystick and HOTAS support, a new racing map to replace Track B, and the completion of Paizul’s Arena. Numerous UI and quality-of-life updates are also included.\n\nHolosim — Star Atlas’ Free, Frictionless Gateway\n\nOne of the biggest surprises of the Town Hall was the soft launch of Holosim, a new free-to-play Star Atlas product. Holosim simulates time-limited, scenario-based campaigns that are designed to onboard new players while offering compelling, faction-based gameplay for veterans.\n\nBuilt entirely on the Star Atlas proprietary blockchain, Holosim features fast, gasless transactions, zero sign-up requirements, and permissionless participation.\n\nCore Features\n\nFrictionless Web3 Gaming : Holosim is free to play, with no wallet or account creation needed. Players simply click a link and begin.\n\nIntroduction of the Quest System and Artificial Intelligence : Holosim introduces quest systems, career specialization, and AI companions to the Star Atlas experience.\n\nAtlasnet Blockchain : Holosim runs natively on Atlasnet, delivering instant, on-chain gameplay.\n\nSeasonal Scenarios : Each season features a unique simulated scenario with new rules, rewards, and progression paths.\n\nPrizes : Top performers in future seasons will receive Star Atlas tokens and in-game assets as prizes once Holosim leaves the open beta testing phase.\n\nFaction Chat : A new global faction chat feature enables real-time coordination for planning supply chains, defenses, and attacks.\n\nThe First Scenario\n\nUnforgiving Combat : Combat is permadeath. Destroyed fleets are lost permanently, with surviving cargo dropped as loot for the victor.\n\nShip Specialization : Ships have been rebalanced to highlight the strengths and weaknesses of different builds and careers. Specialization provides a significant edge.\n\nCareer Paths : Players choose between four specializations: Soldier, Data Runner, Miner, or Merchant. While all gameplay loops are accessible, faction coordination across specializations is key to success.\n\nVictory Condition : The first scenario is a race to fulfill Infrastructure Contracts scattered across the Galia Expanse. Factions must gather resources, craft items, and deliver them to starbases. The first faction to fulfill all contracts wins.\n\nStep into the Simulation\n\nJump into Holosim now and be part of the first living simulation in the Galia Expanse. No wallet, no signup, just strategy, skill, and your mark on Star Atlas history!\n\nLimited Ship Sale — Data Runners\n\nTo celebrate the upcoming C4 release, Star Atlas is launching a limited-time 50% off sale of Data Runner vessels, including small and medium-class ships. These agile vessels are crucial for scanning, future data runner game play loops, and light cargo runs.\n\nThe sale is live now at play.staratlas.com , while supplies last.\n\nABOUT STAR ATLAS\n\nStar Atlas is an immersive, high-fidelity, world-building space adventure and grand strategy MMO built in Unreal Engine 5 and sustained by a real, galactic marketplace and economy.\n\nBuilt as a fully decentralized universe leveraging state-of-the-art blockchain using the Solana protocol, Star Atlas allows players to own and define their story and experience, while interacting in a live, dynamic, community-focused and controlled economy. Empowering a sustainable ecosystem is about allowing true asset ownership, marketability, co-creation, and driving true utility in the Star Atlas universe.\n\nIn Star Atlas, you explore space and distant planets, build powerful fleets and assemble crew to navigate, mine, craft, even conquer, while participating in a global, borderless digital economy — ultimately putting the power fully in the hands of the people.\n\nFind out more about Star Atlas by visiting www.Staratlas.com and our marketplace at www.Playstaratlas.com . Join a faction, set up your crew and fleet, then start playing the SAGE Labs browser game to explore, gather, craft and prosper in the galactic economy.\n\nStar Atlas Unreal Engine game experience is also available to download and play on Epic Games Store — join our Discord to get game key access and be part of our thriving community! You can also participate in governance of the Star Atlas DAO .\n\nJoin the Star Atlas community on: Twitter | Discord | YouTube | YouTube Clips | Reddit | Medium | LinkedIn\n\nStar Atlas Town Hall Recap: The New Web3 Era Is Upon Us was originally published in Star Atlas on Medium, where people are continuing the conversation by highlighting and responding to this story.",
+  "blocks": [
+    {
+      "level": null,
+      "text": "Today, we mark a turning point in the Star Atlas journey. Our Town Hall revealed some of the most ambitious updates ever released in the Galia Expanse, starting with C4 (an update that introduces Combat, Claim Stakes, Cultivation Claims, Council Rank and Crafting Habs), a new phase in SAGE that elevates the game into a fully fledged 4X experience. On another development front, Star Atlas also announced Holosim release, a free-to-play frictionless onboarding experience to web3 filled with new content. But that’s not all: From Unreal Engine 5 gameplay mid-year patch to a surprise ship sale, this Town Hall was packed with major news.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Here’s everything you need to know.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "C4 — Turning Star Atlas Into a Fully Fledged 4X Gaming Experience",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Work in Progress — Developer Tool Art",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "C4 introduces Claim Stakes & Cultivation Claims, Crafting Habs, Combat, Council Rank, and more to the Star Atlas ecosystem, transforming SAGE into a deep and strategic economy. This release brings hundreds of new game systems online, all interacting across an expansive galactic map with thousands of planets.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "These are the updates coming into SAGE with C4 (Subject to change before release):",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Map & Movement Updates",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Developer Tool Art",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "A New Galia : C4 replaces the old sector system with 69 regions, 900+ star systems, and over 3,000 planets (including asteroid belts).",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Conquest : Map control becomes one of the most important mechanics in the game. Players can conquer regions by capturing all their core star systems.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Safe Havens : Safe Zones can be created by a faction that controls an entire region, blocking enemy combat while still allowing scanning.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Starpath : Warp lanes are introduced as ATLAS-paid, high-speed routes across regions.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Resources",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Developer Tool Art",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "More Elements : We are introducing eight different types of celestial bodies, 140 raw resources, 236 components, and 157 ingredients (subject to change, under economics review).",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "New Supply Chains : The resources available on a planet are dependent on its type, the system’s starbase tier, and the Claim Stakes structures implemented on that planet.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Combat System",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Developer Tool Art",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "Full Ship Configuration System : Players will be able to craft various components that affect ship performance across multiple areas, enabling customized builds for ships and fleets. When a ship is destroyed in battle, its components are burned.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Atomic Combat : Combat will consist of instant, atomic battles with lootable wreckage in this first version. Damage types, countermeasures, and ship builds all influence outcomes.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Loot Rules : Loot is locked to the fleet that lands the final hit. A random portion of the destroyed fleet’s cargo is burned. Self-destruction opens the loot to all.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Mechanics : Combat actions — attacking, looting, repairing — are governed by an Action Point (AP) system.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Nearly Endless Options : Upon release, we expect over 3,800 components, 2,000 weapons, and more than 500 countermeasures, all craftable through in-game mechanics.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Galactic Siege : Starbases can be attacked and down-leveled to zero. If a base is captured, all resources stored within are destroyed. Bases can be repaired by players.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Claim Stakes",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Galactic Customizable Colonization : Claim Stakes are the foundation of galactic colonization in C4, enabling on-ground resource production and planetary infrastructure. Players will be able to fully configure their Claim Stakes to produce the resources and crafts that they require.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Specialization is the Soul of the Business : Every planet and resource requires different infrastructure for extraction and processing. Starbase and Claim Stake tiers determine the availability of infrastructure and resources.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Starbase Surveillance : Starbases control Claim Stakes within a system. Claim Stakes, in turn, supply starbases. Resources must be delivered and extracted via fleets.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Land Taxation : Claim Stakes can be evicted if their rent isn’t paid or if the system’s starbase is downgraded. Evicted stakes are deconstructed and returned to inventory or the CSS.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Crafting Habs",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Developer Tool Art",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "Crafting Facilities : Crafting Habs offer higher crafting efficiency, exclusive recipes, personal storage space, and freedom from crafting fees.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Customization: Crafting Habs will also allow players to customize their constructions and configurations, allowing for a personalized crafting experience.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Powered by Starbase : Crafting Habs function similarly to Claim Stakes. Players must allocate crew, pay rent, and develop the habitat to place work orders. They rely on the local starbase for power.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Council Rank (SAGE Progression)",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "A Skill Tree Progression System : Council Rank is a skill tree progression system powered by XP and ATLAS. It allows players to unlock in-game benefits and specialize in careers and mechanics within C4.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Renown : Renown is the key to career progression. Earned through career-specific XP (e.g. Pilot, Miner, Builder), renown unlocks new ships, mechanics, and abilities within a chosen role.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Fleet Rental Will Not Be Impacted : Investors don’t need to worry. XP is only required for using vessels in-game, not for renting them.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Rollout Strategy",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "C4 will first launch as a browser-based Public Test Realm (PTR) for testing purposes..",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Next, it will be deployed to mainnet in a live browser-based release .",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Finally, C4 will be fully integrated into Fleet Command , our Unreal Engine 5 experience.",
+      "type": "list_item"
+    },
+    {
+      "level": 3,
+      "text": "Unreal Engine 5 — Mid-Year Update",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas has already released three Unreal Engine 5 updates this year, and development continues at full speed. The upcoming mid-year patch introduces significant improvements in progression, gameplay loops, and technical polish.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Player Progression",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Leveling Up : Players will be able to progress across 20 levels and 10 prestige per character group rank by earning XP through matches on dedicated servers. A character group is categorized as a specific species/gender. For example, a female Punaab or Male Human.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Rewards : XP gained in UE5 modes will be tied to airdropped rewards, including crew packs, exclusive resources, and unique loadout items (weapons, jetties, bubbies).",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Persistent Servers & Matchmaking",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Persistent Servers : In the mid-year update, we are introducing persistent servers, allowing players to engage in dedicated matches at any time of the day with higher XP rates. Custom/private lobbies will still be available, but will provide XP at a reduced rate.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Rotating Game Modes : Every week, persistent servers will rotate game modes, offering different experiences and encouraging varied playstyles.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Gameplay & Tech",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Anti-Cheat : Easy Anti-Cheat integration ensures a fair and secure competitive environment.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "New Load-Out : A new system allows players to pre-select weapons for matches. Weapons will no longer be picked up during play; only ammo will.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "New Game Mechanics to Project Galia : Following the mining mini-game, data running gameplay loops will be added to Project Galia, giving players a chance to test new mechanics and explore the lore.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "General Improvements : This patch also includes Spectator Mode, full joystick and HOTAS support, a new racing map to replace Track B, and the completion of Paizul’s Arena. Numerous UI and quality-of-life updates are also included.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Holosim — Star Atlas’ Free, Frictionless Gateway",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "One of the biggest surprises of the Town Hall was the soft launch of Holosim, a new free-to-play Star Atlas product. Holosim simulates time-limited, scenario-based campaigns that are designed to onboard new players while offering compelling, faction-based gameplay for veterans.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Built entirely on the Star Atlas proprietary blockchain, Holosim features fast, gasless transactions, zero sign-up requirements, and permissionless participation.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Core Features",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Frictionless Web3 Gaming : Holosim is free to play, with no wallet or account creation needed. Players simply click a link and begin.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Introduction of the Quest System and Artificial Intelligence : Holosim introduces quest systems, career specialization, and AI companions to the Star Atlas experience.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Atlasnet Blockchain : Holosim runs natively on Atlasnet, delivering instant, on-chain gameplay.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Seasonal Scenarios : Each season features a unique simulated scenario with new rules, rewards, and progression paths.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Prizes : Top performers in future seasons will receive Star Atlas tokens and in-game assets as prizes once Holosim leaves the open beta testing phase.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Faction Chat : A new global faction chat feature enables real-time coordination for planning supply chains, defenses, and attacks.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "The First Scenario",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Unforgiving Combat : Combat is permadeath. Destroyed fleets are lost permanently, with surviving cargo dropped as loot for the victor.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Ship Specialization : Ships have been rebalanced to highlight the strengths and weaknesses of different builds and careers. Specialization provides a significant edge.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Career Paths : Players choose between four specializations: Soldier, Data Runner, Miner, or Merchant. While all gameplay loops are accessible, faction coordination across specializations is key to success.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Victory Condition : The first scenario is a race to fulfill Infrastructure Contracts scattered across the Galia Expanse. Factions must gather resources, craft items, and deliver them to starbases. The first faction to fulfill all contracts wins.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Step into the Simulation",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Jump into Holosim now and be part of the first living simulation in the Galia Expanse. No wallet, no signup, just strategy, skill, and your mark on Star Atlas history!",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "Limited Ship Sale — Data Runners",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "To celebrate the upcoming C4 release, Star Atlas is launching a limited-time 50% off sale of Data Runner vessels, including small and medium-class ships. These agile vessels are crucial for scanning, future data runner game play loops, and light cargo runs.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The sale is live now at play.staratlas.com , while supplies last.",
+      "type": "paragraph"
+    },
+    {
+      "level": 3,
+      "text": "ABOUT STAR ATLAS",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas is an immersive, high-fidelity, world-building space adventure and grand strategy MMO built in Unreal Engine 5 and sustained by a real, galactic marketplace and economy.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Built as a fully decentralized universe leveraging state-of-the-art blockchain using the Solana protocol, Star Atlas allows players to own and define their story and experience, while interacting in a live, dynamic, community-focused and controlled economy. Empowering a sustainable ecosystem is about allowing true asset ownership, marketability, co-creation, and driving true utility in the Star Atlas universe.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In Star Atlas, you explore space and distant planets, build powerful fleets and assemble crew to navigate, mine, craft, even conquer, while participating in a global, borderless digital economy — ultimately putting the power fully in the hands of the people.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Find out more about Star Atlas by visiting www.Staratlas.com and our marketplace at www.Playstaratlas.com . Join a faction, set up your crew and fleet, then start playing the SAGE Labs browser game to explore, gather, craft and prosper in the galactic economy.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas Unreal Engine game experience is also available to download and play on Epic Games Store — join our Discord to get game key access and be part of our thriving community! You can also participate in governance of the Star Atlas DAO .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Join the Star Atlas community on: Twitter | Discord | YouTube | YouTube Clips | Reddit | Medium | LinkedIn",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas Town Hall Recap: The New Web3 Era Is Upon Us was originally published in Star Atlas on Medium, where people are continuing the conversation by highlighting and responding to this story.",
+      "type": "paragraph"
+    }
+  ],
+  "content_sha256": "36fd4b52714b722c05c2ca7e92bbc807a81411135a5cf0d098d1a118e33af6ee",
+  "embeds": [],
+  "images": [
+    {
+      "alt_text": null,
+      "article_order": 1,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*Q4u3BZUNEnX9ouX3",
+      "placement_block": 0,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 2,
+      "caption": "Work in Progress — Developer Tool Art",
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*skYtQW0aeMR7v2uF",
+      "placement_block": 3,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 3,
+      "caption": "Developer Tool Art",
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*d-D7TZC9P2jtx1Fs",
+      "placement_block": 7,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 4,
+      "caption": "Developer Tool Art",
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*4jg0-ebvUCKkZIOf",
+      "placement_block": 13,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 5,
+      "caption": "Developer Tool Art",
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*U5TSFxw3hVmQHvhP",
+      "placement_block": 17,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 6,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*bRSRPuEbduZkjxZe",
+      "placement_block": 25,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 7,
+      "caption": "Developer Tool Art",
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*KvHpTqI965SHEiHZ",
+      "placement_block": 30,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 8,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*11YTRpiHMXxGTmsy",
+      "placement_block": 43,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 9,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*RbJr6q3aipwhnMxd",
+      "placement_block": 48,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 10,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*oqSDyeTqZGJ03lCc",
+      "placement_block": 51,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 11,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*5JN5dcbejdXB0VIy",
+      "placement_block": 56,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 12,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*gOp1YgsfVip3wdvV",
+      "placement_block": 59,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    },
+    {
+      "alt_text": null,
+      "article_order": 13,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://cdn-images-1.medium.com/max/1024/0*ifyZDLZqxltitYCf",
+      "placement_block": 73,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    }
+  ],
+  "outbound_links": [
+    {
+      "placement_block": null,
+      "text": "now",
+      "url": "https://holosim.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "play.staratlas.com",
+      "url": "https://play.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "www.Staratlas.com",
+      "url": "https://staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "www.Playstaratlas.com",
+      "url": "https://play.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "SAGE Labs browser game",
+      "url": "http://labs.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Epic Games Store",
+      "url": "https://store.epicgames.com/en-US/p/star-atlas-bead34"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord",
+      "url": "https://discord.com/invite/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas DAO",
+      "url": "https://govern.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Twitter",
+      "url": "https://twitter.com/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord",
+      "url": "https://discord.gg/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube",
+      "url": "https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube Clips",
+      "url": "https://www.youtube.com/@StarAtlasClips"
+    },
+    {
+      "placement_block": null,
+      "text": "Reddit",
+      "url": "https://www.reddit.com/r/StarAtlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Medium",
+      "url": "https://medium.com/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/company/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas Town Hall Recap: The New Web3 Era Is Upon Us",
+      "url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas",
+      "url": "https://medium.com/star-atlas"
+    }
+  ],
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "retrieval": {
+    "attempts": [
+      {
+        "byte_count": 5998,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 429",
+        "final_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "sha256": "09acfb1f9c401e78f184e680aad712f65926cdd46f0f28fc0fb40163397fa542",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 27520,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "http_status": 429,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "sha256": "0637753503a160ac9fa69dc37ce8af7cef03c65bd511c6f57b2a75aac3606ef3",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 15492,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {},
+          "text_length": 11534
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+        "sha256": "c721e0ccaaff5bcd2037c1129d9dc3dce98ddb5dc36a0ac6f84cde3b136aa46d",
+        "tier": "RSS_CONTENT_ENCODED"
+      }
+    ],
+    "captured_at": "2026-07-18T04:30:32Z",
+    "content_type": "text/html; charset=utf-8",
+    "discovery_sources": [
+      "profile_page",
+      "profile_page_browser",
+      "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+      "rss:profile",
+      "rss:publication"
+    ],
+    "final_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+    "http_status": 200,
+    "raw_byte_count": 15492,
+    "raw_sha256": "c721e0ccaaff5bcd2037c1129d9dc3dce98ddb5dc36a0ac6f84cde3b136aa46d",
+    "redirect_chain": [],
+    "referrer_source_ids": [
+      "SRC-X-STARATLAS-1930755384341639415"
+    ],
+    "requested_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+    "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-FAA04D92CA6F/article.html",
+    "selected_tier": "RSS_CONTENT_ENCODED"
+  },
+  "source": {
+    "authors": [
+      "Star Atlas"
+    ],
+    "canonical_url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+    "document_type": "WRITTEN_PUBLICATION",
+    "language": "English",
+    "medium_post_id": "faa04d92ca6f",
+    "observed_urls": [
+      "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Ffaa04d92ca6f&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fstar-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f&source=---------8-------------5ed69ff9cfb0----bookmark_preview------------------",
+      "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f",
+      "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f?source=rss----a97f09b411f1---4",
+      "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f?source=rss-5ed69ff9cfb0------2",
+      "https://staratlasgame.medium.com/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f?source=user_profile_page---------8-------------5ed69ff9cfb0----------------------"
+    ],
+    "publication_identity": null,
+    "published_at_normalized": "2025-06-05T22:30:14Z",
+    "published_at_original": "Thu, 05 Jun 2025 22:30:14 GMT",
+    "publisher": "Star Atlas",
+    "reading_time_original": null,
+    "retrieved_at": "2026-07-18T04:30:32Z",
+    "source_id": "SRC-MEDIUM-STARATLAS-FAA04D92CA6F",
+    "source_role": "OFFICIAL_MEDIUM_ARTICLE",
+    "subtitle": null,
+    "tags": [],
+    "title": "Star Atlas Town Hall Recap: The New Web3 Era Is Upon Us",
+    "updated_at_normalized": null,
+    "updated_at_original": null,
+    "url": "https://medium.com/star-atlas/star-atlas-town-hall-recap-the-new-web3-era-is-upon-us-faa04d92ca6f"
+  },
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  }
+}

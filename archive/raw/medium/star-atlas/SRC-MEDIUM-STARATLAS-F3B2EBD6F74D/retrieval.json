@@ -1,0 +1,107 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6055,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+      "sha256": "2d2970e7555a5a0647260c42eb495da21a084e7f08a32565986288a0d7c67479",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27723,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+      "sha256": "dd02b55ee12226172062d7966fcc000427efcfc60a5dee05fda4a10c76fb8ddc",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 169827,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2025-01-30T21:40:38.475Z",
+          "dateModified": "2025-01-30T23:26:23.006Z",
+          "datePublished": "2025-01-30T21:40:38.475Z",
+          "description": "Welcome back, explorers! We’re excited to share the latest patch notes for February’s update. Before diving into the new enhancements, let’s quickly revisit the highlights from last December. As 2024…",
+          "headline": "Game Update — Star Atlas Releases New Patch with Enhanced Game Modes",
+          "identifier": "f3b2ebd6f74d",
+          "image": [
+            "https://miro.medium.com/v2/da:true/resize:fit:1200/0*oiKUiGw_b5S3XBVQ"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+          "name": "Game Update — Star Atlas Releases New Patch with Enhanced Game Modes",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d"
+        },
+        "text_length": 9083
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20250130234936id_/https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20250130234936id_/https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+      "sha256": "f85c2e671a01c6bbb1740350acd225b3cb9db2f849cd6df3018cd2ff63a8a99d",
+      "snapshot": {
+        "digest": "LU4ZZHZUFDRO4EFGKWHPOT5HZDDHFXT3",
+        "original_url": "https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+        "timestamp": "20250130234936"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:30:26Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20250130234936id_/https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+  "http_status": 200,
+  "raw_byte_count": 169827,
+  "raw_sha256": "f85c2e671a01c6bbb1740350acd225b3cb9db2f849cd6df3018cd2ff63a8a99d",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-6B1DCCBFC9B9422B",
+    "SRC-X-STARATLAS-1885091648457072796",
+    "SRC-X-STARATLAS-1887189397537161652",
+    "SRC-X-STARATLAS-1887235389779537994"
+  ],
+  "requested_url": "https://web.archive.org/web/20250130234936id_/https://medium.com/star-atlas/game-update-star-atlas-releases-new-patch-with-enhanced-game-modes-f3b2ebd6f74d",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F3B2EBD6F74D/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

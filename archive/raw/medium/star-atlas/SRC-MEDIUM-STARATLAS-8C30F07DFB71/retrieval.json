@@ -1,0 +1,99 @@
+{
+  "attempts": [
+    {
+      "byte_count": 279269,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-starts-the-golden-carnival-on-solana-win-your-share-of-the-4-million-lootfest-8c30f07dfb71",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2024-11-01T23:39:18Z",
+          "dateModified": "2024-11-01T23:39:18Z",
+          "datePublished": "2024-11-01T23:39:18Z",
+          "description": "Star Atlas Starts the Golden Carnival on Solana: Win Your Share of the $4 Million Lootfest! The Golden Carnival is returning and it’s bigger and bolder than ever with $4,000,000 in loot! From …",
+          "headline": "Star Atlas Starts the Golden Carnival on Solana: Win Your Share of the $4 Million Lootfest!",
+          "identifier": "8c30f07dfb71",
+          "image": [
+            "https://miro.medium.com/0*MrmDk_kzHNf0CWio"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-starts-the-golden-carnival-on-solana-win-your-share-of-the-4-million-lootfest-8c30f07dfb71",
+          "name": "Star Atlas Starts the Golden Carnival on Solana: Win Your Share of the $4 Million Lootfest!",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-starts-the-golden-carnival-on-solana-win-your-share-of-the-4-million-lootfest-8c30f07dfb71"
+        },
+        "text_length": 7425
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-starts-the-golden-carnival-on-solana-win-your-share-of-the-4-million-lootfest-8c30f07dfb71",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-starts-the-golden-carnival-on-solana-win-your-share-of-the-4-million-lootfest-8c30f07dfb71",
+      "sha256": "bbaa0df4c0a0c7a74737b8f12da9566e02821345b9c49a0b14cf520d9b81e7b6",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:01Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-starts-the-golden-carnival-on-solana-win-your-share-of-the-4-million-lootfest-8c30f07dfb71",
+  "http_status": 200,
+  "raw_byte_count": 279269,
+  "raw_sha256": "bbaa0df4c0a0c7a74737b8f12da9566e02821345b9c49a0b14cf520d9b81e7b6",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SRC-X-STARATLAS-1854605459711521237",
+    "SRC-X-STARATLAS-1856403946966753497",
+    "SRC-X-STARATLAS-1867323572718645616",
+    "SRC-X-STARATLAS-1868060353130910132",
+    "SRC-X-STARATLAS-1874924343962304761",
+    "SRC-X-STARATLAS-1877816200513622116",
+    "SRC-X-STARATLAS-1880367335263068166",
+    "SRC-X-STARATLAS-1883228344248098920",
+    "SRC-X-STARATLAS-1885431431838486680",
+    "SRC-X-STARATLAS-1888335422536962121"
+  ],
+  "requested_url": "https://medium.com/star-atlas/star-atlas-starts-the-golden-carnival-on-solana-win-your-share-of-the-4-million-lootfest-8c30f07dfb71",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-8C30F07DFB71/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "byte_count": 290629,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy-89cd90627234",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2023-05-11T20:44:21Z",
+          "dateModified": "2023-05-15T14:10:29Z",
+          "datePublished": "2023-05-11T20:44:21Z",
+          "description": "Never Alone: A Shared Social Adventure Across the Star Atlas Galaxy Embark on a Journey of Memory and Fate. Help Saand, The Punaab, Regain His Memories and Uncover The Secrets of His Past: A Unique …",
+          "headline": "Never Alone: A Shared Social Adventure Across the Star Atlas Galaxy",
+          "identifier": "89cd90627234",
+          "image": [
+            "https://miro.medium.com/0*A2VpWQ6lJTiRz3--.jpg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy-89cd90627234",
+          "name": "Never Alone: A Shared Social Adventure Across the Star Atlas Galaxy",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy-89cd90627234"
+        },
+        "text_length": 12555
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy-89cd90627234",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy-89cd90627234",
+      "sha256": "5d3a4f8c346bb110dfcf0b8d45b6bd365af1b9b310c079eff044b14fb042d011",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:00Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-660199AB6CAC990A.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy-89cd90627234",
+  "http_status": 200,
+  "raw_byte_count": 290629,
+  "raw_sha256": "5d3a4f8c346bb110dfcf0b8d45b6bd365af1b9b310c079eff044b14fb042d011",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-CCA95E8AC3A90B87"
+  ],
+  "requested_url": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy-89cd90627234",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-89CD90627234/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

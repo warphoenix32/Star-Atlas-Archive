@@ -1,0 +1,106 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6004,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c",
+      "http_status": 429,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c",
+      "sha256": "5e06f50c48e3194703fa102a3a59580c673a7189d05524cab1269cefc706fd9d",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27694,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "http://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c",
+      "sha256": "3c5a8ab9bd7872a43287220c9df56096ff9bd9a616b6301dfc661be2bd56705d",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 196933,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-09-07T20:46:00.981Z",
+          "dateModified": "2022-01-05T13:54:57.166Z",
+          "datePublished": "2021-09-07T20:46:00.981Z",
+          "description": "The series of drops of game-changing NFTs in the Galactic Marketplace are state-of-the-art spaceships featuring next-gen design and Unreal Engine 5 real-time graphics.",
+          "headline": "Metaverse Big Bang: Star Atlas Launches Next-Gen NFTs through Galactic Asset Offering | Star Atlas",
+          "identifier": "e60c792c7a9c",
+          "image": [
+            "https://miro.medium.com/max/1200/0*lmj9cNRibP-evm2C"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c",
+          "name": "Metaverse Big Bang: Star Atlas Launches Next-Gen NFTs through Galactic Asset Offering | Star Atlas",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c"
+        },
+        "text_length": 10321
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20220927092131id_/https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c?source=social.tw&_branch_match_id=1103237282188980158&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Xf09rDwz0yLzM1KAgCosDNHIwAAAA%3D%3D",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20220927092131id_/https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c?source=social.tw&_branch_match_id=1103237282188980158&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Xf09rDwz0yLzM1KAgCosDNHIwAAAA%3D%3D",
+      "sha256": "1c03899dd4c90cbd6b62366ab9abb24000b6c75a94ed8d7b47acf42d32b034c7",
+      "snapshot": {
+        "digest": "OKHDNWPGGA7EIEUDNV7AMKDSQOWZDCSF",
+        "original_url": "https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c?source=social.tw&_branch_match_id=1103237282188980158&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Xf09rDwz0yLzM1KAgCosDNHIwAAAA%3D%3D",
+        "timestamp": "20220927092131"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:30:16Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20220927092131id_/https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c?source=social.tw&_branch_match_id=1103237282188980158&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Xf09rDwz0yLzM1KAgCosDNHIwAAAA%3D%3D",
+  "http_status": 200,
+  "raw_byte_count": 196933,
+  "raw_sha256": "1c03899dd4c90cbd6b62366ab9abb24000b6c75a94ed8d7b47acf42d32b034c7",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20220927092131id_/https://medium.com/star-atlas/metaverse-big-bang-next-gen-nfts-galactic-asset-offering-e60c792c7a9c?source=social.tw&_branch_match_id=1103237282188980158&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Xf09rDwz0yLzM1KAgCosDNHIwAAAA%3D%3D",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E60C792C7A9C/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

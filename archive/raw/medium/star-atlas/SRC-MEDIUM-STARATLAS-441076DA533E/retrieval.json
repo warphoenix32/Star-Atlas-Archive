@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "byte_count": 259200,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/yield-guild-games-commits-to-1m-purchase-of-star-atlas-game-assets-441076da533e",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-10-04T16:40:21Z",
+          "dateModified": "2021-10-04T16:40:21Z",
+          "datePublished": "2021-10-04T16:40:21Z",
+          "description": "Yield Guild Games has committed to purchasing $1 million worth of Star Atlas NFT gaming assets as part of a long-term partnership between the two projects.",
+          "headline": "Yield Guild Games Commits to $1M Purchase of Star Atlas Game Assets",
+          "identifier": "441076da533e",
+          "image": [
+            "https://miro.medium.com/1*0xZ4g5GgHItpnGDgNrqrdg.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/yield-guild-games-commits-to-1m-purchase-of-star-atlas-game-assets-441076da533e",
+          "name": "Yield Guild Games Commits to $1M Purchase of Star Atlas Game Assets",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/yield-guild-games-commits-to-1m-purchase-of-star-atlas-game-assets-441076da533e"
+        },
+        "text_length": 7822
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/yield-guild-games-commits-1-million-for-star-atlas-game-assets-441076da533e",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/yield-guild-games-commits-1-million-for-star-atlas-game-assets-441076da533e",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/yield-guild-games-commits-1-million-for-star-atlas-game-assets-441076da533e"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/yield-guild-games-commits-1-million-for-star-atlas-game-assets-441076da533e",
+      "sha256": "e3bb03a245729572ccb2c443e39ed6958f8695699ce68dbf13fc5705512759e2",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:41Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/yield-guild-games-commits-1-million-for-star-atlas-game-assets-441076da533e",
+  "http_status": 200,
+  "raw_byte_count": 259200,
+  "raw_sha256": "e3bb03a245729572ccb2c443e39ed6958f8695699ce68dbf13fc5705512759e2",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/yield-guild-games-commits-1-million-for-star-atlas-game-assets-441076da533e",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/yield-guild-games-commits-1-million-for-star-atlas-game-assets-441076da533e"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-75ECFEA559EF4F4E"
+  ],
+  "requested_url": "http://medium.com/star-atlas/yield-guild-games-commits-1-million-for-star-atlas-game-assets-441076da533e",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-441076DA533E/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

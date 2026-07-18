@@ -1,0 +1,107 @@
+{
+  "attempts": [
+    {
+      "byte_count": 158698,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 410",
+      "final_url": "https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52",
+      "http_status": 410,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52",
+      "sha256": "0b62fe70492be89c1a655c97feacacb9fb0f5cab3ddb0703d190248a450a97da",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 161171,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52",
+      "http_status": 410,
+      "redirect_chain": [],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52",
+      "sha256": "faed1d30988b14cf5c494916c436904c225da764114338c514cf8f341a076530",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 123057,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-08-18T01:41:39.635Z",
+          "dateModified": "2021-08-18T22:55:08.159Z",
+          "datePublished": "2021-08-18T01:41:39.635Z",
+          "description": "Star Atlas, the next-gen gaming metaverse has unveiled an economics document with far-reaching consequences for the human understanding of gaming, blockchain, economics and culture at large.",
+          "headline": "Power to the People: Star Atlas Publishes Blueprint of Next-gen Economic and Governance Paradigm with a Play-to-earn NFT-based Metaverse | Star Atlas",
+          "identifier": "2c28f0698a52",
+          "image": [
+            "https://miro.medium.com/max/1200/0*2qNRjJhVYX4QZ_vc"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52",
+          "name": "Power to the People: Star Atlas Publishes Blueprint of Next-gen Economic and Governance Paradigm with a Play-to-earn NFT-based Metaverse | Star Atlas",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52"
+        },
+        "text_length": 3257
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20210825192849id_/https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52?responsesOpen=true&source=topics_v2---------2-84--------------------2831563c_805a_479d_bacb_0cfca3c8b233-------19",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20210825192849id_/https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52?responsesOpen=true&source=topics_v2---------2-84--------------------2831563c_805a_479d_bacb_0cfca3c8b233-------19",
+      "sha256": "3eafd86cea2fdca557118fc4e7ce2d5a3666ff15ac360cebc7628d36adb7b1aa",
+      "snapshot": {
+        "digest": "5L2LQOCJ3GMCLAEVC6NDXRS4UBUM7EYK",
+        "original_url": "https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52?responsesOpen=true&source=topics_v2---------2-84--------------------2831563c_805a_479d_bacb_0cfca3c8b233-------19",
+        "timestamp": "20210825192849"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:39Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-AE8A2FB7CBCE296A.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-E9E5AB15C5DECE43.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20210825192849id_/https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52?responsesOpen=true&source=topics_v2---------2-84--------------------2831563c_805a_479d_bacb_0cfca3c8b233-------19",
+  "http_status": 200,
+  "raw_byte_count": 123057,
+  "raw_sha256": "3eafd86cea2fdca557118fc4e7ce2d5a3666ff15ac360cebc7628d36adb7b1aa",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20210825192849id_/https://medium.com/star-atlas/star-atlas-publishes-blueprint-next-gen-economic-governance-tokenomics-paradigm-2c28f0698a52?responsesOpen=true&source=topics_v2---------2-84--------------------2831563c_805a_479d_bacb_0cfca3c8b233-------19",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-2C28F0698A52/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

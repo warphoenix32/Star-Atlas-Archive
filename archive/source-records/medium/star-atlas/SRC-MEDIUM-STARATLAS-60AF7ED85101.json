@@ -1,0 +1,149 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101",
+  "collected": "2026-07-18T04:28:47Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "fcd8369f144b35b443221602a6cd88a0a60df7a3a9c66801594cf11bfadd06c2",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-60AF7ED85101.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-60AF7ED85101.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F60af7ed85101&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-5-60af7ed85101&source=---------121-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101",
+    "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101?source=social.tw&_branch_match_id=1038531544420676102&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1fc3cXfONfR1Cc5PAgALCJvDIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101?source=social.tw&_branch_match_id=1040392036246105751&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Q8vcPRMz8kKM8hPAgADsiV1IwAAAA%3D%3D",
+    "https://staratlasgame.medium.com/the-atlas-star-issue-5-60af7ed85101?source=user_profile_page---------121-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-7FFFCA6E3EFC320C.json",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F9654AA6FF1D8010.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-AF17C310B4F5D169"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 378476,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2022-04-01T18:58:45Z",
+            "dateModified": "2022-04-03T21:18:19Z",
+            "datePublished": "2022-04-01T18:58:45Z",
+            "description": "The Atlas Star ✧ Newsletter Issue #5 A tale about building a new world… Attention, Deep Space Explorers! We are so excited to bring you the legendary Atlas Star ✧, the official Star Atlas …",
+            "headline": "The Atlas Star ✧ Newsletter Issue #5",
+            "identifier": "60af7ed85101",
+            "image": [
+              "https://miro.medium.com/0*7uURN6JuV61HfYlK"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101",
+            "name": "The Atlas Star ✧ Newsletter Issue #5",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101"
+          },
+          "text_length": 27639
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101",
+        "sha256": "017c9e08c64fe4719c31189be9cb8a098a6611cc6603c0d4b95a94cfd3dea0fb",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-04-01T18:58:45Z",
+  "published_at_original": "2022-04-01T18:58:45Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-60AF7ED85101/article.html",
+  "raw_sha256": "017c9e08c64fe4719c31189be9cb8a098a6611cc6603c0d4b95a94cfd3dea0fb",
+  "source_id": "SRC-MEDIUM-STARATLAS-60AF7ED85101",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "The Atlas Star ✧ Newsletter Issue #5",
+  "updated_at_normalized": "2022-04-03T21:18:19Z",
+  "updated_at_original": "2022-04-03T21:18:19Z"
+}

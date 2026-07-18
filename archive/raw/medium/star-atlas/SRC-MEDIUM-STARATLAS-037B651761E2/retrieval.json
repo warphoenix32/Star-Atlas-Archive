@@ -1,0 +1,92 @@
+{
+  "attempts": [
+    {
+      "byte_count": 255618,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/atmta-announces-strategic-equity-investment-in-shaga-to-enhance-star-atlas-accessibility-037b651761e2",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2025-03-12T16:59:02Z",
+          "dateModified": "2025-03-12T17:32:15Z",
+          "datePublished": "2025-03-12T16:59:02Z",
+          "description": "ATMTA Announces Strategic Equity Investment in Shaga to Enhance Star Atlas Accessibility ATMTA, the leading developer behind Star Atlas, has entered into a strategic equity investment with Shaga, an …",
+          "headline": "ATMTA Announces Strategic Equity Investment in Shaga to Enhance Star Atlas Accessibility",
+          "identifier": "037b651761e2",
+          "image": [
+            "https://miro.medium.com/0*utEV-UjXoO4_fguN"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/atmta-announces-strategic-equity-investment-in-shaga-to-enhance-star-atlas-accessibility-037b651761e2",
+          "name": "ATMTA Announces Strategic Equity Investment in Shaga to Enhance Star Atlas Accessibility",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/atmta-announces-strategic-equity-investment-in-shaga-to-enhance-star-atlas-accessibility-037b651761e2"
+        },
+        "text_length": 6028
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/atmta-announces-strategic-equity-investment-in-shaga-to-enhance-star-atlas-accessibility-037b651761e2",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/atmta-announces-strategic-equity-investment-in-shaga-to-enhance-star-atlas-accessibility-037b651761e2",
+      "sha256": "ebf5e6b96898a7c5aca4e484f2cafce07851801fd9fd2bb700ac61e27fe015a2",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:32Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+    "rss:profile",
+    "rss:publication",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/atmta-announces-strategic-equity-investment-in-shaga-to-enhance-star-atlas-accessibility-037b651761e2",
+  "http_status": 200,
+  "raw_byte_count": 255618,
+  "raw_sha256": "ebf5e6b96898a7c5aca4e484f2cafce07851801fd9fd2bb700ac61e27fe015a2",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SRC-X-STARATLAS-1899872738266976707"
+  ],
+  "requested_url": "https://medium.com/star-atlas/atmta-announces-strategic-equity-investment-in-shaga-to-enhance-star-atlas-accessibility-037b651761e2",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-037B651761E2/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

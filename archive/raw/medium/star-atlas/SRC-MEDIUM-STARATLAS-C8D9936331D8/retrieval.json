@@ -1,0 +1,105 @@
+{
+  "attempts": [
+    {
+      "byte_count": 243504,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-an-ustur-builder-c8d9936331d8",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-10-12T12:02:54Z",
+          "dateModified": "2021-10-12T12:02:54Z",
+          "datePublished": "2021-10-12T12:02:54Z",
+          "description": "The builders in the Star Atlas metaverse design and produce items to match the needs of every individual across the galaxy. ",
+          "headline": "Star Atlas In-Game Play: Adventures as an Ustur Builder",
+          "identifier": "c8d9936331d8",
+          "image": [
+            "https://miro.medium.com/1*VzTNINd4r-VHKayhgf98kA.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-an-ustur-builder-c8d9936331d8",
+          "name": "Star Atlas In-Game Play: Adventures as an Ustur Builder",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-as-an-ustur-builder-c8d9936331d8"
+        },
+        "text_length": 5739
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-ustur-builder-c8d9936331d8",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/star-atlas-in-game-play-adventures-ustur-builder-c8d9936331d8",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-ustur-builder-c8d9936331d8"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-in-game-play-adventures-ustur-builder-c8d9936331d8",
+      "sha256": "a57b1f7d578db78731712c07312e98071e8669d11c56e020fc3a6a886d0a1bdc",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:40:48Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-82E77398A899FBD8.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-9626A1F9027B8C1C.json",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-CFB3A87BF1E48DDE.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-ustur-builder-c8d9936331d8",
+  "http_status": 200,
+  "raw_byte_count": 243504,
+  "raw_sha256": "a57b1f7d578db78731712c07312e98071e8669d11c56e020fc3a6a886d0a1bdc",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/star-atlas-in-game-play-adventures-ustur-builder-c8d9936331d8",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/star-atlas-in-game-play-adventures-ustur-builder-c8d9936331d8"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-7C504DD6A1ECB9F2"
+  ],
+  "requested_url": "http://medium.com/star-atlas/star-atlas-in-game-play-adventures-ustur-builder-c8d9936331d8",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-C8D9936331D8/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

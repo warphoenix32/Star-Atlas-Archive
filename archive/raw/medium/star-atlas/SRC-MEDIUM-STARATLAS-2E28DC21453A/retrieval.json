@@ -1,0 +1,87 @@
+{
+  "attempts": [
+    {
+      "byte_count": 252471,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-releases-its-latest-triple-a-state-of-the-economy-report-2e28dc21453a",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-09-30T21:12:43Z",
+          "dateModified": "2022-09-30T21:22:53Z",
+          "datePublished": "2022-09-30T21:12:43Z",
+          "description": "Star Atlas Releases its Latest Triple-A State of the Economy Report The quarterly paper of record offers economic insight into the world’s fastest growing ecosystem of the gaming metaverse. The …",
+          "headline": "Star Atlas Releases its Latest Triple-A State of the Economy Report",
+          "identifier": "2e28dc21453a",
+          "image": [
+            "https://miro.medium.com/0*IOWHq8i_PA2cA7D-"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-releases-its-latest-triple-a-state-of-the-economy-report-2e28dc21453a",
+          "name": "Star Atlas Releases its Latest Triple-A State of the Economy Report",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-releases-its-latest-triple-a-state-of-the-economy-report-2e28dc21453a"
+        },
+        "text_length": 7210
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-releases-its-latest-triple-a-state-of-the-economy-report-2e28dc21453a",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-releases-its-latest-triple-a-state-of-the-economy-report-2e28dc21453a",
+      "sha256": "d5ec038f2794c733dd24256c2211dad3ec19a391672a3c83a872b6ce2d290870",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:37Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-releases-its-latest-triple-a-state-of-the-economy-report-2e28dc21453a",
+  "http_status": 200,
+  "raw_byte_count": 252471,
+  "raw_sha256": "d5ec038f2794c733dd24256c2211dad3ec19a391672a3c83a872b6ce2d290870",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/star-atlas-releases-its-latest-triple-a-state-of-the-economy-report-2e28dc21453a",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-2E28DC21453A/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

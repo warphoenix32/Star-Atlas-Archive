@@ -1,0 +1,19 @@
+{
+  "body_path": "operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/profile-page.html",
+  "byte_count": 268852,
+  "capture_label": "profile-page",
+  "captured_at": "2026-07-18T04:23:43Z",
+  "content_type": "text/html; charset=utf-8",
+  "error": null,
+  "final_url": "https://staratlasgame.medium.com/",
+  "http_status": 200,
+  "redirect_chain": [
+    {
+      "from": "https://medium.com/@staratlasgame",
+      "status": 301,
+      "to": "https://staratlasgame.medium.com/"
+    }
+  ],
+  "requested_url": "https://medium.com/@staratlasgame",
+  "sha256": "5ceff396dc03ef288a0a3a69a958ca30541f211db4a0fa30d9d4c241cb2a2781"
+}

@@ -1,0 +1,586 @@
+{
+  "article_text": "Greetings, galactic trailblazers! The Star Atlas team is thrilled to launch our latest Unreal Engine 5 patch today, March 19, 2025 — just weeks after February’s stellar update. This rapid cadence keeps the momentum soaring while weaving in community feedback to craft the ultimate gaming experience in the boundless universe of Star Atlas. Before we dive into today’s cosmic haul, let’s recap February’s highlights.\n\nFebruary’s Highlights\n\nLast month, we unveiled species-specific stats, multiplayer racing tracks, and the first breathtaking visuals of Fleet Command in Unreal Engine 5. Private lobbies, wallet UX upgrades, and Paizul’s deathmatch arena laid a rock-solid foundation for 2025. That groundwork is now bearing fruit — here’s what’s landing with today’s patch.\n\nWhat’s New in the March 19 Patch\n\nNew Modes\n\nGun Game : A free-for-all shootout where every player starts with a single weapon. Each kill upgrades your firearm, cycling through the arsenal. The first to score a kill with every gun wins — bring your A-game!\n\nZones : A tactical conquest mode where teams battle to control key map points. Secure a zone, and your squad racks up bonus points per kill. Dominate the field to reign supreme!\n\nGunplay & Combat\n\nRefined species HP/SP, regen rates, and hitboxes for fairer fights.\n\nSmoother automatic weapon fire in multiplayer, courtesy of a new bullet sphere trace system boosting hit accuracy.\n\nEnhanced weapon mechanics: better damage direction visibility, snappier weapon wheel sensitivity, and no more sprint toggling mid-air.\n\nMelee gets a punch-up: new unarmed attacks with sharper hit registration, plus ramming and environmental collision damage in Jettie Boost mode.\n\nMinimap revamp improves performance and enemy visibility (no more glowing white foes in Deathmatch!).\n\nMovement & Animation Flow\n\nJettie Polish : Slicker transitions between Hover and Boost states, with optimized animation graphs for fluid motion. Subtle FOV tweaks in Boost mode heighten the thrill.\n\nDynamic Moves : Mantling speeds up with weapons drawn (jump to interrupt), and mantling glitches — like grenades sticking or double-draws — are history.\n\nRacing & Vehicles\n\nNew Ride : The Busan Pulse, a high-octane racer from House Busan harbors, joins the lineup.\n\nFinesse : Polished entry/exit animations and transitions elevate the ride.\n\nMulti-lap support hits P2P races, with manual respawn to the last checkpoint and smarter target selection in vehicles.\n\nECOS XXS weapon art now graces the Unibomba.\n\nProject Galia\n\nMining Career Prototype : Take your first swing at asteroid mining! Scan for valuable rocks and master a new gameplay loop blending precision and strategy. A special Scud ship is available to test — claim your stake in the stars!\n\nPerformance\n\nEngine Leap : Upgraded to Unreal Engine 5.5.3 from 5.4.3 for top-tier visuals and stability.\n\nSlimmer Download : Package size shrinks to ~33GB (from 37GB, pending final tweaks) for faster access.\n\nUnder the Hood : Improved Time Sync between client and server, shorter asset dependency chains for lower memory use, and quicker loading screens with a snappier Title Menu.\n\nMenus and User Interface\n\nLoadouts Hub : There is a new tab with Crew and Firearms subtabs for fast customization. Inspect firearms now, and customize later!\n\nControl Clarity : Updated option groupings, renamed controls, fresh input key icons, and smarter input legend states.\n\nHangar Refresh : New ship images brighten the hangar/marketplace with a “Freeflight” indicator for available rides.\n\nJoin menu tiles reorganized with a placeholder Matchmaking tile, and Options now feature a manual save button.\n\nVisual and Sound Effects\n\nNanobot Flair : Enhanced materialization effects on gun draw and holster, paired with grenade light trails for visibility.\n\nSoundscape Upgrade : Revamped vehicle and firearm audio, plus a new bullet whiz-by SFX for close calls. Jettie thrusters get flashier VFX too.\n\nNew Territory\n\nUru Arena : An early white-box map in the deserts of the Ustur species’ homeworld, Ioki. Explore, fight, and share your feedback!\n\nFleet Command\n\nFaster load times and real-time warp VFX tied to blockchain Warp, Subwarp, and Mine actions.\n\nDedicated Servers in Testing\n\nGlobal Play, Low Latency : Dedicated servers are in trial for Gun Game, Zones, racing, and more. Soon, players worldwide will enjoy lag-free matches, no matter their galaxy.\n\nBug Fixes\n\nMinimap enemies were fixed in Deathmatch, join screen shaking was resolved, and Photo Mode quirks (forced holstering, craning in Paizul) were ironed out.\n\nWeapon cycling, tractor beam toggles, and respawn floor loading were restored.\n\nNo more grenade-stickiness mid-mantle, terminal window glitches on teleport, or self-damage in vehicle free-look.\n\nThe infinity symbol displays correctly for infinite matches, and crew tabs now sync properly with wallet ownership.\n\nWhat’s Next\n\nToday’s drop is just the start of a packed 2025. More maps, modes, and blockchain features are incoming as we rocket toward the public preseason. Check our roadmap here for the full scoop — features may shift as we fine-tune based on your input!\n\nThanks for shaping the future of gaming with us. See you in the stars!\n\nABOUT STAR ATLAS\n\nStar Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain technologies, real-time graphics and multiplayer video games.\n\nUsing Unreal Engine 5’s Nanite real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using Solana establishes a largely serverless and secured gameplay experience. Player assets obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership.\n\nTo learn more, join a faction at Play.StarAtlas.com , get a spaceship in the Galactic Marketplace , and start playing the SAGE Starbased browser game to explore, gather, craft and prosper on the galactic frontier.\n\nThen, download the UE5 PC Game from the Epic Games Store.\n\nParticipate in governance of the Star Atlas DAO . Send your spaceships on a deep space mission by enrolling them in a Faction Fleet and harvest resources with Faction Claims .\n\nJoin the Star Atlas community on: Twitter | Discord | YouTube | YouTube Clips | Reddit | Medium | LinkedIn",
+  "blocks": [
+    {
+      "level": null,
+      "text": "Greetings, galactic trailblazers! The Star Atlas team is thrilled to launch our latest Unreal Engine 5 patch today, March 19, 2025 — just weeks after February’s stellar update. This rapid cadence keeps the momentum soaring while weaving in community feedback to craft the ultimate gaming experience in the boundless universe of Star Atlas. Before we dive into today’s cosmic haul, let’s recap February’s highlights.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "February’s Highlights",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Last month, we unveiled species-specific stats, multiplayer racing tracks, and the first breathtaking visuals of Fleet Command in Unreal Engine 5. Private lobbies, wallet UX upgrades, and Paizul’s deathmatch arena laid a rock-solid foundation for 2025. That groundwork is now bearing fruit — here’s what’s landing with today’s patch.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "What’s New in the March 19 Patch",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "New Modes",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Gun Game : A free-for-all shootout where every player starts with a single weapon. Each kill upgrades your firearm, cycling through the arsenal. The first to score a kill with every gun wins — bring your A-game!",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Zones : A tactical conquest mode where teams battle to control key map points. Secure a zone, and your squad racks up bonus points per kill. Dominate the field to reign supreme!",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Gunplay & Combat",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Refined species HP/SP, regen rates, and hitboxes for fairer fights.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Smoother automatic weapon fire in multiplayer, courtesy of a new bullet sphere trace system boosting hit accuracy.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Enhanced weapon mechanics: better damage direction visibility, snappier weapon wheel sensitivity, and no more sprint toggling mid-air.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Melee gets a punch-up: new unarmed attacks with sharper hit registration, plus ramming and environmental collision damage in Jettie Boost mode.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Minimap revamp improves performance and enemy visibility (no more glowing white foes in Deathmatch!).",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Movement & Animation Flow",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Jettie Polish : Slicker transitions between Hover and Boost states, with optimized animation graphs for fluid motion. Subtle FOV tweaks in Boost mode heighten the thrill.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Dynamic Moves : Mantling speeds up with weapons drawn (jump to interrupt), and mantling glitches — like grenades sticking or double-draws — are history.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Racing & Vehicles",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "New Ride : The Busan Pulse, a high-octane racer from House Busan harbors, joins the lineup.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Finesse : Polished entry/exit animations and transitions elevate the ride.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Multi-lap support hits P2P races, with manual respawn to the last checkpoint and smarter target selection in vehicles.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "ECOS XXS weapon art now graces the Unibomba.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Project Galia",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Mining Career Prototype : Take your first swing at asteroid mining! Scan for valuable rocks and master a new gameplay loop blending precision and strategy. A special Scud ship is available to test — claim your stake in the stars!",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Performance",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Engine Leap : Upgraded to Unreal Engine 5.5.3 from 5.4.3 for top-tier visuals and stability.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Slimmer Download : Package size shrinks to ~33GB (from 37GB, pending final tweaks) for faster access.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Under the Hood : Improved Time Sync between client and server, shorter asset dependency chains for lower memory use, and quicker loading screens with a snappier Title Menu.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Menus and User Interface",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Loadouts Hub : There is a new tab with Crew and Firearms subtabs for fast customization. Inspect firearms now, and customize later!",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Control Clarity : Updated option groupings, renamed controls, fresh input key icons, and smarter input legend states.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Hangar Refresh : New ship images brighten the hangar/marketplace with a “Freeflight” indicator for available rides.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Join menu tiles reorganized with a placeholder Matchmaking tile, and Options now feature a manual save button.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Visual and Sound Effects",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Nanobot Flair : Enhanced materialization effects on gun draw and holster, paired with grenade light trails for visibility.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Soundscape Upgrade : Revamped vehicle and firearm audio, plus a new bullet whiz-by SFX for close calls. Jettie thrusters get flashier VFX too.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "New Territory",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Uru Arena : An early white-box map in the deserts of the Ustur species’ homeworld, Ioki. Explore, fight, and share your feedback!",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Fleet Command",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Faster load times and real-time warp VFX tied to blockchain Warp, Subwarp, and Mine actions.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Dedicated Servers in Testing",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Global Play, Low Latency : Dedicated servers are in trial for Gun Game, Zones, racing, and more. Soon, players worldwide will enjoy lag-free matches, no matter their galaxy.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Bug Fixes",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Minimap enemies were fixed in Deathmatch, join screen shaking was resolved, and Photo Mode quirks (forced holstering, craning in Paizul) were ironed out.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Weapon cycling, tractor beam toggles, and respawn floor loading were restored.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "No more grenade-stickiness mid-mantle, terminal window glitches on teleport, or self-damage in vehicle free-look.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "The infinity symbol displays correctly for infinite matches, and crew tabs now sync properly with wallet ownership.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "What’s Next",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Today’s drop is just the start of a packed 2025. More maps, modes, and blockchain features are incoming as we rocket toward the public preseason. Check our roadmap here for the full scoop — features may shift as we fine-tune based on your input!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Thanks for shaping the future of gaming with us. See you in the stars!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "ABOUT STAR ATLAS",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas is a next-gen gaming metaverse emerging from the confluence of state-of-the-art blockchain technologies, real-time graphics and multiplayer video games.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Using Unreal Engine 5’s Nanite real-time graphics technology allows for cinematic quality video game visuals. In addition, blockchain technology using Solana establishes a largely serverless and secured gameplay experience. Player assets obtained and traded within Star Atlas create an economy that replicates tangible world assets and ownership.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "To learn more, join a faction at Play.StarAtlas.com , get a spaceship in the Galactic Marketplace , and start playing the SAGE Starbased browser game to explore, gather, craft and prosper on the galactic frontier.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Then, download the UE5 PC Game from the Epic Games Store.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Participate in governance of the Star Atlas DAO . Send your spaceships on a deep space mission by enrolling them in a Faction Fleet and harvest resources with Faction Claims .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Join the Star Atlas community on: Twitter | Discord | YouTube | YouTube Clips | Reddit | Medium | LinkedIn",
+      "type": "paragraph"
+    }
+  ],
+  "content_sha256": "b4ae82d25de46d5b6e2934ee984008beb9e8c2dff8aa92b20f3dd2f78b61aa60",
+  "embeds": [],
+  "images": [
+    {
+      "alt_text": "Star Atlas",
+      "article_order": 1,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png",
+      "placement_block": null,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    }
+  ],
+  "outbound_links": [
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas",
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F8254155c74c7&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F8254155c74c7&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8254155c74c7&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7"
+    },
+    {
+      "placement_block": null,
+      "text": "Listen",
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D8254155c74c7&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7"
+    },
+    {
+      "placement_block": null,
+      "text": "here",
+      "url": "https://portal.productboard.com/staratlas/1-star-atlas-roadmap"
+    },
+    {
+      "placement_block": null,
+      "text": "Solana",
+      "url": "http://solana.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Play.StarAtlas.com",
+      "url": "http://play.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Galactic Marketplace",
+      "url": "http://play.staratlas.com/market"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "http://labs.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "SAGE Starbased browser game",
+      "url": "https://based.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "download the UE5 PC Game",
+      "url": "https://store.epicgames.com/en-US/p/star-atlas-bead34"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas DAO",
+      "url": "https://govern.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Faction Fleet",
+      "url": "https://play.staratlas.com/fleet"
+    },
+    {
+      "placement_block": null,
+      "text": "Faction Claims",
+      "url": "https://play.staratlas.com/claims"
+    },
+    {
+      "placement_block": null,
+      "text": "Twitter",
+      "url": "https://twitter.com/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord",
+      "url": "https://discord.gg/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube",
+      "url": "https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube Clips",
+      "url": "https://www.youtube.com/@StarAtlasClips"
+    },
+    {
+      "placement_block": null,
+      "text": "Reddit",
+      "url": "https://www.reddit.com/r/StarAtlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Medium",
+      "url": "https://medium.com/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/company/star-atlas"
+    }
+  ],
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "retrieval": {
+    "attempts": [
+      {
+        "byte_count": 263580,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2025-03-19T18:34:28Z",
+            "dateModified": "2025-03-19T18:34:28Z",
+            "datePublished": "2025-03-19T18:34:28Z",
+            "description": "Game Update — Star Atlas New Patch Introduces Mining, Arena Modes, a New Map, and More Greetings, galactic trailblazers! The Star Atlas team is thrilled to launch our latest Unreal Engine 5 patch …",
+            "headline": "Game Update — Star Atlas New Patch Introduces Mining, Arena Modes, a New Map, and More",
+            "identifier": "8254155c74c7",
+            "image": [
+              "https://miro.medium.com/0*Vp8TjyppVDTIBrxi"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7",
+            "name": "Game Update — Star Atlas New Patch Introduces Mining, Arena Modes, a New Map, and More",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7"
+          },
+          "text_length": 6430
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7",
+        "sha256": "d6bff394bcc35c43c2fccc79a5e528ad91a0c319150819ec2a5142a9823f37ec",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "captured_at": "2026-07-18T04:28:57Z",
+    "content_type": "text/html; charset=utf-8",
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+      "rss:profile",
+      "rss:publication",
+      "web_archive:wayback-publication"
+    ],
+    "final_url": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7",
+    "http_status": 200,
+    "raw_byte_count": 263580,
+    "raw_sha256": "d6bff394bcc35c43c2fccc79a5e528ad91a0c319150819ec2a5142a9823f37ec",
+    "redirect_chain": [],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-79383E8F3AE928E6",
+      "SRC-X-STARATLAS-1902433675138232598"
+    ],
+    "requested_url": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7",
+    "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-8254155C74C7/article.html",
+    "selected_tier": "LIVE_DIRECT_HTML"
+  },
+  "source": {
+    "authors": [
+      "Star Atlas"
+    ],
+    "canonical_url": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7",
+    "document_type": "WRITTEN_PUBLICATION",
+    "language": "English",
+    "medium_post_id": "8254155c74c7",
+    "observed_urls": [
+      "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F8254155c74c7&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fgame-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7&source=---------12-------------5ed69ff9cfb0----bookmark_preview------------------",
+      "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7",
+      "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7?source=rss----a97f09b411f1---4",
+      "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7?source=rss-5ed69ff9cfb0------2",
+      "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7?source=user_profile_page---------7-------------5ed69ff9cfb0----------------------",
+      "https://staratlasgame.medium.com/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7?source=user_profile_page---------12-------------5ed69ff9cfb0----------------------"
+    ],
+    "publication_identity": {
+      "@context": "https://schema.org",
+      "@id": "https://medium.com/star-atlas",
+      "@type": "Organization",
+      "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+      "logo": {
+        "@type": "ImageObject",
+        "height": 1215,
+        "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+        "width": 1485
+      },
+      "name": "Star Atlas",
+      "sameAs": [
+        "https://twitter.com/StarAtlas",
+        "https://facebook.com/staratlasmmo",
+        "https://instagram.com/staratlasgame/"
+      ],
+      "url": "https://medium.com/star-atlas"
+    },
+    "published_at_normalized": "2025-03-19T18:34:28Z",
+    "published_at_original": "2025-03-19T18:34:28Z",
+    "publisher": "Star Atlas",
+    "reading_time_original": "4 min read",
+    "retrieved_at": "2026-07-18T04:28:57Z",
+    "source_id": "SRC-MEDIUM-STARATLAS-8254155C74C7",
+    "source_role": "OFFICIAL_MEDIUM_ARTICLE",
+    "subtitle": "Game Update — Star Atlas New Patch Introduces Mining, Arena Modes, a New Map, and More Greetings, galactic trailblazers! The Star Atlas team is thrilled to launch our latest Unreal Engine 5 patch …",
+    "tags": [],
+    "title": "Game Update — Star Atlas New Patch Introduces Mining, Arena Modes, a New Map, and More",
+    "updated_at_normalized": "2025-03-19T18:34:28Z",
+    "updated_at_original": "2025-03-19T18:34:28Z",
+    "url": "https://medium.com/star-atlas/game-update-star-atlas-new-patch-introduces-mining-arena-modes-a-new-map-and-more-8254155c74c7"
+  },
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  }
+}

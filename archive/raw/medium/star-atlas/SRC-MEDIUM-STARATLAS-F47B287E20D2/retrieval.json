@@ -1,0 +1,104 @@
+{
+  "attempts": [
+    {
+      "byte_count": 5937,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2",
+      "sha256": "4086e1f719db22be971303f6b369129345dcb2b76c993abbfa67fb958bcd544e",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27481,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2",
+      "sha256": "864f44791418d3f25b726244b61af665417c463e823da38e4e93709b0379c4bc",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 175416,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2022-11-22T05:07:31.134Z",
+          "dateModified": "2022-11-22T17:12:40.543Z",
+          "datePublished": "2022-11-22T05:07:31.134Z",
+          "description": "Three Titan class ships begin at $1,000,000 each (80% off list price, price increases 10% after every 7 days). All sales are concurrent. Narrentos, celebrated journalist and the pawn behind the…",
+          "headline": "Flight of The Titans — Manifesto for The Golden Era",
+          "identifier": "f47b287e20d2",
+          "image": [
+            "https://miro.medium.com/max/1200/0*9L1drz1kBO5dcAaW.jpg"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2",
+          "name": "Flight of The Titans — Manifesto for The Golden Era",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2"
+        },
+        "text_length": 8131
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20230131170728id_/https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2?source=user_profile---------0----------------------------",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20230131170728id_/https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2?source=user_profile---------0----------------------------",
+      "sha256": "a2d44af537c0b8d83514cc4709d1723de6fcd6b89365f0dacdedc997de26b3a3",
+      "snapshot": {
+        "digest": "KQ7BCYJGC5SR66FWWZQEICKYU4IMX5BQ",
+        "original_url": "https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2?source=user_profile---------0----------------------------",
+        "timestamp": "20230131170728"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:30:29Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-8882149416E54B8B.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20230131170728id_/https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2?source=user_profile---------0----------------------------",
+  "http_status": 200,
+  "raw_byte_count": 175416,
+  "raw_sha256": "a2d44af537c0b8d83514cc4709d1723de6fcd6b89365f0dacdedc997de26b3a3",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-A8A7F39B869EF8D7"
+  ],
+  "requested_url": "https://web.archive.org/web/20230131170728id_/https://medium.com/star-atlas/flight-of-the-titans-manifesto-golden-era-f47b287e20d2?source=user_profile---------0----------------------------",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F47B287E20D2/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

@@ -1,0 +1,101 @@
+{
+  "attempts": [
+    {
+      "byte_count": 5986,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20",
+      "sha256": "17d96c472cd842d276b11fdb0c7d555015837ea5ddb68f03c61204de5d50da78",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27654,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20",
+      "sha256": "07f1968bb61fe7c63bf17764f01e6328d84e6c240acdd74c3d54ab094ee9457b",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 177678,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2022-07-08T17:37:59.260Z",
+          "dateModified": "2022-09-09T18:59:02.683Z",
+          "datePublished": "2022-07-08T17:37:59.260Z",
+          "description": "The Council of Peace issued a special announcement in partnership with ATMTA Industries. The CEO of ATMTA published an open message outlining his plans for the progress and stability of the galaxy…",
+          "headline": "Ustur CEO -The Unveiling: Star Atlas Roadmap Scan #12",
+          "identifier": "e0b34cb9cc20",
+          "image": [
+            "https://miro.medium.com/max/1200/0*efVjiCjGRaSZadhZ"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20",
+          "name": "Ustur CEO -The Unveiling: Star Atlas Roadmap Scan #12",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20"
+        },
+        "text_length": 11473
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20221005193119id_/https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20?source=user_profile---------4----------------------------",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20221005193119id_/https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20?source=user_profile---------4----------------------------",
+      "sha256": "e515ee4ce1b76ac22411bf4685cc04cea57e0682dc4f905c80b6b7945623053d",
+      "snapshot": {
+        "digest": "VCFVUKTTAE62QFE5EKVIXKIOIZTMPMM6",
+        "original_url": "https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20?source=user_profile---------4----------------------------",
+        "timestamp": "20221005193119"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:33:52Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-C4DA380B01338D57.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20221005193119id_/https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20?source=user_profile---------4----------------------------",
+  "http_status": 200,
+  "raw_byte_count": 177678,
+  "raw_sha256": "e515ee4ce1b76ac22411bf4685cc04cea57e0682dc4f905c80b6b7945623053d",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20221005193119id_/https://medium.com/star-atlas/ustur-ceo-the-unveiling-star-atlas-roadmap-scan-12-e0b34cb9cc20?source=user_profile---------4----------------------------",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E0B34CB9CC20/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

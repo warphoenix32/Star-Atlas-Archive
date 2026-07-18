@@ -1,0 +1,151 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/the-atlas-star-issue-13-4681f0b04c9a",
+  "collected": "2026-07-18T04:28:42Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "7785654c7a5642d99b94ea56d204cb160b8f289aeb4b320ae5cd045d86a6ce91",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-4681F0B04C9A.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-4681F0B04C9A.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F4681f0b04c9a&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fatlas-star-13-4681f0b04c9a&source=---------60-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a",
+    "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a?source=publication_recirc-----39d84a2030a5----4----------------------------",
+    "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a?source=rss----a97f09b411f1---4",
+    "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a?source=social.tw&_branch_match_id=1127884205690516165&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Q%2B2dCrLqvRJKSpLAgAveEIMIwAAAA%3D%3D",
+    "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a?source=topics_v2---------4-84--------------------9dad789c_2a41_44b1_9d2c_cf6b608fc127-------17",
+    "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a?source=user_profile---------4----------------------------",
+    "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a?source=user_profile---------8----------------------------",
+    "https://staratlasgame.medium.com/atlas-star-13-4681f0b04c9a?source=user_profile_page---------60-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-4A84C78D8D6A17D5"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 497168,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/the-atlas-star-issue-13-4681f0b04c9a",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2022-12-02T18:52:35Z",
+            "dateModified": "2022-12-02T21:10:56Z",
+            "datePublished": "2022-12-02T18:52:35Z",
+            "description": "“” is published by Star Atlas in Star Atlas.",
+            "headline": "The Atlas Star ✧ Issue #13",
+            "identifier": "4681f0b04c9a",
+            "image": [
+              "https://miro.medium.com/"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-13-4681f0b04c9a",
+            "name": "The Atlas Star ✧ Issue #13",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/the-atlas-star-issue-13-4681f0b04c9a"
+          },
+          "text_length": 53114
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/atlas-star-13-4681f0b04c9a",
+        "sha256": "74839748db5e25d60649873b078724f29af036fb6100ee6b3685a3e0862e787d",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2022-12-02T18:52:35Z",
+  "published_at_original": "2022-12-02T18:52:35Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-4681F0B04C9A/article.html",
+  "raw_sha256": "74839748db5e25d60649873b078724f29af036fb6100ee6b3685a3e0862e787d",
+  "source_id": "SRC-MEDIUM-STARATLAS-4681F0B04C9A",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "The Atlas Star ✧ Issue #13",
+  "updated_at_normalized": "2022-12-02T21:10:56Z",
+  "updated_at_original": "2022-12-02T21:10:56Z"
+}

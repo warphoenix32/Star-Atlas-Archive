@@ -1,0 +1,111 @@
+{
+  "attempts": [
+    {
+      "byte_count": 5989,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6",
+      "http_status": 429,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6",
+      "sha256": "ec579119f257c2bbf29d43354225f59470d03be85d07284f23ea23977ff9bf6b",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27657,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "http://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6",
+      "sha256": "273f8a099ddc7cac1ed6828eba071f98e1868be85523cdcb200f0f651e7bde4e",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 194834,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2022-04-15T20:25:33.924Z",
+          "dateModified": "2022-04-15T20:34:08.369Z",
+          "datePublished": "2022-04-15T20:25:33.924Z",
+          "description": "This is beautiful. I had outdone myself once more, I realized, without a single drop of humility, as I moved my feet two steps back to watch the huge module component I had built for my baby. Then…",
+          "headline": "ECOS Crafting the Future: Star Atlas Roadmap Scan #04",
+          "identifier": "bc50c3413db6",
+          "image": [
+            "https://miro.medium.com/max/1200/0*q2kglsZ4zweCVPhn"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6",
+          "name": "ECOS Crafting the Future: Star Atlas Roadmap Scan #04",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6"
+        },
+        "text_length": 16987
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20220415222630id_/https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6?source=social.tw&_branch_match_id=1043640838149091600&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1U9PqUgsdTY1SitIAgAxidx2IwAAAA%3D%3D",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20220415222630id_/https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6?source=social.tw&_branch_match_id=1043640838149091600&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1U9PqUgsdTY1SitIAgAxidx2IwAAAA%3D%3D",
+      "sha256": "d6507ce492c2723549e4192505537503c5c7585fdbc51dfe4051779a941caf88",
+      "snapshot": {
+        "digest": "T7OKHTMLM5B2SL7DM43CRSSQ3YGBGW5I",
+        "original_url": "https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6?source=social.tw&_branch_match_id=1043640838149091600&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1U9PqUgsdTY1SitIAgAxidx2IwAAAA%3D%3D",
+        "timestamp": "20220415222630"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:16Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-81AC1295ED8D5F75.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-custom-domain",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20220415222630id_/https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6?source=social.tw&_branch_match_id=1043640838149091600&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1U9PqUgsdTY1SitIAgAxidx2IwAAAA%3D%3D",
+  "http_status": 200,
+  "raw_byte_count": 194834,
+  "raw_sha256": "d6507ce492c2723549e4192505537503c5c7585fdbc51dfe4051779a941caf88",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-25E0BB8F700687A2"
+  ],
+  "requested_url": "https://web.archive.org/web/20220415222630id_/https://medium.com/star-atlas/ecos-crafting-the-future-star-atlas-roadmap-scan-04-bc50c3413db6?source=social.tw&_branch_match_id=1043640838149091600&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1U9PqUgsdTY1SitIAgAxidx2IwAAAA%3D%3D",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-BC50C3413DB6/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

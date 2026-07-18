@@ -1,0 +1,103 @@
+{
+  "attempts": [
+    {
+      "byte_count": 5940,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+      "sha256": "9f7022e767424667c3334d959346773556f9c2c8010beddc82c1675254b02543",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27608,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+      "sha256": "38baf0b55b60c6352525eb32957b27d4f83ff9954c312f8bcf577daabdbd7c83",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 260634,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2023-05-10T19:02:53.514Z",
+          "dateModified": "2023-05-13T01:05:58.577Z",
+          "datePublished": "2023-05-10T19:02:53.514Z",
+          "description": "“Enough is enough!” A commanding voice echoed throughout the largest shipyard in the galaxy, within the Council of Peace’s mothership. Millions of soldiers from various species stood in perfect…",
+          "headline": "Prelude — A Galaxy in Movement: The First Day - Star Atlas - Medium",
+          "identifier": "e3c716b1ecde",
+          "image": [
+            "https://miro.medium.com/v2/resize:fit:1200/0*yNphvtxuIMAoYHNa.png"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+          "name": "Prelude — A Galaxy in Movement: The First Day - Star Atlas - Medium",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/v2/resize:fit:146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde"
+        },
+        "text_length": 15894
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20230518101746id_/https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20230518101746id_/https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+      "sha256": "2dd8040e3964dc2e8e1e1bcf5528dc7fed0f7fa31ee6e9b9d72ed32e05b43171",
+      "snapshot": {
+        "digest": "AIJBUCDWGKPRZNG3UOMUG55TGREWJW32",
+        "original_url": "https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+        "timestamp": "20230518101746"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:30:06Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20230518101746id_/https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+  "http_status": 200,
+  "raw_byte_count": 260634,
+  "raw_sha256": "2dd8040e3964dc2e8e1e1bcf5528dc7fed0f7fa31ee6e9b9d72ed32e05b43171",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-093245AB5AC17C0F"
+  ],
+  "requested_url": "https://web.archive.org/web/20230518101746id_/https://medium.com/star-atlas/prelude-a-galaxy-in-movement-the-first-day-e3c716b1ecde",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E3C716B1ECDE/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

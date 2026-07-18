@@ -1,0 +1,145 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/the-atlas-star-issue-18-a96964ef350b",
+  "collected": "2026-07-18T04:29:09Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 1,
+  "media_successes": 0,
+  "normalized_content_sha256": "d4a3bcaab65c5a21dd3fda6818935b827a092057939577949360ae8d43a762a2",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-A96964EF350B.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-A96964EF350B.md",
+  "observed_urls": [
+    "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2Fa96964ef350b&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-18-a96964ef350b&source=---------44-------------5ed69ff9cfb0----bookmark_preview------------------",
+    "https://medium.com/star-atlas/the-atlas-star-issue-18-a96964ef350b",
+    "https://staratlasgame.medium.com/the-atlas-star-issue-18-a96964ef350b?source=user_profile_page---------44-------------5ed69ff9cfb0----------------------"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-62C4F6DDFADC2CB5"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 358157,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/the-atlas-star-issue-18-a96964ef350b",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2023-05-19T18:05:02Z",
+            "dateModified": "2023-05-19T18:25:51Z",
+            "datePublished": "2023-05-19T18:05:02Z",
+            "description": "The Atlas Star ✧ Issue #18 A tale about building a new world… We are back with another fresh edition of the Atlas Star, the Galaxy’s most renowned newspaper of record, ready for another …",
+            "headline": "The Atlas Star ✧ Issue #18",
+            "identifier": "a96964ef350b",
+            "image": [
+              "https://miro.medium.com/0*j5R2RPOFiWwsdA8T"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-18-a96964ef350b",
+            "name": "The Atlas Star ✧ Issue #18",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/the-atlas-star-issue-18-a96964ef350b"
+          },
+          "text_length": 25140
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-18-a96964ef350b",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-18-a96964ef350b",
+        "sha256": "2b09507be974d880cbd89f1d8e9d67b1db1b9f839b0dd2db3771658a02f9b9b7",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "retrieval_tier": "LIVE_DIRECT_HTML"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2023-05-19T18:05:02Z",
+  "published_at_original": "2023-05-19T18:05:02Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A96964EF350B/article.html",
+  "raw_sha256": "2b09507be974d880cbd89f1d8e9d67b1db1b9f839b0dd2db3771658a02f9b9b7",
+  "source_id": "SRC-MEDIUM-STARATLAS-A96964EF350B",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "The Atlas Star ✧ Issue #18",
+  "updated_at_normalized": "2023-05-19T18:25:51Z",
+  "updated_at_original": "2023-05-19T18:25:51Z"
+}

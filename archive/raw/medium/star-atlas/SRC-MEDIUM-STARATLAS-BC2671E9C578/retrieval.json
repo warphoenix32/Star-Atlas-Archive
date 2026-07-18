@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 472637,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2023-01-13T22:57:36Z",
+          "dateModified": "2023-01-13T22:57:36Z",
+          "datePublished": "2023-01-13T22:57:36Z",
+          "description": "The Atlas Star ✧ Issue #14 — Special Edition: 2022 in Review A tale about building a new world… a look back at the road traveled before stepping into the third year of Star Atlas Happy new …",
+          "headline": "The Atlas Star ✧ Issue #14 — Special Edition: 2022 in Review",
+          "identifier": "bc2671e9c578",
+          "image": [
+            "https://miro.medium.com/0*OlYe1LaOW__yBHLa"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578",
+          "name": "The Atlas Star ✧ Issue #14 — Special Edition: 2022 in Review",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578"
+        },
+        "text_length": 29404
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578",
+      "sha256": "31e1eefc218310dc0bcd9403ea24d2af1ea8182d8c0a6be8a7ad74276cd1d475",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:12Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578",
+  "http_status": 200,
+  "raw_byte_count": 472637,
+  "raw_sha256": "31e1eefc218310dc0bcd9403ea24d2af1ea8182d8c0a6be8a7ad74276cd1d475",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-25ECB55CB7E4A707"
+  ],
+  "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-14-special-edition-2022-in-review-bc2671e9c578",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-BC2671E9C578/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

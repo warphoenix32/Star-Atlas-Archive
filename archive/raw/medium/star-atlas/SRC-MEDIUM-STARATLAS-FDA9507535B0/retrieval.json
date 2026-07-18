@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6115,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 403",
+      "final_url": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0",
+      "http_status": 403,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0",
+      "sha256": "03d272604d62e0dbb40e7d1662cbb5a85d5e39c5dfb9558d70cedc19ca2e7905",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 267490,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2024-01-26T20:32:18Z",
+          "dateModified": "2024-02-19T14:17:16Z",
+          "datePublished": "2024-01-26T20:32:18Z",
+          "description": "Press Release: The Council of Peace Assembly (COPA) Returns for Its Second Edition After an intense intervention in the Medium Zone by the Council of Peace, the galaxy narrowly dodged the start of an …",
+          "headline": "Press Release: The Council of Peace Assembly (COPA) Returns for Its Second Edition",
+          "identifier": "fda9507535b0",
+          "image": [
+            "https://miro.medium.com/0*HxMWr9MNApUzWpyq"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0",
+          "name": "Press Release: The Council of Peace Assembly (COPA) Returns for Its Second Edition",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0"
+        },
+        "text_length": 6459
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0",
+      "sha256": "d9068375dec97c58593aaec0b8c5b06db68f1a13a554df624bbbd1a7afc0c987",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    }
+  ],
+  "captured_at": "2026-07-18T04:41:34Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0",
+  "http_status": 200,
+  "raw_byte_count": 267490,
+  "raw_sha256": "d9068375dec97c58593aaec0b8c5b06db68f1a13a554df624bbbd1a7afc0c987",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/press-release-the-council-of-peace-assembly-copa-returns-for-its-second-edition-fda9507535b0",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-FDA9507535B0/article.html",
+  "selected_tier": "LIVE_PLAYWRIGHT_DOM"
+}

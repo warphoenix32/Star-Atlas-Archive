@@ -1,0 +1,107 @@
+{
+  "article": {
+    "block_count": 5,
+    "content_sha256": "06cd1dc815f1b15271f95ee4c8bdefba640a67d38816ca9caa9b58028867cb17",
+    "embeds": [],
+    "outbound_links": [
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": "Star Atlas",
+        "url": "https://medium.com/@staratlasgame"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F674ef7fd04d5&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fjust-discovered-the-runestone-674ef7fd04d5&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F674ef7fd04d5&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fjust-discovered-the-runestone-674ef7fd04d5&user=Star+Atlas&userId=5ed69ff9cfb0"
+      },
+      {
+        "placement_block": null,
+        "text": null,
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F674ef7fd04d5&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fjust-discovered-the-runestone-674ef7fd04d5"
+      },
+      {
+        "placement_block": null,
+        "text": "Listen",
+        "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D674ef7fd04d5&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fjust-discovered-the-runestone-674ef7fd04d5"
+      }
+    ],
+    "published_at_normalized": "2022-06-10T17:20:34Z",
+    "published_at_original": "2022-06-10T17:20:34Z",
+    "updated_at_normalized": "2022-06-10T17:46:54Z",
+    "updated_at_original": "2022-06-10T17:46:54Z"
+  },
+  "claims": [],
+  "entities": [],
+  "events": [],
+  "knowledge_delta": {},
+  "metadata": {
+    "artifact_type": "INGESTION_PACKAGE",
+    "campaign_id": "star-atlas-medium-ingestion-2026-07",
+    "ingestion_id": "INGEST-MEDIUM-STARATLAS-674EF7FD04D5",
+    "promotion_status": "ARCHIVED_NOT_PROMOTED",
+    "repository_schema": "2.1"
+  },
+  "quotes": [],
+  "relationships": [],
+  "repository_health": {
+    "manual_review_required": false
+  },
+  "research_tasks": [],
+  "search_log": {
+    "discovery_sources": [
+      "profile_page_browser",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": []
+  },
+  "sources": [
+    {
+      "artifact_chain": {
+        "normalized_json": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-674EF7FD04D5.json",
+        "normalized_markdown": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-674EF7FD04D5.md",
+        "raw_html": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-674EF7FD04D5/article.html",
+        "source_record_json": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-674EF7FD04D5.json",
+        "source_record_markdown": "archive/source-records/medium/star-atlas/SRC-MEDIUM-STARATLAS-674EF7FD04D5.md"
+      },
+      "language": "English",
+      "source_id": "SRC-MEDIUM-STARATLAS-674EF7FD04D5",
+      "source_lineage": {
+        "attribution_chain": [
+          {
+            "name": "Star Atlas",
+            "organization": null,
+            "role": "AUTHOR",
+            "url": null
+          }
+        ],
+        "limitations": [
+          "Article-level cited-source lineage requires later semantic review."
+        ],
+        "lineage_confidence": "HIGH",
+        "original_creators": [
+          "Star Atlas"
+        ],
+        "primary_sources": [],
+        "publication": "Star Atlas",
+        "publication_role": "OFFICIAL_PUBLICATION",
+        "relationship": "PUBLISHED_BY"
+      },
+      "tier": "OFFICIAL",
+      "title": "Just Discovered — the Runestone",
+      "type": "OFFICIAL_MEDIUM_ARTICLE",
+      "url": "https://medium.com/star-atlas/just-discovered-the-runestone-674ef7fd04d5"
+    }
+  ],
+  "timeline_updates": [],
+  "transcript": []
+}

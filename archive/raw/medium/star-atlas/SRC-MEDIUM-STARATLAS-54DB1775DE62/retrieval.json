@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "byte_count": 235533,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-announces-the-next-major-release-event-426live-nyk-54db1775de62",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-09-20T12:02:59Z",
+          "dateModified": "2022-09-20T12:02:59Z",
+          "datePublished": "2022-09-20T12:02:59Z",
+          "description": "Star Atlas Announces the Next Major Release Event — 426LIVE:NYK The September 29 community event will feature multiple product launches as Star Atlas continues to pave the way for mass adoption of …",
+          "headline": "Star Atlas Announces the Next Major Release Event — 426LIVE:NYK",
+          "identifier": "54db1775de62",
+          "image": [
+            "https://miro.medium.com/1*5zunwlGg04BiReK4mkEA1Q.jpeg"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-announces-the-next-major-release-event-426live-nyk-54db1775de62",
+          "name": "Star Atlas Announces the Next Major Release Event — 426LIVE:NYK",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-announces-the-next-major-release-event-426live-nyk-54db1775de62"
+        },
+        "text_length": 3006
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-major-release-event-426live-nyk-54db1775de62",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/star-atlas-major-release-event-426live-nyk-54db1775de62",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/star-atlas-major-release-event-426live-nyk-54db1775de62"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-major-release-event-426live-nyk-54db1775de62",
+      "sha256": "3bdb2fd9e794b4b2e53345f39c98b9c551821515522eeaffa5afc4927520b390",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:43Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4A9FCC4E28487231.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-major-release-event-426live-nyk-54db1775de62",
+  "http_status": 200,
+  "raw_byte_count": 235533,
+  "raw_sha256": "3bdb2fd9e794b4b2e53345f39c98b9c551821515522eeaffa5afc4927520b390",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/star-atlas-major-release-event-426live-nyk-54db1775de62",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/star-atlas-major-release-event-426live-nyk-54db1775de62"
+    }
+  ],
+  "referrer_source_ids": [],
+  "requested_url": "http://medium.com/star-atlas/star-atlas-major-release-event-426live-nyk-54db1775de62",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-54DB1775DE62/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

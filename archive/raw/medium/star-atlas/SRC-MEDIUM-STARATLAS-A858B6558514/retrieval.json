@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "byte_count": 244976,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-and-us-space-force-drop-neil-armstrong-meta-poster-nft-for-satellite-launch-a858b6558514",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-06-15T00:10:59Z",
+          "dateModified": "2021-07-08T14:48:56Z",
+          "datePublished": "2021-06-15T00:10:59Z",
+          "description": "Star Atlas and US Space Force Drop Neil Armstrong Meta-Poster NFT for Satellite Launch In a first-ever move into the metaverse and NFT realm, US Space Force and Neil Armstrong are transcending the …",
+          "headline": "Star Atlas and US Space Force Drop Neil Armstrong Meta-Poster NFT for Satellite Launch",
+          "identifier": "a858b6558514",
+          "image": [
+            "https://miro.medium.com/1*G77nZA1RSW-cuYxXv5aViw.png"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-and-us-space-force-drop-neil-armstrong-meta-poster-nft-for-satellite-launch-a858b6558514",
+          "name": "Star Atlas and US Space Force Drop Neil Armstrong Meta-Poster NFT for Satellite Launch",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-and-us-space-force-drop-neil-armstrong-meta-poster-nft-for-satellite-launch-a858b6558514"
+        },
+        "text_length": 6635
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-and-us-space-force-drop-neil-armstrong-meta-poster-nft-for-satellite-launch-a858b6558514",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-and-us-space-force-drop-neil-armstrong-meta-poster-nft-for-satellite-launch-a858b6558514",
+      "sha256": "6816a44630f7d07280dc45b01105070217bcfda6c808694ba45c6fc06723b883",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:08Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0333A5B22A207D88.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-and-us-space-force-drop-neil-armstrong-meta-poster-nft-for-satellite-launch-a858b6558514",
+  "http_status": 200,
+  "raw_byte_count": 244976,
+  "raw_sha256": "6816a44630f7d07280dc45b01105070217bcfda6c808694ba45c6fc06723b883",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-D88A54D77248EA1E"
+  ],
+  "requested_url": "https://medium.com/star-atlas/star-atlas-and-us-space-force-drop-neil-armstrong-meta-poster-nft-for-satellite-launch-a858b6558514",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-A858B6558514/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

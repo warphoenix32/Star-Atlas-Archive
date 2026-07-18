@@ -1,0 +1,1365 @@
+{
+  "article_text": "A tale about building a new world…\n\nThe SCREAM module WIP /// Blockchain Native Game /// Immersive Gameplay Experience\n\nAttention, Deep Space Explorers!\n\nAll citizens of the stars are feeling the cosmic currents of change. From the faction’s homeworlds to the enigmatic Iris, all metaverse children feel jolts of euphoria and excitement as our projects reach a new stage of maturity!\n\nWe are back for another Atlas Star ✧, the official Star Atlas newsletter wherein all things start and end, delivering all of the crucial information to our community about Star Atlas, related project developments , and much more!\n\nFor this edition, we’ll focus on the single most desired project within Star Atlas — the one that begins the fable of the ultimate gaming experience that until now has been hidden in the depths of ATMTA Inc.\n\nWe are, of course, talking about SCREAM , the next major Star Atlas browser-playable gameplay module with a full economic loop.\n\nWe will do a deep dive into SCREAM and other exciting projects that will be debuting in the not-so-distant future.\n\nWe thank the community for their continued support. Through storms and tempest, you have stayed by our side, and we will ask you for just a little more patience as we prepare to enter this next exciting era.\n\nIn this report, you’ll learn about our macro view of SCREAM. In the following editions, we’ll delve deeper into the micro-level of its gameplay.\n\nPlease remember that everything being said here is subject to change.\n\nWithout further ado, let’s talk SCREAM.\n\nSCREAM Game Design Statement\n\nPrepare the engines. It’s going to be a long journey. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience .\n\nEvery journey starts with a question, and in this case, our efforts have been informed by this one: How can we showcase the essence of Star Atlas through SCREAM?\n\nTo be fair, we also asked ourselves the following:\n\nIs this game actually fun?\n\nCan players play this over and over?\n\nAre we focusing on ship utility?\n\nIs the game logic and game state hosted on-chain?\n\nYou can see how constructing our ‘simple’ game is no easy task. Yet, we challenged ourselves to develop a concept that would embrace the key aspects of a true Star Atlas game as laid out in our original White Paper and Economics Paper .\n\nPut another way: SCREAM will be a blockchain-native multiplayer game complete with economic, political, and strategic elements. This will be the first time that players can use their ships to fight for the future of their faction with fun, active, repeatable, on-chain gameplay with earning potential.\n\nEven this definition might be lacking because, as we hope to demonstrate, SCREAM will be an enticing challenge, requiring tough choices, coordination, and strategic thinking from our players on both a faction and regional level.\n\nWithout further adieu, let’s take a tour of SCREAM’s context, game loops, and structures.\n\nP.S. We believe this will give enough material for many Atlas Brews!\n\nOverview — The Context of Scream\n\nWhispers of war can be heard everywhere in the galaxy /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience\n\nFor reasons to be disclosed through the lore, a veiled conflict is happening in the universe at the time of SCREAM. Although the Treaty of Peace is officially in force, the three faction’s guilds move their fleet through the galaxy, trying to “integrate’’ different systems into their factions, effectively creating the so-called medium risk zone.\n\nAlthough the factions say that they are not involved with any warlike activity, incursions of MUD, ONI, and Ustur DACs have been witnessed in nearby systems. Moreover, DACs are building enormous structures called starbases , which the populations of said systems perceive to be means of political domination.\n\nThis has turned into a conflict with the political powers that ruled these worlds. Factions like the Jorvik and ECOS didn’t take this intrusion quietly, and clashes spread like wildfire. There have even been reports of DACs from different factions clashing with one another.\n\nThe situation is getting more dire by the day. First, many starbases are pushing to bring “progress” to the neighboring systems. Planets that were once outside the faction’s influence are now being depleted of their resources to grease the war machine. Finally, rumor has it that Atlas secretly flows from the factions to the DACs for their service.\n\nThe Council of Peace is being pressured externally by the factions and internally by their political parties. Everyone in the galaxy is holding their breath, waiting to hear the news of what will happen next.\n\nThe cogs of fate are moving, and as time passes, some familiar faces will become entangled in events that will change the history of Star Atlas forever…\n\nThe Macro Game Logic of Scream — Faction Galactic Domination\n\nIris is awaiting. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience\n\nTo summarize, SCREAM is about dominating different star systems for the benefit of your faction by gaining access to various resources.\n\nThe heart of SCREAM gameplay is the starbase. Starbases are structures that serve as economic and political support that allow a faction to control a given star system. The higher the tier of a starbase, the stronger the hold of a faction in that system.\n\nGreater consolidated power from higher tier starbases enables members of the dominating faction to harvest the resources of planets farther away from the system center.\n\nOn the economic front, starbases will serve as a deposit of harvested material. As a starbase progresses through upgrades, players will be able to use it to trade and craft refined materials, creating more extensive and complex space infrastructures to support their factions in outer space.\n\nIn this sense, the creation, upgrade, attack, and defense of starbases are of utmost importance to the factions. This is true for the DACs of Star Atlas as well, as this represents a faction’s grasp of the galaxy.\n\nThe coordination of these actions, together with resource gathering and the logistics of the supply routes, constitutes the core of SCREAM gameplay loops.\n\nAspects of Macro Environmental Gameplay Mechanics on SCREAM\n\nSummon the armies, our faction needs us. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience\n\nIf starbases are the cornerstone of Scream, the galaxy’s environment is the game’s foundation. Every star system will be composed of planets dispersed through different locations in the star system. Each is unique, possessing different attributes that determine the materials that can be acquired from it and its overall utility in the galaxy’s economy.\n\nSince starbase construction and defense is a demanding task, requiring that players commit substantial resources and human coordination, they must consider how the conquest of a said system will impact their faction agenda on a political and economic level. Therefore, players should analyze the planets present in each system.\n\nIn SCREAM, more than twenty types of resources will be dispersed among planets throughout the galaxy. They will obey a logic of rarity and location, meaning that some resources may be more common in a part of the universe than others.\n\nAll of these resources will have in-game utility for factions and players on their path to conquer the stars. We foresee the mobilization of factions to secure rare resources and materials found in the deeper reaches of space.\n\nHowever, take care with those deep space expeditions. Otherwise, you might see yourself out of fuel — and out of options.\n\nAspects of Player’s Gameplay — Exploration Logic\n\nEvery journey starts with the first step /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience\n\nLet’s discuss some of the mechanics of SCREAM.\n\nThe first and most prominent aspect of the gameplay logic is that as you play you will burn resources. Your fleet will need fuel to fly, toolkits to repair the damage, ammo to engage in combat, and food for the crew.\n\nThe acquisition of these resources will occur through gameplay loops. This means that players will always be fighting two silent enemies: the maintenance costs, like in SCORE, and the opportunity costs, a new addition particular to the logic of SCREAM.\n\nUnlike SCORE, there will be no guarantees that your ship’s earnings will outweigh the maintenance costs. Instead, your contributions to the faction and your overall in-game choices will determine whether you profit or lose in your galaxy adventures.\n\nYou have no guarantee of success in your SCREAM expeditions. There is also no reward without labor. You will be facing the citizens of the galaxy who are not particularly pleased with DACs attacking their territory, and players of other factions who will be fighting to achieve the same objectives.\n\nMost importantly, there can be only one winner in each battle. Hence, the necessity to make the best choices with the available information and coordinate your DAC’s members is a crucial aspect of SCREAM.\n\nDon’t expect to conquer starbases by yourself.\n\nThis takes us to the next topic: How will players rally to defend their factions and spread their power? It all starts with hangars.\n\nAspects of Player’s Gameplay — Hangars and loyalty\n\nUnknown attacker breached the system security! Deploy the fleets! /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience\n\nEach player that chooses to venture into the void in SCREAM will start at a hangar within their faction safe zone.\n\nThe hangars are critical structures in SCREAM, as the number of hangars a player has determines the number and class of ships the player can play.\n\nThere are also structures organized in tiers, so the higher the level of your hangar, the larger the vessel you will be able to fit in it.\n\nHere is where things get interesting.\n\nYou will need to play and work your way into acquiring hangars that allow you to deploy certain kinds of vessels into the game, like titan ships, for example. Also, players are not permitted to purchase new hangars with Atlas.\n\nThe three factions are very sensitive to who acquires new hangars, as space is limited in their bases. Only those who have proven themselves will be allowed to expand their fleets by acquiring new hangars.\n\nIn other words, you will be given the privilege of acquiring new spaces for your fleet inside SCREAM through consistent and meaningful play in the interest of your faction.\n\nIn-game activities will bring recognition for you with your faction. You will need to work hard on this front to succeed in SCREAM.\n\nYour standing with the factions will be measurable and, aside from helping you expand your fleet, will also serve to calculate your rewards for your services on the faction’s behalf in SCREAM along with other in-game mechanics.\n\nRewards will be paid to the members who serve in the SCREAM wars by epochs. As soon as an epoch ends, the faction will divide a share of the earnings of that period among the players who served. Your reward will be proportional to the value you brought to your faction via your actions with your fleet.\n\nIn other words, no payment without adding value. No glory without taking risks. SCREAM fully embodies the principles of our metaverse ambition.\n\nAspects of Player’s Gameplay — Fleets and Experience\n\nCargo incoming, lower the shields. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience\n\nAs we have stated, everything in SCREAM revolves around playing it. Therefore, the measurement of effort you put into the game will reflect your experience within the system.\n\nYour progress in the experience ladder will enable you to control more fleets. This feature adds a crucial layer of complexity to SCREAM gameplay since, on later levels, this will allow you to have multiple fleets at different points of the galaxy simultaneously.\n\nThis is especially important considering that SCREAM is oriented to faction objectives. As a result, war will be fought on many different fronts, requiring players and factions to spread their armies and fleets through multiple systems and make tough choices about where and when to engage with enemy forces.\n\nBut if this wasn’t enough of a perk, experience also has other uses in SCREAM. Another impactful aspect of it is that it increases the rate at which you accrue loyalty with your faction.\n\nThe more experienced of a pilot you are, the more your feats will impact your faction, which will affect every activity that benefits your standing, such as your gains by epochs and all other features mentioned above.\n\nSCREAM as a Multiplayer Blockchain Native Gaming Experience\n\nGet back to work rascals, we have a war to fight! /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience\n\nSCREAM is unique for Star Atlas in many ways. We are particularly proud of its blockchain nature and the multiplayer aspect, laying the foundations for the complete game release.\n\nWe are proud to say that most of our features will execute and resolve on the blockchain, from attacking starbases to harvesting resources, even the location of your fleets. Every bit of game logic that has an economic impact will be safeguarded on-chain\n\nThis takes transparency, one of our core values, to a whole new level. Everything that happens in the game will be available for instant audit to everyone globally.\n\nAnother feature that we particularly enjoy is the multiplayer aspect of the game. In SCREAM, you may organically cooperate with players from your faction to fulfill the in-game objectives.\n\nBy coordinating with your guild members and the faction as a whole, you will be able to reach new heights of efficiency and success. SCREAM is heavily oriented toward multiplayer cooperativeness.\n\nNext Steps\n\nThere is still much to disclose about SCREAM, even on the macro level. Battle logistics, the systems of upgrades, crafting possibilities, and more will be addressed in future publications. At the same time, we’ll delve into the details of each unique feature that SCREAM offers.\n\nWe hope the information above gives you a general sense of SCREAM. As our project continues to take shape, we’ll continue to share updates.\n\nNow, let’s see what the Punaab Whisper has for us in this edition.\n\nThe Punaab Whisper — The Atlas Star Tabloid\n\nCitizens of the stars! We are back for a new edition of the Punaab Whisper, featuring one of the galaxy’s favorite urban legends today: the Wandering Caravan !\n\nThis intrepid reporter has traveled the entire medium-risk zone searching for the (in)famous artist group, which is said to appear out of thin air — or no air at all — to perform on planets and space stations across the galaxy.\n\nChildren all over the universe dream of watching what has been described as the ‘ethereal’ performance of the group. Curiously enough, a performance has never been recorded, adding more mystery to the troupe’s very existence.\n\nAfter traveling across many star systems in our Lowbie, the Truth-Seeker, we have yet to uncover any conclusive proof of their activity.\n\nNevertheless, we managed to acquire from a relic trader a book published after the Convergence War which gives the details, as we know them, of the itinerant group:\n\nThe Wandering Caravan\n\nAs it’s called in the MUD language, the Wandering Caravan is a legendary artists group assembled during the Convergence Wars that performs through different regions of the cosmos.\n\nIn the places where the Wandering Caravan stops, it is always a jaw-dropping event filled with mesmerizing performances and tales from every corner of the universe. It is said this epic show can even reshape its audience’s comprehension of the limits of reality.\n\nThe Caravan is always composed of 33 different artists that wear 33 different masks. Every artist is constantly training a disciple, following the maxim that the show must always go on. Those artists come from every race in the universe, and the recruitment process is unclear.\n\nThe Caravan does not have a home to call their own, always wandering wherever the cosmic currents take them. However, some experts theorize they have a hidden yet still unknown motivation.\n\nThat’s because, in moments of enormous distress, such as the apex of the Convergence War, the Caravan suddenly seems to spawn from nowhere, snatching the hearts of the crowds with their skillful plays.\n\nThose fortunate few who have witnessed more than one Caravan performance say that no two performances are alike.\n\nAs always, dear readers, it’s up to you to decide if this is truth or myth. We of the Punaab Whisper focus on presenting our community with facts, letting you draw your own conclusions!\n\nThank you for your support, and we hope you’ll be back for the next issue when we look at a most exotic and nearly extinct plant that is said to have a very particular property. So keep your eyes open, and have a good weekend!\n\nUpdates\n\nAfter our incursion on SCREAM and the gossip of the Punaab Whisper, let us take a look at what the Star Atlas team accomplished in the last three weeks in terms of corporate infrastructure, development of projects, and community building.\n\nThe first stop is the Sapient Resources Report.\n\nSapient Resources Department Report\n\nUnbeliavable, why are all the super talented people going to just one company?!\n\nThe Sapient Resources Department continue their work of acquiring talent for the Star Atlas project. Let’s check in on their progress for the last three weeks!\n\nCommunication\n\nThese have been epic weeks for the soldiers on the front lines of Star Atlas. The communications team supported many events while keeping the community up to date with the developments of various Star Atlas projects. Check out their work!\n\nThe Atlas Brew\n\nThe Atlas Brew is keeping its pace, doing what it does best, theory crafting about Star Atlas! In the past weeks, our members discussed many different topics, such as:\n\na) The logic of ships manufacturers, including strategies to think about your fleet composition\n\nb) How the economy in the low-risk zone will probably work and how you can position yourself for it\n\nc) The fantastic community events we are having right now, like the Sandbox partnership and the Tuffa Attack tournament\n\nYou can watch/listen to the episodes on the YouTube channels offered by our community by clicking on the links below:\n\nEpisode # 10 — Ships:\n\nhttps://www.youtube.com/watch?v=M3Vf-p2azhU\n\nEpisode # 11 — Low-Risk Zone:\n\nhttps://www.youtube.com/watch?v=Fig8hn_WYtU\n\nEpisode #12 — Community Events:\n\nhttps://www.youtube.com/watch?v=P-Ltw9O95oA\n\nRoadmap Lore Reports\n\nThe beautiful face of power is pleasure /// Metaverse in Light Speed Expansion /// Immersive Blockchain-Powered UE5 Experience\n\nWe discovered some exciting developments in the weekly lore! Wenn and his old friend agent M4 found themselves escaping from one deadly situation to fall straight into another!\n\nIn the first TUFA ATTACK: Star Atlas Roadmap Scan #05 , Wenn and M4 are chased by two tufa feists while navigating through an asteroid field. Wenn creates a last-minute plan during a fast-paced battle, and their Busan Thrill of Life manages to warp into the unknown…\n\nIn the subsequent episode, Punaab Howl: Star Atlas Roadmap Scan #06 , We learn that Wenn and M4 crash on the icy planet Gerio. The injured agents find themselves in an unlikely stand-off with a couple angry Punaabs when something even scarier decides to join the fray…\n\nEvent Updates\n\nThe past weeks have been filled with thrilling events for the Star Atlas community! Star Atlas left its mark on the fiat and crypto worlds from the Caribbean to the shores of South Beach.\n\nFTX Off The Grid — Miami Beach Race Weekend\n\nStar Atlas rocked the festival with its gaming lounge! Our community and new visitors were spoiled with really cool t-shirts, NFTs, alpha videos, and fun with our team! The festival vibe was high, and people enjoyed the other many attractions, ranging from DJs to getting your own free, custom-designed NFT mint!\n\nThe whole event was streamed for the community members who couldn’t attend in person, and our legendary media hostess Ashley Harris provided us with an exclusive live view of everything that was going on!\n\nOne of the event’s highlights was the panel that featured Michael Wagner, our intrepid CEO, explaining the Star Atlas vision to the public. Another was Ashley’s interview with Christopher, a representative from Spearsoft, the studio that is working together with Star Atlas on the development of the Showroom project.\n\nCheck both talks and more in the links below:\n\nFTX Panel:\n\nhttps://vimeo.com/709505631/5a9b40f399\n\nChristopher — Spearsoft:\n\nhttps://vimeo.com/709522040/eb6fcd199e\n\nHighlights of the event:\n\nhttps://youtu.be/o0aDkmNfUtc\n\nCrypto Bahamas\n\nCrypto Bahamas was a massive event for Star Atlas. We shared our project with the world and connected with key players from the crypto and fiat systems. Our CEO, Michael Wagner participated in a panel discussion on the FTX stage.\n\nStar Atlas VoxEdit Contest\n\nWe were also excited to announce a historic partnership between two metaverses: Star Atlas and The Sandbox in the VoxEdit competition! From May 2–15, members of the Star Atlas and Sandbox communities are invited to create NPC characters based on the factions of Star Atlas to acquire incredible prizes!\n\nThe competition for the prizes has been fierce, with both communities dedicating themselves to reaching the first spot! However, it’s not too late to submit your entry. By clicking here , you will learn all the requirements needed for your chance to win the following epic prizes:\n\n1ST place : 20,000 SAND & an Opal Bitboat Ship\n\n2ND place: 15,000 SAND & 2X Calico ATS Enforcer Ship & Calico Medtech Ship\n\n3RD place: 8,000 SAND & an Ogrika Mik Ship, Busan Thrill of Life Ship & Calico Medtech Ship\n\n4TH to 10TH: 1,000 SAND & Busan Thrill of Life Ship\n\nThe Tufa Attack Community Tournament\n\nOur community-made and beloved mini-game started with a blast! There was fierce competition with more than five hundred players signed up, each with the hope of winning the ultimate glory of being crowned the first Star Atlas community champion! Oh, and some excellent ships are available as prizes as well!\n\nThis arcade-like game that has won our hearts is free to play for anyone. Tomorrow we will be able to watch the final rounds and witness history. Look for the live stream on the Star Atlas Discord server starting at 12 PM PST!\n\nEven though entries for this tournament are already closed, you can start training for the next one! Click on the link below, download and install the opera GX browser and start playing here:\n\nhttps://gxc.gg/games/h5jctu/star-atlas-tufa-attack/\n\nProduct Development\n\nWe also want to share the latest on the different products fronts. Follow the updates of the GAO ship drop , Showroom, SCREAM, Galactic Marketplace, Polis Dao and System Polishing.\n\nGAO Phase 2 Progress\n\nOur manufacturers keep building in their factories! Two new ships, with different specs, have been released to the community and continue to build up the supply we need for our end-of-year plans!\n\nCheck them out:\n\nHey! I can terraform as well! Let me show you.\n\nCalico ATS Enforcer\n\nCalico’s new fighter performs well in any situation, from layings sieges to dog-fighting. This bad boy has the perfect tool for any type of encounter. But be sure to take special care with its capital-sized mega-turret. Spoiler alert, it really packs a punch!.\n\nPearce R6 ready for action!\n\nPearce R6\n\nThe Pearce R6 excels in its function, being a small and agile repair ship. It’s always ready for deployment and will offer much-needed support. As the manufacturer likes to say: “Whether the mission calls for rejuvenating a decimated battlefield or maintaining active-duty vessels, a fleet of these ships will keep the whole team shining and moving.” Pearce is not known for kidding around.\n\nProjects Report Weekly Update\n\nAs per our tradition, we’re giving our courageous Lieutenant Wenn a break on Atlas Star weeks. He will need whatever rest he can get for the next episode.\n\nNext, you will find the updates on our different projects, as well as our roadmap update .\n\nProject: Showroom Alpha — Weekly Update\n\nConcept Art: DONE /// Art: BUILDING /// UX/UI: BUILDING /// Game Design: DONE /// Blockchain: BUILDING /// Core Gameplay Development: BUILDING\n\nUpdates : Environment art is in progress — all geometry is placed — working on quality. Lighting — keep tweaking light sources to increase quality. VFX — working on exterior effects. Started performance testing. /// Terminals-related UI is being visually tweaked in Engine after art integration. Working on Splash screen. /// UX is ready, wireframes are done. /// UI general system (buttons/pop ups/windows), Ship pads and Ships Database in progress.\n\nUpcoming activities : Continue to work on Alpha-quality for all environment depts. Performance passes and captures monitoring. /// Integrate HUD UI for testing. /// Wallet testing. /// Players profile.\n\nProject: Ship Missions — SCREAM — Weekly Update\n\nGame Design: PROTOTYPING /// Blockchain: PROTOTYPING/// UX/UI: PROTOTYPING /// Economy Design: R&D /// Front End: PROTOTYPING\n\nUpdates : Continuing to define explicit requirements for core gameplay mechanics and game systems design. Locked in points progression mechanics. /// Continuing to build one program with locked in-game mechanics (hangar program). Continuing to work on prototyping two other programs which have dependencies on the hangar program.. /// Continuing low fidelity wireframes based on updated requirements. Continuing Information Architecture map. Deep review with Game Design lead and Product Manager. /// Continuing to assess economic implications of gameplay mechanics and SCREAM requirements. Focusing on R4 mechanics. /// Adding gameplay depth to WebGL Proof of Concept. Adding depth to ship movement functionality and intra-star system mechanics (will take a few weeks).\n\nUpcoming activities : Continue to define explicit requirements for core gameplay mechanics and incorporate feedback from SCREAM stakeholders. Validate gameplay loops playability with WebGL Proof of Concept. Assess feasibility of game mechanics with blockchain program proof of concepts. Validate economic viability from internal Game Economics team. Guide UX/UI design based on game mechanics. /// Test and refine prototypes across all SCREAM teams and stakeholders. Build, peer review, and test programs on testnet, then audit. /// Review wireframes with Project Stakeholders. Continue to iterate until wireframes are approved. Hand over wireframes to UI team. /// Continue to analyze the economic impacts of SCREAM to validate the viability of gameplay loops and key requirements. /// Validate gameplay loops and key SCREAM concepts with Proof of Concept.\n\nProject: Galactic Marketplace — Weekly Update\n\nBlockchain: BUILDING /// UX/UI: BUILDING /// FRONT END: BUILDING\n\nUpdates : Audit for marketplace program received: minor fixes required and currently being addressed. /// Addressed feedback in high fidelity designs. /// Finished bookmarks page, filter sidebar implementation is ongoing as well as the “my orders” page.\n\nUpcoming activities : Update Factory to allow connecting to the site’s backend. Finish ATLAS Staking implementation. /// Support front-end team throughout the final implementation of the new marketplace. /// Update tables to use real-time mock data, address UI changes, replace real-time mock data with blockchain data.\n\nProject: DAO — Weekly Update\n\nUX/UI: BUILDING /// Front End: BUILDING /// Blockchain: BUILDING /// ECONOMICS: EXPLORATION\n\nUpdates: Continuing to work on High-fidelity designs. /// Continuing to convert wireframes to base UI. /// Program is functionally complete. /// Determining launch parameters for locker and governor programs.\n\nUpcoming activities: V0 UX completion. /// Incorporate high-fidelity designs. /// Cleanup and refactoring. Start Audits. /// Calculate rewards schedule\n\nProject: System Polishing\n\nBug fixes: Player net worth not accurate on profile. /// Badges not available on the player profile. /// Player location/avatar will not update on profile. /// Added more precision to ATLAS on R4 markets. ///\n\nNew Features: Fixed Amplitude instance initialization — Analytics Service is now deployed and ready to use. /// Bundle of GDPR compliance features. /// E2E testing framework deployed and ready to use.\n\nUpcoming features: Bugfix: (on mobile) Star Atlas logo overlaps navigation. /// Feature: Enhanced security protocols. /// Feature: Enhanced account switching with Phantom. /// Bugfix: Ships can’t be withdrawn from Faction Fleet if a rent account is missing. /// Bugfix: Some mobile platforms can’t accept the terms of service.\n\nThis article is provided for informational purposes only about the Star Atlas game and metaverse, for which ATMTA, Inc. is the lead developer. Except for statements of historical fact, the statements included herein are forward-looking statements that are based on the beliefs of ATMTA, Inc.’s management as well as assumptions made by and information currently available to ATMTA, Inc.’s management. Although ATMTA, Inc.’s management believes these forward-looking statements are based on reasonable assumptions, there can be no assurance that forward-looking statements will prove to be accurate, as actual results and future events could differ materially from those anticipated in such statements. ATMTA, Inc. undertakes no obligation to update forward-looking statements if circumstances or management’s estimates or opinions should change except as required under applicable law. These forward-looking statements are, by their nature, subject to significant risks and uncertainties and include, without limitation, statements about ATMTA, Inc.’s business prospects, future developments, industry and market trends and conditions, strategies, objectives, and goals. These statements are not guarantees of future performance and undue reliance should not be placed on them. No financial, tax, or legal advice is given or implied.\n\nABOUT STAR ATLAS\n\nStar Atlas is a next-gen gaming Metaverse emerging from the confluence of state of the art blockchain, real-time graphics, multiplayer video game, and decentralized financial technologies.\n\nReal-time graphics technology using Unreal Engine 5’s Nanite allows for cinematic quality video game visuals. Blockchain technology using the Solana protocol establishes a largely serverless and secured gameplay experience. Non-fungible tokens obtained and traded within Star Atlas create an economy that replicates the tangibility of real world assets and ownership. To learn more, visit StarAtlas.com , join a faction at Play.StarAtlas.com and send your spaceships on a deep space mission by enrolling them into a Faction Fleet .\n\nJOIN OUR COMMUNITY\n\nTwitter | Discord | YouTube | Instagram | Reddit | Facebook | LinkedIn | Twitch | Tik Tok | Telegram | Audius | Medium",
+  "blocks": [
+    {
+      "level": null,
+      "text": "A tale about building a new world…",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The SCREAM module WIP /// Blockchain Native Game /// Immersive Gameplay Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "Attention, Deep Space Explorers!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "All citizens of the stars are feeling the cosmic currents of change. From the faction’s homeworlds to the enigmatic Iris, all metaverse children feel jolts of euphoria and excitement as our projects reach a new stage of maturity!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We are back for another Atlas Star ✧, the official Star Atlas newsletter wherein all things start and end, delivering all of the crucial information to our community about Star Atlas, related project developments , and much more!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "For this edition, we’ll focus on the single most desired project within Star Atlas — the one that begins the fable of the ultimate gaming experience that until now has been hidden in the depths of ATMTA Inc.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We are, of course, talking about SCREAM , the next major Star Atlas browser-playable gameplay module with a full economic loop.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We will do a deep dive into SCREAM and other exciting projects that will be debuting in the not-so-distant future.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We thank the community for their continued support. Through storms and tempest, you have stayed by our side, and we will ask you for just a little more patience as we prepare to enter this next exciting era.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In this report, you’ll learn about our macro view of SCREAM. In the following editions, we’ll delve deeper into the micro-level of its gameplay.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Please remember that everything being said here is subject to change.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Without further ado, let’s talk SCREAM.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "SCREAM Game Design Statement",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Prepare the engines. It’s going to be a long journey. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience .",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "Every journey starts with a question, and in this case, our efforts have been informed by this one: How can we showcase the essence of Star Atlas through SCREAM?",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "To be fair, we also asked ourselves the following:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Is this game actually fun?",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Can players play this over and over?",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Are we focusing on ship utility?",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Is the game logic and game state hosted on-chain?",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "You can see how constructing our ‘simple’ game is no easy task. Yet, we challenged ourselves to develop a concept that would embrace the key aspects of a true Star Atlas game as laid out in our original White Paper and Economics Paper .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Put another way: SCREAM will be a blockchain-native multiplayer game complete with economic, political, and strategic elements. This will be the first time that players can use their ships to fight for the future of their faction with fun, active, repeatable, on-chain gameplay with earning potential.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Even this definition might be lacking because, as we hope to demonstrate, SCREAM will be an enticing challenge, requiring tough choices, coordination, and strategic thinking from our players on both a faction and regional level.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Without further adieu, let’s take a tour of SCREAM’s context, game loops, and structures.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "P.S. We believe this will give enough material for many Atlas Brews!",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Overview — The Context of Scream",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Whispers of war can be heard everywhere in the galaxy /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "For reasons to be disclosed through the lore, a veiled conflict is happening in the universe at the time of SCREAM. Although the Treaty of Peace is officially in force, the three faction’s guilds move their fleet through the galaxy, trying to “integrate’’ different systems into their factions, effectively creating the so-called medium risk zone.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Although the factions say that they are not involved with any warlike activity, incursions of MUD, ONI, and Ustur DACs have been witnessed in nearby systems. Moreover, DACs are building enormous structures called starbases , which the populations of said systems perceive to be means of political domination.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This has turned into a conflict with the political powers that ruled these worlds. Factions like the Jorvik and ECOS didn’t take this intrusion quietly, and clashes spread like wildfire. There have even been reports of DACs from different factions clashing with one another.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The situation is getting more dire by the day. First, many starbases are pushing to bring “progress” to the neighboring systems. Planets that were once outside the faction’s influence are now being depleted of their resources to grease the war machine. Finally, rumor has it that Atlas secretly flows from the factions to the DACs for their service.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The Council of Peace is being pressured externally by the factions and internally by their political parties. Everyone in the galaxy is holding their breath, waiting to hear the news of what will happen next.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The cogs of fate are moving, and as time passes, some familiar faces will become entangled in events that will change the history of Star Atlas forever…",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "The Macro Game Logic of Scream — Faction Galactic Domination",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Iris is awaiting. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "To summarize, SCREAM is about dominating different star systems for the benefit of your faction by gaining access to various resources.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The heart of SCREAM gameplay is the starbase. Starbases are structures that serve as economic and political support that allow a faction to control a given star system. The higher the tier of a starbase, the stronger the hold of a faction in that system.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Greater consolidated power from higher tier starbases enables members of the dominating faction to harvest the resources of planets farther away from the system center.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "On the economic front, starbases will serve as a deposit of harvested material. As a starbase progresses through upgrades, players will be able to use it to trade and craft refined materials, creating more extensive and complex space infrastructures to support their factions in outer space.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In this sense, the creation, upgrade, attack, and defense of starbases are of utmost importance to the factions. This is true for the DACs of Star Atlas as well, as this represents a faction’s grasp of the galaxy.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The coordination of these actions, together with resource gathering and the logistics of the supply routes, constitutes the core of SCREAM gameplay loops.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Aspects of Macro Environmental Gameplay Mechanics on SCREAM",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Summon the armies, our faction needs us. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "If starbases are the cornerstone of Scream, the galaxy’s environment is the game’s foundation. Every star system will be composed of planets dispersed through different locations in the star system. Each is unique, possessing different attributes that determine the materials that can be acquired from it and its overall utility in the galaxy’s economy.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Since starbase construction and defense is a demanding task, requiring that players commit substantial resources and human coordination, they must consider how the conquest of a said system will impact their faction agenda on a political and economic level. Therefore, players should analyze the planets present in each system.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In SCREAM, more than twenty types of resources will be dispersed among planets throughout the galaxy. They will obey a logic of rarity and location, meaning that some resources may be more common in a part of the universe than others.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "All of these resources will have in-game utility for factions and players on their path to conquer the stars. We foresee the mobilization of factions to secure rare resources and materials found in the deeper reaches of space.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "However, take care with those deep space expeditions. Otherwise, you might see yourself out of fuel — and out of options.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Aspects of Player’s Gameplay — Exploration Logic",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Every journey starts with the first step /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "Let’s discuss some of the mechanics of SCREAM.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The first and most prominent aspect of the gameplay logic is that as you play you will burn resources. Your fleet will need fuel to fly, toolkits to repair the damage, ammo to engage in combat, and food for the crew.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The acquisition of these resources will occur through gameplay loops. This means that players will always be fighting two silent enemies: the maintenance costs, like in SCORE, and the opportunity costs, a new addition particular to the logic of SCREAM.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Unlike SCORE, there will be no guarantees that your ship’s earnings will outweigh the maintenance costs. Instead, your contributions to the faction and your overall in-game choices will determine whether you profit or lose in your galaxy adventures.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "You have no guarantee of success in your SCREAM expeditions. There is also no reward without labor. You will be facing the citizens of the galaxy who are not particularly pleased with DACs attacking their territory, and players of other factions who will be fighting to achieve the same objectives.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Most importantly, there can be only one winner in each battle. Hence, the necessity to make the best choices with the available information and coordinate your DAC’s members is a crucial aspect of SCREAM.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Don’t expect to conquer starbases by yourself.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This takes us to the next topic: How will players rally to defend their factions and spread their power? It all starts with hangars.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Aspects of Player’s Gameplay — Hangars and loyalty",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Unknown attacker breached the system security! Deploy the fleets! /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "Each player that chooses to venture into the void in SCREAM will start at a hangar within their faction safe zone.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The hangars are critical structures in SCREAM, as the number of hangars a player has determines the number and class of ships the player can play.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "There are also structures organized in tiers, so the higher the level of your hangar, the larger the vessel you will be able to fit in it.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Here is where things get interesting.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "You will need to play and work your way into acquiring hangars that allow you to deploy certain kinds of vessels into the game, like titan ships, for example. Also, players are not permitted to purchase new hangars with Atlas.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The three factions are very sensitive to who acquires new hangars, as space is limited in their bases. Only those who have proven themselves will be allowed to expand their fleets by acquiring new hangars.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In other words, you will be given the privilege of acquiring new spaces for your fleet inside SCREAM through consistent and meaningful play in the interest of your faction.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In-game activities will bring recognition for you with your faction. You will need to work hard on this front to succeed in SCREAM.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Your standing with the factions will be measurable and, aside from helping you expand your fleet, will also serve to calculate your rewards for your services on the faction’s behalf in SCREAM along with other in-game mechanics.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Rewards will be paid to the members who serve in the SCREAM wars by epochs. As soon as an epoch ends, the faction will divide a share of the earnings of that period among the players who served. Your reward will be proportional to the value you brought to your faction via your actions with your fleet.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In other words, no payment without adding value. No glory without taking risks. SCREAM fully embodies the principles of our metaverse ambition.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Aspects of Player’s Gameplay — Fleets and Experience",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Cargo incoming, lower the shields. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "As we have stated, everything in SCREAM revolves around playing it. Therefore, the measurement of effort you put into the game will reflect your experience within the system.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Your progress in the experience ladder will enable you to control more fleets. This feature adds a crucial layer of complexity to SCREAM gameplay since, on later levels, this will allow you to have multiple fleets at different points of the galaxy simultaneously.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This is especially important considering that SCREAM is oriented to faction objectives. As a result, war will be fought on many different fronts, requiring players and factions to spread their armies and fleets through multiple systems and make tough choices about where and when to engage with enemy forces.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "But if this wasn’t enough of a perk, experience also has other uses in SCREAM. Another impactful aspect of it is that it increases the rate at which you accrue loyalty with your faction.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The more experienced of a pilot you are, the more your feats will impact your faction, which will affect every activity that benefits your standing, such as your gains by epochs and all other features mentioned above.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "SCREAM as a Multiplayer Blockchain Native Gaming Experience",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Get back to work rascals, we have a war to fight! /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "SCREAM is unique for Star Atlas in many ways. We are particularly proud of its blockchain nature and the multiplayer aspect, laying the foundations for the complete game release.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We are proud to say that most of our features will execute and resolve on the blockchain, from attacking starbases to harvesting resources, even the location of your fleets. Every bit of game logic that has an economic impact will be safeguarded on-chain",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This takes transparency, one of our core values, to a whole new level. Everything that happens in the game will be available for instant audit to everyone globally.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Another feature that we particularly enjoy is the multiplayer aspect of the game. In SCREAM, you may organically cooperate with players from your faction to fulfill the in-game objectives.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "By coordinating with your guild members and the faction as a whole, you will be able to reach new heights of efficiency and success. SCREAM is heavily oriented toward multiplayer cooperativeness.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Next Steps",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "There is still much to disclose about SCREAM, even on the macro level. Battle logistics, the systems of upgrades, crafting possibilities, and more will be addressed in future publications. At the same time, we’ll delve into the details of each unique feature that SCREAM offers.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We hope the information above gives you a general sense of SCREAM. As our project continues to take shape, we’ll continue to share updates.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Now, let’s see what the Punaab Whisper has for us in this edition.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "The Punaab Whisper — The Atlas Star Tabloid",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Citizens of the stars! We are back for a new edition of the Punaab Whisper, featuring one of the galaxy’s favorite urban legends today: the Wandering Caravan !",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This intrepid reporter has traveled the entire medium-risk zone searching for the (in)famous artist group, which is said to appear out of thin air — or no air at all — to perform on planets and space stations across the galaxy.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Children all over the universe dream of watching what has been described as the ‘ethereal’ performance of the group. Curiously enough, a performance has never been recorded, adding more mystery to the troupe’s very existence.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "After traveling across many star systems in our Lowbie, the Truth-Seeker, we have yet to uncover any conclusive proof of their activity.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Nevertheless, we managed to acquire from a relic trader a book published after the Convergence War which gives the details, as we know them, of the itinerant group:",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "The Wandering Caravan",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "As it’s called in the MUD language, the Wandering Caravan is a legendary artists group assembled during the Convergence Wars that performs through different regions of the cosmos.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In the places where the Wandering Caravan stops, it is always a jaw-dropping event filled with mesmerizing performances and tales from every corner of the universe. It is said this epic show can even reshape its audience’s comprehension of the limits of reality.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The Caravan is always composed of 33 different artists that wear 33 different masks. Every artist is constantly training a disciple, following the maxim that the show must always go on. Those artists come from every race in the universe, and the recruitment process is unclear.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The Caravan does not have a home to call their own, always wandering wherever the cosmic currents take them. However, some experts theorize they have a hidden yet still unknown motivation.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "That’s because, in moments of enormous distress, such as the apex of the Convergence War, the Caravan suddenly seems to spawn from nowhere, snatching the hearts of the crowds with their skillful plays.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Those fortunate few who have witnessed more than one Caravan performance say that no two performances are alike.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "As always, dear readers, it’s up to you to decide if this is truth or myth. We of the Punaab Whisper focus on presenting our community with facts, letting you draw your own conclusions!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Thank you for your support, and we hope you’ll be back for the next issue when we look at a most exotic and nearly extinct plant that is said to have a very particular property. So keep your eyes open, and have a good weekend!",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Updates",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "After our incursion on SCREAM and the gossip of the Punaab Whisper, let us take a look at what the Star Atlas team accomplished in the last three weeks in terms of corporate infrastructure, development of projects, and community building.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The first stop is the Sapient Resources Report.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Sapient Resources Department Report",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Unbeliavable, why are all the super talented people going to just one company?!",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "The Sapient Resources Department continue their work of acquiring talent for the Star Atlas project. Let’s check in on their progress for the last three weeks!",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Communication",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "These have been epic weeks for the soldiers on the front lines of Star Atlas. The communications team supported many events while keeping the community up to date with the developments of various Star Atlas projects. Check out their work!",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "The Atlas Brew",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "The Atlas Brew is keeping its pace, doing what it does best, theory crafting about Star Atlas! In the past weeks, our members discussed many different topics, such as:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "a) The logic of ships manufacturers, including strategies to think about your fleet composition",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "b) How the economy in the low-risk zone will probably work and how you can position yourself for it",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "c) The fantastic community events we are having right now, like the Sandbox partnership and the Tuffa Attack tournament",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "You can watch/listen to the episodes on the YouTube channels offered by our community by clicking on the links below:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Episode # 10 — Ships:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "https://www.youtube.com/watch?v=M3Vf-p2azhU",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Episode # 11 — Low-Risk Zone:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "https://www.youtube.com/watch?v=Fig8hn_WYtU",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Episode #12 — Community Events:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "https://www.youtube.com/watch?v=P-Ltw9O95oA",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Roadmap Lore Reports",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "The beautiful face of power is pleasure /// Metaverse in Light Speed Expansion /// Immersive Blockchain-Powered UE5 Experience",
+      "type": "caption"
+    },
+    {
+      "level": null,
+      "text": "We discovered some exciting developments in the weekly lore! Wenn and his old friend agent M4 found themselves escaping from one deadly situation to fall straight into another!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In the first TUFA ATTACK: Star Atlas Roadmap Scan #05 , Wenn and M4 are chased by two tufa feists while navigating through an asteroid field. Wenn creates a last-minute plan during a fast-paced battle, and their Busan Thrill of Life manages to warp into the unknown…",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In the subsequent episode, Punaab Howl: Star Atlas Roadmap Scan #06 , We learn that Wenn and M4 crash on the icy planet Gerio. The injured agents find themselves in an unlikely stand-off with a couple angry Punaabs when something even scarier decides to join the fray…",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Event Updates",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "The past weeks have been filled with thrilling events for the Star Atlas community! Star Atlas left its mark on the fiat and crypto worlds from the Caribbean to the shores of South Beach.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "FTX Off The Grid — Miami Beach Race Weekend",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas rocked the festival with its gaming lounge! Our community and new visitors were spoiled with really cool t-shirts, NFTs, alpha videos, and fun with our team! The festival vibe was high, and people enjoyed the other many attractions, ranging from DJs to getting your own free, custom-designed NFT mint!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The whole event was streamed for the community members who couldn’t attend in person, and our legendary media hostess Ashley Harris provided us with an exclusive live view of everything that was going on!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "One of the event’s highlights was the panel that featured Michael Wagner, our intrepid CEO, explaining the Star Atlas vision to the public. Another was Ashley’s interview with Christopher, a representative from Spearsoft, the studio that is working together with Star Atlas on the development of the Showroom project.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Check both talks and more in the links below:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "FTX Panel:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "https://vimeo.com/709505631/5a9b40f399",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Christopher — Spearsoft:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "https://vimeo.com/709522040/eb6fcd199e",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Highlights of the event:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "https://youtu.be/o0aDkmNfUtc",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Crypto Bahamas",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Crypto Bahamas was a massive event for Star Atlas. We shared our project with the world and connected with key players from the crypto and fiat systems. Our CEO, Michael Wagner participated in a panel discussion on the FTX stage.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Star Atlas VoxEdit Contest",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "We were also excited to announce a historic partnership between two metaverses: Star Atlas and The Sandbox in the VoxEdit competition! From May 2–15, members of the Star Atlas and Sandbox communities are invited to create NPC characters based on the factions of Star Atlas to acquire incredible prizes!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "The competition for the prizes has been fierce, with both communities dedicating themselves to reaching the first spot! However, it’s not too late to submit your entry. By clicking here , you will learn all the requirements needed for your chance to win the following epic prizes:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "1ST place : 20,000 SAND & an Opal Bitboat Ship",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "2ND place: 15,000 SAND & 2X Calico ATS Enforcer Ship & Calico Medtech Ship",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "3RD place: 8,000 SAND & an Ogrika Mik Ship, Busan Thrill of Life Ship & Calico Medtech Ship",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "4TH to 10TH: 1,000 SAND & Busan Thrill of Life Ship",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "The Tufa Attack Community Tournament",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Our community-made and beloved mini-game started with a blast! There was fierce competition with more than five hundred players signed up, each with the hope of winning the ultimate glory of being crowned the first Star Atlas community champion! Oh, and some excellent ships are available as prizes as well!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This arcade-like game that has won our hearts is free to play for anyone. Tomorrow we will be able to watch the final rounds and witness history. Look for the live stream on the Star Atlas Discord server starting at 12 PM PST!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Even though entries for this tournament are already closed, you can start training for the next one! Click on the link below, download and install the opera GX browser and start playing here:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "https://gxc.gg/games/h5jctu/star-atlas-tufa-attack/",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Product Development",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "We also want to share the latest on the different products fronts. Follow the updates of the GAO ship drop , Showroom, SCREAM, Galactic Marketplace, Polis Dao and System Polishing.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "GAO Phase 2 Progress",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Our manufacturers keep building in their factories! Two new ships, with different specs, have been released to the community and continue to build up the supply we need for our end-of-year plans!",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Check them out:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Hey! I can terraform as well! Let me show you.",
+      "type": "caption"
+    },
+    {
+      "level": 2,
+      "text": "Calico ATS Enforcer",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Calico’s new fighter performs well in any situation, from layings sieges to dog-fighting. This bad boy has the perfect tool for any type of encounter. But be sure to take special care with its capital-sized mega-turret. Spoiler alert, it really packs a punch!.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Pearce R6 ready for action!",
+      "type": "caption"
+    },
+    {
+      "level": 2,
+      "text": "Pearce R6",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "The Pearce R6 excels in its function, being a small and agile repair ship. It’s always ready for deployment and will offer much-needed support. As the manufacturer likes to say: “Whether the mission calls for rejuvenating a decimated battlefield or maintaining active-duty vessels, a fleet of these ships will keep the whole team shining and moving.” Pearce is not known for kidding around.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Projects Report Weekly Update",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "As per our tradition, we’re giving our courageous Lieutenant Wenn a break on Atlas Star weeks. He will need whatever rest he can get for the next episode.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Next, you will find the updates on our different projects, as well as our roadmap update .",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Project: Showroom Alpha — Weekly Update",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Concept Art: DONE /// Art: BUILDING /// UX/UI: BUILDING /// Game Design: DONE /// Blockchain: BUILDING /// Core Gameplay Development: BUILDING",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Updates : Environment art is in progress — all geometry is placed — working on quality. Lighting — keep tweaking light sources to increase quality. VFX — working on exterior effects. Started performance testing. /// Terminals-related UI is being visually tweaked in Engine after art integration. Working on Splash screen. /// UX is ready, wireframes are done. /// UI general system (buttons/pop ups/windows), Ship pads and Ships Database in progress.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Upcoming activities : Continue to work on Alpha-quality for all environment depts. Performance passes and captures monitoring. /// Integrate HUD UI for testing. /// Wallet testing. /// Players profile.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Project: Ship Missions — SCREAM — Weekly Update",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Game Design: PROTOTYPING /// Blockchain: PROTOTYPING/// UX/UI: PROTOTYPING /// Economy Design: R&D /// Front End: PROTOTYPING",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Updates : Continuing to define explicit requirements for core gameplay mechanics and game systems design. Locked in points progression mechanics. /// Continuing to build one program with locked in-game mechanics (hangar program). Continuing to work on prototyping two other programs which have dependencies on the hangar program.. /// Continuing low fidelity wireframes based on updated requirements. Continuing Information Architecture map. Deep review with Game Design lead and Product Manager. /// Continuing to assess economic implications of gameplay mechanics and SCREAM requirements. Focusing on R4 mechanics. /// Adding gameplay depth to WebGL Proof of Concept. Adding depth to ship movement functionality and intra-star system mechanics (will take a few weeks).",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Upcoming activities : Continue to define explicit requirements for core gameplay mechanics and incorporate feedback from SCREAM stakeholders. Validate gameplay loops playability with WebGL Proof of Concept. Assess feasibility of game mechanics with blockchain program proof of concepts. Validate economic viability from internal Game Economics team. Guide UX/UI design based on game mechanics. /// Test and refine prototypes across all SCREAM teams and stakeholders. Build, peer review, and test programs on testnet, then audit. /// Review wireframes with Project Stakeholders. Continue to iterate until wireframes are approved. Hand over wireframes to UI team. /// Continue to analyze the economic impacts of SCREAM to validate the viability of gameplay loops and key requirements. /// Validate gameplay loops and key SCREAM concepts with Proof of Concept.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Project: Galactic Marketplace — Weekly Update",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Blockchain: BUILDING /// UX/UI: BUILDING /// FRONT END: BUILDING",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Updates : Audit for marketplace program received: minor fixes required and currently being addressed. /// Addressed feedback in high fidelity designs. /// Finished bookmarks page, filter sidebar implementation is ongoing as well as the “my orders” page.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Upcoming activities : Update Factory to allow connecting to the site’s backend. Finish ATLAS Staking implementation. /// Support front-end team throughout the final implementation of the new marketplace. /// Update tables to use real-time mock data, address UI changes, replace real-time mock data with blockchain data.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Project: DAO — Weekly Update",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "UX/UI: BUILDING /// Front End: BUILDING /// Blockchain: BUILDING /// ECONOMICS: EXPLORATION",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Updates: Continuing to work on High-fidelity designs. /// Continuing to convert wireframes to base UI. /// Program is functionally complete. /// Determining launch parameters for locker and governor programs.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Upcoming activities: V0 UX completion. /// Incorporate high-fidelity designs. /// Cleanup and refactoring. Start Audits. /// Calculate rewards schedule",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Project: System Polishing",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Bug fixes: Player net worth not accurate on profile. /// Badges not available on the player profile. /// Player location/avatar will not update on profile. /// Added more precision to ATLAS on R4 markets. ///",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "New Features: Fixed Amplitude instance initialization — Analytics Service is now deployed and ready to use. /// Bundle of GDPR compliance features. /// E2E testing framework deployed and ready to use.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Upcoming features: Bugfix: (on mobile) Star Atlas logo overlaps navigation. /// Feature: Enhanced security protocols. /// Feature: Enhanced account switching with Phantom. /// Bugfix: Ships can’t be withdrawn from Faction Fleet if a rent account is missing. /// Bugfix: Some mobile platforms can’t accept the terms of service.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "This article is provided for informational purposes only about the Star Atlas game and metaverse, for which ATMTA, Inc. is the lead developer. Except for statements of historical fact, the statements included herein are forward-looking statements that are based on the beliefs of ATMTA, Inc.’s management as well as assumptions made by and information currently available to ATMTA, Inc.’s management. Although ATMTA, Inc.’s management believes these forward-looking statements are based on reasonable assumptions, there can be no assurance that forward-looking statements will prove to be accurate, as actual results and future events could differ materially from those anticipated in such statements. ATMTA, Inc. undertakes no obligation to update forward-looking statements if circumstances or management’s estimates or opinions should change except as required under applicable law. These forward-looking statements are, by their nature, subject to significant risks and uncertainties and include, without limitation, statements about ATMTA, Inc.’s business prospects, future developments, industry and market trends and conditions, strategies, objectives, and goals. These statements are not guarantees of future performance and undue reliance should not be placed on them. No financial, tax, or legal advice is given or implied.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "ABOUT STAR ATLAS",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas is a next-gen gaming Metaverse emerging from the confluence of state of the art blockchain, real-time graphics, multiplayer video game, and decentralized financial technologies.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Real-time graphics technology using Unreal Engine 5’s Nanite allows for cinematic quality video game visuals. Blockchain technology using the Solana protocol establishes a largely serverless and secured gameplay experience. Non-fungible tokens obtained and traded within Star Atlas create an economy that replicates the tangibility of real world assets and ownership. To learn more, visit StarAtlas.com , join a faction at Play.StarAtlas.com and send your spaceships on a deep space mission by enrolling them into a Faction Fleet .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "JOIN OUR COMMUNITY",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Twitter | Discord | YouTube | Instagram | Reddit | Facebook | LinkedIn | Twitch | Tik Tok | Telegram | Audius | Medium",
+      "type": "paragraph"
+    }
+  ],
+  "content_sha256": "989aa79eb9bc1a500bee09bee86fc5a4accafc1d2f1787c78ec83e5c6ce8864c",
+  "embeds": [],
+  "images": [
+    {
+      "alt_text": "Star Atlas",
+      "article_order": 1,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png",
+      "placement_block": null,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    }
+  ],
+  "outbound_links": [
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas",
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F6850bfab5a60&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-7-6850bfab5a60&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F6850bfab5a60&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-7-6850bfab5a60&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6850bfab5a60&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-7-6850bfab5a60"
+    },
+    {
+      "placement_block": null,
+      "text": "Listen",
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D6850bfab5a60&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-7-6850bfab5a60"
+    },
+    {
+      "placement_block": null,
+      "text": "project developments",
+      "url": "https://www.notion.so/staratlas/72cb710bbd894cd8819bde948e42ac31?v=6146a2da2c0a45b58e0c4fb1c0a2d845"
+    },
+    {
+      "placement_block": null,
+      "text": "White Paper",
+      "url": "https://staratlas.com/assets/pdfs/white-paper.pdf"
+    },
+    {
+      "placement_block": null,
+      "text": "Economics Paper",
+      "url": "https://staratlas.com/economics-paper.pdf"
+    },
+    {
+      "placement_block": null,
+      "text": "https://www.youtube.com/watch?v=M3Vf-p2azhU",
+      "url": "https://www.youtube.com/watch?v=M3Vf-p2azhU"
+    },
+    {
+      "placement_block": null,
+      "text": "https://www.youtube.com/watch?v=Fig8hn_WYtU",
+      "url": "https://www.youtube.com/watch?v=Fig8hn_WYtU"
+    },
+    {
+      "placement_block": null,
+      "text": "https://www.youtube.com/watch?v=P-Ltw9O95oA",
+      "url": "https://www.youtube.com/watch?v=P-Ltw9O95oA"
+    },
+    {
+      "placement_block": null,
+      "text": "TUFA ATTACK: Star Atlas Roadmap Scan #05",
+      "url": "https://medium.com/star-atlas/tufa-attack-star-atlas-roadmap-scan-05-65e22130f775"
+    },
+    {
+      "placement_block": null,
+      "text": "Punaab Howl: Star Atlas Roadmap Scan #06",
+      "url": "https://medium.com/star-atlas/punaab-howl-star-atlas-roadmap-scan-06-6035e561dba3"
+    },
+    {
+      "placement_block": null,
+      "text": "https://vimeo.com/709505631/5a9b40f399",
+      "url": "https://vimeo.com/709505631/5a9b40f399"
+    },
+    {
+      "placement_block": null,
+      "text": "https://vimeo.com/709522040/eb6fcd199e",
+      "url": "https://vimeo.com/709522040/eb6fcd199e"
+    },
+    {
+      "placement_block": null,
+      "text": "https://youtu.be/o0aDkmNfUtc",
+      "url": "https://youtu.be/o0aDkmNfUtc"
+    },
+    {
+      "placement_block": null,
+      "text": "Michael Wagner participated in a panel discussion",
+      "url": "https://www.instagram.com/p/Cc6AUOjBc4A"
+    },
+    {
+      "placement_block": null,
+      "text": "here",
+      "url": "https://t.co/v4n34E6wRh"
+    },
+    {
+      "placement_block": null,
+      "text": "https://gxc.gg/games/h5jctu/star-atlas-tufa-attack/",
+      "url": "https://gxc.gg/games/h5jctu/star-atlas-tufa-attack"
+    },
+    {
+      "placement_block": null,
+      "text": "roadmap update",
+      "url": "https://staratlas.notion.site/staratlas/72cb710bbd894cd8819bde948e42ac31?v=313101ae608947c9856abad44577194b"
+    },
+    {
+      "placement_block": null,
+      "text": "Solana",
+      "url": "http://solana.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "StarAtlas.com",
+      "url": "https://staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Play.StarAtlas.com",
+      "url": "http://play.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Faction Fleet",
+      "url": "https://play.staratlas.com/fleet"
+    },
+    {
+      "placement_block": null,
+      "text": "Twitter",
+      "url": "https://twitter.com/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord",
+      "url": "https://discord.gg/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube",
+      "url": "https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw"
+    },
+    {
+      "placement_block": null,
+      "text": "Instagram",
+      "url": "https://www.instagram.com/staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Reddit",
+      "url": "https://www.reddit.com/r/StarAtlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Facebook",
+      "url": "https://www.facebook.com/StarAtlasMMO"
+    },
+    {
+      "placement_block": null,
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/company/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Twitch",
+      "url": "https://www.twitch.tv/staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Tik Tok",
+      "url": "https://www.tiktok.com/@staratlasmetaverse"
+    },
+    {
+      "placement_block": null,
+      "text": "Telegram",
+      "url": "https://t.me/staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Audius",
+      "url": "https://audius.co/staratlasbeats"
+    },
+    {
+      "placement_block": null,
+      "text": "Medium",
+      "url": "https://medium.com/star-atlas"
+    }
+  ],
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "retrieval": {
+    "attempts": [
+      {
+        "byte_count": 434203,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2022-05-13T21:22:07Z",
+            "dateModified": "2022-06-06T15:18:06Z",
+            "datePublished": "2022-05-13T21:22:07Z",
+            "description": "The Atlas Star ✧ Issue #7 A tale about building a new world… Attention, Deep Space Explorers! All citizens of the stars are feeling the cosmic currents of change. From the faction’s homeworlds …",
+            "headline": "The Atlas Star ✧ Issue #7",
+            "identifier": "6850bfab5a60",
+            "image": [
+              "https://miro.medium.com/0*_OZbw6C7_13_lQAK"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+            "name": "The Atlas Star ✧ Issue #7",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60"
+          },
+          "text_length": 31656
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+        "http_status": 200,
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60"
+          }
+        ],
+        "requested_url": "http://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+        "sha256": "c935088c4e515020800e137c7ddf9d39be3a065429bcd6ce2c9d416f87992b15",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "captured_at": "2026-07-18T04:28:49Z",
+    "content_type": "text/html; charset=utf-8",
+    "discovery_sources": [
+      "profile_page_browser",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BD0CD688817291A3.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+    "http_status": 200,
+    "raw_byte_count": 434203,
+    "raw_sha256": "c935088c4e515020800e137c7ddf9d39be3a065429bcd6ce2c9d416f87992b15",
+    "redirect_chain": [
+      {
+        "from": "http://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+        "status": 301,
+        "to": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60"
+      }
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-584D26D0C7C31658"
+    ],
+    "requested_url": "http://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+    "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-6850BFAB5A60/article.html",
+    "selected_tier": "LIVE_DIRECT_HTML"
+  },
+  "source": {
+    "authors": [
+      "Star Atlas"
+    ],
+    "canonical_url": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+    "document_type": "WRITTEN_PUBLICATION",
+    "language": "English",
+    "medium_post_id": "6850bfab5a60",
+    "observed_urls": [
+      "http://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+      "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F6850bfab5a60&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fthe-atlas-star-issue-7-6850bfab5a60&source=---------112-------------5ed69ff9cfb0----bookmark_preview------------------",
+      "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60",
+      "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60?source=post_page-----674ef7fd04d5----2----------------------------",
+      "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60?source=social.tw&_branch_match_id=1054986241867376139&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1Q%2F1NYhyDnAqNyhIAgBNm4fJIwAAAA%3D%3D",
+      "https://staratlasgame.medium.com/the-atlas-star-issue-7-6850bfab5a60?source=user_profile_page---------112-------------5ed69ff9cfb0----------------------"
+    ],
+    "publication_identity": {
+      "@context": "https://schema.org",
+      "@id": "https://medium.com/star-atlas",
+      "@type": "Organization",
+      "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+      "logo": {
+        "@type": "ImageObject",
+        "height": 1215,
+        "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+        "width": 1485
+      },
+      "name": "Star Atlas",
+      "sameAs": [
+        "https://twitter.com/StarAtlas",
+        "https://facebook.com/staratlasmmo",
+        "https://instagram.com/staratlasgame/"
+      ],
+      "url": "https://medium.com/star-atlas"
+    },
+    "published_at_normalized": "2022-05-13T21:22:07Z",
+    "published_at_original": "2022-05-13T21:22:07Z",
+    "publisher": "Star Atlas",
+    "reading_time_original": "20 min read",
+    "retrieved_at": "2026-07-18T04:28:49Z",
+    "source_id": "SRC-MEDIUM-STARATLAS-6850BFAB5A60",
+    "source_role": "OFFICIAL_MEDIUM_ARTICLE",
+    "subtitle": "The Atlas Star ✧ Issue #7 A tale about building a new world… Attention, Deep Space Explorers! All citizens of the stars are feeling the cosmic currents of change. From the faction’s homeworlds …",
+    "tags": [],
+    "title": "The Atlas Star ✧ Issue #7",
+    "updated_at_normalized": "2022-06-06T15:18:06Z",
+    "updated_at_original": "2022-06-06T15:18:06Z",
+    "url": "https://medium.com/star-atlas/the-atlas-star-issue-7-6850bfab5a60"
+  },
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  }
+}

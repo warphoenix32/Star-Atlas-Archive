@@ -1,0 +1,112 @@
+{
+  "attempts": [
+    {
+      "byte_count": 158876,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 410",
+      "final_url": "https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+      "http_status": 410,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+      "sha256": "f5ce8c517caabbd9d0ca9ece4efcc1700f22b10415247b52d2b41db645dfded7",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 160338,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+      "http_status": 410,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+      "sha256": "91d9fbbfa3c177c9535841fd5dc196cb898495bdfcc31d92c92cf2a4c8524dc6",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 130088,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-04-03T17:34:37.991Z",
+          "dateModified": "2021-04-15T18:11:39.736Z",
+          "datePublished": "2021-04-03T17:34:37.991Z",
+          "description": "Star Atlas, a space exploration strategy game and blockchain-driven virtual metaverse, has announced its partnership with Unicly, an NFT fractionalization platform. Unicly is positioned to host the…",
+          "headline": "Star Atlas Partners With Unicly To Offer Fractionalized NFTs",
+          "identifier": "b60f159a77d7",
+          "image": [
+            "https://miro.medium.com/max/1200/1*3ulrUrPUJkm6odZ1PfFlzg.png"
+          ],
+          "keywords": [
+            "Lite:true",
+            "Tag:Metaverse",
+            "Tag:Gaming",
+            "Tag:Nft",
+            "Tag:Defi",
+            "Tag:Blockchain",
+            "Publication:star-atlas",
+            "Elevated:false",
+            "LockedPostSource:LOCKED_POST_SOURCE_NONE",
+            "LayerCake:0"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+          "name": "Star Atlas Partners With Unicly To Offer Fractionalized NFTs",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7"
+        },
+        "text_length": 4094
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20210419081202id_/https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20210419081202id_/https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+      "sha256": "bb5700ebee145e40791eae7b94b4718b146e13f8d3683d601fbb8073595c2db0",
+      "snapshot": {
+        "digest": "UGETTQQG4HYEJ2UOVKMNXMJA5JNY5G2X",
+        "original_url": "https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+        "timestamp": "20210419081202"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:14Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "web_archive:wayback-custom-domain",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20210419081202id_/https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+  "http_status": 200,
+  "raw_byte_count": 130088,
+  "raw_sha256": "bb5700ebee145e40791eae7b94b4718b146e13f8d3683d601fbb8073595c2db0",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20210419081202id_/https://medium.com/star-atlas/star-atlas-partners-with-unicly-to-offer-fractionalized-nfts-b60f159a77d7",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-B60F159A77D7/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

@@ -1,0 +1,167 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+  "collected": "2026-07-18T04:28:57Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 2,
+  "media_successes": 0,
+  "normalized_content_sha256": "817daad069dc757b0909936a64d033b205097fb54746249e75ca65bc3e1e75c1",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-7A18D2D33371.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-7A18D2D33371.md",
+  "observed_urls": [
+    "http://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+    "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+    "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371?source=rss------blockchain-5",
+    "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371?source=rss------blockchain-5&utm_source=dlvr.it&utm_medium=twitter"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0AED270D51ACD552.json",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-44DE029022F88A60.json",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-4EAAA31A80812F1F.json",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-E637028C93E4EE33"
+    ],
+    "retrieval_attempts": [
+      {
+        "byte_count": 158788,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 410",
+        "final_url": "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+        "http_status": 410,
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371"
+          }
+        ],
+        "requested_url": "http://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+        "sha256": "de8a283a3a6f2db957a7a5e438e9a85896ceb923d90e18b5eb87e2be84331f4a",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 161148,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+        "http_status": 410,
+        "redirect_chain": [],
+        "requested_url": "http://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+        "sha256": "feb13d8659a752525c2c9d2be7de9e8115f73f6d4463004f943b441dd1b3792f",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 94391,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2021-08-04T23:02:51.165Z",
+            "dateModified": "2021-08-04T23:02:51.397Z",
+            "datePublished": "2021-08-04T23:02:51.165Z",
+            "description": "Owners of Meta-Posters and other in-game assets can now buy and sell NFTs directly within Star Atlas at Solana powered Serum integrated marketplace at staratlas.com/market",
+            "headline": "The Solana-Powered Core of Star Atlas Goes Live: The Galactic Marketplace Becomes Fully Operational",
+            "identifier": "7a18d2d33371",
+            "image": [
+              "https://miro.medium.com/max/1200/1*jVPtjIYDqcSoVOIY70JU4Q.png"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371",
+            "name": "The Solana-Powered Core of Star Atlas Goes Live: The Galactic Marketplace Becomes Fully Operational",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371"
+          },
+          "text_length": 3983
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20210804231530id_/https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371?source=rss------blockchain-5",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20210804231530id_/https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371?source=rss------blockchain-5",
+        "sha256": "75e2792025d803637b5ac0ae2a0fdece45c5c62b279f1b42163d0d8892967207",
+        "snapshot": {
+          "digest": "ZXTMJFXYVVOMAXX2NA3LM2G6WQXXAEOZ",
+          "original_url": "https://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d33371?source=rss------blockchain-5",
+          "timestamp": "20210804231530"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2021-08-04T23:02:51.165000Z",
+  "published_at_original": "2021-08-04T23:02:51.165Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-7A18D2D33371/article.html",
+  "raw_sha256": "75e2792025d803637b5ac0ae2a0fdece45c5c62b279f1b42163d0d8892967207",
+  "source_id": "SRC-MEDIUM-STARATLAS-7A18D2D33371",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "The Solana-Powered Core of Star Atlas Goes Live: The Galactic Marketplace Becomes Fully Operational",
+  "updated_at_normalized": "2021-08-04T23:02:51.397000Z",
+  "updated_at_original": "2021-08-04T23:02:51.397Z"
+}

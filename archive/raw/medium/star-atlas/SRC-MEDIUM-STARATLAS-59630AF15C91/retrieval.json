@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 369954,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-atlas-star-issue-10-59630af15c91",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-08-26T19:48:59Z",
+          "dateModified": "2022-09-09T20:04:12Z",
+          "datePublished": "2022-08-26T19:48:59Z",
+          "description": "The Atlas Star ✧ Issue #10 A tale about building a new world… Sit down by the fire pit, Explorers, because this is where your journey begins. Prepare to take off and be guided through the realm …",
+          "headline": "The Atlas Star ✧ Issue #10",
+          "identifier": "59630af15c91",
+          "image": [
+            "https://miro.medium.com/0*70aphKphlunY-AS7"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-atlas-star-issue-10-59630af15c91",
+          "name": "The Atlas Star ✧ Issue #10",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-atlas-star-issue-10-59630af15c91"
+        },
+        "text_length": 28364
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-10-59630af15c91",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-10-59630af15c91",
+      "sha256": "e6843b41496820accc1d50679426d8338eb0f6369d9b2219ec17c4882b07028a",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:44Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-atlas-star-issue-10-59630af15c91",
+  "http_status": 200,
+  "raw_byte_count": 369954,
+  "raw_sha256": "e6843b41496820accc1d50679426d8338eb0f6369d9b2219ec17c4882b07028a",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-3EDACD33A5E551E9"
+  ],
+  "requested_url": "https://medium.com/star-atlas/the-atlas-star-issue-10-59630af15c91",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-59630AF15C91/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

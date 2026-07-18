@@ -1,0 +1,101 @@
+{
+  "attempts": [
+    {
+      "byte_count": 6013,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": "HTTP 429",
+      "final_url": "https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e",
+      "sha256": "a6d53269e46fc2251be438a51bfdf657312ab4021545bb9624b306ecdd695045",
+      "tier": "LIVE_DIRECT_HTML"
+    },
+    {
+      "byte_count": 27681,
+      "complete": false,
+      "decision": "ARTICLE_ELEMENT_MISSING",
+      "details": {},
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e",
+      "http_status": 429,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e",
+      "sha256": "3e3d8e917b06575b94690ba979b7755f2de8a692855a4cf98d79c6a60c9f3296",
+      "tier": "LIVE_PLAYWRIGHT_DOM"
+    },
+    {
+      "byte_count": 137873,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "http://schema.org",
+          "@type": "NewsArticle",
+          "author": {
+            "@type": "Person",
+            "name": "Star Atlas",
+            "url": "https://staratlasgame.medium.com"
+          },
+          "creator": [
+            "Star Atlas"
+          ],
+          "dateCreated": "2021-08-10T01:24:29.583Z",
+          "dateModified": "2022-04-28T21:29:19.705Z",
+          "datePublished": "2021-08-10T01:24:29.583Z",
+          "description": "ATLAS and POLIS, the 2 tokens powering the next-gen blockchain gaming metaverse, are set to be released as an Initial exchange offering (IEO) on FTX and an Initial DEX Offering (ID) on Raydium and Apollo-X.",
+          "headline": "So It Begins: Countdown to Launch of Star Atlas Token Sale on FTX, Raydium and Apollo-X",
+          "identifier": "e9e2043c6a9e",
+          "image": [
+            "https://miro.medium.com/max/1200/1*rPJTfywmm3tBeRTUeqeTGQ.png"
+          ],
+          "mainEntityOfPage": "https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e",
+          "name": "So It Begins: Countdown to Launch of Star Atlas Token Sale on FTX, Raydium and Apollo-X",
+          "publisher": {
+            "@type": "Organization",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 60,
+              "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+              "width": 73
+            },
+            "name": "Star Atlas",
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e"
+        },
+        "text_length": 4004
+      },
+      "error": null,
+      "final_url": "https://web.archive.org/web/20230128235839id_/https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e?_branch_match_id=1148031725785382354&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1fdNLwsKCfGIcsxMAgCJaJMUIwAAAA%3D%3D",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://web.archive.org/web/20230128235839id_/https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e?_branch_match_id=1148031725785382354&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1fdNLwsKCfGIcsxMAgCJaJMUIwAAAA%3D%3D",
+      "sha256": "63afac69d08e6cdb89bd906bb633d8ea1cdea732f4cb840384e512851cae0113",
+      "snapshot": {
+        "digest": "AQOUUFH7RFMC2EP44CCTACHG5SIU5EEB",
+        "original_url": "https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e?_branch_match_id=1148031725785382354&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1fdNLwsKCfGIcsxMAgCJaJMUIwAAAA%3D%3D",
+        "timestamp": "20230128235839"
+      },
+      "tier": "WEB_ARCHIVE_SNAPSHOT"
+    }
+  ],
+  "captured_at": "2026-07-18T04:30:19Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-09585A56D6560A93.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://web.archive.org/web/20230128235839id_/https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e?_branch_match_id=1148031725785382354&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1fdNLwsKCfGIcsxMAgCJaJMUIwAAAA%3D%3D",
+  "http_status": 200,
+  "raw_byte_count": 137873,
+  "raw_sha256": "63afac69d08e6cdb89bd906bb633d8ea1cdea732f4cb840384e512851cae0113",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://web.archive.org/web/20230128235839id_/https://medium.com/star-atlas/countdown-launch-star-atlas-token-sale-ftx-raydium-apollo-x-e9e2043c6a9e?_branch_match_id=1148031725785382354&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXz8nMy9bLTU3JLM3VS87P1fdNLwsKCfGIcsxMAgCJaJMUIwAAAA%3D%3D",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-E9E2043C6A9E/article.html",
+  "selected_tier": "WEB_ARCHIVE_SNAPSHOT"
+}

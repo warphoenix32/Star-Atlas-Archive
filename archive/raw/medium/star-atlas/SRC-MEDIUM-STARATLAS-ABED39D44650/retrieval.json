@@ -1,0 +1,102 @@
+{
+  "attempts": [
+    {
+      "byte_count": 233586,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-07-07T22:12:57Z",
+          "dateModified": "2021-07-08T14:45:26Z",
+          "datePublished": "2021-07-07T22:12:57Z",
+          "description": "Star Atlas To Sponsor Play to Earn Game Festival Star Atlas will illuminate the metaverse as an event sponsor for the Play to Earn Game Festival. The festival, which will take place on July 12th in …",
+          "headline": "Star Atlas To Sponsor Play to Earn Game Festival",
+          "identifier": "abed39d44650",
+          "image": [
+            "https://miro.medium.com/1*rmHaQB0424NyDacYbhcAnA.png"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650",
+          "name": "Star Atlas To Sponsor Play to Earn Game Festival",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650"
+        },
+        "text_length": 4111
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650",
+      "http_status": 200,
+      "redirect_chain": [
+        {
+          "from": "http://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650",
+          "status": 301,
+          "to": "https://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650"
+        }
+      ],
+      "requested_url": "http://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650",
+      "sha256": "9374e2146e1b389bcb42cc569add63ea36fdddce4caa57bd740681c1a4e80cd6",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:29:10Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650",
+  "http_status": 200,
+  "raw_byte_count": 233586,
+  "raw_sha256": "9374e2146e1b389bcb42cc569add63ea36fdddce4caa57bd740681c1a4e80cd6",
+  "redirect_chain": [
+    {
+      "from": "http://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650"
+    }
+  ],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-7767CD72A74CC3C7"
+  ],
+  "requested_url": "http://medium.com/star-atlas/star-atlas-to-sponsor-play-to-earn-game-festival-abed39d44650",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-ABED39D44650/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

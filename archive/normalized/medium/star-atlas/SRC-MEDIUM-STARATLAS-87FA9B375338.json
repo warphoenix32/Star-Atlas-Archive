@@ -1,0 +1,466 @@
+{
+  "article_text": "Building the largest space MMO crypto game has forced us at Star Atlas to solve challenges few teams encounter. Out of that journey came Star Frame, a framework born from necessity. Today, we’re open-sourcing it to give every Solana developer the tools to overcome the technical limitations that hold back complex program development.\n\nSolana has supported us from the very beginning, and Star Atlas wouldn’t be what it is today without that foundation. Open-sourcing Star Frame is our way of giving back so other developers on Solana can go further, faster.\n\nWhat is Star Frame?\n\nStar Frame is a new framework for writing complex, secure, scalable Solana programs.\n\nStar Frame was built to overcome the technical hurdles that have historically made complex Solana programs difficult to develop. Its flexible, trait-based architecture, dynamic account support, and AccountSet lifecycle give developers the tools to build sophisticated, secure applications more confidently, unlocking new possibilities across the Solana ecosystem.\n\nStar Frame’s Importance\n\nStar Frame is a modular, trait-based framework that gives Solana developers unmatched flexibility, performance, and safety for building complex programs. By leveraging Rust’s trait system, it provides a customizable toolbox of components that can be adapted to any use case. This architecture enables developers to push past existing limitations while fully harnessing Solana’s high-performance runtime.\n\nStar Frame Design Principles\n\nStar Frame is built on three core principles:\n\nModularity: A trait-based design with practical default implementations gives developers the freedom to plug in or reimplement components, making it flexible enough for a wide range of use cases.\n\nPerformance: Near-zero-cost abstractions and zero-copy data structures keep compute overhead low, ensuring developers can dedicate more resources to their own business logic.\n\nSafety: Compile-time validation reduces runtime errors, enhancing security for mission-critical logic and tightening the development loop, allowing for faster iteration and program development.\n\nKey Components of Star Frame\n\nUnsized Type System: Dynamic, zero-copy data structures like resizable lists, maps, and sets let developers build applications that run with near raw-memory efficiency. In practice, this means everything from massive player inventories in games to complex order books in DeFi can be handled with minimal overhead and cost.\n\nAccount Set Lifecycle : A built-in three-stage process (Decode, Validate, Cleanup) takes the guesswork out of account validation. It ensures security, correctness, and reliability by handling the critical details that are often overlooked, giving developers confidence that their programs are secure by design.\n\nTrait-based Abstraction: At its core, Star Frame provides a flexible toolbox of reusable behaviors. Developers can use the defaults or extend them to fit unique needs, enabling faster innovation without sacrificing safety or performance.\n\nStar Frame Benchmarks\n\nAnchor Bench\n\nhttps://github.com/solana-foundation/anchor/tree/master/tests/bench\n\nWe reimplemented Anchor’s bench program in Star Frame (bench.so) and ran benchmarks to see how it performs. Anchor has paved the way for Solana development, and our results show how Star Frame builds on that foundation, providing additional flexibility and efficiency for complex programs.\n\nStar Frame Links\n\nSource Code: https://github.com/staratlasmeta/star_frame\n\nRust crate: https://crates.io/crates/star_frame\n\nBuild page: https://build.staratlas.com/dev-resources/star-frame\n\nDocumentation: https://docs.rs/star_frame/latest/star_frame/\n\nWith Star Frame now open to everyone, we can’t wait to see what the Solana community builds next.\n\nABOUT STAR ATLAS\n\nStar Atlas is an immersive, high-fidelity, world-building space adventure and grand strategy MMO built in Unreal Engine 5 and sustained by a real, galactic marketplace and economy.\n\nBuilt as a fully decentralized universe leveraging state-of-the-art blockchain using the Solana protocol, Star Atlas allows players to own and define their story and experience, while interacting in a live, dynamic, community-focused and controlled economy. Empowering a sustainable ecosystem is about allowing true asset ownership, marketability, co-creation, and driving true utility in the Star Atlas universe.\n\nIn Star Atlas, you explore space and distant planets, build powerful fleets and assemble crew to navigate, mine, craft, even conquer, while participating in a global, borderless digital economy — ultimately putting the power fully in the hands of the people.\n\nFind out more about Star Atlas by visiting www.Staratlas.com and our marketplace at www.Playstaratlas.com .\n\nStar Atlas Unreal Engine game experience is also available to download and play on Epic Games Store — join our Discord to get game key access and be part of our thriving community! You can also participate in governance of the Star Atlas DAO .\n\nJoin the Star Atlas community on: Twitter | Discord | YouTube | Reddit | Medium | LinkedIn",
+  "blocks": [
+    {
+      "level": null,
+      "text": "Building the largest space MMO crypto game has forced us at Star Atlas to solve challenges few teams encounter. Out of that journey came Star Frame, a framework born from necessity. Today, we’re open-sourcing it to give every Solana developer the tools to overcome the technical limitations that hold back complex program development.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Solana has supported us from the very beginning, and Star Atlas wouldn’t be what it is today without that foundation. Open-sourcing Star Frame is our way of giving back so other developers on Solana can go further, faster.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "What is Star Frame?",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Star Frame is a new framework for writing complex, secure, scalable Solana programs.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Star Frame was built to overcome the technical hurdles that have historically made complex Solana programs difficult to develop. Its flexible, trait-based architecture, dynamic account support, and AccountSet lifecycle give developers the tools to build sophisticated, secure applications more confidently, unlocking new possibilities across the Solana ecosystem.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Star Frame’s Importance",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Star Frame is a modular, trait-based framework that gives Solana developers unmatched flexibility, performance, and safety for building complex programs. By leveraging Rust’s trait system, it provides a customizable toolbox of components that can be adapted to any use case. This architecture enables developers to push past existing limitations while fully harnessing Solana’s high-performance runtime.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Star Frame Design Principles",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Star Frame is built on three core principles:",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Modularity: A trait-based design with practical default implementations gives developers the freedom to plug in or reimplement components, making it flexible enough for a wide range of use cases.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Performance: Near-zero-cost abstractions and zero-copy data structures keep compute overhead low, ensuring developers can dedicate more resources to their own business logic.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Safety: Compile-time validation reduces runtime errors, enhancing security for mission-critical logic and tightening the development loop, allowing for faster iteration and program development.",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Key Components of Star Frame",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Unsized Type System: Dynamic, zero-copy data structures like resizable lists, maps, and sets let developers build applications that run with near raw-memory efficiency. In practice, this means everything from massive player inventories in games to complex order books in DeFi can be handled with minimal overhead and cost.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Account Set Lifecycle : A built-in three-stage process (Decode, Validate, Cleanup) takes the guesswork out of account validation. It ensures security, correctness, and reliability by handling the critical details that are often overlooked, giving developers confidence that their programs are secure by design.",
+      "type": "list_item"
+    },
+    {
+      "level": null,
+      "text": "Trait-based Abstraction: At its core, Star Frame provides a flexible toolbox of reusable behaviors. Developers can use the defaults or extend them to fit unique needs, enabling faster innovation without sacrificing safety or performance.",
+      "type": "list_item"
+    },
+    {
+      "level": 2,
+      "text": "Star Frame Benchmarks",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Anchor Bench",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "https://github.com/solana-foundation/anchor/tree/master/tests/bench",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "We reimplemented Anchor’s bench program in Star Frame (bench.so) and ran benchmarks to see how it performs. Anchor has paved the way for Solana development, and our results show how Star Frame builds on that foundation, providing additional flexibility and efficiency for complex programs.",
+      "type": "paragraph"
+    },
+    {
+      "level": 2,
+      "text": "Star Frame Links",
+      "type": "heading"
+    },
+    {
+      "level": null,
+      "text": "Source Code: https://github.com/staratlasmeta/star_frame",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Rust crate: https://crates.io/crates/star_frame",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Build page: https://build.staratlas.com/dev-resources/star-frame",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Documentation: https://docs.rs/star_frame/latest/star_frame/",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "With Star Frame now open to everyone, we can’t wait to see what the Solana community builds next.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "ABOUT STAR ATLAS",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas is an immersive, high-fidelity, world-building space adventure and grand strategy MMO built in Unreal Engine 5 and sustained by a real, galactic marketplace and economy.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Built as a fully decentralized universe leveraging state-of-the-art blockchain using the Solana protocol, Star Atlas allows players to own and define their story and experience, while interacting in a live, dynamic, community-focused and controlled economy. Empowering a sustainable ecosystem is about allowing true asset ownership, marketability, co-creation, and driving true utility in the Star Atlas universe.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "In Star Atlas, you explore space and distant planets, build powerful fleets and assemble crew to navigate, mine, craft, even conquer, while participating in a global, borderless digital economy — ultimately putting the power fully in the hands of the people.",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Find out more about Star Atlas by visiting www.Staratlas.com and our marketplace at www.Playstaratlas.com .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Star Atlas Unreal Engine game experience is also available to download and play on Epic Games Store — join our Discord to get game key access and be part of our thriving community! You can also participate in governance of the Star Atlas DAO .",
+      "type": "paragraph"
+    },
+    {
+      "level": null,
+      "text": "Join the Star Atlas community on: Twitter | Discord | YouTube | Reddit | Medium | LinkedIn",
+      "type": "paragraph"
+    }
+  ],
+  "content_sha256": "b5bce7bf4fd331952a30ba952e38f255bacb71c7da8e90982bd8f73fff06fee8",
+  "embeds": [],
+  "images": [
+    {
+      "alt_text": "Star Atlas",
+      "article_order": 1,
+      "caption": null,
+      "figure_image_index": 0,
+      "original_url": "https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png",
+      "placement_block": null,
+      "retrieval_status": "URL_ONLY_OPERATOR_SCOPE"
+    }
+  ],
+  "outbound_links": [
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas",
+      "url": "https://medium.com/@staratlasgame"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fvote%2Fstar-atlas%2F87fa9b375338&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fopen-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Frepost%2Fp%2F87fa9b375338&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fopen-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338&user=Star+Atlas&userId=5ed69ff9cfb0"
+    },
+    {
+      "placement_block": null,
+      "text": null,
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F87fa9b375338&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fopen-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338"
+    },
+    {
+      "placement_block": null,
+      "text": "Listen",
+      "url": "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2Fplans%3Fdimension%3Dpost_audio_button%26postId%3D87fa9b375338&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fopen-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338"
+    },
+    {
+      "placement_block": null,
+      "text": "https://github.com/solana-foundation/anchor/tree/master/tests/bench",
+      "url": "https://github.com/solana-foundation/anchor/tree/master/tests/bench"
+    },
+    {
+      "placement_block": null,
+      "text": "https://github.com/staratlasmeta/star_frame",
+      "url": "https://github.com/staratlasmeta/star_frame"
+    },
+    {
+      "placement_block": null,
+      "text": "https://crates.io/crates/star_frame",
+      "url": "https://crates.io/crates/star_frame"
+    },
+    {
+      "placement_block": null,
+      "text": "https://build.staratlas.com/dev-resources/star-frame",
+      "url": "https://build.staratlas.com/dev-resources/star-frame"
+    },
+    {
+      "placement_block": null,
+      "text": "https://docs.rs/star_frame/latest/star_frame/",
+      "url": "https://docs.rs/star_frame/latest/star_frame"
+    },
+    {
+      "placement_block": null,
+      "text": "www.Staratlas.com",
+      "url": "https://staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "www.Playstaratlas.com",
+      "url": "https://play.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Epic Games Store",
+      "url": "https://store.epicgames.com/en-US/p/star-atlas-bead34"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord",
+      "url": "https://discord.com/invite/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Star Atlas DAO",
+      "url": "https://govern.staratlas.com/"
+    },
+    {
+      "placement_block": null,
+      "text": "Twitter",
+      "url": "https://twitter.com/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Discord",
+      "url": "https://discord.gg/staratlas"
+    },
+    {
+      "placement_block": null,
+      "text": "YouTube",
+      "url": "https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw"
+    },
+    {
+      "placement_block": null,
+      "text": "Reddit",
+      "url": "https://www.reddit.com/r/StarAtlas"
+    },
+    {
+      "placement_block": null,
+      "text": "Medium",
+      "url": "https://medium.com/star-atlas"
+    },
+    {
+      "placement_block": null,
+      "text": "LinkedIn",
+      "url": "https://www.linkedin.com/company/star-atlas"
+    }
+  ],
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "retrieval": {
+    "attempts": [
+      {
+        "byte_count": 255371,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338",
+            "@type": "SocialMediaPosting",
+            "author": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "creator": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/@staratlasgame",
+              "@type": "Person",
+              "identifier": "staratlasgame",
+              "name": "Star Atlas",
+              "url": "https://medium.com/@staratlasgame"
+            },
+            "dateCreated": "2025-08-27T20:13:10Z",
+            "dateModified": "2025-08-27T20:13:10Z",
+            "datePublished": "2025-08-27T20:13:10Z",
+            "description": "Open Sourcing Star Frame: Building the Next Generation of Solana Programs Building the largest space MMO crypto game has forced us at Star Atlas to solve challenges few teams encounter. Out of that …",
+            "headline": "Open Sourcing Star Frame: Building the Next Generation of Solana Programs",
+            "identifier": "87fa9b375338",
+            "image": [
+              "https://miro.medium.com/1*imjPtgGCMMlOud0-HUiGKA.png"
+            ],
+            "isAccessibleForFree": true,
+            "mainEntityOfPage": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338",
+            "name": "Open Sourcing Star Frame: Building the Next Generation of Solana Programs",
+            "publisher": {
+              "@context": "https://schema.org",
+              "@id": "https://medium.com/star-atlas",
+              "@type": "Organization",
+              "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 1215,
+                "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                "width": 1485
+              },
+              "name": "Star Atlas",
+              "sameAs": [
+                "https://twitter.com/StarAtlas",
+                "https://facebook.com/staratlasmmo",
+                "https://instagram.com/staratlasgame/"
+              ],
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338"
+          },
+          "text_length": 5369
+        },
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338",
+        "sha256": "4babfd5cc926f8b9ec48006df73b9a652f33a95bba252bce06d6c50a3651da0d",
+        "tier": "LIVE_DIRECT_HTML"
+      }
+    ],
+    "captured_at": "2026-07-18T04:29:00Z",
+    "content_type": "text/html; charset=utf-8",
+    "discovery_sources": [
+      "profile_page",
+      "profile_page_browser",
+      "repository:archive/normalized/discord-announcements/messages.jsonl",
+      "repository:archive/normalized/social-governance-semantic-enrichment/social-media/staratlas-posts.jsonl",
+      "rss:profile",
+      "rss:publication",
+      "web_archive:wayback-publication"
+    ],
+    "final_url": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338",
+    "http_status": 200,
+    "raw_byte_count": 255371,
+    "raw_sha256": "4babfd5cc926f8b9ec48006df73b9a652f33a95bba252bce06d6c50a3651da0d",
+    "redirect_chain": [],
+    "referrer_source_ids": [
+      "SA-DISCORD-ANN-B42BC174E4F0A9A5",
+      "SRC-X-STARATLAS-1960798682594599012"
+    ],
+    "requested_url": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338",
+    "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-87FA9B375338/article.html",
+    "selected_tier": "LIVE_DIRECT_HTML"
+  },
+  "source": {
+    "authors": [
+      "Star Atlas"
+    ],
+    "canonical_url": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338",
+    "document_type": "WRITTEN_PUBLICATION",
+    "language": "English",
+    "medium_post_id": "87fa9b375338",
+    "observed_urls": [
+      "https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fbookmark%2Fp%2F87fa9b375338&operation=register&redirect=https%3A%2F%2Fmedium.com%2Fstar-atlas%2Fopen-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338&source=---------6-------------5ed69ff9cfb0----bookmark_preview------------------",
+      "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338",
+      "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338?source=rss----a97f09b411f1---4",
+      "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338?source=rss-5ed69ff9cfb0------2",
+      "https://staratlasgame.medium.com/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338?source=user_profile_page---------6-------------5ed69ff9cfb0----------------------"
+    ],
+    "publication_identity": {
+      "@context": "https://schema.org",
+      "@id": "https://medium.com/star-atlas",
+      "@type": "Organization",
+      "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+      "logo": {
+        "@type": "ImageObject",
+        "height": 1215,
+        "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+        "width": 1485
+      },
+      "name": "Star Atlas",
+      "sameAs": [
+        "https://twitter.com/StarAtlas",
+        "https://facebook.com/staratlasmmo",
+        "https://instagram.com/staratlasgame/"
+      ],
+      "url": "https://medium.com/star-atlas"
+    },
+    "published_at_normalized": "2025-08-27T20:13:10Z",
+    "published_at_original": "2025-08-27T20:13:10Z",
+    "publisher": "Star Atlas",
+    "reading_time_original": "4 min read",
+    "retrieved_at": "2026-07-18T04:29:00Z",
+    "source_id": "SRC-MEDIUM-STARATLAS-87FA9B375338",
+    "source_role": "OFFICIAL_MEDIUM_ARTICLE",
+    "subtitle": "Open Sourcing Star Frame: Building the Next Generation of Solana Programs Building the largest space MMO crypto game has forced us at Star Atlas to solve challenges few teams encounter. Out of that …",
+    "tags": [],
+    "title": "Open Sourcing Star Frame: Building the Next Generation of Solana Programs",
+    "updated_at_normalized": "2025-08-27T20:13:10Z",
+    "updated_at_original": "2025-08-27T20:13:10Z",
+    "url": "https://medium.com/star-atlas/open-sourcing-star-frame-building-the-next-generation-of-solana-programs-87fa9b375338"
+  },
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  }
+}

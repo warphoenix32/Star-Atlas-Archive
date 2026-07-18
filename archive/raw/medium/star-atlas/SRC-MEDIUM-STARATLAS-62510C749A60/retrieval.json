@@ -1,0 +1,88 @@
+{
+  "attempts": [
+    {
+      "byte_count": 362909,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-atlassian-newsletter-issue-2-62510c749a60",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2021-04-13T22:05:22Z",
+          "dateModified": "2022-03-04T04:26:47Z",
+          "datePublished": "2021-04-13T22:05:22Z",
+          "description": "The Atlas Star ✧ Issue #2 The Official Star Atlas Newsletter This edition of The Atlas Star ✧ is brought to you by Star Atlas… the next-gen gaming metaverse where you live out your dreams. Star …",
+          "headline": "The Atlas Star ✧ Issue #2",
+          "identifier": "62510c749a60",
+          "image": [
+            "https://miro.medium.com/0*bntVSKRwTuRzkaq8"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-atlassian-newsletter-issue-2-62510c749a60",
+          "name": "The Atlas Star ✧ Issue #2",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-atlassian-newsletter-issue-2-62510c749a60"
+        },
+        "text_length": 24355
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-atlassian-newsletter-issue-2-62510c749a60",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-atlassian-newsletter-issue-2-62510c749a60",
+      "sha256": "23ae37bbcb3511291d845e87432584fa884a30f97de39327eaeaf5fe50f42301",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:47Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "web_archive:wayback-custom-domain",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-atlassian-newsletter-issue-2-62510c749a60",
+  "http_status": 200,
+  "raw_byte_count": 362909,
+  "raw_sha256": "23ae37bbcb3511291d845e87432584fa884a30f97de39327eaeaf5fe50f42301",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/the-atlassian-newsletter-issue-2-62510c749a60",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-62510C749A60/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

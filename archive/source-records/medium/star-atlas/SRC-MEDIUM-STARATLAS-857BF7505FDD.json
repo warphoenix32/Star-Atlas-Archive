@@ -1,0 +1,167 @@
+{
+  "access": "public",
+  "authenticity": "confirmed",
+  "canonical_url": "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+  "collected": "2026-07-18T04:29:03Z",
+  "completeness": "complete",
+  "creator": [
+    "Star Atlas"
+  ],
+  "document_type": "WRITTEN_PUBLICATION",
+  "limitations": [
+    "Current live content may reflect edits made after original publication.",
+    "Cited-source lineage requires separate semantic enrichment."
+  ],
+  "media_count": 3,
+  "media_successes": 0,
+  "normalized_content_sha256": "14fb432ca19e13022c97ffe1ba32088144994109fd638edf39e3a29b52892e56",
+  "normalized_json_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-857BF7505FDD.json",
+  "normalized_markdown_path": "archive/normalized/medium/star-atlas/SRC-MEDIUM-STARATLAS-857BF7505FDD.md",
+  "observed_urls": [
+    "http://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+    "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+    "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?_branch_match_id=956204415892850335",
+    "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?fbclid=IwAR2GEWCyP4cY0qYle3Qa9RhoTn2wTsRsV8hyu0QgzfZXOGmyKmqf-ciLMHc",
+    "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?source=linkShare-825c764ae70b-1629180229&_branch_match_id=956072655316174644",
+    "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?source=linkShare-825c764ae70b-1629180229&_branch_match_id=link-956058054403278668",
+    "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?source=rss-5ed69ff9cfb0------2",
+    "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?source=social.tw&_branch_match_id=957320865889078841"
+  ],
+  "provenance": {
+    "discovery_sources": [
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-44DE029022F88A60.json",
+      "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BCBE8698B8C9B03D.json",
+      "web_archive:wayback-publication"
+    ],
+    "referrer_source_ids": [],
+    "retrieval_attempts": [
+      {
+        "byte_count": 158652,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": "HTTP 410",
+        "final_url": "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+        "http_status": 410,
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd"
+          }
+        ],
+        "requested_url": "http://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+        "sha256": "a9a53a6d3d5a13e29ecf2c756c858103e9b01c792cf021599fb9222973ab10f4",
+        "tier": "LIVE_DIRECT_HTML"
+      },
+      {
+        "byte_count": 161006,
+        "complete": false,
+        "decision": "ARTICLE_ELEMENT_MISSING",
+        "details": {},
+        "error": null,
+        "final_url": "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+        "http_status": 410,
+        "redirect_chain": [],
+        "requested_url": "http://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+        "sha256": "da05341806c198bd735a06ee89f12ae34b8db8a4ded4294578e4ca866565ca2a",
+        "tier": "LIVE_PLAYWRIGHT_DOM"
+      },
+      {
+        "byte_count": 175645,
+        "complete": true,
+        "decision": "COMPLETE_ARTICLE_DOM",
+        "details": {
+          "json_ld": {
+            "@context": "http://schema.org",
+            "@type": "NewsArticle",
+            "author": {
+              "@type": "Person",
+              "name": "Star Atlas",
+              "url": "https://staratlasgame.medium.com"
+            },
+            "creator": [
+              "Star Atlas"
+            ],
+            "dateCreated": "2021-08-17T05:58:19.750Z",
+            "dateModified": "2022-01-05T21:16:40.423Z",
+            "datePublished": "2021-08-17T05:58:19.750Z",
+            "description": "Starting August 26, 2021, FTX, Raydium and Apollo-X will host the sale of the highly anticipated tokens of the Solana-powered Star Atlas metaverse, ushering in the next era of play-to-earn enabled…",
+            "headline": "Star Atlas Token Sale Details Revealed - Star Atlas - Medium",
+            "identifier": "857bf7505fdd",
+            "image": [
+              "https://miro.medium.com/max/1200/0*ZD2nzliX1cH4RL8_"
+            ],
+            "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd",
+            "name": "Star Atlas Token Sale Details Revealed - Star Atlas - Medium",
+            "publisher": {
+              "@type": "Organization",
+              "logo": {
+                "@type": "ImageObject",
+                "height": 60,
+                "url": "https://miro.medium.com/max/146/1*NUmmYROVLt19ikAbCunjXQ.png",
+                "width": 73
+              },
+              "name": "Star Atlas",
+              "url": "https://medium.com/star-atlas"
+            },
+            "url": "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd"
+          },
+          "text_length": 8162
+        },
+        "error": null,
+        "final_url": "https://web.archive.org/web/20220705164307id_/https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?source=linkShare-825c764ae70b-1629180229&_branch_match_id=link-956058054403278668",
+        "http_status": 200,
+        "redirect_chain": [],
+        "requested_url": "https://web.archive.org/web/20220705164307id_/https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?source=linkShare-825c764ae70b-1629180229&_branch_match_id=link-956058054403278668",
+        "sha256": "c56407a21bbbbca52df7d79190118c875d24e7b81c0a56f3d2ea3099b1d0f3b0",
+        "snapshot": {
+          "digest": "A3AD6ZIWA4FNW2N2SEWHWCQ3RMTCQU5H",
+          "original_url": "https://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505fdd?source=linkShare-825c764ae70b-1629180229&_branch_match_id=link-956058054403278668",
+          "timestamp": "20220705164307"
+        },
+        "tier": "WEB_ARCHIVE_SNAPSHOT"
+      }
+    ],
+    "retrieval_tier": "WEB_ARCHIVE_SNAPSHOT"
+  },
+  "publication_restriction": "attribute",
+  "published_at_normalized": "2021-08-17T05:58:19.750000Z",
+  "published_at_original": "2021-08-17T05:58:19.750Z",
+  "publisher": "Star Atlas",
+  "quality": {
+    "author_confidence": "HIGH",
+    "completeness": "COMPLETE_ARTICLE_DOM",
+    "date_confidence": "HIGH",
+    "extraction_confidence": "HIGH",
+    "manual_review_reasons": []
+  },
+  "raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-857BF7505FDD/article.html",
+  "raw_sha256": "c56407a21bbbbca52df7d79190118c875d24e7b81c0a56f3d2ea3099b1d0f3b0",
+  "source_id": "SRC-MEDIUM-STARATLAS-857BF7505FDD",
+  "source_lineage": {
+    "attribution_chain": [
+      {
+        "name": "Star Atlas",
+        "organization": null,
+        "role": "AUTHOR",
+        "url": null
+      }
+    ],
+    "limitations": [
+      "Article-level cited-source lineage requires later semantic review."
+    ],
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Star Atlas"
+    ],
+    "primary_sources": [],
+    "publication": "Star Atlas",
+    "publication_role": "OFFICIAL_PUBLICATION",
+    "relationship": "PUBLISHED_BY"
+  },
+  "source_type": "official",
+  "title": "Star Atlas Token Sale Details Revealed - Star Atlas - Medium",
+  "updated_at_normalized": "2022-01-05T21:16:40.423000Z",
+  "updated_at_original": "2022-01-05T21:16:40.423Z"
+}

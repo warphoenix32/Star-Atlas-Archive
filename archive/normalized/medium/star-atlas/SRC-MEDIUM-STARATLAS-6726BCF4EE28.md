@@ -1,0 +1,187 @@
+---
+source_id: SRC-MEDIUM-STARATLAS-6726BCF4EE28
+medium_post_id: 6726bcf4ee28
+title: "The Atlas Star ✧ Issue #1"
+publisher: "Star Atlas"
+published_at: 2021-03-16T14:33:23Z
+updated_at: 2021-07-03T05:44:07Z
+canonical_url: https://medium.com/star-atlas/the-atlassian-newsletter-issue-1-6726bcf4ee28
+document_type: WRITTEN_PUBLICATION
+---
+
+# The Atlas Star ✧ Issue #1
+
+The Atlas Star ✧ Issue #1 The Official Star Atlas Newsletter This edition of The Atlas Star ✧ is brought to you by Star Atlas…the next-gen gaming metaverse where you live out your dreams. Star …
+
+- Author: Star Atlas
+- Publisher: Star Atlas
+- Published: 2021-03-16T14:33:23Z
+- Updated: 2021-07-03T05:44:07Z
+- Canonical URL: https://medium.com/star-atlas/the-atlassian-newsletter-issue-1-6726bcf4ee28
+
+## Preserved Article
+
+
+## The Official Star Atlas Newsletter
+
+This edition of The Atlas Star ✧ is brought to you by Star Atlas…the next-gen gaming metaverse where you live out your dreams.
+
+*Calico Guardian WIP /// Future Blockchain Based NFT In-Game Asset /// Owner/Player Customization Enabled*
+
+Star Atlas is proud to deliver original long-form updates covering our latest news and backstage sneak peaks. This work would not be possible without the support of our community.
+
+With light to you and yours. °°° Pablo Quiroga, Co-Founder and COO
+
+Coverage includes:
+
+- Star Atlas Factions and NFT utility
+- Community Support and Traction
+- Design & Development
+- Roadmap Updates
+- Partnership Announcements
+- Media Related Activities
+
+## How is Star Atlas shaping up?
+
+A quick recap about Star Atlas factions and player enabled opportunities.
+
+A note from the CEO’s Desk : Carl Sagan states, “Since, in the long run, every planetary civilization will be endangered by impacts from space, every surviving civilization is obliged to become spacefaring — not because of exploratory or romantic zeal, but for the most practical reason imaginable: staying alive… If our long-term survival is at stake, we have a basic responsibility to our species to venture to other worlds.”
+
+I don’t know what the year 2620 has in store for us. The world of today feels considerably different from the world of yesterday, and yester-year, and beyond. I assume it will be considerably different in the years to follow. A primary goal of our team is to immerse you in many possible worlds of tomorrow. In the conceivable future, you will have the opportunity to live a life almost indiscernible from your own — a virtual life. This alternate reality will pose many of the same risks as normal life. In fact, a base Metaverse will often begin as a simulation of reality. The beauty, however, is that a Metaverse is not constrained by the physics, time, and dimensions of reality.
+
+Of the many strategic elements of Star Atlas, selecting your friends, and inherently your foes, is amongst the most important. The Metaverse consists of three core factions (MUD, ONI, USTUR), with sub-sector Security Zones within each. All races of characters will be able to exist with one-another, though faction selections will be a little more…persistent. Security Zones will be of the highest importance to monitor.
+
+Most importantly, the Metaverse is not about what is created for you, but rather what is created by you. This alternative reality opens endless opportunities. We look forward to a digital age in which players create their own future, both aspiringly, and financially. Star Atlas is a new America moment. Live your best life, with us.
+
+Star Atlas is a virtual gaming metaverse based in the year 2620. In this distant future, three major factions have emerged; 1. The MUD Territory governed by humankind, 2. The ONI Region as a consortium of alien races, and 3. Sentient androids control the Ustur Sector. These factions are in an ongoing struggle for resources, territorial conquest, and political domination. Are you ready to choose a faction?
+
+*SCN Planet WIP /// Future Scanning Gameplay Loop Environments /// Owner/Player Land-based Mining Station*
+
+You, a faction citizen of Star Atlas, will have the ability to influence the outcome of this intergalactic conflict while creating the opportunity to earn rewards for your contributions. Star Atlas is an ideal product to emerge from the confluence of state of the art blockchain, real-time graphics, multiplayer video game, and decentralized financial technologies. Basing the Star Atlas universe in a Grand Strategy multiplayer genre creates engaging, long-term gameplay as factions battle it out in a universal spacescape under a constant state of flux. Players stake assets with real-world value to grow their in-game corporate empires, discover unique and distant alien worlds, battle in high stakes combat, and shape the game’s features and future with earned political influence.
+
+*Calico Guardian WIP /// Future Blockchain Based NFT In-Game Asset /// Owner/Player Customization Enabled*
+
+Bringing these enabling technologies together presents a unique opportunity for the future of finance, video games, entertainment, real-world professions, and blockchain where people can make money and have a lot of fun doing it.
+
+
+## 60 days and 60 nights.
+
+Unwavering support and validated traction.
+
+A note from the CEO’s Desk : I am fortunate to exist between two blossoming gardens. Seeing the team rapidly take root and independently flourish has been inspiring. Danny Floyd, Chief Product Officer, has commandeered a global fleet of artists, across the spectrum of concept to (virtual) reality. Their work has been at the forefront of our content drops most recently. Jacob Floyd, Chief Technology Officer, currently leading the more obscure aspects of game development. The fruits of which will be unveiled in coming releases. And Pablo Quiroga, Chief Operating Officer, sitting command strategic partnerships, marketing, planning, execution, amongst numerous other responsibilities. Growth is both challenging, and exhilarating.
+
+Opposing, yet aligned, the mycelium of our community is forming. A collective of individuals with a unified vision. We have seen growth against every quantifiable metric: Social media. Communications channels. Supporters. Gamers. We have been on countless hours of conversations over the past two months. Amongst the most notable have been conversations with Atlassians. Gamers, enthusiasts, passionists…the die-hards. And seeing what has been forming within the clan, or Decentralized Autonomous Corporation community, in Star Atlas lexicon, has been incredible.
+
+I personally look forward to a competitive, fair future.
+
+Team
+
+It’s been 60 nights since our first announcement on January 14, 2021. To give you an idea of our rapid growth, our internal design and development team has grown from 4 people to 38 people spread across planet Earth. We are fortunate to have our team members from China, Russia, France, Brazil, Peru, England, Portugal, Japan, United States, Ukraine and many more to come. Our cross cultural environment breeds innovation and sensitivity to building a global game. At a time when we are un anchored from time and space, we are constantly looking to onboard undiscovered talent and under-represented humans in tech. View our current job openings and submit your application here .
+
+*StarAtlas.com GA Audience Metrics /// New Users by country For The Past 60 Days*
+
+Social Media Platform
+
+It’s impressive to see how our community has quickly and organically fallen in love with Star Atlas throughout our various social media platforms within 60 days:
+
+- Twitter: 3,203 followers
+- Discord: 931 members
+- Telegram: 2,373 members
+- Instagram: 111 followers
+- Facebook: 91 followers
+- Linkedin: 25
+- CrowdCreate Mastermind: The Gaming Industry Is Building a Future for Inclusiveness and Equality
+- Youtuber Review: Wolf of Crypto Review
+- Youtuber Review: Youtube/Cagyjan Review
+*Prestito Crypto /// Youtuber Review*
+
+With over 863K impressions the Star Atlas community is just getting started. We can’t wait to see where they take our social interaction next! We have a lot of interactive community digital events coming up soon. Stay tuned for upcoming backstage tours and AMAs with our team members in discord.
+
+*Star Atlas Discord Channel /// Community Members Chatting with Co-Founder & CEO, Michael Wagner*
+
+Community
+
+Inspiration and innovation derived from a dream wake state is the ultimate collective experience. Star Atlas is a space for global citizens to live out their dreams while creating, playing, and learning together.
+
+°°° Huge shout out to our telegram guardians:
+
+- Shin
+- Hossein
+- Clint
+- Carmentos
+- Malith
+- Jon Snow
+- Anil
+Recently one of our community members (Discord name: KristianDragnel #4928) asked us if they could make a Guild Recruitment Channel for people to form Guild and invite people. Within minutes of creation, people started joining the new channel and within days, landing pages started circulating our discord channels. The decentralized creative thinking is beautiful to watch.
+
+*Star Atlas Discord Channel /// Star Atlas Community Member Generated Guild Landing Page*
+
+> By allowing players to connect on a deeper level through Guilds, Star Atlas is reframing the entire way we collectively gather online. You will now be able to engage with your friends and monetize off your gameplay together in a way that has never been done before. Community is critical, and this monumental shift is going to be a catalyst for a major shift in online interaction. — @ Austinvirts , Marketing & Growth Solana
+
+Design
+
+A note from the CPO’s Desk: Internally, Star Atlas’s IP development has reached an entirely new level in the science fiction genre. Not just in regards to space games but across all sci-fi media and literature. We have been expanding the team to include the best talent in this industry. With these additions, the IP has grown to exceed my every expectation. We have established an expansive universe with the foundation to tell a vast number of stories for players and sci-fi lovers to sink their teeth into. We’re creating a universe where people can feel safe to live and operate in but also to venture out into the great unknown. The unknown could bring great riches or could plunge your crew into a point of no return.
+
+*Ustur Race WIP /// Future NFT Collectible Asset /// Owner/Player Customization*
+
+There will be many exciting adventures, locations and character races to explore and interact with. Two races in particular have already been revealed, the Ustur and the Photoli.
+
+*Ustur Race WIP /// Future NFT Collectible Asset /// Owner/Player Customization*
+
+The Ustur are a race of androids spawned by an advanced, multi-generational AI who sought to express themself through physicalized form. They are mechanical beings with a developed sense of identity, culture and fashion. Thier anatomy articulates in a relatable way to organic substrate beings to convey demeanor and emote. They enjoy establishing bonds with all intelligent life and satisfying higher spiritual exploration.
+
+*Photoli Race WIP /// Future NFT Collectible Asset /// Owner/Player Customization*
+
+The Photoli race are highly advanced aliens of light. Their natural state is navigating the universe in the form of light energy. Their ability to maintain a corporeal form with amorphous anatomical shapes and halos conveys expressions to other species. During galactic explorations, they are known to be confused with deities by more primitive civilizations. One Photoli rogue scout in particular played a pivotal role in advancing humankind to the stars.
+
+Development
+
+A note from the CTO’s Desk: Our in-game marketplace is now fully integrated with Serum . We’ve been trading a testnet version of the Calico Guardian NFT around the team through our internal build. The whole marketplace experience in our web app feels more like playing a game than crunching order books on a crypto exchange.
+
+*Calico Guardian WIP /// Future Blockchain Based NFT In-Game Asset /// Owner/Player Customization Enabled*
+
+The latest improvements to Solana wallet modules have also been updated, bringing support for Solong , a browser extension wallet, along with Ledger, Bonfida , and Sollet.io wallets to our browser mini game.
+
+With trading and inventory management moving into the polish phase, we are shifting our sights towards other game features, like enlisting in your faction. When you enlist to your faction of choice, Ustur, ONI, or MUD, your owned assets will contribute to the overall score of that faction for a leaderboard-style ranking.
+
+
+## What’s next?
+
+Roadmap Updates, Partnership Announcements, and Media Related Activities
+
+A note from the CEO’s Desk : It has been essential that we maintain flexibility in decision making as we navigate uncharted waters ourselves. As such, we have been conservative in what formal, or informal, commitments we make to the community at large. What follows is our best estimate for timing of the next major events underway.
+
+Our unfaltering commitment, however, is to deliver the best experience within our capabilities. We are emerging on a grand experiment. One with uncertain outcomes, and certain incertitudes. But one we hope you will join…
+
+Roadmap Updates
+
+- April 23, 2021 /// Website Update
+- April 24, 2021 /// “Re-Birth” a Star Atlas NFT Art Collectibles Series
+- July 24, 2021 /// Galactic Asset Offering Launch /// Browser Mini Game Launch
+Upcoming Announcements
+
+- Grow Your Base Partnership launch
+- Blockchain Gaming Alliance Sponsorship
+- Yield Guild Games Partnership
+- Crowd Create NFT Investor Summit Sponsorship
+- Licensing Partnerships
+- Creative Artist Collaborations
+- Early Stakeholders
+- Advisory Committee
+Media Related Activities
+
+- AMA with Solana English Speaking Community March 16, 2021 at 10:00 AM PST
+- AMA with Solana Korean Speaking Community on March 22, 2021 at 3:00 AM PST
+- AMA with Solana Spanish Speaking Community on March 23, 2021 at 12:00 PM PST
+
+## About Star Atlas
+
+Star Atlas is a virtual gaming metaverse emerging from the confluence of state of the art blockchain, real-time graphics, multiplayer video game, and decentralized financial technologies.
+
+Real-time graphics technology using Unreal Engine 5’s Nanite allows for cinematic quality video game visuals. Blockchain technology using the Solana protocol established a largely serverless and secured gameplay experience. Non-fungible tokens obtained and traded within Star Atlas creates an economy that replicates the tangibility of real world assets and ownership. To learn more, please visit https://staratlas.com/
+
+Twitter | Telegram | Medium | Youtube | Instagram | Discord | Reddit | Facebook | Linkedin
+
+## Referenced Article Images
+
+- Star Atlas: https://miro.medium.com/v2/resize:fill:64:64/1*NUmmYROVLt19ikAbCunjXQ.png (URL only; binary not downloaded)

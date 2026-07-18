@@ -1,0 +1,91 @@
+{
+  "attempts": [
+    {
+      "byte_count": 284595,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/oni-dream-within-a-dream-part-i-star-atlas-roadmap-scan-10-4c67c97c80a0",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-06-17T20:42:50Z",
+          "dateModified": "2022-06-17T21:01:25Z",
+          "datePublished": "2022-06-17T20:42:50Z",
+          "description": "ONI Dream Within a Dream — Part I: Star Atlas Roadmap Scan #10 Memories of things never lived, dreams of things that happened and are yet to come again, wisdom and illusion were faces of the same …",
+          "headline": "ONI Dream Within a Dream — Part I: Star Atlas Roadmap Scan #10",
+          "identifier": "4c67c97c80a0",
+          "image": [
+            "https://miro.medium.com/0*F5regzTEDFAZ73AG"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/oni-dream-within-a-dream-part-i-star-atlas-roadmap-scan-10-4c67c97c80a0",
+          "name": "ONI Dream Within a Dream — Part I: Star Atlas Roadmap Scan #10",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/oni-dream-within-a-dream-part-i-star-atlas-roadmap-scan-10-4c67c97c80a0"
+        },
+        "text_length": 14073
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/oni-dream-within-a-dream-part-i-star-atlas-roadmap-scan-10-4c67c97c80a0",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/oni-dream-within-a-dream-part-i-star-atlas-roadmap-scan-10-4c67c97c80a0",
+      "sha256": "5f5b80c57bc38e4766398ae80751a0040ea94613716546d62e7b58e56811a568",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-18T04:28:43Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "profile_page_browser",
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-F9654AA6FF1D8010.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/oni-dream-within-a-dream-part-i-star-atlas-roadmap-scan-10-4c67c97c80a0",
+  "http_status": 200,
+  "raw_byte_count": 284595,
+  "raw_sha256": "5f5b80c57bc38e4766398ae80751a0040ea94613716546d62e7b58e56811a568",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-74E4DA9EBCF3EFC2"
+  ],
+  "requested_url": "https://medium.com/star-atlas/oni-dream-within-a-dream-part-i-star-atlas-roadmap-scan-10-4c67c97c80a0",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-4C67C97C80A0/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}
