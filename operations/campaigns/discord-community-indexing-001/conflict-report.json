@@ -1,0 +1,32 @@
+{
+  "campaign_id": "discord-community-indexing-001",
+  "identity_merge_policy": "No identities are merged from name or fuzzy similarity alone.",
+  "schema_version": "1.0.0",
+  "source_limitations": [
+    {
+      "counts": {
+        "author_id": 1071,
+        "channel_id": 1071,
+        "message_id": 1071
+      },
+      "handling": "Fields remain null. Stable archive source_id values are not relabeled as Discord message IDs.",
+      "type": "missing_discord_identifiers"
+    }
+  ],
+  "unresolved_conflicts": [
+    {
+      "merge_performed": false,
+      "observed_handle": "King Bryan-Titan Analytics",
+      "seeded_name": "King Bryan",
+      "similarity": 0.562,
+      "type": "unresolved_fuzzy_identity"
+    },
+    {
+      "merge_performed": false,
+      "observed_handle": "Bodhitree",
+      "seeded_name": "Bohdi",
+      "similarity": 0.571,
+      "type": "unresolved_fuzzy_identity"
+    }
+  ]
+}

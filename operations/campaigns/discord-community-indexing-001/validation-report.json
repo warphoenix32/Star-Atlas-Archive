@@ -1,0 +1,79 @@
+{
+  "campaign_id": "discord-community-indexing-001",
+  "checks": [
+    {
+      "details": [],
+      "name": "every_indexed_claim_resolves_to_source_message",
+      "passed": true
+    },
+    {
+      "details": {},
+      "name": "aliases_non_circular_and_conflict_aware",
+      "passed": true
+    },
+    {
+      "details": {},
+      "name": "user_ids_not_merged_without_evidence",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "guild_relationships_dated_where_possible",
+      "passed": true
+    },
+    {
+      "details": {
+        "source_occurrences": 3213,
+        "unique_messages": 1071
+      },
+      "name": "duplicate_messages_collapsed_with_provenance",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "quoted_text_preserved",
+      "passed": true
+    },
+    {
+      "details": "All paths and records use stable sorting and hash-based identifiers.",
+      "name": "deterministic_ordering",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "guilds": 5,
+    "identities": 70,
+    "relationships": 37,
+    "sources": 1074,
+    "unique_messages": 1071
+  },
+  "external_validation": {
+    "git_diff_check": {
+      "details": "",
+      "passed": true
+    },
+    "json_and_jsonl_parse": {
+      "details": [],
+      "passed": true
+    },
+    "regeneration_determinism": {
+      "details": {
+        "alias-registry.json": "7c875d7eeb2675e45f3de0b582f0fb06f1cb2a59f275776eebd4d8af202e16a1",
+        "conflict-report.json": "93a257cf319ec9e835ad2b2c432f7390c6003cb77da4d14d9196b637a40e5c16",
+        "guild-index.jsonl": "ebc2ad871b706948253b05713c75cc683d962b7831e7a7f3d4ad504122744b16",
+        "identity-index.jsonl": "de47ba57df221e6f66d00081d65d4f02ab81c3247122ee074ee01921a3201d5d",
+        "promotion-candidates.json": "11f25aeb29e670cbc5106e1e5f283d927a9a7c2b0129d6e2509d644db99c53ef",
+        "relationship-index.jsonl": "fdcba6b3af41e03ec811726a9729c1afe62e03e7680a9455f616403ccdba96f1",
+        "research-backlog.json": "db12ddd4ac290245f0708ca27c6ed1cdd17b3db120f0373cf85463d8b509b79d",
+        "source-inventory.json": "b91e0cc730585b453e11703203b7b3a33bfcb025484dc31ea10b925a1fffd257"
+      },
+      "passed": true
+    },
+    "tests": {
+      "details": ".....                                                                    [100%]\n5 passed in 0.06s",
+      "passed": true
+    }
+  },
+  "schema_version": "1.0.0",
+  "status": "pass"
+}

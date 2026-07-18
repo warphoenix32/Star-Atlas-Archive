@@ -1,0 +1,4254 @@
+{
+  "campaign_id": "discord-community-indexing-001",
+  "candidates": [
+    {
+      "duration_days": 1372,
+      "entity_id": "PERSON-329D330ACA8DAB4B",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "[AEP] Funcracker",
+          "source_id": "SA-DISCORD-ANN-078D433ED26F0708",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-078D433ED26F0708.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-06-11T10:32:19"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "[AEP] Funcracker",
+          "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9A891CCE759BA2B0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-20T19:23:43"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "[AEP] Funcracker",
+          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-14T12:09:18"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 3,
+      "name": "Funcracker",
+      "recommendation": "promote",
+      "roles": [
+        "council_member",
+        "creator",
+        "guild_member"
+      ],
+      "score": 72,
+      "score_components": {
+        "activity_duration": 7,
+        "contribution_type": 10,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 10,
+        "identity_confidence": 6,
+        "independent_mentions": 9,
+        "leadership_or_founder": 15
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "entity_id": "GUILD-5647D47DB6073A2C",
+      "entity_type": "guild",
+      "evidence": [
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "AEP",
+          "source_id": "SA-DISCORD-ANN-078D433ED26F0708",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-078D433ED26F0708.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-06-11T10:32:19"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "AEP",
+          "source_id": "SA-DISCORD-ANN-0CF5D160E6BC736F",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0CF5D160E6BC736F.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-06-25T17:05:31"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "AEP",
+          "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9A891CCE759BA2B0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-20T19:23:43"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-E23C7F68BCB47B62",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-E23C7F68BCB47B62.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-14T09:39:50"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "AEP",
+          "source_id": "SA-DISCORD-ANN-3E355EAA4AEFC48C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-3E355EAA4AEFC48C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-09-01T16:35:37"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FDD03373197A63F8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-21T16:25:12"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-17A149D561A1C7B8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-29T11:34:00"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-586297837C293719",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-586297837C293719.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-09-25T14:10:51"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-590264FE41318E2E",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-590264FE41318E2E.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-01-09T22:22:16"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "AEP",
+          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-14T12:09:18"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "AEP",
+          "source_id": "SA-DISCORD-ANN-B049D735C02507D2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B049D735C02507D2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-21T15:29:31"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-B2CC149D95323E77",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B2CC149D95323E77.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-07-29T15:48:51"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "Aephia",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 3,
+      "independent_message_count": 14,
+      "name": "Aephia",
+      "recommendation": "review",
+      "score": 63,
+      "score_components": {
+        "activity_duration": 5,
+        "contribution_type": 10,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 10,
+        "identity_confidence": 8,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "entity_id": "GUILD-BF8348B4107DAAAC",
+      "entity_type": "guild",
+      "evidence": [
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "BULK",
+          "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9A891CCE759BA2B0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-20T19:23:43"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "BULK",
+          "source_id": "SA-DISCORD-ANN-6874FBD61A6743D1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6874FBD61A6743D1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-11-12T11:15:14"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "BULK",
+          "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FDD03373197A63F8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-21T16:25:12"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "BULK",
+          "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-17A149D561A1C7B8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-29T11:34:00"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "BULK",
+          "source_id": "SA-DISCORD-ANN-B2CC149D95323E77",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B2CC149D95323E77.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-07-29T15:48:51"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 5,
+      "name": "BULK",
+      "recommendation": "review",
+      "score": 55,
+      "score_components": {
+        "activity_duration": 5,
+        "contribution_type": 6,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 6,
+        "identity_confidence": 8,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "duration_days": 7,
+      "entity_id": "PERSON-8B0A8410188CC7FB",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "[AEP] Bodhitree",
+          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-14T12:09:18"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "[AEP] Bodhitree",
+          "source_id": "SA-DISCORD-ANN-B049D735C02507D2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B049D735C02507D2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-21T15:29:31"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 2,
+      "name": "Bodhitree",
+      "recommendation": "review",
+      "roles": [
+        "council_member",
+        "guild_member"
+      ],
+      "score": 44,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 8,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 9,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 5
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "duration_days": 1940,
+      "entity_id": "PERSON-EBD3AD6DFDC35FFE",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-8EEE151D609F1980",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8EEE151D609F1980.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:12:12"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-7207824574F7744C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7207824574F7744C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:13:24"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-AB3119CCA243BC58",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AB3119CCA243BC58.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:51:29"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-4A54EF57AB92A723",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4A54EF57AB92A723.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:52:31"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-C2427A3C6E101871",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C2427A3C6E101871.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:53:50"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-13FACC09ECA974F3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-13FACC09ECA974F3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-20T13:54:42"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-2E2CCCCAE15FE268",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2E2CCCCAE15FE268.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-21T00:51:51"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-BBABC6CF30CF481B",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-BBABC6CF30CF481B.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-22T10:36:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-7536B4EF2AC77D21",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7536B4EF2AC77D21.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-29T14:14:15"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-3675F0DBD40C95ED",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-3675F0DBD40C95ED.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-02T10:49:25"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-B0B9AECCFE589F4A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B0B9AECCFE589F4A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-02T12:06:48"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-1280074168CF641F",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1280074168CF641F.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-26T21:38:25"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-9E5E61C880EBF230",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9E5E61C880EBF230.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-27T20:02:49"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-BC925AF654CF5A73",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-BC925AF654CF5A73.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-04T21:00:59"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-8341522C45804ED1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8341522C45804ED1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-17T10:33:23"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-AD8CBA978A07722B",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AD8CBA978A07722B.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-18T13:48:37"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-F768CEE3CCE39345",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-F768CEE3CCE39345.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-19T16:28:14"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-94E6C6D0CAB5066D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-94E6C6D0CAB5066D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-31T09:43:57"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-C5CA5E2CC652DB28",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C5CA5E2CC652DB28.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-10-09T21:13:41"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-DA3C20277E26E225",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-DA3C20277E26E225.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-10-28T15:48:31"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-31387387B04167AB",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-31387387B04167AB.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-11-11T15:16:17"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-7476686B7DCD12FE",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7476686B7DCD12FE.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-12-20T11:26:22"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-206C96A53BA88A18",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-206C96A53BA88A18.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-04-11T15:58:58"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-78E80236AA5C10E0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-78E80236AA5C10E0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-12-22T00:08:04"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SW4GN3R [STAR]",
+          "source_id": "SA-DISCORD-ANN-590264FE41318E2E",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-590264FE41318E2E.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-01-09T22:22:16"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 42,
+      "name": "SW4GN3R [STAR]",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 41,
+      "score_components": {
+        "activity_duration": 10,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 797,
+      "entity_id": "PERSON-06E052BC454CD06D",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-E1D151B1D752D823",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-E1D151B1D752D823.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-16T09:33:54"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-81EE04B058B06A56",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-81EE04B058B06A56.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-25T14:33:53"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-164F57DE5998CE20",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-164F57DE5998CE20.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-27T19:08:13"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-14D6E125ECF2651D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-14D6E125ECF2651D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-04T19:19:51"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-2253382AD5A6FE63",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2253382AD5A6FE63.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-05T11:50:02"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-A528C871ECE38CDD",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A528C871ECE38CDD.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-17T16:55:04"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-2010755ADA146F0D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2010755ADA146F0D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-01T09:44:33"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-57F7EA35B313FAE1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-57F7EA35B313FAE1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-02T16:53:17"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-DC1B6F7E7B9A1CA1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-DC1B6F7E7B9A1CA1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-30T16:54:04"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-4949DC247C9A13D0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4949DC247C9A13D0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-25T21:35:09"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-472FB4A9130358CD",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-472FB4A9130358CD.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-27T13:50:38"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-D8CCC7C485214BC2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8CCC7C485214BC2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-31T08:22:17"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-18C50B9604CEBD4D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-18C50B9604CEBD4D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-09-02T22:57:56"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-5A217C8C54115901",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5A217C8C54115901.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-09-03T17:50:25"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-B67D28A4AD17A391",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B67D28A4AD17A391.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-09-09T12:11:52"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-A43092CC3BAB05D6",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A43092CC3BAB05D6.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-09-10T13:50:56"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-FEC571FD8AE3A7BB",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FEC571FD8AE3A7BB.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-09-21T22:18:07"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-5D6A94F86390021C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5D6A94F86390021C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-10-05T13:07:29"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-EB11B1EAAFEEC3ED",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-EB11B1EAAFEEC3ED.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-10-07T17:29:03"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-2FE53AB36195B1C9",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2FE53AB36195B1C9.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-10-13T17:34:31"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-3DA89308C5EEB09A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-3DA89308C5EEB09A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-10-26T20:52:05"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-8AC544823BCFB206",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8AC544823BCFB206.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-11-10T20:36:36"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-C28B9865A6A181FC",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C28B9865A6A181FC.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-12-01T22:27:25"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-FB2934192F34F823",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FB2934192F34F823.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-12-10T13:33:00"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SW4GN3R",
+          "source_id": "SA-DISCORD-ANN-80373A5AB5C1D32E",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-80373A5AB5C1D32E.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-01-14T06:50:47"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 29,
+      "name": "SW4GN3R",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 40,
+      "score_components": {
+        "activity_duration": 4,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 1148,
+      "entity_id": "PERSON-6FE3C6943124C884",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Deleted User",
+          "message_id": null,
+          "quoted_text": "Deleted User",
+          "source_id": "SA-DISCORD-ANN-D27B5214B5BAC6AA",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D27B5214B5BAC6AA.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-16T14:34:21"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "Deleted User",
+          "source_id": "SA-DISCORD-ANN-B863717B4472AFBB",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B863717B4472AFBB.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-01-26T17:55:30"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Deleted User",
+          "source_id": "SA-DISCORD-ANN-EA28D48D7B4B228D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-EA28D48D7B4B228D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-10-02T18:45:16"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Deleted User",
+          "source_id": "SA-DISCORD-ANN-1B120016F53120F9",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1B120016F53120F9.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-05-08T11:58:22"
+        }
+      ],
+      "independent_author_count": 3,
+      "independent_message_count": 4,
+      "name": "Deleted User",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 39,
+      "score_components": {
+        "activity_duration": 6,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 12,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 1573,
+      "entity_id": "PERSON-45A9E574B1AC376D",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-B11D80799CD1EA8D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B11D80799CD1EA8D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-08T14:17:48"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-4BE7BA88BD7586A8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4BE7BA88BD7586A8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-08T19:09:07"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-D5A57298055ECF75",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D5A57298055ECF75.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-09T21:22:42"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-B64B1DD968ABAF69",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B64B1DD968ABAF69.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-09T21:23:01"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-0ECCA41703883BBC",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0ECCA41703883BBC.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-13T12:06:23"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-44D9799D203F8883",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-44D9799D203F8883.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-13T17:24:08"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-89D47910F33127F5",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-89D47910F33127F5.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-14T11:50:20"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-5B8E186B6C0C9AFD",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5B8E186B6C0C9AFD.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-14T22:03:49"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-D0392FAE10731BB0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D0392FAE10731BB0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-14T22:04:14"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-D73C6E7F83D9B11D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D73C6E7F83D9B11D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-14T22:04:55"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-DA564198782AEADB",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-DA564198782AEADB.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-15T12:12:50"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-E0E2DEC089065D83",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-E0E2DEC089065D83.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-15T12:13:20"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-E1D151B1D752D823",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-E1D151B1D752D823.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-16T09:33:54"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-1F6C076C415D9840",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1F6C076C415D9840.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-16T13:44:28"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-F8EB4AD85A67FFF0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-F8EB4AD85A67FFF0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-16T19:59:04"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-0B89206D3383B5C2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0B89206D3383B5C2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-17T22:04:12"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-C568F90B4306E21C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C568F90B4306E21C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-18T13:38:20"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-8F98999A995A52D1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8F98999A995A52D1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-18T18:21:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-9B8EB3B63AD8B2C8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9B8EB3B63AD8B2C8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-18T18:32:19"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-EDB1DACF63A38CFA",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-EDB1DACF63A38CFA.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-18T18:33:20"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-4C79F7B440FC297C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4C79F7B440FC297C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-19T05:15:34"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-0518292108CED055",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0518292108CED055.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-19T18:42:01"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-02CC8F15940E3DB5",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-02CC8F15940E3DB5.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-20T15:41:11"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-7D90BF0178F25F0B",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7D90BF0178F25F0B.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-22T00:40:41"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SantiMod",
+          "source_id": "SA-DISCORD-ANN-13120E42F5688697",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-13120E42F5688697.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-04-22T00:41:06"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 533,
+      "name": "SantiMod",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 39,
+      "score_components": {
+        "activity_duration": 8,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 1531,
+      "entity_id": "PERSON-26D3287C0AD505BE",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-139DFCC35856A5E3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-139DFCC35856A5E3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-03-31T16:59:55"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-AF17C310B4F5D169",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AF17C310B4F5D169.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-04-01T14:44:45"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-8FC1F4355787DE86",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8FC1F4355787DE86.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-05-06T12:13:53"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-584D26D0C7C31658",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-584D26D0C7C31658.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-05-13T16:24:57"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-911D505E1E273D14",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-911D505E1E273D14.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-20T19:10:13"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-BB097FC62E8CE286",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-BB097FC62E8CE286.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-01-27T13:03:17"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-59CC1A08C934455A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-59CC1A08C934455A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-21T12:59:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-BAFE82A0C66F2FD3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-BAFE82A0C66F2FD3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-28T15:33:40"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "⪛⦿⫺ZeSKK [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK [STAR]",
+          "source_id": "SA-DISCORD-ANN-B70712BCA39D4543",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B70712BCA39D4543.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-06-10T14:42:08"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 9,
+      "name": "⪛⦿⫺ZeSKK [STAR]",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 39,
+      "score_components": {
+        "activity_duration": 8,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 1301,
+      "entity_id": "PERSON-E402FBBF558935C5",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-68752D6112C7FC1D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-68752D6112C7FC1D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-05-27T15:40:36"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-A59BB9294F2EC7ED",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A59BB9294F2EC7ED.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-01T13:44:22"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-4795F526BAD5496E",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4795F526BAD5496E.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-01T14:08:21"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-998BC1B8762B5DE1",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-998BC1B8762B5DE1.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-16T15:44:21"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-2678F4B18DC9541A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2678F4B18DC9541A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-16T15:46:44"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-5B988143CB689777",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5B988143CB689777.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-16T15:51:58"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-34920EEC55E65F73",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-34920EEC55E65F73.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-16T16:03:42"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-12521C9334EBEF3A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-12521C9334EBEF3A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-16T18:19:12"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-C1370CE2793D7640",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C1370CE2793D7640.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-07-21T21:07:37"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-02B95128B8940F07",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-02B95128B8940F07.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-07-22T17:30:13"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-0D4A8B8F235B43B8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0D4A8B8F235B43B8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-07-31T17:17:32"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-6592DF6EFFC15821",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6592DF6EFFC15821.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-11T20:51:01"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-E93638FF99BCEF69",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-E93638FF99BCEF69.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-19T18:27:11"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-49DB2000CE419EB5",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-49DB2000CE419EB5.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-24T16:44:48"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-D418FD251354C147",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D418FD251354C147.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:15:52"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-88950718B54A3987",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-88950718B54A3987.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:18:05"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-905330589DDD0539",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-905330589DDD0539.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:19:17"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-29429439781D0F10",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-29429439781D0F10.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:20:17"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-B82B37557F3F8DDF",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B82B37557F3F8DDF.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:21:21"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-5026FE8ED52D923C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5026FE8ED52D923C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:21:46"
+        },
+        {
+          "attribution_class": "inferred_alias",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-68B8E679C1BE8F9E",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-68B8E679C1BE8F9E.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:22:36"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-A9CFF65BBAF3B520",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A9CFF65BBAF3B520.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:24:03"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-03251EF028CA6973",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-03251EF028CA6973.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:31:25"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-DDBB99D317AC5C7D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-DDBB99D317AC5C7D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-08-26T15:49:40"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DominicVainMod",
+          "source_id": "SA-DISCORD-ANN-3E355EAA4AEFC48C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-3E355EAA4AEFC48C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-09-01T16:35:37"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 447,
+      "name": "DominicVainMod",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 38,
+      "score_components": {
+        "activity_duration": 7,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 40,
+      "entity_id": "PERSON-0E8E5F985421AFC5",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Jindo | Star Atlas Mod [STAR]",
+          "message_id": null,
+          "quoted_text": "Jindo | Star Atlas Mod [STAR]",
+          "source_id": "SA-DISCORD-ANN-C4CBC4E87AD716E3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C4CBC4E87AD716E3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-04-23T15:30:55"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Jindo | Star Atlas Mod [STAR]",
+          "message_id": null,
+          "quoted_text": "Jindo | Star Atlas Mod [STAR]",
+          "source_id": "SA-DISCORD-ANN-840263705E4A4A08",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-840263705E4A4A08.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-26T12:55:26"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Jindo | Star Atlas Mod [STAR]",
+          "message_id": null,
+          "quoted_text": "Jindo | Star Atlas Mod [STAR]",
+          "source_id": "SA-DISCORD-ANN-AA6C0C7D015AB96D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AA6C0C7D015AB96D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-06-03T12:06:42"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 3,
+      "name": "Jindo | Star Atlas Mod [STAR]",
+      "recommendation": "defer",
+      "roles": [
+        "moderator"
+      ],
+      "score": 38,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 4,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 9,
+        "identity_confidence": 6,
+        "independent_mentions": 9,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "entity_id": "GUILD-A8A4C692B93BFDE4",
+      "entity_type": "guild",
+      "evidence": [
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Rome",
+          "source_id": "SA-DISCORD-ANN-FDD03373197A63F8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FDD03373197A63F8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-21T16:25:12"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Rome",
+          "source_id": "SA-DISCORD-ANN-17A149D561A1C7B8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-17A149D561A1C7B8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-02-29T11:34:00"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Rome",
+          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-14T12:09:18"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 3,
+      "name": "Rome",
+      "recommendation": "defer",
+      "score": 38,
+      "score_components": {
+        "activity_duration": 5,
+        "contribution_type": 3,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 3,
+        "identity_confidence": 8,
+        "independent_mentions": 9,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-C71652864F71EA5D",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "[COEX] Hakmer",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "[COEX] Hakmer",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "Hakmer",
+      "recommendation": "defer",
+      "roles": [
+        "guild_member"
+      ],
+      "score": 37,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 4,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 6,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-4168811F3C1DDBBF",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "[AEP] Lerinor",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "[AEP] Lerinor",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "Lerinor",
+      "recommendation": "defer",
+      "roles": [
+        "guild_member"
+      ],
+      "score": 37,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 4,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 6,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-F6BF21053D51CA6B",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "[Λ] Neo_AArmstrong [EC]",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "[Λ] Neo_AArmstrong [EC]",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "Neo_AArmstrong [EC]",
+      "recommendation": "defer",
+      "roles": [
+        "guild_member"
+      ],
+      "score": 37,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 4,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 6,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "duration_days": 1417,
+      "entity_id": "PERSON-AC214EC9B1BA9247",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK",
+          "source_id": "SA-DISCORD-ANN-4680CBB3330347DA",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4680CBB3330347DA.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-03-15T09:02:33"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK",
+          "source_id": "SA-DISCORD-ANN-91D5361736F52EF8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-91D5361736F52EF8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-11-01T16:55:17"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "⪛⦿⫺ZeSKK",
+          "source_id": "SA-DISCORD-ANN-035F7B8A6954C669",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-035F7B8A6954C669.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-01-30T15:38:16"
+        }
+      ],
+      "independent_author_count": 3,
+      "independent_message_count": 3,
+      "name": "⪛⦿⫺ZeSKK",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 37,
+      "score_components": {
+        "activity_duration": 7,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 9,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 90,
+      "entity_id": "PERSON-1FED9B70EB5ACFD5",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-860439AC1FF86677",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-860439AC1FF86677.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-29T12:23:21"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-990394D86905516C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-990394D86905516C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-06-12T10:05:12"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-4E45B86FF588E9A7",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4E45B86FF588E9A7.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-06-18T20:59:37"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-5C6220A3495162FF",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5C6220A3495162FF.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-31T18:43:22"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-4ED9A8E97C306E80",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4ED9A8E97C306E80.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-14T18:22:53"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-AD8CBA978A07722B",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AD8CBA978A07722B.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-18T13:48:37"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-65D8DF9CB1B409C5",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-65D8DF9CB1B409C5.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-25T08:29:20"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-9CC22515588DC9DA",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9CC22515588DC9DA.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-28T09:47:48"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 8,
+      "name": "SuhailDebar",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 36,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 1064,
+      "entity_id": "PERSON-9EDD1780578FC332",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Atlas Theory",
+          "source_id": "SA-DISCORD-ANN-3E355EAA4AEFC48C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-3E355EAA4AEFC48C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-09-01T16:35:37"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Atlas Theory",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "Atlas Theory",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 3,
+      "name": "Atlas Theory",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 35,
+      "score_components": {
+        "activity_duration": 5,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 9,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 982,
+      "entity_id": "PERSON-CFDA440031E7D36B",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Santi",
+          "source_id": "SA-DISCORD-ANN-7CABC9B0A1EA62DB",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7CABC9B0A1EA62DB.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-05-24T12:05:40"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Santi",
+          "source_id": "SA-DISCORD-ANN-5372BA157F750FB2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5372BA157F750FB2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-01-18T16:13:20"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "Santi",
+          "source_id": "SA-DISCORD-ANN-035F7B8A6954C669",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-035F7B8A6954C669.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-01-30T15:38:16"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 3,
+      "name": "Santi",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 35,
+      "score_components": {
+        "activity_duration": 5,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 9,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 589,
+      "entity_id": "PERSON-DD9D5A88F3719AEC",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Chri.z",
+          "source_id": "SA-DISCORD-ANN-2AC9A06C8FF90D5A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2AC9A06C8FF90D5A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-05-01T17:40:50"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Chri.z",
+          "source_id": "SA-DISCORD-ANN-42E4940748F661A2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-42E4940748F661A2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-08-01T15:24:28"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Chri.z",
+          "source_id": "SA-DISCORD-ANN-EA28D48D7B4B228D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-EA28D48D7B4B228D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-10-02T18:45:16"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Chri.z",
+          "source_id": "SA-DISCORD-ANN-1B120016F53120F9",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1B120016F53120F9.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-05-08T11:58:22"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Chri.z",
+          "source_id": "SA-DISCORD-ANN-9CA0CA4D467F8816",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9CA0CA4D467F8816.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-12-11T14:30:49"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 5,
+      "name": "Chri.z",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 34,
+      "score_components": {
+        "activity_duration": 3,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 7,
+      "entity_id": "PERSON-CADDD0CACF22289D",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DRUMCARL05 | ⭐Polaris Fuel⛽",
+          "source_id": "SA-DISCORD-ANN-86749FFBF0D1AB50",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-86749FFBF0D1AB50.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-14T12:09:18"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "DRUMCARL05 | ⭐Polaris Fuel⛽",
+          "source_id": "SA-DISCORD-ANN-B049D735C02507D2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-B049D735C02507D2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-03-21T15:29:31"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 2,
+      "name": "DRUMCARL05",
+      "recommendation": "defer",
+      "roles": [
+        "council_member"
+      ],
+      "score": 34,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 4,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 3,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 5
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "entity_id": "GUILD-08DCD0D363024906",
+      "entity_type": "guild",
+      "evidence": [
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "The Club",
+          "source_id": "SA-DISCORD-ANN-AEA0A5B1BDC8EED8",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AEA0A5B1BDC8EED8.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-05-14T15:38:47"
+        },
+        {
+          "attribution_class": "repeated_community_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "The Club",
+          "source_id": "SA-DISCORD-ANN-34920EEC55E65F73",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-34920EEC55E65F73.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-06-16T16:03:42"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "The Club Guild",
+      "recommendation": "defer",
+      "score": 34,
+      "score_components": {
+        "activity_duration": 5,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 8,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 3,
+      "entity_id": "PERSON-AF6A52000A1D2714",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "[426] Diego_Diaz08",
+          "source_id": "SA-DISCORD-ANN-65D8DF9CB1B409C5",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-65D8DF9CB1B409C5.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-25T08:29:20"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "[426] Diego_Diaz08",
+          "source_id": "SA-DISCORD-ANN-9CC22515588DC9DA",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9CC22515588DC9DA.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-28T09:47:48"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 2,
+      "name": "Diego_Diaz08",
+      "recommendation": "defer",
+      "roles": [
+        "guild_member"
+      ],
+      "score": 32,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 4,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 6,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "duration_days": 25,
+      "entity_id": "PERSON-71A1A4AD8AB2825C",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "[AEP] Prometheus ⪛⦿⫺",
+          "source_id": "SA-DISCORD-ANN-0CF5D160E6BC736F",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-0CF5D160E6BC736F.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-06-25T17:05:31"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SantiMod",
+          "message_id": null,
+          "quoted_text": "[AEP] Prometheus ⪛⦿⫺",
+          "source_id": "SA-DISCORD-ANN-9A891CCE759BA2B0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9A891CCE759BA2B0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-07-20T19:23:43"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 2,
+      "name": "Prometheus ⪛⦿⫺",
+      "recommendation": "defer",
+      "roles": [
+        "guild_member"
+      ],
+      "score": 32,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 4,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 6,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": true
+    },
+    {
+      "duration_days": 75,
+      "entity_id": "PERSON-6215AF31393A5900",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "inti",
+          "message_id": null,
+          "quoted_text": "inti",
+          "source_id": "SA-DISCORD-ANN-DDE96428B333147E",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-DDE96428B333147E.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-30T00:03:35"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "inti",
+          "message_id": null,
+          "quoted_text": "inti",
+          "source_id": "SA-DISCORD-ANN-7E36EB63A7DE3DCF",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7E36EB63A7DE3DCF.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-03-30T01:21:21"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "inti",
+          "message_id": null,
+          "quoted_text": "inti",
+          "source_id": "SA-DISCORD-ANN-A8B0AA732BE40EAC",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A8B0AA732BE40EAC.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-01T17:16:59"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "inti",
+          "message_id": null,
+          "quoted_text": "inti",
+          "source_id": "SA-DISCORD-ANN-FB68A06C5318CF22",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-FB68A06C5318CF22.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-06T19:51:26"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "inti",
+          "message_id": null,
+          "quoted_text": "inti",
+          "source_id": "SA-DISCORD-ANN-8710396AF5AD53A9",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8710396AF5AD53A9.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-05-07T10:09:58"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "inti",
+          "message_id": null,
+          "quoted_text": "inti",
+          "source_id": "SA-DISCORD-ANN-61C845447B192623",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-61C845447B192623.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-06-13T06:16:56"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 6,
+      "name": "inti",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 31,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 150,
+      "entity_id": "PERSON-100B9BB261E66E49",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-50781717E3BADBD3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-50781717E3BADBD3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-02-11T21:06:55"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-2BF05CC74FA3E7A7",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2BF05CC74FA3E7A7.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-02-18T13:04:20"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-469F7FEDFBC1C369",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-469F7FEDFBC1C369.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-03-04T22:21:53"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-C1259107DF39294B",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C1259107DF39294B.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-03-10T13:18:57"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-1D6006B8AFD89E32",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1D6006B8AFD89E32.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-04-23T15:30:56"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-1AF4B256E2F0DA8F",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1AF4B256E2F0DA8F.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-05T18:27:56"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-F16B0FF751720CB9",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-F16B0FF751720CB9.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-08T17:25:21"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-8F90AC0BCDD335D0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-8F90AC0BCDD335D0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-21T13:00:29"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-420DB7E0F3020F58",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-420DB7E0F3020F58.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-26T12:55:26"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-87A01530C24500B0",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-87A01530C24500B0.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-27T09:41:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-A3C3CE7A8EF5A42D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-A3C3CE7A8EF5A42D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-28T15:36:26"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-DDD681BB02898A55",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-DDD681BB02898A55.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-28T18:59:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-CE9165908687F743",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CE9165908687F743.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-28T20:13:26"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-6F4672D774AFC746",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6F4672D774AFC746.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-29T16:35:43"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-308A73B48A8C090D",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-308A73B48A8C090D.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-06-03T12:06:43"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-5D6F47949D391E5C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5D6F47949D391E5C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-06-10T14:42:08"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-02E3050BBD5BC693",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-02E3050BBD5BC693.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-06-17T20:41:51"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Star Atlas AIAPP",
+          "message_id": null,
+          "quoted_text": "Star Atlas AIAPP",
+          "source_id": "SA-DISCORD-ANN-CFA14CCE71C5FD1C",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CFA14CCE71C5FD1C.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-07-12T15:18:19"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 18,
+      "name": "Star Atlas AIAPP",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 31,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 79,
+      "entity_id": "PERSON-804FE1F25D0B05AC",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Xcode [STAR]",
+          "message_id": null,
+          "quoted_text": "Xcode [STAR]",
+          "source_id": "SA-DISCORD-ANN-D8337FA27E0A550A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-03-10T13:18:57"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Xcode [STAR]",
+          "message_id": null,
+          "quoted_text": "Xcode [STAR]",
+          "source_id": "SA-DISCORD-ANN-ACCB4262697DE5E2",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-ACCB4262697DE5E2.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-04-28T14:59:16"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Xcode [STAR]",
+          "message_id": null,
+          "quoted_text": "Xcode [STAR]",
+          "source_id": "SA-DISCORD-ANN-3E7C1589A9255083",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-3E7C1589A9255083.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-05T18:23:08"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Xcode [STAR]",
+          "message_id": null,
+          "quoted_text": "Xcode [STAR]",
+          "source_id": "SA-DISCORD-ANN-C8C43280CBF97CE3",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-C8C43280CBF97CE3.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-05T18:26:15"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Xcode [STAR]",
+          "message_id": null,
+          "quoted_text": "Xcode [STAR]",
+          "source_id": "SA-DISCORD-ANN-1411C45004A574CD",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1411C45004A574CD.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-08T17:25:19"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Xcode [STAR]",
+          "message_id": null,
+          "quoted_text": "Xcode [STAR]",
+          "source_id": "SA-DISCORD-ANN-5E18354A17AB704A",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-5E18354A17AB704A.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-27T09:41:45"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "Xcode [STAR]",
+          "message_id": null,
+          "quoted_text": "Xcode [STAR]",
+          "source_id": "SA-DISCORD-ANN-9B4973FC83D7E77F",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9B4973FC83D7E77F.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-05-28T20:13:26"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 7,
+      "name": "Xcode [STAR]",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 31,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 15,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 1189,
+      "entity_id": "PERSON-93F7D4B68340F5C0",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "DominicVain",
+          "source_id": "SA-DISCORD-ANN-DA3C20277E26E225",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-DA3C20277E26E225.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2022-10-28T15:48:31"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "DominicVain",
+          "source_id": "SA-DISCORD-ANN-035F7B8A6954C669",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-035F7B8A6954C669.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2026-01-30T15:38:16"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 2,
+      "name": "DominicVain",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 28,
+      "score_components": {
+        "activity_duration": 6,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-2E6A817BE185AA1E",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "beyondthehorizon2620",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "beyondthehorizon2620",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "beyondthehorizon2620",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 27,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-7A80E6411DAF1BDA",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Jindo | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "Jindo | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "Jindo",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 27,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-75EFEB6F21BB8661",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "odvb",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "odvb",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "odvb",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 27,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-99B6926856591B62",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Ryden",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "Ryden",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "Ryden",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 27,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-CC9FE638309C3213",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "Shaddix1 | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-7B4E108B64E5B830",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B4E108B64E5B830.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:20:46"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SW4GN3R [STAR]",
+          "message_id": null,
+          "quoted_text": "Shaddix1 | Star Atlas Mod",
+          "source_id": "SA-DISCORD-ANN-1EDD256BD7620642",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-1EDD256BD7620642.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2025-08-01T15:25:03"
+        }
+      ],
+      "independent_author_count": 2,
+      "independent_message_count": 2,
+      "name": "Shaddix1",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 27,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 15,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 215,
+      "entity_id": "PERSON-466FEB03EE412042",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "MagicPuncher",
+          "source_id": "SA-DISCORD-ANN-2380EB26CAD5D8DA",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-2380EB26CAD5D8DA.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2023-06-06T15:42:26"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "DominicVainMod",
+          "message_id": null,
+          "quoted_text": "MagicPuncher",
+          "source_id": "SA-DISCORD-ANN-554CD0300F34DFDF",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-554CD0300F34DFDF.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2024-01-08T12:59:15"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 2,
+      "name": "MagicPuncher",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 23,
+      "score_components": {
+        "activity_duration": 1,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    },
+    {
+      "duration_days": 0,
+      "entity_id": "PERSON-05952FDCE9957783",
+      "entity_type": "person",
+      "evidence": [
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SuhailDebar | Star Atlas ModMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas ModMod",
+          "source_id": "SA-DISCORD-ANN-01165EC43CCD3FAF",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-01165EC43CCD3FAF.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-21T15:49:58"
+        },
+        {
+          "attribution_class": "third_party_attribution",
+          "author_id": null,
+          "channel_id": null,
+          "display_name": "SuhailDebar | Star Atlas ModMod",
+          "message_id": null,
+          "quoted_text": "SuhailDebar | Star Atlas ModMod",
+          "source_id": "SA-DISCORD-ANN-7B7601C178DB97B5",
+          "source_paths": [
+            "archive/normalized/discord-announcements/messages.jsonl",
+            "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-7B7601C178DB97B5.json",
+            "archive/raw/discord-announcements/star-atlas-discord-announcements.md"
+          ],
+          "timestamp": "2021-08-21T15:51:21"
+        }
+      ],
+      "independent_author_count": 1,
+      "independent_message_count": 2,
+      "name": "SuhailDebar | Star Atlas ModMod",
+      "recommendation": "defer",
+      "roles": [],
+      "score": 22,
+      "score_components": {
+        "activity_duration": 0,
+        "contribution_type": 0,
+        "cross_channel_corroboration": 0,
+        "evidence_strength": 10,
+        "historical_significance": 0,
+        "identity_confidence": 6,
+        "independent_mentions": 6,
+        "leadership_or_founder": 0
+      },
+      "volume_only_guard_passed": false
+    }
+  ],
+  "schema_version": "1.0.0",
+  "scoring_note": "Message volume is not a scoring component; independent evidence, time, roles, contribution, corroboration, confidence, and significance are scored.",
+  "thresholds": {
+    "promote": 65,
+    "review": 40
+  }
+}
