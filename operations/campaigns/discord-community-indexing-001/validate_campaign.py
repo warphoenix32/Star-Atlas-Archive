@@ -75,6 +75,11 @@ def changed_paths(repo_root: Path, base_ref: str) -> tuple[list[str], str | None
 
 def validate_scope(repo_root: Path, base_ref: str) -> tuple[bool, dict[str, object]]:
     paths, error = changed_paths(repo_root, base_ref)
+    resolved_ok, resolved_detail = run(["git", "rev-parse", base_ref], repo_root)
+    resolved_base_sha = next(
+        (line.strip() for line in resolved_detail.splitlines() if re.fullmatch(r"[0-9a-fA-F]{40}", line.strip())),
+        None,
+    )
     allowed_prefixes = (
         "operations/campaigns/discord-community-indexing-001/",
         "operations/tests/discord_community_indexing/",
@@ -86,9 +91,11 @@ def validate_scope(repo_root: Path, base_ref: str) -> tuple[bool, dict[str, obje
     }
     forbidden = [path for path in paths if path not in allowed_exact and not path.startswith(allowed_prefixes)]
     protected = [path for path in paths if path.startswith(("archive/", "knowledge/", "graph/", "publication/"))]
-    return not error and not forbidden and not protected, {
-        "base_ref": base_ref, "changed_paths": paths, "forbidden_paths": forbidden,
+    resolution_error = None if resolved_ok and resolved_base_sha else resolved_detail
+    return not error and not resolution_error and not forbidden and not protected, {
+        "base_sha": resolved_base_sha, "changed_paths": paths, "forbidden_paths": forbidden,
         "protected_evidence_or_canonical_paths": protected, "git_error": error,
+        "base_resolution_error": resolution_error,
     }
 
 

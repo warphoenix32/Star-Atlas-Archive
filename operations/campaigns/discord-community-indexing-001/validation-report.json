@@ -112,7 +112,8 @@
   "external_validation": {
     "forbidden_path_and_evidence_immutability": {
       "details": {
-        "base_ref": "origin/main",
+        "base_resolution_error": null,
+        "base_sha": "85c8e2fd23670f1f8ca6fb6421b10866a2a3b5c0",
         "changed_paths": [
           "operations/campaigns/discord-community-indexing-001/README.md",
           "operations/campaigns/discord-community-indexing-001/alias-registry.json",
