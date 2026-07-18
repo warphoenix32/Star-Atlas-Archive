@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import hashlib
+import importlib.util
 import json
 import re
 import subprocess
@@ -19,10 +20,15 @@ HERE = Path(__file__).resolve().parent
 LEDGER_JSON = ROOT / "knowledge/governance/PIP-Registry.json"
 LEDGER_MD = ROOT / "knowledge/governance/PIP-Registry.md"
 GENERATOR = HERE / "build_ledger.py"
-TREASURY_STATES = {"REQUESTED", "AUTHORIZED", "COUNCIL_REPORTED", "UNVERIFIED", "MISSING_ONCHAIN_EVIDENCE"}
-ELECTION_PIPS = {6, 7, 11, 25, 27}
-FAILED_PIPS = {13, 15, 19, 26}
-PASSED_NON_ELECTION_PIPS = set(range(1, 34)) - ELECTION_PIPS - FAILED_PIPS
+SEMANTIC_PATH = ROOT / "archive/semantic/governance/pip-registry-semantic.json"
+TREASURY_STATES_BY_FIELD = {
+    "request_state": {"REQUESTED", None},
+    "authorization_state": {"AUTHORIZED", None},
+    "payment_state": {"COUNCIL_REPORTED", "UNVERIFIED", None},
+    "onchain_verification_state": {"MISSING_ONCHAIN_EVIDENCE", "UNVERIFIED", None},
+}
+EXPECTED_ELECTION_PIPS = {6, 7, 11, 25, 27}
+EXPECTED_FAILED_PIPS = {13, 15, 19, 26}
 SOLANA_SENTINEL_WALLET = "11111111111111111111111111111111"
 GENERATED = [
     LEDGER_JSON,
@@ -229,6 +235,22 @@ def main() -> int:
     conflicts = parsed["conflict-report.json"]["conflicts"]
     backlog = parsed["governance-research-backlog.json"]["items"]
     by_number = {item["pip_number"]: item for item in records}
+    source_proposals = read_json(SEMANTIC_PATH)["proposals"]
+    source_by_number = {item["pip_number"]: item for item in source_proposals}
+    actual_election_pips = {item["pip_number"] for item in records if item["vote"]["mechanism"] == "RANKED_CHOICE_ELECTION"}
+    actual_failed_pips = {item["pip_number"] for item in records if item["result"]["reviewed_result"] == "FAILED"}
+    actual_passed_non_election_pips = {
+        item["pip_number"]
+        for item in records
+        if item["vote"]["mechanism"] != "RANKED_CHOICE_ELECTION" and item["result"]["reviewed_result"] == "PASSED"
+    }
+    source_election_pips = {item["pip_number"] for item in source_proposals if item["vote_mechanism"] == "RANKED_CHOICE_ELECTION"}
+    source_failed_pips = {item["pip_number"] for item in source_proposals if item["reviewed_result"] == "FAILED"}
+    source_passed_non_election_pips = {
+        item["pip_number"]
+        for item in source_proposals
+        if item["vote_mechanism"] != "RANKED_CHOICE_ELECTION" and item["reviewed_result"] == "PASSED"
+    }
 
     required_record_fields = {"pip_id", "pip_number", "source_id", "proposal_uuid", "title", "reviewed_title", "author", "category", "dates", "sources", "vote", "result", "relationships", "authorization", "implementation", "funding_scope", "treasury_states", "financial_terms", "reconciliation", "conflict_ids", "research_backlog_ids", "known_limitations", "review_status"}
     schema_top_required = set(schema.get("required", []))
@@ -271,7 +293,12 @@ def main() -> int:
 
     binary = [item for item in records if item["vote"]["mechanism"] == "BINARY_PVP"]
     elections = [item for item in records if item["vote"]["mechanism"] == "RANKED_CHOICE_ELECTION"]
-    require(len(binary) == 28 and {item["pip_number"] for item in elections} == ELECTION_PIPS, "mechanism_partition", "binary/election partition is incorrect")
+    require(actual_election_pips == source_election_pips, "source_election_partition", "generated election membership does not match source vote mechanisms", sorted(actual_election_pips ^ source_election_pips))
+    require(actual_failed_pips == source_failed_pips, "source_failed_partition", "generated failed membership does not match source reviewed results", sorted(actual_failed_pips ^ source_failed_pips))
+    require(actual_passed_non_election_pips == source_passed_non_election_pips, "source_passed_partition", "generated authorized non-election membership does not match source reviewed results", sorted(actual_passed_non_election_pips ^ source_passed_non_election_pips))
+    require(actual_election_pips == EXPECTED_ELECTION_PIPS, "expected_election_regression", "source-derived election set changed from the reviewed regression guard", sorted(actual_election_pips))
+    require(actual_failed_pips == EXPECTED_FAILED_PIPS, "expected_failed_regression", "source-derived failed set changed from the reviewed regression guard", sorted(actual_failed_pips))
+    require(len(binary) == 28 and len(elections) == 5, "mechanism_partition", "binary/election partition is incorrect")
     require(all("COUNCIL_ELECTION" not in by_number[number]["category"]["normalized"] for number in (10, 13)), "category_precision", "PIP-10 or PIP-13 was misclassified as an election category")
     binary_failures = []
     for item in binary:
@@ -294,35 +321,59 @@ def main() -> int:
     require(not election_failures, "elections_not_binary_or_inferred", "an election has binary or invented candidate totals", election_failures)
     require(by_number[6]["result"]["reviewed_result"] == "FIRST_ROUND_ADVANCEMENT_RECORDED" and len(by_number[6]["vote"]["election"]["official_outcome_names"]) == 12, "pip_6_advancement", "PIP-6 is not preserved as first-round advancement")
     require(by_number[7]["result"]["reviewed_result"] == "ELECTED_OFFICEHOLDERS_RECORDED" and len(by_number[7]["vote"]["election"]["official_outcome_names"]) == 5, "pip_7_winners", "PIP-7 final winners are not preserved")
-    require(all(by_number[number]["result"]["reviewed_result"] == "COUNCIL_REPORTED_PASSAGE_WINNERS_UNRESOLVED" and by_number[number]["vote"]["election"]["outcome_identification_status"] == "UNRESOLVED" and not by_number[number]["vote"]["election"]["official_outcome_names"] for number in (11, 25, 27)), "unresolved_elections", "PIP-11, PIP-25, or PIP-27 inferred a winner")
-    require(all(by_number[number]["authorization"]["state"] == "NOT_APPLICABLE_ELECTION" and by_number[number]["implementation"]["state"] == "NOT_APPLICABLE_ELECTION" for number in ELECTION_PIPS), "election_lifecycle_separation", "an election outcome was reused as authorization or implementation state")
+    unresolved_election_pips = {
+        item["pip_number"] for item in elections if not item["vote"]["election"]["official_outcome_names"]
+    }
+    require(all(by_number[number]["result"]["reviewed_result"] == "COUNCIL_REPORTED_PASSAGE_WINNERS_UNRESOLVED" and by_number[number]["vote"]["election"]["outcome_identification_status"] == "UNRESOLVED" for number in unresolved_election_pips), "unresolved_elections", "an unresolved election inferred a winner")
+    require(all(by_number[number]["authorization"]["state"] == "NOT_APPLICABLE_ELECTION" and by_number[number]["implementation"]["state"] == "NOT_APPLICABLE_ELECTION" and by_number[number]["implementation"]["independent_verification_state"] == "NOT_APPLICABLE_ELECTION" for number in actual_election_pips), "election_lifecycle_separation", "an election outcome was reused as authorization, implementation, or implementation-verification state")
     candidate_wallets = [candidate for item in elections for candidate in item["vote"]["election"]["candidates"]]
     require(all(candidate["wallet_public_key"] != SOLANA_SENTINEL_WALLET and (candidate["captured_wallet_value"] != SOLANA_SENTINEL_WALLET or (candidate["wallet_public_key"] is None and candidate["wallet_identification_status"] == "PLACEHOLDER_IN_CAPTURE")) for candidate in candidate_wallets), "candidate_wallet_placeholders", "a sentinel candidate-wallet value was normalized as an identified wallet")
     require(by_number[27]["vote"]["election"]["winner_count_configured"] == 5 and by_number[27]["vote"]["election"]["max_choices"] == 6 and by_number[27]["vote"]["election"]["candidate_count"] == 13, "pip_27_configuration", "PIP-27 captured ballot discrepancy was normalized away")
-    require(all(by_number[number]["authorization"]["state"] == "NOT_AUTHORIZED" and by_number[number]["implementation"]["state"] == "NOT_APPLICABLE_NO_AUTHORIZATION" for number in FAILED_PIPS), "failed_no_authorization", "a failed PIP has authorization or implementation")
+    require(all(by_number[number]["authorization"]["state"] == "NOT_AUTHORIZED" and by_number[number]["implementation"]["state"] == "NOT_APPLICABLE_NO_AUTHORIZATION" and by_number[number]["implementation"]["independent_verification_state"] == "NOT_APPLICABLE_NO_AUTHORIZATION" for number in actual_failed_pips), "failed_no_authorization", "a failed PIP has authorization, implementation, or an applicable implementation-verification state")
+    require(all(by_number[number]["implementation"]["independent_verification_state"] == "MISSING_INDEPENDENT_PRIMARY_EVIDENCE" for number in actual_passed_non_election_pips), "authorized_implementation_verification_gap", "an authorized non-election proposal lacks the required missing-primary-evidence state")
+    require(all(by_number[number]["implementation"]["council_reported_state"] == "MILESTONES_REPORTED_COMPLETE" and by_number[number]["implementation"]["attribution"] == "STAR_ATLAS_COUNCIL_TRACKER" for number in actual_failed_pips), "failed_tracker_conflict_preserved", "a failed proposal lost its contradictory attributed Council milestone state")
+    failed_conflict = next(item for item in conflicts if item["conflict_id"] == "GOV-CONFLICT-FAILED-MILESTONES-001")
+    require(set(failed_conflict["pip_numbers"]) == actual_failed_pips and "implementation.independent_verification_state" in failed_conflict["treatment"], "failed_conflict_scope", "the failed-milestones conflict does not cover the source-derived failed set and both implementation dimensions")
     require(by_number[14]["implementation"]["state"] == "COUNCIL_REPORTED_TERMINATED" and by_number[17]["implementation"]["state"] == "COUNCIL_REPORTED_CANCELED" and by_number[31]["implementation"]["state"] == "COUNCIL_REPORTED_WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED", "terminal_states", "termination, cancellation, or withdrawal state was collapsed")
     require(any(rel["from_pip"] == 23 and rel["to_pip"] == 4 and rel["relationship"] == "SUPERSEDES" for rel in by_number[23]["relationships"]), "pip_23_supersedes_4", "PIP-23 supersession of PIP-4 is missing")
 
     treasury_failures = []
     for item in records:
         for field, value in item["treasury_states"].items():
-            if value is not None and value not in TREASURY_STATES:
+            if value not in TREASURY_STATES_BY_FIELD[field]:
                 treasury_failures.append(f"{item['pip_id']}:{field}={value}")
-    require(not treasury_failures, "treasury_vocabulary", "a treasury state uses a prohibited value", treasury_failures)
-    require(all(by_number[number]["treasury_states"]["request_state"] == "REQUESTED" and all(by_number[number]["treasury_states"][key] is None for key in ("authorization_state", "payment_state", "onchain_verification_state")) for number in (15, 19, 26)), "failed_treasury_separation", "a failed funding request retains treasury authorization, payment, or verification state")
-    concrete_reported = {5, 8, 12, 14, 16, 17, 18, 20, 21, 22, 29, 30}
+    require(not treasury_failures, "treasury_vocabulary_by_field", "a treasury state uses a value prohibited for that dimension", treasury_failures)
+    failed_treasury_pips = {number for number in actual_failed_pips if by_number[number]["treasury_states"]["request_state"] == "REQUESTED"}
+    require(all(all(by_number[number]["treasury_states"][key] is None for key in ("authorization_state", "payment_state", "onchain_verification_state")) for number in failed_treasury_pips), "failed_treasury_separation", "a failed funding request retains treasury authorization, payment, or verification state")
+    concrete_reported = {
+        number
+        for number, pip in source_by_number.items()
+        if any(
+            value is not None and str(value).strip().upper() not in {"", "?", "N/A", "NA", "NONE", "NULL"}
+            for key, value in ((pip.get("council_tracker") or {}).get("payment_fields") or {}).items()
+            if key in {"paid_usdc", "paid_atlas"}
+        )
+        and by_number[number]["treasury_states"]["authorization_state"] == "AUTHORIZED"
+    }
     require(all(by_number[number]["treasury_states"]["payment_state"] == "COUNCIL_REPORTED" and by_number[number]["treasury_states"]["onchain_verification_state"] == "MISSING_ONCHAIN_EVIDENCE" for number in concrete_reported), "council_payments_attributed", "a concrete Council payment report is missing attribution or overstates verification")
     authorized_without_payment_evidence = {
         item["pip_number"]
         for item in records
         if item["treasury_states"]["authorization_state"] == "AUTHORIZED"
-        and item["pip_number"] not in concrete_reported | {33}
+        and item["pip_number"] not in concrete_reported
+        and item["pip_number"] != 33
     }
     require(all(by_number[number]["treasury_states"]["payment_state"] == "UNVERIFIED" and by_number[number]["treasury_states"]["onchain_verification_state"] == "UNVERIFIED" for number in authorized_without_payment_evidence), "unreported_payments_not_inferred", "an authorization without payment evidence was treated as a payment or missing transaction", sorted(authorized_without_payment_evidence))
     pip33 = by_number[33]
     terms = pip33["financial_terms"]
-    require(pip33["funding_scope"] == "DIRECT_DAO_TREASURY_MEASURE" and pip33["treasury_states"]["authorization_state"] == "AUTHORIZED" and pip33["treasury_states"]["payment_state"] == "MISSING_ONCHAIN_EVIDENCE", "pip_33_treasury_boundary", "PIP-33 treasury authorization/payment boundary is incorrect")
-    require(len(terms["tranches"]) == 2 and all(item["amount_usd"] == "234756.76" and item["usdc_amount"] == "176067.57" and item["atlas_equivalent_usd"] == "58689.19" for item in terms["tranches"]) and terms["tranches"][1]["timing"] == "180_DAYS_AFTER_TRANCHE_1" and terms["tranches"][1].get("condition") and {(item["displayed_sum"], item["stated_total"], item["difference_usd"]) for item in terms["arithmetic_discrepancies"]} == {("469513.52", "469513.53", "0.01"), ("352135.14", "352135.15", "0.01")}, "pip_33_terms", "PIP-33 tranche structure or one-cent discrepancies are not preserved")
+    require(pip33["funding_scope"] == "DIRECT_DAO_TREASURY_MEASURE" and pip33["treasury_states"]["authorization_state"] == "AUTHORIZED", "pip_33_authorization", "PIP-33 authorization or funding scope is incorrect")
+    require(pip33["treasury_states"]["payment_state"] == "UNVERIFIED", "pip_33_payment_occurrence", "PIP-33 authorization was conflated with payment occurrence")
+    require(pip33["treasury_states"]["onchain_verification_state"] == "MISSING_ONCHAIN_EVIDENCE", "pip_33_onchain_evidence", "PIP-33 missing on-chain evidence is not preserved in the verification dimension")
+    require(terms["stated_total_usd"] == "469513.53" and terms["stated_composition"] == {"usdc_percent": 75, "atlas_percent": 25, "stated_usdc_total": "352135.15", "stated_atlas_equivalent_total": "117378.38"} and terms["payment_verified"] is False, "pip_33_stated_terms", "PIP-33 stated total, composition, or unverified-payment flag changed")
+    require([item["sequence"] for item in terms["tranches"]] == [1, 2] and all(item["amount_usd"] == "234756.76" and item["usdc_percent"] == 75 and item["usdc_amount"] == "176067.57" and item["atlas_percent"] == 25 and item["atlas_equivalent_usd"] == "58689.19" for item in terms["tranches"]), "pip_33_tranche_composition", "PIP-33 two-tranche 75/25 composition is not preserved")
+    require(terms["tranches"][0]["timing"] == "T_PLUS_14_DAYS_AFTER_PASSAGE" and terms["tranches"][1]["timing"] == "180_DAYS_AFTER_TRANCHE_1" and terms["tranches"][1]["source_schedule"] == "T_PLUS_194_DAYS_AFTER_PASSAGE" and terms["tranches"][1].get("condition") == "DAO_TREASURY_MUST_RETAIN_CAPITAL_FOR_AN_ADDITIONAL_YEAR_OF_FOUNDATION_DAO_OPERATING_COSTS", "pip_33_tranche_timing", "PIP-33 source timing or conditional second tranche is not preserved")
+    require({(item["field"], item["displayed_sum"], item["stated_total"], item["difference_usd"]) for item in terms["arithmetic_discrepancies"]} == {("tranche_total", "469513.52", "469513.53", "0.01"), ("usdc_total", "352135.14", "352135.15", "0.01")}, "pip_33_arithmetic_discrepancies", "PIP-33 one-cent discrepancies are not preserved exactly")
+    require(all(item["financial_terms"] is None for item in records if item["pip_number"] != 33), "pip_33_financial_terms_exclusive", "PIP-33 financial terms leaked into another proposal")
 
     conflict_ids = {item["conflict_id"] for item in conflicts}
     backlog_ids = {item["research_id"] for item in backlog}
@@ -336,7 +387,54 @@ def main() -> int:
     tracker_input = "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
     require(tracker_input in ledger["source_inputs"] and (ROOT / tracker_input).exists(), "tracker_source_input", "Council tracker semantic input is absent from top-level provenance")
     research_004 = next(item for item in backlog if item["research_id"] == "GOV-RESEARCH-004")
-    require(set(research_004["pip_numbers"]) == PASSED_NON_ELECTION_PIPS, "implementation_backlog_scope", "implementation research scope is not limited to authorized non-election proposals")
+    require(set(research_004["pip_numbers"]) == actual_passed_non_election_pips, "implementation_backlog_scope", "implementation research scope is not limited to source-derived authorized non-election proposals")
+    research_001 = next(item for item in backlog if item["research_id"] == "GOV-RESEARCH-001")
+    require(set(research_001["pip_numbers"]) == unresolved_election_pips, "election_backlog_scope", "unresolved-election research scope does not match generated election evidence")
+    research_002 = next(item for item in backlog if item["research_id"] == "GOV-RESEARCH-002")
+    missing_onchain_scope = {item["pip_number"] for item in records if item["treasury_states"]["onchain_verification_state"] == "MISSING_ONCHAIN_EVIDENCE"}
+    require(set(research_002["pip_numbers"]) == missing_onchain_scope, "treasury_backlog_scope", "on-chain research scope does not match generated missing-evidence states")
+
+    # Prove that proposal numbers do not construct lifecycle state.
+    builder_source = GENERATOR.read_text(encoding="utf-8")
+    require(all(marker not in builder_source for marker in ("ELECTION_PIPS =", "FAILED_PIPS =", "PASSED_NON_ELECTION_PIPS =")), "no_generator_lifecycle_membership_sets", "generator retains a hard-coded lifecycle membership set")
+    try:
+        spec = importlib.util.spec_from_file_location("canonical_pip_ledger_builder", GENERATOR)
+        if spec is None or spec.loader is None:
+            raise RuntimeError("could not load generator module")
+        builder = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(builder)
+        synthetic_failed = {
+            "pip_number": 6,
+            "vote_mechanism": "BINARY_PVP",
+            "reviewed_result": "FAILED",
+            "execution_state": "UNKNOWN",
+            "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        }
+        synthetic_election = {
+            "pip_number": 13,
+            "vote_mechanism": "RANKED_CHOICE_ELECTION",
+            "reviewed_result": "PASSED",
+            "execution_state": "UNKNOWN",
+            "council_reported_implementation_state": "MILESTONES_REPORTED_COMPLETE",
+        }
+        derived_behavior = (
+            builder.authorization_state(synthetic_failed) == "NOT_AUTHORIZED"
+            and builder.implementation_state(synthetic_failed) == "NOT_APPLICABLE_NO_AUTHORIZATION"
+            and builder.implementation_verification_state(synthetic_failed) == "NOT_APPLICABLE_NO_AUTHORIZATION"
+            and builder.authorization_state(synthetic_election) == "NOT_APPLICABLE_ELECTION"
+            and builder.implementation_state(synthetic_election) == "NOT_APPLICABLE_ELECTION"
+            and builder.implementation_verification_state(synthetic_election) == "NOT_APPLICABLE_ELECTION"
+        )
+        derivation_detail: Any = None
+    except Exception as exc:  # pragma: no cover - reported as a named validation failure
+        derived_behavior = False
+        derivation_detail = str(exc)
+    require(derived_behavior, "source_derived_lifecycle_behavior", "lifecycle helpers depend on proposal-number membership rather than source fields", derivation_detail)
+
+    campaign_summary = parsed["campaign-summary.json"]
+    require(set(campaign_summary["failed_pips"]) == actual_failed_pips and set(campaign_summary["unresolved_election_outcomes"]) == unresolved_election_pips, "campaign_summary_source_scopes", "campaign summary lifecycle scopes do not reconcile to generated records")
+    require(campaign_summary["lifecycle_generation_basis"] == "SOURCE_BACKED_VOTE_MECHANISM_AND_REVIEWED_RESULT", "campaign_summary_generation_basis", "campaign summary does not disclose its source-derived lifecycle basis")
+    require(campaign_summary["pip_33_treasury_states"] == {"payment_state": "UNVERIFIED", "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE", "payment_implied": False}, "campaign_summary_pip_33", "campaign summary misstates the PIP-33 payment/on-chain boundary")
 
     markdown = LEDGER_MD.read_text(encoding="utf-8")
     ledger_table = markdown.split("## Election detail", 1)[0]

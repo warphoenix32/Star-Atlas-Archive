@@ -56,9 +56,12 @@
   "$defs": {
     "nullableString": {"type": ["string", "null"]},
     "stringArray": {"type": "array", "items": {"type": "string"}},
-    "treasuryState": {
-      "type": ["string", "null"],
-      "enum": ["REQUESTED", "AUTHORIZED", "COUNCIL_REPORTED", "UNVERIFIED", "MISSING_ONCHAIN_EVIDENCE", null]
+    "treasuryRequestState": {"type": ["string", "null"], "enum": ["REQUESTED", null]},
+    "treasuryAuthorizationState": {"type": ["string", "null"], "enum": ["AUTHORIZED", null]},
+    "treasuryPaymentState": {"type": ["string", "null"], "enum": ["COUNCIL_REPORTED", "UNVERIFIED", null]},
+    "treasuryOnchainVerificationState": {"type": ["string", "null"], "enum": ["MISSING_ONCHAIN_EVIDENCE", "UNVERIFIED", null]},
+    "implementationVerificationState": {
+      "enum": ["MISSING_INDEPENDENT_PRIMARY_EVIDENCE", "NOT_APPLICABLE_NO_AUTHORIZATION", "NOT_APPLICABLE_ELECTION"]
     },
     "candidate": {
       "type": "object", "additionalProperties": false,
@@ -240,7 +243,7 @@
             "state": {"enum": ["NOT_APPLICABLE_NO_AUTHORIZATION", "NOT_APPLICABLE_ELECTION", "COUNCIL_REPORTED_TERMINATED", "COUNCIL_REPORTED_CANCELED", "COUNCIL_REPORTED_WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED", "COUNCIL_REPORTED_PARTIAL_OR_IN_PROGRESS", "COUNCIL_REPORTED_MILESTONES_COMPLETE", "IMPLEMENTATION_UNVERIFIED"]},
             "council_reported_state": {"$ref": "#/$defs/nullableString"},
             "attribution": {"type": ["string", "null"], "enum": ["STAR_ATLAS_COUNCIL_TRACKER", null]},
-            "independent_verification_state": {"const": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"}
+            "independent_verification_state": {"$ref": "#/$defs/implementationVerificationState"}
           }
         },
         "funding_scope": {"type": "string", "minLength": 1},
@@ -248,10 +251,10 @@
           "type": "object", "additionalProperties": false,
           "required": ["request_state", "authorization_state", "payment_state", "onchain_verification_state"],
           "properties": {
-            "request_state": {"$ref": "#/$defs/treasuryState"},
-            "authorization_state": {"$ref": "#/$defs/treasuryState"},
-            "payment_state": {"$ref": "#/$defs/treasuryState"},
-            "onchain_verification_state": {"$ref": "#/$defs/treasuryState"}
+            "request_state": {"$ref": "#/$defs/treasuryRequestState"},
+            "authorization_state": {"$ref": "#/$defs/treasuryAuthorizationState"},
+            "payment_state": {"$ref": "#/$defs/treasuryPaymentState"},
+            "onchain_verification_state": {"$ref": "#/$defs/treasuryOnchainVerificationState"}
           }
         },
         "financial_terms": {"type": ["object", "null"]},

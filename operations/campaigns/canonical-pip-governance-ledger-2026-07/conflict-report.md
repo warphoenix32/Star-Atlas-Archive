@@ -20,7 +20,7 @@ Every conflict is preserved rather than resolved by inference.
 - Status: `OPEN_DOCUMENTED`
 - Finding: The portal captures repeat the Solana sentinel value 11111111111111111111111111111111 across candidate wallet fields; it is not treated as a candidate identity.
 - Treatment: Preserve the captured value separately, set normalized wallet_public_key to null, and require an official candidate-to-wallet mapping.
-- Required artifacts: Official candidate-to-wallet mapping for PIP-25 and PIP-27.
+- Required artifacts: Official candidate-to-wallet mapping for every captured placeholder candidate-wallet value.
 
 ## GOV-CONFLICT-FAILED-MILESTONES-001
 
@@ -29,7 +29,7 @@ Every conflict is preserved rather than resolved by inference.
 - Severity: `MATERIAL`
 - Status: `RESOLVED_BY_ADJUDICATION`
 - Finding: The Council tracker reports milestone completion for four failed proposals that supplied no authorization.
-- Treatment: Preserve the attributed tracker value but set ledger implementation to NOT_APPLICABLE_NO_AUTHORIZATION.
+- Treatment: Preserve the attributed tracker value but set implementation.state and implementation.independent_verification_state to NOT_APPLICABLE_NO_AUTHORIZATION.
 - Required artifacts: Corrected Council tracker rows or Council-authored explanation for the milestone values.
 
 ## GOV-CONFLICT-ELECTION-WINNERS-001
@@ -40,7 +40,7 @@ Every conflict is preserved rather than resolved by inference.
 - Status: `OPEN_DOCUMENTED`
 - Finding: Council-reported passage exists, but the preserved portal captures contain no electionResults winner list.
 - Treatment: Retain aggregate ballots/PVP and unresolved winner identity; infer no officeholder or program winner.
-- Required artifacts: Official final ranked-choice result export identifying winners and candidate-level totals for PIP-11, PIP-25, and PIP-27.
+- Required artifacts: Official final ranked-choice result export identifying winners and candidate-level totals for every unresolved election.
 
 ## GOV-CONFLICT-ELECTION-CANDIDATE-PVP-001
 
@@ -98,8 +98,8 @@ Every conflict is preserved rather than resolved by inference.
 - Classification: `MISSING_ONCHAIN_DATASET`
 - Severity: `MATERIAL`
 - Status: `OPEN_DOCUMENTED`
-- Finding: Council-reported payment values and PIP-33 authorization lack transaction-level on-chain evidence in the repository.
-- Treatment: Use COUNCIL_REPORTED only for attributed tracker values and MISSING_ONCHAIN_EVIDENCE for verification; never mark paid or verified.
+- Finding: Council-reported payment values and PIP-33 authorization lack transaction-level on-chain evidence in the repository; PIP-33 payment occurrence remains UNVERIFIED.
+- Treatment: Use COUNCIL_REPORTED only for attributed tracker values, keep PIP-33 payment_state UNVERIFIED, and use MISSING_ONCHAIN_EVIDENCE only for on-chain verification; never mark paid or verified.
 - Required artifacts: Transaction signatures, token-account addresses, mint/decimals metadata, block times, and proposal-to-transfer mapping.
 
 ## GOV-CONFLICT-PIP-001-QUORUM-001

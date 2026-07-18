@@ -58,6 +58,11 @@
       "NOT_APPLICABLE_ELECTION": 5,
       "NOT_APPLICABLE_NO_AUTHORIZATION": 4
     },
+    "implementation_verification_state_counts": {
+      "MISSING_INDEPENDENT_PRIMARY_EVIDENCE": 24,
+      "NOT_APPLICABLE_ELECTION": 5,
+      "NOT_APPLICABLE_NO_AUTHORIZATION": 4
+    },
     "documented_conflicts": 11,
     "research_backlog_items": 7
   },
@@ -998,7 +1003,7 @@
         "state": "NOT_APPLICABLE_ELECTION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_ELECTION"
       },
       "funding_scope": "NOT_TREASURY_CLASSIFIED",
       "treasury_states": {
@@ -1270,7 +1275,7 @@
         "state": "NOT_APPLICABLE_ELECTION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_ELECTION"
       },
       "funding_scope": "NOT_TREASURY_CLASSIFIED",
       "treasury_states": {
@@ -1859,7 +1864,7 @@
         "state": "NOT_APPLICABLE_ELECTION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_ELECTION"
       },
       "funding_scope": "NOT_TREASURY_CLASSIFIED",
       "treasury_states": {
@@ -2097,7 +2102,7 @@
         "state": "NOT_APPLICABLE_NO_AUTHORIZATION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_NO_AUTHORIZATION"
       },
       "funding_scope": "NOT_TREASURY_CLASSIFIED",
       "treasury_states": {
@@ -2322,7 +2327,7 @@
         "state": "NOT_APPLICABLE_NO_AUTHORIZATION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_NO_AUTHORIZATION"
       },
       "funding_scope": "STAR_ATLAS_ECOSYSTEM_FUND",
       "treasury_states": {
@@ -2779,7 +2784,7 @@
         "state": "NOT_APPLICABLE_NO_AUTHORIZATION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_NO_AUTHORIZATION"
       },
       "funding_scope": "STAR_ATLAS_ECOSYSTEM_FUND",
       "treasury_states": {
@@ -3548,7 +3553,7 @@
         "state": "NOT_APPLICABLE_ELECTION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_ELECTION"
       },
       "funding_scope": "NOT_TREASURY_CLASSIFIED",
       "treasury_states": {
@@ -3664,7 +3669,7 @@
         "state": "NOT_APPLICABLE_NO_AUTHORIZATION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_NO_AUTHORIZATION"
       },
       "funding_scope": "STAR_ATLAS_ECOSYSTEM_FUND",
       "treasury_states": {
@@ -3940,7 +3945,7 @@
         "state": "NOT_APPLICABLE_ELECTION",
         "council_reported_state": "MILESTONES_REPORTED_COMPLETE",
         "attribution": "STAR_ATLAS_COUNCIL_TRACKER",
-        "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+        "independent_verification_state": "NOT_APPLICABLE_ELECTION"
       },
       "funding_scope": "NOT_TREASURY_CLASSIFIED",
       "treasury_states": {
@@ -4622,7 +4627,7 @@
       "treasury_states": {
         "request_state": "REQUESTED",
         "authorization_state": "AUTHORIZED",
-        "payment_state": "MISSING_ONCHAIN_EVIDENCE",
+        "payment_state": "UNVERIFIED",
         "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE"
       },
       "financial_terms": {
@@ -4638,16 +4643,21 @@
           {
             "sequence": 1,
             "amount_usd": "234756.76",
+            "usdc_percent": 75,
             "usdc_amount": "176067.57",
+            "atlas_percent": 25,
             "atlas_equivalent_usd": "58689.19",
-            "timing": "FIRST_TRANCHE"
+            "timing": "T_PLUS_14_DAYS_AFTER_PASSAGE"
           },
           {
             "sequence": 2,
             "amount_usd": "234756.76",
+            "usdc_percent": 75,
             "usdc_amount": "176067.57",
+            "atlas_percent": 25,
             "atlas_equivalent_usd": "58689.19",
             "timing": "180_DAYS_AFTER_TRANCHE_1",
+            "source_schedule": "T_PLUS_194_DAYS_AFTER_PASSAGE",
             "condition": "DAO_TREASURY_MUST_RETAIN_CAPITAL_FOR_AN_ADDITIONAL_YEAR_OF_FOUNDATION_DAO_OPERATING_COSTS"
           }
         ],

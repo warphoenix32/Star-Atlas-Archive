@@ -31,9 +31,6 @@ TREASURY_STATES = {
     "UNVERIFIED",
     "MISSING_ONCHAIN_EVIDENCE",
 }
-ELECTION_PIPS = {6, 7, 11, 25, 27}
-FAILED_PIPS = {13, 15, 19, 26}
-PASSED_NON_ELECTION_PIPS = set(range(1, 34)) - ELECTION_PIPS - FAILED_PIPS
 SOLANA_SENTINEL_WALLET = "11111111111111111111111111111111"
 
 
@@ -60,6 +57,72 @@ def meaningful_money(value: Any) -> bool:
         return False
     text = str(value).strip().upper()
     return text not in {"", "?", "N/A", "NA", "NONE", "NULL"}
+
+
+def source_lifecycle_flags(pip: dict[str, Any]) -> tuple[bool, bool, bool]:
+    """Return mechanism/result states from source-backed semantic fields."""
+    is_election = pip["vote_mechanism"] == "RANKED_CHOICE_ELECTION"
+    is_failed = pip["reviewed_result"] == "FAILED"
+    is_passed = pip["reviewed_result"] == "PASSED"
+    return is_election, is_failed, is_passed
+
+
+def proposal_partitions(proposals: list[dict[str, Any]]) -> tuple[list[int], list[int], list[int]]:
+    elections: list[int] = []
+    failed: list[int] = []
+    passed_non_elections: list[int] = []
+    for pip in proposals:
+        is_election, is_failed, is_passed = source_lifecycle_flags(pip)
+        if is_election:
+            elections.append(pip["pip_number"])
+        elif is_failed:
+            failed.append(pip["pip_number"])
+        elif is_passed:
+            passed_non_elections.append(pip["pip_number"])
+    return sorted(elections), sorted(failed), sorted(passed_non_elections)
+
+
+def is_treasury_relevant(pip: dict[str, Any]) -> bool:
+    is_election, _, _ = source_lifecycle_flags(pip)
+    if is_election:
+        return False
+    funding_category = any(str(value).upper() == "FUNDING" for value in pip.get("proposal_category") or [])
+    explicit_request = bool(pip.get("requested_funding"))
+    return funding_category or explicit_request
+
+
+def has_concrete_council_payment_report(pip: dict[str, Any]) -> bool:
+    payment_fields = (pip.get("council_tracker") or {}).get("payment_fields") or {}
+    return any(meaningful_money(payment_fields.get(key)) for key in ("paid_usdc", "paid_atlas"))
+
+
+def treasury_verification_scope(proposals: list[dict[str, Any]]) -> list[int]:
+    result: list[int] = []
+    for pip in proposals:
+        is_election, _, is_passed = source_lifecycle_flags(pip)
+        if is_passed and not is_election and is_treasury_relevant(pip):
+            if has_concrete_council_payment_report(pip) or pip["pip_number"] == 33:
+                result.append(pip["pip_number"])
+    return sorted(result)
+
+
+def unresolved_election_scope(proposals: list[dict[str, Any]]) -> list[int]:
+    return sorted(
+        pip["pip_number"]
+        for pip in proposals
+        if source_lifecycle_flags(pip)[0] and not (pip.get("election_winners") or [])
+    )
+
+
+def placeholder_election_wallet_scope(proposals: list[dict[str, Any]]) -> list[int]:
+    result: list[int] = []
+    for pip in proposals:
+        if not source_lifecycle_flags(pip)[0]:
+            continue
+        raw = read_json(raw_path_for(pip))
+        if any(option.get("walletPublicKey") == SOLANA_SENTINEL_WALLET for option in raw.get("voteOptions") or []):
+            result.append(pip["pip_number"])
+    return sorted(result)
 
 
 def categories(source_values: list[str]) -> list[str]:
@@ -146,10 +209,15 @@ def build_relationships() -> dict[int, list[dict[str, Any]]]:
 
 def build_conflicts(proposals: list[dict[str, Any]]) -> list[dict[str, Any]]:
     conflicts: list[dict[str, Any]] = []
+    election_pips, failed_pips, _ = proposal_partitions(proposals)
+    proposal_numbers = sorted(pip["pip_number"] for pip in proposals)
+    unresolved_election_pips = unresolved_election_scope(proposals)
+    placeholder_wallet_pips = placeholder_election_wallet_scope(proposals)
+    treasury_scope = treasury_verification_scope(proposals)
 
     conflicts.append({
         "conflict_id": "GOV-CONFLICT-PORTAL-STATUS-001",
-        "pip_numbers": list(range(1, 34)),
+        "pip_numbers": proposal_numbers,
         "field_path": "reconciliation.portal_current_status",
         "classification": "STALE_PORTAL_STATE",
         "severity": "MATERIAL",
@@ -162,25 +230,25 @@ def build_conflicts(proposals: list[dict[str, Any]]) -> list[dict[str, Any]]:
     })
     conflicts.append({
         "conflict_id": "GOV-CONFLICT-ELECTION-WALLET-PLACEHOLDERS-001",
-        "pip_numbers": [25, 27],
+        "pip_numbers": placeholder_wallet_pips,
         "field_path": "vote.election.candidates[].wallet_public_key",
         "classification": "PLACEHOLDER_WALLET_VALUE_IN_CAPTURE",
         "severity": "MATERIAL",
         "finding": "The portal captures repeat the Solana sentinel value 11111111111111111111111111111111 across candidate wallet fields; it is not treated as a candidate identity.",
         "treatment": "Preserve the captured value separately, set normalized wallet_public_key to null, and require an official candidate-to-wallet mapping.",
         "status": "OPEN_DOCUMENTED",
-        "required_artifacts": ["Official candidate-to-wallet mapping for PIP-25 and PIP-27."],
+        "required_artifacts": ["Official candidate-to-wallet mapping for every captured placeholder candidate-wallet value."],
         "blocks_validation": False,
         "manual_review_required": True,
     })
     conflicts.append({
         "conflict_id": "GOV-CONFLICT-FAILED-MILESTONES-001",
-        "pip_numbers": sorted(FAILED_PIPS),
+        "pip_numbers": failed_pips,
         "field_path": "implementation.council_reported_state",
         "classification": "NO_AUTHORIZATION_VS_TRACKER_MILESTONES",
         "severity": "MATERIAL",
         "finding": "The Council tracker reports milestone completion for four failed proposals that supplied no authorization.",
-        "treatment": "Preserve the attributed tracker value but set ledger implementation to NOT_APPLICABLE_NO_AUTHORIZATION.",
+        "treatment": "Preserve the attributed tracker value but set implementation.state and implementation.independent_verification_state to NOT_APPLICABLE_NO_AUTHORIZATION.",
         "status": "RESOLVED_BY_ADJUDICATION",
         "required_artifacts": ["Corrected Council tracker rows or Council-authored explanation for the milestone values."],
         "blocks_validation": False,
@@ -188,20 +256,20 @@ def build_conflicts(proposals: list[dict[str, Any]]) -> list[dict[str, Any]]:
     })
     conflicts.append({
         "conflict_id": "GOV-CONFLICT-ELECTION-WINNERS-001",
-        "pip_numbers": [11, 25, 27],
+        "pip_numbers": unresolved_election_pips,
         "field_path": "vote.election.official_outcome_names",
         "classification": "ELECTION_OUTCOME_MISSING",
         "severity": "MATERIAL",
         "finding": "Council-reported passage exists, but the preserved portal captures contain no electionResults winner list.",
         "treatment": "Retain aggregate ballots/PVP and unresolved winner identity; infer no officeholder or program winner.",
         "status": "OPEN_DOCUMENTED",
-        "required_artifacts": ["Official final ranked-choice result export identifying winners and candidate-level totals for PIP-11, PIP-25, and PIP-27."],
+        "required_artifacts": ["Official final ranked-choice result export identifying winners and candidate-level totals for every unresolved election."],
         "blocks_validation": False,
         "manual_review_required": True,
     })
     conflicts.append({
         "conflict_id": "GOV-CONFLICT-ELECTION-CANDIDATE-PVP-001",
-        "pip_numbers": sorted(ELECTION_PIPS),
+        "pip_numbers": election_pips,
         "field_path": "vote.election.candidates[].candidate_pvp",
         "classification": "CANDIDATE_TOTALS_MISSING",
         "severity": "MATERIAL",
@@ -266,12 +334,12 @@ def build_conflicts(proposals: list[dict[str, Any]]) -> list[dict[str, Any]]:
     })
     conflicts.append({
         "conflict_id": "GOV-CONFLICT-TREASURY-VERIFICATION-001",
-        "pip_numbers": [5, 8, 12, 14, 16, 17, 18, 20, 21, 22, 29, 30, 33],
+        "pip_numbers": treasury_scope,
         "field_path": "treasury_states.onchain_verification_state",
         "classification": "MISSING_ONCHAIN_DATASET",
         "severity": "MATERIAL",
-        "finding": "Council-reported payment values and PIP-33 authorization lack transaction-level on-chain evidence in the repository.",
-        "treatment": "Use COUNCIL_REPORTED only for attributed tracker values and MISSING_ONCHAIN_EVIDENCE for verification; never mark paid or verified.",
+        "finding": "Council-reported payment values and PIP-33 authorization lack transaction-level on-chain evidence in the repository; PIP-33 payment occurrence remains UNVERIFIED.",
+        "treatment": "Use COUNCIL_REPORTED only for attributed tracker values, keep PIP-33 payment_state UNVERIFIED, and use MISSING_ONCHAIN_EVIDENCE only for on-chain verification; never mark paid or verified.",
         "status": "OPEN_DOCUMENTED",
         "required_artifacts": ["Transaction signatures, token-account addresses, mint/decimals metadata, block times, and proposal-to-transfer mapping."],
         "blocks_validation": False,
@@ -294,12 +362,22 @@ def build_conflicts(proposals: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return conflicts
 
 
-def build_backlog() -> list[dict[str, Any]]:
+def build_backlog(proposals: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    _, _, passed_non_election_pips = proposal_partitions(proposals)
+    unresolved_election_pips = unresolved_election_scope(proposals)
+    placeholder_wallet_pips = placeholder_election_wallet_scope(proposals)
+    treasury_scope = treasury_verification_scope(proposals)
+    terminal_state_pips = sorted(
+        pip["pip_number"]
+        for pip in proposals
+        if pip.get("execution_state") in {"TERMINATED", "CANCELED", "WITHDRAWN_AFTER_PASSAGE_NOT_IMPLEMENTED"}
+    )
+    proposal_numbers = sorted(pip["pip_number"] for pip in proposals)
     return [
         {
             "research_id": "GOV-RESEARCH-001",
             "priority": "P0",
-            "pip_numbers": [11, 25, 27],
+            "pip_numbers": unresolved_election_pips,
             "question": "Who won the unresolved Council and DAO Casters elections, and what were the candidate-level totals?",
             "blocked_fields": ["vote.election.official_outcome_names", "vote.election.candidates[].candidate_pvp"],
             "missing_artifacts": ["Official STV tabulation export", "Official final winner announcement", "Per-candidate PVP and transfer-round data"],
@@ -312,7 +390,7 @@ def build_backlog() -> list[dict[str, Any]]:
         {
             "research_id": "GOV-RESEARCH-002",
             "priority": "P0",
-            "pip_numbers": [5, 8, 12, 14, 16, 17, 18, 20, 21, 22, 29, 30, 33],
+            "pip_numbers": treasury_scope,
             "question": "Which authorized or Council-reported payments occurred on-chain?",
             "blocked_fields": ["treasury_states.onchain_verification_state", "treasury_states.payment_state"],
             "missing_artifacts": ["Transaction signatures", "DAO/Foundation source accounts", "Recipient token accounts", "Mint and decimals metadata", "Block timestamps", "Proposal-to-transfer mapping"],
@@ -325,7 +403,7 @@ def build_backlog() -> list[dict[str, Any]]:
         {
             "research_id": "GOV-RESEARCH-003",
             "priority": "P1",
-            "pip_numbers": [14, 17, 31],
+            "pip_numbers": terminal_state_pips,
             "question": "What primary records establish termination, cancellation, or withdrawal after passage?",
             "blocked_fields": ["implementation.state", "implementation.independent_verification_state"],
             "missing_artifacts": ["Council or Foundation termination notice", "Author withdrawal notice", "Contract or milestone closeout record"],
@@ -338,7 +416,7 @@ def build_backlog() -> list[dict[str, Any]]:
         {
             "research_id": "GOV-RESEARCH-004",
             "priority": "P1",
-            "pip_numbers": sorted(PASSED_NON_ELECTION_PIPS),
+            "pip_numbers": passed_non_election_pips,
             "question": "What independent evidence supports implementation or deliverable completion for each authorized non-election proposal?",
             "blocked_fields": ["implementation.independent_verification_state"],
             "missing_artifacts": ["Proposal-specific deliverables", "Foundation execution notices", "Contracts or releases", "Independent outcome evidence"],
@@ -351,7 +429,7 @@ def build_backlog() -> list[dict[str, Any]]:
         {
             "research_id": "GOV-RESEARCH-007",
             "priority": "P1",
-            "pip_numbers": [25, 27],
+            "pip_numbers": placeholder_wallet_pips,
             "question": "Which candidate wallet belongs to each captured PIP-25 and PIP-27 candidate?",
             "blocked_fields": ["vote.election.candidates[].wallet_public_key"],
             "missing_artifacts": ["Official candidate-to-wallet mapping", "Signed candidate registration record or official ballot export"],
@@ -364,7 +442,7 @@ def build_backlog() -> list[dict[str, Any]]:
         {
             "research_id": "GOV-RESEARCH-005",
             "priority": "P2",
-            "pip_numbers": list(range(1, 34)),
+            "pip_numbers": proposal_numbers,
             "question": "Can historical portal state transitions be recovered?",
             "blocked_fields": ["reconciliation.portal_current_status"],
             "missing_artifacts": ["Timestamped proposal-state snapshots", "Portal event log", "Official lifecycle export"],
@@ -391,11 +469,13 @@ def build_backlog() -> list[dict[str, Any]]:
 
 
 def implementation_state(pip: dict[str, Any]) -> str:
-    number = pip["pip_number"]
-    if number in FAILED_PIPS:
-        return "NOT_APPLICABLE_NO_AUTHORIZATION"
-    if number in ELECTION_PIPS:
+    is_election, is_failed, is_passed = source_lifecycle_flags(pip)
+    if is_election:
         return "NOT_APPLICABLE_ELECTION"
+    if is_failed:
+        return "NOT_APPLICABLE_NO_AUTHORIZATION"
+    if not is_passed:
+        raise ValueError(f"PIP-{pip['pip_number']} has no supported non-election result state")
     state = pip.get("execution_state")
     council = pip.get("council_reported_implementation_state")
     if state == "TERMINATED":
@@ -409,6 +489,17 @@ def implementation_state(pip: dict[str, Any]) -> str:
     if council == "MILESTONES_REPORTED_COMPLETE":
         return "COUNCIL_REPORTED_MILESTONES_COMPLETE"
     return "IMPLEMENTATION_UNVERIFIED"
+
+
+def implementation_verification_state(pip: dict[str, Any]) -> str:
+    is_election, is_failed, is_passed = source_lifecycle_flags(pip)
+    if is_election:
+        return "NOT_APPLICABLE_ELECTION"
+    if is_failed:
+        return "NOT_APPLICABLE_NO_AUTHORIZATION"
+    if is_passed:
+        return "MISSING_INDEPENDENT_PRIMARY_EVIDENCE"
+    raise ValueError(f"PIP-{pip['pip_number']} has no supported implementation-verification state")
 
 
 def result_record(pip: dict[str, Any]) -> dict[str, Any]:
@@ -521,17 +612,13 @@ def vote_record(pip: dict[str, Any], raw: dict[str, Any]) -> dict[str, Any]:
 
 def treasury_states(pip: dict[str, Any]) -> tuple[dict[str, Any], str]:
     number = pip["pip_number"]
-    is_election = number in ELECTION_PIPS
-    funding_category = any(str(value).upper() == "FUNDING" for value in pip.get("proposal_category") or [])
-    explicit_request = bool(pip.get("requested_funding")) and not is_election
-    relevant = funding_category or explicit_request
+    is_election, _, is_passed = source_lifecycle_flags(pip)
+    relevant = is_treasury_relevant(pip)
     if not relevant:
         return ({"request_state": None, "authorization_state": None, "payment_state": None, "onchain_verification_state": None}, "NOT_TREASURY_CLASSIFIED")
 
-    passed = pip.get("reviewed_result") == "PASSED"
-    payment_fields = (pip.get("council_tracker") or {}).get("payment_fields") or {}
-    concrete_report = any(meaningful_money(payment_fields.get(key)) for key in ("paid_usdc", "paid_atlas"))
-    if not passed:
+    concrete_report = has_concrete_council_payment_report(pip)
+    if not is_passed:
         return ({
             "request_state": "REQUESTED",
             "authorization_state": None,
@@ -540,8 +627,6 @@ def treasury_states(pip: dict[str, Any]) -> tuple[dict[str, Any], str]:
         }, pip.get("funding_source") or "TREASURY_RELEVANT_PROPOSAL")
     elif concrete_report:
         payment_state = "COUNCIL_REPORTED"
-    elif number == 33:
-        payment_state = "MISSING_ONCHAIN_EVIDENCE"
     else:
         payment_state = "UNVERIFIED"
     scope = "DIRECT_DAO_TREASURY_MEASURE" if number == 33 else pip.get("funding_source") or "TREASURY_RELEVANT_PROPOSAL"
@@ -549,7 +634,7 @@ def treasury_states(pip: dict[str, Any]) -> tuple[dict[str, Any], str]:
         "request_state": "REQUESTED",
         "authorization_state": "AUTHORIZED",
         "payment_state": payment_state,
-        "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE" if passed and (concrete_report or number == 33) else "UNVERIFIED",
+        "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE" if is_passed and (concrete_report or number == 33) else "UNVERIFIED",
     }, scope)
 
 
@@ -561,8 +646,8 @@ def financial_terms(pip_number: int) -> dict[str, Any] | None:
         "stated_total_usd": "469513.53",
         "stated_composition": {"usdc_percent": 75, "atlas_percent": 25, "stated_usdc_total": "352135.15", "stated_atlas_equivalent_total": "117378.38"},
         "tranches": [
-            {"sequence": 1, "amount_usd": "234756.76", "usdc_amount": "176067.57", "atlas_equivalent_usd": "58689.19", "timing": "FIRST_TRANCHE"},
-            {"sequence": 2, "amount_usd": "234756.76", "usdc_amount": "176067.57", "atlas_equivalent_usd": "58689.19", "timing": "180_DAYS_AFTER_TRANCHE_1", "condition": "DAO_TREASURY_MUST_RETAIN_CAPITAL_FOR_AN_ADDITIONAL_YEAR_OF_FOUNDATION_DAO_OPERATING_COSTS"},
+            {"sequence": 1, "amount_usd": "234756.76", "usdc_percent": 75, "usdc_amount": "176067.57", "atlas_percent": 25, "atlas_equivalent_usd": "58689.19", "timing": "T_PLUS_14_DAYS_AFTER_PASSAGE"},
+            {"sequence": 2, "amount_usd": "234756.76", "usdc_percent": 75, "usdc_amount": "176067.57", "atlas_percent": 25, "atlas_equivalent_usd": "58689.19", "timing": "180_DAYS_AFTER_TRANCHE_1", "source_schedule": "T_PLUS_194_DAYS_AFTER_PASSAGE", "condition": "DAO_TREASURY_MUST_RETAIN_CAPITAL_FOR_AN_ADDITIONAL_YEAR_OF_FOUNDATION_DAO_OPERATING_COSTS"},
         ],
         "arithmetic_discrepancies": [
             {"field": "tranche_total", "displayed_sum": "469513.52", "stated_total": "469513.53", "difference_usd": "0.01"},
@@ -573,12 +658,14 @@ def financial_terms(pip_number: int) -> dict[str, Any] | None:
 
 
 def authorization_state(pip: dict[str, Any]) -> str:
-    number = pip["pip_number"]
-    if number in FAILED_PIPS:
-        return "NOT_AUTHORIZED"
-    if number in ELECTION_PIPS:
+    is_election, is_failed, is_passed = source_lifecycle_flags(pip)
+    if is_election:
         return "NOT_APPLICABLE_ELECTION"
-    return "AUTHORIZED"
+    if is_failed:
+        return "NOT_AUTHORIZED"
+    if is_passed:
+        return "AUTHORIZED"
+    raise ValueError(f"PIP-{pip['pip_number']} has no supported authorization state")
 
 
 def build_records() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
@@ -592,7 +679,7 @@ def build_records() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[di
     for conflict in conflicts:
         for number in conflict["pip_numbers"]:
             conflict_by_pip[number].append(conflict["conflict_id"])
-    backlog = build_backlog()
+    backlog = build_backlog(proposals)
     research_by_pip: dict[int, list[str]] = defaultdict(list)
     for item in backlog:
         for number in item["pip_numbers"]:
@@ -606,6 +693,7 @@ def build_records() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[di
         source_record_path = source_record_path_for(pip)
         source_record = read_json(source_record_path)
         tracker_source_id = (pip.get("council_tracker") or {}).get("source_id")
+        is_election, _, _ = source_lifecycle_flags(pip)
         treasury, scope = treasury_states(pip)
         record_conflict_ids = sorted(conflict_by_pip.get(number, []))
         open_conflicts = [conflict_id for conflict_id in record_conflict_ids if conflict_status_by_id[conflict_id] == "OPEN_DOCUMENTED"]
@@ -637,12 +725,12 @@ def build_records() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[di
             "vote": vote_record(pip, raw),
             "result": result_record(pip),
             "relationships": relations.get(number, []),
-            "authorization": {"state": authorization_state(pip), "basis": "REVIEWED_BINARY_RESULT" if number not in ELECTION_PIPS else "NOT_APPLICABLE_TO_ELECTION_OUTCOME"},
+            "authorization": {"state": authorization_state(pip), "basis": "NOT_APPLICABLE_TO_ELECTION_OUTCOME" if is_election else "REVIEWED_BINARY_RESULT"},
             "implementation": {
                 "state": implementation_state(pip),
                 "council_reported_state": pip.get("council_reported_implementation_state"),
                 "attribution": "STAR_ATLAS_COUNCIL_TRACKER" if tracker_source_id else None,
-                "independent_verification_state": "MISSING_INDEPENDENT_PRIMARY_EVIDENCE",
+                "independent_verification_state": implementation_verification_state(pip),
             },
             "funding_scope": scope,
             "treasury_states": treasury,
@@ -743,7 +831,7 @@ def build_markdown(ledger: dict[str, Any], conflicts: list[dict[str, Any]], back
         dates = f"published {record['dates']['publication']}<br>vote {record['dates']['vote_start']} to {record['dates']['vote_end']}"
         decision = f"{record['result']['reviewed_result']}<br>{record['authorization']['state']}"
         treasury = record["treasury_states"]
-        state = f"{record['implementation']['state']}<br>payment {treasury['payment_state'] or 'not applicable'}<br>on-chain {treasury['onchain_verification_state'] or 'not applicable'}"
+        state = f"{record['implementation']['state']}<br>independent implementation verification {record['implementation']['independent_verification_state']}<br>payment {treasury['payment_state'] or 'not applicable'}<br>on-chain {treasury['onchain_verification_state'] or 'not applicable'}"
         reconciliation = f"{record['reconciliation']['overall_status']}<br>vote/result: {record['reconciliation']['vote_result_reconciliation_status']}<br>{len(record['conflict_ids'])} documented conflict links"
         full_text = f"[raw capture]({relative_knowledge_link(record['sources']['full_text_source_path'])})"
         lines.append("| " + " | ".join(md_cell(value) for value in [record["pip_id"], identity, dates, vote_summary(record), decision, state, reconciliation, full_text]) + " |")
@@ -791,9 +879,9 @@ def build_markdown(ledger: dict[str, Any], conflicts: list[dict[str, Any]], back
         "",
         "## PIP-33 financial-term preservation",
         "",
-        "PIP-33 authorized a stated maximum of **$469,513.53** through two displayed tranches of **$234,756.76**. Each tranche is **$176,067.57 USDC (75%)** plus **$58,689.19 ATLAS-equivalent (25%)**. The second tranche is scheduled 180 days after the first and is conditional on retaining sufficient DAO Treasury capital for an additional year of Foundation/DAO operating costs.",
+        "PIP-33 authorized a stated maximum of **$469,513.53** through two displayed tranches of **$234,756.76**. Each tranche is **$176,067.57 USDC (75%)** plus **$58,689.19 ATLAS-equivalent (25%)**. The first tranche was scheduled for T+14 days. The second was scheduled for T+194 days—180 days after the first—and was conditional on retaining sufficient DAO Treasury capital for an additional year of Foundation/DAO operating costs.",
         "",
-        f"The displayed tranches total **${terms['arithmetic_discrepancies'][0]['displayed_sum']}**, one cent below the stated total. Their USDC components total **${terms['arithmetic_discrepancies'][1]['displayed_sum']}**, one cent below the stated USDC aggregate. Both discrepancies are preserved; neither is silently corrected. Authorization and schedule do not prove payment.",
+        f"The displayed tranches total **${terms['arithmetic_discrepancies'][0]['displayed_sum']}**, one cent below the stated total. Their USDC components total **${terms['arithmetic_discrepancies'][1]['displayed_sum']}**, one cent below the stated USDC aggregate. Both discrepancies are preserved; neither is silently corrected. Authorization and schedule do not prove payment: `payment_state` remains `UNVERIFIED`, while `onchain_verification_state` is `MISSING_ONCHAIN_EVIDENCE`.",
         "",
         "## Conflict register",
         "",
@@ -867,6 +955,14 @@ def main() -> None:
     result_counts = Counter(record["result"]["reviewed_result"] for record in records)
     mechanism_counts = Counter(record["vote"]["mechanism"] for record in records)
     implementation_counts = Counter(record["implementation"]["state"] for record in records)
+    implementation_verification_counts = Counter(record["implementation"]["independent_verification_state"] for record in records)
+    failed_pips = sorted(record["pip_number"] for record in records if record["result"]["reviewed_result"] == "FAILED")
+    unresolved_election_outcomes = sorted(
+        record["pip_number"]
+        for record in records
+        if record["vote"]["mechanism"] == "RANKED_CHOICE_ELECTION"
+        and record["vote"]["election"]["outcome_identification_status"] == "UNRESOLVED"
+    )
     ledger = {
         "ledger_id": "CANONICAL-PIP-GOVERNANCE-LEDGER",
         "schema_version": "1.0.0",
@@ -899,6 +995,7 @@ def main() -> None:
             "mechanism_counts": dict(sorted(mechanism_counts.items())),
             "result_counts": dict(sorted(result_counts.items())),
             "implementation_state_counts": dict(sorted(implementation_counts.items())),
+            "implementation_verification_state_counts": dict(sorted(implementation_verification_counts.items())),
             "documented_conflicts": len(conflicts),
             "research_backlog_items": len(backlog),
         },
@@ -917,8 +1014,14 @@ def main() -> None:
         "records": len(records),
         "binary_pips": mechanism_counts["BINARY_PVP"],
         "election_pips": mechanism_counts["RANKED_CHOICE_ELECTION"],
-        "failed_pips": sorted(FAILED_PIPS),
-        "unresolved_election_outcomes": [11, 25, 27],
+        "failed_pips": failed_pips,
+        "unresolved_election_outcomes": unresolved_election_outcomes,
+        "lifecycle_generation_basis": "SOURCE_BACKED_VOTE_MECHANISM_AND_REVIEWED_RESULT",
+        "pip_33_treasury_states": {
+            "payment_state": records[32]["treasury_states"]["payment_state"],
+            "onchain_verification_state": records[32]["treasury_states"]["onchain_verification_state"],
+            "payment_implied": False,
+        },
         "documented_conflicts": len(conflicts),
         "research_backlog_items": len(backlog),
         "onchain_verification_performed": False,
@@ -933,6 +1036,10 @@ def main() -> None:
         f"- Ranked-choice election PIPs: {summary['election_pips']}\n"
         f"- Failed/no-authorization PIPs: {', '.join('PIP-' + str(n) for n in summary['failed_pips'])}\n"
         f"- Unresolved election outcomes: {', '.join('PIP-' + str(n) for n in summary['unresolved_election_outcomes'])}\n"
+        f"- Lifecycle generation basis: {summary['lifecycle_generation_basis']}\n"
+        f"- PIP-33 payment state: {summary['pip_33_treasury_states']['payment_state']}\n"
+        f"- PIP-33 on-chain verification state: {summary['pip_33_treasury_states']['onchain_verification_state']}\n"
+        "- PIP-33 payment implied: no\n"
         f"- Documented conflict clusters: {len(conflicts)}\n"
         f"- Research backlog items: {len(backlog)}\n"
         "- On-chain verification performed: no\n"

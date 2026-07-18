@@ -18,7 +18,11 @@ The official portal captures establish proposal text, dates, ballot counts, PVP,
 
 The completed-binary YES-versus-NO rule is an owner-approved repository editorial adjudication. It is not asserted as PIP-1 text. Elections use only their captured ranked-choice evidence. Candidate-level PVP is missing from every election capture and remains null. Repeated Solana sentinel values in captured candidate-wallet fields are preserved as placeholders, never normalized as candidate identities.
 
-Treasury state fields use only `REQUESTED`, `AUTHORIZED`, `COUNCIL_REPORTED`, `UNVERIFIED`, `MISSING_ONCHAIN_EVIDENCE`, or null. No on-chain verification is attempted because the required transaction dataset was not supplied.
+Treasury fields use dimension-specific vocabularies: requests use `REQUESTED`; authorizations use `AUTHORIZED`; payment occurrence uses `COUNCIL_REPORTED` or `UNVERIFIED`; and on-chain verification uses `MISSING_ONCHAIN_EVIDENCE` or `UNVERIFIED`. Null means the dimension is not applicable. `MISSING_ONCHAIN_EVIDENCE` is never used as a payment-occurrence state. No on-chain verification is attempted because the required transaction dataset was not supplied.
+
+Election, failure, and passage handling is generated from each source record's `vote_mechanism` and `reviewed_result`, not from proposal-number membership lists. Failed proposals and election outcomes receive field-specific not-applicable implementation-verification states; attributed Council tracker milestone text remains preserved separately.
+
+PIP-33 remains authorized, while payment occurrence is unresolved in the evidence model: `payment_state` is `UNVERIFIED`, and `onchain_verification_state` is `MISSING_ONCHAIN_EVIDENCE`. Its two 75% USDC / 25% ATLAS tranches, conditional second tranche, and both one-cent source discrepancies are preserved without implying payment or nonpayment.
 
 ## Reproduction
 
