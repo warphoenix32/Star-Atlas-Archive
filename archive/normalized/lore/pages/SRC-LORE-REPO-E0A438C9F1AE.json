@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "HISTORICAL_LORE_EVIDENCE_NOT_CURRENT_TAXONOMY",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/oni_css_lore_layer/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -612,11 +612,11 @@
     }
   ],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+    "This page is preserved as a historical canonical-source snapshot and is excluded from current canonical taxonomy authority.",
     "No same-path published docs mirror exists in the captured repository."
   ],
   "lore_type": "REGION",
-  "manual_review_required": true,
+  "manual_review_required": false,
   "media_references": [],
   "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-E0A438C9F1AE.json",
   "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-E0A438C9F1AE.md",
@@ -634,12 +634,18 @@
   "published_mirror_status": "CANON_ONLY",
   "raw_byte_length": 45496,
   "raw_sha256": "cc48d2a79b73f745de32338e88e483a1e007779bd4b4453f84aa781723c4881e",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "LOCATION",
   "source_id": "SRC-LORE-REPO-E0A438C9F1AE",
-  "source_scope": "CANON",
+  "source_scope": "HISTORICAL_CANONICAL_SOURCE_SNAPSHOT",
   "taxonomy_path": [
     "geography"
   ],
+  "taxonomy_status": "HISTORICAL_SNAPSHOT_EXCLUDED_FROM_CURRENT_CANONICAL_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/geography/oni_css_lore_layer.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

@@ -26,9 +26,14 @@
   "quality": {
     "extraction_confidence": "HIGH",
     "limitations": [
-      "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion."
+      "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
     ],
-    "manual_review_required": false
+    "manual_review_required": false,
+    "redactions": {
+      "count": 0,
+      "curator_decision_id": null,
+      "policy": "NONE"
+    }
   },
   "source_id": "SRC-LORE-REPO-C4B33E06F94F",
   "source_lineage": {
@@ -40,7 +45,7 @@
       "https://github.com/JoseEduardonoot/star-atlas-lore/blob/22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/factions/earth_conscious_ontological_society.md"
     ],
     "publication": "JoseEduardonoot/star-atlas-lore",
-    "publication_role": "OPERATOR_DESIGNATED_LORE_TAXONOMY_SOURCE",
+    "publication_role": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_SOURCE",
     "relationship": "PRESERVED_FROM_COMMIT"
   },
   "source_type": "lore_repository",
@@ -49,10 +54,12 @@
       "ECOS",
       "Earth Conscious Ontological Society"
     ],
+    "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
     "lore_type": "FACTION",
     "preferred_name": "ECOS (Earth Conscious Ontological Society)",
     "primary_entity_id": "LRTX-FACTION-48CBE271FA62",
-    "repository_entity_type": "ORGANIZATION"
+    "repository_entity_type": "ORGANIZATION",
+    "taxonomy_status": "CURRENT_SOURCE_TAXONOMY"
   },
   "title": "ECOS (Earth Conscious Ontological Society)",
   "updated_at_normalized": null,

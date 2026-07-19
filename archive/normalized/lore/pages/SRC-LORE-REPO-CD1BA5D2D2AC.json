@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/species/naming_conventions/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -148,7 +148,7 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion."
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
   ],
   "lore_type": "TAXONOMY",
   "manual_review_required": false,
@@ -169,12 +169,18 @@
   "published_mirror_status": "TEXT_IDENTICAL",
   "raw_byte_length": 15275,
   "raw_sha256": "3e667bbab410c3869b11265bf60ad1ee5f9779e953f57b0de348f3b7b36819d4",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "DOCUMENT",
   "source_id": "SRC-LORE-REPO-CD1BA5D2D2AC",
   "source_scope": "CANON",
   "taxonomy_path": [
     "species"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/species/naming_conventions.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

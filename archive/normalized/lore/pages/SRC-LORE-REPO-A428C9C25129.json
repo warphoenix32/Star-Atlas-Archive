@@ -2,7 +2,7 @@
   "aliases": [
     "MRZ-35"
   ],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/dream_reach/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -65,7 +65,7 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
     "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
   ],
   "lore_type": "SECTOR",
@@ -87,6 +87,11 @@
   "published_mirror_status": "TEXT_DIVERGENT",
   "raw_byte_length": 3074,
   "raw_sha256": "3c127d8aee61ecb1470d1086b42b663e73bf95c6b1eb03bd7142ab68d587ca97",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "LOCATION",
   "source_id": "SRC-LORE-REPO-A428C9C25129",
   "source_scope": "CANON",
@@ -94,6 +99,7 @@
     "geography",
     "sectors"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/geography/sectors/dream_reach.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

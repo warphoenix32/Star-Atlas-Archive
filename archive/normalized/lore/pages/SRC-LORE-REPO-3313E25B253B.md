@@ -5,7 +5,7 @@ lore_type: INSTITUTION
 repository_entity_type: ORGANIZATION
 upstream_commit: 22555f277eb1496e34c0839c8f1f382842bd1d2b
 upstream_path: canon/institutions/star_atlas_blockchain.md
-authority_scope: OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE
+authority_scope: ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE
 ---
 
 # Star Atlas (The Sentient Blockchain)

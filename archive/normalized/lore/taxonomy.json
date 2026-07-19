@@ -28,9 +28,9 @@
     "WORLD"
   ],
   "authority": {
-    "designation": "OPERATOR_DESIGNATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+    "designation": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
     "does_not_establish": [
-      "ATMTA authorship or official publication status",
+      "page-level authorship for every source file",
       "independent truth of every narrative claim",
       "governance, operational, provenance, or historical authority outside lore"
     ],
@@ -113,6 +113,7 @@
       "LOCATION"
     ]
   },
+  "historical_snapshot_entity_count": 1,
   "identifier_policy": "LRTX identifiers are deterministic source-taxonomy IDs and do not replace registry-assigned repository canonical IDs.",
   "repository_schema_compatibility": {
     "ARTIFACT": "RESOURCE",

@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/the_cataclysm/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -38,7 +38,7 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
     "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
   ],
   "lore_type": "LORE_EVENT",
@@ -60,12 +60,18 @@
   "published_mirror_status": "TEXT_DIVERGENT",
   "raw_byte_length": 2313,
   "raw_sha256": "b915fb13f34d44f286e937cd9e2660ef9e106e4c340911765d05e4ccac73f683",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "EVENT",
   "source_id": "SRC-LORE-REPO-995DBA1751D3",
   "source_scope": "CANON",
   "taxonomy_path": [
     "geography"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/geography/the_cataclysm.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

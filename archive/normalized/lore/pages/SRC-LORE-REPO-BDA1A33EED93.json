@@ -2,7 +2,7 @@
   "aliases": [
     "MRZ-30"
   ],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/frostsun/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -90,7 +90,7 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
     "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
   ],
   "lore_type": "SECTOR",
@@ -112,6 +112,11 @@
   "published_mirror_status": "TEXT_DIVERGENT",
   "raw_byte_length": 4476,
   "raw_sha256": "c08ad6559185c3fedf8e60f6754a303d23e355a16c86a8818567ed910efc9322",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "LOCATION",
   "source_id": "SRC-LORE-REPO-BDA1A33EED93",
   "source_scope": "CANON",
@@ -119,6 +124,7 @@
     "geography",
     "sectors"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/geography/sectors/frostsun.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

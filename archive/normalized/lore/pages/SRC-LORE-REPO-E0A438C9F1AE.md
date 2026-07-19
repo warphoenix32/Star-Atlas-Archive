@@ -5,7 +5,7 @@ lore_type: REGION
 repository_entity_type: LOCATION
 upstream_commit: 22555f277eb1496e34c0839c8f1f382842bd1d2b
 upstream_path: canon/geography/oni_css_lore_layer.md
-authority_scope: OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE
+authority_scope: HISTORICAL_LORE_EVIDENCE_NOT_CURRENT_TAXONOMY
 ---
 
 # C4 Lore Layer — The Neuno Region

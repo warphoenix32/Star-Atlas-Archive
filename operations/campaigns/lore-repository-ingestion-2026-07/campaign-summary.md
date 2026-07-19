@@ -16,12 +16,14 @@ The public lore repository was preserved at immutable `main` commit `22555f277eb
 - Reference relationships extracted: 3798
 - Media artifacts inventoried: 2
 
-## Review findings
+## Preserved findings and curator dispositions
 
 - Divergent canon/docs mirrors: 86
 - Unresolved internal links: 252
 - Unresolved navigation targets: 0
-- Existing lore ID mappings requiring review: 5
-- Manual-review conflict groups: 7
+- Existing lore ID mappings requiring review: 0
+- Manual-review conflict groups: 0
+- Curator decisions accepted: 14
+- Normalized workstation-path redactions: 2
 
-The upstream identity label, stale deployment, divergent mirrors, self-reported chronology conflicts, broken references, and ambiguous legacy mappings remain explicit. These do not alter the preserved source and do not become canonical claims through ingestion.
+All campaign-level curator decisions are recorded. The upstream identity label, stale deployment, divergent mirrors, self-reported chronology findings, broken references, and deferred legacy mappings remain explicit evidence or research gaps; they are not silently converted into canonical claims.

@@ -22,6 +22,11 @@
       "passed": true
     },
     {
+      "detail": 2,
+      "name": "raw_workstation_paths_preserved",
+      "passed": true
+    },
+    {
       "detail": {
         "generated": 795,
         "mismatched": [],
@@ -53,7 +58,7 @@
         "markdown_pages_inventoried": 490,
         "media_inventoried": 2,
         "migration_mappings": 9,
-        "migration_mappings_requiring_review": 5,
+        "migration_mappings_requiring_review": 0,
         "mirror_divergences": 86,
         "normalized_source_pages": 192,
         "published_docs_pages": 201,
@@ -119,9 +124,9 @@
     },
     {
       "detail": {
-        "designation": "OPERATOR_DESIGNATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+        "designation": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
         "does_not_establish": [
-          "ATMTA authorship or official publication status",
+          "page-level authorship for every source file",
           "independent truth of every narrative claim",
           "governance, operational, provenance, or historical authority outside lore"
         ],
@@ -186,6 +191,21 @@
       "passed": true
     },
     {
+      "detail": {
+        "LORE-CATACLYSM": "MAPPED_ONE_TO_ONE",
+        "LORE-COUNCIL-PEACE": "MAPPED_TO_INSTITUTION_WITH_DISTINCT_RELATED_FACTION",
+        "LORE-FACTION-MUD": "MAPPED_ONE_TO_ONE",
+        "LORE-FACTION-ONI": "MAPPED_ONE_TO_ONE",
+        "LORE-FACTION-USTUR": "MAPPED_TO_FACTION_WITH_DISTINCT_RELATED_SPECIES",
+        "LORE-GALIA": "MAPPED_TO_REGION_WITH_REFERENCE_DOCUMENT_RETAINED",
+        "LORE-NARRATIVE-CORE": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED",
+        "LORE-TUFA": "MAPPED_ONE_TO_ONE",
+        "LORE-VOICE-OF-IRIS": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED"
+      },
+      "name": "curator_adjudicated_mappings_resolved",
+      "passed": true
+    },
+    {
       "detail": 0,
       "name": "historical_rewrites_prohibited",
       "passed": true
@@ -215,20 +235,39 @@
     {
       "detail": {
         "atmta_affiliation_independently_verified": false,
+        "atmta_affiliation_operator_confirmed": true,
         "default_master_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
         "main_branch_description": "Official Star Atlas Lore Encyclopedia — factions, species, history, and more (Alpha)",
+        "operator_confirmed_repository_owner_role": "STAR_ATLAS_TEAM_MEMBER_RESPONSIBLE_FOR_LORE",
         "operator_designation_applied": true,
-        "repository_api_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more"
+        "repository_api_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
+        "repository_treatment": "ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY"
       },
-      "name": "official_affiliation_not_inferred",
+      "name": "atmta_affiliation_operator_confirmed_not_inferred_from_capture",
       "passed": true
     },
     {
       "detail": {
-        "items": 14,
-        "unique": 14
+        "accepted": 14,
+        "items": 14
       },
-      "name": "human_review_register_complete",
+      "name": "human_review_register_curator_adjudicated",
+      "passed": true
+    },
+    {
+      "detail": {
+        "entities": 1,
+        "pages": 1
+      },
+      "name": "oni_css_historical_snapshot_not_current_taxonomy",
+      "passed": true
+    },
+    {
+      "detail": {
+        "failures": [],
+        "redactions": 2
+      },
+      "name": "workstation_paths_redacted_from_normalized_and_public_derivatives",
       "passed": true
     },
     {
@@ -274,9 +313,9 @@
   ],
   "status": "pass",
   "summary": {
-    "checks_passed": 40,
-    "checks_total": 40,
-    "documented_upstream_warnings": 7,
+    "checks_passed": 44,
+    "checks_total": 44,
+    "documented_upstream_warnings": 0,
     "entities": 4632,
     "generated_artifacts": 795,
     "relationships": 3798,

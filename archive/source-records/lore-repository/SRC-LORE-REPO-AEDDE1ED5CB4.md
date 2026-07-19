@@ -26,7 +26,7 @@ url: https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galactic_
 ## Source Lineage
 
 - Publication: `JoseEduardonoot/star-atlas-lore`
-- Publication Role: `OPERATOR_DESIGNATED_LORE_TAXONOMY_SOURCE`
+- Publication Role: `ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_SOURCE`
 - Relationship: `PRESERVED_FROM_COMMIT`
 - Primary Source: `https://github.com/JoseEduardonoot/star-atlas-lore/blob/22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/reference/atlas/galactic_atlas.md`
 - Original Creator: `JoseEduardonoot` (repository account; page-level authorship not independently established)
@@ -34,7 +34,7 @@ url: https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galactic_
 
 ## Archival Abstract
 
-This Source Record inventories one lore repository page and its normalized artifact chain. The page is authoritative within this Archive for operator-designated lore nomenclature and taxonomy. Its narrative claims remain source assertions unless independently supported elsewhere.
+This Source Record inventories one lore repository page and its normalized artifact chain. By operator confirmation, Jose is a Star Atlas team member responsible for lore and this personal repository is ATMTA-affiliated canonical authority for lore nomenclature and taxonomy. Page-level authorship and narrative claims remain separately attributed evidence.
 
 ## Provenance
 
@@ -43,11 +43,12 @@ This Source Record inventories one lore repository page and its normalized artif
 - Raw member SHA-256: `34beba56d6efc9add9cae8a339b8fc768e785ca4626218bbd23e5cf50354a3be`
 - Normalized JSON: `archive/normalized/lore/pages/SRC-LORE-REPO-AEDDE1ED5CB4.json`
 - Normalized Markdown: `archive/normalized/lore/pages/SRC-LORE-REPO-AEDDE1ED5CB4.md`
-- Normalized text SHA-256: `34beba56d6efc9add9cae8a339b8fc768e785ca4626218bbd23e5cf50354a3be`
+- Normalized text SHA-256: `3e0286b5b9dca5409759bfcd118dac001420759ef147bd8bc4da0cd1253163d2`
 
 ## Limitations
 
-- Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.
+- ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.
+- Absolute upstream workstation paths are preserved in immutable raw evidence and redacted from this normalized derivative by curator decision LRH-014.
 
 ## Review Status
 

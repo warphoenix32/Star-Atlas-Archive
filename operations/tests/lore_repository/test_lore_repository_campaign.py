@@ -32,6 +32,12 @@ class LoreRepositoryCampaignTests(unittest.TestCase):
         self.assertEqual(4632, self.report["summary"]["entities"])
         self.assertEqual(3798, self.report["summary"]["relationships"])
 
+    def test_curator_adjudications_and_redactions_pass(self):
+        checks = {item["name"]: item for item in self.report["checks"]}
+        self.assertTrue(checks["human_review_register_curator_adjudicated"]["passed"])
+        self.assertTrue(checks["oni_css_historical_snapshot_not_current_taxonomy"]["passed"])
+        self.assertTrue(checks["workstation_paths_redacted_from_normalized_and_public_derivatives"]["passed"])
+
 
 if __name__ == "__main__":
     unittest.main()

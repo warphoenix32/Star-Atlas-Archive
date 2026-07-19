@@ -2,26 +2,29 @@
   "campaign_id": "lore-repository-ingestion-2026-07",
   "items": [
     {
+      "blocking": false,
       "priority": 1,
       "related_conflicts": [
         "LRC-001-AUTHORITY-LABEL"
       ],
-      "required_artifact": "ATMTA or rights-holder statement establishing the repository's official status and page-level authorship.",
-      "topic": "Authority identity"
+      "required_artifact": "Optional per-page bylines or commit attribution if future work needs authorship beyond Jose's operator-confirmed institutional lore role.",
+      "topic": "Page-level authorship granularity"
     },
     {
+      "blocking": false,
       "priority": 2,
       "related_conflicts": [
         "LRC-005-MIRROR-DIVERGENCE"
       ],
-      "required_artifact": "Upstream-generated diff or maintainer adjudication for every divergent or presentation-only page.",
-      "topic": "Canon/docs reconciliation"
+      "required_artifact": "Upstream-generated diff or maintainer adjudication for narrative differences; canon already controls taxonomy under LRH-008.",
+      "topic": "Canon/docs narrative reconciliation"
     },
     {
+      "blocking": false,
       "priority": 3,
       "related_conflicts": [],
-      "required_artifact": "Curator decisions for Galia, Council of Peace, Ustur, CORE, and Voice of Iris mappings.",
-      "topic": "Existing lore ID mapping"
+      "required_artifact": "Direct upstream pages or official evidence for Star Atlas: CORE and The Voice of Iris.",
+      "topic": "Deferred legacy lore mapping"
     },
     {
       "priority": 4,

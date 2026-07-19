@@ -26,7 +26,7 @@ url: https://joseeduardonoot.github.io/star-atlas-lore/factions/gate_garrison/
 ## Source Lineage
 
 - Publication: `JoseEduardonoot/star-atlas-lore`
-- Publication Role: `OPERATOR_DESIGNATED_LORE_TAXONOMY_SOURCE`
+- Publication Role: `ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_SOURCE`
 - Relationship: `PRESERVED_FROM_COMMIT`
 - Primary Source: `https://github.com/JoseEduardonoot/star-atlas-lore/blob/22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/factions/gate_garrison.md`
 - Original Creator: `JoseEduardonoot` (repository account; page-level authorship not independently established)
@@ -34,7 +34,7 @@ url: https://joseeduardonoot.github.io/star-atlas-lore/factions/gate_garrison/
 
 ## Archival Abstract
 
-This Source Record inventories one lore repository page and its normalized artifact chain. The page is authoritative within this Archive for operator-designated lore nomenclature and taxonomy. Its narrative claims remain source assertions unless independently supported elsewhere.
+This Source Record inventories one lore repository page and its normalized artifact chain. By operator confirmation, Jose is a Star Atlas team member responsible for lore and this personal repository is ATMTA-affiliated canonical authority for lore nomenclature and taxonomy. Page-level authorship and narrative claims remain separately attributed evidence.
 
 ## Provenance
 
@@ -47,7 +47,7 @@ This Source Record inventories one lore repository page and its normalized artif
 
 ## Limitations
 
-- Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.
+- ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.
 
 ## Review Status
 

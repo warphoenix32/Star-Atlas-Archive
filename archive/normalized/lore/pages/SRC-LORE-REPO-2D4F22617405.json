@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/meta/galia_sector_depth_audit/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -73,7 +73,7 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion."
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
   ],
   "lore_type": "REGISTRY_AUDIT",
   "manual_review_required": false,
@@ -94,12 +94,18 @@
   "published_mirror_status": "TEXT_IDENTICAL",
   "raw_byte_length": 7204,
   "raw_sha256": "f980fb70569c4c701d07b439dffcf1544ea9c76e0658f3f3d60879562abaf695",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "DOCUMENT",
   "source_id": "SRC-LORE-REPO-2D4F22617405",
   "source_scope": "CANON",
   "taxonomy_path": [
     "meta"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/meta/galia_sector_depth_audit.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

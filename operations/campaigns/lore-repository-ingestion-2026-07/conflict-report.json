@@ -3,9 +3,9 @@
   "conflicts": [
     {
       "conflict_id": "LRC-001-AUTHORITY-LABEL",
-      "disposition": "PRESERVED; operator taxonomy authority applied without asserting ATMTA authorship.",
+      "disposition": "CURATOR ADJUDICATED: Jose is a Star Atlas team member responsible for lore; the personal repository is ATMTA-affiliated canonical lore authority. Page-level authorship remains separately attributed.",
       "finding": "Repository API/default-branch metadata describes a fan-created encyclopedia, while main-branch and deployed-site metadata use an Official Star Atlas Lore Encyclopedia description.",
-      "manual_review_required": true,
+      "manual_review_required": false,
       "severity": "HIGH",
       "topic": "Upstream identity and authority labeling"
     },
@@ -21,31 +21,31 @@
       "conflict_id": "LRC-004-DEPLOYMENT-STALE",
       "disposition": "SOURCE_COMMIT_AND_LIVE_SITE_PROVENANCE_REMAIN_DISTINCT.",
       "finding": "The live gh-pages deployment declares source e1d87b0, preceding captured main 22555f277eb1496e34c0839c8f1f382842bd1d2b.",
-      "manual_review_required": true,
+      "manual_review_required": false,
       "severity": "MEDIUM",
       "topic": "Live deployment does not match current main"
     },
     {
       "conflict_id": "LRC-005-MIRROR-DIVERGENCE",
-      "disposition": "CANON_SELECTED_FOR_TAXONOMY; BOTH VARIANTS PRESERVED; DIVERGENCES REQUIRE REVIEW.",
+      "disposition": "CURATOR_ADJUDICATED: CANON CONTROLS TAXONOMY; BOTH TEXT VARIANTS REMAIN PRESERVED.",
       "finding": "86 same-path Markdown mirrors differ after UTF-8/LF normalization; 1 canon pages have no same-path docs mirror; 0 non-index docs pages have no same-path canon source.",
-      "manual_review_required": true,
+      "manual_review_required": false,
       "severity": "HIGH",
       "topic": "Canon authoring pages versus docs publication mirrors"
     },
     {
       "conflict_id": "LRC-006-UPSTREAM-LINKS",
-      "disposition": "DOCUMENTED_WITH_LINE-LEVEL PROVENANCE; SOURCE TEXT NOT REWRITTEN.",
+      "disposition": "CURATOR_ADJUDICATED: SOURCE PRESERVED; REPAIR DEFERRED TO A SEPARATE LINK-REPAIR CAMPAIGN.",
       "finding": "252 relative Markdown links do not resolve to a member of the pinned snapshot.",
-      "manual_review_required": true,
+      "manual_review_required": false,
       "severity": "MEDIUM",
       "topic": "Unresolved upstream relative links"
     },
     {
       "conflict_id": "LRC-007-NAVIGATION",
-      "disposition": "DOCUMENTED; LIVE SITEMAP AND SOURCE NAVIGATION PRESERVED SEPARATELY.",
+      "disposition": "CURATOR_ADJUDICATED: LIVE SITEMAP AND SOURCE NAVIGATION PRESERVED SEPARATELY; ONI/CSS PAGE CLASSIFIED AS A HISTORICAL CANONICAL-SOURCE SNAPSHOT.",
       "finding": "0 configured navigation targets are absent from the pinned docs tree; sitemap has 0 missing expected and 1 extra URLs.",
-      "manual_review_required": true,
+      "manual_review_required": false,
       "severity": "MEDIUM",
       "topic": "MkDocs navigation resolution"
     },
@@ -53,15 +53,15 @@
       "conflict_id": "LRC-008-UPSTREAM-VERIFICATION",
       "disposition": "PRESERVED_AS_UPSTREAM SELF-ASSESSMENT; NO CLAIM CORRECTIONS APPLIED.",
       "finding": "The upstream verification artifact reports 12 chronology errors, 20 possible contradictions, and 7 orphaned years.",
-      "manual_review_required": true,
+      "manual_review_required": false,
       "severity": "HIGH",
       "topic": "Upstream self-reported chronology and consistency findings"
     },
     {
       "conflict_id": "LRC-009-LOCAL-PATHS",
-      "disposition": "PRESERVED IN SOURCE; HASH-ONLY LOCATIONS RECORDED IN CONFLICT DETAIL.",
+      "disposition": "CURATOR_ADJUDICATED: PRESERVED IN IMMUTABLE RAW EVIDENCE; REDACTED FROM NORMALIZED RECORDS AND PUBLIC-FACING DERIVATIVES.",
       "finding": "2 canon lines contain absolute Windows user paths.",
-      "manual_review_required": true,
+      "manual_review_required": false,
       "severity": "LOW",
       "topic": "Embedded workstation paths"
     }

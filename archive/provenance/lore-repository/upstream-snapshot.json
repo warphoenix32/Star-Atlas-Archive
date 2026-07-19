@@ -1,8 +1,8 @@
 {
   "authority_assessment": {
-    "designation": "OPERATOR_DESIGNATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+    "designation": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
     "does_not_establish": [
-      "ATMTA authorship or official publication status",
+      "page-level authorship for every source file",
       "independent truth of every narrative claim",
       "governance, operational, provenance, or historical authority outside lore"
     ],
@@ -37,10 +37,13 @@
   },
   "identity_observations": {
     "atmta_affiliation_independently_verified": false,
+    "atmta_affiliation_operator_confirmed": true,
     "default_master_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
     "main_branch_description": "Official Star Atlas Lore Encyclopedia — factions, species, history, and more (Alpha)",
+    "operator_confirmed_repository_owner_role": "STAR_ATLAS_TEAM_MEMBER_RESPONSIBLE_FOR_LORE",
     "operator_designation_applied": true,
-    "repository_api_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more"
+    "repository_api_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
+    "repository_treatment": "ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY"
   },
   "immutability": {
     "historical_source_rewrites": 0,

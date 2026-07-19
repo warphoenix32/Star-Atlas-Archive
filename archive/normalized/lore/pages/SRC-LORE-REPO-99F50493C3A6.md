@@ -5,7 +5,7 @@ lore_type: SECTOR
 repository_entity_type: LOCATION
 upstream_commit: 22555f277eb1496e34c0839c8f1f382842bd1d2b
 upstream_path: canon/geography/sectors/frenir.md
-authority_scope: OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE
+authority_scope: ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE
 ---
 
 # Frenir (MRZ-19)

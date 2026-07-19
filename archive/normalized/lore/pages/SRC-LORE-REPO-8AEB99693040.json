@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/species/species_encyclopedia/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -63,14 +63,15 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion."
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "Absolute upstream workstation paths are preserved in immutable raw evidence and redacted from this normalized derivative by curator decision LRH-014."
   ],
   "lore_type": "TAXONOMY",
   "manual_review_required": false,
   "media_references": [],
   "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-8AEB99693040.json",
   "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-8AEB99693040.md",
-  "normalized_sha256": "e943caebe82d3992bc8c752f9d027d3386ed08262314d31176d663f0994a4891",
+  "normalized_sha256": "4600a962a8a4b6f26808e61bd21d7fad12f446b126d73e5e7a7420edaebf073f",
   "outbound_links": [],
   "preferred_name": "Star Atlas Species Encyclopedia (Consolidated)",
   "primary_entity_id": "LRTX-TAXONOMY-CA032AB07CA6",
@@ -84,12 +85,18 @@
   "published_mirror_status": "TEXT_IDENTICAL",
   "raw_byte_length": 8196,
   "raw_sha256": "e943caebe82d3992bc8c752f9d027d3386ed08262314d31176d663f0994a4891",
+  "redactions": {
+    "count": 1,
+    "curator_decision_id": "LRH-014",
+    "policy": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS"
+  },
   "repository_entity_type": "DOCUMENT",
   "source_id": "SRC-LORE-REPO-8AEB99693040",
   "source_scope": "CANON",
   "taxonomy_path": [
     "species"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/species/species_encyclopedia.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

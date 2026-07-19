@@ -26,9 +26,15 @@
   "quality": {
     "extraction_confidence": "HIGH",
     "limitations": [
-      "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion."
+      "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+      "Absolute upstream workstation paths are preserved in immutable raw evidence and redacted from this normalized derivative by curator decision LRH-014."
     ],
-    "manual_review_required": false
+    "manual_review_required": false,
+    "redactions": {
+      "count": 1,
+      "curator_decision_id": "LRH-014",
+      "policy": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS"
+    }
   },
   "source_id": "SRC-LORE-REPO-AEDDE1ED5CB4",
   "source_lineage": {
@@ -40,16 +46,18 @@
       "https://github.com/JoseEduardonoot/star-atlas-lore/blob/22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/reference/atlas/galactic_atlas.md"
     ],
     "publication": "JoseEduardonoot/star-atlas-lore",
-    "publication_role": "OPERATOR_DESIGNATED_LORE_TAXONOMY_SOURCE",
+    "publication_role": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_SOURCE",
     "relationship": "PRESERVED_FROM_COMMIT"
   },
   "source_type": "lore_repository",
   "taxonomy": {
     "aliases": [],
+    "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
     "lore_type": "REFERENCE",
     "preferred_name": "Star Atlas Galactic Atlas (Consolidated)",
     "primary_entity_id": "LRTX-REFERENCE-C42CC08666CF",
-    "repository_entity_type": "DOCUMENT"
+    "repository_entity_type": "DOCUMENT",
+    "taxonomy_status": "CURRENT_SOURCE_TAXONOMY"
   },
   "title": "Star Atlas Galactic Atlas (Consolidated)",
   "updated_at_normalized": null,

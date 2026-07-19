@@ -49,6 +49,9 @@ DEPLOYMENT_DATE = "2026-06-04T19:29:23Z"
 CAPTURED_AT = "2026-07-19T15:26:28Z"
 EXPECTED_ZIP_SHA256 = "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
 EXPECTED_ZIP_BYTES = 11118506
+CURATOR_DECISION_DATE = "2026-07-19"
+HISTORICAL_CANON_SOURCE_PATH = "canon/geography/oni_css_lore_layer.md"
+WORKSTATION_PATH_REDACTION = "[REDACTED_UPSTREAM_WORKSTATION_PATH]"
 
 SITE_PREFIX = "https://joseeduardonoot.github.io/star-atlas-lore/"
 MEDIA_EXTENSIONS = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".svg", ".pdf", ".mp4", ".webm", ".mp3", ".wav"}
@@ -109,6 +112,54 @@ EXISTING_LORE_MAPPINGS = [
     {"existing_id": "LORE-VOICE-OF-IRIS", "existing_name": "The Voice of Iris", "candidates": []},
 ]
 
+CURATOR_DECISIONS = {
+    "LRH-001": {
+        "accepted_disposition": "RECOGNIZE_PERSONAL_REPOSITORY_AS_ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY",
+        "decision_note": "Operator confirms Jose is a Star Atlas team member responsible for lore; his personal repository is treated as ATMTA-affiliated and canonical for lore taxonomy and nomenclature.",
+    },
+    "LRH-002": {
+        "accepted_disposition": "MAP_TO_REGION_AND_RETAIN_ATLAS_DOCUMENT_AS_REFERENCE",
+    },
+    "LRH-003": {
+        "accepted_disposition": "KEEP_DISTINCT_INSTITUTION_AND_FACTION_ENTITIES_WITH_SHARED_ALIAS",
+    },
+    "LRH-004": {
+        "accepted_disposition": "KEEP_DISTINCT_SPECIES_AND_FACTION_ENTITIES_WITH_SHARED_NAME",
+    },
+    "LRH-005": {
+        "accepted_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
+    },
+    "LRH-006": {
+        "accepted_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
+    },
+    "LRH-007": {
+        "accepted_disposition": "KEEP_CURRENT_MAIN_AS_SOURCE_AND_PRESERVE_LIVE_SITE_AS_SEPARATE_SNAPSHOT",
+    },
+    "LRH-008": {
+        "accepted_disposition": "CANON_CONTROLS_TAXONOMY_AND_BOTH_TEXT_VARIANTS_REMAIN_PRESERVED",
+    },
+    "LRH-009": {
+        "accepted_disposition": "PRESERVE_SOURCE_AND_STAGE_SEPARATE_LINK_REPAIR_CAMPAIGN",
+    },
+    "LRH-010": {
+        "accepted_disposition": "CLASSIFY_AS_HISTORICAL_CANONICAL_SOURCE_SNAPSHOT_NOT_CURRENT_TAXONOMY",
+        "decision_note": "The ONI/CSS page is canonical-source evidence for its captured historical state, not current canonical taxonomy.",
+    },
+    "LRH-011": {
+        "accepted_disposition": "DEFER_INDIVIDUAL_CORRECTIONS_UNTIL_OFFICIAL_PRIMARY_EVIDENCE_IS_ATTACHED",
+    },
+    "LRH-012": {
+        "accepted_disposition": "TREAT_AS_RESEARCH_CANDIDATES_NOT_CONFIRMED_CONTRADICTIONS",
+    },
+    "LRH-013": {
+        "accepted_disposition": "PRESERVE_AS_RESEARCH_GAPS_PENDING_TIMELINE_EVIDENCE_REVIEW",
+    },
+    "LRH-014": {
+        "accepted_disposition": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS",
+        "decision_note": "Absolute workstation paths remain only in immutable raw evidence and are redacted from normalized records and public-facing derivatives.",
+    },
+}
+
 
 def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
@@ -133,6 +184,11 @@ def normalize_text(data: bytes) -> str:
     text = text.replace("\r\n", "\n").replace("\r", "\n")
     text = "\n".join(line.rstrip() for line in text.split("\n"))
     return text.rstrip("\n") + "\n"
+
+
+def redact_normalized_workstation_paths(text: str) -> tuple[str, int]:
+    """Redact upstream workstation paths from derivatives without changing raw evidence."""
+    return re.subn(r"`[A-Za-z]:\\Users\\[^`\r\n]+`", f"`{WORKSTATION_PATH_REDACTION}`", text)
 
 
 def stable_id(prefix: str, *parts: str, length: int = 12) -> str:
@@ -377,7 +433,7 @@ url: {page['canonical_url']}
 ## Source Lineage
 
 - Publication: `{UPSTREAM_REPOSITORY}`
-- Publication Role: `OPERATOR_DESIGNATED_LORE_TAXONOMY_SOURCE`
+- Publication Role: `ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_SOURCE`
 - Relationship: `PRESERVED_FROM_COMMIT`
 - Primary Source: `{UPSTREAM_REPOSITORY_URL}/blob/{UPSTREAM_COMMIT}/{page['upstream_path']}`
 - Original Creator: `JoseEduardonoot` (repository account; page-level authorship not independently established)
@@ -385,7 +441,7 @@ url: {page['canonical_url']}
 
 ## Archival Abstract
 
-This Source Record inventories one lore repository page and its normalized artifact chain. The page is authoritative within this Archive for operator-designated lore nomenclature and taxonomy. Its narrative claims remain source assertions unless independently supported elsewhere.
+This Source Record inventories one lore repository page and its normalized artifact chain. By operator confirmation, Jose is a Star Atlas team member responsible for lore and this personal repository is ATMTA-affiliated canonical authority for lore nomenclature and taxonomy. Page-level authorship and narrative claims remain separately attributed evidence.
 
 ## Provenance
 
@@ -519,7 +575,7 @@ def build() -> dict[str, bytes]:
                 "source_ids": [source_id],
                 "source_paths": [source_path],
                 "extraction_basis": [extraction_basis],
-                "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+                "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
                 "resolution_confidence": "HIGH" if extraction_basis == "PAGE_SUBJECT" else "MEDIUM",
                 "attributes": [attributes] if attributes else [],
                 "id_scope": "SOURCE_LOCAL_CANONICAL_TAXONOMY",
@@ -535,13 +591,15 @@ def build() -> dict[str, bytes]:
         return entity_id
 
     for path in selected_paths:
-        source_text = normalize_text(members[path])
+        source_text_raw = normalize_text(members[path])
+        source_text, redaction_count = redact_normalized_workstation_paths(source_text_raw)
         source_id = source_ids_by_path[path]
         repository_type, lore_type, taxonomy_path = taxonomy_for_path(path)
         title = get_heading(source_text)
         alias_values = aliases_from_title(title)
         links, media_refs = extract_links(path, source_text, member_paths)
         is_published_only = path.startswith("docs/")
+        is_historical_canonical_snapshot = path == HISTORICAL_CANON_SOURCE_PATH
         rel = path.split("/", 1)[1]
         mirror_path = docs_rel.get(rel) if path.startswith("canon/") else path
         if path.startswith("canon/"):
@@ -564,9 +622,11 @@ def build() -> dict[str, bytes]:
         else:
             candidate_url = SITE_PREFIX + rel[:-3] + "/"
             canonical_url = candidate_url if candidate_url in sitemap_urls else f"{UPSTREAM_REPOSITORY_URL}/blob/{UPSTREAM_COMMIT}/{path}"
-        limitations = [
-            "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
-        ]
+        limitations = []
+        if is_historical_canonical_snapshot:
+            limitations.append("This page is preserved as a historical canonical-source snapshot and is excluded from current canonical taxonomy authority.")
+        else:
+            limitations.append("ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.")
         if mirror_status == "TEXT_DIVERGENT":
             limitations.append("The published docs mirror differs from the canon authoring page and requires source-level reconciliation.")
         if mirror_status == "CANON_ONLY":
@@ -575,6 +635,8 @@ def build() -> dict[str, bytes]:
             limitations.append("This public docs page has no same-path canon authoring source and is retained as an unreconciled publication-only page.")
         if any(item["resolution_status"] == "UNRESOLVED" for item in links + media_refs):
             limitations.append("One or more upstream relative references do not resolve inside the pinned repository snapshot.")
+        if redaction_count:
+            limitations.append("Absolute upstream workstation paths are preserved in immutable raw evidence and redacted from this normalized derivative by curator decision LRH-014.")
         normalized_json_path = (NORMALIZED_REL / "pages" / f"{source_id}.json").as_posix()
         normalized_markdown_path = (NORMALIZED_REL / "pages" / f"{source_id}.md").as_posix()
         page = {
@@ -585,8 +647,9 @@ def build() -> dict[str, bytes]:
             "upstream_repository": UPSTREAM_REPOSITORY,
             "upstream_commit": UPSTREAM_COMMIT,
             "canonical_url": canonical_url,
-            "source_scope": "PUBLISHED_ONLY" if is_published_only else "CANON",
-            "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+            "source_scope": "HISTORICAL_CANONICAL_SOURCE_SNAPSHOT" if is_historical_canonical_snapshot else ("PUBLISHED_ONLY" if is_published_only else "CANON"),
+            "authority_scope": "HISTORICAL_LORE_EVIDENCE_NOT_CURRENT_TAXONOMY" if is_historical_canonical_snapshot else "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+            "taxonomy_status": "HISTORICAL_SNAPSHOT_EXCLUDED_FROM_CURRENT_CANONICAL_TAXONOMY" if is_historical_canonical_snapshot else "CURRENT_SOURCE_TAXONOMY",
             "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
             "repository_entity_type": repository_type,
             "lore_type": lore_type,
@@ -603,8 +666,13 @@ def build() -> dict[str, bytes]:
             "published_mirror_path": mirror_path,
             "published_mirror_status": mirror_status,
             "extraction_confidence": "HIGH",
-            "manual_review_required": is_published_only or mirror_status != "TEXT_IDENTICAL" or any(item["resolution_status"] == "UNRESOLVED" for item in links + media_refs),
+            "manual_review_required": is_published_only or (mirror_status != "TEXT_IDENTICAL" and not is_historical_canonical_snapshot) or any(item["resolution_status"] == "UNRESOLVED" for item in links + media_refs),
             "limitations": limitations,
+            "redactions": {
+                "count": redaction_count,
+                "policy": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS" if redaction_count else "NONE",
+                "curator_decision_id": "LRH-014" if redaction_count else None,
+            },
             "provenance": {
                 "snapshot_path": RAW_ZIP_REL.as_posix(),
                 "snapshot_sha256": EXPECTED_ZIP_SHA256,
@@ -613,6 +681,15 @@ def build() -> dict[str, bytes]:
             },
         }
         entity_id = add_entity(title, lore_type, repository_type, source_id, path, alias_values)
+        if is_historical_canonical_snapshot:
+            entity_record = entity_store[(lore_type, strip_markdown(title).casefold())]
+            entity_record["authority_scope"] = "HISTORICAL_LORE_EVIDENCE_NOT_CURRENT_TAXONOMY"
+            entity_record["id_scope"] = "SOURCE_LOCAL_HISTORICAL_TAXONOMY_SNAPSHOT"
+            entity_record["resolution_confidence"] = "HIGH"
+            entity_record["attributes"].append({
+                "taxonomy_status": "HISTORICAL_SNAPSHOT_EXCLUDED_FROM_CURRENT_CANONICAL_TAXONOMY",
+                "curator_decision_id": "LRH-010",
+            })
         page["primary_entity_id"] = entity_id
         page_entities[path] = entity_id
         pages.append(page)
@@ -847,7 +924,7 @@ def build() -> dict[str, bytes]:
             status = "AMBIGUOUS_MULTIPLE_TARGETS"
         else:
             status = "UNRESOLVED_NO_DIRECT_PAGE"
-        migration_mappings.append({
+        mapping_record = {
             "existing_id": mapping["existing_id"],
             "legacy_name": mapping["existing_name"],
             "status": status,
@@ -855,17 +932,48 @@ def build() -> dict[str, bytes]:
             "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
             "automatic_rewrite_allowed": False,
             "manual_review_required": status != "MAPPED_ONE_TO_ONE",
-        })
+        }
+        if mapping["existing_id"] == "LORE-GALIA":
+            mapping_record.update({
+                "status": "MAPPED_TO_REGION_WITH_REFERENCE_DOCUMENT_RETAINED",
+                "canonical_targets": [item for item in targets if item["lore_type"] == "REGION"],
+                "reference_targets": [item for item in targets if item["lore_type"] == "REFERENCE"],
+                "manual_review_required": False,
+                "curator_decision_id": "LRH-002",
+            })
+        elif mapping["existing_id"] == "LORE-COUNCIL-PEACE":
+            mapping_record.update({
+                "status": "MAPPED_TO_INSTITUTION_WITH_DISTINCT_RELATED_FACTION",
+                "canonical_targets": [item for item in targets if item["lore_type"] == "INSTITUTION"],
+                "related_targets": [item for item in targets if item["lore_type"] == "FACTION"],
+                "manual_review_required": False,
+                "curator_decision_id": "LRH-003",
+            })
+        elif mapping["existing_id"] == "LORE-FACTION-USTUR":
+            mapping_record.update({
+                "status": "MAPPED_TO_FACTION_WITH_DISTINCT_RELATED_SPECIES",
+                "canonical_targets": [item for item in targets if item["lore_type"] == "FACTION"],
+                "related_targets": [item for item in targets if item["lore_type"] == "SPECIES"],
+                "manual_review_required": False,
+                "curator_decision_id": "LRH-004",
+            })
+        elif mapping["existing_id"] in {"LORE-NARRATIVE-CORE", "LORE-VOICE-OF-IRIS"}:
+            mapping_record.update({
+                "status": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED",
+                "manual_review_required": False,
+                "curator_decision_id": "LRH-005" if mapping["existing_id"] == "LORE-NARRATIVE-CORE" else "LRH-006",
+            })
+        migration_mappings.append(mapping_record)
 
     lore_type_counts = Counter(entity["lore_type"] for entity in entities)
     taxonomy = {
         "taxonomy_id": "STAR-ATLAS-LORE-TAXONOMY-22555F2",
         "version_basis": UPSTREAM_COMMIT,
         "authority": {
-            "designation": "OPERATOR_DESIGNATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+            "designation": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
             "scope": "IN_UNIVERSE_LORE_ONLY",
             "does_not_establish": [
-                "ATMTA authorship or official publication status",
+                "page-level authorship for every source file",
                 "independent truth of every narrative claim",
                 "governance, operational, provenance, or historical authority outside lore",
             ],
@@ -886,6 +994,7 @@ def build() -> dict[str, bytes]:
         },
         "adopted_lore_types": sorted({item for values in LORE_TYPE_HIERARCHY.values() for item in values}),
         "entity_counts": dict(sorted(lore_type_counts.items())),
+        "historical_snapshot_entity_count": sum(entity["authority_scope"] == "HISTORICAL_LORE_EVIDENCE_NOT_CURRENT_TAXONOMY" for entity in entities),
         "identifier_policy": "LRTX identifiers are deterministic source-taxonomy IDs and do not replace registry-assigned repository canonical IDs.",
     }
 
@@ -902,8 +1011,8 @@ def build() -> dict[str, bytes]:
             "severity": "HIGH",
             "topic": "Upstream identity and authority labeling",
             "finding": "Repository API/default-branch metadata describes a fan-created encyclopedia, while main-branch and deployed-site metadata use an Official Star Atlas Lore Encyclopedia description.",
-            "disposition": "PRESERVED; operator taxonomy authority applied without asserting ATMTA authorship.",
-            "manual_review_required": True,
+            "disposition": "CURATOR ADJUDICATED: Jose is a Star Atlas team member responsible for lore; the personal repository is ATMTA-affiliated canonical lore authority. Page-level authorship remains separately attributed.",
+            "manual_review_required": False,
         },
         {
             "conflict_id": "LRC-003-BRANCH-AUTHORITY",
@@ -919,31 +1028,31 @@ def build() -> dict[str, bytes]:
             "topic": "Live deployment does not match current main",
             "finding": f"The live gh-pages deployment declares source {DEPLOYED_SOURCE_COMMIT}, preceding captured main {UPSTREAM_COMMIT}.",
             "disposition": "SOURCE_COMMIT_AND_LIVE_SITE_PROVENANCE_REMAIN_DISTINCT.",
-            "manual_review_required": True,
+            "manual_review_required": False,
         },
         {
             "conflict_id": "LRC-005-MIRROR-DIVERGENCE",
             "severity": "HIGH" if mirror_divergences else "LOW",
             "topic": "Canon authoring pages versus docs publication mirrors",
             "finding": f"{len(mirror_divergences)} same-path Markdown mirrors differ after UTF-8/LF normalization; {len(canon_only)} canon pages have no same-path docs mirror; {len(docs_only_content)} non-index docs pages have no same-path canon source.",
-            "disposition": "CANON_SELECTED_FOR_TAXONOMY; BOTH VARIANTS PRESERVED; DIVERGENCES REQUIRE REVIEW.",
-            "manual_review_required": bool(mirror_divergences or canon_only or docs_only_content),
+            "disposition": "CURATOR_ADJUDICATED: CANON CONTROLS TAXONOMY; BOTH TEXT VARIANTS REMAIN PRESERVED.",
+            "manual_review_required": False,
         },
         {
             "conflict_id": "LRC-006-UPSTREAM-LINKS",
             "severity": "MEDIUM",
             "topic": "Unresolved upstream relative links",
             "finding": f"{len(unresolved_links)} relative Markdown links do not resolve to a member of the pinned snapshot.",
-            "disposition": "DOCUMENTED_WITH_LINE-LEVEL PROVENANCE; SOURCE TEXT NOT REWRITTEN.",
-            "manual_review_required": bool(unresolved_links),
+            "disposition": "CURATOR_ADJUDICATED: SOURCE PRESERVED; REPAIR DEFERRED TO A SEPARATE LINK-REPAIR CAMPAIGN.",
+            "manual_review_required": False,
         },
         {
             "conflict_id": "LRC-007-NAVIGATION",
             "severity": "MEDIUM",
             "topic": "MkDocs navigation resolution",
             "finding": f"{len(navigation['unresolved_navigation_targets'])} configured navigation targets are absent from the pinned docs tree; sitemap has {len(navigation['sitemap_missing_expected_urls'])} missing expected and {len(navigation['sitemap_extra_urls'])} extra URLs.",
-            "disposition": "DOCUMENTED; LIVE SITEMAP AND SOURCE NAVIGATION PRESERVED SEPARATELY.",
-            "manual_review_required": bool(navigation["unresolved_navigation_targets"] or navigation["sitemap_missing_expected_urls"] or navigation["sitemap_extra_urls"]),
+            "disposition": "CURATOR_ADJUDICATED: LIVE SITEMAP AND SOURCE NAVIGATION PRESERVED SEPARATELY; ONI/CSS PAGE CLASSIFIED AS A HISTORICAL CANONICAL-SOURCE SNAPSHOT.",
+            "manual_review_required": False,
         },
         {
             "conflict_id": "LRC-008-UPSTREAM-VERIFICATION",
@@ -951,15 +1060,15 @@ def build() -> dict[str, bytes]:
             "topic": "Upstream self-reported chronology and consistency findings",
             "finding": f"The upstream verification artifact reports {len(upstream_verification.get('chrono_errors', []))} chronology errors, {len(upstream_verification.get('contradictions', []))} possible contradictions, and {len(upstream_verification.get('orphaned_years', []))} orphaned years.",
             "disposition": "PRESERVED_AS_UPSTREAM SELF-ASSESSMENT; NO CLAIM CORRECTIONS APPLIED.",
-            "manual_review_required": True,
+            "manual_review_required": False,
         },
         {
             "conflict_id": "LRC-009-LOCAL-PATHS",
             "severity": "LOW",
             "topic": "Embedded workstation paths",
             "finding": f"{len(embedded_local_paths)} canon lines contain absolute Windows user paths.",
-            "disposition": "PRESERVED IN SOURCE; HASH-ONLY LOCATIONS RECORDED IN CONFLICT DETAIL.",
-            "manual_review_required": bool(embedded_local_paths),
+            "disposition": "CURATOR_ADJUDICATED: PRESERVED IN IMMUTABLE RAW EVIDENCE; REDACTED FROM NORMALIZED RECORDS AND PUBLIC-FACING DERIVATIVES.",
+            "manual_review_required": False,
         },
     ]
 
@@ -982,14 +1091,16 @@ def build() -> dict[str, bytes]:
                 "legacy_id": "LORE-FACTION-USTUR",
                 "legacy_classification": "Major faction / Ustur Sector",
                 "proposed_taxonomy": ["SPECIES: Ustur", "FACTION: Ustur"],
-                "status": "REQUIRES_REVIEW",
+                "status": "CURATOR_ADJUDICATED_DISTINCT_ENTITIES",
+                "curator_decision_id": "LRH-004",
                 "reason": "The upstream taxonomy contains distinct species and faction pages with the same preferred name.",
             },
             {
                 "legacy_id": "LORE-COUNCIL-PEACE",
                 "legacy_classification": "Political institution",
                 "proposed_taxonomy": ["INSTITUTION: Council of Peace", "FACTION: Council of Peace"],
-                "status": "REQUIRES_REVIEW",
+                "status": "CURATOR_ADJUDICATED_DISTINCT_ENTITIES",
+                "curator_decision_id": "LRH-003",
                 "reason": "The upstream taxonomy contains distinct institution and faction pages.",
             },
         ],
@@ -1000,9 +1111,9 @@ def build() -> dict[str, bytes]:
     research_backlog = {
         "campaign_id": CAMPAIGN_ID,
         "items": [
-            {"priority": 1, "topic": "Authority identity", "required_artifact": "ATMTA or rights-holder statement establishing the repository's official status and page-level authorship.", "related_conflicts": ["LRC-001-AUTHORITY-LABEL"]},
-            {"priority": 2, "topic": "Canon/docs reconciliation", "required_artifact": "Upstream-generated diff or maintainer adjudication for every divergent or presentation-only page.", "related_conflicts": ["LRC-005-MIRROR-DIVERGENCE"]},
-            {"priority": 3, "topic": "Existing lore ID mapping", "required_artifact": "Curator decisions for Galia, Council of Peace, Ustur, CORE, and Voice of Iris mappings.", "related_conflicts": []},
+            {"priority": 1, "topic": "Page-level authorship granularity", "required_artifact": "Optional per-page bylines or commit attribution if future work needs authorship beyond Jose's operator-confirmed institutional lore role.", "related_conflicts": ["LRC-001-AUTHORITY-LABEL"], "blocking": False},
+            {"priority": 2, "topic": "Canon/docs narrative reconciliation", "required_artifact": "Upstream-generated diff or maintainer adjudication for narrative differences; canon already controls taxonomy under LRH-008.", "related_conflicts": ["LRC-005-MIRROR-DIVERGENCE"], "blocking": False},
+            {"priority": 3, "topic": "Deferred legacy lore mapping", "required_artifact": "Direct upstream pages or official evidence for Star Atlas: CORE and The Voice of Iris.", "related_conflicts": [], "blocking": False},
             {"priority": 4, "topic": "Chronology and contradiction review", "required_artifact": "Primary official lore citations resolving each upstream self-reported chronology error and contradiction.", "related_conflicts": ["LRC-008-UPSTREAM-VERIFICATION"]},
             {"priority": 5, "topic": "Broken upstream references", "required_artifact": "Replacement target paths or source pages for unresolved Markdown links and MkDocs navigation entries.", "related_conflicts": ["LRC-006-UPSTREAM-LINKS", "LRC-007-NAVIGATION"]},
             {"priority": 6, "topic": "Live deployment freshness", "required_artifact": "A gh-pages deployment from the selected main commit or an upstream declaration that the older deployment is intentional.", "related_conflicts": ["LRC-004-DEPLOYMENT-STALE"]},
@@ -1149,6 +1260,16 @@ def build() -> dict[str, bytes]:
             },
         ],
     }
+    for item in human_review["decision_items"]:
+        decision = CURATOR_DECISIONS[item["review_id"]]
+        item.update({
+            "status": "ACCEPTED",
+            "accepted_disposition": decision["accepted_disposition"],
+            "decided_by": "REPOSITORY_OPERATOR",
+            "decided_at": CURATOR_DECISION_DATE,
+        })
+        if "decision_note" in decision:
+            item["decision_note"] = decision["decision_note"]
 
     source_records_json: dict[str, str] = {}
     source_records_md: dict[str, str] = {}
@@ -1165,7 +1286,7 @@ def build() -> dict[str, bytes]:
             "creator": ["JoseEduardonoot"],
             "creator_scope": "REPOSITORY_ACCOUNT; PAGE_LEVEL_AUTHORSHIP_UNKNOWN",
             "source_type": "lore_repository",
-            "document_type": "LORE_REPOSITORY_PAGE",
+            "document_type": "HISTORICAL_LORE_REPOSITORY_SNAPSHOT" if page["source_scope"] == "HISTORICAL_CANONICAL_SOURCE_SNAPSHOT" else "LORE_REPOSITORY_PAGE",
             "canonical_url": page["canonical_url"],
             "published_at_original": None,
             "published_at_normalized": None,
@@ -1176,7 +1297,7 @@ def build() -> dict[str, bytes]:
             "authenticity": "repository_commit_verified",
             "source_lineage": {
                 "publication": UPSTREAM_REPOSITORY,
-                "publication_role": "OPERATOR_DESIGNATED_LORE_TAXONOMY_SOURCE",
+                "publication_role": "HISTORICAL_CANONICAL_SOURCE_SNAPSHOT" if page["source_scope"] == "HISTORICAL_CANONICAL_SOURCE_SNAPSHOT" else "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_SOURCE",
                 "relationship": "PRESERVED_FROM_COMMIT",
                 "primary_sources": [f"{UPSTREAM_REPOSITORY_URL}/blob/{UPSTREAM_COMMIT}/{page['upstream_path']}"],
                 "original_creators": ["JoseEduardonoot (repository account; page-level authorship unknown)"],
@@ -1188,11 +1309,14 @@ def build() -> dict[str, bytes]:
                 "lore_type": page["lore_type"],
                 "repository_entity_type": page["repository_entity_type"],
                 "primary_entity_id": page["primary_entity_id"],
+                "taxonomy_status": page["taxonomy_status"],
+                "authority_scope": page["authority_scope"],
             },
             "quality": {
                 "extraction_confidence": page["extraction_confidence"],
                 "manual_review_required": page["manual_review_required"],
                 "limitations": page["limitations"],
+                "redactions": page["redactions"],
             },
             "provenance": page["provenance"],
             "artifact_chain": {
@@ -1218,7 +1342,7 @@ def build() -> dict[str, bytes]:
                 "source_id": page["source_id"],
                 "title": page["preferred_name"],
                 "type": "LORE_REPOSITORY_PAGE",
-                "tier": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AUTHORITY",
+                "tier": page["authority_scope"],
                 "url": page["canonical_url"],
                 "language": "English",
                 "source_lineage": {
@@ -1251,7 +1375,8 @@ def build() -> dict[str, bytes]:
         "research_tasks": research_backlog["items"],
         "knowledge_delta": {},
         "repository_health": {
-            "manual_review_required": True,
+            "manual_review_required": False,
+            "curator_adjudication_complete": True,
             "conflict_count": len(conflicts),
             "unresolved_link_count": len(unresolved_links),
             "taxonomy_mappings_requiring_review": sum(item["manual_review_required"] for item in migration_mappings),
@@ -1290,6 +1415,9 @@ def build() -> dict[str, bytes]:
             "default_master_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
             "main_branch_description": "Official Star Atlas Lore Encyclopedia — factions, species, history, and more (Alpha)",
             "atmta_affiliation_independently_verified": False,
+            "atmta_affiliation_operator_confirmed": True,
+            "operator_confirmed_repository_owner_role": "STAR_ATLAS_TEAM_MEMBER_RESPONSIBLE_FOR_LORE",
+            "repository_treatment": "ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY",
             "operator_designation_applied": True,
         },
         "immutability": {"historical_source_rewrites": 0, "raw_snapshot_modified": False},
@@ -1297,7 +1425,7 @@ def build() -> dict[str, bytes]:
 
     summary = {
         "campaign_id": CAMPAIGN_ID,
-        "status": "ARCHIVED_NORMALIZED_REVIEW_REQUIRED",
+        "status": "ARCHIVED_NORMALIZED_CURATOR_ADJUDICATED",
         "upstream_commit": UPSTREAM_COMMIT,
         "repository_files_preserved": len(file_inventory),
         "markdown_pages_inventoried": len(page_inventory),
@@ -1317,6 +1445,8 @@ def build() -> dict[str, bytes]:
         "migration_mappings": len(migration_mappings),
         "migration_mappings_requiring_review": sum(item["manual_review_required"] for item in migration_mappings),
         "manual_review_conflicts": sum(item["manual_review_required"] for item in conflicts),
+        "curator_decisions_accepted": len(CURATOR_DECISIONS),
+        "normalized_workstation_path_redactions": sum(page["redactions"]["count"] for page in pages),
         "historical_sources_rewritten": 0,
         "knowledge_files_modified": 0,
         "graph_files_modified": 0,
@@ -1331,7 +1461,7 @@ def build() -> dict[str, bytes]:
 
 ## Authority
 
-The pinned lore repository is the operator-designated authority for in-universe taxonomy and preferred nomenclature. This designation does not establish ATMTA authorship or independently verify every narrative claim.
+By operator confirmation, Jose is a Star Atlas team member responsible for lore and the pinned personal repository is ATMTA-affiliated canonical authority for in-universe taxonomy and preferred nomenclature. This does not establish page-level authorship for every source file or independently verify every narrative claim.
 
 ## Results
 
@@ -1348,13 +1478,14 @@ The pinned lore repository is the operator-designated authority for in-universe 
 
 Historical source material and existing Archive Lore IDs remain unchanged. One-to-one mappings connect legacy IDs to source-taxonomy entities. Ambiguous or missing mappings require curator review.
 
-## Required review
+## Curator adjudication
 
-- Reconcile the distinct species and faction pages named Ustur before changing `LORE-FACTION-USTUR`.
-- Reconcile the institution and faction pages named Council of Peace.
-- Decide whether Galia Expanse maps to a region entity, an atlas reference document, or both.
-- Acquire direct upstream pages or official evidence for Star Atlas: CORE and The Voice of Iris.
-- Review all canon/docs mirror divergences before treating the published site as text-identical to the canon authoring corpus.
+- `LORE-FACTION-USTUR` maps to the faction; the identically named species remains a distinct related entity.
+- `LORE-COUNCIL-PEACE` maps to the institution; the identically named faction remains a distinct related entity.
+- `LORE-GALIA` maps to the region; the Galia Expanse Atlas remains a reference document.
+- Star Atlas: CORE and The Voice of Iris remain preserved legacy entities with new mappings deferred.
+- Canon controls taxonomy while divergent docs text remains preserved as separate evidence.
+- The ONI/CSS page is a historical canonical-source snapshot, not current canonical taxonomy.
 """
     summary_md = f"""# Lore Repository Ingestion Campaign Summary
 
@@ -1374,15 +1505,17 @@ The public lore repository was preserved at immutable `main` commit `{UPSTREAM_C
 - Reference relationships extracted: {summary['relationships_extracted']}
 - Media artifacts inventoried: {summary['media_inventoried']}
 
-## Review findings
+## Preserved findings and curator dispositions
 
 - Divergent canon/docs mirrors: {summary['mirror_divergences']}
 - Unresolved internal links: {summary['unresolved_internal_links']}
 - Unresolved navigation targets: {summary['unresolved_navigation_targets']}
 - Existing lore ID mappings requiring review: {summary['migration_mappings_requiring_review']}
 - Manual-review conflict groups: {summary['manual_review_conflicts']}
+- Curator decisions accepted: {summary['curator_decisions_accepted']}
+- Normalized workstation-path redactions: {summary['normalized_workstation_path_redactions']}
 
-The upstream identity label, stale deployment, divergent mirrors, self-reported chronology conflicts, broken references, and ambiguous legacy mappings remain explicit. These do not alter the preserved source and do not become canonical claims through ingestion.
+All campaign-level curator decisions are recorded. The upstream identity label, stale deployment, divergent mirrors, self-reported chronology findings, broken references, and deferred legacy mappings remain explicit evidence or research gaps; they are not silently converted into canonical claims.
 """
     backlog_md = "# Lore Repository Research Backlog\n\n" + "\n".join(
         f"{item['priority']}. **{item['topic']}** — {item['required_artifact']}"
@@ -1393,8 +1526,12 @@ The upstream identity label, stale deployment, divergent mirrors, self-reported 
             f"## {item['review_id']} — {item['topic']}",
             "",
             f"- Status: `{item['status']}`",
-            f"- Decision needed: {item['decision_needed']}",
+            f"- Original decision question: {item['decision_needed']}",
             f"- Recommended disposition: `{item['recommended_disposition']}`",
+            f"- Accepted disposition: `{item['accepted_disposition']}`",
+            f"- Decided by: `{item['decided_by']}`",
+            f"- Decided at: `{item['decided_at']}`",
+            *([f"- Decision note: {item['decision_note']}"] if "decision_note" in item else []),
             f"- Allowed dispositions: {', '.join(f'`{value}`' for value in item['allowed_dispositions'])}",
             f"- Evidence: {', '.join(f'`{value}`' if isinstance(value, str) else 'embedded structured evidence' for value in item['evidence'][:5])}",
             *([f"- Evidence count: {item['evidence_count']}"] if "evidence_count" in item else []),

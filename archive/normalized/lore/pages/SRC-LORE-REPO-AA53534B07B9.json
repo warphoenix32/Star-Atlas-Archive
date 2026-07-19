@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/species/punaab/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -118,7 +118,7 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion."
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
   ],
   "lore_type": "SPECIES",
   "manual_review_required": false,
@@ -139,12 +139,18 @@
   "published_mirror_status": "TEXT_IDENTICAL",
   "raw_byte_length": 9427,
   "raw_sha256": "36a74085be84dddd53339a78c0b29ba464b487c6949ca05e2235bf8f6e1689c6",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "COMMUNITY",
   "source_id": "SRC-LORE-REPO-AA53534B07B9",
   "source_scope": "CANON",
   "taxonomy_path": [
     "species"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/species/punaab.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

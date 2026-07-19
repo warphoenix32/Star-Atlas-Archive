@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/verzan/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -134,7 +134,7 @@
     }
   ],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
     "The published docs mirror differs from the canon authoring page and requires source-level reconciliation.",
     "One or more upstream relative references do not resolve inside the pinned repository snapshot."
   ],
@@ -157,6 +157,11 @@
   "published_mirror_status": "TEXT_DIVERGENT",
   "raw_byte_length": 3084,
   "raw_sha256": "4213da1604f04f0bd93d730702fdf001aa845db6898696b520a90d53f8e4edc4",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "LOCATION",
   "source_id": "SRC-LORE-REPO-2348155DB4FD",
   "source_scope": "CANON",
@@ -164,6 +169,7 @@
     "geography",
     "sectors"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/geography/sectors/verzan.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

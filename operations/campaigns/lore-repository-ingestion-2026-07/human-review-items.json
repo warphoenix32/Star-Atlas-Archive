@@ -2,28 +2,35 @@
   "campaign_id": "lore-repository-ingestion-2026-07",
   "decision_items": [
     {
+      "accepted_disposition": "RECOGNIZE_PERSONAL_REPOSITORY_AS_ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY",
       "allowed_dispositions": [
         "KEEP_OPERATOR_DESIGNATED_TAXONOMY_AUTHORITY_WITH_OFFICIAL_AFFILIATION_UNVERIFIED",
         "DESCRIBE_AS_OFFICIAL_STAR_ATLAS_SOURCE",
         "DESCRIBE_AS_FAN_CURATED_SOURCE"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Choose how the Archive should describe the upstream repository without inferring ATMTA authorship.",
+      "decision_note": "Operator confirms Jose is a Star Atlas team member responsible for lore; his personal repository is treated as ATMTA-affiliated and canonical for lore taxonomy and nomenclature.",
       "evidence": [
         "LRC-001-AUTHORITY-LABEL",
         "archive/provenance/lore-repository/authority-assessment.json"
       ],
       "recommended_disposition": "KEEP_OPERATOR_DESIGNATED_TAXONOMY_AUTHORITY_WITH_OFFICIAL_AFFILIATION_UNVERIFIED",
       "review_id": "LRH-001",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Upstream identity label"
     },
     {
+      "accepted_disposition": "MAP_TO_REGION_AND_RETAIN_ATLAS_DOCUMENT_AS_REFERENCE",
       "allowed_dispositions": [
         "MAP_TO_REGION_AND_RETAIN_ATLAS_DOCUMENT_AS_REFERENCE",
         "MAP_TO_ATLAS_DOCUMENT",
         "MAP_TO_BOTH",
         "DEFER"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Map LORE-GALIA to the region, the atlas reference document, both, or neither.",
       "evidence": [
         "canon/geography/galactic_regions.md",
@@ -31,16 +38,19 @@
       ],
       "recommended_disposition": "MAP_TO_REGION_AND_RETAIN_ATLAS_DOCUMENT_AS_REFERENCE",
       "review_id": "LRH-002",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Galia Expanse legacy mapping"
     },
     {
+      "accepted_disposition": "KEEP_DISTINCT_INSTITUTION_AND_FACTION_ENTITIES_WITH_SHARED_ALIAS",
       "allowed_dispositions": [
         "KEEP_DISTINCT_INSTITUTION_AND_FACTION_ENTITIES_WITH_SHARED_ALIAS",
         "MERGE_AS_ONE_INSTITUTION",
         "MERGE_AS_ONE_FACTION",
         "DEFER"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Decide whether the institution and faction pages represent distinct canonical entities or two views of one entity.",
       "evidence": [
         "canon/institutions/council_of_peace.md",
@@ -48,16 +58,19 @@
       ],
       "recommended_disposition": "KEEP_DISTINCT_INSTITUTION_AND_FACTION_ENTITIES_WITH_SHARED_ALIAS",
       "review_id": "LRH-003",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Council of Peace entity split"
     },
     {
+      "accepted_disposition": "KEEP_DISTINCT_SPECIES_AND_FACTION_ENTITIES_WITH_SHARED_NAME",
       "allowed_dispositions": [
         "KEEP_DISTINCT_SPECIES_AND_FACTION_ENTITIES_WITH_SHARED_NAME",
         "MAP_LEGACY_ID_TO_FACTION_ONLY",
         "MAP_LEGACY_ID_TO_SPECIES_ONLY",
         "DEFER"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Decide whether Ustur species and Ustur faction remain distinct canonical entities.",
       "evidence": [
         "canon/species/ustur.md",
@@ -65,15 +78,18 @@
       ],
       "recommended_disposition": "KEEP_DISTINCT_SPECIES_AND_FACTION_ENTITIES_WITH_SHARED_NAME",
       "review_id": "LRH-004",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Ustur entity split"
     },
     {
+      "accepted_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
       "allowed_dispositions": [
         "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
         "DEPRECATE_LEGACY_ENTITY",
         "RESEARCH_FOR_DIRECT_PAGE"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Choose whether to preserve the unmatched legacy entity or defer it until a direct upstream page is acquired.",
       "evidence": [
         "LORE-NARRATIVE-CORE",
@@ -81,15 +97,18 @@
       ],
       "recommended_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
       "review_id": "LRH-005",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Star Atlas: CORE legacy entity"
     },
     {
+      "accepted_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
       "allowed_dispositions": [
         "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
         "DEPRECATE_LEGACY_ENTITY",
         "RESEARCH_FOR_DIRECT_PAGE"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Choose whether to preserve the unmatched legacy entity or defer it until a direct upstream page is acquired.",
       "evidence": [
         "LORE-VOICE-OF-IRIS",
@@ -97,15 +116,18 @@
       ],
       "recommended_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
       "review_id": "LRH-006",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "The Voice of Iris legacy entity"
     },
     {
+      "accepted_disposition": "KEEP_CURRENT_MAIN_AS_SOURCE_AND_PRESERVE_LIVE_SITE_AS_SEPARATE_SNAPSHOT",
       "allowed_dispositions": [
         "KEEP_CURRENT_MAIN_AS_SOURCE_AND_PRESERVE_LIVE_SITE_AS_SEPARATE_SNAPSHOT",
         "USE_LIVE_DEPLOYMENT_TEXT",
         "WAIT_FOR_REDEPLOYMENT"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Confirm whether current main remains the ingestion authority even though the live gh-pages deployment is older.",
       "evidence": [
         "LRC-003-BRANCH-AUTHORITY",
@@ -113,15 +135,18 @@
       ],
       "recommended_disposition": "KEEP_CURRENT_MAIN_AS_SOURCE_AND_PRESERVE_LIVE_SITE_AS_SEPARATE_SNAPSHOT",
       "review_id": "LRH-007",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Source branch and live deployment"
     },
     {
+      "accepted_disposition": "CANON_CONTROLS_TAXONOMY_AND_BOTH_TEXT_VARIANTS_REMAIN_PRESERVED",
       "allowed_dispositions": [
         "CANON_CONTROLS_TAXONOMY_AND_BOTH_TEXT_VARIANTS_REMAIN_PRESERVED",
         "DOCS_CONTROLS_PUBLISHED_TEXT",
         "REQUIRE_PAGE_BY_PAGE_ADJUDICATION"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Choose the standing rule for 86 divergent canon/docs page pairs.",
       "evidence": [
         "operations/campaigns/lore-repository-ingestion-2026-07/mirror-divergence-ledger.json"
@@ -129,15 +154,18 @@
       "evidence_count": 86,
       "recommended_disposition": "CANON_CONTROLS_TAXONOMY_AND_BOTH_TEXT_VARIANTS_REMAIN_PRESERVED",
       "review_id": "LRH-008",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Canon/docs mirror divergence policy"
     },
     {
+      "accepted_disposition": "PRESERVE_SOURCE_AND_STAGE_SEPARATE_LINK_REPAIR_CAMPAIGN",
       "allowed_dispositions": [
         "PRESERVE_SOURCE_AND_STAGE_SEPARATE_LINK_REPAIR_CAMPAIGN",
         "LEAVE_PERMANENTLY_UNRESOLVED",
         "REPAIR_NORMALIZED_LINKS_NOW"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Choose whether 252 broken source-local links remain preserved defects or receive a later repair campaign.",
       "evidence": [
         "operations/campaigns/lore-repository-ingestion-2026-07/unresolved-reference-ledger.json"
@@ -145,31 +173,38 @@
       "evidence_count": 252,
       "recommended_disposition": "PRESERVE_SOURCE_AND_STAGE_SEPARATE_LINK_REPAIR_CAMPAIGN",
       "review_id": "LRH-009",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Unresolved upstream links"
     },
     {
+      "accepted_disposition": "CLASSIFY_AS_HISTORICAL_CANONICAL_SOURCE_SNAPSHOT_NOT_CURRENT_TAXONOMY",
       "allowed_dispositions": [
         "KEEP_AS_CANON_SOURCE_WITH_STALE_DEPLOYMENT_PROVENANCE",
         "TREAT_AS_LIVE_SITE_ONLY",
         "DEFER"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Classify the live sitemap URL that is absent from current docs but present in the canon source tree.",
+      "decision_note": "The ONI/CSS page is canonical-source evidence for its captured historical state, not current canonical taxonomy.",
       "evidence": [
         "canon/geography/oni_css_lore_layer.md",
         "https://joseeduardonoot.github.io/star-atlas-lore/geography/oni_css_lore_layer/"
       ],
       "recommended_disposition": "KEEP_AS_CANON_SOURCE_WITH_STALE_DEPLOYMENT_PROVENANCE",
       "review_id": "LRH-010",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Live sitemap-only ONI/CSS lore page"
     },
     {
+      "accepted_disposition": "DEFER_INDIVIDUAL_CORRECTIONS_UNTIL_OFFICIAL_PRIMARY_EVIDENCE_IS_ATTACHED",
       "allowed_dispositions": [
         "DEFER_INDIVIDUAL_CORRECTIONS_UNTIL_OFFICIAL_PRIMARY_EVIDENCE_IS_ATTACHED",
         "ACCEPT_UPSTREAM_ORDER",
         "CORRECT_SELECTED_ITEMS_WITH_CITATIONS"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Adjudicate or defer each of the 12 source-reported chronology ordering errors.",
       "evidence": [
         {
@@ -260,15 +295,18 @@
       "evidence_count": 12,
       "recommended_disposition": "DEFER_INDIVIDUAL_CORRECTIONS_UNTIL_OFFICIAL_PRIMARY_EVIDENCE_IS_ATTACHED",
       "review_id": "LRH-011",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Self-reported chronology ordering errors"
     },
     {
+      "accepted_disposition": "TREAT_AS_RESEARCH_CANDIDATES_NOT_CONFIRMED_CONTRADICTIONS",
       "allowed_dispositions": [
         "TREAT_AS_RESEARCH_CANDIDATES_NOT_CONFIRMED_CONTRADICTIONS",
         "REVIEW_CLUSTER_BY_CLUSTER",
         "ACCEPT_AS_CONTRADICTIONS"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Adjudicate or dismiss each of the 20 machine-flagged lexical contradiction clusters.",
       "evidence": [
         {
@@ -690,15 +728,18 @@
       "evidence_count": 20,
       "recommended_disposition": "TREAT_AS_RESEARCH_CANDIDATES_NOT_CONFIRMED_CONTRADICTIONS",
       "review_id": "LRH-012",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Possible contradiction clusters"
     },
     {
+      "accepted_disposition": "PRESERVE_AS_RESEARCH_GAPS_PENDING_TIMELINE_EVIDENCE_REVIEW",
       "allowed_dispositions": [
         "PRESERVE_AS_RESEARCH_GAPS_PENDING_TIMELINE_EVIDENCE_REVIEW",
         "ADD_TO_LORE_TIMELINE_INDEX",
         "DISMISS_AS_NON_EVENT_REFERENCES"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Decide whether seven unindexed years require timeline additions or should remain source-local references.",
       "evidence": [
         {
@@ -747,16 +788,20 @@
       "evidence_count": 7,
       "recommended_disposition": "PRESERVE_AS_RESEARCH_GAPS_PENDING_TIMELINE_EVIDENCE_REVIEW",
       "review_id": "LRH-013",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Orphaned timeline years"
     },
     {
+      "accepted_disposition": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS",
       "allowed_dispositions": [
         "PRESERVE_RAW_AND_REDACT_ONLY_IN_FUTURE_PUBLICATION_OUTPUTS",
         "PRESERVE_EVERYWHERE",
         "REDACT_NORMALIZED_DISPLAY_COPIES"
       ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
       "decision_needed": "Choose whether normalized display copies should redact two upstream absolute workstation paths while raw evidence remains immutable.",
+      "decision_note": "Absolute workstation paths remain only in immutable raw evidence and are redacted from normalized records and public-facing derivatives.",
       "evidence": [
         {
           "line": 144,
@@ -772,7 +817,7 @@
       "evidence_count": 2,
       "recommended_disposition": "PRESERVE_RAW_AND_REDACT_ONLY_IN_FUTURE_PUBLICATION_OUTPUTS",
       "review_id": "LRH-014",
-      "status": "OPEN",
+      "status": "ACCEPTED",
       "topic": "Embedded workstation paths"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galactic_atlas/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -83,14 +83,15 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion."
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "Absolute upstream workstation paths are preserved in immutable raw evidence and redacted from this normalized derivative by curator decision LRH-014."
   ],
   "lore_type": "REFERENCE",
   "manual_review_required": false,
   "media_references": [],
   "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-AEDDE1ED5CB4.json",
   "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-AEDDE1ED5CB4.md",
-  "normalized_sha256": "34beba56d6efc9add9cae8a339b8fc768e785ca4626218bbd23e5cf50354a3be",
+  "normalized_sha256": "3e0286b5b9dca5409759bfcd118dac001420759ef147bd8bc4da0cd1253163d2",
   "outbound_links": [],
   "preferred_name": "Star Atlas Galactic Atlas (Consolidated)",
   "primary_entity_id": "LRTX-REFERENCE-C42CC08666CF",
@@ -104,6 +105,11 @@
   "published_mirror_status": "TEXT_IDENTICAL",
   "raw_byte_length": 7377,
   "raw_sha256": "34beba56d6efc9add9cae8a339b8fc768e785ca4626218bbd23e5cf50354a3be",
+  "redactions": {
+    "count": 1,
+    "curator_decision_id": "LRH-014",
+    "policy": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS"
+  },
   "repository_entity_type": "DOCUMENT",
   "source_id": "SRC-LORE-REPO-AEDDE1ED5CB4",
   "source_scope": "CANON",
@@ -111,6 +117,7 @@
     "reference",
     "atlas"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/reference/atlas/galactic_atlas.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

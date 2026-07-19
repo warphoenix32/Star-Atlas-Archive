@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/factions/kamec_democracy/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -243,7 +243,7 @@
     }
   ],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion."
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
   ],
   "lore_type": "FACTION",
   "manual_review_required": false,
@@ -264,12 +264,18 @@
   "published_mirror_status": "TEXT_IDENTICAL",
   "raw_byte_length": 13369,
   "raw_sha256": "519a9ea4d176e307efc267e490ee98772fb8a276e96dcbd185412a0947694e3c",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "ORGANIZATION",
   "source_id": "SRC-LORE-REPO-D5911F01BF30",
   "source_scope": "CANON",
   "taxonomy_path": [
     "factions"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/factions/kamec_democracy.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

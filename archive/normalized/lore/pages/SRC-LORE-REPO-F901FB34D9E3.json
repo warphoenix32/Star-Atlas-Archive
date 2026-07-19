@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/communion/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -191,7 +191,7 @@
     }
   ],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
     "The published docs mirror differs from the canon authoring page and requires source-level reconciliation.",
     "One or more upstream relative references do not resolve inside the pinned repository snapshot."
   ],
@@ -214,6 +214,11 @@
   "published_mirror_status": "TEXT_DIVERGENT",
   "raw_byte_length": 4513,
   "raw_sha256": "5d7aeeeb5ad27d1d9340d60a84bba5411ed542651791c10d56f6d60c82857ee4",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "LOCATION",
   "source_id": "SRC-LORE-REPO-F901FB34D9E3",
   "source_scope": "CANON",
@@ -221,6 +226,7 @@
     "geography",
     "sectors"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/geography/sectors/communion.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

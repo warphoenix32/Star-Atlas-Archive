@@ -1,6 +1,6 @@
 {
   "aliases": [],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/factions/xianyang_enforcers/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -369,7 +369,7 @@
     }
   ],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
     "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
   ],
   "lore_type": "FACTION",
@@ -391,12 +391,18 @@
   "published_mirror_status": "TEXT_DIVERGENT",
   "raw_byte_length": 17776,
   "raw_sha256": "baf550fd75f03a1f4bd582490bf8d97c71ed7aa92c126e3d459dcdbe54eb3c01",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "ORGANIZATION",
   "source_id": "SRC-LORE-REPO-38445BC96A65",
   "source_scope": "CANON",
   "taxonomy_path": [
     "factions"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/factions/xianyang_enforcers.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

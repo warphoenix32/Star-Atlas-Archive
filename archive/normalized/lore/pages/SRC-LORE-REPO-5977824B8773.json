@@ -2,7 +2,7 @@
   "aliases": [
     "MRZ-31"
   ],
-  "authority_scope": "OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
   "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/glowhaven/",
   "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
   "extraction_confidence": "HIGH",
@@ -95,7 +95,7 @@
   ],
   "internal_links": [],
   "limitations": [
-    "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
     "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
   ],
   "lore_type": "SECTOR",
@@ -117,6 +117,11 @@
   "published_mirror_status": "TEXT_DIVERGENT",
   "raw_byte_length": 5890,
   "raw_sha256": "56476c4774b65b47ac8f4e185da8f67625f7658bb8b896c8a05a23c4ab1e512e",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
   "repository_entity_type": "LOCATION",
   "source_id": "SRC-LORE-REPO-5977824B8773",
   "source_scope": "CANON",
@@ -124,6 +129,7 @@
     "geography",
     "sectors"
   ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
   "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
   "upstream_path": "canon/geography/sectors/glowhaven.md",
   "upstream_repository": "JoseEduardonoot/star-atlas-lore"

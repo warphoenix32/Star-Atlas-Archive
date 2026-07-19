@@ -5,7 +5,7 @@ lore_type: TAXONOMY
 repository_entity_type: DOCUMENT
 upstream_commit: 22555f277eb1496e34c0839c8f1f382842bd1d2b
 upstream_path: canon/species/species_encyclopedia.md
-authority_scope: OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE
+authority_scope: ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE
 ---
 
 # Star Atlas Species Encyclopedia (Consolidated)
@@ -130,6 +130,6 @@ The text below is a line-ending-normalized derivative of the preserved upstream 
 
 ## Source Files
 
-All data sourced from: `C:\Users\jose_\.openclaw\workspace\star-atlas-lore\canon\species\`
+All data sourced from: `[REDACTED_UPSTREAM_WORKSTATION_PATH]`
 
 - `human.md` · `mierese.md` · `sogmian.md` · `punaab.md` · `photoli.md` · `ustur.md` · `tufa.md`

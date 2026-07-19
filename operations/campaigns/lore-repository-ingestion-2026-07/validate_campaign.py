@@ -17,6 +17,8 @@ from build_campaign import (
     CAMPAIGN_REL,
     EXPECTED_ZIP_BYTES,
     EXPECTED_ZIP_SHA256,
+    CURATOR_DECISIONS,
+    HISTORICAL_CANON_SOURCE_PATH,
     NORMALIZED_REL,
     PACKAGE_REL,
     RAW_ZIP_REL,
@@ -44,7 +46,7 @@ EXPECTED_COUNTS = {
     "unresolved_internal_links": 252,
     "unresolved_navigation_targets": 0,
     "migration_mappings": 9,
-    "migration_mappings_requiring_review": 5,
+    "migration_mappings_requiring_review": 0,
 }
 
 
@@ -88,14 +90,18 @@ def validate() -> dict[str, Any]:
     with zipfile.ZipFile(raw_zip) as archive:
         names = [name for name in archive.namelist() if not name.endswith("/")]
         utf8_failures = []
+        raw_workstation_path_count = 0
         for name in names:
             if name.endswith((".md", ".json", ".jsonl", ".csv", ".py", ".yml", ".yaml", ".html", ".css", ".ps1", ".gitignore")):
                 try:
-                    archive.read(name).decode("utf-8-sig")
+                    source_text = archive.read(name).decode("utf-8-sig")
+                    if name.endswith(("canon/species/species_encyclopedia.md", "canon/reference/atlas/galactic_atlas.md")):
+                        raw_workstation_path_count += source_text.count("\\Users\\")
                 except UnicodeDecodeError as exc:
                     utf8_failures.append({"path": name, "error": str(exc)})
     checks.append(check("source_snapshot_file_count", len(names) == EXPECTED_COUNTS["repository_files_preserved"], len(names)))
     checks.append(check("source_text_utf8", not utf8_failures, utf8_failures))
+    checks.append(check("raw_workstation_paths_preserved", raw_workstation_path_count == 2, raw_workstation_path_count))
 
     expected = build()
     missing = []
@@ -177,7 +183,7 @@ def validate() -> dict[str, Any]:
     checks.append(check(
         "authority_boundary_explicit",
         taxonomy["authority"]["scope"] == "IN_UNIVERSE_LORE_ONLY"
-        and "ATMTA authorship or official publication status" in taxonomy["authority"]["does_not_establish"],
+        and "page-level authorship for every source file" in taxonomy["authority"]["does_not_establish"],
         taxonomy["authority"],
     ))
 
@@ -209,7 +215,15 @@ def validate() -> dict[str, Any]:
 
     migration = json.loads((CAMPAIGN_DIR / "taxonomy-migration-report.json").read_text(encoding="utf-8"))
     mappings = migration["migration_mappings"]
-    checks.append(check("existing_lore_ids_all_mapped_or_deferred", len(mappings) == 9 and len({item["existing_id"] for item in mappings}) == 9 and all(item["status"] in {"MAPPED_ONE_TO_ONE", "AMBIGUOUS_MULTIPLE_TARGETS", "UNRESOLVED_NO_DIRECT_PAGE"} for item in mappings), len(mappings)))
+    allowed_mapping_statuses = {
+        "MAPPED_ONE_TO_ONE",
+        "MAPPED_TO_REGION_WITH_REFERENCE_DOCUMENT_RETAINED",
+        "MAPPED_TO_INSTITUTION_WITH_DISTINCT_RELATED_FACTION",
+        "MAPPED_TO_FACTION_WITH_DISTINCT_RELATED_SPECIES",
+        "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED",
+    }
+    checks.append(check("existing_lore_ids_all_mapped_or_deferred", len(mappings) == 9 and len({item["existing_id"] for item in mappings}) == 9 and all(item["status"] in allowed_mapping_statuses for item in mappings), len(mappings)))
+    checks.append(check("curator_adjudicated_mappings_resolved", all(not item["manual_review_required"] for item in mappings), {item["existing_id"]: item["status"] for item in mappings}))
     checks.append(check("historical_rewrites_prohibited", migration["automatic_historical_rewrites"] == 0 and all(not item["automatic_rewrite_allowed"] for item in mappings), 0))
 
     provenance = json.loads((ROOT / "archive/provenance/lore-repository/upstream-snapshot.json").read_text(encoding="utf-8"))
@@ -221,14 +235,50 @@ def validate() -> dict[str, Any]:
         and provenance["custody"]["commit"] == UPSTREAM_COMMIT,
         provenance["custody"],
     ))
-    checks.append(check("official_affiliation_not_inferred", provenance["identity_observations"]["atmta_affiliation_independently_verified"] is False, provenance["identity_observations"]))
+    checks.append(check(
+        "atmta_affiliation_operator_confirmed_not_inferred_from_capture",
+        provenance["identity_observations"]["atmta_affiliation_independently_verified"] is False
+        and provenance["identity_observations"]["atmta_affiliation_operator_confirmed"] is True
+        and provenance["identity_observations"]["repository_treatment"] == "ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY",
+        provenance["identity_observations"],
+    ))
 
     human_review = json.loads((CAMPAIGN_DIR / "human-review-items.json").read_text(encoding="utf-8"))
     review_ids = [item["review_id"] for item in human_review["decision_items"]]
+    accepted = {item["review_id"]: item.get("accepted_disposition") for item in human_review["decision_items"]}
+    expected_accepted = {review_id: decision["accepted_disposition"] for review_id, decision in CURATOR_DECISIONS.items()}
     checks.append(check(
-        "human_review_register_complete",
-        len(review_ids) == 14 and len(review_ids) == len(set(review_ids)) and all(item["status"] == "OPEN" for item in human_review["decision_items"]),
-        {"items": len(review_ids), "unique": len(set(review_ids))},
+        "human_review_register_curator_adjudicated",
+        len(review_ids) == 14
+        and len(review_ids) == len(set(review_ids))
+        and all(item["status"] == "ACCEPTED" and item["decided_by"] == "REPOSITORY_OPERATOR" for item in human_review["decision_items"])
+        and accepted == expected_accepted,
+        {"items": len(review_ids), "accepted": sum(item["status"] == "ACCEPTED" for item in human_review["decision_items"])},
+    ))
+
+    historical_pages = [item for item in pages if item["upstream_path"] == HISTORICAL_CANON_SOURCE_PATH]
+    historical_entities = [item for item in entities if item["source_paths"] == [HISTORICAL_CANON_SOURCE_PATH] and item["extraction_basis"] == ["PAGE_SUBJECT"]]
+    checks.append(check(
+        "oni_css_historical_snapshot_not_current_taxonomy",
+        len(historical_pages) == 1
+        and historical_pages[0]["source_scope"] == "HISTORICAL_CANONICAL_SOURCE_SNAPSHOT"
+        and historical_pages[0]["authority_scope"] == "HISTORICAL_LORE_EVIDENCE_NOT_CURRENT_TAXONOMY"
+        and historical_pages[0]["taxonomy_status"] == "HISTORICAL_SNAPSHOT_EXCLUDED_FROM_CURRENT_CANONICAL_TAXONOMY"
+        and len(historical_entities) == 1
+        and historical_entities[0]["authority_scope"] == "HISTORICAL_LORE_EVIDENCE_NOT_CURRENT_TAXONOMY",
+        {"pages": len(historical_pages), "entities": len(historical_entities)},
+    ))
+
+    normalized_workstation_path_failures = []
+    redaction_count = sum(item["redactions"]["count"] for item in pages)
+    for base in (ROOT / NORMALIZED_REL, ROOT / SOURCE_RECORDS_REL, ROOT / PACKAGE_REL):
+        for path in sorted(base.rglob("*")):
+            if path.is_file() and path.suffix.lower() in {".json", ".jsonl", ".md"} and "\\Users\\" in path.read_text(encoding="utf-8"):
+                normalized_workstation_path_failures.append(path.relative_to(ROOT).as_posix())
+    checks.append(check(
+        "workstation_paths_redacted_from_normalized_and_public_derivatives",
+        redaction_count == 2 and not normalized_workstation_path_failures,
+        {"redactions": redaction_count, "failures": normalized_workstation_path_failures},
     ))
 
     forbidden_license_tokens = ("LICENSE_REVIEW_REQUIRED", "LRC-002-LICENSE", "NO_LICENSE_DECLARED_AT_CAPTURE")

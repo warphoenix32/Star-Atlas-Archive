@@ -26,11 +26,16 @@
   "quality": {
     "extraction_confidence": "HIGH",
     "limitations": [
-      "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+      "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
       "The published docs mirror differs from the canon authoring page and requires source-level reconciliation.",
       "One or more upstream relative references do not resolve inside the pinned repository snapshot."
     ],
-    "manual_review_required": true
+    "manual_review_required": true,
+    "redactions": {
+      "count": 0,
+      "curator_decision_id": null,
+      "policy": "NONE"
+    }
   },
   "source_id": "SRC-LORE-REPO-0D9B643E0BC7",
   "source_lineage": {
@@ -42,7 +47,7 @@
       "https://github.com/JoseEduardonoot/star-atlas-lore/blob/22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/perpetual_belt.md"
     ],
     "publication": "JoseEduardonoot/star-atlas-lore",
-    "publication_role": "OPERATOR_DESIGNATED_LORE_TAXONOMY_SOURCE",
+    "publication_role": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_SOURCE",
     "relationship": "PRESERVED_FROM_COMMIT"
   },
   "source_type": "lore_repository",
@@ -50,10 +55,12 @@
     "aliases": [
       "MRZ-20"
     ],
+    "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
     "lore_type": "SECTOR",
     "preferred_name": "Perpetual Belt (MRZ-20)",
     "primary_entity_id": "LRTX-SECTOR-32E97DD5E613",
-    "repository_entity_type": "LOCATION"
+    "repository_entity_type": "LOCATION",
+    "taxonomy_status": "CURRENT_SOURCE_TAXONOMY"
   },
   "title": "Perpetual Belt (MRZ-20)",
   "updated_at_normalized": null,

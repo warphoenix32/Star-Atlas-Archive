@@ -3,11 +3,30 @@
   "mappings": [
     {
       "automatic_rewrite_allowed": false,
+      "canonical_targets": [
+        {
+          "entity_id": "LRTX-REGION-25C0812952A6",
+          "lore_type": "REGION",
+          "path": "canon/geography/galactic_regions.md",
+          "preferred_name": "Galactic Regions & Geopolitics",
+          "source_id": "SRC-LORE-REPO-9D8DF1900466"
+        }
+      ],
+      "curator_decision_id": "LRH-002",
       "existing_id": "LORE-GALIA",
       "legacy_name": "Galia Expanse",
       "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
-      "manual_review_required": true,
-      "status": "AMBIGUOUS_MULTIPLE_TARGETS",
+      "manual_review_required": false,
+      "reference_targets": [
+        {
+          "entity_id": "LRTX-REFERENCE-544F1EFF86A7",
+          "lore_type": "REFERENCE",
+          "path": "canon/reference/atlas/galia_expanse_atlas.md",
+          "preferred_name": "Galia Expanse Atlas",
+          "source_id": "SRC-LORE-REPO-CBF7E61496ED"
+        }
+      ],
+      "status": "MAPPED_TO_REGION_WITH_REFERENCE_DOCUMENT_RETAINED",
       "targets": [
         {
           "entity_id": "LRTX-REFERENCE-544F1EFF86A7",
@@ -44,11 +63,30 @@
     },
     {
       "automatic_rewrite_allowed": false,
+      "canonical_targets": [
+        {
+          "entity_id": "LRTX-INSTITUTION-72D963DDDD55",
+          "lore_type": "INSTITUTION",
+          "path": "canon/institutions/council_of_peace.md",
+          "preferred_name": "Council of Peace (COP)",
+          "source_id": "SRC-LORE-REPO-04B17415732F"
+        }
+      ],
+      "curator_decision_id": "LRH-003",
       "existing_id": "LORE-COUNCIL-PEACE",
       "legacy_name": "Council of Peace",
       "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
-      "manual_review_required": true,
-      "status": "AMBIGUOUS_MULTIPLE_TARGETS",
+      "manual_review_required": false,
+      "related_targets": [
+        {
+          "entity_id": "LRTX-FACTION-599D13D1E61E",
+          "lore_type": "FACTION",
+          "path": "canon/factions/council_of_peace.md",
+          "preferred_name": "The Council of Peace",
+          "source_id": "SRC-LORE-REPO-D530A59F4FDE"
+        }
+      ],
+      "status": "MAPPED_TO_INSTITUTION_WITH_DISTINCT_RELATED_FACTION",
       "targets": [
         {
           "entity_id": "LRTX-INSTITUTION-72D963DDDD55",
@@ -102,11 +140,30 @@
     },
     {
       "automatic_rewrite_allowed": false,
+      "canonical_targets": [
+        {
+          "entity_id": "LRTX-FACTION-85F6ECAAB95A",
+          "lore_type": "FACTION",
+          "path": "canon/factions/ustur.md",
+          "preferred_name": "Ustur",
+          "source_id": "SRC-LORE-REPO-CA3BAB35CB94"
+        }
+      ],
+      "curator_decision_id": "LRH-004",
       "existing_id": "LORE-FACTION-USTUR",
       "legacy_name": "Ustur Sector",
       "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
-      "manual_review_required": true,
-      "status": "AMBIGUOUS_MULTIPLE_TARGETS",
+      "manual_review_required": false,
+      "related_targets": [
+        {
+          "entity_id": "LRTX-SPECIES-85F6ECAAB95A",
+          "lore_type": "SPECIES",
+          "path": "canon/species/ustur.md",
+          "preferred_name": "Ustur",
+          "source_id": "SRC-LORE-REPO-F12726C017DC"
+        }
+      ],
+      "status": "MAPPED_TO_FACTION_WITH_DISTINCT_RELATED_SPECIES",
       "targets": [
         {
           "entity_id": "LRTX-FACTION-85F6ECAAB95A",
@@ -143,20 +200,22 @@
     },
     {
       "automatic_rewrite_allowed": false,
+      "curator_decision_id": "LRH-005",
       "existing_id": "LORE-NARRATIVE-CORE",
       "legacy_name": "Star Atlas: CORE",
       "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
-      "manual_review_required": true,
-      "status": "UNRESOLVED_NO_DIRECT_PAGE",
+      "manual_review_required": false,
+      "status": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED",
       "targets": []
     },
     {
       "automatic_rewrite_allowed": false,
+      "curator_decision_id": "LRH-006",
       "existing_id": "LORE-VOICE-OF-IRIS",
       "legacy_name": "The Voice of Iris",
       "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
-      "manual_review_required": true,
-      "status": "UNRESOLVED_NO_DIRECT_PAGE",
+      "manual_review_required": false,
+      "status": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED",
       "targets": []
     }
   ]

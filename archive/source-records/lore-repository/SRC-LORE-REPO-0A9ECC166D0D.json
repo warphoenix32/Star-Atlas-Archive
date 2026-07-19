@@ -26,10 +26,15 @@
   "quality": {
     "extraction_confidence": "HIGH",
     "limitations": [
-      "Authority is limited to operator-designated lore taxonomy and preferred nomenclature; narrative claims are not independently verified by ingestion.",
+      "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
       "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
     ],
-    "manual_review_required": true
+    "manual_review_required": true,
+    "redactions": {
+      "count": 0,
+      "curator_decision_id": null,
+      "policy": "NONE"
+    }
   },
   "source_id": "SRC-LORE-REPO-0A9ECC166D0D",
   "source_lineage": {
@@ -41,16 +46,18 @@
       "https://github.com/JoseEduardonoot/star-atlas-lore/blob/22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/factions/thornveil_grove.md"
     ],
     "publication": "JoseEduardonoot/star-atlas-lore",
-    "publication_role": "OPERATOR_DESIGNATED_LORE_TAXONOMY_SOURCE",
+    "publication_role": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_SOURCE",
     "relationship": "PRESERVED_FROM_COMMIT"
   },
   "source_type": "lore_repository",
   "taxonomy": {
     "aliases": [],
+    "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
     "lore_type": "FACTION",
     "preferred_name": "Thornveil Grove",
     "primary_entity_id": "LRTX-FACTION-2B737BD61B2D",
-    "repository_entity_type": "ORGANIZATION"
+    "repository_entity_type": "ORGANIZATION",
+    "taxonomy_status": "CURRENT_SOURCE_TAXONOMY"
   },
   "title": "Thornveil Grove",
   "updated_at_normalized": null,

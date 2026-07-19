@@ -5,7 +5,7 @@ lore_type: REFERENCE
 repository_entity_type: DOCUMENT
 upstream_commit: 22555f277eb1496e34c0839c8f1f382842bd1d2b
 upstream_path: canon/reference/resources/resource_analysis.md
-authority_scope: OPERATOR_DESIGNATED_LORE_TAXONOMY_AND_NOMENCLATURE
+authority_scope: ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE
 ---
 
 # Star Atlas Resource Analysis
