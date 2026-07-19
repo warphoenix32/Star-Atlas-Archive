@@ -1,0 +1,14 @@
+{
+  "name": "star-atlas-library-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "index": "node scripts/build-search-index.mjs",
+    "check:syntax": "node --check app.js && node --check scripts/build-search-index.mjs && node --check scripts/validate-site.mjs && node --check scripts/serve.mjs",
+    "check:index": "node scripts/build-search-index.mjs --check",
+    "validate": "node scripts/validate-site.mjs",
+    "check": "npm run check:syntax && npm run check:index && npm run validate",
+    "dev": "node scripts/serve.mjs"
+  }
+}
