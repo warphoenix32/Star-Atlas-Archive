@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "index": "node scripts/build-search-index.mjs",
-    "check:syntax": "node --check app.js && node --check scripts/build-search-index.mjs && node --check scripts/validate-site.mjs && node --check scripts/serve.mjs",
+    "build": "node scripts/build-pages.mjs",
+    "check:syntax": "node --check app.js && node --check article.js && node --check scripts/build-search-index.mjs && node --check scripts/build-pages.mjs && node --check scripts/validate-site.mjs && node --check scripts/serve.mjs",
     "check:index": "node scripts/build-search-index.mjs --check",
     "validate": "node scripts/validate-site.mjs",
-    "check": "npm run check:syntax && npm run check:index && npm run validate",
+    "check": "npm run check:syntax && npm run check:index && npm run validate && npm run build",
     "dev": "node scripts/serve.mjs"
   }
 }

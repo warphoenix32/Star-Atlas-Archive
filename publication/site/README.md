@@ -7,7 +7,7 @@ This folder contains the first visual front end for the Star Atlas Library. It i
 - The landing page is a cinematic threshold, not a dashboard.
 - Search and the library dialog reveal repository knowledge only after a visitor chooses to explore.
 - Repository knowledge remains source-linked; the front end does not silently rewrite or promote claims.
-- The generated search index reads `knowledge/**/*.md` and links each result to its canonical GitHub path.
+- The generated search index reads `knowledge/**/*.md`; every result opens in an internal Library reader while retaining a direct link to its canonical GitHub source path.
 - The background image is a presentation asset. All text, controls, focus states, and responsive behavior are real HTML/CSS/JavaScript.
 
 ## Local development
@@ -23,6 +23,14 @@ npm run dev
 Then open `http://127.0.0.1:4173`.
 
 No dependency installation is required.
+
+## GitHub Pages
+
+The `Publish Star Atlas Library` workflow validates the interface, copies the reviewed `knowledge/` tree into the static deployment artifact, and publishes it through GitHub Pages whenever relevant files reach `main`. The deployed reader never changes canonical knowledge: it renders a synchronized, source-linked copy and exposes the preserved GitHub file for every record.
+
+The expected public address is:
+
+`https://warphoenix32.github.io/Star-Atlas-Archive/`
 
 ## Vercel migration
 

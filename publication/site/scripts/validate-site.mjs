@@ -8,8 +8,11 @@ const repo = path.resolve(site, "..", "..");
 
 const requiredFiles = [
   "index.html",
+  "article.html",
   "styles.css",
+  "article.css",
   "app.js",
+  "article.js",
   "assets/library-portal.webp",
   "assets/library-index.json",
   "README.md",
@@ -24,6 +27,8 @@ for (const relative of requiredFiles) {
 const html = await fs.readFile(path.join(site, "index.html"), "utf8");
 const css = await fs.readFile(path.join(site, "styles.css"), "utf8");
 const script = await fs.readFile(path.join(site, "app.js"), "utf8");
+const articleHtml = await fs.readFile(path.join(site, "article.html"), "utf8");
+const articleScript = await fs.readFile(path.join(site, "article.js"), "utf8");
 const index = JSON.parse(await fs.readFile(path.join(site, "assets", "library-index.json"), "utf8"));
 
 const requiredCopy = [
@@ -51,6 +56,9 @@ if (!css.includes("prefers-reduced-motion") || !css.includes(":focus-visible")) 
 if (!script.includes("showModal()") || !script.includes("loadIndex()")) {
   failures.push("library entrance or search index behavior is missing");
 }
+if (!articleHtml.includes("Canonical repository knowledge") || !articleScript.includes("openRecord()") || !articleScript.includes("renderMarkdown")) {
+  failures.push("internal knowledge reader is incomplete");
+}
 
 const knowledgeFiles = [];
 async function visit(directory) {
@@ -69,8 +77,12 @@ const ids = new Set();
 for (const record of index) {
   if (ids.has(record.id)) failures.push(`duplicate search record id: ${record.id}`);
   ids.add(record.id);
-  if (!record.title || !record.summary || !record.category || !record.path || !record.url) {
+  if (!record.title || !record.summary || !record.category || !record.path || !record.url || !record.sourceUrl) {
     failures.push(`incomplete search record: ${record.id || "UNKNOWN"}`);
+  }
+  if (!record.url.startsWith("article.html?id=")) failures.push(`non-library result URL: ${record.id}`);
+  if (!record.sourceUrl.startsWith("https://github.com/warphoenix32/Star-Atlas-Archive/blob/main/knowledge/")) {
+    failures.push(`invalid canonical source URL: ${record.id}`);
   }
   const target = path.join(repo, ...record.path.split("/"));
   if (!(await fs.stat(target).catch(() => null))?.isFile()) failures.push(`orphan search record: ${record.path}`);
@@ -82,7 +94,7 @@ for (const reference of localReferences) {
   if (!(await fs.stat(path.join(site, clean)).catch(() => null))) failures.push(`broken local reference: ${reference}`);
 }
 
-for (const [name, content] of [["index.html", html], ["styles.css", css], ["app.js", script]]) {
+for (const [name, content] of [["index.html", html], ["article.html", articleHtml], ["styles.css", css], ["app.js", script], ["article.js", articleScript]]) {
   if (/C:\\Users\\|C:\/Users\//i.test(content)) failures.push(`personal path leaked into ${name}`);
 }
 

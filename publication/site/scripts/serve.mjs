@@ -4,14 +4,18 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const knowledge = path.resolve(root, "..", "..", "knowledge");
 const port = Number(process.env.PORT || 4173);
-const types = { ".html": "text/html", ".css": "text/css", ".js": "text/javascript", ".json": "application/json", ".webp": "image/webp" };
+const types = { ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".json": "application/json; charset=utf-8", ".md": "text/markdown; charset=utf-8", ".webp": "image/webp" };
 
 createServer(async (request, response) => {
   const requested = decodeURIComponent(new URL(request.url, `http://${request.headers.host}`).pathname);
   const relative = requested === "/" ? "index.html" : requested.replace(/^\/+/, "");
-  const target = path.resolve(root, relative);
-  if (target !== root && !target.startsWith(`${root}${path.sep}`)) {
+  const contentRequest = relative.startsWith("content/");
+  const base = contentRequest ? knowledge : root;
+  const localPath = contentRequest ? relative.slice("content/".length) : relative;
+  const target = path.resolve(base, localPath);
+  if (target !== base && !target.startsWith(`${base}${path.sep}`)) {
     response.writeHead(403).end("Forbidden");
     return;
   }

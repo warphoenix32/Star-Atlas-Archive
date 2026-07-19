@@ -83,14 +83,14 @@ function renderResults() {
     const item = document.createElement("li");
     item.className = "result-card";
     item.innerHTML = `
-      <a href="${record.url}" target="_blank" rel="noopener noreferrer">
+      <a href="${record.url}">
         <div>
           <h4>${escapeHtml(record.title)}</h4>
           <p>${escapeHtml(record.summary)}</p>
         </div>
         <div class="result-card__meta">
           <span>${escapeHtml(record.categoryLabel)}</span>
-          <span class="result-card__arrow" aria-hidden="true">↗</span>
+          <span class="result-card__arrow" aria-hidden="true">→</span>
         </div>
       </a>`;
     resultsList.append(item);

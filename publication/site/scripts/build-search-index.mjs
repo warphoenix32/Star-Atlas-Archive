@@ -95,7 +95,8 @@ for (const file of files) {
     categoryLabel: categoryLabels[category] || category.replaceAll("-", " "),
     keywords: extractKeywords(text, title),
     path: relativePath,
-    url: `${githubBase}${relativePath.split("/").map(encodeURIComponent).join("/")}`,
+    url: `article.html?id=${encodeURIComponent(relativePath.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""))}`,
+    sourceUrl: `${githubBase}${relativePath.split("/").map(encodeURIComponent).join("/")}`,
     featured: featuredTitles.has(title),
   });
 }
