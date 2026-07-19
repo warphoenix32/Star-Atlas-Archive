@@ -4,6 +4,8 @@
 
 Campaign CI never runs live discovery or retrieval. Medium validation operates only on the frozen manifest and preserved artifacts.
 
+Discord community indexing validation operates only on preserved raw and normalized evidence. It checks the generated fixed point, Source-ID reconciliation, controlled evidence and organization taxonomies, record uniqueness, review-queue integrity, and campaign path boundaries; it does not collect Discord or rewrite archive evidence.
+
 Run locally from the repository root:
 
 ```text

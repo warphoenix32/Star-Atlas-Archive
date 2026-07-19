@@ -1,0 +1,27 @@
+{
+  "campaign_id": "discord-community-indexing-001",
+  "duplicate_review_candidates": [],
+  "identity_merge_policy": "No identities are merged from name or fuzzy similarity alone.",
+  "schema_version": "2.0.0",
+  "source_limitations": [
+    {
+      "counts": {
+        "author_id": 1071,
+        "channel_id": 1071,
+        "message_id": 1071
+      },
+      "handling": "Fields remain null. Stable archive source_id values are not relabeled as Discord message IDs.",
+      "type": "missing_discord_identifiers"
+    }
+  ],
+  "unresolved_conflicts": [
+    {
+      "attribution_class": "unresolved_similarity",
+      "merge_performed": false,
+      "observed_handle": "Michael",
+      "seeded_name": "Michael Wagner",
+      "similarity": 0.7,
+      "type": "unresolved_similarity"
+    }
+  ]
+}

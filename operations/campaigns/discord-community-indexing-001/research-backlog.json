@@ -1,0 +1,35 @@
+{
+  "campaign_id": "discord-community-indexing-001",
+  "items": [
+    {
+      "next_evidence": "Acquire a privacy-reviewed export retaining public Discord identifiers.",
+      "priority": "high",
+      "reason": "Current exports omit message IDs, channel IDs, and author IDs.",
+      "topic": "Discord native identifiers"
+    },
+    {
+      "entities": [
+        "The Vanguard",
+        "Agent Solace",
+        "Virtuwaal"
+      ],
+      "next_evidence": "Locate self-identification or repeated independent community attribution.",
+      "priority": "medium",
+      "reason": "No exact primary-source match exists in the current corpus.",
+      "topic": "Unresolved seeded identities"
+    },
+    {
+      "next_evidence": "Index guild channels and dated public guild announcements.",
+      "priority": "medium",
+      "reason": "Only 0 explicit rename, merge, split, or successor statements were found.",
+      "topic": "Guild succession and structural events"
+    },
+    {
+      "next_evidence": "Require direct self-identification or a second independently authored message before promotion.",
+      "priority": "medium",
+      "reason": "A single official announcement is still one independent reference.",
+      "topic": "Leadership corroboration"
+    }
+  ],
+  "schema_version": "2.0.0"
+}

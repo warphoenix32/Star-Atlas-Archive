@@ -164,6 +164,11 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def sha256_text(path: Path) -> str:
+    """Hash repository-managed text with canonical UTF-8/LF line endings."""
+    return hashlib.sha256(path.read_text(encoding="utf-8").encode("utf-8")).hexdigest()
+
+
 def dump_json(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2) + "\n"
 
@@ -354,7 +359,7 @@ def build() -> dict[str, str]:
     }
     manifest_files = [
         {"path": RAW_REL.as_posix(), "role": "raw_source", "sha256": sha256(RAW_PATH), "records": len(rows)},
-        {"path": PROVENANCE_REL.as_posix(), "role": "provenance", "sha256": sha256(ROOT / PROVENANCE_REL), "records": 1},
+        {"path": PROVENANCE_REL.as_posix(), "role": "provenance", "sha256": sha256_text(ROOT / PROVENANCE_REL), "records": 1},
     ]
     for name, content in campaign_rendered.items():
         manifest_files.append({

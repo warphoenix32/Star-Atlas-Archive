@@ -34,6 +34,11 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def sha256_text(path: Path) -> str:
+    """Hash repository-managed text with canonical UTF-8/LF line endings."""
+    return hashlib.sha256(path.read_text(encoding="utf-8").encode("utf-8")).hexdigest()
+
+
 def load_jsonl(path: Path) -> list[dict[str, Any]]:
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
 
@@ -199,7 +204,8 @@ def validate() -> dict[str, Any]:
     manifest_failures = []
     for item in manifest["files"]:
         path = ROOT / item["path"]
-        if not path.is_file() or sha256(path) != item["sha256"]:
+        observed_sha256 = sha256_text(path) if item["path"] == PROVENANCE_REL.as_posix() else sha256(path)
+        if not path.is_file() or observed_sha256 != item["sha256"]:
             manifest_failures.append(item["path"])
     checks.append(check("manifest_checksums_resolve", not manifest_failures, manifest_failures))
 

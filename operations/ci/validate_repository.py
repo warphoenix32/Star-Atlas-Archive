@@ -169,8 +169,9 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/campaigns/starbased-ship-states-ingestion-2026-07/",
         "operations/tests/starbased_ship_states/",
     )) for path in changes)
+    discord_campaign = any(path.startswith(("operations/campaigns/discord-community-indexing-001/", "operations/tests/discord_community_indexing/")) for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign))
+    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, discord_campaign))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if ledger_campaign:
@@ -204,6 +205,12 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/tests/starbased_ship_states/",
         )
         label = "starbased-ship-states-ingestion-2026-07"
+    elif discord_campaign:
+        allowed = common + (
+            "operations/campaigns/discord-community-indexing-001/",
+            "operations/tests/discord_community_indexing/",
+        )
+        label = "discord-community-indexing-001"
     forbidden = [path for path in changes if not path.startswith(allowed)]
     if forbidden:
         raise ValidationFailure(f"{label} forbidden-path changes:\n" + "\n".join(forbidden))
@@ -259,6 +266,23 @@ def validate_medium_campaign() -> None:
     diff = run("git", "diff", "--exit-code", "--", str(campaign.relative_to(ROOT)), "archive/manifests", "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07")
     if diff.returncode:
         raise ValidationFailure("Medium campaign validation artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
+def validate_discord_campaign(base_ref: str) -> None:
+    campaign = ROOT / "operations/campaigns/discord-community-indexing-001"
+    command = [sys.executable, str(campaign / "validate_campaign.py"), "--base-ref", base_ref]
+    exclusions = {"build_index.py", "validate_campaign.py", "README.md"}
+    first = run_cycle(command, campaign, exclusions)
+    second = run_cycle(command, campaign, exclusions)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("Discord campaign output is not deterministic: " + ", ".join(differing))
+    diff = run(
+        "git", "diff", "--exit-code", "--",
+        str(campaign.relative_to(ROOT)), "operations/tests/discord_community_indexing",
+    )
+    if diff.returncode:
+        raise ValidationFailure("Discord campaign generated artifacts do not reconcile with committed files:\n" + diff.stdout)
 
 
 def validate_pip_ledger_campaign() -> None:
@@ -322,6 +346,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_knowledge_campaign()
     elif contract == "star-atlas-medium-ingestion-2026-07":
         validate_medium_campaign()
+    elif contract == "discord-community-indexing-001":
+        validate_discord_campaign(base_ref)
     elif contract == "canonical-pip-governance-ledger-2026-07":
         validate_pip_ledger_campaign()
     elif contract == "starbased-ship-states-ingestion-2026-07":

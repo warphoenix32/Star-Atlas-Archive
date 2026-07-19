@@ -1,0 +1,229 @@
+{
+  "campaign_id": "discord-community-indexing-001",
+  "checks": [
+    {
+      "details": [],
+      "name": "every_indexed_claim_resolves_to_source_message",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "controlled_evidence_taxonomy",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "operator_confirmation_separate_from_archive_evidence",
+      "passed": true
+    },
+    {
+      "details": {},
+      "name": "aliases_non_circular_and_conflict_aware",
+      "passed": true
+    },
+    {
+      "details": {},
+      "name": "user_ids_not_merged_without_evidence",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "archive_relationships_are_dated",
+      "passed": true
+    },
+    {
+      "details": {
+        "source_occurrences": 3213,
+        "unique_messages": 1071
+      },
+      "name": "duplicate_messages_collapsed_with_provenance",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "quoted_text_preserved",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "organization_types_controlled",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "community_meme_426_never_membership",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "non_guild_tags_never_guild_membership",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "ia_is_alliance_association",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "competition_prize_fragments_not_participants",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "review_oriented_promotion_statuses_only",
+      "passed": true
+    },
+    {
+      "details": [],
+      "name": "council_service_not_guild_leadership_evidence",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "coverage_dates_derive_from_messages",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "coverage_status_and_channel_category_taxonomies",
+      "passed": true
+    },
+    {
+      "details": null,
+      "name": "source_ids_reconcile_to_source_records",
+      "passed": true
+    },
+    {
+      "details": 22,
+      "name": "human_resolution_queue_present",
+      "passed": true
+    }
+  ],
+  "counts": {
+    "competition_records": 10,
+    "guilds": 7,
+    "identities": 60,
+    "organizations": 15,
+    "relationships": 107,
+    "sources": 1074,
+    "unique_messages": 1071
+  },
+  "external_validation": {
+    "forbidden_path_and_evidence_immutability": {
+      "details": {
+        "base_resolution_error": null,
+        "base_sha": "fd23f57cc5e7f300cf99fa285db5e8dea7756796",
+        "changed_paths": [
+          "operations/campaigns/discord-community-indexing-001/README.md",
+          "operations/campaigns/discord-community-indexing-001/alias-registry.json",
+          "operations/campaigns/discord-community-indexing-001/build_index.py",
+          "operations/campaigns/discord-community-indexing-001/competition-index.jsonl",
+          "operations/campaigns/discord-community-indexing-001/conflict-report.json",
+          "operations/campaigns/discord-community-indexing-001/curator-decisions.json",
+          "operations/campaigns/discord-community-indexing-001/discord-channel-coverage.json",
+          "operations/campaigns/discord-community-indexing-001/discord-channel-gap-report.json",
+          "operations/campaigns/discord-community-indexing-001/discord-collection-backlog.json",
+          "operations/campaigns/discord-community-indexing-001/guild-index.jsonl",
+          "operations/campaigns/discord-community-indexing-001/human-resolution-queue.json",
+          "operations/campaigns/discord-community-indexing-001/identity-index.jsonl",
+          "operations/campaigns/discord-community-indexing-001/organization-index.jsonl",
+          "operations/campaigns/discord-community-indexing-001/promotion-candidates.json",
+          "operations/campaigns/discord-community-indexing-001/relationship-index.jsonl",
+          "operations/campaigns/discord-community-indexing-001/research-backlog.json",
+          "operations/campaigns/discord-community-indexing-001/source-inventory.json",
+          "operations/campaigns/discord-community-indexing-001/tag-registry.json",
+          "operations/campaigns/discord-community-indexing-001/validate_campaign.py",
+          "operations/campaigns/discord-community-indexing-001/validation-report.json",
+          "operations/ci/README.md",
+          "operations/ci/validate_repository.py",
+          "operations/tests/discord_community_indexing/test_indexer.py"
+        ],
+        "forbidden_paths": [],
+        "git_error": null,
+        "protected_evidence_or_canonical_paths": []
+      },
+      "passed": true
+    },
+    "generated_artifacts_reconcile_before_regeneration": {
+      "details": {
+        "after": {
+          "alias-registry.json": "d339cd55f731d0fa8b8b448213b9e7436b4b86ad4a23f5d69adbbf668c24b42c",
+          "competition-index.jsonl": "b426a5c07125ba74e3691379ef69f60819087199ff90437546715ad9a1a68bb1",
+          "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
+          "curator-decisions.json": "a6870d8dcb4cb56c6660bf77efdbf7836b3a66286073dd031eeca86e1236bc5c",
+          "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
+          "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
+          "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
+          "guild-index.jsonl": "9401ccc73bf09e47e240bad25a5b6fe20393f91a601996bca967b1a49821f6d1",
+          "human-resolution-queue.json": "37e7b1f3eed2860c2879ebadbb7911b5df53f5deafac3135bab388d89c4d9d35",
+          "identity-index.jsonl": "126c880ad34c37a9886df4d254196ba4c47198840f6bfdc5a11c05ed5cbe97ee",
+          "organization-index.jsonl": "a455696aa9ac16f8a815e3911bf28c8cfc4f7571ce0104b904c600e6739282b4",
+          "promotion-candidates.json": "7b058b5b44211ba763df6f096a3fb1c164d9036c95771847a255b104bfc85bd3",
+          "relationship-index.jsonl": "9823511b6a9b0e0382fbba2c253761888fd680ff9506dcc63e00659c8ca7dc0f",
+          "research-backlog.json": "804b98f3c259b9d0fb0d5347a277d8fc0be1e29b08a12e54a9e607f628ec6a4d",
+          "source-inventory.json": "64e8bac5b8b299ed8bcaad3c24c0555dccd037a66a7693a1720cb8995ae780b5",
+          "tag-registry.json": "a098c0d7f80f56fe8b84d8e1e91926da28cabf3155a4eb1515402915115ab958"
+        },
+        "before": {
+          "alias-registry.json": "d339cd55f731d0fa8b8b448213b9e7436b4b86ad4a23f5d69adbbf668c24b42c",
+          "competition-index.jsonl": "b426a5c07125ba74e3691379ef69f60819087199ff90437546715ad9a1a68bb1",
+          "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
+          "curator-decisions.json": "a6870d8dcb4cb56c6660bf77efdbf7836b3a66286073dd031eeca86e1236bc5c",
+          "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
+          "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
+          "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
+          "guild-index.jsonl": "9401ccc73bf09e47e240bad25a5b6fe20393f91a601996bca967b1a49821f6d1",
+          "human-resolution-queue.json": "37e7b1f3eed2860c2879ebadbb7911b5df53f5deafac3135bab388d89c4d9d35",
+          "identity-index.jsonl": "126c880ad34c37a9886df4d254196ba4c47198840f6bfdc5a11c05ed5cbe97ee",
+          "organization-index.jsonl": "a455696aa9ac16f8a815e3911bf28c8cfc4f7571ce0104b904c600e6739282b4",
+          "promotion-candidates.json": "7b058b5b44211ba763df6f096a3fb1c164d9036c95771847a255b104bfc85bd3",
+          "relationship-index.jsonl": "9823511b6a9b0e0382fbba2c253761888fd680ff9506dcc63e00659c8ca7dc0f",
+          "research-backlog.json": "804b98f3c259b9d0fb0d5347a277d8fc0be1e29b08a12e54a9e607f628ec6a4d",
+          "source-inventory.json": "64e8bac5b8b299ed8bcaad3c24c0555dccd037a66a7693a1720cb8995ae780b5",
+          "tag-registry.json": "a098c0d7f80f56fe8b84d8e1e91926da28cabf3155a4eb1515402915115ab958"
+        }
+      },
+      "passed": true
+    },
+    "git_diff_check": {
+      "details": "",
+      "passed": true
+    },
+    "json_jsonl_and_campaign_contracts": {
+      "details": {
+        "errors": [],
+        "json_documents": 12,
+        "jsonl_records": 199
+      },
+      "passed": true
+    },
+    "regeneration_determinism": {
+      "details": {
+        "alias-registry.json": "d339cd55f731d0fa8b8b448213b9e7436b4b86ad4a23f5d69adbbf668c24b42c",
+        "competition-index.jsonl": "b426a5c07125ba74e3691379ef69f60819087199ff90437546715ad9a1a68bb1",
+        "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
+        "curator-decisions.json": "a6870d8dcb4cb56c6660bf77efdbf7836b3a66286073dd031eeca86e1236bc5c",
+        "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
+        "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
+        "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
+        "guild-index.jsonl": "9401ccc73bf09e47e240bad25a5b6fe20393f91a601996bca967b1a49821f6d1",
+        "human-resolution-queue.json": "37e7b1f3eed2860c2879ebadbb7911b5df53f5deafac3135bab388d89c4d9d35",
+        "identity-index.jsonl": "126c880ad34c37a9886df4d254196ba4c47198840f6bfdc5a11c05ed5cbe97ee",
+        "organization-index.jsonl": "a455696aa9ac16f8a815e3911bf28c8cfc4f7571ce0104b904c600e6739282b4",
+        "promotion-candidates.json": "7b058b5b44211ba763df6f096a3fb1c164d9036c95771847a255b104bfc85bd3",
+        "relationship-index.jsonl": "9823511b6a9b0e0382fbba2c253761888fd680ff9506dcc63e00659c8ca7dc0f",
+        "research-backlog.json": "804b98f3c259b9d0fb0d5347a277d8fc0be1e29b08a12e54a9e607f628ec6a4d",
+        "source-inventory.json": "64e8bac5b8b299ed8bcaad3c24c0555dccd037a66a7693a1720cb8995ae780b5",
+        "tag-registry.json": "a098c0d7f80f56fe8b84d8e1e91926da28cabf3155a4eb1515402915115ab958"
+      },
+      "passed": true
+    },
+    "repository_tests": {
+      "details": "..........................                                               [100%]\n26 passed in <elapsed>",
+      "passed": true
+    }
+  },
+  "schema_version": "2.0.0",
+  "status": "pass"
+}
