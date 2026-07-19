@@ -20,6 +20,8 @@ The campaign uses the immutable `main` commit `22555f277eb1496e34c0839c8f1f38284
 
 Text normalization is deliberately mechanical: UTF-8 BOM removal, LF line endings, trailing line-whitespace removal, and one final newline. The immutable commit archive retains the upstream bytes and remains the authority for exact historical wording and formatting.
 
+Campaign manifests hash tracked integration text in an explicit `UTF8_LF` mode so the same commit validates identically on Windows and Linux. Immutable raw captures and generated binary artifacts remain byte-hashed.
+
 ## Identifier policy
 
 - Page Source IDs are deterministic hashes of the upstream scope and repository-relative path.

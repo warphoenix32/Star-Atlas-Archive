@@ -2367,6 +2367,7 @@
     },
     {
       "byte_length": 39,
+      "hash_mode": "UTF8_LF",
       "path": "archive/raw/lore-repository/.gitattributes",
       "role": "raw_path_attributes",
       "sha256": "807c95f3df2078b03957e3d62457d307b909bc4d8898b3cbdc0bc86b602f62b2"
@@ -4700,16 +4701,18 @@
       "sha256": "e73054edfe0f186114ba1c779e5947f3e6735f14b830473c7e6e6e7f300ded5a"
     },
     {
-      "byte_length": 3562,
+      "byte_length": 3779,
+      "hash_mode": "UTF8_LF",
       "path": "operations/campaigns/lore-repository-ingestion-2026-07/README.md",
       "role": "campaign_documentation",
-      "sha256": "197502b9fb4d9b520e63f8e6dd74d07026507b4130d3f3d1e637f3200d6250b4"
+      "sha256": "eedc5f3e393b4c0e4032cad4070adfb5b00e9ae36ff2271bccc056ae6a378f67"
     },
     {
-      "byte_length": 66842,
+      "byte_length": 67207,
+      "hash_mode": "UTF8_LF",
       "path": "operations/campaigns/lore-repository-ingestion-2026-07/build_campaign.py",
       "role": "deterministic_generator",
-      "sha256": "7670bd1cbc760f08da3295a08715429020daeef3b31437345e2b8e199ea25ba1"
+      "sha256": "718333c25b42015516acd20088529fef27972d696dc6d647e127786226cb7230"
     },
     {
       "byte_length": 909,
@@ -4784,19 +4787,22 @@
       "sha256": "8702abf1edecb2e946b397bfed1e4b6c62699e6ee66cac165880eb342c43f4eb"
     },
     {
-      "byte_length": 17389,
+      "byte_length": 17611,
+      "hash_mode": "UTF8_LF",
       "path": "operations/campaigns/lore-repository-ingestion-2026-07/validate_campaign.py",
       "role": "campaign_validator",
-      "sha256": "9c414d5060f1714e36001a0857362d3760cebaa54a465345fa1a202eebdd3a12"
+      "sha256": "0101abb01d56b33123b508548bc5c1f1ef1ea4c4fe5d12feb66269a64204fca1"
     },
     {
-      "byte_length": 21549,
+      "byte_length": 21165,
+      "hash_mode": "UTF8_LF",
       "path": "operations/ci/validate_repository.py",
       "role": "repository_ci_integration",
-      "sha256": "1dd201680c25757a6028160f707e34dd05452dc4bbb15aea39d0df8af39a65e0"
+      "sha256": "4e0344102bd2342f7d6ab58dc8ff62b3fbb763543e838bc2e71abd2490a98467"
     },
     {
       "byte_length": 1189,
+      "hash_mode": "UTF8_LF",
       "path": "operations/tests/lore_repository/test_lore_repository_campaign.py",
       "role": "campaign_test",
       "sha256": "ef25f0001b28c65c3649296bf557cfbe6d10e56c292f4e6f7b112c9f8cf6cfe1"

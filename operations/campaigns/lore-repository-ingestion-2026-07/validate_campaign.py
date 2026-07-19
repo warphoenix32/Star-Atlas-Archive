@@ -25,6 +25,7 @@ from build_campaign import (
     SUPPORTED_REPOSITORY_TYPES,
     UPSTREAM_COMMIT,
     build,
+    repository_text_bytes,
 )
 
 
@@ -233,7 +234,11 @@ def validate() -> dict[str, Any]:
     manifest_failures = []
     for item in manifest["files"]:
         path = ROOT / item["path"]
-        if not path.is_file() or path.stat().st_size != item["byte_length"] or sha256(path) != item["sha256"]:
+        if not path.is_file():
+            manifest_failures.append(item["path"])
+            continue
+        data = repository_text_bytes(path) if item.get("hash_mode") == "UTF8_LF" else path.read_bytes()
+        if len(data) != item["byte_length"] or hashlib.sha256(data).hexdigest() != item["sha256"]:
             manifest_failures.append(item["path"])
     checks.append(check("campaign_and_archive_manifests_match", manifest == archive_manifest, len(manifest["files"])))
     checks.append(check("manifest_checksums_reconcile", not manifest_failures, manifest_failures))

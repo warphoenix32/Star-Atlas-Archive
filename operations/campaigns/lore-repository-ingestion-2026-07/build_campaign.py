@@ -114,6 +114,12 @@ def sha256_bytes(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def repository_text_bytes(path: Path) -> bytes:
+    """Return a stable UTF-8/LF representation for tracked text files."""
+    text = path.read_bytes().decode("utf-8-sig")
+    return text.replace("\r\n", "\n").replace("\r", "\n").encode("utf-8")
+
+
 def dump_json(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
 
@@ -1307,7 +1313,14 @@ The upstream identity label, missing license, stale deployment, divergent mirror
         (Path("operations/tests/lore_repository/test_lore_repository_campaign.py"), "campaign_test"),
         (Path("operations/ci/validate_repository.py"), "repository_ci_integration"),
     ]:
-        manifest_entries.append({"path": static_path.as_posix(), "role": role, "sha256": sha256_bytes((ROOT / static_path).read_bytes()), "byte_length": (ROOT / static_path).stat().st_size})
+        static_data = repository_text_bytes(ROOT / static_path)
+        manifest_entries.append({
+            "path": static_path.as_posix(),
+            "role": role,
+            "hash_mode": "UTF8_LF",
+            "sha256": sha256_bytes(static_data),
+            "byte_length": len(static_data),
+        })
     for path, data in sorted(rendered.items()):
         manifest_entries.append({"path": path, "role": "generated_artifact", "sha256": sha256_bytes(data), "byte_length": len(data)})
     manifest = {
