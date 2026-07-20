@@ -1,0 +1,116 @@
+{
+  "aliases": [
+    "MRZ-32"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/yuldun_waste/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Yuldun Waste (MRZ-32)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 16,
+      "text": "Environment"
+    },
+    {
+      "level": 3,
+      "line": 18,
+      "text": "Planetary Conditions"
+    },
+    {
+      "level": 3,
+      "line": 24,
+      "text": "The Ancient Station"
+    },
+    {
+      "level": 2,
+      "line": 37,
+      "text": "Economy & Culture"
+    },
+    {
+      "level": 3,
+      "line": 39,
+      "text": "Legitimate Economy"
+    },
+    {
+      "level": 3,
+      "line": 45,
+      "text": "Shadow Economy (BMAH-Coordinated)"
+    },
+    {
+      "level": 3,
+      "line": 52,
+      "text": "Illegal Salvage Yards"
+    },
+    {
+      "level": 3,
+      "line": 58,
+      "text": "The Price of Sanctuary"
+    },
+    {
+      "level": 3,
+      "line": 64,
+      "text": "Planet Etira — Former BMAH Capital"
+    },
+    {
+      "level": 2,
+      "line": 76,
+      "text": "Narrative Hooks"
+    },
+    {
+      "level": 2,
+      "line": 86,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-A15B533717E6.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-A15B533717E6.md",
+  "normalized_sha256": "f32f609d43f219c10dd7b39015eab58072884851ace0d861c16756053dec47ca",
+  "outbound_links": [],
+  "preferred_name": "Yuldun Waste (MRZ-32)",
+  "primary_entity_id": "LRTX-SECTOR-F89B139FFF63",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/yuldun_waste.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/yuldun_waste.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 4764,
+  "raw_sha256": "f32f609d43f219c10dd7b39015eab58072884851ace0d861c16756053dec47ca",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-A15B533717E6",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/yuldun_waste.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

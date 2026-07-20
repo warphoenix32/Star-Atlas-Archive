@@ -1,0 +1,65 @@
+{
+  "access": "public",
+  "artifact_chain": {
+    "normalized_json": "archive/normalized/lore/pages/SRC-LORE-REPO-E0A438C9F1AE.json",
+    "normalized_markdown": "archive/normalized/lore/pages/SRC-LORE-REPO-E0A438C9F1AE.md",
+    "source_record_json": "archive/source-records/lore-repository/SRC-LORE-REPO-E0A438C9F1AE.json",
+    "source_record_markdown": "archive/source-records/lore-repository/SRC-LORE-REPO-E0A438C9F1AE.md"
+  },
+  "authenticity": "repository_commit_verified",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/oni_css_lore_layer/",
+  "captured_at": "2026-07-19T15:26:28Z",
+  "creator": [
+    "JoseEduardonoot"
+  ],
+  "creator_scope": "REPOSITORY_ACCOUNT; PAGE_LEVEL_AUTHORSHIP_UNKNOWN",
+  "document_type": "HISTORICAL_LORE_REPOSITORY_SNAPSHOT",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/oni_css_lore_layer.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_at_normalized": null,
+  "published_at_original": null,
+  "publisher": "JoseEduardonoot/star-atlas-lore",
+  "quality": {
+    "extraction_confidence": "HIGH",
+    "limitations": [
+      "This page is preserved as a historical canonical-source snapshot and is excluded from current canonical taxonomy authority.",
+      "No same-path published docs mirror exists in the captured repository."
+    ],
+    "manual_review_required": false,
+    "redactions": {
+      "count": 0,
+      "curator_decision_id": null,
+      "policy": "NONE"
+    }
+  },
+  "source_id": "SRC-LORE-REPO-E0A438C9F1AE",
+  "source_lineage": {
+    "lineage_confidence": "HIGH_FOR_REPOSITORY_PATH_AND_COMMIT; UNKNOWN_FOR_UNDERLYING_CLAIM_AUTHORSHIP",
+    "original_creators": [
+      "JoseEduardonoot (repository account; page-level authorship unknown)"
+    ],
+    "primary_sources": [
+      "https://github.com/JoseEduardonoot/star-atlas-lore/blob/22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/oni_css_lore_layer.md"
+    ],
+    "publication": "JoseEduardonoot/star-atlas-lore",
+    "publication_role": "HISTORICAL_CANONICAL_SOURCE_SNAPSHOT",
+    "relationship": "PRESERVED_FROM_COMMIT"
+  },
+  "source_type": "lore_repository",
+  "taxonomy": {
+    "aliases": [],
+    "authority_scope": "HISTORICAL_LORE_EVIDENCE_NOT_CURRENT_TAXONOMY",
+    "lore_type": "REGION",
+    "preferred_name": "C4 Lore Layer — The Neuno Region",
+    "primary_entity_id": "LRTX-REGION-B17526BFB82D",
+    "repository_entity_type": "LOCATION",
+    "taxonomy_status": "HISTORICAL_SNAPSHOT_EXCLUDED_FROM_CURRENT_CANONICAL_TAXONOMY"
+  },
+  "title": "C4 Lore Layer — The Neuno Region",
+  "updated_at_normalized": null,
+  "updated_at_original": null
+}

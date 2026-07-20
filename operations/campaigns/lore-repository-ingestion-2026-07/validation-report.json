@@ -1,0 +1,324 @@
+{
+  "campaign_id": "lore-repository-ingestion-2026-07",
+  "checks": [
+    {
+      "detail": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1",
+      "name": "raw_commit_archive_sha256",
+      "passed": true
+    },
+    {
+      "detail": 11118506,
+      "name": "raw_commit_archive_byte_length",
+      "passed": true
+    },
+    {
+      "detail": 526,
+      "name": "source_snapshot_file_count",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "source_text_utf8",
+      "passed": true
+    },
+    {
+      "detail": 2,
+      "name": "raw_workstation_paths_preserved",
+      "passed": true
+    },
+    {
+      "detail": {
+        "generated": 795,
+        "mismatched": [],
+        "missing": []
+      },
+      "name": "generated_artifacts_fixed_point",
+      "passed": true
+    },
+    {
+      "detail": 795,
+      "name": "deterministic_build",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "all_generated_json_parses",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "all_generated_jsonl_parses",
+      "passed": true
+    },
+    {
+      "detail": {
+        "canon_media_extracted": 1,
+        "canon_pages": 192,
+        "entities_extracted": 4632,
+        "markdown_pages_inventoried": 490,
+        "media_inventoried": 2,
+        "migration_mappings": 9,
+        "migration_mappings_requiring_review": 0,
+        "mirror_divergences": 86,
+        "normalized_source_pages": 192,
+        "published_docs_pages": 201,
+        "relationships_extracted": 3798,
+        "repository_files_preserved": 526,
+        "unresolved_internal_links": 252,
+        "unresolved_navigation_targets": 0,
+        "working_material_pages_preserved_excluded": 97
+      },
+      "name": "campaign_counts_reconcile",
+      "passed": true
+    },
+    {
+      "detail": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+      "name": "upstream_commit_pinned",
+      "passed": true
+    },
+    {
+      "detail": 192,
+      "name": "source_ids_unique",
+      "passed": true
+    },
+    {
+      "detail": {
+        "json": 192,
+        "markdown": 192
+      },
+      "name": "normalized_page_pairs_complete",
+      "passed": true
+    },
+    {
+      "detail": {
+        "json": 192,
+        "markdown": 192
+      },
+      "name": "source_record_pairs_complete",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "every_page_has_complete_artifact_chain",
+      "passed": true
+    },
+    {
+      "detail": 4632,
+      "name": "entity_ids_unique",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "entity_sources_reconcile",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "repository_entity_types_schema_compatible",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "controlled_lore_taxonomy_only",
+      "passed": true
+    },
+    {
+      "detail": {
+        "designation": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+        "does_not_establish": [
+          "page-level authorship for every source file",
+          "independent truth of every narrative claim",
+          "governance, operational, provenance, or historical authority outside lore"
+        ],
+        "precedence": [
+          "STAR_ATLAS_LORE_REPOSITORY_FOR_LORE_TAXONOMY_AND_PREFERRED_NAMES",
+          "OFFICIAL_STAR_ATLAS_PUBLICATIONS_FOR_NEWER_LORE_NOT_YET_REPRESENTED",
+          "ARCHIVE_HISTORICAL_SOURCES_FOR_HISTORICAL_EVIDENCE",
+          "OPERATOR_CONFIRMATIONS_FOR_ARCHIVAL_AMBIGUITY",
+          "DERIVED_KNOWLEDGE_FOR_DISCOVERY_ONLY"
+        ],
+        "scope": "IN_UNIVERSE_LORE_ONLY"
+      },
+      "name": "authority_boundary_explicit",
+      "passed": true
+    },
+    {
+      "detail": 3798,
+      "name": "relationship_ids_unique",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "relationship_sources_reconcile",
+      "passed": true
+    },
+    {
+      "detail": 3798,
+      "name": "relationships_are_evidence_bound_references",
+      "passed": true
+    },
+    {
+      "detail": 252,
+      "name": "unresolved_references_documented",
+      "passed": true
+    },
+    {
+      "detail": 526,
+      "name": "repository_file_inventory_complete",
+      "passed": true
+    },
+    {
+      "detail": 490,
+      "name": "every_markdown_page_inventoried",
+      "passed": true
+    },
+    {
+      "detail": 97,
+      "name": "working_material_excluded_not_lost",
+      "passed": true
+    },
+    {
+      "detail": {
+        "count": 2,
+        "failures": []
+      },
+      "name": "media_inventory_and_extraction_reconcile",
+      "passed": true
+    },
+    {
+      "detail": 9,
+      "name": "existing_lore_ids_all_mapped_or_deferred",
+      "passed": true
+    },
+    {
+      "detail": {
+        "LORE-CATACLYSM": "MAPPED_ONE_TO_ONE",
+        "LORE-COUNCIL-PEACE": "MAPPED_TO_INSTITUTION_WITH_DISTINCT_RELATED_FACTION",
+        "LORE-FACTION-MUD": "MAPPED_ONE_TO_ONE",
+        "LORE-FACTION-ONI": "MAPPED_ONE_TO_ONE",
+        "LORE-FACTION-USTUR": "MAPPED_TO_FACTION_WITH_DISTINCT_RELATED_SPECIES",
+        "LORE-GALIA": "MAPPED_TO_REGION_WITH_REFERENCE_DOCUMENT_RETAINED",
+        "LORE-NARRATIVE-CORE": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED",
+        "LORE-TUFA": "MAPPED_ONE_TO_ONE",
+        "LORE-VOICE-OF-IRIS": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED"
+      },
+      "name": "curator_adjudicated_mappings_resolved",
+      "passed": true
+    },
+    {
+      "detail": 0,
+      "name": "historical_rewrites_prohibited",
+      "passed": true
+    },
+    {
+      "detail": {
+        "commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+        "commit_date": "2026-06-29T00:36:35Z",
+        "commit_message": "docs(c4): preserve crew/gear/mission/encounter design artifacts",
+        "default_branch_at_capture": "master",
+        "default_branch_commit": "d138c60a210e2afc2d898806ecf9b032a4f8c3a1",
+        "deployed_source_commit": "e1d87b0",
+        "deployment_branch": "gh-pages",
+        "deployment_commit": "abf1c5852935c1607901b8953f241801e264f573",
+        "live_site_url": "https://joseeduardonoot.github.io/star-atlas-lore/",
+        "repository": "JoseEduardonoot/star-atlas-lore",
+        "repository_url": "https://github.com/JoseEduardonoot/star-atlas-lore",
+        "retrieval_method": "PUBLIC_GITHUB_COMMIT_ARCHIVE_OVER_HTTPS",
+        "retrieved_by": "Star Atlas Archive ingestion campaign",
+        "selected_branch": "main",
+        "selection_reason": "main is the active content branch and deployment workflow source; default master is older",
+        "tree": "f4b6c4121447887ff2b12b7c23a11307f3e81093"
+      },
+      "name": "provenance_branch_and_deployment_distinct",
+      "passed": true
+    },
+    {
+      "detail": {
+        "atmta_affiliation_independently_verified": false,
+        "atmta_affiliation_operator_confirmed": true,
+        "default_master_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
+        "main_branch_description": "Official Star Atlas Lore Encyclopedia — factions, species, history, and more (Alpha)",
+        "operator_confirmed_repository_owner_role": "STAR_ATLAS_TEAM_MEMBER_RESPONSIBLE_FOR_LORE",
+        "operator_designation_applied": true,
+        "repository_api_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
+        "repository_treatment": "ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY"
+      },
+      "name": "atmta_affiliation_operator_confirmed_not_inferred_from_capture",
+      "passed": true
+    },
+    {
+      "detail": {
+        "accepted": 14,
+        "items": 14
+      },
+      "name": "human_review_register_curator_adjudicated",
+      "passed": true
+    },
+    {
+      "detail": {
+        "entities": 1,
+        "pages": 1
+      },
+      "name": "oni_css_historical_snapshot_not_current_taxonomy",
+      "passed": true
+    },
+    {
+      "detail": {
+        "failures": [],
+        "redactions": 2
+      },
+      "name": "workstation_paths_redacted_from_normalized_and_public_derivatives",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "licensing_requirements_removed",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "schema_v21_package_minimum",
+      "passed": true
+    },
+    {
+      "detail": "ARCHIVED_NOT_KNOWLEDGE_OR_GRAPH_PROMOTED",
+      "name": "ingestion_did_not_promote_knowledge_or_graph",
+      "passed": true
+    },
+    {
+      "detail": 802,
+      "name": "campaign_and_archive_manifests_match",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "manifest_checksums_reconcile",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "prohibited_repository_domains_untouched",
+      "passed": true
+    },
+    {
+      "detail": [],
+      "name": "changed_paths_within_campaign_scope",
+      "passed": true
+    },
+    {
+      "detail": "clean",
+      "name": "git_diff_check",
+      "passed": true
+    }
+  ],
+  "status": "pass",
+  "summary": {
+    "checks_passed": 44,
+    "checks_total": 44,
+    "documented_upstream_warnings": 0,
+    "entities": 4632,
+    "generated_artifacts": 795,
+    "relationships": 3798,
+    "source_pages": 192
+  }
+}

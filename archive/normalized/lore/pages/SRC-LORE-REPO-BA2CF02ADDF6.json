@@ -1,0 +1,574 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/factions/duskbloom_grove/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Duskbloom Grove"
+    },
+    {
+      "level": 2,
+      "line": 20,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 33,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "line": 35,
+      "text": "The Everstorm Crisis (~2624)"
+    },
+    {
+      "level": 3,
+      "line": 45,
+      "text": "ECOS Response"
+    },
+    {
+      "level": 3,
+      "line": 51,
+      "text": "Expansion to Harkend"
+    },
+    {
+      "level": 2,
+      "line": 61,
+      "text": "Leadership: Yeva Thornwind"
+    },
+    {
+      "level": 3,
+      "line": 63,
+      "text": "The Tracker Who Became a Druidess"
+    },
+    {
+      "level": 3,
+      "line": 74,
+      "text": "Leadership Style"
+    },
+    {
+      "level": 2,
+      "line": 89,
+      "text": "Organization"
+    },
+    {
+      "level": 3,
+      "line": 91,
+      "text": "Operational Structure"
+    },
+    {
+      "level": 3,
+      "line": 103,
+      "text": "The Bloom Protocol"
+    },
+    {
+      "level": 2,
+      "line": 116,
+      "text": "Theaters of Operation"
+    },
+    {
+      "level": 3,
+      "line": 118,
+      "text": "Everstorm — The Primary Front"
+    },
+    {
+      "level": 3,
+      "line": 132,
+      "text": "Harkend — The Mechanical Frontier"
+    },
+    {
+      "level": 2,
+      "line": 142,
+      "text": "The Genesium Spawn"
+    },
+    {
+      "level": 3,
+      "line": 144,
+      "text": "What They Are"
+    },
+    {
+      "level": 3,
+      "line": 148,
+      "text": "Known Variants"
+    },
+    {
+      "level": 3,
+      "line": 158,
+      "text": "Why They Persist"
+    },
+    {
+      "level": 2,
+      "line": 166,
+      "text": "Key Alliances"
+    },
+    {
+      "level": 3,
+      "line": 168,
+      "text": "The Nimrod Bridge"
+    },
+    {
+      "level": 3,
+      "line": 184,
+      "text": "Fimbul Supply Line"
+    },
+    {
+      "level": 3,
+      "line": 188,
+      "text": "Relic Baron Coordination"
+    },
+    {
+      "level": 2,
+      "line": 194,
+      "text": "Relations"
+    },
+    {
+      "level": 2,
+      "line": 211,
+      "text": "Named Characters"
+    },
+    {
+      "level": 2,
+      "line": 223,
+      "text": "Narrative Hooks"
+    },
+    {
+      "level": 2,
+      "line": 234,
+      "text": "Cross-References"
+    },
+    {
+      "level": 2,
+      "line": 249,
+      "text": "Galactic Indices"
+    }
+  ],
+  "internal_links": [
+    {
+      "label": "ECOS",
+      "line": 8,
+      "original_target": "../factions/earth_conscious_ontological_society.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/earth_conscious_ontological_society.md"
+    },
+    {
+      "label": "Human",
+      "line": 9,
+      "original_target": "../species/human.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/human.md"
+    },
+    {
+      "label": "Sogmian",
+      "line": 9,
+      "original_target": "../species/sogmian.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/sogmian.md"
+    },
+    {
+      "label": "Nimrod Tracker",
+      "line": 10,
+      "original_target": "../factions/nimrod_trackers.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/nimrod_trackers.md"
+    },
+    {
+      "label": "Everstorm",
+      "line": 11,
+      "original_target": "../geography/sectors/everstorm.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/everstorm.md"
+    },
+    {
+      "label": "Dark Photoli",
+      "line": 12,
+      "original_target": "../factions/dark_photoli.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/dark_photoli.md"
+    },
+    {
+      "label": "Harkend",
+      "line": 14,
+      "original_target": "../geography/sectors/harkend.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/harkend.md"
+    },
+    {
+      "label": "ECOS",
+      "line": 25,
+      "original_target": "../factions/earth_conscious_ontological_society.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/earth_conscious_ontological_society.md"
+    },
+    {
+      "label": "Dark Photoli",
+      "line": 25,
+      "original_target": "../factions/dark_photoli.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/dark_photoli.md"
+    },
+    {
+      "label": "Living Factories",
+      "line": 25,
+      "original_target": "../factions/living_factories.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/living_factories.md"
+    },
+    {
+      "label": "Harkend",
+      "line": 25,
+      "original_target": "../geography/sectors/harkend.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/harkend.md"
+    },
+    {
+      "label": "Old Grove",
+      "line": 25,
+      "original_target": "../geography/sectors/old_grove.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/old_grove.md"
+    },
+    {
+      "label": "Balifa",
+      "line": 27,
+      "original_target": "../factions/balifa_grove.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/balifa_grove.md"
+    },
+    {
+      "label": "Nimrod Trackers",
+      "line": 27,
+      "original_target": "../factions/nimrod_trackers.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/nimrod_trackers.md"
+    },
+    {
+      "label": "Relic Barons",
+      "line": 27,
+      "original_target": "../factions/relic_barons.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/relic_barons.md"
+    },
+    {
+      "label": "Fimbul",
+      "line": 27,
+      "original_target": "../factions/fimbul_industries.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/fimbul_industries.md"
+    },
+    {
+      "label": "Everstorm",
+      "line": 37,
+      "original_target": "../geography/sectors/everstorm.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/everstorm.md"
+    },
+    {
+      "label": "Dark Photoli",
+      "line": 41,
+      "original_target": "../factions/dark_photoli.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/dark_photoli.md"
+    },
+    {
+      "label": "Izar",
+      "line": 41,
+      "original_target": "../factions/izarians.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/izarians.md"
+    },
+    {
+      "label": "Hanging Gardens",
+      "line": 47,
+      "original_target": "../factions/hanging_gardens_government.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/hanging_gardens_government.md"
+    },
+    {
+      "label": "Nimrod Tracker",
+      "line": 47,
+      "original_target": "../factions/nimrod_trackers.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/nimrod_trackers.md"
+    },
+    {
+      "label": "Living Factories",
+      "line": 53,
+      "original_target": "../factions/living_factories.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/living_factories.md"
+    },
+    {
+      "label": "Harkend",
+      "line": 53,
+      "original_target": "../geography/sectors/harkend.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/harkend.md"
+    },
+    {
+      "label": "Relic Barons",
+      "line": 53,
+      "original_target": "../factions/relic_barons.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/relic_barons.md"
+    },
+    {
+      "label": "Living Factories",
+      "line": 57,
+      "original_target": "../factions/living_factories.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/living_factories.md"
+    },
+    {
+      "label": "Nimrod Tracker",
+      "line": 65,
+      "original_target": "../factions/nimrod_trackers.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/nimrod_trackers.md"
+    },
+    {
+      "label": "Old Grove",
+      "line": 68,
+      "original_target": "../geography/sectors/old_grove.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/old_grove.md"
+    },
+    {
+      "label": "Fimbul",
+      "line": 112,
+      "original_target": "../factions/fimbul_industries.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/fimbul_industries.md"
+    },
+    {
+      "label": "Everstorm",
+      "line": 120,
+      "original_target": "../geography/sectors/everstorm.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/everstorm.md"
+    },
+    {
+      "label": "Harkend",
+      "line": 134,
+      "original_target": "../geography/sectors/harkend.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/harkend.md"
+    },
+    {
+      "label": "Living Factory",
+      "line": 134,
+      "original_target": "../factions/living_factories.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/living_factories.md"
+    },
+    {
+      "label": "Relic Barons",
+      "line": 134,
+      "original_target": "../factions/relic_barons.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/relic_barons.md"
+    },
+    {
+      "label": "Ustur",
+      "line": 138,
+      "original_target": "../species/ustur.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/ustur.md"
+    },
+    {
+      "label": "Dark Photoli",
+      "line": 146,
+      "original_target": "../factions/dark_photoli.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/dark_photoli.md"
+    },
+    {
+      "label": "Nimrod Trackers",
+      "line": 155,
+      "original_target": "../factions/nimrod_trackers.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/nimrod_trackers.md"
+    },
+    {
+      "label": "Nimrod Trackers",
+      "line": 170,
+      "original_target": "../factions/nimrod_trackers.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/nimrod_trackers.md"
+    },
+    {
+      "label": "Communion",
+      "line": 170,
+      "original_target": "../geography/sectors/communion.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/communion.md"
+    },
+    {
+      "label": "Fimbul Industries",
+      "line": 186,
+      "original_target": "../factions/fimbul_industries.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/fimbul_industries.md"
+    },
+    {
+      "label": "Harkend",
+      "line": 190,
+      "original_target": "../geography/sectors/harkend.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/harkend.md"
+    },
+    {
+      "label": "Relic Barons",
+      "line": 190,
+      "original_target": "../factions/relic_barons.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/relic_barons.md"
+    },
+    {
+      "label": "ECOS",
+      "line": 198,
+      "original_target": "../factions/earth_conscious_ontological_society.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/earth_conscious_ontological_society.md"
+    },
+    {
+      "label": "Hanging Gardens",
+      "line": 199,
+      "original_target": "../factions/hanging_gardens_government.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/hanging_gardens_government.md"
+    },
+    {
+      "label": "Nimrod Trackers",
+      "line": 200,
+      "original_target": "../factions/nimrod_trackers.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/nimrod_trackers.md"
+    },
+    {
+      "label": "Fimbul Industries",
+      "line": 201,
+      "original_target": "../factions/fimbul_industries.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/fimbul_industries.md"
+    },
+    {
+      "label": "Relic Barons",
+      "line": 202,
+      "original_target": "../factions/relic_barons.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/relic_barons.md"
+    },
+    {
+      "label": "Balifa Grove",
+      "line": 203,
+      "original_target": "../factions/balifa_grove.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/balifa_grove.md"
+    },
+    {
+      "label": "Ashroot Grove",
+      "line": 204,
+      "original_target": "../factions/ashroot_grove.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/ashroot_grove.md"
+    },
+    {
+      "label": "Living Factories",
+      "line": 205,
+      "original_target": "../factions/living_factories.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/living_factories.md"
+    },
+    {
+      "label": "Dark Photoli",
+      "line": 206,
+      "original_target": "../factions/dark_photoli.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/dark_photoli.md"
+    },
+    {
+      "label": "Iris Academy",
+      "line": 207,
+      "original_target": "../factions/iris_academy.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/iris_academy.md"
+    },
+    {
+      "label": "Human",
+      "line": 215,
+      "original_target": "../species/human.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/human.md"
+    },
+    {
+      "label": "Human",
+      "line": 216,
+      "original_target": "../species/human.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/human.md"
+    },
+    {
+      "label": "Sogmian",
+      "line": 217,
+      "original_target": "../species/sogmian.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/sogmian.md"
+    },
+    {
+      "label": "Human",
+      "line": 218,
+      "original_target": "../species/human.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/human.md"
+    },
+    {
+      "label": "Mierese",
+      "line": 219,
+      "original_target": "../species/mierese.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/mierese.md"
+    }
+  ],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "FACTION",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-BA2CF02ADDF6.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-BA2CF02ADDF6.md",
+  "normalized_sha256": "048f1a553fda5c0845ea5da7443b3e1cc79e3ebfa35f6db072cb5636cb660fa3",
+  "outbound_links": [],
+  "preferred_name": "Duskbloom Grove",
+  "primary_entity_id": "LRTX-FACTION-9B07F7BE5B23",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/factions/duskbloom_grove.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/factions/duskbloom_grove.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 23686,
+  "raw_sha256": "048f1a553fda5c0845ea5da7443b3e1cc79e3ebfa35f6db072cb5636cb660fa3",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "ORGANIZATION",
+  "source_id": "SRC-LORE-REPO-BA2CF02ADDF6",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "factions"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/factions/duskbloom_grove.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

@@ -1,0 +1,103 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/reference/resources/galia_expanse_resources/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Galia Expanse Resources"
+    },
+    {
+      "level": 2,
+      "line": 5,
+      "text": "Organic Resources (15)"
+    },
+    {
+      "level": 3,
+      "line": 7,
+      "text": "Tier 1"
+    },
+    {
+      "level": 3,
+      "line": 15,
+      "text": "Tier 2"
+    },
+    {
+      "level": 3,
+      "line": 25,
+      "text": "Tier 3"
+    },
+    {
+      "level": 2,
+      "line": 33,
+      "text": "Basic Resources (78)"
+    },
+    {
+      "level": 3,
+      "line": 35,
+      "text": "Tier 1"
+    },
+    {
+      "level": 3,
+      "line": 60,
+      "text": "Tier 2"
+    },
+    {
+      "level": 3,
+      "line": 81,
+      "text": "Tier 3"
+    },
+    {
+      "level": 3,
+      "line": 105,
+      "text": "Tier 4"
+    },
+    {
+      "level": 3,
+      "line": 117,
+      "text": "Tier 5"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
+  ],
+  "lore_type": "REFERENCE",
+  "manual_review_required": false,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-51A800151FD0.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-51A800151FD0.md",
+  "normalized_sha256": "5499a669639c38878ead049571c9770691a0cc6abbf9b44e6b27448a0180290b",
+  "outbound_links": [],
+  "preferred_name": "Galia Expanse Resources",
+  "primary_entity_id": "LRTX-REFERENCE-74D709A6D0BE",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/reference/resources/galia_expanse_resources.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/reference/resources/galia_expanse_resources.md",
+  "published_mirror_status": "TEXT_IDENTICAL",
+  "raw_byte_length": 1814,
+  "raw_sha256": "5499a669639c38878ead049571c9770691a0cc6abbf9b44e6b27448a0180290b",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "DOCUMENT",
+  "source_id": "SRC-LORE-REPO-51A800151FD0",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "reference",
+    "resources"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/reference/resources/galia_expanse_resources.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

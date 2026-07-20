@@ -1,0 +1,4542 @@
+{
+  "campaign_id": "lore-repository-ingestion-2026-07",
+  "navigation": [],
+  "relationships": [
+    {
+      "label_observed": "Convergence War",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-F61B0FE9F6E4",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../history/eras_of_star_atlas.md",
+      "target_path": "canon/geography/history/eras_of_star_atlas.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Pearce Council",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 20,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-674258730B99",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Scientia",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 29,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-43BD631C83DF",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 41,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-4AEC75DF1D71",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 41,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-716490D9160B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Soletud",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 42,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-C758D4B0503D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/soletud.md",
+      "target_path": "canon/geography/geography/sectors/soletud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ka-dara",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 42,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-A766BFF1CC85",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/ka_dara.md",
+      "target_path": "canon/geography/geography/sectors/ka_dara.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Izar",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 42,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-A56DD5BFA896",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/izar.md",
+      "target_path": "canon/geography/geography/sectors/izar.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Translucid Pox",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 43,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-DFA04FCFE32B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/valiant.md",
+      "target_path": "canon/geography/geography/sectors/valiant.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Cataclysm",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 51,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-7E2CC751F7DF",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/the_cataclysm.md",
+      "target_path": "canon/geography/geography/the_cataclysm.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "MUD",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 59,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-B4C5D5E45192",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Pearce Council",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 60,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-DFE212D01F55",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Exodus",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 64,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-95380D3845D4",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/exodus.md",
+      "target_path": "canon/geography/geography/sectors/exodus.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Valiant",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 65,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-1B1BF6B2207E",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/valiant.md",
+      "target_path": "canon/geography/geography/sectors/valiant.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Soletud",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 66,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-BF1893D88941",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/soletud.md",
+      "target_path": "canon/geography/geography/sectors/soletud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ka-dara",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 66,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-06B8F71701E9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/ka_dara.md",
+      "target_path": "canon/geography/geography/sectors/ka_dara.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Izar",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 66,
+        "source_id": "SRC-LORE-REPO-969E9BF2B61C"
+      },
+      "relationship_id": "LREL-78863CF9F365",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4DFA862C10AE",
+      "source_id": "SRC-LORE-REPO-969E9BF2B61C",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/izar.md",
+      "target_path": "canon/geography/geography/sectors/izar.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-E7208F771273",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Church",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-E2DFC457E6E1",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Pearce Council",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-4AE1CD79C8F9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Verzan",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 38,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-D31D40A141C8",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/verzan.md",
+      "target_path": "canon/geography/geography/sectors/verzan.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "MUD",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 48,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-81AF7D752F0C",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "The Synod",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 49,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-5051455F6685",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 51,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-FAEEFAAA7A95",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Exodus",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 55,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-406D3BC6A150",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/exodus.md",
+      "target_path": "canon/geography/geography/sectors/exodus.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Verzan",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 56,
+        "source_id": "SRC-LORE-REPO-A06936FF5B9D"
+      },
+      "relationship_id": "LREL-B3FC9AC6CFDB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+      "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/verzan.md",
+      "target_path": "canon/geography/geography/sectors/verzan.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ioki",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-903DDE6CC343"
+      },
+      "relationship_id": "LREL-4EDB5C1E4D82",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+      "source_id": "SRC-LORE-REPO-903DDE6CC343",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur Regency",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 12,
+        "source_id": "SRC-LORE-REPO-903DDE6CC343"
+      },
+      "relationship_id": "LREL-9167DEC24D51",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+      "source_id": "SRC-LORE-REPO-903DDE6CC343",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Uvana",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 33,
+        "source_id": "SRC-LORE-REPO-903DDE6CC343"
+      },
+      "relationship_id": "LREL-4BE52A28F570",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+      "source_id": "SRC-LORE-REPO-903DDE6CC343",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Still Water Doctrine",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 50,
+        "source_id": "SRC-LORE-REPO-903DDE6CC343"
+      },
+      "relationship_id": "LREL-77DCB4BC5A07",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+      "source_id": "SRC-LORE-REPO-903DDE6CC343",
+      "target_entity_id": null,
+      "target_observed": "../factions/still_water_doctrine.md",
+      "target_path": "canon/geography/factions/still_water_doctrine.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur Regency",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 58,
+        "source_id": "SRC-LORE-REPO-903DDE6CC343"
+      },
+      "relationship_id": "LREL-25278F147209",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+      "source_id": "SRC-LORE-REPO-903DDE6CC343",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Still Water Doctrine",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 59,
+        "source_id": "SRC-LORE-REPO-903DDE6CC343"
+      },
+      "relationship_id": "LREL-A00329D2934E",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+      "source_id": "SRC-LORE-REPO-903DDE6CC343",
+      "target_entity_id": null,
+      "target_observed": "../factions/still_water_doctrine.md",
+      "target_path": "canon/geography/factions/still_water_doctrine.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Eternity / Ioki",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 64,
+        "source_id": "SRC-LORE-REPO-903DDE6CC343"
+      },
+      "relationship_id": "LREL-569AA30A29C8",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+      "source_id": "SRC-LORE-REPO-903DDE6CC343",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Foy Fields",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 65,
+        "source_id": "SRC-LORE-REPO-903DDE6CC343"
+      },
+      "relationship_id": "LREL-F3C2DDEA42E0",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+      "source_id": "SRC-LORE-REPO-903DDE6CC343",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/foy_fields.md",
+      "target_path": "canon/geography/geography/sectors/foy_fields.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Punaabs",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-9854B618848B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../species/punaab.md",
+      "target_path": "canon/geography/species/punaab.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Miereses",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-05266291AB20",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../species/mierese.md",
+      "target_path": "canon/geography/species/mierese.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Photoli",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-9E43A55C1EAE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../species/photoli.md",
+      "target_path": "canon/geography/species/photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sogmians",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-F8F63E52D072",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../species/sogmian.md",
+      "target_path": "canon/geography/species/sogmian.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-37F5D0E74C2A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Punaab",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-6633D26F2EE1",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../species/punaab.md",
+      "target_path": "canon/geography/species/punaab.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "High",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-17B8942F1487",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/kingdom_of_evernat.md",
+      "target_path": "canon/geography/factions/kingdom_of_evernat.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Profound",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-1E7FAAFFF8B2",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/kingdom_of_evernat.md",
+      "target_path": "canon/geography/factions/kingdom_of_evernat.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Dual Monarchy",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-3F60588697AC",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/kingdom_of_evernat.md",
+      "target_path": "canon/geography/factions/kingdom_of_evernat.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Nimrod Trackers",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 42,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-1ACA708A8F05",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/nimrod_trackers.md",
+      "target_path": "canon/geography/factions/nimrod_trackers.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Swamp Lords",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 48,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-942F4C751796",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/swamp_lords.md",
+      "target_path": "canon/geography/factions/swamp_lords.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 76,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-44E80EE1CA15",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Nimrod Trackers",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 77,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-D899571E1F0F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/nimrod_trackers.md",
+      "target_path": "canon/geography/factions/nimrod_trackers.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Kingdom of Evernat",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 78,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-684E66C651A2",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/kingdom_of_evernat.md",
+      "target_path": "canon/geography/factions/kingdom_of_evernat.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Duskbloom Grove",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 79,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-DB65E64CF88D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../factions/duskbloom_grove.md",
+      "target_path": "canon/geography/factions/duskbloom_grove.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Old Grove",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 83,
+        "source_id": "SRC-LORE-REPO-F901FB34D9E3"
+      },
+      "relationship_id": "LREL-D11350C20EFB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-7408A2EEADF5",
+      "source_id": "SRC-LORE-REPO-F901FB34D9E3",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/old_grove.md",
+      "target_path": "canon/geography/geography/sectors/old_grove.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 9,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-44BF35377876",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "VZUS relocated to Foy Fields",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-0C8C11F657C5",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/foy_fields.md",
+      "target_path": "canon/geography/geography/sectors/foy_fields.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Golden Star",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 47,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-4D8B08412020",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/golden_star.md",
+      "target_path": "canon/geography/factions/golden_star.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sogmian House Outro",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 52,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-DBE3ADC18AE0",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/sogmian_sovereignty.md",
+      "target_path": "canon/geography/factions/sogmian_sovereignty.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Soletud",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 75,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-B1EC7D2F561B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/soletud.md",
+      "target_path": "canon/geography/geography/sectors/soletud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Tufa",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 85,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-BAE002B90129",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../species/tufa.md",
+      "target_path": "canon/geography/species/tufa.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Balifa Grove",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 91,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-1EB58B2B9854",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/balifa_grove.md",
+      "target_path": "canon/geography/factions/balifa_grove.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Jorvik Raiders",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 92,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-19C437AE5551",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/jorvik.md",
+      "target_path": "canon/geography/factions/jorvik.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur Regency",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 100,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-50501D856501",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Golden Star",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 101,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-CFBA64B6411E",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/golden_star.md",
+      "target_path": "canon/geography/factions/golden_star.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Resonant Forge",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 102,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-F7D9DABB2C19",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/resonant_forge.md",
+      "target_path": "canon/geography/factions/resonant_forge.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Anfoil State",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 103,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-74B39D7136C9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../factions/anfoil_state.md",
+      "target_path": "canon/geography/factions/anfoil_state.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 107,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-56FE47EE7CD7",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../species/ustur.md",
+      "target_path": "canon/geography/species/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Tufa",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 108,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-3D4538709B6B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../species/tufa.md",
+      "target_path": "canon/geography/species/tufa.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Foy Fields",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 112,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-559F0D6CC054",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/foy_fields.md",
+      "target_path": "canon/geography/geography/sectors/foy_fields.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Soletud",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 113,
+        "source_id": "SRC-LORE-REPO-AC8DFE792FF8"
+      },
+      "relationship_id": "LREL-14604B85B48B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-33D0237A28EA",
+      "source_id": "SRC-LORE-REPO-AC8DFE792FF8",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/soletud.md",
+      "target_path": "canon/geography/geography/sectors/soletud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Punaab",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-530F2ABBEBF9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../species/punaab.md",
+      "target_path": "canon/geography/species/punaab.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-AD91404DA305",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Punaab",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 108,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-B675681E6860",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../species/punaab.md",
+      "target_path": "canon/geography/species/punaab.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 112,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-D1A789D6CF04",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Kingdom of Evernat",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 113,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-3016EE4CE894",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../factions/kingdom_of_evernat.md",
+      "target_path": "canon/geography/factions/kingdom_of_evernat.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Merchant Princes of Denebula",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 114,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-1A0723F2DB4C",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../factions/merchant_princes_of_denebula.md",
+      "target_path": "canon/geography/factions/merchant_princes_of_denebula.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris Academy",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 115,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-D46A62EFA915",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../factions/iris_academy.md",
+      "target_path": "canon/geography/factions/iris_academy.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Denebula Utopia",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 119,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-A01C6E2E0D9B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/denebula_utopia.md",
+      "target_path": "canon/geography/geography/sectors/denebula_utopia.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Glowhaven",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 120,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-FA15C549DDF7",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/glowhaven.md",
+      "target_path": "canon/geography/geography/sectors/glowhaven.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Frostsun",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 121,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-4B6405052B4F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/frostsun.md",
+      "target_path": "canon/geography/geography/sectors/frostsun.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Named Characters",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 125,
+        "source_id": "SRC-LORE-REPO-11CBC4C4E7E8"
+      },
+      "relationship_id": "LREL-6D34F4AF2691",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-800A9812EF36",
+      "source_id": "SRC-LORE-REPO-11CBC4C4E7E8",
+      "target_entity_id": null,
+      "target_observed": "../meta/named_characters.md",
+      "target_path": "canon/geography/meta/named_characters.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "MUD",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-BDDA422669C6",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Cataclysm",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 12,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-7C734CC60FA1",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/the_cataclysm.md",
+      "target_path": "canon/geography/geography/the_cataclysm.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 12,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-3B85EA7DDBF0",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/the_cataclysm.md",
+      "target_path": "canon/geography/geography/the_cataclysm.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Vincenzo Assis Gotti",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 35,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-FD077472036B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Exodus",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 68,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-7E50923C5205",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/exodus.md",
+      "target_path": "canon/geography/geography/sectors/exodus.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Valiant",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 69,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-1B3756BB4C04",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/valiant.md",
+      "target_path": "canon/geography/geography/sectors/valiant.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Aurora",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 70,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-EC2DEC649920",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/aurora.md",
+      "target_path": "canon/geography/geography/sectors/aurora.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Verzan",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 71,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-0B40481354CF",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/verzan.md",
+      "target_path": "canon/geography/geography/sectors/verzan.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Amora",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 72,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-1A8FA9931736",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/amora.md",
+      "target_path": "canon/geography/geography/sectors/amora.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ahr",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 80,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-A1D7DC660F8A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../species/photoli.md",
+      "target_path": "canon/geography/species/photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Council of Peace",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 84,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-52EECA0AA8D6",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../factions/council_of_peace.md",
+      "target_path": "canon/geography/factions/council_of_peace.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Human",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 108,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-598705029BC0",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../species/human.md",
+      "target_path": "canon/geography/species/human.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Manus Ultima Divina (MUD)",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 112,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-83FC4063134D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Council of Peace",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 113,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-9C5BC3881884",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../factions/council_of_peace.md",
+      "target_path": "canon/geography/factions/council_of_peace.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Pearce Council",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 114,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-7358F034DDD1",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "The Synod",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 115,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-E6829B317C8A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ECOS",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 116,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-4FBCDF261067",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../factions/earth_conscious_ontological_society.md",
+      "target_path": "canon/geography/factions/earth_conscious_ontological_society.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "C4 Lore Layer — The Exodus Region",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 120,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-C229FBAC4FDB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/c4_lore_layer.md",
+      "target_path": "canon/geography/geography/c4_lore_layer.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Valiant",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 121,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-AA90CCDA7E8E",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/valiant.md",
+      "target_path": "canon/geography/geography/sectors/valiant.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Aurora",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 121,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-8FAEA9959EC6",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/aurora.md",
+      "target_path": "canon/geography/geography/sectors/aurora.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Verzan",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 121,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-50705E23DE7D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/verzan.md",
+      "target_path": "canon/geography/geography/sectors/verzan.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Amora",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 121,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-5E35C4B366A7",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/amora.md",
+      "target_path": "canon/geography/geography/sectors/amora.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Named Characters",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 125,
+        "source_id": "SRC-LORE-REPO-8175A2146398"
+      },
+      "relationship_id": "LREL-A5070B191181",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-5FB1CD0BCEB8",
+      "source_id": "SRC-LORE-REPO-8175A2146398",
+      "target_entity_id": null,
+      "target_observed": "../meta/named_characters.md",
+      "target_path": "canon/geography/meta/named_characters.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Resonant Forge",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 4,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-C2D78A1F05D7",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/resonant_forge.md",
+      "target_path": "canon/geography/factions/resonant_forge.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-93D7762586DA",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "VZUS Enterprises",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-29B5F0FCA00D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ioki",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-095454533CB8",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Resonant Forge",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 32,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-ECFE66BF3E3D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/resonant_forge.md",
+      "target_path": "canon/geography/factions/resonant_forge.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Eternity system",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 33,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-3B7D47121B77",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Eternity",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 41,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-F4D463D0CE8C",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Resonant Forge",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 45,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-E96A7CFC3CE9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/resonant_forge.md",
+      "target_path": "canon/geography/factions/resonant_forge.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Vzus Tenet",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 48,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-3104D9E486DA",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sons of Patrah",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 53,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-8EFC2AE6853B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/sons_of_patrah.md",
+      "target_path": "canon/geography/factions/sons_of_patrah.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur Regency",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 72,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-EF643AD89AA5",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Resonant Forge",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 73,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-1607FB92880C",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/resonant_forge.md",
+      "target_path": "canon/geography/factions/resonant_forge.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sons of Patrah",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 74,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-AF4DDA0CC200",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../factions/sons_of_patrah.md",
+      "target_path": "canon/geography/factions/sons_of_patrah.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Eternity / Ioki",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 79,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-D846B9F1F8EA",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Soletud",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 80,
+        "source_id": "SRC-LORE-REPO-9FCB5FCF4695"
+      },
+      "relationship_id": "LREL-D280F24324D2",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-64F8FE7AD346",
+      "source_id": "SRC-LORE-REPO-9FCB5FCF4695",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/soletud.md",
+      "target_path": "canon/geography/geography/sectors/soletud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Mierese",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-07A83E07EF1A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../species/mierese.md",
+      "target_path": "canon/geography/species/mierese.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-696EE07D84F3",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Lore Keepers",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-2A7F55BABD48",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/mierese_lore_keepers.md",
+      "target_path": "canon/geography/factions/mierese_lore_keepers.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 12,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-58E0946B8E4F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../geography/the_cataclysm.md",
+      "target_path": "canon/geography/geography/the_cataclysm.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Hikibashi",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 41,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-CE1E0E99F15F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/hikibashi.md",
+      "target_path": "canon/geography/factions/hikibashi.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Volmik Vaor Scarka",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 41,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-03A84FEC484A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Lore Keepers",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 42,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-867853E2B4F8",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/mierese_lore_keepers.md",
+      "target_path": "canon/geography/factions/mierese_lore_keepers.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ondara Valel",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 42,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-20796CFEFF20",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/mierese_of_neuno.md",
+      "target_path": "canon/geography/factions/mierese_of_neuno.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Trill Yara",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 43,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-5D8EF78F2E37",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/hikibashi.md",
+      "target_path": "canon/geography/factions/hikibashi.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Mirsk Eko",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 44,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-EDFD66A0206E",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/hikibashi.md",
+      "target_path": "canon/geography/factions/hikibashi.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Muumaan Jura",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 45,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-D4DD06543305",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/mierese_of_neuno.md",
+      "target_path": "canon/geography/factions/mierese_of_neuno.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Lore Keepers",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 52,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-18E4F2C9BC36",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/mierese_lore_keepers.md",
+      "target_path": "canon/geography/factions/mierese_lore_keepers.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sogmian",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 68,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-CBD37905EAD3",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../species/sogmian.md",
+      "target_path": "canon/geography/species/sogmian.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Punaab",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 68,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-905EFFD984C0",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../species/punaab.md",
+      "target_path": "canon/geography/species/punaab.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Photoli",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 68,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-A712CF3F26F5",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../species/photoli.md",
+      "target_path": "canon/geography/species/photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Mierese",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 95,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-B4FA4F4FBB58",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../species/mierese.md",
+      "target_path": "canon/geography/species/mierese.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 99,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-9DC243CABE32",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Mierese of Neuno",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 100,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-1D1B87300BBE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/mierese_of_neuno.md",
+      "target_path": "canon/geography/factions/mierese_of_neuno.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Mierese Lore Keepers",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 101,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-258831CD6993",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/mierese_lore_keepers.md",
+      "target_path": "canon/geography/factions/mierese_lore_keepers.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Hikibashi",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 102,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-FCEAC5B4804E",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../factions/hikibashi.md",
+      "target_path": "canon/geography/factions/hikibashi.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Never Alone Campaign",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 106,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-44A201D3FC37",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../narratives/never_alone_campaign.md",
+      "target_path": "canon/geography/narratives/never_alone_campaign.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI CSS Lore Layer",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 110,
+        "source_id": "SRC-LORE-REPO-B11EDF412766"
+      },
+      "relationship_id": "LREL-70F5BF022ACB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-2B3818C0F54E",
+      "source_id": "SRC-LORE-REPO-B11EDF412766",
+      "target_entity_id": null,
+      "target_observed": "../geography/oni_css_lore_layer.md",
+      "target_path": "canon/geography/geography/oni_css_lore_layer.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris Academy",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 9,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-5340C21B47A6",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../factions/iris_academy.md",
+      "target_path": "canon/geography/factions/iris_academy.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Council of Peace",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 9,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-C667283E590F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../factions/council_of_peace.md",
+      "target_path": "canon/geography/factions/council_of_peace.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Photoli",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 17,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-525AE8A6234B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../species/photoli.md",
+      "target_path": "canon/geography/species/photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ahr",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 19,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-9E9E93EB5116",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../species/photoli.md",
+      "target_path": "canon/geography/species/photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris Academy",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 28,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-5CABAF7A954F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../factions/iris_academy.md",
+      "target_path": "canon/geography/factions/iris_academy.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Council of Peace",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 28,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-C0DAAAFB0802",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../factions/council_of_peace.md",
+      "target_path": "canon/geography/factions/council_of_peace.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Cataclysm",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 39,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-6134DEB74744",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../geography/the_cataclysm.md",
+      "target_path": "canon/geography/geography/the_cataclysm.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Photoli",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 66,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-96E8A4EA7D02",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../species/photoli.md",
+      "target_path": "canon/geography/species/photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 70,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-A1E6765BC207",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris Academy",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 71,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-EEA5EF444182",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../factions/iris_academy.md",
+      "target_path": "canon/geography/factions/iris_academy.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Council of Peace",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 72,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-02198EBBA777",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../factions/council_of_peace.md",
+      "target_path": "canon/geography/factions/council_of_peace.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "The Photoli (faction)",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 73,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-4DD8C86EF35F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../factions/the_photoli.md",
+      "target_path": "canon/geography/factions/the_photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Dawnbreak",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 77,
+        "source_id": "SRC-LORE-REPO-52D76F0A669B"
+      },
+      "relationship_id": "LREL-67DAD7388F16",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8EFFE8972A9F",
+      "source_id": "SRC-LORE-REPO-52D76F0A669B",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/dawnbreak.md",
+      "target_path": "canon/geography/geography/sectors/dawnbreak.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 9,
+        "source_id": "SRC-LORE-REPO-0D9B643E0BC7"
+      },
+      "relationship_id": "LREL-0A7B4E828B7C",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-32E97DD5E613",
+      "source_id": "SRC-LORE-REPO-0D9B643E0BC7",
+      "target_entity_id": null,
+      "target_observed": "../geography/the_cataclysm.md",
+      "target_path": "canon/geography/geography/the_cataclysm.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 38,
+        "source_id": "SRC-LORE-REPO-0D9B643E0BC7"
+      },
+      "relationship_id": "LREL-48393E672EEA",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-32E97DD5E613",
+      "source_id": "SRC-LORE-REPO-0D9B643E0BC7",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 66,
+        "source_id": "SRC-LORE-REPO-0D9B643E0BC7"
+      },
+      "relationship_id": "LREL-B99E03CC1A69",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-32E97DD5E613",
+      "source_id": "SRC-LORE-REPO-0D9B643E0BC7",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Coral Nebula",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 67,
+        "source_id": "SRC-LORE-REPO-0D9B643E0BC7"
+      },
+      "relationship_id": "LREL-1D0826A456E9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-32E97DD5E613",
+      "source_id": "SRC-LORE-REPO-0D9B643E0BC7",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/coral_nebula.md",
+      "target_path": "canon/geography/geography/sectors/coral_nebula.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Denebula Utopia",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 71,
+        "source_id": "SRC-LORE-REPO-0D9B643E0BC7"
+      },
+      "relationship_id": "LREL-18509D47A0AB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-32E97DD5E613",
+      "source_id": "SRC-LORE-REPO-0D9B643E0BC7",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/denebula_utopia.md",
+      "target_path": "canon/geography/geography/sectors/denebula_utopia.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Frenir",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 72,
+        "source_id": "SRC-LORE-REPO-0D9B643E0BC7"
+      },
+      "relationship_id": "LREL-AFCB100B6F13",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-32E97DD5E613",
+      "source_id": "SRC-LORE-REPO-0D9B643E0BC7",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/frenir.md",
+      "target_path": "canon/geography/geography/sectors/frenir.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "MUD",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-E4830C354E70",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-C17ED998020D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../geography/the_cataclysm.md",
+      "target_path": "canon/geography/geography/the_cataclysm.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Mycenas-V",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 20,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-90CBAE163682",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/mycenas_government.md",
+      "target_path": "canon/geography/factions/mycenas_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Xianyang-VI",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 20,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-D9DFB979291F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/xyanyang_government.md",
+      "target_path": "canon/geography/factions/xyanyang_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Pergamos-VIII",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 20,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-BA046EF176D4",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/pergamos_new_government.md",
+      "target_path": "canon/geography/factions/pergamos_new_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Abyd-IX",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 20,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-5495D1D4FAFE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/abyd_government.md",
+      "target_path": "canon/geography/factions/abyd_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Convergence War",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 24,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-50D1C89681DA",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../history/eras_of_star_atlas.md",
+      "target_path": "canon/geography/history/eras_of_star_atlas.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Mycenas",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 53,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-1CC0000C51B8",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/mycenas_government.md",
+      "target_path": "canon/geography/factions/mycenas_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Xianyang",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 54,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-6EEABA4EC2D9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/xyanyang_government.md",
+      "target_path": "canon/geography/factions/xyanyang_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Abyd",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 55,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-69D45038AE0B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/abyd_government.md",
+      "target_path": "canon/geography/factions/abyd_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Pergamos",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 56,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-1941D308538A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/pergamos_new_government.md",
+      "target_path": "canon/geography/factions/pergamos_new_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Pergamos Shadow Banks",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 64,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-165541862D00",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/pergamos_shadow_banks.md",
+      "target_path": "canon/geography/factions/pergamos_shadow_banks.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Arch Druidess Kaelen Rhos",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 68,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-841D3261BB69",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/hanging_gardens_government.md",
+      "target_path": "canon/geography/factions/hanging_gardens_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ECOS",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 68,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-9F0FD3C8CEC3",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/earth_conscious_ontological_society.md",
+      "target_path": "canon/geography/factions/earth_conscious_ontological_society.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Zenith Door",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 72,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-B4B0AD516128",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/zenith_door.md",
+      "target_path": "canon/geography/geography/sectors/zenith_door.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Free Harbors",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 72,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-94B896836665",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/free_harbors.md",
+      "target_path": "canon/geography/geography/sectors/free_harbors.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Redam Government",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 80,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-547599A965D3",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/redam_government.md",
+      "target_path": "canon/geography/factions/redam_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "MUD",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 81,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-BF684C778FEE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Xianyang Enforcers",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 82,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-716F9600EAA5",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/xianyang_enforcers.md",
+      "target_path": "canon/geography/factions/xianyang_enforcers.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Mycenas Government",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 83,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-FFB465F92668",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/mycenas_government.md",
+      "target_path": "canon/geography/factions/mycenas_government.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Pergamos Shadow Banks",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 84,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-7E89D5DF64FB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../factions/pergamos_shadow_banks.md",
+      "target_path": "canon/geography/factions/pergamos_shadow_banks.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Zenith Door",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 88,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-0EB31539F921",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/zenith_door.md",
+      "target_path": "canon/geography/geography/sectors/zenith_door.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Free Harbors",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 89,
+        "source_id": "SRC-LORE-REPO-CA9BC109DD66"
+      },
+      "relationship_id": "LREL-B71F17FCB440",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "source_id": "SRC-LORE-REPO-CA9BC109DD66",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/free_harbors.md",
+      "target_path": "canon/geography/geography/sectors/free_harbors.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sogmian",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-1F6976054728",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../species/sogmian.md",
+      "target_path": "canon/geography/species/sogmian.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-2BD57DB488A4",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Convergence War",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 12,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-E139E14ACBC7",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../history/eras_of_star_atlas.md",
+      "target_path": "canon/geography/history/eras_of_star_atlas.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "House Akalma",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 59,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-5398A091149D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/akalma_exile.md",
+      "target_path": "canon/geography/geography/sectors/akalma_exile.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Akalma Reckoning",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 73,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-0968276BC099",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/akalma_exile.md",
+      "target_path": "canon/geography/geography/sectors/akalma_exile.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "House Akalma",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 85,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-B37FA04CCE07",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/akalma_exile.md",
+      "target_path": "canon/geography/geography/sectors/akalma_exile.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sogmian",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 123,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-EFF2C014C084",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../species/sogmian.md",
+      "target_path": "canon/geography/species/sogmian.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "ONI Consortium",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 127,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-8885C73F0C98",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../factions/oni.md",
+      "target_path": "canon/geography/factions/oni.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sogmian Sovereignty",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 128,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-1F47DD8FB60F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../factions/sogmian_sovereignty.md",
+      "target_path": "canon/geography/factions/sogmian_sovereignty.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Sons of Patrah",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 129,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-67B39A193189",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../factions/sons_of_patrah.md",
+      "target_path": "canon/geography/factions/sons_of_patrah.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Akalma Exile",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 133,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-627B53A4005F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/akalma_exile.md",
+      "target_path": "canon/geography/geography/sectors/akalma_exile.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Vega Fall",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 134,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-1B54385AFFEA",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/vega_fall.md",
+      "target_path": "canon/geography/geography/sectors/vega_fall.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Named Characters",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 138,
+        "source_id": "SRC-LORE-REPO-D13E72764083"
+      },
+      "relationship_id": "LREL-87109B3D2E03",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-307B1CA44D94",
+      "source_id": "SRC-LORE-REPO-D13E72764083",
+      "target_entity_id": null,
+      "target_observed": "../meta/named_characters.md",
+      "target_path": "canon/geography/meta/named_characters.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur Regency",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-7F527F8E0A60",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ioki",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-DD8DFBE34124",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Resonant Forge",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 28,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-ED5850053185",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/resonant_forge.md",
+      "target_path": "canon/geography/factions/resonant_forge.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Eternity system",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 28,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-C24938AF0E63",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ka-dara",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 32,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-C98B86D36004",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/ka_dara.md",
+      "target_path": "canon/geography/geography/sectors/ka_dara.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Izarian",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 32,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-BD2AA278C3D0",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/izarians.md",
+      "target_path": "canon/geography/factions/izarians.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Resonant Forge",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 40,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-CB2468B16CE3",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/resonant_forge.md",
+      "target_path": "canon/geography/factions/resonant_forge.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "dark sect",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 40,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-4914FA49FBAC",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/dark_sects.md",
+      "target_path": "canon/geography/factions/dark_sects.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur Regency",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 60,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-6F821375DEA9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Resonant Forge",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 61,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-5E59D3D73CF3",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/resonant_forge.md",
+      "target_path": "canon/geography/factions/resonant_forge.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Dark Sects",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 62,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-8867118AEE70",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/dark_sects.md",
+      "target_path": "canon/geography/factions/dark_sects.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "VZUS Enterprises",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 63,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-0EC3029DEB2B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ka-dara",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 64,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-05C477ACCC65",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/ka_dara.md",
+      "target_path": "canon/geography/factions/ka_dara.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Izarians",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 65,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-5F45895C4377",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../factions/izarians.md",
+      "target_path": "canon/geography/factions/izarians.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ka-dara",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 69,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-0D60B319CD74",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/ka_dara.md",
+      "target_path": "canon/geography/geography/sectors/ka_dara.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Eternity / Ioki",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 70,
+        "source_id": "SRC-LORE-REPO-6EB4A44E51C3"
+      },
+      "relationship_id": "LREL-948799F4708B",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-A9650190781A",
+      "source_id": "SRC-LORE-REPO-6EB4A44E51C3",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 9,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-C9ACAFDF7BA8",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "dark sect",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 11,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-AF5860645FEC",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/dark_sects.md",
+      "target_path": "canon/geography/factions/dark_sects.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur sects",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 44,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-1AF8411F8074",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Galia Medical Union",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 45,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-C261443C48FB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/galia_medical_union.md",
+      "target_path": "canon/geography/factions/galia_medical_union.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Fracture Merchants",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 55,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-A7175BB31EAE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/dark_sects.md",
+      "target_path": "canon/geography/factions/dark_sects.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Siphon Choir",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 56,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-E7DDF8B5CAAE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/dark_sects.md",
+      "target_path": "canon/geography/factions/dark_sects.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Relic Barons",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 63,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-C7A486393E36",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/relic_barons.md",
+      "target_path": "canon/geography/factions/relic_barons.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Harkend",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 66,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-ECFC75642709",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/harkend.md",
+      "target_path": "canon/geography/geography/sectors/harkend.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur Regency",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 75,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-6CBABA4B4DC4",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Relic Barons",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 76,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-9F4C8C28F21A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/relic_barons.md",
+      "target_path": "canon/geography/factions/relic_barons.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Dark Sects",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 77,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-335CA4E9424A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/dark_sects.md",
+      "target_path": "canon/geography/factions/dark_sects.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Galia Medical Union",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 78,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-3C3FAA31C910",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/galia_medical_union.md",
+      "target_path": "canon/geography/factions/galia_medical_union.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Living Resonance",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 79,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-E0B4262EE4BE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../factions/living_resonance.md",
+      "target_path": "canon/geography/factions/living_resonance.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Harkend",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 83,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-3EF1B3097FFA",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/harkend.md",
+      "target_path": "canon/geography/geography/sectors/harkend.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Vostalgia",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 84,
+        "source_id": "SRC-LORE-REPO-366FE7422342"
+      },
+      "relationship_id": "LREL-67D9C09D3DAE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "source_id": "SRC-LORE-REPO-366FE7422342",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/vostalgia.md",
+      "target_path": "canon/geography/geography/sectors/vostalgia.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Exodus",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-C734D28317CF",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/exodus.md",
+      "target_path": "canon/geography/geography/sectors/exodus.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Amora",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 27,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-9CC578A1B935",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/amora.md",
+      "target_path": "canon/geography/geography/sectors/amora.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Scientia",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 40,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-D5B6A7D4C3EC",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Verzan",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 43,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-8FEB4D4312E0",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/verzan.md",
+      "target_path": "canon/geography/geography/sectors/verzan.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "MUD",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 61,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-FA636D99B4C5",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Scientia",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 62,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-BD54B2C4191E",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Exodus",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 66,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-0909D20AECFE",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/exodus.md",
+      "target_path": "canon/geography/geography/sectors/exodus.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Verzan",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 67,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-3BF1371F521F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/verzan.md",
+      "target_path": "canon/geography/geography/sectors/verzan.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Amora",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 68,
+        "source_id": "SRC-LORE-REPO-848EE9C2D592"
+      },
+      "relationship_id": "LREL-C43424D596D9",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-1D63BABD228C",
+      "source_id": "SRC-LORE-REPO-848EE9C2D592",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/amora.md",
+      "target_path": "canon/geography/geography/sectors/amora.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ahr",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-B5F3374A8CCC",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../species/photoli.md",
+      "target_path": "canon/geography/species/photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "MUD",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-EFA339AD0C04",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Order of Light",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 28,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-EECF984DAAD2",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../factions/order_of_light.md",
+      "target_path": "canon/geography/factions/order_of_light.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Photoli",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 30,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-55A8D837509F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../species/photoli.md",
+      "target_path": "canon/geography/species/photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Valiant",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 50,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-2610FE8877EB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/valiant.md",
+      "target_path": "canon/geography/geography/sectors/valiant.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "MUD",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 58,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-CC4FAAD34645",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../factions/mud.md",
+      "target_path": "canon/geography/factions/mud.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Order of Light",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 59,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-7959F45B1BEB",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../factions/order_of_light.md",
+      "target_path": "canon/geography/factions/order_of_light.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "The Photoli",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 60,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-823D9C6B7DC4",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../factions/the_photoli.md",
+      "target_path": "canon/geography/factions/the_photoli.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Exodus",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 64,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-2B81CA33B45A",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/exodus.md",
+      "target_path": "canon/geography/geography/sectors/exodus.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Valiant",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 65,
+        "source_id": "SRC-LORE-REPO-2348155DB4FD"
+      },
+      "relationship_id": "LREL-50DECEC95A78",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-86792D2ACFBF",
+      "source_id": "SRC-LORE-REPO-2348155DB4FD",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/valiant.md",
+      "target_path": "canon/geography/geography/sectors/valiant.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Living Resonance",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 4,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-0663C6747BCC",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../factions/living_resonance.md",
+      "target_path": "canon/geography/factions/living_resonance.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-6AC158022082",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ioki",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 10,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-4D8AB92D9B9F",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../geography/sectors/eternity.md",
+      "target_path": "canon/geography/geography/sectors/eternity.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Living Resonance",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 37,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-213A445454B2",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../factions/living_resonance.md",
+      "target_path": "canon/geography/factions/living_resonance.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur Regency",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 65,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-CECA6610AABF",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../factions/ustur.md",
+      "target_path": "canon/geography/factions/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Living Resonance",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 66,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-F13DFF728F5C",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../factions/living_resonance.md",
+      "target_path": "canon/geography/factions/living_resonance.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Golden Star",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 67,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-5C9899057104",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../factions/golden_star.md",
+      "target_path": "canon/geography/factions/golden_star.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Iris Academy",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 68,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-ACE905075700",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../factions/iris_academy.md",
+      "target_path": "canon/geography/factions/iris_academy.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Ustur",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 72,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-87B1010C3D2D",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../species/ustur.md",
+      "target_path": "canon/geography/species/ustur.md",
+      "target_source_id": null
+    },
+    {
+      "label_observed": "Named Characters",
+      "provenance": {
+        "confidence": "HIGH",
+        "line": 76,
+        "source_id": "SRC-LORE-REPO-CF5F8E58F167"
+      },
+      "relationship_id": "LREL-00E73711B089",
+      "relationship_type": "REFERENCES",
+      "resolution_status": "UNRESOLVED",
+      "semantic_scope": "DOCUMENT_REFERENCE_NOT_ASSERTED_FACT_RELATIONSHIP",
+      "source_entity_id": "LRTX-SECTOR-809D89572844",
+      "source_id": "SRC-LORE-REPO-CF5F8E58F167",
+      "target_entity_id": null,
+      "target_observed": "../meta/named_characters.md",
+      "target_path": "canon/geography/meta/named_characters.md",
+      "target_source_id": null
+    }
+  ]
+}

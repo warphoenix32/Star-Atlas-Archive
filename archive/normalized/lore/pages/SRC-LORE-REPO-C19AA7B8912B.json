@@ -1,0 +1,90 @@
+{
+  "aliases": [
+    "MRZ-8"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/ophek_oasis/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Ophek Oasis Sector (MRZ-8)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 12,
+      "text": "Key Lore"
+    },
+    {
+      "level": 3,
+      "line": 14,
+      "text": "Ophek Revel — The Maestro of Mirage"
+    },
+    {
+      "level": 3,
+      "line": 26,
+      "text": "The Oasis"
+    },
+    {
+      "level": 2,
+      "line": 38,
+      "text": "Political Influence"
+    },
+    {
+      "level": 2,
+      "line": 46,
+      "text": "Systems & Locations (To be populated)"
+    },
+    {
+      "level": 2,
+      "line": 50,
+      "text": "Lore Note: Merchant Prince Title"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": false,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-C19AA7B8912B.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-C19AA7B8912B.md",
+  "normalized_sha256": "29869d760d149d1629d1f473f74a77fa9bf1893519c278b0fa998e8a55fe7866",
+  "outbound_links": [],
+  "preferred_name": "Ophek Oasis Sector (MRZ-8)",
+  "primary_entity_id": "LRTX-SECTOR-784AAFCD7E96",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/ophek_oasis.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/ophek_oasis.md",
+  "published_mirror_status": "TEXT_IDENTICAL",
+  "raw_byte_length": 3047,
+  "raw_sha256": "29869d760d149d1629d1f473f74a77fa9bf1893519c278b0fa998e8a55fe7866",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-C19AA7B8912B",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/ophek_oasis.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

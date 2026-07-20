@@ -1,0 +1,154 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/aurora/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Aurora Sector (MUD 3)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "Calico Industries Hub"
+    },
+    {
+      "level": 2,
+      "line": 28,
+      "text": "Political Influence"
+    },
+    {
+      "level": 3,
+      "line": 30,
+      "text": "Dominant Power: The Synod (The Merchants)"
+    },
+    {
+      "level": 2,
+      "line": 44,
+      "text": "Cross-References"
+    },
+    {
+      "level": 3,
+      "line": 46,
+      "text": "Factions"
+    },
+    {
+      "level": 3,
+      "line": 53,
+      "text": "Geography"
+    }
+  ],
+  "internal_links": [
+    {
+      "label": "ONI",
+      "line": 24,
+      "original_target": "../factions/oni.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/oni.md"
+    },
+    {
+      "label": "Church",
+      "line": 24,
+      "original_target": "../factions/mud.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/mud.md"
+    },
+    {
+      "label": "Pearce Council",
+      "line": 24,
+      "original_target": "../factions/mud.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/mud.md"
+    },
+    {
+      "label": "Verzan",
+      "line": 38,
+      "original_target": "../geography/sectors/verzan.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/verzan.md"
+    },
+    {
+      "label": "MUD",
+      "line": 48,
+      "original_target": "../factions/mud.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/mud.md"
+    },
+    {
+      "label": "The Synod",
+      "line": 49,
+      "original_target": "../factions/mud.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/mud.md"
+    },
+    {
+      "label": "ONI Consortium",
+      "line": 51,
+      "original_target": "../factions/oni.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/oni.md"
+    },
+    {
+      "label": "Exodus",
+      "line": 55,
+      "original_target": "../geography/sectors/exodus.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/exodus.md"
+    },
+    {
+      "label": "Verzan",
+      "line": 56,
+      "original_target": "../geography/sectors/verzan.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/verzan.md"
+    }
+  ],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation.",
+    "One or more upstream relative references do not resolve inside the pinned repository snapshot."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-A06936FF5B9D.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-A06936FF5B9D.md",
+  "normalized_sha256": "196e468736ac9e6400bfc4eb1dd7c1b288ceb3fee9799f05aea5382f3b7a28c0",
+  "outbound_links": [],
+  "preferred_name": "Aurora Sector (MUD 3)",
+  "primary_entity_id": "LRTX-SECTOR-CF2E9D62A73D",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/aurora.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/aurora.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 2583,
+  "raw_sha256": "196e468736ac9e6400bfc4eb1dd7c1b288ceb3fee9799f05aea5382f3b7a28c0",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-A06936FF5B9D",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/aurora.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

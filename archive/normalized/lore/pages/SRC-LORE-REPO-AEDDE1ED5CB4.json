@@ -1,0 +1,124 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galactic_atlas/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Star Atlas Galactic Atlas (Consolidated)"
+    },
+    {
+      "level": 2,
+      "line": 7,
+      "text": "Galactic Structure"
+    },
+    {
+      "level": 2,
+      "line": 17,
+      "text": "Safe Zones (15 Sectors)"
+    },
+    {
+      "level": 3,
+      "line": 19,
+      "text": "MUD Safe Zone (5)"
+    },
+    {
+      "level": 3,
+      "line": 29,
+      "text": "ONI Safe Zone (5)"
+    },
+    {
+      "level": 3,
+      "line": 39,
+      "text": "Ustur Safe Zone (5)"
+    },
+    {
+      "level": 2,
+      "line": 51,
+      "text": "Medium Risk Zone — MUD-Influenced (12 Sectors)"
+    },
+    {
+      "level": 2,
+      "line": 70,
+      "text": "Key Locations (Non-Sector)"
+    },
+    {
+      "level": 2,
+      "line": 86,
+      "text": "Institutions"
+    },
+    {
+      "level": 3,
+      "line": 88,
+      "text": "Council of Peace (COP)"
+    },
+    {
+      "level": 3,
+      "line": 95,
+      "text": "Star Atlas (Sentient Blockchain)"
+    },
+    {
+      "level": 2,
+      "line": 104,
+      "text": "Manufacturers"
+    },
+    {
+      "level": 2,
+      "line": 117,
+      "text": "History: The Convergence War"
+    },
+    {
+      "level": 2,
+      "line": 130,
+      "text": "Minor Factions"
+    },
+    {
+      "level": 2,
+      "line": 142,
+      "text": "Source Files"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "Absolute upstream workstation paths are preserved in immutable raw evidence and redacted from this normalized derivative by curator decision LRH-014."
+  ],
+  "lore_type": "REFERENCE",
+  "manual_review_required": false,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-AEDDE1ED5CB4.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-AEDDE1ED5CB4.md",
+  "normalized_sha256": "3e0286b5b9dca5409759bfcd118dac001420759ef147bd8bc4da0cd1253163d2",
+  "outbound_links": [],
+  "preferred_name": "Star Atlas Galactic Atlas (Consolidated)",
+  "primary_entity_id": "LRTX-REFERENCE-C42CC08666CF",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/reference/atlas/galactic_atlas.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/reference/atlas/galactic_atlas.md",
+  "published_mirror_status": "TEXT_IDENTICAL",
+  "raw_byte_length": 7377,
+  "raw_sha256": "34beba56d6efc9add9cae8a339b8fc768e785ca4626218bbd23e5cf50354a3be",
+  "redactions": {
+    "count": 1,
+    "curator_decision_id": "LRH-014",
+    "policy": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS"
+  },
+  "repository_entity_type": "DOCUMENT",
+  "source_id": "SRC-LORE-REPO-AEDDE1ED5CB4",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "reference",
+    "atlas"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/reference/atlas/galactic_atlas.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

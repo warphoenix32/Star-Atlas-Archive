@@ -1,0 +1,827 @@
+{
+  "campaign_id": "lore-repository-ingestion-2026-07",
+  "decision_items": [
+    {
+      "accepted_disposition": "RECOGNIZE_PERSONAL_REPOSITORY_AS_ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY",
+      "allowed_dispositions": [
+        "KEEP_OPERATOR_DESIGNATED_TAXONOMY_AUTHORITY_WITH_OFFICIAL_AFFILIATION_UNVERIFIED",
+        "DESCRIBE_AS_OFFICIAL_STAR_ATLAS_SOURCE",
+        "DESCRIBE_AS_FAN_CURATED_SOURCE"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Choose how the Archive should describe the upstream repository without inferring ATMTA authorship.",
+      "decision_note": "Operator confirms Jose is a Star Atlas team member responsible for lore; his personal repository is treated as ATMTA-affiliated and canonical for lore taxonomy and nomenclature.",
+      "evidence": [
+        "LRC-001-AUTHORITY-LABEL",
+        "archive/provenance/lore-repository/authority-assessment.json"
+      ],
+      "recommended_disposition": "KEEP_OPERATOR_DESIGNATED_TAXONOMY_AUTHORITY_WITH_OFFICIAL_AFFILIATION_UNVERIFIED",
+      "review_id": "LRH-001",
+      "status": "ACCEPTED",
+      "topic": "Upstream identity label"
+    },
+    {
+      "accepted_disposition": "MAP_TO_REGION_AND_RETAIN_ATLAS_DOCUMENT_AS_REFERENCE",
+      "allowed_dispositions": [
+        "MAP_TO_REGION_AND_RETAIN_ATLAS_DOCUMENT_AS_REFERENCE",
+        "MAP_TO_ATLAS_DOCUMENT",
+        "MAP_TO_BOTH",
+        "DEFER"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Map LORE-GALIA to the region, the atlas reference document, both, or neither.",
+      "evidence": [
+        "canon/geography/galactic_regions.md",
+        "canon/reference/atlas/galia_expanse_atlas.md"
+      ],
+      "recommended_disposition": "MAP_TO_REGION_AND_RETAIN_ATLAS_DOCUMENT_AS_REFERENCE",
+      "review_id": "LRH-002",
+      "status": "ACCEPTED",
+      "topic": "Galia Expanse legacy mapping"
+    },
+    {
+      "accepted_disposition": "KEEP_DISTINCT_INSTITUTION_AND_FACTION_ENTITIES_WITH_SHARED_ALIAS",
+      "allowed_dispositions": [
+        "KEEP_DISTINCT_INSTITUTION_AND_FACTION_ENTITIES_WITH_SHARED_ALIAS",
+        "MERGE_AS_ONE_INSTITUTION",
+        "MERGE_AS_ONE_FACTION",
+        "DEFER"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Decide whether the institution and faction pages represent distinct canonical entities or two views of one entity.",
+      "evidence": [
+        "canon/institutions/council_of_peace.md",
+        "canon/factions/council_of_peace.md"
+      ],
+      "recommended_disposition": "KEEP_DISTINCT_INSTITUTION_AND_FACTION_ENTITIES_WITH_SHARED_ALIAS",
+      "review_id": "LRH-003",
+      "status": "ACCEPTED",
+      "topic": "Council of Peace entity split"
+    },
+    {
+      "accepted_disposition": "KEEP_DISTINCT_SPECIES_AND_FACTION_ENTITIES_WITH_SHARED_NAME",
+      "allowed_dispositions": [
+        "KEEP_DISTINCT_SPECIES_AND_FACTION_ENTITIES_WITH_SHARED_NAME",
+        "MAP_LEGACY_ID_TO_FACTION_ONLY",
+        "MAP_LEGACY_ID_TO_SPECIES_ONLY",
+        "DEFER"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Decide whether Ustur species and Ustur faction remain distinct canonical entities.",
+      "evidence": [
+        "canon/species/ustur.md",
+        "canon/factions/ustur.md"
+      ],
+      "recommended_disposition": "KEEP_DISTINCT_SPECIES_AND_FACTION_ENTITIES_WITH_SHARED_NAME",
+      "review_id": "LRH-004",
+      "status": "ACCEPTED",
+      "topic": "Ustur entity split"
+    },
+    {
+      "accepted_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
+      "allowed_dispositions": [
+        "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
+        "DEPRECATE_LEGACY_ENTITY",
+        "RESEARCH_FOR_DIRECT_PAGE"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Choose whether to preserve the unmatched legacy entity or defer it until a direct upstream page is acquired.",
+      "evidence": [
+        "LORE-NARRATIVE-CORE",
+        "operations/campaigns/lore-repository-ingestion-2026-07/taxonomy-migration-report.json"
+      ],
+      "recommended_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
+      "review_id": "LRH-005",
+      "status": "ACCEPTED",
+      "topic": "Star Atlas: CORE legacy entity"
+    },
+    {
+      "accepted_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
+      "allowed_dispositions": [
+        "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
+        "DEPRECATE_LEGACY_ENTITY",
+        "RESEARCH_FOR_DIRECT_PAGE"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Choose whether to preserve the unmatched legacy entity or defer it until a direct upstream page is acquired.",
+      "evidence": [
+        "LORE-VOICE-OF-IRIS",
+        "operations/campaigns/lore-repository-ingestion-2026-07/taxonomy-migration-report.json"
+      ],
+      "recommended_disposition": "PRESERVE_LEGACY_ENTITY_AND_DEFER_NEW_MAPPING",
+      "review_id": "LRH-006",
+      "status": "ACCEPTED",
+      "topic": "The Voice of Iris legacy entity"
+    },
+    {
+      "accepted_disposition": "KEEP_CURRENT_MAIN_AS_SOURCE_AND_PRESERVE_LIVE_SITE_AS_SEPARATE_SNAPSHOT",
+      "allowed_dispositions": [
+        "KEEP_CURRENT_MAIN_AS_SOURCE_AND_PRESERVE_LIVE_SITE_AS_SEPARATE_SNAPSHOT",
+        "USE_LIVE_DEPLOYMENT_TEXT",
+        "WAIT_FOR_REDEPLOYMENT"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Confirm whether current main remains the ingestion authority even though the live gh-pages deployment is older.",
+      "evidence": [
+        "LRC-003-BRANCH-AUTHORITY",
+        "LRC-004-DEPLOYMENT-STALE"
+      ],
+      "recommended_disposition": "KEEP_CURRENT_MAIN_AS_SOURCE_AND_PRESERVE_LIVE_SITE_AS_SEPARATE_SNAPSHOT",
+      "review_id": "LRH-007",
+      "status": "ACCEPTED",
+      "topic": "Source branch and live deployment"
+    },
+    {
+      "accepted_disposition": "CANON_CONTROLS_TAXONOMY_AND_BOTH_TEXT_VARIANTS_REMAIN_PRESERVED",
+      "allowed_dispositions": [
+        "CANON_CONTROLS_TAXONOMY_AND_BOTH_TEXT_VARIANTS_REMAIN_PRESERVED",
+        "DOCS_CONTROLS_PUBLISHED_TEXT",
+        "REQUIRE_PAGE_BY_PAGE_ADJUDICATION"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Choose the standing rule for 86 divergent canon/docs page pairs.",
+      "evidence": [
+        "operations/campaigns/lore-repository-ingestion-2026-07/mirror-divergence-ledger.json"
+      ],
+      "evidence_count": 86,
+      "recommended_disposition": "CANON_CONTROLS_TAXONOMY_AND_BOTH_TEXT_VARIANTS_REMAIN_PRESERVED",
+      "review_id": "LRH-008",
+      "status": "ACCEPTED",
+      "topic": "Canon/docs mirror divergence policy"
+    },
+    {
+      "accepted_disposition": "PRESERVE_SOURCE_AND_STAGE_SEPARATE_LINK_REPAIR_CAMPAIGN",
+      "allowed_dispositions": [
+        "PRESERVE_SOURCE_AND_STAGE_SEPARATE_LINK_REPAIR_CAMPAIGN",
+        "LEAVE_PERMANENTLY_UNRESOLVED",
+        "REPAIR_NORMALIZED_LINKS_NOW"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Choose whether 252 broken source-local links remain preserved defects or receive a later repair campaign.",
+      "evidence": [
+        "operations/campaigns/lore-repository-ingestion-2026-07/unresolved-reference-ledger.json"
+      ],
+      "evidence_count": 252,
+      "recommended_disposition": "PRESERVE_SOURCE_AND_STAGE_SEPARATE_LINK_REPAIR_CAMPAIGN",
+      "review_id": "LRH-009",
+      "status": "ACCEPTED",
+      "topic": "Unresolved upstream links"
+    },
+    {
+      "accepted_disposition": "CLASSIFY_AS_HISTORICAL_CANONICAL_SOURCE_SNAPSHOT_NOT_CURRENT_TAXONOMY",
+      "allowed_dispositions": [
+        "KEEP_AS_CANON_SOURCE_WITH_STALE_DEPLOYMENT_PROVENANCE",
+        "TREAT_AS_LIVE_SITE_ONLY",
+        "DEFER"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Classify the live sitemap URL that is absent from current docs but present in the canon source tree.",
+      "decision_note": "The ONI/CSS page is canonical-source evidence for its captured historical state, not current canonical taxonomy.",
+      "evidence": [
+        "canon/geography/oni_css_lore_layer.md",
+        "https://joseeduardonoot.github.io/star-atlas-lore/geography/oni_css_lore_layer/"
+      ],
+      "recommended_disposition": "KEEP_AS_CANON_SOURCE_WITH_STALE_DEPLOYMENT_PROVENANCE",
+      "review_id": "LRH-010",
+      "status": "ACCEPTED",
+      "topic": "Live sitemap-only ONI/CSS lore page"
+    },
+    {
+      "accepted_disposition": "DEFER_INDIVIDUAL_CORRECTIONS_UNTIL_OFFICIAL_PRIMARY_EVIDENCE_IS_ATTACHED",
+      "allowed_dispositions": [
+        "DEFER_INDIVIDUAL_CORRECTIONS_UNTIL_OFFICIAL_PRIMARY_EVIDENCE_IS_ATTACHED",
+        "ACCEPT_UPSTREAM_ORDER",
+        "CORRECT_SELECTED_ITEMS_WITH_CITATIONS"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Adjudicate or defer each of the 12 source-reported chronology ordering errors.",
+      "evidence": [
+        {
+          "earlier_line": 103,
+          "earlier_year": 2542,
+          "file": "factions\\ecos.md",
+          "later_line": 52,
+          "later_year": 2623
+        },
+        {
+          "earlier_line": 83,
+          "earlier_year": 2358,
+          "file": "factions\\frenir_new_government.md",
+          "later_line": 59,
+          "later_year": 2624
+        },
+        {
+          "earlier_line": 33,
+          "earlier_year": 2364,
+          "file": "geography\\sectors\\frenir.md",
+          "later_line": 27,
+          "later_year": 2533
+        },
+        {
+          "earlier_line": 104,
+          "earlier_year": 2421,
+          "file": "geography\\sectors\\frenir.md",
+          "later_line": 98,
+          "later_year": 2624
+        },
+        {
+          "earlier_line": 23,
+          "earlier_year": 2471,
+          "file": "geography\\sectors\\ilidae.md",
+          "later_line": 19,
+          "later_year": 2646
+        },
+        {
+          "earlier_line": 54,
+          "earlier_year": 2524,
+          "file": "geography\\sectors\\pavo_passage.md",
+          "later_line": 49,
+          "later_year": 2567
+        },
+        {
+          "earlier_line": 36,
+          "earlier_year": 2525,
+          "file": "geography\\sectors\\zenith_door.md",
+          "later_line": 17,
+          "later_year": 2539
+        },
+        {
+          "earlier_line": 91,
+          "earlier_year": 2527,
+          "file": "institutions\\council_of_peace.md",
+          "later_line": 53,
+          "later_year": 2617
+        },
+        {
+          "earlier_line": 101,
+          "earlier_year": 2080,
+          "file": "species\\photoli.md",
+          "later_line": 75,
+          "later_year": 2569
+        },
+        {
+          "earlier_line": 167,
+          "earlier_year": 1461,
+          "file": "species\\sogmian.md",
+          "later_line": 128,
+          "later_year": 2621
+        },
+        {
+          "earlier_line": 180,
+          "earlier_year": 2363,
+          "file": "species\\sogmian.md",
+          "later_line": 176,
+          "later_year": 2364
+        },
+        {
+          "earlier_line": 30,
+          "earlier_year": 2463,
+          "file": "species\\ustur.md",
+          "later_line": 29,
+          "later_year": 2486
+        }
+      ],
+      "evidence_count": 12,
+      "recommended_disposition": "DEFER_INDIVIDUAL_CORRECTIONS_UNTIL_OFFICIAL_PRIMARY_EVIDENCE_IS_ATTACHED",
+      "review_id": "LRH-011",
+      "status": "ACCEPTED",
+      "topic": "Self-reported chronology ordering errors"
+    },
+    {
+      "accepted_disposition": "TREAT_AS_RESEARCH_CANDIDATES_NOT_CONFIRMED_CONTRADICTIONS",
+      "allowed_dispositions": [
+        "TREAT_AS_RESEARCH_CANDIDATES_NOT_CONFIRMED_CONTRADICTIONS",
+        "REVIEW_CLUSTER_BY_CLUSTER",
+        "ACCEPT_AS_CONTRADICTIONS"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Adjudicate or dismiss each of the 20 machine-flagged lexical contradiction clusters.",
+      "evidence": [
+        {
+          "entries": [
+            {
+              "context": "### The Catastrophe (~2435–2439)",
+              "file": "factions\\ashroot_grove.md",
+              "year": 2435
+            },
+            {
+              "context": "## The Catastrophe (~1965)",
+              "file": "geography\\sectors\\izar_fallen_civilization.md",
+              "year": 1965
+            }
+          ],
+          "keywords": [
+            "Catastrophe"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "| **Founded** | ~2540s (the legend dates to ~2495; the company is much younger) |",
+              "file": "factions\\barrot_entertainment_company.md",
+              "year": 2540
+            },
+            {
+              "context": "| **Founded** | ~2540s (the legend dates to ~2495; the company is much younger) |",
+              "file": "factions\\barrot_entertainment_company.md",
+              "year": 2495
+            },
+            {
+              "context": "**Founded**: ~2471",
+              "file": "factions\\fimbul_industries.md",
+              "year": 2471
+            }
+          ],
+          "keywords": [
+            "Founded"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2517**: Barrot re-enters the gateway. He never returns. The portal becomes unapproachable",
+              "file": "factions\\barrot_entertainment_company.md",
+              "year": 2517
+            },
+            {
+              "context": "- **~2495**: A strange portal opens in MRZ-14 — Barrot enters",
+              "file": "geography\\sectors\\barrot_gateway.md",
+              "year": 2495
+            }
+          ],
+          "keywords": [
+            "Barrot"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "### The Discovery (~2488)",
+              "file": "factions\\bluevael_mining_colonies.md",
+              "year": 2488
+            },
+            {
+              "context": "### Discovery (~2135)",
+              "file": "geography\\worlds\\etira.md",
+              "year": 2135
+            }
+          ],
+          "keywords": [
+            "Discovery"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2559**: **Herdus.soul**, a former disciple of **Chior.eldr** (co-founder of Zenith Door), leave",
+              "file": "factions\\bmah.md",
+              "year": 2559
+            },
+            {
+              "context": "- **~2539**: **Chior.eldr** and his disciple **Herdus.soul** discover the **wrecked sector** of Zeni",
+              "file": "geography\\sectors\\zenith_door.md",
+              "year": 2539
+            }
+          ],
+          "keywords": [
+            "Chior",
+            "Door",
+            "Herdus",
+            "Zenith"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2545**: Chior.eldr founds the **Iris Academy** at Zenith Door — Herdus is likely involved in th",
+              "file": "factions\\church_of_the_dreamer_below.md",
+              "year": 2545
+            },
+            {
+              "context": "- Chior relocates the **Iris Academy** (founded ~2525) to Zenith Door, establishing it as the instit",
+              "file": "geography\\sectors\\zenith_door.md",
+              "year": 2525
+            }
+          ],
+          "keywords": [
+            "Academy",
+            "Chior",
+            "Door",
+            "Iris",
+            "Zenith"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "### The Rule of 1000 (~2399)",
+              "file": "factions\\coral_dwellers.md",
+              "year": 2399
+            },
+            {
+              "context": "- **~2399**: The **Rule of 1000** is established after settlements with over 1000 citizens see flora",
+              "file": "geography\\sectors\\coral_nebula.md",
+              "year": 2399
+            },
+            {
+              "context": "- **~2433**: The Rule of 1000 is broken as settlers flock to the crescent market; corals spread out ",
+              "file": "geography\\sectors\\coral_nebula.md",
+              "year": 2433
+            },
+            {
+              "context": "### The Rule of 1000 (~2399)",
+              "file": "geography\\sectors\\coral_nebula.md",
+              "year": 2399
+            }
+          ],
+          "keywords": [
+            "Rule"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2477**: In Hanging Gardens, ECOS refines terraforming and communing tech — reportedly succeeds ",
+              "file": "factions\\ecos.md",
+              "year": 2477
+            },
+            {
+              "context": "- **~2477**: ECOS manages to refine their terraforming and communing technologies in Hanging Gardens",
+              "file": "geography\\sectors\\hanging_gardens.md",
+              "year": 2477
+            },
+            {
+              "context": "- **~2439**: ECOS gets overwhelmed and **flees to Hanging Gardens** (MRZ-16)",
+              "file": "geography\\sectors\\old_grove.md",
+              "year": 2439
+            }
+          ],
+          "keywords": [
+            "ECOS",
+            "Gardens",
+            "Hanging"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "| **Established** | ~2624 (post-COP liberation) |",
+              "file": "factions\\frenir_new_government.md",
+              "year": 2624
+            },
+            {
+              "context": "| **Established** | ~2623 (post-COP intervention) |",
+              "file": "factions\\pergamos_new_government.md",
+              "year": 2623
+            }
+          ],
+          "keywords": [
+            "Established"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "The ancient **Ki'Prah prison planet** — originally a Sogmian exile colony for oathbreakers (~2358), ",
+              "file": "factions\\frenir_new_government.md",
+              "year": 2358
+            },
+            {
+              "context": "The ancient **Ki'Prah prison planet** — originally a Sogmian exile colony for oathbreakers (~2358), ",
+              "file": "factions\\frenir_new_government.md",
+              "year": 2364
+            },
+            {
+              "context": "- **~2364**: Punaab-Sogmian cooperation begins (Ki'Prah prisoner exchange)",
+              "file": "history\\eras_of_star_atlas.md",
+              "year": 2364
+            }
+          ],
+          "keywords": [
+            "Prah",
+            "Punaab",
+            "Sogmian"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "### Origins (~2600)",
+              "file": "factions\\graft_research.md",
+              "year": 2600
+            },
+            {
+              "context": "### Origins (~2570s)",
+              "file": "factions\\the_collective_anarchy.md",
+              "year": 2570
+            }
+          ],
+          "keywords": [
+            "Origins"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2399**: Vega becomes House Akalma leader; members from other houses flock to Akalma under his m",
+              "file": "factions\\house_akalma.md",
+              "year": 2399
+            },
+            {
+              "context": "- **~2382**: Vega quickly rises through Akalma House ranks due to genius and combat prowess; his uni",
+              "file": "species\\sogmian.md",
+              "year": 2382
+            }
+          ],
+          "keywords": [
+            "Akalma",
+            "House",
+            "Sogmians",
+            "Vega"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **Pergamos** serves as a major harbor and trading post (~2542)",
+              "file": "factions\\jorvik.md",
+              "year": 2542
+            },
+            {
+              "context": "- **~2623**: **Pergamos's leading families banished** — new COP-compliant government formed",
+              "file": "history\\eras_of_star_atlas.md",
+              "year": 2623
+            }
+          ],
+          "keywords": [
+            "Pergamos"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- Council of Peace — `canon/institutions/council_of_peace.md` (COP MRZ intervention ~2623)",
+              "file": "factions\\jorvik.md",
+              "year": 2623
+            },
+            {
+              "context": "- Council of Peace — `canon/institutions/council_of_peace.md` (recognized independence ~2571)",
+              "file": "factions\\ophek.md",
+              "year": 2571
+            },
+            {
+              "context": "- Council of Peace — `canon/institutions/council_of_peace.md` (intervention ~2623)",
+              "file": "factions\\pergamos_shadow_banks.md",
+              "year": 2623
+            },
+            {
+              "context": "- Council of Peace — `canon/institutions/council_of_peace.md` (intervention ~2623-24)",
+              "file": "factions\\slavers_of_frenir.md",
+              "year": 2623
+            }
+          ],
+          "keywords": [
+            "Council",
+            "Peace"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2370**: Ingbus begins **kidnapping explorers** who venture into Ka-dara",
+              "file": "factions\\ka_dara.md",
+              "year": 2370
+            },
+            {
+              "context": "- **~1940–2100**: Ingbus begins researching resurrection, initially **preserving the moral principle",
+              "file": "geography\\sectors\\ka_dara.md",
+              "year": 1940
+            }
+          ],
+          "keywords": [
+            "Ingbus"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "| **Gel** | Photoli | Co-founder; died ~2511 under **mysterious circumstances** |",
+              "file": "factions\\merchant_princes_of_denebula.md",
+              "year": 2511
+            },
+            {
+              "context": "- **~2507**: The colony expands into **minor settlements**; the galaxy now knows there is an **illus",
+              "file": "geography\\sectors\\bluvael.md",
+              "year": 2507
+            }
+          ],
+          "keywords": [
+            "Photoli"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2602**: Ophek Oasis becomes the **biggest entertainment sector in the galaxy** — a title it has",
+              "file": "factions\\ophek.md",
+              "year": 2602
+            },
+            {
+              "context": "- **~2602**: Ophek Oasis becomes the **biggest \"entertainment\" sector in the galaxy** — its reputati",
+              "file": "geography\\sectors\\ophek_oasis.md",
+              "year": 2602
+            },
+            {
+              "context": "- **~2545**: Ophek renames sector **\"Ophek Oasis\"**",
+              "file": "history\\eras_of_star_atlas.md",
+              "year": 2545
+            },
+            {
+              "context": "- **~2571**: Ophek Oasis formally recognized as **independent territory** by COP",
+              "file": "history\\eras_of_star_atlas.md",
+              "year": 2571
+            },
+            {
+              "context": "- **~2602**: Ophek Oasis becomes biggest **entertainment sector** in the galaxy",
+              "file": "history\\eras_of_star_atlas.md",
+              "year": 2602
+            }
+          ],
+          "keywords": [
+            "Oasis",
+            "Ophek"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2624**: **Ophek Revel dies** — the cause is unrecorded, though rumors range from natural causes",
+              "file": "factions\\ophek.md",
+              "year": 2624
+            },
+            {
+              "context": "- **~2513**: Ophek Revel begins trading **HRZ information** during the war",
+              "file": "history\\eras_of_star_atlas.md",
+              "year": 2513
+            },
+            {
+              "context": "- **~2624**: **Ophek Revel dies** — his children inherit, each ruling a different entertainment doma",
+              "file": "history\\eras_of_star_atlas.md",
+              "year": 2624
+            }
+          ],
+          "keywords": [
+            "Ophek",
+            "Revel"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2623**: COP forces under **Vaor Scarka's** executive leadership launch a military offensive",
+              "file": "factions\\pergamos_new_government.md",
+              "year": 2623
+            },
+            {
+              "context": "- **~2454**: **Vaor Scarka** born",
+              "file": "history\\eras_of_star_atlas.md",
+              "year": 2454
+            }
+          ],
+          "keywords": [
+            "Scarka",
+            "Vaor"
+          ]
+        },
+        {
+          "entries": [
+            {
+              "context": "- **~2486**: The Relic Barons begin exploring Harkend, discovering artifacts from an old civilizatio",
+              "file": "factions\\relic_barons.md",
+              "year": 2486
+            },
+            {
+              "context": "- **~2550**: The Relic Barons discover a **device that pacifies the automatons** of Harkend within a",
+              "file": "geography\\sectors\\harkend.md",
+              "year": 2550
+            }
+          ],
+          "keywords": [
+            "Barons",
+            "Harkend",
+            "Relic"
+          ]
+        }
+      ],
+      "evidence_count": 20,
+      "recommended_disposition": "TREAT_AS_RESEARCH_CANDIDATES_NOT_CONFIRMED_CONTRADICTIONS",
+      "review_id": "LRH-012",
+      "status": "ACCEPTED",
+      "topic": "Possible contradiction clusters"
+    },
+    {
+      "accepted_disposition": "PRESERVE_AS_RESEARCH_GAPS_PENDING_TIMELINE_EVIDENCE_REVIEW",
+      "allowed_dispositions": [
+        "PRESERVE_AS_RESEARCH_GAPS_PENDING_TIMELINE_EVIDENCE_REVIEW",
+        "ADD_TO_LORE_TIMELINE_INDEX",
+        "DISMISS_AS_NON_EVENT_REFERENCES"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Decide whether seven unindexed years require timeline additions or should remain source-local references.",
+      "evidence": [
+        {
+          "context": "> *\"Freedom was given to us by soldiers. Now we must learn to keep it ourselves — and that is a war ",
+          "file": "factions\\frenir_new_government.md",
+          "line": 15,
+          "year": 2625
+        },
+        {
+          "context": "- The **Convergence War** (~2520–2523) produced casualties on a scale the galaxy had never witnessed",
+          "file": "factions\\galia_medical_union.md",
+          "line": 46,
+          "year": 2520
+        },
+        {
+          "context": "### The Golden Age (~2500–Present)",
+          "file": "factions\\merchant_princes_of_denebula.md",
+          "line": 60,
+          "year": 2500
+        },
+        {
+          "context": "### The Shield (~2520s–Present)",
+          "file": "factions\\mycenas_government.md",
+          "line": 45,
+          "year": 2520
+        },
+        {
+          "context": "Located at the heart of the MUD Medium Zone, **Pergamos** stands as a behemoth of economic prowess —",
+          "file": "geography\\sectors\\pergamos.md",
+          "line": 10,
+          "year": 2529
+        },
+        {
+          "context": "The most powerful ex-colony in terms of **military might**, **Xianyang-VI** survived post-war turmoi",
+          "file": "geography\\sectors\\xianyang.md",
+          "line": 10,
+          "year": 2529
+        },
+        {
+          "context": "- **~2287**: The **Mierese** discover the **Volmik** stones — artifacts that amplify their natural a",
+          "file": "history\\eras_of_star_atlas.md",
+          "line": 48,
+          "year": 2287
+        }
+      ],
+      "evidence_count": 7,
+      "recommended_disposition": "PRESERVE_AS_RESEARCH_GAPS_PENDING_TIMELINE_EVIDENCE_REVIEW",
+      "review_id": "LRH-013",
+      "status": "ACCEPTED",
+      "topic": "Orphaned timeline years"
+    },
+    {
+      "accepted_disposition": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS",
+      "allowed_dispositions": [
+        "PRESERVE_RAW_AND_REDACT_ONLY_IN_FUTURE_PUBLICATION_OUTPUTS",
+        "PRESERVE_EVERYWHERE",
+        "REDACT_NORMALIZED_DISPLAY_COPIES"
+      ],
+      "decided_at": "2026-07-19",
+      "decided_by": "REPOSITORY_OPERATOR",
+      "decision_needed": "Choose whether normalized display copies should redact two upstream absolute workstation paths while raw evidence remains immutable.",
+      "decision_note": "Absolute workstation paths remain only in immutable raw evidence and are redacted from normalized records and public-facing derivatives.",
+      "evidence": [
+        {
+          "line": 144,
+          "path": "canon/reference/atlas/galactic_atlas.md",
+          "text_sha256": "b7e9d2fe2fdabcd13abb0d54984f936608847c59f7d8cf67b0cf74be51dfa9e7"
+        },
+        {
+          "line": 116,
+          "path": "canon/species/species_encyclopedia.md",
+          "text_sha256": "51e62d9859dac6f74b6469a3d2deb94227e2e59c35dd2c8c02dc2b3b107648a6"
+        }
+      ],
+      "evidence_count": 2,
+      "recommended_disposition": "PRESERVE_RAW_AND_REDACT_ONLY_IN_FUTURE_PUBLICATION_OUTPUTS",
+      "review_id": "LRH-014",
+      "status": "ACCEPTED",
+      "topic": "Embedded workstation paths"
+    }
+  ],
+  "operator_directives_applied": [
+    "Licensing status is excluded from campaign requirements, restrictions, validation, conflicts, and review queues."
+  ]
+}

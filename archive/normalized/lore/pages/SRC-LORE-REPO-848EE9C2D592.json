@@ -1,0 +1,164 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/valiant/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Valiant Sector (MUD 2)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "The Translucid Pox"
+    },
+    {
+      "level": 3,
+      "line": 25,
+      "text": "Archon Secret"
+    },
+    {
+      "level": 2,
+      "line": 31,
+      "text": "Political Influence"
+    },
+    {
+      "level": 3,
+      "line": 33,
+      "text": "Dominant Power: Scientia (The Scientists)"
+    },
+    {
+      "level": 2,
+      "line": 47,
+      "text": "Key Locations"
+    },
+    {
+      "level": 2,
+      "line": 57,
+      "text": "Cross-References"
+    },
+    {
+      "level": 3,
+      "line": 59,
+      "text": "Factions"
+    },
+    {
+      "level": 3,
+      "line": 64,
+      "text": "Geography"
+    }
+  ],
+  "internal_links": [
+    {
+      "label": "Exodus",
+      "line": 10,
+      "original_target": "../geography/sectors/exodus.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/exodus.md"
+    },
+    {
+      "label": "Amora",
+      "line": 27,
+      "original_target": "../geography/sectors/amora.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/amora.md"
+    },
+    {
+      "label": "Scientia",
+      "line": 40,
+      "original_target": "../factions/mud.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/mud.md"
+    },
+    {
+      "label": "Verzan",
+      "line": 43,
+      "original_target": "../geography/sectors/verzan.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/verzan.md"
+    },
+    {
+      "label": "MUD",
+      "line": 61,
+      "original_target": "../factions/mud.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/mud.md"
+    },
+    {
+      "label": "Scientia",
+      "line": 62,
+      "original_target": "../factions/mud.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/mud.md"
+    },
+    {
+      "label": "Exodus",
+      "line": 66,
+      "original_target": "../geography/sectors/exodus.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/exodus.md"
+    },
+    {
+      "label": "Verzan",
+      "line": 67,
+      "original_target": "../geography/sectors/verzan.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/verzan.md"
+    },
+    {
+      "label": "Amora",
+      "line": 68,
+      "original_target": "../geography/sectors/amora.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/amora.md"
+    }
+  ],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation.",
+    "One or more upstream relative references do not resolve inside the pinned repository snapshot."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-848EE9C2D592.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-848EE9C2D592.md",
+  "normalized_sha256": "1851c9f5cccd7a3cb2bc60c841ca6c3a0a762b2385c63f6449644d6228d3f355",
+  "outbound_links": [],
+  "preferred_name": "Valiant Sector (MUD 2)",
+  "primary_entity_id": "LRTX-SECTOR-1D63BABD228C",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/valiant.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/valiant.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 3075,
+  "raw_sha256": "1851c9f5cccd7a3cb2bc60c841ca6c3a0a762b2385c63f6449644d6228d3f355",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-848EE9C2D592",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/valiant.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

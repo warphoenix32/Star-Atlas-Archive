@@ -1,0 +1,116 @@
+{
+  "aliases": [
+    "MRZ-25"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/everstorm/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Everstorm (MRZ-25)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "The Storms"
+    },
+    {
+      "level": 3,
+      "line": 16,
+      "text": "Iris-Driven Phenomenon"
+    },
+    {
+      "level": 3,
+      "line": 25,
+      "text": "Atmospheric Bounty"
+    },
+    {
+      "level": 2,
+      "line": 34,
+      "text": "The Nimbus Spheres"
+    },
+    {
+      "level": 3,
+      "line": 36,
+      "text": "Origin"
+    },
+    {
+      "level": 3,
+      "line": 43,
+      "text": "Technology"
+    },
+    {
+      "level": 3,
+      "line": 54,
+      "text": "The Democratic Oasis (Functional)"
+    },
+    {
+      "level": 3,
+      "line": 61,
+      "text": "The New Threat (~2624)"
+    },
+    {
+      "level": 2,
+      "line": 69,
+      "text": "Navigation Hazard"
+    },
+    {
+      "level": 2,
+      "line": 81,
+      "text": "Narrative Hooks"
+    },
+    {
+      "level": 2,
+      "line": 91,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-0D3599CC402F.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-0D3599CC402F.md",
+  "normalized_sha256": "a5d40f1858833b7f3b801173a0634df3bde3d7d9e5f2d8c0a42c1a433c99149a",
+  "outbound_links": [],
+  "preferred_name": "Everstorm (MRZ-25)",
+  "primary_entity_id": "LRTX-SECTOR-6B693BCF56DF",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/everstorm.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/everstorm.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 4931,
+  "raw_sha256": "a5d40f1858833b7f3b801173a0634df3bde3d7d9e5f2d8c0a42c1a433c99149a",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-0D3599CC402F",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/everstorm.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/institutions/star_atlas_blockchain/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Star Atlas (The Sentient Blockchain)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "Origin & Sentience"
+    },
+    {
+      "level": 2,
+      "line": 20,
+      "text": "The Children of Star Atlas"
+    },
+    {
+      "level": 3,
+      "line": 24,
+      "text": "1. SAGE (Star Atlas Golden Era)"
+    },
+    {
+      "level": 3,
+      "line": 32,
+      "text": "2. Holosim"
+    },
+    {
+      "level": 2,
+      "line": 37,
+      "text": "Functions"
+    },
+    {
+      "level": 2,
+      "line": 45,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "INSTITUTION",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-3313E25B253B.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-3313E25B253B.md",
+  "normalized_sha256": "e3fe90dff5894079c4b54af799ecdd9b15ade49756dbd80ddae28a7747566b83",
+  "outbound_links": [],
+  "preferred_name": "Star Atlas (The Sentient Blockchain)",
+  "primary_entity_id": "LRTX-INSTITUTION-83DA84B243CC",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/institutions/star_atlas_blockchain.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/institutions/star_atlas_blockchain.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 2064,
+  "raw_sha256": "e3fe90dff5894079c4b54af799ecdd9b15ade49756dbd80ddae28a7747566b83",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "ORGANIZATION",
+  "source_id": "SRC-LORE-REPO-3313E25B253B",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "institutions"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/institutions/star_atlas_blockchain.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

@@ -1,0 +1,151 @@
+{
+  "aliases": [
+    "MRZ-14"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/barrot_gateway/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Barrot Gateway (MRZ-14)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "The Legend of Barrot"
+    },
+    {
+      "level": 3,
+      "line": 16,
+      "text": "The Explorer"
+    },
+    {
+      "level": 3,
+      "line": 20,
+      "text": "The Journey"
+    },
+    {
+      "level": 3,
+      "line": 28,
+      "text": "The Tale"
+    },
+    {
+      "level": 3,
+      "line": 39,
+      "text": "What Really Happened (SECRET — Not Public Knowledge)"
+    },
+    {
+      "level": 3,
+      "line": 52,
+      "text": "The Mass Crossing Attempts"
+    },
+    {
+      "level": 3,
+      "line": 60,
+      "text": "Legacy"
+    },
+    {
+      "level": 2,
+      "line": 70,
+      "text": "The Artifacts"
+    },
+    {
+      "level": 3,
+      "line": 72,
+      "text": "Barrot's Trinkets"
+    },
+    {
+      "level": 3,
+      "line": 77,
+      "text": "The Temporal Pendant (Confirmed Artifact)"
+    },
+    {
+      "level": 2,
+      "line": 87,
+      "text": "The Wormhole"
+    },
+    {
+      "level": 3,
+      "line": 89,
+      "text": "Public Understanding (What Galia Knows)"
+    },
+    {
+      "level": 3,
+      "line": 97,
+      "text": "True Nature (SECRET)"
+    },
+    {
+      "level": 2,
+      "line": 106,
+      "text": "Economy: The Gaming Sector"
+    },
+    {
+      "level": 3,
+      "line": 108,
+      "text": "Tourism & Gambling"
+    },
+    {
+      "level": 3,
+      "line": 116,
+      "text": "Governance"
+    },
+    {
+      "level": 2,
+      "line": 124,
+      "text": "Narrative Hooks"
+    },
+    {
+      "level": 2,
+      "line": 134,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-F62D2D10E8E3.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-F62D2D10E8E3.md",
+  "normalized_sha256": "7d2276455e1bb8e28f51a1fdfa0278b1c6a3d78bf2c7c469ef3fb90065fc0ea2",
+  "outbound_links": [],
+  "preferred_name": "Barrot Gateway (MRZ-14)",
+  "primary_entity_id": "LRTX-SECTOR-F9FED648797B",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/barrot_gateway.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/barrot_gateway.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 6549,
+  "raw_sha256": "7d2276455e1bb8e28f51a1fdfa0278b1c6a3d78bf2c7c469ef3fb90065fc0ea2",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-F62D2D10E8E3",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/barrot_gateway.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

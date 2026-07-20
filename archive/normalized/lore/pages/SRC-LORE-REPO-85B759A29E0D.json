@@ -1,0 +1,95 @@
+{
+  "aliases": [
+    "MRZ-11"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/old_grove/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Old Grove Sector (MRZ-11)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 12,
+      "text": "Key Lore"
+    },
+    {
+      "level": 3,
+      "line": 14,
+      "text": "ECOS's Failed Eden"
+    },
+    {
+      "level": 3,
+      "line": 20,
+      "text": "What Went Wrong"
+    },
+    {
+      "level": 3,
+      "line": 26,
+      "text": "Current State"
+    },
+    {
+      "level": 2,
+      "line": 37,
+      "text": "Political Influence"
+    },
+    {
+      "level": 2,
+      "line": 44,
+      "text": "Systems & Locations (To be populated)"
+    },
+    {
+      "level": 2,
+      "line": 48,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": false,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-85B759A29E0D.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-85B759A29E0D.md",
+  "normalized_sha256": "5c4cd4f93c459f41c84430f59496dce446369700c0c1f9224d5fc5cc5f032f6a",
+  "outbound_links": [],
+  "preferred_name": "Old Grove Sector (MRZ-11)",
+  "primary_entity_id": "LRTX-SECTOR-6F7009E480A5",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/old_grove.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/old_grove.md",
+  "published_mirror_status": "TEXT_IDENTICAL",
+  "raw_byte_length": 2398,
+  "raw_sha256": "5c4cd4f93c459f41c84430f59496dce446369700c0c1f9224d5fc5cc5f032f6a",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-85B759A29E0D",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/old_grove.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

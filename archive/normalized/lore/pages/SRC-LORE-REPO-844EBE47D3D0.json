@@ -1,0 +1,121 @@
+{
+  "aliases": [
+    "MRZ-34"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/zavijava_zone/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Zavijava Zone (MRZ-34)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "line": 16,
+      "text": "Public Knowledge"
+    },
+    {
+      "level": 3,
+      "line": 23,
+      "text": "The True Origin (Hidden Lore)"
+    },
+    {
+      "level": 2,
+      "line": 40,
+      "text": "Temporal Anomalies"
+    },
+    {
+      "level": 3,
+      "line": 42,
+      "text": "Manifestations"
+    },
+    {
+      "level": 3,
+      "line": 51,
+      "text": "Anomaly Status"
+    },
+    {
+      "level": 3,
+      "line": 57,
+      "text": "Impact on Daily Life"
+    },
+    {
+      "level": 2,
+      "line": 66,
+      "text": "The Vortex Watchers"
+    },
+    {
+      "level": 3,
+      "line": 68,
+      "text": "Public Face"
+    },
+    {
+      "level": 3,
+      "line": 78,
+      "text": "Secret Reality"
+    },
+    {
+      "level": 2,
+      "line": 89,
+      "text": "Narrative Hooks"
+    },
+    {
+      "level": 2,
+      "line": 100,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-844EBE47D3D0.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-844EBE47D3D0.md",
+  "normalized_sha256": "c40aafc3ccbf3a5af5940b93d8906d55e531b35a5ed9ea4cf35e112616bd836f",
+  "outbound_links": [],
+  "preferred_name": "Zavijava Zone (MRZ-34)",
+  "primary_entity_id": "LRTX-SECTOR-E3E499CC611F",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/zavijava_zone.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/zavijava_zone.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 4956,
+  "raw_sha256": "c40aafc3ccbf3a5af5940b93d8906d55e531b35a5ed9ea4cf35e112616bd836f",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-844EBE47D3D0",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/zavijava_zone.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

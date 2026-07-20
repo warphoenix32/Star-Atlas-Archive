@@ -1,0 +1,103 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/species/species_encyclopedia/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Star Atlas Species Encyclopedia (Consolidated)"
+    },
+    {
+      "level": 2,
+      "line": 7,
+      "text": "Species Overview"
+    },
+    {
+      "level": 2,
+      "line": 21,
+      "text": "1. HUMAN (MUD)"
+    },
+    {
+      "level": 2,
+      "line": 32,
+      "text": "2. MIERESE (ONI)"
+    },
+    {
+      "level": 2,
+      "line": 44,
+      "text": "3. SOGMIAN (ONI)"
+    },
+    {
+      "level": 2,
+      "line": 59,
+      "text": "4. PUNAAB (ONI)"
+    },
+    {
+      "level": 2,
+      "line": 69,
+      "text": "5. PHOTOLI (ONI — hidden agenda)"
+    },
+    {
+      "level": 2,
+      "line": 80,
+      "text": "6. USTUR"
+    },
+    {
+      "level": 2,
+      "line": 93,
+      "text": "7. TUFA"
+    },
+    {
+      "level": 2,
+      "line": 103,
+      "text": "Faction Summary"
+    },
+    {
+      "level": 2,
+      "line": 114,
+      "text": "Source Files"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "Absolute upstream workstation paths are preserved in immutable raw evidence and redacted from this normalized derivative by curator decision LRH-014."
+  ],
+  "lore_type": "TAXONOMY",
+  "manual_review_required": false,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-8AEB99693040.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-8AEB99693040.md",
+  "normalized_sha256": "4600a962a8a4b6f26808e61bd21d7fad12f446b126d73e5e7a7420edaebf073f",
+  "outbound_links": [],
+  "preferred_name": "Star Atlas Species Encyclopedia (Consolidated)",
+  "primary_entity_id": "LRTX-TAXONOMY-CA032AB07CA6",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/species/species_encyclopedia.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/species/species_encyclopedia.md",
+  "published_mirror_status": "TEXT_IDENTICAL",
+  "raw_byte_length": 8196,
+  "raw_sha256": "e943caebe82d3992bc8c752f9d027d3386ed08262314d31176d663f0994a4891",
+  "redactions": {
+    "count": 1,
+    "curator_decision_id": "LRH-014",
+    "policy": "PRESERVE_RAW_REDACT_NORMALIZED_AND_PUBLIC_OUTPUTS"
+  },
+  "repository_entity_type": "DOCUMENT",
+  "source_id": "SRC-LORE-REPO-8AEB99693040",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "species"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/species/species_encyclopedia.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

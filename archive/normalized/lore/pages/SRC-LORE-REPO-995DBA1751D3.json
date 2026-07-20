@@ -1,0 +1,78 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/the_cataclysm/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "The Cataclysm"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "Key Facts"
+    },
+    {
+      "level": 2,
+      "line": 16,
+      "text": "Iris: The Sentient Core"
+    },
+    {
+      "level": 2,
+      "line": 27,
+      "text": "The Convergence War Connection"
+    },
+    {
+      "level": 2,
+      "line": 40,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "LORE_EVENT",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-995DBA1751D3.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-995DBA1751D3.md",
+  "normalized_sha256": "b915fb13f34d44f286e937cd9e2660ef9e106e4c340911765d05e4ccac73f683",
+  "outbound_links": [],
+  "preferred_name": "The Cataclysm",
+  "primary_entity_id": "LRTX-LORE_EVENT-C79BE4FD150F",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/the_cataclysm.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/the_cataclysm.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 2313,
+  "raw_sha256": "b915fb13f34d44f286e937cd9e2660ef9e106e4c340911765d05e4ccac73f683",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "EVENT",
+  "source_id": "SRC-LORE-REPO-995DBA1751D3",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/the_cataclysm.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

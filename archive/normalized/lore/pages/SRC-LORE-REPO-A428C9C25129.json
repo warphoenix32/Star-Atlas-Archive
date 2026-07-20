@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "MRZ-35"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/dream_reach/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Dream Reach (MRZ-35)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "The Ephemeral Nebula"
+    },
+    {
+      "level": 3,
+      "line": 22,
+      "text": "The Legend"
+    },
+    {
+      "level": 3,
+      "line": 28,
+      "text": "Visitors"
+    },
+    {
+      "level": 3,
+      "line": 37,
+      "text": "Tension with Locals"
+    },
+    {
+      "level": 2,
+      "line": 44,
+      "text": "Culture & Economy"
+    },
+    {
+      "level": 3,
+      "line": 46,
+      "text": "Medicinal & Spiritual Heritage"
+    },
+    {
+      "level": 3,
+      "line": 52,
+      "text": "Retirement Haven"
+    },
+    {
+      "level": 2,
+      "line": 60,
+      "text": "Narrative Hooks"
+    },
+    {
+      "level": 2,
+      "line": 69,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-A428C9C25129.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-A428C9C25129.md",
+  "normalized_sha256": "3c127d8aee61ecb1470d1086b42b663e73bf95c6b1eb03bd7142ab68d587ca97",
+  "outbound_links": [],
+  "preferred_name": "Dream Reach (MRZ-35)",
+  "primary_entity_id": "LRTX-SECTOR-88014C439734",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/dream_reach.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/dream_reach.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 3074,
+  "raw_sha256": "3c127d8aee61ecb1470d1086b42b663e73bf95c6b1eb03bd7142ab68d587ca97",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-A428C9C25129",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/dream_reach.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

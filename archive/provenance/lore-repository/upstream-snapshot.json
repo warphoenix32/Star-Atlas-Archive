@@ -1,0 +1,72 @@
+{
+  "authority_assessment": {
+    "designation": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+    "does_not_establish": [
+      "page-level authorship for every source file",
+      "independent truth of every narrative claim",
+      "governance, operational, provenance, or historical authority outside lore"
+    ],
+    "precedence": [
+      "STAR_ATLAS_LORE_REPOSITORY_FOR_LORE_TAXONOMY_AND_PREFERRED_NAMES",
+      "OFFICIAL_STAR_ATLAS_PUBLICATIONS_FOR_NEWER_LORE_NOT_YET_REPRESENTED",
+      "ARCHIVE_HISTORICAL_SOURCES_FOR_HISTORICAL_EVIDENCE",
+      "OPERATOR_CONFIRMATIONS_FOR_ARCHIVAL_AMBIGUITY",
+      "DERIVED_KNOWLEDGE_FOR_DISCOVERY_ONLY"
+    ],
+    "scope": "IN_UNIVERSE_LORE_ONLY"
+  },
+  "campaign_id": "lore-repository-ingestion-2026-07",
+  "captured_at": "2026-07-19T15:26:28Z",
+  "custody": {
+    "commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+    "commit_date": "2026-06-29T00:36:35Z",
+    "commit_message": "docs(c4): preserve crew/gear/mission/encounter design artifacts",
+    "default_branch_at_capture": "master",
+    "default_branch_commit": "d138c60a210e2afc2d898806ecf9b032a4f8c3a1",
+    "deployed_source_commit": "e1d87b0",
+    "deployment_branch": "gh-pages",
+    "deployment_commit": "abf1c5852935c1607901b8953f241801e264f573",
+    "live_site_url": "https://joseeduardonoot.github.io/star-atlas-lore/",
+    "repository": "JoseEduardonoot/star-atlas-lore",
+    "repository_url": "https://github.com/JoseEduardonoot/star-atlas-lore",
+    "retrieval_method": "PUBLIC_GITHUB_COMMIT_ARCHIVE_OVER_HTTPS",
+    "retrieved_by": "Star Atlas Archive ingestion campaign",
+    "selected_branch": "main",
+    "selection_reason": "main is the active content branch and deployment workflow source; default master is older",
+    "tree": "f4b6c4121447887ff2b12b7c23a11307f3e81093"
+  },
+  "identity_observations": {
+    "atmta_affiliation_independently_verified": false,
+    "atmta_affiliation_operator_confirmed": true,
+    "default_master_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
+    "main_branch_description": "Official Star Atlas Lore Encyclopedia — factions, species, history, and more (Alpha)",
+    "operator_confirmed_repository_owner_role": "STAR_ATLAS_TEAM_MEMBER_RESPONSIBLE_FOR_LORE",
+    "operator_designation_applied": true,
+    "repository_api_description": "Fan-created encyclopedia of Star Atlas lore — factions, species, history, and more",
+    "repository_treatment": "ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY"
+  },
+  "immutability": {
+    "historical_source_rewrites": 0,
+    "raw_snapshot_modified": false
+  },
+  "raw_artifacts": [
+    {
+      "byte_length": 11118506,
+      "path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+      "role": "IMMUTABLE_COMMIT_SNAPSHOT",
+      "sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+    },
+    {
+      "byte_length": 62698,
+      "path": "archive/raw/lore-repository/live-site-home-2026-07-19.html",
+      "role": "LIVE_SITE_IDENTITY_CAPTURE",
+      "sha256": "5bd2109fcb9c3875e8ff8084783e5e98b95e122f5973729a3d88bc4d49f227e0"
+    },
+    {
+      "byte_length": 31749,
+      "path": "archive/raw/lore-repository/live-site-sitemap-2026-07-19.xml",
+      "role": "LIVE_SITE_URL_INVENTORY_CAPTURE",
+      "sha256": "401d62a7fdb8847e62aa1d88d472dbdb91e9c612b1d3512881754e1154d72efd"
+    }
+  ]
+}

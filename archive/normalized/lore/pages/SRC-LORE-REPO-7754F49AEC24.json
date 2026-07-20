@@ -1,0 +1,78 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/manufacturers/calico/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Calico Industries"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 12,
+      "text": "Key Facts"
+    },
+    {
+      "level": 2,
+      "line": 19,
+      "text": "CARY — Civilian Division"
+    },
+    {
+      "level": 2,
+      "line": 25,
+      "text": "Ethos"
+    },
+    {
+      "level": 2,
+      "line": 33,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "MANUFACTURER",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-7754F49AEC24.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-7754F49AEC24.md",
+  "normalized_sha256": "4085a36102f9c8b5253f3b7a3c9cbf23f6c1e60042118daf4914cca676506e63",
+  "outbound_links": [],
+  "preferred_name": "Calico Industries",
+  "primary_entity_id": "LRTX-MANUFACTURER-F03C9A9CE0EF",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/manufacturers/calico.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/manufacturers/calico.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 2033,
+  "raw_sha256": "4085a36102f9c8b5253f3b7a3c9cbf23f6c1e60042118daf4914cca676506e63",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "CORPORATION",
+  "source_id": "SRC-LORE-REPO-7754F49AEC24",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "manufacturers"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/manufacturers/calico.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

@@ -1,0 +1,55 @@
+{
+  "campaign_id": "lore-repository-ingestion-2026-07",
+  "items": [
+    {
+      "blocking": false,
+      "priority": 1,
+      "related_conflicts": [
+        "LRC-001-AUTHORITY-LABEL"
+      ],
+      "required_artifact": "Optional per-page bylines or commit attribution if future work needs authorship beyond Jose's operator-confirmed institutional lore role.",
+      "topic": "Page-level authorship granularity"
+    },
+    {
+      "blocking": false,
+      "priority": 2,
+      "related_conflicts": [
+        "LRC-005-MIRROR-DIVERGENCE"
+      ],
+      "required_artifact": "Upstream-generated diff or maintainer adjudication for narrative differences; canon already controls taxonomy under LRH-008.",
+      "topic": "Canon/docs narrative reconciliation"
+    },
+    {
+      "blocking": false,
+      "priority": 3,
+      "related_conflicts": [],
+      "required_artifact": "Direct upstream pages or official evidence for Star Atlas: CORE and The Voice of Iris.",
+      "topic": "Deferred legacy lore mapping"
+    },
+    {
+      "priority": 4,
+      "related_conflicts": [
+        "LRC-008-UPSTREAM-VERIFICATION"
+      ],
+      "required_artifact": "Primary official lore citations resolving each upstream self-reported chronology error and contradiction.",
+      "topic": "Chronology and contradiction review"
+    },
+    {
+      "priority": 5,
+      "related_conflicts": [
+        "LRC-006-UPSTREAM-LINKS",
+        "LRC-007-NAVIGATION"
+      ],
+      "required_artifact": "Replacement target paths or source pages for unresolved Markdown links and MkDocs navigation entries.",
+      "topic": "Broken upstream references"
+    },
+    {
+      "priority": 6,
+      "related_conflicts": [
+        "LRC-004-DEPLOYMENT-STALE"
+      ],
+      "required_artifact": "A gh-pages deployment from the selected main commit or an upstream declaration that the older deployment is intentional.",
+      "topic": "Live deployment freshness"
+    }
+  ]
+}

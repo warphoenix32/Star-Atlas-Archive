@@ -1,0 +1,695 @@
+{
+  "adopted_classifications": [
+    "ARTIFACT",
+    "CHARACTER",
+    "CORPORATION",
+    "COSMOLOGY",
+    "FACTION",
+    "GAME_SYSTEM",
+    "INSTITUTION",
+    "LOCATION",
+    "LORE_EVENT",
+    "MANUFACTURER",
+    "MOON",
+    "NARRATIVE",
+    "ORGANIZATION",
+    "PLANET",
+    "QUEST",
+    "REFERENCE",
+    "REGION",
+    "REGISTRY_AUDIT",
+    "RESOURCE",
+    "SECTOR",
+    "SPECIES",
+    "STAR_SYSTEM",
+    "STATION",
+    "TAXONOMY",
+    "TECHNOLOGY",
+    "WORLD"
+  ],
+  "aliases": [
+    {
+      "aliases": [
+        "Mira"
+      ],
+      "entity_id": "LRTX-CHARACTER-1135D3A7FDAF",
+      "preferred_name": "Phink Mira Qint"
+    },
+    {
+      "aliases": [
+        "Senna"
+      ],
+      "entity_id": "LRTX-CHARACTER-32860CB818F3",
+      "preferred_name": "Grokk Senna Valel"
+    },
+    {
+      "aliases": [
+        "\"Moona\""
+      ],
+      "entity_id": "LRTX-CHARACTER-4CD4F9B2FF10",
+      "preferred_name": "Armii.tchr"
+    },
+    {
+      "aliases": [
+        "Koss"
+      ],
+      "entity_id": "LRTX-CHARACTER-4D479DF920AB",
+      "preferred_name": "Blirk Koss Eko"
+    },
+    {
+      "aliases": [
+        "Sov Arei Paizul"
+      ],
+      "entity_id": "LRTX-CHARACTER-824428607D58",
+      "preferred_name": "Empress Paizul"
+    },
+    {
+      "aliases": [
+        "Nava"
+      ],
+      "entity_id": "LRTX-CHARACTER-8C2647E40134",
+      "preferred_name": "Gruuk Nava Yara"
+    },
+    {
+      "aliases": [
+        "Dosk"
+      ],
+      "entity_id": "LRTX-CHARACTER-AF9FC4F1BE43",
+      "preferred_name": "Plirk Dosk Scarka"
+    },
+    {
+      "aliases": [
+        "Mother Caven"
+      ],
+      "entity_id": "LRTX-CHARACTER-B735F96482D6",
+      "preferred_name": "Caven.eldr"
+    },
+    {
+      "aliases": [
+        "Kuradora"
+      ],
+      "entity_id": "LRTX-CHARACTER-DF3B00A46636",
+      "preferred_name": "Ehandra"
+    },
+    {
+      "aliases": [
+        "TAPP"
+      ],
+      "entity_id": "LRTX-FACTION-0AF169F78FB8",
+      "preferred_name": "Toll Authority of Pavo Passage (TAPP)"
+    },
+    {
+      "aliases": [
+        "ECOS",
+        "Earth Conscious Ontological Society"
+      ],
+      "entity_id": "LRTX-FACTION-48CBE271FA62",
+      "preferred_name": "ECOS (Earth Conscious Ontological Society)"
+    },
+    {
+      "aliases": [
+        "BMAH"
+      ],
+      "entity_id": "LRTX-FACTION-56F0A6A78FD2",
+      "preferred_name": "Black Market Auction House (BMAH)"
+    },
+    {
+      "aliases": [
+        "MUD"
+      ],
+      "entity_id": "LRTX-FACTION-857C30412960",
+      "preferred_name": "Manus Ultima Divina (MUD)"
+    },
+    {
+      "aliases": [
+        "MTC"
+      ],
+      "entity_id": "LRTX-FACTION-A0AD0C080E8F",
+      "preferred_name": "Meridian Trading Company (MTC)"
+    },
+    {
+      "aliases": [
+        "SDU"
+      ],
+      "entity_id": "LRTX-GAME_SYSTEM-C0FD5CBB8E94",
+      "preferred_name": "Survey Data Units (SDU)"
+    },
+    {
+      "aliases": [
+        "COP"
+      ],
+      "entity_id": "LRTX-INSTITUTION-72D963DDDD55",
+      "preferred_name": "Council of Peace (COP)"
+    },
+    {
+      "aliases": [
+        "MRZ-10"
+      ],
+      "entity_id": "LRTX-SECTOR-065CD28445F6",
+      "preferred_name": "Weeping Nebula Sector (MRZ-10)"
+    },
+    {
+      "aliases": [
+        "MRZ-27"
+      ],
+      "entity_id": "LRTX-SECTOR-07BEBF51DB48",
+      "preferred_name": "Lumik (MRZ-27)"
+    },
+    {
+      "aliases": [
+        "MRZ-2"
+      ],
+      "entity_id": "LRTX-SECTOR-1467F816150D",
+      "preferred_name": "Mycenas-v Sector (MRZ-2)"
+    },
+    {
+      "aliases": [
+        "MRZ-16"
+      ],
+      "entity_id": "LRTX-SECTOR-17E452B29428",
+      "preferred_name": "Hanging Gardens (MRZ-16)"
+    },
+    {
+      "aliases": [
+        "MRZ-22"
+      ],
+      "entity_id": "LRTX-SECTOR-19C086239C0E",
+      "preferred_name": "Verbis Cluster (MRZ-22)"
+    },
+    {
+      "aliases": [
+        "MRZ-28"
+      ],
+      "entity_id": "LRTX-SECTOR-1BC9133156F1",
+      "preferred_name": "Ka-dara (MRZ-28)"
+    },
+    {
+      "aliases": [
+        "MRZ-9"
+      ],
+      "entity_id": "LRTX-SECTOR-24213D9FDE3D",
+      "preferred_name": "Bluvael Sector (MRZ-9)"
+    },
+    {
+      "aliases": [
+        "MRZ-20"
+      ],
+      "entity_id": "LRTX-SECTOR-32E97DD5E613",
+      "preferred_name": "Perpetual Belt (MRZ-20)"
+    },
+    {
+      "aliases": [
+        "MRZ-12"
+      ],
+      "entity_id": "LRTX-SECTOR-453E0B950DBB",
+      "preferred_name": "Akalma Exile Sector (MRZ-12)"
+    },
+    {
+      "aliases": [
+        "MRZ-15"
+      ],
+      "entity_id": "LRTX-SECTOR-571B534BFD42",
+      "preferred_name": "Anfoil States (MRZ-15)"
+    },
+    {
+      "aliases": [
+        "MRZ-26"
+      ],
+      "entity_id": "LRTX-SECTOR-5ACA078833D0",
+      "preferred_name": "The Free Harbors (MRZ-26)"
+    },
+    {
+      "aliases": [
+        "MRZ-30"
+      ],
+      "entity_id": "LRTX-SECTOR-65C9367F2492",
+      "preferred_name": "Frostsun (MRZ-30)"
+    },
+    {
+      "aliases": [
+        "MRZ-7"
+      ],
+      "entity_id": "LRTX-SECTOR-681DF8823E21",
+      "preferred_name": "Izar-248 Sector (MRZ-7)"
+    },
+    {
+      "aliases": [
+        "MRZ-25"
+      ],
+      "entity_id": "LRTX-SECTOR-6B693BCF56DF",
+      "preferred_name": "Everstorm (MRZ-25)"
+    },
+    {
+      "aliases": [
+        "MRZ-11"
+      ],
+      "entity_id": "LRTX-SECTOR-6F7009E480A5",
+      "preferred_name": "Old Grove Sector (MRZ-11)"
+    },
+    {
+      "aliases": [
+        "MRZ-8"
+      ],
+      "entity_id": "LRTX-SECTOR-784AAFCD7E96",
+      "preferred_name": "Ophek Oasis Sector (MRZ-8)"
+    },
+    {
+      "aliases": [
+        "MRZ-23"
+      ],
+      "entity_id": "LRTX-SECTOR-7F3868D00E3D",
+      "preferred_name": "Eol-garadar (MRZ-23)"
+    },
+    {
+      "aliases": [
+        "MRZ-35"
+      ],
+      "entity_id": "LRTX-SECTOR-88014C439734",
+      "preferred_name": "Dream Reach (MRZ-35)"
+    },
+    {
+      "aliases": [
+        "MRZ-21"
+      ],
+      "entity_id": "LRTX-SECTOR-8ADAEDBE0B9B",
+      "preferred_name": "Summer Sea (MRZ-21)"
+    },
+    {
+      "aliases": [
+        "MRZ-5"
+      ],
+      "entity_id": "LRTX-SECTOR-8B7DAFF3D075",
+      "preferred_name": "Xianyang-vi Sector (MRZ-5)"
+    },
+    {
+      "aliases": [
+        "MRZ-17"
+      ],
+      "entity_id": "LRTX-SECTOR-9D4D64874C96",
+      "preferred_name": "Pavo Passage (MRZ-17)"
+    },
+    {
+      "aliases": [
+        "MRZ-29"
+      ],
+      "entity_id": "LRTX-SECTOR-A1F3544FCA35",
+      "preferred_name": "Kamec (MRZ-29)"
+    },
+    {
+      "aliases": [
+        "MRZ-36"
+      ],
+      "entity_id": "LRTX-SECTOR-AE76A78EA33D",
+      "preferred_name": "Zenith Door (MRZ-36)"
+    },
+    {
+      "aliases": [
+        "MRZ-4"
+      ],
+      "entity_id": "LRTX-SECTOR-B30CF110B521",
+      "preferred_name": "Pergamos-viii Sector (MRZ-4)"
+    },
+    {
+      "aliases": [
+        "MRZ-1"
+      ],
+      "entity_id": "LRTX-SECTOR-B4A37C4DD739",
+      "preferred_name": "Redam-VII Sector (MRZ-1)"
+    },
+    {
+      "aliases": [
+        "MRZ-18"
+      ],
+      "entity_id": "LRTX-SECTOR-B756F9875F8C",
+      "preferred_name": "Coral Nebula (MRZ-18)"
+    },
+    {
+      "aliases": [
+        "MRZ-19"
+      ],
+      "entity_id": "LRTX-SECTOR-CE8C00A9FE76",
+      "preferred_name": "Frenir (MRZ-19)"
+    },
+    {
+      "aliases": [
+        "MRZ-34"
+      ],
+      "entity_id": "LRTX-SECTOR-E3E499CC611F",
+      "preferred_name": "Zavijava Zone (MRZ-34)"
+    },
+    {
+      "aliases": [
+        "MRZ-24"
+      ],
+      "entity_id": "LRTX-SECTOR-E4DA79DBE8E0",
+      "preferred_name": "Vega Fall (MRZ-24)"
+    },
+    {
+      "aliases": [
+        "MRZ-33"
+      ],
+      "entity_id": "LRTX-SECTOR-EA096FA29413",
+      "preferred_name": "Harkend (MRZ-33)"
+    },
+    {
+      "aliases": [
+        "MRZ-6"
+      ],
+      "entity_id": "LRTX-SECTOR-EDECC5A45F79",
+      "preferred_name": "Ilidae Sector (MRZ-6)"
+    },
+    {
+      "aliases": [
+        "MRZ-3"
+      ],
+      "entity_id": "LRTX-SECTOR-EF3DF9B1BE62",
+      "preferred_name": "Abyd-ix Sector (MRZ-3)"
+    },
+    {
+      "aliases": [
+        "MRZ-13"
+      ],
+      "entity_id": "LRTX-SECTOR-F1FA7761AB34",
+      "preferred_name": "Denebula Utopia (MRZ-13)"
+    },
+    {
+      "aliases": [
+        "MRZ-31"
+      ],
+      "entity_id": "LRTX-SECTOR-F43832F9C04B",
+      "preferred_name": "Glowhaven (MRZ-31)"
+    },
+    {
+      "aliases": [
+        "MRZ-32"
+      ],
+      "entity_id": "LRTX-SECTOR-F89B139FFF63",
+      "preferred_name": "Yuldun Waste (MRZ-32)"
+    },
+    {
+      "aliases": [
+        "MRZ-14"
+      ],
+      "entity_id": "LRTX-SECTOR-F9FED648797B",
+      "preferred_name": "Barrot Gateway (MRZ-14)"
+    },
+    {
+      "aliases": [
+        "MUD"
+      ],
+      "entity_id": "LRTX-SPECIES-072F62DA8D1A",
+      "preferred_name": "Human (MUD)"
+    }
+  ],
+  "authority_scope": {
+    "designation": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+    "does_not_establish": [
+      "page-level authorship for every source file",
+      "independent truth of every narrative claim",
+      "governance, operational, provenance, or historical authority outside lore"
+    ],
+    "precedence": [
+      "STAR_ATLAS_LORE_REPOSITORY_FOR_LORE_TAXONOMY_AND_PREFERRED_NAMES",
+      "OFFICIAL_STAR_ATLAS_PUBLICATIONS_FOR_NEWER_LORE_NOT_YET_REPRESENTED",
+      "ARCHIVE_HISTORICAL_SOURCES_FOR_HISTORICAL_EVIDENCE",
+      "OPERATOR_CONFIRMATIONS_FOR_ARCHIVAL_AMBIGUITY",
+      "DERIVED_KNOWLEDGE_FOR_DISCOVERY_ONLY"
+    ],
+    "scope": "IN_UNIVERSE_LORE_ONLY"
+  },
+  "automatic_historical_rewrites": 0,
+  "campaign_id": "lore-repository-ingestion-2026-07",
+  "classification_counts": {
+    "ARTIFACT": 3982,
+    "CHARACTER": 311,
+    "COSMOLOGY": 1,
+    "FACTION": 86,
+    "GAME_SYSTEM": 1,
+    "INSTITUTION": 2,
+    "LOCATION": 18,
+    "LORE_EVENT": 4,
+    "MANUFACTURER": 3,
+    "NARRATIVE": 1,
+    "PLANET": 32,
+    "QUEST": 1,
+    "REFERENCE": 9,
+    "REGION": 5,
+    "REGISTRY_AUDIT": 5,
+    "RESOURCE": 93,
+    "SECTOR": 53,
+    "SPECIES": 9,
+    "STAR_SYSTEM": 4,
+    "STATION": 1,
+    "TAXONOMY": 3,
+    "TECHNOLOGY": 1,
+    "WORLD": 7
+  },
+  "deprecated_names": [],
+  "deprecated_names_note": "No source-native deprecation statement was identified by the structural extractor; legacy Archive names remain preserved pending review.",
+  "hierarchy_changes": [
+    {
+      "curator_decision_id": "LRH-004",
+      "legacy_classification": "Major faction / Ustur Sector",
+      "legacy_id": "LORE-FACTION-USTUR",
+      "proposed_taxonomy": [
+        "SPECIES: Ustur",
+        "FACTION: Ustur"
+      ],
+      "reason": "The upstream taxonomy contains distinct species and faction pages with the same preferred name.",
+      "status": "CURATOR_ADJUDICATED_DISTINCT_ENTITIES"
+    },
+    {
+      "curator_decision_id": "LRH-003",
+      "legacy_classification": "Political institution",
+      "legacy_id": "LORE-COUNCIL-PEACE",
+      "proposed_taxonomy": [
+        "INSTITUTION: Council of Peace",
+        "FACTION: Council of Peace"
+      ],
+      "reason": "The upstream taxonomy contains distinct institution and faction pages.",
+      "status": "CURATOR_ADJUDICATED_DISTINCT_ENTITIES"
+    }
+  ],
+  "migration_mappings": [
+    {
+      "automatic_rewrite_allowed": false,
+      "canonical_targets": [
+        {
+          "entity_id": "LRTX-REGION-25C0812952A6",
+          "lore_type": "REGION",
+          "path": "canon/geography/galactic_regions.md",
+          "preferred_name": "Galactic Regions & Geopolitics",
+          "source_id": "SRC-LORE-REPO-9D8DF1900466"
+        }
+      ],
+      "curator_decision_id": "LRH-002",
+      "existing_id": "LORE-GALIA",
+      "legacy_name": "Galia Expanse",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "reference_targets": [
+        {
+          "entity_id": "LRTX-REFERENCE-544F1EFF86A7",
+          "lore_type": "REFERENCE",
+          "path": "canon/reference/atlas/galia_expanse_atlas.md",
+          "preferred_name": "Galia Expanse Atlas",
+          "source_id": "SRC-LORE-REPO-CBF7E61496ED"
+        }
+      ],
+      "status": "MAPPED_TO_REGION_WITH_REFERENCE_DOCUMENT_RETAINED",
+      "targets": [
+        {
+          "entity_id": "LRTX-REFERENCE-544F1EFF86A7",
+          "lore_type": "REFERENCE",
+          "path": "canon/reference/atlas/galia_expanse_atlas.md",
+          "preferred_name": "Galia Expanse Atlas",
+          "source_id": "SRC-LORE-REPO-CBF7E61496ED"
+        },
+        {
+          "entity_id": "LRTX-REGION-25C0812952A6",
+          "lore_type": "REGION",
+          "path": "canon/geography/galactic_regions.md",
+          "preferred_name": "Galactic Regions & Geopolitics",
+          "source_id": "SRC-LORE-REPO-9D8DF1900466"
+        }
+      ]
+    },
+    {
+      "automatic_rewrite_allowed": false,
+      "existing_id": "LORE-CATACLYSM",
+      "legacy_name": "The Cataclysm",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "status": "MAPPED_ONE_TO_ONE",
+      "targets": [
+        {
+          "entity_id": "LRTX-LORE_EVENT-C79BE4FD150F",
+          "lore_type": "LORE_EVENT",
+          "path": "canon/geography/the_cataclysm.md",
+          "preferred_name": "The Cataclysm",
+          "source_id": "SRC-LORE-REPO-995DBA1751D3"
+        }
+      ]
+    },
+    {
+      "automatic_rewrite_allowed": false,
+      "canonical_targets": [
+        {
+          "entity_id": "LRTX-INSTITUTION-72D963DDDD55",
+          "lore_type": "INSTITUTION",
+          "path": "canon/institutions/council_of_peace.md",
+          "preferred_name": "Council of Peace (COP)",
+          "source_id": "SRC-LORE-REPO-04B17415732F"
+        }
+      ],
+      "curator_decision_id": "LRH-003",
+      "existing_id": "LORE-COUNCIL-PEACE",
+      "legacy_name": "Council of Peace",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "related_targets": [
+        {
+          "entity_id": "LRTX-FACTION-599D13D1E61E",
+          "lore_type": "FACTION",
+          "path": "canon/factions/council_of_peace.md",
+          "preferred_name": "The Council of Peace",
+          "source_id": "SRC-LORE-REPO-D530A59F4FDE"
+        }
+      ],
+      "status": "MAPPED_TO_INSTITUTION_WITH_DISTINCT_RELATED_FACTION",
+      "targets": [
+        {
+          "entity_id": "LRTX-INSTITUTION-72D963DDDD55",
+          "lore_type": "INSTITUTION",
+          "path": "canon/institutions/council_of_peace.md",
+          "preferred_name": "Council of Peace (COP)",
+          "source_id": "SRC-LORE-REPO-04B17415732F"
+        },
+        {
+          "entity_id": "LRTX-FACTION-599D13D1E61E",
+          "lore_type": "FACTION",
+          "path": "canon/factions/council_of_peace.md",
+          "preferred_name": "The Council of Peace",
+          "source_id": "SRC-LORE-REPO-D530A59F4FDE"
+        }
+      ]
+    },
+    {
+      "automatic_rewrite_allowed": false,
+      "existing_id": "LORE-FACTION-MUD",
+      "legacy_name": "MUD — Manus Ultima Divina",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "status": "MAPPED_ONE_TO_ONE",
+      "targets": [
+        {
+          "entity_id": "LRTX-FACTION-857C30412960",
+          "lore_type": "FACTION",
+          "path": "canon/factions/mud.md",
+          "preferred_name": "Manus Ultima Divina (MUD)",
+          "source_id": "SRC-LORE-REPO-28E01FEE2103"
+        }
+      ]
+    },
+    {
+      "automatic_rewrite_allowed": false,
+      "existing_id": "LORE-FACTION-ONI",
+      "legacy_name": "ONI Consortium",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "status": "MAPPED_ONE_TO_ONE",
+      "targets": [
+        {
+          "entity_id": "LRTX-FACTION-2D8A4D8A9506",
+          "lore_type": "FACTION",
+          "path": "canon/factions/oni.md",
+          "preferred_name": "ONI Consortium",
+          "source_id": "SRC-LORE-REPO-6587916DA9A3"
+        }
+      ]
+    },
+    {
+      "automatic_rewrite_allowed": false,
+      "canonical_targets": [
+        {
+          "entity_id": "LRTX-FACTION-85F6ECAAB95A",
+          "lore_type": "FACTION",
+          "path": "canon/factions/ustur.md",
+          "preferred_name": "Ustur",
+          "source_id": "SRC-LORE-REPO-CA3BAB35CB94"
+        }
+      ],
+      "curator_decision_id": "LRH-004",
+      "existing_id": "LORE-FACTION-USTUR",
+      "legacy_name": "Ustur Sector",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "related_targets": [
+        {
+          "entity_id": "LRTX-SPECIES-85F6ECAAB95A",
+          "lore_type": "SPECIES",
+          "path": "canon/species/ustur.md",
+          "preferred_name": "Ustur",
+          "source_id": "SRC-LORE-REPO-F12726C017DC"
+        }
+      ],
+      "status": "MAPPED_TO_FACTION_WITH_DISTINCT_RELATED_SPECIES",
+      "targets": [
+        {
+          "entity_id": "LRTX-FACTION-85F6ECAAB95A",
+          "lore_type": "FACTION",
+          "path": "canon/factions/ustur.md",
+          "preferred_name": "Ustur",
+          "source_id": "SRC-LORE-REPO-CA3BAB35CB94"
+        },
+        {
+          "entity_id": "LRTX-SPECIES-85F6ECAAB95A",
+          "lore_type": "SPECIES",
+          "path": "canon/species/ustur.md",
+          "preferred_name": "Ustur",
+          "source_id": "SRC-LORE-REPO-F12726C017DC"
+        }
+      ]
+    },
+    {
+      "automatic_rewrite_allowed": false,
+      "existing_id": "LORE-TUFA",
+      "legacy_name": "Tufa",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "status": "MAPPED_ONE_TO_ONE",
+      "targets": [
+        {
+          "entity_id": "LRTX-SPECIES-823D013F74F5",
+          "lore_type": "SPECIES",
+          "path": "canon/species/tufa.md",
+          "preferred_name": "Tufa",
+          "source_id": "SRC-LORE-REPO-9FE1D43A80CC"
+        }
+      ]
+    },
+    {
+      "automatic_rewrite_allowed": false,
+      "curator_decision_id": "LRH-005",
+      "existing_id": "LORE-NARRATIVE-CORE",
+      "legacy_name": "Star Atlas: CORE",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "status": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED",
+      "targets": []
+    },
+    {
+      "automatic_rewrite_allowed": false,
+      "curator_decision_id": "LRH-006",
+      "existing_id": "LORE-VOICE-OF-IRIS",
+      "legacy_name": "The Voice of Iris",
+      "legacy_name_preservation": "PRESERVE_AS_ALIAS_OR_LEGACY_LABEL_AFTER_REVIEW",
+      "manual_review_required": false,
+      "status": "PRESERVED_LEGACY_ENTITY_NEW_MAPPING_DEFERRED",
+      "targets": []
+    }
+  ],
+  "renamed_entities": [],
+  "renamed_entities_note": "No rename was asserted solely from lexical similarity. Ambiguous candidates remain unresolved.",
+  "unresolved_conflicts": []
+}

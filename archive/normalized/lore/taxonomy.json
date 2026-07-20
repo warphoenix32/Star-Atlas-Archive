@@ -1,0 +1,148 @@
+{
+  "adopted_lore_types": [
+    "ARTIFACT",
+    "CHARACTER",
+    "CORPORATION",
+    "COSMOLOGY",
+    "FACTION",
+    "GAME_SYSTEM",
+    "INSTITUTION",
+    "LOCATION",
+    "LORE_EVENT",
+    "MANUFACTURER",
+    "MOON",
+    "NARRATIVE",
+    "ORGANIZATION",
+    "PLANET",
+    "QUEST",
+    "REFERENCE",
+    "REGION",
+    "REGISTRY_AUDIT",
+    "RESOURCE",
+    "SECTOR",
+    "SPECIES",
+    "STAR_SYSTEM",
+    "STATION",
+    "TAXONOMY",
+    "TECHNOLOGY",
+    "WORLD"
+  ],
+  "authority": {
+    "designation": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+    "does_not_establish": [
+      "page-level authorship for every source file",
+      "independent truth of every narrative claim",
+      "governance, operational, provenance, or historical authority outside lore"
+    ],
+    "precedence": [
+      "STAR_ATLAS_LORE_REPOSITORY_FOR_LORE_TAXONOMY_AND_PREFERRED_NAMES",
+      "OFFICIAL_STAR_ATLAS_PUBLICATIONS_FOR_NEWER_LORE_NOT_YET_REPRESENTED",
+      "ARCHIVE_HISTORICAL_SOURCES_FOR_HISTORICAL_EVIDENCE",
+      "OPERATOR_CONFIRMATIONS_FOR_ARCHIVAL_AMBIGUITY",
+      "DERIVED_KNOWLEDGE_FOR_DISCOVERY_ONLY"
+    ],
+    "scope": "IN_UNIVERSE_LORE_ONLY"
+  },
+  "compatibility_limitations": {
+    "ARTIFACT": "Repository Schema v2.1 has no ARTIFACT type; RESOURCE is retained as the broad compatibility type and lore_type=ARTIFACT is authoritative.",
+    "SPECIES": "Repository Schema v2.1 has no SPECIES type; COMMUNITY is retained as the broad compatibility type and lore_type=SPECIES is authoritative.",
+    "place_subtypes": "PLANET, WORLD, MOON, STATION, STAR_SYSTEM, SECTOR, and REGION refine Repository Schema v2.1 LOCATION."
+  },
+  "entity_counts": {
+    "ARTIFACT": 3982,
+    "CHARACTER": 311,
+    "COSMOLOGY": 1,
+    "FACTION": 86,
+    "GAME_SYSTEM": 1,
+    "INSTITUTION": 2,
+    "LOCATION": 18,
+    "LORE_EVENT": 4,
+    "MANUFACTURER": 3,
+    "NARRATIVE": 1,
+    "PLANET": 32,
+    "QUEST": 1,
+    "REFERENCE": 9,
+    "REGION": 5,
+    "REGISTRY_AUDIT": 5,
+    "RESOURCE": 93,
+    "SECTOR": 53,
+    "SPECIES": 9,
+    "STAR_SYSTEM": 4,
+    "STATION": 1,
+    "TAXONOMY": 3,
+    "TECHNOLOGY": 1,
+    "WORLD": 7
+  },
+  "hierarchy": {
+    "AGENT": [
+      "CHARACTER",
+      "SPECIES",
+      "FACTION",
+      "ORGANIZATION",
+      "INSTITUTION",
+      "CORPORATION",
+      "MANUFACTURER"
+    ],
+    "CONCEPT": [
+      "TECHNOLOGY",
+      "GAME_SYSTEM",
+      "COSMOLOGY"
+    ],
+    "DOCUMENTARY": [
+      "NARRATIVE",
+      "QUEST",
+      "TAXONOMY",
+      "REFERENCE",
+      "REGISTRY_AUDIT"
+    ],
+    "OBJECT": [
+      "ARTIFACT",
+      "RESOURCE"
+    ],
+    "OCCURRENCE": [
+      "LORE_EVENT"
+    ],
+    "PLACE": [
+      "REGION",
+      "SECTOR",
+      "STAR_SYSTEM",
+      "WORLD",
+      "PLANET",
+      "MOON",
+      "STATION",
+      "LOCATION"
+    ]
+  },
+  "historical_snapshot_entity_count": 1,
+  "identifier_policy": "LRTX identifiers are deterministic source-taxonomy IDs and do not replace registry-assigned repository canonical IDs.",
+  "repository_schema_compatibility": {
+    "ARTIFACT": "RESOURCE",
+    "CHARACTER": "PERSON",
+    "CORPORATION": "CORPORATION",
+    "COSMOLOGY": "DOCUMENT",
+    "FACTION": "ORGANIZATION",
+    "GAME_SYSTEM": "GAME_SYSTEM",
+    "INSTITUTION": "ORGANIZATION",
+    "LOCATION": "LOCATION",
+    "LORE_EVENT": "EVENT",
+    "MANUFACTURER": "CORPORATION",
+    "MOON": "LOCATION",
+    "NARRATIVE": "DOCUMENT",
+    "ORGANIZATION": "ORGANIZATION",
+    "PLANET": "LOCATION",
+    "QUEST": "DOCUMENT",
+    "REFERENCE": "DOCUMENT",
+    "REGION": "LOCATION",
+    "REGISTRY_AUDIT": "DOCUMENT",
+    "RESOURCE": "RESOURCE",
+    "SECTOR": "LOCATION",
+    "SPECIES": "COMMUNITY",
+    "STAR_SYSTEM": "LOCATION",
+    "STATION": "LOCATION",
+    "TAXONOMY": "DOCUMENT",
+    "TECHNOLOGY": "TECHNOLOGY",
+    "WORLD": "LOCATION"
+  },
+  "taxonomy_id": "STAR-ATLAS-LORE-TAXONOMY-22555F2",
+  "version_basis": "22555f277eb1496e34c0839c8f1f382842bd1d2b"
+}

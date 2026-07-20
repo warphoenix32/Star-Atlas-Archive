@@ -1,0 +1,103 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/meta/faction_power_classification/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Faction Power Classification"
+    },
+    {
+      "level": 2,
+      "line": 7,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 13,
+      "text": "The Five Tiers"
+    },
+    {
+      "level": 2,
+      "line": 25,
+      "text": "Classification Guide"
+    },
+    {
+      "level": 3,
+      "line": 27,
+      "text": "T1 — Galactic Power"
+    },
+    {
+      "level": 3,
+      "line": 33,
+      "text": "T2 — Sector Power"
+    },
+    {
+      "level": 3,
+      "line": 38,
+      "text": "T3 — Regional Influence"
+    },
+    {
+      "level": 3,
+      "line": 43,
+      "text": "T4 — Local Power"
+    },
+    {
+      "level": 3,
+      "line": 48,
+      "text": "T5 — Cell / Network"
+    },
+    {
+      "level": 2,
+      "line": 55,
+      "text": "Usage"
+    },
+    {
+      "level": 2,
+      "line": 67,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "REGISTRY_AUDIT",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-9A2489C393EE.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-9A2489C393EE.md",
+  "normalized_sha256": "35361db08916b39c046b58b6dc6eddec4d7c27cc89ad29a673651161f82882a1",
+  "outbound_links": [],
+  "preferred_name": "Faction Power Classification",
+  "primary_entity_id": "LRTX-REGISTRY_AUDIT-B20EECE4B16A",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/meta/faction_power_classification.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/meta/faction_power_classification.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 4251,
+  "raw_sha256": "35361db08916b39c046b58b6dc6eddec4d7c27cc89ad29a673651161f82882a1",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "DOCUMENT",
+  "source_id": "SRC-LORE-REPO-9A2489C393EE",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "meta"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/meta/faction_power_classification.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

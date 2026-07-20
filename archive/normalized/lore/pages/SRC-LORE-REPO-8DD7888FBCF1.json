@@ -1,0 +1,186 @@
+{
+  "aliases": [
+    "MRZ-27"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/lumik/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Lumik (MRZ-27)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "The Lumikir"
+    },
+    {
+      "level": 3,
+      "line": 16,
+      "text": "Origin"
+    },
+    {
+      "level": 3,
+      "line": 24,
+      "text": "Physical Description"
+    },
+    {
+      "level": 3,
+      "line": 30,
+      "text": "Identity"
+    },
+    {
+      "level": 3,
+      "line": 36,
+      "text": "Philosophy"
+    },
+    {
+      "level": 3,
+      "line": 40,
+      "text": "The Erruts (Military Force)"
+    },
+    {
+      "level": 2,
+      "line": 49,
+      "text": "The Scriptorium"
+    },
+    {
+      "level": 3,
+      "line": 54,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "line": 66,
+      "text": "Operating Principles"
+    },
+    {
+      "level": 3,
+      "line": 73,
+      "text": "Redundancy & Protection"
+    },
+    {
+      "level": 2,
+      "line": 81,
+      "text": "SDU Classification System (Scriptorium Data Units)"
+    },
+    {
+      "level": 3,
+      "line": 85,
+      "text": "Rank D — Trivial Information"
+    },
+    {
+      "level": 3,
+      "line": 91,
+      "text": "Rank C — Public but Specific Information"
+    },
+    {
+      "level": 3,
+      "line": 97,
+      "text": "Rank B — Valuable Secrets and Recent Events"
+    },
+    {
+      "level": 3,
+      "line": 103,
+      "text": "Rank A — Planet or Region-Altering Information"
+    },
+    {
+      "level": 3,
+      "line": 109,
+      "text": "Rank S — Faction-Altering Secrets"
+    },
+    {
+      "level": 3,
+      "line": 115,
+      "text": "Rank X — Galaxy-Altering Knowledge"
+    },
+    {
+      "level": 2,
+      "line": 124,
+      "text": "Relationship with Iris Academy"
+    },
+    {
+      "level": 3,
+      "line": 126,
+      "text": "Philosophical Difference"
+    },
+    {
+      "level": 3,
+      "line": 135,
+      "text": "Cooperation Agreement"
+    },
+    {
+      "level": 2,
+      "line": 144,
+      "text": "Photoli Om & the Lumikir"
+    },
+    {
+      "level": 3,
+      "line": 146,
+      "text": "The Origin Event"
+    },
+    {
+      "level": 3,
+      "line": 152,
+      "text": "Current Relationship"
+    },
+    {
+      "level": 2,
+      "line": 161,
+      "text": "Narrative Hooks"
+    },
+    {
+      "level": 2,
+      "line": 171,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-8DD7888FBCF1.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-8DD7888FBCF1.md",
+  "normalized_sha256": "ac8186533e77835c84b289e2c87782a50405a51d39ca53a8db6db6b3c0e1dc6a",
+  "outbound_links": [],
+  "preferred_name": "Lumik (MRZ-27)",
+  "primary_entity_id": "LRTX-SECTOR-07BEBF51DB48",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/lumik.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/lumik.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 9412,
+  "raw_sha256": "ac8186533e77835c84b289e2c87782a50405a51d39ca53a8db6db6b3c0e1dc6a",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-8DD7888FBCF1",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/lumik.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

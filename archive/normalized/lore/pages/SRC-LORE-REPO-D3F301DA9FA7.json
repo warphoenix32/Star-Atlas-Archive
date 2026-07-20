@@ -1,0 +1,104 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/izar_survivors/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "The Survivors of Izar-248"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "The Descent (~1965)"
+    },
+    {
+      "level": 2,
+      "line": 24,
+      "text": "The Dark Period (~1965–2005)"
+    },
+    {
+      "level": 2,
+      "line": 34,
+      "text": "The Paclets Discovery (~2005)"
+    },
+    {
+      "level": 2,
+      "line": 46,
+      "text": "The First Underground City (~2120)"
+    },
+    {
+      "level": 2,
+      "line": 55,
+      "text": "Centuries of Adaptation (~2240)"
+    },
+    {
+      "level": 2,
+      "line": 64,
+      "text": "The Colony Network (~2240 onward)"
+    },
+    {
+      "level": 2,
+      "line": 73,
+      "text": "The Genesium Horror (~2588)"
+    },
+    {
+      "level": 2,
+      "line": 86,
+      "text": "Timeline Summary"
+    },
+    {
+      "level": 2,
+      "line": 99,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-D3F301DA9FA7.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-D3F301DA9FA7.md",
+  "normalized_sha256": "9c052c54e74895061dd8aa448e26fd875e38bd8ec1cb81f76129b15d8b179d1d",
+  "outbound_links": [],
+  "preferred_name": "The Survivors of Izar-248",
+  "primary_entity_id": "LRTX-SECTOR-9766BFB84944",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/izar_survivors.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/izar_survivors.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 4693,
+  "raw_sha256": "9c052c54e74895061dd8aa448e26fd875e38bd8ec1cb81f76129b15d8b179d1d",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-D3F301DA9FA7",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/izar_survivors.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

@@ -1,0 +1,112 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/species/species_master_guide/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Star Atlas Species Master Guide: Identification & Pipeline"
+    },
+    {
+      "level": 2,
+      "line": 7,
+      "text": "1. Visual Identification Heuristics"
+    },
+    {
+      "level": 3,
+      "line": 9,
+      "text": "MUD (Manus Ultima Divina) - Humans"
+    },
+    {
+      "level": 3,
+      "line": 16,
+      "text": "Ustur (Sentient Androids)"
+    },
+    {
+      "level": 3,
+      "line": 22,
+      "text": "Sogmian (Warrior Philosophers)"
+    },
+    {
+      "level": 3,
+      "line": 30,
+      "text": "Mierese (Ethereal Oral storytellers)"
+    },
+    {
+      "level": 3,
+      "line": 38,
+      "text": "Punaab (Sentient Mammals) ⚠️ SCALE SENSITIVE"
+    },
+    {
+      "level": 3,
+      "line": 46,
+      "text": "Tufa (Metagenic Swarm)"
+    },
+    {
+      "level": 3,
+      "line": 51,
+      "text": "Photoli (Beings of Light)"
+    },
+    {
+      "level": 3,
+      "line": 60,
+      "text": "Current Inventory Status (Feb 2026)"
+    },
+    {
+      "level": 3,
+      "line": 74,
+      "text": "Detailed ID Lookup (Species by ID Range/List)"
+    },
+    {
+      "level": 3,
+      "line": 83,
+      "text": "Directory Structure"
+    },
+    {
+      "level": 3,
+      "line": 97,
+      "text": "Classification Workflow"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
+  ],
+  "lore_type": "TAXONOMY",
+  "manual_review_required": false,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-B8065D8C58BF.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-B8065D8C58BF.md",
+  "normalized_sha256": "3d6f5f7aacda0f4bc80c386b9f4cda2e365f16fd860356077cbe9fddd8dba939",
+  "outbound_links": [],
+  "preferred_name": "Star Atlas Species Master Guide: Identification & Pipeline",
+  "primary_entity_id": "LRTX-TAXONOMY-81426831FF6C",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/species/species_master_guide.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/species/species_master_guide.md",
+  "published_mirror_status": "TEXT_IDENTICAL",
+  "raw_byte_length": 4865,
+  "raw_sha256": "3d6f5f7aacda0f4bc80c386b9f4cda2e365f16fd860356077cbe9fddd8dba939",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "DOCUMENT",
+  "source_id": "SRC-LORE-REPO-B8065D8C58BF",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "species"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/species/species_master_guide.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

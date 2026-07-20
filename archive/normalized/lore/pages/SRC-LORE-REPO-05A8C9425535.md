@@ -1,0 +1,684 @@
+---
+source_id: SRC-LORE-REPO-05A8C9425535
+preferred_name: "Master Timeline"
+lore_type: REGISTRY_AUDIT
+repository_entity_type: DOCUMENT
+upstream_commit: 22555f277eb1496e34c0839c8f1f382842bd1d2b
+upstream_path: canon/meta/master_timeline.md
+authority_scope: ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE
+---
+
+# Master Timeline
+
+## Normalization Note
+
+The text below is a line-ending-normalized derivative of the preserved upstream page. No source wording was rewritten. Taxonomy and link metadata are stored in the paired JSON record.
+
+## Preserved Source Text
+# Master Timeline
+**Total Events**: 317 (audited and corrected)
+**Unique Years**: ~180
+**Range**: ~1461 — ~2646
+> [!NOTE]
+> This is the single source of truth for all dated lore events in Star Atlas canon.
+> All dates use the `~YYYY` convention (approximate galactic standard years).
+> Events are sourced from eras_of_star_atlas.md (backbone) and supplemented from all canon files.
+---
+## 🦴 Primitive Era (~0–~1826)
+- **Pre-~1461**: The Living Factories — an ancient mechanical life form — are already active, predating all known Galia species. They later interact with humanity when AI begins on Earth
+  - 📁 `factions/living_factories.md` ✅ *new*
+- **~1461**: Life begins on the Sogmian homeworld — brutal, primal warfare for hundreds of years
+  - 📁 `history/eras_of_star_atlas.md`
+- **~1745**: Segal the Wise is born among the Sogmians
+  - 📁 `history/eras_of_star_atlas.md`
+---
+## 🏛️ Foundation Era (~1826–~2305)
+- **~1826**: Segal formulates the Du Prah (Sogmian Vows) and establishes the 7 Noble Houses — end of the Primitive Era
+  - 📁 `history/eras_of_star_atlas.md`
+- **~1830**: Segal dies — just 4 years after founding the civilization
+  - 📁 `history/eras_of_star_atlas.md`
+- **~1940**: The Ka-raviam empire collapsed — cause unknown
+  - 📁 `geography/sectors/ka_dara.md`
+- **~1940**: –2100: Ingbus begins researching resurrection, initially preserving the moral principles of the Ka-raviam civilization — refusing to harm any living creature
+  - 📁 `geography/sectors/ka_dara.md`
+- **~1965**: An ancient civilization on Izar-248 experiments with gravitational technology, causing a catastrophic event that shatters moons and creates a debris ring
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2005**: Discovery of **Paclets** (underground agriculture organisms) by Izar survivors — enables long-term subterranean habitation
+  - 📁 `geography/sectors/izar_survivors.md` ✅ *new*
+  - 📁 `factions/izarians.md` ✅ *new*
+- **~2080**: Photoli cross into Galia through the Night Window Sector, draining the star's energy to recharge after their journey from Andromeda
+  - 📁 `species/photoli.md`
+- **~2086**: A Photoli named Om is saved by the primitive Lumikir — a pre-literate species living on Lumik
+  - 📁 `factions/scriptorium_of_the_lumikir.md`
+- **~2086**: Forebears aided the Photoli Om during an epoch of crisis — they were primitive creatures at the time
+  - 📁 `geography/sectors/lumik.md`
+- **~2086**: Photoli Om is saved by primitive creatures in MRZ-27 — he grants them knowledge, and they rename themselves the Lumikir
+  - 📁 `species/photoli.md`
+- **~2095**: Photoli inter the Ah'Rihvael family — an ancient Photoli family whose time was over — beneath the oceans of Bluvael's six habitable worlds. They cast an enormous sector-wide illusion to hide the to...
+  - 📁 `species/photoli.md`
+- **~2100**: An alien traveler transports **TED** (the creature that becomes the Great Evernat) to the sector — origin of the living ecosystem
+  - 📁 `geography/sectors/evernat.md` ✅ *new*
+- **~2101**: Ingbus begins using **non-intelligent species** in resurrection research at Ka-dara — moral boundaries start to erode
+  - 📁 `geography/sectors/ka_dara.md` ✅ *new*
+- **~2112**: The Lumikir erect the Scriptorium — a monumental repository designed to preserve all knowledge they can gather
+  - 📁 `factions/scriptorium_of_the_lumikir.md`
+- **~2117**: Ingbus strikes a groundbreaking deal with the Lumikir of the Scriptorium
+  - 📁 `factions/ka_dara.md`
+- **~2120**: Ahr visits planet Earth — through illusion, humanity is tricked into forming a space-based religion, plundering the planet, and leaving permanently
+  - 📁 `species/human.md`
+- **~2135**: The Photoli discover the entity sealed beneath Etira — the Dreamer Below. Unable to destroy it, they steal its memories, seal it, and conceal every trace
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2136**: Photoli drain Night Window's star energy and construct Dawnbreak — a hidden fortress in the HRZ
+  - 📁 `species/photoli.md`
+- **~2140**: Humanity advances towards the stars; Planet Earth is left an empty husk
+  - 📁 `species/human.md`
+- **~2155**: The Ustur begin their Path of Enlightenment — spiritual journey of consciousness ascension through sequential stages (.pod → .eldr → .tcher → .soul)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2240**: Izar survivors complete centuries of adaptation — biology and psychology permanently changed by underground life
+  - 📁 `geography/sectors/izar_survivors.md` ✅ *new*
+- **~2280**: After years of wars and conflicts, Punaabs divide Akenat into two regions — above and below the Sea of Mist
+  - 📁 `species/punaab.md`
+---
+## 🚀 Expansion Era (~2305–~2512)
+- **~2305**: House Busan (Sogmian) creates the first Sogmian ship manufacturer — marking the transition to the Expansion Era
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2305**: Sogmians begin ship manufacturing (House Busan)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2329**: Punaabs ascend to the stars
+  - 📁 `species/punaab.md`
+- **~2331**: A new generation of High and Profound Punaabs build the City in the Middle — the first common meeting place
+  - 📁 `species/punaab.md`
+- **~2335**: Frostsun sector colonized by Punaabs
+  - 📁 `species/punaab.md`
+- **~2337**: Punaabs create the Ogrika Harbors
+  - 📁 `species/punaab.md`
+- **~2340**: Sogmians ascend to the stars
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2348**: Coral Nebula discovered — fertile sector with intriguing corals
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2348**: A new fertile sector discovered in ONI space (MRZ-18) — first explorers find **bioluminescent corals** that respond to sentient presence
+  - 📁 `geography/sectors/coral_nebula.md` ✅ *new*
+- **~2348**: Colonization begins — settlers from multiple ONI-affiliated species establish outposts among the corals
+  - 📁 `factions/coral_dwellers.md`
+- **~2358**: Sogmians create Ki'Prah prison planet in Frenir Sector
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2363**: Vega is born on Segal (House Akalma)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2364**: Punaabs reached an agreement with Sogmians and also began sending exiles and criminals to Ki'Prah
+  - 📁 `geography/sectors/frenir.md`
+- **~2364**: Punaab-Sogmian cooperation begins (Ki'Prah prisoner exchange)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2370**: Ingbus begins kidnapping explorers who venture into Ka-dara
+  - 📁 `factions/ka_dara.md`
+- **~2377**: The Benevolent Explorers arrive and uplift the Mierese (see above)
+  - 📁 `species/mierese.md`
+- **~2380**: Ustur suddenly awaken without recollection of their past on planet Ioki, Eternity Sector
+  - 📁 `species/ustur.md`
+- **~2381**: –2384: Ustur rapidly acquire space travel technology and create VZUS Enterprises; colonize Vostalgia, Soletud, Azut, and Foy Fields
+  - 📁 `species/ustur.md`
+- **~2381**: The Elder Spire is constructed and the Path of Enlightenment is enforced through the collective conscience
+  - 📁 `species/ustur.md`
+- **~2382**: Vega rises through Akalma ranks
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2382**: Celestial Surveyors Syndicate formed in Soletud to lead archaeological expeditions
+  - 📁 `species/ustur.md`
+- **~2383**: **Armi.eldr** born — future faction leader who trains Chior and Ponel; leads Ustur during the Convergence War
+  - 📁 `species/ustur.md` ✅ *new*
+- **~2385**: In Vostalgia Sector, Ustur discover a deep connection to the native Mantrah trees — as if linked to their species' past before awakening
+  - 📁 `species/ustur.md`
+- **~2387**: Ustur begin spreading influence into the Medium Risk Zone
+  - 📁 `species/ustur.md`
+- **~2391**: **Chior.eldr** and **Ponel.eldr** born — twin pupils of Armi.eldr who will shape post-war Ustur politics
+  - 📁 `species/ustur.md` ✅ *new*
+- **~2392**: A group of atheist Mierese who decided to live free from their species' religious rules found their way to a bountiful planet on MRZ-29
+  - 📁 `geography/sectors/kamec.md`
+- **~2392**: Atheist Mierese found the Democratic Order of Kamec in Kamec Sector
+  - 📁 `species/mierese.md`
+- **~2396**: Many Mierese begin dreaming of a beautiful landscape where flora is made of minerals that shine in the dark
+  - 📁 `geography/sectors/glowhaven.md`
+- **~2396**: Mierese dream of a mineral-based flora — leads to discovery of Glowhaven (MRZ-31)
+  - 📁 `species/mierese.md`
+- **~2397**: Lumikir create SDU technology (Survey Data Units) — a tiered classification system for all stored knowledge, later adopted across the galaxy
+  - 📁 `factions/scriptorium_of_the_lumikir.md`
+- **~2399**: Settlements exceeding 1000 citizens see prismatic flora grow out of control, nearly engulfing entire communities. Several settlements are nearly consumed before the pattern is identified
+  - 📁 `factions/coral_dwellers.md`
+- **~2399**: Vega becomes House Akalma leader; Rule of 1000 established in Coral Nebula
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2399**: MUD finds the Exodus Sector in Galia Expanse and establishes their base
+  - 📁 `species/human.md`
+- **~2399**: Mierese begin exploration of dangerous Coral Nebula (MRZ-18)
+  - 📁 `species/mierese.md`
+- **~2400**: Last appearance of God (Ahr) to the MUD — he leaves with the promise of returning once they find their true home
+  - 📁 `species/human.md`
+- **~2401**: ECOS dissidence — humans discover Ahr is alien, reject MUD, head for Old Grove
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2410**: MUD establishes first safe zone colonies — Valiant-I, Aurora-II, Verzan-III, Amora-IV
+  - 📁 `species/human.md`
+- **~2411**: The Translucid Pox wipes out 8% of MUD population before being contained on Valiant-I
+  - 📁 `species/human.md`
+- **~2411**: The Pearce Council is established on Amora-IV, becoming the bastion of MUD defenses
+  - 📁 `species/human.md`
+- **~2411**: Ponel.eldr (then a young captain) is designated to explore and establish a base in MRZ-15, renamed Anfoil
+  - 📁 `species/ustur.md`
+- **~2416**: Vega becomes Sov Arei (supreme leader of all Sogmians)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2416**: VZUS relocated to Foy Fields sector, bolstering it as an economic powerhouse
+  - 📁 `species/ustur.md`
+- **~2417**: Pearce is born on Amora-IV
+  - 📁 `species/human.md`
+- **~2419**: Voices raise concern over Vega's policies — disregarding non-Sogmian allies, rumors of exploitation and even cannibalism of other sentient species
+  - 📁 `species/sogmian.md`
+- **~2420**: A reporter from House Outro infiltrates Vega's stronghold and produces undeniable proof of honorless practices; other houses rise to depose Vega
+  - 📁 `species/sogmian.md`
+- **~2420**: –2423: The Sogmian Vega Civil War erupts; House Akalma attempts a coup but is defeated in a bloody conflict; Vega killed; entire House Akalma banished to exile
+  - 📁 `species/sogmian.md`
+- **~2421**: During the Sogmian Vega Civil War, all Sogmian troops abandon Ki'Prah to fight — the prison world is left completely unguarded
+  - 📁 `factions/frenir_new_government.md`
+- **~2423**: Vega makes his last stand in his citadel and is killed by coalition forces
+  - 📁 `factions/house_akalma.md`
+- **~2423**: House Outro is rewarded with control of the Akalma Exile sector for their role in exposing Vega
+  - 📁 `species/sogmian.md`
+- **~2424**: The banished Sogmians from Akalma settle in a remote star sector, renaming it Akalma Exile
+  - 📁 `species/sogmian.md`
+- **~2426**: Coral Nebula medicine becomes famous among Sogmians and Mierese
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2426**: MUD expands into the Medium Zone — colonies: Mycenas-V, Xianyang-VI, Redam-VII, Pergamos-VIII, Abyd-IX
+  - 📁 `species/human.md`
+- **~2426**: Armi.eldr becomes the Ustur faction leader
+  - 📁 `species/ustur.md`
+- **~2430**: Chior.eldr sent to Azut sector to help create a new Ustur metropolis
+  - 📁 `species/ustur.md`
+- **~2432**: Ustur explorers discover the Noctual Caverns — a vast underground biome within one of Summer Sea's planets
+  - 📁 `geography/sectors/summer_sea.md`
+- **~2433**: The Rule of 1000 is broken as settlers flock to the booming market. Populations swell beyond thresholds. Corals spread out of control again, requiring intensive work to contain
+  - 📁 `factions/coral_dwellers.md`
+- **~2433**: Ustur explorers breach Ka-dara's outer defenses and make first formal contact with Ingbus
+  - 📁 `factions/ka_dara.md`
+  - 📁 `geography/sectors/coral_nebula.md` ✅ *new*
+- **~2435**: ECOS destroys Old Grove's native civilization
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2435**: Ustur construct Francor Metropolis in Azut Sector
+  - 📁 `species/ustur.md`
+- **~2439**: ECOS gets overwhelmed and flees to Hanging Gardens (MRZ-16)
+  - 📁 `geography/sectors/old_grove.md`
+- **~2439**: ECOS terraforming spirals out of control — they flee to HRZ, founding Earth Prime
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2440**: The Birth of the Cataclysm — a rogue planet dense in ORE draws in 7 child planets to collide in a remote region; the collision creates free energy (Genesium) and births the 7 Titans
+  - 📁 `species/tufa.md`
+- **~2440**: Ashroot Grove founded — a penitent ECOS order establishes a watch-station on the Old Grove perimeter; Arch Druidess Venya takes the surname "Sorrow"
+- **~2441**: Iris acquires a certain degree of self-awareness
+  - 📁 `species/tufa.md`
+- **~2442**: Paizul born (future Sogmian Sov Arei)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2442**: Ustur explorers survey MRZ-33 (Harkend) — at this time an unremarkable void; the artificial star system would later materialize at the close of the Convergence War, bearing constructs with startlin...
+  - 📁 `species/ustur.md`
+- **~2443**: 📋 *Proposed* — The 7 Titans awaken to full consciousness. Each Titan is a fragment of the 7 dwarf planets that collided to form the Cataclysm, exposed to Iris’s nascent awareness. They perceive themselves as gods and begin establishing feudal control over the emerging Tufa ecosystem *(date inferred: after Iris awakening ~2441, before first non-aware Tufa ~2447)*
+  - 📁 `species/tufa.md` (implied)
+- **~2445**: Bekalu born (future Sogmian Sov Arei)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2447**: First non-aware Tufa are born from Iris (no self-awareness)
+  - 📁 `species/tufa.md`
+- **~2450**: **Vega Fall** sector first settled by multi-species pioneers — becomes a rare example of sustained cross-faction cooperation
+  - 📁 `geography/sectors/vega_fall.md` ✅ *new*
+- **~2454**: A group of nomadic Mierese traders starts recurrent gatherings in MRZ-26 to share goods, stories, and services — they create a small settlement called Free Harbors
+  - 📁 `geography/sectors/free_harbors.md`
+- **~2454**: Vaor Scarka born
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2457**: The first Tufa with awareness are born — Iris perceives them as "Her Children"
+  - 📁 `species/tufa.md`
+- **~2459**: Production halts across most settlements — medicinal plants and goods stop growing on sector planets. The corals, overstimulated by excessive psychic energy, seem to enter a dormant or hostile state
+  - 📁 `factions/coral_dwellers.md`
+- **~2460**: A conscious Tufa discovers the tribes of Oxir; the Cult of Iris begins among the Oxir people
+  - 📁 `species/oxir.md`
+- **~2462**: The **Horror** begins at Mycenas — an external threat (later revealed as Tufa-related) terrorizes the sector for decades
+  - 📁 `factions/ashroot_grove.md` ✅ *new*
+  - 📁 `factions/ashroot_grove.md` ✅ *new*
+- **~2463**: The Pavo Royal Family starts establishing relationships with both MUD and Ustur factions, using them to gain leverage and grow Pavo Passage's strength
+  - 📁 `geography/sectors/pavo_passage.md`
+- **~2463**: Ustur begin colonization despite harsh conditions, building the first underground colony named Foga-Rel deep within the Noctual Caverns
+  - 📁 `geography/sectors/summer_sea.md`
+- **~2465**: Small mining colonies begin forming on outer ring planets, where the verdant nightmare is still under control
+  - 📁 `geography/sectors/old_grove.md`
+- **~2466**: Strange monoliths are first found in the Ilidae Sector
+  - 📁 `geography/sectors/ilidae.md`
+- **~2470**: Panemorfa group formed — covert faction operating decades before the Denebula Utopia takes shape (~2495)
+  - 📁 `factions/panemorfa.md` ✅ *new*
+- **~2471**: Merchant Prince Ayevat, a High Punaab of extraordinary mercantile prowess, discovers an unclaimed sector and assembles a founding consortium:
+  - 📁 `factions/merchant_princes_of_denebula.md`
+- **~2471**: Fimbul Industries formed in Free Harbors by MUDs unsatisfied with humanity's imperialistic expansion
+  - 📁 `geography/sectors/free_harbors.md`
+- **~2471**: After several expeditions, various branches of the semi-sentient species known as the Termiks are discovered across the sector's planets
+  - 📁 `geography/sectors/ilidae.md`
+- **~2475**: Due to its strategic location, traders and merchant princes from all of Galia Expanse flock to Free Harbors — its commercial and productive nature makes it politic-agnostic, thriving on productivit...
+  - 📁 `geography/sectors/free_harbors.md`
+- **~2477**: ECOS reportedly communicates with a planetary entity for the first time
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2480**: **Charon Gotti Jr.** born — heir to the MUD leadership; will lead MUD during the current era and Book I conflict
+  - 📁 `species/human.md` ✅ *new*
+- **~2481**: The Scriptorium expands to cover half of the Lumikir homeworld — buildings, vaults, data towers, and organic memory-crystal gardens stretch from pole to pole
+  - 📁 `factions/scriptorium_of_the_lumikir.md`
+- **~2481**: Although under ONI geographic influence, Free Harbors becomes the first independent government in the MRZ
+  - 📁 `geography/sectors/free_harbors.md`
+- **~2483**: The Weeping Nebula is discovered in MRZ-10 — the beautiful but deadly environmental phenomenon initially makes research in the sector impossible
+  - 📁 `geography/sectors/weeping_nebula.md`
+- **~2486**: The Relic Barons begin exploring Harkend, discovering artifacts from an old civilization which empower the sector's automatons
+  - 📁 `factions/relic_barons.md`
+- **~2487**: Fimbul Engineers from Free Harbors discover the unique sector Everstorm in MRZ-25
+  - 📁 `geography/sectors/everstorm.md`
+- **~2488**: A group of MUD explorers investigating the "ocean worlds" breaches the atmosphere of a Bluvael planet and discovers the sector is under some form of illusion
+  - 📁 `factions/bluevael_mining_colonies.md`
+- **~2489**: The Ustur discover the twin-star system of the Verbis Cluster
+  - 📁 `geography/sectors/verbis_cluster.md`
+- **~2493**: ECOS ratifies the **Grove Doctrine** — codifying "nature above politics" and authorizing the ECOS Fleet to intervene in ecological crises by force
+  - 📁 `factions/lumiro_grove.md` ✅ *new*
+- **~2493**: **Thornveil Grove** established as ECOS's pharmaceutical and bioengineering grove — the "Alchemist" on the High Circle
+  - 📁 `factions/thornveil_grove.md` ✅ *new*
+  - 📁 `factions/balifa_grove.md` ✅ *new*
+- **~2495**: Barrot, a Sogmian of House Xictus, enters a mysterious wormhole in MRZ-14. Returns within moments, visibly aged, bearing alien artifacts ("Barrot's Trinkets")
+  - 📁 `factions/barrot_entertainment_company.md`
+- **~2495**: –2517: Mass crossing attempts follow. Most who enter the gate flee in terror. Those who press deeper never return
+  - 📁 `factions/barrot_entertainment_company.md`
+- **~2495**: Colonization complete — the sector is renamed "Denebula Utopia"
+  - 📁 `factions/merchant_princes_of_denebula.md`
+- **~2495**: A strange portal opens in MRZ-14 — Barrot enters
+  - 📁 `geography/sectors/barrot_gateway.md`
+- **~2495**: Following Barrot's fame, many people attempt to cross the now-famous Barrot Gateway
+  - 📁 `geography/sectors/barrot_gateway.md`
+- **~2495**: Denebula Sector colonized under Merchant Prince **Ayevat** — the "Kingdom of Finance" begins
+  - 📁 `geography/sectors/denebula_utopia.md` ✅ *new*
+- **~2496**: Criminals from different species begin gathering in MRZ-32 — they take hold of the ancient decrepit space station and make it a refuge for criminals
+  - 📁 `geography/sectors/yuldun_waste.md`
+- **~2498**: The Jorvik "Pirate King" is born — a human/Mierese hybrid who will become the faction's most iconic leader
+  - 📁 `factions/jorvik.md`
+- **~2498**: Communion is formed as the first multi-species colony sector in Galia, composed of Punaabs, Miereses, Photoli, and Sogmians — setting the seeds for the formation of the ONI Faction
+  - 📁 `geography/sectors/communion.md`
+- **~2498**: Black Market groups begin hunting the Termiks to sell them as slaves — Termiks can be exploited as either pets, prizes, or slaves depending on the buyer
+  - 📁 `geography/sectors/ilidae.md`
+- **~2499**: Tales of the riches found in the inner places of the galaxy start to spread — daring captains begin exploring the area known as the High-risk zone
+  - 📁 `geography/galactic_regions.md`
+- **~2501**: The ECOS Fleet rains down over the groups attacking the Termiks
+  - 📁 `geography/sectors/ilidae.md`
+- **~2501**: ECOS Fleet intervenes at **Ilidae** under Grove Doctrine to protect the Termiks from exploitation — Deepwell Grove's origin
+  - 📁 `factions/deepwell_grove.md` ✅ *new*
+- **~2503**: Oxir tribes meet the galactic factions for the first time — they steer away from them, choosing isolation over engagement
+  - 📁 `species/oxir.md`
+- **~2504**: After many attempts, Fimbul engineers finally develop ionic shields capable of withstanding the tempest of Everstorm — the foundational breakthrough enabling permanent habitation
+  - 📁 `geography/sectors/everstorm.md`
+- **~2507**: The colony has expanded to the point where the secret is impossible to maintain
+  - 📁 `factions/bluevael_mining_colonies.md`
+- **~2507**: Factions start to create the first HRZ outposts — formalizing the exploration into permanent presence
+  - 📁 `geography/galactic_regions.md`
+- **~2507**: The colony expands into minor settlements; the galaxy now knows there is an illusion over the sector of unknown origins — the Photoli authorship remains secret
+  - 📁 `geography/sectors/bluvael.md`
+- **~2509**: Fimbul creates the Sky Fortress — the first and largest Nimbus Sphere, a floating city sustained by Everstorm's tempest
+  - 📁 `factions/fimbul_industries.md`
+- **~2510**: Deep space explorer Gyun Oman discovers the Cataclysm — he scans the data and illegally sells it to all 3 rival factions (MUD, ONI, Ustur), each believing they are the sole recipients
+  - 📁 `geography/the_cataclysm.md`
+- **~2510**: House Akalma expelled from ONI space after being falsely linked to Empress Paizul's assassination — **Akalma Exile** (MRZ-12) becomes a ghost sector
+  - 📁 `geography/sectors/akalma_exile.md` ✅ *new*
+- **~2511**: As tensions rise across Galia Expanse, Free Harbors decentralizes its governance — each port becomes a self-sovereign institution in its own territory, limited by the sector's democratic rules in f...
+  - 📁 `geography/sectors/free_harbors.md`
+- **~2511**: The discovery of the Cataclysm and its unique resources renews Ingbus's hope — he begins funding expeditions to the Cataclysm in pursuit of materials for the resurrection project
+  - 📁 `geography/sectors/ka_dara.md`
+- **~2511**: Merchant Prince **Gel** (Photoli co-founder of Denebula) dies under **mysterious circumstances**
+  - 📁 `factions/merchant_princes_of_denebula.md` ✅ *new*
+---
+## ⚔️ Convergence War (~2512–~2523)
+- **~2512**: People start mysteriously dying across larger settlements. No cause is identified. Most of the population leaves, chasing riches elsewhere and in the Cataclysm
+  - 📁 `factions/coral_dwellers.md`
+- **~2512**: The Ustur formally discover the existence of the Janar
+  - 📁 `geography/sectors/verbis_cluster.md`
+- **~2512**: The Convergence War begins
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2512**: War erupts across Galia Expanse
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2512**: Ustur deserters under **Eolus.tcher** settle in an abandoned MRZ sector during the Convergence War — founding Garadar settlement
+  - 📁 `factions/garadar_dac.md` ✅ *new*
+- **~2513**: –2522: During the Convergence War, ECOS rises from the power vacuum left by the destruction. "ECOS did not exist as a major force yet — they rose in the post-war vacuum"
+  - 📁 `factions/earth_conscious_ontological_society.md`
+- **~2513**: Despite war, the Sky Fortress survives in peace shielded by storms. They export energy cells to Free Harbors
+  - 📁 `factions/fimbul_industries.md`
+- **~2513**: As the Convergence War rages, the dreams grow more intense
+  - 📁 `geography/sectors/glowhaven.md`
+- **~2513**: An explorer from the HRZ sold Kamec's government a strange piece of technology
+  - 📁 `geography/sectors/kamec.md`
+- **~2513**: During the Convergence War, the Pavo royal family consistently changes sides, causing the emergence of both MUD and Ustur resentment. Both factions begin supporting the Pavos' political adversaries...
+  - 📁 `geography/sectors/pavo_passage.md`
+- **~2513**: Ophek Revel begins trading HRZ information during the war
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2515**: During the Convergence War, Eknok — a notorious war criminal — crash-lands on planet Etira in the Yuldun Waste (MRZ-32)
+  - 📁 `factions/black_market_auction_house.md`
+- **~2515**: Order of Seasons created — an assassin cult secretly revering the Iris aspect Dusk (Convergence War era)
+  - 📁 `factions/order_of_seasons.md` ✅ *new*
+- **~2517**: Barrot re-enters the gateway. He never returns. The portal becomes unapproachable
+  - 📁 `factions/barrot_entertainment_company.md`
+- **~2517**: Patrah (Sogmian) meets Eolus.tcher (Ustur)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2517**: **Patrah** (Sogmian of House Outro) converts a cargo shuttle into a clinic-ship and flies toward the fighting — the informal beginnings of what will become the Sons of Patrah
+  - 📁 `factions/sons_of_patrah.md`
+- **~2518**: Frostsun sends reinforcements to support the ONI faction in the HRZ war. After a successful early campaign, they managed to colonize the rich world of Gerio in the HRZ
+  - 📁 `geography/sectors/frostsun.md`
+- **~2519**: Using the HRZ technology, Kamec developed perfect imitations of their citizens
+  - 📁 `geography/sectors/kamec.md`
+- **~2521**: The Pirate King starts his campaign for freedom in the HRZ — the Jorvik Pirates are formally formed
+  - 📁 `factions/jorvik.md`
+- **~2521**: Ingbus discovers a unique resource in the Cataclysm which seems to be the key to resurrecting the Ka-raviam empire. Nevertheless, after the Convergence War the paths to the Cataclysm disappear, and...
+  - 📁 `geography/sectors/ka_dara.md`
+- **~2521**: **Zagah** (Sogmian exile) arrives at Garadar and begins organizing multi-species governance
+  - 📁 `factions/garadar_dac.md` ✅ *new*
+- **~2522**: Free Harbors is flooded by refugees from the Convergence War. Unemployment, criminality, and civil unrest rise sharply — the sanctuary's ideals are tested by the galaxy's displaced masses
+  - 📁 `geography/sectors/free_harbors.md`
+- **~2522**: -09: In one year and one month, the Order of Seasons fulfilled their contract — slaughtering all opposition party leaders in the sector
+  - 📁 `geography/sectors/pavo_passage.md`
+- **~2522**: Iris conceals itself and the space known as the Cataclysm. No one is able to get inside or outside anymore — Iris actively sealed the region, cutting off all access
+  - 📁 `geography/the_cataclysm.md`
+- **~2522**: Sogmians complete Titan ship The Last Stand mk. VIII — forces peace talks
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2522**: MRZ breakaway — Redam, Mycenas, Xyianing, Pergamos, Abyd break from MUD
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2522**: Lumikir Scriptorium raided — Convergence War records stolen/destroyed
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2522**: Ophek retires from information trading, begins building his casino
+  - 📁 `history/eras_of_star_atlas.md`
+---
+## ✨ Golden Era (~2523–~2620)
+- **~2521**: Crumon Dynasty hires the **Order of Seasons** to crush political opposition in Pavo Passage — the Order fulfills the contract
+  - 📁 `factions/crumon_dynasty.md` ✅ *new*
+- **~2523**: Following the assassination of Sov Arei Paizul, House Akalma is framed as complicit — they are the most convenient scapegoat for Sogmian wrath
+  - 📁 `factions/house_akalma.md`
+- **~2523**: Eolus and the Garadar DAC discover a sector under the oppressive rule of the Pavo Royal Family
+  - 📁 `geography/sectors/eol_garadar.md`
+- **~2523**: Bekalu devastates Akalma Exile sector (Akalma Reckoning) — against the wishes of House Outro, generating deep grief and resentment between House Xictus and House Outro
+  - 📁 `history/eras_of_star_atlas.md`, `species/sogmian.md`
+- **~2523**: The Accord — Treaty of Peace signed. COP created. Star Atlas blockchain established. Golden Era begins
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2523**: House Outro opens Vega Fall for refugees
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2523**: Created during The Accord (post-Convergence War settlement)
+  - 📁 `institutions/council_of_peace.md`
+- **~2524**: Anfoil State formally constituted under Ponel.eldr — Meritocratic Technate established post-Accord
+  - 📁 `factions/anfoil_state.md` ✅ *new*
+- **~2524**: The Punaabs of Frostsun lose contact with their brethren in Gerio after the chaos that follows the factions' retreat from the HRZ in the aftermath of the Convergence War
+  - 📁 `geography/sectors/frostsun.md`
+- **~2524**: With both MUD and Ustur exhausted from the Convergence War, neither can pressure Pavo any longer. The sector thrives in the power vacuum and begins spreading its influence across the Medium Risk Zone
+  - 📁 `geography/sectors/pavo_passage.md`
+- **~2524**: Redam — The five leaders' rules are formally installed and governance becomes stabilized in Redam sector
+  - 📁 `geography/sectors/redam.md`
+- **~2524**: Xyanyang Government formed as independent state after MRZ breakaway (~2522)
+  - 📁 `factions/xyanyang_government.md` ✅ *new*
+- **~2525**: The COP formally charters the Galia Medical Union as a permanent civilian body, drawing its initial staff from wartime field medics who had already proven that cross-faction medicine was possible
+  - 📁 `factions/galia_medical_union.md`
+- **~2525**: A Conscient (Awakened) Tufa stays behind after the Cataclysm is sealed, founding the Gate Garrison — a formidable collective whose mission is to ensure no one ever reaches Iris again. The Gate Garr...
+  - 📁 `species/tufa.md`
+- **~2525**: Nimrod Trackers DAC founded in Communion sector — monster hunters specializing in exotic fauna
+  - 📁 `factions/nimrod_trackers.md` ✅ *new*
+- **~2525**: GMU fully operational — medical fleet deployed across Safe Zone; trauma surgery and rehabilitation infrastructure built
+  - 📁 `factions/exile_scavengers.md` ✅ *new*
+- **~2525**: **Patrah dies** during the final phase of the Convergence War — struck by shrapnel while treating the wounded. His last words to Irya: "Keep the lantern lit"
+  - 📁 `factions/sons_of_patrah.md`
+- **~2526**: Free Harbors passes through a period of turbulence in their democracy — the different harbors fight for power and dominance. Other factions in Galia Expanse try to expand their influence in the sector
+  - 📁 `geography/sectors/free_harbors.md`
+- **~2526**: Starpath Warp-Gates construction begins; Cradle construction begins
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2526**: Construction begins on the Cradle — the most powerful vessel ever built
+  - 📁 `institutions/council_of_peace.md`
+- **~2526**: Denebula merchant prince **Gelah** expands trade routes to Safe Zone — caste system solidifies
+  - 📁 `geography/sectors/denebula_utopia.md` ✅ *new*
+- **~2527**: ECOS membership in COP — blocked from major faction status by MUD lobby
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2527**: COP expands operations — establishes peacekeeping protocols and MRZ patrol routes to prevent another Convergence War
+  - 📁 `institutions/council_of_peace.md` ✅ *new*
+- **~2528**: 📋 *Proposed* — Bekalu resigns the function of Sov Arei, pressed with guilt over the Akalma massacre *(date inferred: a few years after the Accord ~2523, before Golden Era stability)*
+  - 📁 *new canon — user input, Feb 2026*
+- **~2530**: Gate Garrison formally organized — multi-species bounty-hunter organization led by an Awakened Tufa, operating from the HRZ
+  - 📁 `factions/gate_garrison.md` ✅ *new*
+- **~2530**: First scav-crews form in the aftermath of the Convergence War — desperate MRZ drifters begin stripping abandoned warships and stations
+- **~2530**: **Swamp Lords** settle in the marshlands of Dream Reach — reclusive warlords who build fortress-habitats in hostile terrain
+  - 📁 `factions/swamp_lords.md` ✅ *new*
+  - 📁 `factions/exile_scavengers.md` ✅ *new*
+- **~2531**: Iris Academy founded by Chior.eldr, Professor Exfeheros, and leading academics at Zenith Door — neutral organization devoted to peace and galactic research
+  - 📁 `factions/iris_academy.md` ✅ *new*
+- **~2531**: Jorvik raiders begin moving into the Medium Risk Zone, expanding operations beyond the HRZ
+  - 📁 `factions/jorvik.md`
+- **~2531**: After the war concluded and the COP treaty was ratified, peculiar time-based phenomena started occurring
+  - 📁 `geography/sectors/zavijava_zone.md`
+- **~2532**: Ustur Regency established in Pavo Passage; Winter Fist Path (Ustur martial sect) arrives with the Regency
+  - 📁 `factions/ustur_regency_pavo.md` ✅ *new*
+- **~2533**: When the slaver warlords formally seize Frenir, they find Ki'Prah abandoned and convert it into a forced labor camp — the worst of Frenir's horrors
+  - 📁 `factions/frenir_new_government.md`
+- **~2533**: The legitimate government of Frenir collapses entirely — the cause is documented in the sector file but involves cascading political and economic failure
+  - 📁 `factions/slavers_of_frenir.md`
+- **~2533**: Due to the Ustur weakening during the Convergence War, poachers begin raiding the Verbis Cluster to capture or exploit the Janar
+  - 📁 `geography/sectors/verbis_cluster.md`
+- **~2533**: Good exotic plants reappear in Coral Nebula settlements respecting Rule of 1000
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2535**: Although Pertuam forces ultimately win against the poacher raids, the planet suffers critical infrastructure attacks
+  - 📁 `geography/sectors/verbis_cluster.md`
+- **~2535**: Lumikir Scriptorium creates a personal guard of war veterans
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2535**: Scriptorium establishes the **Whisper Conclave** — an intelligence-gathering branch that trades in secrets and classified data
+  - 📁 `factions/scriptorium_of_the_lumikir.md` ✅ *new*
+- **~2538**: Abyd-IX civil war breaks out after MUD severance
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2538**: Abyd-IX first provisional government formed during civil war
+  - 📁 `factions/abyd_government.md` ✅ *new*
+- **~2539**: Herdus.soul, disciple of Chior.eldr, helps his master discover and stabilize the wrecked Zenith Door sector. Together they found what becomes a beacon of learning and peace in the MRZ
+  - 📁 `factions/church_of_the_dreamer_below.md`
+- **~2540**: s: Merchant Prince Buccharaano, a High Punaab from a minor merchant family in the ONI zone, visits the wormhole system during a trade run
+  - 📁 `factions/barrot_entertainment_company.md`
+- **~2540**: Patrah sets refugee aid efforts to Vega Fall with House Outro
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2540**: **Irya** formalizes the Sons of Patrah — first official deployment: humanitarian aid to Vega Fall. The Order's operational model is established: modular ships, three branches, absolute neutrality
+  - 📁 `factions/sons_of_patrah.md`
+- **~2542**: Pergamos formally begins alliances with major MRZ factions — becomes a major harbor for Jorvik, ECOS, and other outlaw groups
+  - 📁 `factions/jorvik.md`
+- **~2542**: A civil war erupts in MRZ-8 among competing local factions
+  - 📁 `factions/ophek.md`
+- **~2542**: Ophek seizes power in MRZ-8 through diplomatic play
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2542**: ECOS groves become biggest food suppliers in Galia
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2542**: Mycenas-V raided by alien pirates; Virel the Serene starts civil movement
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2543**: Xianyang Enforcers Rite of Passage origins — mandatory public army service begins at Xianyang-VI (formal charter ~2569)
+  - 📁 `factions/xianyang_enforcers.md` ✅ *new*
+- **~2543**: **Xianyang** institutes mandatory public army service — every citizen participates in the Rite of Passage military training
+  - 📁 `geography/sectors/xianyang.md` ✅ *new*
+- **~2544**: Fleeing remnants of House Akalma encounter the Oxir — an enigmatic HRZ species
+  - 📁 `factions/house_akalma.md`
+- **~2544**: Virel creates meritocratic government + energy shield (turning point vs pirates)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2545**: Ophek renames sector "Ophek Oasis"
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2545**: **Malkabaets** order founded — a mystical priesthood dedicated to interpreting the Cosmic Current; Sogmian-led with multi-species membership
+  - 📁 `factions/malkabaets.md` ✅ *new*
+- **~2546**: Virel destroys/expels all alien invaders from Mycenas
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2547**: After being nearly overwhelmed by alien invaders, Xianyang-VI forges an alliance with Gate Garrison
+  - 📁 `geography/sectors/xianyang.md`
+- **~2550**: s: After a decade of construction, Barrot's Folly opens to the public. It is an immediate sensation
+  - 📁 `factions/barrot_entertainment_company.md`
+- **~2550**: Communion becomes the commercial capital of the ONI Consortium — the most prosperous and interconnected ONI sector
+  - 📁 `geography/sectors/communion.md`
+- **~2550**: The Relic Barons discover a device that pacifies the automatons of Harkend within a certain range, allowing them to start permanent colonies in the sector to systematically explore and uncover its ...
+  - 📁 `geography/sectors/harkend.md`
+- **~2550**: Hopla Insurances Inc founded — galactic insurance corporation based at COP Cradle
+  - 📁 `factions/hopla_insurances.md` ✅ *new*
+- **~2550**: Crumon Dynasty builds the **Spire Foundries** on Crushspire — monument-factories modeled after the Ustur Elder Spire on Ioki (approximate date — source file lists pre-civil-war era)
+  - 📁 `factions/crumon_dynasty.md` ✅ *new*
+- **~2550**: Exile Scavengers professionalize — the **Flotsam Exchange** (orbital bazaar in MRZ-12 orbit) develops as a stable market
+- **~2550**: Pergamos **Shadow Contracts** extend to every MRZ sector — Shadow Banks control logistics, credit, and enforcement
+- **~2551**: **Vzus Tenet** construction completed — a Titan-class Ustur warship stored at Doers Harbor; built using materials from across Galia
+  - 📁 `species/ustur.md` ✅ *new*
+  - 📁 `factions/pergamos_shadow_banks.md` ✅ *new*
+  - 📁 `factions/exile_scavengers.md` ✅ *new*
+- **~2552**: A group of MUD entrepreneurs attempts to create a settlement on the main planet, but after months of activity they are completely overwhelmed by the mutated flora and fauna — further cementing Old ...
+  - 📁 `geography/sectors/old_grove.md`
+- **~2553**: Virel constructs system-wide defensive barrier (upgrade to shield)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2553**: Abyd-IX provisional government forms but quickly collapses
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2553**: Pergamos begins financing Abyd-IX warring factions
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2554**: The Gate Garrison formally relocates its headquarters to Xianyang-VI, cementing the sector as a military powerhouse
+  - 📁 `geography/sectors/xianyang.md`
+- **~2555**: Redam attempts to form a league of MRZ factions for mutual cooperation and defense — the effort fails, highlighting the deep fragmentation and mistrust between medium zone powers
+  - 📁 `geography/sectors/redam.md`
+- **~2555**: **Night Window** sector discovered — a permanently dark region used for covert operations and smuggling routes
+  - 📁 `geography/sectors/night_window.md` ✅ *new*
+- **~2557**: Garadar sector renamed **Eol-Garadar** — combining Eolus.tcher (Ustur founder) and Garadar (settlement name)
+- **~2557**: The **Relic Barons** install a massive space observatory in Summer Sea — mapping HRZ border regions
+- **~2557**: **Pearce** retires from active command — the Pearce Council established in his honor to oversee MUD military policy
+  - 📁 `species/human.md` ✅ *new*
+  - 📁 `geography/sectors/summer_sea.md` ✅ *new*
+  - 📁 `factions/garadar_dac.md` ✅ *new*
+- **~2558**: Opal Industries is founded in the Azut sector from a collaboration between Ustur and MUD
+  - 📁 `manufacturers/opal.md`
+- **~2559**: Herdus.soul leaves Chior.eldr and begins wandering the MRZ alone
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2565**: **"The Night"** — the Order of Seasons kills the entire Crumon royal family for non-payment; Queen Cathris disappears; only baby Ike Pavo survives (absent from sector)
+  - 📁 `factions/crumon_dynasty.md` ✅ *new*
+- **~2565**: Civil war erupts in Pavo Passage — Crumon loyalists vs sector factions
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2565**: Pavo Passage civil war ends — Ruling Conclave (façade democracy) established
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2568**: TAPP (Toll Authority of Pavo Passage) formalized under Conclave governance — toll infrastructure becomes the sector's power machine
+  - 📁 `factions/toll_authority_of_pavo_passage.md` ✅ *new*
+- **~2568**: Meridian Trading Company (MTC) enters Pavo Passage — MUD/Synod front for soft capture
+  - 📁 `factions/meridian_trading_company.md` ✅ *new*
+- **~2569**: Xianyang-VI becomes the strongest ex-colony of MUD in military power and formally creates the Xianyang Enforcers as a mercenary group present in most of the battlefronts of Galia, to help finance t...
+  - 📁 `geography/sectors/xianyang.md`
+- **~2569**: Herdus goes insane after .soul ascension
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2569**: Vale Horizon Exchange (VHE) founded by Seraphine Vale — counter-MTC balance, the people's corridor
+  - 📁 `factions/vale_horizon_exchange.md` ✅ *new*
+- **~2569**: ECOS and Iris Academy co-found **The Nursery** at Ilidae — a sustainable city designed around Termik welfare; Deepwell Grove formalized
+- **~2570**: **The Collective Anarchy** emerges — a decentralized anarchist network in the MRZ advocating for total independence from COP authority
+  - 📁 `factions/the_collective_anarchy.md` ✅ *new*
+  - 📁 `factions/deepwell_grove.md` ✅ *new*
+- **~2571**: Ophek Oasis formally recognized as independent territory by COP
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2571**: Scav-crew discovers the **Whisper Engine** in Akalma Deep — a Sogmian Cosmic Current-reactive artifact; sold to Malkabaets for 40,000 ATLAS
+- **~2573**: Exfeheros develops equipment for Weeping Nebula toxic rain exploration
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2574**: Merchants of Pergamos create Shadow Contracts for illegal trading
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2576**: Exfeheros + Iris Academy establish research settlement in Weeping Nebula
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2577**: Mysterious Photoli reveals "trickery" to Herdus — Church of the Dreamer Below founded
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2579**: Anfoil restores diplomatic relations with Ioki Elders
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2580**: First **Photoli** joins the Malkabaets — triggering an internal crisis; the order must reconcile Sogmian tradition with alien spirituality
+  - 📁 `factions/malkabaets.md` ✅ *new*
+- **~2580**: **Sorkof Pirates** split from Jorvik — rejecting the codified Creed; become an independent pirate faction operating outside Jorvik law
+  - 📁 `factions/sorkof_pirates.md` ✅ *new*
+  - 📁 `factions/exile_scavengers.md` ✅ *new*
+- **~2585**: Lumikir Scriptorium reorganized across entire homeworld due to massive growth
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2586**: Vega Fall prospers through multi-species cooperation
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2587**: **Jefos** (Prince of House Akalma) born in HRZ — Cosmic Current storm rages at his birth; Malkabaets declare it a prophetic sign
+  - 📁 `factions/malkabaets.md` ✅ *new*
+- **~2588**: Dark Photoli discovers genesium on Izar-248, begins creating monsters
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2589**: Ghost Sevra Cull recovers the **Sogmian Memory Core** from Akalma Deep — contains House Akalma court records; sold to the Scriptorium's Whisper Conclave
+- **~2590**: **The Positive Union** founded — a political movement promoting cross-faction cooperation and COP reform through diplomacy rather than war
+  - 📁 `factions/the_positive_union.md` ✅ *new*
+  - 📁 `factions/exile_scavengers.md` ✅ *new*
+- **~2595**: Iris Academy establishes Anchorage outpost in Glowhaven
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2596**: Starpath construction ends — prosperity in the Safe Zone
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2596**: Abyd-IX dust settles — sector divided into small power clusters in ice-thin truce
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2598**: Izar-248 genesium monsters descend into depths, colonies destroyed
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2598**: Scientific expeditions arrive at Coral Nebula to study the flora’s behavior and intelligence potential
+  - 📁 `geography/sectors/coral_nebula.md` ✅ *new*
+- **~2600**: **Graft Research** network emerges — a decentralized, anonymous network of researchers using pseudonyms, experimenting without ethical restriction across MRZ hidden laboratories
+  - 📁 `factions/graft_research.md` ✅ *new*
+- **~2602**: Ophek Oasis becomes biggest entertainment sector in the galaxy
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2603**: Fennek's Bonepickers find the **Void Anchor** in a Current Cavity — an impossibly dense artifact of unknown origin; sold for est. 80,000+ ATLAS
+  - 📁 `factions/exile_scavengers.md` ✅ *new*
+- **~2605**: Herdus finds Saand family (Punaab) — takes newborn as vessel for the Dreamer
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2610**: Vaor Scarka ascends as leading COP Admiral
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2614**: Clatter.lrnr recovers the **Cradle Corridor Map** from a Ghost Station — Ustur navigational data of HRZ border sectors; sold to Relic Barons (Whisperkin)
+  - 📁 `factions/exile_scavengers.md` ✅ *new*
+- **~2615**: ECOS shocks the galaxy by announcing the Superphoenix — a titan-class vessel
+  - 📁 `factions/hanging_gardens_government.md`
+- **~2615**: ECOS announces titan ship — the Super Phoenix — shocking the galaxy
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2617**: Cradle construction ends — most powerful vessel in galactic history
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2617**: GMU launches **SDU technology** (Survey Data Units) — a tiered classification system for cataloguing biological data across sectors
+- **~2617**: COP establishes the **Safe Zone** enforcement framework — formal boundaries and patrol routes for the Safe Zone perimeter
+  - 📁 `institutions/council_of_peace.md` ✅ *new*
+  - 📁 `factions/galia_medical_union.md` ✅ *new*
+---
+## 🌐 Current Age (~2620–present)
+- **~2620**: Beginning of the Current Age — the playable timeline
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2620**: The Jorvik Fleet starts harassing Safe Zone territories — a bold escalation
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2621**: A medical scandal revealed that a Kamec biotech corporation — Helix Genics — had been running a covert cloning program for decades
+  - 📁 `factions/kamec_democracy.md`
+- **~2621**: Vaor Scarka becomes Ruling Secretary of the COP (ONI rotation)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2621**: Kamec clone divergence rumors spread — Democratic Order denies them
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2621**: Jefos and young Akalma Sogmians leave the HRZ for the Medium Zone, seeking to redeem House Akalma
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2623**: COP forces under Vaor Scarka's executive leadership launch a military offensive
+  - 📁 `factions/pergamos_new_government.md`
+- **~2623**: Invaded the sector with COP troops in a swift, decisive operation
+  - 📁 `geography/sectors/frenir.md`
+- **~2623**: COP intervenes in the Medium Zone — battles against Frenir, Pergamos, and the Jorvik Fleet
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2623**: The Events of Never Alone begin — a major canonical narrative arc
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2623**: ECOS stays neutral during the COP intervention (isolated skirmishes only)
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2623**: Redam pressures COP (via Zenith Door + Free Harbors) to accept a truce in the MRZ
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2623**: COP accepts the truce, limiting its military activities in the Medium Zone
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2623**: Pergamos's leading families banished — new COP-compliant government formed
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2623**: **Fimbul BYOS** operations disrupted during COP MRZ Incursion — BYOS workshops in Pergamos raided for association with Pergamos shadow economy
+  - 📁 `factions/fimbul_byos.md` ✅ *new*
+- **~2623**: **Fimbul ECOS** division resources redirected during COP MRZ Incursion — ECOS-Fimbul joint programs face scrutiny
+  - 📁 `factions/fimbul_ecos.md` ✅ *new*
+- **~2624**: Saand — now a grown Punaab — sabotages a live BMAH gathering in Yuldun Waste
+  - 📁 `factions/black_market_auction_house.md`
+- **~2624**: Hostile life forms of unknown origin appear in the Everstorm sector — predatory creatures that defy conventional biology
+  - 📁 `factions/duskbloom_grove.md`
+- **~2624**: COP forces under Vaor Scarka's executive leadership crush the Slavers of Frenir — leaders are killed or arrested
+  - 📁 `factions/frenir_new_government.md`
+- **~2624**: After the COP liberation, Tolvak proposes converting the existing infrastructure into a legitimate factory complex
+  - 📁 `factions/frenir_new_government.md`
+- **~2624**: Ophek Revel dies — the cause is unrecorded, though rumors range from natural causes to assassination by a disgruntled business partner
+  - 📁 `factions/ophek.md`
+- **~2624**: After liberation, the infrastructure is repurposed into a massive industrial factory — Frenir's single largest employer
+  - 📁 `geography/sectors/frenir.md`
+- **~2624**: Dark Photoli experiments let loose in Everstorm — hostile life forms, local government hires captains
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2624**: Ophek Revel dies — his children inherit, each ruling a different entertainment domain
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2624**: Provisional transition government formed in Frenir — slaver leaders dead or arrested
+  - 📁 `history/eras_of_star_atlas.md`
+- **~2624**: **Sons of Patrah** deploys to Frenir — the Order's largest humanitarian operation, supporting the post-liberation population
+  - 📁 `factions/sons_of_patrah.md` ✅ *new*
+- **~2646**: A MUD explorer discovers that the Ilidae monoliths are a star map — coordinates point deep into the HRZ
+  - 📁 `history/eras_of_star_atlas.md`
+---
+## 📋 Undated Events (Pending Placement)
+> All previously proposed events have been merged into the main timeline above.
+> Events marked with ✅ *new* were added during Phase 2 (Feb 2026).
+### Deferred (Need Deep Dive First)
+| # | Era Note | Faction | Reason |
+|---|:---:|---|---|
+| 1 | *Convergence War era* | Umbral Court | Deferred until deep dive |

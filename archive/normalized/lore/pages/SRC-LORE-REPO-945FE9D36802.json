@@ -1,0 +1,98 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/meta/consistency_audit/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Star Atlas Canon — Consistency Audit Report"
+    },
+    {
+      "level": 2,
+      "line": 9,
+      "text": "️ Inconsistencies Found"
+    },
+    {
+      "level": 3,
+      "line": 11,
+      "text": "1. Punaab Dying World — Sector Reference Mismatch"
+    },
+    {
+      "level": 3,
+      "line": 19,
+      "text": "2. Galactic Regions — Outdated Open Question"
+    },
+    {
+      "level": 3,
+      "line": 26,
+      "text": "3. Galactic Regions — Incomplete Minor Factions List"
+    },
+    {
+      "level": 3,
+      "line": 32,
+      "text": "4. Galactic Regions — Safe Zone Sector Names"
+    },
+    {
+      "level": 3,
+      "line": 40,
+      "text": "5. COP Starpath Gates — Corrected But Still In Some References"
+    },
+    {
+      "level": 2,
+      "line": 48,
+      "text": "Previously Flagged KI Errors (Now Corrected in Canon)"
+    },
+    {
+      "level": 2,
+      "line": 63,
+      "text": "Cross-Reference Gaps"
+    },
+    {
+      "level": 2,
+      "line": 76,
+      "text": "Deferred Topics Queue"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "REGISTRY_AUDIT",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-945FE9D36802.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-945FE9D36802.md",
+  "normalized_sha256": "328e9f1b674f05e404c52778a949548aaa3ca164b2720732e1593851d455a361",
+  "outbound_links": [],
+  "preferred_name": "Star Atlas Canon — Consistency Audit Report",
+  "primary_entity_id": "LRTX-REGISTRY_AUDIT-1095BB35ED35",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/meta/consistency_audit.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/meta/consistency_audit.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 4578,
+  "raw_sha256": "328e9f1b674f05e404c52778a949548aaa3ca164b2720732e1593851d455a361",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "DOCUMENT",
+  "source_id": "SRC-LORE-REPO-945FE9D36802",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "meta"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/meta/consistency_audit.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

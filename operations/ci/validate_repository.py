@@ -141,7 +141,7 @@ def validate_markdown_links() -> int:
     failures: list[str] = []
     for path in tracked_files(".md"):
         rel = path.relative_to(ROOT).as_posix()
-        if rel.startswith(("archive/source-records/", "archive/campaign-summaries/")):
+        if rel.startswith(("archive/source-records/", "archive/campaign-summaries/", "archive/normalized/lore/pages/")):
             continue
         text = path.read_text(encoding="utf-8")
         for match in LINK_RE.finditer(text):
@@ -191,6 +191,15 @@ def validate_forbidden_paths(changes: list[str]) -> str:
     )) for path in changes)
     discord_campaign = any(path.startswith(("operations/campaigns/discord-community-indexing-001/", "operations/tests/discord_community_indexing/")) for path in changes)
     library_frontend = any(path.startswith(("publication/site/", "operations/tests/library_frontend/")) or path == "publication/README.md" for path in changes)
+    lore_campaign = any(path.startswith((
+        "archive/raw/lore-repository/",
+        "archive/provenance/lore-repository/",
+        "archive/normalized/lore/",
+        "archive/source-records/lore-repository/",
+        "archive/ingestion-packages/lore-repository/",
+        "operations/campaigns/lore-repository-ingestion-2026-07/",
+        "operations/tests/lore_repository/",
+    )) or path == "archive/manifests/lore-repository-ingestion-2026-07.json" for path in changes)
     pipeline_framework = any(path in {
         "operations/docs/SIMPLIFIED-PROMOTION-PIPELINE.md",
         "operations/schema/PROMOTION-CAMPAIGN-v1.schema.json",
@@ -206,7 +215,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, discord_campaign, library_frontend, pipeline_framework and not agent_contracts, agent_contracts))
+    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, discord_campaign, library_frontend, lore_campaign, pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if ledger_campaign:
@@ -253,6 +262,18 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/tests/library_frontend/",
         )
         label = "star-atlas-library-frontend"
+    elif lore_campaign:
+        allowed = common + (
+            "archive/raw/lore-repository/",
+            "archive/provenance/lore-repository/",
+            "archive/normalized/lore/",
+            "archive/source-records/lore-repository/",
+            "archive/ingestion-packages/lore-repository/",
+            "archive/manifests/lore-repository-ingestion-2026-07.json",
+            "operations/campaigns/lore-repository-ingestion-2026-07/",
+            "operations/tests/lore_repository/",
+        )
+        label = "lore-repository-ingestion-2026-07"
     elif pipeline_framework and not agent_contracts:
         allowed = common + (
             "README.md",
@@ -410,6 +431,33 @@ def validate_starbased_ship_campaign() -> None:
         raise ValidationFailure("Starbased ship campaign artifacts do not reconcile with committed files:\n" + diff.stdout)
 
 
+def validate_lore_repository_campaign() -> None:
+    campaign = ROOT / "operations/campaigns/lore-repository-ingestion-2026-07"
+    build_command = [sys.executable, str(campaign / "build_campaign.py")]
+    validate_command = [sys.executable, str(campaign / "validate_campaign.py")]
+    exclusions = {"build_campaign.py", "validate_campaign.py", "README.md"}
+    run(*build_command, check=True)
+    first = run_cycle(validate_command, campaign, exclusions)
+    run(*build_command, check=True)
+    second = run_cycle(validate_command, campaign, exclusions)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("Lore repository campaign output is not deterministic: " + ", ".join(differing))
+    diff = run(
+        "git", "diff", "--exit-code", "--",
+        str(campaign.relative_to(ROOT)),
+        "archive/raw/lore-repository",
+        "archive/provenance/lore-repository",
+        "archive/normalized/lore",
+        "archive/source-records/lore-repository",
+        "archive/ingestion-packages/lore-repository",
+        "archive/manifests/lore-repository-ingestion-2026-07.json",
+        "operations/tests/lore_repository",
+    )
+    if diff.returncode:
+        raise ValidationFailure("Lore repository campaign artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
 def validate_promotion_framework() -> None:
     example = ROOT / "operations/schema/examples/promotion-campaign-v1.json"
     payload = json.loads(example.read_text(encoding="utf-8"))
@@ -447,6 +495,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_library_frontend()
     elif contract == "starbased-ship-states-ingestion-2026-07":
         validate_starbased_ship_campaign()
+    elif contract == "lore-repository-ingestion-2026-07":
+        validate_lore_repository_campaign()
     elif contract == "simplified-knowledge-pipeline":
         validate_promotion_framework()
     elif contract == "repository-agent-contracts":

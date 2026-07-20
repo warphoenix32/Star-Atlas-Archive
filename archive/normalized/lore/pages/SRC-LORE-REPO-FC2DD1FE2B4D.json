@@ -1,0 +1,126 @@
+{
+  "aliases": [
+    "MRZ-26"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/free_harbors/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "The Free Harbors (MRZ-26)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 14,
+      "text": "History"
+    },
+    {
+      "level": 3,
+      "line": 16,
+      "text": "Discovery & Founding"
+    },
+    {
+      "level": 3,
+      "line": 30,
+      "text": "The Rise"
+    },
+    {
+      "level": 2,
+      "line": 38,
+      "text": "Governance: The Dock-DAO"
+    },
+    {
+      "level": 3,
+      "line": 40,
+      "text": "Multi-System Structure"
+    },
+    {
+      "level": 3,
+      "line": 57,
+      "text": "DAO Governance"
+    },
+    {
+      "level": 3,
+      "line": 65,
+      "text": "COP Jurisdiction"
+    },
+    {
+      "level": 2,
+      "line": 74,
+      "text": "The Corruption"
+    },
+    {
+      "level": 3,
+      "line": 76,
+      "text": "Ideals Erode"
+    },
+    {
+      "level": 3,
+      "line": 82,
+      "text": "Shadow Players"
+    },
+    {
+      "level": 2,
+      "line": 92,
+      "text": "Current State: The Powder Keg"
+    },
+    {
+      "level": 2,
+      "line": 106,
+      "text": "Narrative Hooks"
+    },
+    {
+      "level": 2,
+      "line": 116,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-FC2DD1FE2B4D.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-FC2DD1FE2B4D.md",
+  "normalized_sha256": "2c4b554d8f7802dced8ff830ff34e817a55cb7b7de2a6d0ea2340dc6dca937f7",
+  "outbound_links": [],
+  "preferred_name": "The Free Harbors (MRZ-26)",
+  "primary_entity_id": "LRTX-SECTOR-5ACA078833D0",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/free_harbors.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/free_harbors.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 6158,
+  "raw_sha256": "2c4b554d8f7802dced8ff830ff34e817a55cb7b7de2a6d0ea2340dc6dca937f7",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-FC2DD1FE2B4D",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/free_harbors.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

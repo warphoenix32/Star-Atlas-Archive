@@ -1,0 +1,58 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/reference/crafting/recipes_extracted/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Galia Expanse Recipes"
+    },
+    {
+      "level": 2,
+      "line": 5,
+      "text": "Recipes"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
+  ],
+  "lore_type": "REFERENCE",
+  "manual_review_required": false,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-913175FCE257.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-913175FCE257.md",
+  "normalized_sha256": "f04d331d1615dea8e7f19c0132f41b455f2a6a339bdce66b80ce8870818417dd",
+  "outbound_links": [],
+  "preferred_name": "Galia Expanse Recipes",
+  "primary_entity_id": "LRTX-REFERENCE-E4444741A03F",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/reference/crafting/recipes_extracted.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/reference/crafting/recipes_extracted.md",
+  "published_mirror_status": "TEXT_IDENTICAL",
+  "raw_byte_length": 87043,
+  "raw_sha256": "d8c22456d5e794772f0d3a9a078455ba6643c7dd64fe6c6bc9d8727b18300dc6",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "DOCUMENT",
+  "source_id": "SRC-LORE-REPO-913175FCE257",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "reference",
+    "crafting"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/reference/crafting/recipes_extracted.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

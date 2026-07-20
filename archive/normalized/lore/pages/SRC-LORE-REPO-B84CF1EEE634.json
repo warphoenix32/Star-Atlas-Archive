@@ -1,0 +1,149 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/factions/barrot_entertainment_company/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Barrot Entertainment Company"
+    },
+    {
+      "level": 2,
+      "line": 25,
+      "text": "The Legend of Barrot"
+    },
+    {
+      "level": 3,
+      "line": 27,
+      "text": "The Explorer"
+    },
+    {
+      "level": 3,
+      "line": 35,
+      "text": "The Mystery"
+    },
+    {
+      "level": 2,
+      "line": 43,
+      "text": "Barrot's Folly — The Grand Park"
+    },
+    {
+      "level": 3,
+      "line": 56,
+      "text": "The Vault — Scientific Significance"
+    },
+    {
+      "level": 2,
+      "line": 64,
+      "text": "Merchant Prince Buccharaano"
+    },
+    {
+      "level": 2,
+      "line": 74,
+      "text": "Relations"
+    },
+    {
+      "level": 2,
+      "line": 84,
+      "text": "Galactic Indices"
+    }
+  ],
+  "internal_links": [
+    {
+      "label": "Punaab",
+      "line": 9,
+      "original_target": "../species/punaab.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/punaab.md"
+    },
+    {
+      "label": "Barrot Gateway",
+      "line": 11,
+      "original_target": "../geography/sectors/barrot_gateway.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/barrot_gateway.md"
+    },
+    {
+      "label": "Sogmian",
+      "line": 19,
+      "original_target": "../species/sogmian.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/sogmian.md"
+    },
+    {
+      "label": "Barrot Gateway",
+      "line": 19,
+      "original_target": "../geography/sectors/barrot_gateway.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/geography/sectors/barrot_gateway.md"
+    },
+    {
+      "label": "Punaab",
+      "line": 21,
+      "original_target": "../species/punaab.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/punaab.md"
+    },
+    {
+      "label": "Sogmian",
+      "line": 78,
+      "original_target": "../species/sogmian.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/species/sogmian.md"
+    },
+    {
+      "label": "Iris Academy",
+      "line": 80,
+      "original_target": "../factions/iris_academy.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/iris_academy.md"
+    },
+    {
+      "label": "Ophek",
+      "line": 81,
+      "original_target": "../factions/ophek.md",
+      "resolution_status": "RESOLVED",
+      "resolved_path": "canon/factions/ophek.md"
+    }
+  ],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence."
+  ],
+  "lore_type": "FACTION",
+  "manual_review_required": false,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-B84CF1EEE634.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-B84CF1EEE634.md",
+  "normalized_sha256": "ba5b2f03094feb93c37179b8152daf3efeb7a8b1077579663a3a1fbe4a011308",
+  "outbound_links": [],
+  "preferred_name": "Barrot Entertainment Company",
+  "primary_entity_id": "LRTX-FACTION-E0EACFB967DB",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/factions/barrot_entertainment_company.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/factions/barrot_entertainment_company.md",
+  "published_mirror_status": "TEXT_IDENTICAL",
+  "raw_byte_length": 7706,
+  "raw_sha256": "ba5b2f03094feb93c37179b8152daf3efeb7a8b1077579663a3a1fbe4a011308",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "ORGANIZATION",
+  "source_id": "SRC-LORE-REPO-B84CF1EEE634",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "factions"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/factions/barrot_entertainment_company.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

@@ -1,0 +1,121 @@
+{
+  "aliases": [
+    "MRZ-15"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/anfoil_states/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Anfoil States (MRZ-15)"
+    },
+    {
+      "level": 2,
+      "line": 6,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 12,
+      "text": "History"
+    },
+    {
+      "level": 2,
+      "line": 25,
+      "text": "Governance: Meritocratic Technate"
+    },
+    {
+      "level": 3,
+      "line": 27,
+      "text": "Political System"
+    },
+    {
+      "level": 3,
+      "line": 33,
+      "text": "Leader: Ponel.eldr — \"First Citizen\""
+    },
+    {
+      "level": 3,
+      "line": 44,
+      "text": "The Chior-Ponel Divide"
+    },
+    {
+      "level": 3,
+      "line": 54,
+      "text": "Armi.eldr — The Missing Mentor"
+    },
+    {
+      "level": 2,
+      "line": 63,
+      "text": "Sector Structure: Technological Specialization"
+    },
+    {
+      "level": 2,
+      "line": 72,
+      "text": "Ideology: The Rejection"
+    },
+    {
+      "level": 3,
+      "line": 80,
+      "text": "Cracks in the System"
+    },
+    {
+      "level": 2,
+      "line": 92,
+      "text": "Relationship with the Elder Order"
+    },
+    {
+      "level": 2,
+      "line": 102,
+      "text": "Hidden Agenda: The Seed"
+    },
+    {
+      "level": 2,
+      "line": 115,
+      "text": "Cross-References"
+    }
+  ],
+  "internal_links": [],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-A7966C4848B4.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-A7966C4848B4.md",
+  "normalized_sha256": "33ce6a3f92ab5e0c77929dfba8695e426a60b27ed56f2ded3432c01444348052",
+  "outbound_links": [],
+  "preferred_name": "Anfoil States (MRZ-15)",
+  "primary_entity_id": "LRTX-SECTOR-571B534BFD42",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/anfoil_states.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/anfoil_states.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 5339,
+  "raw_sha256": "33ce6a3f92ab5e0c77929dfba8695e426a60b27ed56f2ded3432c01444348052",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-A7966C4848B4",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/anfoil_states.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

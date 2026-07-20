@@ -1,0 +1,152 @@
+{
+  "aliases": [],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/azut/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Azut Sector (Ustur 3)"
+    },
+    {
+      "level": 2,
+      "line": 8,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 16,
+      "text": "Francor Metropolis"
+    },
+    {
+      "level": 3,
+      "line": 28,
+      "text": "Why Azut, Not Ioki?"
+    },
+    {
+      "level": 2,
+      "line": 39,
+      "text": "Society"
+    },
+    {
+      "level": 3,
+      "line": 48,
+      "text": "The Still Water Doctrine"
+    },
+    {
+      "level": 2,
+      "line": 54,
+      "text": "Cross-References"
+    },
+    {
+      "level": 3,
+      "line": 56,
+      "text": "Factions"
+    },
+    {
+      "level": 3,
+      "line": 62,
+      "text": "Geography"
+    }
+  ],
+  "internal_links": [
+    {
+      "label": "Ioki",
+      "line": 10,
+      "original_target": "../geography/sectors/eternity.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/eternity.md"
+    },
+    {
+      "label": "Ustur Regency",
+      "line": 12,
+      "original_target": "../factions/ustur.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/ustur.md"
+    },
+    {
+      "label": "Uvana",
+      "line": 33,
+      "original_target": "../geography/sectors/eternity.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/eternity.md"
+    },
+    {
+      "label": "Still Water Doctrine",
+      "line": 50,
+      "original_target": "../factions/still_water_doctrine.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/still_water_doctrine.md"
+    },
+    {
+      "label": "Ustur Regency",
+      "line": 58,
+      "original_target": "../factions/ustur.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/ustur.md"
+    },
+    {
+      "label": "Still Water Doctrine",
+      "line": 59,
+      "original_target": "../factions/still_water_doctrine.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/still_water_doctrine.md"
+    },
+    {
+      "label": "Eternity / Ioki",
+      "line": 64,
+      "original_target": "../geography/sectors/eternity.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/eternity.md"
+    },
+    {
+      "label": "Foy Fields",
+      "line": 65,
+      "original_target": "../geography/sectors/foy_fields.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/foy_fields.md"
+    }
+  ],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation.",
+    "One or more upstream relative references do not resolve inside the pinned repository snapshot."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-903DDE6CC343.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-903DDE6CC343.md",
+  "normalized_sha256": "4bfe730676aa892207644b5c3546543ccab4d521ebd69f5d714708cab1216d96",
+  "outbound_links": [],
+  "preferred_name": "Azut Sector (Ustur 3)",
+  "primary_entity_id": "LRTX-SECTOR-4C3E4ED434D9",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/azut.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/azut.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 3407,
+  "raw_sha256": "4bfe730676aa892207644b5c3546543ccab4d521ebd69f5d714708cab1216d96",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-903DDE6CC343",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/azut.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

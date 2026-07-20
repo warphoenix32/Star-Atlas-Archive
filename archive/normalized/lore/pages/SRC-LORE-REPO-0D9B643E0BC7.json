@@ -1,0 +1,145 @@
+{
+  "aliases": [
+    "MRZ-20"
+  ],
+  "authority_scope": "ATMTA_AFFILIATED_CANONICAL_LORE_TAXONOMY_AND_NOMENCLATURE",
+  "canonical_url": "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/perpetual_belt/",
+  "claim_authority": "SOURCE_ASSERTION_REQUIRES_INDEPENDENT_EVIDENCE_FOR_PROMOTION",
+  "extraction_confidence": "HIGH",
+  "headings": [
+    {
+      "level": 1,
+      "line": 1,
+      "text": "Perpetual Belt (MRZ-20)"
+    },
+    {
+      "level": 2,
+      "line": 7,
+      "text": "Overview"
+    },
+    {
+      "level": 2,
+      "line": 13,
+      "text": "The Celestial Ballet"
+    },
+    {
+      "level": 3,
+      "line": 15,
+      "text": "Orbital Mechanics"
+    },
+    {
+      "level": 3,
+      "line": 25,
+      "text": "Accelerated Biology"
+    },
+    {
+      "level": 2,
+      "line": 36,
+      "text": "Free ONI Colonies"
+    },
+    {
+      "level": 2,
+      "line": 50,
+      "text": "Narrative Hooks & Potential"
+    },
+    {
+      "level": 2,
+      "line": 62,
+      "text": "Cross-References"
+    },
+    {
+      "level": 3,
+      "line": 64,
+      "text": "Factions"
+    },
+    {
+      "level": 3,
+      "line": 69,
+      "text": "Geography"
+    }
+  ],
+  "internal_links": [
+    {
+      "label": "Iris",
+      "line": 9,
+      "original_target": "../geography/the_cataclysm.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/the_cataclysm.md"
+    },
+    {
+      "label": "ONI Consortium",
+      "line": 38,
+      "original_target": "../factions/oni.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/oni.md"
+    },
+    {
+      "label": "ONI Consortium",
+      "line": 66,
+      "original_target": "../factions/oni.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/factions/oni.md"
+    },
+    {
+      "label": "Coral Nebula",
+      "line": 67,
+      "original_target": "../geography/sectors/coral_nebula.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/coral_nebula.md"
+    },
+    {
+      "label": "Denebula Utopia",
+      "line": 71,
+      "original_target": "../geography/sectors/denebula_utopia.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/denebula_utopia.md"
+    },
+    {
+      "label": "Frenir",
+      "line": 72,
+      "original_target": "../geography/sectors/frenir.md",
+      "resolution_status": "UNRESOLVED",
+      "resolved_path": "canon/geography/geography/sectors/frenir.md"
+    }
+  ],
+  "limitations": [
+    "ATMTA-affiliated canonical authority is limited to lore taxonomy and preferred nomenclature; page-level authorship and narrative claims remain separately attributed evidence.",
+    "The published docs mirror differs from the canon authoring page and requires source-level reconciliation.",
+    "One or more upstream relative references do not resolve inside the pinned repository snapshot."
+  ],
+  "lore_type": "SECTOR",
+  "manual_review_required": true,
+  "media_references": [],
+  "normalized_json_path": "archive/normalized/lore/pages/SRC-LORE-REPO-0D9B643E0BC7.json",
+  "normalized_markdown_path": "archive/normalized/lore/pages/SRC-LORE-REPO-0D9B643E0BC7.md",
+  "normalized_sha256": "3cfeaccef2b40b34c1cd4943b45dd3ebeaf8d1ef45547d87e6117d7445adc2ff",
+  "outbound_links": [],
+  "preferred_name": "Perpetual Belt (MRZ-20)",
+  "primary_entity_id": "LRTX-SECTOR-32E97DD5E613",
+  "provenance": {
+    "captured_at": "2026-07-19T15:26:28Z",
+    "snapshot_member": "star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b/canon/geography/sectors/perpetual_belt.md",
+    "snapshot_path": "archive/raw/lore-repository/star-atlas-lore-22555f277eb1496e34c0839c8f1f382842bd1d2b.zip",
+    "snapshot_sha256": "08061a661f47a8d55d233a79ba5cdadbbd98c471f50b171d2d56ea583f2a04a1"
+  },
+  "published_mirror_path": "docs/geography/sectors/perpetual_belt.md",
+  "published_mirror_status": "TEXT_DIVERGENT",
+  "raw_byte_length": 3438,
+  "raw_sha256": "3cfeaccef2b40b34c1cd4943b45dd3ebeaf8d1ef45547d87e6117d7445adc2ff",
+  "redactions": {
+    "count": 0,
+    "curator_decision_id": null,
+    "policy": "NONE"
+  },
+  "repository_entity_type": "LOCATION",
+  "source_id": "SRC-LORE-REPO-0D9B643E0BC7",
+  "source_scope": "CANON",
+  "taxonomy_path": [
+    "geography",
+    "sectors"
+  ],
+  "taxonomy_status": "CURRENT_SOURCE_TAXONOMY",
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+  "upstream_path": "canon/geography/sectors/perpetual_belt.md",
+  "upstream_repository": "JoseEduardonoot/star-atlas-lore"
+}

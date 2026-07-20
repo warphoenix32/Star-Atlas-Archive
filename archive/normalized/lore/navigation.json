@@ -1,0 +1,1833 @@
+{
+  "campaign_id": "lore-repository-ingestion-2026-07",
+  "deployment": {
+    "branch": "gh-pages",
+    "current_main_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b",
+    "declared_source_commit": "e1d87b0",
+    "deployment_commit": "abf1c5852935c1607901b8953f241801e264f573",
+    "deployment_date": "2026-06-04T19:29:23Z",
+    "status": "LIVE_SITE_DEPLOYMENT_PRECEDES_CAPTURED_MAIN_COMMIT"
+  },
+  "expected_urls_from_docs": [
+    "https://joseeduardonoot.github.io/star-atlas-lore/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/cosmology/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/cosmology/iris_zodiac/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/abyd_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/anfoil_state/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ashroot_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/balifa_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/barrot_entertainment_company/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/black_market_auction_house/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/bluevael_mining_colonies/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/church_of_the_dreamer_below/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/coral_dwellers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/council_of_peace/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/crumon_dynasty/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/dark_photoli/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/dark_sects/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/deepwell_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/duskbloom_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/earth_conscious_ontological_society/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/exile_scavengers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/fimbul_byos/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/fimbul_ecos/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/fimbul_industries/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/frenir_new_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/galia_medical_union/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/garadar_dac/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/gate_garrison/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/golden_star/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/graft_research/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/hanging_gardens_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/heralds_of_vignus/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/hikibashi/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/hopla_insurances/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_akalma/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_busan/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_exinade/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_garveil/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_lutavira/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_outro/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_xictus/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/iris_academy/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/izarians/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/jorvik/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ka_dara/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/kamec_democracy/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/kingdom_of_evernat/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/living_factories/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/living_resonance/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/lumiro_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/malkabaets/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/merchant_princes_of_denebula/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/meridian_trading_company/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/mierese_lore_keepers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/mierese_of_neuno/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/mud/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/mycenas_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/nimrod_trackers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/oni/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/open_palm/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ophek/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/order_of_light/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/order_of_seasons/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/panemorfa/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/pergamos_new_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/pergamos_shadow_banks/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/redam_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/relic_barons/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/resonant_forge/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ruling_conclave/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/scriptorium_of_the_lumikir/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/slavers_of_frenir/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/sogmian_sovereignty/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/sons_of_patrah/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/sorkof_pirates/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/still_water_doctrine/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/swamp_lords/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/the_collective_anarchy/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/the_photoli/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/the_positive_union/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/the_real_truth_network/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/thornveil_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/toll_authority_of_pavo_passage/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/umbral_court/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ustur/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ustur_regency_pavo/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/vale_horizon_exchange/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/winter_fist_path/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/xianyang_enforcers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/xyanyang_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/c4_lore_layer/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/eternity_system/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/galactic_regions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/ka_dara_sector/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/abyd/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/akalma_exile/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/amora/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/anfoil_states/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/aurora/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/azut/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/barrot_gateway/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/bluvael/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/communion/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/coral_nebula/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/denebula_utopia/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/dream_reach/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/eol_garadar/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/eternity/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/evernat/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/everstorm/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/exodus/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/foy_fields/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/free_harbors/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/frenir/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/frostsun/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/glowhaven/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/hanging_gardens/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/harkend/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/ilidae/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/izar/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/izar_fallen_civilization/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/izar_survivors/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/ka_dara/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/kamec/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/lumik/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/mycenas/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/neuno/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/night_window/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/old_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/ophek_oasis/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/pavo_passage/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/pergamos/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/perpetual_belt/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/redam/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/segal/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/soletud/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/summer_sea/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/valiant/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/vega_fall/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/verbis_cluster/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/verzan/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/vostalgia/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/weeping_nebula/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/xianyang/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/yuldun_waste/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/zavijava_zone/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/zenith_door/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/the_cataclysm/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/cathris/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/crushspire/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/etira/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/okuto/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/tollhaven/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/velloris/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/veshmora/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/history/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/history/chapter2_holosim_balifa_campaign/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/history/convergence_war/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/history/eras_of_star_atlas/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/institutions/council_of_peace/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/institutions/star_atlas_blockchain/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/manufacturers/calico/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/manufacturers/opal/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/manufacturers/vzus/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/consistency_audit/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/faction_power_classification/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/galia_sector_depth_audit/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/master_timeline/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/named_characters/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/narratives/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/narratives/never_alone_campaign/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/quests/holosim_complete_archive/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galactic_atlas/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galia_expanse_atlas/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galia_expanse_descriptions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/planets/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/crafting/crafted_items_descriptions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/crafting/recipes_extracted/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/master_asset_guide/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/resources/galia_expanse_resources/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/resources/resource_analysis/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/crumon/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/human/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/mierese/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/naming_conventions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/oxir/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/photoli/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/punaab/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/sogmian/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/species_encyclopedia/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/species_master_guide/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/tufa/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/ustur/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/systems/sdu_classification/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/technology/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/technology/hrz_metagenic_materials/"
+  ],
+  "live_sitemap_urls": [
+    "https://joseeduardonoot.github.io/star-atlas-lore/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/cosmology/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/cosmology/iris_zodiac/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/abyd_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/anfoil_state/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ashroot_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/balifa_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/barrot_entertainment_company/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/black_market_auction_house/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/bluevael_mining_colonies/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/church_of_the_dreamer_below/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/coral_dwellers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/council_of_peace/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/crumon_dynasty/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/dark_photoli/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/dark_sects/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/deepwell_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/duskbloom_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/earth_conscious_ontological_society/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/exile_scavengers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/fimbul_byos/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/fimbul_ecos/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/fimbul_industries/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/frenir_new_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/galia_medical_union/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/garadar_dac/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/gate_garrison/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/golden_star/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/graft_research/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/hanging_gardens_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/heralds_of_vignus/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/hikibashi/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/hopla_insurances/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_akalma/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_busan/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_exinade/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_garveil/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_lutavira/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_outro/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/house_xictus/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/iris_academy/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/izarians/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/jorvik/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ka_dara/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/kamec_democracy/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/kingdom_of_evernat/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/living_factories/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/living_resonance/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/lumiro_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/malkabaets/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/merchant_princes_of_denebula/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/meridian_trading_company/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/mierese_lore_keepers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/mierese_of_neuno/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/mud/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/mycenas_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/nimrod_trackers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/oni/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/open_palm/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ophek/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/order_of_light/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/order_of_seasons/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/panemorfa/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/pergamos_new_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/pergamos_shadow_banks/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/redam_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/relic_barons/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/resonant_forge/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ruling_conclave/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/scriptorium_of_the_lumikir/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/slavers_of_frenir/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/sogmian_sovereignty/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/sons_of_patrah/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/sorkof_pirates/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/still_water_doctrine/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/swamp_lords/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/the_collective_anarchy/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/the_photoli/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/the_positive_union/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/the_real_truth_network/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/thornveil_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/toll_authority_of_pavo_passage/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/umbral_court/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ustur/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/ustur_regency_pavo/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/vale_horizon_exchange/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/winter_fist_path/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/xianyang_enforcers/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/factions/xyanyang_government/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/c4_lore_layer/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/eternity_system/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/galactic_regions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/ka_dara_sector/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/oni_css_lore_layer/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/abyd/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/akalma_exile/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/amora/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/anfoil_states/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/aurora/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/azut/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/barrot_gateway/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/bluvael/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/communion/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/coral_nebula/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/denebula_utopia/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/dream_reach/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/eol_garadar/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/eternity/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/evernat/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/everstorm/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/exodus/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/foy_fields/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/free_harbors/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/frenir/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/frostsun/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/glowhaven/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/hanging_gardens/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/harkend/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/ilidae/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/izar/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/izar_fallen_civilization/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/izar_survivors/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/ka_dara/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/kamec/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/lumik/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/mycenas/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/neuno/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/night_window/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/old_grove/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/ophek_oasis/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/pavo_passage/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/pergamos/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/perpetual_belt/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/redam/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/segal/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/soletud/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/summer_sea/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/valiant/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/vega_fall/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/verbis_cluster/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/verzan/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/vostalgia/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/weeping_nebula/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/xianyang/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/yuldun_waste/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/zavijava_zone/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/sectors/zenith_door/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/the_cataclysm/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/cathris/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/crushspire/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/etira/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/okuto/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/tollhaven/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/velloris/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/worlds/veshmora/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/history/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/history/chapter2_holosim_balifa_campaign/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/history/convergence_war/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/history/eras_of_star_atlas/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/institutions/council_of_peace/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/institutions/star_atlas_blockchain/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/manufacturers/calico/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/manufacturers/opal/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/manufacturers/vzus/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/consistency_audit/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/faction_power_classification/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/galia_sector_depth_audit/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/master_timeline/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/meta/named_characters/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/narratives/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/narratives/never_alone_campaign/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/quests/holosim_complete_archive/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galactic_atlas/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galia_expanse_atlas/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/galia_expanse_descriptions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/atlas/planets/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/crafting/crafted_items_descriptions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/crafting/recipes_extracted/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/master_asset_guide/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/resources/galia_expanse_resources/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/reference/resources/resource_analysis/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/crumon/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/human/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/mierese/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/naming_conventions/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/oxir/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/photoli/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/punaab/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/sogmian/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/species_encyclopedia/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/species_master_guide/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/tufa/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/species/ustur/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/systems/sdu_classification/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/technology/",
+    "https://joseeduardonoot.github.io/star-atlas-lore/technology/hrz_metagenic_materials/"
+  ],
+  "mkdocs_navigation": [
+    {
+      "depth": 1,
+      "docs_path": "docs/index.md",
+      "label": "Home",
+      "line": 73,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/index.md",
+      "label": "index",
+      "line": 75,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/ustur.md",
+      "label": "Ustur",
+      "line": 76,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/sogmian.md",
+      "label": "Sogmian",
+      "line": 77,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/mierese.md",
+      "label": "Mierese",
+      "line": 78,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/punaab.md",
+      "label": "Punaab",
+      "line": 79,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/photoli.md",
+      "label": "Photoli",
+      "line": 80,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/human.md",
+      "label": "Human",
+      "line": 81,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/crumon.md",
+      "label": "Crumon",
+      "line": 82,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/oxir.md",
+      "label": "Oxir",
+      "line": 83,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/tufa.md",
+      "label": "Tufa",
+      "line": 84,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/naming_conventions.md",
+      "label": "Naming Conventions",
+      "line": 85,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/species_encyclopedia.md",
+      "label": "Species Encyclopedia",
+      "line": 86,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/species/species_master_guide.md",
+      "label": "Species Master Guide",
+      "line": 87,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/factions/index.md",
+      "label": "index",
+      "line": 89,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/mud.md",
+      "label": "Manus Ultima Divina",
+      "line": 91,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/oni.md",
+      "label": "ONI Consortium",
+      "line": 92,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/ustur.md",
+      "label": "Ustur",
+      "line": 93,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/council_of_peace.md",
+      "label": "Council of Peace",
+      "line": 94,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/golden_star.md",
+      "label": "Golden Star",
+      "line": 96,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/resonant_forge.md",
+      "label": "Resonant Forge",
+      "line": 97,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/still_water_doctrine.md",
+      "label": "Still Water Doctrine",
+      "line": 98,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/living_resonance.md",
+      "label": "Living Resonance",
+      "line": 99,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/open_palm.md",
+      "label": "Open Palm",
+      "line": 100,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/dark_sects.md",
+      "label": "Dark Sects",
+      "line": 101,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/abyd_government.md",
+      "label": "Abyd Government",
+      "line": 103,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/anfoil_state.md",
+      "label": "Anfoil State",
+      "line": 104,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/frenir_new_government.md",
+      "label": "Frenir New Government",
+      "line": 106,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/hanging_gardens_government.md",
+      "label": "Hanging Gardens Government",
+      "line": 107,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/kamec_democracy.md",
+      "label": "Kamec Democracy",
+      "line": 108,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/mycenas_government.md",
+      "label": "Mycenas Government",
+      "line": 109,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/pergamos_new_government.md",
+      "label": "Pergamos New Government",
+      "line": 110,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/redam_government.md",
+      "label": "Redam Government",
+      "line": 111,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/ustur_regency_pavo.md",
+      "label": "Ustur Regency Pavo",
+      "line": 112,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/sogmian_sovereignty.md",
+      "label": "Sogmian Sovereignty",
+      "line": 113,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/kingdom_of_evernat.md",
+      "label": "Kingdom of Evernat",
+      "line": 114,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/xyanyang_government.md",
+      "label": "Xianyang Government",
+      "line": 115,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/gate_garrison.md",
+      "label": "Gate Garrison",
+      "line": 117,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/hikibashi.md",
+      "label": "Hikibashi",
+      "line": 118,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/nimrod_trackers.md",
+      "label": "Nimrod Trackers",
+      "line": 119,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/order_of_seasons.md",
+      "label": "Order of Seasons",
+      "line": 120,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/winter_fist_path.md",
+      "label": "Winter Fist Path",
+      "line": 121,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/barrot_entertainment_company.md",
+      "label": "Barrot Entertainment Company",
+      "line": 123,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/bluevael_mining_colonies.md",
+      "label": "Bluevael Mining Colonies",
+      "line": 124,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/crumon_dynasty.md",
+      "label": "Crumon Dynasty",
+      "line": 125,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/fimbul_industries.md",
+      "label": "Fimbul Industries",
+      "line": 126,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/fimbul_byos.md",
+      "label": "Fimbul BYOS",
+      "line": 127,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/fimbul_ecos.md",
+      "label": "Fimbul ECOS",
+      "line": 128,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/galia_medical_union.md",
+      "label": "Galia Medical Union",
+      "line": 129,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/hopla_insurances.md",
+      "label": "Hopla Insurances",
+      "line": 130,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/jorvik.md",
+      "label": "Jorvik",
+      "line": 131,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/merchant_princes_of_denebula.md",
+      "label": "Merchant Princes of Denebula",
+      "line": 132,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/meridian_trading_company.md",
+      "label": "Meridian Trading Company",
+      "line": 133,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/pergamos_shadow_banks.md",
+      "label": "Pergamos Shadow Banks",
+      "line": 134,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/relic_barons.md",
+      "label": "Relic Barons",
+      "line": 135,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/the_positive_union.md",
+      "label": "The Positive Union",
+      "line": 136,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/toll_authority_of_pavo_passage.md",
+      "label": "Toll Authority of Pavo Passage",
+      "line": 137,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/vale_horizon_exchange.md",
+      "label": "Vale Horizon Exchange",
+      "line": 138,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/church_of_the_dreamer_below.md",
+      "label": "Church of the Dreamer Below",
+      "line": 140,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/dark_photoli.md",
+      "label": "Dark Photoli",
+      "line": 141,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/heralds_of_vignus.md",
+      "label": "Heralds of Vignus",
+      "line": 142,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/iris_academy.md",
+      "label": "Iris Academy",
+      "line": 143,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/ka_dara.md",
+      "label": "Ka'Dara",
+      "line": 144,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/living_factories.md",
+      "label": "Living Factories",
+      "line": 145,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/malkabaets.md",
+      "label": "Malkabaets",
+      "line": 146,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/mierese_lore_keepers.md",
+      "label": "Mierese Lore Keepers",
+      "line": 147,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/ophek.md",
+      "label": "Ophek",
+      "line": 148,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/order_of_light.md",
+      "label": "Order of Light",
+      "line": 149,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/panemorfa.md",
+      "label": "Panemorfa",
+      "line": 150,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/sons_of_patrah.md",
+      "label": "Sons of Patrah",
+      "line": 151,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/the_real_truth_network.md",
+      "label": "The Real Truth Network",
+      "line": 152,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/scriptorium_of_the_lumikir.md",
+      "label": "Scriptorium of the Lumikir",
+      "line": 153,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/the_collective_anarchy.md",
+      "label": "The Collective Anarchy",
+      "line": 154,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/umbral_court.md",
+      "label": "Umbral Court",
+      "line": 155,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/the_photoli.md",
+      "label": "The Photoli",
+      "line": 156,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/mierese_of_neuno.md",
+      "label": "Mierese of Neuno",
+      "line": 157,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/black_market_auction_house.md",
+      "label": "Black Market Auction House",
+      "line": 159,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/exile_scavengers.md",
+      "label": "Exile Scavengers",
+      "line": 160,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/sorkof_pirates.md",
+      "label": "Sorkof Pirates",
+      "line": 161,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/slavers_of_frenir.md",
+      "label": "Slavers of Frenir",
+      "line": 162,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/house_xictus.md",
+      "label": "House Xictus (Warriors)",
+      "line": 164,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/house_garveil.md",
+      "label": "House Garveil (Scholars)",
+      "line": 165,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/house_exinade.md",
+      "label": "House Exinade (Explorers)",
+      "line": 166,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/house_outro.md",
+      "label": "House Outro (Humanitarian)",
+      "line": 167,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/house_lutavira.md",
+      "label": "House Lutavira (Leaders)",
+      "line": 168,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/house_busan.md",
+      "label": "House Busan (Builders)",
+      "line": 169,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/house_akalma.md",
+      "label": "House Akalma (Banished)",
+      "line": 170,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/swamp_lords.md",
+      "label": "Swamp Lords",
+      "line": 171,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/graft_research.md",
+      "label": "Graft Research",
+      "line": 173,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/earth_conscious_ontological_society.md",
+      "label": "Earth Conscious Ontological Society",
+      "line": 174,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/ashroot_grove.md",
+      "label": "Ashroot Grove",
+      "line": 176,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/balifa_grove.md",
+      "label": "Balifa Grove",
+      "line": 177,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/coral_dwellers.md",
+      "label": "Coral Dwellers",
+      "line": 178,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/deepwell_grove.md",
+      "label": "Deepwell Grove",
+      "line": 179,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/duskbloom_grove.md",
+      "label": "Duskbloom Grove",
+      "line": 180,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/izarians.md",
+      "label": "Izarians",
+      "line": 181,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/lumiro_grove.md",
+      "label": "Lumiro Grove",
+      "line": 182,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/thornveil_grove.md",
+      "label": "Thornveil Grove",
+      "line": 183,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/garadar_dac.md",
+      "label": "Garadar DAC",
+      "line": 184,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/ruling_conclave.md",
+      "label": "Ruling Conclave",
+      "line": 186,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/factions/xianyang_enforcers.md",
+      "label": "Xianyang Enforcers",
+      "line": 187,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/geography/index.md",
+      "label": "index",
+      "line": 189,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/index.md",
+      "label": "index",
+      "line": 191,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/abyd.md",
+      "label": "Abyd",
+      "line": 192,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/akalma_exile.md",
+      "label": "Akalma Exile",
+      "line": 193,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/amora.md",
+      "label": "Amora",
+      "line": 194,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/anfoil_states.md",
+      "label": "Anfoil States",
+      "line": 195,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/aurora.md",
+      "label": "Aurora",
+      "line": 196,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/azut.md",
+      "label": "Azut",
+      "line": 197,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/barrot_gateway.md",
+      "label": "Barrot Gateway",
+      "line": 198,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/bluvael.md",
+      "label": "Bluvael",
+      "line": 199,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/communion.md",
+      "label": "Communion",
+      "line": 200,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/coral_nebula.md",
+      "label": "Coral Nebula",
+      "line": 201,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/denebula_utopia.md",
+      "label": "Denebula Utopia",
+      "line": 202,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/dream_reach.md",
+      "label": "Dream Reach",
+      "line": 203,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/eol_garadar.md",
+      "label": "Eol-Garadar",
+      "line": 204,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/eternity.md",
+      "label": "Eternity",
+      "line": 205,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/evernat.md",
+      "label": "Evernat",
+      "line": 206,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/everstorm.md",
+      "label": "Everstorm",
+      "line": 207,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/exodus.md",
+      "label": "Exodus",
+      "line": 208,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/foy_fields.md",
+      "label": "Foy Fields",
+      "line": 209,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/free_harbors.md",
+      "label": "Free Harbors",
+      "line": 210,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/frenir.md",
+      "label": "Frenir",
+      "line": 211,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/frostsun.md",
+      "label": "Frostsun",
+      "line": 212,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/glowhaven.md",
+      "label": "Glowhaven",
+      "line": 213,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/hanging_gardens.md",
+      "label": "Hanging Gardens",
+      "line": 214,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/harkend.md",
+      "label": "Harkend",
+      "line": 215,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/ilidae.md",
+      "label": "Ilidae",
+      "line": 216,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/izar.md",
+      "label": "Izar",
+      "line": 217,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/izar_fallen_civilization.md",
+      "label": "Izar Fallen Civilization",
+      "line": 218,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/izar_survivors.md",
+      "label": "Izar Survivors",
+      "line": 219,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/ka_dara.md",
+      "label": "Ka-dara",
+      "line": 220,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/kamec.md",
+      "label": "Kamec",
+      "line": 221,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/lumik.md",
+      "label": "Lumik",
+      "line": 222,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/mycenas.md",
+      "label": "Mycenas",
+      "line": 223,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/neuno.md",
+      "label": "Neuno",
+      "line": 224,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/night_window.md",
+      "label": "Night Window",
+      "line": 225,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/old_grove.md",
+      "label": "Old Grove",
+      "line": 226,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/ophek_oasis.md",
+      "label": "Ophek Oasis",
+      "line": 227,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/pavo_passage.md",
+      "label": "Pavo Passage",
+      "line": 228,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/pergamos.md",
+      "label": "Pergamos",
+      "line": 229,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/perpetual_belt.md",
+      "label": "Perpetual Belt",
+      "line": 230,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/redam.md",
+      "label": "Redam",
+      "line": 231,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/segal.md",
+      "label": "Segal",
+      "line": 232,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/soletud.md",
+      "label": "Soletud",
+      "line": 233,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/summer_sea.md",
+      "label": "Summer Sea",
+      "line": 234,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/valiant.md",
+      "label": "Valiant",
+      "line": 235,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/vega_fall.md",
+      "label": "Vega Fall",
+      "line": 236,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/verbis_cluster.md",
+      "label": "Verbis Cluster",
+      "line": 237,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/verzan.md",
+      "label": "Verzan",
+      "line": 238,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/vostalgia.md",
+      "label": "Vostalgia",
+      "line": 239,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/weeping_nebula.md",
+      "label": "Weeping Nebula",
+      "line": 240,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/xianyang.md",
+      "label": "Xianyang",
+      "line": 241,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/yuldun_waste.md",
+      "label": "Yuldun Waste",
+      "line": 242,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/zavijava_zone.md",
+      "label": "Zavijava Zone",
+      "line": 243,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/sectors/zenith_door.md",
+      "label": "Zenith Door",
+      "line": 244,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/worlds/index.md",
+      "label": "index",
+      "line": 246,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/worlds/cathris.md",
+      "label": "Cathris",
+      "line": 247,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/worlds/crushspire.md",
+      "label": "Crushspire",
+      "line": 248,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/worlds/etira.md",
+      "label": "Etira",
+      "line": 249,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/worlds/okuto.md",
+      "label": "Okuto",
+      "line": 250,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/worlds/tollhaven.md",
+      "label": "Tollhaven",
+      "line": 251,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/worlds/velloris.md",
+      "label": "Velloris",
+      "line": 252,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/worlds/veshmora.md",
+      "label": "Veshmora",
+      "line": 253,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/c4_lore_layer.md",
+      "label": "C4 Lore Layer — Exodus",
+      "line": 255,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/eternity_system.md",
+      "label": "Eternity System",
+      "line": 256,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/galactic_regions.md",
+      "label": "Galactic Regions",
+      "line": 257,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/ka_dara_sector.md",
+      "label": "Ka-dara Sector",
+      "line": 258,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/geography/the_cataclysm.md",
+      "label": "The Cataclysm",
+      "line": 259,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/history/index.md",
+      "label": "index",
+      "line": 261,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/history/eras_of_star_atlas.md",
+      "label": "Eras of Star Atlas",
+      "line": 262,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/history/convergence_war.md",
+      "label": "The Convergence War",
+      "line": 263,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/history/chapter2_holosim_balifa_campaign.md",
+      "label": "Chapter 2 — Holosim Balifa Campaign",
+      "line": 264,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/narratives/index.md",
+      "label": "index",
+      "line": 266,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/narratives/never_alone_campaign.md",
+      "label": "Never Alone Campaign",
+      "line": 267,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/cosmology/index.md",
+      "label": "index",
+      "line": 269,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/cosmology/iris_zodiac.md",
+      "label": "Iris Zodiac",
+      "line": 270,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/technology/index.md",
+      "label": "index",
+      "line": 272,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/technology/hrz_metagenic_materials.md",
+      "label": "HRZ Metagenic Materials",
+      "line": 273,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/institutions/council_of_peace.md",
+      "label": "Council of Peace",
+      "line": 275,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/institutions/star_atlas_blockchain.md",
+      "label": "Star Atlas Blockchain",
+      "line": 276,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/manufacturers/calico.md",
+      "label": "Calico",
+      "line": 278,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/manufacturers/opal.md",
+      "label": "Opal",
+      "line": 279,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/manufacturers/vzus.md",
+      "label": "VZUS",
+      "line": 280,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/systems/sdu_classification.md",
+      "label": "SDU Classification",
+      "line": 282,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/quests/holosim_complete_archive.md",
+      "label": "Holosim Complete Archive",
+      "line": 284,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/reference/index.md",
+      "label": "index",
+      "line": 286,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/meta/named_characters.md",
+      "label": "Named Characters",
+      "line": 287,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/meta/master_timeline.md",
+      "label": "Master Timeline",
+      "line": 288,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/meta/consistency_audit.md",
+      "label": "Consistency Audit",
+      "line": 289,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/meta/faction_power_classification.md",
+      "label": "Faction Power Classification",
+      "line": 290,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/meta/galia_sector_depth_audit.md",
+      "label": "Galia Sector Depth Audit",
+      "line": 291,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 2,
+      "docs_path": "docs/reference/master_asset_guide.md",
+      "label": "Master Asset Guide",
+      "line": 292,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/reference/atlas/planets.md",
+      "label": "Planets & Worlds",
+      "line": 294,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/reference/atlas/galactic_atlas.md",
+      "label": "Galactic Atlas",
+      "line": 295,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/reference/atlas/galia_expanse_atlas.md",
+      "label": "Galia Expanse Atlas",
+      "line": 296,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/reference/atlas/galia_expanse_descriptions.md",
+      "label": "Galia Expanse Descriptions",
+      "line": 297,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/reference/crafting/crafted_items_descriptions.md",
+      "label": "Crafted Items Descriptions",
+      "line": 299,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/reference/crafting/recipes_extracted.md",
+      "label": "Recipes",
+      "line": 300,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/reference/resources/galia_expanse_resources.md",
+      "label": "Galia Expanse Resources",
+      "line": 302,
+      "resolution_status": "RESOLVED"
+    },
+    {
+      "depth": 3,
+      "docs_path": "docs/reference/resources/resource_analysis.md",
+      "label": "Resource Analysis",
+      "line": 303,
+      "resolution_status": "RESOLVED"
+    }
+  ],
+  "sitemap_extra_urls": [
+    "https://joseeduardonoot.github.io/star-atlas-lore/geography/oni_css_lore_layer/"
+  ],
+  "sitemap_missing_expected_urls": [],
+  "unresolved_navigation_targets": [],
+  "upstream_commit": "22555f277eb1496e34c0839c8f1f382842bd1d2b"
+}
