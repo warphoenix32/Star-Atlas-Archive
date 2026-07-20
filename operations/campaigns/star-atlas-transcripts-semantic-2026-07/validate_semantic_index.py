@@ -27,6 +27,8 @@ ALLOWED_PREFIXES = (
     "archive/semantic/star-atlas-transcripts/",
     "operations/campaigns/star-atlas-transcripts-semantic-2026-07/",
     "operations/ci/validate_repository.py",
+    "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
+    "archive/manifests/lore-repository-ingestion-2026-07.json",
 )
 
 
