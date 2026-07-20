@@ -38,6 +38,15 @@ def main() -> int:
 
     for key in ("shared_contract", "specialist_registry"):
         assert (ROOT / payload[key]).is_file(), f"missing {key}"
+    significance = ROOT / payload["evidence_significance_standard"]
+    significance_text = significance.read_text(encoding="utf-8")
+    for phrase in (
+        "Unknown attribution is not a universal confidence penalty",
+        "OUT_OF_SCOPE_OR_AMBIGUOUS",
+        "real-world politics unrelated to Star Atlas",
+        "reputationally adverse interpretation",
+    ):
+        assert phrase in significance_text
     for specialist_contract in payload.get("specialist_contracts", []):
         text = (ROOT / specialist_contract).read_text(encoding="utf-8")
         assert "## Mission" in text

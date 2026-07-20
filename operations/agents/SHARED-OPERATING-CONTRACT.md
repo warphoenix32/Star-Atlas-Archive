@@ -16,6 +16,7 @@ Protect the separation between preserved evidence, reviewed knowledge, and publi
 8. Prefer updating an existing canonical page over creating a duplicate entity page.
 9. Record gaps and conflicts rather than smoothing them out in prose.
 10. Stop at the role's handoff boundary.
+11. Apply `EVIDENCE-SIGNIFICANCE-STANDARD.md` to transcript and conversational evidence. Preserve out-of-scope material in the Archive, but do not promote unrelated politics, unrelated games, off-topic attacks, or sentiment-only interpretations.
 
 ## Human adjudication
 

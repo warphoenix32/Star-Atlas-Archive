@@ -26,6 +26,8 @@ Create source-linked knowledge candidates. Every material claim must identify it
 
 Assign one risk class and review mode. A consolidated campaign report doubles as the promotion ledger and human-review queue. Separate evidence packets, conflict reports, or taxonomy migrations are required only when a candidate's risk or ambiguity needs them.
 
+For transcripts and conversational evidence, apply the [Evidence Significance Standard](../agents/EVIDENCE-SIGNIFICANCE-STANDARD.md). Significance adjudication remains part of `DRAFT -> REVIEW`; it does not add another pipeline stage. Unknown speakers are evaluated according to claim dependency, and Discord material is evaluated in context while unrelated politics, unrelated games, and off-topic personal attacks remain archive-only.
+
 ### PUBLISH
 
 Place approved knowledge on a draft pull-request branch. Normal branch protection or a maintainer controls merge to `main`. Merged knowledge may trigger the Library build. Graph updates are optional, independently reviewed outputs and never block narrative publication.

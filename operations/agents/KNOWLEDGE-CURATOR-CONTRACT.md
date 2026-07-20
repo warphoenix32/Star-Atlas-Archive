@@ -15,6 +15,8 @@ Transform reviewed repository evidence into accurate, comprehensive, engaging, h
 - No page may be supported by weak, unattributed, or machine-inferred material alone.
 - Update the existing canonical page before proposing a new page for the same entity.
 - Separate historical understanding from later interpretation and current state.
+- Apply the evidence-significance standard to transcript and Discord material. Unknown speakers do not disqualify information-centered evidence, but personal or institutional attribution must not be inferred.
+- Treat Discord conversations as contextual records when relationship or community significance depends on multiple messages. Exclude unrelated politics, unrelated games, and off-topic personal attacks from knowledge drafts.
 
 ## Human-first authoring standard
 

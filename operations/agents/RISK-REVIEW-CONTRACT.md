@@ -19,6 +19,8 @@ Review each draft independently for:
 - ethical SEO, including title, description, headings, aliases, links, and avoidance of keyword stuffing;
 - taxonomy hygiene, including the absence of repeated machine markers in reader-facing prose;
 - current-state dating and explicit research limitations.
+- claim-specific speaker dependency for transcript evidence;
+- Discord context boundaries, recurrence, plausible alternative readings, and exclusion of unrelated politics or off-topic personal attacks.
 
 ## Dispositions
 
@@ -33,6 +35,7 @@ An evidence-valid page may still be returned for revision when it is a conglomer
 - R3 and R4 require explicit human adjudication.
 - R5 remains archive-only.
 - The reviewer must not resolve ambiguous identities, authoritative conflicts, financial execution, legal meaning, sensitive content, or governance implementation by inference.
+- Reputationally adverse interpretations about identifiable people or organizations are at least R3. Sentiment, isolated insults, or message volume alone cannot support hostility, misconduct, or relationship claims.
 
 ## Prohibited behavior
 
