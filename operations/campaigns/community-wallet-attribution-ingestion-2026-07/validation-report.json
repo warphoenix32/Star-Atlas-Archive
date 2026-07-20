@@ -1,0 +1,27 @@
+{
+  "campaign_id": "community-wallet-attribution-ingestion-2026-07",
+  "checks": {
+    "deterministic_build": "PASS",
+    "forbidden_paths": "PASS",
+    "qualified_attribution_semantics": "PASS",
+    "raw_checksum": "PASS",
+    "solana_address_syntax": "PASS",
+    "source_record_pairing": "PASS",
+    "source_value_fidelity": "PASS",
+    "unique_addresses": "PASS",
+    "unique_record_ids": "PASS",
+    "workbook_dimensions": "PASS"
+  },
+  "counts": {
+    "manual_review_records": 84,
+    "records": 84,
+    "unique_addresses": 84
+  },
+  "limitations": [
+    "Workbook compiler and maintainer are UNKNOWN.",
+    "Attribution methodology and row-level evidence are unavailable.",
+    "Creation, update, and effective dates are unavailable.",
+    "No official or on-chain ownership/control verification was performed."
+  ],
+  "result": "PASS"
+}

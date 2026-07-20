@@ -1,0 +1,66 @@
+{
+  "address_format_counts": {
+    "VALID_SOLANA_PUBLIC_KEY_SYNTAX": 84
+  },
+  "campaign_id": "community-wallet-attribution-ingestion-2026-07",
+  "headers": [
+    "ADDRESS",
+    "NAME",
+    "Major Group"
+  ],
+  "major_group_counts": {
+    "DAO": 4,
+    "FTX": 5,
+    "Liquidity": 38,
+    "Private Sale": 2,
+    "Rewards": 10,
+    "Team": 25
+  },
+  "normalization_policy": {
+    "community_attribution": "PRESERVED_AS_QUALIFIED_CLAIM",
+    "knowledge_promotion": "PROHIBITED_WITHOUT_STRONGER_EVIDENCE",
+    "observed_text": "PRESERVED_EXACTLY_AS_CAPTURED",
+    "onchain_analysis": "NOT_PERFORMED",
+    "ownership_control": "UNVERIFIED"
+  },
+  "record_count": 84,
+  "repeated_label_counts": {
+    "ATLAS Prime": 2,
+    "Corporate Treasury": 2,
+    "Liquidity": 21,
+    "Market Making": 2,
+    "ORCA": 4,
+    "ORCA Pool": 2,
+    "Private Sale": 2,
+    "Rewards": 2,
+    "Starbased ATLAS Rewards": 3
+  },
+  "research_gaps": [
+    {
+      "description": "Workbook compiler and maintainer are UNKNOWN.",
+      "gap_id": "RG01_COMPILER",
+      "priority": "MEDIUM"
+    },
+    {
+      "description": "Attribution methodology and row-level evidence are unavailable.",
+      "gap_id": "RG02_METHODOLOGY",
+      "priority": "HIGH"
+    },
+    {
+      "description": "Creation, update, and effective dates are unavailable.",
+      "gap_id": "RG03_TEMPORAL_SCOPE",
+      "priority": "HIGH"
+    },
+    {
+      "description": "No official or on-chain ownership/control verification was performed.",
+      "gap_id": "RG04_OWNERSHIP_CONTROL",
+      "priority": "HIGH"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "source_id": "SRC-COMMUNITY-WALLET-0F03FBCA3053",
+  "source_path": "archive/raw/community-wallet-attributions/Star Atlas Team Wallets.xlsx",
+  "source_sha256": "0f03fbca30538564e818e2a7c4a83e72ca6ef360e1b09b3a4b6e0edca4b85cfa",
+  "unique_address_count": 84,
+  "worksheet": "SA Wallet List"
+}

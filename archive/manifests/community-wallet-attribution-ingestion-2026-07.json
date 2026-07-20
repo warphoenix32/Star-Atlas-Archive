@@ -1,0 +1,57 @@
+{
+  "artifact_count": 10,
+  "artifacts": [
+    {
+      "byte_length": 9962,
+      "path": "archive/raw/community-wallet-attributions/Star Atlas Team Wallets.xlsx",
+      "sha256": "0f03fbca30538564e818e2a7c4a83e72ca6ef360e1b09b3a4b6e0edca4b85cfa"
+    },
+    {
+      "byte_length": 1884,
+      "path": "archive/normalized/community-wallet-attributions/metadata.json",
+      "sha256": "fefbda0cc6bf86b3b10289e9cd84e4dc1292fed59053b8c0546a3f3d98fa071a"
+    },
+    {
+      "byte_length": 122637,
+      "path": "archive/normalized/community-wallet-attributions/wallet-attributions.jsonl",
+      "sha256": "4ac0dae2d901793a6dbb0b346c50a0e6373027efef78294b42a8bdb64980cbe8"
+    },
+    {
+      "byte_length": 1190,
+      "path": "archive/provenance/community-wallet-attributions/star-atlas-team-wallets.json",
+      "sha256": "7eb0fc05a8b7b08c2b8ed47bd3be14343a382db1477c6a3603ec514c893b3f7a"
+    },
+    {
+      "byte_length": 2573,
+      "path": "archive/source-records/community-wallet-attributions/SRC-COMMUNITY-WALLET-0F03FBCA3053.json",
+      "sha256": "5c4c036f5e4e54f4887725aa534b748e0767a0ddd0bf014d7a3332dca7cdfabe"
+    },
+    {
+      "byte_length": 1995,
+      "path": "archive/source-records/community-wallet-attributions/SRC-COMMUNITY-WALLET-0F03FBCA3053.md",
+      "sha256": "80b51f458c8f8566b60b915e9a84d893c5b8a75ee703d3afb617a790cb32b845"
+    },
+    {
+      "byte_length": 566,
+      "path": "operations/campaigns/community-wallet-attribution-ingestion-2026-07/campaign-summary.json",
+      "sha256": "6db6aab80331cf07e301a1b4acab23abb4f3678710d42acf08139442beede75f"
+    },
+    {
+      "byte_length": 1281,
+      "path": "operations/campaigns/community-wallet-attribution-ingestion-2026-07/campaign-summary.md",
+      "sha256": "2176b2d11b8051a9c3ed7ecefd72d4d8165062eef433e602ae106aff7d8bc433"
+    },
+    {
+      "byte_length": 1158,
+      "path": "operations/campaigns/community-wallet-attribution-ingestion-2026-07/curator-decisions.json",
+      "sha256": "e527a3bc67dc3ef9fd9e3510da4b9e3ec6975e882aeafc296a3ee13bc1d57c99"
+    },
+    {
+      "byte_length": 122637,
+      "path": "operations/campaigns/community-wallet-attribution-ingestion-2026-07/normalized-preview.jsonl",
+      "sha256": "4ac0dae2d901793a6dbb0b346c50a0e6373027efef78294b42a8bdb64980cbe8"
+    }
+  ],
+  "campaign_id": "community-wallet-attribution-ingestion-2026-07",
+  "generated_as_of": "2026-07-20"
+}

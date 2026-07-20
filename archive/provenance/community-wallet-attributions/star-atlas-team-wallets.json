@@ -1,0 +1,31 @@
+{
+  "artifact_type": "community_attributed_solana_wallet_register",
+  "authority": {
+    "official_confirmation_status": "UNCONFIRMED",
+    "onchain_observation_status": "NOT_CHECKED",
+    "operator_assessment": "HIGH_LIKELIHOOD",
+    "ownership_verification_status": "UNVERIFIED",
+    "source_class": "COMMUNITY_EFFORT"
+  },
+  "campaign_id": "community-wallet-attribution-ingestion-2026-07",
+  "custody": {
+    "acquired_at": "2026-07-20",
+    "acquisition_method": "submitted directly by repository operator",
+    "compiler": "UNKNOWN",
+    "created_at": "UNKNOWN",
+    "methodology": "UNKNOWN",
+    "original_filename": "Star Atlas Team Wallets.xlsx",
+    "preservation_policy": "byte-for-byte raw preservation",
+    "source_location": "UNKNOWN",
+    "updated_at": "UNKNOWN"
+  },
+  "raw_artifact": {
+    "byte_length": 9962,
+    "format": "Microsoft Excel Open XML workbook",
+    "path": "archive/raw/community-wallet-attributions/Star Atlas Team Wallets.xlsx",
+    "sha256": "0f03fbca30538564e818e2a7c4a83e72ca6ef360e1b09b3a4b6e0edca4b85cfa",
+    "worksheet": "SA Wallet List"
+  },
+  "source_id": "SRC-COMMUNITY-WALLET-0F03FBCA3053",
+  "status": "RAW_PRESERVED_ATTRIBUTION_QUALIFIED"
+}
