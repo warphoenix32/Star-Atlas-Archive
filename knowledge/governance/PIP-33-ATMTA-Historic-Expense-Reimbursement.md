@@ -1,7 +1,9 @@
 ---
 title: "PIP-33 — ATMTA Historic Expense Reimbursement"
+seo_title: "PIP-33: ATMTA Historic Expense Reimbursement and Vote Record"
+seo_description: "A source-grounded case study of PIP-33, its disclosed conflict, two conditional 75% USDC and 25% ATLAS tranches, passing vote, and unverified payment state."
 knowledge_status: PROVISIONAL
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 7
 page_risk_class: R3
@@ -10,7 +12,7 @@ aliases:
   - "PIP-33"
   - "ATMTA Historic Expense Reimbursement"
 first_seen: 2026-06-24
-last_reviewed: 2026-07-17
+last_reviewed: 2026-07-20
 source_priority:
   - A1
   - A2
@@ -30,6 +32,7 @@ evidence_basis:
   - "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json"
   - "operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl"
   - "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AA9B47413B9C587D.json"
+  - "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json"
 known_limitations:
   - "The expense, tax, invoice, runway, and supporting-document statements originate in the proposal and its author-provided appendices and are not independently audited by this repository."
   - "The Council tracker contains no populated payment fields for this proposal."
@@ -71,6 +74,8 @@ The displayed schedule contains one-cent rounding inconsistencies: two tranches 
 The captured portal record contains 170,240,400.0117 YES PVP, 24,857,540.3494 NO PVP, and 83,860,459.5491 abstaining PVP. Under the reviewed binary rule, the result is `PASSED`. An official Discord acknowledgment on 2026-07-12 also described the proposal as passed and characterized participation as the highest PVP participation since DAO inception. The vote totals support the comparison within the captured PIP-1–33 corpus; the broader historical characterization remains an attributed statement. [SA-DISCORD-ANN-AA9B47413B9C587D](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-AA9B47413B9C587D.json)
 
 The portal records 220 ballots: 141 YES, 59 NO, and 20 abstentions, totaling approximately 278,958,399.91 PVP. Ballot count is not the decision weight. The Council tracker reports approximately 279 million PVP and 37.63% participation but leaves its `vote_result` field null. That null means the tracker alone is insufficient for the result. The page therefore derives `PASSED` from the completed official vote record and uses the tracker only as attributed operational evidence.
+
+The later operator-provided on-chain vote export independently preserves the same effective ballot counts and PVP totals at ballot level, with one Solana signature attached to each vote event. The normalized record is classified as on-chain-validatable vote evidence, but the signatures were not replayed during the campaign. It strengthens the ballot reconstruction while remaining explicitly limited to the vote: it supplies no payment or implementation evidence. [On-chain vote Source Record](../../archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json)
 
 ## Approved implementation schedule
 

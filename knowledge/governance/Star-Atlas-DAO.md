@@ -1,7 +1,9 @@
 ---
 title: "Star Atlas DAO"
+seo_title: "Star Atlas DAO: POLIS Voting, Authority, and Governance History"
+seo_description: "How the Star Atlas DAO uses POLIS voting power, how proposals become decisions, and why passage remains separate from implementation."
 knowledge_status: CANONICAL
-as_of: 2026-07-15
+as_of: 2026-07-20
 confidence: HIGH
 page_risk_score: 3
 page_risk_class: R1
@@ -9,32 +11,54 @@ evidence_basis:
   - "archive/semantic/governance/pip-registry-semantic.json"
   - "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
 known_limitations:
-  - "Current-state statements are date-bound."
-  - "Absence of evidence is not evidence of non-occurrence."
+  - "The captured PIP corpus establishes the designed governance system but does not independently verify every later operation."
+  - "Current participation, membership, and interface behavior may change after the as-of date."
 research_gaps:
-  - "Independent execution evidence remains incomplete where explicitly noted."
-review_after: 2027-07-15
+  - "Recover versioned governance-framework publications and independent execution evidence for unresolved passed proposals."
+review_after: 2027-07-20
 ---
 
 # Star Atlas DAO
-The Star Atlas DAO is the on-chain governance system through which participants who lock and vote with POLIS form collective decisions about the Star Atlas ecosystem. It is not interchangeable with ATMTA, the Star Atlas Foundation, or the Star Atlas Council.
 
-## Scope and authority
+The Star Atlas DAO is the governance system through which people who hold and commit POLIS voting power can make collective decisions about the Star Atlas ecosystem. It is best understood as an electorate and a decision process—not as a synonym for ATMTA, the Star Atlas Foundation, the Star Atlas Council, or every wallet associated with governance.
 
-The captured text of PIP-1 defines the DAO as a decentralized, program-based governance system deployed on Solana. Its formal decision authority is expressed through proposal procedures and PVP-weighted POLIS voting. The PIP establishes what the institution was designed to do; a later proposal result or portal label must be consulted before asserting that any particular policy was approved. [PIP-1; SRC-PIP-01-BC8475E4](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json)
+The captured text of PIP-1 describes a decentralized, program-based system deployed on Solana. Its historical importance lies in establishing both an authority and a procedure: POLIS holders may decide eligible proposals through PVP-weighted voting, but proposals must still pass through defined administrative and voting stages. [PIP-1 Source Record](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json)
 
-The DAO's role is legislative and allocative: participants can consider proposals, select Council members through the applicable election mechanism, and approve treasury or policy actions. Administrative review and lawful implementation are assigned elsewhere. See [Star Atlas Foundation](Star-Atlas-Foundation.md) and [Star Atlas Council](Star-Atlas-Council.md).
+## What the DAO can establish
 
-## Decision boundaries
+Within the preserved framework, the DAO can approve or reject policy proposals, elect Council members under the mechanism defined for the election, and authorize treasury or program actions. That is formal decision authority. The authority is collective and vote-based; it should not be attributed to whichever organization authored a proposal or operates the surrounding software.
 
-A published PIP is a request. An open vote is a decision process. A passing result is authorization. None of those states, by itself, proves payment, deployment, or completed delivery. The [PIP Registry](PIP-Registry.md) therefore records passage separately from Council-reported operations and independent execution evidence.
+Voting weight is measured through POLIS Voting Power, or PVP. PVP reflects the governance mechanism defined in the captured record and is not interchangeable with a simple wallet count. A ballot table can therefore show more individual wallets on one side while the PVP-weighted result is determined by the voting power attached to those ballots. See [PVP Voting Power](../economy/PVP-Voting-Power.md).
 
-## Current state
+## How a DAO decision is made
 
-As of 2026-07-15, the archive supports the DAO's institutional identity and preserved proposal corpus. It does not establish that every approved proposal was executed or that the corpus is independently complete beyond the 33 captured PIPs.
+A proposal begins as an authored request. Administrative review determines whether it can advance under the procedural framework. Publication opens the text to the community, and a voting window allows eligible voting power to participate. Only the completed result establishes passage or failure under the applicable mechanism.
 
-## Evidence references
+That sequence matters for historical language:
 
-- [Captured PIP registry](../../archive/semantic/governance/pip-registry-semantic.json)
-- [PIP-1 source record](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json)
-- [PIP lifecycle](PIP-Lifecycle-and-Legislative-Process.md)
+1. **Published** means a proposal existed.
+2. **Voting** means a decision process opened.
+3. **Passed** means the vote supplied authorization.
+4. **Implementation announced** means an actor reported intended action.
+5. **Executed or paid** requires evidence of the actual operation.
+6. **Independently verified** requires separate primary evidence beyond the actor's own report.
+
+Election proposals require mechanism-aware interpretation. A qualifying round may select advancing candidates without filling any Council seat. A portal status of “passed” does not identify winners when the underlying election record is absent. The [Council Election History](Council-Election-History.md) preserves those distinctions.
+
+## Relationship to the Foundation and Council
+
+The [Star Atlas Foundation](Star-Atlas-Foundation.md) supplies legal and administrative capacity described in the governance framework. It can review procedural compliance and mediate implementation within legal, safety, and operational constraints. The [Star Atlas Council](Star-Atlas-Council.md) is an elected process steward with delegated duties that can include author support, governance operations, program administration, and milestone or payment review.
+
+Neither institution replaces the electorate. Conversely, a DAO vote does not eliminate the need for lawful administration, custody, technical execution, or supporting records. This distribution of responsibility is why the archive tracks institutional action after a vote instead of reporting passage as a completed outcome.
+
+## Treasury authority
+
+Some PIPs authorize economic action. The [Ecosystem Fund](Ecosystem-Fund.md) is one governed funding pathway; direct treasury proposals are another. The wider [treasury architecture](../economy/DAO-Treasury-Architecture.md) includes distinct accounts and programs, while the named DAO Treasury account is a particular address defined in the relevant PIPs. These concepts must remain separate for later entity and graph work.
+
+[PIP-33](PIP-33-ATMTA-Historic-Expense-Reimbursement.md) demonstrates the boundary clearly. The completed vote supports authorization of the proposal's terms. It does not, by itself, prove that either scheduled tranche was paid.
+
+## Historical and current limits
+
+As of 2026-07-20, the archive supports the DAO's institutional identity, its PVP-weighted voting model, and a captured PIP-1 through PIP-33 corpus. It does not establish that the corpus represents every informal governance discussion, that every portal state remained current, or that every approved action was executed.
+
+For proposal-level history, results, and open conflicts, continue to the [PIP Registry](PIP-Registry.md), [PIP Lifecycle](PIP-Lifecycle-and-Legislative-Process.md), and [Governance Evidence States](Governance-Implementation-and-Evidence-States.md).

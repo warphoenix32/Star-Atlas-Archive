@@ -1,5 +1,7 @@
 ---
 title: "Governance Constitutional History"
+seo_title: "Star Atlas Governance Constitutional History"
+seo_description: "The evidence-qualified development of the Star Atlas DAO, Foundation, Council, PIP process, elections, and treasury policy from 2022 through 2026."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: HIGH
@@ -22,6 +24,8 @@ review_after: 2027-01-17
 # Governance Constitutional History
 
 Star Atlas governance developed in layers rather than through one founding event. The surviving record distinguishes an operational DAO and locking release in 2022, a public PIP-1 design rollout in 2023, formal ratification proposals and voting in 2024, and later amendments to elections, Council terms, and treasury policy. This history treats publication, deployment, ratification, passage, implementation, and supersession as separate states.
+
+That layered history explains an apparent contradiction in the dates. Official communications can describe a governance capability as live before the proposal corpus later records formal ratification. The archive preserves both events rather than choosing one artificial “beginning”: operational release, public constitutional explanation, and formal DAO adoption are different milestones.
 
 ## Interpretive scope
 

@@ -1,5 +1,7 @@
 ---
 title: "Star Atlas Council Election History"
+seo_title: "Star Atlas Council Elections: Results, Candidates, and Open Gaps"
+seo_description: "A mechanism-aware history of Star Atlas Council elections that separates nominations, advancing candidates, final winners, intended terms, and verified service."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: HIGH
@@ -22,6 +24,8 @@ review_after: 2026-10-17
 # Star Atlas Council Election History
 
 The captured record documents one fully resolvable two-stage Council election and two later Council elections whose winning rosters remain absent. This page preserves candidate advancement, final election, intended term, service, and current membership as distinct claims.
+
+Council elections are a useful test of archival discipline. A proposal page can prove that an election was scheduled, an aggregate result can prove that voting occurred, and a winner record can identify elected members—but none of those artifacts alone proves that each winner accepted, served an entire term, or remains in office. The history below stops at the strongest state supported for each election.
 
 ## Election framework
 
@@ -49,6 +53,8 @@ PIP-7 identifies the final first Council roster as `jp`, `funcracker`, `king_bry
 The PIP-11 and PIP-25 portal captures preserve election text, vote windows, participation, and reviewed completion, but their normalized winner fields are empty. Official Discord announced PIP-11 voting as live; that notice cannot supply the missing final roster. [PIP-11 voting notice](../../archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-4857334329D3BC55.json)
 
 Until a final result artifact is preserved, individual claims of election, appointment, or present service after the first term remain research leads.
+
+The gap is historically meaningful. It prevents the archive from turning familiar community identities, later public appearances, or a Council-authored tracker into an unofficial roster. A future recovery should preserve the final tally and winner announcement first, then connect acceptance, seating, vacancy, replacement, and term-end records as separate events.
 
 ## Evidence rules
 

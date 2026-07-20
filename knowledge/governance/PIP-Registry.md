@@ -1,7 +1,9 @@
 ---
 title: "Canonical PIP and Governance Ledger"
+seo_title: "Star Atlas PIP Registry: PIP-1 Through PIP-33"
+seo_description: "The canonical evidence-qualified ledger for Star Atlas PIP-1 through PIP-33, including vote mechanisms, results, elections, supersession, implementation, payments, conflicts, and research gaps."
 knowledge_status: QUALIFIED
-as_of: 2026-07-18
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 7
 page_risk_class: R3
@@ -12,6 +14,7 @@ evidence_basis:
   - "archive/semantic/governance/pip-registry-semantic.json"
   - "archive/semantic/governance/pip-source-reconciliation.json"
   - "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+  - "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json"
 known_limitations:
   - "Election candidate-level PVP is absent from the preserved portal captures."
   - "Council payment and implementation fields are attributed and are not independently verified."
@@ -27,6 +30,8 @@ review_after: 2026-10-18
 This draft ledger reconciles the 33 numbered official portal captures available in the repository. It is canonical in scope—one record per PIP from PIP-1 through PIP-33—but remains `QUALIFIED` and `DRAFT_FOR_REVIEW` until human approval. It does not rewrite any source record.
 
 The machine-readable companion is [PIP-Registry.json](PIP-Registry.json). Conflicts and required follow-up evidence are maintained under the [ledger campaign](../../operations/campaigns/canonical-pip-governance-ledger-2026-07/README.md).
+
+For human readers, the ledger is best approached as a map of state transitions. The “Result and authorization” column records what voters decided. The next column records what later institutional evidence says about implementation and payment. The reconciliation column exposes conflicts instead of hiding them. Election detail follows the main table because ranked and advancement mechanisms cannot be faithfully summarized as ordinary YES/NO proposals.
 
 ## Interpretation policy
 
@@ -220,6 +225,8 @@ Vote entries use `ballots / PVP`. Full-text links point to immutable raw portal 
 PIP-33 authorized a stated maximum of **$469,513.53** through two displayed tranches of **$234,756.76**. Each tranche is **$176,067.57 USDC (75%)** plus **$58,689.19 ATLAS-equivalent (25%)**. The first tranche was scheduled for T+14 days. The second was scheduled for T+194 days—180 days after the first—and was conditional on retaining sufficient DAO Treasury capital for an additional year of Foundation/DAO operating costs.
 
 The displayed tranches total **$469513.52**, one cent below the stated total. Their USDC components total **$352135.14**, one cent below the stated USDC aggregate. Both discrepancies are preserved; neither is silently corrected. Authorization and schedule do not prove payment: `payment_state` remains `UNVERIFIED`, while `onchain_verification_state` is `MISSING_ONCHAIN_EVIDENCE`.
+
+The ballot-level on-chain export reconciles 220 effective ballots—141 YES, 59 NO, and 20 abstentions—and the portal PVP totals. Its signatures are preserved for later replay, but the campaign did not replay them. This is vote evidence only and does not change PIP-33's `UNVERIFIED` payment state. [Vote Source Record](../../archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json)
 
 ## Conflict register
 

@@ -1,5 +1,7 @@
 ---
 title: "Governance Failure and Termination Casebook"
+seo_title: "Star Atlas Governance Failures, Cancellations, and Withdrawals"
+seo_description: "Case studies of failed, terminated, canceled, withdrawn, superseded, and unverified Star Atlas PIPs without erasing their distinct vote histories."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: HIGH
@@ -20,6 +22,8 @@ review_after: 2027-01-17
 # Governance Failure and Termination Casebook
 
 Governance initiatives can end at different stages. This casebook separates proposals rejected by voters from proposals that passed and were later terminated, canceled, withdrawn, superseded, or left without verified execution. The distinctions matter because a failed vote supplies no authority, while a terminated passed proposal remains part of constitutional and treasury history.
+
+These cases are not grouped to assign blame. They are grouped because unsuccessful and incomplete initiatives reveal the system's operational boundaries: voter rejection, author withdrawal, administrator termination, policy replacement, and missing evidence are different events with different institutional meanings.
 
 ## Case taxonomy
 

@@ -1,0 +1,63 @@
+{
+  "page_id": "ecosystem-fund",
+  "proposed_path": "knowledge/governance/Ecosystem-Fund.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_class": "R2",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "ECOSYSTEM-FUND-01",
+      "claim_text": "The Ecosystem Fund is a governed funding process rather than the entire treasury or a sovereign institution.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECOSYSTEM-FUND-02",
+      "claim_text": "PIP-23 replaced PIP-4 and restated the operating limits.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECOSYSTEM-FUND-03",
+      "claim_text": "Fund authorization does not prove allocation, payment, or successful outcome.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}

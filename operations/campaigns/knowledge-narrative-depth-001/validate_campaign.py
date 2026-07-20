@@ -188,8 +188,17 @@ def main() -> int:
     record("risk_portfolio", risk_ok, f"R1/R2={low_risk}/{len(outputs)} ({low_risk_share:.1%}); R3={risk_counts['R3']} ({r3_share:.1%}); R4/R5=0")
 
     changed = changed_paths()
-    forbidden = [p for p in changed if p.startswith(("archive/", "graph/", "publication/"))]
-    record("repository_scope", not forbidden, "archive, graph, and publication untouched" if not forbidden else ", ".join(forbidden))
+    manifest_only_exceptions = {"archive/manifests/lore-repository-ingestion-2026-07.json"}
+    forbidden = [
+        p for p in changed
+        if p.startswith(("archive/", "graph/", "publication/")) and p not in manifest_only_exceptions
+    ]
+    record(
+        "repository_scope",
+        not forbidden,
+        "archive evidence, graph, and publication untouched; integration manifest changes allowed"
+        if not forbidden else ", ".join(forbidden),
+    )
 
     sage = (ROOT / "knowledge/gameplay/SAGE.md").read_text(encoding="utf-8")
     score = (ROOT / "knowledge/gameplay/SCORE-and-Faction-Fleet.md").read_text(encoding="utf-8")

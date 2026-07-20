@@ -1,0 +1,66 @@
+{
+  "page_id": "pip-33-case-study",
+  "proposed_path": "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "PROVISIONAL",
+  "page_risk_class": "R3",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "PIP-33-CASE-STUDY-01",
+      "claim_text": "PIP-33 authorized two approximately equal 75 percent USDC and 25 percent ATLAS tranches with a conditional second tranche.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+        "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PIP-33-CASE-STUDY-02",
+      "claim_text": "The source-native one-cent discrepancies remain preserved.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+        "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "PIP-33-CASE-STUDY-03",
+      "claim_text": "Ballot evidence supports passage but supplies no payment or implementation evidence.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+        "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": true,
+  "review_after": "2026-10-20"
+}

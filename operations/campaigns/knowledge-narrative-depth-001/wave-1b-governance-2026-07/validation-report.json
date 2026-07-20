@@ -1,0 +1,17 @@
+{
+  "campaign_id": "knowledge-revision-wave-1b-governance-2026-07",
+  "status": "PASS",
+  "checks": {
+    "deterministic_generation": true,
+    "page_count": true,
+    "required_metadata": true,
+    "narrative_depth": true,
+    "evidence_paths_resolve": true,
+    "internal_links_resolve": true,
+    "pip33_vote_payment_boundary": true,
+    "pip33_machine_reconciliation": true,
+    "repository_scope": true,
+    "git_diff_check": true
+  },
+  "errors": []
+}

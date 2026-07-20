@@ -1,7 +1,7 @@
 {
   "ledger_id": "CANONICAL-PIP-GOVERNANCE-LEDGER",
   "schema_version": "1.0.0",
-  "as_of": "2026-07-18",
+  "as_of": "2026-07-20",
   "ledger_status": "DRAFT_FOR_REVIEW",
   "review_status": "HUMAN_REVIEW_REQUIRED",
   "knowledge_status": "QUALIFIED",
@@ -34,7 +34,8 @@
     "archive/semantic/governance/pip-election-round-outcomes.json",
     "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
     "archive/raw/social-governance-semantic-enrichment/governance/pip-captures",
-    "archive/source-records/social-governance-semantic-enrichment/governance"
+    "archive/source-records/social-governance-semantic-enrichment/governance",
+    "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json"
   ],
   "summary": {
     "mechanism_counts": {
@@ -4585,6 +4586,8 @@
         "reconciliation_path": "archive/semantic/governance/pip-source-reconciliation.json",
         "council_tracker_source_id": "SA-COUNCIL-TRACKER-D1DADF7EB8437119",
         "council_tracker_source_path": "archive/source-records/governance/council-pip-tracker/SA-COUNCIL-TRACKER-D1DADF7EB8437119.json",
+        "ballot_evidence_source_id": "SRC-SOLANA-PIP-33-5EE6D3F844C4",
+        "ballot_evidence_source_path": "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json",
         "raw_content_sha256": "9a68caad5e9952a785dfa59b9926c74658bf0264af84cb34bc0dbc0a7e87296a"
       },
       "vote": {
@@ -4610,7 +4613,9 @@
         "decision_rule": "YES_PVP_GT_NO_PVP_PASS; NO_PVP_GTE_YES_PVP_FAIL; ABSTAIN_RECORDED_NOT_DECISIVE",
         "adjudication_source": "REPOSITORY_OWNER_APPROVED_EDITORIAL_RULE",
         "source_native_rule": false,
-        "source_native_quorum_threshold": null
+        "source_native_quorum_threshold": null,
+        "ballot_evidence_reconciliation": "RECONCILED_TO_OPERATOR_PROVIDED_ONCHAIN_EXPORT",
+        "signature_replay_performed": false
       },
       "relationships": [],
       "authorization": {

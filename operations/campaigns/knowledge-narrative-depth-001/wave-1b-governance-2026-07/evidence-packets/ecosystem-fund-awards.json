@@ -1,0 +1,66 @@
+{
+  "page_id": "ecosystem-fund-awards",
+  "proposed_path": "knowledge/governance/Ecosystem-Fund-Award-History.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_class": "R3",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "ECOSYSTEM-FUND-AWARDS-01",
+      "claim_text": "Award is used narrowly for a passed eligible funding authorization.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECOSYSTEM-FUND-AWARDS-02",
+      "claim_text": "Council-reported payment and milestone fields are not independently verified.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECOSYSTEM-FUND-AWARDS-03",
+      "claim_text": "Failed proposals are applications, not awards.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": true,
+  "review_after": "2026-10-20"
+}

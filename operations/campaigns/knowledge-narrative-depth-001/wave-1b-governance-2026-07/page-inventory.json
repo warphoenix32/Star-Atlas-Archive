@@ -1,0 +1,119 @@
+{
+  "campaign_id": "knowledge-revision-wave-1b-governance-2026-07",
+  "as_of": "2026-07-20",
+  "page_count": 14,
+  "pages": [
+    {
+      "page_id": "governance-index",
+      "path": "knowledge/governance/README.md",
+      "action": "INDEX_REDESIGN",
+      "knowledge_status": "CANONICAL",
+      "risk_class": "R1",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/governance-index.json"
+    },
+    {
+      "page_id": "star-atlas-dao",
+      "path": "knowledge/governance/Star-Atlas-DAO.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "CANONICAL",
+      "risk_class": "R1",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/star-atlas-dao.json"
+    },
+    {
+      "page_id": "star-atlas-foundation",
+      "path": "knowledge/governance/Star-Atlas-Foundation.md",
+      "action": "REWRITE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/star-atlas-foundation.json"
+    },
+    {
+      "page_id": "star-atlas-council",
+      "path": "knowledge/governance/Star-Atlas-Council.md",
+      "action": "REWRITE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/star-atlas-council.json"
+    },
+    {
+      "page_id": "pip-lifecycle",
+      "path": "knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "CANONICAL",
+      "risk_class": "R1",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/pip-lifecycle.json"
+    },
+    {
+      "page_id": "governance-evidence-states",
+      "path": "knowledge/governance/Governance-Implementation-and-Evidence-States.md",
+      "action": "REWRITE",
+      "knowledge_status": "CANONICAL",
+      "risk_class": "R1",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/governance-evidence-states.json"
+    },
+    {
+      "page_id": "governance-economy-overview",
+      "path": "knowledge/governance/Governance-and-Economy-Overview.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/governance-economy-overview.json"
+    },
+    {
+      "page_id": "constitutional-history",
+      "path": "knowledge/governance/Governance-Constitutional-History.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/constitutional-history.json"
+    },
+    {
+      "page_id": "council-election-history",
+      "path": "knowledge/governance/Council-Election-History.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/council-election-history.json"
+    },
+    {
+      "page_id": "ecosystem-fund",
+      "path": "knowledge/governance/Ecosystem-Fund.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/ecosystem-fund.json"
+    },
+    {
+      "page_id": "ecosystem-fund-awards",
+      "path": "knowledge/governance/Ecosystem-Fund-Award-History.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R3",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/ecosystem-fund-awards.json"
+    },
+    {
+      "page_id": "failure-termination-casebook",
+      "path": "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/failure-termination-casebook.json"
+    },
+    {
+      "page_id": "pip-33-case-study",
+      "path": "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "PROVISIONAL",
+      "risk_class": "R3",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/pip-33-case-study.json"
+    },
+    {
+      "page_id": "pip-registry",
+      "path": "knowledge/governance/PIP-Registry.md",
+      "action": "STRUCTURED_REWORK",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R3",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1b-governance-2026-07/evidence-packets/pip-registry.json"
+    }
+  ]
+}

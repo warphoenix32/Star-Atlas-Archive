@@ -1,5 +1,7 @@
 ---
 title: "Ecosystem Fund Award History"
+seo_title: "Star Atlas Ecosystem Fund Awards, Payments, and Milestones"
+seo_description: "An evidence-qualified history of Star Atlas Ecosystem Fund proposals, approved awards, Council-reported payments, milestones, terminations, and missing verification."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: MEDIUM
@@ -21,6 +23,8 @@ review_after: 2026-10-17
 # Ecosystem Fund Award History
 
 This registry records PIPs that the captured proposal and Council data identify as Ecosystem Fund funding authorizations. “Award” is used narrowly: the proposal passed and was eligible for the fund. It does not mean money moved, deliverables were accepted, or the project succeeded.
+
+Read as a whole, the award history is a record of public experimentation. Community events, tools, media, infrastructure, and game projects were proposed under a shared policy, but their later paths ranged from reported completion to partial work, termination, withdrawal, and unresolved execution.
 
 ## Policy boundary
 
@@ -57,6 +61,8 @@ PIPs [15](../../archive/source-records/social-governance-semantic-enrichment/gov
 ## Research protocol
 
 For each authorization, the evidence chain must be reconstructed as proposal amount and denomination → vote result → Foundation/Council implementation instruction → transaction → recipient → milestone submission → acceptance → outcome. A missing link remains explicit; later marketing or tracker summaries do not fill it automatically.
+
+This sequence also protects successful projects from overstatement. A verified payment says assets moved. A verified deliverable says an agreed artifact existed. Neither fact, by itself, demonstrates durable community value or the return-on-investment language sometimes recorded by program administrators.
 
 ## Missing artifacts
 
