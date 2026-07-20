@@ -1,8 +1,8 @@
 {
   "campaign_id": "discord-community-indexing-001",
-  "decision_date": "2026-07-18",
+  "decision_date": "2026-07-19",
   "evidence_policy": "Operator decisions authorize identity resolution and review disposition but remain separate from archive evidence.",
-  "item_count": 29,
+  "item_count": 33,
   "items": [
     {
       "decision": "CONFIRMED",
@@ -101,10 +101,10 @@
       "subject": "Atlas Theory"
     },
     {
-      "decision": "DEFERRED",
+      "decision": "CONFIRMED",
       "item": 17,
-      "operator_note": "Insufficient context to resolve the possible Star Atlas economics-team identity.",
-      "subject": "Chri.z"
+      "operator_note": "Chri.z resolves to Chris Kaczmarczyk-Smith, Head of Star Atlas Game Economy. Attributed game-economy statements are authoritative first-party institutional evidence; lifecycle and temporal wording remain controlling.",
+      "subject": "Chris Kaczmarczyk-Smith / Chri.z"
     },
     {
       "decision": "CONFIRMED",
@@ -167,9 +167,9 @@
       "subject": "Ryden"
     },
     {
-      "decision": "DEFERRED",
+      "decision": "CONFIRMED",
       "item": 28,
-      "operator_note": "Skipped for now.",
+      "operator_note": "Star Atlas music content creator, former Star Atlas moderator, and member of Aephia/AEP.",
       "subject": "Shaddix"
     },
     {
@@ -177,6 +177,30 @@
       "item": 29,
       "operator_note": "Star Atlas gameplay engineer.",
       "subject": "MagicPuncher"
+    },
+    {
+      "decision": "CONFIRMED",
+      "item": 30,
+      "operator_note": "The Vanguard is a guild whose display tag is V followed by uppercase Greek lambda: VΛ.",
+      "subject": "The Vanguard"
+    },
+    {
+      "decision": "CONFIRMED",
+      "item": 31,
+      "operator_note": "Agent_Solace is a confirmed display-name alias; repository Discord-derived URL records show the VΛ-tagged form.",
+      "subject": "Agent Solace"
+    },
+    {
+      "decision": "DEFERRED",
+      "item": 32,
+      "operator_note": "Identity remains unknown without further context; do not merge the observed Michael handle with Michael Wagner.",
+      "subject": "Michael"
+    },
+    {
+      "decision": "CONFIRMED",
+      "item": 33,
+      "operator_note": "Use Virtuwul as the preferred spelling; legacy Virtuwaal and Virtuwuul spellings resolve to the same person. Member of Rome and owner of the Titan-class Rainbow Phi.",
+      "subject": "Virtuwul"
     }
   ],
   "schema_version": "2.0.0"

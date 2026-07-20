@@ -1,46 +1,7 @@
 {
   "campaign_id": "discord-community-indexing-001",
-  "item_count": 22,
+  "item_count": 15,
   "items": [
-    {
-      "allowed_decisions": [
-        "RESOLVE_WITH_EVIDENCE",
-        "REJECT",
-        "DEFER"
-      ],
-      "candidate_resolution": null,
-      "confidence": "LOW",
-      "decision_status": "OPEN",
-      "evidence": [],
-      "observed_values": [
-        "Chri.z",
-        "Chris"
-      ],
-      "operator_decision": null,
-      "reason_human_review_required": "Operator reported insufficient context; the economics-team identity hypothesis remains unresolved.",
-      "review_id": "REVIEW-61C0BDCC3FD0310C",
-      "review_type": "deferred_identity_resolution",
-      "subject": "Chri.z"
-    },
-    {
-      "allowed_decisions": [
-        "RESOLVE",
-        "REJECT",
-        "DEFER"
-      ],
-      "candidate_resolution": null,
-      "confidence": "UNKNOWN",
-      "decision_status": "OPEN",
-      "evidence": [],
-      "observed_values": [
-        "Shaddix1 | Star Atlas Mod"
-      ],
-      "operator_decision": null,
-      "reason_human_review_required": "Operator explicitly deferred this candidate.",
-      "review_id": "REVIEW-06B442F4F887DB67",
-      "review_type": "deferred_promotion",
-      "subject": "Shaddix"
-    },
     {
       "allowed_decisions": [
         "RESOLVE_PARTICIPANT",
@@ -336,63 +297,6 @@
     },
     {
       "allowed_decisions": [
-        "RESOLVE",
-        "REJECT",
-        "DEFER"
-      ],
-      "candidate_resolution": null,
-      "confidence": "UNKNOWN",
-      "decision_status": "OPEN",
-      "evidence": [],
-      "observed_values": [
-        "Agent Solace"
-      ],
-      "operator_decision": null,
-      "reason_human_review_required": "Seeded by operator for the next resolution pass; no resolution is manufactured.",
-      "review_id": "REVIEW-3B19F0CFBA3D5C1B",
-      "review_type": "seeded_unresolved_identity_or_organization",
-      "subject": "Agent Solace"
-    },
-    {
-      "allowed_decisions": [
-        "RESOLVE",
-        "REJECT",
-        "DEFER"
-      ],
-      "candidate_resolution": null,
-      "confidence": "UNKNOWN",
-      "decision_status": "OPEN",
-      "evidence": [],
-      "observed_values": [
-        "The Vanguard"
-      ],
-      "operator_decision": null,
-      "reason_human_review_required": "Seeded by operator for the next resolution pass; no resolution is manufactured.",
-      "review_id": "REVIEW-4D78E0E9E6A604F9",
-      "review_type": "seeded_unresolved_identity_or_organization",
-      "subject": "The Vanguard"
-    },
-    {
-      "allowed_decisions": [
-        "RESOLVE",
-        "REJECT",
-        "DEFER"
-      ],
-      "candidate_resolution": null,
-      "confidence": "UNKNOWN",
-      "decision_status": "OPEN",
-      "evidence": [],
-      "observed_values": [
-        "Virtuwaal"
-      ],
-      "operator_decision": null,
-      "reason_human_review_required": "Seeded by operator for the next resolution pass; no resolution is manufactured.",
-      "review_id": "REVIEW-ABC161CE57472949",
-      "review_type": "seeded_unresolved_identity_or_organization",
-      "subject": "Virtuwaal"
-    },
-    {
-      "allowed_decisions": [
         "ACQUIRE_BACKFILL",
         "ACCEPT_PARTIAL",
         "DEFER"
@@ -409,26 +313,6 @@
       "review_id": "REVIEW-B6570C91EAF4EB11",
       "review_type": "source_gap",
       "subject": "Announcements historical lower bound"
-    },
-    {
-      "allowed_decisions": [
-        "CONFIRM_ALIAS",
-        "KEEP_DISTINCT",
-        "DEFER"
-      ],
-      "candidate_resolution": null,
-      "confidence": "LOW",
-      "decision_status": "OPEN",
-      "evidence": [],
-      "observed_values": [
-        "Virtuwaal",
-        "Virtuwuul"
-      ],
-      "operator_decision": null,
-      "reason_human_review_required": "The supplied Rome-conflict context used a spelling that differs from the seeded handle; no alias merge is made from similarity alone.",
-      "review_id": "REVIEW-E04D7B61BDEC295D",
-      "review_type": "spelling_conflict",
-      "subject": "Virtuwaal / Virtuwuul"
     },
     {
       "allowed_decisions": [
@@ -451,28 +335,6 @@
       "review_id": "REVIEW-C0FF1C771E096EDC",
       "review_type": "temporal_relationship_dates",
       "subject": "Rome guild history"
-    },
-    {
-      "allowed_decisions": [
-        "GUILD",
-        "GUILD_ALLIANCE",
-        "COMMUNITY_ORGANIZATION",
-        "INFORMAL_GROUP",
-        "NOT_AN_ORGANIZATION",
-        "DEFER"
-      ],
-      "candidate_resolution": null,
-      "confidence": "LOW",
-      "decision_status": "OPEN",
-      "evidence": [],
-      "observed_values": [
-        "The Vanguard"
-      ],
-      "operator_decision": null,
-      "reason_human_review_required": "Organization type is not confirmed.",
-      "review_id": "REVIEW-2DC9E64FF1ADAD96",
-      "review_type": "uncertain_organization_type",
-      "subject": "The Vanguard"
     },
     {
       "allowed_decisions": [

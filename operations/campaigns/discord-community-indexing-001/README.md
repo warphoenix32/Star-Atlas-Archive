@@ -47,7 +47,9 @@ Every archive-derived claim carries its Source ID, timestamp, available native i
 
 `observed_authorship` proves only that an export associates a display label with a message; it does not independently prove a legal identity. Fuzzy similarity never merges identities.
 
-Repository-operator confirmations are kept in a separate `operator_confirmation` evidence channel. Those records use `source_id: null`, `operator_assertion: true`, a review note, and no fabricated archive citation. A null Source ID is not permitted for archive evidence. `curator-decisions.json` preserves all 29 PR-review adjudications, including confirmations, deferrals, ignored candidates, the approved Funcracker promotion, and the non-person software classification. Unresolved names remain separate seeded records.
+Repository-operator confirmations are kept in a separate `operator_confirmation` evidence channel. Those records use `source_id: null`, `operator_assertion: true`, a review note, and no fabricated archive citation. A null Source ID is not permitted for archive evidence. `curator-decisions.json` preserves all 33 adjudications through 2026-07-19, including confirmations, deferrals, ignored candidates, the approved Funcracker promotion, and the non-person software classification. Unresolved names remain separate records.
+
+The operator resolves `Chri.z` to **Chris Kaczmarczyk-Smith**, Head of Star Atlas Game Economy. Statements actually attributed to him within that subject-matter scope are classified as authoritative first-party institutional evidence. This authority classification does not erase the statement's date or wording and does not convert plans, estimates, testing, approvals, or announcements into release or execution evidence.
 
 Deleted-user identities and tags are excluded from the public identity and promotion views. Their source messages remain available only as contextual evidence for other public community subjects. Public handles and community roles are retained; private personal information is not added.
 
@@ -64,7 +66,7 @@ Organization types are controlled as:
 - `software_agent`;
 - `unresolved_tag`.
 
-The operator-confirmed guilds now include Aephia (`AEP`, `Aephia Industries`), BULK, Rome, The Club Guild (`The Club`), Coexist (`COEX`), Eclypse (`EC`), and Deep Profits (`DEEP`). Intergalactic Alliance (`IA`) remains a guild alliance; Star Atlas Italia (`SAI`), Polaris Fuel, Star Atlas TV, and Ryden Systems/EveEye are community organizations; `426` is a community meme. The Star Atlas AI App is a software agent and is excluded from person promotion. BULK is never expanded into an invented long form.
+The operator-confirmed guilds now include Aephia (`AEP`, `Aephia Industries`), BULK, Rome, The Club Guild (`The Club`), Coexist (`COEX`), Eclypse (`EC`), Deep Profits (`DEEP`), and The Vanguard. The Vanguard's display tag is `VΛ`: a Latin `V` followed by uppercase Greek lambda. Intergalactic Alliance (`IA`) remains a guild alliance; Star Atlas Italia (`SAI`), Polaris Fuel, Star Atlas TV, and Ryden Systems/EveEye are community organizations; `426` is a community meme. The Star Atlas AI App is a software agent and is excluded from person promotion. BULK is never expanded into an invented long form.
 
 A display tag is association evidence, not membership proof. A leading confirmed guild tag may produce `possible_member_of` for human review. A pipe-separated guild component such as `[IA] Dodger | BULK` produces `associated_with_guild`, not membership. `IA` produces `associated_with_alliance`, `SAI` produces `associated_with_organization`, and `426` produces only `has_display_tag`. Unknown tags remain unresolved and enter the queue.
 
@@ -78,9 +80,11 @@ Competition extraction is a dedicated typed pass. A placement record stores even
 
 ## Human review and promotion boundary
 
-`human-resolution-queue.json` is the durable workspace for issues that remain open after adjudication. It includes suspected duplicates, possible aliases, unknown tags, uncertain organization types, possible guild memberships, malformed competition rows, unresolved participants, missing channel identity, historical source gaps, deferred identities, the Virtuwaal/Virtuwuul spelling conflict, and missing dates for Rome's succession history. Each item records observed values, candidate resolution, confidence, evidence, why review is required, allowed decisions, a null operator decision, and `OPEN` status.
+`human-resolution-queue.json` is the durable workspace for issues that remain open after adjudication. It includes suspected duplicates, possible aliases, unknown tags, uncertain organization types, possible guild memberships, malformed competition rows, unresolved participants, missing channel identity, historical source gaps, and missing dates for Rome's succession history. Each item records observed values, candidate resolution, confidence, evidence, why review is required, allowed decisions, a null operator decision, and `OPEN` status. The observed `Michael` handle remains unresolved and is not merged with Michael Wagner.
 
-`promotion-candidates.json` contains explicit score dimensions and controlled review statuses; it never emits a bare machine-generated `promote` recommendation. Funcracker is marked `OPERATOR_APPROVED_FOR_PROMOTION` based on the supplied human decision. Chri.z is deferred, Diego_Diaz08 and inti are omitted from promotion review, Shaddix remains deferred in the queue, and the software bot is not eligible. Message volume alone has no authority, and machine confidence does not establish factual truth.
+The 2026-07-19 adjudication also resolves `Agent_Solace` to **Agent Solace**, and the legacy spellings `Virtuwaal` and `Virtuwuul` to the preferred **Virtuwul**. Virtuwul is operator-confirmed as a Rome member and Rainbow Phi owner; existing HNN, Aephia, and Discord-derived repository records are retained as corroborating artifacts rather than rewritten. Shaddix is operator-confirmed as a Star Atlas music content creator, former moderator, and Aephia/AEP member.
+
+`promotion-candidates.json` contains explicit score dimensions and controlled review statuses; it never emits a bare machine-generated `promote` recommendation. Funcracker is marked `OPERATOR_APPROVED_FOR_PROMOTION` based on the supplied human decision. Diego_Diaz08 and inti are omitted from promotion review, and the software bot is not eligible. Resolved identity and role metadata for Chris Kaczmarczyk-Smith, Shaddix, Agent Solace, The Vanguard, and Virtuwul remains subject to the repository's normal knowledge-promotion workflow. Message volume alone has no authority, and machine confidence does not establish factual truth.
 
 ## Commands
 

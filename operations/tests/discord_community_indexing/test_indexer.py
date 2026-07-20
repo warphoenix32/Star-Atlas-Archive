@@ -44,7 +44,7 @@ def test_parses_markdown_text_and_html(tmp_path):
     assert (html_message.message_id, html_message.channel_id, html_message.author_id) == ("9", "8", "7")
 
 
-def test_does_not_merge_fuzzy_names_without_evidence(tmp_path):
+def test_operator_adjudication_resolves_virtuwul_legacy_spellings(tmp_path):
     root = tmp_path
     base = root / "archive" / "normalized" / "discord-test"
     base.mkdir(parents=True)
@@ -56,8 +56,10 @@ def test_does_not_merge_fuzzy_names_without_evidence(tmp_path):
     messages, _ = indexer.load_messages(root)
     aliases, _ = indexer.build_alias_registry(messages)
     identities, _, _ = indexer.build_indexes(messages, aliases)
-    observed = {record["canonical_handle"] for record in identities if record["canonical_handle"] in {"Virtuwaal", "Virtuwuul"}}
-    assert observed == {"Virtuwaal", "Virtuwuul"}
+    matched = [record for record in identities if record["canonical_handle"] == "Virtuwul"]
+    assert len(matched) == 1
+    assert set(matched[0]["confirmed_aliases"]) == {"Virtuwaal", "Virtuwuul"}
+    assert set(matched[0]["observed_handles"]) == {"Virtuwaal", "Virtuwuul"}
 
 
 def test_relationship_claims_resolve_and_are_dated(tmp_path):
@@ -227,8 +229,8 @@ def test_coverage_is_export_scoped_and_preserves_observed_header(tmp_path):
     assert any(item["target"] == "Foudnation Room" for item in backlog["items"])
 
 
-def test_human_queue_retains_required_seeded_unresolved_items(tmp_path):
-    write_jsonl(tmp_path, [{"source_id": "queue-1", "author": "Official", "timestamp": "2025-01-01T00:00:00", "content": "Hello."}])
+def test_human_queue_removes_resolved_seeded_items_but_retains_michael(tmp_path):
+    write_jsonl(tmp_path, [{"source_id": "queue-1", "author": "Michael", "timestamp": "2025-01-01T00:00:00", "content": "Hello."}])
     messages, inventory, duplicate_reviews = indexer.load_messages(tmp_path, include_duplicate_reviews=True)
     aliases, conflicts = indexer.build_alias_registry(messages)
     identities, organizations, relationships = indexer.build_indexes(messages, aliases)
@@ -236,18 +238,41 @@ def test_human_queue_retains_required_seeded_unresolved_items(tmp_path):
     coverage, _, _ = indexer.build_channel_coverage(messages, inventory)
     queue = indexer.build_human_resolution_queue(duplicate_reviews, conflicts, tags, organizations, relationships, [], coverage)
     subjects = {item["subject"] for item in queue["items"]}
-    assert {"Agent Solace", "The Vanguard", "Virtuwaal", "Chri.z", "Shaddix", "Rome guild history", "Virtuwaal / Virtuwuul"} <= subjects
+    assert "Michael" in subjects
+    assert "Rome guild history" in subjects
+    assert not {"Agent Solace", "The Vanguard", "Virtuwaal", "Virtuwul", "Chri.z", "Shaddix", "Virtuwaal / Virtuwuul"} & subjects
     assert all(item["decision_status"] == "OPEN" and item["operator_decision"] is None for item in queue["items"])
 
 
 def test_curator_decisions_are_complete_and_explicit():
     decisions = indexer.curator_decisions()
-    assert decisions["item_count"] == 29
+    assert decisions["item_count"] == 33
     by_number = {item["item"]: item for item in decisions["items"]}
     assert by_number[7]["decision"] == "PROMOTION_APPROVED"
     assert by_number[11]["decision"] == "EXCLUDE_PUBLIC_ENTITY"
     assert by_number[23]["decision"] == "NOT_PROMOTABLE"
-    assert by_number[17]["decision"] == by_number[28]["decision"] == "DEFERRED"
+    assert by_number[17]["decision"] == by_number[28]["decision"] == "CONFIRMED"
+    assert by_number[30]["decision"] == by_number[31]["decision"] == by_number[33]["decision"] == "CONFIRMED"
+    assert by_number[32]["decision"] == "DEFERRED"
+
+
+def test_curator_authority_and_identity_resolutions_are_scoped(tmp_path):
+    write_jsonl(tmp_path, [{
+        "source_id": "econ-1", "author": "Official", "timestamp": "2025-01-01T00:00:00",
+        "content": "Head of Game Economy @Chri.z joined @Shaddix1. Mentions: @Chri.z, @Shaddix1",
+    }])
+    messages, _ = indexer.load_messages(tmp_path)
+    aliases, _ = indexer.build_alias_registry(messages)
+    identities, organizations, relationships = indexer.build_indexes(messages, aliases)
+    by_name = {record["canonical_handle"]: record for record in identities}
+    assert by_name["Chris Kaczmarczyk-Smith"]["authority_scope"] == "OFFICIAL_TEAM_GAME_ECONOMY_SUBJECT_MATTER_AUTHORITY"
+    assert by_name["Chris Kaczmarczyk-Smith"]["attributed_statement_treatment"] == "AUTHORITATIVE_CANONICAL_WITHIN_GAME_ECONOMY_SCOPE"
+    assert "official_team_member" in by_name["Chris Kaczmarczyk-Smith"]["operator_confirmed_roles"]
+    assert {"creator_or_builder", "moderator", "guild_member"} <= set(by_name["Shaddix"]["operator_confirmed_roles"])
+    vanguard = next(record for record in organizations if record["canonical_name"] == "The Vanguard")
+    assert vanguard["entity_type"] == "guild"
+    assert any(item["tag"] == "VΛ" and item["canonical_entity"] == "The Vanguard" for item in indexer.TAG_REGISTRY_SEEDS)
+    assert any(item["subject_name"] == "Virtuwul" and item["predicate"] == "owns" and item["object_name"] == "Rainbow Phi" for item in relationships)
 
 
 def test_deleted_users_and_software_bot_are_not_person_candidates(tmp_path):

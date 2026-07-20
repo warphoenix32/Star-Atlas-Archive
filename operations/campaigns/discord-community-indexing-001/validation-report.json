@@ -95,17 +95,17 @@
       "passed": true
     },
     {
-      "details": 22,
+      "details": 15,
       "name": "human_resolution_queue_present",
       "passed": true
     }
   ],
   "counts": {
     "competition_records": 10,
-    "guilds": 7,
+    "guilds": 8,
     "identities": 60,
     "organizations": 15,
-    "relationships": 107,
+    "relationships": 113,
     "sources": 1074,
     "unique_messages": 1071
   },
@@ -113,17 +113,12 @@
     "forbidden_path_and_evidence_immutability": {
       "details": {
         "base_resolution_error": null,
-        "base_sha": "fd23f57cc5e7f300cf99fa285db5e8dea7756796",
+        "base_sha": "75744705fd696ef1b829c0b8baac436fdc6c5fd5",
         "changed_paths": [
           "operations/campaigns/discord-community-indexing-001/README.md",
           "operations/campaigns/discord-community-indexing-001/alias-registry.json",
           "operations/campaigns/discord-community-indexing-001/build_index.py",
-          "operations/campaigns/discord-community-indexing-001/competition-index.jsonl",
-          "operations/campaigns/discord-community-indexing-001/conflict-report.json",
           "operations/campaigns/discord-community-indexing-001/curator-decisions.json",
-          "operations/campaigns/discord-community-indexing-001/discord-channel-coverage.json",
-          "operations/campaigns/discord-community-indexing-001/discord-channel-gap-report.json",
-          "operations/campaigns/discord-community-indexing-001/discord-collection-backlog.json",
           "operations/campaigns/discord-community-indexing-001/guild-index.jsonl",
           "operations/campaigns/discord-community-indexing-001/human-resolution-queue.json",
           "operations/campaigns/discord-community-indexing-001/identity-index.jsonl",
@@ -131,12 +126,8 @@
           "operations/campaigns/discord-community-indexing-001/promotion-candidates.json",
           "operations/campaigns/discord-community-indexing-001/relationship-index.jsonl",
           "operations/campaigns/discord-community-indexing-001/research-backlog.json",
-          "operations/campaigns/discord-community-indexing-001/source-inventory.json",
           "operations/campaigns/discord-community-indexing-001/tag-registry.json",
-          "operations/campaigns/discord-community-indexing-001/validate_campaign.py",
           "operations/campaigns/discord-community-indexing-001/validation-report.json",
-          "operations/ci/README.md",
-          "operations/ci/validate_repository.py",
           "operations/tests/discord_community_indexing/test_indexer.py"
         ],
         "forbidden_paths": [],
@@ -148,40 +139,40 @@
     "generated_artifacts_reconcile_before_regeneration": {
       "details": {
         "after": {
-          "alias-registry.json": "d339cd55f731d0fa8b8b448213b9e7436b4b86ad4a23f5d69adbbf668c24b42c",
+          "alias-registry.json": "5ffaad1a860ab3691e5bd2cb8b0e8da527ad908db4a26a96d95c7e980dfebbe8",
           "competition-index.jsonl": "b426a5c07125ba74e3691379ef69f60819087199ff90437546715ad9a1a68bb1",
           "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
-          "curator-decisions.json": "a6870d8dcb4cb56c6660bf77efdbf7836b3a66286073dd031eeca86e1236bc5c",
+          "curator-decisions.json": "e3afab3c8d00b5e4f8503e795a451c77ac38ac9c9d5583494717a30cf29c601c",
           "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
           "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
           "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
-          "guild-index.jsonl": "9401ccc73bf09e47e240bad25a5b6fe20393f91a601996bca967b1a49821f6d1",
-          "human-resolution-queue.json": "37e7b1f3eed2860c2879ebadbb7911b5df53f5deafac3135bab388d89c4d9d35",
-          "identity-index.jsonl": "126c880ad34c37a9886df4d254196ba4c47198840f6bfdc5a11c05ed5cbe97ee",
-          "organization-index.jsonl": "a455696aa9ac16f8a815e3911bf28c8cfc4f7571ce0104b904c600e6739282b4",
-          "promotion-candidates.json": "7b058b5b44211ba763df6f096a3fb1c164d9036c95771847a255b104bfc85bd3",
-          "relationship-index.jsonl": "9823511b6a9b0e0382fbba2c253761888fd680ff9506dcc63e00659c8ca7dc0f",
-          "research-backlog.json": "804b98f3c259b9d0fb0d5347a277d8fc0be1e29b08a12e54a9e607f628ec6a4d",
+          "guild-index.jsonl": "420f2c8e5a846191bdfd8aa7e8ad153f32dfcc920d3be96508168154f490efda",
+          "human-resolution-queue.json": "bb8eadc4ecc628b0d2eb778678221f0e7c129ae61b666c38d2a63b0c23b1f250",
+          "identity-index.jsonl": "b97af9fc459a70d6556374b054ba07bcded4c85e6cb41a197df0368163fd0727",
+          "organization-index.jsonl": "9607b2dc67cd97f8966fe14ca211330ddb9cd20a997cbfa4a51c472854e034ec",
+          "promotion-candidates.json": "43ae0cca3efa5d26a717ed8145fe02ffd7c685e6fe862b417a6867dc0da45977",
+          "relationship-index.jsonl": "731b48084ea6b8b00dc385690d96f5a93e8c7f3338d8d3d2224ea85d0b345f3f",
+          "research-backlog.json": "ad924b1353ee85e162e29a23a245449128b6478a1ae471a5d04c20560efb3f77",
           "source-inventory.json": "64e8bac5b8b299ed8bcaad3c24c0555dccd037a66a7693a1720cb8995ae780b5",
-          "tag-registry.json": "a098c0d7f80f56fe8b84d8e1e91926da28cabf3155a4eb1515402915115ab958"
+          "tag-registry.json": "4355062fbf416126a1274d31583991f71b875a1f39b4dc02fbe07d50861a3e86"
         },
         "before": {
-          "alias-registry.json": "d339cd55f731d0fa8b8b448213b9e7436b4b86ad4a23f5d69adbbf668c24b42c",
+          "alias-registry.json": "5ffaad1a860ab3691e5bd2cb8b0e8da527ad908db4a26a96d95c7e980dfebbe8",
           "competition-index.jsonl": "b426a5c07125ba74e3691379ef69f60819087199ff90437546715ad9a1a68bb1",
           "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
-          "curator-decisions.json": "a6870d8dcb4cb56c6660bf77efdbf7836b3a66286073dd031eeca86e1236bc5c",
+          "curator-decisions.json": "e3afab3c8d00b5e4f8503e795a451c77ac38ac9c9d5583494717a30cf29c601c",
           "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
           "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
           "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
-          "guild-index.jsonl": "9401ccc73bf09e47e240bad25a5b6fe20393f91a601996bca967b1a49821f6d1",
-          "human-resolution-queue.json": "37e7b1f3eed2860c2879ebadbb7911b5df53f5deafac3135bab388d89c4d9d35",
-          "identity-index.jsonl": "126c880ad34c37a9886df4d254196ba4c47198840f6bfdc5a11c05ed5cbe97ee",
-          "organization-index.jsonl": "a455696aa9ac16f8a815e3911bf28c8cfc4f7571ce0104b904c600e6739282b4",
-          "promotion-candidates.json": "7b058b5b44211ba763df6f096a3fb1c164d9036c95771847a255b104bfc85bd3",
-          "relationship-index.jsonl": "9823511b6a9b0e0382fbba2c253761888fd680ff9506dcc63e00659c8ca7dc0f",
-          "research-backlog.json": "804b98f3c259b9d0fb0d5347a277d8fc0be1e29b08a12e54a9e607f628ec6a4d",
+          "guild-index.jsonl": "420f2c8e5a846191bdfd8aa7e8ad153f32dfcc920d3be96508168154f490efda",
+          "human-resolution-queue.json": "bb8eadc4ecc628b0d2eb778678221f0e7c129ae61b666c38d2a63b0c23b1f250",
+          "identity-index.jsonl": "b97af9fc459a70d6556374b054ba07bcded4c85e6cb41a197df0368163fd0727",
+          "organization-index.jsonl": "9607b2dc67cd97f8966fe14ca211330ddb9cd20a997cbfa4a51c472854e034ec",
+          "promotion-candidates.json": "43ae0cca3efa5d26a717ed8145fe02ffd7c685e6fe862b417a6867dc0da45977",
+          "relationship-index.jsonl": "731b48084ea6b8b00dc385690d96f5a93e8c7f3338d8d3d2224ea85d0b345f3f",
+          "research-backlog.json": "ad924b1353ee85e162e29a23a245449128b6478a1ae471a5d04c20560efb3f77",
           "source-inventory.json": "64e8bac5b8b299ed8bcaad3c24c0555dccd037a66a7693a1720cb8995ae780b5",
-          "tag-registry.json": "a098c0d7f80f56fe8b84d8e1e91926da28cabf3155a4eb1515402915115ab958"
+          "tag-registry.json": "4355062fbf416126a1274d31583991f71b875a1f39b4dc02fbe07d50861a3e86"
         }
       },
       "passed": true
@@ -194,33 +185,33 @@
       "details": {
         "errors": [],
         "json_documents": 12,
-        "jsonl_records": 199
+        "jsonl_records": 206
       },
       "passed": true
     },
     "regeneration_determinism": {
       "details": {
-        "alias-registry.json": "d339cd55f731d0fa8b8b448213b9e7436b4b86ad4a23f5d69adbbf668c24b42c",
+        "alias-registry.json": "5ffaad1a860ab3691e5bd2cb8b0e8da527ad908db4a26a96d95c7e980dfebbe8",
         "competition-index.jsonl": "b426a5c07125ba74e3691379ef69f60819087199ff90437546715ad9a1a68bb1",
         "conflict-report.json": "e5cc93322e4d0b7c9a7761807d9d437a76c9c2ba475e9fbc4a8215b3edd3f72f",
-        "curator-decisions.json": "a6870d8dcb4cb56c6660bf77efdbf7836b3a66286073dd031eeca86e1236bc5c",
+        "curator-decisions.json": "e3afab3c8d00b5e4f8503e795a451c77ac38ac9c9d5583494717a30cf29c601c",
         "discord-channel-coverage.json": "bbbfcafb13a6e1e721986ceb7ccf42a46ae89655a32e5b1c4cbc6f107237deee",
         "discord-channel-gap-report.json": "c7e5c142dc04cdf1b44236abcc4f581b5ce2a2526ba7668921c06577e3c4ee20",
         "discord-collection-backlog.json": "6e701060d2b189bfef1ccb2290ef99aaeca29d9066e379fc35805c32bacb3f46",
-        "guild-index.jsonl": "9401ccc73bf09e47e240bad25a5b6fe20393f91a601996bca967b1a49821f6d1",
-        "human-resolution-queue.json": "37e7b1f3eed2860c2879ebadbb7911b5df53f5deafac3135bab388d89c4d9d35",
-        "identity-index.jsonl": "126c880ad34c37a9886df4d254196ba4c47198840f6bfdc5a11c05ed5cbe97ee",
-        "organization-index.jsonl": "a455696aa9ac16f8a815e3911bf28c8cfc4f7571ce0104b904c600e6739282b4",
-        "promotion-candidates.json": "7b058b5b44211ba763df6f096a3fb1c164d9036c95771847a255b104bfc85bd3",
-        "relationship-index.jsonl": "9823511b6a9b0e0382fbba2c253761888fd680ff9506dcc63e00659c8ca7dc0f",
-        "research-backlog.json": "804b98f3c259b9d0fb0d5347a277d8fc0be1e29b08a12e54a9e607f628ec6a4d",
+        "guild-index.jsonl": "420f2c8e5a846191bdfd8aa7e8ad153f32dfcc920d3be96508168154f490efda",
+        "human-resolution-queue.json": "bb8eadc4ecc628b0d2eb778678221f0e7c129ae61b666c38d2a63b0c23b1f250",
+        "identity-index.jsonl": "b97af9fc459a70d6556374b054ba07bcded4c85e6cb41a197df0368163fd0727",
+        "organization-index.jsonl": "9607b2dc67cd97f8966fe14ca211330ddb9cd20a997cbfa4a51c472854e034ec",
+        "promotion-candidates.json": "43ae0cca3efa5d26a717ed8145fe02ffd7c685e6fe862b417a6867dc0da45977",
+        "relationship-index.jsonl": "731b48084ea6b8b00dc385690d96f5a93e8c7f3338d8d3d2224ea85d0b345f3f",
+        "research-backlog.json": "ad924b1353ee85e162e29a23a245449128b6478a1ae471a5d04c20560efb3f77",
         "source-inventory.json": "64e8bac5b8b299ed8bcaad3c24c0555dccd037a66a7693a1720cb8995ae780b5",
-        "tag-registry.json": "a098c0d7f80f56fe8b84d8e1e91926da28cabf3155a4eb1515402915115ab958"
+        "tag-registry.json": "4355062fbf416126a1274d31583991f71b875a1f39b4dc02fbe07d50861a3e86"
       },
       "passed": true
     },
     "repository_tests": {
-      "details": "..........................                                               [100%]\n26 passed in <elapsed>",
+      "details": ".........................................                                [100%]\n41 passed in <elapsed>",
       "passed": true
     }
   },
