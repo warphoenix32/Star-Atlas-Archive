@@ -223,7 +223,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, discord_campaign, library_frontend, lore_campaign, pipeline_framework and not agent_contracts, agent_contracts))
+    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, discord_campaign, library_frontend, lore_campaign and not wallet_campaign, pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if ledger_campaign:
@@ -264,7 +264,9 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "archive/normalized/community-wallet-attributions/",
             "archive/source-records/community-wallet-attributions/",
             "archive/manifests/community-wallet-attribution-ingestion-2026-07.json",
+            "archive/manifests/lore-repository-ingestion-2026-07.json",
             "operations/campaigns/community-wallet-attribution-ingestion-2026-07/",
+            "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
             "operations/tests/community_wallet_attributions/",
         )
         label = "community-wallet-attribution-ingestion-2026-07"
