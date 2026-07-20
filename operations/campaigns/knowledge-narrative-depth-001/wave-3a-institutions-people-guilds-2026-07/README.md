@@ -10,4 +10,3 @@ Run:
 python operations/campaigns/knowledge-narrative-depth-001/wave-3a-institutions-people-guilds-2026-07/build_wave.py
 python operations/campaigns/knowledge-narrative-depth-001/wave-3a-institutions-people-guilds-2026-07/validate_wave.py
 ```
-
