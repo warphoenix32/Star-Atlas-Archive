@@ -1,0 +1,66 @@
+{
+  "page_id": "economy-polis-token-history",
+  "proposed_path": "knowledge/economy/POLIS-Token-History.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_class": "R2",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "ECONOMY-POLIS-TOKEN-HISTORY-01",
+      "claim_text": "POLIS, locked positions, the locker program, reward emissions, snapshots, and PVP are distinct.",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-E5AEFD6B36E3CE06.md",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECONOMY-POLIS-TOKEN-HISTORY-02",
+      "claim_text": "Governance launch and PIP-1 ratification are separate historical events.",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-E5AEFD6B36E3CE06.md",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECONOMY-POLIS-TOKEN-HISTORY-03",
+      "claim_text": "Historical team-lock or concentration claims do not establish current ownership.",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-927F495C3F49A56F.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-E5AEFD6B36E3CE06.md",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}

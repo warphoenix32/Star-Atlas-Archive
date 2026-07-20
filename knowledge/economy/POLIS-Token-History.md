@@ -1,5 +1,7 @@
 ---
 title: "POLIS Token History"
+seo_title: "POLIS Token History, Governance, Locking, and PVP"
+seo_description: "An evidence-qualified history of the Star Atlas POLIS governance token, locking, voting power, rewards, distribution claims, and unresolved on-chain history."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: HIGH
@@ -31,6 +33,12 @@ POLIS is the Star Atlas token documented for governance participation and relate
 PIP-1 identifies the POLIS mint as `poLisWXnNRwC6oBu1vHiuKQzFjGL4XDSu4g9qjz9qVk`, the POLIS Locker as `Lock7kBijGCQLEFAmXcengzXKA88iDNQPriQ7TbgeyG`, and the snapshot program as `snapNQkxsiqDWdbNfz8KVB7e3NPzLwtHHA6WV8kKgUc`. It defines PVP as voting weight based on controlled locked POLIS and lock duration. [PIP-1](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json)
 
 PVP is not a token, transferable balance, or synonym for POLIS. See [PVP Voting Power](PVP-Voting-Power.md) for the repository’s decision and adjudication rules.
+
+## Why POLIS needs several histories
+
+POLIS has at least four overlapping but non-identical histories: the transferable token and its distribution; the locker program and its technical rules; reward schedules attached to locking; and the use of snapshot-derived PVP in governance. A dated claim about one layer does not automatically describe the others.
+
+For example, an announced team lock is evidence of institutional intent at that date, not a permanent ownership record. A support article explaining current lock behavior is evidence of the documented user experience when updated, not proof that every historical program version behaved identically. A proposal tally records voting weight in a particular decision, not the present POLIS holdings of the participating wallets.
 
 ## Lifecycle chronology
 

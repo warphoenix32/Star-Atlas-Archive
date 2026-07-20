@@ -1,0 +1,66 @@
+{
+  "page_id": "economy-index",
+  "proposed_path": "knowledge/economy/README.md",
+  "page_action": "INDEX_REDESIGN",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_class": "R2",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "ECONOMY-INDEX-01",
+      "claim_text": "The economy is a network of dated tokens, programs, accounts, products, and publications.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+        "archive/campaign-summaries/campaign-delta-official/campaign-summary.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECONOMY-INDEX-02",
+      "claim_text": "The domain index teaches readers how to distinguish institutional and evidence states.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+        "archive/campaign-summaries/campaign-delta-official/campaign-summary.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECONOMY-INDEX-03",
+      "claim_text": "The current repository is a documentary history rather than a complete economic audit.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+        "archive/campaign-summaries/campaign-delta-official/campaign-summary.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}

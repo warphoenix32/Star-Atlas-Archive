@@ -1,7 +1,9 @@
 ---
 title: "Treasury Authorization and Reported Payment Ledger"
+seo_title: "Star Atlas Treasury Authorization and Payment Evidence Ledger"
+seo_description: "A source-linked ledger separating Star Atlas DAO spending proposals, authorization, Council-reported payments, implementation, and independent verification."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 8
 page_risk_class: R3
@@ -9,6 +11,7 @@ evidence_basis:
   - "archive/semantic/governance/pip-registry-semantic.json"
   - "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
   - "archive/raw/governance/council-pip-tracker/Star_Atlas_DAO_Council_PIP_Tracker_and_Grading_Rubric.xlsx"
+  - "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json"
 known_limitations:
   - "The ledger preserves Council-reported payments but has not independently reconciled most values to transactions."
   - "Mixed ATLAS, USDC, USD, and EUR values cannot be added without dated conversion and transaction evidence."
@@ -35,6 +38,12 @@ This ledger separates what the DAO authorized from what the Star Atlas Council l
 
 No entry in this page currently reaches both `TRANSACTION_VERIFIED` and `DELIVERABLE_VERIFIED`.
 
+## How to read an entry
+
+Each row answers a deliberately narrow question. The instrument and purpose describe what voters were asked to authorize. The vote state records the decision produced by the applicable mechanism. Payment fields reproduce an attributed operational report when one exists. Verification fields state whether the Archive has connected that report to a primary transaction or independently reviewed the deliverable.
+
+This structure allows a proposal to be historically significant even when later evidence is incomplete. It also prevents a blank payment field from becoming an assertion that no payment occurred, or a `complete` tracker label from becoming an unqualified claim that a project achieved its intended outcome.
+
 ## Treasury architecture boundary
 
 The [treasury architecture](DAO-Treasury-Architecture.md) contains multiple named components. The **DAO Treasury account** is `CuwnarNh7FEqZMmffFjRyWj54RecyS7zwFg1CxfzNudi`; the **Ecosystem Fund wallet** is `BxKehkp298nQunu8BWxh5U6VvfphFyjEB3t7USst7Uag`. Lockers, emissions, sales, and fund wallets are not aliases of the DAO Treasury account.
@@ -49,6 +58,8 @@ The [treasury architecture](DAO-Treasury-Architecture.md) contains multiple name
 | [PIP-33](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json) | USD 469,513.53 historic ATMTA expense reimbursement in two displayed tranches of USD 234,756.76; each tranche is 75% USDC and 25% ATLAS; tranche 2 is scheduled 180 days later and reserve-conditional | `PASSED` | All tracker payment fields null; `PAYMENT_UNVERIFIED`. |
 
 PIP-33 must not be relabeled as an Ecosystem Fund award. Its primary text identifies a direct, extraordinary DAO Treasury measure exceeding the ordinary fund cap, and the Council tracker marks `ecosystem_fund: NO`. [PIP-33 case study](../governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md)
+
+The preserved vote export now establishes the completed ballot result independently of the proposal portal's display: 220 effective wallets cast 141 YES, 59 NO, and 20 abstain ballots. The normalized totals are 170,240,400.01174 YES PVP, 24,857,540.34942 NO PVP, and 83,860,459.54910 abstain PVP. Under the repository's owner-approved completed-binary adjudication—YES PVP greater than NO PVP, with abstentions reported but non-decisive—the result is `PASSED`, with YES representing 87.25894% of decisive PVP. This evidence confirms the vote outcome only. The capture did not replay Solana transaction signatures and contains no payment or implementation evidence. [PIP-33 vote source record](../../archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.md)
 
 Each displayed tranche decomposes into USD 176,067.57 USDC and USD 58,689.19 in ATLAS-equivalent value. The schedule contains two preserved one-cent discrepancies: the two tranche totals add to USD 469,513.52 rather than the stated USD 469,513.53 total, and the two displayed USDC portions add to USD 352,135.14 rather than the stated USD 352,135.15 USDC total. The ATLAS-equivalent portions reconcile at USD 117,378.38. These differences are not silently normalized. Neither the approved schedule nor the asset composition proves that either tranche was transferred.
 

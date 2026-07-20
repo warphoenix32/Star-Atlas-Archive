@@ -1,0 +1,66 @@
+{
+  "page_id": "economy-pvp-voting-power",
+  "proposed_path": "knowledge/economy/PVP-Voting-Power.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_class": "R2",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "ECONOMY-PVP-VOTING-POWER-01",
+      "claim_text": "PVP is a snapshot-sensitive voting-weight measure rather than a transferable token.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-4312E3B0005E60A3.md",
+        "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECONOMY-PVP-VOTING-POWER-02",
+      "claim_text": "The completed-binary rule is an owner-approved repository adjudication, not text asserted to appear in PIP-1.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-4312E3B0005E60A3.md",
+        "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECONOMY-PVP-VOTING-POWER-03",
+      "claim_text": "PIP-33 confirms a completed vote result but provides no payment or implementation evidence.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/campaign-delta-official/SRC-OFF-4312E3B0005E60A3.md",
+        "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}

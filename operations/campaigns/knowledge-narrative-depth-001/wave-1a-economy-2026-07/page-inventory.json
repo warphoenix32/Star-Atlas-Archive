@@ -1,0 +1,63 @@
+{
+  "campaign_id": "knowledge-revision-wave-1a-economy-2026-07",
+  "as_of": "2026-07-20",
+  "page_count": 7,
+  "pages": [
+    {
+      "page_id": "economy-atlas-token-history",
+      "path": "knowledge/economy/ATLAS-Token-History.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-atlas-token-history.json"
+    },
+    {
+      "page_id": "economy-dao-treasury-architecture",
+      "path": "knowledge/economy/DAO-Treasury-Architecture.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-dao-treasury-architecture.json"
+    },
+    {
+      "page_id": "economy-economic-report-catalog",
+      "path": "knowledge/economy/Economic-Report-Catalog.md",
+      "action": "STRUCTURED_REWORK",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-economic-report-catalog.json"
+    },
+    {
+      "page_id": "economy-polis-token-history",
+      "path": "knowledge/economy/POLIS-Token-History.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-polis-token-history.json"
+    },
+    {
+      "page_id": "economy-pvp-voting-power",
+      "path": "knowledge/economy/PVP-Voting-Power.md",
+      "action": "EXPAND_AND_STANDARDIZE",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-pvp-voting-power.json"
+    },
+    {
+      "page_id": "economy-index",
+      "path": "knowledge/economy/README.md",
+      "action": "INDEX_REDESIGN",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R2",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-index.json"
+    },
+    {
+      "page_id": "economy-treasury-authorization-payment-ledger",
+      "path": "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
+      "action": "STRUCTURED_REWORK",
+      "knowledge_status": "QUALIFIED",
+      "risk_class": "R3",
+      "evidence_packet": "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-treasury-authorization-payment-ledger.json"
+    }
+  ]
+}

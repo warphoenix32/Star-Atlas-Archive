@@ -1,5 +1,7 @@
 ---
 title: "ATLAS Token History"
+seo_title: "ATLAS Token History, Utility, Emissions, and Treasury Use"
+seo_description: "An evidence-qualified history of the Star Atlas ATLAS token, its economic roles, locking program, gameplay emissions, treasury use, and unresolved supply record."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: HIGH
@@ -31,6 +33,12 @@ ATLAS is the transferable Star Atlas token documented for exchange, gameplay, ma
 PIP-1 identifies the ATLAS mint as `ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx`. The same instrument names a separate ATLAS Locker program, DAO Treasury account, DAO Emissions account, and DAO Sales Account. Those components may hold, distribute, lock, or use ATLAS but are not aliases of the token. [PIP-1](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json)
 
 `zATLAS`, documented in Holosim, is a simulation currency and must not be treated as the on-chain token. [Holosim history](../gameplay/Holosim.md)
+
+## Why the history is layered
+
+ATLAS entered the public record first through token-sale design and exchange utility, then acquired additional roles as successive products reached users. SCORE used it as a faction-fleet reward; locking tied it to marketplace discounts and POLIS rewards; SAGE systems used it inside an on-chain game economy; and governance proposals authorized treasury obligations denominated partly or wholly through ATLAS. Each role begins and changes on its own date.
+
+That layered history prevents two common mistakes. A feature documented for one product should not be projected backward to token launch, and the end of one emissions program should not be described as the end of ATLAS utility generally. The chronology below therefore assigns claims to a dated surface rather than treating every historical feature as permanently current.
 
 ## Lifecycle chronology
 

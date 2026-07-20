@@ -1,5 +1,7 @@
 ---
 title: "Star Atlas DAO Treasury Architecture"
+seo_title: "Star Atlas DAO Treasury Architecture and Accounts"
+seo_description: "A source-linked guide to the Star Atlas treasury architecture, the named DAO Treasury account, related programs, institutional authority, and execution evidence."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: HIGH
@@ -58,6 +60,18 @@ PIP-1 identifies a DAO Treasury account among the programs and accounts comprisi
 PIP-2 describes the Foundation as the DAO's legal and operational agent and supports administrative, contracting, multisig, and implementation functions within the proposal's limits. Those institutional powers do not remove the requirement to distinguish authorization from execution. [PIP-2; SRC-PIP-02-1E2D7066](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json)
 
 PIP-2 also approved a recurring annual budget capped at USD 100,000 for basic Foundation operations, including director, supervisor, registered-office, secretary, and related service costs. Costs beyond basic operations require separate advance DAO approval. That ceiling is an authorization, not evidence of annual expenditure. The Council tracker contains an unknown (`?`) USDC-paid value for PIP-2, so this archive cannot responsibly state an amount paid. [PIP-2; SRC-PIP-02-1E2D7066](../../archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json) [Council tracker semantic records](../../operations/campaigns/social-governance-semantic-enrichment/input-council-tracker/council-pip-tracker-semantic-records.jsonl)
+
+## Institutional responsibilities at a glance
+
+The captured model distributes authority rather than assigning the entire treasury process to one actor:
+
+- **POLIS voters** decide proposals through the applicable PVP-weighted mechanism.
+- **The Star Atlas Foundation** serves as the legal and administrative implementation body within the approved scope and documented safety or compliance constraints.
+- **The Star Atlas Council** supports governance operations and may administer programs, milestones, or payment review when delegated.
+- **Authorized signers and programs** execute the actual Solana transaction.
+- **The Archive** records what each source establishes; it does not infer payment from passage or outcome from payment.
+
+This division is why the treasury architecture cannot be represented faithfully as a single wallet entity. Institutional authority, account identity, signer authority, token custody, and project delivery are related, but each needs its own evidence.
 
 ## Identified accounts and programs
 
@@ -118,3 +132,7 @@ For treasury research, the minimum evidentiary chain is therefore: proposal text
 ## Current state
 
 As of 2026-07-17, the archive supports the institutional and program architecture above and the identity of the named DAO Treasury account. It does not establish live balances, current signers, or transaction-level verification of every disbursement. See [PIP-33 ATMTA Historic Expense Reimbursement](../governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md) for the direct-account case and its unresolved payment state.
+
+## Research path
+
+A transaction-level treasury history will require dated account ownership, current and historical signer sets, program upgrade authorities, proposal-linked transaction signatures, token mints and decimals, source and destination accounts, conversion rules, and recipient evidence. Where funding is milestone-based, payment verification must remain separate from deliverable acceptance and independent assessment of the result.

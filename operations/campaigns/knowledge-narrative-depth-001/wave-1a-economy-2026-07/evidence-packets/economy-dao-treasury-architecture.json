@@ -1,0 +1,66 @@
+{
+  "page_id": "economy-dao-treasury-architecture",
+  "proposed_path": "knowledge/economy/DAO-Treasury-Architecture.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_class": "R2",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "ECONOMY-DAO-TREASURY-ARCHITECTURE-01",
+      "claim_text": "Treasury architecture is a wider system, while the DAO Treasury account is one named account.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECONOMY-DAO-TREASURY-ARCHITECTURE-02",
+      "claim_text": "The Ecosystem Fund wallet, lockers, emissions accounts, and sales account retain separate identities.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "ECONOMY-DAO-TREASURY-ARCHITECTURE-03",
+      "claim_text": "Vote, implementation authority, transaction execution, and outcome evidence are separate stages.",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}
