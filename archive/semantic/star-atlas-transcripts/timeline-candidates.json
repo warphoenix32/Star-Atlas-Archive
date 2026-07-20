@@ -2,7 +2,7 @@
   "campaign_id": "star-atlas-transcripts-semantic-2026-07",
   "schema_version": "2.0.0",
   "generated_from": "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
-  "candidate_count": 83,
+  "candidate_count": 90,
   "candidates": [
     {
       "candidate_id": "TIMELINE-CANDIDATE-00001",
@@ -20,7 +20,7 @@
           "text": "was approved by the foundation still"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete governance vote language",
         "canonical entity identified",
@@ -28,9 +28,10 @@
         "source date available at day precision"
       ],
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PIP, PIP-18 framed as q and a. The transcript addresses All right. Uh any accomplishments that we need to note? I think it's been mostly failures here. Fair enough. Nothing has changed. We still that that same PEIP is still in in in the voting process. Still has a few more days and um…",
       "manual_review_required": true
     },
@@ -50,16 +51,16 @@
           "text": "agenda. PIP 17 was approved by the"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete governance proposal language",
         "canonical entity identified",
         "exact supporting caption",
         "source date available at day precision"
       ],
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "research_gap_types": [],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PIP, PIP-17 framed as discussion. The transcript addresses Well, I'll tell you where I'm at. I'm at 39. I don't know what y'all are saying. I play and I I've been busy with Sage. Minus point. I couldn't get minus point. Full answer. I couldn't get mine to work. Oh, I did. Yeah, I had the issue.…",
       "manual_review_required": true
     },
@@ -91,9 +92,10 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GOVERNANCE, CORPORATE, PEOPLE framed as q and a. The transcript addresses a real organization like in the Cayman's with like a neutral legal director and all this other stuff. Um the fact that like um their authority then ties back to high level team leadership so like they can't do anything nefarious…",
       "manual_review_required": true
     },
@@ -118,7 +120,7 @@
           "text": "by funded by the foundation in in the"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete treasury or funding action language",
         "canonical entity identified",
@@ -126,9 +128,10 @@
         "source date available at day precision"
       ],
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GOVERNANCE, CORPORATE, COMMUNITY framed as discussion. The transcript addresses know board those those particular issues. Uh for example, we decided with the team that dispersements would be made in Atlas because that's what we have in the vault and other options are not impossible but they will require specific…",
       "manual_review_required": true
     },
@@ -156,9 +159,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of TREASURY framed as release. The transcript addresses course sales pitchy like sort of but yeah that's that's sort of fine I think we have to think well there is a negative so we do need the negative stakeholders fair point oh actually I realized now glossed over that when we came to the…",
       "manual_review_required": true
     },
@@ -185,9 +189,10 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GOVERNANCE, ECONOMY, TECHNOLOGY framed as discussion. The transcript addresses DAO and they want to make sure that it's beneficial for everyone. So, uh I think they're going to be coming with very interesting proposal soon. Yeah. Ecosystem partners. Yeah. Well, yeah. And so, Falor put like it so the ecosystem…",
       "manual_review_required": true
     },
@@ -214,9 +219,10 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PIP, PIP-16, PIP-17 framed as discussion. The transcript addresses intention to be public. Um, if that's what we all agree on. Yeah. As long as it doesn't contain any privately identifiable information like said emails, stuff like that, then then should be fine, right? Yeah. And he doesn't. Yeah. Cool.…",
       "manual_review_required": true
     },
@@ -236,7 +242,7 @@
           "text": "people about it and then get this funded"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete treasury or funding action language",
         "canonical entity identified",
@@ -244,9 +250,10 @@
         "source date available at day precision"
       ],
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GOVERNANCE, EVENT framed as discussion. The transcript addresses the the hourly salary for that which the amount uh that that amounts over 9 months is about what we thought that it could be fair. It was something like $1,500 something like that for the nine months. Uh calculating about $30 an hour…",
       "manual_review_required": true
     },
@@ -266,16 +273,16 @@
           "text": "just move to the next thing. But if I"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete migration language",
         "canonical entity identified",
         "exact supporting caption",
         "source date available at day precision"
       ],
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "research_gap_types": [],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GOVERNANCE, COMMUNITY framed as discussion. The transcript addresses you are not an integral part of the Staratas community. So having that information in places like like X or having a Tik Tok channel or something like that would be nice. uh it would be exposed to more people and uh of course right now…",
       "manual_review_required": true
     },
@@ -295,7 +302,7 @@
           "text": "or should we move to the really Saucy"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete migration language",
         "canonical entity identified",
@@ -303,9 +310,10 @@
         "source date available at month precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, EVENT framed as discussion. The transcript addresses is there any other outstanding questions or should we move to the really Saucy stuff uh I saw some questions about Sage um I don't know if you want to cover that one or if you have any info on any data on how much investment a new…",
       "manual_review_required": true
     },
@@ -325,7 +333,7 @@
           "text": "um the release of sage so it's a really"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -334,9 +342,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, COMMUNITY, EVENT framed as release. The transcript addresses at as we uh you know look at the economy after the local markets update we had a massive massive update uh since the last Forum added every single star base now has a Marketplace so this has been just a completely it is probably the…",
       "manual_review_required": true
     },
@@ -356,7 +365,7 @@
           "text": "remember like when we first released"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -365,9 +374,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, ECONOMY framed as release. The transcript addresses provide some more um you know foresight in terms of predicting you know where you think prices will go in the future relative to Trends and things like that but in the meantime at least you know Saving Time clicking around in the sage…",
       "manual_review_required": true
     },
@@ -397,9 +407,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, TECHNOLOGY, CORPORATE framed as release, retrospective. The transcript addresses um for the quarterly report was warping data and the main reason was it was one of the cleanest transactions that was coming through that that required the least amount of um you know excuse me manipulation on our part to go find other…",
       "manual_review_required": true
     },
@@ -419,7 +430,7 @@
           "text": "release Sage but um interesting uh a"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -428,9 +439,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING framed as release. The transcript addresses that these massive players rely on the small the small people to create the the economy and keep the economy churning you keep you can't just have 10 super mega uh whales and nobody else you need a nice distribution of of players at all…",
       "manual_review_required": true
     },
@@ -450,7 +462,7 @@
           "text": "significantly with the release of C4. Um"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -459,9 +471,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4, CRAFTING, MINING framed as release. The transcript addresses significantly with the release of C4. Um and then a kind of a cor corlary to that or you know kind of a side uh side effect of that actually this is the main effect is many of you know the number of unique items in C4 is going to…",
       "manual_review_required": true
     },
@@ -481,7 +494,7 @@
           "text": "power when a new project is launched."
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -490,9 +503,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of MINING framed as release, retrospective. The transcript addresses redeem Max's for ship credit. Not even just Atlas or USD, just the ability to convert them to higher, larger ships. We're just gonna create we're gonna create a secondary currency which which which is very interesting um Krabby but um I…",
       "manual_review_required": true
     },
@@ -512,7 +526,7 @@
           "text": "release C4. I'm almost not uh as as"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -521,9 +535,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as release. The transcript addresses where, you know, Bitcoin news has kind of hit my radar. I have eyes only for Solana and Atlas and Zinc. So, or Atlas Polus and Zinc. So, you know, I don't really pay attention to the the larger uh coins. You know, Bitcoin is is a very,…",
       "manual_review_required": true
     },
@@ -552,9 +567,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of MINING, SCORE_FACTION_FLEET framed as release. The transcript addresses yeah I think I'll leave it at that kind of already spoiled a little bit of it not nothing crazy but I I have spoiled that there will be some some uh some cool stuff coming very soon no you're I'll be upd I'll be updating the road map…",
       "manual_review_required": true
     },
@@ -579,7 +595,7 @@
           "text": "going to release we're going to release"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -588,9 +604,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of MINING, SCORE_FACTION_FLEET framed as release, q and a. The transcript addresses come to him with a question and he's like yeah I'll do that uh so anyway one of these exciting things is the fleet scoring system um how it's going to work is this is kind of the the way it looks right now um I just took a screenshot as…",
       "manual_review_required": true
     },
@@ -610,7 +627,7 @@
           "text": "launched Zinc, uh, Crew did see an"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -619,9 +636,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GAMEPLAY, ECONOMY, EVENT framed as release. The transcript addresses some more uh explicit uh data. Oh um will you briefly discuss the influence of other variables in the analysis for example zinc. Um, so in terms of variables in the econometric equation, I don't have like a zinc uh launch like one could…",
       "manual_review_required": true
     },
@@ -655,9 +673,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as release, q and a. The transcript addresses that took, but, uh, probably a non-trivial amount. Um I don't know if you had any other thoughts uh chose or if anybody else had any other thoughts. I'm happy to invite people on on the stage honestly to to chat. Yeah, not sure if…",
       "manual_review_required": true
     },
@@ -682,7 +701,7 @@
           "text": "to shut down Sage. So that was what"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete deprecation language",
         "canonical entity identified",
@@ -690,9 +709,10 @@
         "source date available at month precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as q and a, correction. The transcript addresses the best, you know, the the like the most enjoyable uh gameplay experience. But we also had a serious problem where was it I mean it was really came down to a decision of okay we we don't have the resources to we don't want to sink…",
       "manual_review_required": true
     },
@@ -712,7 +732,7 @@
           "text": "we we see score shut down in the next,"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete deprecation language",
         "canonical entity identified",
@@ -720,9 +740,10 @@
         "source date available at month precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of SCORE_FACTION_FLEET framed as q and a. The transcript addresses sustainable in the super long term it was more of a stop gap um and now the fleet rentals is beautiful because it provides it's kind of that idle uh you know usage the or use case while also supporting the larger ecosystem. So really…",
       "manual_review_required": true
     },
@@ -747,7 +768,7 @@
           "text": "updates before score is is deprecated."
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete deprecation language",
         "canonical entity identified",
@@ -755,9 +776,10 @@
         "source date available at month precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of SCORE_FACTION_FLEET framed as discussion. The transcript addresses like everybody's kind of on the same page that we do need to figure something out with the emissions. Um uh they're they're definitely running too hot. And if that means like, hey, Atlas emissions per user is going to have to go down a…",
       "manual_review_required": true
     },
@@ -777,7 +799,7 @@
           "text": "migration the migration from Sage to or"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete migration language",
         "canonical entity identified",
@@ -785,9 +807,10 @@
         "source date available at month precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of STARBASED framed as correction. The transcript addresses excited that LP will remain and we'll have RRS and we'll have potentially other things so this is going to be a big um feature I believe of 2025 where we start to grow and comp make the star Atlas economy more complex it's not as simple…",
       "manual_review_required": true
     },
@@ -815,9 +838,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GAMEPLAY, LORE, CORPORATE framed as release, community feedback. The transcript addresses on this also want to mention uh one of the benefits to us delaying this a little bit is that we are going to have all species all factions um all art will be completed so previously we had mentioned it would be mud only means you um…",
       "manual_review_required": true
     },
@@ -845,9 +869,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as release. The transcript addresses that could be thousands or tens of thousands of crew so uh the nature of cnfs is that they are uh oneof ones so you're not able to really batch them together there might be some efficiency where you can get two or three in uh but…",
       "manual_review_required": true
     },
@@ -875,9 +900,10 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GAMEPLAY, LORE, COMMUNITY framed as release. The transcript addresses Danny's uh brainchild here and so just one of the things that we're able to include as we as we strategically time the official release of crew cards I wanted to note here um uh this is slightly new information came in this morning but…",
       "manual_review_required": true
     },
@@ -904,9 +930,10 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, TECHNOLOGY framed as q and a. The transcript addresses to mention here stage 3D was something so that was built in play canvas and we rolled that out December of last year right before we went on break uh internally we kind of knew that that was a product that didn't have much life on it um…",
       "manual_review_required": true
     },
@@ -934,14 +961,77 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GAMEPLAY, GUILD, EVENT framed as release. The transcript addresses covered a lot we got some econ in there we talked about breakpoint again uh guys please let us know if you're interested in attending in participating in uh displaying your deck uh or otherwise just showing up maybe having a…",
       "manual_review_required": true
     },
     {
       "candidate_id": "TIMELINE-CANDIDATE-00031",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0012",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "timestamp": "00:16:27",
+      "event_type": "RELEASE_OR_DEPLOYMENT",
+      "date_value": null,
+      "date_precision": "UNKNOWN",
+      "date_basis": "UNRESOLVED_SOURCE_METADATA",
+      "supporting_captions": [
+        {
+          "timestamp": "00:17:33",
+          "line": 775,
+          "text": "uh around the time we launched Escape"
+        }
+      ],
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "concrete release or deployment language",
+        "institutional concept or proposal identified",
+        "exact supporting caption"
+      ],
+      "research_gap_types": [
+        "EVENT_DATE_UNRESOLVED",
+        "OFFICIAL_CONFIRMATION_MISSING"
+      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "summary": "Discussion of ESCAPE_VELOCITY framed as release. The transcript addresses the opportunity to discover loot from across the board. And this is this was developed uh kind of as a scavenger scavenger hunt of sorts, but no cost to the player. just come in and try it out and um get an opportunity to to find some…",
+      "manual_review_required": true
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00032",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0013",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "timestamp": "00:17:45",
+      "event_type": "RELEASE_OR_DEPLOYMENT",
+      "date_value": null,
+      "date_precision": "UNKNOWN",
+      "date_basis": "UNRESOLVED_SOURCE_METADATA",
+      "supporting_captions": [
+        {
+          "timestamp": "00:18:32",
+          "line": 827,
+          "text": "which launch launched uh one month ago"
+        }
+      ],
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "concrete release or deployment language",
+        "institutional concept or proposal identified",
+        "exact supporting caption"
+      ],
+      "research_gap_types": [
+        "EVENT_DATE_UNRESOLVED",
+        "OFFICIAL_CONFIRMATION_MISSING"
+      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "summary": "Discussion of ESCAPE_VELOCITY framed as release. The transcript addresses looking to do something with us um um a lot of support from the Salana Foundation and the Salana Labs team themselves and and so it just feels good uh it feels good to get their support and and and uh to hear their excitement about what…",
+      "manual_review_required": true
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00033",
       "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
       "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
       "timestamp": "00:36:04",
@@ -969,14 +1059,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GOVERNANCE, CORPORATE framed as release. The transcript addresses functionality to come online. We obviously have the pus locker there, the Atlas locker there, both with their individual economic benefits. um uh whether that's through, you know, earning tokens through participation or discounts on…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00032",
+      "candidate_id": "TIMELINE-CANDIDATE-00034",
       "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0068",
       "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
       "timestamp": "01:47:39",
@@ -999,14 +1090,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GOVERNANCE framed as release. The transcript addresses a half. So, it's a good moment to close here. Um before we close, just a quick recap. Um we went through some news, some metrics on there alone, metrics on scape velocity, learnings from scape velocity, what's coming next for Sage, uh…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00033",
+      "candidate_id": "TIMELINE-CANDIDATE-00035",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0010",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:15:27",
@@ -1029,14 +1121,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, TECHNOLOGY, EVENT framed as release. The transcript addresses back in 2021 but again all of the real mechanics on mainnet with real economic outcomes delivered to you guys and we're looking to do that within three weeks maybe one or two more points here and then maybe turn it over to Jacob to…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00034",
+      "candidate_id": "TIMELINE-CANDIDATE-00036",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0012",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:17:34",
@@ -1059,14 +1152,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING, ESCAPE_VELOCITY, MINING, STARBASED framed as release, theorycrafting. The transcript addresses what you're going to see um and also how we want to frame this release is is important understanding that it's it's not going to be that uh uh sort of previewed gameplay experience that we put out there um uh what you saw in escape…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00035",
+      "candidate_id": "TIMELINE-CANDIDATE-00037",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0015",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:21:11",
@@ -1094,14 +1188,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING, ESCAPE_VELOCITY, SCORE_FACTION_FLEET framed as release. The transcript addresses on mainnet but it's going to change a lot so pretty exciting great uh great clarification there Jacob there's been a bunch of questions we have a ton of questions to get through here but there's been a few that have come through chat so…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00036",
+      "candidate_id": "TIMELINE-CANDIDATE-00038",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0018",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:25:44",
@@ -1124,14 +1219,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, CORPORATE framed as release. The transcript addresses and factions are uh really incentivized to compete against each other it's gonna it's going to be very interesting so keep that in mind as you're sort of uh getting into these uh initial Sage releases yeah you know I actually will ask…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00037",
+      "candidate_id": "TIMELINE-CANDIDATE-00039",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0019",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:27:25",
@@ -1153,14 +1249,15 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, GOVERNANCE framed as release. The transcript addresses fact those users are all integrated into the economy because they're leveling up crew members they're able to trade and sell those crew members after the mint from a company perspective effective it actually gives us an opportunity to…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00038",
+      "candidate_id": "TIMELINE-CANDIDATE-00040",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0037",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:50:52",
@@ -1182,14 +1279,15 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as discussion. The transcript addresses let's keep moving then next question um what is the revenue generation strategy with the mobile app is there anything else besides Marketplace fees from Trading crew members yeah I don't I don't know that um so we obviously just…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00039",
+      "candidate_id": "TIMELINE-CANDIDATE-00041",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0053",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "01:15:47",
@@ -1212,14 +1310,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of SCORE_FACTION_FLEET framed as release. The transcript addresses system you can craft these golden tickets but if you're referring people and they're making purchases then you'd also Not only would you get the revenue share component but you'd also get a golden ticket so then you can go in and…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00040",
+      "candidate_id": "TIMELINE-CANDIDATE-00042",
       "segment_id": "SEG-TOWNHALL-5D5DDA7808DD80BE-0030",
       "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
       "timestamp": "00:53:18",
@@ -1242,14 +1341,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CORPORATE, COMMUNITY framed as release. The transcript addresses Yeah, Danny is super responsive. Really good. I love his vision, too. Yeah. So, I have another question, man. uh something that has been in the community like Sparasoft is like a major topic in the community and everybody's speaking…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00041",
+      "candidate_id": "TIMELINE-CANDIDATE-00043",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0006",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "00:11:03",
@@ -1272,14 +1372,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING, SCORE_FACTION_FLEET, STARBASED framed as release, q and a. The transcript addresses about Sage we're going to talk about Dak we're going to talk about da we'll talk about Unreal Engine the crew mobile app Etc we'll discuss all of these things independently understanding that uh there is overlap in when uh various…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00042",
+      "candidate_id": "TIMELINE-CANDIDATE-00044",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0007",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "00:13:59",
@@ -1301,14 +1402,15 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING, SCORE_FACTION_FLEET, STARBASED framed as q and a. The transcript addresses live with Starbase uh that is all of the core features and Starbase could roll out over you know effectively over a couple of weeks I'll get more into what we're doing here next but uh when we go live with a core feature set of…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00043",
+      "candidate_id": "TIMELINE-CANDIDATE-00045",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0009",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "00:17:29",
@@ -1335,14 +1437,15 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of STARBASED framed as discussion. The transcript addresses however to the question of when well we are looking at opening up the private beta access on our community private test server this week uh probably the end of this week you know if you're in that uh private test server you've signed…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00044",
+      "candidate_id": "TIMELINE-CANDIDATE-00046",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0019",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "00:32:10",
@@ -1367,11 +1470,13 @@
         "EVENT_DATE_UNRESOLVED",
         "SPEAKER_ATTRIBUTION_MISSING"
       ],
+      "speaker_dependency": "PARTIAL",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of SCORE_FACTION_FLEET framed as discussion. The transcript addresses fixed Atlas emission curve so this means on a daily basis there's a fixed amount of Atlas that's going to drop now for your guys' reference I think this is an important uh piece of information to give right now it'll probably be around…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00045",
+      "candidate_id": "TIMELINE-CANDIDATE-00047",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0031",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "00:53:09",
@@ -1399,14 +1504,46 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY framed as release, q and a. The transcript addresses future when we release combat and all these other new mechanics it's going to become every single time more and more important nice so you heard the guys get those spreadsheets ready get that data flowing exactly you're going to need uh…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00046",
+      "candidate_id": "TIMELINE-CANDIDATE-00048",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0036",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "timestamp": "01:00:16",
+      "event_type": "RELEASE_OR_DEPLOYMENT",
+      "date_value": null,
+      "date_precision": "UNKNOWN",
+      "date_basis": "UNRESOLVED_SOURCE_METADATA",
+      "supporting_captions": [
+        {
+          "timestamp": "01:01:10",
+          "line": 2905,
+          "text": "release of Starbase it would be one of"
+        }
+      ],
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "concrete release or deployment language",
+        "institutional concept or proposal identified",
+        "exact supporting caption"
+      ],
+      "research_gap_types": [
+        "EVENT_DATE_UNRESOLVED",
+        "OFFICIAL_CONFIRMATION_MISSING"
+      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "summary": "Discussion of STARBASED framed as release, q and a. The transcript addresses Discord he gave me the breakdown of what the player profile uh or you know star Atlas account um uh roll out is going to look like there were four different points four different phases of all of that I'm not going to go through all of…",
+      "manual_review_required": true
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00049",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0037",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "01:01:27",
@@ -1429,14 +1566,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING framed as release, q and a, clarification. The transcript addresses might be coming uh soon well uh I'm going to be uh very vague on this but I some of you are aware that I made a comment about uh a face melting feature that's going to be coming this year just to be clear that feature is uh is Sage…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00047",
+      "candidate_id": "TIMELINE-CANDIDATE-00050",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0039",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "01:07:13",
@@ -1459,14 +1597,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, TECHNOLOGY framed as release, q and a. The transcript addresses with these uh so the existing ship liability is is something like 2.1 million crew now uh I expect that we'll probably see a liability of upwards of 2.5 million crew uh by the time we get to what everyone is referring to is a snapshot…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00048",
+      "candidate_id": "TIMELINE-CANDIDATE-00051",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0059",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "01:43:58",
@@ -1488,14 +1627,15 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING, STARBASED framed as discussion. The transcript addresses specifically across salana but I you know tease shrapnel as well we're we've we've been establishing Partnerships with different um uh projects across gaming and across salana uh to create a an opportunity to craft items for their games…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00049",
+      "candidate_id": "TIMELINE-CANDIDATE-00052",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0030",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "00:52:00",
@@ -1510,7 +1650,7 @@
           "text": "C4 PTR. That's the play test range."
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete public or limited testing language",
         "canonical entity identified",
@@ -1518,14 +1658,15 @@
         "source date available at year precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as q and a. The transcript addresses C4 PTR. That's the play test range. That's when we're going to be testing all of the mechanics of uh Sage C4 itself. Um but critically when we go live with mainet C4 will be launching with it as well. So that will be the very first…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00050",
+      "candidate_id": "TIMELINE-CANDIDATE-00053",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0031",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "00:53:36",
@@ -1540,7 +1681,7 @@
           "text": "migrate to C4 is automatically transport"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete migration language",
         "canonical entity identified",
@@ -1548,14 +1689,15 @@
         "source date available at year precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as discussion. The transcript addresses right up there with Salana in terms of daily activ uh daily activity and that's on our Genesis event. So uh really exciting opportunity and potential in front of us on C4. So those are the things that are all coming together with the…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00051",
+      "candidate_id": "TIMELINE-CANDIDATE-00054",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0032",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "00:54:48",
@@ -1570,7 +1712,7 @@
           "text": "transition and migration process from"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete migration language",
         "canonical entity identified",
@@ -1578,14 +1720,15 @@
         "source date available at year precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as discussion. The transcript addresses CSS on your behalf. And from there it it's really big news. I I know a lot of people have been asking this for many many months now. But uh so we're going to transport everything back to the CSS. Yes, for free. Everything will be…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00052",
+      "candidate_id": "TIMELINE-CANDIDATE-00055",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0040",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "01:05:21",
@@ -1600,7 +1743,7 @@
           "text": "release new ships. For example, we're"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -1609,14 +1752,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as release, q and a. The transcript addresses origination quantity minus current outstanding. That's what's remaining. So, we're not going to mint new ship quantities for, for example, the Fimble Airbike. We're not going to mint new ship quantities for something that has already…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00053",
+      "candidate_id": "TIMELINE-CANDIDATE-00056",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0054",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "01:27:40",
@@ -1636,7 +1780,7 @@
           "text": "suite that Danny released and just the"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -1645,14 +1789,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as release. The transcript addresses topics. We have C4 and we have UE5. So I think we can get into the C4 part right now and then we can probably talk about U5. We have a huge segment on UE5. I know people are uh desperate for information about C4. It's kind of the…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00054",
+      "candidate_id": "TIMELINE-CANDIDATE-00057",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0057",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "01:31:09",
@@ -1667,7 +1812,7 @@
           "text": "will have access to uh C4 PTR and you'll"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete public or limited testing language",
         "canonical entity identified",
@@ -1675,14 +1820,15 @@
         "source date available at year precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as discussion. The transcript addresses would have liked to have seen because we think Starframe could effectively be Ankor V2. Uh but they are pulling inspiration from what we've built and uh integrating that into uh into the new uh development process on Salana. And then uh…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00055",
+      "candidate_id": "TIMELINE-CANDIDATE-00058",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0089",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "02:51:24",
@@ -1702,7 +1848,7 @@
           "text": "Yeah. Yeah. Before we move from U5, I"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete migration language",
         "canonical entity identified",
@@ -1710,14 +1856,15 @@
         "source date available at year precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of GAMEPLAY, TECHNOLOGY, PARTNERSHIP framed as discussion. The transcript addresses to talk about before we move from UE5. Yeah. Yeah. Before we move from U5, I think um Michael, there there's one little little big thing that you want to share. Little big thing, another uh another big teaser. It's another partnership…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00056",
+      "candidate_id": "TIMELINE-CANDIDATE-00059",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0009",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:10:37",
@@ -1750,14 +1897,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING, MINING, STARBASED framed as release, q and a. The transcript addresses exciting stuff the photo mode is is a big deal and I'm really looking forward to like I said seeing everyone's photos and having competitions around it uh but yeah yeah moving on um I've seen a couple of people have been curious on what…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00057",
+      "candidate_id": "TIMELINE-CANDIDATE-00060",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:14:21",
@@ -1780,14 +1928,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of MINING, SCORE_FACTION_FLEET framed as release, q and a, clarification. The transcript addresses itself is that these are the first chip assets that have dual function utility across the existing programs that we have available on on the play portal set right which is faction Fleet and faction claims and what that means is you will…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00058",
+      "candidate_id": "TIMELINE-CANDIDATE-00061",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0012",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:16:41",
@@ -1810,14 +1959,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING framed as release. The transcript addresses and then I'm going to show the next one this is the Armstrong imp tap and then here's the Armstrong and man that looks insane I'm not gonna lie that looks crazy these ships are at absolutely insane I'm very much looking forward to it…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00059",
+      "candidate_id": "TIMELINE-CANDIDATE-00062",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0005",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "00:06:27",
@@ -1840,14 +1990,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, ECONOMY framed as release, retrospective. The transcript addresses when you when you go through and kind of count all of these substantial feature releases we've had a product release or feature release come out almost every single month uh o over the last year um a and by no means is this a fully…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00060",
+      "candidate_id": "TIMELINE-CANDIDATE-00063",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0011",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "00:15:24",
@@ -1870,14 +2021,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING framed as release. The transcript addresses napon we roll update coming they may be launching soon Adam yep yep there is some testing going on uh and so for anyone that isn't aware Adam is a is another form of Route manager or automation service that allows you to pre-plan routes…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00061",
+      "candidate_id": "TIMELINE-CANDIDATE-00064",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0014",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "00:20:04",
@@ -1900,14 +2052,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, COMMUNITY, MARKETING framed as release. The transcript addresses getting a message here we have some breaking news Santi I I hear it as well Michael I think uh we have something special to share right now we do uh we may need some help yeah I think we need to get Dom up on stage for a special…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00062",
+      "candidate_id": "TIMELINE-CANDIDATE-00065",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0016",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "00:22:45",
@@ -1930,14 +2083,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, CORPORATE framed as release. The transcript addresses I just got my the only Christmas present I I need this year uh this is huge a big shout out to Gary on our team he's our uh vehicle art director pulling that skin together um on short notice I might add but really really awesome skin…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00063",
+      "candidate_id": "TIMELINE-CANDIDATE-00066",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0031",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "01:00:02",
@@ -1960,14 +2114,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of MARKETING framed as release. The transcript addresses that the F4 has missile base and counter measure systems in the HUD up there so we got those attached previously uh those you know in previous in the previous release ships didn't have missile Bays or countermeasure systems working but…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00064",
+      "candidate_id": "TIMELINE-CANDIDATE-00067",
       "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0019",
       "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
       "timestamp": "00:24:22",
@@ -1982,7 +2137,7 @@
           "text": "platform launch alongside the release of"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -1991,14 +2146,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of SCORE_FACTION_FLEET framed as release, q and a. The transcript addresses claim stake functionality into faction Fleet or AKA score um so when those claim Stakes uh um go live on the 20th sometime in January you'll be able to leverage those claim Stakes to offset uh resource consumption if you're…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00065",
+      "candidate_id": "TIMELINE-CANDIDATE-00068",
       "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0021",
       "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
       "timestamp": "00:27:33",
@@ -2013,7 +2169,7 @@
           "text": "big release of today and we're going to"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -2022,14 +2178,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING framed as release. The transcript addresses water as always and we just have a few minutes left so I would say let's go straight into into business now so I can yeah a few cool things that are dropping today Save The Best For Last um so let's talk about Sage first uh the big…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00066",
+      "candidate_id": "TIMELINE-CANDIDATE-00069",
       "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0031",
       "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
       "timestamp": "00:44:28",
@@ -2052,14 +2209,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of ESCAPE_VELOCITY framed as release. The transcript addresses in space just to make this test a bit more polished and then um you know within those grids we've added in different colors to show how dense that given sector is um and yeah I'd just like to highlight that this isn't actually the…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00067",
+      "candidate_id": "TIMELINE-CANDIDATE-00070",
       "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0033",
       "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
       "timestamp": "00:47:16",
@@ -2081,14 +2239,15 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of ESCAPE_VELOCITY framed as discussion. The transcript addresses and structures in the future this is you know a while away but it is foundation um kind of core Loop for that and yeah if you have any questions around specific game mechanics ask uh Juliano in the foundation room but um you know from a…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00068",
+      "candidate_id": "TIMELINE-CANDIDATE-00071",
       "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0043",
       "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
       "timestamp": "01:02:21",
@@ -2111,14 +2270,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of ESCAPE_VELOCITY framed as release. The transcript addresses um now let's move to the next segment we covered everything related to scoundrel hunt so now let's move to our 2.1 updates well we can't miss the social campaign oh yes true you want to mention that Michael I do I do um you know a lot…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00069",
+      "candidate_id": "TIMELINE-CANDIDATE-00072",
       "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0004",
       "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
       "timestamp": "00:05:50",
@@ -2140,14 +2300,75 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as discussion. The transcript addresses achieve historically with pure human resources. So all of that is to say I'm very optimistic. I'm very excited about uh very excited about what we have to share today. And uh yeah, Jose, I think we could probably jump into it. Awesome.…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00070",
+      "candidate_id": "TIMELINE-CANDIDATE-00073",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0038",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "timestamp": "01:15:16",
+      "event_type": "PUBLIC_OR_LIMITED_TESTING",
+      "date_value": null,
+      "date_precision": "UNKNOWN",
+      "date_basis": "UNRESOLVED_SOURCE_METADATA",
+      "supporting_captions": [
+        {
+          "timestamp": "01:15:36",
+          "line": 3433,
+          "text": "confidence in the um kind of the C4 ptr"
+        }
+      ],
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "concrete public or limited testing language",
+        "institutional concept or proposal identified",
+        "exact supporting caption"
+      ],
+      "research_gap_types": [
+        "EVENT_DATE_UNRESOLVED"
+      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "summary": "Discussion of C4 framed as discussion. The transcript addresses map for C4, which is the very next topic that we're t talking about. Um we're pretty locked in on the zinc infrastructure side, right? Um so we're largely prepared to launch mainet. we need C4 before we'd move forward with that. Um but…",
+      "manual_review_required": true
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00074",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0040",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "timestamp": "01:17:28",
+      "event_type": "PUBLIC_OR_LIMITED_TESTING",
+      "date_value": null,
+      "date_precision": "UNKNOWN",
+      "date_basis": "UNRESOLVED_SOURCE_METADATA",
+      "supporting_captions": [
+        {
+          "timestamp": "01:18:36",
+          "line": 3565,
+          "text": "all at once the C4 PTR, which has been"
+        }
+      ],
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "concrete public or limited testing language",
+        "institutional concept or proposal identified",
+        "exact supporting caption"
+      ],
+      "research_gap_types": [
+        "EVENT_DATE_UNRESOLVED"
+      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "summary": "Discussion of C4 framed as discussion. The transcript addresses don't want to dip out Mike again. Um, yeah, exactly. Let's keep No cameras. Yeah. All right. All good. All right. Yeah. Awesome information, guys. I anything we wanted to uh segue to C4 or good to go? It's the main event. I think uh I…",
+      "manual_review_required": true
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00075",
       "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0052",
       "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
       "timestamp": "01:44:29",
@@ -2170,14 +2391,45 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING, STARBASED framed as release. The transcript addresses we'll we'll get those kinds of reports and um and and then copy paste and and uh fix them as they come along. But I successfully launched the laser into Starbase. Uh that was super cool, man. But we'll get the the starting ribbon. I…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00071",
+      "candidate_id": "TIMELINE-CANDIDATE-00076",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0069",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "timestamp": "02:19:31",
+      "event_type": "PUBLIC_OR_LIMITED_TESTING",
+      "date_value": null,
+      "date_precision": "UNKNOWN",
+      "date_basis": "UNRESOLVED_SOURCE_METADATA",
+      "supporting_captions": [
+        {
+          "timestamp": "02:20:34",
+          "line": 6361,
+          "text": "C4 PTR to play with."
+        }
+      ],
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "concrete public or limited testing language",
+        "institutional concept or proposal identified",
+        "exact supporting caption"
+      ],
+      "research_gap_types": [
+        "EVENT_DATE_UNRESOLVED"
+      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "summary": "Discussion of C4 framed as discussion. The transcript addresses want to gather your feedback. We want to understand your feature requests. We want to make improvements alongside you on this product. And so this is your opportunity to get involved, to start playing, to learning the game, sharing your…",
+      "manual_review_required": true
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00077",
       "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0074",
       "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
       "timestamp": "02:25:23",
@@ -2200,14 +2452,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_UNRESOLVED",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GOVERNANCE, TECHNOLOGY framed as release. The transcript addresses not necessarily in the PTR but in the next stages maybe you could very quickly very briefly touch on this again to talk about some polless utility as well. Yeah and uh just to set context I mean Danny mentioned with the release of this…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00072",
+      "candidate_id": "TIMELINE-CANDIDATE-00078",
       "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0075",
       "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
       "timestamp": "02:26:34",
@@ -2229,14 +2482,15 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4, STARBASED framed as discussion. The transcript addresses tokens through um the lockers and through the marketplace discounts and things such as that. Um and so with the with C4 PTR rolling out, of course, we're going to focus a lot of energy on on fixing bugs and and getting it into a…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00073",
+      "candidate_id": "TIMELINE-CANDIDATE-00079",
       "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0079",
       "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
       "timestamp": "02:34:19",
@@ -2258,14 +2512,15 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as discussion. The transcript addresses effectively a 20% bonus. So, of the amount that you that you're spending. So, uh again, we'll release the details of that. Uh oh, last point on the cultivation claims is that they they don't have support in C4 yet. C4 doesn't even have…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00074",
+      "candidate_id": "TIMELINE-CANDIDATE-00080",
       "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0082",
       "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
       "timestamp": "02:39:04",
@@ -2287,14 +2542,45 @@
         "exact supporting caption"
       ],
       "research_gap_types": [
-        "EVENT_DATE_UNRESOLVED",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_UNRESOLVED"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as discussion. The transcript addresses zinc genesis event, the conclusion of the origin season campaign, everything else I've covered previously. So right now it's just um it's just there for you to view. However, the onchain program is fully working and so if you want to uh…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00075",
+      "candidate_id": "TIMELINE-CANDIDATE-00081",
+      "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0084",
+      "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
+      "timestamp": "02:41:32",
+      "event_type": "PUBLIC_OR_LIMITED_TESTING",
+      "date_value": null,
+      "date_precision": "UNKNOWN",
+      "date_basis": "UNRESOLVED_SOURCE_METADATA",
+      "supporting_captions": [
+        {
+          "timestamp": "02:41:59",
+          "line": 7337,
+          "text": "want to do is go into the C4 PTR."
+        }
+      ],
+      "timeline_confidence": "MEDIUM",
+      "timeline_reasons": [
+        "concrete public or limited testing language",
+        "institutional concept or proposal identified",
+        "exact supporting caption"
+      ],
+      "research_gap_types": [
+        "EVENT_DATE_UNRESOLVED"
+      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "summary": "Discussion of C4 framed as discussion. The transcript addresses is uh a great way to get that boost. And we certainly appreciate any of the financial support. Absolutely, Michael. Make sure to gouge new heights in the airrop by participating in the purchases and we'll see you guys there in the 64…",
+      "manual_review_required": true
+    },
+    {
+      "candidate_id": "TIMELINE-CANDIDATE-00082",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0011",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "00:15:05",
@@ -2309,7 +2595,7 @@
           "text": "the release. It is uh uh crafting habs,"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -2318,14 +2604,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of CRAFTING framed as release. The transcript addresses the expansion of this. It's uh it's council rank. So that is your progression XP and skill tree system. It's claim stakes and cultivation claims. You'll see the deprecation of faction claims in portal and the transition of full claim…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00076",
+      "candidate_id": "TIMELINE-CANDIDATE-00083",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "00:16:10",
@@ -2349,14 +2636,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as release. The transcript addresses uh a fun and rewarding experience and not a punishing experience. And so um I the team has done a tremendous job designing this out uh laying out the regions, laying out territories, but this is going to open up the door for people to…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00077",
+      "candidate_id": "TIMELINE-CANDIDATE-00084",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0043",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "01:21:33",
@@ -2371,7 +2659,7 @@
           "text": "release of uh C4. More on that release"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -2380,14 +2668,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as release. The transcript addresses you have there. It's meant to be like something you could spend a lot of time on designing out the perfect claim stake for all these things. Especially on the tier fives. Like there's going to be a ton of building slots on those that…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00078",
+      "candidate_id": "TIMELINE-CANDIDATE-00085",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0058",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "01:43:10",
@@ -2407,7 +2696,7 @@
           "text": "players uh on Atlas Net for C4 PTR. Uh"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete public or limited testing language",
         "canonical entity identified",
@@ -2415,14 +2704,15 @@
         "source date available at month precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4, STARBASED framed as discussion. The transcript addresses depends on how the play test goes. And from there, it will roll out as uh Sage. We're actually dropping the labs moniker from this once we get to C4. We think it's at a state of maturity that we've evolved beyond the labs uh denotation…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00079",
+      "candidate_id": "TIMELINE-CANDIDATE-00086",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0063",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "01:50:15",
@@ -2437,7 +2727,7 @@
           "text": "committee release start to really focus"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -2446,14 +2736,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as release. The transcript addresses has is significantly increased this year and we've we've opted for a more um higher cadence um frequent release schedule with the with the caveat that we do take some times and uh maybe extend the releases out a month or so farther out…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00080",
+      "candidate_id": "TIMELINE-CANDIDATE-00087",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0080",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "02:28:18",
@@ -2468,7 +2759,7 @@
           "text": "for the next major release of of that"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -2477,14 +2768,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of PRODUCT, GAMEPLAY, TECHNOLOGY framed as release. The transcript addresses that can attract potentially hundreds of millions of participants over time. Now, that's a very ambitious goal and something that would, you know, take quite a while to achieve, but how do we make progress towards that? And uh part of…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00081",
+      "candidate_id": "TIMELINE-CANDIDATE-00088",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0083",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "02:32:50",
@@ -2499,7 +2791,7 @@
           "text": "will be launched. And in uh in the same"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete release or deployment language",
         "canonical entity identified",
@@ -2508,14 +2800,15 @@
       ],
       "research_gap_types": [
         "EVENT_DATE_IMPRECISE",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as release, q and a. The transcript addresses able to leverage this platform as a way for us to introduce new mechanics and features and test that out for ourselves and gather feedback on that. Now, a lot of the systems that they're going to demo today on the call, I I am quite…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00082",
+      "candidate_id": "TIMELINE-CANDIDATE-00089",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0105",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "03:13:28",
@@ -2530,7 +2823,7 @@
           "text": "want to engage in C4 PTR, but um, at"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete public or limited testing language",
         "canonical entity identified",
@@ -2538,14 +2831,15 @@
         "source date available at month precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4 framed as discussion. The transcript addresses uh, in Unreal Engine and something that they could even do in their downtime. Again, I'm thinking uh to whatever extent there's any time in between matches um say in arena shooter, we've talked about this idea that you can very quickly…",
       "manual_review_required": true
     },
     {
-      "candidate_id": "TIMELINE-CANDIDATE-00083",
+      "candidate_id": "TIMELINE-CANDIDATE-00090",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0111",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "03:22:28",
@@ -2560,7 +2854,7 @@
           "text": "announce what that migration or"
         }
       ],
-      "timeline_confidence": "MEDIUM",
+      "timeline_confidence": "HIGH",
       "timeline_reasons": [
         "concrete migration language",
         "canonical entity identified",
@@ -2568,9 +2862,10 @@
         "source date available at month precision"
       ],
       "research_gap_types": [
-        "EVENT_DATE_IMPRECISE",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EVENT_DATE_IMPRECISE"
       ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "summary": "Discussion of C4, STARBASED framed as discussion. The transcript addresses course of this week and the next one as well. So if you either speak Spanish, Portuguese French um I think Turkish as well, Italian, there's probably a brew in your respective Discord uh chat, your Discord language community. So stay…",
       "manual_review_required": true
     }

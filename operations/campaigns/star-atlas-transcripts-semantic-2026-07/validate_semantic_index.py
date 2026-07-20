@@ -26,6 +26,9 @@ EXPECTED_ARTIFACTS = {
 ALLOWED_PREFIXES = (
     "archive/semantic/star-atlas-transcripts/",
     "operations/campaigns/star-atlas-transcripts-semantic-2026-07/",
+    "operations/ci/validate_repository.py",
+    "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
+    "archive/manifests/lore-repository-ingestion-2026-07.json",
 )
 
 
@@ -120,6 +123,8 @@ def main() -> None:
         if not set(segment["product_lifecycle"]) <= lifecycles: errors.append(f"uncontrolled lifecycle: {segment['segment_id']}")
         if not set(segment["evidence_classifications"]) <= evidence: errors.append(f"uncontrolled evidence: {segment['segment_id']}")
         if segment["speaker"] != "UNKNOWN" or segment["speaker_confidence"] != "UNKNOWN": errors.append(f"speaker inferred: {segment['segment_id']}")
+        if segment.get("speaker_dependency") not in {"NONE", "PARTIAL", "REQUIRED"}: errors.append(f"invalid speaker dependency: {segment['segment_id']}")
+        if segment.get("institutional_attribution") not in {"UNESTABLISHED", "CORROBORATED", "SOURCE_EXPLICIT"}: errors.append(f"invalid institutional attribution: {segment['segment_id']}")
         lifecycle_states = {item["state"] for item in segment["lifecycle_evidence"]}
         if lifecycle_states != set(segment["product_lifecycle"]): errors.append(f"lifecycle evidence mismatch: {segment['segment_id']}")
         for item in segment["lifecycle_evidence"]:
@@ -152,6 +157,7 @@ def main() -> None:
         if segment is None or segment["source_id"] != quote["source_id"]: errors.append(f"orphan quote: {quote['quote_id']}"); continue
         if quote["speaker"] != "UNKNOWN" or not quote["manual_review_required"]: errors.append(f"invalid quote attribution/review: {quote['quote_id']}")
         if quote["quote_confidence"] not in {"HIGH", "MEDIUM", "LOW"}: errors.append(f"invalid quote confidence: {quote['quote_id']}")
+        if quote.get("speaker_dependency") not in {"NONE", "PARTIAL", "REQUIRED"}: errors.append(f"invalid quote speaker dependency: {quote['quote_id']}")
         verify_caption(segment, {"timestamp": quote["timestamp"], "line": next(ref["line"] for ref in quote["quote_context"] if ref["timestamp"] == quote["timestamp"] and ref["text"] == quote["verbatim_quote"]), "text": quote["verbatim_quote"]}, "quote")
     checks["quotes_verbatim"] = len(quotes)
 
@@ -163,11 +169,13 @@ def main() -> None:
         segment = segment_map.get(candidate["segment_id"])
         if segment is None or segment["source_id"] != candidate["source_id"]: errors.append(f"orphan promotion candidate: {candidate['candidate_id']}"); continue
         if not candidate["supporting_captions"] or not candidate["candidate_reasons"] or candidate["candidate_confidence"] not in {"HIGH", "MEDIUM", "LOW"} or candidate["review_priority"] not in {"HIGH_PRIORITY", "MEDIUM_PRIORITY", "LOW_PRIORITY"}: errors.append(f"incomplete promotion evidence: {candidate['candidate_id']}")
+        if candidate.get("speaker_dependency") not in {"NONE", "PARTIAL", "REQUIRED"}: errors.append(f"invalid promotion speaker dependency: {candidate['candidate_id']}")
         for ref in candidate["supporting_captions"]: verify_caption(segment, ref, "promotion support")
     for candidate in timeline_candidates:
         segment = segment_map.get(candidate["segment_id"])
         if segment is None or segment["source_id"] != candidate["source_id"]: errors.append(f"orphan timeline candidate: {candidate['candidate_id']}"); continue
         if not candidate["supporting_captions"] or not candidate["date_basis"] or not candidate["event_type"] or candidate["timeline_confidence"] not in {"HIGH", "MEDIUM", "LOW"}: errors.append(f"incomplete timeline evidence: {candidate['candidate_id']}")
+        if candidate.get("speaker_dependency") not in {"NONE", "PARTIAL", "REQUIRED"}: errors.append(f"invalid timeline speaker dependency: {candidate['candidate_id']}")
         for ref in candidate["supporting_captions"]: verify_caption(segment, ref, "timeline support")
     checks.update({"promotion_candidates_reconciled": len(promotion_candidates), "timeline_candidates_reconciled": len(timeline_candidates), "every_promotion_candidate_has_support": not any("promotion evidence" in e or "promotion support" in e for e in errors), "every_timeline_candidate_has_support_and_date_basis": not any("timeline evidence" in e or "timeline support" in e for e in errors)})
 

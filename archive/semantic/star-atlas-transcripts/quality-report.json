@@ -18,75 +18,75 @@
     "segments": 1910,
     "canonical_entity_links": 1022,
     "unresolved_entity_references": 334,
-    "key_quotes": 41,
-    "timeline_candidates": 83,
-    "promotion_candidates": 76,
-    "promotion_exclusions": 1834,
-    "timeline_exclusions": 1827,
+    "key_quotes": 107,
+    "timeline_candidates": 90,
+    "promotion_candidates": 81,
+    "promotion_exclusions": 1829,
+    "timeline_exclusions": 1820,
     "duplicate_clusters": 3,
     "source_research_gaps": 36,
-    "candidate_research_gaps": 357
+    "candidate_research_gaps": 226
   },
   "confidence_distributions": {
     "promotion": {
-      "HIGH": 3,
-      "LOW": 26,
-      "MEDIUM": 47
+      "HIGH": 17,
+      "LOW": 8,
+      "MEDIUM": 56
     },
     "timeline": {
-      "HIGH": 1,
-      "MEDIUM": 82
+      "HIGH": 36,
+      "MEDIUM": 54
     },
     "quotes": {
-      "MEDIUM": 41
+      "MEDIUM": 107
     }
   },
   "promotion_priority_distribution": {
-    "HIGH_PRIORITY": 3,
-    "LOW_PRIORITY": 26,
-    "MEDIUM_PRIORITY": 47
+    "HIGH_PRIORITY": 17,
+    "LOW_PRIORITY": 8,
+    "MEDIUM_PRIORITY": 56
   },
   "exclusion_counts": {
     "promotion": {
-      "EVIDENCE_DENSITY_BELOW_THRESHOLD": 8,
+      "EVIDENCE_DENSITY_BELOW_THRESHOLD": 3,
       "GENERIC_DISCUSSION_OR_QUESTION": 10,
       "NO_DISCRETE_INSTITUTIONAL_CLAIM": 869,
       "NO_IDENTIFIABLE_INSTITUTIONAL_ENTITY_OR_OBJECT": 947
     },
     "timeline": {
-      "EVENT_EVIDENCE_DENSITY_BELOW_THRESHOLD": 8,
+      "EVENT_EVIDENCE_DENSITY_BELOW_THRESHOLD": 1,
       "NO_CONCRETE_EVENT_STATE_LANGUAGE": 1819
     }
   },
   "candidate_counts": {
     "promotion_by_collection": {
-      "dao": 4,
-      "economic-forum": 18,
-      "townhall": 54
+      "dao": 5,
+      "economic-forum": 19,
+      "townhall": 57
     },
     "promotion_by_topic": {
-      "COMMUNITY": 31,
-      "CORPORATE": 22,
-      "ECONOMY": 32,
-      "EVENT": 10,
-      "GAMEPLAY": 54,
-      "GOVERNANCE": 19,
+      "COMMUNITY": 35,
+      "CORPORATE": 25,
+      "ECONOMY": 35,
+      "EVENT": 11,
+      "GAMEPLAY": 57,
+      "GOVERNANCE": 22,
       "GUILD": 3,
       "LORE": 10,
       "MARKETING": 12,
-      "OPERATIONS": 12,
+      "OPERATIONS": 13,
       "PARTNERSHIP": 5,
       "PEOPLE": 2,
-      "PRODUCT": 56,
-      "TECHNOLOGY": 29
+      "PRODUCT": 58,
+      "TECHNOLOGY": 30
     },
     "promotion_by_statement_type": {
       "CLARIFICATION": 5,
       "COMMUNITY_FEEDBACK": 1,
       "CORRECTION": 4,
-      "Q_AND_A": 17,
-      "RELEASE": 50,
-      "RETROSPECTIVE": 9,
+      "Q_AND_A": 18,
+      "RELEASE": 53,
+      "RETROSPECTIVE": 11,
       "ROADMAP": 5,
       "SPECULATION": 1,
       "STATUS_UPDATE": 5,
@@ -110,7 +110,7 @@
     "timeline_by_collection": {
       "dao": 9,
       "economic-forum": 16,
-      "townhall": 58
+      "townhall": 65
     },
     "timeline_by_event_type": {
       "DEPRECATION": 6,
@@ -119,21 +119,41 @@
       "MIGRATION": 10,
       "ORGANIZATIONAL_CHANGE": 2,
       "PARTNERSHIP": 1,
-      "PUBLIC_OR_LIMITED_TESTING": 9,
-      "RELEASE_OR_DEPLOYMENT": 50,
+      "PUBLIC_OR_LIMITED_TESTING": 13,
+      "RELEASE_OR_DEPLOYMENT": 53,
       "TREASURY_OR_FUNDING_ACTION": 2
     }
   },
   "top_unresolved_research_gaps": {
-    "SPEAKER_ATTRIBUTION_MISSING": 159,
-    "OFFICIAL_CONFIRMATION_MISSING": 113,
-    "EVENT_DATE_UNRESOLVED": 44,
+    "OFFICIAL_CONFIRMATION_MISSING": 119,
+    "EVENT_DATE_UNRESOLVED": 51,
     "EVENT_DATE_IMPRECISE": 34,
-    "EXECUTION_EVIDENCE_MISSING": 4,
-    "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY": 3
+    "SPEAKER_ATTRIBUTION_MISSING": 12,
+    "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY": 6,
+    "EXECUTION_EVIDENCE_MISSING": 4
   },
   "speaker_attribution_confidence": {
     "UNKNOWN": 1910
+  },
+  "speaker_dependency_distribution": {
+    "NONE": 419,
+    "PARTIAL": 464,
+    "REQUIRED": 1027
+  },
+  "candidate_speaker_dependency_distributions": {
+    "promotion": {
+      "NONE": 70,
+      "PARTIAL": 7,
+      "REQUIRED": 4
+    },
+    "timeline": {
+      "NONE": 89,
+      "PARTIAL": 1
+    },
+    "quotes": {
+      "NONE": 106,
+      "PARTIAL": 1
+    }
   },
   "topic_counts": {
     "GAMEPLAY": 795,
@@ -175,13 +195,13 @@
     "UPDATED": 1
   },
   "evidence_counts": {
-    "CANONICAL_KNOWLEDGE": 76,
+    "CANONICAL_KNOWLEDGE": 81,
     "CONTRADICTION": 9,
     "ENTITY_UPDATE": 772,
     "GRAPH_RELATIONSHIP": 274,
-    "LOW_VALUE": 1787,
+    "LOW_VALUE": 1720,
     "RESEARCH_GAP": 1910,
-    "TIMELINE_EVENT": 83
+    "TIMELINE_EVENT": 90
   },
   "validation": {
     "source_ids_unique": true,
@@ -209,7 +229,7 @@
       {
         "path": "archive/semantic/star-atlas-transcripts/duplicate-clusters.json",
         "size_bytes": 1966,
-        "sha256": "4248da05a570901f7333ada6548588b6f903ce67f23a24b8159b4850348a6939"
+        "sha256": "61d47bd1452526ee7b7a8f623040a10a3b577cb75cc62148c641b089be69af46"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/entity-links.json",
@@ -218,28 +238,28 @@
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/promotion-candidate-decisions.json",
-        "size_bytes": 1970946,
-        "sha256": "88b49ddb27903bb60ff81ccbc5e48632648db6d23eec19fa1a1ba3dd5b01c1e7"
+        "size_bytes": 2098363,
+        "sha256": "f2ba77b9e96b474363b8685376df09b5ce66201d3cb4a9004a2a18e9582b0383"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/promotion-candidates.json",
-        "size_bytes": 165449,
-        "sha256": "b842f558e27f676435505004acda7c01ddb57907d2d58869a13742fe9179e0ae"
+        "size_bytes": 178267,
+        "sha256": "932ef88234879c4c99f543f3ab3f359735b38ddc9a0963c0df89fbc544b9a2b6"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/quote-index.json",
-        "size_bytes": 45466,
-        "sha256": "ae1f96383466ff177029a128e282337d2b79306919a57f6361114d62a0ce6a3e"
+        "size_bytes": 127418,
+        "sha256": "ff2171e3b0896a0bb8c8791d846e81d47d3f4a9d79d1ac774025c386715597a8"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/research-gaps.json",
-        "size_bytes": 106711,
-        "sha256": "7da07bea465b1bf60f90349946907925c04bb21f360d9169ce6068610d2593b2"
+        "size_bytes": 71830,
+        "sha256": "dd930e6bf0cb4ab032262065a164fa8387450bafb47a4a160d61a4f3890c1a17"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/segment-index.json",
-        "size_bytes": 6701555,
-        "sha256": "e8c0be6332b6dd193b8cd1595f4e1483bed9665c5b3275c6531248299b5cc836"
+        "size_bytes": 7068628,
+        "sha256": "a7557c0a33d4002129f44b680b18f4681b4217be2712866f194332a23a92ab60"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/source-index.json",
@@ -248,13 +268,13 @@
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/timeline-candidate-decisions.json",
-        "size_bytes": 1388592,
-        "sha256": "9591cea90c7e99c99e3134236ba198ac6e7f4b32ad2440fc2c1ca2061451816d"
+        "size_bytes": 1545538,
+        "sha256": "3a071f9ffbddf03e470f2621a0109dc3ecea478628658b20df97c50435b55afb"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/timeline-candidates.json",
-        "size_bytes": 109687,
-        "sha256": "b7fa0ca337559bb603bc45276f84ff12458ffbc8d0afb49475b4861c65db673f"
+        "size_bytes": 123095,
+        "sha256": "34e2041bf6cbbd3643e02e5378350222eab37c5a2fe434c8df9fd8a7da5e1da1"
       },
       {
         "path": "archive/semantic/star-atlas-transcripts/topic-index.json",

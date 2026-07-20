@@ -17,9 +17,9 @@ Status: **PASS**
 - `no_speaker_identity_inferred`: True
 - `entity_link_records_reconciled`: 1910
 - `canonical_entity_ids_registered`: True
-- `quotes_verbatim`: 41
-- `promotion_candidates_reconciled`: 76
-- `timeline_candidates_reconciled`: 83
+- `quotes_verbatim`: 107
+- `promotion_candidates_reconciled`: 81
+- `timeline_candidates_reconciled`: 90
 - `every_promotion_candidate_has_support`: True
 - `every_timeline_candidate_has_support_and_date_basis`: True
 - `promotion_decisions_reconciled`: 1910
@@ -29,7 +29,7 @@ Status: **PASS**
 - `duplicate_clusters_reconciled`: 3
 - `clustered_candidates`: 6
 - `research_gap_sources_reconciled`: 36
-- `candidate_research_gaps_typed`: 357
+- `candidate_research_gaps_typed`: 226
 - `quality_manifest_checksums_match`: True
 - `generator_deterministic`: True
 - `python_sources_compile`: True

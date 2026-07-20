@@ -105,6 +105,14 @@ ROADMAP_RE = re.compile(r"\b(roadmap|planned? to|scheduled to|targeting (?:q[1-4
 RELEASE_RE = re.compile(r"\b(released?|launched?|shipped?|live now|went live|available (?:now|to everyone|on mainnet)|deployed? (?:to|on) (?:mainnet|production)|public release)\b", re.I)
 TESTING_RE = re.compile(r"\b(public test|private test|test build|testing (?:on|in|with)|ptr|alpha test|beta test|stress test|limited access|early access)\b", re.I)
 SPECULATION_RE = re.compile(r"\b(maybe|might|probably|possibly|i think|we think|could (?:be|become|change|cause|mean|lead|affect|impact|release|launch|ship))\b", re.I)
+SPEAKER_REQUIRED_RE = re.compile(
+    r"\b(i (?:think|believe|confirm|promise|decided)|in my opinion|my (?:role|view|decision|responsibility))\b",
+    re.I,
+)
+SPEAKER_PARTIAL_RE = re.compile(
+    r"\b(we (?:will|are|have|decided|plan|intend|expect|believe|think|confirm)|our (?:plan|decision|position|team|roadmap|goal))\b",
+    re.I,
+)
 TECHNICAL_RE = re.compile(r"\b(api|rpc|sdk|smart contract|program id|architecture|server|database|transaction|solana|unreal engine|mainnet|testnet)\b", re.I)
 EXPLANATION_RE = re.compile(r"\b(works? by|how .* works?|means that|because|the system|the process|technically|architecture|calculated|computed|stored|executed)\b", re.I)
 
@@ -357,6 +365,23 @@ def confidence_for(score: int, supporting_count: int, ambiguous: bool) -> str:
     return "LOW"
 
 
+def speaker_dependency_for(text: str) -> str:
+    """Return whether a claim's evidentiary force depends on knowing the speaker.
+
+    Unknown attribution is not a general quality defect. It matters when the
+    statement is a personal assertion or an unattributed institutional position.
+    """
+    if SPEAKER_REQUIRED_RE.search(text):
+        return "REQUIRED"
+    if SPEAKER_PARTIAL_RE.search(text):
+        return "PARTIAL"
+    return "NONE"
+
+
+def speaker_dependency_penalty(dependency: str) -> int:
+    return 1 if dependency in {"PARTIAL", "REQUIRED"} else 0
+
+
 def is_promotion_candidate(segment: dict[str, object], group: list[dict[str, object]], links: list[dict[str, object]], unresolved: list[str], statement_evidence: dict[str, list[dict[str, object]]], record: dict[str, object]) -> dict[str, object]:
     statements = set(segment["statement_classifications"])
     strong = statements & {"ANNOUNCEMENT", "STATUS_UPDATE", "ROADMAP", "RELEASE", "TECHNICAL_EXPLANATION", "CORRECTION", "RETROSPECTIVE"}
@@ -372,7 +397,8 @@ def is_promotion_candidate(segment: dict[str, object], group: list[dict[str, obj
     if len(supporting) >= 2: score += 1; reasons.append("multiple exact supporting captions")
     if len(segment["entity_ids"]) > 1 or "PARTNERSHIP" in segment["topic_tags"]: score += 1; reasons.append("identifiable entity relationship")
     if record.get("publication_date"): score += 1; reasons.append("source carries date metadata")
-    score -= 1  # speaker is intentionally unknown
+    dependency = speaker_dependency_for(" ".join(str(item["text"]) for item in supporting)) if supporting else str(segment["speaker_dependency"])
+    score -= speaker_dependency_penalty(dependency)
     ambiguous = transcript_ambiguity(" ".join(str(item["text"]) for item in group))
     if ambiguous: score -= 1
     filler_ratio = sum(bool(FILLER_RE.match(str(item["text"]).strip())) for item in group) / len(group)
@@ -400,7 +426,7 @@ def is_promotion_candidate(segment: dict[str, object], group: list[dict[str, obj
         disposition = "MEDIUM_PRIORITY"
     else:
         disposition = "LOW_PRIORITY"
-    gaps = ["SPEAKER_ATTRIBUTION_MISSING"]
+    gaps = ["SPEAKER_ATTRIBUTION_MISSING"] if dependency != "NONE" else []
     if ambiguous: gaps.append("TRANSCRIPT_RECOGNITION_UNCERTAINTY")
     if unresolved and not links: gaps.append("AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY")
     if statements & {"ROADMAP", "RELEASE", "STATUS_UPDATE"}: gaps.append("OFFICIAL_CONFIRMATION_MISSING")
@@ -410,6 +436,8 @@ def is_promotion_candidate(segment: dict[str, object], group: list[dict[str, obj
         "candidate_confidence": confidence_for(score, len(supporting), ambiguous),
         "candidate_reasons": reasons, "supporting_captions": supporting,
         "exclusion_reason": exclusion, "review_priority": disposition,
+        "speaker_dependency": dependency,
+        "institutional_attribution": segment["institutional_attribution"],
         "research_gap_types": sorted(set(gaps)),
     }
 
@@ -458,7 +486,8 @@ def is_timeline_candidate(segment: dict[str, object], group: list[dict[str, obje
     if supporting: score += 1; reasons.append("exact supporting caption")
     if date_value: score += 1; reasons.append(f"source date available at {date_precision.lower()} precision")
     if any(NUMBER_RE.search(str(item["text"])) for item in supporting): score += 1; reasons.append("event caption includes a date, metric, or quantity")
-    score -= 1  # unknown speaker
+    dependency = speaker_dependency_for(" ".join(str(item["text"]) for item in supporting)) if supporting else str(segment["speaker_dependency"])
+    score -= speaker_dependency_penalty(dependency)
     exclusion = None
     if not event_type: exclusion = "NO_CONCRETE_EVENT_STATE_LANGUAGE"
     elif not labels: exclusion = "NO_IDENTIFIABLE_EVENT_ENTITY_OR_SYSTEM"
@@ -466,7 +495,7 @@ def is_timeline_candidate(segment: dict[str, object], group: list[dict[str, obje
     elif score < 4: exclusion = "EVENT_EVIDENCE_DENSITY_BELOW_THRESHOLD"
     eligible = exclusion is None
     confidence = "HIGH" if score >= 6 and date_value else ("MEDIUM" if score >= 4 else "LOW")
-    gaps = ["SPEAKER_ATTRIBUTION_MISSING"]
+    gaps = ["SPEAKER_ATTRIBUTION_MISSING"] if dependency != "NONE" else []
     if not date_value: gaps.append("EVENT_DATE_UNRESOLVED")
     elif date_precision != "DAY": gaps.append("EVENT_DATE_IMPRECISE")
     if event_type in {"RELEASE_OR_DEPLOYMENT", "GOVERNANCE_VOTE", "TREASURY_OR_FUNDING_ACTION"}: gaps.append("OFFICIAL_CONFIRMATION_MISSING")
@@ -475,6 +504,8 @@ def is_timeline_candidate(segment: dict[str, object], group: list[dict[str, obje
         "date_precision": date_precision, "date_basis": date_basis,
         "supporting_captions": supporting[:5], "timeline_confidence": confidence,
         "timeline_reasons": reasons, "score": score, "exclusion_reason": exclusion,
+        "speaker_dependency": dependency,
+        "institutional_attribution": segment["institutional_attribution"],
         "research_gap_types": sorted(set(gaps)),
     }
 
@@ -508,20 +539,29 @@ def is_quote_candidate(segment: dict[str, object], group: list[dict[str, object]
         if 12 <= word_count <= 40: score += 1
         if ACTION_RE.search(line) or EXPLANATION_RE.search(line): score += 1
         ambiguous = transcript_ambiguity(line)
-        score -= 1  # speaker unknown
+        dependency = speaker_dependency_for(line)
+        score -= speaker_dependency_penalty(dependency)
         if ambiguous: score -= 1
-        candidate = (score, -int(caption["line"]), category, caption, ambiguous)
+        candidate = (score, -int(caption["line"]), category, caption, ambiguous, dependency)
         if best is None or candidate[:2] > best[:2]:
             best = candidate
     if best is None:
-        return {"eligible": False, "score": 0, "quote_category": None, "quote_confidence": "LOW", "supporting_caption": None, "candidate_reasons": [], "exclusion_reason": "NO_CONCISE_INSTITUTIONAL_QUOTE"}
-    score, _, category, caption, ambiguous = best
+        return {
+            "eligible": False, "score": 0, "quote_category": None,
+            "quote_confidence": "LOW", "supporting_caption": None,
+            "candidate_reasons": [], "speaker_dependency": "NONE",
+            "institutional_attribution": "UNESTABLISHED",
+            "exclusion_reason": "NO_CONCISE_INSTITUTIONAL_QUOTE",
+        }
+    score, _, category, caption, ambiguous, dependency = best
     eligible = score >= 4
     return {
         "eligible": eligible, "score": score, "quote_category": category,
         "quote_confidence": "HIGH" if score >= 6 and not ambiguous else ("MEDIUM" if score >= 4 else "LOW"),
         "supporting_caption": caption_reference(caption),
         "candidate_reasons": [f"explicit {category.lower().replace('_', ' ')} statement", "identifiable institutional object in local context", "complete verbatim caption"],
+        "speaker_dependency": dependency,
+        "institutional_attribution": "UNESTABLISHED",
         "exclusion_reason": None if eligible else "QUOTE_EVIDENCE_DENSITY_BELOW_THRESHOLD",
     }
 
@@ -694,7 +734,10 @@ def main() -> None:
                 "segment_id": segment_id, "recording_id": f"RECORDING-{source_id.removeprefix('SRC-')}",
                 "source_id": source_id, "collection": collection, "publication_date": record.get("publication_date"),
                 "start_timestamp": group[0]["timestamp"], "end_timestamp": group[-1]["timestamp"],
-                "speaker": "UNKNOWN", "speaker_confidence": "UNKNOWN", "participants": [], "duration": duration,
+                "speaker": "UNKNOWN", "speaker_confidence": "UNKNOWN",
+                "speaker_dependency": speaker_dependency_for(text),
+                "institutional_attribution": "UNESTABLISHED",
+                "participants": [], "duration": duration,
                 "summary": summarize(text, topics, statements, concepts), "topic_tags": topics,
                 "concept_tags": concepts, "statement_classifications": statements,
                 "statement_evidence": statement_evidence, "product_lifecycle": lifecycle,
@@ -722,6 +765,8 @@ def main() -> None:
                     "supporting_captions": promotion["supporting_captions"],
                     "candidate_confidence": promotion["candidate_confidence"],
                     "candidate_reasons": promotion["candidate_reasons"], "review_priority": promotion["review_priority"],
+                    "speaker_dependency": promotion["speaker_dependency"],
+                    "institutional_attribution": promotion["institutional_attribution"],
                     "research_gap_types": promotion["research_gap_types"], "promotion_status": "PROPOSED_ONLY",
                     "manual_review_required": True, "duplicate_cluster_id": None, "strongest_candidate_id": None, "duplicate_reason": None,
                 })
@@ -740,6 +785,8 @@ def main() -> None:
                     "date_value": timeline["date_value"], "date_precision": timeline["date_precision"], "date_basis": timeline["date_basis"],
                     "supporting_captions": timeline["supporting_captions"], "timeline_confidence": timeline["timeline_confidence"],
                     "timeline_reasons": timeline["timeline_reasons"], "research_gap_types": timeline["research_gap_types"],
+                    "speaker_dependency": timeline["speaker_dependency"],
+                    "institutional_attribution": timeline["institutional_attribution"],
                     "summary": segment["summary"], "manual_review_required": True,
                 })
                 for gap_type in timeline["research_gap_types"]:
@@ -757,6 +804,8 @@ def main() -> None:
                     "timestamp": ref["timestamp"], "speaker": "UNKNOWN", "verbatim_quote": ref["text"],
                     "quote_context": context, "quote_category": quote_decision["quote_category"],
                     "quote_confidence": quote_decision["quote_confidence"], "candidate_reasons": quote_decision["candidate_reasons"],
+                    "speaker_dependency": quote_decision["speaker_dependency"],
+                    "institutional_attribution": quote_decision["institutional_attribution"],
                     "flag": "KEY_QUOTE", "manual_review_required": True,
                 })
             segment["candidate_decisions"] = {
@@ -808,6 +857,7 @@ def main() -> None:
     promotion_exclusions = Counter(str(d["exclusion_reason"]) for d in promotion_decisions if not d["eligible"])
     timeline_exclusions = Counter(str(d["exclusion_reason"]) for d in timeline_decisions if not d["eligible"])
     gap_counts = Counter(record["gap_type"] for record in candidate_gap_records)
+    speaker_dependency_counts = Counter(str(segment["speaker_dependency"]) for segment in all_segments)
 
     common = {"campaign_id": CAMPAIGN_ID, "schema_version": SCHEMA_VERSION, "generated_from": INPUT_ROOT.relative_to(ROOT).as_posix()}
     write_json("collection-index.json", {**common, "collection_count": len(collection_sources), "collections": [{"collection": name, "source_count": len(ids), "source_ids": ids} for name, ids in sorted(collection_sources.items())]})
@@ -844,7 +894,14 @@ def main() -> None:
             "timeline_by_event_type": dict(sorted(Counter(str(c["event_type"]) for c in timeline_candidates).items())),
         },
         "top_unresolved_research_gaps": dict(gap_counts.most_common(10)),
-        "speaker_attribution_confidence": {"UNKNOWN": len(all_segments)}, "topic_counts": dict(topic_counts),
+        "speaker_attribution_confidence": {"UNKNOWN": len(all_segments)},
+        "speaker_dependency_distribution": dict(sorted(speaker_dependency_counts.items())),
+        "candidate_speaker_dependency_distributions": {
+            "promotion": dict(sorted(Counter(str(item["speaker_dependency"]) for item in promotion_candidates).items())),
+            "timeline": dict(sorted(Counter(str(item["speaker_dependency"]) for item in timeline_candidates).items())),
+            "quotes": dict(sorted(Counter(str(item["speaker_dependency"]) for item in quotes).items())),
+        },
+        "topic_counts": dict(topic_counts),
         "statement_counts": dict(sorted(statement_counts.items())), "lifecycle_counts": dict(sorted(lifecycle_counts.items())), "evidence_counts": dict(sorted(evidence_counts.items())),
         "validation": {"source_ids_unique": len({s["source_id"] for s in source_index}) == len(source_index), "segment_ids_unique": len({s["segment_id"] for s in all_segments}) == len(all_segments), "caption_lines_reconcile": sum(s["transcript_reference"]["caption_lines"] for s in all_segments) == sum(s["caption_lines"] for s in source_index), "all_promotion_candidates_have_support": all(c["supporting_captions"] for c in promotion_candidates), "all_timeline_candidates_have_support_and_date_basis": all(c["supporting_captions"] and c["date_basis"] for c in timeline_candidates), "all_exclusions_record_reasons": all(d["eligible"] or d["exclusion_reason"] for d in promotion_decisions + timeline_decisions), "speaker_identity_not_inferred": all(s["speaker"] == "UNKNOWN" for s in all_segments), "canonical_layers_untouched": True},
         "manifest": {"artifact_count_excluding_quality_report": len(artifacts), "artifacts": artifacts, "note": "quality-report.json is the manifest container and is excluded from its own checksum list."},
@@ -862,6 +919,7 @@ def main() -> None:
         "previous_key_quotes": 526, "key_quotes": len(quotes), "duplicate_clusters": len(duplicate_clusters),
         "promotion_confidence": dict(sorted(promotion_confidence.items())), "timeline_confidence": dict(sorted(timeline_confidence.items())),
         "quote_confidence": dict(sorted(quote_confidence.items())), "promotion_priorities": dict(sorted(promotion_priority.items())),
+        "speaker_dependency_distribution": dict(sorted(speaker_dependency_counts.items())),
         "canonical_entity_links": entity_link_count, "unresolved_entity_references": unresolved_count,
         "semantic_artifacts": len(list(OUTPUT_ROOT.glob("*.json"))), "semantic_artifact_bytes": semantic_bytes,
         "knowledge_promotions": 0, "graph_modifications": 0, "publication_modifications": 0,
@@ -869,7 +927,7 @@ def main() -> None:
     write_ops_json("campaign-summary.json", summary)
     (OPS_ROOT / "campaign-summary.md").write_text(
         "# Star Atlas Transcript Semantic Enrichment — Revised\n\n"
-        "PR #12 now separates lexical tag detection from promotion, timeline, and quote eligibility while preserving all 1,910 semantic segments and all 78,752 caption assignments.\n\n"
+        "This revision preserves the separation between lexical tags and candidate eligibility, and replaces the blanket unknown-speaker penalty with claim-specific speaker dependency while retaining all 1,910 semantic segments and all 78,752 caption assignments.\n\n"
         f"- Promotion candidates: **1,909 → {len(promotion_candidates)}** ({len(promotion_decisions) - len(promotion_candidates)} excluded with recorded reasons)\n"
         f"- Timeline candidates: **1,590 → {len(timeline_candidates)}** ({len(timeline_decisions) - len(timeline_candidates)} excluded with recorded reasons)\n"
         f"- Quote candidates: **526 → {len(quotes)}**\n"
@@ -877,6 +935,7 @@ def main() -> None:
         f"- Promotion confidence: {dict(sorted(promotion_confidence.items()))}\n"
         f"- Timeline confidence: {dict(sorted(timeline_confidence.items()))}\n"
         f"- Quote confidence: {dict(sorted(quote_confidence.items()))}\n\n"
+        f"- Speaker dependency: {dict(sorted(speaker_dependency_counts.items()))}\n\n"
         "Every retained candidate includes exact caption references, deterministic reasons, confidence, and manual-review status. Excluded promotion and timeline decisions remain auditable. PR #11 is merged; this branch is based on current `main`. No archive evidence or canonical layers were modified.\n",
         encoding="utf-8",
     )
