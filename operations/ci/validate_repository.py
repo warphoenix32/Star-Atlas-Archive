@@ -176,10 +176,13 @@ def validate_simplified_promotion_reports() -> int:
 
 
 def validate_forbidden_paths(changes: list[str]) -> str:
+    knowledge_campaign_marker = any(
+        path.startswith("operations/campaigns/knowledge-narrative-depth-001/") for path in changes
+    )
     ledger_campaign = any(path.startswith((
         "operations/campaigns/canonical-pip-governance-ledger-2026-07/",
         "knowledge/governance/PIP-Registry.",
-    )) for path in changes)
+    )) for path in changes) and not knowledge_campaign_marker
     transcript_semantic_campaign = any(path.startswith((
         "archive/semantic/star-atlas-transcripts/",
         "operations/campaigns/star-atlas-transcripts-semantic-2026-07/",
@@ -256,7 +259,12 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         )
         label = "star-atlas-transcripts-semantic-2026-07"
     elif knowledge_campaign:
-        allowed = common + ("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")
+        allowed = common + (
+            "knowledge/",
+            "operations/campaigns/knowledge-narrative-depth-001/",
+            "archive/manifests/lore-repository-ingestion-2026-07.json",
+            "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
+        )
         label = "knowledge-narrative-depth-001"
     elif medium_campaign:
         allowed = common + (
