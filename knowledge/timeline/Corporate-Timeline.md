@@ -1,5 +1,21 @@
 ---
-title: Star Atlas Corporate Timeline
+title: "Star Atlas Corporate Timeline"
+seo_title: "Star Atlas Corporate Timeline: Financing and Partnerships"
+seo_description: "An evidence-qualified chronology of Star Atlas financing, partnerships, restructuring, acquisitions, and unresolved corporate outcomes."
+knowledge_status: QUALIFIED
+as_of: 2026-07-20
+confidence: MEDIUM
+page_risk_score: 7
+page_risk_class: R3
+evidence_basis:
+  - "archive/source-records/campaign-delta-official/"
+  - "archive/source-records/campaign-alpha-aephia/"
+  - "archive/source-records/campaign-charlie-hnn/"
+known_limitations:
+  - "Announcements establish publisher claims and timing, not delivered partnership outcomes or complete transaction terms."
+research_gaps:
+  - "Acquire corporate filings, transaction documents, staffing records, financing terms, and partnership outcome evidence."
+review_after: 2027-01-20
 entry_type: chronology
 status: active
 updated: 2026-07-14
@@ -69,3 +85,7 @@ This chronology records ATMTA funding, partnerships, staffing changes, acquisiti
 - Primary-source staffing counts before and after the July 2023 restructuring.
 - Transaction documents, assets acquired, and integration outcomes for Multichain Ventures.
 - End dates and delivered outcomes for Sperasoft, iBUYPOWER, MoonPay, Hello Moon, and other partnerships.
+
+## Review status
+
+`QUALIFIED`, risk class `R3`, last reviewed 2026-07-20. Use attributed language for corporate claims and do not infer partnership success, staffing totals, or transaction completion beyond the cited record.

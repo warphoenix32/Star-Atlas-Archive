@@ -1,5 +1,20 @@
 ---
-title: Star Atlas Lore Publication Timeline
+title: "Star Atlas Lore Publication Timeline"
+seo_title: "Star Atlas Lore Publication Timeline"
+seo_description: "A chronological guide to Star Atlas lore publications, Atlas Star issues, CORE, Never Alone, and unresolved canon-publication history."
+knowledge_status: HISTORICAL
+as_of: 2026-07-20
+confidence: MEDIUM
+page_risk_score: 6
+page_risk_class: R2
+evidence_basis:
+  - "archive/source-records/campaign-delta-official/"
+  - "archive/source-records/lore-repository/"
+known_limitations:
+  - "This is a publication timeline, not an in-universe chronology, and later taxonomy does not rewrite historical source titles."
+research_gaps:
+  - "Recover missing issues, chapters, mission texts, publication dates, revisions, and explicit canon guidance."
+review_after: 2027-01-20
 entry_type: chronology
 status: active
 updated: 2026-07-14
@@ -127,3 +142,7 @@ This page records publication history only. Inclusion does not interpret canon, 
 - Complete publication sequence for Never Alone missions and associated official lore text.
 - Publication chronology for manufacturers, ship dossiers, faction documents, and later Lore Keepers material.
 - Canon status of official marketing narratives versus designated canonical story publications.
+
+## Review status
+
+`HISTORICAL`, last reviewed 2026-07-20. Publication order is preserved separately from in-universe sequence and current preferred lore taxonomy.

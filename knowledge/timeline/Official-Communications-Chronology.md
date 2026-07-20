@@ -1,7 +1,9 @@
 ---
 title: "Official Communications Chronology"
+seo_title: "Star Atlas Official Communications History"
+seo_description: "A history of Star Atlas official communication channels, their preserved coverage, authority boundaries, and major archival gaps."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: HIGH
 page_risk_score: 5
 page_risk_class: R2

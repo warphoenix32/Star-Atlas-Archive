@@ -1,11 +1,13 @@
 ---
 title: Star Atlas Product Timeline
+seo_title: "Star Atlas Product Timeline: Releases, Tests and Updates"
+seo_description: "A source-linked chronology of Star Atlas product announcements, tests, releases, updates, transitions, and unresolved roadmap milestones."
 entry_type: chronology
 status: active
 updated: 2026-07-17
 publication_status: public
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: HIGH
 page_risk_score: 6
 page_risk_class: R2
@@ -160,3 +162,7 @@ This chronology separates product announcements, roadmap statements, releases, r
 - Whether Fleet Command, Holosim, and C4 share code or naming lineage beyond public positioning.
 - Exact retirement date and final state of Faction Fleet rewards.
 - Production/mainnet release evidence for C4 after the June 2026 PTR.
+
+## Review status
+
+`QUALIFIED`, last reviewed 2026-07-20. Product-family labels are not used to collapse build-specific release, test, update, or deprecation states.

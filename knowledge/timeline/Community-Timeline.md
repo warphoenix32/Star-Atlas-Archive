@@ -1,5 +1,21 @@
 ---
-title: Star Atlas Community Timeline
+title: "Star Atlas Community Timeline"
+seo_title: "Star Atlas Community Timeline: Guilds, Media and Events"
+seo_description: "A source-linked chronology of Star Atlas community publications, guild milestones, creator programs, competitions, and archival gaps."
+knowledge_status: QUALIFIED
+as_of: 2026-07-20
+confidence: MEDIUM
+page_risk_score: 6
+page_risk_class: R2
+evidence_basis:
+  - "archive/source-records/campaign-alpha-aephia/"
+  - "archive/source-records/campaign-bravo-intergalactic-herald/"
+  - "archive/source-records/campaign-charlie-hnn/"
+known_limitations:
+  - "Surviving community publications are incomplete and may report events retrospectively."
+research_gaps:
+  - "Recover primary formation, event, election, competition, merger, and closure records for major community institutions."
+review_after: 2027-01-20
 entry_type: chronology
 status: active
 updated: 2026-07-14
@@ -107,3 +123,7 @@ This chronology tracks publications, guilds, competitions, conferences, and comm
 - Formation, mergers, closures, and membership histories for major guilds and DACs.
 - Primary records for tournaments, conferences, awards, and creator programs absent from the normalized inventory.
 - Whether gaps in HNN publishing reflect closure, migration, or incomplete archive recovery.
+
+## Review status
+
+`QUALIFIED`, last reviewed 2026-07-20. Dates are strongest where a preserved publication directly records the event; institutional origins and later continuity remain incomplete.

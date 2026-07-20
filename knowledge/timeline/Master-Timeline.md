@@ -1,11 +1,13 @@
 ---
 title: Star Atlas Master Timeline
+seo_title: "Star Atlas Master Timeline: 2021-2026"
+seo_description: "A selective, evidence-qualified chronology of major Star Atlas product, governance, corporate, community, lore, and technology milestones."
 entry_type: chronology
 status: active
 updated: 2026-07-17
 publication_status: public
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: HIGH
 page_risk_score: 6
 page_risk_class: R2
@@ -186,3 +188,7 @@ This is the selective canonical chronology of the project's major product, gover
 - Primary corporate records for layoffs, runway, acquisitions, and later financing.
 - Complete CORE, *Atlas Star*, Never Alone, and later official lore-publication sequences.
 - Guild formation, merger, closure, competition, and conference history beyond the surviving articles.
+
+## Review status
+
+`QUALIFIED`, last reviewed 2026-07-20. The master chronology is selective; domain timelines preserve additional detail and unresolved dates.

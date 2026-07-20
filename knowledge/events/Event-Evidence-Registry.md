@@ -1,7 +1,9 @@
 ---
 title: "Event Evidence Registry"
+seo_title: "Star Atlas Event Evidence Registry"
+seo_description: "A source-linked registry distinguishing Star Atlas event announcements, schedules, occurrence evidence, recordings, results, and unresolved cases."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 6
 page_risk_class: R2
@@ -20,6 +22,8 @@ review_after: 2027-01-17
 # Event Evidence Registry
 
 This registry records events for which the archive can distinguish identity, announcement, occurrence, recording, and result. It avoids turning a scheduled event into an occurrence or a recording title into a complete historical record.
+
+It is intentionally conservative. Each case records the strongest supported stage and leaves the next missing artifact visible, allowing future evidence to advance an event without silently rewriting earlier uncertainty.
 
 ## Evidence-state model
 

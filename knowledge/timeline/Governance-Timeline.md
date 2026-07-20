@@ -1,5 +1,21 @@
 ---
-title: Star Atlas Governance Timeline
+title: "Star Atlas Governance Timeline"
+seo_title: "Star Atlas Governance Timeline: DAO, PIPs and Elections"
+seo_description: "A source-linked chronology of Star Atlas DAO formation, PIPs, votes, Council elections, treasury authorizations, and implementation gaps."
+knowledge_status: QUALIFIED
+as_of: 2026-07-20
+confidence: HIGH
+page_risk_score: 6
+page_risk_class: R2
+evidence_basis:
+  - "knowledge/governance/PIP-Registry.json"
+  - "archive/source-records/campaign-delta-official/"
+  - "archive/normalized/governance-votes/pip-33/"
+known_limitations:
+  - "Passage, authorization, implementation, payment, and independent verification remain separate states."
+research_gaps:
+  - "Complete ballot, execution, officeholder, and treasury evidence for unresolved PIPs and elections."
+review_after: 2027-01-20
 entry_type: chronology
 status: active
 updated: 2026-07-14
@@ -93,3 +109,7 @@ This page distinguishes governance design, platform release, proposals, delibera
 - Date, membership, election result, and authority of any constituted DAO Council.
 - Treasury transaction evidence for approved reimbursements or grants.
 - Whether early community proposals were incorporated into later numbered PIPs.
+
+## Review status
+
+`QUALIFIED`, last reviewed 2026-07-20. The chronology preserves governance stages rather than using passage as proof of implementation or payment.

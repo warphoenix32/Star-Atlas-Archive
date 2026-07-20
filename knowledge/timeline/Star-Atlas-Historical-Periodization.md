@@ -1,7 +1,9 @@
 ---
 title: "Star Atlas Historical Periodization"
+seo_title: "Star Atlas Historical Periods: 2021-2026"
+seo_description: "An evidence-qualified periodization of Star Atlas history, from market formation and early products through formal governance, Starbased, Holosim, and C4 testing."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 7
 page_risk_class: R3
