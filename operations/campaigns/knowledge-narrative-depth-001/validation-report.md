@@ -12,7 +12,7 @@
 - **PASS — evidence_references:** all packet source paths resolve
 - **PASS — internal_links:** 14 changed knowledge files checked
 - **PASS — risk_portfolio:** R1/R2=12/17 (70.6%); R3=5 (29.4%); R4/R5=0
-- **PASS — repository_scope:** archive, graph, and publication untouched
+- **PASS — repository_scope:** archive evidence, graph, and publication untouched; integration manifest changes allowed
 - **PASS — semantic_boundaries:** required state distinctions preserved
 - **PASS — git_diff_check:** clean
 - **PASS — campaign_scripts_compile:** 8 campaign scripts compiled
