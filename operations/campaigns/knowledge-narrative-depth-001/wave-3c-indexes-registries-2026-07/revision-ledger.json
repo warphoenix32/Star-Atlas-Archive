@@ -1,0 +1,58 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3c-indexes-registries-2026-07",
+  "accepted": 7,
+  "deferred": 0,
+  "duplicate": 0,
+  "rejected": 0,
+  "records": [
+    {
+      "page_id": "KNOW-0CA033E571F5E1CA",
+      "path": "knowledge/index/Entity-Registry.md",
+      "disposition": "ACCEPTED",
+      "reason": "Stable identity without broad lifecycle collapse.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-C192B14468A84F57",
+      "path": "knowledge/index/README.md",
+      "disposition": "ACCEPTED",
+      "reason": "Human-first index-domain navigation.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-5BB0309E2211D244",
+      "path": "knowledge/index/source-registry/Audited-Community-Source-Profiles.md",
+      "disposition": "ACCEPTED",
+      "reason": "Audited community source identities and claim-level boundaries.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-85634A6228E64EA5",
+      "path": "knowledge/index/source-registry/Community-Content-URL-Inventory-2026-07-12.md",
+      "disposition": "ACCEPTED",
+      "reason": "Static Discord-derived URL discovery snapshot.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-E7B0A794445DCED0",
+      "path": "knowledge/index/source-registry/Official-Newsroom-Extraction-Batch-001.md",
+      "disposition": "ACCEPTED",
+      "reason": "Selected official article extractions without corpus claims.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-FCAA7517DAFD62DF",
+      "path": "knowledge/index/source-registry/Official-Newsroom-Index.md",
+      "disposition": "ACCEPTED",
+      "reason": "Captured newsroom chronology with explicit date-range limits.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-D6B23580D8568223",
+      "path": "knowledge/index/source-registry/Public-Source-Registry.md",
+      "disposition": "ACCEPTED",
+      "reason": "Source-family authority, coverage, and completeness vocabulary.",
+      "human_review_required": true
+    }
+  ]
+}

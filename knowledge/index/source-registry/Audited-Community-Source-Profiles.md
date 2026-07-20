@@ -1,5 +1,21 @@
 ---
 title: Audited Community Source Profiles
+seo_title: "Audited Star Atlas Community Source Profiles"
+seo_description: "Evidence-qualified profiles for Aephia, Intergalactic Herald, HNN, The Hologram, and Krigs, including affiliations, strengths, limitations, and lineage rules."
+knowledge_status: QUALIFIED
+as_of: 2026-07-20
+confidence: HIGH
+page_risk_score: 5
+page_risk_class: R2
+evidence_basis:
+  - "archive/source-records/campaign-alpha-aephia/"
+  - "archive/source-records/campaign-bravo-intergalactic-herald/"
+  - "archive/source-records/campaign-charlie-hnn/"
+known_limitations:
+  - "Approval for archival use does not make every article claim canonical or independently verified."
+research_gaps:
+  - "Complete missing publication inventories, authorship records, ownership timelines, mirrors, and original-source lineage."
+review_after: 2027-01-20
 entry_type: source-registry
 status: active
 updated: 2026-07-12
@@ -108,3 +124,7 @@ All future community-source records should capture:
 - lineage confidence.
 
 Unknown lineage must be recorded as unknown rather than inferred.
+
+## Review status
+
+`QUALIFIED`. These source identities and archival-use boundaries are approved; individual article claims still require claim-level evidence and reconciliation.

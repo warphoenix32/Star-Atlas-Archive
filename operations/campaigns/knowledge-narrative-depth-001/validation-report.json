@@ -16,7 +16,7 @@
     {
       "check": "campaign_json",
       "result": "PASS",
-      "detail": "113 files parsed"
+      "detail": "124 files parsed"
     },
     {
       "check": "required_metadata",
@@ -36,7 +36,7 @@
     {
       "check": "internal_links",
       "result": "PASS",
-      "detail": "13 changed knowledge files checked"
+      "detail": "7 changed knowledge files checked"
     },
     {
       "check": "risk_portfolio",
@@ -61,7 +61,7 @@
     {
       "check": "campaign_scripts_compile",
       "result": "PASS",
-      "detail": "16 campaign scripts compiled"
+      "detail": "18 campaign scripts compiled"
     }
   ],
   "output_count": 17,
@@ -74,44 +74,32 @@
     "QUALIFIED": 16
   },
   "changed_paths": [
-    "knowledge/media/Aephia-Crawl-Ledger.md",
-    "knowledge/media/Aephia-Source-Profile.md",
-    "knowledge/media/Aephia-URL-Manifest-from-Community-Inventory.md",
-    "knowledge/media/Aephia-Weekly-Newsletter-Index.md",
-    "knowledge/media/Atlas-Brew-History.md",
-    "knowledge/media/Community-Publication-Relationship-Index.md",
-    "knowledge/media/Media-and-Creator-Index.md",
-    "knowledge/media/Official-Discord-Announcements-Profile.md",
-    "knowledge/media/Official-X-Account-Profile.md",
-    "knowledge/media/README.md",
-    "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
-    "knowledge/media/Star-Atlas-Town-Hall-History.md",
-    "knowledge/media/VBTV-Star-Atlas-TV-Recording-Index.md",
+    "knowledge/index/Entity-Registry.md",
+    "knowledge/index/README.md",
+    "knowledge/index/source-registry/Audited-Community-Source-Profiles.md",
+    "knowledge/index/source-registry/Community-Content-URL-Inventory-2026-07-12.md",
+    "knowledge/index/source-registry/Official-Newsroom-Extraction-Batch-001.md",
+    "knowledge/index/source-registry/Official-Newsroom-Index.md",
+    "knowledge/index/source-registry/Public-Source-Registry.md",
     "operations/campaigns/knowledge-narrative-depth-001/campaign-summary.json",
     "operations/campaigns/knowledge-narrative-depth-001/validation-report.json",
     "operations/campaigns/knowledge-narrative-depth-001/validation-report.md",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/README.md",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/build_wave.py",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/campaign-summary.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/campaign-summary.md",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Aephia-Crawl-Ledger.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Aephia-Source-Profile.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Aephia-URL-Manifest-from-B6481889.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Aephia-Weekly-Newsletter-Index.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Atlas-Brew-History.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Community-Publication-Re-7FF92F37.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Media-and-Creator-Index.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Official-Discord-Announc-3F2FFFA5.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Official-X-Account-Profile.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Star-Atlas-Medium-Public-1B39319A.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/Star-Atlas-Town-Hall-History.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/VBTV-Star-Atlas-TV-Recording-Index.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/evidence-packets/media-README.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/page-inventory.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/revision-ledger.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/validate_wave.py",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/validation-report.json",
-    "operations/campaigns/knowledge-narrative-depth-001/wave-3b-media-source-histories-2026-07/validation-report.md"
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/README.md",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/build_wave.py",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/campaign-summary.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/campaign-summary.md",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/evidence-packets/Audited-Community-Source-Profiles.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/evidence-packets/Community-Content-URL-In-28E64EA5.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/evidence-packets/Entity-Registry.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/evidence-packets/Official-Newsroom-Extrac-445DCED0.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/evidence-packets/Official-Newsroom-Index.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/evidence-packets/Public-Source-Registry.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/evidence-packets/index-README.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/page-inventory.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/revision-ledger.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/validate_wave.py",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/validation-report.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-3c-indexes-registries-2026-07/validation-report.md"
   ],
   "errors": [],
   "warnings": []

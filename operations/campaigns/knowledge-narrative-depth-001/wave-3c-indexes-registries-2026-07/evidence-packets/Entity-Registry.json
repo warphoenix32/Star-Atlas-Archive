@@ -1,0 +1,39 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3c-indexes-registries-2026-07",
+  "page_id": "KNOW-0CA033E571F5E1CA",
+  "proposed_path": "knowledge/index/Entity-Registry.md",
+  "page_action": "STRUCTURED_REWORK",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Stable identity without broad lifecycle collapse.",
+  "material_claims": [
+    {
+      "claim_id": "KNOW-0CA033E571F5E1CA-C01",
+      "claim_text": "Stable identity without broad lifecycle collapse.",
+      "claim_type": "REGISTRY_SCOPE",
+      "temporal_scope": "AS_OF_2026-07-20",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "knowledge/gameplay/Product-Registry.md",
+        "archive/normalized/lore/taxonomy.json"
+      ],
+      "source_authority": "MIXED_A2_B2",
+      "corroboration_status": "QUALIFIED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Registry inclusion does not establish source completeness, current lifecycle, or claim truth."
+  ],
+  "research_gaps": [
+    "See page-specific identity, source, and coverage gaps."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}

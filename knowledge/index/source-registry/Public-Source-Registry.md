@@ -1,5 +1,21 @@
 ---
 title: Star Atlas Public Source Registry
+seo_title: "Star Atlas Public Source Registry"
+seo_description: "A governed registry of official and community Star Atlas source families, preserved coverage, authority limits, collection states, and archival priorities."
+knowledge_status: QUALIFIED
+as_of: 2026-07-20
+confidence: HIGH
+page_risk_score: 5
+page_risk_class: R2
+evidence_basis:
+  - "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json"
+  - "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json"
+  - "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json"
+known_limitations:
+  - "Source-family registration does not prove complete public coverage or make every claim canonical."
+research_gaps:
+  - "Refresh time-sensitive source families and complete discovery-only video, podcast, and community-publication inventories."
+review_after: 2027-01-20
 entry_type: source-registry
 status: active
 updated: 2026-07-17
@@ -30,7 +46,7 @@ For every preserved item, researchers should distinguish publication date from c
 | SRC-OFF-EPIC-FAQ | https://store.epicgames.com/p/star-atlas-faq-fb116c | UE5 product description, iterative release strategy and historical feature snapshot | Official storefront content but may contain stale roadmap language |
 | SRC-OFF-DISCORD | Official Star Atlas Discord announcements | Dated operational announcements, launches, delays, governance notices, and corrections | [Qualified corpus profile](../../media/Official-Discord-Announcements-Profile.md); exported authors are inferred and attachments are incomplete |
 | SRC-OFF-X | https://x.com/staratlas | Dated official social statements and source discovery | [Qualified corpus profile](../../media/Official-X-Account-Profile.md); originals and retweets have different authority |
-| SRC-OFF-MEDIUM | https://medium.com/star-atlas | Official long-form publication surface | [Qualified source-family profile](../../media/Star-Atlas-Medium-Publication-Profile.md); complete article-level review not yet performed |
+| SRC-OFF-MEDIUM | https://medium.com/star-atlas | Official long-form publication surface | [Qualified corpus profile](../../media/Star-Atlas-Medium-Publication-Profile.md); 173 confirmed articles fully ingested, while publication discovery remains incomplete |
 
 ## Governance and economy
 
@@ -105,4 +121,8 @@ Community sources are especially valuable for chronology, reaction and instituti
 - Reconcile Aephia forecasts against later releases and official records.
 - Recover HNN article URLs, podcast feeds and video metadata.
 - Reconcile remaining Discord and X candidates against longer-form official and execution evidence.
-- Complete article-by-article preservation and review of the official Medium publication.
+- Resolve the 51 explicitly deferred Medium discovery leads and continue searching for deleted or unindexed official articles.
+
+## Review status
+
+`QUALIFIED`. Major source families and their authority boundaries are established; several inventories remain partial, historical, or discovery-only.

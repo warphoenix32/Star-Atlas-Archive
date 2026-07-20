@@ -1,0 +1,38 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3c-indexes-registries-2026-07",
+  "page_id": "KNOW-E7B0A794445DCED0",
+  "proposed_path": "knowledge/index/source-registry/Official-Newsroom-Extraction-Batch-001.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Selected official article extractions without corpus claims.",
+  "material_claims": [
+    {
+      "claim_id": "KNOW-E7B0A794445DCED0-C01",
+      "claim_text": "Selected official article extractions without corpus claims.",
+      "claim_type": "REGISTRY_SCOPE",
+      "temporal_scope": "AS_OF_2026-07-20",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/campaign-summaries/campaign-delta-official/campaign-summary.json"
+      ],
+      "source_authority": "MIXED_A2_B2",
+      "corroboration_status": "QUALIFIED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Registry inclusion does not establish source completeness, current lifecycle, or claim truth."
+  ],
+  "research_gaps": [
+    "See page-specific identity, source, and coverage gaps."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}

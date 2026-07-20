@@ -1,5 +1,19 @@
 ---
 title: Official Star Atlas Newsroom Extraction Batch 001
+seo_title: "Official Star Atlas Newsroom Historical Extraction — Batch 001"
+seo_description: "Evidence-qualified extractions of the 2021 seed-round announcement, 2022 Breakpoint roadmap, and Star Atlas CORE release, with unresolved outcomes."
+knowledge_status: QUALIFIED
+as_of: 2026-07-20
+confidence: HIGH
+page_risk_score: 5
+page_risk_class: R2
+evidence_basis:
+  - "archive/source-records/campaign-delta-official/"
+known_limitations:
+  - "This batch contains three selected publications and is not a newsroom corpus summary."
+research_gaps:
+  - "Recover the seed-round article body and reconcile the Breakpoint roadmap and CORE commitments against later outcomes."
+review_after: 2027-01-20
 entry_type: source-extraction
 status: active
 updated: 2026-07-12
@@ -68,3 +82,7 @@ The article also introduced the **Voice of Iris** as an in-universe phenomenon: 
 - Verify whether the planned 18-chapter CORE release completed as announced.
 - Track the ARC Cypher, hardcover, digital compilation and ship-skin reward outcomes.
 - Reconcile the protagonist spellings “Gyun” and “Geyung” across official sources rather than silently normalizing them.
+
+## Review status
+
+`QUALIFIED`. Publication, title, and announcement evidence is strong; financing terms and several later outcomes remain unresolved.

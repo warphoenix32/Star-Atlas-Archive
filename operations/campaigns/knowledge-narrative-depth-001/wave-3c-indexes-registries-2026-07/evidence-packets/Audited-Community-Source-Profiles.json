@@ -1,0 +1,38 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3c-indexes-registries-2026-07",
+  "page_id": "KNOW-5BB0309E2211D244",
+  "proposed_path": "knowledge/index/source-registry/Audited-Community-Source-Profiles.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Audited community source identities and claim-level boundaries.",
+  "material_claims": [
+    {
+      "claim_id": "KNOW-5BB0309E2211D244-C01",
+      "claim_text": "Audited community source identities and claim-level boundaries.",
+      "claim_type": "REGISTRY_SCOPE",
+      "temporal_scope": "AS_OF_2026-07-20",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "knowledge/index/source-registry/Public-Source-Registry.md"
+      ],
+      "source_authority": "MIXED_A2_B2",
+      "corroboration_status": "QUALIFIED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Registry inclusion does not establish source completeness, current lifecycle, or claim truth."
+  ],
+  "research_gaps": [
+    "See page-specific identity, source, and coverage gaps."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}
