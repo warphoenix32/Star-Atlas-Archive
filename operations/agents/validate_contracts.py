@@ -38,6 +38,11 @@ def main() -> int:
 
     for key in ("shared_contract", "specialist_registry"):
         assert (ROOT / payload[key]).is_file(), f"missing {key}"
+    for specialist_contract in payload.get("specialist_contracts", []):
+        text = (ROOT / specialist_contract).read_text(encoding="utf-8")
+        assert "## Mission" in text
+        assert "## Human adjudication triggers" in text
+        assert "Do not collect new material without campaign authority" in text
 
     authoring = payload["knowledge_authoring"]
     assert all(authoring[key] is True for key in ("human_first", "engaging", "comprehensive", "narrative_required"))

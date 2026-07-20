@@ -18,7 +18,7 @@ They are operating boundaries, not autonomous permissions. An agent may work onl
 | Risk and Review Agent | REVIEW | [Risk and Review Contract](RISK-REVIEW-CONTRACT.md) |
 | Library Publisher | PUBLISH | [Library Publisher Contract](LIBRARY-PUBLISHER-CONTRACT.md) |
 
-The [Shared Operating Contract](SHARED-OPERATING-CONTRACT.md) applies to every role. On-demand specialists and their activation boundaries are defined in the [Specialist Registry](SPECIALIST-REGISTRY.md).
+The [Shared Operating Contract](SHARED-OPERATING-CONTRACT.md) applies to every role. On-demand specialists and their activation boundaries are defined in the [Specialist Registry](SPECIALIST-REGISTRY.md). The [Research and Gap Analyst](RESEARCH-GAP-ANALYST-CONTRACT.md) additionally owns the cross-source coverage register, acquisition backlog, and recurring-source freshness queue.
 
 ## Reader-first publication rule
 

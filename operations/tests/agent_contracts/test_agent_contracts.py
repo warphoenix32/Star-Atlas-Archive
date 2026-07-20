@@ -27,6 +27,7 @@ class AgentContractTests(unittest.TestCase):
         self.assertTrue(authoring["narrative_required"])
         self.assertEqual(authoring["inline_machine_taxonomy"], "PROHIBITED_BY_DEFAULT")
         self.assertEqual(payload["merge_authority"], "HUMAN_OR_BRANCH_PROTECTION")
+        self.assertIn("RESEARCH-GAP-ANALYST-CONTRACT.md", payload["specialist_contracts"])
 
 
 if __name__ == "__main__":
