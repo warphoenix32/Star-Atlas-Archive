@@ -76,6 +76,8 @@ Campaign-specific artifacts remain permissible when justified by elevated risk. 
 
 ## Operational ownership
 
+The enforceable role boundaries are maintained in the [Repository Agent Contracts](../agents/README.md).
+
 - **Archive Steward:** coordinates ingestion, preservation, provenance, normalization, and archive validation.
 - **Knowledge Curator:** drafts evidence-qualified knowledge and invokes attribution and taxonomy validators.
 - **Review Gate:** assigns risk, enforces automation boundaries, and routes human adjudication.
@@ -83,6 +85,8 @@ Campaign-specific artifacts remain permissible when justified by elevated risk. 
 - **Research Analyst:** maintains prioritized gaps asynchronously and does not block routine R1 work.
 
 No role may approve its own R3 or R4 interpretation, rewrite archive evidence, or merge automatically.
+
+Knowledge Curators must produce human-first, comprehensive, narratively coherent, search-friendly prose rather than semantic-record dumps. Machine taxonomy belongs in front matter or one consolidated reference section and is hidden from the public article body by default. The Review Gate evaluates narrative quality and taxonomy hygiene separately from citation validity; the Library Publisher cannot repair weak knowledge by silently rewriting it.
 
 ## Compatibility
 

@@ -1,6 +1,8 @@
 ---
 id: TYPE-UNIQUE-ID
 title: Entry title
+seo_title: Descriptive subject title for search and sharing
+seo_description: Factual 140-160 character description of the subject, scope, and historical value
 entry_type: event | organization | guild | actor | product | economy | governance | lore | controversy | culture
 status: active | dormant | deprecated | complete | ongoing | unknown
 created: YYYY-MM-DD
@@ -16,24 +18,21 @@ tags: []
 
 # Entry title
 
-> **Editorial standard:** Write this as a durable archival research record. Cover every applicable section with enough evidence and context for a future reader to understand the subject without reconstructing the source corpus. Do not pad for length, omit material uncertainty for brevity, or convert semantic confidence into factual certainty.
+> **Editorial standard:** Write this as a durable, human-first archival narrative. Give a new reader orientation, context, chronology, significance, current state, and evidence limits without requiring them to reconstruct the source corpus. Be engaging but neutral, comprehensive but not repetitive, and search-friendly without keyword stuffing. Do not convert semantic confidence into factual certainty.
+>
+> Keep controlled taxonomy in this front matter or one consolidated reference section. Do not attach `[SRC-*]`, `[EV-*]`, `[CONF-*]`, `[PUB-*]`, lifecycle codes, or other machine labels to every paragraph. Express material qualifications in plain language and retain resolvable citations.
 
-## Executive summary
+## Overview
 
-A concise description of what the entry is and why it matters.
+A concise opening that identifies the subject, its boundaries, and why it matters. It should stand on its own as a useful search excerpt.
 
 ## Scope and terminology
 
 Define the subject, aliases, boundaries, and terms that could otherwise be conflated.
 
-## Key facts
-
-- Fact with source linkage.
-- Fact with source linkage.
-
 ## History and chronology
 
-Describe the development of the entity or event in chronological order.
+Describe origins, development, turning points, and lifecycle changes as a connected account. Use tables only when exact comparison materially helps the reader, and introduce them with explanatory prose.
 
 ## Significance
 
@@ -61,9 +60,7 @@ Preserve credible conflicting accounts without forcing a false resolution.
 
 ## Evidence assessment
 
-**Markers:** `[SRC-...]` `[EV-...]` `[CONF-...]` `[PUB-...]`
-
-Explain the basis and limits of the current conclusion.
+Explain the basis and limits of the current conclusion in plain language. Machine taxonomy remains in front matter or may be consolidated here when it materially helps a researcher.
 
 ## Sources
 

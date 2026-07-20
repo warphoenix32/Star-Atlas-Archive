@@ -1,0 +1,24 @@
+{
+  "contract_version": "1.0",
+  "pipeline": ["PRESERVE", "DRAFT", "REVIEW", "PUBLISH"],
+  "shared_contract": "SHARED-OPERATING-CONTRACT.md",
+  "roles": [
+    {"role_id": "LEAD_COORDINATOR", "stage": "ALL", "contract": "COORDINATION-CONTRACT.md"},
+    {"role_id": "ARCHIVE_STEWARD", "stage": "PRESERVE", "contract": "ARCHIVE-STEWARD-CONTRACT.md"},
+    {"role_id": "KNOWLEDGE_CURATOR", "stage": "DRAFT", "contract": "KNOWLEDGE-CURATOR-CONTRACT.md"},
+    {"role_id": "RISK_REVIEW_AGENT", "stage": "REVIEW", "contract": "RISK-REVIEW-CONTRACT.md"},
+    {"role_id": "LIBRARY_PUBLISHER", "stage": "PUBLISH", "contract": "LIBRARY-PUBLISHER-CONTRACT.md"}
+  ],
+  "specialist_registry": "SPECIALIST-REGISTRY.md",
+  "merge_authority": "HUMAN_OR_BRANCH_PROTECTION",
+  "human_review_as_arises": true,
+  "knowledge_authoring": {
+    "human_first": true,
+    "engaging": true,
+    "comprehensive": true,
+    "narrative_required": true,
+    "seo_mode": "ETHICAL_DISCOVERY",
+    "inline_machine_taxonomy": "PROHIBITED_BY_DEFAULT",
+    "public_taxonomy_placement": ["HIDDEN_FRONT_MATTER", "CONSOLIDATED_SECTION"]
+  }
+}
