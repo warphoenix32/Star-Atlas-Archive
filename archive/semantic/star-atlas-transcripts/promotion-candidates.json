@@ -2,7 +2,7 @@
   "campaign_id": "star-atlas-transcripts-semantic-2026-07",
   "schema_version": "2.0.0",
   "generated_from": "archive/normalized/star-atlas-transcripts-ingestion-2026-07",
-  "candidate_count": 76,
+  "candidate_count": 81,
   "candidates": [
     {
       "candidate_id": "PROMOTION-CANDIDATE-SA-00001",
@@ -54,7 +54,7 @@
           "text": "active community in Sage at the moment."
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: STATUS_UPDATE",
@@ -62,10 +62,11 @@
         "identifiable entity relationship",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -102,16 +103,17 @@
           "text": "hobbyist's Eve online mapping tool. When"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -151,18 +153,19 @@
           "text": "a correction or something like that, but"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "identifiable institutional concept or proposal",
         "explicit institutional claim language: CORRECTION",
         "concrete date, metric, quantity, or funding detail",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
-        "EXECUTION_EVIDENCE_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EXECUTION_EVIDENCE_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -172,6 +175,45 @@
     },
     {
       "candidate_id": "PROMOTION-CANDIDATE-SA-00004",
+      "segment_id": "SEG-DAO-32627F5FB9FADE39-0021",
+      "source_id": "SRC-DAO-32627F5FB9FADE39",
+      "timestamp": "00:36:06-00:37:15",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/governance/",
+        "knowledge/organizations/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of TREASURY framed as retrospective. The transcript addresses the remainings of the not the moving bud, not the moving value of the fund. It's very it's one of the things that is very clear on this and it was 200 million atlas. So it's meant to be 10 10 million atlas is meant to be the cap of the…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:37:15",
+          "line": 1737,
+          "text": "like the treasury used to have 200"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: RETROSPECTIVE",
+        "concrete date, metric, quantity, or funding detail"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00005",
       "segment_id": "SEG-DAO-6BCF7DC0DB9C9720-0021",
       "source_id": "SRC-DAO-6BCF7DC0DB9C9720",
       "timestamp": "00:33:53-00:36:56",
@@ -211,17 +253,18 @@
           "text": "requesting allocation from the Star"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "concrete date, metric, quantity, or funding detail",
         "multiple exact supporting captions",
         "identifiable entity relationship"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "EXECUTION_EVIDENCE_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EXECUTION_EVIDENCE_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -230,7 +273,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00005",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00006",
       "segment_id": "SEG-ECON-FORUM-04D03390B487E480-0027",
       "source_id": "SRC-ECON-FORUM-04D03390B487E480",
       "timestamp": "00:46:57-00:48:23",
@@ -274,7 +317,7 @@
           "text": "good BB says that's that's"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: ROADMAP",
@@ -282,10 +325,11 @@
         "identifiable entity relationship",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -294,7 +338,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00006",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00007",
       "segment_id": "SEG-ECON-FORUM-354A7F51B559ED47-0004",
       "source_id": "SRC-ECON-FORUM-354A7F51B559ED47",
       "timestamp": "00:04:01-00:05:29",
@@ -345,9 +389,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -356,7 +401,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00007",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00008",
       "segment_id": "SEG-ECON-FORUM-7367D0DF38E859F4-0030",
       "source_id": "SRC-ECON-FORUM-7367D0DF38E859F4",
       "timestamp": "00:55:30-00:58:14",
@@ -400,7 +445,7 @@
           "text": "not no taking away sent will provide I"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RETROSPECTIVE",
@@ -408,10 +453,10 @@
         "identifiable entity relationship",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -419,7 +464,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00009",
       "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0009",
       "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
       "timestamp": "00:10:42-00:11:56",
@@ -462,7 +507,7 @@
           "text": "utility-wise this new Galactic"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
@@ -470,19 +515,20 @@
         "identifiable entity relationship",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0001",
-      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00009",
       "duplicate_reason": "strongest member"
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00009",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00010",
       "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0010",
       "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
       "timestamp": "00:11:59-00:14:24",
@@ -516,7 +562,7 @@
           "text": "three"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE, RETROSPECTIVE",
@@ -524,19 +570,20 @@
         "multiple exact supporting captions",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0001",
-      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00008",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00009",
       "duplicate_reason": "near-duplicate of stronger candidate"
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00010",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00011",
       "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0014",
       "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
       "timestamp": "00:19:13-00:22:22",
@@ -560,17 +607,17 @@
           "text": "additional crafting time to create an"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "identifiable institutional concept or proposal",
         "explicit institutional claim language: RETROSPECTIVE",
         "multiple exact supporting captions",
         "source carries date metadata"
       ],
-      "review_priority": "LOW_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -578,7 +625,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00011",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00012",
       "segment_id": "SEG-ECON-FORUM-8C1707C5C9C6EFEB-0016",
       "source_id": "SRC-ECON-FORUM-8C1707C5C9C6EFEB",
       "timestamp": "00:25:19-00:27:06",
@@ -630,9 +677,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -641,7 +689,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00012",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00013",
       "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0023",
       "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
       "timestamp": "00:43:53-00:45:01",
@@ -691,9 +739,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -702,7 +751,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00013",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00014",
       "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0029",
       "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
       "timestamp": "00:52:17-00:53:18",
@@ -748,7 +797,7 @@
           "text": "We're just gonna create we're gonna"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE, RETROSPECTIVE",
@@ -756,10 +805,11 @@
         "identifiable entity relationship",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -768,7 +818,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00014",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00015",
       "segment_id": "SEG-ECON-FORUM-9AF39A87A80EDB8E-0033",
       "source_id": "SRC-ECON-FORUM-9AF39A87A80EDB8E",
       "timestamp": "00:57:36-00:58:56",
@@ -805,7 +855,7 @@
           "text": "trend downwards. We're seeing uh Dow"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
@@ -813,10 +863,11 @@
         "multiple exact supporting captions",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -825,7 +876,50 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00015",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00016",
+      "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0029",
+      "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
+      "timestamp": "00:46:14-00:48:37",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/gameplay/",
+        "knowledge/products/",
+        "knowledge/timeline/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of MINING, SCORE_FACTION_FLEET framed as release. The transcript addresses yeah I think I'll leave it at that kind of already spoiled a little bit of it not nothing crazy but I I have spoiled that there will be some some uh some cool stuff coming very soon no you're I'll be upd I'll be updating the road map…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:47:45",
+          "line": 2239,
+          "text": "release documentation for this entire"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: RELEASE",
+        "source carries date metadata"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [
+        "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
+        "OFFICIAL_CONFIRMATION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00017",
       "segment_id": "SEG-ECON-FORUM-C53DD05B1A9D234D-0030",
       "source_id": "SRC-ECON-FORUM-C53DD05B1A9D234D",
       "timestamp": "00:48:41-00:51:15",
@@ -878,9 +972,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -889,7 +984,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00016",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00018",
       "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0014",
       "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
       "timestamp": "00:17:47-00:19:35",
@@ -945,9 +1040,9 @@
         "source carries date metadata"
       ],
       "review_priority": "HIGH_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -955,7 +1050,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00017",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00019",
       "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0015",
       "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
       "timestamp": "00:19:38-00:22:40",
@@ -1010,9 +1105,10 @@
         "source carries date metadata"
       ],
       "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1021,7 +1117,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00018",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00020",
       "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0023",
       "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
       "timestamp": "00:38:08-00:40:51",
@@ -1076,9 +1172,9 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -1086,7 +1182,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00019",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00021",
       "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0029",
       "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
       "timestamp": "00:50:38-00:52:41",
@@ -1124,18 +1220,19 @@
           "text": "Yeah, I would say C4 can't come fast"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "identifiable institutional concept or proposal",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions",
         "source carries date metadata"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1144,7 +1241,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00020",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00022",
       "segment_id": "SEG-ECON-FORUM-DA876A17CDB11E18-0031",
       "source_id": "SRC-ECON-FORUM-DA876A17CDB11E18",
       "timestamp": "00:53:45-00:55:33",
@@ -1196,9 +1293,9 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -1206,7 +1303,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00021",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00023",
       "segment_id": "SEG-ECON-FORUM-ECEE879933D7FEFE-0031",
       "source_id": "SRC-ECON-FORUM-ECEE879933D7FEFE",
       "timestamp": "00:55:39-00:58:10",
@@ -1248,7 +1345,7 @@
           "text": "um now there was obviously a lot of"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: CORRECTION",
@@ -1256,10 +1353,10 @@
         "multiple exact supporting captions",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -1267,7 +1364,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00022",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00024",
       "segment_id": "SEG-ECON-FORUM-F67474243EB194BE-0010",
       "source_id": "SRC-ECON-FORUM-F67474243EB194BE",
       "timestamp": "00:16:38-00:19:29",
@@ -1322,9 +1419,9 @@
         "source carries date metadata"
       ],
       "review_priority": "HIGH_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -1332,7 +1429,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00023",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00025",
       "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0027",
       "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
       "timestamp": "00:47:47-00:49:52",
@@ -1377,16 +1474,17 @@
           "text": "some feedback from you as well I know"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1395,7 +1493,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00024",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00026",
       "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0031",
       "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
       "timestamp": "00:53:55-00:56:48",
@@ -1443,7 +1541,7 @@
           "text": "ships has always been set based on our"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
@@ -1451,10 +1549,11 @@
         "multiple exact supporting captions",
         "identifiable entity relationship"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1463,7 +1562,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00025",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00027",
       "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0033",
       "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
       "timestamp": "00:58:16-00:59:20",
@@ -1507,16 +1606,17 @@
           "text": "space for or again crew these faction"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1525,7 +1625,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00026",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00028",
       "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0087",
       "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
       "timestamp": "02:29:53-02:30:53",
@@ -1558,16 +1658,17 @@
           "text": "there's going to be multiplayer coming"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: ROADMAP",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1576,7 +1677,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00027",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00029",
       "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0088",
       "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
       "timestamp": "02:30:59-02:31:59",
@@ -1614,16 +1715,17 @@
           "text": "correct that is correct yeah so I mean"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: CORRECTION",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "EXECUTION_EVIDENCE_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "EXECUTION_EVIDENCE_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1632,7 +1734,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00028",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00030",
       "segment_id": "SEG-TOWNHALL-000B2F372F9AEDDD-0090",
       "source_id": "SRC-TOWNHALL-000B2F372F9AEDDD",
       "timestamp": "02:33:05-02:34:05",
@@ -1675,16 +1777,17 @@
           "text": "announcement today so stay tuned we'll"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1693,7 +1796,50 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00029",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00031",
+      "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0013",
+      "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
+      "timestamp": "00:17:45-00:18:46",
+      "promotion_targets": [
+        "knowledge/gameplay/",
+        "knowledge/governance/",
+        "knowledge/organizations/",
+        "knowledge/products/",
+        "knowledge/technology/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "RELEASE"
+      ],
+      "summary": "Discussion of ESCAPE_VELOCITY framed as release. The transcript addresses looking to do something with us um um a lot of support from the Salana Foundation and the Salana Labs team themselves and and so it just feels good uh it feels good to get their support and and and uh to hear their excitement about what…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:18:32",
+          "line": 827,
+          "text": "which launch launched uh one month ago"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: RELEASE",
+        "concrete date, metric, quantity, or funding detail"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [
+        "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
+        "OFFICIAL_CONFIRMATION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00032",
       "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0028",
       "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
       "timestamp": "00:36:04-00:39:01",
@@ -1745,10 +1891,11 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "EXECUTION_EVIDENCE_MISSING",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1757,7 +1904,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00030",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00033",
       "segment_id": "SEG-TOWNHALL-114A7F2FE199FAD1-0068",
       "source_id": "SRC-TOWNHALL-114A7F2FE199FAD1",
       "timestamp": "01:47:39-01:49:09",
@@ -1799,16 +1946,17 @@
           "text": "question come up a couple times. Dates"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1817,7 +1965,46 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00031",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00034",
+      "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0006",
+      "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
+      "timestamp": "00:07:26-00:10:14",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/economy/",
+        "knowledge/governance/",
+        "knowledge/organizations/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "RETROSPECTIVE"
+      ],
+      "summary": "Discussion of TREASURY framed as retrospective. The transcript addresses become measured with the amount of Revenue that we generated and yes we had uh the kind of disconnection of significantly decreasing values in our treasury which I've outlined previously but that includes things like minus 65 million…",
+      "supporting_captions": [
+        {
+          "timestamp": "00:07:38",
+          "line": 409,
+          "text": "treasury which I've outlined previously"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: RETROSPECTIVE",
+        "concrete date, metric, quantity, or funding detail"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00035",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0010",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:15:27-00:16:28",
@@ -1862,7 +2049,7 @@
           "text": "distribution for participation in Sage"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
@@ -1870,10 +2057,11 @@
         "multiple exact supporting captions",
         "identifiable entity relationship"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1882,7 +2070,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00032",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00036",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0012",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:17:34-00:18:52",
@@ -1935,9 +2123,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -1946,7 +2135,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00033",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00037",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0015",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:21:11-00:23:31",
@@ -2001,9 +2190,10 @@
         "multiple exact supporting captions"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2012,7 +2202,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00034",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00038",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0018",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:25:44-00:27:22",
@@ -2064,9 +2254,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2075,7 +2266,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00035",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00039",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0019",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:27:25-00:28:54",
@@ -2130,9 +2321,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2141,7 +2333,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00036",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00040",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0028",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:38:50-00:40:48",
@@ -2187,16 +2379,17 @@
           "text": "get us to from Hollywood spider"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: STATUS_UPDATE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2205,7 +2398,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00037",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00041",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0034",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "00:47:06-00:48:07",
@@ -2248,9 +2441,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2259,7 +2453,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00038",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00042",
       "segment_id": "SEG-TOWNHALL-49B158AA5F9C993B-0053",
       "source_id": "SRC-TOWNHALL-49B158AA5F9C993B",
       "timestamp": "01:15:47-01:16:57",
@@ -2305,6 +2499,8 @@
         "multiple exact supporting captions"
       ],
       "review_priority": "LOW_PRIORITY",
+      "speaker_dependency": "REQUIRED",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -2316,7 +2512,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00039",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00043",
       "segment_id": "SEG-TOWNHALL-5D5DDA7808DD80BE-0030",
       "source_id": "SRC-TOWNHALL-5D5DDA7808DD80BE",
       "timestamp": "00:53:18-00:54:27",
@@ -2355,6 +2551,8 @@
         "multiple exact supporting captions"
       ],
       "review_priority": "LOW_PRIORITY",
+      "speaker_dependency": "PARTIAL",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -2366,7 +2564,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00040",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00044",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0006",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "00:11:03-00:13:56",
@@ -2423,6 +2621,8 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "PARTIAL",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -2434,7 +2634,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00041",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00045",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0031",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "00:53:09-00:54:50",
@@ -2477,16 +2677,17 @@
           "text": "Labs yeah yeah absolutely um and Chris"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2495,7 +2696,53 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00042",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00046",
+      "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0036",
+      "source_id": "SRC-TOWNHALL-5F69263457814B5C",
+      "timestamp": "01:00:16-01:01:25",
+      "promotion_targets": [
+        "knowledge/community/",
+        "knowledge/gameplay/"
+      ],
+      "entity_ids": [],
+      "statement_classifications": [
+        "RELEASE",
+        "Q_AND_A"
+      ],
+      "summary": "Discussion of STARBASED framed as release, q and a. The transcript addresses Discord he gave me the breakdown of what the player profile uh or you know star Atlas account um uh roll out is going to look like there were four different points four different phases of all of that I'm not going to go through all of…",
+      "supporting_captions": [
+        {
+          "timestamp": "01:01:10",
+          "line": 2905,
+          "text": "release of Starbase it would be one of"
+        },
+        {
+          "timestamp": "01:01:08",
+          "line": 2903,
+          "text": "is not out right on the immediate"
+        }
+      ],
+      "candidate_confidence": "LOW",
+      "candidate_reasons": [
+        "identifiable institutional concept or proposal",
+        "explicit institutional claim language: RELEASE",
+        "multiple exact supporting captions"
+      ],
+      "review_priority": "LOW_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [
+        "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
+        "OFFICIAL_CONFIRMATION_MISSING"
+      ],
+      "promotion_status": "PROPOSED_ONLY",
+      "manual_review_required": true,
+      "duplicate_cluster_id": null,
+      "strongest_candidate_id": null,
+      "duplicate_reason": null
+    },
+    {
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00047",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0037",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "01:01:27-01:04:13",
@@ -2549,9 +2796,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2560,7 +2808,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00043",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00048",
       "segment_id": "SEG-TOWNHALL-5F69263457814B5C-0039",
       "source_id": "SRC-TOWNHALL-5F69263457814B5C",
       "timestamp": "01:07:13-01:10:12",
@@ -2608,7 +2856,7 @@
           "text": "10 million crew these are rough"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
@@ -2616,10 +2864,11 @@
         "multiple exact supporting captions",
         "identifiable entity relationship"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2628,7 +2877,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00044",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00049",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0040",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "01:05:21-01:06:29",
@@ -2682,6 +2931,8 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "PARTIAL",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -2693,7 +2944,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00045",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00050",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0054",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "01:27:40-01:28:56",
@@ -2746,6 +2997,8 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "REQUIRED",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -2757,7 +3010,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00046",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00051",
       "segment_id": "SEG-TOWNHALL-731A3D5664AB3C72-0060",
       "source_id": "SRC-TOWNHALL-731A3D5664AB3C72",
       "timestamp": "01:39:04-01:42:08",
@@ -2806,9 +3059,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2817,7 +3071,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00047",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00052",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0009",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:10:37-00:13:09",
@@ -2874,9 +3128,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -2885,7 +3140,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00048",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00053",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0011",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:14:21-00:16:37",
@@ -2931,25 +3186,26 @@
           "text": "ships out we've been holding them back"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0002",
-      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00054",
       "duplicate_reason": "near-duplicate of stronger candidate"
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00054",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0012",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:16:41-00:18:18",
@@ -3001,18 +3257,19 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0002",
-      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00049",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00054",
       "duplicate_reason": "strongest member"
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00050",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00055",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0016",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:22:21-00:24:46",
@@ -3068,6 +3325,8 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "PARTIAL",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -3079,7 +3338,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00051",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00056",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0017",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:24:49-00:26:57",
@@ -3125,17 +3384,17 @@
           "text": "foundation that Dan just talked about"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "concrete date, metric, quantity, or funding detail",
         "multiple exact supporting captions",
         "identifiable entity relationship"
       ],
-      "review_priority": "LOW_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -3143,7 +3402,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00052",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00057",
       "segment_id": "SEG-TOWNHALL-83FFB1A89990BFC6-0038",
       "source_id": "SRC-TOWNHALL-83FFB1A89990BFC6",
       "timestamp": "00:59:40-01:01:22",
@@ -3181,16 +3440,16 @@
           "text": "foundation costs but nevertheless drop"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RETROSPECTIVE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -3198,7 +3457,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00053",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00058",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0005",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "00:06:27-00:07:43",
@@ -3236,16 +3495,17 @@
           "text": "2.19 um I left everybody highly"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE, RETROSPECTIVE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -3254,7 +3514,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00054",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00059",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0011",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "00:15:24-00:16:58",
@@ -3306,9 +3566,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -3317,7 +3578,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00055",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00060",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0014",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "00:20:04-00:21:14",
@@ -3344,25 +3605,26 @@
           "text": "stuff out of the way most of you know we"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0003",
-      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00061",
       "duplicate_reason": "near-duplicate of stronger candidate"
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00061",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0016",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "00:22:45-00:23:51",
@@ -3414,6 +3676,8 @@
         "multiple exact supporting captions"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "REQUIRED",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -3421,11 +3685,11 @@
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": "DUPLICATE-CLUSTER-SA-0003",
-      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00056",
+      "strongest_candidate_id": "PROMOTION-CANDIDATE-SA-00061",
       "duplicate_reason": "strongest member"
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00057",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00062",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0031",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "01:00:02-01:02:37",
@@ -3456,16 +3720,17 @@
           "text": "missile Bays or countermeasure systems"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -3474,7 +3739,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00058",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00063",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0067",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "01:57:47-01:59:16",
@@ -3520,7 +3785,7 @@
           "text": "they need to be locked into sage and the"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: TECHNICAL_EXPLANATION",
@@ -3528,10 +3793,10 @@
         "multiple exact supporting captions",
         "identifiable entity relationship"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,
@@ -3539,7 +3804,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00059",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00064",
       "segment_id": "SEG-TOWNHALL-8B81AF8298EC775C-0080",
       "source_id": "SRC-TOWNHALL-8B81AF8298EC775C",
       "timestamp": "02:13:30-02:14:40",
@@ -3593,9 +3858,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -3604,7 +3870,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00060",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00065",
       "segment_id": "SEG-TOWNHALL-A1103FA71FF764D1-0013",
       "source_id": "SRC-TOWNHALL-A1103FA71FF764D1",
       "timestamp": "00:21:25-00:22:38",
@@ -3652,6 +3918,8 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "REQUIRED",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "SPEAKER_ATTRIBUTION_MISSING"
       ],
@@ -3662,7 +3930,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00061",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00066",
       "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0019",
       "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
       "timestamp": "00:24:22-00:25:27",
@@ -3718,6 +3986,8 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "PARTIAL",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -3729,7 +3999,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00062",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00067",
       "segment_id": "SEG-TOWNHALL-B66F8586AA2FCB90-0021",
       "source_id": "SRC-TOWNHALL-B66F8586AA2FCB90",
       "timestamp": "00:27:33-00:28:54",
@@ -3782,9 +4052,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -3793,7 +4064,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00063",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00068",
       "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0014",
       "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
       "timestamp": "00:18:30-00:20:11",
@@ -3845,6 +4116,8 @@
         "multiple exact supporting captions"
       ],
       "review_priority": "LOW_PRIORITY",
+      "speaker_dependency": "PARTIAL",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "SPEAKER_ATTRIBUTION_MISSING"
       ],
@@ -3855,7 +4128,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00064",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00069",
       "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0031",
       "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
       "timestamp": "00:44:28-00:45:54",
@@ -3890,16 +4163,17 @@
           "text": "um another thing to highlight is you"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -3908,7 +4182,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00065",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00070",
       "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0043",
       "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
       "timestamp": "01:02:21-01:03:21",
@@ -3940,16 +4214,17 @@
           "text": "line this idea of escape velocity and as"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
         "multiple exact supporting captions"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -3958,7 +4233,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00066",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00071",
       "segment_id": "SEG-TOWNHALL-C6E705CEC7F99DB8-0056",
       "source_id": "SRC-TOWNHALL-C6E705CEC7F99DB8",
       "timestamp": "01:19:03-01:20:17",
@@ -4010,9 +4285,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4021,7 +4297,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00067",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00072",
       "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0052",
       "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
       "timestamp": "01:44:29-01:47:29",
@@ -4071,9 +4347,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4082,7 +4359,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00068",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00073",
       "segment_id": "SEG-TOWNHALL-D6CAD785061FF76C-0074",
       "source_id": "SRC-TOWNHALL-D6CAD785061FF76C",
       "timestamp": "02:25:23-02:26:33",
@@ -4136,9 +4413,10 @@
         "identifiable entity relationship"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4147,7 +4425,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00069",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00074",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0011",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "00:15:05-00:16:07",
@@ -4192,7 +4470,7 @@
           "text": "It's claim stakes and cultivation"
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: RELEASE",
@@ -4200,10 +4478,11 @@
         "identifiable entity relationship",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4212,7 +4491,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00070",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00075",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0012",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "00:16:10-00:17:48",
@@ -4234,18 +4513,19 @@
           "text": "we as we get into uh the C4 release."
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "identifiable institutional concept or proposal",
         "explicit institutional claim language: RELEASE",
         "identifiable entity relationship",
         "source carries date metadata"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "AMBIGUOUS_PRODUCT_OR_ENTITY_IDENTITY",
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4254,7 +4534,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00071",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00076",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0020",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "00:31:48-00:33:19",
@@ -4276,16 +4556,17 @@
           "text": "currently in Sage there's a big grid"
         }
       ],
-      "candidate_confidence": "LOW",
+      "candidate_confidence": "MEDIUM",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: STATUS_UPDATE",
         "source carries date metadata"
       ],
-      "review_priority": "LOW_PRIORITY",
+      "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4294,7 +4575,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00072",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00077",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0043",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "01:21:33-01:22:33",
@@ -4344,9 +4625,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4355,7 +4637,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00073",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00078",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0063",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "01:50:15-01:53:07",
@@ -4407,9 +4689,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4418,7 +4701,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00074",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00079",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0080",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "02:28:18-02:29:19",
@@ -4471,6 +4754,8 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "PARTIAL",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
         "OFFICIAL_CONFIRMATION_MISSING",
         "SPEAKER_ATTRIBUTION_MISSING"
@@ -4482,7 +4767,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00075",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00080",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0083",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "02:32:50-02:34:26",
@@ -4536,9 +4821,10 @@
         "source carries date metadata"
       ],
       "review_priority": "MEDIUM_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
       "research_gap_types": [
-        "OFFICIAL_CONFIRMATION_MISSING",
-        "SPEAKER_ATTRIBUTION_MISSING"
+        "OFFICIAL_CONFIRMATION_MISSING"
       ],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
@@ -4547,7 +4833,7 @@
       "duplicate_reason": null
     },
     {
-      "candidate_id": "PROMOTION-CANDIDATE-SA-00076",
+      "candidate_id": "PROMOTION-CANDIDATE-SA-00081",
       "segment_id": "SEG-TOWNHALL-E3A7BCDC12B3EFEE-0095",
       "source_id": "SRC-TOWNHALL-E3A7BCDC12B3EFEE",
       "timestamp": "02:55:11-02:58:14",
@@ -4593,7 +4879,7 @@
           "text": "galactic empire."
         }
       ],
-      "candidate_confidence": "MEDIUM",
+      "candidate_confidence": "HIGH",
       "candidate_reasons": [
         "named canonical entity",
         "explicit institutional claim language: TECHNICAL_EXPLANATION",
@@ -4601,10 +4887,10 @@
         "identifiable entity relationship",
         "source carries date metadata"
       ],
-      "review_priority": "MEDIUM_PRIORITY",
-      "research_gap_types": [
-        "SPEAKER_ATTRIBUTION_MISSING"
-      ],
+      "review_priority": "HIGH_PRIORITY",
+      "speaker_dependency": "NONE",
+      "institutional_attribution": "UNESTABLISHED",
+      "research_gap_types": [],
       "promotion_status": "PROPOSED_ONLY",
       "manual_review_required": true,
       "duplicate_cluster_id": null,

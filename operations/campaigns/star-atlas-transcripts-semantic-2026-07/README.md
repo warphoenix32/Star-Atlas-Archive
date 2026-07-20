@@ -15,6 +15,7 @@ Each segment preserves:
 - Exact transcript path and line range
 - Caption count and content checksum
 - Unknown speaker status
+- Speaker dependency (`NONE`, `PARTIAL`, or `REQUIRED`) and institutional-attribution status
 - Controlled topics and statement classifications
 - Product lifecycle language
 - Canonical entity mentions and unresolved references
@@ -30,14 +31,15 @@ Promotion scoring is deterministic:
 - +2 strong statement or event language
 - +1 concrete action or capability
 - +1 each for multiple supporting captions, numeric/date detail, and complete source metadata
-- -1 each for transcript ambiguity, speculative wording, or unknown speaker
+- -1 for transcript ambiguity or speculative wording
+- -1 for unknown attribution only when the claim is speaker-dependent
 - -2 when clustered as a weaker near-duplicate
 
 Eligible records are assigned `HIGH_PRIORITY` at 7 or more points, `MEDIUM_PRIORITY` at 5–6, and carefully justified `LOW_PRIORITY` at 3–4. Confidence is `HIGH` at 7 or more, `MEDIUM` at 4–6, and `LOW` below 4. Confidence measures extraction quality, not factual truth.
 
 Timeline eligibility independently requires a concrete institutional event, an identifiable entity or system, event-state language, exact captions, and either a normalized date or an explicit unresolved-date basis. Generic roadmap discussion, aspirations, hypothetical examples, questions, recurring logistics, and undated background explanations remain excluded even when their segment tags are retained.
 
-Quote eligibility requires a concise, verbatim caption containing institutional value: an announcement, release/deployment statement, concrete roadmap commitment, correction, governance action, technical explanation, economic statement, or institutional rationale. Fragments, questions without answers, filler, generic claims, low-context excerpts, and transcription artifacts are excluded. Speakers remain `UNKNOWN` unless the transcript explicitly supplies attribution.
+Quote eligibility requires a concise, verbatim caption containing institutional value: an announcement, release/deployment statement, concrete roadmap commitment, correction, governance action, technical explanation, economic statement, or institutional rationale. Fragments, questions without answers, filler, generic claims, low-context excerpts, and transcription artifacts are excluded. Speakers remain `UNKNOWN` unless the transcript explicitly supplies attribution. Unknown speakers are not a universal quality penalty: information-centered claims remain eligible when their meaning is independently clear from the recording, Source ID, timestamps, and exact captions. `speaker_dependency` is `NONE` for those claims, `PARTIAL` for unattributed institutional-position language, and `REQUIRED` for personal assertions whose force depends on who spoke. Missing attribution becomes a research gap only for `PARTIAL` or `REQUIRED` material.
 
 ## Contextual classification
 
@@ -62,6 +64,7 @@ Research gaps are typed rather than assigned generically. Supported types includ
 ## Evidence safety
 
 - All promotion candidates remain `PROPOSED_ONLY` and require manual review.
+- A candidate with unknown attribution may support information-centered historical research, but it cannot establish a named person's position or an institution's authority unless separately corroborated.
 - Lifecycle tags describe transcript wording; they do not prove release, execution, or current status.
 - PIP tags establish mentions or discussions, not proposal outcomes.
 - Quotations are preserved with `speaker: UNKNOWN` and require attribution review.

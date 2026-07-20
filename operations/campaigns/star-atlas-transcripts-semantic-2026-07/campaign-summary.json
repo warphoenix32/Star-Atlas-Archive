@@ -8,35 +8,40 @@
   "caption_lines": 78752,
   "segments": 1910,
   "previous_promotion_candidates": 1909,
-  "promotion_candidates": 76,
-  "promotion_exclusions": 1834,
+  "promotion_candidates": 81,
+  "promotion_exclusions": 1829,
   "previous_timeline_candidates": 1590,
-  "timeline_candidates": 83,
-  "timeline_exclusions": 1827,
+  "timeline_candidates": 90,
+  "timeline_exclusions": 1820,
   "previous_key_quotes": 526,
-  "key_quotes": 41,
+  "key_quotes": 107,
   "duplicate_clusters": 3,
   "promotion_confidence": {
-    "HIGH": 3,
-    "LOW": 26,
-    "MEDIUM": 47
+    "HIGH": 17,
+    "LOW": 8,
+    "MEDIUM": 56
   },
   "timeline_confidence": {
-    "HIGH": 1,
-    "MEDIUM": 82
+    "HIGH": 36,
+    "MEDIUM": 54
   },
   "quote_confidence": {
-    "MEDIUM": 41
+    "MEDIUM": 107
   },
   "promotion_priorities": {
-    "HIGH_PRIORITY": 3,
-    "LOW_PRIORITY": 26,
-    "MEDIUM_PRIORITY": 47
+    "HIGH_PRIORITY": 17,
+    "LOW_PRIORITY": 8,
+    "MEDIUM_PRIORITY": 56
+  },
+  "speaker_dependency_distribution": {
+    "NONE": 419,
+    "PARTIAL": 464,
+    "REQUIRED": 1027
   },
   "canonical_entity_links": 1022,
   "unresolved_entity_references": 334,
   "semantic_artifacts": 14,
-  "semantic_artifact_bytes": 11654849,
+  "semantic_artifact_bytes": 12379969,
   "knowledge_promotions": 0,
   "graph_modifications": 0,
   "publication_modifications": 0
