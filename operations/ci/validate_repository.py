@@ -180,6 +180,10 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/campaigns/canonical-pip-governance-ledger-2026-07/",
         "knowledge/governance/PIP-Registry.",
     )) for path in changes)
+    transcript_semantic_campaign = any(path.startswith((
+        "archive/semantic/star-atlas-transcripts/",
+        "operations/campaigns/star-atlas-transcripts-semantic-2026-07/",
+    )) for path in changes)
     knowledge_campaign = any(path.startswith(("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")) for path in changes)
     medium_campaign = any("star-atlas-medium" in path or path.startswith(("archive/raw/medium/", "archive/normalized/medium/", "archive/source-records/medium/")) for path in changes)
     ship_campaign = any(path.startswith((
@@ -232,7 +236,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or pip33_vote_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = sum((ledger_campaign, transcript_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or pip33_vote_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if ledger_campaign:
@@ -243,6 +247,12 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/campaigns/canonical-pip-governance-ledger-2026-07/",
         )
         label = "canonical-pip-governance-ledger-2026-07"
+    elif transcript_semantic_campaign:
+        allowed = common + (
+            "archive/semantic/star-atlas-transcripts/",
+            "operations/campaigns/star-atlas-transcripts-semantic-2026-07/",
+        )
+        label = "star-atlas-transcripts-semantic-2026-07"
     elif knowledge_campaign:
         allowed = common + ("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")
         label = "knowledge-narrative-depth-001"
