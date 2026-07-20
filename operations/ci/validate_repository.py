@@ -187,6 +187,10 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "archive/semantic/star-atlas-transcripts/",
         "operations/campaigns/star-atlas-transcripts-semantic-2026-07/",
     )) for path in changes)
+    atlas_brew_semantic_campaign = any(path.startswith((
+        "archive/semantic/atlas-brew/",
+        "operations/campaigns/atlas-brew-significance-review-2026-07/",
+    )) for path in changes)
     knowledge_campaign = any(path.startswith(("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")) for path in changes)
     medium_campaign = any("star-atlas-medium" in path or path.startswith(("archive/raw/medium/", "archive/normalized/medium/", "archive/source-records/medium/")) for path in changes)
     ship_campaign = any(path.startswith((
@@ -239,7 +243,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = sum((ledger_campaign, transcript_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or pip33_vote_campaign or transcript_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = sum((ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if ledger_campaign:
@@ -258,6 +262,14 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
         )
         label = "star-atlas-transcripts-semantic-2026-07"
+    elif atlas_brew_semantic_campaign:
+        allowed = common + (
+            "archive/semantic/atlas-brew/",
+            "archive/manifests/lore-repository-ingestion-2026-07.json",
+            "operations/campaigns/atlas-brew-significance-review-2026-07/",
+            "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
+        )
+        label = "atlas-brew-significance-review-2026-07"
     elif knowledge_campaign:
         allowed = common + (
             "knowledge/",
@@ -420,6 +432,34 @@ def validate_medium_campaign() -> None:
     diff = run("git", "diff", "--exit-code", "--", str(campaign.relative_to(ROOT)), "archive/manifests", "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07")
     if diff.returncode:
         raise ValidationFailure("Medium campaign validation artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
+def validate_atlas_brew_semantic_campaign() -> None:
+    campaign = ROOT / "operations/campaigns/atlas-brew-significance-review-2026-07"
+    semantic = ROOT / "archive/semantic/atlas-brew"
+    generate = [sys.executable, str(campaign / "review_semantic_layer.py")]
+    validate = [sys.executable, str(campaign / "validate_review.py")]
+
+    def snapshot() -> dict[str, str]:
+        values = {f"semantic/{key}": value for key, value in sha_tree(semantic, set()).items()}
+        values.update({f"campaign/{key}": value for key, value in sha_tree(campaign, {"review_semantic_layer.py", "validate_review.py", "README.md"}).items()})
+        return values
+
+    run(*generate, check=True)
+    run(*validate, check=True)
+    first = snapshot()
+    run(*generate, check=True)
+    run(*validate, check=True)
+    second = snapshot()
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("Atlas Brew significance review is not deterministic: " + ", ".join(differing))
+    diff = run(
+        "git", "diff", "--exit-code", "--",
+        str(semantic.relative_to(ROOT)), str(campaign.relative_to(ROOT)),
+    )
+    if diff.returncode:
+        raise ValidationFailure("Atlas Brew significance review differs after deterministic regeneration:\n" + diff.stdout + diff.stderr)
 
 
 def validate_discord_campaign(base_ref: str) -> None:
@@ -600,6 +640,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_knowledge_campaign()
     elif contract == "star-atlas-medium-ingestion-2026-07":
         validate_medium_campaign()
+    elif contract == "atlas-brew-significance-review-2026-07":
+        validate_atlas_brew_semantic_campaign()
     elif contract == "discord-community-indexing-001":
         validate_discord_campaign(base_ref)
     elif contract == "canonical-pip-governance-ledger-2026-07":

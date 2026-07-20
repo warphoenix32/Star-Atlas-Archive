@@ -1,0 +1,22 @@
+{
+  "campaign_id": "atlas-brew-significance-review-2026-07",
+  "status": "PASS",
+  "checks": {
+    "deterministic_generation": true,
+    "all_json_parses": true,
+    "segments_preserved": true,
+    "sources_reconcile": true,
+    "captions_reconcile": true,
+    "decision_coverage": true,
+    "candidate_references": true,
+    "exclusions_explained": true,
+    "quotes_traceable": true,
+    "speaker_identity_not_inferred": true,
+    "selective_outputs": true,
+    "duplicate_clusters_reconcile": true,
+    "manifest_reconciles": true,
+    "repository_scope": true,
+    "git_diff_check": true
+  },
+  "errors": []
+}
