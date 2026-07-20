@@ -1,5 +1,20 @@
 ---
 title: Community Content URL Inventory — 2026-07-12
+seo_title: "Star Atlas Community Content URL Inventory — July 2026"
+seo_description: "A historical snapshot of 3,598 unique creator–URL pairs discovered in a 2022–2026 Star Atlas Discord content-creators export."
+knowledge_status: HISTORICAL
+as_of: 2026-07-12
+confidence: HIGH
+page_risk_score: 4
+page_risk_class: R2
+evidence_basis:
+  - "archive/normalized/manifests/normalized-urls.jsonl"
+known_limitations:
+  - "The inventory is complete only for its static extraction rules and supplied Discord export."
+  - "A Discord poster or bundle does not prove authorship or ownership of every linked item."
+research_gaps:
+  - "Network-validate unresolved URLs and reconcile creator bundles with stable publisher and author identities."
+review_after: 2027-01-20
 entry_type: source-inventory
 status: active
 updated: 2026-07-12
@@ -79,3 +94,7 @@ Excluded during extraction:
 - Generated: `2026-07-12T21:11:19.941060+00:00`
 - Source export ID: `8c09a7b3-0197-4358-9a14-d469e7a2ebfb`
 - Static extraction status: `COMPLETE_FOR_STATIC_EXTRACTION`
+
+## Review status
+
+`HISTORICAL`. This is a fixed discovery snapshot, not a current source directory or complete public-content inventory.

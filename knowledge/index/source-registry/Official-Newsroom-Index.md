@@ -1,5 +1,21 @@
 ---
 title: Official Star Atlas Newsroom Index
+seo_title: "Official Star Atlas Newsroom Historical Index"
+seo_description: "A chronological index of official Star Atlas newsroom publications from 2021 through the captured 2023 range, with test-entry and completeness cautions."
+knowledge_status: QUALIFIED
+as_of: 2026-07-20
+confidence: MEDIUM
+page_risk_score: 6
+page_risk_class: R2
+evidence_basis:
+  - "archive/source-records/campaign-delta-official/"
+  - "archive/campaign-summaries/campaign-delta-official/campaign-summary.json"
+known_limitations:
+  - "The visible catalog ends in July 2023 and is not presented as a complete lifetime newsroom inventory."
+  - "The upstream index includes duplicate or test entries requiring article-level review."
+research_gaps:
+  - "Extend the publication inventory after July 2023 and reconcile every item with a stable Source Record."
+review_after: 2027-01-20
 entry_type: source-index
 status: active
 updated: 2026-07-12
@@ -134,3 +150,7 @@ This file records the official Star Atlas newsroom as a chronological source fam
 6. Golden Era Start Sequence, Claim Stakes, and land sales.
 7. Escape Velocity, Never Alone, and Destination Starbase.
 8. CORE graphic novel and lore-related newsroom entries.
+
+## Review status
+
+`QUALIFIED`. The listed publication chronology is useful within its captured range; later coverage and article-level reconciliation are incomplete.
