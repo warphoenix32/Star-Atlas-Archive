@@ -1,7 +1,9 @@
 ---
 title: "SAGE Product-Family History"
+seo_title: "Star Atlas SAGE: Product-Family and Release History"
+seo_description: "A source-linked history of SAGE, SAGE Labs, Starbased, SAGE 3D, C4, and the product boundaries that prevent roadmap stages from being collapsed into one lifecycle."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 5
 page_risk_class: R2
@@ -16,7 +18,7 @@ related_products:
   - "SAGE 3D — later community-reported build or interface"
   - "C4 PTR — related later testing surface"
 first_seen: 2022-04-29
-last_reviewed: 2026-07-17
+last_reviewed: 2026-07-20
 source_priority:
   - A2
   - B1
@@ -126,3 +128,7 @@ SAGE is central to Star Atlas institutional history because its surviving record
 - [Product Timeline](../timeline/Product-Timeline.md)
 - [SCORE and Faction Fleet](SCORE-and-Faction-Fleet.md)
 - [Official Discord announcement corpus](../../archive/normalized/discord-announcements/messages/)
+
+## Review status
+
+`QUALIFIED`, last reviewed 2026-07-20. Product-family identity and the documented sequence are well supported. Current availability, exact SAGE 3D release evidence, C4 succession, and several economic execution claims remain unresolved at the narrower surface level.

@@ -1,7 +1,9 @@
 ---
 title: "Star Atlas Product Registry"
+seo_title: "Star Atlas Product Registry: Releases, Tests and Lifecycle States"
+seo_description: "A build-specific registry of Star Atlas products, releases, tests, updates, successors, deprecations, and unresolved lifecycle evidence."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 5
 page_risk_class: R2
@@ -83,3 +85,7 @@ Holosim sits beside those chains rather than cleanly inside either one. Official
 - [Atlas Brew semantic segments](../../archive/semantic/atlas-brew/segment-index.json)
 - [Official source records](../../archive/source-records/campaign-delta-official/)
 - [Product Timeline](../timeline/Product-Timeline.md)
+
+## Review status
+
+`QUALIFIED`, last reviewed 2026-07-20. Registry states are attached to the narrowest named surface supported by the evidence. Unresolved IDs and execution gaps remain visible rather than being resolved by inference.

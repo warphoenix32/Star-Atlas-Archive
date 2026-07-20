@@ -1,0 +1,19 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-2a-products-technology-2026-07",
+  "status": "PASS",
+  "checks": {
+    "deterministic_generation": true,
+    "page_count": true,
+    "pages_exist": true,
+    "required_metadata": true,
+    "review_sections": true,
+    "no_internal_marker_clusters": true,
+    "packets_reconcile": true,
+    "internal_links": true,
+    "evidence_references": true,
+    "risk_distribution": true,
+    "scope": true,
+    "git_diff_check": true
+  },
+  "errors": []
+}

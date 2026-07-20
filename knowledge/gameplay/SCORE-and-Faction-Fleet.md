@@ -1,7 +1,9 @@
 ---
 title: "SCORE-to-Starbased Transition"
+seo_title: "Star Atlas SCORE and Faction Fleet to Starbased History"
+seo_description: "A careful history of SCORE, Faction Fleet rewards, the Starbased transition, announced emissions deprecation, and the execution evidence still missing."
 knowledge_status: HISTORICAL
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 6
 page_risk_class: R2

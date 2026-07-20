@@ -1,41 +1,86 @@
 ---
-title: "UE5 Showroom"
+title: "UE5 Showroom History"
+seo_title: "Star Atlas UE5 Showroom: Release and Build History"
+seo_description: "A source-linked history of the Star Atlas Unreal Engine 5 Showroom, including pre-alpha access, its 2022 launch, Showroom R2.1, and unresolved later build lineage."
 knowledge_status: QUALIFIED
-as_of: 2026-07-15
-confidence: MEDIUM
-page_risk_score: 5
+as_of: 2026-07-20
+confidence: HIGH
+page_risk_score: 4
 page_risk_class: R2
+canonical_entity: PRODUCT-UE5
+aliases:
+  - "Showroom"
+  - "Star Atlas Showroom"
 evidence_basis:
+  - "archive/source-records/campaign-delta-official/SRC-OFF-340128795CCA03A9.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-57027457FD1317B4.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-C6B9C26055452AF8.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-FC61779037A23908.md"
   - "archive/semantic/atlas-brew/segment-index.json"
-  - "archive/source-records/campaign-delta-official/"
-  - "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md"
 known_limitations:
-  - "Current-state statements are date-bound."
-  - "Absence of evidence is not evidence of non-occurrence."
+  - "The repository does not yet preserve a complete release-note series after Showroom R2.1."
+  - "Atlas Brew speaker identity remains unknown; its segments are useful for recording-and-timestamp discovery, not named attribution."
 research_gaps:
-  - "Independent execution evidence remains incomplete where explicitly noted."
-review_after: 2027-01-15
+  - "Recover every Showroom build, patch note, access condition, and deprecation or successor notice."
+  - "Reconcile Showroom, later UE5 client terminology, C4, and any successor build without treating them as aliases by default."
+review_after: 2027-01-20
 ---
 
-# UE5 Showroom
-The UE5 Showroom is the early Star Atlas Unreal Engine 5 client and presentation environment. “UE5,” “Showroom,” and later build labels can overlap, but they should not be used as proof that every announced feature exists in every build.
+# UE5 Showroom History
+
+The Showroom was Star Atlas's first publicly documented Unreal Engine 5 client environment. It began as a pre-alpha presentation and gameplay surface distributed through the Epic Games Store, then acquired named revisions such as Showroom R2.1. It should be read as a build history—not as proof that every feature ever discussed for the Star Atlas Unreal client existed from launch.
 
 ## Identity and scope
 
-Official captured materials present an evolving high-fidelity client distributed through Epic Games, with build-specific flight, racing, combat, crew, exploration, and testing capabilities. The [official current-state snapshot](Official-Current-State-Snapshot-2026-07-12.md) records positioning as of 2026-07-12, not historical availability for every feature.
+“UE5” describes the technology family; “Showroom” names a product surface. Later Star Atlas Unreal builds may descend from, replace, or substantially change that surface, but they are not automatically aliases. This page therefore uses **UE5 Showroom** for the 2022–2023 client records and leaves later product lineage qualified until explicit release or migration evidence connects it.
 
-## Lifecycle
+Official material associated the Showroom with high-fidelity ships and environments, Epic Games Store distribution, and expanding gameplay tests. Those descriptions establish publisher positioning and named build content. They do not establish feature completeness, uninterrupted access, performance, or delivery of the wider MMO roadmap.
 
-The Showroom began as a limited Unreal presentation and gameplay surface and subsequently received tests and updates. Atlas Brew discussions preserve build and design commentary, but unknown speaker labels prevent named attribution. Test participation establishes access to that test environment; it does not establish a general release.
+## Lifecycle chronology
 
-Official roadmap records describe planned UE5 capabilities. Those plans remain PLANNED unless a dated build, release note, or support record establishes TESTING, LIVE, or UPDATED. Marketing repetition is not independent corroboration.
+| Date | Evidence state | Archival finding |
+|---|---|---|
+| 2022-09-29 | `ACCESS_INSTRUCTIONS / PRE_ALPHA` | ATMTA published instructions for entering the pre-alpha Showroom and separately framed it as a handcrafted metaverse journey. These records establish the intended access path and contemporary positioning. [SRC-OFF-340128795CCA03A9](../../archive/source-records/campaign-delta-official/SRC-OFF-340128795CCA03A9.md) [SRC-OFF-57027457FD1317B4](../../archive/source-records/campaign-delta-official/SRC-OFF-57027457FD1317B4.md) |
+| 2022-09-30 | `RELEASE_CLAIMED / PRE_ALPHA` | An official announcement stated that the Unreal Engine 5-powered pre-alpha Showroom had launched on the Epic Games Store. This is strong first-party release evidence for that named pre-alpha build. [SRC-OFF-C6B9C26055452AF8](../../archive/source-records/campaign-delta-official/SRC-OFF-C6B9C26055452AF8.md) |
+| 2023-06-02 | `UPDATED / R2.1` | ATMTA announced Showroom 2.1 as a game release connected to a racing season. The record supports a named revision and dated content expansion; it does not imply that all later UE5 roadmap systems were delivered. [SRC-OFF-FC61779037A23908](../../archive/source-records/campaign-delta-official/SRC-OFF-FC61779037A23908.md) |
+| 2026-07-12 | current official UE access `OBSERVED` | The official homepage linked an Unreal Engine client through the Epic Games Store and described a broader set of gameplay experiences. Because the captured page did not establish that every statement applied to the historical Showroom lineage, the repository does not silently merge the current client with every earlier build. [Official current-state snapshot](Official-Current-State-Snapshot-2026-07-12.md) |
+
+## Build-qualified feature treatment
+
+The archive follows four rules when reading Showroom evidence:
+
+1. A feature described in a launch article belongs to that article's named or dated build unless later evidence broadens it.
+2. Test or early-access availability is not general release.
+3. A roadmap discussion is not a shipped feature, even when a speaker uses confident future tense.
+4. A later build may supersede an earlier build without making every old mechanic active in the successor.
+
+Atlas Brew preserves extensive Showroom and Unreal discussions with exact recording and timestamp references. Those segments can identify when a topic was discussed and direct a researcher to the external video. Because normalized speakers remain `UNKNOWN`, a segment cannot support a named personal commitment unless independent attribution is recovered. Information about a product or build can still be useful when the wording, source recording, and timestamps are clear. [Atlas Brew segment index](../../archive/semantic/atlas-brew/segment-index.json)
 
 ## Current state
 
-As of 2026-07-15, the supported state is TESTING/UPDATED and early access. The archive does not support a claim that all roadmap careers, locations, multiplayer modes, or SAGE interoperability have been delivered.
+As of 2026-07-20, the historical Showroom has strong evidence for `PRE_ALPHA_RELEASED` in September 2022 and `UPDATED` through R2.1 in June 2023. The repository does not yet have enough versioned evidence to assign a precise current lifecycle state to the historical Showroom entity itself. The broader Unreal client had an official access path in July 2026, but its exact relationship to each Showroom build remains under review.
 
-## Evidence references
+This distinction avoids two errors: declaring the entire Unreal product merely “testing” forever, and declaring every Unreal roadmap feature live because a later client exists.
 
-- [Official current-state snapshot](Official-Current-State-Snapshot-2026-07-12.md)
-- [Official source records](../../archive/source-records/campaign-delta-official/)
-- [Atlas Brew semantic segments](../../archive/semantic/atlas-brew/segment-index.json)
+## Relationship to C4 and other products
+
+C4 is documented separately as a Public Test Realm in 2026. SAGE, Holosim, Fleet Command, and the Galactic Marketplace also have independent product and lifecycle records. Shared ships, lore, accounts, interfaces, or technical components do not prove identical code lineage or synchronized release states.
+
+## Historical value
+
+The Showroom marks the transition from Star Atlas's early asset, marketplace, and browser/on-chain surfaces into a publicly accessible high-fidelity Unreal environment. Its pre-alpha label is historically important: it records both genuine public access and the narrow maturity claim made at release.
+
+## Known limitations and missing artifacts
+
+The archive still needs every post-R2.1 release note; build numbers and checksums; Epic Games Store version history; access requirements by build; outage and deprecation notices; and an explicit successor or migration statement connecting the Showroom to later Unreal and C4 terminology.
+
+## Related pages
+
+- [Star Atlas Product Registry](Product-Registry.md)
+- [Official Current-State Snapshot](Official-Current-State-Snapshot-2026-07-12.md)
+- [Star Atlas Technical Platform](../technology/Technical-Platform.md)
+- [Product Timeline](../timeline/Product-Timeline.md)
+
+## Review status
+
+`QUALIFIED`, last reviewed 2026-07-20. The dated pre-alpha and R2.1 records are high-confidence first-party evidence. Later lineage and current-state continuity remain unresolved rather than inferred.

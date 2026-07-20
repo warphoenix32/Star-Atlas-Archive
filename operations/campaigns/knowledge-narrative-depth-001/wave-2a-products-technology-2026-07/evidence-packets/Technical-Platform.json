@@ -1,0 +1,71 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-2a-products-technology-2026-07",
+  "page_id": "KNOW-DE426156D9B34E29",
+  "proposed_path": "knowledge/technology/Technical-Platform.md",
+  "page_action": "REWRITE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Human-readable platform architecture and the distinction among documentation, source, deployment, integration, operation, and verification.",
+  "material_claims": [
+    {
+      "claim_id": "K2A-TECH-001",
+      "claim_text": "Official documentation identifies multiple Solana programs and game IDs as distinct technical surfaces.",
+      "claim_type": "TECHNICAL_DESCRIPTION",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "K2A-TECH-002",
+      "claim_text": "Official decoder support does not by itself prove current mainnet deployment.",
+      "claim_type": "EVIDENCE_BOUNDARY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-B3E826AFA52FB19B.md"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "K2A-TECH-003",
+      "claim_text": "Official June 2026 support records establish C4 as a public test surface, not a general release.",
+      "claim_type": "TESTING_STATE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-E061D3A6454697AB.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-952AB5D6D09DD6BF.md"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Page-level metadata and prose retain their own claim-specific limitations."
+  ],
+  "research_gaps": [
+    "See the page's research-gaps metadata and missing-artifacts section."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}

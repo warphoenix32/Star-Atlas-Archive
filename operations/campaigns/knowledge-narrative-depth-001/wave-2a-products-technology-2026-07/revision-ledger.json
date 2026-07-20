@@ -1,0 +1,96 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-2a-products-technology-2026-07",
+  "accepted": 11,
+  "deferred": 2,
+  "duplicate": 0,
+  "rejected": 0,
+  "records": [
+    {
+      "page_id": "KNOW-0DB77D1CD40A0F90",
+      "path": "knowledge/gameplay/Galactic-Marketplace.md",
+      "disposition": "ACCEPTED",
+      "reason": "Marketplace identity, 2021 and 2022 surface succession, current access, and operational evidence boundary.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-10C9276E8826BB0B",
+      "path": "knowledge/gameplay/UE5-Showroom.md",
+      "disposition": "ACCEPTED",
+      "reason": "Showroom pre-alpha and R2.1 build history, current Unreal-client boundary, and later-lineage gaps.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-DE426156D9B34E29",
+      "path": "knowledge/technology/Technical-Platform.md",
+      "disposition": "ACCEPTED",
+      "reason": "Human-readable platform architecture and the distinction among documentation, source, deployment, integration, operation, and verification.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-816B37143ADE9695",
+      "path": "knowledge/gameplay/Holosim.md",
+      "disposition": "ACCEPTED",
+      "reason": "SEO, review date, and preservation of the existing build-qualified history.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-96A8EB2FDF70A86A",
+      "path": "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+      "disposition": "ACCEPTED",
+      "reason": "Standard metadata and an explicit single-date official-positioning boundary.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-72347DD6F7CC1802",
+      "path": "knowledge/gameplay/Product-Registry.md",
+      "disposition": "ACCEPTED",
+      "reason": "Reader guidance, SEO, review status, and narrow lifecycle rows.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-872FFDEE06DA7747",
+      "path": "knowledge/gameplay/README.md",
+      "disposition": "ACCEPTED",
+      "reason": "Human-first navigation and lifecycle-language explanation.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-C6742C0E159BCD35",
+      "path": "knowledge/gameplay/SAGE.md",
+      "disposition": "ACCEPTED",
+      "reason": "SEO and review status while retaining surface-specific SAGE lineage.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-7240E93AB37FD5CF",
+      "path": "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+      "disposition": "ACCEPTED",
+      "reason": "SEO and current review date while retaining announced-versus-executed deprecation distinctions.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-9448F380C0AF8667",
+      "path": "knowledge/technology/Official-Technical-Surface-Inventory.md",
+      "disposition": "ACCEPTED",
+      "reason": "SEO and reader-facing evidence notes for the detailed program registry.",
+      "human_review_required": true
+    },
+    {
+      "page_id": "KNOW-09B0C9644A23F37C",
+      "path": "knowledge/technology/README.md",
+      "disposition": "ACCEPTED",
+      "reason": "Human-first technical-domain navigation and evidence ladder.",
+      "human_review_required": true
+    }
+  ],
+  "deferred_pages": [
+    {
+      "path": "knowledge/gameplay/Fleet-Command.md",
+      "reason": "Dedicated build and release evidence packet remains incomplete."
+    },
+    {
+      "path": "knowledge/gameplay/C4.md",
+      "reason": "PTR evidence exists, but successor identity and general-release history remain incomplete."
+    }
+  ]
+}

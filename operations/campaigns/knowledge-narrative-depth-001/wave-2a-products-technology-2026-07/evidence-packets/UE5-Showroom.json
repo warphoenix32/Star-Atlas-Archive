@@ -1,0 +1,70 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-2a-products-technology-2026-07",
+  "page_id": "KNOW-10C9276E8826BB0B",
+  "proposed_path": "knowledge/gameplay/UE5-Showroom.md",
+  "page_action": "REWRITE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Showroom pre-alpha and R2.1 build history, current Unreal-client boundary, and later-lineage gaps.",
+  "material_claims": [
+    {
+      "claim_id": "K2A-UE5-001",
+      "claim_text": "ATMTA published a UE5 Showroom pre-alpha release claim on 2022-09-30.",
+      "claim_type": "RELEASE_CLAIM",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-C6B9C26055452AF8.md"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "K2A-UE5-002",
+      "claim_text": "Showroom R2.1 was announced as a named release on 2023-06-02.",
+      "claim_type": "PRODUCT_UPDATE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-FC61779037A23908.md"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "K2A-UE5-003",
+      "claim_text": "Atlas Brew discussions remain useful for recording-and-timestamp discovery without supporting named attribution where the speaker is unknown.",
+      "claim_type": "EVIDENCE_BOUNDARY",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/semantic/atlas-brew/segment-index.json"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Page-level metadata and prose retain their own claim-specific limitations."
+  ],
+  "research_gaps": [
+    "See the page's research-gaps metadata and missing-artifacts section."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}

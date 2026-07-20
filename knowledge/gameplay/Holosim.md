@@ -1,7 +1,9 @@
 ---
 title: "Holosim Release and Feature History"
+seo_title: "Star Atlas Holosim: Release, Chapter and Feature History"
+seo_description: "An evidence-qualified history of Holosim, from its 2025 public test through seasonal chapters, delays, browser systems, rewards claims, and mainnet boundaries."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: HIGH
 page_risk_score: 4
 page_risk_class: R2
@@ -10,7 +12,7 @@ aliases:
   - "HoloSim"
   - "Star Atlas Holosim"
 first_seen: 2025-06-04
-last_reviewed: 2026-07-17
+last_reviewed: 2026-07-20
 source_priority:
   - A2
 related_entities:

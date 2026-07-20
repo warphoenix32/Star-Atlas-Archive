@@ -1,0 +1,71 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-2a-products-technology-2026-07",
+  "page_id": "KNOW-0DB77D1CD40A0F90",
+  "proposed_path": "knowledge/gameplay/Galactic-Marketplace.md",
+  "page_action": "REWRITE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Marketplace identity, 2021 and 2022 surface succession, current access, and operational evidence boundary.",
+  "material_claims": [
+    {
+      "claim_id": "K2A-MKT-001",
+      "claim_text": "ATMTA published a release claim for the 2021 Galactic Marketplace on 2021-08-04.",
+      "claim_type": "RELEASE_CLAIM",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-A465C97640C55838.md"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "K2A-MKT-002",
+      "claim_text": "ATMTA introduced a new replacement marketplace on 2022-07-22.",
+      "claim_type": "PRODUCT_SUCCESSION",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-0C5AA46E01E189EC.md"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "K2A-MKT-003",
+      "claim_text": "Official late-2025 support records documented order and fee workflows for the later marketplace surface.",
+      "claim_type": "DOCUMENTATION_STATE",
+      "temporal_scope": "DATE_BOUND",
+      "lifecycle_state": "AS_STATED",
+      "supporting_sources": [
+        "archive/source-records/campaign-delta-official/SRC-OFF-1EE2242A6F7844FF.md",
+        "archive/source-records/campaign-delta-official/SRC-OFF-B38AFD8A2122994F.md"
+      ],
+      "source_authority": "A2",
+      "corroboration_status": "SOURCE_LINKED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Page-level metadata and prose retain their own claim-specific limitations."
+  ],
+  "research_gaps": [
+    "See the page's research-gaps metadata and missing-artifacts section."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}

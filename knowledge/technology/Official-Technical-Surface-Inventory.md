@@ -1,7 +1,9 @@
 ---
 title: "Technology and Program Registry"
+seo_title: "Star Atlas Program IDs, APIs and Technology Registry"
+seo_description: "A source-linked registry of Star Atlas Solana programs, game IDs, APIs, repositories, Unreal tools, developer infrastructure, and unresolved deployment evidence."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: HIGH
 page_risk_score: 6
 page_risk_class: R2
@@ -23,7 +25,8 @@ review_after: 2027-01-17
 This registry separates on-chain programs, token mints, game IDs, APIs, frameworks, libraries, repositories, Unreal Engine tooling, and institutional support initiatives. Shared subject matter does not make these surfaces aliases, and documentation does not automatically establish deployment.
 
 **Primary source:** https://build.staratlas.com/
-**Source class:** [SRC-OFFICIAL] [EV-DOCUMENTED] [CONF-HIGH]
+
+**Evidence note:** The registry uses high-confidence first-party documentation for identifiers and official terminology. Deployment and operation remain separate questions.
 
 ## On-chain program and game-ID snapshot
 
@@ -125,9 +128,7 @@ The initiative states that Star Atlas covers Solana RPC infrastructure costs for
 
 Current official documentation states that, before release, all Star Atlas programs are internally reviewed by ATMTA and fully audited by third parties.
 
-**Evidence treatment:** [EV-ATTRIBUTED] [PUB-ATTRIBUTE]
-
-The statement is an official security-process claim. Individual audit firms, reports, scope, dates, findings, remediation, deployed program versions, and upgrade-authority status must be verified program by program before recording a specific contract as audited.
+This is an attributed publisher claim about the security process. Individual audit firms, reports, scope, dates, findings, remediation, deployed program versions, and upgrade-authority status must be verified program by program before recording a specific contract as audited.
 
 ## Registry evidence rules
 
