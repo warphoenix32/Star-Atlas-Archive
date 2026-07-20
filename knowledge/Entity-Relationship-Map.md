@@ -1,7 +1,9 @@
 ---
 title: "Star Atlas Entity Relationship Map"
+seo_title: "Star Atlas Ecosystem Map — Institutions, Products, and Evidence"
+seo_description: "Understand how the Star Atlas DAO, Foundation, Council, ATMTA, products, economy, sources, and evidence layers relate."
 knowledge_status: QUALIFIED
-as_of: 2026-07-17
+as_of: 2026-07-20
 confidence: HIGH
 page_risk_score: 4
 page_risk_class: R2
@@ -10,7 +12,7 @@ aliases:
   - "Star Atlas institutional map"
   - "Star Atlas knowledge ontology"
 first_seen: 2026-07-15
-last_reviewed: 2026-07-17
+last_reviewed: 2026-07-20
 source_priority:
   - A1
   - A2
@@ -44,8 +46,9 @@ known_limitations:
   - "Relationships are summarized from reviewed knowledge pages and remain subject to each linked page's evidence qualifications."
 research_gaps:
   - "Current staff, service-provider, and product relationships require periodic review."
-  - "Official social collections remain incomplete outside their captured date ranges and linked media binaries."
-review_after: 2027-01-15
+  - "Official social and publication collections remain incomplete outside their captured scopes and date ranges."
+  - "This navigational map must be reconciled to the future reviewed graph before machine relationships are published."
+review_after: 2027-01-20
 ---
 
 # Star Atlas Entity Relationship Map
@@ -114,10 +117,10 @@ The [Product Registry](gameplay/Product-Registry.md) is the canonical navigation
 | Official PIP portal captures | proposal text, vote mechanism, vote totals, and formal governance design |
 | Council PIP tracker | attributed operational status, milestone, payment, and accomplishment assessments |
 | Official social posts | announcement, release, event, and lifecycle evidence after semantic review |
-| Reviewed transcripts | contextual explanation and attributed statements when speaker identity is known |
+| Reviewed transcripts | contextual explanation and timestamped institutional evidence; speaker identity is required only when authority or personal attribution materially affects the claim |
 | [Official Discord announcements](media/Official-Discord-Announcements-Profile.md) | qualified profile of the merged archive and semantic corpus; author inference and missing attachments remain visible limitations |
 | [Official X account](media/Official-X-Account-Profile.md) | official statements within the captured period; retweets retain secondary-source attribution |
-| [Official Medium publication](media/Star-Atlas-Medium-Publication-Profile.md) | qualified source profile only until an exhaustive article-level corpus review is completed |
+| [Official Medium publication](media/Star-Atlas-Medium-Publication-Profile.md) | 173 confirmed articles fully ingested; publication discovery remains incomplete and 51 unresolved candidates are explicitly deferred |
 
 ## Navigation by question
 
@@ -130,6 +133,10 @@ The [Product Registry](gameplay/Product-Registry.md) is the canonical navigation
 ## Known limitations
 
 This map summarizes reviewed relationships; it does not create canonical graph triples. A linked page's status, date scope, source authority, contradictions, and research gaps govern the interpretation of each relationship.
+
+## Review status
+
+The map has been reconciled to the narrative-depth governance, economy, product, organization, media, event, and registry waves through July 20, 2026. It is ready for publication review as a human navigation aid, not as a machine graph or claim-level evidence export.
 
 ## See Also
 

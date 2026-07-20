@@ -1,26 +1,67 @@
-# Knowledge Overview
+---
+title: "Star Atlas Knowledge"
+seo_title: "Star Atlas Knowledge — Evidence-Qualified History and Reference"
+seo_description: "Explore the institutions, products, economy, lore, people, events, and history of Star Atlas through reviewed and source-linked knowledge."
+knowledge_status: CANONICAL
+as_of: 2026-07-20
+confidence: HIGH
+evidence_basis:
+  - "knowledge/Entity-Relationship-Map.md"
+  - "knowledge/index/source-registry/Public-Source-Registry.md"
+known_limitations:
+  - "Coverage follows the evidence currently preserved in the Archive and is not a claim of total historical completeness."
+  - "Qualified and historical pages retain unresolved conflicts and time-bounded conclusions."
+research_gaps:
+  - "See knowledge/research/Research-Backlog.md for prioritized acquisition and verification needs."
+review_after: 2027-01-20
+---
 
-This is the human-first canonical knowledge layer. Entries synthesize reviewed evidence while preserving citations, uncertainty, and conflicting accounts. Start with the [entity relationship map](Entity-Relationship-Map.md), the [master timeline](timeline/README.md), the [entity and source indexes](index/README.md), or a topic below.
+# Star Atlas Knowledge
 
-| Topic | Entry point |
+Star Atlas Knowledge turns preserved evidence into readable institutional history. It explains what is known about the universe, organizations, products, governance, economy, people, and community—without hiding where the record is incomplete or where an announcement never became a release.
+
+This is the interpretation layer of the repository. The [Archive](../archive/README.md) preserves source material; Knowledge organizes reviewed conclusions; the public Library presents approved knowledge without exposing internal workflow machinery.
+
+## Begin with a question
+
+| If you want to understand… | Start here |
 | --- | --- |
-| Ecosystem relationships | [Entity relationship map](Entity-Relationship-Map.md) |
-| Timeline | [Master timeline](timeline/README.md) |
-| People | [People index](people/README.md) |
-| Organizations | [Organizations index](organizations/README.md) |
-| Guilds | [Guild index](guilds/README.md) |
-| Governance | [Governance index](governance/README.md) |
-| Economy | [Economy index](economy/README.md) |
-| Gameplay and products | [Gameplay index](gameplay/README.md) |
-| Technology | [Technology index](technology/README.md) |
-| Lore | [Lore index](lore/README.md) |
-| Media and creators | [Media index](media/README.md) |
-| Events | [Events index](events/README.md) |
-| Controversies | [Controversies index](controversies/README.md) |
-| Open research | [Research backlog](research/README.md) |
+| How the ecosystem fits together | [Entity Relationship Map](Entity-Relationship-Map.md) |
+| What happened, and when | [Living Timeline](timeline/README.md) |
+| Governance authority, PIPs, and implementation | [Governance](governance/README.md) |
+| ATLAS, POLIS, treasury, and economic systems | [Economy](economy/README.md) |
+| SAGE, SCORE, Holosim, Showroom, and other products | [Gameplay and Products](gameplay/README.md) |
+| ATMTA, the DAO, the Foundation, and the Council | [Organizations](organizations/README.md) |
+| People and attributed institutional roles | [People](people/README.md) |
+| Guilds, DACs, and community institutions | [Guilds](guilds/README.md) |
+| The Galia Expanse and in-universe canon | [Lore](lore/README.md) |
+| Technology, programs, and infrastructure | [Technology](technology/README.md) |
+| Publications, broadcasts, and official communications | [Media and Sources](media/README.md) |
+| Major gatherings, launches, and community moments | [Events](events/README.md) |
+| Carefully documented disputes and corrections | [Controversies and Disputes](controversies/README.md) |
+| What the repository still does not know | [Research](research/README.md) |
 
-For preserved source material, use the separate [archive](../archive/README.md).
+## How to read a page
 
-## Narrative-depth collections
+Every knowledge page declares its status, evidence basis, review date, limitations, and research gaps. `CANONICAL` means the present synthesis is strongly supported; `QUALIFIED` means the page is useful but bounded by explicit uncertainty; `HISTORICAL` describes a superseded or time-specific state; and `PROVISIONAL` identifies valuable material that still needs scheduled review.
 
-The first narrative-depth campaign adds source-linked constitutional, election, treasury, token, product-family, communications, media, technology, organization, event, and historical-periodization records. Its [campaign summary](../operations/campaigns/knowledge-narrative-depth-001/campaign-summary.md), [promotion ledger](../operations/campaigns/knowledge-narrative-depth-001/promotion-ledger.md), and [research backlog](../operations/campaigns/knowledge-narrative-depth-001/research-backlog.md) preserve the supporting decisions and unresolved evidence needs.
+Those labels describe the quality and scope of the repository's synthesis—not an assurance that every upstream statement was independently true. Source authority, publication timing, corroboration, and lifecycle state remain visible at claim level.
+
+## Evidence boundaries
+
+The repository deliberately keeps distinctions that are easy to lose in ordinary summaries:
+
+- a proposal is not a vote;
+- passage is not implementation;
+- authorization is not payment;
+- an announcement is not a release;
+- testing is not general availability;
+- a roadmap is not delivery;
+- a Council report is not independent verification;
+- community recollection is not automatically contemporaneous evidence.
+
+Where the evidence supports only one stage, the page says only that. Where sources conflict, both records remain visible until better evidence resolves them.
+
+## Review status
+
+This index was comprehensively revised during Knowledge Narrative Depth Wave 4. It is ready for publication review and introduces no change to preserved archive, semantic, graph, or publication evidence.
