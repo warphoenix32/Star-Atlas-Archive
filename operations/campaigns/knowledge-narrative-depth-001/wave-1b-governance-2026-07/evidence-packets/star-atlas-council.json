@@ -1,0 +1,66 @@
+{
+  "page_id": "star-atlas-council",
+  "proposed_path": "knowledge/governance/Star-Atlas-Council.md",
+  "page_action": "REWRITE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_class": "R2",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "STAR-ATLAS-COUNCIL-01",
+      "claim_text": "The Council is an elected process steward rather than an independent legislative sovereign.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "STAR-ATLAS-COUNCIL-02",
+      "claim_text": "Later election winners remain unresolved where final result artifacts are absent.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "STAR-ATLAS-COUNCIL-03",
+      "claim_text": "Council tracker states remain attributed operational assessments.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}

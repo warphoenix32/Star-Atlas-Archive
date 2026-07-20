@@ -1,0 +1,63 @@
+{
+  "page_id": "governance-evidence-states",
+  "proposed_path": "knowledge/governance/Governance-Implementation-and-Evidence-States.md",
+  "page_action": "REWRITE",
+  "proposed_knowledge_status": "CANONICAL",
+  "page_risk_class": "R1",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "GOVERNANCE-EVIDENCE-STATES-01",
+      "claim_text": "Evidence states describe what preserved artifacts establish, not whether undocumented events occurred.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GOVERNANCE-EVIDENCE-STATES-02",
+      "claim_text": "Council reporting and independent verification remain separate.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GOVERNANCE-EVIDENCE-STATES-03",
+      "claim_text": "Treasury vocabulary distinguishes requested, authorized, Council-reported, unverified, and missing on-chain evidence.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}

@@ -1,5 +1,7 @@
 ---
 title: "Governance and Economy Overview"
+seo_title: "Star Atlas Governance and Economy: POLIS, Treasury, and Funding"
+seo_description: "How POLIS voting, the Star Atlas DAO, Foundation, Council, treasury architecture, and Ecosystem Fund connect without collapsing authority into execution."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: MEDIUM
@@ -20,6 +22,8 @@ review_after: 2027-01-15
 Star Atlas governance connects POLIS-based decision making to treasury policy and ecosystem funding. The connection is institutional, not evidentiary shorthand: a vote can authorize an economic action without proving a payment or outcome.
 
 This overview maps the captured governance model as of 2026-07-17. It does not claim that every constitutional power, wallet control, budget, payment, or funded deliverable has been independently verified in current operation.
+
+The central relationship is simple but easy to misstate: governance can authorize economic action, while financial evidence establishes whether that action occurred. The historical record becomes more reliable when these are told as connected chapters rather than compressed into a single “approved and paid” label.
 
 ## Institutions and instruments
 

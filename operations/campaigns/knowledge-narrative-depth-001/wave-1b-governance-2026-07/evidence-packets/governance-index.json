@@ -1,0 +1,63 @@
+{
+  "page_id": "governance-index",
+  "proposed_path": "knowledge/governance/README.md",
+  "page_action": "INDEX_REDESIGN",
+  "proposed_knowledge_status": "CANONICAL",
+  "page_risk_class": "R1",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "GOVERNANCE-INDEX-01",
+      "claim_text": "The governance domain is organized around institutions, proposals, elections, funding, and evidence states.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GOVERNANCE-INDEX-02",
+      "claim_text": "Public narrative is separated from internal taxonomy and audit mechanics.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "GOVERNANCE-INDEX-03",
+      "claim_text": "Authorization is never presented as execution without later evidence.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}

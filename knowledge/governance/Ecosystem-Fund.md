@@ -1,5 +1,7 @@
 ---
 title: "Star Atlas Ecosystem Fund"
+seo_title: "Star Atlas Ecosystem Fund: PIP-4, PIP-23, and Funding Rules"
+seo_description: "The history and operating rules of the Star Atlas Ecosystem Fund, including PIP-23 supersession, reserve limits, Council duties, and payment evidence boundaries."
 knowledge_status: QUALIFIED
 as_of: 2026-07-17
 confidence: MEDIUM
@@ -21,6 +23,8 @@ review_after: 2027-01-15
 # Star Atlas Ecosystem Fund
 
 The Ecosystem Fund is a bounded DAO treasury allocation and proposal process for financing ecosystem work. Its controlling captured framework is PIP-23, which replaces PIP-4 in full. It is neither the whole DAO Treasury nor a separate legislature, and a PIP's passage does not prove payment or completion.
+
+Its historical role is to translate DAO authority into a repeatable route for community projects. That route constrains who may request funds, how much may be committed, what reserves must remain, which institution administers the program, and what later evidence is needed before an award can be described as paid or complete.
 
 ## Policy history
 

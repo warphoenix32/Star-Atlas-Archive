@@ -1,0 +1,63 @@
+{
+  "page_id": "failure-termination-casebook",
+  "proposed_path": "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+  "page_action": "EXPAND_AND_STANDARDIZE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_class": "R2",
+  "as_of": "2026-07-20",
+  "material_claims": [
+    {
+      "claim_id": "FAILURE-TERMINATION-CASEBOOK-01",
+      "claim_text": "Failed, terminated, canceled, withdrawn, superseded, and unverified proposals are distinct states.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "FAILURE-TERMINATION-CASEBOOK-02",
+      "claim_text": "PIP-14 and PIP-17 passed before Council-reported terminal states.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    },
+    {
+      "claim_id": "FAILURE-TERMINATION-CASEBOOK-03",
+      "claim_text": "PIP-31 passed before author withdrawal and reported non-implementation.",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+      ],
+      "source_authority": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "See page front matter and narrative limitations."
+  ],
+  "research_gaps": [
+    "See page-specific missing-artifact section or front matter."
+  ],
+  "review_required": false,
+  "review_after": "2027-01-20"
+}
