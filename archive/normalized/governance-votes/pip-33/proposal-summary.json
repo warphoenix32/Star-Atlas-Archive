@@ -1,0 +1,45 @@
+{
+  "ballot_counts": {
+    "abstain": 20,
+    "no": 59,
+    "yes": 141
+  },
+  "ballot_mechanism": "BINARY_PVP_WITH_ABSTAIN",
+  "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",
+  "decisive_pvp_rounded_5dp": "195097940.36116",
+  "effective_ballot_count": 220,
+  "human_validated_identity_count": 1,
+  "margin_pvp_rounded_5dp": "145382859.66232",
+  "memo_program_used_counts": {
+    "false": 148,
+    "true": 72
+  },
+  "no_percentage_of_decisive_pvp_rounded_5dp": "12.74106",
+  "payment_or_implementation_evidence": false,
+  "pip_id": "PIP-33",
+  "proposal_hash": "8c9cd4e467",
+  "proposal_id": "397fee39-fd7c-42be-89e3-169094138257",
+  "pvp_raw_sums": {
+    "abstain": "83860459.549096303435",
+    "no": "24857540.3494159807778",
+    "yes": "170240400.01173955829543"
+  },
+  "pvp_rounded_5dp": {
+    "abstain": "83860459.54910",
+    "no": "24857540.34942",
+    "yes": "170240400.01174"
+  },
+  "raw_export_preserved": false,
+  "result": "PASSED",
+  "result_rule": "YES_PVP_GT_NO_PVP_PASS; NO_PVP_GT_YES_PVP_FAIL; EQUALITY_TIED",
+  "signature_replay_performed": false,
+  "source_id": "SRC-SOLANA-PIP-33-5EE6D3F844C4",
+  "superseded_vote_event_count": 0,
+  "total_pvp_raw": "278958399.91025184250823",
+  "total_pvp_rounded_5dp": "278958399.91025",
+  "unique_wallet_count": 220,
+  "vote_event_count": 220,
+  "vote_event_created_at_max": "2026-07-10T14:00:07.493Z",
+  "vote_event_created_at_min": "2026-06-27T02:22:46.457Z",
+  "yes_percentage_of_decisive_pvp_rounded_5dp": "87.25894"
+}

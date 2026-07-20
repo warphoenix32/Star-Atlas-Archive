@@ -1,0 +1,67 @@
+{
+  "artifact_count": 12,
+  "artifacts": [
+    {
+      "byte_length": 247958,
+      "path": "archive/normalized/governance-votes/pip-33/effective-ballots.jsonl",
+      "sha256": "2ef134f2d8a969fca96cf5b5b88e4fe431740daf6c1b7d038fa1e45fc6bc1c03"
+    },
+    {
+      "byte_length": 1491,
+      "path": "archive/normalized/governance-votes/pip-33/proposal-summary.json",
+      "sha256": "6fd325ecd47c3dbfdde758577554badcb70d29aed73fc70ca67d9990b5482ab2"
+    },
+    {
+      "byte_length": 454268,
+      "path": "archive/normalized/governance-votes/pip-33/vote-events.jsonl",
+      "sha256": "36bf69377044cdbe0cc773b76579a75159c61924d0cb390635190e5e975041aa"
+    },
+    {
+      "byte_length": 995,
+      "path": "archive/provenance/governance-votes/pip-33.json",
+      "sha256": "6765b3b7f6257951f650bcb3542c6d2a2833968d38bc1e9cf336244ab84e90e0"
+    },
+    {
+      "byte_length": 2841,
+      "path": "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json",
+      "sha256": "e733d58a4136819eb6b551526d3799bc83cda5557798c88913faf3c7ce6b3ca8"
+    },
+    {
+      "byte_length": 1870,
+      "path": "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.md",
+      "sha256": "e002d7226499d0fc8984ad7457e11af32ade68e9e0d5fb41fe1b5d6e31964944"
+    },
+    {
+      "byte_length": 1624,
+      "path": "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json",
+      "sha256": "e4a90bbdd93353a856842f850487e87630d875c7808d3dbf39ebbd6171fb3570"
+    },
+    {
+      "byte_length": 624,
+      "path": "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.md",
+      "sha256": "fb5040bd59e199eb0bf40f3acdb08368455cbf4c4f29e0f09ad1dd1dd7b4dc9f"
+    },
+    {
+      "byte_length": 2120,
+      "path": "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/curator-decisions.json",
+      "sha256": "0eeaabb4053ffa67289d2ee9875a53661632554db482264a45efd90776175fca"
+    },
+    {
+      "byte_length": 847,
+      "path": "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/identity-and-faction-policy.json",
+      "sha256": "3a82a663dbf6657682982d31395e51f2e988d7f6f560d21d8541d367e6283d70"
+    },
+    {
+      "byte_length": 1883,
+      "path": "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/reconciliation-report.json",
+      "sha256": "3a6c7e7a03812429ef743f142818050268f677a532c171fe8bd29cd9b2abf545"
+    },
+    {
+      "byte_length": 782,
+      "path": "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/reconciliation-report.md",
+      "sha256": "a302768129a8f259494d7fb56923b34fc655d984591fa279826945481e406cd1"
+    }
+  ],
+  "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",
+  "generated_as_of": "2026-07-20"
+}

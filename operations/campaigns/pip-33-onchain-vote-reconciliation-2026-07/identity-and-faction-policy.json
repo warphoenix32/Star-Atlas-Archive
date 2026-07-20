@@ -1,0 +1,23 @@
+{
+  "canonical_identity_requirement": "HUMAN_VALIDATION",
+  "display_name_role": "SELF_SELECTED_ALIAS_OBSERVATION",
+  "faction_color_mapping": {
+    "blue": "ONI",
+    "red": "MUD",
+    "white_or_uncolored": "NO_FACTION_SELECTED",
+    "yellow": "USTUR"
+  },
+  "faction_temporal_scope": "PROFILE_SELECTED_FACTION_AT_CAPTURE_TIME",
+  "policy_id": "GOVERNANCE-VOTER-IDENTITY-v1",
+  "prior_adjudication_reuse": "ALLOWED_WHEN_WALLET_MATCHES_AND_NO_CONTRARY_EVIDENCE_EXISTS",
+  "uncolored_interpretation": "NO_FACTION_SELECTED; NOT_PROOF_OF_NO_EXTERNAL_AFFILIATION",
+  "verified_identities": [
+    {
+      "authority": "REPOSITORY_OPERATOR",
+      "canonical_identity": "Siggy",
+      "status": "HUMAN_VERIFIED",
+      "wallet_public_key": "Ae8AjMQXZsZ7jMWSZTei3ycy4MmvLoPXpDn1w65MrA9U"
+    }
+  ],
+  "wallet_public_key_role": "STABLE_BALLOT_IDENTITY"
+}

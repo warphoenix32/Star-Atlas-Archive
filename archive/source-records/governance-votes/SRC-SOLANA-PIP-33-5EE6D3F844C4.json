@@ -1,0 +1,62 @@
+{
+  "access": "recallable_onchain",
+  "artifact_chain": {
+    "effective_ballots": "archive/normalized/governance-votes/pip-33/effective-ballots.jsonl",
+    "normalized_vote_events": "archive/normalized/governance-votes/pip-33/vote-events.jsonl",
+    "proposal_summary": "archive/normalized/governance-votes/pip-33/proposal-summary.json",
+    "provenance": "archive/provenance/governance-votes/pip-33.json",
+    "source_record_json": "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json",
+    "source_record_markdown": "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.md"
+  },
+  "authority": {
+    "classification": "ONCHAIN_VALIDATABLE",
+    "operator_confirmation": "The signature field represents the exact Solana blockchain signature for validation.",
+    "scope": "Vote-event and ballot-result evidence only; not payment or implementation evidence.",
+    "signature_semantics": "SOLANA_BLOCKCHAIN_VALIDATION_SIGNATURE"
+  },
+  "canonical_url": null,
+  "captured_at": "2026-07-20",
+  "creator": [
+    "Star Atlas DAO voters"
+  ],
+  "document_type": "SOLANA_ONCHAIN_GOVERNANCE_VOTE_RECORD_SET",
+  "provenance": {
+    "acquisition_method": "submitted directly by repository operator",
+    "original_filename": "PIP-33.txt",
+    "preservation_decision": "Raw wrapper omitted because the record is recallable from the blockchain; normalized vote evidence retained.",
+    "source_artifact_preserved": false,
+    "source_artifact_sha256": "5ee6d3f844c4932db1195429aa191fe7c6ae21087c12520d636ebe3a4d8dfacb"
+  },
+  "published_at_normalized": null,
+  "published_at_original": null,
+  "publisher": "Solana blockchain; operator-provided export",
+  "quality": {
+    "completeness": "COMPLETE_FOR_SUPPLIED_PIP_33_EXPORT",
+    "extraction_confidence": "HIGH",
+    "limitations": [
+      "Signatures are preserved but were not independently replayed during this campaign.",
+      "Display names and profile-selected factions are absent from the on-chain export and require separate enrichment.",
+      "This vote dataset does not establish payment or proposal implementation."
+    ],
+    "manual_review_required": true,
+    "raw_export_preservation": "OMITTED_BY_OPERATOR_SCOPE",
+    "signature_replay_performed": false
+  },
+  "source_id": "SRC-SOLANA-PIP-33-5EE6D3F844C4",
+  "source_lineage": {
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Individual Star Atlas DAO voters"
+    ],
+    "primary_sources": [
+      "Solana blockchain signatures embedded per ballot"
+    ],
+    "publication": "Solana blockchain",
+    "publication_role": "ONCHAIN_VOTE_EVIDENCE",
+    "relationship": "RECORDS_BALLOTS_FOR"
+  },
+  "source_type": "operator_provided_onchain_vote_export",
+  "title": "PIP-33 on-chain governance vote export",
+  "updated_at_normalized": null,
+  "updated_at_original": null
+}

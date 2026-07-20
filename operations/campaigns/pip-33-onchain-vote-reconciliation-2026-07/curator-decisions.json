@@ -1,0 +1,54 @@
+{
+  "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",
+  "decisions": [
+    {
+      "authority": "repository operator",
+      "decision": "Binary passage is determined by YES PVP versus NO PVP; abstain is recorded but not decisive.",
+      "decision_id": "P33-VOTE-001",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "Source status plus voting-end date methodology may be treated as evidential.",
+      "decision_id": "P33-VOTE-002",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "Preserve original PVP strings and use five-decimal ROUND_HALF_UP values for normalized display and reconciliation.",
+      "decision_id": "P33-VOTE-003",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "Display names are self-selected aliases; every canonical voter identity attribution requires human validation, with later records allowed to reuse prior adjudication.",
+      "decision_id": "P33-ID-001",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "Siggy is human-verified as wallet Ae8AjMQXZsZ7jMWSZTei3ycy4MmvLoPXpDn1w65MrA9U.",
+      "decision_id": "P33-ID-002",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "Profile-name colors encode selected faction: red MUD, blue ONI, yellow Ustur; white/uncolored means no faction selected.",
+      "decision_id": "P33-FACTION-001",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "The signature field is the exact Solana blockchain validation signature; preserve it in normalized records.",
+      "decision_id": "P33-SOURCE-001",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "The recallable raw export is not preservation-critical and is omitted; normalized evidence and source hash are retained.",
+      "decision_id": "P33-SOURCE-002",
+      "status": "ACCEPTED"
+    }
+  ],
+  "open_decision_count": 0
+}

@@ -1,0 +1,34 @@
+{
+  "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",
+  "checks": {
+    "artifact_reconciliation": "PASS",
+    "canonical_ledger_reconciliation": "PASS",
+    "deterministic_build": "PASS",
+    "effective_ballot_reconciliation": "PASS",
+    "five_decimal_rounding": "PASS",
+    "forbidden_paths": "PASS",
+    "identity_boundary": "PASS",
+    "json_jsonl_parsing": "PASS",
+    "payment_implementation_boundary": "PASS",
+    "signature_field_representation": "PASS",
+    "signed_message_structural_validation": "PASS_AT_IMPORT",
+    "vote_counts_and_pvp": "PASS",
+    "vote_event_uniqueness": "PASS",
+    "wallet_uniqueness": "PASS"
+  },
+  "counts": {
+    "effective_ballots": 220,
+    "human_verified_identities": 1,
+    "unadjudicated_identities": 219,
+    "unique_signatures": 220,
+    "unique_wallets": 220,
+    "vote_events": 220
+  },
+  "limitations": [
+    "Signatures are retained but not independently replayed in this campaign.",
+    "The raw export wrapper is omitted by operator decision.",
+    "The dataset does not verify payment, treasury execution, or proposal implementation.",
+    "All voter identity mappings except Siggy remain unadjudicated."
+  ],
+  "result": "PASS"
+}

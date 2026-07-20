@@ -1,0 +1,60 @@
+{
+  "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",
+  "canonical_knowledge_modified": false,
+  "items": [
+    {
+      "canonical_pip_ledger": "220",
+      "field": "ballot_count",
+      "onchain_export": "220",
+      "status": "MATCH_AT_5_DECIMALS"
+    },
+    {
+      "canonical_pip_ledger": "141",
+      "field": "yes_ballots",
+      "onchain_export": "141",
+      "status": "MATCH_AT_5_DECIMALS"
+    },
+    {
+      "canonical_pip_ledger": "59",
+      "field": "no_ballots",
+      "onchain_export": "59",
+      "status": "MATCH_AT_5_DECIMALS"
+    },
+    {
+      "canonical_pip_ledger": "20",
+      "field": "abstain_ballots",
+      "onchain_export": "20",
+      "status": "MATCH_AT_5_DECIMALS"
+    },
+    {
+      "canonical_pip_ledger": "170240400.01174",
+      "field": "yes_pvp",
+      "onchain_export": "170240400.01174",
+      "status": "MATCH_AT_5_DECIMALS"
+    },
+    {
+      "canonical_pip_ledger": "24857540.34942",
+      "field": "no_pvp",
+      "onchain_export": "24857540.34942",
+      "status": "MATCH_AT_5_DECIMALS"
+    },
+    {
+      "canonical_pip_ledger": "83860459.54910",
+      "field": "abstain_pvp",
+      "onchain_export": "83860459.54910",
+      "status": "MATCH_AT_5_DECIMALS"
+    },
+    {
+      "canonical_pip_ledger": "278958399.91025",
+      "field": "total_pvp",
+      "onchain_export": "278958399.91025",
+      "status": "MATCH_AT_5_DECIMALS"
+    }
+  ],
+  "pip_id": "PIP-33",
+  "precision_policy": "ROUND_HALF_UP_TO_5_DECIMALS",
+  "relationship": "ONCHAIN_VOTE_EXPORT_RECONCILES_CANONICAL_PIP_LEDGER",
+  "result": "PASS",
+  "result_finding": "The supplied 220-ballot export independently reproduces the canonical ledger's PIP-33 counts, PVP totals, and PASSED result at five-decimal precision.",
+  "treasury_finding": "This is vote evidence, not payment evidence. PIP-33 payment and implementation states remain unchanged and unresolved."
+}

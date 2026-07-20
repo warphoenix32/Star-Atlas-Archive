@@ -197,6 +197,15 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/campaigns/community-wallet-attribution-ingestion-2026-07/",
         "operations/tests/community_wallet_attributions/",
     )) or path == "archive/manifests/community-wallet-attribution-ingestion-2026-07.json" for path in changes)
+    pip33_vote_campaign = any(path.startswith((
+        "archive/normalized/governance-votes/pip-33/",
+        "archive/source-records/governance-votes/",
+        "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/",
+        "operations/tests/pip33_governance_votes/",
+    )) or path in {
+        "archive/provenance/governance-votes/pip-33.json",
+        "archive/manifests/pip-33-onchain-vote-reconciliation-2026-07.json",
+    } for path in changes)
     discord_campaign = any(path.startswith(("operations/campaigns/discord-community-indexing-001/", "operations/tests/discord_community_indexing/")) for path in changes)
     library_frontend = any(path.startswith(("publication/site/", "operations/tests/library_frontend/")) or path == "publication/README.md" for path in changes)
     lore_campaign = any(path.startswith((
@@ -223,7 +232,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, discord_campaign, library_frontend, lore_campaign and not wallet_campaign, pipeline_framework and not agent_contracts, agent_contracts))
+    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or pip33_vote_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if ledger_campaign:
@@ -270,6 +279,18 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/tests/community_wallet_attributions/",
         )
         label = "community-wallet-attribution-ingestion-2026-07"
+    elif pip33_vote_campaign:
+        allowed = common + (
+            "archive/normalized/governance-votes/pip-33/",
+            "archive/provenance/governance-votes/pip-33.json",
+            "archive/source-records/governance-votes/",
+            "archive/manifests/pip-33-onchain-vote-reconciliation-2026-07.json",
+            "archive/manifests/lore-repository-ingestion-2026-07.json",
+            "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/",
+            "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
+            "operations/tests/pip33_governance_votes/",
+        )
+        label = "pip-33-onchain-vote-reconciliation-2026-07"
     elif discord_campaign:
         allowed = common + (
             "operations/campaigns/discord-community-indexing-001/",
@@ -505,6 +526,31 @@ def validate_community_wallet_campaign() -> None:
         raise ValidationFailure("Community wallet campaign artifacts do not reconcile with committed files:\n" + diff.stdout)
 
 
+def validate_pip33_vote_campaign() -> None:
+    campaign = ROOT / "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07"
+    build_command = [sys.executable, str(campaign / "build_campaign.py")]
+    validate_command = [sys.executable, str(campaign / "validate_campaign.py")]
+    exclusions = {"import_vote_export.py", "build_campaign.py", "validate_campaign.py", "README.md", "source-assessment.md"}
+    run(*build_command, check=True)
+    first = run_cycle(validate_command, campaign, exclusions)
+    run(*build_command, check=True)
+    second = run_cycle(validate_command, campaign, exclusions)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("PIP-33 vote campaign output is not deterministic: " + ", ".join(differing))
+    diff = run(
+        "git", "diff", "--exit-code", "--",
+        str(campaign.relative_to(ROOT)),
+        "archive/normalized/governance-votes/pip-33",
+        "archive/provenance/governance-votes/pip-33.json",
+        "archive/source-records/governance-votes",
+        "archive/manifests/pip-33-onchain-vote-reconciliation-2026-07.json",
+        "operations/tests/pip33_governance_votes",
+    )
+    if diff.returncode:
+        raise ValidationFailure("PIP-33 vote campaign artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
 def validate_promotion_framework() -> None:
     example = ROOT / "operations/schema/examples/promotion-campaign-v1.json"
     payload = json.loads(example.read_text(encoding="utf-8"))
@@ -544,6 +590,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_starbased_ship_campaign()
     elif contract == "community-wallet-attribution-ingestion-2026-07":
         validate_community_wallet_campaign()
+    elif contract == "pip-33-onchain-vote-reconciliation-2026-07":
+        validate_pip33_vote_campaign()
     elif contract == "lore-repository-ingestion-2026-07":
         validate_lore_repository_campaign()
     elif contract == "simplified-knowledge-pipeline":

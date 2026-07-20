@@ -1,0 +1,24 @@
+{
+  "authority": {
+    "evidence_status": "ONCHAIN_VALIDATABLE",
+    "signature_replay_status": "NOT_REPLAYED_IN_THIS_CAMPAIGN",
+    "signature_semantics": "SOLANA_BLOCKCHAIN_VALIDATION_SIGNATURE",
+    "signature_semantics_basis": "REPOSITORY_OPERATOR_CONFIRMATION",
+    "source_type": "SOLANA_ONCHAIN_GOVERNANCE_VOTE_RECORD_SET"
+  },
+  "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",
+  "normalization": {
+    "display_rounding": "ROUND_HALF_UP_TO_5_DECIMALS",
+    "effective_ballot_rule": "LATEST_INDEX_RECORD_CREATED_AT_PER_WALLET",
+    "identity_rule": "DISPLAY_NAMES_REQUIRE_HUMAN_VALIDATION",
+    "voting_power_raw_preserved": true
+  },
+  "source_artifact": {
+    "omission_basis": "REPOSITORY_OPERATOR_SCOPE_DECISION_RECALLABLE_ONCHAIN",
+    "original_filename": "PIP-33.txt",
+    "preserved_in_repository": false,
+    "record_count": 220,
+    "sha256": "5ee6d3f844c4932db1195429aa191fe7c6ae21087c12520d636ebe3a4d8dfacb"
+  },
+  "source_id": "SRC-SOLANA-PIP-33-5EE6D3F844C4"
+}
