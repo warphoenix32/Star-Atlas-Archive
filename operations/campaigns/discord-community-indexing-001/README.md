@@ -4,6 +4,14 @@ This campaign is a deterministic, evidence-linked **rolling discovery system** f
 
 It is not a canonical people registry, a guild registry, a completed Discord corpus, or an automatic knowledge-promotion system. It does not write to `archive/`, `knowledge/`, `graph/`, or `publication/`.
 
+## Conversation significance boundary
+
+Message preservation and knowledge significance are separate decisions. Future conversational exports are reviewed as contextual windows with exact Source IDs, timestamps, participants, reply or chronological linkage, topic continuity, recurrence, and counterevidence. Message volume, keyword density, or sentiment alone cannot establish historical importance or animosity.
+
+Unrelated real-world politics, culture-war discussion, unrelated games, off-topic personal commentary, and personal attacks unrelated to Star Atlas conduct or history remain archive-only. Star Atlas-related interpersonal material may be evaluated only when it materially concerns guild conduct, governance, competition, transactions, leadership, moderation, alliances, institutional decisions, or documented in-game or community actions. Ambiguous boundaries use `OUT_OF_SCOPE_OR_AMBIGUOUS`. Reputationally adverse interpretations about identifiable people or organizations are at least R3 and require individual human adjudication.
+
+The current 1,071-message corpus cannot safely support conversation clustering: native channel and message identifiers and trustworthy native channel context are absent. The campaign therefore retains its message-level indexes and emits no interaction finding. This is an evidence limitation, not a claim that no significant conversations exist.
+
 ## Current coverage and its limits
 
 The present corpus contains one independently supplied conversation export represented three ways: one raw Markdown aggregate, one normalized JSONL aggregate, and 1,071 normalized per-message JSON records. The derived CSV index is inventoried but is not parsed as another message export. The three evidence representations reconcile to 1,071 unique Source IDs and 3,213 parsed occurrences.
@@ -124,6 +132,8 @@ The build uses only the Python standard library. Validation also runs the reposi
 - `conflict-report.json`: identity non-merge conflicts, duplicate-review candidates, and missing native identifiers.
 - `human-resolution-queue.json`: structured unresolved decisions with allowed operator actions.
 - `curator-decisions.json`: the complete 41-item human adjudication record applied by this revision.
+- `conversation-significance-policy.json`: controlled scope, interaction, disposition, and reputational-review rules for conversational evidence.
+- `conversation-significance-assessment.json`: corpus-level readiness decision; the current export remains message-index-only because conversation structure cannot be reconstructed reliably.
 - `discord-channel-coverage.json`: export-scoped server/community/channel coverage and timestamp bounds.
 - `discord-channel-gap-report.json`: known temporal and identity gaps without false completeness claims.
 - `discord-collection-backlog.json`: prioritized acquisition targets and required artifacts.

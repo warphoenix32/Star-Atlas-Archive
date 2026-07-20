@@ -261,6 +261,29 @@ def test_curator_decisions_are_complete_and_explicit():
     assert by_number[41]["decision"] == "CONFIRMED"
 
 
+def test_conversation_policy_excludes_unrelated_material_and_requires_r3_review():
+    policy = indexer.conversation_significance_policy()
+    assert "real-world politics unrelated to Star Atlas" in policy["excluded_from_evaluation"]
+    assert "personal attacks unrelated to Star Atlas conduct or history" in policy["excluded_from_evaluation"]
+    assert "OUT_OF_SCOPE_OR_AMBIGUOUS" in policy["dispositions"]
+    assert policy["reputational_review"]["minimum_risk"] == "R3"
+    assert policy["reputational_review"]["individual_human_adjudication_required"] is True
+
+
+def test_current_style_export_is_not_promoted_as_a_conversation_corpus():
+    messages = [
+        indexer.Message(
+            source_id="source-1", message_id=None, channel_id=None, author_id=None,
+            display_name="Alpha", timestamp="2025-01-01T00:00:00", content="A preserved message.",
+        )
+    ]
+    assessment = indexer.conversation_significance_assessment(messages)
+    assert assessment["conversation_evaluation_status"] == "NOT_EVALUABLE_AS_CONVERSATION_CORPUS"
+    assert assessment["current_corpus_disposition"] == "RETAIN_MESSAGE_LEVEL_INDEX_ONLY"
+    assert assessment["interaction_findings_emitted"] == 0
+    assert assessment["automatic_promotion_authorized"] is False
+
+
 def test_curator_authority_and_identity_resolutions_are_scoped(tmp_path):
     write_jsonl(tmp_path, [{
         "source_id": "econ-1", "author": "Official", "timestamp": "2025-01-01T00:00:00",

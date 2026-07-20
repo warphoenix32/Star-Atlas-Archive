@@ -1,0 +1,24 @@
+{
+  "assessment_version": "1.0",
+  "automatic_promotion_authorized": false,
+  "campaign_id": "discord-community-indexing-001",
+  "conversation_clusters_emitted": 0,
+  "conversation_evaluation_status": "NOT_EVALUABLE_AS_CONVERSATION_CORPUS",
+  "corpus": {
+    "native_channel_ids": 0,
+    "native_message_ids": 0,
+    "observed_channel_names": [
+      "Compromised Discord Account of EX Team Member,"
+    ],
+    "unique_messages": 1071
+  },
+  "current_corpus_disposition": "RETAIN_MESSAGE_LEVEL_INDEX_ONLY",
+  "human_adjudication_items": [],
+  "interaction_findings_emitted": 0,
+  "limitations": [
+    "Native channel identifiers are absent, so chronological adjacency cannot establish one conversation.",
+    "Native message identifiers are incomplete, so reply and deduplication structure cannot be reconstructed reliably."
+  ],
+  "required_next_artifact": "A privacy-reviewed Discord export retaining native channel and message identifiers, reply/thread context, and exact timestamps.",
+  "schema_version": "2.0.0"
+}

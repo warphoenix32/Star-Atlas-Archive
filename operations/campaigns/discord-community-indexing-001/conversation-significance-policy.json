@@ -1,0 +1,84 @@
+{
+  "boundary_rule": "Retain only the minimum adjacent off-topic context needed to interpret an otherwise in-scope exchange; ambiguous boundaries use OUT_OF_SCOPE_OR_AMBIGUOUS.",
+  "campaign_id": "discord-community-indexing-001",
+  "dispositions": [
+    "ARCHIVE_ONLY",
+    "DUPLICATE",
+    "MERGE_WITH_STRONGER_EVIDENCE",
+    "NEEDS_CORROBORATION",
+    "OUT_OF_SCOPE_OR_AMBIGUOUS",
+    "PROMOTE",
+    "PROMOTE_AS_CONTEXT",
+    "RESEARCH_GAP"
+  ],
+  "excluded_from_evaluation": [
+    "real-world politics unrelated to Star Atlas",
+    "culture-war discussion",
+    "unrelated games",
+    "off-topic personal commentary",
+    "personal attacks unrelated to Star Atlas conduct or history",
+    "isolated insults or sentiment without contextual significance"
+  ],
+  "in_scope_relationship_context": [
+    "guild conduct",
+    "governance",
+    "competition",
+    "transactions",
+    "leadership",
+    "moderation",
+    "alliances",
+    "institutional decisions",
+    "in-game actions",
+    "Star Atlas community actions"
+  ],
+  "inference_prohibitions": [
+    "Do not infer hostility, animosity, misconduct, motive, or a permanent relationship from sentiment alone.",
+    "Do not merge observed handles with legal or canonical identities without approved evidence.",
+    "Do not treat message volume or keyword density as historical significance."
+  ],
+  "interaction_types": [
+    "ACCUSATION",
+    "ALLIANCE_BREAKDOWN",
+    "ALLIANCE_FORMATION",
+    "AMBIGUOUS_INTERACTION",
+    "BANTER_OR_PERFORMANCE",
+    "COMPETITIVE_RIVALRY",
+    "COORDINATION",
+    "DISAGREEMENT",
+    "ESCALATION",
+    "GUILD_DISPUTE",
+    "POLICY_CONFLICT",
+    "PUBLIC_SUPPORT",
+    "RECONCILIATION",
+    "REPEATED_ANTAGONISM"
+  ],
+  "pipeline_location": "DRAFT_TO_REVIEW",
+  "policy_version": "1.0",
+  "preservation_rule": "All supplied messages remain preserved; semantic exclusion never deletes or rewrites archive evidence.",
+  "reputational_review": {
+    "individual_human_adjudication_required": true,
+    "minimum_risk": "R3",
+    "required_context": [
+      "exact excerpts",
+      "context boundaries",
+      "recurrence",
+      "counterevidence",
+      "plausible alternative readings"
+    ]
+  },
+  "schema_version": "2.0.0",
+  "significance_dimensions": [
+    "historical_importance",
+    "institutional_consequence",
+    "product_or_governance_relevance",
+    "relationship_significance",
+    "recurrence",
+    "context_completeness",
+    "novelty",
+    "corroboration",
+    "contradiction",
+    "researcher_utility",
+    "reputational_sensitivity"
+  ],
+  "unit_of_review": "Contextual conversation window with exact Source IDs and timestamps, not an isolated keyword or sentiment score."
+}

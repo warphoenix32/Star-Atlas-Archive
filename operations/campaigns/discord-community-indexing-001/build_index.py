@@ -44,6 +44,17 @@ REVIEW_STATUSES = {
     "REQUIRES_IDENTITY_RESOLUTION", "REQUIRES_ROLE_CORROBORATION", "DISCOVERY_ONLY", "DEFERRED",
     "OPERATOR_APPROVED_FOR_PROMOTION",
 }
+INTERACTION_TYPES = {
+    "DISAGREEMENT", "COMPETITIVE_RIVALRY", "POLICY_CONFLICT", "GUILD_DISPUTE",
+    "ACCUSATION", "ESCALATION", "REPEATED_ANTAGONISM", "RECONCILIATION",
+    "ALLIANCE_FORMATION", "ALLIANCE_BREAKDOWN", "COORDINATION", "PUBLIC_SUPPORT",
+    "BANTER_OR_PERFORMANCE", "AMBIGUOUS_INTERACTION",
+}
+SIGNIFICANCE_DISPOSITIONS = {
+    "PROMOTE", "PROMOTE_AS_CONTEXT", "MERGE_WITH_STRONGER_EVIDENCE",
+    "NEEDS_CORROBORATION", "RESEARCH_GAP", "DUPLICATE", "ARCHIVE_ONLY",
+    "OUT_OF_SCOPE_OR_AMBIGUOUS",
+}
 COVERAGE_STATUSES = {
     "ACTIVE_PARTIAL", "ACTIVE_CURRENT_TO_LAST_CAPTURE", "HISTORICAL_PARTIAL",
     "HISTORICAL_COMPLETE_AS_CAPTURED", "UNRESOLVED_CHANNEL", "EMPTY_OR_UNPARSED",
@@ -1563,6 +1574,78 @@ def serialize_jsonl(records: list[dict[str, Any]]) -> str:
     return "".join(json.dumps(record, ensure_ascii=False, sort_keys=True) + "\n" for record in records)
 
 
+def conversation_significance_policy() -> dict[str, Any]:
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "campaign_id": CAMPAIGN_ID,
+        "policy_version": "1.0",
+        "pipeline_location": "DRAFT_TO_REVIEW",
+        "preservation_rule": "All supplied messages remain preserved; semantic exclusion never deletes or rewrites archive evidence.",
+        "unit_of_review": "Contextual conversation window with exact Source IDs and timestamps, not an isolated keyword or sentiment score.",
+        "interaction_types": sorted(INTERACTION_TYPES),
+        "dispositions": sorted(SIGNIFICANCE_DISPOSITIONS),
+        "significance_dimensions": [
+            "historical_importance", "institutional_consequence", "product_or_governance_relevance",
+            "relationship_significance", "recurrence", "context_completeness", "novelty",
+            "corroboration", "contradiction", "researcher_utility", "reputational_sensitivity",
+        ],
+        "in_scope_relationship_context": [
+            "guild conduct", "governance", "competition", "transactions", "leadership",
+            "moderation", "alliances", "institutional decisions", "in-game actions", "Star Atlas community actions",
+        ],
+        "excluded_from_evaluation": [
+            "real-world politics unrelated to Star Atlas", "culture-war discussion",
+            "unrelated games", "off-topic personal commentary",
+            "personal attacks unrelated to Star Atlas conduct or history",
+            "isolated insults or sentiment without contextual significance",
+        ],
+        "boundary_rule": "Retain only the minimum adjacent off-topic context needed to interpret an otherwise in-scope exchange; ambiguous boundaries use OUT_OF_SCOPE_OR_AMBIGUOUS.",
+        "inference_prohibitions": [
+            "Do not infer hostility, animosity, misconduct, motive, or a permanent relationship from sentiment alone.",
+            "Do not merge observed handles with legal or canonical identities without approved evidence.",
+            "Do not treat message volume or keyword density as historical significance.",
+        ],
+        "reputational_review": {
+            "minimum_risk": "R3",
+            "individual_human_adjudication_required": True,
+            "required_context": ["exact excerpts", "context boundaries", "recurrence", "counterevidence", "plausible alternative readings"],
+        },
+    }
+
+
+def conversation_significance_assessment(messages: list[Message]) -> dict[str, Any]:
+    native_channels = {message.channel_id for message in messages if message.channel_id}
+    native_messages = sum(message.message_id is not None for message in messages)
+    observed_channels = {message.observed_channel_name for message in messages if message.observed_channel_name}
+    conversation_ready = bool(native_channels) and native_messages == len(messages)
+    limitations = []
+    if not native_channels:
+        limitations.append("Native channel identifiers are absent, so chronological adjacency cannot establish one conversation.")
+    if native_messages != len(messages):
+        limitations.append("Native message identifiers are incomplete, so reply and deduplication structure cannot be reconstructed reliably.")
+    if not observed_channels:
+        limitations.append("No trustworthy observed channel name is available; the repository path is collection context, not a native channel identity.")
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "campaign_id": CAMPAIGN_ID,
+        "assessment_version": "1.0",
+        "corpus": {
+            "unique_messages": len(messages),
+            "native_message_ids": native_messages,
+            "native_channel_ids": len(native_channels),
+            "observed_channel_names": sorted(observed_channels, key=text_sort_key),
+        },
+        "conversation_evaluation_status": "READY" if conversation_ready else "NOT_EVALUABLE_AS_CONVERSATION_CORPUS",
+        "conversation_clusters_emitted": 0,
+        "interaction_findings_emitted": 0,
+        "current_corpus_disposition": "RETAIN_MESSAGE_LEVEL_INDEX_ONLY" if not conversation_ready else "READY_FOR_SEPARATE_CONTEXTUAL_CLUSTERING",
+        "limitations": limitations,
+        "required_next_artifact": None if conversation_ready else "A privacy-reviewed Discord export retaining native channel and message identifiers, reply/thread context, and exact timestamps.",
+        "automatic_promotion_authorized": False,
+        "human_adjudication_items": [],
+    }
+
+
 def curator_decisions() -> dict[str, Any]:
     """Return the durable human adjudications supplied through 2026-07-19."""
     decisions = [
@@ -1664,6 +1747,8 @@ def build(repo_root: Path) -> dict[str, str]:
         "items": backlog_items,
     }
     validation = validate_outputs(messages, alias_registry, identities, organizations, relationships, inventory, promotions, tags, competition_records, coverage, human_queue)
+    significance_policy = conversation_significance_policy()
+    significance_assessment = conversation_significance_assessment(messages)
     parsed_occurrences = sum(item["parsed_message_occurrences"] for item in inventory if item["ingested"])
     source_inventory = {
         "schema_version": SCHEMA_VERSION,
@@ -1702,6 +1787,8 @@ def build(repo_root: Path) -> dict[str, str]:
         "discord-collection-backlog.json": serialize_json(collection_backlog),
         "human-resolution-queue.json": serialize_json(human_queue),
         "curator-decisions.json": serialize_json(curator_decisions()),
+        "conversation-significance-policy.json": serialize_json(significance_policy),
+        "conversation-significance-assessment.json": serialize_json(significance_assessment),
         "validation-report.json": serialize_json(validation),
     }
 

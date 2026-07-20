@@ -21,7 +21,8 @@ JSON_FILES = (
     "conflict-report.json", "research-backlog.json", "tag-registry.json",
     "discord-channel-coverage.json", "discord-channel-gap-report.json",
     "discord-collection-backlog.json", "human-resolution-queue.json",
-    "curator-decisions.json", "validation-report.json",
+    "curator-decisions.json", "conversation-significance-policy.json",
+    "conversation-significance-assessment.json", "validation-report.json",
 )
 JSONL_FILES = (
     "identity-index.jsonl", "guild-index.jsonl", "organization-index.jsonl",
@@ -136,6 +137,21 @@ def parse_and_contract(campaign_dir: Path) -> tuple[list[str], dict[str, int]]:
             elif identifier in identifiers:
                 errors.append(f"{filename}:{number}: duplicate {field} {identifier}")
             identifiers.add(identifier)
+    try:
+        policy = json.loads((campaign_dir / "conversation-significance-policy.json").read_text(encoding="utf-8"))
+        assessment = json.loads((campaign_dir / "conversation-significance-assessment.json").read_text(encoding="utf-8"))
+        if "real-world politics unrelated to Star Atlas" not in policy.get("excluded_from_evaluation", []):
+            errors.append("conversation policy does not exclude unrelated politics")
+        if "OUT_OF_SCOPE_OR_AMBIGUOUS" not in policy.get("dispositions", []):
+            errors.append("conversation policy lacks ambiguous scope disposition")
+        if policy.get("reputational_review", {}).get("minimum_risk") != "R3":
+            errors.append("conversation policy does not require R3 reputational review")
+        if assessment.get("automatic_promotion_authorized") is not False:
+            errors.append("conversation assessment improperly authorizes automatic promotion")
+        if assessment.get("conversation_evaluation_status") == "NOT_EVALUABLE_AS_CONVERSATION_CORPUS" and assessment.get("interaction_findings_emitted") != 0:
+            errors.append("non-evaluable corpus emitted interaction findings")
+    except (OSError, UnicodeError, json.JSONDecodeError) as error:
+        errors.append(f"conversation significance artifacts: {error}")
     return errors, counts
 
 
@@ -146,6 +162,16 @@ def main() -> int:
     args = parser.parse_args()
     repo_root = args.repo_root.resolve()
     campaign_dir = Path(__file__).resolve().parent
+
+    # Run campaign-owned tests before regenerating this campaign's validation
+    # report. The repository-integrity CI job separately runs the full suite;
+    # re-running scope-sensitive legacy campaign tests from here would create
+    # false failures whenever another campaign is the active diff.
+    test_env = os.environ.copy()
+    pipeline_src = str(repo_root / "operations" / "pipeline" / "src")
+    test_env["PYTHONPATH"] = pipeline_src + (os.pathsep + test_env["PYTHONPATH"] if test_env.get("PYTHONPATH") else "")
+    tests_ok, tests_detail = run([sys.executable, "-m", "pytest", "-q", "operations/tests/discord_community_indexing"], repo_root, test_env)
+    tests_detail = re.sub(r"\bin\s+\d+(?:\.\d+)?s\b", "in <elapsed>", tests_detail)
 
     before = digest_map(campaign_dir)
     write_outputs(repo_root, campaign_dir)
@@ -159,11 +185,6 @@ def main() -> int:
         write_outputs(repo_root, second_dir)
         deterministic = digest_map(first_dir) == digest_map(second_dir) == after
 
-    test_env = os.environ.copy()
-    pipeline_src = str(repo_root / "operations" / "pipeline" / "src")
-    test_env["PYTHONPATH"] = pipeline_src + (os.pathsep + test_env["PYTHONPATH"] if test_env.get("PYTHONPATH") else "")
-    tests_ok, tests_detail = run([sys.executable, "-m", "pytest", "-q", "operations/tests"], repo_root, test_env)
-    tests_detail = re.sub(r"\bin\s+\d+(?:\.\d+)?s\b", "in <elapsed>", tests_detail)
     diff_ok, diff_detail = run(["git", "diff", "--check"], repo_root)
     if diff_ok:
         # Git's Windows line-ending notices are advisory stderr, not
@@ -177,7 +198,7 @@ def main() -> int:
         "json_jsonl_and_campaign_contracts": {"passed": not parse_errors, "details": {"errors": parse_errors, **parse_counts}},
         "generated_artifacts_reconcile_before_regeneration": {"passed": generated_reconciliation, "details": {"before": before, "after": after}},
         "regeneration_determinism": {"passed": deterministic, "details": after},
-        "repository_tests": {"passed": tests_ok, "details": tests_detail},
+        "campaign_tests": {"passed": tests_ok, "details": tests_detail},
         "forbidden_path_and_evidence_immutability": {"passed": scope_ok, "details": scope_detail},
         "git_diff_check": {"passed": diff_ok, "details": diff_detail},
     }
