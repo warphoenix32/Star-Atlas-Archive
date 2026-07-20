@@ -143,8 +143,9 @@ def main() -> int:
             metadata_errors.append(f"{item['path']}: invalid knowledge_status {scalars.get('knowledge_status')}")
         if scalars.get("page_risk_class") not in ALLOWED_RISK:
             metadata_errors.append(f"{item['path']}: invalid page_risk_class {scalars.get('page_risk_class')}")
-        if scalars.get("as_of") != "2026-07-17":
-            metadata_errors.append(f"{item['path']}: current campaign as_of must be 2026-07-17")
+        as_of = scalars.get("as_of", "")
+        if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", as_of) or as_of < "2026-07-17":
+            metadata_errors.append(f"{item['path']}: as_of must be an ISO date no earlier than the 2026-07-17 campaign baseline")
         if scalars.get("page_risk_class") == "R3" and not scalars.get("review_after"):
             metadata_errors.append(f"{item['path']}: R3 page lacks review_after")
         if len(payload.get("material_claims", [])) < 3:

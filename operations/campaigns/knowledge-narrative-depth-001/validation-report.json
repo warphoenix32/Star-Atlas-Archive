@@ -16,7 +16,7 @@
     {
       "check": "campaign_json",
       "result": "PASS",
-      "detail": "24 files parsed"
+      "detail": "35 files parsed"
     },
     {
       "check": "required_metadata",
@@ -36,7 +36,7 @@
     {
       "check": "internal_links",
       "result": "PASS",
-      "detail": "0 changed knowledge files checked"
+      "detail": "7 changed knowledge files checked"
     },
     {
       "check": "risk_portfolio",
@@ -61,7 +61,7 @@
     {
       "check": "campaign_scripts_compile",
       "result": "PASS",
-      "detail": "4 campaign scripts compiled"
+      "detail": "6 campaign scripts compiled"
     }
   ],
   "output_count": 17,
@@ -74,16 +74,33 @@
     "QUALIFIED": 16
   },
   "changed_paths": [
-    "operations/campaigns/knowledge-narrative-depth-001/baseline-revision-2026-07/README.md",
-    "operations/campaigns/knowledge-narrative-depth-001/baseline-revision-2026-07/build_inventory.py",
-    "operations/campaigns/knowledge-narrative-depth-001/baseline-revision-2026-07/page-inventory.json",
-    "operations/campaigns/knowledge-narrative-depth-001/baseline-revision-2026-07/page-inventory.md",
-    "operations/campaigns/knowledge-narrative-depth-001/baseline-revision-2026-07/validate_inventory.py",
-    "operations/campaigns/knowledge-narrative-depth-001/baseline-revision-2026-07/validation-report.json",
+    "knowledge/economy/ATLAS-Token-History.md",
+    "knowledge/economy/DAO-Treasury-Architecture.md",
+    "knowledge/economy/Economic-Report-Catalog.md",
+    "knowledge/economy/POLIS-Token-History.md",
+    "knowledge/economy/PVP-Voting-Power.md",
+    "knowledge/economy/README.md",
+    "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
     "operations/campaigns/knowledge-narrative-depth-001/campaign-summary.json",
     "operations/campaigns/knowledge-narrative-depth-001/validate_campaign.py",
     "operations/campaigns/knowledge-narrative-depth-001/validation-report.json",
-    "operations/campaigns/knowledge-narrative-depth-001/validation-report.md"
+    "operations/campaigns/knowledge-narrative-depth-001/validation-report.md",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/README.md",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/build_wave.py",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/campaign-summary.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/campaign-summary.md",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-atlas-token-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-dao-treasury-architecture.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-economic-report-catalog.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-index.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-polis-token-history.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-pvp-voting-power.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/evidence-packets/economy-treasury-authorization-payment-ledger.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/page-inventory.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/revision-ledger.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/validate_wave.py",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/validation-report.json",
+    "operations/campaigns/knowledge-narrative-depth-001/wave-1a-economy-2026-07/validation-report.md"
   ],
   "errors": [],
   "warnings": []
