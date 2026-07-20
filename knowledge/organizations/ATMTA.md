@@ -1,43 +1,64 @@
 ---
 title: "ATMTA, Inc."
+seo_title: "ATMTA, Inc.: Star Atlas Operating Company and Institutional Role"
+seo_description: "An evidence-qualified guide to ATMTA, the operating company associated with Star Atlas development, publishing, products, and institutional relationships."
 knowledge_status: QUALIFIED
-as_of: 2026-07-15
+as_of: 2026-07-20
 confidence: MEDIUM
 page_risk_score: 5
 page_risk_class: R2
 evidence_basis:
-  - "archive/semantic/governance/pip-registry-semantic.json"
   - "archive/source-records/campaign-delta-official/"
+  - "archive/semantic/governance/pip-registry-semantic.json"
   - "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md"
 known_limitations:
-  - "Current-state statements are date-bound."
-  - "Absence of evidence is not evidence of non-occurrence."
+  - "The archive does not yet contain a complete legal, ownership, financing, or leadership chronology for ATMTA."
+  - "Product and staffing claims are date-bound and may have changed after the cited record."
 research_gaps:
-  - "Independent execution evidence remains incomplete where explicitly noted."
-review_after: 2027-01-15
+  - "Acquire corporate filings, dated leadership rosters, financing records, and role-change announcements."
+review_after: 2027-01-20
 ---
 
 # ATMTA, Inc.
-ATMTA, Inc. is the operating company identified across official Star Atlas product and institutional records. This page covers organizational identity and relationships, not the full history of every product or governance act.
 
-## Role
+ATMTA, Inc. is the operating company most closely associated with the development and public operation of Star Atlas. Official publications connect it to the product family, technical program, partnerships, community communications, and participation in governance matters. That central role does not make ATMTA interchangeable with every institution that carries the Star Atlas name.
 
-Official Star Atlas publications associate ATMTA with development, operation, and communication around the Star Atlas product family. The dated [official current-state snapshot](../gameplay/Official-Current-State-Snapshot-2026-07-12.md) records the public product positioning captured from official surfaces. That positioning is evidence of what the company published at the time, not independent verification of every feature or performance claim.
+## Institutional role
 
-ATMTA also appears as an affected entity or participant in governance proposals. Such participation does not make ATMTA identical to the [Star Atlas DAO](../governance/Star-Atlas-DAO.md), [Foundation](../governance/Star-Atlas-Foundation.md), or [Council](../governance/Star-Atlas-Council.md).
+The official archive presents ATMTA as the company building and operating Star Atlas products and publishing many of the ecosystem's first-party announcements. This includes product descriptions, release communications, roadmap statements, technical materials, economic reports, and partnership announcements. Each publication establishes what ATMTA or Star Atlas publicly stated at that moment; it does not by itself prove delivery, operational success, economic accuracy, or the current availability of every feature.
 
-## Relationships
+The [official current-state snapshot](../gameplay/Official-Current-State-Snapshot-2026-07-12.md) provides a dated view of product positioning across official surfaces. Product-specific histories preserve narrower lifecycle states because the company, a product family, a particular build, and a feature are not one entity.
 
-- **Products:** development and official communication are documented across the official source-record collection.
-- **DAO:** policy and treasury authorization belongs to the POLIS governance process where specified.
-- **Foundation:** the captured governance framework assigns legal and administrative functions to the Foundation.
-- **Council:** Council operations and assessments must remain attributed to the Council.
+## Relationship to governance
 
-## Current limitations
+ATMTA can author, sponsor, or be affected by a governance proposal, but the company is not the [Star Atlas DAO](../governance/Star-Atlas-DAO.md). Formal voting authority belongs to eligible POLIS holders through the captured PVP-weighted system. A proposal involving ATMTA therefore still moves through distinct stages: publication, ballot, result, authorization, administration, implementation, and—where relevant—payment.
 
-As of 2026-07-15, this page does not attempt a legal corporate history, current capitalization table, or exhaustive leadership roster. Historical roles should not be treated as current without a dated official record.
+The [Star Atlas Foundation](../governance/Star-Atlas-Foundation.md) is treated separately as the legal and administrative implementation body described by the captured governance framework. The [Star Atlas Council](../governance/Star-Atlas-Council.md) is likewise a separate elected process steward. Neither institution should be collapsed into the operating company merely because their work concerns the same ecosystem.
 
-## Evidence references
+## Public authority and its limits
 
-- [Official source records](../../archive/source-records/campaign-delta-official/)
-- [Institutional overview](Institutional-Overview.md)
+ATMTA's first-party records are high-authority evidence for official terminology, declared intent, published dates, product announcements, and the company's institutional position. They are not automatic independent verification of:
+
+- whether a roadmap commitment was delivered;
+- whether an approved governance action was implemented;
+- whether a treasury payment occurred on-chain;
+- whether a partnership achieved its announced outcome;
+- whether a historical role remains current.
+
+This boundary matters most when later community reporting adds context or when current documentation differs from an older announcement. Both records remain valuable when their dates and authority are preserved.
+
+## Historical record still needed
+
+The archive can describe ATMTA's public operating role more confidently than its complete corporate history. It does not yet support a definitive capitalization table, uninterrupted executive roster, full department history, comprehensive financing chronology, or legal account of every institutional relationship. Historical titles and appearances should therefore remain dated rather than presented as permanent.
+
+## Related knowledge
+
+- [Star Atlas Institutional Overview](Institutional-Overview.md)
+- [Organization and Role Registry](Organization-and-Role-Registry.md)
+- [Product Registry](../gameplay/Product-Registry.md)
+- [Corporate Timeline](../timeline/Corporate-Timeline.md)
+- [Official Communications Chronology](../timeline/Official-Communications-Chronology.md)
+
+## Review status
+
+`QUALIFIED`. ATMTA's broad operating and publishing role is well supported. Corporate structure, financing, leadership chronology, and current role details remain incomplete.

@@ -1,98 +1,78 @@
 ---
-title: Star Atlas Guild and DAC Master Index
-entry_type: guild-registry
-status: active
-updated: 2026-07-12
-publication_status: public
+title: "Star Atlas Guild and DAC Master Index"
+seo_title: "Star Atlas Guilds and DACs: Historical Master Index"
+seo_description: "An evidence-qualified index of Star Atlas guilds, DACs, alliances, names, tags, faction alignments, leadership claims, and research gaps."
+knowledge_status: QUALIFIED
+as_of: 2026-07-20
+confidence: MEDIUM
+page_risk_score: 6
+page_risk_class: R2
+evidence_basis:
+  - "operations/campaigns/discord-community-indexing-001/alias-registry.json"
+  - "operations/campaigns/discord-community-indexing-001/curator-decisions.json"
+  - "archive/source-records/campaign-alpha-aephia/"
+  - "archive/source-records/campaign-charlie-hnn/"
+known_limitations:
+  - "The index is not a complete directory and does not establish current activity, membership, leadership, holdings, or influence."
+  - "Operator confirmations remain distinguishable from archive-derived evidence."
+research_gaps:
+  - "Acquire dated founding records, leadership changes, faction evidence, alliances, mergers, dissolutions, and competition results."
+review_after: 2027-01-20
 ---
 
 # Star Atlas Guild and DAC Master Index
 
-Star Atlas uses **DAC** (Decentralized Autonomous Corporation) and guild terminology for player organizations. Official current game materials instruct players to join a DAC for collaborative play, while the Epic Games FAQ identifies guilds/DACs as part of political gameplay and territorial conquest.
+Player organizations have been part of Star Atlas from its earliest public community period. They publish research, build tools, organize events, compete, govern themselves, and sometimes participate in ecosystem governance. Star Atlas commonly uses both **guild** and **DAC**—Decentralized Autonomous Corporation—for these groups, but a name, tag, or Discord role alone does not prove current membership or authority.
 
-A name appearing here does not verify current activity, membership, leadership, assets, influence or faction alignment. Guild self-descriptions must remain attributed and dated.
+## Reviewed identities
 
-## Initial organizations for dedicated profiles
-
-| Entity ID | Organization | Known public role | Verification status |
+| Entity ID | Preferred name | Supported identity | Evidence state |
 |---|---|---|---|
-| GUILD-AEPHIA | Aephia Industries | Major DAC; ship-manufacturing identity; weekly news, guides, dashboards, tools and community projects | Initial profile evidence captured |
-| GUILD-ROME | ROME | DAC and visible governance/community participant | Profile pending |
-| GUILD-THE-CLUB | The Club | Community organization and historical forum/resource presence | Profile pending |
-| GUILD-HEIMDALL | Heimdall Industries | DAC / industrial identity | Profile pending |
-| GUILD-QUIMERA | Quimera | DAC / community organization | Profile pending |
-| GUILD-INTERGALACTIC-COALITION | Intergalactic Coalition | Coalition or guild identity | Profile pending |
-| GUILD-AEP | AEP / Aephia-linked identity | Likely abbreviation or tag associated with Aephia; precise organizational usage requires confirmation | Partially resolved |
+| `GUILD-AEPHIA` | Aephia / Aephia Industries | Guild/DAC with publications, tools, events, guides, and a stated spacecraft-manufacturing ambition | Documentary community corpus plus operator-confirmed `AEP` identity |
+| `GUILD-AGORA` | Agora / Ágora | Collaborative guild emphasizing learning, information sharing, coordinated logistics, and mutual support | Operator-supplied profile and leadership context; archive tag use remains association-only |
+| `GUILD-DARK-MATTER` | Dark Matter | Guild/DAC aligned with the Ustur faction; internal Dark Council reported in 2023 | Operator confirmation plus Discord and HNN observations |
+| `GUILD-ROME` | Rome | Guild/DAC and visible community participant | Documentary observations; full institutional profile pending |
+| `GUILD-THE-CLUB` | The Club Guild / The Club | Guild with historical community and forum presence | Operator-confirmed identity plus archive observations |
+| `GUILD-THE-VANGUARD` | The Vanguard | Guild using the display tag `VΛ`—Latin `V` followed by uppercase Greek lambda | Operator-confirmed tag; membership cannot be inferred from a tag alone |
+| `GUILD-HEIMDALL` | Heimdall Industries | Industrial guild/DAC identity | Profile pending |
+| `GUILD-QUIMERA` | Quimera | Community guild/DAC identity | Profile pending |
+| `GUILD-INTERGALACTIC-COALITION` | Intergalactic Coalition | Coalition or guild identity | Organizational form and chronology unresolved |
 
-## Aephia Industries — initial public profile
+## Aephia and AEP
 
-**Entity ID:** `GUILD-AEPHIA`  
-**Source basis:** Aephia's own website and publications  
-**Confidence:** Medium for institutional self-description; independent verification pending for size, awards, activity rankings, and governance structure.
+The repository operator confirms that **Aephia**, **Aephia Industries**, and **AEP** refer to the same guild and that Funcracker and Prometheus are co-founders. This resolves the earlier ambiguity between a possible separate AEP entity and Aephia itself.
 
-Aephia describes itself as one of the first and largest Star Atlas DACs. Its stated primary Star Atlas mission is to become a premier spacecraft manufacturer, while its broader stated ambition is to build a player-governed, player-owned metaverse enterprise whose tools and services return value to participants.
+Aephia's own publications describe an ambition to become a major spacecraft manufacturer and a broader player-governed metaverse enterprise. Its preserved output includes weekly newsletters, guides, economic dashboards, MetaVerse Explorer coverage, onboarding tools, and community projects. Those publications are first-party evidence for Aephia's own history and stated goals; promotional claims about size, awards, activity, or influence remain attributed until supported independently.
 
-Publicly visible Aephia activities include:
+See the [Aephia Source Profile](../media/Aephia-Source-Profile.md) and [Aephia Weekly Newsletter Index](../media/Aephia-Weekly-Newsletter-Index.md).
 
-- weekly Star Atlas newsletters;
-- gameplay and ecosystem guides;
-- economic dashboards;
-- MetaVerse Explorer video coverage;
-- AstralPass onboarding and verification tooling;
-- AEP Life Form (ALF), described by Aephia as a Solana NFT and investment-club project;
-- Cataclysm: Battle for Iris, described as a Star Atlas-based strategy card game;
-- COPA participation and a self-reported 2024 best-DAC/guild award.
+## Agora
 
-Aephia's website also makes promotional claims concerning Discord activity, competition winners, awards, size and influence. Those claims should remain attributed until supported by official competition results, archived metrics, or independent records.
+The operator-supplied Portuguese description presents Agora as a collaborative Star Atlas guild centered on shared growth. Its stated activities include continuous learning, organized spreadsheets and updated information, coordinated logistics and group strategy, and a welcoming community for new and experienced players. The supplied description names **SAWYN** and **Neo_AArmstrong** as guild leaders and included a public Discord invitation at the time of capture.
 
-Related source profile:
+The uppercase Greek lambda `Λ` attached to a handle usually signals an Agora association. It does **not** by itself prove formal membership, office, or a current relationship. The apparently similar `VΛ` tag belongs to The Vanguard and must not be collapsed into Agora.
 
-- `../12-media-and-creators/Aephia-Source-Profile.md`
+## Dark Matter and internal governance
 
-## Required profile fields
+Dark Matter is operator-confirmed as a guild/DAC aligned with the Ustur faction. HNN reported that it elected its first **Dark Council** in May 2023, providing evidence of internal guild governance. This Dark Council is not the Star Atlas Council, the lore Council of Peace, or any Ustur lore institution.
 
-Each organization must eventually include:
+## What this index does not prove
 
-- Founding date and founders
-- Historical and current names
-- Faction alignment
-- Leadership chronology
-- Membership claims with dates and sources
-- Economic or gameplay specialization
-- Public tools, media, events and governance activity
-- Alliances, mergers, splits and rivalries
-- Periods of dormancy or reactivation
-- Official public channels
-- Source-bias and reliability notes
+- A historical tag does not prove current membership.
+- A leadership statement does not prove uninterrupted service.
+- Wallet holdings do not automatically establish beneficial ownership or guild control.
+- A guild's self-description is authoritative for its stated identity, not for independently measured size or influence.
+- Rivalry, alliance, and dispute histories require dated, relevant Star Atlas evidence from the parties or reliable contemporaneous reporting.
+- A guild-affiliated publication retains that institutional relationship even when its reporting is useful evidence.
 
-## Guild evidence standards
+## Profile standard
 
-- Self-reported membership numbers must be attributed and dated.
-- Wallet holdings do not automatically establish beneficial ownership or active membership.
-- Discord roles and tags may be stale.
-- A guild leader's statement is authoritative for the guild's stated position, not necessarily for every member.
-- Rivalry, alliance and dispute labels require dated evidence from relevant parties.
-- Historical achievements should be tied to competition results, transactions, releases or contemporary coverage.
-- Guild-produced journalism is valuable but should retain the publisher's institutional affiliation.
+A mature guild history should document founding, names and aliases, faction alignment, leadership chronology, dated membership claims, gameplay or economic specialization, public tools and media, governance activity, alliances and rivalries, periods of dormancy, and source-bias limitations. Unresolved fields remain unknown rather than inferred.
 
-## Discovery queue
+## Priority research
 
-- Official DAC directory and historical versions.
-- Aephia founding date, founders, leadership chronology and faction alignment.
-- Independent verification of Aephia's COPA 2024 result and earlier COPA participation.
-- Clarify the use of `AEP` as tag, abbreviation, guild identity or related entity.
-- Faction-specific organizations.
-- Regional and language-based communities.
-- Builder collectives and media organizations that also function as DACs.
-- Coalitions formed around governance or major game events.
-- Dormant guilds important to early Star Atlas history.
+The strongest next acquisitions are historical versions of the official DAC directory; founding and leadership records for Aephia, Agora, Dark Matter, Rome, and The Club; competition results; alliance and merger announcements; and dated evidence of dormancy or reactivation.
 
-## Official source baseline
+## Review status
 
-- https://staratlas.com/game/galia/
-- https://store.epicgames.com/p/star-atlas-faq-fb116c
-
-## Community source baseline
-
-- https://aephia.com/star-atlas/about-aephia-industries/
-- https://aephia.com/star-atlas-guides/
+`QUALIFIED`. The listed identities and adjudicated aliases are stable enough for discovery. Current activity, membership, leadership, and many historical relationships remain incomplete.
