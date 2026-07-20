@@ -23,6 +23,10 @@ Thoroughness is substantive rather than length-based. A complete page should add
 
 Concise prose is welcome, but brevity must never remove material context or conceal uncertainty. Semantic records may accelerate discovery; they do not substitute for source review or human synthesis. A page may remain incomplete only when its missing evidence and consequences are stated plainly.
 
+Knowledge pages are written for human readers. They should orient the reader, develop the subject through a coherent narrative, explain why changes matter, and end with a clearly bounded current state and research limits. They must not be assembled as conglomerations of semantic clusters or raw field-value blocks. Tables and registries support a narrative; they do not replace it.
+
+Pages also support ethical search discovery. Use a unique descriptive title, a factual `seo_description`, preferred names and aliases in natural prose, descriptive headings, stable paths, and meaningful internal links. Search optimization never overrides accuracy, privacy, provenance, or readability.
+
 The architecture has three layers:
 
 1. **Source layer** — what was said or recorded, where, when, and by whom.
@@ -77,6 +81,8 @@ LORE-FACTION-USTUR
 Aliases remain permanently searchable in an alias registry.
 
 ## Internal marker labels
+
+These labels are machine and editorial vocabulary. Store them in YAML front matter, structured campaign artifacts, or one consolidated evidence section. They are hidden from the public article body by default and must not be repeated after individual paragraphs. When a classification affects interpretation, explain it to readers in plain language—for example, “the source announced a future release but does not confirm that it occurred.”
 
 ### Source class
 

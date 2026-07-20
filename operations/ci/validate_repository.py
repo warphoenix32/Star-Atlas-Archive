@@ -198,8 +198,15 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/simplified-campaign-report.json",
         "operations/templates/simplified-campaign-report.md",
     } or path.startswith("operations/tests/promotion_pipeline/") for path in changes)
+    agent_contracts = any(path.startswith((
+        "operations/agents/",
+        "operations/tests/agent_contracts/",
+    )) or path in {
+        "operations/docs/KNOWLEDGE-ARCHITECTURE.md",
+        "operations/templates/knowledge-entry-template.md",
+    } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, discord_campaign, library_frontend, pipeline_framework))
+    selected = sum((ledger_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, discord_campaign, library_frontend, pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if ledger_campaign:
@@ -246,7 +253,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/tests/library_frontend/",
         )
         label = "star-atlas-library-frontend"
-    elif pipeline_framework:
+    elif pipeline_framework and not agent_contracts:
         allowed = common + (
             "README.md",
             "operations/README.md",
@@ -264,6 +271,17 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/tests/promotion_pipeline/",
         )
         label = "simplified-knowledge-pipeline"
+    elif agent_contracts:
+        allowed = common + (
+            "operations/README.md",
+            "operations/agents/",
+            "operations/docs/KNOWLEDGE-ARCHITECTURE.md",
+            "operations/docs/SIMPLIFIED-PROMOTION-PIPELINE.md",
+            "operations/templates/knowledge-entry-template.md",
+            "operations/tests/README.md",
+            "operations/tests/agent_contracts/",
+        )
+        label = "repository-agent-contracts"
     forbidden = [path for path in changes if not path.startswith(allowed)]
     if forbidden:
         raise ValidationFailure(f"{label} forbidden-path changes:\n" + "\n".join(forbidden))
@@ -431,6 +449,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_starbased_ship_campaign()
     elif contract == "simplified-knowledge-pipeline":
         validate_promotion_framework()
+    elif contract == "repository-agent-contracts":
+        run(sys.executable, "operations/agents/validate_contracts.py", check=True)
     print(f"PASS campaign-contracts: {contract}")
 
 

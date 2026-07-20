@@ -1,6 +1,6 @@
 # Tests
 
-Repository tests cover ingestion compatibility, schema contracts, campaign-specific validation, the Library front end, and the simplified promotion pipeline. The promotion tests verify that only fully qualified R1 candidates can be automatically approved onto draft branches and that elevated-risk candidates retain human-review and authorization requirements.
+Repository tests cover ingestion compatibility, schema contracts, campaign-specific validation, the Library front end, the simplified promotion pipeline, and repository-local agent contracts. The promotion tests verify that only fully qualified R1 candidates can be automatically approved onto draft branches and that elevated-risk candidates retain human-review and authorization requirements. Agent-contract tests preserve the four-stage ownership model, human-controlled merge authority, human-first narrative standard, and public taxonomy boundary.
 
 Run from the repository root:
 
