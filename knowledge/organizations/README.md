@@ -1,30 +1,31 @@
 ---
 title: "Organizations Knowledge"
+seo_title: "Star Atlas Organizations and Institutional History"
+seo_description: "Explore the companies, governance bodies, community institutions, roles, and organizational relationships that shaped Star Atlas."
 knowledge_status: CANONICAL
-as_of: 2026-07-15
+as_of: 2026-07-20
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
 evidence_basis:
-  - "archive/semantic/governance/pip-registry-semantic.json"
-  - "archive/source-records/campaign-delta-official/"
+  - "knowledge/organizations/Institutional-Overview.md"
+  - "knowledge/organizations/Organization-and-Role-Registry.md"
 known_limitations:
-  - "Current-state statements are date-bound."
-  - "Absence of evidence is not evidence of non-occurrence."
+  - "The domain does not yet contain a dedicated history for every organization present in the archive."
 research_gaps:
-  - "Independent execution evidence remains incomplete where explicitly noted."
-review_after: 2027-07-15
+  - "Build dated profiles for major institutions only when their evidence packets support identity, history, and role chronology."
+review_after: 2027-07-20
 ---
 
 # Organizations Knowledge
-This domain records institutional identity, history, aliases, relationships, and lifecycle. Governance authority and procedure remain in the governance domain.
 
-## Foundation pages
+Organizations shape Star Atlas through development, governance, publishing, community coordination, and collective play. This domain focuses on identity, history, relationships, roles, and aliases. Procedures and formal authority remain in [Governance](../governance/README.md); player organizations remain in [Guilds and DACs](../guilds/README.md).
 
-- [Institutional Overview](Institutional-Overview.md)
-- [ATMTA, Inc.](ATMTA.md)
-- [Organization and Role Registry](Organization-and-Role-Registry.md)
-- Community-publication identity remains preserved in the archive until dedicated organization pages receive evidence packets.
+## Foundation reading
+
+- [Star Atlas Institutional Overview](Institutional-Overview.md) — how ATMTA, the DAO, Foundation, Council, and treasury programs differ.
+- [ATMTA, Inc.](ATMTA.md) — the operating company's documented role and evidentiary limits.
+- [Organization and Role Registry](Organization-and-Role-Registry.md) — dated role states, institutional boundaries, and unresolved organizational history.
 
 ## Governance institutions
 
@@ -32,4 +33,8 @@ This domain records institutional identity, history, aliases, relationships, and
 - [Star Atlas Foundation](../governance/Star-Atlas-Foundation.md)
 - [Star Atlas Council](../governance/Star-Atlas-Council.md)
 
-These links are intentional: organization pages describe identity and relationships, while governance pages define authority, procedure, voting, treasury, and implementation boundaries.
+Organization pages explain identity and relationships. Governance pages explain authority, voting, administration, treasury policy, and implementation. This separation prevents a shared brand or common objective from erasing institutional boundaries.
+
+## Review status
+
+`CANONICAL` as the organization-domain guide, last reviewed 2026-07-20. Individual profiles retain their own evidence and review status.

@@ -1,0 +1,39 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3a-institutions-people-guilds-2026-07",
+  "page_id": "KNOW-0EE186AA6A9B9042",
+  "proposed_path": "knowledge/organizations/Institutional-Overview.md",
+  "page_action": "REWRITE",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Institutional map separating company, governance, administration, Council, and treasury mechanisms.",
+  "material_claims": [
+    {
+      "claim_id": "KNOW-0EE186AA6A9B9042-C01",
+      "claim_text": "Institutional map separating company, governance, administration, Council, and treasury mechanisms.",
+      "claim_type": "INSTITUTIONAL_DESCRIPTION",
+      "temporal_scope": "AS_OF_2026-07-20",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/semantic/governance/pip-registry-semantic.json",
+        "knowledge/governance/Governance-Constitutional-History.md"
+      ],
+      "source_authority": "MIXED_A2_B2_OPERATOR_CONFIRMATION_WHERE_EXPLICIT",
+      "corroboration_status": "QUALIFIED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current roles and relationships are not inferred from historical appearances."
+  ],
+  "research_gaps": [
+    "See the page's dated role, identity, and evidence-acquisition gaps."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}

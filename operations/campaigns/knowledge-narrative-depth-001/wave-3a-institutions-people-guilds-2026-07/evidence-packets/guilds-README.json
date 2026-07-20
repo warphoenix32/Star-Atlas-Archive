@@ -1,0 +1,38 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3a-institutions-people-guilds-2026-07",
+  "page_id": "KNOW-326AAFBBF8D4D032",
+  "proposed_path": "knowledge/guilds/README.md",
+  "page_action": "INDEX_REDESIGN",
+  "proposed_knowledge_status": "CANONICAL",
+  "page_risk_score": 2,
+  "page_risk_class": "R1",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Human-first guild-domain navigation and evidence standard.",
+  "material_claims": [
+    {
+      "claim_id": "KNOW-326AAFBBF8D4D032-C01",
+      "claim_text": "Human-first guild-domain navigation and evidence standard.",
+      "claim_type": "INSTITUTIONAL_DESCRIPTION",
+      "temporal_scope": "AS_OF_2026-07-20",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "knowledge/guilds/Guild-Master-Index.md"
+      ],
+      "source_authority": "MIXED_A2_B2_OPERATOR_CONFIRMATION_WHERE_EXPLICIT",
+      "corroboration_status": "QUALIFIED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "HIGH",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current roles and relationships are not inferred from historical appearances."
+  ],
+  "research_gaps": [
+    "See the page's dated role, identity, and evidence-acquisition gaps."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}

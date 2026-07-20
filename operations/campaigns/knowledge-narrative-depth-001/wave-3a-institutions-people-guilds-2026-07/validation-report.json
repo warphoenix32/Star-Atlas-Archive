@@ -1,0 +1,18 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3a-institutions-people-guilds-2026-07",
+  "status": "PASS",
+  "checks": {
+    "deterministic_generation": true,
+    "page_count": true,
+    "required_metadata": true,
+    "review_sections": true,
+    "packet_count": true,
+    "source_linked_packets": true,
+    "operator_boundary": true,
+    "unknown_speaker_boundary": true,
+    "internal_links": true,
+    "scope": true,
+    "git_diff_check": true
+  },
+  "errors": []
+}

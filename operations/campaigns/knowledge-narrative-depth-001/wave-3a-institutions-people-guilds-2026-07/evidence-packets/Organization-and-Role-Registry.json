@@ -1,0 +1,39 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3a-institutions-people-guilds-2026-07",
+  "page_id": "KNOW-CF0E68178484973E",
+  "proposed_path": "knowledge/organizations/Organization-and-Role-Registry.md",
+  "page_action": "STRUCTURED_REWORK",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Institution, role, office, delegation, and current-state distinctions.",
+  "material_claims": [
+    {
+      "claim_id": "KNOW-CF0E68178484973E-C01",
+      "claim_text": "Institution, role, office, delegation, and current-state distinctions.",
+      "claim_type": "INSTITUTIONAL_DESCRIPTION",
+      "temporal_scope": "AS_OF_2026-07-20",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+        "knowledge/index/Entity-Registry.md"
+      ],
+      "source_authority": "MIXED_A2_B2_OPERATOR_CONFIRMATION_WHERE_EXPLICIT",
+      "corroboration_status": "QUALIFIED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current roles and relationships are not inferred from historical appearances."
+  ],
+  "research_gaps": [
+    "See the page's dated role, identity, and evidence-acquisition gaps."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}

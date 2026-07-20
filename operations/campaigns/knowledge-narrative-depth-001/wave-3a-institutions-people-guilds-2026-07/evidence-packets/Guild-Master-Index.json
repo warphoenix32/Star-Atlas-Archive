@@ -1,0 +1,39 @@
+{
+  "campaign_id": "knowledge-narrative-depth-wave-3a-institutions-people-guilds-2026-07",
+  "page_id": "KNOW-BB110A51AF464872",
+  "proposed_path": "knowledge/guilds/Guild-Master-Index.md",
+  "page_action": "STRUCTURED_REWORK",
+  "proposed_knowledge_status": "QUALIFIED",
+  "page_risk_score": 5,
+  "page_risk_class": "R2",
+  "subject_entities": [],
+  "aliases": [],
+  "scope": "Guild identities, tags, faction relationships, and operator-confirmed context without inferred current membership.",
+  "material_claims": [
+    {
+      "claim_id": "KNOW-BB110A51AF464872-C01",
+      "claim_text": "Guild identities, tags, faction relationships, and operator-confirmed context without inferred current membership.",
+      "claim_type": "INSTITUTIONAL_DESCRIPTION",
+      "temporal_scope": "AS_OF_2026-07-20",
+      "lifecycle_state": "UNKNOWN",
+      "supporting_sources": [
+        "operations/campaigns/discord-community-indexing-001/alias-registry.json",
+        "operations/campaigns/discord-community-indexing-001/curator-decisions.json"
+      ],
+      "source_authority": "MIXED_A2_B2_OPERATOR_CONFIRMATION_WHERE_EXPLICIT",
+      "corroboration_status": "QUALIFIED",
+      "contradiction_status": "NONE_IDENTIFIED",
+      "attribution_required": true,
+      "confidence": "MEDIUM",
+      "allowed_in_page": true
+    }
+  ],
+  "known_limitations": [
+    "Current roles and relationships are not inferred from historical appearances."
+  ],
+  "research_gaps": [
+    "See the page's dated role, identity, and evidence-acquisition gaps."
+  ],
+  "review_required": true,
+  "review_after": "2027-01-20"
+}
