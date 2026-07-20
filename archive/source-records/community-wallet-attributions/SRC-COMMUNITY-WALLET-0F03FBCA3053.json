@@ -1,0 +1,60 @@
+{
+  "access": "operator_provided",
+  "artifact_chain": {
+    "normalized_metadata": "archive/normalized/community-wallet-attributions/metadata.json",
+    "normalized_records": "archive/normalized/community-wallet-attributions/wallet-attributions.jsonl",
+    "provenance": "archive/provenance/community-wallet-attributions/star-atlas-team-wallets.json",
+    "raw": "archive/raw/community-wallet-attributions/Star Atlas Team Wallets.xlsx",
+    "source_record_json": "archive/source-records/community-wallet-attributions/SRC-COMMUNITY-WALLET-0F03FBCA3053.json",
+    "source_record_markdown": "archive/source-records/community-wallet-attributions/SRC-COMMUNITY-WALLET-0F03FBCA3053.md"
+  },
+  "authority": {
+    "classification": "COMMUNITY_UNCONFIRMED",
+    "operator_assessment": "HIGH_LIKELIHOOD",
+    "scope": "Attribution likelihood only; not proof of ownership, control, activity, purpose, or temporal duration."
+  },
+  "canonical_url": null,
+  "captured_at": "2026-07-20",
+  "creator": [
+    "UNKNOWN"
+  ],
+  "document_type": "COMMUNITY_ATTRIBUTED_SOLANA_WALLET_REGISTER",
+  "provenance": {
+    "acquisition_method": "submitted directly by repository operator",
+    "original_filename": "Star Atlas Team Wallets.xlsx",
+    "preservation_policy": "byte-for-byte raw preservation",
+    "raw_path": "archive/raw/community-wallet-attributions/Star Atlas Team Wallets.xlsx",
+    "raw_sha256": "0f03fbca30538564e818e2a7c4a83e72ca6ef360e1b09b3a4b6e0edca4b85cfa"
+  },
+  "published_at_normalized": null,
+  "published_at_original": null,
+  "publisher": "UNKNOWN",
+  "quality": {
+    "attribution_confidence": "QUALIFIED_HIGH_LIKELIHOOD_OPERATOR_ASSESSMENT",
+    "extraction_confidence": "HIGH",
+    "limitations": [
+      "Workbook compiler and maintainer are UNKNOWN.",
+      "Attribution methodology and row-level evidence are unavailable.",
+      "Creation, update, and effective dates are unavailable.",
+      "No official or on-chain ownership/control verification was performed."
+    ],
+    "manual_review_required": true
+  },
+  "source_id": "SRC-COMMUNITY-WALLET-0F03FBCA3053",
+  "source_lineage": {
+    "lineage_confidence": "LOW",
+    "original_creators": [
+      "UNKNOWN"
+    ],
+    "primary_sources": [
+      "UNKNOWN"
+    ],
+    "publication": "UNKNOWN community compilation",
+    "publication_role": "COMMUNITY_ATTRIBUTION_REGISTER",
+    "relationship": "ATTRIBUTES_ASSOCIATION"
+  },
+  "source_type": "operator_submitted_workbook",
+  "title": "Star Atlas Team Wallets (community-attributed register)",
+  "updated_at_normalized": null,
+  "updated_at_original": null
+}

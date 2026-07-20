@@ -1,0 +1,22 @@
+{
+  "accepted_human_decisions": 4,
+  "campaign_id": "community-wallet-attribution-ingestion-2026-07",
+  "duplicate_addresses": 0,
+  "group_counts": {
+    "DAO": 4,
+    "FTX": 5,
+    "Liquidity": 38,
+    "Private Sale": 2,
+    "Rewards": 10,
+    "Team": 25
+  },
+  "knowledge_promotions": 0,
+  "manual_review_records": 84,
+  "onchain_analysis_performed": false,
+  "records_extracted": 84,
+  "research_gap_count": 4,
+  "source_artifacts": 1,
+  "status": "COMPLETE_WITH_RETAINED_RESEARCH_GAPS",
+  "syntactically_valid_solana_public_keys": 84,
+  "unique_addresses": 84
+}

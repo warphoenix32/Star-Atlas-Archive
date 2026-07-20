@@ -1,0 +1,31 @@
+{
+  "campaign_id": "community-wallet-attribution-ingestion-2026-07",
+  "decision_count": 4,
+  "decisions": [
+    {
+      "authority": "repository operator",
+      "decision": "Classify the workbook as a COMMUNITY_ATTRIBUTED_SOLANA_WALLET_REGISTER, not a confirmed register of team-owned wallets.",
+      "decision_id": "WAL-001",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "Preserve and normalize the register in Archive scope; do not promote ownership claims to knowledge or public Library outputs without stronger evidence.",
+      "decision_id": "WAL-002",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "Leave compiler, source location, creation date, update date, and methodology UNKNOWN.",
+      "decision_id": "WAL-003",
+      "status": "ACCEPTED"
+    },
+    {
+      "authority": "repository operator",
+      "decision": "Perform no on-chain verification; record ownership and control as UNVERIFIED and on-chain observation as NOT_CHECKED.",
+      "decision_id": "WAL-004",
+      "status": "ACCEPTED"
+    }
+  ],
+  "open_decision_count": 0
+}
