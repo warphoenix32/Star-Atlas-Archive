@@ -275,6 +275,8 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/validate_campaign.py",
             "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/validation-report.json",
             "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/validation-report.md",
+            "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/manifest.json",
+            "archive/manifests/dao-pip-vote-evidence-ingestion-2026-07.json",
             "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
             "archive/manifests/lore-repository-ingestion-2026-07.json",
             "publication/site/assets/library-index.json",
