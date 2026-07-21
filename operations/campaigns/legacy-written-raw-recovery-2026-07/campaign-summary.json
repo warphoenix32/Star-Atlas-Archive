@@ -1,0 +1,22 @@
+{
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "frozen_records": 800,
+  "identity_status_counts": {
+    "CONSISTENT": 2,
+    "MATCH": 13,
+    "NOT_EVALUATED": 5
+  },
+  "manual_review_count": 5,
+  "pilot_records": 20,
+  "raw_bodies_preserved": 15,
+  "schema_version": "1.0.0",
+  "status": "PILOT_COMPLETE_WITH_EXCEPTIONS",
+  "terminal_disposition_counts": {
+    "BLOCKED_ACCESS_OR_POLICY": 5,
+    "CAPTURED_ARCHIVE": 1,
+    "CAPTURED_IMMUTABLE_GIT": 1,
+    "CAPTURED_LIVE": 13
+  },
+  "urls_attempted": 20,
+  "urls_retrieved": 15
+}

@@ -1,0 +1,61 @@
+{
+  "byte_count": 28544,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T04:41:01.300879Z",
+  "captured_at": "2026-07-21T04:41:01.300879Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Tue, 21 Jul 2026 04:41:01 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+    "document_title": "What is Sage Labs Starbased? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-0A646AE069AFFBA5.json",
+  "raw_body": {
+    "byte_length": 28544,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-0A646AE069AFFBA5/response-body.bin",
+    "sha256": "9f86e373a3336d271b86ce35656e3438c7ec66b1f14b4814ebd0dd4cd85c6cc6"
+  },
+  "raw_sha256": "9f86e373a3336d271b86ce35656e3438c7ec66b1f14b4814ebd0dd4cd85c6cc6",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Tue, 21 Jul 2026 04:41:01 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-0A646AE069AFFBA5",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T04:41:01.300879Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

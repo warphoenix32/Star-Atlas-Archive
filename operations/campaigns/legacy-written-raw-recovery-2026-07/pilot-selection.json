@@ -1,0 +1,262 @@
+{
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "selection_status": "FROZEN",
+  "selected_record_count": 20,
+  "records": [
+    {
+      "source_id": "SRC-HNN-04DD15F547F461E7",
+      "title": "The Order of the Red Hand: Interview with Co-Founder Thor » The Hologram",
+      "original_url": "https://thehologram.io/order-of-the-red-hand",
+      "extraction_path": "archive/ingestion-packages/campaign-charlie-hnn/extractions/SRC-HNN-04DD15F547F461E7.json",
+      "source_record_path": "archive/source-records/campaign-charlie-hnn/SRC-HNN-04DD15F547F461E7.md",
+      "selection_rationale": "Represents an original interview recovered from the legacy thehologram.io host through an Internet Archive capture, with explicit HNN publication identity and named authorship.",
+      "risk_notes": [
+        "The live legacy host is not the retrieval source; archive timestamp and digest must remain explicit.",
+        "The generic Star Atlas link recorded as a primary source does not independently establish the original interview recording."
+      ]
+    },
+    {
+      "source_id": "SRC-HNN-E7FADD27A4FD57B6",
+      "title": "Puri Token Rallies After Targeted Long Squeeze - Hologram News Network 🦉",
+      "original_url": "https://hologramnews.com/puri-token-rallies-after-targeted-long-squeeze",
+      "extraction_path": "archive/ingestion-packages/campaign-charlie-hnn/extractions/SRC-HNN-E7FADD27A4FD57B6.json",
+      "source_record_path": "archive/source-records/campaign-charlie-hnn/SRC-HNN-E7FADD27A4FD57B6.md",
+      "selection_rationale": "Represents an investigative classification on the successor hologramnews.com host recovered through an Internet Archive capture.",
+      "risk_notes": [
+        "The surviving publication metadata does not identify an author.",
+        "The successor-site identity must remain distinct from the archived thehologram.io identity while retaining their HNN relationship."
+      ]
+    },
+    {
+      "source_id": "SRC-HNN-0AE69C9EB1A49845",
+      "title": "Star Atlas SAGE Crafting: The Best Way to Get Crews Cheaply",
+      "original_url": "https://medium.com/the-hologram/star-atlas-sage-crafting-the-best-way-to-get-crews-cheaply-98a33632a88b",
+      "extraction_path": "archive/ingestion-packages/campaign-charlie-hnn/extractions/SRC-HNN-0AE69C9EB1A49845.json",
+      "source_record_path": "archive/source-records/campaign-charlie-hnn/SRC-HNN-0AE69C9EB1A49845.md",
+      "selection_rationale": "Represents a live Medium retrieval from The Hologram publication and deliberately exercises the corpus's only medium-confidence completeness boundary in this pilot.",
+      "risk_notes": [
+        "Existing extraction completeness is REVIEW_REQUIRED.",
+        "The Hologram Medium publication must not be collapsed into the HNN website identity.",
+        "A live Medium page may contain edits made after original publication."
+      ]
+    },
+    {
+      "source_id": "SRC-HNN-03991C709B75E22E",
+      "title": "Star Atlas Rallies After “FTX Implosion”",
+      "original_url": "https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+      "extraction_path": "archive/ingestion-packages/campaign-charlie-hnn/extractions/SRC-HNN-03991C709B75E22E.json",
+      "source_record_path": "archive/source-records/campaign-charlie-hnn/SRC-HNN-03991C709B75E22E.md",
+      "selection_rationale": "Represents a Medium author-profile URL that redirected to a different Medium publication surface, testing preservation of author, publication, and redirect identities.",
+      "risk_notes": [
+        "The requested @krigsfoniks URL resolved to medium.com/blockchain-biz and both observations must be preserved.",
+        "No explicit primary source was identified from preserved outbound links."
+      ]
+    },
+    {
+      "source_id": "SRC-HNN-66B32FB7A224EB14",
+      "title": "Star Atlas: CORE Book One Recap *Spoilers*",
+      "original_url": "https://medium.com/p/a634ce395671",
+      "extraction_path": "archive/ingestion-packages/campaign-charlie-hnn/extractions/SRC-HNN-66B32FB7A224EB14.json",
+      "source_record_path": "archive/source-records/campaign-charlie-hnn/SRC-HNN-66B32FB7A224EB14.md",
+      "selection_rationale": "Represents an opaque Medium post-ID URL that resolved to a named The Hologram publication slug, testing stable post identity and canonical redirect capture.",
+      "risk_notes": [
+        "The original /p/ URL is not sufficient by itself to establish publication membership.",
+        "The redirect target and Medium post ID must remain part of the provenance chain."
+      ]
+    },
+    {
+      "source_id": "SRC-AEPHIA-F749E3A20669A520",
+      "title": "Leaked footage of the Fimbul Airbike",
+      "original_url": "https://aephia.com/star-atlas/leaked-footage-of-the-fimbul-airbike",
+      "extraction_path": "archive/ingestion-packages/campaign-alpha-aephia/extractions/SRC-AEPHIA-F749E3A20669A520.json",
+      "source_record_path": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-F749E3A20669A520.md",
+      "selection_rationale": "Represents a short Aephia reference retrieved through the WordPress JSON API and deliberately exercises a medium-confidence completeness case.",
+      "risk_notes": [
+        "Existing extraction completeness is REVIEW_REQUIRED because the body is short.",
+        "The live WordPress record may reflect later edits and no immutable raw HTML is currently preserved.",
+        "Aephia is an organization-level author value, not a confirmed named human byline."
+      ]
+    },
+    {
+      "source_id": "SRC-AEPHIA-0182787CF88DD0DA",
+      "title": "SLY Assistant Tutorials: Standalone & Dashboards",
+      "original_url": "https://aephia.com/star-atlas/sly-assistant-tutorials-standalone-dashboards",
+      "extraction_path": "archive/ingestion-packages/campaign-alpha-aephia/extractions/SRC-AEPHIA-0182787CF88DD0DA.json",
+      "source_record_path": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-0182787CF88DD0DA.md",
+      "selection_rationale": "Represents a compact technical guide with embedded tutorial context and current-product terminology.",
+      "risk_notes": [
+        "The page may have been edited after publication and should be captured as a dated state.",
+        "External tutorial media is referenced but is outside this text-only recovery pilot.",
+        "Aephia is an organization-level author value, not a confirmed named human byline."
+      ]
+    },
+    {
+      "source_id": "SRC-AEPHIA-1285F1BCA85AB55F",
+      "title": "Town Hall Report – August 27th, 2025",
+      "original_url": "https://aephia.com/star-atlas/town-hall-report-august-27th-2025",
+      "extraction_path": "archive/ingestion-packages/campaign-alpha-aephia/extractions/SRC-AEPHIA-1285F1BCA85AB55F.json",
+      "source_record_path": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-1285F1BCA85AB55F.md",
+      "selection_rationale": "Represents a long secondary report of an official event and tests preservation of event context, reported statements, and post-publication updates.",
+      "risk_notes": [
+        "The report was updated after publication and must not be treated as a verbatim Town Hall transcript.",
+        "Reported announcements must remain distinct from releases, execution, or event outcomes.",
+        "Aephia is an organization-level author value, not a confirmed named human byline."
+      ]
+    },
+    {
+      "source_id": "SRC-AEPHIA-21D7FE432327A762",
+      "title": "Star Atlas – Faction Fleet / SCORE Guide",
+      "original_url": "https://aephia.com/star-atlas/star-atlas-score-guide-tier-0",
+      "extraction_path": "archive/ingestion-packages/campaign-alpha-aephia/extractions/SRC-AEPHIA-21D7FE432327A762.json",
+      "source_record_path": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-21D7FE432327A762.md",
+      "selection_rationale": "Represents an early product guide with a material later update, testing lifecycle chronology and historical state preservation.",
+      "risk_notes": [
+        "The 2021 publication was materially updated in 2022, so publication-state claims require date qualification.",
+        "SCORE and Faction Fleet naming and lifecycle states must not be collapsed beyond the source wording.",
+        "Aephia is an organization-level author value, not a confirmed named human byline."
+      ]
+    },
+    {
+      "source_id": "SRC-AEPHIA-19357309E964FAF8",
+      "title": "Weekly Star Atlas Newsletter #125",
+      "original_url": "https://aephia.com/star-atlas/weekly-star-atlas-newsletter-125",
+      "extraction_path": "archive/ingestion-packages/campaign-alpha-aephia/extractions/SRC-AEPHIA-19357309E964FAF8.json",
+      "source_record_path": "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md",
+      "selection_rationale": "Represents an Aephia weekly aggregation containing multiple source lineages, announcements, roadmap statements, and reported events.",
+      "risk_notes": [
+        "Aggregated claims require paragraph-level lineage and must not be treated as independent corroboration.",
+        "Announcements, planned dates, tests, and observed occurrences require separate states.",
+        "Aephia is an organization-level author value, not a confirmed named human byline."
+      ]
+    },
+    {
+      "source_id": "SRC-IH-73A1B12100BA1F26",
+      "title": "How to play Star Atlas guide",
+      "original_url": "https://intergalacticherald.com/star-atlas-beginner-guide",
+      "extraction_path": "archive/ingestion-packages/campaign-bravo-intergalactic-herald/extractions/SRC-IH-73A1B12100BA1F26.json",
+      "source_record_path": "archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-73A1B12100BA1F26.md",
+      "selection_rationale": "Represents a reference page whose inventory URL redirected to a canonical guide and whose content belongs to a known duplicate cluster.",
+      "risk_notes": [
+        "The inventory URL redirected to https://intergalacticherald.com/star-atlas-guide/ and both URLs must be preserved.",
+        "Its content hash duplicates SRC-IH-A30A8FE220020005; neither evidence record should be silently deleted.",
+        "The guide aggregates broadly sourced material with limited named-source attribution."
+      ]
+    },
+    {
+      "source_id": "SRC-IH-F4C2A6A0B64F3E98",
+      "title": "Star Atlas Weekly News Recap #53",
+      "original_url": "https://intergalacticherald.com/newsletter/star-atlas-weekly-news-recap-53",
+      "extraction_path": "archive/ingestion-packages/campaign-bravo-intergalactic-herald/extractions/SRC-IH-F4C2A6A0B64F3E98.json",
+      "source_record_path": "archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-F4C2A6A0B64F3E98.md",
+      "selection_rationale": "Represents a known short or incomplete Herald newsletter extraction and date anomaly, providing a negative-boundary recovery test.",
+      "risk_notes": [
+        "Existing extraction completeness and publication dating require review.",
+        "A successful recapture must not silently replace the preserved prior extraction.",
+        "The recap is curated secondary material and requires source-lineage preservation."
+      ]
+    },
+    {
+      "source_id": "SRC-IH-01FCC742522C1676",
+      "title": "Star Atlas Weekly News Recap #83",
+      "original_url": "https://intergalacticherald.com/newsletter/star-atlas-weekly-news-recap-83",
+      "extraction_path": "archive/ingestion-packages/campaign-bravo-intergalactic-herald/extractions/SRC-IH-01FCC742522C1676.json",
+      "source_record_path": "archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-01FCC742522C1676.md",
+      "selection_rationale": "Represents a complete multi-source weekly recap suitable for validating article-body capture and claim-to-outbound-source alignment.",
+      "risk_notes": [
+        "The recap contains multiple source relationships and must not be treated as original reporting.",
+        "Each significant claim requires alignment to the correct outbound source rather than the article as a whole."
+      ]
+    },
+    {
+      "source_id": "SRC-IH-D1F9C624BF245EC7",
+      "title": "Star Atlas Event Recap 43: Atlas Brew 178-Interview with Jacob, Co-Founder and CTO of Star Atlas",
+      "original_url": "https://intergalacticherald.com/star-atlas-recap/star-atlas-event-recap-43-atlas-brew-178-interview-with-jacob-co-founder-and-cto-of-star-atlas",
+      "extraction_path": "archive/ingestion-packages/campaign-bravo-intergalactic-herald/extractions/SRC-IH-D1F9C624BF245EC7.json",
+      "source_record_path": "archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-D1F9C624BF245EC7.md",
+      "selection_rationale": "Represents an AI-generated event recap containing an interview summary and transcript-derived material.",
+      "risk_notes": [
+        "The original Atlas Brew URL is not preserved in the existing record.",
+        "The named Jacob identity and CTO role require source-native confirmation before canonical promotion.",
+        "AI-generated summary wording must remain distinct from the underlying interview evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-IH-C9AD5B9C924908F3",
+      "title": "Star Atlas Event Recap 71: Star Atlas Lore Keepers 19",
+      "original_url": "https://intergalacticherald.com/star-atlas-recap/star-atlas-event-recap-71-star-atlas-lore-keepers-19",
+      "extraction_path": "archive/ingestion-packages/campaign-bravo-intergalactic-herald/extractions/SRC-IH-C9AD5B9C924908F3.json",
+      "source_record_path": "archive/source-records/campaign-bravo-intergalactic-herald/SRC-IH-C9AD5B9C924908F3.md",
+      "selection_rationale": "Represents an AI-generated Lore Keepers recap with transcript-derived lore claims, testing community-summary lineage against the lore authority model.",
+      "risk_notes": [
+        "The original Lore Keepers recording URL is not preserved in the existing record.",
+        "Lore claims require reconciliation with the canonical lore vocabulary and must remain attributed to the recap or underlying event.",
+        "AI-generated summary wording is not primary lore evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-OFF-0A646AE069AFFBA5",
+      "title": "What is Sage Labs Starbased?",
+      "original_url": "https://support.staratlas.com/hc/en-us/articles/47061430667027-What-is-Sage-Labs-Starbased",
+      "extraction_path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0A646AE069AFFBA5.json",
+      "source_record_path": "archive/source-records/campaign-delta-official/SRC-OFF-0A646AE069AFFBA5.md",
+      "selection_rationale": "Represents a mutable Zendesk support article with a stable numeric article identifier and product-support terminology.",
+      "risk_notes": [
+        "A live recapture documents current state and cannot reproduce the article's earlier state without an archived snapshot.",
+        "Redirects and update metadata must be preserved.",
+        "Existing encoding artifacts must not be silently corrected in preserved evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-OFF-0333A5B22A207D88",
+      "title": "Star Atlas Launches a New Era of Gaming with Record-shattering Token Sales | Star Atlas",
+      "original_url": "https://experience.staratlas.com/newsroom/article/star-atlas-launches-a-new-era-of-gaming-with-record-shattering-token-sales",
+      "extraction_path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-0333A5B22A207D88.json",
+      "source_record_path": "archive/source-records/campaign-delta-official/SRC-OFF-0333A5B22A207D88.md",
+      "selection_rationale": "Represents an early official newsroom announcement for which a near-publication archival snapshot would materially improve historical fidelity.",
+      "risk_notes": [
+        "The current live page may drift from its 2021 publication state.",
+        "Historical outbound links, including FTX-related links, may now be unavailable or contextually stale.",
+        "Announcement language must not be treated as independent verification of outcomes."
+      ]
+    },
+    {
+      "source_id": "SRC-OFF-17012CC0302537A1",
+      "title": "Star Atlas Build",
+      "original_url": "https://build.staratlas.com/introduction/what-you-can-build",
+      "extraction_path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-17012CC0302537A1.json",
+      "source_record_path": "archive/source-records/campaign-delta-official/SRC-OFF-17012CC0302537A1.md",
+      "selection_rationale": "Represents dynamic official technical documentation whose generic title makes path and capture-time context essential to identity.",
+      "risk_notes": [
+        "No reliable original publication date is present.",
+        "The documentation is mutable and a recapture establishes only capture-time state.",
+        "Current documentation must not be used as proof of historical feature availability."
+      ]
+    },
+    {
+      "source_id": "SRC-OFF-B4F9EB92DD60A7A8",
+      "title": "Star Atlas DAO",
+      "original_url": "https://govern.staratlas.com/",
+      "extraction_path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-B4F9EB92DD60A7A8.json",
+      "source_record_path": "archive/source-records/campaign-delta-official/SRC-OFF-B4F9EB92DD60A7A8.md",
+      "selection_rationale": "Represents a highly mutable governance root page combining current navigation, release statements, and future-facing material.",
+      "risk_notes": [
+        "The page is undated and dynamic; a recapture is a capture-time state only.",
+        "Release statements and Coming Soon language must remain separate lifecycle states.",
+        "The root page must not substitute for proposal, vote, implementation, or execution evidence."
+      ]
+    },
+    {
+      "source_id": "SRC-OFF-076F496F0A6CA989",
+      "title": "factory README",
+      "original_url": "https://github.com/staratlasmeta/factory#readme",
+      "extraction_path": "archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-076F496F0A6CA989.json",
+      "source_record_path": "archive/source-records/campaign-delta-official/SRC-OFF-076F496F0A6CA989.md",
+      "selection_rationale": "Represents official GitHub documentation and tests immutable commit-pinned recovery rather than mutable default-branch capture.",
+      "risk_notes": [
+        "The default-branch URL is mutable and the #readme fragment is not part of HTTP resource identity.",
+        "Recovery must pin the commit SHA, blob path, and checksum.",
+        "A current commit must not be claimed to reproduce the document's 2025 state."
+      ]
+    }
+  ]
+}

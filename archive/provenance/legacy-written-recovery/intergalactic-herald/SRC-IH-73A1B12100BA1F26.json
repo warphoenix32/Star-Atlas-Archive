@@ -1,0 +1,61 @@
+{
+  "byte_count": 39868,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T04:40:52.053242Z",
+  "captured_at": "2026-07-21T04:40:52.053242Z",
+  "content_type": "application/json; charset=UTF-8",
+  "final_url": "https://intergalacticherald.com/wp-json/wp/v2/pages/1081?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Tue, 21 Jul 2026 04:40:51 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://intergalacticherald.com/star-atlas-guide/",
+    "observed_canonical_url": "https://intergalacticherald.com/star-atlas-guide/",
+    "observed_final_url": "https://intergalacticherald.com/wp-json/wp/v2/pages/1081?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://intergalacticherald.com/star-atlas-guide/",
+    "document_title": "How to play Star Atlas guide",
+    "response_format": "JSON"
+  },
+  "original_url": "https://intergalacticherald.com/star-atlas-guide/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/intergalactic-herald/SRC-IH-73A1B12100BA1F26.json",
+  "raw_body": {
+    "byte_length": 39868,
+    "path": "archive/raw/legacy-written-recovery/intergalactic-herald/SRC-IH-73A1B12100BA1F26/response-body.bin",
+    "sha256": "46c1bbc947b78bd9e015056b600a230df8b2d22c791b13c71fe813103c228921"
+  },
+  "raw_sha256": "46c1bbc947b78bd9e015056b600a230df8b2d22c791b13c71fe813103c228921",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://intergalacticherald.com/wp-json/wp/v2/pages/1081?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://intergalacticherald.com/wp-json/wp/v2/pages/1081?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 21 Jul 2026 04:40:51 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "intergalactic-herald",
+  "source_id": "SRC-IH-73A1B12100BA1F26",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T04:40:52.053242Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

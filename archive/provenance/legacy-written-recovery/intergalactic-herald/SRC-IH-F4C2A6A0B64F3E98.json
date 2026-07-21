@@ -1,0 +1,61 @@
+{
+  "byte_count": 4420,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T04:40:56.128766Z",
+  "captured_at": "2026-07-21T04:40:56.128766Z",
+  "content_type": "application/json; charset=UTF-8",
+  "final_url": "https://intergalacticherald.com/wp-json/wp/v2/posts?slug=star-atlas-weekly-news-recap-53&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Tue, 21 Jul 2026 04:40:56 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://intergalacticherald.com/newsletter/star-atlas-weekly-news-recap-53/",
+    "observed_canonical_url": "https://intergalacticherald.com/newsletter/star-atlas-weekly-news-recap-53/",
+    "observed_final_url": "https://intergalacticherald.com/wp-json/wp/v2/posts?slug=star-atlas-weekly-news-recap-53&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://intergalacticherald.com/newsletter/star-atlas-weekly-news-recap-53/",
+    "document_title": "Star Atlas Weekly News Recap #53",
+    "response_format": "JSON"
+  },
+  "original_url": "https://intergalacticherald.com/newsletter/star-atlas-weekly-news-recap-53/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/intergalactic-herald/SRC-IH-F4C2A6A0B64F3E98.json",
+  "raw_body": {
+    "byte_length": 4420,
+    "path": "archive/raw/legacy-written-recovery/intergalactic-herald/SRC-IH-F4C2A6A0B64F3E98/response-body.bin",
+    "sha256": "d068510b729b5370f2ef103b23aec9372a7943773d26bbd4092653d83bd3d6c4"
+  },
+  "raw_sha256": "d068510b729b5370f2ef103b23aec9372a7943773d26bbd4092653d83bd3d6c4",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://intergalacticherald.com/wp-json/wp/v2/posts?slug=star-atlas-weekly-news-recap-53&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://intergalacticherald.com/wp-json/wp/v2/posts?slug=star-atlas-weekly-news-recap-53&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 21 Jul 2026 04:40:56 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "intergalactic-herald",
+  "source_id": "SRC-IH-F4C2A6A0B64F3E98",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T04:40:56.128766Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

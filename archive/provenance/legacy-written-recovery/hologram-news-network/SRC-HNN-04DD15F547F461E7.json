@@ -1,0 +1,61 @@
+{
+  "byte_count": 34517,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T04:40:43.228544Z",
+  "captured_at": "2026-07-21T04:40:43.228544Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220822105939id_/https://thehologram.io/order-of-the-red-hand/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Tue, 21 Jul 2026 04:40:43 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/order-of-the-red-hand",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20220822105939id_/https://thehologram.io/order-of-the-red-hand/",
+    "reasons": [
+      "ARCHIVE_CAPTURE_CONTAINS_EXPECTED_ORIGIN"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/order-of-the-red-hand",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-04DD15F547F461E7.json",
+  "raw_body": {
+    "byte_length": 34517,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-04DD15F547F461E7/response-body.bin",
+    "sha256": "0d10a9d59da7a4dc34c6fa059110f1edf52d005ec0897bbb3648d0bee053752f"
+  },
+  "raw_sha256": "0d10a9d59da7a4dc34c6fa059110f1edf52d005ec0897bbb3648d0bee053752f",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220822105939id_/https://thehologram.io/order-of-the-red-hand/",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220822105939id_/https://thehologram.io/order-of-the-red-hand/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Tue, 21 Jul 2026 04:40:43 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220822105939",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-04DD15F547F461E7",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220822105939",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

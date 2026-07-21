@@ -176,7 +176,13 @@ def validate_simplified_promotion_reports() -> int:
 
 
 def validate_forbidden_paths(changes: list[str]) -> str:
-    phase_one_inventory = any(path.startswith((
+    legacy_written_raw_recovery = any(path.startswith((
+        "archive/raw/legacy-written-recovery/",
+        "archive/provenance/legacy-written-recovery/",
+        "operations/campaigns/legacy-written-raw-recovery-2026-07/",
+        "operations/tests/legacy_written_raw_recovery/",
+    )) or path == "archive/manifests/legacy-written-raw-recovery-2026-07.json" for path in changes)
+    phase_one_inventory = not legacy_written_raw_recovery and any(path.startswith((
         "operations/coverage/",
         "operations/programs/library-roadmap/",
     )) for path in changes)
@@ -258,10 +264,20 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = 1 if phase_one_inventory else sum((ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = 1 if legacy_written_raw_recovery else sum((phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
-    if phase_one_inventory:
+    if legacy_written_raw_recovery:
+        allowed = common + (
+            ".gitattributes",
+            "archive/raw/legacy-written-recovery/",
+            "archive/provenance/legacy-written-recovery/",
+            "archive/manifests/legacy-written-raw-recovery-2026-07.json",
+            "operations/campaigns/legacy-written-raw-recovery-2026-07/",
+            "operations/tests/legacy_written_raw_recovery/",
+        )
+        label = "legacy-written-raw-recovery-2026-07"
+    elif phase_one_inventory:
         allowed = common + (
             "operations/README.md",
             "operations/coverage/",
@@ -717,6 +733,32 @@ def validate_phase_one_inventory() -> None:
         raise ValidationFailure("Phase 1 generated artifacts do not reconcile with committed files:\n" + diff.stdout)
 
 
+def validate_legacy_written_raw_recovery_campaign() -> None:
+    """Validate preserved recovery artifacts twice without invoking retrieval."""
+    campaign = ROOT / "operations/campaigns/legacy-written-raw-recovery-2026-07"
+    command = [sys.executable, str(campaign / "validate_campaign.py")]
+    exclusions = {"validate_campaign.py"}
+    env = os.environ.copy()
+    env["NO_NETWORK"] = "1"
+    env["STAR_ATLAS_OFFLINE_VALIDATION"] = "1"
+
+    first = run_cycle(command, campaign, exclusions, env)
+    second = run_cycle(command, campaign, exclusions, env)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("Legacy written raw-recovery validation is not deterministic: " + ", ".join(differing))
+    diff = run(
+        "git", "diff", "--exit-code", "--",
+        "archive/raw/legacy-written-recovery",
+        "archive/provenance/legacy-written-recovery",
+        "archive/manifests/legacy-written-raw-recovery-2026-07.json",
+        str(campaign.relative_to(ROOT)),
+        "operations/tests/legacy_written_raw_recovery",
+    )
+    if diff.returncode:
+        raise ValidationFailure("Legacy written raw-recovery artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
 def repository_mode(base_ref: str) -> None:
     documents, records = parse_json_corpus()
     schemas = validate_declared_schemas()
@@ -734,7 +776,9 @@ def repository_mode(base_ref: str) -> None:
 def campaign_mode(base_ref: str) -> None:
     changes = changed_paths(base_ref)
     contract = validate_forbidden_paths(changes)
-    if contract == "phase-one-repository-baseline":
+    if contract == "legacy-written-raw-recovery-2026-07":
+        validate_legacy_written_raw_recovery_campaign()
+    elif contract == "phase-one-repository-baseline":
         validate_phase_one_inventory()
     elif contract == "knowledge-narrative-depth-001":
         validate_knowledge_campaign()

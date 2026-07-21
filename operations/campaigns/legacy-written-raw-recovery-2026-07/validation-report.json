@@ -1,0 +1,100 @@
+{
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "checks": [
+    {
+      "check": "FROZEN_MANIFEST_EXISTS",
+      "detail": "operations/campaigns/legacy-written-raw-recovery-2026-07/frozen-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "check": "FROZEN_MANIFEST_DETERMINISTIC",
+      "detail": "Generated manifest equals the current 800-record extraction inventory.",
+      "status": "PASS"
+    },
+    {
+      "check": "FROZEN_RECORD_COUNT",
+      "detail": "observed=800 expected=800",
+      "status": "PASS"
+    },
+    {
+      "check": "UNIQUE_SOURCE_IDS",
+      "detail": "unique=800 total=800",
+      "status": "PASS"
+    },
+    {
+      "check": "PILOT_SOURCE_IDS",
+      "detail": "Approved 20-record pilot is frozen exactly.",
+      "status": "PASS"
+    },
+    {
+      "check": "EXTRACTION_CHECKSUMS",
+      "detail": "All frozen extraction checksums reconcile.",
+      "status": "PASS"
+    },
+    {
+      "check": "SOURCE_RECORD_REFERENCES",
+      "detail": "Every declared Source Record path and frozen SHA-256 reconcile.",
+      "status": "PASS"
+    },
+    {
+      "check": "PILOT_SELECTION_RECONCILES",
+      "detail": "selection_ids=20 expected=20",
+      "status": "PASS"
+    },
+    {
+      "check": "TERMINAL_DISPOSITIONS",
+      "detail": "terminal_records=20",
+      "status": "PASS"
+    },
+    {
+      "check": "RAW_BODY_CHECKSUMS",
+      "detail": "Every successful raw body exists and matches its ledger SHA-256.",
+      "status": "PASS"
+    },
+    {
+      "check": "PROVENANCE_RECONCILES",
+      "detail": "Every successful provenance record reconciles to its Source ID and body checksum.",
+      "status": "PASS"
+    },
+    {
+      "check": "REQUIRED_PROVENANCE_FIELDS",
+      "detail": "Every preserved response has the complete Phase 2 provenance field set.",
+      "status": "PASS"
+    },
+    {
+      "check": "MANUAL_REVIEW_QUEUE",
+      "detail": "Manual-review queue equals the flagged terminal records.",
+      "status": "PASS"
+    },
+    {
+      "check": "PROTECTED_EVIDENCE_UNCHANGED",
+      "detail": "Frozen extraction and Source Record checksums are unchanged.",
+      "status": "PASS"
+    },
+    {
+      "check": "OUTPUT_SCOPE",
+      "detail": "Every declared raw and provenance output remains under its approved repository layer.",
+      "status": "PASS"
+    },
+    {
+      "check": "ARCHIVE_MANIFEST_RECONCILES",
+      "detail": "artifact_count=30",
+      "status": "PASS"
+    },
+    {
+      "check": "CONTROLLED_TERMINAL_DISPOSITIONS",
+      "detail": "Every pilot record uses the frozen Phase 2 disposition vocabulary.",
+      "status": "PASS"
+    },
+    {
+      "check": "PROTECTED_LAYERS_ABSENT_FROM_OUTPUTS",
+      "detail": "No declared output enters a protected evidence, knowledge, graph, or publication layer.",
+      "status": "PASS"
+    }
+  ],
+  "failed_checks": [],
+  "passed_checks": 18,
+  "schema_version": "1.0.0",
+  "status": "PASS",
+  "total_checks": 18
+}

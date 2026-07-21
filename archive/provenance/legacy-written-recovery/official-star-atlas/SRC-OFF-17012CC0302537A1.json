@@ -1,0 +1,67 @@
+{
+  "byte_count": 26663,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T04:41:01.618177Z",
+  "captured_at": "2026-07-21T04:41:01.618177Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/introduction/what-you-can-build",
+  "headers": {
+    "content-length": "26663",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Tue, 21 Jul 2026 04:41:01 GMT",
+    "etag": "\"69e10f4e-6827\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/introduction/what-you-can-build",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/introduction/what-you-can-build",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "What You Can Build | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/introduction/what-you-can-build",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-17012CC0302537A1.json",
+  "raw_body": {
+    "byte_length": 26663,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-17012CC0302537A1/response-body.bin",
+    "sha256": "337a4dfc7bfc32ae5ca4e18707dd0855a2170ef57c12d9635fc7495b45667124"
+  },
+  "raw_sha256": "337a4dfc7bfc32ae5ca4e18707dd0855a2170ef57c12d9635fc7495b45667124",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/introduction/what-you-can-build",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/introduction/what-you-can-build",
+    "headers": {
+      "content-length": "26663",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Tue, 21 Jul 2026 04:41:01 GMT",
+      "etag": "\"69e10f4e-6827\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-17012CC0302537A1",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T04:41:01.618177Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}
