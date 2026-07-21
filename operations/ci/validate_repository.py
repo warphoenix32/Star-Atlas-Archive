@@ -273,6 +273,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json",
             "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.md",
             "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/validate_campaign.py",
+            "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/build_campaign.py",
             "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/validation-report.json",
             "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/validation-report.md",
             "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/manifest.json",

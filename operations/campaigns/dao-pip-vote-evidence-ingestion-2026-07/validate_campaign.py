@@ -40,6 +40,14 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def manifest_bytes(path: Path) -> bytes:
+    """Match the campaign manifest's canonical LF representation for text."""
+    data = path.read_bytes()
+    if path.suffix.lower() in {".json", ".jsonl", ".md", ".py"}:
+        return data.replace(b"\r\n", b"\n")
+    return data
+
+
 def run(*args: str) -> subprocess.CompletedProcess[str]:
     return subprocess.run(args, cwd=ROOT, text=True, capture_output=True, check=False)
 
@@ -135,7 +143,8 @@ def validate() -> tuple[dict[str, Any], list[str]]:
     manifest_errors = []
     for item in manifest["artifacts"]:
         path = ROOT / item["path"]
-        if not path.exists() or path.stat().st_size != item["byte_length"] or sha256(path) != item["sha256"]:
+        data = manifest_bytes(path) if path.exists() else b""
+        if not path.exists() or len(data) != item["byte_length"] or hashlib.sha256(data).hexdigest() != item["sha256"]:
             manifest_errors.append(item["path"])
     check("manifest_checksums", not manifest_errors, manifest_errors)
     check("manifest_count", manifest["artifact_count"] == len(manifest["artifacts"]), manifest["artifact_count"])
