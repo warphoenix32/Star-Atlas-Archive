@@ -1,0 +1,52 @@
+{
+  "aggregate_reconciliation": {
+    "conflicting_fields": 0,
+    "proposal_matches": 32,
+    "status": "PASS"
+  },
+  "as_of": "2026-07-20",
+  "binary_result_counts": {
+    "FAILED": 4,
+    "PASSED": 23
+  },
+  "campaign_id": "dao-pip-vote-evidence-ingestion-2026-07",
+  "canonical_knowledge_changes": 0,
+  "effective_ballot_count": 8404,
+  "excluded_pips": {
+    "PIP-33": "ALREADY_INGESTED"
+  },
+  "final_stv_tallies_computed": false,
+  "graph_changes": 0,
+  "included_pips": 32,
+  "included_range": "PIP-1 through PIP-32",
+  "independent_rpc_reverification_performed": false,
+  "mechanism_counts": {
+    "BINARY_PVP": 27,
+    "RANKED_CHOICE_ELECTION": 5
+  },
+  "memo_program_used_counts": {
+    "false": 5977,
+    "true": 2427
+  },
+  "package_sha256": "4e01123f31a2531427fc1910841efae45e24b15f4472338fbbf174c2e5b52d08",
+  "package_source_id": "SRC-SOLANA-DAO-PIP-VOTES-4E01123F31A2",
+  "pip_33_outputs_changed": false,
+  "publication_changes": 0,
+  "ranked_choice_elections": [
+    "PIP-06",
+    "PIP-07",
+    "PIP-11",
+    "PIP-25",
+    "PIP-27"
+  ],
+  "raw_package_preserved": true,
+  "status": "READY_FOR_ARCHIVAL_REVIEW",
+  "superseded_vote_event_count": 0,
+  "timestamp_order_anomaly_count": 278,
+  "unique_wallets_across_corpus": 1708,
+  "validation_value_representation_counts": {
+    "BASE64_ED25519_DETACHED_SIGNATURE_BYTES": 5977,
+    "BASE64_SERIALIZED_TRANSACTION_LIKE_PAYLOAD": 2427
+  },
+  "vote_event_count": 8404
+}

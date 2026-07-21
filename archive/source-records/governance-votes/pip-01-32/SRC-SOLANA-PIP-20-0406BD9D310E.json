@@ -1,0 +1,64 @@
+{
+  "artifact_chain": {
+    "effective_ballots": "archive/normalized/governance-votes/pip-01-32/effective-ballots.jsonl",
+    "normalized_vote_events": "archive/normalized/governance-votes/pip-01-32/vote-events.jsonl",
+    "proposal_summaries": "archive/normalized/governance-votes/pip-01-32/proposal-summaries.json",
+    "provenance": "archive/provenance/governance-votes/pip-01-32.json",
+    "raw_archive": "archive/raw/governance-votes/pip-01-32/Star Atlas DAO PIP Votes.zip",
+    "source_record_json": "archive/source-records/governance-votes/pip-01-32/SRC-SOLANA-PIP-20-0406BD9D310E.json",
+    "source_record_markdown": "archive/source-records/governance-votes/pip-01-32/SRC-SOLANA-PIP-20-0406BD9D310E.md"
+  },
+  "authority": {
+    "classification": "A1_PRIMARY_BLOCKCHAIN_DERIVED_EVIDENCE",
+    "independent_rpc_reverification_status": "NOT_PERFORMED",
+    "operator_confirmation": "Valid evidence pulled directly from the Solana blockchain and viewed through the official Star Atlas DAO website.",
+    "scope": "Ballot-event and vote-result evidence only; not implementation, payment, or post-vote execution evidence."
+  },
+  "canonical_url": null,
+  "captured_at": "2026-07-20",
+  "creator": [
+    "Individual Star Atlas DAO voters"
+  ],
+  "document_type": "SOLANA_ONCHAIN_GOVERNANCE_VOTE_RECORD_SET",
+  "provenance": {
+    "acquisition_method": "submitted directly by repository operator",
+    "member_sha256": "0406bd9d310ea06a96cb248ea5641f86ab0d080fa7f5b1f86376e8458ade7c46",
+    "original_member_path": "Star Atlas DAO PIP Votes/PIP-20.json",
+    "original_package_filename": "Star Atlas DAO PIP Votes.zip",
+    "package_sha256": "4e01123f31a2531427fc1910841efae45e24b15f4472338fbbf174c2e5b52d08",
+    "package_source_id": "SRC-SOLANA-DAO-PIP-VOTES-4E01123F31A2",
+    "source_artifact_path": "archive/raw/governance-votes/pip-01-32/Star Atlas DAO PIP Votes.zip",
+    "source_artifact_preserved": true
+  },
+  "published_at_normalized": null,
+  "published_at_original": null,
+  "publisher": "Solana blockchain; exported through the official Star Atlas DAO website",
+  "quality": {
+    "completeness": "COMPLETE_FOR_SUPPLIED_PIP-20_EXPORT",
+    "extraction_confidence": "HIGH",
+    "limitations": [
+      "Validation payloads are preserved exactly but were not independently replayed against a Solana RPC endpoint.",
+      "The export does not contain transaction IDs, slots, block times, cluster identifiers, RPC endpoints, or an internal checksum manifest.",
+      "Wallet public keys are not inferred to be named people or organizations.",
+      "This vote dataset does not establish proposal implementation, treasury payment, or post-vote execution."
+    ],
+    "manual_review_required": false
+  },
+  "source_id": "SRC-SOLANA-PIP-20-0406BD9D310E",
+  "source_lineage": {
+    "lineage_confidence": "HIGH",
+    "original_creators": [
+      "Individual Star Atlas DAO voters"
+    ],
+    "primary_sources": [
+      "Individual signed Star Atlas DAO ballots"
+    ],
+    "publication": "Solana blockchain / official Star Atlas DAO website",
+    "publication_role": "ONCHAIN_VOTE_EVIDENCE",
+    "relationship": "RECORDS_BALLOTS_FOR"
+  },
+  "source_type": "operator_provided_primary_blockchain_derived_official_dao_export",
+  "title": "PIP-20 on-chain governance vote export",
+  "updated_at_normalized": null,
+  "updated_at_original": null
+}

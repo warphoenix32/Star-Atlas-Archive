@@ -1,0 +1,2391 @@
+{
+  "as_of": "2026-07-20",
+  "campaign_id": "dao-pip-vote-evidence-ingestion-2026-07",
+  "comparison_precision": "EXACT_COUNTS_AND_ROUND_HALF_UP_5DP_FOR_PVP",
+  "conflict_count": 0,
+  "proposal_count": 32,
+  "ranked_choice_tally_limitations": 5,
+  "reconciled_proposal_count": 32,
+  "records": [
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "bc8475e4-0525-4fba-b4f8-b848ccde7a9d",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "bc8475e4-0525-4fba-b4f8-b848ccde7a9d"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 894,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 894
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "175358517.29446000545374546",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "175358517.29446"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 782,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 782
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "118466246.60769610459579546",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "118466246.60770"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 101,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 101
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "50624407.96816817681977",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "50624407.96817"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 11,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 11
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "6267862.71859572403818",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "6267862.71860"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-01",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-01-5DAEF57AA5D7",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "1e2d7066-ec44-46e0-945f-b2e56b1e61b0",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "1e2d7066-ec44-46e0-945f-b2e56b1e61b0"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 852,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 852
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "176067374.488721584720659",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "176067374.48872"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 674,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 674
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "99759835.192889974963643",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "99759835.19289"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 151,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 151
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "69015468.838133753132146",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "69015468.83813"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 27,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 27
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "7292070.45769785662487",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "7292070.45770"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-02",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-02-954057FF0214",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "f5e7cde1-9a02-4670-ae40-1c932a4b8dad",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "f5e7cde1-9a02-4670-ae40-1c932a4b8dad"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 479,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 479
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "97325460.4089416172588149",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "97325460.40894"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 461,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 461
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "84678191.7025254745560149",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "84678191.70253"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 13,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 13
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "12482711.012724072681",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "12482711.01272"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 5,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 5
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "164557.6936920700218",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "164557.69369"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-03",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-03-D2B581A805EF",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "ad1945d8-60dc-4ed7-b52a-63dd33f97415",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "ad1945d8-60dc-4ed7-b52a-63dd33f97415"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 460,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 460
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "96290419.7729246806539449",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "96290419.77292"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 421,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 421
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "81843902.5128978026084949",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "81843902.51290"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 33,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 33
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "14242581.31620796885365",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "14242581.31621"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 6,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 6
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "203935.9438189091918",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "203935.94382"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-04",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-04-7732DAEFC9F1",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "c248d280-15fb-4071-ba5d-2afaa6e1af41",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "c248d280-15fb-4071-ba5d-2afaa6e1af41"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 411,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 411
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "101192567.4948634538545296",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "101192567.49486"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 333,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 333
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "80521366.4547641016774636",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "80521366.45476"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 69,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 69
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "19930351.43958932936537",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "19930351.43959"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 9,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 9
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "740849.600510022811696",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "740849.60051"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-05",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-05-0211D105F5B9",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "1b792551-83e1-4998-99a4-6637caa69df8",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "1b792551-83e1-4998-99a4-6637caa69df8"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 587,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 587
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "161327889.08397183",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "161327889.08397"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-06",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-06-12E86F2A177A",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "91652743-f916-4566-99af-421a557f7c3d",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "91652743-f916-4566-99af-421a557f7c3d"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 575,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 575
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "174532321.58451426",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "174532321.58451"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-07",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-07-4DAD323760BC",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "62506041-933e-4b3e-a450-a2596c15a801",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "62506041-933e-4b3e-a450-a2596c15a801"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 285,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 285
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "84739048.470907581333208",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "84739048.47091"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 228,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 228
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "72275594.601401963230528",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "72275594.60140"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 54,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 54
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "12007878.97275774668268",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "12007878.97276"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 3,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 3
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "455574.89674787142",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "455574.89675"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-08",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-08-8D90BDAA4499",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "1cc4bb6f-269b-46fa-b60b-a17f01b41ffa",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "1cc4bb6f-269b-46fa-b60b-a17f01b41ffa"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 127,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 127
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "60749531.731248403936813",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "60749531.73125"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 124,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 124
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "60315831.190417026347813",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "60315831.19042"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 3,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 3
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "433700.540831377589",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "433700.54083"
+        },
+        {
+          "comparison_precision": "SEMANTIC_ZERO_VS_NOT_CAPTURED",
+          "existing_ledger": null,
+          "field": "abstain_ballots",
+          "status": "NO_NUMERIC_CONFLICT_LIMITATION_RETAINED",
+          "supplied_evidence": 0
+        },
+        {
+          "comparison_precision": "SEMANTIC_ZERO_VS_NOT_CAPTURED",
+          "existing_ledger": null,
+          "field": "abstain_pvp",
+          "status": "NO_NUMERIC_CONFLICT_LIMITATION_RETAINED",
+          "supplied_evidence": "0.00000"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-09",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-09-741B3B3F8156",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "ed887a4e-344e-44d6-8a47-c815d9e8ec8e",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "ed887a4e-344e-44d6-8a47-c815d9e8ec8e"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 211,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 211
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "86032196.548345620527335",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "86032196.54835"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 209,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 209
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "84997000.833444787727335",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "84997000.83344"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 1,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 1
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "786061.9883146426",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "786061.98831"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 1,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 1
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "249133.7265861902",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "249133.72659"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-10",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-10-0B0695A82C1B",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "7b48a62d-13c3-4a1e-8565-6ea7bfb4b4dc",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "7b48a62d-13c3-4a1e-8565-6ea7bfb4b4dc"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 348,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 348
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "150046997.08184665",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "150046997.08185"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-11",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-11-9DD733601F08",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "f15380c9-8d3f-4849-8185-c29f4c72e961",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "f15380c9-8d3f-4849-8185-c29f4c72e961"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 143,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 143
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "84282800.17252469699379",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "84282800.17252"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 87,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 87
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "55090441.7203514144207",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "55090441.72035"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 50,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 50
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "16325703.81751238282035",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "16325703.81751"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 6,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 6
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "12866654.63466089975274",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "12866654.63466"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-12",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-12-114871B2A096",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "b721d8e7-9ca1-4a85-b627-472c108b3acb",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "b721d8e7-9ca1-4a85-b627-472c108b3acb"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 161,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 161
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "84911187.971013868958296",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "84911187.97101"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 83,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 83
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "23247451.44933094120451",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "23247451.44933"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 57,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 57
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "58144044.192175563558886",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "58144044.19218"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 21,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 21
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "3519692.3295073641949",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "3519692.32951"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "FAILED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "FAILED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-13",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-13-0BBFDD55D9D4",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "fed98016-e7b6-4a5b-8120-4f0ec90cfa77",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "fed98016-e7b6-4a5b-8120-4f0ec90cfa77"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 176,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 176
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "108019015.521641504286987",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "108019015.52164"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 141,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 141
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "100079948.791721847185027",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "100079948.79172"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 28,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 28
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "7476976.93945939219146",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "7476976.93946"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 7,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 7
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "462089.7904602649105",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "462089.79046"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-14",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-14-26D3CE7D2AD9",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "bd065ad2-5e75-4e47-a696-a1efe06382da",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "bd065ad2-5e75-4e47-a696-a1efe06382da"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 161,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 161
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "103714225.92154467304473",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "103714225.92154"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 46,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 46
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "38791006.98713182319328",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "38791006.98713"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 102,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 102
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "62013412.28960679431876",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "62013412.28961"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 13,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 13
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "2909806.64480605553269",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "2909806.64481"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "FAILED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "FAILED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-15",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-15-A453CCD40B33",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "b11ced4b-a6a5-4211-a0e6-060eadc4bd22",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "b11ced4b-a6a5-4211-a0e6-060eadc4bd22"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 202,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 202
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "106840891.29989744573765256",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "106840891.29990"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 167,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 167
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "81056806.2882333337242",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "81056806.28823"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 21,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 21
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "6979915.86406552204061",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "6979915.86407"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 14,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 14
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "18804169.14759858997284256",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "18804169.14760"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-16",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-16-FC6D3A559292",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "4df4c199-e888-4fdc-a666-7f82d6cf2de7",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "4df4c199-e888-4fdc-a666-7f82d6cf2de7"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 194,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 194
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "111127589.77571377545612",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "111127589.77571"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 120,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 120
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "67357600.78706531183462",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "67357600.78707"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 70,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 70
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "43163339.0227892540245",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "43163339.02279"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 4,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 4
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "606649.965859209597",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "606649.96586"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-17",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-17-1093FAEBE8E0",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "18750a6a-f36d-44ba-990a-07769c5c589b",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "18750a6a-f36d-44ba-990a-07769c5c589b"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 116,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 116
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "54542358.71034139774098",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "54542358.71034"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 98,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 98
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "40993696.92844893998568",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "40993696.92845"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 14,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 14
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "11339350.4512077565853",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "11339350.45121"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 4,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 4
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "2209311.33068470117",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "2209311.33068"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-18",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-18-D62CC5A855BC",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "1eb3d15e-645e-4c34-8a69-00d304ecfc4f",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "1eb3d15e-645e-4c34-8a69-00d304ecfc4f"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 157,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 157
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "143540402.947866030561733",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "143540402.94787"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 43,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 43
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "59388884.17306768517726",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "59388884.17307"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 105,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 105
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "83100564.474068210577573",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "83100564.47407"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 9,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 9
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "1050954.3007301348069",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "1050954.30073"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "FAILED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "FAILED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-19",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-19-C1959B9A1D5C",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "159cb743-f8cf-4932-8e01-e6f1a0b479ff",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "159cb743-f8cf-4932-8e01-e6f1a0b479ff"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 150,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 150
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "122487813.17666034572025",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "122487813.17666"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 111,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 111
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "106030687.38355558354421",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "106030687.38356"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 32,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 32
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "15940622.26160213707314",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "15940622.26160"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 7,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 7
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "516503.5315026251029",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "516503.53150"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-20",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-20-0406BD9D310E",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "49cad7e4-f467-4c88-978a-e3cac1633cf1",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "49cad7e4-f467-4c88-978a-e3cac1633cf1"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 184,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 184
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "146582266.73589813257868",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "146582266.73590"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 124,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 124
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "76880541.93730371407713",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "76880541.93730"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 56,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 56
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "55012100.13793423692155",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "55012100.13793"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 4,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 4
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "14689624.66066018158",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "14689624.66066"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-21",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-21-574AD9AE146D",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "d5d61e64-5489-4530-93a5-b65bf1bf8079",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "d5d61e64-5489-4530-93a5-b65bf1bf8079"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 109,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 109
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "140860393.723229246439193",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "140860393.72323"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 98,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 98
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "137797850.987275790285793",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "137797850.98728"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 9,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 9
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "2670497.9552498631134",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "2670497.95525"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 2,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 2
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "392044.78070359304",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "392044.78070"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-22",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-22-FECA4987645D",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "0ecf2928-15df-497e-8b67-d87eda030d5a",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "0ecf2928-15df-497e-8b67-d87eda030d5a"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 117,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 117
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "111085778.360693364835023",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "111085778.36069"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 77,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 77
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "86030422.02705529060743",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "86030422.02706"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 34,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 34
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "24262645.413694593485593",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "24262645.41369"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 6,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 6
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "792710.919943480742",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "792710.91994"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-23",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-23-E64EDB7724CF",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "8cc6b298-2708-40c6-9b9d-867f0cba8ea5",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "8cc6b298-2708-40c6-9b9d-867f0cba8ea5"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 140,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 140
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "108384665.285865978540166",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "108384665.28587"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 79,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 79
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "64002012.602125027599097",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "64002012.60213"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 55,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 55
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "43346187.830609256463269",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "43346187.83061"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 6,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 6
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "1036464.8531316944778",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "1036464.85313"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-24",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-24-1B51B295253D",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "91cc73fa-0af7-41ea-86c5-bab7ffcfcb4f",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "91cc73fa-0af7-41ea-86c5-bab7ffcfcb4f"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 176,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 176
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "111777631.5099522",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "111777631.50995"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-25",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-25-91578B5AE7B5",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "b70ac545-6c01-486d-b943-dee434d9abf3",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "b70ac545-6c01-486d-b943-dee434d9abf3"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 147,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 147
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "167145879.7945697145596252",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "167145879.79457"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 49,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 49
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "50845898.39810709547066",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "50845898.39811"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 90,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 90
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "87903394.3874796963789652",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "87903394.38748"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 8,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 8
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "28396587.00898292271",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "28396587.00898"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "FAILED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "FAILED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-26",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-26-C0FC0EE557F5",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "064d252c-be76-494a-8f19-f650c2a3dab6",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "064d252c-be76-494a-8f19-f650c2a3dab6"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 128,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 128
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "146708785.8400328",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "146708785.84003"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-27",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-27-49DF9F3AF0AB",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "d0a5dc75-4e1c-4a70-a8af-a5f3636d0139",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "d0a5dc75-4e1c-4a70-a8af-a5f3636d0139"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 145,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 145
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "143214014.33399469962303",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "143214014.33399"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 113,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 113
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "132748518.60220010378223",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "132748518.60220"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 26,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 26
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "8344270.1804614863808",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "8344270.18046"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 6,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 6
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "2121225.55133310946",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "2121225.55133"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-28",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-28-9B2F3691EF54",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "8e761702-ee81-4509-b627-9cadb5897c1b",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "8e761702-ee81-4509-b627-9cadb5897c1b"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 105,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 105
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "162674435.1663717393699",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "162674435.16637"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 90,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 90
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "156894218.6758377942159",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "156894218.67584"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 13,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 13
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "4778188.438956892994",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "4778188.43896"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 2,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 2
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "1002028.05157705216",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "1002028.05158"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-29",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-29-C778D893ED20",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "3ba029f2-65e8-4637-b6ad-ae86284ff714",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "3ba029f2-65e8-4637-b6ad-ae86284ff714"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 205,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 205
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "182756316.87953361584129",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "182756316.87953"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 147,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 147
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "111241682.08665644280279",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "111241682.08666"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 55,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 55
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "70230624.8482863139085",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "70230624.84829"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 3,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 3
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "1284009.94459085913",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "1284009.94459"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-30",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-30-7039577B4BA8",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "e71fb1a7-6d19-4565-8ff8-b4e79a3f8c16",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "e71fb1a7-6d19-4565-8ff8-b4e79a3f8c16"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 141,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 141
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "134547929.12659095569767",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "134547929.12659"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 66,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 66
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "53854461.85725857028707",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "53854461.85726"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 64,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 64
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "46566240.1818730930898",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "46566240.18187"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 11,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 11
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "34127227.0874592923208",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "34127227.08746"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-31",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-31-3A1F6B36C190",
+      "winner_inference_performed": false
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "comparisons": [
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "0b04ff9b-ff04-45f5-a458-696fea70eda2",
+          "field": "proposal_id",
+          "status": "MATCH",
+          "supplied_evidence": "0b04ff9b-ff04-45f5-a458-696fea70eda2"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 118,
+          "field": "ballot_count",
+          "status": "MATCH",
+          "supplied_evidence": 118
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "119212364.30757500588994",
+          "field": "total_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "119212364.30758"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 90,
+          "field": "yes_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 90
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "88329391.65101292166224",
+          "field": "yes_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "88329391.65101"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 21,
+          "field": "no_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 21
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "13539439.5083802807377",
+          "field": "no_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "13539439.50838"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": 7,
+          "field": "abstain_ballots",
+          "status": "MATCH",
+          "supplied_evidence": 7
+        },
+        {
+          "comparison_precision": "5DP",
+          "existing_ledger": "17343533.14818180349",
+          "field": "abstain_pvp",
+          "status": "MATCH",
+          "supplied_evidence": "17343533.14818"
+        },
+        {
+          "comparison_precision": "EXACT",
+          "existing_ledger": "PASSED",
+          "field": "binary_result",
+          "status": "MATCH",
+          "supplied_evidence": "PASSED"
+        }
+      ],
+      "conflict_fields": [],
+      "election_final_tally_status": null,
+      "implementation_or_payment_evidence": false,
+      "pip_id": "PIP-32",
+      "reconciliation_status": "MATCH",
+      "source_id": "SRC-SOLANA-PIP-32-F64A5CFF07FF",
+      "winner_inference_performed": false
+    }
+  ],
+  "scope": "PIP-1 through PIP-32 supplied ballot evidence; PIP-33 excluded as already ingested"
+}

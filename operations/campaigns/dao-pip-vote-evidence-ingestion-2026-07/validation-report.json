@@ -1,0 +1,168 @@
+{
+  "as_of": "2026-07-20",
+  "campaign_id": "dao-pip-vote-evidence-ingestion-2026-07",
+  "checks": {
+    "allowed_paths_only": {
+      "detail": [],
+      "passed": true
+    },
+    "binary_result_rule_attributed": {
+      "detail": null,
+      "passed": true
+    },
+    "both_timestamps_preserved": {
+      "detail": null,
+      "passed": true
+    },
+    "deterministic_regeneration": {
+      "detail": {
+        "build_returncode": 0,
+        "build_stderr": "",
+        "changed_artifacts": [],
+        "import_returncode": 0,
+        "import_stderr": ""
+      },
+      "passed": true
+    },
+    "effective_ballot_count": {
+      "detail": 8404,
+      "passed": true
+    },
+    "effective_event_references": {
+      "detail": null,
+      "passed": true
+    },
+    "election_pips": {
+      "detail": [
+        "PIP-06",
+        "PIP-07",
+        "PIP-11",
+        "PIP-25",
+        "PIP-27"
+      ],
+      "passed": true
+    },
+    "election_winners_not_inferred": {
+      "detail": null,
+      "passed": true
+    },
+    "git_diff_check": {
+      "detail": "",
+      "passed": true
+    },
+    "identity_not_inferred": {
+      "detail": null,
+      "passed": true
+    },
+    "json_parse": {
+      "detail": [],
+      "passed": true
+    },
+    "ledger_aggregate_reconciliation": {
+      "detail": null,
+      "passed": true
+    },
+    "manifest_checksums": {
+      "detail": [],
+      "passed": true
+    },
+    "manifest_copies_match": {
+      "detail": null,
+      "passed": true
+    },
+    "manifest_count": {
+      "detail": 78,
+      "passed": true
+    },
+    "mechanism_partition": {
+      "detail": null,
+      "passed": true
+    },
+    "package_provenance": {
+      "detail": null,
+      "passed": true
+    },
+    "payment_and_implementation_not_inferred": {
+      "detail": null,
+      "passed": true
+    },
+    "pip_33_excluded": {
+      "detail": null,
+      "passed": true
+    },
+    "pip_33_exclusion_documented": {
+      "detail": null,
+      "passed": true
+    },
+    "pip_scope": {
+      "detail": null,
+      "passed": true
+    },
+    "proposal_summary_count": {
+      "detail": 32,
+      "passed": true
+    },
+    "protected_layers_unchanged": {
+      "detail": [],
+      "passed": true
+    },
+    "raw_package_preserved": {
+      "detail": "4e01123f31a2531427fc1910841efae45e24b15f4472338fbbf174c2e5b52d08",
+      "passed": true
+    },
+    "rpc_reverification_not_inferred": {
+      "detail": null,
+      "passed": true
+    },
+    "source_record_pairs": {
+      "detail": {
+        "json": 32,
+        "markdown": 32
+      },
+      "passed": true
+    },
+    "timestamp_anomalies_preserved": {
+      "detail": 278,
+      "passed": true
+    },
+    "timestamp_anomaly_values_negative": {
+      "detail": null,
+      "passed": true
+    },
+    "unique_pip_wallet_pairs": {
+      "detail": null,
+      "passed": true
+    },
+    "unique_source_ids": {
+      "detail": null,
+      "passed": true
+    },
+    "unique_validation_values": {
+      "detail": null,
+      "passed": true
+    },
+    "unique_vote_event_ids": {
+      "detail": null,
+      "passed": true
+    },
+    "validation_representation_counts": {
+      "detail": {
+        "BASE64_ED25519_DETACHED_SIGNATURE_BYTES": 5977,
+        "BASE64_SERIALIZED_TRANSACTION_LIKE_PAYLOAD": 2427
+      },
+      "passed": true
+    },
+    "vote_event_count": {
+      "detail": 8404,
+      "passed": true
+    }
+  },
+  "failures": [],
+  "status": "PASS",
+  "warnings": [
+    "Independent Solana RPC replay was not performed; the operator-confirmed source and exact validation payloads are preserved.",
+    "The 278 timestamp-order anomalies are retained without choosing one timestamp as authoritative.",
+    "Final STV tallies are not computed without the exact election implementation rules.",
+    "Ballot evidence does not establish implementation, payment, or post-vote execution."
+  ]
+}

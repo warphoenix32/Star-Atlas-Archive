@@ -1,0 +1,1775 @@
+{
+  "campaign_id": "dao-pip-vote-evidence-ingestion-2026-07",
+  "proposal_count": 32,
+  "proposals": [
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 11,
+          "no": 101,
+          "yes": 782
+        },
+        "pvp_raw": {
+          "abstain": "6267862.71859572403818",
+          "no": "50624407.968168176819770",
+          "yes": "118466246.60769610459579546"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "6267862.71860",
+          "no": "50624407.96817",
+          "yes": "118466246.60770"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 894,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-01",
+      "pip_number": 1,
+      "portal_record_created_at_max": "2024-07-23T15:42:28.433Z",
+      "portal_record_created_at_min": "2024-07-10T16:00:38.737Z",
+      "proposal_hash": "2f6f959826",
+      "proposal_id": "bc8475e4-0525-4fba-b4f8-b848ccde7a9d",
+      "signed_message_timestamp_max": "2024-07-23T15:42:24.911Z",
+      "signed_message_timestamp_min": "2024-07-10T16:00:27.987Z",
+      "source_id": "SRC-SOLANA-PIP-01-5DAEF57AA5D7",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 28,
+      "title": "Star Atlas DAO",
+      "total_pvp_raw": "175358517.29446000545374546",
+      "total_pvp_rounded_5dp": "175358517.29446",
+      "unique_wallet_count": 894,
+      "vote_event_count": 894
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 27,
+          "no": 151,
+          "yes": 674
+        },
+        "pvp_raw": {
+          "abstain": "7292070.45769785662487",
+          "no": "69015468.838133753132146",
+          "yes": "99759835.192889974963643"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "7292070.45770",
+          "no": "69015468.83813",
+          "yes": "99759835.19289"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 852,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-02",
+      "pip_number": 2,
+      "portal_record_created_at_max": "2024-07-23T15:43:21.022Z",
+      "portal_record_created_at_min": "2024-07-10T16:01:46.200Z",
+      "proposal_hash": "418216b1ef",
+      "proposal_id": "1e2d7066-ec44-46e0-945f-b2e56b1e61b0",
+      "signed_message_timestamp_max": "2024-07-23T15:43:18.536Z",
+      "signed_message_timestamp_min": "2024-07-10T16:01:40.187Z",
+      "source_id": "SRC-SOLANA-PIP-02-954057FF0214",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 35,
+      "title": "Star Atlas Foundation",
+      "total_pvp_raw": "176067374.488721584720659",
+      "total_pvp_rounded_5dp": "176067374.48872",
+      "unique_wallet_count": 852,
+      "vote_event_count": 852
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 5,
+          "no": 13,
+          "yes": 461
+        },
+        "pvp_raw": {
+          "abstain": "164557.6936920700218",
+          "no": "12482711.012724072681",
+          "yes": "84678191.7025254745560149"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "164557.69369",
+          "no": "12482711.01272",
+          "yes": "84678191.70253"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 479,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-03",
+      "pip_number": 3,
+      "portal_record_created_at_max": "2024-08-06T14:34:43.412Z",
+      "portal_record_created_at_min": "2024-07-24T16:17:31.165Z",
+      "proposal_hash": "676cfbc6bf",
+      "proposal_id": "f5e7cde1-9a02-4670-ae40-1c932a4b8dad",
+      "signed_message_timestamp_max": "2024-08-06T14:34:37.335Z",
+      "signed_message_timestamp_min": "2024-07-24T16:17:22.308Z",
+      "source_id": "SRC-SOLANA-PIP-03-D2B581A805EF",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 8,
+      "title": "Star Atlas Council",
+      "total_pvp_raw": "97325460.4089416172588149",
+      "total_pvp_rounded_5dp": "97325460.40894",
+      "unique_wallet_count": 479,
+      "vote_event_count": 479
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 6,
+          "no": 33,
+          "yes": 421
+        },
+        "pvp_raw": {
+          "abstain": "203935.9438189091918",
+          "no": "14242581.31620796885365",
+          "yes": "81843902.5128978026084949"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "203935.94382",
+          "no": "14242581.31621",
+          "yes": "81843902.51290"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 460,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-04",
+      "pip_number": 4,
+      "portal_record_created_at_max": "2024-08-06T12:09:54.328Z",
+      "portal_record_created_at_min": "2024-07-24T16:19:11.253Z",
+      "proposal_hash": "c88fc3b309",
+      "proposal_id": "ad1945d8-60dc-4ed7-b52a-63dd33f97415",
+      "signed_message_timestamp_max": "2024-08-06T12:09:51.272Z",
+      "signed_message_timestamp_min": "2024-07-24T16:19:03.729Z",
+      "source_id": "SRC-SOLANA-PIP-04-7732DAEFC9F1",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 12,
+      "title": "Star Atlas Ecosystem Fund",
+      "total_pvp_raw": "96290419.7729246806539449",
+      "total_pvp_rounded_5dp": "96290419.77292",
+      "unique_wallet_count": 460,
+      "vote_event_count": 460
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 9,
+          "no": 69,
+          "yes": 333
+        },
+        "pvp_raw": {
+          "abstain": "740849.600510022811696",
+          "no": "19930351.43958932936537",
+          "yes": "80521366.4547641016774636"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "740849.60051",
+          "no": "19930351.43959",
+          "yes": "80521366.45476"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 411,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-05",
+      "pip_number": 5,
+      "portal_record_created_at_max": "2024-08-09T13:37:46.172Z",
+      "portal_record_created_at_min": "2024-07-26T16:44:02.577Z",
+      "proposal_hash": "0508cec0a7",
+      "proposal_id": "c248d280-15fb-4071-ba5d-2afaa6e1af41",
+      "signed_message_timestamp_max": "2024-08-09T13:37:43.334Z",
+      "signed_message_timestamp_min": "2024-07-26T16:44:02.162Z",
+      "source_id": "SRC-SOLANA-PIP-05-0211D105F5B9",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 9,
+      "title": "Co-Sponsor the Naabathon",
+      "total_pvp_raw": "101192567.4948634538545296",
+      "total_pvp_rounded_5dp": "101192567.49486",
+      "unique_wallet_count": 411,
+      "vote_event_count": 411
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "binary_result": null,
+      "effective_ballot_count": 587,
+      "election_result": {
+        "candidate_count_observed": 22,
+        "candidate_labels_raw": [
+          "ajota_lrnr",
+          "bilal_sous",
+          "bodhi_tree",
+          "bolerzwam",
+          "dextrin",
+          "dmark",
+          "drumcarl05",
+          "folarihn_topboi",
+          "funcracker",
+          "jith_blade",
+          "jp",
+          "king_bryan",
+          "krigs",
+          "kucheto",
+          "notcatz",
+          "onigiri0732_91801",
+          "rome_i_emperor",
+          "sai_kirito",
+          "sawyn",
+          "sim",
+          "xalexus",
+          "z"
+        ],
+        "final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+        "first_preference_statistics": [
+          {
+            "ballot_count": 21,
+            "candidate_label_raw": "ajota_lrnr",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "6751759.68882776289838",
+            "pvp_rounded_5dp": "6751759.68883"
+          },
+          {
+            "ballot_count": 1,
+            "candidate_label_raw": "bilal_sous",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "1893.630093713849",
+            "pvp_rounded_5dp": "1893.63009"
+          },
+          {
+            "ballot_count": 17,
+            "candidate_label_raw": "bodhi_tree",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "13217401.457161133127",
+            "pvp_rounded_5dp": "13217401.45716"
+          },
+          {
+            "ballot_count": 3,
+            "candidate_label_raw": "bolerzwam",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "645447.856796961887",
+            "pvp_rounded_5dp": "645447.85680"
+          },
+          {
+            "ballot_count": 5,
+            "candidate_label_raw": "dextrin",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "476420.505825355298",
+            "pvp_rounded_5dp": "476420.50583"
+          },
+          {
+            "ballot_count": 6,
+            "candidate_label_raw": "dmark",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "802833.84469905894804",
+            "pvp_rounded_5dp": "802833.84470"
+          },
+          {
+            "ballot_count": 63,
+            "candidate_label_raw": "drumcarl05",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "4307977.83116090123102",
+            "pvp_rounded_5dp": "4307977.83116"
+          },
+          {
+            "ballot_count": 0,
+            "candidate_label_raw": "folarihn_topboi",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "0",
+            "pvp_rounded_5dp": "0.00000"
+          },
+          {
+            "ballot_count": 132,
+            "candidate_label_raw": "funcracker",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "27009022.690516701269209",
+            "pvp_rounded_5dp": "27009022.69052"
+          },
+          {
+            "ballot_count": 11,
+            "candidate_label_raw": "jith_blade",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "392353.9498416739261",
+            "pvp_rounded_5dp": "392353.94984"
+          },
+          {
+            "ballot_count": 8,
+            "candidate_label_raw": "jp",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "11634590.8838412748448",
+            "pvp_rounded_5dp": "11634590.88384"
+          },
+          {
+            "ballot_count": 52,
+            "candidate_label_raw": "king_bryan",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "49226617.5801034738190",
+            "pvp_rounded_5dp": "49226617.58010"
+          },
+          {
+            "ballot_count": 69,
+            "candidate_label_raw": "krigs",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "26630953.81326078988151",
+            "pvp_rounded_5dp": "26630953.81326"
+          },
+          {
+            "ballot_count": 2,
+            "candidate_label_raw": "kucheto",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "443450.575652599122272",
+            "pvp_rounded_5dp": "443450.57565"
+          },
+          {
+            "ballot_count": 5,
+            "candidate_label_raw": "notcatz",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "2117747.102807144794",
+            "pvp_rounded_5dp": "2117747.10281"
+          },
+          {
+            "ballot_count": 0,
+            "candidate_label_raw": "onigiri0732_91801",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "0",
+            "pvp_rounded_5dp": "0.00000"
+          },
+          {
+            "ballot_count": 84,
+            "candidate_label_raw": "rome_i_emperor",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "11092591.760810766011643",
+            "pvp_rounded_5dp": "11092591.76081"
+          },
+          {
+            "ballot_count": 15,
+            "candidate_label_raw": "sai_kirito",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "3916161.7358569600460",
+            "pvp_rounded_5dp": "3916161.73586"
+          },
+          {
+            "ballot_count": 24,
+            "candidate_label_raw": "sawyn",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "1397006.06437083876379",
+            "pvp_rounded_5dp": "1397006.06437"
+          },
+          {
+            "ballot_count": 45,
+            "candidate_label_raw": "sim",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "740625.48206903306872",
+            "pvp_rounded_5dp": "740625.48207"
+          },
+          {
+            "ballot_count": 23,
+            "candidate_label_raw": "xalexus",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "504422.3661265687922",
+            "pvp_rounded_5dp": "504422.36613"
+          },
+          {
+            "ballot_count": 1,
+            "candidate_label_raw": "z",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "18610.26414922138",
+            "pvp_rounded_5dp": "18610.26415"
+          }
+        ],
+        "winner_inference_performed": false
+      },
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-06",
+      "pip_number": 6,
+      "portal_record_created_at_max": "2024-09-21T04:58:00.909Z",
+      "portal_record_created_at_min": "2024-09-14T16:04:06.093Z",
+      "proposal_hash": "590847d6ba",
+      "proposal_id": "1b792551-83e1-4998-99a4-6637caa69df8",
+      "signed_message_timestamp_max": "2024-09-21T04:57:46.796Z",
+      "signed_message_timestamp_min": "2024-09-14T16:04:02.656Z",
+      "source_id": "SRC-SOLANA-PIP-06-12E86F2A177A",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 24,
+      "title": "Council Election #1 — First Round",
+      "total_pvp_raw": "161327889.083971932957684",
+      "total_pvp_rounded_5dp": "161327889.08397",
+      "unique_wallet_count": 587,
+      "vote_event_count": 587
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "binary_result": null,
+      "effective_ballot_count": 575,
+      "election_result": {
+        "candidate_count_observed": 12,
+        "candidate_labels_raw": [
+          "ajota_lrnr",
+          "bodhi_tree",
+          "dmark",
+          "drumcarl05",
+          "funcracker",
+          "jith_blade",
+          "jp",
+          "king_bryan",
+          "krigs",
+          "notcatz",
+          "rome_i_emperor",
+          "xalexus"
+        ],
+        "final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+        "first_preference_statistics": [
+          {
+            "ballot_count": 17,
+            "candidate_label_raw": "ajota_lrnr",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "10086296.021611999514",
+            "pvp_rounded_5dp": "10086296.02161"
+          },
+          {
+            "ballot_count": 32,
+            "candidate_label_raw": "bodhi_tree",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "24018579.92534533537501",
+            "pvp_rounded_5dp": "24018579.92535"
+          },
+          {
+            "ballot_count": 3,
+            "candidate_label_raw": "dmark",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "753879.74881288196",
+            "pvp_rounded_5dp": "753879.74881"
+          },
+          {
+            "ballot_count": 118,
+            "candidate_label_raw": "drumcarl05",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "19443959.456876531236577",
+            "pvp_rounded_5dp": "19443959.45688"
+          },
+          {
+            "ballot_count": 165,
+            "candidate_label_raw": "funcracker",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "31697785.2047495195812438",
+            "pvp_rounded_5dp": "31697785.20475"
+          },
+          {
+            "ballot_count": 8,
+            "candidate_label_raw": "jith_blade",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "2416257.75361698458995",
+            "pvp_rounded_5dp": "2416257.75362"
+          },
+          {
+            "ballot_count": 33,
+            "candidate_label_raw": "jp",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "32911838.191373792618329",
+            "pvp_rounded_5dp": "32911838.19137"
+          },
+          {
+            "ballot_count": 58,
+            "candidate_label_raw": "king_bryan",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "29468830.674829569534803",
+            "pvp_rounded_5dp": "29468830.67483"
+          },
+          {
+            "ballot_count": 12,
+            "candidate_label_raw": "krigs",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "528630.6152451477018",
+            "pvp_rounded_5dp": "528630.61525"
+          },
+          {
+            "ballot_count": 9,
+            "candidate_label_raw": "notcatz",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "5867903.795680171295",
+            "pvp_rounded_5dp": "5867903.79568"
+          },
+          {
+            "ballot_count": 94,
+            "candidate_label_raw": "rome_i_emperor",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "16789931.68134004590880",
+            "pvp_rounded_5dp": "16789931.68134"
+          },
+          {
+            "ballot_count": 26,
+            "candidate_label_raw": "xalexus",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "548428.51503217818077",
+            "pvp_rounded_5dp": "548428.51503"
+          }
+        ],
+        "winner_inference_performed": false
+      },
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-07",
+      "pip_number": 7,
+      "portal_record_created_at_max": "2024-10-11T15:58:04.964Z",
+      "portal_record_created_at_min": "2024-09-27T16:39:02.321Z",
+      "proposal_hash": "5d6ecacdaf",
+      "proposal_id": "91652743-f916-4566-99af-421a557f7c3d",
+      "signed_message_timestamp_max": "2024-10-11T15:57:55.982Z",
+      "signed_message_timestamp_min": "2024-09-27T16:38:56.277Z",
+      "source_id": "SRC-SOLANA-PIP-07-4DAD323760BC",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 21,
+      "title": "Council Election #1 — Second Round",
+      "total_pvp_raw": "174532321.5845141574962828",
+      "total_pvp_rounded_5dp": "174532321.58451",
+      "unique_wallet_count": 575,
+      "vote_event_count": 575
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 3,
+          "no": 54,
+          "yes": 228
+        },
+        "pvp_raw": {
+          "abstain": "455574.89674787142",
+          "no": "12007878.97275774668268",
+          "yes": "72275594.601401963230528"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "455574.89675",
+          "no": "12007878.97276",
+          "yes": "72275594.60140"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 285,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-08",
+      "pip_number": 8,
+      "portal_record_created_at_max": "2025-02-26T23:17:30.728Z",
+      "portal_record_created_at_min": "2025-02-20T06:20:00.394Z",
+      "proposal_hash": "f492aba579",
+      "proposal_id": "62506041-933e-4b3e-a450-a2596c15a801",
+      "signed_message_timestamp_max": "2025-02-26T23:17:20.075Z",
+      "signed_message_timestamp_min": "2025-02-20T06:19:57.560Z",
+      "source_id": "SRC-SOLANA-PIP-08-8D90BDAA4499",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 11,
+      "title": "Star Atlas Comet at Gamescom 2025",
+      "total_pvp_raw": "84739048.470907581333208",
+      "total_pvp_rounded_5dp": "84739048.47091",
+      "unique_wallet_count": 285,
+      "vote_event_count": 285
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 0,
+          "no": 3,
+          "yes": 124
+        },
+        "pvp_raw": {
+          "abstain": "0",
+          "no": "433700.540831377589",
+          "yes": "60315831.190417026347813"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "0.00000",
+          "no": "433700.54083",
+          "yes": "60315831.19042"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 127,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-09",
+      "pip_number": 9,
+      "portal_record_created_at_max": "2025-03-06T22:17:59.768Z",
+      "portal_record_created_at_min": "2025-02-28T01:15:17.599Z",
+      "proposal_hash": "fcabcb799e",
+      "proposal_id": "1cc4bb6f-269b-46fa-b60b-a17f01b41ffa",
+      "signed_message_timestamp_max": "2025-03-06T22:17:40.357Z",
+      "signed_message_timestamp_min": "2025-02-28T01:15:09.735Z",
+      "source_id": "SRC-SOLANA-PIP-09-741B3B3F8156",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 3,
+      "title": "Adjust STV Backup Vote Handling",
+      "total_pvp_raw": "60749531.731248403936813",
+      "total_pvp_rounded_5dp": "60749531.73125",
+      "unique_wallet_count": 127,
+      "vote_event_count": 127
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 1,
+          "no": 1,
+          "yes": 209
+        },
+        "pvp_raw": {
+          "abstain": "249133.7265861902",
+          "no": "786061.9883146426",
+          "yes": "84997000.833444787727335"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "249133.72659",
+          "no": "786061.98831",
+          "yes": "84997000.83344"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 211,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-10",
+      "pip_number": 10,
+      "portal_record_created_at_max": "2025-03-13T23:16:28.380Z",
+      "portal_record_created_at_min": "2025-02-28T01:18:18.172Z",
+      "proposal_hash": "639a59927a",
+      "proposal_id": "ed887a4e-344e-44d6-8a47-c815d9e8ec8e",
+      "signed_message_timestamp_max": "2025-03-13T23:16:26.256Z",
+      "signed_message_timestamp_min": "2025-02-28T01:18:11.202Z",
+      "source_id": "SRC-SOLANA-PIP-10-0B0695A82C1B",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 5,
+      "title": "Council: Second Term & Beyond",
+      "total_pvp_raw": "86032196.548345620527335",
+      "total_pvp_rounded_5dp": "86032196.54835",
+      "unique_wallet_count": 211,
+      "vote_event_count": 211
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "binary_result": null,
+      "effective_ballot_count": 348,
+      "election_result": {
+        "candidate_count_observed": 7,
+        "candidate_labels_raw": [
+          "bodhitree",
+          "drumcarl05",
+          "emperor",
+          "jithblade",
+          "lanzer",
+          "marshalza",
+          "signal"
+        ],
+        "final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+        "first_preference_statistics": [
+          {
+            "ballot_count": 53,
+            "candidate_label_raw": "bodhitree",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "27264023.95220483491165",
+            "pvp_rounded_5dp": "27264023.95220"
+          },
+          {
+            "ballot_count": 112,
+            "candidate_label_raw": "drumcarl05",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "35723459.15709889410753",
+            "pvp_rounded_5dp": "35723459.15710"
+          },
+          {
+            "ballot_count": 42,
+            "candidate_label_raw": "emperor",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "24479151.30259939451258",
+            "pvp_rounded_5dp": "24479151.30260"
+          },
+          {
+            "ballot_count": 9,
+            "candidate_label_raw": "jithblade",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "4740566.0746272774091",
+            "pvp_rounded_5dp": "4740566.07463"
+          },
+          {
+            "ballot_count": 45,
+            "candidate_label_raw": "lanzer",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "21435084.348305822497122",
+            "pvp_rounded_5dp": "21435084.34831"
+          },
+          {
+            "ballot_count": 13,
+            "candidate_label_raw": "marshalza",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "903306.62721837684076",
+            "pvp_rounded_5dp": "903306.62722"
+          },
+          {
+            "ballot_count": 74,
+            "candidate_label_raw": "signal",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "35501405.61979210853608",
+            "pvp_rounded_5dp": "35501405.61979"
+          }
+        ],
+        "winner_inference_performed": false
+      },
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-11",
+      "pip_number": 11,
+      "portal_record_created_at_max": "2025-04-06T22:36:15.441Z",
+      "portal_record_created_at_min": "2025-03-24T00:43:42.346Z",
+      "proposal_hash": "42e2e01186",
+      "proposal_id": "7b48a62d-13c3-4a1e-8565-6ea7bfb4b4dc",
+      "signed_message_timestamp_max": "2025-04-06T22:36:13.032Z",
+      "signed_message_timestamp_min": "2025-03-24T00:43:38.998Z",
+      "source_id": "SRC-SOLANA-PIP-11-9DD733601F08",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 9,
+      "title": "Council Election #2",
+      "total_pvp_raw": "150046997.081846708814822",
+      "total_pvp_rounded_5dp": "150046997.08185",
+      "unique_wallet_count": 348,
+      "vote_event_count": 348
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 6,
+          "no": 50,
+          "yes": 87
+        },
+        "pvp_raw": {
+          "abstain": "12866654.63466089975274",
+          "no": "16325703.81751238282035",
+          "yes": "55090441.7203514144207"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "12866654.63466",
+          "no": "16325703.81751",
+          "yes": "55090441.72035"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 143,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-12",
+      "pip_number": 12,
+      "portal_record_created_at_max": "2025-04-27T12:38:51.602Z",
+      "portal_record_created_at_min": "2025-04-14T06:17:51.173Z",
+      "proposal_hash": "b4853d50d7",
+      "proposal_id": "f15380c9-8d3f-4849-8185-c29f4c72e961",
+      "signed_message_timestamp_max": "2025-04-27T12:38:47.089Z",
+      "signed_message_timestamp_min": "2025-04-14T06:17:45.538Z",
+      "source_id": "SRC-SOLANA-PIP-12-114871B2A096",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 9,
+      "title": "Iris's Bounty: The Feast",
+      "total_pvp_raw": "84282800.17252469699379",
+      "total_pvp_rounded_5dp": "84282800.17252",
+      "unique_wallet_count": 143,
+      "vote_event_count": 143
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 21,
+          "no": 57,
+          "yes": 83
+        },
+        "pvp_raw": {
+          "abstain": "3519692.3295073641949",
+          "no": "58144044.192175563558886",
+          "yes": "23247451.44933094120451"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "3519692.32951",
+          "no": "58144044.19218",
+          "yes": "23247451.44933"
+        },
+        "result": "FAILED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 161,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-13",
+      "pip_number": 13,
+      "portal_record_created_at_max": "2025-04-28T13:40:15.312Z",
+      "portal_record_created_at_min": "2025-04-15T00:26:20.040Z",
+      "proposal_hash": "07f60c5f0a",
+      "proposal_id": "b721d8e7-9ca1-4a85-b627-472c108b3acb",
+      "signed_message_timestamp_max": "2025-04-28T13:40:13.419Z",
+      "signed_message_timestamp_min": "2025-04-15T00:26:10.252Z",
+      "source_id": "SRC-SOLANA-PIP-13-0BBFDD55D9D4",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 10,
+      "title": "Council Term Limits",
+      "total_pvp_raw": "84911187.971013868958296",
+      "total_pvp_rounded_5dp": "84911187.97101",
+      "unique_wallet_count": 161,
+      "vote_event_count": 161
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 7,
+          "no": 28,
+          "yes": 141
+        },
+        "pvp_raw": {
+          "abstain": "462089.7904602649105",
+          "no": "7476976.93945939219146",
+          "yes": "100079948.791721847185027"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "462089.79046",
+          "no": "7476976.93946",
+          "yes": "100079948.79172"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 176,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-14",
+      "pip_number": 14,
+      "portal_record_created_at_max": "2025-04-30T18:21:21.289Z",
+      "portal_record_created_at_min": "2025-04-17T00:47:03.054Z",
+      "proposal_hash": "5dfd0b3f0c",
+      "proposal_id": "fed98016-e7b6-4a5b-8120-4f0ec90cfa77",
+      "signed_message_timestamp_max": "2025-04-30T18:21:15.251Z",
+      "signed_message_timestamp_min": "2025-04-17T00:47:00.320Z",
+      "source_id": "SRC-SOLANA-PIP-14-26D3CE7D2AD9",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 7,
+      "title": "Deepening THEO Integration",
+      "total_pvp_raw": "108019015.521641504286987",
+      "total_pvp_rounded_5dp": "108019015.52164",
+      "unique_wallet_count": 176,
+      "vote_event_count": 176
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 13,
+          "no": 102,
+          "yes": 46
+        },
+        "pvp_raw": {
+          "abstain": "2909806.64480605553269",
+          "no": "62013412.28960679431876",
+          "yes": "38791006.98713182319328"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "2909806.64481",
+          "no": "62013412.28961",
+          "yes": "38791006.98713"
+        },
+        "result": "FAILED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 161,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-15",
+      "pip_number": 15,
+      "portal_record_created_at_max": "2025-05-22T23:59:02.459Z",
+      "portal_record_created_at_min": "2025-05-09T00:50:23.862Z",
+      "proposal_hash": "3125c686c1",
+      "proposal_id": "bd065ad2-5e75-4e47-a696-a1efe06382da",
+      "signed_message_timestamp_max": "2025-05-22T23:58:56.426Z",
+      "signed_message_timestamp_min": "2025-05-09T00:50:20.485Z",
+      "source_id": "SRC-SOLANA-PIP-15-A453CCD40B33",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 7,
+      "title": "In-Person Community Meetups Platform",
+      "total_pvp_raw": "103714225.92154467304473",
+      "total_pvp_rounded_5dp": "103714225.92154",
+      "unique_wallet_count": 161,
+      "vote_event_count": 161
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 14,
+          "no": 21,
+          "yes": 167
+        },
+        "pvp_raw": {
+          "abstain": "18804169.14759858997284256",
+          "no": "6979915.86406552204061",
+          "yes": "81056806.28823333372420"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "18804169.14760",
+          "no": "6979915.86407",
+          "yes": "81056806.28823"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 202,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-16",
+      "pip_number": 16,
+      "portal_record_created_at_max": "2025-05-22T23:59:30.681Z",
+      "portal_record_created_at_min": "2025-05-09T00:37:31.563Z",
+      "proposal_hash": "07ee9cd959",
+      "proposal_id": "b11ced4b-a6a5-4211-a0e6-060eadc4bd22",
+      "signed_message_timestamp_max": "2025-05-22T23:59:24.155Z",
+      "signed_message_timestamp_min": "2025-05-09T00:37:19.730Z",
+      "source_id": "SRC-SOLANA-PIP-16-FC6D3A559292",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 7,
+      "title": "Ryden Systems",
+      "total_pvp_raw": "106840891.29989744573765256",
+      "total_pvp_rounded_5dp": "106840891.29990",
+      "unique_wallet_count": 202,
+      "vote_event_count": 202
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 4,
+          "no": 70,
+          "yes": 120
+        },
+        "pvp_raw": {
+          "abstain": "606649.965859209597",
+          "no": "43163339.0227892540245",
+          "yes": "67357600.78706531183462"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "606649.96586",
+          "no": "43163339.02279",
+          "yes": "67357600.78707"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 194,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-17",
+      "pip_number": 17,
+      "portal_record_created_at_max": "2025-06-12T23:45:37.405Z",
+      "portal_record_created_at_min": "2025-05-30T00:00:19.336Z",
+      "proposal_hash": "7a0ffa4ccc",
+      "proposal_id": "4df4c199-e888-4fdc-a666-7f82d6cf2de7",
+      "signed_message_timestamp_max": "2025-06-12T23:45:34.418Z",
+      "signed_message_timestamp_min": "2025-05-30T00:00:07.727Z",
+      "source_id": "SRC-SOLANA-PIP-17-1093FAEBE8E0",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 5,
+      "title": "Star Atlas Ecosystem Media Expansion",
+      "total_pvp_raw": "111127589.77571377545612",
+      "total_pvp_rounded_5dp": "111127589.77571",
+      "unique_wallet_count": 194,
+      "vote_event_count": 194
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 4,
+          "no": 14,
+          "yes": 98
+        },
+        "pvp_raw": {
+          "abstain": "2209311.33068470117",
+          "no": "11339350.4512077565853",
+          "yes": "40993696.92844893998568"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "2209311.33068",
+          "no": "11339350.45121",
+          "yes": "40993696.92845"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 116,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-18",
+      "pip_number": 18,
+      "portal_record_created_at_max": "2025-07-17T21:10:33.543Z",
+      "portal_record_created_at_min": "2025-07-04T04:12:59.771Z",
+      "proposal_hash": "b5fb8e27bb",
+      "proposal_id": "18750a6a-f36d-44ba-990a-07769c5c589b",
+      "signed_message_timestamp_max": "2025-07-17T21:10:31.671Z",
+      "signed_message_timestamp_min": "2025-07-04T04:12:48.366Z",
+      "source_id": "SRC-SOLANA-PIP-18-D62CC5A855BC",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 4,
+      "title": "Gamescom Marketing & Merch Expansion",
+      "total_pvp_raw": "54542358.71034139774098",
+      "total_pvp_rounded_5dp": "54542358.71034",
+      "unique_wallet_count": 116,
+      "vote_event_count": 116
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 9,
+          "no": 105,
+          "yes": 43
+        },
+        "pvp_raw": {
+          "abstain": "1050954.3007301348069",
+          "no": "83100564.474068210577573",
+          "yes": "59388884.17306768517726"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "1050954.30073",
+          "no": "83100564.47407",
+          "yes": "59388884.17307"
+        },
+        "result": "FAILED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 157,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-19",
+      "pip_number": 19,
+      "portal_record_created_at_max": "2025-10-05T22:05:27.080Z",
+      "portal_record_created_at_min": "2025-09-22T01:13:35.396Z",
+      "proposal_hash": "24035117ee",
+      "proposal_id": "1eb3d15e-645e-4c34-8a69-00d304ecfc4f",
+      "signed_message_timestamp_max": "2025-10-05T22:05:18.949Z",
+      "signed_message_timestamp_min": "2025-09-22T01:13:27.132Z",
+      "source_id": "SRC-SOLANA-PIP-19-C1959B9A1D5C",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 5,
+      "title": "Independent Economic Research and Data Resources",
+      "total_pvp_raw": "143540402.947866030561733",
+      "total_pvp_rounded_5dp": "143540402.94787",
+      "unique_wallet_count": 157,
+      "vote_event_count": 157
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 7,
+          "no": 32,
+          "yes": 111
+        },
+        "pvp_raw": {
+          "abstain": "516503.5315026251029",
+          "no": "15940622.26160213707314",
+          "yes": "106030687.38355558354421"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "516503.53150",
+          "no": "15940622.26160",
+          "yes": "106030687.38356"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 150,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-20",
+      "pip_number": 20,
+      "portal_record_created_at_max": "2025-10-15T18:51:19.769Z",
+      "portal_record_created_at_min": "2025-10-02T00:02:05.967Z",
+      "proposal_hash": "d02751e097",
+      "proposal_id": "159cb743-f8cf-4932-8e01-e6f1a0b479ff",
+      "signed_message_timestamp_max": "2025-10-15T18:51:10.784Z",
+      "signed_message_timestamp_min": "2025-10-02T00:01:56.787Z",
+      "source_id": "SRC-SOLANA-PIP-20-0406BD9D310E",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 4,
+      "title": "DAO Casters Program",
+      "total_pvp_raw": "122487813.17666034572025",
+      "total_pvp_rounded_5dp": "122487813.17666",
+      "unique_wallet_count": 150,
+      "vote_event_count": 150
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 4,
+          "no": 56,
+          "yes": 124
+        },
+        "pvp_raw": {
+          "abstain": "14689624.66066018158",
+          "no": "55012100.13793423692155",
+          "yes": "76880541.93730371407713"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "14689624.66066",
+          "no": "55012100.13793",
+          "yes": "76880541.93730"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 184,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-21",
+      "pip_number": 21,
+      "portal_record_created_at_max": "2025-10-15T22:57:37.604Z",
+      "portal_record_created_at_min": "2025-10-02T00:01:13.248Z",
+      "proposal_hash": "31cffa4729",
+      "proposal_id": "49cad7e4-f467-4c88-978a-e3cac1633cf1",
+      "signed_message_timestamp_max": "2025-10-15T22:57:34.674Z",
+      "signed_message_timestamp_min": "2025-10-02T00:00:34.463Z",
+      "source_id": "SRC-SOLANA-PIP-21-574AD9AE146D",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 6,
+      "title": "Rogue Data Hub",
+      "total_pvp_raw": "146582266.73589813257868",
+      "total_pvp_rounded_5dp": "146582266.73590",
+      "unique_wallet_count": 184,
+      "vote_event_count": 184
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 2,
+          "no": 9,
+          "yes": 98
+        },
+        "pvp_raw": {
+          "abstain": "392044.78070359304",
+          "no": "2670497.9552498631134",
+          "yes": "137797850.987275790285793"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "392044.78070",
+          "no": "2670497.95525",
+          "yes": "137797850.98728"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 109,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-22",
+      "pip_number": 22,
+      "portal_record_created_at_max": "2025-11-18T00:06:31.847Z",
+      "portal_record_created_at_min": "2025-11-05T03:00:11.988Z",
+      "proposal_hash": "d7c6cafa85",
+      "proposal_id": "d5d61e64-5489-4530-93a5-b65bf1bf8079",
+      "signed_message_timestamp_max": "2025-11-18T00:06:18.327Z",
+      "signed_message_timestamp_min": "2025-11-05T03:00:08.968Z",
+      "source_id": "SRC-SOLANA-PIP-22-FECA4987645D",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 3,
+      "title": "Iris's Bounty: The Arena",
+      "total_pvp_raw": "140860393.723229246439193",
+      "total_pvp_rounded_5dp": "140860393.72323",
+      "unique_wallet_count": 109,
+      "vote_event_count": 109
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 6,
+          "no": 34,
+          "yes": 77
+        },
+        "pvp_raw": {
+          "abstain": "792710.919943480742",
+          "no": "24262645.413694593485593",
+          "yes": "86030422.02705529060743"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "792710.91994",
+          "no": "24262645.41369",
+          "yes": "86030422.02706"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 117,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-23",
+      "pip_number": 23,
+      "portal_record_created_at_max": "2025-11-18T00:07:27.569Z",
+      "portal_record_created_at_min": "2025-11-05T03:00:32.464Z",
+      "proposal_hash": "e535d08b21",
+      "proposal_id": "0ecf2928-15df-497e-8b67-d87eda030d5a",
+      "signed_message_timestamp_max": "2025-11-18T00:07:26.241Z",
+      "signed_message_timestamp_min": "2025-11-05T03:00:30.444Z",
+      "source_id": "SRC-SOLANA-PIP-23-E64EDB7724CF",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 5,
+      "title": "Refresh of PIP-4",
+      "total_pvp_raw": "111085778.360693364835023",
+      "total_pvp_rounded_5dp": "111085778.36069",
+      "unique_wallet_count": 117,
+      "vote_event_count": 117
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 6,
+          "no": 55,
+          "yes": 79
+        },
+        "pvp_raw": {
+          "abstain": "1036464.8531316944778",
+          "no": "43346187.830609256463269",
+          "yes": "64002012.602125027599097"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "1036464.85313",
+          "no": "43346187.83061",
+          "yes": "64002012.60213"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 140,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-24",
+      "pip_number": 24,
+      "portal_record_created_at_max": "2025-11-22T20:20:26.902Z",
+      "portal_record_created_at_min": "2025-11-09T00:25:10.320Z",
+      "proposal_hash": "ce62874de5",
+      "proposal_id": "8cc6b298-2708-40c6-9b9d-867f0cba8ea5",
+      "signed_message_timestamp_max": "2025-11-22T20:20:22.998Z",
+      "signed_message_timestamp_min": "2025-11-09T00:25:06.325Z",
+      "source_id": "SRC-SOLANA-PIP-24-1B51B295253D",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 4,
+      "title": "DAO-Supported Hosting for SLY Assistant",
+      "total_pvp_raw": "108384665.285865978540166",
+      "total_pvp_rounded_5dp": "108384665.28587",
+      "unique_wallet_count": 140,
+      "vote_event_count": 140
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "binary_result": null,
+      "effective_ballot_count": 176,
+      "election_result": {
+        "candidate_count_observed": 6,
+        "candidate_labels_raw": [
+          "atlas_freeks",
+          "emperor",
+          "jith_blade",
+          "lanzer",
+          "morango",
+          "winston"
+        ],
+        "final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+        "first_preference_statistics": [
+          {
+            "ballot_count": 10,
+            "candidate_label_raw": "atlas_freeks",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "1927049.7108129855574",
+            "pvp_rounded_5dp": "1927049.71081"
+          },
+          {
+            "ballot_count": 24,
+            "candidate_label_raw": "emperor",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "11748611.94280394324132",
+            "pvp_rounded_5dp": "11748611.94280"
+          },
+          {
+            "ballot_count": 9,
+            "candidate_label_raw": "jith_blade",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "21373196.05147649677",
+            "pvp_rounded_5dp": "21373196.05148"
+          },
+          {
+            "ballot_count": 34,
+            "candidate_label_raw": "lanzer",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "18978144.582656424360435",
+            "pvp_rounded_5dp": "18978144.58266"
+          },
+          {
+            "ballot_count": 41,
+            "candidate_label_raw": "morango",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "24888592.54853547199824",
+            "pvp_rounded_5dp": "24888592.54854"
+          },
+          {
+            "ballot_count": 58,
+            "candidate_label_raw": "winston",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "32862036.6736669229298707",
+            "pvp_rounded_5dp": "32862036.67367"
+          }
+        ],
+        "winner_inference_performed": false
+      },
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-25",
+      "pip_number": 25,
+      "portal_record_created_at_max": "2025-12-10T23:43:04.584Z",
+      "portal_record_created_at_min": "2025-11-27T01:18:27.913Z",
+      "proposal_hash": "e8bb8bcc3e",
+      "proposal_id": "91cc73fa-0af7-41ea-86c5-bab7ffcfcb4f",
+      "signed_message_timestamp_max": "2025-12-10T23:43:03.178Z",
+      "signed_message_timestamp_min": "2025-11-27T01:18:18.171Z",
+      "source_id": "SRC-SOLANA-PIP-25-91578B5AE7B5",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 1,
+      "title": "Council Election #3",
+      "total_pvp_raw": "111777631.5099522448572657",
+      "total_pvp_rounded_5dp": "111777631.50995",
+      "unique_wallet_count": 176,
+      "vote_event_count": 176
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 8,
+          "no": 90,
+          "yes": 49
+        },
+        "pvp_raw": {
+          "abstain": "28396587.00898292271",
+          "no": "87903394.3874796963789652",
+          "yes": "50845898.39810709547066"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "28396587.00898",
+          "no": "87903394.38748",
+          "yes": "50845898.39811"
+        },
+        "result": "FAILED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 147,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-26",
+      "pip_number": 26,
+      "portal_record_created_at_max": "2026-02-05T02:32:07.140Z",
+      "portal_record_created_at_min": "2026-01-23T00:56:32.835Z",
+      "proposal_hash": "77e6191bcc",
+      "proposal_id": "b70ac545-6c01-486d-b943-dee434d9abf3",
+      "signed_message_timestamp_max": "2026-02-05T02:32:06.821Z",
+      "signed_message_timestamp_min": "2026-01-23T00:56:08.513Z",
+      "source_id": "SRC-SOLANA-PIP-26-C0FC0EE557F5",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 5,
+      "title": "Crew Adventure Series",
+      "total_pvp_raw": "167145879.7945697145596252",
+      "total_pvp_rounded_5dp": "167145879.79457",
+      "unique_wallet_count": 147,
+      "vote_event_count": 147
+    },
+    {
+      "ballot_mechanism": "RANKED_CHOICE_ELECTION",
+      "binary_result": null,
+      "effective_ballot_count": 128,
+      "election_result": {
+        "candidate_count_observed": 13,
+        "candidate_labels_raw": [
+          "a_neo_aarmstrong_ec",
+          "alicesarcade",
+          "azzarycryptearn",
+          "chet_roberts",
+          "funcracker",
+          "keplernet",
+          "morpheus426",
+          "neon_slika11",
+          "odvb",
+          "sakaleynx",
+          "spikecollects",
+          "umg_cliper",
+          "winston7026"
+        ],
+        "final_tally_status": "NOT_COMPUTED_STV_IMPLEMENTATION_RULES_NOT_CAPTURED",
+        "first_preference_statistics": [
+          {
+            "ballot_count": 16,
+            "candidate_label_raw": "a_neo_aarmstrong_ec",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "24961481.719557456247",
+            "pvp_rounded_5dp": "24961481.71956"
+          },
+          {
+            "ballot_count": 15,
+            "candidate_label_raw": "alicesarcade",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "59916417.91997439551",
+            "pvp_rounded_5dp": "59916417.91997"
+          },
+          {
+            "ballot_count": 0,
+            "candidate_label_raw": "azzarycryptearn",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "0",
+            "pvp_rounded_5dp": "0.00000"
+          },
+          {
+            "ballot_count": 3,
+            "candidate_label_raw": "chet_roberts",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "28529.8395843840642",
+            "pvp_rounded_5dp": "28529.83958"
+          },
+          {
+            "ballot_count": 27,
+            "candidate_label_raw": "funcracker",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "23771562.9042057107818",
+            "pvp_rounded_5dp": "23771562.90421"
+          },
+          {
+            "ballot_count": 5,
+            "candidate_label_raw": "keplernet",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "2274620.95076532002",
+            "pvp_rounded_5dp": "2274620.95077"
+          },
+          {
+            "ballot_count": 5,
+            "candidate_label_raw": "morpheus426",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "1349088.40086736305",
+            "pvp_rounded_5dp": "1349088.40087"
+          },
+          {
+            "ballot_count": 5,
+            "candidate_label_raw": "neon_slika11",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "577240.77250271970165",
+            "pvp_rounded_5dp": "577240.77250"
+          },
+          {
+            "ballot_count": 19,
+            "candidate_label_raw": "odvb",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "10112803.7221585561906",
+            "pvp_rounded_5dp": "10112803.72216"
+          },
+          {
+            "ballot_count": 14,
+            "candidate_label_raw": "sakaleynx",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "4460006.9787379392367",
+            "pvp_rounded_5dp": "4460006.97874"
+          },
+          {
+            "ballot_count": 4,
+            "candidate_label_raw": "spikecollects",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "93072.488652194588",
+            "pvp_rounded_5dp": "93072.48865"
+          },
+          {
+            "ballot_count": 0,
+            "candidate_label_raw": "umg_cliper",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "0",
+            "pvp_rounded_5dp": "0.00000"
+          },
+          {
+            "ballot_count": 15,
+            "candidate_label_raw": "winston7026",
+            "interpretation": "DESCRIPTIVE_FIRST_PREFERENCE_ONLY_NOT_FINAL_STV_TALLY",
+            "pvp_raw": "19163960.143026790756",
+            "pvp_rounded_5dp": "19163960.14303"
+          }
+        ],
+        "winner_inference_performed": false
+      },
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-27",
+      "pip_number": 27,
+      "portal_record_created_at_max": "2026-03-06T11:18:22.013Z",
+      "portal_record_created_at_min": "2026-02-21T01:08:17.222Z",
+      "proposal_hash": "22cffa8d20",
+      "proposal_id": "064d252c-be76-494a-8f19-f650c2a3dab6",
+      "signed_message_timestamp_max": "2026-03-06T11:18:20.322Z",
+      "signed_message_timestamp_min": "2026-02-21T01:08:09.182Z",
+      "source_id": "SRC-SOLANA-PIP-27-49DF9F3AF0AB",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 10,
+      "title": "DAO Casters Election: Term 1",
+      "total_pvp_raw": "146708785.84003283014595",
+      "total_pvp_rounded_5dp": "146708785.84003",
+      "unique_wallet_count": 128,
+      "vote_event_count": 128
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 6,
+          "no": 26,
+          "yes": 113
+        },
+        "pvp_raw": {
+          "abstain": "2121225.55133310946",
+          "no": "8344270.1804614863808",
+          "yes": "132748518.60220010378223"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "2121225.55133",
+          "no": "8344270.18046",
+          "yes": "132748518.60220"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 145,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-28",
+      "pip_number": 28,
+      "portal_record_created_at_max": "2026-03-06T19:14:44.946Z",
+      "portal_record_created_at_min": "2026-02-21T00:34:33.315Z",
+      "proposal_hash": "46b3d5dd26",
+      "proposal_id": "d0a5dc75-4e1c-4a70-a8af-a5f3636d0139",
+      "signed_message_timestamp_max": "2026-03-06T19:14:36.779Z",
+      "signed_message_timestamp_min": "2026-02-21T00:34:13.075Z",
+      "source_id": "SRC-SOLANA-PIP-28-9B2F3691EF54",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 7,
+      "title": "Temporary Funding for Lore, Design, and Community Functions",
+      "total_pvp_raw": "143214014.33399469962303",
+      "total_pvp_rounded_5dp": "143214014.33399",
+      "unique_wallet_count": 145,
+      "vote_event_count": 145
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 2,
+          "no": 13,
+          "yes": 90
+        },
+        "pvp_raw": {
+          "abstain": "1002028.05157705216",
+          "no": "4778188.438956892994",
+          "yes": "156894218.6758377942159"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "1002028.05158",
+          "no": "4778188.43896",
+          "yes": "156894218.67584"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 105,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-29",
+      "pip_number": 29,
+      "portal_record_created_at_max": "2026-04-01T23:45:23.572Z",
+      "portal_record_created_at_min": "2026-03-19T12:34:40.923Z",
+      "proposal_hash": "b0d9b612b4",
+      "proposal_id": "8e761702-ee81-4509-b627-9cadb5897c1b",
+      "signed_message_timestamp_max": "2026-04-01T23:45:21.563Z",
+      "signed_message_timestamp_min": "2026-03-19T12:34:10.548Z",
+      "source_id": "SRC-SOLANA-PIP-29-C778D893ED20",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 0,
+      "title": "Star Atlas Relay Program",
+      "total_pvp_raw": "162674435.1663717393699",
+      "total_pvp_rounded_5dp": "162674435.16637",
+      "unique_wallet_count": 105,
+      "vote_event_count": 105
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 3,
+          "no": 55,
+          "yes": 147
+        },
+        "pvp_raw": {
+          "abstain": "1284009.94459085913",
+          "no": "70230624.8482863139085",
+          "yes": "111241682.08665644280279"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "1284009.94459",
+          "no": "70230624.84829",
+          "yes": "111241682.08666"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 205,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-30",
+      "pip_number": 30,
+      "portal_record_created_at_max": "2026-04-01T23:59:40.195Z",
+      "portal_record_created_at_min": "2026-03-19T10:16:58.279Z",
+      "proposal_hash": "a1e7bb469a",
+      "proposal_id": "3ba029f2-65e8-4637-b6ad-ae86284ff714",
+      "signed_message_timestamp_max": "2026-04-01T23:59:20.667Z",
+      "signed_message_timestamp_min": "2026-03-19T10:16:55.291Z",
+      "source_id": "SRC-SOLANA-PIP-30-7039577B4BA8",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 7,
+      "title": "ATOM Cloud Infrastructure Sustainability",
+      "total_pvp_raw": "182756316.87953361584129",
+      "total_pvp_rounded_5dp": "182756316.87953",
+      "unique_wallet_count": 205,
+      "vote_event_count": 205
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 11,
+          "no": 64,
+          "yes": 66
+        },
+        "pvp_raw": {
+          "abstain": "34127227.0874592923208",
+          "no": "46566240.1818730930898",
+          "yes": "53854461.85725857028707"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "34127227.08746",
+          "no": "46566240.18187",
+          "yes": "53854461.85726"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 141,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-31",
+      "pip_number": 31,
+      "portal_record_created_at_max": "2026-05-01T23:52:48.505Z",
+      "portal_record_created_at_min": "2026-04-18T04:31:15.461Z",
+      "proposal_hash": "839b710192",
+      "proposal_id": "e71fb1a7-6d19-4565-8ff8-b4e79a3f8c16",
+      "signed_message_timestamp_max": "2026-05-01T23:52:47.903Z",
+      "signed_message_timestamp_min": "2026-04-18T04:31:10.606Z",
+      "source_id": "SRC-SOLANA-PIP-31-3A1F6B36C190",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 3,
+      "title": "Star Seekers 2 Mobile Game",
+      "total_pvp_raw": "134547929.12659095569767",
+      "total_pvp_rounded_5dp": "134547929.12659",
+      "unique_wallet_count": 141,
+      "vote_event_count": 141
+    },
+    {
+      "ballot_mechanism": "BINARY_PVP",
+      "binary_result": {
+        "ballot_counts": {
+          "abstain": 7,
+          "no": 21,
+          "yes": 90
+        },
+        "pvp_raw": {
+          "abstain": "17343533.14818180349",
+          "no": "13539439.5083802807377",
+          "yes": "88329391.65101292166224"
+        },
+        "pvp_rounded_5dp": {
+          "abstain": "17343533.14818",
+          "no": "13539439.50838",
+          "yes": "88329391.65101"
+        },
+        "result": "PASSED",
+        "result_rule": "REPOSITORY_OWNER_APPROVED_YES_GT_NO; ABSTAIN_RECORDED_NOT_DECISIVE",
+        "result_rule_is_source_native": false
+      },
+      "effective_ballot_count": 118,
+      "election_result": null,
+      "independent_rpc_reverification_status": "NOT_PERFORMED",
+      "pip_id": "PIP-32",
+      "pip_number": 32,
+      "portal_record_created_at_max": "2026-06-11T23:35:55.365Z",
+      "portal_record_created_at_min": "2026-05-29T00:31:11.278Z",
+      "proposal_hash": "ceab9a1e81",
+      "proposal_id": "0b04ff9b-ff04-45f5-a458-696fea70eda2",
+      "signed_message_timestamp_max": "2026-06-11T23:35:53.464Z",
+      "signed_message_timestamp_min": "2026-05-29T00:31:02.674Z",
+      "source_id": "SRC-SOLANA-PIP-32-F64A5CFF07FF",
+      "superseded_vote_event_count": 0,
+      "timestamp_order_anomaly_count": 4,
+      "title": "Star Atlas Triad Tournament",
+      "total_pvp_raw": "119212364.30757500588994",
+      "total_pvp_rounded_5dp": "119212364.30758",
+      "unique_wallet_count": 118,
+      "vote_event_count": 118
+    }
+  ]
+}
