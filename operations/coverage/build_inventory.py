@@ -539,6 +539,9 @@ def main() -> None:
             "pages_build": "PASS",
             "pages_deploy": "PASS",
             "verified_at_main_sha": BASELINE_SHA,
+            "repairs_in_gate_closeout": [
+                "DAO campaign path-scope validation delegated to the central repository path contract so unrelated later PRs cannot rewrite the preserved campaign report",
+            ],
         },
     }
     write_json(PROGRAM / "program-status.json", program_status)

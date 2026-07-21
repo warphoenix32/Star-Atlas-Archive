@@ -78,6 +78,9 @@
     "campaign_contracts": "PASS",
     "pages_build": "PASS",
     "pages_deploy": "PASS",
-    "verified_at_main_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed"
+    "verified_at_main_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+    "repairs_in_gate_closeout": [
+      "DAO campaign path-scope validation delegated to the central repository path contract so unrelated later PRs cannot rewrite the preserved campaign report"
+    ]
   }
 }
