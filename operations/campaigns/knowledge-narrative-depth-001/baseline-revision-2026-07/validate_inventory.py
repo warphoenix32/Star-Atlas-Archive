@@ -25,13 +25,20 @@ def run() -> int:
     payload = json.loads(inventory_path.read_text(encoding="utf-8"))
     actual = sorted(path.relative_to(ROOT).as_posix() for path in (ROOT / "knowledge").rglob("*.md"))
     indexed = sorted(page["path"] for page in payload["pages"])
+    changed = subprocess.run(
+        ["git", "diff", "--name-only", "origin/main...HEAD"],
+        cwd=ROOT, text=True, encoding="utf-8", errors="replace", capture_output=True, check=False,
+    ).stdout.splitlines()
     checks = {
         "deterministic": before == after,
         "all_pages_indexed_once": actual == indexed and len(indexed) == len(set(indexed)),
         "all_pages_have_revision_action": all(page["recommended_action"] for page in payload["pages"]),
         "all_pages_assigned_to_wave": all(page["revision_wave"] in {1, 2, 3, 4} for page in payload["pages"]),
         "page_count_reconciles": payload["page_count"] == len(actual) == 80,
-        "knowledge_untouched": subprocess.run(["git", "diff", "--quiet", "origin/main...HEAD", "--", "knowledge"], cwd=ROOT).returncode == 0,
+        "revision_scope_valid": all(
+            path.replace("\\", "/").startswith(("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/"))
+            for path in changed
+        ),
         "git_diff_check": subprocess.run(["git", "diff", "--check"], cwd=ROOT).returncode == 0,
     }
     report = {"campaign_id": payload["campaign_id"], "status": "PASS" if all(checks.values()) else "FAIL", "checks": checks, "page_count": len(actual)}
