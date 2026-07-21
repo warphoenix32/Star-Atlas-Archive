@@ -1,22 +1,57 @@
 {
+  "batches": {
+    "aephia-family-remaining-59": {
+      "expected_records": 59,
+      "identity_status_counts": {
+        "MATCH": 59
+      },
+      "manual_review_count": 0,
+      "raw_bodies_preserved": 59,
+      "terminal_disposition_counts": {
+        "CAPTURED_LIVE": 59
+      },
+      "terminal_records": 59,
+      "urls_retrieved": 59
+    },
+    "pilot-20": {
+      "expected_records": 20,
+      "identity_status_counts": {
+        "CONSISTENT": 2,
+        "MATCH": 13,
+        "NOT_EVALUATED": 5
+      },
+      "manual_review_count": 5,
+      "raw_bodies_preserved": 15,
+      "terminal_disposition_counts": {
+        "BLOCKED_ACCESS_OR_POLICY": 5,
+        "CAPTURED_ARCHIVE": 1,
+        "CAPTURED_IMMUTABLE_GIT": 1,
+        "CAPTURED_LIVE": 13
+      },
+      "terminal_records": 20,
+      "urls_retrieved": 15
+    }
+  },
   "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "distinct_records_attempted": 79,
+  "expansion_records": 59,
   "frozen_records": 800,
   "identity_status_counts": {
     "CONSISTENT": 2,
-    "MATCH": 13,
+    "MATCH": 72,
     "NOT_EVALUATED": 5
   },
   "manual_review_count": 5,
   "pilot_records": 20,
-  "raw_bodies_preserved": 15,
+  "raw_bodies_preserved": 74,
   "schema_version": "1.0.0",
-  "status": "PILOT_COMPLETE_WITH_EXCEPTIONS",
+  "status": "AEPHIA_FAMILY_EXPANSION_COMPLETE",
   "terminal_disposition_counts": {
     "BLOCKED_ACCESS_OR_POLICY": 5,
     "CAPTURED_ARCHIVE": 1,
     "CAPTURED_IMMUTABLE_GIT": 1,
-    "CAPTURED_LIVE": 13
+    "CAPTURED_LIVE": 72
   },
-  "urls_attempted": 20,
-  "urls_retrieved": 15
+  "urls_attempted": 79,
+  "urls_retrieved": 74
 }

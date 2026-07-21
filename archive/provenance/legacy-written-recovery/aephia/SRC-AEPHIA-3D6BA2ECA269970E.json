@@ -1,0 +1,62 @@
+{
+  "byte_count": 46882,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T12:31:19.736380Z",
+  "captured_at": "2026-07-21T12:31:19.736380Z",
+  "content_type": "application/json; charset=UTF-8",
+  "final_url": "https://aephia.com/wp-json/wp/v2/posts/13784?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Tue, 21 Jul 2026 12:31:19 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://aephia.com/star-atlas/a-new-economic-paradigm/",
+    "observed_canonical_url": "https://aephia.com/star-atlas/a-new-economic-paradigm/",
+    "observed_final_url": "https://aephia.com/wp-json/wp/v2/posts/13784?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://aephia.com/star-atlas/a-new-economic-paradigm/",
+    "document_title": "A New Economic Paradigm",
+    "response_format": "JSON"
+  },
+  "original_url": "https://aephia.com/star-atlas/a-new-economic-paradigm/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-3D6BA2ECA269970E.json",
+  "raw_body": {
+    "byte_length": 46882,
+    "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-3D6BA2ECA269970E/response-body.bin",
+    "sha256": "f2e1a1743f77f68f03619eaf37a984928c8b83a4077b01551bbd08fdcad1495d"
+  },
+  "raw_sha256": "f2e1a1743f77f68f03619eaf37a984928c8b83a4077b01551bbd08fdcad1495d",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts/13784?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://aephia.com/wp-json/wp/v2/posts/13784?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 21 Jul 2026 12:31:19 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "aephia-family-remaining-59",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "aephia",
+  "source_id": "SRC-AEPHIA-3D6BA2ECA269970E",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T12:31:19.736380Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

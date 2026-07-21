@@ -42,6 +42,46 @@
       "status": "PASS"
     },
     {
+      "check": "EXPANSION_SELECTION_DETERMINISTIC",
+      "detail": "batch=aephia-family-remaining-59",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_RECORD_COUNT",
+      "detail": "observed=59 expected=59",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_DISJOINT_FROM_PILOT",
+      "detail": "Expansion Source IDs exclude all 20 pilot records.",
+      "status": "PASS"
+    },
+    {
+      "check": "AEPHIA_FAMILY_COVERAGE",
+      "detail": "pilot=5 expansion=59 total=64",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_HOST_ALLOWLIST",
+      "detail": "allowed_host=aephia.com",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_ENDPOINT_POLICY",
+      "detail": "path_prefix=/wp-json/wp/v2/; basis=PRIOR_FINAL_URL",
+      "status": "PASS"
+    },
+    {
+      "check": "PILOT_LEDGERS_IMMUTABLE",
+      "detail": "All four approved pilot ledger hashes match the merged baseline.",
+      "status": "PASS"
+    },
+    {
+      "check": "PILOT_RAW_AND_PROVENANCE_IMMUTABLE",
+      "detail": "artifacts=30 aggregate_sha256=7aa4960f755fad4525b5c826559d3f1cf5d03d343ffd571c071b4392c83e5b48",
+      "status": "PASS"
+    },
+    {
       "check": "TERMINAL_DISPOSITIONS",
       "detail": "terminal_records=20",
       "status": "PASS"
@@ -67,6 +107,41 @@
       "status": "PASS"
     },
     {
+      "check": "EXPANSION_TERMINAL_IDS",
+      "detail": "terminal_records=59 expected=59",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_RAW_BODY_CHECKSUMS",
+      "detail": "Every expansion raw body matches its ledger SHA-256.",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_PROVENANCE_RECONCILES",
+      "detail": "Every expansion provenance record reconciles to its batch, Source ID, and body.",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_REQUIRED_PROVENANCE_FIELDS",
+      "detail": "Every preserved expansion response has the complete provenance field set.",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_MANUAL_REVIEW_QUEUE",
+      "detail": "Expansion manual-review queue equals its flagged terminal records.",
+      "status": "PASS"
+    },
+    {
+      "check": "EXPANSION_RETRY_SCOPE",
+      "detail": "attempt_records=59",
+      "status": "PASS"
+    },
+    {
+      "check": "CROSS_BATCH_SOURCE_IDS_UNIQUE",
+      "detail": "pilot=20 expansion=59",
+      "status": "PASS"
+    },
+    {
       "check": "PROTECTED_EVIDENCE_UNCHANGED",
       "detail": "Frozen extraction and Source Record checksums are unchanged.",
       "status": "PASS"
@@ -77,13 +152,23 @@
       "status": "PASS"
     },
     {
+      "check": "NO_ORPHAN_RAW_OR_PROVENANCE",
+      "detail": "declared=148 actual=148",
+      "status": "PASS"
+    },
+    {
       "check": "ARCHIVE_MANIFEST_RECONCILES",
-      "detail": "artifact_count=30",
+      "detail": "artifact_count=148",
       "status": "PASS"
     },
     {
       "check": "CONTROLLED_TERMINAL_DISPOSITIONS",
-      "detail": "Every pilot record uses the frozen Phase 2 disposition vocabulary.",
+      "detail": "Every terminal record uses the frozen Phase 2 disposition vocabulary.",
+      "status": "PASS"
+    },
+    {
+      "check": "CAMPAIGN_SUMMARY_RECONCILES",
+      "detail": "terminal_records=79",
       "status": "PASS"
     },
     {
@@ -93,8 +178,8 @@
     }
   ],
   "failed_checks": [],
-  "passed_checks": 18,
+  "passed_checks": 35,
   "schema_version": "1.0.0",
   "status": "PASS",
-  "total_checks": 18
+  "total_checks": 35
 }

@@ -1,0 +1,62 @@
+{
+  "byte_count": 17189,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T12:31:29.231424Z",
+  "captured_at": "2026-07-21T12:31:29.231424Z",
+  "content_type": "application/json; charset=UTF-8",
+  "final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=never-alone-stronger-together&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Tue, 21 Jul 2026 12:31:29 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://aephia.com/star-atlas/never-alone-stronger-together/",
+    "observed_canonical_url": "https://aephia.com/star-atlas/never-alone-stronger-together/",
+    "observed_final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=never-alone-stronger-together&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://aephia.com/star-atlas/never-alone-stronger-together/",
+    "document_title": "Never Alone: Stronger Together",
+    "response_format": "JSON"
+  },
+  "original_url": "https://aephia.com/star-atlas/never-alone-stronger-together/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-5E02C2A5C01B8E9B.json",
+  "raw_body": {
+    "byte_length": 17189,
+    "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-5E02C2A5C01B8E9B/response-body.bin",
+    "sha256": "2147707b5d506f0270a05f77db8212f69da7dec5f8d0f8ee10ddfd8d9df695d9"
+  },
+  "raw_sha256": "2147707b5d506f0270a05f77db8212f69da7dec5f8d0f8ee10ddfd8d9df695d9",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=never-alone-stronger-together&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=never-alone-stronger-together&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 21 Jul 2026 12:31:29 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "aephia-family-remaining-59",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "aephia",
+  "source_id": "SRC-AEPHIA-5E02C2A5C01B8E9B",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T12:31:29.231424Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

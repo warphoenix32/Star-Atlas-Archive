@@ -12,13 +12,30 @@ Status: **PASS**
 | EXTRACTION_CHECKSUMS | PASS | All frozen extraction checksums reconcile. |
 | SOURCE_RECORD_REFERENCES | PASS | Every declared Source Record path and frozen SHA-256 reconcile. |
 | PILOT_SELECTION_RECONCILES | PASS | selection_ids=20 expected=20 |
+| EXPANSION_SELECTION_DETERMINISTIC | PASS | batch=aephia-family-remaining-59 |
+| EXPANSION_RECORD_COUNT | PASS | observed=59 expected=59 |
+| EXPANSION_DISJOINT_FROM_PILOT | PASS | Expansion Source IDs exclude all 20 pilot records. |
+| AEPHIA_FAMILY_COVERAGE | PASS | pilot=5 expansion=59 total=64 |
+| EXPANSION_HOST_ALLOWLIST | PASS | allowed_host=aephia.com |
+| EXPANSION_ENDPOINT_POLICY | PASS | path_prefix=/wp-json/wp/v2/; basis=PRIOR_FINAL_URL |
+| PILOT_LEDGERS_IMMUTABLE | PASS | All four approved pilot ledger hashes match the merged baseline. |
+| PILOT_RAW_AND_PROVENANCE_IMMUTABLE | PASS | artifacts=30 aggregate_sha256=7aa4960f755fad4525b5c826559d3f1cf5d03d343ffd571c071b4392c83e5b48 |
 | TERMINAL_DISPOSITIONS | PASS | terminal_records=20 |
 | RAW_BODY_CHECKSUMS | PASS | Every successful raw body exists and matches its ledger SHA-256. |
 | PROVENANCE_RECONCILES | PASS | Every successful provenance record reconciles to its Source ID and body checksum. |
 | REQUIRED_PROVENANCE_FIELDS | PASS | Every preserved response has the complete Phase 2 provenance field set. |
 | MANUAL_REVIEW_QUEUE | PASS | Manual-review queue equals the flagged terminal records. |
+| EXPANSION_TERMINAL_IDS | PASS | terminal_records=59 expected=59 |
+| EXPANSION_RAW_BODY_CHECKSUMS | PASS | Every expansion raw body matches its ledger SHA-256. |
+| EXPANSION_PROVENANCE_RECONCILES | PASS | Every expansion provenance record reconciles to its batch, Source ID, and body. |
+| EXPANSION_REQUIRED_PROVENANCE_FIELDS | PASS | Every preserved expansion response has the complete provenance field set. |
+| EXPANSION_MANUAL_REVIEW_QUEUE | PASS | Expansion manual-review queue equals its flagged terminal records. |
+| EXPANSION_RETRY_SCOPE | PASS | attempt_records=59 |
+| CROSS_BATCH_SOURCE_IDS_UNIQUE | PASS | pilot=20 expansion=59 |
 | PROTECTED_EVIDENCE_UNCHANGED | PASS | Frozen extraction and Source Record checksums are unchanged. |
 | OUTPUT_SCOPE | PASS | Every declared raw and provenance output remains under its approved repository layer. |
-| ARCHIVE_MANIFEST_RECONCILES | PASS | artifact_count=30 |
-| CONTROLLED_TERMINAL_DISPOSITIONS | PASS | Every pilot record uses the frozen Phase 2 disposition vocabulary. |
+| NO_ORPHAN_RAW_OR_PROVENANCE | PASS | declared=148 actual=148 |
+| ARCHIVE_MANIFEST_RECONCILES | PASS | artifact_count=148 |
+| CONTROLLED_TERMINAL_DISPOSITIONS | PASS | Every terminal record uses the frozen Phase 2 disposition vocabulary. |
+| CAMPAIGN_SUMMARY_RECONCILES | PASS | terminal_records=79 |
 | PROTECTED_LAYERS_ABSENT_FROM_OUTPUTS | PASS | No declared output enters a protected evidence, knowledge, graph, or publication layer. |

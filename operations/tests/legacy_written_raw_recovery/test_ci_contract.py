@@ -1,12 +1,15 @@
 import importlib.util
+import json
 from pathlib import Path
 import subprocess
 import sys
+from urllib.parse import urlsplit
 
 import pytest
 
 
 ROOT = Path(__file__).parents[3]
+CAMPAIGN_DIR = ROOT / "operations" / "campaigns" / "legacy-written-raw-recovery-2026-07"
 CI_PATH = ROOT / "operations" / "ci" / "validate_repository.py"
 sys.path.insert(0, str(CI_PATH.parent))
 SPEC = importlib.util.spec_from_file_location("legacy_raw_recovery_ci", CI_PATH)
@@ -82,3 +85,28 @@ def test_campaign_validation_reports_nondeterministic_artifacts(monkeypatch):
 
     with pytest.raises(validator.ValidationFailure, match="not deterministic"):
         validator.validate_legacy_written_raw_recovery_campaign()
+
+
+def test_aephia_expansion_selection_is_fixed_and_disjoint_from_pilot():
+    selection = json.loads((CAMPAIGN_DIR / "expansion-aephia-selection.json").read_text(encoding="utf-8"))
+    selected_ids = [item["source_id"] for item in selection["records"]]
+
+    assert selection["batch_id"] == "aephia-family-remaining-59"
+    assert len(selected_ids) == 59
+    assert len(selected_ids) == len(set(selected_ids))
+    assert not set(selected_ids).intersection(selection["pilot_source_ids_excluded"])
+    assert all(urlsplit(item["retrieval_url"]).netloc == "aephia.com" for item in selection["records"])
+    assert all(urlsplit(item["retrieval_url"]).path.startswith("/wp-json/wp/v2/") for item in selection["records"])
+    assert all(item["retrieval_url_basis"] == "PRIOR_FINAL_URL" for item in selection["records"])
+
+
+def test_aephia_expansion_has_complete_identity_matched_terminal_coverage():
+    ledger_path = CAMPAIGN_DIR / "expansion-aephia-retrieval-ledger.jsonl"
+    records = [json.loads(line) for line in ledger_path.read_text(encoding="utf-8").splitlines() if line]
+
+    assert len(records) == 59
+    assert all(item["retrieval_batch_id"] == "aephia-family-remaining-59" for item in records)
+    assert all(item["terminal_disposition"] == "CAPTURED_LIVE" for item in records)
+    assert all(item["identity_status"] == "MATCH" for item in records)
+    assert not any(item["manual_review_required"] for item in records)
+    assert (CAMPAIGN_DIR / "expansion-aephia-manual-review-queue.jsonl").read_bytes() == b""

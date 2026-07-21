@@ -1,0 +1,62 @@
+{
+  "byte_count": 10424,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T12:31:38.816973Z",
+  "captured_at": "2026-07-21T12:31:38.816973Z",
+  "content_type": "application/json; charset=UTF-8",
+  "final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=polis-staking-is-here&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Tue, 21 Jul 2026 12:31:38 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://aephia.com/star-atlas/polis-staking-is-here/",
+    "observed_canonical_url": "https://aephia.com/star-atlas/polis-staking-is-here/",
+    "observed_final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=polis-staking-is-here&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://aephia.com/star-atlas/polis-staking-is-here/",
+    "document_title": "POLIS Staking is Here!",
+    "response_format": "JSON"
+  },
+  "original_url": "https://aephia.com/star-atlas/polis-staking-is-here/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-9625CEC37184A8ED.json",
+  "raw_body": {
+    "byte_length": 10424,
+    "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-9625CEC37184A8ED/response-body.bin",
+    "sha256": "b24eaeeb97b3e1825a2e95579c4e2d21ff9a33ae72597658774ef7ca32e692be"
+  },
+  "raw_sha256": "b24eaeeb97b3e1825a2e95579c4e2d21ff9a33ae72597658774ef7ca32e692be",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=polis-staking-is-here&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=polis-staking-is-here&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 21 Jul 2026 12:31:38 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "aephia-family-remaining-59",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "aephia",
+  "source_id": "SRC-AEPHIA-9625CEC37184A8ED",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T12:31:38.816973Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

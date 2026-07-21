@@ -1,8 +1,8 @@
-# Legacy Written Raw Recovery — Phase 2 Pilot
+# Legacy Written Raw Recovery — Phase 2 Pilot and Aephia Expansion
 
 ## Purpose
 
-Campaigns Alpha through Delta preserved 800 successful written-source extractions and their Source Records, but most of those campaigns did not preserve the immutable HTTP response that underlay each extraction. This campaign tests a bounded recovery method before any corpus-wide acquisition is authorized.
+Campaigns Alpha through Delta preserved 800 successful written-source extractions and their Source Records, but most of those campaigns did not preserve the immutable HTTP response that underlay each extraction. This campaign uses bounded, explicitly authorized batches rather than enabling corpus-wide acquisition.
 
 The existing extraction and Source Record layers remain frozen. Recovery adds only exact public HTTP response bytes and provenance. It does not re-extract, normalize, classify, semantically enrich, or promote knowledge.
 
@@ -18,7 +18,7 @@ The freeze inventory contains:
 | Delta | Official Star Atlas web corpus | 320 |
 | **Total** |  | **800** |
 
-The retrieval pilot is limited to 20 curator-selected records: five from each source family. Full-corpus retrieval is intentionally unavailable.
+The retrieval pilot was limited to 20 curator-selected records: five from each source family. The first post-pilot gate authorizes exactly the 59 remaining Aephia records. Herald, HNN, and official-source expansion remain deferred to separate review gates. Full-corpus retrieval is intentionally unavailable.
 
 ## Commands
 
@@ -27,16 +27,17 @@ Run from the repository root:
 ```text
 python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py freeze
 python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py retrieve --pilot
+python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py retrieve --batch aephia-family-remaining-59
 python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py validate
 ```
 
-`freeze` reads only the existing extraction JSON and deterministically writes `frozen-manifest.json`. It requires exactly 64 Alpha, 259 Bravo, 157 Charlie, and 320 Delta records and verifies that all 20 approved pilot IDs exist.
+`freeze` reads only the existing extraction JSON and deterministically writes `frozen-manifest.json` and `expansion-aephia-selection.json`. It requires exactly 64 Alpha, 259 Bravo, 157 Charlie, and 320 Delta records, verifies that all 20 approved pilot IDs exist, and selects exactly the 59 non-pilot Aephia records whose prior successful endpoint is the public `aephia.com/wp-json/wp/v2/` API.
 
-`retrieve --pilot` performs unauthenticated public HTTP GET requests. It prefers the public endpoint used by the original successful extraction—such as a WordPress REST response or a specific Internet Archive capture—then falls back to the recorded source URL. It never retrieves the other 780 records.
+`retrieve --pilot` performs the already completed 20-record pilot. `retrieve --batch aephia-family-remaining-59` is the only expansion command and cannot accept arbitrary families or Source IDs. It performs unauthenticated public HTTP GET requests only against the frozen Aephia WordPress endpoints, with pacing, checkpoint reuse, three attempts, and the existing host stop rule.
 
 Every terminal result is checkpointed. A normal rerun reuses both successful captures and documented access/failure outcomes without changing timestamps or ledgers. A later operator may explicitly use `--retry-failures` after the blocking condition changes; that option is not part of deterministic CI.
 
-`validate` checks the fixed point of the frozen manifest, extraction checksums, Source Record references, pilot membership, terminal dispositions, raw-body checksums, provenance reconciliation, manual-review routing, and repository path boundaries.
+`validate` checks the fixed point of both selections, extraction checksums, Source Record references, immutable pilot baselines, exact Aephia family coverage, terminal dispositions, raw-body checksums, provenance reconciliation, manual-review routing, orphan detection, and repository path boundaries.
 
 CI may invoke the equivalent thin offline entry point:
 
@@ -77,12 +78,16 @@ Campaign-local ledgers include:
 - `retrieval-ledger.jsonl`;
 - `retry-ledger.jsonl`;
 - `manual-review-queue.jsonl`;
+- `expansion-aephia-selection.json`;
+- `expansion-aephia-retrieval-ledger.jsonl`;
+- `expansion-aephia-retry-ledger.jsonl`;
+- `expansion-aephia-manual-review-queue.jsonl`;
 - campaign summary JSON and Markdown;
 - validation report JSON and Markdown.
 
 ## Identity and retrieval rules
 
-Recovery does not assume that a successful HTTP response is the intended publication. A response is identity-matched only when its canonical/final identity agrees with the frozen source, or when a preserved Internet Archive capture explicitly contains the expected origin. Responses lacking enough identity metadata are preserved but receive `SUCCESS_REVIEW_REQUIRED`; mismatches are never silently accepted.
+Recovery does not assume that a successful HTTP response is the intended publication. A response is identity-matched only when its canonical/final identity agrees with the frozen source, or when a preserved Internet Archive capture explicitly contains the expected origin. Responses lacking enough identity metadata are preserved but receive `AMBIGUOUS_MANUAL_REVIEW`; mismatches are never silently accepted.
 
 Redirects, mirrors, WordPress APIs, successor HNN locations, and archived snapshots remain distinct provenance surfaces. Recovery does not merge their identities.
 
@@ -110,4 +115,4 @@ graph/
 publication/
 ```
 
-No recovered body is promoted merely because it was retrieved. The pilot exists to measure recoverability, identity confidence, redirect behavior, and manual-review burden before a wider Phase 2 campaign is considered.
+No recovered body is promoted merely because it was retrieved. The pilot measured recoverability, identity confidence, redirect behavior, and manual-review burden. The Aephia expansion closes only that frozen 64-record family; every additional family remains a separately reviewable Phase 2 decision.

@@ -1,0 +1,62 @@
+{
+  "byte_count": 9302,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T12:31:08.474958Z",
+  "captured_at": "2026-07-21T12:31:08.474958Z",
+  "content_type": "application/json; charset=UTF-8",
+  "final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Tue, 21 Jul 2026 12:31:08 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://aephia.com/star-atlas/aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive/",
+    "observed_canonical_url": "https://aephia.com/star-atlas/aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive/",
+    "observed_final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://aephia.com/star-atlas/aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive/",
+    "document_title": "Aephia Industries x Dark Core Roasters – Enjoy our Aephian Pulse Drive coffee!",
+    "response_format": "JSON"
+  },
+  "original_url": "https://aephia.com/star-atlas/aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-1E28DBA8CF83CAD6.json",
+  "raw_body": {
+    "byte_length": 9302,
+    "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-1E28DBA8CF83CAD6/response-body.bin",
+    "sha256": "8a596e3ea2f9f2d13dc3aadbd655a4bd27932e165794c71cb793e2288772cc5b"
+  },
+  "raw_sha256": "8a596e3ea2f9f2d13dc3aadbd655a4bd27932e165794c71cb793e2288772cc5b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 21 Jul 2026 12:31:08 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "aephia-family-remaining-59",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "aephia",
+  "source_id": "SRC-AEPHIA-1E28DBA8CF83CAD6",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T12:31:08.474958Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

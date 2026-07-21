@@ -1,0 +1,62 @@
+{
+  "byte_count": 49326,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-21T12:31:12.792458Z",
+  "captured_at": "2026-07-21T12:31:12.792458Z",
+  "content_type": "application/json; charset=UTF-8",
+  "final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=sage-escape-velocity-everything-we-know&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+  "headers": {
+    "content-type": "application/json; charset=UTF-8",
+    "date": "Tue, 21 Jul 2026 12:31:12 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://aephia.com/star-atlas/sage-escape-velocity-everything-we-know/",
+    "observed_canonical_url": "https://aephia.com/star-atlas/sage-escape-velocity-everything-we-know/",
+    "observed_final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=sage-escape-velocity-everything-we-know&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://aephia.com/star-atlas/sage-escape-velocity-everything-we-know/",
+    "document_title": "SAGE: Escape Velocity – Everything we know!",
+    "response_format": "JSON"
+  },
+  "original_url": "https://aephia.com/star-atlas/sage-escape-velocity-everything-we-know/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-29A1AF8C2ABBD4D0.json",
+  "raw_body": {
+    "byte_length": 49326,
+    "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-29A1AF8C2ABBD4D0/response-body.bin",
+    "sha256": "b824c2708b5cdc78f2dc350ef3cd4966091ff432ae30b530676fa8e8ccbf5cca"
+  },
+  "raw_sha256": "b824c2708b5cdc78f2dc350ef3cd4966091ff432ae30b530676fa8e8ccbf5cca",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=sage-escape-velocity-everything-we-know&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=UTF-8",
+    "final_url": "https://aephia.com/wp-json/wp/v2/posts?slug=sage-escape-velocity-everything-we-know&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+    "headers": {
+      "content-type": "application/json; charset=UTF-8",
+      "date": "Tue, 21 Jul 2026 12:31:12 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "aephia-family-remaining-59",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "aephia",
+  "source_id": "SRC-AEPHIA-29A1AF8C2ABBD4D0",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-21T12:31:12.792458Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

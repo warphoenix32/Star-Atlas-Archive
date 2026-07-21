@@ -3,8 +3,8 @@
 
 This campaign is intentionally narrow. It reads the 800 successful extraction
 records promoted by Campaigns Alpha through Delta, but it never rewrites those
-extractions or their Source Records. The pilot retrieves only an approved set
-of 20 records and stores the exact public HTTP response bytes plus provenance.
+extractions or their Source Records. Retrieval stores exact public HTTP
+response bytes plus provenance for an explicitly approved record selection.
 """
 
 from __future__ import annotations
@@ -39,9 +39,14 @@ ARCHIVE_MANIFEST = REPO_ROOT / "archive" / "manifests" / f"{CAMPAIGN_ID}.json"
 
 FROZEN_MANIFEST = CAMPAIGN_DIR / "frozen-manifest.json"
 PILOT_SELECTION = CAMPAIGN_DIR / "pilot-selection.json"
+EXPANSION_BATCH_ID = "aephia-family-remaining-59"
+EXPANSION_SELECTION = CAMPAIGN_DIR / "expansion-aephia-selection.json"
 RETRIEVAL_LEDGER = CAMPAIGN_DIR / "retrieval-ledger.jsonl"
 RETRY_LEDGER = CAMPAIGN_DIR / "retry-ledger.jsonl"
 MANUAL_REVIEW_QUEUE = CAMPAIGN_DIR / "manual-review-queue.jsonl"
+EXPANSION_RETRIEVAL_LEDGER = CAMPAIGN_DIR / "expansion-aephia-retrieval-ledger.jsonl"
+EXPANSION_RETRY_LEDGER = CAMPAIGN_DIR / "expansion-aephia-retry-ledger.jsonl"
+EXPANSION_MANUAL_REVIEW_QUEUE = CAMPAIGN_DIR / "expansion-aephia-manual-review-queue.jsonl"
 CAMPAIGN_SUMMARY_JSON = CAMPAIGN_DIR / "campaign-summary.json"
 CAMPAIGN_SUMMARY_MD = CAMPAIGN_DIR / "campaign-summary.md"
 VALIDATION_REPORT_JSON = CAMPAIGN_DIR / "validation-report.json"
@@ -96,6 +101,18 @@ PILOT_SOURCE_IDS = (
     "SRC-OFF-17012CC0302537A1",
     "SRC-OFF-B4F9EB92DD60A7A8",
 )
+
+EXPANSION_EXPECTED_COUNT = 59
+EXPANSION_ALLOWED_HOST = "aephia.com"
+EXPANSION_ALLOWED_PATH_PREFIX = "/wp-json/wp/v2/"
+REQUEST_DELAY_SECONDS = 0.25
+PILOT_BASELINE_SHA256 = {
+    "manual-review-queue.jsonl": "6ab6335b3b921ff991c25d4b87608d0dc748dd6813a10cb8c155933ed49fab9a",
+    "pilot-selection.json": "0efbf01f965760378163a92ae501d5381999595de686b3e783870be0bef58a68",
+    "retrieval-ledger.jsonl": "768458c57ba36d18602e78996681af991788137d3708c424239d2eaeb27e7349",
+    "retry-ledger.jsonl": "2cc017c1539a27f78c26258564c2f8f222115bef963332c372a81e218394696e",
+}
+PILOT_ARTIFACT_SET_SHA256 = "7aa4960f755fad4525b5c826559d3f1cf5d03d343ffd571c071b4392c83e5b48"
 
 USER_AGENT = "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
 MAX_ATTEMPTS = 3
@@ -330,13 +347,90 @@ def build_frozen_manifest() -> dict[str, Any]:
     }
 
 
+def expansion_records(manifest: dict[str, Any]) -> list[dict[str, Any]]:
+    pilot = set(PILOT_SOURCE_IDS)
+    records = [
+        record
+        for record in manifest["records"]
+        if record["source_family"] == "aephia" and record["source_id"] not in pilot
+    ]
+    records.sort(key=lambda item: item["source_id"])
+    if len(records) != EXPANSION_EXPECTED_COUNT:
+        raise RuntimeError(
+            f"{EXPANSION_BATCH_ID} must contain {EXPANSION_EXPECTED_COUNT} records; "
+            f"found {len(records)}"
+        )
+    for record in records:
+        parsed = urllib.parse.urlsplit(record["retrieval_url"])
+        if parsed.netloc.lower() != EXPANSION_ALLOWED_HOST:
+            raise RuntimeError(f"Expansion host outside allowlist: {record['source_id']} {parsed.netloc}")
+        if not parsed.path.startswith(EXPANSION_ALLOWED_PATH_PREFIX):
+            raise RuntimeError(f"Expansion endpoint outside policy: {record['source_id']} {parsed.path}")
+        if record["retrieval_url_basis"] != "PRIOR_FINAL_URL":
+            raise RuntimeError(f"Expansion URL basis is not prior final URL: {record['source_id']}")
+    return records
+
+
+def pilot_artifact_entries() -> list[dict[str, Any]]:
+    pilot = set(PILOT_SOURCE_IDS)
+    entries: list[dict[str, Any]] = []
+    for root in (RAW_ROOT, PROVENANCE_ROOT):
+        if not root.exists():
+            continue
+        for path in sorted((item for item in root.rglob("*") if item.is_file()), key=relative):
+            if not any(source_id in path.as_posix() for source_id in pilot):
+                continue
+            entries.append({"path": relative(path), "sha256": sha256_bytes(path.read_bytes())})
+    return entries
+
+
+def pilot_artifact_set_sha256(entries: list[dict[str, Any]]) -> str:
+    payload = "".join(f"{item['path']}\0{item['sha256']}\n" for item in entries).encode("utf-8")
+    return sha256_bytes(payload)
+
+
+def build_expansion_selection(manifest: dict[str, Any]) -> dict[str, Any]:
+    records = expansion_records(manifest)
+    artifact_entries = pilot_artifact_entries()
+    return {
+        "allowed_host": EXPANSION_ALLOWED_HOST,
+        "allowed_path_prefix": EXPANSION_ALLOWED_PATH_PREFIX,
+        "authorization_status": "AUTHORIZED_FOR_RETRIEVAL",
+        "batch_id": EXPANSION_BATCH_ID,
+        "campaign_id": CAMPAIGN_ID,
+        "deferred_scope": [
+            "campaign-bravo-intergalactic-herald",
+            "campaign-charlie-hnn",
+            "campaign-delta-official",
+        ],
+        "expected_record_count": EXPANSION_EXPECTED_COUNT,
+        "frozen_manifest_sha256": sha256_bytes(FROZEN_MANIFEST.read_bytes()),
+        "pilot_artifact_entries": artifact_entries,
+        "pilot_artifact_set_sha256": pilot_artifact_set_sha256(artifact_entries),
+        "pilot_baseline_sha256": dict(sorted(PILOT_BASELINE_SHA256.items())),
+        "pilot_source_ids_excluded": sorted(PILOT_SOURCE_IDS),
+        "records": [
+            {
+                "retrieval_url": record["retrieval_url"],
+                "retrieval_url_basis": record["retrieval_url_basis"],
+                "source_id": record["source_id"],
+            }
+            for record in records
+        ],
+        "schema_version": SCHEMA_VERSION,
+        "selection_rule": "AEPHIA_FAMILY_AND_NOT_PILOT",
+    }
+
+
 def freeze() -> None:
     manifest = build_frozen_manifest()
     write_json(FROZEN_MANIFEST, manifest)
+    write_json(EXPANSION_SELECTION, build_expansion_selection(manifest))
     write_archive_manifest()
     print(
         f"Frozen {manifest['frozen_record_count']} records; "
-        f"approved pilot contains {manifest['pilot_record_count']} records."
+        f"approved pilot contains {manifest['pilot_record_count']} records; "
+        f"{EXPANSION_BATCH_ID} contains {EXPANSION_EXPECTED_COUNT} records."
     )
 
 
@@ -521,7 +615,7 @@ def verified_checkpoint(record: dict[str, Any]) -> dict[str, Any] | None:
 
 
 def ledger_from_provenance(record: dict[str, Any], provenance: dict[str, Any], checkpoint: bool) -> dict[str, Any]:
-    return {
+    ledger = {
         "body_bytes": provenance["raw_body"]["byte_length"],
         "body_path": provenance["raw_body"]["path"],
         "body_sha256": provenance["raw_body"]["sha256"],
@@ -538,6 +632,9 @@ def ledger_from_provenance(record: dict[str, Any], provenance: dict[str, Any], c
         "source_id": record["source_id"],
         "terminal_disposition": provenance["terminal_disposition"],
     }
+    if provenance.get("retrieval_batch_id"):
+        ledger["retrieval_batch_id"] = provenance["retrieval_batch_id"]
+    return ledger
 
 
 def build_archive_manifest() -> dict[str, Any]:
@@ -558,6 +655,10 @@ def build_archive_manifest() -> dict[str, Any]:
         "artifact_count": len(artifacts),
         "artifacts": artifacts,
         "campaign_id": CAMPAIGN_ID,
+        "expansion_batch_id": EXPANSION_BATCH_ID,
+        "expansion_record_count": EXPANSION_EXPECTED_COUNT,
+        "expansion_selection_path": relative(EXPANSION_SELECTION),
+        "expansion_selection_sha256": sha256_bytes(EXPANSION_SELECTION.read_bytes()) if EXPANSION_SELECTION.exists() else None,
         "frozen_manifest_path": relative(FROZEN_MANIFEST),
         "frozen_manifest_sha256": sha256_bytes(FROZEN_MANIFEST.read_bytes()) if FROZEN_MANIFEST.exists() else None,
         "pilot_record_count": len(PILOT_SOURCE_IDS),
@@ -571,7 +672,9 @@ def write_archive_manifest() -> None:
     write_json(ARCHIVE_MANIFEST, build_archive_manifest())
 
 
-def retrieve_record(record: dict[str, Any]) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+def retrieve_record(
+    record: dict[str, Any], retrieval_batch_id: str | None = None
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     checkpoint = verified_checkpoint(record)
     if checkpoint:
         return ledger_from_provenance(record, checkpoint, True), []
@@ -646,6 +749,7 @@ def retrieve_record(record: dict[str, Any]) -> tuple[dict[str, Any], list[dict[s
                     "user_agent": USER_AGENT,
                 },
                 "redirect_chain": redirects.chain,
+                "retrieval_batch_id": retrieval_batch_id,
                 "retrieval_tier": retrieval_tier,
                 "response": {
                     "content_type": content_type,
@@ -668,6 +772,7 @@ def retrieve_record(record: dict[str, Any]) -> tuple[dict[str, Any], list[dict[s
                     "completed_at": captured_at,
                     "error": None,
                     "http_status": http_status,
+                    "retrieval_batch_id": retrieval_batch_id,
                     "source_id": record["source_id"],
                     "started_at": started_at,
                     "status": "CAPTURED",
@@ -692,6 +797,7 @@ def retrieve_record(record: dict[str, Any]) -> tuple[dict[str, Any], list[dict[s
                 "completed_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
                 "error": last_error,
                 "http_status": http_status,
+                "retrieval_batch_id": retrieval_batch_id,
                 "source_id": record["source_id"],
                 "started_at": started_at,
                 "status": "FAILED",
@@ -713,6 +819,7 @@ def retrieve_record(record: dict[str, Any]) -> tuple[dict[str, Any], list[dict[s
             "identity_status": "NOT_EVALUATED",
             "manual_review_required": True,
             "provenance_path": None,
+            "retrieval_batch_id": retrieval_batch_id,
             "retrieval_url": record["retrieval_url"],
             "source_family": record["source_family"],
             "source_id": record["source_id"],
@@ -727,31 +834,57 @@ def retrieve_record(record: dict[str, Any]) -> tuple[dict[str, Any], list[dict[s
     )
 
 
-def write_summary(ledger: list[dict[str, Any]]) -> None:
+def summarize_batch(ledger: list[dict[str, Any]], expected: int) -> dict[str, Any]:
     dispositions = Counter(item["terminal_disposition"] for item in ledger)
     identity = Counter(item["identity_status"] for item in ledger)
-    manual = [item for item in ledger if item["manual_review_required"]]
     preserved = [item for item in ledger if item.get("body_path")]
-    captured = [item for item in ledger if item["terminal_disposition"] in CAPTURED_DISPOSITIONS]
+    return {
+        "expected_records": expected,
+        "identity_status_counts": dict(sorted(identity.items())),
+        "manual_review_count": sum(bool(item["manual_review_required"]) for item in ledger),
+        "raw_bodies_preserved": len(preserved),
+        "terminal_disposition_counts": dict(sorted(dispositions.items())),
+        "terminal_records": len(ledger),
+        "urls_retrieved": len(preserved),
+    }
+
+
+def write_summary() -> None:
+    pilot_ledger = read_jsonl(RETRIEVAL_LEDGER)
+    expansion_ledger = read_jsonl(EXPANSION_RETRIEVAL_LEDGER)
+    all_ledger = pilot_ledger + expansion_ledger
+    dispositions = Counter(item["terminal_disposition"] for item in all_ledger)
+    identity = Counter(item["identity_status"] for item in all_ledger)
+    manual = [item for item in all_ledger if item["manual_review_required"]]
+    preserved = [item for item in all_ledger if item.get("body_path")]
+    expansion_complete = len(expansion_ledger) == EXPANSION_EXPECTED_COUNT
     summary = {
+        "batches": {
+            "pilot-20": summarize_batch(pilot_ledger, len(PILOT_SOURCE_IDS)),
+            EXPANSION_BATCH_ID: summarize_batch(expansion_ledger, EXPANSION_EXPECTED_COUNT),
+        },
         "campaign_id": CAMPAIGN_ID,
+        "distinct_records_attempted": len({item["source_id"] for item in all_ledger}),
+        "expansion_records": EXPANSION_EXPECTED_COUNT,
         "frozen_records": 800,
         "identity_status_counts": dict(sorted(identity.items())),
         "manual_review_count": len(manual),
         "pilot_records": len(PILOT_SOURCE_IDS),
         "raw_bodies_preserved": len(preserved),
         "schema_version": SCHEMA_VERSION,
-        "status": "PILOT_COMPLETE" if len(ledger) == len(PILOT_SOURCE_IDS) and len(captured) == len(ledger) else "PILOT_COMPLETE_WITH_EXCEPTIONS",
+        "status": "AEPHIA_FAMILY_EXPANSION_COMPLETE" if expansion_complete else "AEPHIA_FAMILY_EXPANSION_PENDING",
         "terminal_disposition_counts": dict(sorted(dispositions.items())),
-        "urls_attempted": len(ledger),
+        "urls_attempted": len(all_ledger),
         "urls_retrieved": len(preserved),
     }
     write_json(CAMPAIGN_SUMMARY_JSON, summary)
     lines = [
-        "# Legacy Written Raw Recovery — Pilot Summary",
+        "# Legacy Written Raw Recovery — Aephia Expansion Summary",
         "",
         f"- Frozen records: {summary['frozen_records']}",
         f"- Pilot records: {summary['pilot_records']}",
+        f"- Aephia expansion records: {summary['expansion_records']}",
+        f"- Distinct records attempted: {summary['distinct_records_attempted']}",
         f"- URLs attempted: {summary['urls_attempted']}",
         f"- URLs retrieved: {summary['urls_retrieved']}",
         f"- Raw bodies preserved: {summary['raw_bodies_preserved']}",
@@ -764,22 +897,37 @@ def write_summary(ledger: list[dict[str, Any]]) -> None:
     lines.extend(f"- `{key}`: {value}" for key, value in sorted(dispositions.items()))
     lines.extend(["", "## Identity comparison", ""])
     lines.extend(f"- `{key}`: {value}" for key, value in sorted(identity.items()))
+    lines.extend(["", "## Batch status", ""])
+    for batch_id, batch in summary["batches"].items():
+        lines.append(
+            f"- `{batch_id}`: {batch['terminal_records']}/{batch['expected_records']} terminal; "
+            f"{batch['urls_retrieved']} retrieved; {batch['manual_review_count']} manual review"
+        )
     CAMPAIGN_SUMMARY_MD.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
-def retrieve_pilot(retry_failures: bool = False) -> None:
+def retrieve_batch(
+    source_ids: Iterable[str],
+    ledger_path: Path,
+    retry_path: Path,
+    manual_path: Path,
+    retrieval_batch_id: str | None,
+    retry_failures: bool = False,
+    request_delay_seconds: float = 0.0,
+) -> None:
     if not FROZEN_MANIFEST.exists():
         raise RuntimeError("Run `freeze` before retrieval.")
     manifest = read_json(FROZEN_MANIFEST)
     records_by_id = {record["source_id"]: record for record in manifest["records"]}
-    existing_ledger = {item["source_id"]: item for item in read_jsonl(RETRIEVAL_LEDGER)}
+    selected_ids = tuple(source_ids)
+    existing_ledger = {item["source_id"]: item for item in read_jsonl(ledger_path)}
     existing_attempts: dict[str, list[dict[str, Any]]] = {}
-    for attempt in read_jsonl(RETRY_LEDGER):
+    for attempt in read_jsonl(retry_path):
         existing_attempts.setdefault(attempt["source_id"], []).append(attempt)
     ledger: list[dict[str, Any]] = []
     attempts: list[dict[str, Any]] = []
     blocked_hosts: dict[str, str] = {}
-    for source_id in PILOT_SOURCE_IDS:
+    for source_id in selected_ids:
         record = records_by_id[source_id]
         previous = existing_ledger.get(source_id)
         checkpoint = verified_checkpoint(record)
@@ -802,6 +950,7 @@ def retrieve_pilot(retry_failures: bool = False) -> None:
                 "identity_status": "NOT_EVALUATED",
                 "manual_review_required": True,
                 "provenance_path": None,
+                "retrieval_batch_id": retrieval_batch_id,
                 "retrieval_tier": None,
                 "retrieval_url": record["retrieval_url"],
                 "source_family": record["source_family"],
@@ -813,7 +962,7 @@ def retrieve_pilot(retry_failures: bool = False) -> None:
             print(f"Skipping {source_id}: host stop rule for {host}", flush=True)
             continue
         print(f"Retrieving {source_id} ...", flush=True)
-        item, item_attempts = retrieve_record(record)
+        item, item_attempts = retrieve_record(record, retrieval_batch_id)
         ledger.append(item)
         attempts.extend(item_attempts)
         restricted = [
@@ -824,14 +973,47 @@ def retrieve_pilot(retry_failures: bool = False) -> None:
         if len(restricted) >= 3 and restricted[-3:] == item_attempts[-3:]:
             blocked_hosts[host] = str(restricted[-1].get("error") or restricted[-1].get("http_status"))
         print(f"  {item['terminal_disposition']} ({item['identity_status']})", flush=True)
+        if request_delay_seconds:
+            time.sleep(request_delay_seconds)
     ledger.sort(key=lambda item: item["source_id"])
     attempts.sort(key=lambda item: (item["source_id"], item["attempt"]))
     manual = [item for item in ledger if item["manual_review_required"]]
-    write_jsonl(RETRIEVAL_LEDGER, ledger)
-    write_jsonl(RETRY_LEDGER, attempts)
-    write_jsonl(MANUAL_REVIEW_QUEUE, manual)
-    write_summary(ledger)
+    write_jsonl(ledger_path, ledger)
+    write_jsonl(retry_path, attempts)
+    write_jsonl(manual_path, manual)
+    write_summary()
     write_archive_manifest()
+
+
+def retrieve_pilot(retry_failures: bool = False) -> None:
+    retrieve_batch(
+        PILOT_SOURCE_IDS,
+        RETRIEVAL_LEDGER,
+        RETRY_LEDGER,
+        MANUAL_REVIEW_QUEUE,
+        None,
+        retry_failures,
+    )
+
+
+def retrieve_expansion(retry_failures: bool = False) -> None:
+    if not EXPANSION_SELECTION.exists():
+        raise RuntimeError("Run `freeze` before expansion retrieval.")
+    selection = read_json(EXPANSION_SELECTION)
+    source_ids = ids_from_selection(selection)
+    if len(source_ids) != EXPANSION_EXPECTED_COUNT:
+        raise RuntimeError(
+            f"{EXPANSION_BATCH_ID} selection must contain {EXPANSION_EXPECTED_COUNT} Source IDs."
+        )
+    retrieve_batch(
+        source_ids,
+        EXPANSION_RETRIEVAL_LEDGER,
+        EXPANSION_RETRY_LEDGER,
+        EXPANSION_MANUAL_REVIEW_QUEUE,
+        EXPANSION_BATCH_ID,
+        retry_failures,
+        REQUEST_DELAY_SECONDS,
+    )
 
 
 def ids_from_selection(value: Any) -> list[str]:
@@ -855,6 +1037,7 @@ def validate() -> bool:
     def check(name: str, passed: bool, detail: str) -> None:
         checks.append({"check": name, "detail": detail, "status": "PASS" if passed else "FAIL"})
 
+    write_summary()
     expected = build_frozen_manifest()
     actual = read_json(FROZEN_MANIFEST) if FROZEN_MANIFEST.exists() else None
     check("FROZEN_MANIFEST_EXISTS", actual is not None, relative(FROZEN_MANIFEST))
@@ -891,6 +1074,66 @@ def validate() -> bool:
         check("PILOT_SELECTION_RECONCILES", selection_ids == sorted(PILOT_SOURCE_IDS), f"selection_ids={len(selection_ids)} expected=20")
     else:
         check("PILOT_SELECTION_RECONCILES", True, "No separate pilot-selection.json exists; the frozen manifest remains authoritative.")
+
+    actual_expansion_selection = read_json(EXPANSION_SELECTION) if EXPANSION_SELECTION.exists() else None
+    expected_expansion_selection = build_expansion_selection(actual) if actual else None
+    check(
+        "EXPANSION_SELECTION_DETERMINISTIC",
+        actual_expansion_selection == expected_expansion_selection,
+        f"batch={EXPANSION_BATCH_ID}",
+    )
+    expansion_ids = ids_from_selection(actual_expansion_selection or {})
+    check(
+        "EXPANSION_RECORD_COUNT",
+        len(expansion_ids) == EXPANSION_EXPECTED_COUNT,
+        f"observed={len(expansion_ids)} expected={EXPANSION_EXPECTED_COUNT}",
+    )
+    check(
+        "EXPANSION_DISJOINT_FROM_PILOT",
+        not set(expansion_ids).intersection(PILOT_SOURCE_IDS),
+        "Expansion Source IDs exclude all 20 pilot records.",
+    )
+    if actual:
+        records_by_id = {record["source_id"]: record for record in actual["records"]}
+        aephia_pilot = {
+            source_id
+            for source_id in PILOT_SOURCE_IDS
+            if records_by_id[source_id]["source_family"] == "aephia"
+        }
+        selected_records = [records_by_id[source_id] for source_id in expansion_ids if source_id in records_by_id]
+        check(
+            "AEPHIA_FAMILY_COVERAGE",
+            len(aephia_pilot | set(expansion_ids)) == 64,
+            f"pilot={len(aephia_pilot)} expansion={len(expansion_ids)} total={len(aephia_pilot | set(expansion_ids))}",
+        )
+        check(
+            "EXPANSION_HOST_ALLOWLIST",
+            all(urllib.parse.urlsplit(record["retrieval_url"]).netloc.lower() == EXPANSION_ALLOWED_HOST for record in selected_records),
+            f"allowed_host={EXPANSION_ALLOWED_HOST}",
+        )
+        check(
+            "EXPANSION_ENDPOINT_POLICY",
+            all(
+                urllib.parse.urlsplit(record["retrieval_url"]).path.startswith(EXPANSION_ALLOWED_PATH_PREFIX)
+                and record["retrieval_url_basis"] == "PRIOR_FINAL_URL"
+                for record in selected_records
+            ),
+            f"path_prefix={EXPANSION_ALLOWED_PATH_PREFIX}; basis=PRIOR_FINAL_URL",
+        )
+
+    pilot_baseline_ok = all(
+        (CAMPAIGN_DIR / name).exists()
+        and sha256_bytes((CAMPAIGN_DIR / name).read_bytes()) == expected_sha
+        for name, expected_sha in PILOT_BASELINE_SHA256.items()
+    )
+    check("PILOT_LEDGERS_IMMUTABLE", pilot_baseline_ok, "All four approved pilot ledger hashes match the merged baseline.")
+    current_pilot_artifacts = pilot_artifact_entries()
+    current_pilot_set_sha = pilot_artifact_set_sha256(current_pilot_artifacts)
+    check(
+        "PILOT_RAW_AND_PROVENANCE_IMMUTABLE",
+        len(current_pilot_artifacts) == 30 and current_pilot_set_sha == PILOT_ARTIFACT_SET_SHA256,
+        f"artifacts={len(current_pilot_artifacts)} aggregate_sha256={current_pilot_set_sha}",
+    )
 
     ledger = read_jsonl(RETRIEVAL_LEDGER)
     if ledger:
@@ -931,14 +1174,87 @@ def validate() -> bool:
     else:
         check("PILOT_RETRIEVAL_PENDING", True, "No retrieval ledger exists; frozen-corpus validation only.")
 
+    expansion_ledger = read_jsonl(EXPANSION_RETRIEVAL_LEDGER)
+    expansion_attempts = read_jsonl(EXPANSION_RETRY_LEDGER)
+    if expansion_ledger:
+        expansion_ledger_ids = [item.get("source_id") for item in expansion_ledger]
+        check(
+            "EXPANSION_TERMINAL_IDS",
+            sorted(expansion_ledger_ids) == sorted(expansion_ids)
+            and len(expansion_ledger_ids) == len(set(expansion_ledger_ids)),
+            f"terminal_records={len(expansion_ledger_ids)} expected={len(expansion_ids)}",
+        )
+        expansion_raw_ok = True
+        expansion_provenance_ok = True
+        expansion_fields_ok = True
+        required_expansion_fields = {
+            "source_id", "original_url", "final_url", "retrieval_tier", "capture_utc",
+            "http_status", "content_type", "byte_count", "headers", "redirect_chain",
+            "raw_sha256", "snapshot_timestamp_or_git_sha", "identity_comparison",
+            "temporal_qualifier", "retrieval_batch_id",
+        }
+        for item in expansion_ledger:
+            if not item.get("body_path"):
+                continue
+            body_path = REPO_ROOT / item["body_path"]
+            provenance_path = REPO_ROOT / item["provenance_path"]
+            if not body_path.exists() or sha256_bytes(body_path.read_bytes()) != item["body_sha256"]:
+                expansion_raw_ok = False
+            if not provenance_path.exists():
+                expansion_provenance_ok = False
+                continue
+            provenance = read_json(provenance_path)
+            if (
+                provenance.get("source_id") != item["source_id"]
+                or provenance.get("raw_body", {}).get("sha256") != item["body_sha256"]
+                or provenance.get("retrieval_batch_id") != EXPANSION_BATCH_ID
+            ):
+                expansion_provenance_ok = False
+            if not required_expansion_fields.issubset(provenance):
+                expansion_fields_ok = False
+        check("EXPANSION_RAW_BODY_CHECKSUMS", expansion_raw_ok, "Every expansion raw body matches its ledger SHA-256.")
+        check("EXPANSION_PROVENANCE_RECONCILES", expansion_provenance_ok, "Every expansion provenance record reconciles to its batch, Source ID, and body.")
+        check("EXPANSION_REQUIRED_PROVENANCE_FIELDS", expansion_fields_ok, "Every preserved expansion response has the complete provenance field set.")
+        expansion_manual = read_jsonl(EXPANSION_MANUAL_REVIEW_QUEUE)
+        check(
+            "EXPANSION_MANUAL_REVIEW_QUEUE",
+            sorted(item["source_id"] for item in expansion_manual)
+            == sorted(item["source_id"] for item in expansion_ledger if item.get("manual_review_required")),
+            "Expansion manual-review queue equals its flagged terminal records.",
+        )
+        check(
+            "EXPANSION_RETRY_SCOPE",
+            all(
+                item.get("source_id") in set(expansion_ids)
+                and item.get("retrieval_batch_id") == EXPANSION_BATCH_ID
+                for item in expansion_attempts
+            ),
+            f"attempt_records={len(expansion_attempts)}",
+        )
+    else:
+        check(
+            "EXPANSION_AUTHORIZED_PENDING_RETRIEVAL",
+            actual_expansion_selection is not None,
+            f"{EXPANSION_BATCH_ID} is selected but has no retrieval ledger yet.",
+        )
+
+    check(
+        "CROSS_BATCH_SOURCE_IDS_UNIQUE",
+        not {item.get("source_id") for item in ledger}.intersection(
+            item.get("source_id") for item in expansion_ledger
+        ),
+        f"pilot={len(ledger)} expansion={len(expansion_ledger)}",
+    )
+
     check(
         "PROTECTED_EVIDENCE_UNCHANGED",
         all(item["status"] == "PASS" for item in checks if item["check"] in {"EXTRACTION_CHECKSUMS", "SOURCE_RECORD_REFERENCES"}),
         "Frozen extraction and Source Record checksums are unchanged.",
     )
+    all_terminal_ledger = ledger + expansion_ledger
     declared_output_paths = [
         item.get(key)
-        for item in ledger
+        for item in all_terminal_ledger
         for key in ("body_path", "provenance_path")
         if item.get(key)
     ]
@@ -948,12 +1264,25 @@ def validate() -> bool:
             path.startswith("archive/raw/legacy-written-recovery/")
             if key == "body_path"
             else path.startswith("archive/provenance/legacy-written-recovery/")
-            for item in ledger
+            for item in all_terminal_ledger
             for key in ("body_path", "provenance_path")
             for path in (item.get(key),)
             if path
         ),
         "Every declared raw and provenance output remains under its approved repository layer.",
+    )
+    declared_artifact_paths = set(declared_output_paths)
+    actual_artifact_paths = {
+        relative(path)
+        for root in (RAW_ROOT, PROVENANCE_ROOT)
+        if root.exists()
+        for path in root.rglob("*")
+        if path.is_file()
+    }
+    check(
+        "NO_ORPHAN_RAW_OR_PROVENANCE",
+        actual_artifact_paths == declared_artifact_paths,
+        f"declared={len(declared_artifact_paths)} actual={len(actual_artifact_paths)}",
     )
     expected_archive_manifest = build_archive_manifest()
     actual_archive_manifest = read_json(ARCHIVE_MANIFEST) if ARCHIVE_MANIFEST.exists() else None
@@ -967,8 +1296,17 @@ def validate() -> bool:
     }
     check(
         "CONTROLLED_TERMINAL_DISPOSITIONS",
-        all(item.get("terminal_disposition") in allowed_dispositions for item in ledger),
-        "Every pilot record uses the frozen Phase 2 disposition vocabulary.",
+        all(item.get("terminal_disposition") in allowed_dispositions for item in all_terminal_ledger),
+        "Every terminal record uses the frozen Phase 2 disposition vocabulary.",
+    )
+    summary = read_json(CAMPAIGN_SUMMARY_JSON)
+    check(
+        "CAMPAIGN_SUMMARY_RECONCILES",
+        summary.get("urls_attempted") == len(all_terminal_ledger)
+        and summary.get("urls_retrieved") == sum(bool(item.get("body_path")) for item in all_terminal_ledger)
+        and summary.get("distinct_records_attempted")
+        == len({item.get("source_id") for item in all_terminal_ledger}),
+        f"terminal_records={len(all_terminal_ledger)}",
     )
     check(
         "PROTECTED_LAYERS_ABSENT_FROM_OUTPUTS",
@@ -1013,9 +1351,15 @@ def parse_args() -> argparse.Namespace:
     subcommands = parser.add_subparsers(dest="command", required=True)
     subcommands.add_parser("freeze", help="Freeze the 800-record Alpha–Delta extraction inventory.")
     retrieve_parser = subcommands.add_parser("retrieve", help="Retrieve exact public HTTP response bytes.")
-    retrieve_parser.add_argument("--pilot", action="store_true", help="Retrieve only the approved 20-record pilot.")
+    selection = retrieve_parser.add_mutually_exclusive_group(required=True)
+    selection.add_argument("--pilot", action="store_true", help="Retrieve only the approved 20-record pilot.")
+    selection.add_argument(
+        "--batch",
+        choices=[EXPANSION_BATCH_ID],
+        help="Retrieve one explicitly authorized fixed expansion batch.",
+    )
     retrieve_parser.add_argument("--retry-failures", action="store_true", help="Explicitly retry prior terminal access/failure records.")
-    subcommands.add_parser("validate", help="Validate the frozen inventory and any captured pilot artifacts.")
+    subcommands.add_parser("validate", help="Validate the frozen inventory and all captured recovery batches.")
     return parser.parse_args()
 
 
@@ -1025,9 +1369,10 @@ def main() -> int:
         if args.command == "freeze":
             freeze()
         elif args.command == "retrieve":
-            if not args.pilot:
-                raise RuntimeError("Full-corpus retrieval is not authorized. Use `retrieve --pilot`.")
-            retrieve_pilot(args.retry_failures)
+            if args.pilot:
+                retrieve_pilot(args.retry_failures)
+            elif args.batch == EXPANSION_BATCH_ID:
+                retrieve_expansion(args.retry_failures)
         elif args.command == "validate":
             return 0 if validate() else 1
     except (RuntimeError, ValueError, OSError, json.JSONDecodeError) as exc:

@@ -1,0 +1,464 @@
+{
+  "allowed_host": "aephia.com",
+  "allowed_path_prefix": "/wp-json/wp/v2/",
+  "authorization_status": "AUTHORIZED_FOR_RETRIEVAL",
+  "batch_id": "aephia-family-remaining-59",
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "deferred_scope": [
+    "campaign-bravo-intergalactic-herald",
+    "campaign-charlie-hnn",
+    "campaign-delta-official"
+  ],
+  "expected_record_count": 59,
+  "frozen_manifest_sha256": "8cc9d5fc0c080fa4b83c714a243ba7be5421e9252c3c700c3ecc775c558ccb14",
+  "pilot_artifact_entries": [
+    {
+      "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-0182787CF88DD0DA/response-body.bin",
+      "sha256": "08ebd830f3e5df44fc2ed491bc8c1f149972efe21e2d737f9889cf24cdccb9c9"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-1285F1BCA85AB55F/response-body.bin",
+      "sha256": "941570fcfc1d02e78d9ea939d1f2df2edef735e145bbbc45aa70c3095ff38360"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-19357309E964FAF8/response-body.bin",
+      "sha256": "bcee4f91142f0618456f75c0c941e03701b86f0d71736a11a89773b2d8589cf1"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-21D7FE432327A762/response-body.bin",
+      "sha256": "1b16495595dc823e28ca6bcc4f680dc4f536f3f23628bd704696e78cf8758114"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/aephia/SRC-AEPHIA-F749E3A20669A520/response-body.bin",
+      "sha256": "a8acd6768dff4bd5b1bfe250641c6f83484652862b0924154ca2f8a3e6a65a74"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-04DD15F547F461E7/response-body.bin",
+      "sha256": "0d10a9d59da7a4dc34c6fa059110f1edf52d005ec0897bbb3648d0bee053752f"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/intergalactic-herald/SRC-IH-01FCC742522C1676/response-body.bin",
+      "sha256": "868b9bc3e095ad7a9c5de3189c867f6d0839c841fde803764e8e0d3007d0546c"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/intergalactic-herald/SRC-IH-73A1B12100BA1F26/response-body.bin",
+      "sha256": "46c1bbc947b78bd9e015056b600a230df8b2d22c791b13c71fe813103c228921"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/intergalactic-herald/SRC-IH-C9AD5B9C924908F3/response-body.bin",
+      "sha256": "39e74f3117bccec71b145b4df7eb3e915d5e19982aeb7efd6101ea5ebf39b9a0"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/intergalactic-herald/SRC-IH-D1F9C624BF245EC7/response-body.bin",
+      "sha256": "9f450610b9f40a46befa90bfc39c9840a8de3d944c5800aaf522195aba2397a5"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/intergalactic-herald/SRC-IH-F4C2A6A0B64F3E98/response-body.bin",
+      "sha256": "d068510b729b5370f2ef103b23aec9372a7943773d26bbd4092653d83bd3d6c4"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-076F496F0A6CA989/response-body.bin",
+      "sha256": "6ee82109ba689dbde4e8e40ffcca95daf7e9977d9571a4f8ec8908664128df40"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-0A646AE069AFFBA5/response-body.bin",
+      "sha256": "9f86e373a3336d271b86ce35656e3438c7ec66b1f14b4814ebd0dd4cd85c6cc6"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-17012CC0302537A1/response-body.bin",
+      "sha256": "337a4dfc7bfc32ae5ca4e18707dd0855a2170ef57c12d9635fc7495b45667124"
+    },
+    {
+      "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B4F9EB92DD60A7A8/response-body.bin",
+      "sha256": "179e9c4577b6bf0ce56d0301e0c1f5776475afddb2bc7d0dcb104afc4056c83d"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-0182787CF88DD0DA.json",
+      "sha256": "da7ffa6c03a7b9bcd6f994057248d06343f2e90290a8aad3c5542a67aed81799"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-1285F1BCA85AB55F.json",
+      "sha256": "39a6708ba63d4dedb4340541d851649d075eca4ed2b1d5cae383db539f3c6eba"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-19357309E964FAF8.json",
+      "sha256": "504c43767d60b4f97cf811a572aafd8b1bed456d9d9b98787a5a58060c979c72"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-21D7FE432327A762.json",
+      "sha256": "b0046bf3ffe38cce5f88b1067d43b6b365d57f8414ee175025ba8bbaef534a23"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/aephia/SRC-AEPHIA-F749E3A20669A520.json",
+      "sha256": "351f0e757cbc5f73e7a698dcead761ddf62451235e7493c7e1056fe414dc565f"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-04DD15F547F461E7.json",
+      "sha256": "d89d982d3e822e51d6170dd9a18828882c1926ee9b64adce0134441dad24449a"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/intergalactic-herald/SRC-IH-01FCC742522C1676.json",
+      "sha256": "b49986b1a23236899160f4f3067bb39b349de1624109aed17503e556a4373e77"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/intergalactic-herald/SRC-IH-73A1B12100BA1F26.json",
+      "sha256": "320797595d597a76557b4b65b1e27a31985575b2ebbce659674e84c974c86583"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/intergalactic-herald/SRC-IH-C9AD5B9C924908F3.json",
+      "sha256": "a93a9d2d0ff79374bd308fb2e5a8f648f47fa049df1b655762bd4eef4fa7f35d"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/intergalactic-herald/SRC-IH-D1F9C624BF245EC7.json",
+      "sha256": "dc1771b7b2194d64f160f1fc35c1a41958c6415c870e0b47aab7fdfd75c3fb6b"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/intergalactic-herald/SRC-IH-F4C2A6A0B64F3E98.json",
+      "sha256": "7ca4365dfb869019d52fb7d126248794b37dc11155084d351f62fe450552a741"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-076F496F0A6CA989.json",
+      "sha256": "54bb7b8869d1c55ebb8945d13b7102caa52a49c8780b310095ce718f9325d1bd"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-0A646AE069AFFBA5.json",
+      "sha256": "6f49e907f895e17979d98aad267608dfe5cf9625b8529f25ae9f5ee4c2ba2933"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-17012CC0302537A1.json",
+      "sha256": "c8e40d495d8c57584280b11d0d290ea8bdb757947eaf2215355204364f9e3ea0"
+    },
+    {
+      "path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B4F9EB92DD60A7A8.json",
+      "sha256": "4986750be44db635f8832672a881052005763b0968aaf179cdebe0bd672ff3b0"
+    }
+  ],
+  "pilot_artifact_set_sha256": "7aa4960f755fad4525b5c826559d3f1cf5d03d343ffd571c071b4392c83e5b48",
+  "pilot_baseline_sha256": {
+    "manual-review-queue.jsonl": "6ab6335b3b921ff991c25d4b87608d0dc748dd6813a10cb8c155933ed49fab9a",
+    "pilot-selection.json": "0efbf01f965760378163a92ae501d5381999595de686b3e783870be0bef58a68",
+    "retrieval-ledger.jsonl": "768458c57ba36d18602e78996681af991788137d3708c424239d2eaeb27e7349",
+    "retry-ledger.jsonl": "2cc017c1539a27f78c26258564c2f8f222115bef963332c372a81e218394696e"
+  },
+  "pilot_source_ids_excluded": [
+    "SRC-AEPHIA-0182787CF88DD0DA",
+    "SRC-AEPHIA-1285F1BCA85AB55F",
+    "SRC-AEPHIA-19357309E964FAF8",
+    "SRC-AEPHIA-21D7FE432327A762",
+    "SRC-AEPHIA-F749E3A20669A520",
+    "SRC-HNN-03991C709B75E22E",
+    "SRC-HNN-04DD15F547F461E7",
+    "SRC-HNN-0AE69C9EB1A49845",
+    "SRC-HNN-66B32FB7A224EB14",
+    "SRC-HNN-E7FADD27A4FD57B6",
+    "SRC-IH-01FCC742522C1676",
+    "SRC-IH-73A1B12100BA1F26",
+    "SRC-IH-C9AD5B9C924908F3",
+    "SRC-IH-D1F9C624BF245EC7",
+    "SRC-IH-F4C2A6A0B64F3E98",
+    "SRC-OFF-0333A5B22A207D88",
+    "SRC-OFF-076F496F0A6CA989",
+    "SRC-OFF-0A646AE069AFFBA5",
+    "SRC-OFF-17012CC0302537A1",
+    "SRC-OFF-B4F9EB92DD60A7A8"
+  ],
+  "records": [
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-237&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-0E6B828A341EFBCC"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=town-hall-report-august-13th-2025&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-1376DD203D80515B"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=star-atlas-to-launch-sci-fi-adventure-podcast&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-153009CF223029CA"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=star-atlas-the-road-ahead&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-163F89C33E6E22D8"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-135&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-1B8D9ADE85DDA4A7"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-industries-dark-core-roasters-enjoy-a-cup-of-aephian-pulse-drive&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-1E28DBA8CF83CAD6"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-215&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-1E8C7CB37BB16846"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=looking-for-a-star-atlas-branded-pc&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-25114B0F3A003B59"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=starbased-the-missing-manual-part-2&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-26C039C7C9F3F4D3"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=scream-everything-we-know-so-far&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-28C2189BA89947A5"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=sage-escape-velocity-everything-we-know&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-29A1AF8C2ABBD4D0"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=sage-labs-a-guide&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-2DCBA456ECF46687"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=a-merry-christmas-star-atlas-writing-competition&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-301BD9698D7A4B00"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=starpath-v2-everything-you-need-to-know&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-315C24467B8185FA"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=guilds-in-star-atlas&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-36B709EAEBEC133A"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=the-new-galactic-marketplace-is-live&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-37F7C131CFDF7327"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=town-hall-report-february-27-2024&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-3D3AC774A6A30EE3"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts/13784?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-3D6BA2ECA269970E"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-160&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-40AB147755CEC24C"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-turns-one&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-472542398C7633EF"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-200&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-4DC76B91824F6FBE"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=town-hall-report-december-18-2024&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-4E975765B27B7037"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=starbased-the-missing-manual-part-0&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-4F2E5E545A009A1A"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-turns-three&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-59BCA3268E270948"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=town-hall-report-july-3-2024&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-5B4B789478303F4D"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=ai-powered-npc-goes-missing-on-star-atlas-testnet-halting-mainnet-migration-plans&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-5C2FE785F79E8486"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=crew-the-complete-guide&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-5D8E76D27A4B2F31"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=never-alone-stronger-together&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-5E02C2A5C01B8E9B"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/pages/8660?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-6243F420B4DB4B3B"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=town-hall-report-july-30th-2025&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-6F9E9DF170471192"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=introducing-atlasbase-your-new-star-atlas-companion&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-7901EECC244F24BA"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-161&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-7C3B1DCFC1E6EB81"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=sage-infrastructure-contracts&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-7D4D347AFA23986A"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=town-hall-report-december-17th-2025&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-7F056F1D6F601178"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-152&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-7F86B3D4F7F0674A"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=twelve-stories-of-peace-in-the-galia-expanse&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-819AA42574D05702"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=announcing-our-campaign-stronger-together&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-8FED5DD2B7B17801"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-212&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-9280ABA6A076E109"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=polis-staking-is-here&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-9625CEC37184A8ED"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-229&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-96934D33FE073806"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=sage-local-markets&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-9C9111E9C5A0D4E5"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=star-atlas-launches-referral-program&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-A24F426C397362EE"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=holosim-guide&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-A26222BF7C6B58DA"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-turns-four&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-A9A7DC7C1D1E800F"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=introducing-astralpass&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-AC707FB06D23E452"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-154&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-AFD2E656D0ACCDC2"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-214&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-B1EA878B04AC7051"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=z-ink-everything-you-should-know&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-BD6619ECEB5226A2"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=starbased-the-missing-manual&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-BF39BD68F68A5FB2"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=star-atlas-2024-in-review&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-C9AE050CD9C1886D"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=426love&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-D4DB7DADD2DD42EE"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=star-atlas-aephia-looking-ahead-to-2026&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-D545849AC2023AEA"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-211&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-DC4D72F8C3AD0404"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=factions-how-to-choose&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-E86AC143F77777F0"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/pages/8839?_fields=id,link,slug,date,modified,title,content,excerpt,author",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-EA6FB7128A891183"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=help-how-to-get-toolkits&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-EE24DA7F173A4110"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=aephia-x-galia-merchants-official-shirts-now-live&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-F862B4F16C6589D0"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=town-hall-report-june-4-2025&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-F99489EFB21C0054"
+    },
+    {
+      "retrieval_url": "https://aephia.com/wp-json/wp/v2/posts?slug=weekly-star-atlas-newsletter-195&_fields=id%2Clink%2Cslug%2Cdate%2Cmodified%2Ctitle%2Ccontent%2Cexcerpt%2Cauthor",
+      "retrieval_url_basis": "PRIOR_FINAL_URL",
+      "source_id": "SRC-AEPHIA-FE309044975AE57C"
+    }
+  ],
+  "schema_version": "1.0.0",
+  "selection_rule": "AEPHIA_FAMILY_AND_NOT_PILOT"
+}
