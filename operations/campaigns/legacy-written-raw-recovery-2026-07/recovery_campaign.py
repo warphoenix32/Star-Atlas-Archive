@@ -16,6 +16,7 @@ import json
 import re
 import socket
 import ssl
+import subprocess
 import sys
 import time
 import urllib.error
@@ -120,6 +121,55 @@ def sha256_bytes(value: bytes) -> str:
     return hashlib.sha256(value).hexdigest()
 
 
+_CANONICAL_BLOB_CACHE: dict[str, bytes] = {}
+
+
+def preload_canonical_repository_bytes(paths: Iterable[Path]) -> None:
+    requested = sorted({relative(path) for path in paths if path.exists()} - set(_CANONICAL_BLOB_CACHE))
+    if not requested:
+        return
+    payload = "".join(f"HEAD:{path}\n" for path in requested).encode("utf-8")
+    try:
+        output = subprocess.check_output(
+            ["git", "cat-file", "--batch"],
+            cwd=REPO_ROOT,
+            input=payload,
+            stderr=subprocess.DEVNULL,
+        )
+        offset = 0
+        for rel in requested:
+            end = output.index(b"\n", offset)
+            header = output[offset:end].decode("utf-8", errors="replace")
+            offset = end + 1
+            parts = header.rsplit(" ", 2)
+            if len(parts) != 3 or parts[1] != "blob":
+                continue
+            size = int(parts[2])
+            _CANONICAL_BLOB_CACHE[rel] = output[offset:offset + size]
+            offset += size + 1
+    except (subprocess.CalledProcessError, FileNotFoundError, ValueError):
+        return
+
+
+def canonical_repository_bytes(path: Path) -> bytes:
+    """Read the Git blob, not platform-dependent checkout line endings.
+
+    The frozen inputs predate this campaign and are protected from edits. Git's
+    blob is therefore their portable repository identity on Windows and Linux.
+    """
+    rel = relative(path)
+    if rel in _CANONICAL_BLOB_CACHE:
+        return _CANONICAL_BLOB_CACHE[rel]
+    try:
+        return subprocess.check_output(
+            ["git", "show", f"HEAD:{rel}"],
+            cwd=REPO_ROOT,
+            stderr=subprocess.DEVNULL,
+        )
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return path.read_bytes()
+
+
 def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -182,6 +232,15 @@ def choose_retrieval_url(source: dict[str, Any], retrieval: dict[str, Any]) -> t
 def extraction_records() -> list[dict[str, Any]]:
     records: list[dict[str, Any]] = []
     pilot = set(PILOT_SOURCE_IDS)
+    protected_inputs: list[Path] = []
+    for specification in CAMPAIGNS:
+        protected_inputs.extend(
+            (REPO_ROOT / "archive" / "ingestion-packages" / specification["campaign_id"] / "extractions").glob("*.json")
+        )
+        protected_inputs.extend(
+            (REPO_ROOT / "archive" / "source-records" / specification["campaign_id"]).glob("*.md")
+        )
+    preload_canonical_repository_bytes(protected_inputs)
     for specification in CAMPAIGNS:
         extraction_dir = (
             REPO_ROOT
@@ -197,7 +256,7 @@ def extraction_records() -> list[dict[str, Any]]:
                 f"expected {specification['expected_count']}"
             )
         for path in paths:
-            raw = path.read_bytes()
+            raw = canonical_repository_bytes(path)
             extraction = json.loads(raw.decode("utf-8"))
             source = extraction.get("source") or {}
             retrieval = extraction.get("retrieval") or {}
@@ -230,7 +289,7 @@ def extraction_records() -> list[dict[str, Any]]:
                         "retrieval_mode": retrieval.get("retrieval_mode"),
                     },
                     "existing_source_record_path": relative(source_record) if source_record.exists() else None,
-                    "existing_source_record_sha256": sha256_bytes(source_record.read_bytes()) if source_record.exists() else None,
+                    "existing_source_record_sha256": sha256_bytes(canonical_repository_bytes(source_record)) if source_record.exists() else None,
                     "inventory_url": source.get("inventory_url"),
                     "original_url": source.get("url"),
                     "pilot_selected": source_id in pilot,
@@ -809,7 +868,7 @@ def validate() -> bool:
         check(
             "EXTRACTION_CHECKSUMS",
             all(
-                sha256_bytes((REPO_ROOT / record["existing_extraction_path"]).read_bytes()) == record["existing_extraction_sha256"]
+                sha256_bytes(canonical_repository_bytes(REPO_ROOT / record["existing_extraction_path"])) == record["existing_extraction_sha256"]
                 for record in records
             ),
             "All frozen extraction checksums reconcile.",
@@ -820,7 +879,7 @@ def validate() -> bool:
                 not record.get("existing_source_record_path")
                 or (
                     (REPO_ROOT / record["existing_source_record_path"]).exists()
-                    and sha256_bytes((REPO_ROOT / record["existing_source_record_path"]).read_bytes())
+                    and sha256_bytes(canonical_repository_bytes(REPO_ROOT / record["existing_source_record_path"]))
                     == record.get("existing_source_record_sha256")
                 )
                 for record in records
