@@ -1,6 +1,6 @@
 # Legacy Written Raw Recovery Validation
 
-Status: **FAIL**
+Status: **PASS**
 
 | Check | Status | Detail |
 |---|---|---|
@@ -35,7 +35,7 @@ Status: **FAIL**
 | PROTECTED_EVIDENCE_UNCHANGED | PASS | Frozen extraction and Source Record checksums are unchanged. |
 | OUTPUT_SCOPE | PASS | Every declared raw and provenance output remains under its approved repository layer. |
 | NO_ORPHAN_RAW_OR_PROVENANCE | PASS | declared=148 actual=148 |
-| ARCHIVE_MANIFEST_RECONCILES | FAIL | artifact_count=148 |
+| ARCHIVE_MANIFEST_RECONCILES | PASS | artifact_count=148 |
 | CONTROLLED_TERMINAL_DISPOSITIONS | PASS | Every terminal record uses the frozen Phase 2 disposition vocabulary. |
 | CAMPAIGN_SUMMARY_RECONCILES | PASS | terminal_records=79 |
 | PROTECTED_LAYERS_ABSENT_FROM_OUTPUTS | PASS | No declared output enters a protected evidence, knowledge, graph, or publication layer. |

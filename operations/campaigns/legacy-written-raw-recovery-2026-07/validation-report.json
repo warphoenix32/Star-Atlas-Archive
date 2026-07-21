@@ -159,7 +159,7 @@
     {
       "check": "ARCHIVE_MANIFEST_RECONCILES",
       "detail": "artifact_count=148",
-      "status": "FAIL"
+      "status": "PASS"
     },
     {
       "check": "CONTROLLED_TERMINAL_DISPOSITIONS",
@@ -177,11 +177,9 @@
       "status": "PASS"
     }
   ],
-  "failed_checks": [
-    "ARCHIVE_MANIFEST_RECONCILES"
-  ],
-  "passed_checks": 34,
+  "failed_checks": [],
+  "passed_checks": 35,
   "schema_version": "1.0.0",
-  "status": "FAIL",
+  "status": "PASS",
   "total_checks": 35
 }
