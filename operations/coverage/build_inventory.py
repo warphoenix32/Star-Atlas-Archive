@@ -8,6 +8,7 @@ curator-authored because file counts cannot establish external completeness.
 from __future__ import annotations
 
 import json
+import subprocess
 from pathlib import Path
 
 
@@ -28,9 +29,27 @@ def file_count(path: str) -> int:
     return sum(1 for item in root.rglob("*") if item.is_file()) if root.exists() else 0
 
 
-def byte_count(path: str) -> int:
-    root = ROOT / path
-    return sum(item.stat().st_size for item in root.rglob("*") if item.is_file()) if root.exists() else 0
+def tree_stats(path: str) -> tuple[int, int]:
+    """Return tracked file count and Git-blob bytes at the audited baseline.
+
+    Working-tree byte sizes vary with Git line-ending conversion.  Git tree
+    objects are the repository's platform-independent stored representation.
+    """
+    result = subprocess.run(
+        ["git", "ls-tree", "-r", "-l", BASELINE_SHA, "--", path],
+        cwd=ROOT,
+        check=True,
+        capture_output=True,
+        text=True,
+        encoding="utf-8",
+    )
+    sizes = []
+    for line in result.stdout.splitlines():
+        metadata, _separator, _name = line.partition("\t")
+        fields = metadata.split()
+        if len(fields) >= 4 and fields[1] == "blob":
+            sizes.append(int(fields[3]))
+    return len(sizes), sum(sizes)
 
 
 def coverage_record(
@@ -290,21 +309,21 @@ def main() -> None:
     HERE.mkdir(parents=True, exist_ok=True)
     PROGRAM.mkdir(parents=True, exist_ok=True)
     archive_parts = ["campaign-summaries", "ingestion-packages", "manifests", "normalized", "proposed", "provenance", "raw", "reconciliation", "semantic", "source-records"]
-    # Domain totals are intentionally pinned to the audited base commit.  If
-    # calculated from the working tree they would include this report and make
-    # the report's own byte count recursively unstable.
-    domains = [
-        {"path": "archive", "files": 8291, "bytes": 271719386},
-        {"path": "knowledge", "files": 81, "bytes": 862734},
-        {"path": "graph", "files": 5, "bytes": 2865},
-        {"path": "operations", "files": 684, "bytes": 22642338},
-        {"path": "publication", "files": 20, "bytes": 349442},
-    ]
+    # Domain totals use the audited Git tree rather than platform-sensitive
+    # working-tree sizes. They therefore remain fixed across Windows and Linux.
+    domains = []
+    for path in ("archive", "knowledge", "graph", "operations", "publication"):
+        files, size = tree_stats(path)
+        domains.append({"path": path, "files": files, "bytes": size})
     holdings = {
         "baseline_sha": BASELINE_SHA,
         "as_of": AS_OF,
         "domains": domains,
-        "archive_areas": [{"path": f"archive/{name}", "files": file_count(f"archive/{name}"), "bytes": byte_count(f"archive/{name}")} for name in archive_parts],
+        "archive_areas": [
+            {"path": f"archive/{name}", "files": stats[0], "bytes": stats[1]}
+            for name in archive_parts
+            for stats in [tree_stats(f"archive/{name}")]
+        ],
         "normalized_url_inventory": {"records": 3232, "pending": 902, "deferred": 2330, "status": "STALE_REQUIRES_RECONCILIATION", "path": "archive/normalized/manifests/normalized-urls.jsonl"},
         "open_pull_requests": 0,
         "remote_branches_merged_into_main": 42,

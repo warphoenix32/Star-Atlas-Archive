@@ -6,26 +6,26 @@ Snapshot: `9dc39e47393d707f60d792227cf9f150a1031b28` on 2026-07-20.
 
 | Path | Files | Bytes |
 | --- | --- | --- |
-| archive | 8291 | 271719386 |
-| knowledge | 81 | 862734 |
-| graph | 5 | 2865 |
-| operations | 684 | 22642338 |
-| publication | 20 | 349442 |
+| archive | 8291 | 267075970 |
+| knowledge | 81 | 850333 |
+| graph | 5 | 2817 |
+| operations | 684 | 22523265 |
+| publication | 20 | 344682 |
 
 ## Archive areas
 
 | Path | Files | Bytes |
 | --- | --- | --- |
-| archive/campaign-summaries | 12 | 556766 |
-| archive/ingestion-packages | 980 | 63849453 |
-| archive/manifests | 7 | 667046 |
-| archive/normalized | 1965 | 53353249 |
-| archive/proposed | 4 | 26916 |
-| archive/provenance | 7 | 9016 |
-| archive/raw | 606 | 85668880 |
-| archive/reconciliation | 963 | 575249 |
-| archive/semantic | 69 | 52461585 |
-| archive/source-records | 3677 | 14549962 |
+| archive/campaign-summaries | 12 | 545309 |
+| archive/ingestion-packages | 980 | 62269857 |
+| archive/manifests | 7 | 652500 |
+| archive/normalized | 1965 | 52456184 |
+| archive/proposed | 4 | 25678 |
+| archive/provenance | 7 | 8820 |
+| archive/raw | 606 | 84930144 |
+| archive/reconciliation | 963 | 560693 |
+| archive/semantic | 69 | 51249454 |
+| archive/source-records | 3677 | 14376084 |
 
 ## Structural findings
 

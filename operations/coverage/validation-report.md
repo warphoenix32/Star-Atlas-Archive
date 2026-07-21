@@ -11,7 +11,7 @@
 - **PASS — coverage_gaps_reconcile:** []
 - **PASS — campaign_registry:** 19
 - **PASS — campaign_status_evidence_resolves:** []
-- **PASS — archive_holdings_reconcile:** {'path': 'archive', 'files': 8291, 'bytes': 271719386}
+- **PASS — archive_holdings_reconcile:** {'path': 'archive', 'files': 8291, 'bytes': 267075970}
 - **PASS — normalized_inventory_boundary:** {'records': 3232, 'pending': 902, 'deferred': 2330, 'status': 'STALE_REQUIRES_RECONCILIATION', 'path': 'archive/normalized/manifests/normalized-urls.jsonl'}
 - **PASS — no_unconditional_repository_deletions:** []
 - **PASS — seven_phase_roadmap:** [1, 2, 3, 4, 5, 6, 7]
