@@ -5,6 +5,8 @@ seo_description: "Prioritized missing evidence for Star Atlas governance, produc
 knowledge_status: QUALIFIED
 as_of: 2026-07-20
 confidence: HIGH
+page_risk_score: 5
+page_risk_class: R2
 evidence_basis:
   - "operations/campaigns/canonical-pip-governance-ledger-2026-07/governance-research-backlog.md"
   - "operations/campaigns/discord-community-indexing-001/discord-channel-gap-report.json"

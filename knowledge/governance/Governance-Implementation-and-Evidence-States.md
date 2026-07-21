@@ -80,3 +80,7 @@ When sources conflict, the preferred response is not silent correction. The ledg
 ## Applying the model
 
 Use the [PIP Lifecycle](PIP-Lifecycle-and-Legislative-Process.md) to understand the decision process, the [PIP Registry](PIP-Registry.md) for proposal-level states, the [Treasury Authorization and Payment Ledger](../economy/Treasury-Authorization-and-Payment-Ledger.md) for funding claims, and the [Failure and Termination Casebook](Governance-Failure-and-Termination-Casebook.md) for proposals whose later lifecycle diverged from their vote result.
+
+## Review status
+
+This R1 evidence-state method is ready for canonical publication. It governs interpretation across the reviewed governance corpus and requires later evidence to extend—rather than silently overwrite—the state reached by earlier records.

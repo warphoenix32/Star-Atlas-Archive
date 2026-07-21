@@ -5,6 +5,8 @@ seo_description: "Explore the institutions, products, economy, lore, people, eve
 knowledge_status: CANONICAL
 as_of: 2026-07-20
 confidence: HIGH
+page_risk_score: 2
+page_risk_class: R1
 evidence_basis:
   - "knowledge/Entity-Relationship-Map.md"
   - "knowledge/index/source-registry/Public-Source-Registry.md"

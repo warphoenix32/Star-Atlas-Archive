@@ -256,7 +256,7 @@ The ballot-level on-chain export reconciles 220 effective ballots—141 YES, 59 
 | P2 | GOV-RESEARCH-005: Can historical portal state transitions be recovered? | PIP-1, PIP-2, PIP-3, PIP-4, PIP-5, PIP-6, PIP-7, PIP-8, PIP-9, PIP-10, PIP-11, PIP-12, PIP-13, PIP-14, PIP-15, PIP-16, PIP-17, PIP-18, PIP-19, PIP-20, PIP-21, PIP-22, PIP-23, PIP-24, PIP-25, PIP-26, PIP-27, PIP-28, PIP-29, PIP-30, PIP-31, PIP-32, PIP-33 | Timestamped proposal-state snapshots, Portal event log, Official lifecycle export | Do not infer state-transition dates solely from vote windows. |
 | P1 | GOV-RESEARCH-006: Which PIP-33 figures control the authorized and conditional tranche payments? | PIP-33 | Author or Foundation arithmetic correction, Executed payment instruction, Second-tranche reserve assessment | Do not silently choose a corrected cent value or infer that either tranche was paid. |
 
-## Evidence and review status
+## Review status
 
 - [Machine ledger](PIP-Registry.json)
 - [Official portal semantic registry](../../archive/semantic/governance/pip-registry-semantic.json)

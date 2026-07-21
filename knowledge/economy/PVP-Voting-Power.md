@@ -99,3 +99,7 @@ The 2022 announcement's approximate 65% near-term target is an attributed ATMTA 
 ## Current state
 
 As of 2026-07-20, the repository supports amount-and-duration weighting, lock-period restrictions, linear decay in official technical documentation, and use of PVP in governance. PIP-33 adds a mechanism-aware completed-vote case, while the exact live formula, deployed program version, historical parameter changes, and complete voter-identity history remain open for code and on-chain reconciliation.
+
+## Review status
+
+This R2 page is ready for publication with its current qualifications. The repository's completed-binary YES-versus-NO rule remains explicitly identified as an owner-approved curator interpretation—not text asserted to appear in PIP-1—and election mechanisms remain separate.

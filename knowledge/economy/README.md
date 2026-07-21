@@ -71,3 +71,7 @@ Economic authority is intertwined with governance. The [Governance and Economy O
 As of 2026-07-20, the repository supports a strong documentary history but not a complete economic audit. The highest-value missing artifacts are token mint and distribution records, emissions and burn transactions, dated treasury balances, proposal-linked payment signatures, recipient and signer evidence, report PDFs and appendices, and versioned definitions for recurring economic metrics.
 
 Until those artifacts are reconciled, the knowledge base preserves official quantities as dated claims and avoids presenting them as independently verified current facts.
+
+## Review status
+
+This economy index is ready for publication as a qualified guide. Its linked histories preserve the distinction among reported measurements, authorization, payment, transaction verification, and independently assessed outcomes.

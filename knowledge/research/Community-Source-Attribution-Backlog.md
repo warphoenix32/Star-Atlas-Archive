@@ -5,6 +5,8 @@ seo_description: "Open authorship, publication, mirror, lineage, and source-iden
 knowledge_status: QUALIFIED
 as_of: 2026-07-20
 confidence: MEDIUM
+page_risk_score: 5
+page_risk_class: R2
 evidence_basis:
   - "archive/manifests/source-registry.json"
   - "archive/campaign-summaries/"

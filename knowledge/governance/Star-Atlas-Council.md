@@ -62,3 +62,7 @@ This distinction does not dismiss Council evidence. It tells the reader precisel
 As of 2026-07-20, the archive supports the Council's establishment, first-election structure, process-steward role, and existence of delegated program administration. It does not yet support a complete current membership roster or an independently verified operational history for every program in the tracker.
 
 The highest-value missing artifacts are final later-election results, appointment and replacement notices, term dates, Council resolutions, milestone submissions, payment approvals, transaction signatures, and independent outcome evidence. Until those are acquired, unresolved membership and implementation questions remain visible rather than inferred.
+
+## Review status
+
+This R2 institutional page is ready for publication as a qualified account. Council tracker evidence remains a Council-authored operational assessment with independent verification status unknown unless a separate artifact establishes more.

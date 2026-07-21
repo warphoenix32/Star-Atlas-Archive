@@ -5,6 +5,8 @@ seo_description: "Explore evidence-qualified Star Atlas lore, including the Gali
 knowledge_status: CANONICAL
 as_of: 2026-07-20
 confidence: HIGH
+page_risk_score: 2
+page_risk_class: R1
 evidence_basis:
   - "archive/normalized/lore/taxonomy.json"
   - "knowledge/lore/Canon-Registry.md"

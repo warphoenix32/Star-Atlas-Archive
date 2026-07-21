@@ -5,6 +5,8 @@ seo_description: "The evidence and editorial standards used to document Star Atl
 knowledge_status: CANONICAL
 as_of: 2026-07-20
 confidence: HIGH
+page_risk_score: 2
+page_risk_class: R1
 evidence_basis:
   - "operations/campaigns/discord-community-indexing-001/README.md"
   - "operations/agents/RISK-AND-REVIEW-AGENT-CONTRACT.md"

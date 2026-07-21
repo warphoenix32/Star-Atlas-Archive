@@ -113,3 +113,7 @@ The tracker also records `ecosystem_fund: NO`, category `DAO Treasury`, an amoun
 - verify the second-tranche reserve calculation and whether the condition reduced or deferred payment;
 - audit the cited tax return, Walkers invoices, Leeward invoice, and prior reimbursement markings;
 - document Council verification and conflict-management steps separately from the beneficiary's assertions.
+
+## Review status
+
+This R3 page remains `PROVISIONAL` pending transaction, reserve-condition, recipient, and documentary evidence. It is ready for publication only with the two approximately equal tranches, 75% USDC / 25% ATLAS composition per tranche, conditional second tranche, preserved one-cent discrepancies, and unverified payment state kept explicit.

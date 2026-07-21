@@ -5,6 +5,8 @@ seo_description: "A prioritized guide to missing Star Atlas evidence, unresolved
 knowledge_status: CANONICAL
 as_of: 2026-07-20
 confidence: HIGH
+page_risk_score: 2
+page_risk_class: R1
 evidence_basis:
   - "knowledge/research/Research-Backlog.md"
   - "knowledge/research/Community-Source-Attribution-Backlog.md"

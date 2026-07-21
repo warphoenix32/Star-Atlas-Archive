@@ -136,3 +136,7 @@ As of 2026-07-17, the archive supports the institutional and program architectur
 ## Research path
 
 A transaction-level treasury history will require dated account ownership, current and historical signer sets, program upgrade authorities, proposal-linked transaction signatures, token mints and decimals, source and destination accounts, conversion rules, and recipient evidence. Where funding is milestone-based, payment verification must remain separate from deliverable acceptance and independent assessment of the result.
+
+## Review status
+
+This R2 architecture page is ready for publication as a qualified institutional model. The named DAO Treasury account remains distinct from the wider treasury architecture, and no Council-reported or authorized amount is presented as an on-chain verified payment.

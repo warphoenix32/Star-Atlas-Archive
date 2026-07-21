@@ -63,3 +63,7 @@ PIP-33 passed as a direct treasury authorization. Its two scheduled tranches rem
 ## Reading the registry
 
 The [PIP Registry](PIP-Registry.md) preserves proposal number, title, author, category, publication and vote dates, mechanism, result, supersession, authorization, implementation, payment state, reconciliation status, and open research questions. The [Governance Evidence States](Governance-Implementation-and-Evidence-States.md) defines how those fields should be interpreted, while the [Failure and Termination Casebook](Governance-Failure-and-Termination-Casebook.md) follows proposals that ended at different stages.
+
+## Review status
+
+This R1 process model is ready for canonical publication. Binary proposals, election rounds, policy supersession, funding authorizations, later termination, and implementation evidence retain mechanism-specific states.

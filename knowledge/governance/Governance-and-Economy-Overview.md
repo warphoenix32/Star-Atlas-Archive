@@ -80,3 +80,7 @@ Priority gaps are a transaction-level treasury ledger, versioned program and sig
 - [DAO Treasury Architecture](../economy/DAO-Treasury-Architecture.md)
 - [PVP Voting Power](../economy/PVP-Voting-Power.md)
 - [Economy index](../economy/README.md)
+
+## Review status
+
+This R2 overview is ready for publication as a qualified synthesis. It describes the institutional design supported by the captured evidence without treating Council reports as transaction receipts or approved economic actions as completed outcomes.

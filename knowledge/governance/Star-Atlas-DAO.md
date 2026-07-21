@@ -62,3 +62,7 @@ Some PIPs authorize economic action. The [Ecosystem Fund](Ecosystem-Fund.md) is 
 As of 2026-07-20, the archive supports the DAO's institutional identity, its PVP-weighted voting model, and a captured PIP-1 through PIP-33 corpus. It does not establish that the corpus represents every informal governance discussion, that every portal state remained current, or that every approved action was executed.
 
 For proposal-level history, results, and open conflicts, continue to the [PIP Registry](PIP-Registry.md), [PIP Lifecycle](PIP-Lifecycle-and-Legislative-Process.md), and [Governance Evidence States](Governance-Implementation-and-Evidence-States.md).
+
+## Review status
+
+This R1 institutional page is ready for canonical publication within its as-of boundary. It establishes the DAO's reviewed voting and authorization role without assigning Foundation, Council, treasury-account, or execution functions to the electorate.

@@ -56,3 +56,7 @@ Governance determines whether particular economic actions are authorized, but au
 Every current-state statement carries an `as_of` date. Council tracker statements are attributed to the Council, and their independent verification status remains unknown unless a separate primary artifact is linked. Missing evidence means the archive has not yet identified the needed artifact; it does not prove that an event never happened.
 
 Internal classifications, confidence codes, and risk labels are condensed into page metadata so the public narrative remains readable. Researchers who need the full audit trail can follow each linked Source Record, semantic registry, campaign ledger, and research gap.
+
+## Review status
+
+This governance index is ready for canonical publication. R3 proposal and treasury case studies retain their own provisional or qualified review states and must not inherit the index's R1 status.

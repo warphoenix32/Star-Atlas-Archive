@@ -103,3 +103,7 @@ For each report:
 - [POLIS Token History](POLIS-Token-History.md)
 - [Treasury Authorization and Reported Payment Ledger](Treasury-Authorization-and-Payment-Ledger.md)
 - [Governance and Economy Overview](../governance/Governance-and-Economy-Overview.md)
+
+## Review status
+
+This R2 catalog is ready for publication as a qualified inventory of preserved reports. It does not claim that every economic report has been discovered or that similarly named metrics form a continuous series until their definitions and observation periods are reconciled.
