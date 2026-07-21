@@ -1,0 +1,120 @@
+{
+  "program_id": "star-atlas-library-roadmap-phase-1",
+  "as_of": "2026-07-20",
+  "baseline_sha": "9dc39e47393d707f60d792227cf9f150a1031b28",
+  "result": "PASS",
+  "checks": [
+    {
+      "name": "deterministic_generation",
+      "passed": true,
+      "detail": {
+        "expected": 17,
+        "generated": 17
+      }
+    },
+    {
+      "name": "json_parses",
+      "passed": true,
+      "detail": {
+        "files": 10,
+        "errors": []
+      }
+    },
+    {
+      "name": "coverage_records",
+      "passed": true,
+      "detail": 15
+    },
+    {
+      "name": "coverage_evidence_paths_resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "coverage_gaps_reconcile",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "campaign_registry",
+      "passed": true,
+      "detail": 19
+    },
+    {
+      "name": "campaign_status_evidence_resolves",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "archive_holdings_reconcile",
+      "passed": true,
+      "detail": {
+        "path": "archive",
+        "files": 8291,
+        "bytes": 271719386
+      }
+    },
+    {
+      "name": "normalized_inventory_boundary",
+      "passed": true,
+      "detail": {
+        "records": 3232,
+        "pending": 902,
+        "deferred": 2330,
+        "status": "STALE_REQUIRES_RECONCILIATION",
+        "path": "archive/normalized/manifests/normalized-urls.jsonl"
+      }
+    },
+    {
+      "name": "no_unconditional_repository_deletions",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "seven_phase_roadmap",
+      "passed": true,
+      "detail": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "phase_one_active",
+      "passed": true,
+      "detail": {
+        "phase": 1,
+        "name": "Repository and evidence baseline",
+        "status": "READY_FOR_REVIEW",
+        "percent_complete": 85,
+        "remaining_gate_items": [
+          "Reconcile stale normalized URL dispositions",
+          "Classify the unique economic-report branch",
+          "Schedule recovery campaigns for missing raw captures"
+        ]
+      }
+    },
+    {
+      "name": "library_index_fixed_point",
+      "passed": true,
+      "detail": "PASS search index fixed point: 80 records"
+    },
+    {
+      "name": "social_campaign_status_reconciled",
+      "passed": true,
+      "detail": {
+        "summary": "PASS",
+        "validation": "PASS"
+      }
+    }
+  ],
+  "limitations": [
+    "The register is a repository snapshot, not proof of external corpus completeness.",
+    "Freshness adapters are policy-defined but not implemented.",
+    "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."
+  ]
+}

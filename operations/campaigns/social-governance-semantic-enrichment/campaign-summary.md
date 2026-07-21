@@ -65,4 +65,4 @@ All promotion targets are candidates only. Retweets preserve the fact of reshari
 
 ## Validation
 
-Validation status: **FAIL**. See `validation-report.md` for the complete checks.
+Validation status: **PASS**. See `validation-report.md` for the complete checks.

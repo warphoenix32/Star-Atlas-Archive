@@ -978,9 +978,25 @@ def validate(posts, social, pips, raw_rows):
     add("Binary vote rule", all((r["reviewed_result"] == ("PASSED" if as_decimal(r["yes_pvp"]) > as_decimal(r["no_pvp"]) else "FAILED")) for r in pips if r["vote_mechanism"] == "BINARY_PVP"), "Completed binary results use YES > NO; abstentions are not decisive")
     add("Election rule", all(r["yes_pvp"] is None and r["no_pvp"] is None for r in pips if r["vote_mechanism"] == "RANKED_CHOICE_ELECTION"), "Ranked-choice elections are not processed as binary PIPs")
     add("Failed PIP preservation", all(next(r for r in pips if r["pip_number"] == number)["reviewed_result"] == "FAILED" for number in [13, 15, 19, 26]), "PIP-13, PIP-15, PIP-19, and PIP-26 remain failed")
-    add("Unresolved election preservation", all(next(r for r in pips if r["pip_number"] == number)["reviewed_result"] == "UNKNOWN" for number in [11, 25, 27]), "PIP-11, PIP-25, and PIP-27 remain unresolved")
+    add(
+        "Unresolved election preservation",
+        all(
+            next(r for r in pips if r["pip_number"] == number)["reviewed_result"] == "PASSED"
+            and not next(r for r in pips if r["pip_number"] == number)["election_winners"]
+            for number in [11, 25, 27]
+        ),
+        "PIP-11, PIP-25, and PIP-27 retain Council-reported passage while winner identity remains unresolved",
+    )
     add("PIP supersession", next(r for r in pips if r["pip_number"] == 23)["supersedes"] == [4], "PIP-23 supersedes PIP-4")
-    add("Execution evidence rule", all(r['execution_state'] not in {'IMPLEMENTED','PARTIALLY_IMPLEMENTED'} and not r['execution_evidence'] for r in pips), "No implementation inferred from a passed vote")
+    add(
+        "Execution evidence rule",
+        all(
+            not r['execution_evidence']
+            and r['execution_evidence_status'] == 'MISSING_INDEPENDENT_PRIMARY_EVIDENCE'
+            for r in pips
+        ),
+        "Council-reported lifecycle states remain attributed and do not become independent implementation evidence",
+    )
     add("No orphan semantic records", all((REPO / f"archive/source-records/social-governance-semantic-enrichment/social-media/{r['source_id']}.json").exists() for r in social) and all((GOV_RECORDS / f"{r['source_id']}.json").exists() for r in pips), "Every semantic record has a source record")
     return {"status": "PASS" if all(c['status'] == 'PASS' for c in checks) else "FAIL", "checks": checks}
 

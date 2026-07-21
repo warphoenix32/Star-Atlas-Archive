@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-07-20",
+  "phases": [
+    {
+      "phase": 1,
+      "name": "Repository and evidence baseline",
+      "status": "READY_FOR_REVIEW",
+      "percent_complete": 85,
+      "remaining_gate_items": [
+        "Reconcile stale normalized URL dispositions",
+        "Classify the unique economic-report branch",
+        "Schedule recovery campaigns for missing raw captures"
+      ]
+    },
+    {
+      "phase": 2,
+      "name": "Priority ingestion",
+      "status": "NOT_STARTED",
+      "percent_complete": 0,
+      "remaining_gate_items": [
+        "Approve bounded campaigns from the acquisition backlog"
+      ]
+    },
+    {
+      "phase": 3,
+      "name": "Targeted architecture refinement",
+      "status": "NOT_STARTED",
+      "percent_complete": 0,
+      "remaining_gate_items": [
+        "Complete Phase 1 gate",
+        "Define publication manifest without rewriting evidence"
+      ]
+    },
+    {
+      "phase": 4,
+      "name": "Knowledge consolidation",
+      "status": "NOT_STARTED",
+      "percent_complete": 0,
+      "remaining_gate_items": [
+        "Complete priority evidence packets",
+        "Select historically valuable dossiers"
+      ]
+    },
+    {
+      "phase": 5,
+      "name": "Publication layer",
+      "status": "NOT_STARTED",
+      "percent_complete": 0,
+      "remaining_gate_items": [
+        "Stable publication contract",
+        "Initial ten-article portfolio"
+      ]
+    },
+    {
+      "phase": 6,
+      "name": "Vercel implementation",
+      "status": "NOT_STARTED",
+      "percent_complete": 0,
+      "remaining_gate_items": [
+        "Publication layer approved",
+        "Read-only Vercel connection test"
+      ]
+    },
+    {
+      "phase": 7,
+      "name": "Preview, validation, and deployment",
+      "status": "NOT_STARTED",
+      "percent_complete": 0,
+      "remaining_gate_items": [
+        "Cross-repository preview",
+        "Launch acceptance"
+      ]
+    }
+  ]
+}

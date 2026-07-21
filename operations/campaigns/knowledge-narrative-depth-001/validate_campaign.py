@@ -175,11 +175,14 @@ def main() -> int:
     record("material_claims", not claim_errors, "all packets contain source-linked material claims" if not claim_errors else "; ".join(claim_errors))
     record("evidence_references", not source_errors, "all packet source paths resolve" if not source_errors else "; ".join(source_errors))
 
-    knowledge_changed = [p for p in changed_paths() if p.startswith("knowledge/") and p.endswith(".md")]
-    for rel in knowledge_changed:
+    # Validate the declared portfolio, not the branch-relative diff.  The
+    # campaign report is a durable closeout artifact and must regenerate to the
+    # same bytes after its PR has merged, when the diff against main is empty.
+    knowledge_reviewed = sorted({item["path"] for item in outputs})
+    for rel in knowledge_reviewed:
         link_failures.extend(link_errors(ROOT / rel))
     link_failures = sorted(set(link_failures))
-    record("internal_links", not link_failures, f"{len(knowledge_changed)} changed knowledge files checked" if not link_failures else "; ".join(link_failures))
+    record("internal_links", not link_failures, f"{len(knowledge_reviewed)} portfolio knowledge files checked" if not link_failures else "; ".join(link_failures))
 
     low_risk = risk_counts["R1"] + risk_counts["R2"]
     low_risk_share = low_risk / len(outputs) if outputs else 0
@@ -187,10 +190,16 @@ def main() -> int:
     risk_ok = low_risk_share >= 0.70 and r3_share <= 0.30 and risk_counts["R4"] == 0 and risk_counts["R5"] == 0
     record("risk_portfolio", risk_ok, f"R1/R2={low_risk}/{len(outputs)} ({low_risk_share:.1%}); R3={risk_counts['R3']} ({r3_share:.1%}); R4/R5=0")
 
-    changed = changed_paths()
+    # The durable closeout report validates the declared campaign portfolio.
+    # Runtime PR scope is enforced separately by operations/ci/validate_repository.py.
+    # Using the current branch diff here made this generated report change after
+    # merge and whenever an unrelated later campaign ran the validator.
+    declared_paths = knowledge_reviewed + [
+        path.relative_to(ROOT).as_posix() for path in HERE.rglob("*") if path.is_file()
+    ]
     manifest_only_exceptions = {"archive/manifests/lore-repository-ingestion-2026-07.json"}
     forbidden = [
-        p for p in changed
+        p for p in declared_paths
         if p.startswith(("archive/", "graph/", "publication/")) and p not in manifest_only_exceptions
     ]
     record(
@@ -264,7 +273,9 @@ def main() -> int:
         "output_count": len(outputs),
         "risk_distribution": dict(sorted(risk_counts.items())),
         "knowledge_status_distribution": dict(sorted(status_counts.items())),
-        "changed_paths": changed,
+        # Kept under the legacy key for consumers, but intentionally records
+        # the stable reviewed portfolio rather than the transient PR diff.
+        "changed_paths": knowledge_reviewed,
         "errors": errors,
         "warnings": warnings,
     }

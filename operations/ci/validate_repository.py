@@ -176,6 +176,10 @@ def validate_simplified_promotion_reports() -> int:
 
 
 def validate_forbidden_paths(changes: list[str]) -> str:
+    phase_one_inventory = any(path.startswith((
+        "operations/coverage/",
+        "operations/programs/library-roadmap/",
+    )) for path in changes)
     knowledge_campaign_marker = any(
         path.startswith("operations/campaigns/knowledge-narrative-depth-001/") for path in changes
     )
@@ -243,10 +247,24 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = sum((ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = 1 if phase_one_inventory else sum((ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
-    if ledger_campaign:
+    if phase_one_inventory:
+        allowed = common + (
+            "operations/README.md",
+            "operations/coverage/",
+            "operations/programs/library-roadmap/",
+            "operations/campaigns/knowledge-narrative-depth-001/validate_campaign.py",
+            "operations/campaigns/knowledge-narrative-depth-001/validation-report.json",
+            "operations/campaigns/knowledge-narrative-depth-001/validation-report.md",
+            "operations/campaigns/social-governance-semantic-enrichment/build_campaign.py",
+            "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json",
+            "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.md",
+            "publication/site/assets/library-index.json",
+        )
+        label = "phase-one-repository-baseline"
+    elif ledger_campaign:
         allowed = common + (
             "knowledge/governance/PIP-Registry.md",
             "knowledge/governance/PIP-Registry.json",
@@ -619,6 +637,28 @@ def validate_promotion_framework() -> None:
         raise ValidationFailure("simplified promotion example is invalid:\n" + "\n".join(failures))
 
 
+def validate_phase_one_inventory() -> None:
+    coverage = ROOT / "operations/coverage"
+    program = ROOT / "operations/programs/library-roadmap"
+    command = [sys.executable, str(coverage / "validate_inventory.py")]
+    exclusions = {"build_inventory.py", "validate_inventory.py", "README.md"}
+    first = run_cycle(command, coverage, exclusions)
+    first.update({f"program/{key}": value for key, value in sha_tree(program, set()).items()})
+    second = run_cycle(command, coverage, exclusions)
+    second.update({f"program/{key}": value for key, value in sha_tree(program, set()).items()})
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("Phase 1 inventory output is not deterministic: " + ", ".join(differing))
+    diff = run(
+        "git", "diff", "--exit-code", "--",
+        str(coverage.relative_to(ROOT)),
+        str(program.relative_to(ROOT)),
+        "publication/site/assets/library-index.json",
+    )
+    if diff.returncode:
+        raise ValidationFailure("Phase 1 generated artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
 def repository_mode(base_ref: str) -> None:
     documents, records = parse_json_corpus()
     schemas = validate_declared_schemas()
@@ -636,7 +676,9 @@ def repository_mode(base_ref: str) -> None:
 def campaign_mode(base_ref: str) -> None:
     changes = changed_paths(base_ref)
     contract = validate_forbidden_paths(changes)
-    if contract == "knowledge-narrative-depth-001":
+    if contract == "phase-one-repository-baseline":
+        validate_phase_one_inventory()
+    elif contract == "knowledge-narrative-depth-001":
         validate_knowledge_campaign()
     elif contract == "star-atlas-medium-ingestion-2026-07":
         validate_medium_campaign()

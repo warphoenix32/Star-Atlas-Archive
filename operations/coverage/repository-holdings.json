@@ -1,0 +1,98 @@
+{
+  "baseline_sha": "9dc39e47393d707f60d792227cf9f150a1031b28",
+  "as_of": "2026-07-20",
+  "domains": [
+    {
+      "path": "archive",
+      "files": 8291,
+      "bytes": 271719386
+    },
+    {
+      "path": "knowledge",
+      "files": 81,
+      "bytes": 862734
+    },
+    {
+      "path": "graph",
+      "files": 5,
+      "bytes": 2865
+    },
+    {
+      "path": "operations",
+      "files": 684,
+      "bytes": 22642338
+    },
+    {
+      "path": "publication",
+      "files": 20,
+      "bytes": 349442
+    }
+  ],
+  "archive_areas": [
+    {
+      "path": "archive/campaign-summaries",
+      "files": 12,
+      "bytes": 556766
+    },
+    {
+      "path": "archive/ingestion-packages",
+      "files": 980,
+      "bytes": 63849453
+    },
+    {
+      "path": "archive/manifests",
+      "files": 7,
+      "bytes": 667048
+    },
+    {
+      "path": "archive/normalized",
+      "files": 1965,
+      "bytes": 53353249
+    },
+    {
+      "path": "archive/proposed",
+      "files": 4,
+      "bytes": 26916
+    },
+    {
+      "path": "archive/provenance",
+      "files": 7,
+      "bytes": 9016
+    },
+    {
+      "path": "archive/raw",
+      "files": 606,
+      "bytes": 85668880
+    },
+    {
+      "path": "archive/reconciliation",
+      "files": 963,
+      "bytes": 575249
+    },
+    {
+      "path": "archive/semantic",
+      "files": 69,
+      "bytes": 52461585
+    },
+    {
+      "path": "archive/source-records",
+      "files": 3677,
+      "bytes": 14549962
+    }
+  ],
+  "normalized_url_inventory": {
+    "records": 3232,
+    "pending": 902,
+    "deferred": 2330,
+    "status": "STALE_REQUIRES_RECONCILIATION",
+    "path": "archive/normalized/manifests/normalized-urls.jsonl"
+  },
+  "open_pull_requests": 0,
+  "remote_branches_merged_into_main": 42,
+  "remote_branches_not_ancestors_of_main": [
+    "ingestion/discord-announcements-council-tracker",
+    "ingestion/economic-reports-2022q2-2026q2",
+    "knowledge/wave-2a-foundation-pages",
+    "planning/knowledge-generation-wave-2"
+  ]
+}

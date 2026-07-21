@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-07-20",
+  "mode": "READ_ONLY_DISCOVERY_ONLY",
+  "classes": {
+    "HIGH_FREQUENCY": {
+      "cadence_days": 7,
+      "sources": [
+        "official newsroom",
+        "support",
+        "governance",
+        "Discord",
+        "X"
+      ]
+    },
+    "MEDIUM_FREQUENCY": {
+      "cadence_days": 30,
+      "sources": [
+        "Medium",
+        "official GitHub documentation",
+        "release notes",
+        "roadmaps",
+        "economic reports",
+        "Town Halls",
+        "Atlas Brew"
+      ]
+    },
+    "LOW_FREQUENCY": {
+      "cadence_days": 90,
+      "sources": [
+        "historical community publications",
+        "archived sites",
+        "lore snapshots",
+        "completed events"
+      ]
+    }
+  },
+  "rules": [
+    "A check may create or refresh a queue item only.",
+    "No automatic ingestion, evidence mutation, knowledge promotion, or merge.",
+    "Adapter failure is CHECK_FAILED, never no new material."
+  ],
+  "implementation_status": "POLICY_DEFINED_ADAPTERS_NOT_IMPLEMENTED"
+}

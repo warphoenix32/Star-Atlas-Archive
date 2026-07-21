@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-07-20",
+  "campaigns": [
+    {
+      "campaign_id": "atlas-brew-combined",
+      "status": "READY_FOR_REVIEW",
+      "status_evidence": "operations/campaigns/atlas-brew-combined/campaign-summary.json",
+      "note": "Promoted evidence exists; campaign state is stale."
+    },
+    {
+      "campaign_id": "atlas-brew-significance-review-2026-07",
+      "status": "READY_FOR_REVIEW",
+      "status_evidence": "operations/campaigns/atlas-brew-significance-review-2026-07/campaign-summary.json",
+      "note": "Selective candidates remain review inputs."
+    },
+    {
+      "campaign_id": "canonical-pip-governance-ledger-2026-07",
+      "status": "DRAFT_FOR_REVIEW",
+      "status_evidence": "operations/campaigns/canonical-pip-governance-ledger-2026-07/campaign-summary.json",
+      "note": "Eleven conflicts and seven research items remain documented."
+    },
+    {
+      "campaign_id": "community-wallet-attribution-ingestion-2026-07",
+      "status": "COMPLETE_WITH_RETAINED_RESEARCH_GAPS",
+      "status_evidence": "operations/campaigns/community-wallet-attribution-ingestion-2026-07/campaign-summary.json",
+      "note": "All 84 attribution records remain unverified."
+    },
+    {
+      "campaign_id": "council-pip-tracker-ingestion",
+      "status": "GENERATED",
+      "status_evidence": "operations/campaigns/council-pip-tracker-ingestion/campaign-summary.json",
+      "note": "Council reporting is not independent implementation verification."
+    },
+    {
+      "campaign_id": "discord-announcements-semantic-enrichment",
+      "status": "GENERATED_WITH_CORRECTIONS",
+      "status_evidence": "operations/campaigns/discord-announcements-semantic-enrichment/review-correction-status.json",
+      "note": "Twenty-four generated event sequences were withdrawn; effective count is zero."
+    },
+    {
+      "campaign_id": "discord-community-indexing-001",
+      "status": "VALIDATED_WITH_DEFERRED_IDENTITIES",
+      "status_evidence": "operations/campaigns/discord-community-indexing-001/validation-report.json",
+      "note": "Michael and EMP remain explicitly deferred; no native channel identity is established."
+    },
+    {
+      "campaign_id": "hnn-combined-transcript",
+      "status": "READY_FOR_REVIEW",
+      "status_evidence": "operations/campaigns/hnn-combined-transcript/campaign-summary.json",
+      "note": "Metadata and semantic gaps remain."
+    },
+    {
+      "campaign_id": "knowledge-campaign-003-institutional-expansion",
+      "status": "COMPLETED_HISTORICAL",
+      "status_evidence": "operations/campaigns/knowledge-campaign-003-institutional-expansion/campaign-summary.md",
+      "note": "Ten candidates were accepted; the remaining candidate queue was preserved."
+    },
+    {
+      "campaign_id": "knowledge-context-refresh-2026-07-17",
+      "status": "PASS_WITH_RETAINED_GAPS",
+      "status_evidence": "operations/campaigns/knowledge-context-refresh-2026-07-17/campaign-summary.json",
+      "note": "Fourteen knowledge outputs were created or expanded with evidence packets."
+    },
+    {
+      "campaign_id": "knowledge-generation-wave-2",
+      "status": "PASS_WITH_CURATOR_APPROVED_SCOPE_EXTENSION",
+      "status_evidence": "operations/campaigns/knowledge-generation-wave-2/execution/campaign-summary.json",
+      "note": "Planning and Wave 2A execution artifacts are retained as completed campaign history."
+    },
+    {
+      "campaign_id": "knowledge-narrative-depth-001",
+      "status": "MERGED_VALIDATION_REPAIRED",
+      "status_evidence": "operations/campaigns/knowledge-narrative-depth-001/closeout-2026-07/campaign-summary.json",
+      "note": "All 80 pages were reviewed; branch-relative validator repaired in this baseline."
+    },
+    {
+      "campaign_id": "lore-repository-ingestion-2026-07",
+      "status": "ARCHIVED_NORMALIZED_CURATOR_ADJUDICATED",
+      "status_evidence": "operations/campaigns/lore-repository-ingestion-2026-07/campaign-summary.json",
+      "note": "Upstream link and mirror gaps retained."
+    },
+    {
+      "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",
+      "status": "PASS_WITH_RAW_EXPORT_GAP",
+      "status_evidence": "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json",
+      "note": "No payment, implementation, or signature replay claim."
+    },
+    {
+      "campaign_id": "social-governance-semantic-enrichment",
+      "status": "PASS",
+      "status_evidence": "operations/campaigns/social-governance-semantic-enrichment/validation-report.json",
+      "note": "Stale top-level FAIL corrected in this baseline."
+    },
+    {
+      "campaign_id": "star-atlas-medium-ingestion-2026-07",
+      "status": "CONFIRMED_CORPUS_COMPLETE_DISCOVERY_INCOMPLETE",
+      "status_evidence": "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
+      "note": "Fifty-one candidates deferred."
+    },
+    {
+      "campaign_id": "star-atlas-transcripts-ingestion-2026-07",
+      "status": "READY_FOR_ARCHIVAL_REVIEW",
+      "status_evidence": "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/campaign-summary.json",
+      "note": "Program-level completeness and source metadata remain unresolved."
+    },
+    {
+      "campaign_id": "star-atlas-transcripts-semantic-2026-07",
+      "status": "READY_FOR_SEMANTIC_REVIEW",
+      "status_evidence": "operations/campaigns/star-atlas-transcripts-semantic-2026-07/campaign-summary.json",
+      "note": "Selective candidate layer validated."
+    },
+    {
+      "campaign_id": "starbased-ship-states-ingestion-2026-07",
+      "status": "QUALIFIED_NORMALIZATION",
+      "status_evidence": "operations/campaigns/starbased-ship-states-ingestion-2026-07/campaign-summary.json",
+      "note": "Four research gaps retained."
+    }
+  ]
+}

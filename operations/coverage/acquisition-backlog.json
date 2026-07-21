@@ -1,0 +1,246 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-07-20",
+  "items": [
+    {
+      "gap_id": "GAP-RAW-WRITTEN",
+      "priority": "P0",
+      "title": "Legacy Alpha-Delta immutable raw captures",
+      "required_artifact_or_action": "Recover HTML or archived snapshots for the 800 preserved written records.",
+      "owner": "Archive Steward",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-DISCORD-CHANNELS",
+      "priority": "P0",
+      "title": "Additional Star Atlas Discord channels",
+      "required_artifact_or_action": "Provide privacy-reviewed native exports for Atlas Amphitheater, Atlas Brew Lounge, DAO announcements, economics, faction, Foundation Room, general, governance, guild, and support channels.",
+      "owner": "Ingestion Coordinator",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-OFFICIAL-FRESHNESS",
+      "priority": "P0",
+      "title": "Recurring official-source freshness",
+      "required_artifact_or_action": "Run read-only discovery checks for newsroom, support, governance, Medium, X, Discord, and official GitHub surfaces; create queues only.",
+      "owner": "Research and Gap Analyst",
+      "status": "CURRENT_TO_CAPTURE_DATE",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-URL-INVENTORY",
+      "priority": "P0",
+      "title": "Stale normalized URL dispositions",
+      "required_artifact_or_action": "Reconcile 3,232 normalized inventory rows against completed campaigns; retain historical disposition and add current disposition.",
+      "owner": "Archive Steward",
+      "status": "MANUAL_REVIEW_PENDING",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-ATLAS-BREW-METADATA",
+      "priority": "P1",
+      "title": "Atlas Brew URLs and dates",
+      "required_artifact_or_action": "Provide or discover an authoritative 123-episode mapping of video ID, URL, and publication date; speaker mapping remains optional.",
+      "owner": "Research and Gap Analyst",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-OFFICIAL-TRANSCRIPT-METADATA",
+      "priority": "P1",
+      "title": "Town Hall/DAO/Economic Forum URLs and dates",
+      "required_artifact_or_action": "Provide program inventories or source URLs for all 36 supplied transcripts.",
+      "owner": "Research and Gap Analyst",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-OFFICIAL-BROADCAST-INVENTORY",
+      "priority": "P1",
+      "title": "Complete official broadcast inventories",
+      "required_artifact_or_action": "Build bounded episode inventories for Town Halls, DAO discussions, Economic Forums, and other official broadcast programs.",
+      "owner": "Research and Gap Analyst",
+      "status": "UNKNOWN",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-HNN-TRANSCRIPT-METADATA",
+      "priority": "P1",
+      "title": "HNN transcript URLs and dates",
+      "required_artifact_or_action": "Provide an 85-source episode map or authoritative channel inventory.",
+      "owner": "Research and Gap Analyst",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-HNN-TRANSCRIPT-SEMANTICS",
+      "priority": "P1",
+      "title": "HNN transcript significance evaluation",
+      "required_artifact_or_action": "Run the approved context-sensitive transcript policy against the preserved normalized corpus.",
+      "owner": "Knowledge Curator",
+      "status": "UNKNOWN",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-MEDIUM-DISCOVERY",
+      "priority": "P1",
+      "title": "Medium publication discovery",
+      "required_artifact_or_action": "Revisit 51 explicitly deferred candidates and run current publication-native discovery without changing the 173-item confirmed-corpus boundary.",
+      "owner": "Ingestion Coordinator",
+      "status": "MANUAL_REVIEW_PENDING",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-PIP33-RAW",
+      "priority": "P1",
+      "title": "Original PIP-33 vote export",
+      "required_artifact_or_action": "Provide the exact original export used to produce the 220 normalized ballot records, with checksum and acquisition context.",
+      "owner": "Archive Steward",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-ONCHAIN-EVIDENCE",
+      "priority": "P1",
+      "title": "Treasury/payment/execution evidence",
+      "required_artifact_or_action": "Provide scoped Solana transaction, account, program, and slot data before any on-chain verification claim.",
+      "owner": "Solana Evidence Specialist",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-ECONOMIC-REPORT-BRANCH",
+      "priority": "P1",
+      "title": "Unmerged economic-report registry",
+      "required_artifact_or_action": "Reconcile unique files on ingestion/economic-reports-2022q2-2026q2; no open PR currently preserves them on main.",
+      "owner": "Lead Coordinator",
+      "status": "MANUAL_REVIEW_PENDING",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-X-HISTORY",
+      "priority": "P2",
+      "title": "Official X history before 2024-11-05",
+      "required_artifact_or_action": "Provide an earlier account export or bounded archive discovery manifest.",
+      "owner": "Ingestion Coordinator",
+      "status": "PARTIAL_DATE_COVERAGE",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-DISCORD-NATIVE-IDS",
+      "priority": "P2",
+      "title": "Discord native identifiers",
+      "required_artifact_or_action": "Provide privacy-reviewed exports retaining server, channel, message, author IDs, and timezone offsets.",
+      "owner": "Archive Steward",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-DISCORD-ATTACHMENTS",
+      "priority": "P2",
+      "title": "Fourteen Discord attachment-only placeholders",
+      "required_artifact_or_action": "Provide attachment metadata or a corrected export.",
+      "owner": "Archive Steward",
+      "status": "MANUAL_REVIEW_PENDING",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-LORE-REFERENCES",
+      "priority": "P2",
+      "title": "Lore upstream link and mirror reconciliation",
+      "required_artifact_or_action": "Review 252 unresolved links and 86 mirror divergences without rewriting the immutable snapshot.",
+      "owner": "Taxonomy Steward",
+      "status": "MANUAL_REVIEW_PENDING",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-LEGACY-REVIEW",
+      "priority": "P2",
+      "title": "Legacy article review queues",
+      "required_artifact_or_action": "Normalize the meaning and disposition of Alpha, Bravo, and Delta campaign review flags.",
+      "owner": "Risk and Review Agent",
+      "status": "MANUAL_REVIEW_PENDING",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-HNN-WRITTEN-FAILURES",
+      "priority": "P2",
+      "title": "Four HNN written retrieval failures",
+      "required_artifact_or_action": "Retry or locate archived snapshots for the documented failed URLs.",
+      "owner": "Ingestion Coordinator",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-DELETED-OFFICIAL",
+      "priority": "P2",
+      "title": "Deleted or moved official pages",
+      "required_artifact_or_action": "Run archive-index discovery and retain live/archive provenance separately.",
+      "owner": "Ingestion Coordinator",
+      "status": "UNKNOWN",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-GOVERNANCE-IMPLEMENTATION",
+      "priority": "P2",
+      "title": "PIP implementation evidence",
+      "required_artifact_or_action": "Resolve the seven prioritized governance research items and retain Council reports as attributed evidence.",
+      "owner": "Research and Gap Analyst",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-SHIP-UPSTREAM",
+      "priority": "P3",
+      "title": "Authoritative ship-state version",
+      "required_artifact_or_action": "Provide official document URL/version and marketplace ID mapping when available.",
+      "owner": "Research and Gap Analyst",
+      "status": "MISSING_REQUIRED_ARTIFACT",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-WALLET-ATTRIBUTION",
+      "priority": "P3",
+      "title": "Community wallet methodology",
+      "required_artifact_or_action": "Identify compiler, method, and date; preserve all ownership claims as community attribution until independently supported.",
+      "owner": "Research and Gap Analyst",
+      "status": "MANUAL_REVIEW_PENDING",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-CROSS-PLATFORM-LINE-ENDINGS",
+      "priority": "P3",
+      "title": "Cross-platform generated-artifact line endings",
+      "required_artifact_or_action": "Adopt a scoped line-ending policy for deterministic generated lore artifacts without bulk-renormalizing preserved evidence.",
+      "owner": "Archive Steward",
+      "status": "KNOWN_VALIDATION_LIMITATION",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-07-20",
+  "immediate_safe_repository_deletions": [],
+  "items": [
+    {
+      "cleanup_id": "CLN-001",
+      "classification": "REPAIR",
+      "paths": [
+        "publication/site/assets/library-index.json"
+      ],
+      "finding": "Committed generated index was stale and blocked Pages.",
+      "action": "Regenerate now; keep until publication architecture changes."
+    },
+    {
+      "cleanup_id": "CLN-002",
+      "classification": "RETIRE_AFTER_REPLACEMENT",
+      "paths": [
+        "operations/migrations/validate_wave_1_5.py",
+        "operations/tests/README.md"
+      ],
+      "finding": "Snapshot validator hard-codes obsolete counts and is still advertised as current.",
+      "action": "Remove from active test guidance; retain as clearly historical until manifest-based replacement is complete."
+    },
+    {
+      "cleanup_id": "CLN-003",
+      "classification": "CONDENSE_AFTER_REFERENCE_MIGRATION",
+      "paths": [
+        "archive/normalized/discord-announcements/messages/"
+      ],
+      "finding": "1,071 per-message JSON files duplicate the aggregate JSONL as a generated access form.",
+      "action": "Do not delete until every individual-path citation migrates and deterministic regeneration is proven."
+    },
+    {
+      "cleanup_id": "CLN-004",
+      "classification": "RETAIN_PROVENANCE",
+      "paths": [
+        "operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/profile-rss-medium.xml",
+        "operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/profile-rss.xml"
+      ],
+      "finding": "Byte-identical captures represent separately observed endpoints and are both manifest-bound.",
+      "action": "Retain unless a schema migration preserves endpoint provenance another way."
+    },
+    {
+      "cleanup_id": "CLN-005",
+      "classification": "RELOCATE_NOT_DELETE",
+      "paths": [
+        "operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/",
+        "operations/campaigns/star-atlas-medium-ingestion-2026-07/identity-captures/",
+        "operations/campaigns/discord-announcements-semantic-enrichment/input-package/"
+      ],
+      "finding": "Approximately 11.9 MB of source-like captures live under operations.",
+      "action": "Move only in a dedicated manifest/checksum migration."
+    },
+    {
+      "cleanup_id": "CLN-006",
+      "classification": "CONDENSE_DURING_PUBLICATION_REWRITE",
+      "paths": [
+        "publication/articles/README.md",
+        "publication/briefs/README.md",
+        "publication/datasets/README.md",
+        "publication/reports/README.md"
+      ],
+      "finding": "Four placeholder files can become one publication contract when the new publication layer is implemented.",
+      "action": "Retain during the current GitHub Pages transition."
+    },
+    {
+      "cleanup_id": "CLN-007",
+      "classification": "ARCHIVE_RETAIN",
+      "paths": [
+        "operations/campaigns/knowledge-generation-wave-2/",
+        "operations/campaigns/knowledge-context-refresh-2026-07-17/",
+        "operations/campaigns/knowledge-narrative-depth-001/"
+      ],
+      "finding": "Older and nested campaign artifacts preserve evidence packets, decisions, and closeout history.",
+      "action": "Index as completed legacy work; do not bulk-delete."
+    },
+    {
+      "cleanup_id": "CLN-008",
+      "classification": "BRANCH_HYGIENE",
+      "paths": [
+        "42 remote branches already merged into main"
+      ],
+      "finding": "Merged branch refs remain; four non-ancestor branches also remain.",
+      "action": "Delete merged refs only after branch-policy confirmation; reconcile the economic-report branch before any deletion."
+    },
+    {
+      "cleanup_id": "CLN-009",
+      "classification": "RETAIN_COMPATIBILITY",
+      "paths": [
+        "archive/manifests/*",
+        "operations/campaigns/*/manifest.json",
+        "campaign-local normalized previews"
+      ],
+      "finding": "Several byte-identical files serve distinct archive, campaign, or review roles.",
+      "action": "Retain until a documented schema migration removes the compatibility role."
+    },
+    {
+      "cleanup_id": "CLN-010",
+      "classification": "REPAIR_LATER",
+      "paths": [
+        ".gitattributes",
+        "archive/raw/lore-repository/",
+        "archive/normalized/lore/"
+      ],
+      "finding": "Windows Git line-ending conversion makes one lore fixed-point test fail locally although Linux repository CI passes.",
+      "action": "Add a scoped line-ending contract in a dedicated compatibility change; do not bulk-renormalize preserved lore evidence in Phase 1."
+    }
+  ]
+}

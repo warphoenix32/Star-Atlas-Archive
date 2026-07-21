@@ -10,5 +10,7 @@ Engineering and archival operations live here, separate from historical evidence
 - [`tests/`](tests/README.md): compatibility and preservation validation
 - [`docs/`](docs/README.md): doctrine and implementation documentation
 - [`agents/`](agents/README.md): repository role contracts, handoff boundaries, and specialist activation rules
+- [`coverage/`](coverage/README.md): repository holdings, source coverage, acquisition gaps, campaign status, and cleanup review
+- [`programs/library-roadmap/`](programs/library-roadmap/README.md): seven-phase roadmap status, gates, dependencies, and human-review queue
 
 New campaigns should use the [Simplified Promotion Pipeline](docs/SIMPLIFIED-PROMOTION-PIPELINE.md): `PRESERVE -> DRAFT -> REVIEW -> PUBLISH`. The visible workflow is compact while risk-based checks retain stricter handling for consequential claims. Staging remains distinct from promotion, and automated approval never authorizes a merge to `main`.

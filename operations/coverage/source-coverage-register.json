@@ -1,0 +1,553 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-07-20",
+  "baseline_sha": "9dc39e47393d707f60d792227cf9f150a1031b28",
+  "records": [
+    {
+      "coverage_id": "COV-AEPHIA-WRITTEN",
+      "source_family": "Aephia",
+      "medium": "written articles",
+      "authority": "COMMUNITY_PUBLICATION",
+      "counts": {
+        "raw_files": 0,
+        "normalized_records": 0,
+        "source_records": 64,
+        "semantic_records": 0,
+        "ingestion_package_records": 64
+      },
+      "first_supported_date": "2021-12-17",
+      "last_supported_date": "2026-07-06",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "All 64 URLs in the normalized Campaign Alpha inventory were extracted.",
+      "limitations": [
+        "No immutable HTML capture exists under archive/raw.",
+        "All 64 records retain temporal-review warnings."
+      ],
+      "evidence_paths": [
+        "archive/campaign-summaries/campaign-alpha-aephia/campaign-summary.json",
+        "archive/source-records/campaign-alpha-aephia/"
+      ],
+      "gap_ids": [
+        "GAP-RAW-WRITTEN",
+        "GAP-LEGACY-REVIEW"
+      ],
+      "refresh_class": "LOW_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-HERALD-WRITTEN",
+      "source_family": "Intergalactic Herald",
+      "medium": "written articles",
+      "authority": "COMMUNITY_PUBLICATION",
+      "counts": {
+        "raw_files": 0,
+        "normalized_records": 0,
+        "source_records": 259,
+        "semantic_records": 0,
+        "ingestion_package_records": 259
+      },
+      "first_supported_date": "2022-12-11",
+      "last_supported_date": "2026-07-03",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "259 written URLs were extracted; 151 podcasts and one landing page were excluded.",
+      "limitations": [
+        "No immutable HTML capture exists under archive/raw.",
+        "Campaign summary reports 254 records requiring manual review and two duplicate articles."
+      ],
+      "evidence_paths": [
+        "archive/campaign-summaries/campaign-bravo-intergalactic-herald/campaign-summary.json",
+        "archive/source-records/campaign-bravo-intergalactic-herald/"
+      ],
+      "gap_ids": [
+        "GAP-RAW-WRITTEN",
+        "GAP-LEGACY-REVIEW"
+      ],
+      "refresh_class": "LOW_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-HNN-WRITTEN",
+      "source_family": "Hologram News Network",
+      "medium": "written articles",
+      "authority": "COMMUNITY_PUBLICATION",
+      "counts": {
+        "raw_files": 0,
+        "normalized_records": 0,
+        "source_records": 157,
+        "semantic_records": 0,
+        "ingestion_package_records": 157
+      },
+      "first_supported_date": "2022-04-08",
+      "last_supported_date": "2025-11-11",
+      "coverage_statuses": [
+        "PARTIAL_DATE_COVERAGE",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "157 of 161 attempted written URLs were retrieved.",
+      "limitations": [
+        "Four retrieval failures remain.",
+        "No immutable HTML capture exists under archive/raw.",
+        "Fifty-five records require manual review."
+      ],
+      "evidence_paths": [
+        "archive/campaign-summaries/campaign-charlie-hnn/campaign-summary.json",
+        "archive/source-records/campaign-charlie-hnn/"
+      ],
+      "gap_ids": [
+        "GAP-RAW-WRITTEN",
+        "GAP-HNN-WRITTEN-FAILURES"
+      ],
+      "refresh_class": "LOW_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-OFFICIAL-DELTA",
+      "source_family": "Official Star Atlas web corpus",
+      "medium": "web publications and documentation",
+      "authority": "OFFICIAL_FIRST_PARTY",
+      "counts": {
+        "raw_files": 0,
+        "normalized_records": 0,
+        "source_records": 320,
+        "semantic_records": 0,
+        "ingestion_package_records": 320
+      },
+      "first_supported_date": "2021-03-16",
+      "last_supported_date": "2026-07-10",
+      "coverage_statuses": [
+        "PARTIAL_DATE_COVERAGE",
+        "CURRENT_TO_CAPTURE_DATE",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "320 of 321 attempted official URLs were extracted across newsroom, support, build, governance, staratlas.com, and GitHub surfaces.",
+      "limitations": [
+        "One retrieval failure remains.",
+        "The campaign reports 1,172 reconciliation/manual-review items.",
+        "No immutable HTML capture exists under archive/raw."
+      ],
+      "evidence_paths": [
+        "archive/campaign-summaries/campaign-delta-official/campaign-summary.json",
+        "archive/source-records/campaign-delta-official/",
+        "archive/reconciliation/campaign-delta-official/"
+      ],
+      "gap_ids": [
+        "GAP-RAW-WRITTEN",
+        "GAP-OFFICIAL-FRESHNESS",
+        "GAP-DELETED-OFFICIAL"
+      ],
+      "refresh_class": "HIGH_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-08-20"
+    },
+    {
+      "coverage_id": "COV-OFFICIAL-MEDIUM",
+      "source_family": "Official Star Atlas Medium",
+      "medium": "written articles",
+      "authority": "OFFICIAL_FIRST_PARTY",
+      "counts": {
+        "raw_files": 520,
+        "normalized_records": 173,
+        "source_records": 173,
+        "semantic_records": 0,
+        "ingestion_package_records": 173
+      },
+      "first_supported_date": "2021-01-15",
+      "last_supported_date": "2025-10-10",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "PARTIAL_DATE_COVERAGE",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "All 173 confirmed articles are ingested; publication discovery is explicitly incomplete.",
+      "limitations": [
+        "Fifty-one discovered candidates are deferred.",
+        "2020 surfaces were searched with no confirmed 2020 article included.",
+        "No 2026 article was confirmed in the frozen manifest."
+      ],
+      "evidence_paths": [
+        "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
+        "archive/manifests/star-atlas-medium-ingestion-2026-07.json"
+      ],
+      "gap_ids": [
+        "GAP-MEDIUM-DISCOVERY",
+        "GAP-OFFICIAL-FRESHNESS"
+      ],
+      "refresh_class": "MEDIUM_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-OFFICIAL-DISCORD",
+      "source_family": "Star Atlas Discord, repository-designated announcements export",
+      "medium": "Discord messages",
+      "authority": "OFFICIAL_COMMUNICATION_SURFACE_IDENTITY_UNRESOLVED",
+      "counts": {
+        "raw_files": 2,
+        "normalized_records": 1071,
+        "source_records": 1071,
+        "semantic_records": 1071,
+        "ingestion_package_records": 0
+      },
+      "first_supported_date": "2021-03-16",
+      "last_supported_date": "2026-07-12",
+      "coverage_statuses": [
+        "CONTINUOUS_REPRESENTED_INTERVAL",
+        "CURRENT_TO_CAPTURE_DATE",
+        "PARTIAL_DATE_COVERAGE"
+      ],
+      "completeness_basis": "One imported export contains 1,071 unique messages and at least one message in every represented month.",
+      "limitations": [
+        "No native server, channel, message, or author IDs were captured.",
+        "The filename title is the first-message title, not a native channel name.",
+        "A 180-minute acquisition limit was reached.",
+        "Fourteen no-text or attachment-only records require review.",
+        "No other Discord channel is ingested."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/discord-community-indexing-001/discord-channel-coverage.json",
+        "operations/campaigns/discord-community-indexing-001/discord-channel-gap-report.json"
+      ],
+      "gap_ids": [
+        "GAP-DISCORD-CHANNELS",
+        "GAP-DISCORD-NATIVE-IDS",
+        "GAP-DISCORD-ATTACHMENTS",
+        "GAP-OFFICIAL-FRESHNESS"
+      ],
+      "refresh_class": "HIGH_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-08-20"
+    },
+    {
+      "coverage_id": "COV-OFFICIAL-X",
+      "source_family": "Official @staratlas X account",
+      "medium": "social posts",
+      "authority": "OFFICIAL_FIRST_PARTY_ACCOUNT",
+      "counts": {
+        "raw_files": 1,
+        "normalized_records": 796,
+        "source_records": 796,
+        "semantic_records": 796,
+        "ingestion_package_records": 0
+      },
+      "first_supported_date": "2024-11-05",
+      "last_supported_date": "2026-07-14",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "PARTIAL_DATE_COVERAGE",
+        "CURRENT_TO_CAPTURE_DATE"
+      ],
+      "completeness_basis": "The supplied export contains 799 rows and 796 unique posts.",
+      "limitations": [
+        "The export does not establish complete account history before 2024-11-05.",
+        "Linked media binaries are absent."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json",
+        "archive/semantic/social-media/"
+      ],
+      "gap_ids": [
+        "GAP-X-HISTORY",
+        "GAP-OFFICIAL-FRESHNESS"
+      ],
+      "refresh_class": "HIGH_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-08-20"
+    },
+    {
+      "coverage_id": "COV-ATLAS-BREW",
+      "source_family": "Atlas Brew",
+      "medium": "video transcripts",
+      "authority": "COMMUNITY_BROADCAST",
+      "counts": {
+        "raw_files": 1,
+        "normalized_records": 123,
+        "source_records": 123,
+        "semantic_records": 4937,
+        "ingestion_package_records": 123
+      },
+      "first_supported_date": null,
+      "last_supported_date": null,
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MISSING_REQUIRED_ARTIFACT",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "All 123 sources in the supplied combined transcript were preserved and segmented.",
+      "limitations": [
+        "Original URLs and publication dates are absent for all 123 sources.",
+        "Speaker identity is normally UNKNOWN under the approved significance policy."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/atlas-brew-combined/campaign-summary.json",
+        "operations/campaigns/atlas-brew-significance-review-2026-07/campaign-summary.json",
+        "archive/semantic/atlas-brew/"
+      ],
+      "gap_ids": [
+        "GAP-ATLAS-BREW-METADATA"
+      ],
+      "refresh_class": "MEDIUM_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-HNN-TRANSCRIPTS",
+      "source_family": "HNN combined transcript",
+      "medium": "video transcripts",
+      "authority": "COMMUNITY_BROADCAST",
+      "counts": {
+        "raw_files": 1,
+        "normalized_records": 85,
+        "source_records": 85,
+        "semantic_records": 0,
+        "ingestion_package_records": 85
+      },
+      "first_supported_date": null,
+      "last_supported_date": null,
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MISSING_REQUIRED_ARTIFACT"
+      ],
+      "completeness_basis": "All 85 sources in the supplied combined transcript were preserved.",
+      "limitations": [
+        "Original URLs and publication dates are absent for all 85 sources.",
+        "No dedicated HNN transcript semantic evaluation exists."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/hnn-combined-transcript/campaign-summary.json",
+        "archive/source-records/hnn-combined-transcript/"
+      ],
+      "gap_ids": [
+        "GAP-HNN-TRANSCRIPT-METADATA",
+        "GAP-HNN-TRANSCRIPT-SEMANTICS"
+      ],
+      "refresh_class": "LOW_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-OFFICIAL-TRANSCRIPTS",
+      "source_family": "Town Hall, DAO, and Economic Forum transcript package",
+      "medium": "video transcripts",
+      "authority": "MIXED_OFFICIAL_BROADCAST",
+      "counts": {
+        "raw_files": 36,
+        "normalized_records": 36,
+        "source_records": 36,
+        "semantic_records": 1910,
+        "ingestion_package_records": 0
+      },
+      "first_supported_date": null,
+      "last_supported_date": null,
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "PARTIAL_DATE_COVERAGE",
+        "MISSING_REQUIRED_ARTIFACT"
+      ],
+      "completeness_basis": "All 36 supplied transcripts and 78,752 caption lines were preserved.",
+      "limitations": [
+        "Original URLs are absent.",
+        "Only three sources have exact publication dates; 18 dates are unknown and the remainder have partial precision."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/campaign-summary.json",
+        "archive/semantic/star-atlas-transcripts/"
+      ],
+      "gap_ids": [
+        "GAP-OFFICIAL-TRANSCRIPT-METADATA",
+        "GAP-OFFICIAL-BROADCAST-INVENTORY"
+      ],
+      "refresh_class": "MEDIUM_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-LORE-REPOSITORY",
+      "source_family": "Star Atlas Lore Repository",
+      "medium": "GitHub documentation and lore pages",
+      "authority": "ATMTA_AFFILIATED_CANONICAL_LORE_AUTHORITY",
+      "counts": {
+        "raw_files": 526,
+        "normalized_records": 192,
+        "source_records": 192,
+        "semantic_records": 0,
+        "structured_entity_relationship_records": 8430,
+        "ingestion_package_records": 192
+      },
+      "first_supported_date": null,
+      "last_supported_date": "2026-06-29",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "CURRENT_TO_CAPTURE_DATE"
+      ],
+      "completeness_basis": "Immutable upstream commit 22555f277eb1496e34c0839c8f1f382842bd1d2b was preserved; 192 canonical source pages were normalized.",
+      "limitations": [
+        "Eighty-six mirror divergences and 252 unresolved internal links remain documented.",
+        "Ninety-seven working-material pages were preserved but excluded."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/lore-repository-ingestion-2026-07/campaign-summary.json",
+        "archive/manifests/lore-repository-ingestion-2026-07.json"
+      ],
+      "gap_ids": [
+        "GAP-LORE-REFERENCES",
+        "GAP-OFFICIAL-FRESHNESS"
+      ],
+      "refresh_class": "LOW_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-GOVERNANCE-PIPS",
+      "source_family": "Star Atlas governance and Council PIP tracker",
+      "medium": "governance records and spreadsheet",
+      "authority": "OFFICIAL_AND_COUNCIL_OPERATIONAL",
+      "counts": {
+        "raw_files": 35,
+        "normalized_records": 152,
+        "source_records": 152,
+        "semantic_records": 152,
+        "ingestion_package_records": 0
+      },
+      "first_supported_date": null,
+      "last_supported_date": "2026-07-10",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MANUAL_REVIEW_PENDING",
+        "CURRENT_TO_CAPTURE_DATE"
+      ],
+      "completeness_basis": "PIP-1 through PIP-33 and 119 Council tracker/rubric records are represented.",
+      "limitations": [
+        "Implementation evidence is missing for all 33 PIPs.",
+        "Council-reported status remains distinct from independent verification.",
+        "Election winner identities for PIP-11, PIP-25, and PIP-27 remain unresolved."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/canonical-pip-governance-ledger-2026-07/campaign-summary.json",
+        "operations/campaigns/council-pip-tracker-ingestion/campaign-summary.json"
+      ],
+      "gap_ids": [
+        "GAP-GOVERNANCE-IMPLEMENTATION",
+        "GAP-ONCHAIN-EVIDENCE",
+        "GAP-OFFICIAL-FRESHNESS"
+      ],
+      "refresh_class": "HIGH_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-08-20"
+    },
+    {
+      "coverage_id": "COV-PIP33-VOTES",
+      "source_family": "PIP-33 vote event reconciliation",
+      "medium": "Solana vote export",
+      "authority": "OPERATOR_SUPPLIED_CHAIN_DERIVED_DATA",
+      "counts": {
+        "raw_files": 0,
+        "normalized_records": 220,
+        "source_records": 1,
+        "semantic_records": 0,
+        "ingestion_package_records": 0
+      },
+      "first_supported_date": "2026-06-27",
+      "last_supported_date": "2026-07-10",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MISSING_REQUIRED_ARTIFACT"
+      ],
+      "completeness_basis": "All 220 effective ballot records in the supplied normalized dataset were reconciled.",
+      "limitations": [
+        "The original raw vote export is not preserved.",
+        "Signature replay and payment or implementation verification were not performed."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json",
+        "archive/provenance/governance-votes/pip-33.json"
+      ],
+      "gap_ids": [
+        "GAP-PIP33-RAW",
+        "GAP-ONCHAIN-EVIDENCE"
+      ],
+      "refresh_class": "HIGH_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-08-20"
+    },
+    {
+      "coverage_id": "COV-SHIP-STATES",
+      "source_family": "Starbased base ship states",
+      "medium": "spreadsheet/CSV",
+      "authority": "COMMUNITY_COPY_OF_OFFICIAL_BASE_VALUES",
+      "counts": {
+        "raw_files": 2,
+        "normalized_records": 63,
+        "source_records": 0,
+        "semantic_records": 0,
+        "ingestion_package_records": 0
+      },
+      "first_supported_date": null,
+      "last_supported_date": "2026-07-18",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "All 63 supplied base-ship rows were normalized.",
+      "limitations": [
+        "Authoritative Star Atlas URL/version is missing.",
+        "Future rebasing is expected; Holosim uses a different value system.",
+        "Marketplace ID linkage and several units remain unresolved."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/starbased-ship-states-ingestion-2026-07/campaign-summary.json",
+        "archive/provenance/starbased-ship-states/"
+      ],
+      "gap_ids": [
+        "GAP-SHIP-UPSTREAM"
+      ],
+      "refresh_class": "LOW_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    },
+    {
+      "coverage_id": "COV-COMMUNITY-WALLETS",
+      "source_family": "Community wallet attributions",
+      "medium": "spreadsheet",
+      "authority": "COMMUNITY_ATTRIBUTION_UNCONFIRMED",
+      "counts": {
+        "raw_files": 1,
+        "normalized_records": 84,
+        "source_records": 1,
+        "semantic_records": 0,
+        "ingestion_package_records": 0
+      },
+      "first_supported_date": null,
+      "last_supported_date": "2026-07-19",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "All 84 unique addresses in the supplied workbook were normalized.",
+      "limitations": [
+        "All ownership/control attributions remain unverified.",
+        "No on-chain analysis was performed.",
+        "Compiler, method, and compilation date are unknown."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/community-wallet-attribution-ingestion-2026-07/campaign-summary.json",
+        "archive/manifests/community-wallet-attribution-ingestion-2026-07.json"
+      ],
+      "gap_ids": [
+        "GAP-WALLET-ATTRIBUTION",
+        "GAP-ONCHAIN-EVIDENCE"
+      ],
+      "refresh_class": "LOW_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-10-20"
+    }
+  ]
+}
