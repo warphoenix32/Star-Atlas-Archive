@@ -1,13 +1,19 @@
 {
   "body_path": "operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/publication-archive-2024.html",
-  "byte_count": 5769,
+  "byte_count": 5787,
   "capture_label": "publication-archive-2024",
-  "captured_at": "2026-07-18T04:23:02Z",
+  "captured_at": "2026-07-21T22:25:55Z",
   "content_type": "text/html; charset=UTF-8",
   "error": "HTTP 403",
-  "final_url": "https://medium.com/star-atlas/archive/2024",
+  "final_url": "https://medium.com/star-atlas/all?year=2024",
   "http_status": 403,
-  "redirect_chain": [],
+  "redirect_chain": [
+    {
+      "from": "https://medium.com/star-atlas/archive/2024",
+      "status": 301,
+      "to": "https://medium.com/star-atlas/all?year=2024"
+    }
+  ],
   "requested_url": "https://medium.com/star-atlas/archive/2024",
-  "sha256": "55a7c248acddcb8c4fb5f1af98ac625cc74d98d81bc6a8fb135031d09b3f14b4"
+  "sha256": "b25a3a2370f4a2870e5f4a655a96b9630a613b4256a456d49cea551faf98fa02"
 }

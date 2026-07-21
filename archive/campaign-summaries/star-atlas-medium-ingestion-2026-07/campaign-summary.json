@@ -1,8 +1,8 @@
 {
-  "articles_extracted": 173,
+  "articles_extracted": 181,
   "campaign_id": "star-atlas-medium-ingestion-2026-07",
   "completeness_limits": [
-    "Ingestion is complete for the 173 confirmed included articles; publication-level discovery remains incomplete.",
+    "Ingestion is complete for the 181 confirmed included articles; publication-level discovery remains incomplete.",
     "The 2020 publication surfaces were searched, but no 2020 Star Atlas publication article was confirmed or included.",
     "Medium year archives currently expose hydration shells or incomplete rendered results.",
     "RSS exposes only a recent subset and sitemap coverage is non-exhaustive.",
@@ -12,9 +12,9 @@
   "confirmed_article_ingestion_status": "COMPLETE",
   "confirmed_articles_by_year": {
     "2020": 0,
-    "2021": 50,
-    "2022": 67,
-    "2023": 32,
+    "2021": 52,
+    "2022": 72,
+    "2023": 33,
     "2024": 12,
     "2025": 12,
     "2026": 0
@@ -25,8 +25,9 @@
     "latest": "2025-10-10T17:57:17Z"
   },
   "determinism": {
-    "after_sha256": "655eaeb4ecbd57e05f6d6f8fdb97dca2ba49b93fd2077c7a156f7da0b1fd5915",
-    "before_sha256": "655eaeb4ecbd57e05f6d6f8fdb97dca2ba49b93fd2077c7a156f7da0b1fd5915",
+    "after_sha256": "fa003db5d0ac5f57bc1e6d01d88940611ac2911299c2d832ae513a33ae027347",
+    "before_sha256": "fa003db5d0ac5f57bc1e6d01d88940611ac2911299c2d832ae513a33ae027347",
+    "cached_retrieve_exit_code": 0,
     "campaign_id": "star-atlas-medium-ingestion-2026-07",
     "match": true,
     "method": "SHA-256 over sorted relative paths and bytes, before and after a cached retrieve rerun",
@@ -35,37 +36,37 @@
       "archive/source-records/medium/star-atlas",
       "archive/ingestion-packages/star-atlas-medium"
     ],
-    "verified_at": "2026-07-18T04:46:55Z"
+    "verified_at": "2026-07-21T22:28:48Z"
   },
-  "duplicate_or_redirect_clusters": 323,
+  "duplicate_or_redirect_clusters": 196,
   "extraction_confidence_counts": {
-    "HIGH": 172,
+    "HIGH": 180,
     "MEDIUM": 1
   },
-  "generated_at": "2026-07-18T17:11:36Z",
-  "manual_review_count": 51,
+  "generated_at": "2026-07-21T22:28:28Z",
+  "manual_review_count": 0,
   "media": {
     "downloads_succeeded": 0,
     "mode": "URL_ONLY_OPERATOR_SCOPE",
-    "references": 239
+    "references": 247
   },
   "publication_discovery_status": "INCOMPLETE",
   "retrieval_failures": 0,
   "retrieval_failures_detail": [],
   "retrieval_tier_counts": {
-    "LIVE_DIRECT_HTML": 134,
+    "LIVE_DIRECT_HTML": 142,
     "LIVE_PLAYWRIGHT_DOM": 1,
     "RSS_CONTENT_ENCODED": 1,
     "WEB_ARCHIVE_SNAPSHOT": 37
   },
-  "review_candidates_adjudicated": 329,
+  "review_candidates_adjudicated": 216,
   "status": "CONFIRMED_ARTICLE_INGESTION_COMPLETE_PUBLICATION_DISCOVERY_INCOMPLETE",
-  "successful_retrievals": 173,
-  "urls_attempted": 173,
-  "urls_deferred_after_review": 51,
-  "urls_discovered": 686,
-  "urls_excluded": 462,
-  "urls_included": 173,
+  "successful_retrievals": 181,
+  "urls_attempted": 181,
+  "urls_deferred_after_review": 0,
+  "urls_discovered": 588,
+  "urls_excluded": 407,
+  "urls_included": 181,
   "years_queried": [
     2020,
     2021,

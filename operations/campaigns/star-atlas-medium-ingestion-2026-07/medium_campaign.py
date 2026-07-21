@@ -2407,6 +2407,7 @@ def validate() -> int:
         f"archive/manifests/{CAMPAIGN_ID}.json",
         f"archive/campaign-summaries/{CAMPAIGN_ID}/",
         f"operations/campaigns/{CAMPAIGN_ID}/",
+        "operations/tests/star_atlas_medium/",
         ".github/workflows/",
         "operations/ci/",
     )

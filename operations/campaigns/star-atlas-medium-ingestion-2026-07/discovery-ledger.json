@@ -2,13 +2,13 @@
   "campaign_id": "star-atlas-medium-ingestion-2026-07",
   "surfaces": [
     {
-      "browser_item_count": 4,
+      "browser_item_count": 0,
       "browser_item_interpretation": "GENERIC_MEDIUM_NAVIGATION_LINKS_NOT_CONFIRMED_STAR_ATLAS_ARTICLES",
-      "browser_scroll_passes": 3,
-      "browser_sha256": "c3cf443bfb2f569e68688b42880d44d433a6a09e0f3b17c417b26bb166dbd2e4",
+      "browser_scroll_passes": 0,
+      "browser_sha256": null,
       "confirmed_article_count": 0,
       "coverage_note": "The 2020 publication archive was queried, but no candidate could be confirmed as a Star Atlas publication article.",
-      "direct_sha256": "33162d3f7faadcd7b9450c38ce1fca2aaed1746518a7283ca70151d7571f4992",
+      "direct_sha256": "9104e6ba5ad5c0496d214776710d0c2fb0813a82a2b200d4f15434ec5deb378c",
       "final_url": "https://medium.com/star-atlas/all?year=2020",
       "http_status": 200,
       "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
@@ -18,10 +18,10 @@
       "year": 2020
     },
     {
-      "browser_item_count": 4,
-      "browser_scroll_passes": 3,
-      "browser_sha256": "993885827feffba4bcea116bc2f0c66c623fb0ce8a48a82c0117372baaa23da5",
-      "direct_sha256": "cd34e07f36630fb22556546cd889d3e49615b4de89311cf06e11e4a533ce7aea",
+      "browser_item_count": 0,
+      "browser_scroll_passes": 0,
+      "browser_sha256": null,
+      "direct_sha256": "e3ebc6b5c76ed4a74a248dc58bf6eb42f7d933a15e1b6da130a387fa003eb967",
       "final_url": "https://medium.com/star-atlas/all?year=2021",
       "http_status": 200,
       "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
@@ -31,10 +31,10 @@
       "year": 2021
     },
     {
-      "browser_item_count": 4,
-      "browser_scroll_passes": 3,
-      "browser_sha256": "fb1e9513a451115b4a305d4aba8e9b03c994257ad95b07c9aad5b713d6cd4fcd",
-      "direct_sha256": "b8f83fcb7af2d6ec9944b24040ff529cacd797032ececc6e5855b73ffe1500db",
+      "browser_item_count": 0,
+      "browser_scroll_passes": 0,
+      "browser_sha256": null,
+      "direct_sha256": "9d69477d1fef726826cc2354269e75c41f5b848a4672895d68ef25b1772476de",
       "final_url": "https://medium.com/star-atlas/all?year=2022",
       "http_status": 200,
       "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
@@ -44,10 +44,10 @@
       "year": 2022
     },
     {
-      "browser_item_count": 4,
-      "browser_scroll_passes": 3,
-      "browser_sha256": "c52311ac9b61ae9ef8288c01d6e67c50b2ce1608acd109950b8a824c3ed0a800",
-      "direct_sha256": "9369db816f21333bdf0f2fa910440eabb3155815e37bc4ddc1458b2a95d84918",
+      "browser_item_count": 0,
+      "browser_scroll_passes": 0,
+      "browser_sha256": null,
+      "direct_sha256": "86120f77dc3f79d7a55a4340f78317983db48bbaf514f05f5210ff717dd3fb2d",
       "final_url": "https://medium.com/star-atlas/all?year=2023",
       "http_status": 200,
       "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
@@ -57,11 +57,11 @@
       "year": 2023
     },
     {
-      "browser_item_count": 4,
-      "browser_scroll_passes": 3,
-      "browser_sha256": "989be4ff2e4732d02090eb4ab07974ed4b3abba7814240bab5bf13c22f4263b1",
-      "direct_sha256": "55a7c248acddcb8c4fb5f1af98ac625cc74d98d81bc6a8fb135031d09b3f14b4",
-      "final_url": "https://medium.com/star-atlas/archive/2024",
+      "browser_item_count": 0,
+      "browser_scroll_passes": 0,
+      "browser_sha256": null,
+      "direct_sha256": "b25a3a2370f4a2870e5f4a655a96b9630a613b4256a456d49cea551faf98fa02",
+      "final_url": "https://medium.com/star-atlas/all?year=2024",
       "http_status": 403,
       "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
       "requested_url": "https://medium.com/star-atlas/archive/2024",
@@ -70,10 +70,10 @@
       "year": 2024
     },
     {
-      "browser_item_count": 4,
-      "browser_scroll_passes": 3,
-      "browser_sha256": "7cb46d4d398bf3f37ad06039e2655e865d13877358a1b9241985205fa3132ec6",
-      "direct_sha256": "d6c0779e52a1455ba1524172b35365e6d258a33690841006bd3256aa3178f9d5",
+      "browser_item_count": 0,
+      "browser_scroll_passes": 0,
+      "browser_sha256": null,
+      "direct_sha256": "9c2b821cf08fe947c86e1ed5044fca8c5957a201cc0a14110191d8715259e850",
       "final_url": "https://medium.com/star-atlas/all?year=2025",
       "http_status": 200,
       "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
@@ -83,10 +83,10 @@
       "year": 2025
     },
     {
-      "browser_item_count": 4,
-      "browser_scroll_passes": 3,
-      "browser_sha256": "e2fad7b73a2665d6353fe67d1ac8381e0f2c2c3e92d634a4324cce5921d74199",
-      "direct_sha256": "d6d2ac32aed50a9752249b081904515a70cf1049eda927ae9c60e0438071557a",
+      "browser_item_count": 0,
+      "browser_scroll_passes": 0,
+      "browser_sha256": null,
+      "direct_sha256": "da6c8674021975be940d77230824227e596e6e9b903be11666e7bfb9d2f66f17",
       "final_url": "https://medium.com/star-atlas/all?year=2026",
       "http_status": 403,
       "limitations": "Current Medium archive route may expose only a hydration shell; repository/social/archive discovery remains additive.",
@@ -96,15 +96,15 @@
       "year": 2026
     },
     {
-      "browser_item_count": 4,
-      "direct_item_count": 0,
-      "http_status": 403,
+      "browser_item_count": 0,
+      "direct_item_count": 4,
+      "http_status": 200,
       "requested_url": "https://medium.com/star-atlas",
       "status": "QUERIED",
       "surface": "publication_page"
     },
     {
-      "browser_item_count": 4,
+      "browser_item_count": 0,
       "direct_item_count": 3,
       "http_status": 200,
       "requested_url": "https://medium.com/star-atlas/all",
@@ -112,16 +112,16 @@
       "surface": "publication_page"
     },
     {
-      "browser_item_count": 34,
-      "direct_item_count": 24,
+      "browser_item_count": 0,
+      "direct_item_count": 14,
       "http_status": 200,
       "requested_url": "https://medium.com/@staratlasgame",
       "status": "QUERIED",
       "surface": "profile_page"
     },
     {
-      "browser_item_count": 170,
-      "direct_item_count": 24,
+      "browser_item_count": 0,
+      "direct_item_count": 14,
       "http_status": 200,
       "requested_url": "https://staratlasgame.medium.com/",
       "status": "QUERIED",

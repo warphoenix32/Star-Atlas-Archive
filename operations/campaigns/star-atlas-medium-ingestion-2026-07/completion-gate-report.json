@@ -1,0 +1,535 @@
+{
+  "campaign_id": "star-atlas-medium-ingestion-2026-07",
+  "candidate_decision_counts": {
+    "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY": 19,
+    "MEDIUM_RESPONSE_NOT_PUBLICATION_ARTICLE": 4,
+    "NEWSLETTER_SIGNUP_SURFACE_NOT_ARTICLE": 1,
+    "PROFILE_ONLY_STORY_NOT_STAR_ATLAS_PUBLICATION_ARTICLE": 1,
+    "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE": 14,
+    "UNRESOLVED_SHORTLINK_NO_SURVIVING_TARGET_OR_PUBLICATION_IDENTITY": 4
+  },
+  "completed_at": "2026-07-21T21:51:41Z",
+  "decisions": [
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-CD4545A0601AA96A",
+      "candidate_url": "http://medium.com/star-atlas/a-metaverse-col",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-CBB7DFE74C89",
+      "evidence": [
+        "http://medium.com/star-atlas/a-metaverse-col",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-42FCB9E7A5158493",
+      "candidate_url": "http://medium.com/star-atlas/fli",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "http://medium.com/star-atlas/fli",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-4EFB9B95D3EA8A47",
+      "candidate_url": "http://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d3337126",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-7A18D2D33371",
+      "evidence": [
+        "http://medium.com/star-atlas/galactic-marketplace-solana-serum-powered-core-of-star-atlas-nft-trading-7a18d2d3337126",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-20CD6FB00BB88CA7",
+      "candidate_url": "http://medium.com/star-atlas/star-atlas-animoca-brands-3-mil",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-CF86A8057F8D",
+      "evidence": [
+        "http://medium.com/star-atlas/star-atlas-animoca-brands-3-mil",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-A4BC1A94BE65FEC1",
+      "candidate_url": "http://medium.com/star-atlas/star-atlas-partners-with-sperasoft-immersive-metaverse-exploration-ga",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-2037AE0D6666",
+      "evidence": [
+        "http://medium.com/star-atlas/star-atlas-partners-with-sperasoft-immersive-metaverse-exploration-ga",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-9AE129F47AB2852E",
+      "candidate_url": "http://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505f%C4%91",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-857BF7505FDD",
+      "evidence": [
+        "http://medium.com/star-atlas/star-atlas-token-sale-details-revealed-857bf7505f%C4%91",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-BDD35A45A4C27D45",
+      "candidate_url": "https://link.medium.com/9bdLazeJpEb",
+      "disposition": "UNRESOLVED_SHORTLINK_NO_SURVIVING_TARGET_OR_PUBLICATION_IDENTITY",
+      "evidence_gap": {
+        "candidate_source_id": "SRC-MEDIUM-STARATLAS-BDD35A45A4C27D45",
+        "corpus_effect": "Not included because official Star Atlas publication membership cannot be established.",
+        "gap_type": "MISSING_HISTORICAL_SHORTLINK_TARGET",
+        "last_live_result": "GENERIC_BRANCH_LANDING_PAGE_WITHOUT_TARGET",
+        "required_artifact": "A historical redirect capture or original message embed exposing the target URL.",
+        "url": "https://link.medium.com/9bdLazeJpEb"
+      },
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-A4BE3719DC423A5F",
+      "candidate_url": "https://link.medium.com/GU7Oiufwjzb",
+      "disposition": "NEWSLETTER_SIGNUP_SURFACE_NOT_ARTICLE",
+      "evidence": [
+        "https://link.medium.com/GU7Oiufwjzb",
+        "SURVIVING_SOURCE_CONTEXT_IDENTIFIES_NEWSLETTER_SIGNUP"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-0B5B1684006C14EC",
+      "candidate_url": "https://link.medium.com/KklcuPPChDb",
+      "disposition": "UNRESOLVED_SHORTLINK_NO_SURVIVING_TARGET_OR_PUBLICATION_IDENTITY",
+      "evidence_gap": {
+        "candidate_source_id": "SRC-MEDIUM-STARATLAS-0B5B1684006C14EC",
+        "corpus_effect": "Not included because official Star Atlas publication membership cannot be established.",
+        "gap_type": "MISSING_HISTORICAL_SHORTLINK_TARGET",
+        "last_live_result": "GENERIC_BRANCH_LANDING_PAGE_WITHOUT_TARGET",
+        "required_artifact": "A historical redirect capture or original message embed exposing the target URL.",
+        "url": "https://link.medium.com/KklcuPPChDb"
+      },
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-E0896E896AFAD978",
+      "candidate_url": "https://link.medium.com/ZER0IEOBYrb",
+      "disposition": "UNRESOLVED_SHORTLINK_NO_SURVIVING_TARGET_OR_PUBLICATION_IDENTITY",
+      "evidence_gap": {
+        "candidate_source_id": "SRC-MEDIUM-STARATLAS-E0896E896AFAD978",
+        "corpus_effect": "Not included because official Star Atlas publication membership cannot be established.",
+        "gap_type": "MISSING_HISTORICAL_SHORTLINK_TARGET",
+        "last_live_result": "GENERIC_BRANCH_LANDING_PAGE_WITHOUT_TARGET",
+        "required_artifact": "A historical redirect capture or original message embed exposing the target URL.",
+        "url": "https://link.medium.com/ZER0IEOBYrb"
+      },
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-9CAD70B0ED938C8D",
+      "candidate_url": "https://link.medium.com/aD57RTDFSrb",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-B4ECA8191D8C",
+      "evidence": [
+        "https://link.medium.com/aD57RTDFSrb",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-0EDFAF3562F80B20",
+      "candidate_url": "https://link.medium.com/cCduh3UCunb",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-6CA8802140AB",
+      "evidence": [
+        "https://link.medium.com/cCduh3UCunb",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-3677045BD8F3F441",
+      "candidate_url": "https://link.medium.com/lkwxbjr9Enb",
+      "disposition": "UNRESOLVED_SHORTLINK_NO_SURVIVING_TARGET_OR_PUBLICATION_IDENTITY",
+      "evidence_gap": {
+        "candidate_source_id": "SRC-MEDIUM-STARATLAS-3677045BD8F3F441",
+        "corpus_effect": "Not included because official Star Atlas publication membership cannot be established.",
+        "gap_type": "MISSING_HISTORICAL_SHORTLINK_TARGET",
+        "last_live_result": "GENERIC_BRANCH_LANDING_PAGE_WITHOUT_TARGET",
+        "required_artifact": "A historical redirect capture or original message embed exposing the target URL.",
+        "url": "https://link.medium.com/lkwxbjr9Enb"
+      },
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-68C9F1904BBD5D25",
+      "candidate_url": "https://link.medium.com/qwos2ITw8gb",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-347373550343",
+      "evidence": [
+        "https://link.medium.com/qwos2ITw8gb",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-03B655B2F4E5AB7A",
+      "candidate_url": "https://medium.com/star-atlas/a-n",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/a-n",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-AE698D30AF0522CB",
+      "candidate_url": "https://medium.com/star-atlas/about",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/about",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-670E37E997AE4F22",
+      "candidate_url": "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-partnership-revolutionize-future-entertai",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-B0FC33E9E8A5",
+      "evidence": [
+        "https://medium.com/star-atlas/animoca-brands-joins-star-atlas-partnership-revolutionize-future-entertai",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-4757219EF56301CB",
+      "candidate_url": "https://medium.com/star-atlas/atlas-",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/atlas-",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-F0F6DC6D4B4BF6EB",
+      "candidate_url": "https://medium.com/star-atlas/atlas-s...%5Cn%5Cn%5CnFor",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/atlas-s...%5Cn%5Cn%5CnFor",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-F94AE865B7FBA007",
+      "candidate_url": "https://medium.com/star-atlas/cosmic-",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/cosmic-",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-151BCA429C1542EF",
+      "candidate_url": "https://medium.com/star-atlas/how-t",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/how-t",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-D186B4A11B2BD4A2",
+      "candidate_url": "https://medium.com/star-atlas/how-to-",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/how-to-",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-1576F0F629B08604",
+      "candidate_url": "https://medium.com/star-atlas/how-to-...%5CnSCREAM",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/how-to-...%5CnSCREAM",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-ADCEE7C01816D7F7",
+      "candidate_url": "https://medium.com/star-atlas/introdu...%5Cn%5CnJoin",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/introdu...%5Cn%5CnJoin",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-90356677DBD4E373",
+      "candidate_url": "https://medium.com/star-atlas/introdu...%E2%80%8B%5Cn%5CnJoin",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/introdu...%E2%80%8B%5Cn%5CnJoin",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-E95DE0758297D459",
+      "candidate_url": "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-exper",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-7661221574A1",
+      "evidence": [
+        "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-exper",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-940FD57404ED06BA",
+      "candidate_url": "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-89CD90627234",
+      "evidence": [
+        "https://medium.com/star-atlas/never-alone-a-shared-social-adventure-across-the-star-atlas-galaxy",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-5B2A6B81377DF45D",
+      "candidate_url": "https://medium.com/star-atlas/star-at",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/star-at",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-940E892E42B3DF2A",
+      "candidate_url": "https://medium.com/star-atlas/star-at...%5Cn%5Cn",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/star-at...%5Cn%5Cn",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-E075F38DB09A3F2B",
+      "candidate_url": "https://medium.com/star-atlas/star-at...%5CnStar",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://medium.com/star-atlas/star-at...%5CnStar",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-8115F0EC1163674D",
+      "candidate_url": "https://medium.com/star-atlas/star-atlas-joins-blockchain-game-al",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-3CBD81910C71",
+      "evidence": [
+        "https://medium.com/star-atlas/star-atlas-joins-blockchain-game-al",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-D792CFAC8C611545",
+      "candidate_url": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-B06F3B8D9B4",
+      "evidence": [
+        "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-7BB38BF7A4E3D93A",
+      "candidate_url": "https://medium.com/star-atlas/yield-guild-games-commits-1-mil",
+      "disposition": "RESOLVED_VARIANT_OR_SHORTLINK_DUPLICATES_INCLUDED_ARTICLE",
+      "duplicate_of_source_id": "SRC-MEDIUM-STARATLAS-441076DA533E",
+      "evidence": [
+        "https://medium.com/star-atlas/yield-guild-games-commits-1-mil",
+        "SURVIVING_SOURCE_CONTEXT_OR_DISTINCTIVE_SLUG_MATCH"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-AA3C3E57BF42CB26",
+      "candidate_url": "https://staratlasgame.medium.com/%E2%80%8B",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://staratlasgame.medium.com/%E2%80%8B",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-CB6A220C356B1B0F",
+      "candidate_url": "https://staratlasgame.medium.com/180deg",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://staratlasgame.medium.com/180deg",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-A869ED68475D5B19",
+      "candidate_url": "https://staratlasgame.medium.com/8ea8...%5Cn%5CnExperience",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://staratlasgame.medium.com/8ea8...%5Cn%5CnExperience",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-8ABAE8D00BCB",
+      "candidate_url": "https://staratlasgame.medium.com/a-metaverse-meld-the-star-atlas-the-sandbox-unite-for-a-game-jam-contest-8abae8d00bcb",
+      "disposition": "PROFILE_ONLY_STORY_NOT_STAR_ATLAS_PUBLICATION_ARTICLE",
+      "evidence": [
+        "https://staratlasgame.medium.com/a-metaverse-meld-the-star-atlas-the-sandbox-unite-for-a-game-jam-contest-8abae8d00bcb",
+        "PUBLICATION_MEMBERSHIP_NOT_ESTABLISHED"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-507177D91E19",
+      "candidate_url": "https://staratlasgame.medium.com/also-the-assets-in-the-whitepaper-are-placeholder-and-the-whitepaper-is-still-version-0-9-0-507177d91e19",
+      "disposition": "MEDIUM_RESPONSE_NOT_PUBLICATION_ARTICLE",
+      "evidence": [
+        "https://staratlasgame.medium.com/also-the-assets-in-the-whitepaper-are-placeholder-and-the-whitepaper-is-still-version-0-9-0-507177d91e19",
+        "PUBLICATION_MEMBERSHIP_NOT_ESTABLISHED"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-3B52AD4FD3BA2FC0",
+      "candidate_url": "https://staratlasgame.medium.com/earn",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://staratlasgame.medium.com/earn",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-47F657CDA3EE",
+      "candidate_url": "https://staratlasgame.medium.com/intriguing-47f657cda3ee",
+      "disposition": "MEDIUM_RESPONSE_NOT_PUBLICATION_ARTICLE",
+      "evidence": [
+        "https://staratlasgame.medium.com/intriguing-47f657cda3ee",
+        "PUBLICATION_MEMBERSHIP_NOT_ESTABLISHED"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-411FD49E4FCEF67E",
+      "candidate_url": "https://staratlasgame.medium.com/pressinquiries@medium.com",
+      "disposition": "MALFORMED_WAYBACK_CRAWL_ARTIFACT_WITHOUT_STABLE_ARTICLE_IDENTITY",
+      "evidence": [
+        "https://staratlasgame.medium.com/pressinquiries@medium.com",
+        "WAYBACK_CDX_ORIGINAL_URL_CONTAINS_TRUNCATION_POLLUTION_OR_NO_MEDIUM_POST_ID"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-EA8D9AA5689E",
+      "candidate_url": "https://staratlasgame.medium.com/rest-assured-all-assets-within-the-game-will-be-of-unique-design-ea8d9aa5689e",
+      "disposition": "MEDIUM_RESPONSE_NOT_PUBLICATION_ARTICLE",
+      "evidence": [
+        "https://staratlasgame.medium.com/rest-assured-all-assets-within-the-game-will-be-of-unique-design-ea8d9aa5689e",
+        "PUBLICATION_MEMBERSHIP_NOT_ESTABLISHED"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-E7CDD0D8CC98",
+      "candidate_url": "https://staratlasgame.medium.com/the-4-rs-of-spaceship-maintenance-e7cdd0d8cc98",
+      "disposition": "MEDIUM_RESPONSE_NOT_PUBLICATION_ARTICLE",
+      "evidence": [
+        "https://staratlasgame.medium.com/the-4-rs-of-spaceship-maintenance-e7cdd0d8cc98",
+        "PUBLICATION_MEMBERSHIP_NOT_ESTABLISHED"
+      ],
+      "final_status": "EXCLUDED",
+      "prior_status": "DEFERRED"
+    }
+  ],
+  "deferred_candidates_reviewed": 43,
+  "expected_confirmed_articles": 181,
+  "external_evidence_gaps": 4,
+  "full_body_audit": {
+    "articles_audited": 181,
+    "articles_failed": 0,
+    "articles_passed": 181,
+    "result": "PASS"
+  },
+  "gate_status": "COMPLETE_WITH_DOCUMENTED_EXTERNAL_EVIDENCE_GAPS",
+  "human_adjudication_pending": 0,
+  "manifest_disposition_counts": {
+    "EXCLUDED": 407,
+    "INCLUDED": 181
+  },
+  "newly_confirmed_articles": 8,
+  "prior_confirmed_articles": 173,
+  "publication_completeness_claim": "NOT_ASSERTED_MEDIUM_DISCOVERY_SURFACES_ARE_NONEXHAUSTIVE"
+}

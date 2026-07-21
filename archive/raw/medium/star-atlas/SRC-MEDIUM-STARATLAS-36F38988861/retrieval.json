@@ -1,0 +1,90 @@
+{
+  "attempts": [
+    {
+      "byte_count": 318124,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-09-23T17:54:32Z",
+          "dateModified": "2022-09-23T18:09:11Z",
+          "datePublished": "2022-09-23T17:54:32Z",
+          "description": "The Council of Peace Academy — Mission Showroom: Star Atlas Roadmap Scan #21 At another point in the galaxy, Asha, one of the most prominent captains of the Council of Peace, is summoned in urgency …",
+          "headline": "The Council of Peace Academy — Mission Showroom: Star Atlas Roadmap Scan #21",
+          "identifier": "36f38988861",
+          "image": [
+            "https://miro.medium.com/0*LLEvZrD2PCtYOIUv"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+          "name": "The Council of Peace Academy — Mission Showroom: Star Atlas Roadmap Scan #21",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861"
+        },
+        "text_length": 21143
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+      "sha256": "489f01218127e27a962ebb6e4446ace13c4e593d3eb326cd7b789bec8e3a8502",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-21T22:20:45Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BD0CD688817291A3.json",
+    "repository:archive/normalized/discord-announcements/messages.jsonl",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+  "http_status": 200,
+  "raw_byte_count": 318124,
+  "raw_sha256": "489f01218127e27a962ebb6e4446ace13c4e593d3eb326cd7b789bec8e3a8502",
+  "redirect_chain": [],
+  "referrer_source_ids": [
+    "SA-DISCORD-ANN-FB7939A1D83F47C9"
+  ],
+  "requested_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-36F38988861/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}

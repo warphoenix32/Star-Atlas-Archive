@@ -2,8 +2,8 @@
 
 **Result: PASS**
 
-- Included records: 173
-- Successfully validated artifact sets: 173
+- Included records: 181
+- Successfully validated artifact sets: 181
 - Errors: 0
 - Warnings: 0
 
@@ -12,13 +12,13 @@
 ```json
 {
   "artifact_sets": {
-    "included": 173,
-    "validated_successes": 173
+    "included": 181,
+    "validated_successes": 181
   },
-  "campaign_manifest_artifacts": 1567,
+  "campaign_manifest_artifacts": 1641,
   "candidate_dispositions": {
     "invalid": 0,
-    "total": 686
+    "total": 588
   },
   "corpus_status_boundary": {
     "confirmed_2020": 0,
@@ -30,8 +30,8 @@
     "surface_queried": true
   },
   "deterministic_outputs": {
-    "current_sha256": "655eaeb4ecbd57e05f6d6f8fdb97dca2ba49b93fd2077c7a156f7da0b1fd5915",
-    "expected_sha256": "655eaeb4ecbd57e05f6d6f8fdb97dca2ba49b93fd2077c7a156f7da0b1fd5915",
+    "current_sha256": "fa003db5d0ac5f57bc1e6d01d88940611ac2911299c2d832ae513a33ae027347",
+    "expected_sha256": "fa003db5d0ac5f57bc1e6d01d88940611ac2911299c2d832ae513a33ae027347",
     "match": true,
     "verified_rerun_match": true
   },
@@ -58,18 +58,18 @@
   },
   "git_diff_check": true,
   "included_identity": {
-    "included": 173,
-    "unique_post_ids": 173,
-    "unique_source_ids": 173
+    "included": 181,
+    "unique_post_ids": 181,
+    "unique_source_ids": 181
   },
   "manual_review_adjudication": {
-    "explicitly_deferred": 51,
+    "explicitly_deferred": 0,
     "incomplete_deferred": 0,
-    "received": 329,
-    "resolved_excluded": 278
+    "received": 216,
+    "resolved_excluded": 216
   },
   "scope": {
-    "changed_paths": 1572,
+    "changed_paths": 456,
     "prohibited": []
   }
 }

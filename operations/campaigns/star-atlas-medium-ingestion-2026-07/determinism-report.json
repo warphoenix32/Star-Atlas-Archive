@@ -1,13 +1,14 @@
 {
+  "after_sha256": "fa003db5d0ac5f57bc1e6d01d88940611ac2911299c2d832ae513a33ae027347",
+  "before_sha256": "fa003db5d0ac5f57bc1e6d01d88940611ac2911299c2d832ae513a33ae027347",
+  "cached_retrieve_exit_code": 0,
   "campaign_id": "star-atlas-medium-ingestion-2026-07",
+  "match": true,
   "method": "SHA-256 over sorted relative paths and bytes, before and after a cached retrieve rerun",
   "output_roots": [
     "archive/normalized/medium/star-atlas",
     "archive/source-records/medium/star-atlas",
     "archive/ingestion-packages/star-atlas-medium"
   ],
-  "before_sha256": "655eaeb4ecbd57e05f6d6f8fdb97dca2ba49b93fd2077c7a156f7da0b1fd5915",
-  "after_sha256": "655eaeb4ecbd57e05f6d6f8fdb97dca2ba49b93fd2077c7a156f7da0b1fd5915",
-  "match": true,
-  "verified_at": "2026-07-18T04:46:55Z"
+  "verified_at": "2026-07-21T22:28:48Z"
 }

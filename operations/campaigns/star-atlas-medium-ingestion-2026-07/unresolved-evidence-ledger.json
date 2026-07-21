@@ -1,0 +1,38 @@
+{
+  "campaign_id": "star-atlas-medium-ingestion-2026-07",
+  "gate_status": "TERMINAL_EXTERNAL_EVIDENCE_GAPS_DOCUMENTED",
+  "records": [
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-BDD35A45A4C27D45",
+      "corpus_effect": "Not included because official Star Atlas publication membership cannot be established.",
+      "gap_type": "MISSING_HISTORICAL_SHORTLINK_TARGET",
+      "last_live_result": "GENERIC_BRANCH_LANDING_PAGE_WITHOUT_TARGET",
+      "required_artifact": "A historical redirect capture or original message embed exposing the target URL.",
+      "url": "https://link.medium.com/9bdLazeJpEb"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-0B5B1684006C14EC",
+      "corpus_effect": "Not included because official Star Atlas publication membership cannot be established.",
+      "gap_type": "MISSING_HISTORICAL_SHORTLINK_TARGET",
+      "last_live_result": "GENERIC_BRANCH_LANDING_PAGE_WITHOUT_TARGET",
+      "required_artifact": "A historical redirect capture or original message embed exposing the target URL.",
+      "url": "https://link.medium.com/KklcuPPChDb"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-E0896E896AFAD978",
+      "corpus_effect": "Not included because official Star Atlas publication membership cannot be established.",
+      "gap_type": "MISSING_HISTORICAL_SHORTLINK_TARGET",
+      "last_live_result": "GENERIC_BRANCH_LANDING_PAGE_WITHOUT_TARGET",
+      "required_artifact": "A historical redirect capture or original message embed exposing the target URL.",
+      "url": "https://link.medium.com/ZER0IEOBYrb"
+    },
+    {
+      "candidate_source_id": "SRC-MEDIUM-STARATLAS-3677045BD8F3F441",
+      "corpus_effect": "Not included because official Star Atlas publication membership cannot be established.",
+      "gap_type": "MISSING_HISTORICAL_SHORTLINK_TARGET",
+      "last_live_result": "GENERIC_BRANCH_LANDING_PAGE_WITHOUT_TARGET",
+      "required_artifact": "A historical redirect capture or original message embed exposing the target URL.",
+      "url": "https://link.medium.com/lkwxbjr9Enb"
+    }
+  ]
+}

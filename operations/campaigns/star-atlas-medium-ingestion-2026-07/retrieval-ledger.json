@@ -1556,6 +1556,113 @@
       "authors": [
         "Star Atlas"
       ],
+      "canonical_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+      "content_sha256": "2586023d1dcc059b1791a046328ad1c14ca3c5835ee19f1a9d925b960a5f9270",
+      "extraction_confidence": "HIGH",
+      "manual_review_reasons": [],
+      "media_count": 1,
+      "media_successes": 0,
+      "medium_post_id": "25df4fc5ac8",
+      "published_at": "2022-08-12T20:52:22Z",
+      "publisher": "Star Atlas",
+      "raw_sha256": "f82f713e2fb06519e299de89a48ecc4afdf0822f33c7a6f60372110e062e10e7",
+      "retrieval": {
+        "attempts": [
+          {
+            "byte_count": 290330,
+            "complete": true,
+            "decision": "COMPLETE_ARTICLE_DOM",
+            "details": {
+              "json_ld": {
+                "@context": "https://schema.org",
+                "@id": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+                "@type": "SocialMediaPosting",
+                "author": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "creator": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "dateCreated": "2022-08-12T20:52:22Z",
+                "dateModified": "2022-08-12T20:52:22Z",
+                "datePublished": "2022-08-12T20:52:22Z",
+                "description": "The Truth about Gerio — Part I: Star Atlas Roadmap Scan #16 When all hope is lost, the group prepares for a last stand against the manifestations of the creature Atoph in the depths of Gerio’s …",
+                "headline": "The Truth about Gerio — Part I: Star Atlas Roadmap Scan #16",
+                "identifier": "25df4fc5ac8",
+                "image": [
+                  "https://miro.medium.com/0*78u0y1ScI8ds1BkI"
+                ],
+                "isAccessibleForFree": true,
+                "mainEntityOfPage": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+                "name": "The Truth about Gerio — Part I: Star Atlas Roadmap Scan #16",
+                "publisher": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/star-atlas",
+                  "@type": "Organization",
+                  "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "height": 1215,
+                    "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                    "width": 1485
+                  },
+                  "name": "Star Atlas",
+                  "sameAs": [
+                    "https://twitter.com/StarAtlas",
+                    "https://facebook.com/staratlasmmo",
+                    "https://instagram.com/staratlasgame/"
+                  ],
+                  "url": "https://medium.com/star-atlas"
+                },
+                "url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8"
+              },
+              "text_length": 18251
+            },
+            "error": null,
+            "final_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+            "http_status": 200,
+            "redirect_chain": [],
+            "requested_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+            "sha256": "f82f713e2fb06519e299de89a48ecc4afdf0822f33c7a6f60372110e062e10e7",
+            "tier": "LIVE_DIRECT_HTML"
+          }
+        ],
+        "captured_at": "2026-07-21T22:20:45Z",
+        "content_type": "text/html; charset=utf-8",
+        "discovery_sources": [
+          "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2E4DE78B3C355FA9.json",
+          "web_archive:wayback-publication"
+        ],
+        "final_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+        "http_status": 200,
+        "raw_byte_count": 290330,
+        "raw_sha256": "f82f713e2fb06519e299de89a48ecc4afdf0822f33c7a6f60372110e062e10e7",
+        "redirect_chain": [],
+        "referrer_source_ids": [],
+        "requested_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+        "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-25DF4FC5AC8/article.html",
+        "selected_tier": "LIVE_DIRECT_HTML"
+      },
+      "retrieval_tier": "LIVE_DIRECT_HTML",
+      "source_id": "SRC-MEDIUM-STARATLAS-25DF4FC5AC8",
+      "status": "SUCCESS",
+      "title": "The Truth about Gerio — Part I: Star Atlas Roadmap Scan #16",
+      "updated_at": "2022-08-12T20:52:22Z"
+    },
+    {
+      "authors": [
+        "Star Atlas"
+      ],
       "canonical_url": "https://medium.com/star-atlas/star-atlas-hosts-426live-a-community-discord-event-announcing-the-star-atlas-dao-266a716957cc",
       "content_sha256": "c648cc3b6132acd9cdbdc072ac734d134a1d4b0135e8f671ef19126907d01519",
       "extraction_confidence": "HIGH",
@@ -3103,6 +3210,116 @@
       "status": "SUCCESS",
       "title": "New Star Atlas State of the Economy Report Highlights Liberalization of Player Resource Economy",
       "updated_at": "2023-06-30T14:00:08Z"
+    },
+    {
+      "authors": [
+        "Star Atlas"
+      ],
+      "canonical_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+      "content_sha256": "0f0d7b46f97e730730ab1cae2a3fe2ac0bedf42ab7a65e52420096ae1fe2ac5d",
+      "extraction_confidence": "HIGH",
+      "manual_review_reasons": [],
+      "media_count": 1,
+      "media_successes": 0,
+      "medium_post_id": "36f38988861",
+      "published_at": "2022-09-23T17:54:32Z",
+      "publisher": "Star Atlas",
+      "raw_sha256": "489f01218127e27a962ebb6e4446ace13c4e593d3eb326cd7b789bec8e3a8502",
+      "retrieval": {
+        "attempts": [
+          {
+            "byte_count": 318124,
+            "complete": true,
+            "decision": "COMPLETE_ARTICLE_DOM",
+            "details": {
+              "json_ld": {
+                "@context": "https://schema.org",
+                "@id": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+                "@type": "SocialMediaPosting",
+                "author": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "creator": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "dateCreated": "2022-09-23T17:54:32Z",
+                "dateModified": "2022-09-23T18:09:11Z",
+                "datePublished": "2022-09-23T17:54:32Z",
+                "description": "The Council of Peace Academy — Mission Showroom: Star Atlas Roadmap Scan #21 At another point in the galaxy, Asha, one of the most prominent captains of the Council of Peace, is summoned in urgency …",
+                "headline": "The Council of Peace Academy — Mission Showroom: Star Atlas Roadmap Scan #21",
+                "identifier": "36f38988861",
+                "image": [
+                  "https://miro.medium.com/0*LLEvZrD2PCtYOIUv"
+                ],
+                "isAccessibleForFree": true,
+                "mainEntityOfPage": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+                "name": "The Council of Peace Academy — Mission Showroom: Star Atlas Roadmap Scan #21",
+                "publisher": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/star-atlas",
+                  "@type": "Organization",
+                  "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "height": 1215,
+                    "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                    "width": 1485
+                  },
+                  "name": "Star Atlas",
+                  "sameAs": [
+                    "https://twitter.com/StarAtlas",
+                    "https://facebook.com/staratlasmmo",
+                    "https://instagram.com/staratlasgame/"
+                  ],
+                  "url": "https://medium.com/star-atlas"
+                },
+                "url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861"
+              },
+              "text_length": 21143
+            },
+            "error": null,
+            "final_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+            "http_status": 200,
+            "redirect_chain": [],
+            "requested_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+            "sha256": "489f01218127e27a962ebb6e4446ace13c4e593d3eb326cd7b789bec8e3a8502",
+            "tier": "LIVE_DIRECT_HTML"
+          }
+        ],
+        "captured_at": "2026-07-21T22:20:45Z",
+        "content_type": "text/html; charset=utf-8",
+        "discovery_sources": [
+          "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-BD0CD688817291A3.json",
+          "repository:archive/normalized/discord-announcements/messages.jsonl",
+          "web_archive:wayback-publication"
+        ],
+        "final_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+        "http_status": 200,
+        "raw_byte_count": 318124,
+        "raw_sha256": "489f01218127e27a962ebb6e4446ace13c4e593d3eb326cd7b789bec8e3a8502",
+        "redirect_chain": [],
+        "referrer_source_ids": [
+          "SA-DISCORD-ANN-FB7939A1D83F47C9"
+        ],
+        "requested_url": "https://medium.com/star-atlas/the-council-of-peace-academy-mission-showroom-star-atlas-roadmap-scan-21-36f38988861",
+        "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-36F38988861/article.html",
+        "selected_tier": "LIVE_DIRECT_HTML"
+      },
+      "retrieval_tier": "LIVE_DIRECT_HTML",
+      "source_id": "SRC-MEDIUM-STARATLAS-36F38988861",
+      "status": "SUCCESS",
+      "title": "The Council of Peace Academy — Mission Showroom: Star Atlas Roadmap Scan #21",
+      "updated_at": "2022-09-23T18:09:11Z"
     },
     {
       "authors": [
@@ -8453,6 +8670,127 @@
       "authors": [
         "Star Atlas"
       ],
+      "canonical_url": "https://medium.com/star-atlas/equipping-the-world-for-the-golden-age-of-space-exploration-inaugural-2022-spaceship-nft-drop-759328e6949",
+      "content_sha256": "ba4cdd6313ce6af088bd04f1b450452af1b8feb7bae1c8dad32b2ba2b565a9b9",
+      "extraction_confidence": "HIGH",
+      "manual_review_reasons": [],
+      "media_count": 1,
+      "media_successes": 0,
+      "medium_post_id": "759328e6949",
+      "published_at": "2022-02-02T07:41:26Z",
+      "publisher": "Star Atlas",
+      "raw_sha256": "6c9f10ec9a29f404eae904b951202fdc02bbab3269546d01c999cb3461d35619",
+      "retrieval": {
+        "attempts": [
+          {
+            "byte_count": 246192,
+            "complete": true,
+            "decision": "COMPLETE_ARTICLE_DOM",
+            "details": {
+              "json_ld": {
+                "@context": "https://schema.org",
+                "@id": "https://medium.com/star-atlas/equipping-the-world-for-the-golden-age-of-space-exploration-inaugural-2022-spaceship-nft-drop-759328e6949",
+                "@type": "SocialMediaPosting",
+                "author": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "creator": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "dateCreated": "2022-02-02T07:41:26Z",
+                "dateModified": "2022-02-02T07:41:26Z",
+                "datePublished": "2022-02-02T07:41:26Z",
+                "description": "Equipping the World for the Golden Age of Space Exploration: Inaugural 2022 Spaceship NFT Drop Star Atlas launches the next phase of its Galactic Asset Offering featuring a series of new …",
+                "headline": "Equipping the World for the Golden Age of Space Exploration: Inaugural 2022 Spaceship NFT Drop",
+                "identifier": "759328e6949",
+                "image": [
+                  "https://miro.medium.com/1*cRweMxWNORUdxJRcV8vx2w.jpeg"
+                ],
+                "isAccessibleForFree": true,
+                "mainEntityOfPage": "https://medium.com/star-atlas/equipping-the-world-for-the-golden-age-of-space-exploration-inaugural-2022-spaceship-nft-drop-759328e6949",
+                "name": "Equipping the World for the Golden Age of Space Exploration: Inaugural 2022 Spaceship NFT Drop",
+                "publisher": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/star-atlas",
+                  "@type": "Organization",
+                  "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "height": 1215,
+                    "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                    "width": 1485
+                  },
+                  "name": "Star Atlas",
+                  "sameAs": [
+                    "https://twitter.com/StarAtlas",
+                    "https://facebook.com/staratlasmmo",
+                    "https://instagram.com/staratlasgame/"
+                  ],
+                  "url": "https://medium.com/star-atlas"
+                },
+                "url": "https://medium.com/star-atlas/equipping-the-world-for-the-golden-age-of-space-exploration-inaugural-2022-spaceship-nft-drop-759328e6949"
+              },
+              "text_length": 4541
+            },
+            "error": null,
+            "final_url": "https://medium.com/star-atlas/2022-inaugural-spaceship-nft-drop-golden-age-of-space-exploration-759328e6949",
+            "http_status": 200,
+            "redirect_chain": [
+              {
+                "from": "http://medium.com/star-atlas/2022-inaugural-spaceship-nft-drop-golden-age-of-space-exploration-759328e6949",
+                "status": 301,
+                "to": "https://medium.com/star-atlas/2022-inaugural-spaceship-nft-drop-golden-age-of-space-exploration-759328e6949"
+              }
+            ],
+            "requested_url": "http://medium.com/star-atlas/2022-inaugural-spaceship-nft-drop-golden-age-of-space-exploration-759328e6949",
+            "sha256": "6c9f10ec9a29f404eae904b951202fdc02bbab3269546d01c999cb3461d35619",
+            "tier": "LIVE_DIRECT_HTML"
+          }
+        ],
+        "captured_at": "2026-07-21T22:20:47Z",
+        "content_type": "text/html; charset=utf-8",
+        "discovery_sources": [
+          "repository:archive/normalized/discord-announcements/messages.jsonl",
+          "web_archive:wayback-publication"
+        ],
+        "final_url": "https://medium.com/star-atlas/2022-inaugural-spaceship-nft-drop-golden-age-of-space-exploration-759328e6949",
+        "http_status": 200,
+        "raw_byte_count": 246192,
+        "raw_sha256": "6c9f10ec9a29f404eae904b951202fdc02bbab3269546d01c999cb3461d35619",
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/2022-inaugural-spaceship-nft-drop-golden-age-of-space-exploration-759328e6949",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/2022-inaugural-spaceship-nft-drop-golden-age-of-space-exploration-759328e6949"
+          }
+        ],
+        "referrer_source_ids": [
+          "SA-DISCORD-ANN-7E38F3063ADD803A"
+        ],
+        "requested_url": "http://medium.com/star-atlas/2022-inaugural-spaceship-nft-drop-golden-age-of-space-exploration-759328e6949",
+        "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-759328E6949/article.html",
+        "selected_tier": "LIVE_DIRECT_HTML"
+      },
+      "retrieval_tier": "LIVE_DIRECT_HTML",
+      "source_id": "SRC-MEDIUM-STARATLAS-759328E6949",
+      "status": "SUCCESS",
+      "title": "Equipping the World for the Golden Age of Space Exploration: Inaugural 2022 Spaceship NFT Drop",
+      "updated_at": "2022-02-02T07:41:26Z"
+    },
+    {
+      "authors": [
+        "Star Atlas"
+      ],
       "canonical_url": "https://medium.com/star-atlas/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay-experience-7661221574a1",
       "content_sha256": "0334d3961780ba62adf53817992f2ff4a3a25727fbf39c9316672efcf31817d2",
       "extraction_confidence": "HIGH",
@@ -11518,6 +11856,115 @@
       "authors": [
         "Star Atlas"
       ],
+      "canonical_url": "https://medium.com/star-atlas/star-atlas-reveals-the-third-generation-of-the-ship-configuration-system-9c067d2e681",
+      "content_sha256": "4cc8e885be7822eff68b0402ee672a8faa03f866b98e78b01f9ff01d48764adf",
+      "extraction_confidence": "HIGH",
+      "manual_review_reasons": [],
+      "media_count": 1,
+      "media_successes": 0,
+      "medium_post_id": "9c067d2e681",
+      "published_at": "2023-09-18T19:56:54Z",
+      "publisher": "Star Atlas",
+      "raw_sha256": "efaecadf2517e2772bb65d6916d7f1c5ae6ac3a3a0128900e32fc591714b6e21",
+      "retrieval": {
+        "attempts": [
+          {
+            "byte_count": 273866,
+            "complete": true,
+            "decision": "COMPLETE_ARTICLE_DOM",
+            "details": {
+              "json_ld": {
+                "@context": "https://schema.org",
+                "@id": "https://medium.com/star-atlas/star-atlas-reveals-the-third-generation-of-the-ship-configuration-system-9c067d2e681",
+                "@type": "SocialMediaPosting",
+                "author": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "creator": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "dateCreated": "2023-09-18T19:56:54Z",
+                "dateModified": "2023-09-19T14:41:02Z",
+                "datePublished": "2023-09-18T19:56:54Z",
+                "description": "The new Star Atlas system accompanies the next series of game modules including soon to be released SAGE Labs space strategy economic loop.",
+                "headline": "Star Atlas Reveals the Third Generation of the Ship Configuration System",
+                "identifier": "9c067d2e681",
+                "image": [
+                  "https://miro.medium.com/0*Z1J2e6dOm-RZuShY"
+                ],
+                "isAccessibleForFree": true,
+                "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-reveals-the-third-generation-of-the-ship-configuration-system-9c067d2e681",
+                "name": "Star Atlas Reveals the Third Generation of the Ship Configuration System",
+                "publisher": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/star-atlas",
+                  "@type": "Organization",
+                  "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "height": 1215,
+                    "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                    "width": 1485
+                  },
+                  "name": "Star Atlas",
+                  "sameAs": [
+                    "https://twitter.com/StarAtlas",
+                    "https://facebook.com/staratlasmmo",
+                    "https://instagram.com/staratlasgame/"
+                  ],
+                  "url": "https://medium.com/star-atlas"
+                },
+                "url": "https://medium.com/star-atlas/star-atlas-reveals-the-third-generation-of-the-ship-configuration-system-9c067d2e681"
+              },
+              "text_length": 8428
+            },
+            "error": null,
+            "final_url": "https://medium.com/star-atlas/star-atlas-3rd-generation-ship-configuration-system-9c067d2e681",
+            "http_status": 200,
+            "redirect_chain": [],
+            "requested_url": "https://medium.com/star-atlas/star-atlas-3rd-generation-ship-configuration-system-9c067d2e681",
+            "sha256": "efaecadf2517e2772bb65d6916d7f1c5ae6ac3a3a0128900e32fc591714b6e21",
+            "tier": "LIVE_DIRECT_HTML"
+          }
+        ],
+        "captured_at": "2026-07-21T22:20:47Z",
+        "content_type": "text/html; charset=utf-8",
+        "discovery_sources": [
+          "repository:archive/normalized/discord-announcements/messages.jsonl",
+          "web_archive:wayback-publication"
+        ],
+        "final_url": "https://medium.com/star-atlas/star-atlas-3rd-generation-ship-configuration-system-9c067d2e681",
+        "http_status": 200,
+        "raw_byte_count": 273866,
+        "raw_sha256": "efaecadf2517e2772bb65d6916d7f1c5ae6ac3a3a0128900e32fc591714b6e21",
+        "redirect_chain": [],
+        "referrer_source_ids": [
+          "SA-DISCORD-ANN-D21C927D12CDDF79"
+        ],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-3rd-generation-ship-configuration-system-9c067d2e681",
+        "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-9C067D2E681/article.html",
+        "selected_tier": "LIVE_DIRECT_HTML"
+      },
+      "retrieval_tier": "LIVE_DIRECT_HTML",
+      "source_id": "SRC-MEDIUM-STARATLAS-9C067D2E681",
+      "status": "SUCCESS",
+      "title": "Star Atlas Reveals the Third Generation of the Ship Configuration System",
+      "updated_at": "2023-09-19T14:41:02Z"
+    },
+    {
+      "authors": [
+        "Star Atlas"
+      ],
       "canonical_url": "https://medium.com/star-atlas/star-atlas-dao-council-election-a-new-chapter-in-decentralized-governance-a0858245ec4e",
       "content_sha256": "78aeb8e5e2775b0a8946ad82ee032698e46f23c856bfb5be8496cf3712bdc74b",
       "extraction_confidence": "HIGH",
@@ -13650,6 +14097,115 @@
       "status": "SUCCESS",
       "title": "A Dawn for a DAO — Star Atlas Kickstarts Its Path Toward Political Decentralization",
       "updated_at": "2024-07-08T17:54:19Z"
+    },
+    {
+      "authors": [
+        "Star Atlas"
+      ],
+      "canonical_url": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy-report-b06f3b8d9b4",
+      "content_sha256": "2aba9a66fd92ecd9d75fef97326bf4ef231ba211d97a0dfa28b2d21619c6b23e",
+      "extraction_confidence": "HIGH",
+      "manual_review_reasons": [],
+      "media_count": 1,
+      "media_successes": 0,
+      "medium_post_id": "b06f3b8d9b4",
+      "published_at": "2022-06-30T22:30:50Z",
+      "publisher": "Star Atlas",
+      "raw_sha256": "fa2b5ebf3d8ac39c68507b7611f175149b3a506534a5054ad76063f860e07ec7",
+      "retrieval": {
+        "attempts": [
+          {
+            "byte_count": 244714,
+            "complete": true,
+            "decision": "COMPLETE_ARTICLE_DOM",
+            "details": {
+              "json_ld": {
+                "@context": "https://schema.org",
+                "@id": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy-report-b06f3b8d9b4",
+                "@type": "SocialMediaPosting",
+                "author": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "creator": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "dateCreated": "2022-06-30T22:30:50Z",
+                "dateModified": "2022-06-30T22:30:50Z",
+                "datePublished": "2022-06-30T22:30:50Z",
+                "description": "Star Atlas Releases its Inaugural Triple-A State of the Economy Report The quarterly paper of record offers economic insight into the world’s fastest growing ecosystem of the gaming metaverse The …",
+                "headline": "Star Atlas Releases its Inaugural Triple-A State of the Economy Report",
+                "identifier": "b06f3b8d9b4",
+                "image": [
+                  "https://miro.medium.com/1*xfLmKbKe7TXpEWREGZ2q8Q.jpeg"
+                ],
+                "isAccessibleForFree": true,
+                "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy-report-b06f3b8d9b4",
+                "name": "Star Atlas Releases its Inaugural Triple-A State of the Economy Report",
+                "publisher": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/star-atlas",
+                  "@type": "Organization",
+                  "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "height": 1215,
+                    "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                    "width": 1485
+                  },
+                  "name": "Star Atlas",
+                  "sameAs": [
+                    "https://twitter.com/StarAtlas",
+                    "https://facebook.com/staratlasmmo",
+                    "https://instagram.com/staratlasgame/"
+                  ],
+                  "url": "https://medium.com/star-atlas"
+                },
+                "url": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy-report-b06f3b8d9b4"
+              },
+              "text_length": 4830
+            },
+            "error": null,
+            "final_url": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy-report-b06f3b8d9b4",
+            "http_status": 200,
+            "redirect_chain": [],
+            "requested_url": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy-report-b06f3b8d9b4",
+            "sha256": "fa2b5ebf3d8ac39c68507b7611f175149b3a506534a5054ad76063f860e07ec7",
+            "tier": "LIVE_DIRECT_HTML"
+          }
+        ],
+        "captured_at": "2026-07-21T22:20:48Z",
+        "content_type": "text/html; charset=utf-8",
+        "discovery_sources": [
+          "repository:archive/normalized/discord-announcements/messages.jsonl",
+          "web_archive:wayback-publication"
+        ],
+        "final_url": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy-report-b06f3b8d9b4",
+        "http_status": 200,
+        "raw_byte_count": 244714,
+        "raw_sha256": "fa2b5ebf3d8ac39c68507b7611f175149b3a506534a5054ad76063f860e07ec7",
+        "redirect_chain": [],
+        "referrer_source_ids": [
+          "SA-DISCORD-ANN-386846AA41E9C751"
+        ],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-releases-its-inaugural-triple-a-state-of-the-economy-report-b06f3b8d9b4",
+        "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-B06F3B8D9B4/article.html",
+        "selected_tier": "LIVE_DIRECT_HTML"
+      },
+      "retrieval_tier": "LIVE_DIRECT_HTML",
+      "source_id": "SRC-MEDIUM-STARATLAS-B06F3B8D9B4",
+      "status": "SUCCESS",
+      "title": "Star Atlas Releases its Inaugural Triple-A State of the Economy Report",
+      "updated_at": "2022-06-30T22:30:50Z"
     },
     {
       "authors": [
@@ -16478,6 +17034,112 @@
       "authors": [
         "Star Atlas"
       ],
+      "canonical_url": "https://medium.com/star-atlas/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel-dc499866cc2",
+      "content_sha256": "5f3159dc2c594c5cc7d0d9abb9c9fc4da185463d0b49e110524fb47adfacb0cb",
+      "extraction_confidence": "HIGH",
+      "manual_review_reasons": [],
+      "media_count": 1,
+      "media_successes": 0,
+      "medium_post_id": "dc499866cc2",
+      "published_at": "2022-11-09T19:51:58Z",
+      "publisher": "Star Atlas",
+      "raw_sha256": "2250eb3b09dd09a1dcd011c23f5bcec8b3bdcb5b8037563c8a30f022cc165876",
+      "retrieval": {
+        "attempts": [
+          {
+            "byte_count": 250959,
+            "complete": true,
+            "decision": "COMPLETE_ARTICLE_DOM",
+            "details": {
+              "json_ld": {
+                "@context": "https://schema.org",
+                "@id": "https://medium.com/star-atlas/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel-dc499866cc2",
+                "@type": "SocialMediaPosting",
+                "author": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "creator": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "dateCreated": "2022-11-09T19:51:58Z",
+                "dateModified": "2022-11-22T19:38:48Z",
+                "datePublished": "2022-11-09T19:51:58Z",
+                "description": "Thrilling to the CORE — Star Atlas Releases Epic Graphic Novel Explorers are now able to immerse themselves in this comic adventure set in the vast universe of Star Atlas. Members of the Star Atlas …",
+                "headline": "Thrilling to the CORE — Star Atlas Releases Epic Graphic Novel",
+                "identifier": "dc499866cc2",
+                "image": [
+                  "https://miro.medium.com/0*YK3KiTVPugK3MJ2v"
+                ],
+                "isAccessibleForFree": true,
+                "mainEntityOfPage": "https://medium.com/star-atlas/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel-dc499866cc2",
+                "name": "Thrilling to the CORE — Star Atlas Releases Epic Graphic Novel",
+                "publisher": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/star-atlas",
+                  "@type": "Organization",
+                  "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "height": 1215,
+                    "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                    "width": 1485
+                  },
+                  "name": "Star Atlas",
+                  "sameAs": [
+                    "https://twitter.com/StarAtlas",
+                    "https://facebook.com/staratlasmmo",
+                    "https://instagram.com/staratlasgame/"
+                  ],
+                  "url": "https://medium.com/star-atlas"
+                },
+                "url": "https://medium.com/star-atlas/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel-dc499866cc2"
+              },
+              "text_length": 5383
+            },
+            "error": null,
+            "final_url": "https://medium.com/star-atlas/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel-dc499866cc2",
+            "http_status": 200,
+            "redirect_chain": [],
+            "requested_url": "https://medium.com/star-atlas/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel-dc499866cc2",
+            "sha256": "2250eb3b09dd09a1dcd011c23f5bcec8b3bdcb5b8037563c8a30f022cc165876",
+            "tier": "LIVE_DIRECT_HTML"
+          }
+        ],
+        "captured_at": "2026-07-21T22:20:48Z",
+        "content_type": "text/html; charset=utf-8",
+        "discovery_sources": [
+          "web_archive:wayback-publication"
+        ],
+        "final_url": "https://medium.com/star-atlas/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel-dc499866cc2",
+        "http_status": 200,
+        "raw_byte_count": 250959,
+        "raw_sha256": "2250eb3b09dd09a1dcd011c23f5bcec8b3bdcb5b8037563c8a30f022cc165876",
+        "redirect_chain": [],
+        "referrer_source_ids": [],
+        "requested_url": "https://medium.com/star-atlas/thrilling-to-the-core-star-atlas-releases-epic-graphic-novel-dc499866cc2",
+        "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-DC499866CC2/article.html",
+        "selected_tier": "LIVE_DIRECT_HTML"
+      },
+      "retrieval_tier": "LIVE_DIRECT_HTML",
+      "source_id": "SRC-MEDIUM-STARATLAS-DC499866CC2",
+      "status": "SUCCESS",
+      "title": "Thrilling to the CORE — Star Atlas Releases Epic Graphic Novel",
+      "updated_at": "2022-11-22T19:38:48Z"
+    },
+    {
+      "authors": [
+        "Star Atlas"
+      ],
       "canonical_url": "https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d",
       "content_sha256": "ec546b287455c4ccf663318e53574f69ffc1e1c2212402906587dc70ffe7b681",
       "extraction_confidence": "HIGH",
@@ -16595,6 +17257,112 @@
       "status": "SUCCESS",
       "title": "Introducing COPA — a Festival of Guilds - Star Atlas - Medium",
       "updated_at": "2022-05-21T02:17:29.683000Z"
+    },
+    {
+      "authors": [
+        "Star Atlas"
+      ],
+      "canonical_url": "https://medium.com/star-atlas/star-atlas-nft-cosmos-the-hunt-for-an-ancient-artifact-part-ii-de789d607b7",
+      "content_sha256": "60f49ba085f29d7e91f853f8889cfcf775d1c14880d77f2e30ae05d538e44548",
+      "extraction_confidence": "HIGH",
+      "manual_review_reasons": [],
+      "media_count": 1,
+      "media_successes": 0,
+      "medium_post_id": "de789d607b7",
+      "published_at": "2021-11-05T01:09:23Z",
+      "publisher": "Star Atlas",
+      "raw_sha256": "4294c07cc5daba43f402fa877beba602e2d1046579c6c9868b2e7260e2822c8f",
+      "retrieval": {
+        "attempts": [
+          {
+            "byte_count": 257056,
+            "complete": true,
+            "decision": "COMPLETE_ARTICLE_DOM",
+            "details": {
+              "json_ld": {
+                "@context": "https://schema.org",
+                "@id": "https://medium.com/star-atlas/star-atlas-nft-cosmos-the-hunt-for-an-ancient-artifact-part-ii-de789d607b7",
+                "@type": "SocialMediaPosting",
+                "author": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "creator": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "dateCreated": "2021-11-05T01:09:23Z",
+                "dateModified": "2021-11-05T01:09:23Z",
+                "datePublished": "2021-11-05T01:09:23Z",
+                "description": "From an ONI explorer to an Ustur collector, the battle for the NFT that is the Vintage Astronaut Suit is far from over.",
+                "headline": "Star Atlas NFT Cosmos: The Hunt for an Ancient Artifact — Part II",
+                "identifier": "de789d607b7",
+                "image": [
+                  "https://miro.medium.com/1*jKAXLRYJF6nq258ipa-fPg.jpeg"
+                ],
+                "isAccessibleForFree": true,
+                "mainEntityOfPage": "https://medium.com/star-atlas/star-atlas-nft-cosmos-the-hunt-for-an-ancient-artifact-part-ii-de789d607b7",
+                "name": "Star Atlas NFT Cosmos: The Hunt for an Ancient Artifact — Part II",
+                "publisher": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/star-atlas",
+                  "@type": "Organization",
+                  "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "height": 1215,
+                    "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                    "width": 1485
+                  },
+                  "name": "Star Atlas",
+                  "sameAs": [
+                    "https://twitter.com/StarAtlas",
+                    "https://facebook.com/staratlasmmo",
+                    "https://instagram.com/staratlasgame/"
+                  ],
+                  "url": "https://medium.com/star-atlas"
+                },
+                "url": "https://medium.com/star-atlas/star-atlas-nft-cosmos-the-hunt-for-an-ancient-artifact-part-ii-de789d607b7"
+              },
+              "text_length": 6803
+            },
+            "error": null,
+            "final_url": "https://medium.com/star-atlas/star-atlas-nft-ancient-artifact-ustur-de789d607b7",
+            "http_status": 200,
+            "redirect_chain": [],
+            "requested_url": "https://medium.com/star-atlas/star-atlas-nft-ancient-artifact-ustur-de789d607b7",
+            "sha256": "4294c07cc5daba43f402fa877beba602e2d1046579c6c9868b2e7260e2822c8f",
+            "tier": "LIVE_DIRECT_HTML"
+          }
+        ],
+        "captured_at": "2026-07-21T22:20:49Z",
+        "content_type": "text/html; charset=utf-8",
+        "discovery_sources": [
+          "web_archive:wayback-publication"
+        ],
+        "final_url": "https://medium.com/star-atlas/star-atlas-nft-ancient-artifact-ustur-de789d607b7",
+        "http_status": 200,
+        "raw_byte_count": 257056,
+        "raw_sha256": "4294c07cc5daba43f402fa877beba602e2d1046579c6c9868b2e7260e2822c8f",
+        "redirect_chain": [],
+        "referrer_source_ids": [],
+        "requested_url": "https://medium.com/star-atlas/star-atlas-nft-ancient-artifact-ustur-de789d607b7",
+        "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-DE789D607B7/article.html",
+        "selected_tier": "LIVE_DIRECT_HTML"
+      },
+      "retrieval_tier": "LIVE_DIRECT_HTML",
+      "source_id": "SRC-MEDIUM-STARATLAS-DE789D607B7",
+      "status": "SUCCESS",
+      "title": "Star Atlas NFT Cosmos: The Hunt for an Ancient Artifact — Part II",
+      "updated_at": "2021-11-05T01:09:23Z"
     },
     {
       "authors": [
@@ -19276,6 +20044,127 @@
       "status": "SUCCESS",
       "title": "Ustur Executive Surveyor Report: Star Atlas Roadmap Scan #01",
       "updated_at": "2022-03-19T02:29:53.234000Z"
+    },
+    {
+      "authors": [
+        "Star Atlas"
+      ],
+      "canonical_url": "https://medium.com/star-atlas/firmam3ntal-star-makers-inaugural-collection-by-star-atlas-and-the-fabricant-levels-up-worlds-f95b87d1c34",
+      "content_sha256": "082bed916623f563f9f1d079d44d219a8b2d710d5a064c1396c8ae14d94e1ce7",
+      "extraction_confidence": "HIGH",
+      "manual_review_reasons": [],
+      "media_count": 1,
+      "media_successes": 0,
+      "medium_post_id": "f95b87d1c34",
+      "published_at": "2021-09-16T19:02:55Z",
+      "publisher": "Star Atlas",
+      "raw_sha256": "2a0baef043541ec90c00913ed0a696df2cedd1a634987189b0279d0f1e0341e2",
+      "retrieval": {
+        "attempts": [
+          {
+            "byte_count": 307345,
+            "complete": true,
+            "decision": "COMPLETE_ARTICLE_DOM",
+            "details": {
+              "json_ld": {
+                "@context": "https://schema.org",
+                "@id": "https://medium.com/star-atlas/firmam3ntal-star-makers-inaugural-collection-by-star-atlas-and-the-fabricant-levels-up-worlds-f95b87d1c34",
+                "@type": "SocialMediaPosting",
+                "author": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "creator": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/@staratlasgame",
+                  "@type": "Person",
+                  "identifier": "staratlasgame",
+                  "name": "Star Atlas",
+                  "url": "https://medium.com/@staratlasgame"
+                },
+                "dateCreated": "2021-09-16T19:02:55Z",
+                "dateModified": "2021-09-23T16:47:51Z",
+                "datePublished": "2021-09-16T19:02:55Z",
+                "description": "FIRMAM3NTAL: STAR✶MAKERS — Inaugural Collection by Star Atlas and The Fabricant Levels Up World’s Digital Fashion Next-gen on-chain merch designed by The Fabricant features exclusive Star Atlas …",
+                "headline": "FIRMAM3NTAL: STAR✶MAKERS — Inaugural Collection by Star Atlas and The Fabricant Levels Up World’s…",
+                "identifier": "f95b87d1c34",
+                "image": [
+                  "https://miro.medium.com/1*7eUwYmerhO--gxDbBrnltQ.gif"
+                ],
+                "isAccessibleForFree": true,
+                "mainEntityOfPage": "https://medium.com/star-atlas/firmam3ntal-star-makers-inaugural-collection-by-star-atlas-and-the-fabricant-levels-up-worlds-f95b87d1c34",
+                "name": "FIRMAM3NTAL: STAR✶MAKERS — Inaugural Collection by Star Atlas and The Fabricant Levels Up World’s…",
+                "publisher": {
+                  "@context": "https://schema.org",
+                  "@id": "https://medium.com/star-atlas",
+                  "@type": "Organization",
+                  "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "height": 1215,
+                    "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+                    "width": 1485
+                  },
+                  "name": "Star Atlas",
+                  "sameAs": [
+                    "https://twitter.com/StarAtlas",
+                    "https://facebook.com/staratlasmmo",
+                    "https://instagram.com/staratlasgame/"
+                  ],
+                  "url": "https://medium.com/star-atlas"
+                },
+                "url": "https://medium.com/star-atlas/firmam3ntal-star-makers-inaugural-collection-by-star-atlas-and-the-fabricant-levels-up-worlds-f95b87d1c34"
+              },
+              "text_length": 9354
+            },
+            "error": null,
+            "final_url": "https://medium.com/star-atlas/firmam3ntal-star-makers-digital-fashion-collection-star-atlas-the-fabricant-f95b87d1c34",
+            "http_status": 200,
+            "redirect_chain": [
+              {
+                "from": "http://medium.com/star-atlas/firmam3ntal-star-makers-digital-fashion-collection-star-atlas-the-fabricant-f95b87d1c34",
+                "status": 301,
+                "to": "https://medium.com/star-atlas/firmam3ntal-star-makers-digital-fashion-collection-star-atlas-the-fabricant-f95b87d1c34"
+              }
+            ],
+            "requested_url": "http://medium.com/star-atlas/firmam3ntal-star-makers-digital-fashion-collection-star-atlas-the-fabricant-f95b87d1c34",
+            "sha256": "2a0baef043541ec90c00913ed0a696df2cedd1a634987189b0279d0f1e0341e2",
+            "tier": "LIVE_DIRECT_HTML"
+          }
+        ],
+        "captured_at": "2026-07-21T22:20:50Z",
+        "content_type": "text/html; charset=utf-8",
+        "discovery_sources": [
+          "repository:archive/normalized/discord-announcements/messages.jsonl",
+          "web_archive:wayback-publication"
+        ],
+        "final_url": "https://medium.com/star-atlas/firmam3ntal-star-makers-digital-fashion-collection-star-atlas-the-fabricant-f95b87d1c34",
+        "http_status": 200,
+        "raw_byte_count": 307345,
+        "raw_sha256": "2a0baef043541ec90c00913ed0a696df2cedd1a634987189b0279d0f1e0341e2",
+        "redirect_chain": [
+          {
+            "from": "http://medium.com/star-atlas/firmam3ntal-star-makers-digital-fashion-collection-star-atlas-the-fabricant-f95b87d1c34",
+            "status": 301,
+            "to": "https://medium.com/star-atlas/firmam3ntal-star-makers-digital-fashion-collection-star-atlas-the-fabricant-f95b87d1c34"
+          }
+        ],
+        "referrer_source_ids": [
+          "SA-DISCORD-ANN-1FD97DCC8F45089B"
+        ],
+        "requested_url": "http://medium.com/star-atlas/firmam3ntal-star-makers-digital-fashion-collection-star-atlas-the-fabricant-f95b87d1c34",
+        "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-F95B87D1C34/article.html",
+        "selected_tier": "LIVE_DIRECT_HTML"
+      },
+      "retrieval_tier": "LIVE_DIRECT_HTML",
+      "source_id": "SRC-MEDIUM-STARATLAS-F95B87D1C34",
+      "status": "SUCCESS",
+      "title": "FIRMAM3NTAL: STAR✶MAKERS — Inaugural Collection by Star Atlas and The Fabricant Levels Up World’s…",
+      "updated_at": "2021-09-23T16:47:51Z"
     },
     {
       "authors": [

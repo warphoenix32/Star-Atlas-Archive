@@ -1,0 +1,87 @@
+{
+  "attempts": [
+    {
+      "byte_count": 290330,
+      "complete": true,
+      "decision": "COMPLETE_ARTICLE_DOM",
+      "details": {
+        "json_ld": {
+          "@context": "https://schema.org",
+          "@id": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+          "@type": "SocialMediaPosting",
+          "author": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "creator": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/@staratlasgame",
+            "@type": "Person",
+            "identifier": "staratlasgame",
+            "name": "Star Atlas",
+            "url": "https://medium.com/@staratlasgame"
+          },
+          "dateCreated": "2022-08-12T20:52:22Z",
+          "dateModified": "2022-08-12T20:52:22Z",
+          "datePublished": "2022-08-12T20:52:22Z",
+          "description": "The Truth about Gerio — Part I: Star Atlas Roadmap Scan #16 When all hope is lost, the group prepares for a last stand against the manifestations of the creature Atoph in the depths of Gerio’s …",
+          "headline": "The Truth about Gerio — Part I: Star Atlas Roadmap Scan #16",
+          "identifier": "25df4fc5ac8",
+          "image": [
+            "https://miro.medium.com/0*78u0y1ScI8ds1BkI"
+          ],
+          "isAccessibleForFree": true,
+          "mainEntityOfPage": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+          "name": "The Truth about Gerio — Part I: Star Atlas Roadmap Scan #16",
+          "publisher": {
+            "@context": "https://schema.org",
+            "@id": "https://medium.com/star-atlas",
+            "@type": "Organization",
+            "description": "Star Atlas is a metaverse introducing a unique gaming experience by harnessing the power of traditional core game and blockchain mechanics.",
+            "logo": {
+              "@type": "ImageObject",
+              "height": 1215,
+              "url": "https://miro.medium.com/v2/resize:fit:1485/1%2ANUmmYROVLt19ikAbCunjXQ.png",
+              "width": 1485
+            },
+            "name": "Star Atlas",
+            "sameAs": [
+              "https://twitter.com/StarAtlas",
+              "https://facebook.com/staratlasmmo",
+              "https://instagram.com/staratlasgame/"
+            ],
+            "url": "https://medium.com/star-atlas"
+          },
+          "url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8"
+        },
+        "text_length": 18251
+      },
+      "error": null,
+      "final_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+      "http_status": 200,
+      "redirect_chain": [],
+      "requested_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+      "sha256": "f82f713e2fb06519e299de89a48ecc4afdf0822f33c7a6f60372110e062e10e7",
+      "tier": "LIVE_DIRECT_HTML"
+    }
+  ],
+  "captured_at": "2026-07-21T22:20:45Z",
+  "content_type": "text/html; charset=utf-8",
+  "discovery_sources": [
+    "repository:archive/ingestion-packages/campaign-delta-official/extractions/SRC-OFF-2E4DE78B3C355FA9.json",
+    "web_archive:wayback-publication"
+  ],
+  "final_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+  "http_status": 200,
+  "raw_byte_count": 290330,
+  "raw_sha256": "f82f713e2fb06519e299de89a48ecc4afdf0822f33c7a6f60372110e062e10e7",
+  "redirect_chain": [],
+  "referrer_source_ids": [],
+  "requested_url": "https://medium.com/star-atlas/the-truth-about-gerio-part-i-star-atlas-roadmap-scan-16-25df4fc5ac8",
+  "selected_raw_path": "archive/raw/medium/star-atlas/SRC-MEDIUM-STARATLAS-25DF4FC5AC8/article.html",
+  "selected_tier": "LIVE_DIRECT_HTML"
+}
