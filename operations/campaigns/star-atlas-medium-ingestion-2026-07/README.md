@@ -11,6 +11,9 @@ python operations/campaigns/star-atlas-medium-ingestion-2026-07/medium_campaign.
 python operations/campaigns/star-atlas-medium-ingestion-2026-07/medium_campaign.py adjudicate
 python operations/campaigns/star-atlas-medium-ingestion-2026-07/medium_campaign.py retrieve
 python operations/campaigns/star-atlas-medium-ingestion-2026-07/medium_campaign.py validate
+python operations/campaigns/star-atlas-medium-ingestion-2026-07/medium_gate.py audit
+python operations/campaigns/star-atlas-medium-ingestion-2026-07/medium_gate.py determinism
+python operations/campaigns/star-atlas-medium-ingestion-2026-07/medium_gate.py validate
 ```
 
 Install the campaign-local Python dependencies first:
@@ -59,10 +62,14 @@ The selected tier and every attempted tier are retained. Evidence from different
 
 ## Completeness limits
 
-Ingestion is complete for the 173 confirmed official-publication articles in the frozen included set. Publication discovery remains incomplete: Medium's historical surfaces are non-exhaustive and the explicitly deferred leads still require later artifact acquisition. A bare corpus-level `COMPLETE` label is not used.
+Ingestion and exact raw-to-normalized full-body auditing are complete for the 181 confirmed official-publication articles in the frozen included set. The completion gate has no pending human-adjudication items. Four historical Medium shortlinks remain documented as terminal external-evidence gaps because neither their live Branch pages nor public archive indexes expose a surviving target.
+
+Publication-level discovery remains incomplete: Medium's historical surfaces are non-exhaustive, so the campaign does not assert that undiscoverable or deleted stories never existed. The bounded gate status is `COMPLETE_WITH_DOCUMENTED_EXTERNAL_EVIDENCE_GAPS`; a bare corpus-level `COMPLETE` label is not used.
 
 The collector queried the 2020 publication surfaces. No 2020 Star Atlas publication article was confirmed or included; preserved coverage begins with the earliest confirmed 2021 article rather than implying 2020 article coverage.
 
 Medium RSS is recent-item oriented and is not the completeness authority. Current publication pages may omit deleted, moved, or unlisted stories. Repository Discord/X records and public web-archive indexes are therefore discovery sources, not independent proof of publication authorship or article publication dates.
+
+See [completion-gate-report.md](completion-gate-report.md), [full-body-audit.md](full-body-audit.md), and [completion-gate-validation.md](completion-gate-validation.md) for the closed candidate ledger, full-text verification, and final gate result.
 
 See [upstream-scraper-assessment.md](upstream-scraper-assessment.md) for the decision not to use the 2018 tag scraper.

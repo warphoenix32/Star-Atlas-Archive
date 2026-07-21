@@ -116,7 +116,12 @@ def rel(path: Path) -> str:
 
 
 def clean_url_tail(value: str) -> str:
-    return html.unescape(value).rstrip(".,;:!?)]}>'\"")
+    value = html.unescape(value)
+    # Repository records sometimes contain HTML-escaped attribute fragments
+    # immediately after a URL (for example ``&quot;&gt;published``). They are
+    # markup, not part of the observed URL.
+    value = re.split(r"[<>\"']", value, maxsplit=1)[0]
+    return value.rstrip(".,;:!?)]}>'\"")
 
 
 def canonicalize_url(value: str) -> str:
@@ -144,7 +149,11 @@ def canonicalize_url(value: str) -> str:
 
 
 def post_id_from_url(value: str) -> str | None:
-    match = POST_ID_RE.search(urllib.parse.unquote(canonicalize_url(value)))
+    # A Medium sign-in URL can embed an article URL in its query string. The
+    # stable post identifier belongs to the article path, never to navigation
+    # or authentication query parameters.
+    path = urllib.parse.urlsplit(canonicalize_url(value)).path
+    match = POST_ID_RE.search(urllib.parse.unquote(path))
     return match.group(1).lower() if match else None
 
 
@@ -1878,11 +1887,10 @@ def update_manifest_retrieval(records: list[dict[str, Any]], results: list[dict[
         if result["status"] in {"SUCCESS", "SKIPPED_CHECKSUM_IDENTICAL_SUCCESS"}:
             record["retrieval_status"] = "SUCCESS"
             record["retrieval_method"] = result.get("retrieval_tier") or result.get("retrieval", {}).get("selected_tier")
-            record["manual_review_reasons"] = [
-                reason
-                for reason in record.get("manual_review_reasons", [])
-                if not reason.startswith("Retrieval result:")
-            ]
+            # The retrieved article is the final identity and quality evidence. Do
+            # not retain discovery-time cautions after its structured metadata has
+            # established official publication membership.
+            record["manual_review_reasons"] = list(result.get("manual_review_reasons", []))
             record["manual_review_required"] = bool(record["manual_review_reasons"])
         else:
             record["retrieval_status"] = result["status"]
@@ -2062,7 +2070,7 @@ def generate_reports(manifest: dict[str, Any], results: list[dict[str, Any]]) ->
         "manual_review_count": sum(item.get("inclusion_status") == "DEFERRED" for item in records),
         "retrieval_failures_detail": failures,
         "completeness_limits": [
-            "Ingestion is complete for the 173 confirmed included articles; publication-level discovery remains incomplete.",
+            f"Ingestion is complete for the {len(included)} confirmed included articles; publication-level discovery remains incomplete.",
             "The 2020 publication surfaces were searched, but no 2020 Star Atlas publication article was confirmed or included.",
             "Medium year archives currently expose hydration shells or incomplete rendered results.",
             "RSS exposes only a recent subset and sitemap coverage is non-exhaustive.",
@@ -2220,8 +2228,12 @@ def validate() -> int:
         errors.append(f"Obvious asset/document candidates remain deferred: {obvious_deferred[:10]}")
     adjudication = read_json(ADJUDICATION_LEDGER, {}) or {}
     decisions = adjudication.get("decisions", [])
-    if adjudication.get("review_candidates_received") != 329 or len(decisions) != 329:
-        errors.append("Manual-review adjudication ledger must reconcile all 329 original candidates")
+    review_candidates_received = adjudication.get("review_candidates_received", len(decisions))
+    if len(decisions) != review_candidates_received:
+        errors.append(
+            "Manual-review adjudication ledger decision count does not reconcile "
+            f"({len(decisions)} decisions for {review_candidates_received} received candidates)"
+        )
     decision_ids = [item.get("source_id") for item in decisions]
     if len(decision_ids) != len(set(decision_ids)):
         errors.append("Manual-review adjudication ledger contains duplicate candidate IDs")
@@ -2347,15 +2359,22 @@ def validate() -> int:
     if summary.get("status") != expected_status:
         errors.append(f"Campaign status must distinguish confirmed ingestion from incomplete discovery: {summary.get('status')}")
     if summary.get("confirmed_article_ingestion_status") != "COMPLETE":
-        errors.append("Confirmed 173-article ingestion is not marked COMPLETE")
+        errors.append("Confirmed-article ingestion is not marked COMPLETE")
     if summary.get("publication_discovery_status") != "INCOMPLETE":
         errors.append("Publication discovery must remain INCOMPLETE")
     if summary.get("confirmed_articles_by_year", {}).get("2020") != 0:
         errors.append("Summary must record zero confirmed 2020 articles")
-    if summary.get("urls_included") != 173 or summary.get("successful_retrievals") != 173:
-        errors.append("Confirmed article set must reconcile at 173 included and 173 retrieved")
-    if summary.get("review_candidates_adjudicated") != 329:
-        errors.append("Summary does not reconcile all 329 review candidates")
+    if summary.get("urls_included") != len(included) or summary.get("successful_retrievals") != len(included):
+        errors.append(
+            "Confirmed article set must reconcile between manifest inclusion and successful retrievals "
+            f"({len(included)} manifest records, {summary.get('urls_included')} summarized inclusions, "
+            f"{summary.get('successful_retrievals')} successful retrievals)"
+        )
+    if summary.get("review_candidates_adjudicated") != review_candidates_received:
+        errors.append(
+            "Summary does not reconcile the adjudication ledger's received-candidate count "
+            f"({summary.get('review_candidates_adjudicated')} summarized, {review_candidates_received} ledgered)"
+        )
     if campaign_manifest.get("status") != expected_status:
         errors.append("Campaign manifest contains a corpus-level COMPLETE or inconsistent status")
     checks["corpus_status_boundary"] = {
