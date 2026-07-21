@@ -1,6 +1,6 @@
 # Legacy Written Raw Recovery Validation
 
-Status: **PASS**
+Status: **FAIL**
 
 | Check | Status | Detail |
 |---|---|---|
@@ -19,7 +19,7 @@ Status: **PASS**
 | EXPANSION_HOST_ALLOWLIST | PASS | allowed_host=aephia.com |
 | EXPANSION_ENDPOINT_POLICY | PASS | path_prefix=/wp-json/wp/v2/; basis=PRIOR_FINAL_URL |
 | PILOT_LEDGERS_IMMUTABLE | PASS | All four approved pilot ledger hashes match the merged baseline. |
-| PILOT_RAW_AND_PROVENANCE_IMMUTABLE | PASS | artifacts=30 aggregate_sha256=7aa4960f755fad4525b5c826559d3f1cf5d03d343ffd571c071b4392c83e5b48 |
+| PILOT_RAW_AND_PROVENANCE_IMMUTABLE | PASS | artifacts=30 aggregate_sha256=7370f2f123f157178cdba0acf115f00d7ffd6ad289106d7939c9bc9cd480c63e |
 | TERMINAL_DISPOSITIONS | PASS | terminal_records=20 |
 | RAW_BODY_CHECKSUMS | PASS | Every successful raw body exists and matches its ledger SHA-256. |
 | PROVENANCE_RECONCILES | PASS | Every successful provenance record reconciles to its Source ID and body checksum. |
@@ -35,7 +35,7 @@ Status: **PASS**
 | PROTECTED_EVIDENCE_UNCHANGED | PASS | Frozen extraction and Source Record checksums are unchanged. |
 | OUTPUT_SCOPE | PASS | Every declared raw and provenance output remains under its approved repository layer. |
 | NO_ORPHAN_RAW_OR_PROVENANCE | PASS | declared=148 actual=148 |
-| ARCHIVE_MANIFEST_RECONCILES | PASS | artifact_count=148 |
+| ARCHIVE_MANIFEST_RECONCILES | FAIL | artifact_count=148 |
 | CONTROLLED_TERMINAL_DISPOSITIONS | PASS | Every terminal record uses the frozen Phase 2 disposition vocabulary. |
 | CAMPAIGN_SUMMARY_RECONCILES | PASS | terminal_records=79 |
 | PROTECTED_LAYERS_ABSENT_FROM_OUTPUTS | PASS | No declared output enters a protected evidence, knowledge, graph, or publication layer. |

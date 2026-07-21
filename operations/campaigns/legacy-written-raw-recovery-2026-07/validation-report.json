@@ -78,7 +78,7 @@
     },
     {
       "check": "PILOT_RAW_AND_PROVENANCE_IMMUTABLE",
-      "detail": "artifacts=30 aggregate_sha256=7aa4960f755fad4525b5c826559d3f1cf5d03d343ffd571c071b4392c83e5b48",
+      "detail": "artifacts=30 aggregate_sha256=7370f2f123f157178cdba0acf115f00d7ffd6ad289106d7939c9bc9cd480c63e",
       "status": "PASS"
     },
     {
@@ -159,7 +159,7 @@
     {
       "check": "ARCHIVE_MANIFEST_RECONCILES",
       "detail": "artifact_count=148",
-      "status": "PASS"
+      "status": "FAIL"
     },
     {
       "check": "CONTROLLED_TERMINAL_DISPOSITIONS",
@@ -177,9 +177,11 @@
       "status": "PASS"
     }
   ],
-  "failed_checks": [],
-  "passed_checks": 35,
+  "failed_checks": [
+    "ARCHIVE_MANIFEST_RECONCILES"
+  ],
+  "passed_checks": 34,
   "schema_version": "1.0.0",
-  "status": "PASS",
+  "status": "FAIL",
   "total_checks": 35
 }
