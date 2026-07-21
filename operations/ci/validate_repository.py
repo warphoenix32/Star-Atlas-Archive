@@ -280,6 +280,8 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "archive/manifests/dao-pip-vote-evidence-ingestion-2026-07.json",
             "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
             "operations/campaigns/lore-repository-ingestion-2026-07/build_campaign.py",
+            "operations/campaigns/lore-repository-ingestion-2026-07/validation-report.json",
+            "operations/campaigns/lore-repository-ingestion-2026-07/validation-report.md",
             "archive/manifests/lore-repository-ingestion-2026-07.json",
             "publication/site/assets/library-index.json",
         )
