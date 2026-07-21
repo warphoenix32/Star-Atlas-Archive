@@ -261,6 +261,8 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/campaigns/social-governance-semantic-enrichment/build_campaign.py",
             "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json",
             "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.md",
+            "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
+            "archive/manifests/lore-repository-ingestion-2026-07.json",
             "publication/site/assets/library-index.json",
         )
         label = "phase-one-repository-baseline"

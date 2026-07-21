@@ -18,7 +18,7 @@ Snapshot: `9dc39e47393d707f60d792227cf9f150a1031b28` on 2026-07-20.
 | --- | --- | --- |
 | archive/campaign-summaries | 12 | 556766 |
 | archive/ingestion-packages | 980 | 63849453 |
-| archive/manifests | 7 | 667048 |
+| archive/manifests | 7 | 667046 |
 | archive/normalized | 1965 | 53353249 |
 | archive/proposed | 4 | 26916 |
 | archive/provenance | 7 | 9016 |

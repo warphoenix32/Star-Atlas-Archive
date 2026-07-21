@@ -105,6 +105,9 @@ def main() -> int:
     lines += ["", "## Limitations", ""] + [f"- {item}" for item in report["limitations"]] + [""]
     (HERE / "validation-report.md").write_text("\n".join(lines), encoding="utf-8")
     print(f"{report['result']}: {sum(row['passed'] for row in checks)}/{len(checks)} checks")
+    for row in checks:
+        if not row["passed"]:
+            print(f"FAIL {row['name']}: {row['detail']}")
     return 0 if passed else 1
 
 
