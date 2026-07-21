@@ -341,7 +341,9 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "archive/provenance/governance-votes/pip-01-32.json",
             "archive/source-records/governance-votes/pip-01-32/",
             "archive/manifests/dao-pip-vote-evidence-ingestion-2026-07.json",
+            "archive/manifests/lore-repository-ingestion-2026-07.json",
             "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/",
+            "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
             "operations/tests/dao_pip_governance_votes/",
         )
         label = "dao-pip-vote-evidence-ingestion-2026-07"

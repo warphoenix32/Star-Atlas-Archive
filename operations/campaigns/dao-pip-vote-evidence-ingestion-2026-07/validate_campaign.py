@@ -28,7 +28,9 @@ ALLOWED_PREFIXES = (
     "archive/provenance/governance-votes/pip-01-32.json",
     "archive/source-records/governance-votes/pip-01-32/",
     "archive/manifests/dao-pip-vote-evidence-ingestion-2026-07.json",
+    "archive/manifests/lore-repository-ingestion-2026-07.json",
     f"operations/campaigns/{CAMPAIGN_ID}/",
+    "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
     "operations/tests/dao_pip_governance_votes/",
     "operations/ci/validate_repository.py",
 )
