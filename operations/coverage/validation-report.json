@@ -1,29 +1,29 @@
 {
   "program_id": "star-atlas-library-roadmap-phase-1",
   "as_of": "2026-07-20",
-  "baseline_sha": "9dc39e47393d707f60d792227cf9f150a1031b28",
+  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
   "result": "PASS",
   "checks": [
     {
       "name": "deterministic_generation",
       "passed": true,
       "detail": {
-        "expected": 17,
-        "generated": 17
+        "expected": 24,
+        "generated": 24
       }
     },
     {
       "name": "json_parses",
       "passed": true,
       "detail": {
-        "files": 10,
+        "files": 13,
         "errors": []
       }
     },
     {
       "name": "coverage_records",
       "passed": true,
-      "detail": 15
+      "detail": 16
     },
     {
       "name": "coverage_evidence_paths_resolve",
@@ -38,7 +38,7 @@
     {
       "name": "campaign_registry",
       "passed": true,
-      "detail": 19
+      "detail": 20
     },
     {
       "name": "campaign_status_evidence_resolves",
@@ -50,8 +50,8 @@
       "passed": true,
       "detail": {
         "path": "archive",
-        "files": 8291,
-        "bytes": 267075970
+        "files": 8361,
+        "bytes": 293254538
       }
     },
     {
@@ -59,10 +59,181 @@
       "passed": true,
       "detail": {
         "records": 3232,
-        "pending": 902,
-        "deferred": 2330,
-        "status": "STALE_REQUIRES_RECONCILIATION",
-        "path": "archive/normalized/manifests/normalized-urls.jsonl"
+        "historical_pending": 902,
+        "historical_deferred": 2330,
+        "status": "RECONCILED_BY_OVERLAY",
+        "path": "archive/normalized/manifests/normalized-urls.jsonl",
+        "overlay_path": "operations/coverage/url-disposition-overlay.jsonl",
+        "current_dispositions": {
+          "INGESTED_CONFIRMED": 480,
+          "DOCUMENTED_EXCLUSIONS": 263,
+          "RETRIEVAL_FAILED": 4,
+          "UNRECONCILED": 2485
+        }
+      }
+    },
+    {
+      "name": "url_overlay_jsonl_parses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "url_overlay_reconciles",
+      "passed": true,
+      "detail": {
+        "rows": 3232,
+        "dispositions": {
+          "DEFERRED_UNRECONCILED": 2234,
+          "INGESTED_CONFIRMED": 480,
+          "EXCLUDED_NON_WRITTEN": 247,
+          "PENDING_UNRECONCILED": 251,
+          "EXCLUDED_EXTERNAL_WRITTEN": 12,
+          "EXCLUDED_NAVIGATION": 4,
+          "RETRIEVAL_FAILED": 4
+        }
+      }
+    },
+    {
+      "name": "url_overlay_references_resolve",
+      "passed": true,
+      "detail": {
+        "artifacts": [],
+        "evidence": []
+      }
+    },
+    {
+      "name": "economic_branch_classified",
+      "passed": true,
+      "detail": {
+        "assessment_id": "ECONOMIC-REPORT-BRANCH-PHASE-1",
+        "as_of": "2026-07-20",
+        "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+        "branch": "origin/ingestion/economic-reports-2022q2-2026q2",
+        "fork_point": "add2221f",
+        "unique_commits": [
+          "1cd5d25",
+          "215029c"
+        ],
+        "commits_behind_main": 126,
+        "unique_files": [
+          "archive/source-records/economic-reports/economic-report-registry.json",
+          "operations/campaigns/economic-reports-complete-ingestion-2026-07-18/README.md"
+        ],
+        "discovery_urls": 17,
+        "coverage": "Q2 2022 through Q2 2026",
+        "decision": "CLASSIFIED_DEFERRED_TO_PHASE_2",
+        "merge_or_cherry_pick": false,
+        "human_adjudication_required": false,
+        "reason": "The branch preserves useful official report URLs and page-count metadata but does not contain conforming Source Records or auditable extracted text.",
+        "deficiencies": [
+          "No paired report JSON and Markdown Source Records",
+          "No titles, authors, publication dates, immutable raw PDFs, or content checksums",
+          "No campaign manifest, deterministic generator, or validator",
+          "Fourteen reports are described as parsed although the extracted text is not retained"
+        ],
+        "phase_2_requirements": [
+          "Freeze the 17 URLs as discovery seeds without treating the stale registry as evidence",
+          "Retrieve and hash every accessible PDF",
+          "Preserve page order and use OCR only when necessary",
+          "Generate conforming Source Records, manifest, campaign summary, and validation",
+          "Reconcile the apparent Q2 2025 duplicate without discarding provenance"
+        ],
+        "branch_retirement_condition": "Retire only after every discovery URL has a terminal Phase 2 disposition and all unique metadata has been preserved."
+      }
+    },
+    {
+      "name": "raw_recovery_schedule_bounded",
+      "passed": true,
+      "detail": {
+        "schedule_id": "PHASE-2-LEGACY-WRITTEN-RAW-RECOVERY",
+        "as_of": "2026-07-20",
+        "status": "READY_FOR_CAMPAIGN_APPROVAL",
+        "collection_started": false,
+        "frozen_scope_records": 800,
+        "pilot_records": 20,
+        "batches": [
+          {
+            "batch_id": "R0.1",
+            "source_family": "HNN written corpus",
+            "records": 157,
+            "priority": "P0",
+            "reason": "Highest link-rot risk"
+          },
+          {
+            "batch_id": "R0.2",
+            "source_family": "Aephia",
+            "records": 64,
+            "priority": "P0"
+          },
+          {
+            "batch_id": "R0.3",
+            "source_family": "Intergalactic Herald",
+            "records": 259,
+            "priority": "P0"
+          },
+          {
+            "batch_id": "R0.4",
+            "source_family": "Official Campaign Delta",
+            "records": 320,
+            "priority": "P0",
+            "sub_batches": [
+              "support",
+              "newsroom and experience",
+              "build, governance, and main site",
+              "immutable staratlasmeta GitHub documentation"
+            ]
+          }
+        ],
+        "retrieval_tiers": [
+          "EXACT_PUBLIC_LIVE_CANONICAL",
+          "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+          "IMMUTABLE_GIT_COMMIT_OR_BLOB",
+          "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+          "ARCHIVED_PREDECESSOR_WITH_IDENTITY_PROOF"
+        ],
+        "terminal_dispositions": [
+          "CAPTURED_LIVE",
+          "CAPTURED_ARCHIVE",
+          "CAPTURED_IMMUTABLE_GIT",
+          "NOT_FOUND_EXHAUSTED",
+          "AMBIGUOUS_MANUAL_REVIEW",
+          "BLOCKED_ACCESS_OR_POLICY"
+        ],
+        "required_capture_fields": [
+          "source_id",
+          "original_url",
+          "final_url",
+          "retrieval_tier",
+          "capture_utc",
+          "http_status",
+          "content_type",
+          "byte_count",
+          "headers",
+          "redirect_chain",
+          "raw_sha256",
+          "snapshot_timestamp_or_git_sha",
+          "identity_comparison",
+          "temporal_qualifier"
+        ],
+        "stop_rules": [
+          "Every frozen Source ID must receive exactly one terminal disposition.",
+          "Three consecutive host-level 403, 429, or challenge responses stop that host batch without bypass.",
+          "Identity mismatch, conflicting historic versions, or checksum failure stops only that item for review.",
+          "New articles enter an out-of-scope discovery ledger and are not retrieved under this campaign.",
+          "Nondeterministic identifiers, manifests, or checksums block campaign promotion."
+        ],
+        "provenance_boundary": [
+          "A live recapture is not represented as historical publication-date bytes.",
+          "A web archive is a preservation carrier, not the publisher.",
+          "Existing normalized evidence and Source Records remain unchanged.",
+          "Search engines and aggregators are discovery-only and cannot supply the preserved article body."
+        ],
+        "human_approval_points": [
+          "Use of authenticated or restricted sources",
+          "Ambiguous Source ID or URL identity matches",
+          "Selection among conflicting historical versions",
+          "Expansion to newly discovered articles"
+        ]
       }
     },
     {
@@ -84,17 +255,26 @@
       ]
     },
     {
-      "name": "phase_one_active",
+      "name": "phase_one_complete",
       "passed": true,
       "detail": {
         "phase": 1,
         "name": "Repository and evidence baseline",
-        "status": "READY_FOR_REVIEW",
-        "percent_complete": 85,
+        "status": "COMPLETE",
+        "percent_complete": 100,
+        "remaining_gate_items": []
+      }
+    },
+    {
+      "name": "phase_two_ready_for_approval",
+      "passed": true,
+      "detail": {
+        "phase": 2,
+        "name": "Priority ingestion",
+        "status": "READY_FOR_CAMPAIGN_APPROVAL",
+        "percent_complete": 0,
         "remaining_gate_items": [
-          "Reconcile stale normalized URL dispositions",
-          "Classify the unique economic-report branch",
-          "Schedule recovery campaigns for missing raw captures"
+          "Approve the frozen 800-record legacy written raw-capture recovery campaign"
         ]
       }
     },
@@ -114,6 +294,7 @@
   ],
   "limitations": [
     "The register is a repository snapshot, not proof of external corpus completeness.",
+    "The 2,485 unreconciled URL rows require bounded Phase 2 review.",
     "Freshness adapters are policy-defined but not implemented.",
     "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."
   ]

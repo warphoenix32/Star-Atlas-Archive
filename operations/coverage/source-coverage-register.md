@@ -1,6 +1,6 @@
 # Source Coverage Register
 
-Evidence baseline at `9dc39e47393d707f60d792227cf9f150a1031b28` on 2026-07-20. Package completeness never implies complete external history.
+Evidence baseline at `19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed` on 2026-07-20. Package completeness never implies complete external history.
 
 ## Medium-by-time matrix
 
@@ -18,7 +18,8 @@ Evidence baseline at `9dc39e47393d707f60d792227cf9f150a1031b28` on 2026-07-20. P
 | Town Hall, DAO, and Economic Forum transcript package | video transcripts | unknown to unknown | 1910 | PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE, PARTIAL_DATE_COVERAGE, MISSING_REQUIRED_ARTIFACT | GAP-OFFICIAL-TRANSCRIPT-METADATA, GAP-OFFICIAL-BROADCAST-INVENTORY |
 | Star Atlas Lore Repository | GitHub documentation and lore pages | unknown to 2026-06-29 | 8430 | PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE, CURRENT_TO_CAPTURE_DATE | GAP-LORE-REFERENCES, GAP-OFFICIAL-FRESHNESS |
 | Star Atlas governance and Council PIP tracker | governance records and spreadsheet | unknown to 2026-07-10 | 152 | PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE, MANUAL_REVIEW_PENDING, CURRENT_TO_CAPTURE_DATE | GAP-GOVERNANCE-IMPLEMENTATION, GAP-ONCHAIN-EVIDENCE, GAP-OFFICIAL-FRESHNESS |
-| PIP-33 vote event reconciliation | Solana vote export | 2026-06-27 to 2026-07-10 | 220 | PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE, MISSING_REQUIRED_ARTIFACT | GAP-PIP33-RAW, GAP-ONCHAIN-EVIDENCE |
+| PIP-33 vote event reconciliation | Solana vote export | 2026-06-27 to 2026-07-10 | 220 | PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE, PROVENANCE_METADATA_CORRECTION_PENDING | GAP-PIP33-PROVENANCE-CORRECTION, GAP-ONCHAIN-EVIDENCE |
+| DAO PIP-1 through PIP-32 vote evidence | Solana vote export | 2024-07-10 to 2026-06-11 | 8404 | PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE, MANUAL_REVIEW_PENDING | GAP-ONCHAIN-EVIDENCE, GAP-GOVERNANCE-IMPLEMENTATION |
 | Starbased base ship states | spreadsheet/CSV | unknown to 2026-07-18 | 63 | PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE, MANUAL_REVIEW_PENDING | GAP-SHIP-UPSTREAM |
 | Community wallet attributions | spreadsheet | unknown to 2026-07-19 | 84 | PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE, MANUAL_REVIEW_PENDING | GAP-WALLET-ATTRIBUTION, GAP-ONCHAIN-EVIDENCE |
 

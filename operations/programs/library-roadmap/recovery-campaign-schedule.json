@@ -1,0 +1,91 @@
+{
+  "schedule_id": "PHASE-2-LEGACY-WRITTEN-RAW-RECOVERY",
+  "as_of": "2026-07-20",
+  "status": "READY_FOR_CAMPAIGN_APPROVAL",
+  "collection_started": false,
+  "frozen_scope_records": 800,
+  "pilot_records": 20,
+  "batches": [
+    {
+      "batch_id": "R0.1",
+      "source_family": "HNN written corpus",
+      "records": 157,
+      "priority": "P0",
+      "reason": "Highest link-rot risk"
+    },
+    {
+      "batch_id": "R0.2",
+      "source_family": "Aephia",
+      "records": 64,
+      "priority": "P0"
+    },
+    {
+      "batch_id": "R0.3",
+      "source_family": "Intergalactic Herald",
+      "records": 259,
+      "priority": "P0"
+    },
+    {
+      "batch_id": "R0.4",
+      "source_family": "Official Campaign Delta",
+      "records": 320,
+      "priority": "P0",
+      "sub_batches": [
+        "support",
+        "newsroom and experience",
+        "build, governance, and main site",
+        "immutable staratlasmeta GitHub documentation"
+      ]
+    }
+  ],
+  "retrieval_tiers": [
+    "EXACT_PUBLIC_LIVE_CANONICAL",
+    "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+    "IMMUTABLE_GIT_COMMIT_OR_BLOB",
+    "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+    "ARCHIVED_PREDECESSOR_WITH_IDENTITY_PROOF"
+  ],
+  "terminal_dispositions": [
+    "CAPTURED_LIVE",
+    "CAPTURED_ARCHIVE",
+    "CAPTURED_IMMUTABLE_GIT",
+    "NOT_FOUND_EXHAUSTED",
+    "AMBIGUOUS_MANUAL_REVIEW",
+    "BLOCKED_ACCESS_OR_POLICY"
+  ],
+  "required_capture_fields": [
+    "source_id",
+    "original_url",
+    "final_url",
+    "retrieval_tier",
+    "capture_utc",
+    "http_status",
+    "content_type",
+    "byte_count",
+    "headers",
+    "redirect_chain",
+    "raw_sha256",
+    "snapshot_timestamp_or_git_sha",
+    "identity_comparison",
+    "temporal_qualifier"
+  ],
+  "stop_rules": [
+    "Every frozen Source ID must receive exactly one terminal disposition.",
+    "Three consecutive host-level 403, 429, or challenge responses stop that host batch without bypass.",
+    "Identity mismatch, conflicting historic versions, or checksum failure stops only that item for review.",
+    "New articles enter an out-of-scope discovery ledger and are not retrieved under this campaign.",
+    "Nondeterministic identifiers, manifests, or checksums block campaign promotion."
+  ],
+  "provenance_boundary": [
+    "A live recapture is not represented as historical publication-date bytes.",
+    "A web archive is a preservation carrier, not the publisher.",
+    "Existing normalized evidence and Source Records remain unchanged.",
+    "Search engines and aggregators are discovery-only and cannot supply the preserved article body."
+  ],
+  "human_approval_points": [
+    "Use of authenticated or restricted sources",
+    "Ambiguous Source ID or URL identity matches",
+    "Selection among conflicting historical versions",
+    "Expansion to newly discovered articles"
+  ]
+}

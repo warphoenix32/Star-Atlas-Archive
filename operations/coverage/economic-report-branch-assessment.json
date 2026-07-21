@@ -1,0 +1,36 @@
+{
+  "assessment_id": "ECONOMIC-REPORT-BRANCH-PHASE-1",
+  "as_of": "2026-07-20",
+  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+  "branch": "origin/ingestion/economic-reports-2022q2-2026q2",
+  "fork_point": "add2221f",
+  "unique_commits": [
+    "1cd5d25",
+    "215029c"
+  ],
+  "commits_behind_main": 126,
+  "unique_files": [
+    "archive/source-records/economic-reports/economic-report-registry.json",
+    "operations/campaigns/economic-reports-complete-ingestion-2026-07-18/README.md"
+  ],
+  "discovery_urls": 17,
+  "coverage": "Q2 2022 through Q2 2026",
+  "decision": "CLASSIFIED_DEFERRED_TO_PHASE_2",
+  "merge_or_cherry_pick": false,
+  "human_adjudication_required": false,
+  "reason": "The branch preserves useful official report URLs and page-count metadata but does not contain conforming Source Records or auditable extracted text.",
+  "deficiencies": [
+    "No paired report JSON and Markdown Source Records",
+    "No titles, authors, publication dates, immutable raw PDFs, or content checksums",
+    "No campaign manifest, deterministic generator, or validator",
+    "Fourteen reports are described as parsed although the extracted text is not retained"
+  ],
+  "phase_2_requirements": [
+    "Freeze the 17 URLs as discovery seeds without treating the stale registry as evidence",
+    "Retrieve and hash every accessible PDF",
+    "Preserve page order and use OCR only when necessary",
+    "Generate conforming Source Records, manifest, campaign summary, and validation",
+    "Reconcile the apparent Q2 2025 duplicate without discarding provenance"
+  ],
+  "branch_retirement_condition": "Retire only after every discovery URL has a terminal Phase 2 disposition and all unique metadata has been preserved."
+}

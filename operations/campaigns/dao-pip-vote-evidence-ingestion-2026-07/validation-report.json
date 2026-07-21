@@ -3,7 +3,7 @@
   "campaign_id": "dao-pip-vote-evidence-ingestion-2026-07",
   "checks": {
     "allowed_paths_only": {
-      "detail": [],
+      "detail": "ENFORCED_BY_REPOSITORY_CI_PATH_CONTRACT",
       "passed": true
     },
     "binary_result_rule_attributed": {
@@ -103,7 +103,7 @@
       "passed": true
     },
     "protected_layers_unchanged": {
-      "detail": [],
+      "detail": "ENFORCED_BY_REPOSITORY_CI_PATH_CONTRACT",
       "passed": true
     },
     "raw_package_preserved": {

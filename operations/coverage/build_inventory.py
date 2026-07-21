@@ -11,12 +11,14 @@ import json
 import subprocess
 from pathlib import Path
 
+from build_url_reconciliation import write_outputs as write_url_reconciliation
+
 
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 PROGRAM = ROOT / "operations" / "programs" / "library-roadmap"
 AS_OF = "2026-07-20"
-BASELINE_SHA = "9dc39e47393d707f60d792227cf9f150a1031b28"
+BASELINE_SHA = "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed"
 
 
 def write_json(path: Path, value: object) -> None:
@@ -198,12 +200,21 @@ def build_coverage() -> list[dict[str, object]]:
         ),
         coverage_record(
             "COV-PIP33-VOTES", "PIP-33 vote event reconciliation", "Solana vote export", "OPERATOR_SUPPLIED_CHAIN_DERIVED_DATA",
-            {"raw_files": 0, "normalized_records": 220, "source_records": 1, "semantic_records": 0, "ingestion_package_records": 0},
-            "2026-06-27", "2026-07-10", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "MISSING_REQUIRED_ARTIFACT"],
+            {"raw_files": 1, "normalized_records": 220, "source_records": 1, "semantic_records": 0, "ingestion_package_records": 0},
+            "2026-06-27", "2026-07-10", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "PROVENANCE_METADATA_CORRECTION_PENDING"],
             "All 220 effective ballot records in the supplied normalized dataset were reconciled.",
-            ["The original raw vote export is not preserved.", "Signature replay and payment or implementation verification were not performed."],
-            ["operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json", "archive/provenance/governance-votes/pip-33.json"],
-            ["GAP-PIP33-RAW", "GAP-ONCHAIN-EVIDENCE"], "HIGH_FREQUENCY",
+            ["The exact PIP-33 source artifact is preserved as a member of the later PIP-1 through PIP-32 raw ZIP, but the older per-PIP provenance sidecar still predates that preservation.", "Signature replay and payment or implementation verification were not performed."],
+            ["operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json", "archive/provenance/governance-votes/pip-33.json", "archive/raw/governance-votes/pip-01-32/Star Atlas DAO PIP Votes.zip"],
+            ["GAP-PIP33-PROVENANCE-CORRECTION", "GAP-ONCHAIN-EVIDENCE"], "HIGH_FREQUENCY",
+        ),
+        coverage_record(
+            "COV-DAO-PIP-VOTE-EVIDENCE", "DAO PIP-1 through PIP-32 vote evidence", "Solana vote export", "OPERATOR_SUPPLIED_CHAIN_DERIVED_DATA",
+            {"raw_files": 1, "normalized_records": 8404, "source_records": 32, "semantic_records": 0, "ingestion_package_records": 0},
+            "2024-07-10", "2026-06-11", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "MANUAL_REVIEW_PENDING"],
+            "The operator-supplied ZIP, 8,404 vote events, 32 proposal summaries, and 32 paired Source Records are preserved.",
+            ["Five ranked-choice elections retain candidate-level totals without final STV recomputation.", "The campaign reports 278 timestamp-order anomalies.", "No independent RPC re-verification, payment inference, or implementation inference was performed."],
+            ["operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/campaign-summary.json", "archive/manifests/dao-pip-vote-evidence-ingestion-2026-07.json"],
+            ["GAP-ONCHAIN-EVIDENCE", "GAP-GOVERNANCE-IMPLEMENTATION"], "HIGH_FREQUENCY",
         ),
         coverage_record(
             "COV-SHIP-STATES", "Starbased base ship states", "spreadsheet/CSV", "COMMUNITY_COPY_OF_OFFICIAL_BASE_VALUES",
@@ -228,19 +239,20 @@ def build_coverage() -> list[dict[str, object]]:
 
 def build_backlog() -> list[dict[str, object]]:
     rows = [
-        ("GAP-RAW-WRITTEN", "P0", "Legacy Alpha-Delta immutable raw captures", "Recover HTML or archived snapshots for the 800 preserved written records.", "Archive Steward", "MISSING_REQUIRED_ARTIFACT"),
+        ("GAP-RAW-WRITTEN", "P0", "Legacy Alpha-Delta immutable raw captures", "Execute the frozen 800-record recovery schedule after Phase 2 campaign approval.", "Archive Steward", "SCHEDULED_FOR_PHASE_2_NOT_STARTED"),
         ("GAP-DISCORD-CHANNELS", "P0", "Additional Star Atlas Discord channels", "Provide privacy-reviewed native exports for Atlas Amphitheater, Atlas Brew Lounge, DAO announcements, economics, faction, Foundation Room, general, governance, guild, and support channels.", "Ingestion Coordinator", "MISSING_REQUIRED_ARTIFACT"),
         ("GAP-OFFICIAL-FRESHNESS", "P0", "Recurring official-source freshness", "Run read-only discovery checks for newsroom, support, governance, Medium, X, Discord, and official GitHub surfaces; create queues only.", "Research and Gap Analyst", "CURRENT_TO_CAPTURE_DATE"),
-        ("GAP-URL-INVENTORY", "P0", "Stale normalized URL dispositions", "Reconcile 3,232 normalized inventory rows against completed campaigns; retain historical disposition and add current disposition.", "Archive Steward", "MANUAL_REVIEW_PENDING"),
+        ("GAP-URL-INVENTORY", "P0", "Historical normalized URL dispositions", "Retain the immutable inventory and refresh the deterministic overlay when a relevant campaign closes.", "Archive Steward", "CLOSED_BY_RECONCILIATION_OVERLAY"),
         ("GAP-ATLAS-BREW-METADATA", "P1", "Atlas Brew URLs and dates", "Provide or discover an authoritative 123-episode mapping of video ID, URL, and publication date; speaker mapping remains optional.", "Research and Gap Analyst", "MISSING_REQUIRED_ARTIFACT"),
         ("GAP-OFFICIAL-TRANSCRIPT-METADATA", "P1", "Town Hall/DAO/Economic Forum URLs and dates", "Provide program inventories or source URLs for all 36 supplied transcripts.", "Research and Gap Analyst", "MISSING_REQUIRED_ARTIFACT"),
         ("GAP-OFFICIAL-BROADCAST-INVENTORY", "P1", "Complete official broadcast inventories", "Build bounded episode inventories for Town Halls, DAO discussions, Economic Forums, and other official broadcast programs.", "Research and Gap Analyst", "UNKNOWN"),
         ("GAP-HNN-TRANSCRIPT-METADATA", "P1", "HNN transcript URLs and dates", "Provide an 85-source episode map or authoritative channel inventory.", "Research and Gap Analyst", "MISSING_REQUIRED_ARTIFACT"),
         ("GAP-HNN-TRANSCRIPT-SEMANTICS", "P1", "HNN transcript significance evaluation", "Run the approved context-sensitive transcript policy against the preserved normalized corpus.", "Knowledge Curator", "UNKNOWN"),
         ("GAP-MEDIUM-DISCOVERY", "P1", "Medium publication discovery", "Revisit 51 explicitly deferred candidates and run current publication-native discovery without changing the 173-item confirmed-corpus boundary.", "Ingestion Coordinator", "MANUAL_REVIEW_PENDING"),
-        ("GAP-PIP33-RAW", "P1", "Original PIP-33 vote export", "Provide the exact original export used to produce the 220 normalized ballot records, with checksum and acquisition context.", "Archive Steward", "MISSING_REQUIRED_ARTIFACT"),
+        ("GAP-PIP33-RAW", "P1", "Original PIP-33 vote export", "Retain the checksum-identical PIP-33 member preserved inside the later DAO PIP vote ZIP.", "Archive Steward", "CLOSED_ARTIFACT_PRESERVED_IN_PR49_CONTAINER"),
+        ("GAP-PIP33-PROVENANCE-CORRECTION", "P2", "PIP-33 provenance sidecar predates raw preservation", "Correct the per-PIP provenance sidecar in a manifest-aware campaign without rewriting vote evidence.", "Archive Steward", "KNOWN_METADATA_DEBT"),
         ("GAP-ONCHAIN-EVIDENCE", "P1", "Treasury/payment/execution evidence", "Provide scoped Solana transaction, account, program, and slot data before any on-chain verification claim.", "Solana Evidence Specialist", "MISSING_REQUIRED_ARTIFACT"),
-        ("GAP-ECONOMIC-REPORT-BRANCH", "P1", "Unmerged economic-report registry", "Reconcile unique files on ingestion/economic-reports-2022q2-2026q2; no open PR currently preserves them on main.", "Lead Coordinator", "MANUAL_REVIEW_PENDING"),
+        ("GAP-ECONOMIC-REPORT-BRANCH", "P1", "Unmerged economic-report discovery registry", "Use the 17-URL branch registry only as a discovery seed for a conforming Phase 2 PDF ingestion campaign, then retire the branch.", "Lead Coordinator", "CLASSIFIED_DEFERRED_TO_PHASE_2"),
         ("GAP-X-HISTORY", "P2", "Official X history before 2024-11-05", "Provide an earlier account export or bounded archive discovery manifest.", "Ingestion Coordinator", "PARTIAL_DATE_COVERAGE"),
         ("GAP-DISCORD-NATIVE-IDS", "P2", "Discord native identifiers", "Provide privacy-reviewed exports retaining server, channel, message, author IDs, and timezone offsets.", "Archive Steward", "MISSING_REQUIRED_ARTIFACT"),
         ("GAP-DISCORD-ATTACHMENTS", "P2", "Fourteen Discord attachment-only placeholders", "Provide attachment metadata or a corrected export.", "Archive Steward", "MANUAL_REVIEW_PENDING"),
@@ -266,6 +278,7 @@ def build_campaigns() -> list[dict[str, object]]:
         ("canonical-pip-governance-ledger-2026-07", "DRAFT_FOR_REVIEW", "operations/campaigns/canonical-pip-governance-ledger-2026-07/campaign-summary.json", "Eleven conflicts and seven research items remain documented."),
         ("community-wallet-attribution-ingestion-2026-07", "COMPLETE_WITH_RETAINED_RESEARCH_GAPS", "operations/campaigns/community-wallet-attribution-ingestion-2026-07/campaign-summary.json", "All 84 attribution records remain unverified."),
         ("council-pip-tracker-ingestion", "GENERATED", "operations/campaigns/council-pip-tracker-ingestion/campaign-summary.json", "Council reporting is not independent implementation verification."),
+        ("dao-pip-vote-evidence-ingestion-2026-07", "READY_FOR_ARCHIVAL_REVIEW", "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/campaign-summary.json", "8,404 vote events and 32 proposal summaries are preserved; STV, RPC, payment, and implementation limits remain."),
         ("discord-announcements-semantic-enrichment", "GENERATED_WITH_CORRECTIONS", "operations/campaigns/discord-announcements-semantic-enrichment/review-correction-status.json", "Twenty-four generated event sequences were withdrawn; effective count is zero."),
         ("discord-community-indexing-001", "VALIDATED_WITH_DEFERRED_IDENTITIES", "operations/campaigns/discord-community-indexing-001/validation-report.json", "Michael and EMP remain explicitly deferred; no native channel identity is established."),
         ("hnn-combined-transcript", "READY_FOR_REVIEW", "operations/campaigns/hnn-combined-transcript/campaign-summary.json", "Metadata and semantic gaps remain."),
@@ -293,10 +306,102 @@ def build_cleanup() -> list[dict[str, object]]:
         {"cleanup_id": "CLN-005", "classification": "RELOCATE_NOT_DELETE", "paths": ["operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/", "operations/campaigns/star-atlas-medium-ingestion-2026-07/identity-captures/", "operations/campaigns/discord-announcements-semantic-enrichment/input-package/"], "finding": "Approximately 11.9 MB of source-like captures live under operations.", "action": "Move only in a dedicated manifest/checksum migration."},
         {"cleanup_id": "CLN-006", "classification": "CONDENSE_DURING_PUBLICATION_REWRITE", "paths": ["publication/articles/README.md", "publication/briefs/README.md", "publication/datasets/README.md", "publication/reports/README.md"], "finding": "Four placeholder files can become one publication contract when the new publication layer is implemented.", "action": "Retain during the current GitHub Pages transition."},
         {"cleanup_id": "CLN-007", "classification": "ARCHIVE_RETAIN", "paths": ["operations/campaigns/knowledge-generation-wave-2/", "operations/campaigns/knowledge-context-refresh-2026-07-17/", "operations/campaigns/knowledge-narrative-depth-001/"], "finding": "Older and nested campaign artifacts preserve evidence packets, decisions, and closeout history.", "action": "Index as completed legacy work; do not bulk-delete."},
-        {"cleanup_id": "CLN-008", "classification": "BRANCH_HYGIENE", "paths": ["42 remote branches already merged into main"], "finding": "Merged branch refs remain; four non-ancestor branches also remain.", "action": "Delete merged refs only after branch-policy confirmation; reconcile the economic-report branch before any deletion."},
+        {"cleanup_id": "CLN-008", "classification": "BRANCH_HYGIENE", "paths": ["44 remote topic branches already merged into main"], "finding": "Merged branch refs remain; four non-ancestor branches also remain.", "action": "Delete merged refs only after branch-policy confirmation; preserve the economic-report branch until its 17-URL discovery seed is integrated in Phase 2."},
         {"cleanup_id": "CLN-009", "classification": "RETAIN_COMPATIBILITY", "paths": ["archive/manifests/*", "operations/campaigns/*/manifest.json", "campaign-local normalized previews"], "finding": "Several byte-identical files serve distinct archive, campaign, or review roles.", "action": "Retain until a documented schema migration removes the compatibility role."},
         {"cleanup_id": "CLN-010", "classification": "REPAIR_LATER", "paths": [".gitattributes", "archive/raw/lore-repository/", "archive/normalized/lore/"], "finding": "Windows Git line-ending conversion makes one lore fixed-point test fail locally although Linux repository CI passes.", "action": "Add a scoped line-ending contract in a dedicated compatibility change; do not bulk-renormalize preserved lore evidence in Phase 1."},
     ]
+
+
+def build_economic_branch_assessment() -> dict[str, object]:
+    return {
+        "assessment_id": "ECONOMIC-REPORT-BRANCH-PHASE-1",
+        "as_of": AS_OF,
+        "baseline_sha": BASELINE_SHA,
+        "branch": "origin/ingestion/economic-reports-2022q2-2026q2",
+        "fork_point": "add2221f",
+        "unique_commits": ["1cd5d25", "215029c"],
+        "commits_behind_main": 126,
+        "unique_files": [
+            "archive/source-records/economic-reports/economic-report-registry.json",
+            "operations/campaigns/economic-reports-complete-ingestion-2026-07-18/README.md",
+        ],
+        "discovery_urls": 17,
+        "coverage": "Q2 2022 through Q2 2026",
+        "decision": "CLASSIFIED_DEFERRED_TO_PHASE_2",
+        "merge_or_cherry_pick": False,
+        "human_adjudication_required": False,
+        "reason": "The branch preserves useful official report URLs and page-count metadata but does not contain conforming Source Records or auditable extracted text.",
+        "deficiencies": [
+            "No paired report JSON and Markdown Source Records",
+            "No titles, authors, publication dates, immutable raw PDFs, or content checksums",
+            "No campaign manifest, deterministic generator, or validator",
+            "Fourteen reports are described as parsed although the extracted text is not retained",
+        ],
+        "phase_2_requirements": [
+            "Freeze the 17 URLs as discovery seeds without treating the stale registry as evidence",
+            "Retrieve and hash every accessible PDF",
+            "Preserve page order and use OCR only when necessary",
+            "Generate conforming Source Records, manifest, campaign summary, and validation",
+            "Reconcile the apparent Q2 2025 duplicate without discarding provenance",
+        ],
+        "branch_retirement_condition": "Retire only after every discovery URL has a terminal Phase 2 disposition and all unique metadata has been preserved.",
+    }
+
+
+def build_recovery_schedule() -> dict[str, object]:
+    return {
+        "schedule_id": "PHASE-2-LEGACY-WRITTEN-RAW-RECOVERY",
+        "as_of": AS_OF,
+        "status": "READY_FOR_CAMPAIGN_APPROVAL",
+        "collection_started": False,
+        "frozen_scope_records": 800,
+        "pilot_records": 20,
+        "batches": [
+            {"batch_id": "R0.1", "source_family": "HNN written corpus", "records": 157, "priority": "P0", "reason": "Highest link-rot risk"},
+            {"batch_id": "R0.2", "source_family": "Aephia", "records": 64, "priority": "P0"},
+            {"batch_id": "R0.3", "source_family": "Intergalactic Herald", "records": 259, "priority": "P0"},
+            {"batch_id": "R0.4", "source_family": "Official Campaign Delta", "records": 320, "priority": "P0", "sub_batches": ["support", "newsroom and experience", "build, governance, and main site", "immutable staratlasmeta GitHub documentation"]},
+        ],
+        "retrieval_tiers": [
+            "EXACT_PUBLIC_LIVE_CANONICAL",
+            "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+            "IMMUTABLE_GIT_COMMIT_OR_BLOB",
+            "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+            "ARCHIVED_PREDECESSOR_WITH_IDENTITY_PROOF",
+        ],
+        "terminal_dispositions": [
+            "CAPTURED_LIVE",
+            "CAPTURED_ARCHIVE",
+            "CAPTURED_IMMUTABLE_GIT",
+            "NOT_FOUND_EXHAUSTED",
+            "AMBIGUOUS_MANUAL_REVIEW",
+            "BLOCKED_ACCESS_OR_POLICY",
+        ],
+        "required_capture_fields": [
+            "source_id", "original_url", "final_url", "retrieval_tier", "capture_utc",
+            "http_status", "content_type", "byte_count", "headers", "redirect_chain",
+            "raw_sha256", "snapshot_timestamp_or_git_sha", "identity_comparison", "temporal_qualifier",
+        ],
+        "stop_rules": [
+            "Every frozen Source ID must receive exactly one terminal disposition.",
+            "Three consecutive host-level 403, 429, or challenge responses stop that host batch without bypass.",
+            "Identity mismatch, conflicting historic versions, or checksum failure stops only that item for review.",
+            "New articles enter an out-of-scope discovery ledger and are not retrieved under this campaign.",
+            "Nondeterministic identifiers, manifests, or checksums block campaign promotion.",
+        ],
+        "provenance_boundary": [
+            "A live recapture is not represented as historical publication-date bytes.",
+            "A web archive is a preservation carrier, not the publisher.",
+            "Existing normalized evidence and Source Records remain unchanged.",
+            "Search engines and aggregators are discovery-only and cannot supply the preserved article body.",
+        ],
+        "human_approval_points": [
+            "Use of authenticated or restricted sources",
+            "Ambiguous Source ID or URL identity matches",
+            "Selection among conflicting historical versions",
+            "Expansion to newly discovered articles",
+        ],
+    }
 
 
 def markdown_table(headers: list[str], rows: list[list[object]]) -> list[str]:
@@ -308,6 +413,7 @@ def markdown_table(headers: list[str], rows: list[list[object]]) -> list[str]:
 def main() -> None:
     HERE.mkdir(parents=True, exist_ok=True)
     PROGRAM.mkdir(parents=True, exist_ok=True)
+    write_url_reconciliation(HERE)
     archive_parts = ["campaign-summaries", "ingestion-packages", "manifests", "normalized", "proposed", "provenance", "raw", "reconciliation", "semantic", "source-records"]
     # Domain totals use the audited Git tree rather than platform-sensitive
     # working-tree sizes. They therefore remain fixed across Windows and Linux.
@@ -324,9 +430,17 @@ def main() -> None:
             for name in archive_parts
             for stats in [tree_stats(f"archive/{name}")]
         ],
-        "normalized_url_inventory": {"records": 3232, "pending": 902, "deferred": 2330, "status": "STALE_REQUIRES_RECONCILIATION", "path": "archive/normalized/manifests/normalized-urls.jsonl"},
+        "normalized_url_inventory": {
+            "records": 3232,
+            "historical_pending": 902,
+            "historical_deferred": 2330,
+            "status": "RECONCILED_BY_OVERLAY",
+            "path": "archive/normalized/manifests/normalized-urls.jsonl",
+            "overlay_path": "operations/coverage/url-disposition-overlay.jsonl",
+            "current_dispositions": {"INGESTED_CONFIRMED": 480, "DOCUMENTED_EXCLUSIONS": 263, "RETRIEVAL_FAILED": 4, "UNRECONCILED": 2485},
+        },
         "open_pull_requests": 0,
-        "remote_branches_merged_into_main": 42,
+        "remote_topic_branches_merged_into_main": 44,
         "remote_branches_not_ancestors_of_main": ["ingestion/discord-announcements-council-tracker", "ingestion/economic-reports-2022q2-2026q2", "knowledge/wave-2a-foundation-pages", "planning/knowledge-generation-wave-2"],
     }
     coverage = build_coverage()
@@ -339,6 +453,10 @@ def main() -> None:
     write_json(HERE / "acquisition-backlog.json", {"schema_version": "1.0", "as_of": AS_OF, "items": backlog})
     write_json(HERE / "campaign-status-register.json", {"schema_version": "1.0", "as_of": AS_OF, "campaigns": campaigns})
     write_json(HERE / "cleanup-register.json", {"schema_version": "1.0", "as_of": AS_OF, "immediate_safe_repository_deletions": [], "items": cleanup})
+    economic_assessment = build_economic_branch_assessment()
+    write_json(HERE / "economic-report-branch-assessment.json", economic_assessment)
+    recovery_schedule = build_recovery_schedule()
+    write_json(PROGRAM / "recovery-campaign-schedule.json", recovery_schedule)
     write_json(HERE / "refresh-policy.json", {
         "schema_version": "1.0", "as_of": AS_OF, "mode": "READ_ONLY_DISCOVERY_ONLY",
         "classes": {
@@ -353,7 +471,7 @@ def main() -> None:
     holdings_md = ["# Repository Holdings Baseline", "", f"Snapshot: `{BASELINE_SHA}` on {AS_OF}.", "", "## Product domains", ""]
     holdings_md += markdown_table(["Path", "Files", "Bytes"], [[x["path"], x["files"], x["bytes"]] for x in holdings["domains"]])
     holdings_md += ["", "## Archive areas", ""] + markdown_table(["Path", "Files", "Bytes"], [[x["path"], x["files"], x["bytes"]] for x in holdings["archive_areas"]])
-    holdings_md += ["", "## Structural findings", "", "- The normalized URL inventory contains 3,232 rows but all dispositions are stale: 902 `PENDING` and 2,330 `DEFERRED` despite later completed campaigns.", "- Central manifests and campaign summaries cover only part of the 19 campaign directories; campaign status is fragmented.", "- Source Record formats differ by repository generation: Markdown-only, JSON-only, and paired JSON/Markdown all exist.", "- No open pull requests existed at the baseline. Forty-two remote branches were already merged into main; four non-ancestor branches require classification.", ""]
+    holdings_md += ["", "## Structural findings", "", "- The immutable 3,232-row URL inventory now has a separate deterministic disposition overlay; 2,485 URLs remain explicitly unresolved.", "- Twenty campaign directories are represented in the central campaign status register.", "- Source Record formats differ by repository generation: Markdown-only, JSON-only, and paired JSON/Markdown all exist.", "- No open pull requests existed at the baseline. Forty-four remote topic branches were already merged into main; four non-ancestor branches remain, with the economic-report branch classified for Phase 2 integration rather than merge.", ""]
     (HERE / "repository-holdings.md").write_text("\n".join(holdings_md), encoding="utf-8")
 
     coverage_md = ["# Source Coverage Register", "", f"Evidence baseline at `{BASELINE_SHA}` on {AS_OF}. Package completeness never implies complete external history.", "", "## Medium-by-time matrix", ""]
@@ -370,10 +488,38 @@ def main() -> None:
     cleanup_md = ["# Repository Cleanup Register", "", "No tracked repository file is approved for unconditional deletion in this baseline. Preserved evidence, provenance, manifests, failures, and adjudications remain protected.", ""] + markdown_table(["ID", "Class", "Paths", "Finding", "Recommended action"], [[r["cleanup_id"], r["classification"], "; ".join(r["paths"]), r["finding"], r["action"]] for r in cleanup]) + [""]
     (HERE / "cleanup-register.md").write_text("\n".join(cleanup_md), encoding="utf-8")
 
+    economic_md = [
+        "# Economic-report Branch Assessment", "",
+        f"Decision: **`{economic_assessment['decision']}`**", "",
+        "Do not merge or cherry-pick `origin/ingestion/economic-reports-2022q2-2026q2`. Its 17 official report URLs are useful discovery seeds, but its two unique files do not form a conforming, auditable ingestion campaign.", "",
+        "## Deficiencies", "",
+    ] + [f"- {item}" for item in economic_assessment["deficiencies"]] + [
+        "", "## Phase 2 disposition", "",
+    ] + [f"- {item}" for item in economic_assessment["phase_2_requirements"]] + [
+        "", f"The branch may be retired only after: {economic_assessment['branch_retirement_condition']}", "",
+        "No human adjudication is required for this classification.", "",
+    ]
+    (HERE / "economic-report-branch-assessment.md").write_text("\n".join(economic_md), encoding="utf-8")
+
+    recovery_md = [
+        "# Phase 2 Legacy Written Raw-capture Schedule", "",
+        "Status: **`READY_FOR_CAMPAIGN_APPROVAL`**. No collection has started.", "",
+        "The first recommended Phase 2 campaign freezes exactly 800 successful Alpha–Delta Source Records. It captures public live pages, proven first-party replacements, immutable Git objects, or public web-archive snapshots without rewriting existing normalized evidence.", "",
+        "## Batches", "",
+    ] + markdown_table(["Batch", "Source family", "Records", "Priority"], [[row["batch_id"], row["source_family"], row["records"], row["priority"]] for row in recovery_schedule["batches"]]) + [
+        "", "A preliminary 20-record pilot uses five records from each campaign to prove identity matching, checksums, and deterministic reruns.", "",
+        "## Stop rules", "",
+    ] + [f"- {item}" for item in recovery_schedule["stop_rules"]] + [
+        "", "## Human approval points", "",
+    ] + [f"- {item}" for item in recovery_schedule["human_approval_points"]] + [
+        "", "Unambiguous recovery from public live or public archive sources needs no item-by-item approval when provenance is retained.", "",
+    ]
+    (PROGRAM / "recovery-campaign-schedule.md").write_text("\n".join(recovery_md), encoding="utf-8")
+
     phases = [
-        {"phase": 1, "name": "Repository and evidence baseline", "status": "READY_FOR_REVIEW", "percent_complete": 85, "remaining_gate_items": ["Reconcile stale normalized URL dispositions", "Classify the unique economic-report branch", "Schedule recovery campaigns for missing raw captures"]},
-        {"phase": 2, "name": "Priority ingestion", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Approve bounded campaigns from the acquisition backlog"]},
-        {"phase": 3, "name": "Targeted architecture refinement", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Complete Phase 1 gate", "Define publication manifest without rewriting evidence"]},
+        {"phase": 1, "name": "Repository and evidence baseline", "status": "COMPLETE", "percent_complete": 100, "remaining_gate_items": []},
+        {"phase": 2, "name": "Priority ingestion", "status": "READY_FOR_CAMPAIGN_APPROVAL", "percent_complete": 0, "remaining_gate_items": ["Approve the frozen 800-record legacy written raw-capture recovery campaign"]},
+        {"phase": 3, "name": "Targeted architecture refinement", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Complete approved Phase 2 priority campaigns", "Define publication manifest without rewriting evidence"]},
         {"phase": 4, "name": "Knowledge consolidation", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Complete priority evidence packets", "Select historically valuable dossiers"]},
         {"phase": 5, "name": "Publication layer", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Stable publication contract", "Initial ten-article portfolio"]},
         {"phase": 6, "name": "Vercel implementation", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Publication layer approved", "Read-only Vercel connection test"]},
@@ -383,33 +529,36 @@ def main() -> None:
         "program_id": "star-atlas-library-roadmap",
         "as_of": AS_OF,
         "baseline_sha": BASELINE_SHA,
-        "current_phase": 1,
+        "current_phase": 2,
         "phases": phases,
         "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
         "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",
         "baseline_ci": {
             "repository_integrity": "PASS",
-            "campaign_contracts": "FAIL_STALE_GENERATED_VALIDATION",
-            "pages_build": "FAIL_STALE_LIBRARY_INDEX",
-            "repairs_in_phase_one_branch": [
-                "knowledge narrative validator made branch-independent",
-                "Library index regenerated",
+            "campaign_contracts": "PASS",
+            "pages_build": "PASS",
+            "pages_deploy": "PASS",
+            "verified_at_main_sha": BASELINE_SHA,
+            "repairs_in_gate_closeout": [
+                "DAO campaign path-scope validation delegated to the central repository path contract so unrelated later PRs cannot rewrite the preserved campaign report",
             ],
         },
     }
     write_json(PROGRAM / "program-status.json", program_status)
     write_json(PROGRAM / "phase-gates.json", {"schema_version": "1.0", "as_of": AS_OF, "phases": phases})
     write_json(PROGRAM / "dependency-register.json", {"schema_version": "1.0", "as_of": AS_OF, "dependencies": [
-        {"dependency_id": "DEP-001", "from": "Phase 2", "to": "Phase 1", "status": "BLOCKED_BY_GATE", "reason": "Priority campaigns must be selected from a verified baseline."},
+        {"dependency_id": "DEP-001", "from": "Phase 2", "to": "Phase 1", "status": "GATE_SATISFIED_AWAITING_CAMPAIGN_APPROVAL", "reason": "Phase 1 is complete and the first bounded Phase 2 schedule is recorded."},
         {"dependency_id": "DEP-002", "from": "Phase 5", "to": "Phase 3", "status": "PENDING", "reason": "Publication requires stable disposition and manifest contracts."},
         {"dependency_id": "DEP-003", "from": "Phase 6", "to": "Phase 5", "status": "PENDING", "reason": "Vercel is the delivery layer, not the place to resolve editorial scope."},
-        {"dependency_id": "DEP-004", "from": "Economic report ingestion", "to": "ingestion/economic-reports-2022q2-2026q2", "status": "UNMERGED_NO_OPEN_PR", "reason": "Two unique registry/status files are absent from main."},
+        {"dependency_id": "DEP-004", "from": "Economic report ingestion", "to": "ingestion/economic-reports-2022q2-2026q2", "status": "CLASSIFIED_DEFERRED_TO_PHASE_2", "reason": "The branch is a 17-URL discovery seed, not a conforming ingestion campaign; do not merge it directly."},
     ]})
-    program_md = ["# Star Atlas Library Roadmap Status", "", f"Current phase: **Phase 1 — Repository and evidence baseline**. Snapshot `{BASELINE_SHA}` on {AS_OF}.", "", "This report must be refreshed at every campaign closeout. Any deviation from phase order, product boundaries, or completion gates must be stated explicitly.", "", "## Phase status", ""] + markdown_table(["Phase", "Status", "Complete", "Remaining gate"], [[f"{p['phase']}. {p['name']}", p["status"], f"{p['percent_complete']}%", "; ".join(p["remaining_gate_items"])] for p in phases]) + ["", "## Current recommendation", "", "Complete the three remaining Phase 1 gate items before starting a new ingestion campaign. The highest-value Phase 2 candidates are legacy raw-capture recovery, additional Discord channels, recurring official-source freshness, and transcript URL/date recovery.", ""]
+    program_md = ["# Star Atlas Library Roadmap Status", "", f"Current phase: **Phase 2 — Priority ingestion, awaiting campaign approval**. Snapshot `{BASELINE_SHA}` on {AS_OF}.", "", "This report must be refreshed at every campaign closeout. Any deviation from phase order, product boundaries, or completion gates must be stated explicitly.", "", "## Phase status", ""] + markdown_table(["Phase", "Status", "Complete", "Remaining gate"], [[f"{p['phase']}. {p['name']}", p["status"], f"{p['percent_complete']}%", "; ".join(p["remaining_gate_items"])] for p in phases]) + ["", "## Current recommendation", "", "Approve the frozen 800-record legacy written raw-capture recovery as the first Phase 2 campaign. Begin with the 20-record stratified pilot; do not start collection until campaign approval.", ""]
     (PROGRAM / "program-status.md").write_text("\n".join(program_md), encoding="utf-8")
     (PROGRAM / "human-adjudication-queue.md").write_text("""# Human Adjudication Queue
 
-No new blocking adjudication is required for this inventory PR.
+## Blocking before Phase 2 collection
+
+- `REVIEW-PHASE2-RAW-RECOVERY`: approve, revise, or defer the frozen 800-record legacy written raw-capture campaign. Approval authorizes only the public-source recovery boundary recorded in `recovery-campaign-schedule.md`.
 
 ## Deferred, non-blocking decisions
 
@@ -418,7 +567,7 @@ No new blocking adjudication is required for this inventory PR.
 
 ## Decisions to surface before destructive cleanup
 
-- Whether to delete the 42 remote branches already merged into `main`.
+- Whether to delete the 44 remote topic branches already merged into `main`.
 - Whether to retire `operations/migrations/validate_wave_1_5.py` or preserve it in a clearly historical location.
 - Whether source-like campaign captures should move from `operations/` into `archive/raw/`; any move requires manifest and checksum migration.
 

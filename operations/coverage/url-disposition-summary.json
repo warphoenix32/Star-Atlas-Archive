@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-07-20",
+  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+  "source_inventory_path": "archive/normalized/manifests/normalized-urls.jsonl",
+  "source_inventory_sha256": "ea23f3cc334c7d883d60a6ddbbcb09002b0a49f6da24346277630610c0579e83",
+  "source_inventory_rows": 3232,
+  "current_disposition_counts": {
+    "DEFERRED_UNRECONCILED": 2234,
+    "INGESTED_CONFIRMED": 480,
+    "EXCLUDED_NON_WRITTEN": 247,
+    "PENDING_UNRECONCILED": 251,
+    "EXCLUDED_EXTERNAL_WRITTEN": 12,
+    "EXCLUDED_NAVIGATION": 4,
+    "RETRIEVAL_FAILED": 4
+  },
+  "unreconciled": {
+    "count": 2485,
+    "platform_counts": {
+      "youtube": 2119,
+      "website": 136,
+      "medium": 96,
+      "twitch": 47,
+      "spotify": 22,
+      "tiktok": 15,
+      "instagram": 11,
+      "reddit": 10,
+      "audius": 8,
+      "discord": 6,
+      "kick": 6,
+      "github": 5,
+      "google_docs": 4
+    },
+    "status": "PHASE_2_CANDIDATE_REVIEW_REQUIRED"
+  },
+  "duplicate_clusters": 1,
+  "interpretation": [
+    "The source inventory is unchanged; its processing and network statuses remain historical evidence.",
+    "The overlay reconciles repository campaign state and does not establish complete external coverage.",
+    "HNN and Herald exclusions are deterministic aggregate reconciliations because the historical campaigns did not ledger every excluded URL ID.",
+    "Unreconciled URLs are not labeled retrieval failures or absent material."
+  ]
+}

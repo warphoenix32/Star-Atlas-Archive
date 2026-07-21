@@ -4,19 +4,20 @@ No item authorizes collection by itself.
 
 | Priority | Gap | Need | Owner | Status |
 | --- | --- | --- | --- | --- |
-| P0 | GAP-RAW-WRITTEN | Recover HTML or archived snapshots for the 800 preserved written records. | Archive Steward | MISSING_REQUIRED_ARTIFACT |
+| P0 | GAP-RAW-WRITTEN | Execute the frozen 800-record recovery schedule after Phase 2 campaign approval. | Archive Steward | SCHEDULED_FOR_PHASE_2_NOT_STARTED |
 | P0 | GAP-DISCORD-CHANNELS | Provide privacy-reviewed native exports for Atlas Amphitheater, Atlas Brew Lounge, DAO announcements, economics, faction, Foundation Room, general, governance, guild, and support channels. | Ingestion Coordinator | MISSING_REQUIRED_ARTIFACT |
 | P0 | GAP-OFFICIAL-FRESHNESS | Run read-only discovery checks for newsroom, support, governance, Medium, X, Discord, and official GitHub surfaces; create queues only. | Research and Gap Analyst | CURRENT_TO_CAPTURE_DATE |
-| P0 | GAP-URL-INVENTORY | Reconcile 3,232 normalized inventory rows against completed campaigns; retain historical disposition and add current disposition. | Archive Steward | MANUAL_REVIEW_PENDING |
+| P0 | GAP-URL-INVENTORY | Retain the immutable inventory and refresh the deterministic overlay when a relevant campaign closes. | Archive Steward | CLOSED_BY_RECONCILIATION_OVERLAY |
 | P1 | GAP-ATLAS-BREW-METADATA | Provide or discover an authoritative 123-episode mapping of video ID, URL, and publication date; speaker mapping remains optional. | Research and Gap Analyst | MISSING_REQUIRED_ARTIFACT |
 | P1 | GAP-OFFICIAL-TRANSCRIPT-METADATA | Provide program inventories or source URLs for all 36 supplied transcripts. | Research and Gap Analyst | MISSING_REQUIRED_ARTIFACT |
 | P1 | GAP-OFFICIAL-BROADCAST-INVENTORY | Build bounded episode inventories for Town Halls, DAO discussions, Economic Forums, and other official broadcast programs. | Research and Gap Analyst | UNKNOWN |
 | P1 | GAP-HNN-TRANSCRIPT-METADATA | Provide an 85-source episode map or authoritative channel inventory. | Research and Gap Analyst | MISSING_REQUIRED_ARTIFACT |
 | P1 | GAP-HNN-TRANSCRIPT-SEMANTICS | Run the approved context-sensitive transcript policy against the preserved normalized corpus. | Knowledge Curator | UNKNOWN |
 | P1 | GAP-MEDIUM-DISCOVERY | Revisit 51 explicitly deferred candidates and run current publication-native discovery without changing the 173-item confirmed-corpus boundary. | Ingestion Coordinator | MANUAL_REVIEW_PENDING |
-| P1 | GAP-PIP33-RAW | Provide the exact original export used to produce the 220 normalized ballot records, with checksum and acquisition context. | Archive Steward | MISSING_REQUIRED_ARTIFACT |
+| P1 | GAP-PIP33-RAW | Retain the checksum-identical PIP-33 member preserved inside the later DAO PIP vote ZIP. | Archive Steward | CLOSED_ARTIFACT_PRESERVED_IN_PR49_CONTAINER |
+| P2 | GAP-PIP33-PROVENANCE-CORRECTION | Correct the per-PIP provenance sidecar in a manifest-aware campaign without rewriting vote evidence. | Archive Steward | KNOWN_METADATA_DEBT |
 | P1 | GAP-ONCHAIN-EVIDENCE | Provide scoped Solana transaction, account, program, and slot data before any on-chain verification claim. | Solana Evidence Specialist | MISSING_REQUIRED_ARTIFACT |
-| P1 | GAP-ECONOMIC-REPORT-BRANCH | Reconcile unique files on ingestion/economic-reports-2022q2-2026q2; no open PR currently preserves them on main. | Lead Coordinator | MANUAL_REVIEW_PENDING |
+| P1 | GAP-ECONOMIC-REPORT-BRANCH | Use the 17-URL branch registry only as a discovery seed for a conforming Phase 2 PDF ingestion campaign, then retire the branch. | Lead Coordinator | CLASSIFIED_DEFERRED_TO_PHASE_2 |
 | P2 | GAP-X-HISTORY | Provide an earlier account export or bounded archive discovery manifest. | Ingestion Coordinator | PARTIAL_DATE_COVERAGE |
 | P2 | GAP-DISCORD-NATIVE-IDS | Provide privacy-reviewed exports retaining server, channel, message, author IDs, and timezone offsets. | Archive Steward | MISSING_REQUIRED_ARTIFACT |
 | P2 | GAP-DISCORD-ATTACHMENTS | Provide attachment metadata or a corrected export. | Archive Steward | MANUAL_REVIEW_PENDING |

@@ -1,27 +1,23 @@
 {
   "program_id": "star-atlas-library-roadmap",
   "as_of": "2026-07-20",
-  "baseline_sha": "9dc39e47393d707f60d792227cf9f150a1031b28",
-  "current_phase": 1,
+  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+  "current_phase": 2,
   "phases": [
     {
       "phase": 1,
       "name": "Repository and evidence baseline",
-      "status": "READY_FOR_REVIEW",
-      "percent_complete": 85,
-      "remaining_gate_items": [
-        "Reconcile stale normalized URL dispositions",
-        "Classify the unique economic-report branch",
-        "Schedule recovery campaigns for missing raw captures"
-      ]
+      "status": "COMPLETE",
+      "percent_complete": 100,
+      "remaining_gate_items": []
     },
     {
       "phase": 2,
       "name": "Priority ingestion",
-      "status": "NOT_STARTED",
+      "status": "READY_FOR_CAMPAIGN_APPROVAL",
       "percent_complete": 0,
       "remaining_gate_items": [
-        "Approve bounded campaigns from the acquisition backlog"
+        "Approve the frozen 800-record legacy written raw-capture recovery campaign"
       ]
     },
     {
@@ -30,7 +26,7 @@
       "status": "NOT_STARTED",
       "percent_complete": 0,
       "remaining_gate_items": [
-        "Complete Phase 1 gate",
+        "Complete approved Phase 2 priority campaigns",
         "Define publication manifest without rewriting evidence"
       ]
     },
@@ -79,11 +75,12 @@
   "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",
   "baseline_ci": {
     "repository_integrity": "PASS",
-    "campaign_contracts": "FAIL_STALE_GENERATED_VALIDATION",
-    "pages_build": "FAIL_STALE_LIBRARY_INDEX",
-    "repairs_in_phase_one_branch": [
-      "knowledge narrative validator made branch-independent",
-      "Library index regenerated"
+    "campaign_contracts": "PASS",
+    "pages_build": "PASS",
+    "pages_deploy": "PASS",
+    "verified_at_main_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+    "repairs_in_gate_closeout": [
+      "DAO campaign path-scope validation delegated to the central repository path contract so unrelated later PRs cannot rewrite the preserved campaign report"
     ]
   }
 }

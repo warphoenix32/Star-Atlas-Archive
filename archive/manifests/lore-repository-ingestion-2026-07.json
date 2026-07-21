@@ -2374,12 +2374,14 @@
     },
     {
       "byte_length": 62698,
+      "hash_mode": "UTF8_LF",
       "path": "archive/raw/lore-repository/live-site-home-2026-07-19.html",
       "role": "raw_live_site_identity",
       "sha256": "5bd2109fcb9c3875e8ff8084783e5e98b95e122f5973729a3d88bc4d49f227e0"
     },
     {
       "byte_length": 31749,
+      "hash_mode": "UTF8_LF",
       "path": "archive/raw/lore-repository/live-site-sitemap-2026-07-19.xml",
       "role": "raw_live_site_inventory",
       "sha256": "401d62a7fdb8847e62aa1d88d472dbdb91e9c612b1d3512881754e1154d72efd"
@@ -4708,11 +4710,11 @@
       "sha256": "382bdfc83d374486c93597812cfee8941c3e9e9f8b0bb377e8b447500545f673"
     },
     {
-      "byte_length": 86345,
+      "byte_length": 86536,
       "hash_mode": "UTF8_LF",
       "path": "operations/campaigns/lore-repository-ingestion-2026-07/build_campaign.py",
       "role": "deterministic_generator",
-      "sha256": "f95b24180cf93e484d2b4350f38d526c809e37b11ba160e61e18680d4b02fd73"
+      "sha256": "8e02de72ea47305cbf9251503b94c4c6c5f218c9552114efca220cb222e1a34d"
     },
     {
       "byte_length": 996,
@@ -4804,13 +4806,6 @@
       "path": "operations/campaigns/lore-repository-ingestion-2026-07/validate_campaign.py",
       "role": "campaign_validator",
       "sha256": "4671fa4b111381efcfde0a385afa646fe74a3ed4eada3f87803749092a48a160"
-    },
-    {
-      "byte_length": 39016,
-      "hash_mode": "UTF8_LF",
-      "path": "operations/ci/validate_repository.py",
-      "role": "repository_ci_integration",
-      "sha256": "235e6af7e1cf9e0ba1bf032e21a45c2d786632f8ce766e18b2d80137be9ed1c2"
     },
     {
       "byte_length": 1616,

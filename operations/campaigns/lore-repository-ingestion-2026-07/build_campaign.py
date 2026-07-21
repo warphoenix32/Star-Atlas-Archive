@@ -468,8 +468,11 @@ def build() -> dict[str, bytes]:
     prefix, members = zip_members()
     member_paths = set(members)
     raw_zip = ROOT / RAW_ZIP_REL
-    home_bytes = (ROOT / RAW_HOME_REL).read_bytes()
-    sitemap_bytes = (ROOT / RAW_SITEMAP_REL).read_bytes()
+    # Git stores these captured text artifacts with LF endings. Hash and parse
+    # that canonical repository representation so Windows checkout conversion
+    # cannot rewrite provenance or campaign manifests.
+    home_bytes = repository_text_bytes(ROOT / RAW_HOME_REL)
+    sitemap_bytes = repository_text_bytes(ROOT / RAW_SITEMAP_REL)
     sitemap_root = ElementTree.fromstring(sitemap_bytes.decode("utf-8-sig"))
     sitemap_urls = sorted(node.text.strip() for node in sitemap_root.findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc") if node.text)
 
@@ -1583,8 +1586,8 @@ All campaign-level curator decisions are recorded. The upstream identity label, 
 
     manifest_entries = [
         {"path": RAW_ZIP_REL.as_posix(), "role": "raw_commit_snapshot", "sha256": sha256_bytes(raw_zip.read_bytes()), "byte_length": raw_zip.stat().st_size},
-        {"path": RAW_HOME_REL.as_posix(), "role": "raw_live_site_identity", "sha256": sha256_bytes(home_bytes), "byte_length": len(home_bytes)},
-        {"path": RAW_SITEMAP_REL.as_posix(), "role": "raw_live_site_inventory", "sha256": sha256_bytes(sitemap_bytes), "byte_length": len(sitemap_bytes)},
+        {"path": RAW_HOME_REL.as_posix(), "role": "raw_live_site_identity", "hash_mode": "UTF8_LF", "sha256": sha256_bytes(home_bytes), "byte_length": len(home_bytes)},
+        {"path": RAW_SITEMAP_REL.as_posix(), "role": "raw_live_site_inventory", "hash_mode": "UTF8_LF", "sha256": sha256_bytes(sitemap_bytes), "byte_length": len(sitemap_bytes)},
     ]
     for static_path, role in [
         (RAW_REL / ".gitattributes", "raw_path_attributes"),
@@ -1592,7 +1595,6 @@ All campaign-level curator decisions are recorded. The upstream identity label, 
         (CAMPAIGN_REL / "build_campaign.py", "deterministic_generator"),
         (CAMPAIGN_REL / "validate_campaign.py", "campaign_validator"),
         (Path("operations/tests/lore_repository/test_lore_repository_campaign.py"), "campaign_test"),
-        (Path("operations/ci/validate_repository.py"), "repository_ci_integration"),
     ]:
         static_data = repository_text_bytes(ROOT / static_path)
         manifest_entries.append({

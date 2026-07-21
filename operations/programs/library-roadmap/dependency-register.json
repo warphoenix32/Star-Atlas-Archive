@@ -6,8 +6,8 @@
       "dependency_id": "DEP-001",
       "from": "Phase 2",
       "to": "Phase 1",
-      "status": "BLOCKED_BY_GATE",
-      "reason": "Priority campaigns must be selected from a verified baseline."
+      "status": "GATE_SATISFIED_AWAITING_CAMPAIGN_APPROVAL",
+      "reason": "Phase 1 is complete and the first bounded Phase 2 schedule is recorded."
     },
     {
       "dependency_id": "DEP-002",
@@ -27,8 +27,8 @@
       "dependency_id": "DEP-004",
       "from": "Economic report ingestion",
       "to": "ingestion/economic-reports-2022q2-2026q2",
-      "status": "UNMERGED_NO_OPEN_PR",
-      "reason": "Two unique registry/status files are absent from main."
+      "status": "CLASSIFIED_DEFERRED_TO_PHASE_2",
+      "reason": "The branch is a 17-URL discovery seed, not a conforming ingestion campaign; do not merge it directly."
     }
   ]
 }

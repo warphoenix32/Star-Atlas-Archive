@@ -1,11 +1,11 @@
 {
-  "baseline_sha": "9dc39e47393d707f60d792227cf9f150a1031b28",
+  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
   "as_of": "2026-07-20",
   "domains": [
     {
       "path": "archive",
-      "files": 8291,
-      "bytes": 267075970
+      "files": 8361,
+      "bytes": 293254538
     },
     {
       "path": "knowledge",
@@ -19,13 +19,13 @@
     },
     {
       "path": "operations",
-      "files": 684,
-      "bytes": 22523265
+      "files": 719,
+      "bytes": 22815652
     },
     {
       "path": "publication",
       "files": 20,
-      "bytes": 344682
+      "bytes": 353141
     }
   ],
   "archive_areas": [
@@ -41,13 +41,13 @@
     },
     {
       "path": "archive/manifests",
-      "files": 7,
-      "bytes": 652500
+      "files": 8,
+      "bytes": 670076
     },
     {
       "path": "archive/normalized",
-      "files": 1965,
-      "bytes": 52456184
+      "files": 1968,
+      "bytes": 76282222
     },
     {
       "path": "archive/proposed",
@@ -56,13 +56,13 @@
     },
     {
       "path": "archive/provenance",
-      "files": 7,
-      "bytes": 8820
+      "files": 8,
+      "bytes": 26172
     },
     {
       "path": "archive/raw",
-      "files": 606,
-      "bytes": 84930144
+      "files": 607,
+      "bytes": 87083234
     },
     {
       "path": "archive/reconciliation",
@@ -76,19 +76,26 @@
     },
     {
       "path": "archive/source-records",
-      "files": 3677,
-      "bytes": 14376084
+      "files": 3741,
+      "bytes": 14540596
     }
   ],
   "normalized_url_inventory": {
     "records": 3232,
-    "pending": 902,
-    "deferred": 2330,
-    "status": "STALE_REQUIRES_RECONCILIATION",
-    "path": "archive/normalized/manifests/normalized-urls.jsonl"
+    "historical_pending": 902,
+    "historical_deferred": 2330,
+    "status": "RECONCILED_BY_OVERLAY",
+    "path": "archive/normalized/manifests/normalized-urls.jsonl",
+    "overlay_path": "operations/coverage/url-disposition-overlay.jsonl",
+    "current_dispositions": {
+      "INGESTED_CONFIRMED": 480,
+      "DOCUMENTED_EXCLUSIONS": 263,
+      "RETRIEVAL_FAILED": 4,
+      "UNRECONCILED": 2485
+    }
   },
   "open_pull_requests": 0,
-  "remote_branches_merged_into_main": 42,
+  "remote_topic_branches_merged_into_main": 44,
   "remote_branches_not_ancestors_of_main": [
     "ingestion/discord-announcements-council-tracker",
     "ingestion/economic-reports-2022q2-2026q2",

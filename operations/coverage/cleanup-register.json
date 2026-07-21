@@ -79,10 +79,10 @@
       "cleanup_id": "CLN-008",
       "classification": "BRANCH_HYGIENE",
       "paths": [
-        "42 remote branches already merged into main"
+        "44 remote topic branches already merged into main"
       ],
       "finding": "Merged branch refs remain; four non-ancestor branches also remain.",
-      "action": "Delete merged refs only after branch-policy confirmation; reconcile the economic-report branch before any deletion."
+      "action": "Delete merged refs only after branch-policy confirmation; preserve the economic-report branch until its 17-URL discovery seed is integrated in Phase 2."
     },
     {
       "cleanup_id": "CLN-009",

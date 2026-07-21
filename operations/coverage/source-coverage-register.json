@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "as_of": "2026-07-20",
-  "baseline_sha": "9dc39e47393d707f60d792227cf9f150a1031b28",
+  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
   "records": [
     {
       "coverage_id": "COV-AEPHIA-WRITTEN",
@@ -449,7 +449,7 @@
       "medium": "Solana vote export",
       "authority": "OPERATOR_SUPPLIED_CHAIN_DERIVED_DATA",
       "counts": {
-        "raw_files": 0,
+        "raw_files": 1,
         "normalized_records": 220,
         "source_records": 1,
         "semantic_records": 0,
@@ -459,20 +459,57 @@
       "last_supported_date": "2026-07-10",
       "coverage_statuses": [
         "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
-        "MISSING_REQUIRED_ARTIFACT"
+        "PROVENANCE_METADATA_CORRECTION_PENDING"
       ],
       "completeness_basis": "All 220 effective ballot records in the supplied normalized dataset were reconciled.",
       "limitations": [
-        "The original raw vote export is not preserved.",
+        "The exact PIP-33 source artifact is preserved as a member of the later PIP-1 through PIP-32 raw ZIP, but the older per-PIP provenance sidecar still predates that preservation.",
         "Signature replay and payment or implementation verification were not performed."
       ],
       "evidence_paths": [
         "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json",
-        "archive/provenance/governance-votes/pip-33.json"
+        "archive/provenance/governance-votes/pip-33.json",
+        "archive/raw/governance-votes/pip-01-32/Star Atlas DAO PIP Votes.zip"
       ],
       "gap_ids": [
-        "GAP-PIP33-RAW",
+        "GAP-PIP33-PROVENANCE-CORRECTION",
         "GAP-ONCHAIN-EVIDENCE"
+      ],
+      "refresh_class": "HIGH_FREQUENCY",
+      "last_verified": "2026-07-20",
+      "next_review_date": "2026-08-20"
+    },
+    {
+      "coverage_id": "COV-DAO-PIP-VOTE-EVIDENCE",
+      "source_family": "DAO PIP-1 through PIP-32 vote evidence",
+      "medium": "Solana vote export",
+      "authority": "OPERATOR_SUPPLIED_CHAIN_DERIVED_DATA",
+      "counts": {
+        "raw_files": 1,
+        "normalized_records": 8404,
+        "source_records": 32,
+        "semantic_records": 0,
+        "ingestion_package_records": 0
+      },
+      "first_supported_date": "2024-07-10",
+      "last_supported_date": "2026-06-11",
+      "coverage_statuses": [
+        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "MANUAL_REVIEW_PENDING"
+      ],
+      "completeness_basis": "The operator-supplied ZIP, 8,404 vote events, 32 proposal summaries, and 32 paired Source Records are preserved.",
+      "limitations": [
+        "Five ranked-choice elections retain candidate-level totals without final STV recomputation.",
+        "The campaign reports 278 timestamp-order anomalies.",
+        "No independent RPC re-verification, payment inference, or implementation inference was performed."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/campaign-summary.json",
+        "archive/manifests/dao-pip-vote-evidence-ingestion-2026-07.json"
+      ],
+      "gap_ids": [
+        "GAP-ONCHAIN-EVIDENCE",
+        "GAP-GOVERNANCE-IMPLEMENTATION"
       ],
       "refresh_class": "HIGH_FREQUENCY",
       "last_verified": "2026-07-20",

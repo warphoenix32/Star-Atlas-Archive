@@ -1,6 +1,8 @@
 # Human Adjudication Queue
 
-No new blocking adjudication is required for this inventory PR.
+## Blocking before Phase 2 collection
+
+- `REVIEW-PHASE2-RAW-RECOVERY`: approve, revise, or defer the frozen 800-record legacy written raw-capture campaign. Approval authorizes only the public-source recovery boundary recorded in `recovery-campaign-schedule.md`.
 
 ## Deferred, non-blocking decisions
 
@@ -9,7 +11,7 @@ No new blocking adjudication is required for this inventory PR.
 
 ## Decisions to surface before destructive cleanup
 
-- Whether to delete the 42 remote branches already merged into `main`.
+- Whether to delete the 44 remote topic branches already merged into `main`.
 - Whether to retire `operations/migrations/validate_wave_1_5.py` or preserve it in a clearly historical location.
 - Whether source-like campaign captures should move from `operations/` into `archive/raw/`; any move requires manifest and checksum migration.
 

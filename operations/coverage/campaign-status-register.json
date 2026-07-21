@@ -33,6 +33,12 @@
       "note": "Council reporting is not independent implementation verification."
     },
     {
+      "campaign_id": "dao-pip-vote-evidence-ingestion-2026-07",
+      "status": "READY_FOR_ARCHIVAL_REVIEW",
+      "status_evidence": "operations/campaigns/dao-pip-vote-evidence-ingestion-2026-07/campaign-summary.json",
+      "note": "8,404 vote events and 32 proposal summaries are preserved; STV, RPC, payment, and implementation limits remain."
+    },
+    {
       "campaign_id": "discord-announcements-semantic-enrichment",
       "status": "GENERATED_WITH_CORRECTIONS",
       "status_evidence": "operations/campaigns/discord-announcements-semantic-enrichment/review-correction-status.json",

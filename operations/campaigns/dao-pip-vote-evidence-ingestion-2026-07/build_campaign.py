@@ -260,9 +260,21 @@ def manifest_paths() -> list[Path]:
     return sorted(fixed + list(SOURCE_ROOT.glob("*.json")) + list(SOURCE_ROOT.glob("*.md")), key=repo_path)
 
 
+def manifest_bytes(path: Path) -> bytes:
+    """Return platform-independent bytes for text artifacts in the manifest."""
+    data = path.read_bytes()
+    if path.suffix.lower() in {".json", ".jsonl", ".md", ".py"}:
+        return data.replace(b"\r\n", b"\n")
+    return data
+
+
 def write_manifest() -> None:
     artifacts = [
-        {"path": repo_path(path), "byte_length": path.stat().st_size, "sha256": sha256(path)}
+        {
+            "path": repo_path(path),
+            "byte_length": len(manifest_bytes(path)),
+            "sha256": hashlib.sha256(manifest_bytes(path)).hexdigest(),
+        }
         for path in manifest_paths()
     ]
     payload = {"campaign_id": CAMPAIGN_ID, "generated_as_of": AS_OF, "artifact_count": len(artifacts), "artifacts": artifacts}

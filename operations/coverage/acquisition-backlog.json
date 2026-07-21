@@ -6,9 +6,9 @@
       "gap_id": "GAP-RAW-WRITTEN",
       "priority": "P0",
       "title": "Legacy Alpha-Delta immutable raw captures",
-      "required_artifact_or_action": "Recover HTML or archived snapshots for the 800 preserved written records.",
+      "required_artifact_or_action": "Execute the frozen 800-record recovery schedule after Phase 2 campaign approval.",
       "owner": "Archive Steward",
-      "status": "MISSING_REQUIRED_ARTIFACT",
+      "status": "SCHEDULED_FOR_PHASE_2_NOT_STARTED",
       "tracking_issue": 31,
       "last_verified": "2026-07-20"
     },
@@ -35,10 +35,10 @@
     {
       "gap_id": "GAP-URL-INVENTORY",
       "priority": "P0",
-      "title": "Stale normalized URL dispositions",
-      "required_artifact_or_action": "Reconcile 3,232 normalized inventory rows against completed campaigns; retain historical disposition and add current disposition.",
+      "title": "Historical normalized URL dispositions",
+      "required_artifact_or_action": "Retain the immutable inventory and refresh the deterministic overlay when a relevant campaign closes.",
       "owner": "Archive Steward",
-      "status": "MANUAL_REVIEW_PENDING",
+      "status": "CLOSED_BY_RECONCILIATION_OVERLAY",
       "tracking_issue": 31,
       "last_verified": "2026-07-20"
     },
@@ -106,9 +106,19 @@
       "gap_id": "GAP-PIP33-RAW",
       "priority": "P1",
       "title": "Original PIP-33 vote export",
-      "required_artifact_or_action": "Provide the exact original export used to produce the 220 normalized ballot records, with checksum and acquisition context.",
+      "required_artifact_or_action": "Retain the checksum-identical PIP-33 member preserved inside the later DAO PIP vote ZIP.",
       "owner": "Archive Steward",
-      "status": "MISSING_REQUIRED_ARTIFACT",
+      "status": "CLOSED_ARTIFACT_PRESERVED_IN_PR49_CONTAINER",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-20"
+    },
+    {
+      "gap_id": "GAP-PIP33-PROVENANCE-CORRECTION",
+      "priority": "P2",
+      "title": "PIP-33 provenance sidecar predates raw preservation",
+      "required_artifact_or_action": "Correct the per-PIP provenance sidecar in a manifest-aware campaign without rewriting vote evidence.",
+      "owner": "Archive Steward",
+      "status": "KNOWN_METADATA_DEBT",
       "tracking_issue": 31,
       "last_verified": "2026-07-20"
     },
@@ -125,10 +135,10 @@
     {
       "gap_id": "GAP-ECONOMIC-REPORT-BRANCH",
       "priority": "P1",
-      "title": "Unmerged economic-report registry",
-      "required_artifact_or_action": "Reconcile unique files on ingestion/economic-reports-2022q2-2026q2; no open PR currently preserves them on main.",
+      "title": "Unmerged economic-report discovery registry",
+      "required_artifact_or_action": "Use the 17-URL branch registry only as a discovery seed for a conforming Phase 2 PDF ingestion campaign, then retire the branch.",
       "owner": "Lead Coordinator",
-      "status": "MANUAL_REVIEW_PENDING",
+      "status": "CLASSIFIED_DEFERRED_TO_PHASE_2",
       "tracking_issue": 31,
       "last_verified": "2026-07-20"
     },

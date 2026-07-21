@@ -24,12 +24,19 @@ GENERATED = [
     HERE / "cleanup-register.json",
     HERE / "cleanup-register.md",
     HERE / "refresh-policy.json",
+    HERE / "url-disposition-overlay.jsonl",
+    HERE / "url-disposition-summary.json",
+    HERE / "url-disposition-summary.md",
+    HERE / "economic-report-branch-assessment.json",
+    HERE / "economic-report-branch-assessment.md",
     PROGRAM / "README.md",
     PROGRAM / "program-status.json",
     PROGRAM / "program-status.md",
     PROGRAM / "phase-gates.json",
     PROGRAM / "dependency-register.json",
     PROGRAM / "human-adjudication-queue.md",
+    PROGRAM / "recovery-campaign-schedule.json",
+    PROGRAM / "recovery-campaign-schedule.md",
 ]
 
 
@@ -72,33 +79,90 @@ def main() -> int:
     gap_ids = {row.get("gap_id") for row in gaps}
     evidence_missing = sorted({path for row in coverage for path in row.get("evidence_paths", []) if not (ROOT / path).exists()})
     unknown_gaps = sorted({gid for row in coverage for gid in row.get("gap_ids", []) if gid not in gap_ids})
-    check("coverage_records", len(coverage) == 15, len(coverage))
+    check("coverage_records", len(coverage) == 16, len(coverage))
     check("coverage_evidence_paths_resolve", not evidence_missing, evidence_missing)
     check("coverage_gaps_reconcile", not unknown_gaps, unknown_gaps)
-    check("campaign_registry", len(campaigns) == 19, len(campaigns))
+    check("campaign_registry", len(campaigns) == 20, len(campaigns))
     missing_campaign_evidence = sorted(row["status_evidence"] for row in campaigns if not (ROOT / row["status_evidence"]).exists())
     check("campaign_status_evidence_resolves", not missing_campaign_evidence, missing_campaign_evidence)
 
     holdings = parsed.get("repository-holdings.json", {})
     archive = next((row for row in holdings.get("domains", []) if row.get("path") == "archive"), {})
-    check("archive_holdings_reconcile", archive.get("files") == 8291, archive)
-    check("normalized_inventory_boundary", holdings.get("normalized_url_inventory", {}).get("records") == 3232 and holdings.get("normalized_url_inventory", {}).get("status") == "STALE_REQUIRES_RECONCILIATION", holdings.get("normalized_url_inventory"))
+    check("archive_holdings_reconcile", archive.get("files") == 8361, archive)
+    inventory_boundary = holdings.get("normalized_url_inventory", {})
+    check("normalized_inventory_boundary", inventory_boundary.get("records") == 3232 and inventory_boundary.get("status") == "RECONCILED_BY_OVERLAY", inventory_boundary)
+
+    overlay_path = HERE / "url-disposition-overlay.jsonl"
+    overlay_errors: list[str] = []
+    overlay: list[dict] = []
+    for line_number, line in enumerate(overlay_path.read_text(encoding="utf-8").splitlines(), start=1):
+        try:
+            overlay.append(json.loads(line))
+        except Exception as exc:  # noqa: BLE001
+            overlay_errors.append(f"line {line_number}: {exc}")
+    expected_dispositions = {
+        "INGESTED_CONFIRMED": 480,
+        "EXCLUDED_NON_WRITTEN": 247,
+        "EXCLUDED_NAVIGATION": 4,
+        "EXCLUDED_EXTERNAL_WRITTEN": 12,
+        "RETRIEVAL_FAILED": 4,
+        "PENDING_UNRECONCILED": 251,
+        "DEFERRED_UNRECONCILED": 2234,
+    }
+    actual_dispositions: dict[str, int] = {}
+    for row in overlay:
+        disposition = row.get("current_disposition")
+        actual_dispositions[disposition] = actual_dispositions.get(disposition, 0) + 1
+    check("url_overlay_jsonl_parses", not overlay_errors, overlay_errors)
+    check("url_overlay_reconciles", len(overlay) == 3232 and len({row.get('url_id') for row in overlay}) == 3232 and actual_dispositions == expected_dispositions, {"rows": len(overlay), "dispositions": actual_dispositions})
+    missing_overlay_artifacts = sorted({path for row in overlay for path in row.get("artifact_paths", []) if not (ROOT / path).exists()})
+    missing_overlay_evidence = sorted({evidence.get("path") for row in overlay for evidence in row.get("evidence", []) if not (ROOT / evidence.get("path", "")).exists()})
+    check("url_overlay_references_resolve", not missing_overlay_artifacts and not missing_overlay_evidence, {"artifacts": missing_overlay_artifacts, "evidence": missing_overlay_evidence})
+
+    economic = parsed.get("economic-report-branch-assessment.json", {})
+    check("economic_branch_classified", economic.get("decision") == "CLASSIFIED_DEFERRED_TO_PHASE_2" and economic.get("discovery_urls") == 17 and economic.get("merge_or_cherry_pick") is False, economic)
+    recovery = parsed.get("recovery-campaign-schedule.json", {})
+    check("raw_recovery_schedule_bounded", recovery.get("status") == "READY_FOR_CAMPAIGN_APPROVAL" and recovery.get("collection_started") is False and sum(row.get("records", 0) for row in recovery.get("batches", [])) == 800, recovery)
 
     cleanup = parsed.get("cleanup-register.json", {})
     check("no_unconditional_repository_deletions", cleanup.get("immediate_safe_repository_deletions") == [], cleanup.get("immediate_safe_repository_deletions"))
 
     phases = parsed.get("program-status.json", {}).get("phases", [])
     check("seven_phase_roadmap", [row.get("phase") for row in phases] == list(range(1, 8)), [row.get("phase") for row in phases])
-    check("phase_one_active", parsed.get("program-status.json", {}).get("current_phase") == 1 and phases[0].get("status") == "READY_FOR_REVIEW", phases[0] if phases else None)
+    check("phase_one_complete", phases[0].get("status") == "COMPLETE" and phases[0].get("percent_complete") == 100 and phases[0].get("remaining_gate_items") == [], phases[0] if phases else None)
+    check("phase_two_ready_for_approval", parsed.get("program-status.json", {}).get("current_phase") == 2 and phases[1].get("status") == "READY_FOR_CAMPAIGN_APPROVAL", phases[1] if len(phases) > 1 else None)
 
     library = subprocess.run(["node", "publication/site/scripts/build-search-index.mjs", "--check"], cwd=ROOT, capture_output=True, text=True, check=False)
-    check("library_index_fixed_point", library.returncode == 0, (library.stdout + library.stderr).strip())
+    library_detail = (library.stdout + library.stderr).strip()
+    if library.returncode:
+        # The script compares bytes. Windows CRLF checkout can therefore fail
+        # while regenerated content has the committed Git object hash. Preserve
+        # and restore the checkout bytes around that filtered-hash comparison.
+        library_path = ROOT / "publication/site/assets/library-index.json"
+        checkout_bytes = library_path.read_bytes()
+        try:
+            regenerated = subprocess.run(["node", "publication/site/scripts/build-search-index.mjs"], cwd=ROOT, capture_output=True, text=True, check=False)
+            generated_hash = subprocess.run(["git", "hash-object", "publication/site/assets/library-index.json"], cwd=ROOT, capture_output=True, text=True, check=False)
+            committed_hash = subprocess.run(["git", "rev-parse", "HEAD:publication/site/assets/library-index.json"], cwd=ROOT, capture_output=True, text=True, check=False)
+            library_passed = regenerated.returncode == generated_hash.returncode == committed_hash.returncode == 0 and generated_hash.stdout.strip() == committed_hash.stdout.strip()
+        finally:
+            library_path.write_bytes(checkout_bytes)
+        library_detail = {
+            "byte_check": library_detail,
+            "regeneration": (regenerated.stdout + regenerated.stderr).strip(),
+            "generated_git_hash": generated_hash.stdout.strip(),
+            "committed_git_hash": committed_hash.stdout.strip(),
+            "windows_line_ending_fallback": library_passed,
+        }
+    else:
+        library_passed = True
+    check("library_index_fixed_point", library_passed, library_detail)
     social_summary = json.loads((ROOT / "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json").read_text(encoding="utf-8"))
     social_validation = json.loads((ROOT / "operations/campaigns/social-governance-semantic-enrichment/validation-report.json").read_text(encoding="utf-8"))
     check("social_campaign_status_reconciled", social_summary.get("status") == social_validation.get("status") == "PASS", {"summary": social_summary.get("status"), "validation": social_validation.get("status")})
 
     passed = all(row["passed"] for row in checks)
-    report = {"program_id": "star-atlas-library-roadmap-phase-1", "as_of": "2026-07-20", "baseline_sha": "9dc39e47393d707f60d792227cf9f150a1031b28", "result": "PASS" if passed else "FAIL", "checks": checks, "limitations": ["The register is a repository snapshot, not proof of external corpus completeness.", "Freshness adapters are policy-defined but not implemented.", "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."]}
+    report = {"program_id": "star-atlas-library-roadmap-phase-1", "as_of": "2026-07-20", "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed", "result": "PASS" if passed else "FAIL", "checks": checks, "limitations": ["The register is a repository snapshot, not proof of external corpus completeness.", "The 2,485 unreconciled URL rows require bounded Phase 2 review.", "Freshness adapters are policy-defined but not implemented.", "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."]}
     (HERE / "validation-report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     lines = ["# Phase 1 Validation Report", "", f"**Result:** `{report['result']}`", "", "## Checks", ""]
     lines.extend(f"- **{'PASS' if row['passed'] else 'FAIL'} — {row['name']}:** {row['detail']}" for row in checks)
