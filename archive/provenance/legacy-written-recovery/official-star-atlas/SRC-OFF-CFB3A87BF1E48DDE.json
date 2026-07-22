@@ -1,0 +1,64 @@
+{
+  "byte_count": 68979,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:25.870997Z",
+  "captured_at": "2026-07-22T23:05:25.870997Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/game-updates/game-on-pledge-your-ships-for-factional-fleet-service-in-star-atlas",
+  "headers": {
+    "content-length": "68979",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:05:25 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/game-updates/game-on-pledge-your-ships-for-factional-fleet-service-in-star-atlas",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/game-updates/game-on-pledge-your-ships-for-factional-fleet-service-in-star-atlas",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "GAME ON: Pledge Your Ships for Factional Fleet Service in Star Atlas | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/game-updates/game-on-pledge-your-ships-for-factional-fleet-service-in-star-atlas",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-CFB3A87BF1E48DDE.json",
+  "raw_body": {
+    "byte_length": 68979,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-CFB3A87BF1E48DDE/response-body.bin",
+    "sha256": "219b9101cf3bcf0eb14181088bee6be2ab4b2b3d5ca47b7d441c52bfcefb083a"
+  },
+  "raw_sha256": "219b9101cf3bcf0eb14181088bee6be2ab4b2b3d5ca47b7d441c52bfcefb083a",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/game-updates/game-on-pledge-your-ships-for-factional-fleet-service-in-star-atlas",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/game-updates/game-on-pledge-your-ships-for-factional-fleet-service-in-star-atlas",
+    "headers": {
+      "content-length": "68979",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:05:25 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-CFB3A87BF1E48DDE",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:25.870997Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

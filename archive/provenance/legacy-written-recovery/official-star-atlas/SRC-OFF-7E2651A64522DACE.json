@@ -1,0 +1,62 @@
+{
+  "byte_count": 25161,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:33.652053Z",
+  "captured_at": "2026-07-22T23:04:33.652053Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47031402157331-What-types-of-quests-exist-in-Holosim",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:33 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47031402157331-What-types-of-quests-exist-in-Holosim",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031402157331-What-types-of-quests-exist-in-Holosim",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47031402157331-What-types-of-quests-exist-in-Holosim",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031402157331-What-types-of-quests-exist-in-Holosim",
+    "document_title": "What types of quests exist in Holosim? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47031402157331-What-types-of-quests-exist-in-Holosim",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-7E2651A64522DACE.json",
+  "raw_body": {
+    "byte_length": 25161,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-7E2651A64522DACE/response-body.bin",
+    "sha256": "bc2b7cc9d888ac53b590d5c02190097f1154f10c46a9c94e901a49f4fba185d3"
+  },
+  "raw_sha256": "bc2b7cc9d888ac53b590d5c02190097f1154f10c46a9c94e901a49f4fba185d3",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47031402157331-What-types-of-quests-exist-in-Holosim",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47031402157331-What-types-of-quests-exist-in-Holosim",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:33 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-7E2651A64522DACE",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:33.652053Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

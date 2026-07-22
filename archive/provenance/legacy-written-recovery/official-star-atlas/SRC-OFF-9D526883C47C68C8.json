@@ -1,0 +1,68 @@
+{
+  "byte_count": 31739,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:53.485168Z",
+  "captured_at": "2026-07-22T23:04:53.485168Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/program-security",
+  "headers": {
+    "content-length": "31739",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:53 GMT",
+    "etag": "\"69e10f4e-7bfb\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/program-security",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/program-security",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Program Security | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/program-security",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-9D526883C47C68C8.json",
+  "raw_body": {
+    "byte_length": 31739,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-9D526883C47C68C8/response-body.bin",
+    "sha256": "d68713c34515c05b2d8fb6c2af3eae02ef4c7abb6a20aa61973ddcb1bbda3a12"
+  },
+  "raw_sha256": "d68713c34515c05b2d8fb6c2af3eae02ef4c7abb6a20aa61973ddcb1bbda3a12",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/program-security",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/program-security",
+    "headers": {
+      "content-length": "31739",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:53 GMT",
+      "etag": "\"69e10f4e-7bfb\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-9D526883C47C68C8",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:53.485168Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

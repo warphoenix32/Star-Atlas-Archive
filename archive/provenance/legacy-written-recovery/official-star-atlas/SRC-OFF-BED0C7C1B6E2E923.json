@@ -1,0 +1,68 @@
+{
+  "byte_count": 32838,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:17.533630Z",
+  "captured_at": "2026-07-22T23:05:17.533630Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/unreal-engine-tooling",
+  "headers": {
+    "content-length": "32838",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:17 GMT",
+    "etag": "\"69e10f4e-8046\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/unreal-engine-tooling",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/unreal-engine-tooling",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Unreal Engine Tooling | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/unreal-engine-tooling",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-BED0C7C1B6E2E923.json",
+  "raw_body": {
+    "byte_length": 32838,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-BED0C7C1B6E2E923/response-body.bin",
+    "sha256": "e4e5798129eac6a166e86f4bc49b5f2ec0cb068ea90a18ae60d5c983fdfa1591"
+  },
+  "raw_sha256": "e4e5798129eac6a166e86f4bc49b5f2ec0cb068ea90a18ae60d5c983fdfa1591",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/unreal-engine-tooling",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/unreal-engine-tooling",
+    "headers": {
+      "content-length": "32838",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:17 GMT",
+      "etag": "\"69e10f4e-8046\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-BED0C7C1B6E2E923",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:17.533630Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

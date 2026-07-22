@@ -1,0 +1,68 @@
+{
+  "byte_count": 33437,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:54.473950Z",
+  "captured_at": "2026-07-22T23:04:54.473950Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/cargo",
+  "headers": {
+    "content-length": "33437",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:54 GMT",
+    "etag": "\"69e10f4e-829d\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/apis-and-data/cargo",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/apis-and-data/cargo",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Cargo | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/apis-and-data/cargo",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-9D986E9EE2455C6E.json",
+  "raw_body": {
+    "byte_length": 33437,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-9D986E9EE2455C6E/response-body.bin",
+    "sha256": "71e4df31a6fe1ef48dbed8de289d1e9e33a209c7eeb0205c10779fc3f470698d"
+  },
+  "raw_sha256": "71e4df31a6fe1ef48dbed8de289d1e9e33a209c7eeb0205c10779fc3f470698d",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/apis-and-data/cargo",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/cargo",
+    "headers": {
+      "content-length": "33437",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:54 GMT",
+      "etag": "\"69e10f4e-829d\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-9D986E9EE2455C6E",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:54.473950Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

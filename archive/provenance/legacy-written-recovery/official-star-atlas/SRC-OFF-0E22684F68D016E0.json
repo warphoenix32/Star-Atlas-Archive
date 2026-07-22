@@ -1,0 +1,62 @@
+{
+  "byte_count": 34116,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:17.149022Z",
+  "captured_at": "2026-07-22T23:03:17.149022Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47210126275347-What-is-the-Star-Atlas-UE5-Game",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:17 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47210126275347-What-is-the-Star-Atlas-UE5-Game",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47210126275347-What-is-the-Star-Atlas-UE5-Game",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47210126275347-What-is-the-Star-Atlas-UE5-Game",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47210126275347-What-is-the-Star-Atlas-UE5-Game",
+    "document_title": "What is the Star Atlas UE5 Game? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47210126275347-What-is-the-Star-Atlas-UE5-Game",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-0E22684F68D016E0.json",
+  "raw_body": {
+    "byte_length": 34116,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-0E22684F68D016E0/response-body.bin",
+    "sha256": "6b748fb4533198e788f8461609fec9da613f63e08e4613534a467b71b305c024"
+  },
+  "raw_sha256": "6b748fb4533198e788f8461609fec9da613f63e08e4613534a467b71b305c024",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47210126275347-What-is-the-Star-Atlas-UE5-Game",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47210126275347-What-is-the-Star-Atlas-UE5-Game",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:17 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-0E22684F68D016E0",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:17.149022Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

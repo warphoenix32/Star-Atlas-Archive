@@ -1,0 +1,62 @@
+{
+  "byte_count": 29113,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:59.509740Z",
+  "captured_at": "2026-07-22T23:05:59.509740Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:59 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage",
+    "document_title": "How to Import a Ship into Sage? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-F5E8D885F87B4B27.json",
+  "raw_body": {
+    "byte_length": 29113,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-F5E8D885F87B4B27/response-body.bin",
+    "sha256": "fa6ff2170ff2a073fe90b22abaa65114f7d822708f9b5de7e6591c4266fe22d1"
+  },
+  "raw_sha256": "fa6ff2170ff2a073fe90b22abaa65114f7d822708f9b5de7e6591c4266fe22d1",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:59 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-F5E8D885F87B4B27",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:59.509740Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

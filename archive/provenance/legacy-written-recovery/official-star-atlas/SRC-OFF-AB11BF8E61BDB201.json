@@ -1,0 +1,68 @@
+{
+  "byte_count": 24778,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:03.306150Z",
+  "captured_at": "2026-07-22T23:05:03.306150Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/creative-assets/user-services-requirements",
+  "headers": {
+    "content-length": "24778",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:03 GMT",
+    "etag": "\"69e10f4e-60ca\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/creative-assets/user-services-requirements",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/creative-assets/user-services-requirements",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "User Services Requirements | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/creative-assets/user-services-requirements",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-AB11BF8E61BDB201.json",
+  "raw_body": {
+    "byte_length": 24778,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-AB11BF8E61BDB201/response-body.bin",
+    "sha256": "80cbe81c0e4c73e009f56d7815c132816cbfcb43dbbda2a779aa29c215166b97"
+  },
+  "raw_sha256": "80cbe81c0e4c73e009f56d7815c132816cbfcb43dbbda2a779aa29c215166b97",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/creative-assets/user-services-requirements",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/creative-assets/user-services-requirements",
+    "headers": {
+      "content-length": "24778",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:03 GMT",
+      "etag": "\"69e10f4e-60ca\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-AB11BF8E61BDB201",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:03.306150Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

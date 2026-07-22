@@ -1,0 +1,62 @@
+{
+  "byte_count": 29552,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:49.062385Z",
+  "captured_at": "2026-07-22T23:03:49.062385Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053502396563-How-to-Use-Crew-Members-in-SAGE-for-Ship-Operations",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:49 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053502396563-How-to-Use-Crew-Members-in-SAGE-for-Ship-Operations",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053502396563-How-to-Use-Crew-Members-in-SAGE-for-Ship-Operations",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053502396563-How-to-Use-Crew-Members-in-SAGE-for-Ship-Operations",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053502396563-How-to-Use-Crew-Members-in-SAGE-for-Ship-Operations",
+    "document_title": "How to Use Crew Members in SAGE for Ship Operations? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053502396563-How-to-Use-Crew-Members-in-SAGE-for-Ship-Operations",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-3D9435B57A6B6E1A.json",
+  "raw_body": {
+    "byte_length": 29552,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-3D9435B57A6B6E1A/response-body.bin",
+    "sha256": "a6d0d43d846218acb9ae3ff549032c2e1df23bde515cb06f04e1dc024fcf072c"
+  },
+  "raw_sha256": "a6d0d43d846218acb9ae3ff549032c2e1df23bde515cb06f04e1dc024fcf072c",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053502396563-How-to-Use-Crew-Members-in-SAGE-for-Ship-Operations",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053502396563-How-to-Use-Crew-Members-in-SAGE-for-Ship-Operations",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:49 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-3D9435B57A6B6E1A",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:49.062385Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

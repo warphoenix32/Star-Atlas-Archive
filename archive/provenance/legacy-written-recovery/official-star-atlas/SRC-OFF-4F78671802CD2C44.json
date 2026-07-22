@@ -1,0 +1,68 @@
+{
+  "byte_count": 34517,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:57.856822Z",
+  "captured_at": "2026-07-22T23:03:57.856822Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/galaxy-api/tokens",
+  "headers": {
+    "content-length": "34517",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:57 GMT",
+    "etag": "\"69e10f4e-86d5\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/apis-and-data/galaxy-api/tokens",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/apis-and-data/galaxy-api/tokens",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Tokens | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/apis-and-data/galaxy-api/tokens",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-4F78671802CD2C44.json",
+  "raw_body": {
+    "byte_length": 34517,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-4F78671802CD2C44/response-body.bin",
+    "sha256": "6944df50e4aece7d74c9fbba8d914a4ad0ac551d4763c24a565f73490726a962"
+  },
+  "raw_sha256": "6944df50e4aece7d74c9fbba8d914a4ad0ac551d4763c24a565f73490726a962",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/apis-and-data/galaxy-api/tokens",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/galaxy-api/tokens",
+    "headers": {
+      "content-length": "34517",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:57 GMT",
+      "etag": "\"69e10f4e-86d5\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-4F78671802CD2C44",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:57.856822Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Fleet, Your Way | Star Atlas</title>
+  <meta name="description" content="Build, customize, and command your fleet in Star Atlas. Explore ship interiors, manage armadas, and shape your path in the Galia Expanse." />
+  <meta name="keywords" content="Star Atlas, AAA MMO, space exploration, space game, MMO, blockchain game, play to earn, Solana, Galia, fleet command, sci-fi MMO" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="ATMTA, Inc." />
+  <link rel="canonical" href="https://staratlas.com/game/your-fleet-your-way/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Star Atlas" />
+  <meta property="og:title" content="Your Fleet, Your Way | Star Atlas" />
+  <meta property="og:description" content="Build, customize, and command your fleet in Star Atlas. Explore ship interiors, manage armadas, and shape your path in the Galia Expanse." />
+  <meta property="og:url" content="https://staratlas.com/game/your-fleet-your-way/" />
+  <meta property="og:image" content="https://staratlas.com/Icon.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@staratlas" />
+  <meta name="twitter:title" content="Your Fleet, Your Way | Star Atlas" />
+  <meta name="twitter:description" content="Build, customize, and command your fleet in Star Atlas. Explore ship interiors, manage armadas, and shape your path in the Galia Expanse." />
+  <meta name="twitter:image" content="https://staratlas.com/Icon.png" />
+
+  <link rel="icon" type="image/png" href="../../Icon.png">
+  <link rel="apple-touch-icon" href="../../Icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Your Fleet, Your Way | Star Atlas","url":"https://staratlas.com/game/your-fleet-your-way/","description":"Build, customize, and command your fleet in Star Atlas. Explore ship interiors, manage armadas, and shape your path in the Galia Expanse.","isPartOf":{"@type":"WebSite","name":"Star Atlas","url":"https://staratlas.com"}}</script>
+</head>
+<body>
+  <div class="loading-bar" id="loadingBar"></div>
+  <div class="grid-container">
+    <div class="grid-layer dots"></div>
+    <div class="grid-layer grid"></div>
+    <div class="grid-layer accent"></div>
+  </div>
+  <div class="mouse-spotlight"></div>
+  <div class="glow-container">
+    <div class="glow"></div>
+    <div class="glow"></div>
+    <div class="glow"></div>
+  </div>
+
+  <nav>
+    <div class="nav-main">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="../../index.html" aria-label="Star Atlas Home">
+            <img src="../../Logo.svg" alt="Star Atlas">
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="mobile-nav-panel" id="primary-navigation">
+          <ul class="nav-links">
+            <li><a href="../../game/">Game</a></li>
+            <li><a href="../../index.html#economy">Economy</a></li>
+            <li><a href="../../index.html#community">Community</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="https://play.staratlas.com/market/" target="_blank" class="download-btn" rel="noopener noreferrer"><span>Galactic Marketplace</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="feature-page">
+    <section class="game-section">
+      <div class="section-header" style="opacity:1;">
+        <div style="display:flex; align-items:stretch;">
+          <span class="section-number">0001.</span>
+          <h1 class="section-title">Your Fleet, Your Way</h1>
+        </div>
+      </div>
+      
+      <p class="page-intro section-subtitle">In Star Atlas, ships serve as homes, businesses, and strategic assets. Explore every deck of your vessels, customize their loadouts, and build a fleet that reflects your ambitions in the Galia Expanse.</p>
+      
+      
+    <div class="video-container">
+      <video controls playsinline preload="metadata" poster="../../src/GAME section/3rd Person Experience/Thumbnails in carousel/Slide_3_ImageThumbnail.png">
+        <source src="../../src/Reduced/Slide 3 Yourfleetyourway.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+      
+      <div class="page-content">
+        
+        
+        
+    <div class="stats-grid">
+      
+        <div class="stat-item">
+          <div class="stat-value">100+</div>
+          <div class="stat-label">Ship Models</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">XXS-Titan</div>
+          <div class="stat-label">Size Classes</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">Owner</div>
+          <div class="stat-label">Or Renter</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">Full</div>
+          <div class="stat-label">Customization</div>
+        </div>
+      
+    </div>
+  
+        
+        <div class="section-divider"></div>
+        
+        
+    <div class="feature-grid">
+      
+        <div class="feature-card">
+          <h3>Ship Interiors</h3>
+          <p>Walk through fully realized ship interiors. From the bridge to the cargo hold, every space is explorable and functional.</p>
+          
+            <ul>
+              <li>Detailed 3D environments</li><li>Functional ship systems</li><li>Crew quarters</li><li>Cargo management</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Fleet Management</h3>
+          <p>Manage your entire armada from a single interface. Assign ships to missions, coordinate movements, and optimize your fleet composition.</p>
+          
+            <ul>
+              <li>Multi-ship coordination</li><li>Mission assignment</li><li>Fleet analytics</li><li>Resource allocation</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Customization</h3>
+          <p>Outfit your ships with weapons, modules, and cosmetics. Every ship can be tailored to your preferred playstyle.</p>
+          
+            <ul>
+              <li>Weapon loadouts</li><li>Module systems</li><li>Visual customization</li><li>Performance tuning</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Fleet Rentals</h3>
+          <p>Turn idle ships into income or access powerful vessels without ownership. The Fleet Rental Program creates opportunities for all players.</p>
+          
+            <ul>
+              <li>Rent out your ships</li><li>Passive income generation</li><li>Access premium vessels</li><li>Flexible contracts</li>
+            </ul>
+          
+        </div>
+      
+    </div>
+  
+        
+        
+    <div class="guide-block">
+      <h3>Building Your First Fleet</h3>
+      <ol>
+        <li>Start with a ship role of your choice</li><li>Learn your ship&#039;s interior layout and systems</li><li>Acquire specialized vessels as you identify your playstyle</li><li>Consider renting ships to test before buying</li><li>Join fleet operations with your DAC for large-scale coordination</li>
+      </ol>
+    </div>
+  
+        
+        
+    <div class="cta-block">
+      <h3>Build Your Legacy</h3>
+      <p>Your fleet is your empire. Start building today and leave your mark on the Galia Expanse.</p>
+      <a href="https://play.staratlas.com" target="_blank" rel="noopener noreferrer" class="download-btn"><span>Play Now</span></a>
+    </div>
+  
+      </div>
+      
+      
+    <div class="related-section">
+      <p class="section-subtitle" style="margin-top: 2rem;">Explore More Features</p>
+      <div class="related-links">
+        <a class="secondary-btn" href="../../game/galia/">Galia Expanse</a><a class="secondary-btn" href="../../game/game-modes/">Game Modes</a><a class="secondary-btn" href="../../game/life-in-galia/">Life in Galia</a><a class="secondary-btn" href="../../game/fleet-command/">Fleet Command</a><a class="secondary-btn" href="../../game/holosim/">Holosim</a><a class="secondary-btn" href="../../game/sage-labs/">SAGE Labs</a>
+      </div>
+    </div>
+  
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-bottom">
+        <p class="footer-text">© 2625 Star Atlas. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../src/main.js" defer></script>
+</body>
+</html>

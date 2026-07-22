@@ -1,0 +1,64 @@
+{
+  "byte_count": 989,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:51.571971Z",
+  "captured_at": "2026-07-22T23:05:51.571971Z",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://support.staratlas.com/api/v2/help_center/en-us/articles/47057433144851.json",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:51 GMT",
+    "etag": "W/\"e93afac979489284fe74958063bd6e15\""
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47057433144851-What-is-Faction-Fleet-in-Star-Atlas",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057433144851-What-is-Faction-Fleet-in-Star-Atlas",
+    "observed_final_url": "https://support.staratlas.com/api/v2/help_center/en-us/articles/47057433144851.json",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057433144851-What-is-Faction-Fleet-in-Star-Atlas",
+    "document_title": "What is Faction Fleet in Star Atlas?",
+    "response_format": "JSON"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47057433144851-What-is-Faction-Fleet-in-Star-Atlas",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-F05B48E5CEE409BA.json",
+  "raw_body": {
+    "byte_length": 989,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-F05B48E5CEE409BA/response-body.bin",
+    "sha256": "e93afac979489284fe74958063bd6e150d03b26c259b429c2ded942016ca20f2"
+  },
+  "raw_sha256": "e93afac979489284fe74958063bd6e150d03b26c259b429c2ded942016ca20f2",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/api/v2/help_center/en-us/articles/47057433144851.json",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://support.staratlas.com/api/v2/help_center/en-us/articles/47057433144851.json",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:51 GMT",
+      "etag": "W/\"e93afac979489284fe74958063bd6e15\""
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-F05B48E5CEE409BA",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:51.571971Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

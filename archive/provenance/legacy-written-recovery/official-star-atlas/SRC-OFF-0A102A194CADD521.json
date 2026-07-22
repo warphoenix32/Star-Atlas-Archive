@@ -1,0 +1,62 @@
+{
+  "byte_count": 24167,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:12.038355Z",
+  "captured_at": "2026-07-22T23:03:12.038355Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47028993524499-What-Happens-If-a-Fleet-Is-Rented-Without-Fuel-or-Ammo",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:12 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47028993524499-What-Happens-If-a-Fleet-Is-Rented-Without-Fuel-or-Ammo",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47028993524499-What-Happens-If-a-Fleet-Is-Rented-Without-Fuel-or-Ammo",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47028993524499-What-Happens-If-a-Fleet-Is-Rented-Without-Fuel-or-Ammo",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47028993524499-What-Happens-If-a-Fleet-Is-Rented-Without-Fuel-or-Ammo",
+    "document_title": "What Happens If a Fleet Is Rented Without Fuel or Ammo? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47028993524499-What-Happens-If-a-Fleet-Is-Rented-Without-Fuel-or-Ammo",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-0A102A194CADD521.json",
+  "raw_body": {
+    "byte_length": 24167,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-0A102A194CADD521/response-body.bin",
+    "sha256": "b31c5efbcfdd69fe432d20465ace5d286069334da8ae344889ad242ff9dfab8a"
+  },
+  "raw_sha256": "b31c5efbcfdd69fe432d20465ace5d286069334da8ae344889ad242ff9dfab8a",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47028993524499-What-Happens-If-a-Fleet-Is-Rented-Without-Fuel-or-Ammo",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47028993524499-What-Happens-If-a-Fleet-Is-Rented-Without-Fuel-or-Ammo",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:12 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-0A102A194CADD521",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:12.038355Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

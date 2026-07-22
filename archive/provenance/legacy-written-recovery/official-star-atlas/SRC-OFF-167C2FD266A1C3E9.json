@@ -1,0 +1,64 @@
+{
+  "byte_count": 65914,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:21.050460Z",
+  "captured_at": "2026-07-22T23:03:21.050460Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/article/star-atlas-in-game-play-adventures-as-an-ustur-builder",
+  "headers": {
+    "content-length": "65914",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:03:21 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/article/star-atlas-in-game-play-adventures-as-an-ustur-builder",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/article/star-atlas-in-game-play-adventures-as-an-ustur-builder",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Star Atlas In-Game Play: Adventures as an Ustur Builder | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/article/star-atlas-in-game-play-adventures-as-an-ustur-builder",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-167C2FD266A1C3E9.json",
+  "raw_body": {
+    "byte_length": 65914,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-167C2FD266A1C3E9/response-body.bin",
+    "sha256": "2758128e67d1420cd64e6b915b88d95ca645ab6f8daae21ab1574e0ca574d32b"
+  },
+  "raw_sha256": "2758128e67d1420cd64e6b915b88d95ca645ab6f8daae21ab1574e0ca574d32b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/article/star-atlas-in-game-play-adventures-as-an-ustur-builder",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/article/star-atlas-in-game-play-adventures-as-an-ustur-builder",
+    "headers": {
+      "content-length": "65914",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:03:21 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-167C2FD266A1C3E9",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:21.050460Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

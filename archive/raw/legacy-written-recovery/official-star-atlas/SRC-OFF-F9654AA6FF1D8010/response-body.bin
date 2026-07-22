@@ -1,0 +1,1514 @@
+<!DOCTYPE html>
+<html lang="en" class="bgNoise">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+	<link rel="manifest" href="/favicons/site.webmanifest">
+	<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#151519">
+	<link rel="shortcut icon" href="/favicons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#151519">
+	<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+
+	        
+								
+		
+    	
+    	
+    	
+		<title>The Atlas Star ✧ Issue #8
+ | Star Atlas</title>
+	
+    <meta name="description" content="A grand strategy game of space exploration, territorial conquest, political domination, and more.">
+    <meta property="og:description" content="A grand strategy game of space exploration, territorial conquest, political domination, and more.">
+    <meta property="og:title" content="The Atlas Star ✧ Issue #8
+ | Star Atlas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://staratlas.com">
+    <meta property="og:image" content="https://staratlas.com/assets/images/star_atlas_social_share.png">
+
+    <meta name="twitter:title" content="The Atlas Star ✧ Issue #8
+ | Star Atlas">
+    <meta name="twitter:description" content="A grand strategy game of space exploration, territorial conquest, political domination, and more.">
+    <meta name="twitter:site" content="@staratlas">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://staratlas.com/assets/images/star_atlas_social_share.png">
+
+	<meta name="google-site-verification" content="C6EWH6TZMBxKOrOZStuaoB5odmfDZ-GbvxmDBp6IufI" />
+	<meta name="google-site-verification" content="UR2MRJ6VhDl6ltDmV_Y_CEFZa6TZ50BIPJKtzxEpgPQ" />
+	<meta name="google-site-verification" content="LONtIrKqJzWyU0GNrILGnSBYbgDxJIxBubZYZGEfAJM" />
+	<meta name="google-site-verification" content="wzTgkf85QmJtCKY5BZC9V-mGJ2MPsVW5M3N1oVE0GEQ" />
+	<meta name="facebook-domain-verification" content="an6sz4ejfv0sfyik1tkf0v7dt35erj" />
+
+	<link rel="stylesheet" href="/build/css/bundle-66565c5fba.css" type="text/css" crossorigin>
+
+	<script src="//d2wy8f7a9ursnm.cloudfront.net/v7/bugsnag.min.js"></script>
+	<script>Bugsnag.start({ apiKey: 'cc79bddd30a7b7e3b7f54a0d7a7b856a' })</script>
+
+	
+	<script>
+		const SFEventUrl = window.location.href.indexOf('website-tracking') > -1 ?
+			'https://dev.api.signalfox.com/api/v2/web_events/' : '';
+		window.SFLoad = window.location.href.indexOf('staratlas.com') > -1 || SFEventUrl !== '' ? true : false;
+
+		if (window.SFLoad) {
+			window.sfInit = function() {
+				sf.init({
+					appId : '248d43d3-d337-4751-a85e-0d2cd403f231',
+					context : '',
+					eventUrl : SFEventUrl
+				});
+
+				window.sf = sf;
+			};
+			(
+				function(w,d,o){
+					var a = d.createElement(o);
+					a.async=1;
+					a.src='https://signalfox.com/signalfoxv2.js';
+					var m = d.getElementsByTagName(o)[0];
+					m.parentNode.insertBefore(a,m)
+				}
+			)(window,document,'script');
+		}
+	</script>
+
+	<!-- -->
+	<script type="text/javascript"> adroll_adv_id = "NP6Q3SUMPVGMJHINDTBTY5"; adroll_pix_id = "7XRCJU5EPBDOXMJXJJKAPM"; adroll_version = "2.0";  (function(w, d, e, o, a) { w.__adroll_loaded = true; w.adroll = w.adroll || []; w.adroll.f = [ 'setProperties', 'identify', 'track' ]; var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id + "/roundtrip.js"; for (a = 0; a < w.adroll.f.length; a++) { w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function(n) { return function() { w.adroll.push([ n, arguments ]) } })(w.adroll.f[a]) }  e = d.createElement('script'); o = d.getElementsByTagName('script')[0]; e.async = 1; e.src = roundtripUrl; o.parentNode.insertBefore(e, o); })(window, document); adroll.track("pageView"); </script>
+</head>
+
+<body>
+
+<div id="SiteWrapper">
+	
+	<section class="HeaderModule">
+	<div class='TopBarInner'>
+		<div class="HeaderModule-logoNav">
+			<div class="BurgerMenu-icon">
+				<div class="BurgerMenu-icon-line"></div>
+				<div class="BurgerMenu-icon-line"></div>
+				<div class="BurgerMenu-icon-line"></div>
+			</div>
+			<a href='/' class='HeaderLogo'>
+				<svg class="Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 689.35 109.2">
+					<g fill-rule="evenodd">
+						<path
+							d="M644.06 18.24a7.93 7.93 0 00-.28 15.84h19.77a26.16 26.16 0 01.12 52.32H624a2.48 2.48 0 01-2.32-1.84l-5.76-14.08a1.59 1.59 0 011.36-2.32h46.4a7.92 7.92 0 000-15.84h-19.57a26 26 0 01-25.8-26.16A26 26 0 01644.11 0h41c1.26 0 2.28.83 1.85 1.84l-6.25 14.56a2.79 2.79 0 01-2.33 1.84h-34.32M368.2 34.08l-21.8 49.44c-.72 1.59-1.1 2.87-2.68 2.87h-14.4c-2.07 0-3.21-.57-2.2-2.87l35.21-80.94c.72-1.35 1.17-2.34 2.75-2.34h6.24c1.58 0 2 1 2.75 2.34l35.21 81c1 2.3-.14 2.87-2.2 2.87h-14.4c-1.59 0-2-1.28-2.68-2.87l-21.8-49.5M475.91 86.4a1.84 1.84 0 01-1.84-1.84V1.84A1.84 1.84 0 01475.91 0h14.55a1.85 1.85 0 011.85 1.84v66.32h37a1.58 1.58 0 011.37 2.32l-6 14.08a2.6 2.6 0 01-2.57 1.84h-46.2M424.15 18.24H401a1.84 1.84 0 01-1.84-1.84V1.84A1.84 1.84 0 01401 0h64.5a1.85 1.85 0 011.85 1.84V16.4a1.85 1.85 0 01-1.85 1.84h-23.11v66.32a1.85 1.85 0 01-1.85 1.84H426a1.84 1.84 0 01-1.84-1.84V18.24M573.09 34.08l-21.8 49.44c-.72 1.59-1.1 2.87-2.68 2.87h-14.4c-2.07 0-3.21-.57-2.2-2.87l35.21-80.94c.72-1.35 1.16-2.34 2.75-2.34h6.23c1.59 0 2 1 2.76 2.34l35.21 81c1 2.3-.14 2.87-2.2 2.87h-14.4c-1.59 0-2-1.28-2.68-2.87l-21.8-49.44M224.39 0h38.72c15 0 27.12 12.53 27.12 28a28 28 0 01-16.64 25.79l20 29.78c.48 2.3-.86 2.87-2.92 2.87h-15.14c-1.59 0-2.2-1.52-3.16-2.87l-19.1-27.6h-12.48v28.59a1.85 1.85 0 01-1.85 1.84h-14.55a1.84 1.84 0 01-1.84-1.84V1.84A1.84 1.84 0 01224.39 0zm38.72 18.24h-22.32v19.44h22.32a9.68 9.68 0 000-19.36zM175.53 34.08l-21.8 49.44c-.72 1.59-1.09 2.87-2.68 2.87h-14.4c-2.06 0-3.2-.57-2.2-2.87l35.22-80.94c.72-1.35 1.16-2.34 2.75-2.34h6.23c1.59 0 2 1 2.75 2.34l35.22 81c1 2.3-.14 2.87-2.21 2.87H200c-1.58 0-1.95-1.28-2.67-2.87l-21.8-49.5M99.43 18.24h-26c-1.26 0-2.06-.83-1.44-2.32l6.08-14.08c.3-.72 1.06-1.84 2.08-1.84h60.63a1.85 1.85 0 011.85 1.84V16.4a1.85 1.85 0 01-1.85 1.84h-23.11v66.32a1.85 1.85 0 01-1.85 1.84h-14.55a1.84 1.84 0 01-1.84-1.84V18.24"
+							fill="#17181d" />
+						<path
+							d="M27.5 18.24a7.93 7.93 0 00-.28 15.84H47a26.16 26.16 0 01.12 52.32H1.91c-1.26 0-2.17-1.07-1.84-1.84l6-14.56a2.5 2.5 0 012.08-1.84h39a7.92 7.92 0 000-15.84h-19.6a26 26 0 01-25.8-26.16A26 26 0 0127.55 0h42c1 0 2 .71 1.61 1.84L64.87 16.4a2.47 2.47 0 01-2.33 1.84h-35"
+							fill="#17181D" />
+						<path fill="#17181D" d="M368.23 109.2l-14.4-28.8h28.32l-13.92 28.8" />
+					</g>
+				</svg>
+			</a>
+		</div>
+		<div class='TopBarCtas'>
+										<a target='_blank' href="https://play.staratlas.com" class='ButtonCta gradient arrowed'>
+					<span class="title">Play Now</span>
+					<span class='arrow'></span>
+				</a>
+					</div>
+	</div>
+</section>
+	<div class="MainMenu-CoverLayer bgNoise">
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154 239">
+		<g fill="none" fill-rule="evenodd">
+			<path
+				d="M96.833 99.317L79.538 135 61.647 99.317h35.186zM83.373 0c1.969 0 2.524 1.227 3.419 2.893l43.75 100.298c1.244 2.855-.17 3.558-2.735 3.558l-17.892-.008c-1.97 0-2.434-1.593-3.328-3.557L79.5 41.927l-27.087 61.257c-.895 1.964-1.36 3.557-3.329 3.557l-17.891.008c-2.566 0-3.98-.703-2.734-3.558L72.208 2.893C73.102 1.227 73.658 0 75.627 0h7.747z"
+				fill="#D5D2D1" fill-rule="nonzero" />
+			<path stroke="#D5D2D1" stroke-width="2" stroke-dasharray="2,6" d="M0 205.5h160" />
+			<path
+				d="M38.982 238.183c.073 0 .11-.033.11-.099v-.902c0-.066-.037-.099-.11-.099H36.21v-5.896c0-.066-.033-.099-.099-.099H35.11c-.073 0-.11.033-.11.099v6.897c0 .066.037.099.11.099h3.872zm10.811.088c.968 0 1.648-.154 2.04-.462.393-.308.589-.807.589-1.496v-3.355c0-.69-.196-1.188-.588-1.496-.393-.308-1.073-.462-2.041-.462h-.066c-.968 0-1.65.154-2.046.462-.396.308-.594.807-.594 1.496v3.355c0 .69.198 1.188.594 1.496.396.308 1.078.462 2.046.462h.066zm0-1.1h-.066c-.587 0-.972-.059-1.155-.176-.183-.117-.275-.345-.275-.682v-3.355c0-.337.092-.565.275-.682.183-.117.568-.176 1.155-.176h.066c.58 0 .96.059 1.144.176.183.117.275.345.275.682v3.355c0 .337-.092.565-.275.682-.183.117-.565.176-1.144.176zm11.79 1.012c.066 0 .11-.026.132-.077l.484-1.441h2.442l.484 1.441c.022.051.062.077.121.077h1.056c.059 0 .088-.026.088-.077l-.011-.033-2.376-6.908c-.022-.051-.062-.077-.121-.077h-.924c-.059 0-.099.026-.121.077l-2.387 6.908c-.015.073.015.11.088.11h1.045zm2.684-2.607h-1.705l.374-1.122c.227-.638.389-1.192.484-1.661.088.425.246.979.473 1.661l.374 1.122zm13.033 2.607c.902 0 1.547-.154 1.936-.462.389-.308.583-.8.583-1.474v-3.223c0-.675-.194-1.166-.583-1.474-.389-.308-1.034-.462-1.936-.462h-2.453c-.073 0-.11.033-.11.099v6.897c0 .066.037.099.11.099H77.3zm-.132-1.1h-1.221v-4.895h1.221c.594 0 .983.057 1.166.17.183.114.275.336.275.666v3.223c0 .33-.092.552-.275.665-.183.114-.572.171-1.166.171zm12.604 1.1c.066 0 .099-.033.099-.099v-6.897c0-.066-.033-.099-.099-.099h-1.001c-.073 0-.11.033-.11.099v6.897c0 .066.037.099.11.099h1.001zm10.162 0c.066 0 .099-.033.099-.099v-3.201c0-.711-.018-1.371-.055-1.98.264.616.62 1.276 1.067 1.98l1.969 3.234c.037.044.077.066.121.066h1.089c.073 0 .11-.033.11-.099v-6.897c0-.066-.037-.099-.11-.099h-1.001c-.066 0-.099.033-.099.099v3.201c0 .726.018 1.393.055 2.002a8.61 8.61 0 00-.473-.968 23.82 23.82 0 00-.594-1.034l-1.969-3.234a.138.138 0 00-.121-.066h-1.089c-.073 0-.11.033-.11.099v6.897c0 .066.037.099.11.099h1.001zm15.904.088c.946 0 1.615-.154 2.008-.462.392-.308.588-.807.588-1.496v-1.826c0-.073-.033-.11-.099-.11h-2.376c-.066 0-.099.037-.099.11v.858c0 .073.033.11.099.11h1.265v.858c0 .337-.09.565-.27.682-.18.117-.551.176-1.116.176h-.066c-.565 0-.937-.059-1.117-.176-.18-.117-.269-.345-.269-.682v-3.355c0-.337.09-.565.27-.682.18-.117.551-.176 1.116-.176h.066c.565 0 .937.059 1.117.176.18.117.269.345.269.682v.154c0 .066.033.099.099.099h1.012c.066 0 .099-.033.099-.099v-.154c0-.69-.196-1.188-.588-1.496-.393-.308-1.062-.462-2.008-.462h-.066c-.946 0-1.615.154-2.008.462-.392.308-.588.807-.588 1.496v3.355c0 .69.196 1.188.588 1.496.393.308 1.062.462 2.008.462h.066z"
+				fill="#CFCDCB" fill-rule="nonzero" />
+		</g>
+	</svg>
+</div>
+<div class="MainMenu-Background"></div>
+<div class="MainMenu-Background-overlay">
+	<picture>
+		<source data-srcset="/assets/images/menu_background_colored_ring.webp" type="image/webp">
+		<source data-srcset="/assets/images/menu_background_colored_ring.png" type="image/png">
+		<img data-src="/assets/images/menu_background_colored_ring.webp" class="lazyload">
+	</picture>
+</div>
+<div class="MainMenu-Background-circles"><img class="desktop" src="/assets/svg/menu_circles.svg" /><img class="mobile" src="/assets/svg/menu_circles_mobile.svg" /></div>
+<div class="MainMenu">
+	<div class="MainMenu-CloseIcon">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+			<path d="M9.6.65l1.415 1.415-8.486 8.485-1.414-1.414 3.536-3.535-3.536-3.536L2.53.651l3.536 3.536L9.601.65zm-.707 6.365l2.122 2.121L9.6 10.55 7.479 8.43l1.414-1.414z" fill="#f93c04"
+				  fill-rule="evenodd" />
+		</svg>
+	</div>
+	<nav class="Menu-FadeIn">
+									<a href="/"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">01</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>Experience<div class="MainMenu-diamonds"></div></span></a>
+							<a href="/Roadmap"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">02</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>Roadmap<div class="MainMenu-diamonds"></div></span></a>
+							<a href="/newsroom"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">03</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>News &amp; Info<div class="MainMenu-diamonds"></div></span></a>
+							<a href="/team"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">04</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>Team<div class="MainMenu-diamonds"></div></span></a>
+							<a href="/support"><div class="MainMenu-circleDiamond">
+						<div class="outerDiamond"></div>
+						<div class="highlightDiamond"></div>
+						<div class="highlightDiamondOuter"></div>
+						<div class="innerDiamond"></div>
+					</div><span class="MainMenu-number">05</span><span class="MainMenu-itemTitle"><div class="MainMenu-diamonds"></div>Support<div class="MainMenu-diamonds"></div></span></a>
+						</nav>
+	<div class="Menu-FadeIn MainMenu-secondaryLinks">
+									<a class="borderBottomDotted" href="/newsroom/economic-reports/">
+					<div>
+						<div class="MainMenu-diamonds"></div>
+						<span class="title">Economic Reports</span>
+					</div>
+					<p></p>
+				</a>
+																																		<a class="borderBottomDotted" href="/assets/pdfs/white-paper.pdf">
+							<div>
+								<div class="MainMenu-diamonds"></div>
+								<span class="title">White Paper • PDF</span>
+							</div>
+							<p>Read Our Official White Paper!</p>
+						</a>
+																																	<div class="MainMenu-Documents borderBottomDotted" data-title="&quot;Economics Paper \u2022 PDF&quot;" data-description="&quot;Learn the tokenomics of ATLAS and POLIS in the galactic economy.&quot;" data-documents="[&quot;Star Atlas Economics Paper - English|\/assets\/pdfs\/economics-paper.pdf&quot;,&quot;Star Atlas Economics Paper - Chinese|\/assets\/pdfs\/economics-paper-zn.pdf&quot;,&quot;Star Atlas Economics Paper - Korean|\/assets\/pdfs\/economics-paper-ko.pdf&quot;,&quot;Star Atlas Economics Paper - Hindi|\/assets\/pdfs\/economics-paper-hi.pdf&quot;,&quot;Star Atlas Economics Paper - Turkish|\/assets\/pdfs\/economics-paper-tr.pdf&quot;,&quot;Star Atlas Economics Paper - Tagalog|\/assets\/pdfs\/economics-paper-tl.pdf&quot;,&quot;Star Atlas Economics Paper - Vietnamese|\/assets\/pdfs\/economics-paper-vi.pdf&quot;,&quot;Star Atlas Economics Paper - Portuguese|\/assets\/pdfs\/economics-paper-pt.pdf&quot;,&quot;Star Atlas Economics Paper - Spanish|\/assets\/pdfs\/economics-paper-es.pdf&quot;,&quot;Star Atlas Economics Paper - French|\/assets\/pdfs\/economics-paper-fr.pdf&quot;]">
+							<div>
+								<div class="MainMenu-diamonds"></div>
+								<span class="title">Economics Paper • PDF</span>
+							</div>
+							<p>Learn the tokenomics of ATLAS and POLIS in the galactic economy.</p>
+						</div>
+																																	<a class="borderBottomDotted" href="/newsroom/governance-documentation">
+							<div>
+								<div class="MainMenu-diamonds"></div>
+								<span class="title">Governance Documentation</span>
+							</div>
+							<p>Learn how Star Atlas is governed and built by its community.</p>
+						</a>
+															</div>
+	<div class="Menu-FadeIn MainMenu-newsletter borderBottomDotted">
+					<form class="Newsletter" data-site-key="6Lf1g-kkAAAAAHFJ4bC4IZvgGxgENNETylIZuhwt">
+	<label class="Newsletter-title">
+		<span class="default">Sign up to our monthly Newsletter</span>
+		<span class="success">A message has been sent<br/> to confirm your email address.</span>
+	</label>
+
+	<div class="NewsletterInputWrapper">
+		<input class="Newsletter-email" type="email" name="mail" required placeholder="email@example.com">
+		<div class="Newsletter-signup">
+			<div class="Newsletter-signup-border"></div>
+			<input class="Newsletter-submit" type="submit" value="Subscribe">
+		</div>
+
+		<div class="Newsletter-loader"></div>
+
+		<div class="errors">
+			<span class="spacer">&nbsp;</span>
+			<span class="error error-409">You have already signed up using this email address.</span>
+			<span class="error error-429">You have registered too many email addresses.</span>
+			<span class="error error-general">There was a problem with signing up. Please try again.</span>
+		</div>
+	</div>
+</form>
+			</div>
+	<div class="Menu-FadeIn MainMenu-listingLinks">
+													<div class="MainMenu-listingLink">
+					<span>ATLAS</span>
+					<div class="listingLinks">
+						(
+												<a href="https://coinmarketcap.com/currencies/star-atlas/" data-title="CoinMarketCap listing for ATLAS">CMC</a>
+												<a href="https://www.coingecko.com/en/coins/star-atlas" data-title="CoinGecko listing for ATLAS">CoinGecko</a>
+												)
+					</div>
+				</div>
+															<div class="MainMenu-listingLink">
+					<span>POLIS</span>
+					<div class="listingLinks">
+						(
+												<a href="https://coinmarketcap.com/currencies/star-atlas-polis/" data-title="CoinMarketCap listing for POLIS">CMC</a>
+												<a href="https://www.coingecko.com/en/coins/star-atlas-dao" data-title="CoinGecko listing for POLIS">CoinGecko</a>
+												)
+					</div>
+				</div>
+										</div>
+	<div class="Menu-FadeIn MenuSocials">
+		<div class="SocialsList">
+							<a href="https://twitter.com/staratlas" data-social="twitter"><svg width="12" height="11" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-6 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M11.827 9.66l.026.433-.434-.053c-1.578-.203-2.957-.892-4.127-2.048l-.572-.574-.148.424c-.312.944-.112 1.942.538 2.613.347.37.269.423-.33.203-.208-.071-.39-.124-.407-.097-.06.061.147.865.312 1.182.225.442.685.874 1.188 1.13l.425.203-.503.01c-.486 0-.503.008-.451.193.173.574.858 1.183 1.621 1.448l.538.185-.468.283a4.851 4.851 0 01-2.324.653c-.39.009-.711.044-.711.07 0 .089 1.058.583 1.673.777 1.847.574 4.041.327 5.688-.653 1.17-.697 2.341-2.083 2.888-3.425.295-.715.59-2.021.59-2.648 0-.406.025-.459.51-.944.287-.283.556-.592.608-.68.087-.168.078-.168-.364-.018-.737.265-.841.23-.477-.167.269-.283.59-.795.59-.945 0-.026-.13.018-.278.097-.156.088-.503.22-.763.3l-.468.15-.425-.291c-.234-.159-.564-.335-.737-.388-.442-.124-1.119-.106-1.518.035-1.083.397-1.768 1.421-1.69 2.542z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://discord.gg/staratlas" data-social="discord"><svg width="19" height="13" viewBox="0 0 19 13" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-42 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M49.04 6.5l.154.187c-2.776.796-4.041 2.03-4.041 2.03s.059-.033.169-.09l.156-.077c.15-.074.347-.167.585-.27 1.65-.734 2.961-.922 3.501-.984.093-.016.17-.031.262-.031a12.9 12.9 0 013.116-.032c1.465.172 3.039.61 4.643 1.483 0 0-1.219-1.17-3.84-1.966l.215-.25h.054c.343.006 2.266.11 4.265 1.623 0 0 2.221 4.042 2.221 9.02 0-.015-1.296 2.232-4.704 2.341l-.062-.074-.1-.121a112.8 112.8 0 01-.856-1.053c2.02-.578 2.791-1.842 2.791-1.842a8.788 8.788 0 01-1.773.921c-.772.328-1.512.53-2.237.671-1.48.281-2.838.203-3.995-.015a11.64 11.64 0 01-2.267-.671 8.99 8.99 0 01-1.126-.531l-.139-.078c-.03-.016-.046-.031-.062-.031a6.321 6.321 0 01-.368-.223l-.056-.038-.007-.005s.74 1.233 2.699 1.826l-.094.12-.191.241c-.383.48-.749.919-.749.919-3.408-.11-4.704-2.357-4.704-2.357 0-4.978 2.221-9.02 2.221-9.02 2.013-1.513 3.924-1.617 4.265-1.623h.054zm5.213 5.759c-.879 0-1.573.764-1.573 1.716s.71 1.717 1.573 1.717c.88 0 1.573-.765 1.573-1.717 0-.952-.709-1.716-1.573-1.716zm-5.63 0c-.879 0-1.573.764-1.573 1.716s.71 1.717 1.573 1.717c.88 0 1.574-.765 1.574-1.717.015-.952-.694-1.716-1.574-1.716z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+</a>
+										<a href="https://t.me/staratlasgame" data-social="mail"><svg width="17" height="13" viewBox="0 0 17 13" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-82 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M86.903 10.617c-1.402.6-2.843 1.218-4.161 1.93-.689.494.226.844 1.084 1.172.137.052.271.104.398.155l.322.1c.954.298 2.018.63 2.945.13 1.522-.858 2.958-1.85 4.393-2.84.47-.325.94-.65 1.413-.969l.075-.047c.403-.256 1.309-.832.974-.038-.793.85-1.642 1.602-2.495 2.36a53.564 53.564 0 00-1.716 1.566c-.491.391-1.001 1.178-.451 1.726 1.266.87 2.551 1.718 3.836 2.566l1.254.828c.707.554 1.812.106 1.968-.76l.208-1.194c.384-2.2.767-4.402 1.106-6.61a60.2 60.2 0 01.15-1.039c.128-.84.254-1.68.294-2.524-.102-.843-1.143-.658-1.723-.468-2.978 1.112-5.927 2.306-8.864 3.521-.333.145-.67.29-1.01.435z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://www.reddit.com/r/StarAtlas/" data-social="reddit"><svg width="17" height="14" viewBox="0 0 17 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-123 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M139.5 12.606c-.036-.952-.848-1.696-1.819-1.663-.43.014-.839.188-1.15.479a8.635 8.635 0 00-4.624-1.455l.779-3.688 2.57.532c.072.65.664 1.12 1.324 1.049a1.187 1.187 0 001.065-1.302 1.196 1.196 0 00-1.322-1.05 1.19 1.19 0 00-.908.58l-2.944-.58c-.2-.043-.4.08-.445.28v.006l-.887 4.102a8.7 8.7 0 00-4.685 1.455 1.772 1.772 0 00-2.478.076 1.705 1.705 0 00.078 2.44 1.7 1.7 0 00.471.311 3.78 3.78 0 000 .52c0 2.648 3.136 4.802 7.002 4.802 3.867 0 7.002-2.151 7.002-4.802a3.78 3.78 0 000-.52c.603-.297.983-.908.97-1.572zm-12.013 1.184c0-.652.54-1.184 1.204-1.184.663 0 1.203.532 1.203 1.184 0 .653-.54 1.184-1.203 1.184-.666-.005-1.204-.531-1.204-1.184zm6.978 3.25a4.663 4.663 0 01-2.968.911 4.663 4.663 0 01-2.968-.91.317.317 0 01.045-.45.328.328 0 01.412 0c.723.52 1.604.784 2.5.743a4 4 0 002.51-.72.342.342 0 01.475.006c.129.13.126.341-.006.467v-.047zm-.215-2.024a1.196 1.196 0 01-1.203-1.185c0-.652.54-1.184 1.203-1.184s1.204.532 1.204 1.184a1.19 1.19 0 01-1.153 1.229h-.06l.01-.044z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+</a>
+										<a href="https://www.facebook.com/StarAtlasMMO" data-social="facebook"><svg width="17" height="16" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-163 -4.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M174.614 14.876l.354-2.327h-2.218v-1.51c0-.3.068-.596.245-.825l.071-.084a.997.997 0 01.343-.233c.172-.073.385-.116.645-.116h1.009v-1.98s-.805-.139-1.627-.156l-.164-.002c-.457 0-.874.07-1.243.206l-.155.062c-.855.373-1.422 1.128-1.58 2.22-.029.202-.044.417-.044.644v1.774h-2.032v2.327h2.032V20.5c-3.825-.604-6.75-3.934-6.75-7.951 0-4.445 3.582-8.049 8-8.049s8 3.604 8 8.049c0 4.018-2.925 7.348-6.75 7.951v-5.624h1.864z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://www.instagram.com/staratlasgame/" data-social="instagram"><svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-204 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M212.383 5.5c1.12.004 1.39.014 2.001.042.746.034 1.255.152 1.701.325.461.18.85.418 1.24.808.39.389.629.78.808 1.24.172.445.29.954.325 1.699l.016.37.006.171c.013.373.018.775.02 1.655v1.38a51.03 51.03 0 01-.02 1.655l-.006.171-.016.37c-.035.745-.153 1.254-.325 1.7-.18.46-.419.85-.808 1.239-.39.39-.78.63-1.24.808-.445.173-.954.291-1.7.325-.135.006-.254.012-.37.016l-.258.01a44.51 44.51 0 01-1.194.015l-.373.001h-1.382a50.954 50.954 0 01-1.654-.02l-.171-.006-.37-.016c-.745-.034-1.254-.152-1.7-.325a3.428 3.428 0 01-1.24-.808 3.43 3.43 0 01-.807-1.24c-.173-.445-.29-.954-.325-1.699a66.803 66.803 0 01-.016-.37l-.007-.171c-.01-.287-.015-.591-.017-1.116l-.002-.538v-1.17-.211l.002-.538c.002-.526.008-.83.017-1.117l.007-.171c.004-.116.01-.235.016-.37.033-.745.151-1.254.325-1.7.18-.46.419-.85.808-1.24.39-.389.78-.628 1.24-.807.445-.173.954-.29 1.7-.325.61-.028.881-.038 2-.041zm-1.51 1.26c-1.306.001-1.556.01-2.202.04-.682.03-1.053.144-1.3.24-.327.128-.56.28-.805.524a2.169 2.169 0 00-.524.805c-.096.247-.21.618-.241 1.3l-.016.364-.006.168c-.013.393-.017.815-.018 1.825v.941c0 1.01.005 1.434.018 1.826l.006.169.016.364c.031.682.145 1.053.241 1.3.127.326.279.559.524.804s.478.397.805.523c.247.096.618.21 1.3.242l.364.016.169.006c.364.012.755.017 1.618.018h1.356a50.173 50.173 0 001.619-.018l.168-.006.364-.016c.683-.031 1.054-.145 1.3-.241.327-.127.56-.279.805-.524s.397-.477.524-.804c.095-.247.21-.617.24-1.3.03-.637.039-.89.041-2.15v-1.355a50.13 50.13 0 00-.018-1.618l-.007-.168-.015-.364c-.031-.683-.146-1.053-.241-1.3a2.172 2.172 0 00-.524-.805 2.165 2.165 0 00-.805-.523c-.247-.096-.617-.21-1.3-.241a59.966 59.966 0 00-.364-.016l-.168-.006a50.765 50.765 0 00-1.619-.018h-1.306zm.627 2.145a3.595 3.595 0 110 7.19 3.595 3.595 0 010-7.19zm0 1.262a2.333 2.333 0 100 4.667 2.333 2.333 0 000-4.667zm3.737-2.243a.84.84 0 110 1.68.84.84 0 010-1.68z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw" data-social="youtube"><svg width="16" height="11" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-244 -7.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M252.294 7.5c1.046.007 4.574.05 5.566.328.646.18 1.154.713 1.327 1.39.278 1.089.31 3.23.313 3.693v.178c-.004.463-.035 2.604-.313 3.693a1.926 1.926 0 01-1.327 1.39c-.992.278-4.52.32-5.566.327l-.184.001h-.405c-1.046-.007-4.573-.05-5.566-.328a1.926 1.926 0 01-1.326-1.39c-.267-1.044-.307-3.054-.312-3.626v-.312c.005-.572.045-2.583.312-3.626a1.925 1.925 0 011.326-1.39c.993-.278 4.52-.32 5.566-.327zm-1.7 3.348v4.783l3.75-2.392-3.75-2.391z" fill="#FFF"/></g></svg>
+</a>
+										<a href="https://www.twitch.tv/staratlasgame" data-social="twitch"><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-284 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M285.387 5.5l-.887 2.435v9.738h3.25V19.5h1.773l1.772-1.827h2.659l3.546-3.65V5.5h-12.113zm1.18 1.217h9.751v6.695l-2.068 2.131H291l-1.772 1.825v-1.825h-2.66V6.717zm3.251 6.088H291V9.153h-1.182v3.652zm3.25 0h1.182V9.153h-1.182v3.652z" fill="#FFF"/></g></svg>
+</a>
+					</div>
+	</div>
+	<div class="Menu-FadeIn MainMenu-tertiaryLinks">
+									<a href="/terms-of-service">Terms of Service</a>
+							<a href="/privacy-policy">Privacy Policy</a>
+							<a href="/promotional-terms-and-conditions">Promotional Terms</a>
+						</div>
+			<a href="https://play.staratlas.com" class='MainMenu-TopCTA ButtonCta gradient arrowed'>
+			<span class="title">Play Now</span>
+			<span class='arrow'></span>
+		</a>
+	</div>
+<div id="MainMenu-Documents-Modal">
+	<div class="download-svg-icon"><?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="7px" viewBox="0 0 7 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="1/icon/download" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M4,0 L4,5.098 L6,3.5 L6,5 L3.5,7 L1,5 L1,3.5 L3,5.1 L3,0 L4,0 Z" id="Combined-Shape" fill="#231F20"></path>
+    </g>
+</svg>
+</div>
+	<div class="modal-content">
+		<div class="modal-title">
+			<span class="title"></span>
+		</div>
+		<p class="description"></p>
+		<div class="modal-documents"></div>
+	</div>
+</div>
+
+
+
+
+
+	<div id="TemplateLayer">
+			<div data-template="NewsArticleTemplate" data-title="The Atlas Star ✧ Issue #8
+" data-description="A grand strategy game of space exploration, territorial conquest, political domination, and more." class="template NewsArticleTemplate">
+		<div class='ImagePopIn'>
+			<div class='Layer'></div>
+			<div class="closeLayerButton">
+				<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 8.5 8.5" style="enable-background:new 0 0 8.5 8.5;" xml:space="preserve">
+<style type="text/css">
+	.stCross{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="MOBILE">
+	<g id="M-102.05-IMAGE-POPIN" transform="translate(-319.000000, -135.000000)">
+		<g id="CLOSE" transform="translate(295.000000, 111.000000)">
+				<g id="Group" transform="translate(32.000000, 32.000000) rotate(-45.000000) translate(-32.000000, -32.000000) translate(27.000000, 27.000000)">
+					<rect id="Rectangle" x="4" y="-5.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="2" height="10"/>
+					<rect id="Rectangle-Copy" x="0" y="-1.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="10" height="2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+
+			</div>
+
+			<div class='PopInContent'>
+				<div class='imageContainer'>
+					<div class='imageInner'>
+						<img src='' alt=''>
+					</div>
+
+				</div>
+				<p class='ImageCaption'></p>
+			</div>
+
+		</div>
+		<div>
+			<div class='ArticleTopBar'>
+				<div class='container'>
+					<span class='Line'></span>
+					<div class='grid'>
+						<div class='col-6 col-md-2'>
+							<a class='ArticleLinkBack arrow-hover-back' href='/newsroom/news'>Back</a>
+						</div>
+						<div class='col-3 col-md-3 offset-md-2 desktop'>
+							<p class='ArticleDate' data-date='2022-06-25'>Jun 25, 2022</p>
+						</div>
+						<div class='col-8 col-md-3 offset-md-3'>
+							<div class='TopBarRightPart'>
+								<p class='ArticleDate mobile' data-date='2022-06-25'>Jun 25, 2022</p>
+								<p class='ArticleTag'>Tag: <a href='/newsroom/news#the-atlassian-newsletter'>The Atlas Star ✧ Newsletter</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class='ArticleIntroParagraph'>
+				<div class='container'>
+					<div class='grid'>
+						<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+							<h1 class='ArticleTitle'>The Atlas Star ✧ Issue #8
+</h1>
+															<p><em>A tale about building a new world…</em></p>
+
+													</div>
+					</div>
+				</div>
+			</div>
+
+			
+			
+			<div class='ArticleBlocks'>
+
+				<p class="BackToTop">
+					Back to top <?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="4px" viewBox="0 0 7 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="MOBILE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M-105.01-CONTACT" transform="translate(-312.000000, -649.000000)" fill="#78746D">
+            <g id="FORM" transform="translate(30.000000, 473.000000)">
+                <g id="FIELD-Copy-2" transform="translate(0.000000, 148.000000)">
+                    <polygon id="Rectangle" points="282 28 289 28 285.5 32"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
+
+				</p>
+
+				
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/6t7OCo05XIZ6kEDi04cJhm/en-US/Council-of-peace-star-atlas.png'
+											 data-image-caption='All the Factions reunited under the Council of Peace calling /// A Metaverse Festival /// WeAreStarAtlas'
+											 data-image-width='1400'
+											 data-image-height='1400'
+										>
+											<div class='imageInner' style='padding-bottom: 100%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/6t7OCo05XIZ6kEDi04cJhm/en-US/Council-of-peace-star-atlas.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/6t7OCo05XIZ6kEDi04cJhm/en-US/Council-of-peace-star-atlas.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/6t7OCo05XIZ6kEDi04cJhm/en-US/Council-of-peace-star-atlas.png 862w, https://cdn.staratlas.com/contentful-assets/6t7OCo05XIZ6kEDi04cJhm/en-US/Council-of-peace-star-atlas.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/6t7OCo05XIZ6kEDi04cJhm/en-US/Council-of-peace-star-atlas.png 862w, https://cdn.staratlas.com/contentful-assets/6t7OCo05XIZ6kEDi04cJhm/en-US/Council-of-peace-star-atlas.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'>All the Factions reunited under the Council of Peace calling /// A Metaverse Festival /// WeAreStarAtlas</div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>Heed the Call of Summer, Space Explorers!</p>
+<p>From all across the galaxy, the people of the stars gathered together in the Council of Peace Assembly (COPA). MUDs, ONIs, and Usturs celebrated hope, union, and diversity in the longest Star Atlas metaverse to this day.</p>
+<p>COPA was a full-day festival of uninterrupted content, made in collaboration with the fantastic DACs of the Star Atlas ecosystem, showcasing to the world the strength of our community and of the dream that binds it together, the ultimate decentralized gaming metaverse experience.</p>
+<p>Another highlight of the current edition comes in detailing our CEO Michael Wagner’s speech regarding the launch of six different projects in the next 4–6 weeks. You will learn more about the new Galactic Marketplace, The Showroom program, Star Atlas DAO, The Prequel Graphic Novel, and the Referral Program.</p>
+<p>Not only that, in this issue of the Atlas Star ✧, the official Star Atlas newsletter wherein all things start and end, you will also learn of the latest details related to <a href="https://www.notion.so/staratlas/72cb710bbd894cd8819bde948e42ac31?v=6146a2da2c0a45b58e0c4fb1c0a2d845">project developments</a>, partnerships, contests, assets, and everything else that happened in the Star Atlas ecosystem in the last few weeks.</p>
+<p>So, in order to best appreciate this issue, our Sogmian Maître d’ suggestion is to find yourself a suitable chair, together with a brew of your liking, and take your time savoring the many delectable morsels that we have prepared for you.</p>
+<p>We hope you have an enjoyable experience.</p>
+<h2>The First Council of Peace Assembly Journey</h2>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/4oKLE1bSlXKI8R1pXbldp9/en-US/star-atlas-copa-campaign.png'
+											 data-image-caption='The first-ever Council of Peace Assembly /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience'
+											 data-image-width='700'
+											 data-image-height='393'
+										>
+											<div class='imageInner' style='padding-bottom: 56.142857142857%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/4oKLE1bSlXKI8R1pXbldp9/en-US/star-atlas-copa-campaign.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/4oKLE1bSlXKI8R1pXbldp9/en-US/star-atlas-copa-campaign.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/4oKLE1bSlXKI8R1pXbldp9/en-US/star-atlas-copa-campaign.png 862w, https://cdn.staratlas.com/contentful-assets/4oKLE1bSlXKI8R1pXbldp9/en-US/star-atlas-copa-campaign.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/4oKLE1bSlXKI8R1pXbldp9/en-US/star-atlas-copa-campaign.png 862w, https://cdn.staratlas.com/contentful-assets/4oKLE1bSlXKI8R1pXbldp9/en-US/star-atlas-copa-campaign.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'>The first-ever Council of Peace Assembly /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience</div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>The first COPA celebration was made public for our community on 5/20/2022 through one of our <a href="https://medium.com/star-atlas/introducing-copa-a-festival-of-guilds-dc57df0f088d">Medium articles</a>. There, a call was issued for all DACs of the Star Atlas ecosystem to come forward and present their vision, values and work regarding the Star Atlas Metaverse.</p>
+<p>Nevertheless, before we get into the exciting journey of the DACs, it’s essential that we take a step back and share with you, dear explorer, a behind-the-scenes look at how the Star Atlas team developed COPA, as it might help us better understand the construction of the Star Atlas metaverse.</p>
+<p>The first step on the road to COPA is acknowledging the purpose of this event. Everything in Star Atlas starts and ends with a deeper purpose. As the team grew to believe the project was mature enough to start another cycle of product releases, it became clear that we needed to mark the start of this new phase.</p>
+<p>In a sense, the very nature of the Star Atlas decentralized dream led us directly to COPA. Reaching out as we did to the community, this second phase of development unleashed an outpouring of passion from the community and Star Atlas team members.</p>
+<p>Therefore, we needed something special that would celebrate those efforts, share awareness of what is coming, and, overall, let everyone experience a taste of their own Star Atlas dream.</p>
+<p>Two points presented themselves as we brainstormed the fundamentals of COPA.</p>
+<p>The festival should be all about the DACs of Star Atlas, as the major representation of our community.
+We must make it a fun and engaging live event, similar in feel to our own company events, Town Halls, Twitter Spaces, and Atlas Brews.
+It was quickly agreed that the main focus of COPA, from this first edition to the thousandth, should be on the DACs of Star Atlas, as they are the <a href="https://medium.com/star-atlas/the-atlas-star-issue-5-60af7ed85101">diamond at the center of our galaxy</a>.</p>
+<p>We also found priceless partners that jumped at the chance to accompany us on this adventure, sharing their knowledge and insights about our ecosystem here on Solana and Web3. Making appearances at COPA was:</p>
+<p><strong>Matt Sorg</strong> - Chief Gaming Product and Technology of Solana Labs. Matt formerly worked at Riot Games and Unity Games.</p>
+<p><strong>King Perez</strong> - IBUYPOWER Marketing Executive Producer and Global Business Developer, representing one of our great partnerships and the lead sponsor of COPA. The company designed the first Star Atlas-branded PC, complete with the highest specs available on the market, which was given to one of our community members through a random raffle. Then King surprised the audience with the announcement of additional festival prizes: 5 eclipse HG10 wireless headsets with Bluetooth and 30-hour battery life.</p>
+<p><strong>YGG</strong> - one of the OG Metaverse Guilds with thousands of scholars all around the globe sharing their experience in creating a guild and global brand.</p>
+<p><strong>Justin Kan</strong> - A man who needs no introduction, co-founder of Twitch, creator of Fractal, and one of the biggest web3 gaming advocates, Justin shared his love for Star Atlas and our entire ecosystem, as well as giving his perspective on the crypto gaming industry.</p>
+<p>But the real stars of the show were our DACs and the stellar presentations they shared. Their work portrayed the unique visions and values of our DACs, and the high level of commitment and effort that was put into them made every team member of Star Atlas proud to be part of this project.</p>
+<p>In the next section, let’s take a deeper look at what the DACs of Star Atlas showed to the web3 world.</p>
+<h2>The DACs of COPA</h2>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/5rX2RxHAitGZA7i2E9aXul/en-US/COPA-finalists-star-atlas.png'
+											 data-image-caption='Our finalists /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience'
+											 data-image-width='700'
+											 data-image-height='393'
+										>
+											<div class='imageInner' style='padding-bottom: 56.142857142857%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/5rX2RxHAitGZA7i2E9aXul/en-US/COPA-finalists-star-atlas.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/5rX2RxHAitGZA7i2E9aXul/en-US/COPA-finalists-star-atlas.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/5rX2RxHAitGZA7i2E9aXul/en-US/COPA-finalists-star-atlas.png 862w, https://cdn.staratlas.com/contentful-assets/5rX2RxHAitGZA7i2E9aXul/en-US/COPA-finalists-star-atlas.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/5rX2RxHAitGZA7i2E9aXul/en-US/COPA-finalists-star-atlas.png 862w, https://cdn.staratlas.com/contentful-assets/5rX2RxHAitGZA7i2E9aXul/en-US/COPA-finalists-star-atlas.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'>Our finalists /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience</div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>The DACs journey toward COPA began on May 20, 2022, with the invitation of every single guild of Star Atlas to make a presentation for the Star Atlas team, their peers, and the whole community about themselves and the vision that they have for the Star Atlas Metaverse.</p>
+<p>As per the invitation, those presentations would be judged, taking into consideration three different criteria:</p>
+<ol>
+<li><strong>Growth</strong> — Guild’s plan to expand in users, resources, and assets.</li>
+<li><strong>Product Development</strong> — Strategic outlook, business model, competitive advantages, gaming expansion, product build, community initiatives, etc.</li>
+<li><strong>Ecosystem Integration</strong> — Lore, community, inclusiveness, Guild culture, and Guild values.
+As the Star Atlas team received their first applications, we had our first big surprise. Some of the applications deviated directly from the criteria specifically determined in the article. They were exceptionally well made but seemed to be deliberately missing the point of sharing the details of their plans, especially regarding the Product Development criteria.</li>
+</ol>
+<p>Some team members were concerned we weren’t clear enough with the directions, but others only smiled. As one explained: “This is Star Atlas, and some of those guilds decided that this is the best play in the political game. Now, they will have some degree of exposure, get a meeting with the team, while not disclosing anything to the other competing DACs.”</p>
+<p>At this moment, everyone in the google meets call had chills running down their ancient MUD spines. You could see the thrill on everyone’s faces of seeing the strategy game of Star Atlas already taking shape at such an early stage.</p>
+<p>After this initial positive shock, the team delved deeper into the many quality applications — 39 to be exact - each one of them featuring a unique set of values, strategies, and a vision for a metaverse community. Unfortunately, considering the constraints of the event duration, we had to make a first cut, choosing fifteen guilds to represent the DACs and factions of Star Atlas before the judges of the Council of Peace.</p>
+<p>Here is the list of the chosen ones in alphabetical order:</p>
+<ol>
+<li>Aephia Industries</li>
+<li>The Atlessio Family</li>
+<li>Brazilian StarAtlas Alliance — BSA</li>
+<li>COEXIST</li>
+<li>The Club</li>
+<li>Cy-Ops: Bounty Hunters</li>
+<li>Dark Matter</li>
+<li>DEEP Profits</li>
+<li>Final Frontier</li>
+<li>Gargantua Industries</li>
+<li>Heimdall Industries</li>
+<li>Interstellar Alliance</li>
+<li>Quimera</li>
+<li>Star Atlas Italia (SAI)</li>
+<li>Vnonymus-Star VYS</li>
+</ol>
+<p>Even though all submissions were high quality, the selected fifteen did the best job of meeting the criteria stipulated on the COPA invitation. Hence, they were picked to advance to the second phase.</p>
+<p>A lot was on the line. Aside from the meeting with the team that every submitting DAC was entitled to, they would be fighting for ship prizes: 1st place — $5k USDC worth of spaceships, 2nd place — $2.5k USDC worth of spaceships, and 3rd place — $1k USDC worth of spaceships. And perhaps even more importantly, the winner would earn the eternal glory of being the first COPA champion in the history of the Star Atlas Metaverse.</p>
+<p>When June 16 finally arrived, the Guilds each presented for ten minutes and then faced the judges: Enantel Artanis, the first judge of COPA, representing Humankind as the ambassador of the Manum Ultima Divina before the Council of Peace. Pac.Eldr, the second judge of COPA, rallying from the trenches of the Convergence War. He lived through the years of strife, and now, as one of the leading generals of the Ustur Faction fleet. Last but not least, the third judge was the Rev OPS CRO of Busan Industries, the legendary manufacturer who built the first Titan Ship: Mr. Elicnalu represented the ONI Consortium.</p>
+<p>The judges explored the different DACs presentations, testing their conclusions and asking questions that needed clarification. The representatives from the DACs accepted the challenge and expanded on their vision for the future of their guilds and Star Atlas.</p>
+<p>After their presentations, with the thrill of the work finally completed, the guilds were invited to the Brew Tent, where Santiac and ZeSKK waited for them for a bit of relaxation and informal discussion. Members of the community from different DACs drank their own beverages, sharing stories and the experience of going to the stage before five hundred passionate people and a wild discord chat.</p>
+<p>After all the presentations were done, the judges had the difficult job of determining who were the champions of the very first edition of COPA. Finally, at the end of the festival day, our own Michael Wagner announced the winners:</p>
+<ul>
+<li>In the First place — COEXIST</li>
+<li>In the Second place — Dark Matter</li>
+<li>In the Third place — The Club</li>
+</ul>
+<p>Needless to say, your faithful reporters covering the event for the Atlas Star were blown away by the presentations, and the efforts of the guilds will resonate for years to come. The team was humbled by the dedication of the crowd, who stayed through an entire weekday with us, never dropping below 435 people on the main stage during the hardest bear market in years, especially the DACs for the fabulous work they put into COPA.</p>
+<p>Now it’s time to delve into the other news dropped by an experienced and savvy team at COPA.</p>
+<h2>The Alphas of COPA</h2>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/19F7XpqDjTmz6YwUkD6GqO/en-US/iris-star-atlas-metaverse.png'
+											 data-image-caption='Iris is awaiting. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience'
+											 data-image-width='680'
+											 data-image-height='383'
+										>
+											<div class='imageInner' style='padding-bottom: 56.323529411765%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/19F7XpqDjTmz6YwUkD6GqO/en-US/iris-star-atlas-metaverse.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/19F7XpqDjTmz6YwUkD6GqO/en-US/iris-star-atlas-metaverse.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/19F7XpqDjTmz6YwUkD6GqO/en-US/iris-star-atlas-metaverse.png 862w, https://cdn.staratlas.com/contentful-assets/19F7XpqDjTmz6YwUkD6GqO/en-US/iris-star-atlas-metaverse.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/19F7XpqDjTmz6YwUkD6GqO/en-US/iris-star-atlas-metaverse.png 862w, https://cdn.staratlas.com/contentful-assets/19F7XpqDjTmz6YwUkD6GqO/en-US/iris-star-atlas-metaverse.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'>Iris is awaiting. /// Triple-A Metaverse Work in Progress /// Immersive Unreal Engine 5 Experience</div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>The guilds were not the only ones busy during the COPA day! Many Star Atlas team members hit the main stage and the Brew Tent to brighten the event!</p>
+<p>Ashley, our galactic hostess, worked like a maestro for the whole day. She made sure that the symphony of our festival didn’t miss a single note while a giant crew worked backstage. The men and women behind the scenes coordinated the music, attractions, and recording, checked in the participants, and managed the thousands of other little details that made this day special. Here’s a huge shout-out to all of you — thank you!</p>
+<p>On stage, we had directors and project managers from many different areas come to tell us about their exciting developments, like Luciano Castillo from our Galactic Market Place project; Estefan Ramirez, talking about the partnerships and the Star Atlas merchandise project; Anthony Mason announcing the referral program in the making; Mo Yazdani sharing the developments of SCREAM; and our Chief Revenue Officer Pablo Quiroga, who spoke with Justin Kan about the web3 ecosystem and Star Atlas’ leading position within it.</p>
+<p>The final and tastiest cherry on top of the COPA cake was our CEO Michael Wagner’s closing remarks, weighted down with juicy alpha. Michael said that the community could expect — not one, not two, not 3 — but 6 different launches in the next 4 to 6 weeks!</p>
+<p>Here is the list:</p>
+<p><strong>The Showroom</strong> — The first Unreal Engine 5 experience of Star Atlas, the Showroom is the place in which players can connect their crypto wallets and load their NFT ships to view, engage and interact together with other players in the community. At launch, most of the ships will be available, and a part of them will be visible through blockout only. Full display of the entire Star Atlas fleet will be integrated in future versions of the Showroom.</p>
+<p><strong>The Galactic Marketplace</strong> — A huge update on the current marketplace of Star Atlas will take place this summer. We are transitioning into a game auction house structure that will enable players to easier acquire and sell their digital properties in a much more simplified and efficient structure. This will also serve as the basis for integrating other projects with the Marketplace structure in the future.</p>
+<p><strong>The Graphic Novel</strong> — For the first time, Star Atas announced the launch of its own graphic novel! Although elements of the plot were not revealed, we learned that the story will be based on the events that predate the treaty of peace, making it a prequel to the point where we are now. Michael also added in his speech that the book will be available in NFT and physical forms, and easter eggs of the comic book might be linked with the Showroom project, so keep your eyes open!</p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/59R8l3j9VbdStTrDgT8C9p/en-US/star-atlas-aaa-gaming-metaverse.png'
+											 data-image-caption=''
+											 data-image-width='1400'
+											 data-image-height='700'
+										>
+											<div class='imageInner' style='padding-bottom: 50%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/59R8l3j9VbdStTrDgT8C9p/en-US/star-atlas-aaa-gaming-metaverse.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/59R8l3j9VbdStTrDgT8C9p/en-US/star-atlas-aaa-gaming-metaverse.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/59R8l3j9VbdStTrDgT8C9p/en-US/star-atlas-aaa-gaming-metaverse.png 862w, https://cdn.staratlas.com/contentful-assets/59R8l3j9VbdStTrDgT8C9p/en-US/star-atlas-aaa-gaming-metaverse.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/59R8l3j9VbdStTrDgT8C9p/en-US/star-atlas-aaa-gaming-metaverse.png 862w, https://cdn.staratlas.com/contentful-assets/59R8l3j9VbdStTrDgT8C9p/en-US/star-atlas-aaa-gaming-metaverse.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p><strong>The Star Atlas Dao Framework and The Polis DAO Locker</strong> — The polis-related alpha was so big that it actually entails two different features for the community. This first version of the governance and staking mechanisms for the Star Atlas DAO is coming out in July, giving the members of our community the ability to stake their POLIS, view balances, voting weight, and eventually participate in governance within the Star Atlas ecosystem.</p>
+<p><strong>The Community Referral Program</strong> — Another highlight of COPA, it was with great enthusiasm that a referral program was announced to be coming soon. In conjunction with the new Marketplace, it will allow current players to be rewarded for bringing new players into the ecosystem in a multi-layered reward system.</p>
+<p>Now that we covered pretty much all the content regarding COPA, it’s time that we share the space with the most epic report of the galaxy, the Punaab Whisper, which has an exciting story to share on this edition of the Atlas Star.</p>
+<p>. . .</p>
+<h2>The Punaab Whisper — The Atlas Star Tabloid</h2>
+<p>Dear Readers! We are back for a new edition of the Punaab Whisper, and today your favorite Punaab is sharing the details of a very exclusive and exotic interview that we had with one of the longest-living rulers of the galaxy. I’m talking, of course, about the High Matron of the Oxir’s, Odette.</p>
+<p>The High Matron received me in the Oxir embassy inside the Council of Peace. Even though you can see the wisdom of the ages in her countenance, I dare say that she moved with unnatural vigor, receiving me with a smile while standing to serve me a mixture of exotic brew leaves.</p>
+<p>The room was surrounded by guards in exotic suits that reminded me of animals. Curiously enough, many of them were open on a particular point on their back, revealing a tattoo. After some research, I learned that the principal warriors of the tribe have a link with a legendary animal called Avatena, or maybe it’s a constellation. Honestly, I couldn’t find a reliable source for this.</p>
+<p>Nevertheless, the curious part of the meeting was not the gaze I felt from the Avatena, but the smile and the reason the Oxir leader called me.</p>
+<p>After a surprisingly delicious cup of tea, she said that she was asked to deliver a package to me which was surprisingly heavy. As I opened it, an ancient, heavy stone tablet fell out of the box and nearly broke my paw.</p>
+<p>Even though I often practice my knowledge of ancient languages, I had a hard time deciphering some of the inscriptions, which the good Matron clarified for me. They read as the following:</p>
+<h2>The Seasons Tale</h2>
+<p>In the beginning, there was Time.</p>
+<p>Time was not created, but simply was before anything else was, and for eons, it traveled across the emptiness by itself, without purpose or aim. It just went forward, not even aware of its own existence.</p>
+<p>Then time met creation.</p>
+<p>Creation was a glorious statue in which nothing happened, and everything stood perfectly still. All possibilities, all dreams, and all hopes captured frozen, like a painting on a canvas.</p>
+<p>As Time perceived Creation in the distance of emptiness, it discovered itself, by a burning feeling of desire, and he accelerated, with all his might, towards Creation.</p>
+<p>In the beautiful instant that the grasp of Time finally touched creation, they fell in love, and everything made sense to them.</p>
+<p>Time’s kiss made Creation brim with life, colors, movement, and change. Creations embrace gave Time purpose to develop and bring forward the full potential of everything that was.</p>
+<p>An instant after their joyful reunion, they learned about sorrow because time could not stop, and they both knew that the farther Time went away from Creation, the more they would return to their original states, an immovable statue, and a meaningless stream.</p>
+<p>Creation, then, had an idea. It took some of Time’s essence and nurtured it in its core, making Time part of Creation, so everything under creation would happen according to a particular time.</p>
+<p>This gave birth to the sons and daughters of Time and Creation, the Seasons, which would rule the development and growth of everything that would happen under their parent’s love.</p>
+<p>Summer, Fall, Winter, and Spring, each one represents the essence of a particular moment when Time and Creation first touched. Legend says that they will rule the cosmos until Time and Creation manage to meet again.”</p>
+<p>. . .</p>
+<p>As you can imagine, dear readers, this reporter was struck with many questions upon reading this… story? But the Matron said that she had completed her mission and that I should turn now to finish mine.</p>
+<p>As a good journalist, I insisted on asking my questions to understand the meaning of all of this, but Odette just smiled and told me she had other things to do.</p>
+<p>At that moment, two of the Avatena’s “escorted” me out of the room. I shouted my final question: “Who sent the package for me?” As I was pushed down the corridor, I could hear her voice, loud and clear, saying one name.</p>
+<p>Iris.</p>
+<p>This was my bizarre adventure with the Oxir tribe, dear readers, and even now, I keep trying to find more clues about the meaning of this story or who wanted the story to find itself in my hands.</p>
+<p>If you have any information, please, do reach out to the Punaab Whisper’s staff.</p>
+<p>As always, thank you for your support, and we hope you’ll be back for the next issue, where we, hopefully, will be able to bring the story that was initially programmed about the tale of the nearly extinct Mni flower. Keep your eyes open, and have a good weekend!</p>
+<p>. . .</p>
+<h2>Updates</h2>
+<p>Let’s take a look at what the Star Atlas team has recently accomplished in terms of corporate infrastructure, development of projects, and community building.</p>
+<p>The first stop is the Sapient Resources Department Report.</p>
+<h2>Sapient Resources Department Report</h2>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/6BhJdaOrjEdgQ2f3njckf8/en-US/star-atlas-sapient-resources.png'
+											 data-image-caption=''
+											 data-image-width='1400'
+											 data-image-height='1050'
+										>
+											<div class='imageInner' style='padding-bottom: 75%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/6BhJdaOrjEdgQ2f3njckf8/en-US/star-atlas-sapient-resources.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/6BhJdaOrjEdgQ2f3njckf8/en-US/star-atlas-sapient-resources.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/6BhJdaOrjEdgQ2f3njckf8/en-US/star-atlas-sapient-resources.png 862w, https://cdn.staratlas.com/contentful-assets/6BhJdaOrjEdgQ2f3njckf8/en-US/star-atlas-sapient-resources.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/6BhJdaOrjEdgQ2f3njckf8/en-US/star-atlas-sapient-resources.png 862w, https://cdn.staratlas.com/contentful-assets/6BhJdaOrjEdgQ2f3njckf8/en-US/star-atlas-sapient-resources.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>As the crusade for constructing our metaverse continues, the Sapient Resources Department continues to challenge all odds, acquiring new talents for the Star Atlas project. Let’s check on their progress in the last few weeks!</p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/4rGGPL1itEOBHqgNbVwuwm/en-US/star-atlas-staff.png'
+											 data-image-caption=''
+											 data-image-width='665'
+											 data-image-height='302'
+										>
+											<div class='imageInner' style='padding-bottom: 45.413533834586%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/4rGGPL1itEOBHqgNbVwuwm/en-US/star-atlas-staff.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/4rGGPL1itEOBHqgNbVwuwm/en-US/star-atlas-staff.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/4rGGPL1itEOBHqgNbVwuwm/en-US/star-atlas-staff.png 862w, https://cdn.staratlas.com/contentful-assets/4rGGPL1itEOBHqgNbVwuwm/en-US/star-atlas-staff.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/4rGGPL1itEOBHqgNbVwuwm/en-US/star-atlas-staff.png 862w, https://cdn.staratlas.com/contentful-assets/4rGGPL1itEOBHqgNbVwuwm/en-US/star-atlas-staff.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>Communication
+These have been epic weeks for the soldiers on the front lines of Star Atlas. The communications team supported many events while keeping the community up to date with the developments of various Star Atlas projects. Check out their work!</p>
+<p>The Atlas Brew
+The last episodes of the brew leaned heavily on COPA and Star Atlas Q3 overall. It’s worth checking how the different DACs of our ecosystem organized themselves and anticipate the effects of Star Atlas Summer!</p>
+<p>You can watch/listen to the episodes on the YouTube channels offered by our community by clicking on the links below:</p>
+<p><strong>Episode # 13 — Mid-Risk Zone:</strong></p>
+<p><a href="https://www.youtube.com/watch?v=vKZO3wVtYhQ">https://www.youtube.com/watch?v=vKZO3wVtYhQ</a></p>
+<p><strong>Episode # 14 — SCREAM:</strong></p>
+<p><a href="https://www.youtube.com/watch?v=sxs05bJoNHM">https://www.youtube.com/watch?v=sxs05bJoNHM</a></p>
+<p><strong>Episode #15 — Star Atlas Q3 plans:</strong></p>
+<p><a href="https://www.youtube.com/watch?v=Ewfv8z6mqcc">https://www.youtube.com/watch?v=Ewfv8z6m qcc</a></p>
+<p><strong>Episode # 16 — The Guild Ecosystem and COPA:</strong></p>
+<p><a href="https://www.youtube.com/watch?v=U3KE4AAyQxY">The Atlas Brew 16 feat. Zeskk &amp; Santi</a></p>
+<p><strong>Episode # 17 — Guild Recruitment and COPA Preparations:</strong></p>
+<p><a href="https://www.youtube.com/watch?v=pJkcoA7k9O0">The Atlas Brew #17</a></p>
+<p><strong>Episode #18 — COPA afterparty:</strong></p>
+<p><a href="https://www.youtube.com/watch?v=-kG4PHsA7tA">https://www.youtube.com/watch?v=-kG4PHsA7tA</a></p>
+<h2>Roadmap Lore Reports</h2>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/6O5c6pNDA2WT1TjEx2lGBb/en-US/u5-metaverse-game.png'
+											 data-image-caption='A dream within a dream /// Metaverse in Light Speed Expansion /// Immersive Blockchain-Powered UE5 Experience'
+											 data-image-width='700'
+											 data-image-height='303'
+										>
+											<div class='imageInner' style='padding-bottom: 43.285714285714%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/6O5c6pNDA2WT1TjEx2lGBb/en-US/u5-metaverse-game.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/6O5c6pNDA2WT1TjEx2lGBb/en-US/u5-metaverse-game.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/6O5c6pNDA2WT1TjEx2lGBb/en-US/u5-metaverse-game.png 862w, https://cdn.staratlas.com/contentful-assets/6O5c6pNDA2WT1TjEx2lGBb/en-US/u5-metaverse-game.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/6O5c6pNDA2WT1TjEx2lGBb/en-US/u5-metaverse-game.png 862w, https://cdn.staratlas.com/contentful-assets/6O5c6pNDA2WT1TjEx2lGBb/en-US/u5-metaverse-game.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'>A dream within a dream /// Metaverse in Light Speed Expansion /// Immersive Blockchain-Powered UE5 Experience</div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>It’s been lore season for the community of Star Atlas! The weekly report lore has progressed quite a bit since the last newsletter, and four whole new chapters were delivered to expand on the galaxy of Star Atlas. Among them is a very special COPA-focused episode, where we learn that most of the factions are preparing themselves for the uncertainties of the future.</p>
+<p>Our lore resumed on episode number seven, <a href="https://medium.com/star-atlas/mierese-dance-in-the-blizzard-star-atlas-roadmap-scan-07-e4408dbb3114">Mierese Dance in The Blizzard: Star Atlas Roadmap Scan #07</a>, where Wenn, Yago, Fang, and Pawn are ambushed by the nightmarish creature Atoph. During the fight, Yago is exposed to the creature’s vile blood, and his life is hanging by a thread, while the rest of the group tries to retreat to the relative safety of the capital of Gerio.</p>
+<p>The next issue, <a href="https://medium.com/star-atlas/ustur-ceo-the-hidden-enemy-star-atlas-roadmap-scan-08-7d9573eb70aa">Ustur CEO — The hidden enemy: Star Atlas Roadmap Scan #08</a> takes us to the other side of the galaxy, where after a seeming fortuitous meeting approved the realization of the Council of Peace Assembly. This sudden political movement instilled suspicion in the old ustur, which starts looking into data and realizing the formation of old patterns, patterns that, one hundred years ago, ignited the galaxy in war.</p>
+<p>After that, we had our biggest episode up to this date, <a href="https://medium.com/star-atlas/scenes-from-a-galaxy-in-movement-star-atlas-roadmap-scan-09-24995975940c">Scenes from a galaxy in movement: Star Atlas Roadmap Scan #09</a>. In this episode, we have a collection of small stories, all sharing old and new character’s perspectives about the latest political development in the galaxy. All faction’s eyes are now on COPA, and everyone is looking forward to seeing what the different DACs and Guilds will show before the Council of Peace.</p>
+<p>Finally, in the last launched episode, <a href="https://medium.com/star-atlas/oni-dream-within-a-dream-part-i-star-atlas-roadmap-scan-10-4c67c97c80a0">ONI Dream within a Dream — Part I: Star Atlas Roadmap Scan #10</a>. The plot returns to Yago’s battle for his life on the cold planet Gerio. As his consciousness swayed more and more into the darkness, the mierese is confronted with a past that he longed to forget.</p>
+<p>We hope you guys are enjoying the unfolding Star Atlas Metaverse in our weekly lore. To succeed in the future it can help to know the past.</p>
+<h2>Event Updates</h2>
+<p>In the last few weeks, Star Atlas has managed to close many important partnerships that will directly benefit the community and ecosystem of our metaverse!</p>
+<h2>Star Atlas and MoonPay partnership to onboard people into crypto gaming</h2>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/6xJPXzzCKUyzE1eRue4YnA/en-US/staratlas-moonpay.png'
+											 data-image-caption=''
+											 data-image-width='700'
+											 data-image-height='393'
+										>
+											<div class='imageInner' style='padding-bottom: 56.142857142857%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/6xJPXzzCKUyzE1eRue4YnA/en-US/staratlas-moonpay.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/6xJPXzzCKUyzE1eRue4YnA/en-US/staratlas-moonpay.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/6xJPXzzCKUyzE1eRue4YnA/en-US/staratlas-moonpay.png 862w, https://cdn.staratlas.com/contentful-assets/6xJPXzzCKUyzE1eRue4YnA/en-US/staratlas-moonpay.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/6xJPXzzCKUyzE1eRue4YnA/en-US/staratlas-moonpay.png 862w, https://cdn.staratlas.com/contentful-assets/6xJPXzzCKUyzE1eRue4YnA/en-US/staratlas-moonpay.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>As most of our crypto native community members already know, MoonPay is the leading global crypto payments infrastructure provider and will be responsible for facilitating fiat-to-crypto payments within the Star Atlas ecosystem.</p>
+<p>We foresee that this partnership will foster our exposure to a much broader audience, enabling people that are still new to the web3 crypto world to interact with Star Atlas, especially those coming to us from our upcoming referral program.</p>
+<p>You can check the details of this initiative in the <a href="https://medium.com/star-atlas/star-atlas-partners-with-moonpay-to-provide-an-onramp-for-next-wave-of-metaverse-citizens-8e32b83b7203">following article</a>.</p>
+<h2>Star Atlas and IBUYPOWER partner to onboard gamers to the metaverse</h2>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/Yxg2HWbHj1imRo2QSoBaK/en-US/staratlas-ibuypower.png'
+											 data-image-caption=''
+											 data-image-width='700'
+											 data-image-height='393'
+										>
+											<div class='imageInner' style='padding-bottom: 56.142857142857%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/Yxg2HWbHj1imRo2QSoBaK/en-US/staratlas-ibuypower.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/Yxg2HWbHj1imRo2QSoBaK/en-US/staratlas-ibuypower.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/Yxg2HWbHj1imRo2QSoBaK/en-US/staratlas-ibuypower.png 862w, https://cdn.staratlas.com/contentful-assets/Yxg2HWbHj1imRo2QSoBaK/en-US/staratlas-ibuypower.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/Yxg2HWbHj1imRo2QSoBaK/en-US/staratlas-ibuypower.png 862w, https://cdn.staratlas.com/contentful-assets/Yxg2HWbHj1imRo2QSoBaK/en-US/staratlas-ibuypower.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>Star Atlas is all about triple-A quality. We strive to be the best and build the most compelling gaming metaverse experience possible, so it was only natural that we would find partners with the same ethos that could support this triple-A quality for our gaming community.</p>
+<p>Hence, the synergy between Star Atlas and IBUYPOWER. Our community had the first taste of this awesome partnership during COPA, with the first-ever Star Atlas-branded PC, a monster in hardware form that defines the state of the art in the gaming industry. However, this is only the beginning, and the whole community will soon be amazed by what our two powerhouses can build together! Check out the details of this partnership in the <a href="https://medium.com/star-atlas/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse-635e32cf7a3a">following article</a>.</p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/4h8rVw3eYeExfsoena5ty2/en-US/ibuypower-staratlas-winner.png'
+											 data-image-caption=''
+											 data-image-width='680'
+											 data-image-height='680'
+										>
+											<div class='imageInner' style='padding-bottom: 100%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/4h8rVw3eYeExfsoena5ty2/en-US/ibuypower-staratlas-winner.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/4h8rVw3eYeExfsoena5ty2/en-US/ibuypower-staratlas-winner.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/4h8rVw3eYeExfsoena5ty2/en-US/ibuypower-staratlas-winner.png 862w, https://cdn.staratlas.com/contentful-assets/4h8rVw3eYeExfsoena5ty2/en-US/ibuypower-staratlas-winner.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/4h8rVw3eYeExfsoena5ty2/en-US/ibuypower-staratlas-winner.png 862w, https://cdn.staratlas.com/contentful-assets/4h8rVw3eYeExfsoena5ty2/en-US/ibuypower-staratlas-winner.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><h2>Star Atlas and Kudelski Security exclusive partnership to explore and develop security standards</h2>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/1SmPkj8pp4DtTCReEWS750/en-US/star-atlas-kudelski.png'
+											 data-image-caption=''
+											 data-image-width='1400'
+											 data-image-height='787'
+										>
+											<div class='imageInner' style='padding-bottom: 56.214285714286%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/1SmPkj8pp4DtTCReEWS750/en-US/star-atlas-kudelski.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/1SmPkj8pp4DtTCReEWS750/en-US/star-atlas-kudelski.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/1SmPkj8pp4DtTCReEWS750/en-US/star-atlas-kudelski.png 862w, https://cdn.staratlas.com/contentful-assets/1SmPkj8pp4DtTCReEWS750/en-US/star-atlas-kudelski.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/1SmPkj8pp4DtTCReEWS750/en-US/star-atlas-kudelski.png 862w, https://cdn.staratlas.com/contentful-assets/1SmPkj8pp4DtTCReEWS750/en-US/star-atlas-kudelski.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'></div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>Our obsession for perfection comes in every single aspect of our project, and security is a major foundation of Star Atlas as we are dealing with our beloved community tokens and NFTs on a daily basis.</p>
+<p>That’s why we needed to partner with the absolute best when it comes to security, and we found that ideal partner in Kudelski, the global leader in digital security and the leading provider of security solutions for large blockchain-based applications, and ecosystems.</p>
+<p>Learn everything about the terms of this partnership in the <a href="https://itsecuritywire.com/news/star-atlas-introduces-initiative-to-establish-web3-security-framework/">following article</a>.</p>
+<h2>Product Development</h2>
+<p>We also want to share the latest on the various product fronts. Follow the updates of the GAO ship drop, Showroom, SCREAM, Galactic Marketplace, The Star Atlas Dao, and System Polishing.</p>
+<h2>GAO Phase 2 Progress</h2>
+<p>The shipbuilding industries within Star Atlas don’t halt their production hardly ever, not even for COPA, and so shining new models have been continuing to hit the market. Check out the new models of the last few weeks!</p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/5sf7GDcj3lnWDngII6nA4X/en-US/star-atlas-maidens-heart.png'
+											 data-image-caption='What is hidden in a maiden’s heart?'
+											 data-image-width='1400'
+											 data-image-height='1011'
+										>
+											<div class='imageInner' style='padding-bottom: 72.214285714286%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/5sf7GDcj3lnWDngII6nA4X/en-US/star-atlas-maidens-heart.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/5sf7GDcj3lnWDngII6nA4X/en-US/star-atlas-maidens-heart.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/5sf7GDcj3lnWDngII6nA4X/en-US/star-atlas-maidens-heart.png 862w, https://cdn.staratlas.com/contentful-assets/5sf7GDcj3lnWDngII6nA4X/en-US/star-atlas-maidens-heart.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/5sf7GDcj3lnWDngII6nA4X/en-US/star-atlas-maidens-heart.png 862w, https://cdn.staratlas.com/contentful-assets/5sf7GDcj3lnWDngII6nA4X/en-US/star-atlas-maidens-heart.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'>What is hidden in a maiden’s heart?</div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><h2>Busan Maiden Heart</h2>
+<p>When it comes to shipbuilding, <a href="https://play.staratlas.com/market/8kn57Qb8S9AiPV8isUNwk6oCYPMSLFAVPwuXbyCSkS6i">Busan</a> is poetry in form, but the new Maiden Heart — the first in the line of its manufacturer in terms of capital ships — is a love story all its own. With the stealth capabilities that are particular to the ONI builders combined with an arsenal capable of annihilating entire fleets, this Maiden’s heart is ready to defend itself and those she loves.</p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/4Hwgw1TbdAUPzIK2r6EVpX/en-US/star-atlas-ogrika.png'
+											 data-image-caption='Bow down to the might of Ogrika'
+											 data-image-width='680'
+											 data-image-height='383'
+										>
+											<div class='imageInner' style='padding-bottom: 56.323529411765%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/4Hwgw1TbdAUPzIK2r6EVpX/en-US/star-atlas-ogrika.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/4Hwgw1TbdAUPzIK2r6EVpX/en-US/star-atlas-ogrika.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/4Hwgw1TbdAUPzIK2r6EVpX/en-US/star-atlas-ogrika.png 862w, https://cdn.staratlas.com/contentful-assets/4Hwgw1TbdAUPzIK2r6EVpX/en-US/star-atlas-ogrika.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/4Hwgw1TbdAUPzIK2r6EVpX/en-US/star-atlas-ogrika.png 862w, https://cdn.staratlas.com/contentful-assets/4Hwgw1TbdAUPzIK2r6EVpX/en-US/star-atlas-ogrika.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'>Bow down to the might of Ogrika</div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><h2>Ogrika Tursic</h2>
+<p><a href="https://play.staratlas.com/market/rrmC29ABvCvx6FzqS3FPZLwLxkvYRtcMUTBrR21F2Y6">Ogrika</a> is, by nature, synonymous with sophistication, and the Tursic is a paramount example of this manufacturer’s disposition of destroying their enemies with style. Made with pure gold and luxurious onboard accommodations, this ship offers a simple message for those daring to challenge the fleet of its owner: Know your place.</p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				
+												<div class='Block ArticleBlockImage'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-12 col-md-8 offset-sm-1 offset-md-3'>
+																														<div class="imageContainer PopInEnable"
+											 data-image-url='https://cdn.staratlas.com/contentful-assets/24yzMvM6UARQRhP3brynUP/en-US/star-atlas-mission.png'
+											 data-image-caption='A mission acquired is a mission complete'
+											 data-image-width='1400'
+											 data-image-height='738'
+										>
+											<div class='imageInner' style='padding-bottom: 52.714285714286%'>
+												<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/24yzMvM6UARQRhP3brynUP/en-US/star-atlas-mission.png?q=85 862w, https://cdn.staratlas.com/contentful-assets/24yzMvM6UARQRhP3brynUP/en-US/star-atlas-mission.png?q=85 3068w"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/24yzMvM6UARQRhP3brynUP/en-US/star-atlas-mission.png 862w, https://cdn.staratlas.com/contentful-assets/24yzMvM6UARQRhP3brynUP/en-US/star-atlas-mission.png 3068w"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/24yzMvM6UARQRhP3brynUP/en-US/star-atlas-mission.png 862w, https://cdn.staratlas.com/contentful-assets/24yzMvM6UARQRhP3brynUP/en-US/star-atlas-mission.png 3068w"
+														 class="lazyload">
+												</picture>
+											</div>
+										</div>
+
+									</div>
+									<div class='col-14 col-sm-12 col-md-6 offset-sm-1 offset-md-4'>
+										<div class='ImageCaption'>A mission acquired is a mission complete</div>
+									</div>
+								</div>
+							</div>
+						</div>
+											
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><h2>Fimbul Mamba</h2>
+<p>The Mamba manufacturer has the most precise piece of propaganda in the industry: “The Mamba has everything you need and nothing you don’t.” This ship is precisely what it’s meant to be, a machine of war dedicated to hunting its prey and locking them up for delivery. A warning is necessary though, and it comes in very small letters at the end of the contract: “<a href="https://play.staratlas.com/market/9yTCzeiveufHJA4LiMaAaw5Rm9KrmeEY4LS16DNyLPQw">Fimbul</a> makes no express or implied warranty as to the condition of the brig or its fitness for the particular purpose of keeping bounties detained in the brig comfortable (or even alive).”</p>
+<h2>Projects Report Weekly Update</h2>
+<p>As per our tradition, we let the characters of our metaverse have a break on Atlas Star weeks. Nevertheless, we still have weekly reports ready for you. Check them out!</p>
+<h2>Project: Showroom Alpha — Weekly Update</h2>
+<p><strong>Concept Art:</strong> DONE /// Art: DONE /// UX/UI: DONE /// Game Design: DONE /// Blockchain: BUILDING /// Core Gameplay Development: BUILDING</p>
+<p><strong>Updates:</strong> Done for Release V0. /// Done. Bug-fix only. /// Done. Bug-fix only. /// Done. /// Wallet integration prep. in progress. /// Last tasks related to options/feedback, bug-fix.</p>
+<p><strong>Upcoming activities:</strong> wallet integration. /// Bug-fix.</p>
+<h2>Project: Ship Missions — SCREAM — Weekly Update</h2>
+<p><strong>Game Design:</strong> PROTOTYPING /// Blockchain: PROTOTYPING/// UX DESIGN: PROTOTYPING /// UI: PROTOTYPING /// Game Economics: R&amp;D /// WEB: BUILDING</p>
+<p><strong>Updates:</strong> Continuing to define explicit requirements for core gameplay mechanics and game systems design, with a focus on combat and movement. Finished prototypes for starbase upgrading and planetary resource extraction. /// Continuing to build hangar program and cargo program. Redesigning star system program and movement program. /// Continuing low fidelity wireframes based on updated requirements. Continuing Information Architecture map. /// Continuing building SCREAM screens. Focused on Main Menu Screen and Settings Screen. /// Risk evaluation of gameplay mechanics. /// Changed Status from Prototyping to Building.</p>
+<p><strong>Upcoming activities:</strong> Continue to define explicit requirements for core gameplay mechanics and incorporate feedback from SCREAM stakeholders. Validate gameplay loops playability with WebGL Proof of Concept. Assess the feasibility of game mechanics with blockchain program proof of concepts. Validate economic viability from internal Game Economics team. Guide UX/UI design based on game mechanics. /// Test and refine prototypes across all SCREAM teams and stakeholders. Build, peer review, and test programs on testnet, then audit — Review wireframes with Project Stakeholders. Continue to iterate until wireframes are approved. Hand over wireframes to the UI team. /// Continue to build out UI screens and elements. /// Determine game balancing tactics/ contingency + scenario planning. /// Build towards playtesting and validate gameplay loops that require higher fidelity game.</p>
+<h2>Project: Galactic Marketplace — Weekly Update</h2>
+<p><strong>Blockchain:</strong> BUILDING /// UX/UI: BUILDING /// FRONT END: BUILDING /// MARKETING: BUILDING</p>
+<p><strong>Updates:</strong> Audit complete without issue. /// Support front-end team throughout final implementation of the new marketplace, added new designs for the home page to add links for showroom and scream. /// StarCOMM fully integrated with live data, UI 99% done, starting design reviews, filter sidebar done. /// Coordinate with the marketing team to prepare a knowledge base. Record videos on how-tos and prepare to campaign on the transition from the current market to the next one.</p>
+<p><strong>Upcoming activities:</strong> Support to front-end team, ongoing design reviews. /// QA process, collecting internal feedback.</p>
+<h2>Project: DAO — Weekly Update</h2>
+<p><strong>Product Design:</strong> COMPLETED /// UX Design: COMPLETED /// FRONT END: BUILDING /// ECONOMICS: BUILDING</p>
+<p><strong>Updates:</strong> Building high fidelity components, integrating locker functions. /// Assisting ongoing audits and front end (web3) team.</p>
+<p><strong>Upcoming activities:</strong> End-to-end testing and validation. /// ATLAS staking program to be submitted for audit.</p>
+<h2>Project: System Polishing</h2>
+<p>With new and revamped products nearing launch, the Polish Team has joined the building effort and will return to polishing of newly released projects upon launch. Until then, polishing will receive no updates.</p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p><strong>ABOUT STAR ATLAS</strong></p>
+<p>Star Atlas is a next-gen gaming Metaverse emerging from the confluence of state of the art blockchain, real-time graphics, multiplayer video game, and decentralized financial technologies.</p>
+<p>Real-time graphics technology using Unreal Engine 5’s Nanite allows for cinematic quality video game visuals. Blockchain technology using the <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3518016-1&amp;h=2748636143&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D3397231-1%26h%3D2982849003%26u%3Dhttp%253A%252F%252Fsolana.com%252F%26a%3DSolana&amp;a=Solana">Solana</a> protocol establishes a largely serverless and secured gameplay experience. Non-fungible tokens obtained and traded within Star Atlas create an economy that replicates the tangibility of real world assets and ownership. To learn more, visit <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3518016-1&amp;h=1530369193&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D3397231-1%26h%3D3652583731%26u%3Dhttps%253A%252F%252Fstaratlas.com%252F%26a%3DStarAtlas.com&amp;a=StarAtlas.com">StarAtlas.com</a>, join a faction at <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=3518016-1&amp;h=3921988929&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D3397231-1%26h%3D445912205%26u%3Dhttp%253A%252F%252Fplay.staratlas.com%252F%26a%3DPlay.StarAtlas.com&amp;a=Play.StarAtlas.com">Play.StarAtlas.com</a> and send your spaceships on a deep space mission by enrolling them into a Faction Fleet.</p>
+<p><strong>JOIN OUR COMMUNITY</strong></p>
+<p><a href="https://twitter.com/staratlas">Twitter</a> | <a href="https://discord.gg/staratlas">Discord</a> | <a href="https://t.me/staratlasgame">Telegram</a> | <a href="https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw">Youtube</a> | <a href="https://www.instagram.com/staratlasgame/">Instagram</a> | <a href="https://www.reddit.com/r/StarAtlas">Reddit</a> | <a href="https://www.facebook.com/StarAtlasMMO">Facebook</a> | <a href="https://www.linkedin.com/company/star-atlas">Linkedin</a> | <a href="https://medium.com/star-atlas">Medium</a> | <a href="https://www.tiktok.com/@staratlasmetaverse">Tik Tok</a> | <a href="https://www.twitch.tv/staratlasgame">Twitch</a></p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+																				<div class='Block ArticleBlockText'>
+							<div class='container'>
+								<div class='grid'>
+									<div class='col-14 col-sm-10 col-md-6 offset-sm-2 offset-md-4'>
+										<div><p>Disclaimer</p>
+<p>The updates in this report are provided for informational purposes only about the Star Atlas game and metaverse, for which ATMTA, Inc. is the lead developer. Except for statements of historical fact, the statements included herein are forward-looking statements that are based on the beliefs of ATMTA, Inc.’s management as well as assumptions made by and information currently available to ATMTA, Inc.’s management. Although ATMTA, Inc.’s management believes these forward-looking statements are based on reasonable assumptions, there can be no assurance that forward-looking statements will prove to be accurate, as actual results and future events could differ materially from those anticipated in such statements. ATMTA, Inc. undertakes no obligation to update forward-looking statements if circumstances or management’s estimates or opinions should change except as required under applicable law. These forward-looking statements are, by their nature, subject to significant risks and uncertainties and include, without limitation, statements about ATMTA, Inc.’s business prospects, future developments, industry and market trends and conditions, strategies, objectives, and goals. These statements are not guarantees of future performance and undue reliance should not be placed on them. No financial, tax, or legal advice is given or implied.</p>
+</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+					
+				
+				
+				<div class='PrevNextArticle'>
+					<div class='BackgroundSvg'>
+						<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2500 500" style="enable-background:new 0 0 2500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.8;}
+	.st1{fill:none;stroke:#78746D;stroke-linecap:round;stroke-dasharray:0,8;}
+</style>
+<g id="related_articles" class="st0">
+	<path id="Oval" class="st1" d="M1250,1824c1190.2,0,2155-347,2155-775s-964.8-775-2155-775S-905,621-905,1049S59.8,1824,1250,1824z
+		"/>
+	<path id="Oval_1_" class="st1" d="M1250,2057c1365.2,0,2472-451.3,2472-1008S2615.2,41,1250,41s-2472,451.3-2472,1008
+		S-115.2,2057,1250,2057z"/>
+</g>
+</svg>
+
+					</div>
+					<div class='container'>
+						<div class='grid'>
+							<div class='col-0 col-sm-4 offset-sm-4 col-md-2 offset-md-3'>
+																										<a class='ArticleNav PrevArticle' href='/newsroom/the-atlassian-newsletter/inaugural-copa-festival-winners-make-history'>
+										<div class='content'>
+											<p class='eyebrow'>Prev</p>
+											<p><span class='dash'></span>
+												Inaugural COPA Festival Winners Make History</p>
+																					</div>
+										<div class="imageContainer">
+											<div class='imageInner'>
+																								<picture>
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/1d7LP8WUfYScB8aKfkSa6h/en-US/COPA_Winners_Star_Atlas.png?q=85"
+															type="image/webp">
+													<source data-srcset="https://cdn.staratlas.com/contentful-assets/1d7LP8WUfYScB8aKfkSa6h/en-US/COPA_Winners_Star_Atlas.png"
+															type="image/jpg">
+													<img data-src="https://cdn.staratlas.com/contentful-assets/1d7LP8WUfYScB8aKfkSa6h/en-US/COPA_Winners_Star_Atlas.png"
+														 class="lazyload">
+												</picture>
+																							</div>
+										</div>
+									</a>
+															</div>
+							<div class='col-12 col-sm-4 col-md-3 offset-2 offset-sm-0 offset-md-1'>
+																										<a class='ArticleNav NextArticle' href='/newsroom/the-atlassian-newsletter/the-star-atlas-dao-the-game-of-polis'>
+										<div class='content'>
+
+											<p class='eyebrow-red'>Next</p>
+											<p><span class='dash'></span>The Star Atlas DAO — The Game of POLIS</p>
+											<p class='text-14'>By its very nature, Star Atlas is a political game as players, regions, and factions fight for the dominance of the galaxy and its scarce resources. With the Star Atlas DAO, our community will have the institutional infrastructure to determine the universe’s fate. Follow us and learn more about the most dangerous battlefront within Star Atlas.</p>
+										</div>
+										<div class="imageContainer">
+											<div class='imageInner'>
+																								<img class="lazyload" src="https://cdn.staratlas.com/contentful-assets/14oAqf9ItKf8kTYSEezSUp/en-US/star-atlas-dao.png" alt="">
+																							</div>
+										</div>
+									</a>
+															</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+					<section class="FooterModule" data-module="FooterModule">
+	<footer>
+		<div class='container'>
+			<div class='grid'>
+				<div class='col-14 col-sm-12 offset-sm-1'>
+					<div class='HighlightedLinks'>
+						<div class='FooterLogo'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 690 114.4"><path d="M382.1 84.8l-13.9 28.8-14.4-28.8h28.3zm303-80.4c1.3 0 2.3.8 1.8 1.8l-6.2 14.6c-.4 1-1.3 1.8-2.3 1.8H644c-4.3 0-7.8 3.6-7.8 7.9 0 4.3 3.3 7.7 7.5 7.9h19.8v0c14.2 0 25.8 11.7 25.8 26.2 0 14.4-11.5 26.1-25.7 26.2h-39.7c-1.3 0-1.9-.8-2.3-1.8l-5.8-14.1c-.5-1.3.3-2.3 1.4-2.3h46.4c4.3-.1 7.7-3.6 7.7-7.9s-3.5-7.9-7.7-7.9H644c-14.2 0-25.8-11.7-25.8-26.2S629.8 4.4 644 4.4h41.1zm-194.6 0c1 0 1.8.8 1.8 1.8v66.3h37c1 0 1.9 1.1 1.4 2.3l-6 14.1c-.6 1.3-1.3 1.8-2.6 1.8h-46.2c-1 0-1.8-.8-1.8-1.8V6.2c0-1 .8-1.8 1.8-1.8h14.6zm-25 0c1 0 1.8.8 1.8 1.8v14.6c0 1-.8 1.8-1.8 1.8h-23.1V89c0 1-.8 1.8-1.8 1.8H426c-1 0-1.8-.8-1.8-1.8V22.6H401c-1 0-1.8-.8-1.8-1.8V6.2c0-1 .8-1.8 1.8-1.8h64.5zm-202.4 0c15 0 27.1 12.5 27.1 28 0 11.6-6.9 21.6-16.6 25.8l20 29.8c.5 2.3-.9 2.9-2.9 2.9h-15.1c-1.6 0-2.2-1.5-3.2-2.9l-19.1-27.6h-12.5V89c0 1-.8 1.8-1.8 1.8h-14.6c-1 0-1.8-.8-1.8-1.8V6.2c0-1 .8-1.8 1.8-1.8h38.7zm-122.3 0c1 0 1.8.8 1.8 1.8v14.6c0 1-.8 1.8-1.8 1.8h-23.1V89c0 1-.8 1.8-1.8 1.8h-14.6c-1 0-1.8-.8-1.8-1.8V22.6h-26c-1.3 0-2.1-.8-1.4-2.3l6.1-14.1c.3-.7 1.1-1.8 2.1-1.8h60.5zm-71.3 0c1 0 2 .7 1.6 1.8l-6.2 14.6c-.5 1.3-1.3 1.8-2.3 1.8H27.5c-4.3 0-7.8 3.6-7.8 7.9 0 4.3 3.3 7.7 7.5 7.9H47v0c14.2 0 25.8 11.7 25.8 26.2 0 14.4-11.5 26.1-25.7 26.2H1.9C.6 90.8-.3 89.7.1 89l6-14.6c.2-.8 1.1-1.8 2.1-1.8h39c4.3-.1 7.7-3.6 7.7-7.9s-3.5-7.9-7.7-7.9H27.5C13.3 56.7 1.7 45 1.7 30.6S13.3 4.4 27.5 4.4h42zm301.8.2c1.6 0 2 1 2.8 2.3l35.2 81c1 2.3-.1 2.9-2.2 2.9h-14.4c-1.6 0-2-1.3-2.7-2.9l-21.8-49.4-21.8 49.4c-.7 1.6-1.1 2.9-2.7 2.9h-14.4c-2.1 0-3.2-.6-2.2-2.9l35.2-81c.7-1.3 1.2-2.3 2.8-2.3h6.2zm204.9 0c1.6 0 2 1 2.8 2.3l35.2 81c1 2.3-.1 2.9-2.2 2.9h-14.4c-1.6 0-2-1.3-2.7-2.9l-21.8-49.4-21.8 49.4c-.7 1.6-1.1 2.9-2.7 2.9h-14.4c-2.1 0-3.2-.6-2.2-2.9l35.2-81c.7-1.3 1.2-2.3 2.8-2.3h6.2zm-397.5 0c1.6 0 2 1 2.8 2.3l35.2 81c1 2.3-.1 2.9-2.2 2.9h-14.4c-1.6 0-2-1.3-2.7-2.9l-21.8-49.4-21.8 49.4c-.7 1.6-1.1 2.9-2.7 2.9h-14.4c-2.1 0-3.2-.6-2.2-2.9l35.2-81c.7-1.3 1.2-2.3 2.8-2.3h6.2zm84.4 18h-22.3V42h22.3v0c5.2 0 9.4-4.3 9.4-9.7s-4.2-9.6-9.4-9.7h0z" fill-rule="evenodd" clip-rule="evenodd" fill="#102434" stroke="#6f7b85" stroke-width="2"/></svg>
+</div>
+													<a href="/" class='Link'>
+								Visit the Experience
+							</a>
+																			<a href="/gallery" class='Link'>
+								Visit the Gallery
+							</a>
+											</div>
+					<div class='Separator'></div>
+					<div class='FooterLinks'>
+						<div class='FooterNav'>
+															<ul>
+																																					<li><a href="/">Experience</a></li>
+																													<li><a href="/Roadmap">Roadmap</a></li>
+																													<li><a href="/newsroom">News &amp; Info</a></li>
+																														</ul>
+											<ul>
+																				<li><a href="/team">Team</a></li>
+																													<li><a href="/support">Support</a></li>
+																									</ul>
+													</div>
+						<div class='FooterSocials'>
+							<p class='CatchPhrase'>Follow us on social media</p>
+							<div class='SocialsList'>
+																	<a href='https://twitter.com/staratlas' data-social="twitter"><svg width="12" height="11" viewBox="0 0 12 11" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-6 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M11.827 9.66l.026.433-.434-.053c-1.578-.203-2.957-.892-4.127-2.048l-.572-.574-.148.424c-.312.944-.112 1.942.538 2.613.347.37.269.423-.33.203-.208-.071-.39-.124-.407-.097-.06.061.147.865.312 1.182.225.442.685.874 1.188 1.13l.425.203-.503.01c-.486 0-.503.008-.451.193.173.574.858 1.183 1.621 1.448l.538.185-.468.283a4.851 4.851 0 01-2.324.653c-.39.009-.711.044-.711.07 0 .089 1.058.583 1.673.777 1.847.574 4.041.327 5.688-.653 1.17-.697 2.341-2.083 2.888-3.425.295-.715.59-2.021.59-2.648 0-.406.025-.459.51-.944.287-.283.556-.592.608-.68.087-.168.078-.168-.364-.018-.737.265-.841.23-.477-.167.269-.283.59-.795.59-.945 0-.026-.13.018-.278.097-.156.088-.503.22-.763.3l-.468.15-.425-.291c-.234-.159-.564-.335-.737-.388-.442-.124-1.119-.106-1.518.035-1.083.397-1.768 1.421-1.69 2.542z" fill="#FFF"/></g></svg>
+</a>
+																									<a href='https://discord.gg/staratlas' data-social="discord"><svg width="19" height="13" viewBox="0 0 19 13" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-42 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M49.04 6.5l.154.187c-2.776.796-4.041 2.03-4.041 2.03s.059-.033.169-.09l.156-.077c.15-.074.347-.167.585-.27 1.65-.734 2.961-.922 3.501-.984.093-.016.17-.031.262-.031a12.9 12.9 0 013.116-.032c1.465.172 3.039.61 4.643 1.483 0 0-1.219-1.17-3.84-1.966l.215-.25h.054c.343.006 2.266.11 4.265 1.623 0 0 2.221 4.042 2.221 9.02 0-.015-1.296 2.232-4.704 2.341l-.062-.074-.1-.121a112.8 112.8 0 01-.856-1.053c2.02-.578 2.791-1.842 2.791-1.842a8.788 8.788 0 01-1.773.921c-.772.328-1.512.53-2.237.671-1.48.281-2.838.203-3.995-.015a11.64 11.64 0 01-2.267-.671 8.99 8.99 0 01-1.126-.531l-.139-.078c-.03-.016-.046-.031-.062-.031a6.321 6.321 0 01-.368-.223l-.056-.038-.007-.005s.74 1.233 2.699 1.826l-.094.12-.191.241c-.383.48-.749.919-.749.919-3.408-.11-4.704-2.357-4.704-2.357 0-4.978 2.221-9.02 2.221-9.02 2.013-1.513 3.924-1.617 4.265-1.623h.054zm5.213 5.759c-.879 0-1.573.764-1.573 1.716s.71 1.717 1.573 1.717c.88 0 1.573-.765 1.573-1.717 0-.952-.709-1.716-1.573-1.716zm-5.63 0c-.879 0-1.573.764-1.573 1.716s.71 1.717 1.573 1.717c.88 0 1.574-.765 1.574-1.717.015-.952-.694-1.716-1.574-1.716z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+</a>
+																									<a href='https://t.me/staratlasgame' data-social="telegram"><svg width="17" height="13" viewBox="0 0 17 13" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-82 -6.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M86.903 10.617c-1.402.6-2.843 1.218-4.161 1.93-.689.494.226.844 1.084 1.172.137.052.271.104.398.155l.322.1c.954.298 2.018.63 2.945.13 1.522-.858 2.958-1.85 4.393-2.84.47-.325.94-.65 1.413-.969l.075-.047c.403-.256 1.309-.832.974-.038-.793.85-1.642 1.602-2.495 2.36a53.564 53.564 0 00-1.716 1.566c-.491.391-1.001 1.178-.451 1.726 1.266.87 2.551 1.718 3.836 2.566l1.254.828c.707.554 1.812.106 1.968-.76l.208-1.194c.384-2.2.767-4.402 1.106-6.61a60.2 60.2 0 01.15-1.039c.128-.84.254-1.68.294-2.524-.102-.843-1.143-.658-1.723-.468-2.978 1.112-5.927 2.306-8.864 3.521-.333.145-.67.29-1.01.435z" fill="#FFF"/></g></svg>
+</a>
+																									<a href='https://www.reddit.com/r/StarAtlas/' data-social="reddit"><svg width="17" height="14" viewBox="0 0 17 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-123 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M139.5 12.606c-.036-.952-.848-1.696-1.819-1.663-.43.014-.839.188-1.15.479a8.635 8.635 0 00-4.624-1.455l.779-3.688 2.57.532c.072.65.664 1.12 1.324 1.049a1.187 1.187 0 001.065-1.302 1.196 1.196 0 00-1.322-1.05 1.19 1.19 0 00-.908.58l-2.944-.58c-.2-.043-.4.08-.445.28v.006l-.887 4.102a8.7 8.7 0 00-4.685 1.455 1.772 1.772 0 00-2.478.076 1.705 1.705 0 00.078 2.44 1.7 1.7 0 00.471.311 3.78 3.78 0 000 .52c0 2.648 3.136 4.802 7.002 4.802 3.867 0 7.002-2.151 7.002-4.802a3.78 3.78 0 000-.52c.603-.297.983-.908.97-1.572zm-12.013 1.184c0-.652.54-1.184 1.204-1.184.663 0 1.203.532 1.203 1.184 0 .653-.54 1.184-1.203 1.184-.666-.005-1.204-.531-1.204-1.184zm6.978 3.25a4.663 4.663 0 01-2.968.911 4.663 4.663 0 01-2.968-.91.317.317 0 01.045-.45.328.328 0 01.412 0c.723.52 1.604.784 2.5.743a4 4 0 002.51-.72.342.342 0 01.475.006c.129.13.126.341-.006.467v-.047zm-.215-2.024a1.196 1.196 0 01-1.203-1.185c0-.652.54-1.184 1.203-1.184s1.204.532 1.204 1.184a1.19 1.19 0 01-1.153 1.229h-.06l.01-.044z" fill="#FFF" fill-rule="nonzero"/></g></svg>
+</a>
+																									<a href='https://www.facebook.com/StarAtlasMMO' data-social="facebook"><svg width="17" height="16" viewBox="0 0 17 16" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-163 -4.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M174.614 14.876l.354-2.327h-2.218v-1.51c0-.3.068-.596.245-.825l.071-.084a.997.997 0 01.343-.233c.172-.073.385-.116.645-.116h1.009v-1.98s-.805-.139-1.627-.156l-.164-.002c-.457 0-.874.07-1.243.206l-.155.062c-.855.373-1.422 1.128-1.58 2.22-.029.202-.044.417-.044.644v1.774h-2.032v2.327h2.032V20.5c-3.825-.604-6.75-3.934-6.75-7.951 0-4.445 3.582-8.049 8-8.049s8 3.604 8 8.049c0 4.018-2.925 7.348-6.75 7.951v-5.624h1.864z" fill="#FFF"/></g></svg>
+</a>
+																									<a href='https://www.instagram.com/staratlasgame/' data-social="instagram"><svg width="15" height="14" viewBox="0 0 15 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-204 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M212.383 5.5c1.12.004 1.39.014 2.001.042.746.034 1.255.152 1.701.325.461.18.85.418 1.24.808.39.389.629.78.808 1.24.172.445.29.954.325 1.699l.016.37.006.171c.013.373.018.775.02 1.655v1.38a51.03 51.03 0 01-.02 1.655l-.006.171-.016.37c-.035.745-.153 1.254-.325 1.7-.18.46-.419.85-.808 1.239-.39.39-.78.63-1.24.808-.445.173-.954.291-1.7.325-.135.006-.254.012-.37.016l-.258.01a44.51 44.51 0 01-1.194.015l-.373.001h-1.382a50.954 50.954 0 01-1.654-.02l-.171-.006-.37-.016c-.745-.034-1.254-.152-1.7-.325a3.428 3.428 0 01-1.24-.808 3.43 3.43 0 01-.807-1.24c-.173-.445-.29-.954-.325-1.699a66.803 66.803 0 01-.016-.37l-.007-.171c-.01-.287-.015-.591-.017-1.116l-.002-.538v-1.17-.211l.002-.538c.002-.526.008-.83.017-1.117l.007-.171c.004-.116.01-.235.016-.37.033-.745.151-1.254.325-1.7.18-.46.419-.85.808-1.24.39-.389.78-.628 1.24-.807.445-.173.954-.29 1.7-.325.61-.028.881-.038 2-.041zm-1.51 1.26c-1.306.001-1.556.01-2.202.04-.682.03-1.053.144-1.3.24-.327.128-.56.28-.805.524a2.169 2.169 0 00-.524.805c-.096.247-.21.618-.241 1.3l-.016.364-.006.168c-.013.393-.017.815-.018 1.825v.941c0 1.01.005 1.434.018 1.826l.006.169.016.364c.031.682.145 1.053.241 1.3.127.326.279.559.524.804s.478.397.805.523c.247.096.618.21 1.3.242l.364.016.169.006c.364.012.755.017 1.618.018h1.356a50.173 50.173 0 001.619-.018l.168-.006.364-.016c.683-.031 1.054-.145 1.3-.241.327-.127.56-.279.805-.524s.397-.477.524-.804c.095-.247.21-.617.24-1.3.03-.637.039-.89.041-2.15v-1.355a50.13 50.13 0 00-.018-1.618l-.007-.168-.015-.364c-.031-.683-.146-1.053-.241-1.3a2.172 2.172 0 00-.524-.805 2.165 2.165 0 00-.805-.523c-.247-.096-.617-.21-1.3-.241a59.966 59.966 0 00-.364-.016l-.168-.006a50.765 50.765 0 00-1.619-.018h-1.306zm.627 2.145a3.595 3.595 0 110 7.19 3.595 3.595 0 010-7.19zm0 1.262a2.333 2.333 0 100 4.667 2.333 2.333 0 000-4.667zm3.737-2.243a.84.84 0 110 1.68.84.84 0 010-1.68z" fill="#FFF"/></g></svg>
+</a>
+																									<a href='https://www.youtube.com/channel/UCt-y8Npwje5KDG5MSZ0a9Jw' data-social="youtube"><svg width="16" height="11" viewBox="0 0 16 11" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-244 -7.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M252.294 7.5c1.046.007 4.574.05 5.566.328.646.18 1.154.713 1.327 1.39.278 1.089.31 3.23.313 3.693v.178c-.004.463-.035 2.604-.313 3.693a1.926 1.926 0 01-1.327 1.39c-.992.278-4.52.32-5.566.327l-.184.001h-.405c-1.046-.007-4.573-.05-5.566-.328a1.926 1.926 0 01-1.326-1.39c-.267-1.044-.307-3.054-.312-3.626v-.312c.005-.572.045-2.583.312-3.626a1.925 1.925 0 011.326-1.39c.993-.278 4.52-.32 5.566-.327zm-1.7 3.348v4.783l3.75-2.392-3.75-2.391z" fill="#FFF"/></g></svg>
+</a>
+																									<a href='https://www.twitch.tv/staratlasgame' data-social="twitch"><svg width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg"><defs><filter color-interpolation-filters="auto" id="a"><feColorMatrix in="SourceGraphic" values="0 0 0 0 0.564706 0 0 0 0 0.639216 0 0 0 0 0.811765 0 0 0 1.000000 0"/></filter></defs><g transform="translate(-284 -5.5)" filter="url(#a)" fill="none" fill-rule="evenodd" opacity=".7"><path d="M285.387 5.5l-.887 2.435v9.738h3.25V19.5h1.773l1.772-1.827h2.659l3.546-3.65V5.5h-12.113zm1.18 1.217h9.751v6.695l-2.068 2.131H291l-1.772 1.825v-1.825h-2.66V6.717zm3.251 6.088H291V9.153h-1.182v3.652zm3.25 0h1.182V9.153h-1.182v3.652z" fill="#FFF"/></g></svg>
+</a>
+															</div>
+						</div>
+					</div>
+					<div class='FooterSecondaryNav'>
+													<ul>
+																	<li><a href="/terms-of-service">Terms of Service</a></li>
+																	<li><a href="/privacy-policy">Privacy Policy</a></li>
+																	<li><a href="/promotional-terms-and-conditions">Promotional Terms</a></li>
+															</ul>
+											</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="FooterModule-noise bgNoise"></div>
+</section>
+			</div>
+	</div>
+
+			<div class="RotatingBanners-Wrapper">
+    <div class="RotatingBanners">
+                                <div class="RotatingBanner" data-banner-index="0">
+                                                                <a class="RotatingBanner-Preview" href="#" data-video-index="0" data-type="trailer">
+                                <picture>
+                    <source data-srcset="https://cdn.staratlas.com/contentful-assets/V9Y3D1CSbbSANRXNdDOGh/en-US/CINEMATIC_-_THUMBNAIL_V8.png?q=85" type="image/webp">
+                    <source data-srcset="https://cdn.staratlas.com/contentful-assets/V9Y3D1CSbbSANRXNdDOGh/en-US/CINEMATIC_-_THUMBNAIL_V8.png" type="image/jpg">
+                    <img data-src="https://cdn.staratlas.com/contentful-assets/V9Y3D1CSbbSANRXNdDOGh/en-US/CINEMATIC_-_THUMBNAIL_V8.png" src="" class="lazyload">
+                </picture>
+                                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 37">
+                        <g stroke="#FFF" fill="none" fill-rule="evenodd">
+                            <path opacity=".5" d="M18.385.707l17.677 17.678-17.677 17.678L.707 18.385z" />
+                            <path d="M17.385 14.385l5 4-5 4z" />
+                        </g>
+                    </svg>
+                    <span>Trailer</span>
+                </div>
+            </a>
+                    </div>
+                </div>
+
+                    <div class="videoWrapper" data-video-title="New Update!" style="position: absolute; z-index: 30; top: 0; left: 0; bottom: 0; right: 0;">
+            <div class="VideoLayer">
+                <div class="closeLayerButton">
+                    <?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 8.5 8.5" style="enable-background:new 0 0 8.5 8.5;" xml:space="preserve">
+<style type="text/css">
+	.stCross{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="MOBILE">
+	<g id="M-102.05-IMAGE-POPIN" transform="translate(-319.000000, -135.000000)">
+		<g id="CLOSE" transform="translate(295.000000, 111.000000)">
+				<g id="Group" transform="translate(32.000000, 32.000000) rotate(-45.000000) translate(-32.000000, -32.000000) translate(27.000000, 27.000000)">
+					<rect id="Rectangle" x="4" y="-5.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="2" height="10"/>
+					<rect id="Rectangle-Copy" x="0" y="-1.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="10" height="2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+
+                </div>
+                <div class="playButton">
+                    <div class="pauseIcon"></div>
+                    <div class="playIcon"></div>
+                </div>
+                <video class="" playsinline preload="none" muted>
+                                                        </video>
+            </div>
+        </div>
+
+        <div class="floating-videos">
+                                                        <video class="" playsinline preload="none" data-video-title="New Update!" data-video-index="0">
+                                                                                                </video>
+                                                    </div>
+            </div>	
+	<div class="CookieBar">
+	<div class="wrapper">
+		<div class="cta">
+			<p>
+				We use cookies to enhance your experience and analyze our site usage.
+				Please see our <a href='/privacy-policy' target='_blank'>Privacy Policy</a>
+				for more information.
+			</p>
+		</div>
+		<div>
+			<a href="#" class="ButtonCta arrowed allowCookies">
+				<span class="title">Accept Cookies</span>
+				<span class="arrow"></span>
+			</a>
+		</div>
+	</div>
+
+	<button class="CookieBar-close"><?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 8.5 8.5" style="enable-background:new 0 0 8.5 8.5;" xml:space="preserve">
+<style type="text/css">
+	.stCross{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+<g id="MOBILE">
+	<g id="M-102.05-IMAGE-POPIN" transform="translate(-319.000000, -135.000000)">
+		<g id="CLOSE" transform="translate(295.000000, 111.000000)">
+				<g id="Group" transform="translate(32.000000, 32.000000) rotate(-45.000000) translate(-32.000000, -32.000000) translate(27.000000, 27.000000)">
+					<rect id="Rectangle" x="4" y="-5.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="2" height="10"/>
+					<rect id="Rectangle-Copy" x="0" y="-1.3" transform="matrix(-1 2.535182e-06 -2.535182e-06 -1 10 -0.6274)" class="stCross" width="10" height="2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+</button>
+</div>
+
+</div>
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf1g-kkAAAAAHFJ4bC4IZvgGxgENNETylIZuhwt"></script>
+<script type="module" src="/build/js/main-0429cd9719.js" crossorigin></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-45GKDW0P4G"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-45GKDW0P4G', { client_storage: 'none', 'anonymize_ip': true });
+</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '981266265778161');
+	fbq('track', 'PageView');
+	window.fb = fbq;
+</script>
+<noscript>
+	<img height="1" width="1"
+		 src="https://www.facebook.com/tr?id=981266265778161&ev=PageView
+&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/20489070.js"></script>
+<!-- End of HubSpot Embed Code -->
+</body>
+</html>

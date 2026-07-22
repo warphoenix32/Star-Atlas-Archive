@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Modes | Star Atlas</title>
+  <meta name="description" content="Experience AAA shooter arena battles, high-speed racing, PvE dogfights, and more in Star Atlas. The space exploration MMO with something for every pilot." />
+  <meta name="keywords" content="Star Atlas, AAA MMO, space exploration, space game, MMO, blockchain game, play to earn, Solana, Galia, fleet command, sci-fi MMO" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="ATMTA, Inc." />
+  <link rel="canonical" href="https://staratlas.com/game/game-modes/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Star Atlas" />
+  <meta property="og:title" content="Game Modes | Star Atlas" />
+  <meta property="og:description" content="Experience AAA shooter arena battles, high-speed racing, PvE dogfights, and more in Star Atlas. The space exploration MMO with something for every pilot." />
+  <meta property="og:url" content="https://staratlas.com/game/game-modes/" />
+  <meta property="og:image" content="https://staratlas.com/Icon.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@staratlas" />
+  <meta name="twitter:title" content="Game Modes | Star Atlas" />
+  <meta name="twitter:description" content="Experience AAA shooter arena battles, high-speed racing, PvE dogfights, and more in Star Atlas. The space exploration MMO with something for every pilot." />
+  <meta name="twitter:image" content="https://staratlas.com/Icon.png" />
+
+  <link rel="icon" type="image/png" href="../../Icon.png">
+  <link rel="apple-touch-icon" href="../../Icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Game Modes | Star Atlas","url":"https://staratlas.com/game/game-modes/","description":"Experience AAA shooter arena battles, high-speed racing, PvE dogfights, and more in Star Atlas. The space exploration MMO with something for every pilot.","isPartOf":{"@type":"WebSite","name":"Star Atlas","url":"https://staratlas.com"}}</script>
+</head>
+<body>
+  <div class="loading-bar" id="loadingBar"></div>
+  <div class="grid-container">
+    <div class="grid-layer dots"></div>
+    <div class="grid-layer grid"></div>
+    <div class="grid-layer accent"></div>
+  </div>
+  <div class="mouse-spotlight"></div>
+  <div class="glow-container">
+    <div class="glow"></div>
+    <div class="glow"></div>
+    <div class="glow"></div>
+  </div>
+
+  <nav>
+    <div class="nav-main">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="../../index.html" aria-label="Star Atlas Home">
+            <img src="../../Logo.svg" alt="Star Atlas">
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="mobile-nav-panel" id="primary-navigation">
+          <ul class="nav-links">
+            <li><a href="../../game/">Game</a></li>
+            <li><a href="../../index.html#economy">Economy</a></li>
+            <li><a href="../../index.html#community">Community</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="https://play.staratlas.com/market/" target="_blank" class="download-btn" rel="noopener noreferrer"><span>Galactic Marketplace</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="feature-page">
+    <section class="game-section">
+      <div class="section-header" style="opacity:1;">
+        <div style="display:flex; align-items:stretch;">
+          <span class="section-number">0001.</span>
+          <h1 class="section-title">Game Modes</h1>
+        </div>
+      </div>
+      
+      <p class="page-intro section-subtitle">Star Atlas delivers diverse gameplay experiences designed for different playstyles. From intense PvP combat arenas to cooperative PvE missions, the game offers something for combat enthusiasts, strategists, and explorers alike.</p>
+      
+      
+    <div class="video-container">
+      <video controls playsinline preload="metadata" poster="../../src/GAME section/3rd Person Experience/Thumbnails in carousel/Slide_2_ImageThumbnail.png">
+        <source src="../../src/Reduced/Slide 2 Gamemodes.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+      
+      <div class="page-content">
+        
+        
+        
+    <div class="stats-grid">
+      
+        <div class="stat-item">
+          <div class="stat-value">5+</div>
+          <div class="stat-label">Game Modes</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">PvP</div>
+          <div class="stat-label">&amp; PvE</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">Solo</div>
+          <div class="stat-label">&amp; Co-op</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">Ranked</div>
+          <div class="stat-label">&amp; Casual</div>
+        </div>
+      
+    </div>
+  
+        
+        <div class="section-divider"></div>
+        
+        
+    <div class="feature-grid">
+      
+        <div class="feature-card">
+          <h3>Arena Combat</h3>
+          <p>Test your piloting skills in dedicated combat arenas. The X5 Arena features dedicated servers for smooth, competitive ship-to-ship battles.</p>
+          
+            <ul>
+              <li>Dedicated server infrastructure</li><li>Ranked matchmaking</li><li>Multiple arena layouts</li><li>Ship class balancing</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Racing Circuits</h3>
+          <p>Push your ships to their limits on high-speed racing tracks through asteroid fields and space stations.</p>
+          
+            <ul>
+              <li>Time trials</li><li>Head-to-head racing</li><li>Ship customization for speed</li><li>Leaderboard competitions</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>PvE Encounters</h3>
+          <p>Face AI-controlled enemies in dogfights and missions. Complete bounties, defend convoys, and take on escalating challenges.</p>
+          
+            <ul>
+              <li>Bounty hunting missions</li><li>Convoy defense</li><li>Boss encounters</li><li>Cooperative multiplayer</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Open World</h3>
+          <p>Roam freely through the Galia Expanse. The open-world mode combines exploration, combat, mining, and trading.</p>
+          
+            <ul>
+              <li>Seamless world</li><li>Dynamic events</li><li>Player-driven encounters</li><li>Persistent universe</li>
+            </ul>
+          
+        </div>
+      
+    </div>
+  
+        
+        
+        
+        
+    <div class="cta-block">
+      <h3>Choose Your Battle</h3>
+      <p>Whether you prefer structured arena combat or the freedom of open-world exploration, Star Atlas has a mode for you.</p>
+      <a href="https://play.staratlas.com" target="_blank" rel="noopener noreferrer" class="download-btn"><span>Play Now</span></a>
+    </div>
+  
+      </div>
+      
+      
+    <div class="related-section">
+      <p class="section-subtitle" style="margin-top: 2rem;">Explore More Features</p>
+      <div class="related-links">
+        <a class="secondary-btn" href="../../game/galia/">Galia Expanse</a><a class="secondary-btn" href="../../game/your-fleet-your-way/">Your Fleet, Your Way</a><a class="secondary-btn" href="../../game/life-in-galia/">Life in Galia</a><a class="secondary-btn" href="../../game/fleet-command/">Fleet Command</a><a class="secondary-btn" href="../../game/holosim/">Holosim</a><a class="secondary-btn" href="../../game/sage-labs/">SAGE Labs</a>
+      </div>
+    </div>
+  
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-bottom">
+        <p class="footer-text">© 2625 Star Atlas. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../src/main.js" defer></script>
+</body>
+</html>

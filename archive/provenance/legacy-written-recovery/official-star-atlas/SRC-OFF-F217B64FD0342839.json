@@ -1,0 +1,68 @@
+{
+  "byte_count": 34386,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:53.230792Z",
+  "captured_at": "2026-07-22T23:05:53.230792Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+  "headers": {
+    "content-length": "34386",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:53 GMT",
+    "etag": "\"69e10f4e-8652\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Mainnet Program IDs | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-F217B64FD0342839.json",
+  "raw_body": {
+    "byte_length": 34386,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-F217B64FD0342839/response-body.bin",
+    "sha256": "d144169a6c7f490cac3ab2b85da625f474b056542304ab4cfa3f7fa26323c99b"
+  },
+  "raw_sha256": "d144169a6c7f490cac3ab2b85da625f474b056542304ab4cfa3f7fa26323c99b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/mainnet-program-ids",
+    "headers": {
+      "content-length": "34386",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:53 GMT",
+      "etag": "\"69e10f4e-8652\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-F217B64FD0342839",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:53.230792Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

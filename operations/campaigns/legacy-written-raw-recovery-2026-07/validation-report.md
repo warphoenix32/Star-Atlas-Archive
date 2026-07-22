@@ -23,6 +23,11 @@ Status: **PASS**
 | HNN_VERIFIED_BASELINE_DISJOINT | PASS | preserved_baseline=1 |
 | HNN_FAMILY_SELECTION_COVERAGE | PASS | selection=156 baseline=1 family=157 |
 | HNN_SOURCE_SURFACE_ALLOWLIST | PASS | allowed_hosts=['medium.com', 'web.archive.org']; basis=PRIOR_REQUESTED_URL |
+| OFFICIAL_SELECTION_DETERMINISTIC | PASS | batch=official-written-family-completion-316 |
+| OFFICIAL_COMPLETION_RECORD_COUNT | PASS | observed=316 expected=316 |
+| OFFICIAL_VERIFIED_BASELINE_DISJOINT | PASS | preserved_baseline=4 |
+| OFFICIAL_FAMILY_SELECTION_COVERAGE | PASS | selection=316 baseline=4 family=320 |
+| OFFICIAL_SOURCE_SURFACE_ALLOWLIST | PASS | allowed_hosts=['api.github.com', 'build.staratlas.com', 'experience.staratlas.com', 'staratlas.com', 'support.staratlas.com'] |
 | PILOT_LEDGERS_IMMUTABLE | PASS | All four approved pilot ledger hashes match the merged baseline. |
 | PILOT_RAW_AND_PROVENANCE_IMMUTABLE | PASS | artifacts=30 aggregate_sha256=7370f2f123f157178cdba0acf115f00d7ffd6ad289106d7939c9bc9cd480c63e |
 | TERMINAL_DISPOSITIONS | PASS | terminal_records=20 |
@@ -45,12 +50,20 @@ Status: **PASS**
 | HNN_REQUIRED_PROVENANCE_FIELDS | PASS | Every recovered HNN response has the complete provenance field set. |
 | HNN_MANUAL_REVIEW_QUEUE | PASS | HNN manual-review queue equals its flagged terminal records. |
 | HNN_RETRY_SCOPE | PASS | attempt_records=159 |
+| OFFICIAL_TERMINAL_IDS | PASS | terminal_records=316 expected=316 |
+| OFFICIAL_RAW_BODY_CHECKSUMS | PASS | Every official-source body matches its ledger SHA-256. |
+| OFFICIAL_PROVENANCE_RECONCILES | PASS | Every official-source provenance record reconciles to its batch, Source ID, and body. |
+| OFFICIAL_REQUIRED_PROVENANCE_FIELDS | PASS | Every official-source response has the complete provenance field set. |
+| OFFICIAL_GITHUB_IMMUTABILITY | PASS | Every GitHub README carrier resolves to a 40-character immutable commit target. |
+| OFFICIAL_MANUAL_REVIEW_QUEUE | PASS | Official-source manual-review queue equals its flagged terminal records. |
+| OFFICIAL_RETRY_SCOPE | PASS | attempt_records=316 |
 | CROSS_BATCH_SOURCE_IDS_UNIQUE | PASS | pilot=20 expansion=59 |
 | HNN_PILOT_REPAIR_SCOPE | PASS | overlap=4 expected_repairs=4 |
+| OFFICIAL_PILOT_REPAIR_SCOPE | PASS | overlap=1 expected_repairs=1 |
 | PROTECTED_EVIDENCE_UNCHANGED | PASS | Frozen extraction and Source Record checksums are unchanged. |
 | OUTPUT_SCOPE | PASS | Every declared raw and provenance output remains under its approved repository layer. |
-| NO_ORPHAN_RAW_OR_PROVENANCE | PASS | declared=460 actual=460 |
-| ARCHIVE_MANIFEST_RECONCILES | PASS | artifact_count=460 |
+| NO_ORPHAN_RAW_OR_PROVENANCE | PASS | declared=1092 actual=1092 |
+| ARCHIVE_MANIFEST_RECONCILES | PASS | artifact_count=1092 |
 | CONTROLLED_TERMINAL_DISPOSITIONS | PASS | Every terminal record uses the frozen Phase 2 disposition vocabulary. |
-| CAMPAIGN_SUMMARY_RECONCILES | PASS | terminal_records=231 |
+| CAMPAIGN_SUMMARY_RECONCILES | PASS | terminal_records=546 |
 | PROTECTED_LAYERS_ABSENT_FROM_OUTPUTS | PASS | No declared output enters a protected evidence, knowledge, graph, or publication layer. |

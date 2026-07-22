@@ -1,0 +1,64 @@
+{
+  "byte_count": 64566,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:21.567430Z",
+  "captured_at": "2026-07-22T23:03:21.567430Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse",
+  "headers": {
+    "content-length": "64566",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:03:21 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Star Atlas and iBUYPOWER Partner to Onboard Gamers to the Metaverse | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-17C770884734231A.json",
+  "raw_body": {
+    "byte_length": 64566,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-17C770884734231A/response-body.bin",
+    "sha256": "aada588c3557468908f9242ee0b9094eca8a783045cc12110d54d24116a1ccdd"
+  },
+  "raw_sha256": "aada588c3557468908f9242ee0b9094eca8a783045cc12110d54d24116a1ccdd",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-ibuypower-partner-to-onboard-gamers-to-the-metaverse",
+    "headers": {
+      "content-length": "64566",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:03:21 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-17C770884734231A",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:21.567430Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

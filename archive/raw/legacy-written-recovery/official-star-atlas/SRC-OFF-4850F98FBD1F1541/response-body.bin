@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Holosim | Star Atlas</title>
+  <meta name="description" content="Play Holosim, a free-to-play strategic fleet simulation in Star Atlas. No downloads, no crypto wallet required. Experience fleet command instantly." />
+  <meta name="keywords" content="Star Atlas, AAA MMO, space exploration, space game, MMO, blockchain game, play to earn, Solana, Galia, fleet command, sci-fi MMO" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="ATMTA, Inc." />
+  <link rel="canonical" href="https://staratlas.com/game/holosim/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Star Atlas" />
+  <meta property="og:title" content="Holosim | Star Atlas" />
+  <meta property="og:description" content="Play Holosim, a free-to-play strategic fleet simulation in Star Atlas. No downloads, no crypto wallet required. Experience fleet command instantly." />
+  <meta property="og:url" content="https://staratlas.com/game/holosim/" />
+  <meta property="og:image" content="https://staratlas.com/Icon.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@staratlas" />
+  <meta name="twitter:title" content="Holosim | Star Atlas" />
+  <meta name="twitter:description" content="Play Holosim, a free-to-play strategic fleet simulation in Star Atlas. No downloads, no crypto wallet required. Experience fleet command instantly." />
+  <meta name="twitter:image" content="https://staratlas.com/Icon.png" />
+
+  <link rel="icon" type="image/png" href="../../Icon.png">
+  <link rel="apple-touch-icon" href="../../Icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Holosim | Star Atlas","url":"https://staratlas.com/game/holosim/","description":"Play Holosim, a free-to-play strategic fleet simulation in Star Atlas. No downloads, no crypto wallet required. Experience fleet command instantly.","isPartOf":{"@type":"WebSite","name":"Star Atlas","url":"https://staratlas.com"}}</script>
+</head>
+<body>
+  <div class="loading-bar" id="loadingBar"></div>
+  <div class="grid-container">
+    <div class="grid-layer dots"></div>
+    <div class="grid-layer grid"></div>
+    <div class="grid-layer accent"></div>
+  </div>
+  <div class="mouse-spotlight"></div>
+  <div class="glow-container">
+    <div class="glow"></div>
+    <div class="glow"></div>
+    <div class="glow"></div>
+  </div>
+
+  <nav>
+    <div class="nav-main">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="../../index.html" aria-label="Star Atlas Home">
+            <img src="../../Logo.svg" alt="Star Atlas">
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="mobile-nav-panel" id="primary-navigation">
+          <ul class="nav-links">
+            <li><a href="../../game/">Game</a></li>
+            <li><a href="../../index.html#economy">Economy</a></li>
+            <li><a href="../../index.html#community">Community</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="https://play.staratlas.com/market/" target="_blank" class="download-btn" rel="noopener noreferrer"><span>Galactic Marketplace</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="feature-page">
+    <section class="game-section">
+      <div class="section-header" style="opacity:1;">
+        <div style="display:flex; align-items:stretch;">
+          <span class="section-number">0001.</span>
+          <h1 class="section-title">Holosim</h1>
+        </div>
+      </div>
+      
+      <p class="page-intro section-subtitle">Holosim brings Fleet Command to your browser, free to play and instantly accessible. An in-universe simulation that lets you experience strategic gameplay without special hardware or a crypto wallet. The perfect entry point into Star Atlas.</p>
+      
+      
+    <div class="video-container">
+      <video controls playsinline preload="metadata" poster="../../src/GAME section/Top-down RTS View/Thumbnail Images/Slide_1_Holosim_Thumbnail.png">
+        <source src="../../src/Reduced/Slide 2 Holosim.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+      
+      <div class="page-content">
+        
+        
+        
+    <div class="stats-grid">
+      
+        <div class="stat-item">
+          <div class="stat-value">Free</div>
+          <div class="stat-label">To Play</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">0</div>
+          <div class="stat-label">Downloads</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">5min</div>
+          <div class="stat-label">To Start</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">100%</div>
+          <div class="stat-label">Browser</div>
+        </div>
+      
+    </div>
+  
+        
+        <div class="section-divider"></div>
+        
+        
+    <div class="feature-grid">
+      
+        <div class="feature-card">
+          <h3>Instant Access</h3>
+          <p>No downloads, no installations, no wallet setup. Open your browser and start commanding fleets within minutes.</p>
+          
+            <ul>
+              <li>Browser-based gameplay</li><li>No downloads required</li><li>No crypto wallet needed</li><li>Works on any device</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Free to Play</h3>
+          <p>Experience Star Atlas fleet mechanics without any upfront investment. Holosim is designed to welcome new players to the universe.</p>
+          
+            <ul>
+              <li>Zero cost entry</li><li>Full gameplay experience</li><li>Learn before you invest</li><li>No pay-to-win mechanics</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Real Mechanics</h3>
+          <p>Holosim offers genuine Star Atlas fleet command simulation with meaningful strategic depth. This is real gameplay, accessible to everyone.</p>
+          
+            <ul>
+              <li>Authentic fleet management</li><li>Strategic decision-making</li><li>Resource management</li><li>Tactical combat</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Path to Full Game</h3>
+          <p>Skills learned in Holosim transfer directly to the full Star Atlas experience. Graduate from simulation to reality when you&#039;re ready.</p>
+          
+            <ul>
+              <li>Skills transfer</li><li>Seamless progression</li><li>Community integration</li><li>Economy connection</li>
+            </ul>
+          
+        </div>
+      
+    </div>
+  
+        
+        
+    <div class="guide-block">
+      <h3>Getting Started with Holosim</h3>
+      <ol>
+        <li>Visit the Star Atlas Holosim portal</li><li>Create a free account (no wallet required)</li><li>Complete the tutorial to learn basic fleet commands</li><li>Participate in simulation battles</li><li>Connect your wallet when ready to enter the real economy</li>
+      </ol>
+    </div>
+  
+        
+        
+    <div class="cta-block">
+      <h3>Try It Now</h3>
+      <p>No barriers, no risk. Experience Star Atlas fleet command in your browser right now.</p>
+      <a href="https://play.staratlas.com" target="_blank" rel="noopener noreferrer" class="download-btn"><span>Play Now</span></a>
+    </div>
+  
+      </div>
+      
+      
+    <div class="related-section">
+      <p class="section-subtitle" style="margin-top: 2rem;">Explore More Features</p>
+      <div class="related-links">
+        <a class="secondary-btn" href="../../game/galia/">Galia Expanse</a><a class="secondary-btn" href="../../game/game-modes/">Game Modes</a><a class="secondary-btn" href="../../game/your-fleet-your-way/">Your Fleet, Your Way</a><a class="secondary-btn" href="../../game/life-in-galia/">Life in Galia</a><a class="secondary-btn" href="../../game/fleet-command/">Fleet Command</a><a class="secondary-btn" href="../../game/sage-labs/">SAGE Labs</a>
+      </div>
+    </div>
+  
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-bottom">
+        <p class="footer-text">© 2625 Star Atlas. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../src/main.js" defer></script>
+</body>
+</html>

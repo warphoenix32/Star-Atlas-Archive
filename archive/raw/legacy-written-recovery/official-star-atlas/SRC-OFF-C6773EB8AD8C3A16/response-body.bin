@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- v27672 -->
+
+
+  <title>How to start playing SAGE? &ndash; Star Atlas</title>
+
+  
+
+  <meta name="description" content="Get ready to explore, mine, and craft your way through the Star Atlas universe all on-chain.SAGE Labs is a browser-based strategy game..." /><meta property="og:image" content="https://support.staratlas.com/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Star Atlas" />
+<meta property="og:title" content="How to start playing SAGE?" />
+<meta property="og:description" content="Get ready to explore, mine, and craft your way through the Star Atlas universe all on-chain.SAGE Labs is a browser-based strategy game powered by the Solana blockchain. To get started, here’s every..." />
+<meta property="og:url" content="https://support.staratlas.com/hc/en-us/articles/47053533098387-How-to-start-playing-SAGE" />
+<link rel="canonical" href="https://support.staratlas.com/hc/en-us/articles/47053533098387-How-to-start-playing-SAGE">
+<link rel="alternate" hreflang="en-us" href="https://support.staratlas.com/hc/en-us/articles/47053533098387-How-to-start-playing-SAGE">
+<link rel="alternate" hreflang="x-default" href="https://support.staratlas.com/hc/en-us/articles/47053533098387-How-to-start-playing-SAGE">
+
+  <link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-a0388d981956f946c99f5a52a4eaf6f2.css" media="all" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/hc/theming_assets/25945259/46839284643731/style.css?digest=53556769366547">
+
+  <link rel="icon" type="image/x-icon" href="/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK">
+
+    
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!-- Make the translated search clear button label available for use in JS -->
+<!-- See buildClearSearchButton() in script.js -->
+<script type="text/javascript">window.searchClearButtonLabelLocalized = "Clear search";</script>
+<script type="text/javascript">
+  // Load ES module polyfill only for browsers that don't support ES modules
+  if (!(HTMLScriptElement.supports && HTMLScriptElement.supports('importmap'))) {
+    document.write('<script async src="/hc/theming_assets/01KAY06KRK2EHRFAQEGJA8SA7F"><\/script>');
+  }
+</script>
+<script type="importmap">
+{
+  "imports": {
+    "new-request-form": "/hc/theming_assets/01KXGNVKKP3X1MT9CVQY4XJPDZ",
+    "request-list": "/hc/theming_assets/01KXGNVKJ17B5A2VK5GKY3KTPW",
+    "flash-notifications": "/hc/theming_assets/01KXGNVKDXQ7E6RW5E0ZX1YMVC",
+    "service-catalog": "/hc/theming_assets/01KXQYK7RJ0D5KM24TTKX2W5VE",
+    "approval-requests": "/hc/theming_assets/01KXGNVKHV47HFYPN54FFYSG11",
+    "approval-requests-translations": "/hc/theming_assets/01KXGNVKN11YG0JKGHSB8G7XV3",
+    "new-request-form-translations": "/hc/theming_assets/01KXGNVKKVV2H99MQV1HE1R5K1",
+    "request-list-translations": "/hc/theming_assets/01KXGNVKSCBMRYT3R4GGHQ7BX9",
+    "service-catalog-translations": "/hc/theming_assets/01KXGNVMJZZP1NNHB36N2CZTGF",
+    "shared": "/hc/theming_assets/01KXGNVKKVXQ4JS5G1F3HNGY3A",
+    "ticket-fields": "/hc/theming_assets/01KXGNVKM4NP6S5BKBN30QZ63H",
+    "wysiwyg": "/hc/theming_assets/01KP8ZMKQK39Z6D9DF091V2YG4"
+  }
+}
+</script>
+<script type="module">
+  import { renderFlashNotifications } from "flash-notifications";
+
+  const settings = {"brand_color":"rgba(30, 94, 134, 100)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","show_brand_name":true,"favicon":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","homepage_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","service_catalog_hero_image":"/hc/theming_assets/01KGMAMFC4RRMVYH6CJH4A3J31","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":false,"show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"show_suggested_articles":true};
+  const baseLocale = "en-us";
+
+  renderFlashNotifications(settings, baseLocale);
+</script>
+
+  
+</head>
+<body class="">
+  
+  
+  
+
+  <a class="skip-navigation" tabindex="1" href="#main-content">Skip to main content</a>
+
+<header class="header">
+  <div class="logo">
+    <a title="Home" href="/hc/en-us">
+      <img src="/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK" alt="Star Atlas Help Center home page" />
+      
+        <span aria-hidden="true">Star Atlas</span>
+      
+    </a>
+  </div>
+
+  <div class="nav-wrapper-desktop">
+    <nav class="user-nav" id="user-nav" aria-label="User navigation">
+      <ul class="user-nav-list">
+        <li></li>
+        <li></li>
+        <li><a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a></li>
+        
+          <li>
+            <a class="sign-in" role="link" rel="nofollow" data-auth-action="signin" title="Opens a dialog" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F47053533098387-How-to-start-playing-SAGE">
+              Sign in
+            </a>
+          </li>
+        
+      </ul>
+    </nav>
+          
+    
+  </div>
+
+  <div class="nav-wrapper-mobile">
+    <button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
+      </svg>
+    </button>
+    <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+      <ul class="menu-list-mobile-items">
+        
+          <li class="item">
+            <a role="link" rel="nofollow" data-auth-action="signin" title="Opens a dialog" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F47053533098387-How-to-start-playing-SAGE">
+              Sign in
+            </a>
+          </li>
+          <li class="nav-divider"></li>
+        
+       
+        <li class="item"></li>
+        <li class="item"><a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a></li>
+        <li class="item"></li>
+        <li class="nav-divider"></li>
+        
+       
+      </ul>
+          
+    </nav>
+  </div>
+
+</header>
+
+
+  <main role="main">
+    <div class="container-divider"></div>
+<div class="container">
+  <div class="sub-nav">
+    <nav aria-label="Breadcrumb">
+  <ol class="breadcrumbs">
+    
+      <li>
+        
+          <a href="/hc/en-us">Star Atlas</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/categories/47053502053651-SAGE">SAGE</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/sections/47053524324115-Getting-Started">Getting Started</a>
+        
+      </li>
+    
+  </ol>
+</nav>
+
+    <div class="search-container">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
+        <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+        <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+      </svg>
+      <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" /><input type="hidden" name="category" id="category" value="47053502053651" autocomplete="off" />
+<input type="search" name="query" id="query" placeholder="Search" aria-label="Search" /></form>
+    </div>
+  </div>
+
+  <div class="article-container" id="article-container">
+    <aside class="article-sidebar" aria-labelledby="section-articles-title">
+      
+        <div class="collapsible-sidebar">
+          <button type="button" class="collapsible-sidebar-toggle" aria-labelledby="section-articles-title" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon chevron-icon">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon x-icon">
+              <path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
+            </svg>
+          </button>
+          <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+            Articles in this section
+          </span>
+          <div class="collapsible-sidebar-body">
+            <ul>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053512390803-What-is-Sage-Labs-Starbased" 
+                     class="sidenav-item "
+                     >
+                       What is Sage Labs Starbased?
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053533098387-How-to-start-playing-SAGE" 
+                     class="sidenav-item current-article"
+                     aria-current="page">
+                       How to start playing SAGE?
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage" 
+                     class="sidenav-item "
+                     >
+                       How to Create a Character in Sage?
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053533449619-How-to-Import-Resources-into-Sage" 
+                     class="sidenav-item "
+                     >
+                       How to Import Resources into Sage
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053519746451-How-to-Import-a-Ship-into-Sage" 
+                     class="sidenav-item "
+                     >
+                       How to Import a Ship into Sage?
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053488731667-Managing-Your-Fleet-in-Sage-Refueling-Rearming-and-Resupplying" 
+                     class="sidenav-item "
+                     >
+                       Managing Your Fleet in Sage: Refueling, Rearming and Resupplying
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053488658067-Creating-a-Fleet-in-Sage-Step-by-Step-Guide" 
+                     class="sidenav-item "
+                     >
+                       Creating a Fleet in Sage: Step-by-Step Guide
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053539377299-How-Council-Rank-XP-Works-in-Starbased" 
+                     class="sidenav-item "
+                     >
+                       How Council Rank XP Works in Starbased
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053488462995-What-is-ATLAS-Prime" 
+                     class="sidenav-item "
+                     >
+                       What is ATLAS Prime?
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/47053488824211-How-to-Withdraw-Resources-from-Sage" 
+                     class="sidenav-item "
+                     >
+                       How to Withdraw Resources from Sage?
+                  </a>
+                </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      
+    </aside>
+
+    <article id="main-content" class="article">
+      <header class="article-header">
+        <h1 title="How to start playing SAGE?" class="article-title">
+          How to start playing SAGE?
+          
+        </h1>
+
+        <div class="article-author">
+          
+          <div class="article-meta">
+            
+
+            <div class="meta-group">
+              
+                <span class="meta-data"><time datetime="2025-12-08T18:24:27Z" title="2025-12-08T18:24:27Z" data-datetime="relative">December 08, 2025 18:24</time></span>
+                <span class="meta-data">Updated</span>
+              
+            </div>
+          </div>
+        </div>
+
+        
+          <div class="article-subscribe"><div data-helper="subscribe" data-json="{&quot;item&quot;:&quot;article&quot;,&quot;url&quot;:&quot;/hc/en-us/articles/47053533098387-How-to-start-playing-SAGE/subscription.json&quot;,&quot;follow_label&quot;:&quot;Follow&quot;,&quot;unfollow_label&quot;:&quot;Unfollow&quot;,&quot;following_label&quot;:&quot;Following&quot;,&quot;can_subscribe&quot;:true,&quot;is_subscribed&quot;:false}"></div></div>
+        
+      </header>
+
+      <section class="article-info">
+        <div class="article-content">
+          <div class="article-body"><p><strong>Get ready to explore, mine, and craft your way through the Star Atlas universe all on-chain.</strong></p><p>SAGE Labs is a browser-based strategy game powered by the Solana blockchain. To get started, here’s everything you need to do:</p><h3 id="h_01KBJ8DGHAA2QZFE7XV8Q9Y3GX">1. Create and Fund a Solana Wallet</h3><ul>
+<li>You’ll need a wallet that supports Solana, like <a href="https://phantom.com/" rel="noopener">Phantom</a> or <a href="https://www.solflare.com/" rel="noopener">Solflare</a>. &nbsp;</li>
+<li><p>Fund it with some SOL to pay for transaction fees</p></li>
+</ul><h3 id="h_01KBJ8DGHAKS6RAP7R1BSB63SG">2. Get Some ATLAS</h3><p>ATLAS is the in-game currency used to buy ships, crew, and resources. You can:</p><ul>
+<li><p>Buy ATLAS with your credit card using <strong>Topper</strong> on <a href="https://play.staratlas.com" target="_new" rel="noopener">play.staratlas.com</a></p></li>
+<li><p>Or swap SOL or USDC for ATLAS on a DEX like <a href="https://jup.ag" target="_new" rel="noopener">Jupiter</a></p></li>
+</ul><h3 id="h_01KBJ8DGHAR7WCC7JTE7YAHRWD">3. Buy a Ship, Crew &amp; Resources</h3><p>To start playing, you’ll need:</p><ul>
+<li><p><strong>A ship</strong></p></li>
+<li><p><strong>At least one Crew Member</strong></p></li>
+<li><p><strong>Some R4 resources</strong> (Fuel, Food, Ammo, Toolkits)</p></li>
+</ul><p>You can buy everything from the <a href="https://play.staratlas.com/market" target="_new" rel="noopener">Star Atlas Marketplace</a></p><h3 id="h_01KBJ8DGHAKXS0WRGK710YZT28">4. Go to SAGE Labs Starbased</h3><p>Head over to <a href="https://based.staratlas.com/" rel="noopener">based.staratlas.com<img class="hs-image-align-none" style="height: auto;" src="https://20489070.fs1.hubspotusercontent-na1.net/hubfs/20489070/image-png-Jun-19-2025-04-38-39-9809-PM.png" width="1977" height="1267"></a><br><br></p><h3 id="h_01KBJ8DGHAJK0FFDJVG25N34XV">5. Connect Your Wallet &amp; Enable ATLAS Fee Payer</h3><p>Once inside Starbased:</p><ul>
+<li><p>Click <strong>Connect Wallet</strong> and approve the connection</p></li>
+<li><p>Enable the <strong>ATLAS Fee Payer</strong> (this lets the system cover transaction fees in ATLAS instead of SOL)<br><img class="wysiwyg-image-resized hs-image-align-none" style="aspect-ratio: 342/477; height: auto; width: 342px;" src="https://20489070.fs1.hubspotusercontent-na1.net/hubfs/20489070/image-png-Jun-19-2025-04-43-06-5337-PM.png" width="342" height="477"><br></p></li>
+</ul><h3 id="h_01KBJ8DGHAMKN151DHG1ZQR490">6. Create Your Character</h3><ul>
+<li>Begin the character creation process by clicking "Start Creating a Character".</li>
+<li>Choose your faction (ONI, Ustur, or MUD) and assign a unique name to your character.</li>
+</ul><p><img class="wysiwyg-image-resized hs-image-align-none" style="aspect-ratio: 342/484; height: auto; width: 342px;" src="https://20489070.fs1.hubspotusercontent-na1.net/hubfs/20489070/image-png-Jun-19-2025-04-46-17-3365-PM.png" width="342" height="484"></p></div>
+
+          
+
+          
+        </div>
+      </section>
+
+      <footer>
+        <div class="article-footer">
+          
+            <div class="article-share">
+  <ul class="share">
+    <li>
+      <a href="https://www.facebook.com/share.php?title=How+to+start+playing+SAGE%3F&u=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F47053533098387-How-to-start-playing-SAGE" class="share-facebook" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on Facebook">
+          <path fill="currentColor" d="M6 0a6 6 0 01.813 11.945V7.63h1.552l.244-1.585H6.812v-.867c0-.658.214-1.242.827-1.242h.985V2.55c-.173-.024-.538-.075-1.23-.075-1.444 0-2.29.767-2.29 2.513v1.055H3.618v1.585h1.484v4.304A6.001 6.001 0 016 0z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/share?lang=en&text=How+to+start+playing+SAGE%3F&url=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F47053533098387-How-to-start-playing-SAGE" class="share-twitter" aria-label="X Corp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on X Corp">
+          <path fill="currentColor" d="M.0763914 0 3.60864 0 6.75369 4.49755 10.5303 0 11.6586 0 7.18498 5.11431 12 12 8.46775 12 5.18346 7.30333 1.12825 12 0 12 4.7531 6.6879z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&source=ATMTA%2C+Inc.&title=How+to+start+playing+SAGE%3F&url=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F47053533098387-How-to-start-playing-SAGE" class="share-linkedin" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on LinkedIn">
+          <path fill="currentColor" d="M10.8 0A1.2 1.2 0 0112 1.2v9.6a1.2 1.2 0 01-1.2 1.2H1.2A1.2 1.2 0 010 10.8V1.2A1.2 1.2 0 011.2 0h9.6zM8.09 4.356a1.87 1.87 0 00-1.598.792l-.085.133h-.024v-.783H4.676v5.727h1.778V7.392c0-.747.142-1.47 1.068-1.47.913 0 .925.854.925 1.518v2.785h1.778V7.084l-.005-.325c-.05-1.38-.456-2.403-2.13-2.403zm-4.531.142h-1.78v5.727h1.78V4.498zm-.89-2.846a1.032 1.032 0 100 2.064 1.032 1.032 0 000-2.064z"/>
+        </svg>
+      </a>
+    </li>
+  </ul>
+
+</div>
+          
+          
+        </div>
+        
+          <div class="article-votes">
+            <h2 class="article-votes-question" id="article-votes-label">Was this article helpful?</h2>
+            <div class="article-votes-controls" role="group" aria-labelledby="article-votes-label">
+              <button type="button" class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="47053533098387" data-upvote-count="1" data-vote-count="1" data-vote-sum="1" data-vote-url="/hc/en-us/articles/47053533098387/vote" data-value="null" data-label="1 out of 1 found this helpful" data-selected-class="button-primary" data-as="button" aria-label="This article was helpful" aria-pressed="false">Yes</button>
+              <button type="button" class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="47053533098387" data-upvote-count="1" data-vote-count="1" data-vote-sum="1" data-vote-url="/hc/en-us/articles/47053533098387/vote" data-value="null" data-label="1 out of 1 found this helpful" data-selected-class="button-primary" data-as="button" aria-label="This article was not helpful" aria-pressed="false">No</button>
+            </div>
+            <small class="article-votes-count">
+              <span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="47053533098387" data-upvote-count="1" data-vote-count="1" data-vote-sum="1" data-vote-url="/hc/en-us/articles/47053533098387/vote" data-value="null" data-label="1 out of 1 found this helpful">1 out of 1 found this helpful</span>
+            </small>
+          </div>
+        
+
+        <div class="article-more-questions">
+          Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+        </div>
+        <div class="article-return-to-top">
+          <a href="#article-container">
+            Return to top
+            <svg xmlns="http://www.w3.org/2000/svg" class="article-return-to-top-icon" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+      <div class="article-relatives">
+        
+          <div data-recent-articles></div>
+        
+        
+          
+  <section class="related-articles">
+    
+      <h2 class="related-articles-title">Related articles</h2>
+    
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJM45H%2FLKjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMxIIHLKjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJCL2hjL2VuLXVzL2FydGljbGVzLzQ3MDUzNTEyMzkwODAzLVdoYXQtaXMtU2FnZS1MYWJzLVN0YXJiYXNlZAY7CFQ6CXJhbmtpBg%3D%3D--422a15bcd8858fbb6b97eb11d00369a7b8539794" rel="nofollow">What is Sage Labs Starbased?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBM2e37LKjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMxIIHLKjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJlL2hjL2VuLXVzL2FydGljbGVzLzQ3MDUzNDg4NzMxNjY3LU1hbmFnaW5nLVlvdXItRmxlZXQtaW4tU2FnZS1SZWZ1ZWxpbmctUmVhcm1pbmctYW5kLVJlc3VwcGx5aW5nBjsIVDoJcmFua2kH--7f81b319f610bd612219ed9ccceaf7d5bb6bf6f9" rel="nofollow">Managing Your Fleet in Sage: Refueling, Rearming and Resupplying</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJONJYHLKjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMxIIHLKjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJIL2hjL2VuLXVzL2FydGljbGVzLzQ3MDUzNTMzNDQ5NjE5LUhvdy10by1JbXBvcnQtUmVzb3VyY2VzLWludG8tU2FnZQY7CFQ6CXJhbmtpCA%3D%3D--dcad329b9abe2fd5226c7b7b93e5870c7efad52a" rel="nofollow">How to Import Resources into Sage</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJN1VIDLKjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMxIIHLKjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJFL2hjL2VuLXVzL2FydGljbGVzLzQ3MDUzNTE5NzQ2NDUxLUhvdy10by1JbXBvcnQtYS1TaGlwLWludG8tU2FnZQY7CFQ6CXJhbmtpCQ%3D%3D--55cb7f8b8f135e537782fecaba4847b896e145e6" rel="nofollow">How to Import a Ship into Sage?</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJMWen7LKjoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMxIIHLKjoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJSL2hjL2VuLXVzL2FydGljbGVzLzQ3MDUzNDg4NjU4MDY3LUNyZWF0aW5nLWEtRmxlZXQtaW4tU2FnZS1TdGVwLWJ5LVN0ZXAtR3VpZGUGOwhUOglyYW5raQo%3D--14d861d27ab2adfa52b7e1a130548b2f201e5cd3" rel="nofollow">Creating a Fleet in Sage: Step-by-Step Guide</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+        
+      </div>
+      
+    </article>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <a title="Home" href="/hc/en-us">Star Atlas</a>
+
+    <div class="footer-language-selector">
+      
+    </div>
+  </div>
+</footer>
+
+
+    <div class="powered-by-zendesk">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" focusable="false" viewBox="0 0 26 26">
+    <path d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3h12zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6H14zm0-5.2V3h12z" />
+  </svg>
+
+  <a target="_blank" rel="nofollow" href="https://www.zendesk.com/service/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=ATMTA%2C+Inc.">Powered by Zendesk</a>
+</div>
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.610c6add50f51647f886.js"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"atmta","environment":"production","name":"ATMTA, Inc."};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":"","role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":null,"shared_csrf_token":null},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCJMxIIHLKjoKX21ldGF7DDoPYWNjb3VudF9pZGkEq+SLAToTaGVscF9jZW50ZXJfaWRsKwgTG7GhmSo6DWJyYW5kX2lkbCsIkzfsnpkqOgx1c2VyX2lkMDoTdXNlcl9yb2xlX25hbWVJIg5BTk9OWU1PVVMGOwZUOwBJIgplbi11cwY7BlQ6GmFub255bW91c190cmFja2luZ19pZDA=--a46fc4f0a682df611d4fd6595843cdf199ac39cc","url":"https://support.staratlas.com/hc/activity"},"current_record_id":"47053533098387","current_record_url":"/hc/en-us/articles/47053533098387-How-to-start-playing-SAGE","current_record_title":"How to start playing SAGE?","current_text_direction":"ltr","current_brand_id":46839284643731,"current_brand_name":"ATMTA, Inc.","current_brand_url":"https://atmta.zendesk.com","current_brand_active":true,"current_path":"/hc/en-us/articles/47053533098387-How-to-start-playing-SAGE","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":true,"has_multi_language_help_center":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_help_center_auth_enabled":false,"embeddables_connect_ipms":false},"answer_bot_subdomain":"static","gather_plan_state":"not_started","has_article_verification":false,"has_gather":false,"has_ckeditor":true,"has_community_enabled":false,"has_community_badges":false,"has_community_post_content_tagging":false,"has_gather_content_tags":false,"has_guide_content_tags":false,"has_user_segments":false,"has_answer_bot_web_form_enabled":false,"has_garden_modals":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-2-preview","is_preview":false,"has_search_settings_in_plan":true,"theming_api_version":4,"theming_settings":{"brand_color":"rgba(30, 94, 134, 100)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","show_brand_name":true,"favicon":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","homepage_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","service_catalog_hero_image":"/hc/theming_assets/01KGMAMFC4RRMVYH6CJH4A3J31","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":false,"show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"show_suggested_articles":true},"has_pci_credit_card_custom_field":false,"help_center_restricted":false,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"user_preferred_locale":"en-us","base_locale":"en-us","login_url":"https://atmta.zendesk.com/access?locale=en-us\u0026brand_id=46839284643731\u0026return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F47053533098387-How-to-start-playing-SAGE","has_alternate_templates":false,"has_custom_statuses_enabled":true,"has_hc_generative_answers_setting_enabled":true,"has_suggested_initial_questions_enabled":false,"has_contentful_eap":false,"has_contentful_eap_eligible":false,"has_pdf_ingestion_eap":true,"has_pdf_ingestion_eap_eligible":true,"has_guide_saas_management":false,"has_guide_service_catalog":false,"has_service_catalog_search_poc":true,"has_service_catalog_multibranding":false,"has_csat_reverse_2_scale_in_mobile":false,"has_trial_presumptive_setup":true,"has_unified_navigation":true,"has_unified_navigation_eap_access":true,"has_knowledge_locale_display_names":false,"has_csat_bet365_branding":false,"has_csat_theming_integration_phase_1":false,"has_help_center_gen_search_follow_up_conversation":true,"chat_page_renderable":false,"version":"v27672","dev_mode":false};
+</script>
+
+  
+  
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-ecaf548e810f58e1237b832da9e68f06.js"></script>
+  <script type="text/javascript" src="/hc/theming_assets/25945259/46839284643731/script.js?digest=53556769366547"></script>
+  
+</body>
+</html>

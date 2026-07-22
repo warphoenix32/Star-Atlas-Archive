@@ -1,0 +1,68 @@
+{
+  "byte_count": 33538,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:05.572766Z",
+  "captured_at": "2026-07-22T23:04:05.572766Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/crafting",
+  "headers": {
+    "content-length": "33538",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:05 GMT",
+    "etag": "\"69e10f4e-8302\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/apis-and-data/crafting",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/apis-and-data/crafting",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Crafting | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/apis-and-data/crafting",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-5776419FBD76E9FD.json",
+  "raw_body": {
+    "byte_length": 33538,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-5776419FBD76E9FD/response-body.bin",
+    "sha256": "c00e7782c430f9c171069f1a94f2f7c00aec837c68714cdd94f1a7e5271d9cad"
+  },
+  "raw_sha256": "c00e7782c430f9c171069f1a94f2f7c00aec837c68714cdd94f1a7e5271d9cad",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/apis-and-data/crafting",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/crafting",
+    "headers": {
+      "content-length": "33538",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:05 GMT",
+      "etag": "\"69e10f4e-8302\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-5776419FBD76E9FD",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:05.572766Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

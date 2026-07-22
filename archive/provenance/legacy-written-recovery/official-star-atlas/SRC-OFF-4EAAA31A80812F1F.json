@@ -1,0 +1,64 @@
+{
+  "byte_count": 69734,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:56.024828Z",
+  "captured_at": "2026-07-22T23:03:56.024828Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/article/the-secret-core-of-nft-gaming-future",
+  "headers": {
+    "content-length": "69734",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:03:56 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/article/the-secret-core-of-nft-gaming-future",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/article/the-secret-core-of-nft-gaming-future",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "The Secret Core of NFT Gaming Future | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/article/the-secret-core-of-nft-gaming-future",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-4EAAA31A80812F1F.json",
+  "raw_body": {
+    "byte_length": 69734,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-4EAAA31A80812F1F/response-body.bin",
+    "sha256": "658d199093a8a281d178e7d79fb3ecb809f34c593942d03a86147a952ec75f79"
+  },
+  "raw_sha256": "658d199093a8a281d178e7d79fb3ecb809f34c593942d03a86147a952ec75f79",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/article/the-secret-core-of-nft-gaming-future",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/article/the-secret-core-of-nft-gaming-future",
+    "headers": {
+      "content-length": "69734",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:03:56 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-4EAAA31A80812F1F",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:56.024828Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,62 @@
+{
+  "byte_count": 28343,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:09.689046Z",
+  "captured_at": "2026-07-22T23:05:09.689046Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061466167827-Marketplace-Fees-and-ATLAS-Locking",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:09 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061466167827-Marketplace-Fees-and-ATLAS-Locking",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061466167827-Marketplace-Fees-and-ATLAS-Locking",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061466167827-Marketplace-Fees-and-ATLAS-Locking",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061466167827-Marketplace-Fees-and-ATLAS-Locking",
+    "document_title": "Marketplace Fees and ATLAS Locking – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061466167827-Marketplace-Fees-and-ATLAS-Locking",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B38AFD8A2122994F.json",
+  "raw_body": {
+    "byte_length": 28343,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B38AFD8A2122994F/response-body.bin",
+    "sha256": "b8dd39c1e0de2f767a554865687665e01d7218a04a2c56336e56ffa7676ccffc"
+  },
+  "raw_sha256": "b8dd39c1e0de2f767a554865687665e01d7218a04a2c56336e56ffa7676ccffc",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061466167827-Marketplace-Fees-and-ATLAS-Locking",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061466167827-Marketplace-Fees-and-ATLAS-Locking",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:09 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-B38AFD8A2122994F",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:09.689046Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,62 @@
+{
+  "byte_count": 23490,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:38.981968Z",
+  "captured_at": "2026-07-22T23:04:38.981968Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053523972883-How-to-enable-Atlas-Prime",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:39 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053523972883-How-to-enable-Atlas-Prime",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053523972883-How-to-enable-Atlas-Prime",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053523972883-How-to-enable-Atlas-Prime",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053523972883-How-to-enable-Atlas-Prime",
+    "document_title": "How to enable Atlas Prime? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053523972883-How-to-enable-Atlas-Prime",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-8346008176FB13C8.json",
+  "raw_body": {
+    "byte_length": 23490,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-8346008176FB13C8/response-body.bin",
+    "sha256": "0bd9b1bf4af3afcf8e83a954279bbfc47a307c0aa84476dd3c6a8079ed21cfcb"
+  },
+  "raw_sha256": "0bd9b1bf4af3afcf8e83a954279bbfc47a307c0aa84476dd3c6a8079ed21cfcb",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053523972883-How-to-enable-Atlas-Prime",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053523972883-How-to-enable-Atlas-Prime",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:39 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-8346008176FB13C8",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:38.981968Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

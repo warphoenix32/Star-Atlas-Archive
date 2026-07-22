@@ -1,0 +1,62 @@
+{
+  "byte_count": 29237,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:47.948350Z",
+  "captured_at": "2026-07-22T23:03:47.948350Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061460246163-How-to-Earn-ATLAS-in-Star-Atlas",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:48 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061460246163-How-to-Earn-ATLAS-in-Star-Atlas",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061460246163-How-to-Earn-ATLAS-in-Star-Atlas",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061460246163-How-to-Earn-ATLAS-in-Star-Atlas",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061460246163-How-to-Earn-ATLAS-in-Star-Atlas",
+    "document_title": "How to Earn ATLAS in Star Atlas – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061460246163-How-to-Earn-ATLAS-in-Star-Atlas",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-3CAA5C3F438BBA22.json",
+  "raw_body": {
+    "byte_length": 29237,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-3CAA5C3F438BBA22/response-body.bin",
+    "sha256": "941383b4ba57646fdf7a333d08d0ac9c641bfa6963d80fcf6003daab23521342"
+  },
+  "raw_sha256": "941383b4ba57646fdf7a333d08d0ac9c641bfa6963d80fcf6003daab23521342",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061460246163-How-to-Earn-ATLAS-in-Star-Atlas",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061460246163-How-to-Earn-ATLAS-in-Star-Atlas",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:48 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-3CAA5C3F438BBA22",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:47.948350Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

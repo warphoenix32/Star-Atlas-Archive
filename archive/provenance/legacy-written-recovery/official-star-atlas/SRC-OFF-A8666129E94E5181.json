@@ -1,0 +1,66 @@
+{
+  "byte_count": 3696,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:02.407609Z",
+  "captured_at": "2026-07-22T23:05:02.407609Z",
+  "content_type": "text/plain; charset=utf-8",
+  "final_url": "https://raw.githubusercontent.com/staratlasmeta/profile-key-management/f007c82c431dc834aa632b53a658815df061038e/README.md",
+  "headers": {
+    "content-length": "3696",
+    "content-type": "text/plain; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:02 GMT",
+    "etag": "\"68cf4b6690c13202c12eab19f5c31fe7c1aaec14f40ad25eb7acd12b4cea7848\""
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://github.com/staratlasmeta/profile-key-management#readme",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://raw.githubusercontent.com/staratlasmeta/profile-key-management/f007c82c431dc834aa632b53a658815df061038e/README.md",
+    "reasons": [
+      "IMMUTABLE_GITHUB_REPOSITORY_AND_README_PATH_MATCH"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "BINARY_OR_UNKNOWN"
+  },
+  "original_url": "https://github.com/staratlasmeta/profile-key-management#readme",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-A8666129E94E5181.json",
+  "raw_body": {
+    "byte_length": 3696,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-A8666129E94E5181/response-body.bin",
+    "sha256": "05bdc2723b0bcb1d6230fc9064e388dab5d9168fa5ff77a4d7b89e57b3ceb075"
+  },
+  "raw_sha256": "05bdc2723b0bcb1d6230fc9064e388dab5d9168fa5ff77a4d7b89e57b3ceb075",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://raw.githubusercontent.com/staratlasmeta/profile-key-management/f007c82c431dc834aa632b53a658815df061038e/README.md",
+    "retrieval_url_basis": "IMMUTABLE_GITHUB_README_BLOB",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/plain; charset=utf-8",
+    "final_url": "https://raw.githubusercontent.com/staratlasmeta/profile-key-management/f007c82c431dc834aa632b53a658815df061038e/README.md",
+    "headers": {
+      "content-length": "3696",
+      "content-type": "text/plain; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:02 GMT",
+      "etag": "\"68cf4b6690c13202c12eab19f5c31fe7c1aaec14f40ad25eb7acd12b4cea7848\""
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "IMMUTABLE_GIT_COMMIT_OR_BLOB",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "f007c82c431dc834aa632b53a658815df061038e",
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-A8666129E94E5181",
+  "temporal_qualifier": "IMMUTABLE_GIT_BLOB_f007c82c431dc834aa632b53a658815df061038e;NOT_PROVEN_AS_ORIGINAL_EXTRACTION_STATE",
+  "terminal_disposition": "CAPTURED_IMMUTABLE_GIT"
+}

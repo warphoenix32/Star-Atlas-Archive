@@ -1,0 +1,62 @@
+{
+  "byte_count": 27857,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:55.547194Z",
+  "captured_at": "2026-07-22T23:05:55.547194Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47057428605331-What-are-Star-Atlas-ships",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:55 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47057428605331-What-are-Star-Atlas-ships",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057428605331-What-are-Star-Atlas-ships",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47057428605331-What-are-Star-Atlas-ships",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057428605331-What-are-Star-Atlas-ships",
+    "document_title": "What are Star Atlas ships? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47057428605331-What-are-Star-Atlas-ships",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-F31A03A826213BF7.json",
+  "raw_body": {
+    "byte_length": 27857,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-F31A03A826213BF7/response-body.bin",
+    "sha256": "9283724218badfc62d06832eabd9a673575eabd50e84f0349631119104dbbd57"
+  },
+  "raw_sha256": "9283724218badfc62d06832eabd9a673575eabd50e84f0349631119104dbbd57",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47057428605331-What-are-Star-Atlas-ships",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47057428605331-What-are-Star-Atlas-ships",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:55 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-F31A03A826213BF7",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:55.547194Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,64 @@
+{
+  "byte_count": 66294,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:12.556102Z",
+  "captured_at": "2026-07-22T23:03:12.556102Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/game-updates/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay",
+  "headers": {
+    "content-length": "66294",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:03:12 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/game-updates/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/game-updates/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Join the Fleet: Star Atlas Launches its Inaugural On-chain Gameplay Experience | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/game-updates/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-0AED270D51ACD552.json",
+  "raw_body": {
+    "byte_length": 66294,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-0AED270D51ACD552/response-body.bin",
+    "sha256": "126fe53cf6e820f377b33e51321b91b5b7c8a2a5c69ade3b32bfb2eab9255f31"
+  },
+  "raw_sha256": "126fe53cf6e820f377b33e51321b91b5b7c8a2a5c69ade3b32bfb2eab9255f31",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/game-updates/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/game-updates/join-the-fleet-star-atlas-launches-its-inaugural-on-chain-gameplay",
+    "headers": {
+      "content-length": "66294",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:03:12 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-0AED270D51ACD552",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:12.556102Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

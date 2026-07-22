@@ -1,0 +1,62 @@
+{
+  "byte_count": 26482,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:24.408021Z",
+  "captured_at": "2026-07-22T23:04:24.408021Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061484838803-Will-I-be-able-to-choose-a-profession-in-Star-Atlas",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:24 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061484838803-Will-I-be-able-to-choose-a-profession-in-Star-Atlas",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061484838803-Will-I-be-able-to-choose-a-profession-in-Star-Atlas",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061484838803-Will-I-be-able-to-choose-a-profession-in-Star-Atlas",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061484838803-Will-I-be-able-to-choose-a-profession-in-Star-Atlas",
+    "document_title": "Will I be able to choose a profession in Star Atlas? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061484838803-Will-I-be-able-to-choose-a-profession-in-Star-Atlas",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-6FB2232270EDDAA1.json",
+  "raw_body": {
+    "byte_length": 26482,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-6FB2232270EDDAA1/response-body.bin",
+    "sha256": "4ec4cefda6000ee7143a1832d1da4de0fafda907aad088c3e52a9dcb230d5e52"
+  },
+  "raw_sha256": "4ec4cefda6000ee7143a1832d1da4de0fafda907aad088c3e52a9dcb230d5e52",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061484838803-Will-I-be-able-to-choose-a-profession-in-Star-Atlas",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061484838803-Will-I-be-able-to-choose-a-profession-in-Star-Atlas",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:24 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-6FB2232270EDDAA1",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:24.408021Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

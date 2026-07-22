@@ -1,0 +1,62 @@
+{
+  "byte_count": 26025,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:39.609485Z",
+  "captured_at": "2026-07-22T23:03:39.609485Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47057412823571-Do-all-my-resources-need-to-be-above-0-to-receive-ATLAS-emissions",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:39 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47057412823571-Do-all-my-resources-need-to-be-above-0-to-receive-ATLAS-emissions",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057412823571-Do-all-my-resources-need-to-be-above-0-to-receive-ATLAS-emissions",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47057412823571-Do-all-my-resources-need-to-be-above-0-to-receive-ATLAS-emissions",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057412823571-Do-all-my-resources-need-to-be-above-0-to-receive-ATLAS-emissions",
+    "document_title": "Do all my resources need to be above 0 to receive ATLAS emissions? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47057412823571-Do-all-my-resources-need-to-be-above-0-to-receive-ATLAS-emissions",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-31C9A684FD37FA07.json",
+  "raw_body": {
+    "byte_length": 26025,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-31C9A684FD37FA07/response-body.bin",
+    "sha256": "cec4e7953deacac7a1d6057b3d7a9bf2136abd9177110f7186a042f8007854ee"
+  },
+  "raw_sha256": "cec4e7953deacac7a1d6057b3d7a9bf2136abd9177110f7186a042f8007854ee",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47057412823571-Do-all-my-resources-need-to-be-above-0-to-receive-ATLAS-emissions",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47057412823571-Do-all-my-resources-need-to-be-above-0-to-receive-ATLAS-emissions",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:39 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-31C9A684FD37FA07",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:39.609485Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

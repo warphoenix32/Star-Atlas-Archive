@@ -1,0 +1,64 @@
+{
+  "byte_count": 70496,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:48.150024Z",
+  "captured_at": "2026-07-22T23:04:48.150024Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-token-sale-details-revealed",
+  "headers": {
+    "content-length": "70496",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:04:48 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-token-sale-details-revealed",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-token-sale-details-revealed",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Star Atlas Token Sale Details Revealed | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-token-sale-details-revealed",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-927F495C3F49A56F.json",
+  "raw_body": {
+    "byte_length": 70496,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-927F495C3F49A56F/response-body.bin",
+    "sha256": "cfd5acfd7af0b07c5f9da3b6d6c53cb016d6e44daef59617982e3e3233f9e23d"
+  },
+  "raw_sha256": "cfd5acfd7af0b07c5f9da3b6d6c53cb016d6e44daef59617982e3e3233f9e23d",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-token-sale-details-revealed",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-token-sale-details-revealed",
+    "headers": {
+      "content-length": "70496",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:04:48 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-927F495C3F49A56F",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:48.150024Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

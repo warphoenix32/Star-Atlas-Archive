@@ -1,0 +1,68 @@
+{
+  "byte_count": 23864,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:51.104190Z",
+  "captured_at": "2026-07-22T23:05:51.104190Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/creative-assets/star-atlas-powered-by-the-people",
+  "headers": {
+    "content-length": "23864",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:51 GMT",
+    "etag": "\"69e10f4e-5d38\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/creative-assets/star-atlas-powered-by-the-people",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/creative-assets/star-atlas-powered-by-the-people",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Star Atlas: Powered by the People | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/creative-assets/star-atlas-powered-by-the-people",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-EFE5625D15BEFEA7.json",
+  "raw_body": {
+    "byte_length": 23864,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-EFE5625D15BEFEA7/response-body.bin",
+    "sha256": "de8dcb8efc81fd278b7539ed762d8f126240f752c2f70007c998635c734f31ca"
+  },
+  "raw_sha256": "de8dcb8efc81fd278b7539ed762d8f126240f752c2f70007c998635c734f31ca",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/creative-assets/star-atlas-powered-by-the-people",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/creative-assets/star-atlas-powered-by-the-people",
+    "headers": {
+      "content-length": "23864",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:51 GMT",
+      "etag": "\"69e10f4e-5d38\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-EFE5625D15BEFEA7",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:51.104190Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

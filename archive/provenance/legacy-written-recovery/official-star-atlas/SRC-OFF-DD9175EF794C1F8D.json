@@ -1,0 +1,64 @@
+{
+  "byte_count": 107836,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:35.853239Z",
+  "captured_at": "2026-07-22T23:05:35.853239Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-3",
+  "headers": {
+    "content-length": "107836",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:05:35 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-3",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-3",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "The Atlas Star ✧ Issue #3 | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-3",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-DD9175EF794C1F8D.json",
+  "raw_body": {
+    "byte_length": 107836,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-DD9175EF794C1F8D/response-body.bin",
+    "sha256": "2c23f6636369bcbfbf872167ca386dc8deaea6b6122a0a62f6b0f5109d811dae"
+  },
+  "raw_sha256": "2c23f6636369bcbfbf872167ca386dc8deaea6b6122a0a62f6b0f5109d811dae",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-3",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-3",
+    "headers": {
+      "content-length": "107836",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:05:35 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-DD9175EF794C1F8D",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:35.853239Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

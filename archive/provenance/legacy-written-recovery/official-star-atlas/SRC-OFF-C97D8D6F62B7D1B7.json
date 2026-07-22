@@ -1,0 +1,62 @@
+{
+  "byte_count": 25502,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:24.092900Z",
+  "captured_at": "2026-07-22T23:05:24.092900Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47031385678611-What-are-Starbases-in-Holosim",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:24 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47031385678611-What-are-Starbases-in-Holosim",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031385678611-What-are-Starbases-in-Holosim",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47031385678611-What-are-Starbases-in-Holosim",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031385678611-What-are-Starbases-in-Holosim",
+    "document_title": "What are Starbases in Holosim? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47031385678611-What-are-Starbases-in-Holosim",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-C97D8D6F62B7D1B7.json",
+  "raw_body": {
+    "byte_length": 25502,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-C97D8D6F62B7D1B7/response-body.bin",
+    "sha256": "57fa28bec695c353ad17f7e579b7240bf558ab802ae3f24fae305b8d6be5a6a1"
+  },
+  "raw_sha256": "57fa28bec695c353ad17f7e579b7240bf558ab802ae3f24fae305b8d6be5a6a1",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47031385678611-What-are-Starbases-in-Holosim",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47031385678611-What-are-Starbases-in-Holosim",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:24 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-C97D8D6F62B7D1B7",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:24.092900Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

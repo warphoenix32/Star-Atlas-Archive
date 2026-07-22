@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- v27672 -->
+
+
+  <title>How to Get Started in C4 PTR &ndash; Star Atlas</title>
+
+  
+
+  <meta name="description" content="C4 PTR is a test environment where players can access the latest SAGE C4 experience, create a test profile, import provided PTR assets,..." /><meta property="og:image" content="https://support.staratlas.com/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Star Atlas" />
+<meta property="og:title" content="How to Get Started in C4 PTR" />
+<meta property="og:description" content="C4 PTR is a test environment where players can access the latest SAGE C4 experience, create a test profile, import provided PTR assets, and begin exploring the Galia Expanse.This guide will walk yo..." />
+<meta property="og:url" content="https://support.staratlas.com/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR" />
+<link rel="canonical" href="https://support.staratlas.com/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR">
+<link rel="alternate" hreflang="en-us" href="https://support.staratlas.com/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR">
+<link rel="alternate" hreflang="x-default" href="https://support.staratlas.com/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR">
+
+  <link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-a0388d981956f946c99f5a52a4eaf6f2.css" media="all" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/hc/theming_assets/25945259/46839284643731/style.css?digest=53556769366547">
+
+  <link rel="icon" type="image/x-icon" href="/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK">
+
+    
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!-- Make the translated search clear button label available for use in JS -->
+<!-- See buildClearSearchButton() in script.js -->
+<script type="text/javascript">window.searchClearButtonLabelLocalized = "Clear search";</script>
+<script type="text/javascript">
+  // Load ES module polyfill only for browsers that don't support ES modules
+  if (!(HTMLScriptElement.supports && HTMLScriptElement.supports('importmap'))) {
+    document.write('<script async src="/hc/theming_assets/01KAY06KRK2EHRFAQEGJA8SA7F"><\/script>');
+  }
+</script>
+<script type="importmap">
+{
+  "imports": {
+    "new-request-form": "/hc/theming_assets/01KXGNVKKP3X1MT9CVQY4XJPDZ",
+    "request-list": "/hc/theming_assets/01KXGNVKJ17B5A2VK5GKY3KTPW",
+    "flash-notifications": "/hc/theming_assets/01KXGNVKDXQ7E6RW5E0ZX1YMVC",
+    "service-catalog": "/hc/theming_assets/01KXQYK7RJ0D5KM24TTKX2W5VE",
+    "approval-requests": "/hc/theming_assets/01KXGNVKHV47HFYPN54FFYSG11",
+    "approval-requests-translations": "/hc/theming_assets/01KXGNVKN11YG0JKGHSB8G7XV3",
+    "new-request-form-translations": "/hc/theming_assets/01KXGNVKKVV2H99MQV1HE1R5K1",
+    "request-list-translations": "/hc/theming_assets/01KXGNVKSCBMRYT3R4GGHQ7BX9",
+    "service-catalog-translations": "/hc/theming_assets/01KXGNVMJZZP1NNHB36N2CZTGF",
+    "shared": "/hc/theming_assets/01KXGNVKKVXQ4JS5G1F3HNGY3A",
+    "ticket-fields": "/hc/theming_assets/01KXGNVKM4NP6S5BKBN30QZ63H",
+    "wysiwyg": "/hc/theming_assets/01KP8ZMKQK39Z6D9DF091V2YG4"
+  }
+}
+</script>
+<script type="module">
+  import { renderFlashNotifications } from "flash-notifications";
+
+  const settings = {"brand_color":"rgba(30, 94, 134, 100)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","show_brand_name":true,"favicon":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","homepage_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","service_catalog_hero_image":"/hc/theming_assets/01KGMAMFC4RRMVYH6CJH4A3J31","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":false,"show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"show_suggested_articles":true};
+  const baseLocale = "en-us";
+
+  renderFlashNotifications(settings, baseLocale);
+</script>
+
+  
+</head>
+<body class="">
+  
+  
+  
+
+  <a class="skip-navigation" tabindex="1" href="#main-content">Skip to main content</a>
+
+<header class="header">
+  <div class="logo">
+    <a title="Home" href="/hc/en-us">
+      <img src="/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK" alt="Star Atlas Help Center home page" />
+      
+        <span aria-hidden="true">Star Atlas</span>
+      
+    </a>
+  </div>
+
+  <div class="nav-wrapper-desktop">
+    <nav class="user-nav" id="user-nav" aria-label="User navigation">
+      <ul class="user-nav-list">
+        <li></li>
+        <li></li>
+        <li><a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a></li>
+        
+          <li>
+            <a class="sign-in" role="link" rel="nofollow" data-auth-action="signin" title="Opens a dialog" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52243005225363-How-to-Get-Started-in-C4-PTR">
+              Sign in
+            </a>
+          </li>
+        
+      </ul>
+    </nav>
+          
+    
+  </div>
+
+  <div class="nav-wrapper-mobile">
+    <button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
+      </svg>
+    </button>
+    <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+      <ul class="menu-list-mobile-items">
+        
+          <li class="item">
+            <a role="link" rel="nofollow" data-auth-action="signin" title="Opens a dialog" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52243005225363-How-to-Get-Started-in-C4-PTR">
+              Sign in
+            </a>
+          </li>
+          <li class="nav-divider"></li>
+        
+       
+        <li class="item"></li>
+        <li class="item"><a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a></li>
+        <li class="item"></li>
+        <li class="nav-divider"></li>
+        
+       
+      </ul>
+          
+    </nav>
+  </div>
+
+</header>
+
+
+  <main role="main">
+    <div class="container-divider"></div>
+<div class="container">
+  <div class="sub-nav">
+    <nav aria-label="Breadcrumb">
+  <ol class="breadcrumbs">
+    
+      <li>
+        
+          <a href="/hc/en-us">Star Atlas</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/categories/47053502053651-SAGE">SAGE</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/sections/52241893976595-C4-PTR">C4 PTR</a>
+        
+      </li>
+    
+  </ol>
+</nav>
+
+    <div class="search-container">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
+        <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+        <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+      </svg>
+      <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" /><input type="hidden" name="category" id="category" value="47053502053651" autocomplete="off" />
+<input type="search" name="query" id="query" placeholder="Search" aria-label="Search" /></form>
+    </div>
+  </div>
+
+  <div class="article-container" id="article-container">
+    <aside class="article-sidebar" aria-labelledby="section-articles-title">
+      
+        <div class="collapsible-sidebar">
+          <button type="button" class="collapsible-sidebar-toggle" aria-labelledby="section-articles-title" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon chevron-icon">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon x-icon">
+              <path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
+            </svg>
+          </button>
+          <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+            Articles in this section
+          </span>
+          <div class="collapsible-sidebar-body">
+            <ul>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR" 
+                     class="sidenav-item current-article"
+                     aria-current="page">
+                       How to Get Started in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52244580822419-C4-PTR-Menu-Overview" 
+                     class="sidenav-item "
+                     >
+                       C4 PTR Menu Overview
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243941755923-How-to-Use-the-C4-PTR-Map" 
+                     class="sidenav-item "
+                     >
+                       How to Use the C4 PTR Map
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Import Assets in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Create and Use a Fleet in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52273962138771-How-to-Move-a-Fleet-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Move a Fleet in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Mine Resources in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52275761937555-How-to-Scan-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Scan in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Set Up a Claim Stake in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52250841633811-C4-PTR-Game-and-Account-Settings-Overview" 
+                     class="sidenav-item "
+                     >
+                       C4 PTR Game and Account Settings Overview
+                  </a>
+                </li>
+              
+            </ul>
+            
+              <a href="/hc/en-us/sections/52241893976595-C4-PTR" class="article-sidebar-item">See more</a>
+            
+          </div>
+        </div>
+      
+    </aside>
+
+    <article id="main-content" class="article">
+      <header class="article-header">
+        <h1 title="How to Get Started in C4 PTR" class="article-title">
+          How to Get Started in C4 PTR
+          
+        </h1>
+
+        <div class="article-author">
+          
+          <div class="article-meta">
+            
+
+            <div class="meta-group">
+              
+                <span class="meta-data"><time datetime="2026-06-02T20:08:40Z" title="2026-06-02T20:08:40Z" data-datetime="relative">June 02, 2026 20:08</time></span>
+                <span class="meta-data">Updated</span>
+              
+            </div>
+          </div>
+        </div>
+
+        
+          <div class="article-subscribe"><div data-helper="subscribe" data-json="{&quot;item&quot;:&quot;article&quot;,&quot;url&quot;:&quot;/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR/subscription.json&quot;,&quot;follow_label&quot;:&quot;Follow&quot;,&quot;unfollow_label&quot;:&quot;Unfollow&quot;,&quot;following_label&quot;:&quot;Following&quot;,&quot;can_subscribe&quot;:true,&quot;is_subscribed&quot;:false}"></div></div>
+        
+      </header>
+
+      <section class="article-info">
+        <div class="article-content">
+          <div class="article-body"><p>C4 PTR is a test environment where players can access the latest SAGE C4 experience, create a test profile, import provided PTR assets, and begin exploring the Galia Expanse.</p><p>This guide will walk you through the first steps needed to enter C4 PTR, create your character, and import your starting assets.</p><blockquote><p><strong>Important:</strong> PTR assets and wallet information are provided for testing purposes only. They are not real assets.</p></blockquote><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4GRKYBKQFVS1TZQSP8JQW6">Step 1: Open SAGE</h2><p>To get started:</p><ol>
+<li data-list-item-id="e77941df63de4d906b20ccabf16907aad">Open your web browser.</li>
+<li data-list-item-id="eefd9ed3524ba31af5c0d45a05785bd1b">Go to <a href="https://sage.staratlas.com/"><strong>https://sage.staratlas.com</strong></a>.</li>
+<li data-list-item-id="e1ffc231077f687cfd5bf1c6581097195">
+<p>Click <strong>Play Game</strong>.</p>
+<p><img src="/hc/article_attachments/52243005199379" width="1299" height="561"></p>
+</li>
+<li data-list-item-id="e44f5334afc3f9e0c8a5a59847700d364">Read through and accept the terms.</li>
+<li data-list-item-id="e4b37974203844945f63e6bcb1a46082b">
+<p>Click <strong>Continue</strong>.</p>
+<figure class="wysiwyg-image"><img style="aspect-ratio: 1296/926;" src="/hc/article_attachments/52243005201171" width="1296" height="926"></figure>
+</li>
+</ol><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4GS4WBG1Z575QF8QZDAP4A">Step 2: Create your C4 PTR profile</h2><p>After accepting the terms, you will need to create your PTR profile.</p><p>To create your profile:</p><ol>
+<li data-list-item-id="e5968367fe5b6a770ca5dec217b138f10">Select your faction.</li>
+<li data-list-item-id="e145ba2853870a4206859f2db0155209e">Set your character name / callsign.</li>
+<li data-list-item-id="e8e097c3f783d7675f4eb04716696a849">Make sure the SOL balance is less than 10. The default value of 5 is enough for PTR.</li>
+<li data-list-item-id="ef9edbaceb5fcc7047f26fc586e9a1ccd">
+<p>Click <strong>Create Profile</strong>.</p>
+<figure class="wysiwyg-image"><img style="aspect-ratio: 1297/987;" src="/hc/article_attachments/52243014794515" width="1297" height="987"></figure>
+</li>
+</ol><p>Once your profile is created, you will be taken to the main map.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4GSCA3FRENCKG5VM7WSK9D">Step 3: Do not worry if the map feels overwhelming</h2><p>After creating your profile, you will arrive on the main map of Galia.</p><p>The Galia Expanse can feel overwhelming at first, but you do not need to understand everything immediately. C4 PTR is meant to be explored step by step.</p><p>If you need help understanding the map and menus, check the <a href="/hc/en-us/articles/52243941755923">C4 PTR map guide</a> and <a href="/hc/en-us/articles/52244580822419">C4 menu overview</a></p><p><img src="/hc/article_attachments/52243005209875" width="3148" height="1948"></p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4GSFCTJB6Y1Z5MWZ2HE5EZ">Step 4: Import your starting assets</h2><p>Before you can start using your ships and resources, you need to import your assets into the game.</p><p>In PTR, these assets are provided to you for testing.</p><p>To start importing assets:</p><ol>
+<li data-list-item-id="ed3f5082b409ea35bc3708ae9c1d51cf7">
+<p>Look for the <strong>Port of Entry</strong> in the bottom-right corner of the map.</p>
+<figure class="wysiwyg-image wysiwyg-image-resized" style="width: 99.58%;"><img style="aspect-ratio: 625/100;" src="/hc/article_attachments/52243005211923" width="625" height="100"></figure>
+</li>
+<li data-list-item-id="ea04f16506435747bcb044b6390239bfe">Click the <strong>Port of Entry</strong>.</li>
+<li data-list-item-id="eabf8922c593fa0b65af9c66bfb3be9b4">
+<p>Open the import interface.</p>
+<figure class="wysiwyg-image wysiwyg-image-resized" style="width: 99.79%;"><img style="aspect-ratio: 2074/1751;" src="/hc/article_attachments/52243005214611" width="2074" height="1751"></figure>
+</li>
+</ol><p>The import process in PTR is expected to be similar to the mainnet process, although C4 PTR remains a test environment and may change over time.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4GSH68JT0YC16GPJHFQ0WT">Step 5: Transfer your assets into the game</h2><p>Once you are in the import interface:</p><ol>
+<li data-list-item-id="ea9ff05b6d3533eed994a8a92b5105cb6">
+<p>Click <strong>MAX</strong> on the right side of each item you want to import.</p>
+<figure class="wysiwyg-image"><img style="aspect-ratio: 1632/102;" src="/hc/article_attachments/52243014807187" width="1632" height="102"></figure>
+</li>
+<li data-list-item-id="e5eeb48e1521242230f3a2df5371eaed3">
+<p>Click <strong>Deposit</strong> next to each item.</p>
+<figure class="wysiwyg-image"><img style="aspect-ratio: 1628/98;" src="/hc/article_attachments/52243005216787" width="1628" height="98"></figure>
+</li>
+<li data-list-item-id="e18f4a11ea861325ff7805f9bfa2aa181">
+<p>The selected items will move into the manifest on the right side of the screen.</p>
+<figure class="wysiwyg-image"><img style="aspect-ratio: 1029/259;" src="/hc/article_attachments/52243005217811" width="1029" height="259"></figure>
+</li>
+<li data-list-item-id="e168651586bcfac4cd85f28ac1e78ccd1">Review the manifest.</li>
+<li data-list-item-id="e0e3ff9431bd2b692feea5fdb7c893871">Click <strong>Transfer Manifest</strong> at the top of the manifest box.</li>
+</ol><p>After the transfer is complete, your assets will be imported into your faction CSS.</p><p>The CSS is the only base that has a Port of Entry for import and export.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4GSNFEE49YKQ19Y23R8KXM">What to do next</h2><p>Once your character is created and your assets are imported, you are ready to start exploring C4 PTR.</p><p>Recommended next steps:</p><ul>
+<li data-list-item-id="ef72b30b79a43c8e79d291f0c475b47b8"><a href="/hc/en-us/articles/52243941755923">Learn how to use the C4 PTR map.</a></li>
+<li data-list-item-id="e1d40b33ab6494f689a1c1eaeabd0abbe"><a href="/hc/en-us/articles/52244580822419">Review the main map menus.</a></li>
+<li data-list-item-id="e39d865628181c5c98c4016a6ade1d672">Check how to <a href="/hc/en-us/articles/52251721868563">set up fleets</a>, <a href="/hc/en-us/articles/52247034465939">Claim Stakes</a>, crafting, and other systems.</li>
+<li data-list-item-id="e522821544c66c1d7535fdc94d257f10e">Use the <a href="/hc/en-us/articles/52250104058131">support and bug reporting tools</a> if you encounter an issue.</li>
+</ul><p>C4 PTR is a test environment, so some systems may change over time. If you find a bug or have feedback, please use the available reporting tools so the team can review it.</p></div>
+
+          
+
+          
+        </div>
+      </section>
+
+      <footer>
+        <div class="article-footer">
+          
+            <div class="article-share">
+  <ul class="share">
+    <li>
+      <a href="https://www.facebook.com/share.php?title=How+to+Get+Started+in+C4+PTR&u=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52243005225363-How-to-Get-Started-in-C4-PTR" class="share-facebook" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on Facebook">
+          <path fill="currentColor" d="M6 0a6 6 0 01.813 11.945V7.63h1.552l.244-1.585H6.812v-.867c0-.658.214-1.242.827-1.242h.985V2.55c-.173-.024-.538-.075-1.23-.075-1.444 0-2.29.767-2.29 2.513v1.055H3.618v1.585h1.484v4.304A6.001 6.001 0 016 0z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/share?lang=en&text=How+to+Get+Started+in+C4+PTR&url=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52243005225363-How-to-Get-Started-in-C4-PTR" class="share-twitter" aria-label="X Corp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on X Corp">
+          <path fill="currentColor" d="M.0763914 0 3.60864 0 6.75369 4.49755 10.5303 0 11.6586 0 7.18498 5.11431 12 12 8.46775 12 5.18346 7.30333 1.12825 12 0 12 4.7531 6.6879z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&source=ATMTA%2C+Inc.&title=How+to+Get+Started+in+C4+PTR&url=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52243005225363-How-to-Get-Started-in-C4-PTR" class="share-linkedin" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on LinkedIn">
+          <path fill="currentColor" d="M10.8 0A1.2 1.2 0 0112 1.2v9.6a1.2 1.2 0 01-1.2 1.2H1.2A1.2 1.2 0 010 10.8V1.2A1.2 1.2 0 011.2 0h9.6zM8.09 4.356a1.87 1.87 0 00-1.598.792l-.085.133h-.024v-.783H4.676v5.727h1.778V7.392c0-.747.142-1.47 1.068-1.47.913 0 .925.854.925 1.518v2.785h1.778V7.084l-.005-.325c-.05-1.38-.456-2.403-2.13-2.403zm-4.531.142h-1.78v5.727h1.78V4.498zm-.89-2.846a1.032 1.032 0 100 2.064 1.032 1.032 0 000-2.064z"/>
+        </svg>
+      </a>
+    </li>
+  </ul>
+
+</div>
+          
+          
+        </div>
+        
+          <div class="article-votes">
+            <h2 class="article-votes-question" id="article-votes-label">Was this article helpful?</h2>
+            <div class="article-votes-controls" role="group" aria-labelledby="article-votes-label">
+              <button type="button" class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="52243005225363" data-upvote-count="1" data-vote-count="1" data-vote-sum="1" data-vote-url="/hc/en-us/articles/52243005225363/vote" data-value="null" data-label="1 out of 1 found this helpful" data-selected-class="button-primary" data-as="button" aria-label="This article was helpful" aria-pressed="false">Yes</button>
+              <button type="button" class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="52243005225363" data-upvote-count="1" data-vote-count="1" data-vote-sum="1" data-vote-url="/hc/en-us/articles/52243005225363/vote" data-value="null" data-label="1 out of 1 found this helpful" data-selected-class="button-primary" data-as="button" aria-label="This article was not helpful" aria-pressed="false">No</button>
+            </div>
+            <small class="article-votes-count">
+              <span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="52243005225363" data-upvote-count="1" data-vote-count="1" data-vote-sum="1" data-vote-url="/hc/en-us/articles/52243005225363/vote" data-value="null" data-label="1 out of 1 found this helpful">1 out of 1 found this helpful</span>
+            </small>
+          </div>
+        
+
+        <div class="article-more-questions">
+          Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+        </div>
+        <div class="article-return-to-top">
+          <a href="#article-container">
+            Return to top
+            <svg xmlns="http://www.w3.org/2000/svg" class="article-return-to-top-icon" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+      <div class="article-relatives">
+        
+          <div data-recent-articles></div>
+        
+        
+          
+  <section class="related-articles">
+    
+      <h2 class="related-articles-title">Related articles</h2>
+    
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBMMl%2F2DLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJO5xMWDLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJAL2hjL2VuLXVzL2FydGljbGVzLzUyMjQzOTQxNzU1OTIzLUhvdy10by1Vc2UtdGhlLUM0LVBUUi1NYXAGOwhUOglyYW5raQY%3D--89eefa15f1033c0b041f372428a6b460ff195c44" rel="nofollow">How to Use the C4 PTR Map</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJMO7rWELzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJO5xMWDLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJML2hjL2VuLXVzL2FydGljbGVzLzUyMjQ3MDM0NDY1OTM5LUhvdy10by1TZXQtVXAtYS1DbGFpbS1TdGFrZS1pbi1DNC1QVFIGOwhUOglyYW5raQc%3D--87c4a482d66d96961c80dffc8371048fa9642cd3" rel="nofollow">How to Set Up a Claim Stake in C4 PTR</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJNtriOELzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJO5xMWDLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI7L2hjL2VuLXVzL2FydGljbGVzLzUyMjQ0NTgwODIyNDE5LUM0LVBUUi1NZW51LU92ZXJ2aWV3BjsIVDoJcmFua2kI--45bd6bee657e2ebd34c45520a00e2e05f74a5b9c" rel="nofollow">C4 PTR Menu Overview</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBMlUs2FLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJO5xMWDLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJOL2hjL2VuLXVzL2FydGljbGVzLzUyMjUxNzIxODY4NTYzLUhvdy10by1DcmVhdGUtYW5kLVVzZS1hLUZsZWV0LWluLUM0LVBUUgY7CFQ6CXJhbmtpCQ%3D%3D--546d475a984f0234e86e20697f90b82d9d21eb92" rel="nofollow">How to Create and Use a Fleet in C4 PTR</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBPU2piFLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJO5xMWDLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJQL2hjL2VuLXVzL2FydGljbGVzLzUyMjUwODQxNjMzODExLUM0LVBUUi1HYW1lLWFuZC1BY2NvdW50LVNldHRpbmdzLU92ZXJ2aWV3BjsIVDoJcmFua2kK--1b0f68363ff9e0a262e86782d2db31ccc838d69a" rel="nofollow">C4 PTR Game and Account Settings Overview</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+        
+      </div>
+      
+    </article>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <a title="Home" href="/hc/en-us">Star Atlas</a>
+
+    <div class="footer-language-selector">
+      
+    </div>
+  </div>
+</footer>
+
+
+    <div class="powered-by-zendesk">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" focusable="false" viewBox="0 0 26 26">
+    <path d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3h12zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6H14zm0-5.2V3h12z" />
+  </svg>
+
+  <a target="_blank" rel="nofollow" href="https://www.zendesk.com/service/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=ATMTA%2C+Inc.">Powered by Zendesk</a>
+</div>
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.610c6add50f51647f886.js"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"atmta","environment":"production","name":"ATMTA, Inc."};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":"","role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":null,"shared_csrf_token":null},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCJO5xMWDLzoKX21ldGF7DDoPYWNjb3VudF9pZGkEq+SLAToTaGVscF9jZW50ZXJfaWRsKwgTG7GhmSo6DWJyYW5kX2lkbCsIkzfsnpkqOgx1c2VyX2lkMDoTdXNlcl9yb2xlX25hbWVJIg5BTk9OWU1PVVMGOwZUOwBJIgplbi11cwY7BlQ6GmFub255bW91c190cmFja2luZ19pZDA=--049f108d9e9076cbf799aa0fc558e4a7681f698e","url":"https://support.staratlas.com/hc/activity"},"current_record_id":"52243005225363","current_record_url":"/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR","current_record_title":"How to Get Started in C4 PTR","current_text_direction":"ltr","current_brand_id":46839284643731,"current_brand_name":"ATMTA, Inc.","current_brand_url":"https://atmta.zendesk.com","current_brand_active":true,"current_path":"/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":true,"has_multi_language_help_center":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_help_center_auth_enabled":false,"embeddables_connect_ipms":false},"answer_bot_subdomain":"static","gather_plan_state":"not_started","has_article_verification":false,"has_gather":false,"has_ckeditor":true,"has_community_enabled":false,"has_community_badges":false,"has_community_post_content_tagging":false,"has_gather_content_tags":false,"has_guide_content_tags":false,"has_user_segments":false,"has_answer_bot_web_form_enabled":false,"has_garden_modals":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-2-preview","is_preview":false,"has_search_settings_in_plan":true,"theming_api_version":4,"theming_settings":{"brand_color":"rgba(30, 94, 134, 100)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","show_brand_name":true,"favicon":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","homepage_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","service_catalog_hero_image":"/hc/theming_assets/01KGMAMFC4RRMVYH6CJH4A3J31","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":false,"show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"show_suggested_articles":true},"has_pci_credit_card_custom_field":false,"help_center_restricted":false,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"user_preferred_locale":"en-us","base_locale":"en-us","login_url":"https://atmta.zendesk.com/access?locale=en-us\u0026brand_id=46839284643731\u0026return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52243005225363-How-to-Get-Started-in-C4-PTR","has_alternate_templates":false,"has_custom_statuses_enabled":true,"has_hc_generative_answers_setting_enabled":true,"has_suggested_initial_questions_enabled":false,"has_contentful_eap":false,"has_contentful_eap_eligible":false,"has_pdf_ingestion_eap":true,"has_pdf_ingestion_eap_eligible":true,"has_guide_saas_management":false,"has_guide_service_catalog":false,"has_service_catalog_search_poc":true,"has_service_catalog_multibranding":false,"has_csat_reverse_2_scale_in_mobile":false,"has_trial_presumptive_setup":true,"has_unified_navigation":true,"has_unified_navigation_eap_access":true,"has_knowledge_locale_display_names":false,"has_csat_bet365_branding":false,"has_csat_theming_integration_phase_1":false,"has_help_center_gen_search_follow_up_conversation":true,"chat_page_renderable":false,"version":"v27672","dev_mode":false};
+</script>
+
+  
+  
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-ecaf548e810f58e1237b832da9e68f06.js"></script>
+  <script type="text/javascript" src="/hc/theming_assets/25945259/46839284643731/script.js?digest=53556769366547"></script>
+  
+</body>
+</html>

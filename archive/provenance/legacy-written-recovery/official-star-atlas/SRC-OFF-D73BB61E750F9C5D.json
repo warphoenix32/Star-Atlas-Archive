@@ -1,0 +1,62 @@
+{
+  "byte_count": 25597,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:32.475423Z",
+  "captured_at": "2026-07-22T23:05:32.475423Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47028985478675-What-Happens-to-Crew-and-Resources-When-the-Rental-Ends",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:32 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47028985478675-What-Happens-to-Crew-and-Resources-When-the-Rental-Ends",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47028985478675-What-Happens-to-Crew-and-Resources-When-the-Rental-Ends",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47028985478675-What-Happens-to-Crew-and-Resources-When-the-Rental-Ends",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47028985478675-What-Happens-to-Crew-and-Resources-When-the-Rental-Ends",
+    "document_title": "What Happens to Crew and Resources When the Rental Ends? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47028985478675-What-Happens-to-Crew-and-Resources-When-the-Rental-Ends",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-D73BB61E750F9C5D.json",
+  "raw_body": {
+    "byte_length": 25597,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-D73BB61E750F9C5D/response-body.bin",
+    "sha256": "cb64c355e0f041e0829d69f4cb92ff56b8c28b716e5bb2febb3548df7312ad2e"
+  },
+  "raw_sha256": "cb64c355e0f041e0829d69f4cb92ff56b8c28b716e5bb2febb3548df7312ad2e",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47028985478675-What-Happens-to-Crew-and-Resources-When-the-Rental-Ends",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47028985478675-What-Happens-to-Crew-and-Resources-When-the-Rental-Ends",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:32 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-D73BB61E750F9C5D",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:32.475423Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

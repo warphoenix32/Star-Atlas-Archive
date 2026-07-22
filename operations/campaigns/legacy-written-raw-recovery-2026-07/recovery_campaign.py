@@ -54,6 +54,11 @@ HNN_RESOLUTION_LEDGER = CAMPAIGN_DIR / "expansion-hnn-archive-resolution-ledger.
 HNN_RETRIEVAL_LEDGER = CAMPAIGN_DIR / "expansion-hnn-retrieval-ledger.jsonl"
 HNN_RETRY_LEDGER = CAMPAIGN_DIR / "expansion-hnn-retry-ledger.jsonl"
 HNN_MANUAL_REVIEW_QUEUE = CAMPAIGN_DIR / "expansion-hnn-manual-review-queue.jsonl"
+OFFICIAL_BATCH_ID = "official-written-family-completion-316"
+OFFICIAL_SELECTION = CAMPAIGN_DIR / "expansion-official-selection.json"
+OFFICIAL_RETRIEVAL_LEDGER = CAMPAIGN_DIR / "expansion-official-retrieval-ledger.jsonl"
+OFFICIAL_RETRY_LEDGER = CAMPAIGN_DIR / "expansion-official-retry-ledger.jsonl"
+OFFICIAL_MANUAL_REVIEW_QUEUE = CAMPAIGN_DIR / "expansion-official-manual-review-queue.jsonl"
 CAMPAIGN_SUMMARY_JSON = CAMPAIGN_DIR / "campaign-summary.json"
 CAMPAIGN_SUMMARY_MD = CAMPAIGN_DIR / "campaign-summary.md"
 VALIDATION_REPORT_JSON = CAMPAIGN_DIR / "validation-report.json"
@@ -116,8 +121,24 @@ HNN_EXPECTED_COUNT = 156
 HNN_FAMILY_TOTAL = 157
 HNN_PRESERVED_BASELINE_SOURCE_IDS = ("SRC-HNN-04DD15F547F461E7",)
 HNN_ALLOWED_SOURCE_HOSTS = {"medium.com", "web.archive.org"}
+OFFICIAL_EXPECTED_COUNT = 316
+OFFICIAL_FAMILY_TOTAL = 320
+OFFICIAL_PRESERVED_BASELINE_SOURCE_IDS = (
+    "SRC-OFF-076F496F0A6CA989",
+    "SRC-OFF-0A646AE069AFFBA5",
+    "SRC-OFF-17012CC0302537A1",
+    "SRC-OFF-B4F9EB92DD60A7A8",
+)
+OFFICIAL_ALLOWED_SOURCE_HOSTS = {
+    "api.github.com",
+    "build.staratlas.com",
+    "experience.staratlas.com",
+    "staratlas.com",
+    "support.staratlas.com",
+}
 REQUEST_DELAY_SECONDS = 0.25
 HNN_REQUEST_DELAY_SECONDS = 0.35
+OFFICIAL_REQUEST_DELAY_SECONDS = 0.25
 PILOT_BASELINE_SHA256 = {
     "manual-review-queue.jsonl": "8c946c6cd84988d9dfe01c4aedce53bc1bb879582fa5ed7cb07841f91c332b67",
     "pilot-selection.json": "bffd2bb7d92c30b2846f47ac8f6a3fb91d14c49ee8a78c142bf4065ca4ca54f9",
@@ -540,17 +561,73 @@ def build_hnn_selection(manifest: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def official_completion_records(manifest: dict[str, Any]) -> list[dict[str, Any]]:
+    preserved = set(OFFICIAL_PRESERVED_BASELINE_SOURCE_IDS)
+    records = [
+        record
+        for record in manifest["records"]
+        if record["source_family"] == "official-star-atlas" and record["source_id"] not in preserved
+    ]
+    records.sort(key=lambda item: item["source_id"])
+    if len(records) != OFFICIAL_EXPECTED_COUNT:
+        raise RuntimeError(
+            f"{OFFICIAL_BATCH_ID} must contain {OFFICIAL_EXPECTED_COUNT} records; found {len(records)}"
+        )
+    for record in records:
+        host = urllib.parse.urlsplit(record["retrieval_url"]).netloc.lower()
+        if host not in OFFICIAL_ALLOWED_SOURCE_HOSTS:
+            raise RuntimeError(f"Official recovery surface outside allowlist: {record['source_id']} {host}")
+        if record["retrieval_url_basis"] not in {"PRIOR_FINAL_URL", "PRIOR_REQUESTED_URL"}:
+            raise RuntimeError(
+                f"Official recovery URL basis is unsupported: {record['source_id']} {record['retrieval_url_basis']}"
+            )
+    return records
+
+
+def build_official_selection(manifest: dict[str, Any]) -> dict[str, Any]:
+    records = official_completion_records(manifest)
+    pilot = set(PILOT_SOURCE_IDS)
+    return {
+        "allowed_hosts": sorted(OFFICIAL_ALLOWED_SOURCE_HOSTS),
+        "authorization_status": "AUTHORIZED_FOR_RETRIEVAL",
+        "batch_id": OFFICIAL_BATCH_ID,
+        "campaign_id": CAMPAIGN_ID,
+        "deferred_scope": ["campaign-bravo-intergalactic-herald"],
+        "expected_record_count": OFFICIAL_EXPECTED_COUNT,
+        "family_record_count": OFFICIAL_FAMILY_TOTAL,
+        "frozen_manifest_sha256": sha256_bytes(canonical_repository_bytes(FROZEN_MANIFEST)),
+        "pilot_source_ids_repaired": sorted(
+            record["source_id"] for record in records if record["source_id"] in pilot
+        ),
+        "preserved_baseline_source_ids": sorted(OFFICIAL_PRESERVED_BASELINE_SOURCE_IDS),
+        "records": [
+            {
+                "original_url": record["original_url"],
+                "retrieval_url": record["retrieval_url"],
+                "retrieval_url_basis": record["retrieval_url_basis"],
+                "source_id": record["source_id"],
+                "source_surface": urllib.parse.urlsplit(record["retrieval_url"]).netloc.lower(),
+            }
+            for record in records
+        ],
+        "schema_version": SCHEMA_VERSION,
+        "selection_rule": "OFFICIAL_FAMILY_EXCEPT_VERIFIED_PILOT_CHECKPOINTS",
+    }
+
+
 def freeze() -> None:
     manifest = build_frozen_manifest()
     write_json(FROZEN_MANIFEST, manifest)
     write_json(EXPANSION_SELECTION, build_expansion_selection(manifest))
     write_json(HNN_SELECTION, build_hnn_selection(manifest))
+    write_json(OFFICIAL_SELECTION, build_official_selection(manifest))
     write_archive_manifest()
     print(
         f"Frozen {manifest['frozen_record_count']} records; "
         f"approved pilot contains {manifest['pilot_record_count']} records; "
         f"{EXPANSION_BATCH_ID} contains {EXPANSION_EXPECTED_COUNT} records; "
-        f"{HNN_BATCH_ID} contains {HNN_EXPECTED_COUNT} records."
+        f"{HNN_BATCH_ID} contains {HNN_EXPECTED_COUNT} records; "
+        f"{OFFICIAL_BATCH_ID} contains {OFFICIAL_EXPECTED_COUNT} records."
     )
 
 
@@ -692,6 +769,10 @@ def extract_identity(body: bytes, content_type: str | None) -> dict[str, Any]:
             parsed = json.loads(text)
             item = parsed[0] if isinstance(parsed, list) and parsed else parsed
             if isinstance(item, dict):
+                # Zendesk Help Center responses wrap the canonical article
+                # metadata and body in a top-level ``article`` object.
+                if isinstance(item.get("article"), dict):
+                    item = item["article"]
                 title = item.get("title")
                 if isinstance(title, dict):
                     title = title.get("rendered")
@@ -733,14 +814,20 @@ def compare_identity(record: dict[str, Any], final_url: str, observed: dict[str,
     final = normalized_url(final_url)
     canonical = normalized_url(observed.get("canonical_url"))
     candidates = [value for value in (final, canonical) if value]
-    if record["source_id"] == "SRC-OFF-076F496F0A6CA989" and "raw.githubusercontent.com/staratlasmeta/factory/" in final_url:
-        return {
-            "expected_url": record.get("original_url"),
-            "observed_canonical_url": observed.get("canonical_url"),
-            "observed_final_url": final_url,
-            "reasons": ["IMMUTABLE_GITHUB_REPOSITORY_AND_README_PATH_MATCH"],
-            "status": "CONSISTENT",
-        }
+    expected_github = urllib.parse.urlsplit(record.get("retrieval_url") or "")
+    github_match = re.fullmatch(r"/repos/([^/]+)/([^/]+)/readme", expected_github.path.rstrip("/"), re.I)
+    final_github = urllib.parse.urlsplit(final_url)
+    if expected_github.netloc.lower() == "api.github.com" and github_match and final_github.netloc.lower() == "raw.githubusercontent.com":
+        owner, repository = github_match.groups()
+        expected_raw_prefix = f"/{owner}/{repository}/".lower()
+        if final_github.path.lower().startswith(expected_raw_prefix):
+            return {
+                "expected_url": record.get("original_url"),
+                "observed_canonical_url": observed.get("canonical_url"),
+                "observed_final_url": final_url,
+                "reasons": ["IMMUTABLE_GITHUB_REPOSITORY_AND_README_PATH_MATCH"],
+                "status": "CONSISTENT",
+            }
     if expected and expected in candidates:
         return {
             "expected_url": record.get("original_url"),
@@ -805,7 +892,22 @@ def raw_paths(record: dict[str, Any]) -> tuple[Path, Path]:
 
 
 def github_immutable_target(record: dict[str, Any], opener: Any) -> tuple[str, str]:
-    api_url = "https://api.github.com/repos/staratlasmeta/factory/commits?path=README.md&per_page=1"
+    parsed = urllib.parse.urlsplit(record["retrieval_url"])
+    match = re.fullmatch(r"/repos/([^/]+)/([^/]+)/readme", parsed.path.rstrip("/"), re.I)
+    if parsed.netloc.lower() != "api.github.com" or not match:
+        raise ValueError(f"UNSUPPORTED_GITHUB_README_URL:{record['retrieval_url']}")
+    owner, repository = match.groups()
+    readme_request = urllib.request.Request(
+        record["retrieval_url"],
+        headers={"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT},
+    )
+    with opener.open(readme_request, timeout=TIMEOUT_SECONDS) as response:
+        readme = json.loads(response.read().decode("utf-8"))
+    readme_path = readme.get("path") if isinstance(readme, dict) else None
+    if not isinstance(readme_path, str) or not readme_path:
+        raise ValueError("GITHUB_README_PATH_NOT_RESOLVED")
+    query = urllib.parse.urlencode({"path": readme_path, "per_page": 1})
+    api_url = f"https://api.github.com/repos/{owner}/{repository}/commits?{query}"
     request = urllib.request.Request(
         api_url,
         headers={"Accept": "application/vnd.github+json", "User-Agent": USER_AGENT},
@@ -815,7 +917,8 @@ def github_immutable_target(record: dict[str, Any], opener: Any) -> tuple[str, s
     if not isinstance(payload, list) or not payload or not isinstance(payload[0].get("sha"), str):
         raise ValueError("GITHUB_COMMIT_SHA_NOT_RESOLVED")
     git_sha = payload[0]["sha"]
-    return f"https://raw.githubusercontent.com/staratlasmeta/factory/{git_sha}/README.md", git_sha
+    encoded_path = "/".join(urllib.parse.quote(part, safe="") for part in readme_path.split("/"))
+    return f"https://raw.githubusercontent.com/{owner}/{repository}/{git_sha}/{encoded_path}", git_sha
 
 
 def retrieval_classification(record: dict[str, Any], retrieval_url: str, final_url: str, git_sha: str | None) -> tuple[str, str, str | None]:
@@ -868,6 +971,28 @@ def verified_checkpoint(record: dict[str, Any]) -> dict[str, Any] | None:
         return None
     if provenance.get("source_id") != record["source_id"]:
         return None
+    current_identity = provenance.get("identity_comparison", {})
+    if current_identity.get("status") == "UNRESOLVED":
+        observed = extract_identity(body, provenance.get("content_type"))
+        identity = compare_identity(record, provenance["response"]["final_url"], observed)
+        if identity.get("status") in {"MATCH", "CONSISTENT"}:
+            git_sha = (
+                provenance.get("snapshot_timestamp_or_git_sha")
+                if provenance.get("retrieval_tier") == "IMMUTABLE_GIT_COMMIT_OR_BLOB"
+                else None
+            )
+            retrieval_tier, captured_disposition, _ = retrieval_classification(
+                record,
+                provenance["request"]["retrieval_url"],
+                provenance["response"]["final_url"],
+                git_sha,
+            )
+            provenance["identity_comparison"] = identity
+            provenance["manual_review_required"] = False
+            provenance["observed_document"] = observed
+            provenance["retrieval_tier"] = retrieval_tier
+            provenance["terminal_disposition"] = captured_disposition
+            write_json(provenance_path, provenance)
     return provenance
 
 
@@ -932,6 +1057,10 @@ def build_archive_manifest() -> dict[str, Any]:
         "hnn_resolution_ledger_sha256": sha256_bytes(portable_artifact_bytes(HNN_RESOLUTION_LEDGER)) if HNN_RESOLUTION_LEDGER.exists() else None,
         "hnn_selection_path": relative(HNN_SELECTION),
         "hnn_selection_sha256": sha256_bytes(portable_artifact_bytes(HNN_SELECTION)) if HNN_SELECTION.exists() else None,
+        "official_batch_id": OFFICIAL_BATCH_ID,
+        "official_record_count": OFFICIAL_EXPECTED_COUNT,
+        "official_selection_path": relative(OFFICIAL_SELECTION),
+        "official_selection_sha256": sha256_bytes(portable_artifact_bytes(OFFICIAL_SELECTION)) if OFFICIAL_SELECTION.exists() else None,
         "pilot_record_count": len(PILOT_SOURCE_IDS),
         "pilot_selection_path": relative(PILOT_SELECTION),
         "pilot_selection_sha256": sha256_bytes(canonical_repository_bytes(PILOT_SELECTION)) if PILOT_SELECTION.exists() else None,
@@ -1033,13 +1162,20 @@ def retrieve_record(
         opener = urllib.request.build_opener(redirects)
         retrieval_url = record["retrieval_url"]
         git_sha: str | None = None
-        if record["source_id"] == "SRC-OFF-076F496F0A6CA989":
-            retrieval_url, git_sha = github_immutable_target(record, opener)
-        request = urllib.request.Request(
-            retrieval_url,
-            headers={"Accept": "text/html,application/json,application/xhtml+xml;q=0.9,*/*;q=0.5", "User-Agent": USER_AGENT},
-        )
         try:
+            parsed_retrieval = urllib.parse.urlsplit(retrieval_url)
+            if (
+                parsed_retrieval.netloc.lower() == "api.github.com"
+                and re.fullmatch(r"/repos/[^/]+/[^/]+/readme", parsed_retrieval.path.rstrip("/"), re.I)
+            ):
+                retrieval_url, git_sha = github_immutable_target(record, opener)
+            request = urllib.request.Request(
+                retrieval_url,
+                headers={
+                    "Accept": "text/html,application/json,application/xhtml+xml;q=0.9,*/*;q=0.5",
+                    "User-Agent": USER_AGENT,
+                },
+            )
             if record.get("transport") == "CURL_PUBLIC_HTTP":
                 body, http_status, final_url, content_type, headers, redirect_chain = fetch_public_http_with_curl(
                     retrieval_url
@@ -1205,8 +1341,9 @@ def write_summary() -> None:
     pilot_ledger = read_jsonl(RETRIEVAL_LEDGER)
     expansion_ledger = read_jsonl(EXPANSION_RETRIEVAL_LEDGER)
     hnn_ledger = read_jsonl(HNN_RETRIEVAL_LEDGER)
+    official_ledger = read_jsonl(OFFICIAL_RETRIEVAL_LEDGER)
     effective_by_source: dict[str, dict[str, Any]] = {}
-    for item in pilot_ledger + expansion_ledger + hnn_ledger:
+    for item in pilot_ledger + expansion_ledger + hnn_ledger + official_ledger:
         effective_by_source[item["source_id"]] = item
     all_ledger = [effective_by_source[source_id] for source_id in sorted(effective_by_source)]
     dispositions = Counter(item["terminal_disposition"] for item in all_ledger)
@@ -1218,8 +1355,24 @@ def write_summary() -> None:
     hnn_effective = [item for item in all_ledger if item["source_family"] == "hologram-news-network"]
     hnn_preserved = [item for item in hnn_effective if item.get("body_path")]
     hnn_manual = [item for item in hnn_effective if item["manual_review_required"]]
-    if expansion_complete and hnn_terminal and len(hnn_preserved) == HNN_FAMILY_TOTAL and not hnn_manual:
-        status = "AEPHIA_AND_HNN_FAMILY_RECOVERY_COMPLETE"
+    official_terminal = len(official_ledger) == OFFICIAL_EXPECTED_COUNT
+    official_effective = [item for item in all_ledger if item["source_family"] == "official-star-atlas"]
+    official_preserved = [item for item in official_effective if item.get("body_path")]
+    official_manual = [item for item in official_effective if item["manual_review_required"]]
+    if (
+        expansion_complete
+        and hnn_terminal
+        and len(hnn_preserved) == HNN_FAMILY_TOTAL
+        and not hnn_manual
+        and official_terminal
+        and len(official_preserved) == OFFICIAL_FAMILY_TOTAL
+        and not official_manual
+    ):
+        status = "AEPHIA_HNN_AND_OFFICIAL_FAMILY_RECOVERY_COMPLETE"
+    elif expansion_complete and hnn_terminal and len(hnn_preserved) == HNN_FAMILY_TOTAL and not hnn_manual and official_terminal:
+        status = "AEPHIA_AND_HNN_COMPLETE_OFFICIAL_TERMINALLY_DISPOSITIONED_WITH_EXCEPTIONS"
+    elif expansion_complete and hnn_terminal and len(hnn_preserved) == HNN_FAMILY_TOTAL and not hnn_manual:
+        status = "AEPHIA_AND_HNN_COMPLETE_OFFICIAL_PENDING"
     elif expansion_complete and hnn_terminal:
         status = "AEPHIA_COMPLETE_HNN_TERMINALLY_DISPOSITIONED_WITH_EXCEPTIONS"
     elif expansion_complete:
@@ -1231,6 +1384,7 @@ def write_summary() -> None:
             "pilot-20": summarize_batch(pilot_ledger, len(PILOT_SOURCE_IDS)),
             EXPANSION_BATCH_ID: summarize_batch(expansion_ledger, EXPANSION_EXPECTED_COUNT),
             HNN_BATCH_ID: summarize_batch(hnn_ledger, HNN_EXPECTED_COUNT),
+            OFFICIAL_BATCH_ID: summarize_batch(official_ledger, OFFICIAL_EXPECTED_COUNT),
         },
         "campaign_id": CAMPAIGN_ID,
         "distinct_records_attempted": len({item["source_id"] for item in all_ledger}),
@@ -1240,6 +1394,10 @@ def write_summary() -> None:
         "hnn_family_records": HNN_FAMILY_TOTAL,
         "hnn_manual_review_count": len(hnn_manual),
         "hnn_raw_bodies_preserved": len(hnn_preserved),
+        "official_completion_records": OFFICIAL_EXPECTED_COUNT,
+        "official_family_records": OFFICIAL_FAMILY_TOTAL,
+        "official_manual_review_count": len(official_manual),
+        "official_raw_bodies_preserved": len(official_preserved),
         "identity_status_counts": dict(sorted(identity.items())),
         "manual_review_count": len(manual),
         "pilot_records": len(PILOT_SOURCE_IDS),
@@ -1260,6 +1418,9 @@ def write_summary() -> None:
         f"- HNN completion records: {summary['hnn_completion_records']}",
         f"- HNN family raw bodies preserved: {summary['hnn_raw_bodies_preserved']}/{summary['hnn_family_records']}",
         f"- HNN manual review: {summary['hnn_manual_review_count']}",
+        f"- Official completion records: {summary['official_completion_records']}",
+        f"- Official family raw bodies preserved: {summary['official_raw_bodies_preserved']}/{summary['official_family_records']}",
+        f"- Official manual review: {summary['official_manual_review_count']}",
         f"- Distinct records attempted: {summary['distinct_records_attempted']}",
         f"- URLs attempted: {summary['urls_attempted']}",
         f"- URLs retrieved: {summary['urls_retrieved']}",
@@ -1311,9 +1472,10 @@ def retrieve_batch(
         previous = existing_ledger.get(source_id)
         checkpoint = verified_checkpoint(record)
         if previous and ((previous.get("body_path") and checkpoint) or (not previous.get("body_path") and not retry_failures)):
-            ledger.append(previous)
+            ledger.append(ledger_from_provenance(record, checkpoint, True) if checkpoint else previous)
             attempts.extend(existing_attempts.get(source_id, []))
-            print(f"Reusing terminal checkpoint {source_id}: {previous['terminal_disposition']}", flush=True)
+            reused = ledger[-1]
+            print(f"Reusing terminal checkpoint {source_id}: {reused['terminal_disposition']}", flush=True)
             continue
         host = urllib.parse.urlsplit(record["retrieval_url"]).netloc.lower()
         if host in blocked_hosts:
@@ -1522,6 +1684,25 @@ def retrieve_hnn_completion(retry_failures: bool = False) -> None:
     write_archive_manifest()
 
 
+def retrieve_official_completion(retry_failures: bool = False) -> None:
+    if not OFFICIAL_SELECTION.exists():
+        raise RuntimeError("Run `freeze` before official-source completion retrieval.")
+    source_ids = ids_from_selection(read_json(OFFICIAL_SELECTION))
+    if len(source_ids) != OFFICIAL_EXPECTED_COUNT:
+        raise RuntimeError(
+            f"{OFFICIAL_BATCH_ID} selection must contain {OFFICIAL_EXPECTED_COUNT} Source IDs."
+        )
+    retrieve_batch(
+        source_ids,
+        OFFICIAL_RETRIEVAL_LEDGER,
+        OFFICIAL_RETRY_LEDGER,
+        OFFICIAL_MANUAL_REVIEW_QUEUE,
+        OFFICIAL_BATCH_ID,
+        retry_failures,
+        OFFICIAL_REQUEST_DELAY_SECONDS,
+    )
+
+
 def ids_from_selection(value: Any) -> list[str]:
     if isinstance(value, dict):
         for key in ("pilot_source_ids", "source_ids"):
@@ -1665,6 +1846,52 @@ def validate() -> bool:
                 for record in hnn_selected_records
             ),
             f"allowed_hosts={sorted(HNN_ALLOWED_SOURCE_HOSTS)}; basis=PRIOR_REQUESTED_URL",
+        )
+
+    actual_official_selection = read_json(OFFICIAL_SELECTION) if OFFICIAL_SELECTION.exists() else None
+    expected_official_selection = build_official_selection(actual) if actual else None
+    check(
+        "OFFICIAL_SELECTION_DETERMINISTIC",
+        actual_official_selection == expected_official_selection,
+        f"batch={OFFICIAL_BATCH_ID}",
+    )
+    official_ids = ids_from_selection(actual_official_selection or {})
+    check(
+        "OFFICIAL_COMPLETION_RECORD_COUNT",
+        len(official_ids) == OFFICIAL_EXPECTED_COUNT and len(official_ids) == len(set(official_ids)),
+        f"observed={len(official_ids)} expected={OFFICIAL_EXPECTED_COUNT}",
+    )
+    check(
+        "OFFICIAL_VERIFIED_BASELINE_DISJOINT",
+        not set(official_ids).intersection(OFFICIAL_PRESERVED_BASELINE_SOURCE_IDS),
+        f"preserved_baseline={len(OFFICIAL_PRESERVED_BASELINE_SOURCE_IDS)}",
+    )
+    if actual:
+        official_family_ids = {
+            record["source_id"]
+            for record in actual["records"]
+            if record["source_family"] == "official-star-atlas"
+        }
+        check(
+            "OFFICIAL_FAMILY_SELECTION_COVERAGE",
+            set(official_ids) | set(OFFICIAL_PRESERVED_BASELINE_SOURCE_IDS) == official_family_ids,
+            (
+                f"selection={len(official_ids)} baseline={len(OFFICIAL_PRESERVED_BASELINE_SOURCE_IDS)} "
+                f"family={len(official_family_ids)}"
+            ),
+        )
+        official_selected_records = [
+            records_by_id[source_id] for source_id in official_ids if source_id in records_by_id
+        ]
+        check(
+            "OFFICIAL_SOURCE_SURFACE_ALLOWLIST",
+            all(
+                urllib.parse.urlsplit(record["retrieval_url"]).netloc.lower()
+                in OFFICIAL_ALLOWED_SOURCE_HOSTS
+                and record["retrieval_url_basis"] in {"PRIOR_FINAL_URL", "PRIOR_REQUESTED_URL"}
+                for record in official_selected_records
+            ),
+            f"allowed_hosts={sorted(OFFICIAL_ALLOWED_SOURCE_HOSTS)}",
         )
 
     pilot_baseline_ok = all(
@@ -1891,6 +2118,81 @@ def validate() -> bool:
     else:
         check("HNN_AUTHORIZED_PENDING_RETRIEVAL", actual_hnn_selection is not None, f"{HNN_BATCH_ID} has no retrieval ledger yet.")
 
+    official_ledger = read_jsonl(OFFICIAL_RETRIEVAL_LEDGER)
+    official_attempts = read_jsonl(OFFICIAL_RETRY_LEDGER)
+    if official_ledger:
+        official_ledger_ids = [item.get("source_id") for item in official_ledger]
+        check(
+            "OFFICIAL_TERMINAL_IDS",
+            sorted(official_ledger_ids) == sorted(official_ids)
+            and len(official_ledger_ids) == len(set(official_ledger_ids)),
+            f"terminal_records={len(official_ledger_ids)} expected={len(official_ids)}",
+        )
+        official_raw_ok = True
+        official_provenance_ok = True
+        official_fields_ok = True
+        official_git_ok = True
+        required_official_fields = {
+            "source_id", "original_url", "final_url", "retrieval_tier", "capture_utc",
+            "http_status", "content_type", "byte_count", "headers", "redirect_chain",
+            "raw_sha256", "snapshot_timestamp_or_git_sha", "identity_comparison",
+            "temporal_qualifier", "retrieval_batch_id",
+        }
+        for item in official_ledger:
+            if not item.get("body_path"):
+                continue
+            body_path = REPO_ROOT / item["body_path"]
+            provenance_path = REPO_ROOT / item["provenance_path"]
+            if not body_path.exists() or sha256_bytes(body_path.read_bytes()) != item["body_sha256"]:
+                official_raw_ok = False
+            if not provenance_path.exists():
+                official_provenance_ok = False
+                continue
+            provenance = read_json(provenance_path)
+            if (
+                provenance.get("source_id") != item["source_id"]
+                or provenance.get("raw_body", {}).get("sha256") != item["body_sha256"]
+                or provenance.get("retrieval_batch_id") != OFFICIAL_BATCH_ID
+            ):
+                official_provenance_ok = False
+            if not required_official_fields.issubset(provenance):
+                official_fields_ok = False
+            source_record = records_by_id.get(item["source_id"], {}) if actual else {}
+            if urllib.parse.urlsplit(source_record.get("retrieval_url") or "").netloc.lower() == "api.github.com":
+                git_sha = provenance.get("snapshot_timestamp_or_git_sha")
+                if (
+                    provenance.get("retrieval_tier") != "IMMUTABLE_GIT_COMMIT_OR_BLOB"
+                    or not isinstance(git_sha, str)
+                    or not re.fullmatch(r"[0-9a-f]{40}", git_sha)
+                ):
+                    official_git_ok = False
+        check("OFFICIAL_RAW_BODY_CHECKSUMS", official_raw_ok, "Every official-source body matches its ledger SHA-256.")
+        check("OFFICIAL_PROVENANCE_RECONCILES", official_provenance_ok, "Every official-source provenance record reconciles to its batch, Source ID, and body.")
+        check("OFFICIAL_REQUIRED_PROVENANCE_FIELDS", official_fields_ok, "Every official-source response has the complete provenance field set.")
+        check("OFFICIAL_GITHUB_IMMUTABILITY", official_git_ok, "Every GitHub README carrier resolves to a 40-character immutable commit target.")
+        official_manual = read_jsonl(OFFICIAL_MANUAL_REVIEW_QUEUE)
+        check(
+            "OFFICIAL_MANUAL_REVIEW_QUEUE",
+            sorted(item["source_id"] for item in official_manual)
+            == sorted(item["source_id"] for item in official_ledger if item.get("manual_review_required")),
+            "Official-source manual-review queue equals its flagged terminal records.",
+        )
+        check(
+            "OFFICIAL_RETRY_SCOPE",
+            all(
+                item.get("source_id") in set(official_ids)
+                and item.get("retrieval_batch_id") == OFFICIAL_BATCH_ID
+                for item in official_attempts
+            ),
+            f"attempt_records={len(official_attempts)}",
+        )
+    else:
+        check(
+            "OFFICIAL_AUTHORIZED_PENDING_RETRIEVAL",
+            actual_official_selection is not None,
+            f"{OFFICIAL_BATCH_ID} has no retrieval ledger yet.",
+        )
+
     check(
         "CROSS_BATCH_SOURCE_IDS_UNIQUE",
         not {item.get("source_id") for item in ledger}.intersection(
@@ -1912,6 +2214,25 @@ def validate() -> bool:
             else f"overlap={len(hnn_pilot_overlap)} expected_repairs={len(expected_hnn_pilot_repairs)}"
         ),
     )
+    official_pilot_overlap = {item.get("source_id") for item in ledger}.intersection(
+        item.get("source_id") for item in official_ledger
+    )
+    expected_official_pilot_repairs = set(
+        (actual_official_selection or {}).get("pilot_source_ids_repaired", [])
+    )
+    check(
+        "OFFICIAL_PILOT_REPAIR_SCOPE",
+        (not official_ledger and not official_pilot_overlap)
+        or official_pilot_overlap == expected_official_pilot_repairs,
+        (
+            "retrieval_pending; overlap=0"
+            if not official_ledger
+            else (
+                f"overlap={len(official_pilot_overlap)} "
+                f"expected_repairs={len(expected_official_pilot_repairs)}"
+            )
+        ),
+    )
 
     check(
         "PROTECTED_EVIDENCE_UNCHANGED",
@@ -1919,7 +2240,7 @@ def validate() -> bool:
         "Frozen extraction and Source Record checksums are unchanged.",
     )
     effective_terminal_by_source: dict[str, dict[str, Any]] = {}
-    for item in ledger + expansion_ledger + hnn_ledger:
+    for item in ledger + expansion_ledger + hnn_ledger + official_ledger:
         effective_terminal_by_source[item["source_id"]] = item
     all_terminal_ledger = [
         effective_terminal_by_source[source_id] for source_id in sorted(effective_terminal_by_source)
@@ -2027,7 +2348,7 @@ def parse_args() -> argparse.Namespace:
     selection.add_argument("--pilot", action="store_true", help="Retrieve only the approved 20-record pilot.")
     selection.add_argument(
         "--batch",
-        choices=[EXPANSION_BATCH_ID, HNN_BATCH_ID],
+        choices=[EXPANSION_BATCH_ID, HNN_BATCH_ID, OFFICIAL_BATCH_ID],
         help="Retrieve one explicitly authorized fixed expansion batch.",
     )
     retrieve_parser.add_argument("--retry-failures", action="store_true", help="Explicitly retry prior terminal access/failure records.")
@@ -2047,6 +2368,8 @@ def main() -> int:
                 retrieve_expansion(args.retry_failures)
             elif args.batch == HNN_BATCH_ID:
                 retrieve_hnn_completion(args.retry_failures)
+            elif args.batch == OFFICIAL_BATCH_ID:
+                retrieve_official_completion(args.retry_failures)
         elif args.command == "validate":
             return 0 if validate() else 1
     except (RuntimeError, ValueError, OSError, json.JSONDecodeError) as exc:

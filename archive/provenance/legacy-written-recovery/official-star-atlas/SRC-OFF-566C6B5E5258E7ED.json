@@ -1,0 +1,68 @@
+{
+  "byte_count": 33055,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:04.674722Z",
+  "captured_at": "2026-07-22T23:04:04.674722Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/apis-and-data",
+  "headers": {
+    "content-length": "33055",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:04 GMT",
+    "etag": "\"69e10f4e-811f\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/apis-and-data",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/apis-and-data",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "APIs and Data | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/apis-and-data",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-566C6B5E5258E7ED.json",
+  "raw_body": {
+    "byte_length": 33055,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-566C6B5E5258E7ED/response-body.bin",
+    "sha256": "6fbc7b9914d99c156da53b2635f2f445334bd75aebea7569785c2141f2a46d68"
+  },
+  "raw_sha256": "6fbc7b9914d99c156da53b2635f2f445334bd75aebea7569785c2141f2a46d68",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/apis-and-data",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/apis-and-data",
+    "headers": {
+      "content-length": "33055",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:04 GMT",
+      "etag": "\"69e10f4e-811f\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-566C6B5E5258E7ED",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:04.674722Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,62 @@
+{
+  "byte_count": 28613,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:52.221251Z",
+  "captured_at": "2026-07-22T23:05:52.221251Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053502454547-How-to-Use-Crew-Members-in-SAGE-for-Crafting-Operations",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:52 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053502454547-How-to-Use-Crew-Members-in-SAGE-for-Crafting-Operations",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053502454547-How-to-Use-Crew-Members-in-SAGE-for-Crafting-Operations",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053502454547-How-to-Use-Crew-Members-in-SAGE-for-Crafting-Operations",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053502454547-How-to-Use-Crew-Members-in-SAGE-for-Crafting-Operations",
+    "document_title": "How to Use Crew Members in SAGE for Crafting Operations? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053502454547-How-to-Use-Crew-Members-in-SAGE-for-Crafting-Operations",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-F16EDE163D73ECE2.json",
+  "raw_body": {
+    "byte_length": 28613,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-F16EDE163D73ECE2/response-body.bin",
+    "sha256": "cfdfdee8c571f3ba0f5e406725924d3a05f6d65a8e9742b7e6596bd4d20b5a85"
+  },
+  "raw_sha256": "cfdfdee8c571f3ba0f5e406725924d3a05f6d65a8e9742b7e6596bd4d20b5a85",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053502454547-How-to-Use-Crew-Members-in-SAGE-for-Crafting-Operations",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053502454547-How-to-Use-Crew-Members-in-SAGE-for-Crafting-Operations",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:52 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-F16EDE163D73ECE2",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:52.221251Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

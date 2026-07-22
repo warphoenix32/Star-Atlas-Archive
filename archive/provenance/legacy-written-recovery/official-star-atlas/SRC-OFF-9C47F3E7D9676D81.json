@@ -1,0 +1,68 @@
+{
+  "byte_count": 33076,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:53.100394Z",
+  "captured_at": "2026-07-22T23:04:53.100394Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/crew",
+  "headers": {
+    "content-length": "33076",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:53 GMT",
+    "etag": "\"69e10f4e-8134\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/apis-and-data/crew",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/apis-and-data/crew",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Crew | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/apis-and-data/crew",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-9C47F3E7D9676D81.json",
+  "raw_body": {
+    "byte_length": 33076,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-9C47F3E7D9676D81/response-body.bin",
+    "sha256": "af14cebbed08bfac7175c5e9e5f8382174610f167a0e61e68b20187fa20091e0"
+  },
+  "raw_sha256": "af14cebbed08bfac7175c5e9e5f8382174610f167a0e61e68b20187fa20091e0",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/apis-and-data/crew",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/crew",
+    "headers": {
+      "content-length": "33076",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:53 GMT",
+      "etag": "\"69e10f4e-8134\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-9C47F3E7D9676D81",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:53.100394Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

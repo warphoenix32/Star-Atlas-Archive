@@ -1,0 +1,64 @@
+{
+  "byte_count": 64009,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:02.698521Z",
+  "captured_at": "2026-07-22T23:04:02.698521Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/article/star-atlas-feature-reveal-faction-aligned-companies",
+  "headers": {
+    "content-length": "64009",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:04:02 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/article/star-atlas-feature-reveal-faction-aligned-companies",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/article/star-atlas-feature-reveal-faction-aligned-companies",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Star Atlas Feature Reveal: Faction Aligned Companies | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/article/star-atlas-feature-reveal-faction-aligned-companies",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-555CAC4267FC734E.json",
+  "raw_body": {
+    "byte_length": 64009,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-555CAC4267FC734E/response-body.bin",
+    "sha256": "af5033bace2b80020c11f373b70da79e7b981d9b368fc22a535fa33f11d709d2"
+  },
+  "raw_sha256": "af5033bace2b80020c11f373b70da79e7b981d9b368fc22a535fa33f11d709d2",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/article/star-atlas-feature-reveal-faction-aligned-companies",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/article/star-atlas-feature-reveal-faction-aligned-companies",
+    "headers": {
+      "content-length": "64009",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:04:02 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-555CAC4267FC734E",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:02.698521Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

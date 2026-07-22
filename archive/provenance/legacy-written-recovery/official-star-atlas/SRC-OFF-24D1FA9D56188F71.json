@@ -1,0 +1,62 @@
+{
+  "byte_count": 31963,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:29.679801Z",
+  "captured_at": "2026-07-22T23:03:29.679801Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:29 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR",
+    "document_title": "How to Import Assets in C4 PTR – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-24D1FA9D56188F71.json",
+  "raw_body": {
+    "byte_length": 31963,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-24D1FA9D56188F71/response-body.bin",
+    "sha256": "193a0231ed78d8cf05ac39a3d63278fd0ef866ee8b2fcb34e420da28e6959870"
+  },
+  "raw_sha256": "193a0231ed78d8cf05ac39a3d63278fd0ef866ee8b2fcb34e420da28e6959870",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:29 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-24D1FA9D56188F71",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:29.679801Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

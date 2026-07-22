@@ -1,0 +1,62 @@
+{
+  "byte_count": 27330,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:30.050994Z",
+  "captured_at": "2026-07-22T23:04:30.050994Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47021307964819-What-is-the-Star-Atlas-DAO",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:30 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47021307964819-What-is-the-Star-Atlas-DAO",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021307964819-What-is-the-Star-Atlas-DAO",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47021307964819-What-is-the-Star-Atlas-DAO",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021307964819-What-is-the-Star-Atlas-DAO",
+    "document_title": "What is the Star Atlas DAO? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47021307964819-What-is-the-Star-Atlas-DAO",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-7A4C3924BE52B1A6.json",
+  "raw_body": {
+    "byte_length": 27330,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-7A4C3924BE52B1A6/response-body.bin",
+    "sha256": "aed4b9c831b9535cb29525e20bb0dfcdf4955a6b404d43ffccde00bc8f5cf629"
+  },
+  "raw_sha256": "aed4b9c831b9535cb29525e20bb0dfcdf4955a6b404d43ffccde00bc8f5cf629",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47021307964819-What-is-the-Star-Atlas-DAO",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47021307964819-What-is-the-Star-Atlas-DAO",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:30 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-7A4C3924BE52B1A6",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:30.050994Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

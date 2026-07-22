@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- v27672 -->
+
+
+  <title>How to Set Up a Claim Stake in C4 PTR &ndash; Star Atlas</title>
+
+  
+
+  <meta name="description" content="Claim Stakes allow you to produce resources from planets in C4 PTR.This guide explains how to place a Claim Stake, build the required..." /><meta property="og:image" content="https://support.staratlas.com/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Star Atlas" />
+<meta property="og:title" content="How to Set Up a Claim Stake in C4 PTR" />
+<meta property="og:description" content="Claim Stakes allow you to produce resources from planets in C4 PTR.This guide explains how to place a Claim Stake, build the required Core Hub, fuel the Claim Stake, and start production.Important:..." />
+<meta property="og:url" content="https://support.staratlas.com/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR" />
+<link rel="canonical" href="https://support.staratlas.com/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR">
+<link rel="alternate" hreflang="en-us" href="https://support.staratlas.com/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR">
+<link rel="alternate" hreflang="x-default" href="https://support.staratlas.com/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR">
+
+  <link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-a0388d981956f946c99f5a52a4eaf6f2.css" media="all" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/hc/theming_assets/25945259/46839284643731/style.css?digest=53556769366547">
+
+  <link rel="icon" type="image/x-icon" href="/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK">
+
+    
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!-- Make the translated search clear button label available for use in JS -->
+<!-- See buildClearSearchButton() in script.js -->
+<script type="text/javascript">window.searchClearButtonLabelLocalized = "Clear search";</script>
+<script type="text/javascript">
+  // Load ES module polyfill only for browsers that don't support ES modules
+  if (!(HTMLScriptElement.supports && HTMLScriptElement.supports('importmap'))) {
+    document.write('<script async src="/hc/theming_assets/01KAY06KRK2EHRFAQEGJA8SA7F"><\/script>');
+  }
+</script>
+<script type="importmap">
+{
+  "imports": {
+    "new-request-form": "/hc/theming_assets/01KXGNVKKP3X1MT9CVQY4XJPDZ",
+    "request-list": "/hc/theming_assets/01KXGNVKJ17B5A2VK5GKY3KTPW",
+    "flash-notifications": "/hc/theming_assets/01KXGNVKDXQ7E6RW5E0ZX1YMVC",
+    "service-catalog": "/hc/theming_assets/01KXQYK7RJ0D5KM24TTKX2W5VE",
+    "approval-requests": "/hc/theming_assets/01KXGNVKHV47HFYPN54FFYSG11",
+    "approval-requests-translations": "/hc/theming_assets/01KXGNVKN11YG0JKGHSB8G7XV3",
+    "new-request-form-translations": "/hc/theming_assets/01KXGNVKKVV2H99MQV1HE1R5K1",
+    "request-list-translations": "/hc/theming_assets/01KXGNVKSCBMRYT3R4GGHQ7BX9",
+    "service-catalog-translations": "/hc/theming_assets/01KXGNVMJZZP1NNHB36N2CZTGF",
+    "shared": "/hc/theming_assets/01KXGNVKKVXQ4JS5G1F3HNGY3A",
+    "ticket-fields": "/hc/theming_assets/01KXGNVKM4NP6S5BKBN30QZ63H",
+    "wysiwyg": "/hc/theming_assets/01KP8ZMKQK39Z6D9DF091V2YG4"
+  }
+}
+</script>
+<script type="module">
+  import { renderFlashNotifications } from "flash-notifications";
+
+  const settings = {"brand_color":"rgba(30, 94, 134, 100)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","show_brand_name":true,"favicon":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","homepage_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","service_catalog_hero_image":"/hc/theming_assets/01KGMAMFC4RRMVYH6CJH4A3J31","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":false,"show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"show_suggested_articles":true};
+  const baseLocale = "en-us";
+
+  renderFlashNotifications(settings, baseLocale);
+</script>
+
+  
+</head>
+<body class="">
+  
+  
+  
+
+  <a class="skip-navigation" tabindex="1" href="#main-content">Skip to main content</a>
+
+<header class="header">
+  <div class="logo">
+    <a title="Home" href="/hc/en-us">
+      <img src="/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK" alt="Star Atlas Help Center home page" />
+      
+        <span aria-hidden="true">Star Atlas</span>
+      
+    </a>
+  </div>
+
+  <div class="nav-wrapper-desktop">
+    <nav class="user-nav" id="user-nav" aria-label="User navigation">
+      <ul class="user-nav-list">
+        <li></li>
+        <li></li>
+        <li><a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a></li>
+        
+          <li>
+            <a class="sign-in" role="link" rel="nofollow" data-auth-action="signin" title="Opens a dialog" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR">
+              Sign in
+            </a>
+          </li>
+        
+      </ul>
+    </nav>
+          
+    
+  </div>
+
+  <div class="nav-wrapper-mobile">
+    <button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
+      </svg>
+    </button>
+    <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+      <ul class="menu-list-mobile-items">
+        
+          <li class="item">
+            <a role="link" rel="nofollow" data-auth-action="signin" title="Opens a dialog" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR">
+              Sign in
+            </a>
+          </li>
+          <li class="nav-divider"></li>
+        
+       
+        <li class="item"></li>
+        <li class="item"><a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a></li>
+        <li class="item"></li>
+        <li class="nav-divider"></li>
+        
+       
+      </ul>
+          
+    </nav>
+  </div>
+
+</header>
+
+
+  <main role="main">
+    <div class="container-divider"></div>
+<div class="container">
+  <div class="sub-nav">
+    <nav aria-label="Breadcrumb">
+  <ol class="breadcrumbs">
+    
+      <li>
+        
+          <a href="/hc/en-us">Star Atlas</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/categories/47053502053651-SAGE">SAGE</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/sections/52241893976595-C4-PTR">C4 PTR</a>
+        
+      </li>
+    
+  </ol>
+</nav>
+
+    <div class="search-container">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
+        <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+        <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+      </svg>
+      <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" /><input type="hidden" name="category" id="category" value="47053502053651" autocomplete="off" />
+<input type="search" name="query" id="query" placeholder="Search" aria-label="Search" /></form>
+    </div>
+  </div>
+
+  <div class="article-container" id="article-container">
+    <aside class="article-sidebar" aria-labelledby="section-articles-title">
+      
+        <div class="collapsible-sidebar">
+          <button type="button" class="collapsible-sidebar-toggle" aria-labelledby="section-articles-title" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon chevron-icon">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon x-icon">
+              <path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
+            </svg>
+          </button>
+          <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+            Articles in this section
+          </span>
+          <div class="collapsible-sidebar-body">
+            <ul>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Get Started in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52244580822419-C4-PTR-Menu-Overview" 
+                     class="sidenav-item "
+                     >
+                       C4 PTR Menu Overview
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243941755923-How-to-Use-the-C4-PTR-Map" 
+                     class="sidenav-item "
+                     >
+                       How to Use the C4 PTR Map
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Import Assets in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Create and Use a Fleet in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52273962138771-How-to-Move-a-Fleet-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Move a Fleet in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Mine Resources in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52275761937555-How-to-Scan-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Scan in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR" 
+                     class="sidenav-item current-article"
+                     aria-current="page">
+                       How to Set Up a Claim Stake in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52250841633811-C4-PTR-Game-and-Account-Settings-Overview" 
+                     class="sidenav-item "
+                     >
+                       C4 PTR Game and Account Settings Overview
+                  </a>
+                </li>
+              
+            </ul>
+            
+              <a href="/hc/en-us/sections/52241893976595-C4-PTR" class="article-sidebar-item">See more</a>
+            
+          </div>
+        </div>
+      
+    </aside>
+
+    <article id="main-content" class="article">
+      <header class="article-header">
+        <h1 title="How to Set Up a Claim Stake in C4 PTR" class="article-title">
+          How to Set Up a Claim Stake in C4 PTR
+          
+        </h1>
+
+        <div class="article-author">
+          
+          <div class="article-meta">
+            
+
+            <div class="meta-group">
+              
+                <span class="meta-data"><time datetime="2026-06-02T20:05:15Z" title="2026-06-02T20:05:15Z" data-datetime="relative">June 02, 2026 20:05</time></span>
+                <span class="meta-data">Updated</span>
+              
+            </div>
+          </div>
+        </div>
+
+        
+          <div class="article-subscribe"><div data-helper="subscribe" data-json="{&quot;item&quot;:&quot;article&quot;,&quot;url&quot;:&quot;/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR/subscription.json&quot;,&quot;follow_label&quot;:&quot;Follow&quot;,&quot;unfollow_label&quot;:&quot;Unfollow&quot;,&quot;following_label&quot;:&quot;Following&quot;,&quot;can_subscribe&quot;:true,&quot;is_subscribed&quot;:false}"></div></div>
+        
+      </header>
+
+      <section class="article-info">
+        <div class="article-content">
+          <div class="article-body"><p>Claim Stakes allow you to produce resources from planets in C4 PTR.</p><p>This guide explains how to place a Claim Stake, build the required Core Hub, fuel the Claim Stake, and start production.</p><blockquote><p><strong>Important:</strong> Once a Claim Stake and its buildings have been placed, they cannot be removed.</p></blockquote><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4Q4WES8869V04KWWWXZ4BS">Before you start</h2><p>This guide shows the process using the CSS, your faction’s main base.</p><p>The same process can be used at other bases, but if you want to build outside of the CSS, you must transport the Claim Stake to that base using one of your fleets.</p><p>This guide does not provide advice on where to place your Claim Stake or how you should upgrade it. That decision is up to you.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MA25FSVAH8XRWVY5F9R4J">Step 1: Turn on God Mode</h2><p>During PTR, you may need to enable <strong>God Mode</strong> to avoid research requirements for placing a Claim Stake.</p><p>To turn on God Mode:</p><ol><li data-list-item-id="e34814c16c99927e9c3a82621f7ef263f">Exit any menu you are currently in and return to the main map.</li><li data-list-item-id="ed034ce8ac6e6d50e1e558254bf568f95">Click the <strong>Council Rank</strong> icon in the top-right menu bar.</li><li data-list-item-id="e24e6d39f3b14754bfe95a96f874a5782">Click the <strong>God Mode</strong> node near the top middle of the Council Rank tree.</li><li data-list-item-id="e7519083e55ce7a0f806ae38f126c1759">Click <strong>Start Research</strong> in the bottom-right corner.</li><li data-list-item-id="e5c16dcb045fa6a9ac410274f37ee16c2">Refresh your browser.</li></ol><figure class="wysiwyg-image"><img style="aspect-ratio: 2958/1711;" src="/hc/article_attachments/52247034442643" width="2958" height="1711"></figure><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MAGJ7E2G2KRRQQA2MNQYF">Step 2: Choose a base</h2><p>Next, choose the base where you want to place your Claim Stake.</p><p>For this tutorial, you can use the CSS.</p><p>To enter the CSS:</p><ol><li data-list-item-id="ee9310fc50bacde116db569fd518d6466"><p>Click <strong>Go To CSS</strong> in the bottom-right corner of the screen.</p><p><img src="/hc/article_attachments/52247034443283" width="628" height="99"></p></li><li data-list-item-id="e78ee76f331c9d40343cd312c89aaf263"><p>Click <strong>Enter Starbase</strong>.</p><p><img src="/hc/article_attachments/52247018192531" width="620" height="346"></p></li></ol><p>You can also enter another base from the map, but you may need to zoom in to select it.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MAS8W1JWWSQX0JX3VABTY">Step 3: Open the Claims menu</h2><p>Once inside the Starbase:</p><ol><li data-list-item-id="ee8b522ae8dc43eebdeb4eca8e3ae2fc1"><p>Click <strong>Claims</strong> at the bottom of the Starbase menu on the left.</p><p><img src="/hc/article_attachments/52247018193171" width="320" height="646"></p></li><li data-list-item-id="e8926f8da0072781dcbea7683a260b313"><p>Select the planet where you want to place your Claim Stake.</p><p><img src="/hc/article_attachments/52247018193683" width="1896" height="910"></p></li><li data-list-item-id="e062d0f77f3c1526ec44c7f2ad6f24ac9"><p>Click <strong>Place New Claim Stake</strong>.</p><p><img src="/hc/article_attachments/52247034447251" width="886" height="227"></p></li></ol><p>Each planet can yield different resources, so choose carefully.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MAYBQ6KK50GF61Q4PB4WN">Step 4: Place your Claim Stake</h2><p>After opening the Claim Stake placement screen:</p><ol><li data-list-item-id="e3b1cbd863ed0e759d9fae98e9d5aa17b"><p>Select the Claim Stake you want to build from the options on the right.</p><p><img src="/hc/article_attachments/52247018196115" width="861" height="924"></p></li><li data-list-item-id="eeb296fe1887065aab1b6b0ffc0df27fa"><p>Click <strong>Place Claim Stake</strong>.</p><p><img src="/hc/article_attachments/52247018197139" width="799" height="263"></p></li></ol><p>You will then arrive at the main build screen for your Claim Stake.</p><p>Every Claim Stake requires a <strong>Core Hub</strong> before it can become active.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MB376E4TYK2FJRTN7G63A">Step 5: Check the required Core Hub materials</h2><p>The Core Hub must match the tier of your Claim Stake.</p><p>For example, if you placed a T5 Claim Stake, you need a T5 Core Hub.</p><p>To check the required materials:</p><ol><li data-list-item-id="e68176232181649e5b65b8e2f6b3ee36f"><p>Click the <strong>+</strong> icon next to the required Core Hub.</p><p><img src="/hc/article_attachments/52247034450835" width="888" height="621"></p></li><li data-list-item-id="e1fb91578b413a545f40d69375905ab6c">Review the required components.</li><li data-list-item-id="e9c3d04d1edc304541207609d9b6a1735">Write down the requirements or take a screenshot.</li></ol><p>You will need these components before you can build the Core Hub.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MB8DZV8PXH45E69X1HEAX">Step 6: Gather the required components</h2><p>To build the Core Hub, you need to gather the required components.</p><p>This may involve forming fleets, mining raw goods, and crafting the required materials.</p><p>Once you have the required components:</p><ol><li data-list-item-id="e3ba7fc24618b11835a4c8ba048b03cf3">Return to the base where your Claim Stake is placed.</li><li data-list-item-id="e01e7c30abdccdbd849cf78fda1f3b701">Click <strong>Enter Starbase</strong>.</li><li data-list-item-id="e59de7a4fc4e703b0b4a5b57626f4abec">Click <strong>Claims</strong> in the Starbase menu.</li><li data-list-item-id="e6741c5d6443a5baab07ea6f99468b560"><p>Select your Claim Stake from the right side of the screen.</p><p><img src="/hc/article_attachments/52247018198291" width="894" height="406"></p></li><li data-list-item-id="e833cf8d886e7ccf0eea06384dfad783d"><p>Click the green <strong>Build</strong> button on the right side of your Claim Stake.</p><p><img src="/hc/article_attachments/52247034454803" width="870" height="403"></p></li></ol><p>You will return to the Claim Stake build menu.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MBEWNGB7S06AMPJ9ZPTPF">Step 7: Build the Core Hub</h2><p>Once you are back in the build menu:</p><ol><li data-list-item-id="eb0b538fbd7a6c54782ab82a8b1a59240"><p>Click the <strong>+</strong> icon next to the Core Hub that matches your Claim Stake tier.</p><p><img src="/hc/article_attachments/52247034456595" width="899" height="628"></p></li><li data-list-item-id="e994cf09cc224a512c006940410e5dcbd">Make sure all required resources are shown in green.</li><li data-list-item-id="e369d95fc475c0485c465e7f0ed801e0b"><p>Click <strong>Apply</strong> in the bottom-left corner of the menu.</p><p><img src="/hc/article_attachments/52247034457491" width="700" height="213"></p></li></ol><p>After the Core Hub is built, your Claim Stake can be activated.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MBM9DRPDBSQM1878958P9">Step 8: Fuel the Claim Stake</h2><p>Fuel is required for a Claim Stake to start producing resources.</p><p>To fuel your Claim Stake, you must transfer fuel using one of your fleets.</p><p>Important fuel notes:</p><ul><li data-list-item-id="eabb58aa67b1d9e85f88cd04160068d44">Use <strong>Cargo Hold Fuel</strong>.</li><li data-list-item-id="ebf5de3c81688d254ff97de908fb58f22"><strong>Fuel Pod</strong> fuel cannot be used to load a Claim Stake.</li><li data-list-item-id="eb7644a8b22169ec01d2680cf7c111bf2">The fleet must be undocked and idle.</li></ul><p>To prepare the fleet:</p><ol><li data-list-item-id="e215cf0f2eb0c55fe8ee6b29dc4c9cb03">Go to the Starbase menu.</li><li data-list-item-id="ed8a4dbac0d25502aa0b0df5f7bab9c43">Click <strong>Hangar</strong>.</li><li data-list-item-id="e3ee00d08d9d7a24f39c64384bb739df9">Select one of your fleets, or create one.</li><li data-list-item-id="ec351017e92dae10a1e6e65f162815b76">Load the fleet with <strong>Cargo Hold Fuel</strong>.</li><li data-list-item-id="eef1fbb03550462793e1735c6ede1dbe4">Undock the fleet.</li><li data-list-item-id="ec7843002ab0d6778bd22979066c27904">Leave the fleet idle and undocked.</li></ol><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MBXXRFZ4DA5C3TJ5F6S7F">Step 9: Transfer fuel to the Claim Stake</h2><p>Once your fleet is idle and loaded with Cargo Hold Fuel:</p><ol><li data-list-item-id="e679c9c327278a61ae0e647e7cd6a3483">Click <strong>Claims</strong> in the Starbase menu.</li><li data-list-item-id="e220406fb63644f1726ff99cba9f4ae8a">Select your Claim Stake from the right side.</li><li data-list-item-id="e5b097e5a952e6911421ec56b975bf015"><p>Click <strong>Transfer Cargo</strong> near the top middle of the menu.</p><figure class="wysiwyg-image"><img style="aspect-ratio: 2934/1048;" src="/hc/article_attachments/52247034458131" width="2934" height="1048"></figure></li><li data-list-item-id="ece132f9abe60637b1a944432db9038af">Find your fleet in the <strong>Idle Fleets</strong> box on the bottom-left.</li><li data-list-item-id="e0be6ac6a3ab8fb70e7a907f2bdc4ad0e">Select the fleet.</li><li data-list-item-id="e7884ca625351f8fb3869a35d12a52892">Click <strong>MAX</strong> next to the Cargo Hold Fuel.</li><li data-list-item-id="e3d1e36808a2c6b408d24308c3fddfb3e"><p>Click <strong>Dispatch Transfer</strong> in the bottom-right corner.</p><p><img src="/hc/article_attachments/52247034461843" width="1865" height="1316"></p></li></ol><p>This will start the cargo transfer to your Claim Stake.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MC2WGXNKD4SP3Y039N4H4">Step 10: Complete the transfer</h2><p>When the cargo transfer is complete, your fleet will appear in the <strong>Active Transfers</strong> box.</p><p>To finish the transfer:</p><ol><li data-list-item-id="eab58aabfe21173442073216a09badaa2"><p>Find the fleet in <strong>Active Transfers</strong>.</p><p><img src="/hc/article_attachments/52247034462227" width="1526" height="1417"></p></li><li data-list-item-id="ec66a7d3469c3156134ad1d438c318cec">Click the green <strong>Ready</strong> button next to the fleet.</li></ol><p>Your Claim Stake now has the required fuel and should begin producing resources.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MC74PTVBWZVVPEEF73B65">Step 11: Keep your Claim Stake running</h2><p>Your Claim Stake needs regular maintenance to keep producing.</p><p>Remember:</p><ul><li data-list-item-id="e5b07628ac56a447920af28d4c6b43baf">You must keep your Claim Stake fueled.</li><li data-list-item-id="e9302cf4a8c24a45d67dcab9ea49b6f7a">Claim Stakes have limited cargo space.</li><li data-list-item-id="e1687a0137aab0dcd806a5ac568abbd96">Storage upgrades can increase cargo space.</li><li data-list-item-id="e35df1e3635036fe0ad3adb6956813c00">If the Claim Stake cargo becomes full, it will stop producing resources.</li><li data-list-item-id="ecfe6567b9457a0a3d9ad21817e60451b">Withdraw resources regularly to keep production active.</li></ul><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4MCH5X87DQB82AYZ4M3SER">What to do next</h2><p>Once your Claim Stake is active, you can withdraw produced resources using a fleet with empty cargo space.</p></div>
+
+          
+
+          
+        </div>
+      </section>
+
+      <footer>
+        <div class="article-footer">
+          
+            <div class="article-share">
+  <ul class="share">
+    <li>
+      <a href="https://www.facebook.com/share.php?title=How+to+Set+Up+a+Claim+Stake+in+C4+PTR&u=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR" class="share-facebook" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on Facebook">
+          <path fill="currentColor" d="M6 0a6 6 0 01.813 11.945V7.63h1.552l.244-1.585H6.812v-.867c0-.658.214-1.242.827-1.242h.985V2.55c-.173-.024-.538-.075-1.23-.075-1.444 0-2.29.767-2.29 2.513v1.055H3.618v1.585h1.484v4.304A6.001 6.001 0 016 0z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/share?lang=en&text=How+to+Set+Up+a+Claim+Stake+in+C4+PTR&url=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR" class="share-twitter" aria-label="X Corp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on X Corp">
+          <path fill="currentColor" d="M.0763914 0 3.60864 0 6.75369 4.49755 10.5303 0 11.6586 0 7.18498 5.11431 12 12 8.46775 12 5.18346 7.30333 1.12825 12 0 12 4.7531 6.6879z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&source=ATMTA%2C+Inc.&title=How+to+Set+Up+a+Claim+Stake+in+C4+PTR&url=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR" class="share-linkedin" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on LinkedIn">
+          <path fill="currentColor" d="M10.8 0A1.2 1.2 0 0112 1.2v9.6a1.2 1.2 0 01-1.2 1.2H1.2A1.2 1.2 0 010 10.8V1.2A1.2 1.2 0 011.2 0h9.6zM8.09 4.356a1.87 1.87 0 00-1.598.792l-.085.133h-.024v-.783H4.676v5.727h1.778V7.392c0-.747.142-1.47 1.068-1.47.913 0 .925.854.925 1.518v2.785h1.778V7.084l-.005-.325c-.05-1.38-.456-2.403-2.13-2.403zm-4.531.142h-1.78v5.727h1.78V4.498zm-.89-2.846a1.032 1.032 0 100 2.064 1.032 1.032 0 000-2.064z"/>
+        </svg>
+      </a>
+    </li>
+  </ul>
+
+</div>
+          
+          
+        </div>
+        
+          <div class="article-votes">
+            <h2 class="article-votes-question" id="article-votes-label">Was this article helpful?</h2>
+            <div class="article-votes-controls" role="group" aria-labelledby="article-votes-label">
+              <button type="button" class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="52247034465939" data-upvote-count="0" data-vote-count="0" data-vote-sum="0" data-vote-url="/hc/en-us/articles/52247034465939/vote" data-value="null" data-label="0 out of 0 found this helpful" data-selected-class="button-primary" data-as="button" aria-label="This article was helpful" aria-pressed="false">Yes</button>
+              <button type="button" class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="52247034465939" data-upvote-count="0" data-vote-count="0" data-vote-sum="0" data-vote-url="/hc/en-us/articles/52247034465939/vote" data-value="null" data-label="0 out of 0 found this helpful" data-selected-class="button-primary" data-as="button" aria-label="This article was not helpful" aria-pressed="false">No</button>
+            </div>
+            <small class="article-votes-count">
+              <span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="52247034465939" data-upvote-count="0" data-vote-count="0" data-vote-sum="0" data-vote-url="/hc/en-us/articles/52247034465939/vote" data-value="null" data-label="0 out of 0 found this helpful">0 out of 0 found this helpful</span>
+            </small>
+          </div>
+        
+
+        <div class="article-more-questions">
+          Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+        </div>
+        <div class="article-return-to-top">
+          <a href="#article-container">
+            Return to top
+            <svg xmlns="http://www.w3.org/2000/svg" class="article-return-to-top-icon" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+      <div class="article-relatives">
+        
+          <div data-recent-articles></div>
+        
+        
+          
+  <section class="related-articles">
+    
+      <h2 class="related-articles-title">Related articles</h2>
+    
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBOmI7uKLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMO7rWELzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJGL2hjL2VuLXVzL2FydGljbGVzLzUyMjcyODkxNjY3OTg3LUhvdy10by1NaW5lLVJlc291cmNlcy1pbi1DNC1QVFIGOwhUOglyYW5raQY%3D--8bd6db2bf8ec6f844600b82b36387f1d4f70f344" rel="nofollow">How to Mine Resources in C4 PTR</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBPU2piFLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMO7rWELzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJQL2hjL2VuLXVzL2FydGljbGVzLzUyMjUwODQxNjMzODExLUM0LVBUUi1HYW1lLWFuZC1BY2NvdW50LVNldHRpbmdzLU92ZXJ2aWV3BjsIVDoJcmFua2kH--006b7c354dd4fc4e3edbf73673a870a7fd3e1752" rel="nofollow">C4 PTR Game and Account Settings Overview</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJO88fqKLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMO7rWELzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJEL2hjL2VuLXVzL2FydGljbGVzLzUyMjczOTYyMTM4NzcxLUhvdy10by1Nb3ZlLWEtRmxlZXQtaW4tQzQtUFRSBjsIVDoJcmFua2kI--4c4494e01ac06c9a5c6c1beeefe3079908187ca2" rel="nofollow">How to Move a Fleet in C4 PTR</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJNtriOELzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMO7rWELzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSI7L2hjL2VuLXVzL2FydGljbGVzLzUyMjQ0NTgwODIyNDE5LUM0LVBUUi1NZW51LU92ZXJ2aWV3BjsIVDoJcmFua2kJ--5d46ee02438d486ad86a77af21d68c89ceffd1a4" rel="nofollow">C4 PTR Menu Overview</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBMlUs2FLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCJMO7rWELzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJOL2hjL2VuLXVzL2FydGljbGVzLzUyMjUxNzIxODY4NTYzLUhvdy10by1DcmVhdGUtYW5kLVVzZS1hLUZsZWV0LWluLUM0LVBUUgY7CFQ6CXJhbmtpCg%3D%3D--ec5d8922bf69955d64d1b6947bb2dcbc2b0f962f" rel="nofollow">How to Create and Use a Fleet in C4 PTR</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+        
+      </div>
+      
+    </article>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <a title="Home" href="/hc/en-us">Star Atlas</a>
+
+    <div class="footer-language-selector">
+      
+    </div>
+  </div>
+</footer>
+
+
+    <div class="powered-by-zendesk">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" focusable="false" viewBox="0 0 26 26">
+    <path d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3h12zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6H14zm0-5.2V3h12z" />
+  </svg>
+
+  <a target="_blank" rel="nofollow" href="https://www.zendesk.com/service/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=ATMTA%2C+Inc.">Powered by Zendesk</a>
+</div>
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.610c6add50f51647f886.js"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"atmta","environment":"production","name":"ATMTA, Inc."};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":"","role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":null,"shared_csrf_token":null},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCJMO7rWELzoKX21ldGF7DDoPYWNjb3VudF9pZGkEq+SLAToTaGVscF9jZW50ZXJfaWRsKwgTG7GhmSo6DWJyYW5kX2lkbCsIkzfsnpkqOgx1c2VyX2lkMDoTdXNlcl9yb2xlX25hbWVJIg5BTk9OWU1PVVMGOwZUOwBJIgplbi11cwY7BlQ6GmFub255bW91c190cmFja2luZ19pZDA=--7d7e2f3b43ec702ed03d354447f217caadec280e","url":"https://support.staratlas.com/hc/activity"},"current_record_id":"52247034465939","current_record_url":"/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR","current_record_title":"How to Set Up a Claim Stake in C4 PTR","current_text_direction":"ltr","current_brand_id":46839284643731,"current_brand_name":"ATMTA, Inc.","current_brand_url":"https://atmta.zendesk.com","current_brand_active":true,"current_path":"/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":true,"has_multi_language_help_center":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_help_center_auth_enabled":false,"embeddables_connect_ipms":false},"answer_bot_subdomain":"static","gather_plan_state":"not_started","has_article_verification":false,"has_gather":false,"has_ckeditor":true,"has_community_enabled":false,"has_community_badges":false,"has_community_post_content_tagging":false,"has_gather_content_tags":false,"has_guide_content_tags":false,"has_user_segments":false,"has_answer_bot_web_form_enabled":false,"has_garden_modals":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-2-preview","is_preview":false,"has_search_settings_in_plan":true,"theming_api_version":4,"theming_settings":{"brand_color":"rgba(30, 94, 134, 100)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","show_brand_name":true,"favicon":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","homepage_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","service_catalog_hero_image":"/hc/theming_assets/01KGMAMFC4RRMVYH6CJH4A3J31","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":false,"show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"show_suggested_articles":true},"has_pci_credit_card_custom_field":false,"help_center_restricted":false,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"user_preferred_locale":"en-us","base_locale":"en-us","login_url":"https://atmta.zendesk.com/access?locale=en-us\u0026brand_id=46839284643731\u0026return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR","has_alternate_templates":false,"has_custom_statuses_enabled":true,"has_hc_generative_answers_setting_enabled":true,"has_suggested_initial_questions_enabled":false,"has_contentful_eap":false,"has_contentful_eap_eligible":false,"has_pdf_ingestion_eap":true,"has_pdf_ingestion_eap_eligible":true,"has_guide_saas_management":false,"has_guide_service_catalog":false,"has_service_catalog_search_poc":true,"has_service_catalog_multibranding":false,"has_csat_reverse_2_scale_in_mobile":false,"has_trial_presumptive_setup":true,"has_unified_navigation":true,"has_unified_navigation_eap_access":true,"has_knowledge_locale_display_names":false,"has_csat_bet365_branding":false,"has_csat_theming_integration_phase_1":false,"has_help_center_gen_search_follow_up_conversation":true,"chat_page_renderable":false,"version":"v27672","dev_mode":false};
+</script>
+
+  
+  
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-ecaf548e810f58e1237b832da9e68f06.js"></script>
+  <script type="text/javascript" src="/hc/theming_assets/25945259/46839284643731/script.js?digest=53556769366547"></script>
+  
+</body>
+</html>

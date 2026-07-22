@@ -1,0 +1,62 @@
+{
+  "byte_count": 28493,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:39.661906Z",
+  "captured_at": "2026-07-22T23:04:39.661906Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47021280362643-Is-the-DAO-secure",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:39 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47021280362643-Is-the-DAO-secure",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021280362643-Is-the-DAO-secure",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47021280362643-Is-the-DAO-secure",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021280362643-Is-the-DAO-secure",
+    "document_title": "Is the DAO secure? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47021280362643-Is-the-DAO-secure",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-84B53B1AE4084FC2.json",
+  "raw_body": {
+    "byte_length": 28493,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-84B53B1AE4084FC2/response-body.bin",
+    "sha256": "c0647442391bb04f47cda2963b9d61fabab21ef53680015611f1ed02b45189a0"
+  },
+  "raw_sha256": "c0647442391bb04f47cda2963b9d61fabab21ef53680015611f1ed02b45189a0",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47021280362643-Is-the-DAO-secure",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47021280362643-Is-the-DAO-secure",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:39 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-84B53B1AE4084FC2",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:39.661906Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,68 @@
+{
+  "byte_count": 9414,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:57.233954Z",
+  "captured_at": "2026-07-22T23:04:57.233954Z",
+  "content_type": "text/html",
+  "final_url": "https://staratlas.com/game/life-in-galia/",
+  "headers": {
+    "content-length": "9414",
+    "content-type": "text/html",
+    "date": "Wed, 22 Jul 2026 23:04:57 GMT",
+    "etag": "\"2b387d520465ac83b836f2509c74bcd3\"",
+    "last-modified": "Thu, 02 Jul 2026 11:41:37 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://staratlas.com/game/life-in-galia/",
+    "observed_canonical_url": "https://staratlas.com/game/life-in-galia/",
+    "observed_final_url": "https://staratlas.com/game/life-in-galia/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com/game/life-in-galia/",
+    "document_title": "Life in Galia | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://staratlas.com/game/life-in-galia/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-A021979A621E6BE1.json",
+  "raw_body": {
+    "byte_length": 9414,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-A021979A621E6BE1/response-body.bin",
+    "sha256": "295f2652d6025d3674038126825e52250761cf1621e85c784ac11fd7216b4508"
+  },
+  "raw_sha256": "295f2652d6025d3674038126825e52250761cf1621e85c784ac11fd7216b4508",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://staratlas.com/game/life-in-galia/",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html",
+    "final_url": "https://staratlas.com/game/life-in-galia/",
+    "headers": {
+      "content-length": "9414",
+      "content-type": "text/html",
+      "date": "Wed, 22 Jul 2026 23:04:57 GMT",
+      "etag": "\"2b387d520465ac83b836f2509c74bcd3\"",
+      "last-modified": "Thu, 02 Jul 2026 11:41:37 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-A021979A621E6BE1",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:57.233954Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

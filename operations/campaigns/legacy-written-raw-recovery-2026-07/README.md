@@ -1,4 +1,4 @@
-# Legacy Written Raw Recovery — Phase 2 Aephia and HNN Gates
+# Legacy Written Raw Recovery — Phase 2 Aephia, HNN, and Official Gates
 
 ## Purpose
 
@@ -18,7 +18,7 @@ The freeze inventory contains:
 | Delta | Official Star Atlas web corpus | 320 |
 | **Total** |  | **800** |
 
-The retrieval pilot was limited to 20 curator-selected records: five from each source family. The first post-pilot gate recovered the 59 remaining Aephia records. The HNN gate recovered 156 records: 152 non-pilot records and four pilot exceptions that previously lacked raw bodies. One HNN pilot snapshot remains the verified baseline, producing complete 157-record family coverage. Intergalactic Herald remains excluded by operator direction, and official-source expansion remains a later gate. Full-corpus retrieval is intentionally unavailable.
+The retrieval pilot was limited to 20 curator-selected records: five from each source family. The first post-pilot gate recovered the 59 remaining Aephia records. The HNN gate recovered 156 records: 152 non-pilot records and four pilot exceptions that previously lacked raw bodies. One HNN pilot snapshot remains the verified baseline, producing complete 157-record family coverage. The official gate selects 316 records: 315 non-pilot records plus one failed pilot repair. Four verified official pilot captures remain immutable baselines, producing complete 320-record official-family coverage when the gate succeeds. Intergalactic Herald remains excluded by operator direction. Full-corpus retrieval is intentionally unavailable.
 
 ## Commands
 
@@ -29,16 +29,19 @@ python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaig
 python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py retrieve --pilot
 python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py retrieve --batch aephia-family-remaining-59
 python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py retrieve --batch hnn-written-family-completion-156
+python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py retrieve --batch official-written-family-completion-316
 python operations/campaigns/legacy-written-raw-recovery-2026-07/recovery_campaign.py validate
 ```
 
-`freeze` reads only the existing extraction JSON and deterministically writes `frozen-manifest.json`, `expansion-aephia-selection.json`, and `expansion-hnn-selection.json`. It requires exactly 64 Alpha, 259 Bravo, 157 Charlie, and 320 Delta records. The Aephia selection remains fixed at its 59 non-pilot WordPress API records. The HNN selection includes every HNN Source ID except the one verified pilot snapshot already preserved.
+`freeze` reads only the existing extraction JSON and deterministically writes `frozen-manifest.json` plus the Aephia, HNN, and official expansion selections. It requires exactly 64 Alpha, 259 Bravo, 157 Charlie, and 320 Delta records. The Aephia selection remains fixed at its 59 non-pilot WordPress API records. The HNN selection includes every HNN Source ID except the one verified pilot snapshot already preserved. The official selection excludes four verified pilot baselines and includes the single official pilot failure for repair.
 
-`retrieve --pilot` performs the already completed 20-record pilot. The two `--batch` values are fixed allowlisted selections and cannot accept arbitrary families or Source IDs. Aephia uses its frozen public WordPress endpoints. HNN reuses 74 exact prior Wayback requests and resolves 82 Medium-hosted records—including four pilot repairs—to the earliest discoverable public 200-status HTML snapshot. The resolution ledger remains separate from the raw evidence and records the chosen timestamp, digest, index checksum, and any missing snapshot. Of the 156 completion records, 144 were recovered from exact Wayback snapshots. The 12 Medium records with no public archive snapshot were recovered from their current public, unauthenticated full-article pages using a campaign-local curl transport fallback; their missing-snapshot state remains explicit in the resolution ledger. All retrieval uses unauthenticated public HTTP with pacing, checkpoint reuse, three attempts, and the existing host stop rule.
+`retrieve --pilot` performs the already completed 20-record pilot. The three `--batch` values are fixed allowlisted selections and cannot accept arbitrary families or Source IDs. Aephia uses its frozen public WordPress endpoints. HNN reuses 74 exact prior Wayback requests and resolves 82 Medium-hosted records—including four pilot repairs—to the earliest discoverable public 200-status HTML snapshot. The resolution ledger remains separate from the raw evidence and records the chosen timestamp, digest, index checksum, and any missing snapshot. Of the 156 completion records, 144 were recovered from exact Wayback snapshots. The 12 Medium records with no public archive snapshot were recovered from their current public, unauthenticated full-article pages using a campaign-local curl transport fallback; their missing-snapshot state remains explicit in the resolution ledger.
+
+The official gate uses 166 support, 95 newsroom, 38 build, eight main-site, and nine GitHub documentation carriers from the frozen Delta inventory. GitHub README carriers are resolved to immutable commit-addressed raw blobs before capture; the commit SHA and resolution basis remain in provenance. The separate captured governance-portal pilot record is one of the four preserved baselines. All retrieval uses unauthenticated public HTTP with pacing, checkpoint reuse, three attempts, and the existing host stop rule.
 
 Every terminal result is checkpointed. A normal rerun reuses both successful captures and documented access/failure outcomes without changing timestamps or ledgers. A later operator may explicitly use `--retry-failures` after the blocking condition changes; that option is not part of deterministic CI.
 
-`validate` checks the fixed point of all selections, extraction checksums, Source Record references, immutable pilot baselines, exact Aephia and HNN family coverage, Wayback carrier resolution, full-article signals for the bounded Medium live fallbacks, stable Medium post-ID redirects, terminal dispositions, raw-body checksums, provenance reconciliation, manual-review routing, orphan detection, and repository path boundaries.
+`validate` checks the fixed point of all selections, extraction checksums, Source Record references, immutable pilot baselines, exact Aephia, HNN, and official family coverage, Wayback carrier resolution, full-article signals for the bounded Medium live fallbacks, stable Medium post-ID redirects, immutable GitHub commit carriers, terminal dispositions, raw-body checksums, provenance reconciliation, manual-review routing, orphan detection, and repository path boundaries.
 
 CI may invoke the equivalent thin offline entry point:
 
@@ -88,6 +91,10 @@ Campaign-local ledgers include:
 - `expansion-hnn-retrieval-ledger.jsonl`;
 - `expansion-hnn-retry-ledger.jsonl`;
 - `expansion-hnn-manual-review-queue.jsonl`;
+- `expansion-official-selection.json`;
+- `expansion-official-retrieval-ledger.jsonl`;
+- `expansion-official-retry-ledger.jsonl`;
+- `expansion-official-manual-review-queue.jsonl`;
 - campaign summary JSON and Markdown;
 - validation report JSON and Markdown.
 
@@ -121,4 +128,4 @@ graph/
 publication/
 ```
 
-No recovered body is promoted merely because it was retrieved. The pilot measured recoverability, identity confidence, redirect behavior, and manual-review burden. The Aephia and HNN families remain independent reviewable gates; Intergalactic Herald is excluded and the official family remains a later Phase 2 decision.
+No recovered body is promoted merely because it was retrieved. The pilot measured recoverability, identity confidence, redirect behavior, and manual-review burden. Aephia, HNN, and official sources remain independent reviewable gates. Intergalactic Herald is excluded by operator direction.

@@ -1,0 +1,62 @@
+{
+  "byte_count": 25522,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:50.144260Z",
+  "captured_at": "2026-07-22T23:05:50.144260Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47210126616979-How-do-I-create-a-new-wallet-in-the-UE5-Game",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:50 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47210126616979-How-do-I-create-a-new-wallet-in-the-UE5-Game",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47210126616979-How-do-I-create-a-new-wallet-in-the-UE5-Game",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47210126616979-How-do-I-create-a-new-wallet-in-the-UE5-Game",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47210126616979-How-do-I-create-a-new-wallet-in-the-UE5-Game",
+    "document_title": "How do I create a new wallet in the UE5 Game? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47210126616979-How-do-I-create-a-new-wallet-in-the-UE5-Game",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-ED7AD490CF12BFA6.json",
+  "raw_body": {
+    "byte_length": 25522,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-ED7AD490CF12BFA6/response-body.bin",
+    "sha256": "37cbc10eea470ff87b7357237884139900b74e602952f19d4280e5d3359a8095"
+  },
+  "raw_sha256": "37cbc10eea470ff87b7357237884139900b74e602952f19d4280e5d3359a8095",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47210126616979-How-do-I-create-a-new-wallet-in-the-UE5-Game",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47210126616979-How-do-I-create-a-new-wallet-in-the-UE5-Game",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:50 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-ED7AD490CF12BFA6",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:50.144260Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

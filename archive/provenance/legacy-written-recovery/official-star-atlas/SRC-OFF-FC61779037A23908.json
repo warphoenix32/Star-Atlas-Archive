@@ -1,0 +1,64 @@
+{
+  "byte_count": 86477,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:06:02.916965Z",
+  "captured_at": "2026-07-22T23:06:02.916965Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/game-updates/start-your-engines-star-atlas-showroom-2-1-game-release-begins-the-racing",
+  "headers": {
+    "content-length": "86477",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:06:02 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/game-updates/start-your-engines-star-atlas-showroom-2-1-game-release-begins-the-racing",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/game-updates/start-your-engines-star-atlas-showroom-2-1-game-release-begins-the-racing",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Start Your Engines: Star Atlas Showroom 2.1 Game Release Begins the Racing Season | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/game-updates/start-your-engines-star-atlas-showroom-2-1-game-release-begins-the-racing",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-FC61779037A23908.json",
+  "raw_body": {
+    "byte_length": 86477,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-FC61779037A23908/response-body.bin",
+    "sha256": "2307f5e9511f1f007ddffc03a460d4708c7022c99ad7e87304234ac83ff86eaa"
+  },
+  "raw_sha256": "2307f5e9511f1f007ddffc03a460d4708c7022c99ad7e87304234ac83ff86eaa",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/game-updates/start-your-engines-star-atlas-showroom-2-1-game-release-begins-the-racing",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/game-updates/start-your-engines-star-atlas-showroom-2-1-game-release-begins-the-racing",
+    "headers": {
+      "content-length": "86477",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:06:02 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-FC61779037A23908",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:06:02.916965Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

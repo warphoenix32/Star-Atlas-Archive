@@ -1,0 +1,62 @@
+{
+  "byte_count": 28078,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:08.149299Z",
+  "captured_at": "2026-07-22T23:05:08.149299Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47031334087059-How-do-I-mine-and-transport-resources-in-Holosim",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:08 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47031334087059-How-do-I-mine-and-transport-resources-in-Holosim",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031334087059-How-do-I-mine-and-transport-resources-in-Holosim",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47031334087059-How-do-I-mine-and-transport-resources-in-Holosim",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031334087059-How-do-I-mine-and-transport-resources-in-Holosim",
+    "document_title": "How do I mine and transport resources in Holosim? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47031334087059-How-do-I-mine-and-transport-resources-in-Holosim",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B263E0E5565CB9ED.json",
+  "raw_body": {
+    "byte_length": 28078,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B263E0E5565CB9ED/response-body.bin",
+    "sha256": "ac019aa912ad1e155f57c7341f05fc85cda353f7d58a821672c59ef5c219aae7"
+  },
+  "raw_sha256": "ac019aa912ad1e155f57c7341f05fc85cda353f7d58a821672c59ef5c219aae7",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47031334087059-How-do-I-mine-and-transport-resources-in-Holosim",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47031334087059-How-do-I-mine-and-transport-resources-in-Holosim",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:08 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-B263E0E5565CB9ED",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:08.149299Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

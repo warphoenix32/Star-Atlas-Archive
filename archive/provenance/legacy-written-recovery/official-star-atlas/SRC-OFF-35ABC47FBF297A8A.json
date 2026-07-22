@@ -1,0 +1,62 @@
+{
+  "byte_count": 28026,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:42.678671Z",
+  "captured_at": "2026-07-22T23:03:42.678671Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47021293641491-How-does-POLIS-locking-work",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:42 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47021293641491-How-does-POLIS-locking-work",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021293641491-How-does-POLIS-locking-work",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47021293641491-How-does-POLIS-locking-work",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021293641491-How-does-POLIS-locking-work",
+    "document_title": "How does POLIS locking work? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47021293641491-How-does-POLIS-locking-work",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-35ABC47FBF297A8A.json",
+  "raw_body": {
+    "byte_length": 28026,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-35ABC47FBF297A8A/response-body.bin",
+    "sha256": "cfffbd13100fb7f8eb6eb18a77b197504eaf5b69628d44cef9a3d3ff72ea8fce"
+  },
+  "raw_sha256": "cfffbd13100fb7f8eb6eb18a77b197504eaf5b69628d44cef9a3d3ff72ea8fce",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47021293641491-How-does-POLIS-locking-work",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47021293641491-How-does-POLIS-locking-work",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:42 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-35ABC47FBF297A8A",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:42.678671Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,62 @@
+{
+  "byte_count": 27276,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:18.557726Z",
+  "captured_at": "2026-07-22T23:04:18.557726Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47021259873299-How-are-DAO-locking-rewards-calculated",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47021259873299-How-are-DAO-locking-rewards-calculated",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021259873299-How-are-DAO-locking-rewards-calculated",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47021259873299-How-are-DAO-locking-rewards-calculated",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021259873299-How-are-DAO-locking-rewards-calculated",
+    "document_title": "How are DAO locking rewards calculated? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47021259873299-How-are-DAO-locking-rewards-calculated",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-69C74ED09DCF4088.json",
+  "raw_body": {
+    "byte_length": 27276,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-69C74ED09DCF4088/response-body.bin",
+    "sha256": "f8d23c843ab030daa926787ca95b5941b8da8ff332df046dc2bb5f122a81408d"
+  },
+  "raw_sha256": "f8d23c843ab030daa926787ca95b5941b8da8ff332df046dc2bb5f122a81408d",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47021259873299-How-are-DAO-locking-rewards-calculated",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47021259873299-How-are-DAO-locking-rewards-calculated",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-69C74ED09DCF4088",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:18.557726Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

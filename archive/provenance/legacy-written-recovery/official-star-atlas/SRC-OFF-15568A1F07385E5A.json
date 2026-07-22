@@ -1,0 +1,62 @@
+{
+  "byte_count": 25767,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:20.508264Z",
+  "captured_at": "2026-07-22T23:03:20.508264Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47057449110675-How-Do-I-Withdraw-My-Ships-from-Faction-Fleet",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:20 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47057449110675-How-Do-I-Withdraw-My-Ships-from-Faction-Fleet",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057449110675-How-Do-I-Withdraw-My-Ships-from-Faction-Fleet",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47057449110675-How-Do-I-Withdraw-My-Ships-from-Faction-Fleet",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057449110675-How-Do-I-Withdraw-My-Ships-from-Faction-Fleet",
+    "document_title": "How Do I Withdraw My Ships from Faction Fleet? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47057449110675-How-Do-I-Withdraw-My-Ships-from-Faction-Fleet",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-15568A1F07385E5A.json",
+  "raw_body": {
+    "byte_length": 25767,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-15568A1F07385E5A/response-body.bin",
+    "sha256": "2b0a35e1af2fff2efb0ad31ea9300663581509077eced1a2cde5081418208d52"
+  },
+  "raw_sha256": "2b0a35e1af2fff2efb0ad31ea9300663581509077eced1a2cde5081418208d52",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47057449110675-How-Do-I-Withdraw-My-Ships-from-Faction-Fleet",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47057449110675-How-Do-I-Withdraw-My-Ships-from-Faction-Fleet",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:20 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-15568A1F07385E5A",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:20.508264Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

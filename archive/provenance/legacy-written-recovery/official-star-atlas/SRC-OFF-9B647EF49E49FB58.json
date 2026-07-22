@@ -1,0 +1,62 @@
+{
+  "byte_count": 26546,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:52.010191Z",
+  "captured_at": "2026-07-22T23:04:52.010191Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061462429843-What-is-a-crypto-wallet",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:52 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061462429843-What-is-a-crypto-wallet",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061462429843-What-is-a-crypto-wallet",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061462429843-What-is-a-crypto-wallet",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061462429843-What-is-a-crypto-wallet",
+    "document_title": "What is a crypto wallet? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061462429843-What-is-a-crypto-wallet",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-9B647EF49E49FB58.json",
+  "raw_body": {
+    "byte_length": 26546,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-9B647EF49E49FB58/response-body.bin",
+    "sha256": "4d61e9913dd4a0db541a0493449e1df37aa1474f4aa18fcac0508471b1579046"
+  },
+  "raw_sha256": "4d61e9913dd4a0db541a0493449e1df37aa1474f4aa18fcac0508471b1579046",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061462429843-What-is-a-crypto-wallet",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061462429843-What-is-a-crypto-wallet",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:52 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-9B647EF49E49FB58",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:52.010191Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

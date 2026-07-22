@@ -1,0 +1,64 @@
+{
+  "byte_count": 76467,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:30.974840Z",
+  "captured_at": "2026-07-22T23:05:30.974840Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-countdown-starts-inbound-wave-4-spaceship-drop-featuring-payment-with",
+  "headers": {
+    "content-length": "76467",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:05:30 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-countdown-starts-inbound-wave-4-spaceship-drop-featuring-payment-with",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-countdown-starts-inbound-wave-4-spaceship-drop-featuring-payment-with",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "The Countdown Starts: Inbound WAVE 4 Spaceship Drop Featuring Payment with ATLAS | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-countdown-starts-inbound-wave-4-spaceship-drop-featuring-payment-with",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-D5772C68493593AA.json",
+  "raw_body": {
+    "byte_length": 76467,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-D5772C68493593AA/response-body.bin",
+    "sha256": "8456017960b13920d04d447fbc264c05c34027657c0ec236b6d763afa3e69bdc"
+  },
+  "raw_sha256": "8456017960b13920d04d447fbc264c05c34027657c0ec236b6d763afa3e69bdc",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-countdown-starts-inbound-wave-4-spaceship-drop-featuring-payment-with",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-countdown-starts-inbound-wave-4-spaceship-drop-featuring-payment-with",
+    "headers": {
+      "content-length": "76467",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:05:30 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-D5772C68493593AA",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:30.974840Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

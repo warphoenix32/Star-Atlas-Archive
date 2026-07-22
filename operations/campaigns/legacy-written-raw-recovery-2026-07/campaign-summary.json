@@ -28,6 +28,21 @@
       "terminal_records": 156,
       "urls_retrieved": 156
     },
+    "official-written-family-completion-316": {
+      "expected_records": 316,
+      "identity_status_counts": {
+        "CONSISTENT": 9,
+        "MATCH": 307
+      },
+      "manual_review_count": 0,
+      "raw_bodies_preserved": 316,
+      "terminal_disposition_counts": {
+        "CAPTURED_IMMUTABLE_GIT": 9,
+        "CAPTURED_LIVE": 307
+      },
+      "terminal_records": 316,
+      "urls_retrieved": 316
+    },
     "pilot-20": {
       "expected_records": 20,
       "identity_status_counts": {
@@ -48,7 +63,7 @@
     }
   },
   "campaign_id": "legacy-written-raw-recovery-2026-07",
-  "distinct_records_attempted": 231,
+  "distinct_records_attempted": 546,
   "expansion_records": 59,
   "frozen_records": 800,
   "hnn_completion_records": 156,
@@ -56,21 +71,23 @@
   "hnn_manual_review_count": 0,
   "hnn_raw_bodies_preserved": 157,
   "identity_status_counts": {
-    "CONSISTENT": 53,
-    "MATCH": 177,
-    "NOT_EVALUATED": 1
+    "CONSISTENT": 62,
+    "MATCH": 484
   },
-  "manual_review_count": 1,
+  "manual_review_count": 0,
+  "official_completion_records": 316,
+  "official_family_records": 320,
+  "official_manual_review_count": 0,
+  "official_raw_bodies_preserved": 320,
   "pilot_records": 20,
-  "raw_bodies_preserved": 230,
+  "raw_bodies_preserved": 546,
   "schema_version": "1.0.0",
-  "status": "AEPHIA_AND_HNN_FAMILY_RECOVERY_COMPLETE",
+  "status": "AEPHIA_HNN_AND_OFFICIAL_FAMILY_RECOVERY_COMPLETE",
   "terminal_disposition_counts": {
-    "BLOCKED_ACCESS_OR_POLICY": 1,
     "CAPTURED_ARCHIVE": 145,
-    "CAPTURED_IMMUTABLE_GIT": 1,
-    "CAPTURED_LIVE": 84
+    "CAPTURED_IMMUTABLE_GIT": 10,
+    "CAPTURED_LIVE": 391
   },
-  "urls_attempted": 231,
-  "urls_retrieved": 230
+  "urls_attempted": 546,
+  "urls_retrieved": 546
 }

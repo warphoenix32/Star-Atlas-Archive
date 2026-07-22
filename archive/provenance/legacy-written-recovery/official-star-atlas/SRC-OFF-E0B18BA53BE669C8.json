@@ -1,0 +1,64 @@
+{
+  "byte_count": 950,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:39.635367Z",
+  "captured_at": "2026-07-22T23:05:39.635367Z",
+  "content_type": "application/json; charset=utf-8",
+  "final_url": "https://support.staratlas.com/api/v2/help_center/en-us/articles/47061486871571.json",
+  "headers": {
+    "content-type": "application/json; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:39 GMT",
+    "etag": "W/\"ff143cfa2b2c40c56c1ef1c218986f67\""
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061486871571-How-does-Jupiter-work",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061486871571-How-does-Jupiter-work",
+    "observed_final_url": "https://support.staratlas.com/api/v2/help_center/en-us/articles/47061486871571.json",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061486871571-How-does-Jupiter-work",
+    "document_title": "How does Jupiter work?",
+    "response_format": "JSON"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061486871571-How-does-Jupiter-work",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-E0B18BA53BE669C8.json",
+  "raw_body": {
+    "byte_length": 950,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-E0B18BA53BE669C8/response-body.bin",
+    "sha256": "ff143cfa2b2c40c56c1ef1c218986f67d128391a1f0b9e20038926b0dc4e430c"
+  },
+  "raw_sha256": "ff143cfa2b2c40c56c1ef1c218986f67d128391a1f0b9e20038926b0dc4e430c",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/api/v2/help_center/en-us/articles/47061486871571.json",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "application/json; charset=utf-8",
+    "final_url": "https://support.staratlas.com/api/v2/help_center/en-us/articles/47061486871571.json",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:39 GMT",
+      "etag": "W/\"ff143cfa2b2c40c56c1ef1c218986f67\""
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-E0B18BA53BE669C8",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:39.635367Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

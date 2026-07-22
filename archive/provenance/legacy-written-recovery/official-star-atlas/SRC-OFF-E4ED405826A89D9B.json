@@ -1,0 +1,62 @@
+{
+  "byte_count": 26464,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:40.951662Z",
+  "captured_at": "2026-07-22T23:05:40.951662Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47021259103507-How-does-the-Star-Atlas-DAO-work",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:41 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47021259103507-How-does-the-Star-Atlas-DAO-work",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021259103507-How-does-the-Star-Atlas-DAO-work",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47021259103507-How-does-the-Star-Atlas-DAO-work",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47021259103507-How-does-the-Star-Atlas-DAO-work",
+    "document_title": "How does the Star Atlas DAO work? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47021259103507-How-does-the-Star-Atlas-DAO-work",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-E4ED405826A89D9B.json",
+  "raw_body": {
+    "byte_length": 26464,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-E4ED405826A89D9B/response-body.bin",
+    "sha256": "271b66ffe44283c3a60be9c09f0e8c8d31a3b0f8e7c30c93abcc8cb2c3f65d68"
+  },
+  "raw_sha256": "271b66ffe44283c3a60be9c09f0e8c8d31a3b0f8e7c30c93abcc8cb2c3f65d68",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47021259103507-How-does-the-Star-Atlas-DAO-work",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47021259103507-How-does-the-Star-Atlas-DAO-work",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:41 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-E4ED405826A89D9B",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:40.951662Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

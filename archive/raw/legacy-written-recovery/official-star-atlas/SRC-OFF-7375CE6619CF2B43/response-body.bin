@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fleet Command | Star Atlas</title>
+  <meta name="description" content="Command vast fleets from a strategic top-down RTS view in Star Atlas. Dominate territories, manage resources, and outmaneuver rival factions." />
+  <meta name="keywords" content="Star Atlas, AAA MMO, space exploration, space game, MMO, blockchain game, play to earn, Solana, Galia, fleet command, sci-fi MMO" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="ATMTA, Inc." />
+  <link rel="canonical" href="https://staratlas.com/game/fleet-command/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Star Atlas" />
+  <meta property="og:title" content="Fleet Command | Star Atlas" />
+  <meta property="og:description" content="Command vast fleets from a strategic top-down RTS view in Star Atlas. Dominate territories, manage resources, and outmaneuver rival factions." />
+  <meta property="og:url" content="https://staratlas.com/game/fleet-command/" />
+  <meta property="og:image" content="https://staratlas.com/Icon.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@staratlas" />
+  <meta name="twitter:title" content="Fleet Command | Star Atlas" />
+  <meta name="twitter:description" content="Command vast fleets from a strategic top-down RTS view in Star Atlas. Dominate territories, manage resources, and outmaneuver rival factions." />
+  <meta name="twitter:image" content="https://staratlas.com/Icon.png" />
+
+  <link rel="icon" type="image/png" href="../../Icon.png">
+  <link rel="apple-touch-icon" href="../../Icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Fleet Command | Star Atlas","url":"https://staratlas.com/game/fleet-command/","description":"Command vast fleets from a strategic top-down RTS view in Star Atlas. Dominate territories, manage resources, and outmaneuver rival factions.","isPartOf":{"@type":"WebSite","name":"Star Atlas","url":"https://staratlas.com"}}</script>
+</head>
+<body>
+  <div class="loading-bar" id="loadingBar"></div>
+  <div class="grid-container">
+    <div class="grid-layer dots"></div>
+    <div class="grid-layer grid"></div>
+    <div class="grid-layer accent"></div>
+  </div>
+  <div class="mouse-spotlight"></div>
+  <div class="glow-container">
+    <div class="glow"></div>
+    <div class="glow"></div>
+    <div class="glow"></div>
+  </div>
+
+  <nav>
+    <div class="nav-main">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="../../index.html" aria-label="Star Atlas Home">
+            <img src="../../Logo.svg" alt="Star Atlas">
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="mobile-nav-panel" id="primary-navigation">
+          <ul class="nav-links">
+            <li><a href="../../game/">Game</a></li>
+            <li><a href="../../index.html#economy">Economy</a></li>
+            <li><a href="../../index.html#community">Community</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="https://play.staratlas.com/market/" target="_blank" class="download-btn" rel="noopener noreferrer"><span>Galactic Marketplace</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="feature-page">
+    <section class="game-section">
+      <div class="section-header" style="opacity:1;">
+        <div style="display:flex; align-items:stretch;">
+          <span class="section-number">0001.</span>
+          <h1 class="section-title">Fleet Command</h1>
+        </div>
+      </div>
+      
+      <p class="page-intro section-subtitle">Fleet Command transforms Star Atlas into a grand strategy experience. Currently in development. Shift from third-person exploration to a strategic overview where you&#039;ll coordinate armadas, control territory, and shape Galia&#039;s political landscape.</p>
+      
+      
+    <div class="video-container">
+      <video controls playsinline preload="metadata" poster="../../src/GAME section/Top-down RTS View/Thumbnail Images/RTS_Slide_1_ImageThumbnail.png">
+        <source src="../../src/Reduced/Tds Slide 1 Fleetcommand.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+      
+      <div class="page-content">
+        
+    <div class="lore-block">
+      <h3>The Art of Command</h3>
+      <p>In the vastness of Galia, individual heroism only goes so far. The great powers of the galaxy are built by those who can coordinate fleets of hundreds of ships, manage supply lines across light-years, and outthink their opponents before the first shot is fired.</p>
+    </div>
+  
+        
+        
+    <div class="stats-grid">
+      
+        <div class="stat-item">
+          <div class="stat-value">RTS</div>
+          <div class="stat-label">Strategy</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">100s</div>
+          <div class="stat-label">Of Ships</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">Real</div>
+          <div class="stat-label">Stakes</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">Live</div>
+          <div class="stat-label">On-Chain</div>
+        </div>
+      
+    </div>
+  
+        
+        <div class="section-divider"></div>
+        
+        
+    <div class="feature-grid">
+      
+        <div class="feature-card">
+          <h3>Strategic Overview</h3>
+          <p>See the bigger picture. The top-down view reveals fleet positions, resource nodes, faction territories, and strategic opportunities invisible from the cockpit.</p>
+          
+            <ul>
+              <li>Galaxy-wide visibility</li><li>Fleet positioning</li><li>Territory visualization</li><li>Threat assessment</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Mass Fleet Operations</h3>
+          <p>Command dozens or hundreds of ships simultaneously. Issue coordinated orders, manage formations, and execute complex tactical maneuvers.</p>
+          
+            <ul>
+              <li>Multi-fleet coordination</li><li>Formation commands</li><li>Tactical maneuvers</li><li>Automated logistics</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Territory Control</h3>
+          <p>Establish and defend control over valuable regions. Starbases serve as your footholds in contested space.</p>
+          
+            <ul>
+              <li>Starbase construction</li><li>Defense networks</li><li>Resource control</li><li>Expansion planning</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Faction Politics</h3>
+          <p>Navigate the complex web of faction relationships. Form alliances, negotiate agreements, and wage economic or military warfare.</p>
+          
+            <ul>
+              <li>Diplomatic options</li><li>Alliance systems</li><li>Economic warfare</li><li>Political influence</li>
+            </ul>
+          
+        </div>
+      
+    </div>
+  
+        
+        
+    <div class="guide-block">
+      <h3>Fleet Command Basics</h3>
+      <ol>
+        <li>Access Fleet Command from your capital ship&#039;s bridge</li><li>Familiarize yourself with the strategic map and controls</li><li>Start with small fleet operations to learn coordination</li><li>Establish your first starbase in a contested region</li><li>Coordinate with your DAC for large-scale operations</li>
+      </ol>
+    </div>
+  
+        
+        
+    <div class="cta-block">
+      <h3>Take Command</h3>
+      <p>The galaxy doesn&#039;t conquer itself. Rise from pilot to admiral and lead your faction to dominance.</p>
+      <a href="https://play.staratlas.com" target="_blank" rel="noopener noreferrer" class="download-btn"><span>Play Now</span></a>
+    </div>
+  
+      </div>
+      
+      
+    <div class="related-section">
+      <p class="section-subtitle" style="margin-top: 2rem;">Explore More Features</p>
+      <div class="related-links">
+        <a class="secondary-btn" href="../../game/galia/">Galia Expanse</a><a class="secondary-btn" href="../../game/game-modes/">Game Modes</a><a class="secondary-btn" href="../../game/your-fleet-your-way/">Your Fleet, Your Way</a><a class="secondary-btn" href="../../game/life-in-galia/">Life in Galia</a><a class="secondary-btn" href="../../game/holosim/">Holosim</a><a class="secondary-btn" href="../../game/sage-labs/">SAGE Labs</a>
+      </div>
+    </div>
+  
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-bottom">
+        <p class="footer-text">© 2625 Star Atlas. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../src/main.js" defer></script>
+</body>
+</html>
