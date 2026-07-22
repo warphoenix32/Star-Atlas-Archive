@@ -1,0 +1,62 @@
+{
+  "byte_count": 134172,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:40.315162Z",
+  "captured_at": "2026-07-22T22:27:40.315162Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220516014619id_/https://thehologram.io/atlas-price-falls-to-historic-low/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:27:40 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/atlas-price-falls-to-historic-low",
+    "observed_canonical_url": "https://thehologram.io/atlas-price-falls-to-historic-low/",
+    "observed_final_url": "https://web.archive.org/web/20220516014619id_/https://thehologram.io/atlas-price-falls-to-historic-low/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://thehologram.io/atlas-price-falls-to-historic-low/",
+    "document_title": "ATLAS Price Falls to Historic Low | The Hologram",
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/atlas-price-falls-to-historic-low",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-F44FB9619D253841.json",
+  "raw_body": {
+    "byte_length": 134172,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-F44FB9619D253841/response-body.bin",
+    "sha256": "bf04a8d9a6964f848f8185d055bad7ebd15d6f13f8aa0996e27093687644a42d"
+  },
+  "raw_sha256": "bf04a8d9a6964f848f8185d055bad7ebd15d6f13f8aa0996e27093687644a42d",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220516014619id_/https://thehologram.io/atlas-price-falls-to-historic-low/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220516014619id_/https://thehologram.io/atlas-price-falls-to-historic-low/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:27:40 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220516014619",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-F44FB9619D253841",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220516014619",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

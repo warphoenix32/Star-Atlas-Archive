@@ -1,0 +1,62 @@
+{
+  "byte_count": 94280,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:26:58.788428Z",
+  "captured_at": "2026-07-22T22:26:58.788428Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230527135418id_/https://medium.com/the-hologram/star-atlas-never-mission-1-alone-scraps-and-spoils-lore-fffefc2ff92e",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:26:58 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-never-mission-1-alone-scraps-and-spoils-lore-fffefc2ff92e",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20230527135418id_/https://medium.com/the-hologram/star-atlas-never-mission-1-alone-scraps-and-spoils-lore-fffefc2ff92e",
+    "reasons": [
+      "STABLE_MEDIUM_POST_ID_MATCH_AFTER_PUBLICATION_PATH_CHANGE"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-never-mission-1-alone-scraps-and-spoils-lore-fffefc2ff92e",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-DCA8DAB89D9389B2.json",
+  "raw_body": {
+    "byte_length": 94280,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-DCA8DAB89D9389B2/response-body.bin",
+    "sha256": "fa10156ee99f1a460d2f00f3950cfd7a16a904ff25c781fbd15274f41c46983b"
+  },
+  "raw_sha256": "fa10156ee99f1a460d2f00f3950cfd7a16a904ff25c781fbd15274f41c46983b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230527135418id_/https://medium.com/the-hologram/star-atlas-never-mission-1-alone-scraps-and-spoils-lore-fffefc2ff92e",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230527135418id_/https://medium.com/the-hologram/star-atlas-never-mission-1-alone-scraps-and-spoils-lore-fffefc2ff92e",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:26:58 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230527135418",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-DCA8DAB89D9389B2",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230527135418",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

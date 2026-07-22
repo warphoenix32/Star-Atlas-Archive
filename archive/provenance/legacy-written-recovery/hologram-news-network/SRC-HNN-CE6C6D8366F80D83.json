@@ -1,0 +1,62 @@
+{
+  "byte_count": 137306,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:26:30.409095Z",
+  "captured_at": "2026-07-22T22:26:30.409095Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20221111015006id_/https://medium.com/the-hologram/star-atlas-showroom-and-seasons-roadmap-b34a57aaea2b",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:26:30 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-showroom-and-seasons-roadmap-b34a57aaea2b",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-showroom-and-seasons-roadmap-b34a57aaea2b",
+    "observed_final_url": "https://web.archive.org/web/20221111015006id_/https://medium.com/the-hologram/star-atlas-showroom-and-seasons-roadmap-b34a57aaea2b",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-showroom-and-seasons-roadmap-b34a57aaea2b",
+    "document_title": "Star Atlas Showroom and Seasons Roadmap | by Krigs | The Hologram | Nov, 2022 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-showroom-and-seasons-roadmap-b34a57aaea2b",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-CE6C6D8366F80D83.json",
+  "raw_body": {
+    "byte_length": 137306,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-CE6C6D8366F80D83/response-body.bin",
+    "sha256": "af06d56173bc886cb028d2eeeb57b78377520debeaf8c8b9f7d6d34312bc87c3"
+  },
+  "raw_sha256": "af06d56173bc886cb028d2eeeb57b78377520debeaf8c8b9f7d6d34312bc87c3",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20221111015006id_/https://medium.com/the-hologram/star-atlas-showroom-and-seasons-roadmap-b34a57aaea2b",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20221111015006id_/https://medium.com/the-hologram/star-atlas-showroom-and-seasons-roadmap-b34a57aaea2b",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:26:30 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20221111015006",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-CE6C6D8366F80D83",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20221111015006",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

@@ -1,0 +1,72 @@
+{
+  "byte_count": 245225,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:35.017691Z",
+  "captured_at": "2026-07-22T22:32:35.017691Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/the-hologram/star-atlas-core-book-one-recap-spoilers-a634ce395671",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:34 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/p/a634ce395671",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-core-book-one-recap-spoilers-a634ce395671",
+    "observed_final_url": "https://medium.com/the-hologram/star-atlas-core-book-one-recap-spoilers-a634ce395671",
+    "reasons": [
+      "STABLE_MEDIUM_POST_ID_MATCH_AFTER_PUBLICATION_PATH_CHANGE"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-core-book-one-recap-spoilers-a634ce395671",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/p/a634ce395671",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-66B32FB7A224EB14.json",
+  "raw_body": {
+    "byte_length": 245225,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-66B32FB7A224EB14/response-body.bin",
+    "sha256": "cf9b98ff5e5bd19fda424e503a3135d4ffcf6d14be12dde5de4420142aea3ccc"
+  },
+  "raw_sha256": "cf9b98ff5e5bd19fda424e503a3135d4ffcf6d14be12dde5de4420142aea3ccc",
+  "redirect_chain": [
+    {
+      "http_status": 301,
+      "location": "https://medium.com/the-hologram/star-atlas-core-book-one-recap-spoilers-a634ce395671"
+    }
+  ],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/p/a634ce395671",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/the-hologram/star-atlas-core-book-one-recap-spoilers-a634ce395671",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:34 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": [
+      {
+        "http_status": 301,
+        "location": "https://medium.com/the-hologram/star-atlas-core-book-one-recap-spoilers-a634ce395671"
+      }
+    ]
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-66B32FB7A224EB14",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:35.017691Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

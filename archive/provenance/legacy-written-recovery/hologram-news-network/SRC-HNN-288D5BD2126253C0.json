@@ -1,0 +1,62 @@
+{
+  "byte_count": 100481,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:21:00.369329Z",
+  "captured_at": "2026-07-22T22:21:00.369329Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20221228132557id_/https://medium.com/the-hologram/afsex-the-first-star-atlas-fleet-share-token-147a0100d327",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:21:00 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/afsex-the-first-star-atlas-fleet-share-token-147a0100d327",
+    "observed_canonical_url": "https://medium.com/the-hologram/afsex-the-first-star-atlas-fleet-share-token-147a0100d327",
+    "observed_final_url": "https://web.archive.org/web/20221228132557id_/https://medium.com/the-hologram/afsex-the-first-star-atlas-fleet-share-token-147a0100d327",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/afsex-the-first-star-atlas-fleet-share-token-147a0100d327",
+    "document_title": "$AFSeX, The First Star Atlas Fleet Share Token | by Krigs | The Hologram | Dec, 2022 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/afsex-the-first-star-atlas-fleet-share-token-147a0100d327",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-288D5BD2126253C0.json",
+  "raw_body": {
+    "byte_length": 100481,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-288D5BD2126253C0/response-body.bin",
+    "sha256": "6dcb6a0d0f456fe191f14cce2e41f22b6c22b0b90ba49d5b74ceee42170e6f15"
+  },
+  "raw_sha256": "6dcb6a0d0f456fe191f14cce2e41f22b6c22b0b90ba49d5b74ceee42170e6f15",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20221228132557id_/https://medium.com/the-hologram/afsex-the-first-star-atlas-fleet-share-token-147a0100d327",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20221228132557id_/https://medium.com/the-hologram/afsex-the-first-star-atlas-fleet-share-token-147a0100d327",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:21:00 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20221228132557",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-288D5BD2126253C0",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20221228132557",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

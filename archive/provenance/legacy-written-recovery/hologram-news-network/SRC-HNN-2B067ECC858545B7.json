@@ -1,0 +1,62 @@
+{
+  "byte_count": 223173,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:31.255216Z",
+  "captured_at": "2026-07-22T22:32:31.255216Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/the-hologram/krigs-steps-down-as-chief-editor-hnn-future-uncertain-6e1bc2c50612",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:31 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/krigs-steps-down-as-chief-editor-hnn-future-uncertain-6e1bc2c50612",
+    "observed_canonical_url": "https://medium.com/the-hologram/krigs-steps-down-as-chief-editor-hnn-future-uncertain-6e1bc2c50612",
+    "observed_final_url": "https://medium.com/the-hologram/krigs-steps-down-as-chief-editor-hnn-future-uncertain-6e1bc2c50612",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/krigs-steps-down-as-chief-editor-hnn-future-uncertain-6e1bc2c50612",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/krigs-steps-down-as-chief-editor-hnn-future-uncertain-6e1bc2c50612",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-2B067ECC858545B7.json",
+  "raw_body": {
+    "byte_length": 223173,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-2B067ECC858545B7/response-body.bin",
+    "sha256": "6fa6219ce6a37743747434734040a20b5520935f2ee85cae80d5d998a93d53b3"
+  },
+  "raw_sha256": "6fa6219ce6a37743747434734040a20b5520935f2ee85cae80d5d998a93d53b3",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/the-hologram/krigs-steps-down-as-chief-editor-hnn-future-uncertain-6e1bc2c50612",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/the-hologram/krigs-steps-down-as-chief-editor-hnn-future-uncertain-6e1bc2c50612",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:31 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-2B067ECC858545B7",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:31.255216Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

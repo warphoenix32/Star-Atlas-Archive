@@ -1,0 +1,62 @@
+{
+  "byte_count": 322733,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:32.701561Z",
+  "captured_at": "2026-07-22T22:32:32.701561Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/the-hologram/star-atlas-never-alone-mission-2-the-search-for-etira-lore-752b737cec04",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:32 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-never-alone-mission-2-the-search-for-etira-lore-752b737cec04",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-never-alone-mission-2-the-search-for-etira-lore-752b737cec04",
+    "observed_final_url": "https://medium.com/the-hologram/star-atlas-never-alone-mission-2-the-search-for-etira-lore-752b737cec04",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-never-alone-mission-2-the-search-for-etira-lore-752b737cec04",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-never-alone-mission-2-the-search-for-etira-lore-752b737cec04",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-53E647A76FF350BC.json",
+  "raw_body": {
+    "byte_length": 322733,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-53E647A76FF350BC/response-body.bin",
+    "sha256": "395d0acb61fd24956912f907f7b812d1c895782e64bd29f130f7e2482b94ef0a"
+  },
+  "raw_sha256": "395d0acb61fd24956912f907f7b812d1c895782e64bd29f130f7e2482b94ef0a",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/the-hologram/star-atlas-never-alone-mission-2-the-search-for-etira-lore-752b737cec04",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/the-hologram/star-atlas-never-alone-mission-2-the-search-for-etira-lore-752b737cec04",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:32 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-53E647A76FF350BC",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:32.701561Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

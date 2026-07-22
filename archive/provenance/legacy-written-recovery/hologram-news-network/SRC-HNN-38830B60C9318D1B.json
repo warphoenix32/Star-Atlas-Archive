@@ -1,0 +1,64 @@
+{
+  "byte_count": 208209,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:21:38.999097Z",
+  "captured_at": "2026-07-22T22:21:38.999097Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240417032952id_/https://hologramnews.com/star-atlas-in-talks-with-ludex/",
+  "headers": {
+    "content-length": "208209",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:21:38 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/star-atlas-in-talks-with-ludex",
+    "observed_canonical_url": "https://hologramnews.com/star-atlas-in-talks-with-ludex/",
+    "observed_final_url": "https://web.archive.org/web/20240417032952id_/https://hologramnews.com/star-atlas-in-talks-with-ludex/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/star-atlas-in-talks-with-ludex/",
+    "document_title": "Star Atlas In Talks With Ludex, Dawn of Empire For Unannounced Release - Hologram News Network 🦉",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/star-atlas-in-talks-with-ludex",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-38830B60C9318D1B.json",
+  "raw_body": {
+    "byte_length": 208209,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-38830B60C9318D1B/response-body.bin",
+    "sha256": "7a8da4f59cc2dd60d9aa44f4f4ec87381ee337e2db677fe4c977bf552c90ba93"
+  },
+  "raw_sha256": "7a8da4f59cc2dd60d9aa44f4f4ec87381ee337e2db677fe4c977bf552c90ba93",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240417032952id_/https://hologramnews.com/star-atlas-in-talks-with-ludex/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240417032952id_/https://hologramnews.com/star-atlas-in-talks-with-ludex/",
+    "headers": {
+      "content-length": "208209",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:21:38 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240417032952",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-38830B60C9318D1B",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240417032952",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

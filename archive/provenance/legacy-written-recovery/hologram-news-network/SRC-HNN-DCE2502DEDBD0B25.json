@@ -1,0 +1,62 @@
+{
+  "byte_count": 133025,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:00.675720Z",
+  "captured_at": "2026-07-22T22:27:00.675720Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230320201504id_/https://medium.com/the-hologram/the-solana-fud-fiction-to-faction-7b4b191b67b2",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:27:00 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/the-solana-fud-fiction-to-faction-7b4b191b67b2",
+    "observed_canonical_url": "https://medium.com/the-hologram/the-solana-fud-fiction-to-faction-7b4b191b67b2",
+    "observed_final_url": "https://web.archive.org/web/20230320201504id_/https://medium.com/the-hologram/the-solana-fud-fiction-to-faction-7b4b191b67b2",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/the-solana-fud-fiction-to-faction-7b4b191b67b2",
+    "document_title": "The Solana FUD: Is There Hope?. A rebuttal to those engaged in steering… | by Oni Merchant | The Hologram | Feb, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/the-solana-fud-fiction-to-faction-7b4b191b67b2",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-DCE2502DEDBD0B25.json",
+  "raw_body": {
+    "byte_length": 133025,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-DCE2502DEDBD0B25/response-body.bin",
+    "sha256": "b67598318be460b8d32a4aae4fc5f108e38a08c77f2595529b65c2f5b7e8aa1c"
+  },
+  "raw_sha256": "b67598318be460b8d32a4aae4fc5f108e38a08c77f2595529b65c2f5b7e8aa1c",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230320201504id_/https://medium.com/the-hologram/the-solana-fud-fiction-to-faction-7b4b191b67b2",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230320201504id_/https://medium.com/the-hologram/the-solana-fud-fiction-to-faction-7b4b191b67b2",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:27:00 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230320201504",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-DCE2502DEDBD0B25",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230320201504",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

@@ -1,0 +1,62 @@
+{
+  "byte_count": 216671,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:57.741314Z",
+  "captured_at": "2026-07-22T22:27:57.741314Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230524174032id_/https://medium.com/the-hologram/solaris-guild-actively-recruiting-mud-oni-and-ustur-players-893f6283a9cd",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:27:57 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/solaris-guild-actively-recruiting-mud-oni-and-ustur-players-893f6283a9cd",
+    "observed_canonical_url": "https://medium.com/the-hologram/solaris-guild-actively-recruiting-mud-oni-and-ustur-players-893f6283a9cd",
+    "observed_final_url": "https://web.archive.org/web/20230524174032id_/https://medium.com/the-hologram/solaris-guild-actively-recruiting-mud-oni-and-ustur-players-893f6283a9cd",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/solaris-guild-actively-recruiting-mud-oni-and-ustur-players-893f6283a9cd",
+    "document_title": "Solaris Guild — Actively Recruiting MUD, Oni, and Ustur Players | by Krigs | The Hologram | May, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/solaris-guild-actively-recruiting-mud-oni-and-ustur-players-893f6283a9cd",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-F538E425A7D80886.json",
+  "raw_body": {
+    "byte_length": 216671,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-F538E425A7D80886/response-body.bin",
+    "sha256": "74a258996058f794acd8147ab2d2a300ffbc5e2ccf2e2c878647bde268d6ae3b"
+  },
+  "raw_sha256": "74a258996058f794acd8147ab2d2a300ffbc5e2ccf2e2c878647bde268d6ae3b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230524174032id_/https://medium.com/the-hologram/solaris-guild-actively-recruiting-mud-oni-and-ustur-players-893f6283a9cd",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230524174032id_/https://medium.com/the-hologram/solaris-guild-actively-recruiting-mud-oni-and-ustur-players-893f6283a9cd",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:27:57 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230524174032",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-F538E425A7D80886",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230524174032",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

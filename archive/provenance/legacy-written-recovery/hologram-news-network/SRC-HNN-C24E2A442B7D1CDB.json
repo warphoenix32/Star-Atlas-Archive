@@ -1,0 +1,62 @@
+{
+  "byte_count": 273932,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:26:00.099817Z",
+  "captured_at": "2026-07-22T22:26:00.099817Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230527140359id_/https://medium.com/the-hologram/star-atlas-town-hall-39-recap-massive-gameplay-updates-6a20630c7ec0",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:25:59 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-town-hall-39-recap-massive-gameplay-updates-6a20630c7ec0",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-town-hall-39-recap-massive-gameplay-updates-6a20630c7ec0",
+    "observed_final_url": "https://web.archive.org/web/20230527140359id_/https://medium.com/the-hologram/star-atlas-town-hall-39-recap-massive-gameplay-updates-6a20630c7ec0",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-town-hall-39-recap-massive-gameplay-updates-6a20630c7ec0",
+    "document_title": "Star Atlas Town Hall 39 Recap — Massive Gameplay Updates | by Krigs | The Hologram | May, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-town-hall-39-recap-massive-gameplay-updates-6a20630c7ec0",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-C24E2A442B7D1CDB.json",
+  "raw_body": {
+    "byte_length": 273932,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-C24E2A442B7D1CDB/response-body.bin",
+    "sha256": "f92ec5468c093de8e1cccef82fa3838a552d0fade0251b67ea8d7c40079aaf75"
+  },
+  "raw_sha256": "f92ec5468c093de8e1cccef82fa3838a552d0fade0251b67ea8d7c40079aaf75",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230527140359id_/https://medium.com/the-hologram/star-atlas-town-hall-39-recap-massive-gameplay-updates-6a20630c7ec0",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230527140359id_/https://medium.com/the-hologram/star-atlas-town-hall-39-recap-massive-gameplay-updates-6a20630c7ec0",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:25:59 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230527140359",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-C24E2A442B7D1CDB",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230527140359",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

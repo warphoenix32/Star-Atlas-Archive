@@ -1,0 +1,64 @@
+{
+  "byte_count": 199901,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:24:05.779138Z",
+  "captured_at": "2026-07-22T22:24:05.779138Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20241210120721id_/https://hologramnews.com/ftx-liquidators-increase-star-atlas-selling-pace/",
+  "headers": {
+    "content-length": "199901",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:24:05 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/ftx-liquidators-increase-star-atlas-selling-pace",
+    "observed_canonical_url": "https://hologramnews.com/ftx-liquidators-increase-star-atlas-selling-pace/",
+    "observed_final_url": "https://web.archive.org/web/20241210120721id_/https://hologramnews.com/ftx-liquidators-increase-star-atlas-selling-pace/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/ftx-liquidators-increase-star-atlas-selling-pace/",
+    "document_title": "FTX liquidators increase Star Atlas selling pace -",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/ftx-liquidators-increase-star-atlas-selling-pace",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-878B6B43E3D95D52.json",
+  "raw_body": {
+    "byte_length": 199901,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-878B6B43E3D95D52/response-body.bin",
+    "sha256": "90579c48a44ceb2cef1090e0c60428c87ab0ee9f11399d55ec8a9ab9bcf5fb27"
+  },
+  "raw_sha256": "90579c48a44ceb2cef1090e0c60428c87ab0ee9f11399d55ec8a9ab9bcf5fb27",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20241210120721id_/https://hologramnews.com/ftx-liquidators-increase-star-atlas-selling-pace/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20241210120721id_/https://hologramnews.com/ftx-liquidators-increase-star-atlas-selling-pace/",
+    "headers": {
+      "content-length": "199901",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:24:05 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20241210120721",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-878B6B43E3D95D52",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20241210120721",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

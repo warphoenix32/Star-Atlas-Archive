@@ -1,0 +1,64 @@
+{
+  "byte_count": 148606,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:20:24.920730Z",
+  "captured_at": "2026-07-22T22:20:24.920730Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220510145653id_/https://thehologram.io/la-sogmiana/",
+  "headers": {
+    "content-length": "148606",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:20:24 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/la-sogmiana",
+    "observed_canonical_url": "https://thehologram.io/la-sogmiana/",
+    "observed_final_url": "https://web.archive.org/web/20220510145653id_/https://thehologram.io/la-sogmiana/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://thehologram.io/la-sogmiana/",
+    "document_title": "La Sogmiana | The Hologram",
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/la-sogmiana",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-0A3951F51868F598.json",
+  "raw_body": {
+    "byte_length": 148606,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-0A3951F51868F598/response-body.bin",
+    "sha256": "512b7a6bace2be258622f0999a9142e3ead92d85c18c8be79f9693bba2d55a57"
+  },
+  "raw_sha256": "512b7a6bace2be258622f0999a9142e3ead92d85c18c8be79f9693bba2d55a57",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220510145653id_/https://thehologram.io/la-sogmiana/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220510145653id_/https://thehologram.io/la-sogmiana/",
+    "headers": {
+      "content-length": "148606",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:20:24 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220510145653",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-0A3951F51868F598",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220510145653",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

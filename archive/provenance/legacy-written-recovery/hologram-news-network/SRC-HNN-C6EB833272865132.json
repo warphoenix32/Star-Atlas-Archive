@@ -1,0 +1,62 @@
+{
+  "byte_count": 137720,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:26:19.871392Z",
+  "captured_at": "2026-07-22T22:26:19.871392Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230509141725id_/https://medium.com/the-hologram/the-holoreport-jan-2023-3358d24a7c6f",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:26:19 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/the-holoreport-jan-2023-3358d24a7c6f",
+    "observed_canonical_url": "https://medium.com/the-hologram/the-holoreport-jan-2023-3358d24a7c6f",
+    "observed_final_url": "https://web.archive.org/web/20230509141725id_/https://medium.com/the-hologram/the-holoreport-jan-2023-3358d24a7c6f",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/the-holoreport-jan-2023-3358d24a7c6f",
+    "document_title": "The HoloReport — Jan 2023. Although January was a slow month for… | by Krigs | The Hologram | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/the-holoreport-jan-2023-3358d24a7c6f",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-C6EB833272865132.json",
+  "raw_body": {
+    "byte_length": 137720,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-C6EB833272865132/response-body.bin",
+    "sha256": "c73b2edfe182defba4a93a10547b6f2a42fc1d6676442159ec8c9965e858dea3"
+  },
+  "raw_sha256": "c73b2edfe182defba4a93a10547b6f2a42fc1d6676442159ec8c9965e858dea3",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230509141725id_/https://medium.com/the-hologram/the-holoreport-jan-2023-3358d24a7c6f",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230509141725id_/https://medium.com/the-hologram/the-holoreport-jan-2023-3358d24a7c6f",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:26:19 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230509141725",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-C6EB833272865132",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230509141725",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

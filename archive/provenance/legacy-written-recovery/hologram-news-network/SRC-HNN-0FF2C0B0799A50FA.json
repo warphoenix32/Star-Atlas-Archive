@@ -1,0 +1,62 @@
+{
+  "byte_count": 196813,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:20:31.295108Z",
+  "captured_at": "2026-07-22T22:20:31.295108Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240625014316id_/https://hologramnews.com/core-data-cube-nft/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:20:31 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/core-data-cube-nft",
+    "observed_canonical_url": "https://hologramnews.com/core-data-cube-nft/",
+    "observed_final_url": "https://web.archive.org/web/20240625014316id_/https://hologramnews.com/core-data-cube-nft/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/core-data-cube-nft/",
+    "document_title": "Super Phoenix DAO CORE Data Cube NFT Mint June 26th - Hologram News Network",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/core-data-cube-nft",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-0FF2C0B0799A50FA.json",
+  "raw_body": {
+    "byte_length": 196813,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-0FF2C0B0799A50FA/response-body.bin",
+    "sha256": "f9d37b2fb8b34098a67047bc4bba541b95024a62c931f7a79504784179acb05e"
+  },
+  "raw_sha256": "f9d37b2fb8b34098a67047bc4bba541b95024a62c931f7a79504784179acb05e",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240625014316id_/https://hologramnews.com/core-data-cube-nft/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240625014316id_/https://hologramnews.com/core-data-cube-nft/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:20:31 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240625014316",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-0FF2C0B0799A50FA",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240625014316",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

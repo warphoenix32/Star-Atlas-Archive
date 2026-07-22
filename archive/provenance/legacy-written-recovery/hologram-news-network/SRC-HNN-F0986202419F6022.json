@@ -1,0 +1,62 @@
+{
+  "byte_count": 36348,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:30.882151Z",
+  "captured_at": "2026-07-22T22:27:30.882151Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220816180138id_/https://thehologram.io/how-to-find-your-star-atlas-ship-nft/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:27:30 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/how-to-find-your-star-atlas-ship-nft",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20220816180138id_/https://thehologram.io/how-to-find-your-star-atlas-ship-nft/",
+    "reasons": [
+      "ARCHIVE_CAPTURE_CONTAINS_EXPECTED_ORIGIN"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/how-to-find-your-star-atlas-ship-nft",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-F0986202419F6022.json",
+  "raw_body": {
+    "byte_length": 36348,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-F0986202419F6022/response-body.bin",
+    "sha256": "571fe1f3c7ca4e5400ab49fecf0606fab4f7673b3071ad1be8ef053b11b45c4b"
+  },
+  "raw_sha256": "571fe1f3c7ca4e5400ab49fecf0606fab4f7673b3071ad1be8ef053b11b45c4b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220816180138id_/https://thehologram.io/how-to-find-your-star-atlas-ship-nft/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220816180138id_/https://thehologram.io/how-to-find-your-star-atlas-ship-nft/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:27:30 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220816180138",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-F0986202419F6022",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220816180138",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

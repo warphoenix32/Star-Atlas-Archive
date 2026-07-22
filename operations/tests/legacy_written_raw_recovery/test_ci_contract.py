@@ -110,3 +110,38 @@ def test_aephia_expansion_has_complete_identity_matched_terminal_coverage():
     assert all(item["identity_status"] == "MATCH" for item in records)
     assert not any(item["manual_review_required"] for item in records)
     assert (CAMPAIGN_DIR / "expansion-aephia-manual-review-queue.jsonl").read_bytes() == b""
+
+
+def test_hnn_completion_selection_is_fixed_and_reconciles_to_the_family():
+    selection = json.loads((CAMPAIGN_DIR / "expansion-hnn-selection.json").read_text(encoding="utf-8"))
+    selected_ids = [item["source_id"] for item in selection["records"]]
+
+    assert selection["batch_id"] == "hnn-written-family-completion-156"
+    assert selection["expected_record_count"] == 156
+    assert selection["family_record_count"] == 157
+    assert len(selected_ids) == len(set(selected_ids)) == 156
+    assert selection["preserved_baseline_source_ids"] == ["SRC-HNN-04DD15F547F461E7"]
+    assert len(selection["pilot_source_ids_repaired"]) == 4
+    assert not set(selected_ids).intersection(selection["preserved_baseline_source_ids"])
+    assert all(urlsplit(item["retrieval_url"]).netloc in {"medium.com", "web.archive.org"} for item in selection["records"])
+
+
+def test_hnn_completion_has_full_preserved_coverage_and_no_manual_queue():
+    ledger_path = CAMPAIGN_DIR / "expansion-hnn-retrieval-ledger.jsonl"
+    records = [json.loads(line) for line in ledger_path.read_text(encoding="utf-8").splitlines() if line]
+    resolutions = [
+        json.loads(line)
+        for line in (CAMPAIGN_DIR / "expansion-hnn-archive-resolution-ledger.jsonl").read_text(encoding="utf-8").splitlines()
+        if line
+    ]
+
+    assert len(records) == len({item["source_id"] for item in records}) == 156
+    assert len(resolutions) == len({item["source_id"] for item in resolutions}) == 156
+    assert all(item["retrieval_batch_id"] == "hnn-written-family-completion-156" for item in records)
+    assert all(item["body_path"] and item["provenance_path"] for item in records)
+    assert {item["terminal_disposition"] for item in records} == {"CAPTURED_ARCHIVE", "CAPTURED_LIVE"}
+    assert sum(item["terminal_disposition"] == "CAPTURED_ARCHIVE" for item in records) == 144
+    assert sum(item["terminal_disposition"] == "CAPTURED_LIVE" for item in records) == 12
+    assert all(item["identity_status"] in {"MATCH", "CONSISTENT"} for item in records)
+    assert not any(item["manual_review_required"] for item in records)
+    assert (CAMPAIGN_DIR / "expansion-hnn-manual-review-queue.jsonl").read_bytes() == b""

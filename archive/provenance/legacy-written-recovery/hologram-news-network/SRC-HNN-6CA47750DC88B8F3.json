@@ -1,0 +1,62 @@
+{
+  "byte_count": 113935,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:22:54.201386Z",
+  "captured_at": "2026-07-22T22:22:54.201386Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230209213533id_/https://medium.com/the-hologram/the-road-to-sage-a-guide-to-the-tech-demo-part-2-45c58d55c237",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:22:54 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/the-road-to-sage-a-guide-to-the-tech-demo-part-2-45c58d55c237",
+    "observed_canonical_url": "https://medium.com/the-hologram/the-road-to-sage-a-guide-to-the-tech-demo-part-2-45c58d55c237",
+    "observed_final_url": "https://web.archive.org/web/20230209213533id_/https://medium.com/the-hologram/the-road-to-sage-a-guide-to-the-tech-demo-part-2-45c58d55c237",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/the-road-to-sage-a-guide-to-the-tech-demo-part-2-45c58d55c237",
+    "document_title": "The Road to SAGE: A Guide to the Tech Demo (Part 2) | by JALLDIGITAL | The Hologram | Feb, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/the-road-to-sage-a-guide-to-the-tech-demo-part-2-45c58d55c237",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-6CA47750DC88B8F3.json",
+  "raw_body": {
+    "byte_length": 113935,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-6CA47750DC88B8F3/response-body.bin",
+    "sha256": "f5a1afcd305dc484310582c7b67aa7acd376074ad86d441f48c64e23dd263cc0"
+  },
+  "raw_sha256": "f5a1afcd305dc484310582c7b67aa7acd376074ad86d441f48c64e23dd263cc0",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230209213533id_/https://medium.com/the-hologram/the-road-to-sage-a-guide-to-the-tech-demo-part-2-45c58d55c237",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230209213533id_/https://medium.com/the-hologram/the-road-to-sage-a-guide-to-the-tech-demo-part-2-45c58d55c237",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:22:54 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230209213533",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-6CA47750DC88B8F3",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230209213533",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

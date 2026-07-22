@@ -1,0 +1,64 @@
+{
+  "byte_count": 136097,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:21.801714Z",
+  "captured_at": "2026-07-22T22:27:21.801714Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220525145841id_/https://thehologram.io/holopinion/",
+  "headers": {
+    "content-length": "136097",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:27:21 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/holopinion",
+    "observed_canonical_url": "https://thehologram.io/holopinion/",
+    "observed_final_url": "https://web.archive.org/web/20220525145841id_/https://thehologram.io/holopinion/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://thehologram.io/holopinion/",
+    "document_title": "HolOpinion - The voice of the community | The Hologram",
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/holopinion",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-E7CDEF83AC178E42.json",
+  "raw_body": {
+    "byte_length": 136097,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-E7CDEF83AC178E42/response-body.bin",
+    "sha256": "0c9d5d90f83b58702ef5dde5a7cf8d84ef763003d1243e061c0188965a0cc74a"
+  },
+  "raw_sha256": "0c9d5d90f83b58702ef5dde5a7cf8d84ef763003d1243e061c0188965a0cc74a",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220525145841id_/https://thehologram.io/holopinion/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220525145841id_/https://thehologram.io/holopinion/",
+    "headers": {
+      "content-length": "136097",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:27:21 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220525145841",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-E7CDEF83AC178E42",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220525145841",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

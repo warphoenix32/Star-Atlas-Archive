@@ -1,0 +1,64 @@
+{
+  "byte_count": 217764,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:22:49.241388Z",
+  "captured_at": "2026-07-22T22:22:49.241388Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240417022525id_/https://hologramnews.com/unveiling-star-atlas-the-future-of-vehicle-based-space-exploration/",
+  "headers": {
+    "content-length": "217764",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:22:48 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/unveiling-star-atlas-the-future-of-vehicle-based-space-exploration",
+    "observed_canonical_url": "https://hologramnews.com/unveiling-star-atlas-the-future-of-vehicle-based-space-exploration/",
+    "observed_final_url": "https://web.archive.org/web/20240417022525id_/https://hologramnews.com/unveiling-star-atlas-the-future-of-vehicle-based-space-exploration/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/unveiling-star-atlas-the-future-of-vehicle-based-space-exploration/",
+    "document_title": "Unveiling Star Atlas: The Future of Vehicle-Based Space Exploration - Hologram News Network 🦉",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/unveiling-star-atlas-the-future-of-vehicle-based-space-exploration",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-67B2CF1C4180263C.json",
+  "raw_body": {
+    "byte_length": 217764,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-67B2CF1C4180263C/response-body.bin",
+    "sha256": "023e6e64ea1a4f639f0363db767932fd21d905268c744194fb7d96443c038e41"
+  },
+  "raw_sha256": "023e6e64ea1a4f639f0363db767932fd21d905268c744194fb7d96443c038e41",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240417022525id_/https://hologramnews.com/unveiling-star-atlas-the-future-of-vehicle-based-space-exploration/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240417022525id_/https://hologramnews.com/unveiling-star-atlas-the-future-of-vehicle-based-space-exploration/",
+    "headers": {
+      "content-length": "217764",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:22:48 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240417022525",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-67B2CF1C4180263C",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240417022525",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

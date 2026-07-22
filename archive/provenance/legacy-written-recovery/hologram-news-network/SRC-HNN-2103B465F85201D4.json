@@ -1,0 +1,64 @@
+{
+  "byte_count": 173715,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:20:46.508180Z",
+  "captured_at": "2026-07-22T22:20:46.508180Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220906140240id_/https://thehologram.io/the-admiral-of-cop/",
+  "headers": {
+    "content-length": "173715",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:20:46 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/the-admiral-of-cop",
+    "observed_canonical_url": "https://thehologram.io/the-admiral-of-cop/",
+    "observed_final_url": "https://web.archive.org/web/20220906140240id_/https://thehologram.io/the-admiral-of-cop/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://thehologram.io/the-admiral-of-cop/",
+    "document_title": "The Admiral of COP » The Hologram",
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/the-admiral-of-cop",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-2103B465F85201D4.json",
+  "raw_body": {
+    "byte_length": 173715,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-2103B465F85201D4/response-body.bin",
+    "sha256": "f7727112fa3fb6f74bdf3562131b73e2910315449f9e591b19cf4bae38465922"
+  },
+  "raw_sha256": "f7727112fa3fb6f74bdf3562131b73e2910315449f9e591b19cf4bae38465922",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220906140240id_/https://thehologram.io/the-admiral-of-cop/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220906140240id_/https://thehologram.io/the-admiral-of-cop/",
+    "headers": {
+      "content-length": "173715",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:20:46 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220906140240",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-2103B465F85201D4",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220906140240",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

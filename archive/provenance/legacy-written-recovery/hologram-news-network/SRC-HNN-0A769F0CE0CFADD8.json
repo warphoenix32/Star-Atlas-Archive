@@ -1,0 +1,72 @@
+{
+  "byte_count": 237273,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:29.898205Z",
+  "captured_at": "2026-07-22T22:32:29.898205Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/blockchain-biz/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:29 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/@krigsfoniks/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3",
+    "observed_canonical_url": "https://medium.com/blockchain-biz/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3",
+    "observed_final_url": "https://medium.com/blockchain-biz/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3",
+    "reasons": [
+      "STABLE_MEDIUM_POST_ID_MATCH_AFTER_PUBLICATION_PATH_CHANGE"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/blockchain-biz/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/@krigsfoniks/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-0A769F0CE0CFADD8.json",
+  "raw_body": {
+    "byte_length": 237273,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-0A769F0CE0CFADD8/response-body.bin",
+    "sha256": "1f1294a74895f02dc6d66eb9727b52c299c2e76b782fd5ccad376e5492561c6b"
+  },
+  "raw_sha256": "1f1294a74895f02dc6d66eb9727b52c299c2e76b782fd5ccad376e5492561c6b",
+  "redirect_chain": [
+    {
+      "http_status": 301,
+      "location": "https://medium.com/blockchain-biz/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3"
+    }
+  ],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/@krigsfoniks/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/blockchain-biz/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:29 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": [
+      {
+        "http_status": 301,
+        "location": "https://medium.com/blockchain-biz/star-atlas-launches-into-escape-velocity-putting-solana-to-the-test-219b8a77bbc3"
+      }
+    ]
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-0A769F0CE0CFADD8",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:29.898205Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

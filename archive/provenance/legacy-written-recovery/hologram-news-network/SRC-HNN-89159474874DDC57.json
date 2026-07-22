@@ -1,0 +1,62 @@
+{
+  "byte_count": 223498,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:39.919691Z",
+  "captured_at": "2026-07-22T22:32:39.919691Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/the-hologram/star-atlas-galactic-marketplace-mishap-allows-ship-nfts-to-sell-at-insane-discounts-ea67816d64ba",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:39 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-galactic-marketplace-mishap-allows-ship-nfts-to-sell-at-insane-discounts-ea67816d64ba",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-galactic-marketplace-mishap-allows-ship-nfts-to-sell-at-insane-discounts-ea67816d64ba",
+    "observed_final_url": "https://medium.com/the-hologram/star-atlas-galactic-marketplace-mishap-allows-ship-nfts-to-sell-at-insane-discounts-ea67816d64ba",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-galactic-marketplace-mishap-allows-ship-nfts-to-sell-at-insane-discounts-ea67816d64ba",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-galactic-marketplace-mishap-allows-ship-nfts-to-sell-at-insane-discounts-ea67816d64ba",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-89159474874DDC57.json",
+  "raw_body": {
+    "byte_length": 223498,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-89159474874DDC57/response-body.bin",
+    "sha256": "09bcc30a7bb2000821c15f0f1f92c3922f8e0daa61bb356abd08e8b0df213f93"
+  },
+  "raw_sha256": "09bcc30a7bb2000821c15f0f1f92c3922f8e0daa61bb356abd08e8b0df213f93",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/the-hologram/star-atlas-galactic-marketplace-mishap-allows-ship-nfts-to-sell-at-insane-discounts-ea67816d64ba",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/the-hologram/star-atlas-galactic-marketplace-mishap-allows-ship-nfts-to-sell-at-insane-discounts-ea67816d64ba",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:39 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-89159474874DDC57",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:39.919691Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

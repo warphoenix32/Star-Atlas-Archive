@@ -1,0 +1,62 @@
+{
+  "byte_count": 33200,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:03.625704Z",
+  "captured_at": "2026-07-22T22:27:03.625704Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20221222212406id_/https://medium.com/the-hologram/every-winner-from-the-2022-star-atlas-joni-awards-22fa8ca4a46b",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:27:03 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/every-winner-from-the-2022-star-atlas-joni-awards-22fa8ca4a46b",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20221222212406id_/https://medium.com/the-hologram/every-winner-from-the-2022-star-atlas-joni-awards-22fa8ca4a46b",
+    "reasons": [
+      "STABLE_MEDIUM_POST_ID_MATCH_AFTER_PUBLICATION_PATH_CHANGE"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/every-winner-from-the-2022-star-atlas-joni-awards-22fa8ca4a46b",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-E0D373F14BE7EBC5.json",
+  "raw_body": {
+    "byte_length": 33200,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-E0D373F14BE7EBC5/response-body.bin",
+    "sha256": "1b0715dba1e332c583e2e389fdfad0de103e357c044b7f9d9358258801ae8a78"
+  },
+  "raw_sha256": "1b0715dba1e332c583e2e389fdfad0de103e357c044b7f9d9358258801ae8a78",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20221222212406id_/https://medium.com/the-hologram/every-winner-from-the-2022-star-atlas-joni-awards-22fa8ca4a46b",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20221222212406id_/https://medium.com/the-hologram/every-winner-from-the-2022-star-atlas-joni-awards-22fa8ca4a46b",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:27:03 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20221222212406",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-E0D373F14BE7EBC5",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20221222212406",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

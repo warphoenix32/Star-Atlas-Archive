@@ -1,0 +1,64 @@
+{
+  "byte_count": 217360,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:40.816757Z",
+  "captured_at": "2026-07-22T22:32:40.816757Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/the-hologram/star-atlas-lost-ustur-language-decoded-6d0b82fe5acb",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:40 GMT",
+    "last-modified": "Tue, 21 Jul 2026 18:52:17 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-lost-ustur-language-decoded-6d0b82fe5acb",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-lost-ustur-language-decoded-6d0b82fe5acb",
+    "observed_final_url": "https://medium.com/the-hologram/star-atlas-lost-ustur-language-decoded-6d0b82fe5acb",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-lost-ustur-language-decoded-6d0b82fe5acb",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-lost-ustur-language-decoded-6d0b82fe5acb",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-89526D06F66930F6.json",
+  "raw_body": {
+    "byte_length": 217360,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-89526D06F66930F6/response-body.bin",
+    "sha256": "58f723656ff747daa9a6fdecc5bdd101be23442f89705b328f87a99d0b36de13"
+  },
+  "raw_sha256": "58f723656ff747daa9a6fdecc5bdd101be23442f89705b328f87a99d0b36de13",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/the-hologram/star-atlas-lost-ustur-language-decoded-6d0b82fe5acb",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/the-hologram/star-atlas-lost-ustur-language-decoded-6d0b82fe5acb",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:40 GMT",
+      "last-modified": "Tue, 21 Jul 2026 18:52:17 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-89526D06F66930F6",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:40.816757Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

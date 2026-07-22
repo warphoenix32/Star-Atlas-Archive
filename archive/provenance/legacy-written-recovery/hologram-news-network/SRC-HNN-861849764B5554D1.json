@@ -1,0 +1,62 @@
+{
+  "byte_count": 148200,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:24:03.498897Z",
+  "captured_at": "2026-07-22T22:24:03.498897Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20221222120516id_/https://medium.com/the-hologram/final-2022-star-atlas-town-hall-recap-151a10261def",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:24:03 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/final-2022-star-atlas-town-hall-recap-151a10261def",
+    "observed_canonical_url": "https://medium.com/the-hologram/final-2022-star-atlas-town-hall-recap-151a10261def",
+    "observed_final_url": "https://web.archive.org/web/20221222120516id_/https://medium.com/the-hologram/final-2022-star-atlas-town-hall-recap-151a10261def",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/final-2022-star-atlas-town-hall-recap-151a10261def",
+    "document_title": "Final 2022 Star Atlas Town Hall Recap | by Krigs | The Hologram | Dec, 2022 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/final-2022-star-atlas-town-hall-recap-151a10261def",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-861849764B5554D1.json",
+  "raw_body": {
+    "byte_length": 148200,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-861849764B5554D1/response-body.bin",
+    "sha256": "a72a554067d66307eae74ee942ceded75e43a163b21d0c0ebef95d4477c4e165"
+  },
+  "raw_sha256": "a72a554067d66307eae74ee942ceded75e43a163b21d0c0ebef95d4477c4e165",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20221222120516id_/https://medium.com/the-hologram/final-2022-star-atlas-town-hall-recap-151a10261def",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20221222120516id_/https://medium.com/the-hologram/final-2022-star-atlas-town-hall-recap-151a10261def",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:24:03 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20221222120516",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-861849764B5554D1",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20221222120516",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

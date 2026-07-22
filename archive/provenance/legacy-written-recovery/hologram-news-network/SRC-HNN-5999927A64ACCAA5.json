@@ -1,0 +1,62 @@
+{
+  "byte_count": 212319,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:22:29.082293Z",
+  "captured_at": "2026-07-22T22:22:29.082293Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230518100539id_/https://medium.com/the-hologram/former-star-atlas-cro-speak-on-departure-eb37dc95ff3",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:22:28 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/former-star-atlas-cro-speak-on-departure-eb37dc95ff3",
+    "observed_canonical_url": "https://medium.com/the-hologram/former-star-atlas-cro-speak-on-departure-eb37dc95ff3",
+    "observed_final_url": "https://web.archive.org/web/20230518100539id_/https://medium.com/the-hologram/former-star-atlas-cro-speak-on-departure-eb37dc95ff3",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/former-star-atlas-cro-speak-on-departure-eb37dc95ff3",
+    "document_title": "Former Star Atlas CRO Speaks on Departure | by Krigs | The Hologram | May, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/former-star-atlas-cro-speak-on-departure-eb37dc95ff3",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-5999927A64ACCAA5.json",
+  "raw_body": {
+    "byte_length": 212319,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-5999927A64ACCAA5/response-body.bin",
+    "sha256": "efe304ddbf26c965c68ed996323ee3deec46bae7e5785e7a981cdc4938a5bb8f"
+  },
+  "raw_sha256": "efe304ddbf26c965c68ed996323ee3deec46bae7e5785e7a981cdc4938a5bb8f",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230518100539id_/https://medium.com/the-hologram/former-star-atlas-cro-speak-on-departure-eb37dc95ff3",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230518100539id_/https://medium.com/the-hologram/former-star-atlas-cro-speak-on-departure-eb37dc95ff3",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:22:28 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230518100539",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-5999927A64ACCAA5",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230518100539",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

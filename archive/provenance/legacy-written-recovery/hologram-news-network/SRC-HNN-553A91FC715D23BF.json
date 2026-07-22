@@ -1,0 +1,62 @@
+{
+  "byte_count": 207557,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:22:03.250031Z",
+  "captured_at": "2026-07-22T22:22:03.250031Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240613231110id_/https://hologramnews.com/uper-phoenix-dao-announces-mid-june-core-data-cube-nft-mint/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:22:03 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/uper-phoenix-dao-announces-mid-june-core-data-cube-nft-mint",
+    "observed_canonical_url": "https://hologramnews.com/uper-phoenix-dao-announces-mid-june-core-data-cube-nft-mint/",
+    "observed_final_url": "https://web.archive.org/web/20240613231110id_/https://hologramnews.com/uper-phoenix-dao-announces-mid-june-core-data-cube-nft-mint/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/uper-phoenix-dao-announces-mid-june-core-data-cube-nft-mint/",
+    "document_title": "Super Phoenix DAO Announces Mid-June CORE Data Cube NFT Mint",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/uper-phoenix-dao-announces-mid-june-core-data-cube-nft-mint",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-553A91FC715D23BF.json",
+  "raw_body": {
+    "byte_length": 207557,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-553A91FC715D23BF/response-body.bin",
+    "sha256": "945f22d9c7acbcd04cda1ce942ab363d8b15455479e1a4f27d26056910a63605"
+  },
+  "raw_sha256": "945f22d9c7acbcd04cda1ce942ab363d8b15455479e1a4f27d26056910a63605",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240613231110id_/https://hologramnews.com/uper-phoenix-dao-announces-mid-june-core-data-cube-nft-mint/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240613231110id_/https://hologramnews.com/uper-phoenix-dao-announces-mid-june-core-data-cube-nft-mint/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:22:03 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240613231110",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-553A91FC715D23BF",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240613231110",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

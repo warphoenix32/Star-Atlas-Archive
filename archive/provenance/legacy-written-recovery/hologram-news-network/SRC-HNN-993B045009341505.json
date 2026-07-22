@@ -1,0 +1,64 @@
+{
+  "byte_count": 203240,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:24:44.120402Z",
+  "captured_at": "2026-07-22T22:24:44.120402Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240809033043id_/https://hologramnews.com/why-star-atlas-token-prices-are-sinking-despite-bull-run/",
+  "headers": {
+    "content-length": "203240",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:24:43 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/why-star-atlas-token-prices-are-sinking-despite-bull-run",
+    "observed_canonical_url": "https://hologramnews.com/why-star-atlas-token-prices-are-sinking-despite-bull-run/",
+    "observed_final_url": "https://web.archive.org/web/20240809033043id_/https://hologramnews.com/why-star-atlas-token-prices-are-sinking-despite-bull-run/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/why-star-atlas-token-prices-are-sinking-despite-bull-run/",
+    "document_title": "Why Star Atlas token prices are sinking despite bull run",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/why-star-atlas-token-prices-are-sinking-despite-bull-run",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-993B045009341505.json",
+  "raw_body": {
+    "byte_length": 203240,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-993B045009341505/response-body.bin",
+    "sha256": "c676e17e33f098e8791fc2b26f0f3bdf512b06c927132c9fd59f08b409fe7e8e"
+  },
+  "raw_sha256": "c676e17e33f098e8791fc2b26f0f3bdf512b06c927132c9fd59f08b409fe7e8e",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240809033043id_/https://hologramnews.com/why-star-atlas-token-prices-are-sinking-despite-bull-run/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240809033043id_/https://hologramnews.com/why-star-atlas-token-prices-are-sinking-despite-bull-run/",
+    "headers": {
+      "content-length": "203240",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:24:43 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240809033043",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-993B045009341505",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240809033043",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

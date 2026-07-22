@@ -1,0 +1,62 @@
+{
+  "byte_count": 198715,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:25:31.543742Z",
+  "captured_at": "2026-07-22T22:25:31.543742Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230506010303id_/https://medium.com/the-hologram/call-to-action-star-atlas-host-largest-scavenge-hunt-featuring-giveaway-prizes-f5f96a83fbc3",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:25:31 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/call-to-action-star-atlas-host-largest-scavenge-hunt-featuring-giveaway-prizes-f5f96a83fbc3",
+    "observed_canonical_url": "https://medium.com/the-hologram/call-to-action-star-atlas-host-largest-scavenge-hunt-featuring-giveaway-prizes-f5f96a83fbc3",
+    "observed_final_url": "https://web.archive.org/web/20230506010303id_/https://medium.com/the-hologram/call-to-action-star-atlas-host-largest-scavenge-hunt-featuring-giveaway-prizes-f5f96a83fbc3",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/call-to-action-star-atlas-host-largest-scavenge-hunt-featuring-giveaway-prizes-f5f96a83fbc3",
+    "document_title": "Call to Action: Star Atlas Host Largest Scavenge Hunt Featuring Giveaway Prizes | by Krigs | The Hologram | May, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/call-to-action-star-atlas-host-largest-scavenge-hunt-featuring-giveaway-prizes-f5f96a83fbc3",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-B918208089C0EF7D.json",
+  "raw_body": {
+    "byte_length": 198715,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-B918208089C0EF7D/response-body.bin",
+    "sha256": "b1304c60174c9c482d1f1a3c7a479c514fd44b1b3964cf3c6fd83c9b614be57b"
+  },
+  "raw_sha256": "b1304c60174c9c482d1f1a3c7a479c514fd44b1b3964cf3c6fd83c9b614be57b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230506010303id_/https://medium.com/the-hologram/call-to-action-star-atlas-host-largest-scavenge-hunt-featuring-giveaway-prizes-f5f96a83fbc3",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230506010303id_/https://medium.com/the-hologram/call-to-action-star-atlas-host-largest-scavenge-hunt-featuring-giveaway-prizes-f5f96a83fbc3",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:25:31 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230506010303",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-B918208089C0EF7D",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230506010303",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

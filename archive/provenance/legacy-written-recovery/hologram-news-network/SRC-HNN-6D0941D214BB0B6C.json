@@ -1,0 +1,62 @@
+{
+  "byte_count": 215566,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:22:56.631180Z",
+  "captured_at": "2026-07-22T22:22:56.631180Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240612233859id_/https://hologramnews.com/star-atlas-crew-guide-for-beginners/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:22:56 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/star-atlas-crew-guide-for-beginners",
+    "observed_canonical_url": "https://hologramnews.com/star-atlas-crew-guide-for-beginners/",
+    "observed_final_url": "https://web.archive.org/web/20240612233859id_/https://hologramnews.com/star-atlas-crew-guide-for-beginners/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/star-atlas-crew-guide-for-beginners/",
+    "document_title": "Star Atlas Crew Guide For Beginners - Hologram News Network",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/star-atlas-crew-guide-for-beginners",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-6D0941D214BB0B6C.json",
+  "raw_body": {
+    "byte_length": 215566,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-6D0941D214BB0B6C/response-body.bin",
+    "sha256": "ad300e6fb4238210e66528f5f101acd34ddfa3e626080bb22e95206a52a67c6c"
+  },
+  "raw_sha256": "ad300e6fb4238210e66528f5f101acd34ddfa3e626080bb22e95206a52a67c6c",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240612233859id_/https://hologramnews.com/star-atlas-crew-guide-for-beginners/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240612233859id_/https://hologramnews.com/star-atlas-crew-guide-for-beginners/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:22:56 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240612233859",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-6D0941D214BB0B6C",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240612233859",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

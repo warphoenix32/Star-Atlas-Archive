@@ -1,0 +1,64 @@
+{
+  "byte_count": 210737,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:23:08.866559Z",
+  "captured_at": "2026-07-22T22:23:08.866559Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240417020709id_/https://hologramnews.com/star-atlas-poised-to-sell-massive-5m-titan-ship/",
+  "headers": {
+    "content-length": "210737",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:23:08 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/star-atlas-poised-to-sell-massive-5m-titan-ship",
+    "observed_canonical_url": "https://hologramnews.com/star-atlas-poised-to-sell-massive-5m-titan-ship/",
+    "observed_final_url": "https://web.archive.org/web/20240417020709id_/https://hologramnews.com/star-atlas-poised-to-sell-massive-5m-titan-ship/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/star-atlas-poised-to-sell-massive-5m-titan-ship/",
+    "document_title": "Star Atlas Poised to Sell Massive $5M Titan Ship - Hologram News Network 🦉",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/star-atlas-poised-to-sell-massive-5m-titan-ship",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-7137FE5E98E81803.json",
+  "raw_body": {
+    "byte_length": 210737,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-7137FE5E98E81803/response-body.bin",
+    "sha256": "3ae259d8dcc18d0834bcd165213187d4e36c7b6164835196b9289edea70e8441"
+  },
+  "raw_sha256": "3ae259d8dcc18d0834bcd165213187d4e36c7b6164835196b9289edea70e8441",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240417020709id_/https://hologramnews.com/star-atlas-poised-to-sell-massive-5m-titan-ship/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240417020709id_/https://hologramnews.com/star-atlas-poised-to-sell-massive-5m-titan-ship/",
+    "headers": {
+      "content-length": "210737",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:23:08 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240417020709",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-7137FE5E98E81803",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240417020709",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

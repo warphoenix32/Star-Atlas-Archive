@@ -1,0 +1,62 @@
+{
+  "byte_count": 114014,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:20:44.687253Z",
+  "captured_at": "2026-07-22T22:20:44.687253Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20240121034546id_/https://medium.com/the-hologram/italian-star-atlas-player-wins-30k-starship-prize-24f2161bb59a",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:20:44 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/italian-star-atlas-player-wins-30k-starship-prize-24f2161bb59a",
+    "observed_canonical_url": "https://medium.com/the-hologram/italian-star-atlas-player-wins-30k-starship-prize-24f2161bb59a",
+    "observed_final_url": "https://web.archive.org/web/20240121034546id_/https://medium.com/the-hologram/italian-star-atlas-player-wins-30k-starship-prize-24f2161bb59a",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/italian-star-atlas-player-wins-30k-starship-prize-24f2161bb59a",
+    "document_title": "Italian Star Atlas Player Wins $30K Starship Prize | by Krigs | The Hologram | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/italian-star-atlas-player-wins-30k-starship-prize-24f2161bb59a",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-20CAC51888FDEF8A.json",
+  "raw_body": {
+    "byte_length": 114014,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-20CAC51888FDEF8A/response-body.bin",
+    "sha256": "162fd39baa7a8a339119b992efa40c4246ba4f046057cd5edf0416043e6cafe8"
+  },
+  "raw_sha256": "162fd39baa7a8a339119b992efa40c4246ba4f046057cd5edf0416043e6cafe8",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240121034546id_/https://medium.com/the-hologram/italian-star-atlas-player-wins-30k-starship-prize-24f2161bb59a",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20240121034546id_/https://medium.com/the-hologram/italian-star-atlas-player-wins-30k-starship-prize-24f2161bb59a",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:20:44 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240121034546",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-20CAC51888FDEF8A",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240121034546",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

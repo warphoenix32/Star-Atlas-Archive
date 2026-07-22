@@ -1,0 +1,62 @@
+{
+  "byte_count": 34918,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:28:08.354483Z",
+  "captured_at": "2026-07-22T22:28:08.354483Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220810034635id_/https://thehologram.io/quimera-nft/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:28:08 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/quimera-nft",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20220810034635id_/https://thehologram.io/quimera-nft/",
+    "reasons": [
+      "ARCHIVE_CAPTURE_CONTAINS_EXPECTED_ORIGIN"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/quimera-nft",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-FFCAF757CBB0C626.json",
+  "raw_body": {
+    "byte_length": 34918,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-FFCAF757CBB0C626/response-body.bin",
+    "sha256": "c3f6527e1e91c0c643379da661e5a4a710cd95ba04a07195aa0443035d3f7813"
+  },
+  "raw_sha256": "c3f6527e1e91c0c643379da661e5a4a710cd95ba04a07195aa0443035d3f7813",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220810034635id_/https://thehologram.io/quimera-nft/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220810034635id_/https://thehologram.io/quimera-nft/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:28:08 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220810034635",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-FFCAF757CBB0C626",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220810034635",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

@@ -1,0 +1,62 @@
+{
+  "byte_count": 38176,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:23:17.863902Z",
+  "captured_at": "2026-07-22T22:23:17.863902Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220821181618id_/https://thehologram.io/star-atlas-market-fees/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:23:17 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/star-atlas-market-fees",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20220821181618id_/https://thehologram.io/star-atlas-market-fees/",
+    "reasons": [
+      "ARCHIVE_CAPTURE_CONTAINS_EXPECTED_ORIGIN"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/star-atlas-market-fees",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-78C569032095B831.json",
+  "raw_body": {
+    "byte_length": 38176,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-78C569032095B831/response-body.bin",
+    "sha256": "b7831477824a9f2cc1e8f41438c787d75449c308810a151607b5451a63dfe05d"
+  },
+  "raw_sha256": "b7831477824a9f2cc1e8f41438c787d75449c308810a151607b5451a63dfe05d",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220821181618id_/https://thehologram.io/star-atlas-market-fees/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220821181618id_/https://thehologram.io/star-atlas-market-fees/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:23:17 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220821181618",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-78C569032095B831",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220821181618",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

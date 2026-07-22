@@ -1,0 +1,62 @@
+{
+  "byte_count": 147022,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:24:52.203953Z",
+  "captured_at": "2026-07-22T22:24:52.203953Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20220417142538id_/https://medium.com/the-hologram/heimdall-industries-building-viking-longships-to-starships-6b07efc7d08c",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:24:51 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/heimdall-industries-building-viking-longships-to-starships-6b07efc7d08c",
+    "observed_canonical_url": "https://medium.com/the-hologram/heimdall-industries-building-viking-longships-to-starships-6b07efc7d08c",
+    "observed_final_url": "https://web.archive.org/web/20220417142538id_/https://medium.com/the-hologram/heimdall-industries-building-viking-longships-to-starships-6b07efc7d08c",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/heimdall-industries-building-viking-longships-to-starships-6b07efc7d08c",
+    "document_title": "Heimdall Industries: Building Viking longships to starships | by Krigs | The Hologram | Apr, 2022 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/heimdall-industries-building-viking-longships-to-starships-6b07efc7d08c",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-9A38E694589A4952.json",
+  "raw_body": {
+    "byte_length": 147022,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-9A38E694589A4952/response-body.bin",
+    "sha256": "1cee667d0d05aabd8b3c1b0d30dbc2cbe38b96026f44e6010dada8b4e3668bde"
+  },
+  "raw_sha256": "1cee667d0d05aabd8b3c1b0d30dbc2cbe38b96026f44e6010dada8b4e3668bde",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220417142538id_/https://medium.com/the-hologram/heimdall-industries-building-viking-longships-to-starships-6b07efc7d08c",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20220417142538id_/https://medium.com/the-hologram/heimdall-industries-building-viking-longships-to-starships-6b07efc7d08c",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:24:51 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220417142538",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-9A38E694589A4952",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220417142538",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

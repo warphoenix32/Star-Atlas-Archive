@@ -1,0 +1,64 @@
+{
+  "byte_count": 212507,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:20:52.782204Z",
+  "captured_at": "2026-07-22T22:20:52.782204Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240420110526id_/https://hologramnews.com/virtuwul-unveiled-as-million-dollar-star-atlas-titan-rainbow-phi-owner/",
+  "headers": {
+    "content-length": "212507",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:20:52 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/virtuwul-unveiled-as-million-dollar-star-atlas-titan-rainbow-phi-owner",
+    "observed_canonical_url": "https://hologramnews.com/virtuwul-unveiled-as-million-dollar-star-atlas-titan-rainbow-phi-owner/",
+    "observed_final_url": "https://web.archive.org/web/20240420110526id_/https://hologramnews.com/virtuwul-unveiled-as-million-dollar-star-atlas-titan-rainbow-phi-owner/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/virtuwul-unveiled-as-million-dollar-star-atlas-titan-rainbow-phi-owner/",
+    "document_title": "Virtuwul Unveiled As Million Dollar Star Atlas Titan Rainbow Phi Owner - Hologram News Network 🦉",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/virtuwul-unveiled-as-million-dollar-star-atlas-titan-rainbow-phi-owner",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-2448EC85C7F06346.json",
+  "raw_body": {
+    "byte_length": 212507,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-2448EC85C7F06346/response-body.bin",
+    "sha256": "1363e8f0addfba3b30003662d7d4d86e41b2e3c65d35f3eb4cd0fc31b40187f2"
+  },
+  "raw_sha256": "1363e8f0addfba3b30003662d7d4d86e41b2e3c65d35f3eb4cd0fc31b40187f2",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240420110526id_/https://hologramnews.com/virtuwul-unveiled-as-million-dollar-star-atlas-titan-rainbow-phi-owner/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240420110526id_/https://hologramnews.com/virtuwul-unveiled-as-million-dollar-star-atlas-titan-rainbow-phi-owner/",
+    "headers": {
+      "content-length": "212507",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:20:52 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240420110526",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-2448EC85C7F06346",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240420110526",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

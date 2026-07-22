@@ -1,0 +1,62 @@
+{
+  "byte_count": 140542,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:21:35.238749Z",
+  "captured_at": "2026-07-22T22:21:35.238749Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220524183741id_/https://thehologram.io/skull-and-bones-the-first-star-atlas-pirate-guild/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:21:35 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/skull-and-bones-the-first-star-atlas-pirate-guild",
+    "observed_canonical_url": "https://thehologram.io/skull-and-bones-the-first-star-atlas-pirate-guild/",
+    "observed_final_url": "https://web.archive.org/web/20220524183741id_/https://thehologram.io/skull-and-bones-the-first-star-atlas-pirate-guild/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://thehologram.io/skull-and-bones-the-first-star-atlas-pirate-guild/",
+    "document_title": "Skull and Bones: The First Star Atlas Pirate Guild | The Hologram",
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/skull-and-bones-the-first-star-atlas-pirate-guild",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-34EB08AA708D8D0C.json",
+  "raw_body": {
+    "byte_length": 140542,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-34EB08AA708D8D0C/response-body.bin",
+    "sha256": "20380fde1e3602a9e3d2f1d8d71cb1d8d3a2ebf70a6eb923f2f72ce5133a5a75"
+  },
+  "raw_sha256": "20380fde1e3602a9e3d2f1d8d71cb1d8d3a2ebf70a6eb923f2f72ce5133a5a75",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220524183741id_/https://thehologram.io/skull-and-bones-the-first-star-atlas-pirate-guild/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220524183741id_/https://thehologram.io/skull-and-bones-the-first-star-atlas-pirate-guild/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:21:35 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220524183741",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-34EB08AA708D8D0C",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220524183741",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

@@ -1,0 +1,62 @@
+{
+  "byte_count": 247875,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:47.671142Z",
+  "captured_at": "2026-07-22T22:32:47.671142Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/the-hologram/star-atlas-partners-with-web3-mogul-alex-becker-neo-tokyo-f3dfe962c372",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:47 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-partners-with-web3-mogul-alex-becker-neo-tokyo-f3dfe962c372",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-partners-with-web3-mogul-alex-becker-neo-tokyo-f3dfe962c372",
+    "observed_final_url": "https://medium.com/the-hologram/star-atlas-partners-with-web3-mogul-alex-becker-neo-tokyo-f3dfe962c372",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-partners-with-web3-mogul-alex-becker-neo-tokyo-f3dfe962c372",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-partners-with-web3-mogul-alex-becker-neo-tokyo-f3dfe962c372",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-B8B32F6319048CC9.json",
+  "raw_body": {
+    "byte_length": 247875,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-B8B32F6319048CC9/response-body.bin",
+    "sha256": "7e0ac49f507ed08c8c130c2571f1be79692f4a6cd9045c581bb8b52c00f08ded"
+  },
+  "raw_sha256": "7e0ac49f507ed08c8c130c2571f1be79692f4a6cd9045c581bb8b52c00f08ded",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/the-hologram/star-atlas-partners-with-web3-mogul-alex-becker-neo-tokyo-f3dfe962c372",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/the-hologram/star-atlas-partners-with-web3-mogul-alex-becker-neo-tokyo-f3dfe962c372",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:47 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-B8B32F6319048CC9",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:47.671142Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

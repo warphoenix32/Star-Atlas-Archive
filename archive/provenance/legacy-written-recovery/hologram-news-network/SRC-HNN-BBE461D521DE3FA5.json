@@ -1,0 +1,62 @@
+{
+  "byte_count": 124593,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:25:49.532099Z",
+  "captured_at": "2026-07-22T22:25:49.532099Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230122172442id_/https://medium.com/the-hologram/galactic-regulations-of-space-station-docking-in-star-atlas-9651b51a0695",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:25:49 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/galactic-regulations-of-space-station-docking-in-star-atlas-9651b51a0695",
+    "observed_canonical_url": "https://medium.com/the-hologram/galactic-regulations-of-space-station-docking-in-star-atlas-9651b51a0695",
+    "observed_final_url": "https://web.archive.org/web/20230122172442id_/https://medium.com/the-hologram/galactic-regulations-of-space-station-docking-in-star-atlas-9651b51a0695",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/galactic-regulations-of-space-station-docking-in-star-atlas-9651b51a0695",
+    "document_title": "Galactic Regulations of Space Station Docking in Star Atlas | by NotBitcoinCEO | The Hologram | Jan, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/galactic-regulations-of-space-station-docking-in-star-atlas-9651b51a0695",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-BBE461D521DE3FA5.json",
+  "raw_body": {
+    "byte_length": 124593,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-BBE461D521DE3FA5/response-body.bin",
+    "sha256": "edcbe5846c667081038ec6fc81a846e054f0ec266b14b1c0e1c3c97199a298ed"
+  },
+  "raw_sha256": "edcbe5846c667081038ec6fc81a846e054f0ec266b14b1c0e1c3c97199a298ed",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230122172442id_/https://medium.com/the-hologram/galactic-regulations-of-space-station-docking-in-star-atlas-9651b51a0695",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230122172442id_/https://medium.com/the-hologram/galactic-regulations-of-space-station-docking-in-star-atlas-9651b51a0695",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:25:49 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230122172442",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-BBE461D521DE3FA5",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230122172442",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

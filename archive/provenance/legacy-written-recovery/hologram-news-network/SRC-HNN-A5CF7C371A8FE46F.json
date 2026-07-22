@@ -1,0 +1,62 @@
+{
+  "byte_count": 137547,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:25:14.344968Z",
+  "captured_at": "2026-07-22T22:25:14.344968Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230419231416id_/https://medium.com/the-hologram/have-star-atlas-researchers-discovered-the-origins-of-the-tufa-race-a219c8390d5b",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:25:14 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/have-star-atlas-researchers-discovered-the-origins-of-the-tufa-race-a219c8390d5b",
+    "observed_canonical_url": "https://medium.com/the-hologram/have-star-atlas-researchers-discovered-the-origins-of-the-tufa-race-a219c8390d5b",
+    "observed_final_url": "https://web.archive.org/web/20230419231416id_/https://medium.com/the-hologram/have-star-atlas-researchers-discovered-the-origins-of-the-tufa-race-a219c8390d5b",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/have-star-atlas-researchers-discovered-the-origins-of-the-tufa-race-a219c8390d5b",
+    "document_title": "Have Star Atlas Researchers Discovered the Origins of the Tufa Race? | by Krigs | The Hologram | Apr, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/have-star-atlas-researchers-discovered-the-origins-of-the-tufa-race-a219c8390d5b",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-A5CF7C371A8FE46F.json",
+  "raw_body": {
+    "byte_length": 137547,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-A5CF7C371A8FE46F/response-body.bin",
+    "sha256": "0a08dd35015704e576e50342e6c9c4e850757087c616ae6f9d39176fea6ae785"
+  },
+  "raw_sha256": "0a08dd35015704e576e50342e6c9c4e850757087c616ae6f9d39176fea6ae785",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230419231416id_/https://medium.com/the-hologram/have-star-atlas-researchers-discovered-the-origins-of-the-tufa-race-a219c8390d5b",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230419231416id_/https://medium.com/the-hologram/have-star-atlas-researchers-discovered-the-origins-of-the-tufa-race-a219c8390d5b",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:25:14 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230419231416",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-A5CF7C371A8FE46F",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230419231416",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

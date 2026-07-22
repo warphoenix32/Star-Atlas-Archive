@@ -1,0 +1,62 @@
+{
+  "byte_count": 31205,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:24:14.087614Z",
+  "captured_at": "2026-07-22T22:24:14.087614Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20240731172313id_/https://medium.com/the-hologram/the-star-atlas-bot-crackdown-9a8b2d990a08",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:24:14 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/the-star-atlas-bot-crackdown-9a8b2d990a08",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20240731172313id_/https://medium.com/the-hologram/the-star-atlas-bot-crackdown-9a8b2d990a08",
+    "reasons": [
+      "STABLE_MEDIUM_POST_ID_MATCH_AFTER_PUBLICATION_PATH_CHANGE"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/the-star-atlas-bot-crackdown-9a8b2d990a08",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-8B7D4E2D3FDDF087.json",
+  "raw_body": {
+    "byte_length": 31205,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-8B7D4E2D3FDDF087/response-body.bin",
+    "sha256": "ade0f69d673b7edc7cba39258e7e8fbfa8536e7365b6a4cf8a8fce0f896894db"
+  },
+  "raw_sha256": "ade0f69d673b7edc7cba39258e7e8fbfa8536e7365b6a4cf8a8fce0f896894db",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240731172313id_/https://medium.com/the-hologram/the-star-atlas-bot-crackdown-9a8b2d990a08",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20240731172313id_/https://medium.com/the-hologram/the-star-atlas-bot-crackdown-9a8b2d990a08",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:24:14 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240731172313",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-8B7D4E2D3FDDF087",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240731172313",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

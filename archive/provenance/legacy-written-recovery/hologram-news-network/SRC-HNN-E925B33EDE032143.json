@@ -1,0 +1,62 @@
+{
+  "byte_count": 104068,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:25.641759Z",
+  "captured_at": "2026-07-22T22:27:25.641759Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230410173049id_/https://medium.com/the-hologram/atmta-employees-speak-on-quiroga-departure-fd8197c23ca1",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:27:25 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/atmta-employees-speak-on-quiroga-departure-fd8197c23ca1",
+    "observed_canonical_url": "https://medium.com/the-hologram/atmta-employees-speak-on-quiroga-departure-fd8197c23ca1",
+    "observed_final_url": "https://web.archive.org/web/20230410173049id_/https://medium.com/the-hologram/atmta-employees-speak-on-quiroga-departure-fd8197c23ca1",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/atmta-employees-speak-on-quiroga-departure-fd8197c23ca1",
+    "document_title": "ATMTA Employees Speak On Quiroga Departure | by Krigs | The Hologram | Apr, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/atmta-employees-speak-on-quiroga-departure-fd8197c23ca1",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-E925B33EDE032143.json",
+  "raw_body": {
+    "byte_length": 104068,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-E925B33EDE032143/response-body.bin",
+    "sha256": "76260190af3b5e90ae0a225cc0478ed367ab441270da1db3820404cba2d4ff3f"
+  },
+  "raw_sha256": "76260190af3b5e90ae0a225cc0478ed367ab441270da1db3820404cba2d4ff3f",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230410173049id_/https://medium.com/the-hologram/atmta-employees-speak-on-quiroga-departure-fd8197c23ca1",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230410173049id_/https://medium.com/the-hologram/atmta-employees-speak-on-quiroga-departure-fd8197c23ca1",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:27:25 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230410173049",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-E925B33EDE032143",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230410173049",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

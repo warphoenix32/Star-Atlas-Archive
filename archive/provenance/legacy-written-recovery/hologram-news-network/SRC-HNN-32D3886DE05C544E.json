@@ -1,0 +1,62 @@
+{
+  "byte_count": 205085,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:21:32.785024Z",
+  "captured_at": "2026-07-22T22:21:32.785024Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230507114518id_/https://medium.com/the-hologram/review-the-clubs-bot-j33ves-is-your-r4-supplier-of-last-resort-cf124667f59c",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:21:32 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/review-the-clubs-bot-j33ves-is-your-r4-supplier-of-last-resort-cf124667f59c",
+    "observed_canonical_url": "https://medium.com/the-hologram/review-the-clubs-bot-j33ves-is-your-r4-supplier-of-last-resort-cf124667f59c",
+    "observed_final_url": "https://web.archive.org/web/20230507114518id_/https://medium.com/the-hologram/review-the-clubs-bot-j33ves-is-your-r4-supplier-of-last-resort-cf124667f59c",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/review-the-clubs-bot-j33ves-is-your-r4-supplier-of-last-resort-cf124667f59c",
+    "document_title": "Review: The Club’s bot J33ves is your R4 supplier of last resort | by FowlAC | The Hologram | Mar, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/review-the-clubs-bot-j33ves-is-your-r4-supplier-of-last-resort-cf124667f59c",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-32D3886DE05C544E.json",
+  "raw_body": {
+    "byte_length": 205085,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-32D3886DE05C544E/response-body.bin",
+    "sha256": "9ea0f353332c18609aa6af31a37592086e42c81595bf6f264bab39cd6345b5c7"
+  },
+  "raw_sha256": "9ea0f353332c18609aa6af31a37592086e42c81595bf6f264bab39cd6345b5c7",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230507114518id_/https://medium.com/the-hologram/review-the-clubs-bot-j33ves-is-your-r4-supplier-of-last-resort-cf124667f59c",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230507114518id_/https://medium.com/the-hologram/review-the-clubs-bot-j33ves-is-your-r4-supplier-of-last-resort-cf124667f59c",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:21:32 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230507114518",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-32D3886DE05C544E",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230507114518",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

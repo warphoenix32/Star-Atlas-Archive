@@ -1,0 +1,62 @@
+{
+  "byte_count": 29038,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:26:55.921818Z",
+  "captured_at": "2026-07-22T22:26:55.921818Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220722044737id_/https://thehologram.io/star-atlas-unveils-new-galactic-marketplace/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:26:55 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/star-atlas-unveils-new-galactic-marketplace",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20220722044737id_/https://thehologram.io/star-atlas-unveils-new-galactic-marketplace/",
+    "reasons": [
+      "ARCHIVE_CAPTURE_CONTAINS_EXPECTED_ORIGIN"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/star-atlas-unveils-new-galactic-marketplace",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-DBB7E3C43EC71782.json",
+  "raw_body": {
+    "byte_length": 29038,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-DBB7E3C43EC71782/response-body.bin",
+    "sha256": "ca40b0f3b796a43558cfedfb54f7ba322e34d2b8f8b6e7dac43e5ade4705b2e2"
+  },
+  "raw_sha256": "ca40b0f3b796a43558cfedfb54f7ba322e34d2b8f8b6e7dac43e5ade4705b2e2",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220722044737id_/https://thehologram.io/star-atlas-unveils-new-galactic-marketplace/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220722044737id_/https://thehologram.io/star-atlas-unveils-new-galactic-marketplace/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:26:55 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220722044737",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-DBB7E3C43EC71782",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220722044737",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

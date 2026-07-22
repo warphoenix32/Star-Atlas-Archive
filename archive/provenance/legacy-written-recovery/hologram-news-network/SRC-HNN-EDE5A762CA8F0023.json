@@ -1,0 +1,62 @@
+{
+  "byte_count": 96059,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:28.146627Z",
+  "captured_at": "2026-07-22T22:27:28.146627Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230201174428id_/https://medium.com/the-hologram/foundations-of-a-digital-nation-state-the-path-to-sovereignty-f5e224b51174",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:27:28 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/foundations-of-a-digital-nation-state-the-path-to-sovereignty-f5e224b51174",
+    "observed_canonical_url": "https://medium.com/the-hologram/foundations-of-a-digital-nation-state-the-path-to-sovereignty-f5e224b51174",
+    "observed_final_url": "https://web.archive.org/web/20230201174428id_/https://medium.com/the-hologram/foundations-of-a-digital-nation-state-the-path-to-sovereignty-f5e224b51174",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/foundations-of-a-digital-nation-state-the-path-to-sovereignty-f5e224b51174",
+    "document_title": "Foundations of a Digital Nation-State: the Path to Sovereignty | by bee.bod | The Hologram | Feb, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/foundations-of-a-digital-nation-state-the-path-to-sovereignty-f5e224b51174",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-EDE5A762CA8F0023.json",
+  "raw_body": {
+    "byte_length": 96059,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-EDE5A762CA8F0023/response-body.bin",
+    "sha256": "f548488f85a08af328c2bd7cec3794f214cf44eade16e487655468e5ab2c888b"
+  },
+  "raw_sha256": "f548488f85a08af328c2bd7cec3794f214cf44eade16e487655468e5ab2c888b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230201174428id_/https://medium.com/the-hologram/foundations-of-a-digital-nation-state-the-path-to-sovereignty-f5e224b51174",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230201174428id_/https://medium.com/the-hologram/foundations-of-a-digital-nation-state-the-path-to-sovereignty-f5e224b51174",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:27:28 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230201174428",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-EDE5A762CA8F0023",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230201174428",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

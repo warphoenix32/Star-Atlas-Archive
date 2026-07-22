@@ -18,6 +18,7 @@ import socket
 import ssl
 import subprocess
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -47,6 +48,12 @@ MANUAL_REVIEW_QUEUE = CAMPAIGN_DIR / "manual-review-queue.jsonl"
 EXPANSION_RETRIEVAL_LEDGER = CAMPAIGN_DIR / "expansion-aephia-retrieval-ledger.jsonl"
 EXPANSION_RETRY_LEDGER = CAMPAIGN_DIR / "expansion-aephia-retry-ledger.jsonl"
 EXPANSION_MANUAL_REVIEW_QUEUE = CAMPAIGN_DIR / "expansion-aephia-manual-review-queue.jsonl"
+HNN_BATCH_ID = "hnn-written-family-completion-156"
+HNN_SELECTION = CAMPAIGN_DIR / "expansion-hnn-selection.json"
+HNN_RESOLUTION_LEDGER = CAMPAIGN_DIR / "expansion-hnn-archive-resolution-ledger.jsonl"
+HNN_RETRIEVAL_LEDGER = CAMPAIGN_DIR / "expansion-hnn-retrieval-ledger.jsonl"
+HNN_RETRY_LEDGER = CAMPAIGN_DIR / "expansion-hnn-retry-ledger.jsonl"
+HNN_MANUAL_REVIEW_QUEUE = CAMPAIGN_DIR / "expansion-hnn-manual-review-queue.jsonl"
 CAMPAIGN_SUMMARY_JSON = CAMPAIGN_DIR / "campaign-summary.json"
 CAMPAIGN_SUMMARY_MD = CAMPAIGN_DIR / "campaign-summary.md"
 VALIDATION_REPORT_JSON = CAMPAIGN_DIR / "validation-report.json"
@@ -105,7 +112,12 @@ PILOT_SOURCE_IDS = (
 EXPANSION_EXPECTED_COUNT = 59
 EXPANSION_ALLOWED_HOST = "aephia.com"
 EXPANSION_ALLOWED_PATH_PREFIX = "/wp-json/wp/v2/"
+HNN_EXPECTED_COUNT = 156
+HNN_FAMILY_TOTAL = 157
+HNN_PRESERVED_BASELINE_SOURCE_IDS = ("SRC-HNN-04DD15F547F461E7",)
+HNN_ALLOWED_SOURCE_HOSTS = {"medium.com", "web.archive.org"}
 REQUEST_DELAY_SECONDS = 0.25
+HNN_REQUEST_DELAY_SECONDS = 0.35
 PILOT_BASELINE_SHA256 = {
     "manual-review-queue.jsonl": "8c946c6cd84988d9dfe01c4aedce53bc1bb879582fa5ed7cb07841f91c332b67",
     "pilot-selection.json": "bffd2bb7d92c30b2846f47ac8f6a3fb91d14c49ee8a78c142bf4065ca4ca54f9",
@@ -259,6 +271,13 @@ def normalized_url(value: str | None) -> str | None:
     return urllib.parse.urlunsplit((parsed.scheme.lower(), parsed.netloc.lower(), path, parsed.query, ""))
 
 
+def medium_post_id(value: str | None) -> str | None:
+    if not value:
+        return None
+    match = re.search(r"(?:/p/|[-/])([0-9a-f]{12})(?:[/?#]|$)", value, re.I)
+    return match.group(1).lower() if match else None
+
+
 def valid_http_url(value: Any) -> bool:
     return isinstance(value, str) and value.startswith(("http://", "https://"))
 
@@ -408,15 +427,19 @@ def expansion_records(manifest: dict[str, Any]) -> list[dict[str, Any]]:
 
 
 def pilot_artifact_entries() -> list[dict[str, Any]]:
-    pilot = set(PILOT_SOURCE_IDS)
     entries: list[dict[str, Any]] = []
-    for root in (RAW_ROOT, PROVENANCE_ROOT):
-        if not root.exists():
-            continue
-        for path in sorted((item for item in root.rglob("*") if item.is_file()), key=relative):
-            if not any(source_id in path.as_posix() for source_id in pilot):
-                continue
-            entries.append({"path": relative(path), "sha256": sha256_bytes(canonical_repository_bytes(path))})
+    paths = {
+        item[key]
+        for item in read_jsonl(RETRIEVAL_LEDGER)
+        for key in ("body_path", "provenance_path")
+        if item.get(key)
+    }
+    # Preserve the approved baseline's historical ordering: raw artifacts first,
+    # then provenance artifacts, with deterministic lexical order inside each
+    # layer. The aggregate checksum is order-sensitive.
+    for rel in sorted(paths, key=lambda item: (0 if item.startswith("archive/raw/") else 1, item)):
+        path = REPO_ROOT / rel
+        entries.append({"path": rel, "sha256": sha256_bytes(canonical_repository_bytes(path))})
     return entries
 
 
@@ -458,15 +481,76 @@ def build_expansion_selection(manifest: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def hnn_completion_records(manifest: dict[str, Any]) -> list[dict[str, Any]]:
+    preserved = set(HNN_PRESERVED_BASELINE_SOURCE_IDS)
+    records = [
+        record
+        for record in manifest["records"]
+        if record["source_family"] == "hologram-news-network" and record["source_id"] not in preserved
+    ]
+    records.sort(key=lambda item: item["source_id"])
+    if len(records) != HNN_EXPECTED_COUNT:
+        raise RuntimeError(
+            f"{HNN_BATCH_ID} must contain {HNN_EXPECTED_COUNT} records; found {len(records)}"
+        )
+    for record in records:
+        host = urllib.parse.urlsplit(record["retrieval_url"]).netloc.lower()
+        if host not in HNN_ALLOWED_SOURCE_HOSTS:
+            raise RuntimeError(f"HNN recovery surface outside allowlist: {record['source_id']} {host}")
+        if record["retrieval_url_basis"] != "PRIOR_REQUESTED_URL":
+            raise RuntimeError(
+                f"HNN recovery URL basis is not the prior successful request: {record['source_id']}"
+            )
+    return records
+
+
+def build_hnn_selection(manifest: dict[str, Any]) -> dict[str, Any]:
+    records = hnn_completion_records(manifest)
+    pilot = set(PILOT_SOURCE_IDS)
+    return {
+        "authorization_status": "AUTHORIZED_FOR_RETRIEVAL",
+        "batch_id": HNN_BATCH_ID,
+        "campaign_id": CAMPAIGN_ID,
+        "carrier_policy": (
+            "Reuse exact prior Wayback snapshots; resolve blocked Medium URLs to the earliest "
+            "public Wayback HTML capture and preserve the resolution separately."
+        ),
+        "deferred_scope": [
+            "campaign-bravo-intergalactic-herald",
+            "campaign-delta-official",
+        ],
+        "expected_record_count": HNN_EXPECTED_COUNT,
+        "family_record_count": HNN_FAMILY_TOTAL,
+        "frozen_manifest_sha256": sha256_bytes(canonical_repository_bytes(FROZEN_MANIFEST)),
+        "pilot_source_ids_repaired": sorted(record["source_id"] for record in records if record["source_id"] in pilot),
+        "preserved_baseline_source_ids": sorted(HNN_PRESERVED_BASELINE_SOURCE_IDS),
+        "records": [
+            {
+                "original_url": record["original_url"],
+                "published_at": record.get("published_at"),
+                "retrieval_url": record["retrieval_url"],
+                "retrieval_url_basis": record["retrieval_url_basis"],
+                "source_id": record["source_id"],
+                "source_surface": urllib.parse.urlsplit(record["retrieval_url"]).netloc.lower(),
+            }
+            for record in records
+        ],
+        "schema_version": SCHEMA_VERSION,
+        "selection_rule": "HNN_FAMILY_EXCEPT_VERIFIED_PILOT_CHECKPOINT",
+    }
+
+
 def freeze() -> None:
     manifest = build_frozen_manifest()
     write_json(FROZEN_MANIFEST, manifest)
     write_json(EXPANSION_SELECTION, build_expansion_selection(manifest))
+    write_json(HNN_SELECTION, build_hnn_selection(manifest))
     write_archive_manifest()
     print(
         f"Frozen {manifest['frozen_record_count']} records; "
         f"approved pilot contains {manifest['pilot_record_count']} records; "
-        f"{EXPANSION_BATCH_ID} contains {EXPANSION_EXPECTED_COUNT} records."
+        f"{EXPANSION_BATCH_ID} contains {EXPANSION_EXPECTED_COUNT} records; "
+        f"{HNN_BATCH_ID} contains {HNN_EXPECTED_COUNT} records."
     )
 
 
@@ -478,6 +562,122 @@ class RedirectRecorder(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req: Any, fp: Any, code: int, msg: str, headers: Any, newurl: str) -> Any:
         self.chain.append({"from": req.full_url, "http_status": code, "to": newurl})
         return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+def wayback_timestamp(value: str) -> str | None:
+    match = re.search(r"web\.archive\.org/web/(\d{14})", value)
+    return match.group(1) if match else None
+
+
+def resolve_medium_wayback(record: dict[str, Any]) -> dict[str, Any]:
+    query = urllib.parse.urlencode(
+        [
+            ("url", record["retrieval_url"]),
+            ("output", "json"),
+            ("fl", "timestamp,original,statuscode,mimetype,digest"),
+            ("filter", "statuscode:200"),
+            ("filter", "mimetype:text/html"),
+            ("collapse", "digest"),
+        ]
+    )
+    index_url = f"https://web.archive.org/cdx/search/cdx?{query}"
+    last_error: str | None = None
+    for attempt in range(1, MAX_ATTEMPTS + 1):
+        request = urllib.request.Request(
+            index_url,
+            headers={"Accept": "application/json", "User-Agent": USER_AGENT},
+        )
+        try:
+            with urllib.request.urlopen(request, timeout=TIMEOUT_SECONDS) as response:
+                payload = response.read()
+                status = response.getcode()
+            rows = json.loads(payload.decode("utf-8"))
+            captures = [row for row in rows[1:] if isinstance(row, list) and len(row) >= 5]
+            if not captures:
+                return {
+                    "index_http_status": status,
+                    "index_response_sha256": sha256_bytes(payload),
+                    "original_retrieval_url": record["retrieval_url"],
+                    "resolved_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                    "resolved_retrieval_url": None,
+                    "resolution_attempts": attempt,
+                    "resolution_error": "NO_PUBLIC_HTML_CAPTURE",
+                    "resolution_status": "SNAPSHOT_NOT_FOUND",
+                    "snapshot_timestamp": None,
+                    "source_id": record["source_id"],
+                }
+            selected = sorted(captures, key=lambda row: (row[0], row[1], row[4]))[0]
+            timestamp, original = str(selected[0]), str(selected[1])
+            return {
+                "index_http_status": status,
+                "index_response_sha256": sha256_bytes(payload),
+                "original_retrieval_url": record["retrieval_url"],
+                "resolved_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                "resolved_retrieval_url": f"https://web.archive.org/web/{timestamp}id_/{original}",
+                "resolution_attempts": attempt,
+                "resolution_error": None,
+                "resolution_policy": "EARLIEST_PUBLIC_200_HTML_CAPTURE",
+                "resolution_status": "RESOLVED_CDX_EARLIEST_CAPTURE",
+                "snapshot_digest": str(selected[4]),
+                "snapshot_timestamp": timestamp,
+                "source_id": record["source_id"],
+            }
+        except (urllib.error.URLError, urllib.error.HTTPError, socket.timeout, ssl.SSLError, TimeoutError, ValueError, json.JSONDecodeError) as exc:
+            last_error = f"{type(exc).__name__}:{exc}"
+            if attempt < MAX_ATTEMPTS:
+                time.sleep(attempt)
+    return {
+        "index_http_status": None,
+        "index_response_sha256": None,
+        "original_retrieval_url": record["retrieval_url"],
+        "resolved_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+        "resolved_retrieval_url": None,
+        "resolution_attempts": MAX_ATTEMPTS,
+        "resolution_error": last_error,
+        "resolution_status": "RESOLUTION_FAILED",
+        "snapshot_timestamp": None,
+        "source_id": record["source_id"],
+    }
+
+
+def resolve_hnn_carriers(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    prior = {item["source_id"]: item for item in read_jsonl(HNN_RESOLUTION_LEDGER)}
+    resolved: list[dict[str, Any]] = []
+    for record in records:
+        source_id = record["source_id"]
+        previous = prior.get(source_id)
+        if previous and (
+            previous.get("resolved_retrieval_url")
+            or previous.get("resolution_status") in {"SNAPSHOT_NOT_FOUND", "RESOLUTION_FAILED"}
+        ):
+            resolved.append(previous)
+            continue
+        retrieval_url = record["retrieval_url"]
+        timestamp = wayback_timestamp(retrieval_url)
+        if timestamp:
+            item = {
+                "index_http_status": None,
+                "index_response_sha256": None,
+                "original_retrieval_url": retrieval_url,
+                "resolved_at": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+                "resolved_retrieval_url": retrieval_url,
+                "resolution_attempts": 0,
+                "resolution_error": None,
+                "resolution_policy": "REUSE_PRIOR_EXACT_WAYBACK_CAPTURE",
+                "resolution_status": "RESOLVED_PRIOR_EXACT_WAYBACK",
+                "snapshot_timestamp": timestamp,
+                "source_id": source_id,
+            }
+        else:
+            item = resolve_medium_wayback(record)
+        resolved.append(item)
+        write_jsonl(HNN_RESOLUTION_LEDGER, sorted(resolved, key=lambda value: value["source_id"]))
+        print(f"Resolved {source_id}: {item['resolution_status']}", flush=True)
+        if item.get("resolution_status") == "RESOLVED_CDX_EARLIEST_CAPTURE":
+            time.sleep(REQUEST_DELAY_SECONDS)
+    resolved.sort(key=lambda item: item["source_id"])
+    write_jsonl(HNN_RESOLUTION_LEDGER, resolved)
+    return resolved
 
 
 def extract_identity(body: bytes, content_type: str | None) -> dict[str, Any]:
@@ -548,6 +748,17 @@ def compare_identity(record: dict[str, Any], final_url: str, observed: dict[str,
             "observed_final_url": final_url,
             "reasons": ["EXPECTED_URL_MATCHES_OBSERVED_URL"],
             "status": "MATCH",
+        }
+    expected_medium_id = medium_post_id(expected)
+    candidate_medium_ids = {medium_post_id(value) for value in candidates}
+    candidate_medium_ids.discard(None)
+    if expected_medium_id and expected_medium_id in candidate_medium_ids:
+        return {
+            "expected_url": record.get("original_url"),
+            "observed_canonical_url": observed.get("canonical_url"),
+            "observed_final_url": final_url,
+            "reasons": ["STABLE_MEDIUM_POST_ID_MATCH_AFTER_PUBLICATION_PATH_CHANGE"],
+            "status": "CONSISTENT",
         }
     expected_parts = urllib.parse.urlsplit(expected) if expected else None
     for candidate in candidates:
@@ -622,8 +833,18 @@ def looks_like_access_challenge(body: bytes, content_type: str | None) -> bool:
     if "html" not in (content_type or "").lower() and b"<html" not in body[:4096].lower():
         return False
     sample = body[:200000].decode("utf-8", errors="ignore").lower()
-    markers = ("cf-chl-", "just a moment...", "captcha", "verify you are human")
-    return any(marker in sample for marker in markers)
+    title_match = re.search(r"<title[^>]*>(.*?)</title>", sample, re.I | re.S)
+    title = re.sub(r"\s+", " ", title_match.group(1)).strip() if title_match else ""
+    # Do not classify an archived application page as a challenge merely because
+    # its configuration contains a reCAPTCHA key. Medium article HTML includes
+    # those keys even when the full story body is present.
+    if "cf-chl-" in sample:
+        return True
+    if title in {"just a moment...", "attention required! | cloudflare"}:
+        return True
+    if "verify you are human" in sample and len(body) < 100000:
+        return True
+    return bool(re.search(r'<(?:div|form)[^>]+class=["\'][^"\']*g-recaptcha', sample))
 
 
 def temporal_qualifier(retrieval_tier: str, capture_utc: str, snapshot_or_sha: str | None) -> str:
@@ -705,6 +926,12 @@ def build_archive_manifest() -> dict[str, Any]:
         "expansion_selection_sha256": sha256_bytes(portable_artifact_bytes(EXPANSION_SELECTION)) if EXPANSION_SELECTION.exists() else None,
         "frozen_manifest_path": relative(FROZEN_MANIFEST),
         "frozen_manifest_sha256": sha256_bytes(canonical_repository_bytes(FROZEN_MANIFEST)) if FROZEN_MANIFEST.exists() else None,
+        "hnn_batch_id": HNN_BATCH_ID,
+        "hnn_record_count": HNN_EXPECTED_COUNT,
+        "hnn_resolution_ledger_path": relative(HNN_RESOLUTION_LEDGER),
+        "hnn_resolution_ledger_sha256": sha256_bytes(portable_artifact_bytes(HNN_RESOLUTION_LEDGER)) if HNN_RESOLUTION_LEDGER.exists() else None,
+        "hnn_selection_path": relative(HNN_SELECTION),
+        "hnn_selection_sha256": sha256_bytes(portable_artifact_bytes(HNN_SELECTION)) if HNN_SELECTION.exists() else None,
         "pilot_record_count": len(PILOT_SOURCE_IDS),
         "pilot_selection_path": relative(PILOT_SELECTION),
         "pilot_selection_sha256": sha256_bytes(canonical_repository_bytes(PILOT_SELECTION)) if PILOT_SELECTION.exists() else None,
@@ -714,6 +941,81 @@ def build_archive_manifest() -> dict[str, Any]:
 
 def write_archive_manifest() -> None:
     write_json(ARCHIVE_MANIFEST, build_archive_manifest())
+
+
+def fetch_public_http_with_curl(retrieval_url: str) -> tuple[bytes, int, str, str | None, dict[str, str], list[dict[str, Any]]]:
+    """Fetch a public page with curl when Medium rejects Python urllib's TLS client.
+
+    This is an unauthenticated HTTP transport fallback, not a paywall or access
+    bypass. It is used only for HNN Medium records whose public Wayback lookup
+    has already returned no snapshot.
+    """
+    with tempfile.TemporaryDirectory(prefix="star-atlas-hnn-") as temp_dir:
+        temp = Path(temp_dir)
+        body_path = temp / "body.bin"
+        header_path = temp / "headers.txt"
+        result = subprocess.run(
+            [
+                "curl",
+                "--location",
+                "--silent",
+                "--show-error",
+                "--max-time",
+                str(TIMEOUT_SECONDS),
+                "--user-agent",
+                USER_AGENT,
+                "--header",
+                "Accept: text/html,application/xhtml+xml;q=0.9,*/*;q=0.5",
+                "--dump-header",
+                str(header_path),
+                "--output",
+                str(body_path),
+                "--write-out",
+                "%{http_code}\n%{url_effective}\n%{content_type}",
+                retrieval_url,
+            ],
+            cwd=REPO_ROOT,
+            capture_output=True,
+            text=True,
+            timeout=TIMEOUT_SECONDS + 10,
+            check=False,
+        )
+        if result.returncode != 0:
+            raise OSError(f"CURL_EXIT_{result.returncode}:{result.stderr.strip()}")
+        output = result.stdout.splitlines()
+        if len(output) < 3 or not output[0].isdigit():
+            raise ValueError("CURL_METADATA_INVALID")
+        http_status = int(output[0])
+        final_url = output[1]
+        content_type = output[2] or None
+        body = body_path.read_bytes()
+        header_text = header_path.read_text(encoding="iso-8859-1", errors="replace")
+
+    blocks = [block for block in re.split(r"\r?\n\r?\n", header_text) if block.startswith("HTTP/")]
+    redirect_chain: list[dict[str, Any]] = []
+    response_headers: dict[str, str] = {}
+    for block in blocks:
+        lines = block.splitlines()
+        status_match = re.match(r"HTTP/\S+\s+(\d+)", lines[0])
+        parsed_headers: dict[str, str] = {}
+        for line in lines[1:]:
+            if ":" not in line:
+                continue
+            key, value = line.split(":", 1)
+            parsed_headers[key.strip().lower()] = value.strip()
+        if status_match and parsed_headers.get("location"):
+            redirect_chain.append(
+                {
+                    "http_status": int(status_match.group(1)),
+                    "location": parsed_headers["location"],
+                }
+            )
+        response_headers = {
+            key: value
+            for key, value in parsed_headers.items()
+            if key in {"content-type", "content-length", "etag", "last-modified", "date"}
+        }
+    return body, http_status, final_url, content_type, response_headers, redirect_chain
 
 
 def retrieve_record(
@@ -738,16 +1040,22 @@ def retrieve_record(
             headers={"Accept": "text/html,application/json,application/xhtml+xml;q=0.9,*/*;q=0.5", "User-Agent": USER_AGENT},
         )
         try:
-            with opener.open(request, timeout=TIMEOUT_SECONDS) as response:
-                body = response.read()
-                http_status = response.getcode()
-                final_url = response.geturl()
-                content_type = response.headers.get("Content-Type")
-                headers = {
-                    key.lower(): value
-                    for key, value in response.headers.items()
-                    if key.lower() in {"content-type", "content-length", "etag", "last-modified", "date"}
-                }
+            if record.get("transport") == "CURL_PUBLIC_HTTP":
+                body, http_status, final_url, content_type, headers, redirect_chain = fetch_public_http_with_curl(
+                    retrieval_url
+                )
+            else:
+                with opener.open(request, timeout=TIMEOUT_SECONDS) as response:
+                    body = response.read()
+                    http_status = response.getcode()
+                    final_url = response.geturl()
+                    content_type = response.headers.get("Content-Type")
+                    headers = {
+                        key.lower(): value
+                        for key, value in response.headers.items()
+                        if key.lower() in {"content-type", "content-length", "etag", "last-modified", "date"}
+                    }
+                redirect_chain = redirects.chain
             if not 200 <= http_status < 300:
                 raise urllib.error.HTTPError(final_url, http_status, "non-success response", None, None)
             if not body:
@@ -792,7 +1100,7 @@ def retrieve_record(
                     "retrieval_url_basis": "IMMUTABLE_GITHUB_README_BLOB" if git_sha else record["retrieval_url_basis"],
                     "user_agent": USER_AGENT,
                 },
-                "redirect_chain": redirects.chain,
+                "redirect_chain": redirect_chain,
                 "retrieval_batch_id": retrieval_batch_id,
                 "retrieval_tier": retrieval_tier,
                 "response": {
@@ -800,7 +1108,7 @@ def retrieve_record(
                     "final_url": final_url,
                     "headers": headers,
                     "http_status": http_status,
-                    "redirect_chain": redirects.chain,
+                    "redirect_chain": redirect_chain,
                 },
                 "schema_version": SCHEMA_VERSION,
                 "snapshot_timestamp_or_git_sha": snapshot_or_sha,
@@ -896,38 +1204,62 @@ def summarize_batch(ledger: list[dict[str, Any]], expected: int) -> dict[str, An
 def write_summary() -> None:
     pilot_ledger = read_jsonl(RETRIEVAL_LEDGER)
     expansion_ledger = read_jsonl(EXPANSION_RETRIEVAL_LEDGER)
-    all_ledger = pilot_ledger + expansion_ledger
+    hnn_ledger = read_jsonl(HNN_RETRIEVAL_LEDGER)
+    effective_by_source: dict[str, dict[str, Any]] = {}
+    for item in pilot_ledger + expansion_ledger + hnn_ledger:
+        effective_by_source[item["source_id"]] = item
+    all_ledger = [effective_by_source[source_id] for source_id in sorted(effective_by_source)]
     dispositions = Counter(item["terminal_disposition"] for item in all_ledger)
     identity = Counter(item["identity_status"] for item in all_ledger)
     manual = [item for item in all_ledger if item["manual_review_required"]]
     preserved = [item for item in all_ledger if item.get("body_path")]
     expansion_complete = len(expansion_ledger) == EXPANSION_EXPECTED_COUNT
+    hnn_terminal = len(hnn_ledger) == HNN_EXPECTED_COUNT
+    hnn_effective = [item for item in all_ledger if item["source_family"] == "hologram-news-network"]
+    hnn_preserved = [item for item in hnn_effective if item.get("body_path")]
+    hnn_manual = [item for item in hnn_effective if item["manual_review_required"]]
+    if expansion_complete and hnn_terminal and len(hnn_preserved) == HNN_FAMILY_TOTAL and not hnn_manual:
+        status = "AEPHIA_AND_HNN_FAMILY_RECOVERY_COMPLETE"
+    elif expansion_complete and hnn_terminal:
+        status = "AEPHIA_COMPLETE_HNN_TERMINALLY_DISPOSITIONED_WITH_EXCEPTIONS"
+    elif expansion_complete:
+        status = "AEPHIA_COMPLETE_HNN_PENDING"
+    else:
+        status = "FAMILY_EXPANSIONS_PENDING"
     summary = {
         "batches": {
             "pilot-20": summarize_batch(pilot_ledger, len(PILOT_SOURCE_IDS)),
             EXPANSION_BATCH_ID: summarize_batch(expansion_ledger, EXPANSION_EXPECTED_COUNT),
+            HNN_BATCH_ID: summarize_batch(hnn_ledger, HNN_EXPECTED_COUNT),
         },
         "campaign_id": CAMPAIGN_ID,
         "distinct_records_attempted": len({item["source_id"] for item in all_ledger}),
         "expansion_records": EXPANSION_EXPECTED_COUNT,
         "frozen_records": 800,
+        "hnn_completion_records": HNN_EXPECTED_COUNT,
+        "hnn_family_records": HNN_FAMILY_TOTAL,
+        "hnn_manual_review_count": len(hnn_manual),
+        "hnn_raw_bodies_preserved": len(hnn_preserved),
         "identity_status_counts": dict(sorted(identity.items())),
         "manual_review_count": len(manual),
         "pilot_records": len(PILOT_SOURCE_IDS),
         "raw_bodies_preserved": len(preserved),
         "schema_version": SCHEMA_VERSION,
-        "status": "AEPHIA_FAMILY_EXPANSION_COMPLETE" if expansion_complete else "AEPHIA_FAMILY_EXPANSION_PENDING",
+        "status": status,
         "terminal_disposition_counts": dict(sorted(dispositions.items())),
         "urls_attempted": len(all_ledger),
         "urls_retrieved": len(preserved),
     }
     write_json(CAMPAIGN_SUMMARY_JSON, summary)
     lines = [
-        "# Legacy Written Raw Recovery — Aephia Expansion Summary",
+        "# Legacy Written Raw Recovery — Phase 2 Family Summary",
         "",
         f"- Frozen records: {summary['frozen_records']}",
         f"- Pilot records: {summary['pilot_records']}",
         f"- Aephia expansion records: {summary['expansion_records']}",
+        f"- HNN completion records: {summary['hnn_completion_records']}",
+        f"- HNN family raw bodies preserved: {summary['hnn_raw_bodies_preserved']}/{summary['hnn_family_records']}",
+        f"- HNN manual review: {summary['hnn_manual_review_count']}",
         f"- Distinct records attempted: {summary['distinct_records_attempted']}",
         f"- URLs attempted: {summary['urls_attempted']}",
         f"- URLs retrieved: {summary['urls_retrieved']}",
@@ -958,6 +1290,7 @@ def retrieve_batch(
     retrieval_batch_id: str | None,
     retry_failures: bool = False,
     request_delay_seconds: float = 0.0,
+    record_overrides: dict[str, dict[str, Any]] | None = None,
 ) -> None:
     if not FROZEN_MANIFEST.exists():
         raise RuntimeError("Run `freeze` before retrieval.")
@@ -972,7 +1305,9 @@ def retrieve_batch(
     attempts: list[dict[str, Any]] = []
     blocked_hosts: dict[str, str] = {}
     for source_id in selected_ids:
-        record = records_by_id[source_id]
+        record = dict(records_by_id[source_id])
+        if record_overrides and source_id in record_overrides:
+            record.update(record_overrides[source_id])
         previous = existing_ledger.get(source_id)
         checkpoint = verified_checkpoint(record)
         if previous and ((previous.get("body_path") and checkpoint) or (not previous.get("body_path") and not retry_failures)):
@@ -1058,6 +1393,133 @@ def retrieve_expansion(retry_failures: bool = False) -> None:
         retry_failures,
         REQUEST_DELAY_SECONDS,
     )
+
+
+def reconcile_hnn_identity_checkpoints(
+    records_by_id: dict[str, dict[str, Any]],
+    overrides: dict[str, dict[str, Any]],
+) -> None:
+    """Re-evaluate HNN identities from preserved bytes using stable Medium post IDs."""
+    ledger = read_jsonl(HNN_RETRIEVAL_LEDGER)
+    changed = False
+    for item in ledger:
+        if not item.get("body_path") or not item.get("provenance_path"):
+            continue
+        provenance_path = REPO_ROOT / item["provenance_path"]
+        provenance = read_json(provenance_path)
+        record = dict(records_by_id[item["source_id"]])
+        record.update(overrides.get(item["source_id"], {}))
+        identity = compare_identity(
+            record,
+            provenance.get("final_url") or record["retrieval_url"],
+            provenance.get("observed_document") or {},
+        )
+        manual_review = identity["status"] not in {"MATCH", "CONSISTENT"}
+        if (
+            identity == provenance.get("identity_comparison")
+            and manual_review == provenance.get("manual_review_required")
+        ):
+            continue
+        provenance["identity_comparison"] = identity
+        provenance["manual_review_required"] = manual_review
+        if manual_review:
+            disposition = "AMBIGUOUS_MANUAL_REVIEW"
+        elif provenance.get("retrieval_tier") == "PUBLIC_WEB_ARCHIVE_EXACT_URL":
+            disposition = "CAPTURED_ARCHIVE"
+        else:
+            disposition = "CAPTURED_LIVE"
+        provenance["terminal_disposition"] = disposition
+        write_json(provenance_path, provenance)
+        item["identity_status"] = identity["status"]
+        item["manual_review_required"] = manual_review
+        item["terminal_disposition"] = disposition
+        changed = True
+    if changed:
+        ledger.sort(key=lambda value: value["source_id"])
+        write_jsonl(HNN_RETRIEVAL_LEDGER, ledger)
+        write_jsonl(HNN_MANUAL_REVIEW_QUEUE, [item for item in ledger if item["manual_review_required"]])
+
+
+def retrieve_hnn_completion(retry_failures: bool = False) -> None:
+    if not HNN_SELECTION.exists():
+        raise RuntimeError("Run `freeze` before HNN completion retrieval.")
+    manifest = read_json(FROZEN_MANIFEST)
+    records_by_id = {record["source_id"]: record for record in manifest["records"]}
+    source_ids = ids_from_selection(read_json(HNN_SELECTION))
+    if len(source_ids) != HNN_EXPECTED_COUNT:
+        raise RuntimeError(f"{HNN_BATCH_ID} selection must contain {HNN_EXPECTED_COUNT} Source IDs.")
+    records = [records_by_id[source_id] for source_id in source_ids]
+    resolutions = resolve_hnn_carriers(records)
+    resolution_by_id = {item["source_id"]: item for item in resolutions}
+    resolved_ids = [
+        source_id
+        for source_id in source_ids
+        if resolution_by_id[source_id].get("resolved_retrieval_url")
+    ]
+    live_fallback_ids = [
+        source_id
+        for source_id in source_ids
+        if not resolution_by_id[source_id].get("resolved_retrieval_url")
+        and urllib.parse.urlsplit(records_by_id[source_id]["retrieval_url"]).netloc.lower() == "medium.com"
+    ]
+    overrides = {
+        source_id: {
+            "retrieval_url": resolution_by_id[source_id]["resolved_retrieval_url"],
+            "retrieval_url_basis": resolution_by_id[source_id]["resolution_status"],
+        }
+        for source_id in resolved_ids
+    }
+    overrides.update(
+        {
+            source_id: {
+                "retrieval_url": records_by_id[source_id]["retrieval_url"],
+                "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+                "transport": "CURL_PUBLIC_HTTP",
+            }
+            for source_id in live_fallback_ids
+        }
+    )
+    retrieve_batch(
+        sorted(resolved_ids + live_fallback_ids),
+        HNN_RETRIEVAL_LEDGER,
+        HNN_RETRY_LEDGER,
+        HNN_MANUAL_REVIEW_QUEUE,
+        HNN_BATCH_ID,
+        retry_failures,
+        HNN_REQUEST_DELAY_SECONDS,
+        overrides,
+    )
+    reconcile_hnn_identity_checkpoints(records_by_id, overrides)
+    ledger_by_id = {item["source_id"]: item for item in read_jsonl(HNN_RETRIEVAL_LEDGER)}
+    for source_id in source_ids:
+        resolution = resolution_by_id[source_id]
+        if source_id in ledger_by_id or resolution.get("resolved_retrieval_url") or source_id in live_fallback_ids:
+            continue
+        record = records_by_id[source_id]
+        ledger_by_id[source_id] = {
+            "body_bytes": 0,
+            "body_path": None,
+            "body_sha256": None,
+            "captured_at": resolution["resolved_at"],
+            "checkpoint_reused": False,
+            "error": f"WAYBACK_{resolution['resolution_status']}:{resolution.get('resolution_error')}",
+            "final_url": None,
+            "http_status": resolution.get("index_http_status"),
+            "identity_status": "NOT_EVALUATED",
+            "manual_review_required": True,
+            "provenance_path": None,
+            "retrieval_batch_id": HNN_BATCH_ID,
+            "retrieval_tier": None,
+            "retrieval_url": record["retrieval_url"],
+            "source_family": record["source_family"],
+            "source_id": source_id,
+            "terminal_disposition": "NOT_FOUND_EXHAUSTED",
+        }
+    ledger = [ledger_by_id[source_id] for source_id in sorted(ledger_by_id)]
+    write_jsonl(HNN_RETRIEVAL_LEDGER, ledger)
+    write_jsonl(HNN_MANUAL_REVIEW_QUEUE, [item for item in ledger if item["manual_review_required"]])
+    write_summary()
+    write_archive_manifest()
 
 
 def ids_from_selection(value: Any) -> list[str]:
@@ -1163,6 +1625,46 @@ def validate() -> bool:
                 for record in selected_records
             ),
             f"path_prefix={EXPANSION_ALLOWED_PATH_PREFIX}; basis=PRIOR_FINAL_URL",
+        )
+
+    actual_hnn_selection = read_json(HNN_SELECTION) if HNN_SELECTION.exists() else None
+    expected_hnn_selection = build_hnn_selection(actual) if actual else None
+    check(
+        "HNN_SELECTION_DETERMINISTIC",
+        actual_hnn_selection == expected_hnn_selection,
+        f"batch={HNN_BATCH_ID}",
+    )
+    hnn_ids = ids_from_selection(actual_hnn_selection or {})
+    check(
+        "HNN_COMPLETION_RECORD_COUNT",
+        len(hnn_ids) == HNN_EXPECTED_COUNT and len(hnn_ids) == len(set(hnn_ids)),
+        f"observed={len(hnn_ids)} expected={HNN_EXPECTED_COUNT}",
+    )
+    check(
+        "HNN_VERIFIED_BASELINE_DISJOINT",
+        not set(hnn_ids).intersection(HNN_PRESERVED_BASELINE_SOURCE_IDS),
+        f"preserved_baseline={len(HNN_PRESERVED_BASELINE_SOURCE_IDS)}",
+    )
+    if actual:
+        hnn_family_ids = {
+            record["source_id"]
+            for record in actual["records"]
+            if record["source_family"] == "hologram-news-network"
+        }
+        check(
+            "HNN_FAMILY_SELECTION_COVERAGE",
+            set(hnn_ids) | set(HNN_PRESERVED_BASELINE_SOURCE_IDS) == hnn_family_ids,
+            f"selection={len(hnn_ids)} baseline={len(HNN_PRESERVED_BASELINE_SOURCE_IDS)} family={len(hnn_family_ids)}",
+        )
+        hnn_selected_records = [records_by_id[source_id] for source_id in hnn_ids if source_id in records_by_id]
+        check(
+            "HNN_SOURCE_SURFACE_ALLOWLIST",
+            all(
+                urllib.parse.urlsplit(record["retrieval_url"]).netloc.lower() in HNN_ALLOWED_SOURCE_HOSTS
+                and record["retrieval_url_basis"] == "PRIOR_REQUESTED_URL"
+                for record in hnn_selected_records
+            ),
+            f"allowed_hosts={sorted(HNN_ALLOWED_SOURCE_HOSTS)}; basis=PRIOR_REQUESTED_URL",
         )
 
     pilot_baseline_ok = all(
@@ -1282,6 +1784,113 @@ def validate() -> bool:
             f"{EXPANSION_BATCH_ID} is selected but has no retrieval ledger yet.",
         )
 
+    hnn_resolution = read_jsonl(HNN_RESOLUTION_LEDGER)
+    hnn_ledger = read_jsonl(HNN_RETRIEVAL_LEDGER)
+    hnn_attempts = read_jsonl(HNN_RETRY_LEDGER)
+    if hnn_resolution:
+        resolution_ids = [item.get("source_id") for item in hnn_resolution]
+        check(
+            "HNN_ARCHIVE_RESOLUTION_COVERAGE",
+            sorted(resolution_ids) == sorted(hnn_ids) and len(resolution_ids) == len(set(resolution_ids)),
+            f"resolved_records={len(resolution_ids)} expected={len(hnn_ids)}",
+        )
+        check(
+            "HNN_ARCHIVE_CARRIER_POLICY",
+            all(
+                not item.get("resolved_retrieval_url")
+                or (
+                    urllib.parse.urlsplit(item["resolved_retrieval_url"]).netloc.lower() == "web.archive.org"
+                    and wayback_timestamp(item["resolved_retrieval_url"])
+                )
+                for item in hnn_resolution
+            ),
+            "Every resolved HNN carrier is an exact timestamped public Wayback URL.",
+        )
+    else:
+        check("HNN_ARCHIVE_RESOLUTION_PENDING", True, "HNN selection exists but carrier resolution has not run.")
+
+    if hnn_ledger:
+        hnn_ledger_ids = [item.get("source_id") for item in hnn_ledger]
+        hnn_resolution_by_id = {item["source_id"]: item for item in hnn_resolution}
+        check(
+            "HNN_TERMINAL_IDS",
+            sorted(hnn_ledger_ids) == sorted(hnn_ids) and len(hnn_ledger_ids) == len(set(hnn_ledger_ids)),
+            f"terminal_records={len(hnn_ledger_ids)} expected={len(hnn_ids)}",
+        )
+        hnn_raw_ok = True
+        hnn_provenance_ok = True
+        hnn_fields_ok = True
+        hnn_live_fallback_ok = True
+        required_hnn_fields = {
+            "source_id", "original_url", "final_url", "retrieval_tier", "capture_utc",
+            "http_status", "content_type", "byte_count", "headers", "redirect_chain",
+            "raw_sha256", "snapshot_timestamp_or_git_sha", "identity_comparison",
+            "temporal_qualifier", "retrieval_batch_id",
+        }
+        for item in hnn_ledger:
+            if not item.get("body_path"):
+                continue
+            body_path = REPO_ROOT / item["body_path"]
+            provenance_path = REPO_ROOT / item["provenance_path"]
+            if not body_path.exists() or sha256_bytes(body_path.read_bytes()) != item["body_sha256"]:
+                hnn_raw_ok = False
+            if not provenance_path.exists():
+                hnn_provenance_ok = False
+                continue
+            provenance = read_json(provenance_path)
+            resolution = hnn_resolution_by_id.get(item["source_id"], {})
+            tier = provenance.get("retrieval_tier")
+            archive_carrier_ok = (
+                tier == "PUBLIC_WEB_ARCHIVE_EXACT_URL"
+                and bool(resolution.get("resolved_retrieval_url"))
+            )
+            live_carrier_ok = (
+                tier in {"EXACT_PUBLIC_LIVE_CANONICAL", "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT"}
+                and not resolution.get("resolved_retrieval_url")
+                and provenance.get("request", {}).get("retrieval_url_basis")
+                == "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT"
+                and urllib.parse.urlsplit(provenance.get("final_url") or "").netloc.lower() == "medium.com"
+            )
+            if (
+                provenance.get("source_id") != item["source_id"]
+                or provenance.get("raw_body", {}).get("sha256") != item["body_sha256"]
+                or provenance.get("retrieval_batch_id") != HNN_BATCH_ID
+                or not (archive_carrier_ok or live_carrier_ok)
+            ):
+                hnn_provenance_ok = False
+            if live_carrier_ok:
+                body_text = body_path.read_bytes()[:500000].decode("utf-8", errors="ignore").lower()
+                if not (
+                    "article:published_time" in body_text
+                    and ("application/ld+json" in body_text or '"paragraph"' in body_text)
+                    and len(body_path.read_bytes()) >= 50000
+                ):
+                    hnn_live_fallback_ok = False
+            if not required_hnn_fields.issubset(provenance):
+                hnn_fields_ok = False
+        check("HNN_RAW_BODY_CHECKSUMS", hnn_raw_ok, "Every recovered HNN body matches its ledger SHA-256.")
+        check("HNN_PROVENANCE_RECONCILES", hnn_provenance_ok, "Every recovered HNN record uses its declared exact-archive or public-live fallback tier and reconciles to its batch.")
+        check("HNN_LIVE_FALLBACK_COMPLETENESS", hnn_live_fallback_ok, "Every Medium live fallback contains article publication metadata and structured body evidence.")
+        check("HNN_REQUIRED_PROVENANCE_FIELDS", hnn_fields_ok, "Every recovered HNN response has the complete provenance field set.")
+        hnn_manual = read_jsonl(HNN_MANUAL_REVIEW_QUEUE)
+        check(
+            "HNN_MANUAL_REVIEW_QUEUE",
+            sorted(item["source_id"] for item in hnn_manual)
+            == sorted(item["source_id"] for item in hnn_ledger if item.get("manual_review_required")),
+            "HNN manual-review queue equals its flagged terminal records.",
+        )
+        check(
+            "HNN_RETRY_SCOPE",
+            all(
+                item.get("source_id") in set(hnn_ids)
+                and item.get("retrieval_batch_id") == HNN_BATCH_ID
+                for item in hnn_attempts
+            ),
+            f"attempt_records={len(hnn_attempts)}",
+        )
+    else:
+        check("HNN_AUTHORIZED_PENDING_RETRIEVAL", actual_hnn_selection is not None, f"{HNN_BATCH_ID} has no retrieval ledger yet.")
+
     check(
         "CROSS_BATCH_SOURCE_IDS_UNIQUE",
         not {item.get("source_id") for item in ledger}.intersection(
@@ -1289,13 +1898,32 @@ def validate() -> bool:
         ),
         f"pilot={len(ledger)} expansion={len(expansion_ledger)}",
     )
+    hnn_pilot_overlap = {item.get("source_id") for item in ledger}.intersection(
+        item.get("source_id") for item in hnn_ledger
+    )
+    expected_hnn_pilot_repairs = set((actual_hnn_selection or {}).get("pilot_source_ids_repaired", []))
+    check(
+        "HNN_PILOT_REPAIR_SCOPE",
+        (not hnn_ledger and not hnn_pilot_overlap)
+        or hnn_pilot_overlap == expected_hnn_pilot_repairs,
+        (
+            "retrieval_pending; overlap=0"
+            if not hnn_ledger
+            else f"overlap={len(hnn_pilot_overlap)} expected_repairs={len(expected_hnn_pilot_repairs)}"
+        ),
+    )
 
     check(
         "PROTECTED_EVIDENCE_UNCHANGED",
         all(item["status"] == "PASS" for item in checks if item["check"] in {"EXTRACTION_CHECKSUMS", "SOURCE_RECORD_REFERENCES"}),
         "Frozen extraction and Source Record checksums are unchanged.",
     )
-    all_terminal_ledger = ledger + expansion_ledger
+    effective_terminal_by_source: dict[str, dict[str, Any]] = {}
+    for item in ledger + expansion_ledger + hnn_ledger:
+        effective_terminal_by_source[item["source_id"]] = item
+    all_terminal_ledger = [
+        effective_terminal_by_source[source_id] for source_id in sorted(effective_terminal_by_source)
+    ]
     declared_output_paths = [
         item.get(key)
         for item in all_terminal_ledger
@@ -1399,7 +2027,7 @@ def parse_args() -> argparse.Namespace:
     selection.add_argument("--pilot", action="store_true", help="Retrieve only the approved 20-record pilot.")
     selection.add_argument(
         "--batch",
-        choices=[EXPANSION_BATCH_ID],
+        choices=[EXPANSION_BATCH_ID, HNN_BATCH_ID],
         help="Retrieve one explicitly authorized fixed expansion batch.",
     )
     retrieve_parser.add_argument("--retry-failures", action="store_true", help="Explicitly retry prior terminal access/failure records.")
@@ -1417,6 +2045,8 @@ def main() -> int:
                 retrieve_pilot(args.retry_failures)
             elif args.batch == EXPANSION_BATCH_ID:
                 retrieve_expansion(args.retry_failures)
+            elif args.batch == HNN_BATCH_ID:
+                retrieve_hnn_completion(args.retry_failures)
         elif args.command == "validate":
             return 0 if validate() else 1
     except (RuntimeError, ValueError, OSError, json.JSONDecodeError) as exc:

@@ -1,0 +1,62 @@
+{
+  "byte_count": 39126,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:20:48.422990Z",
+  "captured_at": "2026-07-22T22:20:48.422990Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220817120049id_/https://thehologram.io/which-star-atlas-faction-has-the-upper-hand-part-ii/",
+  "headers": {
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:20:48 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/which-star-atlas-faction-has-the-upper-hand-part-ii",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20220817120049id_/https://thehologram.io/which-star-atlas-faction-has-the-upper-hand-part-ii/",
+    "reasons": [
+      "ARCHIVE_CAPTURE_CONTAINS_EXPECTED_ORIGIN"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/which-star-atlas-faction-has-the-upper-hand-part-ii",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-232EC6F1D6301E88.json",
+  "raw_body": {
+    "byte_length": 39126,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-232EC6F1D6301E88/response-body.bin",
+    "sha256": "0250fd9077d2b71d517cb277827a064373e9f0cffaabfee7148fceb864d5ad6a"
+  },
+  "raw_sha256": "0250fd9077d2b71d517cb277827a064373e9f0cffaabfee7148fceb864d5ad6a",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220817120049id_/https://thehologram.io/which-star-atlas-faction-has-the-upper-hand-part-ii/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220817120049id_/https://thehologram.io/which-star-atlas-faction-has-the-upper-hand-part-ii/",
+    "headers": {
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:20:48 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220817120049",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-232EC6F1D6301E88",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220817120049",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

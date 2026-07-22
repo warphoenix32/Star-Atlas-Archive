@@ -1,0 +1,64 @@
+{
+  "byte_count": 220028,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:24:20.914196Z",
+  "captured_at": "2026-07-22T22:24:20.914196Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240529094141id_/https://hologramnews.com/michael-wagner-addresses-star-atlas-community-blowback-on-acquisition-of-multichain-ventures/",
+  "headers": {
+    "content-length": "220028",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:24:20 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/michael-wagner-addresses-star-atlas-community-blowback-on-acquisition-of-multichain-ventures",
+    "observed_canonical_url": "https://hologramnews.com/michael-wagner-addresses-star-atlas-community-blowback-on-acquisition-of-multichain-ventures/",
+    "observed_final_url": "https://web.archive.org/web/20240529094141id_/https://hologramnews.com/michael-wagner-addresses-star-atlas-community-blowback-on-acquisition-of-multichain-ventures/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/michael-wagner-addresses-star-atlas-community-blowback-on-acquisition-of-multichain-ventures/",
+    "document_title": "Michael Wagner addresses Star Atlas community blowback on acquisition of Multichain Ventures - Hologram News Network 🦉",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/michael-wagner-addresses-star-atlas-community-blowback-on-acquisition-of-multichain-ventures",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-90484B730C2A24D9.json",
+  "raw_body": {
+    "byte_length": 220028,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-90484B730C2A24D9/response-body.bin",
+    "sha256": "14604852477dab3e68357c9257778d34f0fcd57c6cc3af0ed8d8c171065c898b"
+  },
+  "raw_sha256": "14604852477dab3e68357c9257778d34f0fcd57c6cc3af0ed8d8c171065c898b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240529094141id_/https://hologramnews.com/michael-wagner-addresses-star-atlas-community-blowback-on-acquisition-of-multichain-ventures/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240529094141id_/https://hologramnews.com/michael-wagner-addresses-star-atlas-community-blowback-on-acquisition-of-multichain-ventures/",
+    "headers": {
+      "content-length": "220028",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:24:20 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240529094141",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-90484B730C2A24D9",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240529094141",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

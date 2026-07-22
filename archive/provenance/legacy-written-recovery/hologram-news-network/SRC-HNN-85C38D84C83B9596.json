@@ -1,0 +1,62 @@
+{
+  "byte_count": 111694,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:24:00.801452Z",
+  "captured_at": "2026-07-22T22:24:00.801452Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230203203124id_/https://medium.com/the-hologram/town-hall-recap-2-2-23-runway-roadmap-and-getting-saasy-abb7fdd4a5a0",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:24:00 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/town-hall-recap-2-2-23-runway-roadmap-and-getting-saasy-abb7fdd4a5a0",
+    "observed_canonical_url": "https://medium.com/the-hologram/town-hall-recap-2-2-23-runway-roadmap-and-getting-saasy-abb7fdd4a5a0",
+    "observed_final_url": "https://web.archive.org/web/20230203203124id_/https://medium.com/the-hologram/town-hall-recap-2-2-23-runway-roadmap-and-getting-saasy-abb7fdd4a5a0",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/town-hall-recap-2-2-23-runway-roadmap-and-getting-saasy-abb7fdd4a5a0",
+    "document_title": "Town Hall Recap 2/2/23: Runway, Roadmap, and Getting SAASy | by bee.bod | The Hologram | Feb, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/town-hall-recap-2-2-23-runway-roadmap-and-getting-saasy-abb7fdd4a5a0",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-85C38D84C83B9596.json",
+  "raw_body": {
+    "byte_length": 111694,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-85C38D84C83B9596/response-body.bin",
+    "sha256": "7202e352a00d1fe912dbd2bea1c31f313b501b9d184a74c9d09b90de0b7e4e5f"
+  },
+  "raw_sha256": "7202e352a00d1fe912dbd2bea1c31f313b501b9d184a74c9d09b90de0b7e4e5f",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230203203124id_/https://medium.com/the-hologram/town-hall-recap-2-2-23-runway-roadmap-and-getting-saasy-abb7fdd4a5a0",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230203203124id_/https://medium.com/the-hologram/town-hall-recap-2-2-23-runway-roadmap-and-getting-saasy-abb7fdd4a5a0",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:24:00 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230203203124",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-85C38D84C83B9596",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230203203124",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

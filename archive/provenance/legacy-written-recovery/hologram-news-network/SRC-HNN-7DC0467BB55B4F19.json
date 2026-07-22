@@ -1,0 +1,62 @@
+{
+  "byte_count": 124211,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:23:19.382565Z",
+  "captured_at": "2026-07-22T22:23:19.382565Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230226102647id_/https://medium.com/the-hologram/star-atlas-nabs-two-scammers-assets-frozen-4922901fb224",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:23:19 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-nabs-two-scammers-assets-frozen-4922901fb224",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-nabs-two-scammers-assets-frozen-4922901fb224",
+    "observed_final_url": "https://web.archive.org/web/20230226102647id_/https://medium.com/the-hologram/star-atlas-nabs-two-scammers-assets-frozen-4922901fb224",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-nabs-two-scammers-assets-frozen-4922901fb224",
+    "document_title": "Star Atlas Nabs Two Scammers; Assets Frozen | by Krigs | The Hologram | Feb, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-nabs-two-scammers-assets-frozen-4922901fb224",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-7DC0467BB55B4F19.json",
+  "raw_body": {
+    "byte_length": 124211,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-7DC0467BB55B4F19/response-body.bin",
+    "sha256": "ae165e7545a9023f94b4009e3009461d438dbd83ff579f14e7792fb4f3fa1dcf"
+  },
+  "raw_sha256": "ae165e7545a9023f94b4009e3009461d438dbd83ff579f14e7792fb4f3fa1dcf",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230226102647id_/https://medium.com/the-hologram/star-atlas-nabs-two-scammers-assets-frozen-4922901fb224",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230226102647id_/https://medium.com/the-hologram/star-atlas-nabs-two-scammers-assets-frozen-4922901fb224",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:23:19 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230226102647",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-7DC0467BB55B4F19",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230226102647",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

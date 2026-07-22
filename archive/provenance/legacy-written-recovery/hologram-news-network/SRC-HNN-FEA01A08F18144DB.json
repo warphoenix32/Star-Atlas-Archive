@@ -1,0 +1,62 @@
+{
+  "byte_count": 100225,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:28:06.612398Z",
+  "captured_at": "2026-07-22T22:28:06.612398Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230312175255id_/https://medium.com/the-hologram/star-atlas-pirate-guild-the-unseen-is-recruiting-ed495b647c4f",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:28:06 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/star-atlas-pirate-guild-the-unseen-is-recruiting-ed495b647c4f",
+    "observed_canonical_url": "https://medium.com/the-hologram/star-atlas-pirate-guild-the-unseen-is-recruiting-ed495b647c4f",
+    "observed_final_url": "https://web.archive.org/web/20230312175255id_/https://medium.com/the-hologram/star-atlas-pirate-guild-the-unseen-is-recruiting-ed495b647c4f",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/star-atlas-pirate-guild-the-unseen-is-recruiting-ed495b647c4f",
+    "document_title": "Star Atlas Pirate Guild “The Unseen” is Recruiting | by Hologram News Network | The Hologram | Mar, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/star-atlas-pirate-guild-the-unseen-is-recruiting-ed495b647c4f",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-FEA01A08F18144DB.json",
+  "raw_body": {
+    "byte_length": 100225,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-FEA01A08F18144DB/response-body.bin",
+    "sha256": "bb55afe0d2b89ba55312df86d339726fab5838939430ba21f243974f20946cf7"
+  },
+  "raw_sha256": "bb55afe0d2b89ba55312df86d339726fab5838939430ba21f243974f20946cf7",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230312175255id_/https://medium.com/the-hologram/star-atlas-pirate-guild-the-unseen-is-recruiting-ed495b647c4f",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230312175255id_/https://medium.com/the-hologram/star-atlas-pirate-guild-the-unseen-is-recruiting-ed495b647c4f",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:28:06 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230312175255",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-FEA01A08F18144DB",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230312175255",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

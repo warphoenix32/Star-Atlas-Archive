@@ -1,0 +1,62 @@
+{
+  "byte_count": 160597,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:23:52.240869Z",
+  "captured_at": "2026-07-22T22:23:52.240869Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230121021717id_/https://medium.com/the-hologram/navigating-the-cosmos-a-guide-to-exploring-the-halls-of-the-star-atlas-showroom-766876ece8d1",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:23:52 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/navigating-the-cosmos-a-guide-to-exploring-the-halls-of-the-star-atlas-showroom-766876ece8d1",
+    "observed_canonical_url": "https://medium.com/the-hologram/navigating-the-cosmos-a-guide-to-exploring-the-halls-of-the-star-atlas-showroom-766876ece8d1",
+    "observed_final_url": "https://web.archive.org/web/20230121021717id_/https://medium.com/the-hologram/navigating-the-cosmos-a-guide-to-exploring-the-halls-of-the-star-atlas-showroom-766876ece8d1",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/navigating-the-cosmos-a-guide-to-exploring-the-halls-of-the-star-atlas-showroom-766876ece8d1",
+    "document_title": "Navigating the Cosmos: A Guide to Exploring the Halls of the Star Atlas Showroom | by Jose Antonio Lorenzo Llanes | The Hologram | Jan, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/navigating-the-cosmos-a-guide-to-exploring-the-halls-of-the-star-atlas-showroom-766876ece8d1",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-83A286A215E30509.json",
+  "raw_body": {
+    "byte_length": 160597,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-83A286A215E30509/response-body.bin",
+    "sha256": "d1d9595a8ec7ebd8884ecf14e50c22abbcd779beb61ec471982c82813886c99f"
+  },
+  "raw_sha256": "d1d9595a8ec7ebd8884ecf14e50c22abbcd779beb61ec471982c82813886c99f",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230121021717id_/https://medium.com/the-hologram/navigating-the-cosmos-a-guide-to-exploring-the-halls-of-the-star-atlas-showroom-766876ece8d1",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230121021717id_/https://medium.com/the-hologram/navigating-the-cosmos-a-guide-to-exploring-the-halls-of-the-star-atlas-showroom-766876ece8d1",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:23:52 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230121021717",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-83A286A215E30509",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230121021717",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

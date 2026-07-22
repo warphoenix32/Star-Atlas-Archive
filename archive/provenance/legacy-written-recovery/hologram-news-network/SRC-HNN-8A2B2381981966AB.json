@@ -1,0 +1,62 @@
+{
+  "byte_count": 132059,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:24:09.387139Z",
+  "captured_at": "2026-07-22T22:24:09.387139Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20221116193950id_/https://medium.com/the-hologram/best-ships-for-star-atlas-golden-era-sage-99c49aaa7276",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:24:09 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/best-ships-for-star-atlas-golden-era-sage-99c49aaa7276",
+    "observed_canonical_url": "https://medium.com/the-hologram/best-ships-for-star-atlas-golden-era-sage-99c49aaa7276",
+    "observed_final_url": "https://web.archive.org/web/20221116193950id_/https://medium.com/the-hologram/best-ships-for-star-atlas-golden-era-sage-99c49aaa7276",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/best-ships-for-star-atlas-golden-era-sage-99c49aaa7276",
+    "document_title": "Best Ships for Star Atlas Golden Era (SAGE) | by Krigs | The Hologram | Nov, 2022 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/best-ships-for-star-atlas-golden-era-sage-99c49aaa7276",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-8A2B2381981966AB.json",
+  "raw_body": {
+    "byte_length": 132059,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-8A2B2381981966AB/response-body.bin",
+    "sha256": "64fdcdbafdbc509a15b1dcaec18f3e35f80ebc3e8eb9ae5e113265cdb5ff2d30"
+  },
+  "raw_sha256": "64fdcdbafdbc509a15b1dcaec18f3e35f80ebc3e8eb9ae5e113265cdb5ff2d30",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20221116193950id_/https://medium.com/the-hologram/best-ships-for-star-atlas-golden-era-sage-99c49aaa7276",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20221116193950id_/https://medium.com/the-hologram/best-ships-for-star-atlas-golden-era-sage-99c49aaa7276",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:24:09 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20221116193950",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-8A2B2381981966AB",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20221116193950",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

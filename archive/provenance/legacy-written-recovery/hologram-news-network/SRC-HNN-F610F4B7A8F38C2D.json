@@ -1,0 +1,64 @@
+{
+  "byte_count": 163753,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:27:59.545388Z",
+  "captured_at": "2026-07-22T22:27:59.545388Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20220724010155id_/https://thehologram.io/wagner-warwick/",
+  "headers": {
+    "content-length": "163753",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:27:59 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://thehologram.io/wagner-warwick",
+    "observed_canonical_url": "https://thehologram.io/wagner-warwick/",
+    "observed_final_url": "https://web.archive.org/web/20220724010155id_/https://thehologram.io/wagner-warwick/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://thehologram.io/wagner-warwick/",
+    "document_title": "Michael Wagner addresses upcoming debate with Illuvium's Kieran Warwick",
+    "response_format": "HTML"
+  },
+  "original_url": "https://thehologram.io/wagner-warwick",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-F610F4B7A8F38C2D.json",
+  "raw_body": {
+    "byte_length": 163753,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-F610F4B7A8F38C2D/response-body.bin",
+    "sha256": "84ef1bcf93a94607374cd7dd0225e8bd8c493ed515c04df4b3e071ee2aba3a76"
+  },
+  "raw_sha256": "84ef1bcf93a94607374cd7dd0225e8bd8c493ed515c04df4b3e071ee2aba3a76",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20220724010155id_/https://thehologram.io/wagner-warwick/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20220724010155id_/https://thehologram.io/wagner-warwick/",
+    "headers": {
+      "content-length": "163753",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:27:59 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20220724010155",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-F610F4B7A8F38C2D",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20220724010155",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

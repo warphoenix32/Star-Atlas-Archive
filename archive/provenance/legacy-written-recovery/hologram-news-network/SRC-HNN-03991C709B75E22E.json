@@ -1,0 +1,62 @@
+{
+  "byte_count": 135346,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:20:21.139902Z",
+  "captured_at": "2026-07-22T22:20:21.139902Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20221115014040id_/https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:20:20 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+    "observed_canonical_url": "https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+    "observed_final_url": "https://web.archive.org/web/20221115014040id_/https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+    "document_title": "Star Atlas Rallies After “FTX Implosion” | by Krigs | Nov, 2022 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-03991C709B75E22E.json",
+  "raw_body": {
+    "byte_length": 135346,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-03991C709B75E22E/response-body.bin",
+    "sha256": "242f046e46426da15f272f86ca7990d30a92a7aa785909b1c0f7853f99a48af3"
+  },
+  "raw_sha256": "242f046e46426da15f272f86ca7990d30a92a7aa785909b1c0f7853f99a48af3",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20221115014040id_/https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20221115014040id_/https://medium.com/@krigsfoniks/star-atlas-rallies-after-ftx-implosion-b21e75a00891",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:20:20 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20221115014040",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-03991C709B75E22E",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20221115014040",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

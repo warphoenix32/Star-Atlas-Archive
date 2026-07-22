@@ -1,0 +1,62 @@
+{
+  "byte_count": 144404,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:25:02.920108Z",
+  "captured_at": "2026-07-22T22:25:02.920108Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230126151232id_/https://medium.com/the-hologram/aetera-the-ultimate-virtual-city-710378214cfa",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:25:02 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/aetera-the-ultimate-virtual-city-710378214cfa",
+    "observed_canonical_url": "https://medium.com/the-hologram/aetera-the-ultimate-virtual-city-710378214cfa",
+    "observed_final_url": "https://web.archive.org/web/20230126151232id_/https://medium.com/the-hologram/aetera-the-ultimate-virtual-city-710378214cfa",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/aetera-the-ultimate-virtual-city-710378214cfa",
+    "document_title": "Aetera: The Ultimate Virtual City | by NotBitcoinCEO | The Hologram | Jan, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/aetera-the-ultimate-virtual-city-710378214cfa",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-A043EFC8EEB9C7B5.json",
+  "raw_body": {
+    "byte_length": 144404,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-A043EFC8EEB9C7B5/response-body.bin",
+    "sha256": "94dcd7b5f32edf449bff554a18ec1b9dfcf315eb8762c938edc1334909b1c18d"
+  },
+  "raw_sha256": "94dcd7b5f32edf449bff554a18ec1b9dfcf315eb8762c938edc1334909b1c18d",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230126151232id_/https://medium.com/the-hologram/aetera-the-ultimate-virtual-city-710378214cfa",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230126151232id_/https://medium.com/the-hologram/aetera-the-ultimate-virtual-city-710378214cfa",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:25:02 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230126151232",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-A043EFC8EEB9C7B5",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230126151232",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

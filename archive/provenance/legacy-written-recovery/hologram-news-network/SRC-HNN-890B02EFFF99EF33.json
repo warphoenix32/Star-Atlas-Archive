@@ -1,0 +1,62 @@
+{
+  "byte_count": 228458,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:38.307466Z",
+  "captured_at": "2026-07-22T22:32:38.307466Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/the-hologram/galia-merchants-and-star-atlas-golden-ticket-limited-time-redemptions-3c700708bbe4",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:38 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/galia-merchants-and-star-atlas-golden-ticket-limited-time-redemptions-3c700708bbe4",
+    "observed_canonical_url": "https://medium.com/the-hologram/galia-merchants-and-star-atlas-golden-ticket-limited-time-redemptions-3c700708bbe4",
+    "observed_final_url": "https://medium.com/the-hologram/galia-merchants-and-star-atlas-golden-ticket-limited-time-redemptions-3c700708bbe4",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/galia-merchants-and-star-atlas-golden-ticket-limited-time-redemptions-3c700708bbe4",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/galia-merchants-and-star-atlas-golden-ticket-limited-time-redemptions-3c700708bbe4",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-890B02EFFF99EF33.json",
+  "raw_body": {
+    "byte_length": 228458,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-890B02EFFF99EF33/response-body.bin",
+    "sha256": "a20331b4066745d27429b12d16ca8b493ba04da9511f5552bbb1e71354577959"
+  },
+  "raw_sha256": "a20331b4066745d27429b12d16ca8b493ba04da9511f5552bbb1e71354577959",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/the-hologram/galia-merchants-and-star-atlas-golden-ticket-limited-time-redemptions-3c700708bbe4",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/the-hologram/galia-merchants-and-star-atlas-golden-ticket-limited-time-redemptions-3c700708bbe4",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:38 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-890B02EFFF99EF33",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:38.307466Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

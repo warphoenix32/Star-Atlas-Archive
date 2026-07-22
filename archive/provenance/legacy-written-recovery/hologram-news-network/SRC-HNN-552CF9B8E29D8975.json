@@ -1,0 +1,62 @@
+{
+  "byte_count": 149817,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:21:58.360900Z",
+  "captured_at": "2026-07-22T22:21:58.360900Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230128181540id_/https://medium.com/the-hologram/decoding-galia-what-we-know-about-the-lore-of-star-atlas-the-factions-8af1dcd408b9",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:21:58 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/decoding-galia-what-we-know-about-the-lore-of-star-atlas-the-factions-8af1dcd408b9",
+    "observed_canonical_url": "https://medium.com/the-hologram/decoding-galia-what-we-know-about-the-lore-of-star-atlas-the-factions-8af1dcd408b9",
+    "observed_final_url": "https://web.archive.org/web/20230128181540id_/https://medium.com/the-hologram/decoding-galia-what-we-know-about-the-lore-of-star-atlas-the-factions-8af1dcd408b9",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/decoding-galia-what-we-know-about-the-lore-of-star-atlas-the-factions-8af1dcd408b9",
+    "document_title": "Decoding Galia — What We Know About the Lore of Star Atlas Part I: Factions | by JALLDIGITAL | The Hologram | Jan, 2023 | Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/decoding-galia-what-we-know-about-the-lore-of-star-atlas-the-factions-8af1dcd408b9",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-552CF9B8E29D8975.json",
+  "raw_body": {
+    "byte_length": 149817,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-552CF9B8E29D8975/response-body.bin",
+    "sha256": "f19bc28f8cc695efa46560355750c67965ef50493a42965109c9b04356f477b5"
+  },
+  "raw_sha256": "f19bc28f8cc695efa46560355750c67965ef50493a42965109c9b04356f477b5",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230128181540id_/https://medium.com/the-hologram/decoding-galia-what-we-know-about-the-lore-of-star-atlas-the-factions-8af1dcd408b9",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230128181540id_/https://medium.com/the-hologram/decoding-galia-what-we-know-about-the-lore-of-star-atlas-the-factions-8af1dcd408b9",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:21:58 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230128181540",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-552CF9B8E29D8975",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230128181540",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

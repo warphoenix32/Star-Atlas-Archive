@@ -1,0 +1,72 @@
+{
+  "byte_count": 231389,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:32:42.541842Z",
+  "captured_at": "2026-07-22T22:32:42.541842Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://medium.com/the-hologram/will-february-be-any-different-for-star-atlas-8ae4afc80f28",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:32:42 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/p/8ae4afc80f28",
+    "observed_canonical_url": "https://medium.com/the-hologram/will-february-be-any-different-for-star-atlas-8ae4afc80f28",
+    "observed_final_url": "https://medium.com/the-hologram/will-february-be-any-different-for-star-atlas-8ae4afc80f28",
+    "reasons": [
+      "STABLE_MEDIUM_POST_ID_MATCH_AFTER_PUBLICATION_PATH_CHANGE"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://medium.com/the-hologram/will-february-be-any-different-for-star-atlas-8ae4afc80f28",
+    "document_title": "Medium",
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/p/8ae4afc80f28",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-8DEF466059C448BA.json",
+  "raw_body": {
+    "byte_length": 231389,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-8DEF466059C448BA/response-body.bin",
+    "sha256": "5e81b3022f52b4a1bdf805d30180af4b94a792f06b327b68c0a0ac09de5abc8f"
+  },
+  "raw_sha256": "5e81b3022f52b4a1bdf805d30180af4b94a792f06b327b68c0a0ac09de5abc8f",
+  "redirect_chain": [
+    {
+      "http_status": 301,
+      "location": "https://medium.com/the-hologram/will-february-be-any-different-for-star-atlas-8ae4afc80f28"
+    }
+  ],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://medium.com/p/8ae4afc80f28",
+    "retrieval_url_basis": "PUBLIC_LIVE_MEDIUM_FALLBACK_AFTER_NO_ARCHIVE_SNAPSHOT",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://medium.com/the-hologram/will-february-be-any-different-for-star-atlas-8ae4afc80f28",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:32:42 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": [
+      {
+        "http_status": 301,
+        "location": "https://medium.com/the-hologram/will-february-be-any-different-for-star-atlas-8ae4afc80f28"
+      }
+    ]
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-8DEF466059C448BA",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T22:32:42.541842Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

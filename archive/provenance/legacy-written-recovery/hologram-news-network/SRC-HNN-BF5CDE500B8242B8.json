@@ -1,0 +1,62 @@
+{
+  "byte_count": 35767,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:25:53.736969Z",
+  "captured_at": "2026-07-22T22:25:53.736969Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://web.archive.org/web/20230517233115id_/https://medium.com/the-hologram/the-ultimate-star-atlas-escape-velocity-guide-updated-with-new-loot-table-c35b97761ecb",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 22:25:53 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://medium.com/the-hologram/the-ultimate-star-atlas-escape-velocity-guide-updated-with-new-loot-table-c35b97761ecb",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://web.archive.org/web/20230517233115id_/https://medium.com/the-hologram/the-ultimate-star-atlas-escape-velocity-guide-updated-with-new-loot-table-c35b97761ecb",
+    "reasons": [
+      "STABLE_MEDIUM_POST_ID_MATCH_AFTER_PUBLICATION_PATH_CHANGE"
+    ],
+    "status": "CONSISTENT"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": null,
+    "response_format": "HTML"
+  },
+  "original_url": "https://medium.com/the-hologram/the-ultimate-star-atlas-escape-velocity-guide-updated-with-new-loot-table-c35b97761ecb",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-BF5CDE500B8242B8.json",
+  "raw_body": {
+    "byte_length": 35767,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-BF5CDE500B8242B8/response-body.bin",
+    "sha256": "504ce440962f969c5147ee9021f34dd58a708c3cc248a58579dc95f9bf8e2364"
+  },
+  "raw_sha256": "504ce440962f969c5147ee9021f34dd58a708c3cc248a58579dc95f9bf8e2364",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20230517233115id_/https://medium.com/the-hologram/the-ultimate-star-atlas-escape-velocity-guide-updated-with-new-loot-table-c35b97761ecb",
+    "retrieval_url_basis": "RESOLVED_CDX_EARLIEST_CAPTURE",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://web.archive.org/web/20230517233115id_/https://medium.com/the-hologram/the-ultimate-star-atlas-escape-velocity-guide-updated-with-new-loot-table-c35b97761ecb",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 22:25:53 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20230517233115",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-BF5CDE500B8242B8",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20230517233115",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}

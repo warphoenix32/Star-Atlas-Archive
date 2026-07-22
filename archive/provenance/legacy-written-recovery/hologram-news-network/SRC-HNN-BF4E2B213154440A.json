@@ -1,0 +1,64 @@
+{
+  "byte_count": 212639,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T22:25:52.359963Z",
+  "captured_at": "2026-07-22T22:25:52.359963Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://web.archive.org/web/20240417022949id_/https://hologramnews.com/star-atlas-2024-community-week/",
+  "headers": {
+    "content-length": "212639",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 22:25:51 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://hologramnews.com/star-atlas-2024-community-week",
+    "observed_canonical_url": "https://hologramnews.com/star-atlas-2024-community-week/",
+    "observed_final_url": "https://web.archive.org/web/20240417022949id_/https://hologramnews.com/star-atlas-2024-community-week/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://hologramnews.com/star-atlas-2024-community-week/",
+    "document_title": "Star Atlas 2024 Community Week - Hologram News Network 🦉",
+    "response_format": "HTML"
+  },
+  "original_url": "https://hologramnews.com/star-atlas-2024-community-week",
+  "provenance_path": "archive/provenance/legacy-written-recovery/hologram-news-network/SRC-HNN-BF4E2B213154440A.json",
+  "raw_body": {
+    "byte_length": 212639,
+    "path": "archive/raw/legacy-written-recovery/hologram-news-network/SRC-HNN-BF4E2B213154440A/response-body.bin",
+    "sha256": "45d52ad46d8f0d2acba89e5cf3ae68120041b51e7c6903c01fdb949f7589ede7"
+  },
+  "raw_sha256": "45d52ad46d8f0d2acba89e5cf3ae68120041b51e7c6903c01fdb949f7589ede7",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://web.archive.org/web/20240417022949id_/https://hologramnews.com/star-atlas-2024-community-week/",
+    "retrieval_url_basis": "RESOLVED_PRIOR_EXACT_WAYBACK",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://web.archive.org/web/20240417022949id_/https://hologramnews.com/star-atlas-2024-community-week/",
+    "headers": {
+      "content-length": "212639",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 22:25:51 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "hnn-written-family-completion-156",
+  "retrieval_tier": "PUBLIC_WEB_ARCHIVE_EXACT_URL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": "20240417022949",
+  "source_family": "hologram-news-network",
+  "source_id": "SRC-HNN-BF4E2B213154440A",
+  "temporal_qualifier": "HISTORICAL_PUBLIC_ARCHIVE_SNAPSHOT_20240417022949",
+  "terminal_disposition": "CAPTURED_ARCHIVE"
+}
