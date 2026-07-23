@@ -639,7 +639,10 @@ def write_json(path: Path, value: Any) -> None:
 
 
 def sha256_path(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+    # Campaign artifacts are UTF-8 text. Hash canonical LF text so Windows
+    # autocrlf checkouts and Linux CI produce the same provenance values.
+    canonical = path.read_text(encoding="utf-8").replace("\r\n", "\n")
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
 
 
 def generate() -> None:
