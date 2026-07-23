@@ -176,6 +176,10 @@ def validate_simplified_promotion_reports() -> int:
 
 
 def validate_forbidden_paths(changes: list[str]) -> str:
+    phase4_knowledge_consolidation = any(path.startswith((
+        "operations/campaigns/phase-4-knowledge-consolidation-2026-07/",
+        "operations/tests/phase4_knowledge_consolidation/",
+    )) for path in changes)
     publication_contract_campaign = any(path.startswith((
         "publication/manifests/",
         "operations/campaigns/phase-3-publication-contract-2026-07/",
@@ -191,7 +195,11 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/campaigns/legacy-written-raw-recovery-2026-07/",
         "operations/tests/legacy_written_raw_recovery/",
     )) or path == "archive/manifests/legacy-written-raw-recovery-2026-07.json" for path in changes)
-    phase_one_inventory = not (legacy_written_raw_recovery or publication_contract_campaign) and any(path.startswith((
+    phase_one_inventory = not (
+        legacy_written_raw_recovery
+        or publication_contract_campaign
+        or phase4_knowledge_consolidation
+    ) and any(path.startswith((
         "operations/coverage/",
         "operations/programs/library-roadmap/",
     )) for path in changes)
@@ -218,7 +226,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json",
         "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json",
     } for path in changes)
-    knowledge_campaign = any(path.startswith(("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")) for path in changes)
+    knowledge_campaign = not phase4_knowledge_consolidation and any(path.startswith(("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")) for path in changes)
     medium_campaign = any("star-atlas-medium" in path or path.startswith(("archive/raw/medium/", "archive/normalized/medium/", "archive/source-records/medium/")) for path in changes)
     economic_reports_campaign = any(path.startswith((
         "archive/raw/economic-reports/",
@@ -290,10 +298,20 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = 1 if legacy_written_raw_recovery else sum((publication_contract_campaign, phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = 1 if legacy_written_raw_recovery else sum((phase4_knowledge_consolidation, publication_contract_campaign, phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
-    if publication_contract_campaign:
+    if phase4_knowledge_consolidation:
+        allowed = common + (
+            "knowledge/",
+            "operations/campaigns/phase-4-knowledge-consolidation-2026-07/",
+            "operations/tests/phase4_knowledge_consolidation/",
+            "operations/programs/library-roadmap/",
+            "operations/coverage/campaign-status-register.json",
+            "operations/coverage/campaign-status-register.md",
+        )
+        label = "phase-4-knowledge-consolidation-2026-07"
+    elif publication_contract_campaign:
         allowed = common + (
             "publication/PUBLICATION-CONTRACT.md",
             "publication/README.md",
@@ -758,6 +776,27 @@ def validate_pip_ledger_campaign() -> None:
         raise ValidationFailure("PIP ledger generated artifacts do not reconcile with committed files:\n" + diff.stdout)
 
 
+def validate_phase4_knowledge_consolidation(base_ref: str) -> None:
+    campaign = ROOT / "operations/campaigns/phase-4-knowledge-consolidation-2026-07"
+    command = [sys.executable, str(campaign / "validate_campaign.py"), base_ref]
+    exclusions = {"validate_campaign.py", "README.md"}
+    first = run_cycle(command, campaign, exclusions)
+    second = run_cycle(command, campaign, exclusions)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure(
+            "Phase 4 knowledge validation is not deterministic: " + ", ".join(differing)
+        )
+    run(
+        sys.executable,
+        "-m",
+        "unittest",
+        "discover",
+        "operations/tests/phase4_knowledge_consolidation",
+        check=True,
+    )
+
+
 def validate_publication_contract_campaign(base_ref: str) -> None:
     campaign = ROOT / "operations/campaigns/phase-3-publication-contract-2026-07"
     command = [sys.executable, str(campaign / "validate_campaign.py"), base_ref]
@@ -999,7 +1038,9 @@ def repository_mode(base_ref: str) -> None:
 def campaign_mode(base_ref: str) -> None:
     changes = changed_paths(base_ref)
     contract = validate_forbidden_paths(changes)
-    if contract == "phase-3-publication-contract-2026-07":
+    if contract == "phase-4-knowledge-consolidation-2026-07":
+        validate_phase4_knowledge_consolidation(base_ref)
+    elif contract == "phase-3-publication-contract-2026-07":
         validate_publication_contract_campaign(base_ref)
     elif contract == "legacy-written-raw-recovery-2026-07":
         validate_legacy_written_raw_recovery_campaign()

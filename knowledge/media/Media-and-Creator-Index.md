@@ -3,7 +3,7 @@ title: Star Atlas Media and Creator Index
 seo_title: "Star Atlas Media and Creator Archive Index"
 seo_description: "A research index of official communications, community journalism, guild publications, shows, creators, transcript archives, affiliations, and preservation gaps."
 knowledge_status: QUALIFIED
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 5
 page_risk_class: R2
@@ -17,7 +17,7 @@ research_gaps:
 review_after: 2027-01-20
 entry_type: media-registry
 status: active
-updated: 2026-07-17
+updated: 2026-07-23
 publication_status: public
 ---
 
@@ -45,7 +45,7 @@ Official publication surfaces are indexed separately because their authority and
 |---|---|---|---|
 | [Official Discord Announcements](Official-Discord-Announcements-Profile.md) | 1,071 messages, 2021-03-16 through 2026-07-12 | Qualified, validated supplied export | Export reports incomplete collection; author grouping is inferred |
 | [Official Star Atlas X Account](Official-X-Account-Profile.md) | 796 unique posts, 2024-11-05 through 2026-07-14 | Qualified, validated partial-period corpus | Retweets preserve resharing, not first-party authorship; linked media absent |
-| [Star Atlas Medium Publication](Star-Atlas-Medium-Publication-Profile.md) | 173 confirmed articles, 2021-01-15 through 2025-10-10 | Confirmed set fully ingested; publication discovery incomplete | 51 discovery leads explicitly deferred; deleted or unindexed articles may remain unknown |
+| [Star Atlas Medium Publication](Star-Atlas-Medium-Publication-Profile.md) | 181 confirmed articles, 2021-01-15 through 2025-10-10 | Confirmed set fully ingested; all 216 review candidates terminally resolved; publication discovery incomplete | Deleted or unindexed articles may remain unknown |
 
 The date ranges above describe preserved repository coverage, not the lifetime of each publication surface. Official publication proves what the institution stated at a given time; it does not automatically prove delivery, execution, economic accuracy, or event occurrence.
 

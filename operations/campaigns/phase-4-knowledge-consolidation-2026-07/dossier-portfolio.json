@@ -1,0 +1,138 @@
+{
+  "campaign_id": "phase-4-knowledge-consolidation-2026-07",
+  "as_of": "2026-07-23",
+  "portfolio_status": "SELECTED_FOR_PHASE_4_EVIDENCE_CONSOLIDATION",
+  "publication_authorized": false,
+  "dossiers": [
+    {
+      "dossier_id": "DOSSIER-GOVERNANCE-INSTITUTIONAL-ORDER",
+      "title": "How Star Atlas Governance Took Shape",
+      "priority": "HIGH",
+      "risk_class": "R2",
+      "action": "MERGE",
+      "evidence_readiness": "REQUIRES_PACKET",
+      "knowledge_paths": [
+        "knowledge/governance/Governance-Constitutional-History.md",
+        "knowledge/governance/Star-Atlas-DAO.md",
+        "knowledge/governance/Star-Atlas-Foundation.md",
+        "knowledge/governance/Star-Atlas-Council.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-GOVERNANCE-DECISIONS-AND-FAILURES",
+      "title": "Proposals, Elections, Failures, and Withdrawals",
+      "priority": "HIGH",
+      "risk_class": "R3",
+      "action": "MERGE",
+      "evidence_readiness": "REQUIRES_PACKET",
+      "knowledge_paths": [
+        "knowledge/governance/PIP-Registry.md",
+        "knowledge/governance/Council-Election-History.md",
+        "knowledge/governance/Governance-Failure-and-Termination-Casebook.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-TREASURY-AND-FUNDING",
+      "title": "Treasury Authority, Funding, and the Limits of Payment Evidence",
+      "priority": "HIGH",
+      "risk_class": "R3",
+      "action": "MERGE",
+      "evidence_readiness": "REQUIRES_PACKET",
+      "knowledge_paths": [
+        "knowledge/economy/DAO-Treasury-Architecture.md",
+        "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
+        "knowledge/governance/Ecosystem-Fund-Award-History.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-ECONOMIC-HISTORY",
+      "title": "ATLAS, POLIS, and the Measured Star Atlas Economy",
+      "priority": "HIGH",
+      "risk_class": "R3",
+      "action": "MERGE",
+      "evidence_readiness": "GATE_1_PACKET_COMPLETE",
+      "knowledge_paths": [
+        "knowledge/economy/ATLAS-Token-History.md",
+        "knowledge/economy/POLIS-Token-History.md",
+        "knowledge/economy/Economic-Report-Catalog.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-SCORE-SAGE-STARBASED",
+      "title": "From SCORE to SAGE Labs and Starbased",
+      "priority": "HIGH",
+      "risk_class": "R3",
+      "action": "MERGE",
+      "evidence_readiness": "REQUIRES_PACKET",
+      "knowledge_paths": [
+        "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+        "knowledge/gameplay/SAGE.md",
+        "knowledge/gameplay/Product-Registry.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-IMMERSIVE-PRODUCTS",
+      "title": "The UE5 Showroom and Holosim",
+      "priority": "MEDIUM",
+      "risk_class": "R2",
+      "action": "MERGE",
+      "evidence_readiness": "REQUIRES_PACKET",
+      "knowledge_paths": [
+        "knowledge/gameplay/UE5-Showroom.md",
+        "knowledge/gameplay/Holosim.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-OFFICIAL-COMMUNICATIONS",
+      "title": "How Star Atlas Communicated Its Development",
+      "priority": "HIGH",
+      "risk_class": "R2",
+      "action": "MERGE",
+      "evidence_readiness": "GATE_1_PACKET_COMPLETE",
+      "knowledge_paths": [
+        "knowledge/timeline/Official-Communications-Chronology.md",
+        "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+        "knowledge/media/Official-Discord-Announcements-Profile.md",
+        "knowledge/media/Official-X-Account-Profile.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-COMMUNITY-BROADCASTS",
+      "title": "Atlas Brew, Town Halls, and the Recorded Community",
+      "priority": "HIGH",
+      "risk_class": "R3",
+      "action": "MERGE",
+      "evidence_readiness": "GATE_1_PACKET_COMPLETE",
+      "knowledge_paths": [
+        "knowledge/media/Atlas-Brew-History.md",
+        "knowledge/media/Star-Atlas-Town-Hall-History.md",
+        "knowledge/media/VBTV-Star-Atlas-TV-Recording-Index.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-ORGANIZATIONS-AND-ROLES",
+      "title": "The Institutions and People Behind Star Atlas",
+      "priority": "MEDIUM",
+      "risk_class": "R3",
+      "action": "MERGE",
+      "evidence_readiness": "REQUIRES_PACKET",
+      "knowledge_paths": [
+        "knowledge/organizations/ATMTA.md",
+        "knowledge/organizations/Institutional-Overview.md",
+        "knowledge/organizations/Organization-and-Role-Registry.md"
+      ]
+    },
+    {
+      "dossier_id": "DOSSIER-LORE-FOUNDATIONS",
+      "title": "The Galia Expanse: Factions, Peoples, Places, and Canon",
+      "priority": "HIGH",
+      "risk_class": "R3",
+      "action": "EXPAND",
+      "evidence_readiness": "REQUIRES_PACKET_AND_ENTITY_PAGES",
+      "knowledge_paths": [
+        "knowledge/lore/Canon-Registry.md",
+        "knowledge/timeline/Lore-Timeline.md"
+      ]
+    }
+  ]
+}

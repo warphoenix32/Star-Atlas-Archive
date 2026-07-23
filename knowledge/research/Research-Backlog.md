@@ -3,7 +3,7 @@ title: "Star Atlas Research Backlog"
 seo_title: "Star Atlas Historical Research Backlog and Missing Sources"
 seo_description: "Prioritized missing evidence for Star Atlas governance, products, economy, lore, Discord, publications, organizations, and technology."
 knowledge_status: QUALIFIED
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 5
 page_risk_class: R2
@@ -12,6 +12,9 @@ evidence_basis:
   - "operations/campaigns/discord-community-indexing-001/discord-channel-gap-report.json"
   - "operations/campaigns/lore-repository-ingestion-2026-07/research-backlog.md"
   - "knowledge/index/source-registry/Public-Source-Registry.md"
+  - "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json"
+  - "operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json"
+  - "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json"
 known_limitations:
   - "This backlog describes gaps visible in the repository as of the review date; unindexed holdings may exist."
   - "An acquisition target may no longer be publicly recoverable."
@@ -32,9 +35,9 @@ The Archive now contains substantial governance, publication, transcript, social
 | P0 | Election outcomes | Mechanism-aware records with unresolved PIP-11, PIP-25, and PIP-27 outcomes | Official STV tabulation, candidate totals, transfer rounds, and final winner announcements |
 | P0 | Discord channel coverage | 1,071 announcement-export messages, March 2021–July 12, 2026 | Native exports for each material channel with server/channel/message/author IDs and timezone offsets |
 | P0 | Product release chronology | Reviewed product histories and selective transcript candidates | Versioned release notes, build manifests, public-test notices, deployment timestamps, and retired interface snapshots |
-| P1 | Medium publication discovery | 173 confirmed articles fully ingested; 329 candidates adjudicated; 51 deferred | Publication-native archive or owner export resolving the deferred URLs and later articles |
+| P1 | Medium publication discovery | 181 confirmed articles fully ingested; all 216 known review candidates terminally resolved | A new publication-native discovery snapshot or owner export capable of finding deleted, moved, or previously unindexed articles |
 | P1 | Town Hall history | Partial preserved transcript and source-record coverage | Complete episode inventory, original URLs, publication dates, transcripts, and timestamp metadata |
-| P1 | Atlas Brew metadata | 123 recordings and selective semantic evidence with timestamps | Original URLs, authoritative episode dates, and speaker labels only for authority-dependent claims |
+| P1 | Atlas Brew event context | 124 public recordings reconciled to URLs and upload dates; 123-source selective semantic layer plus qualified #7 ASR | Complete event ledger, live-event dates, hosts/guests, original-platform lineage, and speaker review only for authority-dependent claims |
 | P1 | Lore continuity | Commit-pinned canonical taxonomy and 4,632 extracted entities | Newer official lore, complete CORE catalog, primary chronology sources, and maintainer reconciliation of canon/docs differences |
 | P1 | Corporate and institutional history | Reviewed ATMTA, DAO, Foundation, Council, and role pages | Formation records, dated leadership announcements, charters, delegated-authority records, and current role confirmations |
 | P2 | Technical provenance | Technology and program registry | Program IDs, upgrade authorities, audit reports, SDK/API release histories, repository archival notices, and architecture publications |
@@ -53,7 +56,14 @@ Atlas Brew and other recordings should be evaluated by discussion significance, 
 
 ### Publications and social platforms
 
-Official Medium is complete for the frozen 173-article included manifest, not for total publication discovery. Official X, newsroom, GitHub, support, governance, and other living sources require dated refresh jobs that distinguish newly discovered material from checksum-identical records. HNN, Intergalactic Herald, and Aephia still contain targeted authorship and lineage questions tracked in the [Community Source Attribution Backlog](Community-Source-Attribution-Backlog.md).
+Official Medium is complete for the frozen 181-article included manifest, not
+for total publication discovery. All 216 known review candidates are resolved;
+future work is new discovery, not closure of an inherited manual-review queue.
+Official X, newsroom, GitHub, support, governance, and other living sources
+require dated refresh jobs that distinguish newly discovered material from
+checksum-identical records. HNN, Intergalactic Herald, and Aephia still contain
+targeted authorship and lineage questions tracked in the [Community Source
+Attribution Backlog](Community-Source-Attribution-Backlog.md).
 
 ## Domain research program
 

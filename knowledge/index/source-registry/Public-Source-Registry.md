@@ -3,7 +3,7 @@ title: Star Atlas Public Source Registry
 seo_title: "Star Atlas Public Source Registry"
 seo_description: "A governed registry of official and community Star Atlas source families, preserved coverage, authority limits, collection states, and archival priorities."
 knowledge_status: QUALIFIED
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 5
 page_risk_class: R2
@@ -18,7 +18,7 @@ research_gaps:
 review_after: 2027-01-20
 entry_type: source-registry
 status: active
-updated: 2026-07-17
+updated: 2026-07-23
 publication_status: public
 ---
 
@@ -46,7 +46,7 @@ For every preserved item, researchers should distinguish publication date from c
 | SRC-OFF-EPIC-FAQ | https://store.epicgames.com/p/star-atlas-faq-fb116c | UE5 product description, iterative release strategy and historical feature snapshot | Official storefront content but may contain stale roadmap language |
 | SRC-OFF-DISCORD | Official Star Atlas Discord announcements | Dated operational announcements, launches, delays, governance notices, and corrections | [Qualified corpus profile](../../media/Official-Discord-Announcements-Profile.md); exported authors are inferred and attachments are incomplete |
 | SRC-OFF-X | https://x.com/staratlas | Dated official social statements and source discovery | [Qualified corpus profile](../../media/Official-X-Account-Profile.md); originals and retweets have different authority |
-| SRC-OFF-MEDIUM | https://medium.com/star-atlas | Official long-form publication surface | [Qualified corpus profile](../../media/Star-Atlas-Medium-Publication-Profile.md); 173 confirmed articles fully ingested, while publication discovery remains incomplete |
+| SRC-OFF-MEDIUM | https://medium.com/star-atlas | Official long-form publication surface | [Qualified corpus profile](../../media/Star-Atlas-Medium-Publication-Profile.md); 181 confirmed articles fully ingested and all 216 known review candidates resolved, while publication discovery remains incomplete |
 
 ## Governance and economy
 

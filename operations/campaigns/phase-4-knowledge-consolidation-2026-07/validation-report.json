@@ -1,0 +1,49 @@
+{
+  "campaign_id": "phase-4-knowledge-consolidation-2026-07",
+  "as_of": "2026-07-23",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "campaign_json_parse",
+      "status": "PASS"
+    },
+    {
+      "check": "knowledge_inventory",
+      "status": "PASS"
+    },
+    {
+      "check": "dossier_portfolio",
+      "status": "PASS"
+    },
+    {
+      "check": "evidence_packets",
+      "status": "PASS"
+    },
+    {
+      "check": "updated_knowledge_metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "evidence_qualified_wording",
+      "status": "PASS"
+    },
+    {
+      "check": "publication_gate_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "protected_paths",
+      "status": "PASS"
+    }
+  ],
+  "metrics": {
+    "knowledge_files_inventoried": 81,
+    "dossiers_selected": 10,
+    "evidence_packets_completed": 3,
+    "knowledge_pages_updated": 10,
+    "protected_path_changes": 0
+  },
+  "failures": [],
+  "human_adjudication_required": false,
+  "next_gate": "Complete the seven remaining dossier evidence packets"
+}

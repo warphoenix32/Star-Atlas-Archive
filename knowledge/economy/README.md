@@ -3,7 +3,7 @@ title: "Star Atlas Economy"
 seo_title: "Star Atlas Economy: Tokens, Treasury, Reports, and Governance"
 seo_description: "A reader's guide to the Star Atlas economy, including ATLAS, POLIS, voting power, treasury accounts, funding authorizations, and official economic reports."
 knowledge_status: QUALIFIED
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 4
 page_risk_class: R2
@@ -49,7 +49,13 @@ No earlier state automatically proves a later one. This is especially important 
 
 ## Official economic research
 
-The [Economic Report Catalog](Economic-Report-Catalog.md) inventories the official quarterly series beginning in 2022 Q2. These reports are valuable historical sources for metrics, methods, policy discussion, and the publisher's interpretation of economic activity. They are not warranties of accuracy, and figures from different quarters should not be joined into a time series until their definitions and methodology have been reconciled.
+The [Economic Report Catalog](Economic-Report-Catalog.md) inventories the
+official quarterly series beginning in 2022 Q2. The Archive preserves 17
+quarterly PDFs through 2026 Q2 plus one economics paper. These reports are
+valuable historical sources for metrics, methods, policy discussion, and the
+publisher's interpretation of economic activity. They are not warranties of
+accuracy, and figures from different quarters should not be joined into a time
+series until their definitions and methodology have been reconciled.
 
 The catalog also records incomplete work: PDF-level preservation, appendix review, duplicate resolution, metric definitions, and methodology changes. That distinction lets readers use the reports now without mistaking the presence of a publication for a completed economic dataset.
 

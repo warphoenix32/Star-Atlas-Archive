@@ -1,0 +1,47 @@
+{
+  "packet_id": "PACKET-ECONOMIC-REPORT-CORPUS-2026-07",
+  "dossier_ids": [
+    "DOSSIER-ECONOMIC-HISTORY"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_OFFICIAL_FIRST_PARTY_DOCUMENT_CORPUS",
+  "source_paths": [
+    "archive/manifests/official-economic-reports-pdf-ingestion-2026-07.json",
+    "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json",
+    "archive/source-records/economic-reports/official/"
+  ],
+  "material_claims": [
+    {
+      "claim": "The campaign preserves 17 quarterly report PDFs from 2022 Q2 through 2026 Q2 plus one economics paper.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "The 18 unique documents contain 294 pages and 390,574 extracted text characters.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "The preserved measurements are independently accurate and methodologically continuous.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "Preservation and text extraction do not independently verify measurements or reconcile methodology."
+    },
+    {
+      "claim": "A Q4 2026 report was published.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The mislabeled operator upload was explicitly excluded."
+    }
+  ],
+  "knowledge_paths_updated": [
+    "knowledge/economy/Economic-Report-Catalog.md",
+    "knowledge/economy/README.md",
+    "knowledge/research/Research-Backlog.md"
+  ],
+  "known_limitations": [
+    "No longitudinal metric semantic layer has been promoted.",
+    "Repeated archive labels are not treated as distinct documents without distinct evidence."
+  ],
+  "review_required": false
+}
