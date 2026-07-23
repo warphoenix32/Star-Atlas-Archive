@@ -1,0 +1,65 @@
+{
+  "campaign_id": "phase-3-publication-contract-2026-07",
+  "as_of": "2026-07-23",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "schema_json",
+      "status": "PASS"
+    },
+    {
+      "check": "example_json",
+      "status": "PASS"
+    },
+    {
+      "check": "manifest_json",
+      "status": "PASS"
+    },
+    {
+      "check": "schema_identity",
+      "status": "PASS"
+    },
+    {
+      "check": "checked_in_manifest",
+      "status": "PASS"
+    },
+    {
+      "check": "schema_example",
+      "status": "PASS"
+    },
+    {
+      "check": "publication_contract",
+      "status": "PASS"
+    },
+    {
+      "check": "placeholder_pointers",
+      "status": "PASS"
+    },
+    {
+      "check": "freshness_queue_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "atlas_brew_gap_reconciled",
+      "status": "PASS"
+    },
+    {
+      "check": "roadmap_gate",
+      "status": "PASS"
+    },
+    {
+      "check": "protected_paths",
+      "status": "PASS"
+    }
+  ],
+  "metrics": {
+    "manifest_entries": 0,
+    "freshness_candidates_preserved": 10,
+    "freshness_queue_blob_sha256": "c0b81a8f4564bd2b3f9e31b5ae87af8f16a86d0119338730d4c365837d4ac872",
+    "placeholder_readmes_condensed": 4,
+    "protected_path_changes": 0
+  },
+  "failures": [],
+  "human_adjudication_required": false,
+  "next_gate": "Phase 4 knowledge consolidation"
+}

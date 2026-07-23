@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-22",
+  "as_of": "2026-07-23",
   "items": [
     {
       "gap_id": "GAP-RAW-WRITTEN",
@@ -56,11 +56,11 @@
       "gap_id": "GAP-ATLAS-BREW-METADATA",
       "priority": "P1",
       "title": "Atlas Brew URLs and dates",
-      "required_artifact_or_action": "Provide or discover an authoritative 123-episode mapping of video ID, URL, and publication date; speaker mapping remains optional.",
+      "required_artifact_or_action": "Retain the completed 124-item public-playlist snapshot, the 123 high-confidence transcript mappings, and the separately recovered Atlas Brew #7 record; refresh only through a separately scoped campaign.",
       "owner": "Research and Gap Analyst",
-      "status": "DEFERRED_MISSING_OPERATOR_ARTIFACT",
+      "status": "CLOSED_BY_PUBLIC_PLAYLIST_RECONCILIATION",
       "tracking_issue": 31,
-      "last_verified": "2026-07-22"
+      "last_verified": "2026-07-23"
     },
     {
       "gap_id": "GAP-OFFICIAL-TRANSCRIPT-METADATA",

@@ -1,8 +1,8 @@
 {
   "program_id": "star-atlas-library-roadmap",
-  "as_of": "2026-07-22",
-  "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
-  "current_phase": 3,
+  "as_of": "2026-07-23",
+  "baseline_sha": "d99b03e5e77944445fac38987b52f0108490dc6f",
+  "current_phase": 4,
   "phases": [
     {
       "phase": 1,
@@ -21,18 +21,14 @@
     {
       "phase": 3,
       "name": "Targeted architecture refinement",
-      "status": "READY_TO_START",
-      "percent_complete": 0,
-      "remaining_gate_items": [
-        "Define the publication manifest without rewriting evidence",
-        "Implement only architecture changes justified by validated repository gaps",
-        "Preserve the ten freshness candidates as an acquisition queue until a separately scoped campaign runs"
-      ]
+      "status": "COMPLETE",
+      "percent_complete": 100,
+      "remaining_gate_items": []
     },
     {
       "phase": 4,
       "name": "Knowledge consolidation",
-      "status": "NOT_STARTED",
+      "status": "READY_TO_START",
       "percent_complete": 0,
       "remaining_gate_items": [
         "Complete priority evidence packets",
@@ -76,6 +72,13 @@
     "operations/campaigns/legacy-written-raw-recovery-2026-07/campaign-summary.json",
     "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json",
     "operations/campaigns/phase-2-official-freshness-closeout-2026-07/campaign-summary.json"
+  ],
+  "phase_3_progress_basis": "The publication contract, deterministic manifest schema, compatibility pointers, protected-path validator, and Phase 4 dependency boundary are complete. No public article or site change was made.",
+  "phase_3_closeout_evidence": [
+    "publication/PUBLICATION-CONTRACT.md",
+    "publication/manifests/publication-manifest.json",
+    "operations/schema/PUBLICATION-MANIFEST-v1.schema.json",
+    "operations/campaigns/phase-3-publication-contract-2026-07/campaign-summary.json"
   ],
   "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
   "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",

@@ -4,8 +4,9 @@ Recorded campaign states are normalized here without rewriting historical campai
 
 | Campaign | Current assessment | Evidence | Note |
 | --- | --- | --- | --- |
-| atlas-brew-combined | READY_FOR_REVIEW | `operations/campaigns/atlas-brew-combined/campaign-summary.json` | Promoted evidence exists; campaign state is stale. |
+| atlas-brew-combined | PRESERVED_WITH_PUBLIC_PLAYLIST_RECONCILIATION | `operations/campaigns/atlas-brew-combined/campaign-summary.json` | The preserved 123-source combined transcript now has a high-confidence public-playlist mapping; Atlas Brew #7 is preserved separately. |
 | atlas-brew-significance-review-2026-07 | READY_FOR_REVIEW | `operations/campaigns/atlas-brew-significance-review-2026-07/campaign-summary.json` | Selective candidates remain review inputs. |
+| atlas-brew-url-reconciliation-2026-07 | COMPLETE | `operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json` | All 123 combined transcript records map at high confidence to a 124-item public playlist; Atlas Brew #7 was recovered separately. |
 | canonical-pip-governance-ledger-2026-07 | DRAFT_FOR_REVIEW | `operations/campaigns/canonical-pip-governance-ledger-2026-07/campaign-summary.json` | Eleven conflicts and seven research items remain documented. |
 | community-wallet-attribution-ingestion-2026-07 | COMPLETE_WITH_RETAINED_RESEARCH_GAPS | `operations/campaigns/community-wallet-attribution-ingestion-2026-07/campaign-summary.json` | All 84 attribution records remain unverified. |
 | council-pip-tracker-ingestion | GENERATED | `operations/campaigns/council-pip-tracker-ingestion/campaign-summary.json` | Council reporting is not independent implementation verification. |
@@ -21,6 +22,7 @@ Recorded campaign states are normalized here without rewriting historical campai
 | lore-repository-ingestion-2026-07 | ARCHIVED_NORMALIZED_CURATOR_ADJUDICATED | `operations/campaigns/lore-repository-ingestion-2026-07/campaign-summary.json` | Upstream link and mirror gaps retained. |
 | official-economic-reports-pdf-ingestion-2026-07 | INGESTION_COMPLETE | `operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json` | Eighteen operator-provided official PDFs were ingested; the mislabeled Q4 2026 upload was excluded. |
 | phase-2-official-freshness-closeout-2026-07 | PHASE_2_GATE_COMPLETE | `operations/campaigns/phase-2-official-freshness-closeout-2026-07/campaign-summary.json` | Seven official surfaces were checked; ten unmatched candidates were queued without ingestion. |
+| phase-3-publication-contract-2026-07 | PHASE_3_GATE_COMPLETE | `operations/campaigns/phase-3-publication-contract-2026-07/campaign-summary.json` | The publication manifest and editorial boundary are validated; no public articles or site changes were made. |
 | pip-33-onchain-vote-reconciliation-2026-07 | PASS_WITH_RAW_EXPORT_GAP | `operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json` | No payment, implementation, or signature replay claim. |
 | social-governance-semantic-enrichment | PASS | `operations/campaigns/social-governance-semantic-enrichment/validation-report.json` | Stale top-level FAIL corrected in this baseline. |
 | star-atlas-medium-ingestion-2026-07 | CONFIRMED_ARTICLE_INGESTION_COMPLETE_PUBLICATION_DISCOVERY_INCOMPLETE | `archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json` | All 181 confirmed articles are ingested; all 216 review candidates have terminal dispositions, while external discovery remains incomplete. |

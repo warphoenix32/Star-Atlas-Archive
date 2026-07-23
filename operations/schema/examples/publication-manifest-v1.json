@@ -1,0 +1,74 @@
+{
+  "manifest_version": "1.0",
+  "manifest_id": "publication-manifest-example",
+  "as_of": "2026-07-23",
+  "lifecycle_phase": "PORTFOLIO_DEVELOPMENT",
+  "public_base_path": "/library/",
+  "source_of_truth": {
+    "archive_root": "archive/",
+    "knowledge_root": "knowledge/",
+    "publication_root": "publication/"
+  },
+  "build_policy": {
+    "include_statuses": [
+      "PUBLISHED"
+    ],
+    "exclude_internal_fields": [
+      "editorial",
+      "evidence",
+      "provenance",
+      "revision_history"
+    ],
+    "taxonomy_presentation": "HIDDEN",
+    "ordering": "publication_id"
+  },
+  "entries": [
+    {
+      "publication_id": "PUB-SAGE-PRODUCT-HISTORY",
+      "slug": "sage-product-family-history",
+      "title": "The SAGE Product Family",
+      "type": "DOSSIER",
+      "status": "PLANNED",
+      "audience": "Readers seeking an evidence-qualified history of the SAGE product family",
+      "content_path": null,
+      "source_knowledge_paths": [
+        "knowledge/gameplay/SAGE.md"
+      ],
+      "as_of": null,
+      "editorial": {
+        "human_first": false,
+        "narrative_review": false,
+        "seo_review": false,
+        "comprehensiveness_review": false,
+        "approval_record": null
+      },
+      "evidence": {
+        "material_claims_reviewed": false,
+        "references_resolve": false,
+        "conflicts_disclosed": false,
+        "limitations_disclosed": false
+      },
+      "presentation": {
+        "summary": "",
+        "description": "",
+        "primary_topic": "Products",
+        "related_topics": [
+          "Gameplay",
+          "Technology"
+        ]
+      },
+      "provenance": {
+        "content_sha256": null,
+        "manifested_at": "2026-07-23",
+        "manifested_by": "Example only"
+      },
+      "visibility": {
+        "taxonomy": "HIDDEN",
+        "source_ids": "EVIDENCE_PANEL",
+        "workflow_metadata": "HIDDEN"
+      },
+      "related_publication_ids": [],
+      "revision_history": []
+    }
+  ]
+}

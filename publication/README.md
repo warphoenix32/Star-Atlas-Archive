@@ -1,6 +1,13 @@
 # Publication Workspace
 
-This workspace is for reviewed outputs derived from the archive and canonical knowledge. Publication artifacts must retain citations and must not replace their underlying evidence.
+This workspace is the reader-facing editorial layer derived from reviewed
+Knowledge and traceable Archive evidence. Publication artifacts retain
+citations and never replace their upstream sources.
+
+The governing rules are consolidated in the
+[`Star Atlas Library Publication Contract`](PUBLICATION-CONTRACT.md). Internal
+publication state is recorded in
+[`manifests/publication-manifest.json`](manifests/publication-manifest.json).
 
 - [`site/`](site/README.md) — the portable Star Atlas Library front end
 - [`articles/`](articles/README.md)
@@ -8,4 +15,6 @@ This workspace is for reviewed outputs derived from the archive and canonical kn
 - [`reports/`](reports/README.md)
 - [`datasets/`](datasets/README.md)
 
-No publication content was invented or migrated during Wave 1.5.
+The Phase 3 contract does not create public articles or change the existing
+GitHub Pages build. Phase 5 will populate the initial publication portfolio
+after Knowledge consolidation.

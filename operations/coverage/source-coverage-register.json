@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-22",
-  "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
+  "as_of": "2026-07-23",
+  "baseline_sha": "d99b03e5e77944445fac38987b52f0108490dc6f",
   "records": [
     {
       "coverage_id": "COV-AEPHIA-WRITTEN",
@@ -312,35 +312,37 @@
       "medium": "video transcripts",
       "authority": "COMMUNITY_BROADCAST",
       "counts": {
-        "raw_files": 1,
-        "normalized_records": 123,
-        "source_records": 123,
+        "raw_files": 2,
+        "normalized_records": 124,
+        "source_records": 124,
         "semantic_records": 4937,
-        "ingestion_package_records": 123
+        "ingestion_package_records": 124
       },
-      "first_supported_date": null,
-      "last_supported_date": null,
+      "first_supported_date": "2022-03-23",
+      "last_supported_date": "2026-03-19",
       "coverage_statuses": [
         "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
-        "MISSING_REQUIRED_ARTIFACT",
-        "MANUAL_REVIEW_PENDING"
+        "PUBLIC_PLAYLIST_RECONCILED",
+        "QUALIFIED_MACHINE_TRANSCRIPT_RECOVERY"
       ],
-      "completeness_basis": "All 123 sources in the supplied combined transcript were preserved and segmented.",
+      "completeness_basis": "All 123 sources in the supplied combined transcript map at high confidence to the 124-item public playlist; Atlas Brew #7 was recovered separately as a qualified machine transcript.",
       "limitations": [
-        "Original URLs and publication dates are absent for all 123 sources.",
+        "The public playlist snapshot does not prove channel-wide completeness or preserve private, deleted, or region-restricted entries.",
+        "Atlas Brew #7 uses medium-confidence automatic speech recognition and has not received line-by-line human correction.",
         "Speaker identity is normally UNKNOWN under the approved significance policy."
       ],
       "evidence_paths": [
         "operations/campaigns/atlas-brew-combined/campaign-summary.json",
         "operations/campaigns/atlas-brew-significance-review-2026-07/campaign-summary.json",
+        "operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json",
+        "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json",
+        "archive/source-records/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.md",
         "archive/semantic/atlas-brew/"
       ],
-      "gap_ids": [
-        "GAP-ATLAS-BREW-METADATA"
-      ],
+      "gap_ids": [],
       "refresh_class": "MEDIUM_FREQUENCY",
-      "last_verified": "2026-07-22",
-      "next_review_date": "2026-08-21"
+      "last_verified": "2026-07-23",
+      "next_review_date": "2026-08-22"
     },
     {
       "coverage_id": "COV-HNN-TRANSCRIPTS",

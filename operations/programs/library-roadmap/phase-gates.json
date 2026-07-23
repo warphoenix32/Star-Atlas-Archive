@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-22",
+  "as_of": "2026-07-23",
   "phases": [
     {
       "phase": 1,
@@ -19,18 +19,14 @@
     {
       "phase": 3,
       "name": "Targeted architecture refinement",
-      "status": "READY_TO_START",
-      "percent_complete": 0,
-      "remaining_gate_items": [
-        "Define the publication manifest without rewriting evidence",
-        "Implement only architecture changes justified by validated repository gaps",
-        "Preserve the ten freshness candidates as an acquisition queue until a separately scoped campaign runs"
-      ]
+      "status": "COMPLETE",
+      "percent_complete": 100,
+      "remaining_gate_items": []
     },
     {
       "phase": 4,
       "name": "Knowledge consolidation",
-      "status": "NOT_STARTED",
+      "status": "READY_TO_START",
       "percent_complete": 0,
       "remaining_gate_items": [
         "Complete priority evidence packets",

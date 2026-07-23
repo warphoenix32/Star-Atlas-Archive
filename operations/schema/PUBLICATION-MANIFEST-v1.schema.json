@@ -1,0 +1,354 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://star-atlas-archive.example/schemas/publication-manifest-v1.schema.json",
+  "title": "Star Atlas Archive Publication Manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_version",
+    "manifest_id",
+    "as_of",
+    "lifecycle_phase",
+    "public_base_path",
+    "source_of_truth",
+    "build_policy",
+    "entries"
+  ],
+  "properties": {
+    "manifest_version": {
+      "const": "1.0"
+    },
+    "manifest_id": {
+      "type": "string",
+      "pattern": "^publication-manifest-[a-z0-9-]+$"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "lifecycle_phase": {
+      "enum": [
+        "CONTRACT_ONLY",
+        "PORTFOLIO_DEVELOPMENT",
+        "PUBLICATION_ACTIVE"
+      ]
+    },
+    "public_base_path": {
+      "type": "string",
+      "pattern": "^/.+/$"
+    },
+    "source_of_truth": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "archive_root",
+        "knowledge_root",
+        "publication_root"
+      ],
+      "properties": {
+        "archive_root": {
+          "const": "archive/"
+        },
+        "knowledge_root": {
+          "const": "knowledge/"
+        },
+        "publication_root": {
+          "const": "publication/"
+        }
+      }
+    },
+    "build_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "include_statuses",
+        "exclude_internal_fields",
+        "taxonomy_presentation",
+        "ordering"
+      ],
+      "properties": {
+        "include_statuses": {
+          "type": "array",
+          "const": [
+            "PUBLISHED"
+          ]
+        },
+        "exclude_internal_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "taxonomy_presentation": {
+          "enum": [
+            "HIDDEN",
+            "CONSOLIDATED"
+          ]
+        },
+        "ordering": {
+          "const": "publication_id"
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  },
+  "$defs": {
+    "entry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "publication_id",
+        "slug",
+        "title",
+        "type",
+        "status",
+        "audience",
+        "content_path",
+        "source_knowledge_paths",
+        "as_of",
+        "editorial",
+        "evidence",
+        "presentation",
+        "provenance",
+        "visibility",
+        "related_publication_ids",
+        "revision_history"
+      ],
+      "properties": {
+        "publication_id": {
+          "type": "string",
+          "pattern": "^PUB-[A-Z0-9-]+$"
+        },
+        "slug": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "enum": [
+            "ARTICLE",
+            "BRIEF",
+            "DATASET_GUIDE",
+            "DOSSIER",
+            "REPORT",
+            "TIMELINE"
+          ]
+        },
+        "status": {
+          "enum": [
+            "PLANNED",
+            "DRAFT",
+            "IN_REVIEW",
+            "APPROVED",
+            "PUBLISHED",
+            "WITHDRAWN",
+            "ARCHIVED"
+          ]
+        },
+        "audience": {
+          "type": "string",
+          "minLength": 1
+        },
+        "content_path": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_knowledge_paths": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^knowledge/"
+          },
+          "uniqueItems": true
+        },
+        "as_of": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "editorial": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "human_first",
+            "narrative_review",
+            "seo_review",
+            "comprehensiveness_review",
+            "approval_record"
+          ],
+          "properties": {
+            "human_first": {
+              "type": "boolean"
+            },
+            "narrative_review": {
+              "type": "boolean"
+            },
+            "seo_review": {
+              "type": "boolean"
+            },
+            "comprehensiveness_review": {
+              "type": "boolean"
+            },
+            "approval_record": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "evidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "material_claims_reviewed",
+            "references_resolve",
+            "conflicts_disclosed",
+            "limitations_disclosed"
+          ],
+          "properties": {
+            "material_claims_reviewed": {
+              "type": "boolean"
+            },
+            "references_resolve": {
+              "type": "boolean"
+            },
+            "conflicts_disclosed": {
+              "type": "boolean"
+            },
+            "limitations_disclosed": {
+              "type": "boolean"
+            }
+          }
+        },
+        "presentation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "summary",
+            "description",
+            "primary_topic",
+            "related_topics"
+          ],
+          "properties": {
+            "summary": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "primary_topic": {
+              "type": "string"
+            },
+            "related_topics": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "uniqueItems": true
+            }
+          }
+        },
+        "provenance": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "content_sha256",
+            "manifested_at",
+            "manifested_by"
+          ],
+          "properties": {
+            "content_sha256": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[a-f0-9]{64}$"
+            },
+            "manifested_at": {
+              "type": "string",
+              "format": "date"
+            },
+            "manifested_by": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        "visibility": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "taxonomy",
+            "source_ids",
+            "workflow_metadata"
+          ],
+          "properties": {
+            "taxonomy": {
+              "enum": [
+                "HIDDEN",
+                "CONSOLIDATED"
+              ]
+            },
+            "source_ids": {
+              "enum": [
+                "EVIDENCE_PANEL",
+                "HIDDEN"
+              ]
+            },
+            "workflow_metadata": {
+              "const": "HIDDEN"
+            }
+          }
+        },
+        "related_publication_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^PUB-[A-Z0-9-]+$"
+          },
+          "uniqueItems": true
+        },
+        "revision_history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "date",
+              "change",
+              "content_sha256"
+            ],
+            "properties": {
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "change": {
+                "type": "string",
+                "minLength": 1
+              },
+              "content_sha256": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

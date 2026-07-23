@@ -1,18 +1,24 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-22",
+  "as_of": "2026-07-23",
   "campaigns": [
     {
       "campaign_id": "atlas-brew-combined",
-      "status": "READY_FOR_REVIEW",
+      "status": "PRESERVED_WITH_PUBLIC_PLAYLIST_RECONCILIATION",
       "status_evidence": "operations/campaigns/atlas-brew-combined/campaign-summary.json",
-      "note": "Promoted evidence exists; campaign state is stale."
+      "note": "The preserved 123-source combined transcript now has a high-confidence public-playlist mapping; Atlas Brew #7 is preserved separately."
     },
     {
       "campaign_id": "atlas-brew-significance-review-2026-07",
       "status": "READY_FOR_REVIEW",
       "status_evidence": "operations/campaigns/atlas-brew-significance-review-2026-07/campaign-summary.json",
       "note": "Selective candidates remain review inputs."
+    },
+    {
+      "campaign_id": "atlas-brew-url-reconciliation-2026-07",
+      "status": "COMPLETE",
+      "status_evidence": "operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json",
+      "note": "All 123 combined transcript records map at high confidence to a 124-item public playlist; Atlas Brew #7 was recovered separately."
     },
     {
       "campaign_id": "canonical-pip-governance-ledger-2026-07",
@@ -103,6 +109,12 @@
       "status": "PHASE_2_GATE_COMPLETE",
       "status_evidence": "operations/campaigns/phase-2-official-freshness-closeout-2026-07/campaign-summary.json",
       "note": "Seven official surfaces were checked; ten unmatched candidates were queued without ingestion."
+    },
+    {
+      "campaign_id": "phase-3-publication-contract-2026-07",
+      "status": "PHASE_3_GATE_COMPLETE",
+      "status_evidence": "operations/campaigns/phase-3-publication-contract-2026-07/campaign-summary.json",
+      "note": "The publication manifest and editorial boundary are validated; no public articles or site changes were made."
     },
     {
       "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",

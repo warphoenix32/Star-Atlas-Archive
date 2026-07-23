@@ -1,0 +1,36 @@
+{
+  "campaign_id": "phase-3-publication-contract-2026-07",
+  "as_of": "2026-07-23",
+  "status": "PHASE_3_GATE_COMPLETE",
+  "objective": "Define the reviewed, deterministic handoff from canonical knowledge into the public Star Atlas Library.",
+  "deliverables": {
+    "publication_contract": "publication/PUBLICATION-CONTRACT.md",
+    "publication_manifest": "publication/manifests/publication-manifest.json",
+    "manifest_schema": "operations/schema/PUBLICATION-MANIFEST-v1.schema.json",
+    "manifest_example": "operations/schema/examples/publication-manifest-v1.json",
+    "validation_report": "operations/campaigns/phase-3-publication-contract-2026-07/validation-report.json"
+  },
+  "metrics": {
+    "public_articles_created": 0,
+    "manifest_entries": 0,
+    "placeholder_readmes_condensed": 4,
+    "freshness_candidates_preserved": 10,
+    "atlas_brew_combined_sources_reconciled": 123,
+    "atlas_brew_public_playlist_items": 124,
+    "atlas_brew_separate_recoveries": 1
+  },
+  "boundaries": {
+    "archive_evidence_rewritten": false,
+    "knowledge_pages_modified": false,
+    "graph_facts_modified": false,
+    "publication_site_modified": false,
+    "freshness_candidates_ingested": false
+  },
+  "cleanup": {
+    "files_deleted": 0,
+    "compatibility_pointers_retained": 4,
+    "cleanup_item_closed": "CLN-006"
+  },
+  "human_adjudication_required": false,
+  "next_gate": "Phase 4 knowledge consolidation"
+}

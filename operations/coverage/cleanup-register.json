@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-22",
+  "as_of": "2026-07-23",
   "immediate_safe_repository_deletions": [],
   "items": [
     {
@@ -54,15 +54,15 @@
     },
     {
       "cleanup_id": "CLN-006",
-      "classification": "CONDENSE_DURING_PUBLICATION_REWRITE",
+      "classification": "CONDENSED_WITH_COMPATIBILITY_POINTERS",
       "paths": [
         "publication/articles/README.md",
         "publication/briefs/README.md",
         "publication/datasets/README.md",
         "publication/reports/README.md"
       ],
-      "finding": "Four placeholder files can become one publication contract when the new publication layer is implemented.",
-      "action": "Retain during the current GitHub Pages transition."
+      "finding": "One publication contract now governs all four formats; the historical directory READMEs are retained as compatibility pointers.",
+      "action": "Completed without deletion. Retain the pointer paths until a separately reviewed site migration proves they are no longer referenced."
     },
     {
       "cleanup_id": "CLN-007",

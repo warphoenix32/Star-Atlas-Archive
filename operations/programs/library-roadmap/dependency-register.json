@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-22",
+  "as_of": "2026-07-23",
   "dependencies": [
     {
       "dependency_id": "DEP-001",
@@ -13,8 +13,8 @@
       "dependency_id": "DEP-002",
       "from": "Phase 5",
       "to": "Phase 3",
-      "status": "PENDING",
-      "reason": "Publication requires stable disposition and manifest contracts."
+      "status": "SATISFIED",
+      "reason": "The publication boundary and manifest contract are stable; the Phase 5 portfolio remains dependent on Phase 4 knowledge consolidation."
     },
     {
       "dependency_id": "DEP-003",
@@ -36,6 +36,20 @@
       "to": "Phase 2",
       "status": "SATISFIED",
       "reason": "Phase 2 is complete. Artifact-dependent Discord and transcript gaps remain explicit, non-blocking backlog items."
+    },
+    {
+      "dependency_id": "DEP-006",
+      "from": "Phase 4",
+      "to": "Phase 3",
+      "status": "SATISFIED",
+      "reason": "Phase 3 closed with a validated publication contract and no evidence or site rewrite."
+    },
+    {
+      "dependency_id": "DEP-007",
+      "from": "Phase 5",
+      "to": "Phase 4",
+      "status": "PENDING",
+      "reason": "Publication drafting requires reviewed priority evidence packets and historically valuable dossiers from knowledge consolidation."
     }
   ]
 }

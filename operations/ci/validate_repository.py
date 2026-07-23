@@ -176,13 +176,22 @@ def validate_simplified_promotion_reports() -> int:
 
 
 def validate_forbidden_paths(changes: list[str]) -> str:
+    publication_contract_campaign = any(path.startswith((
+        "publication/manifests/",
+        "operations/campaigns/phase-3-publication-contract-2026-07/",
+        "operations/tests/publication_contract/",
+    )) or path in {
+        "publication/PUBLICATION-CONTRACT.md",
+        "operations/schema/PUBLICATION-MANIFEST-v1.schema.json",
+        "operations/schema/examples/publication-manifest-v1.json",
+    } for path in changes)
     legacy_written_raw_recovery = any(path.startswith((
         "archive/raw/legacy-written-recovery/",
         "archive/provenance/legacy-written-recovery/",
         "operations/campaigns/legacy-written-raw-recovery-2026-07/",
         "operations/tests/legacy_written_raw_recovery/",
     )) or path == "archive/manifests/legacy-written-raw-recovery-2026-07.json" for path in changes)
-    phase_one_inventory = not legacy_written_raw_recovery and any(path.startswith((
+    phase_one_inventory = not (legacy_written_raw_recovery or publication_contract_campaign) and any(path.startswith((
         "operations/coverage/",
         "operations/programs/library-roadmap/",
     )) for path in changes)
@@ -256,7 +265,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.md",
     } for path in changes)
     discord_campaign = any(path.startswith(("operations/campaigns/discord-community-indexing-001/", "operations/tests/discord_community_indexing/")) for path in changes)
-    library_frontend = any(path.startswith(("publication/site/", "operations/tests/library_frontend/")) or path == "publication/README.md" for path in changes)
+    library_frontend = not publication_contract_campaign and any(path.startswith(("publication/site/", "operations/tests/library_frontend/")) or path == "publication/README.md" for path in changes)
     lore_campaign = any(path.startswith((
         "archive/raw/lore-repository/",
         "archive/provenance/lore-repository/",
@@ -281,10 +290,35 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = 1 if legacy_written_raw_recovery else sum((phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = 1 if legacy_written_raw_recovery else sum((publication_contract_campaign, phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
-    if legacy_written_raw_recovery:
+    if publication_contract_campaign:
+        allowed = common + (
+            "publication/PUBLICATION-CONTRACT.md",
+            "publication/README.md",
+            "publication/articles/README.md",
+            "publication/briefs/README.md",
+            "publication/datasets/README.md",
+            "publication/reports/README.md",
+            "publication/manifests/",
+            "operations/schema/README.md",
+            "operations/schema/PUBLICATION-MANIFEST-v1.schema.json",
+            "operations/schema/examples/publication-manifest-v1.json",
+            "operations/campaigns/phase-3-publication-contract-2026-07/",
+            "operations/tests/publication_contract/",
+            "operations/programs/library-roadmap/",
+            "operations/coverage/acquisition-backlog.json",
+            "operations/coverage/acquisition-backlog.md",
+            "operations/coverage/campaign-status-register.json",
+            "operations/coverage/campaign-status-register.md",
+            "operations/coverage/cleanup-register.json",
+            "operations/coverage/cleanup-register.md",
+            "operations/coverage/source-coverage-register.json",
+            "operations/coverage/source-coverage-register.md",
+        )
+        label = "phase-3-publication-contract-2026-07"
+    elif legacy_written_raw_recovery:
         allowed = common + (
             ".gitattributes",
             "archive/raw/legacy-written-recovery/",
@@ -724,6 +758,27 @@ def validate_pip_ledger_campaign() -> None:
         raise ValidationFailure("PIP ledger generated artifacts do not reconcile with committed files:\n" + diff.stdout)
 
 
+def validate_publication_contract_campaign(base_ref: str) -> None:
+    campaign = ROOT / "operations/campaigns/phase-3-publication-contract-2026-07"
+    command = [sys.executable, str(campaign / "validate_campaign.py"), base_ref]
+    exclusions = {"validate_campaign.py", "README.md"}
+    first = run_cycle(command, campaign, exclusions)
+    second = run_cycle(command, campaign, exclusions)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure(
+            "publication contract validation is not deterministic: " + ", ".join(differing)
+        )
+    run(
+        sys.executable,
+        "-m",
+        "unittest",
+        "discover",
+        "operations/tests/publication_contract",
+        check=True,
+    )
+
+
 def validate_library_frontend() -> None:
     site = ROOT / "publication/site"
     run("node", str(site / "scripts/build-search-index.mjs"), "--check", check=True)
@@ -944,7 +999,9 @@ def repository_mode(base_ref: str) -> None:
 def campaign_mode(base_ref: str) -> None:
     changes = changed_paths(base_ref)
     contract = validate_forbidden_paths(changes)
-    if contract == "legacy-written-raw-recovery-2026-07":
+    if contract == "phase-3-publication-contract-2026-07":
+        validate_publication_contract_campaign(base_ref)
+    elif contract == "legacy-written-raw-recovery-2026-07":
         validate_legacy_written_raw_recovery_campaign()
     elif contract == "phase-one-repository-baseline":
         validate_phase_one_inventory()

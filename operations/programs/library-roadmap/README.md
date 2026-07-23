@@ -4,8 +4,9 @@ This directory is the operational source of truth for the seven-phase Archive â†
 
 At every campaign closeout, the Lead Coordinator updates the program status and any affected coverage, campaign, dependency, backlog, and human-adjudication records. A campaign that does not affect a field records `NO_CHANGE`; it must not silently leave the roadmap stale.
 
-Phase 2 is closed. Phase 3 begins with a publication-manifest contract and
-targeted architecture changes; freshness candidates and artifact-dependent
-source gaps remain separate acquisition inputs.
+Phase 3 is closed. The publication-manifest contract is stable, the current
+GitHub Pages site is unchanged, and the ten freshness candidates remain a
+separate acquisition queue. Phase 4 may begin with priority evidence packets
+and historically valuable dossiers; it must not draft public articles yet.
 
 The detailed evidence baseline is maintained in [`../../coverage/`](../../coverage/).
