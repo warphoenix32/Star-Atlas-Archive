@@ -2,7 +2,7 @@
 
 ## Blocking decisions
 
-None. Phase 3 is closed and Phase 4 is ready to start.
+None. Phase 3 is closed and Phase 4 Gate 1 is in progress without a blocking adjudication.
 
 ## Closed decisions
 
@@ -11,6 +11,7 @@ None. Phase 3 is closed and Phase 4 is ready to start.
 - `REVIEW-PHASE2-FRESHNESS`: `CLOSED_QUEUE_CREATED`. Seven official surfaces were checked and ten unmatched candidates were queued without ingestion.
 - `REVIEW-PHASE3-PUBLICATION-CONTRACT`: `CLOSED_CONTRACT_VALIDATED`. The publication manifest and editorial boundary are stable; no public article or site change was made.
 - `REVIEW-ATLAS-BREW-METADATA`: `CLOSED_PUBLIC_PLAYLIST_RECONCILED`. The 123 combined transcript records map at high confidence to the 124-item public playlist; Atlas Brew #7 is preserved separately as qualified machine transcription.
+- `REVIEW-PHASE4-GATE1-EVIDENCE-DRIFT`: `CLOSED_EVIDENCE_RECONCILED`. Medium, Atlas Brew, and economic-report knowledge now reflects merged evidence while retaining completeness, event-date, speaker, and independent-verification limits.
 
 ## Deferred, non-blocking decisions
 

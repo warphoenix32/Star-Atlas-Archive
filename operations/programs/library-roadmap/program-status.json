@@ -28,11 +28,11 @@
     {
       "phase": 4,
       "name": "Knowledge consolidation",
-      "status": "READY_TO_START",
-      "percent_complete": 0,
+      "status": "IN_PROGRESS",
+      "percent_complete": 30,
       "remaining_gate_items": [
-        "Complete priority evidence packets",
-        "Select historically valuable dossiers"
+        "Complete evidence packets for the seven remaining selected dossiers",
+        "Consolidate the ten selected dossiers without drafting public articles"
       ]
     },
     {
@@ -79,6 +79,12 @@
     "publication/manifests/publication-manifest.json",
     "operations/schema/PUBLICATION-MANIFEST-v1.schema.json",
     "operations/campaigns/phase-3-publication-contract-2026-07/campaign-summary.json"
+  ],
+  "phase_4_progress_basis": "The 81-file knowledge corpus is inventoried, ten historically valuable dossiers are selected, three evidence packets are complete, and ten stale knowledge/index pages are reconciled to merged Medium, Atlas Brew, and economic-report evidence.",
+  "phase_4_progress_evidence": [
+    "operations/campaigns/phase-4-knowledge-consolidation-2026-07/corpus-inventory.json",
+    "operations/campaigns/phase-4-knowledge-consolidation-2026-07/dossier-portfolio.json",
+    "operations/campaigns/phase-4-knowledge-consolidation-2026-07/campaign-summary.json"
   ],
   "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
   "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",

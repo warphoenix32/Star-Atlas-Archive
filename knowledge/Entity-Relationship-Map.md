@@ -3,7 +3,7 @@ title: "Star Atlas Entity Relationship Map"
 seo_title: "Star Atlas Ecosystem Map — Institutions, Products, and Evidence"
 seo_description: "Understand how the Star Atlas DAO, Foundation, Council, ATMTA, products, economy, sources, and evidence layers relate."
 knowledge_status: QUALIFIED
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 4
 page_risk_class: R2
@@ -12,7 +12,7 @@ aliases:
   - "Star Atlas institutional map"
   - "Star Atlas knowledge ontology"
 first_seen: 2026-07-15
-last_reviewed: 2026-07-20
+last_reviewed: 2026-07-23
 source_priority:
   - A1
   - A2
@@ -120,7 +120,7 @@ The [Product Registry](gameplay/Product-Registry.md) is the canonical navigation
 | Reviewed transcripts | contextual explanation and timestamped institutional evidence; speaker identity is required only when authority or personal attribution materially affects the claim |
 | [Official Discord announcements](media/Official-Discord-Announcements-Profile.md) | qualified profile of the merged archive and semantic corpus; author inference and missing attachments remain visible limitations |
 | [Official X account](media/Official-X-Account-Profile.md) | official statements within the captured period; retweets retain secondary-source attribution |
-| [Official Medium publication](media/Star-Atlas-Medium-Publication-Profile.md) | 173 confirmed articles fully ingested; publication discovery remains incomplete and 51 unresolved candidates are explicitly deferred |
+| [Official Medium publication](media/Star-Atlas-Medium-Publication-Profile.md) | 181 confirmed articles fully ingested; all 216 known review candidates have terminal dispositions, while publication discovery remains incomplete |
 
 ## Navigation by question
 

@@ -1,0 +1,44 @@
+{
+  "packet_id": "PACKET-MEDIUM-CORPUS-PROFILE-2026-07",
+  "dossier_ids": [
+    "DOSSIER-OFFICIAL-COMMUNICATIONS"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_OFFICIAL_PUBLICATION_CORPUS",
+  "source_paths": [
+    "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
+    "operations/campaigns/star-atlas-medium-ingestion-2026-07/campaign-manifest.json",
+    "operations/campaigns/star-atlas-medium-ingestion-2026-07/manual-review-adjudication.json"
+  ],
+  "material_claims": [
+    {
+      "claim": "The frozen campaign contains 181 confirmed included articles and all 181 were retrieved and extracted.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "All 216 known review candidates have terminal dispositions and zero campaign items remain deferred.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Publication discovery is complete.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The campaign explicitly retains incomplete discovery as a limitation."
+    }
+  ],
+  "knowledge_paths_updated": [
+    "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+    "knowledge/media/Media-and-Creator-Index.md",
+    "knowledge/index/source-registry/Public-Source-Registry.md",
+    "knowledge/Entity-Relationship-Map.md",
+    "knowledge/timeline/Official-Communications-Chronology.md",
+    "knowledge/research/Research-Backlog.md"
+  ],
+  "known_limitations": [
+    "Deleted or unindexed articles may remain undiscovered.",
+    "Current live text may reflect edits after original publication."
+  ],
+  "review_required": false
+}

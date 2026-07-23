@@ -3,7 +3,7 @@ title: "Media and Creators"
 seo_title: "Star Atlas Media, Publications, Shows and Creator Archives"
 seo_description: "Navigate official communications, community publications, broadcasts, transcript archives, creators, source lineages, and preservation gaps across Star Atlas history."
 knowledge_status: CANONICAL
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
@@ -28,7 +28,7 @@ Star Atlas history lives across official announcements, long-form articles, comm
 
 ## Recurring discussion archives
 
-- [Atlas Brew History](Atlas-Brew-History.md) — 123 preserved transcript sources and a selective significance layer.
+- [Atlas Brew History](Atlas-Brew-History.md) — 124 reconciled public recordings, a 123-source selective semantic layer, and a qualified recovery of episode #7.
 - [Star Atlas Town Hall History](Star-Atlas-Town-Hall-History.md) — official format history and 14 preserved transcripts.
 - [VBTV / Star Atlas TV Recording Index](VBTV-Star-Atlas-TV-Recording-Index.md) — broadcaster identity and the unresolved recording inventory.
 

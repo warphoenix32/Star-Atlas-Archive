@@ -3,7 +3,7 @@ title: "Official Communications Chronology"
 seo_title: "Star Atlas Official Communications History"
 seo_description: "A history of Star Atlas official communication channels, their preserved coverage, authority boundaries, and major archival gaps."
 knowledge_status: QUALIFIED
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 5
 page_risk_class: R2
@@ -12,13 +12,16 @@ evidence_basis:
   - "operations/campaigns/discord-announcements-semantic-enrichment/campaign-summary.json"
   - "operations/campaigns/social-governance-semantic-enrichment/validation-report.json"
   - "archive/semantic/governance/pip-registry-semantic.json"
+  - "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json"
+  - "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json"
+  - "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json"
   - "archive/source-records/campaign-delta-official/SRC-OFF-2A930EF6763F8490.md"
   - "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D27B5214B5BAC6AA.json"
 known_limitations:
   - "No preserved source family is demonstrably complete across the lifetime of Star Atlas."
   - "Repeated official publication across surfaces is not independent corroboration of execution or outcome."
 research_gaps:
-  - "Complete article-level Medium review after its separate ingestion campaign is merged and approved."
+  - "Repeat publication-native Medium discovery beyond the frozen 181-article corpus."
   - "Recover deleted/edited posts, attachments, correction chains, and pre-2024 X history."
 review_after: 2027-01-17
 ---
@@ -35,9 +38,9 @@ Star Atlas has communicated through a newsroom, recurring newsletters, Discord, 
 | Official Discord announcements | 1,071 messages; 2021-03-16 through 2026-07-12 | Exact captured announcement text and timing | Export explicitly says collection incomplete; author grouping inferred; attachments absent. [Profile](../media/Official-Discord-Announcements-Profile.md) |
 | Official X account | 796 unique posts; 2024-11-05 through 2026-07-14 | Captured official-account publication and resharing | Partial-period export; 268 retweets are not first-party authorship; linked media absent. [Profile](../media/Official-X-Account-Profile.md) |
 | Governance portal | 33 numbered PIP captures | Proposal text, vote windows, mechanics, results | Portal status can be stale; passage does not establish implementation. [PIP Registry](../governance/PIP-Registry.md) |
-| Official Medium | Discovery references on current `main` | Identifying publication leads | Article-complete ingestion is not merged into this campaign; no article-level claims are promoted here. [Profile](../media/Star-Atlas-Medium-Publication-Profile.md) |
+| Official Medium | 181 confirmed articles; 2021-01-15 through 2025-10-10 | Complete text and provenance for the frozen confirmed set | All 216 known review candidates are resolved, but publication discovery remains incomplete. [Profile](../media/Star-Atlas-Medium-Publication-Profile.md) |
 | Town Hall | 14 preserved transcript sources | Source-level event content and research leads | Dates, URLs, and speakers largely unresolved. [History](../media/Star-Atlas-Town-Hall-History.md) |
-| Atlas Brew | 123 transcript sources | Long-form institutional discussion and timestamped research leads | Dates/URLs absent; numbering gaps and duplicates; speakers unknown. [History](../media/Atlas-Brew-History.md) |
+| Atlas Brew | 124 reconciled public recordings; 123-source semantic corpus plus qualified #7 ASR | Long-form institutional discussion, upload chronology, and timestamped research leads | Playlist completeness, live-event dates, and speakers remain unresolved. [History](../media/Atlas-Brew-History.md) |
 
 ## Chronological development
 
@@ -80,9 +83,14 @@ Campaign Delta includes technical and support updates through 2026-07-10. Discor
 
 ## Known conflicts and missing artifacts
 
-The older Official Newsroom Index lists 93 entries ending in 2023 and is narrower than Campaign Delta’s multi-surface corpus. Discord is explicitly incomplete; X starts late; Medium is not article-complete on `main`; Town Hall and Atlas Brew lack original URLs and speaker attribution. Deleted posts, edits, attachment binaries, revision histories, and systematic corrections remain incomplete.
-
-PR #19 contains a separate Medium ingestion campaign but is unmerged and therefore excluded from this knowledge campaign. After that evidence passes review and merges, the Medium profile and this chronology should be re-evaluated rather than manually copying draft evidence.
+The older Official Newsroom Index lists 93 entries ending in 2023 and is
+narrower than Campaign Delta’s multi-surface corpus. Discord is explicitly
+incomplete, X starts late, Medium discovery is not demonstrably complete, and
+Town Hall still lacks original URLs and speaker attribution. Atlas Brew
+recording URLs and upload dates are reconciled for the 124-item public playlist,
+but complete event history and speaker attribution remain unresolved. Deleted
+posts, edits, attachment binaries, revision histories, and systematic
+corrections remain incomplete.
 
 ## Review status
 

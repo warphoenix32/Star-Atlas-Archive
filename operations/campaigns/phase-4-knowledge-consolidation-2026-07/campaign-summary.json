@@ -1,0 +1,31 @@
+{
+  "campaign_id": "phase-4-knowledge-consolidation-2026-07",
+  "as_of": "2026-07-23",
+  "status": "GATE_1_COMPLETE_PHASE_4_IN_PROGRESS",
+  "baseline_sha": "c4f17a58a4fbcec33653fda80cfa62c86bd69612",
+  "knowledge_inventory": {
+    "files": 81,
+    "markdown": 80,
+    "json": 1
+  },
+  "dossiers_selected": 10,
+  "evidence_packets_completed": 3,
+  "knowledge_pages_updated": 10,
+  "drift_corrections": [
+    "Official Medium corpus counts and review disposition",
+    "Atlas Brew recording URL/date reconciliation and episode #7 recovery",
+    "Official economic-report PDF preservation status"
+  ],
+  "remaining_phase_4_gate": {
+    "evidence_packets": 7,
+    "action": "Complete packets and consolidate the selected dossiers before Phase 5 publication drafting."
+  },
+  "boundaries": {
+    "new_sources_ingested": false,
+    "archive_evidence_modified": false,
+    "graph_modified": false,
+    "publication_modified": false,
+    "public_articles_created": 0
+  },
+  "human_adjudication_required": false
+}

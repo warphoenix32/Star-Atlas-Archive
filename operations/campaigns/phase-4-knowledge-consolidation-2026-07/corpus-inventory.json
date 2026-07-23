@@ -1,0 +1,56 @@
+{
+  "campaign_id": "phase-4-knowledge-consolidation-2026-07",
+  "as_of": "2026-07-23",
+  "baseline_sha": "c4f17a58a4fbcec33653fda80cfa62c86bd69612",
+  "knowledge_files": {
+    "total": 81,
+    "markdown": 80,
+    "json": 1
+  },
+  "markdown_by_domain": {
+    "_root": 2,
+    "controversies": 1,
+    "economy": 7,
+    "events": 2,
+    "gameplay": 8,
+    "governance": 14,
+    "guilds": 2,
+    "index": 7,
+    "lore": 2,
+    "media": 13,
+    "organizations": 4,
+    "people": 3,
+    "research": 3,
+    "technology": 3,
+    "timeline": 9
+  },
+  "gate_1_drift_findings": [
+    {
+      "finding_id": "KDRIFT-MEDIUM-COUNTS",
+      "status": "CORRECTED",
+      "evidence": "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
+      "prior_state": "173 confirmed articles; 51 deferred leads",
+      "reviewed_state": "181 confirmed articles; 216 known review candidates terminally resolved; publication discovery remains incomplete"
+    },
+    {
+      "finding_id": "KDRIFT-ATLAS-BREW-METADATA",
+      "status": "CORRECTED",
+      "evidence": "operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json",
+      "prior_state": "123 transcript records described as lacking URLs and dates",
+      "reviewed_state": "123 high-confidence mappings within a 124-item public playlist; Atlas Brew #7 separately recovered; live-event dates and speakers remain unresolved"
+    },
+    {
+      "finding_id": "KDRIFT-ECONOMIC-PDFS",
+      "status": "CORRECTED",
+      "evidence": "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json",
+      "prior_state": "PDF acquisition described as open work",
+      "reviewed_state": "17 quarterly PDFs plus one economics paper preserved; metric-level longitudinal reconciliation remains open"
+    }
+  ],
+  "structural_findings": [
+    "The knowledge corpus is strongest in governance, product chronology, media/source profiles, and timelines.",
+    "Lore has only a domain guide and one canon registry despite a much larger normalized lore corpus; later expansion should create reader-oriented entity and setting histories without copying raw taxonomy records.",
+    "Several indexes are intentionally compact navigation pages and should not be judged by word count alone.",
+    "Publication candidates should synthesize related knowledge pages rather than expose every registry or source profile as a standalone reader destination."
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "packet_id": "PACKET-ATLAS-BREW-RECORDING-HISTORY-2026-07",
+  "dossier_ids": [
+    "DOSSIER-COMMUNITY-BROADCASTS",
+    "DOSSIER-OFFICIAL-COMMUNICATIONS"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "B1_REVIEWED_COMMUNITY_RECORDING_CORPUS_WITH_OFFICIAL_EVENT_CONTEXT",
+  "source_paths": [
+    "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json",
+    "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json",
+    "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json",
+    "operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json",
+    "archive/source-records/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.md",
+    "archive/semantic/atlas-brew/quality-report.json"
+  ],
+  "material_claims": [
+    {
+      "claim": "All 123 combined transcript records map at high confidence to distinct items in a 124-item public playlist.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Atlas Brew #7 is separately preserved as a medium-confidence machine transcript with 1,820 timestamped segments.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "The public playlist is a complete history of Atlas Brew.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "Private, deleted, region-restricted, or omitted recordings may not be visible."
+    },
+    {
+      "claim": "YouTube upload dates are the dates of the live discussions.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The reconciliation establishes upload metadata, not event occurrence time."
+    }
+  ],
+  "knowledge_paths_updated": [
+    "knowledge/media/Atlas-Brew-History.md",
+    "knowledge/media/README.md",
+    "knowledge/timeline/Official-Communications-Chronology.md",
+    "knowledge/research/Research-Backlog.md"
+  ],
+  "known_limitations": [
+    "Combined-corpus speakers remain UNKNOWN.",
+    "Atlas Brew #7 ASR has not received line-by-line human correction.",
+    "Event dates, hosts, guests, and original-platform lineage remain incomplete."
+  ],
+  "review_required": false
+}
