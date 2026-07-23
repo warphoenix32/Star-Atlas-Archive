@@ -1,16 +1,26 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-22",
   "items": [
     {
       "gap_id": "GAP-RAW-WRITTEN",
       "priority": "P0",
       "title": "Legacy Alpha-Delta immutable raw captures",
-      "required_artifact_or_action": "Execute the frozen 800-record recovery schedule after Phase 2 campaign approval.",
+      "required_artifact_or_action": "Maintain the closed selected-scope recovery baseline: Aephia 64/64, HNN 157/157, and Official 320/320; five Herald pilot captures remain preserved separately.",
       "owner": "Archive Steward",
-      "status": "SCHEDULED_FOR_PHASE_2_NOT_STARTED",
+      "status": "CLOSED_SELECTED_SCOPE_COMPLETE",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
+    },
+    {
+      "gap_id": "GAP-HERALD-RAW-DEFERRED",
+      "priority": "P2",
+      "title": "Intergalactic Herald raw recovery",
+      "required_artifact_or_action": "Retain the frozen 259-record inventory and five preserved pilot captures; do not recover the remaining 254 records unless the operator reopens this source family.",
+      "owner": "Archive Steward",
+      "status": "DEFERRED_BY_OPERATOR",
+      "tracking_issue": 31,
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-DISCORD-CHANNELS",
@@ -20,7 +30,7 @@
       "owner": "Ingestion Coordinator",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-OFFICIAL-FRESHNESS",
@@ -30,7 +40,7 @@
       "owner": "Research and Gap Analyst",
       "status": "CURRENT_TO_CAPTURE_DATE",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-URL-INVENTORY",
@@ -40,7 +50,7 @@
       "owner": "Archive Steward",
       "status": "CLOSED_BY_RECONCILIATION_OVERLAY",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-ATLAS-BREW-METADATA",
@@ -50,7 +60,7 @@
       "owner": "Research and Gap Analyst",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-OFFICIAL-TRANSCRIPT-METADATA",
@@ -60,7 +70,7 @@
       "owner": "Research and Gap Analyst",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-OFFICIAL-BROADCAST-INVENTORY",
@@ -70,7 +80,7 @@
       "owner": "Research and Gap Analyst",
       "status": "UNKNOWN",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-HNN-TRANSCRIPT-METADATA",
@@ -80,7 +90,7 @@
       "owner": "Research and Gap Analyst",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-HNN-TRANSCRIPT-SEMANTICS",
@@ -90,7 +100,7 @@
       "owner": "Knowledge Curator",
       "status": "UNKNOWN",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-MEDIUM-DISCOVERY",
@@ -100,7 +110,7 @@
       "owner": "Ingestion Coordinator",
       "status": "MANUAL_REVIEW_PENDING",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-PIP33-RAW",
@@ -110,7 +120,7 @@
       "owner": "Archive Steward",
       "status": "CLOSED_ARTIFACT_PRESERVED_IN_PR49_CONTAINER",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-PIP33-PROVENANCE-CORRECTION",
@@ -120,7 +130,7 @@
       "owner": "Archive Steward",
       "status": "KNOWN_METADATA_DEBT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-ONCHAIN-EVIDENCE",
@@ -130,7 +140,7 @@
       "owner": "Solana Evidence Specialist",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-ECONOMIC-REPORT-BRANCH",
@@ -140,7 +150,7 @@
       "owner": "Lead Coordinator",
       "status": "CLASSIFIED_DEFERRED_TO_PHASE_2",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-X-HISTORY",
@@ -150,7 +160,7 @@
       "owner": "Ingestion Coordinator",
       "status": "PARTIAL_DATE_COVERAGE",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-DISCORD-NATIVE-IDS",
@@ -160,7 +170,7 @@
       "owner": "Archive Steward",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-DISCORD-ATTACHMENTS",
@@ -170,7 +180,7 @@
       "owner": "Archive Steward",
       "status": "MANUAL_REVIEW_PENDING",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-LORE-REFERENCES",
@@ -180,7 +190,7 @@
       "owner": "Taxonomy Steward",
       "status": "MANUAL_REVIEW_PENDING",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-LEGACY-REVIEW",
@@ -190,7 +200,7 @@
       "owner": "Risk and Review Agent",
       "status": "MANUAL_REVIEW_PENDING",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-HNN-WRITTEN-FAILURES",
@@ -200,7 +210,7 @@
       "owner": "Ingestion Coordinator",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-DELETED-OFFICIAL",
@@ -210,7 +220,7 @@
       "owner": "Ingestion Coordinator",
       "status": "UNKNOWN",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-GOVERNANCE-IMPLEMENTATION",
@@ -220,7 +230,7 @@
       "owner": "Research and Gap Analyst",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-SHIP-UPSTREAM",
@@ -230,7 +240,7 @@
       "owner": "Research and Gap Analyst",
       "status": "MISSING_REQUIRED_ARTIFACT",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-WALLET-ATTRIBUTION",
@@ -240,7 +250,7 @@
       "owner": "Research and Gap Analyst",
       "status": "MANUAL_REVIEW_PENDING",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     },
     {
       "gap_id": "GAP-CROSS-PLATFORM-LINE-ENDINGS",
@@ -250,7 +260,7 @@
       "owner": "Archive Steward",
       "status": "KNOWN_VALIDATION_LIMITATION",
       "tracking_issue": 31,
-      "last_verified": "2026-07-20"
+      "last_verified": "2026-07-22"
     }
   ]
 }

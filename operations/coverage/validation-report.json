@@ -1,7 +1,7 @@
 {
-  "program_id": "star-atlas-library-roadmap-phase-1",
-  "as_of": "2026-07-20",
-  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+  "program_id": "star-atlas-library-roadmap-phase-2",
+  "as_of": "2026-07-22",
+  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
   "result": "PASS",
   "checks": [
     {
@@ -38,7 +38,7 @@
     {
       "name": "campaign_registry",
       "passed": true,
-      "detail": 20
+      "detail": 21
     },
     {
       "name": "campaign_status_evidence_resolves",
@@ -50,8 +50,8 @@
       "passed": true,
       "detail": {
         "path": "archive",
-        "files": 8361,
-        "bytes": 293254538
+        "files": 9518,
+        "bytes": 333943066
       }
     },
     {
@@ -106,8 +106,8 @@
       "passed": true,
       "detail": {
         "assessment_id": "ECONOMIC-REPORT-BRANCH-PHASE-1",
-        "as_of": "2026-07-20",
-        "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+        "as_of": "2026-07-22",
+        "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
         "branch": "origin/ingestion/economic-reports-2022q2-2026q2",
         "fork_point": "add2221f",
         "unique_commits": [
@@ -142,20 +142,27 @@
       }
     },
     {
-      "name": "raw_recovery_schedule_bounded",
+      "name": "raw_recovery_selected_scope_complete",
       "passed": true,
       "detail": {
         "schedule_id": "PHASE-2-LEGACY-WRITTEN-RAW-RECOVERY",
-        "as_of": "2026-07-20",
-        "status": "READY_FOR_CAMPAIGN_APPROVAL",
-        "collection_started": false,
+        "as_of": "2026-07-22",
+        "status": "SELECTED_SCOPE_COMPLETE",
+        "collection_started": true,
+        "milestone_closed": true,
         "frozen_scope_records": 800,
+        "selected_scope_records": 541,
+        "selected_scope_completed_records": 541,
+        "additional_preserved_herald_pilot_records": 5,
+        "total_raw_bodies_preserved": 546,
         "pilot_records": 20,
         "batches": [
           {
             "batch_id": "R0.1",
             "source_family": "HNN written corpus",
             "records": 157,
+            "captured_records": 157,
+            "status": "COMPLETE",
             "priority": "P0",
             "reason": "Highest link-rot risk"
           },
@@ -163,18 +170,25 @@
             "batch_id": "R0.2",
             "source_family": "Aephia",
             "records": 64,
+            "captured_records": 64,
+            "status": "COMPLETE",
             "priority": "P0"
           },
           {
             "batch_id": "R0.3",
             "source_family": "Intergalactic Herald",
             "records": 259,
-            "priority": "P0"
+            "captured_records": 5,
+            "status": "DEFERRED_BY_OPERATOR",
+            "priority": "P0",
+            "note": "Five pilot captures are retained; the remaining 254 records are outside the selected completion scope."
           },
           {
             "batch_id": "R0.4",
             "source_family": "Official Campaign Delta",
             "records": 320,
+            "captured_records": 320,
+            "status": "COMPLETE",
             "priority": "P0",
             "sub_batches": [
               "support",
@@ -184,6 +198,7 @@
             ]
           }
         ],
+        "scope_decision": "The milestone is closed for the operator-approved 541-record Aephia, HNN, and Official scope. Intergalactic Herald remains frozen and deferred; it is not represented as recovered.",
         "retrieval_tiers": [
           "EXACT_PUBLIC_LIVE_CANONICAL",
           "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
@@ -266,15 +281,17 @@
       }
     },
     {
-      "name": "phase_two_ready_for_approval",
+      "name": "phase_two_in_progress",
       "passed": true,
       "detail": {
         "phase": 2,
         "name": "Priority ingestion",
-        "status": "READY_FOR_CAMPAIGN_APPROVAL",
-        "percent_complete": 0,
+        "status": "IN_PROGRESS",
+        "percent_complete": 40,
         "remaining_gate_items": [
-          "Approve the frozen 800-record legacy written raw-capture recovery campaign"
+          "Ingest the 17-URL official economic-report PDF discovery seed",
+          "Run official-source freshness discovery",
+          "Track artifact-blocked Discord and transcript acquisitions without delaying ready work"
         ]
       }
     },
@@ -294,6 +311,7 @@
   ],
   "limitations": [
     "The register is a repository snapshot, not proof of external corpus completeness.",
+    "The selected written-recovery scope is complete for Aephia, HNN, and Official; the remaining 254 Herald records are deferred and are not represented as recovered.",
     "The 2,485 unreconciled URL rows require bounded Phase 2 review.",
     "Freshness adapters are policy-defined but not implemented.",
     "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."

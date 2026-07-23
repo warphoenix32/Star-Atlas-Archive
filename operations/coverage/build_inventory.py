@@ -17,8 +17,8 @@ from build_url_reconciliation import write_outputs as write_url_reconciliation
 ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 PROGRAM = ROOT / "operations" / "programs" / "library-roadmap"
-AS_OF = "2026-07-20"
-BASELINE_SHA = "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed"
+AS_OF = "2026-07-22"
+BASELINE_SHA = "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7"
 
 
 def write_json(path: Path, value: object) -> None:
@@ -92,39 +92,39 @@ def build_coverage() -> list[dict[str, object]]:
     return [
         coverage_record(
             "COV-AEPHIA-WRITTEN", "Aephia", "written articles", "COMMUNITY_PUBLICATION",
-            {"raw_files": 0, "normalized_records": 0, "source_records": 64, "semantic_records": 0, "ingestion_package_records": 64},
-            "2021-12-17", "2026-07-06", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "MANUAL_REVIEW_PENDING"],
-            "All 64 URLs in the normalized Campaign Alpha inventory were extracted.",
-            ["No immutable HTML capture exists under archive/raw.", "All 64 records retain temporal-review warnings."],
-            ["archive/campaign-summaries/campaign-alpha-aephia/campaign-summary.json", "archive/source-records/campaign-alpha-aephia/"],
-            ["GAP-RAW-WRITTEN", "GAP-LEGACY-REVIEW"], "LOW_FREQUENCY",
+            {"raw_files": 64, "normalized_records": 0, "source_records": 64, "semantic_records": 0, "ingestion_package_records": 64},
+            "2021-12-17", "2026-07-06", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "RAW_RECOVERY_COMPLETE", "MANUAL_REVIEW_PENDING"],
+            "All 64 URLs in the normalized Campaign Alpha inventory were extracted and now have checksum-bound raw recovery bodies and provenance.",
+            ["Recovered bytes are later public recaptures, not publication-date snapshots.", "All 64 records retain temporal-review warnings from the original extraction campaign."],
+            ["archive/campaign-summaries/campaign-alpha-aephia/campaign-summary.json", "archive/source-records/campaign-alpha-aephia/", "archive/provenance/legacy-written-recovery/aephia/"],
+            ["GAP-LEGACY-REVIEW"], "LOW_FREQUENCY",
         ),
         coverage_record(
             "COV-HERALD-WRITTEN", "Intergalactic Herald", "written articles", "COMMUNITY_PUBLICATION",
-            {"raw_files": 0, "normalized_records": 0, "source_records": 259, "semantic_records": 0, "ingestion_package_records": 259},
-            "2022-12-11", "2026-07-03", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "MANUAL_REVIEW_PENDING"],
+            {"raw_files": 5, "normalized_records": 0, "source_records": 259, "semantic_records": 0, "ingestion_package_records": 259},
+            "2022-12-11", "2026-07-03", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "RAW_RECOVERY_DEFERRED_BY_OPERATOR", "MANUAL_REVIEW_PENDING"],
             "259 written URLs were extracted; 151 podcasts and one landing page were excluded.",
-            ["No immutable HTML capture exists under archive/raw.", "Campaign summary reports 254 records requiring manual review and two duplicate articles."],
-            ["archive/campaign-summaries/campaign-bravo-intergalactic-herald/campaign-summary.json", "archive/source-records/campaign-bravo-intergalactic-herald/"],
-            ["GAP-RAW-WRITTEN", "GAP-LEGACY-REVIEW"], "LOW_FREQUENCY",
+            ["Five pilot raw captures are preserved; the remaining 254 records were not selected for recovery.", "The operator explicitly deferred Intergalactic Herald at this stage.", "Campaign summary reports 254 records requiring manual review and two duplicate articles."],
+            ["archive/campaign-summaries/campaign-bravo-intergalactic-herald/campaign-summary.json", "archive/source-records/campaign-bravo-intergalactic-herald/", "archive/provenance/legacy-written-recovery/intergalactic-herald/"],
+            ["GAP-HERALD-RAW-DEFERRED", "GAP-LEGACY-REVIEW"], "LOW_FREQUENCY",
         ),
         coverage_record(
             "COV-HNN-WRITTEN", "Hologram News Network", "written articles", "COMMUNITY_PUBLICATION",
-            {"raw_files": 0, "normalized_records": 0, "source_records": 157, "semantic_records": 0, "ingestion_package_records": 157},
-            "2022-04-08", "2025-11-11", ["PARTIAL_DATE_COVERAGE", "MANUAL_REVIEW_PENDING"],
-            "157 of 161 attempted written URLs were retrieved.",
-            ["Four retrieval failures remain.", "No immutable HTML capture exists under archive/raw.", "Fifty-five records require manual review."],
-            ["archive/campaign-summaries/campaign-charlie-hnn/campaign-summary.json", "archive/source-records/campaign-charlie-hnn/"],
-            ["GAP-RAW-WRITTEN", "GAP-HNN-WRITTEN-FAILURES"], "LOW_FREQUENCY",
+            {"raw_files": 157, "normalized_records": 0, "source_records": 157, "semantic_records": 0, "ingestion_package_records": 157},
+            "2022-04-08", "2025-11-11", ["PARTIAL_DATE_COVERAGE", "RAW_RECOVERY_COMPLETE", "MANUAL_REVIEW_PENDING"],
+            "All 157 successfully extracted HNN Source Records now have checksum-bound raw recovery bodies and provenance.",
+            ["Four original Campaign Charlie retrieval failures remain outside the frozen successful-record recovery set.", "Twelve Medium-hosted records use qualified live fallbacks because no public archive snapshot was available.", "Fifty-five original extraction records retain manual-review flags."],
+            ["archive/campaign-summaries/campaign-charlie-hnn/campaign-summary.json", "archive/source-records/campaign-charlie-hnn/", "archive/provenance/legacy-written-recovery/hologram-news-network/"],
+            ["GAP-HNN-WRITTEN-FAILURES"], "LOW_FREQUENCY",
         ),
         coverage_record(
             "COV-OFFICIAL-DELTA", "Official Star Atlas web corpus", "web publications and documentation", "OFFICIAL_FIRST_PARTY",
-            {"raw_files": 0, "normalized_records": 0, "source_records": 320, "semantic_records": 0, "ingestion_package_records": 320},
-            "2021-03-16", "2026-07-10", ["PARTIAL_DATE_COVERAGE", "CURRENT_TO_CAPTURE_DATE", "MANUAL_REVIEW_PENDING"],
-            "320 of 321 attempted official URLs were extracted across newsroom, support, build, governance, staratlas.com, and GitHub surfaces.",
-            ["One retrieval failure remains.", "The campaign reports 1,172 reconciliation/manual-review items.", "No immutable HTML capture exists under archive/raw."],
-            ["archive/campaign-summaries/campaign-delta-official/campaign-summary.json", "archive/source-records/campaign-delta-official/", "archive/reconciliation/campaign-delta-official/"],
-            ["GAP-RAW-WRITTEN", "GAP-OFFICIAL-FRESHNESS", "GAP-DELETED-OFFICIAL"], "HIGH_FREQUENCY",
+            {"raw_files": 320, "normalized_records": 0, "source_records": 320, "semantic_records": 0, "ingestion_package_records": 320},
+            "2021-03-16", "2026-07-10", ["PARTIAL_DATE_COVERAGE", "CURRENT_TO_CAPTURE_DATE", "RAW_RECOVERY_COMPLETE", "MANUAL_REVIEW_PENDING"],
+            "All 320 successfully extracted official Source Records now have checksum-bound raw recovery bodies and provenance across newsroom, support, build, governance, staratlas.com, and GitHub surfaces.",
+            ["One original Campaign Delta retrieval failure remains outside the frozen successful-record recovery set.", "The campaign reports 1,172 reconciliation/manual-review items.", "Live recaptures are not represented as publication-date bytes; nine GitHub documents are immutable commit captures."],
+            ["archive/campaign-summaries/campaign-delta-official/campaign-summary.json", "archive/source-records/campaign-delta-official/", "archive/reconciliation/campaign-delta-official/", "archive/provenance/legacy-written-recovery/official-star-atlas/"],
+            ["GAP-OFFICIAL-FRESHNESS", "GAP-DELETED-OFFICIAL"], "HIGH_FREQUENCY",
         ),
         coverage_record(
             "COV-OFFICIAL-MEDIUM", "Official Star Atlas Medium", "written articles", "OFFICIAL_FIRST_PARTY",
@@ -239,7 +239,8 @@ def build_coverage() -> list[dict[str, object]]:
 
 def build_backlog() -> list[dict[str, object]]:
     rows = [
-        ("GAP-RAW-WRITTEN", "P0", "Legacy Alpha-Delta immutable raw captures", "Execute the frozen 800-record recovery schedule after Phase 2 campaign approval.", "Archive Steward", "SCHEDULED_FOR_PHASE_2_NOT_STARTED"),
+        ("GAP-RAW-WRITTEN", "P0", "Legacy Alpha-Delta immutable raw captures", "Maintain the closed selected-scope recovery baseline: Aephia 64/64, HNN 157/157, and Official 320/320; five Herald pilot captures remain preserved separately.", "Archive Steward", "CLOSED_SELECTED_SCOPE_COMPLETE"),
+        ("GAP-HERALD-RAW-DEFERRED", "P2", "Intergalactic Herald raw recovery", "Retain the frozen 259-record inventory and five preserved pilot captures; do not recover the remaining 254 records unless the operator reopens this source family.", "Archive Steward", "DEFERRED_BY_OPERATOR"),
         ("GAP-DISCORD-CHANNELS", "P0", "Additional Star Atlas Discord channels", "Provide privacy-reviewed native exports for Atlas Amphitheater, Atlas Brew Lounge, DAO announcements, economics, faction, Foundation Room, general, governance, guild, and support channels.", "Ingestion Coordinator", "MISSING_REQUIRED_ARTIFACT"),
         ("GAP-OFFICIAL-FRESHNESS", "P0", "Recurring official-source freshness", "Run read-only discovery checks for newsroom, support, governance, Medium, X, Discord, and official GitHub surfaces; create queues only.", "Research and Gap Analyst", "CURRENT_TO_CAPTURE_DATE"),
         ("GAP-URL-INVENTORY", "P0", "Historical normalized URL dispositions", "Retain the immutable inventory and refresh the deterministic overlay when a relevant campaign closes.", "Archive Steward", "CLOSED_BY_RECONCILIATION_OVERLAY"),
@@ -286,6 +287,7 @@ def build_campaigns() -> list[dict[str, object]]:
         ("knowledge-context-refresh-2026-07-17", "PASS_WITH_RETAINED_GAPS", "operations/campaigns/knowledge-context-refresh-2026-07-17/campaign-summary.json", "Fourteen knowledge outputs were created or expanded with evidence packets."),
         ("knowledge-generation-wave-2", "PASS_WITH_CURATOR_APPROVED_SCOPE_EXTENSION", "operations/campaigns/knowledge-generation-wave-2/execution/campaign-summary.json", "Planning and Wave 2A execution artifacts are retained as completed campaign history."),
         ("knowledge-narrative-depth-001", "MERGED_VALIDATION_REPAIRED", "operations/campaigns/knowledge-narrative-depth-001/closeout-2026-07/campaign-summary.json", "All 80 pages were reviewed; branch-relative validator repaired in this baseline."),
+        ("legacy-written-raw-recovery-2026-07", "SELECTED_SCOPE_COMPLETE", "operations/campaigns/legacy-written-raw-recovery-2026-07/campaign-summary.json", "Aephia 64/64, HNN 157/157, and Official 320/320 are preserved; five Herald pilot captures remain and the family is otherwise deferred by operator direction."),
         ("lore-repository-ingestion-2026-07", "ARCHIVED_NORMALIZED_CURATOR_ADJUDICATED", "operations/campaigns/lore-repository-ingestion-2026-07/campaign-summary.json", "Upstream link and mirror gaps retained."),
         ("pip-33-onchain-vote-reconciliation-2026-07", "PASS_WITH_RAW_EXPORT_GAP", "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json", "No payment, implementation, or signature replay claim."),
         ("social-governance-semantic-enrichment", "PASS", "operations/campaigns/social-governance-semantic-enrichment/validation-report.json", "Stale top-level FAIL corrected in this baseline."),
@@ -352,16 +354,22 @@ def build_recovery_schedule() -> dict[str, object]:
     return {
         "schedule_id": "PHASE-2-LEGACY-WRITTEN-RAW-RECOVERY",
         "as_of": AS_OF,
-        "status": "READY_FOR_CAMPAIGN_APPROVAL",
-        "collection_started": False,
+        "status": "SELECTED_SCOPE_COMPLETE",
+        "collection_started": True,
+        "milestone_closed": True,
         "frozen_scope_records": 800,
+        "selected_scope_records": 541,
+        "selected_scope_completed_records": 541,
+        "additional_preserved_herald_pilot_records": 5,
+        "total_raw_bodies_preserved": 546,
         "pilot_records": 20,
         "batches": [
-            {"batch_id": "R0.1", "source_family": "HNN written corpus", "records": 157, "priority": "P0", "reason": "Highest link-rot risk"},
-            {"batch_id": "R0.2", "source_family": "Aephia", "records": 64, "priority": "P0"},
-            {"batch_id": "R0.3", "source_family": "Intergalactic Herald", "records": 259, "priority": "P0"},
-            {"batch_id": "R0.4", "source_family": "Official Campaign Delta", "records": 320, "priority": "P0", "sub_batches": ["support", "newsroom and experience", "build, governance, and main site", "immutable staratlasmeta GitHub documentation"]},
+            {"batch_id": "R0.1", "source_family": "HNN written corpus", "records": 157, "captured_records": 157, "status": "COMPLETE", "priority": "P0", "reason": "Highest link-rot risk"},
+            {"batch_id": "R0.2", "source_family": "Aephia", "records": 64, "captured_records": 64, "status": "COMPLETE", "priority": "P0"},
+            {"batch_id": "R0.3", "source_family": "Intergalactic Herald", "records": 259, "captured_records": 5, "status": "DEFERRED_BY_OPERATOR", "priority": "P0", "note": "Five pilot captures are retained; the remaining 254 records are outside the selected completion scope."},
+            {"batch_id": "R0.4", "source_family": "Official Campaign Delta", "records": 320, "captured_records": 320, "status": "COMPLETE", "priority": "P0", "sub_batches": ["support", "newsroom and experience", "build, governance, and main site", "immutable staratlasmeta GitHub documentation"]},
         ],
+        "scope_decision": "The milestone is closed for the operator-approved 541-record Aephia, HNN, and Official scope. Intergalactic Herald remains frozen and deferred; it is not represented as recovered.",
         "retrieval_tiers": [
             "EXACT_PUBLIC_LIVE_CANONICAL",
             "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",
@@ -471,12 +479,12 @@ def main() -> None:
     holdings_md = ["# Repository Holdings Baseline", "", f"Snapshot: `{BASELINE_SHA}` on {AS_OF}.", "", "## Product domains", ""]
     holdings_md += markdown_table(["Path", "Files", "Bytes"], [[x["path"], x["files"], x["bytes"]] for x in holdings["domains"]])
     holdings_md += ["", "## Archive areas", ""] + markdown_table(["Path", "Files", "Bytes"], [[x["path"], x["files"], x["bytes"]] for x in holdings["archive_areas"]])
-    holdings_md += ["", "## Structural findings", "", "- The immutable 3,232-row URL inventory now has a separate deterministic disposition overlay; 2,485 URLs remain explicitly unresolved.", "- Twenty campaign directories are represented in the central campaign status register.", "- Source Record formats differ by repository generation: Markdown-only, JSON-only, and paired JSON/Markdown all exist.", "- No open pull requests existed at the baseline. Forty-four remote topic branches were already merged into main; four non-ancestor branches remain, with the economic-report branch classified for Phase 2 integration rather than merge.", ""]
+    holdings_md += ["", "## Structural findings", "", "- The immutable 3,232-row URL inventory now has a separate deterministic disposition overlay; 2,485 URLs remain explicitly unresolved.", "- Twenty-one campaigns are represented in the central campaign status register.", "- Source Record formats differ by repository generation: Markdown-only, JSON-only, and paired JSON/Markdown all exist.", "- The selected written raw-recovery scope is closed at 541/541 records, with five additional Herald pilot captures preserved and the remaining Herald family explicitly deferred.", "- The economic-report branch remains classified for Phase 2 integration rather than merge.", ""]
     (HERE / "repository-holdings.md").write_text("\n".join(holdings_md), encoding="utf-8")
 
     coverage_md = ["# Source Coverage Register", "", f"Evidence baseline at `{BASELINE_SHA}` on {AS_OF}. Package completeness never implies complete external history.", "", "## Medium-by-time matrix", ""]
     coverage_md += markdown_table(["Source", "Medium", "Supported interval", "Logical records", "Status", "Priority gaps"], [[r["source_family"], r["medium"], f"{r['first_supported_date'] or 'unknown'} to {r['last_supported_date'] or 'unknown'}", max(r["counts"].values()), ", ".join(r["coverage_statuses"]), ", ".join(r["gap_ids"])] for r in coverage])
-    coverage_md += ["", "## Critical interpretation", "", "- The repository contains only one Discord export family, designated as announcements by repository path; no native channel identity was captured.", "- The 173 confirmed Medium articles are fully ingested, but publication discovery is incomplete.", "- Alpha through Delta preserve extracted text and Source Records but not immutable raw page captures.", "- Transcript-package completeness is distinct from complete program or episode coverage.", "- Council-reported governance state is not independent implementation or payment evidence.", ""]
+    coverage_md += ["", "## Critical interpretation", "", "- The repository contains only one Discord export family, designated as announcements by repository path; no native channel identity was captured.", "- The 173 confirmed Medium articles are fully ingested, but publication discovery is incomplete.", "- Aephia, HNN, and Official successful Source Records now have raw recovery bodies and provenance; recovered live bytes remain later recaptures rather than publication-date snapshots.", "- Intergalactic Herald has five preserved pilot captures and is otherwise deferred by operator direction.", "- Transcript-package completeness is distinct from complete program or episode coverage.", "- Council-reported governance state is not independent implementation or payment evidence.", ""]
     (HERE / "source-coverage-register.md").write_text("\n".join(coverage_md), encoding="utf-8")
 
     backlog_md = ["# Prioritized Acquisition and Research Backlog", "", "No item authorizes collection by itself.", ""] + markdown_table(["Priority", "Gap", "Need", "Owner", "Status"], [[r["priority"], r["gap_id"], r["required_artifact_or_action"], r["owner"], r["status"]] for r in backlog]) + [""]
@@ -503,11 +511,11 @@ def main() -> None:
 
     recovery_md = [
         "# Phase 2 Legacy Written Raw-capture Schedule", "",
-        "Status: **`READY_FOR_CAMPAIGN_APPROVAL`**. No collection has started.", "",
-        "The first recommended Phase 2 campaign freezes exactly 800 successful Alpha–Delta Source Records. It captures public live pages, proven first-party replacements, immutable Git objects, or public web-archive snapshots without rewriting existing normalized evidence.", "",
+        "Status: **`SELECTED_SCOPE_COMPLETE`**. The written-recovery milestone is closed for the operator-selected scope.", "",
+        "The immutable inventory contains 800 successful Alpha–Delta Source Records. Recovery completed for all 541 selected Aephia, HNN, and Official records. Five Intergalactic Herald pilot captures are preserved; the remaining 254 Herald records are explicitly deferred by the operator and are not counted as recovered.", "",
         "## Batches", "",
-    ] + markdown_table(["Batch", "Source family", "Records", "Priority"], [[row["batch_id"], row["source_family"], row["records"], row["priority"]] for row in recovery_schedule["batches"]]) + [
-        "", "A preliminary 20-record pilot uses five records from each campaign to prove identity matching, checksums, and deterministic reruns.", "",
+    ] + markdown_table(["Batch", "Source family", "Frozen records", "Captured", "Disposition"], [[row["batch_id"], row["source_family"], row["records"], row["captured_records"], row["status"]] for row in recovery_schedule["batches"]]) + [
+        "", "The preliminary pilot captures remain preserved. Subsequent recovery completed the selected Aephia, HNN, and Official families; Herald recovery stopped after its five-record pilot under the operator's deferral.", "",
         "## Stop rules", "",
     ] + [f"- {item}" for item in recovery_schedule["stop_rules"]] + [
         "", "## Human approval points", "",
@@ -518,7 +526,7 @@ def main() -> None:
 
     phases = [
         {"phase": 1, "name": "Repository and evidence baseline", "status": "COMPLETE", "percent_complete": 100, "remaining_gate_items": []},
-        {"phase": 2, "name": "Priority ingestion", "status": "READY_FOR_CAMPAIGN_APPROVAL", "percent_complete": 0, "remaining_gate_items": ["Approve the frozen 800-record legacy written raw-capture recovery campaign"]},
+        {"phase": 2, "name": "Priority ingestion", "status": "IN_PROGRESS", "percent_complete": 40, "remaining_gate_items": ["Ingest the 17-URL official economic-report PDF discovery seed", "Run official-source freshness discovery", "Track artifact-blocked Discord and transcript acquisitions without delaying ready work"]},
         {"phase": 3, "name": "Targeted architecture refinement", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Complete approved Phase 2 priority campaigns", "Define publication manifest without rewriting evidence"]},
         {"phase": 4, "name": "Knowledge consolidation", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Complete priority evidence packets", "Select historically valuable dossiers"]},
         {"phase": 5, "name": "Publication layer", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Stable publication contract", "Initial ten-article portfolio"]},
@@ -531,6 +539,7 @@ def main() -> None:
         "baseline_sha": BASELINE_SHA,
         "current_phase": 2,
         "phases": phases,
+        "phase_2_progress_basis": "Two of five priority-ingestion workstreams are closed: the confirmed Star Atlas Medium corpus and the operator-selected legacy written raw-recovery scope. Economic reports, official-source freshness discovery, and artifact-dependent Discord/transcript acquisition remain.",
         "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
         "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",
         "baseline_ci": {
@@ -547,18 +556,22 @@ def main() -> None:
     write_json(PROGRAM / "program-status.json", program_status)
     write_json(PROGRAM / "phase-gates.json", {"schema_version": "1.0", "as_of": AS_OF, "phases": phases})
     write_json(PROGRAM / "dependency-register.json", {"schema_version": "1.0", "as_of": AS_OF, "dependencies": [
-        {"dependency_id": "DEP-001", "from": "Phase 2", "to": "Phase 1", "status": "GATE_SATISFIED_AWAITING_CAMPAIGN_APPROVAL", "reason": "Phase 1 is complete and the first bounded Phase 2 schedule is recorded."},
+        {"dependency_id": "DEP-001", "from": "Phase 2", "to": "Phase 1", "status": "SATISFIED", "reason": "Phase 1 is complete and the selected written raw-recovery milestone is closed."},
         {"dependency_id": "DEP-002", "from": "Phase 5", "to": "Phase 3", "status": "PENDING", "reason": "Publication requires stable disposition and manifest contracts."},
         {"dependency_id": "DEP-003", "from": "Phase 6", "to": "Phase 5", "status": "PENDING", "reason": "Vercel is the delivery layer, not the place to resolve editorial scope."},
         {"dependency_id": "DEP-004", "from": "Economic report ingestion", "to": "ingestion/economic-reports-2022q2-2026q2", "status": "CLASSIFIED_DEFERRED_TO_PHASE_2", "reason": "The branch is a 17-URL discovery seed, not a conforming ingestion campaign; do not merge it directly."},
     ]})
-    program_md = ["# Star Atlas Library Roadmap Status", "", f"Current phase: **Phase 2 — Priority ingestion, awaiting campaign approval**. Snapshot `{BASELINE_SHA}` on {AS_OF}.", "", "This report must be refreshed at every campaign closeout. Any deviation from phase order, product boundaries, or completion gates must be stated explicitly.", "", "## Phase status", ""] + markdown_table(["Phase", "Status", "Complete", "Remaining gate"], [[f"{p['phase']}. {p['name']}", p["status"], f"{p['percent_complete']}%", "; ".join(p["remaining_gate_items"])] for p in phases]) + ["", "## Current recommendation", "", "Approve the frozen 800-record legacy written raw-capture recovery as the first Phase 2 campaign. Begin with the 20-record stratified pilot; do not start collection until campaign approval.", ""]
+    program_md = ["# Star Atlas Library Roadmap Status", "", f"Current phase: **Phase 2 — Priority ingestion, in progress**. Snapshot `{BASELINE_SHA}` on {AS_OF}.", "", "This report must be refreshed at every campaign closeout. Any deviation from phase order, product boundaries, or completion gates must be stated explicitly.", "", "## Phase status", ""] + markdown_table(["Phase", "Status", "Complete", "Remaining gate"], [[f"{p['phase']}. {p['name']}", p["status"], f"{p['percent_complete']}%", "; ".join(p["remaining_gate_items"])] for p in phases]) + ["", "## Written-recovery closeout", "", "The frozen inventory remains 800 records. Recovery is complete for the 541-record operator-selected scope: Aephia 64/64, HNN 157/157, and Official 320/320. Five Herald pilot captures are preserved; the remaining 254 Herald records are `DEFERRED_BY_OPERATOR` and are not counted as recovered.", "", "## Current recommendation", "", "Proceed with the 17-URL official economic-report PDF ingestion gate, then run official-source freshness discovery. Do not begin Phase 3 until the remaining Phase 2 gates are complete or explicitly deferred.", ""]
     (PROGRAM / "program-status.md").write_text("\n".join(program_md), encoding="utf-8")
     (PROGRAM / "human-adjudication-queue.md").write_text("""# Human Adjudication Queue
 
-## Blocking before Phase 2 collection
+## Blocking decisions
 
-- `REVIEW-PHASE2-RAW-RECOVERY`: approve, revise, or defer the frozen 800-record legacy written raw-capture campaign. Approval authorizes only the public-source recovery boundary recorded in `recovery-campaign-schedule.md`.
+None for the closed written-recovery milestone.
+
+## Closed decisions
+
+- `REVIEW-PHASE2-RAW-RECOVERY`: `CLOSED_SELECTED_SCOPE_COMPLETE`. Aephia, HNN, and Official are complete at 541/541 selected records. Five Herald pilot captures are preserved; the remaining 254 Herald records are deferred by the operator.
 
 ## Deferred, non-blocking decisions
 

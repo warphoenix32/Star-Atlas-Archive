@@ -1,13 +1,13 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-22",
   "dependencies": [
     {
       "dependency_id": "DEP-001",
       "from": "Phase 2",
       "to": "Phase 1",
-      "status": "GATE_SATISFIED_AWAITING_CAMPAIGN_APPROVAL",
-      "reason": "Phase 1 is complete and the first bounded Phase 2 schedule is recorded."
+      "status": "SATISFIED",
+      "reason": "Phase 1 is complete and the selected written raw-recovery milestone is closed."
     },
     {
       "dependency_id": "DEP-002",

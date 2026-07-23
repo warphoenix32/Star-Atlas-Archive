@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-22",
   "phases": [
     {
       "phase": 1,
@@ -12,10 +12,12 @@
     {
       "phase": 2,
       "name": "Priority ingestion",
-      "status": "READY_FOR_CAMPAIGN_APPROVAL",
-      "percent_complete": 0,
+      "status": "IN_PROGRESS",
+      "percent_complete": 40,
       "remaining_gate_items": [
-        "Approve the frozen 800-record legacy written raw-capture recovery campaign"
+        "Ingest the 17-URL official economic-report PDF discovery seed",
+        "Run official-source freshness discovery",
+        "Track artifact-blocked Discord and transcript acquisitions without delaying ready work"
       ]
     },
     {

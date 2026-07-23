@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-20",
+  "as_of": "2026-07-22",
   "campaigns": [
     {
       "campaign_id": "atlas-brew-combined",
@@ -79,6 +79,12 @@
       "status": "MERGED_VALIDATION_REPAIRED",
       "status_evidence": "operations/campaigns/knowledge-narrative-depth-001/closeout-2026-07/campaign-summary.json",
       "note": "All 80 pages were reviewed; branch-relative validator repaired in this baseline."
+    },
+    {
+      "campaign_id": "legacy-written-raw-recovery-2026-07",
+      "status": "SELECTED_SCOPE_COMPLETE",
+      "status_evidence": "operations/campaigns/legacy-written-raw-recovery-2026-07/campaign-summary.json",
+      "note": "Aephia 64/64, HNN 157/157, and Official 320/320 are preserved; five Herald pilot captures remain and the family is otherwise deferred by operator direction."
     },
     {
       "campaign_id": "lore-repository-ingestion-2026-07",

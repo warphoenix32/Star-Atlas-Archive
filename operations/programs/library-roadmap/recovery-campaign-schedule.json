@@ -1,15 +1,22 @@
 {
   "schedule_id": "PHASE-2-LEGACY-WRITTEN-RAW-RECOVERY",
-  "as_of": "2026-07-20",
-  "status": "READY_FOR_CAMPAIGN_APPROVAL",
-  "collection_started": false,
+  "as_of": "2026-07-22",
+  "status": "SELECTED_SCOPE_COMPLETE",
+  "collection_started": true,
+  "milestone_closed": true,
   "frozen_scope_records": 800,
+  "selected_scope_records": 541,
+  "selected_scope_completed_records": 541,
+  "additional_preserved_herald_pilot_records": 5,
+  "total_raw_bodies_preserved": 546,
   "pilot_records": 20,
   "batches": [
     {
       "batch_id": "R0.1",
       "source_family": "HNN written corpus",
       "records": 157,
+      "captured_records": 157,
+      "status": "COMPLETE",
       "priority": "P0",
       "reason": "Highest link-rot risk"
     },
@@ -17,18 +24,25 @@
       "batch_id": "R0.2",
       "source_family": "Aephia",
       "records": 64,
+      "captured_records": 64,
+      "status": "COMPLETE",
       "priority": "P0"
     },
     {
       "batch_id": "R0.3",
       "source_family": "Intergalactic Herald",
       "records": 259,
-      "priority": "P0"
+      "captured_records": 5,
+      "status": "DEFERRED_BY_OPERATOR",
+      "priority": "P0",
+      "note": "Five pilot captures are retained; the remaining 254 records are outside the selected completion scope."
     },
     {
       "batch_id": "R0.4",
       "source_family": "Official Campaign Delta",
       "records": 320,
+      "captured_records": 320,
+      "status": "COMPLETE",
       "priority": "P0",
       "sub_batches": [
         "support",
@@ -38,6 +52,7 @@
       ]
     }
   ],
+  "scope_decision": "The milestone is closed for the operator-approved 541-record Aephia, HNN, and Official scope. Intergalactic Herald remains frozen and deferred; it is not represented as recovered.",
   "retrieval_tiers": [
     "EXACT_PUBLIC_LIVE_CANONICAL",
     "PROVEN_FIRST_PARTY_REDIRECT_OR_REPLACEMENT",

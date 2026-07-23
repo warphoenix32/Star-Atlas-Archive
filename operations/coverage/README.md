@@ -11,7 +11,7 @@ python operations/coverage/validate_inventory.py
 
 `url-disposition-overlay.jsonl` is a generated reconciliation layer over the immutable 3,232-row discovery inventory. It records exact campaign results and deterministic aggregate exclusions while leaving unsupported rows explicitly unresolved. The historical inventory is never rewritten to imply later campaign state.
 
-The economic-report branch assessment and the Phase 2 recovery schedule close planning gates only. They do not authorize collection, merge the stale branch, or change preserved evidence.
+The selected written raw-recovery milestone is closed for Aephia, HNN, and Official. The frozen Herald family remains deferred except for five preserved pilot captures. The economic-report branch assessment remains a planning and discovery seed; it does not authorize merging the stale branch or changing preserved evidence.
 
 Coverage means that evidence is present for the stated interval or supplied package. It does not imply that an external publication, channel, account, or program is complete unless the record states an independently reproducible completeness basis.
 

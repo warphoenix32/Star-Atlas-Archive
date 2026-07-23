@@ -4,7 +4,8 @@ No item authorizes collection by itself.
 
 | Priority | Gap | Need | Owner | Status |
 | --- | --- | --- | --- | --- |
-| P0 | GAP-RAW-WRITTEN | Execute the frozen 800-record recovery schedule after Phase 2 campaign approval. | Archive Steward | SCHEDULED_FOR_PHASE_2_NOT_STARTED |
+| P0 | GAP-RAW-WRITTEN | Maintain the closed selected-scope recovery baseline: Aephia 64/64, HNN 157/157, and Official 320/320; five Herald pilot captures remain preserved separately. | Archive Steward | CLOSED_SELECTED_SCOPE_COMPLETE |
+| P2 | GAP-HERALD-RAW-DEFERRED | Retain the frozen 259-record inventory and five preserved pilot captures; do not recover the remaining 254 records unless the operator reopens this source family. | Archive Steward | DEFERRED_BY_OPERATOR |
 | P0 | GAP-DISCORD-CHANNELS | Provide privacy-reviewed native exports for Atlas Amphitheater, Atlas Brew Lounge, DAO announcements, economics, faction, Foundation Room, general, governance, guild, and support channels. | Ingestion Coordinator | MISSING_REQUIRED_ARTIFACT |
 | P0 | GAP-OFFICIAL-FRESHNESS | Run read-only discovery checks for newsroom, support, governance, Medium, X, Discord, and official GitHub surfaces; create queues only. | Research and Gap Analyst | CURRENT_TO_CAPTURE_DATE |
 | P0 | GAP-URL-INVENTORY | Retain the immutable inventory and refresh the deterministic overlay when a relevant campaign closes. | Archive Steward | CLOSED_BY_RECONCILIATION_OVERLAY |

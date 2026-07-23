@@ -1,8 +1,12 @@
 # Human Adjudication Queue
 
-## Blocking before Phase 2 collection
+## Blocking decisions
 
-- `REVIEW-PHASE2-RAW-RECOVERY`: approve, revise, or defer the frozen 800-record legacy written raw-capture campaign. Approval authorizes only the public-source recovery boundary recorded in `recovery-campaign-schedule.md`.
+None for the closed written-recovery milestone.
+
+## Closed decisions
+
+- `REVIEW-PHASE2-RAW-RECOVERY`: `CLOSED_SELECTED_SCOPE_COMPLETE`. Aephia, HNN, and Official are complete at 541/541 selected records. Five Herald pilot captures are preserved; the remaining 254 Herald records are deferred by the operator.
 
 ## Deferred, non-blocking decisions
 

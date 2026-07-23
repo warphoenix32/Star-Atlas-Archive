@@ -1,7 +1,7 @@
 {
   "program_id": "star-atlas-library-roadmap",
-  "as_of": "2026-07-20",
-  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+  "as_of": "2026-07-22",
+  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
   "current_phase": 2,
   "phases": [
     {
@@ -14,10 +14,12 @@
     {
       "phase": 2,
       "name": "Priority ingestion",
-      "status": "READY_FOR_CAMPAIGN_APPROVAL",
-      "percent_complete": 0,
+      "status": "IN_PROGRESS",
+      "percent_complete": 40,
       "remaining_gate_items": [
-        "Approve the frozen 800-record legacy written raw-capture recovery campaign"
+        "Ingest the 17-URL official economic-report PDF discovery seed",
+        "Run official-source freshness discovery",
+        "Track artifact-blocked Discord and transcript acquisitions without delaying ready work"
       ]
     },
     {
@@ -71,6 +73,7 @@
       ]
     }
   ],
+  "phase_2_progress_basis": "Two of five priority-ingestion workstreams are closed: the confirmed Star Atlas Medium corpus and the operator-selected legacy written raw-recovery scope. Economic reports, official-source freshness discovery, and artifact-dependent Discord/transcript acquisition remain.",
   "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
   "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",
   "baseline_ci": {
@@ -78,7 +81,7 @@
     "campaign_contracts": "PASS",
     "pages_build": "PASS",
     "pages_deploy": "PASS",
-    "verified_at_main_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+    "verified_at_main_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
     "repairs_in_gate_closeout": [
       "DAO campaign path-scope validation delegated to the central repository path contract so unrelated later PRs cannot rewrite the preserved campaign report"
     ]

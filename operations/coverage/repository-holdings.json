@@ -1,11 +1,11 @@
 {
-  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
-  "as_of": "2026-07-20",
+  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
+  "as_of": "2026-07-22",
   "domains": [
     {
       "path": "archive",
-      "files": 8361,
-      "bytes": 293254538
+      "files": 9518,
+      "bytes": 333943066
     },
     {
       "path": "knowledge",
@@ -19,8 +19,8 @@
     },
     {
       "path": "operations",
-      "files": 719,
-      "bytes": 22815652
+      "files": 763,
+      "bytes": 28046899
     },
     {
       "path": "publication",
@@ -32,22 +32,22 @@
     {
       "path": "archive/campaign-summaries",
       "files": 12,
-      "bytes": 545309
+      "bytes": 545342
     },
     {
       "path": "archive/ingestion-packages",
-      "files": 980,
-      "bytes": 62269857
+      "files": 988,
+      "bytes": 62334064
     },
     {
       "path": "archive/manifests",
-      "files": 8,
-      "bytes": 670076
+      "files": 9,
+      "bytes": 943984
     },
     {
       "path": "archive/normalized",
-      "files": 1968,
-      "bytes": 76282222
+      "files": 1984,
+      "bytes": 76586487
     },
     {
       "path": "archive/proposed",
@@ -56,13 +56,13 @@
     },
     {
       "path": "archive/provenance",
-      "files": 8,
-      "bytes": 26172
+      "files": 554,
+      "bytes": 1662779
     },
     {
       "path": "archive/raw",
-      "files": 607,
-      "bytes": 87083234
+      "files": 1177,
+      "bytes": 125487149
     },
     {
       "path": "archive/reconciliation",
@@ -76,8 +76,8 @@
     },
     {
       "path": "archive/source-records",
-      "files": 3741,
-      "bytes": 14540596
+      "files": 3757,
+      "bytes": 14546189
     }
   ],
   "normalized_url_inventory": {

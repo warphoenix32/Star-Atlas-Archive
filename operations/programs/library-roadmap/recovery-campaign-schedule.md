@@ -1,19 +1,19 @@
 # Phase 2 Legacy Written Raw-capture Schedule
 
-Status: **`READY_FOR_CAMPAIGN_APPROVAL`**. No collection has started.
+Status: **`SELECTED_SCOPE_COMPLETE`**. The written-recovery milestone is closed for the operator-selected scope.
 
-The first recommended Phase 2 campaign freezes exactly 800 successful Alpha–Delta Source Records. It captures public live pages, proven first-party replacements, immutable Git objects, or public web-archive snapshots without rewriting existing normalized evidence.
+The immutable inventory contains 800 successful Alpha–Delta Source Records. Recovery completed for all 541 selected Aephia, HNN, and Official records. Five Intergalactic Herald pilot captures are preserved; the remaining 254 Herald records are explicitly deferred by the operator and are not counted as recovered.
 
 ## Batches
 
-| Batch | Source family | Records | Priority |
-| --- | --- | --- | --- |
-| R0.1 | HNN written corpus | 157 | P0 |
-| R0.2 | Aephia | 64 | P0 |
-| R0.3 | Intergalactic Herald | 259 | P0 |
-| R0.4 | Official Campaign Delta | 320 | P0 |
+| Batch | Source family | Frozen records | Captured | Disposition |
+| --- | --- | --- | --- | --- |
+| R0.1 | HNN written corpus | 157 | 157 | COMPLETE |
+| R0.2 | Aephia | 64 | 64 | COMPLETE |
+| R0.3 | Intergalactic Herald | 259 | 5 | DEFERRED_BY_OPERATOR |
+| R0.4 | Official Campaign Delta | 320 | 320 | COMPLETE |
 
-A preliminary 20-record pilot uses five records from each campaign to prove identity matching, checksums, and deterministic reruns.
+The preliminary pilot captures remain preserved. Subsequent recovery completed the selected Aephia, HNN, and Official families; Herald recovery stopped after its five-record pilot under the operator's deferral.
 
 ## Stop rules
 

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-07-20",
-  "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed",
+  "as_of": "2026-07-22",
+  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
   "records": [
     {
       "coverage_id": "COV-AEPHIA-WRITTEN",
@@ -9,7 +9,7 @@
       "medium": "written articles",
       "authority": "COMMUNITY_PUBLICATION",
       "counts": {
-        "raw_files": 0,
+        "raw_files": 64,
         "normalized_records": 0,
         "source_records": 64,
         "semantic_records": 0,
@@ -19,23 +19,24 @@
       "last_supported_date": "2026-07-06",
       "coverage_statuses": [
         "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "RAW_RECOVERY_COMPLETE",
         "MANUAL_REVIEW_PENDING"
       ],
-      "completeness_basis": "All 64 URLs in the normalized Campaign Alpha inventory were extracted.",
+      "completeness_basis": "All 64 URLs in the normalized Campaign Alpha inventory were extracted and now have checksum-bound raw recovery bodies and provenance.",
       "limitations": [
-        "No immutable HTML capture exists under archive/raw.",
-        "All 64 records retain temporal-review warnings."
+        "Recovered bytes are later public recaptures, not publication-date snapshots.",
+        "All 64 records retain temporal-review warnings from the original extraction campaign."
       ],
       "evidence_paths": [
         "archive/campaign-summaries/campaign-alpha-aephia/campaign-summary.json",
-        "archive/source-records/campaign-alpha-aephia/"
+        "archive/source-records/campaign-alpha-aephia/",
+        "archive/provenance/legacy-written-recovery/aephia/"
       ],
       "gap_ids": [
-        "GAP-RAW-WRITTEN",
         "GAP-LEGACY-REVIEW"
       ],
       "refresh_class": "LOW_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -44,7 +45,7 @@
       "medium": "written articles",
       "authority": "COMMUNITY_PUBLICATION",
       "counts": {
-        "raw_files": 0,
+        "raw_files": 5,
         "normalized_records": 0,
         "source_records": 259,
         "semantic_records": 0,
@@ -54,23 +55,26 @@
       "last_supported_date": "2026-07-03",
       "coverage_statuses": [
         "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "RAW_RECOVERY_DEFERRED_BY_OPERATOR",
         "MANUAL_REVIEW_PENDING"
       ],
       "completeness_basis": "259 written URLs were extracted; 151 podcasts and one landing page were excluded.",
       "limitations": [
-        "No immutable HTML capture exists under archive/raw.",
+        "Five pilot raw captures are preserved; the remaining 254 records were not selected for recovery.",
+        "The operator explicitly deferred Intergalactic Herald at this stage.",
         "Campaign summary reports 254 records requiring manual review and two duplicate articles."
       ],
       "evidence_paths": [
         "archive/campaign-summaries/campaign-bravo-intergalactic-herald/campaign-summary.json",
-        "archive/source-records/campaign-bravo-intergalactic-herald/"
+        "archive/source-records/campaign-bravo-intergalactic-herald/",
+        "archive/provenance/legacy-written-recovery/intergalactic-herald/"
       ],
       "gap_ids": [
-        "GAP-RAW-WRITTEN",
+        "GAP-HERALD-RAW-DEFERRED",
         "GAP-LEGACY-REVIEW"
       ],
       "refresh_class": "LOW_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -79,7 +83,7 @@
       "medium": "written articles",
       "authority": "COMMUNITY_PUBLICATION",
       "counts": {
-        "raw_files": 0,
+        "raw_files": 157,
         "normalized_records": 0,
         "source_records": 157,
         "semantic_records": 0,
@@ -89,24 +93,25 @@
       "last_supported_date": "2025-11-11",
       "coverage_statuses": [
         "PARTIAL_DATE_COVERAGE",
+        "RAW_RECOVERY_COMPLETE",
         "MANUAL_REVIEW_PENDING"
       ],
-      "completeness_basis": "157 of 161 attempted written URLs were retrieved.",
+      "completeness_basis": "All 157 successfully extracted HNN Source Records now have checksum-bound raw recovery bodies and provenance.",
       "limitations": [
-        "Four retrieval failures remain.",
-        "No immutable HTML capture exists under archive/raw.",
-        "Fifty-five records require manual review."
+        "Four original Campaign Charlie retrieval failures remain outside the frozen successful-record recovery set.",
+        "Twelve Medium-hosted records use qualified live fallbacks because no public archive snapshot was available.",
+        "Fifty-five original extraction records retain manual-review flags."
       ],
       "evidence_paths": [
         "archive/campaign-summaries/campaign-charlie-hnn/campaign-summary.json",
-        "archive/source-records/campaign-charlie-hnn/"
+        "archive/source-records/campaign-charlie-hnn/",
+        "archive/provenance/legacy-written-recovery/hologram-news-network/"
       ],
       "gap_ids": [
-        "GAP-RAW-WRITTEN",
         "GAP-HNN-WRITTEN-FAILURES"
       ],
       "refresh_class": "LOW_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -115,7 +120,7 @@
       "medium": "web publications and documentation",
       "authority": "OFFICIAL_FIRST_PARTY",
       "counts": {
-        "raw_files": 0,
+        "raw_files": 320,
         "normalized_records": 0,
         "source_records": 320,
         "semantic_records": 0,
@@ -126,26 +131,27 @@
       "coverage_statuses": [
         "PARTIAL_DATE_COVERAGE",
         "CURRENT_TO_CAPTURE_DATE",
+        "RAW_RECOVERY_COMPLETE",
         "MANUAL_REVIEW_PENDING"
       ],
-      "completeness_basis": "320 of 321 attempted official URLs were extracted across newsroom, support, build, governance, staratlas.com, and GitHub surfaces.",
+      "completeness_basis": "All 320 successfully extracted official Source Records now have checksum-bound raw recovery bodies and provenance across newsroom, support, build, governance, staratlas.com, and GitHub surfaces.",
       "limitations": [
-        "One retrieval failure remains.",
+        "One original Campaign Delta retrieval failure remains outside the frozen successful-record recovery set.",
         "The campaign reports 1,172 reconciliation/manual-review items.",
-        "No immutable HTML capture exists under archive/raw."
+        "Live recaptures are not represented as publication-date bytes; nine GitHub documents are immutable commit captures."
       ],
       "evidence_paths": [
         "archive/campaign-summaries/campaign-delta-official/campaign-summary.json",
         "archive/source-records/campaign-delta-official/",
-        "archive/reconciliation/campaign-delta-official/"
+        "archive/reconciliation/campaign-delta-official/",
+        "archive/provenance/legacy-written-recovery/official-star-atlas/"
       ],
       "gap_ids": [
-        "GAP-RAW-WRITTEN",
         "GAP-OFFICIAL-FRESHNESS",
         "GAP-DELETED-OFFICIAL"
       ],
       "refresh_class": "HIGH_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-08-20"
     },
     {
@@ -154,7 +160,7 @@
       "medium": "written articles",
       "authority": "OFFICIAL_FIRST_PARTY",
       "counts": {
-        "raw_files": 520,
+        "raw_files": 544,
         "normalized_records": 173,
         "source_records": 173,
         "semantic_records": 0,
@@ -182,7 +188,7 @@
         "GAP-OFFICIAL-FRESHNESS"
       ],
       "refresh_class": "MEDIUM_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -223,7 +229,7 @@
         "GAP-OFFICIAL-FRESHNESS"
       ],
       "refresh_class": "HIGH_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-08-20"
     },
     {
@@ -259,7 +265,7 @@
         "GAP-OFFICIAL-FRESHNESS"
       ],
       "refresh_class": "HIGH_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-08-20"
     },
     {
@@ -295,7 +301,7 @@
         "GAP-ATLAS-BREW-METADATA"
       ],
       "refresh_class": "MEDIUM_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -330,7 +336,7 @@
         "GAP-HNN-TRANSCRIPT-SEMANTICS"
       ],
       "refresh_class": "LOW_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -366,7 +372,7 @@
         "GAP-OFFICIAL-BROADCAST-INVENTORY"
       ],
       "refresh_class": "MEDIUM_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -402,7 +408,7 @@
         "GAP-OFFICIAL-FRESHNESS"
       ],
       "refresh_class": "LOW_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -440,7 +446,7 @@
         "GAP-OFFICIAL-FRESHNESS"
       ],
       "refresh_class": "HIGH_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-08-20"
     },
     {
@@ -476,7 +482,7 @@
         "GAP-ONCHAIN-EVIDENCE"
       ],
       "refresh_class": "HIGH_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-08-20"
     },
     {
@@ -512,7 +518,7 @@
         "GAP-GOVERNANCE-IMPLEMENTATION"
       ],
       "refresh_class": "HIGH_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-08-20"
     },
     {
@@ -547,7 +553,7 @@
         "GAP-SHIP-UPSTREAM"
       ],
       "refresh_class": "LOW_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     },
     {
@@ -583,7 +589,7 @@
         "GAP-ONCHAIN-EVIDENCE"
       ],
       "refresh_class": "LOW_FREQUENCY",
-      "last_verified": "2026-07-20",
+      "last_verified": "2026-07-22",
       "next_review_date": "2026-10-20"
     }
   ]

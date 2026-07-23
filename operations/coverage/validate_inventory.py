@@ -82,13 +82,13 @@ def main() -> int:
     check("coverage_records", len(coverage) == 16, len(coverage))
     check("coverage_evidence_paths_resolve", not evidence_missing, evidence_missing)
     check("coverage_gaps_reconcile", not unknown_gaps, unknown_gaps)
-    check("campaign_registry", len(campaigns) == 20, len(campaigns))
+    check("campaign_registry", len(campaigns) == 21, len(campaigns))
     missing_campaign_evidence = sorted(row["status_evidence"] for row in campaigns if not (ROOT / row["status_evidence"]).exists())
     check("campaign_status_evidence_resolves", not missing_campaign_evidence, missing_campaign_evidence)
 
     holdings = parsed.get("repository-holdings.json", {})
     archive = next((row for row in holdings.get("domains", []) if row.get("path") == "archive"), {})
-    check("archive_holdings_reconcile", archive.get("files") == 8361, archive)
+    check("archive_holdings_reconcile", archive.get("files") == 9518, archive)
     inventory_boundary = holdings.get("normalized_url_inventory", {})
     check("normalized_inventory_boundary", inventory_boundary.get("records") == 3232 and inventory_boundary.get("status") == "RECONCILED_BY_OVERLAY", inventory_boundary)
 
@@ -122,7 +122,21 @@ def main() -> int:
     economic = parsed.get("economic-report-branch-assessment.json", {})
     check("economic_branch_classified", economic.get("decision") == "CLASSIFIED_DEFERRED_TO_PHASE_2" and economic.get("discovery_urls") == 17 and economic.get("merge_or_cherry_pick") is False, economic)
     recovery = parsed.get("recovery-campaign-schedule.json", {})
-    check("raw_recovery_schedule_bounded", recovery.get("status") == "READY_FOR_CAMPAIGN_APPROVAL" and recovery.get("collection_started") is False and sum(row.get("records", 0) for row in recovery.get("batches", [])) == 800, recovery)
+    complete_batches = [row for row in recovery.get("batches", []) if row.get("status") == "COMPLETE"]
+    herald_batch = next((row for row in recovery.get("batches", []) if row.get("source_family") == "Intergalactic Herald"), {})
+    check(
+        "raw_recovery_selected_scope_complete",
+        recovery.get("status") == "SELECTED_SCOPE_COMPLETE"
+        and recovery.get("collection_started") is True
+        and recovery.get("milestone_closed") is True
+        and sum(row.get("records", 0) for row in recovery.get("batches", [])) == 800
+        and recovery.get("selected_scope_records") == recovery.get("selected_scope_completed_records") == 541
+        and sum(row.get("captured_records", 0) for row in complete_batches) == 541
+        and recovery.get("total_raw_bodies_preserved") == 546
+        and herald_batch.get("captured_records") == 5
+        and herald_batch.get("status") == "DEFERRED_BY_OPERATOR",
+        recovery,
+    )
 
     cleanup = parsed.get("cleanup-register.json", {})
     check("no_unconditional_repository_deletions", cleanup.get("immediate_safe_repository_deletions") == [], cleanup.get("immediate_safe_repository_deletions"))
@@ -130,7 +144,7 @@ def main() -> int:
     phases = parsed.get("program-status.json", {}).get("phases", [])
     check("seven_phase_roadmap", [row.get("phase") for row in phases] == list(range(1, 8)), [row.get("phase") for row in phases])
     check("phase_one_complete", phases[0].get("status") == "COMPLETE" and phases[0].get("percent_complete") == 100 and phases[0].get("remaining_gate_items") == [], phases[0] if phases else None)
-    check("phase_two_ready_for_approval", parsed.get("program-status.json", {}).get("current_phase") == 2 and phases[1].get("status") == "READY_FOR_CAMPAIGN_APPROVAL", phases[1] if len(phases) > 1 else None)
+    check("phase_two_in_progress", parsed.get("program-status.json", {}).get("current_phase") == 2 and phases[1].get("status") == "IN_PROGRESS" and phases[1].get("percent_complete") == 40, phases[1] if len(phases) > 1 else None)
 
     library = subprocess.run(["node", "publication/site/scripts/build-search-index.mjs", "--check"], cwd=ROOT, capture_output=True, text=True, check=False)
     library_detail = (library.stdout + library.stderr).strip()
@@ -156,15 +170,18 @@ def main() -> int:
         }
     else:
         library_passed = True
+    if library_passed:
+        library_records = json.loads((ROOT / "publication/site/assets/library-index.json").read_text(encoding="utf-8"))
+        library_detail = f"PASS search index fixed point: {len(library_records)} records"
     check("library_index_fixed_point", library_passed, library_detail)
     social_summary = json.loads((ROOT / "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json").read_text(encoding="utf-8"))
     social_validation = json.loads((ROOT / "operations/campaigns/social-governance-semantic-enrichment/validation-report.json").read_text(encoding="utf-8"))
     check("social_campaign_status_reconciled", social_summary.get("status") == social_validation.get("status") == "PASS", {"summary": social_summary.get("status"), "validation": social_validation.get("status")})
 
     passed = all(row["passed"] for row in checks)
-    report = {"program_id": "star-atlas-library-roadmap-phase-1", "as_of": "2026-07-20", "baseline_sha": "19a447596c6cb3b5e72343a0e6ef9dd87b3e51ed", "result": "PASS" if passed else "FAIL", "checks": checks, "limitations": ["The register is a repository snapshot, not proof of external corpus completeness.", "The 2,485 unreconciled URL rows require bounded Phase 2 review.", "Freshness adapters are policy-defined but not implemented.", "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."]}
+    report = {"program_id": "star-atlas-library-roadmap-phase-2", "as_of": "2026-07-22", "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7", "result": "PASS" if passed else "FAIL", "checks": checks, "limitations": ["The register is a repository snapshot, not proof of external corpus completeness.", "The selected written-recovery scope is complete for Aephia, HNN, and Official; the remaining 254 Herald records are deferred and are not represented as recovered.", "The 2,485 unreconciled URL rows require bounded Phase 2 review.", "Freshness adapters are policy-defined but not implemented.", "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."]}
     (HERE / "validation-report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    lines = ["# Phase 1 Validation Report", "", f"**Result:** `{report['result']}`", "", "## Checks", ""]
+    lines = ["# Phase 2 Written-Recovery Closeout Validation", "", f"**Result:** `{report['result']}`", "", "## Checks", ""]
     lines.extend(f"- **{'PASS' if row['passed'] else 'FAIL'} — {row['name']}:** {row['detail']}" for row in checks)
     lines += ["", "## Limitations", ""] + [f"- {item}" for item in report["limitations"]] + [""]
     (HERE / "validation-report.md").write_text("\n".join(lines), encoding="utf-8")
