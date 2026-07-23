@@ -4,8 +4,8 @@
   "checks": [
     {
       "detail": {
-        "manifest": 19,
-        "raw": 19
+        "manifest": 18,
+        "raw": 18
       },
       "name": "input_file_count",
       "passed": true
@@ -16,13 +16,13 @@
       "passed": true
     },
     {
-      "detail": 19,
+      "detail": 18,
       "name": "pdf_signatures",
       "passed": true
     },
     {
-      "detail": "q4-2026 is preserved as a duplicate of q4-2025",
-      "name": "q4_2026_duplicate",
+      "detail": "mislabeled q4-2026 upload is excluded",
+      "name": "operator_exclusion_applied",
       "passed": true
     },
     {
@@ -140,23 +140,21 @@
       "passed": true
     },
     {
-      "detail": [
-        {
-          "disposition": "EXACT_DUPLICATE_MISLABELED_PACKAGE_MEMBER",
-          "duplicate_of_filename": "q4-2025.pdf",
-          "duplicate_of_source_id": "SRC-ECON-2025-Q4",
-          "evidence": [
-            "Byte-identical SHA-256",
-            "Embedded PDF title states Q4 2025",
-            "First-page title states Q4 2025"
-          ],
-          "filename": "q4-2026.pdf",
-          "manual_review_required": true,
-          "preserved_raw": true,
-          "sha256": "f14f6dbb338f1b074abc396b74a40aaaa8238d58f0db2785ae2f6cca67f88f8c",
-          "source_record_created": false
-        }
-      ],
+      "detail": {
+        "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
+        "duplicates": [],
+        "resolved_input_exclusions": [
+          {
+            "decision_basis": "Operator correction received 2026-07-22",
+            "disposition": "DISREGARDED_OPERATOR_CONFIRMED_MISLABELED_UPLOAD",
+            "filename": "q4-2026.pdf",
+            "manual_review_required": false,
+            "preserved_raw": false,
+            "source_record_created": false
+          }
+        ],
+        "schema_version": "1.0.0"
+      },
       "name": "duplicate_ledger",
       "passed": true
     },
@@ -166,14 +164,13 @@
         "body_acquisition": "OPERATOR_PROVIDED_PDF_PACKAGE",
         "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
         "economics_papers": 1,
-        "exact_duplicates": 1,
+        "exact_duplicates": 0,
         "extractions": 18,
-        "input_package_files": 19,
+        "input_package_files": 18,
         "knowledge_promotion": "NOT_PERFORMED",
-        "manual_review_queue": [
-          "q4-2026.pdf"
-        ],
+        "manual_review_queue": [],
         "normalized_records": 18,
+        "operator_exclusions": 1,
         "quarterly_coverage": {
           "first": "2022 Q2",
           "last": "2026 Q2"
@@ -182,12 +179,12 @@
         "schema_version": "1.0.0",
         "semantic_enrichment": "NOT_PERFORMED",
         "source_records": 18,
-        "status": "INGESTION_COMPLETE_MANUAL_DUPLICATE_REVIEW_OPEN",
+        "status": "INGESTION_COMPLETE",
         "total_extracted_characters": 390574,
         "total_unique_pages": 294,
         "unique_documents": 18,
         "urls_fetched_for_body": false,
-        "valid_pdf_files": 19,
+        "valid_pdf_files": 18,
         "visual_validation_status": "PASS_REPRESENTATIVE_RENDER_REVIEW"
       },
       "name": "summary_reconciles",
@@ -199,10 +196,9 @@
         "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
         "findings": [
           "Representative covers, body text, tables, and styled economics-paper pages rendered without clipping, overlap, missing glyphs, or corruption.",
-          "q4-2025.pdf and q4-2026.pdf produced identical first-page renders, consistent with their identical binary checksums.",
           "Charts and table geometry remain authoritative in the raw PDF rather than the extracted Markdown."
         ],
-        "first_pages_rendered": 19,
+        "first_pages_rendered": 18,
         "renderer": "Poppler pdftoppm",
         "representative_pages_inspected": [
           "q2-2022.pdf page 1",
@@ -240,8 +236,6 @@
     "Charts and table geometry remain authoritative only in the raw PDFs.",
     "No on-chain verification or semantic promotion was performed."
   ],
-  "manual_review_required": [
-    "q4-2026.pdf exact duplicate/mislabeled package member"
-  ],
+  "manual_review_required": [],
   "result": "PASS"
 }

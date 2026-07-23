@@ -4,11 +4,11 @@ This campaign ingests the operator-provided `Star Atlas Econ Reports.zip` packag
 
 ## Scope
 
-- 19 supplied PDF files
+- 18 accepted PDF files
 - 18 unique documents
 - 17 quarterly reports from 2022 Q2 through 2026 Q2
 - 1 foundational economics paper
-- 1 exact duplicate/mislabeled package member (`q4-2026.pdf`, identical to Q4 2025)
+- 1 operator-confirmed mislabeled upload excluded (`q4-2026.pdf`)
 
 ## Commands
 
@@ -35,4 +35,4 @@ URLs were not fetched for report bodies. The original URLs remain useful for ide
 
 ## Duplicate adjudication
 
-`q4-2026.pdf` is byte-identical to `q4-2025.pdf`; its embedded PDF title and first page both identify Q4 2025. Both filenames are preserved as supplied. Only the Q4 2025 Source Record is generated, and the duplicate remains visible in `duplicate-ledger.json` for human review.
+The operator confirmed that `q4-2026.pdf` was an accidentally mislabeled upload. It is not part of the preserved corpus and no 2026-Q4 Source Record is generated. The resolved exclusion remains documented in `input-package-manifest.json` and `duplicate-ledger.json` for auditability.

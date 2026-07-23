@@ -50,14 +50,12 @@ This preserved PDF provides first-party evidence of how ATMTA described and meas
 ## Observed Filenames
 
 - `q4-2025.pdf`
-- `q4-2026.pdf`
 
 ## Known Limitations
 
 - Quantitative claims are publisher-reported and were not independently or on-chain verified by this campaign.
 - Text extraction does not preserve chart geometry, table layout, typography, or graphical annotations.
 - Metric continuity across quarters requires later methodology reconciliation.
-- The supplied q4-2026.pdf is byte-identical and internally titled Q4 2025; it is preserved as an exact duplicate, not a 2026 Q4 report.
 
 ## Open Questions
 

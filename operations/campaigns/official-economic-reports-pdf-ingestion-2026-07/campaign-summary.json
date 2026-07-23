@@ -3,14 +3,13 @@
   "body_acquisition": "OPERATOR_PROVIDED_PDF_PACKAGE",
   "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
   "economics_papers": 1,
-  "exact_duplicates": 1,
+  "exact_duplicates": 0,
   "extractions": 18,
-  "input_package_files": 19,
+  "input_package_files": 18,
   "knowledge_promotion": "NOT_PERFORMED",
-  "manual_review_queue": [
-    "q4-2026.pdf"
-  ],
+  "manual_review_queue": [],
   "normalized_records": 18,
+  "operator_exclusions": 1,
   "quarterly_coverage": {
     "first": "2022 Q2",
     "last": "2026 Q2"
@@ -19,11 +18,11 @@
   "schema_version": "1.0.0",
   "semantic_enrichment": "NOT_PERFORMED",
   "source_records": 18,
-  "status": "INGESTION_COMPLETE_MANUAL_DUPLICATE_REVIEW_OPEN",
+  "status": "INGESTION_COMPLETE",
   "total_extracted_characters": 390574,
   "total_unique_pages": 294,
   "unique_documents": 18,
   "urls_fetched_for_body": false,
-  "valid_pdf_files": 19,
+  "valid_pdf_files": 18,
   "visual_validation_status": "PASS_REPRESENTATIVE_RENDER_REVIEW"
 }

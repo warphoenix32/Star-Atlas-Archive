@@ -139,20 +139,20 @@
       "zip_timestamp_original": "2026-07-18T11:58:04"
     },
     {
-      "archive_member": "Star Atlas Econ Reports/q4-2026.pdf",
-      "byte_count": 3071280,
-      "crc32": "16791b3d",
-      "filename": "q4-2026.pdf",
-      "sha256": "f14f6dbb338f1b074abc396b74a40aaaa8238d58f0db2785ae2f6cca67f88f8c",
-      "zip_timestamp_original": "2026-07-18T11:57:56"
-    },
-    {
       "archive_member": "Star Atlas Econ Reports/star-atlas-economics-paper.pdf",
       "byte_count": 618485,
       "crc32": "330de382",
       "filename": "star-atlas-economics-paper.pdf",
       "sha256": "bd51034b1463d4bfdfaf2b8f741ee70c1f0f6089ee661f9bb955234c516200ba",
       "zip_timestamp_original": "2026-07-18T11:54:44"
+    }
+  ],
+  "operator_exclusions": [
+    {
+      "disposition": "DISREGARDED_OPERATOR_CONFIRMED_MISLABELED_UPLOAD",
+      "filename": "q4-2026.pdf",
+      "manual_review_required": false,
+      "preserved_raw": false
     }
   ],
   "schema_version": "1.0.0",

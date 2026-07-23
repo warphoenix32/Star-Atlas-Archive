@@ -1,19 +1,13 @@
 {
   "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
-  "duplicates": [
+  "duplicates": [],
+  "resolved_input_exclusions": [
     {
-      "disposition": "EXACT_DUPLICATE_MISLABELED_PACKAGE_MEMBER",
-      "duplicate_of_filename": "q4-2025.pdf",
-      "duplicate_of_source_id": "SRC-ECON-2025-Q4",
-      "evidence": [
-        "Byte-identical SHA-256",
-        "Embedded PDF title states Q4 2025",
-        "First-page title states Q4 2025"
-      ],
+      "decision_basis": "Operator correction received 2026-07-22",
+      "disposition": "DISREGARDED_OPERATOR_CONFIRMED_MISLABELED_UPLOAD",
       "filename": "q4-2026.pdf",
-      "manual_review_required": true,
-      "preserved_raw": true,
-      "sha256": "f14f6dbb338f1b074abc396b74a40aaaa8238d58f0db2785ae2f6cca67f88f8c",
+      "manual_review_required": false,
+      "preserved_raw": false,
       "source_record_created": false
     }
   ],

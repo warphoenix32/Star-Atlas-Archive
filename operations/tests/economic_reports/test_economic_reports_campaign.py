@@ -9,14 +9,16 @@ RAW = ROOT / "archive/raw/economic-reports/official"
 NORMALIZED = ROOT / "archive/normalized/economic-reports/official"
 
 
-def test_supplied_pdf_set_and_duplicate_are_preserved():
+def test_adjudicated_pdf_set_is_preserved():
     manifest = json.loads((CAMPAIGN / "input-package-manifest.json").read_text(encoding="utf-8"))
-    assert len(manifest["members"]) == 19
+    assert len(manifest["members"]) == 18
     for row in manifest["members"]:
         path = RAW / row["filename"]
         assert path.exists()
         assert hashlib.sha256(path.read_bytes()).hexdigest() == row["sha256"]
-    assert (RAW / "q4-2025.pdf").read_bytes() == (RAW / "q4-2026.pdf").read_bytes()
+    assert (RAW / "q4-2025.pdf").exists()
+    assert not (RAW / "q4-2026.pdf").exists()
+    assert manifest["operator_exclusions"][0]["manual_review_required"] is False
 
 
 def test_unique_source_records_do_not_invent_2026_q4():

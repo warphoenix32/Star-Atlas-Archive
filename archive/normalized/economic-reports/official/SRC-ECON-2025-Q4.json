@@ -8,12 +8,10 @@
   "known_limitations": [
     "Quantitative claims are publisher-reported and were not independently or on-chain verified by this campaign.",
     "Text extraction does not preserve chart geometry, table layout, typography, or graphical annotations.",
-    "Metric continuity across quarters requires later methodology reconciliation.",
-    "The supplied q4-2026.pdf is byte-identical and internally titled Q4 2025; it is preserved as an exact duplicate, not a 2026 Q4 report."
+    "Metric continuity across quarters requires later methodology reconciliation."
   ],
   "observed_filenames": [
-    "q4-2025.pdf",
-    "q4-2026.pdf"
+    "q4-2025.pdf"
   ],
   "official_cross_references": [],
   "page_count": 14,

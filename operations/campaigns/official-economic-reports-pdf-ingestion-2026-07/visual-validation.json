@@ -2,7 +2,7 @@
   "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
   "result": "PASS",
   "renderer": "Poppler pdftoppm",
-  "first_pages_rendered": 19,
+  "first_pages_rendered": 18,
   "representative_pages_inspected": [
     "q2-2022.pdf page 1",
     "q1-2023.pdf page 1",
@@ -15,7 +15,6 @@
   ],
   "findings": [
     "Representative covers, body text, tables, and styled economics-paper pages rendered without clipping, overlap, missing glyphs, or corruption.",
-    "q4-2025.pdf and q4-2026.pdf produced identical first-page renders, consistent with their identical binary checksums.",
     "Charts and table geometry remain authoritative in the raw PDF rather than the extracted Markdown."
   ],
   "as_of": "2026-07-22"

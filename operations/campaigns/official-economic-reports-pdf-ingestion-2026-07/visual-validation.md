@@ -2,7 +2,7 @@
 
 **Result:** `PASS`
 
-All 19 supplied first pages were rendered with Poppler. Representative covers, body pages, tables, and styled economics-paper pages were visually inspected. No clipping, overlap, missing glyphs, or corruption was observed.
+All 18 accepted first pages were rendered with Poppler. Representative covers, body pages, tables, and styled economics-paper pages were visually inspected. No clipping, overlap, missing glyphs, or corruption was observed.
 
 The reviewed body pages were:
 

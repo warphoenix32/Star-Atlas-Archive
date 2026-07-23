@@ -28,8 +28,7 @@ INPUT_MANIFEST = CAMPAIGN / "input-package-manifest.json"
 
 ECONOMICS_PAPER_URL = "https://staratlas.com/files/star-atlas-economics-paper.pdf?pdf=Economics-Paper"
 QUARTER_RE = re.compile(r"q([1-4])-(20\d{2})\.pdf$")
-KNOWN_DUPLICATE = "q4-2026.pdf"
-CANONICAL_DUPLICATE_TARGET = "q4-2025.pdf"
+OPERATOR_EXCLUDED_FILENAMES = {"q4-2026.pdf"}
 PUBLICATION_DATE_OVERRIDES = {
     "star-atlas-economics-paper.pdf": {
         "date": "2021-08-17",
@@ -107,6 +106,8 @@ def capture_input_package(zip_path: Path) -> dict[str, object]:
     with zipfile.ZipFile(zip_path) as package:
         for info in sorted((row for row in package.infolist() if row.filename.lower().endswith(".pdf")), key=lambda row: row.filename):
             filename = Path(info.filename).name.lower()
+            if filename in OPERATOR_EXCLUDED_FILENAMES:
+                continue
             target = RAW / filename
             with package.open(info) as source, target.open("wb") as destination:
                 shutil.copyfileobj(source, destination)
@@ -126,6 +127,12 @@ def capture_input_package(zip_path: Path) -> dict[str, object]:
         "source_package_sha256": sha256(zip_path),
         "captured_as_of": AS_OF,
         "members": members,
+        "operator_exclusions": [{
+            "filename": "q4-2026.pdf",
+            "disposition": "DISREGARDED_OPERATOR_CONFIRMED_MISLABELED_UPLOAD",
+            "preserved_raw": False,
+            "manual_review_required": False,
+        }],
     }
     write_json(INPUT_MANIFEST, payload)
     return payload
@@ -235,11 +242,7 @@ def main() -> int:
         if sha256(path) != expected[path.name]["sha256"]:
             raise RuntimeError(f"raw checksum mismatch: {path.name}")
 
-    duplicate_sha = sha256(RAW / KNOWN_DUPLICATE)
-    if duplicate_sha != sha256(RAW / CANONICAL_DUPLICATE_TARGET):
-        raise RuntimeError("the documented q4-2026 duplicate no longer matches q4-2025")
-
-    unique_files = [path for path in supplied_files if path.name != KNOWN_DUPLICATE]
+    unique_files = supplied_files
     records: list[dict[str, object]] = []
     artifacts: list[dict[str, object]] = []
     total_pages = 0
@@ -269,8 +272,6 @@ def main() -> int:
         publication_date_basis = override["basis"] if override else ("Embedded PDF CreationDate" if publication_date else "UNKNOWN")
         official_cross_references = [override["source_id"]] if override else []
         observed_filenames = [path.name]
-        if path.name == CANONICAL_DUPLICATE_TARGET:
-            observed_filenames.append(KNOWN_DUPLICATE)
         empty_pages = sum(1 for page in pages if not page["text"])
         confidence = "HIGH" if len(full_text) >= 5000 and empty_pages == 0 else "MEDIUM"
         limitations = [
@@ -280,8 +281,6 @@ def main() -> int:
         ]
         if empty_pages:
             limitations.append(f"{empty_pages} page(s) contain no extractable text and require visual consultation of the PDF.")
-        if path.name == CANONICAL_DUPLICATE_TARGET:
-            limitations.append("The supplied q4-2026.pdf is byte-identical and internally titled Q4 2025; it is preserved as an exact duplicate, not a 2026 Q4 report.")
         archival_abstract = (
             f"Official ATMTA period-bound economic publication for {meta['period']}. "
             "The complete extractable text is preserved with page boundaries. This record does not treat reported measurements, forecasts, or methodology as independently verified facts."
@@ -332,7 +331,7 @@ def main() -> int:
             "lineage_confidence": "HIGH" if author != "UNKNOWN" else "MEDIUM",
             "normalized_json_path": normalized_path.relative_to(ROOT).as_posix(),
             "normalized_markdown_path": (NORMALIZED / f"{meta['source_id']}.md").relative_to(ROOT).as_posix(),
-            "manual_review_required": path.name == CANONICAL_DUPLICATE_TARGET,
+            "manual_review_required": False,
         })
         write_json(SOURCE_RECORDS / f"{meta['source_id']}.json", record)
         write_text(SOURCE_RECORDS / f"{meta['source_id']}.md", markdown_source_record(record))
@@ -390,16 +389,14 @@ def main() -> int:
     duplicate_ledger = {
         "schema_version": "1.0.0",
         "campaign_id": CAMPAIGN_ID,
-        "duplicates": [{
-            "filename": KNOWN_DUPLICATE,
-            "sha256": duplicate_sha,
-            "duplicate_of_filename": CANONICAL_DUPLICATE_TARGET,
-            "duplicate_of_source_id": "SRC-ECON-2025-Q4",
-            "disposition": "EXACT_DUPLICATE_MISLABELED_PACKAGE_MEMBER",
-            "evidence": ["Byte-identical SHA-256", "Embedded PDF title states Q4 2025", "First-page title states Q4 2025"],
-            "preserved_raw": True,
+        "duplicates": [],
+        "resolved_input_exclusions": [{
+            "filename": "q4-2026.pdf",
+            "disposition": "DISREGARDED_OPERATOR_CONFIRMED_MISLABELED_UPLOAD",
+            "decision_basis": "Operator correction received 2026-07-22",
+            "preserved_raw": False,
             "source_record_created": False,
-            "manual_review_required": True,
+            "manual_review_required": False,
         }],
     }
     write_json(CAMPAIGN / "duplicate-ledger.json", duplicate_ledger)
@@ -422,14 +419,15 @@ def main() -> int:
     summary = {
         "schema_version": "1.0.0",
         "campaign_id": CAMPAIGN_ID,
-        "status": "INGESTION_COMPLETE_MANUAL_DUPLICATE_REVIEW_OPEN",
+        "status": "INGESTION_COMPLETE",
         "as_of": AS_OF,
         "input_package_files": len(supplied_files),
         "valid_pdf_files": len(supplied_files),
         "unique_documents": len(records),
         "quarterly_reports": sum(1 for record in records if record["document_type"] == "OFFICIAL_QUARTERLY_ECONOMIC_REPORT"),
         "economics_papers": sum(1 for record in records if record["document_type"] == "OFFICIAL_ECONOMICS_PAPER"),
-        "exact_duplicates": 1,
+        "exact_duplicates": 0,
+        "operator_exclusions": 1,
         "source_records": len(records),
         "normalized_records": len(records),
         "extractions": len(records),
@@ -438,7 +436,7 @@ def main() -> int:
         "quarterly_coverage": {"first": "2022 Q2", "last": "2026 Q2"},
         "body_acquisition": "OPERATOR_PROVIDED_PDF_PACKAGE",
         "urls_fetched_for_body": False,
-        "manual_review_queue": [KNOWN_DUPLICATE],
+        "manual_review_queue": [],
         "semantic_enrichment": "NOT_PERFORMED",
         "knowledge_promotion": "NOT_PERFORMED",
         "visual_validation_status": "PASS_REPRESENTATIVE_RENDER_REVIEW",
@@ -453,6 +451,7 @@ def main() -> int:
 - Quarterly reports: {summary['quarterly_reports']} ({summary['quarterly_coverage']['first']} through {summary['quarterly_coverage']['last']})
 - Economics papers: {summary['economics_papers']}
 - Exact duplicates: {summary['exact_duplicates']}
+- Operator-confirmed excluded uploads: {summary['operator_exclusions']}
 - Source Records / normalized records / extractions: {len(records)} each
 - Unique pages preserved: {total_pages}
 - Extracted text characters: {total_characters}
@@ -461,9 +460,9 @@ def main() -> int:
 
 The supplied PDFs, not the 17 discovery URLs, are the preserved document bodies. The URLs remain identifiers and cross-references only.
 
-## Manual review
+## Operator adjudication
 
-`q4-2026.pdf` is byte-identical to `q4-2025.pdf` and internally identifies itself as Q4 2025. Both filenames are preserved, but no 2026-Q4 Source Record was created.
+The operator confirmed that `q4-2026.pdf` was an accidentally mislabeled upload. It is excluded from the preserved corpus and generated artifacts. No 2026-Q4 Source Record was created, and no manual-review item remains open.
 
 ## Boundaries
 

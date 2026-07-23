@@ -31,14 +31,12 @@ def main() -> int:
     members = input_manifest["members"]
     raw_paths = sorted(RAW.glob("*.pdf"))
     raw_by_name = {path.name: path for path in raw_paths}
-    check("input_file_count", len(members) == len(raw_paths) == 19, {"manifest": len(members), "raw": len(raw_paths)})
+    check("input_file_count", len(members) == len(raw_paths) == 18, {"manifest": len(members), "raw": len(raw_paths)})
     raw_mismatches = [row["filename"] for row in members if row["filename"] not in raw_by_name or sha256(raw_by_name[row["filename"]]) != row["sha256"]]
     check("raw_checksums", not raw_mismatches, raw_mismatches)
     check("pdf_signatures", all(path.read_bytes().startswith(b"%PDF-") for path in raw_paths), len(raw_paths))
 
-    q4_2025 = raw_by_name.get("q4-2025.pdf")
-    q4_2026 = raw_by_name.get("q4-2026.pdf")
-    check("q4_2026_duplicate", bool(q4_2025 and q4_2026 and sha256(q4_2025) == sha256(q4_2026)), "q4-2026 is preserved as a duplicate of q4-2025")
+    check("operator_exclusion_applied", "q4-2026.pdf" not in raw_by_name and input_manifest["operator_exclusions"][0]["manual_review_required"] is False, "mislabeled q4-2026 upload is excluded")
 
     normalized_paths = sorted(NORMALIZED.glob("*.json"))
     source_json = sorted(SOURCE_RECORDS.glob("*.json"))
@@ -67,12 +65,14 @@ def main() -> int:
     check("json_parses", not parse_errors, parse_errors)
     check("page_boundaries_reconcile", not page_errors and total_pages == 294, {"errors": page_errors, "pages": total_pages})
 
-    duplicate = json.loads((CAMPAIGN / "duplicate-ledger.json").read_text(encoding="utf-8"))["duplicates"]
-    check("duplicate_ledger", len(duplicate) == 1 and duplicate[0]["manual_review_required"] is True and duplicate[0]["source_record_created"] is False, duplicate)
+    duplicate_ledger = json.loads((CAMPAIGN / "duplicate-ledger.json").read_text(encoding="utf-8"))
+    duplicate = duplicate_ledger["duplicates"]
+    exclusions = duplicate_ledger["resolved_input_exclusions"]
+    check("duplicate_ledger", not duplicate and len(exclusions) == 1 and exclusions[0]["manual_review_required"] is False and exclusions[0]["preserved_raw"] is False, duplicate_ledger)
     summary = json.loads((CAMPAIGN / "campaign-summary.json").read_text(encoding="utf-8"))
-    check("summary_reconciles", summary["input_package_files"] == 19 and summary["unique_documents"] == 18 and summary["quarterly_reports"] == 17 and summary["exact_duplicates"] == 1 and summary["urls_fetched_for_body"] is False, summary)
+    check("summary_reconciles", summary["input_package_files"] == 18 and summary["unique_documents"] == 18 and summary["quarterly_reports"] == 17 and summary["exact_duplicates"] == 0 and summary["operator_exclusions"] == 1 and not summary["manual_review_queue"] and summary["urls_fetched_for_body"] is False, summary)
     visual = json.loads((CAMPAIGN / "visual-validation.json").read_text(encoding="utf-8"))
-    check("visual_validation", visual["result"] == "PASS" and visual["first_pages_rendered"] == 19 and len(visual["representative_pages_inspected"]) == 8, visual)
+    check("visual_validation", visual["result"] == "PASS" and visual["first_pages_rendered"] == 18 and len(visual["representative_pages_inspected"]) == 8, visual)
 
     manifest = json.loads(ARCHIVE_MANIFEST.read_text(encoding="utf-8"))
     manifest_errors = []
@@ -90,7 +90,7 @@ def main() -> int:
         "as_of": "2026-07-22",
         "result": "PASS" if passed else "FAIL",
         "checks": checks,
-        "manual_review_required": ["q4-2026.pdf exact duplicate/mislabeled package member"],
+        "manual_review_required": [],
         "limitations": [
             "Validation proves archival integrity and extraction reconciliation, not the independent accuracy of publisher-reported economic claims.",
             "Charts and table geometry remain authoritative only in the raw PDFs.",
@@ -100,7 +100,7 @@ def main() -> int:
     (CAMPAIGN / "validation-report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True) + "\n", encoding="utf-8", newline="\n")
     lines = ["# Official Economic Reports PDF Validation", "", f"**Result:** `{report['result']}`", "", "## Checks", ""]
     lines.extend(f"- **{'PASS' if row['passed'] else 'FAIL'} - {row['name']}:** {row['detail']}" for row in checks)
-    lines += ["", "## Manual review", "", "- `q4-2026.pdf` is an exact duplicate of the internally identified Q4 2025 report; it is preserved but not promoted to a Source Record.", "", "## Limitations", ""]
+    lines += ["", "## Manual review", "", "None. The operator-confirmed mislabeled `q4-2026.pdf` upload is excluded from the campaign.", "", "## Limitations", ""]
     lines.extend(f"- {value}" for value in report["limitations"])
     (CAMPAIGN / "validation-report.md").write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
     print(f"{report['result']}: {sum(row['passed'] for row in checks)}/{len(checks)} checks")
