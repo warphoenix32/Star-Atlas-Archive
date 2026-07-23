@@ -203,6 +203,15 @@ def validate_forbidden_paths(changes: list[str]) -> str:
     )) for path in changes)
     knowledge_campaign = any(path.startswith(("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")) for path in changes)
     medium_campaign = any("star-atlas-medium" in path or path.startswith(("archive/raw/medium/", "archive/normalized/medium/", "archive/source-records/medium/")) for path in changes)
+    economic_reports_campaign = any(path.startswith((
+        "archive/raw/economic-reports/",
+        "archive/provenance/economic-reports/",
+        "archive/normalized/economic-reports/",
+        "archive/source-records/economic-reports/",
+        "archive/ingestion-packages/economic-reports-official/",
+        "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/",
+        "operations/tests/economic_reports/",
+    )) or path == "archive/manifests/official-economic-reports-pdf-ingestion-2026-07.json" for path in changes)
     ship_campaign = any(path.startswith((
         "archive/raw/starbased-ship-states/",
         "archive/provenance/starbased-ship-states/",
@@ -264,7 +273,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = 1 if legacy_written_raw_recovery else sum((phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = 1 if legacy_written_raw_recovery else sum((phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if legacy_written_raw_recovery:
@@ -346,6 +355,18 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/tests/star_atlas_medium/",
         )
         label = "star-atlas-medium-ingestion-2026-07"
+    elif economic_reports_campaign:
+        allowed = common + (
+            "archive/raw/economic-reports/",
+            "archive/provenance/economic-reports/",
+            "archive/normalized/economic-reports/",
+            "archive/source-records/economic-reports/",
+            "archive/ingestion-packages/economic-reports-official/",
+            "archive/manifests/official-economic-reports-pdf-ingestion-2026-07.json",
+            "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/",
+            "operations/tests/economic_reports/",
+        )
+        label = "official-economic-reports-pdf-ingestion-2026-07"
     elif ship_campaign:
         allowed = common + (
             "archive/raw/starbased-ship-states/",
@@ -502,6 +523,30 @@ def validate_medium_campaign() -> None:
     diff = run("git", "diff", "--exit-code", "--", str(campaign.relative_to(ROOT)), "archive/manifests", "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07")
     if diff.returncode:
         raise ValidationFailure("Medium campaign validation artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
+def validate_economic_reports_campaign() -> None:
+    campaign = ROOT / "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07"
+    command = [sys.executable, str(campaign / "validate_campaign.py")]
+    exclusions = {"build_campaign.py", "validate_campaign.py", "README.md", "requirements.txt"}
+    first = run_cycle(command, campaign, exclusions)
+    second = run_cycle(command, campaign, exclusions)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure("Economic-report campaign validation is not deterministic: " + ", ".join(differing))
+    diff = run(
+        "git", "diff", "--exit-code", "--",
+        "archive/raw/economic-reports",
+        "archive/provenance/economic-reports",
+        "archive/normalized/economic-reports",
+        "archive/source-records/economic-reports",
+        "archive/ingestion-packages/economic-reports-official",
+        "archive/manifests/official-economic-reports-pdf-ingestion-2026-07.json",
+        str(campaign.relative_to(ROOT)),
+        "operations/tests/economic_reports",
+    )
+    if diff.returncode:
+        raise ValidationFailure("Economic-report campaign artifacts do not reconcile with committed files:\n" + diff.stdout)
 
 
 def validate_atlas_brew_semantic_campaign() -> None:
@@ -785,6 +830,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_knowledge_campaign()
     elif contract == "star-atlas-medium-ingestion-2026-07":
         validate_medium_campaign()
+    elif contract == "official-economic-reports-pdf-ingestion-2026-07":
+        validate_economic_reports_campaign()
     elif contract == "atlas-brew-significance-review-2026-07":
         validate_atlas_brew_semantic_campaign()
     elif contract == "discord-community-indexing-001":

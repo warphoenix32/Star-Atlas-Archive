@@ -1,0 +1,40 @@
+{
+  "archival_abstract": "Official ATMTA period-bound economic publication for 2023 Q1. The complete extractable text is preserved with page boundaries. This record does not treat reported measurements, forecasts, or methodology as independently verified facts.",
+  "author": "Daniel Floyd",
+  "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2023/q1.pdf",
+  "document_classification": "ECONOMIC_REPORT",
+  "document_type": "OFFICIAL_QUARTERLY_ECONOMIC_REPORT",
+  "extraction_confidence": "MEDIUM",
+  "known_limitations": [
+    "Quantitative claims are publisher-reported and were not independently or on-chain verified by this campaign.",
+    "Text extraction does not preserve chart geometry, table layout, typography, or graphical annotations.",
+    "Metric continuity across quarters requires later methodology reconciliation.",
+    "14 page(s) contain no extractable text and require visual consultation of the PDF."
+  ],
+  "lineage_confidence": "HIGH",
+  "manual_review_required": false,
+  "normalized_json_path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q1.json",
+  "normalized_markdown_path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q1.md",
+  "observed_filenames": [
+    "q1-2023.pdf"
+  ],
+  "official_cross_references": [],
+  "page_count": 22,
+  "period": "2023 Q1",
+  "publication_date_basis": "Embedded PDF CreationDate",
+  "publication_date_normalized": "2023-03-30",
+  "publication_date_original": "2023-03-30",
+  "publisher": "ATMTA, Inc. / Star Atlas",
+  "quarter": "Q1",
+  "raw_byte_count": 6318808,
+  "raw_path": "archive/raw/economic-reports/official/q1-2023.pdf",
+  "raw_sha256": "c2216d3b660bfeef99d6706fc8d62a49c46f70c5ffa32c91067723a5673e30ee",
+  "schema_version": "1.0.0",
+  "series": "Star Atlas State of the Economy",
+  "source_id": "SRC-ECON-2023-Q1",
+  "temporal_validity": "HISTORICAL_PERIOD_BOUND",
+  "title": "Star Atlas State of the Economy - 2023 Q1",
+  "updated_date_normalized": null,
+  "updated_date_original": null,
+  "year": 2023
+}

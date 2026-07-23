@@ -1,0 +1,40 @@
+{
+  "archival_abstract": "Official ATMTA period-bound economic publication for 2022 Q3. The complete extractable text is preserved with page boundaries. This record does not treat reported measurements, forecasts, or methodology as independently verified facts.",
+  "author": "Daniel Floyd",
+  "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2022/q3.pdf",
+  "document_classification": "ECONOMIC_REPORT",
+  "document_type": "OFFICIAL_QUARTERLY_ECONOMIC_REPORT",
+  "extraction_confidence": "MEDIUM",
+  "known_limitations": [
+    "Quantitative claims are publisher-reported and were not independently or on-chain verified by this campaign.",
+    "Text extraction does not preserve chart geometry, table layout, typography, or graphical annotations.",
+    "Metric continuity across quarters requires later methodology reconciliation.",
+    "15 page(s) contain no extractable text and require visual consultation of the PDF."
+  ],
+  "lineage_confidence": "HIGH",
+  "manual_review_required": false,
+  "normalized_json_path": "archive/normalized/economic-reports/official/SRC-ECON-2022-Q3.json",
+  "normalized_markdown_path": "archive/normalized/economic-reports/official/SRC-ECON-2022-Q3.md",
+  "observed_filenames": [
+    "q3-2022.pdf"
+  ],
+  "official_cross_references": [],
+  "page_count": 17,
+  "period": "2022 Q3",
+  "publication_date_basis": "Embedded PDF CreationDate",
+  "publication_date_normalized": "2022-09-29",
+  "publication_date_original": "2022-09-29",
+  "publisher": "ATMTA, Inc. / Star Atlas",
+  "quarter": "Q3",
+  "raw_byte_count": 4938169,
+  "raw_path": "archive/raw/economic-reports/official/q3-2022.pdf",
+  "raw_sha256": "2bb2e33e51f575e9b3ed6317d7d52531481f0b8a9a74ccdcd05d8275ca6d9cb9",
+  "schema_version": "1.0.0",
+  "series": "Star Atlas State of the Economy",
+  "source_id": "SRC-ECON-2022-Q3",
+  "temporal_validity": "HISTORICAL_PERIOD_BOUND",
+  "title": "Star Atlas State of the Economy - 2022 Q3",
+  "updated_date_normalized": null,
+  "updated_date_original": null,
+  "year": 2022
+}

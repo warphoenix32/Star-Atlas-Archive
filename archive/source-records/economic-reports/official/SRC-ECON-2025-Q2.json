@@ -1,0 +1,39 @@
+{
+  "archival_abstract": "Official ATMTA period-bound economic publication for 2025 Q2. The complete extractable text is preserved with page boundaries. This record does not treat reported measurements, forecasts, or methodology as independently verified facts.",
+  "author": "UNKNOWN",
+  "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2025/q2.pdf",
+  "document_classification": "ECONOMIC_REPORT",
+  "document_type": "OFFICIAL_QUARTERLY_ECONOMIC_REPORT",
+  "extraction_confidence": "HIGH",
+  "known_limitations": [
+    "Quantitative claims are publisher-reported and were not independently or on-chain verified by this campaign.",
+    "Text extraction does not preserve chart geometry, table layout, typography, or graphical annotations.",
+    "Metric continuity across quarters requires later methodology reconciliation."
+  ],
+  "lineage_confidence": "MEDIUM",
+  "manual_review_required": false,
+  "normalized_json_path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q2.json",
+  "normalized_markdown_path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q2.md",
+  "observed_filenames": [
+    "q2-2025.pdf"
+  ],
+  "official_cross_references": [],
+  "page_count": 12,
+  "period": "2025 Q2",
+  "publication_date_basis": "Embedded PDF CreationDate",
+  "publication_date_normalized": "2025-06-30",
+  "publication_date_original": "2025-06-30",
+  "publisher": "ATMTA, Inc. / Star Atlas",
+  "quarter": "Q2",
+  "raw_byte_count": 2080308,
+  "raw_path": "archive/raw/economic-reports/official/q2-2025.pdf",
+  "raw_sha256": "9e4304ef9cb02c97d37e3eddd1f6c1997382c4349785ba75a553cc8c274971c9",
+  "schema_version": "1.0.0",
+  "series": "Star Atlas State of the Economy",
+  "source_id": "SRC-ECON-2025-Q2",
+  "temporal_validity": "HISTORICAL_PERIOD_BOUND",
+  "title": "Star Atlas State of the Economy - 2025 Q2",
+  "updated_date_normalized": null,
+  "updated_date_original": null,
+  "year": 2025
+}

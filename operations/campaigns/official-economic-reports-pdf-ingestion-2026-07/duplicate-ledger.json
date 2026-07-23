@@ -1,0 +1,15 @@
+{
+  "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
+  "duplicates": [],
+  "resolved_input_exclusions": [
+    {
+      "decision_basis": "Operator correction received 2026-07-22",
+      "disposition": "DISREGARDED_OPERATOR_CONFIRMED_MISLABELED_UPLOAD",
+      "filename": "q4-2026.pdf",
+      "manual_review_required": false,
+      "preserved_raw": false,
+      "source_record_created": false
+    }
+  ],
+  "schema_version": "1.0.0"
+}

@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
+    "generated_as_of": "2026-07-22",
+    "package_id": "INGEST-OFFICIAL-ECONOMIC-REPORTS-001",
+    "repository_schema": "2.1"
+  },
+  "sources": [
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2023-Q1.json",
+      "source_id": "SRC-ECON-2023-Q1",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q1.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2024-Q1.json",
+      "source_id": "SRC-ECON-2024-Q1",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q1.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2025-Q1.json",
+      "source_id": "SRC-ECON-2025-Q1",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q1.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2026-Q1.json",
+      "source_id": "SRC-ECON-2026-Q1",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2026-Q1.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2022-Q2.json",
+      "source_id": "SRC-ECON-2022-Q2",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q2.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2023-Q2.json",
+      "source_id": "SRC-ECON-2023-Q2",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q2.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2024-Q2.json",
+      "source_id": "SRC-ECON-2024-Q2",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q2.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2025-Q2.json",
+      "source_id": "SRC-ECON-2025-Q2",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q2.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2026-Q2.json",
+      "source_id": "SRC-ECON-2026-Q2",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2026-Q2.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2022-Q3.json",
+      "source_id": "SRC-ECON-2022-Q3",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q3.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2023-Q3.json",
+      "source_id": "SRC-ECON-2023-Q3",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q3.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2024-Q3.json",
+      "source_id": "SRC-ECON-2024-Q3",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q3.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2025-Q3.json",
+      "source_id": "SRC-ECON-2025-Q3",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q3.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2022-Q4.json",
+      "source_id": "SRC-ECON-2022-Q4",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q4.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2023-Q4.json",
+      "source_id": "SRC-ECON-2023-Q4",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q4.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2024-Q4.json",
+      "source_id": "SRC-ECON-2024-Q4",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q4.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2025-Q4.json",
+      "source_id": "SRC-ECON-2025-Q4",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q4.json"
+    },
+    {
+      "extraction": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-PAPER-2021.json",
+      "source_id": "SRC-ECON-PAPER-2021",
+      "source_record": "archive/source-records/economic-reports/official/SRC-ECON-PAPER-2021.json"
+    }
+  ]
+}

@@ -1,0 +1,643 @@
+{
+  "artifact_count": 127,
+  "artifacts": [
+    {
+      "byte_count": 100614,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2022-Q2.json",
+      "sha256": "ecb43fd6df50f9a3cd8b73c0c507905d3d2d30ddc64add8fdbb190da858ffac1"
+    },
+    {
+      "byte_count": 5065,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2022-Q3.json",
+      "sha256": "f85906f9a3c659060140b776fa89d9986020ddeeacaa69fa7c93000257d61a61"
+    },
+    {
+      "byte_count": 4978,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2022-Q4.json",
+      "sha256": "cb27b5447549e2dd7764eac8d06cab2ebf0a3fe684b506f9022c99a4aed5af8f"
+    },
+    {
+      "byte_count": 5797,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2023-Q1.json",
+      "sha256": "40bfecd8849221d91974909338e5090b64061f77e46ad7756e6405cf7f846c89"
+    },
+    {
+      "byte_count": 59555,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2023-Q2.json",
+      "sha256": "ef794da7346b32b8448dc458d435a8586673b8558df49f807b27282c8bbf6cf5"
+    },
+    {
+      "byte_count": 46925,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2023-Q3.json",
+      "sha256": "fd23c537ff5ad04ebbbc90dab52aeb0ddfc950d7e63e72a7b3e99217e9bf63eb"
+    },
+    {
+      "byte_count": 41365,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2023-Q4.json",
+      "sha256": "8c652361d33d0e6f1d9817ff5e02bf65b9d9efd420f1e94292a4d42b8224a23a"
+    },
+    {
+      "byte_count": 36816,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2024-Q1.json",
+      "sha256": "ca771fa649a4bccc9c135477fa416fb1dea0915329c472f4ace57b3119a8e85f"
+    },
+    {
+      "byte_count": 45439,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2024-Q2.json",
+      "sha256": "4f73f2fa1c34e161dd7abd4af498590516ea5a9a27897aaedafdd0b9fdbd76e5"
+    },
+    {
+      "byte_count": 45015,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2024-Q3.json",
+      "sha256": "f3a4ee9467dc779319d9d0374b3d9e1f2aeaac38d8da5d98284a792580a4247e"
+    },
+    {
+      "byte_count": 50601,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2024-Q4.json",
+      "sha256": "a5b05de244c1ce78e49e1f5fd7dd77dae9661be4f03533a6ec0a2d690e5e1527"
+    },
+    {
+      "byte_count": 45708,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2025-Q1.json",
+      "sha256": "d65b4c32c4bf13db0a174a1308d4232360408b11ab7e96ae3b774ab7b2c2d8a9"
+    },
+    {
+      "byte_count": 43569,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2025-Q2.json",
+      "sha256": "4e363e7e244f1ed089fff44575b4d58c4e7ce3e186fb5e1cd5ce417814e3ac0f"
+    },
+    {
+      "byte_count": 41398,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2025-Q3.json",
+      "sha256": "88319c45af4d11b11373d8e324f23c54d04180f95fa7b90307e1305bde54cf5f"
+    },
+    {
+      "byte_count": 87088,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2025-Q4.json",
+      "sha256": "3c554a35f3f0177f008d29295078097abb511c8076030d9cbdffe80bf9f677de"
+    },
+    {
+      "byte_count": 67368,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2026-Q1.json",
+      "sha256": "6c24e9856e7c789868cc4480059ee9cd28f87103db5b5f92166a6ecec335037a"
+    },
+    {
+      "byte_count": 84161,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-2026-Q2.json",
+      "sha256": "20f5d9a4dbf84209027df5b4195524bd1bb13d1b668d7f0e684a62f3cffb9ad6"
+    },
+    {
+      "byte_count": 100340,
+      "path": "archive/ingestion-packages/economic-reports-official/extractions/SRC-ECON-PAPER-2021.json",
+      "sha256": "55d6578d4c6408de333d759b78ab8dc0494b9161e8cd163ae9e0233421a14f3e"
+    },
+    {
+      "byte_count": 4892,
+      "path": "archive/ingestion-packages/economic-reports-official/official-economic-reports-pdf-ingestion-2026-07.v2.1.json",
+      "sha256": "5012676b7fca600de12d6206d44204bb0549524abde4ff15134aeb0bda3305b7"
+    },
+    {
+      "byte_count": 101854,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2022-Q2.json",
+      "sha256": "3172b91ae01a14a1297ed83e26c281c762cefda542705e348f3c36efb2782c77"
+    },
+    {
+      "byte_count": 46221,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2022-Q2.md",
+      "sha256": "7133911a59ed4f993b2e70327c48356f436cdfd46fa85b4fcbab5c320b5bd0a8"
+    },
+    {
+      "byte_count": 6287,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2022-Q3.json",
+      "sha256": "86716f32197b7d54eea3be9f1c1344a8f8a69cc765a652aa23ef628366ad0406"
+    },
+    {
+      "byte_count": 998,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2022-Q3.md",
+      "sha256": "bd69ef32f657f2132d3c0d796c1bea4b49a721febd182fcb014b7f5815f57d59"
+    },
+    {
+      "byte_count": 6200,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2022-Q4.json",
+      "sha256": "838bffc7c26742883360ec92f2101794798df12f1da2708082786c1ee5514c1d"
+    },
+    {
+      "byte_count": 802,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2022-Q4.md",
+      "sha256": "4d274f628fd427517d2498c27ccc5a4c8eb93b2b938eecc72952b80ccb781455"
+    },
+    {
+      "byte_count": 7019,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q1.json",
+      "sha256": "c3c496a07e9809a353f0adf7f55a0087a1003308a608e3ae6157b95bfd7da5a9"
+    },
+    {
+      "byte_count": 875,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q1.md",
+      "sha256": "615d49318fbd5dae3c3afe2f976771ca29fc44214cc11ae3f40bdbc27c97ee58"
+    },
+    {
+      "byte_count": 60522,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q2.json",
+      "sha256": "da4f6bfe4709518961f1fc6c2fb65ba5650a14e80259ca09cf357d81b1a50b3c"
+    },
+    {
+      "byte_count": 27763,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q2.md",
+      "sha256": "06e0797da75b36df73e0286b6ac5653fe254684e9f776532c0d34c11ec6fb4ba"
+    },
+    {
+      "byte_count": 48057,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q3.json",
+      "sha256": "8549e1089f22a0e5b42e54f3776a6dc01c97c9463ccc00262fe261e918937a22"
+    },
+    {
+      "byte_count": 21589,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q3.md",
+      "sha256": "7e4d1c24570b6b9932ae3b346747add38b34969b2bee1b3d7f83aaf1523cdb95"
+    },
+    {
+      "byte_count": 42469,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q4.json",
+      "sha256": "bed21c5a5c6bcb2e1c7aee99688341c827d42a943b06c027e6c279871344e0a7"
+    },
+    {
+      "byte_count": 19023,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2023-Q4.md",
+      "sha256": "0102c0b08f85b8fe8b0ffbfe67d24c8e2332a9cc126aeaa48514b3961819d8aa"
+    },
+    {
+      "byte_count": 37920,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q1.json",
+      "sha256": "7440a2fe284f64109e2c012296bfdebcad7789116f1b5b5f0fdae3a3bc41a05b"
+    },
+    {
+      "byte_count": 16856,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q1.md",
+      "sha256": "a91a2a8475c66ebcf362ff19cb1bc5e5d8d442aed5f5ab74fcea4e6cb4d1df8d"
+    },
+    {
+      "byte_count": 46543,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q2.json",
+      "sha256": "dba694f3bb62930963dfe9e3066cc65f1a7c337ce7e505e2b7dbcdfb31d73571"
+    },
+    {
+      "byte_count": 20928,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q2.md",
+      "sha256": "90803c9d6e88df3f91da80758414d3e9d655172c3478f9f57f959280df8c9caf"
+    },
+    {
+      "byte_count": 46147,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q3.json",
+      "sha256": "19cadd85ccb7d80715a7f81f5fc348d38060ce4862efce6b7809ca11c601f9d0"
+    },
+    {
+      "byte_count": 20818,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q3.md",
+      "sha256": "1e163b93b1b04c5f4b293ff76cc36c6e0ddfebbab7e65863ca60912f2fc114fd"
+    },
+    {
+      "byte_count": 51705,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q4.json",
+      "sha256": "378e8549555e569f229d949b962e77ac9a9a194d07c16c704f5e1d5e06f7eb77"
+    },
+    {
+      "byte_count": 23451,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q4.md",
+      "sha256": "c425a6df050aa0145ca37b93bcd05d9d9f18a4bb827490a3d8802268918d281e"
+    },
+    {
+      "byte_count": 46812,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q1.json",
+      "sha256": "fd93bf3344efe7bdab57af0abc5c8e284162382875fbc35d8eadafcf8d02793a"
+    },
+    {
+      "byte_count": 20964,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q1.md",
+      "sha256": "91422f791dad800ef478940f3278ac04d8a631e0c3cbddb13693d3ada13cf649"
+    },
+    {
+      "byte_count": 44673,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q2.json",
+      "sha256": "7249adce096b0e19a81da96294a9d75e32c801992f21d54bd61f6edb49613049"
+    },
+    {
+      "byte_count": 20096,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q2.md",
+      "sha256": "d495f96eee34410cc99526304da30eb4f081b268e10a2653f8f59539ec4393f4"
+    },
+    {
+      "byte_count": 42502,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q3.json",
+      "sha256": "ce25833bc827a791b724d0289a451148dcf81587263973cca15633fd098f92eb"
+    },
+    {
+      "byte_count": 18919,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q3.md",
+      "sha256": "16af607ee1b622a0580464050dfa67bec0754caaac89fa30c4d5665f68c34542"
+    },
+    {
+      "byte_count": 88062,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q4.json",
+      "sha256": "22de918556226504d5a4fe54f874b018d39245702a3f9953f59f9f998fda26f8"
+    },
+    {
+      "byte_count": 34600,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2025-Q4.md",
+      "sha256": "f3ed1953867ff98ea9aaa5805394d8af284ca8a885579a4e3ba3b10c37ace3ae"
+    },
+    {
+      "byte_count": 68430,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2026-Q1.json",
+      "sha256": "e7bd6285bbe2bf9efaf8745f7dbd583da17796a670203094cbecc04420fe5d8a"
+    },
+    {
+      "byte_count": 27254,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2026-Q1.md",
+      "sha256": "a20d7b3f54a33c00636b9420cc2a1991c7b6e5464f1b7e0b27c31367cc1052bd"
+    },
+    {
+      "byte_count": 85223,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2026-Q2.json",
+      "sha256": "45d5b8ebb94bc5c0ded1ff53c260892f1e1528ecb825b5aadafb841f5c644cb6"
+    },
+    {
+      "byte_count": 33249,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-2026-Q2.md",
+      "sha256": "fa2c8153986be7c9df79c5a79e6ae97b09aeaf7f9ff536350d8ecdd8a776ba5f"
+    },
+    {
+      "byte_count": 101385,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-PAPER-2021.json",
+      "sha256": "178c8d0b22623dc29a3f1ee46de3202373043281baee514eb4c6f21550de864e"
+    },
+    {
+      "byte_count": 45317,
+      "path": "archive/normalized/economic-reports/official/SRC-ECON-PAPER-2021.md",
+      "sha256": "3bbd88ea6989699342076fb741c7aac9710a5d2789f3fe0a5c8ad1a72e476b24"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2022-Q2.json",
+      "sha256": "134f31cd950ebc8a2c87d707c42b8cb28ed8053846c812191c922ef1346a0baa"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2022-Q3.json",
+      "sha256": "d069c4005ec216bd7d8cee4dcea17fe0c6e399fc919ed84b2aaf8ed52f032b65"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2022-Q4.json",
+      "sha256": "1139e7178f09ef4db418c5c15520874191c1d59a5c35061701b69e560cb97b0c"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2023-Q1.json",
+      "sha256": "ca8fd18de098acf82b98672b2c445d57ed72b986aab785e683f778f3b521c167"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2023-Q2.json",
+      "sha256": "53725ae7db71e9cc7e1162670a4f76d90abd982511831755e6da452d4749ae8e"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2023-Q3.json",
+      "sha256": "26ee8ec1ea87bce4de2989472a740c11bf5ee317f00632430ad9ea3e1364ff1c"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2023-Q4.json",
+      "sha256": "9e9eaa0421764468a19287918c37ad1445db96ee0278730611808666274e6966"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2024-Q1.json",
+      "sha256": "dac096df5e1b3ffc227bf01fb4ddad4676e6bc7f5c396b2f8fb89611184347af"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2024-Q2.json",
+      "sha256": "06f3f0425fd558a51f147d1e8bdfd93e4acedb824a4e1744ee5390ad09d0db6a"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2024-Q3.json",
+      "sha256": "6be061b361a7e09871f5398f577ae1cc78553cb81424fa2544ba086d5a2c1897"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2024-Q4.json",
+      "sha256": "61e073e12dd46bfb20a959193c0fc6850679504e577e6e02520a92e00aef288d"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2025-Q1.json",
+      "sha256": "fd7646c83d2435d8bb2ca450dd05a4ed80cc7832a24ef1cbfcdddd2a88690f3a"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2025-Q2.json",
+      "sha256": "e2b16231d89d1f1e3743d2f2bad574ec99f56af846d662bf57ed6a792b45ce14"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2025-Q3.json",
+      "sha256": "4b79dd6bf56570146cc38c838ad7ea9bf494ef729c2c09bd24076d84623a701e"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2025-Q4.json",
+      "sha256": "382110f18ee83c8f18d7921b2cab79dbf2cded8dd68f76b409184ff6d87a39dc"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2026-Q1.json",
+      "sha256": "59528ada6f8c0e0772a37cc58e86dbf66c475f07e7d41b2f48d3cb7c2b3c4512"
+    },
+    {
+      "byte_count": 736,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-2026-Q2.json",
+      "sha256": "1e5c81ec2df5ce2af6b12327b56645dfb7d064d40c3d044815fb3a266b51df47"
+    },
+    {
+      "byte_count": 788,
+      "path": "archive/provenance/economic-reports/official/SRC-ECON-PAPER-2021.json",
+      "sha256": "5fe8ae2352a1dcf0115dcdbe9d36e5df2a6bc95745a5789e61797e55647ad56b"
+    },
+    {
+      "byte_count": 6318808,
+      "path": "archive/raw/economic-reports/official/q1-2023.pdf",
+      "sha256": "c2216d3b660bfeef99d6706fc8d62a49c46f70c5ffa32c91067723a5673e30ee"
+    },
+    {
+      "byte_count": 2292384,
+      "path": "archive/raw/economic-reports/official/q1-2024.pdf",
+      "sha256": "685263f1478444781efeecebd14982ce593dba80cfe8857bc4458fbe89585fc0"
+    },
+    {
+      "byte_count": 2617907,
+      "path": "archive/raw/economic-reports/official/q1-2025.pdf",
+      "sha256": "0b25de1e9a4f927d772d12d13efd59102eb4bbb08c9c1230210c3796c6dfa040"
+    },
+    {
+      "byte_count": 3696494,
+      "path": "archive/raw/economic-reports/official/q1-2026.pdf",
+      "sha256": "200a91638e9b2c23a01ecfa9511df72e48229bfbe45147344698bf2caaa5962d"
+    },
+    {
+      "byte_count": 2140937,
+      "path": "archive/raw/economic-reports/official/q2-2022.pdf",
+      "sha256": "59f9e6083a1e04b49f5d8a52f54948c423b6f27f645dd9c816f4b54e84369601"
+    },
+    {
+      "byte_count": 3526155,
+      "path": "archive/raw/economic-reports/official/q2-2023.pdf",
+      "sha256": "2138f9cbc60b29da41e88b4f3685db3a6d0be0b1dbf980da45cabd665cfa483b"
+    },
+    {
+      "byte_count": 2342647,
+      "path": "archive/raw/economic-reports/official/q2-2024.pdf",
+      "sha256": "4e77eb8e70c1d39b4db35736bef35dc70908b608d82509708078202a04a2fe13"
+    },
+    {
+      "byte_count": 2080308,
+      "path": "archive/raw/economic-reports/official/q2-2025.pdf",
+      "sha256": "9e4304ef9cb02c97d37e3eddd1f6c1997382c4349785ba75a553cc8c274971c9"
+    },
+    {
+      "byte_count": 2574414,
+      "path": "archive/raw/economic-reports/official/q2-2026.pdf",
+      "sha256": "5dd95fe8db72c610d8a497af99d5bfd1fae4adac60f1a144bd44a7f8cf602171"
+    },
+    {
+      "byte_count": 4938169,
+      "path": "archive/raw/economic-reports/official/q3-2022.pdf",
+      "sha256": "2bb2e33e51f575e9b3ed6317d7d52531481f0b8a9a74ccdcd05d8275ca6d9cb9"
+    },
+    {
+      "byte_count": 2436334,
+      "path": "archive/raw/economic-reports/official/q3-2023.pdf",
+      "sha256": "9f150770a801a3b274730c8d018f11848890c14751c60491de51741c87551fd1"
+    },
+    {
+      "byte_count": 1969410,
+      "path": "archive/raw/economic-reports/official/q3-2024.pdf",
+      "sha256": "bde2d6bd07a6f96d6d902ee70dc1adcbfed3c58124bcb0dc115451ff6eea2581"
+    },
+    {
+      "byte_count": 2364836,
+      "path": "archive/raw/economic-reports/official/q3-2025.pdf",
+      "sha256": "6792ba0fedefa30e4f303e6e0189096a9111868ad8cf7bd91d29085c694de418"
+    },
+    {
+      "byte_count": 5248998,
+      "path": "archive/raw/economic-reports/official/q4-2022.pdf",
+      "sha256": "2f0969a0d510fe0e6200e5790a59d2ac69a782bd7fe8e6532a0ad8a29ceb9695"
+    },
+    {
+      "byte_count": 2138146,
+      "path": "archive/raw/economic-reports/official/q4-2023.pdf",
+      "sha256": "d14c5a848db024299233f7d34b8c762c67df23831b9bbe9be467672965deb67d"
+    },
+    {
+      "byte_count": 2235325,
+      "path": "archive/raw/economic-reports/official/q4-2024.pdf",
+      "sha256": "4ff6b3c710e2db7b8260339f3e93b3681bf071b71444f37d79ad609a056f8557"
+    },
+    {
+      "byte_count": 3071280,
+      "path": "archive/raw/economic-reports/official/q4-2025.pdf",
+      "sha256": "f14f6dbb338f1b074abc396b74a40aaaa8238d58f0db2785ae2f6cca67f88f8c"
+    },
+    {
+      "byte_count": 618485,
+      "path": "archive/raw/economic-reports/official/star-atlas-economics-paper.pdf",
+      "sha256": "bd51034b1463d4bfdfaf2b8f741ee70c1f0f6089ee661f9bb955234c516200ba"
+    },
+    {
+      "byte_count": 1940,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q2.json",
+      "sha256": "394741b3ab14b1f7def17cfcc6fc98f1d058a51cf2a557f038e6d18d5f198647"
+    },
+    {
+      "byte_count": 2367,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q2.md",
+      "sha256": "1413b25b437b2df0b31ddf3bd3e00545f6c67d7fffcfb5d82bda315153147348"
+    },
+    {
+      "byte_count": 2032,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q3.json",
+      "sha256": "06b74656b06f633c1471ce2900a917d90459437f0737fabcc926f8573b50d668"
+    },
+    {
+      "byte_count": 2454,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q3.md",
+      "sha256": "e38d4c9bc80a340926c8989568cb5aee5fd77ccc11b235e5f2e2cb120d55c5fa"
+    },
+    {
+      "byte_count": 2032,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q4.json",
+      "sha256": "1e17bac204c82de0e80e82505a051c89c34be5857ca0c028feb4be50aa16ce8b"
+    },
+    {
+      "byte_count": 2454,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2022-Q4.md",
+      "sha256": "c031b874c283023d2ffb2ff9008d264432cd58f538ddbd291de021105a49daac"
+    },
+    {
+      "byte_count": 2032,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q1.json",
+      "sha256": "0df0a08f85a2a56814f60b1e80168c735eff777649ea6ec86f98758b8623dab0"
+    },
+    {
+      "byte_count": 2454,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q1.md",
+      "sha256": "ce6e006635395234b7f1572af5ca5c0eba0d1478d15b7559a2ed13ee50ffc25f"
+    },
+    {
+      "byte_count": 1903,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q2.json",
+      "sha256": "a2882f57c45e6bc06cc9200e883e49506981e86820472531dcd895140236dc0d"
+    },
+    {
+      "byte_count": 2338,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q2.md",
+      "sha256": "73e88c33a9d86a3cf56c8c1de4145bd18e95c116040f63d0b38b429f4a8864e0"
+    },
+    {
+      "byte_count": 1940,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q3.json",
+      "sha256": "75869d8cd76efce424ccc295a83a1871811f7d0d103c1c1de469b0dfa374635e"
+    },
+    {
+      "byte_count": 2367,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q3.md",
+      "sha256": "35eca1adc53797f6bd83034e9d896bb3fedefb1505d1c4afce80ae32c8ee8a97"
+    },
+    {
+      "byte_count": 1937,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q4.json",
+      "sha256": "f4bfb41e0b3fff5c63810166c8400654784e2b0119b0b95140aa1a9ba925fa1b"
+    },
+    {
+      "byte_count": 2359,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2023-Q4.md",
+      "sha256": "7a23e49c506d104d03aeea33cd958109c03c1b8daab33be1f9c6c75270214913"
+    },
+    {
+      "byte_count": 1937,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q1.json",
+      "sha256": "0163cd4488b356b16387209aac73e94a15cfb245ff7062fafbf6a51b34a4f430"
+    },
+    {
+      "byte_count": 2359,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q1.md",
+      "sha256": "158f4dc3efb23a83a64bc50891cafaaf0f25c520f18b7578d480a2b28d00708e"
+    },
+    {
+      "byte_count": 1937,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q2.json",
+      "sha256": "d1a4697c067435354ee201dd92948b9956bb1f73ddb4effa6d6413685807874b"
+    },
+    {
+      "byte_count": 2359,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q2.md",
+      "sha256": "fefdb4651b830438182e0feeb874a0d0d2d325cacf39103051f107ffb104e593"
+    },
+    {
+      "byte_count": 1941,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q3.json",
+      "sha256": "a10d4e83e52adef71fb5ac5cb51106dd41079d24c6af0871aa7020cfd81d55ac"
+    },
+    {
+      "byte_count": 2369,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q3.md",
+      "sha256": "5b853df42e5bbb8f1a2b4ab7867c84233c08d2298888d69e989c1e55d555071b"
+    },
+    {
+      "byte_count": 1937,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q4.json",
+      "sha256": "d091811bb41e0d20651a7584ba683ec9722b4725e06447a991d32a4c518e8e01"
+    },
+    {
+      "byte_count": 2359,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2024-Q4.md",
+      "sha256": "6573ae983bac7b81de463c7bc70758424aec4d172a635cf0c0bbedc92bbe3c27"
+    },
+    {
+      "byte_count": 1937,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q1.json",
+      "sha256": "ef106659cadfed6e16c1d609fe4a37bc8e8e221cbd03d7193d9d68f829c975bf"
+    },
+    {
+      "byte_count": 2359,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q1.md",
+      "sha256": "8aafd5066dc2ebef7444e045bd9f9d607cdc883fe129cca5627a50aff7e807ca"
+    },
+    {
+      "byte_count": 1937,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q2.json",
+      "sha256": "d43d07e1ef77b6e5828fd30c68c3ce171d535eb3f6891de059722c731cf76cb4"
+    },
+    {
+      "byte_count": 2359,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q2.md",
+      "sha256": "f4985bf29569a3663ebd68516924f4f088c0d1597f466a4e09a713655a5e20ef"
+    },
+    {
+      "byte_count": 1937,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q3.json",
+      "sha256": "3d082c8cc519f1374479cf1a5f113c16d3696b9b4f307acd3584564fe3994a2f"
+    },
+    {
+      "byte_count": 2359,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q3.md",
+      "sha256": "cc6188ceedfca3ba6e61091340a7e1d17cd03ec07ad6ccae1b9ebc67cc08d15b"
+    },
+    {
+      "byte_count": 1903,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q4.json",
+      "sha256": "0f7a2eae625dc56f9d0cb4d6a2e7a6b7d582a9ba48926f94f16c0a058cfa1bb6"
+    },
+    {
+      "byte_count": 2338,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2025-Q4.md",
+      "sha256": "49dbd288b28256f6edaf80d9189dfd5e71d8fa1fbbdf9d075a95fc639803e144"
+    },
+    {
+      "byte_count": 1991,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2026-Q1.json",
+      "sha256": "20d1d264bfcd032645c5eacbd11b6f3c0a9895469992afd68b00f404a5af50e6"
+    },
+    {
+      "byte_count": 2368,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2026-Q1.md",
+      "sha256": "104ec4d7721411ca1c88970c1adaead5793ba75ecbfcd735981b1026ec6385a6"
+    },
+    {
+      "byte_count": 1991,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2026-Q2.json",
+      "sha256": "eb9513d0f697866032c8850b856b902d406145cac66b0ed69025e5d8ddf80d58"
+    },
+    {
+      "byte_count": 2368,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-2026-Q2.md",
+      "sha256": "02e9aede8d5f7a251850a85d6f6860cfc831c64964bc9888c788b8445f8bca8d"
+    },
+    {
+      "byte_count": 2020,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-PAPER-2021.json",
+      "sha256": "be4f1157743c45e76a9d63b55c9a8260b78ad99884be0700bb1d5ce3e0773dd2"
+    },
+    {
+      "byte_count": 2401,
+      "path": "archive/source-records/economic-reports/official/SRC-ECON-PAPER-2021.md",
+      "sha256": "003399b025798c624a94996ffcbd8c731a769cc7b8a7af2d7f8b79a002b42654"
+    }
+  ],
+  "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
+  "generated_as_of": "2026-07-22",
+  "schema_version": "1.0.0"
+}

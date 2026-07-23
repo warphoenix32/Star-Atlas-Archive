@@ -1,0 +1,39 @@
+{
+  "archival_abstract": "Official ATMTA period-bound economic publication for 2024 Q3. The complete extractable text is preserved with page boundaries. This record does not treat reported measurements, forecasts, or methodology as independently verified facts.",
+  "author": "Gareth Butler",
+  "canonical_url": "https://storage.googleapis.com/sa-cdn-prod/dao/economy/2024/q3.pdf",
+  "document_classification": "ECONOMIC_REPORT",
+  "document_type": "OFFICIAL_QUARTERLY_ECONOMIC_REPORT",
+  "extraction_confidence": "HIGH",
+  "known_limitations": [
+    "Quantitative claims are publisher-reported and were not independently or on-chain verified by this campaign.",
+    "Text extraction does not preserve chart geometry, table layout, typography, or graphical annotations.",
+    "Metric continuity across quarters requires later methodology reconciliation."
+  ],
+  "lineage_confidence": "HIGH",
+  "manual_review_required": false,
+  "normalized_json_path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q3.json",
+  "normalized_markdown_path": "archive/normalized/economic-reports/official/SRC-ECON-2024-Q3.md",
+  "observed_filenames": [
+    "q3-2024.pdf"
+  ],
+  "official_cross_references": [],
+  "page_count": 12,
+  "period": "2024 Q3",
+  "publication_date_basis": "Embedded PDF CreationDate",
+  "publication_date_normalized": "2024-09-30",
+  "publication_date_original": "2024-09-30",
+  "publisher": "ATMTA, Inc. / Star Atlas",
+  "quarter": "Q3",
+  "raw_byte_count": 1969410,
+  "raw_path": "archive/raw/economic-reports/official/q3-2024.pdf",
+  "raw_sha256": "bde2d6bd07a6f96d6d902ee70dc1adcbfed3c58124bcb0dc115451ff6eea2581",
+  "schema_version": "1.0.0",
+  "series": "Star Atlas State of the Economy",
+  "source_id": "SRC-ECON-2024-Q3",
+  "temporal_validity": "HISTORICAL_PERIOD_BOUND",
+  "title": "Star Atlas State of the Economy - 2024 Q3",
+  "updated_date_normalized": null,
+  "updated_date_original": null,
+  "year": 2024
+}
