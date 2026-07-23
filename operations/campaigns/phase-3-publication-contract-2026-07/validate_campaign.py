@@ -22,7 +22,11 @@ FRESHNESS_PATH = (
     / "operations/campaigns/phase-2-official-freshness-closeout-2026-07"
     / "discovery-candidate-queue.json"
 )
-FRESHNESS_SHA256 = "0f87b390cd0e185d506cfb4658ce2954c78b55f2c5504ae3c648215fedaba8ac"
+FRESHNESS_REPOSITORY_PATH = (
+    "operations/campaigns/phase-2-official-freshness-closeout-2026-07/"
+    "discovery-candidate-queue.json"
+)
+FRESHNESS_BLOB_SHA256 = "c0b81a8f4564bd2b3f9e31b5ae87af8f16a86d0119338730d4c365837d4ac872"
 STATUSES = {
     "PLANNED",
     "DRAFT",
@@ -47,6 +51,21 @@ def load_json(path: Path) -> Any:
 
 def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def git_blob(ref: str, repository_path: str) -> bytes:
+    result = subprocess.run(
+        ["git", "show", f"{ref}:{repository_path}"],
+        cwd=ROOT,
+        capture_output=True,
+        check=False,
+    )
+    if result.returncode:
+        raise RuntimeError(
+            f"cannot read {repository_path} from {ref}: "
+            + result.stderr.decode("utf-8", errors="replace")
+        )
+    return result.stdout
 
 
 def validate_entry(entry: dict[str, Any], all_ids: set[str]) -> list[str]:
@@ -287,7 +306,14 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
 
     freshness = load_json(FRESHNESS_PATH)
     freshness_count = len(freshness.get("candidates", []))
-    freshness_ok = freshness_count == 10 and sha256(FRESHNESS_PATH) == FRESHNESS_SHA256
+    head_blob = git_blob("HEAD", FRESHNESS_REPOSITORY_PATH)
+    base_blob = git_blob(base_ref, FRESHNESS_REPOSITORY_PATH)
+    freshness_blob_sha = hashlib.sha256(head_blob).hexdigest()
+    freshness_ok = (
+        freshness_count == 10
+        and head_blob == base_blob
+        and freshness_blob_sha == FRESHNESS_BLOB_SHA256
+    )
     checks.append({"check": "freshness_queue_preserved", "status": "PASS" if freshness_ok else "FAIL"})
     if not freshness_ok:
         failures.append("ten-item freshness queue changed")
@@ -330,6 +356,7 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
         "metrics": {
             "manifest_entries": len(load_json(MANIFEST_PATH)["entries"]),
             "freshness_candidates_preserved": freshness_count,
+            "freshness_queue_blob_sha256": freshness_blob_sha,
             "placeholder_readmes_condensed": len(PLACEHOLDER_READMES),
             "protected_path_changes": len(protected_changes),
         },
@@ -362,6 +389,7 @@ Result: **{result['status']}**
 
 - Manifest entries: {result['metrics']['manifest_entries']}
 - Freshness candidates preserved: {result['metrics']['freshness_candidates_preserved']}
+- Freshness queue Git-blob SHA-256: `{result['metrics']['freshness_queue_blob_sha256']}`
 - Placeholder READMEs condensed: {result['metrics']['placeholder_readmes_condensed']}
 - Protected-path changes: {result['metrics']['protected_path_changes']}
 

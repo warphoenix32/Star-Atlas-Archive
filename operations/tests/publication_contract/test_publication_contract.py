@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import hashlib
 import importlib.util
 import json
 import unittest
@@ -52,8 +53,10 @@ class PublicationContractTests(unittest.TestCase):
 
     def test_freshness_queue_is_byte_identical(self) -> None:
         self.assertEqual(
-            VALIDATOR.FRESHNESS_SHA256,
-            VALIDATOR.sha256(VALIDATOR.FRESHNESS_PATH),
+            VALIDATOR.FRESHNESS_BLOB_SHA256,
+            hashlib.sha256(
+                VALIDATOR.git_blob("HEAD", VALIDATOR.FRESHNESS_REPOSITORY_PATH)
+            ).hexdigest(),
         )
 
 
