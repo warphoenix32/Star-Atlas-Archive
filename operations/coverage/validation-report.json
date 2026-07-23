@@ -298,13 +298,7 @@
     {
       "name": "library_index_fixed_point",
       "passed": true,
-      "detail": {
-        "byte_check": "library-index.json is stale; run npm run index",
-        "regeneration": "Wrote 80 records to publication\\site\\assets\\library-index.json",
-        "generated_git_hash": "54c47f42f598d8775396fe11e02ae6328fc808dd",
-        "committed_git_hash": "54c47f42f598d8775396fe11e02ae6328fc808dd",
-        "windows_line_ending_fallback": true
-      }
+      "detail": "PASS search index fixed point: 80 records"
     },
     {
       "name": "social_campaign_status_reconciled",

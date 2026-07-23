@@ -22,7 +22,7 @@
 - **PASS — seven_phase_roadmap:** [1, 2, 3, 4, 5, 6, 7]
 - **PASS — phase_one_complete:** {'phase': 1, 'name': 'Repository and evidence baseline', 'status': 'COMPLETE', 'percent_complete': 100, 'remaining_gate_items': []}
 - **PASS — phase_two_in_progress:** {'phase': 2, 'name': 'Priority ingestion', 'status': 'IN_PROGRESS', 'percent_complete': 40, 'remaining_gate_items': ['Ingest the 17-URL official economic-report PDF discovery seed', 'Run official-source freshness discovery', 'Track artifact-blocked Discord and transcript acquisitions without delaying ready work']}
-- **PASS — library_index_fixed_point:** {'byte_check': 'library-index.json is stale; run npm run index', 'regeneration': 'Wrote 80 records to publication\\site\\assets\\library-index.json', 'generated_git_hash': '54c47f42f598d8775396fe11e02ae6328fc808dd', 'committed_git_hash': '54c47f42f598d8775396fe11e02ae6328fc808dd', 'windows_line_ending_fallback': True}
+- **PASS — library_index_fixed_point:** PASS search index fixed point: 80 records
 - **PASS — social_campaign_status_reconciled:** {'summary': 'PASS', 'validation': 'PASS'}
 
 ## Limitations

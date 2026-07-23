@@ -170,6 +170,9 @@ def main() -> int:
         }
     else:
         library_passed = True
+    if library_passed:
+        library_records = json.loads((ROOT / "publication/site/assets/library-index.json").read_text(encoding="utf-8"))
+        library_detail = f"PASS search index fixed point: {len(library_records)} records"
     check("library_index_fixed_point", library_passed, library_detail)
     social_summary = json.loads((ROOT / "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json").read_text(encoding="utf-8"))
     social_validation = json.loads((ROOT / "operations/campaigns/social-governance-semantic-enrichment/validation-report.json").read_text(encoding="utf-8"))
