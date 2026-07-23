@@ -2,7 +2,7 @@
   "program_id": "star-atlas-library-roadmap",
   "as_of": "2026-07-23",
   "baseline_sha": "d99b03e5e77944445fac38987b52f0108490dc6f",
-  "current_phase": 4,
+  "current_phase": 5,
   "phases": [
     {
       "phase": 1,
@@ -28,19 +28,16 @@
     {
       "phase": 4,
       "name": "Knowledge consolidation",
-      "status": "IN_PROGRESS",
-      "percent_complete": 60,
-      "remaining_gate_items": [
-        "Consolidate the ten selected dossiers without drafting public articles"
-      ]
+      "status": "COMPLETE",
+      "percent_complete": 100,
+      "remaining_gate_items": []
     },
     {
       "phase": 5,
       "name": "Publication layer",
-      "status": "NOT_STARTED",
-      "percent_complete": 0,
+      "status": "IN_PROGRESS",
+      "percent_complete": 20,
       "remaining_gate_items": [
-        "Stable publication contract",
         "Initial ten-article portfolio"
       ]
     },
@@ -79,11 +76,17 @@
     "operations/schema/PUBLICATION-MANIFEST-v1.schema.json",
     "operations/campaigns/phase-3-publication-contract-2026-07/campaign-summary.json"
   ],
-  "phase_4_progress_basis": "The 81-file knowledge corpus is inventoried, ten historically valuable dossiers are selected, all ten evidence packets are complete, and ten stale knowledge/index pages are reconciled to merged Medium, Atlas Brew, and economic-report evidence. Deliberate dossier consolidation remains.",
+  "phase_4_progress_basis": "The 81-file baseline knowledge corpus was inventoried, ten evidence-qualified dossiers were consolidated, a reader guide and seven lore foundations were added, and the final 89-file knowledge corpus is ready for Phase 5 editorial use. No archive evidence, graph fact, publication manifest, site design, or public article changed; the deterministic Pages search index was refreshed.",
   "phase_4_progress_evidence": [
     "operations/campaigns/phase-4-knowledge-consolidation-2026-07/corpus-inventory.json",
     "operations/campaigns/phase-4-knowledge-consolidation-2026-07/dossier-portfolio.json",
+    "operations/campaigns/phase-4-knowledge-consolidation-2026-07/consolidation-results.json",
     "operations/campaigns/phase-4-knowledge-consolidation-2026-07/campaign-summary.json"
+  ],
+  "phase_5_progress_basis": "The publication contract and manifest schema are stable, and ten consolidated knowledge dossiers are ready for editorial drafting. No public article has yet been created.",
+  "phase_5_progress_evidence": [
+    "publication/PUBLICATION-CONTRACT.md",
+    "operations/campaigns/phase-4-knowledge-consolidation-2026-07/consolidation-results.json"
   ],
   "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
   "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",

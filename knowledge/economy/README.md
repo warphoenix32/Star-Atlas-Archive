@@ -28,6 +28,8 @@ This section is organized for readers first. It explains how the principal econo
 
 ## Begin with the two tokens
 
+[Foundational Dossiers](../Foundational-Dossiers.md) places this economic history beside its governance, treasury, and product contexts.
+
 [ATLAS](ATLAS-Token-History.md) is documented as the ecosystem's transferable utility and exchange token. Across different periods it has appeared in marketplace transactions, gameplay rewards and costs, locking programs, treasury holdings, and proposal payment terms. Those roles should not be collapsed into a single claim about the token's current utility or emissions.
 
 [POLIS](POLIS-Token-History.md) is the governance token. Locked POLIS positions contribute to [POLIS Voting Power](PVP-Voting-Power.md), but the transferable token, a locked position, the locker program, a voting snapshot, and the derived PVP value are distinct objects. This matters when reading vote results or historical statements about governance concentration.

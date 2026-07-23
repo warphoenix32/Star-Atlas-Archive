@@ -14,7 +14,7 @@
       "from": "Phase 5",
       "to": "Phase 3",
       "status": "SATISFIED",
-      "reason": "The publication boundary and manifest contract are stable; the Phase 5 portfolio remains dependent on Phase 4 knowledge consolidation."
+      "reason": "The publication boundary and manifest contract are stable, and Phase 4 knowledge consolidation is complete."
     },
     {
       "dependency_id": "DEP-003",
@@ -48,8 +48,8 @@
       "dependency_id": "DEP-007",
       "from": "Phase 5",
       "to": "Phase 4",
-      "status": "PENDING",
-      "reason": "Publication drafting requires reviewed priority evidence packets and historically valuable dossiers from knowledge consolidation."
+      "status": "SATISFIED",
+      "reason": "All ten selected dossiers have reviewed evidence packets, primary narrative routes, and supporting research pages."
     }
   ]
 }

@@ -273,7 +273,13 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.md",
     } for path in changes)
     discord_campaign = any(path.startswith(("operations/campaigns/discord-community-indexing-001/", "operations/tests/discord_community_indexing/")) for path in changes)
-    library_frontend = not publication_contract_campaign and any(path.startswith(("publication/site/", "operations/tests/library_frontend/")) or path == "publication/README.md" for path in changes)
+    library_frontend = not (
+        publication_contract_campaign or phase4_knowledge_consolidation
+    ) and any(
+        path.startswith(("publication/site/", "operations/tests/library_frontend/"))
+        or path == "publication/README.md"
+        for path in changes
+    )
     lore_campaign = any(path.startswith((
         "archive/raw/lore-repository/",
         "archive/provenance/lore-repository/",
@@ -306,9 +312,11 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "knowledge/",
             "operations/campaigns/phase-4-knowledge-consolidation-2026-07/",
             "operations/tests/phase4_knowledge_consolidation/",
+            "operations/tests/library_frontend/test_frontend.py",
             "operations/programs/library-roadmap/",
             "operations/coverage/campaign-status-register.json",
             "operations/coverage/campaign-status-register.md",
+            "publication/site/assets/library-index.json",
         )
         label = "phase-4-knowledge-consolidation-2026-07"
     elif publication_contract_campaign:

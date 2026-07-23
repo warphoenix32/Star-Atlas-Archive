@@ -23,6 +23,8 @@ Star Atlas history lives across official announcements, long-form articles, comm
 
 ## Start with the source map
 
+- [Foundational Dossiers](../Foundational-Dossiers.md) connects official communications and community broadcasts to the wider institutional history.
+
 - [Media and Creator Index](Media-and-Creator-Index.md) — major sources, preserved coverage, affiliations, and research priorities.
 - [Community Publication Relationship Index](Community-Publication-Relationship-Index.md) — publisher, author, host, curator, replay, and original-source boundaries.
 

@@ -1,4 +1,4 @@
-"""Validate the Phase 4 knowledge-consolidation evidence gate."""
+"""Validate the completed Phase 4 knowledge-consolidation campaign."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[3]
 CAMPAIGN = Path(__file__).resolve().parent
-UPDATED_KNOWLEDGE = [
+DRIFT_RECONCILED_KNOWLEDGE = [
     "knowledge/Entity-Relationship-Map.md",
     "knowledge/economy/Economic-Report-Catalog.md",
     "knowledge/economy/README.md",
@@ -23,6 +23,23 @@ UPDATED_KNOWLEDGE = [
     "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
     "knowledge/research/Research-Backlog.md",
     "knowledge/timeline/Official-Communications-Chronology.md",
+]
+CONSOLIDATED_KNOWLEDGE = [
+    "knowledge/Foundational-Dossiers.md",
+    "knowledge/README.md",
+    "knowledge/economy/README.md",
+    "knowledge/gameplay/README.md",
+    "knowledge/governance/README.md",
+    "knowledge/lore/Council-of-Peace.md",
+    "knowledge/lore/Convergence-War.md",
+    "knowledge/lore/Galia-Expanse.md",
+    "knowledge/lore/Manus-Ultima-Divina.md",
+    "knowledge/lore/ONI-Consortium.md",
+    "knowledge/lore/Peoples-of-Galia.md",
+    "knowledge/lore/README.md",
+    "knowledge/lore/Ustur.md",
+    "knowledge/media/README.md",
+    "knowledge/organizations/README.md",
 ]
 
 
@@ -58,13 +75,18 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
     checks.append({"check": "campaign_json_parse", "status": "PASS" if not failures else "FAIL"})
 
     inventory = load_json(CAMPAIGN / "corpus-inventory.json")
+    final_inventory = load_json(CAMPAIGN / "post-consolidation-inventory.json")
     knowledge_files = [path for path in (ROOT / "knowledge").rglob("*") if path.is_file()]
     markdown_files = [path for path in knowledge_files if path.suffix.lower() == ".md"]
     json_files = [path for path in knowledge_files if path.suffix.lower() == ".json"]
     inventory_ok = (
-        len(knowledge_files) == inventory["knowledge_files"]["total"] == 81
-        and len(markdown_files) == inventory["knowledge_files"]["markdown"] == 80
-        and len(json_files) == inventory["knowledge_files"]["json"] == 1
+        inventory["knowledge_files"]["total"] == 81
+        and inventory["knowledge_files"]["markdown"] == 80
+        and inventory["knowledge_files"]["json"] == 1
+        and final_inventory["baseline_knowledge_files"] == 81
+        and len(knowledge_files) == final_inventory["knowledge_files"]["total"] == 89
+        and len(markdown_files) == final_inventory["knowledge_files"]["markdown"] == 88
+        and len(json_files) == final_inventory["knowledge_files"]["json"] == 1
     )
     checks.append({"check": "knowledge_inventory", "status": "PASS" if inventory_ok else "FAIL"})
     if not inventory_ok:
@@ -77,9 +99,11 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
         len(dossiers) == 10
         and len(dossier_ids) == len(set(dossier_ids))
         and portfolio.get("portfolio_status")
-        == "EVIDENCE_PACKETS_COMPLETE_CONSOLIDATION_PENDING"
+        == "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+        and portfolio.get("publication_authorized") is False
+        and portfolio.get("publication_candidate_ready") is True
         and all(
-            item.get("evidence_readiness", "").startswith("PACKET_COMPLETE")
+            item.get("evidence_readiness") == "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
             for item in dossiers
         )
     )
@@ -134,22 +158,52 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
     if not packet_ok and not any("packet" in item for item in failures):
         failures.append("expected ten reviewed evidence packets")
 
+    consolidation = load_json(CAMPAIGN / "consolidation-results.json")
+    result_dossiers = consolidation.get("dossiers", [])
+    consolidation_ok = (
+        consolidation.get("status") == "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+        and consolidation.get("reader_guide") == "knowledge/Foundational-Dossiers.md"
+        and len(result_dossiers) == 10
+        and {item.get("dossier_id") for item in result_dossiers} == set(dossier_ids)
+        and all(
+            item.get("disposition") == "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+            and (ROOT / item["primary_narrative"]).is_file()
+            and all((ROOT / value).is_file() for value in item.get("supporting_paths", []))
+            for item in result_dossiers
+        )
+        and consolidation.get("metrics", {}).get("knowledge_files_after") == 89
+        and consolidation.get("metrics", {}).get("public_articles_created") == 0
+    )
+    checks.append({
+        "check": "consolidation_results",
+        "status": "PASS" if consolidation_ok else "FAIL",
+    })
+    if not consolidation_ok:
+        failures.append("consolidation results do not reconcile to the ten dossiers")
+
     summary = load_json(CAMPAIGN / "campaign-summary.json")
     summary_ok = (
-        summary.get("status") == "EVIDENCE_GATE_COMPLETE_CONSOLIDATION_PENDING"
+        summary.get("status") == "PHASE_4_COMPLETE_PUBLICATION_REVIEW_READY"
         and summary.get("evidence_packets_completed") == len(packet_paths) == 10
         and summary.get("evidence_gate", {}).get("dossiers_covered") == len(dossiers)
         and summary.get("evidence_gate", {}).get("allowed_claims") == allowed_claims
         and summary.get("evidence_gate", {}).get("rejected_inferences")
         == rejected_inferences
+        and summary.get("dossiers_consolidated") == 10
+        and summary.get("knowledge_pages_added") == 8
+        and summary.get("consolidation_gate", {}).get(
+            "dossiers_ready_for_publication_review"
+        ) == 10
+        and summary.get("consolidation_gate", {}).get("public_articles_created") == 0
         and summary.get("remaining_phase_4_gate", {}).get("evidence_packets") == 0
+        and summary.get("remaining_phase_4_gate", {}).get("dossiers") == 0
     )
     checks.append({"check": "campaign_summary", "status": "PASS" if summary_ok else "FAIL"})
     if not summary_ok:
         failures.append("campaign summary does not reconcile to evidence packets")
 
     pages_ok = True
-    for value in UPDATED_KNOWLEDGE:
+    for value in CONSOLIDATED_KNOWLEDGE:
         path = ROOT / value
         text = path.read_text(encoding="utf-8")
         if not re.search(r"^as_of: 2026-07-23$", text, re.MULTILINE):
@@ -168,7 +222,8 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
     checks.append({"check": "updated_knowledge_metadata", "status": "PASS" if pages_ok else "FAIL"})
 
     corpus_text = "\n".join(
-        (ROOT / value).read_text(encoding="utf-8") for value in UPDATED_KNOWLEDGE
+        (ROOT / value).read_text(encoding="utf-8")
+        for value in DRIFT_RECONCILED_KNOWLEDGE
     )
     truth_ok = (
         "181 confirmed articles" in corpus_text
@@ -191,20 +246,30 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
 
     changes = changed_paths(base_ref)
     knowledge_changes = [path for path in changes if path.startswith("knowledge/")]
-    evidence_gate_scope_ok = not knowledge_changes
+    unexpected_knowledge = sorted(set(knowledge_changes) - set(CONSOLIDATED_KNOWLEDGE))
+    evidence_gate_scope_ok = not unexpected_knowledge
     checks.append({
-        "check": "evidence_gate_knowledge_scope",
+        "check": "consolidation_knowledge_scope",
         "status": "PASS" if evidence_gate_scope_ok else "FAIL",
     })
-    if knowledge_changes:
+    if unexpected_knowledge:
         failures.append(
-            "evidence gate unexpectedly changed knowledge paths: "
-            + ", ".join(knowledge_changes)
+            "consolidation unexpectedly changed knowledge paths: "
+            + ", ".join(unexpected_knowledge)
         )
+    allowed_generated_publication = {
+        "publication/site/assets/library-index.json",
+    }
     forbidden = [
         path
         for path in changes
-        if path.startswith(("archive/", "graph/", "publication/"))
+        if (
+            path.startswith(("archive/", "graph/"))
+            or (
+                path.startswith("publication/")
+                and path not in allowed_generated_publication
+            )
+        )
     ]
     scope_ok = not forbidden
     checks.append({"check": "protected_paths", "status": "PASS" if scope_ok else "FAIL"})
@@ -221,15 +286,16 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
             "dossiers_selected": len(dossiers),
             "evidence_packets_completed": len(packet_paths),
             "dossiers_covered": len(covered_dossier_ids),
+            "dossiers_consolidated": len(result_dossiers),
             "allowed_claims": allowed_claims,
             "rejected_inferences": rejected_inferences,
-            "knowledge_pages_updated": len(UPDATED_KNOWLEDGE),
-            "gate_2_knowledge_changes": len(knowledge_changes),
+            "knowledge_pages_added": 8,
+            "consolidation_knowledge_changes": len(knowledge_changes),
             "protected_path_changes": len(forbidden),
         },
         "failures": failures,
         "human_adjudication_required": False,
-        "next_gate": "Consolidate the ten evidence-qualified dossiers without drafting public articles",
+        "next_gate": "Begin Phase 5 publication drafting from the ten consolidated dossiers",
     }
 
 
@@ -241,7 +307,7 @@ def write_reports(result: dict[str, Any]) -> None:
     )
     rows = "\n".join(f"| {item['check']} | {item['status']} |" for item in result["checks"])
     failure_lines = "\n".join(f"- {item}" for item in result["failures"]) or "- None."
-    markdown = f"""# Phase 4 Evidence Gate Validation
+    markdown = f"""# Phase 4 Consolidation Validation
 
 Result: **{result['status']}**
 
@@ -255,10 +321,11 @@ Result: **{result['status']}**
 - Dossiers selected: {result['metrics']['dossiers_selected']}
 - Evidence packets complete: {result['metrics']['evidence_packets_completed']}
 - Dossiers covered: {result['metrics']['dossiers_covered']}
+- Dossiers consolidated: {result['metrics']['dossiers_consolidated']}
 - Allowed claims recorded: {result['metrics']['allowed_claims']}
 - Rejected inferences recorded: {result['metrics']['rejected_inferences']}
-- Knowledge pages updated: {result['metrics']['knowledge_pages_updated']}
-- Gate 2 knowledge changes: {result['metrics']['gate_2_knowledge_changes']}
+- Knowledge pages added: {result['metrics']['knowledge_pages_added']}
+- Consolidation knowledge changes: {result['metrics']['consolidation_knowledge_changes']}
 - Protected-path changes: {result['metrics']['protected_path_changes']}
 
 ## Failures

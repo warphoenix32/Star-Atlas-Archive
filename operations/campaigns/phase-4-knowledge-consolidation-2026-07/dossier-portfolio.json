@@ -1,8 +1,9 @@
 {
   "campaign_id": "phase-4-knowledge-consolidation-2026-07",
   "as_of": "2026-07-23",
-  "portfolio_status": "EVIDENCE_PACKETS_COMPLETE_CONSOLIDATION_PENDING",
+  "portfolio_status": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
   "publication_authorized": false,
+  "publication_candidate_ready": true,
   "dossiers": [
     {
       "dossier_id": "DOSSIER-GOVERNANCE-INSTITUTIONAL-ORDER",
@@ -10,7 +11,7 @@
       "priority": "HIGH",
       "risk_class": "R2",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/governance/Governance-Constitutional-History.md",
         "knowledge/governance/Star-Atlas-DAO.md",
@@ -24,7 +25,7 @@
       "priority": "HIGH",
       "risk_class": "R3",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/governance/PIP-Registry.md",
         "knowledge/governance/Council-Election-History.md",
@@ -37,7 +38,7 @@
       "priority": "HIGH",
       "risk_class": "R3",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/economy/DAO-Treasury-Architecture.md",
         "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
@@ -50,7 +51,7 @@
       "priority": "HIGH",
       "risk_class": "R3",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/economy/ATLAS-Token-History.md",
         "knowledge/economy/POLIS-Token-History.md",
@@ -63,7 +64,7 @@
       "priority": "HIGH",
       "risk_class": "R3",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
         "knowledge/gameplay/SAGE.md",
@@ -76,7 +77,7 @@
       "priority": "MEDIUM",
       "risk_class": "R2",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/gameplay/UE5-Showroom.md",
         "knowledge/gameplay/Holosim.md"
@@ -88,7 +89,7 @@
       "priority": "HIGH",
       "risk_class": "R2",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/timeline/Official-Communications-Chronology.md",
         "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
@@ -102,7 +103,7 @@
       "priority": "HIGH",
       "risk_class": "R3",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/media/Atlas-Brew-History.md",
         "knowledge/media/Star-Atlas-Town-Hall-History.md",
@@ -115,7 +116,7 @@
       "priority": "MEDIUM",
       "risk_class": "R3",
       "action": "MERGE",
-      "evidence_readiness": "PACKET_COMPLETE",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
         "knowledge/organizations/ATMTA.md",
         "knowledge/organizations/Institutional-Overview.md",
@@ -128,8 +129,15 @@
       "priority": "HIGH",
       "risk_class": "R3",
       "action": "EXPAND",
-      "evidence_readiness": "PACKET_COMPLETE_ENTITY_PAGES_PENDING",
+      "evidence_readiness": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
       "knowledge_paths": [
+        "knowledge/lore/Galia-Expanse.md",
+        "knowledge/lore/Manus-Ultima-Divina.md",
+        "knowledge/lore/ONI-Consortium.md",
+        "knowledge/lore/Ustur.md",
+        "knowledge/lore/Council-of-Peace.md",
+        "knowledge/lore/Convergence-War.md",
+        "knowledge/lore/Peoples-of-Galia.md",
         "knowledge/lore/Canon-Registry.md",
         "knowledge/timeline/Lore-Timeline.md"
       ]

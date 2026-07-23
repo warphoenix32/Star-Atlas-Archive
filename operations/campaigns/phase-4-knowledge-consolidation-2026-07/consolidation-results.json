@@ -1,0 +1,129 @@
+{
+  "campaign_id": "phase-4-knowledge-consolidation-2026-07",
+  "as_of": "2026-07-23",
+  "status": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
+  "reader_guide": "knowledge/Foundational-Dossiers.md",
+  "dossiers": [
+    {
+      "dossier_id": "DOSSIER-GOVERNANCE-INSTITUTIONAL-ORDER",
+      "primary_narrative": "knowledge/governance/Governance-Constitutional-History.md",
+      "supporting_paths": [
+        "knowledge/governance/Star-Atlas-DAO.md",
+        "knowledge/governance/Star-Atlas-Foundation.md",
+        "knowledge/governance/Star-Atlas-Council.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-GOVERNANCE-DECISIONS-AND-FAILURES",
+      "primary_narrative": "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+      "supporting_paths": [
+        "knowledge/governance/PIP-Registry.md",
+        "knowledge/governance/Council-Election-History.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-TREASURY-AND-FUNDING",
+      "primary_narrative": "knowledge/economy/DAO-Treasury-Architecture.md",
+      "supporting_paths": [
+        "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
+        "knowledge/governance/Ecosystem-Fund-Award-History.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-ECONOMIC-HISTORY",
+      "primary_narrative": "knowledge/economy/ATLAS-Token-History.md",
+      "supporting_paths": [
+        "knowledge/economy/POLIS-Token-History.md",
+        "knowledge/economy/Economic-Report-Catalog.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-SCORE-SAGE-STARBASED",
+      "primary_narrative": "knowledge/gameplay/SAGE.md",
+      "supporting_paths": [
+        "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+        "knowledge/gameplay/Product-Registry.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-IMMERSIVE-PRODUCTS",
+      "primary_narrative": "knowledge/gameplay/Holosim.md",
+      "supporting_paths": [
+        "knowledge/gameplay/UE5-Showroom.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-OFFICIAL-COMMUNICATIONS",
+      "primary_narrative": "knowledge/timeline/Official-Communications-Chronology.md",
+      "supporting_paths": [
+        "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+        "knowledge/media/Official-Discord-Announcements-Profile.md",
+        "knowledge/media/Official-X-Account-Profile.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-COMMUNITY-BROADCASTS",
+      "primary_narrative": "knowledge/media/Atlas-Brew-History.md",
+      "supporting_paths": [
+        "knowledge/media/Star-Atlas-Town-Hall-History.md",
+        "knowledge/media/VBTV-Star-Atlas-TV-Recording-Index.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-ORGANIZATIONS-AND-ROLES",
+      "primary_narrative": "knowledge/organizations/Institutional-Overview.md",
+      "supporting_paths": [
+        "knowledge/organizations/ATMTA.md",
+        "knowledge/organizations/Organization-and-Role-Registry.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW"
+    },
+    {
+      "dossier_id": "DOSSIER-LORE-FOUNDATIONS",
+      "primary_narrative": "knowledge/lore/Galia-Expanse.md",
+      "supporting_paths": [
+        "knowledge/lore/Manus-Ultima-Divina.md",
+        "knowledge/lore/ONI-Consortium.md",
+        "knowledge/lore/Ustur.md",
+        "knowledge/lore/Council-of-Peace.md",
+        "knowledge/lore/Convergence-War.md",
+        "knowledge/lore/Peoples-of-Galia.md",
+        "knowledge/lore/Canon-Registry.md",
+        "knowledge/timeline/Lore-Timeline.md"
+      ],
+      "disposition": "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
+      "preserved_conflicts": [
+        "Council of Peace source versus published-mirror text divergence",
+        "Convergence War source versus published-mirror text divergence",
+        "Galia atlas counts and control data are snapshot-bound"
+      ]
+    }
+  ],
+  "metrics": {
+    "dossiers_consolidated": 10,
+    "reader_guide_pages_added": 1,
+    "lore_foundation_pages_added": 7,
+    "knowledge_files_before": 81,
+    "knowledge_files_after": 89,
+    "public_articles_created": 0
+  },
+  "boundaries": {
+    "new_sources_ingested": false,
+    "archive_evidence_modified": false,
+    "graph_modified": false,
+    "publication_modified": true,
+    "publication_change_scope": "DETERMINISTIC_LIBRARY_SEARCH_INDEX_ONLY",
+    "site_modified": true,
+    "site_change_scope": "GENERATED_SEARCH_INDEX_ONLY_NO_LAYOUT_OR_ARTICLE_CHANGE"
+  },
+  "human_adjudication_required": false,
+  "next_gate": "Begin Phase 5 publication drafting from the ten consolidated dossiers"
+}

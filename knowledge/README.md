@@ -3,7 +3,7 @@ title: "Star Atlas Knowledge"
 seo_title: "Star Atlas Knowledge — Evidence-Qualified History and Reference"
 seo_description: "Explore the institutions, products, economy, lore, people, events, and history of Star Atlas through reviewed and source-linked knowledge."
 knowledge_status: CANONICAL
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
@@ -23,6 +23,8 @@ review_after: 2027-01-20
 Star Atlas Knowledge turns preserved evidence into readable institutional history. It explains what is known about the universe, organizations, products, governance, economy, people, and community—without hiding where the record is incomplete or where an announcement never became a release.
 
 This is the interpretation layer of the repository. The [Archive](../archive/README.md) preserves source material; Knowledge organizes reviewed conclusions; the public Library presents approved knowledge without exposing internal workflow machinery.
+
+For a guided route through the strongest histories, begin with the [ten Foundational Knowledge Dossiers](Foundational-Dossiers.md). They pair one primary narrative with the supporting ledgers, registries, and source profiles needed for deeper research.
 
 ## Begin with a question
 
@@ -66,4 +68,4 @@ Where the evidence supports only one stage, the page says only that. Where sourc
 
 ## Review status
 
-This index was comprehensively revised during Knowledge Narrative Depth Wave 4. It is ready for publication review and introduces no change to preserved archive, semantic, graph, or publication evidence.
+This index was comprehensively revised during Knowledge Narrative Depth Wave 4 and the Phase 4 consolidation campaign. It is ready for publication review and introduces no change to preserved archive, semantic, graph, or publication evidence.

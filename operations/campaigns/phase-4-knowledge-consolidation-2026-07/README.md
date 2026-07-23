@@ -34,6 +34,21 @@ freeze the evidence boundary before the ten dossiers are deliberately
 consolidated. Reader-oriented lore entity pages remain part of that next
 consolidation gate.
 
+## Gate 3
+
+The final gate consolidates all ten dossiers. It adds one reader guide, seven
+missing lore foundations, and domain-index links without duplicating the
+existing primary narratives and research ledgers.
+
+The knowledge corpus grows from the preserved 81-file baseline to 89 files.
+All source divergence and snapshot limitations remain visible. No archive,
+graph, publication-manifest, site-design, or public-article change occurs. The
+generated search index is refreshed because the existing Pages build requires
+one entry for every knowledge Markdown file.
+
+Phase 4 is complete. The next gate is Phase 5 publication drafting under the
+validated publication contract.
+
 ## Validation
 
 ```text

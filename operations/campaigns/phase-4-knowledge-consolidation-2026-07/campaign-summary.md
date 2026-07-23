@@ -1,29 +1,32 @@
-# Phase 4 Knowledge Consolidation — Evidence Gate
+# Phase 4 Knowledge Consolidation
 
-Status: **EVIDENCE GATE COMPLETE; CONSOLIDATION PENDING**
+Status: **PHASE 4 COMPLETE; PUBLICATION REVIEW READY**
 
-The 81-file knowledge corpus was inventoried and ten historically valuable
-dossier candidates were selected. Three evidence packets reconcile high-value
-evidence that merged after the prior narrative campaign:
+The campaign inventoried the 81-file baseline knowledge corpus, selected ten
+historically valuable dossiers, completed ten evidence packets, and reconciled
+stale Medium, Atlas Brew, and economic-report knowledge.
 
-- Official Medium: 181 confirmed articles, 216 known review candidates resolved,
-  discovery still incomplete.
-- Atlas Brew: 123 high-confidence transcript mappings within a 124-item public
-  playlist, with episode #7 separately preserved as qualified ASR.
-- Economic reports: 17 quarterly PDFs plus one economics paper preserved;
-  metric-level longitudinal interpretation remains open.
+The final consolidation gate adds:
 
-Gate 2 adds reviewed evidence packets for governance institutions, governance
-decisions and failures, treasury and funding, the SCORE–SAGE–Starbased
-transition, the UE5 Showroom and Holosim, organizations and roles, and lore
-foundations. All ten selected dossiers now have explicit allowed claims,
-rejected inferences, authority classes, and known limitations.
+- one reader-oriented [Foundational Knowledge Dossiers](../../../knowledge/Foundational-Dossiers.md)
+  guide;
+- seven lore foundations covering Galia, MUD, ONI, Ustur, the Council of Peace,
+  the Convergence War, and the peoples of Galia;
+- clear primary narratives and supporting research pages for all ten dossiers;
+  and
+- preserved qualifications for source divergence, snapshot-bound lore data,
+  institutional attribution, product lifecycle, and financial evidence.
 
-Ten affected knowledge and index pages were updated in Gate 1. Gate 2 changes
-only campaign evidence and status artifacts. No source was ingested, and no
-archive evidence, graph fact, publication manifest, site file, public article,
-or knowledge page was changed.
+The knowledge corpus now contains 89 files: 88 Markdown files and one JSON
+ledger. The original 81-file inventory remains preserved as the campaign
+baseline rather than being rewritten.
 
-Phase 4 now requires deliberate consolidation of the ten selected knowledge
-histories. The lore dossier additionally requires reader-oriented entity pages.
-Publication drafting remains blocked until consolidation is validated.
+No source was ingested. No archive evidence, graph fact, publication manifest,
+site design, or public article changed. The deterministic GitHub Pages search
+index was refreshed because the current build contract indexes every knowledge
+Markdown file and rejects stale entries. The ten dossiers are ready to inform
+Phase 5 editorial drafting, but their readiness does not itself authorize a
+new publication-layer article.
+
+No human adjudication is required. The next gate is the initial Phase 5
+publication portfolio under the validated publication contract.

@@ -4,10 +4,11 @@ This directory is the operational source of truth for the seven-phase Archive â†
 
 At every campaign closeout, the Lead Coordinator updates the program status and any affected coverage, campaign, dependency, backlog, and human-adjudication records. A campaign that does not affect a field records `NO_CHANGE`; it must not silently leave the roadmap stale.
 
-Phase 3 is closed. Phase 4 is in progress: the knowledge corpus is inventoried,
-ten historically valuable dossiers are selected, and all ten evidence packets
-are complete. Deliberate dossier consolidation remains. The current GitHub
-Pages site and publication manifest remain unchanged. Public article drafting
-remains Phase 5 work.
+Phase 4 is closed. Ten historically valuable dossiers now have reviewed
+evidence packets, primary narrative routes, supporting research pages, and a
+reader-oriented guide. Seven missing lore foundations were added without
+rewriting evidence. Phase 5 is now in progress at its initial editorial gate.
+The current GitHub Pages site and contract-only publication manifest remain
+unchanged.
 
 The detailed evidence baseline is maintained in [`../../coverage/`](../../coverage/).

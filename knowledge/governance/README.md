@@ -3,7 +3,7 @@ title: "Star Atlas Governance: Institutions, Proposals, and Evidence"
 seo_title: "Star Atlas Governance History, DAO, Council, and PIP Guide"
 seo_description: "A documented guide to the Star Atlas DAO, Foundation, Council, POLIS Improvement Proposals, elections, treasury authority, and implementation evidence."
 knowledge_status: CANONICAL
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
@@ -26,6 +26,7 @@ This section follows a simple rule: **a proposal is not a vote, a vote is not im
 
 ## Begin with the institutions
 
+- [Foundational Dossiers](../Foundational-Dossiers.md) provides the reader route across governance, treasury, economy, and the other major histories.
 - [Star Atlas DAO](Star-Atlas-DAO.md) explains the POLIS electorate and its formal PVP-weighted decision authority.
 - [Star Atlas Foundation](Star-Atlas-Foundation.md) describes the legal and administrative implementation body established by the captured governance framework.
 - [Star Atlas Council](Star-Atlas-Council.md) traces the elected process steward, its delegated administrative work, and the limits of Council-authored operational assessments.

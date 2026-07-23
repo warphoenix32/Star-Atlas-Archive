@@ -3,7 +3,7 @@ title: "Organizations Knowledge"
 seo_title: "Star Atlas Organizations and Institutional History"
 seo_description: "Explore the companies, governance bodies, community institutions, roles, and organizational relationships that shaped Star Atlas."
 knowledge_status: CANONICAL
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
@@ -22,6 +22,8 @@ review_after: 2027-07-20
 Organizations shape Star Atlas through development, governance, publishing, community coordination, and collective play. This domain focuses on identity, history, relationships, roles, and aliases. Procedures and formal authority remain in [Governance](../governance/README.md); player organizations remain in [Guilds and DACs](../guilds/README.md).
 
 ## Foundation reading
+
+- [Foundational Dossiers](../Foundational-Dossiers.md) places these organizations within the governance, treasury, product, and media histories they shaped.
 
 - [Star Atlas Institutional Overview](Institutional-Overview.md) — how ATMTA, the DAO, Foundation, Council, and treasury programs differ.
 - [ATMTA, Inc.](ATMTA.md) — the operating company's documented role and evidentiary limits.

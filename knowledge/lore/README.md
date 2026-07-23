@@ -3,7 +3,7 @@ title: "Star Atlas Lore"
 seo_title: "Star Atlas Lore — Canon, Factions, Species, Places, and History"
 seo_description: "Explore evidence-qualified Star Atlas lore, including the Galia Expanse, factions, species, locations, characters, artifacts, and canon history."
 knowledge_status: CANONICAL
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
@@ -22,7 +22,7 @@ review_after: 2027-01-20
 
 The Galia Expanse has its own peoples, institutions, places, technologies, conflicts, and remembered history. This section organizes that in-universe record while keeping fictional chronology separate from the real-world history of how Star Atlas published and revised its lore.
 
-The [Canon Registry](Canon-Registry.md) is the principal guide to authority, preferred names, classifications, aliases, continuity conflicts, and publication status. It does not silently harmonize older white papers, marketplace descriptions, graphic novels, interviews, or later reference material.
+Begin with [The Galia Expanse](Galia-Expanse.md) for a narrative introduction. The [Canon Registry](Canon-Registry.md) remains the principal guide to authority, preferred names, classifications, aliases, continuity conflicts, and publication status. It does not silently harmonize older white papers, marketplace descriptions, graphic novels, interviews, or later reference material.
 
 ## Canonical vocabulary
 
@@ -43,8 +43,14 @@ This authority does not extend to governance, operational history, provenance, o
 
 ## Research paths
 
-Begin with the [Canon Registry](Canon-Registry.md) for reviewed core concepts. The [Entity Registry](../index/Entity-Registry.md) provides cross-domain identity navigation, and the [Research Backlog](../research/Research-Backlog.md) identifies missing narrative publications, chronology evidence, and continuity questions.
+- [Manus Ultima Divina](Manus-Ultima-Divina.md), [ONI Consortium](ONI-Consortium.md), and [Ustur](Ustur.md) introduce the three major factional civilizations.
+- [Peoples of Galia](Peoples-of-Galia.md) keeps species and faction identity distinct while showing where the source record is thin.
+- [The Convergence War](Convergence-War.md) and [Council of Peace](Council-of-Peace.md) explain the conflict and postwar institution at qualified status; both retain unresolved source-versus-mirror divergence.
+- The [Lore Publication Timeline](../timeline/Lore-Timeline.md) records real-world publication chronology separately from fictional events.
+- The [Entity Registry](../index/Entity-Registry.md) provides cross-domain identity navigation, and the [Research Backlog](../research/Research-Backlog.md) identifies missing narrative publications, chronology evidence, and continuity questions.
+
+The Ustur species and Ustur faction remain separate entities even though they share a preferred name. The in-universe Council of Peace is also distinct from the real-world Star Atlas DAO Council.
 
 ## Review status
 
-This index reflects the accepted lore-authority adjudications from July 19, 2026. It is ready for publication review; no raw lore evidence was rewritten.
+This index reflects the accepted lore-authority adjudications from July 19, 2026 and the Phase 4 narrative consolidation completed on July 23. It is ready for publication review; no raw lore evidence was rewritten.

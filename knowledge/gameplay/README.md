@@ -3,7 +3,7 @@ title: "Gameplay and Product Knowledge"
 seo_title: "Star Atlas Games and Products: Evidence-Based Guide"
 seo_description: "Explore evidence-qualified histories of Star Atlas products, builds, releases, tests, updates, and unresolved roadmap claims."
 knowledge_status: CANONICAL
-as_of: 2026-07-20
+as_of: 2026-07-23
 confidence: HIGH
 page_risk_score: 2
 page_risk_class: R1
@@ -22,6 +22,8 @@ review_after: 2027-07-20
 Star Atlas has evolved through browser games, on-chain programs, marketplaces, simulations, test environments, and Unreal Engine builds. This collection explains that history without treating every announcement as a release or every shared name as one product.
 
 Start with the [Star Atlas Product Registry](Product-Registry.md) for a compact map. Continue to a product history when you need dates, build distinctions, evidence boundaries, and unresolved questions.
+
+The [Foundational Dossiers](../Foundational-Dossiers.md) provide two narrative routes through this domain: the SCORE-to-SAGE-to-Starbased transition and the separate histories of the UE5 Showroom and Holosim.
 
 ## Product histories
 

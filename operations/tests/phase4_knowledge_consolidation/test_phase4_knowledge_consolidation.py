@@ -26,6 +26,11 @@ class Phase4KnowledgeConsolidationTests(unittest.TestCase):
         identifiers = [item["dossier_id"] for item in payload["dossiers"]]
         self.assertEqual(10, len(identifiers))
         self.assertEqual(len(identifiers), len(set(identifiers)))
+        self.assertEqual(
+            "CONSOLIDATED_FOR_PUBLICATION_REVIEW",
+            payload["portfolio_status"],
+        )
+        self.assertTrue(payload["publication_candidate_ready"])
         self.assertFalse(payload["publication_authorized"])
 
     def test_ten_reviewed_evidence_packets_cover_the_portfolio(self) -> None:
@@ -52,6 +57,37 @@ class Phase4KnowledgeConsolidationTests(unittest.TestCase):
         )
         self.assertEqual("CONTRACT_ONLY", payload["lifecycle_phase"])
         self.assertEqual([], payload["entries"])
+
+    def test_consolidation_results_cover_ten_dossiers(self) -> None:
+        payload = json.loads(
+            (VALIDATOR.CAMPAIGN / "consolidation-results.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        self.assertEqual("CONSOLIDATED_FOR_PUBLICATION_REVIEW", payload["status"])
+        self.assertEqual(10, len(payload["dossiers"]))
+        self.assertEqual(89, payload["metrics"]["knowledge_files_after"])
+        self.assertEqual(0, payload["metrics"]["public_articles_created"])
+        for dossier in payload["dossiers"]:
+            self.assertTrue((ROOT / dossier["primary_narrative"]).is_file())
+            for value in dossier["supporting_paths"]:
+                self.assertTrue((ROOT / value).is_file())
+
+    def test_new_lore_foundations_are_source_qualified(self) -> None:
+        for name in (
+            "Galia-Expanse.md",
+            "Manus-Ultima-Divina.md",
+            "ONI-Consortium.md",
+            "Ustur.md",
+            "Council-of-Peace.md",
+            "Convergence-War.md",
+            "Peoples-of-Galia.md",
+        ):
+            text = (ROOT / "knowledge/lore" / name).read_text(encoding="utf-8")
+            self.assertIn("knowledge_status: QUALIFIED", text)
+            self.assertIn("evidence_basis:", text)
+            self.assertIn("known_limitations:", text)
+            self.assertIn("research_gaps:", text)
 
 
 if __name__ == "__main__":

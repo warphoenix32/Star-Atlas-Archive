@@ -1,16 +1,19 @@
 {
   "campaign_id": "phase-4-knowledge-consolidation-2026-07",
   "as_of": "2026-07-23",
-  "status": "EVIDENCE_GATE_COMPLETE_CONSOLIDATION_PENDING",
+  "status": "PHASE_4_COMPLETE_PUBLICATION_REVIEW_READY",
   "baseline_sha": "40f100cb8974fa8475c8803cab6312724e9c5bff",
   "knowledge_inventory": {
-    "files": 81,
-    "markdown": 80,
-    "json": 1
+    "baseline_files": 81,
+    "final_files": 89,
+    "final_markdown": 88,
+    "final_json": 1
   },
   "dossiers_selected": 10,
+  "dossiers_consolidated": 10,
   "evidence_packets_completed": 10,
-  "knowledge_pages_updated": 10,
+  "knowledge_pages_added": 8,
+  "knowledge_index_pages_updated": 7,
   "drift_corrections": [
     "Official Medium corpus counts and review disposition",
     "Atlas Brew recording URL/date reconciliation and episode #7 recovery",
@@ -22,16 +25,28 @@
     "rejected_inferences": 19,
     "human_adjudication_required": false
   },
+  "consolidation_gate": {
+    "reader_guide": "knowledge/Foundational-Dossiers.md",
+    "lore_foundation_pages_added": 7,
+    "dossiers_ready_for_publication_review": 10,
+    "public_articles_created": 0,
+    "human_adjudication_required": false
+  },
   "remaining_phase_4_gate": {
     "evidence_packets": 0,
-    "action": "Consolidate the ten selected dossiers, including reader-oriented lore entity pages, before Phase 5 publication drafting."
+    "dossiers": 0,
+    "action": "NONE_PHASE_4_COMPLETE"
   },
   "boundaries": {
     "new_sources_ingested": false,
     "archive_evidence_modified": false,
     "graph_modified": false,
-    "publication_modified": false,
-    "public_articles_created": 0
+    "publication_modified": true,
+    "publication_change_scope": "DETERMINISTIC_LIBRARY_SEARCH_INDEX_ONLY",
+    "public_articles_created": 0,
+    "site_modified": true,
+    "site_change_scope": "GENERATED_SEARCH_INDEX_ONLY_NO_LAYOUT_OR_ARTICLE_CHANGE"
   },
+  "next_gate": "Begin Phase 5 publication drafting from the ten consolidated dossiers",
   "human_adjudication_required": false
 }

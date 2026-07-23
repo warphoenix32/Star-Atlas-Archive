@@ -20,6 +20,10 @@
       "status": "PASS"
     },
     {
+      "check": "consolidation_results",
+      "status": "PASS"
+    },
+    {
       "check": "campaign_summary",
       "status": "PASS"
     },
@@ -36,7 +40,7 @@
       "status": "PASS"
     },
     {
-      "check": "evidence_gate_knowledge_scope",
+      "check": "consolidation_knowledge_scope",
       "status": "PASS"
     },
     {
@@ -45,17 +49,18 @@
     }
   ],
   "metrics": {
-    "knowledge_files_inventoried": 81,
+    "knowledge_files_inventoried": 89,
     "dossiers_selected": 10,
     "evidence_packets_completed": 10,
     "dossiers_covered": 10,
+    "dossiers_consolidated": 10,
     "allowed_claims": 30,
     "rejected_inferences": 19,
-    "knowledge_pages_updated": 10,
-    "gate_2_knowledge_changes": 0,
+    "knowledge_pages_added": 8,
+    "consolidation_knowledge_changes": 15,
     "protected_path_changes": 0
   },
   "failures": [],
   "human_adjudication_required": false,
-  "next_gate": "Consolidate the ten evidence-qualified dossiers without drafting public articles"
+  "next_gate": "Begin Phase 5 publication drafting from the ten consolidated dossiers"
 }

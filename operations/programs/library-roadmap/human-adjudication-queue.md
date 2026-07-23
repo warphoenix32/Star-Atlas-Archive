@@ -2,7 +2,7 @@
 
 ## Blocking decisions
 
-None. Phase 3 is closed and the Phase 4 evidence gate is complete without a blocking adjudication.
+None. Phase 4 is closed and Phase 5 may begin editorial drafting without a blocking adjudication.
 
 ## Closed decisions
 
@@ -13,6 +13,7 @@ None. Phase 3 is closed and the Phase 4 evidence gate is complete without a bloc
 - `REVIEW-ATLAS-BREW-METADATA`: `CLOSED_PUBLIC_PLAYLIST_RECONCILED`. The 123 combined transcript records map at high confidence to the 124-item public playlist; Atlas Brew #7 is preserved separately as qualified machine transcription.
 - `REVIEW-PHASE4-GATE1-EVIDENCE-DRIFT`: `CLOSED_EVIDENCE_RECONCILED`. Medium, Atlas Brew, and economic-report knowledge now reflects merged evidence while retaining completeness, event-date, speaker, and independent-verification limits.
 - `REVIEW-PHASE4-GATE2-DOSSIER-EVIDENCE`: `CLOSED_PACKETS_COMPLETE`. All ten selected dossiers have reviewed evidence packets; no new source, identity, payment, election, lifecycle, or canon adjudication was required.
+- `REVIEW-PHASE4-GATE3-DOSSIER-CONSOLIDATION`: `CLOSED_PUBLICATION_REVIEW_READY`. Ten dossier routes and seven lore foundations are consolidated. Council of Peace and Convergence War source divergence remains explicitly qualified rather than silently adjudicated.
 
 ## Deferred, non-blocking decisions
 

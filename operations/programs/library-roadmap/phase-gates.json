@@ -26,19 +26,16 @@
     {
       "phase": 4,
       "name": "Knowledge consolidation",
-      "status": "IN_PROGRESS",
-      "percent_complete": 60,
-      "remaining_gate_items": [
-        "Consolidate the ten selected dossiers without drafting public articles"
-      ]
+      "status": "COMPLETE",
+      "percent_complete": 100,
+      "remaining_gate_items": []
     },
     {
       "phase": 5,
       "name": "Publication layer",
-      "status": "NOT_STARTED",
-      "percent_complete": 0,
+      "status": "IN_PROGRESS",
+      "percent_complete": 20,
       "remaining_gate_items": [
-        "Stable publication contract",
         "Initial ten-article portfolio"
       ]
     },
