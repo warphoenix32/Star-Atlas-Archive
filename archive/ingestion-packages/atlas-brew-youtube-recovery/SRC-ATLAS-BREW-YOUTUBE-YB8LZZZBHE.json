@@ -1,0 +1,26 @@
+{
+  "schema_version": "2.1",
+  "campaign_id": "atlas-brew-url-reconciliation-2026-07",
+  "source_id": "SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE",
+  "document_type": "TRANSCRIPT",
+  "source_record_path": "archive/source-records/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.json",
+  "raw_artifact_path": "archive/raw/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.asr.json",
+  "normalized_artifact_path": "archive/normalized/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.md",
+  "provenance_path": "archive/provenance/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.json",
+  "content": {
+    "segment_count": 1820,
+    "first_timestamp": "00:00:00.000",
+    "last_timestamp": "01:22:40.370",
+    "language": "en",
+    "machine_generated": true
+  },
+  "semantic_extraction": {
+    "performed": false,
+    "reason": "URL reconciliation and transcript recovery only"
+  },
+  "checksums": {
+    "raw_sha256": "8d58af0960b8270ea47e985621372ec378f57cc18333c89aeb52142ecd1ad453",
+    "normalized_sha256": "309ab547e0260a986c6f6cee30f1104ac1cb1621e6a0e6dfa016a56f6c0daee1"
+  },
+  "status": "QUALIFIED_ARCHIVAL_RECOVERY"
+}

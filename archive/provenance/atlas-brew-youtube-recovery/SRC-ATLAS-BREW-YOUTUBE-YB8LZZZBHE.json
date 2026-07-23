@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "campaign_id": "atlas-brew-url-reconciliation-2026-07",
+  "source_id": "SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE",
+  "source": {
+    "video_id": "Yb8lZZ_zbhE",
+    "canonical_url": "https://www.youtube.com/watch?v=Yb8lZZ_zbhE",
+    "title": "The Atlas Brew #7 Community Development.",
+    "channel_id": "UCElCan0ISZn68l7b341yxLA",
+    "channel_name": "VBTV",
+    "published_at_original": "2022-03-23T17:36:22-07:00",
+    "published_at_normalized": "2022-03-23",
+    "duration_seconds": 4999,
+    "description": "The Atlas Brew hosted today by Santi and ZeSKK, is all about community development. Amazing Alpha from the whole community! 3 Unofficial arcade mini-games inspired by Star Atlas; re-supply tool by The Club; DAOcaster DAOmadness updates; Star Atlas TV announcement."
+  },
+  "retrieval": {
+    "retrieval_date": "2026-07-22",
+    "caption_track_status": "NO_MANUAL_OR_AUTOMATIC_CAPTIONS",
+    "caption_checks": [
+      "YouTube public watch-page player response",
+      "yt-dlp --list-subs"
+    ],
+    "audio_capture": {
+      "method": "YOUTUBE_PUBLIC_AUDIO_STREAM",
+      "format_id": 140,
+      "mime_type": "audio/mp4; codecs=\"mp4a.40.2\"",
+      "bytes": 80904700,
+      "sha256": "0dbafd493f46c9bc7d74f82bef86056c559dafc7a6d9e34e5b6b2e0e406bd224",
+      "preserved_in_repository": false,
+      "omission_reason": "The 77 MiB audio binary is a transient transcription input; the canonical public recording URL and exact audio checksum are preserved."
+    },
+    "retrieval_tool": {
+      "name": "yt-dlp",
+      "executable_sha256": "52fe3c26dcf71fbdc85b528589020bb0b8e383155cfa81b64dd447bbe35e24b8"
+    }
+  },
+  "derivation": {
+    "raw_asr_path": "archive/raw/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.asr.json",
+    "normalized_transcript_path": "archive/normalized/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.md",
+    "transcription": {
+      "engine": "faster-whisper",
+      "engine_version": "1.2.1",
+      "model": "small.en",
+      "device": "cpu",
+      "compute_type": "int8",
+      "cpu_threads": 12,
+      "language": "en",
+      "language_probability": 1,
+      "duration_seconds": 4999.047,
+      "duration_after_vad_seconds": 4646.416,
+      "settings": {
+        "beam_size": 1,
+        "best_of": 1,
+        "temperature": 0.0,
+        "vad_filter": true,
+        "condition_on_previous_text": true,
+        "word_timestamps": false
+      },
+      "speaker_attribution": "UNKNOWN",
+      "machine_generated": true
+    },
+    "quality_metrics": {
+      "segment_count": 1820,
+      "first_timestamp": "00:00:00.000",
+      "last_timestamp": "01:22:40.370",
+      "recording_duration_seconds": 4999.047,
+      "transcript_last_end_seconds": 4960.37,
+      "untranscribed_tail_seconds": 38.677,
+      "average_log_probability": -0.266177,
+      "segments_with_no_speech_probability_gte_0_5": 14,
+      "empty_segments": 0
+    }
+  },
+  "authority": {
+    "recording_identity": "HIGH",
+    "publication_metadata": "HIGH",
+    "transcript_wording": "MEDIUM",
+    "speaker_identity": "UNKNOWN"
+  },
+  "limitations": [
+    "No source-provided caption track exists.",
+    "The transcript is machine-generated and has not received line-by-line human correction.",
+    "Speaker turns and identities are not assigned.",
+    "The final 38.677 seconds contain no recovered speech and appear to be outro audio or silence.",
+    "Community statements are not automatically official Star Atlas claims."
+  ]
+}

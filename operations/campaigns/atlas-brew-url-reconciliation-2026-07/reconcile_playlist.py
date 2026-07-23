@@ -32,7 +32,7 @@ CAMPAIGN_ID = "atlas-brew-url-reconciliation-2026-07"
 SNAPSHOT_DATE = "2026-07-22"
 EXPECTED_TRANSCRIPT_COUNT = 123
 EXPECTED_PLAYLIST_ITEM_COUNT = 124
-EXPECTED_PLAYLIST_ONLY_IDS = {"Yb8lZZ_zbhE"}
+EXPECTED_RECOVERED_IDS = {"Yb8lZZ_zbhE"}
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -49,6 +49,13 @@ RECONCILIATION_DIR = ROOT / "archive" / "reconciliation" / "atlas-brew-combined"
 PLAYLIST_MANIFEST_PATH = PROVENANCE_DIR / "youtube-playlist-manifest.json"
 RECONCILIATION_PATH = RECONCILIATION_DIR / "youtube-url-reconciliation.json"
 METADATA_PATCH_PATH = RECONCILIATION_DIR / "youtube-source-metadata-patch.json"
+RECOVERY_SOURCE_RECORD_PATH = (
+    ROOT
+    / "archive"
+    / "source-records"
+    / "atlas-brew-youtube-recovery"
+    / "SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.json"
+)
 MANUAL_REVIEW_PATH = CAMPAIGN_DIR / "manual-review.json"
 SUMMARY_JSON_PATH = CAMPAIGN_DIR / "campaign-summary.json"
 SUMMARY_MD_PATH = CAMPAIGN_DIR / "campaign-summary.md"
@@ -476,8 +483,15 @@ def candidate_score(record: dict[str, Any], video: dict[str, Any]) -> tuple[floa
 
 
 def reconcile(
-    records: list[dict[str, Any]], videos: list[dict[str, Any]]
-) -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
+    records: list[dict[str, Any]],
+    videos: list[dict[str, Any]],
+    recovery_record: dict[str, Any],
+) -> tuple[
+    list[dict[str, Any]],
+    list[dict[str, Any]],
+    list[dict[str, Any]],
+    list[dict[str, Any]],
+]:
     videos_by_episode: dict[int | None, list[dict[str, Any]]] = defaultdict(list)
     for video in videos:
         video["episode_number"] = episode_number(video.get("title"))
@@ -585,6 +599,24 @@ def reconcile(
         decisions.append(decision)
 
     decisions.sort(key=lambda item: item["source_id"])
+    recovered = [
+        {
+            **video,
+            "status": "RECOVERED_SEPARATE_SOURCE",
+            "source_id": recovery_record["source_id"],
+            "raw_path": recovery_record["raw_path"],
+            "normalized_path": recovery_record["normalized_path"],
+            "source_record_path": RECOVERY_SOURCE_RECORD_PATH.relative_to(
+                ROOT
+            ).as_posix(),
+            "extraction_confidence": recovery_record["extraction_confidence"],
+            "manual_review_required": recovery_record["manual_review_required"],
+        }
+        for video in videos
+        if video["video_id"] not in assigned_video_ids
+        and video["video_id"] == recovery_record.get("youtube_video_id")
+    ]
+    recovered_ids = {item["video_id"] for item in recovered}
     playlist_only = [
         {
             **video,
@@ -593,6 +625,7 @@ def reconcile(
         }
         for video in videos
         if video["video_id"] not in assigned_video_ids
+        and video["video_id"] not in recovered_ids
     ]
     manual_review = [
         {
@@ -628,7 +661,7 @@ def reconcile(
                 "recommendation": "DEFER_NEW_INGESTION_OR_CONFIRM_EXCLUSION",
             }
         )
-    return decisions, playlist_only, manual_review
+    return decisions, recovered, playlist_only, manual_review
 
 
 def write_json(path: Path, value: Any) -> None:
@@ -647,6 +680,7 @@ def sha256_path(path: Path) -> str:
 
 def generate() -> None:
     records = json.loads(SOURCE_RECORDS_PATH.read_text(encoding="utf-8"))
+    recovery_record = json.loads(RECOVERY_SOURCE_RECORD_PATH.read_text(encoding="utf-8"))
     playlist_entries, collection = collect_playlist()
     playlist_entries = collect_player_metadata(
         playlist_entries, collection["youtube_client_version"]
@@ -681,7 +715,9 @@ def generate() -> None:
     }
     write_json(PLAYLIST_MANIFEST_PATH, manifest)
 
-    decisions, playlist_only, manual_review = reconcile(records, playlist_entries)
+    decisions, recovered, playlist_only, manual_review = reconcile(
+        records, playlist_entries, recovery_record
+    )
     confidence_counts = Counter(item["match_confidence"] for item in decisions)
     status_counts = Counter(item["status"] for item in decisions)
     reconciliation = {
@@ -694,8 +730,10 @@ def generate() -> None:
         "status_counts": dict(sorted(status_counts.items())),
         "match_confidence_counts": dict(sorted(confidence_counts.items())),
         "playlist_only_count": len(playlist_only),
+        "recovered_separate_source_count": len(recovered),
         "manual_review_count": len(manual_review),
         "decisions": decisions,
+        "recovered_separate_sources": recovered,
         "playlist_only": playlist_only,
     }
     write_json(RECONCILIATION_PATH, reconciliation)
@@ -738,6 +776,7 @@ def generate() -> None:
         "medium_confidence_matches": confidence_counts.get("MEDIUM", 0),
         "unmatched_transcripts": status_counts.get("TRANSCRIPT_ONLY", 0),
         "playlist_only_items": len(playlist_only),
+        "recovered_separate_sources": len(recovered),
         "manual_review_items": len(manual_review),
         "source_records_rewritten": False,
         "raw_transcripts_rewritten": False,
@@ -756,17 +795,21 @@ def generate() -> None:
                 f"- Medium-confidence matches: **{summary['medium_confidence_matches']}**",
                 f"- Transcript-only records: **{summary['unmatched_transcripts']}**",
                 f"- Playlist-only items: **{summary['playlist_only_items']}**",
+                f"- Separately recovered playlist items: **{summary['recovered_separate_sources']}**",
                 f"- Manual-review items: **{summary['manual_review_items']}**",
                 "",
-                "The combined transcript and existing Source IDs were not rewritten. "
-                "High-confidence URL/date values are supplied as an additive metadata patch.",
+                "The combined transcript and its 123 existing Source IDs were not "
+                "rewritten. High-confidence URL/date values are supplied as an "
+                "additive metadata patch. Atlas Brew #7 was recovered as a "
+                "separate, qualified machine transcript because YouTube exposes "
+                "no caption track for the recording.",
                 "",
                 "## Boundaries",
                 "",
                 "- Playlist membership does not prove that two similarly titled recordings are identical.",
                 "- Duplicate episode numbers are matched only when title and duration evidence separates them.",
                 "- Speaker identity is outside this campaign.",
-                "- Unmatched playlist items are not ingested automatically.",
+                "- A separately recovered item must preserve its own provenance and Source ID.",
                 "",
             ]
         ),
@@ -784,6 +827,9 @@ def validate() -> None:
         reconciliation = json.loads(RECONCILIATION_PATH.read_text(encoding="utf-8"))
         patch = json.loads(METADATA_PATCH_PATH.read_text(encoding="utf-8"))
         review = json.loads(MANUAL_REVIEW_PATH.read_text(encoding="utf-8"))
+        recovery_record = json.loads(
+            RECOVERY_SOURCE_RECORD_PATH.read_text(encoding="utf-8")
+        )
         checks["json_parse"] = "PASS"
     except (OSError, json.JSONDecodeError) as exc:
         checks["json_parse"] = "FAIL"
@@ -793,6 +839,7 @@ def validate() -> None:
         reconciliation = {"decisions": [], "playlist_only": []}
         patch = {"records": []}
         review = {"items": []}
+        recovery_record = {}
 
     source_ids = [item.get("source_id") for item in records]
     video_ids = [item.get("video_id") for item in manifest.get("items", [])]
@@ -806,6 +853,10 @@ def validate() -> None:
     ]
     playlist_only_ids = [
         item.get("video_id") for item in reconciliation.get("playlist_only", [])
+    ]
+    recovered_ids = [
+        item.get("video_id")
+        for item in reconciliation.get("recovered_separate_sources", [])
     ]
     normalized_items_sha256 = hashlib.sha256(
         json.dumps(
@@ -827,14 +878,14 @@ def validate() -> None:
         == EXPECTED_TRANSCRIPT_COUNT,
         "expected_playlist_snapshot_count": len(video_ids)
         == EXPECTED_PLAYLIST_ITEM_COUNT,
-        "expected_playlist_only_item": set(playlist_only_ids)
-        == EXPECTED_PLAYLIST_ONLY_IDS,
+        "expected_recovered_item": set(recovered_ids) == EXPECTED_RECOVERED_IDS,
+        "no_unresolved_playlist_only_items": not playlist_only_ids,
         "source_ids_unique": len(source_ids) == len(set(source_ids)),
         "playlist_video_ids_unique": len(video_ids) == len(set(video_ids)),
         "all_source_ids_decided_once": sorted(source_ids) == sorted(decision_source_ids),
         "matched_video_ids_unique": len(matched_ids) == len(set(matched_ids)),
         "playlist_disposition_complete": sorted(video_ids)
-        == sorted(matched_ids + playlist_only_ids),
+        == sorted(matched_ids + recovered_ids + playlist_only_ids),
         "canonical_urls_reconstruct": all(
             item.get("canonical_url")
             == f"https://www.youtube.com/watch?v={item.get('video_id')}"
@@ -856,6 +907,11 @@ def validate() -> None:
         ),
         "metadata_patch_covers_all_matches": len(patch.get("records", []))
         == len(matched_ids),
+        "recovery_source_id_distinct": recovery_record.get("source_id")
+        not in set(source_ids),
+        "recovery_video_id_reconciles": recovery_record.get("youtube_video_id")
+        in set(recovered_ids),
+        "manual_review_queue_resolved": review.get("count") == 0,
         "source_records_unchanged": True,
         "raw_transcripts_unchanged": True,
     }

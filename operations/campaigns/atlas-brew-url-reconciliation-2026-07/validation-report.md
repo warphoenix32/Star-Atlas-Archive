@@ -8,7 +8,8 @@ Result: **PASS**
 - normalized_item_checksum_reconciles: `PASS`
 - expected_transcript_snapshot_count: `PASS`
 - expected_playlist_snapshot_count: `PASS`
-- expected_playlist_only_item: `PASS`
+- expected_recovered_item: `PASS`
+- no_unresolved_playlist_only_items: `PASS`
 - source_ids_unique: `PASS`
 - playlist_video_ids_unique: `PASS`
 - all_source_ids_decided_once: `PASS`
@@ -21,6 +22,9 @@ Result: **PASS**
 - all_matches_high_confidence: `PASS`
 - all_matches_have_urls_and_dates: `PASS`
 - metadata_patch_covers_all_matches: `PASS`
+- recovery_source_id_distinct: `PASS`
+- recovery_video_id_reconciles: `PASS`
+- manual_review_queue_resolved: `PASS`
 - source_records_unchanged: `PASS`
 - raw_transcripts_unchanged: `PASS`
 

@@ -1,0 +1,46 @@
+{
+  "campaign_id": "atlas-brew-url-reconciliation-2026-07",
+  "recovery_id": "atlas-brew-7-youtube-audio-recovery",
+  "source_id": "SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE",
+  "generated_on": "2026-07-22",
+  "status": "QUALIFIED_ARCHIVAL_RECOVERY",
+  "artifact_count": 6,
+  "artifacts": [
+    {
+      "path": "archive/raw/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.asr.json",
+      "size_bytes": 603130,
+      "sha256": "8d58af0960b8270ea47e985621372ec378f57cc18333c89aeb52142ecd1ad453"
+    },
+    {
+      "path": "archive/normalized/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.md",
+      "size_bytes": 90582,
+      "sha256": "309ab547e0260a986c6f6cee30f1104ac1cb1621e6a0e6dfa016a56f6c0daee1"
+    },
+    {
+      "path": "archive/provenance/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.json",
+      "size_bytes": 3488,
+      "sha256": "32855eaf2d28b51166068aa466e818e9f75c04b518335d8e2f461b09e90012ef"
+    },
+    {
+      "path": "archive/source-records/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.json",
+      "size_bytes": 2301,
+      "sha256": "ae064a26d8c067ad177428f5c74539d5446e019f3e1d796a899307973f84b179"
+    },
+    {
+      "path": "archive/source-records/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.md",
+      "size_bytes": 2499,
+      "sha256": "7bac38b861215f0452fc92468db67c0b21cc0b638b52f6482ed57c0cb58cad30"
+    },
+    {
+      "path": "archive/ingestion-packages/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.json",
+      "size_bytes": 1165,
+      "sha256": "2ca610ef7c9a9e381a9277ea6de83d23f29e969194d0cc9c0ad249217e8bcf2c"
+    }
+  ],
+  "boundaries": {
+    "combined_transcript_rewritten": false,
+    "existing_combined_source_records_rewritten": false,
+    "semantic_enrichment_performed": false,
+    "speaker_identity_inferred": false
+  }
+}

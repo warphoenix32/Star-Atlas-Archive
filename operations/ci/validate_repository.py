@@ -349,6 +349,12 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json",
             "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json",
             "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json",
+            "archive/raw/atlas-brew-youtube-recovery/",
+            "archive/provenance/atlas-brew-youtube-recovery/",
+            "archive/normalized/atlas-brew-youtube-recovery/",
+            "archive/source-records/atlas-brew-youtube-recovery/",
+            "archive/ingestion-packages/atlas-brew-youtube-recovery/",
+            "archive/manifests/atlas-brew-youtube-recovery-2026-07.json",
             "operations/campaigns/atlas-brew-url-reconciliation-2026-07/",
             "operations/tests/atlas_brew_url_reconciliation/",
         )
@@ -598,7 +604,53 @@ def validate_atlas_brew_semantic_campaign() -> None:
 def validate_atlas_brew_url_reconciliation_campaign() -> None:
     campaign = ROOT / "operations/campaigns/atlas-brew-url-reconciliation-2026-07"
     command = [sys.executable, str(campaign / "reconcile_playlist.py"), "validate"]
+    build = [sys.executable, str(campaign / "build_episode_7_artifacts.py"), "generate"]
+    validate_recovery = [
+        sys.executable,
+        str(campaign / "build_episode_7_artifacts.py"),
+        "validate",
+    ]
     exclusions = {"reconcile_playlist.py", "README.md"}
+
+    recovery_roots = [
+        ROOT / "archive/raw/atlas-brew-youtube-recovery",
+        ROOT / "archive/provenance/atlas-brew-youtube-recovery",
+        ROOT / "archive/normalized/atlas-brew-youtube-recovery",
+        ROOT / "archive/source-records/atlas-brew-youtube-recovery",
+        ROOT / "archive/ingestion-packages/atlas-brew-youtube-recovery",
+    ]
+
+    def recovery_snapshot() -> dict[str, str]:
+        values: dict[str, str] = {}
+        for root in recovery_roots:
+            values.update(
+                {
+                    f"{root.relative_to(ROOT).as_posix()}/{key}": value
+                    for key, value in sha_tree(root, set()).items()
+                }
+            )
+        manifest = ROOT / "archive/manifests/atlas-brew-youtube-recovery-2026-07.json"
+        values[manifest.relative_to(ROOT).as_posix()] = hashlib.sha256(
+            manifest.read_bytes()
+        ).hexdigest()
+        return values
+
+    run(*build, check=True)
+    run(*validate_recovery, check=True)
+    recovery_first = recovery_snapshot()
+    run(*build, check=True)
+    run(*validate_recovery, check=True)
+    recovery_second = recovery_snapshot()
+    if recovery_first != recovery_second:
+        differing = sorted(
+            path
+            for path in set(recovery_first) | set(recovery_second)
+            if recovery_first.get(path) != recovery_second.get(path)
+        )
+        raise ValidationFailure(
+            "Atlas Brew #7 recovery is not deterministic: " + ", ".join(differing)
+        )
+
     first = run_cycle(command, campaign, exclusions)
     second = run_cycle(command, campaign, exclusions)
     if first != second:
@@ -620,6 +672,12 @@ def validate_atlas_brew_url_reconciliation_campaign() -> None:
         "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json",
         "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json",
         "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json",
+        "archive/raw/atlas-brew-youtube-recovery",
+        "archive/provenance/atlas-brew-youtube-recovery",
+        "archive/normalized/atlas-brew-youtube-recovery",
+        "archive/source-records/atlas-brew-youtube-recovery",
+        "archive/ingestion-packages/atlas-brew-youtube-recovery",
+        "archive/manifests/atlas-brew-youtube-recovery-2026-07.json",
         "operations/tests/atlas_brew_url_reconciliation",
     )
     if diff.returncode:

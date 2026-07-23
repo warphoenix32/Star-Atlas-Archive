@@ -9,7 +9,8 @@
     "normalized_item_checksum_reconciles": "PASS",
     "expected_transcript_snapshot_count": "PASS",
     "expected_playlist_snapshot_count": "PASS",
-    "expected_playlist_only_item": "PASS",
+    "expected_recovered_item": "PASS",
+    "no_unresolved_playlist_only_items": "PASS",
     "source_ids_unique": "PASS",
     "playlist_video_ids_unique": "PASS",
     "all_source_ids_decided_once": "PASS",
@@ -22,15 +23,18 @@
     "all_matches_high_confidence": "PASS",
     "all_matches_have_urls_and_dates": "PASS",
     "metadata_patch_covers_all_matches": "PASS",
+    "recovery_source_id_distinct": "PASS",
+    "recovery_video_id_reconciles": "PASS",
+    "manual_review_queue_resolved": "PASS",
     "source_records_unchanged": "PASS",
     "raw_transcripts_unchanged": "PASS"
   },
   "errors": [],
   "artifact_sha256": {
     "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json": "b62c0b12bf2104733ed17e5726a8c78082982e73b8281f851a2843a6aa07b508",
-    "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json": "8201e945ad3abc41c2f564a0b37ee47a0493e8c8d04d531c93a366df4f9ad8c7",
+    "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json": "86d8950e94105b222159e4903cadc65710521acc3776c2168f63790952643a01",
     "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json": "2983d88805416490f06f48e8a8fd1621e4dd0b4d0df1047deea7975947c32c80",
-    "operations/campaigns/atlas-brew-url-reconciliation-2026-07/manual-review.json": "57fd0937466280d058c3054103be9d1f29440d5dedd62db3f86cc6d0c9d9a74a",
-    "operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json": "3db3153c00d55bb7cbab3da70d7cf8b0d14a5cc02051a0d394639ca679efe835"
+    "operations/campaigns/atlas-brew-url-reconciliation-2026-07/manual-review.json": "8bc14db59db743603a0e0eefe4d6195591e244bae866507bb4496df91d1e5291",
+    "operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json": "28b4c2eb8d00f541de06d4cc54c3cbbdaf88611befe66d43cab1cf4a0370006b"
   }
 }

@@ -11,8 +11,9 @@
   "match_confidence_counts": {
     "HIGH": 123
   },
-  "playlist_only_count": 1,
-  "manual_review_count": 1,
+  "playlist_only_count": 0,
+  "recovered_separate_source_count": 1,
+  "manual_review_count": 0,
   "decisions": [
     {
       "source_id": "SRC-ATLAS-BREW-0001",
@@ -4224,7 +4225,7 @@
       "match_margin": 1.0
     }
   ],
-  "playlist_only": [
+  "recovered_separate_sources": [
     {
       "video_id": "Yb8lZZ_zbhE",
       "playlist_index": 1,
@@ -4241,8 +4242,14 @@
       "player_status_reason": "Video unavailable",
       "is_live_content": false,
       "episode_number": 7,
-      "status": "PLAYLIST_ONLY",
-      "manual_review_required": true
+      "status": "RECOVERED_SEPARATE_SOURCE",
+      "source_id": "SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE",
+      "raw_path": "archive/raw/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.asr.json",
+      "normalized_path": "archive/normalized/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.md",
+      "source_record_path": "archive/source-records/atlas-brew-youtube-recovery/SRC-ATLAS-BREW-YOUTUBE-YB8LZZZBHE.json",
+      "extraction_confidence": "MEDIUM",
+      "manual_review_required": false
     }
-  ]
+  ],
+  "playlist_only": []
 }
