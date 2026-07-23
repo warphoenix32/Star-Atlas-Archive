@@ -1,0 +1,4248 @@
+{
+  "campaign_id": "atlas-brew-url-reconciliation-2026-07",
+  "snapshot_date": "2026-07-22",
+  "playlist_manifest_path": "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json",
+  "source_records_path": "archive/source-records/atlas-brew-combined/source-records.json",
+  "source_record_count": 123,
+  "playlist_item_count": 124,
+  "status_counts": {
+    "MATCHED": 123
+  },
+  "match_confidence_counts": {
+    "HIGH": 123
+  },
+  "playlist_only_count": 1,
+  "manual_review_count": 1,
+  "decisions": [
+    {
+      "source_id": "SRC-ATLAS-BREW-0001",
+      "transcript_title": "The Atlas Brew #8 - Titan Ships",
+      "transcript_episode_number": 8,
+      "transcript_duration_seconds": 4521,
+      "status": "MATCHED",
+      "matched_video_id": "NqSF96vcZYM",
+      "canonical_url": "https://www.youtube.com/watch?v=NqSF96vcZYM",
+      "youtube_title": "The Atlas Brew #8 - Titan Ships",
+      "published_at": "2022-04-07T01:13:44-07:00",
+      "uploaded_at": "2022-04-07T01:13:44-07:00",
+      "youtube_duration_seconds": 4525,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "NqSF96vcZYM",
+          "score": 1.0,
+          "title": "The Atlas Brew #8 - Titan Ships",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0002",
+      "transcript_title": "The Atlas Brew #9 - Lore and Community Updates",
+      "transcript_episode_number": 9,
+      "transcript_duration_seconds": 5470,
+      "status": "MATCHED",
+      "matched_video_id": "YsJesULe-lY",
+      "canonical_url": "https://www.youtube.com/watch?v=YsJesULe-lY",
+      "youtube_title": "The Atlas Brew #9 - Lore and Community Updates",
+      "published_at": "2022-04-13T17:00:23-07:00",
+      "uploaded_at": "2022-04-13T17:00:23-07:00",
+      "youtube_duration_seconds": 5476,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "YsJesULe-lY",
+          "score": 1.0,
+          "title": "The Atlas Brew #9 - Lore and Community Updates",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0003",
+      "transcript_title": "Star Atlas Brew No.10 all about the ships",
+      "transcript_episode_number": 10,
+      "transcript_duration_seconds": 4778,
+      "status": "MATCHED",
+      "matched_video_id": "f1zOXj2rAEA",
+      "canonical_url": "https://www.youtube.com/watch?v=f1zOXj2rAEA",
+      "youtube_title": "Star Atlas Brew No.10 all about the ships",
+      "published_at": "2022-04-20T16:27:07-07:00",
+      "uploaded_at": "2022-04-20T16:27:07-07:00",
+      "youtube_duration_seconds": 4782,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "f1zOXj2rAEA",
+          "score": 1.0,
+          "title": "Star Atlas Brew No.10 all about the ships",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        },
+        {
+          "video_id": "F3YwFOGH8bA",
+          "score": 0.7,
+          "title": "Star Atlas Brew No.10",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER"
+          ]
+        }
+      ],
+      "match_margin": 0.3
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0004",
+      "transcript_title": "The Atlas Brew #12 - Community Events",
+      "transcript_episode_number": 12,
+      "transcript_duration_seconds": 4202,
+      "status": "MATCHED",
+      "matched_video_id": "P-Ltw9O95oA",
+      "canonical_url": "https://www.youtube.com/watch?v=P-Ltw9O95oA",
+      "youtube_title": "The Atlas Brew #12 - Community Events",
+      "published_at": "2022-05-05T04:17:16-07:00",
+      "uploaded_at": "2022-05-05T04:17:16-07:00",
+      "youtube_duration_seconds": 4202,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "P-Ltw9O95oA",
+          "score": 1.0,
+          "title": "The Atlas Brew #12 - Community Events",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0005",
+      "transcript_title": "Star Atlas Brew No.10",
+      "transcript_episode_number": 10,
+      "transcript_duration_seconds": 5350,
+      "status": "MATCHED",
+      "matched_video_id": "F3YwFOGH8bA",
+      "canonical_url": "https://www.youtube.com/watch?v=F3YwFOGH8bA",
+      "youtube_title": "Star Atlas Brew No.10",
+      "published_at": "2022-04-21T04:17:49-07:00",
+      "uploaded_at": "2022-04-21T04:17:49-07:00",
+      "youtube_duration_seconds": 5692,
+      "match_confidence": "HIGH",
+      "match_score": 0.96,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_8_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "F3YwFOGH8bA",
+          "score": 0.96,
+          "title": "Star Atlas Brew No.10",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_8_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 0.96
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0006",
+      "transcript_title": "The Atlas Brew #14 - SCREAM",
+      "transcript_episode_number": 14,
+      "transcript_duration_seconds": 5207,
+      "status": "MATCHED",
+      "matched_video_id": "aP0R96FWkew",
+      "canonical_url": "https://www.youtube.com/watch?v=aP0R96FWkew",
+      "youtube_title": "The Atlas Brew #14 - SCREAM",
+      "published_at": "2022-05-18T14:47:45-07:00",
+      "uploaded_at": "2022-05-18T14:47:45-07:00",
+      "youtube_duration_seconds": 5209,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "aP0R96FWkew",
+          "score": 1.0,
+          "title": "The Atlas Brew #14 - SCREAM",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0007",
+      "transcript_title": "The Atlas Brew 16 feat. Zeskk & Santi",
+      "transcript_episode_number": 16,
+      "transcript_duration_seconds": 4021,
+      "status": "MATCHED",
+      "matched_video_id": "U3KE4AAyQxY",
+      "canonical_url": "https://www.youtube.com/watch?v=U3KE4AAyQxY",
+      "youtube_title": "The Atlas Brew 16 feat. Zeskk & Santi",
+      "published_at": "2022-06-09T03:07:59-07:00",
+      "uploaded_at": "2022-06-09T03:07:59-07:00",
+      "youtube_duration_seconds": 4032,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "U3KE4AAyQxY",
+          "score": 1.0,
+          "title": "The Atlas Brew 16 feat. Zeskk & Santi",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0008",
+      "transcript_title": "The Atlas Brew #17",
+      "transcript_episode_number": 17,
+      "transcript_duration_seconds": 4552,
+      "status": "MATCHED",
+      "matched_video_id": "pJkcoA7k9O0",
+      "canonical_url": "https://www.youtube.com/watch?v=pJkcoA7k9O0",
+      "youtube_title": "The Atlas Brew #17",
+      "published_at": "2022-06-16T01:16:31-07:00",
+      "uploaded_at": "2022-06-16T01:16:31-07:00",
+      "youtube_duration_seconds": 4565,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "pJkcoA7k9O0",
+          "score": 1.0,
+          "title": "The Atlas Brew #17",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0009",
+      "transcript_title": "The Atlas Brew #23",
+      "transcript_episode_number": 23,
+      "transcript_duration_seconds": 3423,
+      "status": "MATCHED",
+      "matched_video_id": "CTmxJBm9_eY",
+      "canonical_url": "https://www.youtube.com/watch?v=CTmxJBm9_eY",
+      "youtube_title": "The Atlas Brew #23",
+      "published_at": "2022-07-28T01:05:27-07:00",
+      "uploaded_at": "2022-07-28T01:05:27-07:00",
+      "youtube_duration_seconds": 3424,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "CTmxJBm9_eY",
+          "score": 1.0,
+          "title": "The Atlas Brew #23",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0010",
+      "transcript_title": "Star Atlas Brew No.24 all about DAO proposals",
+      "transcript_episode_number": 24,
+      "transcript_duration_seconds": 4822,
+      "status": "MATCHED",
+      "matched_video_id": "3nom499IEhE",
+      "canonical_url": "https://www.youtube.com/watch?v=3nom499IEhE",
+      "youtube_title": "Star Atlas Brew No.24 all about DAO proposals",
+      "published_at": "2022-08-04T01:21:43-07:00",
+      "uploaded_at": "2022-08-04T01:21:43-07:00",
+      "youtube_duration_seconds": 5036,
+      "match_confidence": "HIGH",
+      "match_score": 0.96,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_8_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "3nom499IEhE",
+          "score": 0.96,
+          "title": "Star Atlas Brew No.24 all about DAO proposals",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_8_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 0.96
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0011",
+      "transcript_title": "The Atlas Brew #26 - Community Developments",
+      "transcript_episode_number": 26,
+      "transcript_duration_seconds": 4513,
+      "status": "MATCHED",
+      "matched_video_id": "MsrQx8dTcr0",
+      "canonical_url": "https://www.youtube.com/watch?v=MsrQx8dTcr0",
+      "youtube_title": "The Atlas Brew #26 - Community Developments",
+      "published_at": "2022-08-18T01:20:46-07:00",
+      "uploaded_at": "2022-08-18T01:20:46-07:00",
+      "youtube_duration_seconds": 4515,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "MsrQx8dTcr0",
+          "score": 1.0,
+          "title": "The Atlas Brew #26 - Community Developments",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0012",
+      "transcript_title": "The Atlas Brew #27 - Freestyle",
+      "transcript_episode_number": 27,
+      "transcript_duration_seconds": 4711,
+      "status": "MATCHED",
+      "matched_video_id": "WEv-mC3qcWI",
+      "canonical_url": "https://www.youtube.com/watch?v=WEv-mC3qcWI",
+      "youtube_title": "The Atlas Brew #27 - Freestyle",
+      "published_at": "2022-08-25T01:25:29-07:00",
+      "uploaded_at": "2022-08-25T01:25:29-07:00",
+      "youtube_duration_seconds": 4713,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "WEv-mC3qcWI",
+          "score": 1.0,
+          "title": "The Atlas Brew #27 - Freestyle",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0013",
+      "transcript_title": "The Atlas Brew #30",
+      "transcript_episode_number": 30,
+      "transcript_duration_seconds": 3478,
+      "status": "MATCHED",
+      "matched_video_id": "oY1xsjhcv1g",
+      "canonical_url": "https://www.youtube.com/watch?v=oY1xsjhcv1g",
+      "youtube_title": "The Atlas Brew #30",
+      "published_at": "2022-09-15T01:08:29-07:00",
+      "uploaded_at": "2022-09-15T01:08:29-07:00",
+      "youtube_duration_seconds": 3530,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "oY1xsjhcv1g",
+          "score": 1.0,
+          "title": "The Atlas Brew #30",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0014",
+      "transcript_title": "The Atlas Brew #37 - economics",
+      "transcript_episode_number": 37,
+      "transcript_duration_seconds": 4375,
+      "status": "MATCHED",
+      "matched_video_id": "7KWzsQPpp9s",
+      "canonical_url": "https://www.youtube.com/watch?v=7KWzsQPpp9s",
+      "youtube_title": "The Atlas Brew #37 - economics",
+      "published_at": "2022-11-03T01:12:44-07:00",
+      "uploaded_at": "2022-11-03T01:12:44-07:00",
+      "youtube_duration_seconds": 4379,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "7KWzsQPpp9s",
+          "score": 1.0,
+          "title": "The Atlas Brew #37 - economics",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0015",
+      "transcript_title": "The Atlas Brew #39 game structure",
+      "transcript_episode_number": 39,
+      "transcript_duration_seconds": 3849,
+      "status": "MATCHED",
+      "matched_video_id": "MJ0B2ADiJpo",
+      "canonical_url": "https://www.youtube.com/watch?v=MJ0B2ADiJpo",
+      "youtube_title": "The Atlas Brew #39 game structure",
+      "published_at": "2022-11-17T01:21:58-08:00",
+      "uploaded_at": "2022-11-17T01:21:58-08:00",
+      "youtube_duration_seconds": 4507,
+      "match_confidence": "HIGH",
+      "match_score": 0.93,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_15_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "MJ0B2ADiJpo",
+          "score": 0.93,
+          "title": "The Atlas Brew #39 game structure",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_15_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 0.93
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0016",
+      "transcript_title": "The Atlas Brew #48",
+      "transcript_episode_number": 48,
+      "transcript_duration_seconds": 3745,
+      "status": "MATCHED",
+      "matched_video_id": "QkDIMQzN1fE",
+      "canonical_url": "https://www.youtube.com/watch?v=QkDIMQzN1fE",
+      "youtube_title": "The Atlas Brew #48",
+      "published_at": "2023-02-01T23:09:28-08:00",
+      "uploaded_at": "2023-02-01T23:09:28-08:00",
+      "youtube_duration_seconds": 3748,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "QkDIMQzN1fE",
+          "score": 1.0,
+          "title": "The Atlas Brew #48",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0017",
+      "transcript_title": "The Atlas Brew #73 with subs",
+      "transcript_episode_number": 73,
+      "transcript_duration_seconds": 4469,
+      "status": "MATCHED",
+      "matched_video_id": "kL5QupAn8qI",
+      "canonical_url": "https://www.youtube.com/watch?v=kL5QupAn8qI",
+      "youtube_title": "The Atlas Brew #73 with subs",
+      "published_at": "2023-08-03T05:23:08-07:00",
+      "uploaded_at": "2023-08-03T05:23:08-07:00",
+      "youtube_duration_seconds": 4470,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "kL5QupAn8qI",
+          "score": 1.0,
+          "title": "The Atlas Brew #73 with subs",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        },
+        {
+          "video_id": "BVUXUbdqAEQ",
+          "score": 0.8,
+          "title": "The Atlas Brew #73",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 0.2
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0018",
+      "transcript_title": "The Atlas Brew #76",
+      "transcript_episode_number": 76,
+      "transcript_duration_seconds": 4010,
+      "status": "MATCHED",
+      "matched_video_id": "IExpdwpDSB4",
+      "canonical_url": "https://www.youtube.com/watch?v=IExpdwpDSB4",
+      "youtube_title": "The Atlas Brew #76",
+      "published_at": "2023-08-23T23:17:49-07:00",
+      "uploaded_at": "2023-08-23T23:17:49-07:00",
+      "youtube_duration_seconds": 4016,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "IExpdwpDSB4",
+          "score": 1.0,
+          "title": "The Atlas Brew #76",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0019",
+      "transcript_title": "The Atlas Brew #75",
+      "transcript_episode_number": 75,
+      "transcript_duration_seconds": 5779,
+      "status": "MATCHED",
+      "matched_video_id": "0PPUPGdlrrg",
+      "canonical_url": "https://www.youtube.com/watch?v=0PPUPGdlrrg",
+      "youtube_title": "The Atlas Brew #75",
+      "published_at": "2023-08-16T23:44:50-07:00",
+      "uploaded_at": "2023-08-16T23:44:50-07:00",
+      "youtube_duration_seconds": 5797,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "0PPUPGdlrrg",
+          "score": 1.0,
+          "title": "The Atlas Brew #75",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0020",
+      "transcript_title": "The Atlas Brew #74",
+      "transcript_episode_number": 74,
+      "transcript_duration_seconds": 5461,
+      "status": "MATCHED",
+      "matched_video_id": "bq60EfUt0YI",
+      "canonical_url": "https://www.youtube.com/watch?v=bq60EfUt0YI",
+      "youtube_title": "The Atlas Brew #74",
+      "published_at": "2023-08-09T23:36:55-07:00",
+      "uploaded_at": "2023-08-09T23:36:55-07:00",
+      "youtube_duration_seconds": 5517,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "bq60EfUt0YI",
+          "score": 1.0,
+          "title": "The Atlas Brew #74",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0021",
+      "transcript_title": "The Atlas Brew #73",
+      "transcript_episode_number": 73,
+      "transcript_duration_seconds": 4469,
+      "status": "MATCHED",
+      "matched_video_id": "BVUXUbdqAEQ",
+      "canonical_url": "https://www.youtube.com/watch?v=BVUXUbdqAEQ",
+      "youtube_title": "The Atlas Brew #73",
+      "published_at": "2023-08-02T23:19:45-07:00",
+      "uploaded_at": "2023-08-02T23:19:45-07:00",
+      "youtube_duration_seconds": 4470,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "BVUXUbdqAEQ",
+          "score": 1.0,
+          "title": "The Atlas Brew #73",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0022",
+      "transcript_title": "the Atlas brew #72",
+      "transcript_episode_number": 72,
+      "transcript_duration_seconds": 4622,
+      "status": "MATCHED",
+      "matched_video_id": "R7TdxGo_BwU",
+      "canonical_url": "https://www.youtube.com/watch?v=R7TdxGo_BwU",
+      "youtube_title": "the Atlas brew #72",
+      "published_at": "2023-07-19T23:26:27-07:00",
+      "uploaded_at": "2023-07-19T23:26:27-07:00",
+      "youtube_duration_seconds": 4648,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "R7TdxGo_BwU",
+          "score": 1.0,
+          "title": "the Atlas brew #72",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0023",
+      "transcript_title": "The Atlas Brew #70",
+      "transcript_episode_number": 70,
+      "transcript_duration_seconds": 4533,
+      "status": "MATCHED",
+      "matched_video_id": "vh8MxCQrhzA",
+      "canonical_url": "https://www.youtube.com/watch?v=vh8MxCQrhzA",
+      "youtube_title": "The Atlas Brew #70",
+      "published_at": "2023-07-06T00:11:23-07:00",
+      "uploaded_at": "2023-07-06T00:11:23-07:00",
+      "youtube_duration_seconds": 4537,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "vh8MxCQrhzA",
+          "score": 1.0,
+          "title": "The Atlas Brew #70",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0024",
+      "transcript_title": "the Atlas Brew #69",
+      "transcript_episode_number": 69,
+      "transcript_duration_seconds": 6129,
+      "status": "MATCHED",
+      "matched_video_id": "ILokWxc4k3w",
+      "canonical_url": "https://www.youtube.com/watch?v=ILokWxc4k3w",
+      "youtube_title": "the Atlas Brew #69",
+      "published_at": "2023-06-29T00:15:14-07:00",
+      "uploaded_at": "2023-06-29T00:15:14-07:00",
+      "youtube_duration_seconds": 6179,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "ILokWxc4k3w",
+          "score": 1.0,
+          "title": "the Atlas Brew #69",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0025",
+      "transcript_title": "The Atlas Brew #68",
+      "transcript_episode_number": 68,
+      "transcript_duration_seconds": 4142,
+      "status": "MATCHED",
+      "matched_video_id": "bykAQO_YKjc",
+      "canonical_url": "https://www.youtube.com/watch?v=bykAQO_YKjc",
+      "youtube_title": "The Atlas Brew #68",
+      "published_at": "2023-06-21T23:24:31-07:00",
+      "uploaded_at": "2023-06-21T23:24:31-07:00",
+      "youtube_duration_seconds": 4198,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "bykAQO_YKjc",
+          "score": 1.0,
+          "title": "The Atlas Brew #68",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0026",
+      "transcript_title": "The Atlas Brew #67",
+      "transcript_episode_number": 67,
+      "transcript_duration_seconds": 3851,
+      "status": "MATCHED",
+      "matched_video_id": "omMcGXfPFTw",
+      "canonical_url": "https://www.youtube.com/watch?v=omMcGXfPFTw",
+      "youtube_title": "The Atlas Brew #67",
+      "published_at": "2023-06-14T23:23:24-07:00",
+      "uploaded_at": "2023-06-14T23:23:24-07:00",
+      "youtube_duration_seconds": 3858,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "omMcGXfPFTw",
+          "score": 1.0,
+          "title": "The Atlas Brew #67",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0027",
+      "transcript_title": "The Atlas Brew #66",
+      "transcript_episode_number": 66,
+      "transcript_duration_seconds": 4147,
+      "status": "MATCHED",
+      "matched_video_id": "SR-FA5wW1dA",
+      "canonical_url": "https://www.youtube.com/watch?v=SR-FA5wW1dA",
+      "youtube_title": "The Atlas Brew #66",
+      "published_at": "2023-06-07T23:33:57-07:00",
+      "uploaded_at": "2023-06-07T23:33:57-07:00",
+      "youtube_duration_seconds": 4206,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "SR-FA5wW1dA",
+          "score": 1.0,
+          "title": "The Atlas Brew #66",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0028",
+      "transcript_title": "The Atlas Brew #65",
+      "transcript_episode_number": 65,
+      "transcript_duration_seconds": 4005,
+      "status": "MATCHED",
+      "matched_video_id": "C3qehVnGj28",
+      "canonical_url": "https://www.youtube.com/watch?v=C3qehVnGj28",
+      "youtube_title": "The Atlas Brew #65",
+      "published_at": "2023-05-31T23:30:01-07:00",
+      "uploaded_at": "2023-05-31T23:30:01-07:00",
+      "youtube_duration_seconds": 4018,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "C3qehVnGj28",
+          "score": 1.0,
+          "title": "The Atlas Brew #65",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0029",
+      "transcript_title": "The Atlas Brew #64",
+      "transcript_episode_number": 64,
+      "transcript_duration_seconds": 4680,
+      "status": "MATCHED",
+      "matched_video_id": "Hy8xrNBEtv4",
+      "canonical_url": "https://www.youtube.com/watch?v=Hy8xrNBEtv4",
+      "youtube_title": "The Atlas Brew #64",
+      "published_at": "2023-05-24T23:54:46-07:00",
+      "uploaded_at": "2023-05-24T23:54:46-07:00",
+      "youtube_duration_seconds": 4683,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "Hy8xrNBEtv4",
+          "score": 1.0,
+          "title": "The Atlas Brew #64",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0030",
+      "transcript_title": "The Atlas Brew #83",
+      "transcript_episode_number": 83,
+      "transcript_duration_seconds": 4387,
+      "status": "MATCHED",
+      "matched_video_id": "a90tYseiwPs",
+      "canonical_url": "https://www.youtube.com/watch?v=a90tYseiwPs",
+      "youtube_title": "The Atlas Brew #83",
+      "published_at": "2023-10-12T07:20:34-07:00",
+      "uploaded_at": "2023-10-12T07:20:34-07:00",
+      "youtube_duration_seconds": 4472,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "a90tYseiwPs",
+          "score": 1.0,
+          "title": "The Atlas Brew #83",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0031",
+      "transcript_title": "The Atlas Brew #82",
+      "transcript_episode_number": 82,
+      "transcript_duration_seconds": 4003,
+      "status": "MATCHED",
+      "matched_video_id": "-oynmNP_qug",
+      "canonical_url": "https://www.youtube.com/watch?v=-oynmNP_qug",
+      "youtube_title": "The Atlas Brew #82",
+      "published_at": "2023-10-04T23:23:53-07:00",
+      "uploaded_at": "2023-10-04T23:23:53-07:00",
+      "youtube_duration_seconds": 4098,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "-oynmNP_qug",
+          "score": 1.0,
+          "title": "The Atlas Brew #82",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0032",
+      "transcript_title": "The Atlas Brew #81",
+      "transcript_episode_number": 81,
+      "transcript_duration_seconds": 4192,
+      "status": "MATCHED",
+      "matched_video_id": "ssoJDdoVgAY",
+      "canonical_url": "https://www.youtube.com/watch?v=ssoJDdoVgAY",
+      "youtube_title": "The Atlas Brew #81",
+      "published_at": "2023-09-27T23:20:26-07:00",
+      "uploaded_at": "2023-09-27T23:20:26-07:00",
+      "youtube_duration_seconds": 4228,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "ssoJDdoVgAY",
+          "score": 1.0,
+          "title": "The Atlas Brew #81",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0033",
+      "transcript_title": "The Atlas Brew #80 one more day",
+      "transcript_episode_number": 80,
+      "transcript_duration_seconds": 3935,
+      "status": "MATCHED",
+      "matched_video_id": "wQ6lfLihk_0",
+      "canonical_url": "https://www.youtube.com/watch?v=wQ6lfLihk_0",
+      "youtube_title": "The Atlas Brew #80 one more day",
+      "published_at": "2023-09-21T00:15:25-07:00",
+      "uploaded_at": "2023-09-21T00:15:25-07:00",
+      "youtube_duration_seconds": 3940,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "wQ6lfLihk_0",
+          "score": 1.0,
+          "title": "The Atlas Brew #80 one more day",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0034",
+      "transcript_title": "The Atlas Brew #84",
+      "transcript_episode_number": 84,
+      "transcript_duration_seconds": 3829,
+      "status": "MATCHED",
+      "matched_video_id": "reJ1HGoDeOg",
+      "canonical_url": "https://www.youtube.com/watch?v=reJ1HGoDeOg",
+      "youtube_title": "The Atlas Brew #84",
+      "published_at": "2023-10-18T23:12:42-07:00",
+      "uploaded_at": "2023-10-18T23:12:42-07:00",
+      "youtube_duration_seconds": 3830,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "reJ1HGoDeOg",
+          "score": 1.0,
+          "title": "The Atlas Brew #84",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0035",
+      "transcript_title": "The Atlas Brew #85",
+      "transcript_episode_number": 85,
+      "transcript_duration_seconds": 4115,
+      "status": "MATCHED",
+      "matched_video_id": "cogVr8xibUk",
+      "canonical_url": "https://www.youtube.com/watch?v=cogVr8xibUk",
+      "youtube_title": "The Atlas Brew #85",
+      "published_at": "2023-10-25T23:30:06-07:00",
+      "uploaded_at": "2023-10-25T23:30:06-07:00",
+      "youtube_duration_seconds": 4174,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "cogVr8xibUk",
+          "score": 1.0,
+          "title": "The Atlas Brew #85",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0036",
+      "transcript_title": "The Atlas Brew #89 Polis",
+      "transcript_episode_number": 89,
+      "transcript_duration_seconds": 4178,
+      "status": "MATCHED",
+      "matched_video_id": "n-fdV268O9g",
+      "canonical_url": "https://www.youtube.com/watch?v=n-fdV268O9g",
+      "youtube_title": "The Atlas Brew #89 Polis",
+      "published_at": "2023-11-22T11:18:52-08:00",
+      "uploaded_at": "2023-11-22T11:18:52-08:00",
+      "youtube_duration_seconds": 4180,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "n-fdV268O9g",
+          "score": 1.0,
+          "title": "The Atlas Brew #89 Polis",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0037",
+      "transcript_title": "The Atlas Brew #90",
+      "transcript_episode_number": 90,
+      "transcript_duration_seconds": 3769,
+      "status": "MATCHED",
+      "matched_video_id": "4AT7IDwx3oY",
+      "canonical_url": "https://www.youtube.com/watch?v=4AT7IDwx3oY",
+      "youtube_title": "The Atlas Brew #90",
+      "published_at": "2023-11-29T23:28:32-08:00",
+      "uploaded_at": "2023-11-29T23:28:32-08:00",
+      "youtube_duration_seconds": 3841,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "4AT7IDwx3oY",
+          "score": 1.0,
+          "title": "The Atlas Brew #90",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0038",
+      "transcript_title": "The Atlas Brew #91",
+      "transcript_episode_number": 91,
+      "transcript_duration_seconds": 4013,
+      "status": "MATCHED",
+      "matched_video_id": "Wt1l0xtxdl0",
+      "canonical_url": "https://www.youtube.com/watch?v=Wt1l0xtxdl0",
+      "youtube_title": "The Atlas Brew #91",
+      "published_at": "2023-12-06T23:47:56-08:00",
+      "uploaded_at": "2023-12-06T23:47:56-08:00",
+      "youtube_duration_seconds": 4019,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "Wt1l0xtxdl0",
+          "score": 1.0,
+          "title": "The Atlas Brew #91",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0039",
+      "transcript_title": "The Atlas Brew #92",
+      "transcript_episode_number": 92,
+      "transcript_duration_seconds": 3741,
+      "status": "MATCHED",
+      "matched_video_id": "4MAfU6yPVyQ",
+      "canonical_url": "https://www.youtube.com/watch?v=4MAfU6yPVyQ",
+      "youtube_title": "The Atlas Brew #92",
+      "published_at": "2023-12-13T23:29:00-08:00",
+      "uploaded_at": "2023-12-13T23:29:00-08:00",
+      "youtube_duration_seconds": 3742,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "4MAfU6yPVyQ",
+          "score": 1.0,
+          "title": "The Atlas Brew #92",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0040",
+      "transcript_title": "Metagravity Stress test brew",
+      "transcript_episode_number": null,
+      "transcript_duration_seconds": 14874,
+      "status": "MATCHED",
+      "matched_video_id": "UMRHIK6Q8s4",
+      "canonical_url": "https://www.youtube.com/watch?v=UMRHIK6Q8s4",
+      "youtube_title": "Metagravity Stress test brew",
+      "published_at": "2024-01-17T13:54:21-08:00",
+      "uploaded_at": "2024-01-17T13:54:21-08:00",
+      "youtube_duration_seconds": 14881,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_NORMALIZED_TITLE",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "UMRHIK6Q8s4",
+          "score": 1.0,
+          "title": "Metagravity Stress test brew",
+          "reasons": [
+            "EXACT_NORMALIZED_TITLE",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        },
+        {
+          "video_id": "MJ0B2ADiJpo",
+          "score": 0.0757,
+          "title": "The Atlas Brew #39 game structure",
+          "reasons": []
+        },
+        {
+          "video_id": "kL5QupAn8qI",
+          "score": 0.0625,
+          "title": "The Atlas Brew #73 with subs",
+          "reasons": []
+        }
+      ],
+      "match_margin": 0.9243
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0041",
+      "transcript_title": "Atlas Brew #97",
+      "transcript_episode_number": 97,
+      "transcript_duration_seconds": 4907,
+      "status": "MATCHED",
+      "matched_video_id": "dgus-u5x7vk",
+      "canonical_url": "https://www.youtube.com/watch?v=dgus-u5x7vk",
+      "youtube_title": "Atlas Brew #97",
+      "published_at": "2024-01-31T23:36:25-08:00",
+      "uploaded_at": "2024-01-31T23:36:25-08:00",
+      "youtube_duration_seconds": 4916,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "dgus-u5x7vk",
+          "score": 1.0,
+          "title": "Atlas Brew #97",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0042",
+      "transcript_title": "The Atlas Brew #101",
+      "transcript_episode_number": 101,
+      "transcript_duration_seconds": 3683,
+      "status": "MATCHED",
+      "matched_video_id": "azr9KntDkS8",
+      "canonical_url": "https://www.youtube.com/watch?v=azr9KntDkS8",
+      "youtube_title": "The Atlas Brew #101",
+      "published_at": "2024-03-06T23:11:42-08:00",
+      "uploaded_at": "2024-03-06T23:11:42-08:00",
+      "youtube_duration_seconds": 3686,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "azr9KntDkS8",
+          "score": 1.0,
+          "title": "The Atlas Brew #101",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0043",
+      "transcript_title": "community week part 3: The Atlas Brew #100",
+      "transcript_episode_number": 100,
+      "transcript_duration_seconds": 5540,
+      "status": "MATCHED",
+      "matched_video_id": "hr1x882XP1M",
+      "canonical_url": "https://www.youtube.com/watch?v=hr1x882XP1M",
+      "youtube_title": "community week part 3: The Atlas Brew #100",
+      "published_at": "2024-02-28T23:43:56-08:00",
+      "uploaded_at": "2024-02-28T23:43:56-08:00",
+      "youtube_duration_seconds": 5551,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "hr1x882XP1M",
+          "score": 1.0,
+          "title": "community week part 3: The Atlas Brew #100",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0044",
+      "transcript_title": "The Atlas Brew #99",
+      "transcript_episode_number": 99,
+      "transcript_duration_seconds": 3854,
+      "status": "MATCHED",
+      "matched_video_id": "eJ9pQAzS7E8",
+      "canonical_url": "https://www.youtube.com/watch?v=eJ9pQAzS7E8",
+      "youtube_title": "The Atlas Brew #99",
+      "published_at": "2024-02-14T23:13:54-08:00",
+      "uploaded_at": "2024-02-14T23:13:54-08:00",
+      "youtube_duration_seconds": 3855,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "eJ9pQAzS7E8",
+          "score": 1.0,
+          "title": "The Atlas Brew #99",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0045",
+      "transcript_title": "The Atlas Brew #98",
+      "transcript_episode_number": 98,
+      "transcript_duration_seconds": 3821,
+      "status": "MATCHED",
+      "matched_video_id": "ThDVGvwsKN8",
+      "canonical_url": "https://www.youtube.com/watch?v=ThDVGvwsKN8",
+      "youtube_title": "The Atlas Brew #98",
+      "published_at": "2024-02-07T23:11:39-08:00",
+      "uploaded_at": "2024-02-07T23:11:39-08:00",
+      "youtube_duration_seconds": 3822,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "ThDVGvwsKN8",
+          "score": 1.0,
+          "title": "The Atlas Brew #98",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0046",
+      "transcript_title": "The Atlas Brew #104",
+      "transcript_episode_number": 104,
+      "transcript_duration_seconds": 3985,
+      "status": "MATCHED",
+      "matched_video_id": "9KqUZYMvIpE",
+      "canonical_url": "https://www.youtube.com/watch?v=9KqUZYMvIpE",
+      "youtube_title": "The Atlas Brew #104",
+      "published_at": "2024-03-27T23:16:13-07:00",
+      "uploaded_at": "2024-03-27T23:16:13-07:00",
+      "youtube_duration_seconds": 4008,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "9KqUZYMvIpE",
+          "score": 1.0,
+          "title": "The Atlas Brew #104",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0047",
+      "transcript_title": "The Atlas Brew #105",
+      "transcript_episode_number": 105,
+      "transcript_duration_seconds": 4340,
+      "status": "MATCHED",
+      "matched_video_id": "D7i0Ymdcbj4",
+      "canonical_url": "https://www.youtube.com/watch?v=D7i0Ymdcbj4",
+      "youtube_title": "The Atlas Brew #105",
+      "published_at": "2024-04-03T23:20:29-07:00",
+      "uploaded_at": "2024-04-03T23:20:29-07:00",
+      "youtube_duration_seconds": 4343,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "D7i0Ymdcbj4",
+          "score": 1.0,
+          "title": "The Atlas Brew #105",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0048",
+      "transcript_title": "The Atlas Brew #106",
+      "transcript_episode_number": 106,
+      "transcript_duration_seconds": 4066,
+      "status": "MATCHED",
+      "matched_video_id": "33tGUwWAlr0",
+      "canonical_url": "https://www.youtube.com/watch?v=33tGUwWAlr0",
+      "youtube_title": "The Atlas Brew #106",
+      "published_at": "2024-04-10T23:32:39-07:00",
+      "uploaded_at": "2024-04-10T23:32:39-07:00",
+      "youtube_duration_seconds": 4096,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "33tGUwWAlr0",
+          "score": 1.0,
+          "title": "The Atlas Brew #106",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0049",
+      "transcript_title": "🔴The Atlas Brew #107🔴",
+      "transcript_episode_number": 107,
+      "transcript_duration_seconds": 4137,
+      "status": "MATCHED",
+      "matched_video_id": "CY0XexA5Ti4",
+      "canonical_url": "https://www.youtube.com/watch?v=CY0XexA5Ti4",
+      "youtube_title": "🔴The Atlas Brew #107🔴",
+      "published_at": "2024-04-17T23:34:07-07:00",
+      "uploaded_at": "2024-04-17T23:34:07-07:00",
+      "youtube_duration_seconds": 4171,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "CY0XexA5Ti4",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #107🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0050",
+      "transcript_title": "🔴 Atlas Brew #108 🔴",
+      "transcript_episode_number": 108,
+      "transcript_duration_seconds": 3768,
+      "status": "MATCHED",
+      "matched_video_id": "aokr8QbVO8s",
+      "canonical_url": "https://www.youtube.com/watch?v=aokr8QbVO8s",
+      "youtube_title": "🔴 Atlas Brew #108 🔴",
+      "published_at": "2024-04-24T23:25:30-07:00",
+      "uploaded_at": "2024-04-24T23:25:30-07:00",
+      "youtube_duration_seconds": 3811,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "aokr8QbVO8s",
+          "score": 1.0,
+          "title": "🔴 Atlas Brew #108 🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0051",
+      "transcript_title": "🔴The Atlas Brew #110 🔴",
+      "transcript_episode_number": 110,
+      "transcript_duration_seconds": 3954,
+      "status": "MATCHED",
+      "matched_video_id": "B9fYOle3UQs",
+      "canonical_url": "https://www.youtube.com/watch?v=B9fYOle3UQs",
+      "youtube_title": "🔴The Atlas Brew #110 🔴",
+      "published_at": "2024-05-09T00:01:37-07:00",
+      "uploaded_at": "2024-05-09T00:01:37-07:00",
+      "youtube_duration_seconds": 4006,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "B9fYOle3UQs",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #110 🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0052",
+      "transcript_title": "🔴The Atlas Brew #109 🔴",
+      "transcript_episode_number": 109,
+      "transcript_duration_seconds": 4589,
+      "status": "MATCHED",
+      "matched_video_id": "tD0nuAiEH_Y",
+      "canonical_url": "https://www.youtube.com/watch?v=tD0nuAiEH_Y",
+      "youtube_title": "🔴The Atlas Brew #109 🔴",
+      "published_at": "2024-05-01T23:40:26-07:00",
+      "uploaded_at": "2024-05-01T23:40:26-07:00",
+      "youtube_duration_seconds": 4596,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "tD0nuAiEH_Y",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #109 🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0053",
+      "transcript_title": "🔴The Atlas Brew #112🔴",
+      "transcript_episode_number": 112,
+      "transcript_duration_seconds": 3880,
+      "status": "MATCHED",
+      "matched_video_id": "cb6iajv6Ays",
+      "canonical_url": "https://www.youtube.com/watch?v=cb6iajv6Ays",
+      "youtube_title": "🔴The Atlas Brew #112🔴",
+      "published_at": "2024-05-22T23:16:33-07:00",
+      "uploaded_at": "2024-05-22T23:16:33-07:00",
+      "youtube_duration_seconds": 3888,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "cb6iajv6Ays",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #112🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0054",
+      "transcript_title": "🔴The Atlas Brew #111🔴",
+      "transcript_episode_number": 111,
+      "transcript_duration_seconds": 3864,
+      "status": "MATCHED",
+      "matched_video_id": "zLe3N0spdVg",
+      "canonical_url": "https://www.youtube.com/watch?v=zLe3N0spdVg",
+      "youtube_title": "🔴The Atlas Brew #111🔴",
+      "published_at": "2024-05-15T23:16:18-07:00",
+      "uploaded_at": "2024-05-15T23:16:18-07:00",
+      "youtube_duration_seconds": 3891,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "zLe3N0spdVg",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #111🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0055",
+      "transcript_title": "🔴The Atlas Brew #113🔴",
+      "transcript_episode_number": 113,
+      "transcript_duration_seconds": 4372,
+      "status": "MATCHED",
+      "matched_video_id": "aWXRW5VB8tk",
+      "canonical_url": "https://www.youtube.com/watch?v=aWXRW5VB8tk",
+      "youtube_title": "🔴The Atlas Brew #113🔴",
+      "published_at": "2024-05-29T23:28:07-07:00",
+      "uploaded_at": "2024-05-29T23:28:07-07:00",
+      "youtube_duration_seconds": 4391,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "aWXRW5VB8tk",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #113🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0056",
+      "transcript_title": "🔴The Atlas Brew #114🔴",
+      "transcript_episode_number": 114,
+      "transcript_duration_seconds": 4297,
+      "status": "MATCHED",
+      "matched_video_id": "ssZMgNwNFX4",
+      "canonical_url": "https://www.youtube.com/watch?v=ssZMgNwNFX4",
+      "youtube_title": "🔴The Atlas Brew #114🔴",
+      "published_at": "2024-06-05T23:26:20-07:00",
+      "uploaded_at": "2024-06-05T23:26:20-07:00",
+      "youtube_duration_seconds": 4307,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "ssZMgNwNFX4",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #114🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0057",
+      "transcript_title": "🔴The Atlas Brew #116🔴",
+      "transcript_episode_number": 116,
+      "transcript_duration_seconds": 5076,
+      "status": "MATCHED",
+      "matched_video_id": "ZVeN8njYM1c",
+      "canonical_url": "https://www.youtube.com/watch?v=ZVeN8njYM1c",
+      "youtube_title": "🔴The Atlas Brew #116🔴",
+      "published_at": "2024-06-19T23:39:47-07:00",
+      "uploaded_at": "2024-06-19T23:39:47-07:00",
+      "youtube_duration_seconds": 5113,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "ZVeN8njYM1c",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #116🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0058",
+      "transcript_title": "🔴The Atlas Brew #117🔴",
+      "transcript_episode_number": 117,
+      "transcript_duration_seconds": 3667,
+      "status": "MATCHED",
+      "matched_video_id": "3ea9OFFKmxI",
+      "canonical_url": "https://www.youtube.com/watch?v=3ea9OFFKmxI",
+      "youtube_title": "🔴The Atlas Brew #117🔴",
+      "published_at": "2024-06-26T23:05:02-07:00",
+      "uploaded_at": "2024-06-26T23:05:02-07:00",
+      "youtube_duration_seconds": 3684,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "3ea9OFFKmxI",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #117🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0059",
+      "transcript_title": "🔴Atlas Brew #118🔴",
+      "transcript_episode_number": 118,
+      "transcript_duration_seconds": 2041,
+      "status": "MATCHED",
+      "matched_video_id": "FvTTSxgpVKA",
+      "canonical_url": "https://www.youtube.com/watch?v=FvTTSxgpVKA",
+      "youtube_title": "🔴Atlas Brew #118🔴",
+      "published_at": "2024-07-03T23:43:44-07:00",
+      "uploaded_at": "2024-07-03T23:43:44-07:00",
+      "youtube_duration_seconds": 2440,
+      "match_confidence": "HIGH",
+      "match_score": 0.9,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "FvTTSxgpVKA",
+          "score": 0.9,
+          "title": "🔴Atlas Brew #118🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY"
+          ]
+        }
+      ],
+      "match_margin": 0.9
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0060",
+      "transcript_title": "🔴The Atlas Brew #119🔴",
+      "transcript_episode_number": 119,
+      "transcript_duration_seconds": 3783,
+      "status": "MATCHED",
+      "matched_video_id": "4EqiBPRTPSE",
+      "canonical_url": "https://www.youtube.com/watch?v=4EqiBPRTPSE",
+      "youtube_title": "🔴The Atlas Brew #119🔴",
+      "published_at": "2024-07-10T23:06:09-07:00",
+      "uploaded_at": "2024-07-10T23:06:09-07:00",
+      "youtube_duration_seconds": 3803,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "4EqiBPRTPSE",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #119🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0061",
+      "transcript_title": "🔴The Atlas Brew #120🔴",
+      "transcript_episode_number": 120,
+      "transcript_duration_seconds": 3773,
+      "status": "MATCHED",
+      "matched_video_id": "hXwIr7nVOrE",
+      "canonical_url": "https://www.youtube.com/watch?v=hXwIr7nVOrE",
+      "youtube_title": "🔴The Atlas Brew #120🔴",
+      "published_at": "2024-07-17T23:06:47-07:00",
+      "uploaded_at": "2024-07-17T23:06:47-07:00",
+      "youtube_duration_seconds": 3783,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "hXwIr7nVOrE",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #120🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0062",
+      "transcript_title": "🔴The Atlas Brew #121🔴",
+      "transcript_episode_number": 121,
+      "transcript_duration_seconds": 4340,
+      "status": "MATCHED",
+      "matched_video_id": "gmVDB1cemJY",
+      "canonical_url": "https://www.youtube.com/watch?v=gmVDB1cemJY",
+      "youtube_title": "🔴The Atlas Brew #121🔴",
+      "published_at": "2024-07-24T23:30:10-07:00",
+      "uploaded_at": "2024-07-24T23:30:10-07:00",
+      "youtube_duration_seconds": 4349,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "gmVDB1cemJY",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #121🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0063",
+      "transcript_title": "🔴The Atlas brew #122🔴",
+      "transcript_episode_number": 122,
+      "transcript_duration_seconds": 3654,
+      "status": "MATCHED",
+      "matched_video_id": "DBZb2DNsrMk",
+      "canonical_url": "https://www.youtube.com/watch?v=DBZb2DNsrMk",
+      "youtube_title": "🔴The Atlas brew #122🔴",
+      "published_at": "2024-07-31T23:06:44-07:00",
+      "uploaded_at": "2024-07-31T23:06:44-07:00",
+      "youtube_duration_seconds": 3675,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "DBZb2DNsrMk",
+          "score": 1.0,
+          "title": "🔴The Atlas brew #122🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0064",
+      "transcript_title": "🔴The Atlas Brew #123🔴",
+      "transcript_episode_number": 123,
+      "transcript_duration_seconds": 3869,
+      "status": "MATCHED",
+      "matched_video_id": "XUIK2T5IFhg",
+      "canonical_url": "https://www.youtube.com/watch?v=XUIK2T5IFhg",
+      "youtube_title": "🔴The Atlas Brew #123🔴",
+      "published_at": "2024-08-07T23:15:50-07:00",
+      "uploaded_at": "2024-08-07T23:15:50-07:00",
+      "youtube_duration_seconds": 3903,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "XUIK2T5IFhg",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #123🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0065",
+      "transcript_title": "🔴The Atlas brew #124🔴",
+      "transcript_episode_number": 124,
+      "transcript_duration_seconds": 5144,
+      "status": "MATCHED",
+      "matched_video_id": "CBV9APMbsVU",
+      "canonical_url": "https://www.youtube.com/watch?v=CBV9APMbsVU",
+      "youtube_title": "🔴The Atlas brew #124🔴",
+      "published_at": "2024-08-14T23:30:27-07:00",
+      "uploaded_at": "2024-08-14T23:30:27-07:00",
+      "youtube_duration_seconds": 5151,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "CBV9APMbsVU",
+          "score": 1.0,
+          "title": "🔴The Atlas brew #124🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0066",
+      "transcript_title": "🔴The Atlas Brew #125🔴",
+      "transcript_episode_number": 125,
+      "transcript_duration_seconds": 4583,
+      "status": "MATCHED",
+      "matched_video_id": "zMNvlBreM_Q",
+      "canonical_url": "https://www.youtube.com/watch?v=zMNvlBreM_Q",
+      "youtube_title": "🔴The Atlas Brew #125🔴",
+      "published_at": "2024-08-21T23:31:18-07:00",
+      "uploaded_at": "2024-08-21T23:31:18-07:00",
+      "youtube_duration_seconds": 4623,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "zMNvlBreM_Q",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #125🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0067",
+      "transcript_title": "🔴The Atlas Brew #126🔴",
+      "transcript_episode_number": 126,
+      "transcript_duration_seconds": 5545,
+      "status": "MATCHED",
+      "matched_video_id": "5VXDeMnXr3Y",
+      "canonical_url": "https://www.youtube.com/watch?v=5VXDeMnXr3Y",
+      "youtube_title": "🔴The Atlas Brew #126🔴",
+      "published_at": "2024-08-28T23:45:23-07:00",
+      "uploaded_at": "2024-08-28T23:45:23-07:00",
+      "youtube_duration_seconds": 5588,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "5VXDeMnXr3Y",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #126🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0068",
+      "transcript_title": "🔴The Atlas Brew #127🔴",
+      "transcript_episode_number": 127,
+      "transcript_duration_seconds": 3812,
+      "status": "MATCHED",
+      "matched_video_id": "wgpl0TsQSKA",
+      "canonical_url": "https://www.youtube.com/watch?v=wgpl0TsQSKA",
+      "youtube_title": "🔴The Atlas Brew #127🔴",
+      "published_at": "2024-09-04T23:14:16-07:00",
+      "uploaded_at": "2024-09-04T23:14:16-07:00",
+      "youtube_duration_seconds": 3830,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "wgpl0TsQSKA",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #127🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0069",
+      "transcript_title": "🔴The Atlas Brew 129🔴",
+      "transcript_episode_number": 129,
+      "transcript_duration_seconds": 6065,
+      "status": "MATCHED",
+      "matched_video_id": "humdzWupSHc",
+      "canonical_url": "https://www.youtube.com/watch?v=humdzWupSHc",
+      "youtube_title": "🔴The Atlas Brew 129🔴",
+      "published_at": "2024-09-25T11:48:39-07:00",
+      "uploaded_at": "2024-09-25T11:48:39-07:00",
+      "youtube_duration_seconds": 6067,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "humdzWupSHc",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 129🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0070",
+      "transcript_title": "🔴The Atlas Brew #130🔴",
+      "transcript_episode_number": 130,
+      "transcript_duration_seconds": 4915,
+      "status": "MATCHED",
+      "matched_video_id": "37NCOOAfX0A",
+      "canonical_url": "https://www.youtube.com/watch?v=37NCOOAfX0A",
+      "youtube_title": "🔴The Atlas Brew #130🔴",
+      "published_at": "2024-10-02T11:29:41-07:00",
+      "uploaded_at": "2024-10-02T11:29:41-07:00",
+      "youtube_duration_seconds": 4993,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "37NCOOAfX0A",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #130🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0071",
+      "transcript_title": "🔴The Atlas Brew 132 - Marketing w/ Francesca🔴",
+      "transcript_episode_number": 132,
+      "transcript_duration_seconds": 4394,
+      "status": "MATCHED",
+      "matched_video_id": "HTt-5yomSLU",
+      "canonical_url": "https://www.youtube.com/watch?v=HTt-5yomSLU",
+      "youtube_title": "🔴The Atlas Brew 132 - Marketing w/ Francesca🔴",
+      "published_at": "2024-10-16T11:19:08-07:00",
+      "uploaded_at": "2024-10-16T11:19:08-07:00",
+      "youtube_duration_seconds": 4418,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "HTt-5yomSLU",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 132 - Marketing w/ Francesca🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0072",
+      "transcript_title": "🔴The Atlas Brew 134 Surge🔴",
+      "transcript_episode_number": 134,
+      "transcript_duration_seconds": 3992,
+      "status": "MATCHED",
+      "matched_video_id": "2UqNQtufGGU",
+      "canonical_url": "https://www.youtube.com/watch?v=2UqNQtufGGU",
+      "youtube_title": "🔴The Atlas Brew 134 Surge🔴",
+      "published_at": "2024-10-30T11:13:30-07:00",
+      "uploaded_at": "2024-10-30T11:13:30-07:00",
+      "youtube_duration_seconds": 4000,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "2UqNQtufGGU",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 134 Surge🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0073",
+      "transcript_title": "🔴The Atlas Brew 135 Golden Carnival🔴",
+      "transcript_episode_number": 135,
+      "transcript_duration_seconds": 3659,
+      "status": "MATCHED",
+      "matched_video_id": "TL1ccEiuB2c",
+      "canonical_url": "https://www.youtube.com/watch?v=TL1ccEiuB2c",
+      "youtube_title": "🔴The Atlas Brew 135 Golden Carnival🔴",
+      "published_at": "2024-11-06T23:12:56-08:00",
+      "uploaded_at": "2024-11-06T23:12:56-08:00",
+      "youtube_duration_seconds": 3664,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "TL1ccEiuB2c",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 135 Golden Carnival🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0074",
+      "transcript_title": "🔴The Atlas Brew 136 Starpath Brewshop🔴",
+      "transcript_episode_number": 136,
+      "transcript_duration_seconds": 4435,
+      "status": "MATCHED",
+      "matched_video_id": "HmzxhNO9k3c",
+      "canonical_url": "https://www.youtube.com/watch?v=HmzxhNO9k3c",
+      "youtube_title": "🔴The Atlas Brew 136 Starpath Brewshop🔴",
+      "published_at": "2024-11-13T23:35:10-08:00",
+      "uploaded_at": "2024-11-13T23:35:10-08:00",
+      "youtube_duration_seconds": 4440,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "HmzxhNO9k3c",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 136 Starpath Brewshop🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0075",
+      "transcript_title": "🔴The Atlas Brew 137 - DAO updates with the council🔴",
+      "transcript_episode_number": 137,
+      "transcript_duration_seconds": 4437,
+      "status": "MATCHED",
+      "matched_video_id": "HUxIsZmJc5c",
+      "canonical_url": "https://www.youtube.com/watch?v=HUxIsZmJc5c",
+      "youtube_title": "🔴The Atlas Brew 137 - DAO updates with the council🔴",
+      "published_at": "2024-11-20T23:30:02-08:00",
+      "uploaded_at": "2024-11-20T23:30:02-08:00",
+      "youtube_duration_seconds": 4448,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "HUxIsZmJc5c",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 137 - DAO updates with the council🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0076",
+      "transcript_title": "🔴The Atlas Brew 139 Local markets & RFR🔴",
+      "transcript_episode_number": 139,
+      "transcript_duration_seconds": 3774,
+      "status": "MATCHED",
+      "matched_video_id": "5bEcRAUVEuw",
+      "canonical_url": "https://www.youtube.com/watch?v=5bEcRAUVEuw",
+      "youtube_title": "🔴The Atlas Brew 139 Local markets & RFR🔴",
+      "published_at": "2024-12-04T23:17:01-08:00",
+      "uploaded_at": "2024-12-04T23:17:01-08:00",
+      "youtube_duration_seconds": 3783,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "5bEcRAUVEuw",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 139 Local markets & RFR🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0077",
+      "transcript_title": "🔴The Atlas Brew 140 Local markets & RFR release🔴",
+      "transcript_episode_number": 140,
+      "transcript_duration_seconds": 4233,
+      "status": "MATCHED",
+      "matched_video_id": "xcLGYTysDwg",
+      "canonical_url": "https://www.youtube.com/watch?v=xcLGYTysDwg",
+      "youtube_title": "🔴The Atlas Brew 140 Local markets & RFR release🔴",
+      "published_at": "2024-12-11T23:19:01-08:00",
+      "uploaded_at": "2024-12-11T23:19:01-08:00",
+      "youtube_duration_seconds": 4242,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "xcLGYTysDwg",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 140 Local markets & RFR release🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0078",
+      "transcript_title": "🔴The Atlas Brew #131🔴",
+      "transcript_episode_number": 131,
+      "transcript_duration_seconds": 5934,
+      "status": "MATCHED",
+      "matched_video_id": "S_QL9JLj2Ng",
+      "canonical_url": "https://www.youtube.com/watch?v=S_QL9JLj2Ng",
+      "youtube_title": "🔴The Atlas Brew #131🔴",
+      "published_at": "2024-10-09T11:45:02-07:00",
+      "uploaded_at": "2024-10-09T11:45:02-07:00",
+      "youtube_duration_seconds": 5949,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "S_QL9JLj2Ng",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #131🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0079",
+      "transcript_title": "🔴The Atlas Brew #128🔴",
+      "transcript_episode_number": 128,
+      "transcript_duration_seconds": 3738,
+      "status": "MATCHED",
+      "matched_video_id": "n0qi4nRVeNo",
+      "canonical_url": "https://www.youtube.com/watch?v=n0qi4nRVeNo",
+      "youtube_title": "🔴The Atlas Brew #128🔴",
+      "published_at": "2024-09-11T23:17:00-07:00",
+      "uploaded_at": "2024-09-11T23:17:00-07:00",
+      "youtube_duration_seconds": 3752,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "n0qi4nRVeNo",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew #128🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0080",
+      "transcript_title": "🔴The Atlas Brew 141🔴",
+      "transcript_episode_number": 141,
+      "transcript_duration_seconds": 3882,
+      "status": "MATCHED",
+      "matched_video_id": "jbjwf7UPEqY",
+      "canonical_url": "https://www.youtube.com/watch?v=jbjwf7UPEqY",
+      "youtube_title": "🔴The Atlas Brew 141🔴",
+      "published_at": "2025-01-08T23:11:06-08:00",
+      "uploaded_at": "2025-01-08T23:11:06-08:00",
+      "youtube_duration_seconds": 3930,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "jbjwf7UPEqY",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 141🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0081",
+      "transcript_title": "🔴The Atlas Brew 142🔴",
+      "transcript_episode_number": 142,
+      "transcript_duration_seconds": 4662,
+      "status": "MATCHED",
+      "matched_video_id": "Aqmn7G2f86c",
+      "canonical_url": "https://www.youtube.com/watch?v=Aqmn7G2f86c",
+      "youtube_title": "🔴The Atlas Brew 142🔴",
+      "published_at": "2025-01-15T23:28:20-08:00",
+      "uploaded_at": "2025-01-15T23:28:20-08:00",
+      "youtube_duration_seconds": 4685,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "Aqmn7G2f86c",
+          "score": 1.0,
+          "title": "🔴The Atlas Brew 142🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0082",
+      "transcript_title": "🔴Atlas Brew 143 - What to Look Forward to in 2025🔴",
+      "transcript_episode_number": 143,
+      "transcript_duration_seconds": 4384,
+      "status": "MATCHED",
+      "matched_video_id": "isfYelfewkQ",
+      "canonical_url": "https://www.youtube.com/watch?v=isfYelfewkQ",
+      "youtube_title": "🔴Atlas Brew 143 - What to Look Forward to in 2025🔴",
+      "published_at": "2025-01-22T23:18:01-08:00",
+      "uploaded_at": "2025-01-22T23:18:01-08:00",
+      "youtube_duration_seconds": 4401,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "isfYelfewkQ",
+          "score": 1.0,
+          "title": "🔴Atlas Brew 143 - What to Look Forward to in 2025🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0083",
+      "transcript_title": "🔴Atlas Brew 144 - level design with blake & dane🔴",
+      "transcript_episode_number": 144,
+      "transcript_duration_seconds": 4056,
+      "status": "MATCHED",
+      "matched_video_id": "K0lwWx3gAy0",
+      "canonical_url": "https://www.youtube.com/watch?v=K0lwWx3gAy0",
+      "youtube_title": "🔴Atlas Brew 144 - level design with blake & dane🔴",
+      "published_at": "2025-01-29T23:13:48-08:00",
+      "uploaded_at": "2025-01-29T23:13:48-08:00",
+      "youtube_duration_seconds": 4080,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "K0lwWx3gAy0",
+          "score": 1.0,
+          "title": "🔴Atlas Brew 144 - level design with blake & dane🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0084",
+      "transcript_title": "🔴Atlas Brew #145 community updates🔴",
+      "transcript_episode_number": 145,
+      "transcript_duration_seconds": 5456,
+      "status": "MATCHED",
+      "matched_video_id": "4MhpdLV4eec",
+      "canonical_url": "https://www.youtube.com/watch?v=4MhpdLV4eec",
+      "youtube_title": "🔴Atlas Brew #145 community updates🔴",
+      "published_at": "2025-02-05T23:38:00-08:00",
+      "uploaded_at": "2025-02-05T23:38:00-08:00",
+      "youtube_duration_seconds": 5469,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "4MhpdLV4eec",
+          "score": 1.0,
+          "title": "🔴Atlas Brew #145 community updates🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0085",
+      "transcript_title": "🚀 Atlas Brew #147: Fleet Rentals 🚀",
+      "transcript_episode_number": 147,
+      "transcript_duration_seconds": 3881,
+      "status": "MATCHED",
+      "matched_video_id": "lIGBUXhE0Xs",
+      "canonical_url": "https://www.youtube.com/watch?v=lIGBUXhE0Xs",
+      "youtube_title": "🚀 Atlas Brew #147: Fleet Rentals 🚀",
+      "published_at": "2025-02-19T23:15:34-08:00",
+      "uploaded_at": "2025-02-19T23:15:34-08:00",
+      "youtube_duration_seconds": 3911,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "lIGBUXhE0Xs",
+          "score": 1.0,
+          "title": "🚀 Atlas Brew #147: Fleet Rentals 🚀",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0086",
+      "transcript_title": "🔴 Atlas Brew #146 – Atlas Locker Addendum | Live with Michael Wagner 🔴",
+      "transcript_episode_number": 146,
+      "transcript_duration_seconds": 4804,
+      "status": "MATCHED",
+      "matched_video_id": "Jk-3hzbMWf0",
+      "canonical_url": "https://www.youtube.com/watch?v=Jk-3hzbMWf0",
+      "youtube_title": "🔴 Atlas Brew #146 – Atlas Locker Addendum | Live with Michael Wagner 🔴",
+      "published_at": "2025-02-12T23:36:11-08:00",
+      "uploaded_at": "2025-02-12T23:36:11-08:00",
+      "youtube_duration_seconds": 4816,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "Jk-3hzbMWf0",
+          "score": 1.0,
+          "title": "🔴 Atlas Brew #146 – Atlas Locker Addendum | Live with Michael Wagner 🔴",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0087",
+      "transcript_title": "🚀 **The Atlas Brew #148 - Fleet Rentals Part 2** ☕",
+      "transcript_episode_number": 148,
+      "transcript_duration_seconds": 3616,
+      "status": "MATCHED",
+      "matched_video_id": "1BAj8LoXghk",
+      "canonical_url": "https://www.youtube.com/watch?v=1BAj8LoXghk",
+      "youtube_title": "🚀 **The Atlas Brew #148 - Fleet Rentals Part 2** ☕",
+      "published_at": "2025-02-26T23:06:29-08:00",
+      "uploaded_at": "2025-02-26T23:06:29-08:00",
+      "youtube_duration_seconds": 3630,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "1BAj8LoXghk",
+          "score": 1.0,
+          "title": "🚀 **The Atlas Brew #148 - Fleet Rentals Part 2** ☕",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0088",
+      "transcript_title": "🚀 Atlas Brew #149 - Freestyle Edition! ☕️",
+      "transcript_episode_number": 149,
+      "transcript_duration_seconds": 4136,
+      "status": "MATCHED",
+      "matched_video_id": "Pr-noBxHw-A",
+      "canonical_url": "https://www.youtube.com/watch?v=Pr-noBxHw-A",
+      "youtube_title": "🚀 Atlas Brew #149 - Freestyle Edition! ☕️",
+      "published_at": "2025-03-05T23:16:13-08:00",
+      "uploaded_at": "2025-03-05T23:16:13-08:00",
+      "youtube_duration_seconds": 4178,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "Pr-noBxHw-A",
+          "score": 1.0,
+          "title": "🚀 Atlas Brew #149 - Freestyle Edition! ☕️",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0089",
+      "transcript_title": "Atlas Brew #150 – March UE5 Patch Breakdown! 🚀✨",
+      "transcript_episode_number": 150,
+      "transcript_duration_seconds": 3511,
+      "status": "MATCHED",
+      "matched_video_id": "_V-ArKulW9U",
+      "canonical_url": "https://www.youtube.com/watch?v=_V-ArKulW9U",
+      "youtube_title": "Atlas Brew #150 – March UE5 Patch Breakdown! 🚀✨",
+      "published_at": "2025-03-13T00:11:47-07:00",
+      "uploaded_at": "2025-03-13T00:11:47-07:00",
+      "youtube_duration_seconds": 3534,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "_V-ArKulW9U",
+          "score": 1.0,
+          "title": "Atlas Brew #150 – March UE5 Patch Breakdown! 🚀✨",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0090",
+      "transcript_title": "🚀 Atlas Brew #151 - UE5 Patch Release Party with Chypto! 🎉",
+      "transcript_episode_number": 151,
+      "transcript_duration_seconds": 4281,
+      "status": "MATCHED",
+      "matched_video_id": "LeVr5Aph63U",
+      "canonical_url": "https://www.youtube.com/watch?v=LeVr5Aph63U",
+      "youtube_title": "🚀 Atlas Brew #151 - UE5 Patch Release Party with Chypto! 🎉",
+      "published_at": "2025-03-20T00:23:23-07:00",
+      "uploaded_at": "2025-03-20T00:23:23-07:00",
+      "youtube_duration_seconds": 4312,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "LeVr5Aph63U",
+          "score": 1.0,
+          "title": "🚀 Atlas Brew #151 - UE5 Patch Release Party with Chypto! 🎉",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0091",
+      "transcript_title": "The Atlas Brew 152 | Meet the DAO Council Candidates ☕🏛️",
+      "transcript_episode_number": 152,
+      "transcript_duration_seconds": 4421,
+      "status": "MATCHED",
+      "matched_video_id": "STeOrueyuqo",
+      "canonical_url": "https://www.youtube.com/watch?v=STeOrueyuqo",
+      "youtube_title": "The Atlas Brew 152 | Meet the DAO Council Candidates ☕🏛️",
+      "published_at": "2025-03-27T00:32:07-07:00",
+      "uploaded_at": "2025-03-27T00:32:07-07:00",
+      "youtube_duration_seconds": 4437,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "STeOrueyuqo",
+          "score": 1.0,
+          "title": "The Atlas Brew 152 | Meet the DAO Council Candidates ☕🏛️",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0092",
+      "transcript_title": "🌌 Atlas Brew #153 – State of the Star Atlas Community 🚀",
+      "transcript_episode_number": 153,
+      "transcript_duration_seconds": 4035,
+      "status": "MATCHED",
+      "matched_video_id": "IOqv8buDDuk",
+      "canonical_url": "https://www.youtube.com/watch?v=IOqv8buDDuk",
+      "youtube_title": "🌌 Atlas Brew #153 – State of the Star Atlas Community 🚀",
+      "published_at": "2025-04-03T00:27:07-07:00",
+      "uploaded_at": "2025-04-03T00:27:07-07:00",
+      "youtube_duration_seconds": 4052,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "IOqv8buDDuk",
+          "score": 1.0,
+          "title": "🌌 Atlas Brew #153 – State of the Star Atlas Community 🚀",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0093",
+      "transcript_title": "Atlas Brew #154 – AI in Star Atlas | Featuring Special Guest Jim",
+      "transcript_episode_number": 154,
+      "transcript_duration_seconds": 4213,
+      "status": "MATCHED",
+      "matched_video_id": "fhla1Iinp9c",
+      "canonical_url": "https://www.youtube.com/watch?v=fhla1Iinp9c",
+      "youtube_title": "Atlas Brew #154 – AI in Star Atlas | Featuring Special Guest Jim",
+      "published_at": "2025-04-10T00:26:26-07:00",
+      "uploaded_at": "2025-04-10T00:26:26-07:00",
+      "youtube_duration_seconds": 4231,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "fhla1Iinp9c",
+          "score": 1.0,
+          "title": "Atlas Brew #154 – AI in Star Atlas | Featuring Special Guest Jim",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0094",
+      "transcript_title": "Atlas Brew #155 - Progression, Onchain Rewards and Other Roadmap Updates",
+      "transcript_episode_number": 155,
+      "transcript_duration_seconds": 3714,
+      "status": "MATCHED",
+      "matched_video_id": "tKzi5sCS9uM",
+      "canonical_url": "https://www.youtube.com/watch?v=tKzi5sCS9uM",
+      "youtube_title": "Atlas Brew #155 - Progression, Onchain Rewards and Other Roadmap Updates",
+      "published_at": "2025-04-17T00:07:48-07:00",
+      "uploaded_at": "2025-04-17T00:07:48-07:00",
+      "youtube_duration_seconds": 3722,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "tKzi5sCS9uM",
+          "score": 1.0,
+          "title": "Atlas Brew #155 - Progression, Onchain Rewards and Other Roadmap Updates",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0095",
+      "transcript_title": "🎙️ Atlas Brew #157 – The Future of Play to Earn, Part 2",
+      "transcript_episode_number": 157,
+      "transcript_duration_seconds": 3824,
+      "status": "MATCHED",
+      "matched_video_id": "34CcqB4xJGc",
+      "canonical_url": "https://www.youtube.com/watch?v=34CcqB4xJGc",
+      "youtube_title": "🎙️ Atlas Brew #157 – The Future of Play to Earn, Part 2",
+      "published_at": "2025-05-01T00:11:29-07:00",
+      "uploaded_at": "2025-05-01T00:11:29-07:00",
+      "youtube_duration_seconds": 3829,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "34CcqB4xJGc",
+          "score": 1.0,
+          "title": "🎙️ Atlas Brew #157 – The Future of Play to Earn, Part 2",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0096",
+      "transcript_title": "☕ Atlas Brew #156 – Play 2 Earn Now and in the Future 🚀",
+      "transcript_episode_number": 156,
+      "transcript_duration_seconds": 3725,
+      "status": "MATCHED",
+      "matched_video_id": "X2yY9N5kKDI",
+      "canonical_url": "https://www.youtube.com/watch?v=X2yY9N5kKDI",
+      "youtube_title": "☕ Atlas Brew #156 – Play 2 Earn Now and in the Future 🚀",
+      "published_at": "2025-04-24T00:16:36-07:00",
+      "uploaded_at": "2025-04-24T00:16:36-07:00",
+      "youtube_duration_seconds": 3738,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "X2yY9N5kKDI",
+          "score": 1.0,
+          "title": "☕ Atlas Brew #156 – Play 2 Earn Now and in the Future 🚀",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0097",
+      "transcript_title": "🌌 Atlas Brew #158 – Businesses in Star Atlas",
+      "transcript_episode_number": 158,
+      "transcript_duration_seconds": 4516,
+      "status": "MATCHED",
+      "matched_video_id": "sBg8W4G3dLU",
+      "canonical_url": "https://www.youtube.com/watch?v=sBg8W4G3dLU",
+      "youtube_title": "🌌 Atlas Brew #158 – Businesses in Star Atlas",
+      "published_at": "2025-05-08T00:22:23-07:00",
+      "uploaded_at": "2025-05-08T00:22:23-07:00",
+      "youtube_duration_seconds": 4520,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "sBg8W4G3dLU",
+          "score": 1.0,
+          "title": "🌌 Atlas Brew #158 – Businesses in Star Atlas",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0098",
+      "transcript_title": "☕ Atlas Brew #159 🚀",
+      "transcript_episode_number": 159,
+      "transcript_duration_seconds": 3524,
+      "status": "MATCHED",
+      "matched_video_id": "xq-yHrG4Jd4",
+      "canonical_url": "https://www.youtube.com/watch?v=xq-yHrG4Jd4",
+      "youtube_title": "☕ Atlas Brew #159 🚀",
+      "published_at": "2025-05-15T00:05:25-07:00",
+      "uploaded_at": "2025-05-15T00:05:25-07:00",
+      "youtube_duration_seconds": 3582,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "xq-yHrG4Jd4",
+          "score": 1.0,
+          "title": "☕ Atlas Brew #159 🚀",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0099",
+      "transcript_title": "🎙️ Atlas Brew #160 – Maps, Game Modes, and Tournaments in Star Atlas",
+      "transcript_episode_number": 160,
+      "transcript_duration_seconds": 3751,
+      "status": "MATCHED",
+      "matched_video_id": "oPZKMfKlhgw",
+      "canonical_url": "https://www.youtube.com/watch?v=oPZKMfKlhgw",
+      "youtube_title": "🎙️ Atlas Brew #160 – Maps, Game Modes, and Tournaments in Star Atlas",
+      "published_at": "2025-05-22T00:18:26-07:00",
+      "uploaded_at": "2025-05-22T00:18:26-07:00",
+      "youtube_duration_seconds": 3903,
+      "match_confidence": "HIGH",
+      "match_score": 0.96,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_8_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "oPZKMfKlhgw",
+          "score": 0.96,
+          "title": "🎙️ Atlas Brew #160 – Maps, Game Modes, and Tournaments in Star Atlas",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_8_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 0.96
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0100",
+      "transcript_title": "🎙️ Atlas Brew #161 – Level Design Deep Dive",
+      "transcript_episode_number": 161,
+      "transcript_duration_seconds": 3856,
+      "status": "MATCHED",
+      "matched_video_id": "jQ4XGCf8t3U",
+      "canonical_url": "https://www.youtube.com/watch?v=jQ4XGCf8t3U",
+      "youtube_title": "🎙️ Atlas Brew #161 – Level Design Deep Dive",
+      "published_at": "2025-05-29T00:20:25-07:00",
+      "uploaded_at": "2025-05-29T00:20:25-07:00",
+      "youtube_duration_seconds": 3888,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "jQ4XGCf8t3U",
+          "score": 1.0,
+          "title": "🎙️ Atlas Brew #161 – Level Design Deep Dive",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0101",
+      "transcript_title": "🚀 Atlas Brew #162 – Deep Dive into C4: The Next Evolution of Star Atlas",
+      "transcript_episode_number": 162,
+      "transcript_duration_seconds": 4264,
+      "status": "MATCHED",
+      "matched_video_id": "sAQU-fq7NQg",
+      "canonical_url": "https://www.youtube.com/watch?v=sAQU-fq7NQg",
+      "youtube_title": "🚀 Atlas Brew #162 – Deep Dive into C4: The Next Evolution of Star Atlas",
+      "published_at": "2025-06-12T00:26:09-07:00",
+      "uploaded_at": "2025-06-12T00:26:09-07:00",
+      "youtube_duration_seconds": 4340,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "sAQU-fq7NQg",
+          "score": 1.0,
+          "title": "🚀 Atlas Brew #162 – Deep Dive into C4: The Next Evolution of Star Atlas",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0102",
+      "transcript_title": "📺 Atlas Brew #163 – C4 Q&A, Part 2",
+      "transcript_episode_number": 163,
+      "transcript_duration_seconds": 3914,
+      "status": "MATCHED",
+      "matched_video_id": "UWP-BE5zlo4",
+      "canonical_url": "https://www.youtube.com/watch?v=UWP-BE5zlo4",
+      "youtube_title": "📺 Atlas Brew #163 – C4 Q&A, Part 2",
+      "published_at": "2025-06-19T00:11:42-07:00",
+      "uploaded_at": "2025-06-19T00:11:42-07:00",
+      "youtube_duration_seconds": 3970,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "UWP-BE5zlo4",
+          "score": 1.0,
+          "title": "📺 Atlas Brew #163 – C4 Q&A, Part 2",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0103",
+      "transcript_title": "🎙️ Atlas Brew #169 – The Infinite Star Atlas IP Universe PIP Discussion",
+      "transcript_episode_number": 169,
+      "transcript_duration_seconds": 4549,
+      "status": "MATCHED",
+      "matched_video_id": "4UCmj-AZuD8",
+      "canonical_url": "https://www.youtube.com/watch?v=4UCmj-AZuD8",
+      "youtube_title": "🎙️ Atlas Brew #169 – The Infinite Star Atlas IP Universe PIP Discussion",
+      "published_at": "2025-08-07T00:21:16-07:00",
+      "uploaded_at": "2025-08-07T00:21:16-07:00",
+      "youtube_duration_seconds": 4581,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "4UCmj-AZuD8",
+          "score": 1.0,
+          "title": "🎙️ Atlas Brew #169 – The Infinite Star Atlas IP Universe PIP Discussion",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0104",
+      "transcript_title": "The Atlas Brew 172 Theorycrafting C4",
+      "transcript_episode_number": 172,
+      "transcript_duration_seconds": 3812,
+      "status": "MATCHED",
+      "matched_video_id": "3uhllcAoSLM",
+      "canonical_url": "https://www.youtube.com/watch?v=3uhllcAoSLM",
+      "youtube_title": "The Atlas Brew 172 Theorycrafting C4",
+      "published_at": "2025-09-10T17:06:32-07:00",
+      "uploaded_at": "2025-09-10T17:06:32-07:00",
+      "youtube_duration_seconds": 3819,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "3uhllcAoSLM",
+          "score": 1.0,
+          "title": "The Atlas Brew 172 Theorycrafting C4",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0105",
+      "transcript_title": "☕ Atlas Brew #174 – Holosim",
+      "transcript_episode_number": 174,
+      "transcript_duration_seconds": 4024,
+      "status": "MATCHED",
+      "matched_video_id": "VSCQlyX4MI4",
+      "canonical_url": "https://www.youtube.com/watch?v=VSCQlyX4MI4",
+      "youtube_title": "☕ Atlas Brew #174 – Holosim",
+      "published_at": "2025-09-25T00:13:28-07:00",
+      "uploaded_at": "2025-09-25T00:13:28-07:00",
+      "youtube_duration_seconds": 4038,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "VSCQlyX4MI4",
+          "score": 1.0,
+          "title": "☕ Atlas Brew #174 – Holosim",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0106",
+      "transcript_title": "⚡ Atlas Brew #175 | DAO Updates",
+      "transcript_episode_number": 175,
+      "transcript_duration_seconds": 4095,
+      "status": "MATCHED",
+      "matched_video_id": "6TQApuexgkY",
+      "canonical_url": "https://www.youtube.com/watch?v=6TQApuexgkY",
+      "youtube_title": "⚡ Atlas Brew #175 | DAO Updates",
+      "published_at": "2025-10-02T00:16:49-07:00",
+      "uploaded_at": "2025-10-02T00:16:49-07:00",
+      "youtube_duration_seconds": 4124,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "6TQApuexgkY",
+          "score": 1.0,
+          "title": "⚡ Atlas Brew #175 | DAO Updates",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0107",
+      "transcript_title": "Atlas Brew #176!",
+      "transcript_episode_number": 176,
+      "transcript_duration_seconds": 3708,
+      "status": "MATCHED",
+      "matched_video_id": "jHeEY-T6qnk",
+      "canonical_url": "https://www.youtube.com/watch?v=jHeEY-T6qnk",
+      "youtube_title": "Atlas Brew #176!",
+      "published_at": "2025-10-09T00:13:21-07:00",
+      "uploaded_at": "2025-10-09T00:13:21-07:00",
+      "youtube_duration_seconds": 3959,
+      "match_confidence": "HIGH",
+      "match_score": 0.96,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_8_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "jHeEY-T6qnk",
+          "score": 0.96,
+          "title": "Atlas Brew #176!",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_8_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 0.96
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0108",
+      "transcript_title": "Atlas Brew #184 – SES Deep Dive with Danny",
+      "transcript_episode_number": 184,
+      "transcript_duration_seconds": 4116,
+      "status": "MATCHED",
+      "matched_video_id": "xgW93o0rfRk",
+      "canonical_url": "https://www.youtube.com/watch?v=xgW93o0rfRk",
+      "youtube_title": "Atlas Brew #184 – SES Deep Dive with Danny",
+      "published_at": "2025-12-03T23:16:04-08:00",
+      "uploaded_at": "2025-12-03T23:16:04-08:00",
+      "youtube_duration_seconds": 4132,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "xgW93o0rfRk",
+          "score": 1.0,
+          "title": "Atlas Brew #184 – SES Deep Dive with Danny",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0109",
+      "transcript_title": "Atlas Brew #183 – The End of the Never Alone Campaign",
+      "transcript_episode_number": 183,
+      "transcript_duration_seconds": 3630,
+      "status": "MATCHED",
+      "matched_video_id": "2aUR3-k6RjE",
+      "canonical_url": "https://www.youtube.com/watch?v=2aUR3-k6RjE",
+      "youtube_title": "Atlas Brew #183 – The End of the Never Alone Campaign",
+      "published_at": "2025-11-26T23:09:06-08:00",
+      "uploaded_at": "2025-11-26T23:09:06-08:00",
+      "youtube_duration_seconds": 3711,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "2aUR3-k6RjE",
+          "score": 1.0,
+          "title": "Atlas Brew #183 – The End of the Never Alone Campaign",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0110",
+      "transcript_title": "Atlas Brew #182 — DAO Council Candidates (Live)",
+      "transcript_episode_number": 182,
+      "transcript_duration_seconds": 4107,
+      "status": "MATCHED",
+      "matched_video_id": "8QMQwaQk3z4",
+      "canonical_url": "https://www.youtube.com/watch?v=8QMQwaQk3z4",
+      "youtube_title": "Atlas Brew #182 — DAO Council Candidates (Live)",
+      "published_at": "2025-11-19T23:17:39-08:00",
+      "uploaded_at": "2025-11-19T23:17:39-08:00",
+      "youtube_duration_seconds": 4130,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "8QMQwaQk3z4",
+          "score": 1.0,
+          "title": "Atlas Brew #182 — DAO Council Candidates (Live)",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0111",
+      "transcript_title": "Atlas Brew #181 — Project Galia w/ Brad (Live)",
+      "transcript_episode_number": 181,
+      "transcript_duration_seconds": 5227,
+      "status": "MATCHED",
+      "matched_video_id": "OJp1nkGtpgo",
+      "canonical_url": "https://www.youtube.com/watch?v=OJp1nkGtpgo",
+      "youtube_title": "Atlas Brew #181 — Project Galia w/ Brad (Live)",
+      "published_at": "2025-11-12T23:49:27-08:00",
+      "uploaded_at": "2025-11-12T23:49:27-08:00",
+      "youtube_duration_seconds": 5237,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "OJp1nkGtpgo",
+          "score": 1.0,
+          "title": "Atlas Brew #181 — Project Galia w/ Brad (Live)",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0112",
+      "transcript_title": "🛰️ Atlas Brew #179 — Calm Before the Storm",
+      "transcript_episode_number": 179,
+      "transcript_duration_seconds": 3756,
+      "status": "MATCHED",
+      "matched_video_id": "SWP7QKhoA6M",
+      "canonical_url": "https://www.youtube.com/watch?v=SWP7QKhoA6M",
+      "youtube_title": "🛰️ Atlas Brew #179 — Calm Before the Storm",
+      "published_at": "2025-10-30T00:09:50-07:00",
+      "uploaded_at": "2025-10-30T00:09:50-07:00",
+      "youtube_duration_seconds": 3770,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "SWP7QKhoA6M",
+          "score": 1.0,
+          "title": "🛰️ Atlas Brew #179 — Calm Before the Storm",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0113",
+      "transcript_title": "Atlas Brew #178 – Interview with Jacob, Co-Founder and CTO of Star Atlas",
+      "transcript_episode_number": 178,
+      "transcript_duration_seconds": 4054,
+      "status": "MATCHED",
+      "matched_video_id": "mpcyt53fzFs",
+      "canonical_url": "https://www.youtube.com/watch?v=mpcyt53fzFs",
+      "youtube_title": "Atlas Brew #178 – Interview with Jacob, Co-Founder and CTO of Star Atlas",
+      "published_at": "2025-10-23T00:40:42-07:00",
+      "uploaded_at": "2025-10-23T00:40:42-07:00",
+      "youtube_duration_seconds": 4056,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "mpcyt53fzFs",
+          "score": 1.0,
+          "title": "Atlas Brew #178 – Interview with Jacob, Co-Founder and CTO of Star Atlas",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0114",
+      "transcript_title": "Atlas Brew #186 – Topic Today (2026)",
+      "transcript_episode_number": 186,
+      "transcript_duration_seconds": 3587,
+      "status": "MATCHED",
+      "matched_video_id": "IVzsnwdfEYw",
+      "canonical_url": "https://www.youtube.com/watch?v=IVzsnwdfEYw",
+      "youtube_title": "Atlas Brew #186 – Topic Today (2026)",
+      "published_at": "2026-01-07T23:37:29-08:00",
+      "uploaded_at": "2026-01-07T23:37:29-08:00",
+      "youtube_duration_seconds": 3593,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "IVzsnwdfEYw",
+          "score": 1.0,
+          "title": "Atlas Brew #186 – Topic Today (2026)",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0115",
+      "transcript_title": "🔴 LIVE — Atlas Brew #187",
+      "transcript_episode_number": 187,
+      "transcript_duration_seconds": 3498,
+      "status": "MATCHED",
+      "matched_video_id": "7O9MZ4HQnBA",
+      "canonical_url": "https://www.youtube.com/watch?v=7O9MZ4HQnBA",
+      "youtube_title": "🔴 LIVE — Atlas Brew #187",
+      "published_at": "2026-01-14T23:07:21-08:00",
+      "uploaded_at": "2026-01-14T23:07:21-08:00",
+      "youtube_duration_seconds": 3569,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "7O9MZ4HQnBA",
+          "score": 1.0,
+          "title": "🔴 LIVE — Atlas Brew #187",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0116",
+      "transcript_title": "The Atlas Brew #190",
+      "transcript_episode_number": 190,
+      "transcript_duration_seconds": 3659,
+      "status": "MATCHED",
+      "matched_video_id": "17jL1_T4nA8",
+      "canonical_url": "https://www.youtube.com/watch?v=17jL1_T4nA8",
+      "youtube_title": "The Atlas Brew #190",
+      "published_at": "2026-02-04T23:06:52-08:00",
+      "uploaded_at": "2026-02-04T23:06:52-08:00",
+      "youtube_duration_seconds": 3666,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "17jL1_T4nA8",
+          "score": 1.0,
+          "title": "The Atlas Brew #190",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0117",
+      "transcript_title": "Atlas Brew #189 ☕🚀",
+      "transcript_episode_number": 189,
+      "transcript_duration_seconds": 4252,
+      "status": "MATCHED",
+      "matched_video_id": "IVcPbKXnUr8",
+      "canonical_url": "https://www.youtube.com/watch?v=IVcPbKXnUr8",
+      "youtube_title": "Atlas Brew #189 ☕🚀",
+      "published_at": "2026-01-28T23:19:00-08:00",
+      "uploaded_at": "2026-01-28T23:19:00-08:00",
+      "youtube_duration_seconds": 4319,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "IVcPbKXnUr8",
+          "score": 1.0,
+          "title": "Atlas Brew #189 ☕🚀",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0118",
+      "transcript_title": "The Atlas Brew #188",
+      "transcript_episode_number": 188,
+      "transcript_duration_seconds": 4403,
+      "status": "MATCHED",
+      "matched_video_id": "stqqz8li9_Y",
+      "canonical_url": "https://www.youtube.com/watch?v=stqqz8li9_Y",
+      "youtube_title": "The Atlas Brew #188",
+      "published_at": "2026-01-21T23:27:11-08:00",
+      "uploaded_at": "2026-01-21T23:27:11-08:00",
+      "youtube_duration_seconds": 4428,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "stqqz8li9_Y",
+          "score": 1.0,
+          "title": "The Atlas Brew #188",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0119",
+      "transcript_title": "The Atlas Brew 192",
+      "transcript_episode_number": 192,
+      "transcript_duration_seconds": 3455,
+      "status": "MATCHED",
+      "matched_video_id": "_YFGyUBO3Ls",
+      "canonical_url": "https://www.youtube.com/watch?v=_YFGyUBO3Ls",
+      "youtube_title": "The Atlas Brew 192",
+      "published_at": "2026-02-18T23:05:44-08:00",
+      "uploaded_at": "2026-02-18T23:05:44-08:00",
+      "youtube_duration_seconds": 3459,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "_YFGyUBO3Ls",
+          "score": 1.0,
+          "title": "The Atlas Brew 192",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0120",
+      "transcript_title": "The Atlas Brew 196",
+      "transcript_episode_number": 196,
+      "transcript_duration_seconds": 2953,
+      "status": "MATCHED",
+      "matched_video_id": "CI9aTFkRg9o",
+      "canonical_url": "https://www.youtube.com/watch?v=CI9aTFkRg9o",
+      "youtube_title": "The Atlas Brew 196",
+      "published_at": "2026-03-19T00:09:02-07:00",
+      "uploaded_at": "2026-03-19T00:09:02-07:00",
+      "youtube_duration_seconds": 3262,
+      "match_confidence": "HIGH",
+      "match_score": 0.93,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_15_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "CI9aTFkRg9o",
+          "score": 0.93,
+          "title": "The Atlas Brew 196",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_15_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 0.93
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0121",
+      "transcript_title": "The Atlas Brew 195",
+      "transcript_episode_number": 195,
+      "transcript_duration_seconds": 3401,
+      "status": "MATCHED",
+      "matched_video_id": "pTVq5LSSsJk",
+      "canonical_url": "https://www.youtube.com/watch?v=pTVq5LSSsJk",
+      "youtube_title": "The Atlas Brew 195",
+      "published_at": "2026-03-12T00:14:26-07:00",
+      "uploaded_at": "2026-03-12T00:14:26-07:00",
+      "youtube_duration_seconds": 3428,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "pTVq5LSSsJk",
+          "score": 1.0,
+          "title": "The Atlas Brew 195",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0122",
+      "transcript_title": "The Atlas Brew 194",
+      "transcript_episode_number": 194,
+      "transcript_duration_seconds": 3996,
+      "status": "MATCHED",
+      "matched_video_id": "aoh4h_et39g",
+      "canonical_url": "https://www.youtube.com/watch?v=aoh4h_et39g",
+      "youtube_title": "The Atlas Brew 194",
+      "published_at": "2026-03-04T23:14:57-08:00",
+      "uploaded_at": "2026-03-04T23:14:57-08:00",
+      "youtube_duration_seconds": 4194,
+      "match_confidence": "HIGH",
+      "match_score": 0.96,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_8_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "aoh4h_et39g",
+          "score": 0.96,
+          "title": "The Atlas Brew 194",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_8_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 0.96
+    },
+    {
+      "source_id": "SRC-ATLAS-BREW-0123",
+      "transcript_title": "The Atlas Brew 191",
+      "transcript_episode_number": 191,
+      "transcript_duration_seconds": 3724,
+      "status": "MATCHED",
+      "matched_video_id": "j_LQuhrfezk",
+      "canonical_url": "https://www.youtube.com/watch?v=j_LQuhrfezk",
+      "youtube_title": "The Atlas Brew 191",
+      "published_at": "2026-02-11T23:09:22-08:00",
+      "uploaded_at": "2026-02-11T23:09:22-08:00",
+      "youtube_duration_seconds": 3731,
+      "match_confidence": "HIGH",
+      "match_score": 1.0,
+      "match_reasons": [
+        "EXACT_EPISODE_NUMBER",
+        "STRONG_TITLE_SIMILARITY",
+        "DURATION_WITHIN_3_PERCENT"
+      ],
+      "manual_review_required": false,
+      "candidate_video_ids": [
+        {
+          "video_id": "j_LQuhrfezk",
+          "score": 1.0,
+          "title": "The Atlas Brew 191",
+          "reasons": [
+            "EXACT_EPISODE_NUMBER",
+            "STRONG_TITLE_SIMILARITY",
+            "DURATION_WITHIN_3_PERCENT"
+          ]
+        }
+      ],
+      "match_margin": 1.0
+    }
+  ],
+  "playlist_only": [
+    {
+      "video_id": "Yb8lZZ_zbhE",
+      "playlist_index": 1,
+      "title": "The Atlas Brew #7 Community Development.",
+      "duration_text": "1:23:19",
+      "channel_name": "VBTV",
+      "canonical_url": "https://www.youtube.com/watch?v=Yb8lZZ_zbhE",
+      "channel_id": "UCElCan0ISZn68l7b341yxLA",
+      "duration_seconds": 4999,
+      "published_at": "2022-03-23T17:36:22-07:00",
+      "uploaded_at": "2022-03-23T17:36:22-07:00",
+      "public_metadata_status": "AVAILABLE",
+      "player_status": "UNPLAYABLE",
+      "player_status_reason": "Video unavailable",
+      "is_live_content": false,
+      "episode_number": 7,
+      "status": "PLAYLIST_ONLY",
+      "manual_review_required": true
+    }
+  ]
+}

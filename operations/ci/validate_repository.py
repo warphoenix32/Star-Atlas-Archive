@@ -201,6 +201,14 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "archive/semantic/atlas-brew/",
         "operations/campaigns/atlas-brew-significance-review-2026-07/",
     )) for path in changes)
+    atlas_brew_url_reconciliation = any(path.startswith((
+        "operations/campaigns/atlas-brew-url-reconciliation-2026-07/",
+        "operations/tests/atlas_brew_url_reconciliation/",
+    )) or path in {
+        "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json",
+        "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json",
+        "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json",
+    } for path in changes)
     knowledge_campaign = any(path.startswith(("knowledge/", "operations/campaigns/knowledge-narrative-depth-001/")) for path in changes)
     medium_campaign = any("star-atlas-medium" in path or path.startswith(("archive/raw/medium/", "archive/normalized/medium/", "archive/source-records/medium/")) for path in changes)
     economic_reports_campaign = any(path.startswith((
@@ -273,7 +281,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = 1 if legacy_written_raw_recovery else sum((phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = 1 if legacy_written_raw_recovery else sum((phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if legacy_written_raw_recovery:
@@ -336,6 +344,15 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
         )
         label = "atlas-brew-significance-review-2026-07"
+    elif atlas_brew_url_reconciliation:
+        allowed = common + (
+            "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json",
+            "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json",
+            "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json",
+            "operations/campaigns/atlas-brew-url-reconciliation-2026-07/",
+            "operations/tests/atlas_brew_url_reconciliation/",
+        )
+        label = "atlas-brew-url-reconciliation-2026-07"
     elif knowledge_campaign:
         allowed = common + (
             "knowledge/",
@@ -576,6 +593,40 @@ def validate_atlas_brew_semantic_campaign() -> None:
     )
     if diff.returncode:
         raise ValidationFailure("Atlas Brew significance review differs after deterministic regeneration:\n" + diff.stdout + diff.stderr)
+
+
+def validate_atlas_brew_url_reconciliation_campaign() -> None:
+    campaign = ROOT / "operations/campaigns/atlas-brew-url-reconciliation-2026-07"
+    command = [sys.executable, str(campaign / "reconcile_playlist.py"), "validate"]
+    exclusions = {"reconcile_playlist.py", "README.md"}
+    first = run_cycle(command, campaign, exclusions)
+    second = run_cycle(command, campaign, exclusions)
+    if first != second:
+        differing = sorted(
+            path
+            for path in set(first) | set(second)
+            if first.get(path) != second.get(path)
+        )
+        raise ValidationFailure(
+            "Atlas Brew URL reconciliation validation is not deterministic: "
+            + ", ".join(differing)
+        )
+    diff = run(
+        "git",
+        "diff",
+        "--exit-code",
+        "--",
+        str(campaign.relative_to(ROOT)),
+        "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json",
+        "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json",
+        "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json",
+        "operations/tests/atlas_brew_url_reconciliation",
+    )
+    if diff.returncode:
+        raise ValidationFailure(
+            "Atlas Brew URL reconciliation artifacts do not reconcile with committed files:\n"
+            + diff.stdout
+        )
 
 
 def validate_discord_campaign(base_ref: str) -> None:
@@ -847,6 +898,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_economic_reports_campaign()
     elif contract == "atlas-brew-significance-review-2026-07":
         validate_atlas_brew_semantic_campaign()
+    elif contract == "atlas-brew-url-reconciliation-2026-07":
+        validate_atlas_brew_url_reconciliation_campaign()
     elif contract == "discord-community-indexing-001":
         validate_discord_campaign(base_ref)
     elif contract == "canonical-pip-governance-ledger-2026-07":

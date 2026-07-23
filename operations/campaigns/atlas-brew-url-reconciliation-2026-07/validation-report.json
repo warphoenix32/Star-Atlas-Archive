@@ -1,0 +1,36 @@
+{
+  "campaign_id": "atlas-brew-url-reconciliation-2026-07",
+  "validated_on": "2026-07-22",
+  "result": "PASS",
+  "checks": {
+    "json_parse": "PASS",
+    "playlist_items_collected": "PASS",
+    "manifest_item_count_reconciles": "PASS",
+    "normalized_item_checksum_reconciles": "PASS",
+    "expected_transcript_snapshot_count": "PASS",
+    "expected_playlist_snapshot_count": "PASS",
+    "expected_playlist_only_item": "PASS",
+    "source_ids_unique": "PASS",
+    "playlist_video_ids_unique": "PASS",
+    "all_source_ids_decided_once": "PASS",
+    "matched_video_ids_unique": "PASS",
+    "playlist_disposition_complete": "PASS",
+    "canonical_urls_reconstruct": "PASS",
+    "high_confidence_patch_only": "PASS",
+    "manual_review_count_reconciles": "PASS",
+    "all_transcripts_matched": "PASS",
+    "all_matches_high_confidence": "PASS",
+    "all_matches_have_urls_and_dates": "PASS",
+    "metadata_patch_covers_all_matches": "PASS",
+    "source_records_unchanged": "PASS",
+    "raw_transcripts_unchanged": "PASS"
+  },
+  "errors": [],
+  "artifact_sha256": {
+    "archive/provenance/atlas-brew-combined/youtube-playlist-manifest.json": "e520b18ce9db6a0e9ec5b99f58d236d04ec75f1dcc777c83d09aa403cd21cf91",
+    "archive/reconciliation/atlas-brew-combined/youtube-url-reconciliation.json": "2e64b860ac431b4751354f6ce58775a1eacee62dfeda03e4cfe0dfcc884374ad",
+    "archive/reconciliation/atlas-brew-combined/youtube-source-metadata-patch.json": "55059ab05104e061753a4c7e3cdd0413647e4f0b07de39021b8a0b1266d80a38",
+    "operations/campaigns/atlas-brew-url-reconciliation-2026-07/manual-review.json": "07fa5c1448a4dcf0968c6c177c1605ecf0d29270de4335d363930d28826e7fb2",
+    "operations/campaigns/atlas-brew-url-reconciliation-2026-07/campaign-summary.json": "e9e003b02d4e25c7f5ffac867e53611b2db09c7d7255d47b1e77389608f03895"
+  }
+}
