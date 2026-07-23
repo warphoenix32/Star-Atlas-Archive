@@ -2,11 +2,13 @@
 
 ## Blocking decisions
 
-None for the closed written-recovery milestone.
+None. Phase 2 is closed and Phase 3 is ready to start.
 
 ## Closed decisions
 
 - `REVIEW-PHASE2-RAW-RECOVERY`: `CLOSED_SELECTED_SCOPE_COMPLETE`. Aephia, HNN, and Official are complete at 541/541 selected records. Five Herald pilot captures are preserved; the remaining 254 Herald records are deferred by the operator.
+- `REVIEW-PHASE2-ECONOMIC-REPORTS`: `CLOSED_INGESTION_COMPLETE`. Eighteen operator-provided PDFs are preserved; the mislabeled Q4 2026 upload is excluded.
+- `REVIEW-PHASE2-FRESHNESS`: `CLOSED_QUEUE_CREATED`. Seven official surfaces were checked and ten unmatched candidates were queued without ingestion.
 
 ## Deferred, non-blocking decisions
 
@@ -19,4 +21,4 @@ None for the closed written-recovery milestone.
 - Whether to retire `operations/migrations/validate_wave_1_5.py` or preserve it in a clearly historical location.
 - Whether source-like campaign captures should move from `operations/` into `archive/raw/`; any move requires manifest and checksum migration.
 
-These decisions do not block the evidence baseline. No deletion or relocation is performed by Phase 1 inventory.
+These decisions do not block Phase 3. No deletion or relocation is performed by this closeout.

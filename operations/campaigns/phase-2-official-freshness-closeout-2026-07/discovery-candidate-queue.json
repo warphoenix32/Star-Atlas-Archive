@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "campaign_id": "phase-2-official-freshness-closeout-2026-07",
+  "candidate_count": 10,
+  "candidates": [
+    {
+      "candidate_id": "FRESH-X-2080050260475629975",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2080050260475629975",
+      "published_at": "2026-07-22T22:00:02Z",
+      "observed_text": "Racing pods.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P2"
+    },
+    {
+      "candidate_id": "FRESH-X-2079690183159812171",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2079690183159812171",
+      "published_at": "2026-07-21T22:09:13Z",
+      "observed_text": "SAGE: C4 PTR (playtest realm) is currently recruiting.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P1"
+    },
+    {
+      "candidate_id": "FRESH-X-2079280910227341569",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2079280910227341569",
+      "published_at": "2026-07-20T19:02:54Z",
+      "observed_text": "Star Atlas amplification of a Neo Tokyo community town hall announcement.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P2"
+    },
+    {
+      "candidate_id": "FRESH-X-2078583006345003090",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2078583006345003090",
+      "published_at": "2026-07-18T20:49:41Z",
+      "observed_text": "Who would buy a Star Atlas plushie?",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P3"
+    },
+    {
+      "candidate_id": "FRESH-X-2078555490829963311",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2078555490829963311",
+      "published_at": "2026-07-18T19:00:21Z",
+      "observed_text": "GM. It’s a glorious day.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P3"
+    },
+    {
+      "candidate_id": "FRESH-X-2078246826382389578",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2078246826382389578",
+      "published_at": "2026-07-17T22:33:50Z",
+      "observed_text": "Gamers are gaming; quotes the SAGE C4 PTR Phase Two post.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P2",
+      "possible_duplicate_of": "FRESH-X-2077906574618832919"
+    },
+    {
+      "candidate_id": "FRESH-X-2078145489573400786",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2078145489573400786",
+      "published_at": "2026-07-17T15:51:09Z",
+      "observed_text": "Star Atlas amplification of Sperasoft discussion of Star Atlas character production.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P2"
+    },
+    {
+      "candidate_id": "FRESH-X-2077906574618832919",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2077906574618832919",
+      "published_at": "2026-07-17T00:01:47Z",
+      "observed_text": "SAGE C4 PTR Phase Two is LIVE, bringing six major additions.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P1"
+    },
+    {
+      "candidate_id": "FRESH-X-2077513192255918570",
+      "surface": "OFFICIAL-X",
+      "url": "https://x.com/staratlas/status/2077513192255918570",
+      "published_at": "2026-07-15T21:58:38Z",
+      "observed_text": "Something massive happened today and you don't even know about it.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P3"
+    },
+    {
+      "candidate_id": "FRESH-GITHUB-ATLASNET-EXPLORER-C1E4F69C",
+      "surface": "OFFICIAL-GITHUB",
+      "url": "https://github.com/staratlasmeta/atlasnet-explorer",
+      "observed_at": "2026-07-22T23:30:00Z",
+      "immutable_candidate_ref": "c1e4f69c7d57a11ad065eaeb7144443f66736a67",
+      "observed_text": "Explorer for Atlasnet clusters; official repository pushed 2026-07-21.",
+      "disposition": "PENDING_PHASE_3_ACQUISITION",
+      "priority": "P1"
+    }
+  ]
+}

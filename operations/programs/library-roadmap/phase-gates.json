@@ -12,22 +12,19 @@
     {
       "phase": 2,
       "name": "Priority ingestion",
-      "status": "IN_PROGRESS",
-      "percent_complete": 40,
-      "remaining_gate_items": [
-        "Ingest the 17-URL official economic-report PDF discovery seed",
-        "Run official-source freshness discovery",
-        "Track artifact-blocked Discord and transcript acquisitions without delaying ready work"
-      ]
+      "status": "COMPLETE",
+      "percent_complete": 100,
+      "remaining_gate_items": []
     },
     {
       "phase": 3,
       "name": "Targeted architecture refinement",
-      "status": "NOT_STARTED",
+      "status": "READY_TO_START",
       "percent_complete": 0,
       "remaining_gate_items": [
-        "Complete approved Phase 2 priority campaigns",
-        "Define publication manifest without rewriting evidence"
+        "Define the publication manifest without rewriting evidence",
+        "Implement only architecture changes justified by validated repository gaps",
+        "Preserve the ten freshness candidates as an acquisition queue until a separately scoped campaign runs"
       ]
     },
     {

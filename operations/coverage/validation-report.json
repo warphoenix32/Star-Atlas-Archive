@@ -1,7 +1,7 @@
 {
-  "program_id": "star-atlas-library-roadmap-phase-2",
+  "program_id": "star-atlas-library-roadmap-phase-2-closeout",
   "as_of": "2026-07-22",
-  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
+  "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
   "result": "PASS",
   "checks": [
     {
@@ -23,7 +23,7 @@
     {
       "name": "coverage_records",
       "passed": true,
-      "detail": 16
+      "detail": 17
     },
     {
       "name": "coverage_evidence_paths_resolve",
@@ -38,7 +38,7 @@
     {
       "name": "campaign_registry",
       "passed": true,
-      "detail": 21
+      "detail": 23
     },
     {
       "name": "campaign_status_evidence_resolves",
@@ -50,8 +50,8 @@
       "passed": true,
       "detail": {
         "path": "archive",
-        "files": 9518,
-        "bytes": 333943066
+        "files": 9646,
+        "bytes": 388920336
       }
     },
     {
@@ -102,12 +102,12 @@
       }
     },
     {
-      "name": "economic_branch_classified",
+      "name": "economic_branch_closed",
       "passed": true,
       "detail": {
         "assessment_id": "ECONOMIC-REPORT-BRANCH-PHASE-1",
         "as_of": "2026-07-22",
-        "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
+        "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
         "branch": "origin/ingestion/economic-reports-2022q2-2026q2",
         "fork_point": "add2221f",
         "unique_commits": [
@@ -121,10 +121,10 @@
         ],
         "discovery_urls": 17,
         "coverage": "Q2 2022 through Q2 2026",
-        "decision": "CLASSIFIED_DEFERRED_TO_PHASE_2",
+        "decision": "CLOSED_REPLACED_BY_PR57",
         "merge_or_cherry_pick": false,
         "human_adjudication_required": false,
-        "reason": "The branch preserves useful official report URLs and page-count metadata but does not contain conforming Source Records or auditable extracted text.",
+        "reason": "PR #57 ingested the operator-provided official PDF package, including all seventeen quarterly periods represented by the discovery seed through Q2 2026 plus the economics paper.",
         "deficiencies": [
           "No paired report JSON and Markdown Source Records",
           "No titles, authors, publication dates, immutable raw PDFs, or content checksums",
@@ -132,13 +132,12 @@
           "Fourteen reports are described as parsed although the extracted text is not retained"
         ],
         "phase_2_requirements": [
-          "Freeze the 17 URLs as discovery seeds without treating the stale registry as evidence",
-          "Retrieve and hash every accessible PDF",
-          "Preserve page order and use OCR only when necessary",
-          "Generate conforming Source Records, manifest, campaign summary, and validation",
-          "Reconcile the apparent Q2 2025 duplicate without discarding provenance"
+          "SATISFIED: all seventeen quarterly periods have immutable operator-provided PDFs",
+          "SATISFIED: raw files, normalized records, paired Source Records, ingestion package, manifest, and validation are present",
+          "SATISFIED: the operator-confirmed mislabeled Q4 2026 file is excluded and documented",
+          "SATISFIED: no exact duplicate document was introduced"
         ],
-        "branch_retirement_condition": "Retire only after every discovery URL has a terminal Phase 2 disposition and all unique metadata has been preserved."
+        "branch_retirement_condition": "SATISFIED_BY_PR57; remote branch retirement is repository hygiene and does not affect preserved evidence."
       }
     },
     {
@@ -281,17 +280,63 @@
       }
     },
     {
-      "name": "phase_two_in_progress",
+      "name": "phase_two_complete",
       "passed": true,
       "detail": {
         "phase": 2,
         "name": "Priority ingestion",
-        "status": "IN_PROGRESS",
-        "percent_complete": 40,
+        "status": "COMPLETE",
+        "percent_complete": 100,
+        "remaining_gate_items": []
+      }
+    },
+    {
+      "name": "phase_three_ready",
+      "passed": true,
+      "detail": {
+        "phase": 3,
+        "name": "Targeted architecture refinement",
+        "status": "READY_TO_START",
+        "percent_complete": 0,
         "remaining_gate_items": [
-          "Ingest the 17-URL official economic-report PDF discovery seed",
-          "Run official-source freshness discovery",
-          "Track artifact-blocked Discord and transcript acquisitions without delaying ready work"
+          "Define the publication manifest without rewriting evidence",
+          "Implement only architecture changes justified by validated repository gaps",
+          "Preserve the ten freshness candidates as an acquisition queue until a separately scoped campaign runs"
+        ]
+      }
+    },
+    {
+      "name": "phase_two_freshness_gate",
+      "passed": true,
+      "detail": {
+        "schema_version": "1.0.0",
+        "campaign_id": "phase-2-official-freshness-closeout-2026-07",
+        "as_of": "2026-07-22",
+        "status": "PHASE_2_GATE_COMPLETE",
+        "surfaces_checked": 7,
+        "surfaces_with_no_new_candidates": 3,
+        "surfaces_with_limited_visibility": 2,
+        "surfaces_with_candidates": 2,
+        "candidates_queued": 10,
+        "candidate_counts": {
+          "OFFICIAL-X": 9,
+          "OFFICIAL-GITHUB": 1
+        },
+        "artifact_blocked_items_carried_forward": 5,
+        "artifact_blocked_items_blocking_phase_3": 0,
+        "ingestion_performed": false,
+        "archive_evidence_modified": false,
+        "knowledge_modified": false,
+        "graph_modified": false,
+        "publication_modified": false,
+        "human_adjudication_required": false,
+        "next_phase": 3,
+        "limitations": [
+          "The discovery check is bounded to publicly visible current surfaces and is not proof of complete external history.",
+          "Governance proposal visibility is limited by client rendering.",
+          "X provides only a recent public profile slice; full account history remains an acquisition gap.",
+          "Discord message history requires native exports.",
+          "The ten candidates remain unpreserved until a later acquisition campaign completes."
         ]
       }
     },
@@ -312,8 +357,10 @@
   "limitations": [
     "The register is a repository snapshot, not proof of external corpus completeness.",
     "The selected written-recovery scope is complete for Aephia, HNN, and Official; the remaining 254 Herald records are deferred and are not represented as recovered.",
-    "The 2,485 unreconciled URL rows require bounded Phase 2 review.",
-    "Freshness adapters are policy-defined but not implemented.",
+    "The 2,485 unreconciled URL rows remain a historical research backlog and do not block Phase 3.",
+    "The freshness campaign queued ten candidates but did not ingest them.",
+    "Automated freshness adapters are not implemented; this closeout used a bounded manual check.",
+    "Discord and transcript metadata gaps require new operator-supplied artifacts and remain explicitly incomplete.",
     "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."
   ]
 }

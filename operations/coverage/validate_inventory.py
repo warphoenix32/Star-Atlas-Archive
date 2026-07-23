@@ -1,4 +1,4 @@
-"""Validate the Phase 1 repository/evidence baseline without network access."""
+"""Validate the repository coverage and Phase 2 closeout without network access."""
 
 from __future__ import annotations
 
@@ -79,16 +79,16 @@ def main() -> int:
     gap_ids = {row.get("gap_id") for row in gaps}
     evidence_missing = sorted({path for row in coverage for path in row.get("evidence_paths", []) if not (ROOT / path).exists()})
     unknown_gaps = sorted({gid for row in coverage for gid in row.get("gap_ids", []) if gid not in gap_ids})
-    check("coverage_records", len(coverage) == 16, len(coverage))
+    check("coverage_records", len(coverage) == 17, len(coverage))
     check("coverage_evidence_paths_resolve", not evidence_missing, evidence_missing)
     check("coverage_gaps_reconcile", not unknown_gaps, unknown_gaps)
-    check("campaign_registry", len(campaigns) == 21, len(campaigns))
+    check("campaign_registry", len(campaigns) == 23, len(campaigns))
     missing_campaign_evidence = sorted(row["status_evidence"] for row in campaigns if not (ROOT / row["status_evidence"]).exists())
     check("campaign_status_evidence_resolves", not missing_campaign_evidence, missing_campaign_evidence)
 
     holdings = parsed.get("repository-holdings.json", {})
     archive = next((row for row in holdings.get("domains", []) if row.get("path") == "archive"), {})
-    check("archive_holdings_reconcile", archive.get("files") == 9518, archive)
+    check("archive_holdings_reconcile", archive.get("files") == 9646, archive)
     inventory_boundary = holdings.get("normalized_url_inventory", {})
     check("normalized_inventory_boundary", inventory_boundary.get("records") == 3232 and inventory_boundary.get("status") == "RECONCILED_BY_OVERLAY", inventory_boundary)
 
@@ -120,7 +120,7 @@ def main() -> int:
     check("url_overlay_references_resolve", not missing_overlay_artifacts and not missing_overlay_evidence, {"artifacts": missing_overlay_artifacts, "evidence": missing_overlay_evidence})
 
     economic = parsed.get("economic-report-branch-assessment.json", {})
-    check("economic_branch_classified", economic.get("decision") == "CLASSIFIED_DEFERRED_TO_PHASE_2" and economic.get("discovery_urls") == 17 and economic.get("merge_or_cherry_pick") is False, economic)
+    check("economic_branch_closed", economic.get("decision") == "CLOSED_REPLACED_BY_PR57" and economic.get("discovery_urls") == 17 and economic.get("merge_or_cherry_pick") is False, economic)
     recovery = parsed.get("recovery-campaign-schedule.json", {})
     complete_batches = [row for row in recovery.get("batches", []) if row.get("status") == "COMPLETE"]
     herald_batch = next((row for row in recovery.get("batches", []) if row.get("source_family") == "Intergalactic Herald"), {})
@@ -144,7 +144,19 @@ def main() -> int:
     phases = parsed.get("program-status.json", {}).get("phases", [])
     check("seven_phase_roadmap", [row.get("phase") for row in phases] == list(range(1, 8)), [row.get("phase") for row in phases])
     check("phase_one_complete", phases[0].get("status") == "COMPLETE" and phases[0].get("percent_complete") == 100 and phases[0].get("remaining_gate_items") == [], phases[0] if phases else None)
-    check("phase_two_in_progress", parsed.get("program-status.json", {}).get("current_phase") == 2 and phases[1].get("status") == "IN_PROGRESS" and phases[1].get("percent_complete") == 40, phases[1] if len(phases) > 1 else None)
+    check("phase_two_complete", phases[1].get("status") == "COMPLETE" and phases[1].get("percent_complete") == 100 and phases[1].get("remaining_gate_items") == [], phases[1] if len(phases) > 1 else None)
+    check("phase_three_ready", parsed.get("program-status.json", {}).get("current_phase") == 3 and phases[2].get("status") == "READY_TO_START" and phases[2].get("percent_complete") == 0, phases[2] if len(phases) > 2 else None)
+
+    freshness = ROOT / "operations/campaigns/phase-2-official-freshness-closeout-2026-07/campaign-summary.json"
+    freshness_summary = json.loads(freshness.read_text(encoding="utf-8"))
+    check(
+        "phase_two_freshness_gate",
+        freshness_summary.get("status") == "PHASE_2_GATE_COMPLETE"
+        and freshness_summary.get("surfaces_checked") == 7
+        and freshness_summary.get("candidates_queued") == 10
+        and freshness_summary.get("human_adjudication_required") is False,
+        freshness_summary,
+    )
 
     library = subprocess.run(["node", "publication/site/scripts/build-search-index.mjs", "--check"], cwd=ROOT, capture_output=True, text=True, check=False)
     library_detail = (library.stdout + library.stderr).strip()
@@ -179,9 +191,9 @@ def main() -> int:
     check("social_campaign_status_reconciled", social_summary.get("status") == social_validation.get("status") == "PASS", {"summary": social_summary.get("status"), "validation": social_validation.get("status")})
 
     passed = all(row["passed"] for row in checks)
-    report = {"program_id": "star-atlas-library-roadmap-phase-2", "as_of": "2026-07-22", "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7", "result": "PASS" if passed else "FAIL", "checks": checks, "limitations": ["The register is a repository snapshot, not proof of external corpus completeness.", "The selected written-recovery scope is complete for Aephia, HNN, and Official; the remaining 254 Herald records are deferred and are not represented as recovered.", "The 2,485 unreconciled URL rows require bounded Phase 2 review.", "Freshness adapters are policy-defined but not implemented.", "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."]}
+    report = {"program_id": "star-atlas-library-roadmap-phase-2-closeout", "as_of": "2026-07-22", "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525", "result": "PASS" if passed else "FAIL", "checks": checks, "limitations": ["The register is a repository snapshot, not proof of external corpus completeness.", "The selected written-recovery scope is complete for Aephia, HNN, and Official; the remaining 254 Herald records are deferred and are not represented as recovered.", "The 2,485 unreconciled URL rows remain a historical research backlog and do not block Phase 3.", "The freshness campaign queued ten candidates but did not ingest them.", "Automated freshness adapters are not implemented; this closeout used a bounded manual check.", "Discord and transcript metadata gaps require new operator-supplied artifacts and remain explicitly incomplete.", "Windows lore fixed-point comparison remains sensitive to Git CRLF conversion; Linux repository CI is authoritative until line-ending policy is added."]}
     (HERE / "validation-report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    lines = ["# Phase 2 Written-Recovery Closeout Validation", "", f"**Result:** `{report['result']}`", "", "## Checks", ""]
+    lines = ["# Phase 2 Closeout Validation", "", f"**Result:** `{report['result']}`", "", "## Checks", ""]
     lines.extend(f"- **{'PASS' if row['passed'] else 'FAIL'} — {row['name']}:** {row['detail']}" for row in checks)
     lines += ["", "## Limitations", ""] + [f"- {item}" for item in report["limitations"]] + [""]
     (HERE / "validation-report.md").write_text("\n".join(lines), encoding="utf-8")

@@ -1,7 +1,7 @@
 {
   "assessment_id": "ECONOMIC-REPORT-BRANCH-PHASE-1",
   "as_of": "2026-07-22",
-  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
+  "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
   "branch": "origin/ingestion/economic-reports-2022q2-2026q2",
   "fork_point": "add2221f",
   "unique_commits": [
@@ -15,10 +15,10 @@
   ],
   "discovery_urls": 17,
   "coverage": "Q2 2022 through Q2 2026",
-  "decision": "CLASSIFIED_DEFERRED_TO_PHASE_2",
+  "decision": "CLOSED_REPLACED_BY_PR57",
   "merge_or_cherry_pick": false,
   "human_adjudication_required": false,
-  "reason": "The branch preserves useful official report URLs and page-count metadata but does not contain conforming Source Records or auditable extracted text.",
+  "reason": "PR #57 ingested the operator-provided official PDF package, including all seventeen quarterly periods represented by the discovery seed through Q2 2026 plus the economics paper.",
   "deficiencies": [
     "No paired report JSON and Markdown Source Records",
     "No titles, authors, publication dates, immutable raw PDFs, or content checksums",
@@ -26,11 +26,10 @@
     "Fourteen reports are described as parsed although the extracted text is not retained"
   ],
   "phase_2_requirements": [
-    "Freeze the 17 URLs as discovery seeds without treating the stale registry as evidence",
-    "Retrieve and hash every accessible PDF",
-    "Preserve page order and use OCR only when necessary",
-    "Generate conforming Source Records, manifest, campaign summary, and validation",
-    "Reconcile the apparent Q2 2025 duplicate without discarding provenance"
+    "SATISFIED: all seventeen quarterly periods have immutable operator-provided PDFs",
+    "SATISFIED: raw files, normalized records, paired Source Records, ingestion package, manifest, and validation are present",
+    "SATISFIED: the operator-confirmed mislabeled Q4 2026 file is excluded and documented",
+    "SATISFIED: no exact duplicate document was introduced"
   ],
-  "branch_retirement_condition": "Retire only after every discovery URL has a terminal Phase 2 disposition and all unique metadata has been preserved."
+  "branch_retirement_condition": "SATISFIED_BY_PR57; remote branch retirement is repository hygiene and does not affect preserved evidence."
 }

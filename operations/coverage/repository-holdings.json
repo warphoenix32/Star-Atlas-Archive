@@ -1,11 +1,11 @@
 {
-  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
+  "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
   "as_of": "2026-07-22",
   "domains": [
     {
       "path": "archive",
-      "files": 9518,
-      "bytes": 333943066
+      "files": 9646,
+      "bytes": 388920336
     },
     {
       "path": "knowledge",
@@ -19,8 +19,8 @@
     },
     {
       "path": "operations",
-      "files": 763,
-      "bytes": 28046899
+      "files": 777,
+      "bytes": 28140595
     },
     {
       "path": "publication",
@@ -36,18 +36,18 @@
     },
     {
       "path": "archive/ingestion-packages",
-      "files": 988,
-      "bytes": 62334064
+      "files": 1007,
+      "bytes": 63250758
     },
     {
       "path": "archive/manifests",
-      "files": 9,
-      "bytes": 943984
+      "files": 10,
+      "bytes": 970615
     },
     {
       "path": "archive/normalized",
-      "files": 1984,
-      "bytes": 76586487
+      "files": 2020,
+      "bytes": 77918020
     },
     {
       "path": "archive/proposed",
@@ -56,13 +56,13 @@
     },
     {
       "path": "archive/provenance",
-      "files": 554,
-      "bytes": 1662779
+      "files": 572,
+      "bytes": 1676079
     },
     {
       "path": "archive/raw",
-      "files": 1177,
-      "bytes": 125487149
+      "files": 1195,
+      "bytes": 178098186
     },
     {
       "path": "archive/reconciliation",
@@ -76,8 +76,8 @@
     },
     {
       "path": "archive/source-records",
-      "files": 3757,
-      "bytes": 14546189
+      "files": 3793,
+      "bytes": 14624264
     }
   ],
   "normalized_url_inventory": {
@@ -95,7 +95,7 @@
     }
   },
   "open_pull_requests": 0,
-  "remote_topic_branches_merged_into_main": 44,
+  "remote_topic_branches_merged_into_main": 52,
   "remote_branches_not_ancestors_of_main": [
     "ingestion/discord-announcements-council-tracker",
     "ingestion/economic-reports-2022q2-2026q2",

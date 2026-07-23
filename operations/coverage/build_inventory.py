@@ -1,4 +1,4 @@
-"""Build the Phase 1 repository and evidence baseline.
+"""Build the repository coverage and roadmap baseline.
 
 The register is a snapshot of canonical ``main`` at BASELINE_SHA.  Counts are
 derived from repository paths where practical; completeness statements remain
@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 PROGRAM = ROOT / "operations" / "programs" / "library-roadmap"
 AS_OF = "2026-07-22"
-BASELINE_SHA = "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7"
+BASELINE_SHA = "1b47c2bdaf1aa683b5b8905323abe24cf0a02525"
 
 
 def write_json(path: Path, value: object) -> None:
@@ -84,7 +84,13 @@ def coverage_record(
         "gap_ids": gaps,
         "refresh_class": refresh,
         "last_verified": AS_OF,
-        "next_review_date": "2026-08-20" if refresh == "HIGH_FREQUENCY" else "2026-10-20",
+        "next_review_date": (
+            "2026-07-29"
+            if refresh == "HIGH_FREQUENCY"
+            else "2026-08-21"
+            if refresh == "MEDIUM_FREQUENCY"
+            else "2026-10-20"
+        ),
     }
 
 
@@ -128,12 +134,21 @@ def build_coverage() -> list[dict[str, object]]:
         ),
         coverage_record(
             "COV-OFFICIAL-MEDIUM", "Official Star Atlas Medium", "written articles", "OFFICIAL_FIRST_PARTY",
-            {"raw_files": file_count("archive/raw/medium/star-atlas"), "normalized_records": 173, "source_records": 173, "semantic_records": 0, "ingestion_package_records": 173},
-            "2021-01-15", "2025-10-10", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "PARTIAL_DATE_COVERAGE", "MANUAL_REVIEW_PENDING"],
-            "All 173 confirmed articles are ingested; publication discovery is explicitly incomplete.",
-            ["Fifty-one discovered candidates are deferred.", "2020 surfaces were searched with no confirmed 2020 article included.", "No 2026 article was confirmed in the frozen manifest."],
+            {"raw_files": file_count("archive/raw/medium/star-atlas"), "normalized_records": 181, "source_records": 181, "semantic_records": 0, "ingestion_package_records": 181},
+            "2021-01-15", "2025-10-10", ["CONFIRMED_ARTICLE_INGESTION_COMPLETE", "PARTIAL_DATE_COVERAGE", "PUBLICATION_DISCOVERY_INCOMPLETE"],
+            "All 181 confirmed included articles are ingested; all 216 review candidates have terminal dispositions, while publication discovery remains explicitly incomplete.",
+            ["The 2020 publication surfaces were searched with no confirmed 2020 article included.", "No 2026 article was confirmed in the frozen manifest.", "Deleted or unindexed stories may remain undiscoverable."],
             ["archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json", "archive/manifests/star-atlas-medium-ingestion-2026-07.json"],
             ["GAP-MEDIUM-DISCOVERY", "GAP-OFFICIAL-FRESHNESS"], "MEDIUM_FREQUENCY",
+        ),
+        coverage_record(
+            "COV-OFFICIAL-ECONOMIC-REPORTS", "Official Star Atlas economic reports", "PDF reports and economics paper", "OFFICIAL_FIRST_PARTY",
+            {"raw_files": 18, "normalized_records": 18, "source_records": 18, "semantic_records": 0, "ingestion_package_records": 18},
+            "2021-08-17", "2026-07-01", ["INGESTION_COMPLETE", "OPERATOR_PROVIDED_PDF_PACKAGE", "QUARTERLY_SEQUENCE_COMPLETE_Q2_2022_TO_Q2_2026"],
+            "Eighteen operator-provided official PDFs were ingested: seventeen quarterly reports from Q2 2022 through Q2 2026 and the Star Atlas economics paper.",
+            ["The operator-confirmed mislabeled Q4 2026 file was excluded.", "No report body was fetched from a URL.", "Ingestion does not independently verify economic measurements."],
+            ["operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json", "archive/manifests/official-economic-reports-pdf-ingestion-2026-07.json"],
+            ["GAP-OFFICIAL-FRESHNESS"], "MEDIUM_FREQUENCY",
         ),
         coverage_record(
             "COV-OFFICIAL-DISCORD", "Star Atlas Discord, repository-designated announcements export", "Discord messages", "OFFICIAL_COMMUNICATION_SURFACE_IDENTITY_UNRESOLVED",
@@ -147,10 +162,10 @@ def build_coverage() -> list[dict[str, object]]:
         coverage_record(
             "COV-OFFICIAL-X", "Official @staratlas X account", "social posts", "OFFICIAL_FIRST_PARTY_ACCOUNT",
             {"raw_files": file_count("archive/raw/social-governance-semantic-enrichment/social-media"), "normalized_records": 796, "source_records": 796, "semantic_records": 796, "ingestion_package_records": 0},
-            "2024-11-05", "2026-07-14", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "PARTIAL_DATE_COVERAGE", "CURRENT_TO_CAPTURE_DATE"],
+            "2024-11-05", "2026-07-14", ["PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE", "PARTIAL_DATE_COVERAGE", "FRESHNESS_CANDIDATES_QUEUED"],
             "The supplied export contains 799 rows and 796 unique posts.",
-            ["The export does not establish complete account history before 2024-11-05.", "Linked media binaries are absent."],
-            ["operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json", "archive/semantic/social-media/"],
+            ["The export does not establish complete account history before 2024-11-05.", "Linked media binaries are absent.", "Nine official posts visible after 2026-07-14 are queued but not yet preserved."],
+            ["operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json", "archive/semantic/social-media/", "operations/campaigns/phase-2-official-freshness-closeout-2026-07/discovery-candidate-queue.json"],
             ["GAP-X-HISTORY", "GAP-OFFICIAL-FRESHNESS"], "HIGH_FREQUENCY",
         ),
         coverage_record(
@@ -241,21 +256,21 @@ def build_backlog() -> list[dict[str, object]]:
     rows = [
         ("GAP-RAW-WRITTEN", "P0", "Legacy Alpha-Delta immutable raw captures", "Maintain the closed selected-scope recovery baseline: Aephia 64/64, HNN 157/157, and Official 320/320; five Herald pilot captures remain preserved separately.", "Archive Steward", "CLOSED_SELECTED_SCOPE_COMPLETE"),
         ("GAP-HERALD-RAW-DEFERRED", "P2", "Intergalactic Herald raw recovery", "Retain the frozen 259-record inventory and five preserved pilot captures; do not recover the remaining 254 records unless the operator reopens this source family.", "Archive Steward", "DEFERRED_BY_OPERATOR"),
-        ("GAP-DISCORD-CHANNELS", "P0", "Additional Star Atlas Discord channels", "Provide privacy-reviewed native exports for Atlas Amphitheater, Atlas Brew Lounge, DAO announcements, economics, faction, Foundation Room, general, governance, guild, and support channels.", "Ingestion Coordinator", "MISSING_REQUIRED_ARTIFACT"),
-        ("GAP-OFFICIAL-FRESHNESS", "P0", "Recurring official-source freshness", "Run read-only discovery checks for newsroom, support, governance, Medium, X, Discord, and official GitHub surfaces; create queues only.", "Research and Gap Analyst", "CURRENT_TO_CAPTURE_DATE"),
+        ("GAP-DISCORD-CHANNELS", "P0", "Additional Star Atlas Discord channels", "Provide privacy-reviewed native exports for Atlas Amphitheater, Atlas Brew Lounge, DAO announcements, economics, faction, Foundation Room, general, governance, guild, and support channels.", "Ingestion Coordinator", "DEFERRED_MISSING_OPERATOR_ARTIFACT"),
+        ("GAP-OFFICIAL-FRESHNESS", "P0", "Recurring official-source freshness", "Acquire the ten candidates from the 2026-07-22 queue, then repeat read-only discovery on the cadence in refresh-policy.json.", "Research and Gap Analyst", "CHECK_COMPLETE_10_CANDIDATES_QUEUED"),
         ("GAP-URL-INVENTORY", "P0", "Historical normalized URL dispositions", "Retain the immutable inventory and refresh the deterministic overlay when a relevant campaign closes.", "Archive Steward", "CLOSED_BY_RECONCILIATION_OVERLAY"),
-        ("GAP-ATLAS-BREW-METADATA", "P1", "Atlas Brew URLs and dates", "Provide or discover an authoritative 123-episode mapping of video ID, URL, and publication date; speaker mapping remains optional.", "Research and Gap Analyst", "MISSING_REQUIRED_ARTIFACT"),
-        ("GAP-OFFICIAL-TRANSCRIPT-METADATA", "P1", "Town Hall/DAO/Economic Forum URLs and dates", "Provide program inventories or source URLs for all 36 supplied transcripts.", "Research and Gap Analyst", "MISSING_REQUIRED_ARTIFACT"),
-        ("GAP-OFFICIAL-BROADCAST-INVENTORY", "P1", "Complete official broadcast inventories", "Build bounded episode inventories for Town Halls, DAO discussions, Economic Forums, and other official broadcast programs.", "Research and Gap Analyst", "UNKNOWN"),
-        ("GAP-HNN-TRANSCRIPT-METADATA", "P1", "HNN transcript URLs and dates", "Provide an 85-source episode map or authoritative channel inventory.", "Research and Gap Analyst", "MISSING_REQUIRED_ARTIFACT"),
-        ("GAP-HNN-TRANSCRIPT-SEMANTICS", "P1", "HNN transcript significance evaluation", "Run the approved context-sensitive transcript policy against the preserved normalized corpus.", "Knowledge Curator", "UNKNOWN"),
-        ("GAP-MEDIUM-DISCOVERY", "P1", "Medium publication discovery", "Revisit 51 explicitly deferred candidates and run current publication-native discovery without changing the 173-item confirmed-corpus boundary.", "Ingestion Coordinator", "MANUAL_REVIEW_PENDING"),
+        ("GAP-ATLAS-BREW-METADATA", "P1", "Atlas Brew URLs and dates", "Provide or discover an authoritative 123-episode mapping of video ID, URL, and publication date; speaker mapping remains optional.", "Research and Gap Analyst", "DEFERRED_MISSING_OPERATOR_ARTIFACT"),
+        ("GAP-OFFICIAL-TRANSCRIPT-METADATA", "P1", "Town Hall/DAO/Economic Forum URLs and dates", "Provide program inventories or source URLs for all 36 supplied transcripts.", "Research and Gap Analyst", "DEFERRED_MISSING_OPERATOR_ARTIFACT"),
+        ("GAP-OFFICIAL-BROADCAST-INVENTORY", "P1", "Complete official broadcast inventories", "Build bounded episode inventories for Town Halls, DAO discussions, Economic Forums, and other official broadcast programs when source mappings are available.", "Research and Gap Analyst", "DEFERRED_TO_PHASE_3_RESEARCH"),
+        ("GAP-HNN-TRANSCRIPT-METADATA", "P1", "HNN transcript URLs and dates", "Provide an 85-source episode map or authoritative channel inventory.", "Research and Gap Analyst", "DEFERRED_MISSING_OPERATOR_ARTIFACT"),
+        ("GAP-HNN-TRANSCRIPT-SEMANTICS", "P1", "HNN transcript significance evaluation", "Run the approved context-sensitive transcript policy against the preserved normalized corpus in a future evidence-prioritized campaign.", "Knowledge Curator", "DEFERRED_TO_FUTURE_SEMANTIC_CAMPAIGN"),
+        ("GAP-MEDIUM-DISCOVERY", "P1", "Medium publication discovery", "Maintain the 181 confirmed-article corpus and repeat publication-native discovery; all 216 prior review candidates now have terminal dispositions.", "Ingestion Coordinator", "CURRENT_CHECK_NO_NEW_RSS_CANDIDATE"),
         ("GAP-PIP33-RAW", "P1", "Original PIP-33 vote export", "Retain the checksum-identical PIP-33 member preserved inside the later DAO PIP vote ZIP.", "Archive Steward", "CLOSED_ARTIFACT_PRESERVED_IN_PR49_CONTAINER"),
         ("GAP-PIP33-PROVENANCE-CORRECTION", "P2", "PIP-33 provenance sidecar predates raw preservation", "Correct the per-PIP provenance sidecar in a manifest-aware campaign without rewriting vote evidence.", "Archive Steward", "KNOWN_METADATA_DEBT"),
         ("GAP-ONCHAIN-EVIDENCE", "P1", "Treasury/payment/execution evidence", "Provide scoped Solana transaction, account, program, and slot data before any on-chain verification claim.", "Solana Evidence Specialist", "MISSING_REQUIRED_ARTIFACT"),
-        ("GAP-ECONOMIC-REPORT-BRANCH", "P1", "Unmerged economic-report discovery registry", "Use the 17-URL branch registry only as a discovery seed for a conforming Phase 2 PDF ingestion campaign, then retire the branch.", "Lead Coordinator", "CLASSIFIED_DEFERRED_TO_PHASE_2"),
+        ("GAP-ECONOMIC-REPORT-BRANCH", "P1", "Unmerged economic-report discovery registry", "Retire the obsolete discovery branch after PR #57 preserved the complete operator-provided 18-PDF corpus and every 17-URL quarterly seed through Q2 2026.", "Lead Coordinator", "CLOSED_REPLACED_BY_PR57"),
         ("GAP-X-HISTORY", "P2", "Official X history before 2024-11-05", "Provide an earlier account export or bounded archive discovery manifest.", "Ingestion Coordinator", "PARTIAL_DATE_COVERAGE"),
-        ("GAP-DISCORD-NATIVE-IDS", "P2", "Discord native identifiers", "Provide privacy-reviewed exports retaining server, channel, message, author IDs, and timezone offsets.", "Archive Steward", "MISSING_REQUIRED_ARTIFACT"),
+        ("GAP-DISCORD-NATIVE-IDS", "P2", "Discord native identifiers", "Provide privacy-reviewed exports retaining server, channel, message, author IDs, and timezone offsets.", "Archive Steward", "DEFERRED_MISSING_OPERATOR_ARTIFACT"),
         ("GAP-DISCORD-ATTACHMENTS", "P2", "Fourteen Discord attachment-only placeholders", "Provide attachment metadata or a corrected export.", "Archive Steward", "MANUAL_REVIEW_PENDING"),
         ("GAP-LORE-REFERENCES", "P2", "Lore upstream link and mirror reconciliation", "Review 252 unresolved links and 86 mirror divergences without rewriting the immutable snapshot.", "Taxonomy Steward", "MANUAL_REVIEW_PENDING"),
         ("GAP-LEGACY-REVIEW", "P2", "Legacy article review queues", "Normalize the meaning and disposition of Alpha, Bravo, and Delta campaign review flags.", "Risk and Review Agent", "MANUAL_REVIEW_PENDING"),
@@ -289,9 +304,11 @@ def build_campaigns() -> list[dict[str, object]]:
         ("knowledge-narrative-depth-001", "MERGED_VALIDATION_REPAIRED", "operations/campaigns/knowledge-narrative-depth-001/closeout-2026-07/campaign-summary.json", "All 80 pages were reviewed; branch-relative validator repaired in this baseline."),
         ("legacy-written-raw-recovery-2026-07", "SELECTED_SCOPE_COMPLETE", "operations/campaigns/legacy-written-raw-recovery-2026-07/campaign-summary.json", "Aephia 64/64, HNN 157/157, and Official 320/320 are preserved; five Herald pilot captures remain and the family is otherwise deferred by operator direction."),
         ("lore-repository-ingestion-2026-07", "ARCHIVED_NORMALIZED_CURATOR_ADJUDICATED", "operations/campaigns/lore-repository-ingestion-2026-07/campaign-summary.json", "Upstream link and mirror gaps retained."),
+        ("official-economic-reports-pdf-ingestion-2026-07", "INGESTION_COMPLETE", "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json", "Eighteen operator-provided official PDFs were ingested; the mislabeled Q4 2026 upload was excluded."),
+        ("phase-2-official-freshness-closeout-2026-07", "PHASE_2_GATE_COMPLETE", "operations/campaigns/phase-2-official-freshness-closeout-2026-07/campaign-summary.json", "Seven official surfaces were checked; ten unmatched candidates were queued without ingestion."),
         ("pip-33-onchain-vote-reconciliation-2026-07", "PASS_WITH_RAW_EXPORT_GAP", "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json", "No payment, implementation, or signature replay claim."),
         ("social-governance-semantic-enrichment", "PASS", "operations/campaigns/social-governance-semantic-enrichment/validation-report.json", "Stale top-level FAIL corrected in this baseline."),
-        ("star-atlas-medium-ingestion-2026-07", "CONFIRMED_CORPUS_COMPLETE_DISCOVERY_INCOMPLETE", "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json", "Fifty-one candidates deferred."),
+        ("star-atlas-medium-ingestion-2026-07", "CONFIRMED_ARTICLE_INGESTION_COMPLETE_PUBLICATION_DISCOVERY_INCOMPLETE", "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json", "All 181 confirmed articles are ingested; all 216 review candidates have terminal dispositions, while external discovery remains incomplete."),
         ("star-atlas-transcripts-ingestion-2026-07", "READY_FOR_ARCHIVAL_REVIEW", "operations/campaigns/star-atlas-transcripts-ingestion-2026-07/campaign-summary.json", "Program-level completeness and source metadata remain unresolved."),
         ("star-atlas-transcripts-semantic-2026-07", "READY_FOR_SEMANTIC_REVIEW", "operations/campaigns/star-atlas-transcripts-semantic-2026-07/campaign-summary.json", "Selective candidate layer validated."),
         ("starbased-ship-states-ingestion-2026-07", "QUALIFIED_NORMALIZATION", "operations/campaigns/starbased-ship-states-ingestion-2026-07/campaign-summary.json", "Four research gaps retained."),
@@ -308,7 +325,7 @@ def build_cleanup() -> list[dict[str, object]]:
         {"cleanup_id": "CLN-005", "classification": "RELOCATE_NOT_DELETE", "paths": ["operations/campaigns/star-atlas-medium-ingestion-2026-07/discovery-captures/", "operations/campaigns/star-atlas-medium-ingestion-2026-07/identity-captures/", "operations/campaigns/discord-announcements-semantic-enrichment/input-package/"], "finding": "Approximately 11.9 MB of source-like captures live under operations.", "action": "Move only in a dedicated manifest/checksum migration."},
         {"cleanup_id": "CLN-006", "classification": "CONDENSE_DURING_PUBLICATION_REWRITE", "paths": ["publication/articles/README.md", "publication/briefs/README.md", "publication/datasets/README.md", "publication/reports/README.md"], "finding": "Four placeholder files can become one publication contract when the new publication layer is implemented.", "action": "Retain during the current GitHub Pages transition."},
         {"cleanup_id": "CLN-007", "classification": "ARCHIVE_RETAIN", "paths": ["operations/campaigns/knowledge-generation-wave-2/", "operations/campaigns/knowledge-context-refresh-2026-07-17/", "operations/campaigns/knowledge-narrative-depth-001/"], "finding": "Older and nested campaign artifacts preserve evidence packets, decisions, and closeout history.", "action": "Index as completed legacy work; do not bulk-delete."},
-        {"cleanup_id": "CLN-008", "classification": "BRANCH_HYGIENE", "paths": ["44 remote topic branches already merged into main"], "finding": "Merged branch refs remain; four non-ancestor branches also remain.", "action": "Delete merged refs only after branch-policy confirmation; preserve the economic-report branch until its 17-URL discovery seed is integrated in Phase 2."},
+        {"cleanup_id": "CLN-008", "classification": "BRANCH_HYGIENE", "paths": ["merged remote topic branches", "origin/ingestion/economic-reports-2022q2-2026q2"], "finding": "Merged branch refs remain; the obsolete economic-report discovery branch has now been superseded by PR #57.", "action": "The economic-report branch is eligible for retirement because all unique discovery value is preserved; delete remote refs only under branch-cleanup authority."},
         {"cleanup_id": "CLN-009", "classification": "RETAIN_COMPATIBILITY", "paths": ["archive/manifests/*", "operations/campaigns/*/manifest.json", "campaign-local normalized previews"], "finding": "Several byte-identical files serve distinct archive, campaign, or review roles.", "action": "Retain until a documented schema migration removes the compatibility role."},
         {"cleanup_id": "CLN-010", "classification": "REPAIR_LATER", "paths": [".gitattributes", "archive/raw/lore-repository/", "archive/normalized/lore/"], "finding": "Windows Git line-ending conversion makes one lore fixed-point test fail locally although Linux repository CI passes.", "action": "Add a scoped line-ending contract in a dedicated compatibility change; do not bulk-renormalize preserved lore evidence in Phase 1."},
     ]
@@ -329,10 +346,10 @@ def build_economic_branch_assessment() -> dict[str, object]:
         ],
         "discovery_urls": 17,
         "coverage": "Q2 2022 through Q2 2026",
-        "decision": "CLASSIFIED_DEFERRED_TO_PHASE_2",
+        "decision": "CLOSED_REPLACED_BY_PR57",
         "merge_or_cherry_pick": False,
         "human_adjudication_required": False,
-        "reason": "The branch preserves useful official report URLs and page-count metadata but does not contain conforming Source Records or auditable extracted text.",
+        "reason": "PR #57 ingested the operator-provided official PDF package, including all seventeen quarterly periods represented by the discovery seed through Q2 2026 plus the economics paper.",
         "deficiencies": [
             "No paired report JSON and Markdown Source Records",
             "No titles, authors, publication dates, immutable raw PDFs, or content checksums",
@@ -340,13 +357,12 @@ def build_economic_branch_assessment() -> dict[str, object]:
             "Fourteen reports are described as parsed although the extracted text is not retained",
         ],
         "phase_2_requirements": [
-            "Freeze the 17 URLs as discovery seeds without treating the stale registry as evidence",
-            "Retrieve and hash every accessible PDF",
-            "Preserve page order and use OCR only when necessary",
-            "Generate conforming Source Records, manifest, campaign summary, and validation",
-            "Reconcile the apparent Q2 2025 duplicate without discarding provenance",
+            "SATISFIED: all seventeen quarterly periods have immutable operator-provided PDFs",
+            "SATISFIED: raw files, normalized records, paired Source Records, ingestion package, manifest, and validation are present",
+            "SATISFIED: the operator-confirmed mislabeled Q4 2026 file is excluded and documented",
+            "SATISFIED: no exact duplicate document was introduced",
         ],
-        "branch_retirement_condition": "Retire only after every discovery URL has a terminal Phase 2 disposition and all unique metadata has been preserved.",
+        "branch_retirement_condition": "SATISFIED_BY_PR57; remote branch retirement is repository hygiene and does not affect preserved evidence.",
     }
 
 
@@ -448,7 +464,7 @@ def main() -> None:
             "current_dispositions": {"INGESTED_CONFIRMED": 480, "DOCUMENTED_EXCLUSIONS": 263, "RETRIEVAL_FAILED": 4, "UNRECONCILED": 2485},
         },
         "open_pull_requests": 0,
-        "remote_topic_branches_merged_into_main": 44,
+        "remote_topic_branches_merged_into_main": 52,
         "remote_branches_not_ancestors_of_main": ["ingestion/discord-announcements-council-tracker", "ingestion/economic-reports-2022q2-2026q2", "knowledge/wave-2a-foundation-pages", "planning/knowledge-generation-wave-2"],
     }
     coverage = build_coverage()
@@ -473,18 +489,18 @@ def main() -> None:
             "LOW_FREQUENCY": {"cadence_days": 90, "sources": ["historical community publications", "archived sites", "lore snapshots", "completed events"]},
         },
         "rules": ["A check may create or refresh a queue item only.", "No automatic ingestion, evidence mutation, knowledge promotion, or merge.", "Adapter failure is CHECK_FAILED, never no new material."],
-        "implementation_status": "POLICY_DEFINED_ADAPTERS_NOT_IMPLEMENTED",
+        "implementation_status": "MANUAL_BOUNDED_CHECK_EXECUTED_AUTOMATED_ADAPTERS_NOT_IMPLEMENTED",
     })
 
     holdings_md = ["# Repository Holdings Baseline", "", f"Snapshot: `{BASELINE_SHA}` on {AS_OF}.", "", "## Product domains", ""]
     holdings_md += markdown_table(["Path", "Files", "Bytes"], [[x["path"], x["files"], x["bytes"]] for x in holdings["domains"]])
     holdings_md += ["", "## Archive areas", ""] + markdown_table(["Path", "Files", "Bytes"], [[x["path"], x["files"], x["bytes"]] for x in holdings["archive_areas"]])
-    holdings_md += ["", "## Structural findings", "", "- The immutable 3,232-row URL inventory now has a separate deterministic disposition overlay; 2,485 URLs remain explicitly unresolved.", "- Twenty-one campaigns are represented in the central campaign status register.", "- Source Record formats differ by repository generation: Markdown-only, JSON-only, and paired JSON/Markdown all exist.", "- The selected written raw-recovery scope is closed at 541/541 records, with five additional Herald pilot captures preserved and the remaining Herald family explicitly deferred.", "- The economic-report branch remains classified for Phase 2 integration rather than merge.", ""]
+    holdings_md += ["", "## Structural findings", "", "- The immutable 3,232-row URL inventory has a separate deterministic disposition overlay; 2,485 URLs remain explicitly unresolved.", f"- {len(campaigns)} campaigns are represented in the central campaign status register.", "- Source Record formats differ by repository generation: Markdown-only, JSON-only, and paired JSON/Markdown all exist.", "- The selected written raw-recovery scope is closed at 541/541 records, with five additional Herald pilot captures preserved and the remaining Herald family explicitly deferred.", "- The official economic-report corpus is ingested from the operator-provided PDF package; the older discovery branch is superseded and eligible for retirement.", "- The Phase 2 freshness queue contains ten unpreserved candidates for later acquisition.", ""]
     (HERE / "repository-holdings.md").write_text("\n".join(holdings_md), encoding="utf-8")
 
     coverage_md = ["# Source Coverage Register", "", f"Evidence baseline at `{BASELINE_SHA}` on {AS_OF}. Package completeness never implies complete external history.", "", "## Medium-by-time matrix", ""]
     coverage_md += markdown_table(["Source", "Medium", "Supported interval", "Logical records", "Status", "Priority gaps"], [[r["source_family"], r["medium"], f"{r['first_supported_date'] or 'unknown'} to {r['last_supported_date'] or 'unknown'}", max(r["counts"].values()), ", ".join(r["coverage_statuses"]), ", ".join(r["gap_ids"])] for r in coverage])
-    coverage_md += ["", "## Critical interpretation", "", "- The repository contains only one Discord export family, designated as announcements by repository path; no native channel identity was captured.", "- The 173 confirmed Medium articles are fully ingested, but publication discovery is incomplete.", "- Aephia, HNN, and Official successful Source Records now have raw recovery bodies and provenance; recovered live bytes remain later recaptures rather than publication-date snapshots.", "- Intergalactic Herald has five preserved pilot captures and is otherwise deferred by operator direction.", "- Transcript-package completeness is distinct from complete program or episode coverage.", "- Council-reported governance state is not independent implementation or payment evidence.", ""]
+    coverage_md += ["", "## Critical interpretation", "", "- The repository contains only one Discord export family, designated as announcements by repository path; no native channel identity was captured.", "- All 181 confirmed Medium articles are ingested and all 216 review candidates have terminal dispositions, but publication discovery is incomplete.", "- Eighteen official economic PDFs are preserved; this does not independently verify publisher-reported measurements.", "- Aephia, HNN, and Official successful Source Records have raw recovery bodies and provenance; recovered live bytes remain later recaptures rather than publication-date snapshots.", "- Intergalactic Herald has five preserved pilot captures and is otherwise deferred by operator direction.", "- Transcript-package completeness is distinct from complete program or episode coverage.", "- Council-reported governance state is not independent implementation or payment evidence.", "- Ten official freshness candidates are queued but are not yet archive evidence.", ""]
     (HERE / "source-coverage-register.md").write_text("\n".join(coverage_md), encoding="utf-8")
 
     backlog_md = ["# Prioritized Acquisition and Research Backlog", "", "No item authorizes collection by itself.", ""] + markdown_table(["Priority", "Gap", "Need", "Owner", "Status"], [[r["priority"], r["gap_id"], r["required_artifact_or_action"], r["owner"], r["status"]] for r in backlog]) + [""]
@@ -499,12 +515,12 @@ def main() -> None:
     economic_md = [
         "# Economic-report Branch Assessment", "",
         f"Decision: **`{economic_assessment['decision']}`**", "",
-        "Do not merge or cherry-pick `origin/ingestion/economic-reports-2022q2-2026q2`. Its 17 official report URLs are useful discovery seeds, but its two unique files do not form a conforming, auditable ingestion campaign.", "",
+        "Do not merge or cherry-pick `origin/ingestion/economic-reports-2022q2-2026q2`. PR #57 superseded it with a conforming ingestion of the operator-provided official PDFs.", "",
         "## Deficiencies", "",
     ] + [f"- {item}" for item in economic_assessment["deficiencies"]] + [
-        "", "## Phase 2 disposition", "",
+        "", "## Closeout disposition", "",
     ] + [f"- {item}" for item in economic_assessment["phase_2_requirements"]] + [
-        "", f"The branch may be retired only after: {economic_assessment['branch_retirement_condition']}", "",
+        "", f"Branch retirement condition: {economic_assessment['branch_retirement_condition']}", "",
         "No human adjudication is required for this classification.", "",
     ]
     (HERE / "economic-report-branch-assessment.md").write_text("\n".join(economic_md), encoding="utf-8")
@@ -526,8 +542,8 @@ def main() -> None:
 
     phases = [
         {"phase": 1, "name": "Repository and evidence baseline", "status": "COMPLETE", "percent_complete": 100, "remaining_gate_items": []},
-        {"phase": 2, "name": "Priority ingestion", "status": "IN_PROGRESS", "percent_complete": 40, "remaining_gate_items": ["Ingest the 17-URL official economic-report PDF discovery seed", "Run official-source freshness discovery", "Track artifact-blocked Discord and transcript acquisitions without delaying ready work"]},
-        {"phase": 3, "name": "Targeted architecture refinement", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Complete approved Phase 2 priority campaigns", "Define publication manifest without rewriting evidence"]},
+        {"phase": 2, "name": "Priority ingestion", "status": "COMPLETE", "percent_complete": 100, "remaining_gate_items": []},
+        {"phase": 3, "name": "Targeted architecture refinement", "status": "READY_TO_START", "percent_complete": 0, "remaining_gate_items": ["Define the publication manifest without rewriting evidence", "Implement only architecture changes justified by validated repository gaps", "Preserve the ten freshness candidates as an acquisition queue until a separately scoped campaign runs"]},
         {"phase": 4, "name": "Knowledge consolidation", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Complete priority evidence packets", "Select historically valuable dossiers"]},
         {"phase": 5, "name": "Publication layer", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Stable publication contract", "Initial ten-article portfolio"]},
         {"phase": 6, "name": "Vercel implementation", "status": "NOT_STARTED", "percent_complete": 0, "remaining_gate_items": ["Publication layer approved", "Read-only Vercel connection test"]},
@@ -537,9 +553,15 @@ def main() -> None:
         "program_id": "star-atlas-library-roadmap",
         "as_of": AS_OF,
         "baseline_sha": BASELINE_SHA,
-        "current_phase": 2,
+        "current_phase": 3,
         "phases": phases,
-        "phase_2_progress_basis": "Two of five priority-ingestion workstreams are closed: the confirmed Star Atlas Medium corpus and the operator-selected legacy written raw-recovery scope. Economic reports, official-source freshness discovery, and artifact-dependent Discord/transcript acquisition remain.",
+        "phase_2_progress_basis": "All five Phase 2 workstreams have terminal gate dispositions: Medium ingestion, selected written raw recovery, official economic-report PDF ingestion, official-source freshness discovery, and non-blocking carry-forward of artifact-dependent Discord/transcript gaps.",
+        "phase_2_closeout_evidence": [
+            "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
+            "operations/campaigns/legacy-written-raw-recovery-2026-07/campaign-summary.json",
+            "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json",
+            "operations/campaigns/phase-2-official-freshness-closeout-2026-07/campaign-summary.json",
+        ],
         "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
         "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",
         "baseline_ci": {
@@ -559,19 +581,22 @@ def main() -> None:
         {"dependency_id": "DEP-001", "from": "Phase 2", "to": "Phase 1", "status": "SATISFIED", "reason": "Phase 1 is complete and the selected written raw-recovery milestone is closed."},
         {"dependency_id": "DEP-002", "from": "Phase 5", "to": "Phase 3", "status": "PENDING", "reason": "Publication requires stable disposition and manifest contracts."},
         {"dependency_id": "DEP-003", "from": "Phase 6", "to": "Phase 5", "status": "PENDING", "reason": "Vercel is the delivery layer, not the place to resolve editorial scope."},
-        {"dependency_id": "DEP-004", "from": "Economic report ingestion", "to": "ingestion/economic-reports-2022q2-2026q2", "status": "CLASSIFIED_DEFERRED_TO_PHASE_2", "reason": "The branch is a 17-URL discovery seed, not a conforming ingestion campaign; do not merge it directly."},
+        {"dependency_id": "DEP-004", "from": "Economic report ingestion", "to": "ingestion/economic-reports-2022q2-2026q2", "status": "SATISFIED_SUPERSEDED_BY_PR57", "reason": "The operator-provided 18-PDF campaign preserves all seventeen quarterly periods through Q2 2026 plus the economics paper; the stale branch is not needed."},
+        {"dependency_id": "DEP-005", "from": "Phase 3", "to": "Phase 2", "status": "SATISFIED", "reason": "Phase 2 is complete. Artifact-dependent Discord and transcript gaps remain explicit, non-blocking backlog items."},
     ]})
-    program_md = ["# Star Atlas Library Roadmap Status", "", f"Current phase: **Phase 2 — Priority ingestion, in progress**. Snapshot `{BASELINE_SHA}` on {AS_OF}.", "", "This report must be refreshed at every campaign closeout. Any deviation from phase order, product boundaries, or completion gates must be stated explicitly.", "", "## Phase status", ""] + markdown_table(["Phase", "Status", "Complete", "Remaining gate"], [[f"{p['phase']}. {p['name']}", p["status"], f"{p['percent_complete']}%", "; ".join(p["remaining_gate_items"])] for p in phases]) + ["", "## Written-recovery closeout", "", "The frozen inventory remains 800 records. Recovery is complete for the 541-record operator-selected scope: Aephia 64/64, HNN 157/157, and Official 320/320. Five Herald pilot captures are preserved; the remaining 254 Herald records are `DEFERRED_BY_OPERATOR` and are not counted as recovered.", "", "## Current recommendation", "", "Proceed with the 17-URL official economic-report PDF ingestion gate, then run official-source freshness discovery. Do not begin Phase 3 until the remaining Phase 2 gates are complete or explicitly deferred.", ""]
+    program_md = ["# Star Atlas Library Roadmap Status", "", f"Current phase: **Phase 3 — Targeted architecture refinement, ready to start**. Snapshot `{BASELINE_SHA}` on {AS_OF}.", "", "This report must be refreshed at every campaign closeout. Any deviation from phase order, product boundaries, or completion gates must be stated explicitly.", "", "## Phase status", ""] + markdown_table(["Phase", "Status", "Complete", "Remaining gate"], [[f"{p['phase']}. {p['name']}", p["status"], f"{p['percent_complete']}%", "; ".join(p["remaining_gate_items"])] for p in phases]) + ["", "## Phase 2 closeout", "", "Phase 2 is complete. The 181-article Medium corpus, the 541-record selected written-recovery scope, and the 18-document official economic-report package are preserved. A bounded freshness check queued ten unpreserved candidates. Discord and transcript metadata gaps remain explicit but require new operator artifacts and do not block Phase 3.", "", "## Current recommendation", "", "Begin Phase 3 with the publication-manifest contract and only the narrow architecture changes justified by the validated coverage gaps. Do not ingest the ten freshness candidates or rewrite evidence under the architecture campaign.", ""]
     (PROGRAM / "program-status.md").write_text("\n".join(program_md), encoding="utf-8")
     (PROGRAM / "human-adjudication-queue.md").write_text("""# Human Adjudication Queue
 
 ## Blocking decisions
 
-None for the closed written-recovery milestone.
+None. Phase 2 is closed and Phase 3 is ready to start.
 
 ## Closed decisions
 
 - `REVIEW-PHASE2-RAW-RECOVERY`: `CLOSED_SELECTED_SCOPE_COMPLETE`. Aephia, HNN, and Official are complete at 541/541 selected records. Five Herald pilot captures are preserved; the remaining 254 Herald records are deferred by the operator.
+- `REVIEW-PHASE2-ECONOMIC-REPORTS`: `CLOSED_INGESTION_COMPLETE`. Eighteen operator-provided PDFs are preserved; the mislabeled Q4 2026 upload is excluded.
+- `REVIEW-PHASE2-FRESHNESS`: `CLOSED_QUEUE_CREATED`. Seven official surfaces were checked and ten unmatched candidates were queued without ingestion.
 
 ## Deferred, non-blocking decisions
 
@@ -584,13 +609,17 @@ None for the closed written-recovery milestone.
 - Whether to retire `operations/migrations/validate_wave_1_5.py` or preserve it in a clearly historical location.
 - Whether source-like campaign captures should move from `operations/` into `archive/raw/`; any move requires manifest and checksum migration.
 
-These decisions do not block the evidence baseline. No deletion or relocation is performed by Phase 1 inventory.
+These decisions do not block Phase 3. No deletion or relocation is performed by this closeout.
 """, encoding="utf-8")
     (PROGRAM / "README.md").write_text("""# Star Atlas Library Roadmap
 
 This directory is the operational source of truth for the seven-phase Archive → Knowledge → Library roadmap. GitHub remains authoritative for the underlying evidence and campaign work.
 
 At every campaign closeout, the Lead Coordinator updates the program status and any affected coverage, campaign, dependency, backlog, and human-adjudication records. A campaign that does not affect a field records `NO_CHANGE`; it must not silently leave the roadmap stale.
+
+Phase 2 is closed. Phase 3 begins with a publication-manifest contract and
+targeted architecture changes; freshness candidates and artifact-dependent
+source gaps remain separate acquisition inputs.
 
 The detailed evidence baseline is maintained in [`../../coverage/`](../../coverage/).
 """, encoding="utf-8")

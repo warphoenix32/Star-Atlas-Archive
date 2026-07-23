@@ -79,10 +79,11 @@
       "cleanup_id": "CLN-008",
       "classification": "BRANCH_HYGIENE",
       "paths": [
-        "44 remote topic branches already merged into main"
+        "merged remote topic branches",
+        "origin/ingestion/economic-reports-2022q2-2026q2"
       ],
-      "finding": "Merged branch refs remain; four non-ancestor branches also remain.",
-      "action": "Delete merged refs only after branch-policy confirmation; preserve the economic-report branch until its 17-URL discovery seed is integrated in Phase 2."
+      "finding": "Merged branch refs remain; the obsolete economic-report discovery branch has now been superseded by PR #57.",
+      "action": "The economic-report branch is eligible for retirement because all unique discovery value is preserved; delete remote refs only under branch-cleanup authority."
     },
     {
       "cleanup_id": "CLN-009",

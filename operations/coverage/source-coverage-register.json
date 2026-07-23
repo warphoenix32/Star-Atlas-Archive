@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "as_of": "2026-07-22",
-  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
+  "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
   "records": [
     {
       "coverage_id": "COV-AEPHIA-WRITTEN",
@@ -152,7 +152,7 @@
       ],
       "refresh_class": "HIGH_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-08-20"
+      "next_review_date": "2026-07-29"
     },
     {
       "coverage_id": "COV-OFFICIAL-MEDIUM",
@@ -161,23 +161,23 @@
       "authority": "OFFICIAL_FIRST_PARTY",
       "counts": {
         "raw_files": 544,
-        "normalized_records": 173,
-        "source_records": 173,
+        "normalized_records": 181,
+        "source_records": 181,
         "semantic_records": 0,
-        "ingestion_package_records": 173
+        "ingestion_package_records": 181
       },
       "first_supported_date": "2021-01-15",
       "last_supported_date": "2025-10-10",
       "coverage_statuses": [
-        "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
+        "CONFIRMED_ARTICLE_INGESTION_COMPLETE",
         "PARTIAL_DATE_COVERAGE",
-        "MANUAL_REVIEW_PENDING"
+        "PUBLICATION_DISCOVERY_INCOMPLETE"
       ],
-      "completeness_basis": "All 173 confirmed articles are ingested; publication discovery is explicitly incomplete.",
+      "completeness_basis": "All 181 confirmed included articles are ingested; all 216 review candidates have terminal dispositions, while publication discovery remains explicitly incomplete.",
       "limitations": [
-        "Fifty-one discovered candidates are deferred.",
-        "2020 surfaces were searched with no confirmed 2020 article included.",
-        "No 2026 article was confirmed in the frozen manifest."
+        "The 2020 publication surfaces were searched with no confirmed 2020 article included.",
+        "No 2026 article was confirmed in the frozen manifest.",
+        "Deleted or unindexed stories may remain undiscoverable."
       ],
       "evidence_paths": [
         "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
@@ -189,7 +189,43 @@
       ],
       "refresh_class": "MEDIUM_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-10-20"
+      "next_review_date": "2026-08-21"
+    },
+    {
+      "coverage_id": "COV-OFFICIAL-ECONOMIC-REPORTS",
+      "source_family": "Official Star Atlas economic reports",
+      "medium": "PDF reports and economics paper",
+      "authority": "OFFICIAL_FIRST_PARTY",
+      "counts": {
+        "raw_files": 18,
+        "normalized_records": 18,
+        "source_records": 18,
+        "semantic_records": 0,
+        "ingestion_package_records": 18
+      },
+      "first_supported_date": "2021-08-17",
+      "last_supported_date": "2026-07-01",
+      "coverage_statuses": [
+        "INGESTION_COMPLETE",
+        "OPERATOR_PROVIDED_PDF_PACKAGE",
+        "QUARTERLY_SEQUENCE_COMPLETE_Q2_2022_TO_Q2_2026"
+      ],
+      "completeness_basis": "Eighteen operator-provided official PDFs were ingested: seventeen quarterly reports from Q2 2022 through Q2 2026 and the Star Atlas economics paper.",
+      "limitations": [
+        "The operator-confirmed mislabeled Q4 2026 file was excluded.",
+        "No report body was fetched from a URL.",
+        "Ingestion does not independently verify economic measurements."
+      ],
+      "evidence_paths": [
+        "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json",
+        "archive/manifests/official-economic-reports-pdf-ingestion-2026-07.json"
+      ],
+      "gap_ids": [
+        "GAP-OFFICIAL-FRESHNESS"
+      ],
+      "refresh_class": "MEDIUM_FREQUENCY",
+      "last_verified": "2026-07-22",
+      "next_review_date": "2026-08-21"
     },
     {
       "coverage_id": "COV-OFFICIAL-DISCORD",
@@ -230,7 +266,7 @@
       ],
       "refresh_class": "HIGH_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-08-20"
+      "next_review_date": "2026-07-29"
     },
     {
       "coverage_id": "COV-OFFICIAL-X",
@@ -249,16 +285,18 @@
       "coverage_statuses": [
         "PRESERVED_COMPLETE_FOR_PROVIDED_PACKAGE",
         "PARTIAL_DATE_COVERAGE",
-        "CURRENT_TO_CAPTURE_DATE"
+        "FRESHNESS_CANDIDATES_QUEUED"
       ],
       "completeness_basis": "The supplied export contains 799 rows and 796 unique posts.",
       "limitations": [
         "The export does not establish complete account history before 2024-11-05.",
-        "Linked media binaries are absent."
+        "Linked media binaries are absent.",
+        "Nine official posts visible after 2026-07-14 are queued but not yet preserved."
       ],
       "evidence_paths": [
         "operations/campaigns/social-governance-semantic-enrichment/campaign-summary.json",
-        "archive/semantic/social-media/"
+        "archive/semantic/social-media/",
+        "operations/campaigns/phase-2-official-freshness-closeout-2026-07/discovery-candidate-queue.json"
       ],
       "gap_ids": [
         "GAP-X-HISTORY",
@@ -266,7 +304,7 @@
       ],
       "refresh_class": "HIGH_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-08-20"
+      "next_review_date": "2026-07-29"
     },
     {
       "coverage_id": "COV-ATLAS-BREW",
@@ -302,7 +340,7 @@
       ],
       "refresh_class": "MEDIUM_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-10-20"
+      "next_review_date": "2026-08-21"
     },
     {
       "coverage_id": "COV-HNN-TRANSCRIPTS",
@@ -373,7 +411,7 @@
       ],
       "refresh_class": "MEDIUM_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-10-20"
+      "next_review_date": "2026-08-21"
     },
     {
       "coverage_id": "COV-LORE-REPOSITORY",
@@ -447,7 +485,7 @@
       ],
       "refresh_class": "HIGH_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-08-20"
+      "next_review_date": "2026-07-29"
     },
     {
       "coverage_id": "COV-PIP33-VOTES",
@@ -483,7 +521,7 @@
       ],
       "refresh_class": "HIGH_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-08-20"
+      "next_review_date": "2026-07-29"
     },
     {
       "coverage_id": "COV-DAO-PIP-VOTE-EVIDENCE",
@@ -519,7 +557,7 @@
       ],
       "refresh_class": "HIGH_FREQUENCY",
       "last_verified": "2026-07-22",
-      "next_review_date": "2026-08-20"
+      "next_review_date": "2026-07-29"
     },
     {
       "coverage_id": "COV-SHIP-STATES",
