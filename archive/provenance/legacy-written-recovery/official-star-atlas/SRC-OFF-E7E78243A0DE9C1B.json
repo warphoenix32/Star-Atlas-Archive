@@ -1,0 +1,68 @@
+{
+  "byte_count": 7779,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:43.793532Z",
+  "captured_at": "2026-07-22T23:05:43.793532Z",
+  "content_type": "text/html",
+  "final_url": "https://staratlas.com/game/",
+  "headers": {
+    "content-length": "7779",
+    "content-type": "text/html",
+    "date": "Wed, 22 Jul 2026 14:37:33 GMT",
+    "etag": "\"7a29731251cd0b169287c0f874f8cedb\"",
+    "last-modified": "Thu, 02 Jul 2026 11:41:37 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://staratlas.com/game/",
+    "observed_canonical_url": "https://staratlas.com/game/",
+    "observed_final_url": "https://staratlas.com/game/",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com/game/",
+    "document_title": "Game Overview | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://staratlas.com/game/",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-E7E78243A0DE9C1B.json",
+  "raw_body": {
+    "byte_length": 7779,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-E7E78243A0DE9C1B/response-body.bin",
+    "sha256": "45a29313db2b43f8dc0329963cef44bdaa912d7369248abf90c834f6eae9b6fe"
+  },
+  "raw_sha256": "45a29313db2b43f8dc0329963cef44bdaa912d7369248abf90c834f6eae9b6fe",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://staratlas.com/game/",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html",
+    "final_url": "https://staratlas.com/game/",
+    "headers": {
+      "content-length": "7779",
+      "content-type": "text/html",
+      "date": "Wed, 22 Jul 2026 14:37:33 GMT",
+      "etag": "\"7a29731251cd0b169287c0f874f8cedb\"",
+      "last-modified": "Thu, 02 Jul 2026 11:41:37 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-E7E78243A0DE9C1B",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:43.793532Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

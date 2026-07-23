@@ -1,0 +1,64 @@
+{
+  "byte_count": 78811,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:42.046600Z",
+  "captured_at": "2026-07-22T23:05:42.046600Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-star-atlas-dao-the-game-of-polis",
+  "headers": {
+    "content-length": "78811",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:05:42 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-star-atlas-dao-the-game-of-polis",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-star-atlas-dao-the-game-of-polis",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "The Star Atlas DAO — The Game of POLIS | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-star-atlas-dao-the-game-of-polis",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-E5AEFD6B36E3CE06.json",
+  "raw_body": {
+    "byte_length": 78811,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-E5AEFD6B36E3CE06/response-body.bin",
+    "sha256": "d669da23ab2296233a3c98d021ba42e29ad3c78ae95bc58b9906e69d5c928992"
+  },
+  "raw_sha256": "d669da23ab2296233a3c98d021ba42e29ad3c78ae95bc58b9906e69d5c928992",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-star-atlas-dao-the-game-of-polis",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-star-atlas-dao-the-game-of-polis",
+    "headers": {
+      "content-length": "78811",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:05:42 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-E5AEFD6B36E3CE06",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:42.046600Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

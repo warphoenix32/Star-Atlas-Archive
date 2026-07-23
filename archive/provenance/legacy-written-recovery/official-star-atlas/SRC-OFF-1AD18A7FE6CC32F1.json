@@ -1,0 +1,68 @@
+{
+  "byte_count": 33358,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:23.758875Z",
+  "captured_at": "2026-07-22T23:03:23.758875Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/profile-faction",
+  "headers": {
+    "content-length": "33358",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:23 GMT",
+    "etag": "\"69e10f4e-824e\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/apis-and-data/profile-faction",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/apis-and-data/profile-faction",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Profile Faction | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/apis-and-data/profile-faction",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-1AD18A7FE6CC32F1.json",
+  "raw_body": {
+    "byte_length": 33358,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-1AD18A7FE6CC32F1/response-body.bin",
+    "sha256": "2c4e8a454d52b6e3fb8b3e5f26129c45a7738e6a4d06e9c3d42fb6ba0c025839"
+  },
+  "raw_sha256": "2c4e8a454d52b6e3fb8b3e5f26129c45a7738e6a4d06e9c3d42fb6ba0c025839",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/apis-and-data/profile-faction",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/apis-and-data/profile-faction",
+    "headers": {
+      "content-length": "33358",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:23 GMT",
+      "etag": "\"69e10f4e-824e\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-1AD18A7FE6CC32F1",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:23.758875Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

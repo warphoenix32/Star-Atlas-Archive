@@ -1,0 +1,64 @@
+{
+  "byte_count": 63353,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:35.656873Z",
+  "captured_at": "2026-07-22T23:03:35.656873Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-hello-moon-partner-to-level-up-gaming-with-live-data",
+  "headers": {
+    "content-length": "63353",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:03:35 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-hello-moon-partner-to-level-up-gaming-with-live-data",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-hello-moon-partner-to-level-up-gaming-with-live-data",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Star Atlas and Hello Moon Partner to Level Up Gaming with Live Data Streaming | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-hello-moon-partner-to-level-up-gaming-with-live-data",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-2BC7D317600C6107.json",
+  "raw_body": {
+    "byte_length": 63353,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-2BC7D317600C6107/response-body.bin",
+    "sha256": "91b5fcf98f8453300ef7405d45837844a643375e29b9cb2aa82fa8942696ecc5"
+  },
+  "raw_sha256": "91b5fcf98f8453300ef7405d45837844a643375e29b9cb2aa82fa8942696ecc5",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-hello-moon-partner-to-level-up-gaming-with-live-data",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-and-hello-moon-partner-to-level-up-gaming-with-live-data",
+    "headers": {
+      "content-length": "63353",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:03:35 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-2BC7D317600C6107",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:35.656873Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,64 @@
+{
+  "byte_count": 61150,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:58.819097Z",
+  "captured_at": "2026-07-22T23:05:58.819097Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-announces-the-next-major-release-event-426live-nyk",
+  "headers": {
+    "content-length": "61150",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:05:58 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-announces-the-next-major-release-event-426live-nyk",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-announces-the-next-major-release-event-426live-nyk",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Star Atlas Announces the Next Major Release Event — 426LIVE:NYK | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-announces-the-next-major-release-event-426live-nyk",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-F58B0AB5D35EF8FC.json",
+  "raw_body": {
+    "byte_length": 61150,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-F58B0AB5D35EF8FC/response-body.bin",
+    "sha256": "111f0150b67fd44d20ad9fdf88275b9153ec6fd74be5b0a2a5e268d13bb6649b"
+  },
+  "raw_sha256": "111f0150b67fd44d20ad9fdf88275b9153ec6fd74be5b0a2a5e268d13bb6649b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-announces-the-next-major-release-event-426live-nyk",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-announces-the-next-major-release-event-426live-nyk",
+    "headers": {
+      "content-length": "61150",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:05:58 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-F58B0AB5D35EF8FC",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:58.819097Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

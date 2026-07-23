@@ -1,0 +1,64 @@
+{
+  "byte_count": 85917,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:56.556107Z",
+  "captured_at": "2026-07-22T23:04:56.556107Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/start-sequence-continues-from-claim-stakes-to-space-crops-with-new-solarpunk",
+  "headers": {
+    "content-length": "85917",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:04:56 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/start-sequence-continues-from-claim-stakes-to-space-crops-with-new-solarpunk",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/start-sequence-continues-from-claim-stakes-to-space-crops-with-new-solarpunk",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Start Sequence Continues: From Claim Stakes to Space Crops with New Solarpunk Poster Series | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/start-sequence-continues-from-claim-stakes-to-space-crops-with-new-solarpunk",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-9F8AA620349CF5A1.json",
+  "raw_body": {
+    "byte_length": 85917,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-9F8AA620349CF5A1/response-body.bin",
+    "sha256": "0bb5f289bc53a8cc8475b8db1e845b5f9559932dc1e3c9867fdfa9c4829f7013"
+  },
+  "raw_sha256": "0bb5f289bc53a8cc8475b8db1e845b5f9559932dc1e3c9867fdfa9c4829f7013",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/start-sequence-continues-from-claim-stakes-to-space-crops-with-new-solarpunk",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/start-sequence-continues-from-claim-stakes-to-space-crops-with-new-solarpunk",
+    "headers": {
+      "content-length": "85917",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:04:56 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-9F8AA620349CF5A1",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:56.556107Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

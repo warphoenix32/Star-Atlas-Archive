@@ -1,0 +1,68 @@
+{
+  "byte_count": 23513,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:34.066152Z",
+  "captured_at": "2026-07-22T23:04:34.066152Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/creative-assets/building-with-star-atlas-creative-ip",
+  "headers": {
+    "content-length": "23513",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:34 GMT",
+    "etag": "\"69e10f4e-5bd9\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/creative-assets/building-with-star-atlas-creative-ip",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/creative-assets/building-with-star-atlas-creative-ip",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Building With Star Atlas Creative IP | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/creative-assets/building-with-star-atlas-creative-ip",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-7E820F10A355A1FE.json",
+  "raw_body": {
+    "byte_length": 23513,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-7E820F10A355A1FE/response-body.bin",
+    "sha256": "327fc222d2aae6e4115a614b129a830e4504260a550153087df53d8472407086"
+  },
+  "raw_sha256": "327fc222d2aae6e4115a614b129a830e4504260a550153087df53d8472407086",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/creative-assets/building-with-star-atlas-creative-ip",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/creative-assets/building-with-star-atlas-creative-ip",
+    "headers": {
+      "content-length": "23513",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:34 GMT",
+      "etag": "\"69e10f4e-5bd9\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-7E820F10A355A1FE",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:34.066152Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

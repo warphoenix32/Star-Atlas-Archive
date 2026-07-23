@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Overview | Star Atlas</title>
+  <meta name="description" content="Explore Star Atlas AAA space exploration MMO across immersive third-person adventure, strategic fleet command, and browser-based gameplay modes." />
+  <meta name="keywords" content="Star Atlas, AAA MMO, space exploration, space game, MMO, blockchain game, play to earn, Solana, Galia, fleet command, sci-fi MMO" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="ATMTA, Inc." />
+  <link rel="canonical" href="https://staratlas.com/game/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Star Atlas" />
+  <meta property="og:title" content="Game Overview | Star Atlas" />
+  <meta property="og:description" content="Explore Star Atlas AAA space exploration MMO across immersive third-person adventure, strategic fleet command, and browser-based gameplay modes." />
+  <meta property="og:url" content="https://staratlas.com/game/" />
+  <meta property="og:image" content="https://staratlas.com/Icon.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@staratlas" />
+  <meta name="twitter:title" content="Game Overview | Star Atlas" />
+  <meta name="twitter:description" content="Explore Star Atlas AAA space exploration MMO across immersive third-person adventure, strategic fleet command, and browser-based gameplay modes." />
+  <meta name="twitter:image" content="https://staratlas.com/Icon.png" />
+
+  <link rel="icon" type="image/png" href="../Icon.png">
+  <link rel="apple-touch-icon" href="../Icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Game Overview | Star Atlas","url":"https://staratlas.com/game/","description":"Explore Star Atlas AAA space exploration MMO across immersive third-person adventure, strategic fleet command, and browser-based gameplay modes.","isPartOf":{"@type":"WebSite","name":"Star Atlas","url":"https://staratlas.com"}}</script>
+</head>
+<body>
+  <div class="loading-bar" id="loadingBar"></div>
+  <div class="grid-container">
+    <div class="grid-layer dots"></div>
+    <div class="grid-layer grid"></div>
+    <div class="grid-layer accent"></div>
+  </div>
+  <div class="mouse-spotlight"></div>
+  <div class="glow-container">
+    <div class="glow"></div>
+    <div class="glow"></div>
+    <div class="glow"></div>
+  </div>
+
+  <nav>
+    <div class="nav-main">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="../index.html" aria-label="Star Atlas Home">
+            <img src="../Logo.svg" alt="Star Atlas">
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="mobile-nav-panel" id="primary-navigation">
+          <ul class="nav-links">
+            <li><a href="../game/">Game</a></li>
+            <li><a href="../index.html#economy">Economy</a></li>
+            <li><a href="../index.html#community">Community</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="https://play.staratlas.com/market/" target="_blank" class="download-btn" rel="noopener noreferrer"><span>Galactic Marketplace</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="feature-page">
+    <section class="game-section">
+      <div class="section-header" style="opacity:1;">
+        <div style="display:flex; align-items:stretch;">
+          <span class="section-number">0001.</span>
+          <h1 class="section-title">The Game</h1>
+        </div>
+      </div>
+      
+      <p class="page-intro section-subtitle">Star Atlas offers multiple ways to experience the Galia Expanse. Explore on foot in third-person, command vast fleets from a strategic view, or dive into the economy. Choose your path and shape the galaxy&#039;s future.</p>
+      
+      
+    <div class="video-container">
+      <video controls playsinline preload="metadata" poster="../src/GAME section/3rd Person Experience/Thumbnails in carousel/Slide_1_ImageThumbnail.png">
+        <source src="../src/herosection_loop_7-21-hb3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+      
+      <div class="page-content">
+        
+        
+        
+        
+        <div class="section-divider"></div>
+        
+        
+    <div class="feature-grid">
+      
+        <div class="feature-card">
+          <h3>Third-Person Experience</h3>
+          <p>Immerse yourself in AAA-quality exploration. Walk the decks of your ships, engage in FPS combat, and experience Galia up close.</p>
+          
+            <ul>
+              <li>Ship interior exploration</li><li>FPS and ship-to-ship combat</li><li>Resource extraction missions</li><li>Quest-driven storylines</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Fleet Command RTS</h3>
+          <p>Switch to a top-down strategic view to manage your entire armada. Coordinate fleet movements, control territories, and outmaneuver rival factions.</p>
+          
+            <ul>
+              <li>Mass fleet management</li><li>Territory control</li><li>Faction warfare</li><li>Real-time strategy</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Browser-Based Play</h3>
+          <p>Access Star Atlas from any device. SAGE Labs and Holosim bring the economy and fleet simulation to your browser. No downloads required.</p>
+          
+            <ul>
+              <li>Play anywhere</li><li>No special hardware needed</li><li>Full economic participation</li><li>Free-to-play options</li>
+            </ul>
+          
+        </div>
+      
+    </div>
+  
+        
+        
+        
+        
+    <div class="cta-block">
+      <h3>Ready to Begin?</h3>
+      <p>Choose your entry point into the Star Atlas universe. Start with the free Holosim simulation or dive into the full experience.</p>
+      <a href="https://play.staratlas.com" target="_blank" rel="noopener noreferrer" class="download-btn"><span>Play Now</span></a>
+    </div>
+  
+      </div>
+      
+      
+    <div class="related-section">
+      <p class="section-subtitle" style="margin-top: 2rem;">Explore More Features</p>
+      <div class="related-links">
+        <a class="secondary-btn" href="../game/galia/">Galia Expanse</a><a class="secondary-btn" href="../game/game-modes/">Game Modes</a><a class="secondary-btn" href="../game/your-fleet-your-way/">Your Fleet, Your Way</a><a class="secondary-btn" href="../game/life-in-galia/">Life in Galia</a><a class="secondary-btn" href="../game/fleet-command/">Fleet Command</a><a class="secondary-btn" href="../game/holosim/">Holosim</a>
+      </div>
+    </div>
+  
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-bottom">
+        <p class="footer-text">© 2625 Star Atlas. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../src/main.js" defer></script>
+</body>
+</html>

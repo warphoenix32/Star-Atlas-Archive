@@ -1,0 +1,62 @@
+{
+  "byte_count": 27338,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:42.929645Z",
+  "captured_at": "2026-07-22T23:05:42.929645Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061414989843-How-to-Earn-POLIS-in-Star-Atlas",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:43 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061414989843-How-to-Earn-POLIS-in-Star-Atlas",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061414989843-How-to-Earn-POLIS-in-Star-Atlas",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061414989843-How-to-Earn-POLIS-in-Star-Atlas",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061414989843-How-to-Earn-POLIS-in-Star-Atlas",
+    "document_title": "How to Earn POLIS in Star Atlas – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061414989843-How-to-Earn-POLIS-in-Star-Atlas",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-E6B4CD3C8CC15371.json",
+  "raw_body": {
+    "byte_length": 27338,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-E6B4CD3C8CC15371/response-body.bin",
+    "sha256": "cd5e16a14119695f21c6ebd78b3583a2f2e2bf4c1d8ec972c1581f8b550da222"
+  },
+  "raw_sha256": "cd5e16a14119695f21c6ebd78b3583a2f2e2bf4c1d8ec972c1581f8b550da222",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061414989843-How-to-Earn-POLIS-in-Star-Atlas",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061414989843-How-to-Earn-POLIS-in-Star-Atlas",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:43 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-E6B4CD3C8CC15371",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:42.929645Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

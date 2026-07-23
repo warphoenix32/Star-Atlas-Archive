@@ -1,0 +1,62 @@
+{
+  "byte_count": 28941,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:06:00.786462Z",
+  "captured_at": "2026-07-22T23:06:00.786462Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:06:00 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage",
+    "document_title": "How to Create a Character in Sage? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-F846A4C9BCA4D2AA.json",
+  "raw_body": {
+    "byte_length": 28941,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-F846A4C9BCA4D2AA/response-body.bin",
+    "sha256": "3cf8c424463500d0e91abbb343f116344f26eaa4087989392ceed931b4dc7fdc"
+  },
+  "raw_sha256": "3cf8c424463500d0e91abbb343f116344f26eaa4087989392ceed931b4dc7fdc",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053488533907-How-to-Create-a-Character-in-Sage",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:06:00 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-F846A4C9BCA4D2AA",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:06:00.786462Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

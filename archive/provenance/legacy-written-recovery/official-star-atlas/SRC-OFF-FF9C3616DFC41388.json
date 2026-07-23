@@ -1,0 +1,62 @@
+{
+  "byte_count": 24171,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:06:06.029753Z",
+  "captured_at": "2026-07-22T23:06:06.029753Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47029000884883-How-Is-Payment-Handled",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:06:06 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47029000884883-How-Is-Payment-Handled",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47029000884883-How-Is-Payment-Handled",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47029000884883-How-Is-Payment-Handled",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47029000884883-How-Is-Payment-Handled",
+    "document_title": "How Is Payment Handled? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47029000884883-How-Is-Payment-Handled",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-FF9C3616DFC41388.json",
+  "raw_body": {
+    "byte_length": 24171,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-FF9C3616DFC41388/response-body.bin",
+    "sha256": "81f97603c2c16184d5fb263f6e8d07487cf51e149f8fe22036976958b174fdbf"
+  },
+  "raw_sha256": "81f97603c2c16184d5fb263f6e8d07487cf51e149f8fe22036976958b174fdbf",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47029000884883-How-Is-Payment-Handled",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47029000884883-How-Is-Payment-Handled",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:06:06 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-FF9C3616DFC41388",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:06:06.029753Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

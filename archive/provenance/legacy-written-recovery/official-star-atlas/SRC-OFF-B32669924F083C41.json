@@ -1,0 +1,68 @@
+{
+  "byte_count": 32047,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:09.100721Z",
+  "captured_at": "2026-07-22T23:05:09.100721Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems",
+  "headers": {
+    "content-length": "32047",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:09 GMT",
+    "etag": "\"69e10f4e-7d2f\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "On-Chain Game Systems | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B32669924F083C41.json",
+  "raw_body": {
+    "byte_length": 32047,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B32669924F083C41/response-body.bin",
+    "sha256": "958c666eee190ddabf540576ea8f79e00a87f1625292bd6d94ff5dcd2d2a7ca9"
+  },
+  "raw_sha256": "958c666eee190ddabf540576ea8f79e00a87f1625292bd6d94ff5dcd2d2a7ca9",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems",
+    "headers": {
+      "content-length": "32047",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:09 GMT",
+      "etag": "\"69e10f4e-7d2f\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-B32669924F083C41",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:09.100721Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

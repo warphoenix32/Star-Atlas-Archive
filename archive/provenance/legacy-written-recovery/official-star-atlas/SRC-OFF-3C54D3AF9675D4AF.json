@@ -1,0 +1,62 @@
+{
+  "byte_count": 26224,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:47.002654Z",
+  "captured_at": "2026-07-22T23:03:47.002654Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061478639763-How-do-I-withdraw-my-Claim-Stake-from-Faction-Claims",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:47 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061478639763-How-do-I-withdraw-my-Claim-Stake-from-Faction-Claims",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061478639763-How-do-I-withdraw-my-Claim-Stake-from-Faction-Claims",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061478639763-How-do-I-withdraw-my-Claim-Stake-from-Faction-Claims",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061478639763-How-do-I-withdraw-my-Claim-Stake-from-Faction-Claims",
+    "document_title": "How do I withdraw my Claim Stake from Faction Claims? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061478639763-How-do-I-withdraw-my-Claim-Stake-from-Faction-Claims",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-3C54D3AF9675D4AF.json",
+  "raw_body": {
+    "byte_length": 26224,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-3C54D3AF9675D4AF/response-body.bin",
+    "sha256": "c57af43130a08f01132549e72db88cbfaec557a1ec8d4ea0208e0ded3a9e676b"
+  },
+  "raw_sha256": "c57af43130a08f01132549e72db88cbfaec557a1ec8d4ea0208e0ded3a9e676b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061478639763-How-do-I-withdraw-my-Claim-Stake-from-Faction-Claims",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061478639763-How-do-I-withdraw-my-Claim-Stake-from-Faction-Claims",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:47 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-3C54D3AF9675D4AF",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:47.002654Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

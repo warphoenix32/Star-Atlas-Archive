@@ -1,0 +1,62 @@
+{
+  "byte_count": 27016,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:00.472830Z",
+  "captured_at": "2026-07-22T23:04:00.472830Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053489014803-How-do-I-Mine-Resources-in-Starbased",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:00 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053489014803-How-do-I-Mine-Resources-in-Starbased",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053489014803-How-do-I-Mine-Resources-in-Starbased",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053489014803-How-do-I-Mine-Resources-in-Starbased",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053489014803-How-do-I-Mine-Resources-in-Starbased",
+    "document_title": "How do I Mine Resources in Starbased? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053489014803-How-do-I-Mine-Resources-in-Starbased",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-527949C216ECEDEE.json",
+  "raw_body": {
+    "byte_length": 27016,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-527949C216ECEDEE/response-body.bin",
+    "sha256": "f042e18cf181d3b6fa6589a159f97dc47c491b437e8980289ab6157bde90b2ed"
+  },
+  "raw_sha256": "f042e18cf181d3b6fa6589a159f97dc47c491b437e8980289ab6157bde90b2ed",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053489014803-How-do-I-Mine-Resources-in-Starbased",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053489014803-How-do-I-Mine-Resources-in-Starbased",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:00 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-527949C216ECEDEE",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:00.472830Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,62 @@
+{
+  "byte_count": 27047,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:12.753113Z",
+  "captured_at": "2026-07-22T23:05:12.753113Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053525126419-How-do-I-create-a-buy-or-sell-order-in-SAGE",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:12 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053525126419-How-do-I-create-a-buy-or-sell-order-in-SAGE",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053525126419-How-do-I-create-a-buy-or-sell-order-in-SAGE",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053525126419-How-do-I-create-a-buy-or-sell-order-in-SAGE",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053525126419-How-do-I-create-a-buy-or-sell-order-in-SAGE",
+    "document_title": "How do I create a buy or sell order in SAGE? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053525126419-How-do-I-create-a-buy-or-sell-order-in-SAGE",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B4C5F178762DC6F4.json",
+  "raw_body": {
+    "byte_length": 27047,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B4C5F178762DC6F4/response-body.bin",
+    "sha256": "7ce2049ef0daffac1a1988cabdae87bffe44ae6efbb3c9848ed526c48c3925c9"
+  },
+  "raw_sha256": "7ce2049ef0daffac1a1988cabdae87bffe44ae6efbb3c9848ed526c48c3925c9",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053525126419-How-do-I-create-a-buy-or-sell-order-in-SAGE",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053525126419-How-do-I-create-a-buy-or-sell-order-in-SAGE",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:12 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-B4C5F178762DC6F4",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:12.753113Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

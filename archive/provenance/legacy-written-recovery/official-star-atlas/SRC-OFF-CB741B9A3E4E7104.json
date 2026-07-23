@@ -1,0 +1,62 @@
+{
+  "byte_count": 24626,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:24.782038Z",
+  "captured_at": "2026-07-22T23:05:24.782038Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47029019604115-Can-I-Cancel-a-Rental-Once-It-s-Active",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:24 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47029019604115-Can-I-Cancel-a-Rental-Once-It-s-Active",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47029019604115-Can-I-Cancel-a-Rental-Once-It-s-Active",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47029019604115-Can-I-Cancel-a-Rental-Once-It-s-Active",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47029019604115-Can-I-Cancel-a-Rental-Once-It-s-Active",
+    "document_title": "Can I Cancel a Rental Once It's Active? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47029019604115-Can-I-Cancel-a-Rental-Once-It-s-Active",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-CB741B9A3E4E7104.json",
+  "raw_body": {
+    "byte_length": 24626,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-CB741B9A3E4E7104/response-body.bin",
+    "sha256": "65900dbf307378e1107ae08647392f7d914844f2c65c6b2878d22a33f6e93bfe"
+  },
+  "raw_sha256": "65900dbf307378e1107ae08647392f7d914844f2c65c6b2878d22a33f6e93bfe",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47029019604115-Can-I-Cancel-a-Rental-Once-It-s-Active",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47029019604115-Can-I-Cancel-a-Rental-Once-It-s-Active",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:24 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-CB741B9A3E4E7104",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:24.782038Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

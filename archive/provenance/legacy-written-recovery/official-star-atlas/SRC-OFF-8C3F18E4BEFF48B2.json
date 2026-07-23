@@ -1,0 +1,64 @@
+{
+  "byte_count": 68701,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:43.971692Z",
+  "captured_at": "2026-07-22T23:04:43.971692Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/starpath-the-official-star-atlas-referral-program",
+  "headers": {
+    "content-length": "68701",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:04:43 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/starpath-the-official-star-atlas-referral-program",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/starpath-the-official-star-atlas-referral-program",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "StarPath — The Official Star Atlas Referral Program | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/starpath-the-official-star-atlas-referral-program",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-8C3F18E4BEFF48B2.json",
+  "raw_body": {
+    "byte_length": 68701,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-8C3F18E4BEFF48B2/response-body.bin",
+    "sha256": "0aca34141edb4b4102b7aef91aad4a1258fd1cefde7f45209221bbf3fc025c49"
+  },
+  "raw_sha256": "0aca34141edb4b4102b7aef91aad4a1258fd1cefde7f45209221bbf3fc025c49",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/starpath-the-official-star-atlas-referral-program",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/starpath-the-official-star-atlas-referral-program",
+    "headers": {
+      "content-length": "68701",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:04:43 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-8C3F18E4BEFF48B2",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:43.971692Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

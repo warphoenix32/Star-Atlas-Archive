@@ -1,0 +1,62 @@
+{
+  "byte_count": 24937,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:06:00.172690Z",
+  "captured_at": "2026-07-22T23:06:00.172690Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47029053074835-What-Are-Fleet-Rental-Fees",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:06:00 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47029053074835-What-Are-Fleet-Rental-Fees",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47029053074835-What-Are-Fleet-Rental-Fees",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47029053074835-What-Are-Fleet-Rental-Fees",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47029053074835-What-Are-Fleet-Rental-Fees",
+    "document_title": "What Are Fleet Rental Fees? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47029053074835-What-Are-Fleet-Rental-Fees",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-F6BFD210BB78F1B3.json",
+  "raw_body": {
+    "byte_length": 24937,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-F6BFD210BB78F1B3/response-body.bin",
+    "sha256": "4c41074620fc890e563ac291b8f437556cd134bff19da26234cef221fb938f1f"
+  },
+  "raw_sha256": "4c41074620fc890e563ac291b8f437556cd134bff19da26234cef221fb938f1f",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47029053074835-What-Are-Fleet-Rental-Fees",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47029053074835-What-Are-Fleet-Rental-Fees",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:06:00 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-F6BFD210BB78F1B3",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:06:00.172690Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

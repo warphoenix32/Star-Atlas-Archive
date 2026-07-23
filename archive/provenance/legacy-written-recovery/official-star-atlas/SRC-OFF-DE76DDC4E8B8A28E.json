@@ -1,0 +1,62 @@
+{
+  "byte_count": 37941,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:36.931222Z",
+  "captured_at": "2026-07-22T23:05:36.931222Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:37 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR",
+    "document_title": "How to Create and Use a Fleet in C4 PTR – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-DE76DDC4E8B8A28E.json",
+  "raw_body": {
+    "byte_length": 37941,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-DE76DDC4E8B8A28E/response-body.bin",
+    "sha256": "26ad76cd13dc74cfa779a73c21b32e4beb7431df9530fb93a10bb785f92f69e7"
+  },
+  "raw_sha256": "26ad76cd13dc74cfa779a73c21b32e4beb7431df9530fb93a10bb785f92f69e7",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:37 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-DE76DDC4E8B8A28E",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:36.931222Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

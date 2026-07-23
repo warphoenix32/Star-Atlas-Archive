@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAGE Labs | Star Atlas</title>
+  <meta name="description" content="Mine resources, craft items, and power the Star Atlas economy in SAGE Labs. The browser-based gateway to the Galia Expanse." />
+  <meta name="keywords" content="Star Atlas, AAA MMO, space exploration, space game, MMO, blockchain game, play to earn, Solana, Galia, fleet command, sci-fi MMO" />
+  <meta name="robots" content="index,follow" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="ATMTA, Inc." />
+  <link rel="canonical" href="https://staratlas.com/game/sage-labs/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Star Atlas" />
+  <meta property="og:title" content="SAGE Labs | Star Atlas" />
+  <meta property="og:description" content="Mine resources, craft items, and power the Star Atlas economy in SAGE Labs. The browser-based gateway to the Galia Expanse." />
+  <meta property="og:url" content="https://staratlas.com/game/sage-labs/" />
+  <meta property="og:image" content="https://staratlas.com/Icon.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@staratlas" />
+  <meta name="twitter:title" content="SAGE Labs | Star Atlas" />
+  <meta name="twitter:description" content="Mine resources, craft items, and power the Star Atlas economy in SAGE Labs. The browser-based gateway to the Galia Expanse." />
+  <meta name="twitter:image" content="https://staratlas.com/Icon.png" />
+
+  <link rel="icon" type="image/png" href="../../Icon.png">
+  <link rel="apple-touch-icon" href="../../Icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../styles.css">
+
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"SAGE Labs | Star Atlas","url":"https://staratlas.com/game/sage-labs/","description":"Mine resources, craft items, and power the Star Atlas economy in SAGE Labs. The browser-based gateway to the Galia Expanse.","isPartOf":{"@type":"WebSite","name":"Star Atlas","url":"https://staratlas.com"}}</script>
+</head>
+<body>
+  <div class="loading-bar" id="loadingBar"></div>
+  <div class="grid-container">
+    <div class="grid-layer dots"></div>
+    <div class="grid-layer grid"></div>
+    <div class="grid-layer accent"></div>
+  </div>
+  <div class="mouse-spotlight"></div>
+  <div class="glow-container">
+    <div class="glow"></div>
+    <div class="glow"></div>
+    <div class="glow"></div>
+  </div>
+
+  <nav>
+    <div class="nav-main">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="../../index.html" aria-label="Star Atlas Home">
+            <img src="../../Logo.svg" alt="Star Atlas">
+          </a>
+        </div>
+        <button class="mobile-menu-toggle" type="button" aria-label="Open navigation menu" aria-controls="primary-navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="mobile-nav-panel" id="primary-navigation">
+          <ul class="nav-links">
+            <li><a href="../../game/">Game</a></li>
+            <li><a href="../../index.html#economy">Economy</a></li>
+            <li><a href="../../index.html#community">Community</a></li>
+          </ul>
+          <div class="nav-cta">
+            <a href="https://play.staratlas.com/market/" target="_blank" class="download-btn" rel="noopener noreferrer"><span>Galactic Marketplace</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="feature-page">
+    <section class="game-section">
+      <div class="section-header" style="opacity:1;">
+        <div style="display:flex; align-items:stretch;">
+          <span class="section-number">0001.</span>
+          <h1 class="section-title">SAGE Labs</h1>
+        </div>
+      </div>
+      
+      <p class="page-intro section-subtitle">SAGE Labs is where real economic gameplay happens. Fully on-chain, every action carries weight. Mine resources, craft gear, trade on open markets. Your decisions have lasting consequences in a persistent, player-driven economy.</p>
+      
+      
+    <div class="video-container">
+      <video controls playsinline preload="metadata" poster="../../src/GAME section/Top-down RTS View/Thumbnail Images/RTS_Slide_1_ImageThumbnail.png">
+        <source src="../../src/Reduced/Tds Slide 1 Fleetcommand.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  
+      
+      <div class="page-content">
+        
+    <div class="lore-block">
+      <h3>The Golden Era</h3>
+      <p>SAGE represents the current era of Star Atlas, a time of expansion, opportunity, and economic growth. As players establish starbases, extract resources, and build the infrastructure of galactic civilization, they&#039;re writing the history that will define the future of Galia.</p>
+    </div>
+  
+        
+        
+    <div class="stats-grid">
+      
+        <div class="stat-item">
+          <div class="stat-value">24/7</div>
+          <div class="stat-label">Economy</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">Real</div>
+          <div class="stat-label">Earnings</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">Web</div>
+          <div class="stat-label">Based</div>
+        </div>
+      
+        <div class="stat-item">
+          <div class="stat-value">100%</div>
+          <div class="stat-label">On-Chain</div>
+        </div>
+      
+    </div>
+  
+        
+        <div class="section-divider"></div>
+        
+        
+    <div class="feature-grid">
+      
+        <div class="feature-card">
+          <h3>Resource Mining</h3>
+          <p>Extract valuable resources from asteroids and planets. Your mining operations fuel the crafting economy and generate income.</p>
+          
+            <ul>
+              <li>Multiple resource types</li><li>Varied mining locations</li><li>Fleet-based extraction</li><li>Automated operations</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Crafting System</h3>
+          <p>Transform raw materials into valuable items, components, and equipment. Supply the marketplace and build your manufacturing empire.</p>
+          
+            <ul>
+              <li>Comprehensive crafting</li><li>Recipe discovery</li><li>Component manufacturing</li><li>Market integration</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>SDU Scanning</h3>
+          <p>Scan for Survey Data Units, valuable data packages that provide resources and information. SDU hunting is a unique gameplay loop.</p>
+          
+            <ul>
+              <li>Exploration gameplay</li><li>Random discoveries</li><li>Valuable rewards</li><li>Risk vs reward</li>
+            </ul>
+          
+        </div>
+      
+        <div class="feature-card">
+          <h3>Starbased Integration</h3>
+          <p>SAGE Labs connects to the broader Starbased system. Your economic activities contribute to your faction&#039;s starbase network.</p>
+          
+            <ul>
+              <li>Starbase construction</li><li>Collaborative building</li><li>Faction progression</li><li>Loyalty rewards</li>
+            </ul>
+          
+        </div>
+      
+    </div>
+  
+        
+        
+    <div class="guide-block">
+      <h3>Starting in SAGE Labs</h3>
+      <ol>
+        <li>Connect your Solana wallet with Star Atlas assets</li><li>Assign your ships to fleet operations</li><li>Begin mining operations at resource-rich locations</li><li>Process resources and craft valuable items</li><li>Sell on the Galactic Marketplace for ATLAS tokens</li>
+      </ol>
+    </div>
+  
+        
+        
+    <div class="cta-block">
+      <h3>Build Your Economy</h3>
+      <p>The Star Atlas economy runs on player activity. Every resource mined, item crafted, and trade executed shapes the galaxy. Start building in SAGE Labs.</p>
+      <a href="https://play.staratlas.com" target="_blank" rel="noopener noreferrer" class="download-btn"><span>Play Now</span></a>
+    </div>
+  
+      </div>
+      
+      
+    <div class="related-section">
+      <p class="section-subtitle" style="margin-top: 2rem;">Explore More Features</p>
+      <div class="related-links">
+        <a class="secondary-btn" href="../../game/galia/">Galia Expanse</a><a class="secondary-btn" href="../../game/game-modes/">Game Modes</a><a class="secondary-btn" href="../../game/your-fleet-your-way/">Your Fleet, Your Way</a><a class="secondary-btn" href="../../game/life-in-galia/">Life in Galia</a><a class="secondary-btn" href="../../game/fleet-command/">Fleet Command</a><a class="secondary-btn" href="../../game/holosim/">Holosim</a>
+      </div>
+    </div>
+  
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-bottom">
+        <p class="footer-text">© 2625 Star Atlas. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../src/main.js" defer></script>
+</body>
+</html>

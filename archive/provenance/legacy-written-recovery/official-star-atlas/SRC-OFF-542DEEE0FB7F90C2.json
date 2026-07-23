@@ -1,0 +1,62 @@
+{
+  "byte_count": 30512,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:02.180010Z",
+  "captured_at": "2026-07-22T23:04:02.180010Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47210147406483-How-to-Redeem-Your-Star-Atlas-How-to-Redeem-Your-Star-Atlas-UE5-Game-Key-Game-Key",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:02 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47210147406483-How-to-Redeem-Your-Star-Atlas-How-to-Redeem-Your-Star-Atlas-UE5-Game-Key-Game-Key",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47210147406483-How-to-Redeem-Your-Star-Atlas-How-to-Redeem-Your-Star-Atlas-UE5-Game-Key-Game-Key",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47210147406483-How-to-Redeem-Your-Star-Atlas-How-to-Redeem-Your-Star-Atlas-UE5-Game-Key-Game-Key",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47210147406483-How-to-Redeem-Your-Star-Atlas-How-to-Redeem-Your-Star-Atlas-UE5-Game-Key-Game-Key",
+    "document_title": "How to Redeem Your Star Atlas How to Redeem Your Star Atlas UE5 Game Key Game Key – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47210147406483-How-to-Redeem-Your-Star-Atlas-How-to-Redeem-Your-Star-Atlas-UE5-Game-Key-Game-Key",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-542DEEE0FB7F90C2.json",
+  "raw_body": {
+    "byte_length": 30512,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-542DEEE0FB7F90C2/response-body.bin",
+    "sha256": "fee690e164c09ec37d73b9c225e39f253f6e3898ca521e20bf99f4c0baaec9d8"
+  },
+  "raw_sha256": "fee690e164c09ec37d73b9c225e39f253f6e3898ca521e20bf99f4c0baaec9d8",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47210147406483-How-to-Redeem-Your-Star-Atlas-How-to-Redeem-Your-Star-Atlas-UE5-Game-Key-Game-Key",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47210147406483-How-to-Redeem-Your-Star-Atlas-How-to-Redeem-Your-Star-Atlas-UE5-Game-Key-Game-Key",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:02 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-542DEEE0FB7F90C2",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:02.180010Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

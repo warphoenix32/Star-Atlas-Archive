@@ -1,0 +1,64 @@
+{
+  "byte_count": 99188,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:25.475521Z",
+  "captured_at": "2026-07-22T23:04:25.475521Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-presents-golden-era-start-sequence-our-path-towards-tomorrow",
+  "headers": {
+    "content-length": "99188",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:04:25 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-presents-golden-era-start-sequence-our-path-towards-tomorrow",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-presents-golden-era-start-sequence-our-path-towards-tomorrow",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "Star Atlas Presents Golden Era Start Sequence — Our Path Towards Tomorrow | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-presents-golden-era-start-sequence-our-path-towards-tomorrow",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-7102D44F3A9B9DB6.json",
+  "raw_body": {
+    "byte_length": 99188,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-7102D44F3A9B9DB6/response-body.bin",
+    "sha256": "44442379a42e01fdb970e0fc2abfa45180215a1b6dd05003add14c82bbd05a83"
+  },
+  "raw_sha256": "44442379a42e01fdb970e0fc2abfa45180215a1b6dd05003add14c82bbd05a83",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-presents-golden-era-start-sequence-our-path-towards-tomorrow",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/star-atlas-presents-golden-era-start-sequence-our-path-towards-tomorrow",
+    "headers": {
+      "content-length": "99188",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:04:25 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-7102D44F3A9B9DB6",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:25.475521Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

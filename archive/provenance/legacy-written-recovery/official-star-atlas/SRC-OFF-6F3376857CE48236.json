@@ -1,0 +1,62 @@
+{
+  "byte_count": 25916,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:23.212760Z",
+  "captured_at": "2026-07-22T23:04:23.212760Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47057448873619-How-do-I-claim-my-Faction-Fleet-rewards",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:23 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47057448873619-How-do-I-claim-my-Faction-Fleet-rewards",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057448873619-How-do-I-claim-my-Faction-Fleet-rewards",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47057448873619-How-do-I-claim-my-Faction-Fleet-rewards",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47057448873619-How-do-I-claim-my-Faction-Fleet-rewards",
+    "document_title": "How do I claim my Faction Fleet rewards? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47057448873619-How-do-I-claim-my-Faction-Fleet-rewards",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-6F3376857CE48236.json",
+  "raw_body": {
+    "byte_length": 25916,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-6F3376857CE48236/response-body.bin",
+    "sha256": "68f99bc7aeddcfd18d1ccdbc0b1b518e955eb25ed600d258f9fee0a74f8bad32"
+  },
+  "raw_sha256": "68f99bc7aeddcfd18d1ccdbc0b1b518e955eb25ed600d258f9fee0a74f8bad32",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47057448873619-How-do-I-claim-my-Faction-Fleet-rewards",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47057448873619-How-do-I-claim-my-Faction-Fleet-rewards",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:23 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-6F3376857CE48236",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:23.212760Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

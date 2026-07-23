@@ -145,3 +145,52 @@ def test_hnn_completion_has_full_preserved_coverage_and_no_manual_queue():
     assert all(item["identity_status"] in {"MATCH", "CONSISTENT"} for item in records)
     assert not any(item["manual_review_required"] for item in records)
     assert (CAMPAIGN_DIR / "expansion-hnn-manual-review-queue.jsonl").read_bytes() == b""
+
+
+def test_official_completion_selection_is_fixed_and_reconciles_to_the_family():
+    selection = json.loads((CAMPAIGN_DIR / "expansion-official-selection.json").read_text(encoding="utf-8"))
+    selected_ids = [item["source_id"] for item in selection["records"]]
+    baseline_ids = selection["preserved_baseline_source_ids"]
+
+    assert selection["batch_id"] == "official-written-family-completion-316"
+    assert selection["expected_record_count"] == 316
+    assert selection["family_record_count"] == 320
+    assert len(selected_ids) == len(set(selected_ids)) == 316
+    assert len(baseline_ids) == 4
+    assert selection["pilot_source_ids_repaired"] == ["SRC-OFF-0333A5B22A207D88"]
+    assert not set(selected_ids).intersection(baseline_ids)
+    assert len(set(selected_ids).union(baseline_ids)) == 320
+    assert all(
+        urlsplit(item["retrieval_url"]).netloc
+        in {
+            "api.github.com",
+            "build.staratlas.com",
+            "experience.staratlas.com",
+            "staratlas.com",
+            "support.staratlas.com",
+        }
+        for item in selection["records"]
+    )
+    assert {item["retrieval_url_basis"] for item in selection["records"]} <= {
+        "PRIOR_FINAL_URL",
+        "PRIOR_REQUESTED_URL",
+    }
+
+
+def test_official_completion_has_full_preserved_coverage_and_immutable_github_carriers():
+    ledger_path = CAMPAIGN_DIR / "expansion-official-retrieval-ledger.jsonl"
+    records = [json.loads(line) for line in ledger_path.read_text(encoding="utf-8").splitlines() if line]
+
+    assert len(records) == len({item["source_id"] for item in records}) == 316
+    assert all(item["retrieval_batch_id"] == "official-written-family-completion-316" for item in records)
+    assert all(item["body_path"] and item["provenance_path"] for item in records)
+    assert all(item["identity_status"] in {"MATCH", "CONSISTENT"} for item in records)
+    assert not any(item["manual_review_required"] for item in records)
+    assert (CAMPAIGN_DIR / "expansion-official-manual-review-queue.jsonl").read_bytes() == b""
+
+    github_records = [item for item in records if item["retrieval_tier"] == "IMMUTABLE_GIT_COMMIT_OR_BLOB"]
+    assert len(github_records) == 9
+    for item in github_records:
+        provenance = json.loads((ROOT / item["provenance_path"]).read_text(encoding="utf-8"))
+        assert provenance["request"]["retrieval_url_basis"] == "IMMUTABLE_GITHUB_README_BLOB"
+        assert len(provenance["snapshot_timestamp_or_git_sha"]) == 40

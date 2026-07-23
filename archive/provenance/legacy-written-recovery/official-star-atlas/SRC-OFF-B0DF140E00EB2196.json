@@ -1,0 +1,62 @@
+{
+  "byte_count": 28932,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:06.913447Z",
+  "captured_at": "2026-07-22T23:05:06.913447Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053502502931-How-to-Import-Crew-Members-into-SAGE",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:07 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053502502931-How-to-Import-Crew-Members-into-SAGE",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053502502931-How-to-Import-Crew-Members-into-SAGE",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053502502931-How-to-Import-Crew-Members-into-SAGE",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053502502931-How-to-Import-Crew-Members-into-SAGE",
+    "document_title": "How to Import Crew Members into SAGE? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053502502931-How-to-Import-Crew-Members-into-SAGE",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B0DF140E00EB2196.json",
+  "raw_body": {
+    "byte_length": 28932,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B0DF140E00EB2196/response-body.bin",
+    "sha256": "fcbbcc70bc57f40b68689e8c3aae432325cf58491ebaf83b69b7368baea1ecbf"
+  },
+  "raw_sha256": "fcbbcc70bc57f40b68689e8c3aae432325cf58491ebaf83b69b7368baea1ecbf",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053502502931-How-to-Import-Crew-Members-into-SAGE",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053502502931-How-to-Import-Crew-Members-into-SAGE",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:07 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-B0DF140E00EB2196",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:06.913447Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

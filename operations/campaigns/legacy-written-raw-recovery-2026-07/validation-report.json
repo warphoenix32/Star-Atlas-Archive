@@ -97,6 +97,31 @@
       "status": "PASS"
     },
     {
+      "check": "OFFICIAL_SELECTION_DETERMINISTIC",
+      "detail": "batch=official-written-family-completion-316",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_COMPLETION_RECORD_COUNT",
+      "detail": "observed=316 expected=316",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_VERIFIED_BASELINE_DISJOINT",
+      "detail": "preserved_baseline=4",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_FAMILY_SELECTION_COVERAGE",
+      "detail": "selection=316 baseline=4 family=320",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_SOURCE_SURFACE_ALLOWLIST",
+      "detail": "allowed_hosts=['api.github.com', 'build.staratlas.com', 'experience.staratlas.com', 'staratlas.com', 'support.staratlas.com']",
+      "status": "PASS"
+    },
+    {
       "check": "PILOT_LEDGERS_IMMUTABLE",
       "detail": "All four approved pilot ledger hashes match the merged baseline.",
       "status": "PASS"
@@ -207,6 +232,41 @@
       "status": "PASS"
     },
     {
+      "check": "OFFICIAL_TERMINAL_IDS",
+      "detail": "terminal_records=316 expected=316",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_RAW_BODY_CHECKSUMS",
+      "detail": "Every official-source body matches its ledger SHA-256.",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_PROVENANCE_RECONCILES",
+      "detail": "Every official-source provenance record reconciles to its batch, Source ID, and body.",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_REQUIRED_PROVENANCE_FIELDS",
+      "detail": "Every official-source response has the complete provenance field set.",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_GITHUB_IMMUTABILITY",
+      "detail": "Every GitHub README carrier resolves to a 40-character immutable commit target.",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_MANUAL_REVIEW_QUEUE",
+      "detail": "Official-source manual-review queue equals its flagged terminal records.",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_RETRY_SCOPE",
+      "detail": "attempt_records=316",
+      "status": "PASS"
+    },
+    {
       "check": "CROSS_BATCH_SOURCE_IDS_UNIQUE",
       "detail": "pilot=20 expansion=59",
       "status": "PASS"
@@ -214,6 +274,11 @@
     {
       "check": "HNN_PILOT_REPAIR_SCOPE",
       "detail": "overlap=4 expected_repairs=4",
+      "status": "PASS"
+    },
+    {
+      "check": "OFFICIAL_PILOT_REPAIR_SCOPE",
+      "detail": "overlap=1 expected_repairs=1",
       "status": "PASS"
     },
     {
@@ -228,12 +293,12 @@
     },
     {
       "check": "NO_ORPHAN_RAW_OR_PROVENANCE",
-      "detail": "declared=460 actual=460",
+      "detail": "declared=1092 actual=1092",
       "status": "PASS"
     },
     {
       "check": "ARCHIVE_MANIFEST_RECONCILES",
-      "detail": "artifact_count=460",
+      "detail": "artifact_count=1092",
       "status": "PASS"
     },
     {
@@ -243,7 +308,7 @@
     },
     {
       "check": "CAMPAIGN_SUMMARY_RECONCILES",
-      "detail": "terminal_records=231",
+      "detail": "terminal_records=546",
       "status": "PASS"
     },
     {
@@ -253,8 +318,8 @@
     }
   ],
   "failed_checks": [],
-  "passed_checks": 50,
+  "passed_checks": 63,
   "schema_version": "1.0.0",
   "status": "PASS",
-  "total_checks": 50
+  "total_checks": 63
 }

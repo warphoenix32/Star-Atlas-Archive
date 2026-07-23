@@ -1,0 +1,62 @@
+{
+  "byte_count": 26793,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:12.195214Z",
+  "captured_at": "2026-07-22T23:05:12.195214Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47053519001235-How-to-Withdraw-Crew-Members-from-SAGE",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:12 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47053519001235-How-to-Withdraw-Crew-Members-from-SAGE",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053519001235-How-to-Withdraw-Crew-Members-from-SAGE",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47053519001235-How-to-Withdraw-Crew-Members-from-SAGE",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47053519001235-How-to-Withdraw-Crew-Members-from-SAGE",
+    "document_title": "How to Withdraw Crew Members from SAGE? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47053519001235-How-to-Withdraw-Crew-Members-from-SAGE",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B43F5E2C9A505669.json",
+  "raw_body": {
+    "byte_length": 26793,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B43F5E2C9A505669/response-body.bin",
+    "sha256": "f1ce55b6881c618167d9d558ba78b6781d68c6a092f40772245dc46f47aea932"
+  },
+  "raw_sha256": "f1ce55b6881c618167d9d558ba78b6781d68c6a092f40772245dc46f47aea932",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47053519001235-How-to-Withdraw-Crew-Members-from-SAGE",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47053519001235-How-to-Withdraw-Crew-Members-from-SAGE",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:12 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-B43F5E2C9A505669",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:12.195214Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

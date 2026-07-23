@@ -1,0 +1,62 @@
+{
+  "byte_count": 38435,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:49.704023Z",
+  "captured_at": "2026-07-22T23:04:49.704023Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:49 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR",
+    "document_title": "How to Mine Resources in C4 PTR – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-952AB5D6D09DD6BF.json",
+  "raw_body": {
+    "byte_length": 38435,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-952AB5D6D09DD6BF/response-body.bin",
+    "sha256": "e3e61c2cbabfedb30b0385c7944653609d21ac74877b3d820b7fa96aae45ec7a"
+  },
+  "raw_sha256": "e3e61c2cbabfedb30b0385c7944653609d21ac74877b3d820b7fa96aae45ec7a",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:49 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-952AB5D6D09DD6BF",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:49.704023Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,68 @@
+{
+  "byte_count": 31932,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:35.292302Z",
+  "captured_at": "2026-07-22T23:05:35.292302Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems/faction-fleet",
+  "headers": {
+    "content-length": "31932",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:35 GMT",
+    "etag": "\"69e10f4e-7cbc\"",
+    "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems/faction-fleet",
+    "observed_canonical_url": null,
+    "observed_final_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems/faction-fleet",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": null,
+    "document_title": "Faction Fleet | Star Atlas Build",
+    "response_format": "HTML"
+  },
+  "original_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems/faction-fleet",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-DD0FB6FFDD5F5762.json",
+  "raw_body": {
+    "byte_length": 31932,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-DD0FB6FFDD5F5762/response-body.bin",
+    "sha256": "cacb00abdd39593427f2e0e86ec818ecaa52406b9b15b0dcc5e57ff4f9e582e9"
+  },
+  "raw_sha256": "cacb00abdd39593427f2e0e86ec818ecaa52406b9b15b0dcc5e57ff4f9e582e9",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems/faction-fleet",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://build.staratlas.com/dev-resources/on-chain-game-systems/faction-fleet",
+    "headers": {
+      "content-length": "31932",
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:35 GMT",
+      "etag": "\"69e10f4e-7cbc\"",
+      "last-modified": "Thu, 16 Apr 2026 16:33:18 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-DD0FB6FFDD5F5762",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:35.292302Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

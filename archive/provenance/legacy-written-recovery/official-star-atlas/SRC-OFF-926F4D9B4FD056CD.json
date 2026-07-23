@@ -1,0 +1,64 @@
+{
+  "byte_count": 94444,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:47.617033Z",
+  "captured_at": "2026-07-22T23:04:47.617033Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-16",
+  "headers": {
+    "content-length": "94444",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:04:47 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-16",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-16",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "The Atlas Star ✧ Issue #16 | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-16",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-926F4D9B4FD056CD.json",
+  "raw_body": {
+    "byte_length": 94444,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-926F4D9B4FD056CD/response-body.bin",
+    "sha256": "9242f8e80736efa2dbfd690ee7bf85df6186b5652634dd14d11aa773d203732a"
+  },
+  "raw_sha256": "9242f8e80736efa2dbfd690ee7bf85df6186b5652634dd14d11aa773d203732a",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-16",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/the-atlassian-newsletter/the-atlas-star-issue-16",
+    "headers": {
+      "content-length": "94444",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:04:47 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-926F4D9B4FD056CD",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:47.617033Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

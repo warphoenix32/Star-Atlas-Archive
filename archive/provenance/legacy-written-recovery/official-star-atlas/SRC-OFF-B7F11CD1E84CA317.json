@@ -1,0 +1,62 @@
+{
+  "byte_count": 29470,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:13.230554Z",
+  "captured_at": "2026-07-22T23:05:13.230554Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061462878355-How-to-Buy-ATLAS-and-POLIS-Tokens",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:05:13 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061462878355-How-to-Buy-ATLAS-and-POLIS-Tokens",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061462878355-How-to-Buy-ATLAS-and-POLIS-Tokens",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061462878355-How-to-Buy-ATLAS-and-POLIS-Tokens",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061462878355-How-to-Buy-ATLAS-and-POLIS-Tokens",
+    "document_title": "How to Buy ATLAS and POLIS Tokens – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061462878355-How-to-Buy-ATLAS-and-POLIS-Tokens",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B7F11CD1E84CA317.json",
+  "raw_body": {
+    "byte_length": 29470,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B7F11CD1E84CA317/response-body.bin",
+    "sha256": "e389278a0812e0e32ea10144a3248625aef352f4bfc8ba678758b3423082e1b5"
+  },
+  "raw_sha256": "e389278a0812e0e32ea10144a3248625aef352f4bfc8ba678758b3423082e1b5",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061462878355-How-to-Buy-ATLAS-and-POLIS-Tokens",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061462878355-How-to-Buy-ATLAS-and-POLIS-Tokens",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:05:13 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-B7F11CD1E84CA317",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:13.230554Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

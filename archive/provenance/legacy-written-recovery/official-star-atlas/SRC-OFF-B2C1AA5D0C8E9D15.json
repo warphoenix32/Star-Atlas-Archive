@@ -1,0 +1,64 @@
+{
+  "byte_count": 90376,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:05:08.669574Z",
+  "captured_at": "2026-07-22T23:05:08.669574Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/game-updates/the-metaverse-big-bang-star-atlas-launches-the-next-generation-of-nfts",
+  "headers": {
+    "content-length": "90376",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:05:08 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/game-updates/the-metaverse-big-bang-star-atlas-launches-the-next-generation-of-nfts",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/game-updates/the-metaverse-big-bang-star-atlas-launches-the-next-generation-of-nfts",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "The Metaverse Big Bang: Star Atlas Launches the Next Generation of NFTs through Galactic Asset Offering | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/game-updates/the-metaverse-big-bang-star-atlas-launches-the-next-generation-of-nfts",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-B2C1AA5D0C8E9D15.json",
+  "raw_body": {
+    "byte_length": 90376,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-B2C1AA5D0C8E9D15/response-body.bin",
+    "sha256": "dbbfcbb00d64a3163d11b8add035d14f556b112cb8e7f4aa7124d1a387ee4675"
+  },
+  "raw_sha256": "dbbfcbb00d64a3163d11b8add035d14f556b112cb8e7f4aa7124d1a387ee4675",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/game-updates/the-metaverse-big-bang-star-atlas-launches-the-next-generation-of-nfts",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/game-updates/the-metaverse-big-bang-star-atlas-launches-the-next-generation-of-nfts",
+    "headers": {
+      "content-length": "90376",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:05:08 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-B2C1AA5D0C8E9D15",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:05:08.669574Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

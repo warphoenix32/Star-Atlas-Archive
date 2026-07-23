@@ -1,0 +1,62 @@
+{
+  "byte_count": 25008,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:37.228054Z",
+  "captured_at": "2026-07-22T23:03:37.228054Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47210147319443-What-s-coming-next-for-the-Star-Atlas-UE5-Game",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:37 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47210147319443-What-s-coming-next-for-the-Star-Atlas-UE5-Game",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47210147319443-What-s-coming-next-for-the-Star-Atlas-UE5-Game",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47210147319443-What-s-coming-next-for-the-Star-Atlas-UE5-Game",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47210147319443-What-s-coming-next-for-the-Star-Atlas-UE5-Game",
+    "document_title": "What’s coming next for the Star Atlas UE5 Game? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47210147319443-What-s-coming-next-for-the-Star-Atlas-UE5-Game",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-2E975D439DBCF20C.json",
+  "raw_body": {
+    "byte_length": 25008,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-2E975D439DBCF20C/response-body.bin",
+    "sha256": "3c4daa6be4ad08e12262ad89a7ab992b54a1e34b8f3853fa078c9b0f8bcba4ce"
+  },
+  "raw_sha256": "3c4daa6be4ad08e12262ad89a7ab992b54a1e34b8f3853fa078c9b0f8bcba4ce",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47210147319443-What-s-coming-next-for-the-Star-Atlas-UE5-Game",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47210147319443-What-s-coming-next-for-the-Star-Atlas-UE5-Game",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:37 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-2E975D439DBCF20C",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:37.228054Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

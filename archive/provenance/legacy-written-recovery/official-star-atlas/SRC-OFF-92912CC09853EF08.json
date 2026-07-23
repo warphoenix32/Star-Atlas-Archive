@@ -1,0 +1,62 @@
+{
+  "byte_count": 26724,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:48.730557Z",
+  "captured_at": "2026-07-22T23:04:48.730557Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47031364775827-How-do-I-create-my-character-in-Holosim",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:04:48 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47031364775827-How-do-I-create-my-character-in-Holosim",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031364775827-How-do-I-create-my-character-in-Holosim",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47031364775827-How-do-I-create-my-character-in-Holosim",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031364775827-How-do-I-create-my-character-in-Holosim",
+    "document_title": "How do I create my character in Holosim? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47031364775827-How-do-I-create-my-character-in-Holosim",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-92912CC09853EF08.json",
+  "raw_body": {
+    "byte_length": 26724,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-92912CC09853EF08/response-body.bin",
+    "sha256": "5fa685ef4eb9c1d5f23579aa67637ca5cd37af72d2f9ea658a821a2c94e2f717"
+  },
+  "raw_sha256": "5fa685ef4eb9c1d5f23579aa67637ca5cd37af72d2f9ea658a821a2c94e2f717",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47031364775827-How-do-I-create-my-character-in-Holosim",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47031364775827-How-do-I-create-my-character-in-Holosim",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:04:48 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-92912CC09853EF08",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:48.730557Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

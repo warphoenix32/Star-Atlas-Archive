@@ -1,0 +1,64 @@
+{
+  "byte_count": 71536,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:08.165213Z",
+  "captured_at": "2026-07-22T23:04:08.165213Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-f-kit-a-bridge-to-web3-for-game-developers",
+  "headers": {
+    "content-length": "71536",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:04:08 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-f-kit-a-bridge-to-web3-for-game-developers",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-f-kit-a-bridge-to-web3-for-game-developers",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "The F-KIT: A Bridge to Web3 for Game Developers | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-f-kit-a-bridge-to-web3-for-game-developers",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-5A3F7E05FA593B9F.json",
+  "raw_body": {
+    "byte_length": 71536,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-5A3F7E05FA593B9F/response-body.bin",
+    "sha256": "d5d50eed0e97c97947bd39ea27853609f23ab9ad9611de83d8711485666f526a"
+  },
+  "raw_sha256": "d5d50eed0e97c97947bd39ea27853609f23ab9ad9611de83d8711485666f526a",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-f-kit-a-bridge-to-web3-for-game-developers",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/the-f-kit-a-bridge-to-web3-for-game-developers",
+    "headers": {
+      "content-length": "71536",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:04:08 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-5A3F7E05FA593B9F",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:08.165213Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

@@ -1,0 +1,64 @@
+{
+  "byte_count": 64154,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:04:15.697613Z",
+  "captured_at": "2026-07-22T23:04:15.697613Z",
+  "content_type": "text/html; charset=UTF-8",
+  "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/high-octane-october-star-atlas-set-to-release-player-factions-new-trailer",
+  "headers": {
+    "content-length": "64154",
+    "content-type": "text/html; charset=UTF-8",
+    "date": "Wed, 22 Jul 2026 23:04:15 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://experience.staratlas.com/newsroom/star-atlas-news/high-octane-october-star-atlas-set-to-release-player-factions-new-trailer",
+    "observed_canonical_url": "https://staratlas.com",
+    "observed_final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/high-octane-october-star-atlas-set-to-release-player-factions-new-trailer",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://staratlas.com",
+    "document_title": "High-Octane October: Star Atlas Set to Release Player Factions, New Trailer and Ships | Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://experience.staratlas.com/newsroom/star-atlas-news/high-octane-october-star-atlas-set-to-release-player-factions-new-trailer",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-678621BE1998176D.json",
+  "raw_body": {
+    "byte_length": 64154,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-678621BE1998176D/response-body.bin",
+    "sha256": "e0bd80266b0935c237dff38a550d081b009489d2bcce553ef9be0c41048f5bcc"
+  },
+  "raw_sha256": "e0bd80266b0935c237dff38a550d081b009489d2bcce553ef9be0c41048f5bcc",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://experience.staratlas.com/newsroom/star-atlas-news/high-octane-october-star-atlas-set-to-release-player-factions-new-trailer",
+    "retrieval_url_basis": "PRIOR_REQUESTED_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=UTF-8",
+    "final_url": "https://experience.staratlas.com/newsroom/star-atlas-news/high-octane-october-star-atlas-set-to-release-player-factions-new-trailer",
+    "headers": {
+      "content-length": "64154",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Wed, 22 Jul 2026 23:04:15 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-678621BE1998176D",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:04:15.697613Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

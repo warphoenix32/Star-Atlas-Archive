@@ -1,0 +1,62 @@
+{
+  "byte_count": 25930,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:29.031961Z",
+  "captured_at": "2026-07-22T23:03:29.031961Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061503229587-How-does-a-Star-Atlas-player-benefit-by-using-Jupiter-aggregator",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:29 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061503229587-How-does-a-Star-Atlas-player-benefit-by-using-Jupiter-aggregator",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061503229587-How-does-a-Star-Atlas-player-benefit-by-using-Jupiter-aggregator",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061503229587-How-does-a-Star-Atlas-player-benefit-by-using-Jupiter-aggregator",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061503229587-How-does-a-Star-Atlas-player-benefit-by-using-Jupiter-aggregator",
+    "document_title": "How does a Star Atlas player benefit by using Jupiter aggregator? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061503229587-How-does-a-Star-Atlas-player-benefit-by-using-Jupiter-aggregator",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-23BCB996AAE5DEA0.json",
+  "raw_body": {
+    "byte_length": 25930,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-23BCB996AAE5DEA0/response-body.bin",
+    "sha256": "b8d790221f56055e2d2ec05f227d7c9536cb24b9ae3b6473d978ead26fe41d8b"
+  },
+  "raw_sha256": "b8d790221f56055e2d2ec05f227d7c9536cb24b9ae3b6473d978ead26fe41d8b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061503229587-How-does-a-Star-Atlas-player-benefit-by-using-Jupiter-aggregator",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061503229587-How-does-a-Star-Atlas-player-benefit-by-using-Jupiter-aggregator",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:29 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-23BCB996AAE5DEA0",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:29.031961Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

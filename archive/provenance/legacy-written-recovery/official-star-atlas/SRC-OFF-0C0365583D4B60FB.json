@@ -1,0 +1,62 @@
+{
+  "byte_count": 27000,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:14.353902Z",
+  "captured_at": "2026-07-22T23:03:14.353902Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061468418835-How-to-Connect-a-Ledger-to-Your-Solana-Wallet",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:14 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061468418835-How-to-Connect-a-Ledger-to-Your-Solana-Wallet",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061468418835-How-to-Connect-a-Ledger-to-Your-Solana-Wallet",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061468418835-How-to-Connect-a-Ledger-to-Your-Solana-Wallet",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061468418835-How-to-Connect-a-Ledger-to-Your-Solana-Wallet",
+    "document_title": "How to Connect a Ledger to Your Solana Wallet – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061468418835-How-to-Connect-a-Ledger-to-Your-Solana-Wallet",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-0C0365583D4B60FB.json",
+  "raw_body": {
+    "byte_length": 27000,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-0C0365583D4B60FB/response-body.bin",
+    "sha256": "08fe31bb901dff6b9d6dee910a9851f16e1cca198c451e2a540043d32434b2c0"
+  },
+  "raw_sha256": "08fe31bb901dff6b9d6dee910a9851f16e1cca198c451e2a540043d32434b2c0",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061468418835-How-to-Connect-a-Ledger-to-Your-Solana-Wallet",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061468418835-How-to-Connect-a-Ledger-to-Your-Solana-Wallet",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:14 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-0C0365583D4B60FB",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:14.353902Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

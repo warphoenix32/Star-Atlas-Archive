@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- v27672 -->
+
+
+  <title>How to Create and Use a Fleet in C4 PTR &ndash; Star Atlas</title>
+
+  
+
+  <meta name="description" content="After importing your ships and resources into C4 PTR, you can create a fleet from your faction CSS and use it for actions such as..." /><meta property="og:image" content="https://support.staratlas.com/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Star Atlas" />
+<meta property="og:title" content="How to Create and Use a Fleet in C4 PTR" />
+<meta property="og:description" content="After importing your ships and resources into C4 PTR, you can create a fleet from your faction CSS and use it for actions such as movement, mining, scanning, and other fleet operations.This guide e..." />
+<meta property="og:url" content="https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR" />
+<link rel="canonical" href="https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR">
+<link rel="alternate" hreflang="en-us" href="https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR">
+<link rel="alternate" hreflang="x-default" href="https://support.staratlas.com/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR">
+
+  <link rel="stylesheet" href="//static.zdassets.com/hc/assets/application-a0388d981956f946c99f5a52a4eaf6f2.css" media="all" id="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/hc/theming_assets/25945259/46839284643731/style.css?digest=53556769366547">
+
+  <link rel="icon" type="image/x-icon" href="/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK">
+
+    
+
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<!-- Make the translated search clear button label available for use in JS -->
+<!-- See buildClearSearchButton() in script.js -->
+<script type="text/javascript">window.searchClearButtonLabelLocalized = "Clear search";</script>
+<script type="text/javascript">
+  // Load ES module polyfill only for browsers that don't support ES modules
+  if (!(HTMLScriptElement.supports && HTMLScriptElement.supports('importmap'))) {
+    document.write('<script async src="/hc/theming_assets/01KAY06KRK2EHRFAQEGJA8SA7F"><\/script>');
+  }
+</script>
+<script type="importmap">
+{
+  "imports": {
+    "new-request-form": "/hc/theming_assets/01KXGNVKKP3X1MT9CVQY4XJPDZ",
+    "request-list": "/hc/theming_assets/01KXGNVKJ17B5A2VK5GKY3KTPW",
+    "flash-notifications": "/hc/theming_assets/01KXGNVKDXQ7E6RW5E0ZX1YMVC",
+    "service-catalog": "/hc/theming_assets/01KXQYK7RJ0D5KM24TTKX2W5VE",
+    "approval-requests": "/hc/theming_assets/01KXGNVKHV47HFYPN54FFYSG11",
+    "approval-requests-translations": "/hc/theming_assets/01KXGNVKN11YG0JKGHSB8G7XV3",
+    "new-request-form-translations": "/hc/theming_assets/01KXGNVKKVV2H99MQV1HE1R5K1",
+    "request-list-translations": "/hc/theming_assets/01KXGNVKSCBMRYT3R4GGHQ7BX9",
+    "service-catalog-translations": "/hc/theming_assets/01KXGNVMJZZP1NNHB36N2CZTGF",
+    "shared": "/hc/theming_assets/01KXGNVKKVXQ4JS5G1F3HNGY3A",
+    "ticket-fields": "/hc/theming_assets/01KXGNVKM4NP6S5BKBN30QZ63H",
+    "wysiwyg": "/hc/theming_assets/01KP8ZMKQK39Z6D9DF091V2YG4"
+  }
+}
+</script>
+<script type="module">
+  import { renderFlashNotifications } from "flash-notifications";
+
+  const settings = {"brand_color":"rgba(30, 94, 134, 100)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","show_brand_name":true,"favicon":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","homepage_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","service_catalog_hero_image":"/hc/theming_assets/01KGMAMFC4RRMVYH6CJH4A3J31","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":false,"show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"show_suggested_articles":true};
+  const baseLocale = "en-us";
+
+  renderFlashNotifications(settings, baseLocale);
+</script>
+
+  
+</head>
+<body class="">
+  
+  
+  
+
+  <a class="skip-navigation" tabindex="1" href="#main-content">Skip to main content</a>
+
+<header class="header">
+  <div class="logo">
+    <a title="Home" href="/hc/en-us">
+      <img src="/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK" alt="Star Atlas Help Center home page" />
+      
+        <span aria-hidden="true">Star Atlas</span>
+      
+    </a>
+  </div>
+
+  <div class="nav-wrapper-desktop">
+    <nav class="user-nav" id="user-nav" aria-label="User navigation">
+      <ul class="user-nav-list">
+        <li></li>
+        <li></li>
+        <li><a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a></li>
+        
+          <li>
+            <a class="sign-in" role="link" rel="nofollow" data-auth-action="signin" title="Opens a dialog" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR">
+              Sign in
+            </a>
+          </li>
+        
+      </ul>
+    </nav>
+          
+    
+  </div>
+
+  <div class="nav-wrapper-mobile">
+    <button class="menu-button-mobile" aria-controls="user-nav-mobile" aria-expanded="false" aria-label="Toggle navigation menu">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
+        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
+      </svg>
+    </button>
+    <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
+      <ul class="menu-list-mobile-items">
+        
+          <li class="item">
+            <a role="link" rel="nofollow" data-auth-action="signin" title="Opens a dialog" href="/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR">
+              Sign in
+            </a>
+          </li>
+          <li class="nav-divider"></li>
+        
+       
+        <li class="item"></li>
+        <li class="item"><a class="submit-a-request" href="/hc/en-us/requests/new">Submit a request</a></li>
+        <li class="item"></li>
+        <li class="nav-divider"></li>
+        
+       
+      </ul>
+          
+    </nav>
+  </div>
+
+</header>
+
+
+  <main role="main">
+    <div class="container-divider"></div>
+<div class="container">
+  <div class="sub-nav">
+    <nav aria-label="Breadcrumb">
+  <ol class="breadcrumbs">
+    
+      <li>
+        
+          <a href="/hc/en-us">Star Atlas</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/categories/47053502053651-SAGE">SAGE</a>
+        
+      </li>
+    
+      <li>
+        
+          <a href="/hc/en-us/sections/52241893976595-C4-PTR">C4 PTR</a>
+        
+      </li>
+    
+  </ol>
+</nav>
+
+    <div class="search-container">
+      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
+        <circle cx="4.5" cy="4.5" r="4" fill="none" stroke="currentColor"/>
+        <path stroke="currentColor" stroke-linecap="round" d="M11 11L7.5 7.5"/>
+      </svg>
+      <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input type="hidden" name="utf8" value="&#x2713;" autocomplete="off" /><input type="hidden" name="category" id="category" value="47053502053651" autocomplete="off" />
+<input type="search" name="query" id="query" placeholder="Search" aria-label="Search" /></form>
+    </div>
+  </div>
+
+  <div class="article-container" id="article-container">
+    <aside class="article-sidebar" aria-labelledby="section-articles-title">
+      
+        <div class="collapsible-sidebar">
+          <button type="button" class="collapsible-sidebar-toggle" aria-labelledby="section-articles-title" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon chevron-icon">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true" class="collapsible-sidebar-toggle-icon x-icon">
+              <path stroke="currentColor" stroke-linecap="round" d="M3 9l6-6m0 6L3 3"/>
+            </svg>
+          </button>
+          <span id="section-articles-title" class="collapsible-sidebar-title sidenav-title">
+            Articles in this section
+          </span>
+          <div class="collapsible-sidebar-body">
+            <ul>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243005225363-How-to-Get-Started-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Get Started in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52244580822419-C4-PTR-Menu-Overview" 
+                     class="sidenav-item "
+                     >
+                       C4 PTR Menu Overview
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243941755923-How-to-Use-the-C4-PTR-Map" 
+                     class="sidenav-item "
+                     >
+                       How to Use the C4 PTR Map
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52243667123603-How-to-Import-Assets-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Import Assets in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR" 
+                     class="sidenav-item current-article"
+                     aria-current="page">
+                       How to Create and Use a Fleet in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52273962138771-How-to-Move-a-Fleet-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Move a Fleet in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52272891667987-How-to-Mine-Resources-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Mine Resources in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52275761937555-How-to-Scan-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Scan in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52247034465939-How-to-Set-Up-a-Claim-Stake-in-C4-PTR" 
+                     class="sidenav-item "
+                     >
+                       How to Set Up a Claim Stake in C4 PTR
+                  </a>
+                </li>
+              
+                <li>
+                  <a href="/hc/en-us/articles/52250841633811-C4-PTR-Game-and-Account-Settings-Overview" 
+                     class="sidenav-item "
+                     >
+                       C4 PTR Game and Account Settings Overview
+                  </a>
+                </li>
+              
+            </ul>
+            
+              <a href="/hc/en-us/sections/52241893976595-C4-PTR" class="article-sidebar-item">See more</a>
+            
+          </div>
+        </div>
+      
+    </aside>
+
+    <article id="main-content" class="article">
+      <header class="article-header">
+        <h1 title="How to Create and Use a Fleet in C4 PTR" class="article-title">
+          How to Create and Use a Fleet in C4 PTR
+          
+        </h1>
+
+        <div class="article-author">
+          
+          <div class="article-meta">
+            
+
+            <div class="meta-group">
+              
+                <span class="meta-data"><time datetime="2026-06-04T13:09:09Z" title="2026-06-04T13:09:09Z" data-datetime="relative">June 04, 2026 13:09</time></span>
+                <span class="meta-data">Updated</span>
+              
+            </div>
+          </div>
+        </div>
+
+        
+          <div class="article-subscribe"><div data-helper="subscribe" data-json="{&quot;item&quot;:&quot;article&quot;,&quot;url&quot;:&quot;/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR/subscription.json&quot;,&quot;follow_label&quot;:&quot;Follow&quot;,&quot;unfollow_label&quot;:&quot;Unfollow&quot;,&quot;following_label&quot;:&quot;Following&quot;,&quot;can_subscribe&quot;:true,&quot;is_subscribed&quot;:false}"></div></div>
+        
+      </header>
+
+      <section class="article-info">
+        <div class="article-content">
+          <div class="article-body"><p>After importing your ships and resources into C4 PTR, you can create a fleet from your faction CSS and use it for actions such as movement, mining, scanning, and other fleet operations.</p><p>This guide explains how to create a fleet, add ships and resources, undock it, and access its available actions.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XQKKRY0YXQFB1JB72QPKW">Before you start</h2><p>Before creating a fleet, make sure you have imported your ships and resources into C4 PTR.</p><p>If you have not done this yet, check the <a href="/hc/en-us/articles/52243005225363"><strong>How to Get Started in C4 PTR</strong></a> and <a href="/hc/en-us/articles/52243667123603"><strong>How to Import Assets in C4 PTR</strong></a> guides first.</p><p>Once your assets are imported, go to your faction CSS and enter the Starbase.</p><figure class="wysiwyg-image"><img style="aspect-ratio: 2406/1953;" src="/hc/article_attachments/52251706684563" width="2406" height="1953"></figure><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XQYJBQN5M7GKM5VSE8W6Y">Step 1: Open the Hangar</h2><p>From the Starbase menu:</p><ol>
+<li data-list-item-id="e299649c9a2424d17923d6d7254514bfb">
+<p>Click <strong>Hangar</strong>.</p>
+<figure class="wysiwyg-image"><img style="aspect-ratio: 2409/1132;" src="/hc/article_attachments/52251706687251" width="2409" height="1132"></figure>
+</li>
+<li data-list-item-id="edd4efcdcc3245b00e856b3d1862ad623">
+<p>Click <strong>Form Fleet</strong> or <strong>Create a New Fleet</strong>.</p>
+<figure class="wysiwyg-image"><img style="aspect-ratio: 2394/854;" src="/hc/article_attachments/52251721859859" width="2394" height="854"></figure>
+</li>
+</ol><p>This will open the fleet creation screen.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XR2KMQKFN0E8JE0DTZF2K">Step 2: Add ships to your fleet</h2><p>In the fleet creation screen, you can choose which ships you want to add to your new fleet.</p><p>To add ships:</p><ol>
+<li data-list-item-id="e92f410b4a6668e1a5bfcf1007c84d87b">Find the ship you want to add from the list on the right.</li>
+<li data-list-item-id="ea26c46db322dad4b14c877ae3c6b9611">Enter the quantity you want to add, or click <strong>MAX</strong>.</li>
+<li data-list-item-id="eede3ca70fd972b9ce46c3965d520bf9c">
+<p>Click <strong>Add to Fleet</strong>.</p>
+<figure class="wysiwyg-image"><img style="aspect-ratio: 850/625;" src="/hc/article_attachments/52251721860499" width="850" height="625"></figure>
+</li>
+</ol><p>The selected ships will be added to the fleet staging area.</p><p>You can repeat this process if you want to add more ships to the same fleet.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XR6VDRY5XN3Z0H2FHA4CN">Step 3: Add resources and supplies</h2><p>After adding ships, you can add resources and supplies to your fleet.</p><p>Your fleet may require different resources depending on the actions you want to perform:</p><figure class="wysiwyg-table wysiwyg-table-align-left"><table>
+<thead><tr>
+<th>Supply</th>
+<th>Used for</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><strong>Fuel Pod Fuel</strong></td>
+<td>Required for fleet movement, such as Warp and Subwarp</td>
+</tr>
+<tr>
+<td><strong>Ammo Pod Ammunition</strong></td>
+<td>Required for combat and for mining with most ships</td>
+</tr>
+<tr>
+<td><strong>Food</strong></td>
+<td>Required to mine raw resources</td>
+</tr>
+<tr>
+<td><strong>Repair Kits</strong></td>
+<td>Required for scanning, fleet repairs, and Starbase repairs</td>
+</tr>
+</tbody>
+</table></figure><blockquote><p><strong>Note:</strong> Armstrong miners do not require ammo for mining.</p></blockquote><p>&nbsp;</p><p>To add resources or supplies:</p><ol>
+<li data-list-item-id="e88839dbc3f8cb857974fbb1d122c8064">Click one of the fleet storage areas, such as <strong>Support Modules</strong> or <strong>Support Cargo Hold</strong>.</li>
+<li data-list-item-id="e6d8e5df0903d56a2b190bd3e73032418">The list on the right will update and show available resources instead of ships.</li>
+<li data-list-item-id="e289a14b7865b6d818efd80ae593573f8">Find the resource you want to add.</li>
+<li data-list-item-id="e562f628063a2b0fede74caaf3ef65ecd">Enter a quantity or click <strong>MAX</strong>.</li>
+<li data-list-item-id="e94bfafee4726198ae371c05faa0e17b7">Click <strong>Add to Fleet</strong>.</li>
+</ol><p>Be careful when selecting fuel or ammunition. Some resources have different versions depending on where they are stored.</p><p>For example:</p><ul>
+<li data-list-item-id="ea519ed03f7d0d6c12f3606965f7314f7">
+<strong>Fuel - Fuel Pod</strong> is used for fleet movement.</li>
+<li data-list-item-id="e9ff8a8848e2babcfad9cd06fd9e86e79">
+<strong>Fuel -&nbsp;Cargo Hold</strong> is stored as cargo and is not used the same way for flight.</li>
+<li data-list-item-id="e2b6ded093b3e4a7fc678f976cba87fa4">
+<strong>Ammunition -&nbsp;Ammo Pod</strong> is used for combat and mining with most ships.</li>
+<li data-list-item-id="eb9f56be82b2c55e22cbc2cd05454ce8d">
+<strong>Ammunition -&nbsp;Cargo Hold</strong> is stored as cargo and is not used the same way for combat or mining.</li>
+</ul><p>Make sure you add the correct version for the action you want your fleet to perform.</p><figure class="wysiwyg-image"><img style="aspect-ratio: 2399/874;" src="/hc/article_attachments/52251706690323" width="2399" height="874"></figure><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XRBA6QJBYC66MPP18H8JR">Important: choose the correct fuel and ammunition type</h2><p>Some resources may have different versions depending on where they are stored or how they are used.</p><p>For example:</p><ul>
+<li data-list-item-id="e8f58a1c9fd66fe1555b84cc2fde97ae4">
+<strong>Ammunition - Ammo Pod</strong> can be used for combat.</li>
+<li data-list-item-id="e523c38c0ea5bb639553da61c67cbd54d">
+<strong>Ammunition - Cargo Hold</strong> is stored in the cargo hold and cannot be used for combat.</li>
+<li data-list-item-id="e2329f1957e84b3595cd798cb86a9e852">
+<strong>Fuel - Fuel Pod</strong> is used as fleet fuel.</li>
+<li data-list-item-id="e8de1cc3c66c40a77fa69208b3e96dd67">
+<strong>Fuel - Cargo Hold</strong> is stored in the cargo hold and is not used the same way as Fuel Pod fuel.</li>
+</ul><p>Be careful when adding fuel or ammunition to your fleet. If you place the wrong type in the wrong storage area, it may not be usable for the action you want to perform.</p><figure class="wysiwyg-image"><img style="aspect-ratio: 788/607;" src="/hc/article_attachments/52251706691347" width="788" height="607"></figure><hr><p>&nbsp;</p><h2 id="h_01KT4XRHDKW3YP3DPMK70P8N5T">Step 4: Form the fleet</h2><p>Once you have selected the ships and resources you want to add:</p><ol>
+<li data-list-item-id="e1c5264a6a3cfcc72480b961c5fb41500">Review the fleet staging area.</li>
+<li data-list-item-id="e9fdbf7c1d5a367b9b26c0c8b2ad23468">Make sure your ships, supplies, crew, and resources are correct.</li>
+<li data-list-item-id="e2368cdcc4c7b0bcce8eab02f4877f1d0">
+<p>Click <strong>Form Fleet</strong>.</p>
+<p><img src="/hc/article_attachments/52251721863187" width="536" height="259"></p>
+</li>
+</ol><p>Your fleet will now be created.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XRNZGTTN0VWRQJQ6SXBSB">Step 5: Undock your fleet</h2><p>After the fleet is created, it will appear in the Hangar view.</p><p>To start using it:</p><ol>
+<li data-list-item-id="ec3195441a0bddb469c6638df9c2da563">Select the fleet from the Hangar.</li>
+<li data-list-item-id="e5aa96f02fe8401f5dacc8dd568958e8d">
+<p>Click <strong>Undock</strong>.</p>
+<p><img src="/hc/article_attachments/52251706692627" width="2391" height="1757"></p>
+</li>
+<li data-list-item-id="ec1e52dec70787c3f2d8df04da7de4e9a">Wait for the fleet to undock.</li>
+</ol><p>Once the fleet is undocked, you can close the Starbase and Hangar menus.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XRT8ET83GPHXAD19K92TQ">Step 6: Access your fleet from the map</h2><p>You can access your fleet from the main map.</p><p>To find it:</p><ol>
+<li data-list-item-id="e6f941826c4bf993e7fa9d1f9bfd5e720">
+<p>Open the <strong>My Fleets</strong> menu from the top menu bar.</p>
+<p><img src="/hc/article_attachments/52251721864339" width="1000" height="718"></p>
+</li>
+<li data-list-item-id="e5ef9a615c96a54f3aab29929dd5c4ed3">Select the fleet you want to use.</li>
+</ol><p>This will open the fleet view on the left side of the screen.</p><figure class="wysiwyg-image"><img style="aspect-ratio: 652/1086;" src="/hc/article_attachments/52251721864979" width="652" height="1086"></figure><p>From this view, you can see the fleet’s status, supplies, cargo, and available actions.</p><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XRYMK6J8KRQ6DJXVAQ3GE">Step 7: Use fleet actions</h2><p>Once your fleet is selected, you can use the available fleet actions.</p><p>Depending on the fleet and its current state, available actions may include:</p><ul>
+<li data-list-item-id="edc034409d582743b45a11bcb34192dae">Dock</li>
+<li data-list-item-id="e113f37e743c50edbe88d52cd5ab36ad7">Warp</li>
+<li data-list-item-id="eae3c00b39c7a07475509c75ab1a21f41">Subwarp</li>
+<li data-list-item-id="e14aaa60281d9f6d740833eade3d7c69c">Warp Gate</li>
+<li data-list-item-id="ec33bb5850c12f6e5da0e3061ee9074fc">Repair Base</li>
+<li data-list-item-id="e51a82f5c6a394ea5ba32ef63a2361f38">Repair Fleet</li>
+<li data-list-item-id="e957801d99a8718eed436716181bc30aa">Destruct</li>
+<li data-list-item-id="ea4711481150cde1378c797fae2a670d9">Mine</li>
+<li data-list-item-id="e335a243e0cd60c5723b764785890fb3b">Scan</li>
+</ul><p>&nbsp;</p><hr><p>&nbsp;</p><h2 id="h_01KT4XS2PA1P0EADEAC2FY7QKY">Summary</h2><p>To create a fleet in C4 PTR:</p><ol>
+<li data-list-item-id="eec4273e5ea0b96b2f1b7240ccc2ffb07">Import your ships and resources.</li>
+<li data-list-item-id="ea5d9fe763912db68456014d8e517048f">Go to your faction CSS.</li>
+<li data-list-item-id="ea1bb93240ccc6caf058be7d599cf8618">Enter the Starbase.</li>
+<li data-list-item-id="ee901521fc16f74df2890c8b127c46628">Open <strong>Hangar</strong>.</li>
+<li data-list-item-id="e8192ae985f9502fdc1c19c497e92fe46">Click <strong>Form Fleet</strong> or <strong>Create a New Fleet</strong>.</li>
+<li data-list-item-id="e8d979dddae39e416c266db0d09e0d82a">Add ships to the fleet.</li>
+<li data-list-item-id="eafa270654b8e8e03f5f238ff0363098e">Add the resources or supplies you need.</li>
+<li data-list-item-id="e3f2efab186517a65b092629fbb062550">Make sure fuel and ammunition are added in the correct form.</li>
+<li data-list-item-id="e24c205dca4b5f208708c9483ca772feb">Click <strong>Form Fleet</strong>.</li>
+</ol></div>
+
+          
+
+          
+        </div>
+      </section>
+
+      <footer>
+        <div class="article-footer">
+          
+            <div class="article-share">
+  <ul class="share">
+    <li>
+      <a href="https://www.facebook.com/share.php?title=How+to+Create+and+Use+a+Fleet+in+C4+PTR&u=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR" class="share-facebook" aria-label="Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on Facebook">
+          <path fill="currentColor" d="M6 0a6 6 0 01.813 11.945V7.63h1.552l.244-1.585H6.812v-.867c0-.658.214-1.242.827-1.242h.985V2.55c-.173-.024-.538-.075-1.23-.075-1.444 0-2.29.767-2.29 2.513v1.055H3.618v1.585h1.484v4.304A6.001 6.001 0 016 0z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/share?lang=en&text=How+to+Create+and+Use+a+Fleet+in+C4+PTR&url=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR" class="share-twitter" aria-label="X Corp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on X Corp">
+          <path fill="currentColor" d="M.0763914 0 3.60864 0 6.75369 4.49755 10.5303 0 11.6586 0 7.18498 5.11431 12 12 8.46775 12 5.18346 7.30333 1.12825 12 0 12 4.7531 6.6879z"/>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&source=ATMTA%2C+Inc.&title=How+to+Create+and+Use+a+Fleet+in+C4+PTR&url=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR" class="share-linkedin" aria-label="LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" aria-label="Share this page on LinkedIn">
+          <path fill="currentColor" d="M10.8 0A1.2 1.2 0 0112 1.2v9.6a1.2 1.2 0 01-1.2 1.2H1.2A1.2 1.2 0 010 10.8V1.2A1.2 1.2 0 011.2 0h9.6zM8.09 4.356a1.87 1.87 0 00-1.598.792l-.085.133h-.024v-.783H4.676v5.727h1.778V7.392c0-.747.142-1.47 1.068-1.47.913 0 .925.854.925 1.518v2.785h1.778V7.084l-.005-.325c-.05-1.38-.456-2.403-2.13-2.403zm-4.531.142h-1.78v5.727h1.78V4.498zm-.89-2.846a1.032 1.032 0 100 2.064 1.032 1.032 0 000-2.064z"/>
+        </svg>
+      </a>
+    </li>
+  </ul>
+
+</div>
+          
+          
+        </div>
+        
+          <div class="article-votes">
+            <h2 class="article-votes-question" id="article-votes-label">Was this article helpful?</h2>
+            <div class="article-votes-controls" role="group" aria-labelledby="article-votes-label">
+              <button type="button" class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="52251721868563" data-upvote-count="1" data-vote-count="2" data-vote-sum="0" data-vote-url="/hc/en-us/articles/52251721868563/vote" data-value="null" data-label="1 out of 2 found this helpful" data-selected-class="button-primary" data-as="button" aria-label="This article was helpful" aria-pressed="false">Yes</button>
+              <button type="button" class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="52251721868563" data-upvote-count="1" data-vote-count="2" data-vote-sum="0" data-vote-url="/hc/en-us/articles/52251721868563/vote" data-value="null" data-label="1 out of 2 found this helpful" data-selected-class="button-primary" data-as="button" aria-label="This article was not helpful" aria-pressed="false">No</button>
+            </div>
+            <small class="article-votes-count">
+              <span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="52251721868563" data-upvote-count="1" data-vote-count="2" data-vote-sum="0" data-vote-url="/hc/en-us/articles/52251721868563/vote" data-value="null" data-label="1 out of 2 found this helpful">1 out of 2 found this helpful</span>
+            </small>
+          </div>
+        
+
+        <div class="article-more-questions">
+          Have more questions? <a href="/hc/en-us/requests/new">Submit a request</a>
+        </div>
+        <div class="article-return-to-top">
+          <a href="#article-container">
+            Return to top
+            <svg xmlns="http://www.w3.org/2000/svg" class="article-return-to-top-icon" width="20" height="20" focusable="false" viewBox="0 0 12 12" aria-hidden="true">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
+            </svg>
+          </a>
+        </div>
+      </footer>
+
+      <div class="article-relatives">
+        
+          <div data-recent-articles></div>
+        
+        
+          
+  <section class="related-articles">
+    
+      <h2 class="related-articles-title">Related articles</h2>
+    
+    <ul>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJO88fqKLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBMlUs2FLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJEL2hjL2VuLXVzL2FydGljbGVzLzUyMjczOTYyMTM4NzcxLUhvdy10by1Nb3ZlLWEtRmxlZXQtaW4tQzQtUFRSBjsIVDoJcmFua2kG--cea1de785d436a0e7bbd797995fd0c15e010008d" rel="nofollow">How to Move a Fleet in C4 PTR</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJMO7rWELzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBMlUs2FLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJML2hjL2VuLXVzL2FydGljbGVzLzUyMjQ3MDM0NDY1OTM5LUhvdy10by1TZXQtVXAtYS1DbGFpbS1TdGFrZS1pbi1DNC1QVFIGOwhUOglyYW5raQc%3D--c523eb5297dc315d6546440ec21fd16d4d7e4e9f" rel="nofollow">How to Set Up a Claim Stake in C4 PTR</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCJO5xMWDLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBMlUs2FLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJDL2hjL2VuLXVzL2FydGljbGVzLzUyMjQzMDA1MjI1MzYzLUhvdy10by1HZXQtU3RhcnRlZC1pbi1DNC1QVFIGOwhUOglyYW5raQg%3D--fffe5ef6c174f9cf958c168accb1dd45bf28bc64" rel="nofollow">How to Get Started in C4 PTR</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBOmI7uKLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBMlUs2FLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJGL2hjL2VuLXVzL2FydGljbGVzLzUyMjcyODkxNjY3OTg3LUhvdy10by1NaW5lLVJlc291cmNlcy1pbi1DNC1QVFIGOwhUOglyYW5raQk%3D--4d6d50395f2a7a8af7d5d7502ef0ce884c1dcdc1" rel="nofollow">How to Mine Resources in C4 PTR</a>
+        </li>
+      
+        <li>
+          <a href="/hc/en-us/related/click?data=BAh7CjobZGVzdGluYXRpb25fYXJ0aWNsZV9pZGwrCBMMl%2F2DLzoYcmVmZXJyZXJfYXJ0aWNsZV9pZGwrCBMlUs2FLzoLbG9jYWxlSSIKZW4tdXMGOgZFVDoIdXJsSSJAL2hjL2VuLXVzL2FydGljbGVzLzUyMjQzOTQxNzU1OTIzLUhvdy10by1Vc2UtdGhlLUM0LVBUUi1NYXAGOwhUOglyYW5raQo%3D--057ca1e51375dac1a6e8e3da802fc6d436c7d8a9" rel="nofollow">How to Use the C4 PTR Map</a>
+        </li>
+      
+    </ul>
+  </section>
+
+
+        
+      </div>
+      
+    </article>
+  </div>
+</div>
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-inner">
+    <a title="Home" href="/hc/en-us">Star Atlas</a>
+
+    <div class="footer-language-selector">
+      
+    </div>
+  </div>
+</footer>
+
+
+    <div class="powered-by-zendesk">
+  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" focusable="false" viewBox="0 0 26 26">
+    <path d="M12 8.2v14.5H0zM12 3c0 3.3-2.7 6-6 6S0 6.3 0 3h12zm2 19.7c0-3.3 2.7-6 6-6s6 2.7 6 6H14zm0-5.2V3h12z" />
+  </svg>
+
+  <a target="_blank" rel="nofollow" href="https://www.zendesk.com/service/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=ATMTA%2C+Inc.">Powered by Zendesk</a>
+</div>
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.610c6add50f51647f886.js"></script>
+  
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"atmta","environment":"production","name":"ATMTA, Inc."};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":"","role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":null,"shared_csrf_token":null},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCBMlUs2FLzoKX21ldGF7DDoPYWNjb3VudF9pZGkEq+SLAToTaGVscF9jZW50ZXJfaWRsKwgTG7GhmSo6DWJyYW5kX2lkbCsIkzfsnpkqOgx1c2VyX2lkMDoTdXNlcl9yb2xlX25hbWVJIg5BTk9OWU1PVVMGOwZUOwBJIgplbi11cwY7BlQ6GmFub255bW91c190cmFja2luZ19pZDA=--10f80e7b2c89e99a4281b4c1f62a2c90cdd8ecee","url":"https://support.staratlas.com/hc/activity"},"current_record_id":"52251721868563","current_record_url":"/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR","current_record_title":"How to Create and Use a Fleet in C4 PTR","current_text_direction":"ltr","current_brand_id":46839284643731,"current_brand_name":"ATMTA, Inc.","current_brand_url":"https://atmta.zendesk.com","current_brand_active":true,"current_path":"/hc/en-us/articles/52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR","show_autocomplete_breadcrumbs":true,"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":true,"has_multi_language_help_center":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_help_center_auth_enabled":false,"embeddables_connect_ipms":false},"answer_bot_subdomain":"static","gather_plan_state":"not_started","has_article_verification":false,"has_gather":false,"has_ckeditor":true,"has_community_enabled":false,"has_community_badges":false,"has_community_post_content_tagging":false,"has_gather_content_tags":false,"has_guide_content_tags":false,"has_user_segments":false,"has_answer_bot_web_form_enabled":false,"has_garden_modals":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd80709-2-preview","is_preview":false,"has_search_settings_in_plan":true,"theming_api_version":4,"theming_settings":{"brand_color":"rgba(30, 94, 134, 100)","brand_text_color":"#FFFFFF","text_color":"#2F3941","link_color":"#1F73B7","hover_link_color":"#0F3554","visited_link_color":"#9358B0","background_color":"#FFFFFF","heading_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","text_font":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif","logo":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","show_brand_name":true,"favicon":"/hc/theming_assets/01KBFY17571TWEE0W5DCJ76SMK","homepage_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_background_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","community_image":"/hc/theming_assets/01KC6ZXAPRXWSRPCFEH0JTCNSQ","service_catalog_hero_image":"/hc/theming_assets/01KGMAMFC4RRMVYH6CJH4A3J31","instant_search":true,"scoped_kb_search":true,"scoped_community_search":true,"show_recent_activity":false,"show_articles_in_section":true,"show_article_author":false,"show_article_comments":false,"show_follow_article":true,"show_recently_viewed_articles":true,"show_related_articles":true,"show_article_sharing":true,"show_follow_section":true,"show_follow_post":true,"show_post_sharing":true,"show_follow_topic":true,"show_suggested_articles":true},"has_pci_credit_card_custom_field":false,"help_center_restricted":false,"is_assuming_someone_else":false,"flash_messages":[],"user_photo_editing_enabled":true,"user_preferred_locale":"en-us","base_locale":"en-us","login_url":"https://atmta.zendesk.com/access?locale=en-us\u0026brand_id=46839284643731\u0026return_to=https%3A%2F%2Fsupport.staratlas.com%2Fhc%2Fen-us%2Farticles%2F52251721868563-How-to-Create-and-Use-a-Fleet-in-C4-PTR","has_alternate_templates":false,"has_custom_statuses_enabled":true,"has_hc_generative_answers_setting_enabled":true,"has_suggested_initial_questions_enabled":false,"has_contentful_eap":false,"has_contentful_eap_eligible":false,"has_pdf_ingestion_eap":true,"has_pdf_ingestion_eap_eligible":true,"has_guide_saas_management":false,"has_guide_service_catalog":false,"has_service_catalog_search_poc":true,"has_service_catalog_multibranding":false,"has_csat_reverse_2_scale_in_mobile":false,"has_trial_presumptive_setup":true,"has_unified_navigation":true,"has_unified_navigation_eap_access":true,"has_knowledge_locale_display_names":false,"has_csat_bet365_branding":false,"has_csat_theming_integration_phase_1":false,"has_help_center_gen_search_follow_up_conversation":true,"chat_page_renderable":false,"version":"v27672","dev_mode":false};
+</script>
+
+  
+  
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-ecaf548e810f58e1237b832da9e68f06.js"></script>
+  <script type="text/javascript" src="/hc/theming_assets/25945259/46839284643731/script.js?digest=53556769366547"></script>
+  
+</body>
+</html>

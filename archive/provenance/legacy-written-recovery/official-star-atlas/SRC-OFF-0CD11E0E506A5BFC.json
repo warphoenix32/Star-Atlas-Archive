@@ -1,0 +1,62 @@
+{
+  "byte_count": 27375,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:15.327975Z",
+  "captured_at": "2026-07-22T23:03:15.327975Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47061431907475-How-to-Transfer-a-Solana-Wallet-or-Address-to-Another-Wallet",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:15 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47061431907475-How-to-Transfer-a-Solana-Wallet-or-Address-to-Another-Wallet",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061431907475-How-to-Transfer-a-Solana-Wallet-or-Address-to-Another-Wallet",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47061431907475-How-to-Transfer-a-Solana-Wallet-or-Address-to-Another-Wallet",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47061431907475-How-to-Transfer-a-Solana-Wallet-or-Address-to-Another-Wallet",
+    "document_title": "How to Transfer a Solana Wallet or Address to Another Wallet – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47061431907475-How-to-Transfer-a-Solana-Wallet-or-Address-to-Another-Wallet",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-0CD11E0E506A5BFC.json",
+  "raw_body": {
+    "byte_length": 27375,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-0CD11E0E506A5BFC/response-body.bin",
+    "sha256": "e562ad4b08f7f40d510a25bd203843828c27196145d37068dd2791be2651c2fc"
+  },
+  "raw_sha256": "e562ad4b08f7f40d510a25bd203843828c27196145d37068dd2791be2651c2fc",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47061431907475-How-to-Transfer-a-Solana-Wallet-or-Address-to-Another-Wallet",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47061431907475-How-to-Transfer-a-Solana-Wallet-or-Address-to-Another-Wallet",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:15 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-0CD11E0E506A5BFC",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:15.327975Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}

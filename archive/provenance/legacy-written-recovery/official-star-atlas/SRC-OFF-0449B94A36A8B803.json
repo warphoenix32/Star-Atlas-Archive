@@ -1,0 +1,62 @@
+{
+  "byte_count": 26233,
+  "campaign_id": "legacy-written-raw-recovery-2026-07",
+  "capture_utc": "2026-07-22T23:03:09.289905Z",
+  "captured_at": "2026-07-22T23:03:09.289905Z",
+  "content_type": "text/html; charset=utf-8",
+  "final_url": "https://support.staratlas.com/hc/en-us/articles/47031385752211-What-is-zATLAS-in-Holosim",
+  "headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Wed, 22 Jul 2026 23:03:09 GMT"
+  },
+  "http_status": 200,
+  "identity_comparison": {
+    "expected_url": "https://support.staratlas.com/hc/en-us/articles/47031385752211-What-is-zATLAS-in-Holosim",
+    "observed_canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031385752211-What-is-zATLAS-in-Holosim",
+    "observed_final_url": "https://support.staratlas.com/hc/en-us/articles/47031385752211-What-is-zATLAS-in-Holosim",
+    "reasons": [
+      "EXPECTED_URL_MATCHES_OBSERVED_URL"
+    ],
+    "status": "MATCH"
+  },
+  "manual_review_required": false,
+  "observed_document": {
+    "canonical_url": "https://support.staratlas.com/hc/en-us/articles/47031385752211-What-is-zATLAS-in-Holosim",
+    "document_title": "What is zATLAS in Holosim? – Star Atlas",
+    "response_format": "HTML"
+  },
+  "original_url": "https://support.staratlas.com/hc/en-us/articles/47031385752211-What-is-zATLAS-in-Holosim",
+  "provenance_path": "archive/provenance/legacy-written-recovery/official-star-atlas/SRC-OFF-0449B94A36A8B803.json",
+  "raw_body": {
+    "byte_length": 26233,
+    "path": "archive/raw/legacy-written-recovery/official-star-atlas/SRC-OFF-0449B94A36A8B803/response-body.bin",
+    "sha256": "470eb7c342cac75b4e8fd5b825d473e1013481f73add93f4e6c1ed033842c59b"
+  },
+  "raw_sha256": "470eb7c342cac75b4e8fd5b825d473e1013481f73add93f4e6c1ed033842c59b",
+  "redirect_chain": [],
+  "request": {
+    "method": "GET",
+    "public_unauthenticated_http": true,
+    "retrieval_url": "https://support.staratlas.com/hc/en-us/articles/47031385752211-What-is-zATLAS-in-Holosim",
+    "retrieval_url_basis": "PRIOR_FINAL_URL",
+    "user_agent": "StarAtlasArchive-RawRecovery/1.0 (+https://github.com/warphoenix32/Star-Atlas-Archive)"
+  },
+  "response": {
+    "content_type": "text/html; charset=utf-8",
+    "final_url": "https://support.staratlas.com/hc/en-us/articles/47031385752211-What-is-zATLAS-in-Holosim",
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "date": "Wed, 22 Jul 2026 23:03:09 GMT"
+    },
+    "http_status": 200,
+    "redirect_chain": []
+  },
+  "retrieval_batch_id": "official-written-family-completion-316",
+  "retrieval_tier": "EXACT_PUBLIC_LIVE_CANONICAL",
+  "schema_version": "1.0.0",
+  "snapshot_timestamp_or_git_sha": null,
+  "source_family": "official-star-atlas",
+  "source_id": "SRC-OFF-0449B94A36A8B803",
+  "temporal_qualifier": "LIVE_RECAPTURE_2026-07-22T23:03:09.289905Z;NOT_PUBLICATION_DATE_BYTES",
+  "terminal_disposition": "CAPTURED_LIVE"
+}
