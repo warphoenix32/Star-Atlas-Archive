@@ -27,8 +27,15 @@
       "dependency_id": "DEP-004",
       "from": "Economic report ingestion",
       "to": "ingestion/economic-reports-2022q2-2026q2",
-      "status": "CLASSIFIED_DEFERRED_TO_PHASE_2",
-      "reason": "The branch is a 17-URL discovery seed, not a conforming ingestion campaign; do not merge it directly."
+      "status": "SATISFIED_SUPERSEDED_BY_PR57",
+      "reason": "The operator-provided 18-PDF campaign preserves all seventeen quarterly periods through Q2 2026 plus the economics paper; the stale branch is not needed."
+    },
+    {
+      "dependency_id": "DEP-005",
+      "from": "Phase 3",
+      "to": "Phase 2",
+      "status": "SATISFIED",
+      "reason": "Phase 2 is complete. Artifact-dependent Discord and transcript gaps remain explicit, non-blocking backlog items."
     }
   ]
 }

@@ -291,6 +291,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/README.md",
             "operations/coverage/",
             "operations/programs/library-roadmap/",
+            "operations/campaigns/phase-2-official-freshness-closeout-2026-07/",
             "operations/campaigns/knowledge-narrative-depth-001/validate_campaign.py",
             "operations/campaigns/knowledge-narrative-depth-001/validation-report.json",
             "operations/campaigns/knowledge-narrative-depth-001/validation-report.md",
@@ -769,10 +770,22 @@ def validate_phase_one_inventory() -> None:
     if first != second:
         differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
         raise ValidationFailure("Phase 1 inventory output is not deterministic: " + ", ".join(differing))
+    closeout = ROOT / "operations/campaigns/phase-2-official-freshness-closeout-2026-07"
+    closeout_command = [sys.executable, str(closeout / "validate_campaign.py")]
+    closeout_first = run_cycle(closeout_command, closeout, {"validate_campaign.py"})
+    closeout_second = run_cycle(closeout_command, closeout, {"validate_campaign.py"})
+    if closeout_first != closeout_second:
+        differing = sorted(
+            path
+            for path in set(closeout_first) | set(closeout_second)
+            if closeout_first.get(path) != closeout_second.get(path)
+        )
+        raise ValidationFailure("Phase 2 closeout validation is not deterministic: " + ", ".join(differing))
     diff = run(
         "git", "diff", "--exit-code", "--",
         str(coverage.relative_to(ROOT)),
         str(program.relative_to(ROOT)),
+        str(closeout.relative_to(ROOT)),
         "publication/site/assets/library-index.json",
     )
     if diff.returncode:

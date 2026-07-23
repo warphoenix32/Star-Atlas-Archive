@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "campaign_id": "phase-2-official-freshness-closeout-2026-07",
+  "captured_at": "2026-07-22T23:30:00Z",
+  "mode": "READ_ONLY_DISCOVERY_QUEUE_ONLY",
+  "repository_baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
+  "surfaces": [
+    {
+      "surface_id": "OFFICIAL-NEWSROOM",
+      "url": "https://experience.staratlas.com/newsroom",
+      "method": "PUBLIC_HTML_ANCHOR_INVENTORY",
+      "observed_bytes": 199188,
+      "observed_content_links": 101,
+      "unmatched_article_candidates": 0,
+      "non_article_unmatched_links": [
+        "https://experience.staratlas.com/newsroom/news#test",
+        "https://experience.staratlas.com/newsroom/press-kit"
+      ],
+      "latest_visible_item": {
+        "title": "Vimeo video test (staged)",
+        "visible_date": "2026-07-21",
+        "repository_disposition": "ALREADY_PRESERVED_STAGED_TEST",
+        "source_id": "SRC-OFF-35BD997A8113B07D"
+      },
+      "disposition": "NO_NEW_WRITTEN_PUBLICATION_CANDIDATE",
+      "limitations": [
+        "The newsroom interface contains staged/test entries and navigation links.",
+        "The observed page is a current live view, not a complete historical publication proof."
+      ]
+    },
+    {
+      "surface_id": "OFFICIAL-SUPPORT",
+      "url": "https://support.staratlas.com/api/v2/help_center/en-us/articles.json",
+      "method": "PUBLIC_ZENDESK_API_PAGINATION",
+      "pages_queried": 2,
+      "articles_observed": 167,
+      "latest_updated_at": "2026-06-16T21:15:34Z",
+      "unmatched_article_candidates": 0,
+      "disposition": "NO_NEW_CANDIDATE",
+      "limitations": [
+        "The check covers the current English-language public article API.",
+        "Deleted articles and other locales require separate archive discovery."
+      ]
+    },
+    {
+      "surface_id": "OFFICIAL-GOVERNANCE",
+      "url": "https://govern.staratlas.com/proposals",
+      "method": "PUBLIC_HTML_AND_BOUNDED_SEARCH",
+      "observed_bytes": 31506,
+      "highest_preserved_pip": 33,
+      "pip_34_observed": false,
+      "unmatched_article_candidates": 0,
+      "disposition": "NO_NEW_CANDIDATE_WITH_LIMITED_VISIBILITY",
+      "limitations": [
+        "The proposal list is client-rendered and was not exposed in the unauthenticated HTML.",
+        "Absence of PIP-34 from the bounded public check is not proof that no newer governance record exists."
+      ]
+    },
+    {
+      "surface_id": "OFFICIAL-MEDIUM",
+      "url": "https://medium.com/feed/star-atlas",
+      "method": "PUBLIC_RSS_RECENCY_CHECK",
+      "rss_items_observed": 10,
+      "latest_published_at": "2025-10-10T17:57:51Z",
+      "unmatched_article_candidates": 0,
+      "disposition": "NO_NEW_CANDIDATE",
+      "limitations": [
+        "RSS is recent-item oriented and is not a publication-completeness authority.",
+        "The preserved campaign contains 181 confirmed articles; publication discovery remains incomplete."
+      ]
+    },
+    {
+      "surface_id": "OFFICIAL-X",
+      "url": "https://x.com/staratlas",
+      "method": "PUBLIC_PROFILE_STRUCTURED_HTML_RECENT_SLICE",
+      "profile_posts_reported": 9544,
+      "recent_profile_entries_observed": 20,
+      "new_official_post_candidates": 9,
+      "latest_candidate_published_at": "2026-07-22T22:00:02Z",
+      "disposition": "NEW_CANDIDATES_QUEUED",
+      "limitations": [
+        "Only the public profile's bounded recent slice was compared.",
+        "A complete export is still required for account history and deterministic ongoing collection.",
+        "One visible Aephia repost was observed but not queued as a new Star Atlas-authored post."
+      ]
+    },
+    {
+      "surface_id": "OFFICIAL-DISCORD",
+      "url": "https://discord.com/invite/staratlas",
+      "method": "PUBLIC_INVITE_METADATA_CHECK",
+      "official_server_identity_visible": true,
+      "message_history_visible": false,
+      "unmatched_message_candidates": 0,
+      "disposition": "CHECK_LIMITED_NATIVE_EXPORT_REQUIRED",
+      "limitations": [
+        "The public invite confirms server identity but exposes no channel or message history.",
+        "Additional channel coverage and native identifiers require privacy-reviewed exports."
+      ]
+    },
+    {
+      "surface_id": "OFFICIAL-GITHUB",
+      "url": "https://api.github.com/orgs/staratlasmeta/repos?per_page=100&sort=updated",
+      "method": "PUBLIC_GITHUB_API_ORGANIZATION_INVENTORY",
+      "repositories_observed": 43,
+      "new_or_updated_repository_candidates": 1,
+      "candidate": {
+        "repository": "staratlasmeta/atlasnet-explorer",
+        "description": "Explorer for Atlasnet clusters",
+        "created_at": "2024-09-03T11:06:35Z",
+        "pushed_at": "2026-07-21T21:36:57Z",
+        "latest_commit_sha": "c1e4f69c7d57a11ad065eaeb7144443f66736a67",
+        "latest_commit_message": "Merge pull request #14 from staratlasmeta/fix/flavor-pwa-icons-20260721",
+        "repository_present_in_archive": false
+      },
+      "disposition": "NEW_CANDIDATE_QUEUED",
+      "limitations": [
+        "Repository metadata changes do not necessarily imply new documentary evidence.",
+        "A later acquisition campaign must select an immutable commit and define documentation scope."
+      ]
+    }
+  ]
+}

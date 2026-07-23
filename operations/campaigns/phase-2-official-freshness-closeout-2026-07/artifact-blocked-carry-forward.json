@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "campaign_id": "phase-2-official-freshness-closeout-2026-07",
+  "phase_2_blocking_count": 0,
+  "items": [
+    {
+      "gap_id": "GAP-DISCORD-CHANNELS",
+      "required_artifact": "Privacy-reviewed native exports for additional Star Atlas Discord channels",
+      "status": "DEFERRED_MISSING_OPERATOR_ARTIFACT",
+      "phase_3_effect": "NON_BLOCKING"
+    },
+    {
+      "gap_id": "GAP-DISCORD-NATIVE-IDS",
+      "required_artifact": "Export retaining server, channel, message, author IDs, and timezone offsets",
+      "status": "DEFERRED_MISSING_OPERATOR_ARTIFACT",
+      "phase_3_effect": "NON_BLOCKING"
+    },
+    {
+      "gap_id": "GAP-ATLAS-BREW-METADATA",
+      "required_artifact": "Authoritative 123-episode video ID, URL, and publication-date mapping",
+      "status": "DEFERRED_MISSING_OPERATOR_ARTIFACT",
+      "phase_3_effect": "NON_BLOCKING"
+    },
+    {
+      "gap_id": "GAP-OFFICIAL-TRANSCRIPT-METADATA",
+      "required_artifact": "Program inventories or source URLs for all 36 supplied official transcripts",
+      "status": "DEFERRED_MISSING_OPERATOR_ARTIFACT",
+      "phase_3_effect": "NON_BLOCKING"
+    },
+    {
+      "gap_id": "GAP-HNN-TRANSCRIPT-METADATA",
+      "required_artifact": "Authoritative 85-source episode map or channel inventory",
+      "status": "DEFERRED_MISSING_OPERATOR_ARTIFACT",
+      "phase_3_effect": "NON_BLOCKING"
+    }
+  ],
+  "decision": "CARRY_FORWARD_WITHOUT_COMPLETENESS_CLAIM",
+  "human_adjudication_required": false
+}

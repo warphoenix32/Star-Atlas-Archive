@@ -93,6 +93,18 @@
       "note": "Upstream link and mirror gaps retained."
     },
     {
+      "campaign_id": "official-economic-reports-pdf-ingestion-2026-07",
+      "status": "INGESTION_COMPLETE",
+      "status_evidence": "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json",
+      "note": "Eighteen operator-provided official PDFs were ingested; the mislabeled Q4 2026 upload was excluded."
+    },
+    {
+      "campaign_id": "phase-2-official-freshness-closeout-2026-07",
+      "status": "PHASE_2_GATE_COMPLETE",
+      "status_evidence": "operations/campaigns/phase-2-official-freshness-closeout-2026-07/campaign-summary.json",
+      "note": "Seven official surfaces were checked; ten unmatched candidates were queued without ingestion."
+    },
+    {
       "campaign_id": "pip-33-onchain-vote-reconciliation-2026-07",
       "status": "PASS_WITH_RAW_EXPORT_GAP",
       "status_evidence": "operations/campaigns/pip-33-onchain-vote-reconciliation-2026-07/campaign-summary.json",
@@ -106,9 +118,9 @@
     },
     {
       "campaign_id": "star-atlas-medium-ingestion-2026-07",
-      "status": "CONFIRMED_CORPUS_COMPLETE_DISCOVERY_INCOMPLETE",
+      "status": "CONFIRMED_ARTICLE_INGESTION_COMPLETE_PUBLICATION_DISCOVERY_INCOMPLETE",
       "status_evidence": "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
-      "note": "Fifty-one candidates deferred."
+      "note": "All 181 confirmed articles are ingested; all 216 review candidates have terminal dispositions, while external discovery remains incomplete."
     },
     {
       "campaign_id": "star-atlas-transcripts-ingestion-2026-07",

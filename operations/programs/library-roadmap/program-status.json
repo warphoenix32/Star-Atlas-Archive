@@ -1,8 +1,8 @@
 {
   "program_id": "star-atlas-library-roadmap",
   "as_of": "2026-07-22",
-  "baseline_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
-  "current_phase": 2,
+  "baseline_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
+  "current_phase": 3,
   "phases": [
     {
       "phase": 1,
@@ -14,22 +14,19 @@
     {
       "phase": 2,
       "name": "Priority ingestion",
-      "status": "IN_PROGRESS",
-      "percent_complete": 40,
-      "remaining_gate_items": [
-        "Ingest the 17-URL official economic-report PDF discovery seed",
-        "Run official-source freshness discovery",
-        "Track artifact-blocked Discord and transcript acquisitions without delaying ready work"
-      ]
+      "status": "COMPLETE",
+      "percent_complete": 100,
+      "remaining_gate_items": []
     },
     {
       "phase": 3,
       "name": "Targeted architecture refinement",
-      "status": "NOT_STARTED",
+      "status": "READY_TO_START",
       "percent_complete": 0,
       "remaining_gate_items": [
-        "Complete approved Phase 2 priority campaigns",
-        "Define publication manifest without rewriting evidence"
+        "Define the publication manifest without rewriting evidence",
+        "Implement only architecture changes justified by validated repository gaps",
+        "Preserve the ten freshness candidates as an acquisition queue until a separately scoped campaign runs"
       ]
     },
     {
@@ -73,7 +70,13 @@
       ]
     }
   ],
-  "phase_2_progress_basis": "Two of five priority-ingestion workstreams are closed: the confirmed Star Atlas Medium corpus and the operator-selected legacy written raw-recovery scope. Economic reports, official-source freshness discovery, and artifact-dependent Discord/transcript acquisition remain.",
+  "phase_2_progress_basis": "All five Phase 2 workstreams have terminal gate dispositions: Medium ingestion, selected written raw recovery, official economic-report PDF ingestion, official-source freshness discovery, and non-blocking carry-forward of artifact-dependent Discord/transcript gaps.",
+  "phase_2_closeout_evidence": [
+    "archive/campaign-summaries/star-atlas-medium-ingestion-2026-07/campaign-summary.json",
+    "operations/campaigns/legacy-written-raw-recovery-2026-07/campaign-summary.json",
+    "operations/campaigns/official-economic-reports-pdf-ingestion-2026-07/campaign-summary.json",
+    "operations/campaigns/phase-2-official-freshness-closeout-2026-07/campaign-summary.json"
+  ],
   "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
   "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",
   "baseline_ci": {
@@ -81,7 +84,7 @@
     "campaign_contracts": "PASS",
     "pages_build": "PASS",
     "pages_deploy": "PASS",
-    "verified_at_main_sha": "9a5348a640c1f5ed0b7aeedb0dec11762ea2f8b7",
+    "verified_at_main_sha": "1b47c2bdaf1aa683b5b8905323abe24cf0a02525",
     "repairs_in_gate_closeout": [
       "DAO campaign path-scope validation delegated to the central repository path contract so unrelated later PRs cannot rewrite the preserved campaign report"
     ]
