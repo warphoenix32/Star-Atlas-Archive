@@ -1,0 +1,51 @@
+{
+  "packet_id": "PACKET-LORE-FOUNDATIONS-2026-07",
+  "dossier_ids": [
+    "DOSSIER-LORE-FOUNDATIONS"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_ATMTA_AFFILIATED_LORE_TAXONOMY_SNAPSHOT",
+  "source_paths": [
+    "archive/normalized/lore/taxonomy.json",
+    "archive/normalized/lore/entities.jsonl",
+    "operations/campaigns/lore-repository-ingestion-2026-07/taxonomy-migration-report.json",
+    "operations/campaigns/lore-repository-ingestion-2026-07/human-review-items.json",
+    "operations/campaigns/lore-repository-ingestion-2026-07/conflict-report.json"
+  ],
+  "material_claims": [
+    {
+      "claim": "The captured Jose Eduardo lore repository is treated, under operator adjudication, as an ATMTA-affiliated canonical nomenclature and taxonomy source for in-universe Star Atlas concepts.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "The adopted lore taxonomy is a historical snapshot at captured commit 22555f277eb1496e34c0839c8f1f382842bd1d2b rather than a guarantee of current upstream completeness.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Official Star Atlas publications may supply newer lore absent from the snapshot, while historical source titles and legacy classifications remain preserved as evidence and aliases.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Lore taxonomy authority controls governance, product release state, real-world institutional history, or the wording of preserved historical sources.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The authority model is explicitly limited to in-universe nomenclature and classification."
+    },
+    {
+      "claim": "ATMTA affiliation establishes page-level authorship or independently verifies every narrative assertion in the personal repository.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "Operator-confirmed affiliation and lore responsibility support authority scope but do not replace page-level provenance or conflict review."
+    }
+  ],
+  "knowledge_paths_updated": [],
+  "known_limitations": [
+    "Reader-oriented pages for most ingested lore entities have not yet been consolidated.",
+    "Direct mappings for CORE and The Voice of Iris remain deferred.",
+    "Canon versus generated-docs divergences and broken upstream references remain visible for source-level review."
+  ],
+  "review_required": false
+}

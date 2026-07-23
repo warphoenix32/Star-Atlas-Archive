@@ -1,0 +1,58 @@
+{
+  "packet_id": "PACKET-SCORE-SAGE-STARBASED-2026-07",
+  "dossier_ids": [
+    "DOSSIER-SCORE-SAGE-STARBASED"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_OFFICIAL_RELEASE_AND_SUPPORT_RECORDS_WITH_B2_CONTEXT",
+  "source_paths": [
+    "archive/source-records/campaign-delta-official/SRC-OFF-0AED270D51ACD552.md",
+    "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-9FFFF91025488D09.json",
+    "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-76D9861DCB3FE798.json",
+    "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-CCF4600A4C08F697.json",
+    "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-19357309E964FAF8.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-0A646AE069AFFBA5.md",
+    "archive/semantic/atlas-brew/segment-index.json"
+  ],
+  "material_claims": [
+    {
+      "claim": "SCORE or Faction Fleet had a public release record in December 2021.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "The March and April 2024 records support an announced Faction Fleet emissions transition and a stated Starbased live date of 2024-04-04.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Starbased launched with zero ATLAS in the first epoch and Loyalty Point deposits disabled, so software availability and full economic activation remain separate.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "SAGE is a product-family identity whose SAGE Labs, Starbased, SAGE 3D, and C4 surfaces require separate lifecycle states.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Faction Fleet emissions were conclusively shut down on the announced April 2024 schedule.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The preserved records are forward-looking plan and pre-event statements; no post-event parameter or transaction evidence confirms execution."
+    },
+    {
+      "claim": "SAGE 3D has a precise official release date or C4 testing proves a general SAGE production release.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "SAGE 3D remains supported only by month-level community retrospective evidence, and PTR evidence establishes testing rather than production."
+    }
+  ],
+  "knowledge_paths_updated": [],
+  "known_limitations": [
+    "The SCORE application, SCORE program, Faction Fleet emissions, SAGE family, and each later named surface are not interchangeable entities.",
+    "Atlas Brew evidence supports recording-level and timestamp-level context without named-speaker attribution.",
+    "Current availability and uninterrupted operation of historical surfaces are not independently established."
+  ],
+  "review_required": false
+}

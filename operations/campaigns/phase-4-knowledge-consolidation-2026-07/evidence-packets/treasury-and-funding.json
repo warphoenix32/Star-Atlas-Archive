@@ -1,0 +1,56 @@
+{
+  "packet_id": "PACKET-TREASURY-AND-FUNDING-2026-07",
+  "dossier_ids": [
+    "DOSSIER-TREASURY-AND-FUNDING"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_A3_GOVERNANCE_AUTHORIZATION_AND_OPERATIONAL_REPORTING",
+  "source_paths": [
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-23-0ECF2928.json",
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-33-397FEE39.json",
+    "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json",
+    "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl"
+  ],
+  "material_claims": [
+    {
+      "claim": "Treasury architecture is the wider institutional and account system; the DAO Treasury account is one specific named address within that architecture.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "PIP-23 supersedes PIP-4 as the captured Ecosystem Fund policy and distinguishes the Ecosystem Fund wallet from the DAO Treasury account.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "PIP-33 is a direct extraordinary DAO Treasury authorization rather than an Ecosystem Fund award, and its completed vote supports passage only.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "PIP-33 authorizes two displayed tranches of USD 234,756.76, each composed of 75 percent USDC and 25 percent ATLAS, with the second tranche scheduled 180 days later and conditional on the stated reserve requirement; the displayed tranches total one cent less than the stated USD 469,513.53 request.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "A passed funding proposal, Council-reported payment, or Council-reported completion is on-chain verified payment or independently verified outcome.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "No proposal-linked on-chain treasury dataset or complete independent deliverable record was supplied for this campaign."
+    },
+    {
+      "claim": "Mixed ATLAS, USDC, USD, and EUR tracker values can be summed into one verified expenditure total.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The record lacks transaction-level mint, amount, date, conversion, source-account, and destination-account reconciliation."
+    }
+  ],
+  "knowledge_paths_updated": [],
+  "known_limitations": [
+    "Council payment and milestone fields are attributed operational assessments.",
+    "Current balances, signer sets, wallet control, and proposal-linked transfers remain unverified.",
+    "Authorization, payment, milestone acceptance, implementation, and outcome must remain separate evidence states."
+  ],
+  "review_required": false
+}

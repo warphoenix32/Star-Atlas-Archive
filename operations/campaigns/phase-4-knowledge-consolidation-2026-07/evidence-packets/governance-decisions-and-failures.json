@@ -1,0 +1,56 @@
+{
+  "packet_id": "PACKET-GOVERNANCE-DECISIONS-AND-FAILURES-2026-07",
+  "dossier_ids": [
+    "DOSSIER-GOVERNANCE-DECISIONS-AND-FAILURES"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_A3_GOVERNANCE_VOTES_AND_COUNCIL_ASSESSMENTS",
+  "source_paths": [
+    "archive/semantic/governance/pip-registry-semantic.json",
+    "archive/semantic/governance/pip-election-round-outcomes.json",
+    "archive/semantic/governance/council-pip-tracker/council-pip-tracker-semantic-records.jsonl",
+    "operations/campaigns/canonical-pip-governance-ledger-2026-07/conflict-report.json",
+    "operations/campaigns/canonical-pip-governance-ledger-2026-07/governance-research-backlog.json"
+  ],
+  "material_claims": [
+    {
+      "claim": "PIP-6 records first-round advancing candidates, while PIP-7 identifies the first final elected Council roster.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "PIP-11, PIP-25, and PIP-27 preserve completed election activity but do not establish final winner identities in the captured record.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "PIP-13, PIP-15, PIP-19, and PIP-26 failed and therefore did not supply proposal authorization.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "PIP-14 passed and was later Council-reported terminated, PIP-17 passed and was later Council-reported canceled or terminated, and PIP-31 passed and was later Council-reported withdrawn and not implemented.",
+      "allowed": true,
+      "confidence": "MEDIUM"
+    },
+    {
+      "claim": "Council-reported terminal states independently prove payment, deliverable failure, or the exact terminal date.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The Council tracker is an attributed operational assessment and lacks complete independent transaction, deliverable, and dated-notice evidence."
+    },
+    {
+      "claim": "Aggregate election ballot or PVP totals can be converted into candidate-level results.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "Candidate-level PVP is absent from the preserved portal captures and cannot be reconstructed by inference."
+    }
+  ],
+  "knowledge_paths_updated": [],
+  "known_limitations": [
+    "Final winner records remain missing for later Council and DAO Casters elections.",
+    "Council tracker states must retain Council attribution and independent verification status UNKNOWN.",
+    "Termination, cancellation, withdrawal, supersession, failure, and missing execution evidence remain distinct states."
+  ],
+  "review_required": false
+}

@@ -2,7 +2,7 @@
 
 ## Blocking decisions
 
-None. Phase 3 is closed and Phase 4 Gate 1 is in progress without a blocking adjudication.
+None. Phase 3 is closed and the Phase 4 evidence gate is complete without a blocking adjudication.
 
 ## Closed decisions
 
@@ -12,6 +12,7 @@ None. Phase 3 is closed and Phase 4 Gate 1 is in progress without a blocking adj
 - `REVIEW-PHASE3-PUBLICATION-CONTRACT`: `CLOSED_CONTRACT_VALIDATED`. The publication manifest and editorial boundary are stable; no public article or site change was made.
 - `REVIEW-ATLAS-BREW-METADATA`: `CLOSED_PUBLIC_PLAYLIST_RECONCILED`. The 123 combined transcript records map at high confidence to the 124-item public playlist; Atlas Brew #7 is preserved separately as qualified machine transcription.
 - `REVIEW-PHASE4-GATE1-EVIDENCE-DRIFT`: `CLOSED_EVIDENCE_RECONCILED`. Medium, Atlas Brew, and economic-report knowledge now reflects merged evidence while retaining completeness, event-date, speaker, and independent-verification limits.
+- `REVIEW-PHASE4-GATE2-DOSSIER-EVIDENCE`: `CLOSED_PACKETS_COMPLETE`. All ten selected dossiers have reviewed evidence packets; no new source, identity, payment, election, lifecycle, or canon adjudication was required.
 
 ## Deferred, non-blocking decisions
 

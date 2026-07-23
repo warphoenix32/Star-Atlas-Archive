@@ -19,6 +19,21 @@ The first gate:
 The dossier portfolio is a Phase 4 planning and evidence artifact. It does not
 add entries to the publication manifest or authorize Phase 5 drafting.
 
+## Gate 2
+
+The second gate completes reviewed evidence packets for all ten selected
+dossiers. Each packet states:
+
+- which evidence authority supports the dossier;
+- which material claims are safe to carry forward;
+- which tempting inferences are prohibited;
+- which unresolved artifacts still limit the history.
+
+Gate 2 does not rewrite source evidence or knowledge prose. Its purpose is to
+freeze the evidence boundary before the ten dossiers are deliberately
+consolidated. Reader-oriented lore entity pages remain part of that next
+consolidation gate.
+
 ## Validation
 
 ```text

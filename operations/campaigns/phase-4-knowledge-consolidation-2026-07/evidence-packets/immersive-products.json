@@ -1,0 +1,53 @@
+{
+  "packet_id": "PACKET-IMMERSIVE-PRODUCTS-2026-07",
+  "dossier_ids": [
+    "DOSSIER-IMMERSIVE-PRODUCTS"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_OFFICIAL_RELEASE_SUPPORT_AND_ANNOUNCEMENT_RECORDS",
+  "source_paths": [
+    "archive/source-records/campaign-delta-official/SRC-OFF-340128795CCA03A9.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-C6B9C26055452AF8.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-FC61779037A23908.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-4850F98FBD1F1541.md",
+    "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-6DC571942A250D14.json",
+    "archive/normalized/discord-announcements/messages/SA-DISCORD-ANN-D8337FA27E0A550A.json",
+    "archive/semantic/atlas-brew/segment-index.json"
+  ],
+  "material_claims": [
+    {
+      "claim": "ATMTA stated that the pre-alpha UE5 Showroom launched on the Epic Games Store in September 2022 and announced Showroom R2.1 in June 2023.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Holosim has a first-party public-test record in June 2025, later Chapter 1 and Chapter 2 live statements, and a documented Chapter 2 delay and reschedule.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Holosim's browser surface can be described as live and updated within the dated evidence boundary, while feature availability remains build-specific.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "The historical Showroom, the current Unreal client, C4, Holosim, and Fleet Command are aliases or share one aggregate lifecycle.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The sources establish related product surfaces and builds but do not establish identity-equivalence or one synchronized lifecycle."
+    },
+    {
+      "claim": "Holosim testing proves mainnet deployment, transferable economic value, or delivery of every Fleet Command roadmap feature.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The source material explicitly frames Holosim as a testing and browser environment distinct from later mainnet delivery."
+    }
+  ],
+  "knowledge_paths_updated": [],
+  "known_limitations": [
+    "The Showroom release-note sequence after R2.1 is incomplete.",
+    "The principal Holosim product page lacks a preserved publication or update date.",
+    "Atlas Brew segments support topic chronology and external-video cueing but not inferred named-speaker commitments."
+  ],
+  "review_required": false
+}

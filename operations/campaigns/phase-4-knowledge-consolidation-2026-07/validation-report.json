@@ -20,6 +20,10 @@
       "status": "PASS"
     },
     {
+      "check": "campaign_summary",
+      "status": "PASS"
+    },
+    {
       "check": "updated_knowledge_metadata",
       "status": "PASS"
     },
@@ -32,6 +36,10 @@
       "status": "PASS"
     },
     {
+      "check": "evidence_gate_knowledge_scope",
+      "status": "PASS"
+    },
+    {
       "check": "protected_paths",
       "status": "PASS"
     }
@@ -39,11 +47,15 @@
   "metrics": {
     "knowledge_files_inventoried": 81,
     "dossiers_selected": 10,
-    "evidence_packets_completed": 3,
+    "evidence_packets_completed": 10,
+    "dossiers_covered": 10,
+    "allowed_claims": 30,
+    "rejected_inferences": 19,
     "knowledge_pages_updated": 10,
+    "gate_2_knowledge_changes": 0,
     "protected_path_changes": 0
   },
   "failures": [],
   "human_adjudication_required": false,
-  "next_gate": "Complete the seven remaining dossier evidence packets"
+  "next_gate": "Consolidate the ten evidence-qualified dossiers without drafting public articles"
 }

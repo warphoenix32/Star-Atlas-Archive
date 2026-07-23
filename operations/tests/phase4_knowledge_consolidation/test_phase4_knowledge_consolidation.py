@@ -28,12 +28,23 @@ class Phase4KnowledgeConsolidationTests(unittest.TestCase):
         self.assertEqual(len(identifiers), len(set(identifiers)))
         self.assertFalse(payload["publication_authorized"])
 
-    def test_three_reviewed_evidence_packets_exist(self) -> None:
+    def test_ten_reviewed_evidence_packets_cover_the_portfolio(self) -> None:
         paths = sorted((VALIDATOR.CAMPAIGN / "evidence-packets").glob("*.json"))
-        self.assertEqual(3, len(paths))
+        portfolio = json.loads(
+            (VALIDATOR.CAMPAIGN / "dossier-portfolio.json").read_text(encoding="utf-8")
+        )
+        expected = {item["dossier_id"] for item in portfolio["dossiers"]}
+        covered: set[str] = set()
+        self.assertEqual(10, len(paths))
         for path in paths:
             payload = json.loads(path.read_text(encoding="utf-8"))
             self.assertEqual("REVIEWED_FOR_KNOWLEDGE_UPDATE", payload["status"])
+            covered.update(payload["dossier_ids"])
+            for claim in payload["material_claims"]:
+                self.assertIsInstance(claim["allowed"], bool)
+                if not claim["allowed"]:
+                    self.assertTrue(claim["reason"])
+        self.assertEqual(expected, covered)
 
     def test_publication_manifest_remains_contract_only(self) -> None:
         payload = json.loads(

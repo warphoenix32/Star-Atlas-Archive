@@ -1,0 +1,51 @@
+{
+  "packet_id": "PACKET-ORGANIZATIONS-AND-ROLES-2026-07",
+  "dossier_ids": [
+    "DOSSIER-ORGANIZATIONS-AND-ROLES"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_OFFICIAL_INSTITUTIONAL_RECORDS",
+  "source_paths": [
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+    "archive/source-records/campaign-delta-official",
+    "archive/semantic/governance/institutional-relationships.json"
+  ],
+  "material_claims": [
+    {
+      "claim": "ATMTA, the Star Atlas DAO, the Star Atlas Foundation, and the Star Atlas Council are distinct institutional entities with different supported roles.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "ATMTA is strongly supported as the principal operating company, product developer, and first-party publisher associated with Star Atlas.",
+      "allowed": true,
+      "confidence": "MEDIUM"
+    },
+    {
+      "claim": "Organization identity, office or role, individual identity, delegated authority, and dated service are separate record types.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "A historical title, event appearance, proposal authorship, or undated profile establishes a current role.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "Current roles require dated role evidence; historical association does not prove uninterrupted service."
+    },
+    {
+      "claim": "ATMTA publication merges ATMTA with the DAO, Foundation, or Council.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The captured governance instruments and institutional records preserve separate identities and authority boundaries."
+    }
+  ],
+  "knowledge_paths_updated": [],
+  "known_limitations": [
+    "Complete corporate ownership, financing, leadership, Foundation officer, and Council service chronologies are not preserved.",
+    "Current signers and delegated authority may change after the dated source.",
+    "Only the first Council election has a resolved final roster in the present evidence."
+  ],
+  "review_required": false
+}

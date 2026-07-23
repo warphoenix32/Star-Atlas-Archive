@@ -1,0 +1,50 @@
+{
+  "packet_id": "PACKET-GOVERNANCE-INSTITUTIONAL-ORDER-2026-07",
+  "dossier_ids": [
+    "DOSSIER-GOVERNANCE-INSTITUTIONAL-ORDER"
+  ],
+  "status": "REVIEWED_FOR_KNOWLEDGE_UPDATE",
+  "authority": "A2_OFFICIAL_GOVERNANCE_INSTRUMENTS",
+  "source_paths": [
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-01-BC8475E4.json",
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-02-1E2D7066.json",
+    "archive/source-records/social-governance-semantic-enrichment/governance/SRC-PIP-03-F5E7CDE1.json",
+    "archive/semantic/governance/pip-registry-semantic.json"
+  ],
+  "material_claims": [
+    {
+      "claim": "The captured PIP-1 through PIP-3 instruments support distinct roles for the POLIS electorate, Star Atlas Foundation, and Star Atlas Council.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "The DAO exercises proposal-specific PVP-weighted voting authority; the Foundation supplies the described legal and administrative capacity; the Council serves as an elected process steward with delegated duties.",
+      "allowed": true,
+      "confidence": "HIGH"
+    },
+    {
+      "claim": "Operational DAO release statements in 2022, public PIP design communications in 2023, and formal proposal votes in 2024 are distinct milestones and may coexist in the constitutional history.",
+      "allowed": true,
+      "confidence": "MEDIUM"
+    },
+    {
+      "claim": "The Council is an independent legislative sovereign or the Foundation is the DAO electorate.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "The captured instruments divide voting, administration, and process-steward responsibilities rather than merging the institutions."
+    },
+    {
+      "claim": "Passage of PIP-1, PIP-2, or PIP-3 proves every later implementation, delegation, payment, or current officeholder.",
+      "allowed": false,
+      "confidence": "HIGH",
+      "reason": "Proposal passage establishes authorization; later institutional acts require their own dated evidence."
+    }
+  ],
+  "knowledge_paths_updated": [],
+  "known_limitations": [
+    "The 2023 PIP-1 publication has not been textually reconciled with the 2024 captured proposal.",
+    "Current Foundation delegations, Council membership, and governance-program deployment require later dated records.",
+    "The completed-binary vote rule is a repository editorial adjudication and is not asserted as source-native PIP-1 text."
+  ],
+  "review_required": false
+}

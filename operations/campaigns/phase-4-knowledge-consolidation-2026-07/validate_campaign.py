@@ -1,4 +1,4 @@
-"""Validate Phase 4 Gate 1 knowledge consolidation."""
+"""Validate the Phase 4 knowledge-consolidation evidence gate."""
 
 from __future__ import annotations
 
@@ -73,7 +73,16 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
     portfolio = load_json(CAMPAIGN / "dossier-portfolio.json")
     dossiers = portfolio["dossiers"]
     dossier_ids = [item["dossier_id"] for item in dossiers]
-    dossier_ok = len(dossiers) == 10 and len(dossier_ids) == len(set(dossier_ids))
+    dossier_ok = (
+        len(dossiers) == 10
+        and len(dossier_ids) == len(set(dossier_ids))
+        and portfolio.get("portfolio_status")
+        == "EVIDENCE_PACKETS_COMPLETE_CONSOLIDATION_PENDING"
+        and all(
+            item.get("evidence_readiness", "").startswith("PACKET_COMPLETE")
+            for item in dossiers
+        )
+    )
     for dossier in dossiers:
         for value in dossier["knowledge_paths"]:
             if not (ROOT / value).is_file():
@@ -84,23 +93,60 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
         failures.append("dossier portfolio count or identity does not reconcile")
 
     packet_paths = sorted((CAMPAIGN / "evidence-packets").glob("*.json"))
-    packet_ok = len(packet_paths) == 3
+    packet_ok = len(packet_paths) == 10
+    covered_dossier_ids: set[str] = set()
+    allowed_claims = 0
+    rejected_inferences = 0
     for path in packet_paths:
         packet = load_json(path)
         if packet.get("status") != "REVIEWED_FOR_KNOWLEDGE_UPDATE":
             packet_ok = False
             failures.append(f"{path.name}: packet is not reviewed")
+        packet_dossier_ids = packet.get("dossier_ids", [])
+        if not packet_dossier_ids:
+            packet_ok = False
+            failures.append(f"{path.name}: dossier coverage is missing")
+        covered_dossier_ids.update(packet_dossier_ids)
         for source_path in packet.get("source_paths", []):
             if not (ROOT / source_path).exists():
                 packet_ok = False
                 failures.append(f"{path.name}: missing source path {source_path}")
         for claim in packet.get("material_claims", []):
-            if claim.get("allowed") is False and not claim.get("reason"):
+            if claim.get("allowed") is True:
+                allowed_claims += 1
+            elif claim.get("allowed") is False:
+                rejected_inferences += 1
+                if not claim.get("reason"):
+                    packet_ok = False
+                    failures.append(f"{path.name}: rejected claim lacks reason")
+            else:
                 packet_ok = False
-                failures.append(f"{path.name}: rejected claim lacks reason")
+                failures.append(f"{path.name}: claim lacks an allowed decision")
+    if covered_dossier_ids != set(dossier_ids):
+        packet_ok = False
+        missing = sorted(set(dossier_ids) - covered_dossier_ids)
+        extra = sorted(covered_dossier_ids - set(dossier_ids))
+        failures.append(
+            "packet dossier coverage mismatch; "
+            f"missing={missing or 'none'} extra={extra or 'none'}"
+        )
     checks.append({"check": "evidence_packets", "status": "PASS" if packet_ok else "FAIL"})
     if not packet_ok and not any("packet" in item for item in failures):
-        failures.append("expected three reviewed evidence packets")
+        failures.append("expected ten reviewed evidence packets")
+
+    summary = load_json(CAMPAIGN / "campaign-summary.json")
+    summary_ok = (
+        summary.get("status") == "EVIDENCE_GATE_COMPLETE_CONSOLIDATION_PENDING"
+        and summary.get("evidence_packets_completed") == len(packet_paths) == 10
+        and summary.get("evidence_gate", {}).get("dossiers_covered") == len(dossiers)
+        and summary.get("evidence_gate", {}).get("allowed_claims") == allowed_claims
+        and summary.get("evidence_gate", {}).get("rejected_inferences")
+        == rejected_inferences
+        and summary.get("remaining_phase_4_gate", {}).get("evidence_packets") == 0
+    )
+    checks.append({"check": "campaign_summary", "status": "PASS" if summary_ok else "FAIL"})
+    if not summary_ok:
+        failures.append("campaign summary does not reconcile to evidence packets")
 
     pages_ok = True
     for value in UPDATED_KNOWLEDGE:
@@ -144,6 +190,17 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
         failures.append("publication manifest changed before Phase 5")
 
     changes = changed_paths(base_ref)
+    knowledge_changes = [path for path in changes if path.startswith("knowledge/")]
+    evidence_gate_scope_ok = not knowledge_changes
+    checks.append({
+        "check": "evidence_gate_knowledge_scope",
+        "status": "PASS" if evidence_gate_scope_ok else "FAIL",
+    })
+    if knowledge_changes:
+        failures.append(
+            "evidence gate unexpectedly changed knowledge paths: "
+            + ", ".join(knowledge_changes)
+        )
     forbidden = [
         path
         for path in changes
@@ -163,12 +220,16 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
             "knowledge_files_inventoried": len(knowledge_files),
             "dossiers_selected": len(dossiers),
             "evidence_packets_completed": len(packet_paths),
+            "dossiers_covered": len(covered_dossier_ids),
+            "allowed_claims": allowed_claims,
+            "rejected_inferences": rejected_inferences,
             "knowledge_pages_updated": len(UPDATED_KNOWLEDGE),
+            "gate_2_knowledge_changes": len(knowledge_changes),
             "protected_path_changes": len(forbidden),
         },
         "failures": failures,
         "human_adjudication_required": False,
-        "next_gate": "Complete the seven remaining dossier evidence packets",
+        "next_gate": "Consolidate the ten evidence-qualified dossiers without drafting public articles",
     }
 
 
@@ -180,7 +241,7 @@ def write_reports(result: dict[str, Any]) -> None:
     )
     rows = "\n".join(f"| {item['check']} | {item['status']} |" for item in result["checks"])
     failure_lines = "\n".join(f"- {item}" for item in result["failures"]) or "- None."
-    markdown = f"""# Phase 4 Gate 1 Validation
+    markdown = f"""# Phase 4 Evidence Gate Validation
 
 Result: **{result['status']}**
 
@@ -193,7 +254,11 @@ Result: **{result['status']}**
 - Knowledge files inventoried: {result['metrics']['knowledge_files_inventoried']}
 - Dossiers selected: {result['metrics']['dossiers_selected']}
 - Evidence packets complete: {result['metrics']['evidence_packets_completed']}
+- Dossiers covered: {result['metrics']['dossiers_covered']}
+- Allowed claims recorded: {result['metrics']['allowed_claims']}
+- Rejected inferences recorded: {result['metrics']['rejected_inferences']}
 - Knowledge pages updated: {result['metrics']['knowledge_pages_updated']}
+- Gate 2 knowledge changes: {result['metrics']['gate_2_knowledge_changes']}
 - Protected-path changes: {result['metrics']['protected_path_changes']}
 
 ## Failures
