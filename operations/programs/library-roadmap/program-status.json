@@ -36,9 +36,13 @@
       "phase": 5,
       "name": "Publication layer",
       "status": "IN_PROGRESS",
-      "percent_complete": 20,
+      "percent_complete": 45,
       "remaining_gate_items": [
-        "Initial ten-article portfolio"
+        "Human review of eight reader gateways and thirty-page foundational map",
+        "Approve or revise eleven prototype dispositions and editorial house style",
+        "Complete thirteen targeted Knowledge development items",
+        "Rewrite and review the selected reader-first narratives",
+        "Publish only explicitly approved entries"
       ]
     },
     {
@@ -83,10 +87,15 @@
     "operations/campaigns/phase-4-knowledge-consolidation-2026-07/consolidation-results.json",
     "operations/campaigns/phase-4-knowledge-consolidation-2026-07/campaign-summary.json"
   ],
-  "phase_5_progress_basis": "The publication contract and manifest schema are stable, and ten consolidated knowledge dossiers are ready for editorial drafting. No public article has yet been created.",
+  "phase_5_progress_basis": "Eleven unpublished prototypes were assessed and retained. The approved redesign defines eight reader gateways, thirty foundational narratives, seventeen pages ready to draft, thirteen targeted Knowledge development items, deterministic prototype dispositions, and an HNN-influenced house style. Top-of-page machine metadata was removed from the public Knowledge reader. No prototype is eligible for the public build.",
   "phase_5_progress_evidence": [
     "publication/PUBLICATION-CONTRACT.md",
-    "operations/campaigns/phase-4-knowledge-consolidation-2026-07/consolidation-results.json"
+    "operations/campaigns/phase-4-knowledge-consolidation-2026-07/consolidation-results.json",
+    "operations/campaigns/phase-5-foundational-publication-portfolio-2026-07/portfolio.json",
+    "operations/campaigns/phase-5-foundational-publication-portfolio-2026-07/publication-plan.json",
+    "operations/campaigns/phase-5-foundational-publication-portfolio-2026-07/knowledge-readiness-audit.json",
+    "operations/campaigns/phase-5-foundational-publication-portfolio-2026-07/campaign-summary.json",
+    "publication/manifests/publication-manifest.json"
   ],
   "roadmap_deviation_policy": "Advise the operator before work changes phase order, product boundaries, or completion gates.",
   "campaign_closeout_rule": "Every campaign closeout updates this status, coverage, campaign registry, backlog, and human-review queue when affected.",

@@ -1,0 +1,710 @@
+{
+  "plan_id": "star-atlas-library-foundational-portfolio-v2",
+  "as_of": "2026-07-23",
+  "status": "PROPOSED_FOR_HUMAN_PORTFOLIO_REVIEW",
+  "editorial_direction": {
+    "primary_experience": "Reader-first narrative Library",
+    "house_style": "HNN-inspired immediacy and community awareness with Archive evidence discipline",
+    "metadata_presentation": "HIDDEN_FROM_PUBLIC_ARTICLE_TOP",
+    "evidence_presentation": "COLLAPSIBLE_FOOTER_PANEL",
+    "archive_gap_presentation": "VISIBLE_ONLY_WHEN_MATERIAL_TO_MEANING"
+  },
+  "gateways": [
+    {
+      "gateway_id": "GATE-START",
+      "title": "Start Here",
+      "reader_purpose": "Orient a first-time visitor without requiring prior knowledge of Star Atlas."
+    },
+    {
+      "gateway_id": "GATE-UNIVERSE",
+      "title": "The Star Atlas Universe",
+      "reader_purpose": "Explore Galia, its factions, peoples, conflicts, places and canon."
+    },
+    {
+      "gateway_id": "GATE-GAMES",
+      "title": "Games and Experiences",
+      "reader_purpose": "Understand the playable products, tests and product families."
+    },
+    {
+      "gateway_id": "GATE-SHIPS",
+      "title": "Ships and Economy",
+      "reader_purpose": "Explore ships, ownership, tokens, resources, production and trade."
+    },
+    {
+      "gateway_id": "GATE-HISTORY",
+      "title": "History",
+      "reader_purpose": "Follow the project through major eras, releases, setbacks and turning points."
+    },
+    {
+      "gateway_id": "GATE-COMMUNITY",
+      "title": "People and Community",
+      "reader_purpose": "Meet the players, guilds, creators, journalists and community traditions."
+    },
+    {
+      "gateway_id": "GATE-INSTITUTIONS",
+      "title": "Governance and Institutions",
+      "reader_purpose": "Understand ATMTA, the DAO, Foundation, Council and consequential proposals."
+    },
+    {
+      "gateway_id": "GATE-RESEARCH",
+      "title": "Research the Archive",
+      "reader_purpose": "Reach detailed ledgers, registries, evidence records and preserved sources."
+    }
+  ],
+  "foundational_pages": [
+    {
+      "candidate_id": "PLAN-001",
+      "working_title": "What Is Star Atlas?",
+      "collection": "Orientation and History",
+      "reader_question": "What is Star Atlas, and what can someone actually experience?",
+      "priority": 1,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R2",
+      "knowledge_inputs": [
+        "knowledge/README.md",
+        "knowledge/organizations/Institutional-Overview.md",
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "knowledge/lore/Galia-Expanse.md"
+      ],
+      "missing_requirements": [
+        "Create a concise cross-domain identity packet that separates game, universe, company, community and governance ecosystem.",
+        "Refresh the dated current-experience inventory immediately before drafting."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-002",
+      "working_title": "A Brief History of Star Atlas",
+      "collection": "Orientation and History",
+      "reader_question": "How did Star Atlas evolve from its public beginnings into its present product ecosystem?",
+      "priority": 2,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/timeline/Star-Atlas-Historical-Periodization.md",
+        "knowledge/timeline/Master-Timeline.md",
+        "knowledge/timeline/Product-Timeline.md",
+        "knowledge/timeline/Community-Timeline.md"
+      ],
+      "missing_requirements": [
+        "Present curator-defined period boundaries as an interpretive structure rather than official eras."
+      ],
+      "prototype_inputs": [
+        "publication/articles/how-star-atlas-communicated-development.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-003",
+      "working_title": "Star Atlas Today: Ways to Experience the Universe",
+      "collection": "Orientation and History",
+      "reader_question": "What products, tests and community experiences are available now?",
+      "priority": 3,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/media/README.md"
+      ],
+      "missing_requirements": [
+        "Run a freshness check before every publication revision.",
+        "Use an explicit as-of date and avoid implying continuous availability."
+      ],
+      "prototype_inputs": [
+        "publication/articles/showroom-and-holosim.md",
+        "publication/articles/from-score-to-starbased.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-004",
+      "working_title": "The Turning Points That Shaped Star Atlas",
+      "collection": "Orientation and History",
+      "reader_question": "Which moments most changed the direction of the project and its community?",
+      "priority": 9,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/timeline/Star-Atlas-Historical-Periodization.md",
+        "knowledge/events/Event-Evidence-Registry.md",
+        "knowledge/timeline/Corporate-Timeline.md"
+      ],
+      "missing_requirements": [
+        "Promote event-level evidence packets for corporate contraction, FTX exposure, major product transitions and community responses.",
+        "Separate contemporary reporting from later retrospective interpretation."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-005",
+      "working_title": "Welcome to the Galia Expanse",
+      "collection": "Universe and Lore",
+      "reader_question": "Where does Star Atlas take place, and what defines its universe?",
+      "priority": 4,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/lore/Galia-Expanse.md",
+        "knowledge/lore/Canon-Registry.md",
+        "knowledge/lore/Convergence-War.md",
+        "knowledge/lore/Council-of-Peace.md"
+      ],
+      "missing_requirements": [
+        "Keep historical snapshot qualifications in a short canon note rather than the narrative opening."
+      ],
+      "prototype_inputs": [
+        "publication/articles/welcome-to-the-galia-expanse.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-006",
+      "working_title": "The Three Factions of Star Atlas",
+      "collection": "Universe and Lore",
+      "reader_question": "What distinguishes MUD, ONI and Ustur?",
+      "priority": 5,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R2",
+      "knowledge_inputs": [
+        "knowledge/lore/Manus-Ultima-Divina.md",
+        "knowledge/lore/ONI-Consortium.md",
+        "knowledge/lore/Ustur.md"
+      ],
+      "missing_requirements": [
+        "Avoid reducing species, governments and institutions to faction aliases."
+      ],
+      "prototype_inputs": [
+        "publication/articles/welcome-to-the-galia-expanse.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-007",
+      "working_title": "The Peoples of Galia",
+      "collection": "Universe and Lore",
+      "reader_question": "Who inhabits Galia beyond the three faction labels?",
+      "priority": 12,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/lore/Peoples-of-Galia.md",
+        "knowledge/lore/Canon-Registry.md"
+      ],
+      "missing_requirements": [
+        "Retain uneven source-depth qualifications without turning them into the central story."
+      ],
+      "prototype_inputs": [
+        "publication/articles/welcome-to-the-galia-expanse.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-008",
+      "working_title": "The Convergence War",
+      "collection": "Universe and Lore",
+      "reader_question": "What conflict reshaped relations among the major powers of Galia?",
+      "priority": 13,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R2",
+      "knowledge_inputs": [
+        "knowledge/lore/Convergence-War.md",
+        "knowledge/lore/Council-of-Peace.md",
+        "knowledge/lore/Canon-Registry.md"
+      ],
+      "missing_requirements": [
+        "Keep conflicting or incomplete chronology visible in end notes."
+      ],
+      "prototype_inputs": [
+        "publication/articles/welcome-to-the-galia-expanse.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-009",
+      "working_title": "The Council of Peace and Galia's Fragile Order",
+      "collection": "Universe and Lore",
+      "reader_question": "How did the major factions try to govern the peace after war?",
+      "priority": 14,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R2",
+      "knowledge_inputs": [
+        "knowledge/lore/Council-of-Peace.md",
+        "knowledge/lore/Convergence-War.md"
+      ],
+      "missing_requirements": [
+        "Distinguish the lore institution from the real-world Star Atlas Council."
+      ],
+      "prototype_inputs": [
+        "publication/articles/welcome-to-the-galia-expanse.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-010",
+      "working_title": "Powers and Organizations of Galia",
+      "collection": "Universe and Lore",
+      "reader_question": "Which corporations, orders and institutions shape life beyond the factions?",
+      "priority": 21,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/lore/Canon-Registry.md",
+        "archive/normalized/lore/entities.jsonl"
+      ],
+      "missing_requirements": [
+        "Promote the highest-value lore corporations, organizations and institutions from normalized entities into reviewed Knowledge.",
+        "Resolve hierarchy and alias mappings before public synthesis."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-011",
+      "working_title": "How Star Atlas Lore and Canon Evolved",
+      "collection": "Universe and Lore",
+      "reader_question": "How has the published universe changed across repositories, narratives and official releases?",
+      "priority": 25,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/lore/Canon-Registry.md",
+        "knowledge/timeline/Lore-Timeline.md",
+        "operations/campaigns/lore-repository-ingestion-2026-07/taxonomy-migration-report.md"
+      ],
+      "missing_requirements": [
+        "Create a narrative canon-publication chronology.",
+        "Reconcile the most material source divergences without rewriting historical terminology."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-012",
+      "working_title": "From SCORE to Starbased",
+      "collection": "Games and Products",
+      "reader_question": "How did Star Atlas strategy gameplay evolve from passive fleets into Starbased?",
+      "priority": 6,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+        "knowledge/gameplay/SAGE.md",
+        "knowledge/gameplay/Product-Registry.md"
+      ],
+      "missing_requirements": [
+        "Center the player experience and turning points rather than lifecycle classification."
+      ],
+      "prototype_inputs": [
+        "publication/articles/from-score-to-starbased.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-013",
+      "working_title": "The SAGE Product Family",
+      "collection": "Games and Products",
+      "reader_question": "What does SAGE refer to, and how do its distinct products relate?",
+      "priority": 15,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/gameplay/SAGE.md",
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/timeline/Product-Timeline.md"
+      ],
+      "missing_requirements": [
+        "Keep SAGE Labs, Starbased, SAGE 3D and C4 as distinct stages or products rather than aliases."
+      ],
+      "prototype_inputs": [
+        "publication/articles/from-score-to-starbased.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-014",
+      "working_title": "The Unreal Engine Journey",
+      "collection": "Games and Products",
+      "reader_question": "How did Star Atlas begin opening its high-fidelity universe to players?",
+      "priority": 7,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R2",
+      "knowledge_inputs": [
+        "knowledge/gameplay/UE5-Showroom.md",
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "knowledge/timeline/Product-Timeline.md"
+      ],
+      "missing_requirements": [
+        "Separate the historical Showroom identity from later Unreal client surfaces."
+      ],
+      "prototype_inputs": [
+        "publication/articles/showroom-and-holosim.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-015",
+      "working_title": "Holosim: Fleets, Seasons and Simulation",
+      "collection": "Games and Products",
+      "reader_question": "What is Holosim, and what did it let players test?",
+      "priority": 8,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R2",
+      "knowledge_inputs": [
+        "knowledge/gameplay/Holosim.md",
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "knowledge/timeline/Product-Timeline.md"
+      ],
+      "missing_requirements": [
+        "Keep simulated zATLAS and pre-mainnet features separate from production-network claims."
+      ],
+      "prototype_inputs": [
+        "publication/articles/showroom-and-holosim.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-016",
+      "working_title": "Escape Velocity and the First On-Chain Experiments",
+      "collection": "Games and Products",
+      "reader_question": "Why did Escape Velocity matter to the development of on-chain gameplay?",
+      "priority": 19,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/timeline/Product-Timeline.md",
+        "knowledge/technology/Technical-Platform.md"
+      ],
+      "missing_requirements": [
+        "Create a dedicated Escape Velocity lifecycle and incident history.",
+        "Reconcile transaction and participation metrics with their original sources."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-017",
+      "working_title": "The Galactic Marketplace",
+      "collection": "Games and Products",
+      "reader_question": "How did the marketplace become a central Star Atlas product?",
+      "priority": 16,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R2",
+      "knowledge_inputs": [
+        "knowledge/gameplay/Galactic-Marketplace.md",
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/timeline/Product-Timeline.md"
+      ],
+      "missing_requirements": [
+        "Keep the 2021 market surface distinct from its 2022 replacement."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-018",
+      "working_title": "The Ships of Star Atlas",
+      "collection": "Games and Products",
+      "reader_question": "What are Star Atlas ships, and how are they organized across manufacturers, sizes and roles?",
+      "priority": 10,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "archive/normalized/starbased-ship-states/",
+        "archive/provenance/starbased-ship-states/"
+      ],
+      "missing_requirements": [
+        "Promote a canonical ship and manufacturer registry from the curated 63-ship campaign.",
+        "Preserve that Starbased base values may be rebased, Holosim uses different values and components may modify individual ships."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-019",
+      "working_title": "ATLAS and POLIS",
+      "collection": "Economy",
+      "reader_question": "Why does Star Atlas use two principal tokens, and how have their roles changed?",
+      "priority": 11,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/economy/ATLAS-Token-History.md",
+        "knowledge/economy/POLIS-Token-History.md",
+        "knowledge/economy/PVP-Voting-Power.md",
+        "knowledge/economy/Economic-Report-Catalog.md"
+      ],
+      "missing_requirements": [
+        "Lead with player and ecosystem use rather than measurement limitations.",
+        "Keep historical supply claims dated and attributed."
+      ],
+      "prototype_inputs": [
+        "publication/articles/atlas-and-polis.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-020",
+      "working_title": "How the Star Atlas Player Economy Developed",
+      "collection": "Economy",
+      "reader_question": "How did rewards, production, markets and player activity change over time?",
+      "priority": 17,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/economy/ATLAS-Token-History.md",
+        "knowledge/economy/Economic-Report-Catalog.md",
+        "knowledge/timeline/Product-Timeline.md",
+        "knowledge/gameplay/Product-Registry.md"
+      ],
+      "missing_requirements": [
+        "Create a cross-product economic lifecycle packet covering SCORE emissions, SAGE resources, crafting, marketplace changes and economic reports.",
+        "Separate official measurements from independent verification."
+      ],
+      "prototype_inputs": [
+        "publication/articles/atlas-and-polis.md",
+        "publication/articles/from-score-to-starbased.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-021",
+      "working_title": "Resources, Mining, Crafting and Trade",
+      "collection": "Economy",
+      "reader_question": "How do resources move through the Star Atlas strategy economy?",
+      "priority": 20,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/gameplay/SAGE.md",
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/economy/Economic-Report-Catalog.md"
+      ],
+      "missing_requirements": [
+        "Promote separate current and historical mechanics for mining, crafting, R4 and trade.",
+        "Avoid projecting one product's recipes or values into another."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-022",
+      "working_title": "Ships, Assets and Ownership",
+      "collection": "Economy",
+      "reader_question": "What does owning a Star Atlas asset mean across markets and game surfaces?",
+      "priority": 24,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/gameplay/Galactic-Marketplace.md",
+        "knowledge/economy/ATLAS-Token-History.md",
+        "archive/normalized/starbased-ship-states/"
+      ],
+      "missing_requirements": [
+        "Create a reviewed asset-identity and utility history.",
+        "Separate ownership, market listing, game utility and current accessibility."
+      ],
+      "prototype_inputs": []
+    },
+    {
+      "candidate_id": "PLAN-023",
+      "working_title": "The People of Star Atlas",
+      "collection": "People and Community",
+      "reader_question": "How did players become organizers, creators, critics and institution builders?",
+      "priority": 5,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/timeline/Community-Timeline.md",
+        "knowledge/guilds/Guild-Master-Index.md",
+        "knowledge/people/Actor-Master-Index.md",
+        "knowledge/media/Media-and-Creator-Index.md"
+      ],
+      "missing_requirements": [
+        "Keep the first edition thematic rather than biographical.",
+        "Do not infer identity, current membership or authority from display names or guild tags."
+      ],
+      "prototype_inputs": [
+        "publication/articles/people-of-star-atlas.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-024",
+      "working_title": "A History of Star Atlas Guilds and DACs",
+      "collection": "People and Community",
+      "reader_question": "How did guilds organize before the full game existed?",
+      "priority": 18,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/guilds/Guild-Master-Index.md",
+        "knowledge/timeline/Community-Timeline.md",
+        "knowledge/media/Media-and-Creator-Index.md"
+      ],
+      "missing_requirements": [
+        "Create dated guild evidence packets for Aephia, Agora, Dark Matter, Rome, The Vanguard and other well-supported organizations.",
+        "Separate self-description, observed activity, rivalry claims and present status."
+      ],
+      "prototype_inputs": [
+        "publication/articles/people-of-star-atlas.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-025",
+      "working_title": "Atlas Brew and the Town Hall Tradition",
+      "collection": "People and Community",
+      "reader_question": "Where did the community and team gather to discuss the project in public?",
+      "priority": 12,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/media/Atlas-Brew-History.md",
+        "knowledge/media/Star-Atlas-Town-Hall-History.md",
+        "knowledge/media/VBTV-Star-Atlas-TV-Recording-Index.md"
+      ],
+      "missing_requirements": [
+        "Use episode and timestamp provenance without making unknown speakers the article's main concern."
+      ],
+      "prototype_inputs": [
+        "publication/articles/the-recorded-community.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-026",
+      "working_title": "Community Journalism and Star Atlas Media",
+      "collection": "People and Community",
+      "reader_question": "Who documented and interpreted Star Atlas outside official channels?",
+      "priority": 22,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/media/Media-and-Creator-Index.md",
+        "knowledge/media/Community-Publication-Relationship-Index.md",
+        "knowledge/media/Aephia-Source-Profile.md",
+        "knowledge/people/Krigs-Source-Profile.md"
+      ],
+      "missing_requirements": [
+        "Keep source affiliations, editorial roles and original reporting distinct.",
+        "Do not center Intergalactic Herald in the present publication portfolio."
+      ],
+      "prototype_inputs": [
+        "publication/articles/how-star-atlas-communicated-development.md",
+        "publication/articles/people-of-star-atlas.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-027",
+      "working_title": "Events, Competitions and Community Traditions",
+      "collection": "People and Community",
+      "reader_question": "Which gatherings and competitions became part of Star Atlas community life?",
+      "priority": 23,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/events/Event-Evidence-Registry.md",
+        "knowledge/timeline/Community-Timeline.md",
+        "knowledge/media/Media-and-Creator-Index.md"
+      ],
+      "missing_requirements": [
+        "Promote occurrence evidence, dates, organizers, results and surviving media for selected events.",
+        "Do not treat an announcement or schedule as proof that an event occurred."
+      ],
+      "prototype_inputs": [
+        "publication/articles/people-of-star-atlas.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-028",
+      "working_title": "Who Governs Star Atlas?",
+      "collection": "Governance and Institutions",
+      "reader_question": "What are ATMTA, the DAO, Foundation and Council, and how do their roles differ?",
+      "priority": 10,
+      "readiness": "READY_TO_DRAFT",
+      "risk_class": "R2",
+      "knowledge_inputs": [
+        "knowledge/organizations/Institutional-Overview.md",
+        "knowledge/organizations/ATMTA.md",
+        "knowledge/governance/Star-Atlas-DAO.md",
+        "knowledge/governance/Star-Atlas-Foundation.md",
+        "knowledge/governance/Star-Atlas-Council.md"
+      ],
+      "missing_requirements": [
+        "Merge the two overlapping institutional prototypes.",
+        "Describe institutional design as documented rather than continuously verified current operation."
+      ],
+      "prototype_inputs": [
+        "publication/articles/how-star-atlas-governance-took-shape.md",
+        "publication/articles/institutions-behind-star-atlas.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-029",
+      "working_title": "How Proposals Changed the Star Atlas Ecosystem",
+      "collection": "Governance and Institutions",
+      "reader_question": "Which governance decisions materially changed institutions, programs or products?",
+      "priority": 26,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/governance/PIP-Registry.md",
+        "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+        "knowledge/governance/Council-Election-History.md",
+        "knowledge/governance/Ecosystem-Fund-Award-History.md"
+      ],
+      "missing_requirements": [
+        "Create a significance-ranked proposal case-study packet.",
+        "Choose cases based on institutional consequence rather than archival completeness.",
+        "Keep passage, payment, implementation and outcome separate."
+      ],
+      "prototype_inputs": [
+        "publication/articles/beyond-the-vote.md",
+        "publication/articles/following-the-treasury.md"
+      ]
+    },
+    {
+      "candidate_id": "PLAN-030",
+      "working_title": "The Technology Behind Star Atlas",
+      "collection": "Technology",
+      "reader_question": "How do Solana, Unreal Engine and on-chain programs support different parts of Star Atlas?",
+      "priority": 27,
+      "readiness": "KNOWLEDGE_PROMOTION_REQUIRED",
+      "risk_class": "R3",
+      "knowledge_inputs": [
+        "knowledge/technology/Technical-Platform.md",
+        "knowledge/technology/Official-Technical-Surface-Inventory.md",
+        "knowledge/gameplay/UE5-Showroom.md"
+      ],
+      "missing_requirements": [
+        "Create a reader-level architecture packet that separates product surfaces, programs, game IDs, APIs and developer tools.",
+        "Do not infer undocumented architecture or deployed-state equivalence."
+      ],
+      "prototype_inputs": []
+    }
+  ],
+  "dossier_series": [
+    {
+      "series": "Lore entities and locations",
+      "entry_rule": "Create only after canonical taxonomy promotion and alias reconciliation.",
+      "examples": ["species", "factions", "corporations", "characters", "systems", "planets", "artifacts"]
+    },
+    {
+      "series": "Products, builds and programs",
+      "entry_rule": "One page per narrow product, build or program with a dated lifecycle.",
+      "examples": ["SCORE", "Faction Fleet", "SAGE Labs", "Starbased", "SAGE 3D", "C4", "Escape Velocity"]
+    },
+    {
+      "series": "Ships and manufacturers",
+      "entry_rule": "Promote curated identities before public pages; keep game-specific stat sets distinct.",
+      "examples": ["manufacturer histories", "ship families", "individual ship dossiers"]
+    },
+    {
+      "series": "People, guilds and creators",
+      "entry_rule": "Require identity-specific evidence and dated role or affiliation support.",
+      "examples": ["person profiles", "guild histories", "creator and publication profiles"]
+    },
+    {
+      "series": "Events and incidents",
+      "entry_rule": "Require occurrence evidence; announcements alone are insufficient.",
+      "examples": ["Community Week", "Breakpoint appearances", "competitions", "product incidents"]
+    }
+  ],
+  "research_collection": [
+    {
+      "title": "Governance Failure and Termination Casebook",
+      "source": "publication/articles/beyond-the-vote.md",
+      "public_role": "Advanced governance research, not an entrance article"
+    },
+    {
+      "title": "Treasury Authorization and Payment Research",
+      "source": "publication/articles/following-the-treasury.md",
+      "public_role": "Research collection until supported award and payment case studies are ready"
+    },
+    {
+      "title": "Official Communications Chronology",
+      "source": "publication/articles/how-star-atlas-communicated-development.md",
+      "public_role": "Research guide and supporting chronology"
+    }
+  ]
+}

@@ -51,12 +51,25 @@ class Phase4KnowledgeConsolidationTests(unittest.TestCase):
                     self.assertTrue(claim["reason"])
         self.assertEqual(expected, covered)
 
-    def test_publication_manifest_remains_contract_only(self) -> None:
+    def test_publication_manifest_preserves_the_publication_gate(self) -> None:
         payload = json.loads(
             (ROOT / "publication/manifests/publication-manifest.json").read_text(encoding="utf-8")
         )
-        self.assertEqual("CONTRACT_ONLY", payload["lifecycle_phase"])
-        self.assertEqual([], payload["entries"])
+        self.assertIn(
+            payload["lifecycle_phase"],
+            {"CONTRACT_ONLY", "PORTFOLIO_DEVELOPMENT"},
+        )
+        if payload["lifecycle_phase"] == "CONTRACT_ONLY":
+            self.assertEqual([], payload["entries"])
+        else:
+            self.assertEqual(11, len(payload["entries"]))
+            self.assertTrue(
+                all(entry["status"] == "DRAFT" for entry in payload["entries"])
+            )
+            self.assertEqual(
+                ["PUBLISHED"],
+                payload["build_policy"]["include_statuses"],
+            )
 
     def test_consolidation_results_cover_ten_dossiers(self) -> None:
         payload = json.loads(

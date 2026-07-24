@@ -1,0 +1,83 @@
+{
+  "as_of": "2026-07-23",
+  "status": "PROTOTYPES_RETAINED_UNPUBLISHED",
+  "dispositions": [
+    {
+      "publication_id": "PUB-001",
+      "title": "How Star Atlas Governance Took Shape",
+      "disposition": "MERGE_AND_REWRITE",
+      "target_candidate_ids": ["PLAN-028"],
+      "reason": "Overlaps the institutional article and gives governance mechanics too much weight for an entrance portfolio."
+    },
+    {
+      "publication_id": "PUB-002",
+      "title": "Beyond the Vote",
+      "disposition": "MOVE_TO_RESEARCH_COLLECTION",
+      "target_candidate_ids": ["PLAN-029"],
+      "reason": "The material is valuable but better suited to case studies and advanced governance research."
+    },
+    {
+      "publication_id": "PUB-003",
+      "title": "Following the Treasury",
+      "disposition": "MOVE_TO_RESEARCH_COLLECTION",
+      "target_candidate_ids": ["PLAN-029"],
+      "reason": "The current emphasis is evidence process; a future public article should center funded work and outcomes."
+    },
+    {
+      "publication_id": "PUB-004",
+      "title": "ATLAS and POLIS",
+      "disposition": "REWRITE",
+      "target_candidate_ids": ["PLAN-019"],
+      "reason": "Retain the subject but lead with player and ecosystem use rather than archival measurement limits."
+    },
+    {
+      "publication_id": "PUB-005",
+      "title": "From SCORE to Starbased",
+      "disposition": "REWRITE_AND_SPLIT",
+      "target_candidate_ids": ["PLAN-012", "PLAN-013"],
+      "reason": "The player-facing transition and the broader SAGE taxonomy require separate narratives."
+    },
+    {
+      "publication_id": "PUB-006",
+      "title": "The Showroom and Holosim",
+      "disposition": "SPLIT",
+      "target_candidate_ids": ["PLAN-014", "PLAN-015"],
+      "reason": "The products are distinct experiences with different histories and audiences."
+    },
+    {
+      "publication_id": "PUB-007",
+      "title": "How Star Atlas Communicated Its Development",
+      "disposition": "MOVE_TO_RESEARCH_COLLECTION",
+      "target_candidate_ids": ["PLAN-002", "PLAN-026"],
+      "reason": "The chronology supports historical and media narratives but is too archive-process-centered as a foundational article."
+    },
+    {
+      "publication_id": "PUB-008",
+      "title": "The Recorded Community",
+      "disposition": "REWRITE",
+      "target_candidate_ids": ["PLAN-025"],
+      "reason": "Retain the subject while centering the shared community tradition rather than speaker-attribution limits."
+    },
+    {
+      "publication_id": "PUB-009",
+      "title": "The Institutions Behind Star Atlas",
+      "disposition": "MERGE_AND_REWRITE",
+      "target_candidate_ids": ["PLAN-028"],
+      "reason": "Substantially overlaps the governance history and should become one concise institutional guide."
+    },
+    {
+      "publication_id": "PUB-010",
+      "title": "Welcome to the Galia Expanse",
+      "disposition": "REWRITE",
+      "target_candidate_ids": ["PLAN-005", "PLAN-006", "PLAN-007", "PLAN-008", "PLAN-009"],
+      "reason": "Retain as the lore gateway and allow important factions, peoples and history to support their own stories."
+    },
+    {
+      "publication_id": "PUB-011",
+      "title": "The People of Star Atlas",
+      "disposition": "REWRITE_AND_EXPAND",
+      "target_candidate_ids": ["PLAN-023", "PLAN-024", "PLAN-026", "PLAN-027"],
+      "reason": "Retain the human-centered gateway while developing stronger guild, media and event knowledge."
+    }
+  ]
+}

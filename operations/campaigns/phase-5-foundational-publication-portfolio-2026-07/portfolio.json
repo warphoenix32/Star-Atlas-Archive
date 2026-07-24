@@ -1,0 +1,229 @@
+{
+  "campaign_id": "phase-5-foundational-publication-portfolio-2026-07",
+  "as_of": "2026-07-23",
+  "portfolio_status": "UNPUBLISHED_PROTOTYPES_SUPERSEDED_BY_PORTFOLIO_PLAN",
+  "articles": [
+    {
+      "publication_id": "PUB-001",
+      "slug": "how-star-atlas-governance-took-shape",
+      "title": "How Star Atlas Governance Took Shape",
+      "content_path": "publication/articles/how-star-atlas-governance-took-shape.md",
+      "audience": "Readers seeking an accessible institutional history of Star Atlas governance",
+      "risk_class": "R2",
+      "primary_topic": "Governance",
+      "related_topics": ["DAO", "Foundation", "Council", "POLIS"],
+      "summary": "How the DAO, Foundation, Council and POLIS electorate developed as distinct parts of one governance system.",
+      "description": "A clear institutional history of Star Atlas governance from operational rollout through formal ratification and later amendments.",
+      "source_knowledge_paths": [
+        "knowledge/governance/Governance-Constitutional-History.md",
+        "knowledge/governance/Star-Atlas-DAO.md",
+        "knowledge/governance/Star-Atlas-Foundation.md",
+        "knowledge/governance/Star-Atlas-Council.md",
+        "knowledge/governance/PIP-Lifecycle-and-Legislative-Process.md"
+      ],
+      "related_publication_ids": ["PUB-002", "PUB-003", "PUB-009"]
+    },
+    {
+      "publication_id": "PUB-002",
+      "slug": "beyond-the-vote",
+      "title": "Beyond the Vote: Success, Failure and Withdrawal in Star Atlas Governance",
+      "content_path": "publication/articles/beyond-the-vote.md",
+      "audience": "Readers researching Star Atlas proposal outcomes and governance history",
+      "risk_class": "R3",
+      "primary_topic": "Governance",
+      "related_topics": ["PIPs", "Elections", "Implementation", "Council"],
+      "summary": "Why election, failure, supersession, termination, cancellation and withdrawal require different historical labels.",
+      "description": "A mechanism-aware history of Star Atlas proposal outcomes that keeps passage separate from implementation.",
+      "source_knowledge_paths": [
+        "knowledge/governance/PIP-Registry.md",
+        "knowledge/governance/Council-Election-History.md",
+        "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+        "knowledge/governance/Governance-Implementation-and-Evidence-States.md"
+      ],
+      "related_publication_ids": ["PUB-001", "PUB-003"]
+    },
+    {
+      "publication_id": "PUB-003",
+      "slug": "following-the-treasury",
+      "title": "Following the Treasury: Authority, Funding and Payment Evidence",
+      "content_path": "publication/articles/following-the-treasury.md",
+      "audience": "Readers following Star Atlas DAO funding and treasury history",
+      "risk_class": "R3",
+      "primary_topic": "Treasury",
+      "related_topics": ["Ecosystem Fund", "PIP-33", "Payments", "Governance"],
+      "summary": "A guide to treasury entities and the evidence needed to distinguish requests, authorization, payment and outcomes.",
+      "description": "An evidence-qualified history of Star Atlas treasury architecture, Ecosystem Fund awards and direct DAO authorizations.",
+      "source_knowledge_paths": [
+        "knowledge/economy/DAO-Treasury-Architecture.md",
+        "knowledge/economy/Treasury-Authorization-and-Payment-Ledger.md",
+        "knowledge/governance/Ecosystem-Fund-Award-History.md",
+        "knowledge/governance/Ecosystem-Fund.md",
+        "knowledge/governance/PIP-33-ATMTA-Historic-Expense-Reimbursement.md"
+      ],
+      "related_publication_ids": ["PUB-001", "PUB-002", "PUB-004"]
+    },
+    {
+      "publication_id": "PUB-004",
+      "slug": "atlas-and-polis",
+      "title": "ATLAS and POLIS: Two Tokens, Different Institutions",
+      "content_path": "publication/articles/atlas-and-polis.md",
+      "audience": "Readers seeking a historical introduction to the Star Atlas token system",
+      "risk_class": "R3",
+      "primary_topic": "Economy",
+      "related_topics": ["ATLAS", "POLIS", "PVP", "Economic Reports"],
+      "summary": "The distinct histories of ATLAS utility and POLIS governance across changing products, programs and measurements.",
+      "description": "A dated guide to Star Atlas token roles, locking, governance voting power and the limits of supply and emissions evidence.",
+      "source_knowledge_paths": [
+        "knowledge/economy/ATLAS-Token-History.md",
+        "knowledge/economy/POLIS-Token-History.md",
+        "knowledge/economy/PVP-Voting-Power.md",
+        "knowledge/economy/Economic-Report-Catalog.md"
+      ],
+      "related_publication_ids": ["PUB-001", "PUB-003", "PUB-005"]
+    },
+    {
+      "publication_id": "PUB-005",
+      "slug": "from-score-to-starbased",
+      "title": "From SCORE to Starbased: The Evolution of Star Atlas Strategy",
+      "content_path": "publication/articles/from-score-to-starbased.md",
+      "audience": "Players and researchers following the history of Star Atlas strategy products",
+      "risk_class": "R3",
+      "primary_topic": "Gameplay",
+      "related_topics": ["SCORE", "SAGE", "Starbased", "C4"],
+      "summary": "How distinct products, programs and test surfaces formed the evolving Star Atlas strategy family.",
+      "description": "A lifecycle-qualified history of SCORE, Faction Fleet, SAGE Labs, Starbased, SAGE 3D and C4.",
+      "source_knowledge_paths": [
+        "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+        "knowledge/gameplay/SAGE.md",
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/economy/ATLAS-Token-History.md"
+      ],
+      "related_publication_ids": ["PUB-004", "PUB-006", "PUB-008"]
+    },
+    {
+      "publication_id": "PUB-006",
+      "slug": "showroom-and-holosim",
+      "title": "The Showroom and Holosim: Two Windows Into Star Atlas",
+      "content_path": "publication/articles/showroom-and-holosim.md",
+      "audience": "Readers comparing public Star Atlas client, simulation and test experiences",
+      "risk_class": "R2",
+      "primary_topic": "Gameplay",
+      "related_topics": ["Showroom", "Holosim", "Unreal Engine", "Testing"],
+      "summary": "A parallel history of two public experiences with different access, build and release meanings.",
+      "description": "How the pre-alpha UE5 Showroom and browser-based Holosim opened different windows into the Star Atlas project.",
+      "source_knowledge_paths": [
+        "knowledge/gameplay/UE5-Showroom.md",
+        "knowledge/gameplay/Holosim.md",
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "knowledge/gameplay/Product-Registry.md"
+      ],
+      "related_publication_ids": ["PUB-005", "PUB-007"]
+    },
+    {
+      "publication_id": "PUB-007",
+      "slug": "how-star-atlas-communicated-development",
+      "title": "How Star Atlas Communicated Its Development",
+      "content_path": "publication/articles/how-star-atlas-communicated-development.md",
+      "audience": "Readers and researchers navigating official Star Atlas communications",
+      "risk_class": "R2",
+      "primary_topic": "Communications",
+      "related_topics": ["Medium", "Discord", "X", "Newsroom"],
+      "summary": "How official publication surfaces preserved different kinds of statements and why repetition is not independent verification.",
+      "description": "A source-critical history of official Star Atlas communication across long-form, social, support and governance surfaces.",
+      "source_knowledge_paths": [
+        "knowledge/timeline/Official-Communications-Chronology.md",
+        "knowledge/media/Star-Atlas-Medium-Publication-Profile.md",
+        "knowledge/media/Official-Discord-Announcements-Profile.md",
+        "knowledge/media/Official-X-Account-Profile.md",
+        "knowledge/technology/Official-Technical-Surface-Inventory.md"
+      ],
+      "related_publication_ids": ["PUB-006", "PUB-008", "PUB-009", "PUB-011"]
+    },
+    {
+      "publication_id": "PUB-008",
+      "slug": "the-recorded-community",
+      "title": "The Recorded Community: Atlas Brew, Town Halls and Star Atlas TV",
+      "content_path": "publication/articles/the-recorded-community.md",
+      "audience": "Readers exploring the recorded institutional and community memory of Star Atlas",
+      "risk_class": "R3",
+      "primary_topic": "Community Media",
+      "related_topics": ["Atlas Brew", "Town Hall", "Transcripts", "Star Atlas TV"],
+      "summary": "How recordings and timestamps preserve institutional memory even when speaker identity remains unknown.",
+      "description": "A history of Atlas Brew, Town Halls and replay archives with practical evidence rules for unattributed transcripts.",
+      "source_knowledge_paths": [
+        "knowledge/media/Atlas-Brew-History.md",
+        "knowledge/media/Star-Atlas-Town-Hall-History.md",
+        "knowledge/media/VBTV-Star-Atlas-TV-Recording-Index.md",
+        "knowledge/people/Actor-Master-Index.md",
+        "knowledge/timeline/Official-Communications-Chronology.md"
+      ],
+      "related_publication_ids": ["PUB-005", "PUB-007", "PUB-011"]
+    },
+    {
+      "publication_id": "PUB-009",
+      "slug": "institutions-behind-star-atlas",
+      "title": "The Institutions Behind Star Atlas",
+      "content_path": "publication/articles/institutions-behind-star-atlas.md",
+      "audience": "Readers seeking a plain-language map of the organizations behind Star Atlas",
+      "risk_class": "R2",
+      "primary_topic": "Organizations",
+      "related_topics": ["ATMTA", "DAO", "Foundation", "Council"],
+      "summary": "A plain-language map of the organizations that develop, govern and administer Star Atlas.",
+      "description": "How ATMTA, the DAO, Foundation and Council occupy different roles around one ecosystem.",
+      "source_knowledge_paths": [
+        "knowledge/organizations/Institutional-Overview.md",
+        "knowledge/organizations/ATMTA.md",
+        "knowledge/organizations/Organization-and-Role-Registry.md",
+        "knowledge/governance/Star-Atlas-DAO.md",
+        "knowledge/governance/Star-Atlas-Foundation.md",
+        "knowledge/governance/Star-Atlas-Council.md"
+      ],
+      "related_publication_ids": ["PUB-001", "PUB-003", "PUB-007", "PUB-011"]
+    },
+    {
+      "publication_id": "PUB-010",
+      "slug": "welcome-to-the-galia-expanse",
+      "title": "Welcome to the Galia Expanse",
+      "content_path": "publication/articles/welcome-to-the-galia-expanse.md",
+      "audience": "New and returning readers exploring the Star Atlas universe",
+      "risk_class": "R3",
+      "primary_topic": "Lore",
+      "related_topics": ["MUD", "ONI", "Ustur", "Convergence War", "Council of Peace"],
+      "summary": "An introduction to the factions, peoples, places and postwar political order of the Galia Expanse.",
+      "description": "A reader-first guide to Star Atlas lore grounded in the captured owned-affiliated canonical taxonomy.",
+      "source_knowledge_paths": [
+        "knowledge/lore/Galia-Expanse.md",
+        "knowledge/lore/Manus-Ultima-Divina.md",
+        "knowledge/lore/ONI-Consortium.md",
+        "knowledge/lore/Ustur.md",
+        "knowledge/lore/Council-of-Peace.md",
+        "knowledge/lore/Convergence-War.md",
+        "knowledge/lore/Peoples-of-Galia.md",
+        "knowledge/lore/Canon-Registry.md"
+      ],
+      "related_publication_ids": ["PUB-009", "PUB-011"]
+    },
+    {
+      "publication_id": "PUB-011",
+      "slug": "people-of-star-atlas",
+      "title": "The People of Star Atlas: Players, Guilds, Creators and Community Memory",
+      "content_path": "publication/articles/people-of-star-atlas.md",
+      "audience": "Readers interested in the human community and culture around Star Atlas",
+      "risk_class": "R3",
+      "primary_topic": "Community",
+      "related_topics": ["Players", "Guilds", "Creators", "Journalism"],
+      "summary": "How players became organizers, publishers, competitors, critics and institution builders around an unfinished universe.",
+      "description": "A community history of Star Atlas players, guilds, creators and journalists with explicit identity and relevance boundaries.",
+      "source_knowledge_paths": [
+        "knowledge/timeline/Community-Timeline.md",
+        "knowledge/guilds/Guild-Master-Index.md",
+        "knowledge/people/Actor-Master-Index.md",
+        "knowledge/media/Media-and-Creator-Index.md",
+        "knowledge/people/Krigs-Source-Profile.md",
+        "knowledge/media/Aephia-Source-Profile.md",
+        "knowledge/research/Community-Source-Attribution-Backlog.md"
+      ],
+      "related_publication_ids": ["PUB-007", "PUB-008", "PUB-009", "PUB-010"]
+    }
+  ]
+}

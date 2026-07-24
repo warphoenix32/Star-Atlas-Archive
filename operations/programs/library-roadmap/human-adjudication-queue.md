@@ -2,7 +2,12 @@
 
 ## Blocking decisions
 
-None. Phase 4 is closed and Phase 5 may begin editorial drafting without a blocking adjudication.
+- `REVIEW-PHASE5-FOUNDATIONAL-PORTFOLIO-MAP`: Review the eight reader
+  gateways, thirty foundational narrative candidates, eleven prototype
+  dispositions, and HNN-influenced editorial house style. Confirm or revise the
+  page scope before the thirteen targeted Knowledge development items and
+  reader-first rewrites proceed. All prototypes remain `DRAFT` and excluded
+  from the public build.
 
 ## Closed decisions
 
@@ -26,4 +31,5 @@ None. Phase 4 is closed and Phase 5 may begin editorial drafting without a block
 - Whether to retire `operations/migrations/validate_wave_1_5.py` or preserve it in a clearly historical location.
 - Whether source-like campaign captures should move from `operations/` into `archive/raw/`; any move requires manifest and checksum migration.
 
-These decisions do not block Phase 4. No deletion or relocation is performed by this closeout.
+These cleanup decisions do not block Phase 5. No deletion or relocation is
+performed by this campaign.

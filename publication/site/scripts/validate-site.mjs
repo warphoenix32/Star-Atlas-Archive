@@ -59,6 +59,9 @@ if (!script.includes("showModal()") || !script.includes("loadIndex()")) {
 if (!articleHtml.includes("Canonical repository knowledge") || !articleScript.includes("openRecord()") || !articleScript.includes("renderMarkdown")) {
   failures.push("internal knowledge reader is incomplete");
 }
+if (articleHtml.includes("record-metadata") || articleScript.includes("renderMetadata") || articleScript.includes("knowledge_status")) {
+  failures.push("machine metadata is rendered in the public knowledge reader");
+}
 
 const knowledgeFiles = [];
 async function visit(directory) {

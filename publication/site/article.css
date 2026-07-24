@@ -80,29 +80,6 @@
   font-size: 1.4rem;
 }
 
-.record-metadata {
-  margin: 0;
-}
-
-.record-metadata div {
-  padding: 0.75rem 0;
-  border-top: 1px solid rgba(222, 216, 200, 0.1);
-}
-
-.record-metadata dt {
-  color: #9f957e;
-  font-size: 0.66rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.record-metadata dd {
-  margin: 0.25rem 0 0;
-  color: #d7d0bf;
-  font-size: 0.86rem;
-  line-height: 1.5;
-}
-
 .source-link {
   display: inline-block;
   margin-top: 1.4rem;
@@ -231,7 +208,6 @@
   .reading-header { min-height: 4.5rem; padding: 0 1.25rem; }
   .reading-shell { display: block; padding: 3rem 1.25rem 5rem; }
   .record-context { position: static; margin-bottom: 3rem; }
-  .record-metadata { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1rem; }
   .knowledge-record h1 { font-size: clamp(2.7rem, 13vw, 4.6rem); }
   .reading-footer { display: block; padding: 2rem 1.25rem; }
   .reading-footer p { margin-top: 0.8rem; }
