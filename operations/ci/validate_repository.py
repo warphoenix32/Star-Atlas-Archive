@@ -181,7 +181,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/campaigns/phase-5-foundational-publication-portfolio-2026-07/",
         "operations/tests/phase5_publication_portfolio/",
     )) for path in changes)
-    phase4_knowledge_consolidation = any(path.startswith((
+    phase4_knowledge_consolidation = not phase5_publication_portfolio and any(path.startswith((
         "operations/campaigns/phase-4-knowledge-consolidation-2026-07/",
         "operations/tests/phase4_knowledge_consolidation/",
     )) for path in changes)
@@ -310,7 +310,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = 1 if legacy_written_raw_recovery else sum((phase5_publication_portfolio, phase4_knowledge_consolidation, publication_contract_campaign, phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = 1 if legacy_written_raw_recovery else sum((phase5_publication_portfolio, phase4_knowledge_consolidation, publication_contract_campaign, phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend and not phase5_publication_portfolio, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if phase5_publication_portfolio:
