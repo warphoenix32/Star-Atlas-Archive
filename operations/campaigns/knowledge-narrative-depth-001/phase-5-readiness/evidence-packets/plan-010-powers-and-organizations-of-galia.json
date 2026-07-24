@@ -1,0 +1,28 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "HIGH",
+  "evidence_basis": [
+    "archive/normalized/lore/entities.jsonl",
+    "archive/normalized/lore/taxonomy.json",
+    "knowledge/lore/Canon-Registry.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "The lore repository is a commit-pinned snapshot and contains entities with very different levels of detail.",
+    "Taxonomy authority does not mean every in-universe claim has independent or immutable publication history."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/lore/Powers-and-Organizations-of-Galia.md",
+  "plan_id": "PLAN-010",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Promote dedicated pages for the most consequential organizations and reconcile later official canon, renamed entities, and hierarchy changes."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 7
+}

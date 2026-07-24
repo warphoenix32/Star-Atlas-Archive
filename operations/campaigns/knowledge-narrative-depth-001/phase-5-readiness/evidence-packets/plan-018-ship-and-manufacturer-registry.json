@@ -1,0 +1,31 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "archive/normalized/starbased-ship-states/metadata.json",
+    "archive/normalized/starbased-ship-states/base-ships.jsonl",
+    "archive/provenance/starbased-ship-states/rydn_starbased_ships_20260718.json",
+    "archive/normalized/lore/entities.jsonl"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "The 63-row export was distributed by Ryden Systems and asserted to duplicate an authoritative Star Atlas sheet, but the upstream URL and version were not independently recovered.",
+    "The dataset does not establish collection completeness, present marketplace availability, or manufacturer identity as a separate field.",
+    "Values are base templates intended for SAGE and C4; Holosim uses a different value system, future rebasing is possible, and components may modify individual ships."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/gameplay/Ship-and-Manufacturer-Registry.md",
+  "plan_id": "PLAN-018",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Recover the upstream Star Atlas ship-stat document, version history, marketplace IDs and URLs, explicit manufacturer fields, and change notices.",
+    "Create separate versioned registries for Holosim and component-modified ship instances."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 8
+}

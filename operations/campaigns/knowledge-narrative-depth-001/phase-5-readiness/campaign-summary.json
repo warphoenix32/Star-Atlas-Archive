@@ -1,0 +1,125 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "campaign_id": "phase-5-knowledge-readiness-2026-07",
+  "graph_modified": false,
+  "knowledge_pages_created": 13,
+  "knowledge_status_distribution": {
+    "HISTORICAL": 1,
+    "QUALIFIED": 12
+  },
+  "outputs": [
+    {
+      "evidence_packet": "evidence-packets/plan-001-star-atlas-identity-and-scope.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/Star-Atlas-Identity-and-Scope.md",
+      "plan_id": "PLAN-001",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R2"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-004-turning-points-in-star-atlas-history.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/timeline/Turning-Points-in-Star-Atlas-History.md",
+      "plan_id": "PLAN-004",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-018-ship-and-manufacturer-registry.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/gameplay/Ship-and-Manufacturer-Registry.md",
+      "plan_id": "PLAN-018",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-020-player-economy-history.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/economy/Player-Economy-History.md",
+      "plan_id": "PLAN-020",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-024-guild-and-dac-history.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/guilds/Guild-and-DAC-History.md",
+      "plan_id": "PLAN-024",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-016-escape-velocity.json",
+      "knowledge_status": "HISTORICAL",
+      "page_path": "knowledge/gameplay/Escape-Velocity.md",
+      "plan_id": "PLAN-016",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R2"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-021-resource-mining-crafting-and-trade.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/economy/Resource-Mining-Crafting-and-Trade.md",
+      "plan_id": "PLAN-021",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-010-powers-and-organizations-of-galia.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/lore/Powers-and-Organizations-of-Galia.md",
+      "plan_id": "PLAN-010",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-027-community-events-and-traditions.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/events/Community-Events-and-Traditions.md",
+      "plan_id": "PLAN-027",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-022-ships-assets-and-ownership.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/economy/Ships-Assets-and-Ownership.md",
+      "plan_id": "PLAN-022",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-011-lore-and-canon-publication-history.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/lore/Lore-and-Canon-Publication-History.md",
+      "plan_id": "PLAN-011",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-029-proposal-impact-casebook.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/governance/Proposal-Impact-Casebook.md",
+      "plan_id": "PLAN-029",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R3"
+    },
+    {
+      "evidence_packet": "evidence-packets/plan-030-reader-technology-and-program-registry.json",
+      "knowledge_status": "QUALIFIED",
+      "page_path": "knowledge/technology/Reader-Technology-and-Program-Registry.md",
+      "plan_id": "PLAN-030",
+      "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+      "risk_class": "R2"
+    }
+  ],
+  "planned_gap_count": 13,
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "risk_distribution": {
+    "R2": 3,
+    "R3": 10
+  },
+  "status": "AWAITING_HUMAN_SEMANTIC_REVIEW"
+}

@@ -6,7 +6,7 @@
 
 - **PASS — portfolio_count:** 17 outputs
 - **PASS — evidence_packet_count:** 17 packets for 17 outputs
-- **PASS — campaign_json:** 139 files parsed
+- **PASS — campaign_json:** 154 files parsed
 - **PASS — required_metadata:** all 17 pages contain required metadata
 - **PASS — material_claims:** all packets contain source-linked material claims
 - **PASS — evidence_references:** all packet source paths resolve
@@ -15,7 +15,8 @@
 - **PASS — repository_scope:** archive evidence, graph, and publication untouched; integration manifest changes allowed
 - **PASS — semantic_boundaries:** required state distinctions preserved
 - **PASS — git_diff_check:** clean
-- **PASS — campaign_scripts_compile:** 22 campaign scripts compiled
+- **PASS — phase5_knowledge_readiness:** 13 targeted publication gaps reconcile to review-ready Knowledge dossiers
+- **PASS — campaign_scripts_compile:** 24 campaign scripts compiled
 
 ## Portfolio
 

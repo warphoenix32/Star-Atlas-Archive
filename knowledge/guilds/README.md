@@ -22,6 +22,8 @@ Guilds and DACs are player institutions: communities that organize knowledge, pr
 
 Begin with the [Guild and DAC Master Index](Guild-Master-Index.md), which separates documented identities from operator-confirmed context and unresolved current state. Guild publications are indexed in [Media and Creators](../media/README.md), while ecosystem-level governance remains in [Governance](../governance/README.md).
 
+Continue to the [History of Star Atlas Guilds and DACs](Guild-and-DAC-History.md) for a narrative account of Aephia, Agora, Dark Matter, Rome, The Vanguard, and the evidence needed for fuller institutional histories.
+
 ## Reading guild evidence
 
 Self-descriptions are valuable first-party institutional evidence, but claims about size, influence, awards, assets, or rivals may require independent corroboration. Tags can establish a likely association without proving formal membership. Historical leadership should always be dated.

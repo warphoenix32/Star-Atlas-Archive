@@ -1,0 +1,31 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "HIGH",
+  "evidence_basis": [
+    "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+    "knowledge/gameplay/Product-Registry.md",
+    "knowledge/lore/Galia-Expanse.md",
+    "knowledge/organizations/Institutional-Overview.md",
+    "knowledge/governance/Governance-and-Economy-Overview.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "Star Atlas changes across multiple products, tests, programs, and publication surfaces; no single page establishes every current feature.",
+    "The public vision is broader than the features independently documented as released or accessible at any one date."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/Star-Atlas-Identity-and-Scope.md",
+  "plan_id": "PLAN-001",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Maintain a dated, independently checked inventory of public products, test environments, programs, and access requirements.",
+    "Recover a complete corporate and product-definition history from the project's earliest public materials."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R2",
+  "risk_score": 4
+}

@@ -1,0 +1,29 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "HIGH",
+  "evidence_basis": [
+    "knowledge/technology/Technical-Platform.md",
+    "knowledge/technology/Official-Technical-Surface-Inventory.md",
+    "knowledge/gameplay/UE5-Showroom.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-F217B64FD0342839.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "Documentation, source code, decoder support, and a listed address do not independently prove deployment, uptime, audit status, or product integration.",
+    "Program version, upgrade authority, executable hash, and consuming build are incomplete for many surfaces."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/technology/Reader-Technology-and-Program-Registry.md",
+  "plan_id": "PLAN-030",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Map every program and game ID to deployments, upgrades, IDLs, audits, product builds, API versions, incidents, and deprecations."
+  ],
+  "review_after": "2027-01-23",
+  "risk_class": "R2",
+  "risk_score": 6
+}

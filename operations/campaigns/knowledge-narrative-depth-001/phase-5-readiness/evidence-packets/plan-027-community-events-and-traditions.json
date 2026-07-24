@@ -1,0 +1,30 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "knowledge/events/Event-Evidence-Registry.md",
+    "knowledge/media/Atlas-Brew-History.md",
+    "knowledge/media/Star-Atlas-Town-Hall-History.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-AB9BE32532D219C9.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-E89CAA2834793DCC.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "This is a selective history; complete event, episode, participant, result, prize, and recording ledgers do not yet exist.",
+    "An announcement or scheduled date is not treated as proof that an event occurred."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/events/Community-Events-and-Traditions.md",
+  "plan_id": "PLAN-027",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Recover official and community event calendars, occurrence evidence, participant rosters, recordings, results, judging records, and prize or payment evidence."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 7
+}

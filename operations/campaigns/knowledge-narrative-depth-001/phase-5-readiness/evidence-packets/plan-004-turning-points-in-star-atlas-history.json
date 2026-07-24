@@ -1,0 +1,32 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "knowledge/timeline/Master-Timeline.md",
+    "knowledge/timeline/Corporate-Timeline.md",
+    "knowledge/timeline/Product-Timeline.md",
+    "knowledge/timeline/Governance-Timeline.md",
+    "archive/source-records/campaign-charlie-hnn/SRC-HNN-03991C709B75E22E.md",
+    "archive/source-records/campaign-charlie-hnn/SRC-HNN-A0BE0ADE1E7A46D5.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "Selection and periodization are curator judgments rather than source-native classifications.",
+    "Primary corporate records for the FTX exposure, 2023 restructuring, and later financing remain incomplete."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/timeline/Turning-Points-in-Star-Atlas-History.md",
+  "plan_id": "PLAN-004",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Recover ATMTA financial disclosures, staffing records, financing documents, and contemporary executive statements for the 2022-2023 contraction.",
+    "Measure the player and economic consequences of major transitions using reconciled product and transaction data."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 8
+}

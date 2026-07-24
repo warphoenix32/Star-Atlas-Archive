@@ -1,0 +1,29 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "knowledge/lore/Canon-Registry.md",
+    "knowledge/timeline/Lore-Timeline.md",
+    "operations/campaigns/lore-repository-ingestion-2026-07/taxonomy-migration-report.md",
+    "archive/manifests/lore-repository-ingestion-2026-07.json"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "Publication dates and revision histories are missing for many upstream lore pages.",
+    "The captured repository is a historical canonical-source snapshot, not proof that every entry remains current without later review."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/lore/Lore-and-Canon-Publication-History.md",
+  "plan_id": "PLAN-011",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Recover versioned lore releases, deleted pages, white papers, graphic-novel editions, marketplace descriptions, and official revision notices."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 8
+}

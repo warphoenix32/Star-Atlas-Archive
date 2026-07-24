@@ -24,6 +24,8 @@ Events are where planned activity becomes historical occurrence—but only when 
 
 The [Event Evidence Registry](Event-Evidence-Registry.md) records the strongest evidence state for named events and explains why some cases remain deferred. It currently includes the COPA Festival of Guilds, Community Week 2024, and 426LIVE 2022 as instructive examples.
 
+The [Community Events and Traditions](Community-Events-and-Traditions.md) history places those cases beside Town Halls, Atlas Brew, competitions, awards, and recurring community practices.
+
 ## How an event earns a dedicated page
 
 A standalone event history requires an identifiable event and evidence that it occurred. Strong histories combine announcements or programs with occurrence records, results, attributed testimony, recordings, or well-sourced retrospectives. An announcement alone cannot establish attendance, sessions, winners, outcomes, or completion.

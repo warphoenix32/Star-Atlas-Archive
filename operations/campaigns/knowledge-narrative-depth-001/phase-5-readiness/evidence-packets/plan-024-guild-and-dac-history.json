@@ -1,0 +1,29 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "knowledge/guilds/Guild-Master-Index.md",
+    "knowledge/timeline/Community-Timeline.md",
+    "knowledge/media/Aephia-Source-Profile.md",
+    "operations/campaigns/discord-community-indexing-001/curator-decisions.json"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "The record is strongest for public identity and activity, not complete founding, membership, leadership, alliance, rivalry, or dissolution histories.",
+    "Tags and historical associations do not prove current membership or office."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/guilds/Guild-and-DAC-History.md",
+  "plan_id": "PLAN-024",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Acquire dated guild charters, leadership transitions, member rosters, faction alignment, alliances, mergers, dissolutions, event results, and public project histories."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 8
+}

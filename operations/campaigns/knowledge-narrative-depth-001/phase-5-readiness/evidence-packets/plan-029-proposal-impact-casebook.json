@@ -1,0 +1,29 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "knowledge/governance/PIP-Registry.md",
+    "knowledge/governance/Governance-Constitutional-History.md",
+    "knowledge/governance/Governance-Failure-and-Termination-Casebook.md",
+    "knowledge/governance/Ecosystem-Fund-Award-History.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "Impact selection is editorial and does not imply that less-discussed PIPs are unimportant.",
+    "Council-reported lifecycle and payment states are not independent implementation or on-chain verification."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/governance/Proposal-Impact-Casebook.md",
+  "plan_id": "PLAN-029",
+  "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+  "publication_modified": false,
+  "research_gaps": [
+    "Acquire proposal-specific implementation, payment, deliverable, termination, election-result, and outcome records."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 8
+}

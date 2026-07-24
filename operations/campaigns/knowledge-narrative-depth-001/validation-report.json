@@ -16,7 +16,7 @@
     {
       "check": "campaign_json",
       "result": "PASS",
-      "detail": "139 files parsed"
+      "detail": "154 files parsed"
     },
     {
       "check": "required_metadata",
@@ -59,9 +59,14 @@
       "detail": "clean"
     },
     {
+      "check": "phase5_knowledge_readiness",
+      "result": "PASS",
+      "detail": "13 targeted publication gaps reconcile to review-ready Knowledge dossiers"
+    },
+    {
       "check": "campaign_scripts_compile",
       "result": "PASS",
-      "detail": "22 campaign scripts compiled"
+      "detail": "24 campaign scripts compiled"
     }
   ],
   "output_count": 17,
