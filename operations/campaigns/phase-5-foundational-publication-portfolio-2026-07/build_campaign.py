@@ -24,6 +24,8 @@ READINESS_MD = CAMPAIGN / "knowledge-readiness-audit.md"
 BACKLOG_JSON = CAMPAIGN / "targeted-knowledge-backlog.json"
 BACKLOG_MD = CAMPAIGN / "targeted-knowledge-backlog.md"
 PROTOTYPE_DISPOSITIONS_MD = CAMPAIGN / "prototype-dispositions.md"
+EDITORIAL_REVIEW_JSON = CAMPAIGN / "editorial-wave-1-review.json"
+EDITORIAL_REVIEW_MD = CAMPAIGN / "editorial-wave-1-review.md"
 
 
 def load_json(path: Path) -> Any:
@@ -52,7 +54,7 @@ def build_manifest(portfolio: dict[str, Any]) -> dict[str, Any]:
                 "slug": article["slug"],
                 "title": article["title"],
                 "type": "ARTICLE",
-                "status": "DRAFT",
+                "status": article.get("status", "DRAFT"),
                 "audience": article["audience"],
                 "content_path": article["content_path"],
                 "source_knowledge_paths": article["source_knowledge_paths"],
@@ -87,7 +89,7 @@ def build_manifest(portfolio: dict[str, Any]) -> dict[str, Any]:
                     "workflow_metadata": "HIDDEN",
                 },
                 "related_publication_ids": article["related_publication_ids"],
-                "revision_history": [],
+                "revision_history": article.get("revision_history", []),
             }
         )
     entries.sort(key=lambda value: value["publication_id"])
@@ -189,10 +191,16 @@ def build_summary(
     return {
         "campaign_id": portfolio["campaign_id"],
         "as_of": portfolio["as_of"],
-        "status": "PORTFOLIO_MAP_COMPLETE_AWAITING_HUMAN_SCOPE_REVIEW",
+        "status": "EDITORIAL_WAVE_1_AWAITING_HUMAN_SEMANTIC_REVIEW",
         "portfolio": {
             "articles_drafted": len(portfolio["articles"]),
             "manifest_entries": len(manifest["entries"]),
+            "draft_entries": sum(
+                entry["status"] == "DRAFT" for entry in manifest["entries"]
+            ),
+            "in_review_entries": sum(
+                entry["status"] == "IN_REVIEW" for entry in manifest["entries"]
+            ),
             "published_entries": sum(
                 entry["status"] == "PUBLISHED" for entry in manifest["entries"]
             ),
@@ -232,23 +240,100 @@ def build_summary(
             "archive_evidence_modified": False,
             "knowledge_modified": False,
             "graph_modified": False,
-            "publication_site_modified": True,
-            "publication_site_change": (
-                "Removed top-of-page machine metadata rendering; no content published"
-            ),
+            "publication_site_modified": False,
+            "publication_site_change": "No site or deployment change in Editorial Wave 1",
             "drafts_in_public_build": False,
             "intergalactic_herald_profile_included": False,
         },
         "human_adjudication_required": True,
         "human_review_scope": [
-            "Approve or revise the eight reader gateways",
-            "Approve or revise the thirty-page foundational portfolio",
-            "Approve the eleven prototype dispositions",
-            "Approve the HNN-influenced editorial house style",
-            "Authorize targeted Knowledge development before redrafting",
+            "Review the seven Wave 1 articles for narrative accuracy and completeness",
+            "Confirm lifecycle distinctions remain understandable to ordinary readers",
+            "Confirm lore and community qualifications are proportionate",
+            "Approve, revise or defer each article before publication",
         ],
-        "next_gate": "Human review of the complete portfolio map and readiness audit",
+        "next_gate": "Human semantic review of the seven Wave 1 articles",
     }
+
+
+def write_editorial_review(
+    portfolio: dict[str, Any], manifest: dict[str, Any]
+) -> None:
+    review_entries = [
+        {
+            "publication_id": entry["publication_id"],
+            "title": entry["title"],
+            "content_path": entry["content_path"],
+            "status": entry["status"],
+            "risk_class": next(
+                article["risk_class"]
+                for article in portfolio["articles"]
+                if article["publication_id"] == entry["publication_id"]
+            ),
+            "human_approval": None,
+            "review_questions": [
+                "Is the narrative accurate, useful and sufficiently comprehensive?",
+                "Are uncertainty and lifecycle distinctions visible without dominating the story?",
+                "Is any material claim missing necessary context or qualification?",
+            ],
+        }
+        for entry in manifest["entries"]
+        if entry["status"] == "IN_REVIEW"
+    ]
+    review = {
+        "campaign_id": portfolio["campaign_id"],
+        "review_id": "phase-5-editorial-wave-1",
+        "as_of": portfolio["as_of"],
+        "status": "AWAITING_HUMAN_SEMANTIC_REVIEW",
+        "publication_status": "UNPUBLISHED",
+        "deployment_status": "NOT_STARTED",
+        "articles": review_entries,
+        "deferred": [
+            {
+                "subject": "Showroom and Holosim",
+                "reason": "The existing combined prototype must be split into distinct product histories.",
+            },
+            {
+                "subject": "SAGE product family",
+                "reason": "Later articles must preserve distinct SAGE Labs, Starbased, SAGE 3D and C4 lifecycle states.",
+            },
+            {
+                "subject": "Governance and institutional histories",
+                "reason": "These remain outside Wave 1 while reader-first consolidation is planned.",
+            },
+        ],
+        "human_adjudication_required": True,
+    }
+    EDITORIAL_REVIEW_JSON.write_text(
+        json.dumps(review, indent=2, ensure_ascii=False) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+    rows = "\n".join(
+        f"| {item['publication_id']} | [{item['title']}](../../../{item['content_path']}) | "
+        f"{item['risk_class']} | {item['status']} | Pending |"
+        for item in review_entries
+    )
+    EDITORIAL_REVIEW_MD.write_text(
+        "# Phase 5 Editorial Wave 1 Review\n\n"
+        "Seven reader-first articles are ready for human semantic review. They "
+        "remain outside the public build, have no approval record and have not "
+        "been deployed.\n\n"
+        "| ID | Article | Risk | State | Human decision |\n"
+        "| --- | --- | --- | --- | --- |\n"
+        f"{rows}\n\n"
+        "## Review questions\n\n"
+        "1. Is each narrative accurate, engaging and sufficiently comprehensive?\n"
+        "2. Are lifecycle and evidence distinctions clear without overwhelming the story?\n"
+        "3. Does any material claim need additional context, qualification or removal?\n"
+        "4. Should the article be approved, revised or deferred?\n\n"
+        "## Deferred from Wave 1\n\n"
+        "- Split the combined Showroom and Holosim prototype into distinct histories.\n"
+        "- Preserve distinct SAGE Labs, Starbased, SAGE 3D and C4 lifecycle narratives.\n"
+        "- Consolidate governance and institutional prototypes in a later editorial wave.\n",
+        encoding="utf-8",
+        newline="\n",
+    )
 
 
 def write_planning_reports(
@@ -371,31 +456,33 @@ def write_planning_reports(
 
 def write_markdown(summary: dict[str, Any], portfolio: dict[str, Any]) -> None:
     article_rows = "\n".join(
-        "| {id} | [{title}](../../../{path}) | {risk} | {words} | DRAFT |".format(
+        "| {id} | [{title}](../../../{path}) | {risk} | {words} | {status} |".format(
             id=article["publication_id"],
             title=article["title"],
             path=article["content_path"],
             risk=article["risk_class"],
             words=summary["portfolio"]["word_counts"][article["publication_id"]],
+            status=article.get("status", "DRAFT"),
         )
         for article in portfolio["articles"]
     )
-    markdown = f"""# Phase 5 Reader-First Publication Planning
+    markdown = f"""# Phase 5 Reader-First Editorial Campaign
 
 Status: **{summary['status']}**
 
-The original eleven articles are retained as unpublished editorial prototypes.
-The approved redesign now defines eight reader gateways, a thirty-page
-foundational narrative map and a targeted Knowledge development backlog before
-any article is approved.
+The approved redesign defines eight reader gateways and a thirty-page
+foundational narrative map. Editorial Wave 1 advances seven reader-first
+articles to human review while seven other prototypes remain drafts.
 
 | ID | Prototype | Risk | Words | State |
 | --- | --- | ---: | ---: | --- |
 {article_rows}
 
-## Prototype metrics
+## Portfolio metrics
 
-- Draft articles: {summary['portfolio']['articles_drafted']}
+- Manifest entries: {summary['portfolio']['manifest_entries']}
+- Draft entries: {summary['portfolio']['draft_entries']}
+- In-review entries: {summary['portfolio']['in_review_entries']}
 - Total narrative words: {summary['portfolio']['total_words']}
 - Published entries: {summary['portfolio']['published_entries']}
 - Risk distribution: {json.dumps(summary['portfolio']['risk_class_counts'], sort_keys=True)}
@@ -435,10 +522,10 @@ continues to exclude all non-`PUBLISHED` entries from the public build.
 
 ## Human gate
 
-Human review is required for the gateway structure, thirty-page scope,
-prototype dispositions and editorial house style before targeted Knowledge
-development and article redrafting proceed. The Library Publisher must not
-publish or self-approve the prototypes.
+Human semantic review is required for all seven Wave 1 articles. Reviewers
+should assess narrative accuracy, comprehensiveness, lifecycle distinctions
+and proportional treatment of uncertainty. The Library Publisher must not
+publish or self-approve any article.
 """
     SUMMARY_MD.write_text(markdown, encoding="utf-8", newline="\n")
 
@@ -473,10 +560,12 @@ def main() -> int:
         newline="\n",
     )
     write_markdown(summary, portfolio)
+    write_editorial_review(portfolio, manifest)
     print(
         f"BUILT {len(plan['foundational_pages'])} planned pages; "
         f"{summary['portfolio_redesign']['ready_to_draft']} ready to draft; "
-        f"{len(manifest['entries'])} unpublished prototypes"
+        f"{summary['portfolio']['in_review_entries']} articles in review; "
+        f"{summary['portfolio']['published_entries']} published"
     )
     return 0
 

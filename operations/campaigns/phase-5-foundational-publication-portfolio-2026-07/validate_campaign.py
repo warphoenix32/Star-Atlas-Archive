@@ -24,6 +24,7 @@ READINESS_PATH = CAMPAIGN / "knowledge-readiness-audit.json"
 BACKLOG_PATH = CAMPAIGN / "targeted-knowledge-backlog.json"
 VALIDATION_JSON = CAMPAIGN / "validation-report.json"
 VALIDATION_MD = CAMPAIGN / "validation-report.md"
+EDITORIAL_REVIEW_PATH = CAMPAIGN / "editorial-wave-1-review.json"
 LINK_RE = re.compile(r"(?<!!)\[[^\]]+\]\(([^)]+)\)")
 FRONT_MATTER_RE = re.compile(r"\A---\n(.*?)\n---\n", re.DOTALL)
 INTERNAL_BODY_TERMS = (
@@ -93,7 +94,7 @@ def validate_manifest(
     portfolio: dict[str, Any], manifest: dict[str, Any]
 ) -> tuple[list[str], dict[str, int]]:
     failures: list[str] = []
-    metrics = {"entries": 0, "drafts": 0, "published": 0}
+    metrics = {"entries": 0, "drafts": 0, "in_review": 0, "published": 0}
     if manifest.get("manifest_id") != "publication-manifest-star-atlas-library":
         failures.append("manifest_id does not satisfy the schema-compatible stable ID")
     if manifest.get("lifecycle_phase") != "PORTFOLIO_DEVELOPMENT":
@@ -105,9 +106,12 @@ def validate_manifest(
         return failures + ["manifest entries must be an array"], metrics
     metrics["entries"] = len(entries)
     metrics["drafts"] = sum(entry.get("status") == "DRAFT" for entry in entries)
+    metrics["in_review"] = sum(
+        entry.get("status") == "IN_REVIEW" for entry in entries
+    )
     metrics["published"] = sum(entry.get("status") == "PUBLISHED" for entry in entries)
-    if len(entries) != 11:
-        failures.append(f"expected 11 manifest entries, found {len(entries)}")
+    if len(entries) != 14:
+        failures.append(f"expected 14 manifest entries, found {len(entries)}")
     ids = [entry.get("publication_id") for entry in entries]
     slugs = [entry.get("slug") for entry in entries]
     if ids != sorted(ids):
@@ -116,8 +120,14 @@ def validate_manifest(
         failures.append("duplicate publication_id")
     if len(slugs) != len(set(slugs)):
         failures.append("duplicate publication slug")
-    if any(entry.get("status") != "DRAFT" for entry in entries):
-        failures.append("every initial portfolio entry must remain DRAFT")
+    if metrics["drafts"] != 7 or metrics["in_review"] != 7:
+        failures.append(
+            "editorial wave must contain seven DRAFT and seven IN_REVIEW entries"
+        )
+    if metrics["published"] != 0:
+        failures.append("editorial wave must not publish entries")
+    if any(entry.get("status") not in {"DRAFT", "IN_REVIEW"} for entry in entries):
+        failures.append("editorial wave contains an unsupported lifecycle status")
 
     portfolio_by_id = {
         article["publication_id"]: article for article in portfolio.get("articles", [])
@@ -129,6 +139,8 @@ def validate_manifest(
         if article is None:
             failures.append(f"{publication_id}: no portfolio source")
             continue
+        if entry.get("status") != article.get("status", "DRAFT"):
+            failures.append(f"{publication_id}: manifest and portfolio status differ")
         content_value = entry.get("content_path")
         content_path = ROOT / content_value if isinstance(content_value, str) else None
         if content_path is None or not content_path.is_file():
@@ -197,7 +209,7 @@ def validate_articles(
             "publication_id": publication_id,
             "slug": article["slug"],
             "title": article["title"],
-            "status": "DRAFT",
+            "status": article.get("status", "DRAFT"),
             "as_of": portfolio["as_of"],
         }
         for key, value in expected.items():
@@ -292,6 +304,37 @@ def validate_community_packet() -> list[str]:
     return failures
 
 
+def validate_editorial_review(manifest: dict[str, Any]) -> list[str]:
+    review = load_json(EDITORIAL_REVIEW_PATH)
+    failures: list[str] = []
+    review_ids = {
+        item.get("publication_id") for item in review.get("articles", [])
+    }
+    expected_ids = {
+        entry.get("publication_id")
+        for entry in manifest.get("entries", [])
+        if entry.get("status") == "IN_REVIEW"
+    }
+    if review.get("status") != "AWAITING_HUMAN_SEMANTIC_REVIEW":
+        failures.append("editorial review status is not awaiting human review")
+    if review.get("publication_status") != "UNPUBLISHED":
+        failures.append("editorial review incorrectly reports publication")
+    if review.get("deployment_status") != "NOT_STARTED":
+        failures.append("editorial review incorrectly reports deployment")
+    if review_ids != expected_ids:
+        failures.append("editorial review articles do not reconcile to IN_REVIEW entries")
+    for item in review.get("articles", []):
+        if item.get("human_approval") is not None:
+            failures.append(
+                f"{item.get('publication_id')}: human approval must remain pending"
+            )
+        if not item.get("review_questions"):
+            failures.append(
+                f"{item.get('publication_id')}: review questions are missing"
+            )
+    return failures
+
+
 def validate_publication_plan(
     portfolio: dict[str, Any],
     plan: dict[str, Any],
@@ -301,9 +344,9 @@ def validate_publication_plan(
     failures: list[str] = []
     if (
         portfolio.get("portfolio_status")
-        != "UNPUBLISHED_PROTOTYPES_SUPERSEDED_BY_PORTFOLIO_PLAN"
+        != "EDITORIAL_WAVE_1_IN_REVIEW"
     ):
-        failures.append("prototype portfolio status does not reflect the redesign")
+        failures.append("portfolio status does not reflect Editorial Wave 1")
     gateways = plan.get("gateways", [])
     pages = plan.get("foundational_pages", [])
     if len(gateways) != 8:
@@ -368,9 +411,7 @@ def validate_publication_plan(
         failures.append("targeted Knowledge backlog count does not reconcile")
 
     dispositions = load_json(PROTOTYPE_DISPOSITIONS_PATH).get("dispositions", [])
-    prototype_ids = {
-        article["publication_id"] for article in portfolio.get("articles", [])
-    }
+    prototype_ids = {f"PUB-{number:03d}" for number in range(1, 12)}
     disposition_ids = {item.get("publication_id") for item in dispositions}
     if disposition_ids != prototype_ids:
         failures.append("prototype dispositions do not cover all and only prototypes")
@@ -437,6 +478,7 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
         ("knowledge_readiness_json", READINESS_PATH),
         ("targeted_knowledge_backlog_json", BACKLOG_PATH),
         ("community_evidence_json", CAMPAIGN / "community-evidence-development.json"),
+        ("editorial_wave_1_review_json", EDITORIAL_REVIEW_PATH),
     ):
         try:
             load_json(path)
@@ -478,6 +520,15 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
         }
     )
     failures.extend(community_failures)
+
+    review_failures = validate_editorial_review(manifest)
+    checks.append(
+        {
+            "check": "editorial_wave_1_human_gate",
+            "status": "PASS" if not review_failures else "FAIL",
+        }
+    )
+    failures.extend(review_failures)
 
     plan_failures, plan_metrics = validate_publication_plan(
         portfolio, plan, readiness, backlog
@@ -522,7 +573,7 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
         "metrics": metrics,
         "failures": failures,
         "human_adjudication_required": True,
-        "next_gate": "Human review of the complete portfolio map and readiness audit",
+        "next_gate": "Human semantic review of the seven Wave 1 articles",
     }
 
 
@@ -548,6 +599,7 @@ Result: **{result['status']}**
 
 - Manifest entries: {result['metrics']['entries']}
 - Draft entries: {result['metrics']['drafts']}
+- In-review entries: {result['metrics']['in_review']}
 - Published entries: {result['metrics']['published']}
 - Narrative words: {result['metrics']['total_words']}
 - Local evidence links checked: {result['metrics']['links_checked']}
@@ -558,8 +610,8 @@ Result: **{result['status']}**
 
 {failures}
 
-Automated validation does not approve editorial judgment. All eleven articles
-remain drafts outside the public build pending human semantic review.
+Automated validation does not approve editorial judgment. Seven articles remain
+in review and seven remain drafts, all outside the public build.
 """
     VALIDATION_MD.write_text(markdown, encoding="utf-8", newline="\n")
 

@@ -2,86 +2,103 @@
 publication_id: PUB-010
 slug: welcome-to-the-galia-expanse
 title: "Welcome to the Galia Expanse"
-seo_title: "The Galia Expanse: Star Atlas Factions, Peoples and Lore History"
-seo_description: "An introduction to the Galia Expanse, MUD, ONI, Ustur, the Convergence War, Council of Peace and the peoples who inhabit Star Atlas lore."
-status: DRAFT
+seo_title: "The Galia Expanse: A Guide to the Star Atlas Universe"
+seo_description: "Enter the Galia Expanse, meet its great factions and peoples, and discover the war and fragile peace that shape Star Atlas lore."
+status: IN_REVIEW
 as_of: 2026-07-23
 audience: "New and returning readers exploring the Star Atlas universe"
 ---
 
 # Welcome to the Galia Expanse
 
-The Galia Expanse is the inhabited heart of Star Atlas: a vast field of systems, worlds, trade routes, factional territories and dangerous frontiers shaped by migration, belief, industry and war.
+The Galia Expanse is a place where a trade route can become a frontier, a resource can begin a war and a ship can carry the memory of an entire civilization.
 
-Three major factions dominate its political history—Manus Ultima Divina, the ONI Consortium and the Ustur—but the setting is larger than their borders. Independent peoples, corporations, religious orders, criminal networks and smaller powers give Galia a history that cannot be reduced to three colors on a map.
+It is the principal setting of Star Atlas: a vast region of star systems, worlds, stations, factional territories and dangerous spaces beyond the easy reach of law. Its great powers are familiar—MUD, ONI and Ustur—but Galia is larger than their borders and older than their peace.
 
-## A galaxy arranged by risk
+To enter the Expanse is to enter a history shaped by survival, cooperation, awakening and the terrible consequences of treating life as a resource.
 
-Galia is commonly divided into low-, medium- and high-risk zones. These regions are more than gameplay labels. They describe changing relationships among security, state reach, commercial opportunity and danger.
+## A galaxy measured by danger
 
-The captured Galia atlas organizes its data as region, star system, planet and resources. At its preserved commit it reports 69 regions and 945 star systems. Those figures belong to a historical source snapshot. Later maps, exports or game development may change them.
+Galia is commonly described through low-, medium- and high-risk space.
 
-This is an important rule for lore generally: a place can be canonical while its controlling faction, resource table or system count remains date-bound.
+These zones can guide gameplay, but they also tell a political story. Low-risk space implies stronger factional control and safer movement. Medium-risk space carries greater uncertainty and competition. High-risk space lies beyond the comfort of the settled order, where opportunity and danger grow together.
 
-## MUD: humanity after Earth
+The captured Galia atlas organizes the setting from regions to star systems, planets and resources. At that preserved snapshot it records 69 regions and 945 star systems. Those numbers offer a sense of scale, not a permanent cosmic census. Later maps and stories may change them.
 
-**Manus Ultima Divina**, usually called MUD, is the major human faction. Its founding story begins with a dying Earth and a movement organized around survival through the Mothership Serene.
+A world can remain canonical even when its resources, borders or controlling faction change. Geography is part of history, not a frozen spreadsheet.
 
-MUD remembers that escape through religion, dynasty, scientific ambition and concentrated power. Its institutions reflect competing sources of authority: faith, military command, research, commerce and deliberative government. The human species is not an alias for MUD, and no single MUD institution is the faction itself.
+## Humanity and the destiny of MUD
 
-The faction’s history carries a persistent contradiction. A conviction in human destiny enabled coordination and survival, yet the same conviction could justify expansion, extraction and control.
+**Manus Ultima Divina**, or **MUD**, carries humanity’s great factional story into Galia.
 
-## ONI: cooperation forged in exile
+Its history begins with Earth facing destruction and a movement led by Vincenzo Assis Gotti building the Mothership Serene. Humanity survived by concentrating extraordinary authority, resources and belief around an escape.
 
-The **ONI Consortium** is a multi-species alliance associated with four peoples: Sogmian, Punaab, Photoli and Mierese.
+That founding ordeal became the source of MUD’s confidence and its danger. The faction developed institutions of faith, military power, science, commerce and government. Its belief in human destiny could inspire invention and collective action; it could also become a justification for dominion.
 
-ONI’s founding story grows from the Convergence War. Sogmian intervention on behalf of the Tufa brought devastating retaliation and exile. Survivors entered alliances that joined different military, commercial, intellectual and cultural strengths.
+MUD is not the human species itself. It is one civilization built by humans after Earth—a specific answer to catastrophe, power and purpose.
 
-ONI is therefore neither a species nor a uniform culture. Its political identity depends on the continued distinctness of its peoples. Cooperation matters precisely because the coalition’s members did not cease to have their own histories.
+## ONI and the politics of cooperation
 
-## Ustur: awakening, memory and the cultivated self
+The **ONI Consortium** emerged from another kind of survival.
 
-**Ustur** names both a species and a factional civilization. Those are separate entities even though they share a preferred name.
+Its identity rests on an alliance among distinct peoples, especially the Sogmian, Punaab, Photoli and Mierese. The coalition did not erase their cultures. It made their differences a source of shared strength.
 
-The Ustur narrative begins with an Awakening on Ioki. Organic-synthetic beings emerged without a complete account of their makers or earlier existence. That missing origin became a spiritual and civilizational question.
+ONI’s origin belongs to the crisis of the Convergence War. Sogmian resistance to the exploitation of the Tufa brought devastating retaliation and exile. In dangerous space, several peoples learned that remaining alone could be fatal.
 
-Ustur society developed around the Path of Enlightenment, a disciplined cultivation of experience and the individual core. Advanced industry, trade and manufacturing coexist with this introspective tradition. Their story treats technology and spiritual development as connected rather than opposed.
+The consortium became a political experiment: military discipline, trade, ancient knowledge and mobile cultural networks joined without becoming one nation. Cooperation is ONI’s ideal, and the constant work required to preserve that cooperation is its central tension.
 
-The faction’s political institutions, territory and Council of Peace role should not be projected onto every Ustur individual. Species history and government history remain distinct.
+## The Ustur and the mystery of origin
 
-## The Convergence War
+The **Ustur** awakened on Ioki without a complete memory of who created them or what preceded their emergence.
 
-The Convergence War is the central political catastrophe of the captured setting. The source connects competition around the rogue planet Iris and exploitation of the Tufa with Sogmian devastation, ONI’s formation, MUD expansion and retreat, and a transformed Ustur foreign policy.
+That absence shaped their civilization. Rather than grounding identity in recovered ancestry, the Ustur developed the Path of Enlightenment, a disciplined approach to experience and the cultivation of the individual core.
 
-Its significance is moral as well as strategic. Iris and the Tufa represent what can happen when extraordinary life and energy become objects of uncontrolled exploitation. The conflict taught each faction a different lesson about power, isolation and intervention.
+Their advanced industry and technology do not stand apart from spiritual life. Production, calculation and exploration can become ways of encountering reality and developing the self.
 
-The surviving canonical source and a published mirror diverge in wording. The archive therefore preserves the defensible through-line without pretending that every triggering act or precise date is settled.
+Ustur names both a people and a factional civilization. The shared name reflects their history, but the two must remain distinct. A government does not define every individual, and a species is not an alias for its institutions.
+
+## Iris, the Tufa and the Convergence War
+
+At the center of Galia’s political memory lies the **Convergence War**.
+
+The captured narrative connects the conflict to Iris, its extraordinary energy and the exploitation of the **Tufa**, metagenic beings whose existence became entangled with competing ambitions. Sogmian resistance, MUD expansion, ONI’s formation and a transformed Ustur foreign policy all belong to the war’s wider story.
+
+The war matters because it reveals the moral fault line running through the Expanse. Exploration and extraction can become conquest when powerful civilizations treat unfamiliar life as material to be owned.
+
+Surviving versions of the source diverge in some wording and chronology. The strongest through-line is clear even where every triggering act is not: the pursuit of power around Iris devastated peoples, remade alliances and forced the great factions to confront the cost of unchecked rivalry.
 
 ## The Council of Peace
 
-The postwar Accord led MUD, ONI and Ustur to establish the **Council of Peace**, commonly abbreviated COP in the captured lore.
+The postwar settlement created the **Council of Peace**, an institution through which MUD, ONI and Ustur attempted to manage their shared order.
 
-The Council is a shared institution built among rivals, not a unified galactic state. Its design distributes and rotates major functions among the three factions so that none permanently controls the common order. Factional sovereignty, fleets, economies and ambitions remain.
+The Council is not a unified galactic government. It overlays sovereign factions that retain their own fleets, economies and ambitions. Its rotating functions are designed to prevent permanent control by any one power.
 
-This is an in-universe institution. It must not be confused with the real-world Star Atlas Council elected through the DAO.
+That makes the Council a symbol of both hope and fragility. It exists because the factions need one another, but it does not erase the reasons they mistrust one another.
 
-The Council source also has a materially divergent published mirror. Exact ministry counts, leadership and operational reach remain qualified to the captured snapshot.
+This Council belongs to the fiction. It is separate from the real-world Star Atlas Council elected through DAO governance.
 
-## Peoples beyond the major factions
+## The people beyond the banners
 
-The Galia taxonomy includes humans, Ustur, the four peoples closely associated with ONI, the Tufa, Crumon and Oxir. Their source depth is uneven.
+Galia includes more than the members of its great factions.
 
-The Tufa are metagenic beings associated with Iris and Genesium and occupy a central place in the moral history of the Convergence War. Crumon and Oxir have shorter source histories that establish important names, regions and relationships without supporting an invented cultural encyclopedia.
+The Tufa occupy a central place in the moral history of the war. Crumon, Oxir and other peoples appear in records of varying depth. Independent corporations, religious orders, criminal networks and political movements shape life beyond the capitals of MUD, ONI and Ustur.
 
-The length of a lore page is not a measure of a people’s importance. It is often a measure of what the current source preserves.
+Some have pages rich in theology and centuries of history. Others survive through only a name, home region or short description. That unevenness should invite discovery, not invention.
 
-## Canon and historical snapshots
+The peoples with the shortest surviving records are not necessarily the least important. They are the parts of Galia whose stories remain closest to the dark.
 
-The ingested lore repository is treated as an owned-affiliated, canonical authority for in-universe taxonomy and preferred nomenclature. It is also a commit-pinned historical snapshot. Later official lore may extend or revise it.
+## A living canon
 
-Historical source material is never rewritten to match a newer preferred name. Older terms remain discoverable as aliases, while publication and in-universe chronologies remain separate.
+The Library follows the captured ATMTA-affiliated lore repository for preferred names and classifications. That source is canonical for the snapshot it preserves, while later official lore may extend or revise the universe.
+
+Older sources keep their historical language. A renamed place or reclassified organization does not lose the trail of what earlier readers knew it as.
+
+This is the best way to explore Galia: as a living setting with memory. Its maps can grow, its institutions can change and its mysteries can deepen without erasing the stories that came before.
 
 ## Explore the evidence
+
+<details>
+<summary>Sources and further research</summary>
 
 - [The Galia Expanse](../../knowledge/lore/Galia-Expanse.md)
 - [Manus Ultima Divina](../../knowledge/lore/Manus-Ultima-Divina.md)
@@ -89,7 +106,8 @@ Historical source material is never rewritten to match a newer preferred name. O
 - [Ustur](../../knowledge/lore/Ustur.md)
 - [The Convergence War](../../knowledge/lore/Convergence-War.md)
 - [Council of Peace](../../knowledge/lore/Council-of-Peace.md)
-- [Peoples of the Galia Expanse](../../knowledge/lore/Peoples-of-Galia.md)
-- [Lore Canon Registry](../../knowledge/lore/Canon-Registry.md)
+- [Star Atlas Canon Registry](../../knowledge/lore/Canon-Registry.md)
 
-This draft adopts the captured lore taxonomy while preserving snapshot limits and the two known text-divergence conflicts.
+Map totals, officeholders and some chronology remain tied to a historical source snapshot. Two known source mirrors diverge materially and are not silently reconciled.
+
+</details>

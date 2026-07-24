@@ -25,13 +25,14 @@ class Phase5PublicationPortfolioTests(unittest.TestCase):
         self.backlog = VALIDATOR.load_json(VALIDATOR.BACKLOG_PATH)
         self.manifest = VALIDATOR.load_json(VALIDATOR.MANIFEST_PATH)
 
-    def test_eleven_drafts_and_no_published_entries(self) -> None:
+    def test_editorial_wave_counts_and_no_published_entries(self) -> None:
         failures, metrics = VALIDATOR.validate_manifest(
             self.portfolio, self.manifest
         )
         self.assertEqual([], failures)
-        self.assertEqual(11, metrics["entries"])
-        self.assertEqual(11, metrics["drafts"])
+        self.assertEqual(14, metrics["entries"])
+        self.assertEqual(7, metrics["drafts"])
+        self.assertEqual(7, metrics["in_review"])
         self.assertEqual(0, metrics["published"])
 
     def test_articles_are_human_first_and_linked(self) -> None:
@@ -49,7 +50,19 @@ class Phase5PublicationPortfolioTests(unittest.TestCase):
             self.manifest["build_policy"]["include_statuses"],
         )
         self.assertTrue(
-            all(entry["status"] == "DRAFT" for entry in self.manifest["entries"])
+            all(
+                entry["status"] in {"DRAFT", "IN_REVIEW"}
+                for entry in self.manifest["entries"]
+            )
+        )
+        self.assertFalse(
+            any(entry["status"] == "PUBLISHED" for entry in self.manifest["entries"])
+        )
+
+    def test_editorial_review_gate_reconciles(self) -> None:
+        self.assertEqual(
+            [],
+            VALIDATOR.validate_editorial_review(self.manifest),
         )
 
     def test_complete_reader_first_portfolio_map(self) -> None:

@@ -1,92 +1,104 @@
 ---
 publication_id: PUB-011
 slug: people-of-star-atlas
-title: "The People of Star Atlas: Players, Guilds, Creators and Community Memory"
+title: "The People of Star Atlas"
 seo_title: "The People of Star Atlas: Players, Guilds and Community History"
-seo_description: "A history of the players, guilds, creators, journalists and organizers who built Star Atlas community life around an unfinished universe."
-status: DRAFT
+seo_description: "How players, guilds, creators, journalists and organizers built a living Star Atlas community around an unfinished universe."
+status: IN_REVIEW
 as_of: 2026-07-23
 audience: "Readers interested in the human community and culture around Star Atlas"
 ---
 
 # The People of Star Atlas
 
-Before Star Atlas became a fully realized virtual world, people were already building a society around it. They formed guilds, published newspapers and newsletters, organized competitions, mapped economies, hosted weekly discussions, debated governance and imagined what their organizations might become inside the game.
+Before the Galia Expanse became a place players could fully inhabit, people were already building a society around it.
 
-That community history is not an appendix to product development. It explains how an ambitious project was interpreted, sustained and contested through years of changing roadmaps and partial releases.
+They formed guilds for industries that did not yet exist. They published newspapers about a world still in development. They tracked markets, hosted shows, wrote governance proposals, organized competitions and argued over what the future of Star Atlas should be.
 
-## A community older than many of its products
+The community did not wait for the universe to be finished. It began rehearsing life inside it.
 
-The operator-confirmed beginning of the Star Atlas Discord is March 2021. By that year, Town Halls were already described as a recurring tradition. Guilds and media organizations began building their own institutions while the official product record still centered on assets, marketplaces and early browser experiences.
+## A public square begins to form
 
-Community life therefore developed in advance of many promised social and territorial systems. People created organizations for a future game and then adapted them to the tools that actually existed: Discord, governance portals, marketplaces, SCORE, SAGE, newsletters, spreadsheets, dashboards, streams and public events.
+March 2021 is treated as the canonical beginning of the Star Atlas Discord community. By May of that year, official writing already described Town Halls as a tradition.
 
-## Guilds as institutions
+These gathering places mattered because the available products were still narrow compared with the project’s ambition. Discord, marketplaces, newsletters, spreadsheets and broadcasts became the social infrastructure of a future game.
 
-Star Atlas guilds—often called DACs, for decentralized autonomous corporations—have served as social groups, economic collectives, media organizations, event teams and imagined in-universe enterprises.
+Players used them to learn what was actually available, imagine what might come next and decide who they wanted to become when larger systems arrived. A community designed around a future world had to survive in the present one.
 
-Aephia opened in July 2021 according to its later self-history and became one of the archive’s most persistent community institutions. Its publications include weekly newsletters, guides, dashboards, video coverage and community projects. Aephia’s records are first-party evidence for its own stated history and ambitions; claims about size or influence remain attributable rather than independently measured.
+## Guilds built before territory existed
 
-Agora’s supplied description emphasizes collaborative growth, education, organized information, coordinated logistics and mutual support. Its Greek lambda tag can indicate association, but a tag alone does not prove membership or leadership. The Vanguard’s visually similar `VΛ` tag is a separate identity.
+Star Atlas guilds are often called **DACs**, or decentralized autonomous corporations. The name captured an ambition: these groups might become economic, political or military institutions inside the game rather than remaining ordinary gaming clans.
 
-Dark Matter is recorded as an Ustur-aligned guild or DAC. HNN reported its first Dark Council election in 2023, a useful example of internal community governance developing alongside the formal Star Atlas DAO. The Dark Council is not the Star Atlas Council and not the lore Council of Peace.
+In practice, guilds took on many roles. They trained new players, shared data, built tools, published media, organized logistics and represented their members in public debates.
 
-Rome, The Club, Heimdall Industries, Quimera, Skull and Bones and other organizations also appear across the surviving record. Their founding, leadership, membership and active periods remain unevenly documented.
+**Aephia**, also known as Aephia Industries or AEP, dates its opening to July 18, 2021. It developed one of the community’s most persistent documentary traditions through newsletters, guides, dashboards and events. Its publications preserve Aephia’s own history and ambitions, including a vision of becoming a spacecraft manufacturer.
 
-## Competition and public ritual
+**Agora** described itself as a collaborative guild built around shared growth, continuous learning, organized information and mutual support. Its Portuguese community statement named SAWYN and Neo_AArmstrong as leaders at the time. The Greek lambda attached to a handle can signal an Agora association, but a tag alone does not prove current membership.
 
-Officially organized events gave guild identity a public stage. The COPA Festival of Guilds was announced in 2022, followed by finalist and winner publications. Later community reporting documents additional COPA history, including Aephia’s reported 2024 championship.
+**Dark Matter**, aligned with the Ustur faction, offers another glimpse of guilds becoming institutions. Hologram News Network reported the election of its first Dark Council in 2023. That was internal guild governance—not the Star Atlas DAO Council and not the lore Council of Peace.
 
-These events mattered because they turned organizational identity into performance: a guild could present its culture, compete, collaborate and become visible beyond its own server. Yet an event announcement, finalist list and result are separate records. The archive does not infer occurrence or winners from promotion alone.
+**Rome**, **The Vanguard**, **The Club**, **Heimdall Industries**, **Quimera** and many others appear across the historical record. Some left rich trails; others survive only through a public tag, event appearance or scattered report. Their uneven visibility is a challenge for historians, not a license to invent missing histories.
 
-Community Week, tournaments, meetups and creator programs expanded this public ritual. Many still need complete result histories and primary event records.
+## Competition made identity visible
 
-## Publishers, journalists and explainers
+Guild identity came alive in public events.
 
-Community publications preserved developments that official channels summarized briefly or did not record at all.
+The first COPA Festival of Guilds was announced in 2022, followed by official finalist and winner publications. The event allowed organizations to present themselves, compete and become recognizable outside their own channels.
 
-Aephia’s newsletters created a long-running weekly chronology tied to a guild perspective. Hologram News Network, founded and operated by Krigs, produced reporting, interviews, editorials, features and event coverage. Its HNN, Hologram, website and personal-publisher identities remain separate so that later mirrors do not erase original provenance.
+Later community reporting continued the tradition, including HNN’s report that Aephia won the 2024 COPA championship. Community Week, races, creator programs and guild-run gatherings added other shared milestones.
 
-Community reporting can be a primary source for what a guild did, what a journalist observed or how players understood an event. It does not automatically establish the independent truth of every product, economic or organizational claim. Affiliations and source lineage remain visible.
+Events gave the community a calendar. They transformed names and logos into performances, rivalries and memories. But announcement, occurrence, result and prize payment remain separate stages. A festival poster can prove anticipation; it cannot name a winner.
 
-## Creators and recognizable people
+## The people who recorded the journey
 
-People enter the archive through many roles: founders, developers, proposal authors, Council candidates, guild leaders, journalists, moderators, musicians, streamers, tool builders and recurring Discord identities.
+Community publishers helped Star Atlas remember itself.
 
-Some identities are well resolved. Chris Kaczmarczyk-Smith, also seen as Chri.z, is operator-confirmed as Head of Star Atlas Game Economy, making properly attributed game-economy statements first-party subject-matter evidence. Krigs is well supported as HNN’s founder and operator. Shaddix is recorded as a music creator, former moderator and Aephia member.
+Aephia’s weekly newsletters created a long-running chronology from a guild perspective. **Hologram News Network**, founded and operated by Krigs, produced reporting, interviews, features, editorials and event coverage. Its work preserved people and community institutions that might otherwise survive only as passing Discord references.
 
-Other records are deliberately narrower. Agent Solace is linked to the display name `Agent_Solace`; a guild tag still does not prove formal membership. Virtuwul’s preferred identity, Rome affiliation and ownership of the Titan-class Rainbow Phi are operator-confirmed, while a complete dated chronology remains to be built.
+Creators played different roles. Some hosted broadcasts or made music. Others produced guides, economic analysis, videos or tools. Shaddix, for example, is recorded as a Star Atlas music creator, former moderator and Aephia member. Krigs appears not only as a journalist but as the operator of a community publication with its own institutional history.
 
-These examples are not a ranking. They demonstrate the archive’s standard: identity, role, affiliation and current status are separate claims.
+These perspectives are valuable precisely because they are situated. A guild publication can speak authoritatively about its own mission. A journalist can preserve a contemporary observation. Neither becomes an official product release record merely by writing about one.
 
-## Conversation, disagreement and relevance
+## Names, roles and the passage of time
 
-Discord and recorded conversations preserve more than announcements. They can reveal how guilds understood one another, how rivalries developed, which disagreements persisted and why certain decisions carried social weight.
+Community history is full of changing handles, affiliations and titles.
 
-Message density alone is not significance. A sustained Star Atlas-related dispute among a few participants can matter more than a high-volume generic channel. Context, continuity, subject and consequences all matter.
+Chris Kaczmarczyk-Smith, also observed as Chri.z, is identified as Head of Star Atlas Game Economy. Properly attributed statements within that subject carry first-party authority. Agent Solace is also known by the display name `Agent_Solace`. Virtuwul is associated with Rome and with ownership of the Titan-class Rainbow Phi.
 
-The archive also draws a firm boundary. Conversations that drift into unrelated games, external politics, culture-war debate or off-topic personal attacks are not promoted into Star Atlas knowledge. Personal conflict is historically relevant only when it concerns Star Atlas actions, institutions or relationships and is supported by enough context to avoid distortion.
+Each example shows why identity, role and date belong together. A person can be a guild member, moderator, creator, employee or proposal author at different times. Historical membership is not automatically current membership. Leadership is never inferred from a tag.
 
-## A history with missing rosters
+Current affiliation can be inferred only when recent, independent signals converge, and the inference must remain visible as an inference.
 
-The community record is rich and incomplete. The archive does not yet have definitive founding and leadership histories for most guilds, a complete DAC directory through time, comprehensive competition results or reliable current membership.
+## Rivalry, disagreement and community memory
 
-Historical handles also change. Similar names do not prove identity, and a role observed in one year should not be presented as current indefinitely. The strongest next artifacts are guild founding announcements, leadership changes, event results, creator archives and native Discord exports that preserve channel and message context.
+Not every important community relationship was friendly.
 
-## Why this history belongs in the Library
+Discord conversations can preserve tensions between players and guilds that continued across months or years. When the conflict concerns Star Atlas actions—competition, governance, reporting, assets or organizational conduct—it can help explain later alliances, distrust and public reactions.
 
-Products explain what Star Atlas made available. Governance explains how formal decisions were organized. Lore explains the universe people imagined entering. Community history explains what people did while that world was still being built.
+Significance is not the same as message volume. A sustained exchange among three people may reveal more than thousands of generic comments if it captures a durable Star Atlas rivalry.
 
-The players of Star Atlas were not merely an audience. They became archivists, organizers, critics, competitors, publishers and institutional designers in their own right. A complete history of Star Atlas must preserve that labor without turning uncertain identities into facts or community enthusiasm into proof of product delivery.
+There is also a boundary. Conversations that drift into external politics, unrelated games or off-topic personal attacks are not part of the Library’s interpretation of Star Atlas. Personal conflict belongs in history only when it is relevant to the game and supported by enough context to avoid turning fragments into accusations.
+
+## More than an audience
+
+The people of Star Atlas became organizers, archivists, competitors, critics, journalists and institution builders.
+
+They kept a public conversation alive while products changed and roadmaps stretched. They created culture before many of the game systems designed to hold that culture existed. Their work shaped how releases were understood, how setbacks were remembered and how new players found their way in.
+
+A complete account will require better guild rosters, founding records, event results and dated role histories. But the larger truth is already visible: Star Atlas was never only something being built *for* a community. Much of its history was built *by* one.
 
 ## Explore the evidence
 
-- [Star Atlas Community Timeline](../../knowledge/timeline/Community-Timeline.md)
+<details>
+<summary>Sources and further research</summary>
+
+- [History of Star Atlas Guilds and DACs](../../knowledge/guilds/Guild-and-DAC-History.md)
 - [Guild and DAC Master Index](../../knowledge/guilds/Guild-Master-Index.md)
 - [Major Actor Index](../../knowledge/people/Actor-Master-Index.md)
 - [Media and Creator Index](../../knowledge/media/Media-and-Creator-Index.md)
-- [Krigs Source Profile](../../knowledge/people/Krigs-Source-Profile.md)
-- [Aephia Source Profile](../../knowledge/media/Aephia-Source-Profile.md)
-- [Community Source Attribution Backlog](../../knowledge/research/Community-Source-Attribution-Backlog.md)
+- [Star Atlas Community Events and Traditions](../../knowledge/events/Community-Events-and-Traditions.md)
+- [Star Atlas Community Timeline](../../knowledge/timeline/Community-Timeline.md)
 
-This draft is a community overview, not an exhaustive roster. It excludes off-topic politics and unrelated personal conflict from knowledge evaluation.
+The Library does not claim a complete roster or current membership directory. Intergalactic Herald is excluded from this publication portfolio at the operator’s direction.
+
+</details>
