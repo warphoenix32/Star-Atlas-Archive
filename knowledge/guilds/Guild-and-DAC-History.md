@@ -14,7 +14,7 @@ evidence_basis:
   - "operations/campaigns/discord-community-indexing-001/curator-decisions.json"
 known_limitations:
   - "The record is strongest for public identity and activity, not complete founding, membership, leadership, alliance, rivalry, or dissolution histories."
-  - "Tags and historical associations do not prove current membership or office."
+  - "A tag or historical association alone does not prove current membership or office; current status may be inferred only from recent, convergent evidence and must remain dated and confidence-qualified."
 research_gaps:
   - "Acquire dated guild charters, leadership transitions, member rosters, faction alignment, alliances, mergers, dissolutions, event results, and public project histories."
 review_after: 2026-10-23
@@ -32,7 +32,7 @@ Aephia, Aephia Industries, and AEP are operator-confirmed names for the same gui
 
 Its publications are first-party evidence for Aephia's own projects and aspirations, including its stated ambition to become a spacecraft manufacturer. Claims about influence, size, awards, or outcomes remain attributed unless independently corroborated. [Aephia Source Profile](../media/Aephia-Source-Profile.md)
 
-MetaVerse was a member of AEP. That identity resolution should be used for discovery and historical context without assuming a present affiliation.
+MetaVerse was a member of AEP. That identity resolution should be used for discovery and historical context. No current affiliation is asserted because the retained evidence is historical rather than a recent, convergent membership signal.
 
 ## Agora
 
@@ -75,8 +75,20 @@ A mature history should distinguish:
 - economic or technical products;
 - dormancy, merger, reactivation, or dissolution.
 
+## Membership evidence policy
+
+The repository may infer current membership when the evidence is strong enough, but the inference must be explicit rather than silently converted into fact. Membership states are recorded as:
+
+- `HISTORICAL_MEMBER` when a dated source or operator adjudication establishes past membership without current evidence;
+- `CURRENT_MEMBER_CONFIRMED` when a recent roster, direct self-identification, or guild publication explicitly establishes membership;
+- `CURRENT_MEMBERSHIP_INFERRED` when at least two recent, independent signals converge, such as persistent guild identification across separate captures plus guild-specific participation;
+- `ASSOCIATION_ONLY` when a tag, appearance, or interaction supports association but not membership;
+- `UNKNOWN` when the available context cannot distinguish the relationship.
+
+Every current-state conclusion must state an `as_of` date, confidence, and the evidence used. A display tag alone, one old message, social proximity, or operator-confirmed historical membership is not enough for a current-membership inference. Leadership and office require direct evidence and are never inferred merely from membership.
+
 Discord conversations may preserve persistent tensions among players or guilds when the conflict concerns Star Atlas activity and has enough context to be historically meaningful. Off-topic politics and unrelated personal attacks are excluded from knowledge evaluation.
 
 ## Review status
 
-`QUALIFIED`. The named identities and operator adjudications are stable enough for historical discovery. Comprehensive institutional histories and present status remain incomplete.
+`QUALIFIED`. The named identities and operator adjudications are stable enough for historical discovery. Current membership may be inferred under the documented high-confidence rule, but this page does not assign current status where recent convergent evidence is absent. Comprehensive institutional histories and present rosters remain incomplete.

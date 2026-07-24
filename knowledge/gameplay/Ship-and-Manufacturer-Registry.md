@@ -12,12 +12,21 @@ evidence_basis:
   - "archive/normalized/starbased-ship-states/base-ships.jsonl"
   - "archive/provenance/starbased-ship-states/rydn_starbased_ships_20260718.json"
   - "archive/normalized/lore/entities.jsonl"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-7FFFCA6E3EFC320C.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-8917A64EB222FB1E.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-A49DE58EC808D004.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-C4DA380B01338D57.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-F9654AA6FF1D8010.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-A2F14F878C41366F.md"
+  - "archive/source-records/campaign-delta-official/SRC-OFF-81AC1295ED8D5F75.md"
+  - "operations/campaigns/knowledge-narrative-depth-001/phase-5-readiness/external-source-review.json"
 known_limitations:
   - "The 63-row export was distributed by Ryden Systems and asserted to duplicate an authoritative Star Atlas sheet, but the upstream URL and version were not independently recovered."
-  - "The dataset does not establish collection completeness, present marketplace availability, or manufacturer identity as a separate field."
+  - "The dataset does not establish collection completeness or present marketplace availability, and it does not contain a dedicated manufacturer field."
   - "Values are base templates intended for SAGE and C4; Holosim uses a different value system, future rebasing is possible, and components may modify individual ships."
 research_gaps:
-  - "Recover the upstream Star Atlas ship-stat document, version history, marketplace IDs and URLs, explicit manufacturer fields, and change notices."
+  - "Recover the upstream Star Atlas ship-stat document, version history, marketplace IDs and URLs, and change notices."
+  - "Reconcile the 63-row dataset with the eleventh official root manufacturer, Floyd Line, and with any ship models omitted from the captured export."
   - "Create separate versioned registries for Holosim and component-modified ship instances."
 review_after: 2026-10-23
 ---
@@ -112,9 +121,24 @@ The role distribution is 22 fighters, seven racers, seven freighters, five bombe
 
 ## Manufacturer evidence
 
-Names such as Busan, Fimbul, Ogrika, Opal, Pearce, Rainbow, VZUS, Calico, and Armstrong visibly form ship-name families. This registry does **not** automatically convert the first word of a name into a canonical manufacturer relationship.
+The 63 rows represent ten root manufacturer families. This is not a rule that every first word in an arbitrary ship list is a manufacturer. It is a reviewed mapping supported by the exact captured names, official ship records, the official asset library's brand organization, and the manufacturer table in the historical lore snapshot.
 
-The captured lore taxonomy independently identifies Opal Industries, VZUS, and Calico Industries as `MANUFACTURER` entities. It also contains Fimbul-related organizations and houses. Those lore classifications support canonical manufacturer identities within the lore snapshot, but each ship-to-manufacturer edge still requires explicit source evidence or a reviewed deterministic mapping. Apparent naming consistency is a discovery aid, not sufficient proof by itself.
+| Root manufacturer | Captured templates | Reviewed mapping | Notes |
+|---|---:|---|---|
+| Armstrong Industries | 3 | `Armstrong …` | The three captured ships form the IMP mining line. |
+| Busan | 4 | `Busan …` | Official records also use Busan as a ship brand. |
+| Calico Industries | 9 | `Calico …` | The lore snapshot and official records identify Calico as a manufacturer. |
+| Fimbul | 15 | `Fimbul …` | Five core Fimbul, five Fimbul BYOS, and five Fimbul ECOS templates are preserved separately. |
+| Ogrika | 7 | `Ogrika …` | Official records identify multiple Ogrika ship models. |
+| Opal Industries | 4 | `Opal …` | The lore snapshot and official records identify Opal as a manufacturer. |
+| Pearce | 11 | `Pearce …` | Official records identify Pearce ship models and Pearce Industries. |
+| Rainbow | 4 | `Rainbow …` | The captured family includes Chi, Om, Arc, and Phi. |
+| Tufa | 1 | `Tufa …` | The captured family contains the Tufa Feist. |
+| VZUS | 5 | `VZUS …` | The lore snapshot and official records identify VZUS as a manufacturer. |
+
+An official 2021 design update said that seven primary and four minor manufacturers had been defined. The later lore component table names eleven root makes—Pearce, Busan, VZUS, Calico, Ogrika, Opal, Armstrong Industries, Fimbul, Tufa, Rainbow, and Floyd Line—and separately records Fimbul BYOS and Fimbul ECOS variants. The 63-row capture contains the first ten root families but no Floyd Line ship. That absence means this dataset is not a complete catalog of every Star Atlas manufacturer or ship.
+
+Fimbul BYOS and Fimbul ECOS are retained as distinct product lines beneath Fimbul because the captured names and official lore both distinguish them. They are not counted as separate root manufacturers in the eleven-manufacturer reconciliation.
 
 ## Metrics and versioning
 
@@ -124,4 +148,4 @@ A future authoritative release should not overwrite this snapshot. It should cre
 
 ## Review status
 
-`QUALIFIED`. The 63 names, codes, specializations, and captured values are faithfully normalized. Upstream lineage, completeness, marketplace identity, manufacturer edges, current availability, units, and future balance state require further evidence.
+`QUALIFIED`. The 63 names, codes, specializations, captured values, and ten manufacturer-family mappings are supported. Upstream sheet lineage, collection completeness, marketplace identity, current availability, most units, and future balance state still require further evidence.

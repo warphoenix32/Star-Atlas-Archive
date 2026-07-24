@@ -34,7 +34,7 @@ The [Foundational Dossiers](../Foundational-Dossiers.md) provide two narrative r
 - [Galactic Marketplace History](Galactic-Marketplace.md) — distinguishes the 2021 marketplace from its 2022 replacement and later support documentation.
 
 - [Escape Velocity](Escape-Velocity.md) follows the limited 2023 on-chain movement and resource experiment without merging it into SAGE.
-- [Ship and Manufacturer Registry](Ship-and-Manufacturer-Registry.md) preserves 63 qualified Starbased base-ship templates and the boundary between observed ship families and proven manufacturer relationships.
+- [Ship and Manufacturer Registry](Ship-and-Manufacturer-Registry.md) preserves 63 qualified Starbased base-ship templates across ten evidenced manufacturer families while documenting the absent eleventh official root manufacturer and the limits of the captured export.
 
 ## Registries and dated snapshots
 

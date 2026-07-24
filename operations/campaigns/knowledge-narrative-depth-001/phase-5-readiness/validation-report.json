@@ -3,11 +3,13 @@
   "checks": {
     "evidence_packets": 13,
     "forbidden_paths": [],
+    "human_adjudications": 4,
     "metadata_and_links": "PASS",
     "portfolio_reconciles": true
   },
   "failures": [],
-  "human_semantic_review_required": true,
+  "human_semantic_review_completed": true,
+  "human_semantic_review_required": false,
   "result": "PASS",
   "validated_at": "2026-07-23"
 }

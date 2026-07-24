@@ -5,7 +5,8 @@
 - Knowledge dossiers: 13
 - Evidence packets: 13
 - Forbidden paths changed: 0
-- Human semantic review required: yes
+- Human semantic review required: no
+- Human semantic review completed: yes
 
 ## Failures
 

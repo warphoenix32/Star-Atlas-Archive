@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[4]
 HERE = Path(__file__).resolve().parent
 PACKETS = HERE / "evidence-packets"
 AS_OF = "2026-07-23"
+PROMOTION_STATE = "HUMAN_SEMANTIC_REVIEW_APPROVED"
 
 PAGES = [
     ("PLAN-001", "knowledge/Star-Atlas-Identity-and-Scope.md", "CREATE"),
@@ -93,7 +94,7 @@ def main() -> int:
             "known_limitations": meta["known_limitations"],
             "research_gaps": meta["research_gaps"],
             "review_after": meta["review_after"],
-            "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+            "promotion_state": PROMOTION_STATE,
             "archive_evidence_modified": False,
             "graph_modified": False,
             "publication_modified": False,
@@ -119,10 +120,17 @@ def main() -> int:
     summary = {
         "campaign_id": "phase-5-knowledge-readiness-2026-07",
         "as_of": AS_OF,
-        "status": "AWAITING_HUMAN_SEMANTIC_REVIEW",
+        "status": "READY_FOR_MERGE",
         "planned_gap_count": 13,
         "knowledge_pages_created": len(outputs),
-        "promotion_state": "DRAFT_KNOWLEDGE_READY_FOR_HUMAN_REVIEW",
+        "promotion_state": PROMOTION_STATE,
+        "human_semantic_review_completed": True,
+        "human_adjudications": [
+            "PH5-ADJ-001_MANUFACTURER_FAMILIES",
+            "PH5-ADJ-002_FTX_CORROBORATION",
+            "PH5-ADJ-003_CURRENT_MEMBERSHIP_INFERENCE",
+            "PH5-ADJ-004_LORE_SNAPSHOT_TREATMENT",
+        ],
         "risk_distribution": dict(sorted(risk.items())),
         "knowledge_status_distribution": dict(sorted(status.items())),
         "outputs": outputs,
@@ -139,6 +147,8 @@ def main() -> int:
         f"- Knowledge dossiers created: {summary['knowledge_pages_created']}",
         f"- Risk distribution: `{json.dumps(summary['risk_distribution'], sort_keys=True)}`",
         f"- Status distribution: `{json.dumps(summary['knowledge_status_distribution'], sort_keys=True)}`",
+        "- Human semantic review: complete",
+        f"- Human adjudications incorporated: {len(summary['human_adjudications'])}",
         "- Archive evidence modified: no",
         "- Graph modified: no",
         "- Publication modified: no",
@@ -155,7 +165,7 @@ def main() -> int:
         "",
         "## Gate",
         "",
-        "Every dossier requires human semantic review before it is treated as an approved publication input.",
+        "Human semantic review is complete. The four recorded adjudications are incorporated, and the dossiers are approved as future publication inputs.",
         "",
     ]
     (HERE / "campaign-summary.md").write_text(

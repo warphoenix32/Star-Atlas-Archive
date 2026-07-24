@@ -1,0 +1,85 @@
+{
+  "as_of": "2026-07-23",
+  "purpose": "Documents public web sources used to corroborate narrowly scoped Phase 5 knowledge claims without rewriting preserved archive evidence.",
+  "records": [
+    {
+      "accessed_at": "2026-07-23",
+      "authority_class": "A2_OFFICIAL_FIRST_PARTY_PUBLICATION",
+      "limitations": [
+        "A 2021 design update establishes the historical manufacturer count but does not enumerate all eleven names in the same passage."
+      ],
+      "publication": "Star Atlas",
+      "published_at": "2021-05-18",
+      "supported_claims": [
+        "Seven primary and four minor ship manufacturers had been defined by May 2021."
+      ],
+      "title": "The Atlas Star Issue 3",
+      "url": "https://medium.com/star-atlas/the-atlassian-13fbe6bd8f29"
+    },
+    {
+      "accessed_at": "2026-07-23",
+      "authority_class": "A2_OFFICIAL_FIRST_PARTY_LORE_SNAPSHOT",
+      "limitations": [
+        "The page is treated as a historical canonical-source snapshot rather than proof that every classification remains current.",
+        "Fimbul BYOS and Fimbul ECOS are presented as make variants and are reconciled beneath the Fimbul root family."
+      ],
+      "publication": "Star Atlas Lore Wiki",
+      "published_at": null,
+      "supported_claims": [
+        "The component-variance table names eleven root manufacturer makes: Pearce, Busan, VZUS, Calico, Ogrika, Opal, Armstrong Industries, Fimbul, Tufa, Rainbow, and Floyd Line.",
+        "Fimbul BYOS and Fimbul ECOS are separately named variants."
+      ],
+      "title": "Core Components",
+      "url": "https://lore.staratlas.com/ship-manufacturers-configurations-and-politics/ship-configuration/components/core-components"
+    },
+    {
+      "accessed_at": "2026-07-23",
+      "authority_class": "A2_OFFICIAL_FIRST_PARTY_DOCUMENTATION",
+      "limitations": [
+        "The page highlights selected ships and is not a complete manufacturer registry."
+      ],
+      "publication": "Star Atlas Support",
+      "published_at": "2025-12-09",
+      "supported_claims": [
+        "Official support identifies Pearce X4 as built by Pearce Industries and names Opal and Fimbul ships.",
+        "Floyd Liner exists as a Star Atlas ship even though it is absent from the captured 63-row dataset."
+      ],
+      "title": "What ships can I fly in the Star Atlas UE5 Game?",
+      "url": "https://support.staratlas.com/hc/en-us/articles/47210130041875-What-ships-can-I-fly-in-the-Star-Atlas-UE5-Game"
+    },
+    {
+      "accessed_at": "2026-07-23",
+      "authority_class": "B2_INDEPENDENT_REPORTING_WITH_ATTRIBUTED_PRIMARY_STATEMENT",
+      "limitations": [
+        "The report did not state the amount of cash lost.",
+        "The approximately one-half figure describes operating runway, not necessarily one-half of total cash reserves."
+      ],
+      "publication": "The Block",
+      "published_at": "2022-11-11",
+      "supported_claims": [
+        "ATMTA had material cash exposure at FTX.",
+        "Michael Wagner said ATMTA's operating runway had been reduced by approximately one-half."
+      ],
+      "title": "Star Atlas cash runway sliced in half by FTX catastrophe",
+      "url": "https://www.theblock.co/post/186241/star-atlas-cash-runway-sliced-in-half-by-ftx-catastrophe"
+    },
+    {
+      "accessed_at": "2026-07-23",
+      "authority_class": "B2_INDEPENDENT_REPORTING_WITH_ATTRIBUTED_PRIMARY_MEMO",
+      "limitations": [
+        "The reported loss and staffing figures are attributed to company statements and a staff memo rather than audited filings.",
+        "The source does not establish later recovery, financing, or current staffing."
+      ],
+      "publication": "DL News",
+      "published_at": "2023-07-25",
+      "supported_claims": [
+        "ATMTA announced a reduction of roughly 122 positions, leaving a core team of about 45.",
+        "The report described an approximately 15 million dollar FTX loss as a significant portion of liquid cash.",
+        "The restructuring prioritized SAGE and the mobile application."
+      ],
+      "title": "ATMTA, gaming firm behind Star Atlas, slashes 73% of workforce after FTX losses",
+      "url": "https://www.dlnews.com/articles/web3/atmta-cuts-jobs-as-web3-gaming-firm-reels-post-ftx-loss/"
+    }
+  ],
+  "schema_version": "1.0.0"
+}

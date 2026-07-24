@@ -14,11 +14,12 @@ evidence_basis:
   - "knowledge/timeline/Governance-Timeline.md"
   - "archive/source-records/campaign-charlie-hnn/SRC-HNN-03991C709B75E22E.md"
   - "archive/source-records/campaign-charlie-hnn/SRC-HNN-A0BE0ADE1E7A46D5.md"
+  - "operations/campaigns/knowledge-narrative-depth-001/phase-5-readiness/external-source-review.json"
 known_limitations:
   - "Selection and periodization are curator judgments rather than source-native classifications."
-  - "Primary corporate records for the FTX exposure, 2023 restructuring, and later financing remain incomplete."
+  - "Independent reporting corroborates the FTX exposure, runway impact, and 2023 restructuring, but audited loss, recovery, and financing records remain unavailable."
 research_gaps:
-  - "Recover ATMTA financial disclosures, staffing records, financing documents, and contemporary executive statements for the 2022-2023 contraction."
+  - "Recover the complete primary executive disclosures, ATMTA financial statements, FTX recovery records, staffing records, and financing documents for the 2022-2023 contraction."
   - "Measure the player and economic consequences of major transitions using reconciled product and transaction data."
 review_after: 2026-10-23
 ---
@@ -39,13 +40,13 @@ This period established several patterns that would recur: assets could exist be
 
 The DAO and POLIS-locking release in July made governance operational before the later PIP framework formally organized the constitutional roles. The Showroom's September pre-alpha release on the Epic Games Store gave players a public Unreal Engine environment. Breakpoint in November renamed Project S.C.R.E.A.M. as SAGE and presented a wide product roadmap. Each event was significant for a different reason: governance introduced institutional participation, the Showroom introduced direct 3D access, and Breakpoint reorganized the product vision.
 
-Days after Breakpoint, FTX collapsed. Hologram News Network reported on 2022-11-15 that Michael Wagner had disclosed that approximately half of ATMTA's liquid cash reserves were held at FTX. The same contemporary report described community efforts to support the project and noted uncertainty around financing. This is important contemporary reporting, but the Archive does not possess audited financial statements or the complete primary disclosure needed to independently establish the exact exposure and recovery. [SRC-HNN-03991C709B75E22E](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-03991C709B75E22E.md)
+Days after Breakpoint, FTX collapsed. The fact of ATMTA's exposure is not dependent on a single community report. On 2022-11-11, *The Block* reported Michael Wagner's disclosure that ATMTA had “material cash exposure” at FTX and that its operating runway had been reduced by approximately half. Hologram News Network then preserved the community response and financing uncertainty on 2022-11-15. These sources establish the exposure and reported runway impact, but they do not provide audited balances or a final recovery account. The historical claim is therefore **corroborated**, while the exact loss and recovery remain qualified. [Independent-source review](../../operations/campaigns/knowledge-narrative-depth-001/phase-5-readiness/external-source-review.json) [SRC-HNN-03991C709B75E22E](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-03991C709B75E22E.md)
 
 ## 2023: experimentation, formal governance, and contraction
 
 Escape Velocity's limited public alpha tested real-time on-chain movement beginning in April. Showroom R2.1 expanded the Unreal module in June. In September, SAGE Labs created a persistent browser strategy loop around mining, crafting, transport, and trade. Together, these releases moved Star Atlas from asset utility and demonstrations toward several playable product forms.
 
-The institutional environment was changing at the same time. PIP-1 through PIP-3 formalized the DAO, Foundation, and Council framework. Yet 2023 also included a major reported contraction. On 2023-07-26, HNN reported layoffs, founder pay cuts, and a reprioritization toward SAGE and a mobile application, with several other surfaces receiving reduced attention. Exact staffing numbers and runway remain unresolved because the surviving record is contemporary community reporting rather than a complete corporate filing. [SRC-HNN-A0BE0ADE1E7A46D5](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-A0BE0ADE1E7A46D5.md)
+The institutional environment was changing at the same time. PIP-1 through PIP-3 formalized the DAO, Foundation, and Council framework. Yet 2023 also brought a major contraction. Independent reporting based on a Michael Wagner staff memo described roughly 122 positions cut, a remaining core team of about 45, and a reported FTX loss of about $15 million. HNN separately reported layoffs, founder pay cuts, and reprioritization toward SAGE and a mobile application. The occurrence and scale of the restructuring are corroborated; the exact accounting, later staffing, runway, and recovery remain unverified without corporate records. [Independent-source review](../../operations/campaigns/knowledge-narrative-depth-001/phase-5-readiness/external-source-review.json) [SRC-HNN-A0BE0ADE1E7A46D5](../../archive/source-records/campaign-charlie-hnn/SRC-HNN-A0BE0ADE1E7A46D5.md)
 
 The turning point was not simply "layoffs occurred." It was that product sequencing, institutional capacity, and community expectations were forced to adjust together.
 
@@ -79,4 +80,4 @@ Several themes cross all periods:
 
 ## Review status
 
-`QUALIFIED`. Release and vote anchors are generally strong. Interpretive selection, corporate contraction, financial exposure, and community impact remain areas where primary records and independent measurement would materially improve the history.
+`QUALIFIED`. Release and vote anchors are generally strong. The FTX exposure, approximate runway impact, and 2023 contraction are corroborated by independent reporting; audited amounts, recovery, later financing, and measured community impact remain unresolved.

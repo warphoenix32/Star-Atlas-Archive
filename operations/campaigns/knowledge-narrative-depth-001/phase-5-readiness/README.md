@@ -15,5 +15,9 @@ The build reads the fixed page portfolio and produces evidence packets and
 campaign reports. Validation checks metadata, evidence paths, Markdown links,
 front-matter states, portfolio reconciliation, and forbidden repository scope.
 
-Human semantic review remains required before the Phase 5 publication campaign
-uses these pages as approved drafting inputs.
+Human semantic review was completed on 2026-07-23. The operator adjudicated
+manufacturer coverage, independent FTX corroboration, the standard for
+high-confidence current-membership inference, and the historical canonical
+lore-snapshot treatment. The decisions are retained in
+`human-adjudication-ledger.json`; the reviewed pages are approved as future
+publication inputs.

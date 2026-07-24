@@ -39,10 +39,26 @@ def main() -> int:
     subprocess.run([sys.executable, str(HERE / "build_campaign.py")], cwd=ROOT, check=True)
     failures: list[str] = []
     summary = json.loads((HERE / "campaign-summary.json").read_text(encoding="utf-8"))
+    adjudications = json.loads(
+        (HERE / "human-adjudication-ledger.json").read_text(encoding="utf-8")
+    )
     if summary["planned_gap_count"] != 13 or len(summary["outputs"]) != 13:
         failures.append("portfolio must reconcile exactly 13 approved Phase 5 gaps")
     if {item["plan_id"] for item in summary["outputs"]} != {item[0] for item in PAGES}:
         failures.append("summary plan IDs do not reconcile with the fixed portfolio")
+    expected_adjudications = {
+        "PH5-ADJ-001_MANUFACTURER_FAMILIES",
+        "PH5-ADJ-002_FTX_CORROBORATION",
+        "PH5-ADJ-003_CURRENT_MEMBERSHIP_INFERENCE",
+        "PH5-ADJ-004_LORE_SNAPSHOT_TREATMENT",
+    }
+    actual_adjudications = {
+        item["decision_id"] for item in adjudications["adjudications"]
+    }
+    if actual_adjudications != expected_adjudications:
+        failures.append("human adjudication ledger does not reconcile")
+    if summary.get("human_semantic_review_completed") is not True:
+        failures.append("human semantic review is not recorded as complete")
 
     for plan_id, rel, _ in PAGES:
         page = ROOT / rel
@@ -103,11 +119,13 @@ def main() -> int:
         "checks": {
             "portfolio_reconciles": len(summary["outputs"]) == 13,
             "evidence_packets": packet_count,
+            "human_adjudications": len(actual_adjudications),
             "metadata_and_links": "PASS" if not failures else "SEE_FAILURES",
             "forbidden_paths": forbidden,
         },
         "failures": failures,
-        "human_semantic_review_required": True,
+        "human_semantic_review_required": False,
+        "human_semantic_review_completed": True,
     }
     (HERE / "validation-report.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False, sort_keys=True) + "\n",
@@ -122,7 +140,8 @@ def main() -> int:
         f"- Knowledge dossiers: {len(summary['outputs'])}",
         f"- Evidence packets: {packet_count}",
         f"- Forbidden paths changed: {len(forbidden)}",
-        "- Human semantic review required: yes",
+        "- Human semantic review required: no",
+        "- Human semantic review completed: yes",
         "",
         "## Failures",
         "",
