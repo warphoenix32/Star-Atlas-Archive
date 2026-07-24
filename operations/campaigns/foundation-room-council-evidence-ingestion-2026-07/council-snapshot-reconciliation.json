@@ -1,0 +1,2435 @@
+{
+  "campaign_id": "foundation-room-council-evidence-ingestion-2026-07",
+  "prior_record_count": 39,
+  "promotion_authorized": false,
+  "records": [
+    {
+      "changed": true,
+      "pip_id": "PIP-1",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas DAO",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-3A72A64665973D86",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas DAO",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-C1B901AD582ED9F3",
+      "title": "Star Atlas DAO"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-2",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": "?",
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Foundation",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-3B6FF16E8888387B",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": "?"
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Foundation",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-13A5F12525757D51",
+      "title": "Foundation"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-3",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Council",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-843EC13C8D2C1893",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Council",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-0405E015043400CA",
+      "title": "Star Atlas Council"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-4",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Ecosystem Fund",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-884FB504E29CF455",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Ecosystem Fund",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-9E2BF5FE5392DB98",
+      "title": "Star Atlas Ecosystem Fund"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-5",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": "0.0",
+          "left_usdc": null,
+          "paid_atlas": "6000000.0",
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Co-Sponsor the Naabathon",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-224F9EA0B3F8FE9A",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "6000000",
+            "original": "6,000,000.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Co-Sponsor the Naabathon",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-AAAB9FD1DA1FA292",
+      "title": "Co-Sponsor the Naabathon"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-6",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Council Election #1 - First Round",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-8A0D54840904E271",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Council Election #1 - First Round",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-D41D773E6C33AD9C",
+      "title": "Council Election #1 - First Round"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-7",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Council Election #1 - Second Round",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-C55CF1ACB8A1AE70",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Council Election #1 - Second Round",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-702D7B2432EA3F0D",
+      "title": "Council Election #1 - Second Round"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-8",
+      "prior": {
+        "note": "First PIP that had SAC-1 involvement",
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": "0.0",
+          "left_usdc": null,
+          "paid_atlas": "7723034.0",
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Comet: Community Meetup at Gamescom 2025",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-60F0DFB7B83F33B1",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": "First PIP that had SAC-1 involvement",
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "7723034",
+            "original": "7,723,034.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Comet: Community Meetup at Gamescom 2025",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-E3756848F9A36A64",
+      "title": "Star Atlas Comet: Community Meetup at Gamescom 2025"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-9",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Adjust STV Backup Vote Handling to Prevent Unintended Vote Redistribution",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-2029FBB84DEE4835",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Adjust STV Backup Vote Handling to Prevent Unintended Vote Redistribution",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-E09A815A09AFC991",
+      "title": "Adjust STV Backup Vote Handling to Prevent Unintended Vote Redistribution"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-10",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Council: Second Term & Beyond",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-8374AD9310B8BF76",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Council: Second Term & Beyond",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-DA4C8C9F9ADC941C",
+      "title": "Star Atlas Council: Second Term & Beyond"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-11",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Council Election #2",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-459923480193D5A2",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Council Election #2",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-B753EE7DCFF26157",
+      "title": "Council Election #2"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-12",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": "0.0",
+          "left_usdc": null,
+          "paid_atlas": "7429420.0",
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Closed",
+        "status": "Actionable",
+        "title": "Iris’s Bounty: The Feast",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-68D922D48304122A",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "7429420",
+            "original": "7,429,420.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Closed",
+        "status": "Actionable",
+        "title": "Iris’s Bounty: The Feast",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-73988E278C1A09C5",
+      "title": "Iris’s Bounty: The Feast"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-13",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Implementing Term Limits for Star Atlas DAO Council Members",
+        "vote_result": "Failed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-BDD4663CBF60EF34",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Implementing Term Limits for Star Atlas DAO Council Members",
+        "vote_result": "Failed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-6C5F29629597BC1C",
+      "title": "Implementing Term Limits for Star Atlas DAO Council Members"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-14",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": "2.512562814E7",
+          "left_usdc": null,
+          "paid_atlas": "4462301.0",
+          "paid_usdc": null,
+          "total_milestones": "2.0"
+        },
+        "phase": "Closed",
+        "status": "Actionable",
+        "title": "Deepening THEO Integration into the Star Atlas Economy",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-5AA7278EA3F455A3",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_PARTIAL",
+          "left_atlas": {
+            "normalized": "25125628.14",
+            "original": "25,125,628.14"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "4462301",
+            "original": "4,462,301.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "2",
+            "original": "2"
+          }
+        },
+        "phase": "Closed",
+        "status": "Actionable",
+        "title": "Deepening THEO Integration into the Star Atlas Economy",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-971CBD03064C4AED",
+      "title": "Deepening THEO Integration into the Star Atlas Economy"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-15",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "N/A",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "paid_usdc": null,
+          "total_milestones": "N/A"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "In-Person Community Meetups Platform",
+        "vote_result": "Failed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-980C5E7D52F017F8",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "In-Person Community Meetups Platform",
+        "vote_result": "Failed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-121306268AFFE0F0",
+      "title": "In-Person Community Meetups Platform"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-16",
+      "prior": {
+        "note": "Transitioning from Eveeye Star Atlas",
+        "payment_fields": {
+          "completed_milestones": "1.0",
+          "left_atlas": "0.0",
+          "left_usdc": null,
+          "paid_atlas": "7985657.0",
+          "paid_usdc": "8464.79",
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Ryden Systems",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-C754D122079C4938",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": "Transitioning from Eveeye Star Atlas",
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "1",
+            "original": "1"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "7985657",
+            "original": "7,985,657.00"
+          },
+          "paid_usdc": {
+            "normalized": "8464.79",
+            "original": "8,464.79"
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Ryden Systems",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-2E79380454394A69",
+      "title": "Ryden Systems"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-17",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "0.0",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": "0.0",
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Closed",
+        "status": "Actionable",
+        "title": "Star Atlas Ecosystem Media Expansion Proposal by Lord Raspy III",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-BA1C2F2A01C7D040",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "implementation_state": "COUNCIL_REPORTED_PARTIAL",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "0",
+            "original": "0.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Closed",
+        "status": "Actionable",
+        "title": "Star Atlas Ecosystem Media Expansion Proposal by Lord Raspy III",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-B9745BBA5665A75A",
+      "title": "Star Atlas Ecosystem Media Expansion Proposal by Lord Raspy III"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-18",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "2.0",
+          "left_atlas": "0.0",
+          "left_usdc": null,
+          "paid_atlas": "5781393.0",
+          "paid_usdc": null,
+          "total_milestones": "2.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Marketing & Merch Expansion for Gamescom 2025",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-931DDBA869764C56",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "2",
+            "original": "2"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "5781393",
+            "original": "5,781,393.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "2",
+            "original": "2"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Marketing & Merch Expansion for Gamescom 2025",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-DC9E5D42EF8E5ABB",
+      "title": "Marketing & Merch Expansion for Gamescom 2025"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-19",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "N/A",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "paid_usdc": null,
+          "total_milestones": "N/A"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Funding Independent Economic Research and Maintenance of Critical Data Resources [Comprehensive PIP]",
+        "vote_result": "Failed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-789A6FEBBEEA489E",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Funding Independent Economic Research and Maintenance of Critical Data Resources [Comprehensive PIP]",
+        "vote_result": "Failed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-78E6D657F4466480",
+      "title": "Funding Independent Economic Research and Maintenance of Critical Data Resources [Comprehensive PIP]"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-20",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "0.0",
+          "left_atlas": "5400000.0",
+          "left_usdc": null,
+          "paid_atlas": "4320000.0",
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Creation of DAO Caster Role",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-D42AEB27C99E0915",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "implementation_state": "COUNCIL_REPORTED_PARTIAL",
+          "left_atlas": {
+            "normalized": "5400000",
+            "original": "5,400,000"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "4320000",
+            "original": "4,320,000.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Creation of DAO Caster Role",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-32DB2A3900349268",
+      "title": "Creation of DAO Caster Role"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-21",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "?",
+          "left_atlas": "3.52251309E7",
+          "left_usdc": null,
+          "paid_atlas": "7317073.0",
+          "paid_usdc": "2083.0",
+          "total_milestones": "2.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Rogue Data Hub (RDH)",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-B0501DB4E8A23BD5",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": "?"
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": "35225130.9",
+            "original": "35,225,130.90"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "7317073",
+            "original": "7,317,073.00"
+          },
+          "paid_usdc": {
+            "normalized": "2083",
+            "original": "2,083.00"
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "2",
+            "original": "2"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Rogue Data Hub (RDH)",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-62307F94169343ED",
+      "title": "Rogue Data Hub (RDH)"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-22",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "0.0",
+          "left_atlas": "9000000.0",
+          "left_usdc": null,
+          "paid_atlas": "2000000.0",
+          "paid_usdc": null,
+          "total_milestones": "1.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Iris Bounty - The Arena",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-D0B52D04E2596FC6",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "implementation_state": "COUNCIL_REPORTED_PARTIAL",
+          "left_atlas": {
+            "normalized": "9000000",
+            "original": "9,000,000"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "2000000",
+            "original": "2,000,000.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": "1",
+            "original": "1"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Iris Bounty - The Arena",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-F3B0FFE7006CAE17",
+      "title": "Iris Bounty - The Arena"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-23",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "N/A",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "paid_usdc": null,
+          "total_milestones": "N/A"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Refresh of PIP-4 the Ecosystem Fund",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-54C7FCAA869A0208",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Refresh of PIP-4 the Ecosystem Fund",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-48DF7FD1ACF862CC",
+      "title": "Refresh of PIP-4 the Ecosystem Fund"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-24",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "3.0",
+          "left_atlas": "?",
+          "left_usdc": null,
+          "paid_atlas": "?",
+          "paid_usdc": null,
+          "total_milestones": "3.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "DAO-Supported Hosting Service",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-F45405F0BDBEF113",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": "3",
+            "original": "3"
+          },
+          "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+          "left_atlas": {
+            "normalized": null,
+            "original": "?"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": "?"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "3",
+            "original": "3"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "DAO-Supported Hosting Service",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-84EE50C632524040",
+      "title": "DAO-Supported Hosting Service"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-25",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "N/A",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "paid_usdc": null,
+          "total_milestones": "N/A"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Council Election #3",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-4CD3441957C5E548",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Council Election #3",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-011B39BFCEA87671",
+      "title": "Council Election #3"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-26",
+      "prior": {
+        "note": "First PIP that had SAC-3 involvement",
+        "payment_fields": {
+          "completed_milestones": "N/A",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "paid_usdc": null,
+          "total_milestones": "N/A"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Crew Adventure Series – Season Production",
+        "vote_result": "Failed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-037DB26F286929AB",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": "First PIP that had SAC-3 involvement",
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Star Atlas Crew Adventure Series – Season Production",
+        "vote_result": "Failed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-28C31B04FF82A6D9",
+      "title": "Star Atlas Crew Adventure Series – Season Production"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-27",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "N/A",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": "N/A",
+          "paid_usdc": null,
+          "total_milestones": "N/A"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "DAO Casters Election: Term 1",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-213BEC9D6122966A",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": "N/A"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": "N/A"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "DAO Casters Election: Term 1",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-3605CCCC82160634",
+      "title": "DAO Casters Election: Term 1"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-28",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": "?",
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": "6.0"
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Temporary DAO Funding to Preserve Core Lore, Design, and Community Functions",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-023002BD814CC43D",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": "?"
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": "6",
+            "original": "6"
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "Temporary DAO Funding to Preserve Core Lore, Design, and Community Functions",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-F0224DFB1A4C79C7",
+      "title": "Temporary DAO Funding to Preserve Core Lore, Design, and Community Functions"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-29",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": "0.0",
+          "left_usdc": null,
+          "paid_atlas": "1.3143639E7",
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-29: Star Atlas Relay Program (Pilot)",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-E4BC6834AFF20097",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": "0",
+            "original": "0"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "13143639",
+            "original": "13,143,639.00"
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-29: Star Atlas Relay Program (Pilot)",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-3F53C36FDC87DA1A",
+      "title": "PIP-29: Star Atlas Relay Program (Pilot)"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-30",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": "6710475.0",
+          "left_usdc": null,
+          "paid_atlas": "6433164.0",
+          "paid_usdc": "1650.0",
+          "total_milestones": null
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-30: ATOM Cloud Infrastructure Sustainability — DAO Funding Pilot",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-B81AFEC5FD385C64",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": "6710475",
+            "original": "6,710,475"
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": "6433164",
+            "original": "6,433,164.00"
+          },
+          "paid_usdc": {
+            "normalized": "1650",
+            "original": "1,650.00"
+          },
+          "payment_state": "COUNCIL_REPORTED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-30: ATOM Cloud Infrastructure Sustainability — DAO Funding Pilot",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-F2C3AC0EC028DCB3",
+      "title": "PIP-30: ATOM Cloud Infrastructure Sustainability — DAO Funding Pilot"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-31",
+      "prior": {
+        "note": "PIP passed, but withdrawn by PIP Author, will not be implemented",
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Withdrawn",
+        "status": "Actionable",
+        "title": "PIP-31: Star Seekers Ecosystem Expansion",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-84B04A340610C0C9",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": "PIP passed, but withdrawn by PIP Author, will not be implemented",
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "COUNCIL_REPORTED_NOT_IMPLEMENTED",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Withdrawn",
+        "status": "Actionable",
+        "title": "PIP-31: Star Seekers Ecosystem Expansion",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-6B1D322AFF50710F",
+      "title": "PIP-31: Star Seekers Ecosystem Expansion"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-32",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-32: Igniting the Star Atlas Triad Tournament - A Super Phoenix Sports Live Esports Event",
+        "vote_result": "Passed"
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-0421BF7765A5B59D",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "AUTHORIZED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-32: Igniting the Star Atlas Triad Tournament - A Super Phoenix Sports Live Esports Event",
+        "vote_result": "Passed"
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-BFC44016CF699E13",
+      "title": "PIP-32: Igniting the Star Atlas Triad Tournament - A Super Phoenix Sports Live Esports Event"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-33",
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-33: ATMTA Historic Expense Reimbursement",
+        "vote_result": null
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-D1DADF7EB8437119",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-33: ATMTA Historic Expense Reimbursement",
+        "vote_result": null
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-57E66A5AEAA406E9",
+      "title": "PIP-33: ATMTA Historic Expense Reimbursement"
+    },
+    {
+      "changed": true,
+      "pip_id": "PIP-34",
+      "prior": null,
+      "prior_source_id": null,
+      "reconciliation_status": "NEW_OR_UNNUMBERED_RECORD",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Voting",
+        "status": "Actionable",
+        "title": "PIP-34: Star Atlas Crew Adventure Series – Season Production",
+        "vote_result": null
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-16992F5B59666C61",
+      "title": "PIP-34: Star Atlas Crew Adventure Series – Season Production"
+    },
+    {
+      "changed": true,
+      "pip_id": null,
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Closed",
+        "status": "Actionable",
+        "title": "Star Seekers Ecosystem Expansion",
+        "vote_result": null
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-8496C05B78803C1C",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Closed",
+        "status": "Actionable",
+        "title": "Star Seekers Ecosystem Expansion",
+        "vote_result": null
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-3B5CA6B803BFC3C6",
+      "title": "Star Seekers Ecosystem Expansion"
+    },
+    {
+      "changed": true,
+      "pip_id": null,
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Withdrawn",
+        "status": "Actionable",
+        "title": "Establishing a Values List for the Star Atlas DAO",
+        "vote_result": null
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-6DC302F3A882C13B",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "COUNCIL_REPORTED_NOT_IMPLEMENTED",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Withdrawn",
+        "status": "Actionable",
+        "title": "Establishing a Values List for the Star Atlas DAO",
+        "vote_result": null
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-E03044998EB1FCB3",
+      "title": "Establishing a Values List for the Star Atlas DAO"
+    },
+    {
+      "changed": true,
+      "pip_id": null,
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Withdrawn",
+        "status": "Non-actionable",
+        "title": "The Infinite Star Atlas IP Universe",
+        "vote_result": null
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-B357F16563064FAA",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "COUNCIL_REPORTED_NOT_IMPLEMENTED",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Withdrawn",
+        "status": "Non-actionable",
+        "title": "The Infinite Star Atlas IP Universe",
+        "vote_result": null
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-FBB26910E210FC18",
+      "title": "The Infinite Star Atlas IP Universe"
+    },
+    {
+      "changed": true,
+      "pip_id": null,
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Withdrawn",
+        "status": "Actionable",
+        "title": "DAO Working Groups",
+        "vote_result": null
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-5CF4B60E52EDD8D6",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "COUNCIL_REPORTED_NOT_IMPLEMENTED",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Withdrawn",
+        "status": "Actionable",
+        "title": "DAO Working Groups",
+        "vote_result": null
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-5F6B04DCD543A0A3",
+      "title": "DAO Working Groups"
+    },
+    {
+      "changed": true,
+      "pip_id": null,
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Draft",
+        "status": "Actionable",
+        "title": "Payment for Term-3 Star Atlas DAO Council",
+        "vote_result": null
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-E95EE706614E43D9",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": true,
+          "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Draft",
+        "status": "Actionable",
+        "title": "Payment for Term-3 Star Atlas DAO Council",
+        "vote_result": null
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-8007EED8BFE6F5E8",
+      "title": "Payment for Term-3 Star Atlas DAO Council"
+    },
+    {
+      "changed": true,
+      "pip_id": null,
+      "prior": {
+        "note": null,
+        "payment_fields": {
+          "completed_milestones": null,
+          "left_atlas": null,
+          "left_usdc": null,
+          "paid_atlas": null,
+          "paid_usdc": null,
+          "total_milestones": null
+        },
+        "phase": "Draft",
+        "status": "Actionable",
+        "title": "Igniting the Star Atlas Triad Tournament - A Super Phoenix Sports Live Esports Event",
+        "vote_result": null
+      },
+      "prior_source_id": "SA-COUNCIL-TRACKER-90F13841F13B6E16",
+      "reconciliation_status": "PRIOR_RECORD_FOUND",
+      "snapshot": {
+        "note": null,
+        "payment_fields": {
+          "authorization_state": "REQUESTED",
+          "completed_milestones": {
+            "normalized": null,
+            "original": null
+          },
+          "implementation_state": "UNKNOWN",
+          "left_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "left_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "monetary_proposal_or_program": false,
+          "onchain_verification_state": "UNVERIFIED",
+          "paid_atlas": {
+            "normalized": null,
+            "original": null
+          },
+          "paid_usdc": {
+            "normalized": null,
+            "original": null
+          },
+          "payment_state": "UNVERIFIED",
+          "total_milestones": {
+            "normalized": null,
+            "original": null
+          }
+        },
+        "phase": "Draft",
+        "status": "Actionable",
+        "title": "Igniting the Star Atlas Triad Tournament - A Super Phoenix Sports Live Esports Event",
+        "vote_result": null
+      },
+      "snapshot_source_id": "SA-COUNCIL-SNAPSHOT-BE9D4F25212985D2",
+      "title": "Igniting the Star Atlas Triad Tournament - A Super Phoenix Sports Live Esports Event"
+    }
+  ],
+  "snapshot_date": "2026-07-23",
+  "snapshot_record_count": 40
+}

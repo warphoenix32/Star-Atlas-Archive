@@ -1,0 +1,79 @@
+{
+  "campaign_id": "foundation-room-council-evidence-ingestion-2026-07",
+  "channels": [
+    {
+      "actual_range": {
+        "end": "2026-07-23T01:07:23.600Z",
+        "start": "2025-01-22T02:59:55.987Z"
+      },
+      "channel": {
+        "id": "1331454445342691421",
+        "name": "😎┃foundation-room",
+        "type": "channel"
+      },
+      "collection_complete": false,
+      "collection_source_id": "SA-DISCORD-EXPORT-4C0161EE919B8955",
+      "coverage": {
+        "confidence": "medium",
+        "earliestAcquired": "2025-01-22T02:59:55.987Z",
+        "latestAcquired": "2026-07-23T01:07:23.600Z",
+        "requestedStart": "2021-03-01T12:46:00.000Z",
+        "startReached": false,
+        "status": "partial"
+      },
+      "message_count": 4464,
+      "participant_count": 180,
+      "requested_range": {
+        "end": "2026-07-23T11:46:00.000Z",
+        "start": "2021-03-01T12:46:00.000Z"
+      },
+      "server": {
+        "id": "789226204980707409",
+        "name": "Star Atlas",
+        "type": "server"
+      },
+      "stop_reason": "no-progress-limit",
+      "warnings": [
+        "Discord produced no older messages within the no-progress safety window. The partial archive is recoverable."
+      ]
+    },
+    {
+      "actual_range": {
+        "end": "2026-07-23T01:03:04.526Z",
+        "start": "2022-01-25T19:05:55.773Z"
+      },
+      "channel": {
+        "id": "935606734192529449",
+        "name": "💥┃fr-chat",
+        "type": "channel"
+      },
+      "collection_complete": false,
+      "collection_source_id": "SA-DISCORD-EXPORT-0E785D04FF325542",
+      "coverage": {
+        "confidence": "medium",
+        "earliestAcquired": "2022-01-25T19:05:55.773Z",
+        "latestAcquired": "2026-07-23T01:03:04.526Z",
+        "requestedStart": "2021-03-23T04:43:00.000Z",
+        "startReached": false,
+        "status": "partial"
+      },
+      "message_count": 186430,
+      "participant_count": 469,
+      "requested_range": {
+        "end": "2026-07-23T04:42:00.000Z",
+        "start": "2021-03-23T04:43:00.000Z"
+      },
+      "server": {
+        "id": "789226204980707409",
+        "name": "Star Atlas",
+        "type": "server"
+      },
+      "stop_reason": "no-progress-limit",
+      "warnings": [
+        "Discord produced no older messages within the no-progress safety window. The partial archive is recoverable."
+      ]
+    }
+  ],
+  "completeness_claim": "PARTIAL_EXPORTS_PRESERVED_WITH_COLLECTOR_LIMITS",
+  "scope": "Imported native-ID Discord exports; each channel is represented independently."
+}

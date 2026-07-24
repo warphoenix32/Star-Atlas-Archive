@@ -519,6 +519,14 @@ def discover_sources(repo_root: Path) -> list[Path]:
             continue
         rel = path.relative_to(repo_root).as_posix()
         lower = rel.casefold()
+        # The 2026-07 native-ID Foundation Room ingestion has its own
+        # channel-aware coverage and validation contract. This legacy indexer
+        # models one announcement export and would collapse every newly
+        # discovered channel into that announcement coverage record. Keep the
+        # evidence preserved and queryable, but defer derived indexing until
+        # the indexer supports multiple native channel contexts.
+        if lower.startswith("archive/normalized/discord/star-atlas/"):
+            continue
         if "discord" in lower and (lower.startswith("archive/raw/") or lower.startswith("archive/normalized/")):
             paths.append(path)
     return sorted(paths, key=lambda p: p.relative_to(repo_root).as_posix().casefold())
