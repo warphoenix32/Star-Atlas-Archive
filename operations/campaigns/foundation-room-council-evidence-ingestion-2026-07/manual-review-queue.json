@@ -1,0 +1,248 @@
+{
+  "campaign_id": "foundation-room-council-evidence-ingestion-2026-07",
+  "items": [
+    {
+      "defer_allowed": true,
+      "finding": "Collector stopped at the no-progress limit; requested 2021 start was not reached.",
+      "recommendation": "Preserve as partial. A future resumable export should target messages before 2025-01-22.",
+      "review_id": "FRC-001",
+      "status": "OPEN",
+      "subject": "foundation-room",
+      "type": "DISCORD_TEMPORAL_COVERAGE"
+    },
+    {
+      "defer_allowed": true,
+      "finding": "Collector stopped at the no-progress limit; requested 2021 start was not reached.",
+      "recommendation": "Preserve as partial. A future resumable export should target messages before 2022-01-25.",
+      "review_id": "FRC-002",
+      "status": "OPEN",
+      "subject": "fr-chat",
+      "type": "DISCORD_TEMPORAL_COVERAGE"
+    },
+    {
+      "defer_allowed": true,
+      "finding": "One or more tracker dates occur after the supplied snapshot date.",
+      "recommendation": "Retain original text and normalized date; determine whether each value is a planned date or a data-entry error.",
+      "review_id": "FRC-003",
+      "status": "OPEN",
+      "subject": [
+        {
+          "field": "vote_ended",
+          "pip_id": "PIP-34",
+          "source_id": "SA-COUNCIL-SNAPSHOT-16992F5B59666C61",
+          "title": "PIP-34: Star Atlas Crew Adventure Series – Season Production",
+          "value": {
+            "normalized": "2026-08-01",
+            "original": "8/1/2026"
+          }
+        },
+        {
+          "field": "draft",
+          "pip_id": null,
+          "source_id": "SA-COUNCIL-SNAPSHOT-8007EED8BFE6F5E8",
+          "title": "Payment for Term-3 Star Atlas DAO Council",
+          "value": {
+            "normalized": "2026-11-29",
+            "original": "11/29/2026"
+          }
+        }
+      ],
+      "type": "COUNCIL_FUTURE_DATE"
+    },
+    {
+      "defer_allowed": true,
+      "finding": "The Council snapshot uses question marks for unresolved payment or milestone values.",
+      "recommendation": "Keep UNVERIFIED until Council documentation or transaction-level evidence is supplied.",
+      "review_id": "FRC-004",
+      "status": "OPEN",
+      "subject": [
+        {
+          "payment": {
+            "authorization_state": "AUTHORIZED",
+            "completed_milestones": {
+              "normalized": "1",
+              "original": "1"
+            },
+            "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+            "left_atlas": {
+              "normalized": null,
+              "original": null
+            },
+            "left_usdc": {
+              "normalized": null,
+              "original": null
+            },
+            "monetary_proposal_or_program": true,
+            "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+            "paid_atlas": {
+              "normalized": null,
+              "original": null
+            },
+            "paid_usdc": {
+              "normalized": null,
+              "original": "?"
+            },
+            "payment_state": "UNVERIFIED",
+            "total_milestones": {
+              "normalized": "1",
+              "original": "1"
+            }
+          },
+          "pip_id": "PIP-2",
+          "source_id": "SA-COUNCIL-SNAPSHOT-13A5F12525757D51",
+          "title": "Foundation"
+        },
+        {
+          "payment": {
+            "authorization_state": "AUTHORIZED",
+            "completed_milestones": {
+              "normalized": null,
+              "original": "?"
+            },
+            "implementation_state": "UNKNOWN",
+            "left_atlas": {
+              "normalized": "35225130.9",
+              "original": "35,225,130.90"
+            },
+            "left_usdc": {
+              "normalized": null,
+              "original": null
+            },
+            "monetary_proposal_or_program": true,
+            "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+            "paid_atlas": {
+              "normalized": "7317073",
+              "original": "7,317,073.00"
+            },
+            "paid_usdc": {
+              "normalized": "2083",
+              "original": "2,083.00"
+            },
+            "payment_state": "COUNCIL_REPORTED",
+            "total_milestones": {
+              "normalized": "2",
+              "original": "2"
+            }
+          },
+          "pip_id": "PIP-21",
+          "source_id": "SA-COUNCIL-SNAPSHOT-62307F94169343ED",
+          "title": "Rogue Data Hub (RDH)"
+        },
+        {
+          "payment": {
+            "authorization_state": "AUTHORIZED",
+            "completed_milestones": {
+              "normalized": "3",
+              "original": "3"
+            },
+            "implementation_state": "COUNCIL_REPORTED_COMPLETE",
+            "left_atlas": {
+              "normalized": null,
+              "original": "?"
+            },
+            "left_usdc": {
+              "normalized": null,
+              "original": null
+            },
+            "monetary_proposal_or_program": true,
+            "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+            "paid_atlas": {
+              "normalized": null,
+              "original": "?"
+            },
+            "paid_usdc": {
+              "normalized": null,
+              "original": null
+            },
+            "payment_state": "UNVERIFIED",
+            "total_milestones": {
+              "normalized": "3",
+              "original": "3"
+            }
+          },
+          "pip_id": "PIP-24",
+          "source_id": "SA-COUNCIL-SNAPSHOT-84EE50C632524040",
+          "title": "DAO-Supported Hosting Service"
+        },
+        {
+          "payment": {
+            "authorization_state": "AUTHORIZED",
+            "completed_milestones": {
+              "normalized": null,
+              "original": "?"
+            },
+            "implementation_state": "UNKNOWN",
+            "left_atlas": {
+              "normalized": null,
+              "original": null
+            },
+            "left_usdc": {
+              "normalized": null,
+              "original": null
+            },
+            "monetary_proposal_or_program": true,
+            "onchain_verification_state": "MISSING_ONCHAIN_EVIDENCE",
+            "paid_atlas": {
+              "normalized": null,
+              "original": null
+            },
+            "paid_usdc": {
+              "normalized": null,
+              "original": null
+            },
+            "payment_state": "UNVERIFIED",
+            "total_milestones": {
+              "normalized": "6",
+              "original": "6"
+            }
+          },
+          "pip_id": "PIP-28",
+          "source_id": "SA-COUNCIL-SNAPSHOT-F0224DFB1A4C79C7",
+          "title": "Temporary DAO Funding to Preserve Core Lore, Design, and Community Functions"
+        }
+      ],
+      "type": "COUNCIL_UNKNOWN_PAYMENT_OR_MILESTONE"
+    },
+    {
+      "defer_allowed": true,
+      "finding": "Six substantive tracker rows have titles but no PIP number.",
+      "recommendation": "Do not assign PIP identifiers without an authoritative source.",
+      "review_id": "FRC-005",
+      "status": "OPEN",
+      "subject": [
+        {
+          "phase": "Closed",
+          "source_id": "SA-COUNCIL-SNAPSHOT-3B5CA6B803BFC3C6",
+          "title": "Star Seekers Ecosystem Expansion"
+        },
+        {
+          "phase": "Withdrawn",
+          "source_id": "SA-COUNCIL-SNAPSHOT-E03044998EB1FCB3",
+          "title": "Establishing a Values List for the Star Atlas DAO"
+        },
+        {
+          "phase": "Withdrawn",
+          "source_id": "SA-COUNCIL-SNAPSHOT-FBB26910E210FC18",
+          "title": "The Infinite Star Atlas IP Universe"
+        },
+        {
+          "phase": "Withdrawn",
+          "source_id": "SA-COUNCIL-SNAPSHOT-5F6B04DCD543A0A3",
+          "title": "DAO Working Groups"
+        },
+        {
+          "phase": "Draft",
+          "source_id": "SA-COUNCIL-SNAPSHOT-8007EED8BFE6F5E8",
+          "title": "Payment for Term-3 Star Atlas DAO Council"
+        },
+        {
+          "phase": "Draft",
+          "source_id": "SA-COUNCIL-SNAPSHOT-BE9D4F25212985D2",
+          "title": "Igniting the Star Atlas Triad Tournament - A Super Phoenix Sports Live Esports Event"
+        }
+      ],
+      "type": "COUNCIL_UNNUMBERED_PIPELINE_ITEMS"
+    }
+  ],
+  "open_count": 5
+}

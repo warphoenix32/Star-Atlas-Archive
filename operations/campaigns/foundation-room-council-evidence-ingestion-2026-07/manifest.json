@@ -1,0 +1,712 @@
+{
+  "campaign_id": "foundation-room-council-evidence-ingestion-2026-07",
+  "counts": {
+    "campaign_id": "foundation-room-council-evidence-ingestion-2026-07",
+    "council_snapshot": {
+      "future_date_review_count": 2,
+      "numbered_pip_count": 34,
+      "raw_sha256": "533d4578c00f949d9c38653190f084681c336e9c135b84c29a7a9cf5741cff9b",
+      "record_count": 40,
+      "unknown_payment_review_count": 4,
+      "unnumbered_pipeline_item_count": 6
+    },
+    "discord": {
+      "channel_export_count": 2,
+      "collection_complete_count": 0,
+      "collection_partial_count": 2,
+      "message_count": 190894,
+      "participant_record_count": 649
+    },
+    "graph_changes": 0,
+    "knowledge_promotions": 0,
+    "manual_review_open_count": 5,
+    "publication_changes": 0,
+    "scope": "PRESERVE_AND_NORMALIZE_ONLY",
+    "status": "GENERATED"
+  },
+  "generated_outputs": [
+    {
+      "bytes": 5166,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/collection.json",
+      "sha256": "debead65b1c912bdf3e7ef290c090b7b6a2222bcd364e95411f65328803a6094"
+    },
+    {
+      "bytes": 5211,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/message-file-index.json",
+      "sha256": "2fd720a8a530af8f9c452b227f9f9506fb1dcec1114273945578a5f74b680abc"
+    },
+    {
+      "bytes": 149689,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-01.jsonl",
+      "sha256": "cac4e01845669b5e70c95f176777af47a42834eb7bdf2309581f65f82f5cd578"
+    },
+    {
+      "bytes": 578976,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-02.jsonl",
+      "sha256": "fa5c5afb5bc817b43c792c6bf1e0c3a0680b4a43affc7cc1f52e65752d20419d"
+    },
+    {
+      "bytes": 459928,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-03.jsonl",
+      "sha256": "ef11279186f33886722f72f8dc4e13cb3e4d38fd7f21e84bb31e5f228ed29e95"
+    },
+    {
+      "bytes": 289926,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-04.jsonl",
+      "sha256": "4e52d8611e3783d6e1121bf59f21240cf2be2fdda5936a49e99d72dc325b6b1d"
+    },
+    {
+      "bytes": 453813,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-05.jsonl",
+      "sha256": "f334e65a879f9fb80fd8503c49a877a515a6198ad521ae7ea01029be2133b286"
+    },
+    {
+      "bytes": 505917,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-06.jsonl",
+      "sha256": "a5d2ed727e3eef54f5df6582532f297fa8f7c8abbe69a6db5bdd81d325f4fe03"
+    },
+    {
+      "bytes": 206765,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-07.jsonl",
+      "sha256": "09dafe1d563d846e0b32fb05a15083946e3a1d0bb73c9eddd97fe4745a124536"
+    },
+    {
+      "bytes": 597634,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-08.jsonl",
+      "sha256": "2dba5a6b2612ecb5e0844e5cfa9968363fedf161c81b1316a062047840463fa4"
+    },
+    {
+      "bytes": 402436,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-09.jsonl",
+      "sha256": "6ab2245122fccb07c54d2d1def212369ed41c0ac7e9e375afad1cd42676a7060"
+    },
+    {
+      "bytes": 311127,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-10.jsonl",
+      "sha256": "e3b72989c26241753c1108e350f3fedfb1382eed9bacc08753c4640cd916dc44"
+    },
+    {
+      "bytes": 263953,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-11.jsonl",
+      "sha256": "517ee26f87867a4312f7e2515fa250cd7cd8986b0c1f1c3a0c395a0511c1c23f"
+    },
+    {
+      "bytes": 348819,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-12.jsonl",
+      "sha256": "dd0fdc1ab1ddafd3113103a71cf333cb6a2dd37813df8e3f6291b5a7877aef9e"
+    },
+    {
+      "bytes": 426746,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-01.jsonl",
+      "sha256": "0030588862eb0be8dfa9fa66ec1c20a4628fd81f5a78ec9fc835990cf41027c5"
+    },
+    {
+      "bytes": 176320,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-02.jsonl",
+      "sha256": "a96f6ad2be475a97cf4c370287be6c4c1003aa7ccf8a354b3c17702b30a59273"
+    },
+    {
+      "bytes": 175704,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-03.jsonl",
+      "sha256": "11ccffb5da31f470f6c944749951a500c84a477483dc9b4946cad0840bfe6671"
+    },
+    {
+      "bytes": 134869,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-04.jsonl",
+      "sha256": "cf0d64ac9f0f252a311536df98f54283e8bb9c54a6a6338207b14a6aebad5eab"
+    },
+    {
+      "bytes": 124994,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-05.jsonl",
+      "sha256": "00db6198981fc9dfeda68f1e2ecefee8da2ea6bbc1fae04c762ad099dc669753"
+    },
+    {
+      "bytes": 157599,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-06.jsonl",
+      "sha256": "a74b835ec452dea29e58b38b6110d3aaa77111620607cc16a23b98d2afd70e29"
+    },
+    {
+      "bytes": 197798,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-07.jsonl",
+      "sha256": "1a62660c2a2774a0818dbb2a0e198dccffa1f6ac754fef0a5f3d51b51ff93ddd"
+    },
+    {
+      "bytes": 105066,
+      "path": "archive/normalized/discord/star-atlas/foundation-room/participants.jsonl",
+      "sha256": "7bb3c5264567505aa82ca4a4084e0a3867483f3abe7401faa7a1d1dd65e74f45"
+    },
+    {
+      "bytes": 5910,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/collection.json",
+      "sha256": "49c3b22befc3a478515aff3098bebe3ad5cc208fceb6cd32d4cc96d4f331c01a"
+    },
+    {
+      "bytes": 14487,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/message-file-index.json",
+      "sha256": "79203391d121346ca687df189a4a8ce745f81fd7c77fd903cabb0be8d2afda74"
+    },
+    {
+      "bytes": 559985,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-01.jsonl",
+      "sha256": "70202b175f63ee16a6eb75fbfedb9ae709c7df5f25ac1016382a74ddd46ccaa4"
+    },
+    {
+      "bytes": 2025228,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-02.jsonl",
+      "sha256": "94041e656e6ac091836e7373f322f555bcfe10cb027c4dd9bc13afbb061f538f"
+    },
+    {
+      "bytes": 2431677,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-03.jsonl",
+      "sha256": "b042131dde2665cda25b1018ca4acf14d16edcd84ccab24c7ba648b465809d76"
+    },
+    {
+      "bytes": 974228,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-04.jsonl",
+      "sha256": "597e2add192e7fbbe4c67c182bfec57e7f3e704deb8c13cdfb9262e65838378b"
+    },
+    {
+      "bytes": 3462107,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-05.jsonl",
+      "sha256": "4d4009aba70c82d5be1f98e8999fb648491a012cf10cd0c8ff39d7d21cb8d8f1"
+    },
+    {
+      "bytes": 1669923,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-06.jsonl",
+      "sha256": "2acc074a94bb25ff4822ad0e600a6e8650c383ba8a31b8fa0dba3e6e533cba57"
+    },
+    {
+      "bytes": 3915357,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-07.jsonl",
+      "sha256": "fefd3546ddedfc8694e648f8b977fbf722b216caa5bea44dd0882f8177fe450d"
+    },
+    {
+      "bytes": 5245013,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-08.jsonl",
+      "sha256": "034471cbcd74a419187dfac855ce8658291749801d2a02f3ea215ba081381d71"
+    },
+    {
+      "bytes": 2547205,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-09.jsonl",
+      "sha256": "27228b70bc42e81f43d72315f0ebda14816890ff3968fbc3478311fb948d6cd1"
+    },
+    {
+      "bytes": 1506242,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-10.jsonl",
+      "sha256": "06bc040ee11724b376eb71cf119f3d8df7f70a13edff9f6e94a3a804586e7540"
+    },
+    {
+      "bytes": 6863921,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-11.jsonl",
+      "sha256": "d97a5b160906231e21d9e187b07c29dc8cd60e2a5c6d46ec92533d54bb747f14"
+    },
+    {
+      "bytes": 4779363,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-12.jsonl",
+      "sha256": "d4962f9a3dcfc0ef14246cf6a7b2034231fb36bd22024f3fa5e88102aa139229"
+    },
+    {
+      "bytes": 1017833,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-01.jsonl",
+      "sha256": "08e4dcce25fd083fc6813af77f98016736e36b423d17668aa3fd43a1e8c951ad"
+    },
+    {
+      "bytes": 1013066,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-02.jsonl",
+      "sha256": "e8c570ac041774bca8c9cf7dc8c9647381e532204e6676bc87cc2aeff8f99d57"
+    },
+    {
+      "bytes": 2863317,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-03.jsonl",
+      "sha256": "09ec66e3e13c3e694e374dcef853f49dd83efdad1af3734883eb17e81f133a99"
+    },
+    {
+      "bytes": 5620930,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-04.jsonl",
+      "sha256": "14c24c18a7d965e546b9c217bd25ff0d05e3ca2e572f3c79c268d3f578391ed9"
+    },
+    {
+      "bytes": 3803618,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-05.jsonl",
+      "sha256": "dfa305bc4d4f783a1c48f5abdadf4c710e5c44bcbd20d2106302b85e89c77a8d"
+    },
+    {
+      "bytes": 5883787,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-06.jsonl",
+      "sha256": "7acac56530c3546c8dd97c8089a809206ce8edc4136d1d580f8c0661cbdcb0ca"
+    },
+    {
+      "bytes": 3222602,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-07.jsonl",
+      "sha256": "a01b94c51c1b022d0b737417fb44a9e2a36c23a29140f99e6536249f4fb3e32a"
+    },
+    {
+      "bytes": 2878550,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-08.jsonl",
+      "sha256": "eed3065276bcc093f6f49c1c329fc916690af836b35297a3412683e62449040e"
+    },
+    {
+      "bytes": 4945709,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-09.jsonl",
+      "sha256": "b743603ed69a666282a1cdff582892b74106106b55ed049b44d01329b31c3ca2"
+    },
+    {
+      "bytes": 3114143,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-10.jsonl",
+      "sha256": "87f3db58dfb04684cf3639152ae821b976c375c8f1f69ebba312a0bcb910c55c"
+    },
+    {
+      "bytes": 2548037,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-11.jsonl",
+      "sha256": "a50b44e942dacbb7ef608d289555c17048fde804fe7d8a04d2bc9d81a28c9fbd"
+    },
+    {
+      "bytes": 3673936,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-12.jsonl",
+      "sha256": "c84c039cba33afe314572eb78adbfe69a98df35cc87f5aca388b04f15abc2588"
+    },
+    {
+      "bytes": 2201177,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-01.jsonl",
+      "sha256": "b95a57a7da2c5fa14af34664fca40470f6960c8189d5a8adf73552ea211a50ae"
+    },
+    {
+      "bytes": 3026684,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-02.jsonl",
+      "sha256": "b0bb5584157b80ab2eca445ad58ab5ed5fb033fa39c79299fbcd8163bfbb4403"
+    },
+    {
+      "bytes": 4384905,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-03.jsonl",
+      "sha256": "7e8ba66b4f4b7e09d9bb5be19934117d03494f59a1642427a9233ec26aa27357"
+    },
+    {
+      "bytes": 10271903,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-04.jsonl",
+      "sha256": "088d8a702612c9f119d3371d2c0da382011508188513081e4361ba07d98a95de"
+    },
+    {
+      "bytes": 13078312,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-05.jsonl",
+      "sha256": "4f2053c157364c9367f879c9fd02f4bc22cc1bedc0ab7791a7a898d45cec9c40"
+    },
+    {
+      "bytes": 4778105,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-06.jsonl",
+      "sha256": "9584d779e5b4417addbc7d4249f742dd1585ef70b78a8d6062aecbcbd3bf1c7a"
+    },
+    {
+      "bytes": 4607813,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-07.jsonl",
+      "sha256": "0f24dd6c39952dd170c42a45b04c2db46b22271f2fffb05b1eb6fb1a34728411"
+    },
+    {
+      "bytes": 6287809,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-08.jsonl",
+      "sha256": "cc620fa5424ae74f4f240c8d1586177145f7f0e0360dd1ad47cd3291c93dead2"
+    },
+    {
+      "bytes": 2634721,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-09.jsonl",
+      "sha256": "8049b700cbde74b1c7395716eeeea6f555c4dad81c44578807a27c69b7f32cf0"
+    },
+    {
+      "bytes": 5351355,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-10.jsonl",
+      "sha256": "efd51d50204a6fb3ecdca771675fae0a1b4c524701dc0ce8a7008d40c8124453"
+    },
+    {
+      "bytes": 2492359,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-11.jsonl",
+      "sha256": "91c592e909e92dcc2757b6939c001c2ab8abbe6a92405272df2ee2060f9266ed"
+    },
+    {
+      "bytes": 3637674,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-12.jsonl",
+      "sha256": "16aa71f968f439fa2c215fcec1651e58fe767524434ab9780d6fca9dff127c8b"
+    },
+    {
+      "bytes": 4212574,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-01.jsonl",
+      "sha256": "bd6c5d437ac8ecd3a23b5fb6abc3cb1ef5c779b0db86db06ebf03d60b5cb55b3"
+    },
+    {
+      "bytes": 2862605,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-02.jsonl",
+      "sha256": "df499f35f8f85dd8468e80ab1b09cfc5592e06f2f1ec5d08b9947dc29cf3ef62"
+    },
+    {
+      "bytes": 3981248,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-03.jsonl",
+      "sha256": "2e164a06209ad40956bcb75cd7baaa4d565d899e10ab9cf802cf6a51ccd19f7c"
+    },
+    {
+      "bytes": 2263114,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-04.jsonl",
+      "sha256": "61975f27e7b689a0a5c95a9d1a72de970e0fc7c646f404a73fae9021dbb59986"
+    },
+    {
+      "bytes": 4161187,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-05.jsonl",
+      "sha256": "639a7eaa1ef96c1b2c1bd4caed564e5a871435fec51bae2df95304fd965d2b4a"
+    },
+    {
+      "bytes": 1558229,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-06.jsonl",
+      "sha256": "63a33a9544b616e6bf6fe27be36ce900d27194f57e9bfd317f319c0a2715d23d"
+    },
+    {
+      "bytes": 2378578,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-07.jsonl",
+      "sha256": "218a9f012ff982f14ba1e529751dcfc6d8205eac2eb6dd3039aedbac4f654870"
+    },
+    {
+      "bytes": 3814920,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-08.jsonl",
+      "sha256": "6dbe1291479bcf155afe8fcd76c8188bb0ffbeb94b6df4552c4b856d4ade71cd"
+    },
+    {
+      "bytes": 2893854,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-09.jsonl",
+      "sha256": "c8bde884c86c4ad641a9ef7b854bb9743861efac78d732270d0accb07eecffe1"
+    },
+    {
+      "bytes": 2392214,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-10.jsonl",
+      "sha256": "82dd6bf484030fe4d37cf72542366a40c1920cbf96524574a6eb33f7c8fbdb76"
+    },
+    {
+      "bytes": 3492868,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-11.jsonl",
+      "sha256": "3f47478e391d6894e43e29422cdbc4af98c03cd340b645238d915b07756e9b9d"
+    },
+    {
+      "bytes": 4784248,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-12.jsonl",
+      "sha256": "3d9c25a56a5e4e0a972eed79b3cefb32735be8be768541fbba1f10196f828845"
+    },
+    {
+      "bytes": 4350078,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-01.jsonl",
+      "sha256": "0e013b4825990d7017f91472c9ef91e908715fd5b872a28687dc101475dafdeb"
+    },
+    {
+      "bytes": 2287721,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-02.jsonl",
+      "sha256": "89b9367f32adba5e00f42905df70cbd912f8a2b12a5ebb7fab754c87687d72be"
+    },
+    {
+      "bytes": 1894647,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-03.jsonl",
+      "sha256": "303d7322d8f7356453b9a97d735a293b76ee67ec1d064f4a1539433702c493eb"
+    },
+    {
+      "bytes": 1025515,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-04.jsonl",
+      "sha256": "1f023e09050db08a3f38f01ea6c81bc9b7b204a22c9560ab419a43d5bc79450f"
+    },
+    {
+      "bytes": 709119,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-05.jsonl",
+      "sha256": "9f36023e3f8cc79c478979ee312d36f41d786e0d019cc2ab98ac36c37e8db498"
+    },
+    {
+      "bytes": 571049,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-06.jsonl",
+      "sha256": "c745d3c4bc9137545da8320007c6b0d5d557bad083703e70795046f3a4dccdbc"
+    },
+    {
+      "bytes": 767793,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-07.jsonl",
+      "sha256": "b63d277734bae33c458562b1cb6d9babf59b34c77753e1085372691fa7b8d903"
+    },
+    {
+      "bytes": 281673,
+      "path": "archive/normalized/discord/star-atlas/fr-chat/participants.jsonl",
+      "sha256": "bf1e658df57e87bc344c89e77a076aa9103cff569c54d82c1a136c7225c4da3e"
+    },
+    {
+      "bytes": 106391,
+      "path": "archive/normalized/governance/council-pip-tracker/snapshots/2026-07-23/tracker-records.jsonl",
+      "sha256": "3ff30729697ec8c215caac8f892e004cb7f3639d559efc8e30b7e2ddbac63839"
+    },
+    {
+      "bytes": 152733,
+      "path": "archive/normalized/governance/council-pip-tracker/snapshots/2026-07-23/tracker.json",
+      "sha256": "7300e44db49e558926ed0546342f16b9881561c583d31b6519adea39365ff553"
+    },
+    {
+      "bytes": 2689,
+      "path": "archive/provenance/discord/star-atlas/foundation-room-2026-07-23.json",
+      "sha256": "1a48996c7e42d149c6380b6e123524ebda42931e00d13b63c273ae70fc8336fb"
+    },
+    {
+      "bytes": 2659,
+      "path": "archive/provenance/discord/star-atlas/fr-chat-2026-07-23.json",
+      "sha256": "73477b81b163eac7072e9779b9ab9d5105f8196525b4757547a246dfaf5a79f0"
+    },
+    {
+      "bytes": 748,
+      "path": "archive/provenance/governance/council-pip-tracker/snapshots/2026-07-23.json",
+      "sha256": "7a468c74fe9c5ac8993114c7ba756cb42a845ea6c83b1fbe2dee4da35c6b16f5"
+    },
+    {
+      "bytes": 1564,
+      "path": "archive/source-records/discord/star-atlas/foundation-room/SA-DISCORD-EXPORT-4C0161EE919B8955.json",
+      "sha256": "3c6a9fe8a806ee99cb658b00b5522094d1bf904415ae0d7eca3388d17f8f30ff"
+    },
+    {
+      "bytes": 1540,
+      "path": "archive/source-records/discord/star-atlas/fr-chat/SA-DISCORD-EXPORT-0E785D04FF325542.json",
+      "sha256": "53412db4d5cebced3e32e8f7bae8c8ea9598058ae0457f547481a7ea243fc4b9"
+    },
+    {
+      "bytes": 1023,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-011B39BFCEA87671.json",
+      "sha256": "3656b50997ff43f36c6198bb82c0361666cf3a893d8b1df1dc7c29df8085fe3f"
+    },
+    {
+      "bytes": 1020,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-0405E015043400CA.json",
+      "sha256": "195982d70091dd4060e82842e6a40dfc12927f8674068c7565880b421f00a429"
+    },
+    {
+      "bytes": 1040,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-121306268AFFE0F0.json",
+      "sha256": "80b31b22702bae2d7db6f7ebd397f6f0cdd35e7dd04effd35b5328ab8a546f84"
+    },
+    {
+      "bytes": 1012,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-13A5F12525757D51.json",
+      "sha256": "6ea192f7697b8c298ae844e5ea6d45230d83de286f99d8ab275d332514a603eb"
+    },
+    {
+      "bytes": 1066,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-16992F5B59666C61.json",
+      "sha256": "9d8d8003652ce12a4b6d5e6513d66ca1f84216d224c11b1bce7a710260a84838"
+    },
+    {
+      "bytes": 1058,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-28C31B04FF82A6D9.json",
+      "sha256": "13862c97c593cf2a83b4547c6b5920286860a9e8a3281e469145205cf37f9289"
+    },
+    {
+      "bytes": 1017,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-2E79380454394A69.json",
+      "sha256": "f32f54abf5be89c3ed2f4bc719184bd6aea2de45e693ff5741792343d6cbbb73"
+    },
+    {
+      "bytes": 1031,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-32DB2A3900349268.json",
+      "sha256": "a04dee12e2340fe19cdbea8519498c36444d1bf0d7e529294f007e2d62130352"
+    },
+    {
+      "bytes": 1032,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-3605CCCC82160634.json",
+      "sha256": "9c54e7b73dda90c8f3e5c15d0f81c15d3cf9d06069892f567509cb10dd7683ee"
+    },
+    {
+      "bytes": 1032,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-3B5CA6B803BFC3C6.json",
+      "sha256": "bf07b870ce4ccf9d567e4da583842448c08dfded0d1b0378ded0df67a23f4c24"
+    },
+    {
+      "bytes": 1044,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-3F53C36FDC87DA1A.json",
+      "sha256": "cc2c450c1ac9f586aca0f4efad4877abdb8567e387112f9148e20c3238c52a53"
+    },
+    {
+      "bytes": 1039,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-48DF7FD1ACF862CC.json",
+      "sha256": "a671160447300f855c2b11489ff51727c8730c3efad1beed0413573ea0111fb9"
+    },
+    {
+      "bytes": 1048,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-57E66A5AEAA406E9.json",
+      "sha256": "c708efddbf2bad9d60d3b4fbee1414f729b94c89a75c2c70b7aeba7e66e4738f"
+    },
+    {
+      "bytes": 1018,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-5F6B04DCD543A0A3.json",
+      "sha256": "d75152ea51bceff3f50924ff7a1b6f4978a9c027473310f18ec9254b2bb4ccbd"
+    },
+    {
+      "bytes": 1024,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-62307F94169343ED.json",
+      "sha256": "abb929ec954f0f35db076d9c2cf92e5c8b8e596ba026e9eb27feaf32e87e614d"
+    },
+    {
+      "bytes": 1044,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-6B1D322AFF50710F.json",
+      "sha256": "1867d1f6446dc7fdf2f4ffda41d7b82fabd35f68581279bd81456f4bca71fd31"
+    },
+    {
+      "bytes": 1063,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-6C5F29629597BC1C.json",
+      "sha256": "b9b80c96f05472c52005099efe4108b5b3d52d0630586ed81eed64225f06d716"
+    },
+    {
+      "bytes": 1036,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-702D7B2432EA3F0D.json",
+      "sha256": "2ec3d0b85650ffd1e74dc30c4dd6fa410b65664a4d68f6f9e418b173db63632b"
+    },
+    {
+      "bytes": 1030,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-73988E278C1A09C5.json",
+      "sha256": "1025c10470c9aa77e06b219ba31dee36cc26fedbe84ecf2c4084e43a31ce7f29"
+    },
+    {
+      "bytes": 1104,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-78E6D657F4466480.json",
+      "sha256": "628dc13d4f5b4fd926b9f89a5aadc81b4c7643a1d9fc28588b10c0371576b834"
+    },
+    {
+      "bytes": 1041,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-8007EED8BFE6F5E8.json",
+      "sha256": "285b820e2828aeb96897d52404a4ad945f024f9050d5193d0b4934fac01410f7"
+    },
+    {
+      "bytes": 1033,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-84EE50C632524040.json",
+      "sha256": "902e9ee1f0c84e66032269dd8daf9921bb41edef5454ad58a86ff4c9fbb56e04"
+    },
+    {
+      "bytes": 1058,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-971CBD03064C4AED.json",
+      "sha256": "c0c611e266ed9f97e66fab65821ad0fe519ff94d124ab9dbf10271e6242ef2de"
+    },
+    {
+      "bytes": 1027,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-9E2BF5FE5392DB98.json",
+      "sha256": "604bf37ca6331570dac648db1082d72b8d37c8d264eb37a5808ecf873ac992df"
+    },
+    {
+      "bytes": 1026,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-AAAB9FD1DA1FA292.json",
+      "sha256": "86e4848ca5a5b1be15c0ef789facca81f87b34f306e8ee4a3840959478960c31"
+    },
+    {
+      "bytes": 1023,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-B753EE7DCFF26157.json",
+      "sha256": "1bee9b4e08cbbbbc7cd1d66e1665aa138e5d755fa8f2b7d0e186b3cb7359d641"
+    },
+    {
+      "bytes": 1067,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-B9745BBA5665A75A.json",
+      "sha256": "21bc099a2b3f0b3d7ed7c75d4d6fc9cfa7d1eb01882f5d749d4379cdc8eec15d"
+    },
+    {
+      "bytes": 1084,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-BE9D4F25212985D2.json",
+      "sha256": "2604e3b032291a50665535fcb3b72f699f075c25b1af96fec815f25a666d89cf"
+    },
+    {
+      "bytes": 1096,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-BFC44016CF699E13.json",
+      "sha256": "cd1c16147439ed4c5b1e22d9286565907839fb115eb25e1c1564048d83abfb3f"
+    },
+    {
+      "bytes": 1016,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-C1B901AD582ED9F3.json",
+      "sha256": "f065fbc00282cb630bbf5143a8f8b290902776285fba5f8492ec6ea828a4d7f3"
+    },
+    {
+      "bytes": 1035,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-D41D773E6C33AD9C.json",
+      "sha256": "9e5d3296c9d3ad948e357e84666475a13e94bbeb50756aa2bb246eca0d5d35c6"
+    },
+    {
+      "bytes": 1044,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-DA4C8C9F9ADC941C.json",
+      "sha256": "161a8a6f36caa1b7c5fc26c4bf22140eab1d6fa53e015abea7eca24ee8b7313d"
+    },
+    {
+      "bytes": 1049,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-DC9E5D42EF8E5ABB.json",
+      "sha256": "3659e9c2787419501e25af5f2016115731e6db535b03c109bcb6148080611bbb"
+    },
+    {
+      "bytes": 1049,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-E03044998EB1FCB3.json",
+      "sha256": "aa5fc378c10b7689e599193e4cc6d96f7802cdaf6d2ec0b3da03190163f511a4"
+    },
+    {
+      "bytes": 1076,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-E09A815A09AFC991.json",
+      "sha256": "59d8e4d08b2e0b4e4cc0118693022f238b11382a5ceeed47bfa13b7bd62e4290"
+    },
+    {
+      "bytes": 1054,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-E3756848F9A36A64.json",
+      "sha256": "26b04db6e424544a6d5162bfeb7168387b8691afcb922211afad255ab974892d"
+    },
+    {
+      "bytes": 1080,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-F0224DFB1A4C79C7.json",
+      "sha256": "8519809d6b4e04d1e63afe23cc473e2156039c762bedc5678aa71da6539c1320"
+    },
+    {
+      "bytes": 1074,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-F2C3AC0EC028DCB3.json",
+      "sha256": "dc985cf830868f3fe84cbe20216428e5b53fb451c160543b4731880b838dd058"
+    },
+    {
+      "bytes": 1027,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-F3B0FFE7006CAE17.json",
+      "sha256": "e943987372de1c1e361a19f657d7f57fc1f14a341cf6219bbccde2b7e7469b7d"
+    },
+    {
+      "bytes": 1035,
+      "path": "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/SA-COUNCIL-SNAPSHOT-FBB26910E210FC18.json",
+      "sha256": "6a6388d62ed1bb342d6d1705af278d42204827d5bf18aface4156b8dace0e915"
+    },
+    {
+      "bytes": 723,
+      "path": "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07/campaign-summary.json",
+      "sha256": "bcbf0a5969c9d76daa9567eccc1f466aadb8e67a423149a7b43aade9b7e2113e"
+    },
+    {
+      "bytes": 698,
+      "path": "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07/campaign-summary.md",
+      "sha256": "772ad70a14cd0d8ab7ac2362192fac53ae834306bd566ff6eb73bfd82edf61c0"
+    },
+    {
+      "bytes": 74545,
+      "path": "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07/council-snapshot-reconciliation.json",
+      "sha256": "0e15b80247cf7cceedd99b0d36a1a320b11945f9cf7c6daa697994f43a22ab77"
+    },
+    {
+      "bytes": 2545,
+      "path": "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07/discord-channel-coverage.json",
+      "sha256": "f08c1ece6696cb555f6418b2be707e2ccc875e99d41610003edcde802d31fbc9"
+    },
+    {
+      "bytes": 8305,
+      "path": "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07/manual-review-queue.json",
+      "sha256": "d3f0dc95123d5a9f0d7f8fcaa0e5c74ec26d0dbef533fa9d4dd8e4d135120e57"
+    },
+    {
+      "bytes": 1900,
+      "path": "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07/README.md",
+      "sha256": "9335f6967e3656caa50c4bb0d0d2b7b6123d2d2a484bb7beaa1ba7fa82bdf4d9"
+    }
+  ],
+  "preserved_inputs": [
+    {
+      "bytes": 766185,
+      "path": "archive/raw/discord/star-atlas/foundation-room/discord-foundation-room-2026-07-23T12-18-57-639Z.json.gz",
+      "sha256": "22457a9d320c54648d56b6df455daa5ebdd350895cde5d974ef432b57f52008a"
+    },
+    {
+      "bytes": 20463421,
+      "path": "archive/raw/discord/star-atlas/fr-chat/discord-fr-chat-2026-07-23T08-24-13-992Z.json.gz",
+      "sha256": "57f89b1bec8ae84ab27c94bab2c3c9c3c945a65f4f600eaf517649dcb120cc55"
+    },
+    {
+      "bytes": 12894,
+      "path": "archive/raw/governance/council-pip-tracker/snapshots/2026-07-23/Star Atlas DAO Council -- PIP Tracker & Grading Rubric - Tracker.csv",
+      "sha256": "533d4578c00f949d9c38653190f084681c336e9c135b84c29a7a9cf5741cff9b"
+    }
+  ],
+  "snapshot_date": "2026-07-23"
+}

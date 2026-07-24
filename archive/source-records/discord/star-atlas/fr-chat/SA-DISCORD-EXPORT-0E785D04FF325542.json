@@ -1,0 +1,42 @@
+{
+  "authority_scope": "Evidence of captured Discord messages and conversation context; message claims are not automatically factual or canonical.",
+  "capture_timestamp": "2026-07-23T08:24:12.556Z",
+  "channel": {
+    "id": "935606734192529449",
+    "name": "💥┃fr-chat",
+    "type": "channel"
+  },
+  "collection_complete": false,
+  "coverage": {
+    "confidence": "medium",
+    "earliestAcquired": "2022-01-25T19:05:55.773Z",
+    "latestAcquired": "2026-07-23T01:03:04.526Z",
+    "requestedStart": "2021-03-23T04:43:00.000Z",
+    "startReached": false,
+    "status": "partial"
+  },
+  "identity_limit": "Display-name and exporter identity observations do not independently prove real-world identity.",
+  "media_limit": {
+    "excluded_media": [
+      "gif",
+      "video",
+      "voice",
+      "audio",
+      "sticker"
+    ],
+    "treatment": "Attachment metadata and URLs are retained when present; excluded media binaries were not part of the supplied export."
+  },
+  "message_count": 186430,
+  "participant_count": 469,
+  "platform": "discord",
+  "raw_original_sha256": "d251ef982cee3dec9ec93e02d14b9f8ea297d630e37babf7d2cbc090e790c90e",
+  "raw_path": "archive/raw/discord/star-atlas/fr-chat/discord-fr-chat-2026-07-23T08-24-13-992Z.json.gz",
+  "server": {
+    "id": "789226204980707409",
+    "name": "Star Atlas",
+    "type": "server"
+  },
+  "source_class": "NATIVE_DISCORD_CHANNEL_EXPORT",
+  "source_id": "SA-DISCORD-EXPORT-0E785D04FF325542",
+  "source_url": "https://discord.com/channels/789226204980707409/935606734192529449"
+}

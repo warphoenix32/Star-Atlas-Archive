@@ -1,0 +1,75 @@
+{
+  "campaign_id": "foundation-room-council-evidence-ingestion-2026-07",
+  "collection_complete": false,
+  "collection_source_id": "SA-DISCORD-EXPORT-0E785D04FF325542",
+  "coverage": {
+    "confidence": "medium",
+    "earliestAcquired": "2022-01-25T19:05:55.773Z",
+    "latestAcquired": "2026-07-23T01:03:04.526Z",
+    "requestedStart": "2021-03-23T04:43:00.000Z",
+    "startReached": false,
+    "status": "partial"
+  },
+  "diagnostics": {
+    "excludedMedia": [
+      "gif",
+      "video",
+      "voice",
+      "audio",
+      "sticker"
+    ],
+    "inferredIdentityCount": 45726,
+    "messagesSkipped": 0,
+    "missingIdentityCount": 0,
+    "selectorFallbacksUsed": 0,
+    "warnings": [
+      "Discord produced no older messages within the no-progress safety window. The partial archive is recoverable."
+    ]
+  },
+  "export_metadata": {
+    "adapterVersion": "1.1.0",
+    "collectorVersion": "4.1.0",
+    "exportId": "795df469-993d-4c16-a54a-9b37292b0ef2",
+    "exportedAt": "2026-07-23T08:24:12.556Z",
+    "platformVersion": "4.1.0",
+    "schemaName": "collection-platform-conversation",
+    "schemaVersion": "2.0.0"
+  },
+  "gzip_header_mtime": 0,
+  "lossless_reconstruction_verified": true,
+  "original_filename": "discord-💥┃fr-chat-2026-07-23T08-24-13-992Z.json",
+  "raw_archive_path": "archive/raw/discord/star-atlas/fr-chat/discord-fr-chat-2026-07-23T08-24-13-992Z.json.gz",
+  "raw_compressed_bytes": 20463421,
+  "raw_compressed_sha256": "57f89b1bec8ae84ab27c94bab2c3c9c3c945a65f4f600eaf517649dcb120cc55",
+  "raw_original_bytes": 261351795,
+  "raw_original_sha256": "d251ef982cee3dec9ec93e02d14b9f8ea297d630e37babf7d2cbc090e790c90e",
+  "source": {
+    "acquisitionStrategy": "navigate",
+    "conversation": {
+      "id": "935606734192529449",
+      "name": "💥┃fr-chat",
+      "type": "channel"
+    },
+    "conversationType": "channel",
+    "platform": "discord",
+    "platformMetadata": {
+      "discordContext": {
+        "channelId": "935606734192529449",
+        "conversationType": "channel",
+        "guildId": "789226204980707409",
+        "limitations": [
+          "Author IDs are null when Discord does not expose direct native evidence.",
+          "Parent channel and thread subtype remain null when not observable from the active client."
+        ],
+        "timestampSemantics": "Discord time[datetime] value preserved as ISO 8601; Z means UTC."
+      },
+      "discordPath": "/channels/789226204980707409/935606734192529449"
+    },
+    "url": "https://discord.com/channels/789226204980707409/935606734192529449",
+    "workspace": {
+      "id": "789226204980707409",
+      "name": "Star Atlas",
+      "type": "server"
+    }
+  }
+}

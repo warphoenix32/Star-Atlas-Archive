@@ -272,6 +272,20 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.json",
         "archive/source-records/governance-votes/SRC-SOLANA-PIP-33-5EE6D3F844C4.md",
     } for path in changes)
+    foundation_council_campaign = any(path.startswith((
+        "archive/raw/discord/star-atlas/foundation-room/",
+        "archive/raw/discord/star-atlas/fr-chat/",
+        "archive/provenance/discord/star-atlas/",
+        "archive/normalized/discord/star-atlas/",
+        "archive/source-records/discord/star-atlas/",
+        "archive/raw/governance/council-pip-tracker/snapshots/2026-07-23/",
+        "archive/normalized/governance/council-pip-tracker/snapshots/2026-07-23/",
+        "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/",
+        "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07/",
+    )) or path in {
+        "archive/provenance/governance/council-pip-tracker/snapshots/2026-07-23.json",
+        "archive/manifests/foundation-room-council-evidence-ingestion-2026-07.json",
+    } for path in changes)
     discord_campaign = any(path.startswith(("operations/campaigns/discord-community-indexing-001/", "operations/tests/discord_community_indexing/")) for path in changes)
     library_frontend = not (
         publication_contract_campaign or phase4_knowledge_consolidation
@@ -304,7 +318,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         "operations/templates/knowledge-entry-template.md",
     } for path in changes)
     common = (".github/workflows/", "operations/ci/")
-    selected = 1 if legacy_written_raw_recovery else sum((phase4_knowledge_consolidation, publication_contract_campaign, phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
+    selected = 1 if legacy_written_raw_recovery else sum((phase4_knowledge_consolidation, publication_contract_campaign, phase_one_inventory, ledger_campaign, transcript_semantic_campaign, atlas_brew_semantic_campaign, atlas_brew_url_reconciliation, knowledge_campaign and not ledger_campaign, medium_campaign, economic_reports_campaign, ship_campaign, wallet_campaign, dao_pip_vote_campaign, pip33_vote_campaign, foundation_council_campaign, discord_campaign, library_frontend, lore_campaign and not (wallet_campaign or dao_pip_vote_campaign or pip33_vote_campaign or foundation_council_campaign or transcript_semantic_campaign or atlas_brew_semantic_campaign or atlas_brew_url_reconciliation or knowledge_campaign), pipeline_framework and not agent_contracts, agent_contracts))
     if selected != 1:
         raise ValidationFailure("unable to select exactly one recognized campaign path contract")
     if phase4_knowledge_consolidation:
@@ -498,6 +512,22 @@ def validate_forbidden_paths(changes: list[str]) -> str:
             "operations/tests/dao_pip_governance_votes/",
         )
         label = "dao-pip-vote-evidence-ingestion-2026-07"
+    elif foundation_council_campaign:
+        allowed = common + (
+            ".gitattributes",
+            "archive/raw/discord/star-atlas/foundation-room/",
+            "archive/raw/discord/star-atlas/fr-chat/",
+            "archive/provenance/discord/star-atlas/",
+            "archive/normalized/discord/star-atlas/",
+            "archive/source-records/discord/star-atlas/",
+            "archive/raw/governance/council-pip-tracker/snapshots/2026-07-23/",
+            "archive/provenance/governance/council-pip-tracker/snapshots/2026-07-23.json",
+            "archive/normalized/governance/council-pip-tracker/snapshots/2026-07-23/",
+            "archive/source-records/governance/council-pip-tracker/snapshots/2026-07-23/",
+            "archive/manifests/foundation-room-council-evidence-ingestion-2026-07.json",
+            "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07/",
+        )
+        label = "foundation-room-council-evidence-ingestion-2026-07"
     elif discord_campaign:
         allowed = common + (
             "operations/campaigns/discord-community-indexing-001/",
@@ -762,6 +792,19 @@ def validate_discord_campaign(base_ref: str) -> None:
     )
     if diff.returncode:
         raise ValidationFailure("Discord campaign generated artifacts do not reconcile with committed files:\n" + diff.stdout)
+
+
+def validate_foundation_council_campaign() -> None:
+    campaign = ROOT / "operations/campaigns/foundation-room-council-evidence-ingestion-2026-07"
+    command = [sys.executable, str(campaign / "validate_campaign.py")]
+    exclusions = {"build_campaign.py", "validate_campaign.py", "README.md"}
+    first = run_cycle(command, campaign, exclusions)
+    second = run_cycle(command, campaign, exclusions)
+    if first != second:
+        differing = sorted(path for path in set(first) | set(second) if first.get(path) != second.get(path))
+        raise ValidationFailure(
+            "Foundation Room/Council campaign output is not deterministic: " + ", ".join(differing)
+        )
 
 
 def validate_pip_ledger_campaign() -> None:
@@ -1066,6 +1109,8 @@ def campaign_mode(base_ref: str) -> None:
         validate_atlas_brew_url_reconciliation_campaign()
     elif contract == "discord-community-indexing-001":
         validate_discord_campaign(base_ref)
+    elif contract == "foundation-room-council-evidence-ingestion-2026-07":
+        validate_foundation_council_campaign()
     elif contract == "canonical-pip-governance-ledger-2026-07":
         validate_pip_ledger_campaign()
     elif contract == "star-atlas-library-frontend":

@@ -1,0 +1,111 @@
+# Validation Report
+
+Overall status: **PASS**
+
+- **PASS — council_raw_checksum**: {"bytes": 12894, "sha256": "533d4578c00f949d9c38653190f084681c336e9c135b84c29a7a9cf5741cff9b"}
+- **PASS — deterministic_regeneration**: {"returncode": 0, "generated_file_count": 135, "stderr": ""}
+- **PASS — raw_evidence_immutable**: {"archive/raw/governance/council-pip-tracker/snapshots/2026-07-23/Star Atlas DAO Council -- PIP Tracker & Grading Rubric - Tracker.csv": "533d4578c00f949d9c38653190f084681c336e9c135b84c29a7a9cf5741cff9b", "archive/raw/discord/star-atlas/foundation-room/discord-foundation-room-2026-07-23T12-18-57-639Z.json.gz": "22457a9d320c54648d56b6df455daa5ebdd350895cde5d974ef432b57f52008a", "archive/raw/discord/star-atlas/fr-chat/discord-fr-chat-2026-07-23T08-24-13-992Z.json.gz": "57f89b1bec8ae84ab27c94bab2c3c9c3c945a65f4f600eaf517649dcb120cc55"}
+- **PASS — foundation-room_lossless_raw_reconstruction**: {"original_bytes": 7844471, "original_sha256": "e5000077fee2223d58eda82334f868a56c3db2648a2f760fa9cb0a0841482480", "compressed_bytes": 766185, "gzip_header_mtime": 0}
+- **PASS — foundation-room_deterministic_gzip_header**: {"gzip_header_mtime": 0}
+- **PASS — foundation-room_participant_count**: {"actual": 180, "expected": 180}
+- **PASS — foundation-room_2025-01_file_reconciliation**: {"records": 120, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-01.jsonl"}
+- **PASS — foundation-room_2025-02_file_reconciliation**: {"records": 447, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-02.jsonl"}
+- **PASS — foundation-room_2025-03_file_reconciliation**: {"records": 333, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-03.jsonl"}
+- **PASS — foundation-room_2025-04_file_reconciliation**: {"records": 221, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-04.jsonl"}
+- **PASS — foundation-room_2025-05_file_reconciliation**: {"records": 353, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-05.jsonl"}
+- **PASS — foundation-room_2025-06_file_reconciliation**: {"records": 367, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-06.jsonl"}
+- **PASS — foundation-room_2025-07_file_reconciliation**: {"records": 159, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-07.jsonl"}
+- **PASS — foundation-room_2025-08_file_reconciliation**: {"records": 470, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-08.jsonl"}
+- **PASS — foundation-room_2025-09_file_reconciliation**: {"records": 271, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-09.jsonl"}
+- **PASS — foundation-room_2025-10_file_reconciliation**: {"records": 224, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-10.jsonl"}
+- **PASS — foundation-room_2025-11_file_reconciliation**: {"records": 206, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-11.jsonl"}
+- **PASS — foundation-room_2025-12_file_reconciliation**: {"records": 257, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2025-12.jsonl"}
+- **PASS — foundation-room_2026-01_file_reconciliation**: {"records": 294, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-01.jsonl"}
+- **PASS — foundation-room_2026-02_file_reconciliation**: {"records": 128, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-02.jsonl"}
+- **PASS — foundation-room_2026-03_file_reconciliation**: {"records": 143, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-03.jsonl"}
+- **PASS — foundation-room_2026-04_file_reconciliation**: {"records": 111, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-04.jsonl"}
+- **PASS — foundation-room_2026-05_file_reconciliation**: {"records": 106, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-05.jsonl"}
+- **PASS — foundation-room_2026-06_file_reconciliation**: {"records": 114, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-06.jsonl"}
+- **PASS — foundation-room_2026-07_file_reconciliation**: {"records": 140, "path": "archive/normalized/discord/star-atlas/foundation-room/messages/2026-07.jsonl"}
+- **PASS — foundation-room_message_count**: {"actual": 4464, "expected": 4464}
+- **PASS — foundation-room_date_bounds**: {"earliest": "2025-01-22T02:59:55.987Z", "latest": "2026-07-23T01:07:23.600Z"}
+- **PASS — foundation-room_participant_references**: {"participants": 180}
+- **PASS — foundation-room_partial_coverage_preserved**: {"confidence": "medium", "earliestAcquired": "2025-01-22T02:59:55.987Z", "latestAcquired": "2026-07-23T01:07:23.600Z", "requestedStart": "2021-03-01T12:46:00.000Z", "startReached": false, "status": "partial"}
+- **PASS — foundation-room_collection_source_record**: {"source_record_count": 1}
+- **PASS — fr-chat_lossless_raw_reconstruction**: {"original_bytes": 261351795, "original_sha256": "d251ef982cee3dec9ec93e02d14b9f8ea297d630e37babf7d2cbc090e790c90e", "compressed_bytes": 20463421, "gzip_header_mtime": 0}
+- **PASS — fr-chat_deterministic_gzip_header**: {"gzip_header_mtime": 0}
+- **PASS — fr-chat_participant_count**: {"actual": 469, "expected": 469}
+- **PASS — fr-chat_2022-01_file_reconciliation**: {"records": 559, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-01.jsonl"}
+- **PASS — fr-chat_2022-02_file_reconciliation**: {"records": 1987, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-02.jsonl"}
+- **PASS — fr-chat_2022-03_file_reconciliation**: {"records": 2369, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-03.jsonl"}
+- **PASS — fr-chat_2022-04_file_reconciliation**: {"records": 980, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-04.jsonl"}
+- **PASS — fr-chat_2022-05_file_reconciliation**: {"records": 3527, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-05.jsonl"}
+- **PASS — fr-chat_2022-06_file_reconciliation**: {"records": 1697, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-06.jsonl"}
+- **PASS — fr-chat_2022-07_file_reconciliation**: {"records": 3912, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-07.jsonl"}
+- **PASS — fr-chat_2022-08_file_reconciliation**: {"records": 5114, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-08.jsonl"}
+- **PASS — fr-chat_2022-09_file_reconciliation**: {"records": 2503, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-09.jsonl"}
+- **PASS — fr-chat_2022-10_file_reconciliation**: {"records": 1502, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-10.jsonl"}
+- **PASS — fr-chat_2022-11_file_reconciliation**: {"records": 6953, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-11.jsonl"}
+- **PASS — fr-chat_2022-12_file_reconciliation**: {"records": 4731, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2022-12.jsonl"}
+- **PASS — fr-chat_2023-01_file_reconciliation**: {"records": 970, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-01.jsonl"}
+- **PASS — fr-chat_2023-02_file_reconciliation**: {"records": 959, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-02.jsonl"}
+- **PASS — fr-chat_2023-03_file_reconciliation**: {"records": 2854, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-03.jsonl"}
+- **PASS — fr-chat_2023-04_file_reconciliation**: {"records": 5832, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-04.jsonl"}
+- **PASS — fr-chat_2023-05_file_reconciliation**: {"records": 3885, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-05.jsonl"}
+- **PASS — fr-chat_2023-06_file_reconciliation**: {"records": 5970, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-06.jsonl"}
+- **PASS — fr-chat_2023-07_file_reconciliation**: {"records": 3235, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-07.jsonl"}
+- **PASS — fr-chat_2023-08_file_reconciliation**: {"records": 2736, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-08.jsonl"}
+- **PASS — fr-chat_2023-09_file_reconciliation**: {"records": 4958, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-09.jsonl"}
+- **PASS — fr-chat_2023-10_file_reconciliation**: {"records": 3125, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-10.jsonl"}
+- **PASS — fr-chat_2023-11_file_reconciliation**: {"records": 2518, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-11.jsonl"}
+- **PASS — fr-chat_2023-12_file_reconciliation**: {"records": 3647, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2023-12.jsonl"}
+- **PASS — fr-chat_2024-01_file_reconciliation**: {"records": 2252, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-01.jsonl"}
+- **PASS — fr-chat_2024-02_file_reconciliation**: {"records": 3145, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-02.jsonl"}
+- **PASS — fr-chat_2024-03_file_reconciliation**: {"records": 4370, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-03.jsonl"}
+- **PASS — fr-chat_2024-04_file_reconciliation**: {"records": 10292, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-04.jsonl"}
+- **PASS — fr-chat_2024-05_file_reconciliation**: {"records": 12876, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-05.jsonl"}
+- **PASS — fr-chat_2024-06_file_reconciliation**: {"records": 4804, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-06.jsonl"}
+- **PASS — fr-chat_2024-07_file_reconciliation**: {"records": 4548, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-07.jsonl"}
+- **PASS — fr-chat_2024-08_file_reconciliation**: {"records": 6153, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-08.jsonl"}
+- **PASS — fr-chat_2024-09_file_reconciliation**: {"records": 2568, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-09.jsonl"}
+- **PASS — fr-chat_2024-10_file_reconciliation**: {"records": 4994, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-10.jsonl"}
+- **PASS — fr-chat_2024-11_file_reconciliation**: {"records": 2454, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-11.jsonl"}
+- **PASS — fr-chat_2024-12_file_reconciliation**: {"records": 3661, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2024-12.jsonl"}
+- **PASS — fr-chat_2025-01_file_reconciliation**: {"records": 3922, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-01.jsonl"}
+- **PASS — fr-chat_2025-02_file_reconciliation**: {"records": 2595, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-02.jsonl"}
+- **PASS — fr-chat_2025-03_file_reconciliation**: {"records": 3793, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-03.jsonl"}
+- **PASS — fr-chat_2025-04_file_reconciliation**: {"records": 2189, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-04.jsonl"}
+- **PASS — fr-chat_2025-05_file_reconciliation**: {"records": 4067, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-05.jsonl"}
+- **PASS — fr-chat_2025-06_file_reconciliation**: {"records": 1468, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-06.jsonl"}
+- **PASS — fr-chat_2025-07_file_reconciliation**: {"records": 2142, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-07.jsonl"}
+- **PASS — fr-chat_2025-08_file_reconciliation**: {"records": 3586, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-08.jsonl"}
+- **PASS — fr-chat_2025-09_file_reconciliation**: {"records": 2641, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-09.jsonl"}
+- **PASS — fr-chat_2025-10_file_reconciliation**: {"records": 2315, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-10.jsonl"}
+- **PASS — fr-chat_2025-11_file_reconciliation**: {"records": 3324, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-11.jsonl"}
+- **PASS — fr-chat_2025-12_file_reconciliation**: {"records": 4694, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2025-12.jsonl"}
+- **PASS — fr-chat_2026-01_file_reconciliation**: {"records": 4188, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-01.jsonl"}
+- **PASS — fr-chat_2026-02_file_reconciliation**: {"records": 2047, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-02.jsonl"}
+- **PASS — fr-chat_2026-03_file_reconciliation**: {"records": 1750, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-03.jsonl"}
+- **PASS — fr-chat_2026-04_file_reconciliation**: {"records": 1021, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-04.jsonl"}
+- **PASS — fr-chat_2026-05_file_reconciliation**: {"records": 716, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-05.jsonl"}
+- **PASS — fr-chat_2026-06_file_reconciliation**: {"records": 577, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-06.jsonl"}
+- **PASS — fr-chat_2026-07_file_reconciliation**: {"records": 755, "path": "archive/normalized/discord/star-atlas/fr-chat/messages/2026-07.jsonl"}
+- **PASS — fr-chat_message_count**: {"actual": 186430, "expected": 186430}
+- **PASS — fr-chat_date_bounds**: {"earliest": "2022-01-25T19:05:55.773Z", "latest": "2026-07-23T01:03:04.526Z"}
+- **PASS — fr-chat_participant_references**: {"participants": 469}
+- **PASS — fr-chat_partial_coverage_preserved**: {"confidence": "medium", "earliestAcquired": "2022-01-25T19:05:55.773Z", "latestAcquired": "2026-07-23T01:03:04.526Z", "requestedStart": "2021-03-23T04:43:00.000Z", "startReached": false, "status": "partial"}
+- **PASS — fr-chat_collection_source_record**: {"source_record_count": 1}
+- **PASS — discord_global_identity**: {"messages": 190894, "source_ids": 190894, "participant_records": 649}
+- **PASS — council_record_reconciliation**: {"records": 40, "numbered_pips": 34, "source_records": 40}
+- **PASS — council_treasury_state_taxonomy**: ["AUTHORIZED", "COUNCIL_REPORTED", "MISSING_ONCHAIN_EVIDENCE", "REQUESTED", "UNVERIFIED"]
+- **PASS — council_authority_boundary**: "All Council records remain attributed operational assessments."
+- **PASS — council_snapshot_reconciliation**: {"records": 40, "prior_records_found": 39}
+- **PASS — manual_review_queue**: {"open_count": 5}
+- **PASS — manifest_reconciliation**: {"entries": 136}
+- **PASS — github_file_size_limit**: {"oversized_files": []}
+- **PASS — git_diff_check**: ""
+- **PASS — canonical_and_publication_paths_untouched**: {"prohibited": []}
+
+## Warnings
+
+- 0 reply targets fall outside their captured channel window or are otherwise unresolved; the reply references remain preserved.
