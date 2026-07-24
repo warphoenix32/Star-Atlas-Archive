@@ -84,9 +84,13 @@ def main() -> int:
         capture_output=True,
         check=True,
     ).stdout.splitlines()
+    publication_integration_paths = {
+        "publication/site/assets/library-index.json",
+    }
     forbidden = [
         path for path in changed
-        if path.startswith(("archive/", "graph/", "publication/"))
+        if path.startswith(("archive/", "graph/"))
+        or (path.startswith("publication/") and path not in publication_integration_paths)
     ]
     if forbidden:
         failures.append("forbidden evidence or publication paths changed: " + ", ".join(forbidden))

@@ -280,7 +280,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
     } for path in changes)
     discord_campaign = any(path.startswith(("operations/campaigns/discord-community-indexing-001/", "operations/tests/discord_community_indexing/")) for path in changes)
     library_frontend = not (
-        publication_contract_campaign or phase4_knowledge_consolidation
+        publication_contract_campaign or phase4_knowledge_consolidation or knowledge_campaign
     ) and any(
         path.startswith(("publication/site/", "operations/tests/library_frontend/"))
         or path == "publication/README.md"
@@ -445,6 +445,8 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         allowed = common + (
             "knowledge/",
             "operations/campaigns/knowledge-narrative-depth-001/",
+            "operations/tests/library_frontend/test_frontend.py",
+            "publication/site/assets/library-index.json",
             "archive/manifests/lore-repository-ingestion-2026-07.json",
             "operations/campaigns/lore-repository-ingestion-2026-07/manifest.json",
         )
