@@ -6,7 +6,7 @@
 
 - **PASS — portfolio_count:** 17 outputs
 - **PASS — evidence_packet_count:** 17 packets for 17 outputs
-- **PASS — campaign_json:** 154 files parsed
+- **PASS — campaign_json:** 156 files parsed
 - **PASS — required_metadata:** all 17 pages contain required metadata
 - **PASS — material_claims:** all packets contain source-linked material claims
 - **PASS — evidence_references:** all packet source paths resolve
