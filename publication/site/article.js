@@ -3,7 +3,6 @@ const titleElement = document.querySelector("#record-title");
 const summaryElement = document.querySelector("#record-summary");
 const categoryElement = document.querySelector("#record-category");
 const pathElement = document.querySelector("#record-path");
-const metadataElement = document.querySelector("#record-metadata");
 const contentElement = document.querySelector("#record-content");
 const sourceLink = document.querySelector("#source-link");
 
@@ -21,17 +20,10 @@ function escapeHtml(value = "") {
 }
 
 function stripFrontMatter(markdown) {
-  if (!markdown.startsWith("---")) return { markdown, metadata: {} };
+  if (!markdown.startsWith("---")) return markdown;
   const end = markdown.indexOf("\n---", 3);
-  if (end < 0) return { markdown, metadata: {} };
-  const metadata = {};
-  markdown.slice(3, end).split("\n").forEach((line) => {
-    const match = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);
-    if (match && match[2] && !match[2].startsWith("[") && !match[2].startsWith("{")) {
-      metadata[match[1]] = match[2].replace(/^['"]|['"]$/g, "");
-    }
-  });
-  return { markdown: markdown.slice(end + 4).trim(), metadata };
+  if (end < 0) return markdown;
+  return markdown.slice(end + 4).trim();
 }
 
 function slug(value) {
@@ -168,18 +160,6 @@ function renderMarkdown(markdown) {
   return output.join("\n");
 }
 
-function renderMetadata(metadata) {
-  const labels = {
-    knowledge_status: "Knowledge status",
-    as_of: "Current as of",
-    confidence: "Confidence",
-    evidence_basis: "Evidence basis",
-    review_after: "Review after",
-  };
-  const values = Object.entries(labels).filter(([key]) => metadata[key]);
-  metadataElement.innerHTML = values.map(([key, label]) => `<div><dt>${label}</dt><dd>${escapeHtml(metadata[key])}</dd></div>`).join("");
-}
-
 function showError(message) {
   titleElement.textContent = "Record unavailable";
   summaryElement.textContent = "The requested knowledge record could not be opened.";
@@ -198,7 +178,7 @@ async function openRecord() {
   const knowledgePath = currentRecord.path.replace(/^knowledge\//, "");
   const contentResponse = await fetch(`content/${knowledgePath.split("/").map(encodeURIComponent).join("/")}`);
   if (!contentResponse.ok) throw new Error("The repository knowledge file could not be retrieved.");
-  const { markdown, metadata } = stripFrontMatter(await contentResponse.text());
+  const markdown = stripFrontMatter(await contentResponse.text());
 
   document.title = `${currentRecord.title} · Star Atlas Library`;
   titleElement.textContent = currentRecord.title;
@@ -206,7 +186,6 @@ async function openRecord() {
   categoryElement.textContent = currentRecord.categoryLabel;
   pathElement.textContent = currentRecord.path.replace(/^knowledge\//, "").replace(/\.md$/, "").replaceAll("/", " · ").replaceAll("-", " ");
   sourceLink.href = currentRecord.sourceUrl;
-  renderMetadata(metadata);
   contentElement.innerHTML = renderMarkdown(markdown);
   recordElement.setAttribute("aria-busy", "false");
 }

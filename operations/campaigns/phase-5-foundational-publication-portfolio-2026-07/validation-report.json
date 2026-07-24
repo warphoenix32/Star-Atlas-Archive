@@ -1,0 +1,100 @@
+{
+  "campaign_id": "phase-5-foundational-publication-portfolio-2026-07",
+  "as_of": "2026-07-23",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "portfolio_json",
+      "status": "PASS"
+    },
+    {
+      "check": "publication_plan_json",
+      "status": "PASS"
+    },
+    {
+      "check": "prototype_dispositions_json",
+      "status": "PASS"
+    },
+    {
+      "check": "manifest_json",
+      "status": "PASS"
+    },
+    {
+      "check": "campaign_summary_json",
+      "status": "PASS"
+    },
+    {
+      "check": "knowledge_readiness_json",
+      "status": "PASS"
+    },
+    {
+      "check": "targeted_knowledge_backlog_json",
+      "status": "PASS"
+    },
+    {
+      "check": "community_evidence_json",
+      "status": "PASS"
+    },
+    {
+      "check": "publication_manifest",
+      "status": "PASS"
+    },
+    {
+      "check": "article_structure_and_links",
+      "status": "PASS"
+    },
+    {
+      "check": "community_evidence_boundary",
+      "status": "PASS"
+    },
+    {
+      "check": "publication_plan_and_readiness",
+      "status": "PASS"
+    },
+    {
+      "check": "reader_first_public_presentation",
+      "status": "PASS"
+    },
+    {
+      "check": "repository_scope",
+      "status": "PASS"
+    }
+  ],
+  "metrics": {
+    "entries": 11,
+    "drafts": 11,
+    "published": 0,
+    "word_counts": {
+      "PUB-001": 955,
+      "PUB-002": 867,
+      "PUB-003": 841,
+      "PUB-004": 798,
+      "PUB-005": 876,
+      "PUB-006": 823,
+      "PUB-007": 892,
+      "PUB-008": 887,
+      "PUB-009": 938,
+      "PUB-010": 951,
+      "PUB-011": 1105
+    },
+    "total_words": 9933,
+    "links_checked": 58,
+    "reader_gateways": 8,
+    "foundational_pages_planned": 30,
+    "readiness_counts": {
+      "KNOWLEDGE_PROMOTION_REQUIRED": 13,
+      "READY_TO_DRAFT": 17
+    },
+    "knowledge_backlog_items": 13,
+    "prototype_dispositions": 11,
+    "changed_paths": 45,
+    "prohibited_path_changes": 0,
+    "risk_class_counts": {
+      "R2": 4,
+      "R3": 7
+    }
+  },
+  "failures": [],
+  "human_adjudication_required": true,
+  "next_gate": "Human review of the complete portfolio map and readiness audit"
+}

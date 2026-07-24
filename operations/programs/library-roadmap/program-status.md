@@ -1,6 +1,6 @@
 # Star Atlas Library Roadmap Status
 
-Current phase: **Phase 5 — Publication layer, in progress (20%)**. Phase 4 closed on 2026-07-23 with ten consolidated dossiers and no evidence rewrite.
+Current phase: **Phase 5 — Publication layer, in progress (45%)**. The reader-first portfolio map and Knowledge-readiness audit are complete; eleven prototypes remain unpublished.
 
 This report must be refreshed at every campaign closeout. Any deviation from phase order, product boundaries, or completion gates must be stated explicitly.
 
@@ -12,7 +12,7 @@ This report must be refreshed at every campaign closeout. Any deviation from pha
 | 2. Priority ingestion | COMPLETE | 100% |  |
 | 3. Targeted architecture refinement | COMPLETE | 100% |  |
 | 4. Knowledge consolidation | COMPLETE | 100% |  |
-| 5. Publication layer | IN_PROGRESS | 20% | Initial ten-article portfolio |
+| 5. Publication layer | IN_PROGRESS | 45% | Portfolio-map review; targeted Knowledge development; narrative rewrite; explicit publication |
 | 6. Vercel implementation | NOT_STARTED | 0% | Publication layer approved; Read-only Vercel connection test |
 | 7. Preview, validation, and deployment | NOT_STARTED | 0% | Cross-repository preview; Launch acceptance |
 
@@ -60,9 +60,22 @@ file changed.
 Phase 4 is complete. The stable publication contract satisfies the first Phase
 5 prerequisite.
 
+## Phase 5 portfolio-design gate
+
+The original eleven articles are retained as unpublished editorial prototypes.
+The redesigned plan defines eight reader gateways and thirty foundational
+narratives across orientation, history, lore, products, economy, community,
+institutions, and technology. Seventeen are supported by reviewed Knowledge;
+thirteen require targeted Knowledge development before drafting.
+
+The public Knowledge reader no longer displays workflow status, confidence, or
+taxonomy boxes at the top of a page. Internal front matter remains available for
+search and validation. No draft is eligible for the public build.
+
 ## Current recommendation
 
-Draft the initial ten-article publication portfolio from the consolidated
-dossiers under the validated publication contract. Do not ingest the ten
-freshness candidates as part of publication work, and do not expose internal
-workflow or taxonomy mechanics in reader-facing prose.
+Review the eight gateways, thirty-page portfolio, eleven prototype dispositions,
+and HNN-influenced house style. After approval, complete only the thirteen
+targeted Knowledge items needed by the portfolio and rewrite articles in
+reader-sized editorial waves. Do not begin Vercel implementation until the
+Phase 5 publication gate closes.

@@ -1,0 +1,49 @@
+{
+  "evidence_packet_id": "PHASE5-COMMUNITY-PEOPLE-001",
+  "as_of": "2026-07-23",
+  "publication_id": "PUB-011",
+  "purpose": "Establish whether existing reviewed Knowledge is sufficient for a reader-facing community overview without opening a new ingestion or Knowledge campaign.",
+  "decision": "SUFFICIENT_FOR_BOUNDED_OVERVIEW",
+  "knowledge_inputs": [
+    "knowledge/timeline/Community-Timeline.md",
+    "knowledge/guilds/Guild-Master-Index.md",
+    "knowledge/people/Actor-Master-Index.md",
+    "knowledge/media/Media-and-Creator-Index.md",
+    "knowledge/people/Krigs-Source-Profile.md",
+    "knowledge/media/Aephia-Source-Profile.md",
+    "knowledge/research/Community-Source-Attribution-Backlog.md"
+  ],
+  "allowed_scope": [
+    "Community formation and continuity",
+    "Guilds and DACs as social and economic institutions",
+    "Community publications, broadcasts and creator roles",
+    "Documented events and competitions",
+    "Identity and affiliation examples already adjudicated in Knowledge",
+    "Star Atlas-relevant relationships, disagreements and context"
+  ],
+  "prohibited_inferences": [
+    "Current guild membership or leadership from historical tags",
+    "Personal identity from handle similarity",
+    "An exhaustive or ranked roster of important people",
+    "Off-topic politics, unrelated games or unrelated personal attacks as Star Atlas knowledge",
+    "Reputation judgments or allegations without attributable evidence",
+    "Product delivery from community belief or repetition"
+  ],
+  "explicit_exclusions": [
+    "Intergalactic Herald is not a central narrative source or profile in this initial portfolio, per operator direction."
+  ],
+  "limitations": [
+    "Guild formation, leadership and active-period records are incomplete.",
+    "Most people lack complete dated role histories.",
+    "Native Discord channel and message context remains incomplete.",
+    "The overview cannot substitute for future individual, guild or event dossiers."
+  ],
+  "future_knowledge_dependencies": [
+    "Dated guild founding and leadership records",
+    "Complete DAC directory snapshots",
+    "Native Discord exports by channel",
+    "Creator and event inventories",
+    "Evidence packets for individual biographies and rivalry histories"
+  ],
+  "human_semantic_review_required": true
+}
