@@ -576,12 +576,18 @@ def build_discord(source: dict[str, Any]) -> tuple[dict[str, Any], list[dict[str
 
 def listed_files(roots: list[Path], excluded_names: set[str] | None = None) -> list[dict[str, Any]]:
     excluded_names = excluded_names or set()
-    paths = sorted(
+    paths = [
         path
         for root in roots
         if root.exists()
         for path in (root.rglob("*") if root.is_dir() else [root])
         if path.is_file() and path.name not in excluded_names and "__pycache__" not in path.parts
+    ]
+    paths.sort(
+        key=lambda path: (
+            path.relative_to(REPO).as_posix().casefold(),
+            path.relative_to(REPO).as_posix(),
+        )
     )
     return [
         {
