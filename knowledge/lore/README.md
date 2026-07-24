@@ -49,6 +49,9 @@ This authority does not extend to governance, operational history, provenance, o
 - The [Lore Publication Timeline](../timeline/Lore-Timeline.md) records real-world publication chronology separately from fictional events.
 - The [Entity Registry](../index/Entity-Registry.md) provides cross-domain identity navigation, and the [Research Backlog](../research/Research-Backlog.md) identifies missing narrative publications, chronology evidence, and continuity questions.
 
+- [Powers and Organizations of Galia](Powers-and-Organizations-of-Galia.md) introduces governments, corporations, manufacturers, academies, media, and underworld institutions using the adopted lore taxonomy.
+- [Lore and Canon Publication History](Lore-and-Canon-Publication-History.md) explains how the vocabulary and narrative record developed across official formats and the captured repository snapshot.
+
 The Ustur species and Ustur faction remain separate entities even though they share a preferred name. The in-universe Council of Peace is also distinct from the real-world Star Atlas DAO Council.
 
 ## Review status

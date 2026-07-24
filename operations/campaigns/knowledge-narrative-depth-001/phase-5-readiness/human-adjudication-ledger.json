@@ -1,0 +1,32 @@
+{
+  "adjudicated_at": "2026-07-23",
+  "adjudications": [
+    {
+      "decision_id": "PH5-ADJ-001_MANUFACTURER_FAMILIES",
+      "disposition": "ACCEPTED_WITH_EVIDENCE_RECONCILIATION",
+      "operator_decision": "There are additional ship manufacturers beyond the three initially described.",
+      "repository_action": "Recognize ten evidenced root manufacturer families represented in the 63-row dataset, preserve Fimbul BYOS and Fimbul ECOS as sublines, and document Floyd Line as the eleventh official root manufacturer absent from the capture."
+    },
+    {
+      "decision_id": "PH5-ADJ-002_FTX_CORROBORATION",
+      "disposition": "ACCEPTED_WITH_INDEPENDENT_CORROBORATION",
+      "operator_decision": "The FTX exposure is a corroborated fact and public reporting may be used as evidence.",
+      "repository_action": "Treat material FTX exposure, the approximately halved operating runway, and the 2023 contraction as corroborated; retain audited loss, recovery, financing, and later staffing as unresolved."
+    },
+    {
+      "decision_id": "PH5-ADJ-003_CURRENT_MEMBERSHIP_INFERENCE",
+      "disposition": "ACCEPTED_WITH_HIGH_CONFIDENCE_RULE",
+      "operator_decision": "Current membership may be inferred when confidence is high.",
+      "repository_action": "Permit dated current-membership inference only from recent, convergent evidence; retain tag-only and historical evidence as association or historical membership."
+    },
+    {
+      "decision_id": "PH5-ADJ-004_LORE_SNAPSHOT_TREATMENT",
+      "disposition": "ACCEPTED",
+      "operator_decision": "Accept the historical canonical-source snapshot treatment.",
+      "repository_action": "Continue treating the captured Jose Eduardo lore repository as a historical canonical-source snapshot for the represented in-universe taxonomy rather than proof of current taxonomy."
+    }
+  ],
+  "campaign_id": "phase-5-knowledge-readiness-2026-07",
+  "human_semantic_review_completed": true,
+  "schema_version": "1.0.0"
+}

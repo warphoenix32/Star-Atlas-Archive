@@ -1,0 +1,31 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "HIGH",
+  "evidence_basis": [
+    "archive/source-records/campaign-alpha-aephia/SRC-AEPHIA-29A1AF8C2ABBD4D0.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-C189056066EBFEA7.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-D023F6DAFA12F9AA.md",
+    "knowledge/timeline/Product-Timeline.md",
+    "knowledge/technology/Official-Technical-Surface-Inventory.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "HISTORICAL",
+  "known_limitations": [
+    "The exact opening date is supported by contemporaneous Aephia coverage while the official technology publication followed one day later.",
+    "Participation, transaction, loot, and economic-impact metrics have not been reconciled to a complete primary dataset."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/gameplay/Escape-Velocity.md",
+  "plan_id": "PLAN-016",
+  "promotion_state": "HUMAN_SEMANTIC_REVIEW_APPROVED",
+  "publication_modified": false,
+  "research_gaps": [
+    "Acquire the original access page, closure notice, program deployment and upgrade history, complete transaction dataset, and reconciled participation statistics.",
+    "Identify which Escape Velocity components or accounts were migrated, retained, or abandoned after the alpha."
+  ],
+  "review_after": "2027-01-23",
+  "risk_class": "R2",
+  "risk_score": 6
+}

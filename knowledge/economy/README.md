@@ -61,6 +61,12 @@ series until their definitions and methodology have been reconciled.
 
 The catalog also records incomplete work: PDF-level preservation, appendix review, duplicate resolution, metric definitions, and methodology changes. That distinction lets readers use the reports now without mistaking the presence of a publication for a completed economic dataset.
 
+## Player economy and assets
+
+- [History of the Star Atlas Player Economy](Player-Economy-History.md) follows the transition from early markets and SCORE emissions through player production, SAGE, Starbased, simulations, and official reporting.
+- [Resources, Mining, Crafting, and Trade](Resource-Mining-Crafting-and-Trade.md) keeps product- and build-specific mechanics separate.
+- [Ships, Assets, and Ownership](Ships-Assets-and-Ownership.md) distinguishes design identity, token possession, marketplace activity, base templates, and game utility.
+
 ## How to read economic claims
 
 Economic pages use four practical questions:

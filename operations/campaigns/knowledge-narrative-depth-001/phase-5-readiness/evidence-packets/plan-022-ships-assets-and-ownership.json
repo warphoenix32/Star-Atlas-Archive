@@ -1,0 +1,30 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "knowledge/gameplay/Galactic-Marketplace.md",
+    "knowledge/gameplay/Ship-and-Manufacturer-Registry.md",
+    "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+    "knowledge/gameplay/SAGE.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-B2C1AA5D0C8E9D15.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "The repository does not yet contain a complete mint, collection, owner, marketplace, rental, component, and product-utility ledger.",
+    "Token possession does not independently establish beneficial ownership, identity, current accessibility, or use in every product."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/economy/Ships-Assets-and-Ownership.md",
+  "plan_id": "PLAN-022",
+  "promotion_state": "HUMAN_SEMANTIC_REVIEW_APPROVED",
+  "publication_modified": false,
+  "research_gaps": [
+    "Reconcile mints, collections, editions, metadata revisions, owners, listings, rentals, burns, migrations, components, and build-qualified utility."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 7
+}

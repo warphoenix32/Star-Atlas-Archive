@@ -48,6 +48,8 @@ For proposal-by-proposal research, use the [Canonical PIP and Governance Ledger]
 - [Governance Failure and Termination Casebook](Governance-Failure-and-Termination-Casebook.md) preserves failed votes, passed proposals that later ended, superseded policies, and execution gaps as different historical states.
 - [PIP-33 — ATMTA Historic Expense Reimbursement](PIP-33-ATMTA-Historic-Expense-Reimbursement.md) is a detailed case study in direct treasury authorization, disclosed beneficiary conflict, conditional tranches, a preserved rounding discrepancy, and unverified payment.
 
+The [Governance Proposal Impact Casebook](Proposal-Impact-Casebook.md) selects proposals for institutional consequence while keeping authorization, payment, implementation, termination, and outcome separate.
+
 ## Governance and the economy
 
 Governance determines whether particular economic actions are authorized, but authorization alone does not establish that assets moved. The [Governance and Economy Overview](Governance-and-Economy-Overview.md) connects POLIS voting, treasury architecture, the Ecosystem Fund, and direct treasury proposals without collapsing them into one entity. The economy section adds the [DAO Treasury Architecture](../economy/DAO-Treasury-Architecture.md), [PVP Voting Power](../economy/PVP-Voting-Power.md), and [Treasury Authorization and Payment Ledger](../economy/Treasury-Authorization-and-Payment-Ledger.md).

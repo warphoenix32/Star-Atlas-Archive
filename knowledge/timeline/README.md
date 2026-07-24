@@ -31,6 +31,8 @@ The Living Timeline is a map of documented change, not a single definitive story
 - [Official Communications Chronology](Official-Communications-Chronology.md) — the evolution and coverage of official communication surfaces.
 - [Star Atlas Historical Periodization](Star-Atlas-Historical-Periodization.md) — an explicitly interpretive division of the historical record into research periods.
 
+The [Turning Points in Star Atlas History](Turning-Points-in-Star-Atlas-History.md) offers a reader-focused account of the releases, shocks, institutional changes, and community responses that redirected the project.
+
 ## Reading dates and states
 
 Exact dates are used when a source directly supports them. Estimated dates remain visibly marked. A publication date is not automatically the date an underlying event occurred; a scheduled release is not a delivery date; and a later retrospective remains retrospective evidence unless contemporaneous material corroborates it.

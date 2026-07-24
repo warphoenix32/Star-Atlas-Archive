@@ -230,8 +230,12 @@ def main() -> int:
         boundary_errors.append("PIP-33 asset mix incorrectly encoded as payment timing")
     if "advancing" not in council.lower() or "final" not in council.lower():
         boundary_errors.append("Council election-stage distinction missing")
-    if "PR #19" not in communications or "unmerged" not in communications.lower():
-        boundary_errors.append("unmerged Medium dependency not disclosed")
+    if "181 confirmed articles" not in communications or not re.search(
+        r"(?:Medium|publication) discovery (?:remains|is) (?:demonstrably )?incomplete",
+        communications,
+        re.IGNORECASE,
+    ):
+        boundary_errors.append("current Medium corpus and discovery boundary not disclosed")
     record("semantic_boundaries", not boundary_errors, "required state distinctions preserved" if not boundary_errors else "; ".join(boundary_errors))
 
     diff_check = run("git", "diff", "--check")
@@ -239,6 +243,21 @@ def main() -> int:
         "git_diff_check",
         diff_check.returncode == 0,
         "clean" if diff_check.returncode == 0 else (diff_check.stdout + "\n" + diff_check.stderr).strip(),
+    )
+
+    phase5_validator = (
+        HERE / "phase-5-readiness" / "validate_campaign.py"
+    )
+    phase5_result = run(sys.executable, str(phase5_validator))
+    phase5_detail = (
+        phase5_result.stdout + "\n" + phase5_result.stderr
+    ).strip()
+    record(
+        "phase5_knowledge_readiness",
+        phase5_result.returncode == 0,
+        "13 targeted publication gaps reconcile to review-ready Knowledge dossiers"
+        if phase5_result.returncode == 0
+        else phase5_detail,
     )
 
     campaign_scripts = sorted(HERE.rglob("*.py"))

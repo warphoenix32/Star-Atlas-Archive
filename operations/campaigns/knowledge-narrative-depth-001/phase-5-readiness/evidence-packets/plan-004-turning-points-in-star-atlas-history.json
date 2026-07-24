@@ -1,0 +1,33 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "knowledge/timeline/Master-Timeline.md",
+    "knowledge/timeline/Corporate-Timeline.md",
+    "knowledge/timeline/Product-Timeline.md",
+    "knowledge/timeline/Governance-Timeline.md",
+    "archive/source-records/campaign-charlie-hnn/SRC-HNN-03991C709B75E22E.md",
+    "archive/source-records/campaign-charlie-hnn/SRC-HNN-A0BE0ADE1E7A46D5.md",
+    "operations/campaigns/knowledge-narrative-depth-001/phase-5-readiness/external-source-review.json"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "Selection and periodization are curator judgments rather than source-native classifications.",
+    "Independent reporting corroborates the FTX exposure, runway impact, and 2023 restructuring, but audited loss, recovery, and financing records remain unavailable."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/timeline/Turning-Points-in-Star-Atlas-History.md",
+  "plan_id": "PLAN-004",
+  "promotion_state": "HUMAN_SEMANTIC_REVIEW_APPROVED",
+  "publication_modified": false,
+  "research_gaps": [
+    "Recover the complete primary executive disclosures, ATMTA financial statements, FTX recovery records, staffing records, and financing documents for the 2022-2023 contraction.",
+    "Measure the player and economic consequences of major transitions using reconciled product and transaction data."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 8
+}

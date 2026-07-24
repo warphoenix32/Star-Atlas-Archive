@@ -1,0 +1,40 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "archive/normalized/starbased-ship-states/metadata.json",
+    "archive/normalized/starbased-ship-states/base-ships.jsonl",
+    "archive/provenance/starbased-ship-states/rydn_starbased_ships_20260718.json",
+    "archive/normalized/lore/entities.jsonl",
+    "archive/source-records/campaign-delta-official/SRC-OFF-7FFFCA6E3EFC320C.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-8917A64EB222FB1E.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-A49DE58EC808D004.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-C4DA380B01338D57.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-F9654AA6FF1D8010.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-A2F14F878C41366F.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-81AC1295ED8D5F75.md",
+    "operations/campaigns/knowledge-narrative-depth-001/phase-5-readiness/external-source-review.json"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "The 63-row export was distributed by Ryden Systems and asserted to duplicate an authoritative Star Atlas sheet, but the upstream URL and version were not independently recovered.",
+    "The dataset does not establish collection completeness or present marketplace availability, and it does not contain a dedicated manufacturer field.",
+    "Values are base templates intended for SAGE and C4; Holosim uses a different value system, future rebasing is possible, and components may modify individual ships."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/gameplay/Ship-and-Manufacturer-Registry.md",
+  "plan_id": "PLAN-018",
+  "promotion_state": "HUMAN_SEMANTIC_REVIEW_APPROVED",
+  "publication_modified": false,
+  "research_gaps": [
+    "Recover the upstream Star Atlas ship-stat document, version history, marketplace IDs and URLs, and change notices.",
+    "Reconcile the 63-row dataset with the eleventh official root manufacturer, Floyd Line, and with any ship models omitted from the captured export.",
+    "Create separate versioned registries for Holosim and component-modified ship instances."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 8
+}

@@ -24,6 +24,8 @@ Star Atlas Knowledge turns preserved evidence into readable institutional histor
 
 This is the interpretation layer of the repository. The [Archive](../archive/README.md) preserves source material; Knowledge organizes reviewed conclusions; the public Library presents approved knowledge without exposing internal workflow machinery.
 
+New readers can begin with [Star Atlas: Identity and Scope](Star-Atlas-Identity-and-Scope.md), which separates the fictional universe, product family, economy, institutions, and community before linking to the narrower histories.
+
 For a guided route through the strongest histories, begin with the [ten Foundational Knowledge Dossiers](Foundational-Dossiers.md). They pair one primary narrative with the supporting ledgers, registries, and source profiles needed for deeper research.
 
 ## Begin with a question

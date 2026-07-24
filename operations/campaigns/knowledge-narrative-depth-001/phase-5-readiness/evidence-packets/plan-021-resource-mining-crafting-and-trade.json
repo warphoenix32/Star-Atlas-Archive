@@ -1,0 +1,31 @@
+{
+  "archive_evidence_modified": false,
+  "as_of": "2026-07-23",
+  "confidence": "MEDIUM",
+  "evidence_basis": [
+    "knowledge/gameplay/SCORE-and-Faction-Fleet.md",
+    "knowledge/gameplay/Escape-Velocity.md",
+    "knowledge/gameplay/SAGE.md",
+    "knowledge/gameplay/Holosim.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-D023F6DAFA12F9AA.md",
+    "archive/source-records/campaign-delta-official/SRC-OFF-E061D3A6454697AB.md"
+  ],
+  "graph_modified": false,
+  "knowledge_status": "QUALIFIED",
+  "known_limitations": [
+    "Recipes, rates, resource names, and costs vary by product and build and are not comprehensively versioned in the current repository.",
+    "PTR, simulation, and mainnet mechanics are documented separately and cannot be assumed equivalent."
+  ],
+  "packet_schema": "phase5-knowledge-readiness-v1",
+  "page_action": "CREATE",
+  "page_path": "knowledge/economy/Resource-Mining-Crafting-and-Trade.md",
+  "plan_id": "PLAN-021",
+  "promotion_state": "HUMAN_SEMANTIC_REVIEW_APPROVED",
+  "publication_modified": false,
+  "research_gaps": [
+    "Capture versioned recipes, resource tables, parameter changes, program/game IDs, production totals, market volumes, and deprecation notices for each product surface."
+  ],
+  "review_after": "2026-10-23",
+  "risk_class": "R3",
+  "risk_score": 7
+}

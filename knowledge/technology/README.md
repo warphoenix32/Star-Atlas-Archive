@@ -26,6 +26,8 @@ Star Atlas combines game products with Solana programs, game-specific configurat
 - [Star Atlas Technical Platform](Technical-Platform.md) — a human-readable guide to the platform's layers, evidence ladder, security boundary, and research priorities.
 - [Technology and Program Registry](Official-Technical-Surface-Inventory.md) — the detailed address, game-ID, repository, framework, API, and developer-program ledger.
 
+The [Reader Technology and Program Registry](Reader-Technology-and-Program-Registry.md) provides a concise bridge from product surfaces to programs, game IDs, APIs, repositories, Unreal tools, and test environments.
+
 ## Related product histories
 
 - [SAGE Product-Family History](../gameplay/SAGE.md)

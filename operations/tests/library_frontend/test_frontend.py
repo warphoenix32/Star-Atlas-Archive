@@ -27,7 +27,7 @@ def test_approved_landing_copy_and_semantics_are_present():
 def test_search_index_covers_the_current_knowledge_tree_once():
     index = json.loads((SITE / "assets" / "library-index.json").read_text(encoding="utf-8"))
     markdown = sorted(ROOT.glob("knowledge/**/*.md"))
-    assert len(index) == len(markdown) == 88
+    assert len(index) == len(markdown)
     assert len({record["id"] for record in index}) == len(index)
     assert {record["path"] for record in index} == {path.relative_to(ROOT).as_posix() for path in markdown}
     assert all(record["url"].startswith("article.html?id=") for record in index)
