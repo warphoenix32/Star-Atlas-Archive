@@ -65,7 +65,8 @@ class Phase4KnowledgeConsolidationTests(unittest.TestCase):
             statuses = [entry["status"] for entry in payload["entries"]]
             self.assertEqual(14, len(statuses))
             self.assertEqual(7, statuses.count("DRAFT"))
-            self.assertEqual(7, statuses.count("IN_REVIEW"))
+            self.assertEqual(0, statuses.count("IN_REVIEW"))
+            self.assertEqual(7, statuses.count("APPROVED"))
             self.assertEqual(0, statuses.count("PUBLISHED"))
             self.assertEqual(
                 ["PUBLISHED"],

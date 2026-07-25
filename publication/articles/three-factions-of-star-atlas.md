@@ -4,7 +4,7 @@ slug: three-factions-of-star-atlas
 title: "The Three Factions of Star Atlas"
 seo_title: "The Three Star Atlas Factions: MUD, ONI and Ustur"
 seo_description: "Meet MUD, the ONI Consortium and the Ustur—the three major powers whose histories, peoples and rivalries shape the Galia Expanse."
-status: IN_REVIEW
+status: APPROVED
 as_of: 2026-07-23
 audience: "Readers exploring the civilizations and political history of the Star Atlas universe"
 ---

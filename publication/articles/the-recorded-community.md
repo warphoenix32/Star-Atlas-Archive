@@ -4,7 +4,7 @@ slug: the-recorded-community
 title: "Atlas Brew and the Town Hall Tradition"
 seo_title: "Atlas Brew and Star Atlas Town Halls: A Community History"
 seo_description: "How Atlas Brew, Town Halls and community recordings gave Star Atlas a public rhythm of questions, explanations and shared memory."
-status: IN_REVIEW
+status: APPROVED
 as_of: 2026-07-23
 audience: "Readers exploring the recorded institutional and community memory of Star Atlas"
 ---

@@ -94,7 +94,13 @@ def validate_manifest(
     portfolio: dict[str, Any], manifest: dict[str, Any]
 ) -> tuple[list[str], dict[str, int]]:
     failures: list[str] = []
-    metrics = {"entries": 0, "drafts": 0, "in_review": 0, "published": 0}
+    metrics = {
+        "entries": 0,
+        "drafts": 0,
+        "in_review": 0,
+        "approved": 0,
+        "published": 0,
+    }
     if manifest.get("manifest_id") != "publication-manifest-star-atlas-library":
         failures.append("manifest_id does not satisfy the schema-compatible stable ID")
     if manifest.get("lifecycle_phase") != "PORTFOLIO_DEVELOPMENT":
@@ -109,6 +115,9 @@ def validate_manifest(
     metrics["in_review"] = sum(
         entry.get("status") == "IN_REVIEW" for entry in entries
     )
+    metrics["approved"] = sum(
+        entry.get("status") == "APPROVED" for entry in entries
+    )
     metrics["published"] = sum(entry.get("status") == "PUBLISHED" for entry in entries)
     if len(entries) != 14:
         failures.append(f"expected 14 manifest entries, found {len(entries)}")
@@ -120,13 +129,17 @@ def validate_manifest(
         failures.append("duplicate publication_id")
     if len(slugs) != len(set(slugs)):
         failures.append("duplicate publication slug")
-    if metrics["drafts"] != 7 or metrics["in_review"] != 7:
+    if (
+        metrics["drafts"] != 7
+        or metrics["in_review"] != 0
+        or metrics["approved"] != 7
+    ):
         failures.append(
-            "editorial wave must contain seven DRAFT and seven IN_REVIEW entries"
+            "approved editorial wave must contain seven DRAFT and seven APPROVED entries"
         )
     if metrics["published"] != 0:
         failures.append("editorial wave must not publish entries")
-    if any(entry.get("status") not in {"DRAFT", "IN_REVIEW"} for entry in entries):
+    if any(entry.get("status") not in {"DRAFT", "APPROVED"} for entry in entries):
         failures.append("editorial wave contains an unsupported lifecycle status")
 
     portfolio_by_id = {
@@ -163,10 +176,11 @@ def validate_manifest(
                 )
         editorial = entry.get("editorial", {})
         evidence = entry.get("evidence", {})
+        approved = entry.get("status") == "APPROVED"
         if editorial.get("human_first") is not True:
             failures.append(f"{publication_id}: human_first must be true")
         if any(
-            editorial.get(field) is not False
+            editorial.get(field) is not approved
             for field in (
                 "narrative_review",
                 "seo_review",
@@ -174,13 +188,16 @@ def validate_manifest(
             )
         ):
             failures.append(
-                f"{publication_id}: human review flags must remain false before review"
+                f"{publication_id}: human review flags do not match lifecycle state"
             )
-        if editorial.get("approval_record") is not None:
+        approval_record = editorial.get("approval_record")
+        if approved and not approval_record:
+            failures.append(f"{publication_id}: approved entry lacks approval record")
+        if not approved and approval_record is not None:
             failures.append(f"{publication_id}: draft must not have approval record")
-        if evidence.get("material_claims_reviewed") is not False:
+        if evidence.get("material_claims_reviewed") is not approved:
             failures.append(
-                f"{publication_id}: material claim review must remain pending"
+                f"{publication_id}: material claim review does not match lifecycle state"
             )
         visibility = entry.get("visibility", {})
         if visibility != {
@@ -313,20 +330,28 @@ def validate_editorial_review(manifest: dict[str, Any]) -> list[str]:
     expected_ids = {
         entry.get("publication_id")
         for entry in manifest.get("entries", [])
-        if entry.get("status") == "IN_REVIEW"
+        if entry.get("status") == "APPROVED"
     }
-    if review.get("status") != "AWAITING_HUMAN_SEMANTIC_REVIEW":
-        failures.append("editorial review status is not awaiting human review")
-    if review.get("publication_status") != "UNPUBLISHED":
-        failures.append("editorial review incorrectly reports publication")
+    if review.get("status") != "HUMAN_SEMANTIC_REVIEW_COMPLETE":
+        failures.append("editorial review status is not complete")
+    if review.get("publication_status") != "APPROVED_NOT_PUBLISHED":
+        failures.append("editorial review publication state is incorrect")
     if review.get("deployment_status") != "NOT_STARTED":
         failures.append("editorial review incorrectly reports deployment")
     if review_ids != expected_ids:
-        failures.append("editorial review articles do not reconcile to IN_REVIEW entries")
+        failures.append("editorial review articles do not reconcile to APPROVED entries")
     for item in review.get("articles", []):
-        if item.get("human_approval") is not None:
+        approval = item.get("human_approval")
+        if not isinstance(approval, dict) or approval.get("decision") != "APPROVED":
+            failures.append(f"{item.get('publication_id')}: approval is not recorded")
+        elif (
+            approval.get("approved_by") != "repository_operator"
+            or approval.get("approved_at") != "2026-07-24"
+            or approval.get("reviewed_commit")
+            != "44a85a28e31757ec73138f86aa31bc5f6f158175"
+        ):
             failures.append(
-                f"{item.get('publication_id')}: human approval must remain pending"
+                f"{item.get('publication_id')}: approval provenance is incomplete"
             )
         if not item.get("review_questions"):
             failures.append(
@@ -344,7 +369,7 @@ def validate_publication_plan(
     failures: list[str] = []
     if (
         portfolio.get("portfolio_status")
-        != "EDITORIAL_WAVE_1_IN_REVIEW"
+        != "EDITORIAL_WAVE_1_APPROVED"
     ):
         failures.append("portfolio status does not reflect Editorial Wave 1")
     gateways = plan.get("gateways", [])
@@ -572,8 +597,9 @@ def run_validation(base_ref: str = "origin/main") -> dict[str, Any]:
         "checks": checks,
         "metrics": metrics,
         "failures": failures,
-        "human_adjudication_required": True,
-        "next_gate": "Human semantic review of the seven Wave 1 articles",
+        "human_adjudication_required": False,
+        "publication_authorization_required": True,
+        "next_gate": "Explicit publication authorization for the seven approved Wave 1 articles",
     }
 
 
@@ -600,6 +626,7 @@ Result: **{result['status']}**
 - Manifest entries: {result['metrics']['entries']}
 - Draft entries: {result['metrics']['drafts']}
 - In-review entries: {result['metrics']['in_review']}
+- Approved entries: {result['metrics']['approved']}
 - Published entries: {result['metrics']['published']}
 - Narrative words: {result['metrics']['total_words']}
 - Local evidence links checked: {result['metrics']['links_checked']}
@@ -610,8 +637,10 @@ Result: **{result['status']}**
 
 {failures}
 
-Automated validation does not approve editorial judgment. Seven articles remain
-in review and seven remain drafts, all outside the public build.
+The repository operator approved seven articles after human semantic review.
+Seven other entries remain drafts. All fourteen remain outside the public build
+until a separate publication authorization moves approved entries to
+`PUBLISHED`.
 """
     VALIDATION_MD.write_text(markdown, encoding="utf-8", newline="\n")
 

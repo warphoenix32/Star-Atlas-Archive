@@ -3,14 +3,13 @@
 Campaign ID: `phase-5-foundational-publication-portfolio-2026-07`
 
 This campaign began with eleven draft articles and now implements the
-operator-approved reader-first redesign. The original drafts remain unpublished
-prototypes while the campaign defines the complete navigation, foundational
-portfolio, editorial house style, Knowledge-readiness audit and targeted
-development backlog.
+operator-approved reader-first redesign. Human semantic review is complete for
+Editorial Wave 1: seven articles are `APPROVED`, seven prototypes remain
+`DRAFT`, and no article is `PUBLISHED`.
 
 ## Scope
 
-- Preserve eleven reader-facing prototypes without publishing them.
+- Preserve fourteen reader-facing articles and prototypes without publishing them.
 - Define eight reader gateways and a thirty-page foundational narrative map.
 - Apply an HNN-influenced, player-friendly editorial house style without
   inheriting unsupported speculation or promotional certainty.
@@ -18,12 +17,14 @@ development backlog.
   which require targeted Knowledge development.
 - Record deterministic dispositions for every prototype.
 - Preserve the distinction between Archive, Knowledge and Publication.
-- Populate the publication manifest with deterministic `DRAFT` entries.
-- Keep all drafts outside the public build.
+- Populate the publication manifest with deterministic `DRAFT` and `APPROVED`
+  entries.
+- Record the operator's July 24, 2026 approval against the reviewed commit.
+- Keep both drafts and approved-but-unpublished articles outside the public build.
 - Hide internal taxonomy and workflow metadata from article prose and remove
   top-of-page metadata boxes from the public Knowledge reader.
-- Require human portfolio, semantic, narrative, SEO and comprehensiveness
-  review.
+- Preserve human portfolio, semantic, narrative, SEO and comprehensiveness
+  review as a completed, auditable gate.
 
 No Archive evidence, canonical Knowledge or graph fact may change. The only
 site change permitted in this planning gate is removal of the public metadata
@@ -63,7 +64,7 @@ and protected paths.
 
 ## Stop gate
 
-The current gate stops after the portfolio map and readiness audit are
-validated. Automated checks cannot approve editorial judgment. A human must
-review the eight gateways, thirty planned pages, prototype dispositions and
-house style before targeted Knowledge development and redrafting proceed.
+The editorial review gate is complete. Approval does not equal publication:
+the seven approved articles remain excluded from the public build until the
+repository operator gives explicit publication authorization. Automated checks
+may validate the approval record, but they cannot create or replace it.

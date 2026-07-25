@@ -1,10 +1,10 @@
 # Phase 5 Reader-First Editorial Campaign
 
-Status: **EDITORIAL_WAVE_1_AWAITING_HUMAN_SEMANTIC_REVIEW**
+Status: **EDITORIAL_WAVE_1_APPROVED**
 
 The approved redesign defines eight reader gateways and a thirty-page
 foundational narrative map. Editorial Wave 1 advances seven reader-first
-articles to human review while seven other prototypes remain drafts.
+articles through human review while seven other prototypes remain drafts.
 
 | ID | Prototype | Risk | Words | State |
 | --- | --- | ---: | ---: | --- |
@@ -12,22 +12,23 @@ articles to human review while seven other prototypes remain drafts.
 | PUB-002 | [Beyond the Vote: Success, Failure and Withdrawal in Star Atlas Governance](../../../publication/articles/beyond-the-vote.md) | R3 | 867 | DRAFT |
 | PUB-003 | [Following the Treasury: Authority, Funding and Payment Evidence](../../../publication/articles/following-the-treasury.md) | R3 | 841 | DRAFT |
 | PUB-004 | [ATLAS and POLIS: Two Tokens, Different Institutions](../../../publication/articles/atlas-and-polis.md) | R3 | 798 | DRAFT |
-| PUB-005 | [From SCORE to Starbased: The Evolution of Star Atlas Strategy](../../../publication/articles/from-score-to-starbased.md) | R3 | 1064 | IN_REVIEW |
+| PUB-005 | [From SCORE to Starbased: The Evolution of Star Atlas Strategy](../../../publication/articles/from-score-to-starbased.md) | R3 | 1064 | APPROVED |
 | PUB-006 | [The Showroom and Holosim: Two Windows Into Star Atlas](../../../publication/articles/showroom-and-holosim.md) | R2 | 823 | DRAFT |
 | PUB-007 | [How Star Atlas Communicated Its Development](../../../publication/articles/how-star-atlas-communicated-development.md) | R2 | 892 | DRAFT |
-| PUB-008 | [Atlas Brew and the Town Hall Tradition](../../../publication/articles/the-recorded-community.md) | R3 | 1105 | IN_REVIEW |
+| PUB-008 | [Atlas Brew and the Town Hall Tradition](../../../publication/articles/the-recorded-community.md) | R3 | 1105 | APPROVED |
 | PUB-009 | [The Institutions Behind Star Atlas](../../../publication/articles/institutions-behind-star-atlas.md) | R2 | 938 | DRAFT |
-| PUB-010 | [Welcome to the Galia Expanse](../../../publication/articles/welcome-to-the-galia-expanse.md) | R3 | 1195 | IN_REVIEW |
-| PUB-011 | [The People of Star Atlas](../../../publication/articles/people-of-star-atlas.md) | R3 | 1118 | IN_REVIEW |
-| PUB-012 | [What Is Star Atlas?](../../../publication/articles/what-is-star-atlas.md) | R2 | 1258 | IN_REVIEW |
-| PUB-013 | [The Three Factions of Star Atlas](../../../publication/articles/three-factions-of-star-atlas.md) | R2 | 1477 | IN_REVIEW |
-| PUB-014 | [The Unreal Engine Journey](../../../publication/articles/unreal-engine-journey.md) | R2 | 1036 | IN_REVIEW |
+| PUB-010 | [Welcome to the Galia Expanse](../../../publication/articles/welcome-to-the-galia-expanse.md) | R3 | 1195 | APPROVED |
+| PUB-011 | [The People of Star Atlas](../../../publication/articles/people-of-star-atlas.md) | R3 | 1118 | APPROVED |
+| PUB-012 | [What Is Star Atlas?](../../../publication/articles/what-is-star-atlas.md) | R2 | 1258 | APPROVED |
+| PUB-013 | [The Three Factions of Star Atlas](../../../publication/articles/three-factions-of-star-atlas.md) | R2 | 1477 | APPROVED |
+| PUB-014 | [The Unreal Engine Journey](../../../publication/articles/unreal-engine-journey.md) | R2 | 1036 | APPROVED |
 
 ## Portfolio metrics
 
 - Manifest entries: 14
 - Draft entries: 7
-- In-review entries: 7
+- In-review entries: 0
+- Approved entries: 7
 - Total narrative words: 14367
 - Published entries: 0
 - Risk distribution: {"R2": 7, "R3": 7}
@@ -58,7 +59,8 @@ Intergalactic Herald is not a central source or profile in this portfolio.
 
 The public Knowledge reader no longer renders workflow metadata, confidence or
 taxonomy boxes at the top of a page. Front matter remains available internally
-for search and validation. No article was published.
+for search and validation. Human approval is recorded, but no article was
+published.
 
 ## Boundaries
 
@@ -67,7 +69,6 @@ continues to exclude all non-`PUBLISHED` entries from the public build.
 
 ## Human gate
 
-Human semantic review is required for all seven Wave 1 articles. Reviewers
-should assess narrative accuracy, comprehensiveness, lifecycle distinctions
-and proportional treatment of uncertainty. The Library Publisher must not
-publish or self-approve any article.
+Human semantic review is complete for all seven Wave 1 articles. Approval and
+publication remain separate lifecycle actions. The Library Publisher must not
+move an approved article to `PUBLISHED` without explicit publication authority.

@@ -71,7 +71,8 @@
   "metrics": {
     "entries": 14,
     "drafts": 7,
-    "in_review": 7,
+    "in_review": 0,
+    "approved": 7,
     "published": 0,
     "word_counts": {
       "PUB-001": 955,
@@ -99,7 +100,7 @@
     },
     "knowledge_backlog_items": 13,
     "prototype_dispositions": 11,
-    "changed_paths": 21,
+    "changed_paths": 22,
     "prohibited_path_changes": 0,
     "risk_class_counts": {
       "R2": 7,
@@ -107,6 +108,7 @@
     }
   },
   "failures": [],
-  "human_adjudication_required": true,
-  "next_gate": "Human semantic review of the seven Wave 1 articles"
+  "human_adjudication_required": false,
+  "publication_authorization_required": true,
+  "next_gate": "Explicit publication authorization for the seven approved Wave 1 articles"
 }

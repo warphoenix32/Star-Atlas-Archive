@@ -1,12 +1,13 @@
 {
   "campaign_id": "phase-5-foundational-publication-portfolio-2026-07",
   "as_of": "2026-07-23",
-  "status": "EDITORIAL_WAVE_1_AWAITING_HUMAN_SEMANTIC_REVIEW",
+  "status": "EDITORIAL_WAVE_1_APPROVED",
   "portfolio": {
     "articles_drafted": 14,
     "manifest_entries": 14,
     "draft_entries": 7,
-    "in_review_entries": 7,
+    "in_review_entries": 0,
+    "approved_entries": 7,
     "published_entries": 0,
     "total_words": 14367,
     "word_counts": {
@@ -67,12 +68,8 @@
     "drafts_in_public_build": false,
     "intergalactic_herald_profile_included": false
   },
-  "human_adjudication_required": true,
-  "human_review_scope": [
-    "Review the seven Wave 1 articles for narrative accuracy and completeness",
-    "Confirm lifecycle distinctions remain understandable to ordinary readers",
-    "Confirm lore and community qualifications are proportionate",
-    "Approve, revise or defer each article before publication"
-  ],
-  "next_gate": "Human semantic review of the seven Wave 1 articles"
+  "human_adjudication_required": false,
+  "human_review_scope": [],
+  "publication_authorization_required": true,
+  "next_gate": "Explicit publication authorization for the seven approved Wave 1 articles"
 }

@@ -1,23 +1,20 @@
 # Phase 5 Editorial Wave 1 Review
 
-Seven reader-first articles are ready for human semantic review. They remain outside the public build, have no approval record and have not been deployed.
+The repository operator approved all seven reader-first articles after semantic review on July 24, 2026. They are release-ready but remain outside the public build until a separate publication authorization.
 
 | ID | Article | Risk | State | Human decision |
 | --- | --- | --- | --- | --- |
-| PUB-005 | [From SCORE to Starbased: The Evolution of Star Atlas Strategy](../../../publication/articles/from-score-to-starbased.md) | R3 | IN_REVIEW | Pending |
-| PUB-008 | [Atlas Brew and the Town Hall Tradition](../../../publication/articles/the-recorded-community.md) | R3 | IN_REVIEW | Pending |
-| PUB-010 | [Welcome to the Galia Expanse](../../../publication/articles/welcome-to-the-galia-expanse.md) | R3 | IN_REVIEW | Pending |
-| PUB-011 | [The People of Star Atlas](../../../publication/articles/people-of-star-atlas.md) | R3 | IN_REVIEW | Pending |
-| PUB-012 | [What Is Star Atlas?](../../../publication/articles/what-is-star-atlas.md) | R2 | IN_REVIEW | Pending |
-| PUB-013 | [The Three Factions of Star Atlas](../../../publication/articles/three-factions-of-star-atlas.md) | R2 | IN_REVIEW | Pending |
-| PUB-014 | [The Unreal Engine Journey](../../../publication/articles/unreal-engine-journey.md) | R2 | IN_REVIEW | Pending |
+| PUB-005 | [From SCORE to Starbased: The Evolution of Star Atlas Strategy](../../../publication/articles/from-score-to-starbased.md) | R3 | APPROVED | Approved 2026-07-24 |
+| PUB-008 | [Atlas Brew and the Town Hall Tradition](../../../publication/articles/the-recorded-community.md) | R3 | APPROVED | Approved 2026-07-24 |
+| PUB-010 | [Welcome to the Galia Expanse](../../../publication/articles/welcome-to-the-galia-expanse.md) | R3 | APPROVED | Approved 2026-07-24 |
+| PUB-011 | [The People of Star Atlas](../../../publication/articles/people-of-star-atlas.md) | R3 | APPROVED | Approved 2026-07-24 |
+| PUB-012 | [What Is Star Atlas?](../../../publication/articles/what-is-star-atlas.md) | R2 | APPROVED | Approved 2026-07-24 |
+| PUB-013 | [The Three Factions of Star Atlas](../../../publication/articles/three-factions-of-star-atlas.md) | R2 | APPROVED | Approved 2026-07-24 |
+| PUB-014 | [The Unreal Engine Journey](../../../publication/articles/unreal-engine-journey.md) | R2 | APPROVED | Approved 2026-07-24 |
 
-## Review questions
+## Review disposition
 
-1. Is each narrative accurate, engaging and sufficiently comprehensive?
-2. Are lifecycle and evidence distinctions clear without overwhelming the story?
-3. Does any material claim need additional context, qualification or removal?
-4. Should the article be approved, revised or deferred?
+Human semantic review is complete. Approval does not equal publication; all seven entries remain excluded from the public build.
 
 ## Deferred from Wave 1
 

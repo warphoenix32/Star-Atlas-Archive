@@ -4,7 +4,7 @@ slug: what-is-star-atlas
 title: "What Is Star Atlas?"
 seo_title: "What Is Star Atlas? Games, Universe, Economy and Community"
 seo_description: "A welcoming guide to Star Atlas as a science-fiction universe, family of games, player economy, governance system and living community."
-status: IN_REVIEW
+status: APPROVED
 as_of: 2026-07-23
 audience: "New readers, players and researchers seeking an accessible introduction to Star Atlas"
 ---

@@ -25,7 +25,8 @@ Result: **PASS**
 
 - Manifest entries: 14
 - Draft entries: 7
-- In-review entries: 7
+- In-review entries: 0
+- Approved entries: 7
 - Published entries: 0
 - Narrative words: 14367
 - Local evidence links checked: 71
@@ -36,5 +37,7 @@ Result: **PASS**
 
 - None.
 
-Automated validation does not approve editorial judgment. Seven articles remain
-in review and seven remain drafts, all outside the public build.
+The repository operator approved seven articles after human semantic review.
+Seven other entries remain drafts. All fourteen remain outside the public build
+until a separate publication authorization moves approved entries to
+`PUBLISHED`.

@@ -4,7 +4,7 @@ slug: people-of-star-atlas
 title: "The People of Star Atlas"
 seo_title: "The People of Star Atlas: Players, Guilds and Community History"
 seo_description: "How players, guilds, creators, journalists and organizers built a living Star Atlas community around an unfinished universe."
-status: IN_REVIEW
+status: APPROVED
 as_of: 2026-07-23
 audience: "Readers interested in the human community and culture around Star Atlas"
 ---

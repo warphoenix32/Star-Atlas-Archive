@@ -4,7 +4,7 @@ slug: welcome-to-the-galia-expanse
 title: "Welcome to the Galia Expanse"
 seo_title: "The Galia Expanse: A Guide to the Star Atlas Universe"
 seo_description: "A guide to the regions, risk zones, peoples, landmarks, war and postwar order that shape the Star Atlas universe."
-status: IN_REVIEW
+status: APPROVED
 as_of: 2026-07-23
 audience: "New and returning readers exploring the Star Atlas universe"
 ---

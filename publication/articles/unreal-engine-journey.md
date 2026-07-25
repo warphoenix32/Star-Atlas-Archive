@@ -4,7 +4,7 @@ slug: unreal-engine-journey
 title: "The Unreal Engine Journey"
 seo_title: "Star Atlas Unreal Engine Journey: Showroom, Builds and C4"
 seo_description: "How the Star Atlas Showroom opened a high-fidelity window into Galia, what later builds added, and why public access is not the same as feature completeness."
-status: IN_REVIEW
+status: APPROVED
 as_of: 2026-07-23
 audience: "Players and readers following the history of the Star Atlas Unreal Engine experience"
 ---
