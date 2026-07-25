@@ -1,6 +1,6 @@
 # Star Atlas Library Roadmap Status
 
-Current phase: **Phase 5 — Publication layer, in progress (45%)**. The reader-first portfolio map and Knowledge-readiness audit are complete; eleven prototypes remain unpublished.
+Current phase: **Phase 5 — Publication layer, in progress (60%)**. The reader-first portfolio map and Knowledge-readiness audit are complete; seven Wave 1 articles are in human semantic review and seven prototypes remain drafts. Nothing is published.
 
 This report must be refreshed at every campaign closeout. Any deviation from phase order, product boundaries, or completion gates must be stated explicitly.
 
@@ -12,7 +12,7 @@ This report must be refreshed at every campaign closeout. Any deviation from pha
 | 2. Priority ingestion | COMPLETE | 100% |  |
 | 3. Targeted architecture refinement | COMPLETE | 100% |  |
 | 4. Knowledge consolidation | COMPLETE | 100% |  |
-| 5. Publication layer | IN_PROGRESS | 45% | Portfolio-map review; targeted Knowledge development; narrative rewrite; explicit publication |
+| 5. Publication layer | IN_PROGRESS | 60% | Human review of Editorial Wave 1; later editorial waves; explicit publication |
 | 6. Vercel implementation | NOT_STARTED | 0% | Publication layer approved; Read-only Vercel connection test |
 | 7. Preview, validation, and deployment | NOT_STARTED | 0% | Cross-repository preview; Launch acceptance |
 
@@ -72,10 +72,19 @@ The public Knowledge reader no longer displays workflow status, confidence, or
 taxonomy boxes at the top of a page. Internal front matter remains available for
 search and validation. No draft is eligible for the public build.
 
+## Phase 5 Editorial Wave 1
+
+Seven reader-first articles now carry `IN_REVIEW` status: What Is Star Atlas?,
+Welcome to the Galia Expanse, The Three Factions of Star Atlas, From SCORE to
+Starbased, The Unreal Engine Journey, The People of Star Atlas, and Atlas Brew
+and the Town Hall Tradition. Four are traceable rewrites of preserved
+prototypes and three are new drafts. Seven other prototypes remain `DRAFT`.
+The manifest continues to expose only `PUBLISHED` entries to a public build, so
+this wave changes no live Library content.
+
 ## Current recommendation
 
-Review the eight gateways, thirty-page portfolio, eleven prototype dispositions,
-and HNN-influenced house style. After approval, complete only the thirteen
-targeted Knowledge items needed by the portfolio and rewrite articles in
-reader-sized editorial waves. Do not begin Vercel implementation until the
-Phase 5 publication gate closes.
+Review the seven Wave 1 articles for narrative accuracy, completeness and
+reader value. Approve, revise or defer each article individually. Continue
+later articles in reader-sized editorial waves, and do not begin Vercel
+implementation until the Phase 5 publication gate closes.

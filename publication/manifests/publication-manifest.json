@@ -253,7 +253,7 @@
       "slug": "from-score-to-starbased",
       "title": "From SCORE to Starbased: The Evolution of Star Atlas Strategy",
       "type": "ARTICLE",
-      "status": "DRAFT",
+      "status": "APPROVED",
       "audience": "Players and researchers following the history of Star Atlas strategy products",
       "content_path": "publication/articles/from-score-to-starbased.md",
       "source_knowledge_paths": [
@@ -265,13 +265,13 @@
       "as_of": "2026-07-23",
       "editorial": {
         "human_first": true,
-        "narrative_review": false,
-        "seo_review": false,
-        "comprehensiveness_review": false,
-        "approval_record": null
+        "narrative_review": true,
+        "seo_review": true,
+        "comprehensiveness_review": true,
+        "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
       },
       "evidence": {
-        "material_claims_reviewed": false,
+        "material_claims_reviewed": true,
         "references_resolve": true,
         "conflicts_disclosed": true,
         "limitations_disclosed": true
@@ -288,7 +288,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "7ab15fac111925d7087d1fbc055f9709e0929072fe8cdc37f48460f25aed8d9c",
+        "content_sha256": "4799a977ca68b921d3367b110db8181338a950f5e10f2dd668dcc71c08dc41d8",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -302,7 +302,13 @@
         "PUB-006",
         "PUB-008"
       ],
-      "revision_history": []
+      "revision_history": [
+        {
+          "date": "2026-07-23",
+          "content_sha256": "7ab15fac111925d7087d1fbc055f9709e0929072fe8cdc37f48460f25aed8d9c",
+          "change": "Reader-first editorial rewrite preserving distinct SCORE, Faction Fleet and SAGE lifecycle states."
+        }
+      ]
     },
     {
       "publication_id": "PUB-006",
@@ -420,9 +426,9 @@
     {
       "publication_id": "PUB-008",
       "slug": "the-recorded-community",
-      "title": "The Recorded Community: Atlas Brew, Town Halls and Star Atlas TV",
+      "title": "Atlas Brew and the Town Hall Tradition",
       "type": "ARTICLE",
-      "status": "DRAFT",
+      "status": "APPROVED",
       "audience": "Readers exploring the recorded institutional and community memory of Star Atlas",
       "content_path": "publication/articles/the-recorded-community.md",
       "source_knowledge_paths": [
@@ -435,20 +441,20 @@
       "as_of": "2026-07-23",
       "editorial": {
         "human_first": true,
-        "narrative_review": false,
-        "seo_review": false,
-        "comprehensiveness_review": false,
-        "approval_record": null
+        "narrative_review": true,
+        "seo_review": true,
+        "comprehensiveness_review": true,
+        "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
       },
       "evidence": {
-        "material_claims_reviewed": false,
+        "material_claims_reviewed": true,
         "references_resolve": true,
         "conflicts_disclosed": true,
         "limitations_disclosed": true
       },
       "presentation": {
-        "summary": "How recordings and timestamps preserve institutional memory even when speaker identity remains unknown.",
-        "description": "A history of Atlas Brew, Town Halls and replay archives with practical evidence rules for unattributed transcripts.",
+        "summary": "How Atlas Brew and Town Halls became a shared record of Star Atlas development and community life.",
+        "description": "A reader-first history of the broadcasts, conversations and replay traditions that helped the Star Atlas community understand an unfinished universe.",
         "primary_topic": "Community Media",
         "related_topics": [
           "Atlas Brew",
@@ -458,7 +464,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "af3281f7b7c5c3a0a6b69896ae07ae9412b19c65ffeb5066e37ef24994bf4abe",
+        "content_sha256": "7ed3d67a0fa71a0ad7d2d40f51a8d34e150785790a3f278ac131d10745e9e4e2",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -472,7 +478,13 @@
         "PUB-007",
         "PUB-011"
       ],
-      "revision_history": []
+      "revision_history": [
+        {
+          "date": "2026-07-23",
+          "content_sha256": "af3281f7b7c5c3a0a6b69896ae07ae9412b19c65ffeb5066e37ef24994bf4abe",
+          "change": "Reframed around the community broadcast tradition rather than transcript attribution mechanics."
+        }
+      ]
     },
     {
       "publication_id": "PUB-009",
@@ -538,7 +550,7 @@
       "slug": "welcome-to-the-galia-expanse",
       "title": "Welcome to the Galia Expanse",
       "type": "ARTICLE",
-      "status": "DRAFT",
+      "status": "APPROVED",
       "audience": "New and returning readers exploring the Star Atlas universe",
       "content_path": "publication/articles/welcome-to-the-galia-expanse.md",
       "source_knowledge_paths": [
@@ -554,20 +566,20 @@
       "as_of": "2026-07-23",
       "editorial": {
         "human_first": true,
-        "narrative_review": false,
-        "seo_review": false,
-        "comprehensiveness_review": false,
-        "approval_record": null
+        "narrative_review": true,
+        "seo_review": true,
+        "comprehensiveness_review": true,
+        "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
       },
       "evidence": {
-        "material_claims_reviewed": false,
+        "material_claims_reviewed": true,
         "references_resolve": true,
         "conflicts_disclosed": true,
         "limitations_disclosed": true
       },
       "presentation": {
-        "summary": "An introduction to the factions, peoples, places and postwar political order of the Galia Expanse.",
-        "description": "A reader-first guide to Star Atlas lore grounded in the captured owned-affiliated canonical taxonomy.",
+        "summary": "An introduction to the geography, risk zones, peoples, war and postwar political order of the Galia Expanse.",
+        "description": "A setting-first guide to the regions, frontiers, landmarks and histories that give the Star Atlas universe its scale.",
         "primary_topic": "Lore",
         "related_topics": [
           "MUD",
@@ -578,7 +590,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "3386191f4581bf97149b57529ebce880a3fb5173cb8e426c3bbb0cce5996a445",
+        "content_sha256": "fe5a846e1a2ecd03571619c14aba1a8c38c2cedb09d03f160759df0e5a372130",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -591,14 +603,20 @@
         "PUB-009",
         "PUB-011"
       ],
-      "revision_history": []
+      "revision_history": [
+        {
+          "date": "2026-07-23",
+          "content_sha256": "3386191f4581bf97149b57529ebce880a3fb5173cb8e426c3bbb0cce5996a445",
+          "change": "Expanded into a narrative lore gateway while retaining snapshot and source-divergence qualifications."
+        }
+      ]
     },
     {
       "publication_id": "PUB-011",
       "slug": "people-of-star-atlas",
-      "title": "The People of Star Atlas: Players, Guilds, Creators and Community Memory",
+      "title": "The People of Star Atlas",
       "type": "ARTICLE",
-      "status": "DRAFT",
+      "status": "APPROVED",
       "audience": "Readers interested in the human community and culture around Star Atlas",
       "content_path": "publication/articles/people-of-star-atlas.md",
       "source_knowledge_paths": [
@@ -613,13 +631,13 @@
       "as_of": "2026-07-23",
       "editorial": {
         "human_first": true,
-        "narrative_review": false,
-        "seo_review": false,
-        "comprehensiveness_review": false,
-        "approval_record": null
+        "narrative_review": true,
+        "seo_review": true,
+        "comprehensiveness_review": true,
+        "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
       },
       "evidence": {
-        "material_claims_reviewed": false,
+        "material_claims_reviewed": true,
         "references_resolve": true,
         "conflicts_disclosed": true,
         "limitations_disclosed": true
@@ -636,7 +654,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "e0f071c65f6db55483ab2e4782e9659ec8c124bf477d635fcb83b0661221426e",
+        "content_sha256": "21909ca4f4255dbb8b9cf5ef25013c87ec5fdd7c929571868e85ddd51208e61f",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -650,6 +668,187 @@
         "PUB-008",
         "PUB-009",
         "PUB-010"
+      ],
+      "revision_history": [
+        {
+          "date": "2026-07-23",
+          "content_sha256": "e0f071c65f6db55483ab2e4782e9659ec8c124bf477d635fcb83b0661221426e",
+          "change": "Expanded into a human-centered community narrative with explicit relevance and identity boundaries."
+        }
+      ]
+    },
+    {
+      "publication_id": "PUB-012",
+      "slug": "what-is-star-atlas",
+      "title": "What Is Star Atlas?",
+      "type": "ARTICLE",
+      "status": "APPROVED",
+      "audience": "New readers seeking an accessible introduction to Star Atlas",
+      "content_path": "publication/articles/what-is-star-atlas.md",
+      "source_knowledge_paths": [
+        "knowledge/Star-Atlas-Identity-and-Scope.md",
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/lore/Galia-Expanse.md",
+        "knowledge/organizations/Institutional-Overview.md",
+        "knowledge/timeline/Community-Timeline.md"
+      ],
+      "as_of": "2026-07-23",
+      "editorial": {
+        "human_first": true,
+        "narrative_review": true,
+        "seo_review": true,
+        "comprehensiveness_review": true,
+        "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "evidence": {
+        "material_claims_reviewed": true,
+        "references_resolve": true,
+        "conflicts_disclosed": true,
+        "limitations_disclosed": true
+      },
+      "presentation": {
+        "summary": "An introduction to Star Atlas as a universe, a family of playable experiences and a community-built institution.",
+        "description": "A reader-first guide to the setting, products, economy, institutions and community that together make up Star Atlas.",
+        "primary_topic": "Orientation",
+        "related_topics": [
+          "Galia",
+          "Gameplay",
+          "Economy",
+          "Governance",
+          "Community"
+        ]
+      },
+      "provenance": {
+        "content_sha256": "431f1796d73e39d65ed3605d6efe6183a35fbfffff5166e7e5c173f64924f788",
+        "manifested_at": "2026-07-23",
+        "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
+      },
+      "visibility": {
+        "taxonomy": "HIDDEN",
+        "source_ids": "EVIDENCE_PANEL",
+        "workflow_metadata": "HIDDEN"
+      },
+      "related_publication_ids": [
+        "PUB-005",
+        "PUB-009",
+        "PUB-010",
+        "PUB-011",
+        "PUB-013",
+        "PUB-014"
+      ],
+      "revision_history": []
+    },
+    {
+      "publication_id": "PUB-013",
+      "slug": "three-factions-of-star-atlas",
+      "title": "The Three Factions of Star Atlas",
+      "type": "ARTICLE",
+      "status": "APPROVED",
+      "audience": "Readers discovering the major powers of the Galia Expanse",
+      "content_path": "publication/articles/three-factions-of-star-atlas.md",
+      "source_knowledge_paths": [
+        "knowledge/lore/Manus-Ultima-Divina.md",
+        "knowledge/lore/ONI-Consortium.md",
+        "knowledge/lore/Ustur.md",
+        "knowledge/lore/Convergence-War.md",
+        "knowledge/lore/Council-of-Peace.md",
+        "knowledge/lore/Canon-Registry.md"
+      ],
+      "as_of": "2026-07-23",
+      "editorial": {
+        "human_first": true,
+        "narrative_review": true,
+        "seo_review": true,
+        "comprehensiveness_review": true,
+        "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "evidence": {
+        "material_claims_reviewed": true,
+        "references_resolve": true,
+        "conflicts_disclosed": true,
+        "limitations_disclosed": true
+      },
+      "presentation": {
+        "summary": "Detailed histories of MUD, ONI and Ustur as distinct civilizations joined by a fragile postwar order.",
+        "description": "How Ahr and the human exodus shaped MUD, war and exile forged ONI, and awakening and the Path of Enlightenment formed Ustur.",
+        "primary_topic": "Lore",
+        "related_topics": [
+          "MUD",
+          "ONI",
+          "Ustur",
+          "Council of Peace"
+        ]
+      },
+      "provenance": {
+        "content_sha256": "4508b5b0a21eb3aff3a6ff27aa1c3ed4ffd82537dd047887b828b5f11597b7b3",
+        "manifested_at": "2026-07-23",
+        "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
+      },
+      "visibility": {
+        "taxonomy": "HIDDEN",
+        "source_ids": "EVIDENCE_PANEL",
+        "workflow_metadata": "HIDDEN"
+      },
+      "related_publication_ids": [
+        "PUB-010",
+        "PUB-012"
+      ],
+      "revision_history": []
+    },
+    {
+      "publication_id": "PUB-014",
+      "slug": "unreal-engine-journey",
+      "title": "The Unreal Engine Journey",
+      "type": "ARTICLE",
+      "status": "APPROVED",
+      "audience": "Players following the evolution of Star Atlas immersive experiences",
+      "content_path": "publication/articles/unreal-engine-journey.md",
+      "source_knowledge_paths": [
+        "knowledge/gameplay/UE5-Showroom.md",
+        "knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md",
+        "knowledge/gameplay/Product-Registry.md",
+        "knowledge/technology/Reader-Technology-and-Program-Registry.md"
+      ],
+      "as_of": "2026-07-23",
+      "editorial": {
+        "human_first": true,
+        "narrative_review": true,
+        "seo_review": true,
+        "comprehensiveness_review": true,
+        "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "evidence": {
+        "material_claims_reviewed": true,
+        "references_resolve": true,
+        "conflicts_disclosed": true,
+        "limitations_disclosed": true
+      },
+      "presentation": {
+        "summary": "How Star Atlas moved from cinematic ambition to public Unreal Engine experiences and later test environments.",
+        "description": "A lifecycle-qualified history of the Star Atlas Unreal Engine journey, from the Showroom through later builds and C4 testing.",
+        "primary_topic": "Technology",
+        "related_topics": [
+          "Unreal Engine",
+          "Showroom",
+          "R2.1",
+          "C4"
+        ]
+      },
+      "provenance": {
+        "content_sha256": "34d0f42237c5bc747c2d6cb52721ffbab441dce3dbf9ea3a095fdc2a3c5042b7",
+        "manifested_at": "2026-07-23",
+        "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
+      },
+      "visibility": {
+        "taxonomy": "HIDDEN",
+        "source_ids": "EVIDENCE_PANEL",
+        "workflow_metadata": "HIDDEN"
+      },
+      "related_publication_ids": [
+        "PUB-005",
+        "PUB-006",
+        "PUB-012"
       ],
       "revision_history": []
     }

@@ -36,6 +36,10 @@
       "status": "PASS"
     },
     {
+      "check": "editorial_wave_1_review_json",
+      "status": "PASS"
+    },
+    {
       "check": "publication_manifest",
       "status": "PASS"
     },
@@ -45,6 +49,10 @@
     },
     {
       "check": "community_evidence_boundary",
+      "status": "PASS"
+    },
+    {
+      "check": "editorial_wave_1_human_gate",
       "status": "PASS"
     },
     {
@@ -61,24 +69,29 @@
     }
   ],
   "metrics": {
-    "entries": 11,
-    "drafts": 11,
+    "entries": 14,
+    "drafts": 7,
+    "in_review": 0,
+    "approved": 7,
     "published": 0,
     "word_counts": {
       "PUB-001": 955,
       "PUB-002": 867,
       "PUB-003": 841,
       "PUB-004": 798,
-      "PUB-005": 876,
+      "PUB-005": 1064,
       "PUB-006": 823,
       "PUB-007": 892,
-      "PUB-008": 887,
+      "PUB-008": 1105,
       "PUB-009": 938,
-      "PUB-010": 951,
-      "PUB-011": 1105
+      "PUB-010": 1195,
+      "PUB-011": 1118,
+      "PUB-012": 1258,
+      "PUB-013": 1477,
+      "PUB-014": 1036
     },
-    "total_words": 9933,
-    "links_checked": 58,
+    "total_words": 14367,
+    "links_checked": 71,
     "reader_gateways": 8,
     "foundational_pages_planned": 30,
     "readiness_counts": {
@@ -87,14 +100,15 @@
     },
     "knowledge_backlog_items": 13,
     "prototype_dispositions": 11,
-    "changed_paths": 45,
+    "changed_paths": 22,
     "prohibited_path_changes": 0,
     "risk_class_counts": {
-      "R2": 4,
+      "R2": 7,
       "R3": 7
     }
   },
   "failures": [],
-  "human_adjudication_required": true,
-  "next_gate": "Human review of the complete portfolio map and readiness audit"
+  "human_adjudication_required": false,
+  "publication_authorization_required": true,
+  "next_gate": "Explicit publication authorization for the seven approved Wave 1 articles"
 }

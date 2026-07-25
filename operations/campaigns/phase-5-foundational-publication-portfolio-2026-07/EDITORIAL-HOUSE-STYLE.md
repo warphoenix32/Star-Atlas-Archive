@@ -35,6 +35,26 @@ Use this sequence when it fits the subject:
 The main article is about Star Atlas. It is not a report about the repository's
 collection process.
 
+## Human authorship standard
+
+Write as a knowledgeable human editor addressing players and researchers.
+Prefer concrete nouns, active verbs, dates, people, products, places and
+consequences over abstract commentary about what a subject "represents."
+
+Avoid common machine-written habits:
+
+- canned contrasts such as "not merely X, but Y" when a direct statement works;
+- repeated rhetorical questions or symmetrical three-part constructions;
+- vague claims about wonder, complexity, transformation or significance;
+- ornamental conclusions that restate the introduction without adding facts;
+- paragraphs assembled from taxonomy fields instead of a logical narrative;
+- repetitive warnings about evidence, process or the Archive in the main text.
+
+Vivid writing is welcome when the detail comes from the subject. Do not add
+atmosphere by replacing facts with abstractions. A strong article should read
+in a logical order and contain enough history, context and explanation to help
+both a first-time player and an experienced researcher.
+
 ## Evidence in public prose
 
 Use ordinary qualifications:

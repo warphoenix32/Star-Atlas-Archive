@@ -1,27 +1,33 @@
 {
   "campaign_id": "phase-5-foundational-publication-portfolio-2026-07",
   "as_of": "2026-07-23",
-  "status": "PORTFOLIO_MAP_COMPLETE_AWAITING_HUMAN_SCOPE_REVIEW",
+  "status": "EDITORIAL_WAVE_1_APPROVED",
   "portfolio": {
-    "articles_drafted": 11,
-    "manifest_entries": 11,
+    "articles_drafted": 14,
+    "manifest_entries": 14,
+    "draft_entries": 7,
+    "in_review_entries": 0,
+    "approved_entries": 7,
     "published_entries": 0,
-    "total_words": 9933,
+    "total_words": 14367,
     "word_counts": {
       "PUB-001": 955,
       "PUB-002": 867,
       "PUB-003": 841,
       "PUB-004": 798,
-      "PUB-005": 876,
+      "PUB-005": 1064,
       "PUB-006": 823,
       "PUB-007": 892,
-      "PUB-008": 887,
+      "PUB-008": 1105,
       "PUB-009": 938,
-      "PUB-010": 951,
-      "PUB-011": 1105
+      "PUB-010": 1195,
+      "PUB-011": 1118,
+      "PUB-012": 1258,
+      "PUB-013": 1477,
+      "PUB-014": 1036
     },
     "risk_class_counts": {
-      "R2": 4,
+      "R2": 7,
       "R3": 7
     },
     "primary_topic_counts": {
@@ -31,8 +37,10 @@
       "Economy": 1,
       "Gameplay": 2,
       "Governance": 2,
-      "Lore": 1,
+      "Lore": 2,
       "Organizations": 1,
+      "Orientation": 1,
+      "Technology": 1,
       "Treasury": 1
     }
   },
@@ -55,18 +63,13 @@
     "archive_evidence_modified": false,
     "knowledge_modified": false,
     "graph_modified": false,
-    "publication_site_modified": true,
-    "publication_site_change": "Removed top-of-page machine metadata rendering; no content published",
+    "publication_site_modified": false,
+    "publication_site_change": "No site or deployment change in Editorial Wave 1",
     "drafts_in_public_build": false,
     "intergalactic_herald_profile_included": false
   },
-  "human_adjudication_required": true,
-  "human_review_scope": [
-    "Approve or revise the eight reader gateways",
-    "Approve or revise the thirty-page foundational portfolio",
-    "Approve the eleven prototype dispositions",
-    "Approve the HNN-influenced editorial house style",
-    "Authorize targeted Knowledge development before redrafting"
-  ],
-  "next_gate": "Human review of the complete portfolio map and readiness audit"
+  "human_adjudication_required": false,
+  "human_review_scope": [],
+  "publication_authorization_required": true,
+  "next_gate": "Explicit publication authorization for the seven approved Wave 1 articles"
 }

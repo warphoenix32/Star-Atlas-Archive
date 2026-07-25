@@ -2,84 +2,106 @@
 publication_id: PUB-005
 slug: from-score-to-starbased
 title: "From SCORE to Starbased: The Evolution of Star Atlas Strategy"
-seo_title: "From SCORE to Starbased: SAGE Product-Family History"
-seo_description: "How SCORE, Faction Fleet, SAGE Labs, Starbased, SAGE 3D and C4 mark distinct stages in the evolution of Star Atlas strategy gameplay."
-status: DRAFT
+seo_title: "From SCORE to Starbased: Star Atlas Strategy Game History"
+seo_description: "How Star Atlas strategy gameplay evolved from Faction Fleet rewards through SAGE Labs and the Starbased update."
+status: APPROVED
 as_of: 2026-07-23
 audience: "Players and researchers following the history of Star Atlas strategy products"
 ---
 
 # From SCORE to Starbased
 
-The history of Star Atlas strategy gameplay is not a straight line from one finished game to the next. It is a sequence of named programs, browser surfaces, economic experiments and test environments whose features and lifecycle states overlap.
+Long before players could maintain a starbase together, Star Atlas strategy began with a simpler ritual: enlist ships, keep them supplied and earn ATLAS.
 
-SCORE, Faction Fleet, Project S.C.R.E.A.M., SAGE, SAGE Labs, Starbased, SAGE 3D and C4 are connected, but they are not aliases. A family name cannot carry one broad “live” or “deprecated” label when the evidence describes different objects at different times.
+That experience became known as **SCORE**, or **Faction Fleet**. It was limited compared with the worlds described in the Star Atlas vision, but it gave ships an active economic role and gave the community a daily relationship with a live product.
 
-## SCORE and the first faction-fleet economy
+Project S.C.R.E.A.M., SAGE Labs and Starbased followed as distinct stages in a changing family of strategy games. Their names, interfaces and economic states overlap, but none is an alias for the others.
 
-SCORE—also presented through the Faction Fleet surface—became publicly available in December 2021. Official material described players enlisting ships, supplying resources and receiving ATLAS through a faction-fleet system.
+## When fleets went to work
 
-Even at this early stage, several entities need to be distinguished:
+SCORE became publicly available in December 2021. Official material described players enlisting ships into faction fleets, consuming resources and receiving ATLAS.
 
-- the browser-facing SCORE or Faction Fleet application;
-- the on-chain SCORE program;
-- the ATLAS-emissions stream associated with participation;
-- the ships and resources used by the system.
+For many players, this was the first durable loop connecting owned ships to an operating Star Atlas system. It also established patterns that would echo through later products: fleet management, resource logistics, faction identity and on-chain rewards.
 
-The official release publication is dated December 17, while a community record places availability on December 16. The archive preserves the one-day difference rather than choosing one universal timestamp.
+Several things existed inside the familiar “Faction Fleet” label. There was a browser-facing application, an on-chain program, a reward-emissions system and the resources that kept ships active. Those parts could change independently.
 
-## From S.C.R.E.A.M. to SAGE
+Ending a reward stream does not automatically erase an application or on-chain program. SCORE therefore needs separate lifecycle records for its interface, program and emissions.
 
-In April 2022, official Discord invited the community to view a prototype known as Project S.C.R.E.A.M. The message explicitly described it as prototyping. Public demonstration is evidence of development, not release.
+## S.C.R.E.A.M. and the larger ambition
 
-At Breakpoint in November 2022, Star Atlas presented the project under the name **Star Atlas: Golden Era**, or SAGE, and described a broader roadmap. This was a naming and vision milestone. It did not make every planned system available.
+In April 2022, Star Atlas invited the community to view a prototype called **Project S.C.R.E.A.M.** The announcement explicitly called it prototyping.
 
-SAGE Labs supplied the strongest early release anchor. Star Atlas announced a September 21, 2023 launch and then stated on that date that SAGE Labs was live. Late-2025 support documentation describes it as a browser-based 4X strategy game on Solana involving fleets, exploration, mining, crafting, transport, faction competition and an ATLAS-based economy.
+The demonstration moved beyond dispatching and resupplying fleets. It presented mining, crafting, transport, territorial competition and a more active economic world as the developing strategy direction.
 
-That later support description is a dated view of the supported product. It should not be projected backward to claim that every mechanic existed in the first release.
+At Breakpoint in November 2022, the project appeared under a new umbrella name: **Star Atlas: Golden Era**, or **SAGE**. This was an important identity and roadmap moment, not a release. A public vision can show where a product is going while leaving the route—and the delivery dates—unsettled.
 
-## The Starbased update
+## SAGE Labs arrives
 
-In March 2024, Star Atlas announced **Starbased** as an update to SAGE Labs. The update centered on shared faction starbases, Loyalty Points, Council Rank XP, epochs and a revised emissions model.
+The decisive release anchor came on September 21, 2023, when an official announcement stated that **SAGE Labs** was live.
 
-The planned April 2 launch encountered failed transactions and long transaction times during deployment. Star Atlas delayed it. A new target date is not release evidence; the supported live date is April 4, when official Discord stated that Starbased was available.
+SAGE Labs brought the strategy vision into a browser experience built around fleets and an on-chain economy. Later support material described exploration, mining, crafting, transport and faction competition. Those later descriptions show how the supported product developed; they should not be projected backward as proof that every mechanic existed on the first day.
 
-Even that launch came with important qualifications. The first epoch carried zero ATLAS rewards, and Loyalty Points could be earned but not deposited. “Live” therefore described software availability, not full activation of every economic feature.
+SAGE Labs changed the texture of participation. Instead of only keeping a fleet supplied for passive rewards, players could engage with a wider chain of choices about movement, production and resources.
 
-Later support documentation describes a more developed Starbased surface with collaborative upkeep, local markets, mining and crafting. Those records show what official support stated by late 2025, not uninterrupted operation from launch.
+The release also created a naming challenge that still follows the product. “SAGE” can describe the broader family, while “SAGE Labs” identifies a particular browser release. A family can continue even when one interface or game configuration changes.
 
-## What happened to Faction Fleet?
+## Building Starbased
 
-The Starbased announcement planned to reduce passive Faction Fleet emissions by half at launch and later set older game-configuration economic variables to zero. A community publication then described the emissions as due to end on April 16, 2024.
+In March 2024, Star Atlas announced **Starbased** as an update to SAGE Labs. Its center of gravity was collective infrastructure: faction starbases, upkeep, Loyalty Points, Council Rank XP, epochs and changes to how rewards were distributed.
 
-Those are transition and future-tense statements. The archive has not yet recovered the parameter-change transactions or final reward block needed to prove that every planned deprecation step occurred exactly as announced.
+The planned April 2 launch did not proceed cleanly. Failed transactions and long transaction times during deployment led to a delay. That interruption belongs in the story because it shows the difference between a target date and an executed release.
 
-The narrow finding is stronger than a broad one:
+On April 4, official Discord stated that Starbased was live.
 
-- the original SCORE/Faction Fleet reward design is historical;
-- Faction Fleet emissions were announced for deprecation, with execution unverified;
-- the SCORE mainnet program was still listed in official technical documentation in April 2026, while its operational state remained unknown;
+Even then, “live” had limits. The first epoch carried zero ATLAS rewards, and players could earn Loyalty Points without yet depositing them. Software availability, feature activation and economic execution were three different milestones.
+
+By late 2025, official support documentation described Starbased with collaborative upkeep, local markets, mining, crafting and a faction-oriented reward structure. The documentation establishes an operating surface with a history beyond the initial launch announcement.
+
+## The end of passive emissions?
+
+Starbased was also presented as a transition away from the older Faction Fleet reward model.
+
+The March announcement planned to reduce passive Faction Fleet emissions at launch and later set economic variables on an older game configuration to zero. Aephia then wrote that emissions were due to end on April 16, 2024.
+
+Those records establish intent and contemporary expectation. They do not supply the final transaction or parameter history needed to prove that every step executed exactly as announced.
+
+The careful conclusion is therefore narrow:
+
+- the original SCORE reward design is historical;
+- Faction Fleet emissions were announced for deprecation, but final execution remains unverified;
+- the residual SCORE application and on-chain program have separate, unresolved operational states;
 - Starbased was stated live on April 4, 2024.
 
-Residual software or program existence must not be erased by the end of an emissions stream.
+These distinctions preserve the transition as it happened instead of substituting a single broad lifecycle label.
 
-## SAGE 3D and C4
+## A family that continued to branch
 
-SAGE 3D appears in a later Aephia retrospective that places a launch in mid-December 2023 and a SAGE Labs V2 release roughly a week afterward. This is useful community evidence, but the archive lacks an exact first-party release record. SAGE 3D therefore remains a distinct surface with an unresolved official date and current state.
+Other names appear around this history. A later Aephia retrospective reported a **SAGE 3D** release in December 2023, but the Library does not yet have an exact first-party launch record. In 2026, **C4** was documented as a Public Test Realm.
 
-C4 is documented as a Public Test Realm in 2026. PTR access establishes testing, not a production or mainnet release. Shared systems, ships or terminology do not prove that C4 is merely another name for SAGE Labs or that every SAGE roadmap element reached users.
+SAGE 3D and C4 are related to the broader strategy journey, but they require their own build histories. A community-reported release is not the same as a recovered official release record. A PTR is testing, not a mainnet or general release.
 
-## Why one “SAGE launch date” is misleading
+The SAGE family therefore has no single lifecycle label. SAGE Labs, Starbased, SAGE 3D and C4 can occupy different states at the same time.
 
-The historical record contains different dates for prototype disclosure, naming, SAGE Labs release, a community-reported SAGE 3D build, Starbased availability and C4 testing. Each answers a different question.
+## Why this transition matters
 
-As of July 23, 2026, the strongest supported lifecycle statements remain narrow: SAGE Labs was stated live on September 21, 2023; Starbased was stated live on April 4, 2024; SAGE 3D lacks an exact official release record; and C4 PTR is supported as testing. The family as a whole has no single lifecycle state.
+The journey from SCORE to Starbased mirrors the development of Star Atlas itself.
+
+SCORE gave ships an early economic purpose. S.C.R.E.A.M. made a larger strategy world visible. SAGE Labs released a browser game around fleets and production. Starbased made faction infrastructure and collective upkeep central to the loop.
+
+Each stage expanded what players could do. Earlier systems did not disappear on one clean date, and later releases did not deliver every feature previously discussed.
+
+Taken together, the releases trace a clear progression: players moved from maintaining individual fleets toward operating production chains and shared faction infrastructure.
 
 ## Explore the evidence
 
+<details>
+<summary>Sources and further research</summary>
+
 - [SCORE-to-Starbased Transition](../../knowledge/gameplay/SCORE-and-Faction-Fleet.md)
 - [SAGE Product-Family History](../../knowledge/gameplay/SAGE.md)
-- [Product Registry](../../knowledge/gameplay/Product-Registry.md)
+- [Star Atlas Product Registry](../../knowledge/gameplay/Product-Registry.md)
 - [ATLAS Token History](../../knowledge/economy/ATLAS-Token-History.md)
 
-This draft treats plans, deployments, product availability, feature activation and economic execution as separate milestones.
+The final Faction Fleet emissions shutdown, residual SCORE functionality and exact SAGE 3D release remain unresolved. No lifecycle state is assigned to the SAGE family as a whole.
+
+</details>
