@@ -11,17 +11,17 @@ audience: "Readers interested in the human community and culture around Star Atl
 
 # The People of Star Atlas
 
-Before the Galia Expanse became a place players could fully inhabit, people were already building a society around it.
+Players began organizing around Star Atlas before its larger game systems were available.
 
 They formed guilds for industries that did not yet exist. They published newspapers about a world still in development. They tracked markets, hosted shows, wrote governance proposals, organized competitions and argued over what the future of Star Atlas should be.
 
-The community did not wait for the universe to be finished. It began rehearsing life inside it.
+Their guilds, publications and events gave the developing project a social history of its own.
 
 ## A public square begins to form
 
 March 2021 is treated as the canonical beginning of the Star Atlas Discord community. By May of that year, official writing already described Town Halls as a tradition.
 
-These gathering places mattered because the available products were still narrow compared with the project’s ambition. Discord, marketplaces, newsletters, spreadsheets and broadcasts became the social infrastructure of a future game.
+These gathering places mattered because the available products were still narrow compared with the project’s ambition. Discord, marketplaces, newsletters, spreadsheets and broadcasts connected people between releases.
 
 Players used them to learn what was actually available, imagine what might come next and decide who they wanted to become when larger systems arrived. A community designed around a future world had to survive in the present one.
 
@@ -57,7 +57,7 @@ Aephia’s weekly newsletters created a long-running chronology from a guild per
 
 Creators played different roles. Some hosted broadcasts or made music. Others produced guides, economic analysis, videos or tools. Shaddix, for example, is recorded as a Star Atlas music creator, former moderator and Aephia member. Krigs appears not only as a journalist but as the operator of a community publication with its own institutional history.
 
-These perspectives are valuable precisely because they are situated. A guild publication can speak authoritatively about its own mission. A journalist can preserve a contemporary observation. Neither becomes an official product release record merely by writing about one.
+Each source speaks from a particular position. A guild publication can document its own mission. A journalist can preserve a contemporary observation. Neither becomes an official product release record by reporting on one.
 
 ## Names, roles and the passage of time
 
@@ -81,11 +81,11 @@ There is also a boundary. Conversations that drift into external politics, unrel
 
 ## More than an audience
 
-The people of Star Atlas became organizers, archivists, competitors, critics, journalists and institution builders.
+Star Atlas players became organizers, archivists, competitors, critics, journalists and institution builders.
 
 They kept a public conversation alive while products changed and roadmaps stretched. They created culture before many of the game systems designed to hold that culture existed. Their work shaped how releases were understood, how setbacks were remembered and how new players found their way in.
 
-A complete account will require better guild rosters, founding records, event results and dated role histories. But the larger truth is already visible: Star Atlas was never only something being built *for* a community. Much of its history was built *by* one.
+A complete account will require better guild rosters, founding records, event results and dated role histories. The surviving record already shows that community institutions shaped how Star Atlas was understood and experienced.
 
 ## Explore the evidence
 

@@ -27,8 +27,8 @@ Result: **PASS**
 - Draft entries: 7
 - In-review entries: 7
 - Published entries: 0
-- Narrative words: 13990
-- Local evidence links checked: 72
+- Narrative words: 14367
+- Local evidence links checked: 71
 - Prohibited path changes: 0
 - Risk classes: {"R2": 7, "R3": 7}
 

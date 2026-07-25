@@ -15,7 +15,7 @@ Long before players could maintain a starbase together, Star Atlas strategy bega
 
 That experience became known as **SCORE**, or **Faction Fleet**. It was limited compared with the worlds described in the Star Atlas vision, but it gave ships an active economic role and gave the community a daily relationship with a live product.
 
-What followed was not one seamless upgrade. Project S.C.R.E.A.M., SAGE Labs and Starbased represent different stages in a changing family of strategy games. Their names, interfaces and economic states overlap, but none is merely an alias for the others.
+Project S.C.R.E.A.M., SAGE Labs and Starbased followed as distinct stages in a changing family of strategy games. Their names, interfaces and economic states overlap, but none is an alias for the others.
 
 ## When fleets went to work
 
@@ -25,13 +25,13 @@ For many players, this was the first durable loop connecting owned ships to an o
 
 Several things existed inside the familiar “Faction Fleet” label. There was a browser-facing application, an on-chain program, a reward-emissions system and the resources that kept ships active. Those parts could change independently.
 
-This matters because ending a reward stream does not automatically erase an application or on-chain program. The history of SCORE cannot be summarized with one broad word such as “deprecated.”
+Ending a reward stream does not automatically erase an application or on-chain program. SCORE therefore needs separate lifecycle records for its interface, program and emissions.
 
 ## S.C.R.E.A.M. and the larger ambition
 
 In April 2022, Star Atlas invited the community to view a prototype called **Project S.C.R.E.A.M.** The announcement explicitly called it prototyping.
 
-The demonstration widened the horizon. Strategy would no longer mean only dispatching and resupplying fleets. The developing concept pointed toward mining, crafting, transport, territorial competition and a more active economic world.
+The demonstration moved beyond dispatching and resupplying fleets. It presented mining, crafting, transport, territorial competition and a more active economic world as the developing strategy direction.
 
 At Breakpoint in November 2022, the project appeared under a new umbrella name: **Star Atlas: Golden Era**, or **SAGE**. This was an important identity and roadmap moment, not a release. A public vision can show where a product is going while leaving the route—and the delivery dates—unsettled.
 
@@ -55,7 +55,7 @@ On April 4, official Discord stated that Starbased was live.
 
 Even then, “live” had limits. The first epoch carried zero ATLAS rewards, and players could earn Loyalty Points without yet depositing them. Software availability, feature activation and economic execution were three different milestones.
 
-By late 2025, official support documentation described a fuller Starbased experience with collaborative upkeep, local markets, mining, crafting and a faction-oriented reward structure. The update had become more than a launch announcement; it was a documented operating surface with its own history.
+By late 2025, official support documentation described Starbased with collaborative upkeep, local markets, mining, crafting and a faction-oriented reward structure. The documentation establishes an operating surface with a history beyond the initial launch announcement.
 
 ## The end of passive emissions?
 
@@ -72,7 +72,7 @@ The careful conclusion is therefore narrow:
 - the residual SCORE application and on-chain program have separate, unresolved operational states;
 - Starbased was stated live on April 4, 2024.
 
-This is not bureaucratic caution. It preserves the actual shape of the transition instead of replacing it with a cleaner story than the evidence supports.
+These distinctions preserve the transition as it happened instead of substituting a single broad lifecycle label.
 
 ## A family that continued to branch
 
@@ -88,9 +88,9 @@ The journey from SCORE to Starbased mirrors the development of Star Atlas itself
 
 SCORE gave ships an early economic purpose. S.C.R.E.A.M. made a larger strategy world visible. SAGE Labs released a browser game around fleets and production. Starbased made faction infrastructure and collective upkeep central to the loop.
 
-Each stage asked players to do more than the one before it, but progress did not erase the earlier systems neatly or deliver every future idea at once.
+Each stage expanded what players could do. Earlier systems did not disappear on one clean date, and later releases did not deliver every feature previously discussed.
 
-The history is most compelling when told as evolution rather than replacement: a community moving from maintaining fleets to imagining—and then beginning to build—the shared foundations of a galactic economy.
+Taken together, the releases trace a clear progression: players moved from maintaining individual fleets toward operating production chains and shared faction infrastructure.
 
 ## Explore the evidence
 

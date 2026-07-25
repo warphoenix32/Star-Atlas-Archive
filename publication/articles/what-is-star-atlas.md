@@ -11,13 +11,17 @@ audience: "New readers, players and researchers seeking an accessible introducti
 
 # What Is Star Atlas?
 
-Star Atlas is easiest to understand not as one game, but as a universe being approached from several directions at once.
+Star Atlas describes itself in direct terms:
 
-There is Galia, the fictional expanse where rival civilizations trade, explore and struggle over power. There are browser games, an Unreal Engine client, marketplaces and public test environments. There is an economy built around ships, resources and two tokens with very different purposes. There is a formal governance system. And around all of it is a community that began organizing, publishing and competing long before every promised part of the universe could be played.
+> “Star Atlas is a next-generation space exploration game and metaverse powered by blockchain technology and Unreal Engine 5.”
+>
+> — [Official Star Atlas Support](https://support.staratlas.com/hc/en-us/articles/47061399229331-What-is-Star-Atlas), updated December 8, 2025
 
-Those layers belong together, but they are not interchangeable. Lore is not a release note. A ship sold on a marketplace is not proof that every imagined use for it is available. A roadmap is not a delivery. A community vote can authorize an action without proving that the action happened.
+That definition provides the foundation. In practice, Star Atlas has developed as a connected group of games, economic systems, digital assets, governance institutions and community spaces set inside one science-fiction universe.
 
-The wonder of Star Atlas lives in the connections. Its history becomes clearer when the boundaries are kept intact.
+There is Galia, the fictional expanse where rival civilizations trade, explore and struggle over power. There are browser strategy games, an Unreal Engine client, marketplaces and public test environments. Ships and resources connect play to an economy built around two tokens with different purposes. A formal governance system gives POLIS holders a role in institutional decisions. Around all of it, players have organized guilds, built tools, published research and recorded the project’s development.
+
+These parts connect, but each carries its own evidence. Lore establishes the fictional setting. Product documentation establishes what a particular build can do. A roadmap states an intention, not a delivery. A marketplace listing establishes an asset and a market surface, not every future use imagined for that asset. A governance vote may authorize an action without proving payment or implementation.
 
 ## A universe called Galia
 
@@ -29,8 +33,6 @@ Star Atlas takes place in the **Galia Expanse**, a region shaped by migration, i
 
 Their conflict culminated in the Convergence War and a fragile postwar settlement represented by the Council of Peace. Yet Galia is much larger than its three great factions. Independent peoples, corporations, religious orders, stations, planets and dangerous frontiers give the setting depth beyond a three-sided map.
 
-The captured Star Atlas lore repository supplies the Library’s preferred names and classifications for this part of the universe. It is a strong canonical snapshot, not a claim that later stories can never expand or revise the record.
-
 ## A family of games and experiences
 
 Players have encountered Star Atlas through a succession of distinct products rather than one unchanging client.
@@ -41,20 +43,23 @@ The Unreal Engine Showroom offered a different kind of encounter: ships and envi
 
 Each has its own history. Public testing is real access, but it is not the same as a general release. A product can be live while a promised feature remains unavailable. A later build can succeed an earlier one without inheriting every claim ever made about the broader project.
 
-As of the official homepage snapshot captured on July 12, 2026, Star Atlas presented access paths for its Unreal client, SAGE Labs, Holosim and the Galactic Marketplace, while Fleet Command was still labeled “Coming soon.” That is a dated official view, not a guarantee of uninterrupted availability after the capture.
-
 ## Ships, resources and a player economy
 
 Ships are the most visible bridge between Star Atlas as a universe and Star Atlas as a playable economy. They carry fictional manufacturers and roles, marketplace identities, and game-specific statistics. Their meaning changes with the surface in which they appear.
 
 A base ship’s Starbased values should not be assumed to match its Holosim values. Future component systems may alter individual ships without rewriting the base record. Marketplace ownership, in-game utility and lore identity therefore remain related but separate questions.
 
-The same care applies to the tokens:
+Official Star Atlas publications define the two tokens by function:
 
-- **ATLAS** has been used across sales, rewards, marketplace activity, locking, gameplay costs and treasury terms.
-- **POLIS** is associated with governance, locking and POLIS Voting Power.
+> “ATLAS is a native utility token in the Star Atlas ecosystem.”
+>
+> “POLIS is a governance token that represents all-encompassing jurisdictional power in the metaverse.”
+>
+> — [Star Atlas, “Intergalactic Economy 101”](https://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7), August 26, 2021
 
-Neither token has one timeless function. SCORE emissions, SAGE resource loops, Holosim’s simulated economy and DAO voting belong to different systems. Understanding the economy means asking *which product, which date and which type of evidence* rather than treating every token reference as one continuous mechanic.
+In plain language, **ATLAS** is the ecosystem’s transactional and gameplay currency. Official descriptions connect it to buying assets, paying for goods and services, receiving value from in-game activity and supplying liquidity to game operations. **POLIS** carries governance rights. Locking POLIS produces POLIS Voting Power, or PVP, which weights participation in Star Atlas DAO proposals.
+
+The distinction remains important as the ecosystem changes. SCORE emissions, SAGE resource loops, Holosim’s simulated economy and DAO voting belong to different systems. A token’s use in one product or program does not establish the same use everywhere else. Readers should ask which product, date and institutional mechanism a token claim describes.
 
 ## Institutions around the universe
 
@@ -74,13 +79,13 @@ Guilds and DACs formed identities, trained members, built tools and imagined fut
 
 Discord preserved another layer: questions, explanations, cooperation, rivalry and disagreement unfolding in real time. The historically useful conversations are the ones rooted in Star Atlas—its products, organizations, guilds and community actions. Off-topic politics and unrelated personal attacks are not part of the Library’s account of the game.
 
-This community is not merely an audience for a developer’s roadmap. It is one of the institutions through which Star Atlas has been interpreted, remembered and kept alive.
+The community became an active participant in the project’s history. Its members interpreted announcements, tested systems, documented change and preserved events that official product pages alone could not capture.
 
 ## What Star Atlas is today
 
-As of this review, Star Atlas is best described as an active, multi-product science-fiction ecosystem with a developed fictional setting, playable browser and Unreal experiences, on-chain programs and assets, formal governance institutions, and a long-running player community.
+Star Atlas is an active, multi-product science-fiction ecosystem with a developed fictional setting, playable browser and Unreal experiences, on-chain programs and assets, formal governance institutions, and a long-running player community.
 
-That description is broader than “a game,” but narrower than every ambition ever announced. It leaves room for wonder without pretending that vision, testing, release and completion are the same thing.
+That description is broader than a single game client and narrower than every ambition ever announced. It recognizes what players can explore while keeping vision, testing, release and completion separate.
 
 The simplest place to begin is wherever your curiosity points: the worlds of Galia, the ships, the strategy games, the economy, the community or the long history of how all these pieces came to exist.
 
@@ -90,12 +95,14 @@ The simplest place to begin is wherever your curiosity points: the worlds of Gal
 <summary>Sources and further research</summary>
 
 - [Star Atlas: Identity and Scope](../../knowledge/Star-Atlas-Identity-and-Scope.md)
-- [Official Current-State Snapshot — July 12, 2026](../../knowledge/gameplay/Official-Current-State-Snapshot-2026-07-12.md)
+- [Official Star Atlas Support: What is Star Atlas?](https://support.staratlas.com/hc/en-us/articles/47061399229331-What-is-Star-Atlas)
+- [Official Star Atlas: Intergalactic Economy 101](https://medium.com/star-atlas/intergalactic-economy-real-world-atlas-polis-utility-governance-f42d1889aea7)
+- [Official Star Atlas: The Star Atlas DAO — The Game of POLIS](https://medium.com/star-atlas/the-star-atlas-dao-the-game-of-polis-fd3798aa6ebe)
 - [Star Atlas Product Registry](../../knowledge/gameplay/Product-Registry.md)
 - [The Galia Expanse](../../knowledge/lore/Galia-Expanse.md)
 - [Institutional Overview](../../knowledge/organizations/Institutional-Overview.md)
 - [The People of Star Atlas](people-of-star-atlas.md)
 
-The official access and current-state descriptions are date-scoped. Individual products, institutions and economic systems retain their narrower evidence limits.
+Official definitions are quoted with their publication dates because product and token descriptions can change. Individual products, institutions and economic systems retain their narrower evidence limits.
 
 </details>

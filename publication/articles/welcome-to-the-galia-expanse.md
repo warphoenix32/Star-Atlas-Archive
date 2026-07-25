@@ -3,7 +3,7 @@ publication_id: PUB-010
 slug: welcome-to-the-galia-expanse
 title: "Welcome to the Galia Expanse"
 seo_title: "The Galia Expanse: A Guide to the Star Atlas Universe"
-seo_description: "Enter the Galia Expanse, meet its great factions and peoples, and discover the war and fragile peace that shape Star Atlas lore."
+seo_description: "A guide to the regions, risk zones, peoples, landmarks, war and postwar order that shape the Star Atlas universe."
 status: IN_REVIEW
 as_of: 2026-07-23
 audience: "New and returning readers exploring the Star Atlas universe"
@@ -11,89 +11,69 @@ audience: "New and returning readers exploring the Star Atlas universe"
 
 # Welcome to the Galia Expanse
 
-The Galia Expanse is a place where a trade route can become a frontier, a resource can begin a war and a ship can carry the memory of an entire civilization.
+The **Galia Expanse** is the principal setting of Star Atlas. Its star systems hold settled worlds, faction capitals, industrial corridors, research stations, sacred places and frontiers where political authority weakens with distance.
 
-It is the principal setting of Star Atlas: a vast region of star systems, worlds, stations, factional territories and dangerous spaces beyond the easy reach of law. Its great powers are familiar—MUD, ONI and Ustur—but Galia is larger than their borders and older than their peace.
+Three major factions—MUD, ONI and Ustur—control much of the settled order. Their territories provide the simplest map of Galia, but they do not account for every people, corporation, faith, settlement or contested region. The Expanse extends well beyond the faction capitals and beyond the peace those powers eventually negotiated.
 
-To enter the Expanse is to enter a history shaped by survival, cooperation, awakening and the terrible consequences of treating life as a resource.
+For a new reader, Galia works best as a place before it becomes a catalogue of names. Distance affects safety. Resources shape settlement. Trade routes connect civilizations that often distrust one another. Old wars remain visible in borders, institutions and abandoned worlds.
 
-## A galaxy measured by danger
+## Reading the map
 
-Galia is commonly described through low-, medium- and high-risk space.
+The geography of Galia operates at several scales. Regions contain star systems; star systems contain planets and other locations; those places hold resources, settlements and institutions. A detailed Galia atlas preserved in the Library records dozens of regions and hundreds of systems, giving the setting enough scale for local histories to develop far from the major capitals.
 
-These zones can guide gameplay, but they also tell a political story. Low-risk space implies stronger factional control and safer movement. Medium-risk space carries greater uncertainty and competition. High-risk space lies beyond the comfort of the settled order, where opportunity and danger grow together.
+Maps of the Expanse should not be read as permanent borders. A named world can remain part of the setting while its resources, controlling faction or strategic importance changes. Colonies can break away. Trade routes can shift. A system that appears quiet in one period may become central after a discovery or conflict.
 
-The captured Galia atlas organizes the setting from regions to star systems, planets and resources. At that preserved snapshot it records 69 regions and 945 star systems. Those numbers offer a sense of scale, not a permanent cosmic census. Later maps and stories may change them.
+This layered geography supports two kinds of history at once. The first follows civilizations across centuries of migration, settlement and war. The second follows particular places: a planet, station, harbor, anomaly or passage whose importance may rise and fall inside that larger story.
 
-A world can remain canonical even when its resources, borders or controlling faction change. Geography is part of history, not a frozen spreadsheet.
+## Risk zones and political reach
 
-## Humanity and the destiny of MUD
+Star Atlas commonly divides space into low-, medium- and high-risk zones. These categories describe gameplay danger, but they also reveal how far institutions can project power.
 
-**Manus Ultima Divina**, or **MUD**, carries humanity’s great factional story into Galia.
+Low-risk space lies closest to the security of the major factions. Patrols, infrastructure and established authority make travel and commerce more predictable. These regions include the homelands and core settlements where MUD, ONI and Ustur exercise their strongest control.
 
-Its history begins with Earth facing destruction and a movement led by Vincenzo Assis Gotti building the Mothership Serene. Humanity survived by concentrating extraordinary authority, resources and belief around an escape.
+Medium-risk space forms a broad frontier between the faction cores and the most dangerous reaches. Independent governments, commercial enclaves, disputed claims and faction-aligned communities operate there with varying degrees of protection. A place can cooperate with a major faction without becoming part of it.
 
-That founding ordeal became the source of MUD’s confidence and its danger. The faction developed institutions of faith, military power, science, commerce and government. Its belief in human destiny could inspire invention and collective action; it could also become a justification for dominion.
+High-risk space lies beyond dependable faction security. It attracts explorers, refugees, hidden powers and groups seeking freedom from the settled order. The reduced reach of law does not mean that high-risk space is empty. It means that survival depends more heavily on local strength, knowledge and alliances.
 
-MUD is not the human species itself. It is one civilization built by humans after Earth—a specific answer to catastrophe, power and purpose.
+## Civilizations and borders
 
-## ONI and the politics of cooperation
+MUD, ONI and Ustur remain the dominant political reference points. Each entered Galia through a different history, and each built a different institutional order.
 
-The **ONI Consortium** emerged from another kind of survival.
+MUD carried a branch of humanity from Earth aboard the Mothership Serene. ONI joined several distinct peoples in an alliance forged during the Convergence War. The Ustur built their civilization after awakening on Ioki without a recovered account of their creators. Their deeper histories belong in [The Three Factions of Star Atlas](three-factions-of-star-atlas.md), where their institutions, internal divisions and wartime experiences can be examined without reducing this guide to three biographies.
 
-Its identity rests on an alliance among distinct peoples, especially the Sogmian, Punaab, Photoli and Mierese. The coalition did not erase their cultures. It made their differences a source of shared strength.
+Faction territory does not define every resident. Humans are not synonymous with MUD, and ONI’s member peoples retain identities that predate the consortium. The word Ustur can refer to both a people and a political civilization, but those are still separate concepts. Travelers, companies, religious orders and independent communities cross these political boundaries.
 
-ONI’s origin belongs to the crisis of the Convergence War. Sogmian resistance to the exploitation of the Tufa brought devastating retaliation and exile. In dangerous space, several peoples learned that remaining alone could be fatal.
+## Iris and the Convergence War
 
-The consortium became a political experiment: military discipline, trade, ancient knowledge and mobile cultural networks joined without becoming one nation. Cooperation is ONI’s ideal, and the constant work required to preserve that cooperation is its central tension.
+The **Convergence War** is the central political catastrophe in Galia’s recorded history. Its events connect the planet Iris, an extraordinary source of energy, with the exploitation of the **Tufa**, metagenic beings caught in the struggle for control.
 
-## The Ustur and the mystery of origin
+Competition around Iris drew the major powers and smaller peoples into escalating conflict. Sogmian resistance to the treatment of the Tufa brought assassination, devastation and exile. MUD expansion met organized resistance. The Ustur abandoned the assumption that detachment alone could protect peace. The crisis also helped create the coalition that became ONI.
 
-The **Ustur** awakened on Ioki without a complete memory of who created them or what preceded their emergence.
+The surviving lore sources differ in some details of sequence and emphasis. They agree on the larger consequence: the war changed the factions, destroyed or displaced communities and demonstrated that no single power could impose a stable order without unacceptable cost.
 
-That absence shaped their civilization. Rather than grounding identity in recovered ancestry, the Ustur developed the Path of Enlightenment, a disciplined approach to experience and the cultivation of the individual core.
-
-Their advanced industry and technology do not stand apart from spiritual life. Production, calculation and exploration can become ways of encountering reality and developing the self.
-
-Ustur names both a people and a factional civilization. The shared name reflects their history, but the two must remain distinct. A government does not define every individual, and a species is not an alias for its institutions.
-
-## Iris, the Tufa and the Convergence War
-
-At the center of Galia’s political memory lies the **Convergence War**.
-
-The captured narrative connects the conflict to Iris, its extraordinary energy and the exploitation of the **Tufa**, metagenic beings whose existence became entangled with competing ambitions. Sogmian resistance, MUD expansion, ONI’s formation and a transformed Ustur foreign policy all belong to the war’s wider story.
-
-The war matters because it reveals the moral fault line running through the Expanse. Exploration and extraction can become conquest when powerful civilizations treat unfamiliar life as material to be owned.
-
-Surviving versions of the source diverge in some wording and chronology. The strongest through-line is clear even where every triggering act is not: the pursuit of power around Iris devastated peoples, remade alliances and forced the great factions to confront the cost of unchecked rivalry.
+Iris therefore occupies more than one role in the setting. It is a place, a source of power and a reminder that exploration can become conquest when sentient life is treated as property.
 
 ## The Council of Peace
 
-The postwar settlement created the **Council of Peace**, an institution through which MUD, ONI and Ustur attempted to manage their shared order.
+The war ended with MUD, ONI and Ustur establishing the **Council of Peace**. The Council provides a shared framework for powers that remain sovereign, armed and politically distinct.
 
-The Council is not a unified galactic government. It overlays sovereign factions that retain their own fleets, economies and ambitions. Its rotating functions are designed to prevent permanent control by any one power.
+Its rotating structure is designed to prevent one faction from holding permanent control over the common order. The arrangement did not eliminate rivalry or settle every territorial question. It created institutions through which former enemies could manage disputes, coordinate shared functions and reduce the risk of another general war.
 
-That makes the Council a symbol of both hope and fragility. It exists because the factions need one another, but it does not erase the reasons they mistrust one another.
+The fictional Council of Peace is unrelated to the real-world Star Atlas Council elected through DAO governance. They share a word, not an institution.
 
-This Council belongs to the fiction. It is separate from the real-world Star Atlas Council elected through DAO governance.
+## Beyond the faction capitals
 
-## The people beyond the banners
+Galia contains societies and places that cannot be understood as extensions of the three major factions. The Tufa stand at the center of the war’s moral history. Crumon, Oxir and other peoples enter the record through shorter accounts. Independent corporations manufacture ships, control trade or establish settlements. Religious orders, academies, criminal networks and local governments pursue their own interests.
 
-Galia includes more than the members of its great factions.
+Named locations carry equally distinct histories. Ioki is both the Ustur homeworld and the site of the Pool of Reincarnation. The Exodus Sector became the center of MUD settlement. ONI’s territory reflects the continued identities of its member peoples. Medium-risk passages and independent harbors often show how commerce, migration and local power complicate the faction map.
 
-The Tufa occupy a central place in the moral history of the war. Crumon, Oxir and other peoples appear in records of varying depth. Independent corporations, religious orders, criminal networks and political movements shape life beyond the capitals of MUD, ONI and Ustur.
+Some subjects have centuries of surviving narrative. Others have only a name, a location or a short description. A thin record does not make a people or place unimportant; it means later stories have room to explain what the current account leaves open.
 
-Some have pages rich in theology and centuries of history. Others survive through only a name, home region or short description. That unevenness should invite discovery, not invention.
+## Where to begin
 
-The peoples with the shortest surviving records are not necessarily the least important. They are the parts of Galia whose stories remain closest to the dark.
+Readers who want political history can begin with the three factions, the Convergence War and the Council of Peace. Those interested in cultures can follow the separate histories of humans, Ustur, Sogmian, Punaab, Photoli, Mierese and Tufa. Readers drawn to exploration can move from regions to individual systems, planets and landmarks.
 
-## A living canon
-
-The Library follows the captured ATMTA-affiliated lore repository for preferred names and classifications. That source is canonical for the snapshot it preserves, while later official lore may extend or revise the universe.
-
-Older sources keep their historical language. A renamed place or reclassified organization does not lose the trail of what earlier readers knew it as.
-
-This is the best way to explore Galia: as a living setting with memory. Its maps can grow, its institutions can change and its mysteries can deepen without erasing the stories that came before.
+Galia rewards that movement from the broad map to the particular place. Its scale supplies the sense of wonder; its local histories give that scale meaning.
 
 ## Explore the evidence
 
@@ -101,13 +81,12 @@ This is the best way to explore Galia: as a living setting with memory. Its maps
 <summary>Sources and further research</summary>
 
 - [The Galia Expanse](../../knowledge/lore/Galia-Expanse.md)
-- [Manus Ultima Divina](../../knowledge/lore/Manus-Ultima-Divina.md)
-- [ONI Consortium](../../knowledge/lore/ONI-Consortium.md)
-- [Ustur](../../knowledge/lore/Ustur.md)
+- [The Three Factions of Star Atlas](three-factions-of-star-atlas.md)
+- [Peoples of Galia](../../knowledge/lore/Peoples-of-Galia.md)
 - [The Convergence War](../../knowledge/lore/Convergence-War.md)
 - [Council of Peace](../../knowledge/lore/Council-of-Peace.md)
 - [Star Atlas Canon Registry](../../knowledge/lore/Canon-Registry.md)
 
-Map totals, officeholders and some chronology remain tied to a historical source snapshot. Two known source mirrors diverge materially and are not silently reconciled.
+Map totals, territorial control, officeholders and some chronology remain tied to a historical source snapshot. Two known source mirrors diverge materially and are not silently reconciled.
 
 </details>

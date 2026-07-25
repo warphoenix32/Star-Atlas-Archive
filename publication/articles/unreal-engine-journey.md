@@ -17,7 +17,7 @@ Ships that had been discussed as assets, manufacturers and future instruments of
 
 That moment mattered. It also came with a precise label: **pre-alpha**.
 
-The history of Star Atlas in Unreal Engine is a story of real public access, named revisions and expanding experiments—without a single date on which the entire promised universe suddenly became complete.
+The Unreal record contains real public access, named revisions and expanding experiments. No single release delivered the entire universe described in the project’s broader vision.
 
 ## Opening the Showroom
 
@@ -33,7 +33,7 @@ The distinction is not a technical footnote. It explains why two apparently oppo
 
 The Showroom changed the relationship between players and Star Atlas ships.
 
-On a marketplace, a ship appears through images, specifications, price and ownership. In lore, it belongs to a manufacturer, faction or history. Inside an Unreal environment, it becomes a place with scale, surfaces and atmosphere.
+On a marketplace, a ship appears through images, specifications, price and ownership. Lore gives it a manufacturer, faction and history. The Unreal environment adds physical scale, explorable surfaces and atmosphere.
 
 That shift helped make the project tangible. A player could understand the difference between reading that a ship was large and standing beneath it. The Showroom turned design language into spatial experience.
 
@@ -75,13 +75,13 @@ This spoken history is most valuable alongside—not instead of—release announ
 
 ## Why the journey matters
 
-The Unreal history of Star Atlas is not only a checklist of features. It marks the project’s attempt to cross a difficult threshold: from a universe people could imagine and trade around into a place they could enter.
+The Unreal releases document Star Atlas moving from cinematic presentation and asset ownership toward a space that players could enter.
 
 The Showroom made that threshold visible. R2.1 demonstrated continued revision. Later access paths and C4 testing show a development story that continued to branch.
 
 As of this review, the strongest dated findings are clear: the pre-alpha Showroom was released in September 2022; R2.1 was announced in June 2023; an official Unreal access path was present in July 2026; and C4 was documented as testing rather than general release.
 
-What remains incomplete is the connective tissue—a full build history showing which systems appeared, changed, moved or disappeared at every stage. Until that ledger exists, wonder and precision belong together: visitors can appreciate what the Showroom opened without turning every horizon beyond it into a delivered feature.
+A complete build history still needs to show which systems appeared, changed, moved or disappeared at every stage. Until that ledger exists, the Showroom’s documented achievements should stand on their own without absorbing every later roadmap promise.
 
 ## Explore the evidence
 

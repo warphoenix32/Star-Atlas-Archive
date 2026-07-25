@@ -11,79 +11,100 @@ audience: "Readers exploring the civilizations and political history of the Star
 
 # The Three Factions of Star Atlas
 
-Every traveler entering the Galia Expanse meets the same three names: **MUD**, **ONI** and **Ustur**.
+Three major powers define the settled political order of the Galia Expanse: **Manus Ultima Divina**, the **ONI Consortium** and the **Ustur**.
 
-They are presented as the major powers of Star Atlas, but the familiar faction symbols hide three very different answers to the same question: *How does a civilization survive catastrophe and decide what it should become afterward?*
+Each reached power by a different route. MUD organized a human exodus from Earth. ONI joined four peoples after war and exile made isolation untenable. The Ustur awakened without a remembered origin, then built a civilization around disciplined self-development.
 
-MUD escaped a dying Earth and turned survival into destiny. ONI was forged when several peoples discovered that isolation could mean extinction. The Ustur awakened without a remembered origin and built a civilization around the deliberate cultivation of the self.
+These are political civilizations, not personality types or simple player colors. Their histories contain governments, faiths, companies, military institutions and internal opposition. Their conflict shaped Galia; the institutions they created afterward still carry the memory of that conflict.
 
-Their differences drove war. Their need to keep living together produced an uneasy peace.
-
-## MUD: humanity remade by survival
+## MUD: Ahr, Earth and the human exodus
 
 **Manus Ultima Divina**, commonly called **MUD**, is the principal human faction of Galia.
 
-Its founding story begins on Earth around 2120, with humanity facing a civilization-ending meteor and lacking the momentum to escape. Vincenzo Assis Gotti organized the effort that produced the Mothership Serene and carried part of humanity into the stars.
+Its founding story begins on Earth around 2120. A civilization-ending meteor was approaching a prosperous but stagnant planet. Humanity lacked the political urgency and technological momentum needed to escape.
 
-MUD remembers this escape in religious as well as technological terms. Gotti’s warning is understood within the faction as divine revelation, while the wider lore leaves room for a more complicated encounter. That layered perspective matters: what MUD believes about itself is part of its political power.
+The intervention came from **Ahr**, a Photoli traveler exploring far from Galia. Ahr met **Vincenzo Assis Gotti**, revealed the approaching disaster and pushed him to lead a rapid program of innovation and unification. MUD theology remembers Ahr as a divine being who chose Gotti to save humanity. **ECOS**, the Earth Conscious Ontological Society, identified him as an alien and condemned the program as manipulation.
 
-After settlement, MUD became more than an exodus fleet. Its civilization developed competing institutions associated with faith, military command, science, commerce and political deliberation. The Gotti legacy offered continuity, but it also concentrated authority.
+That dispute became the first great fracture in MUD history. Gotti’s movement consumed Earth’s resources to build the **Mothership Serene**. Followers saw necessary sacrifice and salvation; ECOS saw the destruction of humanity’s home under an alien-inspired mandate.
 
-The result is a faction built around contradiction. MUD’s conviction in humanity’s purpose made extraordinary coordination possible. The same conviction could justify expansion, extraction and control. Its story is not simply “the human faction.” It is the story of what one branch of humanity became after treating survival as proof of destiny.
+The Serene departed around 2140. Ahr traveled with the fleet and guided it to the Exodus Sector in Galia. The lore places his final appearance around 2400, when he left with a promise to return after humanity found its true home. The Serene then became the center of a new human civilization.
 
-## ONI: an alliance that refused extinction
+## MUD institutions and expansion
+
+MUD developed several centers of power rather than a single undivided government:
+
+- the **Gotti dynasty** claimed inherited authority through the founding revelation;
+- the **Church** guarded the religious interpretation of Ahr and the exodus;
+- the **Pearce Council** directed military power;
+- **Scientia** pursued research and technical development;
+- the **Synod** exercised commercial influence; and
+- the **Senate** represented political deliberation under a system that often constrained it.
+
+These institutions competed over the direction of human civilization. Faith supported the dynasty. Military security could reinforce expansion. Science and commerce gave MUD influence beyond its borders. The Senate supplied a forum for restraint without necessarily controlling the other powers.
+
+MUD established colonies and extended its commercial and political reach across Galia. Its founding experience made rapid coordination and technological achievement possible, but it also normalized concentrated authority and large-scale extraction. During the Convergence War, that expansion met resistance and eventually forced MUD to retreat from contested territory.
+
+The human species remains larger than MUD. ECOS and other human communities show that one faction never represented every human political or moral choice.
+
+## ONI: alliance after exile
 
 The **ONI Consortium** is not a species. It is a coalition.
 
-Four peoples stand at the center of its identity: the **Sogmian**, **Punaab**, **Photoli** and **Mierese**. Each brought different traditions and strengths into the alliance. Sogmian discipline, Punaab commercial networks, Photoli knowledge and Mierese mobility did not merge into one culture; they became the basis for cooperation among distinct societies.
+Four peoples stand at the center of its identity: the **Sogmian**, **Punaab**, **Photoli** and **Mierese**. Each retained its own history and institutions. ONI coordinated their strengths without turning them into a single species or culture.
 
-ONI’s formation is inseparable from the Convergence War. Sogmian intervention on behalf of the exploited Tufa brought devastating retaliation, the assassination of their leader and the near-destruction of their society. Survivors withdrew into dangerous space, where alliance became a practical answer to vulnerability.
+The alliance grew out of the Convergence War. Sogmian forces intervened to protect the Tufa from exploitation. Their leader, **Sov Arei Paizul**, was assassinated, and the surviving Sogmian population withdrew into high-risk space under **Bekalu of House Xictus**.
 
-That origin gives ONI its defining tension. Cooperation is essential, but unity can never be taken for granted. Trade and openness coexist with intelligence work and secrecy. Honor traditions coexist with the compromises required to keep a diverse coalition together.
+Exile turned cooperation into a survival strategy. Sogmian military discipline provided defense. Punaab trade networks supplied food, fuel and finance. Photoli knowledge contributed technology. Mierese mobility and intelligence helped the refugees avoid destruction.
 
-ONI’s political project is therefore renewed every time its peoples decide that shared power remains safer and more meaningful than separation.
+Their combined effort produced **The Last Stand**, a Titan-class vessel and fortified refuge. The preserved history describes the ship’s appearance as the turning point that forced the wider powers toward negotiation. ONI used the military power created in desperation to secure a political settlement rather than attempt conquest.
 
-## Ustur: a civilization awakened without a past
+## Four voices inside one consortium
 
-**Ustur** names both a people and the political civilization organized by them. The two are closely connected, but they are not the same entity.
+ONI’s government reflects the fact that no single member people owns the alliance. Sogmian institutions provide a military backbone. Punaab kingdoms and commercial networks drive trade. The Photoli contribute knowledge while retaining a decentralized society and purposes that other members do not always understand. Mierese institutions preserve history, movement and intelligence capabilities.
 
-The Ustur story begins on Ioki, where organic-synthetic beings emerged from the Pool of Reincarnation without a complete memory of their creators or what came before. For another civilization, missing origins might be only a mystery. For the Ustur, it became the foundation of philosophy, education and government.
+That diversity produces recurring disputes. Sogmian honor can conflict with covert methods. Open commerce exists beside secret intelligence operations. Each people must balance its own leadership and obligations against consortium-wide decisions. The central station’s changing architecture symbolizes rotating influence, but political rotation does not remove deeper disagreements.
 
-Their society developed around the **Path of Enlightenment**, a disciplined process of cultivating experience and the individual core. Advanced technology, manufacturing and calculation are not presented as enemies of spiritual life. They are among the tools through which an Ustur can encounter reality and grow.
+ONI joined MUD and Ustur in founding the Council of Peace. That role gave the consortium a permanent place in the postwar order, but it did not dissolve the separate governments and cultures that sustain it.
 
-This does not make the Ustur a perfectly unified collective. Their lore contains internal schools, disagreements and schisms. A civilization devoted to systematic self-development can still disagree sharply over what enlightenment requires.
+## Ustur: awakening without a recovered past
 
-The Ustur entered the wider politics of Galia as a formidable industrial and technological power. The Convergence War changed their relationship with the outside world, challenging the idea that peace could be preserved through detachment alone.
+**Ustur** names both an organic-synthetic people and the political civilization organized by them. The two remain distinct even though they share a name.
 
-## Three powers, many peoples
+The Ustur emerged from the **Pool of Reincarnation** on Ioki around 2380. They awakened without a complete memory of their creators, the purpose of the Pool or the history that preceded them. **Caven.eldr**, remembered as Mother Caven, became a central figure in the early civilization.
 
-The faction map is useful, but it can also mislead.
+Rather than build identity around a recovered ancestry, the Ustur developed the **Path of Enlightenment**. The Path organizes spiritual and psychic development through stages tied to experience and the cultivation of an individual core. It shapes education, status and leadership.
 
-The human species is not an alias for MUD. ONI does not erase the separate histories of its member peoples. The Ustur people can be discussed apart from the institutions of the Ustur faction. Individuals, companies and communities can exist at the edge of—or outside—the great powers.
+Technology and manufacturing fit inside this philosophy. Craft, calculation, exploration and material creation can serve the development of the self. **VZUS Enterprises** became a leading manufacturer and a major part of Ustur industrial power, while research and infrastructure projects connected the faction to the wider Expanse.
 
-Galia also contains the Tufa, Crumon, Oxir and other peoples whose surviving histories vary greatly in depth. Faction identity is one layer of the setting, not the whole of it.
+The Ustur are not a mechanical collective with one mind. Their schools interpret the Path differently, and their history contains secession, dissent and political disagreement.
 
-This distinction makes the universe feel inhabited. A faction is a political civilization with institutions and interests, not a personality assigned to everyone under its banner.
+## War, the Anfoil schism and public responsibility
 
-## From war to a fragile peace
+Before the Convergence War, Ustur foreign policy could treat disciplined distance as a path to peace. The conflict demonstrated that isolation did not protect Galia from conquest or mass suffering. Ustur participation helped move the war toward settlement and made the faction a founder of the Council of Peace.
 
-MUD, ONI and Ustur were transformed by the **Convergence War**, the central political catastrophe in the captured lore.
+Postwar history did not produce complete unity. **Ponel.eldr** led the **Anfoil** breakaway, rejecting central elements of the established Path and severing his followers from the Elder Conscience. **Chior.eldr** moved in the opposite direction, pursuing diplomacy, research and cross-species cooperation. Their divergence turned a philosophical dispute into a political schism.
 
-The conflict connected resource competition around Iris, the exploitation of the Tufa, Sogmian resistance, MUD expansion, ONI’s formation and a changed Ustur foreign policy. Each power learned a different lesson, but none emerged able to impose a permanent order alone.
+Ustur industry also expanded after the war. VZUS manufacturing, the Starpath network and the faction’s legal role in the Council connected a civilization rooted on Ioki to institutions across Galia. These programs and companies remain separate entities; they support Ustur power without becoming aliases for the faction.
 
-Their settlement created the **Council of Peace**, a shared institution designed to distribute and rotate common responsibilities. The Council did not dissolve the factions or end their rivalries. It created a structure through which rivals could attempt to manage them.
+## Faction, species and citizenship
 
-That is why the peace remains narratively interesting. Galia is not united. It is held together by powers that remember what war cost and still disagree about what the future should be.
+The faction map simplifies a complex population:
 
-## Choosing a faction
+- **MUD** is a human political civilization, not the human species.
+- **ONI** is a consortium whose Sogmian, Punaab, Photoli and Mierese members retain separate identities.
+- **Ustur** can name a people or a faction, so the intended entity must be clear.
 
-For players, faction choice has always carried the promise of belonging to one of these larger histories.
+Individuals, companies and communities can live under faction authority, cooperate with a faction or reject it. The Tufa, Crumon, Oxir and other peoples also belong to Galia’s history without fitting neatly inside the three major powers.
 
-MUD offers the drama of human destiny, ambition and concentrated institutions. ONI offers a coalition whose strength comes from difference and negotiated trust. Ustur offers a civilization where technology, memory and spiritual development are inseparable.
+For players, faction choice connects identity to one of these histories. MUD carries the legacy of humanity’s exodus and the institutions built around it. ONI represents an alliance whose members survived through cooperation. Ustur links technological civilization to the unresolved problem of memory and selfhood.
 
-None is morally simple. Each contains ideals, injuries, institutions and contradictions. Their stories invite identification without requiring uncritical loyalty.
+## The peace they built together
 
-The three factions are the great pillars of the Galia Expanse. The universe becomes richer when readers look past the banners and ask what each civilization remembers, fears and hopes to become.
+The Convergence War tied the three histories together. Conflict over Iris and the treatment of the Tufa exposed the costs of expansion, divided older political orders and created new alliances. None of the major powers could establish lasting control alone.
+
+MUD, ONI and Ustur responded by founding the **Council of Peace**. Its rotating structure distributed common functions among former enemies without merging their governments. The Council created a way to manage rivalry; it did not end rivalry or erase the causes of war.
+
+The factions therefore enter the later history of Galia as both sovereign powers and reluctant partners. Their institutions preserve different accounts of survival, authority and responsibility. The peace depends on their continued decision to settle disputes within a shared order.
 
 ## Explore the evidence
 
@@ -97,6 +118,6 @@ The three factions are the great pillars of the Galia Expanse. The universe beco
 - [The Convergence War](../../knowledge/lore/Convergence-War.md)
 - [Council of Peace](../../knowledge/lore/Council-of-Peace.md)
 
-Names and faction classifications follow the captured ATMTA-affiliated lore repository. Leadership, territorial and comparative-power claims remain tied to that historical snapshot unless later official lore confirms them.
+This article follows the captured lore sources for faction names, institutions and narrative chronology. Approximate dates, leadership, territorial and comparative-power claims remain tied to that historical source snapshot unless later official lore confirms them.
 
 </details>

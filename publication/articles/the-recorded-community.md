@@ -11,11 +11,11 @@ audience: "Readers exploring the recorded institutional and community memory of 
 
 # Atlas Brew and the Town Hall Tradition
 
-For much of Star Atlas history, Wednesday and Friday meant more than days on a calendar. They were invitations to gather.
+For much of Star Atlas history, Town Halls on Fridays and Atlas Brew sessions during the week gave the community a recurring schedule for discussion.
 
 Town Halls brought the project and its community into the same room. Atlas Brew created a weekly space for questions, theorycrafting and long-form discussion. Recordings carried those conversations beyond the live audience, allowing people to return months or years later to hear how a product, controversy or ambition was understood at the time.
 
-Written announcements tell the official story in carefully chosen lines. These gatherings preserved the pauses, questions and uncertainty around it.
+Written announcements recorded official positions in compact form. The live gatherings preserved questions, explanations, disagreement and uncertainty around them.
 
 ## The Town Hall comes first
 
@@ -31,7 +31,7 @@ That incompleteness is part of the history. A scheduled event is not proof that 
 
 By 2022, **Atlas Brew** had become an official team-hosted community discussion. Contemporary material described a weekly live Discord audio chat where products, governance, technology and community questions could be discussed in a more conversational setting.
 
-Atlas Brew was not simply another announcement channel. Its value came from duration. A release could be explained rather than merely named. A guest could answer follow-up questions. Players could hear uncertainty, enthusiasm and disagreement develop in real time.
+Atlas Brew allowed more time than an announcement channel. A release could be explained rather than merely named, guests could answer follow-up questions, and players could hear uncertainty or disagreement develop in real time.
 
 Official newsletters traced groups of episodes through 2022 and 2023. A retrospective described 44 theorycrafting sessions without a missed week since the event began. Those records reveal cadence and institutional importance even though they do not form a complete episode chronology.
 
@@ -77,11 +77,11 @@ Event organizer, host, guest, recording publisher and replay publisher are separ
 
 ## A tradition of public memory
 
-The deepest importance of Atlas Brew and Town Halls is cultural.
+Atlas Brew and Town Halls became part of the project’s public culture.
 
-They gave Star Atlas a recurring place to assemble between releases. They allowed official plans to meet community questions. They preserved enthusiasm without erasing doubt. And they created a record in which the history of the project could be heard, not only reconstructed from polished announcements.
+They gave Star Atlas a recurring place to assemble between releases. Official plans met community questions there, and the recordings preserved both enthusiasm and doubt. The project’s history can therefore be heard in conversation as well as reconstructed from published announcements.
 
-The surviving record remains incomplete. Some live-event dates, episode identities and speaker rosters are still missing. But the tradition itself is unmistakable: Star Atlas was not only announced to its community. Week after week, it was discussed with them.
+Some live-event dates, episode identities and speaker rosters are still missing. The surviving recordings nevertheless show a sustained practice: week after week, the Star Atlas team and community discussed the project together.
 
 ## Explore the evidence
 
