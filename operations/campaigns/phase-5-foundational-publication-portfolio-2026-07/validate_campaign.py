@@ -289,6 +289,7 @@ def validate_scope(base_ref: str) -> tuple[list[str], dict[str, Any]]:
         "operations/campaigns/phase-5-foundational-publication-portfolio-2026-07/",
         "operations/tests/phase5_publication_portfolio/",
         "operations/tests/phase4_knowledge_consolidation/test_phase4_knowledge_consolidation.py",
+        "operations/tests/library_frontend/test_frontend.py",
         "operations/programs/library-roadmap/",
         "operations/coverage/campaign-status-register.json",
         "operations/coverage/campaign-status-register.md",
