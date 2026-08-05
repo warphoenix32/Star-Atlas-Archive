@@ -3,13 +3,14 @@
 Campaign ID: `phase-5-foundational-publication-portfolio-2026-07`
 
 This campaign began with eleven draft articles and now implements the
-operator-approved reader-first redesign. Human semantic review is complete for
-Editorial Wave 1: seven articles are `APPROVED`, seven prototypes remain
-`DRAFT`, and no article is `PUBLISHED`.
+operator-approved reader-first redesign. Human semantic review and publication
+authorization are complete for Editorial Wave 1: seven articles are
+`PUBLISHED` and seven prototypes remain `DRAFT`.
 
 ## Scope
 
-- Preserve fourteen reader-facing articles and prototypes without publishing them.
+- Preserve fourteen reader-facing articles and prototypes while publishing only
+  the seven explicitly authorized Wave 1 articles.
 - Define eight reader gateways and a thirty-page foundational narrative map.
 - Apply an HNN-influenced, player-friendly editorial house style without
   inheriting unsupported speculation or promotional certainty.
@@ -17,18 +18,18 @@ Editorial Wave 1: seven articles are `APPROVED`, seven prototypes remain
   which require targeted Knowledge development.
 - Record deterministic dispositions for every prototype.
 - Preserve the distinction between Archive, Knowledge and Publication.
-- Populate the publication manifest with deterministic `DRAFT` and `APPROVED`
+- Populate the publication manifest with deterministic `DRAFT` and `PUBLISHED`
   entries.
 - Record the operator's July 24, 2026 approval against the reviewed commit.
-- Keep both drafts and approved-but-unpublished articles outside the public build.
+- Record the operator's separate July 24, 2026 publication authorization.
+- Keep all seven remaining drafts outside the public build.
 - Hide internal taxonomy and workflow metadata from article prose and remove
   top-of-page metadata boxes from the public Knowledge reader.
 - Preserve human portfolio, semantic, narrative, SEO and comprehensiveness
   review as a completed, auditable gate.
 
-No Archive evidence, canonical Knowledge or graph fact may change. The only
-site change permitted in this planning gate is removal of the public metadata
-box.
+No Archive evidence, canonical Knowledge or graph fact may change. The public
+site may expose only entries whose manifest state is `PUBLISHED`.
 Intergalactic Herald is not a central narrative source or profile in this
 initial portfolio.
 
@@ -62,9 +63,9 @@ the complete publication plan, readiness and backlog reconciliation, prototype
 dispositions, manifest state, hidden public metadata, community evidence limits
 and protected paths.
 
-## Stop gate
+## Completed gates
 
-The editorial review gate is complete. Approval does not equal publication:
-the seven approved articles remain excluded from the public build until the
-repository operator gives explicit publication authorization. Automated checks
-may validate the approval record, but they cannot create or replace it.
+The editorial review gate and the separate publication-authorization gate are
+complete. Seven articles enter the governed public build; seven drafts remain
+excluded. Automated checks validate both records but cannot create or replace
+either human decision.

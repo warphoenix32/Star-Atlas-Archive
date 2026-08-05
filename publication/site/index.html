@@ -38,10 +38,11 @@
         </button>
 
         <nav id="primary-menu" class="primary-menu" aria-label="Library sections">
-          <button type="button" data-library-mode="all">Archive</button>
+          <button type="button" data-library-mode="library">Library</button>
+          <button type="button" data-library-mode="archive">Archive</button>
           <button type="button" data-library-mode="timeline">Timeline</button>
-          <button type="button" data-library-query="registry">Entities</button>
-          <button type="button" data-library-query="source">Sources</button>
+          <button type="button" data-library-query="registry" data-library-layer="archive">Entities</button>
+          <button type="button" data-library-query="source" data-library-layer="archive">Sources</button>
         </nav>
       </header>
 
@@ -71,7 +72,7 @@
           </button>
         </form>
 
-        <button class="enter-button" type="button" data-library-mode="all">
+        <button class="enter-button" type="button" data-library-mode="library">
           <span>Enter the Library</span>
         </button>
       </section>
@@ -80,8 +81,8 @@
         <button type="button" data-library-mode="timeline">
           <span aria-hidden="true">✦</span> Explore the Timeline
         </button>
-        <button type="button" data-library-mode="all">Discover the Archive</button>
-        <button type="button" data-library-query="evidence provenance">
+        <button type="button" data-library-mode="archive">Discover the Archive</button>
+        <button type="button" data-library-query="evidence provenance" data-library-layer="archive">
           <span aria-hidden="true">✦</span> Follow the Evidence
         </button>
       </nav>
@@ -92,7 +93,7 @@
       <div class="library-dialog__surface">
         <header class="library-dialog__header">
           <div>
-            <p class="section-kicker">The collected record</p>
+            <p class="section-kicker">Published stories and preserved records</p>
             <h2 id="library-title">Enter the Library</h2>
           </div>
           <button class="dialog-close" type="button" aria-label="Close the library">
@@ -124,10 +125,10 @@
           <section class="library-results" aria-labelledby="results-heading">
             <div class="results-heading">
               <div>
-                <p id="results-count" role="status" aria-live="polite">Preparing the archive…</p>
-                <h3 id="results-heading">Paths through the record</h3>
+                <p id="results-count" role="status" aria-live="polite">Preparing the Library…</p>
+                <h3 id="results-heading">Paths through Star Atlas</h3>
               </div>
-              <p class="evidence-note"><span></span> Canonical repository knowledge</p>
+              <p class="evidence-note"><span></span> Published narratives with a source-linked research archive</p>
             </div>
             <ol id="results-list" class="results-list"></ol>
             <p id="empty-state" class="empty-state" hidden>

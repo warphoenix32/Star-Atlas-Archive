@@ -13,12 +13,14 @@ const primaryMenu = document.querySelector(".primary-menu");
 
 const CATEGORY_LABELS = {
   all: "All collections",
+  orientation: "Start here",
   timeline: "Timeline",
   governance: "Governance",
   gameplay: "Products & gameplay",
   economy: "Economy",
   organizations: "Organizations",
   people: "People",
+  community: "Community",
   media: "Media & sources",
   technology: "Technology",
   events: "Events",
@@ -30,6 +32,7 @@ const CATEGORY_LABELS = {
 };
 
 let records = [];
+let activeLayer = "library";
 let activeCategory = "all";
 let activeQuery = "";
 let previousFocus = null;
@@ -64,6 +67,7 @@ function scoreRecord(record, query) {
 
 function matchingRecords() {
   return records
+    .filter((record) => record.layer === activeLayer)
     .filter((record) => activeCategory === "all" || record.category === activeCategory)
     .map((record) => ({ record, score: scoreRecord(record, activeQuery) }))
     .filter(({ score }) => !activeQuery || score > 0)
@@ -75,7 +79,8 @@ function matchingRecords() {
 function renderResults() {
   const matches = matchingRecords();
   const collection = CATEGORY_LABELS[activeCategory] || "Collection";
-  resultsCount.textContent = `${matches.length} ${matches.length === 1 ? "record" : "records"} shown · ${collection}`;
+  const noun = activeLayer === "library" ? "article" : "record";
+  resultsCount.textContent = `${matches.length} ${matches.length === 1 ? noun : `${noun}s`} shown · ${collection}`;
   resultsList.replaceChildren();
   emptyState.hidden = matches.length !== 0;
 
@@ -108,10 +113,11 @@ function escapeHtml(value) {
 }
 
 function renderFilters() {
-  const counts = records.reduce((values, record) => {
+  const layerRecords = records.filter((record) => record.layer === activeLayer);
+  const counts = layerRecords.reduce((values, record) => {
     values[record.category] = (values[record.category] || 0) + 1;
     return values;
-  }, { all: records.length });
+  }, { all: layerRecords.length });
 
   filters.replaceChildren();
   Object.entries(CATEGORY_LABELS)
@@ -133,9 +139,10 @@ function renderFilters() {
     });
 }
 
-function openLibrary({ query = "", category = "all" } = {}) {
+function openLibrary({ query = "", category = "all", layer = "library" } = {}) {
   previousFocus = document.activeElement;
   activeQuery = query;
+  activeLayer = layer === "archive" ? "archive" : "library";
   activeCategory = CATEGORY_LABELS[category] ? category : "all";
   libraryQuery.value = query;
   renderFilters();
@@ -160,7 +167,7 @@ function closeMenu() {
 
 portalForm.addEventListener("submit", (event) => {
   event.preventDefault();
-  openLibrary({ query: portalQuery.value.trim() });
+  openLibrary({ query: portalQuery.value.trim(), layer: "library" });
 });
 
 libraryForm.addEventListener("submit", (event) => event.preventDefault());
@@ -170,11 +177,19 @@ libraryQuery.addEventListener("input", () => {
 });
 
 document.querySelectorAll("[data-library-mode]").forEach((button) => {
-  button.addEventListener("click", () => openLibrary({ category: button.dataset.libraryMode }));
+  button.addEventListener("click", () => {
+    const mode = button.dataset.libraryMode;
+    if (mode === "archive") openLibrary({ layer: "archive" });
+    else if (mode === "timeline") openLibrary({ layer: "archive", category: "timeline" });
+    else openLibrary({ layer: "library" });
+  });
 });
 
 document.querySelectorAll("[data-library-query]").forEach((button) => {
-  button.addEventListener("click", () => openLibrary({ query: button.dataset.libraryQuery }));
+  button.addEventListener("click", () => openLibrary({
+    query: button.dataset.libraryQuery,
+    layer: button.dataset.libraryLayer || "library",
+  }));
 });
 
 closeButton.addEventListener("click", closeLibrary);

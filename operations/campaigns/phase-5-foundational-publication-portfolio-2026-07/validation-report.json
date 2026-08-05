@@ -72,8 +72,8 @@
     "entries": 14,
     "drafts": 7,
     "in_review": 0,
-    "approved": 7,
-    "published": 0,
+    "approved": 0,
+    "published": 7,
     "word_counts": {
       "PUB-001": 955,
       "PUB-002": 867,
@@ -100,7 +100,7 @@
     },
     "knowledge_backlog_items": 13,
     "prototype_dispositions": 11,
-    "changed_paths": 22,
+    "changed_paths": 34,
     "prohibited_path_changes": 0,
     "risk_class_counts": {
       "R2": 7,
@@ -109,6 +109,6 @@
   },
   "failures": [],
   "human_adjudication_required": false,
-  "publication_authorization_required": true,
-  "next_gate": "Explicit publication authorization for the seven approved Wave 1 articles"
+  "publication_authorization_required": false,
+  "next_gate": "Verify the GitHub Pages deployment and begin planning Editorial Wave 2"
 }

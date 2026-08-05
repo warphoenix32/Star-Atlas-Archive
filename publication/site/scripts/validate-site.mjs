@@ -56,8 +56,8 @@ if (!css.includes("prefers-reduced-motion") || !css.includes(":focus-visible")) 
 if (!script.includes("showModal()") || !script.includes("loadIndex()")) {
   failures.push("library entrance or search index behavior is missing");
 }
-if (!articleHtml.includes("Canonical repository knowledge") || !articleScript.includes("openRecord()") || !articleScript.includes("renderMarkdown")) {
-  failures.push("internal knowledge reader is incomplete");
+if (!articleHtml.includes("record-layer") || !articleScript.includes("openRecord()") || !articleScript.includes("renderMarkdown")) {
+  failures.push("Library article and archive reader is incomplete");
 }
 if (articleHtml.includes("record-metadata") || articleScript.includes("renderMetadata") || articleScript.includes("knowledge_status")) {
   failures.push("machine metadata is rendered in the public knowledge reader");
@@ -73,21 +73,44 @@ async function visit(directory) {
 }
 await visit(path.join(repo, "knowledge"));
 
-if (index.length !== knowledgeFiles.length) {
-  failures.push(`search index count ${index.length} does not match knowledge Markdown count ${knowledgeFiles.length}`);
+const manifest = JSON.parse(await fs.readFile(path.join(repo, "publication", "manifests", "publication-manifest.json"), "utf8"));
+const publishedEntries = manifest.entries.filter((entry) =>
+  manifest.build_policy.include_statuses.includes(entry.status));
+const publicationRecords = index.filter((record) => record.layer === "library");
+const archiveRecords = index.filter((record) => record.layer === "archive");
+if (index.length !== knowledgeFiles.length + publishedEntries.length) {
+  failures.push(`search index count ${index.length} does not match ${knowledgeFiles.length} knowledge records plus ${publishedEntries.length} published articles`);
+}
+if (archiveRecords.length !== knowledgeFiles.length) {
+  failures.push(`archive index count ${archiveRecords.length} does not match knowledge Markdown count ${knowledgeFiles.length}`);
+}
+if (publicationRecords.length !== publishedEntries.length) {
+  failures.push(`publication index count ${publicationRecords.length} does not match published manifest count ${publishedEntries.length}`);
+}
+const expectedPublicationIds = new Set(publishedEntries.map((entry) => entry.publication_id));
+const indexedPublicationIds = new Set(publicationRecords.map((record) => record.publicationId));
+if (expectedPublicationIds.size !== indexedPublicationIds.size
+  || [...expectedPublicationIds].some((id) => !indexedPublicationIds.has(id))) {
+  failures.push("public article index does not reconcile to PUBLISHED manifest entries");
 }
 const ids = new Set();
 for (const record of index) {
   if (ids.has(record.id)) failures.push(`duplicate search record id: ${record.id}`);
   ids.add(record.id);
-  if (!record.title || !record.summary || !record.category || !record.path || !record.url || !record.sourceUrl) {
+  if (!record.title || !record.summary || !record.category || !record.path || !record.contentPath || !record.url || !record.sourceUrl || !record.layer || !record.recordType) {
     failures.push(`incomplete search record: ${record.id || "UNKNOWN"}`);
   }
   if (!record.url.startsWith("article.html?id=")) failures.push(`non-library result URL: ${record.id}`);
-  if (!record.sourceUrl.startsWith("https://github.com/warphoenix32/Star-Atlas-Archive/blob/main/knowledge/")) {
+  if (!record.sourceUrl.startsWith("https://github.com/warphoenix32/Star-Atlas-Archive/blob/main/")) {
     failures.push(`invalid canonical source URL: ${record.id}`);
   }
-  const target = path.join(repo, ...record.path.split("/"));
+  if (record.layer === "library" && !expectedPublicationIds.has(record.publicationId)) {
+    failures.push(`unpublished or unknown article exposed: ${record.publicationId || record.id}`);
+  }
+  if (record.layer === "archive" && !record.contentPath.startsWith("knowledge/")) {
+    failures.push(`archive record escapes Knowledge: ${record.id}`);
+  }
+  const target = path.join(repo, ...record.contentPath.split("/"));
   if (!(await fs.stat(target).catch(() => null))?.isFile()) failures.push(`orphan search record: ${record.path}`);
 }
 
@@ -106,4 +129,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`PASS site validation: ${requiredFiles.length} required files; ${index.length} indexed knowledge records; ${localReferences.length} local references`);
+console.log(`PASS site validation: ${requiredFiles.length} required files; ${publicationRecords.length} published articles; ${archiveRecords.length} archive records; ${localReferences.length} local references`);

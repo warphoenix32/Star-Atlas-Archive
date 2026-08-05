@@ -2,7 +2,7 @@
   "manifest_version": "1.0",
   "manifest_id": "publication-manifest-star-atlas-library",
   "as_of": "2026-07-23",
-  "lifecycle_phase": "PORTFOLIO_DEVELOPMENT",
+  "lifecycle_phase": "PUBLICATION_ACTIVE",
   "public_base_path": "/library/",
   "source_of_truth": {
     "archive_root": "archive/",
@@ -253,7 +253,7 @@
       "slug": "from-score-to-starbased",
       "title": "From SCORE to Starbased: The Evolution of Star Atlas Strategy",
       "type": "ARTICLE",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "audience": "Players and researchers following the history of Star Atlas strategy products",
       "content_path": "publication/articles/from-score-to-starbased.md",
       "source_knowledge_paths": [
@@ -288,7 +288,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "4799a977ca68b921d3367b110db8181338a950f5e10f2dd668dcc71c08dc41d8",
+        "content_sha256": "d84d347a705663f0842ed848919d6412a2d5f65198bcc1e013e149863fd58c33",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -428,7 +428,7 @@
       "slug": "the-recorded-community",
       "title": "Atlas Brew and the Town Hall Tradition",
       "type": "ARTICLE",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "audience": "Readers exploring the recorded institutional and community memory of Star Atlas",
       "content_path": "publication/articles/the-recorded-community.md",
       "source_knowledge_paths": [
@@ -464,7 +464,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "7ed3d67a0fa71a0ad7d2d40f51a8d34e150785790a3f278ac131d10745e9e4e2",
+        "content_sha256": "b8ac7625ea5878c78bce680a909b0b39519b96df745d261060ecd18f5c248165",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -550,7 +550,7 @@
       "slug": "welcome-to-the-galia-expanse",
       "title": "Welcome to the Galia Expanse",
       "type": "ARTICLE",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "audience": "New and returning readers exploring the Star Atlas universe",
       "content_path": "publication/articles/welcome-to-the-galia-expanse.md",
       "source_knowledge_paths": [
@@ -590,7 +590,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "fe5a846e1a2ecd03571619c14aba1a8c38c2cedb09d03f160759df0e5a372130",
+        "content_sha256": "aa58176bfbe9bcc3415b428aefa841c56b6220be0c1418cb24d57142eb91bc8b",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -616,7 +616,7 @@
       "slug": "people-of-star-atlas",
       "title": "The People of Star Atlas",
       "type": "ARTICLE",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "audience": "Readers interested in the human community and culture around Star Atlas",
       "content_path": "publication/articles/people-of-star-atlas.md",
       "source_knowledge_paths": [
@@ -654,7 +654,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "21909ca4f4255dbb8b9cf5ef25013c87ec5fdd7c929571868e85ddd51208e61f",
+        "content_sha256": "945e9a54334f3c91c05c6c1394bfb0bd3e97dae9f25bd77dbc17762e253a6174",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -682,7 +682,7 @@
       "slug": "what-is-star-atlas",
       "title": "What Is Star Atlas?",
       "type": "ARTICLE",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "audience": "New readers seeking an accessible introduction to Star Atlas",
       "content_path": "publication/articles/what-is-star-atlas.md",
       "source_knowledge_paths": [
@@ -720,7 +720,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "431f1796d73e39d65ed3605d6efe6183a35fbfffff5166e7e5c173f64924f788",
+        "content_sha256": "4ec9de40c453c70bdaf33f1c93325469708ae79060b6b2fb271428217b7a146a",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -737,14 +737,20 @@
         "PUB-013",
         "PUB-014"
       ],
-      "revision_history": []
+      "revision_history": [
+        {
+          "date": "2026-07-24",
+          "content_sha256": "4ec9de40c453c70bdaf33f1c93325469708ae79060b6b2fb271428217b7a146a",
+          "change": "Initial reader-first publication baseline."
+        }
+      ]
     },
     {
       "publication_id": "PUB-013",
       "slug": "three-factions-of-star-atlas",
       "title": "The Three Factions of Star Atlas",
       "type": "ARTICLE",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "audience": "Readers discovering the major powers of the Galia Expanse",
       "content_path": "publication/articles/three-factions-of-star-atlas.md",
       "source_knowledge_paths": [
@@ -781,7 +787,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "4508b5b0a21eb3aff3a6ff27aa1c3ed4ffd82537dd047887b828b5f11597b7b3",
+        "content_sha256": "e8922e46c1fa5255bb2322f364986622459a02e67bcac507ecf0c966419b7b75",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -794,14 +800,20 @@
         "PUB-010",
         "PUB-012"
       ],
-      "revision_history": []
+      "revision_history": [
+        {
+          "date": "2026-07-24",
+          "content_sha256": "e8922e46c1fa5255bb2322f364986622459a02e67bcac507ecf0c966419b7b75",
+          "change": "Initial reader-first publication baseline."
+        }
+      ]
     },
     {
       "publication_id": "PUB-014",
       "slug": "unreal-engine-journey",
       "title": "The Unreal Engine Journey",
       "type": "ARTICLE",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "audience": "Players following the evolution of Star Atlas immersive experiences",
       "content_path": "publication/articles/unreal-engine-journey.md",
       "source_knowledge_paths": [
@@ -836,7 +848,7 @@
         ]
       },
       "provenance": {
-        "content_sha256": "34d0f42237c5bc747c2d6cb52721ffbab441dce3dbf9ea3a095fdc2a3c5042b7",
+        "content_sha256": "3afd98f6c2887a29421eaf06d432e02a7c2ae1722ea9d5f66019cbfc41e57b64",
         "manifested_at": "2026-07-23",
         "manifested_by": "phase-5-foundational-publication-portfolio-2026-07"
       },
@@ -850,7 +862,13 @@
         "PUB-006",
         "PUB-012"
       ],
-      "revision_history": []
+      "revision_history": [
+        {
+          "date": "2026-07-24",
+          "content_sha256": "3afd98f6c2887a29421eaf06d432e02a7c2ae1722ea9d5f66019cbfc41e57b64",
+          "change": "Initial reader-first publication baseline."
+        }
+      ]
     }
   ]
 }

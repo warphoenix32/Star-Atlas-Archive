@@ -1,6 +1,7 @@
 const recordElement = document.querySelector(".knowledge-record");
 const titleElement = document.querySelector("#record-title");
 const summaryElement = document.querySelector("#record-summary");
+const layerElement = document.querySelector("#record-layer");
 const categoryElement = document.querySelector("#record-category");
 const pathElement = document.querySelector("#record-path");
 const contentElement = document.querySelector("#record-content");
@@ -162,7 +163,7 @@ function renderMarkdown(markdown) {
 
 function showError(message) {
   titleElement.textContent = "Record unavailable";
-  summaryElement.textContent = "The requested knowledge record could not be opened.";
+  summaryElement.textContent = "The requested Library record could not be opened.";
   contentElement.innerHTML = `<p class="record-error">${escapeHtml(message)} Return to the Library and choose another record.</p>`;
   recordElement.setAttribute("aria-busy", "false");
 }
@@ -175,17 +176,23 @@ async function openRecord() {
   currentRecord = records.find((record) => record.id === requestedId);
   if (!currentRecord) throw new Error("This record is not present in the current Library index.");
 
-  const knowledgePath = currentRecord.path.replace(/^knowledge\//, "");
-  const contentResponse = await fetch(`content/${knowledgePath.split("/").map(encodeURIComponent).join("/")}`);
-  if (!contentResponse.ok) throw new Error("The repository knowledge file could not be retrieved.");
+  const contentPath = currentRecord.contentPath || currentRecord.path;
+  const contentResponse = await fetch(`content/${contentPath.split("/").map(encodeURIComponent).join("/")}`);
+  if (!contentResponse.ok) throw new Error("The source-linked Library file could not be retrieved.");
   const markdown = stripFrontMatter(await contentResponse.text());
 
   document.title = `${currentRecord.title} · Star Atlas Library`;
   titleElement.textContent = currentRecord.title;
   summaryElement.textContent = currentRecord.summary;
   categoryElement.textContent = currentRecord.categoryLabel;
-  pathElement.textContent = currentRecord.path.replace(/^knowledge\//, "").replace(/\.md$/, "").replaceAll("/", " · ").replaceAll("-", " ");
+  layerElement.textContent = currentRecord.layer === "library" ? "Published Library article" : "Research archive record";
+  pathElement.textContent = currentRecord.path
+    .replace(/^(knowledge|publication\/articles)\//, "")
+    .replace(/\.md$/, "")
+    .replaceAll("/", " · ")
+    .replaceAll("-", " ");
   sourceLink.href = currentRecord.sourceUrl;
+  sourceLink.innerHTML = `${currentRecord.layer === "library" ? "View published source file" : "View preserved knowledge file"} <span aria-hidden="true">↗</span>`;
   contentElement.innerHTML = renderMarkdown(markdown);
   recordElement.setAttribute("aria-busy", "false");
 }

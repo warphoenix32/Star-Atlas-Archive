@@ -25,7 +25,7 @@ class Phase5PublicationPortfolioTests(unittest.TestCase):
         self.backlog = VALIDATOR.load_json(VALIDATOR.BACKLOG_PATH)
         self.manifest = VALIDATOR.load_json(VALIDATOR.MANIFEST_PATH)
 
-    def test_editorial_wave_approval_counts_and_no_published_entries(self) -> None:
+    def test_editorial_wave_publication_counts(self) -> None:
         failures, metrics = VALIDATOR.validate_manifest(
             self.portfolio, self.manifest
         )
@@ -33,8 +33,8 @@ class Phase5PublicationPortfolioTests(unittest.TestCase):
         self.assertEqual(14, metrics["entries"])
         self.assertEqual(7, metrics["drafts"])
         self.assertEqual(0, metrics["in_review"])
-        self.assertEqual(7, metrics["approved"])
-        self.assertEqual(0, metrics["published"])
+        self.assertEqual(0, metrics["approved"])
+        self.assertEqual(7, metrics["published"])
 
     def test_articles_are_human_first_and_linked(self) -> None:
         failures, metrics = VALIDATOR.validate_articles(self.portfolio)
@@ -45,27 +45,29 @@ class Phase5PublicationPortfolioTests(unittest.TestCase):
     def test_community_scope_is_bounded(self) -> None:
         self.assertEqual([], VALIDATOR.validate_community_packet())
 
-    def test_manifest_public_build_remains_closed(self) -> None:
+    def test_manifest_public_build_contains_only_authorized_articles(self) -> None:
         self.assertEqual(
             ["PUBLISHED"],
             self.manifest["build_policy"]["include_statuses"],
         )
         self.assertTrue(
             all(
-                entry["status"] in {"DRAFT", "APPROVED"}
+                entry["status"] in {"DRAFT", "PUBLISHED"}
                 for entry in self.manifest["entries"]
             )
         )
         self.assertEqual(
             7,
             sum(
-                entry["status"] == "APPROVED"
+                entry["status"] == "PUBLISHED"
                 for entry in self.manifest["entries"]
             ),
         )
-        self.assertFalse(
-            any(entry["status"] == "PUBLISHED" for entry in self.manifest["entries"])
-        )
+        self.assertTrue(all(
+            entry["editorial"]["approval_record"]
+            for entry in self.manifest["entries"]
+            if entry["status"] == "PUBLISHED"
+        ))
 
     def test_editorial_review_gate_reconciles(self) -> None:
         self.assertEqual(

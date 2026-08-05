@@ -334,10 +334,7 @@ def validate_forbidden_paths(changes: list[str]) -> str:
         allowed = common + (
             "publication/articles/",
             "publication/manifests/publication-manifest.json",
-            "publication/site/article.css",
-            "publication/site/article.html",
-            "publication/site/article.js",
-            "publication/site/scripts/validate-site.mjs",
+            "publication/site/",
             "operations/campaigns/phase-5-foundational-publication-portfolio-2026-07/",
             "operations/tests/phase5_publication_portfolio/",
             "operations/tests/phase4_knowledge_consolidation/test_phase4_knowledge_consolidation.py",
@@ -910,6 +907,10 @@ def validate_phase5_publication_portfolio(base_ref: str) -> None:
         "operations/tests/phase5_publication_portfolio",
         check=True,
     )
+    site = ROOT / "publication/site"
+    run("node", str(site / "scripts/build-search-index.mjs"), "--check", check=True)
+    run("node", str(site / "scripts/validate-site.mjs"), check=True)
+    run("node", str(site / "scripts/build-pages.mjs"), check=True)
     diff = run(
         "git",
         "diff",
@@ -919,6 +920,7 @@ def validate_phase5_publication_portfolio(base_ref: str) -> None:
         "publication/manifests/publication-manifest.json",
         str(campaign.relative_to(ROOT)),
         "operations/tests/phase5_publication_portfolio/",
+        "publication/site/",
         "operations/programs/library-roadmap/",
         "operations/coverage/campaign-status-register.json",
         "operations/coverage/campaign-status-register.md",
