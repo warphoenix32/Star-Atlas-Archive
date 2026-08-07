@@ -1,14 +1,14 @@
 {
   "campaign_id": "phase-5-foundational-publication-portfolio-2026-07",
   "as_of": "2026-07-23",
-  "status": "EDITORIAL_WAVE_1_APPROVED",
+  "status": "EDITORIAL_WAVE_1_PUBLISHED",
   "portfolio": {
     "articles_drafted": 14,
     "manifest_entries": 14,
     "draft_entries": 7,
     "in_review_entries": 0,
-    "approved_entries": 7,
-    "published_entries": 0,
+    "approved_entries": 0,
+    "published_entries": 7,
     "total_words": 14367,
     "word_counts": {
       "PUB-001": 955,
@@ -63,13 +63,19 @@
     "archive_evidence_modified": false,
     "knowledge_modified": false,
     "graph_modified": false,
-    "publication_site_modified": false,
-    "publication_site_change": "No site or deployment change in Editorial Wave 1",
+    "publication_site_modified": true,
+    "publication_site_change": "Seven authorized Wave 1 articles connected to the public Library build",
     "drafts_in_public_build": false,
     "intergalactic_herald_profile_included": false
   },
   "human_adjudication_required": false,
   "human_review_scope": [],
-  "publication_authorization_required": true,
-  "next_gate": "Explicit publication authorization for the seven approved Wave 1 articles"
+  "publication_authorization_required": false,
+  "publication_authorization": {
+    "decision": "PUBLISH",
+    "authorized_by": "repository_operator",
+    "authorized_at": "2026-07-24",
+    "record": "repository_operator|PUBLISH|2026-07-24"
+  },
+  "next_gate": "Verify the GitHub Pages deployment and begin planning Editorial Wave 2"
 }

@@ -26,8 +26,8 @@ Result: **PASS**
 - Manifest entries: 14
 - Draft entries: 7
 - In-review entries: 0
-- Approved entries: 7
-- Published entries: 0
+- Approved entries: 0
+- Published entries: 7
 - Narrative words: 14367
 - Local evidence links checked: 71
 - Prohibited path changes: 0
@@ -37,7 +37,6 @@ Result: **PASS**
 
 - None.
 
-The repository operator approved seven articles after human semantic review.
-Seven other entries remain drafts. All fourteen remain outside the public build
-until a separate publication authorization moves approved entries to
-`PUBLISHED`.
+The repository operator approved and separately authorized publication of seven
+articles after human semantic review. Seven other entries remain drafts and
+outside the public build.

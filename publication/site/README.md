@@ -5,9 +5,14 @@ This folder contains the first visual front end for the Star Atlas Library. It i
 ## Experience contract
 
 - The landing page is a cinematic threshold, not a dashboard.
-- Search and the library dialog reveal repository knowledge only after a visitor chooses to explore.
+- Search and the library dialog open with reader-first published articles. The
+  deeper research archive remains available as a deliberate secondary path.
 - Repository knowledge remains source-linked; the front end does not silently rewrite or promote claims.
-- The generated search index reads `knowledge/**/*.md`; every result opens in an internal Library reader while retaining a direct link to its canonical GitHub source path.
+- The generated search index reads only `PUBLISHED` manifest entries for the
+  main Library and `knowledge/**/*.md` for the research archive. Every result
+  retains a direct link to its canonical GitHub source path.
+- Draft and approved-but-unpublished article files are never copied into the
+  deployment artifact.
 - The background image is a presentation asset. All text, controls, focus states, and responsive behavior are real HTML/CSS/JavaScript.
 
 ## Local development
@@ -26,7 +31,11 @@ No dependency installation is required.
 
 ## GitHub Pages
 
-The `Publish Star Atlas Library` workflow validates the interface, copies the reviewed `knowledge/` tree into the static deployment artifact, and publishes it through GitHub Pages whenever relevant files reach `main`. The deployed reader never changes canonical knowledge: it renders a synchronized, source-linked copy and exposes the preserved GitHub file for every record.
+The `Publish Star Atlas Library` workflow validates the interface, copies the
+reviewed `knowledge/` tree into the research section, copies only manifest
+entries whose state is `PUBLISHED` into the main Library, and publishes the
+result through GitHub Pages whenever relevant files reach `main`. The deployed
+reader never changes canonical knowledge or publication prose.
 
 The expected public address is:
 

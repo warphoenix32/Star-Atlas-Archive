@@ -99,7 +99,11 @@ def build_manifest(portfolio: dict[str, Any]) -> dict[str, Any]:
         "manifest_version": "1.0",
         "manifest_id": "publication-manifest-star-atlas-library",
         "as_of": portfolio["as_of"],
-        "lifecycle_phase": "PORTFOLIO_DEVELOPMENT",
+        "lifecycle_phase": (
+            "PUBLICATION_ACTIVE"
+            if any(entry["status"] == "PUBLISHED" for entry in entries)
+            else "PORTFOLIO_DEVELOPMENT"
+        ),
         "public_base_path": "/library/",
         "source_of_truth": {
             "archive_root": "archive/",
@@ -193,13 +197,20 @@ def build_summary(
     approved_entries = sum(
         entry["status"] == "APPROVED" for entry in manifest["entries"]
     )
+    published_entries = sum(
+        entry["status"] == "PUBLISHED" for entry in manifest["entries"]
+    )
     return {
         "campaign_id": portfolio["campaign_id"],
         "as_of": portfolio["as_of"],
         "status": (
-            "EDITORIAL_WAVE_1_APPROVED"
-            if approved_entries
-            else "EDITORIAL_WAVE_1_AWAITING_HUMAN_SEMANTIC_REVIEW"
+            "EDITORIAL_WAVE_1_PUBLISHED"
+            if published_entries
+            else (
+                "EDITORIAL_WAVE_1_APPROVED"
+                if approved_entries
+                else "EDITORIAL_WAVE_1_AWAITING_HUMAN_SEMANTIC_REVIEW"
+            )
         ),
         "portfolio": {
             "articles_drafted": len(portfolio["articles"]),
@@ -211,9 +222,7 @@ def build_summary(
                 entry["status"] == "IN_REVIEW" for entry in manifest["entries"]
             ),
             "approved_entries": approved_entries,
-            "published_entries": sum(
-                entry["status"] == "PUBLISHED" for entry in manifest["entries"]
-            ),
+            "published_entries": published_entries,
             "total_words": sum(words.values()),
             "word_counts": words,
             "risk_class_counts": dict(sorted(risk_counts.items())),
@@ -250,12 +259,16 @@ def build_summary(
             "archive_evidence_modified": False,
             "knowledge_modified": False,
             "graph_modified": False,
-            "publication_site_modified": False,
-            "publication_site_change": "No site or deployment change in Editorial Wave 1",
+            "publication_site_modified": published_entries > 0,
+            "publication_site_change": (
+                "Seven authorized Wave 1 articles connected to the public Library build"
+                if published_entries
+                else "No site or deployment change in Editorial Wave 1"
+            ),
             "drafts_in_public_build": False,
             "intergalactic_herald_profile_included": False,
         },
-        "human_adjudication_required": approved_entries == 0,
+        "human_adjudication_required": approved_entries == 0 and published_entries == 0,
         "human_review_scope": (
             [
                 "Review the seven Wave 1 articles for narrative accuracy and completeness",
@@ -263,14 +276,28 @@ def build_summary(
                 "Confirm lore and community qualifications are proportionate",
                 "Approve, revise or defer each article before publication",
             ]
-            if approved_entries == 0
+            if approved_entries == 0 and published_entries == 0
             else []
         ),
-        "publication_authorization_required": True,
+        "publication_authorization_required": published_entries == 0,
+        "publication_authorization": (
+            {
+                "decision": "PUBLISH",
+                "authorized_by": "repository_operator",
+                "authorized_at": "2026-07-24",
+                "record": "repository_operator|PUBLISH|2026-07-24",
+            }
+            if published_entries
+            else None
+        ),
         "next_gate": (
-            "Explicit publication authorization for the seven approved Wave 1 articles"
-            if approved_entries
-            else "Human semantic review of the seven Wave 1 articles"
+            "Verify the GitHub Pages deployment and begin planning Editorial Wave 2"
+            if published_entries
+            else (
+                "Explicit publication authorization for the seven approved Wave 1 articles"
+                if approved_entries
+                else "Human semantic review of the seven Wave 1 articles"
+            )
         ),
     }
 
@@ -278,10 +305,15 @@ def build_summary(
 def write_editorial_review(
     portfolio: dict[str, Any], manifest: dict[str, Any]
 ) -> None:
-    approved = [
-        entry for entry in manifest["entries"] if entry["status"] == "APPROVED"
+    reviewed = [
+        entry
+        for entry in manifest["entries"]
+        if entry["status"] in {"APPROVED", "PUBLISHED"}
     ]
-    review_complete = bool(approved)
+    review_complete = bool(reviewed)
+    publication_active = any(
+        entry["status"] == "PUBLISHED" for entry in manifest["entries"]
+    )
     review_entries = [
         {
             "publication_id": entry["publication_id"],
@@ -301,7 +333,17 @@ def write_editorial_review(
                     "reviewed_commit": article["approval_commit"],
                     "record": article["approval_record"],
                 }
-                if entry["status"] == "APPROVED"
+                if entry["status"] in {"APPROVED", "PUBLISHED"}
+                else None
+            ),
+            "publication_authorization": (
+                {
+                    "decision": "PUBLISH",
+                    "authorized_by": "repository_operator",
+                    "authorized_at": article["publication_date"],
+                    "record": article["publication_authorization"],
+                }
+                if entry["status"] == "PUBLISHED"
                 else None
             ),
             "review_questions": [
@@ -311,7 +353,7 @@ def write_editorial_review(
             ],
         }
         for entry in manifest["entries"]
-        if entry["status"] in {"IN_REVIEW", "APPROVED"}
+        if entry["status"] in {"IN_REVIEW", "APPROVED", "PUBLISHED"}
         for article in portfolio["articles"]
         if article["publication_id"] == entry["publication_id"]
     ]
@@ -325,9 +367,15 @@ def write_editorial_review(
             else "AWAITING_HUMAN_SEMANTIC_REVIEW"
         ),
         "publication_status": (
-            "APPROVED_NOT_PUBLISHED" if review_complete else "UNPUBLISHED"
+            "PUBLISHED"
+            if publication_active
+            else ("APPROVED_NOT_PUBLISHED" if review_complete else "UNPUBLISHED")
         ),
-        "deployment_status": "NOT_STARTED",
+        "deployment_status": (
+            "AUTHORIZED_PENDING_MAIN_DEPLOYMENT"
+            if publication_active
+            else "NOT_STARTED"
+        ),
         "articles": review_entries,
         "deferred": [
             {
@@ -344,7 +392,7 @@ def write_editorial_review(
             },
         ],
         "human_adjudication_required": not review_complete,
-        "publication_authorization_required": True,
+        "publication_authorization_required": not publication_active,
     }
     EDITORIAL_REVIEW_JSON.write_text(
         json.dumps(review, indent=2, ensure_ascii=False) + "\n",
@@ -354,28 +402,39 @@ def write_editorial_review(
     rows = "\n".join(
         f"| {item['publication_id']} | [{item['title']}](../../../{item['content_path']}) | "
         f"{item['risk_class']} | {item['status']} | "
-        f"{'Approved 2026-07-24' if item['human_approval'] else 'Pending'} |"
+          f"{'Published 2026-07-24' if item['publication_authorization'] else ('Approved 2026-07-24' if item['human_approval'] else 'Pending')} |"
         for item in review_entries
     )
     opening = (
-        "The repository operator approved all seven reader-first articles after "
-        "semantic review on July 24, 2026. They are release-ready but remain "
-        "outside the public build until a separate publication authorization."
-        if review_complete
-        else
-        "Seven reader-first articles are ready for human semantic review. They "
-        "remain outside the public build, have no approval record and have not "
-        "been deployed."
+        "The repository operator authorized publication of all seven reviewed "
+        "reader-first articles on July 24, 2026. They now enter the governed "
+        "public build; seven other prototypes remain drafts."
+        if publication_active
+        else (
+            "The repository operator approved all seven reader-first articles after "
+            "semantic review on July 24, 2026. They are release-ready but remain "
+            "outside the public build until a separate publication authorization."
+            if review_complete
+            else
+            "Seven reader-first articles are ready for human semantic review. They "
+            "remain outside the public build, have no approval record and have not "
+            "been deployed."
+        )
     )
     review_disposition = (
-        "Human semantic review is complete. Approval does not equal publication; "
-        "all seven entries remain excluded from the public build.\n\n"
-        if review_complete
-        else
-        "1. Is each narrative accurate, engaging and sufficiently comprehensive?\n"
-        "2. Are lifecycle and evidence distinctions clear without overwhelming the story?\n"
-        "3. Does any material claim need additional context, qualification or removal?\n"
-        "4. Should the article be approved, revised or deferred?\n\n"
+        "Human semantic review and publication authorization are complete. Seven "
+        "entries are eligible for the public build and seven remain drafts.\n\n"
+        if publication_active
+        else (
+            "Human semantic review is complete. Approval does not equal publication; "
+            "all seven entries remain excluded from the public build.\n\n"
+            if review_complete
+            else
+            "1. Is each narrative accurate, engaging and sufficiently comprehensive?\n"
+            "2. Are lifecycle and evidence distinctions clear without overwhelming the story?\n"
+            "3. Does any material claim need additional context, qualification or removal?\n"
+            "4. Should the article be approved, revised or deferred?\n\n"
+        )
     )
     EDITORIAL_REVIEW_MD.write_text(
         "# Phase 5 Editorial Wave 1 Review\n\n"
@@ -395,6 +454,7 @@ def write_editorial_review(
 
 
 def write_planning_reports(
+    portfolio: dict[str, Any],
     plan: dict[str, Any],
     readiness: dict[str, Any],
     backlog: dict[str, Any],
@@ -490,10 +550,15 @@ def write_planning_reports(
         newline="\n",
     )
 
+    portfolio_statuses = {
+        article["publication_id"]: article.get("status", "DRAFT")
+        for article in portfolio["articles"]
+    }
     disposition_rows = "\n".join(
-        "| {id} | {title} | {disposition} | {targets} |".format(
+        "| {id} | {title} | {status} | {disposition} | {targets} |".format(
             id=item["publication_id"],
             title=item["title"],
+            status=portfolio_statuses[item["publication_id"]],
             disposition=item["disposition"],
             targets=", ".join(item["target_candidate_ids"]),
         )
@@ -501,11 +566,11 @@ def write_planning_reports(
     )
     PROTOTYPE_DISPOSITIONS_MD.write_text(
         "# Phase 5 Prototype Dispositions\n\n"
-        "The eleven existing articles remain unpublished editorial prototypes. "
-        "Their useful reporting and evidence links are retained while the final "
-        "portfolio is redesigned.\n\n"
-        "| Prototype | Title | Disposition | Planned destination |\n"
-        "| --- | --- | --- | --- |\n"
+        "The original eleven prototypes retain their redesign dispositions. Four "
+        "were rewritten and published in Wave 1; seven remain drafts. Planned "
+        "splits and deeper successor narratives remain future work.\n\n"
+        "| Prototype | Title | Current state | Disposition | Planned destination |\n"
+        "| --- | --- | --- | --- | --- |\n"
         f"{disposition_rows}\n",
         encoding="utf-8",
         newline="\n",
@@ -570,21 +635,22 @@ Intergalactic Herald is not a central source or profile in this portfolio.
 
 ## Presentation change
 
-The public Knowledge reader no longer renders workflow metadata, confidence or
-taxonomy boxes at the top of a page. Front matter remains available internally
-for search and validation. Human approval is recorded, but no article was
-published.
+The public reader does not render workflow metadata, confidence or taxonomy
+boxes at the top of a page. Front matter remains available internally for
+search and validation. Seven authorized articles now form the Library's
+reader-first publication layer.
 
 ## Boundaries
 
 No Archive evidence, canonical Knowledge or graph fact changed. The manifest
-continues to exclude all non-`PUBLISHED` entries from the public build.
+includes only the seven `PUBLISHED` entries in the reader-first public
+collection; the seven remaining drafts are excluded.
 
 ## Human gate
 
-Human semantic review is complete for all seven Wave 1 articles. Approval and
-publication remain separate lifecycle actions. The Library Publisher must not
-move an approved article to `PUBLISHED` without explicit publication authority.
+Human semantic review and publication authorization are complete for all seven
+Wave 1 articles. The authorization record is preserved separately from the
+earlier approval record. Future articles must pass the same two gates.
 """
     SUMMARY_MD.write_text(markdown, encoding="utf-8", newline="\n")
 
@@ -611,7 +677,7 @@ def main() -> int:
         encoding="utf-8",
         newline="\n",
     )
-    write_planning_reports(plan, readiness, backlog, dispositions)
+    write_planning_reports(portfolio, plan, readiness, backlog, dispositions)
     summary = build_summary(portfolio, manifest, plan, readiness, backlog)
     SUMMARY_JSON.write_text(
         json.dumps(summary, indent=2, ensure_ascii=False) + "\n",

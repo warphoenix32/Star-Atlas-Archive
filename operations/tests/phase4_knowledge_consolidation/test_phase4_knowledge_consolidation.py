@@ -57,7 +57,7 @@ class Phase4KnowledgeConsolidationTests(unittest.TestCase):
         )
         self.assertIn(
             payload["lifecycle_phase"],
-            {"CONTRACT_ONLY", "PORTFOLIO_DEVELOPMENT"},
+            {"CONTRACT_ONLY", "PORTFOLIO_DEVELOPMENT", "PUBLICATION_ACTIVE"},
         )
         if payload["lifecycle_phase"] == "CONTRACT_ONLY":
             self.assertEqual([], payload["entries"])
@@ -66,8 +66,8 @@ class Phase4KnowledgeConsolidationTests(unittest.TestCase):
             self.assertEqual(14, len(statuses))
             self.assertEqual(7, statuses.count("DRAFT"))
             self.assertEqual(0, statuses.count("IN_REVIEW"))
-            self.assertEqual(7, statuses.count("APPROVED"))
-            self.assertEqual(0, statuses.count("PUBLISHED"))
+            self.assertEqual(0, statuses.count("APPROVED"))
+            self.assertEqual(7, statuses.count("PUBLISHED"))
             self.assertEqual(
                 ["PUBLISHED"],
                 payload["build_policy"]["include_statuses"],

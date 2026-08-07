@@ -4,7 +4,7 @@ slug: from-score-to-starbased
 title: "From SCORE to Starbased: The Evolution of Star Atlas Strategy"
 seo_title: "From SCORE to Starbased: Star Atlas Strategy Game History"
 seo_description: "How Star Atlas strategy gameplay evolved from Faction Fleet rewards through SAGE Labs and the Starbased update."
-status: APPROVED
+status: PUBLISHED
 as_of: 2026-07-23
 audience: "Players and researchers following the history of Star Atlas strategy products"
 ---

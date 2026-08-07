@@ -1,7 +1,7 @@
 {
   "campaign_id": "phase-5-foundational-publication-portfolio-2026-07",
   "as_of": "2026-07-23",
-  "portfolio_status": "EDITORIAL_WAVE_1_APPROVED",
+  "portfolio_status": "EDITORIAL_WAVE_1_PUBLISHED",
   "articles": [
     {
       "publication_id": "PUB-001",
@@ -100,10 +100,12 @@
       ],
       "related_publication_ids": ["PUB-004", "PUB-006", "PUB-008"]
       ,
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "approval_date": "2026-07-24",
       "approval_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
       "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175",
+      "publication_date": "2026-07-24",
+      "publication_authorization": "repository_operator|PUBLISH|2026-07-24",
       "revision_history": [
         {
           "date": "2026-07-23",
@@ -171,10 +173,12 @@
       ],
       "related_publication_ids": ["PUB-005", "PUB-007", "PUB-011"]
       ,
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "approval_date": "2026-07-24",
       "approval_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
       "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175",
+      "publication_date": "2026-07-24",
+      "publication_authorization": "repository_operator|PUBLISH|2026-07-24",
       "revision_history": [
         {
           "date": "2026-07-23",
@@ -227,10 +231,12 @@
       ],
       "related_publication_ids": ["PUB-009", "PUB-011"]
       ,
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "approval_date": "2026-07-24",
       "approval_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
       "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175",
+      "publication_date": "2026-07-24",
+      "publication_authorization": "repository_operator|PUBLISH|2026-07-24",
       "revision_history": [
         {
           "date": "2026-07-23",
@@ -261,10 +267,12 @@
       ],
       "related_publication_ids": ["PUB-007", "PUB-008", "PUB-009", "PUB-010"]
       ,
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "approval_date": "2026-07-24",
       "approval_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
       "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175",
+      "publication_date": "2026-07-24",
+      "publication_authorization": "repository_operator|PUBLISH|2026-07-24",
       "revision_history": [
         {
           "date": "2026-07-23",
@@ -293,11 +301,19 @@
         "knowledge/timeline/Community-Timeline.md"
       ],
       "related_publication_ids": ["PUB-005", "PUB-009", "PUB-010", "PUB-011", "PUB-013", "PUB-014"],
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "approval_date": "2026-07-24",
       "approval_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
       "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175",
-      "revision_history": []
+      "publication_date": "2026-07-24",
+      "publication_authorization": "repository_operator|PUBLISH|2026-07-24",
+      "revision_history": [
+        {
+          "date": "2026-07-24",
+          "content_sha256": "4ec9de40c453c70bdaf33f1c93325469708ae79060b6b2fb271428217b7a146a",
+          "change": "Initial reader-first publication baseline."
+        }
+      ]
     },
     {
       "publication_id": "PUB-013",
@@ -319,11 +335,19 @@
         "knowledge/lore/Canon-Registry.md"
       ],
       "related_publication_ids": ["PUB-010", "PUB-012"],
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "approval_date": "2026-07-24",
       "approval_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
       "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175",
-      "revision_history": []
+      "publication_date": "2026-07-24",
+      "publication_authorization": "repository_operator|PUBLISH|2026-07-24",
+      "revision_history": [
+        {
+          "date": "2026-07-24",
+          "content_sha256": "e8922e46c1fa5255bb2322f364986622459a02e67bcac507ecf0c966419b7b75",
+          "change": "Initial reader-first publication baseline."
+        }
+      ]
     },
     {
       "publication_id": "PUB-014",
@@ -343,11 +367,19 @@
         "knowledge/technology/Reader-Technology-and-Program-Registry.md"
       ],
       "related_publication_ids": ["PUB-005", "PUB-006", "PUB-012"],
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "approval_date": "2026-07-24",
       "approval_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
       "approval_record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175",
-      "revision_history": []
+      "publication_date": "2026-07-24",
+      "publication_authorization": "repository_operator|PUBLISH|2026-07-24",
+      "revision_history": [
+        {
+          "date": "2026-07-24",
+          "content_sha256": "3afd98f6c2887a29421eaf06d432e02a7c2ae1722ea9d5f66019cbfc41e57b64",
+          "change": "Initial reader-first publication baseline."
+        }
+      ]
     }
   ]
 }

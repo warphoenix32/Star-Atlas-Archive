@@ -3,14 +3,14 @@
   "review_id": "phase-5-editorial-wave-1",
   "as_of": "2026-07-23",
   "status": "HUMAN_SEMANTIC_REVIEW_COMPLETE",
-  "publication_status": "APPROVED_NOT_PUBLISHED",
-  "deployment_status": "NOT_STARTED",
+  "publication_status": "PUBLISHED",
+  "deployment_status": "AUTHORIZED_PENDING_MAIN_DEPLOYMENT",
   "articles": [
     {
       "publication_id": "PUB-005",
       "title": "From SCORE to Starbased: The Evolution of Star Atlas Strategy",
       "content_path": "publication/articles/from-score-to-starbased.md",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "risk_class": "R3",
       "human_approval": {
         "decision": "APPROVED",
@@ -18,6 +18,12 @@
         "approved_at": "2026-07-24",
         "reviewed_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
         "record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "publication_authorization": {
+        "decision": "PUBLISH",
+        "authorized_by": "repository_operator",
+        "authorized_at": "2026-07-24",
+        "record": "repository_operator|PUBLISH|2026-07-24"
       },
       "review_questions": [
         "Is the narrative accurate, useful and sufficiently comprehensive?",
@@ -29,7 +35,7 @@
       "publication_id": "PUB-008",
       "title": "Atlas Brew and the Town Hall Tradition",
       "content_path": "publication/articles/the-recorded-community.md",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "risk_class": "R3",
       "human_approval": {
         "decision": "APPROVED",
@@ -37,6 +43,12 @@
         "approved_at": "2026-07-24",
         "reviewed_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
         "record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "publication_authorization": {
+        "decision": "PUBLISH",
+        "authorized_by": "repository_operator",
+        "authorized_at": "2026-07-24",
+        "record": "repository_operator|PUBLISH|2026-07-24"
       },
       "review_questions": [
         "Is the narrative accurate, useful and sufficiently comprehensive?",
@@ -48,7 +60,7 @@
       "publication_id": "PUB-010",
       "title": "Welcome to the Galia Expanse",
       "content_path": "publication/articles/welcome-to-the-galia-expanse.md",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "risk_class": "R3",
       "human_approval": {
         "decision": "APPROVED",
@@ -56,6 +68,12 @@
         "approved_at": "2026-07-24",
         "reviewed_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
         "record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "publication_authorization": {
+        "decision": "PUBLISH",
+        "authorized_by": "repository_operator",
+        "authorized_at": "2026-07-24",
+        "record": "repository_operator|PUBLISH|2026-07-24"
       },
       "review_questions": [
         "Is the narrative accurate, useful and sufficiently comprehensive?",
@@ -67,7 +85,7 @@
       "publication_id": "PUB-011",
       "title": "The People of Star Atlas",
       "content_path": "publication/articles/people-of-star-atlas.md",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "risk_class": "R3",
       "human_approval": {
         "decision": "APPROVED",
@@ -75,6 +93,12 @@
         "approved_at": "2026-07-24",
         "reviewed_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
         "record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "publication_authorization": {
+        "decision": "PUBLISH",
+        "authorized_by": "repository_operator",
+        "authorized_at": "2026-07-24",
+        "record": "repository_operator|PUBLISH|2026-07-24"
       },
       "review_questions": [
         "Is the narrative accurate, useful and sufficiently comprehensive?",
@@ -86,7 +110,7 @@
       "publication_id": "PUB-012",
       "title": "What Is Star Atlas?",
       "content_path": "publication/articles/what-is-star-atlas.md",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "risk_class": "R2",
       "human_approval": {
         "decision": "APPROVED",
@@ -94,6 +118,12 @@
         "approved_at": "2026-07-24",
         "reviewed_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
         "record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "publication_authorization": {
+        "decision": "PUBLISH",
+        "authorized_by": "repository_operator",
+        "authorized_at": "2026-07-24",
+        "record": "repository_operator|PUBLISH|2026-07-24"
       },
       "review_questions": [
         "Is the narrative accurate, useful and sufficiently comprehensive?",
@@ -105,7 +135,7 @@
       "publication_id": "PUB-013",
       "title": "The Three Factions of Star Atlas",
       "content_path": "publication/articles/three-factions-of-star-atlas.md",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "risk_class": "R2",
       "human_approval": {
         "decision": "APPROVED",
@@ -113,6 +143,12 @@
         "approved_at": "2026-07-24",
         "reviewed_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
         "record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "publication_authorization": {
+        "decision": "PUBLISH",
+        "authorized_by": "repository_operator",
+        "authorized_at": "2026-07-24",
+        "record": "repository_operator|PUBLISH|2026-07-24"
       },
       "review_questions": [
         "Is the narrative accurate, useful and sufficiently comprehensive?",
@@ -124,7 +160,7 @@
       "publication_id": "PUB-014",
       "title": "The Unreal Engine Journey",
       "content_path": "publication/articles/unreal-engine-journey.md",
-      "status": "APPROVED",
+      "status": "PUBLISHED",
       "risk_class": "R2",
       "human_approval": {
         "decision": "APPROVED",
@@ -132,6 +168,12 @@
         "approved_at": "2026-07-24",
         "reviewed_commit": "44a85a28e31757ec73138f86aa31bc5f6f158175",
         "record": "repository_operator|APPROVED|2026-07-24|44a85a28e31757ec73138f86aa31bc5f6f158175"
+      },
+      "publication_authorization": {
+        "decision": "PUBLISH",
+        "authorized_by": "repository_operator",
+        "authorized_at": "2026-07-24",
+        "record": "repository_operator|PUBLISH|2026-07-24"
       },
       "review_questions": [
         "Is the narrative accurate, useful and sufficiently comprehensive?",
@@ -155,5 +197,5 @@
     }
   ],
   "human_adjudication_required": false,
-  "publication_authorization_required": true
+  "publication_authorization_required": false
 }
